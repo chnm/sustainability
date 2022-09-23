@@ -1,0 +1,2045 @@
+/* No files to import found in abstractions/**\/* */
+/* line 1, ../sass/base/_media.scss */
+img, media {
+  max-width: 100%; }
+
+/* line 1, ../sass/base/_typography.scss */
+html {
+  font-size: 15px;
+  line-height: 1.3;
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  @media print {
+    /* line 1, ../sass/base/_typography.scss */
+    html {
+      font-size: 12px;
+      color: #000; } }
+
+@media (min-width: 1px) and (max-width: 568px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1, h2, h3, h4, h5, h6 {
+    margin-left: 0.8em;
+    margin-right: 0.8em; } }
+
+/* line 18, ../sass/base/_typography.scss */
+h2 {
+  font-size: 1.5em;
+  font-weight: 100;
+  text-transform: uppercase;
+  border-top: 0.1em solid #8f8f8f;
+  line-height: 0;
+  padding: 0;
+  letter-spacing: 2px; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 18, ../sass/base/_typography.scss */
+    h2 {
+      border-top: none;
+      line-height: 1.5; } }
+  /* line 30, ../sass/base/_typography.scss */
+  h2 span {
+    padding-right: 0.5em;
+    background: #fff; }
+
+/* line 36, ../sass/base/_typography.scss */
+h4 {
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0.5em 0;
+  padding: 0; }
+
+/* line 44, ../sass/base/_typography.scss */
+a {
+  text-decoration: none; }
+
+/* line 48, ../sass/base/_typography.scss */
+.button {
+  background-color: #f5821f;
+  color: #fff;
+  border: medium none;
+  border-radius: 0.3em;
+  margin: 0;
+  padding: 0.4em 0.8em;
+  text-transform: uppercase; }
+  /* line 56, ../sass/base/_typography.scss */
+  .button a {
+    color: #fff; }
+
+/* line 61, ../sass/base/_typography.scss */
+.right {
+  text-align: right;
+  margin-top: 1em; }
+
+/* line 65, ../sass/base/_typography.scss */
+.left {
+  text-align: left;
+  margin-top: 1em; }
+
+@media (min-width: 1px) and (max-width: 568px) {
+  /* line 69, ../sass/base/_typography.scss */
+  p {
+    margin-left: 0.8em;
+    margin-right: 0.8em; } }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 1, 2016 4:19AM
+    Author     : jlee
+*/
+/* line 11, ../sass/base/amboyna.scss */
+.l-header, .l-main, .l-footer {
+  min-width: 100%; }
+
+/* line 15, ../sass/base/amboyna.scss */
+iframe {
+  width: 100%; }
+
+/* line 22, ../sass/base/amboyna.scss */
+.l-header {
+  background-color: #12294e;
+  margin-bottom: 0 !important; }
+  /* line 25, ../sass/base/amboyna.scss */
+  .l-header .headwrap {
+    float: none;
+    margin: 0 auto;
+    max-width: 1100px; }
+  /* line 30, ../sass/base/amboyna.scss */
+  .l-header .l-branding {
+    width: auto;
+    margin-right: auto;
+    float: none;
+    display: inline-block; }
+  /* line 36, ../sass/base/amboyna.scss */
+  .l-header .l-region--header {
+    float: right;
+    position: relative;
+    width: auto;
+    margin-right: auto; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 36, ../sass/base/amboyna.scss */
+      .l-header .l-region--header {
+        padding-bottom: 1em;
+        float: none; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 36, ../sass/base/amboyna.scss */
+      .l-header .l-region--header {
+        padding-bottom: 1em;
+        float: none; } }
+    /* line 49, ../sass/base/amboyna.scss */
+    .l-header .l-region--header .pane-system-main-menu {
+      display: inline-block; }
+    /* line 52, ../sass/base/amboyna.scss */
+    .l-header .l-region--header .pane-search-form {
+      display: none;
+      top: 1.8em;
+      position: absolute;
+      left: 31.5em; }
+      /* line 57, ../sass/base/amboyna.scss */
+      .l-header .l-region--header .pane-search-form .form-submit {
+        display: none; }
+  /* line 62, ../sass/base/amboyna.scss */
+  .l-header .frontlogo {
+    margin: 0;
+    padding: 0.8em 0.5em 0.4em;
+    text-align: center; }
+    /* line 63, ../sass/base/amboyna.scss */
+    .l-header .frontlogo .print {
+      display: none; }
+    @media print {
+      /* line 67, ../sass/base/amboyna.scss */
+      .l-header .frontlogo img {
+        display: none; }
+      /* line 70, ../sass/base/amboyna.scss */
+      .l-header .frontlogo .print {
+        display: block; } }
+  /* line 78, ../sass/base/amboyna.scss */
+  .l-header .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 2em 2em 0 0; }
+    @media print {
+      /* line 78, ../sass/base/amboyna.scss */
+      .l-header .menu {
+        display: none; } }
+    /* line 85, ../sass/base/amboyna.scss */
+    .l-header .menu li {
+      border-right: 0.1em solid white;
+      display: inline-block;
+      list-style: outside none none;
+      padding-left: 1em;
+      padding-right: 1em; }
+      /* line 91, ../sass/base/amboyna.scss */
+      .l-header .menu li a {
+        color: #fff;
+        font-size: 0.9em;
+        font-weight: 300;
+        text-transform: uppercase; }
+    /* line 98, ../sass/base/amboyna.scss */
+    .l-header .menu .last.leaf {
+      border-right: 0 none; }
+    /* line 102, ../sass/base/amboyna.scss */
+    .l-header .menu .magglass img {
+      vertical-align: middle; }
+
+/* line 108, ../sass/base/amboyna.scss */
+.l-region--footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  float: none;
+  text-align: center; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 108, ../sass/base/amboyna.scss */
+    .l-region--footer {
+      margin-left: 0.8em;
+      margin-right: 0.8em; } }
+  @media (min-width: 569px) and (max-width: 1024px) {
+    /* line 108, ../sass/base/amboyna.scss */
+    .l-region--footer {
+      margin-left: 1em;
+      margin-right: 1em; } }
+  /* line 121, ../sass/base/amboyna.scss */
+  .l-region--footer .foot, .l-region--footer .foot:before {
+    content: "";
+    height: 1px;
+    background: -moz-linear-gradient(left, #FFFFFF 0%, #000000 50%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(left, #FFFFFF 0%, #000000 50%, #FFFFFF 100%);
+    background: linear-gradient(to right, #ffffff 0%, #000000 50%, #ffffff 100%);
+    width: 100%;
+    display: block; }
+  /* line 130, ../sass/base/amboyna.scss */
+  .l-region--footer .footinfo {
+    padding-bottom: 2em;
+    padding-top: 2em; }
+    /* line 133, ../sass/base/amboyna.scss */
+    .l-region--footer .footinfo p {
+      color: #959595;
+      padding: 0;
+      margin: 0; }
+      /* line 137, ../sass/base/amboyna.scss */
+      .l-region--footer .footinfo p a {
+        color: #5a6a83;
+        text-decoration: underline; }
+    /* line 142, ../sass/base/amboyna.scss */
+    .l-region--footer .footinfo .right {
+      float: right; }
+    /* line 145, ../sass/base/amboyna.scss */
+    .l-region--footer .footinfo .left {
+      float: left; }
+    /* line 148, ../sass/base/amboyna.scss */
+    .l-region--footer .footinfo .flogo {
+      margin: 0 1em;
+      vertical-align: middle;
+      width: 12em; }
+
+/* line 157, ../sass/base/amboyna.scss */
+.shadowbox {
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  box-shadow: -1px -1px 3px #888888;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1.5em; }
+  @media print {
+    /* line 157, ../sass/base/amboyna.scss */
+    .shadowbox {
+      box-shadow: none;
+      margin: 0; } }
+
+/* line 170, ../sass/base/amboyna.scss */
+.imglightbox {
+  opacity: 0.9;
+  pointer-events: none;
+  background: transparent url("../images/magnifying-iconw.png") no-repeat scroll center center; }
+  @media print {
+    /* line 170, ../sass/base/amboyna.scss */
+    .imglightbox {
+      display: none; } }
+
+/* line 180, ../sass/base/amboyna.scss */
+.breadcrumb {
+  float: none;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding-bottom: 1em;
+  padding-top: 0.5em; }
+  /* line 186, ../sass/base/amboyna.scss */
+  .breadcrumb a {
+    color: #5a6a83; }
+  /* line 189, ../sass/base/amboyna.scss */
+  .breadcrumb a.current {
+    color: #959595; }
+
+/* line 198, ../sass/base/amboyna.scss */
+.front .l-header {
+  margin-bottom: 20px !important; }
+/* line 201, ../sass/base/amboyna.scss */
+.front .l-content {
+  float: none;
+  margin: 0 auto;
+  max-width: 1100px; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 201, ../sass/base/amboyna.scss */
+    .front .l-content {
+      margin-left: 0.5em;
+      margin-right: 0.5em; } }
+  @media (min-width: 569px) and (max-width: 1024px) {
+    /* line 201, ../sass/base/amboyna.scss */
+    .front .l-content {
+      margin-left: 1em;
+      margin-right: 1em; } }
+/* line 214, ../sass/base/amboyna.scss */
+.front .headerhero {
+  background: transparent url("../images/bannerimage.png") no-repeat scroll center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 300px;
+  margin: 0 auto; }
+  @media print {
+    /* line 214, ../sass/base/amboyna.scss */
+    .front .headerhero {
+      display: none; } }
+  /* line 226, ../sass/base/amboyna.scss */
+  .front .headerhero .herohead {
+    margin-bottom: -0.5em; }
+  /* line 229, ../sass/base/amboyna.scss */
+  .front .headerhero .herocredit {
+    bottom: 0.5em;
+    position: absolute;
+    right: 0.5em; }
+/* line 235, ../sass/base/amboyna.scss */
+.front .headerhero.print {
+  margin-top: 0;
+  padding-top: 0;
+  background-image: none;
+  display: none; }
+  @media print {
+    /* line 235, ../sass/base/amboyna.scss */
+    .front .headerhero.print {
+      display: block;
+      height: 150px; } }
+/* line 245, ../sass/base/amboyna.scss */
+.front .leanleft {
+  display: inline-block;
+  width: 60%;
+  margin-right: 1em; }
+  @media print {
+    /* line 247, ../sass/base/amboyna.scss */
+    .front .leanleft .vidblock {
+      display: none; } }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 245, ../sass/base/amboyna.scss */
+    .front .leanleft {
+      display: block;
+      width: 100%;
+      margin-left: 0.2em;
+      margin-right: 0.2em; } }
+/* line 262, ../sass/base/amboyna.scss */
+.front .fixright {
+  display: inline-block;
+  margin-left: 1em;
+  vertical-align: top; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 262, ../sass/base/amboyna.scss */
+    .front .fixright {
+      display: block;
+      width: 100%;
+      margin-left: 0.2em;
+      margin-right: 0.2em; } }
+  /* line 273, ../sass/base/amboyna.scss */
+  .front .fixright .view-exhibits .views-field-field-thumbnail {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 1em; }
+    /* line 277, ../sass/base/amboyna.scss */
+    .front .fixright .view-exhibits .views-field-field-thumbnail img {
+      width: 5.5em; }
+  /* line 281, ../sass/base/amboyna.scss */
+  .front .fixright .view-exhibits .views-field-title {
+    border-bottom: 0.1em solid #8f8f8f;
+    display: inline-block;
+    padding-bottom: 1em; }
+    /* line 285, ../sass/base/amboyna.scss */
+    .front .fixright .view-exhibits .views-field-title a {
+      color: #000;
+      text-decoration: underline;
+      font-size: 1.1em; }
+  /* line 292, ../sass/base/amboyna.scss */
+  .front .fixright .view-exhibits .views-row-last .views-field-title {
+    border: none; }
+
+/* line 307, ../sass/base/amboyna.scss */
+.page-node-38 .view-your-verdict .vtitle {
+  position: relative; }
+  @media print {
+    /* line 307, ../sass/base/amboyna.scss */
+    .page-node-38 .view-your-verdict .vtitle {
+      height: 150px; } }
+  /* line 312, ../sass/base/amboyna.scss */
+  .page-node-38 .view-your-verdict .vtitle img {
+    position: absolute;
+    z-index: -1;
+    height: 190px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-bottom: 1em; }
+  /* line 321, ../sass/base/amboyna.scss */
+  .page-node-38 .view-your-verdict .vtitle h4 {
+    float: none;
+    font-size: 2.3em;
+    font-weight: 500;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding-top: 3em;
+    color: #12294e;
+    padding-left: 0.5em; }
+/* line 332, ../sass/base/amboyna.scss */
+.page-node-38 .view-your-verdict .vcontent {
+  float: none;
+  margin: 3em auto;
+  max-width: 1100px;
+  padding-left: 1em;
+  padding-right: 1em; }
+  /* line 338, ../sass/base/amboyna.scss */
+  .page-node-38 .view-your-verdict .vcontent .view-verdict-list {
+    display: inline-block;
+    margin-top: 2em;
+    width: 42%; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 338, ../sass/base/amboyna.scss */
+      .page-node-38 .view-your-verdict .vcontent .view-verdict-list {
+        display: block;
+        width: 100%;
+        margin-left: 0.2em;
+        margin-right: 0.2em; } }
+    /* line 348, ../sass/base/amboyna.scss */
+    .page-node-38 .view-your-verdict .vcontent .view-verdict-list .vbutt {
+      background-color: #f5821f;
+      color: #fff;
+      display: block;
+      font-size: 1.5em;
+      margin: 0.85em 0;
+      padding: 0.4em 0.1em 0.4em 0.8em;
+      width: 93%; }
+      @media print {
+        /* line 348, ../sass/base/amboyna.scss */
+        .page-node-38 .view-your-verdict .vcontent .view-verdict-list .vbutt {
+          color: #000; } }
+      @media (min-width: 1px) and (max-width: 568px) {
+        /* line 348, ../sass/base/amboyna.scss */
+        .page-node-38 .view-your-verdict .vcontent .view-verdict-list .vbutt {
+          font-size: 1.1em;
+          width: 98%; } }
+      @media (min-width: 569px) and (max-width: 1024px) {
+        /* line 348, ../sass/base/amboyna.scss */
+        .page-node-38 .view-your-verdict .vcontent .view-verdict-list .vbutt {
+          font-size: 1.3em; } }
+  /* line 368, ../sass/base/amboyna.scss */
+  .page-node-38 .view-your-verdict .vcontent .vbody {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1em;
+    width: 56%; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 368, ../sass/base/amboyna.scss */
+      .page-node-38 .view-your-verdict .vcontent .vbody {
+        display: block;
+        width: 100%; } }
+    @media print {
+      /* line 377, ../sass/base/amboyna.scss */
+      .page-node-38 .view-your-verdict .vcontent .vbody .vidblock {
+        display: none; } }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 377, ../sass/base/amboyna.scss */
+      .page-node-38 .view-your-verdict .vcontent .vbody .vidblock {
+        margin-left: 0.8em;
+        margin-right: 0.8em; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 377, ../sass/base/amboyna.scss */
+      .page-node-38 .view-your-verdict .vcontent .vbody .vidblock {
+        margin-left: 1em;
+        margin-right: 1em; } }
+
+/* line 399, ../sass/base/amboyna.scss */
+.node-type-verdict-page .l-content {
+  float: none;
+  margin: 0 auto;
+  max-width: 1100px; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 399, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .l-content {
+      margin-left: 0.8em;
+      margin-right: 0.8em; } }
+  @media (min-width: 569px) and (max-width: 1024px) {
+    /* line 399, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .l-content {
+      margin-left: 1em;
+      margin-right: 1em; } }
+/* line 412, ../sass/base/amboyna.scss */
+.node-type-verdict-page .pane-node-book-nav {
+  margin-bottom: 7em; }
+  /* line 414, ../sass/base/amboyna.scss */
+  .node-type-verdict-page .pane-node-book-nav h2 {
+    font-size: 2em;
+    font-weight: 500;
+    padding-bottom: 1em;
+    text-align: center;
+    text-transform: capitalize; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 414, ../sass/base/amboyna.scss */
+      .node-type-verdict-page .pane-node-book-nav h2 {
+        padding: 0;
+        margin: 1em 0 0; } }
+    /* line 424, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .pane-node-book-nav h2 span {
+      padding-left: 0.5em; }
+      @media (min-width: 1px) and (max-width: 568px) {
+        /* line 424, ../sass/base/amboyna.scss */
+        .node-type-verdict-page .pane-node-book-nav h2 span {
+          padding: 0; } }
+  /* line 431, ../sass/base/amboyna.scss */
+  .node-type-verdict-page .pane-node-book-nav a {
+    background-color: #f5821f;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: 800;
+    padding: 0.5em 1em;
+    text-transform: capitalize;
+    width: 22em; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 431, ../sass/base/amboyna.scss */
+      .node-type-verdict-page .pane-node-book-nav a {
+        font-size: 1em;
+        margin-bottom: 1em; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 431, ../sass/base/amboyna.scss */
+      .node-type-verdict-page .pane-node-book-nav a {
+        font-size: 1.1em; } }
+/* line 450, ../sass/base/amboyna.scss */
+.node-type-verdict-page .view-verdict-display h2 {
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  text-transform: capitalize; }
+/* line 456, ../sass/base/amboyna.scss */
+.node-type-verdict-page .view-verdict-display .verq {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 456, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .verq {
+      font-size: 1.2em; } }
+/* line 464, ../sass/base/amboyna.scss */
+.node-type-verdict-page .view-verdict-display .vinfo {
+  margin: 3em 0 -1em; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 464, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vinfo {
+      margin: 0; } }
+  /* line 469, ../sass/base/amboyna.scss */
+  .node-type-verdict-page .view-verdict-display .vinfo h1 {
+    border-top: 0.1em solid #8f8f8f;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 0;
+    margin: 1em 0;
+    padding: 0;
+    text-align: center; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 469, ../sass/base/amboyna.scss */
+      .node-type-verdict-page .view-verdict-display .vinfo h1 {
+        border-top: none;
+        line-height: 1.2;
+        margin: 0;
+        padding-bottom: 0.3em; } }
+    /* line 483, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vinfo h1 span {
+      background: #fff none repeat scroll 0 0;
+      padding-left: 0.5em;
+      padding-right: 0.5em; }
+      @media (min-width: 1px) and (max-width: 568px) {
+        /* line 483, ../sass/base/amboyna.scss */
+        .node-type-verdict-page .view-verdict-display .vinfo h1 span {
+          padding: 0; } }
+  /* line 492, ../sass/base/amboyna.scss */
+  .node-type-verdict-page .view-verdict-display .vinfo p {
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.3;
+    margin: 1em auto;
+    max-width: 850px;
+    padding: 1em; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 492, ../sass/base/amboyna.scss */
+      .node-type-verdict-page .view-verdict-display .vinfo p {
+        font-size: 1.1em;
+        padding: 0;
+        margin: 0.5em 0; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 492, ../sass/base/amboyna.scss */
+      .node-type-verdict-page .view-verdict-display .vinfo p {
+        font-size: 1.2em; } }
+/* line 510, ../sass/base/amboyna.scss */
+.node-type-verdict-page .view-verdict-display .vtwosides .vargument {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  padding: 1em;
+  margin-right: 1em; }
+  @media print {
+    /* line 510, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vtwosides .vargument {
+      display: inline-block !important;
+      width: 45% !important;
+      clear: both;
+      float: none; } }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 510, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vtwosides .vargument {
+      display: block;
+      width: 100%;
+      margin: 0;
+      padding: 0; } }
+  @media (min-width: 569px) and (max-width: 1024px) {
+    /* line 510, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vtwosides .vargument {
+      display: block;
+      width: 100%; } }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 532, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vtwosides .vargument h2 {
+      padding: 0;
+      margin: 1em 0 0; } }
+  /* line 537, ../sass/base/amboyna.scss */
+  .node-type-verdict-page .view-verdict-display .vtwosides .vargument h2 span {
+    padding-left: 0.5em; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 537, ../sass/base/amboyna.scss */
+      .node-type-verdict-page .view-verdict-display .vtwosides .vargument h2 span {
+        padding: 0; } }
+/* line 545, ../sass/base/amboyna.scss */
+.node-type-verdict-page .view-verdict-display .vtwosides .vinfo {
+  background-color: #ebebeb;
+  line-height: 1.3;
+  padding: 1.5em 2em;
+  margin-top: 3em;
+  margin-bottom: 1em; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 545, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vtwosides .vinfo {
+      margin: 0;
+      padding: 1em; } }
+/* line 557, ../sass/base/amboyna.scss */
+.node-type-verdict-page .view-verdict-display .vtwosides .vsrc .vimgholder {
+  display: inline-block;
+  position: relative; }
+  @media print {
+    /* line 557, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vtwosides .vsrc .vimgholder {
+      display: none; } }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 557, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vtwosides .vsrc .vimgholder {
+      display: block;
+      margin: 0 auto;
+      text-align: center; } }
+  /* line 568, ../sass/base/amboyna.scss */
+  .node-type-verdict-page .view-verdict-display .vtwosides .vsrc .vimgholder .vimage {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+/* line 574, ../sass/base/amboyna.scss */
+.node-type-verdict-page .view-verdict-display .vtwosides .vsrc .vquote {
+  color: #7a7a7a;
+  display: inline-block;
+  font-family: "PT Serif",serif;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 0 1em;
+  vertical-align: top;
+  width: 64%; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 574, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vtwosides .vsrc .vquote {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      width: 100%; } }
+@media print {
+  /* line 592, ../sass/base/amboyna.scss */
+  .node-type-verdict-page .view-verdict-display .vcomm {
+    display: none; } }
+@media (min-width: 1px) and (max-width: 568px) {
+  /* line 596, ../sass/base/amboyna.scss */
+  .node-type-verdict-page .view-verdict-display .vcomm h2 {
+    padding: 0;
+    margin: 1em 0 0; } }
+/* line 601, ../sass/base/amboyna.scss */
+.node-type-verdict-page .view-verdict-display .vcomm h2 span {
+  padding-left: 0.5em; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 601, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vcomm h2 span {
+      padding: 0; } }
+/* line 608, ../sass/base/amboyna.scss */
+.node-type-verdict-page .view-verdict-display .vcomm .vcwidth {
+  max-width: 680px;
+  margin: 0 auto; }
+/* line 612, ../sass/base/amboyna.scss */
+.node-type-verdict-page .view-verdict-display .vcomm iframe {
+  display: block;
+  margin: 3em auto; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 612, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vcomm iframe {
+      margin: 0; } }
+/* line 620, ../sass/base/amboyna.scss */
+.node-type-verdict-page .view-verdict-display .vjudgement {
+  margin-top: 4em; }
+  @media print {
+    /* line 620, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vjudgement {
+      display: none; } }
+  /* line 625, ../sass/base/amboyna.scss */
+  .node-type-verdict-page .view-verdict-display .vjudgement h2 {
+    font-weight: 500; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 625, ../sass/base/amboyna.scss */
+      .node-type-verdict-page .view-verdict-display .vjudgement h2 {
+        padding: 0;
+        margin: 1em 0 0; } }
+    /* line 631, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vjudgement h2 span {
+      padding-left: 0.5em; }
+      @media (min-width: 1px) and (max-width: 568px) {
+        /* line 631, ../sass/base/amboyna.scss */
+        .node-type-verdict-page .view-verdict-display .vjudgement h2 span {
+          padding: 0; } }
+  /* line 638, ../sass/base/amboyna.scss */
+  .node-type-verdict-page .view-verdict-display .vjudgement .vbut {
+    margin-bottom: 5em;
+    margin-top: 4em;
+    text-align: center; }
+    /* line 642, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vjudgement .vbut .button {
+      text-transform: capitalize;
+      background: #f5821f none repeat scroll 0 0;
+      border-radius: 90%;
+      color: white;
+      display: inline-block;
+      font-size: 1.3em;
+      font-weight: 800;
+      margin-right: 2em;
+      margin-left: 2em;
+      margin-top: 1em;
+      padding: 3em 1em;
+      text-align: center;
+      width: 8em;
+      height: 8em;
+      vertical-align: text-top; }
+    /* line 659, ../sass/base/amboyna.scss */
+    .node-type-verdict-page .view-verdict-display .vjudgement .vbut .clickVote {
+      background-color: #f5821f; }
+
+/* line 668, ../sass/base/amboyna.scss */
+.page-node-65 h1 {
+  border-top: 0.1em solid #8f8f8f;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 0;
+  margin: 1em 0;
+  padding: 0;
+  text-align: center; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 668, ../sass/base/amboyna.scss */
+    .page-node-65 h1 {
+      border-top: none;
+      line-height: 1.2;
+      margin: 0;
+      font-size: 1.5em; } }
+  /* line 682, ../sass/base/amboyna.scss */
+  .page-node-65 h1 span {
+    background: #fff none repeat scroll 0 0;
+    font-size: 1.4em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em; }
+/* line 691, ../sass/base/amboyna.scss */
+.page-node-65 .vvote {
+  float: none;
+  margin: 0 auto;
+  max-width: 1100px; }
+  /* line 695, ../sass/base/amboyna.scss */
+  .page-node-65 .vvote .vbut {
+    display: inline-block;
+    margin: 0.5em 0.3em;
+    padding: 1em 2em;
+    width: 48%;
+    background-color: #f5f5f5; }
+    @media print {
+      /* line 695, ../sass/base/amboyna.scss */
+      .page-node-65 .vvote .vbut {
+        display: inline-block !important;
+        width: 48% !important; } }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 695, ../sass/base/amboyna.scss */
+      .page-node-65 .vvote .vbut {
+        display: block;
+        width: 100%;
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+        padding: 0.2em 0.5em; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 695, ../sass/base/amboyna.scss */
+      .page-node-65 .vvote .vbut {
+        display: block;
+        width: 100%;
+        margin-left: 0.2em;
+        margin-right: 0.2em; } }
+    /* line 718, ../sass/base/amboyna.scss */
+    .page-node-65 .vvote .vbut h4 {
+      font-size: 1.2em;
+      text-transform: uppercase; }
+      @media (min-width: 1px) and (max-width: 568px) {
+        /* line 718, ../sass/base/amboyna.scss */
+        .page-node-65 .vvote .vbut h4 {
+          font-size: 1em;
+          font-weight: 500;
+          text-align: center; } }
+    /* line 727, ../sass/base/amboyna.scss */
+    .page-node-65 .vvote .vbut .vote {
+      display: inline-block;
+      text-align: center;
+      width: 32%; }
+      /* line 731, ../sass/base/amboyna.scss */
+      .page-node-65 .vvote .vbut .vote .circle {
+        border-radius: 3em;
+        height: 5em;
+        margin: 0.2em auto;
+        width: 5em;
+        background-color: #d7d7d7; }
+        @media print {
+          /* line 731, ../sass/base/amboyna.scss */
+          .page-node-65 .vvote .vbut .vote .circle {
+            display: none; } }
+      /* line 741, ../sass/base/amboyna.scss */
+      .page-node-65 .vvote .vbut .vote p {
+        margin: 0;
+        text-transform: uppercase; }
+        @media print {
+          /* line 741, ../sass/base/amboyna.scss */
+          .page-node-65 .vvote .vbut .vote p {
+            color: #d7d7d7 !important; } }
+        @media (min-width: 1px) and (max-width: 568px) {
+          /* line 741, ../sass/base/amboyna.scss */
+          .page-node-65 .vvote .vbut .vote p {
+            font-size: 0.85em; } }
+    @media print {
+      /* line 754, ../sass/base/amboyna.scss */
+      .page-node-65 .vvote .vbut .clickVote p {
+        font-weight: 800 !important;
+        color: #000 !important; } }
+    /* line 759, ../sass/base/amboyna.scss */
+    .page-node-65 .vvote .vbut .clickVote .circle {
+      background-color: #f5821f; }
+  /* line 764, ../sass/base/amboyna.scss */
+  .page-node-65 .vvote .final {
+    background-color: #fff;
+    text-align: center;
+    width: 100%; }
+    @media print {
+      /* line 764, ../sass/base/amboyna.scss */
+      .page-node-65 .vvote .final {
+        margin: 0 auto;
+        text-align: center !important; } }
+    /* line 772, ../sass/base/amboyna.scss */
+    .page-node-65 .vvote .final h4 {
+      font-size: 1.5em; }
+    /* line 775, ../sass/base/amboyna.scss */
+    .page-node-65 .vvote .final .button {
+      text-transform: capitalize;
+      background: #f5821f none repeat scroll 0 0;
+      border-radius: 90%;
+      color: white;
+      display: inline-block;
+      font-size: 1.3em;
+      font-weight: 800;
+      margin-right: 2em;
+      margin-left: 2em;
+      margin-top: 1em;
+      padding: 3em 1em;
+      text-align: center;
+      width: 8em;
+      height: 8em;
+      vertical-align: text-top; }
+      @media print {
+        /* line 775, ../sass/base/amboyna.scss */
+        .page-node-65 .vvote .final .button {
+          width: 30% !important;
+          display: inline-block !important;
+          margin: 0;
+          height: 10px; } }
+    /* line 798, ../sass/base/amboyna.scss */
+    .page-node-65 .vvote .final .clickVote {
+      background-color: #f5821f; }
+      @media print {
+        /* line 798, ../sass/base/amboyna.scss */
+        .page-node-65 .vvote .final .clickVote {
+          font-weight: 800 !important;
+          color: #000 !important; } }
+/* line 807, ../sass/base/amboyna.scss */
+.page-node-65 #final-results {
+  text-align: center;
+  float: none;
+  margin: 0 auto;
+  max-width: 1100px; }
+  /* line 812, ../sass/base/amboyna.scss */
+  .page-node-65 #final-results .final-result {
+    display: inline-block;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    width: 8em; }
+  /* line 818, ../sass/base/amboyna.scss */
+  .page-node-65 #final-results .final-result, .page-node-65 #final-results .final-total {
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase; }
+    /* line 822, ../sass/base/amboyna.scss */
+    .page-node-65 #final-results .final-result span, .page-node-65 #final-results .final-total span {
+      display: block;
+      font-weight: 400;
+      margin-right: 0.5em; }
+  /* line 828, ../sass/base/amboyna.scss */
+  .page-node-65 #final-results .final-total {
+    margin-top: 1.5em;
+    font-size: 1.7em; }
+    /* line 831, ../sass/base/amboyna.scss */
+    .page-node-65 #final-results .final-total span {
+      display: inline; }
+@media print {
+  /* line 836, ../sass/base/amboyna.scss */
+  .page-node-65 .vidblock {
+    display: none; } }
+@media (min-width: 1px) and (max-width: 568px) {
+  /* line 836, ../sass/base/amboyna.scss */
+  .page-node-65 .vidblock {
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+    margin-top: 1em; } }
+@media (min-width: 569px) and (max-width: 1024px) {
+  /* line 836, ../sass/base/amboyna.scss */
+  .page-node-65 .vidblock {
+    margin-left: 1em;
+    margin-right: 1em; } }
+/* line 849, ../sass/base/amboyna.scss */
+.page-node-65 .vidblock .pvcontent {
+  float: none;
+  margin: 0 auto;
+  max-width: 560px; }
+/* line 854, ../sass/base/amboyna.scss */
+.page-node-65 .vidblock h2 {
+  font-size: 2em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 1.5em 0;
+  text-align: center;
+  text-transform: capitalize; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 854, ../sass/base/amboyna.scss */
+    .page-node-65 .vidblock h2 {
+      margin: 0;
+      padding: 0; } }
+  /* line 859, ../sass/base/amboyna.scss */
+  .page-node-65 .vidblock h2 span {
+    padding-left: 0.5em; }
+
+/* line 874, ../sass/base/amboyna.scss */
+.page-node-39 .etitle {
+  position: relative; }
+  /* line 876, ../sass/base/amboyna.scss */
+  .page-node-39 .etitle img {
+    position: absolute;
+    z-index: -1;
+    height: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+  /* line 884, ../sass/base/amboyna.scss */
+  .page-node-39 .etitle h4 {
+    float: none;
+    font-size: 2.3em;
+    font-weight: 500;
+    margin: 0 auto;
+    max-width: 1100px;
+    color: #12294e;
+    padding-left: 0.1em; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 884, ../sass/base/amboyna.scss */
+      .page-node-39 .etitle h4 {
+        margin-left: 0.8em;
+        margin-right: 0.8em;
+        font-size: 2em; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 884, ../sass/base/amboyna.scss */
+      .page-node-39 .etitle h4 {
+        margin-left: 1em;
+        margin-right: 1em; } }
+/* line 904, ../sass/base/amboyna.scss */
+.page-node-39 .ewrapper {
+  float: none;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+/* line 911, ../sass/base/amboyna.scss */
+.page-node-39 .eintro {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 1em 0; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 911, ../sass/base/amboyna.scss */
+    .page-node-39 .eintro {
+      padding: 0; } }
+/* line 921, ../sass/base/amboyna.scss */
+.page-node-39 .edoctopic h2 {
+  font-size: 1.7em;
+  font-weight: 300; }
+/* line 925, ../sass/base/amboyna.scss */
+.page-node-39 .edoctopic .view-exhibit-topic {
+  margin-top: 2em;
+  padding-bottom: 2em; }
+/* line 929, ../sass/base/amboyna.scss */
+.page-node-39 .edoctopic .etblock {
+  margin-top: 1.5em;
+  padding-top: 1em; }
+  /* line 932, ../sass/base/amboyna.scss */
+  .page-node-39 .edoctopic .etblock .etimg {
+    display: inline-block;
+    width: 39%; }
+    @media print {
+      /* line 932, ../sass/base/amboyna.scss */
+      .page-node-39 .edoctopic .etblock .etimg {
+        display: inline-block !important;
+        width: 39% !important; } }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 932, ../sass/base/amboyna.scss */
+      .page-node-39 .edoctopic .etblock .etimg {
+        display: block;
+        width: 100%;
+        margin-left: 0.2em;
+        margin-right: 0.2em; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 932, ../sass/base/amboyna.scss */
+      .page-node-39 .edoctopic .etblock .etimg {
+        margin-left: 0.2em;
+        margin-right: 0.2em; } }
+  /* line 950, ../sass/base/amboyna.scss */
+  .page-node-39 .edoctopic .etblock .etinfo {
+    display: inline-block;
+    width: 59%;
+    vertical-align: top;
+    margin-left: 1em; }
+    @media print {
+      /* line 950, ../sass/base/amboyna.scss */
+      .page-node-39 .edoctopic .etblock .etinfo {
+        display: inline-block !important;
+        width: 59% !important; } }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 950, ../sass/base/amboyna.scss */
+      .page-node-39 .edoctopic .etblock .etinfo {
+        display: block;
+        width: 100%;
+        margin-left: 0.2em;
+        margin-right: 0.2em; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 950, ../sass/base/amboyna.scss */
+      .page-node-39 .edoctopic .etblock .etinfo {
+        width: 58%;
+        margin-left: 0.2em;
+        margin-right: 0.2em; } }
+    /* line 970, ../sass/base/amboyna.scss */
+    .page-node-39 .edoctopic .etblock .etinfo h5 {
+      font-size: 1em;
+      line-height: 0;
+      margin: 0.5em 0 1.6em;
+      text-transform: uppercase; }
+    /* line 976, ../sass/base/amboyna.scss */
+    .page-node-39 .edoctopic .etblock .etinfo .etdetail {
+      font-size: 1.1em;
+      letter-spacing: 0.5px;
+      line-height: 1.4; }
+
+/* line 987, ../sass/base/amboyna.scss */
+.node-type-exhibit-page .etitle {
+  position: relative; }
+  /* line 989, ../sass/base/amboyna.scss */
+  .node-type-exhibit-page .etitle img {
+    position: absolute;
+    z-index: -1;
+    height: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+  /* line 997, ../sass/base/amboyna.scss */
+  .node-type-exhibit-page .etitle h4 {
+    float: none;
+    font-size: 2.3em;
+    font-weight: 500;
+    margin: 0 auto;
+    max-width: 1100px;
+    color: #12294e;
+    padding-top: 1em;
+    padding-left: 0.5em; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 997, ../sass/base/amboyna.scss */
+      .node-type-exhibit-page .etitle h4 {
+        margin-left: 0.8em;
+        margin-right: 0.8em;
+        font-size: 2em; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 997, ../sass/base/amboyna.scss */
+      .node-type-exhibit-page .etitle h4 {
+        margin-left: 1em;
+        margin-right: 1em; } }
+/* line 1017, ../sass/base/amboyna.scss */
+.node-type-exhibit-page .ewrapper {
+  float: none;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 1017, ../sass/base/amboyna.scss */
+    .node-type-exhibit-page .ewrapper {
+      margin-top: 3em; } }
+/* line 1027, ../sass/base/amboyna.scss */
+.node-type-exhibit-page .eintro {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 2em 0 1em; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 1027, ../sass/base/amboyna.scss */
+    .node-type-exhibit-page .eintro {
+      padding: 0; } }
+/* line 1037, ../sass/base/amboyna.scss */
+.node-type-exhibit-page .edoctopic h2 {
+  font-size: 1.7em;
+  font-weight: 300; }
+/* line 1041, ../sass/base/amboyna.scss */
+.node-type-exhibit-page .edoctopic .view-exhibit-topic {
+  margin-top: 2em;
+  padding-bottom: 2em; }
+/* line 1045, ../sass/base/amboyna.scss */
+.node-type-exhibit-page .edoctopic .etblock {
+  margin-top: 1.5em;
+  padding-top: 1em; }
+  /* line 1048, ../sass/base/amboyna.scss */
+  .node-type-exhibit-page .edoctopic .etblock .etimg {
+    display: inline-block;
+    width: 39%; }
+    @media print {
+      /* line 1048, ../sass/base/amboyna.scss */
+      .node-type-exhibit-page .edoctopic .etblock .etimg {
+        display: inline-block !important;
+        width: 39% !important; } }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 1048, ../sass/base/amboyna.scss */
+      .node-type-exhibit-page .edoctopic .etblock .etimg {
+        display: block;
+        width: 100%;
+        margin-left: 0.2em;
+        margin-right: 0.2em; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 1048, ../sass/base/amboyna.scss */
+      .node-type-exhibit-page .edoctopic .etblock .etimg {
+        margin-left: 0.2em;
+        margin-right: 0.2em; } }
+  /* line 1066, ../sass/base/amboyna.scss */
+  .node-type-exhibit-page .edoctopic .etblock .etinfo {
+    display: inline-block;
+    width: 59%;
+    vertical-align: top;
+    margin-left: 1em; }
+    @media print {
+      /* line 1066, ../sass/base/amboyna.scss */
+      .node-type-exhibit-page .edoctopic .etblock .etinfo {
+        display: inline-block !important;
+        width: 59% !important; } }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 1066, ../sass/base/amboyna.scss */
+      .node-type-exhibit-page .edoctopic .etblock .etinfo {
+        display: block;
+        width: 100%;
+        margin-left: 0.2em;
+        margin-right: 0.2em; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 1066, ../sass/base/amboyna.scss */
+      .node-type-exhibit-page .edoctopic .etblock .etinfo {
+        width: 58%;
+        margin-left: 0.2em;
+        margin-right: 0.2em; } }
+    /* line 1086, ../sass/base/amboyna.scss */
+    .node-type-exhibit-page .edoctopic .etblock .etinfo h5 {
+      font-size: 1em;
+      line-height: 0;
+      margin: 0.5em 0 1.6em;
+      text-transform: uppercase; }
+    /* line 1092, ../sass/base/amboyna.scss */
+    .node-type-exhibit-page .edoctopic .etblock .etinfo .etdetail {
+      font-size: 1.1em;
+      letter-spacing: 0.5px;
+      line-height: 1.4; }
+
+/* line 1106, ../sass/base/amboyna.scss */
+.node-type-topic-page .button {
+  font-size: 0.7em;
+  font-weight: 600;
+  padding: 0.4em; }
+/* line 1111, ../sass/base/amboyna.scss */
+.node-type-topic-page .ttitle {
+  position: relative; }
+  @media print {
+    /* line 1111, ../sass/base/amboyna.scss */
+    .node-type-topic-page .ttitle {
+      height: 100px; } }
+  /* line 1116, ../sass/base/amboyna.scss */
+  .node-type-topic-page .ttitle img {
+    position: absolute;
+    z-index: -1;
+    height: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+  /* line 1124, ../sass/base/amboyna.scss */
+  .node-type-topic-page .ttitle h4 {
+    float: none;
+    font-size: 2.3em;
+    font-weight: 500;
+    margin: 0 auto;
+    max-width: 1100px;
+    color: #12294e;
+    padding-top: 1em;
+    padding-left: 0.5em; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 1124, ../sass/base/amboyna.scss */
+      .node-type-topic-page .ttitle h4 {
+        margin-left: 0.8em;
+        margin-right: 0.8em;
+        font-size: 2em; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 1124, ../sass/base/amboyna.scss */
+      .node-type-topic-page .ttitle h4 {
+        margin-left: 1em;
+        margin-right: 1em; } }
+/* line 1144, ../sass/base/amboyna.scss */
+.node-type-topic-page .tintro {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.5;
+  float: none;
+  padding: 2em 0 1em;
+  margin: 1em auto;
+  max-width: 1100px; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 1144, ../sass/base/amboyna.scss */
+    .node-type-topic-page .tintro {
+      padding: 0; } }
+/* line 1156, ../sass/base/amboyna.scss */
+.node-type-topic-page .srctit {
+  margin-top: -1.2em;
+  background-color: #5a6a83;
+  color: #fff; }
+  /* line 1160, ../sass/base/amboyna.scss */
+  .node-type-topic-page .srctit h3 {
+    font-size: 1.7em;
+    font-weight: 300;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0.2em 0.3em; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 1160, ../sass/base/amboyna.scss */
+      .node-type-topic-page .srctit h3 {
+        margin-left: 0.8em;
+        margin-right: 0.8em; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 1160, ../sass/base/amboyna.scss */
+      .node-type-topic-page .srctit h3 {
+        margin-left: 1em;
+        margin-right: 1em; } }
+    /* line 1174, ../sass/base/amboyna.scss */
+    .node-type-topic-page .srctit h3 strong {
+      text-transform: uppercase; }
+/* line 1180, ../sass/base/amboyna.scss */
+.node-type-topic-page .tsource .views-row {
+  margin-bottom: 1em;
+  padding-bottom: 2em; }
+  /* line 1183, ../sass/base/amboyna.scss */
+  .node-type-topic-page .tsource .views-row h2 {
+    font-weight: 300; }
+/* line 1187, ../sass/base/amboyna.scss */
+.node-type-topic-page .tsource .views-row-odd {
+  background-color: #eceef1; }
+  /* line 1189, ../sass/base/amboyna.scss */
+  .node-type-topic-page .tsource .views-row-odd h2 span {
+    background-color: #eceef1; }
+/* line 1194, ../sass/base/amboyna.scss */
+.node-type-topic-page .tsource .srcblock .srcana {
+  float: none;
+  margin: 1em auto;
+  max-width: 1100px;
+  font-size: 1.1em;
+  padding-left: 1em;
+  padding-right: 1em; }
+  /* line 1201, ../sass/base/amboyna.scss */
+  .node-type-topic-page .tsource .srcblock .srcana h2 {
+    font-size: 1.6em;
+    margin: 1.5em 0 1em; }
+/* line 1207, ../sass/base/amboyna.scss */
+.node-type-topic-page .tsource .srcblock .view-toipc-source-image .views-row, .node-type-topic-page .tsource .srcblock .view-toipc-source-image-wo-translation .views-row {
+  margin: 0;
+  padding: 0; }
+/* line 1211, ../sass/base/amboyna.scss */
+.node-type-topic-page .tsource .srcblock .view-toipc-source-image .views-row-odd, .node-type-topic-page .tsource .srcblock .view-toipc-source-image-wo-translation .views-row-odd {
+  background-color: #fff; }
+/* line 1215, ../sass/base/amboyna.scss */
+.node-type-topic-page .tsource .srcblock .srcfile {
+  float: none;
+  margin: 1em auto;
+  max-width: 1200px; }
+  /* line 1219, ../sass/base/amboyna.scss */
+  .node-type-topic-page .tsource .srcblock .srcfile .srcimgt {
+    display: inline-block;
+    position: relative;
+    width: 35%; }
+    @media print {
+      /* line 1219, ../sass/base/amboyna.scss */
+      .node-type-topic-page .tsource .srcblock .srcfile .srcimgt {
+        display: inline-block !important;
+        width: 35% !important; } }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 1219, ../sass/base/amboyna.scss */
+      .node-type-topic-page .tsource .srcblock .srcfile .srcimgt {
+        display: block;
+        width: 100%;
+        margin-left: 0.2em;
+        margin-right: 0.2em; } }
+    /* line 1233, ../sass/base/amboyna.scss */
+    .node-type-topic-page .tsource .srcblock .srcfile .srcimgt .srcimage {
+      position: absolute;
+      width: 100%;
+      height: 100%; }
+  /* line 1239, ../sass/base/amboyna.scss */
+  .node-type-topic-page .tsource .srcblock .srcfile .srctranslate {
+    color: #6a6a6a;
+    display: inline-block;
+    font-family: "PT Serif",serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 1em;
+    vertical-align: top;
+    width: 60%; }
+    @media print {
+      /* line 1239, ../sass/base/amboyna.scss */
+      .node-type-topic-page .tsource .srcblock .srcfile .srctranslate {
+        display: inline-block !important;
+        width: 60% !important; } }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 1239, ../sass/base/amboyna.scss */
+      .node-type-topic-page .tsource .srcblock .srcfile .srctranslate {
+        display: block;
+        width: 100%;
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+        font-size: 1em; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 1239, ../sass/base/amboyna.scss */
+      .node-type-topic-page .tsource .srcblock .srcfile .srctranslate {
+        margin-left: 0.5em;
+        width: 56%; } }
+    /* line 1264, ../sass/base/amboyna.scss */
+    .node-type-topic-page .tsource .srcblock .srcfile .srctranslate h5 {
+      font-size: 1.5em;
+      font-weight: 600;
+      letter-spacing: 2px;
+      line-height: 0;
+      margin: 0.5em 0 1em;
+      padding: 0;
+      text-transform: uppercase; }
+      @media (min-width: 1px) and (max-width: 568px) {
+        /* line 1264, ../sass/base/amboyna.scss */
+        .node-type-topic-page .tsource .srcblock .srcfile .srctranslate h5 {
+          font-size: 1.1em; } }
+      @media (min-width: 569px) and (max-width: 1024px) {
+        /* line 1264, ../sass/base/amboyna.scss */
+        .node-type-topic-page .tsource .srcblock .srcfile .srctranslate h5 {
+          font-size: 1.3em; } }
+  /* line 1280, ../sass/base/amboyna.scss */
+  .node-type-topic-page .tsource .srcblock .srcfile .srcimg {
+    margin: 0 auto;
+    text-align: center;
+    position: relative; }
+    /* line 1284, ../sass/base/amboyna.scss */
+    .node-type-topic-page .tsource .srcblock .srcfile .srcimg .srcimage {
+      position: absolute;
+      width: 100%;
+      height: 100%; }
+  /* line 1290, ../sass/base/amboyna.scss */
+  .node-type-topic-page .tsource .srcblock .srcfile .srccite {
+    color: #6a6a6a;
+    font-family: "PT Serif",serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding-top: 0.2em; }
+@media print {
+  /* line 1300, ../sass/base/amboyna.scss */
+  .node-type-topic-page .tcomm {
+    display: none; } }
+/* line 1304, ../sass/base/amboyna.scss */
+.node-type-topic-page .tcomm .tana {
+  float: none;
+  margin: 1em auto;
+  max-width: 1100px;
+  font-size: 1.1em; }
+  /* line 1309, ../sass/base/amboyna.scss */
+  .node-type-topic-page .tcomm .tana h2 {
+    font-size: 1.6em;
+    margin: 1.5em 0 1em;
+    font-weight: 300; }
+  /* line 1314, ../sass/base/amboyna.scss */
+  .node-type-topic-page .tcomm .tana .tcite {
+    color: #6a6a6a;
+    font-family: "PT Serif",serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding-top: 0.2em; }
+/* line 1322, ../sass/base/amboyna.scss */
+.node-type-topic-page .tcomm iframe {
+  width: 680px;
+  display: block;
+  margin: 3em auto; }
+
+/* line 1332, ../sass/base/amboyna.scss */
+.page-node-66 .l-content {
+  float: none;
+  margin: 0 auto;
+  max-width: 1100px; }
+@media (min-width: 1px) and (max-width: 568px) {
+  /* line 1337, ../sass/base/amboyna.scss */
+  .page-node-66 .pane-archive-landing-page {
+    margin-left: 0.8em;
+    margin-right: 0.8em; } }
+@media (min-width: 569px) and (max-width: 1024px) {
+  /* line 1337, ../sass/base/amboyna.scss */
+  .page-node-66 .pane-archive-landing-page {
+    margin-left: 1em;
+    margin-right: 1em; } }
+/* line 1347, ../sass/base/amboyna.scss */
+.page-node-66 .pane-archive-landing-page .view-header h2 {
+  font-size: 1.6em;
+  font-weight: 300;
+  margin: 1.5em 0 1em;
+  padding-left: 0.5em; }
+/* line 1354, ../sass/base/amboyna.scss */
+.page-node-66 .pane-archive-landing-page .view-filters {
+  padding-left: 1em;
+  padding-right: 1em; }
+  /* line 1357, ../sass/base/amboyna.scss */
+  .page-node-66 .pane-archive-landing-page .view-filters .description {
+    display: none; }
+  /* line 1361, ../sass/base/amboyna.scss */
+  .page-node-66 .pane-archive-landing-page .view-filters #edit-field-source-tags-tid-wrapper label {
+    display: inline;
+    margin-right: 0.8em; }
+  /* line 1365, ../sass/base/amboyna.scss */
+  .page-node-66 .pane-archive-landing-page .view-filters #edit-field-source-tags-tid-wrapper .views-widget {
+    display: inline-block;
+    vertical-align: middle; }
+  /* line 1370, ../sass/base/amboyna.scss */
+  .page-node-66 .pane-archive-landing-page .view-filters .form-type-select {
+    width: 12em;
+    overflow: hidden; }
+    /* line 1373, ../sass/base/amboyna.scss */
+    .page-node-66 .pane-archive-landing-page .view-filters .form-type-select select {
+      background-color: #f5821f;
+      border: medium none;
+      box-shadow: none;
+      color: #fff;
+      height: 2.5em;
+      padding-left: 0.5em;
+      width: 14em; }
+  /* line 1383, ../sass/base/amboyna.scss */
+  .page-node-66 .pane-archive-landing-page .view-filters #edit-submit-archive-landing-page {
+    background-color: #f5821f;
+    color: #fff;
+    border: medium none;
+    border-radius: 0.3em;
+    margin: -1em 1em;
+    padding: 0.4em 0.8em;
+    text-transform: uppercase; }
+/* line 1394, ../sass/base/amboyna.scss */
+.page-node-66 .pane-archive-landing-page .view-content .views-row {
+  display: inline-block;
+  vertical-align: top;
+  width: 24%; }
+  @media print {
+    /* line 1394, ../sass/base/amboyna.scss */
+    .page-node-66 .pane-archive-landing-page .view-content .views-row {
+      display: inline-block !important;
+      width: 24% !important; } }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 1394, ../sass/base/amboyna.scss */
+    .page-node-66 .pane-archive-landing-page .view-content .views-row {
+      width: 32%; } }
+  /* line 1406, ../sass/base/amboyna.scss */
+  .page-node-66 .pane-archive-landing-page .view-content .views-row .srcitem .srcimg {
+    padding: 1em 1em 0;
+    width: 14em; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 1406, ../sass/base/amboyna.scss */
+      .page-node-66 .pane-archive-landing-page .view-content .views-row .srcitem .srcimg {
+        width: auto; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 1406, ../sass/base/amboyna.scss */
+      .page-node-66 .pane-archive-landing-page .view-content .views-row .srcitem .srcimg {
+        width: auto; } }
+  /* line 1416, ../sass/base/amboyna.scss */
+  .page-node-66 .pane-archive-landing-page .view-content .views-row .srcitem .srctit {
+    text-align: center;
+    width: 14em;
+    padding: 0.2em 1em 0; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 1416, ../sass/base/amboyna.scss */
+      .page-node-66 .pane-archive-landing-page .view-content .views-row .srcitem .srctit {
+        width: auto; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 1416, ../sass/base/amboyna.scss */
+      .page-node-66 .pane-archive-landing-page .view-content .views-row .srcitem .srctit {
+        width: auto; } }
+    /* line 1426, ../sass/base/amboyna.scss */
+    .page-node-66 .pane-archive-landing-page .view-content .views-row .srcitem .srctit a {
+      color: #000;
+      text-decoration: underline; }
+
+/* line 1438, ../sass/base/amboyna.scss */
+.node-type-source .l-content {
+  float: none;
+  margin: 0 auto;
+  max-width: 1100px; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 1438, ../sass/base/amboyna.scss */
+    .node-type-source .l-content {
+      margin-left: 0.8em;
+      margin-right: 0.8em; } }
+  @media (min-width: 569px) and (max-width: 1024px) {
+    /* line 1438, ../sass/base/amboyna.scss */
+    .node-type-source .l-content {
+      margin-left: 1em;
+      margin-right: 1em; } }
+/* line 1452, ../sass/base/amboyna.scss */
+.node-type-source .srctitle h3 {
+  float: none;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin: 0 auto;
+  max-width: 1100px;
+  color: #12294e; }
+/* line 1461, ../sass/base/amboyna.scss */
+.node-type-source .srcanalysis {
+  float: none;
+  margin: 1em auto;
+  max-width: 1100px;
+  font-size: 1.1em; }
+  /* line 1466, ../sass/base/amboyna.scss */
+  .node-type-source .srcanalysis h2 {
+    font-size: 1.2em;
+    margin: 1.5em 0 1em;
+    font-weight: 300; }
+  /* line 1471, ../sass/base/amboyna.scss */
+  .node-type-source .srcanalysis .details {
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 0.5em 0 1em; }
+/* line 1478, ../sass/base/amboyna.scss */
+.node-type-source .srctabs {
+  float: none;
+  list-style: none;
+  padding: 0;
+  margin: 1em auto; }
+  /* line 1483, ../sass/base/amboyna.scss */
+  .node-type-source .srctabs:after {
+    content: '';
+    display: table;
+    clear: both; }
+  /* line 1488, ../sass/base/amboyna.scss */
+  .node-type-source .srctabs input[type=radio] {
+    display: none; }
+  /* line 1491, ../sass/base/amboyna.scss */
+  .node-type-source .srctabs label {
+    background-color: #cfcfcf;
+    border-radius: 10px 10px 0 0;
+    color: #606060;
+    display: inline-block;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    line-height: 2.2;
+    margin-right: 0.5em;
+    position: relative;
+    text-align: center;
+    width: 11%; }
+    @media print {
+      /* line 1491, ../sass/base/amboyna.scss */
+      .node-type-source .srctabs label {
+        display: none; } }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 1491, ../sass/base/amboyna.scss */
+      .node-type-source .srctabs label {
+        font-size: 0.9em;
+        width: auto;
+        letter-spacing: 0;
+        padding-left: 0.2em;
+        padding-right: 0.2em; }
+        /* line 1501, ../sass/base/amboyna.scss */
+        .node-type-source .srctabs label:before {
+          display: none; } }
+    /* line 1516, ../sass/base/amboyna.scss */
+    .node-type-source .srctabs label:before {
+      background: #cfcfcf none repeat scroll 0 0;
+      border-bottom: medium none;
+      border-radius: 5px 6px 0 0;
+      bottom: -1px;
+      content: "";
+      left: 3px;
+      position: absolute;
+      right: -17px;
+      top: -4px;
+      transform: perspective(10px) rotateX(2deg);
+      transform-origin: left bottom 0;
+      z-index: -1; }
+  /* line 1531, ../sass/base/amboyna.scss */
+  .node-type-source .srctabs .tab-content {
+    display: none;
+    border-top: 0.5em solid #f5821f;
+    width: 100%;
+    padding: 2em;
+    box-sizing: border-box;
+    background-color: #ffefe5; }
+    @media print {
+      /* line 1531, ../sass/base/amboyna.scss */
+      .node-type-source .srctabs .tab-content {
+        display: block; }
+        /* line 1534, ../sass/base/amboyna.scss */
+        .node-type-source .srctabs .tab-content img {
+          display: block !important; } }
+  /* line 1545, ../sass/base/amboyna.scss */
+  .node-type-source .srctabs [id^="tab"]:checked + label {
+    background-color: #f5821f;
+    color: #fff;
+    z-index: 2; }
+    /* line 1549, ../sass/base/amboyna.scss */
+    .node-type-source .srctabs [id^="tab"]:checked + label:before {
+      background: #f5821f;
+      margin-bottom: -1px; }
+  /* line 1554, ../sass/base/amboyna.scss */
+  .node-type-source .srctabs #tab1:checked ~ #srcc-1,
+  .node-type-source .srctabs #tab2:checked ~ #srcc-2,
+  .node-type-source .srctabs #tab3:checked ~ #srcc-3,
+  .node-type-source .srctabs #tab4:checked ~ #srcc-4 {
+    display: block; }
+  /* line 1560, ../sass/base/amboyna.scss */
+  .node-type-source .srctabs #srcc-1 .field-content {
+    text-align: center; }
+
+/* line 1567, ../sass/base/amboyna.scss */
+.page-search .l-content {
+  float: none;
+  margin: 0 auto;
+  max-width: 1100px; }
+/* line 1573, ../sass/base/amboyna.scss */
+.page-search .view-search-results .view-header {
+  margin: 3em 0 1em; }
+  /* line 1575, ../sass/base/amboyna.scss */
+  .page-search .view-search-results .view-header h2 {
+    font-size: 1.8em;
+    font-weight: 400;
+    text-align: center; }
+/* line 1582, ../sass/base/amboyna.scss */
+.page-search .view-search-results .stitle h5 {
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0.5em 0;
+  padding: 0;
+  text-transform: uppercase; }
+/* line 1591, ../sass/base/amboyna.scss */
+.page-search .view-search-results .stitle .right {
+  float: right; }
+
+@media print {
+  /* line 1602, ../sass/base/amboyna.scss */
+  .page-node-68 .vidblock, .page-node-125 .vidblock {
+    display: none; } }
+/* line 1606, ../sass/base/amboyna.scss */
+.page-node-68 a, .page-node-125 a {
+  color: #5a6a83;
+  text-decoration: underline; }
+/* line 1610, ../sass/base/amboyna.scss */
+.page-node-68 .l-content, .page-node-125 .l-content {
+  float: none;
+  margin: 0 auto;
+  max-width: 1100px; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 1610, ../sass/base/amboyna.scss */
+    .page-node-68 .l-content, .page-node-125 .l-content {
+      margin-left: 0.5em;
+      margin-right: 0.5em; } }
+  @media (min-width: 569px) and (max-width: 1024px) {
+    /* line 1610, ../sass/base/amboyna.scss */
+    .page-node-68 .l-content, .page-node-125 .l-content {
+      margin-left: 1em;
+      margin-right: 1em; } }
+/* line 1623, ../sass/base/amboyna.scss */
+.page-node-68 #amtop, .page-node-125 #amtop {
+  padding-top: 25px;
+  margin-top: -25px; }
+  /* line 1626, ../sass/base/amboyna.scss */
+  .page-node-68 #amtop #amnav, .page-node-125 #amtop #amnav {
+    padding: 0.5em;
+    position: fixed;
+    right: 10em;
+    top: 30%;
+    width: 15%; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 1626, ../sass/base/amboyna.scss */
+      .page-node-68 #amtop #amnav, .page-node-125 #amtop #amnav {
+        position: relative;
+        width: 100%;
+        right: 0;
+        top: 0; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 1626, ../sass/base/amboyna.scss */
+      .page-node-68 #amtop #amnav, .page-node-125 #amtop #amnav {
+        right: 1em;
+        width: 20%; } }
+    /* line 1642, ../sass/base/amboyna.scss */
+    .page-node-68 #amtop #amnav a, .page-node-125 #amtop #amnav a {
+      background-color: #f5821f;
+      color: #fff;
+      border-bottom: 1px solid #ccc;
+      display: block;
+      font-size: 1.2em;
+      line-height: 1;
+      padding: 0.8em 0.5em; }
+    /* line 1651, ../sass/base/amboyna.scss */
+    .page-node-68 #amtop #amnav a:last-child, .page-node-125 #amtop #amnav a:last-child {
+      border-bottom: none; }
+  /* line 1655, ../sass/base/amboyna.scss */
+  .page-node-68 #amtop #amcon, .page-node-125 #amtop #amcon {
+    margin-left: 1em;
+    width: 67%; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 1655, ../sass/base/amboyna.scss */
+      .page-node-68 #amtop #amcon, .page-node-125 #amtop #amcon {
+        width: 100%; } }
+    /* line 1661, ../sass/base/amboyna.scss */
+    .page-node-68 #amtop #amcon .tonc, .page-node-125 #amtop #amcon .tonc {
+      margin: 1em 0; }
+      @media (min-width: 569px) and (max-width: 1024px) {
+        /* line 1661, ../sass/base/amboyna.scss */
+        .page-node-68 #amtop #amcon .tonc, .page-node-125 #amtop #amcon .tonc {
+          margin: -1em 0; } }
+      /* line 1666, ../sass/base/amboyna.scss */
+      .page-node-68 #amtop #amcon .tonc img, .page-node-125 #amtop #amcon .tonc img {
+        float: left;
+        padding: 1em 1em 1em 0;
+        width: 13em; }
+      /* line 1671, ../sass/base/amboyna.scss */
+      .page-node-68 #amtop #amcon .tonc .title, .page-node-125 #amtop #amcon .tonc .title {
+        padding-top: 25px;
+        margin-top: -25px; }
+        @media (min-width: 1px) and (max-width: 568px) {
+          /* line 1671, ../sass/base/amboyna.scss */
+          .page-node-68 #amtop #amcon .tonc .title, .page-node-125 #amtop #amcon .tonc .title {
+            margin: 0 0.8em;
+            padding: 0; } }
+        @media (min-width: 569px) and (max-width: 1024px) {
+          /* line 1671, ../sass/base/amboyna.scss */
+          .page-node-68 #amtop #amcon .tonc .title, .page-node-125 #amtop #amcon .tonc .title {
+            margin: 0 1em;
+            padding: 0; } }
+        /* line 1682, ../sass/base/amboyna.scss */
+        .page-node-68 #amtop #amcon .tonc .title h2, .page-node-125 #amtop #amcon .tonc .title h2 {
+          display: inline-block;
+          margin: 0;
+          padding: 0; }
+        /* line 1687, ../sass/base/amboyna.scss */
+        .page-node-68 #amtop #amcon .tonc .title .right, .page-node-125 #amtop #amcon .tonc .title .right {
+          display: none;
+          float: right; }
+          @media (min-width: 1px) and (max-width: 568px) {
+            /* line 1687, ../sass/base/amboyna.scss */
+            .page-node-68 #amtop #amcon .tonc .title .right, .page-node-125 #amtop #amcon .tonc .title .right {
+              display: block;
+              float: none;
+              clear: both; } }
+          /* line 1695, ../sass/base/amboyna.scss */
+          .page-node-68 #amtop #amcon .tonc .title .right a, .page-node-125 #amtop #amcon .tonc .title .right a {
+            color: #5a6a83;
+            font-size: 0.9em;
+            line-height: 2.2;
+            text-decoration: underline; }
+      @media (min-width: 1px) and (max-width: 568px) {
+        /* line 1703, ../sass/base/amboyna.scss */
+        .page-node-68 #amtop #amcon .tonc .vidblock, .page-node-125 #amtop #amcon .tonc .vidblock {
+          margin-left: 0.8em;
+          margin-right: 0.8em; } }
+      @media (min-width: 569px) and (max-width: 1024px) {
+        /* line 1703, ../sass/base/amboyna.scss */
+        .page-node-68 #amtop #amcon .tonc .vidblock, .page-node-125 #amtop #amcon .tonc .vidblock {
+          margin-left: 1em;
+          margin-right: 1em; } }
+
+/* line 1720, ../sass/base/amboyna.scss */
+.page-node-74 .l-content {
+  float: none;
+  margin: 0 auto;
+  max-width: 1100px; }
+/* line 1725, ../sass/base/amboyna.scss */
+.page-node-74 .node__submitted {
+  display: none; }
+/* line 1728, ../sass/base/amboyna.scss */
+.page-node-74 input, .page-node-74 textarea {
+  border: 1px solid #7f7d7d; }
+/* line 1731, ../sass/base/amboyna.scss */
+.page-node-74 .webform-component--name {
+  display: inline-block;
+  width: 49%; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 1731, ../sass/base/amboyna.scss */
+    .page-node-74 .webform-component--name {
+      display: block;
+      width: 100%;
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-right: 1em; } }
+  @media (min-width: 569px) and (max-width: 1024px) {
+    /* line 1731, ../sass/base/amboyna.scss */
+    .page-node-74 .webform-component--name {
+      display: block;
+      width: 100%;
+      margin-left: 1em;
+      margin-right: 1em;
+      padding-right: 2em; } }
+  /* line 1748, ../sass/base/amboyna.scss */
+  .page-node-74 .webform-component--name input {
+    width: 100%; }
+/* line 1752, ../sass/base/amboyna.scss */
+.page-node-74 .webform-component--email-address {
+  display: inline-block;
+  width: 49%;
+  margin-left: 1em; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 1752, ../sass/base/amboyna.scss */
+    .page-node-74 .webform-component--email-address {
+      display: block;
+      width: 100%;
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-right: 1em; } }
+  @media (min-width: 569px) and (max-width: 1024px) {
+    /* line 1752, ../sass/base/amboyna.scss */
+    .page-node-74 .webform-component--email-address {
+      display: block;
+      width: 100%;
+      margin-left: 1em;
+      padding-right: 2em;
+      margin-right: 1em; } }
+  /* line 1770, ../sass/base/amboyna.scss */
+  .page-node-74 .webform-component--email-address input {
+    width: 100%; }
+@media (min-width: 1px) and (max-width: 568px) {
+  /* line 1774, ../sass/base/amboyna.scss */
+  .page-node-74 .webform-component--subject {
+    margin-left: 0.5em;
+    padding-right: 0.5em; } }
+@media (min-width: 569px) and (max-width: 1024px) {
+  /* line 1774, ../sass/base/amboyna.scss */
+  .page-node-74 .webform-component--subject {
+    margin-left: 1em;
+    padding-right: 1em; } }
+/* line 1783, ../sass/base/amboyna.scss */
+.page-node-74 .webform-component--subject input {
+  width: 100%; }
+@media (min-width: 1px) and (max-width: 568px) {
+  /* line 1787, ../sass/base/amboyna.scss */
+  .page-node-74 .webform-component--comment {
+    margin-left: 0.5em;
+    padding-right: 0.5em; } }
+@media (min-width: 569px) and (max-width: 1024px) {
+  /* line 1787, ../sass/base/amboyna.scss */
+  .page-node-74 .webform-component--comment {
+    margin-left: 1em;
+    padding-right: 1em; } }
+/* line 1797, ../sass/base/amboyna.scss */
+.page-node-74 .form-actions {
+  border: medium none;
+  display: inline;
+  float: none; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 1797, ../sass/base/amboyna.scss */
+    .page-node-74 .form-actions {
+      margin-left: 0.5em;
+      padding-right: 0.5em;
+      display: block;
+      text-align: center; } }
+  @media (min-width: 569px) and (max-width: 1024px) {
+    /* line 1797, ../sass/base/amboyna.scss */
+    .page-node-74 .form-actions {
+      margin-left: 1em;
+      padding-right: 1em;
+      display: block;
+      text-align: center; } }
+  /* line 1813, ../sass/base/amboyna.scss */
+  .page-node-74 .form-actions .webform-submit {
+    background-color: #f5821f;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    margin-top: 1em;
+    font-size: 1.1em;
+    border-radius: 0.3em;
+    margin-right: 1em;
+    font-family: "P LFT Etica 17", Helvetica; }
+/* line 1825, ../sass/base/amboyna.scss */
+.page-node-74 .links {
+  display: none; }
+
+/* line 1832, ../sass/base/amboyna.scss */
+.page-node-73 .l-content {
+  float: none;
+  margin: 0 auto;
+  max-width: 1100px; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 1832, ../sass/base/amboyna.scss */
+    .page-node-73 .l-content {
+      margin-left: 0.8em;
+      margin-right: 0.8em; } }
+  @media (min-width: 569px) and (max-width: 1024px) {
+    /* line 1832, ../sass/base/amboyna.scss */
+    .page-node-73 .l-content {
+      margin-left: 1em;
+      margin-right: 1em; } }
+/* line 1845, ../sass/base/amboyna.scss */
+.page-node-73 .pane-timeline-book {
+  width: 25%;
+  display: inline-block; }
+  /* line 1846, ../sass/base/amboyna.scss */
+  .page-node-73 .pane-timeline-book .view-timeline-book {
+    margin-top: 1em; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 1846, ../sass/base/amboyna.scss */
+      .page-node-73 .pane-timeline-book .view-timeline-book {
+        margin-left: 10em; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 1846, ../sass/base/amboyna.scss */
+      .page-node-73 .pane-timeline-book .view-timeline-book {
+        margin-left: 6em; } }
+    /* line 1855, ../sass/base/amboyna.scss */
+    .page-node-73 .pane-timeline-book .view-timeline-book .timeline-date .tdate {
+      font-size: 0.8em;
+      font-weight: 500; }
+    /* line 1861, ../sass/base/amboyna.scss */
+    .page-node-73 .pane-timeline-book .view-timeline-book .timeline-text a {
+      color: #7f7d7d;
+      text-decoration: underline; }
+    /* line 1866, ../sass/base/amboyna.scss */
+    .page-node-73 .pane-timeline-book .view-timeline-book .active-trail {
+      color: #f5821f; }
+      /* line 1868, ../sass/base/amboyna.scss */
+      .page-node-73 .pane-timeline-book .view-timeline-book .active-trail .tdate {
+        color: #000; }
+  /* line 1873, ../sass/base/amboyna.scss */
+  .page-node-73 .pane-timeline-book .simple_timeline ul li .timeline-text {
+    width: auto; }
+/* line 1879, ../sass/base/amboyna.scss */
+.page-node-73 .pane-3 {
+  position: absolute;
+  right: 16em;
+  top: 11em;
+  width: 61%; }
+  @media (min-width: 1px) and (max-width: 568px) {
+    /* line 1879, ../sass/base/amboyna.scss */
+    .page-node-73 .pane-3 {
+      right: 0;
+      width: 50%; } }
+  @media (min-width: 569px) and (max-width: 1024px) {
+    /* line 1879, ../sass/base/amboyna.scss */
+    .page-node-73 .pane-3 {
+      right: 3em; } }
+/* line 1892, ../sass/base/amboyna.scss */
+.page-node-73 #ajaxtarget {
+  padding: 1em 2em; }
+  /* line 1895, ../sass/base/amboyna.scss */
+  .page-node-73 #ajaxtarget .startblock h2, .page-node-73 #ajaxtarget .timeblock h2 {
+    font-weight: 400; }
+  /* line 1899, ../sass/base/amboyna.scss */
+  .page-node-73 #ajaxtarget .startblock .startinfo h3, .page-node-73 #ajaxtarget .startblock .infoblock h3, .page-node-73 #ajaxtarget .timeblock .startinfo h3, .page-node-73 #ajaxtarget .timeblock .infoblock h3 {
+    font-size: 1.5em; }
+  /* line 1902, ../sass/base/amboyna.scss */
+  .page-node-73 #ajaxtarget .startblock .startinfo ul, .page-node-73 #ajaxtarget .startblock .infoblock ul, .page-node-73 #ajaxtarget .timeblock .startinfo ul, .page-node-73 #ajaxtarget .timeblock .infoblock ul {
+    padding: 0 1.5em; }
+    /* line 1904, ../sass/base/amboyna.scss */
+    .page-node-73 #ajaxtarget .startblock .startinfo ul li, .page-node-73 #ajaxtarget .startblock .infoblock ul li, .page-node-73 #ajaxtarget .timeblock .startinfo ul li, .page-node-73 #ajaxtarget .timeblock .infoblock ul li {
+      list-style: outside none none; }
+  /* line 1908, ../sass/base/amboyna.scss */
+  .page-node-73 #ajaxtarget .startblock .startinfo a, .page-node-73 #ajaxtarget .startblock .infoblock a, .page-node-73 #ajaxtarget .timeblock .startinfo a, .page-node-73 #ajaxtarget .timeblock .infoblock a {
+    color: #7f7d7d;
+    text-decoration: underline; }
+  /* line 1913, ../sass/base/amboyna.scss */
+  .page-node-73 #ajaxtarget .startblock .infoblock, .page-node-73 #ajaxtarget .timeblock .infoblock {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 1913, ../sass/base/amboyna.scss */
+      .page-node-73 #ajaxtarget .startblock .infoblock, .page-node-73 #ajaxtarget .timeblock .infoblock {
+        display: block;
+        width: 100%; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 1913, ../sass/base/amboyna.scss */
+      .page-node-73 #ajaxtarget .startblock .infoblock, .page-node-73 #ajaxtarget .timeblock .infoblock {
+        display: block;
+        width: 100%; } }
+  /* line 1926, ../sass/base/amboyna.scss */
+  .page-node-73 #ajaxtarget .startblock .imgblock, .page-node-73 #ajaxtarget .timeblock .imgblock {
+    display: inline-block;
+    width: 49%; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 1926, ../sass/base/amboyna.scss */
+      .page-node-73 #ajaxtarget .startblock .imgblock, .page-node-73 #ajaxtarget .timeblock .imgblock {
+        display: block;
+        width: 100%; } }
+    @media (min-width: 569px) and (max-width: 1024px) {
+      /* line 1926, ../sass/base/amboyna.scss */
+      .page-node-73 #ajaxtarget .startblock .imgblock, .page-node-73 #ajaxtarget .timeblock .imgblock {
+        display: block;
+        width: 100%; } }
+    /* line 1938, ../sass/base/amboyna.scss */
+    .page-node-73 #ajaxtarget .startblock .imgblock a, .page-node-73 #ajaxtarget .timeblock .imgblock a {
+      color: #7f7d7d;
+      text-decoration: underline; }
+
+/*# sourceMappingURL=amboyna.styles.css.map */

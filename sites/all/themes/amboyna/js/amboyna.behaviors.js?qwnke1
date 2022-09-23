@@ -58,7 +58,7 @@
             //Menu Fix it
             $('.l-header .l-branding, .l-header .l-region--header').wrapAll('<div class="headwrap"></div>');
             //Magnifying Glass for the Menu
-            // $('.l-header .menu .last.leaf').after("<a class='magglass'><img src='https://amboyna.org/sites/all/themes/amboyna/images/magnifying-icon.png'></a>");
+            // $('.l-header .menu .last.leaf').after("<a class='magglass'><img src='sites/all/themes/amboyna/images/magnifying-icon.png'></a>");
 //             $(".l-header .l-region--header .pane-search-form input").attr("placeholder", "Search").focus().blur();
 //             $('.l-header .menu .magglass').click(function() {
 //                $('.l-header .l-region--header .pane-search-form').show();
@@ -107,7 +107,7 @@
 
 
                 // $('.view-timeline-book ul li:first-child .timeline-text a[href$="135"]').removeClass('ajaxlink');
- //               $('.view-timeline-book ul li:first-child .timeline-text a[href$="135"]').attr("href", "https://amboyna.org/node/73");
+ //               $('.view-timeline-book ul li:first-child .timeline-text a[href$="135"]').attr("href", "node/73");
  //
  //                //Intro Start out Orange
  //                if( $('.active-trail').length <=0) {

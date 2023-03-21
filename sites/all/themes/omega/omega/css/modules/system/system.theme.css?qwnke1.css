@@ -237,3 +237,12 @@ td.active {
 .pager__item--current {
   font-weight: bold;
 }
+
+/* Sustainability Fixes 
+Added by Jason A. Heppler <jheppler@gmu.edu> on 2023-03-21
+*/
+
+.imgblock {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}

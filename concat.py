@@ -51,15 +51,6 @@ def concat_files(input_dir, output_file, html_files):
                     print('Could not find .timeblock class in {}'.format(html_file))
                     sys.exit(1)
                 f.write(match_timeblock.group(1))
-
-
-
-
-                # if match is None:
-                #     print('Could not find <body> in {}'.format(html_file))
-                #     sys.exit(1)
-                # f.write(match.group(1))
-
                 
 if __name__ == '__main__':
     input_dir = sys.argv[1]

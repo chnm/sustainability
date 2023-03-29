@@ -1,8 +1,8 @@
 # Read a series of HTML files (excluding timeline.html), find the content between
 # <body> and </body>, and write it to a single file.
 #
-# Usage: python concat.py input_dir output_file
-#   Example: python concat.py . timeline_all.html
+# Usage: python concat-amboyna.py input_dir output_file
+#   Example: python ../scripts/concat-amboyna.py . timeline_all.html
 # 
 # The script is pretty simple. It takes two arguments: the input directory and 
 # the output file. It then iterates over all the files in the input directory, 

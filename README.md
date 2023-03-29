@@ -9,3 +9,8 @@ These are various sustainability projects, included here to help keep track of w
 | Maritime Asia  | hold    | `maritime/` | Flattened Drupal site for Maritime Asia.                    |
 | Pilbara Strike | hold    | `pilbara/`  | Flattened Drupal site for the Pilbara Strike.                                                            |
 
+## Project Team
+
+- Jessica Otis (@jmotis)
+- Jason Heppler (@hepplerj)
+- Tony Trinh (@qtrinh2)

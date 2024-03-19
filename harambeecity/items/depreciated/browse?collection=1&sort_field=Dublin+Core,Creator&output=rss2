@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[HARAMBEE CITY]]></title>
+    <link>https://harambeecity.lib.miamioh.edu/items/browse?collection=1&amp;sort_field=Dublin+Core%2CCreator&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Sat, 10 Feb 2024 04:51:27 -0500</pubDate>
+    <managingEditor>tzoce@miamioh.edu (HARAMBEE CITY)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Donald Bean and Will Ussery]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/1</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Donald Bean and Will Ussery</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">CORE and Black Power</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Image of Donald Bean (Cleveland Target City Project staff) and Will Ussery (CORENCO creator) </div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Karl J. Rausckolb</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Cleveland Plain Dealer</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">September 1967</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Cleveland Public Library<br />
+</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">image</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Ussery and Bean</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/c63f4b2ab78c557d842cb8f8cb0b6d1e.jpeg"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/c63f4b2ab78c557d842cb8f8cb0b6d1e.jpg" alt="ussery and bean website photo.jpeg" title="ussery and bean website photo.jpeg"></a></div>]]></description>
+      <pubDate>Tue, 17 Nov 2015 13:41:46 -0500</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/c63f4b2ab78c557d842cb8f8cb0b6d1e.jpg" type="image/jpeg" length="8673278"/>
+    </item>
+  </channel>
+</rss>

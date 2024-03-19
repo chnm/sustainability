@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://harambeecity.lib.miamioh.edu/items/browse?tags=Michigan&amp;sort_field=added&amp;output=atom</id>
+  <title><![CDATA[HARAMBEE CITY]]></title>
+  <author>
+    <name><![CDATA[Unknown]]></name>
+  </author>
+  <updated>2024-02-09T21:27:14-05:00</updated>
+  <generator>Omeka</generator>
+  <link rel="self" href="https://harambeecity.rrchnm.org/items/browse?tags=Michigan&amp;sort_field=added&amp;output=atom"/>
+  <link rel="first" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=Michigan&amp;sort_field=added&amp;output=atom"/>
+  <link rel="last" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=Michigan&amp;sort_field=added&amp;output=atom"/>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/27</id>
+    <title><![CDATA[Michigan Employment Enterprises Economic Development Corporation]]></title>
+    <summary><![CDATA[A similar community development corporation emerged in Michigan.  The CDC ran businesses which employed local community people.  The CDC also worked on housing access for low income residents.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/27"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/a0b3488888964db1f9eb6fb92d3db264.JPG" type="image/jpeg" length="5005215"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0a3ee869b457268a2380dbdd5e367d55.JPG" type="image/jpeg" length="4517463"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/346e86bb671f02077fca5f3b7d9e0de7.JPG" type="image/jpeg" length="4606028"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c0243383fe094969018edaad6ffee824.JPG" type="image/jpeg" length="4672178"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/d1a026373d9c83774fef2d5948c8c336.JPG" type="image/jpeg" length="4492879"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/006b4199086d64648a615d7c9e352480.JPG" type="image/jpeg" length="4762126"/>
+    <category term="community development corporation"/>
+    <category term="community organizing"/>
+    <category term="economic development"/>
+    <category term="economic inequality"/>
+    <category term="Michigan"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Michigan Employment Enterprises Economic Development Corporation</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Michigan community development corporation similar to CORENCO</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">A similar community development corporation emerged in Michigan.  The CDC ran businesses which employed local community people.  The CDC also worked on housing access for low income residents.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Michigan Employment Enterprises Development Corporation</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Employment Enterprises Development Corporation</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">February 18, 1966</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Michigan Employment Enterprises Development Corporation</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+</feed>

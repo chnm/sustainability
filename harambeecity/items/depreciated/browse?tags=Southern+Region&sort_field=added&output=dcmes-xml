@@ -1,0 +1,18 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/19">
+<dc:title>CORE internal memorandums</dc:title>
+<dc:subject>CORE&#039;s internal workings</dc:subject>
+<dc:description>Multiple topics related to CORE&#039;s internal workings.  This includes training, restart of southern chapters, and task force workers for the south.</dc:description>
+<dc:creator>CORE</dc:creator>
+<dc:date>1968-1969</dc:date>
+<dc:contributor>Herb Callender, Richard Faley, James McCain, Ike Reynolds, Field Staff, Roy Innis, Floyd McKissick, Tony Perot</dc:contributor>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>document</dc:type>
+<dc:identifier>CORE internal workings</dc:identifier>
+</rdf:Description></rdf:RDF>

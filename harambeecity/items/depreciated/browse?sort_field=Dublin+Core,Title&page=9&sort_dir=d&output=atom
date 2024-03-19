@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://harambeecity.lib.miamioh.edu/items/browse?sort_field=Dublin+Core%2CTitle&amp;page=9&amp;sort_dir=d&amp;output=atom</id>
+  <title><![CDATA[HARAMBEE CITY]]></title>
+  <author>
+    <name><![CDATA[Unknown]]></name>
+  </author>
+  <updated>2024-02-10T06:31:15-05:00</updated>
+  <generator>Omeka</generator>
+  <link rel="self" href="https://harambeecity.rrchnm.org/items/browse?sort_field=Dublin+Core%2CTitle&amp;page=9&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="first" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?sort_field=Dublin+Core%2CTitle&amp;page=9&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="previous" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/8?sort_field=Dublin+Core%2CTitle&amp;page=9&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="next" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/10?sort_field=Dublin+Core%2CTitle&amp;page=9&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="last" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/10?sort_field=Dublin+Core%2CTitle&amp;page=9&amp;sort_dir=d&amp;output=atom"/>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/103</id>
+    <title><![CDATA[Bruce Melville, Tape 2]]></title>
+    <summary><![CDATA[History of CORE, rent strikes and school desegregation protests, white participation in CORE and black leadership, black nationalism, tensions with NAACP and UFM]]></summary>
+    <updated>2023-06-29T17:48:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/103"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/1613e7a805932a67c67199007305e0a7.m4a" type="audio/mp4" length="31143471"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Bruce Melville, Tape 2</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Cleveland CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">History of CORE, rent strikes and school desegregation protests, white participation in CORE and black leadership, black nationalism, tensions with NAACP and UFM</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">May 2004</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/102</id>
+    <title><![CDATA[Bruce Melville, Side 1b ]]></title>
+    <summary><![CDATA[History of CORE, rent strikes and school desegregation protests, white participation in CORE and black leadership, black nationalism, tensions with NAACP and UFM]]></summary>
+    <updated>2023-06-29T17:49:02-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/102"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/a8bdc73cef616610f4e2c4bdac187245.m4a" type="audio/mp4" length="45237306"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Bruce Melville, Side 1b </div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Cleveland CORE history</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">History of CORE, rent strikes and school desegregation protests, white participation in CORE and black leadership, black nationalism, tensions with NAACP and UFM</div>
+            </div><!-- end element -->
+        <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">May 2004</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/101</id>
+    <title><![CDATA[Bruce Melville side 1a]]></title>
+    <summary><![CDATA[History of CORE, rent strikes and school desegregation protests, white participation in CORE and black leadership, black nationalism, tensions with NAACP and UFM]]></summary>
+    <updated>2023-06-29T18:00:09-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/101"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/cc9d1983b449bc3147dfd6df1cf0365c.m4a" type="audio/mp4" length="135914138"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Bruce Melville side 1a</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Cleveland CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">History of CORE, rent strikes and school desegregation protests, white participation in CORE and black leadership, black nationalism, tensions with NAACP and UFM</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">May 2004</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/65</id>
+    <title><![CDATA[Bonnie Gordon, Jean Tussey]]></title>
+    <summary><![CDATA[Gordon discusses black power, internal fight with SWP, white membership in CORE, Socialist background, Civil Rights Background, Freedom Fighters, Cleveland, CORE Community, Early Civil Rights in Cleveland.  Her mother is the well known socialist Jean Tussey.  You can find additional information on her at http://ead.ohiolink.edu/xtf-ead/view?docId=ead/OCLWHi0420.xml;query=;brand=default.  The other voice is Ms. Tussey.]]></summary>
+    <updated>2016-07-28T15:30:45-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/65"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/2e5efe5fcc3f0b7afe953fec8071ae9b.mp3" type="audio/mpeg" length="95410125"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Bonnie Gordon, Jean Tussey</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Gordon&#039;s family history and CORE - TWO TAPES</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Gordon discusses black power, internal fight with SWP, white membership in CORE, Socialist background, Civil Rights Background, Freedom Fighters, Cleveland, CORE Community, Early Civil Rights in Cleveland.  Her mother is the well known socialist Jean Tussey.  You can find additional information on her at http://ead.ohiolink.edu/xtf-ead/view?docId=ead/OCLWHi0420.xml;query=;brand=default.  The other voice is Ms. Tussey.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Bonnie Holt Gordon, Jean Tussey, and Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">April 12, 2004</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Bonnie Holt Gordon and Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">mp3</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/23</id>
+    <title><![CDATA[Baltimore Target City Project]]></title>
+    <summary><![CDATA[Various materials related to Baltimore CORE&#039;s activities and National CORE&#039;s Black Power Project]]></summary>
+    <updated>2017-12-11T14:55:51-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/23"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6dc879bc8846a95404389343cdbb0d9a.JPG" type="image/jpeg" length="7444980"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c0b709ba3a8b76748b65fe9d3fc58563.JPG" type="image/jpeg" length="8043092"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/8542ae5e8b3714b9318667f50ce68975.JPG" type="image/jpeg" length="3798192"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/cb3e417a4131355c38f9a89a116a0ea2.JPG" type="image/jpeg" length="318042"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/88e40d0abd78cfeda2e4a295339b037f.JPG" type="image/jpeg" length="6074140"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6acebf6674c6f1ef6ab8f9a21630a113.JPG" type="image/jpeg" length="6325241"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/fe5ef5310feb28cf17b665b6613cd92e.JPG" type="image/jpeg" length="4020017"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/be9c13860342e75906fcb2500c9c1757.JPG" type="image/jpeg" length="4512177"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/dea933893d4d650e5c7496979ab11b83.JPG" type="image/jpeg" length="8179644"/>
+    <category term="Baltimore"/>
+    <category term="black power"/>
+    <category term="community organizing"/>
+    <category term="economic development"/>
+    <category term="Freedom Schools"/>
+    <category term="job training"/>
+    <category term="Ruth Turner"/>
+    <category term="Target City Project"/>
+    <category term="Tony Perot"/>
+    <category term="youth projects"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Baltimore Target City Project</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Target City Project</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Various materials related to Baltimore CORE&#039;s activities and National CORE&#039;s Black Power Project</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">multiple creators, CORE, </div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">CORE, other</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">1966-1967</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">multiple contributors</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Baltimore Target City</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/25</id>
+    <title><![CDATA[Baltimore and Cleveland Target City Project]]></title>
+    <summary><![CDATA[Various documents which discuss both Cleveland and the Baltimore Target City Project.  Memorandums and articles summarize youth programs, leadership training, job training, voter registration, and other TCP activities.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/25"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/a28fe8aaf07bec405a75cdd2a9c98844.JPG" type="image/jpeg" length="5762754"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/9b111da75cf2f6f4a96c2d8b60695500.JPG" type="image/jpeg" length="5729483"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/e46cb74b52ab72db064149536a754588.JPG" type="image/jpeg" length="5759869"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/97c28292142cac119379f8f284c32cbc.JPG" type="image/jpeg" length="6696383"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/ab8b7920bf2d28000ed5037ed102ec78.JPG" type="image/jpeg" length="5514611"/>
+    <category term="Baltimore"/>
+    <category term="black economic power"/>
+    <category term="black power"/>
+    <category term="black power populism"/>
+    <category term="Cleveland"/>
+    <category term="community organizing"/>
+    <category term="CORENCO"/>
+    <category term="Harambee"/>
+    <category term="leadership training"/>
+    <category term="Target City Project"/>
+    <category term="voter registration"/>
+    <category term="youth projects"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Baltimore and Cleveland Target City Project</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Target City Project</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Various documents which discuss both Cleveland and the Baltimore Target City Project.  Memorandums and articles summarize youth programs, leadership training, job training, voter registration, and other TCP activities.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">1966-1968</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">multiple contributors, CORE, Philip Carter</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">documents</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Target City Project</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/58</id>
+    <title><![CDATA[At the Crossroads: Where African American Studies and Digital Humanities Meet]]></title>
+    <summary><![CDATA[This talk discusses my personal journey from public history to digital humanities.  It reviews the conceptual framework for this website and presents my perspective on how digital humanities can reflect the spirit of black studies&#039; theoretical sensibilities.]]></summary>
+    <updated>2016-06-24T15:57:39-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/58"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/e0c1810c8b7035f948812609725d8fcd.mp4" type="video/mp4" length="186970368"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">At the Crossroads: Where African American Studies and Digital Humanities Meet</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">CORE, Black Power, Economic Development, Harambee City Website, public history, black studies, digital humanities</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">This talk discusses my personal journey from public history to digital humanities.  It reviews the conceptual framework for this website and presents my perspective on how digital humanities can reflect the spirit of black studies&#039; theoretical sensibilities.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text">Talk given at the University of Maryland</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">February 2016</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/100</id>
+    <title><![CDATA[Arthur Evans interview]]></title>
+    <summary><![CDATA[Covers early stage of black nationalism in CORE; Albert Cleage, RAM, CORE and school desegregation, women in the movement.]]></summary>
+    <updated>2023-06-29T16:51:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/100"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/758ea13dc3f825c5115f9d7a7592deb2.m4a" type="audio/mp4" length="74633339"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Arthur Evans interview</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Congress of Racial Equality and Black Nationalism</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Covers early stage of black nationalism in CORE; Albert Cleage, RAM, CORE and school desegregation, women in the movement.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Arthur Evans</div>
+            </div><!-- end element -->
+        <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Arthur Evans</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Arthur Evans</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/5</id>
+    <title><![CDATA[Appointment Calendar 1965-January 1966]]></title>
+    <summary><![CDATA[Daily accounting of meetings and persons Perot met while performing his duties as Cleveland CORE member and Regional Field Representative for CORE.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/5"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/8fb23193a11cdeeb4c3c3c3c6d21b56a.JPG" type="image/jpeg" length="1672537"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/3708e06e314be0854b8b9ccfa2865fab.JPG" type="image/jpeg" length="4062583"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6ecd741dfe54b700816c2c1b545d0175.JPG" type="image/jpeg" length="2837270"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c021d7711ca5a30b4d0e4f93c8b15fdb.JPG" type="image/jpeg" length="3141718"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/f557c536273435933d7842cf7d56901d.JPG" type="image/jpeg" length="2922737"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/ef5f3efc39c4629379d674d58549ebbe.JPG" type="image/jpeg" length="2843897"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/1da44b3974f98d90045047663b322b12.JPG" type="image/jpeg" length="3027152"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/3b26e0fe6b1cabd245f559afc83f85da.JPG" type="image/jpeg" length="2786700"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/f4a4952b08c1cc25b0ca4b420ec09bc1.JPG" type="image/jpeg" length="2661387"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/5b118340ccf832797ebc9e9a08984af6.JPG" type="image/jpeg" length="2707117"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/f8a8be233d7b4add1ee4fb14b470d211.JPG" type="image/jpeg" length="2765362"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0a159fc834c80441c4a2151a508622c6.JPG" type="image/jpeg" length="2725035"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/5b8d674c48db2befeb2084a33cd6c38f.JPG" type="image/jpeg" length="2704672"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/edcd83c480c570d61c333d8279cc3306.JPG" type="image/jpeg" length="2764390"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/d68330a7d9abc6cc13ebb74505b5cc00.JPG" type="image/jpeg" length="2707563"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/98ccffc7e20afbaa1ff47ebc09ea91aa.JPG" type="image/jpeg" length="3166071"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/5dde98b6fcb08e3b18a6e079a4d2561c.JPG" type="image/jpeg" length="3795542"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/20b700c7c09af8d604ec2df18b48df71.JPG" type="image/jpeg" length="4035879"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/f54fadaeb57c996fb8515db1669f48d6.JPG" type="image/jpeg" length="2281321"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Appointment Calendar 1965-January 1966</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Perot&#039;s activities on behalf of CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Daily accounting of meetings and persons Perot met while performing his duties as Cleveland CORE member and Regional Field Representative for CORE.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">1965-January 1966</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">ephemera</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">appointment calendar</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/68</id>
+    <title><![CDATA[Antoine and Ruth Perot Interviews Tape One- 2 Parts]]></title>
+    <updated>2023-01-11T17:39:53-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/68"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/7ef3df622c78341828761fbbc08f146d.mp3" type="audio/mpeg" length="109763085"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/916f4b864187098e23b0be4f8b3132dc.mp3" type="audio/mpeg" length="108844411"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Antoine and Ruth Perot Interviews Tape One- 2 Parts</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+</feed>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[HARAMBEE CITY]]></title>
+    <link>https://harambeecity.lib.miamioh.edu/items/browse?tags=voter+registration&amp;sort_field=added&amp;sort_dir=a&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Fri, 09 Feb 2024 19:47:11 -0500</pubDate>
+    <managingEditor>tzoce@miamioh.edu (HARAMBEE CITY)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Baltimore and Cleveland Target City Project]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/25</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Baltimore and Cleveland Target City Project</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Target City Project</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Various documents which discuss both Cleveland and the Baltimore Target City Project.  Memorandums and articles summarize youth programs, leadership training, job training, voter registration, and other TCP activities.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">1966-1968</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">multiple contributors, CORE, Philip Carter</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">documents</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Target City Project</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/a28fe8aaf07bec405a75cdd2a9c98844.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/a28fe8aaf07bec405a75cdd2a9c98844.jpg" alt="CORE balt and cleveland tcp pg1.JPG" title="CORE balt and cleveland tcp pg1.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/9b111da75cf2f6f4a96c2d8b60695500.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/9b111da75cf2f6f4a96c2d8b60695500.jpg" alt="CORE balt and cleveland tcp pg2JPG.JPG" title="CORE balt and cleveland tcp pg2JPG.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/e46cb74b52ab72db064149536a754588.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/e46cb74b52ab72db064149536a754588.jpg" alt="CORE balt and cleveland tcp pg3.JPG" title="CORE balt and cleveland tcp pg3.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/97c28292142cac119379f8f284c32cbc.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/97c28292142cac119379f8f284c32cbc.jpg" alt="CORE voter reg tcp 68.JPG" title="CORE voter reg tcp 68.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/ab8b7920bf2d28000ed5037ed102ec78.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/ab8b7920bf2d28000ed5037ed102ec78.jpg" alt="carter to nac cleveland tcp.JPG" title="carter to nac cleveland tcp.JPG"></a></div>]]></description>
+      <pubDate>Tue, 08 Dec 2015 16:57:13 -0500</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/a28fe8aaf07bec405a75cdd2a9c98844.jpg" type="image/jpeg" length="5762754"/>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://harambeecity.lib.miamioh.edu/items/browse?tags=police&amp;sort_field=added&amp;sort_dir=d&amp;output=atom</id>
+  <title><![CDATA[HARAMBEE CITY]]></title>
+  <author>
+    <name><![CDATA[Unknown]]></name>
+  </author>
+  <updated>2024-02-09T22:31:39-05:00</updated>
+  <generator>Omeka</generator>
+  <link rel="self" href="https://harambeecity.rrchnm.org/items/browse?tags=police&amp;sort_field=added&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="first" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=police&amp;sort_field=added&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="last" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=police&amp;sort_field=added&amp;sort_dir=d&amp;output=atom"/>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/40</id>
+    <title><![CDATA[North City Congress Police-Community Relations Program]]></title>
+    <summary><![CDATA[Workshop outline for training Philadelphia Police on community relations]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/40"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/38c451e488d2fc493588e62f7e922d09.JPG" type="image/jpeg" length="8444044"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/979e8ebbdd2d7cffc633729e8ee59c8a.JPG" type="image/jpeg" length="8013681"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/decb32edce27c3f9099131afeaf43377.JPG" type="image/jpeg" length="8134865"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/3cbab1f38011a751a44128590b424d14.JPG" type="image/jpeg" length="8145852"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/d017a4c01a36684c2c19f665d9fe2264.JPG" type="image/jpeg" length="8045375"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/225dc1177939b6acc37d3555f332a72d.JPG" type="image/jpeg" length="8199663"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0aac16534ff80f0888d10ebc7fae45c6.JPG" type="image/jpeg" length="7057537"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/24718608267742a63c03055403c89b65.JPG" type="image/jpeg" length="8082813"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/34bac30576a367823cdde317de4a276c.JPG" type="image/jpeg" length="7875607"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/1da7eeff2414e81391b3500697eeb88d.JPG" type="image/jpeg" length="7515809"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/ce7bd2b1b652be929cd16bd3f6b1a0ae.JPG" type="image/jpeg" length="7411064"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/203cb92e8b93be1f038a37e76cbcbe5e.JPG" type="image/jpeg" length="7902544"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/007fe4e83799f782be7be562d1ef99b9.JPG" type="image/jpeg" length="7468989"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/3d21b175211b686488dd65ac6c7e0b85.JPG" type="image/jpeg" length="8079878"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/dff8f905e375dde7568b2d299766e496.JPG" type="image/jpeg" length="7595826"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/8bc8007b73890fba2c1f93c071704742.JPG" type="image/jpeg" length="7791403"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/37d62396c1345ccde5526847b6b9263e.JPG" type="image/jpeg" length="6141306"/>
+    <category term="community development"/>
+    <category term="community organizing"/>
+    <category term="Philadelphia"/>
+    <category term="police"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">North City Congress Police-Community Relations Program</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Philadelphia Police Community Training Program</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Workshop outline for training Philadelphia Police on community relations</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">North City Congress?</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">no date</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Philadelphia Police Community Training Program</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Police-Community Relations</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+</feed>

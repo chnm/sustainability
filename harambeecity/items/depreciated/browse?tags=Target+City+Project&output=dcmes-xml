@@ -1,0 +1,130 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/62">
+<dc:title>Franklin Anderson Interview 2</dc:title>
+<dc:subject>Franklin Anderson reviews his history and that of Cleveland CORE.</dc:subject>
+<dc:description>Franklin Anderson discusses Cleveland CORE, Target City Project, black Power, and Cleveland community.</dc:description>
+<dc:creator>Franklin Anderson</dc:creator>
+<dc:publisher>Nishani Frazier</dc:publisher>
+<dc:date>January 3, 201?</dc:date>
+<dc:rights>Franklin Anderson, Nishani Frazier</dc:rights>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/33">
+<dc:title>Maryland Freedom Union </dc:title>
+<dc:subject>Maryland Freedom Union</dc:subject>
+<dc:description>A brief history of Maryland Freedom Union - its creation and activities with CORE.</dc:description>
+<dc:creator>Mike Flug</dc:creator>
+<dc:source>CORE</dc:source>
+<dc:publisher>CORE</dc:publisher>
+<dc:date>circa 1966-1967</dc:date>
+<dc:contributor>Mike Flug</dc:contributor>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>ephemera</dc:type>
+<dc:identifier>Maryland Freedom Union</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/31">
+<dc:title>CORENCO Proposal</dc:title>
+<dc:subject>CORENCO</dc:subject>
+<dc:description>A proposal drafted by CORE to create the basis for a national community development corporation.</dc:description>
+<dc:creator>CORE</dc:creator>
+<dc:date>circa 1968</dc:date>
+<dc:contributor>Ussery, Kelso</dc:contributor>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>document</dc:type>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/29">
+<dc:title>Proposal for Economic Development</dc:title>
+<dc:subject>Economic Development</dc:subject>
+<dc:description>This document outlines the basis for CORE&#039;s request to take black power to its next phase.  The document was written by Antoine Perot and edited by Ruth (Turner) Perot</dc:description>
+<dc:creator>Antoine Perot</dc:creator>
+<dc:date>no date</dc:date>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>document</dc:type>
+<dc:identifier>economic development proposal</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/28">
+<dc:title>Youth Leadership Training Program</dc:title>
+<dc:subject>youth leadership training</dc:subject>
+<dc:description>Second draft proposal submitted by Antoine Perot and Dan Deweese.  The youth leadership training funding proposal was a project by CORE designed to move from Baltimore Target City to a national program.</dc:description>
+<dc:creator>Antoine Perot and Dan Deweese</dc:creator>
+<dc:date>no date</dc:date>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>document</dc:type>
+<dc:identifier>Youth Leadership</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/26">
+<dc:title>Economic Inequality and Target City Project</dc:title>
+<dc:subject>Economic inequality and CORE Target City Projects</dc:subject>
+<dc:description>Newspaper articles discuss income inequality and economic discrimination.  Some discussion of Cleveland Target City Project and Ford Foundation assistance.</dc:description>
+<dc:creator>multiple creators</dc:creator>
+<dc:date>1966-1968</dc:date>
+<dc:contributor>multiple contributors</dc:contributor>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type> newspaper </dc:type>
+<dc:identifier>Income inequality; Target City Project</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/25">
+<dc:title>Baltimore and Cleveland Target City Project</dc:title>
+<dc:subject>Target City Project</dc:subject>
+<dc:description>Various documents which discuss both Cleveland and the Baltimore Target City Project.  Memorandums and articles summarize youth programs, leadership training, job training, voter registration, and other TCP activities.</dc:description>
+<dc:creator>CORE</dc:creator>
+<dc:date>1966-1968</dc:date>
+<dc:contributor>multiple contributors, CORE, Philip Carter</dc:contributor>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>documents</dc:type>
+<dc:identifier>Target City Project</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/24">
+<dc:title>Second Income booklet</dc:title>
+<dc:subject>Economic equality</dc:subject>
+<dc:description>Kelso&#039;s film on Second Income is broken down here into individual images.  The full film is available under the audio/visual section of this website.  An album also accompanies the film.  Workshop leaders play the album and film together.</dc:description>
+<dc:creator>Louis Kelso</dc:creator>
+<dc:date>1968-1969</dc:date>
+<dc:contributor>Louis Kelso</dc:contributor>
+<dc:rights>Personal Papers of Antoine Perot, Louis Kelso</dc:rights>
+<dc:format>jpg and film</dc:format>
+<dc:language>English</dc:language>
+<dc:type>film</dc:type>
+<dc:identifier>Second Income</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/23">
+<dc:title>Baltimore Target City Project</dc:title>
+<dc:subject>Target City Project</dc:subject>
+<dc:description>Various materials related to Baltimore CORE&#039;s activities and National CORE&#039;s Black Power Project</dc:description>
+<dc:creator>multiple creators, CORE, </dc:creator>
+<dc:publisher>CORE, other</dc:publisher>
+<dc:date>1966-1967</dc:date>
+<dc:contributor>multiple contributors</dc:contributor>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>document</dc:type>
+<dc:identifier>Baltimore Target City</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/22">
+<dc:title>Muhammad Speaks</dc:title>
+<dc:subject>Muhammad Speaks newspaper article on Baltimore Target Project.</dc:subject>
+<dc:description>An article on Baltimore Target City Project.  Discusses the Ku Klux Klan and its march through the black community.  Explains how the black community no longer fears the Klan.</dc:description>
+<dc:creator>Nation of Islam; Baltimore Mosque</dc:creator>
+<dc:publisher>Nation of Islam</dc:publisher>
+<dc:date>June 24, 1966</dc:date>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>newspaper</dc:type>
+</rdf:Description></rdf:RDF>

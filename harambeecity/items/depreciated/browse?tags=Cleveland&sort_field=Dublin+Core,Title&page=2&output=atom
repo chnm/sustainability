@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://harambeecity.lib.miamioh.edu/items/browse?tags=Cleveland&amp;sort_field=Dublin+Core%2CTitle&amp;page=2&amp;output=atom</id>
+  <title><![CDATA[HARAMBEE CITY]]></title>
+  <author>
+    <name><![CDATA[Unknown]]></name>
+  </author>
+  <updated>2024-02-09T20:26:36-05:00</updated>
+  <generator>Omeka</generator>
+  <link rel="self" href="https://harambeecity.rrchnm.org/items/browse?tags=Cleveland&amp;sort_field=Dublin+Core%2CTitle&amp;page=2&amp;output=atom"/>
+  <link rel="first" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=Cleveland&amp;sort_field=Dublin+Core%2CTitle&amp;page=2&amp;output=atom"/>
+  <link rel="previous" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=Cleveland&amp;sort_field=Dublin+Core%2CTitle&amp;page=2&amp;output=atom"/>
+  <link rel="last" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/2?tags=Cleveland&amp;sort_field=Dublin+Core%2CTitle&amp;page=2&amp;output=atom"/>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/35</id>
+    <title><![CDATA[The Stokes Years: A Short History]]></title>
+    <summary><![CDATA[A short history on Carl B. Stokes and his first three years as mayor.]]></summary>
+    <updated>2017-12-11T16:33:12-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/35"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/9dc354a1913ffb50718588641738a0a0.JPG" type="image/jpeg" length="7813097"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/126d9ff50359d126c3e15044227e2347.JPG" type="image/jpeg" length="5697730"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/a3a1651da8da70736672c69b0d62bc60.JPG" type="image/jpeg" length="7090988"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/d18186d51ca672ea38cb3d0829d958a8.JPG" type="image/jpeg" length="6728043"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/355ebed7d4be352e2d95448cdf389dc1.JPG" type="image/jpeg" length="6754716"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/2a431f87f51465633a0c11e642c98a28.JPG" type="image/jpeg" length="5793852"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c27d53b1868c24aeae05374ca92d5c3e.JPG" type="image/jpeg" length="5954059"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/9c8e1feb761e0e75a60e13c10e45ac6b.JPG" type="image/jpeg" length="5758876"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6c0fe6a5724122a64a6d9b272f87173b.JPG" type="image/jpeg" length="6564928"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/b0409f4bd3345dc0f1c3ed616de80975.JPG" type="image/jpeg" length="7125689"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/99301875e32ae83d54785c6f1328b7ec.JPG" type="image/jpeg" length="6902679"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/7a0067d3ec514b607d7acd6d1e7614d0.JPG" type="image/jpeg" length="6755785"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/d64bb3600b202174efe00690d13db4f0.JPG" type="image/jpeg" length="6092451"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/e4fef9c031d386aca1762f4ae059d677.JPG" type="image/jpeg" length="6162798"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/af533cace452d409b6e05dfbcdb69415.JPG" type="image/jpeg" length="332893"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/4095082dfe3448a1bf2c8f2f651714f0.JPG" type="image/jpeg" length="6375670"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/5c0b6713e96d2faad3e8caaf19568082.JPG" type="image/jpeg" length="6022581"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/61fb7a64b2f6f6ecf70ab19d7e5e9091.JPG" type="image/jpeg" length="5958736"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6c46984e14f6aab58438980b085f8383.JPG" type="image/jpeg" length="6283763"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/cd9edbd4bc0ee17595c609a903b9e916.JPG" type="image/jpeg" length="6261338"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/41fbfc1aa809f8bcb58813e8dcb1bd04.JPG" type="image/jpeg" length="2107853"/>
+    <category term="Carl B. Stokes"/>
+    <category term="Cleveland"/>
+    <category term="community development corporation"/>
+    <category term="community organizing"/>
+    <category term="economic development"/>
+    <category term="economic inequality"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">The Stokes Years: A Short History</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Carl B. Stokes</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">A short history on Carl B. Stokes and his first three years as mayor.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">City of Cleveland</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">City of Cleveland</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">November 8, 1971</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">ephemera</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Carl B. Stokes</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+</feed>

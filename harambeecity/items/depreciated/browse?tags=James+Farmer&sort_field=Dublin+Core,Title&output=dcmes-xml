@@ -1,0 +1,17 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/39">
+<dc:title>James Farmer: National Tribute Program</dc:title>
+<dc:subject>James Farmer</dc:subject>
+<dc:description>Posthumous tribute to James Farmer and his accomplishments.</dc:description>
+<dc:creator>unknown</dc:creator>
+<dc:date>November 10, 1999</dc:date>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>ephemera</dc:type>
+<dc:identifier>James Farmer</dc:identifier>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[HARAMBEE CITY]]></title>
+    <link>https://harambeecity.lib.miamioh.edu/items/browse?tags=philosophy&amp;sort_field=added&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Fri, 09 Feb 2024 21:53:49 -0500</pubDate>
+    <managingEditor>tzoce@miamioh.edu (HARAMBEE CITY)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Giving and Receiving Help]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/37</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Giving and Receiving Help</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">philosophical statement on workplace interactions</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">A philosophical discussion on the process of giving and receiving help.  Possibly, this circulated as an effort to improve the internal dynamics within CORE or as a personal reminder for Perot himself.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">unknown</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">no date</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">workplace interaction</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/c063efa8e658aab425e378d6ae15a514.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/c063efa8e658aab425e378d6ae15a514.jpg" alt="Gv and Rcv Help1.JPG" title="Gv and Rcv Help1.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/f1d5e0456fa508488d9e42bea7c2222b.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/f1d5e0456fa508488d9e42bea7c2222b.jpg" alt="Gv and Rcv Help2.JPG" title="Gv and Rcv Help2.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/1146f585225b33217d099c4ef4e21d2a.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/1146f585225b33217d099c4ef4e21d2a.jpg" alt="Gv and Rcv Help3.JPG" title="Gv and Rcv Help3.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/5cb6fc282ada24001f946e89a4fdf6da.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/5cb6fc282ada24001f946e89a4fdf6da.jpg" alt="Gv and Rcv Help4.JPG" title="Gv and Rcv Help4.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/b8b1c8fe0c20d3fcc95dbe09a04d27bf.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/b8b1c8fe0c20d3fcc95dbe09a04d27bf.jpg" alt="Gv and Rcv Help5.JPG" title="Gv and Rcv Help5.JPG"></a></div>]]></description>
+      <pubDate>Wed, 16 Dec 2015 09:06:22 -0500</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/c063efa8e658aab425e378d6ae15a514.jpg" type="image/jpeg" length="4438039"/>
+    </item>
+  </channel>
+</rss>

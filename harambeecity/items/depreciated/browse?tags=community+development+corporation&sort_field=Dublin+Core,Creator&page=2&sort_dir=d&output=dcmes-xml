@@ -1,0 +1,17 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/29">
+<dc:title>Proposal for Economic Development</dc:title>
+<dc:subject>Economic Development</dc:subject>
+<dc:description>This document outlines the basis for CORE&#039;s request to take black power to its next phase.  The document was written by Antoine Perot and edited by Ruth (Turner) Perot</dc:description>
+<dc:creator>Antoine Perot</dc:creator>
+<dc:date>no date</dc:date>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>document</dc:type>
+<dc:identifier>economic development proposal</dc:identifier>
+</rdf:Description></rdf:RDF>

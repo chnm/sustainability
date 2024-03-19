@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://harambeecity.lib.miamioh.edu/items/browse?tags=black+power&amp;page=2&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=d&amp;output=atom</id>
+  <title><![CDATA[HARAMBEE CITY]]></title>
+  <author>
+    <name><![CDATA[Unknown]]></name>
+  </author>
+  <updated>2024-02-10T00:08:40-05:00</updated>
+  <generator>Omeka</generator>
+  <link rel="self" href="https://harambeecity.rrchnm.org/items/browse?tags=black+power&amp;page=2&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="first" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=black+power&amp;page=2&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="previous" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=black+power&amp;page=2&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="last" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/2?tags=black+power&amp;page=2&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=d&amp;output=atom"/>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/10</id>
+    <title><![CDATA[Constructive Militancy]]></title>
+    <summary><![CDATA[Pamphlet published by CORE that outlines its platform on Black Power.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/10"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/719102fb16a248b4a031e26ec01a74e5.JPG" type="image/jpeg" length="5485317"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/f313e3d8a15ec758254d403783a9a683.JPG" type="image/jpeg" length="8530077"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/375109147fa3497a006fbc2d6e25f69a.JPG" type="image/jpeg" length="8843667"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/60852d8a6cf5d4b43c4144378a203e4a.JPG" type="image/jpeg" length="8809296"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/029b1a36a85f6352762925f52343b6cc.JPG" type="image/jpeg" length="8757844"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0243910b9e95189754c7329e942f4c9d.JPG" type="image/jpeg" length="8731139"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/ffee5eea72111fd6398f04b5061c8486.JPG" type="image/jpeg" length="8661159"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0235f3689c7206e63b3780a89e46db17.JPG" type="image/jpeg" length="8638369"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/cbf42d56f1caab03154fd7aafef77012.JPG" type="image/jpeg" length="5060171"/>
+    <category term="black power"/>
+    <category term="CORE pamphlet"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Constructive Militancy</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">CORE and Black Power</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Pamphlet published by CORE that outlines its platform on Black Power.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">CORE; Ruth Turner; Lincoln Lynch</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Constructive Militancy</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/23</id>
+    <title><![CDATA[Baltimore Target City Project]]></title>
+    <summary><![CDATA[Various materials related to Baltimore CORE&#039;s activities and National CORE&#039;s Black Power Project]]></summary>
+    <updated>2017-12-11T14:55:51-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/23"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6dc879bc8846a95404389343cdbb0d9a.JPG" type="image/jpeg" length="7444980"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c0b709ba3a8b76748b65fe9d3fc58563.JPG" type="image/jpeg" length="8043092"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/8542ae5e8b3714b9318667f50ce68975.JPG" type="image/jpeg" length="3798192"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/cb3e417a4131355c38f9a89a116a0ea2.JPG" type="image/jpeg" length="318042"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/88e40d0abd78cfeda2e4a295339b037f.JPG" type="image/jpeg" length="6074140"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6acebf6674c6f1ef6ab8f9a21630a113.JPG" type="image/jpeg" length="6325241"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/fe5ef5310feb28cf17b665b6613cd92e.JPG" type="image/jpeg" length="4020017"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/be9c13860342e75906fcb2500c9c1757.JPG" type="image/jpeg" length="4512177"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/dea933893d4d650e5c7496979ab11b83.JPG" type="image/jpeg" length="8179644"/>
+    <category term="Baltimore"/>
+    <category term="black power"/>
+    <category term="community organizing"/>
+    <category term="economic development"/>
+    <category term="Freedom Schools"/>
+    <category term="job training"/>
+    <category term="Ruth Turner"/>
+    <category term="Target City Project"/>
+    <category term="Tony Perot"/>
+    <category term="youth projects"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Baltimore Target City Project</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Target City Project</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Various materials related to Baltimore CORE&#039;s activities and National CORE&#039;s Black Power Project</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">multiple creators, CORE, </div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">CORE, other</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">1966-1967</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">multiple contributors</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Baltimore Target City</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/25</id>
+    <title><![CDATA[Baltimore and Cleveland Target City Project]]></title>
+    <summary><![CDATA[Various documents which discuss both Cleveland and the Baltimore Target City Project.  Memorandums and articles summarize youth programs, leadership training, job training, voter registration, and other TCP activities.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/25"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/a28fe8aaf07bec405a75cdd2a9c98844.JPG" type="image/jpeg" length="5762754"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/9b111da75cf2f6f4a96c2d8b60695500.JPG" type="image/jpeg" length="5729483"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/e46cb74b52ab72db064149536a754588.JPG" type="image/jpeg" length="5759869"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/97c28292142cac119379f8f284c32cbc.JPG" type="image/jpeg" length="6696383"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/ab8b7920bf2d28000ed5037ed102ec78.JPG" type="image/jpeg" length="5514611"/>
+    <category term="Baltimore"/>
+    <category term="black economic power"/>
+    <category term="black power"/>
+    <category term="black power populism"/>
+    <category term="Cleveland"/>
+    <category term="community organizing"/>
+    <category term="CORENCO"/>
+    <category term="Harambee"/>
+    <category term="leadership training"/>
+    <category term="Target City Project"/>
+    <category term="voter registration"/>
+    <category term="youth projects"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Baltimore and Cleveland Target City Project</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Target City Project</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Various documents which discuss both Cleveland and the Baltimore Target City Project.  Memorandums and articles summarize youth programs, leadership training, job training, voter registration, and other TCP activities.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">1966-1968</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">multiple contributors, CORE, Philip Carter</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">documents</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Target City Project</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+</feed>

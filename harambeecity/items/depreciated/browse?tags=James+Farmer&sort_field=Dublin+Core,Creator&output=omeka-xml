@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemContainer xmlns="http://omeka.org/schemas/omeka-xml/v5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://omeka.org/schemas/omeka-xml/v5 http://omeka.org/schemas/omeka-xml/v5/omeka-xml-5-0.xsd" uri="https://harambeecity.lib.miamioh.edu/items/browse?tags=James+Farmer&amp;sort_field=Dublin+Core%2CCreator&amp;output=omeka-xml" accessDate="2024-02-09T19:12:40-05:00">
+  <miscellaneousContainer>
+    <pagination>
+      <pageNumber>1</pageNumber>
+      <perPage>10</perPage>
+      <totalResults>1</totalResults>
+    </pagination>
+  </miscellaneousContainer>
+  <item itemId="39" public="1" featured="0">
+    <fileContainer>
+      <file fileId="512">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/7edaa379305122c0758ec60a75a33dec.JPG</src>
+        <authentication>5b06e3153071f983a016f10299b70cdc</authentication>
+      </file>
+      <file fileId="513">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/a49e78727c3abd6ade040213cda9ea48.JPG</src>
+        <authentication>2d5d6e879e51b21a8f3179f479ec1f88</authentication>
+      </file>
+      <file fileId="514">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/9d265f50836ec3c319026b725e0e972a.JPG</src>
+        <authentication>78988fc33f90d92a4a617f9a0de1a4a9</authentication>
+      </file>
+      <file fileId="515">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/f880eaf275b2598f27a7a1509cbf4330.JPG</src>
+        <authentication>3628fb59ce8c5695de947fbea0d78ed2</authentication>
+      </file>
+      <file fileId="509">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/39bd8e74fc2cc9d4b303cb2d14b261a2.JPG</src>
+        <authentication>c231240b7f556cea4179f3f41f532f2e</authentication>
+      </file>
+      <file fileId="510">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/6c6f4569fd86420479aff688249f438f.JPG</src>
+        <authentication>26681597979c5a579b82b934f014d289</authentication>
+      </file>
+      <file fileId="511">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/926242c7cf00f66aa3650aad14fb362e.JPG</src>
+        <authentication>3657f00256e78cf14b7c2e6f7cbb2894</authentication>
+      </file>
+    </fileContainer>
+    <collection collectionId="2">
+      <elementSetContainer>
+        <elementSet elementSetId="1">
+          <name>Dublin Core</name>
+          <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+          <elementContainer>
+            <element elementId="50">
+              <name>Title</name>
+              <description>A name given to the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="4">
+                  <text>Antoine Perot's Briefcase</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="49">
+              <name>Subject</name>
+              <description>The topic of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="5">
+                  <text>1960s, black economic development, CORE</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="41">
+              <name>Description</name>
+              <description>An account of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="6">
+                  <text>This collection contains documents </text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="39">
+              <name>Creator</name>
+              <description>An entity primarily responsible for making the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="7">
+                  <text>Antoine Perot, CORE, Ruth Turner, miscellaneous creaors</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="48">
+              <name>Source</name>
+              <description>A related resource from which the described resource is derived</description>
+              <elementTextContainer>
+                <elementText elementTextId="8">
+                  <text>Personal Papers of Antoine Perot</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="45">
+              <name>Publisher</name>
+              <description>An entity responsible for making the resource available</description>
+              <elementTextContainer>
+                <elementText elementTextId="9">
+                  <text>Personal Papers of Antoine Perot</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="40">
+              <name>Date</name>
+              <description>A point or period of time associated with an event in the lifecycle of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="10">
+                  <text>1960s</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="37">
+              <name>Contributor</name>
+              <description>An entity responsible for making contributions to the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="11">
+                  <text>Multiple contributors</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="47">
+              <name>Rights</name>
+              <description>Information about rights held in and over the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="12">
+                  <text>Intellectual ownership by individual creators, physical ownership belongs to Antoine Perot.</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="42">
+              <name>Format</name>
+              <description>The file format, physical medium, or dimensions of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="13">
+                  <text>paper documents as pdf images</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="44">
+              <name>Language</name>
+              <description>A language of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="14">
+                  <text>English</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="51">
+              <name>Type</name>
+              <description>The nature or genre of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="15">
+                  <text>ephemera</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="43">
+              <name>Identifier</name>
+              <description>An unambiguous reference to the resource within a given context</description>
+              <elementTextContainer>
+                <elementText elementTextId="16">
+                  <text>Congress of Racial Equality</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="38">
+              <name>Coverage</name>
+              <description>The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant</description>
+              <elementTextContainer>
+                <elementText elementTextId="17">
+                  <text>Documents cover CORE's activities in Cleveland, black economic development, and national office post 1964 through 1969.</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+          </elementContainer>
+        </elementSet>
+      </elementSetContainer>
+    </collection>
+    <elementSetContainer>
+      <elementSet elementSetId="1">
+        <name>Dublin Core</name>
+        <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+        <elementContainer>
+          <element elementId="50">
+            <name>Title</name>
+            <description>A name given to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="297">
+                <text>James Farmer: National Tribute Program</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="49">
+            <name>Subject</name>
+            <description>The topic of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="472">
+                <text>James Farmer</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="41">
+            <name>Description</name>
+            <description>An account of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="473">
+                <text>Posthumous tribute to James Farmer and his accomplishments.</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="39">
+            <name>Creator</name>
+            <description>An entity primarily responsible for making the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="474">
+                <text>unknown</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="40">
+            <name>Date</name>
+            <description>A point or period of time associated with an event in the lifecycle of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="475">
+                <text>November 10, 1999</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="47">
+            <name>Rights</name>
+            <description>Information about rights held in and over the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="476">
+                <text>Personal Papers of Antoine Perot</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="42">
+            <name>Format</name>
+            <description>The file format, physical medium, or dimensions of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="477">
+                <text>jpg</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="44">
+            <name>Language</name>
+            <description>A language of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="478">
+                <text>English</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="51">
+            <name>Type</name>
+            <description>The nature or genre of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="479">
+                <text>ephemera</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="43">
+            <name>Identifier</name>
+            <description>An unambiguous reference to the resource within a given context</description>
+            <elementTextContainer>
+              <elementText elementTextId="480">
+                <text>James Farmer</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+        </elementContainer>
+      </elementSet>
+    </elementSetContainer>
+    <tagContainer>
+      <tag tagId="70">
+        <name>James Farmer</name>
+      </tag>
+    </tagContainer>
+  </item>
+</itemContainer>

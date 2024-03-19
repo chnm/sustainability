@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemContainer xmlns="http://omeka.org/schemas/omeka-xml/v5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://omeka.org/schemas/omeka-xml/v5 http://omeka.org/schemas/omeka-xml/v5/omeka-xml-5-0.xsd" uri="https://harambeecity.lib.miamioh.edu/items/browse?sort_field=added&amp;page=8&amp;output=omeka-xml" accessDate="2024-02-10T06:23:38-05:00">
+  <miscellaneousContainer>
+    <pagination>
+      <pageNumber>8</pageNumber>
+      <perPage>10</perPage>
+      <totalResults>91</totalResults>
+    </pagination>
+  </miscellaneousContainer>
+  <item itemId="76" public="1" featured="0">
+    <fileContainer>
+      <file fileId="694">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/6bcc503fae1cb2a44a34797b266ce275.mp3</src>
+        <authentication>8d363b89b5045192250f4d3030bde7e9</authentication>
+      </file>
+    </fileContainer>
+    <elementSetContainer>
+      <elementSet elementSetId="1">
+        <name>Dublin Core</name>
+        <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+        <elementContainer>
+          <element elementId="50">
+            <name>Title</name>
+            <description>A name given to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="685">
+                <text>Oral History with JoAnne Hardy Klunder</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="41">
+            <name>Description</name>
+            <description>An account of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="731">
+                <text>Covers early CORE and husband's activities with Cleveland civil rights. Some skipping on the tape.</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+        </elementContainer>
+      </elementSet>
+    </elementSetContainer>
+  </item>
+  <item itemId="77" public="1" featured="0">
+    <fileContainer>
+      <file fileId="695">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/fde0272e27fe04f03a6ff72005f6470c.mp3</src>
+        <authentication>d36e5a062dbaf777dde237de78f3780c</authentication>
+      </file>
+    </fileContainer>
+    <elementSetContainer>
+      <elementSet elementSetId="1">
+        <name>Dublin Core</name>
+        <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+        <elementContainer>
+          <element elementId="50">
+            <name>Title</name>
+            <description>A name given to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="686">
+                <text>Oral History Interview with Juanita Nelson I</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+        </elementContainer>
+      </elementSet>
+    </elementSetContainer>
+  </item>
+  <item itemId="78" public="1" featured="0">
+    <fileContainer>
+      <file fileId="696">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/9401f267e8040c821419784dc1e22ff2.mp3</src>
+        <authentication>e6f88b81a0ded08b4e5cab50d8fdae46</authentication>
+      </file>
+    </fileContainer>
+    <elementSetContainer>
+      <elementSet elementSetId="1">
+        <name>Dublin Core</name>
+        <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+        <elementContainer>
+          <element elementId="50">
+            <name>Title</name>
+            <description>A name given to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="687">
+                <text>Oral History Interview with Dick Peery</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+        </elementContainer>
+      </elementSet>
+    </elementSetContainer>
+  </item>
+  <item itemId="79" public="1" featured="0">
+    <fileContainer>
+      <file fileId="697">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/f60fa6e7b604f4c325f6ebe3592c1ef1.mp3</src>
+        <authentication>d9087bcfaaec9295d7966dcfa1272a42</authentication>
+      </file>
+      <file fileId="698">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/07a1cb36a4685e84c3d803c5423058de.mp3</src>
+        <authentication>2630b3bd88175b6e1645947590fc3f80</authentication>
+      </file>
+    </fileContainer>
+    <elementSetContainer>
+      <elementSet elementSetId="1">
+        <name>Dublin Core</name>
+        <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+        <elementContainer>
+          <element elementId="50">
+            <name>Title</name>
+            <description>A name given to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="688">
+                <text>Oral History Interview with Don Bean and Nate Smith - 2 Parts</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+        </elementContainer>
+      </elementSet>
+    </elementSetContainer>
+  </item>
+  <item itemId="80" public="1" featured="0">
+    <fileContainer>
+      <file fileId="699">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/3ba4153adaab605c834d340a51af9416.mp3</src>
+        <authentication>d93b9cc3bd2a4d9058a19eb6176223a7</authentication>
+      </file>
+    </fileContainer>
+    <elementSetContainer>
+      <elementSet elementSetId="1">
+        <name>Dublin Core</name>
+        <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+        <elementContainer>
+          <element elementId="50">
+            <name>Title</name>
+            <description>A name given to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="689">
+                <text>Oral History Interview with Frank Anderson</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+        </elementContainer>
+      </elementSet>
+    </elementSetContainer>
+  </item>
+  <item itemId="81" public="1" featured="0">
+    <fileContainer>
+      <file fileId="700">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/db05904e819849461040755dcd43154e.mp3</src>
+        <authentication>09eecb9a0e5b13f8cc6ea7dfe38c1cbf</authentication>
+      </file>
+      <file fileId="701">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/b7180d8d3a04c13526938fd26d735d6a.mp3</src>
+        <authentication>1cdea8048e218b68f34adfa4626bbc7c</authentication>
+      </file>
+    </fileContainer>
+    <elementSetContainer>
+      <elementSet elementSetId="1">
+        <name>Dublin Core</name>
+        <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+        <elementContainer>
+          <element elementId="50">
+            <name>Title</name>
+            <description>A name given to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="690">
+                <text>Oral History Interview with Gordon Carey, Parts 1 and 2</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+        </elementContainer>
+      </elementSet>
+    </elementSetContainer>
+  </item>
+  <item itemId="82" public="1" featured="0">
+    <fileContainer>
+      <file fileId="702">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/2e996f1ae242ae1df4c472ca1c19ebe5.mp3</src>
+        <authentication>1156bc5c123d0e7468f94f5e1d79e7d1</authentication>
+      </file>
+      <file fileId="703">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/7b10e53358d382486bace671d6c2cdcf.mp3</src>
+        <authentication>8f29a99c2f312055267fe1a6fbf7f588</authentication>
+      </file>
+    </fileContainer>
+    <collection collectionId="3">
+      <elementSetContainer>
+        <elementSet elementSetId="1">
+          <name>Dublin Core</name>
+          <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+          <elementContainer>
+            <element elementId="50">
+              <name>Title</name>
+              <description>A name given to the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="18">
+                  <text>Oral History Interviews</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="49">
+              <name>Subject</name>
+              <description>The topic of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="19">
+                  <text>Interviews with members of the Congress of Racial Equality</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="41">
+              <name>Description</name>
+              <description>An account of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="20">
+                  <text>interviews conducted by Nishani Frazier regarding the history of CORE, Black Power, individual history, and economic development</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="39">
+              <name>Creator</name>
+              <description>An entity primarily responsible for making the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="21">
+                  <text>Nishani Frazier and Multiple creators</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="48">
+              <name>Source</name>
+              <description>A related resource from which the described resource is derived</description>
+              <elementTextContainer>
+                <elementText elementTextId="22">
+                  <text>digital/tape recordings</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="45">
+              <name>Publisher</name>
+              <description>An entity responsible for making the resource available</description>
+              <elementTextContainer>
+                <elementText elementTextId="23">
+                  <text>Nishani Frazier</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="40">
+              <name>Date</name>
+              <description>A point or period of time associated with an event in the lifecycle of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="24">
+                  <text>Interviews conducted from 2004 to 2013 regarding the 1960s</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="37">
+              <name>Contributor</name>
+              <description>An entity responsible for making contributions to the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="25">
+                  <text>Nishani Frazier and multiple creators</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="47">
+              <name>Rights</name>
+              <description>Information about rights held in and over the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="26">
+                  <text>co-copyright ownership</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="42">
+              <name>Format</name>
+              <description>The file format, physical medium, or dimensions of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="27">
+                  <text>digital recording</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="44">
+              <name>Language</name>
+              <description>A language of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="28">
+                  <text>English</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="51">
+              <name>Type</name>
+              <description>The nature or genre of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="29">
+                  <text>recording</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="43">
+              <name>Identifier</name>
+              <description>An unambiguous reference to the resource within a given context</description>
+              <elementTextContainer>
+                <elementText elementTextId="30">
+                  <text>CORE oral histories</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="38">
+              <name>Coverage</name>
+              <description>The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant</description>
+              <elementTextContainer>
+                <elementText elementTextId="31">
+                  <text>Covers the post WWII period, particularly CORE and the 1960s.</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+          </elementContainer>
+        </elementSet>
+      </elementSetContainer>
+    </collection>
+    <elementSetContainer>
+      <elementSet elementSetId="1">
+        <name>Dublin Core</name>
+        <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+        <elementContainer>
+          <element elementId="50">
+            <name>Title</name>
+            <description>A name given to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="691">
+                <text>Oral History Interview with Ruth Turner and Tony Perot</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+        </elementContainer>
+      </elementSet>
+    </elementSetContainer>
+  </item>
+  <item itemId="83" public="1" featured="0">
+    <fileContainer>
+      <file fileId="721">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/13d189d09c1b656978cba20797e08ad1.jpeg</src>
+        <authentication>0ee9efa73fa8a97c7191eb3e9b3c831f</authentication>
+      </file>
+    </fileContainer>
+    <elementSetContainer>
+      <elementSet elementSetId="1">
+        <name>Dublin Core</name>
+        <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+        <elementContainer>
+          <element elementId="50">
+            <name>Title</name>
+            <description>A name given to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="692">
+                <text>CORE Family Members</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="41">
+            <name>Description</name>
+            <description>An account of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="693">
+                <text>Pauline Warfield Frazier, Nate Smith, and Antoine Perot</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="40">
+            <name>Date</name>
+            <description>A point or period of time associated with an event in the lifecycle of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="694">
+                <text>1970s</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="47">
+            <name>Rights</name>
+            <description>Information about rights held in and over the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="695">
+                <text>Nishani Frazier</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+        </elementContainer>
+      </elementSet>
+    </elementSetContainer>
+  </item>
+  <item itemId="84" public="1" featured="0">
+    <fileContainer>
+      <file fileId="722">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/0e8013eedb36561017271b096e70e62a.jpg</src>
+        <authentication>4e0392c5ea19d5d6fd1ffcf1324107d8</authentication>
+      </file>
+      <file fileId="723">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/874223001dd88bdd2409b88395665b8b.jpg</src>
+        <authentication>2ef825b074a53bb2d8fbf13f00bef8e0</authentication>
+      </file>
+      <file fileId="724">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/f07ab622adc959c0f2284a315256cdcf.jpg</src>
+        <authentication>be78cca893889e6bdb05a392237f691c</authentication>
+      </file>
+    </fileContainer>
+    <elementSetContainer>
+      <elementSet elementSetId="1">
+        <name>Dublin Core</name>
+        <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+        <elementContainer>
+          <element elementId="50">
+            <name>Title</name>
+            <description>A name given to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="696">
+                <text>CORE photos </text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="49">
+            <name>Subject</name>
+            <description>The topic of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="697">
+                <text>Image of Malcolm X, Ruth Turner, and Art Evans,&#13;
+Image of Stanley Tolliver (CORE lawyer) and Chuck Burton (blind member of CORE)&#13;
+Image of CORE Members Pauline Warfield Frazier, Nate Smith, Antoine Perot, and Nishani Frazier</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="39">
+            <name>Creator</name>
+            <description>An entity primarily responsible for making the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="698">
+                <text>unknown</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="48">
+            <name>Source</name>
+            <description>A related resource from which the described resource is derived</description>
+            <elementTextContainer>
+              <elementText elementTextId="699">
+                <text>Images owned by Ruth Turner Perot</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="40">
+            <name>Date</name>
+            <description>A point or period of time associated with an event in the lifecycle of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="700">
+                <text>1960s-1970s</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+        </elementContainer>
+      </elementSet>
+    </elementSetContainer>
+  </item>
+  <item itemId="85" public="1" featured="0">
+    <fileContainer>
+      <file fileId="725">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/d1aef3a0835490137494a7e1adc14158.jpg</src>
+        <authentication>26adf31398969467e85d259212e6da74</authentication>
+      </file>
+      <file fileId="726">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/54d8919d00c961e29f48f48bf3644931.jpg</src>
+        <authentication>b513bc0384edbe3f308ebe6e46dc69f6</authentication>
+      </file>
+      <file fileId="727">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/ddce896f5e7b74515e717f8e8e07d1ce.jpg</src>
+        <authentication>155a0066d4059c2bc9682f0a7e9527fb</authentication>
+      </file>
+      <file fileId="728">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/370c8d077a2b34489ceebdc65aa48b0a.jpg</src>
+        <authentication>7c5832714f53b1f5cc5d6070b0356c2a</authentication>
+      </file>
+      <file fileId="729">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/28d324223c5ebde829646942fcabb110.jpeg</src>
+        <authentication>25c7885af07ff1debe5069a3e75cefab</authentication>
+      </file>
+      <file fileId="730">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/ac174490f5b9d24cdf5e3a0a10fae7c1.jpg</src>
+        <authentication>af7ffc4815dc9bc7f594aa4b3d22273e</authentication>
+      </file>
+      <file fileId="731">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/ec1df11a8d5eedc9803b2315b5277c37.jpg</src>
+        <authentication>e0db8a2fc85eb319b366640ae3a88b1b</authentication>
+      </file>
+    </fileContainer>
+    <elementSetContainer>
+      <elementSet elementSetId="1">
+        <name>Dublin Core</name>
+        <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+        <elementContainer>
+          <element elementId="50">
+            <name>Title</name>
+            <description>A name given to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="701">
+                <text>School Board of Education CORE PROTESTS</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="41">
+            <name>Description</name>
+            <description>An account of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="702">
+                <text>images of CORE protesters throughout school board of education.</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="39">
+            <name>Creator</name>
+            <description>An entity primarily responsible for making the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="703">
+                <text>unknown</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="48">
+            <name>Source</name>
+            <description>A related resource from which the described resource is derived</description>
+            <elementTextContainer>
+              <elementText elementTextId="704">
+                <text>Cleveland State University</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="45">
+            <name>Publisher</name>
+            <description>An entity responsible for making the resource available</description>
+            <elementTextContainer>
+              <elementText elementTextId="705">
+                <text>Cleveland Press?</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="40">
+            <name>Date</name>
+            <description>A point or period of time associated with an event in the lifecycle of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="706">
+                <text>1964</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+        </elementContainer>
+      </elementSet>
+    </elementSetContainer>
+  </item>
+</itemContainer>

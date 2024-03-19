@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://harambeecity.lib.miamioh.edu/items/browse?collection=2&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=d&amp;page=2&amp;output=atom</id>
+  <title><![CDATA[HARAMBEE CITY]]></title>
+  <author>
+    <name><![CDATA[Unknown]]></name>
+  </author>
+  <updated>2024-02-10T05:39:02-05:00</updated>
+  <generator>Omeka</generator>
+  <link rel="self" href="https://harambeecity.rrchnm.org/items/browse?collection=2&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=d&amp;page=2&amp;output=atom"/>
+  <link rel="first" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?collection=2&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=d&amp;page=2&amp;output=atom"/>
+  <link rel="previous" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?collection=2&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=d&amp;page=2&amp;output=atom"/>
+  <link rel="next" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/3?collection=2&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=d&amp;page=2&amp;output=atom"/>
+  <link rel="last" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/4?collection=2&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=d&amp;page=2&amp;output=atom"/>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/36</id>
+    <title><![CDATA[Progress of the American Negro]]></title>
+    <summary><![CDATA[Short summary of black progress from slavery to freedom.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/36"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/cfd02f7f59047eeef44191076abf2c36.JPG" type="image/jpeg" length="8208255"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/21f5a9eea42ceec7cca94c22e4dfaed4.JPG" type="image/jpeg" length="7826075"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/d4a3903e6a6571a583253a3a7c397b22.JPG" type="image/jpeg" length="6968911"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/1d46503a3d81cb5fad26705ddd05325a.JPG" type="image/jpeg" length="7360421"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6e31fb3d58090774ba4d2dbdc655b533.JPG" type="image/jpeg" length="7377241"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/91db501d6b4ad2cbf8aff28ed9e09827.JPG" type="image/jpeg" length="6252547"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/ee2c35d33f9cf58b72548ebe672eee0d.JPG" type="image/jpeg" length="7234542"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/d63190e0fc90890a06fb17dfdc19c61c.JPG" type="image/jpeg" length="7239740"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/4d11f6c3f13cc0826f81a27811fa729d.JPG" type="image/jpeg" length="8155522"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/d6e7176e6910477430ca89a07bb0c832.JPG" type="image/jpeg" length="7486653"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/d05c09849187076c8fb00ffaaf014b94.JPG" type="image/jpeg" length="7886691"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/d6f8af0de5baca7c850b5924fc917c64.JPG" type="image/jpeg" length="7821579"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/3b1288eb13f4ebf7a39d8daad4a993f8.JPG" type="image/jpeg" length="8153184"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/191c913a63a06bb6abf000d1ed66dfef.JPG" type="image/jpeg" length="6824200"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/43b9fc69dad4ae8aa53ff3308f63c345.JPG" type="image/jpeg" length="8473548"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/2af5b1a12894569d12f40ed12c89a515.JPG" type="image/jpeg" length="5356830"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/03fc1d4387c5d8847e9ad52b527dbfe1.JPG" type="image/jpeg" length="2633166"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/9f60bdecd1ad93acc69c3160f849e7e0.JPG" type="image/jpeg" length="1950893"/>
+    <category term="community development"/>
+    <category term="economic inequality"/>
+    <category term="history"/>
+    <category term="migration"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Progress of the American Negro</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Short summary of black progress from slavery to freedom.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Short summary of black progress from slavery to freedom.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Cleveland Call and Post</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Mirror Publishing Company, Cleveland, OH</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">no date</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">ephemera</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">African American progress in the U.S.</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/34</id>
+    <title><![CDATA[Our Invisible Poor Pamphlet]]></title>
+    <summary><![CDATA[A short information pamphlet on poverty in the United STates]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/34"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c9b2a37a6412df04f64e57d13e6df093.JPG" type="image/jpeg" length="5537068"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/43bb73ad237a878473a8f74c1d396f4a.JPG" type="image/jpeg" length="5794666"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/a673f4196a1213e325266acdb7a97601.JPG" type="image/jpeg" length="5816554"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/ed370406dd2551b1fbc4cab1bdb1096d.JPG" type="image/jpeg" length="5566815"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/d7ebac4b20d2316f472012f09d4634de.JPG" type="image/jpeg" length="5706918"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6e4b9ef12c6aab14f5b7f94d4ff4a43c.JPG" type="image/jpeg" length="5663145"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/3691da49d31556edff407895571492f9.JPG" type="image/jpeg" length="5727783"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/2988eff21ec36be751d3aeeeb3860250.JPG" type="image/jpeg" length="5764226"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/1509641d200956e72a1ba2d95ff0e6d5.JPG" type="image/jpeg" length="5683335"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0ccbd1fe7e1af83f795e46e9feaf12d9.JPG" type="image/jpeg" length="5775446"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c01c1c4621ba92366e6315645c8eb373.JPG" type="image/jpeg" length="5693281"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/751102763d6b1a80c3feb0d93be12a0a.JPG" type="image/jpeg" length="5791498"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/53f5f61732312e4ab3667ba9bdc04b73.JPG" type="image/jpeg" length="5795871"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6710358c80bbe41144f717439aa0c0dc.JPG" type="image/jpeg" length="2852507"/>
+    <category term="community organizing"/>
+    <category term="economic development"/>
+    <category term="economic inequality"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Our Invisible Poor Pamphlet</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Poverty in America</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">A short information pamphlet on poverty in the United STates</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Dwight MacDonald</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Sidney Hillman Foundaton</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">no date</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">ephemera</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Economic Inequality</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/40</id>
+    <title><![CDATA[North City Congress Police-Community Relations Program]]></title>
+    <summary><![CDATA[Workshop outline for training Philadelphia Police on community relations]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/40"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/38c451e488d2fc493588e62f7e922d09.JPG" type="image/jpeg" length="8444044"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/979e8ebbdd2d7cffc633729e8ee59c8a.JPG" type="image/jpeg" length="8013681"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/decb32edce27c3f9099131afeaf43377.JPG" type="image/jpeg" length="8134865"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/3cbab1f38011a751a44128590b424d14.JPG" type="image/jpeg" length="8145852"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/d017a4c01a36684c2c19f665d9fe2264.JPG" type="image/jpeg" length="8045375"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/225dc1177939b6acc37d3555f332a72d.JPG" type="image/jpeg" length="8199663"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0aac16534ff80f0888d10ebc7fae45c6.JPG" type="image/jpeg" length="7057537"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/24718608267742a63c03055403c89b65.JPG" type="image/jpeg" length="8082813"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/34bac30576a367823cdde317de4a276c.JPG" type="image/jpeg" length="7875607"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/1da7eeff2414e81391b3500697eeb88d.JPG" type="image/jpeg" length="7515809"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/ce7bd2b1b652be929cd16bd3f6b1a0ae.JPG" type="image/jpeg" length="7411064"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/203cb92e8b93be1f038a37e76cbcbe5e.JPG" type="image/jpeg" length="7902544"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/007fe4e83799f782be7be562d1ef99b9.JPG" type="image/jpeg" length="7468989"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/3d21b175211b686488dd65ac6c7e0b85.JPG" type="image/jpeg" length="8079878"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/dff8f905e375dde7568b2d299766e496.JPG" type="image/jpeg" length="7595826"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/8bc8007b73890fba2c1f93c071704742.JPG" type="image/jpeg" length="7791403"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/37d62396c1345ccde5526847b6b9263e.JPG" type="image/jpeg" length="6141306"/>
+    <category term="community development"/>
+    <category term="community organizing"/>
+    <category term="Philadelphia"/>
+    <category term="police"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">North City Congress Police-Community Relations Program</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Philadelphia Police Community Training Program</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Workshop outline for training Philadelphia Police on community relations</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">North City Congress?</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">no date</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Philadelphia Police Community Training Program</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Police-Community Relations</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/30</id>
+    <title><![CDATA[News articles and Memos re: CORENCO proposal]]></title>
+    <summary><![CDATA[The memorandum from Philip Carter to Will Ussery addresses the Leland Schubert contribution and notes that the Cleveland TCP will serve as a clearinghouse for all research on economic development.  The second item is a memo from Jack Olive (a representative from Kelso, Cotton, Seligman, and Ray) to Philip Carter.  Olive offers suggestions for the proposal submission to the Cleveland Foundation Community re: CORENCO.]]></summary>
+    <updated>2018-04-09T16:26:53-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/30"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/57d05991a75a8bdc21513650209931a8.pdf" type="application/pdf" length="209889"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/8802ee73c1e1d2bd5f312db58244a941.JPG" type="image/jpeg" length="5455326"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/fa82bb6358626f5d7fb3ddc479e1b1f3.JPG" type="image/jpeg" length="5234195"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/e3ae407ddef8178856bb61df92d3ea07.JPG" type="image/jpeg" length="5298950"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/50a5dcf885f6fddea0fce181ae0029ae.JPG" type="image/jpeg" length="5083452"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/8ccf1d885e720c3529ef333321f013e9.JPG" type="image/jpeg" length="5006666"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/fed971a80a4aba6dfa0ab5cb91552a2f.JPG" type="image/jpeg" length="5079624"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/1a36812ec3eec42a23ce6dccf6a6ab8a.JPG" type="image/jpeg" length="5169522"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/360f21cf7f2f48113a12454523f1b12c.JPG" type="image/jpeg" length="4837691"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/45d33e263deff0ab8c5792cbb8cef3f7.JPG" type="image/jpeg" length="5767922"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/8ae35cf1090aacfda0d4b71efbc63fe5.JPG" type="image/jpeg" length="5518926"/>
+    <category term="Cleveland"/>
+    <category term="community development corporation"/>
+    <category term="community organizing"/>
+    <category term="CORE finances"/>
+    <category term="CORE restructure"/>
+    <category term="CORENCO"/>
+    <category term="economic development"/>
+    <category term="economic inequality"/>
+    <category term="foundations"/>
+    <category term="Internal memo"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">News articles and Memos re: CORENCO proposal</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Memos about CORENCO</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">The memorandum from Philip Carter to Will Ussery addresses the Leland Schubert contribution and notes that the Cleveland TCP will serve as a clearinghouse for all research on economic development.  The second item is a memo from Jack Olive (a representative from Kelso, Cotton, Seligman, and Ray) to Philip Carter.  Olive offers suggestions for the proposal submission to the Cleveland Foundation Community re: CORENCO.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Philip Carter, Jack Olive, CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">March 19, 1968, April 8, 1968, April 20, 1968,</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document </div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">CORENCO</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/22</id>
+    <title><![CDATA[Muhammad Speaks]]></title>
+    <summary><![CDATA[An article on Baltimore Target City Project.  Discusses the Ku Klux Klan and its march through the black community.  Explains how the black community no longer fears the Klan.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/22"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/cb811d3b71ad6702983152cd1899ca0a.JPG" type="image/jpeg" length="8447238"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/adeaa67be09e2ef6e7dc7d1f76f58d08.JPG" type="image/jpeg" length="8508780"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/33e2bfbeb53af76b6075798592540b59.JPG" type="image/jpeg" length="9010620"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/e77df65e9ef9d1b8a0a35b05566ca463.JPG" type="image/jpeg" length="8587339"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/1eeaee19879e37a7602ee6354c51ae3a.JPG" type="image/jpeg" length="8581135"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/fca7d7c131f7bfd064881bdb153b65aa.JPG" type="image/jpeg" length="8778051"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/65bf3b1de0bf984f4a62bf3edc1119df.JPG" type="image/jpeg" length="8624573"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/cc5e800bcb56b4efc081b60f6bf5c5f2.JPG" type="image/jpeg" length="8899994"/>
+    <category term="Baltimore"/>
+    <category term="black power"/>
+    <category term="community organizing"/>
+    <category term="KKK"/>
+    <category term="Muhammad Speaks"/>
+    <category term="Nation of Islam"/>
+    <category term="Target City Project"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Muhammad Speaks</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Muhammad Speaks newspaper article on Baltimore Target Project.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">An article on Baltimore Target City Project.  Discusses the Ku Klux Klan and its march through the black community.  Explains how the black community no longer fears the Klan.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Nation of Islam; Baltimore Mosque</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Nation of Islam</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">June 24, 1966</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">newspaper</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/27</id>
+    <title><![CDATA[Michigan Employment Enterprises Economic Development Corporation]]></title>
+    <summary><![CDATA[A similar community development corporation emerged in Michigan.  The CDC ran businesses which employed local community people.  The CDC also worked on housing access for low income residents.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/27"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/a0b3488888964db1f9eb6fb92d3db264.JPG" type="image/jpeg" length="5005215"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0a3ee869b457268a2380dbdd5e367d55.JPG" type="image/jpeg" length="4517463"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/346e86bb671f02077fca5f3b7d9e0de7.JPG" type="image/jpeg" length="4606028"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c0243383fe094969018edaad6ffee824.JPG" type="image/jpeg" length="4672178"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/d1a026373d9c83774fef2d5948c8c336.JPG" type="image/jpeg" length="4492879"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/006b4199086d64648a615d7c9e352480.JPG" type="image/jpeg" length="4762126"/>
+    <category term="community development corporation"/>
+    <category term="community organizing"/>
+    <category term="economic development"/>
+    <category term="economic inequality"/>
+    <category term="Michigan"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Michigan Employment Enterprises Economic Development Corporation</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Michigan community development corporation similar to CORENCO</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">A similar community development corporation emerged in Michigan.  The CDC ran businesses which employed local community people.  The CDC also worked on housing access for low income residents.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Michigan Employment Enterprises Development Corporation</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Employment Enterprises Development Corporation</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">February 18, 1966</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Michigan Employment Enterprises Development Corporation</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/16</id>
+    <title><![CDATA[Memorandum and open Letter From a White Liberal]]></title>
+    <summary><![CDATA[CORE internal document and open letter from white liberal.  The letter discusses the inability of many liberal whites to grapple with internal racism.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/16"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/ee831af34a38876b8229fdf5d0203f03.JPG" type="image/jpeg" length="6967580"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/f6bb7e05ca61ebe2607e4d22c136441a.JPG" type="image/jpeg" length="6356893"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/31827eac08bfeafb9ac25ccf8973a1d9.JPG" type="image/jpeg" length="7839448"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c888d1916ba3724ca7392ed9a57c1b2f.JPG" type="image/jpeg" length="7379970"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/837c945c717eb1a4ed065f9dd1f96893.JPG" type="image/jpeg" length="7943146"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/f2ae0c8280760a8320ef66cbf686109d.JPG" type="image/jpeg" length="6624790"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0259cc4426da3e0b3bd34a4c6ab724ea.JPG" type="image/jpeg" length="8062007"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/a0e079fa6684d691f0ad276064373f4c.JPG" type="image/jpeg" length="7656474"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/4e619d124e562ca9342febac907a93aa.JPG" type="image/jpeg" length="7670963"/>
+    <category term="black power"/>
+    <category term="racial inequality"/>
+    <category term="Racism"/>
+    <category term="White Liberalism"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Memorandum and open Letter From a White Liberal</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">white liberalism and racism</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">CORE internal document and open letter from white liberal.  The letter discusses the inability of many liberal whites to grapple with internal racism.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">anonymous and CORE member - ? Strick</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">post 1966</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">multiple creators</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">white liberalism and racism</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/33</id>
+    <title><![CDATA[Maryland Freedom Union ]]></title>
+    <summary><![CDATA[A brief history of Maryland Freedom Union - its creation and activities with CORE.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/33"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/7de4ecb59eb472de6fcf40fed12f5468.JPG" type="image/jpeg" length="4349017"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c21f18080668d9c2d42dd25e1bc5023c.JPG" type="image/jpeg" length="4050085"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/9ddd41fefeacc8080250bbe132fad7c2.JPG" type="image/jpeg" length="5089762"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/fc7e1d91591358160c512bd3990475f0.JPG" type="image/jpeg" length="5329379"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/68d6d233a60c3300f3b58ba3c795f1f3.JPG" type="image/jpeg" length="5876475"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/f211a2b6c73a749a8b7efca564e637d0.JPG" type="image/jpeg" length="5108837"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/ae7aee945c56fa33a77368728001538f.JPG" type="image/jpeg" length="5665095"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/66461a0bfbdb0bd8dc3b144326e3f00e.JPG" type="image/jpeg" length="5108837"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/7f96d089230e811376dd13bd3c6c8a71.JPG" type="image/jpeg" length="5108049"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/25491bb52581b5fc7c052b9526c02f12.JPG" type="image/jpeg" length="5412700"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/45f5908ddcf8cda71897bfb2059881e0.JPG" type="image/jpeg" length="3658618"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/8599ec57fdf12efda2b0a1c0864567c8.JPG" type="image/jpeg" length="3791769"/>
+    <category term="Baltimore"/>
+    <category term="black power"/>
+    <category term="black power populism"/>
+    <category term="economic inequality"/>
+    <category term="Target City Project"/>
+    <category term="union"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Maryland Freedom Union </div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Maryland Freedom Union</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">A brief history of Maryland Freedom Union - its creation and activities with CORE.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Mike Flug</div>
+            </div><!-- end element -->
+        <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">circa 1966-1967</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">Mike Flug</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">ephemera</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Maryland Freedom Union</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/13</id>
+    <title><![CDATA[Malcolm X: The Complexity of a Man in the Jungle]]></title>
+    <summary><![CDATA[Joyce Ware, Northeast Regional Field Representative for CORE writes a memorandum on Malcolm X&#039;s impact on CORE and the civil rights movement even after his death.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/13"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/ca29adf44a9852c90dcccd19e619617d.JPG" type="image/jpeg" length="6013264"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/9bab9354202b6527b716402840b014d0.JPG" type="image/jpeg" length="6285028"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0a174058ed9b08f942c997c5b0ff2340.JPG" type="image/jpeg" length="6193880"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/239d7510543dcb62d4e9d76d1fb254ea.JPG" type="image/jpeg" length="6195446"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/cf0c34c63bf70b5314e7eceda412dd6b.JPG" type="image/jpeg" length="6242468"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/411cb6380fe45c14f3f2f089f8f548cb.JPG" type="image/jpeg" length="6609910"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/fa5d516ba4cef96895e706ac0b5fb365.JPG" type="image/jpeg" length="6357635"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/83cc830dc7538ae2da9e2655fd8206ef.JPG" type="image/jpeg" length="6486445"/>
+    <category term="black power"/>
+    <category term="Malcolm X"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Malcolm X: The Complexity of a Man in the Jungle</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Malcolm X</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Joyce Ware, Northeast Regional Field Representative for CORE writes a memorandum on Malcolm X&#039;s impact on CORE and the civil rights movement even after his death.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Joyce Ware</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">March 2, 1965</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Papers on Antoine Perot, Joyce Ware</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Malcolm X</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/42</id>
+    <title><![CDATA[Louis and Carl Stokes Office Opening Announcement]]></title>
+    <summary><![CDATA[Louis and Carl Stokes Office Opening Announcement ]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/42"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/f1a335ab0b2d6046d1d1213c78804a3e.JPG" type="image/jpeg" length="1022261"/>
+    <category term="Carl B. Stokes"/>
+    <category term="Cleveland"/>
+    <category term="Louis Stokes"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Louis and Carl Stokes Office Opening Announcement</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Louis and Carl Stokes Office Opening Announcement </div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Louis and Carl Stokes Office Opening Announcement </div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Louis and Carl Stokes</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">February 1, 1966</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Louis and Carl Stokes Office Opening Announcement 1966</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">ephemera</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Carl and Louis Stokes</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+</feed>

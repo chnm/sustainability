@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://harambeecity.lib.miamioh.edu/items/browse?page=3&amp;sort_field=Dublin+Core%2CCreator&amp;sort_dir=a&amp;output=atom</id>
+  <title><![CDATA[HARAMBEE CITY]]></title>
+  <author>
+    <name><![CDATA[Unknown]]></name>
+  </author>
+  <updated>2024-02-09T23:58:12-05:00</updated>
+  <generator>Omeka</generator>
+  <link rel="self" href="https://harambeecity.rrchnm.org/items/browse?page=3&amp;sort_field=Dublin+Core%2CCreator&amp;sort_dir=a&amp;output=atom"/>
+  <link rel="first" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?page=3&amp;sort_field=Dublin+Core%2CCreator&amp;sort_dir=a&amp;output=atom"/>
+  <link rel="previous" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/2?page=3&amp;sort_field=Dublin+Core%2CCreator&amp;sort_dir=a&amp;output=atom"/>
+  <link rel="next" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/4?page=3&amp;sort_field=Dublin+Core%2CCreator&amp;sort_dir=a&amp;output=atom"/>
+  <link rel="last" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/10?page=3&amp;sort_field=Dublin+Core%2CCreator&amp;sort_dir=a&amp;output=atom"/>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/34</id>
+    <title><![CDATA[Our Invisible Poor Pamphlet]]></title>
+    <summary><![CDATA[A short information pamphlet on poverty in the United STates]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/34"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c9b2a37a6412df04f64e57d13e6df093.JPG" type="image/jpeg" length="5537068"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/43bb73ad237a878473a8f74c1d396f4a.JPG" type="image/jpeg" length="5794666"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/a673f4196a1213e325266acdb7a97601.JPG" type="image/jpeg" length="5816554"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/ed370406dd2551b1fbc4cab1bdb1096d.JPG" type="image/jpeg" length="5566815"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/d7ebac4b20d2316f472012f09d4634de.JPG" type="image/jpeg" length="5706918"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6e4b9ef12c6aab14f5b7f94d4ff4a43c.JPG" type="image/jpeg" length="5663145"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/3691da49d31556edff407895571492f9.JPG" type="image/jpeg" length="5727783"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/2988eff21ec36be751d3aeeeb3860250.JPG" type="image/jpeg" length="5764226"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/1509641d200956e72a1ba2d95ff0e6d5.JPG" type="image/jpeg" length="5683335"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0ccbd1fe7e1af83f795e46e9feaf12d9.JPG" type="image/jpeg" length="5775446"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c01c1c4621ba92366e6315645c8eb373.JPG" type="image/jpeg" length="5693281"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/751102763d6b1a80c3feb0d93be12a0a.JPG" type="image/jpeg" length="5791498"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/53f5f61732312e4ab3667ba9bdc04b73.JPG" type="image/jpeg" length="5795871"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6710358c80bbe41144f717439aa0c0dc.JPG" type="image/jpeg" length="2852507"/>
+    <category term="community organizing"/>
+    <category term="economic development"/>
+    <category term="economic inequality"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Our Invisible Poor Pamphlet</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Poverty in America</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">A short information pamphlet on poverty in the United STates</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Dwight MacDonald</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Sidney Hillman Foundaton</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">no date</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">ephemera</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Economic Inequality</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/62</id>
+    <title><![CDATA[Franklin Anderson Interview 2]]></title>
+    <summary><![CDATA[Franklin Anderson discusses Cleveland CORE, Target City Project, black Power, and Cleveland community.]]></summary>
+    <updated>2022-09-21T12:50:43-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/62"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/89b5603353befd89a3c5df8c3991ddb5.mp3" type="audio/mpeg" length="27639720"/>
+    <category term="black power"/>
+    <category term="Cleveland"/>
+    <category term="Target City Project"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Franklin Anderson Interview 2</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Franklin Anderson reviews his history and that of Cleveland CORE.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Franklin Anderson discusses Cleveland CORE, Target City Project, black Power, and Cleveland community.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Franklin Anderson</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">January 3, 201?</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Franklin Anderson, Nishani Frazier</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/88</id>
+    <title><![CDATA[Franklin Anderson interview 3]]></title>
+    <summary><![CDATA[Early interest in CORE, Cleveland CORE - Chairman, Hough Area Development Corporation (HADC), political activities and Republican political background, black nationalism, Cleveland black power period. black economic development]]></summary>
+    <updated>2023-01-11T17:24:30-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/88"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/9ea8ef30db5bff9dce800551fe685648.mp3" type="audio/mpeg" length="87358947"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Franklin Anderson interview 3</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">CORE, HADC, and Black Nationalism</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Early interest in CORE, Cleveland CORE - Chairman, Hough Area Development Corporation (HADC), political activities and Republican political background, black nationalism, Cleveland black power period. black economic development</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Frazier and Anderson</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">January 3, 201?</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">co-copyright Frazier and Anderson</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/63</id>
+    <title><![CDATA[George Houser Interview]]></title>
+    <summary><![CDATA[Houser covers his activism inside and outside of CORE.  He reviews his early influences, early CORE sit-ins, 1940s Cleveland, Vanguard League, Black Power and white CORE members, and protests of South African apartheid..]]></summary>
+    <updated>2016-06-29T12:00:10-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/63"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/01cad96d6ce58cac47898f17b9f73a07.wav" type="audio/x-wav" length="508612764"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">George Houser Interview</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Houser talks about his early youth and early CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Houser covers his activism inside and outside of CORE.  He reviews his early influences, early CORE sit-ins, 1940s Cleveland, Vanguard League, Black Power and white CORE members, and protests of South African apartheid..</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">George Houser</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">George Houser, Nishani Frazier</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/57</id>
+    <title><![CDATA[John McClaughry and Gar Aperovitz Interview]]></title>
+    <summary><![CDATA[Oral history interview on the Community Self Determination Bill, CORE, John McClaughry, and Gar Aperovitz.]]></summary>
+    <updated>2016-06-23T14:17:26-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/57"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0886c8103079b27e4440ef722e8a18af.mp3" type="audio/mpeg" length="107533791"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">John McClaughry and Gar Aperovitz Interview</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">CORE, black power, Community Self Determination Bill</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Oral history interview on the Community Self Determination Bill, CORE, John McClaughry, and Gar Aperovitz.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">John McClaughry, Gar Aperovitz, and Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Nishani Frazier</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/13</id>
+    <title><![CDATA[Malcolm X: The Complexity of a Man in the Jungle]]></title>
+    <summary><![CDATA[Joyce Ware, Northeast Regional Field Representative for CORE writes a memorandum on Malcolm X&#039;s impact on CORE and the civil rights movement even after his death.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/13"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/ca29adf44a9852c90dcccd19e619617d.JPG" type="image/jpeg" length="6013264"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/9bab9354202b6527b716402840b014d0.JPG" type="image/jpeg" length="6285028"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0a174058ed9b08f942c997c5b0ff2340.JPG" type="image/jpeg" length="6193880"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/239d7510543dcb62d4e9d76d1fb254ea.JPG" type="image/jpeg" length="6195446"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/cf0c34c63bf70b5314e7eceda412dd6b.JPG" type="image/jpeg" length="6242468"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/411cb6380fe45c14f3f2f089f8f548cb.JPG" type="image/jpeg" length="6609910"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/fa5d516ba4cef96895e706ac0b5fb365.JPG" type="image/jpeg" length="6357635"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/83cc830dc7538ae2da9e2655fd8206ef.JPG" type="image/jpeg" length="6486445"/>
+    <category term="black power"/>
+    <category term="Malcolm X"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Malcolm X: The Complexity of a Man in the Jungle</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Malcolm X</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Joyce Ware, Northeast Regional Field Representative for CORE writes a memorandum on Malcolm X&#039;s impact on CORE and the civil rights movement even after his death.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Joyce Ware</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">March 2, 1965</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Papers on Antoine Perot, Joyce Ware</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Malcolm X</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/104</id>
+    <title><![CDATA[Early CORE 1940s members]]></title>
+    <summary><![CDATA[images of CORE leaders and names of early members, including Lynn Coleman who played a role in the Euclid Park Riots]]></summary>
+    <updated>2023-06-29T17:40:30-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/104"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/1c0e29585cf034c86cdf7f90e70d28cb.tif" type="image/tiff" length="849020"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/b977651b28654951e3e2a2a01bfbcf76.tif" type="image/tiff" length="818012"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/64f4b580324260fa5c31495073c8e7e0.tif" type="image/tiff" length="269644"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/3a9816fd75544d3a63beea6597e08686.tif" type="image/tiff" length="334032"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Early CORE 1940s members</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Cleveland CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">images of CORE leaders and names of early members, including Lynn Coleman who played a role in the Euclid Park Riots</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Juanita Nelson</div>
+            </div><!-- end element -->
+        <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text">Juanita Nelson</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">1940s</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">Juanita Nelson</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Juanita Nelson</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/64</id>
+    <title><![CDATA[Juanita Nelson II]]></title>
+    <summary><![CDATA[History of CORE and Nelson&#039;s leadership of the Cleveland chapter, 1940s, Howard University and Pauli Murray, Life in Cleveland, Cincinnati CORE]]></summary>
+    <updated>2023-01-05T15:46:05-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/64"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/5c0bef275a3b1a8f76aed874a917bb4f.mp3" type="audio/mpeg" length="66703125"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Juanita Nelson II</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Biography of Juanita Nelson</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">History of CORE and Nelson&#039;s leadership of the Cleveland chapter, 1940s, Howard University and Pauli Murray, Life in Cleveland, Cincinnati CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Juanita Nelson and Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">January 19, 2004 - Cleveland, Ohio</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Juanita Nelson and Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">mp3 or wav</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/1</id>
+    <title><![CDATA[Donald Bean and Will Ussery]]></title>
+    <summary><![CDATA[Image of Donald Bean (Cleveland Target City Project staff) and Will Ussery (CORENCO creator) ]]></summary>
+    <updated>2016-05-17T13:21:43-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/1"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c63f4b2ab78c557d842cb8f8cb0b6d1e.jpeg" type="image/jpeg" length="8673278"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Donald Bean and Will Ussery</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">CORE and Black Power</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Image of Donald Bean (Cleveland Target City Project staff) and Will Ussery (CORENCO creator) </div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Karl J. Rausckolb</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Cleveland Plain Dealer</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">September 1967</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Cleveland Public Library<br />
+</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">image</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Ussery and Bean</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/42</id>
+    <title><![CDATA[Louis and Carl Stokes Office Opening Announcement]]></title>
+    <summary><![CDATA[Louis and Carl Stokes Office Opening Announcement ]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/42"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/f1a335ab0b2d6046d1d1213c78804a3e.JPG" type="image/jpeg" length="1022261"/>
+    <category term="Carl B. Stokes"/>
+    <category term="Cleveland"/>
+    <category term="Louis Stokes"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Louis and Carl Stokes Office Opening Announcement</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Louis and Carl Stokes Office Opening Announcement </div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Louis and Carl Stokes Office Opening Announcement </div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Louis and Carl Stokes</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">February 1, 1966</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Louis and Carl Stokes Office Opening Announcement 1966</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">ephemera</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Carl and Louis Stokes</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+</feed>

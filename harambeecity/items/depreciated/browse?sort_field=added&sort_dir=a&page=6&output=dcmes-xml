@@ -1,0 +1,75 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/54">
+<dc:title>Cleveland Target City Harambee</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/56">
+<dc:title>Jarvis Children</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/57">
+<dc:title>John McClaughry and Gar Aperovitz Interview</dc:title>
+<dc:subject>CORE, black power, Community Self Determination Bill</dc:subject>
+<dc:description>Oral history interview on the Community Self Determination Bill, CORE, John McClaughry, and Gar Aperovitz.</dc:description>
+<dc:creator>John McClaughry, Gar Aperovitz, and Nishani Frazier</dc:creator>
+<dc:publisher>Nishani Frazier</dc:publisher>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/58">
+<dc:title>At the Crossroads: Where African American Studies and Digital Humanities Meet</dc:title>
+<dc:subject>CORE, Black Power, Economic Development, Harambee City Website, public history, black studies, digital humanities</dc:subject>
+<dc:description>This talk discusses my personal journey from public history to digital humanities.  It reviews the conceptual framework for this website and presents my perspective on how digital humanities can reflect the spirit of black studies&#039; theoretical sensibilities.</dc:description>
+<dc:creator>Nishani Frazier</dc:creator>
+<dc:source>Talk given at the University of Maryland</dc:source>
+<dc:publisher>Nishani Frazier</dc:publisher>
+<dc:date>February 2016</dc:date>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/60">
+<dc:title>Franklin Anderson 1967 and 1971</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/61">
+<dc:title>Harambee City</dc:title>
+<dc:subject>History of CORE in Cleveland</dc:subject>
+<dc:creator>University of Arkansas Press</dc:creator>
+<dc:source>Cleveland State University Archives</dc:source>
+<dc:publisher>University of Arkansas and Cleveland State University Archives</dc:publisher>
+<dc:date>2016</dc:date>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/62">
+<dc:title>Franklin Anderson Interview 2</dc:title>
+<dc:subject>Franklin Anderson reviews his history and that of Cleveland CORE.</dc:subject>
+<dc:description>Franklin Anderson discusses Cleveland CORE, Target City Project, black Power, and Cleveland community.</dc:description>
+<dc:creator>Franklin Anderson</dc:creator>
+<dc:publisher>Nishani Frazier</dc:publisher>
+<dc:date>January 3, 201?</dc:date>
+<dc:rights>Franklin Anderson, Nishani Frazier</dc:rights>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/63">
+<dc:title>George Houser Interview</dc:title>
+<dc:subject>Houser talks about his early youth and early CORE</dc:subject>
+<dc:description>Houser covers his activism inside and outside of CORE.  He reviews his early influences, early CORE sit-ins, 1940s Cleveland, Vanguard League, Black Power and white CORE members, and protests of South African apartheid..</dc:description>
+<dc:creator>George Houser</dc:creator>
+<dc:publisher>Nishani Frazier</dc:publisher>
+<dc:rights>George Houser, Nishani Frazier</dc:rights>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/64">
+<dc:title>Juanita Nelson II</dc:title>
+<dc:subject>Biography of Juanita Nelson</dc:subject>
+<dc:description>History of CORE and Nelson&#039;s leadership of the Cleveland chapter, 1940s, Howard University and Pauli Murray, Life in Cleveland, Cincinnati CORE</dc:description>
+<dc:creator>Juanita Nelson and Nishani Frazier</dc:creator>
+<dc:publisher>Nishani Frazier</dc:publisher>
+<dc:date>January 19, 2004 - Cleveland, Ohio</dc:date>
+<dc:rights>Juanita Nelson and Nishani Frazier</dc:rights>
+<dc:format>mp3 or wav</dc:format>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/65">
+<dc:title>Bonnie Gordon, Jean Tussey</dc:title>
+<dc:subject>Gordon&#039;s family history and CORE - TWO TAPES</dc:subject>
+<dc:description>Gordon discusses black power, internal fight with SWP, white membership in CORE, Socialist background, Civil Rights Background, Freedom Fighters, Cleveland, CORE Community, Early Civil Rights in Cleveland.  Her mother is the well known socialist Jean Tussey.  You can find additional information on her at http://ead.ohiolink.edu/xtf-ead/view?docId=ead/OCLWHi0420.xml;query=;brand=default.  The other voice is Ms. Tussey.</dc:description>
+<dc:creator>Bonnie Holt Gordon, Jean Tussey, and Nishani Frazier</dc:creator>
+<dc:publisher>Nishani Frazier</dc:publisher>
+<dc:date>April 12, 2004</dc:date>
+<dc:rights>Bonnie Holt Gordon and Nishani Frazier</dc:rights>
+<dc:format>mp3</dc:format>
+</rdf:Description></rdf:RDF>

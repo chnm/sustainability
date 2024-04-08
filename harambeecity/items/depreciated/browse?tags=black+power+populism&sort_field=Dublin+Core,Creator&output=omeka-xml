@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemContainer xmlns="http://omeka.org/schemas/omeka-xml/v5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://omeka.org/schemas/omeka-xml/v5 http://omeka.org/schemas/omeka-xml/v5/omeka-xml-5-0.xsd" uri="https://harambeecity.lib.miamioh.edu/items/browse?tags=black+power+populism&amp;sort_field=Dublin+Core%2CCreator&amp;output=omeka-xml" accessDate="2024-02-09T18:44:27-05:00">
+  <miscellaneousContainer>
+    <pagination>
+      <pageNumber>1</pageNumber>
+      <perPage>10</perPage>
+      <totalResults>3</totalResults>
+    </pagination>
+  </miscellaneousContainer>
+  <item itemId="25" public="1" featured="0">
+    <fileContainer>
+      <file fileId="278">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/a28fe8aaf07bec405a75cdd2a9c98844.JPG</src>
+        <authentication>b2a0a5dbfd2dc6f3aa3b8961693538b2</authentication>
+      </file>
+      <file fileId="280">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/9b111da75cf2f6f4a96c2d8b60695500.JPG</src>
+        <authentication>ae1efa08d161d350434498aae2e516b5</authentication>
+      </file>
+      <file fileId="281">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/e46cb74b52ab72db064149536a754588.JPG</src>
+        <authentication>60fa4f391cc18c86548e2d23d2e4cb0c</authentication>
+      </file>
+      <file fileId="282">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/97c28292142cac119379f8f284c32cbc.JPG</src>
+        <authentication>73d45a77407ec0efac767082bd4ac758</authentication>
+      </file>
+      <file fileId="283">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/ab8b7920bf2d28000ed5037ed102ec78.JPG</src>
+        <authentication>6f65c2e0f08b25a26f5b924834f52377</authentication>
+      </file>
+    </fileContainer>
+    <collection collectionId="2">
+      <elementSetContainer>
+        <elementSet elementSetId="1">
+          <name>Dublin Core</name>
+          <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+          <elementContainer>
+            <element elementId="50">
+              <name>Title</name>
+              <description>A name given to the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="4">
+                  <text>Antoine Perot's Briefcase</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="49">
+              <name>Subject</name>
+              <description>The topic of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="5">
+                  <text>1960s, black economic development, CORE</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="41">
+              <name>Description</name>
+              <description>An account of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="6">
+                  <text>This collection contains documents </text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="39">
+              <name>Creator</name>
+              <description>An entity primarily responsible for making the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="7">
+                  <text>Antoine Perot, CORE, Ruth Turner, miscellaneous creaors</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="48">
+              <name>Source</name>
+              <description>A related resource from which the described resource is derived</description>
+              <elementTextContainer>
+                <elementText elementTextId="8">
+                  <text>Personal Papers of Antoine Perot</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="45">
+              <name>Publisher</name>
+              <description>An entity responsible for making the resource available</description>
+              <elementTextContainer>
+                <elementText elementTextId="9">
+                  <text>Personal Papers of Antoine Perot</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="40">
+              <name>Date</name>
+              <description>A point or period of time associated with an event in the lifecycle of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="10">
+                  <text>1960s</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="37">
+              <name>Contributor</name>
+              <description>An entity responsible for making contributions to the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="11">
+                  <text>Multiple contributors</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="47">
+              <name>Rights</name>
+              <description>Information about rights held in and over the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="12">
+                  <text>Intellectual ownership by individual creators, physical ownership belongs to Antoine Perot.</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="42">
+              <name>Format</name>
+              <description>The file format, physical medium, or dimensions of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="13">
+                  <text>paper documents as pdf images</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="44">
+              <name>Language</name>
+              <description>A language of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="14">
+                  <text>English</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="51">
+              <name>Type</name>
+              <description>The nature or genre of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="15">
+                  <text>ephemera</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="43">
+              <name>Identifier</name>
+              <description>An unambiguous reference to the resource within a given context</description>
+              <elementTextContainer>
+                <elementText elementTextId="16">
+                  <text>Congress of Racial Equality</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="38">
+              <name>Coverage</name>
+              <description>The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant</description>
+              <elementTextContainer>
+                <elementText elementTextId="17">
+                  <text>Documents cover CORE's activities in Cleveland, black economic development, and national office post 1964 through 1969.</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+          </elementContainer>
+        </elementSet>
+      </elementSetContainer>
+    </collection>
+    <elementSetContainer>
+      <elementSet elementSetId="1">
+        <name>Dublin Core</name>
+        <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+        <elementContainer>
+          <element elementId="50">
+            <name>Title</name>
+            <description>A name given to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="264">
+                <text>Baltimore and Cleveland Target City Project</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="49">
+            <name>Subject</name>
+            <description>The topic of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="265">
+                <text>Target City Project</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="41">
+            <name>Description</name>
+            <description>An account of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="266">
+                <text>Various documents which discuss both Cleveland and the Baltimore Target City Project.  Memorandums and articles summarize youth programs, leadership training, job training, voter registration, and other TCP activities.</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="39">
+            <name>Creator</name>
+            <description>An entity primarily responsible for making the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="267">
+                <text>CORE</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="40">
+            <name>Date</name>
+            <description>A point or period of time associated with an event in the lifecycle of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="268">
+                <text>1966-1968</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="37">
+            <name>Contributor</name>
+            <description>An entity responsible for making contributions to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="269">
+                <text>multiple contributors, CORE, Philip Carter</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="47">
+            <name>Rights</name>
+            <description>Information about rights held in and over the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="270">
+                <text>Personal Papers of Antoine Perot</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="42">
+            <name>Format</name>
+            <description>The file format, physical medium, or dimensions of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="271">
+                <text>jpg</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="44">
+            <name>Language</name>
+            <description>A language of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="272">
+                <text>English</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="51">
+            <name>Type</name>
+            <description>The nature or genre of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="273">
+                <text>documents</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="43">
+            <name>Identifier</name>
+            <description>An unambiguous reference to the resource within a given context</description>
+            <elementTextContainer>
+              <elementText elementTextId="354">
+                <text>Target City Project</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+        </elementContainer>
+      </elementSet>
+    </elementSetContainer>
+    <tagContainer>
+      <tag tagId="45">
+        <name>Baltimore</name>
+      </tag>
+      <tag tagId="17">
+        <name>black economic power</name>
+      </tag>
+      <tag tagId="5">
+        <name>black power</name>
+      </tag>
+      <tag tagId="16">
+        <name>black power populism</name>
+      </tag>
+      <tag tagId="55">
+        <name>Cleveland</name>
+      </tag>
+      <tag tagId="47">
+        <name>community organizing</name>
+      </tag>
+      <tag tagId="30">
+        <name>CORENCO</name>
+      </tag>
+      <tag tagId="56">
+        <name>Harambee</name>
+      </tag>
+      <tag tagId="57">
+        <name>leadership training</name>
+      </tag>
+      <tag tagId="46">
+        <name>Target City Project</name>
+      </tag>
+      <tag tagId="58">
+        <name>voter registration</name>
+      </tag>
+      <tag tagId="48">
+        <name>youth projects</name>
+      </tag>
+    </tagContainer>
+  </item>
+  <item itemId="33" public="1" featured="0">
+    <fileContainer>
+      <file fileId="425">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/7de4ecb59eb472de6fcf40fed12f5468.JPG</src>
+        <authentication>52328baed4981b850e42415a06ca601f</authentication>
+      </file>
+      <file fileId="426">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/c21f18080668d9c2d42dd25e1bc5023c.JPG</src>
+        <authentication>c56e6c472ee95345be3fceb11d12f650</authentication>
+      </file>
+      <file fileId="427">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/9ddd41fefeacc8080250bbe132fad7c2.JPG</src>
+        <authentication>149fb645a591eb1f2877b8f11e53fc20</authentication>
+      </file>
+      <file fileId="428">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/fc7e1d91591358160c512bd3990475f0.JPG</src>
+        <authentication>64c21f34ccac5ef1dc2068e48108f074</authentication>
+      </file>
+      <file fileId="429">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/68d6d233a60c3300f3b58ba3c795f1f3.JPG</src>
+        <authentication>f16ccbc58ba084349212193086ca1a71</authentication>
+      </file>
+      <file fileId="430">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/f211a2b6c73a749a8b7efca564e637d0.JPG</src>
+        <authentication>dbecd5ecfedf9b7cd274287607542a91</authentication>
+      </file>
+      <file fileId="431">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/ae7aee945c56fa33a77368728001538f.JPG</src>
+        <authentication>6d2069767bf699a05a85287d4ee2b3d8</authentication>
+      </file>
+      <file fileId="432">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/66461a0bfbdb0bd8dc3b144326e3f00e.JPG</src>
+        <authentication>dbecd5ecfedf9b7cd274287607542a91</authentication>
+      </file>
+      <file fileId="433">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/7f96d089230e811376dd13bd3c6c8a71.JPG</src>
+        <authentication>f4489744ade1ec646e554dc4381451ff</authentication>
+      </file>
+      <file fileId="434">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/25491bb52581b5fc7c052b9526c02f12.JPG</src>
+        <authentication>7527c716dd036d922bb01896c706c542</authentication>
+      </file>
+      <file fileId="435">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/45f5908ddcf8cda71897bfb2059881e0.JPG</src>
+        <authentication>96e771e6e6d43f6943a1d39bced9a403</authentication>
+      </file>
+      <file fileId="436">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/8599ec57fdf12efda2b0a1c0864567c8.JPG</src>
+        <authentication>ce1d6c88e3e24b608e782264583bc956</authentication>
+      </file>
+    </fileContainer>
+    <collection collectionId="2">
+      <elementSetContainer>
+        <elementSet elementSetId="1">
+          <name>Dublin Core</name>
+          <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+          <elementContainer>
+            <element elementId="50">
+              <name>Title</name>
+              <description>A name given to the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="4">
+                  <text>Antoine Perot's Briefcase</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="49">
+              <name>Subject</name>
+              <description>The topic of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="5">
+                  <text>1960s, black economic development, CORE</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="41">
+              <name>Description</name>
+              <description>An account of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="6">
+                  <text>This collection contains documents </text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="39">
+              <name>Creator</name>
+              <description>An entity primarily responsible for making the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="7">
+                  <text>Antoine Perot, CORE, Ruth Turner, miscellaneous creaors</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="48">
+              <name>Source</name>
+              <description>A related resource from which the described resource is derived</description>
+              <elementTextContainer>
+                <elementText elementTextId="8">
+                  <text>Personal Papers of Antoine Perot</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="45">
+              <name>Publisher</name>
+              <description>An entity responsible for making the resource available</description>
+              <elementTextContainer>
+                <elementText elementTextId="9">
+                  <text>Personal Papers of Antoine Perot</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="40">
+              <name>Date</name>
+              <description>A point or period of time associated with an event in the lifecycle of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="10">
+                  <text>1960s</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="37">
+              <name>Contributor</name>
+              <description>An entity responsible for making contributions to the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="11">
+                  <text>Multiple contributors</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="47">
+              <name>Rights</name>
+              <description>Information about rights held in and over the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="12">
+                  <text>Intellectual ownership by individual creators, physical ownership belongs to Antoine Perot.</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="42">
+              <name>Format</name>
+              <description>The file format, physical medium, or dimensions of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="13">
+                  <text>paper documents as pdf images</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="44">
+              <name>Language</name>
+              <description>A language of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="14">
+                  <text>English</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="51">
+              <name>Type</name>
+              <description>The nature or genre of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="15">
+                  <text>ephemera</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="43">
+              <name>Identifier</name>
+              <description>An unambiguous reference to the resource within a given context</description>
+              <elementTextContainer>
+                <elementText elementTextId="16">
+                  <text>Congress of Racial Equality</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="38">
+              <name>Coverage</name>
+              <description>The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant</description>
+              <elementTextContainer>
+                <elementText elementTextId="17">
+                  <text>Documents cover CORE's activities in Cleveland, black economic development, and national office post 1964 through 1969.</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+          </elementContainer>
+        </elementSet>
+      </elementSetContainer>
+    </collection>
+    <elementSetContainer>
+      <elementSet elementSetId="1">
+        <name>Dublin Core</name>
+        <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+        <elementContainer>
+          <element elementId="50">
+            <name>Title</name>
+            <description>A name given to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="290">
+                <text>Maryland Freedom Union </text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="49">
+            <name>Subject</name>
+            <description>The topic of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="411">
+                <text>Maryland Freedom Union</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="41">
+            <name>Description</name>
+            <description>An account of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="412">
+                <text>A brief history of Maryland Freedom Union - its creation and activities with CORE.</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="39">
+            <name>Creator</name>
+            <description>An entity primarily responsible for making the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="413">
+                <text>Mike Flug</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="48">
+            <name>Source</name>
+            <description>A related resource from which the described resource is derived</description>
+            <elementTextContainer>
+              <elementText elementTextId="414">
+                <text>CORE</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="45">
+            <name>Publisher</name>
+            <description>An entity responsible for making the resource available</description>
+            <elementTextContainer>
+              <elementText elementTextId="415">
+                <text>CORE</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="40">
+            <name>Date</name>
+            <description>A point or period of time associated with an event in the lifecycle of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="416">
+                <text>circa 1966-1967</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="37">
+            <name>Contributor</name>
+            <description>An entity responsible for making contributions to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="417">
+                <text>Mike Flug</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="47">
+            <name>Rights</name>
+            <description>Information about rights held in and over the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="418">
+                <text>Personal Papers of Antoine Perot</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="42">
+            <name>Format</name>
+            <description>The file format, physical medium, or dimensions of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="419">
+                <text>jpg</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="44">
+            <name>Language</name>
+            <description>A language of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="420">
+                <text>English</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="51">
+            <name>Type</name>
+            <description>The nature or genre of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="421">
+                <text>ephemera</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="43">
+            <name>Identifier</name>
+            <description>An unambiguous reference to the resource within a given context</description>
+            <elementTextContainer>
+              <elementText elementTextId="422">
+                <text>Maryland Freedom Union</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+        </elementContainer>
+      </elementSet>
+    </elementSetContainer>
+    <tagContainer>
+      <tag tagId="45">
+        <name>Baltimore</name>
+      </tag>
+      <tag tagId="5">
+        <name>black power</name>
+      </tag>
+      <tag tagId="16">
+        <name>black power populism</name>
+      </tag>
+      <tag tagId="15">
+        <name>economic inequality</name>
+      </tag>
+      <tag tagId="46">
+        <name>Target City Project</name>
+      </tag>
+      <tag tagId="61">
+        <name>union</name>
+      </tag>
+    </tagContainer>
+  </item>
+  <item itemId="14" public="1" featured="0">
+    <fileContainer>
+      <file fileId="181" order="1">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/4b109b386e8084e023e43e662f1353c9.JPG</src>
+        <authentication>aef106e1592cb031b565c3a6b65251e5</authentication>
+      </file>
+      <file fileId="182" order="2">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/453ab65a9e0d61e730d96571847cc76a.JPG</src>
+        <authentication>dcc783290361eccf7311fee68b8f300b</authentication>
+      </file>
+      <file fileId="183" order="3">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/2e46206c0c936b7e33a19501b55803e9.JPG</src>
+        <authentication>cbc7a253d31735d521afd82f1de1d365</authentication>
+      </file>
+      <file fileId="184" order="4">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/ee3d197292d0c8576bf4efc035654d03.JPG</src>
+        <authentication>596f53e9375e8e060abaea77dc8063f5</authentication>
+      </file>
+      <file fileId="185" order="5">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/0b5516043e27a167cf6570102df2b3d5.JPG</src>
+        <authentication>c2307af1b1dbef2e3c6c9def3b87c357</authentication>
+      </file>
+      <file fileId="186" order="6">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/9ff69598fb9f5d5d13781cc851080667.JPG</src>
+        <authentication>c1ba20580010825bae024a399d8bb7b9</authentication>
+      </file>
+      <file fileId="187" order="7">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/8f4475650d9792b3aea13aa823d19241.JPG</src>
+        <authentication>74041c28134a0592d46da0a1682688de</authentication>
+      </file>
+      <file fileId="188" order="8">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/53aff7b049c6279b95c1e1575f1088cd.JPG</src>
+        <authentication>be80734ffec6c6a7047e33b0427343df</authentication>
+      </file>
+      <file fileId="179" order="9">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/431359caf8e938553f70fa6608ffaf9f.JPG</src>
+        <authentication>e591b7bca72714ecc0c91c43177dfbc7</authentication>
+      </file>
+      <file fileId="180" order="10">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/278f6bb1f1444a44128a7fa0a0da8551.JPG</src>
+        <authentication>14b8d70628ab40943185f52ffa04c966</authentication>
+      </file>
+      <file fileId="189" order="11">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/bc7915c9863893a40490471314c4f81c.JPG</src>
+        <authentication>145b6022352950ec1e0aeb05426986e1</authentication>
+      </file>
+      <file fileId="190" order="12">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/ab1f069770c5df930288c65f74a78034.JPG</src>
+        <authentication>0a5046d38cb6f2106f7874ec45cffa85</authentication>
+      </file>
+      <file fileId="191" order="13">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/07ce9624b176595cbf1b4b62f467d514.JPG</src>
+        <authentication>53c5a218fd564797de443c707cf8a49d</authentication>
+      </file>
+      <file fileId="192" order="14">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/f5fb50d87dd213c1ef98296bb69580e6.JPG</src>
+        <authentication>6e352fb70925ecf6f645516c415b5052</authentication>
+      </file>
+      <file fileId="193" order="15">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/34bbbf3b42135cbd5d0b90f26b038933.JPG</src>
+        <authentication>097ee10aa6ba5db78f423237c0ef9a61</authentication>
+      </file>
+      <file fileId="194" order="16">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/0fa72e97325db93f3e20de3224085762.JPG</src>
+        <authentication>93b3c3ade9f4a964a14752acd72a16e6</authentication>
+      </file>
+      <file fileId="195" order="17">
+        <src>https://harambeecity.lib.miamioh.edu/files/original/69bb106e7d8ae588736a1d2fabb91348.JPG</src>
+        <authentication>ec38eb9bc433f5f78bc01e7954ca9c01</authentication>
+      </file>
+    </fileContainer>
+    <collection collectionId="2">
+      <elementSetContainer>
+        <elementSet elementSetId="1">
+          <name>Dublin Core</name>
+          <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+          <elementContainer>
+            <element elementId="50">
+              <name>Title</name>
+              <description>A name given to the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="4">
+                  <text>Antoine Perot's Briefcase</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="49">
+              <name>Subject</name>
+              <description>The topic of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="5">
+                  <text>1960s, black economic development, CORE</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="41">
+              <name>Description</name>
+              <description>An account of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="6">
+                  <text>This collection contains documents </text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="39">
+              <name>Creator</name>
+              <description>An entity primarily responsible for making the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="7">
+                  <text>Antoine Perot, CORE, Ruth Turner, miscellaneous creaors</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="48">
+              <name>Source</name>
+              <description>A related resource from which the described resource is derived</description>
+              <elementTextContainer>
+                <elementText elementTextId="8">
+                  <text>Personal Papers of Antoine Perot</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="45">
+              <name>Publisher</name>
+              <description>An entity responsible for making the resource available</description>
+              <elementTextContainer>
+                <elementText elementTextId="9">
+                  <text>Personal Papers of Antoine Perot</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="40">
+              <name>Date</name>
+              <description>A point or period of time associated with an event in the lifecycle of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="10">
+                  <text>1960s</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="37">
+              <name>Contributor</name>
+              <description>An entity responsible for making contributions to the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="11">
+                  <text>Multiple contributors</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="47">
+              <name>Rights</name>
+              <description>Information about rights held in and over the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="12">
+                  <text>Intellectual ownership by individual creators, physical ownership belongs to Antoine Perot.</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="42">
+              <name>Format</name>
+              <description>The file format, physical medium, or dimensions of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="13">
+                  <text>paper documents as pdf images</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="44">
+              <name>Language</name>
+              <description>A language of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="14">
+                  <text>English</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="51">
+              <name>Type</name>
+              <description>The nature or genre of the resource</description>
+              <elementTextContainer>
+                <elementText elementTextId="15">
+                  <text>ephemera</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="43">
+              <name>Identifier</name>
+              <description>An unambiguous reference to the resource within a given context</description>
+              <elementTextContainer>
+                <elementText elementTextId="16">
+                  <text>Congress of Racial Equality</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+            <element elementId="38">
+              <name>Coverage</name>
+              <description>The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant</description>
+              <elementTextContainer>
+                <elementText elementTextId="17">
+                  <text>Documents cover CORE's activities in Cleveland, black economic development, and national office post 1964 through 1969.</text>
+                </elementText>
+              </elementTextContainer>
+            </element>
+          </elementContainer>
+        </elementSet>
+      </elementSetContainer>
+    </collection>
+    <elementSetContainer>
+      <elementSet elementSetId="1">
+        <name>Dublin Core</name>
+        <description>The Dublin Core metadata element set is common to all Omeka records, including items, files, and collections. For more information see, http://dublincore.org/documents/dces/.</description>
+        <elementContainer>
+          <element elementId="50">
+            <name>Title</name>
+            <description>A name given to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="153">
+                <text>Community Self Determination Bill</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="49">
+            <name>Subject</name>
+            <description>The topic of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="154">
+                <text>economic development, community self-determination bill, Kelso Second Income Theory</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="41">
+            <name>Description</name>
+            <description>An account of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="155">
+                <text>This is a collection of documents related to economic development and the Community Self-Determination Bill.  Materials include a report from Urban Coalition, press releases, a miscellaneous document related to income inequality, and a letter from Kelso to the Black Caucus about the Community Self Determination Bill.</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="45">
+            <name>Publisher</name>
+            <description>An entity responsible for making the resource available</description>
+            <elementTextContainer>
+              <elementText elementTextId="156">
+                <text>multiple sources</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="40">
+            <name>Date</name>
+            <description>A point or period of time associated with an event in the lifecycle of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="157">
+                <text>1968-1970</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="37">
+            <name>Contributor</name>
+            <description>An entity responsible for making contributions to the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="158">
+                <text>multiple creators</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="47">
+            <name>Rights</name>
+            <description>Information about rights held in and over the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="159">
+                <text>Personal Papers of Antoine Perot</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="42">
+            <name>Format</name>
+            <description>The file format, physical medium, or dimensions of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="160">
+                <text>jpg image</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="44">
+            <name>Language</name>
+            <description>A language of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="161">
+                <text>English</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="51">
+            <name>Type</name>
+            <description>The nature or genre of the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="162">
+                <text>document</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="43">
+            <name>Identifier</name>
+            <description>An unambiguous reference to the resource within a given context</description>
+            <elementTextContainer>
+              <elementText elementTextId="163">
+                <text>community self determination bill</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="38">
+            <name>Coverage</name>
+            <description>The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant</description>
+            <elementTextContainer>
+              <elementText elementTextId="164">
+                <text>Black economic power, late 1960s</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+          <element elementId="39">
+            <name>Creator</name>
+            <description>An entity primarily responsible for making the resource</description>
+            <elementTextContainer>
+              <elementText elementTextId="165">
+                <text>multiple creators</text>
+              </elementText>
+            </elementTextContainer>
+          </element>
+        </elementContainer>
+      </elementSet>
+    </elementSetContainer>
+    <tagContainer>
+      <tag tagId="17">
+        <name>black economic power</name>
+      </tag>
+      <tag tagId="16">
+        <name>black power populism</name>
+      </tag>
+      <tag tagId="10">
+        <name>community development corporation</name>
+      </tag>
+      <tag tagId="12">
+        <name>community self determination bill</name>
+      </tag>
+      <tag tagId="19">
+        <name>Congresstional Black Caucus</name>
+      </tag>
+      <tag tagId="11">
+        <name>economic development</name>
+      </tag>
+      <tag tagId="15">
+        <name>economic inequality</name>
+      </tag>
+      <tag tagId="13">
+        <name>Kelso</name>
+      </tag>
+      <tag tagId="18">
+        <name>Second income</name>
+      </tag>
+      <tag tagId="14">
+        <name>Urban Coalition</name>
+      </tag>
+    </tagContainer>
+  </item>
+</itemContainer>

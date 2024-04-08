@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://harambeecity.lib.miamioh.edu/items/browse?tags=urban+rebellion&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=d&amp;output=atom</id>
+  <title><![CDATA[HARAMBEE CITY]]></title>
+  <author>
+    <name><![CDATA[Unknown]]></name>
+  </author>
+  <updated>2024-02-09T23:44:29-05:00</updated>
+  <generator>Omeka</generator>
+  <link rel="self" href="https://harambeecity.rrchnm.org/items/browse?tags=urban+rebellion&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="first" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=urban+rebellion&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="last" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=urban+rebellion&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=d&amp;output=atom"/>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/15</id>
+    <title><![CDATA[Draft Position Paper on President&#039;s Commission on Civil Disorder]]></title>
+    <summary><![CDATA[CORE&#039;s response to President&#039;s Commission on Civil Disorders.   Highlights need to assert a stronger understanding of racism as a structural problem within the United States.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/15"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/8d35ba1183f51df188d28d5b839de1ec.JPG" type="image/jpeg" length="5787208"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/b1ea8e10973b3eeab5e6651ffc965046.JPG" type="image/jpeg" length="5623964"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/dee20f03b5651b2324ee8dc9a3194d54.JPG" type="image/jpeg" length="5607680"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/b8036dfa2df094e848d24425e5b41379.JPG" type="image/jpeg" length="5774869"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/01dbf0dff2f43f29132c9c6d5f8a820d.JPG" type="image/jpeg" length="5819080"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/5fbf8c61cb307819bff90495a8e7a36f.JPG" type="image/jpeg" length="5666611"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/4c7349c67dca2a080c8c5274672165d0.JPG" type="image/jpeg" length="5751598"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/71386e11e0cf1ec9a1042bda458fbbcb.JPG" type="image/jpeg" length="5453459"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/8f02c0fbf0f7d7a1d1fc59278471fe45.JPG" type="image/jpeg" length="5481164"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/3cc6188abcc9177f32f2ff1a96bdf0a4.JPG" type="image/jpeg" length="5838159"/>
+    <category term="Racism"/>
+    <category term="riots"/>
+    <category term="structural inequality"/>
+    <category term="urban rebellion"/>
+    <category term="urban unrest"/>
+    <category term="White Liberalism"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Draft Position Paper on President&#039;s Commission on Civil Disorder</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">urban unrest</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">CORE&#039;s response to President&#039;s Commission on Civil Disorders.   Highlights need to assert a stronger understanding of racism as a structural problem within the United States.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Ruth Turner</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">1967</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">CORE response to urban rebellion</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+</feed>

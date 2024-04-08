@@ -1,0 +1,44 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/16">
+<dc:title>Memorandum and open Letter From a White Liberal</dc:title>
+<dc:subject>white liberalism and racism</dc:subject>
+<dc:description>CORE internal document and open letter from white liberal.  The letter discusses the inability of many liberal whites to grapple with internal racism.</dc:description>
+<dc:creator>anonymous and CORE member - ? Strick</dc:creator>
+<dc:publisher>CORE</dc:publisher>
+<dc:date>post 1966</dc:date>
+<dc:contributor>multiple creators</dc:contributor>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>document</dc:type>
+<dc:identifier>white liberalism and racism</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/22">
+<dc:title>Muhammad Speaks</dc:title>
+<dc:subject>Muhammad Speaks newspaper article on Baltimore Target Project.</dc:subject>
+<dc:description>An article on Baltimore Target City Project.  Discusses the Ku Klux Klan and its march through the black community.  Explains how the black community no longer fears the Klan.</dc:description>
+<dc:creator>Nation of Islam; Baltimore Mosque</dc:creator>
+<dc:publisher>Nation of Islam</dc:publisher>
+<dc:date>June 24, 1966</dc:date>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>newspaper</dc:type>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/17">
+<dc:title>Sub-Committee Meeting of the Constitutional Convention Minutes</dc:title>
+<dc:subject>CORE sub-committee convention minutes</dc:subject>
+<dc:description>Minutes from Sub-Committee of CORE constitutional convention.  Includes discussion on chapter resources, glossary of terms, Sunflower theory for black economic development, CORE debt, concern over &quot;white funding&quot;, and restructuring CORE.</dc:description>
+<dc:creator>CORE</dc:creator>
+<dc:date>March 23 and 24, 1968</dc:date>
+<dc:contributor>Will Ussery, Marlene Wilson, Elijah Turner, Arthur Evans, Roy Innis, Tony Perot, Victor Solomon, Jackie Robinson, Joseph V. Dixon, Ray C. Moody, Francis Pullen, Milton Holmes, William Medley, Robert Lucus, Ovida Helm, John Randolph, Eilus Wicks, Mary Hawkins, Daniel Underwood, Eugene Hill, Murten Shanklin, Ezra Rowry, Donald Bean, Edmond Boston, Kermitt Scott, Thelma Scott</dc:contributor>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>documents</dc:type>
+<dc:identifier>CORE sub-committee convention minutes</dc:identifier>
+</rdf:Description></rdf:RDF>

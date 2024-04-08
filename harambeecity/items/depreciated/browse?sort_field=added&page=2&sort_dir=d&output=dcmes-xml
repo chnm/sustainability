@@ -1,0 +1,54 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/88">
+<dc:title>Franklin Anderson interview 3</dc:title>
+<dc:subject>CORE, HADC, and Black Nationalism</dc:subject>
+<dc:description>Early interest in CORE, Cleveland CORE - Chairman, Hough Area Development Corporation (HADC), political activities and Republican political background, black nationalism, Cleveland black power period. black economic development</dc:description>
+<dc:creator>Frazier and Anderson</dc:creator>
+<dc:date>January 3, 201?</dc:date>
+<dc:rights>co-copyright Frazier and Anderson</dc:rights>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/85">
+<dc:title>School Board of Education CORE PROTESTS</dc:title>
+<dc:description>images of CORE protesters throughout school board of education.</dc:description>
+<dc:creator>unknown</dc:creator>
+<dc:source>Cleveland State University</dc:source>
+<dc:publisher>Cleveland Press?</dc:publisher>
+<dc:date>1964</dc:date>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/84">
+<dc:title>CORE photos </dc:title>
+<dc:subject>Image of Malcolm X, Ruth Turner, and Art Evans,
+Image of Stanley Tolliver (CORE lawyer) and Chuck Burton (blind member of CORE)
+Image of CORE Members Pauline Warfield Frazier, Nate Smith, Antoine Perot, and Nishani Frazier</dc:subject>
+<dc:creator>unknown</dc:creator>
+<dc:source>Images owned by Ruth Turner Perot</dc:source>
+<dc:date>1960s-1970s</dc:date>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/83">
+<dc:title>CORE Family Members</dc:title>
+<dc:description>Pauline Warfield Frazier, Nate Smith, and Antoine Perot</dc:description>
+<dc:date>1970s</dc:date>
+<dc:rights>Nishani Frazier</dc:rights>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/82">
+<dc:title>Oral History Interview with Ruth Turner and Tony Perot</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/81">
+<dc:title>Oral History Interview with Gordon Carey, Parts 1 and 2</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/80">
+<dc:title>Oral History Interview with Frank Anderson</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/79">
+<dc:title>Oral History Interview with Don Bean and Nate Smith - 2 Parts</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/78">
+<dc:title>Oral History Interview with Dick Peery</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/77">
+<dc:title>Oral History Interview with Juanita Nelson I</dc:title>
+</rdf:Description></rdf:RDF>

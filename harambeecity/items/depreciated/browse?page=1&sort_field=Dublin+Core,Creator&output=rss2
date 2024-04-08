@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[HARAMBEE CITY]]></title>
+    <link>https://harambeecity.lib.miamioh.edu/items/browse?page=1&amp;sort_field=Dublin+Core%2CCreator&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Fri, 09 Feb 2024 19:51:53 -0500</pubDate>
+    <managingEditor>tzoce@miamioh.edu (HARAMBEE CITY)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[CORE Jazz Album]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/3</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">CORE Jazz Album</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">compilation jazz album CORE used as a fundraiser for the organization.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">RECORD ONE, SIDE ONE:    <br />
+Dinah Washington, &quot;The Blues Ain&#039;t Nothing But a Woman Cryin For Her Man&quot;; Cannonball Adderly with Machito and his Orchestra, &quot;Cannonology&quot;; Harry Belafante with Machito and his Orchestra, &quot;Lean on Me&quot;; Herbie Mann with Machito and his Orchestra, &quot;Carabunta&quot;; Steve Allen&#039;s Roundtable All-Stars, &quot;I Thought About You&quot;; Chris Connor and Maynard Ferguson, &quot;I Feel a Song Coming On&quot;.<br />
+<br />
+RECORD ONE, SIDE TWO:<br />
+Louis Armstrong and Duke Ellington, &quot;Cotton Tail&quot;; John Coltrane Quartet, &quot;Exotica&quot;; Dizzy Gillespie, &quot;Paris Swing&quot;; Erroll Garner, &quot;Love for Sale&quot;; Woody Herman Sextet with Nat Adderley, &quot;Lullaby of Birdland&quot;; Charlie Parker &amp; Miles Davis, &quot;Klactoveededstene&quot;<br />
+<br />
+RECORD TWO, SIDE ONE:<br />
+Stan Getz &amp; Horace Silver, &quot;Strike Up the Band&quot;; Art Tatum, &quot;Dark Eyes&quot;; Dizzy Gillespie &amp; Charlie Parker, &quot; Groovin&#039; High&quot;; J. J. Johnson &amp; Kai Winding, &quot;The Shrike&quot;; Bud Powell, &quot;Off Minor&quot;; Joe Newman &amp; Zoot Sims, &quot;Tater Pie&quot;<br />
+<br />
+RECORD TWO, SIDE TWO:<br />
+Joe Williams With Count Basie &amp; His Orchestra, &quot;Everyday&quot;; Sarah Vaughan with Count Basie &amp; His Orchestra, &quot;Until I Met You&quot;; Count Basie &amp; His Orchestra, &quot;Tickle Toe&quot;; Joe Williams with Lambert, Hendricks &amp; Ross with Count Basie &amp; His Orchestra, &quot;Going to Chicago Blues&quot;; Billy Eckstine with Count Basie &amp; his Orchestra, &quot;Jelly, Jelly&quot;; Tony Bennett with count Basie &amp; his Orchestra, &quot;I Guess I&#039;ll Have to Change My Plans&quot;<br />
+</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">A1, S1:  J. Mayo Williams, A. K. Salim, Green-Waldman, Herbie Mann, Van Heusen-Mercer, Oppenheim-McHugh-Fields<br />
+<br />
+A1, S2: Duke Ellington; John Coltrane; Dizzy Gillespie; Cole Porter; Shearing-Foster, Charlie Parker<br />
+<br />
+A2, S1:<br />
+G. &amp; I. Gershwin; Art Tatum (arranged); Dizzy Gillespie; Jose Ferrer; Thelonious Monk; Adriano Acea<br />
+<br />
+A2, S2: <br />
+William York; Green-Wolf; Lester Young, Basie-Rushing; Eckstine-Hines; Dietz-Schwartz</div>
+            </div><!-- end element -->
+        <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text">Leeds Music Corp.; United Music Co.; Patricia Music Publication Corp.; Burke &amp; Van Heusen; Robins Music Corp; Jowcol Music; Forshay Music Inc.; Harms, Inc.; Duchess Music Co.; New World Music Corp.; Jose Ferrer Music Inc.; Rockaway Music Corp.; Golden State Songs &amp; Arc Music, Co.; Bregman, Vocco &amp; Conn, Inc.; Advanced Music Corp.:</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Roulette Records and its Subsidiary, The Roost</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">multiple contributors</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Physical Object in possession of Nishani Frazier; music copyright multiple owners</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">digital audio</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">album</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">CORE Jazz Album</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/0289d2c2be99b0daef36706396aacbe8.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/0289d2c2be99b0daef36706396aacbe8.jpg" alt="-jazz salute cover.JPG" title="-jazz salute cover.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/81dc55d7f700a9e1f9a900424b23c023.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/81dc55d7f700a9e1f9a900424b23c023.jpg" alt="-jazz salute inside1.JPG" title="-jazz salute inside1.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/89f6747d8dbe4d0760b8692d98baafca.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/89f6747d8dbe4d0760b8692d98baafca.jpg" alt="-jazz salute inside2.JPG" title="-jazz salute inside2.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/e5b538771e11a694f4fd5da9a90c12f2.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/e5b538771e11a694f4fd5da9a90c12f2.jpg" alt="-Jazz Salute Back Cover.JPG" title="-Jazz Salute Back Cover.JPG"></a></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/06353aa6fef046ae62103106eda0340a.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/06353aa6fef046ae62103106eda0340a.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/b6f3669c990a081e1ea458460aff9bdb.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/1080f09631a4aba2cc3e717bd7285fed.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/1080f09631a4aba2cc3e717bd7285fed.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/74c37557bac8d9efe79b5a00afa1c5e0.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/e2d3cf01fae3b48e7e895cb6c8648233.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/e2d3cf01fae3b48e7e895cb6c8648233.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/7ccad566d572513cdea6c974d45ee6f1.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/49dc3c8dcd1a37d6b065d6a3007da5ff.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/49dc3c8dcd1a37d6b065d6a3007da5ff.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/307eadfe3838c76f2b82eaf40d0a5d2d.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/9fb39b90806bdc960473c77b70c16013.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/9fb39b90806bdc960473c77b70c16013.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/922d48d995ba498b835654b5952ce1e8.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/a5501145a5293b8f7b9c7fe013ad31b3.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/a5501145a5293b8f7b9c7fe013ad31b3.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/b2f69a7569e5a5989fb00200cda3ce6c.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/15d038e9d56d1e27c76317245748b604.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/15d038e9d56d1e27c76317245748b604.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/6aa9b1dc9ca3af5c4ccff51f050204bb.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/28bdb7d820b0f30e8097ba1a6cea0816.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/28bdb7d820b0f30e8097ba1a6cea0816.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/e7abb831c3333e9a354ca7f207ae012f.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/f9e1e5ea0d3ca24390fc1fb79a4bd044.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/f9e1e5ea0d3ca24390fc1fb79a4bd044.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/9fbc08b41eef0607790510760d150b66.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/326eb4dc5386b8a54f3a8d5660683def.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/326eb4dc5386b8a54f3a8d5660683def.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/328951793bbca7be269a20b5967302e6.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/a83fa2cb112720de3c989c10a43f35cf.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/a83fa2cb112720de3c989c10a43f35cf.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/6fe386f37c9b2aba883c2b2e2fba51e1.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/2f83af40513c37bfe8c0f1893583ea6a.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/2f83af40513c37bfe8c0f1893583ea6a.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/882466fa267b321abadfa57dc7ae67c2.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/45728f4e0bd55134b4b34135c3e3d568.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/45728f4e0bd55134b4b34135c3e3d568.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/49bdc0e9f1c904c6252c44cf54b92d49.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/d0786e57a1ebb571a651e9e4553ab05a.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/d0786e57a1ebb571a651e9e4553ab05a.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/9adacaef2ff4c8d08a2da3c2fe1f1cf1.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/c60fe367e51de33667f8ca554f829e13.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/c60fe367e51de33667f8ca554f829e13.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/4dcf1f4b90ca1b810fcc0905c3a08770.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/133db30be206941753ad87d1b38bc9ff.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/133db30be206941753ad87d1b38bc9ff.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/8cce3e5d3c0fac49aa8044ca1d328eba.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/510d0a5b8661519483665b712869bab9.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/510d0a5b8661519483665b712869bab9.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/61624b56654ef7fe83410614470452d7.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/ea94d64b8d7e8dd169404a1eb84ea676.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/ea94d64b8d7e8dd169404a1eb84ea676.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/185eaad4a2ef14f9cf37f8afb7b4badb.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/5fadf14f1690faccd844bcaee8aa4e5b.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/5fadf14f1690faccd844bcaee8aa4e5b.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/3ffd7e71953869eed47d3635dbfa004c.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/0dd0425348307ef617cae47a7562b130.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/0dd0425348307ef617cae47a7562b130.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/7bef4e7d218925ea28c4a382091c35ac.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/b26759419462fee73105f37b09b0cff6.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/b26759419462fee73105f37b09b0cff6.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/286e7ee7f7a733dc356b7a60dc9a2c11.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/1965609c3315b1be1898fa4609040118.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/1965609c3315b1be1898fa4609040118.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/e2b5b2208ad66474ecd4bffd47b24c02.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/b9df162add8e57e51aad73e142593f39.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/b9df162add8e57e51aad73e142593f39.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/c305ac8fc0b486e1babad4bca67569d1.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/9fb0e4b0f0c9f8916b1f821278a2fd21.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/9fb0e4b0f0c9f8916b1f821278a2fd21.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/53110ce103a6e31547595a804624c352.mp3</a></audio></div><div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/1f6267b5caeca61d1be38ed0ebb22ae3.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/1f6267b5caeca61d1be38ed0ebb22ae3.mp3">https://s3.amazonaws.com/omeka-net/15918/archive/files/5b5c5f11e8d9b171f45e382479db2745.mp3</a></audio></div>]]></description>
+      <pubDate>Tue, 24 Nov 2015 11:50:08 -0500</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/0289d2c2be99b0daef36706396aacbe8.jpg" type="image/jpeg" length="5531066"/>
+    </item>
+    <item>
+      <title><![CDATA[CORE national black power activities]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/21</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">CORE national black power activities</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">CORE&#039;s black power activities</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">A newspaper article on CORE&#039;s political engagement and black cultural fair</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Alice Wright, Tony Perot, other</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">circa 1966-1968</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">Alice Wright, Tony Perot, other</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/c453a6ec9d1ac0863334dbae74121013.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/c453a6ec9d1ac0863334dbae74121013.jpg" alt="article on political activism.JPG" title="article on political activism.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/3e4af9ca647f5cd961083207033835ef.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/3e4af9ca647f5cd961083207033835ef.jpg" alt="Black Cultural Fair.JPG" title="Black Cultural Fair.JPG"></a></div>]]></description>
+      <pubDate>Tue, 08 Dec 2015 16:22:45 -0500</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/c453a6ec9d1ac0863334dbae74121013.jpg" type="image/jpeg" length="5724303"/>
+    </item>
+    <item>
+      <title><![CDATA[Memorandum and open Letter From a White Liberal]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/16</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Memorandum and open Letter From a White Liberal</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">white liberalism and racism</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">CORE internal document and open letter from white liberal.  The letter discusses the inability of many liberal whites to grapple with internal racism.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">anonymous and CORE member - ? Strick</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">post 1966</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">multiple creators</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">white liberalism and racism</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/ee831af34a38876b8229fdf5d0203f03.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/ee831af34a38876b8229fdf5d0203f03.jpg" alt="Strick to Staff no date1.JPG" title="Strick to Staff no date1.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/f6bb7e05ca61ebe2607e4d22c136441a.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/f6bb7e05ca61ebe2607e4d22c136441a.jpg" alt="Strick to Staff no date2.JPG" title="Strick to Staff no date2.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/31827eac08bfeafb9ac25ccf8973a1d9.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/31827eac08bfeafb9ac25ccf8973a1d9.jpg" alt="Strick Memo letter from white liberal1.JPG" title="Strick Memo letter from white liberal1.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/c888d1916ba3724ca7392ed9a57c1b2f.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/c888d1916ba3724ca7392ed9a57c1b2f.jpg" alt="Strick Memo letter from white liberal2.JPG" title="Strick Memo letter from white liberal2.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/837c945c717eb1a4ed065f9dd1f96893.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/837c945c717eb1a4ed065f9dd1f96893.jpg" alt="Strick Memo letter from white liberal3.JPG" title="Strick Memo letter from white liberal3.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/f2ae0c8280760a8320ef66cbf686109d.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/f2ae0c8280760a8320ef66cbf686109d.jpg" alt="Strick Memo letter from white liberal4.JPG" title="Strick Memo letter from white liberal4.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/0259cc4426da3e0b3bd34a4c6ab724ea.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/0259cc4426da3e0b3bd34a4c6ab724ea.jpg" alt="Strick Memo letter from white liberal5.JPG" title="Strick Memo letter from white liberal5.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/a0e079fa6684d691f0ad276064373f4c.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/a0e079fa6684d691f0ad276064373f4c.jpg" alt="Strick Memo letter from white liberal6.JPG" title="Strick Memo letter from white liberal6.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/4e619d124e562ca9342febac907a93aa.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/4e619d124e562ca9342febac907a93aa.jpg" alt="Strick Memo letter from white liberal7.JPG" title="Strick Memo letter from white liberal7.JPG"></a></div>]]></description>
+      <pubDate>Sun, 06 Dec 2015 14:18:11 -0500</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/ee831af34a38876b8229fdf5d0203f03.jpg" type="image/jpeg" length="6967580"/>
+    </item>
+    <item>
+      <title><![CDATA[Appointment Calendar 1965-January 1966]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/5</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Appointment Calendar 1965-January 1966</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Perot&#039;s activities on behalf of CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Daily accounting of meetings and persons Perot met while performing his duties as Cleveland CORE member and Regional Field Representative for CORE.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">1965-January 1966</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">ephemera</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">appointment calendar</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/8fb23193a11cdeeb4c3c3c3c6d21b56a.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/8fb23193a11cdeeb4c3c3c3c6d21b56a.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/091c4cf1597c6783e2e1ad85490602cb.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/091c4cf1597c6783e2e1ad85490602cb.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/3708e06e314be0854b8b9ccfa2865fab.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/3708e06e314be0854b8b9ccfa2865fab.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/42ad6baebf36cbfe48ad02c76d5eb371.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/42ad6baebf36cbfe48ad02c76d5eb371.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/6ecd741dfe54b700816c2c1b545d0175.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/6ecd741dfe54b700816c2c1b545d0175.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/729302d7ea0fac7d6d495015cafc884b.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/729302d7ea0fac7d6d495015cafc884b.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/c021d7711ca5a30b4d0e4f93c8b15fdb.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/c021d7711ca5a30b4d0e4f93c8b15fdb.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/75df299d9b4a8c5ee596e34f7ea6bb3a.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/75df299d9b4a8c5ee596e34f7ea6bb3a.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/f557c536273435933d7842cf7d56901d.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/f557c536273435933d7842cf7d56901d.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/e5f0e750a16bb85803d31ffe234ad89b.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/e5f0e750a16bb85803d31ffe234ad89b.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/ef5f3efc39c4629379d674d58549ebbe.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/ef5f3efc39c4629379d674d58549ebbe.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/edbdd41362715ab11fa0b5cb1b874daf.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/edbdd41362715ab11fa0b5cb1b874daf.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/1da44b3974f98d90045047663b322b12.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/1da44b3974f98d90045047663b322b12.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/8bd00936645808f0268d0a1a00c639e5.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/8bd00936645808f0268d0a1a00c639e5.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/3b26e0fe6b1cabd245f559afc83f85da.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/3b26e0fe6b1cabd245f559afc83f85da.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/2488a934dd98bafc4ce2b12141dc92d9.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/2488a934dd98bafc4ce2b12141dc92d9.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/f4a4952b08c1cc25b0ca4b420ec09bc1.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/f4a4952b08c1cc25b0ca4b420ec09bc1.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/2a207f3e4217287d0ecfb91e206816cf.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/2a207f3e4217287d0ecfb91e206816cf.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/5b118340ccf832797ebc9e9a08984af6.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/5b118340ccf832797ebc9e9a08984af6.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/ad91614f0dc2fe1e94804b2a26bdb6bc.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/ad91614f0dc2fe1e94804b2a26bdb6bc.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/f8a8be233d7b4add1ee4fb14b470d211.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/f8a8be233d7b4add1ee4fb14b470d211.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/82a2dc09f053a87c4c8e36b9a015ec7d.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/82a2dc09f053a87c4c8e36b9a015ec7d.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/0a159fc834c80441c4a2151a508622c6.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/0a159fc834c80441c4a2151a508622c6.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/0eaa7d8e4a5b9ce96f91dc49fc2622d2.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/0eaa7d8e4a5b9ce96f91dc49fc2622d2.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/5b8d674c48db2befeb2084a33cd6c38f.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/5b8d674c48db2befeb2084a33cd6c38f.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/d508f66157515a68091328737b506083.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/d508f66157515a68091328737b506083.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/edcd83c480c570d61c333d8279cc3306.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/edcd83c480c570d61c333d8279cc3306.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/8233fbd69dc62f3299e440fa800f9aff.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/8233fbd69dc62f3299e440fa800f9aff.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/d68330a7d9abc6cc13ebb74505b5cc00.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/d68330a7d9abc6cc13ebb74505b5cc00.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/b1892c0b89329a3274897ba67602f84a.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/b1892c0b89329a3274897ba67602f84a.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/98ccffc7e20afbaa1ff47ebc09ea91aa.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/98ccffc7e20afbaa1ff47ebc09ea91aa.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/be12194108cfef7939bd29b78ba9b526.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/be12194108cfef7939bd29b78ba9b526.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/5dde98b6fcb08e3b18a6e079a4d2561c.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/5dde98b6fcb08e3b18a6e079a4d2561c.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/9221c35da635db3aa70541d8694af95c.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/9221c35da635db3aa70541d8694af95c.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/20b700c7c09af8d604ec2df18b48df71.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/20b700c7c09af8d604ec2df18b48df71.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/3b53e94e3d1942937cb8986f85217313.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/3b53e94e3d1942937cb8986f85217313.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/f54fadaeb57c996fb8515db1669f48d6.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/f54fadaeb57c996fb8515db1669f48d6.jpg" alt="https://s3.amazonaws.com/omeka-net/15918/archive/files/198b2ebe7ab10f9b58175324ab8a58cb.JPG" title="https://s3.amazonaws.com/omeka-net/15918/archive/files/198b2ebe7ab10f9b58175324ab8a58cb.JPG"></a></div>]]></description>
+      <pubDate>Tue, 24 Nov 2015 11:51:19 -0500</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/8fb23193a11cdeeb4c3c3c3c6d21b56a.jpg" type="image/jpeg" length="1672537"/>
+    </item>
+    <item>
+      <title><![CDATA[Proposal for Economic Development]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/29</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Proposal for Economic Development</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Economic Development</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">This document outlines the basis for CORE&#039;s request to take black power to its next phase.  The document was written by Antoine Perot and edited by Ruth (Turner) Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">no date</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">economic development proposal</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/649ae89169ceec3e463377edc33ac66b.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/649ae89169ceec3e463377edc33ac66b.jpg" alt="RT edit TP Eco Dev Statement.JPG" title="RT edit TP Eco Dev Statement.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/0bf4a1423342f94a3b7ab4cad40fb81f.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/0bf4a1423342f94a3b7ab4cad40fb81f.jpg" alt="TP Program for Eco Dev 1 pg .JPG" title="TP Program for Eco Dev 1 pg .JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/ab1bee6fb2faa8bbe1fdcacb1169874b.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/ab1bee6fb2faa8bbe1fdcacb1169874b.jpg" alt="TP Program for Eco Dev 2 pg.JPG" title="TP Program for Eco Dev 2 pg.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/bb3bcc72f2719882f76613a726f5d532.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/bb3bcc72f2719882f76613a726f5d532.jpg" alt="TP Program for eco dev 3 pg.JPG" title="TP Program for eco dev 3 pg.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/8eda62153cdff4fc52c04780aa2d1f16.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/8eda62153cdff4fc52c04780aa2d1f16.jpg" alt="TPP program for eco dev 4 pg.JPG" title="TPP program for eco dev 4 pg.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/754f2530536b237cf9e2a13053f0e0b7.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/754f2530536b237cf9e2a13053f0e0b7.jpg" alt="TPP program for eco dev 5 pg.JPG" title="TPP program for eco dev 5 pg.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/be4b69d7a7b4215edc0183d9fdc14f7a.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/be4b69d7a7b4215edc0183d9fdc14f7a.jpg" alt="TPP Program for Eco dev 6 pg.JPG" title="TPP Program for Eco dev 6 pg.JPG"></a></div>]]></description>
+      <pubDate>Tue, 15 Dec 2015 10:20:32 -0500</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/649ae89169ceec3e463377edc33ac66b.jpg" type="image/jpeg" length="1112266"/>
+    </item>
+    <item>
+      <title><![CDATA[Youth Leadership Training Program]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/28</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Youth Leadership Training Program</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">youth leadership training</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Second draft proposal submitted by Antoine Perot and Dan Deweese.  The youth leadership training funding proposal was a project by CORE designed to move from Baltimore Target City to a national program.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Antoine Perot and Dan Deweese</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">no date</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Youth Leadership</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/2c5a82e83097ba174b501a7d42b7037f.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/2c5a82e83097ba174b501a7d42b7037f.jpg" alt="youth leadership training perot pg1.JPG" title="youth leadership training perot pg1.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/f10d6fb237d0bf9c57d8fbd90d1aa9f1.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/f10d6fb237d0bf9c57d8fbd90d1aa9f1.jpg" alt="youth leadership training perot pg2.JPG" title="youth leadership training perot pg2.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/c02d7bf747dbb955f479858e08342134.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/c02d7bf747dbb955f479858e08342134.jpg" alt="youth leadership training perot pg3.JPG" title="youth leadership training perot pg3.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/0a1a661bc67431a8eac828644a7b3506.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/0a1a661bc67431a8eac828644a7b3506.jpg" alt="youth leadership training perot pg4.JPG" title="youth leadership training perot pg4.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/a1e35f3ef0e08b6b1d93ab2c0a934bae.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/a1e35f3ef0e08b6b1d93ab2c0a934bae.jpg" alt="youth leadership training perot pg5.JPG" title="youth leadership training perot pg5.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/3de6acc154da5d5a113bebdbe4662008.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/3de6acc154da5d5a113bebdbe4662008.jpg" alt="youth leadership training perot pg6.JPG" title="youth leadership training perot pg6.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/b756c31a645a70eef0c16d34689b2ee0.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/b756c31a645a70eef0c16d34689b2ee0.jpg" alt="youth leadership training perot pg7.JPG" title="youth leadership training perot pg7.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/1d8d7c071d33561dc7c476da8504945e.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/1d8d7c071d33561dc7c476da8504945e.jpg" alt="youth leadership training perot pg8.JPG" title="youth leadership training perot pg8.JPG"></a></div>]]></description>
+      <pubDate>Tue, 15 Dec 2015 10:18:26 -0500</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/2c5a82e83097ba174b501a7d42b7037f.jpg" type="image/jpeg" length="5596909"/>
+    </item>
+    <item>
+      <title><![CDATA[Bonnie Gordon, Jean Tussey]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/65</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Bonnie Gordon, Jean Tussey</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Gordon&#039;s family history and CORE - TWO TAPES</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Gordon discusses black power, internal fight with SWP, white membership in CORE, Socialist background, Civil Rights Background, Freedom Fighters, Cleveland, CORE Community, Early Civil Rights in Cleveland.  Her mother is the well known socialist Jean Tussey.  You can find additional information on her at http://ead.ohiolink.edu/xtf-ead/view?docId=ead/OCLWHi0420.xml;query=;brand=default.  The other voice is Ms. Tussey.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Bonnie Holt Gordon, Jean Tussey, and Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">April 12, 2004</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Bonnie Holt Gordon and Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">mp3</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file audio-mpeg"><audio src="https://harambeecity.rrchnm.org/files/original/2e5efe5fcc3f0b7afe953fec8071ae9b.mp3" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/2e5efe5fcc3f0b7afe953fec8071ae9b.mp3">Bonnie Gordon interview tape 1 and 2.mp3</a></audio></div>]]></description>
+      <pubDate>Thu, 28 Jul 2016 13:31:32 -0400</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/2e5efe5fcc3f0b7afe953fec8071ae9b.jpg" type="audio/mpeg" length="95410125"/>
+    </item>
+    <item>
+      <title><![CDATA[The Stokes Years: A Short History]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/35</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">The Stokes Years: A Short History</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Carl B. Stokes</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">A short history on Carl B. Stokes and his first three years as mayor.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">City of Cleveland</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">City of Cleveland</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">November 8, 1971</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">ephemera</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Carl B. Stokes</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/9dc354a1913ffb50718588641738a0a0.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/9dc354a1913ffb50718588641738a0a0.jpg" alt="The Stokes Years0.JPG" title="The Stokes Years0.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/126d9ff50359d126c3e15044227e2347.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/126d9ff50359d126c3e15044227e2347.jpg" alt="The Stokes Years1.JPG" title="The Stokes Years1.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/a3a1651da8da70736672c69b0d62bc60.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/a3a1651da8da70736672c69b0d62bc60.jpg" alt="The Stokes Years2.JPG" title="The Stokes Years2.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/d18186d51ca672ea38cb3d0829d958a8.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/d18186d51ca672ea38cb3d0829d958a8.jpg" alt="The Stokes Years3.JPG" title="The Stokes Years3.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/355ebed7d4be352e2d95448cdf389dc1.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/355ebed7d4be352e2d95448cdf389dc1.jpg" alt="The Stokes Years4.JPG" title="The Stokes Years4.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/2a431f87f51465633a0c11e642c98a28.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/2a431f87f51465633a0c11e642c98a28.jpg" alt="The Stokes Years5.JPG" title="The Stokes Years5.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/c27d53b1868c24aeae05374ca92d5c3e.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/c27d53b1868c24aeae05374ca92d5c3e.jpg" alt="The Stokes Years6JPG.JPG" title="The Stokes Years6JPG.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/9c8e1feb761e0e75a60e13c10e45ac6b.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/9c8e1feb761e0e75a60e13c10e45ac6b.jpg" alt="The Stokes Years7.JPG" title="The Stokes Years7.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/6c0fe6a5724122a64a6d9b272f87173b.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/6c0fe6a5724122a64a6d9b272f87173b.jpg" alt="The Stokes Years8.JPG" title="The Stokes Years8.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/b0409f4bd3345dc0f1c3ed616de80975.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/b0409f4bd3345dc0f1c3ed616de80975.jpg" alt="The Stokes Years9.JPG" title="The Stokes Years9.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/99301875e32ae83d54785c6f1328b7ec.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/99301875e32ae83d54785c6f1328b7ec.jpg" alt="The Stokes Years10.JPG" title="The Stokes Years10.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/7a0067d3ec514b607d7acd6d1e7614d0.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/7a0067d3ec514b607d7acd6d1e7614d0.jpg" alt="The Stokes Years11.JPG" title="The Stokes Years11.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/d64bb3600b202174efe00690d13db4f0.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/d64bb3600b202174efe00690d13db4f0.jpg" alt="The Stokes Years12.JPG" title="The Stokes Years12.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/e4fef9c031d386aca1762f4ae059d677.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/e4fef9c031d386aca1762f4ae059d677.jpg" alt="The Stokes Years13.JPG" title="The Stokes Years13.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/af533cace452d409b6e05dfbcdb69415.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/af533cace452d409b6e05dfbcdb69415.jpg" alt="stokes years.JPG" title="stokes years.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/4095082dfe3448a1bf2c8f2f651714f0.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/4095082dfe3448a1bf2c8f2f651714f0.jpg" alt="The Stokes Years14.JPG" title="The Stokes Years14.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/5c0b6713e96d2faad3e8caaf19568082.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/5c0b6713e96d2faad3e8caaf19568082.jpg" alt="The Stokes Years15.JPG" title="The Stokes Years15.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/61fb7a64b2f6f6ecf70ab19d7e5e9091.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/61fb7a64b2f6f6ecf70ab19d7e5e9091.jpg" alt="The Stokes Years16.JPG" title="The Stokes Years16.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/6c46984e14f6aab58438980b085f8383.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/6c46984e14f6aab58438980b085f8383.jpg" alt="The Stokes Years17.JPG" title="The Stokes Years17.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/cd9edbd4bc0ee17595c609a903b9e916.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/cd9edbd4bc0ee17595c609a903b9e916.jpg" alt="The Stokes Years18.JPG" title="The Stokes Years18.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/41fbfc1aa809f8bcb58813e8dcb1bd04.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/41fbfc1aa809f8bcb58813e8dcb1bd04.jpg" alt="The Stokes Years19.JPG" title="The Stokes Years19.JPG"></a></div>]]></description>
+      <pubDate>Tue, 15 Dec 2015 13:30:58 -0500</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/9dc354a1913ffb50718588641738a0a0.jpg" type="image/jpeg" length="7813097"/>
+    </item>
+    <item>
+      <title><![CDATA[Progress of the American Negro]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/36</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Progress of the American Negro</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Short summary of black progress from slavery to freedom.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Short summary of black progress from slavery to freedom.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Cleveland Call and Post</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Mirror Publishing Company, Cleveland, OH</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">no date</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">ephemera</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">African American progress in the U.S.</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/cfd02f7f59047eeef44191076abf2c36.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/cfd02f7f59047eeef44191076abf2c36.jpg" alt="Progress of the Am Negro0.JPG" title="Progress of the Am Negro0.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/21f5a9eea42ceec7cca94c22e4dfaed4.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/21f5a9eea42ceec7cca94c22e4dfaed4.jpg" alt="Progress of the Am Negro1.JPG" title="Progress of the Am Negro1.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/d4a3903e6a6571a583253a3a7c397b22.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/d4a3903e6a6571a583253a3a7c397b22.jpg" alt="Progress of the Am Negro2.JPG" title="Progress of the Am Negro2.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/1d46503a3d81cb5fad26705ddd05325a.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/1d46503a3d81cb5fad26705ddd05325a.jpg" alt="Progress of the Am Negro3.JPG" title="Progress of the Am Negro3.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/6e31fb3d58090774ba4d2dbdc655b533.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/6e31fb3d58090774ba4d2dbdc655b533.jpg" alt="Progress of the Am Negro4.JPG" title="Progress of the Am Negro4.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/91db501d6b4ad2cbf8aff28ed9e09827.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/91db501d6b4ad2cbf8aff28ed9e09827.jpg" alt="Progress of the Am Negro5.JPG" title="Progress of the Am Negro5.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/ee2c35d33f9cf58b72548ebe672eee0d.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/ee2c35d33f9cf58b72548ebe672eee0d.jpg" alt="Progress of the Am Negro6.JPG" title="Progress of the Am Negro6.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/d63190e0fc90890a06fb17dfdc19c61c.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/d63190e0fc90890a06fb17dfdc19c61c.jpg" alt="Progress of the Am Negro7.JPG" title="Progress of the Am Negro7.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/4d11f6c3f13cc0826f81a27811fa729d.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/4d11f6c3f13cc0826f81a27811fa729d.jpg" alt="Progress of the Am Negro8.JPG" title="Progress of the Am Negro8.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/d6e7176e6910477430ca89a07bb0c832.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/d6e7176e6910477430ca89a07bb0c832.jpg" alt="Progress of the Am Negro9.JPG" title="Progress of the Am Negro9.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/d05c09849187076c8fb00ffaaf014b94.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/d05c09849187076c8fb00ffaaf014b94.jpg" alt="Progress of the Am Negro10.JPG" title="Progress of the Am Negro10.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/d6f8af0de5baca7c850b5924fc917c64.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/d6f8af0de5baca7c850b5924fc917c64.jpg" alt="Progress of the Am Negro11.JPG" title="Progress of the Am Negro11.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/3b1288eb13f4ebf7a39d8daad4a993f8.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/3b1288eb13f4ebf7a39d8daad4a993f8.jpg" alt="Progress of the Am Negro12.JPG" title="Progress of the Am Negro12.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/191c913a63a06bb6abf000d1ed66dfef.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/191c913a63a06bb6abf000d1ed66dfef.jpg" alt="Progress of the Am Negro13.JPG" title="Progress of the Am Negro13.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/43b9fc69dad4ae8aa53ff3308f63c345.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/43b9fc69dad4ae8aa53ff3308f63c345.jpg" alt="Progress of the Am Negro14.JPG" title="Progress of the Am Negro14.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/2af5b1a12894569d12f40ed12c89a515.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/2af5b1a12894569d12f40ed12c89a515.jpg" alt="Progress of the Am Negro15.JPG" title="Progress of the Am Negro15.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/03fc1d4387c5d8847e9ad52b527dbfe1.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/03fc1d4387c5d8847e9ad52b527dbfe1.jpg" alt="Progress of the Am Negro16.JPG" title="Progress of the Am Negro16.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/9f60bdecd1ad93acc69c3160f849e7e0.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/9f60bdecd1ad93acc69c3160f849e7e0.jpg" alt="Progress of the Am Negro17.JPG" title="Progress of the Am Negro17.JPG"></a></div>]]></description>
+      <pubDate>Tue, 15 Dec 2015 13:37:22 -0500</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/cfd02f7f59047eeef44191076abf2c36.jpg" type="image/jpeg" length="8208255"/>
+    </item>
+    <item>
+      <title><![CDATA[Civic Centers for Freedom: Cleveland Freedom School Proposal]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/8</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Civic Centers for Freedom: Cleveland Freedom School Proposal</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Freedom Schools, Cleveland CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Funding proposal by Cleveland CORE to run freedom schools.  It was a prototype project which would serve akin to after school or alternate school program.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Cleveland CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text">CORE Chapters</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg </div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Freedom School Proposal</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/3ea2d7e3aafccab52d8b89017f159cb0.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/3ea2d7e3aafccab52d8b89017f159cb0.jpg" alt="Civic Center for Freedom 1.JPG" title="Civic Center for Freedom 1.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/f2575919911daae90d0f7553c871e929.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/f2575919911daae90d0f7553c871e929.jpg" alt="Civic Center for Freedom 2.JPG" title="Civic Center for Freedom 2.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/4d0b8dfcd7dbf84cfd01cb35b5b2c1e1.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/4d0b8dfcd7dbf84cfd01cb35b5b2c1e1.jpg" alt="Civic Center for Freedom 3.JPG" title="Civic Center for Freedom 3.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/57ac61269a40add9ae3134ddd219e794.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/57ac61269a40add9ae3134ddd219e794.jpg" alt="Civic Center for Freedom 4.JPG" title="Civic Center for Freedom 4.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/e91b6c858027be44742fd36c5943f059.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/e91b6c858027be44742fd36c5943f059.jpg" alt="Civic Center for Freedom 5.JPG" title="Civic Center for Freedom 5.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/10df38f39ff4d47daa49496b388d04e3.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/10df38f39ff4d47daa49496b388d04e3.jpg" alt="Civic Center for Freedom 6.JPG" title="Civic Center for Freedom 6.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/d616ea65642a0e356f162d7053c1f8d5.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/d616ea65642a0e356f162d7053c1f8d5.jpg" alt="Civic Center for Freedom 7.JPG" title="Civic Center for Freedom 7.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/ae6e531174db4ed5033e29bc07741d53.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/ae6e531174db4ed5033e29bc07741d53.jpg" alt="Civic Center for Freedom 8 Appendix.JPG" title="Civic Center for Freedom 8 Appendix.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/429c17fc661a081ab7864341f1a1a2fc.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/429c17fc661a081ab7864341f1a1a2fc.jpg" alt="Civic Center for Freedom 9 Appendix.JPG" title="Civic Center for Freedom 9 Appendix.JPG"></a></div>]]></description>
+      <pubDate>Tue, 24 Nov 2015 15:57:03 -0500</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/3ea2d7e3aafccab52d8b89017f159cb0.jpg" type="image/jpeg" length="7368473"/>
+    </item>
+  </channel>
+</rss>

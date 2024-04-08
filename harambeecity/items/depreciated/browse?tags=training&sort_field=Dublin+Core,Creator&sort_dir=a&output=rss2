@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[HARAMBEE CITY]]></title>
+    <link>https://harambeecity.lib.miamioh.edu/items/browse?tags=training&amp;sort_field=Dublin+Core%2CCreator&amp;sort_dir=a&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Fri, 09 Feb 2024 23:39:40 -0500</pubDate>
+    <managingEditor>tzoce@miamioh.edu (HARAMBEE CITY)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[CORE internal memorandums]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/19</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">CORE internal memorandums</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">CORE&#039;s internal workings</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Multiple topics related to CORE&#039;s internal workings.  This includes training, restart of southern chapters, and task force workers for the south.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">1968-1969</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">Herb Callender, Richard Faley, James McCain, Ike Reynolds, Field Staff, Roy Innis, Floyd McKissick, Tony Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">CORE internal workings</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/026666c3715622fd9277531e09a16cc2.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/026666c3715622fd9277531e09a16cc2.jpg" alt="Callender to field staff re identification 1966.JPG" title="Callender to field staff re identification 1966.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/dd75eceec4368011ab11a1174f2402f9.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/dd75eceec4368011ab11a1174f2402f9.jpg" alt="Callender to Training coord.JPG" title="Callender to Training coord.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/fb4aec1ebae655378427b062fb9c484f.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/fb4aec1ebae655378427b062fb9c484f.jpg" alt="Scott to mckissick perot innis on chap dev.JPG" title="Scott to mckissick perot innis on chap dev.JPG"></a></div>]]></description>
+      <pubDate>Tue, 08 Dec 2015 16:11:59 -0500</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/026666c3715622fd9277531e09a16cc2.jpg" type="image/jpeg" length="5999145"/>
+    </item>
+  </channel>
+</rss>

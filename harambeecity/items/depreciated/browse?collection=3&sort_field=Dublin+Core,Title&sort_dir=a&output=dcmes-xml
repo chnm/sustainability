@@ -1,0 +1,38 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/62">
+<dc:title>Franklin Anderson Interview 2</dc:title>
+<dc:subject>Franklin Anderson reviews his history and that of Cleveland CORE.</dc:subject>
+<dc:description>Franklin Anderson discusses Cleveland CORE, Target City Project, black Power, and Cleveland community.</dc:description>
+<dc:creator>Franklin Anderson</dc:creator>
+<dc:publisher>Nishani Frazier</dc:publisher>
+<dc:date>January 3, 201?</dc:date>
+<dc:rights>Franklin Anderson, Nishani Frazier</dc:rights>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/57">
+<dc:title>John McClaughry and Gar Aperovitz Interview</dc:title>
+<dc:subject>CORE, black power, Community Self Determination Bill</dc:subject>
+<dc:description>Oral history interview on the Community Self Determination Bill, CORE, John McClaughry, and Gar Aperovitz.</dc:description>
+<dc:creator>John McClaughry, Gar Aperovitz, and Nishani Frazier</dc:creator>
+<dc:publisher>Nishani Frazier</dc:publisher>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/82">
+<dc:title>Oral History Interview with Ruth Turner and Tony Perot</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/2">
+<dc:title>Stuart Wechsler interview</dc:title>
+<dc:subject>CORE, voter registration in Florida, Baltimore Target City Project</dc:subject>
+<dc:description>Oral history interview conducted for research on Harambee City.</dc:description>
+<dc:creator>Nishani Frazier and Stuart Wechsler</dc:creator>
+<dc:source>digital recording</dc:source>
+<dc:publisher>Nishani Frazier</dc:publisher>
+<dc:date>July 3, 2013 at Savannah Public Library</dc:date>
+<dc:rights>co-copyright ownership</dc:rights>
+<dc:format>digital audio</dc:format>
+<dc:language>English</dc:language>
+<dc:type>English</dc:type>
+<dc:coverage>Covers the post World War II period.  Particular attention is given to CORE in the 1960s and its black power period.  This period mainly incorporates the years 1963-1969.</dc:coverage>
+</rdf:Description></rdf:RDF>

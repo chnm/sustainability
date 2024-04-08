@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://harambeecity.lib.miamioh.edu/items/browse?tags=Sunflower+Theory&amp;sort_field=Dublin+Core%2CCreator&amp;output=atom</id>
+  <title><![CDATA[HARAMBEE CITY]]></title>
+  <author>
+    <name><![CDATA[Unknown]]></name>
+  </author>
+  <updated>2024-02-09T19:36:47-05:00</updated>
+  <generator>Omeka</generator>
+  <link rel="self" href="https://harambeecity.rrchnm.org/items/browse?tags=Sunflower+Theory&amp;sort_field=Dublin+Core%2CCreator&amp;output=atom"/>
+  <link rel="first" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=Sunflower+Theory&amp;sort_field=Dublin+Core%2CCreator&amp;output=atom"/>
+  <link rel="last" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=Sunflower+Theory&amp;sort_field=Dublin+Core%2CCreator&amp;output=atom"/>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/17</id>
+    <title><![CDATA[Sub-Committee Meeting of the Constitutional Convention Minutes]]></title>
+    <summary><![CDATA[Minutes from Sub-Committee of CORE constitutional convention.  Includes discussion on chapter resources, glossary of terms, Sunflower theory for black economic development, CORE debt, concern over &quot;white funding&quot;, and restructuring CORE.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/17"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/08e8a3f03d3136018364d2c44230df94.JPG" type="image/jpeg" length="6518826"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/37a941ba9e0c1e4aee857e0144c2122d.JPG" type="image/jpeg" length="6608677"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/5673626bdb90d0ec40a82639e1a0f524.JPG" type="image/jpeg" length="5626568"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/af8f31cd5cdb37e26a3126c7530dc385.JPG" type="image/jpeg" length="5501314"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/3745e1548d5af6a0d305986f3d3969ed.JPG" type="image/jpeg" length="4968537"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0228e4d568b8eb624a649feacb3c21c7.JPG" type="image/jpeg" length="6083152"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/aba465096f8630c70e0ab98d6740b3ce.JPG" type="image/jpeg" length="5114515"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6d6ffa85ae925e95fb7b39d2daab337a.JPG" type="image/jpeg" length="5346458"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/778c6d977d7052a7864e552f3294c6db.JPG" type="image/jpeg" length="5285927"/>
+    <category term="black economic power"/>
+    <category term="black power"/>
+    <category term="community development corporation"/>
+    <category term="CORE Chapters"/>
+    <category term="CORE restructure"/>
+    <category term="CORENCO"/>
+    <category term="economic development"/>
+    <category term="foundations"/>
+    <category term="Sunflower Theory"/>
+    <category term="white money"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Sub-Committee Meeting of the Constitutional Convention Minutes</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">CORE sub-committee convention minutes</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Minutes from Sub-Committee of CORE constitutional convention.  Includes discussion on chapter resources, glossary of terms, Sunflower theory for black economic development, CORE debt, concern over &quot;white funding&quot;, and restructuring CORE.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">March 23 and 24, 1968</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">Will Ussery, Marlene Wilson, Elijah Turner, Arthur Evans, Roy Innis, Tony Perot, Victor Solomon, Jackie Robinson, Joseph V. Dixon, Ray C. Moody, Francis Pullen, Milton Holmes, William Medley, Robert Lucus, Ovida Helm, John Randolph, Eilus Wicks, Mary Hawkins, Daniel Underwood, Eugene Hill, Murten Shanklin, Ezra Rowry, Donald Bean, Edmond Boston, Kermitt Scott, Thelma Scott</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">documents</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">CORE sub-committee convention minutes</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+</feed>

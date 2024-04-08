@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[HARAMBEE CITY]]></title>
+    <link>https://harambeecity.lib.miamioh.edu/items/browse?tags=fundraiser&amp;sort_field=Dublin+Core%2CTitle&amp;sort_dir=a&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Fri, 09 Feb 2024 21:06:34 -0500</pubDate>
+    <managingEditor>tzoce@miamioh.edu (HARAMBEE CITY)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Where is Democracy]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/20</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Where is Democracy</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">CORE pamphlet</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Pamphlet created by CORE to emphasize its nonviolent strategy.  Pamphlet focus is on voter registration in the south.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">circa 1963-1965</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">unknown</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">ephemera</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/19a99270d1a910d9877bddaa32ff3b41.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/19a99270d1a910d9877bddaa32ff3b41.jpg" alt="Where is Democacy 0 cover.JPG" title="Where is Democacy 0 cover.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/2474876c0f644b49b4c240673de04ed5.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/2474876c0f644b49b4c240673de04ed5.jpg" alt="Where is Democracy 1.JPG" title="Where is Democracy 1.JPG"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://harambeecity.rrchnm.org/files/original/d9965ac7bbd321d30982db6551cf4123.JPG"><img class="thumb" src="https://harambeecity.rrchnm.org/files/square_thumbnails/d9965ac7bbd321d30982db6551cf4123.jpg" alt="Where is Democracy 3 back cover.JPG" title="Where is Democracy 3 back cover.JPG"></a></div>]]></description>
+      <pubDate>Tue, 08 Dec 2015 16:17:36 -0500</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/19a99270d1a910d9877bddaa32ff3b41.jpg" type="image/jpeg" length="3329237"/>
+    </item>
+  </channel>
+</rss>

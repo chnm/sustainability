@@ -1,0 +1,122 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/103">
+<dc:title>Bruce Melville, Tape 2</dc:title>
+<dc:subject>Cleveland CORE</dc:subject>
+<dc:description>History of CORE, rent strikes and school desegregation protests, white participation in CORE and black leadership, black nationalism, tensions with NAACP and UFM</dc:description>
+<dc:creator>Nishani Frazier
+Bruce Melville</dc:creator>
+<dc:source>Nishani Frazier
+Bruce Melville</dc:source>
+<dc:date>May 2004</dc:date>
+<dc:contributor>Nishani Frazier
+Bruce Melville</dc:contributor>
+<dc:rights>Nishani Frazier
+Bruce Melville</dc:rights>
+<dc:language>English</dc:language>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/102">
+<dc:title>Bruce Melville, Side 1b </dc:title>
+<dc:subject>Cleveland CORE history</dc:subject>
+<dc:description>History of CORE, rent strikes and school desegregation protests, white participation in CORE and black leadership, black nationalism, tensions with NAACP and UFM</dc:description>
+<dc:source>Nishani Frazier
+Bruce Melville</dc:source>
+<dc:date>May 2004</dc:date>
+<dc:contributor>Nishani Frazier
+Bruce Melville</dc:contributor>
+<dc:rights>Nishani Frazier
+Bruce Melville</dc:rights>
+<dc:language>English</dc:language>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/101">
+<dc:title>Bruce Melville side 1a</dc:title>
+<dc:subject>Cleveland CORE</dc:subject>
+<dc:description>History of CORE, rent strikes and school desegregation protests, white participation in CORE and black leadership, black nationalism, tensions with NAACP and UFM</dc:description>
+<dc:creator>Nishani Frazier
+Bruce Melville</dc:creator>
+<dc:source>Nishani Frazier
+Bruce Melville</dc:source>
+<dc:date>May 2004</dc:date>
+<dc:contributor>Nishani Frazier
+Bruce Melville</dc:contributor>
+<dc:rights>Nishani Frazier
+Bruce Melville</dc:rights>
+<dc:language>English</dc:language>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/65">
+<dc:title>Bonnie Gordon, Jean Tussey</dc:title>
+<dc:subject>Gordon&#039;s family history and CORE - TWO TAPES</dc:subject>
+<dc:description>Gordon discusses black power, internal fight with SWP, white membership in CORE, Socialist background, Civil Rights Background, Freedom Fighters, Cleveland, CORE Community, Early Civil Rights in Cleveland.  Her mother is the well known socialist Jean Tussey.  You can find additional information on her at http://ead.ohiolink.edu/xtf-ead/view?docId=ead/OCLWHi0420.xml;query=;brand=default.  The other voice is Ms. Tussey.</dc:description>
+<dc:creator>Bonnie Holt Gordon, Jean Tussey, and Nishani Frazier</dc:creator>
+<dc:publisher>Nishani Frazier</dc:publisher>
+<dc:date>April 12, 2004</dc:date>
+<dc:rights>Bonnie Holt Gordon and Nishani Frazier</dc:rights>
+<dc:format>mp3</dc:format>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/23">
+<dc:title>Baltimore Target City Project</dc:title>
+<dc:subject>Target City Project</dc:subject>
+<dc:description>Various materials related to Baltimore CORE&#039;s activities and National CORE&#039;s Black Power Project</dc:description>
+<dc:creator>multiple creators, CORE, </dc:creator>
+<dc:publisher>CORE, other</dc:publisher>
+<dc:date>1966-1967</dc:date>
+<dc:contributor>multiple contributors</dc:contributor>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>document</dc:type>
+<dc:identifier>Baltimore Target City</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/25">
+<dc:title>Baltimore and Cleveland Target City Project</dc:title>
+<dc:subject>Target City Project</dc:subject>
+<dc:description>Various documents which discuss both Cleveland and the Baltimore Target City Project.  Memorandums and articles summarize youth programs, leadership training, job training, voter registration, and other TCP activities.</dc:description>
+<dc:creator>CORE</dc:creator>
+<dc:date>1966-1968</dc:date>
+<dc:contributor>multiple contributors, CORE, Philip Carter</dc:contributor>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>documents</dc:type>
+<dc:identifier>Target City Project</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/58">
+<dc:title>At the Crossroads: Where African American Studies and Digital Humanities Meet</dc:title>
+<dc:subject>CORE, Black Power, Economic Development, Harambee City Website, public history, black studies, digital humanities</dc:subject>
+<dc:description>This talk discusses my personal journey from public history to digital humanities.  It reviews the conceptual framework for this website and presents my perspective on how digital humanities can reflect the spirit of black studies&#039; theoretical sensibilities.</dc:description>
+<dc:creator>Nishani Frazier</dc:creator>
+<dc:source>Talk given at the University of Maryland</dc:source>
+<dc:publisher>Nishani Frazier</dc:publisher>
+<dc:date>February 2016</dc:date>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/100">
+<dc:title>Arthur Evans interview</dc:title>
+<dc:subject>Congress of Racial Equality and Black Nationalism</dc:subject>
+<dc:description>Covers early stage of black nationalism in CORE; Albert Cleage, RAM, CORE and school desegregation, women in the movement.</dc:description>
+<dc:creator>Nishani Frazier
+Arthur Evans</dc:creator>
+<dc:source>Nishani Frazier
+Arthur Evans</dc:source>
+<dc:rights>Nishani Frazier
+Arthur Evans</dc:rights>
+<dc:language>English</dc:language>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/5">
+<dc:title>Appointment Calendar 1965-January 1966</dc:title>
+<dc:subject>Perot&#039;s activities on behalf of CORE</dc:subject>
+<dc:description>Daily accounting of meetings and persons Perot met while performing his duties as Cleveland CORE member and Regional Field Representative for CORE.</dc:description>
+<dc:creator>Antoine Perot</dc:creator>
+<dc:date>1965-January 1966</dc:date>
+<dc:contributor>Antoine Perot</dc:contributor>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>ephemera</dc:type>
+<dc:identifier>appointment calendar</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/68">
+<dc:title>Antoine and Ruth Perot Interviews Tape One- 2 Parts</dc:title>
+</rdf:Description></rdf:RDF>

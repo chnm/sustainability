@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://harambeecity.lib.miamioh.edu/items/browse?collection=3&amp;sort_field=Dublin+Core%2CCreator&amp;sort_dir=a&amp;output=atom</id>
+  <title><![CDATA[HARAMBEE CITY]]></title>
+  <author>
+    <name><![CDATA[Unknown]]></name>
+  </author>
+  <updated>2024-02-10T04:57:34-05:00</updated>
+  <generator>Omeka</generator>
+  <link rel="self" href="https://harambeecity.rrchnm.org/items/browse?collection=3&amp;sort_field=Dublin+Core%2CCreator&amp;sort_dir=a&amp;output=atom"/>
+  <link rel="first" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?collection=3&amp;sort_field=Dublin+Core%2CCreator&amp;sort_dir=a&amp;output=atom"/>
+  <link rel="last" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?collection=3&amp;sort_field=Dublin+Core%2CCreator&amp;sort_dir=a&amp;output=atom"/>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/62</id>
+    <title><![CDATA[Franklin Anderson Interview 2]]></title>
+    <summary><![CDATA[Franklin Anderson discusses Cleveland CORE, Target City Project, black Power, and Cleveland community.]]></summary>
+    <updated>2022-09-21T12:50:43-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/62"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/89b5603353befd89a3c5df8c3991ddb5.mp3" type="audio/mpeg" length="27639720"/>
+    <category term="black power"/>
+    <category term="Cleveland"/>
+    <category term="Target City Project"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Franklin Anderson Interview 2</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Franklin Anderson reviews his history and that of Cleveland CORE.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Franklin Anderson discusses Cleveland CORE, Target City Project, black Power, and Cleveland community.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Franklin Anderson</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">January 3, 201?</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Franklin Anderson, Nishani Frazier</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/57</id>
+    <title><![CDATA[John McClaughry and Gar Aperovitz Interview]]></title>
+    <summary><![CDATA[Oral history interview on the Community Self Determination Bill, CORE, John McClaughry, and Gar Aperovitz.]]></summary>
+    <updated>2016-06-23T14:17:26-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/57"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0886c8103079b27e4440ef722e8a18af.mp3" type="audio/mpeg" length="107533791"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">John McClaughry and Gar Aperovitz Interview</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">CORE, black power, Community Self Determination Bill</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Oral history interview on the Community Self Determination Bill, CORE, John McClaughry, and Gar Aperovitz.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">John McClaughry, Gar Aperovitz, and Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Nishani Frazier</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/2</id>
+    <title><![CDATA[Stuart Wechsler interview]]></title>
+    <summary><![CDATA[Oral history interview conducted for research on Harambee City.]]></summary>
+    <updated>2016-05-17T13:21:43-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/2"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/8b8b57bba4296545f72d615c92900602.MP3" type="audio/mpeg" length="128240766"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Stuart Wechsler interview</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">CORE, voter registration in Florida, Baltimore Target City Project</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Oral history interview conducted for research on Harambee City.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Nishani Frazier and Stuart Wechsler</div>
+            </div><!-- end element -->
+        <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text">digital recording</div>
+            </div><!-- end element -->
+        <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text">Nishani Frazier</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">July 3, 2013 at Savannah Public Library</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">co-copyright ownership</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">digital audio</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text">Covers the post World War II period.  Particular attention is given to CORE in the 1960s and its black power period.  This period mainly incorporates the years 1963-1969.</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/82</id>
+    <title><![CDATA[Oral History Interview with Ruth Turner and Tony Perot]]></title>
+    <updated>2023-01-09T15:40:55-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/82"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/2e996f1ae242ae1df4c472ca1c19ebe5.mp3" type="audio/mpeg" length="129075096"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/7b10e53358d382486bace671d6c2cdcf.mp3" type="audio/mpeg" length="100674255"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Oral History Interview with Ruth Turner and Tony Perot</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+</feed>

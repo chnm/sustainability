@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[HARAMBEE CITY]]></title>
+    <link>https://harambeecity.lib.miamioh.edu/items/browse?sort_field=Dublin+Core%2CCreator&amp;page=10&amp;sort_dir=a&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Sat, 10 Feb 2024 06:40:28 -0500</pubDate>
+    <managingEditor>tzoce@miamioh.edu (HARAMBEE CITY)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Bruce Melville, Side 1b ]]></title>
+      <link>https://harambeecity.lib.miamioh.edu/items/show/102</link>
+      <description><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Bruce Melville, Side 1b </div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Cleveland CORE history</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">History of CORE, rent strikes and school desegregation protests, white participation in CORE and black leadership, black nationalism, tensions with NAACP and UFM</div>
+            </div><!-- end element -->
+        <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">May 2004</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+<div class="item-file audio-mp4"><audio src="https://harambeecity.rrchnm.org/files/original/a8bdc73cef616610f4e2c4bdac187245.m4a" class="omeka-media" width="200" height="20" controls><a href="https://harambeecity.rrchnm.org/files/original/a8bdc73cef616610f4e2c4bdac187245.m4a">Bruce Melville tape 1b side.m4a</a></audio></div>]]></description>
+      <pubDate>Thu, 29 Jun 2023 17:32:11 -0400</pubDate>
+      <enclosure url="https://harambeecity.lib.miamioh.edu/files/fullsize/a8bdc73cef616610f4e2c4bdac187245.jpg" type="audio/mp4" length="45237306"/>
+    </item>
+  </channel>
+</rss>

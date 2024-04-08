@@ -1,0 +1,109 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/34">
+<dc:title>Our Invisible Poor Pamphlet</dc:title>
+<dc:subject>Poverty in America</dc:subject>
+<dc:description>A short information pamphlet on poverty in the United STates</dc:description>
+<dc:creator>Dwight MacDonald</dc:creator>
+<dc:publisher>Sidney Hillman Foundaton</dc:publisher>
+<dc:date>no date</dc:date>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>ephemera</dc:type>
+<dc:identifier>Economic Inequality</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/62">
+<dc:title>Franklin Anderson Interview 2</dc:title>
+<dc:subject>Franklin Anderson reviews his history and that of Cleveland CORE.</dc:subject>
+<dc:description>Franklin Anderson discusses Cleveland CORE, Target City Project, black Power, and Cleveland community.</dc:description>
+<dc:creator>Franklin Anderson</dc:creator>
+<dc:publisher>Nishani Frazier</dc:publisher>
+<dc:date>January 3, 201?</dc:date>
+<dc:rights>Franklin Anderson, Nishani Frazier</dc:rights>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/88">
+<dc:title>Franklin Anderson interview 3</dc:title>
+<dc:subject>CORE, HADC, and Black Nationalism</dc:subject>
+<dc:description>Early interest in CORE, Cleveland CORE - Chairman, Hough Area Development Corporation (HADC), political activities and Republican political background, black nationalism, Cleveland black power period. black economic development</dc:description>
+<dc:creator>Frazier and Anderson</dc:creator>
+<dc:date>January 3, 201?</dc:date>
+<dc:rights>co-copyright Frazier and Anderson</dc:rights>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/63">
+<dc:title>George Houser Interview</dc:title>
+<dc:subject>Houser talks about his early youth and early CORE</dc:subject>
+<dc:description>Houser covers his activism inside and outside of CORE.  He reviews his early influences, early CORE sit-ins, 1940s Cleveland, Vanguard League, Black Power and white CORE members, and protests of South African apartheid..</dc:description>
+<dc:creator>George Houser</dc:creator>
+<dc:publisher>Nishani Frazier</dc:publisher>
+<dc:rights>George Houser, Nishani Frazier</dc:rights>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/57">
+<dc:title>John McClaughry and Gar Aperovitz Interview</dc:title>
+<dc:subject>CORE, black power, Community Self Determination Bill</dc:subject>
+<dc:description>Oral history interview on the Community Self Determination Bill, CORE, John McClaughry, and Gar Aperovitz.</dc:description>
+<dc:creator>John McClaughry, Gar Aperovitz, and Nishani Frazier</dc:creator>
+<dc:publisher>Nishani Frazier</dc:publisher>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/13">
+<dc:title>Malcolm X: The Complexity of a Man in the Jungle</dc:title>
+<dc:subject>Malcolm X</dc:subject>
+<dc:description>Joyce Ware, Northeast Regional Field Representative for CORE writes a memorandum on Malcolm X&#039;s impact on CORE and the civil rights movement even after his death.</dc:description>
+<dc:creator>Joyce Ware</dc:creator>
+<dc:publisher>CORE</dc:publisher>
+<dc:date>March 2, 1965</dc:date>
+<dc:rights>Papers on Antoine Perot, Joyce Ware</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>document</dc:type>
+<dc:identifier>Malcolm X</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/104">
+<dc:title>Early CORE 1940s members</dc:title>
+<dc:subject>Cleveland CORE</dc:subject>
+<dc:description>images of CORE leaders and names of early members, including Lynn Coleman who played a role in the Euclid Park Riots</dc:description>
+<dc:creator>Juanita Nelson</dc:creator>
+<dc:source>Juanita Nelson</dc:source>
+<dc:date>1940s</dc:date>
+<dc:contributor>Juanita Nelson</dc:contributor>
+<dc:rights>Juanita Nelson</dc:rights>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/64">
+<dc:title>Juanita Nelson II</dc:title>
+<dc:subject>Biography of Juanita Nelson</dc:subject>
+<dc:description>History of CORE and Nelson&#039;s leadership of the Cleveland chapter, 1940s, Howard University and Pauli Murray, Life in Cleveland, Cincinnati CORE</dc:description>
+<dc:creator>Juanita Nelson and Nishani Frazier</dc:creator>
+<dc:publisher>Nishani Frazier</dc:publisher>
+<dc:date>January 19, 2004 - Cleveland, Ohio</dc:date>
+<dc:rights>Juanita Nelson and Nishani Frazier</dc:rights>
+<dc:format>mp3 or wav</dc:format>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/1">
+<dc:title>Donald Bean and Will Ussery</dc:title>
+<dc:subject>CORE and Black Power</dc:subject>
+<dc:description>Image of Donald Bean (Cleveland Target City Project staff) and Will Ussery (CORENCO creator) </dc:description>
+<dc:creator>Karl J. Rausckolb</dc:creator>
+<dc:publisher>Cleveland Plain Dealer</dc:publisher>
+<dc:date>September 1967</dc:date>
+<dc:rights>Cleveland Public Library
+</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>image</dc:type>
+<dc:identifier>Ussery and Bean</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/42">
+<dc:title>Louis and Carl Stokes Office Opening Announcement</dc:title>
+<dc:subject>Louis and Carl Stokes Office Opening Announcement </dc:subject>
+<dc:description>Louis and Carl Stokes Office Opening Announcement </dc:description>
+<dc:creator>Louis and Carl Stokes</dc:creator>
+<dc:date>February 1, 1966</dc:date>
+<dc:rights>Louis and Carl Stokes Office Opening Announcement 1966</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>ephemera</dc:type>
+<dc:identifier>Carl and Louis Stokes</dc:identifier>
+</rdf:Description></rdf:RDF>

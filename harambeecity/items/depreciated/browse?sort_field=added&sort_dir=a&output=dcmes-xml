@@ -1,0 +1,153 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/1">
+<dc:title>Donald Bean and Will Ussery</dc:title>
+<dc:subject>CORE and Black Power</dc:subject>
+<dc:description>Image of Donald Bean (Cleveland Target City Project staff) and Will Ussery (CORENCO creator) </dc:description>
+<dc:creator>Karl J. Rausckolb</dc:creator>
+<dc:publisher>Cleveland Plain Dealer</dc:publisher>
+<dc:date>September 1967</dc:date>
+<dc:rights>Cleveland Public Library
+</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>image</dc:type>
+<dc:identifier>Ussery and Bean</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/2">
+<dc:title>Stuart Wechsler interview</dc:title>
+<dc:subject>CORE, voter registration in Florida, Baltimore Target City Project</dc:subject>
+<dc:description>Oral history interview conducted for research on Harambee City.</dc:description>
+<dc:creator>Nishani Frazier and Stuart Wechsler</dc:creator>
+<dc:source>digital recording</dc:source>
+<dc:publisher>Nishani Frazier</dc:publisher>
+<dc:date>July 3, 2013 at Savannah Public Library</dc:date>
+<dc:rights>co-copyright ownership</dc:rights>
+<dc:format>digital audio</dc:format>
+<dc:language>English</dc:language>
+<dc:type>English</dc:type>
+<dc:coverage>Covers the post World War II period.  Particular attention is given to CORE in the 1960s and its black power period.  This period mainly incorporates the years 1963-1969.</dc:coverage>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/3">
+<dc:title>CORE Jazz Album</dc:title>
+<dc:subject>compilation jazz album CORE used as a fundraiser for the organization.</dc:subject>
+<dc:description>RECORD ONE, SIDE ONE:    
+Dinah Washington, &quot;The Blues Ain&#039;t Nothing But a Woman Cryin For Her Man&quot;; Cannonball Adderly with Machito and his Orchestra, &quot;Cannonology&quot;; Harry Belafante with Machito and his Orchestra, &quot;Lean on Me&quot;; Herbie Mann with Machito and his Orchestra, &quot;Carabunta&quot;; Steve Allen&#039;s Roundtable All-Stars, &quot;I Thought About You&quot;; Chris Connor and Maynard Ferguson, &quot;I Feel a Song Coming On&quot;.
+
+RECORD ONE, SIDE TWO:
+Louis Armstrong and Duke Ellington, &quot;Cotton Tail&quot;; John Coltrane Quartet, &quot;Exotica&quot;; Dizzy Gillespie, &quot;Paris Swing&quot;; Erroll Garner, &quot;Love for Sale&quot;; Woody Herman Sextet with Nat Adderley, &quot;Lullaby of Birdland&quot;; Charlie Parker &amp; Miles Davis, &quot;Klactoveededstene&quot;
+
+RECORD TWO, SIDE ONE:
+Stan Getz &amp; Horace Silver, &quot;Strike Up the Band&quot;; Art Tatum, &quot;Dark Eyes&quot;; Dizzy Gillespie &amp; Charlie Parker, &quot; Groovin&#039; High&quot;; J. J. Johnson &amp; Kai Winding, &quot;The Shrike&quot;; Bud Powell, &quot;Off Minor&quot;; Joe Newman &amp; Zoot Sims, &quot;Tater Pie&quot;
+
+RECORD TWO, SIDE TWO:
+Joe Williams With Count Basie &amp; His Orchestra, &quot;Everyday&quot;; Sarah Vaughan with Count Basie &amp; His Orchestra, &quot;Until I Met You&quot;; Count Basie &amp; His Orchestra, &quot;Tickle Toe&quot;; Joe Williams with Lambert, Hendricks &amp; Ross with Count Basie &amp; His Orchestra, &quot;Going to Chicago Blues&quot;; Billy Eckstine with Count Basie &amp; his Orchestra, &quot;Jelly, Jelly&quot;; Tony Bennett with count Basie &amp; his Orchestra, &quot;I Guess I&#039;ll Have to Change My Plans&quot;
+</dc:description>
+<dc:creator>A1, S1:  J. Mayo Williams, A. K. Salim, Green-Waldman, Herbie Mann, Van Heusen-Mercer, Oppenheim-McHugh-Fields
+
+A1, S2: Duke Ellington; John Coltrane; Dizzy Gillespie; Cole Porter; Shearing-Foster, Charlie Parker
+
+A2, S1:
+G. &amp; I. Gershwin; Art Tatum (arranged); Dizzy Gillespie; Jose Ferrer; Thelonious Monk; Adriano Acea
+
+A2, S2: 
+William York; Green-Wolf; Lester Young, Basie-Rushing; Eckstine-Hines; Dietz-Schwartz</dc:creator>
+<dc:source>Leeds Music Corp.; United Music Co.; Patricia Music Publication Corp.; Burke &amp; Van Heusen; Robins Music Corp; Jowcol Music; Forshay Music Inc.; Harms, Inc.; Duchess Music Co.; New World Music Corp.; Jose Ferrer Music Inc.; Rockaway Music Corp.; Golden State Songs &amp; Arc Music, Co.; Bregman, Vocco &amp; Conn, Inc.; Advanced Music Corp.:</dc:source>
+<dc:publisher>Roulette Records and its Subsidiary, The Roost</dc:publisher>
+<dc:contributor>multiple contributors</dc:contributor>
+<dc:rights>Physical Object in possession of Nishani Frazier; music copyright multiple owners</dc:rights>
+<dc:format>digital audio</dc:format>
+<dc:language>English</dc:language>
+<dc:type>album</dc:type>
+<dc:identifier>CORE Jazz Album</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/5">
+<dc:title>Appointment Calendar 1965-January 1966</dc:title>
+<dc:subject>Perot&#039;s activities on behalf of CORE</dc:subject>
+<dc:description>Daily accounting of meetings and persons Perot met while performing his duties as Cleveland CORE member and Regional Field Representative for CORE.</dc:description>
+<dc:creator>Antoine Perot</dc:creator>
+<dc:date>1965-January 1966</dc:date>
+<dc:contributor>Antoine Perot</dc:contributor>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>ephemera</dc:type>
+<dc:identifier>appointment calendar</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/7">
+<dc:title>CORE Chapters</dc:title>
+<dc:subject>Correspondence from CORE Chapters</dc:subject>
+<dc:description>Information on CORE chapters: including Cincinnati, Cleveland, Chicago, East St. Louis and Indianapolis</dc:description>
+<dc:creator>Multiple creators</dc:creator>
+<dc:contributor>multiple contributors</dc:contributor>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>document</dc:type>
+<dc:identifier>CORE chapter</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/8">
+<dc:title>Civic Centers for Freedom: Cleveland Freedom School Proposal</dc:title>
+<dc:subject>Freedom Schools, Cleveland CORE</dc:subject>
+<dc:description>Funding proposal by Cleveland CORE to run freedom schools.  It was a prototype project which would serve akin to after school or alternate school program.</dc:description>
+<dc:creator>Cleveland CORE</dc:creator>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:relation>CORE Chapters</dc:relation>
+<dc:format>jpg </dc:format>
+<dc:language>English</dc:language>
+<dc:type>document</dc:type>
+<dc:identifier>Freedom School Proposal</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/9">
+<dc:title>Invisible Walls</dc:title>
+<dc:subject>Speech on barriers to black equality in Cleveland, Ohio.</dc:subject>
+<dc:description>Analysis of economic, political, and social issues hindering black equality in Cleveland Ohio.  Speech is given by Ruth Turner at the City Club</dc:description>
+<dc:creator>Ruth Turner</dc:creator>
+<dc:date>November 12, 1965</dc:date>
+<dc:rights>Rights owned by Ruth Turner; Personal Papers of Antoine Perot</dc:rights>
+<dc:relation>Cleveland CORE</dc:relation>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>document</dc:type>
+<dc:identifier>Invisible Walls Speech</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/10">
+<dc:title>Constructive Militancy</dc:title>
+<dc:subject>CORE and Black Power</dc:subject>
+<dc:description>Pamphlet published by CORE that outlines its platform on Black Power.</dc:description>
+<dc:creator>CORE; Ruth Turner; Lincoln Lynch</dc:creator>
+<dc:publisher>CORE</dc:publisher>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>document</dc:type>
+<dc:identifier>Constructive Militancy</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/11">
+<dc:title>Genocide USA: A Blueprint for Black Survival</dc:title>
+<dc:subject>Black inequality in the United States</dc:subject>
+<dc:description>Documents the reasons why there should be black power.  Particular attention is given to the various levels of oppression that Black Americans face in the country.</dc:description>
+<dc:creator>CORE</dc:creator>
+<dc:publisher>CORE</dc:publisher>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>document</dc:type>
+<dc:identifier>Genocide USA</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/12">
+<dc:title>CORE Conventions 1966-1968</dc:title>
+<dc:subject>CORE Convention correspondence.</dc:subject>
+<dc:description>Letters, memos, registration forms, convention passes, and other materials related to CORE conventions from 1966 to 1968</dc:description>
+<dc:creator>multiple creators</dc:creator>
+<dc:date>1966-1968</dc:date>
+<dc:contributor>multiple authors</dc:contributor>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>document</dc:type>
+<dc:identifier>CORE convention </dc:identifier>
+</rdf:Description></rdf:RDF>

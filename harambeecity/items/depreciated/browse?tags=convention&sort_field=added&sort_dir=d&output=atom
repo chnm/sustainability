@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://harambeecity.lib.miamioh.edu/items/browse?tags=convention&amp;sort_field=added&amp;sort_dir=d&amp;output=atom</id>
+  <title><![CDATA[HARAMBEE CITY]]></title>
+  <author>
+    <name><![CDATA[Unknown]]></name>
+  </author>
+  <updated>2024-02-09T20:42:41-05:00</updated>
+  <generator>Omeka</generator>
+  <link rel="self" href="https://harambeecity.rrchnm.org/items/browse?tags=convention&amp;sort_field=added&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="first" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=convention&amp;sort_field=added&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="last" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=convention&amp;sort_field=added&amp;sort_dir=d&amp;output=atom"/>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/12</id>
+    <title><![CDATA[CORE Conventions 1966-1968]]></title>
+    <summary><![CDATA[Letters, memos, registration forms, convention passes, and other materials related to CORE conventions from 1966 to 1968]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/12"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/83f4c88c84467aa962d2627e9f492c30.JPG" type="image/jpeg" length="6252248"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/5a96a6436c23bdc8acbeed382cace482.JPG" type="image/jpeg" length="6167300"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c38c71c948cea3421bba804fe8a3c09f.JPG" type="image/jpeg" length="5963167"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/709c266b2973d57972886206b21fc561.JPG" type="image/jpeg" length="6225305"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/2e59f769084fd74adc011ade339e78ad.JPG" type="image/jpeg" length="6682826"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/75be46e4308c5639bbcc3ddb4fbb8b0f.JPG" type="image/jpeg" length="517433"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/07be2443497822d07d289563ecd9cb6f.JPG" type="image/jpeg" length="5137726"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6bc8a517f61ca1e4a256cb23e59277fb.JPG" type="image/jpeg" length="6613631"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/505d46494a2dc6eecb1062280dee5b38.JPG" type="image/jpeg" length="6262542"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/a8e025fe4a8b578cbec43ee24f6a6157.JPG" type="image/jpeg" length="5936303"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/821a0d72a3527ec6a3ad5624feabe845.JPG" type="image/jpeg" length="5816717"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/4339195e947fe1668ddac0ab72e71d5d.JPG" type="image/jpeg" length="6154105"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/452835c9f9f92f9dd452cd08eef4ad3e.JPG" type="image/jpeg" length="6219648"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/aab038ff07a67a6793fd73e667df812e.JPG" type="image/jpeg" length="5933216"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/31b8d057acdf2a18713e9ad7506a2358.JPG" type="image/jpeg" length="5981107"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/ad5ca2c364fdb7a6eaac3941d2af4b66.JPG" type="image/jpeg" length="5801276"/>
+    <category term="black power"/>
+    <category term="convention"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">CORE Conventions 1966-1968</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">CORE Convention correspondence.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Letters, memos, registration forms, convention passes, and other materials related to CORE conventions from 1966 to 1968</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">multiple creators</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">1966-1968</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">multiple authors</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">CORE convention </div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+</feed>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://harambeecity.lib.miamioh.edu/items/browse?tags=foundations&amp;sort_field=added&amp;sort_dir=a&amp;output=atom</id>
+  <title><![CDATA[HARAMBEE CITY]]></title>
+  <author>
+    <name><![CDATA[Unknown]]></name>
+  </author>
+  <updated>2024-02-09T19:06:02-05:00</updated>
+  <generator>Omeka</generator>
+  <link rel="self" href="https://harambeecity.rrchnm.org/items/browse?tags=foundations&amp;sort_field=added&amp;sort_dir=a&amp;output=atom"/>
+  <link rel="first" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=foundations&amp;sort_field=added&amp;sort_dir=a&amp;output=atom"/>
+  <link rel="last" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?tags=foundations&amp;sort_field=added&amp;sort_dir=a&amp;output=atom"/>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/17</id>
+    <title><![CDATA[Sub-Committee Meeting of the Constitutional Convention Minutes]]></title>
+    <summary><![CDATA[Minutes from Sub-Committee of CORE constitutional convention.  Includes discussion on chapter resources, glossary of terms, Sunflower theory for black economic development, CORE debt, concern over &quot;white funding&quot;, and restructuring CORE.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/17"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/08e8a3f03d3136018364d2c44230df94.JPG" type="image/jpeg" length="6518826"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/37a941ba9e0c1e4aee857e0144c2122d.JPG" type="image/jpeg" length="6608677"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/5673626bdb90d0ec40a82639e1a0f524.JPG" type="image/jpeg" length="5626568"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/af8f31cd5cdb37e26a3126c7530dc385.JPG" type="image/jpeg" length="5501314"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/3745e1548d5af6a0d305986f3d3969ed.JPG" type="image/jpeg" length="4968537"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0228e4d568b8eb624a649feacb3c21c7.JPG" type="image/jpeg" length="6083152"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/aba465096f8630c70e0ab98d6740b3ce.JPG" type="image/jpeg" length="5114515"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6d6ffa85ae925e95fb7b39d2daab337a.JPG" type="image/jpeg" length="5346458"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/778c6d977d7052a7864e552f3294c6db.JPG" type="image/jpeg" length="5285927"/>
+    <category term="black economic power"/>
+    <category term="black power"/>
+    <category term="community development corporation"/>
+    <category term="CORE Chapters"/>
+    <category term="CORE restructure"/>
+    <category term="CORENCO"/>
+    <category term="economic development"/>
+    <category term="foundations"/>
+    <category term="Sunflower Theory"/>
+    <category term="white money"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Sub-Committee Meeting of the Constitutional Convention Minutes</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">CORE sub-committee convention minutes</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Minutes from Sub-Committee of CORE constitutional convention.  Includes discussion on chapter resources, glossary of terms, Sunflower theory for black economic development, CORE debt, concern over &quot;white funding&quot;, and restructuring CORE.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">March 23 and 24, 1968</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">Will Ussery, Marlene Wilson, Elijah Turner, Arthur Evans, Roy Innis, Tony Perot, Victor Solomon, Jackie Robinson, Joseph V. Dixon, Ray C. Moody, Francis Pullen, Milton Holmes, William Medley, Robert Lucus, Ovida Helm, John Randolph, Eilus Wicks, Mary Hawkins, Daniel Underwood, Eugene Hill, Murten Shanklin, Ezra Rowry, Donald Bean, Edmond Boston, Kermitt Scott, Thelma Scott</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">documents</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">CORE sub-committee convention minutes</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/18</id>
+    <title><![CDATA[CORE fundraising and Mailings]]></title>
+    <summary><![CDATA[Various materials related to CORE&#039;s effort to increase its financial security.  There is a large donation from Leland Schubert owner of Minnesota Mining Company.  Also included: memorandum regarding financial state, letter to Taconic Foundation, and foundation list]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/18"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/ee00176e48620a6308031805669e677b.JPG" type="image/jpeg" length="7193154"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/5a148f903f00216466e15b4b718b6b29.JPG" type="image/jpeg" length="5454151"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/b40d0d9e1b08cad913113ff62790821b.JPG" type="image/jpeg" length="7204922"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0607bb4644a989d7c08cc45629db4e6f.JPG" type="image/jpeg" length="7791473"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/3280904212cc3d7ac4439a081d29cd3d.JPG" type="image/jpeg" length="6554152"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/9e4464486cf6d067ee73b27dc2b0df94.JPG" type="image/jpeg" length="5255436"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/a0ba5db7cde181cc84374ab73d6cd2ce.JPG" type="image/jpeg" length="6202618"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/e0e0d558cc5e189a4a03127d5f545b83.JPG" type="image/jpeg" length="6387110"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/5f32ebb4067d9ce7ad863703882f8c29.JPG" type="image/jpeg" length="5986514"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/00356f8fbb336ceec2190e4cd581d8fb.JPG" type="image/jpeg" length="5553162"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/4429704efa99b2d5f77d5650746b6ab8.JPG" type="image/jpeg" length="4248413"/>
+    <category term="CORE finances"/>
+    <category term="donations"/>
+    <category term="foundations"/>
+    <category term="Leland Schubert"/>
+    <category term="Mailings"/>
+    <category term="Minnesota Mining Company"/>
+    <category term="Taconic Foundation"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">CORE fundraising and Mailings</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Various materials related to CORE&#039;s effort to increase its financial security.  </div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Various materials related to CORE&#039;s effort to increase its financial security.  There is a large donation from Leland Schubert owner of Minnesota Mining Company.  Also included: memorandum regarding financial state, letter to Taconic Foundation, and foundation list</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">CORE, Leland Schubert</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">1967-1969</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">multiple creators, Leland Schubert, Floyd McKissick, Herb Callender</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">documents</div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">CORE Finances</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/26</id>
+    <title><![CDATA[Economic Inequality and Target City Project]]></title>
+    <summary><![CDATA[Newspaper articles discuss income inequality and economic discrimination.  Some discussion of Cleveland Target City Project and Ford Foundation assistance.]]></summary>
+    <updated>2016-05-17T13:21:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/26"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/411cc89c6d0302a182e85c292d1d0725.JPG" type="image/jpeg" length="3276830"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/4d6d5fc177158dc19653d3bc51100263.JPG" type="image/jpeg" length="9275144"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/b3fca6d1d75c6cdb4524511bf2e9f0ce.JPG" type="image/jpeg" length="9697308"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c61240859cc92187c90c29c87a97f5c5.JPG" type="image/jpeg" length="9447731"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/fcec8470fa7225a55cfac9d3722ad148.JPG" type="image/jpeg" length="9383010"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/98c7e259d8393e70a7837dbd762914d9.JPG" type="image/jpeg" length="9473047"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/0c37f0e2b70b6850fa1668557d22bfe3.JPG" type="image/jpeg" length="8170196"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/7de605c36d1ff79e3fc6804841deeb9d.JPG" type="image/jpeg" length="9370169"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/1500ca1d428de4e737b02886f6b48a70.JPG" type="image/jpeg" length="9505032"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c879527620b04adba01c9c57dd0e31cf.JPG" type="image/jpeg" length="9453362"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/2268f2e98f1b35a4651e611b6e52a34d.JPG" type="image/jpeg" length="6564704"/>
+    <category term="Cleveland"/>
+    <category term="community development corporation"/>
+    <category term="community organizing"/>
+    <category term="economic development"/>
+    <category term="economic inequality"/>
+    <category term="Ford Foundation"/>
+    <category term="foundations"/>
+    <category term="Target City Project"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Economic Inequality and Target City Project</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Economic inequality and CORE Target City Projects</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Newspaper articles discuss income inequality and economic discrimination.  Some discussion of Cleveland Target City Project and Ford Foundation assistance.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">multiple creators</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">1966-1968</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">multiple contributors</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text"> newspaper </div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">Income inequality; Target City Project</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/30</id>
+    <title><![CDATA[News articles and Memos re: CORENCO proposal]]></title>
+    <summary><![CDATA[The memorandum from Philip Carter to Will Ussery addresses the Leland Schubert contribution and notes that the Cleveland TCP will serve as a clearinghouse for all research on economic development.  The second item is a memo from Jack Olive (a representative from Kelso, Cotton, Seligman, and Ray) to Philip Carter.  Olive offers suggestions for the proposal submission to the Cleveland Foundation Community re: CORENCO.]]></summary>
+    <updated>2018-04-09T16:26:53-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/30"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/57d05991a75a8bdc21513650209931a8.pdf" type="application/pdf" length="209889"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/8802ee73c1e1d2bd5f312db58244a941.JPG" type="image/jpeg" length="5455326"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/fa82bb6358626f5d7fb3ddc479e1b1f3.JPG" type="image/jpeg" length="5234195"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/e3ae407ddef8178856bb61df92d3ea07.JPG" type="image/jpeg" length="5298950"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/50a5dcf885f6fddea0fce181ae0029ae.JPG" type="image/jpeg" length="5083452"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/8ccf1d885e720c3529ef333321f013e9.JPG" type="image/jpeg" length="5006666"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/fed971a80a4aba6dfa0ab5cb91552a2f.JPG" type="image/jpeg" length="5079624"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/1a36812ec3eec42a23ce6dccf6a6ab8a.JPG" type="image/jpeg" length="5169522"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/360f21cf7f2f48113a12454523f1b12c.JPG" type="image/jpeg" length="4837691"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/45d33e263deff0ab8c5792cbb8cef3f7.JPG" type="image/jpeg" length="5767922"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/8ae35cf1090aacfda0d4b71efbc63fe5.JPG" type="image/jpeg" length="5518926"/>
+    <category term="Cleveland"/>
+    <category term="community development corporation"/>
+    <category term="community organizing"/>
+    <category term="CORE finances"/>
+    <category term="CORE restructure"/>
+    <category term="CORENCO"/>
+    <category term="economic development"/>
+    <category term="economic inequality"/>
+    <category term="foundations"/>
+    <category term="Internal memo"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">News articles and Memos re: CORENCO proposal</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Memos about CORENCO</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">The memorandum from Philip Carter to Will Ussery addresses the Leland Schubert contribution and notes that the Cleveland TCP will serve as a clearinghouse for all research on economic development.  The second item is a memo from Jack Olive (a representative from Kelso, Cotton, Seligman, and Ray) to Philip Carter.  Olive offers suggestions for the proposal submission to the Cleveland Foundation Community re: CORENCO.</div>
+            </div><!-- end element -->
+        <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text">Philip Carter, Jack Olive, CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">March 19, 1968, April 8, 1968, April 20, 1968,</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Personal Papers of Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text">jpg</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+        <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text">document </div>
+            </div><!-- end element -->
+        <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text">CORENCO</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+</feed>

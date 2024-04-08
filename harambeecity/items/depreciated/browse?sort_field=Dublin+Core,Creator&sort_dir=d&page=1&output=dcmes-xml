@@ -1,0 +1,52 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/102">
+<dc:title>Bruce Melville, Side 1b </dc:title>
+<dc:subject>Cleveland CORE history</dc:subject>
+<dc:description>History of CORE, rent strikes and school desegregation protests, white participation in CORE and black leadership, black nationalism, tensions with NAACP and UFM</dc:description>
+<dc:source>Nishani Frazier
+Bruce Melville</dc:source>
+<dc:date>May 2004</dc:date>
+<dc:contributor>Nishani Frazier
+Bruce Melville</dc:contributor>
+<dc:rights>Nishani Frazier
+Bruce Melville</dc:rights>
+<dc:language>English</dc:language>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/99">
+<dc:title>Oral History Interviews with Harllel Jones, 2 interviews</dc:title>
+<dc:description>Personal history, Afro-Set, Cleveland&#039;s black community, civil rights and black power movements.</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/97">
+<dc:title>Interview with Roy Innis</dc:title>
+<dc:subject>CORE</dc:subject>
+<dc:description>Early history with CORE, black nationalism, leadership within CORE</dc:description>
+<dc:date>May 14, 2013</dc:date>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/83">
+<dc:title>CORE Family Members</dc:title>
+<dc:description>Pauline Warfield Frazier, Nate Smith, and Antoine Perot</dc:description>
+<dc:date>1970s</dc:date>
+<dc:rights>Nishani Frazier</dc:rights>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/82">
+<dc:title>Oral History Interview with Ruth Turner and Tony Perot</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/81">
+<dc:title>Oral History Interview with Gordon Carey, Parts 1 and 2</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/80">
+<dc:title>Oral History Interview with Frank Anderson</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/79">
+<dc:title>Oral History Interview with Don Bean and Nate Smith - 2 Parts</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/78">
+<dc:title>Oral History Interview with Dick Peery</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/77">
+<dc:title>Oral History Interview with Juanita Nelson I</dc:title>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://harambeecity.lib.miamioh.edu/items/browse?sort_field=Dublin+Core%2CCreator&amp;sort_dir=d&amp;output=atom</id>
+  <title><![CDATA[HARAMBEE CITY]]></title>
+  <author>
+    <name><![CDATA[Unknown]]></name>
+  </author>
+  <updated>2024-02-09T18:36:54-05:00</updated>
+  <generator>Omeka</generator>
+  <link rel="self" href="https://harambeecity.rrchnm.org/items/browse?sort_field=Dublin+Core%2CCreator&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="first" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/1?sort_field=Dublin+Core%2CCreator&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="next" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/2?sort_field=Dublin+Core%2CCreator&amp;sort_dir=d&amp;output=atom"/>
+  <link rel="last" type="application/atom+xml" href="https://harambeecity.rrchnm.org/items/browse/page/10?sort_field=Dublin+Core%2CCreator&amp;sort_dir=d&amp;output=atom"/>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/102</id>
+    <title><![CDATA[Bruce Melville, Side 1b ]]></title>
+    <summary><![CDATA[History of CORE, rent strikes and school desegregation protests, white participation in CORE and black leadership, black nationalism, tensions with NAACP and UFM]]></summary>
+    <updated>2023-06-29T17:49:02-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/102"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/a8bdc73cef616610f4e2c4bdac187245.m4a" type="audio/mp4" length="45237306"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Bruce Melville, Side 1b </div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">Cleveland CORE history</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">History of CORE, rent strikes and school desegregation protests, white participation in CORE and black leadership, black nationalism, tensions with NAACP and UFM</div>
+            </div><!-- end element -->
+        <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">May 2004</div>
+            </div><!-- end element -->
+        <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Nishani Frazier<br />
+Bruce Melville</div>
+            </div><!-- end element -->
+        <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text">English</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/99</id>
+    <title><![CDATA[Oral History Interviews with Harllel Jones, 2 interviews]]></title>
+    <summary><![CDATA[Personal history, Afro-Set, Cleveland&#039;s black community, civil rights and black power movements.]]></summary>
+    <updated>2023-01-13T14:00:11-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/99"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/6ab930582e47425a9a8e8be8d90b8933.mp3" type="audio/mpeg" length="133288774"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/1e13f6825c8763e7f1acbae9fd0bc0df.mp3" type="audio/mpeg" length="125358901"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Oral History Interviews with Harllel Jones, 2 interviews</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Personal history, Afro-Set, Cleveland&#039;s black community, civil rights and black power movements.</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/97</id>
+    <title><![CDATA[Interview with Roy Innis]]></title>
+    <summary><![CDATA[Early history with CORE, black nationalism, leadership within CORE]]></summary>
+    <updated>2023-01-13T13:48:31-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/97"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/c118711a0a235641e624904170f15a5b.MP3" type="audio/mpeg" length="114735460"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Interview with Roy Innis</div>
+            </div><!-- end element -->
+        <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text">CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Early history with CORE, black nationalism, leadership within CORE</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">May 14, 2013</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/83</id>
+    <title><![CDATA[CORE Family Members]]></title>
+    <summary><![CDATA[Pauline Warfield Frazier, Nate Smith, and Antoine Perot]]></summary>
+    <updated>2017-12-11T17:27:34-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/83"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/13d189d09c1b656978cba20797e08ad1.jpeg" type="image/jpeg" length="36617"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">CORE Family Members</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">Pauline Warfield Frazier, Nate Smith, and Antoine Perot</div>
+            </div><!-- end element -->
+        <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text">1970s</div>
+            </div><!-- end element -->
+        <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text">Nishani Frazier</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/82</id>
+    <title><![CDATA[Oral History Interview with Ruth Turner and Tony Perot]]></title>
+    <updated>2023-01-09T15:40:55-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/82"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/2e996f1ae242ae1df4c472ca1c19ebe5.mp3" type="audio/mpeg" length="129075096"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/7b10e53358d382486bace671d6c2cdcf.mp3" type="audio/mpeg" length="100674255"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Oral History Interview with Ruth Turner and Tony Perot</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/81</id>
+    <title><![CDATA[Oral History Interview with Gordon Carey, Parts 1 and 2]]></title>
+    <updated>2023-01-11T17:10:39-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/81"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/db05904e819849461040755dcd43154e.mp3" type="audio/mpeg" length="105384923"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/b7180d8d3a04c13526938fd26d735d6a.mp3" type="audio/mpeg" length="132420219"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Oral History Interview with Gordon Carey, Parts 1 and 2</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/80</id>
+    <title><![CDATA[Oral History Interview with Frank Anderson]]></title>
+    <updated>2019-10-01T10:00:25-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/80"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/3ba4153adaab605c834d340a51af9416.mp3" type="audio/mpeg" length="126000021"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Oral History Interview with Frank Anderson</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/79</id>
+    <title><![CDATA[Oral History Interview with Don Bean and Nate Smith - 2 Parts]]></title>
+    <updated>2023-01-11T17:31:51-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/79"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/f60fa6e7b604f4c325f6ebe3592c1ef1.mp3" type="audio/mpeg" length="137944413"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/07a1cb36a4685e84c3d803c5423058de.mp3" type="audio/mpeg" length="48747244"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Oral History Interview with Don Bean and Nate Smith - 2 Parts</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/78</id>
+    <title><![CDATA[Oral History Interview with Dick Peery]]></title>
+    <updated>2023-01-05T15:32:27-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/78"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/9401f267e8040c821419784dc1e22ff2.mp3" type="audio/mpeg" length="33453669"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Oral History Interview with Dick Peery</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+  <entry>
+    <id>https://harambeecity.lib.miamioh.edu/items/show/77</id>
+    <title><![CDATA[Oral History Interview with Juanita Nelson I]]></title>
+    <updated>2023-01-05T15:45:37-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://harambeecity.rrchnm.org/items/show/77"/>
+    <link rel="enclosure" href="https://harambeecity.rrchnm.org/files/original/fde0272e27fe04f03a6ff72005f6470c.mp3" type="audio/mpeg" length="46254079"/>
+    <content type="html"><![CDATA[<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Oral History Interview with Juanita Nelson I</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+]]></content>
+  </entry>
+</feed>

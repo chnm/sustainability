@@ -1,0 +1,30 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/42">
+<dc:title>Louis and Carl Stokes Office Opening Announcement</dc:title>
+<dc:subject>Louis and Carl Stokes Office Opening Announcement </dc:subject>
+<dc:description>Louis and Carl Stokes Office Opening Announcement </dc:description>
+<dc:creator>Louis and Carl Stokes</dc:creator>
+<dc:date>February 1, 1966</dc:date>
+<dc:rights>Louis and Carl Stokes Office Opening Announcement 1966</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>ephemera</dc:type>
+<dc:identifier>Carl and Louis Stokes</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://harambeecity.lib.miamioh.edu/items/show/35">
+<dc:title>The Stokes Years: A Short History</dc:title>
+<dc:subject>Carl B. Stokes</dc:subject>
+<dc:description>A short history on Carl B. Stokes and his first three years as mayor.</dc:description>
+<dc:creator>City of Cleveland</dc:creator>
+<dc:publisher>City of Cleveland</dc:publisher>
+<dc:date>November 8, 1971</dc:date>
+<dc:rights>Personal Papers of Antoine Perot</dc:rights>
+<dc:format>jpg</dc:format>
+<dc:language>English</dc:language>
+<dc:type>ephemera</dc:type>
+<dc:identifier>Carl B. Stokes</dc:identifier>
+</rdf:Description></rdf:RDF>

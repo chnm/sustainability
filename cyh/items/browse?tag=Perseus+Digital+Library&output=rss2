@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=Perseus+Digital+Library&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:19:44 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Perseus Digital Library]]></title>
+      <link>https://cyh.rrchnm.org/items/show/233</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Perseus Digital Library</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Nancy Stockdale</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2009-05-01</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.perseus.tufts.edu/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Department of the Classics, Tufts University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">April 2009</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>A truly fascinating collection, the <a class="external" href="http://www.perseus.tufts.edu/hopper/">Perseus Digital Library</a> presents an immense array of ancient texts, artifacts, and images from Greece and Rome, as well as a smaller collection of materials from the European Renaissance, the Arabic world, and 19th-century America. A rich website for educators and students alike, those engaged in the study of children and youth will find several sources of great interest, particularly in the histories of the ancient Mediterranean and the U.S. in the 19th century.</p>
+<p>There are seven primary collections in the Perseus Library. The largest collection is devoted to <a class="external" href="http://www.perseus.tufts.edu/hopper/collection.jsp?collection=Perseus:collection:Greco-Roman">Greek and Roman materials</a>. There is a vast collection of ancient prose, including iconic authors such as Homer and Aristotle, but also hundreds writers who are less well known. An <a class="external" href="http://www.perseus.tufts.edu/hopper/artifactBrowser">Art and Archeology Artifact Browser</a> catalogues "1305 coins, 1909 vases, 2003 sculptures, 179 sites, 140 gems, and 424 buildings" for perusal. There is also a small <a class="external" href="http://www.perseus.tufts.edu/hopper/collection.jsp?collection=Perseus:collection:Arabic">Arabic collection</a>, which is focused almost exclusively on translations of the Qur'an, as well as a Germanic Peoples collection, a section devoted to Renaissance works, and a database of Documentary Papyri. Moreover, there is a 19th-century <a class="external" href="http://www.perseus.tufts.edu/hopper/collection.jsp?collection=Perseus:collection:cwar">American history source collection</a>, as well as many 19th century issues of the <a class="external" href="http://www.perseus.tufts.edu/hopper/collection.jsp?collection=Perseus:collection:RichTimes"><em>Richmond Times Dispatch</em></a>, a Civil War-era newspaper from Virginia.</p>
+<p>The Perseus Digital Library is an incredibly rich resource. There is one significant issue, however, that users must contend with if they are trying to locate resources on children and youth in history. The search function for the website is not very specific, making its utility reliant on the patience of the user. For instance, a search for <a class="external" href="http://www.perseus.tufts.edu/hopper/searchresults.jsp?q=child">"child"</a> brings up every single time the word &ldquo;child&rdquo; is mentioned in any of the website&rsquo;s sources. Because there are many thousands of sources on the site (including the complete works of Shakespeare and a vast array of Aristotelian works), such a search is useless for quickly narrowing down required documents that specifically deal with the history of children. However, users may find what they are looking for by taking some time to browse more generally among the various collections, as well as become more creative with the "exact phrase" search mechanism.</p>
+<p>For example, a fascinating piece from Plato's <em>Laws</em> comes up when searching for the phrase <a class="external" href="http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0166:book=11:section=937b&amp;highlight=slave+child%2C">"slave child."</a> In this piece, Plato conflates adult slaves with children in terms of legal testimony, thereby reducing the significance of both in a court of law. Educators could create instructive lessons using this source, along with other sources on legal testimony and children throughout time, and have students compare and contrast the legal authority of youth testimony cross-culturally and cross-temporally.</p>
+<p>Another wonderful example comes from a search for <a class="external" href="http://www.perseus.tufts.edu/hopper/searchresults.jsp?q=children%27s+education">"children&rsquo;s education"</a>&mdash;an excerpt from the Roman historian Cornelius Tacitus' <a class="external" href="http http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.02.0082:chapter=28&amp;highlight=education"><em>A Dialogue on Oratory</em></a>. In this passage, Tacitus explains that he believes that Roman boys grew up to be great only when reared by virtuous and well-educated mothers, and he cites important emperors as evidence. This excerpt provides teachers of children's history a wonderful opportunity to create lessons based on historical notions of education, the role of the family in creating citizens for the nation, and shifting notions of gender roles and domestic life over time.</p>
+<p>There are also interesting and useful sources for American history, including a primary source entitled <a class="external" href="http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:2001.05.0002:chapter=2&amp;highlight=girl%2Cgeorgia"><em>The War-time Journal of a Georgia Girl, 1864-1865</em></a> by Eliza Frances Andrews. Written during the Civil War by a young teen, the document invites educators and students alike to consider the value of first-hand narratives to understanding larger historical events, as well as the subjective nature of primary sources. Moreover, it is a fascinating look into the social expectations of young women of the era who were living in the midst of war, and sheds an interesting light on the significance of gender, race, and class for understanding the historical experiences of children. An intriguing assignment using this source may be to juxtapose the experiences this young girl relayed in her wartime journal to other girls in warfare situations in other parts of the world, both contemporaneous to the U.S. Civil War and in other eras.</p>
+<p>Overall, the Perseus Digital Library is a fantastic resource. With a little patience learning the search engine&rsquo;s peculiarities, it is also a wonderful resource for exploring the history of children.</p></div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Nancy L. Stockdale</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">University of North Texas</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">A truly fascinating collection, the Perseus Digital Library presents an immense array of ancient texts, artifacts, and images from Greece and Rome, as well as a smaller collection of materials from the European Renaissance, the Arabic world, and 19th-century America. </div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/151/fullsize"><img src="/files/display/151/square_thumbnail" class="thumb" alt="Perseus Digital Library" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Fri, 01 May 2009 21:05:55 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/151/fullsize" type="image/jpeg" length="49506"/>
+    </item>
+  </channel>
+</rss>

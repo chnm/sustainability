@@ -1,0 +1,1992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse/4?tag=1000-1500+CE&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:23:34 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Health Ordinances of Pistoia, 1348 [Legal Document]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/179</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Health Ordinances of Pistoia, 1348 [Legal Document]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Cities in Italy passed legislation aimed at preventing or reducing the effects of plague. Since the scientific view was that plague was caused by miasma or bad air, the measures targeted rotting and smelling matter, viz. cloth which could retain miasma and spread disease as it was passed person to person, dead bodies, and rotting meat. Thus, the ordinances regulated burials and restricted the mobility of cloth and the activities of butchers and tanners. These ordinances were not really new to the Black Death; governments simply re-enforced the sanitary legislation in effect in cities from the 13th century.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Chiappelli, Alberto, ed. "Gli ordinamenti sanitari del comune di Pistoia contro la pestilenzia del 1348." In <em>Archivio Storico Italiano</em>. Ser. 4, 20 (1887): 8–22. Quoted in Horrox, Rosemary, ed. and trans. <em>The Black Death</em>. Manchester: Manchester University Press, 1994, 195–96. Annotated by Shona Kelly Wray.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">1348-00-00</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Shona Kelly Wray</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">167</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3>Selections from the Health Ordinances of Pistoia [2 May, 1348]</h3>
+
+<p>No one, whether from Pistoia or elsewhere, shall dare or presume to bring or fetch to Pistoia, whether in person or by an agent, any old linen or woolen clothes, for male or female clothing or for bedspreads; penalty 200 pence, and the cloth to be burnt in the public piazza of Pistoia by the official who discovered it. However it shall be lawful for citizens of Pistoia travelling within Pistoia and its territories to take linen and woolen cloths with them for their own use or wear, provided that they are in a pack or fardle weighing 30 lb. or less.</p>
+
+<p>The bodies of the dead shall not be removed from the place of death until they have been enclosed in a wooden box, and the lid of planks nailed down so that no stench can escape, and covered with no more than one pall, coverlet or cloth; penalty 50 pence to be paid by the heirs of the deceased or, if there are no heirs, by the nearest kinsmen in the male line.</p>
+
+<p>To avoid the foil stench which comes from dead bodies each grave shall be dug two and a half arms length deep, as this is reckoned in Pistoia; penalty 10 pence from anyone digging or ordering the digging of a grave which infringes the statute.</p>
+
+<p>So that the living are not made ill by rotten and corrupt food, no butcher or retailer of meat shall dare or presume to hang up meat, or keep and sell meat up in their storehouse or over their counter [i.e. whole carcasses cannot be displayed, only joints of meat]; penalty 10d.</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Sun, 07 Dec 2008 02:49:49 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Italian accounts of the Black Death [Personal Accounts]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/178</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Italian accounts of the Black Death [Personal Accounts]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Several chroniclers wrote about the Black Death in their own town or region. They described the symptoms of the disease, which they generally called "the mortality," how it arrived with portents of warning from the East, and how many people it killed. Some accounts are long and embellished with the descriptions of townspeople's actions, but most are brief, providing little more than the dates for the plague's entry and mortality rates, which they usually inflated. The description of families and children, if present, is often quite short. The chroniclers wrote in either Latin or Italian. Note the terms they use in the original language as well as the modern English translation.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">[1] Chronicle of Marco Battagli of Rimini, from the "Marcha di Marco Battagli da Rimini." In <em>Rerum Italicarum Scriptores</em> [RIS]. Vol. 16, part 3. Edited by A. F. Massèra, 54. Città di Castello, 1912, 54. [2] Chronicle of Guglielmo Cortusi of Padua, from the "Chronica de Novitatibus Padue et Lombardie Guilielmi de Cortusis." In <em>RIS</em>. Vol. 12, part 5. Edited by B. Pagnin, 120–21. [3] Città di Castello, 1941, 120–121. Tuscan Chronicle Account, from the "Storie Pistoresi." In <em>RIS</em>. Vol. 11, part 5. Edited by S. A. Barbi, 235. Città di Castello, 1906, 235. [4] Chronicle of Agnolo di Tura del Grasso, in "Cronica senese di Agnolo di Tura del Grasso." In <em>RIS</em>. Vol. 15, part 6. Edited by ed. A. Lisini and F. Iacometti, 555. Bologna, 1935, 555. Annotated by Shona Kelly Wray.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-12-08</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Shona Kelly Wray</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">167</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>1. Chronicle of Marco Battagli of Rimini<br />The chronicler of Rimini, from the northeastern coastal region, wrote that "father fled his son once he became sick, brother avoided brother, wife her husband, and thus the healthy fled from the ill."<br /><br />
+
+[Original in Latin]<br />
+<em> pater postea infirmum filium evitabat, frater fratrem, uxor virum, et sic de singulis sani infirmos penitus evitabant.</em></p> 
+
+
+<p>2. Chronicle of Guglielmo Cortusi of Padua<br />
+Guglielmo Cortusi wrote in his city chronicle of Padua that during the plague "wife fled the embrace of a dear husband, the father that of a son, and the brother that of a brother."</p>
+
+<p>[Original in Latin]<br /><em>uxor fugiebat amplexum cari viri, pater filii, frater fratris.</em></p>
+
+
+<p>3. Tuscan Chronicle Account<br />
+The <em>Storie Pistoresi</em> announce that in Tuscany and especially in Pisa, "father abandoned son, children abandoned their mother and father, and one brother abandoned the other."</p>
+
+<p>[Original in Italian]<br /><em> lo padre abbandonava li figliuoli, e' figliuoli lo padre e la madre, e l'uno fratello l'altro.</em></p> 
+
+
+<p>4. Chronicle of Agnolo di Tura del Grasso<br />
+The Sienese chronicler, Agnolo di Tura del Grasso, left a poignant account of the plague. "It is not possible," he says "to describe this horrible thing with human speech." After noting truncated burial practices, without priest, appropriate liturgy or bells, he discusses the subject of child abandonment with the familiar words "father abandoned child, wife her husband, and one brother the other." He, himself, did not abandon his children for he tells us that he buried his five children with his own hands.</p>
+
+<p>[Original in Italian]<br /><em>El padre abbandonava el figluolo, la moglie el marito, e l'uno fratello l'altro.</em></p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Sun, 07 Dec 2008 02:24:20 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Decameron [Literary Excerpt]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/177</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text"><em>Decameron</em> [Literary Excerpt]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Giovanni Boccaccio provided the most famous description of what happened during the Black Death in Italy. His report on the behavior of the Florentines after plague entered their city during the spring of 1348 serves as introduction and frame for his collection of 100 tales entitled the <em>Decameron</em>. The epidemic provides the pretext for a group of young men and women to leave Florence and retire to a pleasant villa in the countryside where they entertain themselves by telling stories over 10 days. Though the <em>novella</em> range from the bawdy to the pious, the story telling is light hearted in keeping with the purpose of restorative diversion.</p>
+
+<p>Boccaccio's introduction, however, has a very different tone. Here the author relates in precise detail the gruesome symptoms of the disease and the horrific circumstances that took place in Florence as the epidemic swept through the town disrupting all forms of normal human relations. Government, medical care, and neighborliness broke down. Some people secluded themselves and restricted their diet, others recklessly gave themselves over to pleasure, and still others tried to behave temperately. But most distressing of all, according to Boccaccio, was the collapse of families and the abandonment of children. The English translation is followed by the original in Italian.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Giovanni Boccaccio</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Boccaccio, Giovanni. <em>The Decameron</em>. Translated by G. H. McWilliam. 2nd ed. London: Penguin Books, 1995, 8–9. Annotated by Shona Kelly Wray.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                                    <div class="element-text">Penguin Books</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Shona Kelly Wray</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">167</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en, it</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>It was not merely a question of one citizen avoiding another, and of people almost invariably neglecting their neighbours and rarely or never visiting their relatives, addressing them only from a distance; this scourge had implanted so great a terror in the hearts of men and women that brothers abandoned brothers, uncles their nephews, sisters their brothers, and in many cases wives deserted their husbands. But even worse, and almost incredible was the fact that fathers and mothers refused to nurse and assist their own children, as though they did not belong to them.</p>
+
+<p>[Original in Italian]<br /> 
+<em>E lasciamo stare che l'uno cittadino l'altro schifasse e quasi niuno vicino avesse dell'altro cura e i parenti insieme rade volte o non mai si visitassero e di lontano: era con sí fatto spavento questa tribulazione entrata ne' petti degli uomini e delle donne, che l'un fratello l'altro abbandonava e il zio il nepote e la sorella il fratello e spesse volte la donna il suo marito; e, che maggior cosa è e quasi non credibile, li padri e lemadri i figliuoli, quasi loro non fossero, di visitare e di servire schifavano.</em></p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Sun, 07 Dec 2008 02:11:42 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Children during the Black Death]]></title>
+      <link>https://cyh.rrchnm.org/items/show/167</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Children during the Black Death</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>This teaching module offers an array of evidence to investigate the experience of children during the Black Death and question the traditional view that the epidemic caused wide-spread social chaos resulting in the abandonment of family members, even of children by their parents.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Shona Kelly Wray</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-14</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Teaching Module Item Type Metadata</h2>
+        <div id="teaching-module-item-type-metadata-bibliography" class="element">
+        <h3>Bibliography</h3>
+                                    <div class="element-text"><ol class="bibliography">
+<li>Arrizabalaga, Jon. "Facing the Black Death: Perceptions and Reactions of University Medical Practitioners." In <em>Practical Medicine from Salerno to the Black Death</em>, 237-88. Cambridge: Cambridge University Press, 1994.<br /> 
+<span>This article examines the responses to the Black Death by doctors in the Western Mediterranean. Arrizabalaga studies the plague tractates written by university-trained physicians to determine how they viewed the disease and what could be done about it. He presents their learned discussion on the causes, symptoms, prevention, and cure of the disease, and demonstrates that they did not hesitate to confront the new epidemic with their intellectual tools, such as their university training, clinical experience, and the ancient and medieval Greek, Roman, and Arab authors at their disposal.</span></li> 
+<li>Benedictow, Ole J. <em>The Black Death 1346-1353: The Complete History</em>. Woodbridge, Suffolk: Boydell & Brewer, 2004.<br />
+<span>Benedictow re-examines medieval chronicle evidence and modern historians' demographic studies of the epidemic across Europe to argue for a new and higher mortality rate of 55% during the Black Death. His work is useful for its detailed discussion of the spread of the disease and its map. Benedictow maintains the traditional view that the Black Death was caused by bubonic plague.</span></li> 
+<li>Cohn, Samuel Kline, Jr. <em>The Black Death Transformed: Disease and Culture in Early Renaissance Europe</em>. New York: Oxford University Press, 2002.<br /> 
+<span>Cohn has done the most in recent scholarship to overturn the long-held view that the Black Death was caused by bubonic plague. Comparing the medieval to modern evidence of plague in India, Cohn argues that because of its high mortality, exceptionally fast spread and transmission, and the apparent immunity gained by survivors, the disease of the Black Death must have been some other disease. Cohn also argues that doctors were helpless and hopeless during the Black Death, but gained a new "Renaissance" confidence in their abilities to prevent and treat the disease after its second return.</span></li> 
+<li>Wray, Shona Kelly. "Boccaccio and the Doctors: Medicine and Compassion in the Face of Plague." <em>Journal of Medieval History</em> 30 (2004), 301-22.<br />
+<span>This article proposes that Boccaccio's descriptions in the Introduction to the <em>Decameron</em> which detail the activities of Florentines during the plague of 1348 are repetitions of medical advice present in plague tractates written in Italy during the epidemic. Boccaccio's Introduction can be read as a condemnation of doctors' advice to flee the ill, since to follow their advice for the preservation of one's own health would lead to the destruction of society. The article counters recent views of the doctors' response to argue that their tractates demonstrate professionalism and practicality in the face of the devastating epidemic. Using wills of medical practitioners in Bologna, it provides evidence that they remained at their posts during the epidemic.</span></li>
+<li>Ziegler, Philip. <em>The Black Death</em>. New York: Harper, 1969; reprint 1971.<br /> 
+<span>This is an older work that has remained a useful textbook for the classroom. Ziegler tells the history of the epidemic across Europe largely through chronicles and legislation produced during the Black Death. It presents detailed local descriptions, especially well done for England, and examines the responses and effects of the plague on the demography, economy, art, and psychology of the medieval European people.</span></li>
+
+</ol></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-document-based-question" class="element">
+        <h3>Document Based Question</h3>
+                                    <div class="element-text"><p>by Susan Douglass<br />
+<em>(Suggested writing time: 50 minutes)</em></p>
+
+<p>Using the images and texts in the documents provided, write a well-organized essay of at least five paragraphs in response to the following question.</p>
+<p>Describe and analyze the effect of the Black Death in 14th century Italy for its effect on families and children who became ill or who were survivors of parents and siblings who died, based on analysis of evidence in the documents.</p>
+
+<ul>
+<li>Did the social order break down completely during the panic produced by the epidemic?</li> 
+
+<li>Were there social institutions that stabilized Italian society, and were efforts effective in preserving the social order and protecting its members?</li>
+
+<li>What additional evidence would help in deciding these questions (additional documents, types of records, etc.)?</li>
+</ul> 
+<p>Your essay should:</p>
+<ul>
+<li>have a clear thesis,</li>
+<li>use at least six of the documents to support your thesis,</li>
+<li>show analysis by grouping the documents into at least two groups,</li>
+<li>analyze the point of view of the documents, and</li>
+<li>recognize the limitation of the documents before you by suggesting an additional type of document or source to make your discussion more complete or valid.</li>
+</ul>
+
+
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-credits" class="element">
+        <h3>Credits</h3>
+                                    <div class="element-text"><p>Grateful acknowledgment is made to the following institutions for primary sources:</p>
+<ul>
+<li><a class="external" href="http://www.archiviodistatobologna.it/">Archivio di Stato di Bologna</a>,</li>
+<li><a class="external" href="http://www.manchesteruniversitypress.co.uk/">Manchester University Press</a>, and</li>
+<li><a class="external" href="http://us.penguingroup.com/">Penguin Books</a>.</li>
+</ul>
+<h3>About the Author</h3>
+
+<p>Shona Kelly Wray is an Associate Professor of History at the University of Missouri-Kansas City. Her book, <em>Communities and Crisis: Bologna during the Black Death</em>, is forthcoming. Wray is also a Fellow of the American Academy in Rome.</p>
+
+<h3>About the Lesson Plan Author</h3>
+
+<p>Susan Douglass is a doctoral student in history at George Mason University, and also serves as education outreach consultant for the Al-Waleed Center for Muslim-Christian Understanding at Georgetown University. Publications include <em>World Eras: Rise and Spread of Islam, 622-1500</em> (Thompson/Gale, 2002), the study <em>Teaching About Religion in National and State Social Studies Standards</em> (Freedom Forum First Amendment Center and Council on Islamic Education, 2000), and teaching resources, both online and in print, including and the curriculum project <em>World History for Us All, The Indian Ocean in World History</em>, and websites for documentary films such as <em>Cities of Light: the Rise and Fall of Islamic Spain and Muhammad:Legacy of a Prophet</em>.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">University of Missouri-Kansas City</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-introduction" class="element">
+        <h3>Introduction</h3>
+                                    <div class="element-text"><p>The Black Death was the first and most lethal outbreak of a disease that entered Italy during the end of 1347 and the beginning of 1348 and then spread across Europe in the following few years. It is generally accepted (despite recent arguments to the contrary) that this most famous medieval epidemic was caused by bubonic plague. This disease, which was identified in the late 19th century, is endemic among some rodent populations around the globe today, but does not pose a major health risk due to the efficacy of modern antibiotics.</p>
+
+<p>The situation, of course, was very different in the Middle Ages. The Black Death was brought on, it is believed, by an epizootic, or animal epidemic, among marmots in central Asia that caused the flea (<em>Xenopsylla cheopsis</em>) which passes the bacillus (<em>Yersinia pestis</em>) to leave its preferred host and search for new sources of food, that is, human blood. Rats brought infected fleas, the plague vector, into Europe on ships leaving the Black Sea and shores of the eastern Mediterranean. The plague entered European sea ports and traveled inland along trade routes. The effect was devastating. Historians estimate death tolls of between a third and a half of the European population. For medieval Italy it appears that some urban areas, such as Venice, Florence, and Siena, suffered staggeringly high mortality rates of over 50 percent.</p>
+
+<p>How did people react to this awful catastrophe? The governmental records of Italian cities present a mixed picture of the actions of civic leaders in the face of plague. In some areas, cities rapidly passed laws that attempted to prevent the entrance and spread of disease. They renewed sanitation laws designed to reduce the presence of miasma, or bad air, which medieval people believed caused disease. Thus, laws curtailed the activities of butchers, tanners, or others who worked with animal carcasses that could rot and produce miasma. The mobility of people and goods, such as woolen cloths that may trap the miasma, was restricted. Other laws regulated the location of burials and disposal of corpses. In other cities, however, it appears that government was reduced to an ineffective shadow as officials died in huge numbers and efforts to replace them could not keep up.</p>
+
+<p>Church records have revealed the actions of ecclesiastical organizations. Bishops all over Europe consecrated new ground for burials and arranged intercessory processions. Priests were called to celebrate masses, give sermons, and lead their parishioners in processions of prayer to beg for merciful relief from the wrath of God, which was generally believed to have brought on the epidemic. Clerics urged all individuals to confess, be penitent, and carry out acts of pious charity in order to pacify God. Thus, evidence can be found that the various communities in medieval Europe made strong attempts to counteract and deal with the crisis.</p> 
+
+<p>The popular view today of the Black Death, however, is one of social breakdown. This is because many chroniclers and literary authors of the time described the actions of townspeople in terms of panic, fear, and flight. Faced with a hideous—bubonic plague produces large, dark, and smelly swellings on its victims—and frightening new disease people fled to protect themselves. Chroniclers reported that doctors, clergy, and civil servants such as notaries refused to come to the aid of the ill. The chroniclers' accounts provide the most vivid picture of the social experience of this massive mortality and have become the standard description presented in World and Western Civilization textbooks.</p>
+
+<p>These accounts are at their most evocative and poignant when they discuss a principal theme of the topos of social chaos, namely, the abandonment of family members, especially children. The family was the heart of medieval European society. For medieval authors, the abandonment of children by their parents meant the specter of a society that had come unraveled at its core. It is important, therefore, to try to determine what really happened to children during the Black Death. We must remember that many medieval chroniclers were religious men who wrote with a moralizing message. It is possible that many wrote their accounts of events that happened in the world around them not with the modern notion of objectively reporting the facts, but instead to advise their readers to change their ways and lead more pious lives.</p> 
+
+<p>This module presents a few typical examples of what medieval Italian chroniclers had to say about the experience of children and their families during the Black Death. We do not know what parents or children themselves said about their own experience because there remain few letters and no diaries from this time. Despite the paucity of descriptive sources, parents who were dying of plague often wrote wills in which they provided for the future of their families as well as their own souls. Students can compare the information —individually and in the aggregate—included in the chroniclers' literature with that contained in parents' wills.</p> 
+
+<p>The archives of the town of Bologna contain the largest known number of testaments written during the Black Death. The mortality rate in Bologna may not have been as high as in Florence and Venice, but it suffered at least a 40% drop in population. The presence and contents of testaments during the epidemic can give us some indication as to whether parents were considering the fate of their children when they lay dying during the Black Death.</p>
+
+<p>These are formulaic documents that reveal little about the psychology of the testators themselves; they never even mention the fact that a massive epidemic was raging! Artistic sources are generally better at portraying powerful emotions, but there are no such sources that remain from the years of the Black Death. Instead, portrayals of themes related to death and morbidity became prevalent within a century of the Black Death as Europeans had become accustomed to the repeated outbreaks of plague.</p>
+
+<p>In fact, the Black Death was the first of a long series of plague epidemics that the people of early modern Europe suffered until the mid 1700s. It was by far the worst episode and therefore worth investigating how the most vulnerable part of the population--children--were treated during a time of social upheaval.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Shona Kelly Wray</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-strategies" class="element">
+        <h3>Strategies</h3>
+                                    <div class="element-text"><p>This teaching module offers an array of evidence to investigate the experience of children during the Black Death and question the traditional view that the epidemic caused wide-spread social chaos resulting in the abandonment of family members, even of children by their parents.</p>
+
+<p>The traditional view of the Black Death comes from the literary evidence on the breakdown of the family, represented here by Giovanni Boccaccio and contemporary Italian chroniclers. Encourage students to pay close attention to the terms used, noting their similarity, and to evaluate whether or not such accounts should be considered eyewitness reports.</p>
+
+<p>The module then asks students to consider a legal source, testaments, written in Bologna during the height of the Black Death, in which testators name their children as heirs. Ask students to consider reasons why these wills were made and by whom. What were the legal requirements limiting the production of the source, the advantages and disadvantages of such sources? What can these four wills tell them about a general population?</p>
+
+<p>One graph shows the number of extant testaments that were made in Bologna during the Black Death. The graph makes clear the impact of plague, but at the same time each will represents a gathering of at least nine people—the testator, notary, priest and at least six other witnesses—usually inside the testator's house. According to Roman law in effect in medieval Italy, women could not be witnesses, so we can only assume that they were present at the dictation of their family members' wills. We do know that many women, as mothers of children, made wills and they were supported in this by their families.</p>
+<h3>Discussion Questions</h3>
+<br />
+<h3>1. Compare the language used by Giovanni Boccaccio and by the chroniclers in their accounts of the experience of the Black Death.</h3>
+<ul>
+<li>Even without understanding the Latin or Italian, try to look at what words and patterns of words are similar among these authors who lived all over the Italian peninsula during the same period. What do you notice about these accounts?<br />
+<br />
+<em>Possible answer</em>: 
+<br />
+These authors borrow heavily from each other, or, more probably, the chroniclers mimicked the words of one of the most famous literary authors of the time, Giovanni Boccaccio. The Italian chroniclers' job was to record the events that happened in their own town for posterity, but clearly they were also literary writers and as such would have some moral purpose or personal agenda to their writing that went beyond objective reporting.</li> 
+
+
+<li>What kinds of problems might modern students of the Black Death come up against when using these accounts?</li>
+<li>What else would you like to learn from these accounts?</li> 
+<li>Are you satisfied with using the information in these accounts in order to learn about the experience of children and their families in the past?</li>  
+</ul>
+<h3>2. Compare the language of the four testaments.</h3>
+<ul>
+<li>What words and information come from the testator himself or herself and what words are supplied by the notary who wrote up the testament?</li>
+<li>What kinds of problems does the legal language of testaments pose for the researcher?<br />
+<br />
+<em>Possible answer</em>: 
+<br />They tell little or nothing about peoples' emotions, concerns, and thoughts. In addition, the testator may have been influenced by the notary in deciding his or her bequests.</li> 
+</ul>
+
+<h3>3. What information can you as researcher of the experience of the Black Death be satisfied with from the testaments?</h3>
+<ul>
+<li>What information is problematic or vague?<br />
+<br />
+<em>Possible answer</em>:
+<br />
+The specifics of the dictation of the will as a social event demonstrates that at least nine people, including testator, notary, and seven witnesses, were present. However, there is a fair amount of information that is not provided, such as the ages of the children. The testament mentions that they have occupations and at least some have families.</li>
+</ul>
+<h3>4. Envision the dictation of each will as it took place:</h3>
+<ul>
+<li>How many people were there? Where were they?</li>
+<li>What were they doing?</li>
+<li>What happened during and after the testator declared his or her last wishes?</li> 
+<li>What does this tell us about the behavior of these four people and their families during the Black Death?</li></ul>
+<h3>5. With the graph in section B, these four wills are shown in the wider context of the city. Considering that each will represents individuals who have not fled or abandoned their families.</h3>
+<ul>
+<li>What groups of people likely stayed in town, at home, with their families?</li>
+<li>What would you like to know about the wills in order to be sure that they reflect widespread behavior?</li>
+
+<li>How many people were in the town?</li> 
+<li>How many would normally write a will?</li> 
+<li>How many were parents when they wrote their will?</li>
+</ul>
+<h3>6. Compare the chroniclers' emphasis on parents abandoning their children with the information in the testaments and the image of the family in the "Dance of Death" woodcut.</h3>
+<ul>
+<li>In the "Dance of Death" image, is the child being abandoned by his family?</li>
+<li>Is there evidence of abandonment in the four testaments and the graph of all extant testaments?</li> <li>What would you say was the experience of children and families in Bologna during the Black Death?</li>
+</ul></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-lesson-plan" class="element">
+        <h3>Lesson Plan</h3>
+                                    <div class="element-text"><h3>Lesson Plan: Children and Childhood During the Black Death</h3>
+<p>by Susan Douglass</p>
+<p><strong>Time Estimated:</strong> two to three 45-minute classes</p>
+
+
+<h3>Objectives</h3>
+<ol>
+<li>Evaluate the reliability of various types of primary sources in regard to the effects of the Black Death on children and their families.</li>
+
+<li>Analyze and compare different types of available evidence on the physical and social affects of the Black Death.</li>
+
+<li>Develop possible explanations for the differences between contemporary (or near contemporary) narrative accounts of the Black Death and other types of evidence.</li>
+
+<li>Develop research questions that could lead beyond the current sources to suggest strategies for resolving the historical disputes raised by conflicting evidence.</li>
+
+<li>Gather the evidence presented in the documents and create a summary of the experience of the Black Death in visual or narrative form.</li>  
+</ol>
+
+
+<h3>Materials</h3>
+<ul>
+<li>Paper, regular notebook or white paper for individual or paired work, butcher paper or poster board for group work.</li>
+
+<li>Computer with Internet connection for viewing primary sources and accessing "Wordle."</li>
+
+<li>Web links and settings to enable <a class="external" href="http://www.wordle.net/ ">Wordle</a> and/or <a class="external" href=" http://tagcrowd.com/">TagCrowd</a>; and a word processor for pasting the primary sources.</li>
+
+<li>Documents from <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/167 ">Teaching Module</a> prepared as handouts.</li>
+</ul>
+
+
+<h3>Day One</h3>
+<p><em>Hook</em><br />
+After introducing the topic of the Back Death, ask students to describe in a few keywords what they know about this occurrence in world history. Note the responses on the board.</p>
+
+<p>Then ask students how historians learned about the plague from available evidence.</p> 
+
+<p>Make a list of possible sources of evidence the students identify. One type of evidence that might be surprising to students is a map that  documents how widespread bubonic plague is today. (See <a class="external" href="http://www.cdc.gov/ncidod/dvbid/plague/world98.htm">1998 plague reporting map</a> from the Center for Disease Control and Prevention.)</p> 
+
+<p>Explain that the class will examine several different types of historical evidence about the plague.</p>
+
+
+<p><em>Activity</em><br />
+Divide the students into three groups, according to the three types of primary source textual accounts (the <em>Decameron</em> and the Personal Accounts from Italy; the Health Ordinance; and the Testaments).</p> 
+
+<p><em>Close Reading Activity</em><br />
+First, have each group (or individual students) read the sources. Then, use the free applets (<a class="external" href="http://www.wordle.net/">Wordle</a> or <a class="external" href="http://tagcrowd.com/">TagCrowd</a>) to make Word Clouds from the following texts, simply by choosing "Create," pasting the formatted or unformatted text into a window and pushing "Go:"</p>
+
+<ul>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/167?section=primarysources&source=177"><em>Decameron</em></a> excerpt and the Italian Accounts of the Black Death; pasting separately from the English, but combining the original Latin and Italian texts</li> 
+
+<li><a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/167?section=primarysources&source=179">The Health Ordinance of Pistoia</a></li>
+
+<li>Combined text of the four testaments, and the <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/167?section=primarysources&source=184">graph of wills from Bologna</a>.</li>
+</ul>
+
+
+<p>The purpose of this exercise is to help students to see the pattern of language use in the sources. The word cloud will help students identify keywords in the original languages when they appear with equal emphasis in English (e.g., <em>padre</em>, <em>abbandonava</em>). The aim is to see what ideas and tone writers conveyed to their audience, as well as to gain a sense of the memory of the event in the writers’ minds. Students should not substitute the word cloud for a close reading of the text, but use it as an aid. Working on the three groups of sources, use the following questions as a guide for close reading:</p> 
+
+<ul>
+<li>What do the word clouds for the English and original Latin and Italian communicate about the effect of the plague on the society of the time? Identify keywords in both languages. Identify descriptive nouns and adjectives. Identify terms for people? Are they general or personal terms? What does this say about the plague as an event across society? [Ans. <em>people are described entirely in terms of their relation to one another, not in terms of class, vocation, or name.</em>] Then read the annotation to the source. How do Boccaccio and the chroniclers portray the effect of the plague on social relations? Imagine the scene they describe, multiplied across whole cities. Does Boccaccio indicate different reactions among different social classes? How does the <em>Decameron</em> excerpt contrast with the frame of the stories, that is, a group taking refuge outside the city? Noting that these are not eyewitness accounts, what role might memory play in the substance and tone of the accounts, and what role does literary or moral purpose play?</li>
+
+<li>What does the word cloud indicate about official views of the plague's causes at the time? What words and their frequency in the ordinance indicate beliefs about the spread of the disease? What words are missing which might reflect medical knowledge today? [Ans: <em>germs, fleas, blood</em>] Then read the annotation to the source. Despite their lack of knowledge of germ theory and insect vectors, how did the measures targeted in the ordinance reflect practical observations about the spread of the disease? Is the frequency of attention to clothing, fabrics, and the absence of cleanliness entirely misplaced? Do you think that such an ordinance helped in any way? Was it enforceable?</li>
+
+<li>What does the word cloud indicate about the tone of the texts and the events they record? Make a list of the most frequent nouns, verbs, and other words describing people (names, vocations, relationships). Does the text include descriptive adjectives? To what do they refer?  Read the annotations to the sources. Imagine the scene and the setting in which these wills were drawn up [students may wish to create a tableau of the scene using drawn figures or themselves acting out the parts.] Was it a scene of panic? What persons were present, and what were their relationships to the patient? Who was absent from the scene, and why? What concerns did each person present have and how did they bring their concerns to bear in making the testament? [Ans: <em>patients taking care of family wealth, care of children who survived, priests getting donations for the church, debtors being paid, family members receiving shares</em>] How would the ravaging plague have altered the normal process of drawing up a will? Using the graph of wills made during the plague months, and taking into account the officials who had to be present at will-making, discuss the difficulties the Church and the city faced during the epidemic. How likely is it that many people died without wills, or without registered wills? What is unusual about leaving the family wealth to a small child, whether son or daughter?</li>
+</ul>
+
+<p>NOTE: If at all possible, students should be encouraged to create word clouds individually or as a group, since the applet allows use of creative effects such as fonts, colors, and different word orientations that will inspire them to "see" the text in tone and substance. If desired, however, word clouds of these sources have been created and posted at:</p>
+
+<ul>
+<li><a class="external" href="http://www.wordle.net/gallery/wrdl/789519/Black_Death_Chronicles-14th_century">http://www.wordle.net/gallery/wrdl/789519/Black_Death_Chronicles-14th_century</a> [original language]; <a class="external" href="http://www.wordle.net/gallery/wrdl/800349/Black_Death_Chronicle_translation-Italy_14th_century ">http://www.wordle.net/gallery/wrdl/800349/Black_Death_Chronicle_translation-Italy_14th_century</a>  [translation of chronicles & Decameron excerpt];</li>
+<li><a class="external" href="http://www.wordle.net/gallery/wrdl/800313/Black_Death_testaments-14th_century_Italy">http://www.wordle.net/gallery/wrdl/800313/Black_Death_testaments-14th_century_Italy</a>  [testament texts];</li>
+
+<li><a class="external" href="http://www.wordle.net/gallery/wrdl/800471/Health_Ordinances_of_Pistoia%2C_Italy_14th_century">http://www.wordle.net/gallery/wrdl/800471/Health_Ordinances_of_Pistoia%2C_Italy_14th_century</a> [Health Ordinances of Pistoia].</li>
+</ul>
+ 
+<p>Following the individual or group work with the three different types of primary sources, ask students to give their impression of the effect of the Black Death on the social order, based on their set of documentary sources. Student responses should fairly clearly differentiate among the sources as to the effects, but also indicate common elements. The starkest contrast will be the scenes of impersonal, general breakdown of the social order in Boccaccio and the chronicles, compared with the orderly scenes of making wills in the homes of the sick, with an array of people present, personalized references, their attempt to keep families and relationships intact. How can historians today account for the difference? What role might memory, and what role might literary style play? The ordinance portrays an official response based on incomplete knowledge, but shows that practical observation had some value in defining preventative measures. What questions does the contrast in the sources raise? [EXAMPLES: Were priests willing to enter homes of the sick? How did they avoid the disease, or did they? How could there have been enough officials to witness and record wills during and after the epidemic? Could that account for the decline in numbers of wills after July?]</p> 
+<p>Project the "Dance of the Dead" images or print them onto a 1-page handout. Read the annotations. Noting that these images are not directly related to the actual event of the Black Death, but existed as an art form before and after it, reflect on the following themes related to these popular images from the period. What messages do the images portray? What words can you recognize in the text accompanying the mural? Assuming generally high infant mortality even without epidemics, do you think people were emotionally attached to their children, knowing they might be carried away suddenly? How might mortality have differed among social classes? What indications of social class do the images portray? As public expressions of memory, what do they reflect in terms of attitudes toward death, and what moral lessons do they seem to project?</p>
+<p>Assign the Document Based Question below as an in-class essay or homework assignment. Follow your usual procedure for drafts, critique, revision, and finalizing.</p>
+<p><em>Extension Activity</em><br />
+Use the  <em>World History For Us All</em> teaching unit <a class="external" href="http://worldhistoryforusall.sdsu.edu/units/five/closeup/05_closeup551.pdf">"Coping with Catastrophe: The Black Death of the Fourteenth Century, 1330 - 1355 CE"</a> to assess the causes and effects of the plague in other parts of Europe and elsewhere in the world, and to see what historical source issues are raised by the materials in the lessons.</p>
+
+<h3>Differentiation</h3>
+<p><em>Advanced Students</em><br /> 
+Advanced students may be asked to search for additional documents and images on the Black Death, including fuller versions of the ones excerpted in the lesson. A few students might research the course of the disease to contribute knowledge about how long it took from exposure to the disease to death, and how frequent known outbreaks of plague were in the following centuries.</p> 
+
+<p><em>Less Advanced Students</em><br />
+Remedial students could be asked to focus merely on the documents in English, or on a limited selection of documents from each group. The document-based question can be modified to allow more time, to use fewer documents for their essay. They may also be asked to provide a culminating assessment in a form other than an essay, such as a visual, literary or narrative account that can be graded on how well it reflects use of evidence and comparison among the documents.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-primary-sources" class="element">
+        <h3>Primary Sources</h3>
+                                    <div class="element-text">177, 178, 179, 180, 181, 182, 183, 184, 185, 186</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Wed, 15 Oct 2008 01:21:03 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[The Huntington Archive of Buddhist and Related Art]]></title>
+      <link>https://cyh.rrchnm.org/items/show/126</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">The Huntington Archive of Buddhist and Related Art</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-09-08</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://kaladarshan.arts.ohio-state.edu/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Ohio State University College of the Arts</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">May 2008</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href=http://kaladarshan.arts.ohio-state.edu/><em>The Huntington Archive of Buddhist and Related Art</em></a> offers a rich collection of images of Asian art and architecture. It is based upon the core collection created by John and Susan Huntington, professors of Asian Art History at The Ohio State University who engaged in over 35 years of field work in Asia. Nearly 300,000 images are held in the full collection, representing religious imagery and architecture (both on site and in museums) from India, Pakistan, Bangladesh, Afghanistan, Nepal, Myanmar, Thailand, Indonesia, Sri Lanka, China, and Japan. The historical range begins in 2500 B.C.E. and runs through the present day. Roughly 30,000 black and white images along with a limited number of color ones are accessible through an online <a class="external" href=http://huntingtonarchive.osu.edu/database.htm>"Digital Database Collection."</a> Images are available in multiple sizes, with a zoom feature for more detailed views.</p>
+
+<p>A variety of child-related features are presented at the Huntington site. A collection of links to <a class="external" href=http://kaladarshan.arts.ohio-state.edu/exhib_2.htm>"Online Exhibitions"</a> currently offers valuable material from China, Japan, India, and Tibet. Exhibition themes include pictography and posters from China, modern art and devotional imagery from India, calligraphy and material arts from Japan, and the material icons and imagery of Tibet. While these collections do not address childhood directly, there are occasional iconographic images of children as well as domestic scenes of religious practice.</p>
+
+<p>Other elements of the exhibit collections can be tied to a culture of childhood as well. For example, the exhibit <a class="external" href=http://kaladarshan.arts.ohio-state.edu/exhib/ccomic/comhp.html>"Literature in Line: Lianhuanhua Picture Stories from China"</a> offers a collection of drawings from picture stories in popular print during the mid-20th century. One useful collection among these includes illustrations from Zhao Hongben and Qian Xiaodai's <em>Monkey Beats the White-boned Demon</em> (1962), based on the classic tale of <em>Journey to the West</em>. This story (available in an English-language translation by Arthur Waley) has been relished by both adults and children in China and continues to be presented globally as both theater and cinema.</p>
+
+<p>The <a class="external" href=http://kaladarshan.arts.ohio-state.edu/database.htm>"Digital Database Collection"</a> is another rich resource for the theme of Buddhism and Asian Art. It consists of nearly 30,000 images collected as documentation of Asian sites and architecture by John and Susan Huntington between the years of 1969-1984. Imagery related to the theme of childhood can be located through simple keyword searches. Images of children largely originate from India and include iconographic figures embracing a child as well as visual presentations of "Buddha life scenes." Such images could be usefully tied to textual sources, Buddhist themes, life-stages, allegory and iconography for research projects. Finally, the <a class="external" href=http://kaladarshan.arts.ohio-state.edu/projects.htm>projects page</a> at the site offers links and teaching resources related to art history, discussion outlines and presentations, as well as a "Visual Encyclopedia of Buddhist Iconography." Though not directly related to childhood as a major theme, these nevertheless offer valuable resources for those interested in exploring the broader context for the imagery of children and childhood.</p></div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Susan Fernsebner</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">University of Mary Washington</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">Though not directly related to childhood as a major theme, these nevertheless offer valuable resources for those interested in exploring the broader context for the imagery of children and childhood.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/60/fullsize"><img src="/files/display/60/square_thumbnail" class="thumb" alt="The Huntington Archive of Buddhist and Related Art" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Tue, 09 Sep 2008 00:14:18 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/60/fullsize" type="image/jpeg" length="62692"/>
+    </item>
+    <item>
+      <title><![CDATA[1919 Cleveland Protestant Orphan Asylum Annual Report [Official Document]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/112</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">1919 Cleveland Protestant Orphan Asylum Annual Report [Official Document]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>The official records and reports of social welfare agencies and institutions provide insight into societal beliefs and attitudes related to deviance and changes in those beliefs and attitudes over time. While review of such documents may in some instances reveal radical changes in an agency's mission, more often what unfolds is a narrative of an evolutionary process anchored by consistent themes. Such is the case with the many child welfare agencies founded in the mid-19th century as orphan "asylums." Over time, they came to redefine their mission vis-à-vis dependent children from <em>sheltering</em> to <em>changing</em>.</p>
+
+<p>The Cleveland Protestant Orphan Asylum (CPOA, later renamed BeechBrook) was established by a religious organization, as many were in this era, and began with what is often described as a child-rescue mission. The year 1919 marked the first time in which specific reference was made to "difficult" (though still considered redeemable) children. Of the 296 children served, 85 had been placed in foster homes and 132 had been "returned to friends" (typically a parent or close relative). Over the next few decades, the agency reports document increasing numbers of "difficult" children. The growing discussion of degrees of difficulty, as well as evidence such as engaging psychiatric consultation, indicate movement toward the agency's present role within the mental health system.</p>
+
+<p>Additional records are available on this topic: American School for the Deaf, Perkins School, and others via the 
+<a class="external" href=http://www.disabilitymuseum.org>Disability History Museum.</a></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">The Cleveland Protestant Orphan Asylum. Sixty-Seventh Annual Report. October 31, 1919.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-07-04</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Philip L. Safford</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">110</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3>REPORT OF THE BOARD OF MANAGERS OF THE<br />
+CLEVELAND PROTESTANT ORPHAN ASYLUM<br />
+FOR THE YEAR CLOSING<br />
+OCTOBER 31, 1919.</h3>
+
+<p>The function of the Orphan Asylum, making a home for children, carries always hope and love and increasing interest. Every year the workers are learning and improving, and accomplishing more satisfactory results. The definite form of service in this Asylum, taking care o f children in this home, finding permanent homes for some of them in a good family, sheltering and eventually returning others to their own family or relatives, goes steadily on. There were two hundred and thirty children admitted
+during the past year. Three hundred and nine, in all,
+were cared for. Seventy-four were placed in homes, one hundred and fifty-six were returned to their own friends, and seventy-nine were still in the Asylum on October 31st, 1919.</p>
+
+<p>. . .</p>
+
+<p>The staff of visitors has been increased. This permits us not only to emphasize visits to the homes where our children have been placed, but also to carry on extension and advisory lines of work through visits to the parents of children who are in the Asylum for temporary shelter and thereby help them and their children in the future. The remarkable personal work and thought for every child results in good health, happiness
+and a helpful spirit toward others. The children were singularly free from illness and contagion for several months of the year. Careful attention was given to the report cards which the boys and girls brought home from school. Days in the open air when all enjoyed picnics to the farm were especially beneficial.</p> 
+
+<p>. . .</p>
+
+<p>Respectfully submitted<br />
+Mrs. J.R. OWENS,<br />
+SECRETARY</p>
+
+<br />
+<br />
+
+<h3>REPORT OF THE COMMITTEE ON ADMITTING AND PLACING CHILDREN FOR THE YEAR<br />
+CLOSING OCTOBER 31st,</h3>
+
+<p>Quietly and persistently your Committee on Admitting and Placing Children has carried on its work during the past year. Because of the flu epidermic and the readjustment period following the War the many cases have kept us on the alert trying to help those worthy and counseling those who needed guidance rather than help.</p>
+
+<p>However, our aim is to aid in some way all who call. Visitors ofttimes feel slighted because we do not immediately relieve them of their children and suggest instead other ways and means. Many times the parents need the children with them to act as governors on their own conduct. In other instances the quicker the children are admitted to the Home the better it is for them.</p>
+
+<p>We have cared for three hundred and nine children during the past year. It is interesting to note that of the one hundred and eleven new families helped this year but forty-four were American. The remaining - sixty-seven
+represented twenty-two different nationalities.</p>
+
+<p><img class="content-thumb" src="http://chnm.gmu.edu/cyh/images/orphan11.jpg"/>On our records of the year we also note that twenty-four fathers and nine mothers deserted. Twelve mothers were immoral. Eleven families were temporarily broken up because one or the other of the parents was in the
+hospital. The deaths of twenty fathers and sixteen mothers caused us to take temporary care of the children until other arrangements could be made for them. Fourteen cases were illegitimate.</p>
+
+<p>The present policy of the Institution is the same as in the past in regard to admitting and caring for children. In recent years there have been greater calls for the temporary shelter of children by parents who have for one cause or another been unable to care for their own.</p>
+
+<p>Last year we returned one hundred and fifty-six children to their parents or relations, as we believe in keeping the family together if possible. It is also our aim to thoroughly investigate the relatives of the
+child with the idea in mind of having them take care of their own kin and not delegate this responsibility to strangers.</p>
+
+<p>During the past twelve months we leave placed but seventy-four children in foster homes. One reason for this is that many children given to us for adoption have been returned to relations whom we have succeeded in interesting in the case. Very often, upon investigation, we found relatives who at first refused to assist the parents in caring for children willingly accept the responsibility when they learned that the parental rights had
+been legally forfeited.</p>
+
+<p>The real work of the Institution, however, is the same - the receiving of children who are left dependent and are eligible to be placed in foster homes. We are still firm believers in the family life for the child and no one can question the fact that the Institution is a great help in training the child for his future home.</p>
+
+<p>We thoroughly investigate the parents and home before We accept their child for adoption, believing it is but natural that the child should be kept, if possible, in the home of his own people.</p>
+
+<p>It is our plan to move slowly in placing a child, no matter how desirable the home may appear, because people sometimes are impulsive in this as in other important matters and give little thought to the responsibility they would assume. By delaying the placement a reasonable period it gives the parties concerned time to consider all phases of the undertakings. It also gives us a better opportunity to fit the home with the proper child
+and thus prevent a return or transfer later on. Our experience has shown us that this is the most satisfactory plan.</p>
+
+<p>Every charity organization has on its list people who are habitual troublemakers. The following case is typical in this respect. Several years ago we admitted a family of five children whose parents were of the worst
+type and who were living under disgraceful conditions. With the possible exception of the boy they could not rightfully be termed borderline, but rather they belonged to that class of child known as difficult. It was only after long periods of training that the children were placed in foster homes.</p>
+
+<p>The boy was transferred three times before he was placed in a home where he finally proved at all congenial. Temperamentally he is easy-going and if let alone he enjoys doing any kind of manual work and is happy when nothing occurs to disturb the routine of his life. He neither smokes, chews nor drinks and seldom leaves the farm. He has a good sized back account and as his needs are few the sum is steadily increasing. He will never add to the world's intellectual store, but the brawn of his class is a mighty factor
+in caring for a record crop of wheat or potatoes.</p>
+
+<p>It has been our experience that the logical place for a mentally retarded man or boy is the farm provided, however, that he has not in his makeup the trait of cruelty to animals. In the city the chances are that he will be but a tool in the hands of astute criminals but in the rural districts the opportunities for getting into trouble. are reduced to a minimum.</p>
+
+<p><img class="content-thumb" src="http://chnm.gmu.edu/cyh/images/orphan13.jpg"/>Edith, a sister, was found a home in an ordinary family. They were told she was a difficult child to manage, but they assured us we would not be called upon to solve their petty problems if we would but allow them to take the girl with them. The reports of our visitor show that there were many occasions when the family life did not run smoothly and had her foster parents been less persistent and persevering it is not to be doubted that there would have been an entirely different ending to the story of her girlhood days. She now has a home of her own and knows from experience that
+caring for children has its sorrows as well as its joys, its moments of pain as well as happiness.</p>
+
+<p>Clara, another sister, was the cause of much solicitation by everyone with whom she came in contact. She was by nature a disturber. If an occasion lacked variety or excitement, this child would find a way to supply the apparent deficiency. Her imagination was constantly at work and the plausible stories, complete with detail, caused more than one family to return her to the Home.</p>
+
+<p>When people would see her among the children in the Girls' Department they could not be convinced that she was not really as demure as she appeared, but after they had had her for a time we invariably received a letter asking for advice or requesting our visitor to call and We knew at once that the same old story was to be repeated.</p>
+
+<p>Upon one occasion she almost caused a separation between her foster parents by her stories. Frequent visitations and letters were necessary but even these would have been of no avail had the people with whom she was last placed wavered in what they considered their Christian duty. Clara, too, is married and now realizes her mistakes of earlier days.</p>
+
+<p>Sadie, a few years older than Clara, was marked with a propensity for wandering and was easily influenced by the older children. She remembered localities and names of streets where she had formerly lived with her own people and she never became really reconciled to her foster home. All efforts to interest her in the better things of life failed. School to her was but a place in which to idle away one's time and her attendance at
+church was always preceded by many protestations. One day we were notified that Sadie had boarded a train for Cleveland. We afterwards discovered that she had found her own people and drifted back into their ways.</p>
+
+<p>Bessie, the youngest, is still in her foster home. She has been a care in many ways but her foster parents are firm in the belief that she will outgrow her natural tendency for troublemaking. Should this prove true,
+it will be because she was placed when very young and her careful training will have neutralized the family trait.</p>
+
+<p>We have in mind another family of an entirely different type. Conditions were such that of the five children, only two of them were placed in homes- the others being returned to relatives. In after years the brothers and
+sisters were brought together. The brother and sister of the foster homes  had received college educations and each specialized in a chosen field of endeavor. When the others learned of this they were not to be outdone and
+immediately began courses of study in widely separated institutions of learning. The germ of achievement had been lying dormant in them thorough the years and needed but a stimulus to produce results. Today they are professional men and women but it is doubtful this would have been so had all of the five children been returned to their friends and relatives, as the educational advantages received by the two placed in foster homes proved an incentive to the others and goaded them on to work and study in order to attain an equality of learning similar to that of their more fortunate brother and sister.</p>
+
+<p><img class="content-thumb" src="http://chnm.gmu.edu/cyh/images/orphan15.jpg"/>We cannot close this report without a word of appreciation to those people who have taken these dependent children into their homes. Many times it has been their first experience in the intimate care of little ones and they have begun their task with positive opinions in the matter of child-rearing. However, they soon find that some revision is necessary. What seems perfectly plausible in theory does not always work out practically
+where the child is concerned. This period of adjustment affects the child as it does the parents and if the latter are but half-hearted in the desire for a little one in the home they are unable to stand the strain and the child is returned to the Institution the worse for having been placed.</p>
+
+<p>Many people feel so sorry for the little ones they take that their sympathy rather than good judgment is the dominant note in the child's training.
+Even a baby will take advantage of the weakness of a foster parent and instead of being governed the child becomes the monarch of all he surveys and every whim must at once be gratified.</p>
+
+<p>We see alike the frailties of the child as well as those of the foster parents who think they are following a wise course when they indulge children but really are in error. It is a simple matter to talk to the little one and point out his mistakes but it requires tact to do this with the foster parents. The latter class differ in their tendencies as do the children. They forget that the act of taking a penny from the kitchens table is an offense of no greater magnitude than it was when they themselves surreptitiously tip-toed to the cookie jar twenty years ago. They cannot see why the child should tell stories occasionally but they forget their own vivid imaginations when they were young.</p>
+
+<p>It is sometimes said that it child is lacking in appreciation but we find in some cases that the foster parents have made very little effort to bring out this admirable trait.</p>
+
+<p>When the foster parent has returned from a shopping tour the child eagerly inspects the purchases hoping that perhaps he may find something for himself. Clothing and the incidental expenses of keeping a child in the home mean very little to the average boy and girl and the juvenile tendency  is to take these things as a matter of course, but the aspect of a child"s whole world is changed for him if he is occasionally remembered with a small gift such as a base ball bat or a hair ribbon. Perhaps the mistakes of the foster parents have been legion, but the fact is indisputable that were it not for the many homes opened to these desolate little ones their chances for a normal existence would indeed be slight.</p>
+
+<p>Respectfully submitted,<br />
+MR. DOUGLAS PERKINS. . . </p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                                    <div class="element-text">111</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file application-pdf"><a class="download-file" href="/files/download/119/fullsize">CHY112.pdf</a></div>]]></description>
+      <pubDate>Fri, 04 Jul 2008 16:13:12 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/119/fullsize" type="application/pdf" length="3895524"/>
+    </item>
+    <item>
+      <title><![CDATA[Taranaki Education Office Report, 1898 [Official Document]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/75</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Taranaki Education Office Report, 1898 [Official Document]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>A state-funded, secular elementary education system was established in the colony of New Zealand in 1870, but the compulsory attendance provisions for 7 to 13-year-olds were not rigorously enforced, for Maori and Pakeha children alike, until the first decade of the 20th century. By then, complementary legislation, such as laws governing the minimum age for employment in factories and shops, helped to improve attendance, particularly amongst older children. There was no "social promotion"—every student had to demonstrate understanding and competence at each level before moving upwards through the primary school system. The annual visitation of the school inspector was generally a cause for widespread apprehension amongst pupils, most of whom failed to realize that their teachers were often far more worried than they were, since salaries were linked to attendance figures as well as examination results.</p>
+
+<p>The advent of refrigerated shipping in 1882 led to a transformation in the colonial economy. Exports of meat, butter, and cheese could now complement the former dependence on wool. The Liberal Government, sworn into office in 1890, strongly endorsed the notion of family farms and embarked upon an intensified Maori land purchase policy to open up land that was deemed suitable for dairying. The province of Taranaki became one of the principal dairy farming areas of the colony. Few small-scale farmers could afford to employ labor. Women and children helped with the herding and hand-milking of the cows. Teachers despaired. Many of their pupils would fall asleep at the uncomfortable desks. Others were so fatigued from the early morning rising and milking that they absorbed very little of their lessons. Education authorities railed against the problem yet also recognized its complexity.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">W.E. Spencer</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Spencer, W. E., Inspector of Schools, Taranaki Education Office, New Plymouth, 9 March 1898, to the Chairman, Taranaki Education Board.  <em>Appendices to the Journals of the House of Representatives</em>, 1898, Vol 2, E-1B, 8. Annotated by Jeanine Graham.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-05-12</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Jeanine Graham</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">93</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>The causes of bad attendance, exclusive of bad roads and inclement weather, may be classed under two heads - (1) The home circumstances of the pupils, and (2) the school and its authorities. Under the first head I may mention parental indifference or neglect and excessive work required from children of very tender years. I know that during the milking season some children have to milk as many as ten cows every morning, and, if they come to school at all, arrive late, and are so fatigued as to be unfit for the work of the day. Though I regret the fact, I am afraid that in some cases there is no just remedy, as in some of the outlying districts the struggle for existence is harder than many people imagine. I was told by one teacher that children at his school had to gather fungus during the day in order that the bare necessaries of life might be procured for the families, and I have no reason for doubting his word. . . . Under the second of the above heads there is ample scope for attraction. When a school building is ill-lighted, gloomy, and depressing one cannot wonder at children preferring to stay away more than at their preferring sunshine to dulness [sic]. Then by all means let our schools be cheerful, bright, and attractive, and let the walls be covered with interesting and instructive charts and pictures such as will arouse and sustain curiosity. . . . Let the first impressions of the school-day be pleasant ones. Let us have means by which the children may amuse themselves during the recesses and before school opens, and they will, if possible, come early and regularly for a brief interval of companionship and amusement. . . . Again, the personality of the teacher is a well-known factor in producing good or bad attendance. Lack of sympathy, harshness, carelessness, and incompetency will inevitably lower the attendance. . . .</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Mon, 12 May 2008 21:12:15 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Roman Children’s Sarcophagi]]></title>
+      <link>https://cyh.rrchnm.org/items/show/52</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Roman Children’s Sarcophagi</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text">Images of two Roman marble sarcophagi increase students&#039; awareness of material sources from Roman society and help them explore cultural differences through images from an unfamiliar society compared with visual material from their daily lives, raising questions about the place of childhood as a separate stage of life in pre-modern societies and about changing notions of childhood over time.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Beryl Rawson</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-04-28</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Case Study Item Type Metadata</h2>
+        <div id="case-study-item-type-metadata-case-study-image" class="element">
+        <h3>Case Study Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-text" class="element">
+        <h3>Case Study Text</h3>
+                                    <div class="element-text"><h3>Why I Taught the Sources</h3>
+
+<p>I use images of two Roman marble sarcophagi for topics on children and childhood in undergraduate courses on ancient society, family, gender, representations, and historiography. The sarcophagi can be used to study one period of antiquity or to examine changing notions of childhood over time.</p>
+
+<p>My aim in using the sarcophagi is to increase students' awareness of the rich variety of accessible material sources about Roman society—especially archaeological resources such as art, architecture,
+inscriptions, and topography—that can supplement traditional literary sources. A careful analysis of images from an unfamiliar society can help students already exposed to visual material in their daily lives become more discriminating in their interpretations.</p>
+
+<p>Students' present-day interest in children and childhood—in daily life and in academic studies—is a good basis on which to build. But there is a danger of applying our own modern, Western attitudes and
+values to other societies. Studying artifacts and texts from a different society raises questions of cultural differences. One basic question is whether childhood in pre-modern societies was recognized as a separate
+stage of life and children were valued; this has been debated since Ariès' book of 1962. <a href="#note1" id="fn1" class="footnote">1</a> Roman society of the first two or three centuries (CE) provides material
+to help students to enter this debate and make their own assessments.</p>
+
+<h3>How I Introduce the Sources</h3>
+
+<p>After providing a chronological background and introducing issues such as class and status, gender, urban context, and political structure earlier in the semester, I assign: Ariès, <em>Centuries of Childhood</em>, at least the Introduction; and Letter 4.2 of <em>The Letters of Pliny the Younger</em>. My aim is provide students with the
+evidence to challenge Ariès' claim about the "ignorance of childhood" in pre-modern ages that relied on a small range of literary sources.</p>
+
+<p>In order to do so, I provide an introductory lecture on the history of childhood studies and on available sources (including the nature of the material as well as the hazards of surviving literary, legal, archaeological sources). <a href="#note2" id="fn2" class="footnote">2</a> I also provide images of materials such as epitaphs, sculptures, and wall paintings related to children and Rome to stimulate thinking about the range of representations available.
+Students then divide into smaller groups of 10 to 15 to examine primary sources.</p>
+
+<h3>Reading the Sources</h3>
+
+<p>In these smaller groups, we analyze Pliny's apparently unsympathetic comments on the death of Regulus' son in the context of upper-class Roman male expectations of fatherhood, emotions, and Pliny's deep
+hostility to Regulus. Pliny's letter also shows the independent wealth of a mother and the possibility of a young male coming into independent wealth, either by the death of his father or by the legal technicality of being freed ("sold") from the power (<em>patria potestas</em>) of his father. <a href="#note3" id="fn3" class="footnote">3</a></p>
+
+<p>The comparatively large quantity of funerary commemoration of prematurely-dead children helps put Regulus' grief into perspective. Regulus' son had survived early childhood, so his death, in his early
+teens, was the more tragic.</p>
+
+<p>I also project images of various funerary items, including the two sarcophagi, on a screen. These raise the question of parental grief and grieving in a society of high mortality, challenging the claim sometimes
+made of indifference to children's deaths in societies with high rates of infant mortality. Each of the sarcophagi depicts a sequence of life-stages, and each can be dated to the first half of the 2nd century CE. <a href="#note4" id="fn4" class="footnote">4</a></p>
+
+<p>By contrast with simple epitaphs, these are quite expensive artifacts. On the first sarcophagus, the boy's name, M. Cornelius Statius (in the dedicatory form 'M. CORNELIO M. F. PAL. STATIO'), indicates that he is a freeborn Roman citizen.</p>
+
+<img class="content-thumb wide" src="http://chnm.gmu.edu/cyh/images/name.jpg" alt="M. Cornelius Statius" />
+<img class="content-thumb" src="http://chnm.gmu.edu/cyh/images/breastfeeding.jpg" alt="Roman Sarcophogus breastfeeding" />
+<p>The epitaph has been dedicated by the boy's parents ('PARENTES'). The family's dress and attributes, and the quality of the artifact, suggest a well-to-do family. The scenes depict the newborn infant, the child at play, and the child with teacher. The mother appears to be breast-feeding which raises the question about
+whether this was normal (in a society of wet-nurses) or whether the scene was idealized.</p>
+
+<img class="content-thumb" src="http://chnm.gmu.edu/cyh/images/father.jpg" alt="Roman Sarcophogus father holding child" />
+
+<p>The father's role in the nursing scene and in holding the infant often surprises the students. In well-to-do citizen families, with a household of slave retainers, the stereotype is of more distant relationships and limited contact between parents and children in the early rearing years. (Compare, for example, stereotypes of 19th century upper-class English families.)</p>
+
+<p>The scroll in the boy's hand as he recites his lesson to a teacher raises questions about many aspects of education, such as the availability of "books," importance of oral performance and memory, and existence of schools and private tutors. It also sparks discussion of children's modes of play, their engagement with animals (helping put young Regulus' pets in context), and children's place in the family.</p>
+
+<img class="content-thumb" src="http://chnm.gmu.edu/cyh/images/scroll.jpg" alt="Roman Sarcophogus scroll" />
+
+<p>The second sarcophagus also depicts an infant (in the arms of one of the parents in the carriage ride on the right-hand side of the stone) and play (as a toddler with a wheeled pusher or scooter, and a little older with a pet goose).</p>
+
+<img class="content-thumb" src="http://chnm.gmu.edu/cyh/images/arms.jpg" alt="Roman Sarcophogus infant" />
+<img class="content-thumb" src="http://chnm.gmu.edu/cyh/images/toddler.jpg" alt="Roman Sarcophogus toddler" />
+
+<p>But the last scene is of death, foreshadowed by the torches, often symbols of funerals, at each end of the sarcophagus. The parents again ride in a carriage, with the slightly older child between them, and they
+are led by a winged Cupid foreshadowing the child's soul ascending to heaven.</p>
+
+<imgclass="content-thumb"  src="http://chnm.gmu.edu/cyh/images/cupid.jpg" alt="Roman Sarcophogus cupid" />
+
+<p>At some stage in the discussion, students often raise the issue of the nature of the sarcophagus as an artifact. This leads to some questions about the disposal of the dead and how frequently sarcophagi
+were used. Epitaphs for children lead to issues of demography. Cremation remained dominant for many centuries, so why the growing popularity of sarcophagi in the 2nd century, well before any real impact of
+Christianity? Students also discuss the role of fashion and the greater scope of sarcophagi for sculptural decoration.</p>
+
+<h3>Reflections</h3>
+
+<p>Close examination of the sarcophagi usually increases students' ability to <em>read</em> art and artifacts, and thus their pleasure in viewing such material. This is partly an aesthetic experience, but also a methodological lesson. Students learn that <em>documents</em> can include all kinds of evidence of the past and realize that there can be
+more than one <em>reading</em> of a document. They realize the importance of assessing the author, his/her authorial intention, the intended reader or viewer, and the societal context. The importance of
+contextualization also emerges as students realize that a quick, impressionistic reading of any of these documents in isolation yields less understanding than a comparison and some attention to background.</p>
+
+<p>Moreover, the importance of dating the documents shows the increasing interest in representations of children, women, families, and slaves, whereas most of the sources for Rome before the 2nd century CE revealed a male, upper-class, political and military focus. That realization leads students to wonder about the differences in representations and to speculate about the role of a new political regime: its emphasis on peace and stability; growing affluence and leisure (for many, but not all); and the need of ex-slaves to record their upward mobility in the record of their children.</p>
+
+<div id="notes"> 
+
+<p><a href="#fn1" id="note1" class="footnote">1</a> Ariès, Philippe. <em>Centuries of Childhood</em>. New York: Vintage Books, 1962.</p> 
+
+<p><a href="#fn2" id="note2" class="footnote">2</a> Bradley, K. <em>Discovering the Roman Family: Studies in Roman Social History </em>. New York: Oxford University Press, 1991; 
+
+Dixon, Suzanne. <em>The Roman Family</em>. 	Baltimore : Johns Hopkins University Press, ©1992; and Rawson, Beryl.
+<em>Children and Childhood in Roman Italy</em>.	Oxford : Oxford University Press, 2003.</p> 
+
+<p><a href="#fn3" id="note3" class="footnote">3</a> Sherwin-White, A. <em>The Letters of Pliny. A Historical and Social Commentary</em>. Oxford : Oxford University Press, ©1966.</p> 
+
+<p><a href="#fn4" id="note4" class="footnote">4</a> Huskinson, Janet. <em>Roman Children's Sarcophagi: Their Decoration and Its Social Significance</em>. 	Oxford : Clarendon Press ; New York : Oxford University Press, 1996, illustrations 1.23 and 1.29.</p> 
+
+</div></div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Beryl Rawson</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">Professor Emerita and Adjunct Professor, Classics Program
+Australian National University</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-primary-source-id" class="element">
+        <h3>Primary Source ID</h3>
+                                    <div class="element-text">50, 51</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Mon, 28 Apr 2008 20:13:55 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[M. Cornelius Statius [Sarcophagus]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/50</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">M. Cornelius Statius [Sarcophagus]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Death is part of every society, but the rituals and objects surrounding death have varied across centuries and continents. They can often reveal many things about the role of children and families within a culture, from the nature of grieving to representations of childhood, from artistic preferences to child rearing norms. Dating from the first half of the 2nd century, CE, this Roman marble sarcophagus was an expensive funerary item created to commemorate the death of a young boy. The sarcophagus depicts a series of points in the life cycle of a child, from a newborn infant to a young child at play to an older child engaged in studies. The epitaph was dedicated by the boy's parents and the boy's name indicates that he was a freeborn Roman citizen.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Sarcophagus of M. Cornelius Statius. Ostia, Hadrianic period.  Louvre Museum, Paris. Photo © Réunion des Musées Nationaux / Art Resource, NY.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-04-28</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Beryl Rawson</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                                    <div class="element-text">Réunion des Musées Nationaux / Art Resource, NY</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">52</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                                    <div class="element-text">Location : Louvre, Paris, France</div>
+                    </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                                    <div class="element-text">Réunion des Musées Nationaux / Art Resource, NY</div>
+                    </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                                    <div class="element-text"><p>Roman sarcophagus depicting a series of points in the life cycle of a child.</p></div>
+                    </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/20/fullsize"><img src="/files/display/20/square_thumbnail" class="thumb" alt="M. Cornelius Statius [Sarcophagus]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Mon, 28 Apr 2008 19:49:57 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/20/fullsize" type="image/jpeg" length="169586"/>
+    </item>
+  </channel>
+</rss>

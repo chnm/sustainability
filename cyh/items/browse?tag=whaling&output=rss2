@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=whaling&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:24:28 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Laura Jernegan: Girl on a Whale Ship]]></title>
+      <link>https://cyh.rrchnm.org/items/show/484</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Laura Jernegan: Girl on a Whale Ship</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.girlonawhaleship.org/index.html</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Martha Vineyard&#039;s Museum</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">December 2012</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href="http://www.girlonawhaleship.org/index.html"><em>Laura Jernegan: Girl on a Whale Ship</em></a> brings to life pages of a young girl's <a class="external" href="http://www.girlonawhaleship.org/index.html">journal</a> kept during her three-year journey aboard her father's whaling ship, the <em>Roman</em>. The 42 pages of <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=27">Laura Jernegan's</a> journal include a catalogue of items, pets, and people aboard the ship as well as reports on everything from Laura's schoolwork to the crew's <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/section/chap.do?ID=18&amp;pg=6&amp;cardType=artifact&amp;shortName=cutting_in_ashley&amp;1st=t">processing of a whale</a>. Details about family life, work, and play in the largely adult and masculine world of whaling offer glimpses into the complexities of life aboard the ship&ndash;the simultaneous sense of adventure and monotony, community and isolation, and certainty and uncertainty that she felt during her journey.</p>
+<p><a class="external" href="http://www.mvmuseum.org/">Martha Vineyard's Museum</a>, the site's host, masterfully combines Laura's journal with memoirs of Laura and her mother <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=29">Helen</a>, boating logs, portraits, and other relevant items to recreate this rich and compelling story. Artifacts and pictures from the Library of Congress, the Nantucket Historical Association, the New Bedford Whaling Museum, and others linked throughout the site contextualize and enrich not only Laura Jernegan's story, but the histories of whaling and childhood.</p>
+<p>A nautically-themed <a class="external" href="http://www.girlonawhaleship.org/index.html">homepage</a> directs visitors the site's 14 primary links Large images of a whale with a harpoon and lance, a young girl, and an open diary link visitors to <a class="external" href="http://www.girlonawhaleship.org/jernapp/whaling.do">The Story of Whaling</a>, <a class="external" href="http://www.girlonawhaleship.org/jernapp/laura.do">Laura's Story</a>, and <a class="external" href="http://www.girlonawhaleship.org/jernapp/journal.do">Explore Laura's Journal</a>, respectively.</p>
+<p>Of these, <a class="external" href="http://www.girlonawhaleship.org/jernapp/laura.do">Laura's Story</a> will be the most compelling for scholars of childhood and youth. This section invites visitors aboard the <em>Roman</em> as the Jernegans pursued whales from Edgartown, Massachusetts, to the whaling grounds of the Pacific Ocean. Or follow Mrs. Jernegan and her children on their journey home aboard the steamer <em>Ajax</em> and the newly completed transcontinental railroad.</p>
+<p>A particularly interesting section features a <a class="external" href="http://www.girlonawhaleship.org/jernapp/artifact_trans.do?shortName=laura_letter_granma&amp;page=">letter</a> written by Laura to her grandmother highlighting the Jernegan's first five months at sea. In it, Laura shared details of her eight-day visit to Ohitahoo (an island in Polynesia) during which the queen invited the Jernegans to the royal palace for a feast including ten fruits&mdash;all of which Laura <a class="external" href="http://www.girlonawhaleship.org/jernapp/artifact_trans.do?shortName=laura_letter_granma&amp;page=p002&amp;pop=">named</a>.</p>
+<p>Peppered throughout <a class="external" href="http://www.girlonawhaleship.org/jernapp/laura.do">Laura's Story</a> are delightful diary excerpts that will entice viewers to <a class="external" href="http://www.girlonawhaleship.org/jernapp/journal.do">Explore Laura's Journal</a>. There visitors can flip the journal's pages, zoom, use a "Magic Lens" to generate typed transcriptions of selected paragraphs, listen as the journal is read aloud, or link to a transcription of the full text. Laura's journal allows viewers to see growth in Laura's penmanship, writing style, and vocabulary. These sections are primarily narrative &mdash; neither <a class="external" href="http://www.girlonawhaleship.org/jernapp/laura.do">Laura's Story</a> nor <a class="external" href="http://www.girlonawhaleship.org/jernapp/journal.do">Explore Laura's Journal</a> offer much historical analysis of Laura's life, her journal, or childhood in general, and information found in <a class="external" href="http://www.girlonawhaleship.org/jernapp/whaling.do">The Story of Whaling</a> is exclusively about whales and the people who pursued them.</p>
+<p>Other icons link to "Interactivities" (interactive learning activities) to more fully understand Laura's story and whaling as a profession. Visitors may explore the pages of <a class="external" href="http://www.girlonawhaleship.org/jernapp/journal.do">Laura's Journal</a>, learn more <a class="external" href="http://www.girlonawhaleship.org/jernapp/whales.do">About Whales</a>, view a <a class="external" href="http://www.girlonawhaleship.org/jernapp/map.do">Map of Whaling</a> areas, contextualize Laura's life with a <a class="external" href="http://www.girlonawhaleship.org/jernapp/timeline.do">Timeline</a>, and <a class="external" href="http://www.girlonawhaleship.org/jernapp/ship.do">Explore the Ship</a>. This section relates primarily to whaling; only <a class="external" href="http://www.girlonawhaleship.org/jernapp/journal.do">Laura's Journal</a> includes information specifically related to children and youth.</p>
+<p>Find limited content relating to childhood and youth by clicking on <a class="external" href="http://www.girlonawhaleship.org/jernapp/people.do">People</a> and tracing the lives of <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=27">Laura</a> and her brother <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=28">Prescott</a> from birth to death. Scroll through the <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/category.do?ID=12">Everyday Life</a> subsection under <a class="external" href="http://www.girlonawhaleship.org/jernapp/artifacts.do">Artifacts</a> to find a school slate with slate pencil, a geography book, and four children's literature books.</p>
+<p><a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=17">More About</a> leads visitors to ten brief essays with bibliographies about the age of whaling, two of which, <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=17">19th Century Children's Literature</a> and <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=18">Schooling in the 19th Century</a>, includes information relevant study of childhood and youth.</p>
+<p>Hidden beneath the bottom tier are barely visible links that provide useful information for instructors and researchers. <a class="external" href="http://www.girlonawhaleship.org/jernapp/teachers.do">For Teachers</a> links to three unit plans written by experienced educators with lessons that incorporate whaling into classrooms from first grade to high school. Of these, only <a class="external" href=" http://www.girlonawhaleship.org/jernapp/teachers/unit.do?ID=49">"Whaling in Four Lessons,"</a> which suggests students compare and contrast their lives with Laura's, deals directly with childhood.</p>
+<p>Unfortunately, there is no option to search directly for key terms like "children," "boy," or "girl." This significant oversight makes it difficult to find specific words or subjects. Despite this, <a class="external" href="http://www.girlonawhaleship.org/index.html"><em>Laura Jernegan: Girl on a Whale Ship</em></a> is useful for those seeking primary source material on the myriad of subjects with which Laura Jernegan's young life intersected and to students wishing to learn more about the whaling industry and the adventures of a young girl and her family aboard a whaling ship.</p></div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Mary A. McMurray</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">University of Kansas</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">Laura Jernegan: Girl on a Whale Ship brings to life pages of a young girl’s journal kept during her three-year journey aboard her father’s whaling ship, the Roman. </div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/519/fullsize"><img src="/files/display/519/square_thumbnail" class="thumb" alt="Laura Jernegan: Girl on a Whale Ship" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Thu, 07 Mar 2013 17:25:04 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/519/fullsize" type="image/jpeg" length="14980"/>
+    </item>
+  </channel>
+</rss>

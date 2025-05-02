@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=%3Cem%3EIkhwezi%3C%2Fem%3E&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:24:34 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[A Rover Scout "Journey" [Memoir/Article]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/103</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">A Rover Scout &quot;Journey&quot; [Memoir/Article]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Rover scouting was a branch of the movement for young men in their late teens and early twenties who were too old for regular scout troops but wished to maintain their ties to scouting. It stressed service and leadership while offering a measure of vocational training. South Africa was the only English-speaking African territory in the colonial era to support African rover "crews." Nevertheless, rovering was well suited to African schools where students tended to be older and thus ineligible to join conventional scout troops. One of the central features of the scout and rover curriculum was the "journey" in which a young man learned to be resourceful while traveling by himself in strange and unfamiliar territory. For younger scouts the journey usually took the form of a hike in the country, but Bethuel Mofokong traveled for almost three days by foot, bus, and ferry while journeying from one school to another. Although he does not mention it, the trip must have been particularly difficult in apartheid-era South Africa when the authorities placed strict controls on African travel. It is more than likely that Mofokong's rover uniform made the journey possibly by demonstrating to policemen, officials, and members of the white public that he could be trusted.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Mofokong, Bethuel.  "First Journey to Unknown Province and College." <em>Ikhwezi</em>, April 1949. South Africa Scout Association Archives, University of Cape Town. Annotated by Tim Parsons.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-06-26</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Tim Parsons</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">95</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3>Departure from East London</h3>
+	<p>I left East London on Sunday, 30 January 1949 for Edwaleni Technical College. . .  . The weather that day was cloudy and rain fell intermittently. I was taken by car to Down Station where I found the District [Scout] Commissioner and many scouts waiting for me. . . . The scouts and I hold [a] short farewell meeting where I was given a good sum of shillings for my provision. . . . As the train left Down Station I said goodbye to everybody who had come to see me leave for the Province and College unknown to me far, far away.</p>
+
+<h3>Arrival at Umtata</h3>
+	<p>We arrived at Umatata at 4 a.m. on Monday. I waited at the station for a bus which was to leave for Port St. Johns. At the station there were students going to [schools] in Natal, others were going to Lovedale, St. Matthews, etc, and also workers who were going to Natal especially Durban.</p>
+
+<h3>Port St. Johns</h3>
+	<p>We arrived at Port St. Johns at 10 a.m. on the same day. In the rail I took my luggage to a boarding house. . . . The town is full of trees. Some houses are half covered with trees and as you walk along the streets you can hear good melody from the frogs. . . . It is almost like a jungle. I found the climate here tropical. Bananas are cheap and galore. . . . The next morning I went to the Pontoon [Bridge], but the Pontoon was not working, only boats were used to take the people across. I crossed the river and waited for the bus. . . . In the bus I made friendship with T.K. Ntshiyantshiya a lawyer's interpreter who had been to Port St. Johns with his master.</p>
+
+<h3>At Lusikisiki</h3>
+	<p>There are no boarding houses here, I had to sleep outside in a verandah of a shop but Ntshiyantshiya came to the rescue, took me to his relatives – 2.5 miles out of Lusikisiki. We got a bus for Port Shepstone. . . and from there to Umtamvuna, which is the boundary between Cape Province and Natal. . . . [From my destination at Rice's Halt] we went on foot to the school. . . . This is the first time [I visited] the institution. I arrived on the 3rd February 1949.  The journey was one which gives one experience and many shocks, and jars I found on the way are nothing to one who has a bit of scout training.  I was not disappointed on my way but I kept on saying to myself 'Be Prepared for anything you come across.'</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Thu, 26 Jun 2008 17:16:32 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

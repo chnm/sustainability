@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=Child-Rearing&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:18:37 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Ancient China]]></title>
+      <link>https://cyh.rrchnm.org/items/show/187</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Ancient China</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text">The primary sources in this module lay out the  historical conditions that made children important topics of intellectual engagement during Han times and explore themes such as nature vs nurture, separation of the sexes and gender differentiation, the concept of the child as an embodiment of cosmic process and heavenly order, and issues surrounding the status of the child  in the family, the state and gerontocratic Chinese culture.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Anne Kinney</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2009-01-15</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Teaching Module Item Type Metadata</h2>
+        <div id="teaching-module-item-type-metadata-bibliography" class="element">
+        <h3>Bibliography</h3>
+                                    <div class="element-text"><ol class="bibliography">
+
+<li>Hsiung, Ping-chen. <em>A Tender Voyage: Children and Childhood in Late Imperial China.</em> Stanford: Stanford University Press, 2005, 103-27.<br />
+
+<span>This reading helps contextualize Primary Source No. 6 (early education). Since my module focuses on early China, Hsiung's book is an excellent introduction to the history of childhood in mid- and late imperial China</span></li>
+
+<li>Kinney, Anne. <em>Representations of Childhood and Youth in Early China.</em> Stanford: Stanford University Press, 2004, 53-96.<br />
+
+<span>This reading provides further discussion of the parents' right of life and death over their offspring and may be used to supplement primary Source No. 3. The entire book also provides copious materials to contextualize all of the primary sources in this module.</span></li>
+
+<li>Waltner, Ann. “Infanticide and Dowry in Ming and Early Qing China.” In <em>Chinese Views of Childhood</em>, edited by Anne Kinney, 193-218. Honolulu: University of Hawaii Press, 1995.<br />
+
+<span>While this book is useful for providing background for this module, Waltner's article that discusses the link between the practice of female infanticide and girls' prospects for marriage can help contextualize Primary Source no. 3 (infanticide) as well as Primary Source No. 4 (A Girl prodigy).</span></li>
+
+<li>Waltner, Ann. “Representations of Children in Three Stories from <em>Biographies of Exemplary Women</em>.” In <em>Children in Chinese Art</em>, edited by Ann Barrott Wicks, 84-107. Honolulu, University of Hawaii Press, 2002.<br />
+
+<span>This article, one of many useful resources in the book in which it appears, discusses several different depictions of the story relayed in Primary Source no. 1—the childhood of the philosopher Mencius (Mengzi)—and the cultural connotations of each individual representation. An additional illustration of this story appears in Hsiung's book (cited above), on p. 138.</span></li>
+</ol></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-document-based-question" class="element">
+        <h3>Document Based Question</h3>
+                                    <div class="element-text"><p>by Jessica Hodgson<br />
+<em>(Suggested writing time: 50 minutes)</em></p>
+
+<p>Using the images and texts in the documents provided, write a well organized essay of at least five paragraphs in response to the following prompt:</p>
+<ul>
+<li>Evaluate the purpose and role of education for children in Ancient China.</li>
+</ul></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-credits" class="element">
+        <h3>Credits</h3>
+                                    <div class="element-text"><p>Grateful acknowledgment is made to the following institutions for primary sources:</p>
+<ul>
+<li><a class="external" href="http://www.brill.nl/">E.J. Brill</a>,</li>
+<li><a class="external" href="http://www.penguin.com/">Penguin Books</a>,</li>
+<li>Shandong Cultural Relics and Archeology Institute,</li>
+<li><a class="external" href="http://www.sup.org/">Stanford University Press</a>,</li>
+<li>University Books,</li>
+<li><a class="external" href="http://www.uhpress.hawaii.edu/cart/shopcore/?db_name=uhpress">University of Hawaii Press</a>,</li>
+<li><a class="external" href="http://www.virginia.edu/">University of Virginia</a>,</li>
+<li><a class="external" href="http://www.sdmuseum.com/">Shandong Provincial Museum</a>,</li>
+<li><a class="external" href="http://wenwu.com/">Wenwu chubanshe</a>, and</li>
+<li><a class="external" href="http://www.zhbc.com.cn/">Zhonghua shuju</a>.</li>
+</ul>
+<h3>About the Author</h3>
+
+<p>Anne Kinney is a Professor of Chinese at the University of Virginia. Among her recent publications are <em>Representations of Childhood and Youth in Early China</em> and <em>The Establishment of the Han Empire and Imperial China</em>. She is currently at work on an annotated translation of Lienüzhuan (Traditions of Exemplary Women) and a digital research collection for the study of women in early China.</p>
+
+<h3>About the Lesson Plan Author</h3>
+
+<p>Jessica Hodgson teaches Advanced Placement World History and World History and Geography at South County Secondary School in Fairfax County, VA.  She has traveled to China as part of a Fulbright-Hays seminar, is a National Writing Project alumnus and  has studied the life, music and history of J. S. Bach through a National Endowment for the Humanities summer institute.  When she is not teaching, she plays the cello with an amateur string quartet.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">University of Virginia</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-introduction" class="element">
+        <h3>Introduction</h3>
+                                    <div class="element-text"><p>The unprecedented interest in the child who assumed unique importance in the Han period was set into motion by a convergence of historically-specific conditions: (1) the establishment in the Qin dynasty (221-207 BCE) and the further development in Han times (206 BCE-220 CE) of a merit-based civil service, which increased the educational and occupational opportunities of boys moving up the social ladder; (2) and the frequency with which children came to the throne unprepared to govern; (3) the attempt to further the Confucian project by advising women about various methods of child-rearing and instruction for young children; (4) the effort to educate girls about their proper roles in society because of  an increasing anxiety over the influence of women in political events; (5) the growing influence of Han Confucianism, which stressed early education and argued for the establishment of a large-scale public school system; (6) the new centrality of correlative and occult thought which linked the child to cosmic processes and by extension to all of the major disciplines of intellectual inquiry; (7) the formation of a <strong>textual canon</strong>, which defined cultural mastery and established a clear standard by which to measure achievement; (8) the emergence of <strong>biographical writing</strong> which took into account significant events of childhood. What follows is an elaboration on the factors and forces that led to the emergence of the child as a topic of significant cultural attention.</p>
+	<p>What contributed to the rising recognition of children's important in Han society was the consolidation of a unified empire that depended in part on a meritocratic system of advancement for its civil and military officials. The large-scale and complex activities and agenda of the centralized state required the ruler to take stock of, utilize, and develop the potential of his human resources to the fullest. Thus, in Qin times, we see the new imperial government registering, taxing, and demanding labor and military service from each household in the empire according to the age and gender of its family members. We also see the enactment of laws punishing infanticide, infant abandonment, and filicide in this period in order to husband state resources. But when the energetic and visionary First Emperor of Qin died in 209 BCE his son proved unequal to the task of imperial rule, and the Qin fell four years later.<p>
+		<p>When the first Han emperor, Liu Bang, emerged victorious in the wars that followed Qin's collapse, the Han faced the same tasks of training and installing a bureaucracy, but with the additional responsibility of inquiring into the reasons behind Qin's downfall and rectifying its errors. To that end, an increasing number of intellectuals urged Han rulers to take care in the education of heirs to throne, to ensure that when these boys replaced them they would govern wisely and maintain the health and continuity of the dynasty. They advised women about various methods of child-rearing and instruction for young children, and the sooner the better, because they saw early childhood training as crucial to the development of an accomplished adult. They also called for the establishment of a public school system to prepare boys for the civil service. The recent and precipitous demise of Qin and the fragility of the Han empire in the opening years of the dynasty provided a vivid reminder of what was at stake and gradually worked to train both imperial and intellectual attention on childhood as a means of stabilizing and fortifying imperial rule.</p>
+		<p>In contrast to the diverse and plentiful materials on boys in Han sources, we see little intellectual engagement with issues specifically concerned with girls. In Han times, women played a fairly small role in both the civil service and the military. Consequently the education of girls did not attract nearly the same level of attention as that devoted to the intellectual development of boys. A poignant example is the story of how, when the Empress Deng was a small child, her mother scolded her for attending more closely to classical learning than to needlework and asked her if she thought she was preparing for a post at the Imperial Academy as Erudite.  Nevertheless, from the about 74 BCE onward, increased anxiety over the influence of women in political events and the threat they posed to dynastic stability resulted in efforts to educate girls about their proper roles in society, using as models for emulation the lives of exemplary women from antiquity. While it is impossible to say how many girls and young women outside of court or literati circles received this sort of training, we do know that the goal of female education differed from that for boys. Girls were not instructed to further their own ambitions but for the sake of the moral, intellectual and professional development of their fathers, brothers, husbands, and sons. Still, toward the end of the Former Han, as ambitious men of the gentry were increasingly appraised for their Confucian morals, their womenfolk also came under closer scrutiny. At the same time, drawing on both imperial Qin and Han Confucian models, the government made sporadic efforts to reach out to all of its subjects in an attempt to bind them more closely to the ruling house. This endeavor included not just women and girls of the court and the gentry, but a broader base of female subjects, who were recognized by way of special grants and awards for values such as chastity and obedience.</p>
+		<p>Confucian education, with its reverence for institutions that privileged elders, ancestors, and worthies of antiquity, promoted the study of classical texts and moral exemplars of ages past so as to gradually shape the child according to canonical molds. Thinkers associated with Daoist thought, on the other hand, traced the infant's life back to a cosmogonic process, linking it to the workings and laws of nature rather than to the power of ancestors and human artifice.</p>	
+		<p>The theme of the precocious child, linked as it was to the struggles of worthy and often obscure figures in the establishment of a divinely sanctioned order, is another reflection of the sensibilities of the Qin and Han empires. They replaced, in varying degrees, aristocratic entitlement with a system of ranks based on merit. The merit system sought not only adult males but also young boys, who were groomed at increasingly earlier ages for bureaucratic positions and who were recommended in response to occasional imperial edicts that sought youths with extraordinary gifts and great promise. Biographical writings of the Han reveal a similar new fascination with the intellectual capacities of young children.</p>
+		<p>In conclusion, the dynamic convergence of a variety of historical conditions led children to became important topics of intellectual engagement and the significant subjects during Han times. And we can single out the creation of a unified empire as the most momentous and profound impetus for the unprecedented focus on children in early China.</p>
+	<p>The key themes in this module are (1) nature vs nurture (e.g., wisdom and virtue as inborn vs life-long cultivation of learning and virtue); (2) separating the sexes and gender differentiation: the "inner" (private/domestic) realm of women vs the "outer" (public/official) realm of men; (3) the low status of the child in a gerontocratic culture vs the child as an embodiment of cosmic process and heavenly order; and (4) the child's low status in the family vs the child as valued property of the state.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Anne Kinney</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-strategies" class="element">
+        <h3>Strategies</h3>
+                                    <div class="element-text"><h3>1. Compare the biographies of <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/189">Mencius</a> and
+<a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/192">Empress Deng</a> 
+(Primary Sources 1 & 4).</h3>
+
+<p>The fascination with precocity in the Later Han dynasty seems linked to developments in the civil service system and the testing of candidates for various posts, a system not that alien to our own civil service exams or SAT and GRE testing. As the Later Han bureaucracy became more entrenched along with abuses of the system, precocity came to stand for basic administrative promise and also for the possibility of stemming the tide of corruption. One of the general standards of moral behavior against which a candidate was measured was the requirement of incorruptibility. The virtue of incorruptibility in an official implied that he would remain pure in the company of less scrupulous individuals and in spite of temptations to abuse the power granted to him. Although the connection between incorruptibility and precocity is not immediately obvious, a statement of Confucius makes it clear in what sense early moral discretion may have vouched for an individual's integrity.</p>
+<p>Confucius said that the highest form of wisdom is seen in those who are born wise. Furthermore, according to the <em>Analects</em>, only those possessed of extreme goodness cannot be changed.  To claim that a child was born wise, and therefore good, was subtly to suggest that he was at the same time incorruptible, because a child born with a superior natural endowment could not be changed and thus tainted by even the most impure environment. Thus, the manifestation of moral traits in an infant or small child may have served as evidence of his inborn goodness, and by extension, as an indication of his imperviousness to corruption--a highly attractive prospect for those seeking honest officials for employment.</p>
+<p>Finally, far from illustrating a belief in the importance of birth over merit, the motif of the child born wise is associated with the struggles of worthy and often obscure or socially challenged figures in the establishment of a divinely sanctioned or at least superior order. The biography of Empress Deng, in this way suggests that although she is a mere women and lacking in aristocratic credentials, the merit of her family has gained Heaven's favor, but only because she is seen as a fitting person to lead the world into a new and higher order. When such a hero or heroine rises from obscure or humble beginnings to a key historical role, he empirically 'proves' that the world is ultimately governed by virtue after all, despite all evidence to the contrary.</p>
+<p>On the other hand, Han Confucian thinkers charted a child's intellectual and moral progress along a gentle upward curve that began its ascent at conception. By the time of early adulthood, the moral and intellectual abilities were considered complete, but only in the sense that the child was now a fully functioning adult. From this state of readiness, the mature cultivation of virtue could begin and was supposed to continue throughout the course of a lifetime. Like schematizations of the child's moral progress, Confucian attempts to chart the child's biological development also stress the incomplete nature of the infant and the body's gradual evolution into fully human form. This tendency stands in sharp contrast to the propensity to focus on well-developed capacities in young children.</p>  
+<p>In summary, then, early Han Confucian descriptions of a child's intellectual, moral and biological development are generally based on the notion that a virtuous adult is the culmination, and perhaps, the triumph, of a long, gradual process which begins at conception. While ignoring childhood as a valuable stage of human development per se, the emphasis placed upon the undeveloped nature of the infant and the child also represents a bold challenge to the notion that privilege is a matter of birth alone.</p>  
+<p>While the emphasis on merit accumulated over the course of a lifetime rather than privilege based on birth that may have originally served to warn young power-holders about the dangers of complacency, it also paved the way for poor but determined boys to rise to positions of national importance. It is historically documented, for example, that a boy named Ni Kuan (fl. 120 BCE), for example, who hired himself out as a manual laborer to pay for his education, and who "carried a copy of the classics with him as he hoed," eventually rose to the status of imperial counselor. Thus, according to Former Han Confucian thought, a boy's future social worth depended not upon pedigree alone but on the gradual accumulation of virtue and learning as well. And though family wealth must have frequently determined a boy's access to education, the path to privilege, at least in theory, was open to all boys who could match Ni Kuan's perseverance.</p>
+
+<h3>2. Compare gender roles as described in Source 4 (<a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/192">Empress Deng bio</a>) and Source 6 (<a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/194">Early Education</a>).</h3>
+
+<p>These two readings illustrate how we should question:</p> 
+<ul>
+<li>the extent to which people in real life adhered to the dictates of prescriptive texts, and</li>
+<li>how writers in early China justified women whose behavior was not in keeping with traditional gender roles.</li>
+</ul>
+<p>One of the key elements in the biography of Empress Deng seems to be the merit and virtue of her male kin and the empresses' seeming and seemly lack of ambition. She turns down her first opportunity to enter the court in order to mourn the death of her father, demonstrating her prioritizing filial piety over thirst for power.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-lesson-plan" class="element">
+        <h3>Lesson Plan</h3>
+                                    <div class="element-text"><h3>Lesson Plan: Ancient China</h3>
+<p>by Jessica Hodgson</p>
+<p><strong>Time Estimated:</strong> three  50-minute classes</p>
+<p><strong>Prior Knowledge</strong><br />
+Students will need to have an understanding of Confucian values in order to complete this lesson.</p>
+<h3>Objectives</h3>
+<ol>
+<li>Analyze the role that education and Confucian values play in childhood in Ancient China.</li>
+<li>Compare the educational opportunities available to girls and boys in Ancient China.</li>  
+<li>Analyze how these differences demonstrate Confucian values.</li>
+</ol>
+
+<h3>Day One</h3>
+<p><em>Warm Up: The American Education System</em><br />
+Students will think about and answer <a class="external" href="http://chnm.gmu.edu/cyh/images/187_Warm_Up_Exercise.pdf">some questions</a> about their education. They will then share those answers out with the class.</p>
+
+<p><em>Brainstorm</em><br />
+Students will brainstorm a list of Confucian ideals as a class.</p>  
+
+<p><em>Document Analysis</em><br />
+Divide the students into pairs and assign each pair one of the documents to read. They should complete the <a class="external" href="http://chnm.gmu.edu/cyh/images/Document_Analysis.pdf">document analysis sheet</a>. Using what they have learned from their document, they should identify specific quotes from the documents that demonstrate how education reflects Confucian values. They will then share what they have learned from the document with the rest of the class. Other students will record the responses on additional document analysis sheets.</p>
+
+<h3>Day Two</h3>
+<p><em>Poster Activity</em><br />
+Using the documents, students will work in groups of 3 to create posters. Divide the groups and randomly assign the students a topic for their poster (either a poster that is an advertisement for a girls' school in Ancient China or a poster that is an advertisement for a boys' school in Ancient China)</p>
+
+<p>The posters should meet the following criteria:</p>
+<ul>
+<li>The title/name of the school</li>
+<li>A slogan that would make someone want to go to the school</li>
+<li>At least two neat and colorful illustrations that show what kinds of lessons someone would be taught in the school</li>
+</ul>
+
+<p>Students will share their posters with the class</p>
+
+<p><em>Homework</em><br />
+For homework, students will prepare for a Socratic Seminar.</p>
+
+<h3>Day Three: Socratic Seminar</h3>
+<p>Students will participate in a Socratic Seminar in which they will discuss the following questions:</p>
+<ul>
+<li>What seems to be the purpose of the American education system? How do you know? (Give examples)</li>
+<li>What seems to be the purpose of the Ancient Chinese education system? How do you know? (Give examples)</li>
+<li>Why are educational systems necessary?</li>
+<li>How do governments use educational systems to further their goals for the country?</li>
+</ul>
+
+<p><em>Directions for a Socratic Seminar</em></p>
+<ul>
+<li>Understand the question(s) for the seminar.</li>
+<li>Read the source(s).</li>
+<li>Take notes from the sources to help you answer the question(s).</li>
+<li>Comment about one of the following (5 pts.)<br />
+<ol>
+<li>information in the sources</li>
+<li>validity of evidence used by the author(s)</li>
+<li>the strength of the argument (thesis)</li>
+<li>to respond to a question asked by someone else</li>
+<li>to respond to a comment made by someone else</li>
+</ol></li>
+<li>Ask a question about one of the following (5 pts.)<br />
+<ol>
+<li>information in the sources, e.g., vocabulary</li> 
+<li>validity of evidence used by the author(s)</li>
+<li>the strength of the argument (thesis)</li>
+<li>to respond to a question asked by someone else</li>
+<li>to respond to a comment made by someone else</li>
+</ol></li>
+</ul></ol>
+
+<p>Maximum of 10 points per student.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-primary-sources" class="element">
+        <h3>Primary Sources</h3>
+                                    <div class="element-text">189, 190, 191, 192, 193, 194, 195, 196, 197, 198</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Fri, 16 Jan 2009 00:42:56 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

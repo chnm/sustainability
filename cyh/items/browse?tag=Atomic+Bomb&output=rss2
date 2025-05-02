@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=Atomic+Bomb&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:19:35 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Hiroshima Peace Memorial Museum]]></title>
+      <link>https://cyh.rrchnm.org/items/show/392</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Hiroshima Peace Memorial Museum</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.pcf.city.hiroshima.jp/index_e2.html </div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Hiroshima Peace Memorial Museum</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">January 2010</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>Viewing the <a class="external" href="http://www.pcf.city.hiroshima.jp/index_e2.html "><em>Hiroshima Peace Memorial Museum</em></a> site takes time, as it is very dense in content and full of narratives, documents and images. The site's organization leads from an intense and unblinking description of the horror of the atomic bomb blast through the suffering and destruction of its aftermath, survivors' (<em>hibakusha</em>) stories, reconstruction of the city, and the determination to make of the memorial an enduring message of peacemaking. The historical material that is presented from multiple angles carefully allows the material to speak for the catastrophe and reconstruction.</p> 
+<p>The site's <a class="external" href="http://www.pcf.city.hiroshima.jp/index_e2.html">home page</a> is laid out vertically into five main areas: the <a class="external" href="http://www.pcf.city.hiroshima.jp/virtual/index.html">Virtual Museum</a>, <a class="external" href="http://www.pcf.city.hiroshima.jp/kids/index.html">Kid's Peace Station</a>, <a class="external" href="http://www.pcf.city.hiroshima.jp/Peace/E/index.html">Steps Toward Peace</a>, the <a class="external" href="http://www.pcf.city.hiroshima.jp/declaration/English/index.html">Peace Declaration</a>, and <a class="external" href="http://www.pcf.city.hiroshima.jp/link/linke.html">Links</a>. A virtual museum visit provides a tour of <a class="external" href="http://www.pcf.city.hiroshima.jp/virtual/VirtualMuseum_e/tour_e/tour_fra_e.html">Peace Park</a>, a memorial at the center of reconstructed Hiroshima, which also houses the museum. The website includes a virtual tour, floor plans of the exhibits and a recommended sequence for visiting, and links to online highlights from the exhibits. <a class="external" href="http://www.pcf.city.hiroshima.jp/virtual/VirtualMuseum_e/exhibit_e/exhi_fra_e.html">Special exhibitions</a> include photographs of the damage, artifacts, film footage, artwork from survivors that describes the effects of the blast, and an array of scientific information on the effects. A considerable part of the site is devoted to the <a class="external" href="http://www.pcf.city.hiroshima.jp/Peace/E/pNuclearTop.html">campaign for disarmament</a> and elimination of nuclear testing and ultimately, weapons. It includes maps of current nuclear powers, protests against testing, and the Peace Declaration, a speech delivered by the mayor of Hiroshima every year since 1947 on the occasion of the anniversary of the atomic bomb in Hiroshima, which annually reiterates the plea for the world to eliminate nuclear weapons.  A video features the <a class="external" href="http://www.pcf.city.hiroshima.jp/declaration/English/2009/move.html">most recent Peace Declaration</a>. There are also links to <a class="external" href="http://www.mayorsforpeace.org/english/hnpc/hnpc_top.html">peace study courses</a> at universities from MIT to community colleges and high schools, as well as online courses. The "search" feature is organized by topic in addition to allowing keyword searches.</p> 
+<p>The site's special area for children's viewing and responses via e-mail is called the <a class="external" href="http://www.pcf.city.hiroshima.jp/kids/index.html">"Kids' Peace Station and Peace Plaza."</a> There is a lot of content on children, many of whom had been mobilized as school-based crews in the city before the blast to dismantle buildings and create firebreaks in anticipation of "conventional" bombing. In addition, those who are still living were mostly children at the time. Finally, a large portion of the content is aimed at children, from the symbolic origami-folded cranes made by children in memory of the girl Sadako, to the hopes of the next generation for peace, and active education to achieve it. An interesting part of the site is the area for children's input from around the world. A main feature includes <a class="external" href="http://www.pcf.city.hiroshima.jp/frame/kids_e/index.html">presentations</a> on peace activities in various lands by school classes, such as, charity projects, letter-writing campaigns, and symbolic activities surrounding the paper cranes.</p>
+
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">George Mason University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">Viewing the Hiroshima Peace Memorial Museum site takes time, as it is very dense in content and full of narratives, documents and images.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/427/fullsize"><img src="/files/display/427/square_thumbnail" class="thumb" alt="Hiroshima Peace Memorial Museum" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Fri, 15 Jan 2010 23:34:39 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/427/fullsize" type="image/jpeg" length="157085"/>
+    </item>
+  </channel>
+</rss>

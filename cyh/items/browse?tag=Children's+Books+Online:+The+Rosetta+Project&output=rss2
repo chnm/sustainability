@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=Children%27s+Books+Online%3A+The+Rosetta+Project&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:25:49 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Children's Books Online: The Rosetta Project]]></title>
+      <link>https://cyh.rrchnm.org/items/show/414</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Children&#039;s Books Online: The Rosetta Project</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.childrensbooksonline.org/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Beck Foundation</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">February 2010</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href="http://www.childrensbooksonline.org/"><em>Children's Books Online: the Rosetta Project</em></a> is a unique effort to make illustrated, "antique" children's books accessible. The site, supported by the <a class="external" href="http://www.thebeckfoundation.org/">Beck Foundation</a>, claims to have originated with a single collector, but supporting documentation is thin. It has grown to "tens of thousands of illustrated pages" in several languages, according to the text, with new books appearing every week. </p>
+<p>Despite a less than optimal site design and reading interface, the content is very rich and will provide pleasure for readers and research material for scholars and students. The several hundred books date to the 19th and early 20th centuries, and include original editions of such classic stories as <a class="external" href="http://www.childrensbooksonline.org/pinocchio/index.htm"><em>Pinocchio</em></a>, <a class="external" href="http://www.childrensbooksonline.org/alice_in_wonderland/index.htm"><em>Alice in Wonderland</em></a>, <a class="external" href="http://www.childrensbooksonline.org/max_und_moritz/index.htm"><em>Max and Moritz</em></a>, as well as Kate Greenaway poems, fairy tales, children's book series and a few early textbooks. Nursery rhyme books and alphabet books, with their period illustrations, offer a window into American and European middle- and upper-class childhood, as well as artists' conceptions of children of non-literate classes.</p> 
+
+<p>While many of the line drawings, woodcuts, and lithographs show idealized views of childhood, others contain text and images that would be considered racist or inappropriately violent today. These stories and images serve as primary source material for the history of childhood, reflecting images of childhood and projections of normative standards for children. These include some very harsh views of historical childhoods in which poverty, illness, cruelty, and caprice were perceived as normal. Views of class distinctions can also be glimpsed, as well as standards of living and items of consumption.</p>
+<p>The site's layout and design are needlessly cluttered and cumbersome. The designers used the books' illustration material to create logos and clip art, but used them too liberally. The layout of the <a class="external" href="http://www.childrensbooksonline.org/">homepage</a> against a white background requires a lot of scrolling. The alternating text and links sections are poorly spaced, with some duplication, and requires too much effort. For example, an inconspicuous link <a class="external" href="http://www.childrensbooksonline.org/library.htm">"To the library"</a> connects to the booklist but so does clicking on a red wagon. A few featured book titles are linked near the top of the page, but access to the library page should be better highlighted. The "library" link is mislabeled <a class="external" href="http://www.childrensbooksonline.org/library.htm">"Table of Contents,"</a> and embellished with an optically disturbing page background, more clip art, more featured books, and more scrolling until the user reaches a set of illustrated, hyperlinked panes that navigate through the library.</p> 
+<p>Five panes indicate books indexed by age and interest level, from pre-reader to adult, each linked to a list of hyperlinked titles that connect to the reading interface. Three of these panes link to a list of multiple language books, an alphabetical "super-index," and the search interface. The various art image logos reappear on some page footers as navigation symbols leading to the home page, library, store, search, donate, and volunteer pages. A tighter design would increase functionally and clarity.</p>
+<p>The reading interface is neither as simple nor as attractive as it could be. For example, book titles are written in code as well as presented as thumbnail images too small to be read. These "open" the books that then enable readers to turn pages by clicking navigation arrows. A few multimedia books are also available with audio readings. At the <a class="external" href="http://www.museumstorechildrensbooksonline.org/PDShopPro/shop/">Rosetta Museum Store</a> downloads can be purchased.</p> 
+<p>The foreign language reader is very clumsy but free of charge. Below each page view is a list of languages in which the book has been translated. Clicking the button for a language brings a pop-up screen positioned over the page but it has to be moved to view the illustration again. Paging forward, the window disappears, and the reader has to close and re-select the language button for each page of the translation. This detracts from the flow of reading: page-select language-move window-read—repeat.</p> 
+<p>The Rosetta Project's reader interface thus compares unfavorably with the <a class="external" href="http://chnm.gmu.edu/cyh/website-reviews/415">International Children's Digital Library (ICDL)</a>. (ICDL books available in multiple languages replace the original text with the translation language directly on the page image.) Despite the flaws in the site design, the Rosetta Project offers a rich resource for educators and researchers alike, and an excellent, accessible archive of the canonical works and curiosities of children's literature.</p> 
+
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">George Mason University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">Despite the flaws in the site design, the Rosetta Project offers a rich resource for educators and researchers alike, and an excellent, accessible archive of the canonical works and curiosities of children’s literature.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/443/fullsize">children of the wigwam.jpg</a></div>]]></description>
+      <pubDate>Tue, 02 Mar 2010 14:20:00 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/443/fullsize" type="image/jpeg" length="65239"/>
+    </item>
+  </channel>
+</rss>

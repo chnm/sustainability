@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=English+childhood&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:24:16 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Victoria and Albert Museum of Childhood]]></title>
+      <link>https://cyh.rrchnm.org/items/show/247</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Victoria and Albert Museum of Childhood</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.vam.ac.uk/moc/index.html</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Victoria and Albert Museum</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">May 2009</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>The <a class="external" href="http://www.vam.ac.uk/moc/index.html">Victoria and Albert Museum of Childhood</a> is a delightful place on the web that encourages viewers to explore the themes of childhood past and present, and invites children, adults, and whole communities to participate in childlike play and creativity. From serious studies of childhood mortality and slavery to the development of toys and games, the V & A Museum highlights English childhood, as well as some aspects of European and, to a lesser extent, world childhood. The museum has successfully captured contemporary childhood as well as historical aspects.</p>
+
+<p>The site combines serious archival functions related to an important topic in social history with an invitation to interact and play. It also allows viewers to experience the <a class="external" href="http://www.vam.ac.uk/moc/your_visit/permanent_displays/index.html">permanent exhibit halls</a> through an interactive <a class="external" href="http://www.vam.ac.uk/moc/your_visit/360_degree_virtual_tour/index.html">360-degree virtual tour</a>. Exploring this feature is disappointing only in that the zoom feature doesn't take the viewer into close-ups of the display cases or objects.</p> 
+
+<p>The museum as a whole presents its collections in text and image for researchers. The images are too small for highly detailed objects like an <a class="external" href=" http://www.vam.ac.uk/moc/images/image/27976-popup.html">apprenticeship contract</a>, but are serviceable for most artifacts. The <a class="external" href=" http://www.vam.ac.uk/vastatic/microsites/1482_moving_toys/">moving toys page</a> is an example of a more in-depth presentation, with short video clips demonstrating how various toys work. The video clips could also be used to teach physics or mechanics in science class.</p>
+
+<p>There are several efforts to involve the public such as <a class="external" href="http://www.vam.ac.uk/moc/childrens_lives/east_end_lives/sharestory/index.php">"Share a Story"</a> or the <a class="external" href=" http://www.vam.ac.uk/moc/childrens_lives/east_end_lives/flickrgroup/index.html">Life in the East End</a> flickr group. <a class="external" href=http://www.vam.ac.uk/moc/whats_on/past/top_to_toe_fashion_for_kids/what_i_wore/index.php>"What I Wore,"</a> presents an archive of children's fashions, favorites, and mishaps illustrated in family photographs, especially the East End London community. The intended audience shifts, however, sometimes asking 21st-century children to share and other times asking adults to reflect on their childhood.</p>
+<p>Two main areas of the site are most attractive for web users who can't visit: <a class="external" href=" http://www.vam.ac.uk/moc/collections/index.html"><em>Collections</em></a> and <a class="external" href=" http://www.vam.ac.uk/moc/childrens_lives/index.html"><em>Children's Lives</em></a>. The <em>Collections</em> menu leads to the museum's material culture archive: dolls, toys, clothing, childcare items, games, and the history of toy manufacturing. Each collection is divided into subsections with additional web resources and bibliographies; some also have interactive features. Browsing is a helpful way to explore the range of materials and the search box allows easy keyword access.</p>
+<p><em>Children's Lives</em> consists of seven sections covering aspects of the history of childhood and contemporary childhood: <a class="external" href="http://www.vam.ac.uk/moc/childrens_lives/east_end_lives/index.html">East End Lives</a> celebrates the history and present of London's East End and the immigrant groups who live there. <a class="external" href="http://www.vam.ac.uk/moc/childrens_lives/east_end_lives/arrivalstories/index.php">"My East End Childhood"</a> presents content created by user contributors and local groups.</p>
+
+<p> <a class="external" href="http://www.vam.ac.uk/moc/childrens_lives/edwardian_lives/index.html">Edwardian Lives</a> is about childhood and material culture at the turn of the 20th century. <a class="external" href="http://www.vam.ac.uk/moc/childrens_lives/education_creativity/index.html">"Education and Creativity"</a> covers childhood educational philosophies and the importance of play. <a class="external" href="http://www.vam.ac.uk/moc/childrens_lives/holidays_entertainment/index.html">Holidays & Entertainment</a> includes a remarkable mural interactive with international playground songs called <a class="external" href="http://www.vam.ac.uk/moc/childrens_lives/holidays_entertainment/the_singing_playground/index.html">"The Singing Playground"</a>. <a class="external" href="http://www.vam.ac.uk/moc/childrens_lives/parlour_games/index.html">Parlour Games</a> includes instructions on how to play and <a class="external" href="http://www.vam.ac.uk/moc/childrens_lives/health_&_work/index.html">Health & Work</a>, covers child labor and offers a section on children in slavery assembled by a class of London middle school students.</p>  
+
+<p>Among the hidden treasures on the site are those buried under the <a class="external" href="http://www.vam.ac.uk/moc/whats_on/index.html">"What's On"</a> menu. Many of the exhibition pages have only a short description with one image—interesting for museum-goers, but too little for web users. Some of the <a class="external" href="http://www.vam.ac.uk/moc/whats_on/past/index.html">"Past Exhibitions"</a> pages, however, have more extensive content. For example, <a class="external" href="http://www.vam.ac.uk/moc/whats_on/past/must_have_toys/index.html">"Must-Have Toys"</a> provides an entire book in (pdf) from a traveling exhibit and the fashion exhibit has many fascinating features.</p> 
+
+<p>The site is both about and for children. It is linked to topics in the National Curriculum, many of which are common modern history topics, to help teachers incorporate the material. Elementary level teachers will be able to find uses for it across the curriculum, and secondary level teachers as well as researchers will be rewarded for the time spent exploring this resource.</p>  
+
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">George Mason University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">The Victoria and Albert Museum of Childhood is a delightful place on the web that encourages viewers to explore the themes of childhood past and present, and invites children, adults, and whole communities to participate in childlike play and creativity.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/178/fullsize"><img src="/files/display/178/square_thumbnail" class="thumb" alt="Victoria and Albert Museum of Childhood" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Tue, 23 Jun 2009 17:49:00 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/178/fullsize" type="image/jpeg" length="53405"/>
+    </item>
+  </channel>
+</rss>

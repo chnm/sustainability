@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=Swaziland+National+Trust+Commission&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:19:30 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Swaziland Digital Archvies]]></title>
+      <link>https://cyh.rrchnm.org/items/show/254</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Swaziland Digital Archvies</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">July 2009</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Tim Parsons</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.sntc.org.sz/sdphotos/index.asp</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Swaziland National Trust Commission</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">July 2009</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>Featuring approximately 600 photographs chronicling daily life and politics in Swaziland, the <a class="external" href="http://www.sntc.org.sz/sdphotos/index.asp">Swaziland Digital Archives</a> provides visual insights into the experiences of childhood and adolescence in southern Africa over the past century. The Swaziland National Trust Commission hosts the website, but it is the work of a Swaziland-based author and photographer who has collected, scanned, and posted historical images drawn from private collections and the Swaziland National Archives.</p>  
+
+<p>The photographs are organized into galleries based on decades, and the collection can by searched by title, date, caption, and photographer. There are also brief historical essays linked to each gallery sketching the main events of each decade, which vary in quality. While the first essays dealing with the late 19th century are detailed and fairly sophisticated, the entries covering the later decades of the 20th century are little more than quick blurbs.</p>  
+
+<p>Consequently, non-specialists planning on using the website might wish to consult the following sources: Hilda Kuper, <em>Sobhuza II, Ngwenyama and King of Swaziland: The story of an Hereditary Ruler and His country</em>, (New York: Africana Publishing Company, 1978); Alan Booth, <em>Swaziland: Tradition and Change in a Southern African Kingdom</em>, (Boulder, CO: Westview Press, 1983); Alan Booth, <em>Historical Dictionary of Swaziland</em>, 2nd Edition, (Lanham, MD: The Scarecrow Press, 2000).</p>
+
+<p>Children and adolescents figure prominently in the collection. Using the "caption" search function, which is more productive than searching "title" tags, yields 19 hits for "children," seven for "student," eight for "boy," 11 for "girl," and four for the antique category of "maiden." Both Swazi and European children (from settler and missionary families) are the subjects of these photographs.</p>  
+
+<p>Each image has a catalogue number, approximate date, and a caption that can range from highly informative to whimsical. While the website's search feature is reasonably thorough, it is still worthwhile to browse the galleries for more unconventionally tagged child-related pictures.</p>
+
+<p>If properly contextualized, the images in the <a class="external" href="http://www.sntc.org.sz/sdphotos/index.asp">Swaziland Digital Archives</a> suggest some interesting possibilities for exploring the various and changing meanings of childhood in 20th-century southern Africa. While the Swazi ruling family dates to the 19th century, modern Swaziland was originally a British protectorate that spent much of the last century under the economic and social influence of South Africa.</p>  
+
+<p>The series of photographs chronicling the childhood of Swaziland's Paramount Chief (later <em>iNgwenyama</em>, 'King') Sobhuza II, coupled with two related pictures on the <a class="external" href="http://chnm.gmu.edu/cyh/website-reviews/256">Images of Empire website</a>, illustrate how British imperial officials ruled by co-opting local institutions of authority. These images, which show the <a class="external" href="http://www.sntc.org.sz/sdphotos/photo.asp?pid=94">young Sobhuza with his mother</a> and  <a class="external" href="http://www.sntc.org.sz/sdphotos/photo.asp?pid=617">grandmother (and queen regent)</a>, sitting in state council (Images of Empire, Media ID 00007073), inspecting the present of a toy elephant from the wife of a British imperial official (Images of Empire, Media ID 00007077), and as a <a class="external" href="http://www.sntc.org.sz/sdphotos/photo.asp?pid=482"> young recently enthroned ruler</a>, offer students a unique look into a highly politicized form of African childhood.</p>
+
+<p>The numerous photographs of young Swazi girls and "maidens" in varying degrees of dress and undress are equally illuminating but should be used with caution and are probably not for younger students. Western colonial-era male photographers obviously found them a popular subject, but teachers can give these young Swazi women their proper dignity through lesson plans that consider the cultural and political form and function of their clothing styles.</p>  
+
+<p>Grouping their portraits with the collection's corresponding images of young <a class="external" href="http://www.sntc.org.sz/sdphotos/photo.asp?pid=627">Swazi Catholic "communicants"</a> and European girls in Swaziland (<a class="external" href="http://www.sntc.org.sz/sdphotos/photo.asp?pid=411">Watts family</a>, <a class="external" href="http://www.sntc.org.sz/sdphotos/photo.asp?pid=452">St Marks Kids</a>, and <a class="external" href="http://www.sntc.org.sz/sdphotos/photo.asp?pid=487">Holtman family</a> will help students understand how education, religious conversion, and race shaped the experience of gender and childhood in colonial southern African society. The archive's various initiation and marriage images similarly show how these young western and African Swazi women marked the transition to adulthood (e.g., <a class="external" href="http://www.sntc.org.sz/sdphotos/photo.asp?pid=122">"Miss Krogh's Wedding,"</a> <a class="external" href="http://www.sntc.org.sz/sdphotos/photo.asp?pid=400">"Wedding Smile,"</a> <a class="external" href="http://www.sntc.org.sz/sdphotos/photo.asp?pid=631"> "Umcwasho Maiden,"</a> <a class="external" href="http://www.sntc.org.sz/sdphotos/photo.asp?pid=632">"Umcwasho maidens,"</a> <a class="external" href="http://www.sntc.org.sz/sdphotos/photo.asp?pid=658">Dlamini Khumalo wedding,</a> <a class="external" href="http://www.sntc.org.sz/sdphotos/photo.asp?pid=659">"Dlamini Khumalo wedding,"</a> <a class="external" href="http://www.sntc.org.sz/sdphotos/photo.asp?pid=661">"lamini Khumalo wedding,"</a> and <a class="external" href="http://www.sntc.org.sz/sdphotos/photo.asp?pid=662">"Dlamini Khumalo wedding,"</a>  "Sobhuza II, King of Swaziland, with toys," [Images of Empire, Media ID 00007077] "Sobhuza II, King of Swaziland, as a child" [Images of Empire, Media ID 00007073]).</p>
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Tim Parsons</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">Washington University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">Featuring approximately 600 photographs chronicling daily life and politics in Swaziland, the Swaziland Digital Archives provides visual insights into the experiences of childhood and adolescence in southern Africa over the past century. </div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/179/fullsize"><img src="/files/display/179/square_thumbnail" class="thumb" alt="Swaziland Digital Archvies" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Thu, 30 Jul 2009 18:06:36 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/179/fullsize" type="image/jpeg" length="110243"/>
+    </item>
+  </channel>
+</rss>

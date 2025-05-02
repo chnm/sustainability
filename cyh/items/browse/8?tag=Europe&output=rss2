@@ -1,0 +1,2166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse/8?tag=Europe&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:25:59 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Children during the Black Death]]></title>
+      <link>https://cyh.rrchnm.org/items/show/167</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Children during the Black Death</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>This teaching module offers an array of evidence to investigate the experience of children during the Black Death and question the traditional view that the epidemic caused wide-spread social chaos resulting in the abandonment of family members, even of children by their parents.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Shona Kelly Wray</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-14</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Teaching Module Item Type Metadata</h2>
+        <div id="teaching-module-item-type-metadata-bibliography" class="element">
+        <h3>Bibliography</h3>
+                                    <div class="element-text"><ol class="bibliography">
+<li>Arrizabalaga, Jon. "Facing the Black Death: Perceptions and Reactions of University Medical Practitioners." In <em>Practical Medicine from Salerno to the Black Death</em>, 237-88. Cambridge: Cambridge University Press, 1994.<br /> 
+<span>This article examines the responses to the Black Death by doctors in the Western Mediterranean. Arrizabalaga studies the plague tractates written by university-trained physicians to determine how they viewed the disease and what could be done about it. He presents their learned discussion on the causes, symptoms, prevention, and cure of the disease, and demonstrates that they did not hesitate to confront the new epidemic with their intellectual tools, such as their university training, clinical experience, and the ancient and medieval Greek, Roman, and Arab authors at their disposal.</span></li> 
+<li>Benedictow, Ole J. <em>The Black Death 1346-1353: The Complete History</em>. Woodbridge, Suffolk: Boydell & Brewer, 2004.<br />
+<span>Benedictow re-examines medieval chronicle evidence and modern historians' demographic studies of the epidemic across Europe to argue for a new and higher mortality rate of 55% during the Black Death. His work is useful for its detailed discussion of the spread of the disease and its map. Benedictow maintains the traditional view that the Black Death was caused by bubonic plague.</span></li> 
+<li>Cohn, Samuel Kline, Jr. <em>The Black Death Transformed: Disease and Culture in Early Renaissance Europe</em>. New York: Oxford University Press, 2002.<br /> 
+<span>Cohn has done the most in recent scholarship to overturn the long-held view that the Black Death was caused by bubonic plague. Comparing the medieval to modern evidence of plague in India, Cohn argues that because of its high mortality, exceptionally fast spread and transmission, and the apparent immunity gained by survivors, the disease of the Black Death must have been some other disease. Cohn also argues that doctors were helpless and hopeless during the Black Death, but gained a new "Renaissance" confidence in their abilities to prevent and treat the disease after its second return.</span></li> 
+<li>Wray, Shona Kelly. "Boccaccio and the Doctors: Medicine and Compassion in the Face of Plague." <em>Journal of Medieval History</em> 30 (2004), 301-22.<br />
+<span>This article proposes that Boccaccio's descriptions in the Introduction to the <em>Decameron</em> which detail the activities of Florentines during the plague of 1348 are repetitions of medical advice present in plague tractates written in Italy during the epidemic. Boccaccio's Introduction can be read as a condemnation of doctors' advice to flee the ill, since to follow their advice for the preservation of one's own health would lead to the destruction of society. The article counters recent views of the doctors' response to argue that their tractates demonstrate professionalism and practicality in the face of the devastating epidemic. Using wills of medical practitioners in Bologna, it provides evidence that they remained at their posts during the epidemic.</span></li>
+<li>Ziegler, Philip. <em>The Black Death</em>. New York: Harper, 1969; reprint 1971.<br /> 
+<span>This is an older work that has remained a useful textbook for the classroom. Ziegler tells the history of the epidemic across Europe largely through chronicles and legislation produced during the Black Death. It presents detailed local descriptions, especially well done for England, and examines the responses and effects of the plague on the demography, economy, art, and psychology of the medieval European people.</span></li>
+
+</ol></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-document-based-question" class="element">
+        <h3>Document Based Question</h3>
+                                    <div class="element-text"><p>by Susan Douglass<br />
+<em>(Suggested writing time: 50 minutes)</em></p>
+
+<p>Using the images and texts in the documents provided, write a well-organized essay of at least five paragraphs in response to the following question.</p>
+<p>Describe and analyze the effect of the Black Death in 14th century Italy for its effect on families and children who became ill or who were survivors of parents and siblings who died, based on analysis of evidence in the documents.</p>
+
+<ul>
+<li>Did the social order break down completely during the panic produced by the epidemic?</li> 
+
+<li>Were there social institutions that stabilized Italian society, and were efforts effective in preserving the social order and protecting its members?</li>
+
+<li>What additional evidence would help in deciding these questions (additional documents, types of records, etc.)?</li>
+</ul> 
+<p>Your essay should:</p>
+<ul>
+<li>have a clear thesis,</li>
+<li>use at least six of the documents to support your thesis,</li>
+<li>show analysis by grouping the documents into at least two groups,</li>
+<li>analyze the point of view of the documents, and</li>
+<li>recognize the limitation of the documents before you by suggesting an additional type of document or source to make your discussion more complete or valid.</li>
+</ul>
+
+
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-credits" class="element">
+        <h3>Credits</h3>
+                                    <div class="element-text"><p>Grateful acknowledgment is made to the following institutions for primary sources:</p>
+<ul>
+<li><a class="external" href="http://www.archiviodistatobologna.it/">Archivio di Stato di Bologna</a>,</li>
+<li><a class="external" href="http://www.manchesteruniversitypress.co.uk/">Manchester University Press</a>, and</li>
+<li><a class="external" href="http://us.penguingroup.com/">Penguin Books</a>.</li>
+</ul>
+<h3>About the Author</h3>
+
+<p>Shona Kelly Wray is an Associate Professor of History at the University of Missouri-Kansas City. Her book, <em>Communities and Crisis: Bologna during the Black Death</em>, is forthcoming. Wray is also a Fellow of the American Academy in Rome.</p>
+
+<h3>About the Lesson Plan Author</h3>
+
+<p>Susan Douglass is a doctoral student in history at George Mason University, and also serves as education outreach consultant for the Al-Waleed Center for Muslim-Christian Understanding at Georgetown University. Publications include <em>World Eras: Rise and Spread of Islam, 622-1500</em> (Thompson/Gale, 2002), the study <em>Teaching About Religion in National and State Social Studies Standards</em> (Freedom Forum First Amendment Center and Council on Islamic Education, 2000), and teaching resources, both online and in print, including and the curriculum project <em>World History for Us All, The Indian Ocean in World History</em>, and websites for documentary films such as <em>Cities of Light: the Rise and Fall of Islamic Spain and Muhammad:Legacy of a Prophet</em>.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">University of Missouri-Kansas City</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-introduction" class="element">
+        <h3>Introduction</h3>
+                                    <div class="element-text"><p>The Black Death was the first and most lethal outbreak of a disease that entered Italy during the end of 1347 and the beginning of 1348 and then spread across Europe in the following few years. It is generally accepted (despite recent arguments to the contrary) that this most famous medieval epidemic was caused by bubonic plague. This disease, which was identified in the late 19th century, is endemic among some rodent populations around the globe today, but does not pose a major health risk due to the efficacy of modern antibiotics.</p>
+
+<p>The situation, of course, was very different in the Middle Ages. The Black Death was brought on, it is believed, by an epizootic, or animal epidemic, among marmots in central Asia that caused the flea (<em>Xenopsylla cheopsis</em>) which passes the bacillus (<em>Yersinia pestis</em>) to leave its preferred host and search for new sources of food, that is, human blood. Rats brought infected fleas, the plague vector, into Europe on ships leaving the Black Sea and shores of the eastern Mediterranean. The plague entered European sea ports and traveled inland along trade routes. The effect was devastating. Historians estimate death tolls of between a third and a half of the European population. For medieval Italy it appears that some urban areas, such as Venice, Florence, and Siena, suffered staggeringly high mortality rates of over 50 percent.</p>
+
+<p>How did people react to this awful catastrophe? The governmental records of Italian cities present a mixed picture of the actions of civic leaders in the face of plague. In some areas, cities rapidly passed laws that attempted to prevent the entrance and spread of disease. They renewed sanitation laws designed to reduce the presence of miasma, or bad air, which medieval people believed caused disease. Thus, laws curtailed the activities of butchers, tanners, or others who worked with animal carcasses that could rot and produce miasma. The mobility of people and goods, such as woolen cloths that may trap the miasma, was restricted. Other laws regulated the location of burials and disposal of corpses. In other cities, however, it appears that government was reduced to an ineffective shadow as officials died in huge numbers and efforts to replace them could not keep up.</p>
+
+<p>Church records have revealed the actions of ecclesiastical organizations. Bishops all over Europe consecrated new ground for burials and arranged intercessory processions. Priests were called to celebrate masses, give sermons, and lead their parishioners in processions of prayer to beg for merciful relief from the wrath of God, which was generally believed to have brought on the epidemic. Clerics urged all individuals to confess, be penitent, and carry out acts of pious charity in order to pacify God. Thus, evidence can be found that the various communities in medieval Europe made strong attempts to counteract and deal with the crisis.</p> 
+
+<p>The popular view today of the Black Death, however, is one of social breakdown. This is because many chroniclers and literary authors of the time described the actions of townspeople in terms of panic, fear, and flight. Faced with a hideous—bubonic plague produces large, dark, and smelly swellings on its victims—and frightening new disease people fled to protect themselves. Chroniclers reported that doctors, clergy, and civil servants such as notaries refused to come to the aid of the ill. The chroniclers' accounts provide the most vivid picture of the social experience of this massive mortality and have become the standard description presented in World and Western Civilization textbooks.</p>
+
+<p>These accounts are at their most evocative and poignant when they discuss a principal theme of the topos of social chaos, namely, the abandonment of family members, especially children. The family was the heart of medieval European society. For medieval authors, the abandonment of children by their parents meant the specter of a society that had come unraveled at its core. It is important, therefore, to try to determine what really happened to children during the Black Death. We must remember that many medieval chroniclers were religious men who wrote with a moralizing message. It is possible that many wrote their accounts of events that happened in the world around them not with the modern notion of objectively reporting the facts, but instead to advise their readers to change their ways and lead more pious lives.</p> 
+
+<p>This module presents a few typical examples of what medieval Italian chroniclers had to say about the experience of children and their families during the Black Death. We do not know what parents or children themselves said about their own experience because there remain few letters and no diaries from this time. Despite the paucity of descriptive sources, parents who were dying of plague often wrote wills in which they provided for the future of their families as well as their own souls. Students can compare the information —individually and in the aggregate—included in the chroniclers' literature with that contained in parents' wills.</p> 
+
+<p>The archives of the town of Bologna contain the largest known number of testaments written during the Black Death. The mortality rate in Bologna may not have been as high as in Florence and Venice, but it suffered at least a 40% drop in population. The presence and contents of testaments during the epidemic can give us some indication as to whether parents were considering the fate of their children when they lay dying during the Black Death.</p>
+
+<p>These are formulaic documents that reveal little about the psychology of the testators themselves; they never even mention the fact that a massive epidemic was raging! Artistic sources are generally better at portraying powerful emotions, but there are no such sources that remain from the years of the Black Death. Instead, portrayals of themes related to death and morbidity became prevalent within a century of the Black Death as Europeans had become accustomed to the repeated outbreaks of plague.</p>
+
+<p>In fact, the Black Death was the first of a long series of plague epidemics that the people of early modern Europe suffered until the mid 1700s. It was by far the worst episode and therefore worth investigating how the most vulnerable part of the population--children--were treated during a time of social upheaval.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Shona Kelly Wray</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-strategies" class="element">
+        <h3>Strategies</h3>
+                                    <div class="element-text"><p>This teaching module offers an array of evidence to investigate the experience of children during the Black Death and question the traditional view that the epidemic caused wide-spread social chaos resulting in the abandonment of family members, even of children by their parents.</p>
+
+<p>The traditional view of the Black Death comes from the literary evidence on the breakdown of the family, represented here by Giovanni Boccaccio and contemporary Italian chroniclers. Encourage students to pay close attention to the terms used, noting their similarity, and to evaluate whether or not such accounts should be considered eyewitness reports.</p>
+
+<p>The module then asks students to consider a legal source, testaments, written in Bologna during the height of the Black Death, in which testators name their children as heirs. Ask students to consider reasons why these wills were made and by whom. What were the legal requirements limiting the production of the source, the advantages and disadvantages of such sources? What can these four wills tell them about a general population?</p>
+
+<p>One graph shows the number of extant testaments that were made in Bologna during the Black Death. The graph makes clear the impact of plague, but at the same time each will represents a gathering of at least nine people—the testator, notary, priest and at least six other witnesses—usually inside the testator's house. According to Roman law in effect in medieval Italy, women could not be witnesses, so we can only assume that they were present at the dictation of their family members' wills. We do know that many women, as mothers of children, made wills and they were supported in this by their families.</p>
+<h3>Discussion Questions</h3>
+<br />
+<h3>1. Compare the language used by Giovanni Boccaccio and by the chroniclers in their accounts of the experience of the Black Death.</h3>
+<ul>
+<li>Even without understanding the Latin or Italian, try to look at what words and patterns of words are similar among these authors who lived all over the Italian peninsula during the same period. What do you notice about these accounts?<br />
+<br />
+<em>Possible answer</em>: 
+<br />
+These authors borrow heavily from each other, or, more probably, the chroniclers mimicked the words of one of the most famous literary authors of the time, Giovanni Boccaccio. The Italian chroniclers' job was to record the events that happened in their own town for posterity, but clearly they were also literary writers and as such would have some moral purpose or personal agenda to their writing that went beyond objective reporting.</li> 
+
+
+<li>What kinds of problems might modern students of the Black Death come up against when using these accounts?</li>
+<li>What else would you like to learn from these accounts?</li> 
+<li>Are you satisfied with using the information in these accounts in order to learn about the experience of children and their families in the past?</li>  
+</ul>
+<h3>2. Compare the language of the four testaments.</h3>
+<ul>
+<li>What words and information come from the testator himself or herself and what words are supplied by the notary who wrote up the testament?</li>
+<li>What kinds of problems does the legal language of testaments pose for the researcher?<br />
+<br />
+<em>Possible answer</em>: 
+<br />They tell little or nothing about peoples' emotions, concerns, and thoughts. In addition, the testator may have been influenced by the notary in deciding his or her bequests.</li> 
+</ul>
+
+<h3>3. What information can you as researcher of the experience of the Black Death be satisfied with from the testaments?</h3>
+<ul>
+<li>What information is problematic or vague?<br />
+<br />
+<em>Possible answer</em>:
+<br />
+The specifics of the dictation of the will as a social event demonstrates that at least nine people, including testator, notary, and seven witnesses, were present. However, there is a fair amount of information that is not provided, such as the ages of the children. The testament mentions that they have occupations and at least some have families.</li>
+</ul>
+<h3>4. Envision the dictation of each will as it took place:</h3>
+<ul>
+<li>How many people were there? Where were they?</li>
+<li>What were they doing?</li>
+<li>What happened during and after the testator declared his or her last wishes?</li> 
+<li>What does this tell us about the behavior of these four people and their families during the Black Death?</li></ul>
+<h3>5. With the graph in section B, these four wills are shown in the wider context of the city. Considering that each will represents individuals who have not fled or abandoned their families.</h3>
+<ul>
+<li>What groups of people likely stayed in town, at home, with their families?</li>
+<li>What would you like to know about the wills in order to be sure that they reflect widespread behavior?</li>
+
+<li>How many people were in the town?</li> 
+<li>How many would normally write a will?</li> 
+<li>How many were parents when they wrote their will?</li>
+</ul>
+<h3>6. Compare the chroniclers' emphasis on parents abandoning their children with the information in the testaments and the image of the family in the "Dance of Death" woodcut.</h3>
+<ul>
+<li>In the "Dance of Death" image, is the child being abandoned by his family?</li>
+<li>Is there evidence of abandonment in the four testaments and the graph of all extant testaments?</li> <li>What would you say was the experience of children and families in Bologna during the Black Death?</li>
+</ul></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-lesson-plan" class="element">
+        <h3>Lesson Plan</h3>
+                                    <div class="element-text"><h3>Lesson Plan: Children and Childhood During the Black Death</h3>
+<p>by Susan Douglass</p>
+<p><strong>Time Estimated:</strong> two to three 45-minute classes</p>
+
+
+<h3>Objectives</h3>
+<ol>
+<li>Evaluate the reliability of various types of primary sources in regard to the effects of the Black Death on children and their families.</li>
+
+<li>Analyze and compare different types of available evidence on the physical and social affects of the Black Death.</li>
+
+<li>Develop possible explanations for the differences between contemporary (or near contemporary) narrative accounts of the Black Death and other types of evidence.</li>
+
+<li>Develop research questions that could lead beyond the current sources to suggest strategies for resolving the historical disputes raised by conflicting evidence.</li>
+
+<li>Gather the evidence presented in the documents and create a summary of the experience of the Black Death in visual or narrative form.</li>  
+</ol>
+
+
+<h3>Materials</h3>
+<ul>
+<li>Paper, regular notebook or white paper for individual or paired work, butcher paper or poster board for group work.</li>
+
+<li>Computer with Internet connection for viewing primary sources and accessing "Wordle."</li>
+
+<li>Web links and settings to enable <a class="external" href="http://www.wordle.net/ ">Wordle</a> and/or <a class="external" href=" http://tagcrowd.com/">TagCrowd</a>; and a word processor for pasting the primary sources.</li>
+
+<li>Documents from <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/167 ">Teaching Module</a> prepared as handouts.</li>
+</ul>
+
+
+<h3>Day One</h3>
+<p><em>Hook</em><br />
+After introducing the topic of the Back Death, ask students to describe in a few keywords what they know about this occurrence in world history. Note the responses on the board.</p>
+
+<p>Then ask students how historians learned about the plague from available evidence.</p> 
+
+<p>Make a list of possible sources of evidence the students identify. One type of evidence that might be surprising to students is a map that  documents how widespread bubonic plague is today. (See <a class="external" href="http://www.cdc.gov/ncidod/dvbid/plague/world98.htm">1998 plague reporting map</a> from the Center for Disease Control and Prevention.)</p> 
+
+<p>Explain that the class will examine several different types of historical evidence about the plague.</p>
+
+
+<p><em>Activity</em><br />
+Divide the students into three groups, according to the three types of primary source textual accounts (the <em>Decameron</em> and the Personal Accounts from Italy; the Health Ordinance; and the Testaments).</p> 
+
+<p><em>Close Reading Activity</em><br />
+First, have each group (or individual students) read the sources. Then, use the free applets (<a class="external" href="http://www.wordle.net/">Wordle</a> or <a class="external" href="http://tagcrowd.com/">TagCrowd</a>) to make Word Clouds from the following texts, simply by choosing "Create," pasting the formatted or unformatted text into a window and pushing "Go:"</p>
+
+<ul>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/167?section=primarysources&source=177"><em>Decameron</em></a> excerpt and the Italian Accounts of the Black Death; pasting separately from the English, but combining the original Latin and Italian texts</li> 
+
+<li><a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/167?section=primarysources&source=179">The Health Ordinance of Pistoia</a></li>
+
+<li>Combined text of the four testaments, and the <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/167?section=primarysources&source=184">graph of wills from Bologna</a>.</li>
+</ul>
+
+
+<p>The purpose of this exercise is to help students to see the pattern of language use in the sources. The word cloud will help students identify keywords in the original languages when they appear with equal emphasis in English (e.g., <em>padre</em>, <em>abbandonava</em>). The aim is to see what ideas and tone writers conveyed to their audience, as well as to gain a sense of the memory of the event in the writers’ minds. Students should not substitute the word cloud for a close reading of the text, but use it as an aid. Working on the three groups of sources, use the following questions as a guide for close reading:</p> 
+
+<ul>
+<li>What do the word clouds for the English and original Latin and Italian communicate about the effect of the plague on the society of the time? Identify keywords in both languages. Identify descriptive nouns and adjectives. Identify terms for people? Are they general or personal terms? What does this say about the plague as an event across society? [Ans. <em>people are described entirely in terms of their relation to one another, not in terms of class, vocation, or name.</em>] Then read the annotation to the source. How do Boccaccio and the chroniclers portray the effect of the plague on social relations? Imagine the scene they describe, multiplied across whole cities. Does Boccaccio indicate different reactions among different social classes? How does the <em>Decameron</em> excerpt contrast with the frame of the stories, that is, a group taking refuge outside the city? Noting that these are not eyewitness accounts, what role might memory play in the substance and tone of the accounts, and what role does literary or moral purpose play?</li>
+
+<li>What does the word cloud indicate about official views of the plague's causes at the time? What words and their frequency in the ordinance indicate beliefs about the spread of the disease? What words are missing which might reflect medical knowledge today? [Ans: <em>germs, fleas, blood</em>] Then read the annotation to the source. Despite their lack of knowledge of germ theory and insect vectors, how did the measures targeted in the ordinance reflect practical observations about the spread of the disease? Is the frequency of attention to clothing, fabrics, and the absence of cleanliness entirely misplaced? Do you think that such an ordinance helped in any way? Was it enforceable?</li>
+
+<li>What does the word cloud indicate about the tone of the texts and the events they record? Make a list of the most frequent nouns, verbs, and other words describing people (names, vocations, relationships). Does the text include descriptive adjectives? To what do they refer?  Read the annotations to the sources. Imagine the scene and the setting in which these wills were drawn up [students may wish to create a tableau of the scene using drawn figures or themselves acting out the parts.] Was it a scene of panic? What persons were present, and what were their relationships to the patient? Who was absent from the scene, and why? What concerns did each person present have and how did they bring their concerns to bear in making the testament? [Ans: <em>patients taking care of family wealth, care of children who survived, priests getting donations for the church, debtors being paid, family members receiving shares</em>] How would the ravaging plague have altered the normal process of drawing up a will? Using the graph of wills made during the plague months, and taking into account the officials who had to be present at will-making, discuss the difficulties the Church and the city faced during the epidemic. How likely is it that many people died without wills, or without registered wills? What is unusual about leaving the family wealth to a small child, whether son or daughter?</li>
+</ul>
+
+<p>NOTE: If at all possible, students should be encouraged to create word clouds individually or as a group, since the applet allows use of creative effects such as fonts, colors, and different word orientations that will inspire them to "see" the text in tone and substance. If desired, however, word clouds of these sources have been created and posted at:</p>
+
+<ul>
+<li><a class="external" href="http://www.wordle.net/gallery/wrdl/789519/Black_Death_Chronicles-14th_century">http://www.wordle.net/gallery/wrdl/789519/Black_Death_Chronicles-14th_century</a> [original language]; <a class="external" href="http://www.wordle.net/gallery/wrdl/800349/Black_Death_Chronicle_translation-Italy_14th_century ">http://www.wordle.net/gallery/wrdl/800349/Black_Death_Chronicle_translation-Italy_14th_century</a>  [translation of chronicles & Decameron excerpt];</li>
+<li><a class="external" href="http://www.wordle.net/gallery/wrdl/800313/Black_Death_testaments-14th_century_Italy">http://www.wordle.net/gallery/wrdl/800313/Black_Death_testaments-14th_century_Italy</a>  [testament texts];</li>
+
+<li><a class="external" href="http://www.wordle.net/gallery/wrdl/800471/Health_Ordinances_of_Pistoia%2C_Italy_14th_century">http://www.wordle.net/gallery/wrdl/800471/Health_Ordinances_of_Pistoia%2C_Italy_14th_century</a> [Health Ordinances of Pistoia].</li>
+</ul>
+ 
+<p>Following the individual or group work with the three different types of primary sources, ask students to give their impression of the effect of the Black Death on the social order, based on their set of documentary sources. Student responses should fairly clearly differentiate among the sources as to the effects, but also indicate common elements. The starkest contrast will be the scenes of impersonal, general breakdown of the social order in Boccaccio and the chronicles, compared with the orderly scenes of making wills in the homes of the sick, with an array of people present, personalized references, their attempt to keep families and relationships intact. How can historians today account for the difference? What role might memory, and what role might literary style play? The ordinance portrays an official response based on incomplete knowledge, but shows that practical observation had some value in defining preventative measures. What questions does the contrast in the sources raise? [EXAMPLES: Were priests willing to enter homes of the sick? How did they avoid the disease, or did they? How could there have been enough officials to witness and record wills during and after the epidemic? Could that account for the decline in numbers of wills after July?]</p> 
+<p>Project the "Dance of the Dead" images or print them onto a 1-page handout. Read the annotations. Noting that these images are not directly related to the actual event of the Black Death, but existed as an art form before and after it, reflect on the following themes related to these popular images from the period. What messages do the images portray? What words can you recognize in the text accompanying the mural? Assuming generally high infant mortality even without epidemics, do you think people were emotionally attached to their children, knowing they might be carried away suddenly? How might mortality have differed among social classes? What indications of social class do the images portray? As public expressions of memory, what do they reflect in terms of attitudes toward death, and what moral lessons do they seem to project?</p>
+<p>Assign the Document Based Question below as an in-class essay or homework assignment. Follow your usual procedure for drafts, critique, revision, and finalizing.</p>
+<p><em>Extension Activity</em><br />
+Use the  <em>World History For Us All</em> teaching unit <a class="external" href="http://worldhistoryforusall.sdsu.edu/units/five/closeup/05_closeup551.pdf">"Coping with Catastrophe: The Black Death of the Fourteenth Century, 1330 - 1355 CE"</a> to assess the causes and effects of the plague in other parts of Europe and elsewhere in the world, and to see what historical source issues are raised by the materials in the lessons.</p>
+
+<h3>Differentiation</h3>
+<p><em>Advanced Students</em><br /> 
+Advanced students may be asked to search for additional documents and images on the Black Death, including fuller versions of the ones excerpted in the lesson. A few students might research the course of the disease to contribute knowledge about how long it took from exposure to the disease to death, and how frequent known outbreaks of plague were in the following centuries.</p> 
+
+<p><em>Less Advanced Students</em><br />
+Remedial students could be asked to focus merely on the documents in English, or on a limited selection of documents from each group. The document-based question can be modified to allow more time, to use fewer documents for their essay. They may also be asked to provide a culminating assessment in a form other than an essay, such as a visual, literary or narrative account that can be graded on how well it reflects use of evidence and comparison among the documents.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-primary-sources" class="element">
+        <h3>Primary Sources</h3>
+                                    <div class="element-text">177, 178, 179, 180, 181, 182, 183, 184, 185, 186</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Wed, 15 Oct 2008 01:21:03 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Health in England (16th–18th c.)]]></title>
+      <link>https://cyh.rrchnm.org/items/show/166</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Health in England (16th–18th c.)</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Health and sickness, as it pertains to children and youth in Early Modern England, is examined through an array of primary sources that illuminate both the perils of childhood in that age and the measures taken for the care of the ill and the emotional investment of families in caring for them.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Lynda Payne</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-14</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Teaching Module Item Type Metadata</h2>
+        <div id="teaching-module-item-type-metadata-bibliography" class="element">
+        <h3>Bibliography</h3>
+                                    <div class="element-text"><ol class="bibliography">
+<li>Abbot, Mary. <em>Life Cycles in England, 1560-1720: Cradle to Grave</em>. London: Routledge, 1996.<br />
+<span>Includes chapters on children and youth and primary written and visual sources with suggestions for their use.</span></li>
+
+<li>Beier, Lucinda. <em>Sufferers and Healers: The Experience of Illness in Seventeenth-century England</em>. London: Routledge, 1988.<br />
+<span>Focuses on the patients and those who treated them, from housewives to bonesetters to surgeons. Includes an analysis of the casebook of Joseph Binn, a London surgeon and some of his younger patients.</span></li>
+
+<li>Ben-Amos, Ilana Krausman. <em>Adolescence and Youth in Early Modern England</em>. New Haven: Yale University Press, 1994.<br />
+<span>Discusses the shorter life span of pre-modern people and why youth was so important as a result. Themes include the physical and emotional effects of being an apprentice or a servant. Not an easy read.</span></li>
+
+<li>Houlbrooke, Ralph A. <em>The English Family, 1450-1700</em>. New York: Longman, 1984.<br />
+<span>A classic work on the importance of understanding family structure in this period as the context to disease and death. Includes a chapter on children.</span></li>
+
+<li>Pollock, Linda. <em>Forgotten Children: Parent-Child Relations from 1500-1900</em> Cambridge University Press, 1983.<br />
+<span>A controversial work that argues against the idea that there was little concept of a childhood in the past and that life for the young was a brutal experience. Discusses the treatment of sick children and youth.</span></li>
+</ol></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-document-based-question" class="element">
+        <h3>Document Based Question</h3>
+                                    <div class="element-text"><p>by Sharon Cohen<br />
+<em>(Suggested writing time: 50 minutes)</em></p>
+
+<p><strong>Directions</strong><br />
+The following question is based on the documents included in this module. This question is designed to test your ability to work with and understand historical documents.</p>
+
+<p>Drawing on specific examples from the sources in the module, write a well- organized essay of at least five paragraphs in which you answer the following question:</p>
+<ul>
+<li> To what extent did parents in early modern England try not to become too attached to their children, as infant and child mortality was so high? </li>
+</ul>
+
+<p>Write an essay that:</p>
+<ul>
+<li>has a relevant, clear thesis that answers the question,</li>
+<li>uses at least six of the documents,</li>
+<li>analyzes the documents by grouping them in as many appropriate ways as possible. Does not simply summarize the documents individually, and</li>
+<li>takes into account both the sources of the documents and the creators' points of view.</li>
+</ul>
+<p>You may refer to relevant historical information not mentioned in the documents.</p>
+<p>Be sure to analyze point of view in at least three documents or images.</p>
+<p>What additional sources, types of documents, or information would you need to have a more complete view of this topic?</p> 
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-credits" class="element">
+        <h3>Credits</h3>
+                                    <div class="element-text"><p>Grateful acknowledgment is made to the following institutions for primary sources:</p>
+
+<ul>
+<li><a class="external" href="http://www.fordham.edu/halsall/mod/modsbook.html">Fordham University</a>,</li>
+<li><a class="external" href="http://www.irwin-pub.com/">Irwin Publishing</a>,</li>
+<li><a class="external" href="http://www.neonatology.org/index.html">Neonatology on the Web</a>,</li>
+<li><a class="external" href="http://www.nypl.org/">The New York Public Library, Astor, Lenox and Tilden Foundations</a>, and</li>
+<li><a class="external" href="http://images.wellcome.ac.uk/indexplus/image/L0030701.html">Wellcome Library</a>.</li>
+</ul>
+
+<h3>About the Author</h3>
+
+<p>Lynda Payne, Ph.D., RN, Sirridge Missouri Endowed Professor in Medical Humanities and Bioethics and Associate Professor of History, University of Missouri-Kansas City. She is the author of <em>With Words and Knives: Learning Medical Dispassion in Early Modern England</em>, and is currently researching and writing a monograph on the 18th-century surgeon Percivall Pott.</p>
+
+<h3>About the Lesson Plan Author</h3>
+<p>Sharon Cohen teaches AP World History and IB Theory of Knowledge at Springbrook High School in Maryland. She regularly presents papers on world history pedagogy at the annual conferences of the World History Association, the American Historical Association, the National Council for Teaching History, and the National Council for the Social Studies, served on the College Board's AP World History Development Committee, contributed articles to the online journal <em>World History Connected</em>, and published curriculum units in world history for the College Board and the online model world history project <em>World History For Us All</em>.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">University of Missouri-Kansas City</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-introduction" class="element">
+        <h3>Introduction</h3>
+                                    <div class="element-text"><p>Children and youth in early modern England (1500-1800) were subject to many diseases and physical hardships. From the great epidemic diseases of bubonic plague and smallpox, to more common illnesses such as measles and influenza that still afflict children today, sickness put children and youth at great risk. With no knowledge of bacteria or antibiotics, and surgery performed without anesthesia or even hand washing, there were few remedies for childhood illnesses beyond a nourishing diet and keeping the patient warm. Even surviving an illness could have permanent consequences, for example, scarlet fever left many children blind and deaf, and measles could cause severe scarring and facial bone loss.</p> 
+<p>One measurement of health in early modern England is revealed in the statistics of the number of deaths kept by church parishes. From these records historians have gleaned that infant mortality (death during the first year of life) was approximately 140 out of 1000 live births. The average mother had 7-8 live births over 15 years. Unidentifiable fevers, and the following list of diseases, killed perhaps 30% of England's children before the age of 15 – the bloody flux (dysentery), scarlatina (scarlet fever), whooping cough, influenza, smallpox, and pneumonia.</p> 
+<p>Death from disease was higher in urban than in rural areas. Early modern cities were widely, and often rightly, regarded as deadly environments. They contained large concentrations of population who were often poorly fed and housed. "Crowd diseases" such as typhus, smallpox, and tuberculosis prospered, and bubonic plague epidemics periodically swept through dense urban populations. In 1563, 1603, 1625 and 1665, about one fifth of the population of London died in plague outbreaks. In 1665, one of the deadliest years, 80,000 people died in the capital city. Of this number, historians estimate that at least 45,000 of the victims were under the age of 15.</p>
+<p>Besides diseases, accidents were common sources of sickness, disability and death for children and youth. From surveys of coroners's inquests, drowning in wells and bathtubs, was the most reported accidental death in children under the age of 5. Accidents were also reported connected to the work in which children were engaged beginning around age 8. Children cracked their skulls while fetching water, were trampled by horses while ploughing, or dropped and injured while under the care of siblings. Boys, unless they were from the noblest of families, were expected to serve an apprenticeship. They were often placed in dangerous crafts such as tanning, blacksmithing, or serving on ships, where chemical poisonings, fires, and war injuries were frequent occurrences. There are also accounts in diaries of the period of youthful pranks leading to injury, for example, hiding gunpowder in candles so they blew up when lit.</p> 
+<p>Throughout this period the primary place where sick children and youth were cared for was in the home, and the principal healers were women – mothers, daughters, wives, and servants. Powder burn remedies —applying a mixture of poultry fat and dung—were commonly included in home receit (remedy/recipe) books kept by the mistress of the household. Women developed considerable professional knowledge after the rise of the printing press in 1500 and the publication of books that had been only in the hands of physicians. Both herbal and chemical medicines were described as suitable for the young in family receit books, such as dried dill in honey for a cough, and iron filings in beer for paleness of the skin.</p> 
+<p>Children were rarely treated by the small and expensive elite of university-trained physicians to whom adult patients turned for a prognosis and not for a cure. Their remedies were also considered too drastic for children as they largely consisted of rectal purging (laxatives), bloodletting (cutting a vein open with a lancet), and forced vomiting (emetics). These treatments were based on an ancient Greek medical theory that the body was composed of four substances, or humors, created from the digestion of food. The four humors were choler or yellow bile, phlegm or mucus, black bile, and blood, and all had properties of being hot/cold and dry/wet. If the humors were balanced – neither too strong nor too weak – you were healthy. The hot and wet humor of blood and the hot and dry humor of yellow bile were believed to be naturally stronger in the young. Occasionally if these humors were not weakened and released from the body in the form of sweat, tears, urine, feces, or even sneezing, physicians would give children emetics to make them vomit or let blood through "cupping." Heated glass, bone, or brass cups would be placed upon skin that had been scratched or scarified with a knife. Blood would then flow gently from these wounds due to the creation of a vacuum by the heated cup.</p> 
+<p>Worried parents consulted surgeons, trained through apprenticeship, for broken limbs, ruptures, and the bladder stone. The latter was caused by the early modern diet, which was rich in gravel. Boys were often operated on for the stone by surgeons in this period with a mortality rate of 30%. The operation was called a lithotomy and took about three to five minutes to perform.  No anesthesia was used, instead surgeons relied on the child fainting from pain and being out during the extraction of the stone. Most often, parents turned first to family, friends, and neighbors, for medical advice, even the local blacksmith for a fee would set bones in humans as well as animals.</p. <p>As the specialty of pediatrics (from the Greek for child and healing) had yet to emerge, children were treated as small adults in hospitals and kept in the same wards as adult men and women. Some charitable institutions were opened in the early modern period, for example, the Children's Hospital in Norwich in 1621, but they tended to be more for children who were abandoned by their parents or orphaned, than for sick youngsters. The largest institution for orphans was the Foundling Hospital in London, opened in 1741. There were also medical discoveries that helped children and youth in this period, most notably, inoculation and vaccination for smallpox.</p> 
+		<p>Starting in the 1960s several scholars have argued that early modern parents tried not to invest too much emotion (or money) in a child until it reached an age where survival was likely. High birth rates, accompanied by high death rates for children under the age of ten years old, meant that family life was fragile and uncertain. Yet the parent-child relationship seems to have been as strong in the early modern period as in any other age, and former ideas of emotional indifference before the eighteenth century are now widely questioned by scholars. Most of the population had a hard struggle for existence but children were cared for as much as conditions would allow. The harrowing grief of mothers and fathers who lost children to disease or accident is indeed all too apparent in diaries and letters of the period.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Lynda Payne</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-strategies" class="element">
+        <h3>Strategies</h3>
+                                    <div class="element-text"><p>I have found that the best way to teach about sickness and health from centuries ago is to not to focus on the biology and statistics of diseases but to focus on the suffering and the impact of illness on a person's life. I have had students write about their own experience of illness until the age of 18, and then had them compare and contrast that with the common illnesses a child and youth would have experienced in early modern England. Students have also researched how medical conditions of children and youth would be diagnosed and treated by a variety of healers. They took into consideration wealth and poverty, class status, gender, and whether they were living in a city or in the countryside. Finally, I have had success with using visuals to illustrate not just medical care and treatment but environmental conditions. If you have students imagine life without modern conveniences such as electricity, gas, sewers, clean water, cars, and so forth (the list is long), their understanding and interpretation of images of early modern children and youth grows as they take into account the context of health, hygiene, and illness.</p>
+
+<h3>Discussion Questions</h3>
+<ul>
+<li>What were the common illnesses of children and youth in early modern England? What remedies were suggested and by whom? Can you describe some of the changes in medical treatment during this period? (Classification and description of diseases, inoculation and vaccination).</li>
+
+<li>Some historians have argued that children and youth had a miserable existence and that parents in early modern England tried not to become too attached to their children, as infant and child mortality was so high. Can you use the sources to argue for and against this thesis? (Teeth pulling, Gin Lane, Infanticide Trial versus The Graham Children and the Evelyn Diary).</li>
+</ul></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-lesson-plan" class="element">
+        <h3>Lesson Plan</h3>
+                                    <div class="element-text"><h3>Lesson Plan: Health in England (16th&ndash;18th c.)</h3>
+<p>by Sharon Cohen</p>
+<p><strong>Time Estimated:</strong> three 45-minute classes</p>
+
+<h3>Objectives</h3>
+<ol>
+<li> Students will be able to identify possible connections between the lack of modern conveniences and health, hygiene, and illness among children in early modern England.</li>
+
+<li>Students will be able to debate the extent to which parents demonstrated attachment to children in a period of high mortality for infants and young children. </li>
+</ol>
+
+<h3>Materials</h3>
+<ul>
+<li>Printouts of primary sources sufficient for each student to have a full set of the texts and images in the <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/166?section=introduction"><em>Health in England</em></a> Teaching Module. <a id="fn1" class="footnote" href="#note1">1</a></li>
+<li>Highlighters</li>
+<li>Index cards </li>
+</ul>
+
+<h3>Day One</h3>
+<p><em>Hook</em><br />
+Ask students to imagine life without modern conveniences such as electricity, sewers, and clean water by listing ten possible effects on health, hygiene, and illness. Then, with a partner, have them predict which of those effects were common among children in early modern England. Make a class list of these predictions to post for comparison later.</p>
+
+<p><em>Activity</em><br />
+Students will read the primary sources looking for any connections between the lack of modern conveniences and health, hygiene, and illness among children. One strategy to help with close reading is to help the students generate lists of typical words they might find in the text, and then encouraging them to underline or highlight the words associated with a lack of conveniences (such as lack of clean water for drinking or washing) and circle or highlight the words associated with symptoms of illness (complexion, fever, fits, pain, sweat, swollen, shivers, blisters) and treatments (ointment, medicine, bloodletting, fasting, bed rest). Have the students turn in their annotated sources. Check to make sure they found most of the key words. If not, show them to the students the next day.</p>
+
+<h3>Day Two: Debate Prep</h3>
+
+<p>Return the annotated sources and ask students to share with a partner the words that appeared the most often.</p>
+
+<p>With partners, have students try to translate those words into lists:</p>
+<ul>
+<li>identifying the common illnesses of children and youth in early modern England and</li>
+<li>identifying the remedies suggested and by whom.</li></ul>
+<p>They should write these analyses of the sources in the margins.</p>
+
+<p>Students prepare for a debate on whether parents in early modern England tried not to become too attached to their children, as infant and child mortality was so high. </p>
+
+<h3>Day Three: The Debate</h3>
+<p><em>Debate Directions</em><br />
+Divide the class into two groups (pro and con).</p>
+<p>Assign each student a specific speaking role in the debate.</p> 
+<ul>
+<li>Each group has a different student make the opening statement and the closing statement.</li>
+<li>Each group has six main pieces of evidence delivered by six different students.</li>
+<li>Each group also assigns six students to critique the evidence delivered on the basis of the authority or reliability and perspective of the source.</li>
+<li>That's 28 student roles. Adjust as necessary for the size of the class. If the class is larger, assign students to critique the arguments and evidence used overall in the debate and then report on their assessment at the end.</li>
+</ul>
+<h3>Differentiation</h3>
+<p>Some strategies for supporting and challenging students are already included in the lesson. For struggling readers, the sources might need to be translated into modern English, and perhaps even analyzed together as a class. The preparation for the debate for students still learning how to construct and support arguments might take an extra day, so the teacher can speak individually with each student to guide the framing of the arguments and selection of evidence to support the main points. To challenge students further, it might be possible for them to find additional evidence not included in this module, even perhaps going beyond the borders of England to compare the attitudes and practices toward children's health in other places.</p>
+
+<hr />
+<div id="notes">
+<p><a id="note1" class="footnote" href="#fn1">1</a> Texts include:</p>
+<ul>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/166?section=primarysources&source=155>Boke of Chyldren</a></li>
+
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/166?section=primarysources&source=156">"On Scarlet Fever"</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/166?section=primarysources&source=162">Infanticide Trial Transcript from the Old Bailey of Elizabeth Taylor of Clerkenwell</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/166?section=primarysources&source=158">Gin Lane text and illustration</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/166?section=primarysources&source=160">Diary of John Evelyn</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/166?section=primarysources&source=163">The Graham Children</a></li>
+</ul>
+</div>
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-primary-sources" class="element">
+        <h3>Primary Sources</h3>
+                                    <div class="element-text">155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Wed, 15 Oct 2008 00:12:45 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[An Inquiry into the Causes and Effects of the Variolae Vaccinae [Literary Excerpt and Illustration]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/165</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text"><em>An Inquiry into the Causes and Effects of the Variolae Vaccinae</em> [Literary Excerpt and Illustration]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Edward Jenner (1749-1823) was a physician in rural Gloucestershire. Like Lady Mary Wortley Montagu he learnt of a widely known folk remedy to protect against smallpox. Smallpox cases were increasing in the 18th century and had a mortality rate of 40%. At least 30% of those who survived were left horribly scarred. Smallpox was a disease of children and youth in particular. However, dairymaids and farmers believed that those who had contracted cowpox, a mild infection often found on the udders of cows, would not get smallpox. Jenner's interviews with local farmers led him to carry out a series of experiments using cowpox matter, or lymph (fluid), taken from the vesicles of cowpox on the hands of the dairymaid Sarah Nelmes. In May 1796 he inserted the lymph in the arm of a young boy called James Phipps who promptly came down with cowpox. In July Jenner inoculated Phipps with smallpox matter but he remained healthy and did not get the disease. Jenner carried out several of these experiments on villagers and the children of his servants before he published his findings. He called this new method of using cowpox to protect against smallpox, vaccination from <em>vacca</em>, the Latin word for cow. In fact historians now have evidence that local farmers had carried out this procedure before but Jenner was the first medical man to publish his findings on cowpox as a preventive remedy against smallpox in <em>An Inquiry into the Cause and Effects of the Variolae Vaccinae, a Disease Discovered in Some of the Western Counties of England, Particularly Gloucestershire, and Known by the Name of the Cow-pox</em>. Vaccination was not accepted quickly by all but it gradually became more popular as it was less risky than inoculation. The watercolor drawing shows the profound difference in the severity of infection caused by inoculation with smallpox as recommended by Lady Montagu versus vaccination with cowpox as recommended by Edward Jenner. Vaccination became compulsory in Britain in 1853.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Dr. Edward Jenner</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Dr. Edward Jenner, "<em>An Inquiry into the Causes and Effects of the Variolae Vaccinae</em>," <em>The Wellcome Library</em>, <a class="external" href=http://images.wellcome.ac.uk/indexplus/result.html?_IXFIRST_=1&_IXSS_=_IXFIRST_%3d1%26_IXINITSR_%3dy%26_IXACTION_%3dquery%26IXFROM%3d%26IXTO%3d%26_IXrescount%3d28%26_IXMAXHITS_%3d15%26%2524%2bwith%2bwi_sfgu%2bis%2bY%3d%252e%26%252asform%3dwellcome%252dimages%26%2524%253dsort%3dsort%2bsortexpr%2bimage_sort%26_IXSESSION_%3dcrHmB4NhlbN%26c%3d%2522historical%2bimages%2522%2bOR%2b%2522contemporary%2bimages%2522%2bOR%2b%2522corporate%2bimages%2522%2bOR%2b%2522contemporary%2bclinical%2bimages%2522%26i_num%3d%26_IXshc%3dy%26i_pre%3d%26%2524%253ds%3dkirtland%26_IXFPFX_%3dtemplates%252ft%26%2524%253dsi%3dtext%26t%3d%26w%3d&_IXACTION_=query&_IXMAXHITS_=1&_IXSR_=2ZycWp7FBCy&_IXSPFX_=templates%2ft&_IXFPFX_=templates%2ft>http://images.wellcome.ac.uk</a>; Edward Jenner, <em>The Three Original Publications on Vaccination Against Smallpox</em>, The Harvard Classics, 1909-14, <a class="external" href="http://www.bartleby.com/38/4/1.html">http://www.bartleby.com/38/4/1.html</a> (accessed October 13, 2008). Annotated by Lynda Payne.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-14</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Lynda Payne</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">166</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg, text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>CASE XVI.—Sarah Nelmes, a dairymaid at a farmer's near this place, was infected with the cow-pox from her master's cows in May, 1796. She received the infection on a part of her hand which had been previously in a slight degree injured by a scratch from a thorn. A large pustulous sore and the usual symptoms accompanying the disease were produced in consequence. The pustule was so expressive of the true character of the cow-pox, as it commonly appears upon the hand, that I have given a representation of it in the annexed plate. [In original.] The two small pustules on the wrists arose also from the application of the virus to some minute abrasions of the cuticle, but the livid tint, if they ever had any, was not conspicuous at the time I saw the patient. The pustule on the forefinger shews the disease in an earlier stage. It did not actually appear on the hand of this young woman, but was taken from that of another, and is annexed for the purpose of representing the malady after it has newly appeared.</p>
+  <p><em>41</em></p>
+  <p>CASE XVII.—The more accurately to observe the progress of the infection I selected a healthy boy, about eight years old, for the purpose of inoculation for the cow-pox. The matter was taken from a sore on the hand of a dairymaid,  10 who was infected by her master's cows, and it was inserted, on the 14th of May, 1796, into the arm of the boy by means of two superficial incisions, barely penetrating the cutis, each about half an inch long.</p>
+ <p><em> 42</em></p>
+  <p>On the seventh day he complained of uneasiness in the axilla, and on the ninth he became a little chilly, lost his appetite, and had a slight headache. During the whole of this day he was perceptibly indisposed, and spent the night with some degree of restlessness, but on the day following he was perfectly well.</p>
+ <p><em> 43</em></p>
+  <p>The appearance of the incisions in their progress to a state of maturation were much the same as when produced in a similar manner by variolous matter. The only difference which I perceived was in the state of the limpid fluid arising from the action of the virus, which assumed rather a darker hue, and in that of the efflorescence spreading round the incisions, which had more of an erysipelatous look than we commonly perceive when variolous matter has been made use of in the same manner; but the whole died away (leaving on the inoculated parts scabs and subsequent eschars) without giving me or my patient the least trouble.</p>
+ <p><em> 44</em></p>
+  <p>In order to ascertain whether the boy, after feeling so slight an affection of the system from the cow-pox virus, was secure from the contagion of the smallpox, he was inoculated the 1st of July following with variolous matter, immediately taken from a pustule. Several slight punctures and incisions were made on both his arms, and the matter was carefully inserted, but no disease followed. The same appearances were observable on the arms as we commonly see when a patient has had variolous matter applied, after having either the cow-pox or smallpox. Several months afterwards he was again inoculated with variolous matter, but no sensible effect was produced on the constitution.CASE XVIII.—John Baker, a child of five years old, was inoculated March 16, 1798, with matter taken from a pustule on the hand of Thomas Virgoe, one of the servants who had been infected from the mare's heels. He became ill on the sixth day with symptoms similar to those excited by cow-pox matter. On the eighth day he was free from indisposition.</p>
+  <p><em>48</em></p>
+  <p>There was some variation in the appearance of the pustule on the arm. Although it somewhat resembled a smallpox pustule, yet its similitude was not so conspicuous as when excited by matter from the nipple of the cow, or when the matter has passed from thence through the medium of the human subject.</p>
+ <p><em> 49</em></p>
+  <p>This experiment was made to ascertain the progress and subsequent effects of the disease when thus propagated. We have seen that the virus from the horse, when it proves infectious to the human subject, is not to be relied upon as rendering the system secure from variolous infection, but that the matter produced by it upon the nipple of the cow is perfectly so. Whether its passing from the horse through the human constitution, as in the present instance, will produce a similar effect, remains to be decided. This would now have been effected, but the boy was rendered unfit for inoculation from having felt the effects of a contagious fever in a workhouse soon after this experiment was made.</p>
+  <p><em>50</em></p>
+  <p>CASE XIX.—William Summers, a child of five years and a half old, was inoculated the same day with Baker, with matter taken from the nipples of one of the infected cows, at the farm alluded to. He became indisposed on the sixth day, vomited once, and felt the usual slight symptoms till the eighth day, when he appeared perfectly well. The progress of the pustule, formed by the infection of the virus, was similar to that noticed in Case XVII, with this exception, its being free from the livid tint observed in that instance.</p>
+ <p><em> 51</em></p>
+  <p>CASE XX.—From William Summers the disease was transferred to William Pead, a boy of eight years old, who was inoculated March 28th. On the sixth day he complained of pain in the axilla, and on the seventh was affected with the common symptoms of a patient sickening with the smallpox from inoculation, which did not terminate till the third day after the seizure. So perfect was the similarity to the variolous fever that I was induced to examine the skin, conceiving there might have been some eruptions, but none appeared. The efflorescent blush around the part punctured in the boy's arm was so truly characteristic of that which appears on variolous inoculation that I have given a representation of it. [In original.] The drawing was made when the pustule was beginning to die away and the areola retiring from the centre.</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/85/fullsize"><img src="/files/display/85/square_thumbnail" class="thumb" alt="&lt;em&gt;An Inquiry into the Causes and Effects of the Variolae Vaccinae&lt;/em&gt; [Literary Excerpt and Illustration]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Tue, 14 Oct 2008 21:55:31 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/85/fullsize" type="image/jpeg" length="122659"/>
+    </item>
+    <item>
+      <title><![CDATA[Transplanting Teeth (c.1790) [Engraving]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/164</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text"><em>Transplanting Teeth</em> (c.1790) [Engraving]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>This print is by Thomas Rowlandson (1756-1827) and is dated 1787. It is a satirical comment upon the real practice of rich gentlemen and ladies of the 18th century paying for teeth to be pulled from poor children and transplanted in their gums. The dentist present is portrayed as a quack. There are even two quacking ducks on the placard advertising his fake credentials. He is busy pulling teeth from the mouth of a poor young chimney sweep. Covered in soot and exhausted, he slumps in a chair. Meanwhile the dentist's assistant transplants a tooth into a fashionably dressed young lady's mouth. Two children can be seen leaving the room clutching their faces and obviously in pain from having their teeth extracted. As people lost most of their teeth by age 21 due to gum disease, teeth transplants were popular for some time in England although they rarely worked.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Thomas Rowlandson</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Thomas Rowlandson, "Transplanting Teeth," <em>The Wellcome Library</em>, <a class="external" href= http://images.wellcome.ac.uk/indexplus/result.html?_IXFIRST_=9&_IXSS_=_IXFIRST_%3d1%26_IXACTION_%3dquery%26_IXMAXHITS_%3d15%26%2524%2bwith%2bwi_sfgu%2bis%2bY%3d%252e%26with%2bimage_sort%3d%252e%26_IXSESSION_%3dcrHmB4NhlbN%26create_creator_name_name%253atext%3d%2522Thomas%2bRowlandson%2522%26%2524%2bnot%2b%2522Contemporary%2bclinical%2bimages%2522%2bindex%2bwi_collection%3d%252e%26_IXFPFX_%3dtemplates%252ft&_IXACTION_=query&_IXMAXHITS_=1&_IXSR_=npSLTgDywbK&_IXSPFX_=templates%2ft&_IXFPFX_=templates%2ft> http://images.wellcome.ac.uk/indexplus/result.html?_IXFIRST_=9&_IXSS_=_IXFIRST_%3d1%26_IXACTION_%3dquery%26_IXMAXHITS_%3d15%26%2524%2bwith%2bwi_sfgu%2bis%2bY%3d%252e%26with%2bimage_sort%3d%252e%26_IXSESSION_%3dcrHmB4NhlbN%26create_creator_name_name%253atext%3d%2522Thomas%2bRowlandson%2522%26%2524%2bnot%2b%2522Contemporary%2bclinical%2bimages%2522%2bindex%2bwi_collection%3d%252e%26_IXFPFX_%3dtemplates%252ft&_IXACTION_=query&_IXMAXHITS_=1&_IXSR_=npSLTgDywbK&_IXSPFX_=templates%2ft&_IXFPFX_=templates%2ft</a> (accessed October 13, 2008). Annotated by Lynda Payne.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-14</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Lynda Payne</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">166</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                                    <div class="element-text">Color print by Thomas Rowlandson (1756-1827) dated 1787, titled &quot;Transplanting of Teeth.&quot; It is a satirical comment upon the real practice of rich gentlemen and ladies of the 18th century paying for teeth to be pulled from poor children and transplanted in their gums. The dentist present is portrayed as a quack. There are even two quacking ducks on the placard advertising his fake credentials. He is busy pulling teeth from the mouth of a poor young chimney sweep. Covered in soot and exhausted, he slumps in a chair. Meanwhile the dentist&#039;s assistant transplants a tooth into a fashionably dressed young lady&#039;s mouth. Two children can be seen leaving the room clutching their faces and obviously in pain from having their teeth extracted.</div>
+                    </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/89/fullsize"><img src="/files/display/89/square_thumbnail" class="thumb" alt="&lt;em&gt;Transplanting Teeth&lt;/em&gt; (c.1790) [Engraving]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Tue, 14 Oct 2008 21:21:02 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/89/fullsize" type="image/jpeg" length="148962"/>
+    </item>
+    <item>
+      <title><![CDATA[The Graham Children (1742) [Painting]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/163</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text"><em>The Graham Children</em> (1742) [Painting]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>This beautiful life-size painting of four children is by William Hogarth, who also specialized in engravings such as <em>Gin Lane</em>. It was commissioned by Daniel Graham, a rich apothecary (pharmacist) to the royal family and to Chelsea Hospital in London. It shows Daniel's three children by his second wife, Mary Crisp, and Mary's daughter, Henrietta, by her first marriage. The children are (from left to right) the infant Thomas sitting in a gold-leaf gilded go-cart (age 2); Henrietta in a blue dress holding two cherries (age 9); Anna Maria in a flower-print dress (age 5); and Richard who plays the sérinette or bird organ (age 7). Hogarth was a patron of the Foundling Hospital in London and painted portraits of many of the children there. His skill led to commissions such as this one.</p> 
+<p>At first glance Hogarth literally paints childhood as a time of innocence and happiness. But there are clues that point to the fragility of children's lives. The clock on the mantelpiece is decorated with a figure of Cupid holding a scythe, a symbol of death. Standing beside it is an hourglass, yet another symbol of mortality. The cat gazes greedily at the caged bird to remind us that there are predators even in such a happy scene as this. In fact Thomas died while Hogarth was completing the portrait and what we have here is a posthumous representation of the infant, as if he was still alive at the age of two. The crossed carnations at Thomas's feet symbolize that like flowers, his life faded quickly, while the dove on the go-cart may represent his soul flying to heaven.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">William Hogarth</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Hogarth, William. <em>The Graham Children</em>. Oil on canvas, 1742. Annotated by Lynda Payne.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-14</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Lynda Payne</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">166</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                                    <div class="element-text">Color painting, realistic. This beautiful life-size painting of four children is by William Hogarth, who also specialized in engravings such as Gin Lane. It was commissioned by Daniel Graham, a rich apothecary (pharmacist) to the royal family and to Chelsea Hospital in London. It shows Daniel&#039;s three children by his second wife, Mary Crisp, and Mary&#039;s daughter, Henrietta, by her first marriage. The children are (from left to right) the infant Thomas sitting in a gold-leaf gilded go-cart (age 2); Henrietta in a blue dress holding two cherries (age 9); Anna Maria in a flower-print dress (age 5); and Richard who plays the sérinette or bird organ (age 7). Hogarth was a patron of the Foundling Hospital in London and painted portraits of many of the children there. His skill led to commissions such as this one.
+
+At first glance Hogarth literally paints childhood as a time of innocence and happiness. But there are clues that point to the fragility of children&#039;s lives. The clock on the mantelpiece is decorated with a figure of Cupid holding a scythe, a symbol of death. Standing beside it is an hourglass, yet another symbol of mortality. The cat gazes greedily at the caged bird to remind us that there are predators even in such a happy scene as this. In fact Thomas died while Hogarth was completing the portrait and what we have here is a posthumous representation of the infant, as if he was still alive at the age of two. The crossed carnations at Thomas&#039;s feet symbolize that like flowers, his life faded quickly, while the dove on the go-cart may represent his soul flying to heaven.</div>
+                    </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/102/fullsize"><img src="/files/display/102/square_thumbnail" class="thumb" alt="&lt;em&gt;The Graham Children&lt;/em&gt; (1742) [Painting]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Tue, 14 Oct 2008 21:07:28 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/102/fullsize" type="image/jpeg" length="108801"/>
+    </item>
+    <item>
+      <title><![CDATA[Infanticide Trial Transcript from the Old Bailey of Elizabeth Taylor of Clerkenwell, London, June 1734 [Trial Record]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/162</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Infanticide Trial Transcript from the Old Bailey of Elizabeth Taylor of Clerkenwell, London, June 1734 [Trial Record]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Infanticide or the killing of a baby was punishable by hanging in early modern England. Unlike married women accused of infanticide, the mere fact that single women had tried to conceal the death of their babies was considered proof of murder under the <em>Infanticide Act</em> of 1624. A single woman's only recourse was to try and prove that the baby had been born dead and that she had not killed it. This was difficult as many of these women gave birth with no witnesses. In the mid-18th century from research by historians, we know that 70% of the women indicted for infanticide were servants by occupation and under the age of 16. We also know that the trend as the century progressed was for juries to find more women innocent than guilty of the crime of infanticide unless there was clear proof that they had murdered their baby. Perhaps they were beginning to see these young women as victims rather than criminals.</p> 
+
+<p>The case of Elizabeth Taylor shows the fear and shame single women felt when they became pregnant and the lack of privacy in their lives as servants. Elizabeth does not speak at her trial, instead witnesses for the prosecution are called first before the judge and jury who ask them questions about whether Elizabeth hid her pregnancy and the baby. Then Dinah Beaven testifies that the baby does not appear to have been murdered. She was probably a midwife and here acts as an expert witness. Finally, a prisoner in Newgate with Elizabeth states that they found baby items sewn in Elizabeth's coat when the prisoners took it from her. (New prisoners were often fleeced by inmates who used money and goods to bribe gaolers into providing more than just the basics of bad bread, foul water, and old straw for bedding.) The fact that Elizabeth had made provision for the baby was the strongest proof that she did not intend to kill it and the court let her go.</p>  
+<p>[Full text <a class="external" href=http://www.bartleby.com/38/4/1.html>available online.</a>]</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">May, Allyson N. "'She at first denied it': Infanticide Trials at the Old Bailey." In <em>Women and History: Voices of Early Modern England</em>, edited by Valerie Frith, 31–2. Concord, Ontario: Irwin Publishing, 1997. Annotated by Lynda Payne.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-13</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Lynda Payne</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">166</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3>June 1734</h3>
+
+<p>Elizabeth Turner, of Clerkenwell, was indicted for the murder of her male bastard infant, by strangling it with both her hands, April 12.</p>
+
+<p><em>Eleanor Turnly</em>. The prisoner was servant to Mrs Windsor, a pastry-cook, in St. John's Lane. I and Margaret Goldsmith, came to lodge there but a little before Ladyday [25 March, the beginning of the year on the old calendar], and then we observed the prisoner looked big, and at Easter, she looked very lank. We suspected she had been delivered, though she appeared publicly every day. And we had never heard her cry out, but then we could not think what was become of the child. In short, we thought the family was all alike, or things could not be kept so private. We watched and harkened all as ever we could. Once while. . . we fancied the child might be at nurse in the garret [attic], because they were often whipping up and down stairs. But when we could find nothing, we concluded it was baked in the oven. At last Mrs. Goldsmith, going into the cellar, came up, and told me and her husband, she had seen a wig-box below, and smelled something. He went down, and came up again, like a dead man, and said, he put his hand in the box, and felt a child, but was so surprised that he did not take it out. We consulted what to do, and, says I, as they have kept this thing in hugger-mugger [secret], we won't let 'em know the child is found before we fetch for a constable [policeman]. So Mr. Goldsmith fetched a constable and watch [man who watched the streets to prevent crimes], and they brought the child up, and it was all mouldy. The prisoner, at first, denied she had had a child; but in a little time owned it was her's.</p> 
+	<p><em>Juryman</em>. You seemed very diligent in watching the prisoner. Did you ever tax [question] her with being with child, before the child was found.</p>
+	<p><em>Turnly</em>. No, I never spoke a word to her about it, for I could not bear the sight of the creature.</p> 
+	<p><em>Margaret and Thomas Goldsmith</em>, deposed to the same effect.</p>
+	<p><em>Elizabeth Windsor</em>. The prisoner never told me she was with child, but she said she had been ill, and had had a great deal of water come from her, and then she was much better. When the child was first found, she denied it, but owned it afterwards.</p>
+	<p><em>Dinah Beaven</em>. The child was crowded in the box and putrefied. It was at the full time. I could discern no mark of violence. [There] was a small wound on the head; but I have known such a thing happen to an honest woman's child; when it fell from her for want of assistance.</p> 
+	<p><em>Sarah Hawkey</em>. When the prisoner was brought to Newgate, some of the other prisoners took her coat, for garnish money. And they found these baby things, sewed up in her coat. Here's a shirt, a cap, a stay [a tie for clothing?], a forehead-cloth, and a biggin [a tight fitting cap].</p>
+<p>The jury acquitted her.</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Mon, 13 Oct 2008 21:27:11 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Rubeola Vulgaris (measles) [Still Image]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/161</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Rubeola Vulgaris (measles) [Still Image]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Robert Willan (1757-1812) was a physician who practiced in London. Like Sydenham he was fascinated by the relation of weather to epidemics and kept strict records on when they occurred over several years. He was particularly interested in the diseases of children and carefully observed rashes and pustules as they developed in stages on the skin. The first volume of his book, <em>On Cutaneous Diseases</em>, was published between 1798-1808 and widely admired by the medical world. Historians generally agree that it was this book that launched the modern specialty of dermatology. The volume is notable for its' beautiful and graphic colored plates. Willan closely supervised the creation of these. In 1812 as he was preparing a second volume for publication, Willan sadly died from tuberculosis. Plate 20 shows a young child's face and arm covered in the rash characteristic of measles. It was often a severe and disfiguring disease in early modern England and could result in death as the infection spread to the tissue and bone, resulting in gangrene.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Willan, Robert. <em>On Cutaneous Diseases</em>. N.p., 1808. Wellcome Collection, "Pate 20: On Cutaneous Diseases," <em>The Wellcome Library</em>, <a class="external" href=http://library.wellcome.ac.uk/doc_WTD015575.html>http://library.wellcome.ac.uk/doc_WTD015575.html</a> (accessed October 13, 2008).</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-13</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Lynda Payne</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">166</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                                    <div class="element-text">A color illustration by a London physician named Robert Willan, published between 1798 and 1808. This image, Plate 20, shows a young child&#039;s face and arm covered in the rash characteristic of measles.</div>
+                    </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/90/fullsize"><img src="/files/display/90/square_thumbnail" class="thumb" alt="Rubeola Vulgaris (measles) [Still Image]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Mon, 13 Oct 2008 20:42:35 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/90/fullsize" type="image/jpeg" length="63594"/>
+    </item>
+    <item>
+      <title><![CDATA[John Evelyn's Diary, 1658 [Literary Excerpt]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/160</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">John Evelyn's <em>Diary</em>, 1658 [Literary Excerpt]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>The English lawyer John Evelyn (1620-1706) kept a diary for nearly 50 years and in it recorded his grief at the death of four of his children. John and Mary Evelyn had eight children altogether: Richard (1652–8), John Standsfield (1653–4), John (1655–99), George (1657–8), Richard (1664), Mary (1665–85), Elizabeth (1667–85) and Susanna (1669–1754). Only Susanna outlived her parents. In January 1658 the eldest son Dick (Richard) fell ill from a quartan ague or fever, had sweats and fits, and finally died. Physicians were sent for from London but the bitterly cold weather prevented them from arriving in time to help little Dick. Evelyn's devastation at the loss of his son shows all too well when he painfully records Dick's age as 5 years, 5 months, and 3 days. He angrily blames the death on the servants keeping Dick too hot with a great fire and blankets. Evelyn was an educated man interested in science or natural philosophy as it was called in the 17th century. This may have led to his somewhat unusual decision to attend the autopsy of Dick. The findings of <em>liver growne</em> and a large spleen, suggest possibly rickets or malaria as the cause of Dick's death. The following month Evelyn recorded the death of yet another son – his youngest, George, aged only seven weeks.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">John Evelyn</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">John Evelyn, "1658," <em>Geocities</em>, <a class="external" href=http://www.geocities.com/Paris/LeftBank/1914/ed_1658.html#1658> http://www.geocities.com/Paris/LeftBank/1914/ed_1658.html#1658</a> (accessed March 28, 2008). Annotated by Lynda Payne.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-12</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Lynda Payne</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">166</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3>1658</h3>
+<h3>January</h3>
+
+<p>27 After six fitts of a Quartan Ague it pleased God to visite my deare child Dick with fitts so extreame, especiale one of his sides, that after the rigor was over & he in his hot fitt, he fell into so greate & intollerable a sweate, that being surpriz'd with the aboundance of vapours ascending to his head, he fell into such fatal Symptoms, as all the help at hand was not able to recover his spirits, so as after a long & painefull Conflict, falling to sleep as we thought, & coverd too warme, (though in the midst of a severe frosty season) and by a greate fire in the roome; he plainely expired, to our unexpressable griefe & affliction.</p>
+
+<p>We sent for Physitians to Lond, whilst there was yet life in him; but the river was frozen up, & the Coach brake by the way ere it got a mile from the house; so as all artificial help failing, & his natural strength exhausted, we lost the prettiest, and dearest Child, that ever parents had, being but 5 years <5 months> & 3 days old in years but even at that tender age, aprodigie for Witt, & understanding; for beauty of body a very Angel, & for endowments of mind, of incredible & rare hopes.</p>
+
+<p>30 On the Saturday following, I sufferd the Physitians to have him opened: Dr. Needham & Dr. Welles, who were come three days before, & a little time ere he expired, but was past all help, & in my opinion he was suffocated by the woman & maide that tended him, & covered him too hott with blankets as he lay in a Cradle, neere an excessive hot fire in a close roome; for my Wife & I being then below & not long come from him, being come up, & I lifting up the blanket, which had quite cove<re>d the Cradle, taking first notice of his wonderfull fresh colour, & hardly hearing him breath or heave, soone perceived that he was neere overcome with heate & sweate, & so doubtlesse it was, & the Child so farr gon, as we could not make him to heare, or once open his eyes, though life was apparently in him: we gave him something to make him sneeze but ineffectivly:
+Being open'd they they found a membranous substance growing to the cavous part of the liver, somewhat neere the edge of it for the compasse of 3 Inches, which ought not to be; for the Liver is fixed onely by three strong ligaments, all far distant from that part; on which they confidently affirm'd, the Child was (as tis vulgarly cald) liver-growne, & thence that sicknesse & so frequent complaint of his side: & indeede both Liver & Splen were exceedingly large &c:</p>
+
+<p>After this I caused the body to be Cofin'd in Lead & reposited him that night, about 8 a clock in the Church of Deptford, accompanied with divers of my relations & neighbours, among whom I distributed rings with this ___ Dominus abstulit: intending (God willing) to have him transported with my owne body, to be interrd at our Dormitorie in Wotton chur<c>h in my deare native County Surry, & to lay my bones & mingle my dust with my Fathers <a href="#note1" id="fn1" class="footnote">1</a> If God be so gracious to me; & make me as fit for him, as this blessed child was: Here ends the joy of my life, & for which I go even mourning to the grave: The L. Jesus sanctifie this & all others my Afflictions: Amen:</p>
+
+
+<h3>February</h3>
+<p>15 The afflicting hand of God being still upon us, it pleased him also to take away from us this morning my other youngest sonn George now 7 weeks languishing at Nurse, breeding Teeth, & ending in a Dropsie: Gods holy will be don: he was buried in Deptford church the 17th following:____</p>
+<h3>March</h3>
+<p>. . . This had ben the severest Winter, that man alive had knowne in England: The Crowes feet were frozen to their prey: Ilands of Ice inclosed both fish & foule frozen, & some persons in their boates:</p>
+
+
+<div id="notes">
+<p><a href="#fn1" id="note1" class="footnote">1</a> Richard's body was never moved. His epitaph is still at St. Nicholas, Deptford. E gave a similar account of his son's life in the preface to his translation of the Golden Book of John Chrysostom, see p. 119 and 459.</p>
+
+<p><a href="#fn2" id="note2" class="footnote">2</a> Foeffees were 'trustees holding land for charitable uses' (de Beer).</p>
+<p><a href="#fn3" id="note3" class="footnote">3</a>'with great pomp', Acts of the Apostles, xxv.23. E's translation, see p. 459.</p>
+</div></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Mon, 13 Oct 2008 05:55:59 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[London's Bill of Mortality (December 1664-December 1665) [Official Document]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/159</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">London&#039;s Bill of Mortality (December 1664-December 1665) [Official Document]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>During the great outbreak of bubonic plague or black death in the hot summer of 1665 in London, special bills of mortality were issued that listed causes of death. By mid-July over a thousand deaths a week were reported on handbills that were stuck up in public places to warn people that the plague was growing. The rich fled the city but the poor did not have that option and died in droves. Shown is the front of a bill that lists the final count for the year of 1665 with <em>memento mori</em> or remember you will die, written across the top of it and skeletons representing death around the edges. The second bill lists the number of deaths in London for just one week in September 1665. It shows that 7,165 people died from plague. Other deaths recorded point to the high infant mortality of early modern England; 17 <em>chrisomes</em>, or infants who died in the first month of life; 121 <em>teeth</em>, or infants who died when still teething. Fifteen children died from worms or parasites in the body. Several fevers are also mentioned – 42 women died from childbed fever, or bacterial infection after giving birth, and 101 people succumbed to spotted fever (probably typhus).</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Wellcome Library, "London's dreadful visitation: or, a collection of all the Bills of Mortality for this present year: beginning the 27th of December 1664 and ending the 19th of December following: as also the general or whole years bill. According to the report made to the King's most excellent Majesty / by the Company of Parish-Clerks of London," <em>Wellcome Library, Wellcome Collection</em>, <a class="external" href=http://images.wellcome.ac.uk/ixbin/hixclient.exe?MIROPAC=L0030700>http://images.wellcome.ac.uk/ixbin/hixclient.exe?MIROPAC=L0030700</a> and  <a class="external" href=http://images.wellcome.ac.uk/ixbin/hixclient.exe?MIROPAC=L0030701>http://images.wellcome.ac.uk/ixbin/hixclient.exe?MIROPAC=L0030701</a> (accessed October 1, 2008). Annotated by Lynda Payne.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-12</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Lynda Payne</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">166</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/80/fullsize"><img src="/files/display/80/square_thumbnail" class="thumb" alt="London&amp;#039;s Bill of Mortality (December 1664-December 1665) [Official Document]" width="250" height="250"/>
+</a></div><div class="item-file image-jpeg"><a class="download-file" href="/files/download/81/fullsize"><img src="/files/display/81/square_thumbnail" class="thumb" alt="London&amp;#039;s Bill of Mortality (December 1664-December 1665) [Official Document]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Mon, 13 Oct 2008 05:44:29 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/80/fullsize" type="image/jpeg" length="134001"/>
+    </item>
+    <item>
+      <title><![CDATA[Gin Lane (1751) [Engraving]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/158</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text"><em>Gin Lane</em> (1751) [Engraving]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>This is one of the best-known prints by the famous artist, William Hogarth. He designed it to support the British government's attempt to regulate the price and popularity of drinking gin (known as Geneva) in the Gin Act of 1751. The print is accompanied by the following verse:</p>
+
+<p>Gin, cursed Fiend, with Fury fraught,<br />
+Makes human Race a Prey.<br />
+It enters by a deadly Draught<br />
+And steal our Life away.<br />
+Virtue and Truth, driv'n to Despair<br />
+Its Rage compells to fly,<br />
+But cherishes with hellish Care<br />
+Theft, Murder, Perjury.<br />
+Damned Cup! that on the Vitals preys<br />
+That liquid Fire contains,<br />
+Which Madness to the heart conveys,<br />
+And rolls it thro' the Veins.</p>
+
+<p>Gin had originally been marketed as a medicine for upset stomachs in the Netherlands. It was imported into Britain after 1689 and quickly became the choice drink of the poor. Many distilled and sold it from their homes. Some historians claim that by 1750, one out of every fifteen houses in London sold it. Children would often be sent to buy gin for their parents and sampled it themselves. It was also regularly given to calm babies. Hogarth shows here the poverty, public drunkenness, and crime, which resulted from the cheap availability of gin. The most shocking figure in <em>Gin Lane</em> is the drunken mother. She may be partially based on a real person, Judith Dufour. Due to the mother's neglect, the two-year old child had been taken from her and placed in a workhouse. Dufour reclaimed her child and shortly afterwards strangled it and left the body in a ditch. She sold the clothes that the workhouse had provided the child for a few pennies, and then used the money to buy gin. Dufour was publicly hanged for the murder.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">William Hogarth</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text"><em>Gin Lane</em> (1751). Etching and Engraving by William Hogarth. Print Collection, Miriam and Ira D. Wallach Division of Art, Prints and Photographs. The New York Public Library, Astor, Lenox and Tilden Foundations. Reproduced online: <em>Gin Lane</em>, The Norton Anthology of English Literature, <a class="external" href=http://www.wwnorton.com/college/english/nael/18century/topic_1/illustrations/imginlane.htm>http://www.wwnorton.com/college/english/nael/18century/topic_1/illustrations/imginlane.htm</a> (accessed March 26, 2008). Annotated by Lynda Payne.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-12</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Lynda Payne</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">166</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                                    <div class="element-text">Etching and Engraving by William Hogarth, titled Gin Lane (1751). Depicts a street scene in England. Chaotic people, many of whom appear to be drunk. Most prominent figure is of a drunken mother in rags who has dropped her child, who is in the act of falling over a railing.
+
+Image caption reads: 
+&quot;Gin, cursed Fiend, with Fury fraught,
+Makes human Race a Prey.
+It enters by a deadly Draught
+And steal our Life away.
+Virtue and Truth, driv&#039;n to Despair
+Its Rage compells to fly,
+But cherishes with hellish Care
+Theft, Murder, Perjury.
+Damned Cup! that on the Vitals preys
+That liquid Fire contains,
+Which Madness to the heart conveys,
+And rolls it thro&#039; the Veins.&quot;</div>
+                    </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/79/fullsize"><img src="/files/display/79/square_thumbnail" class="thumb" alt="&lt;em&gt;Gin Lane&lt;/em&gt; (1751) [Engraving]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Mon, 13 Oct 2008 05:23:19 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/79/fullsize" type="image/jpeg" length="139754"/>
+    </item>
+  </channel>
+</rss>

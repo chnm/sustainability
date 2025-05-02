@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=%3Cem%3EWW2+People%E2%80%99s+War%3C%2Fem%3E&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:19:43 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Childhood and Evacuation]]></title>
+      <link>https://cyh.rrchnm.org/items/show/304</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Childhood and Evacuation</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://feeds.bbc.co.uk/ww2peopleswar/categories/c1162/index_5.shtml </div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">BBC</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">August 2009</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href="http://feeds.bbc.co.uk/ww2peopleswar/categories/c1162/index_5.shtml"><em>Childhood and Evacuation</em></a> forms part of a large-scale project, the <a class="external" href="http://www.bbc.co.uk/ww2peopleswar/"> <em>WW2 People’s War</em></a>, undertaken by the British Broadcasting Corporation between 2003 and 2006. It is billed as an archive of World War Two memories "written by the public, gathered by the BBC." Its core consists of 47,000 stories and 15,000 images provided by ordinary people from all parts of Britain. They are grouped into 64 categories that cover the home front as well as the military side.</p>
+<p>To help with the daunting task of knowing where to start in such a vast array of material, there is a list of recommended stories in each category, chosen for reasons such as their vivid storytelling or their dramatic content. With its 14,336 stories, <em>Childhood and Evacuation</em> is by far the largest single category in the archive. Doubtless this is largely because most of those who were adults during the 1930s and 1940s would have died during the 60 or so years since the end of the war. None the less, it does also highlight the importance of the childhood dimension to any armed conflict.</p> 
+<p>The supporting documentation for the project is excellent. An <a class="external" href="http://feeds.bbc.co.uk/ww2peopleswar/categories/"><em>Archive List</em></a> helps readers find their way around the various categories, whilst a <a class="external" href="http://feeds.bbc.co.uk/ww2peopleswar/timeline/"> <em>Timeline</em></a> contains 144 fact files covering some of the key events in the war. These files are concise and accessible, though inevitably their authors find it difficult to explore in any detail the complex issues surrounding, say, the evacuation or the strategic bombing of enemy cities.</p> 
+<p><a class="external" href="http://feeds.bbc.co.uk/ww2peopleswar/about/"><em>About this Site</em></a> contains a mass of information on how the project was conceived, the house rules for moderating the stories (mainly to refuse copyright material), and the way the stories were gathered. At the outset, the project designers assumed that people old enough to have lived through the war would shy away from the new-fangled Internet, so the idea was that their children and grandchildren would research the family’s history and recount the stories. In the end, approximately 80 percent of the material came directly from people over 60 years of age, with some help from outreach volunteers and others to enter the accounts.</p> 
+<p>This section also includes a <a class="external" href="http://www.bbc.co.uk/ww2peopleswar/about/lzone_lessonplans.shtml"><em>Learning Zone</em></a>, featuring lesson plans on selected themes for teachers, families, and community groups. The latter includes one on <a class="external" href="http://www.bbc.co.uk/ww2peopleswar/about/lzone_school_youngpeople.shtml"><em>Young People and War</em></a>, pitched at both primary and secondary school pupils, with curriculum links to history, english, religious education, citizenship, and media studies.</p> 
+<p>The three lessons proposed for teachers focus on evacuation, bombing and rationing. These appear to be a reasonable reflection of the interests of the young. They draw on extracts from the stories and other resources specified for each lesson. The activities suggested for the class, and the supporting questions for the teacher to pose, make effective use of the website resources.</p> 
+<p>Firstly, they invite reflection on the nature of the source material, a useful exercise now that historians make extensive use of the childhood reminiscences of men and women at all levels of society. The organizers of the project note that they deliberately avoided any attempt to check the factual accuracy of the stories, as they attempted to convey "how the wartime generation remembered these years" rather than the received ideas of historians. The contributors themselves sometimes draw attention to the perils of a fading memory in old age: in the words of <a class="external" href="http://www.bbc.co.uk/ww2peopleswar/stories/27/a2040427.shtml">David Millar</a>, "Flashes of incidents occur, but before they can be recorded they have disappeared."</p> 
+<p>Secondly, to demonstrate the positive contribution of the stories, the lessons use them to give a child’s perspective on well-known wartime events. They reveal, for example, the chaos and distress underlying the immense evacuation of 3 million people from the cities to safety in the countryside. Many of the city children settled in comfortably enough with their foster parents, while others struggled with the uprooting from their families. Exploring the site, one finds the case of <a class="external" href="http://www.bbc.co.uk/ww2peopleswar/stories/07/a2007307.shtml">Audrey J</a>, who exasperated her host by constant bed-wetting:</p>
+
+<blockquote>One particular morning we awoke to find the bed drenched as usual, and Mrs Taylor was more angry than usual. It was a shear icicle day and she shoved me first into the back yard – naked, and threw a pail of freezing water over me, then proceeded to break the ice in the water butt to throw at me. It was like shards of glass hitting my body and of course drew blood.</blockquote> 
+<br />
+<p>Thirdly, the website gives an insight into the way children turned wartime conditions to their own advantage, as they explored bomb sites or swapped pieces of shrapnel.</p> 
+<p>Most of the contributions are long and full of detail on humdrum daily routines during the war, which may try the patience of young people today. Yet the website surely achieves its objective of providing a monumental learning resource for future generations.</p>
+<p> <a class="external" href=" http://www.bbc.co.uk/schools/primaryhistory/world_war2/ "><em>Children of WW2</em></a> is another BBC website, covering similar ground, though this one is more specifically aimed at schools. It complements two TV programs, but claims to work also as a stand-alone resource – one suspects that it works more effectively in the former role. It does however have a section for <a class="external" href="http://www.bbc.co.uk/schools/primaryhistory/world_war2/world_at_war/teachers_resources.shtml"><em>Teachers and Parents</em></a>, providing printable worksheets to support activities concerned with the rationing of food, a wartime home, and letters written by evacuees.</p> 
+<p>Interactive learning is encouraged in a <a class="external" href="http://www.bbc.co.uk/history/ww2children/research/research_intro.shtml"><em>Research Room</em></a> where children can explore various types of source material under these three headings. The exercises on the computer are entertaining and informative, allowing the child to find out, for example, what would have happened if you tried to order a pizza in Britain in 1943, or to see how a ration book worked. There is also a series of pictures of a typical house of the period, with features of each room explained through a mouse click. The supporting documents are easy to access, though they emerge very much as little snippets of information. Doubtless it is a useful asset for schoolchildren in the second or third grade.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Colin Heywood</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">The University of Nottingham</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">The exercises on the computer are entertaining and informative, allowing the child to find out, for example, what would have happened if you tried to order a pizza in Britain in 1943, or to see how a ration book worked.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/249/fullsize"><img src="/files/display/249/square_thumbnail" class="thumb" alt="Childhood and Evacuation" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Sun, 27 Sep 2009 19:05:28 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/249/fullsize" type="image/jpeg" length="44360"/>
+    </item>
+  </channel>
+</rss>

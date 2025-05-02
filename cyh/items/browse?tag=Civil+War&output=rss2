@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=Civil+War&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:19:10 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Love & Authority in Argentina (19th c)]]></title>
+      <link>https://cyh.rrchnm.org/items/show/60</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Love &amp; Authority in Argentina (19th c)</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Shifting boundaries of parental roles and expectations, young people's behaviors, and social status in early to mid-19th century Argentina are examined through a variety of primary sources, helping students to understand the reasons for underdevelopment, authoritarianism, and political instability in Argentina past and shedding light on such continuing problems in Latin America today.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-05-06</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Teaching Module Item Type Metadata</h2>
+        <div id="teaching-module-item-type-metadata-bibliography" class="element">
+        <h3>Bibliography</h3>
+                                    <div class="element-text"><ol class="bibliography">
+<li>Lynch, John. <em>Argentine Caudillo: Juan Manuel de Rosas</em>. Wilmington, DE: Scholarly Resources, 2001.<br />
+	
+<span>This classic work is the most accessible English-language biography on Juan Manuel de Rosas; it provides a cogent explanation of how the <em>rosista</em> state employed state terror within Argentina.</span></li>
+
+<li>Shumway, Jeffrey M. <em>The Case of the Ugly Suitor and Other Histories of Love, Gender, and Nation in Buenos Aires, 1776-1870.</em> Lincoln: University of Nebraska Press, 2005.<br /> 
+
+	<span>This important book documents the rich variety of legal challenges that young people of Buenos Aires brought against parental and state authorities.</span></li>
+
+<li>Stevens, Donald F. "Passion and Patriarchy in Nineteenth-Century Argentina: María Luisa Bemberg's Camila." In <em>Based on a True Story: Latin American History at the Movies</em>, edited by Donald F. Stevens, 85-102. Wilmington, DE: Scholarly Resources, Inc., 1997.<br />
+
+	<span>Stevens's superb article compares the real life story of Camila O'Gorman with María Luisa Bemberg's film <em>Camila</em> (1984), which, as he argues, is a feminist critique of patriarchy and state authority. Author includes a solid bibliography of Spanish-language primary sources on O'Gorman's life.</span></li>
+
+<li>Szuchman, Mark D. "A Challenge to the Patriarchs: Love Among the Youth in Nineteenth-Century Argentina." In <em>The Middle Period in Latin America: Values and Attitudes in the 17th-19th Centuries</em>, edited by Mark D. Szuchman, 141-65. Boulder, CO: Lynne Rienner Publishers, 1989.<br />
+	
+<span>The author deftly traces how children challenged parental authority by filing lawsuits in provincial courts over spousal choices.</span></li>
+
+<li>Szuchman, Mark D. <em>Order, Family, and Community in Buenos Aires, 1810-1860.</em> Stanford, CA: Stanford University Press, 1988.<br />
+
+	<span>Szuchman discusses the impact of authoritarianism on household structure and families. He also includes seminal chapters on parental conflicts with children during the Rosas era and the Argentine state's attempts to use the educational system to socialize children.</span></li>
+</ol></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-document-based-question" class="element">
+        <h3>Document Based Question</h3>
+                                    <div class="element-text"><p>by Janelle Collett<br />
+<em>(Suggested writing time: 50 minutes)</em></p>
+
+<p>The following question is based on the documents included in this module. This question is designed to test your ability to work with and understand historical documents.</p>
+
+<p>Drawing on specific examples from the sources in the module, write a well- organized essay of at least five paragraphs in which you answer the following question:</p>
+
+<ul>
+<li>What ideals did the Rosas regime promote for the youth of Argentina? How did the regime enforce those ideals and how did the youth combat them?</li></ul>
+
+<p>Your essay should:</p>
+<ul>
+<li>have a relevant, clear thesis that answers the question,</li>
+<li>use at least six of the documents,</li>
+<li>analyze the documents by grouping them in as many appropriate ways as possible, not simply summarize the documents individually, and</li>
+<li>take into account both the sources of the documents and the creators' points of view.</li></ul>
+
+<p>Be sure to analyze point of view in at least three documents or images.</p>
+
+<p>What additional sources, types of documents, or information would you need to have a more complete view of this topic?</p>
+
+<p>You may refer to relevant historical information not mentioned in the documents.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-credits" class="element">
+        <h3>Credits</h3>
+                                    <div class="element-text"><p>Grateful acknowledgement is made to the following institutions for primary sources:</p>
+<ul>
+<li><a class="external" href="http://www.agn.gob.mx/">Archivo General de la Nación</a>,</li>
+<li><a class="external" href="http://www.amigoslevene.com.ar/archivo.htm">Archivo Histórico de la Provincia de Buenos Aires</a>,</li>
+<li>Archivo Histórico de la Provincia de Córdoba,</li>
+<li><a class="external" href="http://www.planetapublishing.com/">Planeta Publishing</a>,</li>
+<li>Scholarly Resources,</li>
+<li><a class="external" href="http://www.sup.org/">Stanford University Press</a>, and</li>
+<li><a class="external" href="http://http://www.tauruspub.net/">Taurus Publishing</a>.</li>
+</ul>
+
+
+<h3>About the Author</h3>
+
+<p>Jessie Hingson is an Assistant Professor of History at Jacksonville University in Jacksonville, Florida. He received his Doctorate from Florida International University and is the author of several articles on the history of race and family in post-independence Argentina. His work has been supported by grants from Fulbright, Rotary International, and the Department of Education.</p> 
+
+<h3>About the Lesson Plan Author</h3>
+<p>Janelle Collett is the chair of the History Department at Springside School in Philadelphia, Pennsylvania, where she teaches seventh grade World History, ninth grade World History, and electives on the history of violence and nonviolence. In January of
+2006, she was a member of an American History Association Conference panel, "Teaching the Nation as Imagined Community: Strategies for Understanding Nationalisms in the Classroom," and she has presented in a variety of settings on effective uses of
+technology in the classroom.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">Jacksonville University</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-introduction" class="element">
+        <h3>Introduction</h3>
+                                    <div class="element-text"><p>Between 1810 and 1860, Argentina emerged as a deeply divided nation. One of the main problems that remained unresolved throughout the 19th century was how power would be shared between Buenos Aires, the capital, and the rest of the provinces. Juan Manuel de Rosas, who ruled the country between 1829 and 1852, provided some semblance of order. However, he failed to share power with other groups, and the nation was not able to establish a lasting peace until the early 1860s. Studying this period is significant because it allows us to better understand the reasons for underdevelopment, authoritarianism, and political instability in Argentina's not so distant past and why these problems continue to exist in many parts of Latin America today.</p>
+
+<h3>A New and Divided Nation</h3>
+
+<p>After Argentina formally declared its independence from Spain in 1816, partisan wars broke out between two elite factions, Federalists and Unitarians. These groups had vastly different visions for how Argentina should be governed, but these views were based mostly on self-interest rather than ideology. Unitarians promoted the idea of centralizing power into Buenos Aires. They sought to reduce the power of the Catholic Church, which they saw as a symbol of the "colonial past." and they wanted to establish freer domestic and foreign trade. Unitarians also imagined a nation that promoted European-style "progress" and "civilization." This vision of modernization favored European immigrants over Argentina's poorer <em>gaucho</em> (rural itinerant workers) population and <em>caudillos</em> (regional strongmen).  During the 1820s, Unitarian governments in control of Buenos Aires attempted to implement their reforms throughout the nation.</p>  
+
+<p>Opposing these efforts, Federalists emerged as a broad-based group, including ranchers and local merchants, who saw free trade and foreign competition as threats to their economic interests. Federalists tended to favor local political control and viewed Unitarians' political reforms as violations of their sovereignty. Federalists also wanted to maintain the power of the Church as an institution of social control. The Unitarians rejected what they called the "barbarism" of Federalist supporters, including Argentina's poorer <em>gaucho</em> (rural itinerant workers) population and their <em>caudillo</em> (regional strongman) leaders.</p>
+
+<p>Throughout the 1820s, Unitarian governments implemented their reforms in Buenos Aires while the rest of the country fiercely resisted these efforts. Political tensions mounted when, in 1826, Unitarians tried to impose a Unitarian constitution over the rest of the country. However, in the following year, the Unitarian government in Buenos Aires resigned under pressure from powerful interests within the interior provinces. Manuel Dorrego, a Federalist, became governor. One of his first acts was to invalidate the Unitarian constitution, but he especially angered Unitarians by establishing peace with Brazil, which had been at war with Argentina since 1825. Both countries had been fighting for control of the eastern bank of the River Plate. Unitarians wanted to continue the war in order to add another province to Argentina and to prevent the loss of lands held by wealthy ranchers from Buenos Aires. However, the war was costly, and in late 1828, Dorrego accepted a British-brokered deal, which recognized the creation of a new "Uruguay" as a buffer state between the two countries. Returning from their military campaigns, Unitarian forces overthrew the Federalist government and assassinated Dorrego. The provinces did not accept the Unitarian constitution, and civil war broke out.</p>
+
+
+<h3>"The Restorer of the Laws"</h3>
+
+<p>In response to the discord, different regions of the country experienced the rise of brutally repressive regimes ruled by <em>caudillos</em>, who re-established order. Beginning in 1829, Juan Manuel de Rosas, a wealthy rancher and Federalist, asserted his control over Buenos Aires and the rest of the nation. Supported by a powerful, large land-holding class, Rosas governed through a combination of patronage and state violence. Seen by his supporters as "The Restorer of the Laws," he sanctioned property confiscation, execution, torture, and forced exile against Unitarian suspects and other political enemies.</p>
+ 
+<p>Historians often underscore Rosas's brutality against his foes by pointing to the headings on most official documents: "Long Live the Federation! Death to the Savage Unitarians!" By 1835, Rosas dominated the other provinces, expanded the Indian frontier, awarded land to influential people and loyalists, and exported wool and hides to meet the demands of Western Europe. In 1852, the dictator's reign ended when other Federalists, tired of his meddling in provincial affairs, defeated him at the Battle of Caseros.</p>
+
+<h3>Youth and the Rosas State</h3>
+
+<p>The political violence, civil strife, and authoritarianism of the early 19th century deeply affected the daily lives of young people. One consequence was the weakening of powers that fathers, as patriarchs, had within the household. Colonial authorities long recognized the traditional legal concept of <em>patria potestad</em>, whereby absolute authority within families was given to male heads. This meant that patriarchs would have, in theory at least, the last word over their children's life decisions, particularly relating to education, work, and marriage. After independence, however, patriarchal authority began a slow decline. Hundreds of male heads of families were imprisoned, killed, drafted into Unitarian or Federalist armies, or took extended leaves for business or seasonal labor.</p>
+
+<p>For middle class and elite families, Argentina's political leaders viewed schools as one of the most important institutions of civil life and social control. The idea was that teachers would aid in the state's efforts to incorporate children into the political system. Indeed, scholars have shown that primary and secondary schools were crucial in educating an entire generation of new Argentine citizens. Thousands of boys and girls were not only taught grammar and arithmetic, but also a deep respect for authority and patriotic values.</p>
+ 
+<p>The Rosas state moved aggressively to employ lower-class youngsters when the wars and civil strife of the early 19th century caused labor shortages, especially in rural areas. Social critics also saw lower-class children as a potential source of social disorder and sought to harness their energies as laborers. Law enforcement officials restricted youngsters' mobility by strictly enforcing passport and anti-vagrancy laws.</p>
+ 
+<p>In towns across Argentina, the <em>conchabo</em> system gave local police broad authority to draft children to work in public works projects, private homes, factories, or wherever laborers were needed. The office typically in charge of placing young workers was called the <em>defensor de menores</em>, a public institution dating back to the colonial period. The <em>defensor</em> drew up labor agreements that tied young people to particular jobs, but these contracts had the unintended effect of giving young people some degree of freedom from parental authority.</p>
+
+<p>Argentina's laws also allowed children to be entrusted with decisions related to marriage and property. Girls could marry and hold a dowry at the age of 12. Boys could not marry until they turned 14. This is not to say that parents or their children sought marriage contracts at these early ages. By law, girls and boys had to wait until they were 23 and 25 years old, respectively, before they could marry without permission from their parents. After 1810, however, young people were marrying at younger ages and had more input into selecting spouses. This included choosing mates who were closer to their own ages and sometimes outside their familial socio-economic and racial boundaries.</p>
+
+<p>Parents lamented with growing frequency and alarm the rebelliousness of their children and attempted to control their behavior through legal means. Many of these disputes appeared in lawsuits, or <em>disensos</em>, filed by parents asserting their parental rights and obligations in order to guide the behaviors of their children. Sons and daughters also sued their parents, seeking the right to marry freely partners of their own choosing.</p>
+ 
+<p>While these individual actions played out in the courts, authorities under Rosas dealt harshly with youngsters who violated legal and social conventions. In 1847, Camila O'Gorman, the daughter of a prominent merchant, and Ladislao Gutiérrez, a Catholic priest, caused a huge public scandal when they ran away together. The following year, the couple was captured. Rosas personally ordered their execution for violating the social order. According to the dictator, their actions were a direct attack on his authority and that he wanted to make an example out of them.</p>
+
+<p>Camila's story is often seen as an example of the extreme measures the Rosas state took to control the behaviors of Argentina's younger population. Indeed, Rosas wanted to make an example out of the young couple. However, this story of forbidden love is also representative of how young people challenged authority as ideas of republicanism, equality, and individualism swept through the Americas. The execution of the young couple (along with the fact that Camila was eight months pregnant at the time of her death!) undermined support for the Rosas regime. Moreover, Camila's story resonates even today as a reminder of the legacy of authoritarianism in Argentina's history. María Luísa Bemberg wrote and directed the feature film, <em>Camila</em> (1984), as a harsh critique of patriarchy and military rule.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Jesse Hingson</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-strategies" class="element">
+        <h3>Strategies</h3>
+                                    <div class="element-text"><p>This teaching module incorporates a variety of primary sources that shed light on the shifting boundaries of parental roles and expectations, young people's behaviors, and social status in early to mid-19th century Argentina.</p>
+ 
+<p>One strategy is to divide the sources into two sets. The first set might include evidence on the expectations that both parents and political leaders had for children. Parents, especially fathers, in early 19th century Argentina wanted their children to marry for particular strategic reasons (e.g., to maintain wealth across generations) rather than for romantic love. In addition, Argentina's leaders sought to socialize children by closely regulating dress, public behavior, and education. Young people today should have little difficulty understanding the weight of parents' expectations on their lives and the rules that authorities create to govern their conduct. Thus, it might be a good exercise to relate these ideas to the students' lives.</p>
+
+<p>A second set of documents would be organized around the variety of ways in which Argentina's youth responded to the rules and regulations that governed their lives. The evidence from the era shows that young people adopted a variety of political viewpoints. Manuelita Rosas's portrait, for example, represents one way in which young people supported the regime. However, legal documents reveal the willingness and capability of young people to use the court system to advance their interests, which were often at odds with those of their parents. Camila's story demonstrates one young person's challenge to both parental <em>and</em> state authority. This evidence not only demonstrates sharp generational differences but also how legal institutions became increasingly involved in family matters as parental authority began to wane.</p>
+ 
+<p>Examining official records, however, presents special challenges. For example, legal language may be confusing, and biases may be difficult to detect. Nevertheless, it is possible to make sense of these documents by following some general advice.</p>
+
+<p>First, it is necessary to understand that the primary role of civil courts in any adversarial system is to satisfy demands. Typically, this involved two parties, who were recognized as legitimate groups before the courts. Children or their legal guardians had the right to sue, especially when property or transfer of wealth was involved.</p>
+
+<p>Second, gather basic information from the document about what happened. The "facts" of a case might be incongruous with our own understanding of prevailing norms and practices. For example, students today might have a hard time reconciling the fact that people in their early 20s were still considered minors.</p>
+
+
+<h3>Discussion Questions</h3>
+<ul>
+<li>What areas of young people's lives did parental and state authorities try to control in Argentina during the early 19th century?</li>
+<li> What strategies did young people in early 19th-century Argentina use to resist parental control?</li>
+</ul></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-lesson-plan" class="element">
+        <h3>Lesson Plan</h3>
+                                    <div class="element-text"><h3>Lesson Plan: Love and Rebellion in Argentina</h3>
+<p>by Janelle Collett</p>
+<p><strong>Time Estimated:</strong> four 50-minute classes</p>
+
+
+<h3>Objectives</h3>
+<ol>
+<li>Synthesize understanding of primary sources with understanding of secondary sources.</li>
+<li>Understand why the Rosas regime asserted its authority in this case and the larger implications for how an unstable state responds to threats to their power.</li>
+<li>Debate how a state can best maintain order.</li>
+</ol>
+
+<h3>Materials</h3>
+<ul>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/70">"To the Spirits of Camila O'Gorman" [Poem]</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/68">"Camila O'Gorman" [Painting]</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/69">Adolfo O'Gorman to Juan Manuel de Rosas [Letter]</a></li>
+</ul>
+
+<h3>Day One</h3>
+<p><em>Hook</em><br />
+Read out loud <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/70">"To the Spirits of Camila O'Gorman."</a> Make sure students are not given the introduction.</p>
+ 
+<p>Ask students to write a short story imagining who she was and what happened to her.</p>
+<p>Have students volunteer to share their stories.</p>
+<p>As a class, identify patterns in the stories. What were they able to infer about Camila O'Gorman from the poem?</p>
+
+  
+<p><em>Homework</em><br />
+Students must read the introduction to <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/70">"To the Spirits of Camila O'Gorman"</a> in order to find out the story of what actually happened to her AND the introduction to the Teaching Module, <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/60">"Youth, Love, & Authority in Argentina" (19th c).</a></p>
+
+<h3>Day Two</h3>
+<p><em>Background</em><br />
+Discuss "Youth, Love, & Authority in Argentina."</p>
+
+<p>Create a timeline as a class, including the most significant events that occurred in Argentina between 1810 and 1860.</p>
+<p>Who was Camila O'Gorman? Why is her fate significant to understanding this period in Argentina?</p>
+
+<p><em>Examine "Camila O'Gorman" Painting</em></p>
+<ul> 
+<li>How has the artist portrayed Camila? Does she look like a criminal? Like an innocent victim?</li>  
+<li>How do you believe the artist felt about her execution?</li>
+</ul>
+
+
+<p><em>Read the letter from Adolfo O'Gorman to Juan Manuel de Rosas out loud.</em></p>
+<ul>
+<li>Why did Adolfo O'Gorman write this letter? (What was his purpose?)</li>
+<li>What arguments does he use to try to persuade Juan Manuel de Rosas to agree with him?</li>
+</ul>
+
+<h3>Day Three</h3>
+<p><em>Four Corners Debate! </em></p>
+<ul>
+<li>Write the following statement on the board: "A government has the right to use violence to enforce the law."</li>
+<li>In each of the four corners of the room, hang a poster with one of the following statements: "Strongly Agree," "Agree," "Disagree," and "Strongly Disagree."</li>
+<li>Instruct students to stand in the corner of the room with the poster that states the position they want to argue.</li>
+<li>Once students are in the corner of their choice, instruct them to discuss with their group why they all chose that position. As a group, they must construct an argument and evidence to support that argument. Then, they must choose a group leader.</li>
+<li>Group leaders present their argument and evidence to the class.</li>
+<li>When group leaders are finished presenting, students may change corners if they have been persuaded to another point of view.</li>	
+	</ul>
+
+
+<p><em>Homework</em><br />
+Students will each write a paragraph defending the point of view written on the poster they chose at the end of class yesterday.</p>
+
+<h3>Day Four</h3>
+<p><em>Debrief</em></p>
+<ul>	
+<li>Which group was most persuasive in their arguments? What did they do differently that made them so persuasive?</li> 
+<li>Which group would Juan Manuel de Rosas have agreed with? Adolfo O'Gorman? Camila O'Gorman? Juan Leon Palliére?</li>
+<li>What drives a government to be so extreme in its enforcement of the law?</li>  
+<li>What drives individuals to disobey a government that is all-powerful and willing to use violence to punish disobedience?</li>
+<li>Is there any way for a government to maintain order if individuals disobey the law other than violence?</li>
+</ul>
+
+<h3>Differentiation</h3>
+<p><em>Advanced Students</em><br />
+After the debate, instead of a paragraph, students will write an essay for homework answering the question, "What are the strengths and weaknesses of an authoritarian regime?"</p>
+
+<p><em>Less Advanced Students</em><br />
+Allow one more day for activity. As a class, fill out a SCARABS sheet for each of the three primary sources.</p>
+
+<ul>  
+<li><strong>S</strong>ubject of the primary source</li>
+<li><strong>C</strong>ontext: what was happening when it was created?</li>
+<li><strong>A</strong>uthor or creator</li>
+<li><strong>R</strong>eason the source was created</li>
+<li><strong>A</strong>udience: for whom was this source created?</li>
+<li><strong>B</strong>ias of creator of source</li>
+<li><strong>S</strong>ignificance of the source (why is it important?)</li>
+	</ul></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-primary-sources" class="element">
+        <h3>Primary Sources</h3>
+                                    <div class="element-text">61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Tue, 06 May 2008 23:52:03 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

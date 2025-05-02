@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=The+Beginnings+of+Human+Society&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:19:33 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Paleolithic Finger Flutings (Cave Drawing)]]></title>
+      <link>https://cyh.rrchnm.org/items/show/413</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Paleolithic Finger Flutings (Cave Drawing)</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>This image from Chamber A1 of Rouffignac Cave was created by a young girl we posit to be between four and five years old from her height and the places in the
+cave where she has chosen to make her flutings. She was part of a group of people who visited the cave during the Upper Paleolithic Period (sometime
+between 20,000 and 11,000 years ago). It seemed she was part of a group which included 8 individuals, of whom at least 3 were children. This panel is at the entrance to a chamber a half km into the cave and what is striking about it is not only its design but also that it was drawn with two hands at the same time which means this individual wasn't holding a torch at the time
+of her drawing. This young girl is one of the most prolific fluters in Rouffignac. We find her flutings in almost every chamber and a panel very similar to this one appears 1.5 km further into the cave. She also produced the first known tectiform, a symbolic form, produced by a child. As time goes on, we hope to learn more and more about the people who visited and
+decorated Rouffignac cave during the Paleolithic.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Leslie Van Gelder, personal photograph.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/442/fullsize"><img src="/files/display/442/square_thumbnail" class="thumb" alt="Paleolithic Finger Flutings (Cave Drawing)" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Sat, 20 Feb 2010 16:16:51 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/442/fullsize" type="image/jpeg" length="603092"/>
+    </item>
+    <item>
+      <title><![CDATA[World Images]]></title>
+      <link>https://cyh.rrchnm.org/items/show/239</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">World Images</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://worldart.sjsu.edu </div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">California State University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">April 2009</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>The <a class="external" href="http://worldart.sjsu.edu"><em>World Images</em></a> site, a project of California State University, is designed for simplicity of use if not aesthetic elegance. It is a utilitarian database well suited to teachers, professors, or students looking for presentation images licensed for educational use on a comprehensive range of subjects including photography, painting, illustration, and material culture with global geographic representation.</p>
+
+<p>The image collections are arranged as thumbnail panes on the home page, each hyperlinked to a list of portfolios that indicate how many images each contains. The site holds an archive of 72,000 images organized into 867 portfolios, and a tutorial shows how to create Community Portfolios. Users can browse the collection using keywords, artists, topics, titles, regions, or periods in quick or advanced search modes. Search results can be viewed as titles with hyperlinked acquisition numbers, as thumbnail images with titles, or as small or zoomable images with their metadata.</p> 
+<p>Categories include institutional collections in the database, faculty collections, course materials, and a collection of image portfolios correlated to required history topics in the California Educational Standards for grades 4–10. Since these curricular requirements are fairly common across the U.S., and in world history beyond the U.S., this is a valuable resource for teachers.</p> 
+
+<p><em>World Images</em> is rich in images related to children and youth. The "People and Portraits" portfolio contains three sub-categories on children with a total of 1,094 images, some overlapping. They include <a class="external" href="http://worldimages.sjsu.edu/?sid=1255&x=2996373">Children to 1500</a> (234), <a class="external" href="http://worldimages.sjsu.edu/Prt246?sid=1255&x=101517?Display=thu ">Children 1500-2000</a> (544), and <a class="external" href="http://worldimages.sjsu.edu/Prt233?sid=1255&x=101518?Display=thu ">Children of the World</a> (316).</p> 
+
+<p>The first is fairly inclusive geographically, but includes many images from Western traditions. The second is almost entirely European and American, and the third includes North and South American, African, Asian, and European children's photos and a few artworks and artifacts.  Much of the third collection is the work of photographer Kathleen Cohen.</p> 
+
+<p>The following search terms returned images on children and youth: "children" (1000), "childhood" (80), "girl" (382), "boy" (555 items), "infant" (119), and "family" (858). The metadata provided with each image includes title, artist or maker, historical period, region or country of origin, copyright holder of the image, and/or museum holding the object. The individual object view also shows what other collections include the object, and links to other objects by the same artist or unknown generic maker from that culture.  The photographs are labeled with title, year, location, and photographer, but nothing further, though some of the titles are very descriptive.</p> 
+
+<p>The information associated with <em>World Images</em> is thus limited, providing no further contextualization, nor are there links to descriptive information on museum sites where some are housed, for example. For this reason, the works of art found through this website are starting points for research about children in history rather than destinations. Some images, however interesting, remain mysterious.</p>
+
+<p>Teachers wanting to illustrate already researched lectures or activities with licensed images will find this site a rich resource, especially if the lack of detailed information on the images is not a problem. Interesting objects from the collection can stimulate fruitful discoveries of available research on the web or from books and articles. For example, an image of an ancient baby bottle led to a trove of online information about infant feeding through the centuries.</p>
+
+<p>Teachers can also create thematic collections that can be used for primary source investigations. A number of art images show punishment of children's misbehavior, for example, and children at play, as well as infant equipment from various times and places. These images can be used as exercises in examining primary sources as if they were "found objects" at a site or in an archive.</p> 
+
+<p><a class="external" href="http://chnm.gmu.edu/worldhistorysources/index.html">World History Sources</a> at the <a class="external" href="http://chnm.gmu.edu/ ">Center for History and New Media</a> has extensive lessons, exercises, and scholarly models for analyzing primary sources, including photographs, that could provide tools for working with the rich sources available on this website. A feature called "You be the Historian" could be adapted to interrogating the images from the <em>World Images</em> collections, and would reveal much about childhood by investigating questions to ask, and suggesting how to find answers.</p>
+
+
+
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">George Mason University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">World Images is rich in images related to children and youth. </div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/161/fullsize"><img src="/files/display/161/square_thumbnail" class="thumb" alt="World Images" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Tue, 19 May 2009 20:03:19 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/161/fullsize" type="image/jpeg" length="22441"/>
+    </item>
+    <item>
+      <title><![CDATA[Sibling Burial [Archeology]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/214</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Sibling Burial [Archeology]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>The two children whose skeletons are shown in this photograph were both under 10 years of age, and were probably buried at the same time. An earlier burial of a baby was found at a slightly lower level in the space between them. Archaeologists found these burials in the floor of a house at Çatalhöyük, a Neolithic agricultural settlement in Turkey that was continuously occupied between 8000 BCE and 6400 BCE. Many of the settlement's hundreds of houses contained multiple burials. The pits, which were sealed with white plaster lids, lay beneath raised platforms where people slept and worked, living close to their ancestors. Some of the houses were ritually closed and collapsed upon the death of an important family member. According to analysis of skeletons found at Çatalhöyük, life expectancy averaged 34 years for men and 28 years for women.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Berkeley Archaeologists at Çatalhöyük (BACH) Catalhoyuk Research Project,  &quot;::: Remixing Catalhoyuk :::,&quot; &lt;a class=&quot;external&quot; href=&quot;http://okapi.dreamhosters.com/remixing/mainpage.html&quot;&gt; http://okapi.dreamhosters.com/remixing/mainpage.html&lt;/a&gt; (accessed March 9, 2009). Image at &lt;a class=&quot;external&quot; href=&quot;http://128.32.93.100/netpub/server.np?find&amp;catalog=catalog&amp;template=detail.np&amp;field=itemid&amp;op=matches&amp;value=429&amp;site=life&quot;&gt; http://128.32.93.100/netpub/server.np?find&amp;catalog=catalog&amp;template=detail.np&amp;field=itemid&amp;op=matches&amp;value=429&amp;site=life&lt;/a&gt; (accessed March 9, 2009).</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2009-03-09</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">215, 213</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                                    <div class="element-text">Archeological photo of two children&#039;s skeletons. The two children whose skeletons are shown in this photograph were both under 10 years of age, and were probably buried at the same time. They were buried in a fetal position. Archaeologists found these burials in the floor of a house at Çatalhöyük, a Neolithic agricultural settlement in Turkey that was continuously occupied between 8000 BCE and 6400 BCE.</div>
+                    </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/136/fullsize"><img src="/files/display/136/square_thumbnail" class="thumb" alt="Sibling Burial [Archeology]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Tue, 10 Mar 2009 01:30:15 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/136/fullsize" type="image/jpeg" length="26649"/>
+    </item>
+    <item>
+      <title><![CDATA[The Metropolitan Museum of Art]]></title>
+      <link>https://cyh.rrchnm.org/items/show/205</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">The Metropolitan Museum of Art</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2009-02-13</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.metmuseum.org</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">The Metropolitan Museum of Art</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">February 10, 2009</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>The vast collection of the Metropolitan Museum is effectively arranged and integrated on the <a class="external" href="http://www.metmuseum.org/">www.metmuseum.org</a> website. Navigation of the site is straightforward, enabling efficient browsing or research. Although no specific essays or exhibits on children and youth are found on the site, several hundred artworks relevant to the topic can be located by searching the <a class="external" href="http://www.metmuseum.org/Works_of_Art/collection_database/">Collection Database</a> or the <a class="external" href="http://www.metmuseum.org/toah/"><em>Timeline of Art History</em> (TOAH)</a>—more than sites dedicated to the subject.</p>
+<p>The <a class="external" href="http://www.metmuseum.org/Works_of_Art/collection_database/">Collection Database</a> of 129,022 objects can be searched as a whole, by subject, by curatorial department, or by exhibit.  The collection database search is comprehensive, and returned 3629 entries under <a class="external" href="http://www.metmuseum.org/works_of_art/collection_database/all/listview.aspx?page=1&sort=0&sortdir=asc&keyword=Children&fp=1&dd1=0&dd2=0&vw=1">"children."</a> Childe Hassam is a distracter in this keyword search, but the search <a class="external" href="http://www.metmuseum.org/search/iquery.asp?command=text&datascope=all&attr1=Children+NOT+Childe&x=8&y=9&c=t%3A11%2F%2F%3Assl%2F%2Fsitemap+taxonomy%2F%2F%3AWorks+of+Art%3A">"Children NOT Childe"</a> reduced the return to 319 items. <a class="external" href="http://www.metmuseum.org/search/iquery.asp?command=text&attr1=Boy&attr2=undefined&v0=Children+NOT+Childe&gs=sitemap+taxonomy%2F%2F0%2F%2F1&vid=%24__visitId__%24&g=sitemap+taxonomy&i=sitemap+id&qid=%24__queryId__%24&s1=iphrase+relevance%2F%2F0&s0=sortOrder%2F%2F0&tq=1&q=10&as=1&r=sitemap+taxonomy%2F%2F2%2F%2F3&qtid=%24__queryId__%24&t=0&ia=1&qt=1234377978&render=1&w=0&datascope=&dataStore=0&text=&c=t%3A11%2F%2F%3Assl%2F%2Fsitemap+taxonomy%2F%2F%3AWorks+of+Art%3A">"Boy"</a> returned many distracters, but <a class="external" href="http://www.metmuseum.org/search/iquery.asp?command=text&attr1=girl&attr2=undefined&v0=Girl&gs=sitemap+taxonomy%2F%2F0%2F%2F1&vid=vUYM445EfYM96&g=sitemap+taxonomy&i=sitemap+id&qid=qWBSp8UfEkWan&s1=iphrase+relevance%2F%2F0&s0=sortOrder%2F%2F0&tq=1&q=10&as=1&r=sitemap+taxonomy%2F%2F2%2F%2F3&qtid=qWBSp8UfEkWan&t=0&ia=1&qt=1234378223&render=1&w=0&datascope=&dataStore=0&text=&c=t%3A11%2F%2F%3Assl%2F%2Fsitemap+taxonomy%2F%2F%3AWorks+of+Art%3A">"girl"</a> returned 954 items, and <a class="external" href="http://www.metmuseum.org/works_of_art/collection_database/all/listview.aspx?page=1&sort=0&sortdir=asc&keyword=boy&fp=1&dd1=0&dd2=0&vw=1">"infant"</a> returned 252 items. <a class="external" href="http://www.metmuseum.org/works_of_art/collection_database/all/listview.aspx?page=1&sort=0&sortdir=asc&keyword=toys&fp=1&dd1=0&dd2=0&vw=1">"Toys"</a> returned only 21 items, indicating a limitation of the museum's collection in that area. <a class="external" href="http://www.metmuseum.org/works_of_art/collection_database/all/listview.aspx?page=1&sort=0&sortdir=asc&keyword=youth&fp=1&dd1=0&dd2=0&vw=1">"Youth"</a> returned 186 works and <a class="external" href="http://www.metmuseum.org/works_of_art/collection_database/all/listview.aspx?page=1&sort=0&sortdir=asc&keyword=young&fp=1&dd1=0&dd2=0&vw=1">"young"</a> 1741 items. The biggest drawback of the collection search was that many of the works are associated with placeholder images, although the metadata may help locate images elsewhere. As digitization of the collection proceeds, this may improve.</p>
+<p>The <a class="external" href="http://www.metmuseum.org/toah/">TOAH</a> is an unmatched resource for educators. The 6,000 included artworks are organized by three integrated elements: <a class="external" href="http://www.metmuseum.org/toah/hm/06/hm06.htm">maps</a>, <a class="external" href="http://www.metmuseum.org/toah/intro/atr/06sm.htm">timelines</a>, and <a class="external" href="http://www.metmuseum.org/toah/hi/te_index.asp">thematic essays</a>. World and regional maps correlate artwork to eleven world eras and locate it in ten world regions. Timelines place the artworks in historical context, and include key events, political, stylistic and technological periodization. Eight hundred thematic essays provide historical context for groups of artwork and discuss characteristics, techniques, and significance. The essays reveal connections among civilizations and regions, and provide material for comparative study.</p> 
+<p>Educators searching for information on children in art can locate artworks featuring children and youth by a search of the TOAH, which seems more rewarding than the database search because all of the works are associated with images, and they are easily placed in context by TOAH's features. The searches are conveniently shown by category, so the user can bring up all relevant artworks, essays, timelines or other occurrences with one click.</p>
+<p>A TOAH search of <a class="external" href="http://www.metmuseum.org/search/iquery.asp?command=text&attr1=children&c=t:2//:ssl//sitemap%20taxonomy//:Works%20of%20Art:Timeline+of+Art+History:">"children"</a> found the term in 23 timelines, 153 thematic essays, and 396 works of art. <a class="external" href="http://www.metmuseum.org/toah/hi/hi_fich.htm">"Figure, Child"</a> in the Subject Index returned 21 essays and 80 works of art, each shown as a thumbnail image with titles. On the subject of childbirth, <a class="external" href="http://www.metmuseum.org/toah/hi/hi_brtchld.htm">15 artworks</a> can be viewed. Terms such as "girl" (97 works), "boy" (9) and "young" or "youth" (4) returned artworks from across the globe and the eras.</p>
+<p>An activity using the 97 artworks under "girl" might compare the relative age connoted by the term in various cultures and periods. Some depict small children, while others are clearly young women. A selection of western European drawings and paintings could focus on the changing definition of girlhood over time or explore symbols and objects associated with girlhood. Some of the artworks show girls in active social roles, playing sports  and games, fulfilling ritual roles, or being mourned in funerary works. Some of the works are expressions of girls' work in various societies, such as needlework, preparation of trousseaus, or manual labor at home. In short, the collection can be used to gather ideas about girlhood over time and across cultures. Similar explorations about youth and boys could be made. Educators will find many ways to place childhood in historical context using this website.</p></div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">George Mason University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">Educators will find many ways to place childhood in historical context using this website.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/127/fullsize"><img src="/files/display/127/square_thumbnail" class="thumb" alt="The Metropolitan Museum of Art" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Fri, 13 Feb 2009 19:47:11 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/127/fullsize" type="image/jpeg" length="41217"/>
+    </item>
+  </channel>
+</rss>

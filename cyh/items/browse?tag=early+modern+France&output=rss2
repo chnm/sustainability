@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=early+modern+France&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:17:58 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Orphanage Records, Early Modern France]]></title>
+      <link>https://cyh.rrchnm.org/items/show/121</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Orphanage Records, Early Modern France</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text">The case study essay outlines a student project using  orphanage records from early modern France in a manner that helps students to frame historical questions and make preliminary conclusions about how these silent masses of children lived at the margins of society during the period.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Christopher Corley and James Gillham</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-08-12</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Case Study Item Type Metadata</h2>
+        <div id="case-study-item-type-metadata-case-study-image" class="element">
+        <h3>Case Study Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-text" class="element">
+        <h3>Case Study Text</h3>
+                                    <div class="element-text"><h3>Why I Taught the Source</h3>
+<p>In early modern France, discussions about the ideas relating to childhood can be found readily, but documents revealing the actual experiences of children are rare. In an effort to overcome these obstacles, some historians of early modern France have studied orphanage records. The records serve as important resources because they provide small glimpses of the silent masses of children who lived at the margins of society.</p> 
+
+<p>Orphanage records allow teachers to integrate an analysis of poor children and charitable institutions into history courses, and teach historical methods for analyzing, organizing, and interpreting quantitative data. Students can use their examination of orphanage records to explore broader themes related to the history of early modern families, populations, and institutions. In the process, students will have a chance to experience, first hand, the interpretive challenges, frustrations, and joys of studying early modern social history.</p>
+
+<p>Most orphanage documents are unpublished and lie preserved in public archives throughout France. But important samples have emerged in published collections of primary documents and in larger monograph studies. Moreover, since the 1970s scholars have published the results of their research about the abandoned children who ended up in orphanages. Much of this research is quantitative, and the results are presented in tables and charts.</p>
+
+<p>This essay outlines a three-stage project designed to allow students to work together on individual sources and then to derive historical questions from them. Once students frame their questions with the initial documents, other sets of primary or secondary documents allow them to expand their historical window and to make some preliminary conclusions about the lives of these children and of the society in which they lived. Those preliminary conclusions can then provide the catalyst for lectures, discussions, research assignments, or even creative writing exercises on broader themes in early modern social history.</p>
+
+<h3>How I Introduce the Source</h3>
+
+<p>To give the students a feel for the nature of the documents, I provide them with a series of <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/123">mini-biographies</a> compiled and translated from orphanage records located in Dijon, France. Crucial to any study of welfare and charity in the 18th century are records from the urban Hôpitaux Généraux, or general hospitals. The hospitals were products of charitable work by the French Catholic Church and institutional responses to poverty and vagrancy by state officials. Charged with helping those in need, the hospitals cared for the sick and housed orphans, vagrants, and the elderly. These institutions were financed by alms, by local, privately funded bureaus of charity, and to some extent by the crown.</p> 
+
+
+<p>For this exercise, we have included translations of <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/123">20 entries from two different sources</a> (10 boys and 10 girls). These entries are derived from registers that focused on older abandoned children (generally in their teens) who for one reason or another spent time in the orphanages.</p>
+
+<h3>Reading the Source: Stage 1</h3>
+<p>Students are placed in groups of two to examine each brief biographical document. In essence, they are assigned an orphan. I then ask them to identify specific facts about the child. After a brief discussion about their sample entries, students might indicate, for example, that they could identify the birth date to estimate the age of the child upon entry. Parental information, including the father's profession, could be noted so that students could gain a clearer picture of the familial and economic situation of the child.</p>
+
+<p>Other information can emerge from the documents. In some instances, students could record the child's native village. Dates of entrance and exit could inform the students about the child's length of stay. Some entries allow students to record where, when, and for what purpose the orphans left the institution. A notation that the child died is a somber reminder of the fate that met many.</p>
+
+<p>As an example of the introductory exercise, we could review entry numbers one and twelve. In entry one, we can identify the child's name, his father, and his father's occupation—a butcher. After living in the orphanage's nursery for an unspecified number of years, 12-year-old Simon advanced to the <em>Bonnets Rouges</em> (the red hats) in 1705, the name of the room for the adolescent orphans who wore red hats as a sign of their orphaned status. He left the orphanage in 1712, at approximately age 19. His sister took him out of the orphanage. That is all the entry tells us.</p>
+
+<p>In entry 12, we find 13-year-old "Margueritte," an orphan since birth.  Her record shows that, like many children, she spent time in and out of the orphanage. After two years at the orphanage, a local, presumably wealthy, resident, Mr. de Bourbonne, sponsored a foster contract (a pension) with a village family. Under these arrangements, Barbe Villat, a laborer's wife in a nearby village, would presumably receive a monthly stipend for her care of Margueritte, now 15-years-old. In return, Margueritte would contribute to her new foster-family's household economy through her labor. We do not know anything else about Margueritte after she left for her foster family in 1755 at age 15.</p> 
+
+<p>When we combine entries one and twelve, for example, students will understand that different information emerges from each entry. But even these two entries share common aspects. Both children were orphaned very young, both probably spent time in different rooms of the orphanage, having finally arrived in the adolescent sections. Both children left in their teens. In one case, kin came to assist the orphan, in another the orphanage set up a fosterage system. In both cases, the orphanage served as a social axis where adolescent orphans could hope to become members of reconstituted households at a time when the children's ages permitted them to contribute to the household economy.</p>
+
+<p>Instructors might also augment these sources with published notarial documents that also allow a glimpse into the fortunes of individual children. One document, dated 11 November 1540, is a <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/120">contract for the adoption of an orphan</a>. The other, dated 25 July 1542, is an <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/120">apprenticeship contract</a>. These documents illustrate typical success stories and the positive role that the hospitals could play in the lives of these children.</p>
+
+<p>Once the students appear comfortable with the types of information available in their individual sources, I then ask them to compare and contrast with two or three other groups of students, and for someone in the group to begin organizing the information while the discussion ensues. The purpose of this activity is to get students to consider what a combination of multiple sources might reveal about the orphaned children. I ask them what larger issues they might be able to identify through the combined factual information in the entries.</p>
+
+<p>After the students have located facts, compared documents, and identified issues that the comparisons raise, I encourage them to raise any historical questions that emerged from the examination of the sources. Here, instructors are guiding students toward understanding that a combination of entries raises questions that allow the students to move beyond a literal description of the texts themselves.</p> 
+
+<p>Some students question why parents might abandon a child in the first place. Others wonder how long they remained at the orphanage, and what happened when they left. Some ask about the gender distribution of abandoned children. Students also ask about the institutions that existed to help the poor and destitute. The teacher can record all of the questions, and the students themselves can make a hierarchical list of the questions they deem most significant.</p>
+
+<p>By the end of this stage, the class will have created two tangible products of their work. First, they have created a chart, or table, that compiles the data they extracted from all of the primary sources. Second, they have created a hierarchical set of historical questions that launch potential investigatory roads of interest to the class. The professor should then make photocopies of the chart and the questions for each student as the class begins the second stage of analysis.</p>
+
+<h3>Reading the Source: Stage 2</h3>
+<p>Now stage two of the exercise can begin. In this stage, I provide sets of quantitative data that historians have developed from orphanage records, both from within France and then, for comparative purposes, from other parts of Europe. <a href="#note1" id="fn1" class="footnote">1</a></p>
+
+<p>In the final years of the Ancien Régime, roughly 40,000 children were left to the care of society in France every year. Paris alone had four institutions in the 18th-century that existed primarily to help aid abandoned children. The sheer numbers of abandoned children astonish students.</p>
+
+<p>Quantitative data derived from hospital records indicate the rising number of abandoned children in 18th-century Paris, the geographic origins of the children (both within and outside of Paris), the age of the abandoned children and the occupations of their parents, and the relationship of abandonment trends to wheat prices over the century. This specific type of data about abandonment in particular might be augmented by broader data about household composition, fertility, and mortality.</p>
+
+<p>At this point, the instructor should encourage students to compare specific types of data, and point out where the data might reveal some meaningful relationships. With this approach, students can examine data about abandonment and be introduced to early modern demographic characteristics at the same time.</p>
+
+<h3>Reading the Source: Stage 3</h3>
+<p>While the charts and graphs allow students to see trends in the abandonment of children over time and across Europe, student interest in the combinations of documents can then lead to the third stage of the exercise: drawing initial hypotheses about patterns of child abandonment and adding contextual explanations.</p> 
+
+<p>This last stage can be achieved in a number of ways, and each depends on the goals and methodology of the instructor. If the instructor utilizes the primary documents in one or two class sessions, for example, he or she could augment the student-led generation of facts and analysis with a short series of lectures on poverty, the family economy, sexuality, or institutional responses to child abandonment. On the other hand, instructors who have more time to devote to the subject, or who want to use the history of childhood as a larger theme in their courses, could use the exercise as a launching point for student research into the broader social issues and questions that arose through their initial analysis of the mini-biographies.</p>
+
+<h3>Reflections</h3>
+
+<p>A number of important issues readily emerge from the study of child abandonment. For example, some students could research poverty and the early modern family economy, while others could research infanticide patterns and early modern reactions to it. Investigations into the life-course of the family, and especially the fragility of family because of parental death, could also prove fruitful.</p> 
+
+<p>Some students might want to investigate the options available to a single woman who became pregnant before marriage. Others are fascinated by the concept of wet-nursing and the circulation of children through foster and apprenticeship contracts. A vast number of secondary studies allow students to explore the various institutional responses to poverty, infanticide, and abandonment over the course of the early modern period.</p>
+
+<p>After conducting further independent research on abandonment, instructors could encourage the students to return to the orphan biographies originally assigned to them and create short fictional "biographies" about the orphans. With the aid of the secondary material, the students could present their historically plausible life-stories about the orphans in the form of short vignettes to one another as a means of bringing the exercise to a conclusion.</p>
+
+<p>Throughout the exercises, instructors should encourage students to return frequently to the individual orphan biographies, connecting an otherwise anonymous individual child to larger sets of quantitative data and broader social or economic themes.  Students thus give voice to people who didn't have much opportunity to leave their thoughts and aspirations to posterity during their own lifetimes.</p> 
+
+<p>Students should be able to link these orphan biographies to the longer-term trends and characteristics of early modern social life and to create plausible conclusions for their original questions and working hypotheses. In the process, the students will have learned much about early modern orphans and their wider social contexts, and about integrating primary documents with a wide variety of secondary sources. At the end of the exercise, students will also have gained an understanding of how social historians go about their daily work.</p>
+
+<h3>Additional Resources:</h3>
+
+<p>See: Monica Chojnacka and Merry E. Wiesner-Hanks, eds., <em>Ages of Women, Ages of Man: Sources in European Social History, 1400-1750</em> (New York: Longman, 2002), pp. 28-35 for primary sources on orphans.</p>
+
+<p>See: Kristen Elizabeth Gager, <em>Blood Ties and Fictive Ties: Adoption and Family Life in Early Modern France</em> (Princeton: Princeton University Press, 1996), pp. 125-126 for primary sources on orphans.</p>
+
+<p>A good introduction can be found in John Henderson and Richard Wall, eds., <em>Poor Women and Children in the European Past</em> (New York: Routledge, 1994).</p>
+
+<div id="notes">
+<p><a href="#fn1" id="note1" class="footnote">1</a> Delasalle, Claude. "Abandoned Children in Eighteenth-Century Paris." In <em>Deviants and the Abandoned in French Society: Selections from the Annales: Economies, Societies, Civilisations</em>, edited by Robert Forster and Orest Ranum, translated by Elborg Forster, and Patricia M. Ranum, 49–50, 51, maps 2.1 and 2.2, 69, figures 2.2 and 2.3, 71–2, 75. Baltimore: Johns Hopkins University Press, 1978.</p>
+</div></div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Christopher Corley and James Gillham</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">Minnesota State University, Mankato</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-primary-source-id" class="element">
+        <h3>Primary Source ID</h3>
+                                    <div class="element-text">120, 123</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Wed, 13 Aug 2008 05:44:16 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

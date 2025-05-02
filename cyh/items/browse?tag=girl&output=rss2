@@ -1,0 +1,1897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=girl&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:17:00 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Laura Jernegan: Girl on a Whale Ship]]></title>
+      <link>https://cyh.rrchnm.org/items/show/484</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Laura Jernegan: Girl on a Whale Ship</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.girlonawhaleship.org/index.html</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Martha Vineyard&#039;s Museum</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">December 2012</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href="http://www.girlonawhaleship.org/index.html"><em>Laura Jernegan: Girl on a Whale Ship</em></a> brings to life pages of a young girl's <a class="external" href="http://www.girlonawhaleship.org/index.html">journal</a> kept during her three-year journey aboard her father's whaling ship, the <em>Roman</em>. The 42 pages of <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=27">Laura Jernegan's</a> journal include a catalogue of items, pets, and people aboard the ship as well as reports on everything from Laura's schoolwork to the crew's <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/section/chap.do?ID=18&amp;pg=6&amp;cardType=artifact&amp;shortName=cutting_in_ashley&amp;1st=t">processing of a whale</a>. Details about family life, work, and play in the largely adult and masculine world of whaling offer glimpses into the complexities of life aboard the ship&ndash;the simultaneous sense of adventure and monotony, community and isolation, and certainty and uncertainty that she felt during her journey.</p>
+<p><a class="external" href="http://www.mvmuseum.org/">Martha Vineyard's Museum</a>, the site's host, masterfully combines Laura's journal with memoirs of Laura and her mother <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=29">Helen</a>, boating logs, portraits, and other relevant items to recreate this rich and compelling story. Artifacts and pictures from the Library of Congress, the Nantucket Historical Association, the New Bedford Whaling Museum, and others linked throughout the site contextualize and enrich not only Laura Jernegan's story, but the histories of whaling and childhood.</p>
+<p>A nautically-themed <a class="external" href="http://www.girlonawhaleship.org/index.html">homepage</a> directs visitors the site's 14 primary links Large images of a whale with a harpoon and lance, a young girl, and an open diary link visitors to <a class="external" href="http://www.girlonawhaleship.org/jernapp/whaling.do">The Story of Whaling</a>, <a class="external" href="http://www.girlonawhaleship.org/jernapp/laura.do">Laura's Story</a>, and <a class="external" href="http://www.girlonawhaleship.org/jernapp/journal.do">Explore Laura's Journal</a>, respectively.</p>
+<p>Of these, <a class="external" href="http://www.girlonawhaleship.org/jernapp/laura.do">Laura's Story</a> will be the most compelling for scholars of childhood and youth. This section invites visitors aboard the <em>Roman</em> as the Jernegans pursued whales from Edgartown, Massachusetts, to the whaling grounds of the Pacific Ocean. Or follow Mrs. Jernegan and her children on their journey home aboard the steamer <em>Ajax</em> and the newly completed transcontinental railroad.</p>
+<p>A particularly interesting section features a <a class="external" href="http://www.girlonawhaleship.org/jernapp/artifact_trans.do?shortName=laura_letter_granma&amp;page=">letter</a> written by Laura to her grandmother highlighting the Jernegan's first five months at sea. In it, Laura shared details of her eight-day visit to Ohitahoo (an island in Polynesia) during which the queen invited the Jernegans to the royal palace for a feast including ten fruits&mdash;all of which Laura <a class="external" href="http://www.girlonawhaleship.org/jernapp/artifact_trans.do?shortName=laura_letter_granma&amp;page=p002&amp;pop=">named</a>.</p>
+<p>Peppered throughout <a class="external" href="http://www.girlonawhaleship.org/jernapp/laura.do">Laura's Story</a> are delightful diary excerpts that will entice viewers to <a class="external" href="http://www.girlonawhaleship.org/jernapp/journal.do">Explore Laura's Journal</a>. There visitors can flip the journal's pages, zoom, use a "Magic Lens" to generate typed transcriptions of selected paragraphs, listen as the journal is read aloud, or link to a transcription of the full text. Laura's journal allows viewers to see growth in Laura's penmanship, writing style, and vocabulary. These sections are primarily narrative &mdash; neither <a class="external" href="http://www.girlonawhaleship.org/jernapp/laura.do">Laura's Story</a> nor <a class="external" href="http://www.girlonawhaleship.org/jernapp/journal.do">Explore Laura's Journal</a> offer much historical analysis of Laura's life, her journal, or childhood in general, and information found in <a class="external" href="http://www.girlonawhaleship.org/jernapp/whaling.do">The Story of Whaling</a> is exclusively about whales and the people who pursued them.</p>
+<p>Other icons link to "Interactivities" (interactive learning activities) to more fully understand Laura's story and whaling as a profession. Visitors may explore the pages of <a class="external" href="http://www.girlonawhaleship.org/jernapp/journal.do">Laura's Journal</a>, learn more <a class="external" href="http://www.girlonawhaleship.org/jernapp/whales.do">About Whales</a>, view a <a class="external" href="http://www.girlonawhaleship.org/jernapp/map.do">Map of Whaling</a> areas, contextualize Laura's life with a <a class="external" href="http://www.girlonawhaleship.org/jernapp/timeline.do">Timeline</a>, and <a class="external" href="http://www.girlonawhaleship.org/jernapp/ship.do">Explore the Ship</a>. This section relates primarily to whaling; only <a class="external" href="http://www.girlonawhaleship.org/jernapp/journal.do">Laura's Journal</a> includes information specifically related to children and youth.</p>
+<p>Find limited content relating to childhood and youth by clicking on <a class="external" href="http://www.girlonawhaleship.org/jernapp/people.do">People</a> and tracing the lives of <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=27">Laura</a> and her brother <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=28">Prescott</a> from birth to death. Scroll through the <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/category.do?ID=12">Everyday Life</a> subsection under <a class="external" href="http://www.girlonawhaleship.org/jernapp/artifacts.do">Artifacts</a> to find a school slate with slate pencil, a geography book, and four children's literature books.</p>
+<p><a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=17">More About</a> leads visitors to ten brief essays with bibliographies about the age of whaling, two of which, <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=17">19th Century Children's Literature</a> and <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=18">Schooling in the 19th Century</a>, includes information relevant study of childhood and youth.</p>
+<p>Hidden beneath the bottom tier are barely visible links that provide useful information for instructors and researchers. <a class="external" href="http://www.girlonawhaleship.org/jernapp/teachers.do">For Teachers</a> links to three unit plans written by experienced educators with lessons that incorporate whaling into classrooms from first grade to high school. Of these, only <a class="external" href=" http://www.girlonawhaleship.org/jernapp/teachers/unit.do?ID=49">"Whaling in Four Lessons,"</a> which suggests students compare and contrast their lives with Laura's, deals directly with childhood.</p>
+<p>Unfortunately, there is no option to search directly for key terms like "children," "boy," or "girl." This significant oversight makes it difficult to find specific words or subjects. Despite this, <a class="external" href="http://www.girlonawhaleship.org/index.html"><em>Laura Jernegan: Girl on a Whale Ship</em></a> is useful for those seeking primary source material on the myriad of subjects with which Laura Jernegan's young life intersected and to students wishing to learn more about the whaling industry and the adventures of a young girl and her family aboard a whaling ship.</p></div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Mary A. McMurray</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">University of Kansas</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">Laura Jernegan: Girl on a Whale Ship brings to life pages of a young girl’s journal kept during her three-year journey aboard her father’s whaling ship, the Roman. </div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/519/fullsize"><img src="/files/display/519/square_thumbnail" class="thumb" alt="Laura Jernegan: Girl on a Whale Ship" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Thu, 07 Mar 2013 17:25:04 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/519/fullsize" type="image/jpeg" length="14980"/>
+    </item>
+    <item>
+      <title><![CDATA[Cinderella (1914) [Moving Image]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/483</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text"><em>Cinderella</em> (1914) [Moving Image]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Slotted to premier on Christmas week, Famous Players&rsquo;s <em>Cinderella</em> (1914) was marketed as a child-friendly fantasy for the whole family whose cutting-edge cinematography would bring to life the popular fairytale of rags-to-riches girlhood. However, <em>Cinderella</em> was foremost conceived as a vehicle for rising star Mary Pickford. Pickford had built a reputation playing ing&eacute;nues since her early days at Biograph; yet only in 1913 did she cease starring in shorts and graduate to feature-length productions. Set on proving her acting skills, Pickford portrayed Cinderella not as a fictional archetype, but as an everyday adolescent girl from the Progressive-era. The imaginary figure was further humanized by Pickford&rsquo;s trademark warmth and childlike mischief, characteristics clearly displayed in the scenes where she interacts with her evil stepfamily.</p>
+<p>The film was also aware of audiences&rsquo; dissatisfaction with trite trick cinematography. For sake of optical wonder, previous versions of <em>Cinderella</em> - such as George M&eacute;li&egrave;s&rsquo;s 1899 protean rendition - had reduced the tale of female transformation to its magical components, consequently evacuating the female protagonist of any psychological depth. In James Kirkwood&rsquo;s five-reeler, however, trick cinematography is used to make visible the adolescent girl&rsquo;s inner world: split-screens show Cinderella wistfully remembering an earlier encounter with the Prince (Pickford&rsquo;s real-life husband, Owen Moore); while double-exposures visualize her horrible nightmare, conjured up in the afterglow of the forbidden ball.</p>
+<p>Lastly, <em>Cinderella</em>&rsquo;s box-office success cemented Pickford as &ldquo;America&rsquo;s sweetheart.&rdquo;   However, since <em>Cinderella</em> would be adapted over 30 times throughout the teens, one might question why was Pickford&rsquo;s version the most applauded. Were adolescent girls watching these productions? And did Kirkwood&rsquo;s adaptation of Perrault&rsquo;s fairytale resonate with immigrant girls who could be familiar with European folktales?</p>
+<p>Researching movie-goers&rsquo; inquiries, letters, and stars&rsquo; biographies published in trade and fan press from the Teens (such as Moving Picture World and Photoplay) may offer some valuable clues. It may also be helpful to look at other extant versions of <em>Cinderella</em>, such as Thanhouser&rsquo;s (1911), starring another popular young star, Florence LaBadie.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">James Kirkwood, Director. <em>Cinderella</em>. Los Angeles: Famous Players Film Company, 1914. <a class="external" href="http://archive.org/details/Cinderella1914">http://archive.org/details/Cinderella1914</a> (accessed August 30, 2012).</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2012-08-30</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Diana Anselmo-Sequeira</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Moving Image Item Type Metadata</h2>
+        <div id="moving-image-item-type-metadata-duration" class="element">
+        <h3>Duration</h3>
+                                    <div class="element-text">51:16</div>
+                    </div><!-- end element -->
+            <div id="moving-image-item-type-metadata-compression" class="element">
+        <h3>Compression</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="moving-image-item-type-metadata-producer" class="element">
+        <h3>Producer</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="moving-image-item-type-metadata-director" class="element">
+        <h3>Director</h3>
+                                    <div class="element-text">James Kirkwood</div>
+                    </div><!-- end element -->
+            <div id="moving-image-item-type-metadata-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="moving-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file video-quicktime"><video width="320" height="240" controls >
+                    <source src="https://cyh.rrchnm.org/archive/files/1914cinderella_9e1d321264.mp4" type="video/mp4" />
+                    <source src="https://cyh.rrchnm.org/archive/files/1914cinderella_9e1d321264.ogv" type="video/ogg" />
+                 </video></div>]]></description>
+      <pubDate>Thu, 07 Mar 2013 17:19:31 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/521/fullsize" type="video/quicktime" length="121186631"/>
+    </item>
+    <item>
+      <title><![CDATA[The Fortunes and Misfortunes of the Famous Moll Flanders [Literary Excerpt]
+]]></title>
+      <link>https://cyh.rrchnm.org/items/show/481</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">The Fortunes and Misfortunes of the Famous Moll Flanders [Literary Excerpt]
+</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Daniel Defoe's novel <em>The Fortunes and Misfortunes of the Famous Moll Flanders</em>, published in 1722, is a useful historical text for examining the everyday lives of female children as well as the possibilities of girlhood in 18th-century British society. In many ways, Moll Flanders—the illegitimate daughter of a female felon—exemplifies the position of orphaned girls in early modern Britain. At the same time, Moll's character also reveals the range of possibilities utilized by girls who resisted confining social customs and refused marginalizing literary conventions. In this selection, what strategies does Moll use to defy the typical position of girls in society? What authority does Moll claim as the novel's narrator? Compare the figure of Moll to the treatment of other female characters in other novels from the period (such as Matilda in Horace Walpole's <em>The Castle of Otranto</em>) as well as girls in works published later. </p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Defoe, Daniel. <em>The Fortunes and Misfortunes of the Famous Moll Flanders</em> Project Gutenberg. A full-text version is available at Project Gutenberg, <a class="external" href="http://onlinebooks.library.upenn.edu/webbin/gutbook/lookup?num=370">http://onlinebooks.library.upenn.edu/webbin/gutbook/lookup?num=370</a> (accessed February 23, 2001). Annotated by Miriam Forman-Brunell.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>I was now in a way to be provided for; for though I was not a parish charge upon this or that part of the town by law, yet as my case came to be known, and that I was too young to do any work, being not above three years old, compassion moved the magistrates of the town to order some care to be taken of me, and I became one of their own as much as if I had been born in the place.</p>  
+
+<p>In the provision they made for me, it was my good hap to be put to nurse, as they call it, to a woman who was indeed poor but had been in better circumstances, and who got a little livelihood by taking such as I was supposed to be, and keeping them with all necessaries, till they were at a certain age, in which it might be supposed they might go to service or get their own bread.</p>  
+
+<p>This woman had also had a little school, which she kept to teach children to read and to work; and having, as I have said, lived before that in good fashion, she bred up the children she took with a great deal of art, as well as with a great deal of care.</p>  
+
+<p>But that which was worth all the rest, she bred them up very religiously, being herself a very sober, pious woman, very house-wifely and clean, and very mannerly, and with good behaviour. So that in a word, expecting a plain diet, coarse lodging, and mean clothes, we were brought up as mannerly and as genteelly as if we had been at the dancing-school.</p>  
+
+<p>I was continued here till I was eight years old, when I was terrified with news that the magistrates (as I think they called them) had ordered that I should go to service.  I was able to do but very little service wherever I was to go, except it was to run of errands and be a drudge to some cookmaid, and this they told me of often, which put me into a great fright; for I had a thorough aversion to going to service, as they called it (that is, to be a servant), though I was so young; and I told my nurse, as we called her, that I believed I could get my living without going to service, if she pleased to let me; for she had taught me to work with my needle, and spin worsted, which is the chief trade of that city, and I told her that if she would keep me, I would work for her, and I would work very hard.</p>  
+
+<p>I talked to her almost every day of working hard; and, in short, I did nothing but work and cry all day, which grieved the good, kind woman so much, that at last she began to be concerned for me, for she loved me very well.</p>
+
+<p>One day after this, as she came into the room where all we poor children were at work, she sat down just over against me, not in her usual place as mistress, but as if she set herself on purpose to observe me and see me work. I was doing something she had set me to; as I remember, it was marking some shirts which she had taken to make, and after a while she began to talk to me. 'Thou foolish child,' says she, 'thou art always crying (for I was crying then); 'prithee, what dost cry for?' 'Because they will take me away,' says I, 'and put me to service, and I can't work housework.' 'Well, child,' says she, 'but though you can't work housework, as you call it, you will learn it in time, and they won't put you to hard things at first.' 'Yes, they will,' says I, 'and if I can't do it they will beat me, and the maids will beat me to make me do great work, and I am but a little girl and I can't do it'; and then I cried again, till I could not speak any more to her.</p>  
+
+<p>This moved my good motherly nurse, so that she from that time resolved I should not go to service yet; so she bid me not cry, and she would speak to Mr. Mayor, and I should not go to service till I was bigger.</p>  
+
+<p>Well, this did not satisfy me, for to think of going to service was such a frightful thing to me, that if she had assured me I should not have gone till I was twenty years old, it would have been the same to me; I should have cried, I believe, all the time, with the very apprehension of its being to be so at last.</p>  
+
+<p>When she saw that I was not pacified yet, she began to be angry with me. 'And what would you have?' says she; 'don't I tell you that you shall not go to service till your are bigger?' 'Ay,' said I, 'but then I must go at last.' 'Why, what?' said she; 'is the girl mad? What would you be--a gentlewoman?' 'Yes,' says I, and cried heartily till I roared out again.</p>  
+
+<p>This set the old gentlewoman a-laughing at me, as you may be sure it would. 'Well, madam, forsooth,' says she, gibing at me, 'you would be a gentlewoman; and pray how will you come to be a gentlewoman? What! will you do it by your fingers' end?'</p>  
+
+<p>'Yes,' says I again, very innocently.</p>
+
+<p>'Why, what can you earn?' says she; 'what can you get at your work?'</p>  
+
+<p>'Threepence,' said I, 'when I spin, and fourpence when I work plain work.'</p>  
+
+<p>'Alas! poor gentlewoman,' said she again, laughing, 'what will that do for thee?'</p>  
+
+<p>'It will keep me,' says I, 'if you will let me live with you.' And this I said in such a poor petitioning tone, that it made the poor woman's heart yearn to me, as she told me afterwards.</p>  
+
+<p>'But,' says she, 'that will not keep you and buy you clothes too; and who must buy the little gentlewoman clothes?' says she, and smiled all the while at me.</p>  
+
+<p>'I will work harder, then,' says I, 'and you shall have it all.'</p>  
+
+<p>'Poor child! it won't keep you,' says she; 'it will hardly keep you in victuals.'</p>  
+
+<p>'Then I will have no victuals,' says I, again very innocently; 'let me but live with you.'</p>  
+
+<p>'Why, can you live without victuals?' says she.</p>  
+
+<p>'Yes,' again says I, very much like a child, you may be sure, and still I cried heartily.</p>  
+
+<p>I had no policy in all this; you may easily see it was all nature; but it was joined with so much innocence and so much passion that, in short, it set the good motherly creature a-weeping too, and she cried at last as fast as I did, and then took me and led me out of the teaching-room. 'Come,' says she, 'you shan't go to service; you shall live with me'; and this pacified me for the present.</p>  
+</div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Tue, 01 Mar 2011 14:33:41 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Decisions of the Superior Courts of New South Wales, 1788-1899 ]]></title>
+      <link>https://cyh.rrchnm.org/items/show/451</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Decisions of the Superior Courts of New South Wales, 1788-1899 </div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.law.mq.edu.au/scnsw/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Division of Law, Macquarie University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">May 2010</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p> <a class="external" href="http://www.law.mq.edu.au/scnsw/"><em>Decisions of the Superior Courts of New South Wales, 1788-1899</em></a> was created to publish records of the superior courts of New South Wales with the goal of recovering the records of colonial law. At present it concentrates on the decisions of the Supreme Courts and other courts of unlimited jurisdiction between 1788 and 1841.</p> 
+<p>This archival site is challenging to use, but worth the effort. There are several ways to locate information relevant to children. Searches using keywords such as "boy," "girl," "child," "children," and "family," produce a few hits; this should improve as more materials become accessible in digital form.</p> 
+<p>Interesting material on children is available, though, by browsing the <a class="external" href="http://www.law.mq.edu.au/scnsw/html/subject_index.htm">subject index</a>. A range of relevant topics emerge, including "child, failure to support," "children, defendants," and "children, evidence by." Other subjects include Aboriginal affairs, family law, infancy, infanticide, marriage of infants, children and oaths, Orphan School, and schools (and education laws).</p>
+<p>"Other features" presents cases and groups of documents, such as <a class="external" href="http://www.law.mq.edu.au/scnsw/Correspondence/index.htm">Justice Burton's collected documents concerning Aborigines 1797-1840</a>. This includes the key law that resulted in the "Stolen Generation," <a class="external" href="http://www.law.mq.edu.au/scnsw/Correspondence/pdf/OriginalDocument5.pdf">Original Document 5</a>, "Proclamations &c Black Natives Establishment of Institution for Children Government and General Orders Government House Sydney: 10th December 1814." This law provided for the "civilizing" of the Aboriginal people by placing their children into state-run schools.</p> 
+<p>Photographs, recollections, legal records and commentary tell this harrowing story. Records document the school/orphanages that housed and educated Aboriginal children, warehousing them in military-style schools where they often lost touch with their identities and families. The schools trained boys for low-skilled work and girls for domestic service. An especially interesting feature is <em>Dawn Magazine</em>, "An introduction to the public face of the Aborigines Welfare Board (1952–1969) and the photos it reproduced."</p>
+<p>Two factors about the public use of the site are noteworthy. First, many of the archives on Aboriginal communities are closed for 100 years due to sensitivity about the treatment of indigenous peoples of Australia who were deprived of their rights over their culture, lands, bodies, and children. The site also offers a finding aid for genealogical searches. New South Wales was the staging ground for the settlement of Australia by convicts brought from overcrowded British prisons. Many contemporary Aussies may be able to trace their genealogy back to those original settlers through the site.</p>
+<p>This is a site that will increase in usefulness on children and other topics as the archive becomes more complete. In the meantime, dedicated searching will reveal significant material on the laws and implementation of those laws affecting many aspects of the lives of children.</p>
+
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">George Mason University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">Interesting material on children is available, though, by browsing the subject index. A range of relevant topics emerge, including &quot;child, failure to support,&quot; &quot;children, defendants,&quot; and &quot;children, evidence by.&quot; Other subjects include Aboriginal affairs, family law, infancy, infanticide, marriage of infants, children and oaths, Orphan School, and schools (and education laws).</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/481/fullsize"><img src="/files/display/481/square_thumbnail" class="thumb" alt="Decisions of the Superior Courts of New South Wales, 1788-1899 " width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Wed, 30 Jun 2010 16:02:51 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/481/fullsize" type="image/jpeg" length="102419"/>
+    </item>
+    <item>
+      <title><![CDATA[Art and Life in Africa ]]></title>
+      <link>https://cyh.rrchnm.org/items/show/444</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Art and Life in Africa </div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.uiowa.edu/~africart/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">University of Iowa</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">May 2010</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>The content on <a class="external" href="http://www.uiowa.edu/~africart/"><em>Art and Life in Africa</em></a> is primarily the work and scholarship of Christopher D. Roy, Professor of Art History at the University of Iowa. There are rich materials on children, although finding them requires some creative searching.</p>
+<p>The site design is not as elegantly organized or aesthetically pleasing as the rich content warrants. There are many broken links, such as the one to the Stanley Collection database. The link to a teacher's forum is also broken. <a class="external" href="http://www.uiowa.edu/~africart/links.html">Links to other sites</a> do function.</p> 
+<p>What the site lacks in quality, however, it makes up in quantity of information. This includes photographs and videos that illustrate the landscape, arts, craft production, and everyday life of a wide variety of groups in the region and more than 60 streaming videos of craft production, dancing, singing and mask performances.</p>
+<p>The site includes most countries of sub-Saharan Africa, which are designated on the <a class="external" href="http://www.uiowa.edu/~africart/toc/countries.html">map</a> in black lettering. A database lists the names of 107 "peoples" (as the site designates these ethnic, clan, or tribal groups) in Africa. Each name links to a chart with information, a map of the territory, and sometimes the multiple countries they inhabit.</p> 
+<p>Materials on children appear throughout the site, but are not easy to find. The design includes an <a class="external" href="http://www.uiowa.edu/~africart/search/index.html">ALA search engine</a> found only at the bottom of the index page—not on the home page. There is no easy way to navigate among sections of the site. Keyword searches such as "child," "girl," and "boy" yield only two general links, so the search engine apparently excludes a lot of site content. The keyword "doll," for example, which is found in at least a dozen articles, photo captions, and artworks, only returned the main website link.</p>
+<p>The best strategy, then, is to browse the site looking in likely places. The beautiful and interesting pictures make this rewarding time spent. <a class="external" href="http://www.uiowa.edu/~africart/toc/chapters/KML.html">Key Moments in Life</a> describes the stages from birth to initiation, marriage, old age and death, including both males and females, using photographs and art. Each is discussed in a paragraph with citation information.</p> 
+<p>A streaming video shows <a class="external" href="http://www.uiowa.edu/~africart/streamingmovies/RSTP_files/Children1Mbps_Strea001.mov">uninitiated boys in Boni and Lollio</a> making masks out of millet stalks in imitation of the adults' elaborate masks. They play music, weave elaborate masks, and clown for the camera; in the evening they take part in the procession and dance. Watching this video is as interesting for the skill and intensity the boys bring to the process, as for the other children, both boys and girls, who mill around at the performance.</p> 
+<p>Many of the other videos and photos allow the viewer to catch glimpses of babies wrapped onto their mother's backs and of children and youth participating in daily activities or special occasions. A number of articles by Roy include information about children, the best example being the article on <a class="external" href="http://www.uiowa.edu/~africart/Articles/Mossi_Dolls_Roy.pdf">Mossi dolls</a>. The article describes wooden figurines carved by blacksmiths for little girls that simultaneously fulfill the function of babies (biiga) for young caregivers as well as adult female role models.</p> 
+<p>This project is testament to a lifetime of work among people for whom the scholar Roy had great affection, and into whose lives he was able to gather deep insight. The materials here are based on a CD-ROM of the same name that is available for purchase on the site, but increasingly the CD content is available online.</p>
+
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">George Mason University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">There are rich materials on children, although finding them requires some creative searching.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/479/fullsize"><img src="/files/display/479/square_thumbnail" class="thumb" alt="Art and Life in Africa " width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Thu, 17 Jun 2010 03:58:43 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/479/fullsize" type="image/jpeg" length="94923"/>
+    </item>
+    <item>
+      <title><![CDATA[Gope, Ancestor or Spirit Boards [Object]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/438</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Gope, Ancestor or Spirit Boards [Object]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>The object in the photograph is a <em>gope</em>, or spirit board (also called <em>kwoi</em> or <em>hohao</em>). This example is from Papua New Guinea near the Wapo Creek on the Gulf of Papua. Carved from an old canoe, this art form derives from the protective splashboard of the outrigger canoe, which was carved with a human face and was believed to have protective qualities. Human faces represent ancestors, and carving the boards was thought to provide a home for the protective spirit. Most <em>gope</em> boards have symmetrical, curved, linear designs, with recognizable faces and very stylized body parts. <em>Gopes</em> were made in different sizes, the largest being owned by the clan and stored out of sight in the men's longhouses. Smaller <em>gope</em> boards guarded entrances to clan sections of communal houses. Young, uninitiated men owned a third type of small <em>gope</em>. These were hung on the walls where young boys slept, believing it would protect them and help them to grow strong.</p>  </div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Photograph from the Tomkins Collection Spirit board, gope, Wapo Creek/Era River, 19th/20th century, wood and pigment, Accession # TC 515, Bruce Frank, New York 2009, Collected by Thomas Schultze-Westrum, &lt;a class=&quot;external&quot; href=&quot;http://www.tomkinscollection.org/static/object_470.html&quot;&gt;http://www.tomkinscollection.org/static/object_470.html&lt;/a&gt; (accessed March 26, 2010). Annotated by Susan Douglass.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/465/fullsize"><img src="/files/display/465/square_thumbnail" class="thumb" alt="Gope, Ancestor or Spirit Boards [Object]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Wed, 02 Jun 2010 02:06:57 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/465/fullsize" type="image/jpeg" length="168378"/>
+    </item>
+    <item>
+      <title><![CDATA[Bat Miztvah [Photograph]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/437</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Bat Miztvah [Photograph]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>The girl in the photograph, Cecelia Nealon-Shapiro, reads from the Torah as part of her bat mitzvah, a rite of passage ceremony, at Congregation Rodeph Sholom in New York City. Prior to this day, she attended classes in Jewish history and tradition, Hebrew, and recitation at the Reform synagogue, where girls now participate in a rite formerly reserved for boys, the bar mitzvah. Following the service, the family and guests, including several girls who were adopted by American families from the same orphanage in China, celebrated at an elaborate party.</p>
+<p>At age 12 or 13, a Jewish girl becomes a "bat mitzvah" which literally means "daughter of the commandment." Bat mitzvah marks the time when a Jewish child is old enough to perform the mitzvot (commandments) and is considered an adult in the religious community. Neither the bar mitzvah for boys, nor the bat mitzvah for girls are formal religious ceremonies. The bat mitzvah observance is not carried out in Orthodox and Chasidic synagogues where women are not allowed to lead prayers.</p>
+<p>Learning about Jewish history, customs, and holidays is a way that modern Jewish communities seek to transmit tradition and law to a new generation. The spirit of the bat mitzvah also includes choosing service to the community, representing engagement with the larger world beyond the family and living according to the values of their faith.</p>
+
+</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Photograph by James Estrin, "Journey From a Chinese Orphanage to a Jewish Rite of Passage," <em>The New York Times</em>, March 8, 2007, <a class="external" href="http://www.nytimes.com/2007/03/08/nyregion/08batmitzvah.html?_r=3&pagewanted=2">http://www.nytimes.com/2007/03/08/nyregion/08batmitzvah.html?_r=1&pagewanted=2</a> (accessed March 31, 2010). Annotated by Susan Douglass.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                                    <div class="element-text">436</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/467/fullsize"><img src="/files/display/467/square_thumbnail" class="thumb" alt="Bat Miztvah [Photograph]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Wed, 02 Jun 2010 01:55:08 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/467/fullsize" type="image/jpeg" length="125171"/>
+    </item>
+    <item>
+      <title><![CDATA[Dan Passport Masks, Liberia / Cote d'Ivoire [Object]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/427</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Dan Passport Masks, Liberia / Cote d&#039;Ivoire [Object]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>This small, mask ( 9.5 cm high  and 5 cm wide) carved from wood is called a "passport" mask because it was worn on the body, kept in a leather pouch, or sewn onto a piece of cloth to represent group or family affiliation. Passport masks are used by the Dan people, a group of several hundred thousand people in the western part of the Côte d’Ivoire and into Liberia. They live in a forested region bordering the savannah in the north, for whom farming cocoa, coffee, rice and manioc, and hunting game and fish provide rural livelihoods. Each village is governed by a chief and council of elders. Both boys and girls receive formal recognition of their adulthood and readiness for marriage by participating in initiation rituals. Specific teachings, a period of time in seclusion in the bush for boys, and circumcision rituals for both genders are included in the rites of passage. The masks are miniature copies of family masks which act as witnesses to initiation ceremonies and are believed to offer protection like amulets when their owner is away from home. <a href="#note1" id="fn1" class="footnote">1</a></p> 
+<div id="notes">
+<p><a href="#fn1" id="note1" class="footnote">1</a> Elizabeth Skidmore Sasser, <em>The world of spirits and ancestors in the art of western sub-Saharan Africa</em> (Lubbock, TX: Texas Tech University Press, 1995), 83-84.</p>
+</div>
+</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Photo of Dan Passport mask from The Israel Museum, Jerusalem, Dan people of Liberia and Cote d&#039;Ivoire, Accession number B06.2374, &lt;a class=&quot;external&quot; href=&quot;http://www.imj.org.il/imagine/collections/item.asp?itemNum=324035&quot;&gt;http://www.imj.org.il/imagine/collections/item.asp?itemNum=324035&lt;/a&gt; (accessed March 5, 2009). Annotated by Susan Douglass.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/461/fullsize"><img src="/files/display/461/square_thumbnail" class="thumb" alt="Dan Passport Masks, Liberia / Cote d&amp;#039;Ivoire [Object]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Tue, 01 Jun 2010 04:08:30 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/461/fullsize" type="image/jpeg" length="152453"/>
+    </item>
+    <item>
+      <title><![CDATA[Tiananmen: The Gate of Heavenly Peace]]></title>
+      <link>https://cyh.rrchnm.org/items/show/421</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Tiananmen: The Gate of Heavenly Peace</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">May 2010</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://tsquare.tv/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Long Bow Group, Inc.</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">May 2010</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href="http://tsquare.tv/">The Gate of Heavenly Peace</a> centers on a documentary about the events of Tiananmen Square in the spring of 1989. There are links to <a class="external" href="http://tsquare.tv/film/gateExcerpts.php">selections from the documentary</a>, as well as a huge archive of primary and secondary source readings about the events. A <a class="external" href="http://tsquare.tv/chronology/">chronology</a> of major events in 20th century China has its own page, broken into two sections: events prior to 1989, and then a more detailed listing of the events in the spring of 1989, beginning with the death of Former Party General Secretary Hu Yaobang. The site is easy to navigate, with links at the top and bottom of most pages.</p>
+
+<p>The clips from the documentary include some background on Tiananmen Square itself, the Cultural Revolution, and some basic history of the People's Republic of China. The majority of the clips are about the events of June 1989, including the dramatic footage of <a class="external" href="http://tsquare.tv/film/characters_01.php">"The Man Against the Tanks,"</a> showing both the official Chinese government's version of the events as well as the version of events as seen by the rest of the world. Most of the documentary is original footage interspersed with interviews of participants at the demonstrations. Parents of deceased demonstrators are also interviewed. Unfortunately, the clips display on a relatively small portion of the screen and cannot be expanded. A word of caution for teachers planning on using the site in their classrooms: some students may find the images of violence and of wounded teenagers disturbing. The final excerpt includes, "Aftermath of June 4th" a Chinese rock video with English subtitles (including some inappropriate language).</p>
+
+<p>In addition to the clips from the documentary, there is a <a class="external" href="http://tsquare.tv/media/galleryall.html">gallery of images</a> in the Media Library, but as with the video, many of the images are very small and difficult to see, and cannot be enlarged. In the gallery there is a selection of images on Chinese Youth. While some of the images have captions, several do not, which would make teaching with them somewhat problematic. Some images have captions that are in Chinese, and no translation is provided. However, these images are bigger and much easier to view than others. The images are mostly propaganda, which could be used for an excellent lesson on how <a class="external" href="http://tsquare.tv/media/0069.html">Mao</a> cultivated his relationship with the youth in China.</p>   
+
+<p>The remainder of the site is very text-heavy. There is a section on additional sources, some primary and others secondary. Perhaps the best source is <a class="external" href="http://tsquare.tv/themes/truthturm.html">"The Truth About the Beijing Turmoil,"</a> which is the official government account of the events, published in 1990. Teachers and students could use this source in a variety of ways:  they could compare this version with what is portrayed in the video excerpts or discuss it as a piece of propaganda. The reading could also be used in conjunction with the official presentation of the "Man Against Tank," as mentioned above.</p>
+
+<p>With older, more advanced learners, teachers may wish to use the site to teach about bias. For the most part, the site does not editorialize; however, the selection of governmental sources indicates a strong opinion about the events in Tiananmen. A discussion about the point of view of the creators of the site and the documentary would be a valuable one.</p>
+
+<p>Search terms such as "boys" bring the viewer to a section on Chinese rock music. The article in this section is written by a scholar at the Australian National University in Canberra. The article discusses the role of pop and rock in Tiananmen. There are some lyrics posted, but the great weakness of this site is that there are no audio files of the songs discussed in the article. The search term "girls" is not useful, as it only leads to two results, both of which are parts of descriptions of the events at Tiananmen. Searching for "children" results in many pages filled with background information that could be useful for teachers.</p> 
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Jessica Hodgson</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">South County Secondary School, Fairfax County, VA</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">The Gate of Heavenly Peace, centers on a documentary about the events of Tiananmen Square in the spring of 1989. There are links to selections from the documentary, as well as a huge archive of primary and secondary source readings about the events.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/453/fullsize"><img src="/files/display/453/square_thumbnail" class="thumb" alt="Tiananmen: The Gate of Heavenly Peace" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Fri, 21 May 2010 20:26:33 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/453/fullsize" type="image/jpeg" length="17033"/>
+    </item>
+    <item>
+      <title><![CDATA[Clothing [Object]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/389</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Clothing [Object]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>The material culture of early childhood in the 21st century is characterized by an emphasis on biological age and related levels of cognitive and motor skill development. All types of objects, including diapers, toys, food products, and clothing, are divided into categories based on the age-appropriateness of a particular object. Descriptions of these categories commonly explain how each object functions to enable a child to attain a particular skill or reach a developmental milestone. Appeals to medical and developmental science are common. Clothing is often marketed for its ability to facilitate different types of developmental movements such as crawling, walking, or rolling over. Children's clothing is also noteworthy for its emphasis on marking very young individuals with their gender. Properly color coding children into pink for girls and blue for boys is of paramount concern in the clothing industry.  Similarly, patterns reflect particular gender ideals. It is very difficult, for example, to find a girl's outfit that has a plaid pattern or a car on it, even in pink, or a boys outfit that has a floral pattern or an image of a doll.  This type of gender coding at a very young age is culturally important when children are introduced socially into the world- it is a major social gaffe to misidentify a child's gender but if it occurs it is usually because the child is dressed in a gender-neutral color such as yellow or green. Children's clothing points to the importance of gender in our culture, and also the ways that gender roles are taught to children from birth.</p> </div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Newborn Outfit, <em>The Children's Place</em>, <a class="external" href="http://www.childrensplace.com/webapp/wcs/stores/servlet/category_10001_10001_-1_99695_newborns_24101|72472|99695_newborn|outfits|his%20or%20her%20layette">http://www.childrensplace.com</a> (accessed January 1, 2010). Annotated by Jane Eva Baxter.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/423/fullsize"><img src="/files/display/423/square_thumbnail" class="thumb" alt="Clothing [Object]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Fri, 08 Jan 2010 18:11:49 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/423/fullsize" type="image/jpeg" length="8616"/>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=%3Cem%3ELittle+Mischief%3C%2Fem%3E&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:26:05 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[American Memory]]></title>
+      <link>https://cyh.rrchnm.org/items/show/85</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">American Memory</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-06-20</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://memory.loc.gov/ammem/index.html</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">The Library of Congress, American Memory</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">March 2008</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>Even casual visitors to the <a class="external" href=http://memory.loc.gov/ammem/index.html><em>American Memory</em></a> website are bound to find themselves lingering longer than intended, drawn in by the website's compelling treasures. Beautifully designed, <a class="external" href=http://memory.loc.gov/ammem/index.html><em>American Memory</em></a> offers primary sources (in full-text documents, sound files, photographs, and even films) culled from the collections of the Library of Congress—the largest library in the world—as well as from other, collaborating libraries.</p>
+ 
+<p>For a scholar of children's history, <a class="external" href=http://memory.loc.gov/ammem/index.html><em>American Memory</em></a> has much to offer if you know where and how to look. Avoid using "children" as a search-term on the main page – it will yield 5,000 hits. Begin by glancing at the "Collection Highlights" on the main page, where librarians rotate various collections. By coincidence, the collections spotlighted as of this writing—March 2008—are both pertinent to the history of childhood, showcasing children's recreational pastimes (baseball) and reading habits (Sunday-school literature) in the late 19th and early 20th centuries.</p> 
+
+<p>The <a class="external" href=http://memory.loc.gov/ammem/collections/spalding><em>Spalding Base Ball Guide</em></a> collection, comprising issues from 1889-1939, offers data on "rules and 'how-to's' of the game, information on the game's founding fathers, photographic illustrations of teams and players from across the land, and game statistics." Supporting collections include <a class="external" href=http://memory.loc.gov/ammem/bbhtml/bbhome.html><em>Baseball Cards, 1887-1914</em></a>, with stunning high-quality images of the fronts and backs of each card, and the impressive <a class="external" href=http://memory.loc.gov/ammem/collections/robinson/><em>Baseball and Jackie Robinson</em></a> collection, documenting the story of the first African-American to play in the Major Leagues, and thus, one of the first professional sports heroes for African-American boys.</p>
+
+<p>These collections do more than chart baseball's history; they illuminate the <em>culture</em> of the sport, the discursive field in which baseball is situated. That many baseball-enthused children use statistical knoweldge as "cultural capital" with each other is a fact that spans historical periods, just as true today as it was 100 years ago. A student who loves baseball might find much in these collections that s/he can relate to personally, as well as uncovering a rich resource for studying childhood.</p>
+
+<p>The other spotlighted collection, <a class="external" href=http://memory.loc.gov/ammem/collections/sundayschool/><em>Sunday School Books: Shaping the Values of Youth in Nineteenth Century America</em></a>, offers full-text access to 163 texts known as "Sunday-school literature," a genre often dismissed as too pious and boringly repressive to warrant study. But, as <em>the</em> most widespread form of children's literature before and during the Civil War, Sunday-school books are vital sources of information about the values inculcated in 19th-century American children. Texts in this collection—easily searchable by title, author, or subject—include such eye-catching titles as <a class="external" href=http://memory.loc.gov/cgi-bin/query/S?ammem/svybib:@field(TITLE+@od1(Sarah's+home+++the+story+of+a+poor+girl+whose+father+was+a+drunkard+and+whose+mother+was+unkind++))>"Sarah's Home: The Story of a Poor Girl Whose Father Was a Drunkard and Whose Mother Was Unkind."</a></p>
+ 
+<p>Most of the material about children on the <a class="external" href=http://memory.loc.gov/ammem/index.html><em>American Memory</em></a> site is not conveniently categorized as such; it is contained within collections organized around different foci. Click on <a class="external" href= http://memory.loc.gov/ammem/browse/ListAll.php>"List All Collections"</a> on the main page, and scan all the collections' titles. Some, like <em>Maps of Liberia</em>, immediately reveal themselves as less relevant to a children's historian; however, <em>any</em> collection on cultural history, race, gender, or popular culture has something to offer, as do many on politics, reform, and photography.</p> 
+
+<p>Collections on minority populations often include vivid photographs of children in those communities. <a class="external" href=http://memory.loc.gov/ammem/index.html><em>American Memory</em></a> is perhaps the best source on the Internet for high-quality historical photographs; for example, a photo of <a class="external" href=http://photoswest.org/cgi-bin/imager?10030962+X-30962> children at the Supai Indian School</a> is reproduced in such high detail that one can clearly see signs of the forced "civilization" that Native-American children endured in the 19th and early 20th centuries, when the government removed them from their tribes and sent them to boarding schools to learn "American" ways. The photo shows children gathering for a meal with their heads shaved, wearing Anglo clothing. Similarly, <a class="external" href=http://dbs.ohiohistory.org/africanam/index.stm><em>The African-American Experience in Ohio</em></a> contains numerous newspaper articles about children, as well as photographs like this one of <a class="external" href=http://dbs.ohiohistory.org/africanam/page.cfm?ID=5652>pupils at a "colored" school</a>. In <a class="external" href=http://memory.loc.gov/ammem/award99/cubhtml/cichome.html><em>The Chinese in California, 1850-1925</em></a> one finds multiple photographs of Chinese American children in their daily contexts of family, school, and play.</p>
+
+<p>Some of the richest photographic collections are regional in focus: <a class="external" href=http://memory.loc.gov/ammem/ndlpcoop/ichihtml/cdnhome.html><em>Photographs from the Chicago Daily News, 1902-1933</em></a> and <a class="external" href=http://memory.loc.gov/ammem/collections/touring/><em>Photographs from the Detroit Publishing Company, 1880-1920</em></a> provide dozens of photos of children and teens as school students, sweatshop workers, game players, and family members. These photos can be analyzed easily in classrooms for the details they reveal about the dress, comportment, and activities of youth, as well as the ideologies of the institutions in which children gather. For example, the site's numerous photos of early 20th-century schoolrooms and playgrounds—scattered throughout several collections—reveal a pedagogical philosophy of uniformity and regimentation unfamiliar to people educated after the 1970s.</p>
+
+<p>Children's history is not only about the lived experiences of actual children; it is also about the role that children play in the adult creative imagination. Both sides are well represented throughout <a class="external" href=http://memory.loc.gov/ammem/index.html><em>American Memory</em></a>; the collection of films and sound recordings from the <a class="external" href=http://memory.loc.gov/ammem/edhtml/edhome.html>Edison Company</a> is one of the most fruitful to explore. Searching with terms like "children," "boys," and "girls," one will find films that document real historical events, like the activities of the <a class="external" href=http://hdl.loc.gov/loc.mbrsmi/lcmp002.m2a36374>newsboys</a> and <a class="external" href=http://hdl.loc.gov/loc.mbrsmi/lcmp002.m2a32868>"street Arabs"</a> who worked on the sidewalks of New York at the turn of the last century. But there are also fictional films here that unfailingly cast children as mischievous, subversive irritants to adult peace of mind—films such as <a class="external" href=http://hdl.loc.gov/loc.mbrsmi/edmp.1704><em>Maude's Naughty Little Brother</em></a>, <a class="external" href=http://hdl.loc.gov/loc.mbrsmi/edmp.0163><em>Love in a Hammock</em></a>, <a class="external" href=http://hdl.loc.gov/loc.mbrsmi/edmp.4056><em>Little Mischief</em></a>, and <a class="external" href=http://hdl.loc.gov/loc.mbrsmi/edmp.1183><em>Grandma and the Bad Boys</em></a>. The narrative strategy that uses "child" as a short-hand for "inappropriate disruption" is another defunct idea in American popular consciousness; watching these films leads to some eye-opening comparisons between different social constructions of the category of "child."</p>
+
+<p>Finding sources on adolescents, rather than children, is more of a challenge. "Adolescent" and "teen" are not frequently used in the Library of Congress's catalog descriptions, so using those as search-terms will yield few results. One can find good material on older children in two ways: first, by examining artifacts categorized by the word "children." Some of the youngsters in such photographs, or in the imagined audiences of some texts, are clearly high-school aged. The second method is to search collections that relate to pastimes of adolescence—like dancing and listening to popular music. <a class="external" href=http://memory.loc.gov/ammem/dihtml/dihome.html><em>Dance Instruction Manuals, 1490-1920s</em></a> is not explicitly about children, but since dancing was a popular pastime among young people, these manuals reveal part of the cultural life of middle-class American teens in earlier times. That same collection contains a pamphlet published by the U.S. government: <a class="external" href=http://hdl.loc.gov/loc.music/musdi.205>"Public Dance Halls: their regulation and place in the recreation of adolescents."</a> In <a class="external" href=http://memory.loc.gov/ammem/wghtml/wghome.html><em>Photographs from the Golden Age of Jazz</em></a>, one can scan the subject-index to find entries like "Dancers" and "Jazz Audiences." Though few, these photographs show enthusiasts who are obviously in their teens and early twenties, passionately involved in their musical pastimes.</p>
+
+<p>The collections described above are merely a tiny sample of what's available at <a class="external" href=http://memory.loc.gov/ammem/index.html><em>American Memory</em></a>; rich and fascinating sources on youth history can also be found in <a class="external" href=http://memory.loc.gov/ammem/ndlpcoop/moahtml/snchome.html><em>Nineteenth Century in Print</em></a>; <a class="external" href=http://memory.loc.gov/ammem/fsowhome.html><em>America from the Great Depression to World War II</em></a>; <a class="external" href=http://memory.loc.gov/ammem/awlhtml/awlhome.html><em>Motion Pictures from 1894 - 1915</em></a> and <a class="external" href=http://memory.loc.gov/ammem/afctshtml/tshome.html ><em>Voices from the Dust Bowl</em></a>, among many others. With more than 100 different collections on the site, at least half of which contain pertinent material, there are literally thousands of artifacts here that document the histories of children and youth. A teacher or student who devotes some time to exploring this site will find countless inspirations for research and classroom activities.</p></div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Ilana Nash</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">Western Michigan University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">Beautifully designed, American Memory offers primary sources (in full-text documents, sound files, photographs, and even films) culled from the collections of the Library of Congress—the largest library in the world—as well as from other, collaborating libraries.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/56/fullsize"><img src="/files/display/56/square_thumbnail" class="thumb" alt="American Memory" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Fri, 20 Jun 2008 07:09:38 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/56/fullsize" type="image/jpeg" length="62132"/>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=%3Cem%3EPatria+Potestad%3C%2Fem%3E&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:25:14 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Don Eduardo Brown v. Don Leonardo Brown [Lawsuit]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/64</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Don Eduardo Brown v. Don Leonardo Brown [Lawsuit]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>During the Rosas era, parents in Argentina grew increasingly concerned about the behavior of their children. Lawsuits throughout this turbulent period illustrate the disagreements between young people and their parents over marriage choice, property rights, and inheritance. Mothers and fathers often went to court seeking to constrain their children's free will when they believed that the family's well-being and social standing were at risk.</p>
+
+<p>In 1831, Leonardo (Leonard) Brown wanted to marry his sweetheart, but his father, Don Eduardo (Edward) Brown, a prominent merchant of British descent, objected to the engagement. Leonardo ran away from his family's house, taking some furniture and other items with him in order to start a new life. In response, Eduardo sued his son for defying his authority and based this on his rights as the male head of a family, or <em>patria potestad</em>. Eduardo argued that this legal concept gave him final say over his son's life decisions until he turned 23. Since Leonardo was only 19, Eduardo argued that he had every right to deny his son permission to marry. Moreover, he wanted the authorities to order Leonardo to return home at once.</p>
+
+<p>The following two documents represent the final stage of the lawsuit. The first is the court's final judgment against Leonardo, who was ordered to provide restitution to his father and return home.  However, the second document is Eduardo's plea to the court to do something about his son, who continued to defy his and the court's authority.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Archivo Histórico de la Provincia de Córdoba, Gobierno, tomo 176, folios 124-25. Translated and annotated by Jesse Hingson. </div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                                    <div class="element-text">Archivo Histórico de la Provincia de Buenos Aires, 7-5-14-48. Translated by Jesse Hingson.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-05-09</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Jesse Hingson</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">60</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p><em>[Excerpted from Final Judgement, June 8, 1831]</em></p>
+
+<p>In Buenos Aires on June 8th, 1831, [those] present in the courtroom of the Public Court are Dr. Don Ventura Martínez, Counsel to Don Eduardo Brown, his son Don Leonardo Brown, Don Manuel Alvarez, and Doña Magdalena Rivas and her daughter, Doña Magdalena. Having provided the report of Don Martínez, as the counsel to the first expressed [Don Eduardo Brown], to the judge: that in attention to having left the authority of his father without consent and finding the young Don Leonardo still under the <em>patria potestad</em> for not being more than nineteen years of age, asked the court the restitution of what was taken, such as a box that had been bought and a mattress as a sign of marriage which had been given to the young woman that he had tried to marry. In this case, I take the word of Doña Magdalena Rivas, mother of the young woman indicated, who confessed that these were gifts that had been made to the referred daughter by the young man Don Leonardo. Heard before all of You Señores and Señoras, it is resolved that the young man be returned to his house of his father, ordering the same mother of the young woman the expressed indicated be restituted with which this concludes this act. . .</p>
+
+<p>Edward Brown<br />
+Leonard Brown</p>
+
+
+<p><em>[Plea to Court, August 11, 1831]</em></p>
+<p>Don Edward Brown, appearing before Your Excellency as the best law provider, says: that after having reclaimed from Your Excellency the legal protection of <em>patria potestad</em> for the flight that my son made from my house and the other excesses committed by my son, Leonardo, he reached the point of denying his ancestry, which I proved to the satisfaction of the court. Unfortunately, another incident has occurred that adds further credence to the bad behavior of this young man.</p> 
+
+<p>He has presented himself before the President of the most Excellent Chamber denying my authority as a father and requesting permission to contract marriage, and to prove my authority, it is indispensable to have the court clerk provide me the affidavit of what happened before Your Excellency for the reasons I have already indicated. . . Edward Brown, Buenos Aires, August 11, 1831.</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Fri, 09 May 2008 16:49:04 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

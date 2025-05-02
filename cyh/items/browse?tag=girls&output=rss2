@@ -1,0 +1,2267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=girls&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:14:04 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Laura Jernegan: Girl on a Whale Ship]]></title>
+      <link>https://cyh.rrchnm.org/items/show/484</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Laura Jernegan: Girl on a Whale Ship</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.girlonawhaleship.org/index.html</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Martha Vineyard&#039;s Museum</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">December 2012</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href="http://www.girlonawhaleship.org/index.html"><em>Laura Jernegan: Girl on a Whale Ship</em></a> brings to life pages of a young girl's <a class="external" href="http://www.girlonawhaleship.org/index.html">journal</a> kept during her three-year journey aboard her father's whaling ship, the <em>Roman</em>. The 42 pages of <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=27">Laura Jernegan's</a> journal include a catalogue of items, pets, and people aboard the ship as well as reports on everything from Laura's schoolwork to the crew's <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/section/chap.do?ID=18&amp;pg=6&amp;cardType=artifact&amp;shortName=cutting_in_ashley&amp;1st=t">processing of a whale</a>. Details about family life, work, and play in the largely adult and masculine world of whaling offer glimpses into the complexities of life aboard the ship&ndash;the simultaneous sense of adventure and monotony, community and isolation, and certainty and uncertainty that she felt during her journey.</p>
+<p><a class="external" href="http://www.mvmuseum.org/">Martha Vineyard's Museum</a>, the site's host, masterfully combines Laura's journal with memoirs of Laura and her mother <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=29">Helen</a>, boating logs, portraits, and other relevant items to recreate this rich and compelling story. Artifacts and pictures from the Library of Congress, the Nantucket Historical Association, the New Bedford Whaling Museum, and others linked throughout the site contextualize and enrich not only Laura Jernegan's story, but the histories of whaling and childhood.</p>
+<p>A nautically-themed <a class="external" href="http://www.girlonawhaleship.org/index.html">homepage</a> directs visitors the site's 14 primary links Large images of a whale with a harpoon and lance, a young girl, and an open diary link visitors to <a class="external" href="http://www.girlonawhaleship.org/jernapp/whaling.do">The Story of Whaling</a>, <a class="external" href="http://www.girlonawhaleship.org/jernapp/laura.do">Laura's Story</a>, and <a class="external" href="http://www.girlonawhaleship.org/jernapp/journal.do">Explore Laura's Journal</a>, respectively.</p>
+<p>Of these, <a class="external" href="http://www.girlonawhaleship.org/jernapp/laura.do">Laura's Story</a> will be the most compelling for scholars of childhood and youth. This section invites visitors aboard the <em>Roman</em> as the Jernegans pursued whales from Edgartown, Massachusetts, to the whaling grounds of the Pacific Ocean. Or follow Mrs. Jernegan and her children on their journey home aboard the steamer <em>Ajax</em> and the newly completed transcontinental railroad.</p>
+<p>A particularly interesting section features a <a class="external" href="http://www.girlonawhaleship.org/jernapp/artifact_trans.do?shortName=laura_letter_granma&amp;page=">letter</a> written by Laura to her grandmother highlighting the Jernegan's first five months at sea. In it, Laura shared details of her eight-day visit to Ohitahoo (an island in Polynesia) during which the queen invited the Jernegans to the royal palace for a feast including ten fruits&mdash;all of which Laura <a class="external" href="http://www.girlonawhaleship.org/jernapp/artifact_trans.do?shortName=laura_letter_granma&amp;page=p002&amp;pop=">named</a>.</p>
+<p>Peppered throughout <a class="external" href="http://www.girlonawhaleship.org/jernapp/laura.do">Laura's Story</a> are delightful diary excerpts that will entice viewers to <a class="external" href="http://www.girlonawhaleship.org/jernapp/journal.do">Explore Laura's Journal</a>. There visitors can flip the journal's pages, zoom, use a "Magic Lens" to generate typed transcriptions of selected paragraphs, listen as the journal is read aloud, or link to a transcription of the full text. Laura's journal allows viewers to see growth in Laura's penmanship, writing style, and vocabulary. These sections are primarily narrative &mdash; neither <a class="external" href="http://www.girlonawhaleship.org/jernapp/laura.do">Laura's Story</a> nor <a class="external" href="http://www.girlonawhaleship.org/jernapp/journal.do">Explore Laura's Journal</a> offer much historical analysis of Laura's life, her journal, or childhood in general, and information found in <a class="external" href="http://www.girlonawhaleship.org/jernapp/whaling.do">The Story of Whaling</a> is exclusively about whales and the people who pursued them.</p>
+<p>Other icons link to "Interactivities" (interactive learning activities) to more fully understand Laura's story and whaling as a profession. Visitors may explore the pages of <a class="external" href="http://www.girlonawhaleship.org/jernapp/journal.do">Laura's Journal</a>, learn more <a class="external" href="http://www.girlonawhaleship.org/jernapp/whales.do">About Whales</a>, view a <a class="external" href="http://www.girlonawhaleship.org/jernapp/map.do">Map of Whaling</a> areas, contextualize Laura's life with a <a class="external" href="http://www.girlonawhaleship.org/jernapp/timeline.do">Timeline</a>, and <a class="external" href="http://www.girlonawhaleship.org/jernapp/ship.do">Explore the Ship</a>. This section relates primarily to whaling; only <a class="external" href="http://www.girlonawhaleship.org/jernapp/journal.do">Laura's Journal</a> includes information specifically related to children and youth.</p>
+<p>Find limited content relating to childhood and youth by clicking on <a class="external" href="http://www.girlonawhaleship.org/jernapp/people.do">People</a> and tracing the lives of <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=27">Laura</a> and her brother <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=28">Prescott</a> from birth to death. Scroll through the <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/category.do?ID=12">Everyday Life</a> subsection under <a class="external" href="http://www.girlonawhaleship.org/jernapp/artifacts.do">Artifacts</a> to find a school slate with slate pencil, a geography book, and four children's literature books.</p>
+<p><a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=17">More About</a> leads visitors to ten brief essays with bibliographies about the age of whaling, two of which, <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=17">19th Century Children's Literature</a> and <a class="external" href="http://www.girlonawhaleship.org/jernapp/main/narr.do?ID=18">Schooling in the 19th Century</a>, includes information relevant study of childhood and youth.</p>
+<p>Hidden beneath the bottom tier are barely visible links that provide useful information for instructors and researchers. <a class="external" href="http://www.girlonawhaleship.org/jernapp/teachers.do">For Teachers</a> links to three unit plans written by experienced educators with lessons that incorporate whaling into classrooms from first grade to high school. Of these, only <a class="external" href=" http://www.girlonawhaleship.org/jernapp/teachers/unit.do?ID=49">"Whaling in Four Lessons,"</a> which suggests students compare and contrast their lives with Laura's, deals directly with childhood.</p>
+<p>Unfortunately, there is no option to search directly for key terms like "children," "boy," or "girl." This significant oversight makes it difficult to find specific words or subjects. Despite this, <a class="external" href="http://www.girlonawhaleship.org/index.html"><em>Laura Jernegan: Girl on a Whale Ship</em></a> is useful for those seeking primary source material on the myriad of subjects with which Laura Jernegan's young life intersected and to students wishing to learn more about the whaling industry and the adventures of a young girl and her family aboard a whaling ship.</p></div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Mary A. McMurray</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">University of Kansas</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">Laura Jernegan: Girl on a Whale Ship brings to life pages of a young girl’s journal kept during her three-year journey aboard her father’s whaling ship, the Roman. </div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/519/fullsize"><img src="/files/display/519/square_thumbnail" class="thumb" alt="Laura Jernegan: Girl on a Whale Ship" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Thu, 07 Mar 2013 17:25:04 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/519/fullsize" type="image/jpeg" length="14980"/>
+    </item>
+    <item>
+      <title><![CDATA[Cinderella (1914) [Moving Image]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/483</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text"><em>Cinderella</em> (1914) [Moving Image]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Slotted to premier on Christmas week, Famous Players&rsquo;s <em>Cinderella</em> (1914) was marketed as a child-friendly fantasy for the whole family whose cutting-edge cinematography would bring to life the popular fairytale of rags-to-riches girlhood. However, <em>Cinderella</em> was foremost conceived as a vehicle for rising star Mary Pickford. Pickford had built a reputation playing ing&eacute;nues since her early days at Biograph; yet only in 1913 did she cease starring in shorts and graduate to feature-length productions. Set on proving her acting skills, Pickford portrayed Cinderella not as a fictional archetype, but as an everyday adolescent girl from the Progressive-era. The imaginary figure was further humanized by Pickford&rsquo;s trademark warmth and childlike mischief, characteristics clearly displayed in the scenes where she interacts with her evil stepfamily.</p>
+<p>The film was also aware of audiences&rsquo; dissatisfaction with trite trick cinematography. For sake of optical wonder, previous versions of <em>Cinderella</em> - such as George M&eacute;li&egrave;s&rsquo;s 1899 protean rendition - had reduced the tale of female transformation to its magical components, consequently evacuating the female protagonist of any psychological depth. In James Kirkwood&rsquo;s five-reeler, however, trick cinematography is used to make visible the adolescent girl&rsquo;s inner world: split-screens show Cinderella wistfully remembering an earlier encounter with the Prince (Pickford&rsquo;s real-life husband, Owen Moore); while double-exposures visualize her horrible nightmare, conjured up in the afterglow of the forbidden ball.</p>
+<p>Lastly, <em>Cinderella</em>&rsquo;s box-office success cemented Pickford as &ldquo;America&rsquo;s sweetheart.&rdquo;   However, since <em>Cinderella</em> would be adapted over 30 times throughout the teens, one might question why was Pickford&rsquo;s version the most applauded. Were adolescent girls watching these productions? And did Kirkwood&rsquo;s adaptation of Perrault&rsquo;s fairytale resonate with immigrant girls who could be familiar with European folktales?</p>
+<p>Researching movie-goers&rsquo; inquiries, letters, and stars&rsquo; biographies published in trade and fan press from the Teens (such as Moving Picture World and Photoplay) may offer some valuable clues. It may also be helpful to look at other extant versions of <em>Cinderella</em>, such as Thanhouser&rsquo;s (1911), starring another popular young star, Florence LaBadie.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">James Kirkwood, Director. <em>Cinderella</em>. Los Angeles: Famous Players Film Company, 1914. <a class="external" href="http://archive.org/details/Cinderella1914">http://archive.org/details/Cinderella1914</a> (accessed August 30, 2012).</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2012-08-30</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Diana Anselmo-Sequeira</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Moving Image Item Type Metadata</h2>
+        <div id="moving-image-item-type-metadata-duration" class="element">
+        <h3>Duration</h3>
+                                    <div class="element-text">51:16</div>
+                    </div><!-- end element -->
+            <div id="moving-image-item-type-metadata-compression" class="element">
+        <h3>Compression</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="moving-image-item-type-metadata-producer" class="element">
+        <h3>Producer</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="moving-image-item-type-metadata-director" class="element">
+        <h3>Director</h3>
+                                    <div class="element-text">James Kirkwood</div>
+                    </div><!-- end element -->
+            <div id="moving-image-item-type-metadata-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="moving-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file video-quicktime"><video width="320" height="240" controls >
+                    <source src="https://cyh.rrchnm.org/archive/files/1914cinderella_9e1d321264.mp4" type="video/mp4" />
+                    <source src="https://cyh.rrchnm.org/archive/files/1914cinderella_9e1d321264.ogv" type="video/ogg" />
+                 </video></div>]]></description>
+      <pubDate>Thu, 07 Mar 2013 17:19:31 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/521/fullsize" type="video/quicktime" length="121186631"/>
+    </item>
+    <item>
+      <title><![CDATA[Winsor McCay's Little Nemo in Slumberland [Comic Strip]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/477</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Winsor McCay&#039;s Little Nemo in Slumberland [Comic Strip]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>A young boy slumbers in his bed, ensconced in a non-descript, middle class bedroom. He is jarred awake to
+find his bed floating out his window and into space. So begins an episode of Winsor McCay's epic series,
+<em>Little Nemo in Slumberland</em>, which ran in American newspapers from 1905 until 1914. Featured on the
+cover of the <em>New York Herald</em>'s Sunday supplement (and syndicated nationwide), the comic strip presented
+the bedtime adventures of a boy called Nemo. Each week Nemo attempted to reach the enchanted kingdom
+of Slumberland, only to have the journey preempted when he awakened and found himself safely at home
+in his bed. The curtailed narrative induced readers to purchase the next installment, teaching its young
+audience the pleasures of both fantasy and delayed gratification.</p>
+
+<p>Images glorifying childhood as period of unfettered creativity dominated the visual landscape of early 20th-
+century American fiction, magazines, and comics. For McCay, Slumberland was a retreat from modernity;
+yet his spectacular landscapes were peppered with allusions to popular culture. References to circus posters
+and Coney Island thrill rides abound in his designs. McCay's use of the medium was self-reflexive and
+ambivalent: his work articulated the complex ways in which fantasy and mass culture were entangled at the
+turn-of-the-century.</p>
+
+<p>This striking image is a potential jumping off point for further discussion of the rapid rise of a mass popular
+culture in American cities in the early 20th century. How do the visual design and narrative work together?
+What other aspects of the period’s visual culture explored the same themes? Examples can take the form of
+children's literature, early film, amusement parks, poster art, advertising, or illustration. In what ways did
+popular art forms influence one another at the dawn of mass culture?</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Winsor McCay, Little Nemo in Slumberland, <em>New York Herald</em>, December 3, 1905. Annotated by Kerry Roeder.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/517/fullsize">McCayNemoMoon.jpg</a></div>]]></description>
+      <pubDate>Mon, 27 Sep 2010 13:58:59 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/517/fullsize" type="image/jpeg" length="1732945"/>
+    </item>
+    <item>
+      <title><![CDATA[Winsor McCay's Little Nemo in Slumberland]]></title>
+      <link>https://cyh.rrchnm.org/items/show/476</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Winsor McCay's <em>Little Nemo in Slumberland</em></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Case Study Item Type Metadata</h2>
+        <div id="case-study-item-type-metadata-case-study-image" class="element">
+        <h3>Case Study Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-text" class="element">
+        <h3>Case Study Text</h3>
+                                    <div class="element-text"><p>A young, tousled-haired boy about the age of seven is slumbering away in his bed, ensconced in a non-descript, middle class bedroom (fig. 1).  He is jarred awake by the revelation that his bed is levitating, and slowly floating out his window and into space. So begins an episode of Winsor McCay's epic comic strip adventure, <em>Little Nemo in Slumberland</em>, which appeared in newspapers across the country between 1905 and 1914. Featured on the cover of the <em>New York Herald</em>'s Sunday comic supplement (and syndicated nationwide), the comic presented the bedtime adventures of a small boy called Nemo.  In the serial's debut, and in the weeks to follow, Nemo repeatedly attempted to reach the enchanted kingdom of Slumberland, only to have the journey preempted when he awakened and found himself safely at home in his bed. It was an ideal subject for a weekly comic in that the curtailed narrative induced readers to purchase the next installment.  Such literature also taught its young readers an appreciation for the pleasures of both fantasy and delayed gratification.</p>  
+<p>A visit to an exotic world followed by a return to reality was a common trope in children's magazines and books, as evidenced by the widespread popularity of Lewis Carroll's <em>Alice in Wonderland</em>, L. Frank Baum's <em>Wizard of Oz</em>, and J.M. Barrie's <em.>Peter Pan</em>. The cultural preoccupation with fantastic subjects did not go unnoticed. The writer Brian Hooker wrote in the October 1908 edition of <em>Forum</em>, "The present day is exhibiting a curiously vivid interest in fairy tales," and later pondered, "perhaps our very materialism is responsible for this new hunger after fancy." By the first decade of the 20th century images celebrating wonder and fantasy appeared in everything from picture books and comic strips, to department stores and amusement parks.</p>
+<p><em>Little Nemo</em>'s bold visual style and epic story arc distinguished the comic from its competitors. Its ambitions included broadening the audience for comic strips by self-consciously referencing pictorial forms from an expansive range of high and low cultural sources. McCay's comic strips redefined the nascent medium and made an important contribution to the proliferation of fantastic imagery at the dawn of the 20th century. To best understand his cultural contributions it is useful to examine his aesthetic innovations, as well as the social and historical context in which his work found its audience.</p> 
+<h3>Visual Analysis</h3>
+<p>McCay's work was characterized by its vivid use of color, skillful draftsmanship, intricate detail, and imaginative architectural forms. In this episode dated December 3, 1905, we can see how McCay expanded the narrative possibilities of the comic strip through his embrace of full-page design. Here he creates visual interest and momentum by varying the size and shape of the panels, culminating in the central circular panel, while unifying the entire page through symmetry and repetition. His graceful line work and use of flat areas of color are reminiscent of art nouveau poster art.  It is also important to recognize that his fantastic imagery is rooted in the spectacular world of commerce and popular entertainment that ushered in the 20th century. For example, the emphasis on primary colors and the typographical flourishes found in the title panel are reminiscent of circus poster art. The comic's narrative, an imagined trip to the moon, was also the subject of an amusement park ride at Coney Island, a serialized novel published in <em>St. Nicholas</em>, and a 1902 film by Georges Méliès. McCay's comic strips produced a dream world shaped by the visual language of modern urban experience.</p>
+<p>As the students read the comic strip, ask them to think about how words and images are combined to create the narrative. Talk about the essential components of a comic strip: the header/title, the panels, the gutters (the space between the panels), and the captions and/or speech balloons. How do these components divide time and space? How do the elements combine to advance plotlines? What is more instrumental to the flow of this narrative, the words or the pictures? Do either contradict or work against one another? How do text and image compliment, or complicate, the story? How are the different visual elements combined to create a unified, full-page design? Why does McCay vary the size and shape of the panels? How does this affect the flow of time within the comic strip?  Emphasize scale, which will not be apparent from viewing the image online. Bring in a copy of the <em>New York Times</em> as a visual aid and explain that one Little Nemo comic strip took up the full page of a broadsheet newspaper (about 16 x 22 inches), as compared to newspaper comic strips today, which are compressed in size so as to fit as much content onto the page as possible. How does the size of the image affect the reading experience? The large scale of McCay's fantastical designs contributed to their transportive quality, as children could immerse themselves in scenes of faraway lands and magic kingdoms.</p> 
+
+
+<h3>Historical Context</h3>
+<p>Weekly funny pages, directed at both children and adults, first appeared in newspapers in the 1890s, when the publishing barons Joseph Pulitzer and William Randolph Hearst vigorously competed with each other for readers. They soon discovered that the colorful comic supplements boosted circulation. The initial audiences for comics were urban, working class immigrants and the content of the newspapers reflected their readership. R. F. Outcault's <em>The Yellow Kid</em> and Rudolph Dirks' <em>The Katzenjammer Kids</em> drew inspiration from the various ethnic communities who populated the tenements of the lower east side. Common elements of such comics include urban settings, crowded frames, and the use of anti-authoritarian, anarchic humor similar to that found in the slapstick comedy of vaudeville routines, with an emphasis on the child as a trickster figure.</p>
+<p>As newspapers became nationally syndicated the content of the comics became less urban and culturally specific so as to appeal to a wider audience. By 1903 comics transitioned from being an urban phenomenon to a national craze. <em>Little Nemo</em> attempted to bridge the gap between the serialized adventure stories found in high-brow illustrated magazines like St. Nicholas, and the low brow humor of the Sunday supplements.  This was undoubtedly a strategic move on the part of McCay's employer, James Gordon Bennett Jr., who wished to distinguish the <em>New York Herald</em> as a middle-class alternative to its more sensational counterparts like Pulitzer's <em>New York World</em> and Hearst's <em>New York Journal</em>.</p>
+	<p>Images glorifying childhood as period of unfettered creativity dominated the visual landscape of early 20th-century American fiction, magazines, and comics. Concurrent with the rapid expansion of mass culture, these dreamscapes directed viewers to revel in fantasy and delight in ungratified longing, thereby inciting the pleasures of consumer desire in its audience of young dreamers. This contributed to a shared visual culture that celebrated fantasy and the imagination. For McCay, Slumberland was a retreat from modernity; yet his spectacular landscapes were peppered with allusions to popular culture. References to circus posters, Coney Island thrill rides, and show window displays abound in his designs. McCay's use of the medium was highly self-reflexive and ambivalent: his work articulated the complex ways in which fantasy and mass culture were entangled at the turn-of-the-century.</p>  
+<h3>Teaching the Source</h3>
+	<p>This striking image is a potential jumping off point for further discussion of the rapid rise of a mass popular culture in American cities in the early 20th century. In my art history course, after dividing into groups to talk about how the visual design and narrative work together, I will ask students to research and write a short report on another example of 20th century visual culture that explores some of the same themes. Examples can take the form of children's literature, early film, amusement parks, poster art, advertising, or illustration. Students present short papers on any number of topics, including L. Frank Baum's <em>The Wonderful Wizard of Oz</em>, Georges Méliès' film <em>A Trip to the Moon</em>, the architecture of Coney Island's Luna Park and Dreamland, Barnum & Bailey circus posters, and the commercial illustrations of Maxfield Parrish.  Students found commonalities in themes, visual motifs, and subject matter, pointing to the many ways that popular art forms intersected and influenced one another at the dawn of mass culture.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Kerry Roeder</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">University of Delaware</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-primary-source-id" class="element">
+        <h3>Primary Source ID</h3>
+                                    <div class="element-text">477</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Mon, 20 Sep 2010 00:35:02 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[The Illustrated London News]]></title>
+      <link>https://cyh.rrchnm.org/items/show/475</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">The Illustrated London News</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.iln.org.uk/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">ILN Publishing Group</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">July 2010</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>The Picture Archive of <a class="external" href="http://www.iln.org.uk/">The Illustrated London News</a> (ILN) is most readily accessed through the website of the <a class="external" href="http://www.maryevans.com/">Mary Evans Picture Library</a>. In principle, the Archive still has its own website, but in practice it is likely to prove inaccessible. Since 2007, following a change of ownership of the ILN Publishing Group, the archive has been housed at Mary Evans. This transfer is unfortunate in some respects, since Mary Evans is a commercial rather than an educational organization and it charges fees to download images. The original site also had extensive background material on the history and printing processes of the ILN that does not appear in the new setting. Nonetheless, one can browse the watermarked images of the Mary Evans Picture Library for research purposes – and its ILN section now has more material than the original site, as new pictures are scanned into it. And of course one can always move from the ILN to scan the whole Mary Evans collection.</p> 
+<p>The story goes that Herbert Ingram, who founded the ILN in 1842, noticed as a newsagent in Nottingham that when newspapers included pictures, their sales increased. Most journals at this point were still grudging in their resort to illustrations, so when Ingram moved to London and founded a paper committed to lavish use of images, he was immediately successful.</p> 
+<p>Pictures of dramatic events such as the 1848 Revolution in France and the Crimean War (1853-6) helped its reputation for exciting journalism. By the 1860s, the ILN was selling 300,000 copies per week, far outstripping the circulation of conventional newspapers. To begin with Ingram printed only black-and-white wood engravings, but the ILN later made use of color, and, especially from the 1920s, photographs. Ingram also started a policy of hiring famous illustrators and top writers, including Robert Louis Stevenson, Wilkie Collins, and Arthur Conan Doyle. The archive has pictures from issues running from 1842 to 1971, including those from other journals in the "Great Eight" that came together in the 1920s, the best known apart from the ILN being <em>The Tatler</em>.</p>
+<p>The search facility allows users to opt for ILN images only. Each of the 10,000 or so in the archive is well referenced with a number, date, description and further details. Searching under <a class="external" href="http://www.maryevans.com/search.php">children</a> brings up an eclectic collection of 282 images. Some only incidentally concern this heading, for example when King George V appears because there is a mention in the text to his six children.</p> 
+<p>Others are on the whimsical side: "Caught!" (ref. 10216446) shows children discovered by their parents in the larder scoffing jam from a huge jar. The text informs us that "sentimental or humorous scenes such as these were a popular addition to the ILN, especially over the Christmas period."</p> 
+<p>The royal families of Europe feature prominently as well as novelties, such as "Children being treated with ultra-violet light" (ref . 10216701). However Ingram, a Liberal MP, had some sympathy with the poor. Hence there are little clusters of pictures depicting children during such events as the Irish potato famine of the 1840s, the United States Civil War, and Jewish migration to London during the 1900s. "Children searching for potatoes" during the Irish famine (ref. 10220183), for example, conveys the desperation of their situation effectively.</p> 
+<p>More cheerful images from everyday life include "Audience of Children at a London Music Hall, 1882" (ref. 102216500) and "Children at the Circus, 1948," (ref. 10219941). There are also pictures of school strikes, somehow always with a portly-looking policeman in attendance (e.g. from 1889, demanding "shorter hours" and "no cane," (ref. 10219381), a Montessori school (ref. 10215457) and London youth clubs during the 1880s (e.g. 10220713).</p> 
+<p>In sum, the archive has a variety of delights for the historian of childhood, and a well-organized website, though no great depth of coverage or supporting material.</p>   
+
+
+
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Colin Heywood</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">University of Nottingham (U.K.)</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">The archive has a variety of delights for the historian of childhood, and a well-organized website, though no great depth of coverage or supporting material.&lt;/</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/516/fullsize">ILN1.jpg</a></div>]]></description>
+      <pubDate>Mon, 06 Sep 2010 02:53:34 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/516/fullsize" type="image/jpeg" length="47814"/>
+    </item>
+    <item>
+      <title><![CDATA[Morning Sun]]></title>
+      <link>https://cyh.rrchnm.org/items/show/474</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Morning Sun</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.morningsun.org/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Long Bow Group</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">May 2010</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href="http://www.morningsun.org/">Morning Sun</a> is a companion website for a documentary film of the same name about the "Great Proletarian Cultural Revolution" in China (1964-1976). The film is only available through the Center for Asian American Media, either to rent or for purchase (it is cost prohibitive for individuals). The documentary film was created by the Long Bow Group, who also created <a class="external" href="http://www.tsquare.tv/">"The Gate of Heavenly Peace,"</a> a film and website about the 1989 events in Tiananmen Square.</p>
+<p>Unlike the companion site for "The Gate of Heavenly Peace," Morning Sun does not contain any segments from the film, which is a major drawback of this site. If the documentary film is unavailable (as it is to this reviewer), then the site should be able to stand alone, however this is not entirely the case. The site has a wealth of primary and secondary sources, as well as video and audio clips created by the Communist Party during the Cultural Revolution. The site does not express a narrative of the Cultural Revolution; rather it presents the resources created, and leaves analysis and interpretation up to the viewer.</p>
+<p>The site, which relies heavily on the use of Java, Shockwave Flash, and Quicktime, is divided into five major sections, each with its own topic. <a class="external" href="http://www.morningsun.org/living/index.html">Living Revolution</a> includes very brief clips from radio and television shows, readings, and even lessons taught to school children. The <a class="external" href="http://www.morningsun.org/living/englishlessons.html">English Lesson</a> is particularly interesting, giving the students an opportunity to study English and learn about racial inequality in the United States at the same time. Direct translations of what is said in the clips is available, but there is no context to help viewers understand the placement of the scene within the larger film, or its overall plot or purpose.</p>
+<p><a class="external" href="http://www.morningsun.org/smash/index.html">Smash the Old World</a> contains writings about the Red Guard and the destruction of the "Four Olds" ("Old ideas, old culture, old customs, old habits"), including "reviews" of older revolutionary films written by Jiang Qing (Mao's wife). These reviews condemn the revolutionary attitudes and attempt to steer the reader toward a more acceptable form of behavior and attitude.</p>
+<p><a class="external" href="http://www.morningsun.org/red/index.html">Reddest Red Sun</a> and <a class="external" href="http://www.morningsun.org/stages/index.html">Stages of History</a> are dedicated to the architects of the Cultural Revolution: Mao Zedong, Liu Shaoqi, Jiang Qing, and Lin Biao. Reddest Red Sun tackles the cult of Mao, although again, with little in the way of explanation or analysis. There is a video showing how Mao was able to "cure" deaf-mute children (those who had been abandoned by the Nationalist Party as incurable), using ordinary People's Liberation Army soldiers, Chairman Mao's words, and acupuncture. A note at the bottom of the page of this section indicates that the section is incomplete (there are no discernable dates on the site; however the documentary itself was made in 2003).</p> 
+<p>Stages of History shows how the Communist Party used place, drama and other media to create official histories of the new, revolutionary China. There is a virtual tour of <a class="external" href="http://www.morningsun.org/stages/tsquare/tsquare.html">Tiananmen Square</a> as well as photographic essays on Liu Shaoqi, Jiang Qing, and Lin Biao. Of great interest is the section on Mao's <a class="external" href="http://www.morningsun.org/living/redbook/lrb.html">Little Red Book</a>. This includes a pamphlet published by the Communist Party with questions such as "What to do when you hear reactionary statements" and "What to do when you encounter arduous and hard work," all of which can be answered by quotations from Chairman Mao.</p>
+<p>The site would be of greatest use to teachers as a supplement to a unit on the Cultural Revolution. The site gives the teacher access to amazing video, audio, and readings showing the lengths to which the Communist Party went in order to keep up revolutionary fervor during this time period. However, students will find the content of the site bewildering if they are not given either a narrative or an analytical guide.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Jessica Hodgson</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">South County Secondary School, Fairfax County, VA</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">The site has a wealth of primary and secondary sources, as well as video and audio clips created by the Communist Party during the Cultural Revolution. </div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-gif"><a class="download-file" href="/files/download/514/fullsize">Morning Sun.gif</a></div>]]></description>
+      <pubDate>Mon, 06 Sep 2010 02:18:46 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/514/fullsize" type="image/gif" length="25434"/>
+    </item>
+    <item>
+      <title><![CDATA[Incidents in the Life of a Slave Girl  (Slave Narrative)]]></title>
+      <link>https://cyh.rrchnm.org/items/show/473</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Incidents in the Life of a Slave Girl  (Slave Narrative)</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>The book-length narrative, <em>Incidents in the Life of a Slave Girl</em> (1861), chronicles the experiences of Harriet Jacobs who was born a slave in Edenton, North Carolina, in 1813. Harriet was unaware of her slave status until at age six, her mother died and she was sent to live in the house of her mistress. Margaret Horniblow taught Harriet how to read and write in the years before she died and bequeathed the 11-year-old Harriet to her 3-year-old niece, Mary Matilda Norcom. Residing in the Norcom household throughout her adolescence, Harriet endured unremitting sexual harassment from Mary's father, Dr. James Norcom, and became the object of abuse by his jealous wife. Harriet used pseudonyms throughout her narrative as in chapters 5 and 6 in which she described the abuse commonly endured by adolescent girls in the slave south.</p> 
+  
+<p>In addition to recounting her own experiences as a girl, Jacobs also describes those of numerous other children—black and white, free and unfree, male and female, children and adolescents—including her own. In an attempt to resist her master, Harriet had two children with Samuel Tredwell Sawyer, a young white lawyer. </p> 
+
+<p>Why might Jacobs have emphasized her identity as a "slave girl" and not as a "child" or "woman?" In what ways did Jacobs' description of her lived reality challenge dominant ideals of girlhood in antebellum culture? What purposes might girlhood have served in the formation of broader notions about race, nation, gender, sexuality, and American identity? How did Jacobs' description of herself compare with the depiction of black girls as "pickaninnies" like the devilish Topsy in <em>Uncle Tom's Cabin</em> (1852)? By staking a claim to her innocence did Jacobs appropriate feminine purity from white girls like Stowe's idealized Little Eva, a central figure in the anti-slavery novel that evoked readers' sympathy far and wide? In what ways might Jacob's figure of the slave girl have been useful to the cause of Abolition ardently championed by her editor, Lydia Maria Child, a women's right's supporter, and the author of  <em>The Girl's Own Book</em> (1833)? In what ways might these varied constructions of girlhood have reflected and influenced broader historical changes?</p>
+</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Jacobs, Harriet Ann. <em>Incidents in the Life of a Slave Girl Written by Herself.</em>A full-text version is available at Project Gutenberg, <a class="external" href="http://www.gutenberg.org/etext/11030">http://www.gutenberg.org/etext/11030</a> (accessed August 12, 2010). Annotated by Miriam Forman-Brunell.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3>The Trials Of Girlhood (ch 5)</h3>
+
+<p>During the first years of my service in Dr. Flint's family, I was accustomed to share some indulgences with the children of my mistress. Though this seemed to me no more than right, I was grateful for it, and tried to merit the kindness by the faithful discharge of my duties. But I now entered on my fifteenth year--a sad epoch in the life of a slave girl. My master began to whisper foul words in my ear. Young as I was, I could not remain ignorant of their import. I tried to treat them with indifference or contempt. The master's age, my extreme youth, and the fear that his conduct would be reported to my grandmother, made him bear this treatment for many months. He was a crafty man, and resorted to many means to accomplish his purposes. Sometimes he had stormy, terrific ways, that made his victims tremble; sometimes he assumed a gentleness that he thought must surely subdue. Of the two, I preferred his stormy moods, although they left me trembling. He tried his utmost to corrupt the pure principles my grandmother had instilled. He peopled my young mind with unclean images, such as only a vile monster could think of. I turned from him with disgust and hatred. But he was my master. I was compelled to live under the same roof with him--where I saw a man forty years my senior daily violating the
+most sacred commandments of nature. He told me I was his property; that I must be subject to his will in all things. My soul revolted against the mean tyranny. But where could I turn for protection? No matter whether the slave girl be as black as ebony or as fair as her mistress. In either case, there is no shadow of law to protect her from insult, from violence, or even from death; all these are inflicted by fiends who bear the shape of men. The mistress, who ought to protect the helpless victim, has no other feelings towards her but those of jealousy and rage. The degradation, the wrongs, the vices, that grow out of slavery, are more than I can describe. They are greater than you would willingly believe. Surely, if you credited one half the truths that are told you concerning the helpless millions suffering in this cruel bondage, you at the north would not help to tighten the yoke. You surely would refuse to do for the master, on your own soil, the mean and cruel work which trained bloodhounds and the lowest class of whites do for him at the south.</p>
+
+<p>Every where the years bring to all enough of sin and sorrow; but in slavery the very dawn of life is darkened by these shadows. Even the little child, who is accustomed to wait on her mistress and her children, will learn, before she is twelve years old, why it is that her mistress hates such and such a one among the slaves. Perhaps the child's own mother is among those hated ones. She listens to violent outbreaks of jealous passion, and cannot help understanding what is the cause. She will become prematurely knowing in evil things. Soon she will learn to tremble when she hears her master's footfall. She will be compelled to realize that she is no longer a child. If God has bestowed beauty upon her, it will prove her greatest curse. That which commands admiration in the white woman only hastens the degradation of the female slave. I know that some are too much brutalized by slavery to feel the humiliation of their position; but many slaves feel it most acutely, and shrink from the memory of it. I cannot tell how much I suffered in the presence of these wrongs, nor how I am still pained by the retrospect. My master met me at every turn, reminding me that I belonged to him, and swearing by heaven and earth that he would compel me to submit to him. If I went out for a breath of fresh air, after a day of unwearied toil, his footsteps dogged me. If I knelt by my mother's grave, his dark
+shadow fell on me even there. The light heart which nature had given me became heavy with sad forebodings. The other slaves in my master's house noticed the change. Many of them pitied me; but none dared to ask the cause. They had no need to inquire. They knew too well the guilty practices under that roof; and they were aware that to speak of them was an offence that never went unpunished.</p>
+
+<p>I longed for some one to confide in. I would have given the world to have laid my head on my grandmother's faithful bosom, and told her all my troubles. But Dr. Flint swore he would kill me, if I was not as silent as the grave. Then, although my grandmother was all in all to me, I feared her as well as loved her. I had been accustomed to look up to her with a respect bordering upon awe. I was very young, and felt shamefaced about telling her such impure things, especially as I knew her to be very strict on such subjects. Moreover, she was a woman of a high spirit. She was
+usually very quiet in her demeanor; but if her indignation was once roused, it was not very easily quelled. I had been told that she once chased a white gentleman with a loaded pistol, because he insulted one of her daughters. I dreaded the consequences of a violent outbreak; and both pride and fear kept me silent. But though I did not confide in my grandmother, and even evaded her vigilant watchfulness and inquiry, her presence in the neighborhood was some protection to me. Though she had been a slave, Dr. Flint was afraid of her. He dreaded her scorching rebukes. Moreover, she was known and patronized by many people; and he did not wish to have his villany made public. It was lucky for me that I did not live on a distant plantation, but in a town not so large that the inhabitants were ignorant of each other's affairs. Bad as are the laws and customs in a slaveholding community, the doctor, as a professional man, deemed it prudent to keep up some outward show of decency.</p>
+
+<p>O, what days and nights of fear and sorrow that man caused me! Reader, it is not to awaken sympathy for myself that I am telling you truthfully what I  suffered in slavery. I do it to kindle a flame of compassion in your hearts for my sisters who are still in bondage, suffering as I once suffered.</p>
+
+<p>I once saw two beautiful children playing together. One was a fair white child; the other was her slave, and also her sister. When I saw them embracing each other, and heard their joyous laughter, I turned sadly away from the lovely sight. I foresaw the inevitable blight that would fall on the little slave's heart. I knew how soon her laughter would be changed to sighs. The fair child grew up to be a still fairer woman. From childhood to womanhood her pathway was blooming with flowers, and overarched by a sunny sky. Scarcely one day of her life had been clouded when the sun rose on her happy bridal morning.</p>
+
+<p>How had those years dealt with her slave sister, the little playmate of her
+childhood? She, also, was very beautiful; but the flowers and sunshine of love were not for her. She drank the cup of sin, and shame, and misery, whereof her persecuted race are compelled to drink.</p>
+
+<p>In view of these things, why are ye silent, ye free men and women of the
+north? Why do your tongues falter in maintenance of the right? Would that I had more ability! But my heart is so full, and my pen is so weak! There are noble men and women who plead for us, striving to help those who cannot help themselves. God bless them! God give them strength and courage to go on! God bless those, every where, who are laboring to advance the cause of humanity!</p>
+
+
+
+<h3>The Jealous Mistress (ch 6)</h3>
+
+
+<p>I would ten thousand times rather that my children should be the
+half-starved paupers of Ireland than to be the most pampered among the slaves of America. I would rather drudge out my life on a cotton plantation, till the grave opened to give me rest, than to live with an unprincipled master and a jealous mistress. The felon's home in a penitentiary is preferable. He may repent, and turn from the error of his ways, and so find peace; but it is not so with a favorite slave. She is not allowed to have any pride of character. It is deemed a crime in her to wish
+to be virtuous.</p>
+
+<p>Mrs. Flint possessed the key to her husband's character before I was born. She might have used this knowledge to counsel and to screen the young and
+the innocent among her slaves; but for them she had no sympathy. They were the objects of her constant suspicion and malevolence. She watched her husband with unceasing vigilance; but he was well practised in means to evade it. What he could not find opportunity to say in words he manifested in signs. He invented more than were ever thought of in a deaf and dumb asylum. I let them pass, as if I did not understand what he meant; and many were the curses and threats bestowed on me for my stupidity. One day he caught me teaching myself to write. He frowned, as if he was not well pleased; but I suppose he came to the conclusion that such an
+accomplishment might help to advance his favorite scheme. Before long, notes were often slipped into my hand. I would return them, saying, "I can't read them, sir." "Can't you?" he replied; "then I must read them to you." He always finished the reading by asking, "Do you understand?" Sometimes he would complain of the heat of the tea room, and order his supper to be placed on a small table in the piazza. He would seat himself there with a well-satisfied smile, and tell me to stand by and brush away the flies. He would eat very slowly, pausing between the mouthfuls. These intervals were employed in describing the happiness I was so foolishly
+throwing away, and in threatening me with the penalty that finally awaited my stubborn disobedience. He boasted much of the forbearance he had exercised towards me, and reminded me that there was a limit to his patience. When I succeeded in avoiding opportunities for him to talk to me at home, I was ordered to come to his office, to do some errand. When there, I was obliged to stand and listen to such language as he saw fit to address to me. Sometimes I so openly expressed my contempt for him that he would become violently enraged, and I wondered why he did not strike me.</p>
+
+<p>Circumstanced as he was, he probably thought it was better policy to be forebearing. But the state of things grew worse and worse daily. In desperation I told him that I must and would apply to my grandmother for protection. He threatened me with death, and worse than death, if I made any complaint to her. Strange to say, I did not despair. I was naturally of a buoyant disposition, and always I had a hope of somehow getting out of his clutches. Like many a poor, simple slave before me, I trusted that some threads of joy would yet be woven into my dark destiny.</p>
+
+<p>I had entered my sixteenth year, and every day it became more apparent that
+my presence was intolerable to Mrs. Flint. Angry words frequently passed between her and her husband. He had never punished me himself, and he would not allow any body else to punish me. In that respect, she was never satisfied; but, in her angry moods, no terms were too vile for her to
+bestow upon me. Yet I, whom she detested so bitterly, had far more pity for
+her than he had, whose duty it was to make her life happy. I never wronged
+her, or wished to wrong her, and one word of kindness from her would have
+brought me to her feet.</p>
+
+<p>After repeated quarrels between the doctor and his wife, he announced his
+intention to take his youngest daughter, then four years old, to sleep in
+his apartment. It was necessary that a servant should sleep in the same
+room, to be on hand if the child stirred. I was selected for that office,
+and informed for what purpose that arrangement had been made. By managing
+to keep within sight of people, as much as possible, during the day time, I
+had hitherto succeeded in eluding my master, though a razor was often held
+to my throat to force me to change this line of policy. At night I slept by
+the side of my great aunt, where I felt safe. He was too prudent to come
+into her room. She was an old woman, and had been in the family many years.
+Moreover, as a married man, and a professional man, he deemed it necessary
+to save appearances in some degree. But he resolved to remove the obstacle
+in the way of his scheme; and he thought he had planned it so that he
+should evade suspicion. He was well aware how much I prized my refuge by
+the side of my old aunt, and he determined to dispossess me of it. The
+first night the doctor had the little child in his room alone. The next
+morning, I was ordered to take my station as nurse the following night. A
+kind Providence interposed in my favor. During the day Mrs. Flint heard of
+this new arrangement, and a storm followed. I rejoiced to hear it rage.</p>
+
+<p>After a while my mistress sent for me to come to her room. Her first
+question was, "Did you know you were to sleep in the doctor's room?"<br />
+
+"Yes, ma'am."<br />
+
+"Who told you?"<br />
+
+"My master."<br />
+
+"Will you answer truly all the questions I ask?"<br />
+
+"Yes, ma'am."<br />
+
+"Tell me, then, as you hope to be forgiven, are you innocent of what I have
+accused you?"<br />
+
+"I am."<br />
+
+She handed me a Bible, and said, "Lay your hand on your heart, kiss this
+holy book, and swear before God that you tell me the truth."</p>
+
+<p>I took the oath she required, and I did it with a clear conscience.</p>
+
+<p>"You have taken God's holy word to testify your innocence," said she. "If
+you have deceived me, beware! Now take this stool, sit down, look me
+directly in the face, and tell me all that has passed between your master
+and you."</p>
+
+<p>I did as she ordered. As I went on with my account her color changed
+frequently, she wept, and sometimes groaned. She spoke in tones so sad,
+that I was touched by her grief. The tears came to my eyes; but I was soon
+convinced that her emotions arose from anger and wounded pride. She felt
+that her marriage vows were desecrated, her dignity insulted; but she had
+no compassion for the poor victim of her husband's perfidy. She pitied
+herself as a martyr; but she was incapable of feeling for the condition of
+shame and misery in which her unfortunate, helpless slave was placed. Yet
+perhaps she had some touch of feeling for me; for when the conference was
+ended, she spoke kindly, and promised to protect me. I should have been
+much comforted by this assurance if I could have had confidence in it; but
+my experiences in slavery had filled me with distrust. She was not a very
+refined woman, and had not much control over her passions. I was an object
+of her jealousy, and, consequently, of her hatred; and I knew I could not
+expect kindness or confidence from her under the circumstances in which I
+was placed. I could not blame her. Slaveholders' wives feel as other women
+would under similar circumstances. The fire of her temper kindled from
+small-sparks, and now the flame became so intense that the doctor was
+obliged to give up his intended arrangement.</p>
+
+<p>I knew I had ignited the torch, and I expected to suffer for it afterwards;
+but I felt too thankful to my mistress for the timely aid she rendered me
+to care much about that. She now took me to sleep in a room adjoining her
+own. There I was an object of her especial care, though not to her especial
+comfort, for she spent many a sleepless night to watch over me. Sometimes I
+woke up, and found her bending over me. At other times she whispered in my
+ear, as though it was her husband who was speaking to me, and listened to
+hear what I would answer. If she startled me, on such occasions, she would
+glide stealthily away; and the next morning she would tell me I had been
+talking in my sleep, and ask who I was talking to. At last, I began to be
+fearful for my life. It had been often threatened; and you can imagine,
+better than I can describe, what an unpleasant sensation it must produce to
+wake up in the dead of night and find a jealous woman bending over you.
+Terrible as this experience was, I had fears that it would give place to
+one more terrible.</p>
+
+<p>My mistress grew weary of her vigils; they did not prove satisfactory. She
+changed her tactics. She now tried the trick of accusing my master of
+crime, in my presence, and gave my name as the author of the accusation. To
+my utter astonishment, he replied, "I don't believe it; but if she did
+acknowledge it, you tortured her into exposing me." Tortured into exposing
+him! Truly, Satan had no difficulty in distinguishing the color of his
+soul! I understood his object in making this false representation. It was
+to show me that I gained nothing by seeking the protection of my mistress;
+that the power was still all in his own hands. I pitied Mrs. Flint. She was
+a second wife, many years the junior of her husband; and the hoary-headed
+miscreant was enough to try the patience of a wiser and better woman. She
+was completely foiled, and knew not how to proceed. She would gladly have
+had me flogged for my supposed false oath; but, as I have already stated,
+the doctor never allowed any one to whip me. The old sinner was politic.
+The application of the lash might have led to remarks that would have
+exposed him in the eyes of his children and grandchildren. How often did I
+rejoice that I lived in a town where all the inhabitants knew each other!
+If I had been on a remote plantation, or lost among the multitude of a
+crowded city, I should not be a living woman at this day.</p>
+
+<p>The secrets of slavery are concealed like those of the Inquisition. My
+master was, to my knowledge, the father of eleven slaves. But did the
+mothers dare to tell who was the father of their children? Did the other
+slaves dare to allude to it, except in whispers among themselves? No,
+indeed! They knew too well the terrible consequences.</p>
+
+<p>My grandmother could not avoid seeing things which excited her suspicions.
+She was uneasy about me, and tried various ways to buy me; but the
+never-changing answer was always repeated: "Linda does not belong to _me_.
+She is my daughter's property, and I have no legal right to sell her." The
+conscientious man! He was too scrupulous to _sell_ me; but he had no
+scruples whatever about committing a much greater wrong against the
+helpless young girl placed under his guardianship, as his daughter's
+property. Sometimes my persecutor would ask me whether I would like to be
+sold. I told him I would rather be sold to any body than to lead such a
+life as I did. On such occasions he would assume the air of a very injured
+individual, and reproach me for my ingratitude. "Did I not take you into
+the house, and make you the companion of my own children?" he would say.
+"Have _I_ ever treated you like a negro? I have never allowed you to be
+punished, not even to please your mistress. And this is the recompense I
+get, you ungrateful girl!" I answered that he had reasons of his own for
+screening me from punishment, and that the course he pursued made my
+mistress hate me and persecute me. If I wept, he would say, "Poor child!
+Don't cry! don't cry! I will make peace for you with your mistress. Only
+let me arrange matters in my own way. Poor, foolish girl! you don't know
+what is for your own good. I would cherish you. I would make a lady of you.
+Now go, and think of all I have promised you."</p>
+
+<p>I did think of it.</p>
+
+<p>Reader, I draw no imaginary pictures of southern homes. I am telling you
+the plain truth. Yet when victims make their escape from the wild beast of
+Slavery, northerners consent to act the part of bloodhounds, and hunt the
+poor fugitive back into his den, "full of dead men's bones, and all
+uncleanness." Nay, more, they are not only willing, but proud, to give
+their daughters in marriage to slaveholders. The poor girls have romantic
+notions of a sunny clime, and of the flowering vines that all the year
+round shade a happy home. To what disappointments are they destined! The
+young wife soon learns that the husband in whose hands she has placed her
+happiness pays no regard to his marriage vows. Children of every shade of
+complexion play with her own fair babies, and too well she knows that they
+are born unto him of his own household. Jealousy and hatred enter the
+flowery home, and it is ravaged of its loveliness.</p>
+
+<p>Southern women often marry a man knowing that he is the father of many
+little slaves. They do not trouble themselves about it. They regard such
+children as property, as marketable as the pigs on the plantation; and it
+is seldom that they do not make them aware of this by passing them into the
+slave-trader's hands as soon as possible, and thus getting them out of
+their sight. I am glad to say there are some honorable exceptions.</p>
+
+<p>I have myself known two southern wives who exhorted their husbands to free
+those slaves towards whom they stood in a "parental relation;" and their
+request was granted. These husbands blushed before the superior nobleness
+of their wives' natures. Though they had only counselled them to do that
+which it was their duty to do, it commanded their respect, and rendered
+their conduct more exemplary. Concealment was at an end, and confidence
+took the place of distrust.</p>
+
+<p>Though this bad institution deadens the moral sense, even in white women,
+to a fearful extent, it is not altogether extinct. I have heard southern
+ladies say of Mr. Such a one, "He not only thinks it no disgrace to be the
+father of those little niggers, but he is not ashamed to call himself their
+master. I declare, such things ought not to be tolerated in any decent
+society!"</p>
+</div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Sun, 05 Sep 2010 20:52:47 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA["Girls' Education is the Basis of Civilization and Moral Refinement" 1907 [Magazine Article]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/467</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">&quot;Girls&#039; Education is the Basis of Civilization and Moral Refinement&quot; 1907 [Magazine Article]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>At the turn of the 20th century, Tehran published magazines intended to reshape social practices, to "civilize" and "modernize" the nation. Many magazines addressed the education of girls, contending that uneducated mothers resulted in uneducated children and hence a nation that could not advance.</p>
+	<p>These calls for reform of girls' education came at a time when many countries in the Middle East began to demand independence from colonial powers. They debated the merits of "modernity" (which some understood as "western") and "tradition" (understood as "eastern"). For many nationalists and feminists, "modernity" meant greater education rights for women with the goal of strengthening the nation and its quest for independence from colonization and/or western imperialism.</p> 
+	<p>As part of the nationalist efforts, an increasing number of girls began to be offered access to education. The curriculum for girls usually centered on learning home-making and parenting skills so that the girls could grow up to properly raise the next generation of citizens.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">"Girls' Education is the Basis of Civilization and Moral Refinement," <em>True Dawn</em> (February 1907), in <em>Sources in the History of the Modern Middle East</em> by Akram Fouad Khater (Boston: Houghton Mifflin Company, 2004), 89–90. Annotated by Heidi Morrison.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>The best path to civilization is the education, training of girls. The first necessity of moral refinement for girls is to be educated, trained, and cultured. Every nation that wants to become civilized has to begin educating and training girls from an early age. Each nation, according to their own religious laws and practices, should provide it [education] for them with any means possible.</p>
+<p>Indeed, these girls will become mothers themselves, and their children will socialize with one another and their habits and disposition will spread among each other. But if they have all been educated in a good manner and with moral refinement, then there can be established in that nation a higher civilization. In this manner, the nation will develop and complete its march of progress by becoming civilized.</p>
+<p>On the other hand, if the girls [children] are trained and raised by an uneducated mother, then the bad moods, habits, and disposition will have a bad affect on the children. Along with the growth and mental maturity, an indecent manner will be formed and become a habit; and it will also spread among the children. Therefore, barbarism will develop among the people and they will never become a civilized nation. . .</p>
+</div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                                    <div class="element-text">459, 460, 461, 462, 463, 464, 465, 466, 468, 469, 470, 471</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Tue, 13 Jul 2010 15:44:15 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Education in the Middle East]]></title>
+      <link>https://cyh.rrchnm.org/items/show/459</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Education in the Middle East</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text">This teaching module provides a wide variety of sources to explore the history of schooling in the Middle East, a topic that is largely misunderstood in the west. </div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Heidi Morrison</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Teaching Module Item Type Metadata</h2>
+        <div id="teaching-module-item-type-metadata-bibliography" class="element">
+        <h3>Bibliography</h3>
+                                    <div class="element-text"><ol class="bibliography">
+<li>Doumato, Eleanor Abdella and Gregory Starrett, ed. <em>Teaching Islam: Textbooks and Religion in the Middle East</em>. Colorado: Lynne Rienner Publishers, 2007.<br />
+
+<span>The contributions to this edited volume explore the political and social priorities behind religious education in nine Middle Eastern countries. The authors find vast differences in how Islam is presented in textbooks and a general lack of incitement to violence in the name of religion, or for any other reason.</span></li>  
+
+
+<li>Hefner, Robert W. and Muhammad Qasim Zaman, ed. <em>Schooling Islam: The Culture and Politics of Modern Muslim Education</em>. Princeton: Princeton University Press, 2007.<br />
+
+<span>This edited volume looks at Islamic education in countries as different as Morocco, Egypt, Pakistan, India, Indonesia, Iran, and Saudi Arabia. The contributors demonstrate that Islamic education is neither timelessly traditional nor medieval, but rather complex and evolving.</span></li> 
+
+
+<li>Nadwi, Mohammad Akram. <em>Al-Muhaddithat: The Women Scholars in Islam</em>. Oxford: Interface Publication, 2007.<br />   
+
+<span>This book is an adaption of a larger 40-volume biographical dictionary of female Muslim scholars in the pre-modern period. This book can be used to understand the traditional system of transmission of knowledge and to counterbalance charges of misogyny against Islam.</span></li>  
+</ol>
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-document-based-question" class="element">
+        <h3>Document Based Question</h3>
+                                    <div class="element-text"><p>by Heidi Morrison<br />
+<em>(Suggested writing time: 50 minutes)</em></p>
+
+<p>Using the images, texts, and audio recording in the documents provided, write a well-organized essay of at least five paragraphs in response to the following prompt:</p>
+<ul>
+<li>Imagine you are at a dinner party and the topic of conversation turns to international politics. One person at the table makes the statement, "Since ancient times, children in the Middle East have been taught violence against infidels."  Using at least six primary sources related to the history of schooling in the Middle East, write an essay that responds to this theoretical statement.</li> 
+
+</ul>
+<p>Your essay should:</p>
+<ul>
+<li>have a clear thesis,</li>
+<li>use at least six of the documents to support your thesis,</li>
+<li>show analysis by grouping the documents into at least two groups,</li>
+<li>analyze the point of view of the documents, and</li>
+<li>recognize the limitation of the documents before you by suggesting an additional type of document or source to make your discussion more complete or valid.</li>
+</ul>
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-credits" class="element">
+        <h3>Credits</h3>
+                                    <div class="element-text"><p>Grateful acknowledgment is made to the following institutions for primary sources:</p>
+<ul>
+<li><a class="external" href="http://www.abc.net.au/rn/">ABC National Radio</a>,</li>
+<li><a class="external" href="http://www.bnf.fr/fr/acc/x.accueil.html">Bibliothèque Nationale, Paris</a>,</li>
+<li><a class="external" href="http://www.fethullahgulen.org/">Fethullah Gulen Website</a>,</li>
+<li><a class="external" href="http://www.hmhco.com/">Houghton Mifflin Company</a>,</li>
+<li><a class="external" href="http://www.loc.gov/index.html">Library of Congress</a>,</li>
+<li><a class="external" href="http://www.nytimes.com/">The New York Times</a>,</li>
+<li><a class="external" href="http://press.princeton.edu/">Princeton University Press</a>,</li>
+<li><a class="external" href="http://www.ucpress.edu/">University of California Press</a>, and</li>
+<li><a class="external" href="http://www.library.yale.edu/neareast/exhibitions/exhibit20071.html">Yale University Library: Near Eastern Collection</a>.</li>
+</ul>
+
+<h3>About the Author</h3>
+<p>Heidi Morrison is an assistant professor of modern Middle East History at the University of Wisconsin- La Crosse. She is currently writing a book entitled <em>State of Children: Egyptian Childhoods in an era of Nationalism, Modernity, and Emotion</em>. Heidi is also the editor of the forthcoming <em>The History of Global Childhood Reader</em> (Routledge Press, 2011). She is working on a project on the history of boys and mental health in Palestine.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">University of Wisconsin-La Crosse</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-introduction" class="element">
+        <h3>Introduction</h3>
+                                    <div class="element-text"><p>In recent years, westerners have been fascinated by the education of children in the Middle East, raising concern over whether or not schools teach extreme radicalism or anti-Americanism. The Arabic word <em>madrasa</em>, which literally means "school," has come to imply in the minds of some pundits and politicians a pro-terrorism center with political or religious affiliation. The situation was very different in the pre-modern era, when schools in the Middle East were world renowned: students from as far away as Spain traveled to regions such as Iraq to study with noted teachers.</p> 
+<p>In the early days of the Islamic community in the Middle East (i.e., from the death of the prophet Muhammad in 632CE through the four Islamic caliphates and the Umayyad Dynasty in 750CE), the leading Muslims of the Arabian peninsula employed tutors or owned slaves to teach their sons the basics of religion, to read and write, to use the bow and arrow, to swim, and to be courageous, just, hospitable, and generous. The elite expected their daughters to attain skills relating to the household as well as the basics of religion, and sometimes to learn music, dance, and poetry.</p> 
+<p>The majority of children in rural areas learned how to work the land from their families. The only formal education they received would be from the <em>kuttab</em>, or mosque school, listening to Qur'an readers in mosques, or from informal exchange of information in the family.</p> 
+<p>In urban areas, boys typically began apprenticeships at around eight years of age to master a craft or skill. In terms of higher education, if a child had memorized the Qur'an (by about 12 years of age) he would often then travel around the Islamic world in quest of a teacher who had an understanding of Islamic jurisprudence (<em>fiqh</em>). Students would gather around these teachers in mosques and master the teacher's approach to law without much questioning.</p>  
+<p>With the consolidation and cultural development of the Islamic empire during the Abbasid Dynasty (750-1258CE), a systematic method of schooling was established in the Middle East for both elementary and higher education. This remained the main form of education until the 20th century.</p> 
+<p>A <em>maktab</em>, or "elementary school," was attached to a mosque and the curriculum centered on the Qur'an, which was used to teach reading, writing, and grammar through recitation and memorization. Physical education was emphasized in childhood education because Islam gives importance to the training of the body as well as the mind. (Children of wealthy and prominent families continued to receive individual instruction in their houses.)</p> 
+<p>After attending a <em>maktab</em>, a student could attend a <em>madrasa</em>, or "higher education institution," attached to a mosque. Individual donors, rulers, or high officials funded these through pious endowments. The endowment funds maintained the building, paid teacher salaries, and sometimes provided stipends for students.</p> 
+<p>The <em>madrasa</em> founder generally set the curriculum. With a focus on <em>fiqh</em>, schools sometimes also taught secular subjects, such as history, logic, ethics, medicine, and astronomy. Memorization was a critical aspect of a student's training in law. The material memorized formed the base used by jurors to practice <em>ijtihad</em>, or the process of making a legal decision by independent interpretation of legal sources.</p> 
+<p>The most famous <em>madrasas</em> in the Middle East were Cairo's Al-Azhar, founded in the 10th century, and Baghdad's Al-Nizamiyya, founded in the 11th century. (Medical schools were usually attached to hospitals.)</p>  
+<p>The period of the Abbasid Dynasty is often referred to as the Golden Age of Islam, due in large part to the thriving centers of learning. Scholars during this time translated, preserved, and elaborated Greek philosophy (later used in European universities). They also made advances in algebra, medicine, trigonometry, mechanics, optics, visual arts, geography, and literature.</p> 
+	<p>During the early-modern era (1500-1800), education continued to flourish under the Ottoman and Safavid Empires. One study suggests that up to half of the male population was literate in Cairo at the end of the 18th century, implying that <em>maktabs</em> were numerous.</p> 
+<p>The <em>madrasa</em> continued to be constructed as part of the mosque complex, reflecting the importance of education to religion and the sense that education took place within the religious framework. Scholarship under the Ottomans and Safavids centered on the notion that the most advanced science came from Islam and that scholars before them knew best. This was in contrast to Europe during the 19th century, where higher education in new types of institutions of learning began to free itself from church control to embody the Enlightenment value of questioning religion (i.e. putting the laws of science over the laws of God), although reform of the older universities in Europe proceeded slowly.</p> 
+<p>In the face of Europe's growing power from advanced technology and commercial wealth, Ottoman rulers entered the modern era (1800-present) with a series of educational reforms. The reforms aimed to modernize the empire by adapting aspects of western life. (In contrast, Iran, under the Qajars, did not undergo the same level of educational reforms.)</p> 
+<p>The Ottomans sent envoys to Europe to translate their scholarship and learn new scientific discoveries. They secularized society such that educational opportunity became equal for all subjects in state schools. In cities such as Istanbul, Cairo, and Tunis, reforming governments established specialized schools to train officials, officers, doctors, and engineers. Some contesting voices in the Ottoman Empire argued, however, that the problems of the Empire were not from a lack of western ways, but from a need to return to the ways of the early age of Islam and the Golden Age.</p> 
+<p>Nonetheless, by the end of WWI, almost all of the Middle East had fallen under European colonial rule. The <em>maktab</em> and <em>madrasa</em> system of education began to wane in the place of French and British schools. These schools had limited enrollment due in large part to their scarcity in number; access was restricted to a select local elite trained to enhance colonial administration. Study in the <em>maktab</em> and <em>madrasa</em> no longer led to high office in government service or the judicial system.</p> 
+<p>Although the colonizing authorities introduced compulsory schooling measures of one kind or another, they often failed to include sufficient funding in colonial budgets, so the percentage of the total child population in schools remained dismally low. Children in rural areas who attended school often studied for a half day and worked the other half. In Algeria, for example, by 1939 the number of secondary school graduates was in the hundreds for the entire country.</p> 
+<p>Various types of private Islamic schools existed as alternatives to government secular schools, but the colonial governments sought to exercise close control through subsidies, curriculum expansion, and inspection systems. Religious schools often served—as they did in European efforts to extend education to the middle and lower classes—as a base from which to build capacity. A small number of European and missionary schools, as well as some indigenously operated Christian schools existed alongside the government and Islamic schools. In cities, these Christian schools of various denominations sometimes gained importance as institutions where children of elites accessed European education. In this way, a two-tiered education system developed under colonialism. In all of these systems, girls were able to acquire a nominal education; if it continued, it was usually in the form of training for teaching, nursing, or midwifery.</p>
+<p>Post-colonial governments in the Middle East prioritized mass popular education to build strong nations. Egypt's Gamel Abdel Nasser, for example, promoted free education and promised each graduate a position in the public sector. In countries such as Egypt, Syria, Morocco, and Algeria, schools underwent a process of "arabization." This meant a focus on teaching Arabic language and culture. Traditional schools either closed or became incorporated into the state system. Iran, in contrast, had never been colonized. It became increasingly westernized in the mid-20th century, until the Revolution and subsequent Islamization of the state and schools.</p>
+	<p>While access to education has improved dramatically in the Middle East in the second half of the 20th century, the public education system tends to suffer from overcrowded classes led by poorly-trained, overworked teachers with inadequate materials. The curriculum is for the most part secular, and when the history of Islam is taught, the goal is not to incite children to violence. Many families must hire private tutors to help children with their end of the year exams, which emphasize the memorization of massive amounts of material. If children fail these exams, they can conceivably remain in the same grade level for as many years as it takes to pass, or they fail to qualify for secondary or post-secondary training of their choice. A very small percentage of families can afford to send their children to private European or American schools in the Middle East, which provide a western-style education.</p> 
+
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Heidi Morrison</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-strategies" class="element">
+        <h3>Strategies</h3>
+                                    <div class="element-text"><p>This teaching module provides a wide variety of sources to explore the history of
+schooling in the Middle East, a topic that is largely misunderstood in the west. Schools in the Middle East today take various forms, from secular to Islamic. Current research of textbooks in the Middle East finds little in them that could be construed as incitement to violence in the name of religion, or for any other reason.  Many western pundits, politicians, and academics portray schools in the Middle East as breeding grounds for terrorists and Islamic extremists. These schools are also portrayed as unchanging institutions, which implies that they have not evolved since medieval times and that even in medieval times the schools were static.</p>
+	<p>The truth is that medieval Islamic schools produced a wealth of knowledge that European scholars translated from Arabic after the 12th century, and incorporated into institutions of higher learning between the 14th and 16th centuries. Furthermore, in today's world, schools in the Middle East take various forms, from secular to Islamic. Current research of textbooks in the Middle East finds little in them that could be construed as incitement to violence in the name of religion, or for any other reason. Wherever military struggle is mentioned, it is always in the context of defense against an aggressor.</p>	
+	<p>With the first four sources, encourage students to explore the various characteristics of schooling in the Middle East in medieval times. In regards to the emphasis on memorization, students should understand that there were scholars who challenged this accepted method, such as Ibn Khaldun. Likewise, students should themselves grapple with finding the strengths in a method of instruction that emphasizes memorization. Do students agree with the Ottoman reformers who thought that a modern nation must have an educational system similar to Europe's? Do students think that the various early 20th-century Middle Eastern reformers' justification for schooling girls marked a step towards modernization?</p>
+	<p>They key problem governments in the Middle East face today in regards to the educational system is not extremism, but rather identity crisis, underfunding, and conflict. The article on schools in Algeria since independence shows that colonization created an abused collective psyche that initially sought to heal itself through insulation. Might the educational system in Iraq be on a similar path? What evidence do we have that people in the Middle East value education, despite the challenges they have faced in its pursuit in the 20th century?</p> 
+
+
+<h3>Discussion Questions</h3>
+<ul>
+<li>Look at the two ijazahs (diplomas) from medieval times. Even without reading the Arabic, what stands out to you most about them?  For a system of education that emphasized rote memorization, do you discern a sense of creativity?<br />
+<br />
+<em>Possible answer:</em> 
+<br />
+Creativity can perhaps be discerned in the designs on the diplomas and the difference in appearance between the two. The annotation also mentioned that the diplomas used individualized flattery.</li>
+
+<li>Imagine you are in a debate with Ibn Khadlun. Present an opposing argument, including in your stance some of the merits to memorization that el-Baghdadi lists in his autobiography as well as some of the achievements medieval Islamic society made for humankind as a whole.</li>
+
+<li>Envisage yourself a student in a medieval <em>maktab</em>: Who would be in your class with you? What would you learn? How would your progress be evaluated?  To what might you aspire in terms of higher education?</li>
+
+<li>Arguably, schools can be viewed as a means of controlling a population. Provide examples of how this has been attempted through physical and intellectual means, particularly under colonialism and the independent nation-state.<br /> 
+<br />
+<em>Possible answer</em>: 
+<br />
+Some examples to include in the answer would be: schools were funded by endowments in the medieval period and the benefactors set the curriculum; as the <em>devshirme</em> illustration indicates, when first conscripted, the boys were dressed in red to avoid their escape; and, the reform of education during the <em>tanzimat</em> was for the sake of the nation and military; education under the colonists was intended to benefit the British; education in post-independence countries had economic and social development as a main goal. Students might also point out instances of where the student is a free agent, such as in medieval times when he would travel from scholar to scholar seeking knowledge. Generally speaking, students can discuss the role that the individual student can play in thinking on his/her own and not being fully controlled.</li>  
+
+<li>After you summarize the <em>New York Times</em> article about education in Algeria, analyze its tone. What approach does the author take to the issue? Do you notice any bias? Does the author leave out any important issues? How do you think context influences content? What information might this article reveal about modern-day US concerns regarding education in the Middle East?</li>   
+
+<li>The podcast on young people's accounts about war in Iraq focuses almost entirely on their experiences with school. What do you think are the advantages and disadvantages to studying political issues through educational institutions?  In your answer, reflect as well on some of the other sources provided.</li>  
+</ul>
+
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-lesson-plan" class="element">
+        <h3>Lesson Plan</h3>
+                                    <div class="element-text"><h3>Lesson Plan: Education in the Middle East</h3>
+<p>by Heidi Morrison</p>
+<p><strong>Time Estimated:</strong> two to three 45-minute classes</p>
+<h3>Objectives</h3>
+<ol>
+<li>Be able to accurately and succinctly summarize a document, in the context of the history of schooling in the Middle East.</li>
+<li>Articulate how context influences content, in regard to various documents published over time about schools in the Middle East and also in regards to one's own knowledge.</li> 
+<li>Gather information about the history of schooling in the Middle East in order to state characteristics that can be used when grappling with regional stereotypes.</li>
+<li>Use the information about the history of education in the Middle East to formulate opinions on current-day debates about education's role in society.</li>
+</ol> 
+
+
+<h3>Materials</h3>
+
+<p>Students must come to class already having read the primary documents (in the case of the podcast, listened to it and recorded notes). For this lesson, students will need a hard copy of the documents and/or their notes. A notebook, paper, and pen are also required.</p>     
+
+<h3>Hook</h3> 
+<p>Share with the students this quote from a widely-cited article in the <em>New York Times Magazine</em> reporting that in Pakistan, "There are one million students studying in the country's 10,000 or so <em>madrasas</em>, and militant Islam is at the core of most of these schools." <a href="#note1" id="fn1" class="footnote">1</a> Tell students that other commentators have suspected that an equally militant spirit pervades schools in predominately Muslim countries.</p> 
+<p>Ask students what comes to mind when they think about schools in the Middle East, a predominately Muslim area of the world. Have them write down their thoughts anonymously and collect them to read out loud. They may mention variations of such terms as "jihad factories" or "backwards" or "outposts of medievalism." If these subjects come up, ask students to speculate about how and why schools in the Middle East have developed such negative associations with extremism.</p> 
+
+<h3>Instruct</h3> 
+<p>Explain to students that they will learn about the history of schools in the Middle East. They will study primary sources that will help them understand the characteristics of schools in the pre-modern Middle East as well as the contemporaneous debates around schools. They will also study primary sources that will help them understand the changes that these schools have undergone in entering the modern era. This lesson will help students formulate an informed image of schools in the Middle East, which is the ultimate goal of the <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/459?section=dbq">Document Based Question</a>.</p> 
+
+<p><em>First Activity</em><br /> 
+The first activity will focus on piecing together information from the various sources about how schools functioned in the pre-modern Middle East.</p>
+
+<p>Divide the class into four groups. Tell them that each group will be assigned part of the larger project that is to create an imaginary 11-year old male pupil living in the Middle East in the 10th century. After each group completes their part of the project, they will present to the entire class. Every student in the class is responsible for learning all components of the material. Assign each group one of the following topics to describe in detail about the virtual student and tell them to base their answers on the first four sources provided in this module:</p>
+<ul>
+<li>Why he goes to school;</li>
+<li>What he learns in school;</li>
+<li>How he is taught in school;</li>
+<li>His aspirations for the future.</li>
+</ul>
+<br />
+<p><em>Second Activity</em><br />Students will be challenged to advance their understanding of the history of schools in the Middle East, as well as to improve their critical reading skills.</p> 
+<p>Divide the class into six groups and assign each group one source from sources 6–12 to summarize. Tell students to pay attention to what the sources say about changes schools in the Middle East have undergone in the modern era.  When the students are ready, have them present their group summaries to the class.</p> 
+<p>Now tell the students that there is as much information in what sources from what they don't say as in what they say. Tell the students to return to their groups and decipher new information based on what is not included in their source. When the students are ready, have them present their ideas to the class.</p> 
+<p>A final step to this activity is to have the students return to their groups and talk together about how context influences content. Students should discuss how the information they garnered from the documents was influenced by what they know about the author of the source and/or what was happening in society at the time of its production. This discussion should force students to reevaluate the information they presented to the class thus far. Each group should do one final presentation to the class about what they know from their assigned document about education in the Middle East in the modern era.</p>     
+<p><em>Third Activity</em><br /> Students will synthesize what they covered in the last two activities.</p>
+
+<p>In a general class discussion, have the students recap what they find to be the main characteristics of education in the Middle East over the pre-modern and modern eras.</p>  
+<p>After this is completed, tell students there are many ways in which the history of education (as a field) contributes to current-day debates. Now that students possess a wide breadth of knowledge about the history of schools in the Middle East, ask them to articulate their opinions on the following topics:<br />
+<ul> 
+<li>Do you think that schools are a means of controlling a given population?</li>
+<li>What do you think are the best pedagogical tools for learning?</li>
+<li>How does access to education, or lack thereof, impact society?</li>
+</ul></p>
+
+<p>Many students may have a tendency to base their opinions about these questions on their experience/knowledge of schooling in the west. Ask the students to formulate opinions in the framework of their knowledge of the history of schooling in the Middle East. This exercise will force students to integrate what may have previously been foreign to them (schooling in the Middle East) into how they construct their worldview.</p> 
+
+<p>If there is time, conclude by telling students to "shift gears" and write down all the associations that come to mind when they hear the words "women in the Middle East" or "religion in the Middle East." Listen to their responses and ask why you might conclude a lesson on schooling in the Middle East with such a question. Encourage students to take away from this module not only information about schooling in the Middle East and an exposure to larger interdisciplinary debates on education, but also an awareness that just as the texts are shaped by their context, so too is our knowledge.</p>
+ <hr />   
+<div id="notes">
+<p><a href="#fn1" id="note1" class="footnote">1</a> Goldberg, "Inside Jihad U.; The Education of a Holy Warrior," <em>New York Times Magazine</em>, June 25, 2000.</p>
+</div>
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-primary-sources" class="element">
+        <h3>Primary Sources</h3>
+                                    <div class="element-text">460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Thu, 08 Jul 2010 04:26:39 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Cartoons]]></title>
+      <link>https://cyh.rrchnm.org/items/show/456</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Cartoons</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.cartoons.ac.uk/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">British Cartoon Archive at the University of Kent</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">June 2010</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href="http://www.cartoons.ac.uk/"><em>Cartoons</em></a> is a website produced by the British Cartoon Archive, a collection based at the University of Kent (England), dedicated to cartooning in newspapers and other forms of publication in Britain over the  past century. It has a collection of around 150,000 cartoons drawn by approximately 300 cartoonists. This site provides students and teachers alike with a way of enlivening their approach to British political and social history as well as the history of children and youth. The website has a huge amount of material available, and it is well organized to help the researcher find cartoons from a particular cartoonist, or on a particular theme.</p> 
+
+<p>The alphabetical list of cartoonists in the <a class="external" href="http://www.cartoons.ac.uk/artists">Biographies</a> section will include some names familiar to anyone brought up in Britain – and many others they will never have heard of. Fortunately the names of the most famous ones (and the most important newspapers that published them) are specified in the Search section, which helps to orientate the researcher. The site gives a brief biography of each artist, written with a nice light touch. For example, we learn that <a class="external" href="http://www.cartoons.ac.uk/artists/barryfantoni/biography">Barry Fantoni</a> was thrown out of Camberwell School of Arts and Crafts in 1958, accused of  "wrecking the home of one of the teachers in a state of drunken madness." Fortunately for him, he was able to continue at the renowned Slade School of Art, and achieve fame and fortune as a pop artist as well as a cartoonist. A particular feature of the Archive is the <a class="external" href="http://www.cartoons.ac.uk/collections/CG">Carl Giles Collection</a> donated by the artist in 2005. This reviewer must confess to looking forward to seeing his cartoon in the <em>Sunday Express</em> each week during the 1950s and 1960s. His most famous creation was the Giles Family, a "bizarre fantasy," according to the biography, "of a working-class household living a comfortable middle-class life." The outstanding character was surely Grandma Giles, a ferocious looking character whose "anarchic vitality" led to her being heavily into drinking and betting. Also familiar to many will be the figure of <a class="external" href="http://www.cartoons.ac.uk/search/cartoon_item/Andy%20Capp?personalities_text[]=Andy%20Capp">Andy Capp</a>, drawn by <a class="external" href="http://www.cartoons.ac.uk/search/cartoon_item/Reg%20Smythe">Reg Smythe</a> under orders to appeal to readers in the north of England. Andy Capp, according to the biography of Smythe, emerged as the "flat-capped, pigeon-fancying, beer-swilling, work-shy northerner," with views on marriage going back to the "Neolithic Age."</p>
+
+<p>The <a class="external" href="http://www.cartoons.ac.uk/search-catalogue">Search</a> facility allows one to choose among numerous subjects. Each cartoon includes: a reference number, caption, embedded text (picking out detail not easily read in the reproduction), notes, the people depicted, and the subjects covered. The very abundance of the material may be a problem, especially as much of it will probably not appear useful to the modern reader. There are, for example, 6,099 entries under the heading of <a class="external" href="http://www.cartoons.ac.uk/search/cartoon_item/Children">Children</a>. In some cases, the cartoonist wishes to comment on events in contemporary society. W.K. Haselden, for example, turned out dozens of cartoons under this heading during the 1900s. Concerns over the declining birth rate in 1905 led the cartoonist to envisage a future in which babies become rare specimens, exhibited in cages and labelled "born in the managerie" (ref. WHO1490). In other cases, it is a matter of poking fun at politicians by depicting them as juveniles. "A row in the play-ground," by John Doyle, reduces politics in the 1830s to squabbling between Melbourne, Peel, Wellington and others (ref. mudyx9t). The cataloguers have provided numerous headings related to childhood and youth, such as <a class="external" href="http://www.cartoons.ac.uk/search/cartoon_item/Girls">girls</a>, <a class="external" href="http://www.cartoons.ac.uk/search/cartoon_item/childhood%20romance">childhood romance</a>, <a class="external" href="http://www.cartoons.ac.uk/search/cartoon_item/schools">schools</a>, <a class="external" href="http://www.cartoons.ac.uk/search/cartoon_item/schoolboys">schoolboys</a>, <a class="external" href="http://www.cartoons.ac.uk/search/cartoon_item/juvenile%20delinquency">juvenile delinquency</a>, and <a class="external" href="http://www.cartoons.ac.uk/search/cartoon_item/mothers">mothers</a>. Again the researcher will need to sift through the material to separate cartoons focused on that heading in particular from those with only a passing allusion.</p>
+
+<p>The site includes advice on creating a group of cartoons as a teaching pack, to illustrate a particular theme. It provides a number of these but it is doubtless best to create your own, as the site advises. The site also points out in a section on <a class="external" href="http://www.cartoons.ac.uk/teaching-aids">Teaching Aids</a> that "sophisticated searching" allows one to see, for example, what was happening on a specific day in history, by assembling all the cartoons that appeared in the newspapers on that day, or to grasp how politicians or major personalities (such as <a class="external" href="http://www.cartoons.ac.uk/search/cartoon_item/Princess%20Diana">Princess Diana</a>, with 321 entries) were perceived. This section promises five "resource packages" linked to themes in the British schools curriculum, and resources to help in the reading and analysis of cartoons. There is a section on <a class="external" href="http://www.cartoons.ac.uk/article">Articles</a> to help the teacher or researcher, though it remained obstinately stuck on "G" whenever consulted by this reviewer.</p> 
+
+<p>Overall, it is clear that a great deal of thought and effort has gone into making the vast collection of material available to the public, and into supporting the cartoons with relevant background information. The standard of presentation and the layout are excellent. It will need an awareness of the political stance of the newspapers involved to make much sense, and a feel for popular culture in Britain. Still, it is a cornucopia of delights.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Colin Heywood</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">The University of Nottingham</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">This site provides students and teachers alike with a way of enlivening their approach to British political and social history as well as the history of children and youth. </div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/492/fullsize">Cartoons.jpg</a></div>]]></description>
+      <pubDate>Wed, 07 Jul 2010 03:58:35 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/492/fullsize" type="image/jpeg" length="65717"/>
+    </item>
+  </channel>
+</rss>

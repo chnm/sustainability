@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=American+Centuries&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:24:22 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[American Centuries]]></title>
+      <link>https://cyh.rrchnm.org/items/show/457</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">American Centuries</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.americancenturies.mass.edu/home.html</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Memorial Hall Museum and Library, Deerfield, Massachusetts</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">May 2010</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href="http://www.americancenturies.mass.edu/home.html"><em>American Centuries</em></a> displays items from the collection of the Memorial Hall Museum and Library in Deerfield, Massachusetts.  This museum specializes in 17th-20th century artifacts of the East Coast, and its online exhibits contain many materials about children's and adolescents' lives from the Colonial period onward.</p> 
+<p>The website makes its primary appeal to teachers and young students.  In addition to the usual elements of internet archives (images, texts, maps), the site offers <a class="external" href="http://www.memorialhall.mass.edu/activities/index.html">interactive activities</a> where kids can learn more about historical clothing, how to read old manuscripts, and other topics that draw from the museum's holdings.  A section of the site called <a class="external" href="http://www.americancenturies.mass.edu/classroom/index.html">"In the Classroom"</a> offers numerous lesson plans for elementary and middle-school teachers, some written by museum employees and some by schoolteachers themselves, using materials in the online exhibits.</p>  
+<p>The exhibits cover multiple aspects of historical New England. Finding materials specific to the histories of youth and childhood is much easier here than in some online archives.  Using the "site search" box, which appears on every page, is not the most efficient approach; better, more focused results come from choosing the <a class="external" href="http://www.memorialhall.mass.edu/collection/search/index.jsp">"Search the Collection"</a> item off the main-page menu. There, typing "children" will yield 488 results that specifically pertain to children's histories, mainly from the 18th and 19th centuries.</p>
+ 
+<p>Even more directly helpful for the young (or old, but impatient) site visitor is the <a class="external" href="http://www.memorialhall.mass.edu/collection/browse/index.jsp">"Highlights"</a> page, which offers artifacts in neatly arranged categories and sub-categories. The <a class="external" href="http://www.memorialhall.mass.edu/collection/browse/index.jsp?category=6">"Children"</a>  category is the obvious place to start; here, one can find images and information in the sub-categories of <a class="external" href="http://www.memorialhall.mass.edu/collection/browse/results.jsp?subcategoryid=33">children's toys</a>, <a class="external" href="http://www.memorialhall.mass.edu/collection/browse/results.jsp?subcategoryid=35">clothing</a>, <a class="external" href="http://www.memorialhall.mass.edu/collection/browse/results.jsp?subcategoryid=34">furniture</a>, <a class="external" href="http://www.memorialhall.mass.edu/collection/browse/results.jsp?subcategoryid=36">schoolbooks</a>, and even children's own <a class="external" href="http://www.memorialhall.mass.edu/collection/browse/results.jsp?subcategoryid=38">handiwork</a>.  The individual pages for each artifact all include an icon called "Look closer"; once clicked, this icon opens a second window with a sophisticated zoom feature, offering several different degrees of close-up views for the artifact.  This smart device allows site-visitors an even more detailed inspection of the artifacts than they could glean in an actual museum, where exhibits are separated from visitors by glass and several feet of space.  Many of these artifacts are so exceptionally well-preserved that the zoom feature is especially pleasurable; we can revel in the joy of inspecting the hand-painted decoration on an <a class="external" href="http://www.memorialhall.mass.edu/collection/itempage.jsp?itemid=6309">1835 baby carriage</a>, or the careful stitching on a <a class="external" href="http://www.memorialhall.mass.edu/collection/itempage.jsp?itemid=53">hand-made cloth doll</a> from 1887.</p> 
+
+<p>Artifacts like the antique clothing and dolls are immediately charming; others can be either a bit disturbing, or darkly amusing. The 19th century <a class="external" href="http://www.americancenturies.mass.edu/collection/itempage.jsp?itemid=5189">"baby tender,"</a> for example, looks more like a packing crate for produce than a modern play-pen, while the hand-made <a class="external" href="http://www.americancenturies.mass.edu/collection/itempage.jsp?itemid=11613">"Twin Potty-Chair"</a> makes us wonder: should twins really do <em>everything</em> together?</p>
+<p>The most intriguingly named sub-category, <a class="external" href="http://www.memorialhall.mass.edu/collection/browse/results.jsp?subcategoryid=38">"Children's creations,"</a> shows the woodworking and needleworking products of young people. One item—a <a class="external" href="http://www.americancenturies.mass.edu/collection/itempage.jsp?itemid=8994">stitched sampler</a>—was made by a nine-year-old girl. The other displayed items appear to have been fashioned by people in their late teens, who might not have been considered "children" at the time (1790s-1810s).  Still, the degree of skill demonstrated in these creations suggests the many hours of practice that these young artisans must have logged in their earlier years; the images therefore attest to the activities of childhood at the turn of the 19th century. </p> 
+<p>Do not, however, restrict yourself to the "Children" category of the "Highlights" page; the other categories there also include materials about children, mixed-in with the larger collections of artifacts. As just one example, the <a class="external" href="http://www.americancenturies.mass.edu/collection/browse/index.jsp?category=8">"Documents"</a> category offers many texts used in children's schools (different selections from the ones displayed in the Children category). <a class="external" href="http://www.americancenturies.mass.edu/collection/itempage.jsp?itemid=11623">"Learning by Doing at Hampton"</a> allows viewers to see sixteen pages from a 1900 pamphlet about the The Hampton Institute in Virginia, a school where freed African-American and Native American children were taught the customs and values of White society as a means of acculturation.   There you can also see pages of a teenage boy's <a class="external" href="http://www.americancenturies.mass.edu/collection/itempage.jsp?itemid=12661"> "copy book,"</a> with his penmanship, scholarship, and artistic skills displayed, as well as many other documents about children's lives as young scholars. 
+The Documents category also features a <a class="external" href="http://www.americancenturies.mass.edu/collection/browse/results.jsp?subcategoryid=51">"Journals and Diaries"</a> sub-category, which contains several pages of text from the <a class="external" href="http://www.americancenturies.mass.edu/collection/itempage.jsp?itemid=15412">1859-1860 diary</a> of a twelve-year-old girl.  The <a class="external" href="http://www.americancenturies.mass.edu/collection/browse/results.jsp?subcategoryid=49">"Women's Lives"</a> subcategory contains some other material relevant to the study of teenage girls, like the few pages scanned from a girls' 1830 instruction book: <a class="external" href="http://www.americancenturies.mass.edu/collection/itempage.jsp?itemid=7470"><em>The Young Ladies Book: A Manual of Elegant Recreations, Exercises, and Pursuits</em></a>, with rules for proper sitting, dancing, standing, and curtseying.</p>
+<p>Nearly every section of the "American Centuries" site contains materials about children and youth, including photographs of children in school, at play, and among their families from the late 19th to early 20th centuries (<a class="external" href="http://www.americancenturies.mass.edu/collection/itempage.jsp?itemid=4068">this one</a> shows a family in 1895 playing croquet on their front lawn).</p> 
+<p>With its easy navigability, superb detail in images and texts, and rich resources for students and teachers, this site is one of the best internet collections available for the study of childhood and youth in Eastern US history.</p> 
+  
+
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Ilana Nash</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">Western Michigan University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">In addition to the usual elements of internet archives (images, texts, maps), the site offers interactive activities where kids can learn more about historical clothing, how to read old manuscripts, and other topics that draw from the museum&#039;s holdings.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/493/fullsize"><img src="/files/display/493/square_thumbnail" class="thumb" alt="American Centuries" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Wed, 07 Jul 2010 22:45:01 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/493/fullsize" type="image/jpeg" length="31344"/>
+    </item>
+  </channel>
+</rss>

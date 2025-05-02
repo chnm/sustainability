@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=Books&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:24:18 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Maqamat al-Hariri, Kuttab School [Painting]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/243</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Maqamat al-Hariri, Kuttab School [Painting]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>In this painting of a <em>kuttab</em>, or primary school, boys sit on a mat or carpet huddled close together with their writing boards. Boys, and sometimes girls, learned to recite the Qur'an at an early age, as well as the basics of reading, writing, and arithmetic in schools called kuttabs. It might be held in a mosque, a building especially for the purpose, or an open courtyard, as in West Africa. This type of school was common in urban and rural settings throughout Muslim lands. The image by 13th century illustrator al-Wasiti (fl. 1237) is from the <em>Maqamat</em> (Assemblies) of al-Hariri (1054-1122 CE), an important figure in Arabic literature. The work is a collection of anecdotes about a picaresque hero, shown in the red robe, who perhaps having just said something outrageous, is shown disputing with the teacher. An interesting feature in several illustrations of kuttabs is the fan suspended from the ceiling, with one of the boys pulling a rope to swing it. Perhaps the boy chosen for this task was the one least proficient in his lessons.</p>  </div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Scene in a mosque; illustration from the 7th <em>maqama</em> of al-Hariri <em>Maqamat</em>, manuscript copied and illustrated by al-Wasiti, executed in Baghdad 1237. MS. ar. 5847 f. 18v., the Bibliothèque Nationale, Paris. </div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">242, 241, 240</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                                    <div class="element-text">Color painting of a kuttab, or primary school in which boys sit on a mat or carpet huddled close together with their writing boards. This image, by 13th century illustrator al-Wasiti (fl. 1237), is from the Maqamat (Assemblies) of al-Hariri (1054-1122 CE), an important figure in Arabic literature. The work is a collection of anecdotes about a picaresque hero, shown in the red robe, who perhaps having just said something outrageous, is shown disputing with the teacher. An interesting feature in several illustrations of kuttabs is the fan suspended from the ceiling, with one of the boys pulling a rope to swing it.</div>
+                    </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/165/fullsize"><img src="/files/display/165/square_thumbnail" class="thumb" alt="Maqamat al-Hariri, Kuttab School [Painting]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Wed, 20 May 2009 17:24:17 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/165/fullsize" type="image/jpeg" length="121531"/>
+    </item>
+    <item>
+      <title><![CDATA[Home Economics Archive: Research, Tradition and History (HEARTH)]]></title>
+      <link>https://cyh.rrchnm.org/items/show/32</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Home Economics Archive: Research, Tradition and History (HEARTH)</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-04-01</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://hearth.library.cornell.edu/h/hearth/index.html</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Albert R. Mann Library, Cornell University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">December 2007</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>The history of childhood depends, to some extent, on understanding the history of home- and family-life, the primary context in which childhood occurs. In the U.S., the rise of the field known as "home economics" had an enormous impact on popular conceptions of children and what kind of care they require. The impressive <a class="external" href=http://hearth.library.cornell.edu/h/hearth/index.html><em>HEARTH</em></a> website offers the most comprehensive online collection of primary sources in the field of home economics from 1850 through 1950; a few sources, such as full-text articles from the <a class="external" href=http://hearth.library.cornell.edu/h/hearth/browse/title/4732504.html><em>Journal of Home Economics</em></a>, are inclusive through 1980. <a class="external" href=http://hearth.library.cornell.edu/h/hearth/about.html>Introductory material</a> addresses the importance of home economics to women's history and children's history as well as its broad impact on American culture.</p> 
+
+<p>Materials are arranged into 11 broadly-defined topics; each is introduced with a short essay, an image, and a substantial bibliography of influential texts on that topic, in PDF format. The history of home economics is a relatively young discipline, so these bibliographies provide an especially valuable service. While only one of the site's self-designed subject headings (<a class="external" href=http://hearth.library.cornell.edu/h/hearth/child.html>Care, Human Development, and Family Studies</a>) appears at first glance to be relevant for historians of childhood and youth, in fact, the entire site has valuable resources to offer.</p>
+
+<p>The field of Home Economics grew in concert with the popularity of the "scientific" approach to child-development. This approach influenced the systematization of public education, children's medical and psychological care, and the social studies of juvenile delinquency, among other topics. Indeed, Home Economics became one of the primary disciplinary venues through which child-study developed. Consequently, many subject bibliographies contain material relevant to the health, psychology, moral development, and education of children. Home economics was also a subject taught to young women in high schools and colleges for many decades, so a good share of the material on this site was read by female youths as part of their education.</p>
+
+<p>To find material specific to the history of children and/or youth, start with the <a class="external" href=http://hearth.library.cornell.edu/h/hearth/browse.html>Browse</a> page. This presents a list—fairly short now, but still growing—of available full-text journals. Clicking on the title of a journal leads to a list of all volumes and issue numbers for each year of publication; these, too, appear as hyperlinks, which lead to full-text articles. All issues of the journal <a class="external" href=http://hearth.library.cornell.edu/h/hearth/browse/title/4761305.html><em>Children</em></a>, produced by the U.S. Government Publication Office from 1954 to 1971, for example, are reproduced in their entirety. One can scan the tables of contents for each issue and discover articles with intriguing titles such as <a class="external" href=http://hearth.library.cornell.edu/cgi/t/text/pageviewer-idx?c=hearth;cc=hearth;sid=95bd87dbbb9da682dcf6967b1315d4c1;rgn=full%20text;idno=4761305_133_007;view=image;seq=0005>"What Makes a Good Parent?"</a> and <a class="external" href=http://hearth.library.cornell.edu/cgi/t/text/pageviewer-idx?c=hearth;cc=hearth;sid=95bd87dbbb9da682dcf6967b1315d4c1;rgn=full%20text;idno=4761305_133_007;view=image;seq=0017>"Mental Retardation in the Soviet Union"</a>.</p>
+
+<p>The "Browse" page also indexes HEARTH's full-text holdings (journals and books) alphabetically by author or title. Unfortunately, the books are not categorized beyond this. A reader who does not already know specific titles or authors will find it time-consuming to scan these alphabetized lists—it is like searching for a book in a library by wandering through the stacks and gazing hopefully at the shelves.</p>
+
+<p>The sole example of subject-categorization lies in the PDF subject-bibliographies. Alas, the PDF format is a poor choice. It prevents titles from appearing as hyperlinks, meaning that viewers cannot look at a bibliography and know which entries, if any, are available in full-text on the website.</p>
+
+<p>The full-text books and journals at HEARTH can be used to explore a range of topics when teaching the institutional history of childhood, such as how various institutions like the government, public schools, hospitals, and social services, influenced American ideologies of home, family, and children. Students raised in late 20th century schools may find it remarkable, for example, that turn-of-the-century educators considered a child's moral development to be an imperative duty of schoolteachers. Felix Adler's <a class="external" href=http://hearth.library.cornell.edu/cgi/t/text/text-idx?c=hearth;idno=4246986><em>The Moral Instruction of Children</em></a> (1912), which can be read in full-text on the site, includes chapters on children's moral responsibilities, like "The Duties Toward All Men (Justice and Charity)" and "The Elements of Civic Duty." Adler also offers chapters on how to instill morals in children by using fables, fairy tales, and even Homer's <em>Odyssey</em>. This emphasis on character, duty, and citizenship bears only a scant resemblance to the modern-day emphasis on building students' "self-esteem" in K-12 teaching. A history teacher might use this text to prompt students to think about change over time in America's concepts of children's roles in society, and what children "need" to fulfill those roles.</p>
+ 
+<p>Categories or strategies for searching would make these materials more user friendly for teachers and students, but barring that, the topics listed on the <a class="external" href=http://hearth.library.cornell.edu/h/hearth/subjects.html>Subjects</a> page or in the background essays provide a good starting point.</p></div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Ilana Nash</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">Western Michigan University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">The impressive HEARTH website offers the most comprehensive online collection of primary sources in the field of home economics from 1850 through 1950; a few sources, such as full-text articles from the Journal of Home Economics, are inclusive through 1980.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/54/fullsize"><img src="/files/display/54/square_thumbnail" class="thumb" alt="Home Economics Archive: Research, Tradition and History (HEARTH)" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Mon, 31 Mar 2008 01:11:27 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/54/fullsize" type="image/jpeg" length="52607"/>
+    </item>
+  </channel>
+</rss>

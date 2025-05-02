@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=Australia&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:19:51 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Picture Australia]]></title>
+      <link>https://cyh.rrchnm.org/items/show/423</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Picture Australia</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.pictureaustralia.org/index.html</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">National Library of Australia</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">April 2010</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href="http://www.pictureaustralia.org/index.html">Picture Australia</a> is a pictorial database of Australiana that serves as a clearinghouse for the collections of over 50 institutions throughout Australia and New Zealand. The items available for viewing include paintings, photographs, drawings, prints, posters, sculpture, costume, and weapons drawn from the databases of national and regional libraries, archives, museums, and universities.</p> 
+
+<p>While a handful of Aboriginal rock painting images are accessible, primarily the collections focus on post-contact Australia's development as a nation. This self-titled digital "discovery" service yields thousands of images of children and youth of Australia in formal portraits, parades, sporting events, picnics, and just playing from a myriad of sources.</p> 
+<p>Browsing is presented through fixed tours called <a class="external" href="http://www.pictureaustralia.org/trails/index.html">"Picture Trails."</a> These are arranged under the headings of <a class="external" href="http://www.pictureaustralia.org/trails/arts.html">Art & Culture</a>, <a class="external" href="http://www.pictureaustralia.org/trails/sport.html">Sports & Physical Education</a>, <a class="external" href="http://www.pictureaustralia.org/trails/geography.html">Geography & Environment</a>, and <a class="external" href="http://www.pictureaustralia.org/trails/history.html">History & Society</a> on a varied range of topics from advertising to ballet and indigenous dance. Most of the featured historical content focuses on Australian contributions to war efforts abroad. None feature children and as they are not searchable, they are not very useful for teaching children's history.</p> 
+<p>However, most Trails include an "Educational Value Statement," like this one from <a class="external" href="http://www.pictureaustralia.org/trails/evs/advertising-australia.html">"Advertising in Australia."</a> These provides discussion points that teachers might find useful in using a Picture Trail as a launching point to look at what is missing.</p>
+<p><a class="external" href="http://www.pictureaustralia.org/research/students.html">Teachers and Students</a> provides basic ideas for lessons and ways to use the database. "My Favorite" images allows you to check images and retrieve them later where you can download selections. This includes a thumbnail and the database text in a simple user-friendly format.</p> 
+
+<p>The favorites are per session and cannot be saved, but could still be made into study guides for teaching. For example, there are 1,177 returns for <a class="external" href="http://www.pictureaustralia.org/apps/pictureaustralia?term1=boy+scouts&Submit=search&action=PASearch&attribute1=any+field&mode=search">"boy scouts,"</a> but only 310 with the added search term <a class="external" href="http://www.pictureaustralia.org/apps/pictureaustralia?term1=jamboree&Submit=search&action=PASearch&attribute1=any+field&mode=search">"jamboree."</a> Thus there is a base of research material for an investigation of Boy Scout activities around Australia.</a>
+
+<p><em>Picture Australia</em> is overseen by the National Library of Australia and there in no attempt to define the number of entries included. The weight of this encyclopedic database, the sheer number of returns, can be overwhelming.</p> 
+
+<p>Alongside the catalogued historical images within institutions, <em>Picture Australia</em> allows the general public to contribute images to the database via <a class="external" href="http://www.flickr.com/">Flickr</a>. Thus a free text keyword search for "children" yields an unmanageable 38,725 images. However, when the advanced search function to exclude Flickr is used, there are 2,735 returns, which then seems low.</p> 
+
+<p>A search using the keyword "child" brings 9,155 results and 8,913 with Flickr excluded, still an large number to sift through. Scholars looking to use <em>Picture Australia</em> for research would find searching for usable data frustrating due to the limited advanced search options and the lack of standardization within the data.</p>
+
+<p>The information attached to the images varies widely in usefulness and depth. Due to the absence of standards for data entry and arrangement within records, there is another problem with the free text search. Searching with the keyword "girl" yields 8,222 images (excluding Flickr). Yet this will include all of the instances that "girl" is mentioned in the entry description section.</p> 
+
+<p>This can lead to false returns, particularly with results from the State Library of South Australia, which describes all of the items in a particular collection on each associated record, presumably to keep them together "virtually." For example, the "all word" search for "girls playing" has 176 hits, include 43 photographs of the Vardon family album. Yet only three of these pictures show "girls playing" because each family album image contains the same data.</p> 
+
+<p>The best way to use this database for children and youth research that yields viable results is to search each institution's database one at a time. This may beg the question, why use it at all. Having all the materials in a central location, though, does simplify the process and can help users identify select institutions to explore more carefully.</p>
+
+
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Ashley E. Remer</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">Girl Museum</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">Picture Australia is a pictorial database of Australiana that serves as a clearinghouse for the collections of over 50 institutions throughout Australia and New Zealand. </div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/457/fullsize">Picture Australia. 1 jpg.jpg</a></div>]]></description>
+      <pubDate>Sat, 22 May 2010 02:08:25 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/457/fullsize" type="image/jpeg" length="82572"/>
+    </item>
+  </channel>
+</rss>

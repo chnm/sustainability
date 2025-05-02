@@ -1,0 +1,574 @@
+/* == Reset == */
+@import url("reset.css");
+
+/* == Base Styles == */
+body {font:62.5% Verdana, Geneva, sans-serif; background-color:#457;border-top:3px solid #c60; color:#000;}
+
+/* Headings */
+h1 {font-size: 2em; color: #fa3; font-weight:bold;text-transform:none;padding: .6em 0 3px 0;}
+h2 {font: 1.6em Georgia, "Palatino Linotype", "Book Antiqua", "Times New Roman", Times, serif; font-style:italic; padding: .6em 0 .3em 0;}
+	h2.region{color:#c60;font: 0.8em Verdana, Geneva, sans-serif; font-weight:bold;padding: .6em 0 0em 0;} /*this is the head inside the uls on case-studies and teaching and teaching-modules start pages; makes it the same effective size as h4 used in Website Reviews Sources by Region heading */
+h3 {font-size: 1.2em; line-height:1.6em; font-weight:bold;margin-top: .6em;margin-bottom: .3em;}
+h4 {font-weight:bold;font-size: 1.2em; margin-bottom:1.2em;} /*styles the heading for the sidebar nav ul */
+h5 {font: 0.9em Verdana, Geneva, sans-serif; font-weight:bold;font-style:italic;text-transform:uppercase;padding: .6em 0 0em 0;}/*turn this into p class results*/
+
+
+/* Links */
+a {font-weight:bold;font-size: .95em;}
+a:link {color: #347;text-decoration: none;}
+a:visited {color: #555; text-decoration: none;}
+a:hover {color:#c60;text-decoration: underline;}
+a:active {color:#c60;}
+
+a {border:none !important;}
+
+a img {border:none;border-width:0;}
+a.external img {border:none;}
+a.external {border-width: 0 0 1px;}
+
+a.footnote {line-height:0; vertical-align:super; margin-left:-4px;color: #347; font-size:0.9em; padding: 2px 0;}
+a.footnote:hover {color:#c60;}
+
+/* Miscellaneous Elements */
+ol,ul {font-size:1.2em; line-height:1.5em; list-style:none;}
+
+#primary .bibliography {list-style:none; margin-left:0;}
+	/* Lists inside lists */
+	ol ol, ol ul, ul ol, ul ul {font-size:1em; margin-left:1.5em;}
+	
+	/* lists in content div */
+	#primary ul, #myomeka-primary ul {list-style-type:square; margin: 0 2em 0 1em;}
+	#primary ol, #myomeka-primary ol {list-style-type:decimal; margin: 0 2em 0 2em;}
+      	#primary ul li, #myomeka-primary ul li, #primary ol li, #myomeka-primary ol li {margin-bottom: 1em;}
+
+		
+	#intro-section-nav li {line-height:1.25em;margin-bottom:1em;}
+		
+p, #myomeka-primary p {font-size: 1.2em; line-height:1.5em; margin-bottom:1.2em; padding-right: 1.2em;}
+
+blockquote {margin-left:2em; margin-right:2em;}
+
+#pullquote blockquote {font: 1.8em/2em "Palatino Linotype", "Book Antiqua", "Times New Roman", Times, serif;color: #c60;font-style: italic; margin-left: 0;margin-right: 0;}
+
+em {font-style: italic;}
+strong {font-weight:bold;}
+.about .name {text-transform:uppercase; color:#c60;font-size:.9em; font-weight:bold;}
+table {font-size:1.2em; line-height:1.5em; width: 100%; margin-bottom:1.5em;}
+	th {font-weight:bold;}
+	td,th {border-bottom:1px solid #d5d5c5;padding: 4px 0;}
+	th {border-width: 3px;}
+
+/* Miscellaneous Classes */
+ol.bibliography li {text-indent:-1.5em; margin-left:1.5em; margin-bottom:1.5em;}
+ol.bibliography li span {display:block; margin:1.5em 0; text-indent:0; font-size:1em; padding:1em; background:#f5f5e5;}
+
+.roman {font-style: normal;} /* use this when something normally in italic is in an italic block of text */
+
+.center-div {overflow:hidden; zoom:1;width:786px; margin:0 auto;}
+
+.source-link, .out-link {font: .9em bold Verdana, Geneva, sans-serif; text-align:center; color: #345;padding: 1.2em 0;margin-right:-12px;}
+.source-link a, .out-link a {text-decoration: none;color: #345; background-repeat:no-repeat; background-position: 100% 50%;padding: 0 15px 0 0;}
+.source-link a {background-image: url('../images/icon_sourcelink.gif');}	
+.out-link a {background-image: url('../images/icon_outlink.gif');}
+
+em.deck {font: 1.2em Verdana, Geneva, sans-serif; line-height: 1.5em; color: #fa3; font-style:normal;font-weight:bold;text-transform:uppercase;padding: .6em 0 .75em 0;}
+p.byline {text-transform:uppercase; font-size:1.1em;}
+	 
+	/* pagination */
+	.pagination {margin:0 -18px 0 -18px; padding:0}
+	.pagination ul {text-align:right; line-height:1em; padding:0.5em; border:1px solid #d5d5c5; margin:1em 12px 0 0;border-width:1px 0 0 0;background-color:#f5f5e5;}
+	.pagination li {display:inline; margin-left:1em; margin-bottom:0; padding:0.5em 0;}
+		.pagination .next {border-left:1px solid #d5d5c5; padding-left:1em;}
+		.pagination .previous {border-right:1px solid #d5d5c5; padding-right:1em;}
+	.pagination a {text-decoration:none;font-weight:normal;}
+	
+	#pagination-bottom.pagination ul {border-width:1px 0;}
+	
+   /* section navigation (such as in introduction.php with a table of contents and show toggle) */
+	.sec-nav {width:100%; margin:0 auto;}
+	.sec-nav a.prev {display:block;float:left; width:25%;} .sec-nav a.next{display:block;float:right; width:25%;}
+
+.printOnly {display:none;}
+
+
+/* Images used in module or case study content */
+
+img.content-thumb {margin: 18px 0 18px 18px; display:block;padding:5px; border:1px solid #d5d5c5;float:right; margin-right:18px; clear:right;}
+img.wide {float:none; margin:18px auto;}
+
+/* For images with captions in module or case study content */
+.caption-box {padding:5px 20px 10px; } 
+	.caption-box img {border:1px solid #d5d5c5;padding:5px;}
+	.caption {text-align:left; font-size:.75em; font-weight:bold; font-family: Verdana, sans-serif;color:#457;}
+	/*the following two classes control if the image and caption float left or right 
+	you apply this class like this: div class="caption-box fltlft"; in other words, a div can have multiple classes*/
+.fltrt {float:right;padding-right:0px;} 
+.fltlft {float:left; padding-left:0px;}
+
+/* == Header == */
+#print-logo {display:none;} /* insert the CYH logo as an image in the header php file 
+                               and give it this ID then you can turn it on to print */
+#header {background-color:#fff; }
+#header h1 {text-indent: -2000px;}
+#header h1 a {display:block; width:390px;float:left; height:135px; background: url('../images/cyh-logo.gif') no-repeat 2px 10px; border-bottom:0;}
+
+	/*navigation in header area*/
+	#nav {float: right;width: 300px;text-align: right;z-index: 999;margin: 12px 0;}
+		#nav li {display: inline;color: #000;}
+			#nav li a {color:#000; text-decoration: none; font: 10px Verdana, Geneva, sans-serif;margin:0 6px;border-bottom:none;}	
+			#nav li a:hover {color: #c60; text-decoration: none;}
+	
+	/* searchwrap*/
+	#searchwrap {width: 300px; float: right; clear:right; padding:6px; text-align:right;}
+		#searchwrap #search {border: 1px solid #d5d5c5; background: #fff; padding:2px; font: 10px Verdana, Geneva, sans-serif; width:150px;}	
+		#submit_search {border: none; background: #c60; color:#fff; padding: 2px; font: 10px Verdana, Geneva, sans-serif;}
+		#searchwrap a { text-decoration:none; border:none;clear:both; text-align:right;font-size:.8em; padding:4px 0;font-weight:normal;float:right; color:#345;text-transform:uppercase;}
+
+/* == Primary Nav */
+#primary-nav { background-color:#fa3;border-bottom: 6px solid #fff;}
+#primary-nav ul {list-style:none; padding:0; width: 786px; margin:0 auto; overflow:hidden;background-color:#fff;}
+#primary-nav li {display:block; float:left; width: 190px; padding-left:5px;font: 11px bold Arial, Verdana, Geneva, sans-serif;}
+#primary-nav a {display:block; float:left; font-weight:normal;text-decoration:none; width:100%; padding: 10px 0; text-align:center;color: #fff; background:#c60;}
+#primary-nav a:hover {background:#457;}
+
+	.website-reviews #nav-website-reviews a,
+	.case-studies #nav-case-studies a,
+	.teaching-modules #nav-teaching-modules a,
+	.primary-sources #nav-primary-sources a {background-color: #457;}
+
+/* == home page these styles only were applied on the home page to precisely place the text box and background image == 
+== modified 2.3.2011 to add notice of awards box
+*/
+#home #primary {} 
+#home #content .center-div {margin: 0 auto; width: 786px; padding:0; background: #fff url('../images/homepg_bg2.jpg') top left no-repeat; height:386px;width:786px;}
+	#home #primary #textbox {position:absolute; top: 130px;left:400px; width:380px;}
+	#home #primary #textbox h1 {font: 32px Georgia, "Palatino Linotype", "Book Antiqua", "Times New Roman", Times, serif; color: #c60;}
+	#home #primary #textbox p {margin-bottom: 18px; font: 15px/30px Georgia, "Palatino Linotype", "Book Antiqua", "Times New Roman", Times, serif; color: #c60;}
+	
+	/*created to style award notice on home page*/
+	#home #primary #textbox p.notice {text-align:center;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;color:#fff;background: #fa3;} p.notice a {color:#fff;}
+	
+    /* Advanced Search */
+    
+    .advanced-search textarea {width:378px; height:312px;float:right;}
+    .advanced-search legend {display:none;}
+    .advanced-search fieldset {display:block; clear:both;}
+    .advanced-search label {font-size:1.1em;}
+    .advanced-search .label {font-size:1.1em;}
+    .advanced-search .inputs {overflow:hidden;zoom:1;}
+    .advanced-search .field {border-bottom:1px solid #D5D5C5; padding:0.75em 0; overflow:hidden; width:512px;}
+    .advanced-search .field label {float:left; width: 114px;font-weight:normal;clear:left; }
+    .advanced-search .field .label {float:left; width: 114px;font-weight:normal;clear:left; }
+    .advanced-search .field .textinput, .field select {float:right; width: 378px;background:#fff;}
+    .advanced-search .field select {width: 382px;}
+    .advanced-search .field input {margin:0;margin-left:16px;}
+    .advanced-search input.submitinput {margin-top:1em;}
+    .advanced-search .radioinputs {display:block; margin-bottom:0.5em; overflow:hidden;}
+    .advanced-search .radioinputs label {display:block; float:left; width: 48%; clear:none;}
+    .advanced-search input#description {width: 378px; height: 312px;}
+    .advanced-search .search-entry select {margin-bottom:.5em;}
+    .advanced-search #primary #submit_search {margin:.5em 0 1em 465px;}
+	
+	.no-results {margin:10px;}
+	#advanced_search_header {font-size:1.4em;}
+	#primary #basic_search_header {font-size:1.4em;}
+	
+/* == Content == */
+#content {clear:both; overflow:hidden;background-color:#68b;}
+#content .center-div {background-color: #fff;width:750px;padding: 18px;} /* 750 is width of center-div 786-36 padding left and right= 750 */
+
+	/* Primary and Secondary */
+	#primary {background: #fff; position:relative;}
+
+	/* Styles primary and secondary on case studies, teaching modules, and website reviews. */
+	#show #primary {float:left;width:492px;}
+	#show #secondary {float:right; width:252px;margin-top:3em;margin-right:-10px;}
+		#contactus {margin-top:2em;} 
+		#contactus p.utility-text a {color:#fa3;text-transform: uppercase;font-size:.75em;font-family: Arial, sans-serif;font-weight:normal;letter-spacing:1px;}
+	
+	/* Section Start styles */
+	#section_start #primary {float:left;width:360px;} /* primary and secondary widths must total no more than 732 to 
+	                                                     allow for 18px gutter and total 750 for #content center-div */
+	
+		#section_start #primary ul {list-style:none; margin-left:0;}
+	#section_start #secondary {float:right; width:372px;} 
+		#section_start h1 {font: 2em Georgia, "Palatino Linotype", "Book Antiqua", "Times New Roman", Times, serif; color: #000; padding: 6px 0 3px 0;}
+	
+		/* Sidebar nav */
+		.sidebar-nav{color:#c60;margin-top: 12px;}
+			.sidebar-nav ul {list-style: none;padding-right: 24px;font: 1.5em/2.4em Georgia, serif;}
+			.sidebar-nav ul li {background: #fff url('../images/list_bullet.gif') no-repeat 0 50%;display:block; padding-left: 24px;}
+				.sidebar-nav {}
+				.sidebar-nav ul li a:link {text-decoration:none;color:#347;}
+				.sidebar-nav ul li a:visited {text-decoration:none;color: #555;}
+				.sidebar-nav ul li a:hover {color: #c60;text-decoration: underline;}
+				.sidebar-nav ul li a:active {color: #c60;}
+		
+		#primary .sidebar-nav ul li {margin-bottom:0;}
+	/* Featured Box = Featured section on section start pages. */
+	.featured-box {border: 1px solid #d5d5c5; background: #f5f5e5;margin-right: 12px;padding:18px 9px 24px 12px;}
+		.featured-box img {width:100px; height: 100px; float:left;display:block; margin: 5px 9px 0 0;}
+		.featured-box h1 {text-indent: -2000px; display:block; float:left; width: 100%; height:53px;background-position:top left; background-repeat: no-repeat;margin-left:0;}
+		.featured-box h2 {font-size: 1.6em; font-style: italic;}
+		.featured-box h2 a {color: #000;font-weight:normal;text-decoration:none;}
+		.featured-box a, .featured-box a:visited {color: #68b; text-decoration: none;}
+		.website-review h1 { background-image: url('../images/bg_hd_freview.gif') }
+		.primary-source h1 { background-image: url('../images/bg_hd_fsource.gif');}
+		.case-study h1 { background-image: url('https://cyh.rrchnm.org/themes/cyhtheme/images/bg_hd_fstudy.gif');}
+		.teaching-module h1 { background-image: url('https://cyh.rrchnm.org/themes/cyhtheme/images/bg_hd_fmodule.gif');}
+	
+		/* Section Browse styles = styles for the teaching modules list and case studies list */
+		.section-browse {list-style: none;font: 1.5em/2em Georgia, "Palatino Linotype", "Book Antiqua", "Times New Roman", Times, serif; width: 355px; float:left;margin-right:20px;}
+		.section-browse li {background: #fff url('../images/list_bullet.gif') no-repeat 0 0.65em; padding-left: 24px; display:block; width: 355px;margin-bottom: .25em;color: #347;}
+
+			
+			.section-browse li a:link {color:#347;}
+			.section-browse li a:visited {color:#555;}
+			.section-browse li a:hover {color: #c60;text-decoration:underline;}
+			.section-browse li a:active {color: #c60;}
+	
+	/* Item styles */
+	.item {overflow:hidden; zoom:1; border-top:1px solid #d5d5c5;padding-top:.6em;padding-bottom:2.4em;margin: 0px 12px 0 0;}
+
+			.item-img {width:54px; height:54px; display:block; float:left; margin-bottom: 18px;margin-top: 6px;}
+			.item .title, .item .author, .item .desc {margin-left:72px;}
+
+			.item .title a {font-size:.75em;font-family: Verdana, Geneva, sans-serif; margin-bottom:0;margin-top: 0;color: #347;font-weight: bold;text-decoration:none;font-style:normal;}
+			.item .title a:hover {border-bottom: 1px dotted #347;}
+			.item .author p {font-size:1em;font-family: Verdana, Geneva, sans-serif; margin-bottom:.6em;line-height:1.2em;text-decoration:none; color: #000;font-style:italic;}
+	        .item-show h2 {margin-bottom: .5em;}
+			.item p {font: 1.2em/132% Verdana, Geneva, sans-serif;margin-bottom:.9em;}
+		    .item-file a {border-bottom: none;}
+			.more a {font-size: .6em; color: #68b; text-decoration: none; font-size:1em;font-weight:normal;}
+		
+	
+			#show #item-text {float:left;width:492px;}
+			#show #item-text p {word-wrap:break-word;}
+			#show #item-info {float:right; width:236px;}
+				#show #item-info ul, #secondary #section-nav ul {font: 1.2em/132% Verdana, Geneva, sans-serif;margin-left: 0; font-weight:bold;}
+					#show #item-info li, #secondary #section-nav li {margin-bottom:0.9em;}
+					#show #item-info ul ul, #secondary #section-nav ul ul {font-size:0.95em; margin-left:0.9em;margin:0.9em; font-weight:normal;}
+					#show #item-info a, #secondary #section-nav a {text-decoration:none;}
+						#section-nav ul li a {color:#347;} 
+						#section-nav ul li a:hover {color:#c60;}
+			#show a img {padding:.5em 0;}
+					
+			/* item tags list */
+			#browse-items .item .item-tags {margin:1em 0 0;}				
+				/* Item Show */
+				#item-tags ul, .item-tags {list-style:none; margin-left:0;}
+				#item-tags li, .item-tags li {display:inline;}
+	
+
+			#section_start.teaching-modules #primary {width: 100%;}
+			.teaching-modules #teaching-modules-browse li {}
+				#teaching-modules-browse a {text-decoration:none; display:block; }
+			
+
+		/* Primary Sources */			
+		#source-content {padding:12px; background-color: #f5f5e5; margin-bottom:1.8em;} /* this sets off the text of a primary source from main text by indenting and giving colored bg */
+			#source-content li {margin-bottom:1em;}
+		
+		.primary-source ul {line-height: 1.2em; margin-bottom: 1.8em;} /* puts some leading in the text and space between multiple images in right sidebar */
+
+/* myomeka styles */
+#myomeka-signin {
+    clear:right;
+    float:right;
+    padding:0 6px;
+}
+
+#myomeka-signin p {
+    padding-right:0;
+    font-size:1em;
+    font-weight:bold;
+    text-align:right;
+    text-decoration:none;
+}
+
+#myomeka-signin a {
+    color:#334455;
+}
+#myomeka-signin a:hover {
+    color:#CC6600;
+}
+#myomeka-primary {
+}
+#myomeka-primary h2 {
+margin:0 0 3px;
+}
+#myomeka-primary h3 {
+padding-bottom:3px;font-size: 1.5em;
+}
+/* #myomeka-primary p, ul, ol, dl, address {
+font-size:1.2em;
+line-height:1.5em;
+margin:0;
+}*/
+#myomeka-login-box {
+float:left;
+width:368px;
+}
+#myomeka-register-box {
+background:#f5f5e5 none repeat scroll 0 0;
+float:right;
+margin-bottom:16px;
+padding:8px 16px 16px;
+width:336px;
+}
+#myomeka-forgotpassword {
+clear:left;
+float:left;
+width:300px;
+}
+#myomeka-add-notes, #myomeka-add-tags {
+background:#f5f5e5 none repeat scroll 0 0;
+clear:both;
+margin-top:10px;
+padding:10px;
+}
+#myomeka-add-tags {
+    margin-top:0;
+}
+#myomeka-add-notes h2, #myomeka-add-tags h2 {
+font-size:1.5em;
+font-style: normal;line-height:1.8em;
+margin:.5em 0 0;
+}
+a.dashboard-link:link, a.dashboard-link:visited, a.dashboard-link:hover, a.dashboard-link:active {
+background:#445577 none repeat scroll 0 0;
+color:#FFFFFF;
+float:right;
+font-size:1.2em;
+margin:-30px 0 0 0;
+padding:8px;
+text-decoration:none;
+}
+a.myomeka-help-link{
+    display:none;
+}
+#myomeka-note-form textarea {
+margin-bottom:3px;
+}
+#myomeka-posters {
+background:#f5f5e5 none repeat scroll 0 0;
+margin-top:5px;
+overflow:hidden;
+padding:10px;
+}
+#myomeka-poster-list > li {
+background:#FFFFFF none repeat scroll 0 0;
+border-bottom:1px solid #DBD8BE;
+overflow:hidden;
+padding:12px;
+}
+#myomeka-poster-list li.poster-title {
+clear:both;
+padding-top:10px;
+}
+#myomeka-posters > p {
+background:#FFFFFF none repeat scroll 0 0;
+font-size:1.1em;
+overflow:hidden;
+padding:12px;
+}
+#myomeka-posters h4 {
+font-size:1.2em;
+line-height:1.333em;
+}
+ul.myomeka-poster-meta {
+float:left;
+width:500px;padding-bottom: 10px;
+}
+.myomeka-poster-meta li * {
+font-size:1em;
+}
+ul.myomeka-poster-nav {
+border-top:1px solid #DBD8BE;
+float:right;
+margin:10px 0;
+width:120px;
+}
+.myomeka-poster-nav li a {
+border-bottom:1px solid #f5f5e5;
+display:block;
+padding:4px 0;
+}
+.myomeka-poster-nav li a.myomeka-view-poster-link {
+}
+.myomeka-poster-nav li a.myomeka-delete-poster-link {
+}
+.myomeka-delete-poster-link a {
+border:medium none;
+}
+#myomeka-notedItems-list li {
+font-size:1.2em;
+}
+#myomeka-notedItems-list img {
+border:2px solid #457;
+float:right;
+height:70px;
+margin-left:10px;margin-right: -20px;
+width:70px;margin-top: 20px;
+}
+.myomeka-notedItems-list-box {
+border-bottom:1px solid #f5f5e5;
+clear:left;
+display:block;
+float:left;
+margin-bottom:15px;
+margin-right:10px;
+padding-bottom:18px;padding-top: 9px;
+}
+#myomeka-notedItems {
+background:#FFFFFF none repeat scroll 0 0;
+border-color:#EEEEEE;
+border-style:solid;
+border-width:0 1px 0 0;
+float:left;
+margin-bottom:10px;
+overflow:hidden;
+width:50%;
+}
+#myomeka-tags {
+float:right;
+overflow:hidden;
+padding:-10px 5px 10px;
+width:45%;
+}
+#myomeka-tags-list li {
+font-size:1.2em;
+line-height:1em;margin-right:5px;margin-top: 1em;
+}
+#create-poster {
+background:#f5f5e5 none repeat scroll 0 0;
+clear:both;
+margin-bottom:10px;
+overflow:hidden;
+}
+#myomeka-create-poster a {
+background:#457 none repeat scroll 0 0;
+border-color:#FFFFFF;
+border-style:solid;
+border-width:3px 0 0 3px;
+color:#FFFFFF;
+float:right;
+font-size:1.2em;
+padding:8px;
+text-decoration:none;
+}
+#myomeka-create-poster h4 {
+font-size:1.2em;
+}
+.error {
+color:brown;
+font-size:1.2em;
+font-style:italic;
+padding:2px;
+text-align:center;
+}
+.alert {
+color:brown;
+font-size:1.2em;
+font-style:italic;
+padding:2px;
+text-align:center;
+}
+li .error {
+font-size:1em;
+text-align:left;
+}
+.success {
+color:green;
+font-size:1.2em;
+font-style:italic;
+padding:2px;
+text-align:center;
+}
+.myomeka-field {
+margin-bottom:10px;
+}
+#myomeka-poster-form {
+}
+#myomeka-poster-form label {
+font-size:1.2em;
+}
+.myomeka-field h2 {
+display:block;
+float:left;
+}
+#myomeka-poster-info {
+margin-bottom:10px;
+}
+#myomeka-poster-additem {
+display:block;
+float:left;
+margin:5px 0 15px 10px;
+}
+#myomeka-poster-additem a {
+background:#f5f5e5 none repeat scroll 0 0;
+border:1px solid #868D4A;
+font-size:1.2em;
+padding:4px;
+text-decoration:none;
+}
+.myomeka-poster-spot {
+border-bottom:1px solid #68b;
+clear:both;
+margin-bottom:5px;
+overflow:hidden;
+padding-bottom:5px;
+}
+#myomeka-submit-poster {
+clear:both;
+margin-bottom:16px;
+}
+#myomeka-poster-item {
+border-bottom:1px solid #868D4A;
+clear:both;
+margin-bottom:5px;
+overflow:hidden;
+padding-bottom:5px;
+}
+#myomeka-poster-item img {
+float:left;
+padding-right:10px;
+}
+.myomeka-controls {
+float:left;
+padding:3px 5px;
+}
+.myomeka-controls a {
+display:block;
+}
+.myomeka-item-thumbnail {
+float:left;
+padding:0 8px;
+}
+.myomeka-annotation {
+float:left;
+}
+.myomeka-controls-delete {
+display:block;
+float:left;
+padding:0 8px;
+}
+.myomeka-controls-delete img {
+vertical-align:top;
+}
+
+		
+/* == Footer == */
+#footer {clear:both; padding-top:12px; border-top: 6px solid #fff;background-color:#457;text-align:center;}
+	#footer-content ul {list-style:none; padding:0; margin:0; font-size: 1.1em;overflow:hidden; background-color:#457;color:#fff;padding-bottom: 30px;}
+	#footer-content li {display:inline;padding:0 6px 0 6px;}
+	#footer-content li a {text-decoration:none; width:100%; padding: 10px 0; color:#fff;margin: 0 6px;border:none;}
+    #footer-content p.utility-text a {font-size:.75em;font-weight:normal; text-decoration:underline;font-family: Arial, sans-serif;}
+
+	#reviews, #sources, #cases {border-right:1px solid #fff;margin-right: 0;}/* style for selective border on bottom nav list */
+	#copyright {font: 1.2em/1.9em Georgia, "Palatino Linotype", "Book Antiqua", "Times New Roman", Times, serif; margin-top: 15px;color: #fff;}
+
+	#footer p a {color:#fff; text-decoration:none;}
+	#footer p a:hover {text-decoration:underline;}
+
+

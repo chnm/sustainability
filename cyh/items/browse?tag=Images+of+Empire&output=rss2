@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=Images+of+Empire&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:19:44 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Images of Empire
+]]></title>
+      <link>https://cyh.rrchnm.org/items/show/256</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Images of Empire
+</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.imagesofempire.com</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">British Empire and Commonwealth Museum</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">July 2009</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href="http://www.imagesofempire.com"><em>Images of Empire</em></a> features an enormous collection of digitized images and film clips drawn from the British Empire and Commonwealth Museum's holdings. It also features a link to <a class="external" href="http://www.film-images.com/advance_search.jsp"><em>Film Images</em></a>, which provides access to a collection of 7,000 films from the Overseas Film and Television Archives. The main <em>Images of Empire</em> website does not list the total size of its holdings, but they are impressive in their geographical and chronological scope.</p>  
+
+<p>This collection of photographs and film clips (which are often drawn from private home movies) covers virtually every corner of the formal British Empire as well as independent nations and foreign colonies such as Peru and Mozambique where Britain had considerable informal influence. On the whole, these images, which tend to be less formal than the more official and staged photographs in the <em>RCS Photograph Project</em>, provide an intimate look into virtually every aspect of life in the 20th-century British Empire.</p>
+
+<p>Visitors to <em>Images of Empire</em> have the choice of using its extremely sophisticated search function that permits Boolean searches or browsing the collection through 10 thematic galleries:</p>
+<ul>
+<li>Domestic Life;</li>
+<li>Dress and Adornment;</li>
+<li>Hunting;</li>
+<li>Landscapes and Scenery;</li>
+<li>Portraits;</li>
+<li>Royalty and Chiefs;</li>
+<li>Street Scenes;</li>
+<li>Trade and Industry; and</li>
+<li>Wars and Conflicts.</li>
+</ul>
+<p>The series of keyword tags attached to each image are particularly useful in that they can be clicked to return every other image in the collection marked with similar tags. Thus, a photograph of Fijian women and children fishing includes the keywords and sub-keywords: people (children, female), domestic life (child rearing), hunting (fishing), labor (agricultural and rural, women's), landscape and scenery (marine and coastal), trades and professions (fishing and hunting).</p> 
+<p.Clicking on the "children" sub-tag returns 536 results, and "child rearing" yields 239 hits. Using the "quick search" box to look for "students" brings up 46 images and film clips, one of which is a photograph of Sudanese students exercising at Gordon College in Khartoum that includes the useful tags of "uniform," "youth," and "schools and college."</p>
+
+<p>The website returns search results as captioned small thumbnails images that can be clicked through to the main image or conveniently enlarged on the fly by "mousing over them." There is also the option of viewing the results as a list or grid, and visitors who register with the website can save their searches to a "lightbox."</p>  
+
+<p>From an educational standpoint, the <em>Images of Empire</em>'s only significant disappointment is that it appears to be intended primarily as a profit-making venture. The images themselves are watermarked with the <em>Images of Empire</em> copyright, relatively small, and scanned to only 72 dpi. These are sufficient for classroom use, but they are significantly inferior to the high resolution images offered by the <a class="external" href="http://chnm.gmu.edu/cyh/website-reviews/255"><em>RCS Photograph Project</em></a>. For those wishing to acquire higher quality images there is a detailed licensing price list for a wide variety of media, but there is no discount for non-commercial educational use.</p>
+
+<p>Nevertheless, <em>Images of Empire</em> is an impressive research tool and teaching resource. Its vast collection of images, advanced search options, and sophisticated tagging system provides access to hundreds of pictures and film clips of young people, students, and families that chronicle the changing experiences of childhood under the British Empire. In addition to documenting broad shifts in parenting, labor, schooling, and play over the past century, <em>Images of Empire</em> demonstrates that children played a central role in legitimizing, sustaining, and complicating systems of imperial rule.</p>
+
+<p>Teachers can use images of Indian pageboys at a coronation ceremony, smiling Arab children in British Palestine, African Boy Scouts and Girl Guides in Kenya, a Methodist school for girls in India, a Chinese child freed from domestic slavery, and a British doctor treating a young African child for sleeping sickness to illustrate how imperial photographers used children to depict the British Empire as popular, just, and benevolent.<a href="#note1" id="fn1" class="footnote">1</a> In contract, pictures of a young Jamaican boy riding a donkey to market instead of school, a Kikuyu mother picking lice off her daughter's head, and naked and malnourished children in independent Ghana suggest that non-European peoples needed western supervision because they lacked the means to raise their children properly.</p>
+
+<p>Alternatively, the collection also shows that children could be politically dangerous. To illustrate this, teachers can use the photographs of Boy Scouts and regimented Kikuyu boys exercising behind barbed wire in "strategic villages" during the Mau Mau Emergency to ask their students to think about why some young Africans enjoyed the privileges of being Scouts while their peers were confined in prison camps. These sharply contrasting images of voluntary and forced conformity demonstrate that the Kenyan authorities worried that uncontrolled African adolescents were a threat to British imperial rule.  (See: <a class="external" href=" http://chnm.gmu.edu/cyh/teaching-modules/95">African Scouting Teaching Module</a> written by Tim Parsons.) </p>
+	<p>An equally interesting exercise would be to use the many images of European children in the collection to help students understand the dominant position of westerners in the British Empire. In contrast to pictures of poor, laboring, and impoverished African and Asian children, <em>Images of Empire</em> provides photographs and home movies of British boys and girls enjoying an idyllic childhood replete with attentive servants, exotic pets, comfortably safe houses and compounds, good schools, and loving parents. </p>  
+<p>In comparing these strikingly different photographic records teachers can ask their students to think about the inherent economic and social advantages of empire and the privileges of western notions of childhood. While imperial photographers often featured African and Asian children in imperial schools, the many images of poor and laboring children in the collection demonstrate that they were a small but fortunate minority.</p>
+<div id="notes">
+<p><a href="#fn1" id="note1" class="footnote">1</a> Indian pageboys New Delhi 1911 (00004511), Palestinian children 1942 (00009618), Scouts & Guides, Coast Province 1950 (00006894), Methodist girl's school Mysore 1934 (00010499), Sleeping sickness victim Northern Rhodesia 1950 (0006717), Chinese child freedom from domestic slavery 1930 (0003176).</p>
+<p><a href="#fn2" id="note2" class="footnote">2</a> Jamaican boy riding donkey to market 1910 (0007873), Kikuyu mother delousing daughter 1936 (0008409), Naked & malnourished children 1960 Ghana (post-independence) (00008147)</p>
+<p><a href="#fn3" id="note3" class="footnote">3</a> 3 Kenyan Scouts, Coast Province 1950, (00006893), Kikuyu children drilling in a strategic village 1953 (00001092) (0001090)</p>
+<p><a href="#fn4" id="note4" class="footnote">4</a> Indian ayah with son of Methodist missionary 1938 (00010513), Children carried in sedan chair India 1935 (1110367), European child playing w/pet Vervet monkey Uganda 1928 (00002060), Musical chairs at a Kenyan settler garden party 1952 (0002590)</p>
+<p><a href="#fn5" id="note5" class="footnote">5</a> Tanganyika students w/microscopes 1950 (00001948), Thin children collecting muddy water Uganda 1959 (00011924)</a>
+</div>
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Tim Parsons</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">Washington University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text"><em>Images of Empire</em> features an enormous collection of digitized images and film clips drawn from the British Empire and Commonwealth Museum's holdings. </div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/204/fullsize"><img src="/files/display/204/square_thumbnail" class="thumb" alt="Images of Empire
+" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Sat, 01 Aug 2009 17:08:26 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/204/fullsize" type="image/jpeg" length="34774"/>
+    </item>
+  </channel>
+</rss>

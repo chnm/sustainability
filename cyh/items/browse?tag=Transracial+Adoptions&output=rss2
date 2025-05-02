@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=Transracial+Adoptions&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:24:18 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[The Adoption History Project]]></title>
+      <link>https://cyh.rrchnm.org/items/show/94</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">The Adoption History Project</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-06-25</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.uoregon.edu/~adoption/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">University of Oregon</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">January 2008</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href=http://www.uoregon.edu/~adoption/index.html><em>The Adoption History Project</em></a> is a superb resource for scholars and students alike. Not only does it offer a broad and consistently high-quality range of historical information, the site itself was designed with user accessibility in mind—it is easy to navigate and welcoming for students.</p>
+
+<p>The <a class="external" href=http://www.uoregon.edu/~adoption/index.html>home page</a> introduces the five major categories. Of these, one that might appeal most immediately to students is the <a class="external" href=http://www.uoregon.edu/~adoption/timeline.html>Timeline</a>, which gives a concise, one-page overview of major developments in adoption history from 1851 to 2000. Other categories include: <a class="external" href=http://www.uoregon.edu/~adoption/people/index.html>major people and organizations</a>; <a class="external" href=http://www.uoregon.edu/~adoption/studies/index.html>explanations of adoption studies and adoption science</a>; <a class="external" href=http://www.uoregon.edu/~adoption/topics/index.html> general topics in adoption history</a>; and a rich collection of  <a class="external" href=http://www.uoregon.edu/~adoption/archive/index.html>primary-source documents</a> that, in itself, offers hours of compelling reading. 
+See, for example, the illustrated excerpts from <a class="external" href=http://www.uoregon.edu/~adoption/archive/BraceDCNY.htm><em>The Dangerous Classes of New York and Twenty Years' Work Among Them</em></a> [1872] by Charles Loring Brace, a leading figure in 19th century social reform and child-rescue.</p> 
+
+<p>Shorter primary sources appear in full-text form; longer ones are efficiently excerpted for easy reading, with full citations provided. <a class="external" href=http://www.uoregon.edu/~adoption/reading.html>Further Reading</a> offers references to many useful texts. One of the site's nicest design features is that much of this information is cross-indexed, so that visitors can find the same pages easily through a variety of different paths. To make navigation even simpler, a <a class="external" href=http://www.uoregon.edu/~adoption/siteindex.html>Site Index</a> provides a clear and cogent list of topics.</p>
+
+<p>Written in a clear and engaging style, the site offers quick access to major issues that shape the field of adoption history. For example, <a class="external" href=http://www.uoregon.edu/~adoption/studies/index.html>Adoption Studies/Adoption Science</a> leads to a paragraph that neatly explains: "Adoption has been the subject of four major types of empirical research: <a class="external" href=http://www.uoregon.edu/~adoption/topics/fieldstudies.htm>field studies</a>, <a class="external" href=http://www.uoregon.edu/~adoption/topics/outcomestudies.htm> outcome studies</a>, <a class="external" href=http://www.uoregon.edu/~adoption/topics/naturenurturestudies.htm>nature-nurture studies</a>, and <a class="external" href=http://www.uoregon.edu/~adoption/topics/psychopathstudies.htm>psychopathology studies</a>." Each term is hyperlinked to chronological lists of studies in the relevant area. The page also provides descriptions of particular studies and excerpts, making it relatively simple for someone new to the field to quickly grasp the general shape of the discourse of adoption history.</p>
+
+<p>The overall content reflects the impact of Cultural Studies and multiculturalism on the field of adoption history. Pages on <a class="external" href=http://www.uoregon.edu/~adoption/topics/transracialadoption.htm>transracial adoptions</a>, <a class="external" href=http://www.uoregon.edu/~adoption/topics/AfricanAmerican.htm>African-American adoptions</a>, and the <a class="external" href=http://www.uoregon.edu/~adoption/topics/IAP.html>Indian Adoption Project</a> complement those devoted to the more traditionally visible history of white orphans, white social workers, and white adoptive parents.</p> 
+
+<p>One small critique of the biographies of major figures: the pages devoted to female figures (such as <a class="external" href=http://www.uoregon.edu/~adoption/people/buck.html>Pearl S. Buck</a> and <a class="external" href=http://www.uoregon.edu/~adoption/people/AnnaFreud.htm>Anna Freud</a>) mention their marital and/or parental status, often in the very first paragraph, presenting the impression that a woman's personal relationships are the most necessary and relevant facts of her life. Meanwhile, the male figures are discussed solely for their professional importance, with little or no mention of their family life.</p>
+
+<p>Feminist historians will find this irritating, especially in the case of <a class="external" href=http://www.uoregon.edu/~adoption/people/AnnaFreud.htm>Anna Freud</a>, who is described reductively as an apparent victim of an Elektra complex: "She made her father's profession her own . . . . Anna Freud never married or had children. She was her father's constant companion, his colleague, and his nurse during the final years of his life." Especially because it appears in the first paragraph, this is an inappropriately condescending description of someone who deserves to have her professional accomplishments foregrounded. That flaw, however, could easily be turned into a good teaching opportunity with students who are old enough to grasp the concept of gender bias in historiography.</p> 
+
+<p>Overall, the <a class="external" href=http://www.uoregon.edu/~adoption/index.html>Adoption History Project</a> is among the best-designed and most succinctly comprehensive historical websites currently available. It is useful for students and scholars at all levels of academic proficiency.</p></div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Ilana Nash</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">Western Michigan University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">Overall, the Adoption History Project is among the best-designed and most succinctly comprehensive historical websites currently available.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/84/fullsize"><img src="/files/display/84/square_thumbnail" class="thumb" alt="The Adoption History Project" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Wed, 25 Jun 2008 20:29:29 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/84/fullsize" type="image/jpeg" length="48891"/>
+    </item>
+  </channel>
+</rss>

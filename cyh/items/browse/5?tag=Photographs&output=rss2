@@ -1,0 +1,1815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse/5?tag=Photographs&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:23:47 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[“No Child’s Play”]]></title>
+      <link>https://cyh.rrchnm.org/items/show/294</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">“No Child’s Play”</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www1.yadvashem.org/yv/en/exhibitions/nochildsplay/index.asp</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Yad Vashem Holocaust Museum</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">August 2009</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>The exhibit <a class="external" href="http://www1.yadvashem.org/yv/en/exhibitions/nochildsplay/index.asp"><em>No Child's Play</em></a> at the <a class="external" href="http://www.yadvashem.org/"> Yad Vashem Holocaust Museum</a> in Jerusalem presents the photos, drawings, toys, dolls, and board games of children who were victims of the Holocaust. Of the ca. 6 million persons killed, one and a half million were children. The intent of the site is to provide viewers with insight into the lives of children during the Shoah by focusing on the personal stories and material culture of those few who survived. The children's stories are presented here with texts and images, written and edited by Yehudit Inbar, curator of the Yad Vashem Holocaust Memorial Museum.</p>
+
+<p>This collection of narratives and artifacts reveals that children found comfort and companionship in the material culture of their childhood that also enabled them to create a reality different from that which surrounded them. Moreover, the array of child-centered documentary sources demonstrates how children provided their parents with encouragement, hope, in addition to money and food, that enabled them to continue their desperate daily fight for survival. The introduction is followed by a sequence of chronologically-organized links: the world of children <a class="external" href="http://www1.yadvashem.org/exhibitions/nochildsplay/before.asp">before the war</a>; <a class="external" href="http://www1.yadvashem.org/exhibitions/nochildsplay/war.asp"> in the shadow of the war</a>; in the <a class="external" href="http://www1.yadvashem.org/exhibitions/nochildsplay/ghettos.asp">ghettos and the camps</a>;  <a class="external" href="http://www1.yadvashem.org/exhibitions/nochildsplay/hiding.asp">in hiding</a>, and in their <a class="external" href="http://www1.yadvashem.org/exhibitions/nochildsplay/new_life.asp">new life</a>. The viewer can easily click through the individual pages of each chapter—which contain between three to 15 images—while maintaining direct access to the chapter titles located in the left-hand navigation bar.</p>
+
+<p>The texts that accompany the images offer useful explanations and clearly highlight their significance in a broader context. As the author emphasizes about the photographs in the <a class="external" href="http://www1.yadvashem.org/exhibitions/nochildsplay/before.asp">"Before the War"</a> section, all children lived their own individual lives, and none of the images present anything unusual or extraordinary. These images of ordinary children's lives underscore, however, the horror that was to come. During the war, many parents tried to save their children by sending them abroad. Youth Aliyah, for instance, successfully sent some 5,000 children to Palestine, while 9,000 left Germany after <em>Kristallnacht</em> for Great Britain. The rising tide of anti-Semitism, however, forced the return of refugees such as Liesel Joseph, a passenger on the ill-fated <em>Saint Louis</em>. The ocean liner depicted in Liesels colorful drawing that was prevented from disembarking Jewish passengers in Cuba returned to Europe.</p> 
+
+<p>The chapter, <a class="external" href="http://www1.yadvashem.org/exhibitions/nochildsplay/ghettos.asp">"Ghettos and Camps,"</a> includes illustrations of pre-ghetto life by Czech artist Bedrich Fritta created in celebration of his son's third birthday. Also included are several illustrations of the Theresienstadt ghetto drawn by an artistically talented teenage boy and dolls owned by two survivors whose stories also shed light on the enormous importance of toys to children living in ghettos and camps. There are even photos of a monopoly-like board game created in a graphics workshop engaged in underground activities that sought to provide children with useful information about how to survive the ghetto. (Unfortunately, much of the text printed on the game board and playing cards is frustratingly illegible in the site's magnified version.)</p> 
+
+<p>For the section <a class="external" href="http://www1.yadvashem.org/exhibitions/nochildsplay/hiding.asp">"In Hiding"</a> the curator/editor included a selection of photographs of children with classmates and toys, as well as the teddy bear that belonged to a boy while hidden in Holland by a Christian family. The recollections of survivors included throughout the site provide unique insight into the personal meanings of children's possessions in a historically-specific context. The final section, <a class="external" href="http://www1.yadvashem.org/exhibitions/nochildsplay/new_life.asp">"Toward a New Life,"</a> consists of only three black and white photos of groups of children and one boy who did not want to let go of a toy gun once he had been liberated from Buchenwald.</p>
+	
+<p>However small the selection of sources, <em>No Child's Play</em> is sure to provide students with a deeper understanding of the impact of the Holocaust on children by giving voice to its victims. Teachers might find the need to include supplementary sources (both primary and secondary) due to the site's scant documentation of the horrors of the Holocaust. There is no guide to additional resources, however. And, in the absence of useful teaching strategies, instructors might find it helpful to discuss with their students the different methods of analysis needed to unpack the variety of documentary sources—photographs, artifacts, narratives, etc.—that were created by and for children of the Holocaust.</p> 
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Albrecht Classen</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">University of Arizona</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">The exhibit &quot;No Child’s Play&quot; at the Yad Vashem Holocaust Museum in Jerusalem presents the photos, drawings, toys, dolls, and board games of children who were victims of the Holocaust. </div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/229/fullsize"><img src="/files/display/229/square_thumbnail" class="thumb" alt="“No Child’s Play”" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Tue, 08 Sep 2009 22:47:10 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/229/fullsize" type="image/jpeg" length="40100"/>
+    </item>
+    <item>
+      <title><![CDATA[Carlisle Indian School Students [Photograph]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/291</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Carlisle Indian School Students [Photograph]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>The photograph shows buildings and students of the Carlisle Indian Industrial School around 1900. Attended by over 12,000 Native American children from more than 140 tribes between 1879 and 1918, the school was the model for nearly 150 Indian schools. Its founder was U.S. Army officer Richard Henry Pratt, who commanded a unit of African American "Buffalo Soldiers" and Indian scouts in Oklahoma and witnessed the Bureau of Indian Affair’s irresponsible policies on reservations. In 1875, the Army placed Platt in charge of 72 Indian warriors imprisoned in Florida. Platt imposed military discipline on the prisoners, but also arranged to teach them to read.</p> 
+<p>Based on this experience, he developed a scheme to assimilate Indians by removing them from tribal influences and transforming them through education. In 1879, Pratt secured permission to use a deserted military base in Carlisle, Pennsylvania, as the site of his school.  Platt expressed his educational philosophy, highlighted in the accompanying quotation, in a paper read at an 1892 convention. Today, one of the few remaining landmarks of the Carlisle Indian School is the cemetery for students who died at the school and whose remains could not be returned to their families.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">&quot;Carlisle Indian Industrial School History,&quot; &lt;a class=&quot;external&quot; href=&quot;http://home.epix.net/~landis/histry.html&quot;&gt;http://home.epix.net/~landis/histry.html&lt;/a&gt;. Text: &quot;&#039;Kill the Indian, and Save the Man:&#039; Capt. Richard H. Pratt on the Education of Native Americans,&quot; &lt;a class=&quot;external&quot; href=&quot;http://historymatters.gmu.edu/d/4929/&quot;&gt;http://historymatters.gmu.edu/d/4929/&lt;/a&gt;. (accessed August 1, 2009).</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">290</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>"A great general has said that the only good Indian is a dead one, and that high sanction of his destruction has been an enormous factor in promoting Indian massacres. In a sense, I agree with the sentiment, but only in this: that all the Indian there is in the race should be dead. Kill the Indian in him, and save the man…It is a great mistake to think that the Indian is born an inevitable savage. He is born a blank, like all the rest of us. Left in the surroundings of savagery, he grows to possess a savage language, superstition, and life. . . As we have taken into our national family seven millions of Negroes, and as we receive foreigners at the rate of more than five hundred thousand a year, and assimilate them, it would seem that the time may have arrived when we can very properly make at least the attempt to assimilate our two hundred and fifty thousand Indians…The school at Carlisle is an attempt on the part of the government to do this. Carlisle has always planted treason to the tribe and loyalty to the nation at large. It has preached against colonizing Indians, and in favor of individualizing them..."</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/226/fullsize"><img src="/files/display/226/square_thumbnail" class="thumb" alt="Carlisle Indian School Students [Photograph]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Mon, 07 Sep 2009 21:51:08 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/226/fullsize" type="image/jpeg" length="89607"/>
+    </item>
+    <item>
+      <title><![CDATA[Immigrant Crossing Road Sign [Newspaper Article and Photograph]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/289</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Immigrant Crossing Road Sign [Newspaper Article and Photograph]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Interstate 5 runs from the Mexican/U.S. border crossing at San Ysidro, California, to the Peace Arch Crossing into Canada at Blaine, Washington. This official yellow warning road sign is posted along Interstate 5 near the San Ysidro crossing and north of San Diego. The sign shows a man and a woman running as the woman pulls a girl with pigtails along, her feet barely touching the ground. San Ysidro is the world's busiest land border crossing, with more than 17 million vehicles and 50 million people crossing legally in 2005. The California Department of Transportation, or Caltrans, developed this warning sign after more than 100 undocumented immigrants were killed on the highway, especially near border control points. After trying a wordy and ineffective sign that read, "Caution Watch for People Crossing Road," Caltrans assigned graphic artist John Hood, a Vietnam veteran of Navaho parentage, to develop the new sign. Posted in 1990, it quickly became a cultural icon for those who tolerate and those who oppose immigration, both legal and illegal.</p> 
+<p>Migration in borderlands such as the California/Mexico crossing have attracted academic attention as a phenomenon of globalization. In 1990 and 1991, almost 3.5 million immigrants were admitted legally to the United States—a number larger than at any previous point in American history, and as of 2009, over 25 million people in the U.S. are foreign born, excluding illegal immigrants. In some urban Southern California counties, the majority of residents are immigrants, and many of these are children who require schooling, health care, and other services. Academic study of immigration tracks both the reception of immigrants among the resident population, and the interaction of the immigrants with the destination country. Of the 24 million Americans in the United States today who migrated since 1960, 40% came as children.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Leslie Berestein, "Highway safety sign becomes running story on immigration," <em>The San Diego Union Tribune</em>, April 10, 2005. <a class="external" href="http://www.signonsandiego.com/uniontrib/20050410/news_1n10signs.html">Available online</a> (accessed July 1, 2009). Photograph by permission, Copyright  Roger J. Wendell, <a class="external" href="http://www.rogerwendell.com/images/photography/immigrant_crossing_san_diego_03-18-2004.jpg">http://www.rogerwendell.com/images/photography/immigrant_crossing_san_diego_03-18-2004.jpg</a>  (accessed July 1, 2009).</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg, text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>. . . The assignment to create the road sign landed on the desk of Caltrans graphic artist John Hood in the late 1980s. He was asked to design an image that, in the blink of an eye, would alert drivers to the unexpected sight of pedestrians in their headlights.  Before Hood began drawing the sign, he and his supervisors met with Highway Patrol officers and saw photos of accident scenes. What got to him most were the deaths that involved families. "Graphically, I wanted to show a family," said Hood, who lives in San Diego. He chose to include a pigtailed girl, rather than a boy, because "there is something about a little girl running across with her parents that we are more affected by."</p> 
+<p>At first he drew detailed figures, with faces that showed "a little bit of fright." But, in the end, Hood and his supervisors decided on a silhouette. "When you are looking through headlights, that is what you see," Hood said, "an outline of the image itself." As he sketched, Hood tried to imagine the despair that might drive such a family across the border and onto a forbidding foreign highway. He drew from his own experience fighting in Vietnam, where he had seen families run for their lives as villages were attacked. He remembered stories his Navajo parents had told him about ancestors who died trying to escape as U.S. soldiers marched them onto reservations.</p> 
+<p>The drawing was finished in a week. Even without faces, the characters conveyed a sense of urgency in their flight. "It doesn't just mean they are running across the freeway," Hood said. "It means they are running from something else as well. I think it's a struggle for a lot of things, for opportunities, for freedom."</p> 
+</div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/224/fullsize"><img src="/files/display/224/square_thumbnail" class="thumb" alt="Immigrant Crossing Road Sign [Newspaper Article and Photograph]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Mon, 07 Sep 2009 20:42:12 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/224/fullsize" type="image/jpeg" length="102338"/>
+    </item>
+    <item>
+      <title><![CDATA[Seri Children Sliding on Turtle Shells [Photograph]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/267</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Seri Children Sliding on Turtle Shells [Photograph]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Six children of the Seri indigenous people slide down a hill using the shells of sea turtles as sleds, illustrating the universal ability of children to create play activities including equipment out of things in their environment. These children belong to a group that has been indigenous to the area for many generations, so it is likely that this game has a long heritage on the beaches where sea turtles come to breed. The place is Tiburón Island in the Gulf of California, the state of Sonora, Mexico. The island is named Tahéjöc in the language of the Seri, which is a linguistic isolate, or language distinct from all others in the region. Clans of Seri lived in the area of Tiburón Island for many centuries if not millennia. Their heritage was recognized by a decree of the Mexican government in 1975, granting them a title of communal property ("reconocimiento y titulación de terrenos comunales). Today Tiburón Island is a nature reserve.</p> 
+
+<p>The photograph was taken in 1924 by Edward H. Davis (1862-1951) who owned a ranch near San Diego, California. He explored the vicinity, photographed its indigenous inhabitants, and collected native objects. Through his knowledge of the region and familiarity with the people, he was able to capture this revealing, unusual image. George Heye, founder of the Museum of the American Indian, hired Davis in 1916 to help add to his collection.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Silver gelatin print by Edward H. Davis, 1924, National Museum of the American Indian, Smithsonian Institution, &lt;a class=&quot;external&quot; href=&quot;http://www.nmai.si.edu/searchcollections/item.aspx?irn=319492&amp;catids=2,4&amp;des=children&amp;src=1-5&quot;&gt; http://www.nmai.si.edu/searchcollections/item.aspx?irn=319492&amp;catids=2,4&amp;des=children&amp;src=1-5&lt;/a&gt; (accessed July 28, 2009).</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                                    <div class="element-text">Black and white photo of six children of the Seri indigenous people preparing to slide down a hill using the shells of sea turtles as sleds. The place is Tiburón Island in the Gulf of California, the state of Sonora, Mexico. The photograph was taken in 1924 by Edward H. Davis (1862-1951) who owned a ranch near San Diego, California.</div>
+                    </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/201/fullsize"><img src="/files/display/201/square_thumbnail" class="thumb" alt="Seri Children Sliding on Turtle Shells [Photograph]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Sun, 09 Aug 2009 18:01:18 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/201/fullsize" type="image/jpeg" length="76347"/>
+    </item>
+    <item>
+      <title><![CDATA[Ona Family Group of Tierra del Fuego [Postcard/Photograph]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/265</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Ona Family Group of Tierra del Fuego [Postcard/Photograph]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Father Alberto Maria De Agostini, a missionary, took this postcard image on Isla Grande, Tierra del Fuego, on the southernmost tip of South America. The photograph, taken circa 1930, shows a man, woman, and two children walking through a clearing surrounded by thickets. The man and boy are carrying bows and arrows, and the younger child walks close to his or her mother, who is carrying bundles on a frame on her back. The family members wear robes made of guanaco hide, a South American animal similar to a llama. The woman and children are barefoot. The man wears shoes of fur-covered hide and a cone-shaped hat.</p> 
+
+<p>This family belongs to the Ona tribe, or Selk'nam, whose existence in the area near the Strait of Magellan can be traced back at least 9,000 years. The Ona, one of several distinct tribes in the region, lived as hunter-gatherers. Europeans have known of this group since Magellan named the land after their fires, which he saw burning on the coast. Charles Darwin described them in the journal of his voyage on the Beagle. Since then, missionaries have visited and lived among them, settlers have displaced and even hunted them, and anthropologists have attempted to study them to understand life in the Stone Age. Death from diseases brought a sharp drop in their population, which had numbered in the thousands.  According to the last census of native populations in 1965, only 300 Onas remained. The last full-blooded Ona person died in 1995 in Argentina.</p> 
+</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Father Alberto Maria De Agostini, <em>Familia Ona de viage</em>. National Museum of the American Indian, <a class="external" href="http://www.nmai.si.edu/searchcollections/item.aspx?catids=2%2c4&des=children&src=1-5&irn=308609">http://www.nmai.si.edu/searchcollections/item.aspx?catids=2%2c4&des=children&src=1-5&irn=308609</a> (accessed August 1, 2009). Courtesy, National Museum of the American Indian, Smithsonian Institution [P17185].</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                                    <div class="element-text">Black and white photo postcard image (taken by Father Alberto Maria De Agostini, a missionary, took this postcard image on Isla Grande, Tierra del Fuego, on the southernmost tip of South America circa 1930). The image shows a man, woman, and two children walking through a clearing surrounded by thickets. The man and boy are carrying bows and arrows, and the younger child walks close to his or her mother, who is carrying bundles on a frame on her back. The family members wear robes made of guanaco hide, a South American animal similar to a llama. The woman and children are barefoot. The man wears shoes of fur-covered hide and a cone-shaped hat.</div>
+                    </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/200/fullsize"><img src="/files/display/200/square_thumbnail" class="thumb" alt="Ona Family Group of Tierra del Fuego [Postcard/Photograph]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Sat, 08 Aug 2009 16:35:33 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/200/fullsize" type="image/jpeg" length="110451"/>
+    </item>
+    <item>
+      <title><![CDATA[Selling Toys [Photographs]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/264</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Selling Toys [Photographs]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>These photographs come from <a href="http://chnm.gmu.edu/cyh/website-reviews/127">The Hedda Morrison Photographs of China, 1933-1946</a> website, a collection of photographs that provide a perspective on childhood in a period that bridges the conclusion of the Qing dynasty (1644-1911) and the rise of a new 20th-century republic in China. Morrison, a native of Germany, spent time as a resident of Beijing where she built a rich collection of photographs of daily life during the 1930s and early 1940s. Among many topics, Morrison was particularly interested in street scenes and composed photos of shops, commerce, street-side entertainments, and the daily life of local residents. Included among these are a good number of images of children. These three images focus on the street-side sale of toys, sold by adults to children and also sold by children as seen in the third image. An exploration of these images raises intriguing issues regarding some of the material objects that made up a child's daily life (or part of a special occasion) as well as the social roles attached to their production, sale, and consumption. Indeed, it would seem – unlike the patterns of toy consumption enjoyed by children in a later day – that these roles overlapped greatly.</p>
+
+
+
+
+</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text"><a class="external" href="http://nrs.harvard.edu/urn-3:FHCL:8613">"Boy selling pinwheels at New Year's" (HM07.2876), <a class="external" href="http://nrs.harvard.edu/urn-3:FHCL:11712">"Hawker selling toy whistles and lanterns at New Year's"</a> (HM19.6368), <a class="external" href="http://nrs.harvard.edu/urn-3:FHCL:9199">"Toy Vendor with gong called a tong luo, display stand, and boy holding a toy"</a> (HM19.6366), <em>The Hedda Morrison Photographs of China, 1933 – 1946,</em> <a class="external" href="http://hcl.harvard.edu/libraries/harvard-yenching/collections/morrison/index.html">http://hcl.harvard.edu/libraries/harvard-yenching/collections/morrison/index.html</a>, Harvard College Library (accessed August 5, 2009).</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Susan Fernsebner</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">221</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                                    <div class="element-text">Three black and white photographs. These focus on the street-side sale of toys, sold by adults to children and also sold by children as seen in the third image. The first shows a boy selling pinwheels at New Year&#039;s, the second shows a hawker selling toy whistles and lanterns at New Year&#039;s, and third depicts a toy vendor with a gong called a tong luo, display stand, and boy holding a toy.</div>
+                    </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/194/fullsize"><img src="/files/display/194/square_thumbnail" class="thumb" alt="Selling Toys [Photographs]" width="250" height="250"/>
+</a></div><div class="item-file image-jpeg"><a class="download-file" href="/files/download/195/fullsize"><img src="/files/display/195/square_thumbnail" class="thumb" alt="Selling Toys [Photographs]" width="250" height="250"/>
+</a></div><div class="item-file image-jpeg"><a class="download-file" href="/files/download/196/fullsize"><img src="/files/display/196/square_thumbnail" class="thumb" alt="Selling Toys [Photographs]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Fri, 07 Aug 2009 04:40:24 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/194/fullsize" type="image/jpeg" length="106468"/>
+    </item>
+    <item>
+      <title><![CDATA[Children and Toys [Photographs]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/263</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Children and Toys [Photographs]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>These photographs come from <a class="external" href="http://chnm.gmu.edu/cyh/website-reviews/127">The Hedda Morrison Photographs of China, 1933-1946</a> website, a collection of photographs that provide a perspective on childhood in a period that bridges the conclusion of the Qing dynasty (1644-1911) and the rise of a new 20th-century republic in China. Morrison, a native of Germany, spent time as a resident of Beijing where she built a rich collection of photographs of daily life during the 1930s and early 1940s. Among many topics, Morrison was particularly interested in street scenes and composed photos of shops, commerce, street-side entertainments, and the daily life of local residents. Included among these are a good number of images of children. These three images focus on the street-side sale of toys and on the children who admired and sometimes purchased the various objects. An exploration of these images raises intriguing issues regarding some of the material objects that made up a child's daily life (or part of a special occasion) as well as the social roles attached to their production, sale, and consumption. Indeed, it would seem – unlike the patterns of toy consumption enjoyed by children in a later day – that these roles overlapped greatly.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text"><a class="external" href="http://nrs.harvard.edu/urn-3:FHCL:9200">"Boy holding toy next to toy vendor's stand"</a> (HM19.6368), <a class="external" href="http://nrs.harvard.edu/urn-3:FHCL:8337">"Child holding a pole with toy oxen at New Year's"</a> (HM07.2872), <a class="external" href="http://nrs.harvard.edu/urn-3:FHCL:11762">"Two girls standing next to hawker's display of paper butterflies"</a> (HM20.1657), <em>The Hedda Morrison Photographs of China, 1933 – 1946,</em> <a class="external" href="http://hcl.harvard.edu/libraries/harvard-yenching/collections/morrison/index.html">, Harvard College Library (accessed August 5, 2009)</a>.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Susan Fernsebner</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">221</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                                    <div class="element-text">Three photos, black and white, street scenes, close-up of children and vendors. These three images focus on the street-side sale of toys and on the children who admired and sometimes purchased the various objects. The first is of a boy holding a toy next to a toy vendor&#039;s stand, the second of a child holding a pole with toy oxen at New Year&#039;s, and the third is of two girls standing next to a hawker&#039;s display of paper butterflies. </div>
+                    </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/191/fullsize"><img src="/files/display/191/square_thumbnail" class="thumb" alt="Children and Toys [Photographs]" width="250" height="250"/>
+</a></div><div class="item-file image-jpeg"><a class="download-file" href="/files/download/192/fullsize"><img src="/files/display/192/square_thumbnail" class="thumb" alt="Children and Toys [Photographs]" width="250" height="250"/>
+</a></div><div class="item-file image-jpeg"><a class="download-file" href="/files/download/193/fullsize"><img src="/files/display/193/square_thumbnail" class="thumb" alt="Children and Toys [Photographs]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Fri, 07 Aug 2009 02:26:36 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/191/fullsize" type="image/jpeg" length="117084"/>
+    </item>
+    <item>
+      <title><![CDATA[LIFE photo archive]]></title>
+      <link>https://cyh.rrchnm.org/items/show/250</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">LIFE photo archive</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Kelly Schrum</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://images.google.com/hosted/life</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">LIFE</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">July 2009</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>Imagine walking down a hallway lined with photographs. Now imagine walking through a labyrinth of hallways with 10 million photographs and drawings, the approximate number of images available in the <a class="external" href="http://images.google.com/hosted/life">LIFE photo archive</a>, hosted by Google.</p>
+
+
+
+
+<p>On one wall, a black-and-white photograph shows a white <a class="external" href="http://images.google.com/hosted/life/l?q=baby+source:life&prev=/images%3Fq%3Dbaby%2Bsource:life%26hl%3Den%26sa%3DG&imgurl=b8d518ed7be676e8">baby</a> perched on the edge of a sink holding a toothbrush in its mouth. On another, an African American <a class="external" href="http://images.google.com/hosted/life/l?imgurl=71e898949d8afe69&q=canaries%20source:life&prev=/images%3Fq%3Dcanaries%2Bsource:life%26hl%3Den">toddler</a> sits snuggled in a blanket on a shelter chair during a flood in Louisville, Kentucky. Still other images show two <a class="external" href="http://images.google.com/hosted/life/l?imgurl=45d59640baba1c89&q=children%20source:life&prev=/images%3Fq%3Dchildren%2Bsource:life%26hl%3Den%26sa%3DG">daughters</a> of Czar Nicholas II of Russia on an outdoor patio, <a class="external" href="http://images.google.com/hosted/life/l?imgurl=2f62ab2c0be61763&q=school%20children%20ecuador%20source:life&prev=/images%3Fq%3Dschool%2Bchildren%2Becuador%2Bsource:life%26hl%3Den%26sa%3DG">school children</a> in Ecuador waving flags during a visit by U.S. President Richard Nixon, <a class="external" href="http://images.google.com/hosted/life/l?imgurl=e25bd66583cc0c56&q=nazi%20youth%20marching%20source:life&prev=/images%3Fq%3Dnazi%2Byouth%2Bmarching%2Bsource:life%26hl%3Den">uniform-clad boys</a> in the Nazi Youth Movement marching in formation, or an 11-year-old <a class="external" href="http://images.google.com/hosted/life/l?imgurl=894198074caab69e&q=marbles%20source:life&prev=/images%3Fq%3Dmarbles%2Bsource:life%26hl%3Den%26sa%3DG">Amish girl</a> shooting marbles in the U.S. national girls' tournament.</p>
+
+<p>This remarkable collection is a visual goldmine. Teachers and students of an almost endless number of topics related to children and youth in American and world history can explore for hours, searching photographs and drawings from the 1750s to the present, most of which are seen publicly for the first time on this website. The majority of the images come from the 20th century, showcasing the work of famous photographers, such as <a class="external" href="http://images.google.com/images?hl=en&sa=1&q=gordon+parks+source:life&btnG=Search+images&aq=f&oq=">Gordon Park</a>, <a class="external" href="http://images.google.com/images?hl=en&sa=1&q="Alfred+Eisenstaedt"+source:life&btnG=Search+images&aq=f&oq=">Alfred Eisenstaedt</a>, and <a class="external" href="http://images.google.com/images?sa=4&imgc=&imgsz=&q="Margaret+Bourke-White"+source:life">Margaret Bourke-White</a>, among many others.</p>
+
+<p>Exploring this archive, however, is at once fascinating, rewarding, and incredibly frustrating. Search results are capped at a maximum of 200 images, meaning that a search on <a class="external" href="http://images.google.com/images?hl=en&sa=1&q=children+source:life&btnG=Search+images&aq=f&oq=">"children"</a> returns only a tiny fraction of the possible matches. Some images are presented with basic source information, such as title, location, date, photographer, and image size while others provide no information at all, leaving the viewer with many unanswered questions.</p>
+
+<p>Some images are part of collections, such as the hundreds of <a class="external" href="http://images.google.com/images?hl=en&sa=1&q=%22Gibson+Girl%22+source:life&btnG=Search+images&aq=f&oq=">"Gibson Girls"</a> drawings or the <a class="external" href="http://images.google.com/images?hl=en&sa=1&q="circus+girl"+source:life&btnG=Search+images&aq=f&oq=">"Circus Girl"</a> photographs taken in 1952. In the right column, "related images" sometimes appear and many of the images are tagged with "labels" that offer pathways through the mass of images. An image of a baby, for example, might lead to a tag for <a class="external" href="http://images.google.com/images?sa=4&imgc=&imgsz=&q="baby+carriage"+source:life">"baby carriage,"</a> <a class="external" href="http://images.google.com/images?hl=en&sa=1&q="children+at+play"+source:life&btnG=Search+images&aq=f&oq=">"children at play,"</a> <a class="external" href="http://images.google.com/images?hl=en&sa=1&q="blind+children"+source:life&btnG=Search+images&aq=f&oq=">"blind children,"</a> or <a class="external" href="http://images.google.com/images?hl=en&sa=1&q="child+care"+source:life&btnG=Search+images&aq=f&oq=">"child care,"</a> all of which lead down other paths or abruptly end. Or an image might link to no other images, sending you back to the beginning to find another path.</p>
+
+<p>Photographs appear in three sizes: small, medium, and large. Images are presented at 300 dpi and even the medium-sized images are of decent size for classroom use, roughly 400 x 600 pixels. The larger scans contain a LIFE watermark and while all images are available at no cost for personal and research purposes, the archive also offers each image for sale, framed, at a cost of $79.99 and up.</p>
+
+<p>The photographs as a whole depict a range of childhood experiences, from famous young people in formal settings (<a class="external" href="http://images.google.com/hosted/life/l?imgurl=609ebe934f25d383&q=shirley%20temple%20source:life&prev=/images%3Fq%3Dshirley%2Btemple%2Bsource:life%26hl%3Den">Shirley Temple</a> on her 11th birthday "wearing her first long dress, a fluffy frock of marquisette trimmed with a dubonnet ribbon") to ordinary children engaged in everyday activities, such as the children at a <a class="external" href="http://images.google.com/hosted/life/l?imgurl=9c262e451a0b6f2a&q=Turkish%20tobacco%20factory%20%20source:life&prev=/images%3Fq%3DTurkish%2Btobacco%2Bfactory%2B%2Bsource:life%26hl%3Den%26sa%3DG">Turkish tobacco factory daycare</a> "where working moms drop their kids during their day shift."</p>
+
+<p>Spanning several centuries and many borders, this collection provides a glimpse into many different experiences of childhood and youth. Students could examine a range of customs across time and culture, exploring, for example, the material culture of childhood from swaddling to cribs or the role of institutions, such as schools, hospitals, orphanages, in the lives of young people. Even more revealing, however, would be an assignment exploring what the words and images found within this archive tell us about the society that produced and consumed <em>Life</em> magazine—the photographers, editors, writers, and subscribers who interacted with these images and created meaning from them day to day.</p> 
+
+<p>The caption next to the young girl in the shelter, for example, reads, <a class="external" href="http://images.google.com/hosted/life/l?imgurl=71e898949d8afe69&q=canaries%20source:life&prev=/images%3Fq%3Dcanaries%2Bsource:life%26hl%3Den">"Lonely little African-American baby sucking her thumb."</a> Next to a 1938 photograph from Romania is the caption, <a class="external" href="http://images.google.com/hosted/life/l?imgurl=5e6b304586a9e6c0&q=gypsy%20dirty%20source:life&prev=/images%3Fq%3Dgypsy%2Bdirty%2Bsource:life%26hl%3Den">"A Gypsy lighting the small oven while holding her dirty child."</a> White children are rarely described as "lonely" or "dirty," even when collected under the label "poverty."</p> 
+
+<p>The subjects selected are equally telling. Several photographs of <a class="external" href="http://images.google.com/hosted/life/l?imgurl=388c72e363733d9d&q=queen%20baby%20source:life&prev=/images%3Fq%3Dqueen%2Bbaby%2Bsource:life%26hl%3Den%26sa%3DG">African mothers nursing</a> their newborns focus on the women's breasts and nipples. Other women from Myanmar, Vietnam, Finland, Albania, Pakistan, and Israel are also shown nursing. Compare this to images of <a class="external" href="http://images.google.com/hosted/life/l?imgurl=85e14d0c674f5557&q=feeding%20baby%20source:life&prev=/images%3Fq%3Dfeeding%2Bbaby%2Bsource:life%26hl%3Den%26sa%3DG">white women</a> with their young, fully dressed and often, in the mid-20th century, with a <a class="external" href="http://images.google.com/hosted/life/l?imgurl=dba6079dd75a1b62&q=feeding%20baby%20source:life&prev=/images%3Fq%3Dfeeding%2Bbaby%2Bsource:life%26ndsp%3D20%26hl%3Den%26sa%3DN%26start%3D20">bottle</a>. What does this say about perceptions of motherhood, gender, and child rearing? About gender, race, and nationality?</p> 
+
+<p>This rich archive can provide primary source material on a host of national and international topics, from dress, play, education, and health to national identity and international relations. Whether looking for something specific, such as images from a 1951 <a class="external" href="http://images.google.com/images?hl=en&sa=1&q=comic+book+hearings+source:life&btnG=Search+images&aq=f&oq=">hearing on comic books</a>, or broad, such as <a class="external" href="http://images.google.com/images?hl=en&sa=1&q=high+school+source:life&btnG=Search+images&aq=f&oq=">high school</a>, you will likely find many images worth exploring. The images are high enough quality to print and use easily for research or class assignments. Keep in mind, however, that despite the powerful Google search engine, in some ways you are left to wander through the labyrinth unguided, without a map that might provide a sense of how images fit into the collection as a whole. It is hard to know exactly what a given search term will return and with the limit on search results, it is impossible to see the full range of images on many topics. It is, however, a worthwhile adventure if you begin with patience and creativity.</p>
+
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Kelly Schrum</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">George Mason University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">This rich archive can provide primary source material on a host of national and international topics, from dress, play, education, and health to national identity and international relations. </div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/203/fullsize"><img src="/files/display/203/square_thumbnail" class="thumb" alt="LIFE photo archive" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Tue, 21 Jul 2009 01:13:54 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/203/fullsize" type="image/jpeg" length="48536"/>
+    </item>
+    <item>
+      <title><![CDATA[The Lemonade Stand [Advertisement]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/245</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">The Lemonade Stand [Advertisement]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>The lemonade stand is a widely used and recognized symbol of capitalism and in particular entrepreneurship. The selling of lemonade on the streets of New York can be traced back to when a New York youngster sold it to thirsty street car riders over 130 years ago. Its connection to youthful entrepreneurship has endured. Today it is often the first entrepreneurial venture of young people and is frequently mentioned as a summertime activity. The operation of a lemonade stand is clearly established as a learning or teaching tool and translates well into games for children, simulations and classroom exercises in most grades. The lemonade stand as a symbol lends itself to story-telling and is the basis of plot development in many children's story-books. It is featured in newspaper and magazine cartoons, media stories every summer, web sites, books and television programs. The lemonade stand as a symbol of capitalism and entrepreneurship is relevant today and endures despite changes in beverage preferences and children's activities.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Electric Power and Light Company, Ad, <em>Life Magazine</em>, May 1947, 4. Annotated by Robert Sexty.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Robert W. Sexty</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">English</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Robert W. Sexty</div>
+                    </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">June 2009</div>
+                    </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3>Captain of Industry</h3>
+<p>Butch wants a bicycle! Lots of lawn and lemonade and baby-sitting lie between Butch and that bike, but we’re betting on the boy. He has energy, vision, and our national habit of working hard for what he wants. He’s American business – in miniature.</p>
+
+<p>There are many names for Butch’s philosophy. You can call it Free Enterprise, Opportunity, Democracy, or Capitalism, if you want.</p>
+
+<p>But whatever the name, America owes it much. For our most valuable natural resource lies in the ambition and initiative of Americans like Butch.</p>
+
+<p>As great publications have grown from the dreams of young men with old hand-presses – the electric industry had small beginnings, too. A few men with vision strung the first short lines. People with faith risked their savings. Better and better service, at lower and lower cost, created more and more jobs – and carried the benefits of electric living to more and more people.</p>
+
+<p>Free enterprise—and hard work—will bring Butch and his bike together. They are what built America and the American way of life. No nation on earth has found a satisfactory substitute for that combination.”
+
+<p><em>Listen to the New Electric Hour – the</em> HOUR OF CHARM. <em>Sundays, 4:30 P.M., EDT, CBS.</em></p>
+
+<h3>America’s business-managed, tax-paying<br />
+ELECTRIC LIGHT AND POWER COMPANIES.</h3>
+</div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/250/fullsize"><img src="/files/display/250/square_thumbnail" class="thumb" alt="The Lemonade Stand [Advertisement]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Fri, 12 Jun 2009 21:52:51 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/250/fullsize" type="image/jpeg" length="319545"/>
+    </item>
+    <item>
+      <title><![CDATA[Kuttab, or Primary Level Qur’an School [Architecture]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/242</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Kuttab, or Primary Level Qur’an School [Architecture]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>This public building of Mamluk Cairo in Egypt has two functions. Its lower level housed a <em>sabil</em>, or fountain, for dispensing water to thirsty travelers and denizens of the city, and its upper level was a public primary school for the teaching of Qur'an, called a <em>kuttab</em>. Kuttab schools taught basic literacy skills such as arithmetic and grammar along with recitation of the Qur'an needed to perform Islamic prayers. The building was open to air and light on three façades. The sabil featured copper grillwork windows through which cups of water could be passed by an attendant inside, or passers-by could enter the cool interior with decorative tiles.</p> 
+
+<p>Pupils entered the building and climbed a stone stairway to the <em>kuttab</em>. They entered the rectangular schoolroom to sit on woven mats  while the teacher likely sat on the raised platform that surrounded the room on three sides. A balcony projects slightly over the street, shaded by a large wooden awning. Delicate, turned-wooden pillars form 15 arches connected by balustrades and carved wooden screens called <em>mashrabiyya</em>. Clay water jugs cooled the drinking water in the breeze created by the <em>mashrabiyya</em>, a typical Middle Eastern architectural feature. The schoolroom walls were open to the street but screened from the sun and activity, making it an inviting, pleasant place to learn. Passers-by could take pleasure in hearing the children recite the Qu'an in unison. The construction of this significant building in 1748 CE is credited to Abd al-Rahman Katkhuda, Overseer of <em>Awqaf</em> (Charitable Endowments), who was associated with many Cairo monuments of the period.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text"><em>Sabil</em> (Water Dispensary) and <em>Kuttab</em> (Qur'an School) of Abd al-Rahman Katkhuda, MWNF Working Number: ET 20, Museum with No Frontiers, Discover Islamic Art," at  <a class="external" href="http://www.discoverislamicart.org/database_item.php?id=monument;ISL;eg;Mon01;20;en">http://www.discoverislamicart.org/database_item.php?id=monument;ISL;eg;Mon01;20;en</a> (accessed April 7, 2009).</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">243</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                                    <div class="element-text">Multistory building</div>
+                    </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                                    <div class="element-text">Color photo of a public building of Mamluk Cairo in Egypt. The building is open to air and light on three façades. The sabil featured copper grillwork windows through which cups of water could be passed by an attendant inside, or passers-by could enter the cool interior with decorative tiles. A balcony projects slightly over the street, shaded by a large wooden awning. Delicate, turned-wooden pillars form 15 arches connected by balustrades and carved wooden screens called mashrabiyya.</div>
+                    </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/164/fullsize"><img src="/files/display/164/square_thumbnail" class="thumb" alt="Kuttab, or Primary Level Qur’an School [Architecture]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Wed, 20 May 2009 04:53:51 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/164/fullsize" type="image/jpeg" length="206777"/>
+    </item>
+  </channel>
+</rss>

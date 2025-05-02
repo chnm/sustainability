@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=U.S.+Children%27s+Bureau&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:23:43 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[The Children’s Charter [Government Document]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/124</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text"><em>The Children’s Charter</em> [Government Document]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>By the early 20th century, urbanization and industrialization led many reformers to focus on child welfare and a recognition of children's rights as separate from those of adults. Several years later, Congress responded by creating the U.S. Children's Bureau designed to report on "all matters" related to the "welfare of children and child life." The bureau was the first federal agency in the world mandated to focus solely on the interests of a nation's youngest citizens. By 1930, the White House Conference on Child Health and Protection spelled out the specific rights of modern childhood in this Children's Charter. Does this charter specify rights unique to children? How could the rights in this charter be fulfilled?</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">1930 Children&#039;s Charter, White House Conference on Child Health and Protection, 1930, U.S. Children&#039;s Bureau Files,  National Archives, College Park, Maryland.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">1930-11-22</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Kriste Lindenmeyer</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">122</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3><em>The Children's Charter</em>, White House Conference on Child Health and Protection,
+November 22, 1930</h3> 
+
+<p>PRESIDENT HOOVER'S WHITE HOUSE CONFERENCE ON CHILD HEALTH AND PROTECTION, RECOGNIZING THE RIGHTS OF THE CHILD AS THE FIRST RIGHTS OF CITIZENSHIP, PLEDGES ITSELF TO THESE AIMS FOR THE CHILDREN OF AMERICA.</p>
+
+
+<ul>
+<li><strong>I.</strong> FOR every child spiritual and moral training to help him to stand firm under the
+pressure of life.</li>
+
+<li><strong>II.</strong> For every child understanding and the guarding of his personality as its most precious
+right.</li>
+
+<li><strong>III.</strong> For every child a home and that love and security which a home
+provides; and for that child who must receive foster care, the nearest substitute for his own
+home.</li>
+
+<li><strong>IV.</strong> For every child full preparation for his birth, his mother receiving prenatal,
+natal, and postnatal care; and the establishment of such protective measures as will make child-bearing safer.</li>
+
+<li><strong>V.</strong> For every child health protection from birth through adolescence, including:
+periodical health examinations and, where needed, care of specialists and hospital treatment;
+regular dental examinations and care of the teeth; protective and preventive measures against
+communicable diseases; the insuring of pure food, pure milk, and pure water.</li>
+
+<li><strong>VI.</strong> For every child from birth through adolescence, promotion of
+health, including health instruction, and a health program, wholesome physical and mental
+recreation, with teachers and leaders adequately trained.</li>
+
+<li><strong>VII.</strong> For every child a dwelling-place safe, sanitary, and
+wholesome, with reasonable provisions for privacy; free from conditions which tend to thwart
+his development; and a home environment harmonious and enriching.</li>
+
+<li><strong>VIII.</strong> For every child a school which is safe from hazards, sanitary, properly
+equipped, lighted, and ventilated. For younger children nursery schools and kindergartens to
+supplement home care.</li>
+
+<li><strong>IX.</strong> For every child a community which recognizes and plans for his needs, protects him
+against physical dangers, moral hazards, and disease; provides him with safe and wholesome
+places to play and recreation; and makes provision for his cultural and social needs.</li>
+
+<li><strong>X.</strong> For every child an education which, through the discovery and development of his
+individual abilities, prepares him for life; and through training and vocational guidance
+prepares him for a living which will yield him maximum satisfaction.</li>
+
+<li><strong>XI.</strong> For every child such teaching and training as will prepare him for successful
+parenthood, home-making, and the rights of citizenship; and for parents, supplementary
+training to fit them to deal wisely with the problems of parenthood.</li>
+
+<li><strong>XII.</strong> For every child education for safety and protection against accidents to which modern
+conditions subject him---those to which he is directly exposed and those which, through loss
+or maiming of his parents, affect him directly.</li>
+
+<li><strong>XIII.</strong> For every child who is blind, deaf, crippled, or otherwise physically handicapped,
+and for the child who is mentally handicapped, such measures as will early discover and
+diagnose his handicap, provide care and treatment, and so train him the he may become an asset
+to society rather than a liability. Expenses of these services should be borne publicly where
+they cannot be privately met.</li>
+
+<li><strong>XIV.</strong> For every child who is in conflict with society the right to be dealt with
+intelligently as society's charge, not society's outcast; with the home, the school, the
+church, the court and the institution when needed, shaped to return him whenever possible to
+the normal stream of life.</li>
+
+<li><strong>XV.</strong> For every child the right to grow up in a family with an adequate standard of living
+and the security of a stable income as the surest safeguard against social handicaps.</li>
+
+<li><strong>XVI.</strong> For every child protection against labor that stunts growth, either physical or
+mental, that limits education, that deprives children of the right of comradeship, of play,
+and of joy.</li>
+
+<li><strong>XVII.</strong> For every rural child as satisfactory schooling and health services as for the city child, and an extension to rural families of social, recreational, and cultural facilities.</li>
+
+<li><strong>XVIII.</strong> To supplement the home and the school in the training of youth, and to return to them those interests of which modern life tends to cheat children, every stimulation and
+encouragement should be given to the extension and development of the voluntary youth organizations.</li>
+
+<li><strong>XIX.</strong> To make everywhere available these minimum protections of the health and welfare of children, there should be a district, county, or community organization for health, education,
+and welfare, with full-time officials, coordinating with a state-wide program which will be responsive to a nationwide service of general information, statistics, and scientific research.<br />
+This should include: 
+<ol class="letters"> 
+<li> a.) Trained, full-time public health officials, with public health nurses, sanitary inspection, and
+laboratory workers</li>
+<li> b.) Available hospital beds</li> 
+<li> c.) Full-time public welfare service for the relief,
+aid, and guidance of children in special need due to poverty, misfortune, or behavior
+difficulties, and for the protection of children from abuse, neglect, exploitation, or moral
+hazard.</li> 
+</ol> 
+</ul>
+
+<p>FOR EVERY CHILD THESE RIGHTS, REGARDLESS OF RACE, OR COLOR, OR SITUATION, WHEREVER HE MAY LIVE UNDER THE PROTECTION OF THE AMERICAN FLAG.</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Fri, 15 Aug 2008 00:33:11 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=Embarkation&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:24:30 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Children in the Slave Trade [Table]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/154</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Children in the Slave Trade [Table]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p><em>The Trans-Atlantic Slave Trade: A Database on CD-ROM</em>, edited by David Eltis, Stephen D. Behrendt, David Richardson, and Herbert S. Klein, contains the best quantitative evidence to date on the number of Africans sold into the slave trade. A collection of trader inventories, the CD-Rom serves as a searchable database of voyages that took place during from the 16th to 19th centuries. Information on points of embarkation and disembarkation, mortality rates, gender and age, captains and crew, instances of rebellion, and epidemics can all be found in the database. However, one should be aware that the information is not complete and that is drawn from the evidence recorded in slave ship logs by the captain and crew. Therefore, the quantitative data gleaned from such a source should be used carefully.</p> 
+
+<p>In the chart below, the number of children recorded in the database by century is listed, as well as the region of embarkation. This data shows an increase in children traveling the Middle Passage, as well as changes in supply and demand from region of disembarkation. This not only gives an idea of changes in planter demand and child worth, but also regional preference as well. Furthermore, the data suggests changes in supply as well as demand.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text"><em>The Trans-Atlantic Slave Trade:  A Database on CD-Rom</em>.  Edited by David Eltis, Stephen Behrendt, Herbert S. Klein, and David Richardson. Cambridge: Cambridge University Press, 1999. Annotated by Colleen A. Vasconcellos.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-12</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Colleen A. Vasconcellos</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">141</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Data Item Type Metadata</h2>
+        <div id="data-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3><em>The Trans-Atlantic Slave Trade: A Database on CD-Rom</em></h3>
+<table>
+<thead>
+	<tr>
+                <th>Point of Embarkation</th>
+		<th>1601-1700</th>
+		<th>1701-1800</th>
+		<th>1801-1867</th>
+	</tr>
+</thead>
+	<tbody>
+		<tr>
+			<td>Africa unspecified</td>
+			<td>6,701</td>
+			<td>65,440</td>
+		<td>125,699</td>
+	</tr>
+	<tr>
+		<td>Bight of Benin</td>
+		<td>39,221</td>
+		<td>93,216</td>
+		<td>41,324</td>
+	</tr>
+	<tr>
+		<td>Bight of Biafra</td>
+		<td>16,478</td>
+		<td>82,021</td>
+		<td>40,932</td>
+	</tr>
+	<tr>
+		<td>Gold Coast</td>
+		<td>14,602</td>
+		<td>79,663</td>
+		<td>2,618</td>
+	</tr>
+	<tr>
+		<td>West-central Africa</td>
+		<td>11,169</td>
+		<td>145,523</td>
+		<td>20,092</td>
+	</tr>
+	<tr>
+		<td>Senegambia</td>
+		<td>5,462</td>
+		<td>26,424</td>
+		<td>1,668</td>
+	</tr>
+	<tr>
+		<td>Sierra Leone</td>
+		<td>974</td>
+		<td>24,398</td>
+		<td>11,512</td>
+	</tr>
+	<tr>
+		<td>Windward Coast</td>
+		<td>0</td>
+		<td>13,174</td>
+		<td>1,766</td>
+	</tr>
+	<tr>
+		<td>South-east Africa</td>
+		<td>0</td>
+		<td>4,202</td>
+		<td>3,327</td>
+	</tr>
+	<tr>
+		<td>Total</td>
+		<td>94,607</td>
+		<td>534,061</td>
+		<td>248,398</td>
+	</tr>
+</tbody>
+</table></div>
+                    </div><!-- end element -->
+            <div id="data-item-type-metadata-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="data-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Mon, 13 Oct 2008 00:35:50 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

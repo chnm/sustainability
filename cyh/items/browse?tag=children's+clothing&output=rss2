@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=children%27s+clothing&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:18:21 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Material Culture and Childhood (20th c.)]]></title>
+      <link>https://cyh.rrchnm.org/items/show/199</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Material Culture and Childhood (20th c.)</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text">Studying everyday material objects made and used for children—diapers, baby food, clothing, toys—provides an opportunity to investigate contemporary American childhood; it challenges students to think critically about how childhood is understood in their own culture, and demonstrates that childhood is culturally constructed by people living in a particular time and place.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Jane Eva Baxter</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2009-01-30</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Case Study Item Type Metadata</h2>
+        <div id="case-study-item-type-metadata-case-study-image" class="element">
+        <h3>Case Study Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-text" class="element">
+        <h3>Case Study Text</h3>
+                                    <div class="element-text"><h3>Why I Taught the Source</h3>
+
+<p>Childhood is an ever-changing concept that varies from culture to culture across time and space, yet people often think of childhood as universal. Teaching students about children in the past is often a challenging endeavor for this very reason. I have developed an exercise that uses the material culture designed for children's care and use—diapers, baby food, clothing, toys—in order to investigate contemporary American childhood. Analyzing these sources of evidence using a material culture method challenges students to think critically about how childhood is understood in their own culture. This exercise demonstrates that childhood is culturally constructed by people living in a particular time and place and creates opportunities for students to think critically about the lives of children in the past. Simultaneously, this exercise provides an effective introduction to material objects as a primary source.</p>
+
+<p>As a historical archaeologist, my aim is to teach students about people in the past by making use of the everyday material objects they made and used. Material culture objects can be understood in two primary ways. First, as functional items that help with particular tasks considered necessary and important. Second, as symbols encoded with meanings about social relationships and cultural values. Contemporary objects are subject to the same analyses and understandings, allowing them to serve as a gateway to the past.</p>
+
+<h3>How I Introduce the Source</h3>
+
+<p>I begin with a class discussion of the following four ideas written on the board so students may reflect on these points throughout the discussion.</p>
+
+<p>Childhood is:</p>
+<ul>
+<li>Based on an <em>assumed</em> relationship to biology</li>
+<li>Culturally constructed</li>
+<li>Embodied and performed</li>
+<li>Materially coded and marked</li>
+</ul>
+
+<p>I ask students to think about each point and to come up with examples. One way to generate discussion if students are struggling is to create opportunities to discuss children in contrast to adults. Some possible questions I have found to be effective are:</p>
+<ul>
+<li>What are things adults can do that children cannot (and vice–versa)?</li>
+<li>When, biologically, does someone become an adult?  Is this different then when someone is socially recognized as an adult?</li>
+<li>When someone is behaving in a "child-like" manner, what does that mean?</li>
+<li>What types of clothing, hairstyles and accessories are appropriate for adults but not children (and vice-versa)?</li>
+</ul>
+
+<p>This discussion is then followed by an exercise that is designed to acquaint students with the everyday lives of children. It can be presented as an in-class activity using objects or pictures of objects, an internet-based project using a series of websites, or an out-of-class activity that requires students to go to a store and "shop" for a series of items. I have found the web-based and shopping trip permutations to be the most effective because they allow students to engage with both objects and accompanying text.  These latter two options also require no product purchasing or photocopying. For ease of presentation, I will use the web-based exercise as the primary example here.</p>
+
+<p>I divide my class into smaller groups of three or four which makes for a more even distribution of topics of inquiry. Moreover, this exercise is most effective when multiple students examine the same source so that different perspectives might emerge. Each group is then assigned a particular type of material culture source to be investigated using a series of specified websites:</p>
+
+
+<ul>
+<li><strong>Group 1: Diapers</strong><img class="content-thumb wide" src="http://chnm.gmu.edu/cyh/images/pampers.jpg" />
+<br /><br/>
+More images available at 
+<a class="external" href="http://www.pampers.com/en_US/home/">http://www.pampers.com/en_US/home/</a>, <a class="external" href="http://www.huggies.com">www.huggies.com</a>, and <a class="external" href="http://www.luvs.com">www.luvs.com</a></li>.
+
+<li><strong>Group 2: Baby Food</strong>
+<img class="content-thumb wide" src="http://chnm.gmu.edu/cyh/images/1st_organic_applesauce.jpg" />
+<br /><br/>
+
+More images available at <a class="external" href="http://www.gerber.com/Public/Default.aspx">http://www.gerber.com</a>, <a class="external" href="http://www.beechnut.com">www.beechnut.com</a>, and <a class="external" href="http://www.enfamil.com">www.enfamil.com</a>.</li>
+
+<li><strong>Group 3: Clothing</strong>
+
+<img class="content-thumb wide" src="http://chnm.gmu.edu/cyh/images/FirstFrame.jpg" /> 
+<br /><br/>
+More images available at 
+
+<a class="external" href="http://www.childrensplace.com/webapp/wcs/stores/servlet/home_10001_10001_-1">http://www.childrensplace.com</a>, <a class="external" href="http://www.mymiraclebaby.com">www.mymiraclebaby.com</a>, and <a class="external" href="http://www.babystyle.com">www.babystyle.com</a>.</li>
+
+<li><strong>Group 4: Toys</strong>
+<br/><br/>
+<img class="content-thumb wide" src="http://chnm.gmu.edu/cyh/images/toys.jpg" /> <br/><br/>
+More images available at <a class="external" href="http://www.fisher-price.com/us/default.aspx">http://www.fisher-price.com</a> and <a class="external" href="http://www.mattel.com">www.mattel.com</a>.
+</li></ul>
+</p>
+
+
+
+<h3>Reading the Source</h3>
+
+<p>I present the idea that objects are both functional and stylistic and that each attribute of an object can tell us important things about their creators and users. In preparation for a class discussion that will focus on their findings, I handout the following guidelines to each group:</p>
+
+<ol>
+ 
+<li>Discern the function(s) of each object. Function on the most basic level can be understood as what the object is designed to do. The function of diapers, for example, is to contain the excretions of a non-"potty trained" child. It is important, however, to go beyond the basic function to the more complex types of roles an object is supposed to fulfill.</li>
+
+<li>Look at the style of the objects. These are aspects of the items that are not directly related to function (i.e., if these aspects were present, absent, or different the object would still function as intended but appear different). What types of ideas about children are reflected in these non-functional aspects of the items?</li>
+
+<li>Who is supposed to use each item? Who is each item designed for? Are their "sub-groups" of users?</li>
+</ol>
+
+<h3>Reflections</h3>
+<p>Once students have completed their website investigations, I ask members of each group to report on their findings. I usually give each group a section of the board where members can write key observations about each question. Significant patterns inevitably emerge across the different categories of objects. Some of the most important are:</p>
+
+<ol>
+<li>The category of "child" is subdivided in many ways. Some of these are biological: crawlers, toddlers, independent sitters, supported sitters, solid-food eater. Others are age-based: newborns, 2-4 months, 3+ years. And, still others are social: play ready, preschoolers.</li>
+
+<li>All of these objects are designed to promote the proper development (physical, mental, social) of a child. There is a suggestion that there is a single normative way for children to progress and grow.</li>
+
+<li>Childhood is a highly gendered stage in life from the moment of birth. Color schemes, decorative patterns, and functional designs all vary according to gender.</li>  
+
+<li>There is very little emphasis on the individuality of children, except how an individual child is progressing relative to developmental norms. These discussions often emphasize the role of the parents over the preferences of the individual child.</li>
+</ol>
+
+<p>Each of these points relates to the general ideas about childhood introduced in the initial discussion. Taken together, this activity and the contextualizing discussions permit the revelation that childhood is not universal. Childhood in contemporary America is understood in biological and developmental terms, emphasizes gender, de-emphasizes children as cultural actors, and is seen as requiring an array of highly specialized objects. If childhood is culturally constructed, it can be constructed differently at different points in history. This revelation is important for students who are embarking on a study of children in other time periods or other cultures.</p></div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Jane Eva Baxter</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">DePaul University</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-primary-source-id" class="element">
+        <h3>Primary Source ID</h3>
+                                    <div class="element-text">200, 390, 389, 388</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Fri, 30 Jan 2009 20:14:48 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

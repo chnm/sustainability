@@ -1,0 +1,1850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse/3?tag=1900-1945&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:23:07 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[The International Children's Digital Library]]></title>
+      <link>https://cyh.rrchnm.org/items/show/415</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">The International Children&#039;s Digital Library</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">445, 414</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://en.childrenslibrary.org/index.shtml </div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">ICDL Foundation and University of Maryland, College Park</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">February 2010</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>The <a class="external" href="http://en.childrenslibrary.org/index.shtml"><em>International Children's Digital Library</em></a> (ICDL) is a bookmobile for the global age. The goal of the ICDL Foundation, housed at the University of Maryland, College Park, is to collect children's literature from as many world languages as possible and to make these available in digital form. The rationale supports the <a class="external" href="http://www.unesco.org/new/en/unesco/">United Nations' Educational Scientific and Cultural Organization (UNESCO)</a> concept that learning in the mother tongue is a human right. Its mission is also to support children (and with them, adults) reading for pleasure. The ICDL is a public project framed within a research project on the use and effects of literature on children as readers. The research and development team includes children who have helped form the criteria and interface of the project, and it also includes a longitudinal study of children readers from schools in New Zealand, Germany, Honduras, and the United States.</p> 
+<p>While the website has a very complex home page that is surprisingly cluttered for a digital interface laboratory, but it is attractively arranged, with bright colors and an appealing logo. The homepage is designed to announce and support the site's function as the research and collection portal. Most importantly, the homepage provides at least a dozen different ways to read books. In the left-hand corner, there is a link to <a class="external" href="http://www.childrenslibrary.org/icdl/SimpleSearchCategory?ilang=English">"Read Books."</a> Just below that, other links include a <a class="external" href="http://www.childrenslibrary.org/icdl/Login?ilang=English">sign-in option</a> and various instructions for searching, reviewing, and guidelines for use. Scattered all over the home page are thumbnail images of book covers and a selection of featured books in various languages, including a portal to download iPhone apps for portable reading pleasure.</p> 
+<p>The heart of the website is the <a class="external" href="http://www.childrenslibrary.org/icdl/SimpleSearchCategory?ilang=English">reading interface</a>. From the icon in the upper left corner, a colorful page opens with a pane for book covers. Buttons all around it allow readers to choose by age groupings, by cover color, by length of book, by topic (animals, fantasy, fairy tales, etc), and by collection, including recently added books and exhibitions. Pushing the button brings thumbnail covers into the pane or successive panes. Finally, clicking on the cover gives the inviting message "Read this Book" in a choice of languages. The whole book then appears in miniature. Clicking on each page opens a simple reading pane with just a few arrows and a "home" icon as well as access to the search page and a sign-in option for adults and children to create bookmarks and libraries, store searches and the like. Hyperlinks at the edge of the reading pane include author information, "about this book," and other books by the same author. The reading interface is very much like reading a book, and can easily be paged backwards or forwards by clicking any page. The art of children's book illustration finds ample support in the beautifully scanned and sized reading interface. The collection currently contains 4,346 books, both in copyright and in the public domain, written in 54 languages.  About 40% of the collection consists of historical books, and the rest are contemporary works.</p>
+<p>The International Children's Digital Library is a feast for children who are bookworms. It is also a treasure trove for teachers of reading, literature, science, social studies, and world cultures or geography. Scholarly researchers will find in its global collection a wealth of material for comparison, thematic exploration, historical studies of childhood and reading, and interdisciplinary studies of all kinds. The fact that the project serves the needs of both avid readers for pleasure and researchers makes it extremely valuable as a locus for learning about reading, cultures, and the stuff of stories and images. It will create a lot of synergy for a long time to come, not only as a repository, but as an engine for generating literature and grooming new connoisseurs of literature among young and old.</p>
+<p>While the project invites publishers, authors, and others to submit books and grant permission for scanning and publication on the site, it is not possible to download or otherwise reproduce or alter the books. Moreover, books that ultimately appear on the site are selected by the project researchers based on collection development criteria. Currently, no "born digital" books are included, but the project may eventually include motion pictures and other media. The ICDL plans to incorporate biographies of authors and illustrators, annotations, reviews by readers (including children), as well as translations of works where permitted. It may in the future also include reading activities to supplement the experience of reading, or for pedagogical use. Beyond the primary function of making literature for children accessible wherever children live, and beyond the mere fun of reading the works, the collection is also a computer science project for the purpose of improving computer interfaces for children and the use of digital materials by a wide audience of users for various purposes.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">George Mason University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">The International Children&#039;s Digital Library is a feast for children who are bookworms. It is also a treasure trove for teachers of reading, literature, science, social studies, and world cultures or geography. </div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/444/fullsize">ICDL.jpg</a></div>]]></description>
+      <pubDate>Tue, 02 Mar 2010 14:56:21 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/444/fullsize" type="image/jpeg" length="68505"/>
+    </item>
+    <item>
+      <title><![CDATA[Children's Books Online: The Rosetta Project]]></title>
+      <link>https://cyh.rrchnm.org/items/show/414</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Children&#039;s Books Online: The Rosetta Project</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.childrensbooksonline.org/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Beck Foundation</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">February 2010</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href="http://www.childrensbooksonline.org/"><em>Children's Books Online: the Rosetta Project</em></a> is a unique effort to make illustrated, "antique" children's books accessible. The site, supported by the <a class="external" href="http://www.thebeckfoundation.org/">Beck Foundation</a>, claims to have originated with a single collector, but supporting documentation is thin. It has grown to "tens of thousands of illustrated pages" in several languages, according to the text, with new books appearing every week. </p>
+<p>Despite a less than optimal site design and reading interface, the content is very rich and will provide pleasure for readers and research material for scholars and students. The several hundred books date to the 19th and early 20th centuries, and include original editions of such classic stories as <a class="external" href="http://www.childrensbooksonline.org/pinocchio/index.htm"><em>Pinocchio</em></a>, <a class="external" href="http://www.childrensbooksonline.org/alice_in_wonderland/index.htm"><em>Alice in Wonderland</em></a>, <a class="external" href="http://www.childrensbooksonline.org/max_und_moritz/index.htm"><em>Max and Moritz</em></a>, as well as Kate Greenaway poems, fairy tales, children's book series and a few early textbooks. Nursery rhyme books and alphabet books, with their period illustrations, offer a window into American and European middle- and upper-class childhood, as well as artists' conceptions of children of non-literate classes.</p> 
+
+<p>While many of the line drawings, woodcuts, and lithographs show idealized views of childhood, others contain text and images that would be considered racist or inappropriately violent today. These stories and images serve as primary source material for the history of childhood, reflecting images of childhood and projections of normative standards for children. These include some very harsh views of historical childhoods in which poverty, illness, cruelty, and caprice were perceived as normal. Views of class distinctions can also be glimpsed, as well as standards of living and items of consumption.</p>
+<p>The site's layout and design are needlessly cluttered and cumbersome. The designers used the books' illustration material to create logos and clip art, but used them too liberally. The layout of the <a class="external" href="http://www.childrensbooksonline.org/">homepage</a> against a white background requires a lot of scrolling. The alternating text and links sections are poorly spaced, with some duplication, and requires too much effort. For example, an inconspicuous link <a class="external" href="http://www.childrensbooksonline.org/library.htm">"To the library"</a> connects to the booklist but so does clicking on a red wagon. A few featured book titles are linked near the top of the page, but access to the library page should be better highlighted. The "library" link is mislabeled <a class="external" href="http://www.childrensbooksonline.org/library.htm">"Table of Contents,"</a> and embellished with an optically disturbing page background, more clip art, more featured books, and more scrolling until the user reaches a set of illustrated, hyperlinked panes that navigate through the library.</p> 
+<p>Five panes indicate books indexed by age and interest level, from pre-reader to adult, each linked to a list of hyperlinked titles that connect to the reading interface. Three of these panes link to a list of multiple language books, an alphabetical "super-index," and the search interface. The various art image logos reappear on some page footers as navigation symbols leading to the home page, library, store, search, donate, and volunteer pages. A tighter design would increase functionally and clarity.</p>
+<p>The reading interface is neither as simple nor as attractive as it could be. For example, book titles are written in code as well as presented as thumbnail images too small to be read. These "open" the books that then enable readers to turn pages by clicking navigation arrows. A few multimedia books are also available with audio readings. At the <a class="external" href="http://www.museumstorechildrensbooksonline.org/PDShopPro/shop/">Rosetta Museum Store</a> downloads can be purchased.</p> 
+<p>The foreign language reader is very clumsy but free of charge. Below each page view is a list of languages in which the book has been translated. Clicking the button for a language brings a pop-up screen positioned over the page but it has to be moved to view the illustration again. Paging forward, the window disappears, and the reader has to close and re-select the language button for each page of the translation. This detracts from the flow of reading: page-select language-move window-read—repeat.</p> 
+<p>The Rosetta Project's reader interface thus compares unfavorably with the <a class="external" href="http://chnm.gmu.edu/cyh/website-reviews/415">International Children's Digital Library (ICDL)</a>. (ICDL books available in multiple languages replace the original text with the translation language directly on the page image.) Despite the flaws in the site design, the Rosetta Project offers a rich resource for educators and researchers alike, and an excellent, accessible archive of the canonical works and curiosities of children's literature.</p> 
+
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">George Mason University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">Despite the flaws in the site design, the Rosetta Project offers a rich resource for educators and researchers alike, and an excellent, accessible archive of the canonical works and curiosities of children’s literature.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/443/fullsize">children of the wigwam.jpg</a></div>]]></description>
+      <pubDate>Tue, 02 Mar 2010 14:20:00 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/443/fullsize" type="image/jpeg" length="65239"/>
+    </item>
+    <item>
+      <title><![CDATA[Child Labor at La Rinconada [Photograph]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/412</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Child Labor at La Rinconada [Photograph]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>This photograph is of a boy between 6-10 years of age who works in the La Rinconada gold mine in the mountainous region of Peru. La Rinconada is the highest gold mine in the world, 5,500 meters above sea level in the Andes, and under a glacier, and its camp is populated by about 20,000 people who live under economically exploitative and impoverished conditions. The boy seen here works as a <em>quimbalatero</em>, or stone crusher, who quarries ore from gold-bearing rocks by striking them with a heavy hammer.</p>
+<p>The image was taken as documentation of child labor by a photographer for the International Labour Organization (ILO) for its <a class="external" href="http://www.ilo.org/ipec/lang--en/">International Programme on the Elimination of Child Labour (IPEC)</a> project. According to ILO definitions, unacceptable types of child labor are those that can be harmful to physical and mental development, to children’s dignity, and of a kind that “deprives children of their childhood.” Such child labor should be eliminated if it is mentally, physically, socially or morally dangerous and harmful to children; if it interferes with their schooling by preventing them from attending school, obligates them to leave school prematurely, or requires excessively long and heavy work so as to compromise children's ability to attend school or learn effectively. Mining work such as this meets the criteria as harmful because it exposes child workers to hazards of extreme cold, is physically demanding, and provides no protection for their eyes and hands. Children in mining camps are routinely exposed to mercury poisoning in so-called “artisanal mines,” family mining operations in which whole families are employed, sometimes including toddlers. Such operations often produce tiny amounts of gold by quarrying flakes from large quantities of rock, bringing in very little income for the expense in time and toxic exposure.</p>
+<p>A recent ILO Global Report "The end of child labor: Within reach" published in 2006 showed that Latin American and Caribbean countries have experienced declining numbers of child laborers. Projects such as Bolsa Familia in Brazil offers families financial incentives to send their children to school, in addition to citing employers who exploit children, and educating parents and older children on the hazards of child labor.  The number of children at work in the region has fallen by two-thirds, with just 5 percent of children now engaged in unsatisfactory child labor. The IPEC project in La Rinconada works to help families access health, education, and nutrition services, and to address working conditions for adults in the mines.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Photograph by E. Gianotti, &quot;La Rinconada child crushing gold-bearing rocks,&quot; International Labour Organization (ILO), Peru 1999 at &lt;a class=&quot;external&quot; href=&quot;http://www.ilo.org/dyn/media/mediasearch.fiche?p_id=384&amp;p_lang=en&quot;&gt;http://www.ilo.org/dyn/media/mediasearch.fiche?p_id=384&amp;p_lang=en &lt;/a&gt;(accessed January 22, 2010). Annotated by Susan Douglass.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/440/fullsize"><img src="/files/display/440/square_thumbnail" class="thumb" alt="Child Labor at La Rinconada [Photograph]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Wed, 10 Feb 2010 20:37:30 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/440/fullsize" type="image/jpeg" length="64966"/>
+    </item>
+    <item>
+      <title><![CDATA[Piñata [Object]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/411</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Piñata [Object]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>A piñata is a decorated container of paper or clay that contains sweets, small toys, fruits, and nuts. It is the object of a game played in Mexico at children's birthday parties and at Christmas celebrations, in which blindfolded children take turns trying to break the piñata with a stick to release the treats.</p> 
+
+<p>Yet the piñata has a long history. Piñatas are typically made of paper-mâché, and are attributed to China where paper originated. Marco Polo is believed to have seen Chinese paper figures of bulls and other animals covered with colored paper and filled with seeds. When struck with a stick, the seeds spilled out. As part of the ritual, the paper creation was then burned and its ashes gathered for good luck. Polo likely brought the idea to Italy, where by the 14th century it was associated with celebration of Lent, and acquired the Italian name <em>pignatta</em> or "fragile pot." This custom spread to Spain in subsequent centuries, but involved a clay pot called <em>la olla</em>, derived from a colloquial Arabic word for a terracotta water jug. Paper decorations and ribbons were wrapped around the pot to make it festive.</p>
+
+<p>Missionaries brought the custom to New Spain, where it encountered a similar tradition. To honor the Aztec god of war, a decorated, filled pot was broken in the temple at the feet of the god's statue. Catholic missionaries employed the colorful piñata custom to teach Christian religion. A traditional Mexican shape for piñatas is a spherical shape with seven conical points symbolizing the seven deadly sins—greed, gluttony, sloth, pride, envy, wrath, and lust. Inside the piñata, however, were tempting sweets and treats, representing the pleasures of life. The person wielding the stick of virtue represents faith, which can defeat evil, and the treats represented the hope of reward.</p> 
+
+<p>This symbolic piñata became traditional at Christmas, and is shown here. Today, piñatas come in the shape of animals, cars, and cartoon characters. Making piñatas for children's parties is a major industry, especially since the custom continued to spread around the world.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Photograph (top) Victor Ancheta, "Christmas Piñata," <em>Flickr</em>, <a class="external" href="http://www.flickr.com/photos/victorancheta/2167074229/in/photostream/">http://www.flickr.com/photos/victorancheta/2167074229/in/photostream/</a>; (bottom) Katia Lopez-Hodoyan, "Piñata: Party's Game Is Ancient History," <em>La Prensa San Diego</em>, February 6, 2004, <a class="external" href="http://www.laprensa-sandiego.org/archieve/february06-04/pinata.htm">http://www.laprensa-sandiego.org/archieve/february06-04/pinata.htm</a>; Wendy Devlin, "History of the Piñata," <em>Mexconnect</em>, <a class="external" href="http://www.mexconnect.com/articles/459">http://www.mexconnect.com/articles/459</a> (accessed January 26, 2010). Annotated by Susan Douglass.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/439/fullsize">pinata combo.jpg</a></div>]]></description>
+      <pubDate>Sat, 06 Feb 2010 03:43:12 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/439/fullsize" type="image/jpeg" length="513137"/>
+    </item>
+    <item>
+      <title><![CDATA[Children of the Lodz Ghetto:  A Memorial Research Project]]></title>
+      <link>https://cyh.rrchnm.org/items/show/409</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Children of the Lodz Ghetto:  A Memorial Research Project</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://online.ushmm.org/lodzchildren/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">United States Holocaust Memorial Museum</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">January 2010</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text">     <p>Allowing students to be active learners and researchers is an important and integral component of teaching. <a class="external" href="http://online.ushmm.org/lodzchildren/"><em>The Children of the Lodz Ghetto</em></a> website hosted by the <a class="external" href="http://www.ushmm.org/">US Holocaust Memorial Museum</a> attempts to provide a hands-on location for such an enterprise. It does so by having distinct areas on its home webpage wherein students can begin tackling a difficult problem: locating missing children who were deported and living in the Lodz (Poland) Ghetto during World War II.</p> 
+<p>A valuable book of student signatures was given to the ghetto's leader, Chaim Rumkowski, during the Jewish High Holidays in September 1941, two years after the start of the war. This book serves as the foundational research tool, the objective of which is to account for the fates of thousands of students from the ghetto in the following years. The website encourages researchers to try and obtain as much biographical information as possible about the young people listed in the book.</p>  
+<p>Today's students are given step-by-step instructions in beginning the research, asked to continue to seek out additional information and, probably most importantly, asked to collaborate to review and refine the information collected by others. Thus, the site wants to convey the collective nature of the research enterprise.</p>
+     <p>Five tabs are located under the webpage's title:  <a class="external" href="https://secure.ushmm.org/public_login/login.php?OnLogin=http://online.ushmm.org/lodzchildren/home.php">"Home,"</a>  <a class="external" href="http://online.ushmm.org/lodzchildren/name_list.php">"Student List,"</a> <a class="external" href="http://online.ushmm.org/lodzchildren/tutorial.php">"Tutorial,"</a> <a class="external" href="http://online.ushmm.org/lodzchildren/discussion.php">"Research tips,"</a> and <a class="external" href="https://secure.ushmm.org/public_login/login.php?OnLogin=http://online.ushmm.org/lodzchildren/userresearch_profile.php">"My Research."</a>  The <a class="external" href="http://online.ushmm.org/lodzchildren/tutorial.php">"How to Use this Site"</a> feature is critical for students with a limited knowledge of the Holocaust. It provides a detailed guide on how to go about beginning the research, with crucial links to websites related to the Lodz ghetto within the Holocaust museum's online sources. These resources will help students proceed with their individual research. An alphabetical list of the more than 1,500 names of children (out of the more than 13,000 children who signed the book) is provided under the "Student List" tab.</p>  
+     <p>The website is relatively easy to navigate. However, the design is a bit cluttered on the home page with duplicate areas for moving to "Research Tip" and "Lists of Students." One potential stumbling block for students conducting research is when they arrive at the student list. It appears that information is available on students in the Lodz Ghetto and subsequent deportation. But locating information beyond deportation appears difficult to obtain. Perhaps additional links within the Holocaust Museum's own website or outside links to other Holocaust-related web pages may encourage students to continue the research beyond the basic information located on the "Lodz Ghetto Inhabitants' Database." Naturally, the basic data needs to be entered before proceeding to further information. However, in order to continue to engage students in the importance and significance of their research enterprise, having additional links that contextualize the information beyond data entry would be helpful.</p>  
+<p>The <a class="external" href=" http://online.ushmm.org/lodzchildren/name_list.php">alphabetical student lists</a>, with names highlighted of those that are currently being researched, is very user friendly. It is encouraging that when additional biographical information is obtained on an individual, it generates online discussion and comments, perhaps in some cases leading to additional subsequent research on the person.</p>
+     <p>The website does teach a prospective student the value of beginning research with basic information before proceeding on to additional research. It also teaches that the enterprise is laborious, often perhaps tedious, and collaborative, but, in the end, is critical in enlarging one's understanding of the complexity of the Holocaust.</p>  
+<p>This website reinforces the idea that beyond the numberless victims, real people, often children the ages of the current student-researchers themselves, were hapless victims. Bringing this message down to the individual level makes the research students do ultimately much more meaningful.</p>  
+
+
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Marion Deshmukh</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">George Mason University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">This website reinforces the idea that beyond the numberless victims, real people, often children the ages of the current student-researchers themselves, were hapless victims. Bringing this message down to the individual level makes the research students do ultimately much more meaningful.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/436/fullsize">lodz1.jpg</a></div>]]></description>
+      <pubDate>Fri, 05 Feb 2010 23:32:55 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/436/fullsize" type="image/jpeg" length="27124"/>
+    </item>
+    <item>
+      <title><![CDATA[Piegan Play Tipi [Photograph]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/406</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Piegan Play Tipi [Photograph]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>The photograph, dated 1928, from the well-known ethnographic collection <em>The North American Indian</em> by Edward Edward S. Curtis, is a portrait of a young Piegan girl standing in front of a painted tipi, or conical tent. The label on the photograph by Curtis indicates that it is a play tipi, meaning a child-sized version of the tents used for families among this Native American group. The tipi, or lodge, is like the larger versions in every way, and is elaborately decorated, giving some indication of the importance given to the girl’s realistic play and replication of adult activity. The Piegan Indians are also known as the Pikuni branch of the Blackfoot Indians, the southernmost tribe belonging to the Blackfoot Confederacy. Their range was the Rocky Mountains area on the southern bank of the Marias River in today’s Montana.</p> </div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Edward S. Curtis, <em>The North American Indian</em>, volume 18 (Seattle:  E. S. Curtis, 1907-1930), Charles Deering McCormick Library of Special Collections, Northwestern University Library, <a class="external" href="http://memory.loc.gov/award/iencurt/ct18/ct18046v.jpg">http://memory.loc.gov/award/iencurt/ct18/ct18046v.jpg</a> (<a class="external" href="http://memory.loc.gov/award/iencurt/ct18/ct18toc.html">http://memory.loc.gov/award/iencurt/ct18/ct18toc.html</a>) (accessed December 28, 2009). Annotated by Susan Douglass and John Buescher. </div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/522/fullsize"><img src="/files/display/522/square_thumbnail" class="thumb" alt="Piegan Play Tipi [Photograph]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Mon, 01 Feb 2010 04:28:08 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/522/fullsize" type="image/jpeg" length="139170"/>
+    </item>
+    <item>
+      <title><![CDATA[Girl with Mossi Doll, Burkina Faso [Still Image]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/402</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Girl with Mossi Doll, Burkina Faso [Still Image]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>This girl is from a village in the Mossi country of Burkina Faso (a landlocked country in West Africa). The doll she is holding is a traditional wooden figurine made from one piece of wood standing on a broader base. The doll displays the characteristics of an adult woman, with suggestions of facial features and elaborate hairstyles, and usually with mature female breasts that represent the fulfillment of motherhood. Scarification [scarring] patterns on the body that traditionally mark passage to adulthood are also represented by carved patterns. Mossi dolls are typically carved by male blacksmiths and are given to girls for play. The child calls it <em>biiga</em> ("child"), and carries the doll about with her, tucking it into the waistband of her skirt, and pretends to feed, wash and groom it. Sometimes it is adorned with beads, cowrie shells, dressed with pieces of leather or cloth, and the girl might bring it wildflowers. In the market, a girl may place her doll on the edge of a merchant's mat and expect to receive a small sample of the wares—a few peanuts, a pastry, or a piece of fruit.</p>
+<p>Mossi dolls are also the focus of rituals associated with motherhood. When a young girl displays her doll to older women, they may respond, "May God give you many children." At festivals, if a child gives her doll to an adult to hold, it is customary to give the child a small present when giving the doll back. Other rituals include the use of dolls to ensure fertility in marriage (accomplished by giving the doll a name). Handling the doll with care is seen as auspicious for childbearing and survival of children. Before the marriage ceremony, a young woman carries the doll on her back to the market, and a few days after marriage, she is given some straw in place of the doll and asked which sex her first child will be. Mossi dolls are passed down through female generations, and before a woman gives birth, she washes the doll she played with in childhood before washing her own baby. Similarly, the first drops of milk are given to the doll, and it is again carried on the mother's back before the infant is placed there for the first time. According to reports culled by anthropologists, these rituals were to ensure that the newborn infant's soul enters the world of its parents, called <em>yisa biiga</em>, or "to call the child," and "to prevent the child from returning," or <em>gidga ti da biiga lebera me</em>, to the world of the ancestral spirits. Women who remain childless after a few years of marriage use the dolls for votive purposes, adorning them with cowry shells and carrying them everywhere while expressing their wish for a child.<a href="#note1" id="fn1" class="footnote">1</a></p>
+
+ 
+<div id="notes">
+<p><a href="#fn1" id="note1" class="footnote">1</a> Christopher D. Roy, "Mossi Dolls," <em>African Arts</em> 14, no. 4 (August 1981): 47-88.</p>
+</div>
+</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Photograph:  Burkina Faso, 2006, village of Dablo, little girl with her doll, # EPV0645.JPG, Art and Life in Africa Project, The University of Iowa, The School of Art and Art History, &lt;a class=&quot;external&quot; href=&quot;http://www.uiowa.edu/~africart/Changing%20Burkina/index.htm&quot;&gt;&quot;Changing Burkina&quot;&lt;/a&gt; (accessed November 23, 2009). Annotated by Susan Douglass.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/430/fullsize"><img src="/files/display/430/square_thumbnail" class="thumb" alt="Girl with Mossi Doll, Burkina Faso [Still Image]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Mon, 18 Jan 2010 03:56:42 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/430/fullsize" type="image/jpeg" length="68793"/>
+    </item>
+    <item>
+      <title><![CDATA[Kissing Rudy Valentino: A High-School Student Describes Movie Going in the 1920s [Personal Account]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/398</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Kissing Rudy Valentino: A High-School Student Describes Movie Going in the 1920s [Personal Account]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Fears about the impact of movies on youth led to the Payne Fund research project, which brought together 19 social scientists and resulted in 11 published reports. One of the most fascinating of the studies was carried out by Herbert Blumer, a young sociologist who would later go on to a distinguished career in the field. For a volume that he called <em>Movies and Conduct</em> (1933), Blumer asked more than 1500 college and high school students to write "autobiographies" of their experiences going to the movies. In this motion picture autobiography, a high school "girl" talked about what the movies of the 1920s meant to her.</p> </div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Herbert Blumer, <em>Movies and Conduct</em> (New York: Arno Press and the New York Times, 1970), 217–218, 220–223.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>I am a girl—American born and of Scotch descent. My grandparents came to America from Glasgow, Scotland, and grandfather became a minister (Presbyterian). Mother was the youngest of nine children and was born in New York. Dad came from New York also; his parents were of Scotch and English stock. I was born in Detroit, July 1, 1913. I have one brother. Stating us in order of birth, we are: Mary, 16, and Edward, 12.</p>
+
+<p>My religious denominations have been varied. Mom put me in the cradle-roll of a Congregational Church, but I have been a member of the Lutheran, Presbyterian, Christian Science, and Methodist Episcopal churches. All of which indicates that either I'm very broad-minded religiously or unable to make up my mind. The latter is more plausible. Was a member of a Camp Fire Girls group for several years and was greatly interested in its activities. I reached the second rank in the organization.</p>
+
+<p>My mother has no occupation. One calls her a housewife, I guess, but she isn't home enough for that. She travels in the winter and fall. Dad is a Lawyer. My real father is dead. He died when I was very young. His work was in the appraisal business. My clearest picture of him is playing his violin. He played beautifully. Mother plays the piano and when she accompanied him I used to listen for hours. I love music. . . .</p>
+
+<p>I have tried to remember the first time that I went to a movie. It must have been when I was very young because I cannot recall the event. My real interest in motion pictures showed itself when I was in about fourth grade at grammar school. There was a theater on the route by which I went home from school and as the picture changed every other day I used to spend the majority of my time there. A gang of us little tots went regularly.</p>
+
+<p>One day I went to see Viola Dana in "The Five Dollar Baby." The scenes which showed her as a baby fascinated me so that I stayed to see it over four times. I forgot home, dinner, and everything. About eight o'clock mother came after me—frantically searching the theater.</p>
+
+<p>Next to pictures about children, I loved serials and pie-throwing comedies, not to say cowboy 'n' Indian stories. These kind I liked until I was twelve or thirteen; then I lost interest in that type, and the spectacular, beautifully decorated scenes took my eye. Stories of dancers and stage life I loved. Next, mystery plays thrilled me and one never slipped by me. At fifteen I liked stories of modern youth; the gorgeous clothes and settings fascinated me.</p>
+
+<p>My first favorite was Norma Talmadge. I liked her because I saw her in a picture where she wore ruffly hoop-skirts which greatly attracted me. My favorites have always been among the women; the only men stars I've ever been interested in are Tom Mix, Doug Fairbanks and Thomas Meighan, also Doug McLean and Bill Haines. Colleen Moore I liked for a while, but now her haircut annoys me. My present favorites are rather numerous: Joan Crawford, Billie Dove, Sue Carol, Louise Brooks, and Norma Shearer. I nearly forgot about Barbara LaMar. I really worshiped her. I can remember how I diligently tried to draw every gown she wore on the screen and how broken-hearted I was when she died. You would have thought my best friend had passed away.</p>
+
+<p>Why I like my favorites? I like Joan Crawford because she is so modern, so young, and so vivacious! Billie Dove is so beautifully beautiful that she just gets under your skin. She is the most beautiful woman on the screen! Sue Carol is cute 'n' peppy. Louise Brooks has her assets, those being legs ‘n' a clever hair-cut. Norma Shearer wears the kind of clothes I like and is a clever actress.</p>
+
+<p>I nearly always have gone and yet go to the theater with someone. I hate to go alone as it is more enjoyable to have someone to discuss the picture with. Now I go with a bunch of girls or on a date with girls and boys or with one fellow.</p>
+
+<p>The day-dreams instigated by the movies consist of clothes, ideas on furnishings, and manners. I don't day-dream much. I am more concerned with materialistic things and realisms. Nevertheless it is hard for any girl not to imagine herself cuddled up in some voluptuous ermine wrap, etc.</p>
+
+<p>The influence of movies on my play as a child—all that I remember is that we immediately enacted the parts interesting us most. And for weeks I would attempt to do what that character would have done until we saw another movie and some other hero or heroine won us over.</p>
+
+<p>I'm always at the mercy of the actor at a movie. I feel nearly every emotion he portrays and forget that anything else is on earth. I was so horrified during "The Phantom of the Opera" when Lon Chaney removed his mask, revealing that hideous face, that until my last day I shall never forget it.</p>
+
+<p>I am deeply impressed, however, by pathos and pitifulness, if you understand. I remember one time seeing a movie about an awful fire. I was terrified by the reality of it and for several nights I was afraid to go to sleep for fear of a fire and even placed my hat and coat near by in case it was necessary to make a hasty exit. Pictures of robbery and floods have affected my behavior the same way. Have I ever cried at pictures? Cried! I've practically dissolved myself many a time. How people can witness a heart-rending picture and not weep buckets of tears is more than I can understand. "The Singing Fool," "The Iron Mask," "Seventh Heaven," "Our Dancing Daughters," and other pictures I saw when very young which centered about the death of someone's baby and showed how the big sister insisted on her jazz 'n' whoopee regardless of the baby or not - these nearly killed me. Something like that, anyway; and I hated that girl so I wanted to walk up to the screen and tear her up! As for liking to cry—why, I never thought of that. It isn't a matter of liking or not. Sometimes it just can't be helped. Movies do change my moods, but they never last long. I'm off on something else before I know it. If I see a dull or morose show, it sort of deadens me and the vim and vigor dies out 'til the movie is forgotten. For example, Mary Pickford's movie—"Sparrows"—gave me the blues for a week or so, as did li'l Sonny Boy in "The Singing Fool." The poor kid's a joke now.</p>
+
+<p>This modern knee-jiggling, hand-clapping effect used for accompanying popular music has been imitated from the movies, I think. But unless I've unconsciously picked up little mannerisms, I can think of no one that I've tried to imitate.</p>
+
+<p>Goodness knows, you learn plenty about love from the movies. That's their long run; you learn more from actual experience, though! You do see how the gold-digger systematically gets the poor fish in tow. You see how the sleek-haired, long-earringed, languid-eyed siren lands the men. You meet the flapper, the good girl, 'n' all the feminine types and their little tricks of the trade. We pick up their snappy comebacks which are most handy when dispensing with an unwanted suitor, a too ardent one, too backward one, etc. And believe me, they observe and remember, too.</p>
+
+<p>I can remember when we all nudged one another and giggled at the last close-up in a movie. I recall when during the same sort of close-up when the boy friend squeezes your arm and looks soulfully at you. Oh, it's lotsa fun! No, I never fell in love with my movie idol. When I don't know a person really, when I know I'll never have a chance with 'em, I don't bother pining away over them and writing them idiotic letters as some girls I've known do. I have imagined playing with a movie hero many times though that is while I'm watching the picture. I forget about it when I'm outside the theater. Buddy Rogers and Rudy Valentino have kissed me oodles of times, but they don't know it. God bless 'em!</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Sun, 17 Jan 2010 04:33:42 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA["I Didn't Raise My Boy to Be a Soldier" [Song]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/396</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">&quot;I Didn&#039;t Raise My Boy to Be a Soldier&quot; [Song]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>By 1915, Americans began debating the need for military and economic preparations for war. Strong opposition to "preparedness" came from isolationists, socialists, pacifists, many Protestant ministers, German Americans, and Irish Americans (who were hostile to Britain). One of the hit songs of 1915, "I Didn't Raise My Boy to Be a Soldier," by lyricist Alfred Bryan and composer Al Piantadosi, captured widespread American skepticism about joining in the European war. Meanwhile, interventionists and militarists like former president Theodore Roosevelt beat the drums for preparedness. Roosevelt’s retort to the popularity of the antiwar song was that it should be accompanied by the tune "I Didn't Raise My Girl to Be a Mother." He suggested that the place for women who opposed war was "in China—or by preference in a harem—and not in the United States."</p> </div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Al Pianadosi and Alfred Bryan, &quot;I Didn&#039;t Raise My Boy To Be a Soldier.&quot; Recording: Edison Collection, Library of Congress.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>Ten million soldiers to the war have gone,<br />
+Who may never return again.<br />
+Ten million mothers' hearts must break,<br />
+For the ones who died in vain.<br />
+Head bowed down in sorrowin her lonely years,<br />
+I heard a mother murmur thro' her tears:<br /> 
+<em>Chorus:</em> 
+I didn't raise my boy to be a soldier,<br />
+I brought him up to be my pride and joy,<br />
+Who dares to put a musket on his shoulder,<br />
+To shoot some other mother's darling boy?<br />
+Let nations arbitrate their future troubles,<br />
+It’s time to lay the sword and gun away,<br />
+There'd be no war today,<br />
+If mothers all would say,<br />
+I didn’t raise my boy to be a soldier.<br />
+<em>(Chorus)</em>
+What victory can cheer a mother’s heart,<br />
+When she looks at her blighted home?<br />
+What victory can bring her back,<br />
+All she cared to call her own?<br />
+Let each mother answer in the year to be,<br />
+Remember that my boy belongs to me!<br />
+<em>(Chorus)</em></p>
+
+</div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Sun, 17 Jan 2010 03:54:28 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Kissing Rudy Valentino: A High-School Student Describes Movie Going in the 1920s [Personal Account]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/395</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Kissing Rudy Valentino: A High-School Student Describes Movie Going in the 1920s [Personal Account]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Fears about the impact of movies on youth led to the Payne Fund research project, which brought together 19 social scientists and resulted in 11 published reports. One of the most fascinating of the studies was carried out by Herbert Blumer, a young sociologist who would later go on to a distinguished career in the field. For a volume that he called <em>Movies and Conduct</em> (1933), Blumer asked more than 1500 college and high school students to write "autobiographies" of their experiences going to the movies. In this motion picture autobiography, a high school "girl" talked about what the movies of the 1920s meant to her.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Herbert Blumer, Movies and Conduct (New York: Arno Press and the New York Times, 1970), 217–218, 220–223.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>I am a girl—American born and of Scotch descent. My grandparents came to America from Glasgow, Scotland, and grandfather became a minister (Presbyterian). Mother was the youngest of nine children and was born in New York. Dad came from New York also; his parents were of Scotch and English stock. I was born in Detroit, July 1, 1913. I have one brother. Stating us in order of birth, we are: Mary, 16, and Edward, 12.</p>
+<p>My religious denominations have been varied. Mom put me in the cradle-roll of a Congregational Church, but I have been a member of the Lutheran, Presbyterian, Christian Science, and Methodist Episcopal churches. All of which indicates that either I’m very broad-minded religiously or unable to make up my mind. The latter is more plausible. Was a member of a Camp Fire Girls group for several years and was greatly interested in its activities. I reached the second rank in the organization.</p>
+<p>My mother has no occupation. One calls her a housewife, I guess, but she isn’t home enough for that. She travels in the winter and fall. Dad is a Lawyer. My real father is dead. He died when I was very young. His work was in the appraisal business. My clearest picture of him is playing his violin. He played beautifully. Mother plays the piano and when she accompanied him I used to listen for hours. I love music. . . .</p>
+<p>I have tried to remember the first time that I went to a movie. It must have been when I was very young because I cannot recall the event. My real interest in motion pictures showed itself when I was in about fourth grade at grammar school. There was a theater on the route by which I went home from school and as the picture changed every other day I used to spend the majority of my time there. A gang of us little tots went regularly.</p>
+<p>One day I went to see Viola Dana in “The Five Dollar Baby.” The scenes which showed her as a baby fascinated me so that I stayed to see it over four times. I forgot home, dinner, and everything. About eight o’clock mother came after me—frantically searching the theater.</p>
+<p>Next to pictures about children, I loved serials and pie-throwing comedies, not to say cowboy ‘n’ Indian stories. These kind I liked until I was twelve or thirteen; then I lost interest in that type, and the spectacular, beautifully decorated scenes took my eye. Stories of dancers and stage life I loved. Next, mystery plays thrilled me and one never slipped by me. At fifteen I liked stories of modern youth; the gorgeous clothes and settings fascinated me.</p>
+<p>My first favorite was Norma Talmadge. I liked her because I saw her in a picture where she wore ruffly hoop-skirts which greatly attracted me. My favorites have always been among the women; the only men stars I’ve ever been interested in are Tom Mix, Doug Fairbanks and Thomas Meighan, also Doug McLean and Bill Haines. Colleen Moore I liked for a while, but now her haircut annoys me. My present favorites are rather numerous: Joan Crawford, Billie Dove, Sue Carol, Louise Brooks, and Norma Shearer. I nearly forgot about Barbara LaMar. I really worshiped her. I can remember how I diligently tried to draw every gown she wore on the screen and how broken-hearted I was when she died. You would have thought my best friend had passed away.</p>
+<p>Why I like my favorites? I like Joan Crawford because she is so modern, so young, and so vivacious! Billie Dove is so beautifully beautiful that she just gets under your skin. She is the most beautiful woman on the screen! Sue Carol is cute ‘n’ peppy. Louise Brooks has her assets, those being legs ‘n’ a clever hair-cut. Norma Shearer wears the kind of clothes I like and is a clever actress.</p>
+<p>I nearly always have gone and yet go to the theater with someone. I hate to go alone as it is more enjoyable to have someone to discuss the picture with. Now I go with a bunch of girls or on a date with girls and boys or with one fellow.</p>
+<p>The day-dreams instigated by the movies consist of clothes, ideas on furnishings, and manners. I don’t day-dream much. I am more concerned with materialistic things and realisms. Nevertheless it is hard for any girl not to imagine herself cuddled up in some voluptuous ermine wrap, etc.</p>
+<p>The influence of movies on my play as a child—all that I remember is that we immediately enacted the parts interesting us most. And for weeks I would attempt to do what that character would have done until we saw another movie and some other hero or heroine won us over.</p>
+<p>I’m always at the mercy of the actor at a movie. I feel nearly every emotion he portrays and forget that anything else is on earth. I was so horrified during “The Phantom of the Opera” when Lon Chaney removed his mask, revealing that hideous face, that until my last day I shall never forget it.</p>
+<p>I am deeply impressed, however, by pathos and pitifulness, if you understand. I remember one time seeing a movie about an awful fire. I was terrified by the reality of it and for several nights I was afraid to go to sleep for fear of a fire and even placed my hat and coat near by in case it was necessary to make a hasty exit. Pictures of robbery and floods have affected my behavior the same way. Have I ever cried at pictures? Cried! I’ve practically dissolved myself many a time. How people can witness a heart-rending picture and not weep buckets of tears is more than I can understand. “The Singing Fool,” "The Iron Mask,“ "Seventh Heaven,” "Our Dancing Daughters,“ and other pictures I saw when very young which centered about the death of someone’s baby and showed how the big sister insisted on her jazz ‘n’ whoopee regardless of the baby or not - these nearly killed me. Something like that, anyway; and I hated that girl so I wanted to walk up to the screen and tear her up! As for liking to cry—why, I never thought of that. It isn’t a matter of liking or not. Sometimes it just can’t be helped. Movies do change my moods, but they never last long. I’m off on something else before I know it. If I see a dull or morose show, it sort of deadens me and the vim and vigor dies out 'til the movie is forgotten. For example, Mary Pickford’s movie—”Sparrows“—gave me the blues for a week or so, as did li’l Sonny Boy in ”The Singing Fool." The poor kid’s a joke now.</p>
+<p>This modern knee-jiggling, hand-clapping effect used for accompanying popular music has been imitated from the movies, I think. But unless I’ve unconsciously picked up little mannerisms, I can think of no one that I’ve tried to imitate.</p>
+<p>Goodness knows, you learn plenty about love from the movies. That’s their long run; you learn more from actual experience, though! You do see how the gold-digger systematically gets the poor fish in tow. You see how the sleek-haired, long-earringed, languid-eyed siren lands the men. You meet the flapper, the good girl, ‘n’ all the feminine types and their little tricks of the trade. We pick up their snappy comebacks which are most handy when dispensing with an unwanted suitor, a too ardent one, too backward one, etc. And believe me, they observe and remember, too.</p>
+<p>I can remember when we all nudged one another and giggled at the last close-up in a movie. I recall when during the same sort of close-up when the boy friend squeezes your arm and looks soulfully at you. Oh, it’s lotsa fun! No, I never fell in love with my movie idol. When I don’t know a person really, when I know I’ll never have a chance with ‘em, I don’t bother pining away over them and writing them idiotic letters as some girls I’ve known do. I have imagined playing with a movie hero many times though that is while I’m watching the picture. I forget about it when I’m outside the theater. Buddy Rogers and Rudy Valentino have kissed me oodles of times, but they don’t know it. God bless ’em!</p>
+
+</div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Sun, 17 Jan 2010 03:29:14 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

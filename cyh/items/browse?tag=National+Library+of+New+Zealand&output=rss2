@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=National+Library+of+New+Zealand&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:19:43 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Timeframes]]></title>
+      <link>https://cyh.rrchnm.org/items/show/410</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Timeframes</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://timeframes.natlib.govt.nz/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Alexander Turnbull Library</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">January 2010</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><em><a class="external" href="http://timeframes.natlib.govt.nz/">Timeframes</em></a> is the image database from the Alexander Turnbull Library, a division of the <a class="external" href="http://www.natlib.govt.nz/">National Library of New Zealand</a>. The digital collection contains just over 42,000 images, ranging from publications, manuscripts, music, maps, sound recordings, ephemera (including posters, programs advertisements), photographs, cartoons, paintings, drawings and prints. It focuses on the geography, social and natural history of New Zealand, the Pacific and Antarctica from the point of European contact (c. 1642) to the present.</p> 
+
+<p>The homepage is user-friendly, yet some items, such as titles and images are not linked, which seems like an odd oversight. They become decorative rather than functional. If you register, the features are much more rewarding.  There five top <a class="external" href="http://timeframes.natlib.govt.nz/logicrouter/servlet/LogicRouter?OUTPUTXSL=browse.xslt">Browse</a> categories organized alphabetically according to <a class="external" href="http://timeframes.natlib.govt.nz/logicrouter/servlet/LogicRouter?OUTPUTXSL=browse.xslt&type=name">Name</a> of people or organizations, <a class="external" href="http://timeframes.natlib.govt.nz/logicrouter/servlet/LogicRouter?OUTPUTXSL=browse.xslt&type=place">Place</a>, <a class="external" href="http://timeframes.natlib.govt.nz/logicrouter/servlet/LogicRouter?OUTPUTXSL=browse.xslt&type=subject">Subject</a>, Māori <a class="external" href="http://timeframes.natlib.govt.nz/logicrouter/servlet/LogicRouter?OUTPUTXSL=browse.xslt&type=iwi">Iwi/Hāpu</a> (Tribe), and <a class="external" href="http://timeframes.natlib.govt.nz/logicrouter/servlet/LogicRouter?OUTPUTXSL=browse.xslt&type=genre">Genre</a> of media, style and techniques. Under the A-Z Subject Browse top heading of <a class="external" href="http://timeframes.natlib.govt.nz/logicrouter/servlet/LogicRouter?OUTPUTXSL=simsearch.xslt&pm_SA=Children&pm_SC=SKEY&pm_MH=25&pm_USI=0&DDF=Y&ds_svGeneric_DDF=Y&api_2=SIMULFIND&DIRECTIVE=createSrHist&ds_svGeneric_MH=25&pm_CL=281&api_1=COLLECTION_REPOLOGIN">"children,"</a> there are 831 results that include a large variety of sub-categories, from <a class="external" href="http://timeframes.natlib.govt.nz/logicrouter/servlet/LogicRouter?OUTPUTXSL=simsearch.xslt&pm_SA=Children%20sewing&pm_SC=SKEY&pm_MH=25&pm_USI=0&DDF=Y&ds_svGeneric_DDF=Y&api_2=SIMULFIND&DIRECTIVE=createSrHist&ds_svGeneric_MH=25&pm_CL=281&api_1=COLLECTION_REPOLOGIN">children sewing</a>, to <a class="external" href="http://timeframes.natlib.govt.nz/logicrouter/servlet/LogicRouter?OUTPUTXSL=results.xslt&pm_MH=1&pm_RP=0&pm_DDF=Y&api_1=SIMULHITS&pm_MH=25&pm_RP=0&api_2=SIMULHITSPLUS&ds_svGeneric_ViewedResults=T">children - tobacco use</a> and <a class="external" href="http://timeframes.natlib.govt.nz/logicrouter/servlet/LogicRouter?OUTPUTXSL=results.xslt&pm_MH=1&pm_RP=0&pm_DDF=Y&api_1=SIMULHITS&pm_MH=25&pm_RP=0&api_2=SIMULHITSPLUS&ds_svGeneric_ViewedResults=T">children with disabilities</a>. It seems unlikely that all of the images that include children are returned by this search.  Another major drawback is that only one search is allowed at a time. Opening multiple windows within the same session to run several searches simultaneously crashes the database.</p>  
+
+<p>The basic keyword search for "child" returned over 590 hits, while "youth" only 276. These are quite low considering the size of the database. While incongruously, there were 619 results for "girl" and 705 for "boy," thus these keywords are not consistently cross-referenced with "child." Some of the filtering is a bit generic, but like most research databases, trial and error will reveal how keywords, categories and cross-referencing has been applied by the data masters. Not being able to click on the titles themselves is a flaw throughout the site that can be frustrating. However, <em>Timeframes</em> is in the process of being upgraded with new features, including better search filters and image tagging abilities, which will add to its functionality.</p>
+
+<p> The descriptive text record associated with each image is a part <a class="external" href="http://tapuhi.natlib.govt.nz/">TAPUHI</a>, the database of unpublished (original) manuscript and picture collections of the Alexander Turnbull Library. As much of the Turnbull collection is based on donated materials, it sometimes lacks useful information. For example, the image of film writer/directors Ann and Jane Campion barely includes basic information although these women are certainly around to add to the public record. Similarly, while there are many family and school albums that show candid as well as posed photographs, useful information is at a minimum. There are additional searching capabilities on the TAPUHI database for items that may not yet be online with Timeframes.
+<p>With such a variety of media available, a general search sometimes proves to be a bit too expansive. For example, the topic of "child abuse" yields primarily political cartoons.  If one is familiar with the current legislation and the debate surrounding it, then these cartoons become valid, but without that context, they seem either disturbing or irrelevant. Narrowing the search by media in the <a class="external" href="http://timeframes.natlib.govt.nz/logicrouter/servlet/LogicRouter?OUTPUTXSL=advanced_search.xslt&hier=h1&tree=c&api_1=PUB_DISP_COLL&hier=builder&tree=c&api_2=GET_SEARCH_PARM&hier=h1&tree=o&api_3=PUB_DISP_COLL&hier=builder&tree=o&ds_svAPI_searchparm=4&api_4=GET_SEARCH_PARM&ds_svAPI_sortoptions=5&api_5=GET_USER_SORT_OPTIONS">Advanced Search</a> menu can be a little more time consuming, but leads to more easily digestible returns.  While the selection of images is in no way comprehensive compared to what is available in the actual collections, the ATL are readily responsive in assisting with researchers' queries. The quality of the images is quite high; most are print ready without any further adjustments.</p>
+<p>In keeping with New Zealand's emphasis on biculturalism and adherence to the Treaty of Waitangi, there is information available in English and Māori. Teachers and researchers need to be aware, however, that the language of the database assumes some degree of familiarity with New Zealand culture. "Timeframes includes items of cultural value to Māori people and other New Zealanders. These taonga are carefully selected and carry the mana of their iwi (people), whichever medium may be represented." Definitions of such important cultural concepts as 'taonga' and 'mana' do not follow the disclaimer.</p> 
+
+<p>While any database that includes culturally sensitive material, <em>Timeframes</em> itself reveals a contemporary digital New Zealand negotiating its colonial past. In some cases the framework and data reveals continuing issues of perception and memory that affect the Nation as a whole. For example, pictures of Māori children are categorized as ethnographic by default and are not included in the general New Zealand children category.</p>  
+
+<p><em>Timeframes</em> is solely for researching with no mandate for educational programming as such. With typical useful features, such as saved searches, search histories, and a favorite image basket for items to be reviewed or ordered later, teachers or students can create lists of individual items for further research or to share. Ultimately, while there are hundreds of images of children, the database can stand huge improvements on its teaching features and cross-referencing. Otherwise, it is not very functional as a tool for educators.</p>   
+
+<p>As a supplement, <a class="external" href="http://www.matapihi.org.nz/">Matapihi</a>, a database in English and Māori that includes images and information from many New Zealand cultural institutions including Timeframes, can be used to make a more comprehensive search. As well the <a class="external" href="http://www.natlib.govt.nz/">National Library of New Zealand</a> has general curriculum resources for teachers and students.</p>
+
+
+
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Ashley E. Remer</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">Girl Museum</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">It focuses on the geography, social and natural history of New Zealand, the Pacific and Antarctica from the point of European contact (c.1642) to the present.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/437/fullsize"><img src="/files/display/437/square_thumbnail" class="thumb" alt="Timeframes" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Sat, 06 Feb 2010 01:13:41 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/437/fullsize" type="image/jpeg" length="85418"/>
+    </item>
+  </channel>
+</rss>

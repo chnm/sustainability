@@ -1,0 +1,1641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse/2?tag=Oral+History&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:23:18 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[The Adoption History Project]]></title>
+      <link>https://cyh.rrchnm.org/items/show/94</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">The Adoption History Project</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-06-25</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.uoregon.edu/~adoption/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">University of Oregon</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">January 2008</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href=http://www.uoregon.edu/~adoption/index.html><em>The Adoption History Project</em></a> is a superb resource for scholars and students alike. Not only does it offer a broad and consistently high-quality range of historical information, the site itself was designed with user accessibility in mind—it is easy to navigate and welcoming for students.</p>
+
+<p>The <a class="external" href=http://www.uoregon.edu/~adoption/index.html>home page</a> introduces the five major categories. Of these, one that might appeal most immediately to students is the <a class="external" href=http://www.uoregon.edu/~adoption/timeline.html>Timeline</a>, which gives a concise, one-page overview of major developments in adoption history from 1851 to 2000. Other categories include: <a class="external" href=http://www.uoregon.edu/~adoption/people/index.html>major people and organizations</a>; <a class="external" href=http://www.uoregon.edu/~adoption/studies/index.html>explanations of adoption studies and adoption science</a>; <a class="external" href=http://www.uoregon.edu/~adoption/topics/index.html> general topics in adoption history</a>; and a rich collection of  <a class="external" href=http://www.uoregon.edu/~adoption/archive/index.html>primary-source documents</a> that, in itself, offers hours of compelling reading. 
+See, for example, the illustrated excerpts from <a class="external" href=http://www.uoregon.edu/~adoption/archive/BraceDCNY.htm><em>The Dangerous Classes of New York and Twenty Years' Work Among Them</em></a> [1872] by Charles Loring Brace, a leading figure in 19th century social reform and child-rescue.</p> 
+
+<p>Shorter primary sources appear in full-text form; longer ones are efficiently excerpted for easy reading, with full citations provided. <a class="external" href=http://www.uoregon.edu/~adoption/reading.html>Further Reading</a> offers references to many useful texts. One of the site's nicest design features is that much of this information is cross-indexed, so that visitors can find the same pages easily through a variety of different paths. To make navigation even simpler, a <a class="external" href=http://www.uoregon.edu/~adoption/siteindex.html>Site Index</a> provides a clear and cogent list of topics.</p>
+
+<p>Written in a clear and engaging style, the site offers quick access to major issues that shape the field of adoption history. For example, <a class="external" href=http://www.uoregon.edu/~adoption/studies/index.html>Adoption Studies/Adoption Science</a> leads to a paragraph that neatly explains: "Adoption has been the subject of four major types of empirical research: <a class="external" href=http://www.uoregon.edu/~adoption/topics/fieldstudies.htm>field studies</a>, <a class="external" href=http://www.uoregon.edu/~adoption/topics/outcomestudies.htm> outcome studies</a>, <a class="external" href=http://www.uoregon.edu/~adoption/topics/naturenurturestudies.htm>nature-nurture studies</a>, and <a class="external" href=http://www.uoregon.edu/~adoption/topics/psychopathstudies.htm>psychopathology studies</a>." Each term is hyperlinked to chronological lists of studies in the relevant area. The page also provides descriptions of particular studies and excerpts, making it relatively simple for someone new to the field to quickly grasp the general shape of the discourse of adoption history.</p>
+
+<p>The overall content reflects the impact of Cultural Studies and multiculturalism on the field of adoption history. Pages on <a class="external" href=http://www.uoregon.edu/~adoption/topics/transracialadoption.htm>transracial adoptions</a>, <a class="external" href=http://www.uoregon.edu/~adoption/topics/AfricanAmerican.htm>African-American adoptions</a>, and the <a class="external" href=http://www.uoregon.edu/~adoption/topics/IAP.html>Indian Adoption Project</a> complement those devoted to the more traditionally visible history of white orphans, white social workers, and white adoptive parents.</p> 
+
+<p>One small critique of the biographies of major figures: the pages devoted to female figures (such as <a class="external" href=http://www.uoregon.edu/~adoption/people/buck.html>Pearl S. Buck</a> and <a class="external" href=http://www.uoregon.edu/~adoption/people/AnnaFreud.htm>Anna Freud</a>) mention their marital and/or parental status, often in the very first paragraph, presenting the impression that a woman's personal relationships are the most necessary and relevant facts of her life. Meanwhile, the male figures are discussed solely for their professional importance, with little or no mention of their family life.</p>
+
+<p>Feminist historians will find this irritating, especially in the case of <a class="external" href=http://www.uoregon.edu/~adoption/people/AnnaFreud.htm>Anna Freud</a>, who is described reductively as an apparent victim of an Elektra complex: "She made her father's profession her own . . . . Anna Freud never married or had children. She was her father's constant companion, his colleague, and his nurse during the final years of his life." Especially because it appears in the first paragraph, this is an inappropriately condescending description of someone who deserves to have her professional accomplishments foregrounded. That flaw, however, could easily be turned into a good teaching opportunity with students who are old enough to grasp the concept of gender bias in historiography.</p> 
+
+<p>Overall, the <a class="external" href=http://www.uoregon.edu/~adoption/index.html>Adoption History Project</a> is among the best-designed and most succinctly comprehensive historical websites currently available. It is useful for students and scholars at all levels of academic proficiency.</p></div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Ilana Nash</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">Western Michigan University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">Overall, the Adoption History Project is among the best-designed and most succinctly comprehensive historical websites currently available.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/84/fullsize"><img src="/files/display/84/square_thumbnail" class="thumb" alt="The Adoption History Project" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Wed, 25 Jun 2008 20:29:29 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/84/fullsize" type="image/jpeg" length="48891"/>
+    </item>
+    <item>
+      <title><![CDATA[New Zealand Childhoods (18th–20th c.)]]></title>
+      <link>https://cyh.rrchnm.org/items/show/93</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">New Zealand Childhoods (18th–20th c.)</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text">This module examines the impact of colonization on childhood experiences in New Zealand’s bicultural society of indigenous Maori and mostly European Pakeha between the first encounter in the 18th century to the 20th century, including issues of language, child labor and schooling as well as changing values  concerning family structure, identity, and social policy.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-06-23</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Teaching Module Item Type Metadata</h2>
+        <div id="teaching-module-item-type-metadata-bibliography" class="element">
+        <h3>Bibliography</h3>
+                                    <div class="element-text"><ol class="bibliography">
+<li>Ihimaera, Witi, ed. <em>Growing Up Maori</em>. Auckland: Tandem Press, 1998.<br /> 
+
+<span>This collection of 37 personal accounts covers a wide spectrum of experiences and provides the best single introduction to Maori childhoods, rural and urban, throughout the 20th century.</span></li>
+
+<li>Gifkins, Michael, ed. <em>Through the Looking Glass: Recollections of Childhood from 20 
+Prominent New Zealanders</em>. Auckland: Century Hutchinson, 1988.<br />
+
+<span>In seeking a common theme from the variety of childhood experience reflected in this collection, Gifkins concludes (p. viii) that "the anarchy of childhood" predominates. Each of the contributors attained prominence in his or her chosen field; the majority are writers or poets. Most of the childhoods outlined are set in the 1940s and 1950s.</span></li>
+
+<li>O'Regan, Pauline. <em>Aunts & Windmills: Stories from My Past</em>. Wellington: Bridget Williams Books, 1991.<br />
+
+<span>A Catholic nun and social activist, O'Regan recounts childhood episodes of the 1920s and 1930s, set in the small West Coast farming community of Cronadun. School, church, and community activities are complemented by evocative memories of sounds, smells, and tastes.</span></li>
+
+<li>Langkilde Christie, Poula. <em>Candles and Canvas; A Danish Family in New Zealand</em>. Auckland: New Women's Press, 1987.<br />
+
+<span>Emigrating as a child to New Zealand in 1907, Poula Christie and her sister encountered intolerance, hostility, and suspicion as "foreigners" in a British-dominated society. Her autobiography highlights the cultural difficulties of young "aliens" who sought to be accepted by their peers despite parental anxieties that they should not ignore their cultural heritage.</span></li>
+
+<li>Archie, Carol. <em>Skin to Skin: Intimate True Stories of Maori-Pakeha Relationships</em>. Auckland: Penguin Books, 2005.<br />
+
+<span>A highly respected Pakeha journalist, Archie has had extensive experience covering Maori/Pakeha issues. This book is based upon her interviews with the members of ten New Zealand families of mixed ethnicity. Particular emphasis is given to the recollections of the (now adult) children. Some 70,000 New Zealand couples were in Maori/non-Maori relationships at the beginning of the 21st century.</span></li>
+</ol></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-document-based-question" class="element">
+        <h3>Document Based Question</h3>
+                                    <div class="element-text"><p>by Ryba L. Epstein<br />
+<em>(Suggested writing time: 50 minutes)</em></p>
+
+<p>Societies try to pass on their basic beliefs and values to their children through both official and unofficial channels. The ideals about what children should be taught, how they should be raised, and how they should behave vary greatly from one group to another and over time.</p>
+
+<p>Analyze the documents below and determine the changing attitudes toward children in 19th- and 20th-century New Zealand, as well as the official and unofficial ways those values are shaped.</p>
+
+
+<p>Your essay should:</p>
+<ul>
+<li>have a clear thesis,</li>
+<li>use all of the documents to support your thesis,</li>
+<li>show analysis by grouping the documents into at least two groups,</li>
+<li>analyze the point of view of the documents, and</li>
+<li>recognize the limitation of the documents before you by suggesting an additional type of document or source to make your discussion more complete or valid.</li></ul>
+
+
+<h3>Documents</h3>
+<ol>
+<li><a class="external" href=http://chnm.gmu.edu/cyh/teaching-modules/93?section=primarysources&source=91>S. Locke, Annual Report on Native Affairs [Government Document], 1874.</a><br />
+<br />
+
+The Maoris in this part of the country are in that position where they find the balance of power turned in favour of the European. They feel the old mana and customs and power of their chiefs are gone: at the same time they have only acquired that amount of knowledge that makes them jealous of the change going on around them, without having, for the altered position in which they are placed, learnt those habits of steady industry and application of general principles for their guidance, to allow their participating freely in the general progress. . . . [There] is a party of industrious Natives in the district who cultivate extensively, paying attention to improving their properties and educating the rising generation. . . . There are two schools established in the district, under the provisions of the Native Schools Act, . . . both of which are conducted in a most satisfactory manner, and the children show a great deal of progress in their knowledge of the English language, considering the short time they have been learning; so much so that it is time to consider some way of providing for some of them by apprenticing them to useful trades. . . .</li>
+<li><a class="external" href=http://chnm.gmu.edu/cyh/teaching-modules/93?section=primarysources&source=73>"Shocking Disaster at Cambridge: Three Children Burn to Death." Newspaper article. 1884.</a><br />
+<br />
+Mrs. Osborne, having some shopping to do in the town, put her infant child to be, and locked it up by itself in the bedroom, so that it would not be disturbed by the other two children [aged 2 and 4 years]. Seeing that everything was safe, there being no fire in the house since breakfast time, she shut up the boy and the girl in the kitchen, and then proceeded to town on her business. I was the usual thing for Mrs. Osborne to shut up her children, believing that did she not do so they would find their way to the river, only a few chains distant. . . . The Coroner . . . referred to the boys’ habit of using matches as described by the mother, and he had no doubt but that the fire originated by the boy getting hold of the matches on this occasion, and in some way setting fire to their clothes or some paper that may have been lying about. . . . He though that the children might have been left with some neighbor.<br />
+<br />
+A juryman informed the coroner that there were no neighbors in the vicinity, and the unfortunate people were not in a position to employ a girl to look after the house in their absence.<br />
+<br />
+A verdict of accidental death by burning was returned.</li>
+
+<li><a class="external" href=http://chnm.gmu.edu/cyh/teaching-modules/93?section=primarysources&source=74>Parliamentary debate over the "Juvenile Depravity Suppression Bill." 1896.</a><br />
+<br />
+"Mr. W. Hutchinson: There were a number of young children amongst us painfully demoralised – so young, some of them, that the policeman could not think of interfering with them – children suffering from a so-called liberty run unto utter license and lawlessness; and all this arising largely from parental carelessness or positive neglect. . . . These mere children got together at the street-corner or under a dark verandah; they talked, or they listened to talk, not the sweet babble of childhood, mixed with its laugh of innocence, but talk that need not be described; they got into temptations of all kinds before they understood the disastrous results which certainly followed. He ventured to suggest that these young children should be dealt with before they come to those of more advanced age. The Bill before them took no note of this incipiency in vice, yet it was here the mischief began. The Bill was a police Bill, pure and simple; but they needed more. It was an out-worn but still perfectly true axiom that prevention was better than cure."</li>
+
+ <li><a class="external" href=http://chnm.gmu.edu/cyh/teaching-modules/93?section=primarysources&source=75>W. E. Spencer, Inspector of Schools, Taranaki Education Office, 1898.</a><br />
+<br />
+"The causes of bad attendance, exclusive of bad roads and inclement weather, may be classed under two heads - (1) The home circumstances of the pupils, and (2) the school and its authorities. Under the first head I may mention parental indifference or neglect and excessive work required from children of very tender years. I know that during the milking season some children have to milk as many as ten cows every morning, and, if they come to school at all, arrive late, and are so fatigued as to be unfit for the work of the day. . . . Under the second of the above heads there is ample scope for attraction. When a school building is ill-lighted, gloomy, and depressing one cannot wonder at children preferring to stay away more than at their preferring sunshine to dulness [sic]. Then by all means let our schools be cheerful, bright, and attractive, and let the walls be covered with interesting and instructive charts and pictures such as will arouse and sustain curiosity. . . . Let the first impressions of the school-day be pleasant ones. Let us have means by which the children may amuse themselves during the recesses and before school opens, and they will, if possible, come early and regularly for a brief interval of companionship and amusement. . . . Again, the personality of the teacher is a well-known factor in producing good or bad attendance. Lack of sympathy, harshness, carelessness, and incompetency will inevitably lower the attendance. . . ."</li>
+
+<li><a class="external" href=http://chnm.gmu.edu/cyh/teaching-modules/93?section=primarysources&source=36>Female Interviewee (born 1897). Interview by Colonial Childhoods Oral History Project.</a><br />
+<br />
+"When my brother was born I was just on 12 and the night before he was born, my mother said: "Would you like to go round and stay with Mrs Andrews?" So I stayed the night and I came home in the morning. Mrs Andrews said "Oh, you can go home now." So I went home. It wasn't far from where we were living in Petone. And when I got into the side I saw a most beautiful baby in a basket, on a chair, in the dining room and then I saw somebody rushing round in a starched apron with a cap on her head and I thought, "Well, who are you?" And I said to her, "Who's this in the basket?" She said, "That's your little brother." "Oh," I said, "Well then, I'll go and tell my mother." She said, "Don't you dare open that door. Your mother is very ill." Well, I was nearly 12 and I had no idea in the wild world where my brother had come from or how he got there or anything else – and I think that was quite wrong. I should have been told but I must have been very naïve or an idiot or something, I don't know what, but I never noticed that my mother was any different or having a baby."</li>
+ 
+
+<li><a class="external" href=http://chnm.gmu.edu/cyh/teaching-modules/93?section=primarysources&source=89>Code of Honour from <em>The New Zealand Boys' Diary</em>. 1936.</a><br />
+<br />
+<strong>QUALITIES OF A REAL MAN OR WOMAN</strong>
+<br />
+Are you one or only an overgrown baby? Are you faithful in your duties to God? Are you pure in thought, word and action? Do you study to imitate the greatest men or women of the world? Have you the strength of will to eat, drink and play in moderation and such forms of each as will make you better morally, intellectually and physically? Are you determined to work for the betterment of your fellow men?<br />
+<br />
+As a New Zealander, proud of the privilege, yet humble in the enjoyment of it:<br />
+<br />
+You will scorn all dishonesty, of whatsoever form or degree, as petty and mean and altogether unworthy of your family and the high traditions of your school and your Empire.<br />
+<br />
+In all things you will be temperate – in eating, in play, in rest, in work, exercising always the one true discipline – discipline of self. . . .<br />
+<br />
+You will regard coarseness in thought, language, or action, as belittling and degrading, and always and altogether beneath the dignity of a future citizen of this fair Dominion.<br />
+<br />
+You will cheerfully yield reasonable and prompt obedience to your elders, particularly your parents; and you will show a like respect for the rules of your school, the by-laws of your town, and the laws of your country, since you know that rules and laws are not needlessly made. . . . <br />
+<br />
+You will be punctual and orderly and cheerful. You will keep your promises. You will grudge no effort, no matter how small or how great the task, remembering that only your best is good enough.<br />
+<br />
+. . .<br />
+<br />
+You will ever be pure and true, for there are those who daily trust you. You will remember that in the hands of the Children of To-day is the World of To-morrow and you will strive to be not unworthy of the sacred trust.</li>
+
+<li><a class="external" href=http://chnm.gmu.edu/cyh/teaching-modules/93?section=primarysources&source=88>New Zealand School Photographs 1950 and 1964.</a></li>
+
+<li><a class="external" href=http://chnm.gmu.edu/cyh/teaching-modules/93?section=primarysources&source=87>Sanitarium Weet-Bix Packet [Advertisement], 1990s.</a></li>
+</ol></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-credits" class="element">
+        <h3>Credits</h3>
+                                    <div class="element-text"><p>Grateful acknowledgment is made to the following institutions for primary sources:</p>
+
+<ul>
+<li>Australasian Conference Association Ltd.</li>
+<li>Colonial Childhoods Oral History Project (CCOHP),</li>
+<li><a class="external" href="http://www.stats.govt.nz/">Statistics New Zealand</a>, and</li>
+<li>Whitcombe and Tombs.</li>
+</ul>
+<h3>About the Author</h3>
+
+<p>Jeanine Graham recently retired from teaching history at the University of Waikato (New Zealand). Her investigations into New Zealand childhood history have combined extensive use of oral history as well as documentary, material and visual sources. She also brings to her research the insights gained from some three decades of teaching at Waikato University, where papers on the history of Aotearoa/New Zealand are delivered jointly with colleagues from the School of Maori and Pacific Development. In addition to working in the fields of social history, cultural encounters and childhood history, Graham maintains an active interest in the scholarship of teaching and learning in History.</p>
+
+<h3>About the Lesson Plan Author</h3>
+<p>Ryba Epstein teaches World History, Advanced Placement World History, Advanced Placement European History, Humanities, and Advanced Placement English Literature at Rich East High School in Park Forest, Illinois. She is a consultant and table leader for AP World History and has also read for AP European History. Her M.A. and Ph.D. are from the University of Illinois in Urbana-Champaign, and she received her A.B. from UCLA. Her dissertation was on African oral epic poetry.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">University of Waikato - New Zealand (retired)</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-introduction" class="element">
+        <h3>Introduction</h3>
+                                    <div class="element-text"><p>The impact of colonization on childhood experiences in New Zealand was diverse and enduring. Although there was never any formal apartheid system, biculturalism continues to be more commonly a characteristic of Maori (of indigenous ancestry) than Pakeha (non-Maori, generally of European descent). Until very recently most Pakeha children grew up with little knowledge of, or familiarity with, Maori language or custom.</p> 
+
+<p>Conversely, most of the children who identified as Maori had little option but to engage with the language, practices, and values of the colonial regime. Many of the urban-raised lost access to their own cultural heritage in the process. Only in the late 20th century, under the combined influences of a Maori cultural renaissance and debates over the nature of a post-colonial New Zealand identity, have Anglo-Saxon assumptions of an inherent cultural superiority been challenged.</p> 
+
+<p>Culture and circumstance, location, time period, and family support structures all shaped the nature of antipodean childhoods. Formal colonization began in 1840, when Great Britain declared sovereignty over the islands and their inhabitants. The involvement of some 500 tribal leaders in discussions over the signing of the Treaty of Waitangi that year reflected several decades of encounters. In the preceding half-century, coastal tribes had interacted with seamen, sealers, whalers, traders, or missionaries who introduced their language, food, material culture, values, and diseases. European men who had sexual relations with indigenous women also contributed their gene pool.</p> 
+
+<p>The children of these liaisons were normally brought up within their mother's community. Apart from the occasional trader or shore-based whaler who lived long-term with a local woman, European fathers were generally unknown to their progeny. Their offspring were not necessarily disadvantaged. Tribal identification, traced through whakapapa (family trees), incorporated the ancestry of both parents, providing indigenous children with an extensive network of relations, allegiances, and obligations. Few immigrant children grew up with comparable family support. Theirs had to be created over two or three generations of living here.</p>
+
+<p>Traditional lifestyles had evolved over the seven or so centuries during which descendants of Eastern Polynesian voyagers adapted to New Zealand's temperate climate. The changes caused by European values, policies, and diseases were abrupt. By the end of the 1850s, the settler and indigenous populations were roughly equal, at some 59,000 and 56,000 respectively. A rapid influx of Europeans over the next two decades, largely in response to gold discoveries, public works schemes, and assisted immigration policies changed the demographic balance. At the same time, rapid land alienation in both islands and conflict in the North over land sales and sovereignty issues destroyed the economic independence and potential prosperity of many tribes.</p> 
+
+<p>Children of both cultures were affected by the upheavals of this era. Some measure of charitable or government aid was normally available to the "deserving"—Victorian distinctions between worthy and unworthy recipients of assistance were well-entrenched in colonial thinking. Maori communities adversely affected by the confiscation or sale of productive land were much less likely to receive assistance in the event of crop failure, poverty, or disease. Even the Native School system, established in 1867, required village communities to contribute land and a portion of the costs for each institution. State-funded secular elementary schools, open to all children between 7 and 13 years of age, with compulsory attendance enforced for both Maori and Pakeha at the turn of the century, concentrated on numeracy, literacy, and physical fitness. These schools also served as powerful agencies of socialization through which contemporary values of citizenship, imperialism, and loyalty to the British Crown were imparted.</p> 
+
+<p>Childhoods in New Zealand have long reflected the consequences of external as well as internal events. Lacking immunity against introduced infections, the indigenous population declined steadily, reaching its lowest number (42,000 out of a total New Zealand population of 743,000) in the mid-1890s. An eventual demise was widely predicted. Yet a gradual recovery occurred, despite a disproportionately high Maori death rate during the 1918 influenza epidemic. The children of both cultures lost relatives and friends in the carnage of World War I – and lived with those who returned physically or emotionally impaired.</p> 
+
+<p>Many youngsters also experienced economic hardship during the years of the Great Depression. State welfare, social security, and education policies of the late 1930s and following World War II sought to establish equal access to services for all children, although government agencies were initially slow to recognize, and respond to, the major population shift that was occurring, as young adults and Maori families moved en masse from rural to urban areas in search of better employment, lifestyles, and living conditions. A demand for unskilled labor also encouraged many Polynesian people to leave their Pacific Island homes for work opportunities in New Zealand.</p> 
+
+<p>Schools in the main cities, Auckland and Wellington especially, soon reflected the greater cultural diversity brought to urban communities by Maori and Pasifika families (Tongan, Samoan, Nuiean and Cook Islanders, for instance), a trend that would accelerate in the latter decades of the 20th century as Asian migrants became a significant minority group in the total population. While the insidious inequalities of colonialism are yet to be fully redressed, a more inclusive educational curriculum now provides New Zealand's children with a much richer understanding of its influence than was available to earlier generations of the colonial-born.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Jeanine Graham</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-strategies" class="element">
+        <h3>Strategies</h3>
+                                    <div class="element-text"><h3>Source 1: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/92"><em>The Ancient History of the Maori</em></a></h3>
+
+<p>Although an aged Horeta Te Taniwha recounted his boyhood experience several times for different Pakeha researchers, there was little inconsistency in his accounts. This excerpt can therefore be explored for the ways in which a child responded to a people whose arrival was completely unexpected and whose appearance was different from anything in his life experience so far. The story unfolds as a narrative of the event, with the commentary on each phase reflecting the means by which god-like figures were revealed to be human.</p> 
+
+<p>The points of comparison provide evidence of what was "normal" in an indigenous context. Maori used waka (canoes) constantly: the paddlers always looked to the front. All manner of rituals surrounded the partaking of food, which would not be touched personally by a person of high rank. The response of the "strange beings" when offered kumara, fish, and shellfish was not consistent with tribal notions of how an atua (god) would behave. The physical features of the strangers, with their skin and eye color, indicates that brown was the norm in Te Taniwha's world. His was also a society in which there were clear differences of rank, such as rangatira (chief) and tohunga (skilled person, often in spiritual matters). Hence Te Taniwha recognised  Captain Cook's standing amongst his men and found it remarkable that Cook should pay attention to youngsters. His gentle touch was significant, given the tapu (sacred) nature of the adult male head in Maori custom, that of a chief or tribal leader especially. Children could be so caressed without causing offence: Te Taniwha and his companions may well have felt honoured by the gesture of this leader of strange men. Sensory perceptions, sound particularly, feature in this account. (In a section not included here but available electronically, Te Taniwha also refers to a dislike of the salted meat which he was given to taste.)  The strangers' curiosity about objects of material culture as well as local flora and rocks also made a lasting impression on the indigenous youngster.</p> 
+
+<h3>Discussion Questions</h3>
+<ul>
+<li>What understanding of the lifestyle of an indigenous child can be gleaned from this extract?<br />
+<br />
+A discussion could note the roles played by various groups—elders, warriors, women and children—within this extended family community (hapu). The sequence by which the strangers were deemed to be human, not supernatural, also reflects traditional beliefs. Thirdly, there is information concerning food, adornment and clothing.</li>
+
+<li>What questions might arise concerning the authenticity of this account, and how might those issues be addressed?<br /> 
+<br />
+Questions raised might involve discussion of the reliability of memory, amongst older informants especially, and particularly when the stories are repeated frequently. Cross referencing with the published journal entries and artist images from the <em>Endeavour</em> voyage would provide a European perspective on the same encounter, and verify some of the recollections. Comparisons can also be made between the various printed versions of Te Taniwha's account: these show remarkable consistency. It would be important to emphasise the lack of literacy within Maori society at that time. Knowledge was transmitted through song, chant and oratory. Accuracy was essential and mistakes would be challenged in public.</li>
+</ul>
+
+<h3>Source 2: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/72"><em>Adventure in New Zealand, from 1839 to 1844</em></a></h3>
+<p>Early cultural encounters in New Zealand's history are a story of active engagement by coastal tribes with the practices, foods, belief structures, and material culture of Europeans. Disease excepted, the interaction was selective, with muskets proving to be one of the more disruptive of the new acquisitions, and literacy, disseminated mostly by missionaries, a more beneficial adaptation.</p> 
+
+<p>Imbued as they were with their own sense of superiority, European arrivals did not always recognize their dependence upon Maori goodwill, generosity, and assistance. Shore-based whalers, however, were generally aware of the importance of developing good relationships with local iwi (sub-tribes). Moreover, to have a "resident" European was also a status symbol in a highly competitive tribal society. Hence a settlement such as Te Awaiti represented a situation of mutual advantage, and, with the presence of the children, the beginnings of  mixed-race founding families.</p>
+
+<p>Discussion of this extract might develop beyond exploring the social attitudes expressed here concerning the "improved" lifestyle of the Maori women and their children. The references to Barrett and Love indicate a ready acceptance of their progeny by Maori relatives: what difficulties might arise later if such children sought a future in a Pakeha-dominated world? Such youngsters could be cultural intermediaries if they were fluent in both languages, yet not all fathers encouraged this, as was the case with trader John Lees Faulkner who objected to his children observing their mother's customs and speaking her language. Essays in the freely accessible online <a class="external" href=http://www.dnzb.govt.nz><em>Dictionary of New Zealand Biography</em></a> provide additional case studies. Students might also consider what particular blend of circumstances ensured that there has never been legislative discrimination against mixed-race relationships (though the personal case studies cited in Carol Archie's work certainly show episodes of intolerance and hostility expressed towards children).</p>
+<h3>Discussion Questions</h3>
+<ul>
+<li>Did children serve as the vanguard of biculturalism?<br />
+<br /> 
+This question encourages students to think of the ways in which children are often the intermediaries in situations of cultural adjustment (as in cases of migration, for instance). New Zealand's compulsory schooling system taught Maori children English but it did not provide an opportunity for Pakeha children to learn Maori. Colonial assumptions and policies therefore tended to inhibit the development of biculturalism among both populations. Students may wish to clarify what they mean by the terms, vanguard and biculturalism, and to consider whether there are particular "windows of opportunity" in a colony's history when such a concept might apply.</li>
+
+<li>How might issues of identity have affected 'half-caste' children throughout the colonial era?<br />
+<br />
+This question is prompted in part by the recollections of Mihi Edwards, whose autobiography, <em>Mihipeka: Early Years</em> (Auckland, Penguin, 1990) relates the extent to which she endeavored to disguise and deny her Maori ancestry when she moved, as a young woman, to seek employment in a Pakeha-dominated environment – at a time when eminent Maori politician and scholar, Sir Apirana Ngata (whose mother had a Scottish father), was widely respected in  both societies. Students might like to consider the range of circumstances that can influence a sense of identity. The American civil rights movements of the 1960s, for example, had a profound impact in New Zealand, coinciding as it did with the advent of television, the massive migration of Maori to the cities, and the emergence of a significant group of university-educated young urban Maori leaders.</li>
+</ul>
+
+<h3>Source 3: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/91"><em>Annual report on Native Affairs, 1874</em></a></h3>
+
+<p>This regional overview formed part of the annual Department of Native Affairs reporting to Parliament. The various Officers in Native Districts (of whom Locke was one) addressed their reports to the Native Minister since he was the politician who had responsibility for that Department. All government department annual reports were tabled in the Lower House of Parliament and "ordered to be printed," which is how they end up in the <em>Appendices to the Journals of the House of Representatives</em> each year. The overall heading for the collected entries under G-2 would be "Reports from Officers in Native Districts."</p>
+
+<p>This extract could be used for emphasizing the importance of historical context when considering the situation of indigenous children in a colonial environment. There might also be discussion of the extent to which children have agency.</p> 
+
+<p>In this particular East Coast region, one well suited to the sheep-rearing which was already a mainstay of the colonial economy, there were also intra- and inter-tribal divisions as a consequence of some involvement alongside government troops during the armed conflicts of the 1860s. The comments by Samuel Locke, a Crown Land Purchase Officer on the East Coast of the North Island, suggest a clear distinction in his mind between those who are proving to be cooperative and those who are not: the future prospects for the children of the two groups are similarly distinguished. According to Locke, Maori youth will not play a dominant role in the developing economy, though. Just as the first group of adults must "turn again to labour," so the best-educated of the younger generation will be encouraged to take up trades. There is no suggestion that young Maori might aspire to academic careers or to be the employers of Pakeha labourers. Yet, as the outstanding achievements of a local boy, the later <a class="external" href= http://www.dnzb.govt.nz/>Sir Apirana Ngata</a> <a href="#note1" id="fn1" class="footnote">1</a> would demonstrate, such a future was possible.</p>
+
+<p> In compiling his regional overview for the annual report on "Native Affairs," subsequently tabled in the lower house of the colonial parliament, Locke identifies some negative consequences of colonial legislation to change the nature of tribal land tenure, but never questions the validity of the measures. Yet, notwithstanding the impact of conflict and confiscation on tribes affected by the events of the previous decade, government land policies were already proving to be the single most disruptive and divisive influence on indigenous communities. Children growing up in these environments lost an entire cultural heritage, not just a pecuniary asset, when their tribal lands were sold into European ownership. A tribe's history was known and named in relation to territory. Why were colonial authorities so oblivious to this?</p>
+
+<h3>Discussion Questions</h3>
+<ul>
+<li>Although formal schooling provided indigenous children with access to the values and language of the colonial regime, what factors might affect their educational prowess?<br /> 
+<br />
+This question aims to encourage students to think about the home environment of Maori pupils, not just what was happening in the classroom and school playground. Circumstances could vary from one village to another, even within the same tribal <em>rohe</em> (territory). Maori as a language was not to be used at school: this prohibition, and the corporal punishment usually associated with flouting it, could make adjustment to the classroom very difficult. Loss of land also meant loss of traditional food resources. In the later decades of the 19th century, for instance, many tribal communities were affected by the mobility of those <em>whanau</em> (family) groups. Seasonal employment in the sheep-shearing or gum-digging industries, for example, generally affected the school attendance pattern of the children who moved with their whanau. There could also be intergenerational tensions as elders feared a loss of contact with their mokopuna (grandchildren) who became reluctant to speak Maori at home, given the harsh strictures against doing so when at school.</li>
+
+<li>How did government policies to promote the individualization of Maori land tenure reflect Colonialism?<br /> 
+<br />
+Discussion might also draw on comparisons with other colonial regimes run by other European powers. The Treaty of Waitangi accorded Maori the status of British subjects. With the passing of the New Zealand Constitution Act in 1852, male suffrage was linked with property ownership. (Universal suffrage by 1893 was not.) Viewpoints vary as to whether the individualization of Maori land tenure represented a genuine effort to expand eligibility for the franchise amongst Maori men; or a desire to overturn the land purchase policies that prevailed prior to the 1860s, in which the right of the chief to speak on behalf of his people was widely recognized.  Individualization of title led to increased fragmentation of land, which in turn came to mean multiple ownership of small blocks that were uneconomic to farm and almost impossible to administer productively. (See the online <a class="external" href=http://www.treatyofwaitangi.govt.nz>Treaty of Waitangi booklets</a>).</li>
+</ul>
+
+<h3>Source 4: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/73">"Shocking Disaster at Cambridge" [1884]</a></h3>
+<p>The report highlights a key difference between Maori and Pakeha childhoods, in the nineteenth century especially: the availability of whanau (family) support. "No other family members and no neighbours"—the difficulties confronting Mrs. Osborne were not ones that a Maori mother would have shared. Ironically, Maori parents would experience a similar isolation in the middle of the 20th century, when urban migration caused many indigenous children to grow up in nuclear families, away from their traditional extended networks of relatives.</p>
+
+<p>The 1880s was a decade of widespread depression in the colonial economy. Falling prices for export staples, such as wool and wheat, had serious consequences for those who had bought land on capital borrowed during the speculative boom of the 1870s. For small-scale farmers, endeavoring to establish a viable unit with very limited financial resources, older children could be advantageous as a labor force. A young family was quite the reverse. The relative isolation noted by the juryman could be set alongside Mrs. Osborne's comment that she was normally absent for one to two hours when she went to town. Students could estimate average walking speed to ascertain the likely distances involved.</p>
+
+<p>Some indication of the living space and conditions in the house can also be gleaned from the report. Only one bedroom is mentioned, along with the kitchen. Washing facilities were usually in a lean-to at the back of such dwellings; the toilet would be a long-drop at some distance from the house. The house would have been built of timber, with the paper lining on the interior walls adding to the flammable nature of the dwelling. An analysis of settler housing images available through the <a class="external" href=http://timeframes.natlib.govt.nz/logicrouter/servlet/LogicRouter?OUTPUTXSL=home.xsl&hier=h1&tree=c&api_1=PUB_DISP_COLL&hier=builder&tree=c&api_2=GET_SEARCH_PARM&hier=h1&tree=o&api_3=PUB_DISP_COLL&hier=builder&tree=o&ds_svAPI_searchparm=4&api_4=GET_SEARCH_PARM&ds_svAPI_sortoptions=5&api_5=GET_USER_SORT_OPTIONS>Alexander Turnbull Library Timeframes</a> website would enable students to gain an impression of the range of  living conditions at this time. Comparable investigations could be undertaken for other regions and years, using the online <a class="external" href= http://paperspast.natlib.govt.nz/>newspapers collection</a>.</p>
+
+<h3>Discussion Questions</h3>
+<ul>
+<li>How can reports of accidents  provide insight into the nature of late-19th-century colonial children's lives?<br /> 
+<br />
+Discussion might focus on the close relationship between children and their physical environment, since playing outdoors was the norm. Such play was often supervised by older siblings, particularly when child-bearing spread over two decades and mothers had little paid assistance with domestic tasks. Although the New Zealand environment contained no snakes or poisonous insects, trees, rivers, creeks, and horses were generally present in country children's lives, while urban youngsters had street traffic to contend with, usually in the form of tramcars and horse-drawn drays and carts. Comparisons between the activities of children in New Zealand with the lifestyles of youngsters in other colonies or "frontier" communities might also be pursued.</li>
+
+<li>How do the types of accidents reported here differ from the risks confronting children throughout the 20th century?<br />
+<br />
+This invites consideration of changing technology – from carts to cars, bicycles rather than horses, household bleach or dishwasher chemicals instead of phosphorus heads on matches, for instance. There is also the wider context of the increased supervision of children's lives and the reduction in family size that affects the influence of siblings. Household tasks have also changed. Youngsters used to chop wood and kindling for the kitchen stove or the weekday boiling of water in the copper: few 21st-century children would have occasion to use a tomahawk or axe. The advent of electricity has reduced the risks associated with fire, but introduced the risk of electrocution. The likelihood of drowning in a well has diminished only to be replaced by the incidence of childhood deaths in domestic swimming pools. Safety measures have increased, as with artificial surfaces at public playgrounds, for example, yet obesity is now a major lifestyle risk for children and youth, suggesting that a lack of physical activity may be a greater problem than sports-related injuries. Ipod users face hearing loss; constant text messaging and computer use can result in tendonitis. The relationship between child lifestyles and risks can be explored in a variety of contexts.</li>
+</ul>
+
+<h3>Source 5: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/74">Juvenile Depravity Suppression Bill [1896]</a></h3>
+
+<p>Using this 1896 statement as the starting point, students could explore the changing relationship between children and the state through use of resources on the <a class="external" href=http://www.myd.govt.nz/>Ministry of Youth Development</a> website and that of the <a class="external" href=http://www.occ.org.nz>Commissioner for Children</a>. The emphasis on children's rights that has characterized policy and discussion in recent decades reflects support for the United Nations Convention on the Rights of the Child (1989), which New Zealand ratified in 1993.</p>
+
+<p>Students might also seek to define anti-social behavior and aim to set their definition within the wider context of social changes in the 20th century. Youths loitering on street corners in the 1890s were unlikely to be armed (the ubiquitous pocket knife and shanghai were not normally viewed as weapons for use against other people). Late 20th-century youth, "hanging out" on the streets, are more likely to possess a knife or other weapon, and have their outlook impaired by alcohol, drug use, peer pressure, or gang membership, actual or in prospect. Students could explore the two websites above for analyses of the social changes that have contributed to a significant level of gang affiliation amongst Maori and Pacific Islanders. Comparisons between the New Zealand situation and that of "delinquent" youth in other western societies could highlight similarities, for indigenous people especially.</p> 
+
+<p>Underpinning the ongoing concerns about child and youth well-being has been a gradual shift in the relationship between families and the state. In the founding decades of the colony, only criminal, neglected, and destitute children were committed to government care, mostly in industrial schools and orphanages. Such interventions were very unlikely to affect Maori children, whose extended family networks provided support and sustenance. The geographical distribution of the two populations, predominantly rural Maori and urban Pakeha, meant that relatively few politicians were aware of the difficult socio-economic circumstances of many Maori communities. By the late 19th century, however, government policies in New Zealand began to reflect trends elsewhere, in Britain and the United States, for instance, concerning the need for state investment in children. As the future income-earners of the country, youth represented a substantial social capital. The Infant Life Protection Act (1896), the Juvenile Smoking Suppression Act (1903), and the 1925 Child Welfare Act all reflect this increased level of state intervention. Late 20th-century interventions are more explicit in acknowledging the citizenship rights of young New Zealanders – as epitomized with the establishment of the Office of the Commissioner for Children in 1989.</p>
+
+<h3>Discussion Questions</h3>
+<ul>
+<li>How does the work of the New Zealand Commissioner for Children and the Ministry for Youth Development reflect a serious official commitment to the principle of children's rights?<br /> 
+<br />
+The answer will involve exploration of the Commission and Ministry websites, including the many links to similar agencies elsewhere. The UN Convention is available through the Ministry website. A recent publication by John Barrington, <em>A Voice for Children: The Office of the Commissioner for Children in New Zealand, 1989 -2003</em> (Dunmore Press, Palmerston North, 2004) contains a useful summary overview of achievements during that period (pp. 117-20).</li>
+
+<li>What arguments can be advanced for and against the proposition that a sense of social alienation is the principal cause of youth offending?<br /> 
+<br />
+This question aims to encourage students to take an international perspective, rather than a narrowly local or national one. Just as the issue of street larrikins was being debated in Britain, the United States, the Australian colonies and New Zealand in the 1890s, so the problems associated with youth offending, criminal and petty, may well be found in much of the developed world. Students should be able to contest the basic proposition by reference to all the other contributory factors that they can identify. They might also consider what influences or encourages the majority of young people to stay out of trouble with the law.</li> 
+</ul>
+
+<h3>Source 6: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/75">Taranaki Education Office Report [1898]</a></h3>
+
+<p>Some students may find themselves surprised by the child-friendly nature of this official report. It could therefore be used in a context of exploring the assumptions that readers can bring to a document, and how preconceptions can affect the reading of text or image.</p> 
+
+<p>The connection between child experience and family circumstance is obvious here. In new farming areas (and there are ready parallels with North American examples), younger siblings had a very different educational path than their older brothers and sisters whose labor was often crucial in the establishment years. Parents could find this situation difficult because they also wanted the best for their children. There might be significant parental differences, with (usually) mothers endeavoring to find a balance between the demands of education and income. Older children, too, might have mixed feelings about the divergent home/school workloads. A sense of pride or achievement could be greater out of the classroom than within it.</p>
+
+<p>Regional and cultural differences might be explored. The national curriculum was mandatory: access to resources varied enormously. A universal school system could not guarantee a universal standard of education, no matter how diligent the teachers or the inspectors. Students might expand on Spencer's analysis to consider a wider range of factors that could affect student attendance and learning – such as urban and rural differences, religion, housing, and gender. The importance placed upon compulsory schooling at this time also merits close analysis. By the late 1930s, all New Zealand children were required to have at least two years of secondary education and the leaving age was raised to 15. Yet the numbers of teachers in training had been reduced during major periods of economic recessions (1880s and 1930s) and men were lost to the profession during and after World War I. Adult recollections of schooling in the first half of the 20th century frequently refer to corporal punishment, authoritarianism, and feelings of fear. Spencer's vision emphasizes enjoyment. How might the different perspectives been reconciled? And can children's voices be heard?</p>
+
+<h3>Discussion Questions</h3>
+<ul>
+<li>Why did formal schooling become such an integral part of New Zealand (and other Western European) children's lives by the end of the 19th century?<br />
+<br />Discussion should encourage students to think about international trends in the spread of elementary education. Within the British Empire, for example, similar curricula and resources could be found throughout all the settler colonies. There are also parallels between North American and British systems at this time. Industrialization and child labor form part of the background, while notions of children as "social capital" are also influential. The broad trends can be sketched from essays in the three-volume <em>Children and Childhood in History and Society</em>. <a href="#note2" id="fn2" class="footnote">2</a></li>
+
+<li>What perspectives need consideration when trying to ascertain the nature of childhood experiences of schooling?<br /> 
+<br />
+Much of the published material on childhood experience draws upon adult recollections, written or oral. Students might be invited to write and then analyze their own memories of elementary school before being challenged to identify a range of other factors which may have affected the nature of their school experience. (Examples might include the physical environment of the school; its financial resources; the age, ethnicity, and gender range of the staff; prevailing philosophies of education and of the particular school itself; levels of parental and community support; levels of student representation in school affairs.) Comparisons across culture and time could be developed.</li> 
+</ul>
+
+<h3>Source 7: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/90">Children's letters, <em>Otago Witness</em> [1918]</a></h3>
+
+<p>Children's own voices might be described as an elusive and problematic resource in childhood history. Taking these letters as an example, do the sentences and ideas reflect childhood priorities or can adult influence be detected? Most letters are likely to have been written at the family table, with some degree of supervision or checking of spelling and grammar. Both "Dot" and "Uncle Ned" insisted on high levels of presentation. Formulaic aspects can also observed, particularly in the endings of all three letters given here. (Additional examples from the <em>Otago Witness</em> up to 1909 available <a href="external" href=http://paperspast.natlib.govt.nz/>here</a>.)</p>
+
+<p>Age, gender, and language differences can be explored in some detail if students access full pages from the digitized collection. Generally, correspondents were under the age of 18, with the majority under 14. A regular Older Writers Week was always well subscribed and younger writers would sometimes refer to the style or content of those letters or try to emulate them. Occasionally, "Dot" would set a topic for correspondence but the general guidelines can be discerned since children were encouraged to write about animals, events of interest in their local area, holidays, school, and home life. The DLF motto was always printed: "We write for the benefit of others, not ourselves."</p>
+
+<p>Analysis of the pseudonyms as well as the letter content gives some insight into the impact of World War I on these children's lives.</p>
+
+<h3>Discussion Questions</h3>
+<ul>
+<li>How useful are these letters as a source for accessing children's own voices?<br />
+<br />
+This invites consideration of the various filters that may affect the content and style of these letters. The 350-word limit was rarely a problem (save for some of the older writers). Knowing that parents and peers would be reading the published letter could be a constraint on spontaneity. Social conventions, such as not discussing family affairs outside of the home, would also have been observed. There could also have been some apprehension about editorial feedback.  Noted children's author, Ruth Park, for example, long remembered a critical response by the editor of the <em>New Zealand Herald's</em> children's page. <a href="#note3" id="fn3" class="footnote">3</a></li>
+
+<li>What do Children's Pages reveal about the daily lives of youthful correspondents?<br /> 
+<br />
+Students might consider the extent to which children wrote about normal routines or focused on exceptional happenings. Since approximately 50 DLF letters on average were reproduced with each issue of the <em>Otago Witness</em>, general impressions concerning school, modes of transport, health issues, and contemporary  events can usually be discerned  - and consistencies or inconsistencies noted.</li>
+</ul>
+
+<h3>Source 8: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/36">Oral history, Colonial Childhoods Oral History Project</a></h3>
+
+<p>Changing contexts could be explored, using sexuality as the focus. Contemporary students might consider the range of ways in which knowledge of human reproduction, puberty, and homosexuality is disseminated before contrasting the present-day position with the dearth of printed or visual information suitable for children at the beginning of the 20th century. Social conventions also need investigation. Many of the interviewees in the CCOHP gleaned a basic understanding from an older sibling; others gathered a great deal of misinformation from the school playground. What were the dominant constraints affecting public school education on the subject; or parent/child frankness? Was ignorance regarded as a form of protection or were there underlying moral codes that emphasized innocence? Some basic assumptions might also be discussed. Was sexuality a topic that aroused childhood curiosity to any great extent at this time? Analysis of all of the CCOHP comments suggests that, for those under 15, it was not important – yet could this impression result from interviewees making instinctive comparisons with the present as they commented on the past?</p>
+
+<p>The use of oral histories as a source in childhood history might also be investigated, with particular reference to any issues (such as deafness, fatigue, memory loss) associated with interviewing the elderly (defined as over 80 years). How much reliance can be placed upon such recollections? Without necessarily delving into debates over the nature of memory, students could be encouraged to reflect on their own childhoods. Are their memories predominantly of factual detail or of episodes to which they had some degree of emotional reaction, be that fear, curiosity, anger, pleasure, or pain? Questions about the "construction of the past" in an oral interview could also be raised, especially when comparing the relatively unstructured "life narrative" approach with that of the more structured questionnaire style of interviewing.</p> 
+
+
+<h3>Discussion Questions</h3>
+<ul>
+<li>Why might parents choose not to tell their children about a mother's pregnancy?<br />
+<br />
+Discussion could include some reference to the incidence of maternal mortality, since the risks associated with child-bearing and childbirth, among working class families particularly, were considerable. The registration of midwives (1904) and the establishment of free maternity care for women (1905) made a significant impact in lowering those rates. Concealment was also a way of avoiding awkward questions about reproduction and sex. Moreover, pregnancy was a private, not a public, matter which might be mentioned in a school playground, for example. Women's dress styles assisted with the strategy, as did the usual convention that children did not enter their parents' bedroom spontaneously. Maori children were less likely to be in ignorance than Pakeha, since sleeping and living arrangements were generally more communal.</li> 
+
+<li>Evidence gathered during the CCOHP suggested that there was relatively little openness in dealing with other facets of Pakeha children's lives, especially where alcoholism, violence, or death were concerned. Does such adult reticence reflect contemporary views on child-rearing?<br /> 
+<br />
+Several of the CCOHP interviewees lost a sibling, friend, or parent during childhood. Generally, though, Pakeha youngsters did not attend funerals, whereas Maori children were present, and older ones involved with food preparation, during any tangihanga (a farewell that was held over several days) in their community. Cultural experiences also differed in terms of remembrance of the dead, with Pakeha generally choosing silence. Maori did not. Alcoholism was a source of shame within a family, quite apart from its disruptive and damaging effects on relationships and children's well-being. Concealment tended to be the preferred option. Essentially, child rearing was seen as a domestic and private matter, and the family was not a realm in which the state should interfere. Gradually, schools became agencies whereby some level of protection for children could be initiated, if necessary.</li>
+</ul>
+
+<h3>Source 9: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/89">Code of Honour [1936]</a></h3>
+
+<p>After some initial—probably adverse—reactions to the language and content of the Code, students might be encouraged to work in groups, to analyze a selection of the objectives much more closely. Culture and context could be stressed. The Dominion was slowly beginning to emerge from the Great Depression, the impact of which had been severe on a people who had lost so many young men during World War I. The notion of service for Empire had been well instilled prior to 1914, and a heavy price had been paid. It is noticeable that the emphasis within the Code is much more on a sense of identity as a New Zealand citizen, rather than as the citizen of Empire that had been so prominent a theme in <em>School Journal</em> poems, stories, and articles earlier in previous decades. Yet fundamental values persist - of fair play, honesty, integrity, respect for authority, for instance. Students may benefit from some discussion about English public schools, the class background from which pupils were generally drawn, and the ethos that imbued such institutions. They might also be prompted to consider how and why these values became disseminated so widely during the late 19th and early 20th centuries. Responses to these questions could include reference to some of the Empire-wide organizations for young people, the Boy Scout and the Girl Guide movements, for instance.</p> 
+
+<p>Further analysis of the Code suggests that its focus was on encouraging youth to develop a sense of civic and community responsibility. Improvement of self is vital, but the individual's growth in principle and awareness is intended to enhance social interaction, not individualism.</p>
+
+<p>Lively debates should develop if students are challenged to consider whether there is anything inherently wrong with such a set of personal values. Do these ideals pertain to any one social class or culture? Within the New Zealand context, Maori children growing up in closely-knit rural communities would have had an additional set of guiding principles, those pertaining to their own cultural beliefs and practices (<em>tikanga</em>).</p>
+
+<h3>Discussion Questions</h3>
+<ul>
+<li>How do these behavioral objectives for young New Zealanders, Maori and Pakeha, reflect social values of the 1930s?<br />
+<br />
+Discussion would draw on student analysis of the key values identified in the Code. They might also note the order in which points are made. The reference to care of property, for instance, comes some way down the list and alludes more to public, than private, property. Students could be invited to consider other "Codes" that would have been well known at the time, such as the Ten Commandments.</li>
+
+<li>Develop a 21st-century "Code of Honour" that would be relevant for children growing up in contemporary society.<br />
+<br />
+This would involve some preliminary discussions about relating the Code to any particular group of children. Group work would be valuable here, particularly if students were encouraged to identify specific clubs or societies which aim to instill some common principles amongst their members. New Codes could be analyzed to see if they reflect any contemporary attitudes concerning child rearing.</li>
+</ul>
+
+<h3>Source 10: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/88">School photographs  [1950, 1964]</a></h3>
+<p>Class photographs are so common in personal collections that they merit analysis to see how useful they may be as a source for childhood history. At one level, they can be explored for evidence of material culture, in terms of clothing, footwear, and hairstyles, for example. There is no sign of "brand" or "label" clothing in the 1950 image, save for the six gymslips that provide some impression of uniformity. Fabric, style, pattern, and color vary considerably. Cardigans and jerseys are hand-knitted; and the varying shapes of the girls' collars reflect the prevalence of home-sewn garments. In both photographs, the girls are all wearing skirts or dresses: only the boys wore shorts. It was still not "proper" for females to wear trousers (though wartime exigencies had made it acceptable then for women in the workforce to do so).</p>
+
+<p>The ethnic composition of both classroom groups reflect population movements of the post-war period and suggest something of the relative isolation which young Maori – and their parents – could feel within the urban school environment. From a roughly equal mix of Maori and Pakeha in the small rural town environment of Kaitaia (15 Pakeha/13 Maori), Maori children in the suburban Auckland classroom were in the minority (29 Pakeha/5 Maori). Discussion could focus on the impact of likely disparities. New urban migrants who came as family units tended to experience difficulties in meeting the costs of city living, so very different from the communal and subsistence patterns of the country. Overcrowded housing and low wages from unskilled work meant that children in these environments had little access to resources or space when doing homework, for instance. Students might also consider how school could also be the principal means by which young Maori could begin to develop networks in their new communities. Church and voluntary organizations, such as clubs for urban Maori, also helped. <a href="#note4" id="fn4" class="footnote">4</a></p>
+
+<h3>Discussion Questions</h3>
+<ul>
+<li>How would the lives of urban migrant Maori children have differed from those of their peers growing up in rural areas?<br />
+<br />
+Discussion will be aided by a reading of the essays on <a class="external" href=http://www.teara.govt.nz/NewZealanders/NewZealandPeoples/TheNewZealanders/1/en>Maori New Zealanders</a> on the <a class="external" href=http://www.teara.govt.nz>Te Ara website</a>. While the urban-raised had better access to education and employment, many lost contact with their language and culture and were embarrassed to show their ignorance of customary practices. Rural youngsters generally retained much closer links with elders and took part in activities on the <em>marae</em> (meeting place). There was also far more opportunity for rural youngsters to develop traditional subsistence lifestyle skills (hunting, fishing, gardening). Yet these skills could not always be applied in the cities. Underpinning discussion of this question would be an awareness that urban migration was a necessity, given the steady growth of the Maori population and their very limited resource base in country areas.</li>
+
+<li>How influential was technology in changing children's educational experience  in the second half of the 20th century?<br />
+<br />
+Exploration of this question invites students to consider the importance of technology in their own education (within and outside of the classroom) as a preliminary to exploring such changes over the previous half century. Within the New Zealand context, public radio was widely used after WWII, with broadcasts to schools supplementing the universally distributed <em>School Journal</em>. Within vocational courses particular equipment would be used, such as manual typewriters and electric ovens for typing and home economics classes respectively. Going to the Saturday matinee was a popular leisure pastime: newsreels, played before the main feature, normally covered world events. Most families would also listen to the BBC World News, broadcast every evening through the national radio network. The educational impact of television from the 1960s was undermined by commercialization and largely surpassed by access to computers and the Internet.</li>
+</ul>
+<h3>Source 11: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/87">Advertisement</a></h3>
+<p>Outdoor activities have long been seen as an integral part of a Kiwi upbringing. The official website of <a class="external" href=http://www.sparc.org.nz/>SPARC</a>, Sport and Recreation New Zealand, for instance, describes a (somewhat idyllic) pattern of being on the beach in the morning, the (sports) field after lunch, and on the hills in the evening. In terms of topography, such a routine would certainly be possible throughout much of the country.  "Going bush," camping, tramping, mountain bike riding, kayaking: the notion of being close to nature in the "Great Outdoors" is an important element in discussions of national identity. Yet the demonstrable late 20th-century onset of child obesity and related health issues have prompted major government initiatives to encourage more Kiwis, of all ages and ethnicities, to live up to that vision and "get active." (See <a class="external" href=http://www.sparc.org.nz/research-policy/research/nzspas-97-01>New Zealand Sport and Physical Activity Surveys</a> and examples of the range of programmes.)</p>
+
+<p>Organized sport in the New Zealand school curriculum stemmed mostly from Britain, as with cricket, rugby football, tennis and hockey. Athletics and swimming also involved large numbers of children, particularly on school sports days. During the 1960s and 1970s, for instance, thousands of children participated weekly in Saturday sporting fixtures, able to do so because of the commitment of teachers, parents, or caregivers, and volunteers. Family financial difficulties, changing workplace patterns, the advent of weekend shopping (and working), and increased workloads on teachers as a consequence of changes within school administration and curricula, are some of the factors affecting children's participation in organized sport outside of normal school hours. Students could be encouraged to consider the influences on their own youthful participation in sport and to consider how these may reflect social or economic patterns.</p>
+
+
+<h3>Discussion Questions</h3>
+<ul>
+<li>Food and activity are normally two dominant preoccupations of childhood. What have been the major influences contributing to a reduction in the amount of physical activity undertaken by late 20th-century children and youth?<br />
+<br />
+Discussion could involve modes of transport to and from school and much greater reliance on cars generally; the reduction in childhood autonomy at play as a consequence of urbanization, for instance, more indoor living; and the influence of television and personal computers and other popular pursuits that involve hours of sitting rather than movement. Smaller families mean fewer siblings or relatives to play with, though Maori and Pacific Island youth are frequently active in team sports, such as rugby league, netball, and softball. Students might also consider the costs involved with purchasing equipment.</li>
+
+<li>Myth or reality? Does sport really contribute to a sense of national identity?<br />
+<br />
+Students could be encouraged to distinguish between amateur and professional sport. The inclusiveness normally associated with the concept of national identity seems to be contrary to the exclusiveness of the professional player. In debating the cultural role of sport, students would need to be mindful of socio-economic differences, gender, and religious or other cultural constraints affecting participation or support. And what might the negative aspects be if sport and identity are closely aligned? What happens to the national psyche when a national team loses?<br />
+<br />
+
+The <a class="external" href=http://www.sparc.org.nz/>SPARC website</a> could be helpful when answering either question.</li>
+</ul>
+
+<h3>Source 12: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/86">Statistical tables</a></h3>
+<p>Risk-taking behavior is a major factor affecting the health and well-being of young New Zealanders. Drug-taking, smoking, alcohol abuse, and unprotected sex are four obvious contributors to low self-esteem, and significant resources have been channeled into remedial and preventative programs for young people. Some focus specifically on Maori for, as the <a class="external" href=www.myd.govt.nz><em>Ministry of Youth Development's 2003 survey, 12 -24: Young People in New Zealand</em></a> notes, young Maori are more prone to smoke and drink heavily than non-Maori. Students could explore the reports available through this Ministry website and that of Statistics New Zealand with a view to comparing results from the 1996 and 2001 census data. The rate of youth suicide, for example, declined in that period.</p>
+
+<p>Since motor vehicle accidents have consistently been the biggest cause of youth fatalities, students might compare the New Zealand rates with those in other western societies. The particular situation in New Zealand might also be discussed in the context of  the age at which youth can drive; the nature of the existing fleet (since air bags are not found in the older cars that young people are more likely to be using); the rapid growth in the number of cars per head of population; the limited public transport systems which contribute to greater personal dependency on cars; the nature of most New Zealand roads (two-lane with barriers only on some motorways and expressways); and the high number of fatal accidents in which both speed and alcohol are factors despite major road safety campaigns against drunk driving. The wearing of seatbelts is compulsory as is using approved child restraints for children travelling in cars. The law is not always observed. The teaching objective would be one of setting the statistical evidence within a wider context to emphasize how external conditions can affect the consequences of personal choices.</p>
+
+<h3>Discussion Questions:</h3>
+<ul>
+<li>How have the hazards of life changed for young New Zealanders throughout the 20th century?<br /> 
+<br />
+Discussion would involve some definition and categorization, both of the types of hazards and the age groups involved. Since an earlier source focused on dangers for children earlier in the century, the intention here would be to concentrate on the 15+ group. The influence of consumer advertising, peer group pressure, and transport preferences (cars not bicycles) would be relevant. Socio-economic and family circumstances are important, given the prevalence of alcoholism and domestic violence in affecting young people's lives, with Maori over-represented in those statistics.</li>
+
+<li>What are the major impediments affecting the employment of 15-19 year-olds and how might these be best addressed by young job seekers?<br /> 
+<br />
+This question might enable students to draw on their own experiences while also considering the situation facing young people in other countries. Different perspectives to consider include those of employers as well as prospective employees. Minimum wage rates, literacy levels, an increasingly casual youth workforce that encourages part-time employment as a cheaper option, lack of mentoring by older or experienced staff might all be relevant, as are questions of adequate guidance in the preparation of resumes, letters of application, or how to respond in an interview. The issues raised are unlikely to be peculiar to the New Zealand context.</li>
+</ul>
+<div id ="notes">
+<p><a href="#fn1" id="note1" class="footnote">1</a> Search "Apirana Turupa Ngata" on the "Find a biography" page.</p>
+
+<p><a href="#fn2" id="note2" class="footnote">2</a> Paula Fass, ed. <em>Children and Childhood in History and Society</em> (New York: Macmillan Reference USA, 2004).</p>
+
+<p><a href="#fn3" id="note3" class="footnote">3</a> Ruth Park, <em> Fence Around the Cuckoo</em> (Australia: Penguin, 1992) 211–13.</p>
+
+<p><a href="#fn4" id="note4" class="footnote">4</a> For more information, see this excellent encyclopedia essay on <a class="external" href=http://www.teara.govt.nz/NewZealanders/MaoriNewZealanders/UrbanMaori/>urban Maori</a>. The illustrated publication, <a class="external" href=http://www.natlib.govt.nz/collections/digital-collections/te-ao-hou>Te Ao Hou, 1952-1975</a>, printed many articles relating to urban migration and its consequences.</p>
+
+</div></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-lesson-plan" class="element">
+        <h3>Lesson Plan</h3>
+                                    <div class="element-text"><h3>Lesson Plan: Constructing an Author’s Attitude from Tone Words</h3>
+<p>by Ryba L. Epstein</p>
+<p><strong>Time Estimated:</strong> one 50-minute class</p>
+
+<p><strong>Grade Level:</strong> 10th through 12th grades</p>
+<h3>Objectives</h3>
+<p>Students will learn to:</p>
+<ol>
+<li>Identify tone words and connotations;</li>
+<li>Detect speaker's/author's attitude using tone and connotation.</li>
+</ol>
+<h3>Materials</h3>
+<ul>
+<li>Projection of online images, if possible (if not available, make transparencies of two photos listed below in <strong>Hook</strong> activity)</li>
+<li>Copies of primary source documents for each student in the class:<br /> 
+<ol>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/91">Adventure in New Zealand from 1839 to 1844 (document 72)</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/91">Annual Report on Native Affairs, 1874 (document 91)</a></li>
+</ol>
+</li>
+<li>Paper, pencils/pens</li>
+</ul>
+<h3>Strategies</h3>
+<p><em>Hook</em><br />
+Project <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/290">image of Apache children</a> as they arrived at Carlisle Indian Industrial School and image after they had become acculturated.</p> 
+<p>Ask students to quickly brainstorm descriptive words for the first picture and then the second picture.</p>
+<p>Ask students to categorize their impressions, looking for the specific words they have used that describe positive or negative attributes, and attempt to determine what factors might underlie their perceptions.</p>
+<p>Discuss the meaning of "tone," "connotation," and "attitude."</p>
+
+<p><em>Group Activity</em><br />
+Next, divide class into small groups (three to five students) and pass out copies of the two primary sources from New Zealand. Each group should choose a recorder to write down the group's responses.</p>
+
+<p>Students should go through the documents, underlining all words that reflect tone or connotation.</p>
+
+<p>Next, students should make two lists from the words they have underlined: one of positive and one of negative tone words.</p>
+
+<p>Then students should analyze their lists to determine what factors generally determined what the authors of the sources considered as positive or negative. (Usually, students will decide that behavior that indicated increased acceptance of Western culture and life-styles was seen as positive by the authors.)</p>
+
+<p>Finally, each group should write one or two sentences explaining the attitude of each author, supporting their opinion by reference to their lists of tone words. Students should also try to identify underlying assumptions that led each author to his attitude.</p> 
+
+<ul>
+<li>Example: Wakefield implies that Maoris who were married to or children of Westerners were superior to those who were not&mdash;as supported by his use of words such as "very superior," "strikingly comely," and "remarkable . . . cleanliness and order." His word choice indicates an attitude that assumes the superiority of Western standards of beauty and cleanliness over those of indigenous people.</li>
+</ul>
+
+<p>The recorders for each group should write their group's final statements on the board.</p>
+
+<p>Have the class discuss the similarities and differences between the statements, checking for validity and for appropriate support for each statement's opinion from the tone words cited.</p>
+<p><em>Homework:</em><br /> 
+Students will write a paragraph trying to identify underlying reasons for the attitudes expressed by the authors by relating those attitudes to broader 19th-century European social and cultural beliefs.</p>
+
+<h3>Differentiation</h3>
+<p><em>Advanced Students</em><br />
+For more able students, direct them to the website of the Carlisle Indian Industrial School at <a class="external" href="http://home.epix.net/~landis/histry.html">http://home.epix.net/~landis/histry.html</a>.</p>
+
+<p>List examples of tone words from the primary source documents embedded in the site. How are these similar to the words used in the primary sources from New Zealand?</p>
+
+<p>What similarities can be inferred between the two educational systems' attitudes toward indigenous children and their future roles in "modern" society?</p>
+
+<p>Ask students to write a letter from Mr. Locke (<a class="external" href="../../../primary-sources/91">document 91</a>) describing the Carlisle School's successes to the New Zealand Minister for Native Affairs.</p>
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-primary-sources" class="element">
+        <h3>Primary Sources</h3>
+                                    <div class="element-text">92, 72, 91, 73, 74, 75, 90, 36, 89, 88, 86, 87</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Tue, 24 Jun 2008 01:26:10 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Two Field Interviews [Transcription Excerpts]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/54</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Two Field Interviews [Transcription Excerpts]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>British colonialism in what became Kenya began officially in 1895 and lasted until 1963, but the Maasai themselves were not effectively under British rule until just before the First World War. These excerpts come from longer interviews conducted in Narok District in Kenya in 1973 and 1983 in the years following the end of British colonial rule. In these interviews, elders were asked about a 1935 riot in the Rotian District. Seiro was involved in the riot; Attetti may have been present at Rotian as one of the senior <em>murran</em>. Senjura too was there: he was a Tribal Policeman at the time and was on good terms with Buxton, a British District Commissioner.</p>
+
+<p>Some of the details in these accounts are at variance with those given in the official report. Memories change, and what these elders convey is less the actual detail of events than what it meant to them at the time and how they came to understand it later. They are thus reflecting on an experience and drawing on public memory, rather than merely reporting events. They are also seeing <em>murran</em> through the filter of age. When interviewed, they were all senior elders. They had decades of experience of dealing with youth as sponsoring elders and as the heads of families. Their words blend distant memories of their own youth and more recent experiences as responsible adults and community leaders.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Aitteti ole Nkarara, Sironkei ole Nkoie, and Seiro ole Rakwa. Interview by Richard Waller, Narok District, May 1973. Senjura ole Nchoe. Interview by Richard Waller, Narok District, January 1983.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-04-28</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Richard Waller</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">53</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Oral History Item Type Metadata</h2>
+        <div id="oral-history-item-type-metadata-interviewer" class="element">
+        <h3>Interviewer</h3>
+                                    <div class="element-text">Richard Waller</div>
+                    </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-interview-transcription" class="element">
+        <h3>Interview Transcription</h3>
+                                    <div class="element-text"><h3>A: Interview with Aitteti ole Nkarara, Sironkei ole Nkoie, and Seiro ole Rakwa &ndash; May 1973</h3>
+<p>Buxton was the man who shot Il Kidotu at Rotian. He was very brave but not a good man. He forced them to dig a road. They were told that they were going to cut a track. There were 600 <em>murran</em> cutting the road. Il Diegi had drunk milk but Il Kidotu went to Eunoto after the fight. <a id="fn1" class="footnote" href="#note1">1</a> Kimoruai was the laibon. He was [very] powerful . . . and had many cattle. He was . . . a very nice, bright, man -- polite, not harsh. He was friendly to the Europeans, but even if he was not , the Europeans did not care because they had defeated the <em>murran</em> , all the elders and the laibons. . . .</p>
+<p>The day that the fight occurred, Il Diegi were in the forest cutting and Il Kidotu were the <em>murran</em> digging. They had changed from the day before. There was a tree . . .  that caused the fight. They had to cut it for eight days. On this day, Il Diegi passed the tree. Buxton came along on a horse with a white leg and stood by them and told them to cut the tree. They had cut the other trees and they  refused to cut this big  tree. They cut another tree. Then he started to insist and they again refused. Then people cried out .  Buxton heard this and went, shouting to his camp. The <em>murran</em> heard the cry and thought that the elders were fighting the Europeans. They gathered together, threw down their [hoes], and rushed to their manyatta, which was nearby, to prepare. The elders tried to stop them but they would not listen. Buxton called his askaris <a id="fn2" class="footnote" href="#note2">2</a> and killed some <em>murran</em>. Then they agreed and dug the road. Kimoruai was not there, he had been taken away by Buxton to his home. Kimoruai did not want them to fight. He told them not to, but, because of the hard work, they did not obey him. . . . The fight was caused by that cruel man Buxton. The Maasai and the Europeans had an oath not to fight and Buxton ignored it.</p>
+<h3>B: Interview with Senjura ole Nchoe &ndash; January 1983</h3>
+<p>The fight broke out when the government told them to dig the road from Narok to Mau. . . . [Il Diegi] started to dig and the <em>murran</em> joined them and were told to dig. The <em>murran</em> did not want to dig the road. They collected a few of the leaders of the <em>murran</em> to join [Il Diegi] in digging the road. Il Diegi were following behind the <em>murran</em> and the <em>murran</em> cleared the road ahead. There was a big cedar tree left still standing and Il Diegi cried out against it: "The <em>murran</em> have left this big tree for us to cut down; we are dead." The <em>murran</em> heard the outcry from ahead and they thought that the Europeans were beating their seniors. <a id="fn3" class="footnote" href="#note3">3</a> They ran to their manyatta and brought out their weapons. Buxton was camped at Rotian. He heard the cries of Il Diegi and the war cries of the <em>murran</em>. He got on his horse and came up. On the way, he met the first <em>murran</em> and he went back at a gallop. A sword and club were thrown at him. He drew up the askaris. When they saw the <em>murran</em> advancing the askaris shot at them and killed three. The <em>murran</em> in front prevented those behind from coming [forward], so Buxton was able to go down the road to Narok with his wife. That is how the fight was.</p>
+<p>[Senjura then describes negotiations between the <em>murran</em> and the colonial administration]</p>
+<p>[At a meeting] the <em>murran</em> told Buxton that they hated digging the road and that they had not planned to fight. It was just that they had heard the seniors shouting and had thought that the askaris were beating them. Those seniors, when the fight broke out, went to the camp. The seniors told Buxton that it was true about the shouting because the <em>murran</em> were working ahead of them. So Buxton said: "Let us stop fighting and make peace. But let us go back [to Narok] because the [Officer in Charge] is coming ..." Then they could tell [him] what they disliked. . . .</p>
+<p>[The <em>murran</em> were taken to Narok--to court--and the administration had already decided what they would do, which was to enroll the <em>murran</em> as Tribal Police]</p>
+<p>Kimoruai was there at the manyatta. He was preparing for the Eunoto and Buxton thought that perhaps he was the one refusing them Eunoto [ie delaying the ceremony] because, as you know, laibons are consulted about the Eunoto. So Kimoruai was taken [away] to his own place. He was not inciting the muran. Anyone who says so is lying: he was not. Kimoruai just want to look after the <em>murran</em> so that he would be given cattle. He did not give them any charms to fight. It depends on how much medicine they take in the forest. <a id="fn4" class="footnote" href="#note4">4</a> The charms of a laibon can do nothing to a <em>murran</em>. It is only medicine in the forest that makes him brave. . . . There was rivalry between right and left hand [circumcision groups]. The seniors were contemptuous of the left because, they said, they were very young. But when they had [retired as <em>murran</em>], who could despise them as they were all becoming elders then? Il Diegi were taunting [Il Kidotu] and even now, if they have been drinking, they still do. . . . It's just a joke &ndash; not serious now. But they were friendly when they were digging the road because they were one [age set]--only the names are different.</p>
+<p>The elders wanted the <em>murran</em> to dig the road. They discussed it and agreed on it. Ole Galishu and ole Kotikosh were giving the orders. Ole Galishu liked the <em>murran</em> but did not want them to stay [<em>murran</em>] any longer without retiring. He had forced Il Diegi to have Eunoto while they were still [young initiates]; and after Eunoto some of them had built another manyatta. . . . Ole Galishu wanted to end <em>murran</em>hood completely. He wanted just a few days of <em>murran</em>hood and then they should settle down and become elders. . . .</p>
+<p>[Senjura then describes disagreements between the chiefs over whether <em>murran</em> should retire early and whether they should be allowed to have manyattas. To force Il Diegi to retire, Ole Galishu had pressured their spokesmen into going though the final retirement ceremony in secret and in their fathers' camps.]</p>
+<p>Ole Galishu wanted them to [retire] early to lessen the trouble that they might cause. Il Diegi caused trouble because they were many. They could have gone on a raid and finished people if they had been allowed to. They went [as small raiding groups] on more than one occasion, but not [as a major war party]. . . . Ole Galishu was ol piron of Il Diegi [and Il Kidotu] <a id="fn5" class="footnote" href="#note5">5</a> and the other sponsors agreed with him. . . . They agreed because Ole Galishu was olaigwanani kitok and ruled them. <a id="fn6" class="footnote" href="#note6">6</a> No one would go against what he said because it was the spokesman speaking.</p>
+<div id="notes">
+<p><a id="note1" class="footnote" href="#fn1">1</a> Il Diegi and Il Kidotu, the names by which Isalaash and Il Kishun [Buxton report] are better known to Maasai.</p>
+<p><a id="note2" class="footnote" href="#fn2">2</a> Askaris &ndash; soldiers; here armed police.</p>
+<p><a id="note3" class="footnote" href="#fn3">3</a> Seniors &ndash; Il Diegi. Il Diegi had already gone through their Eunoto ceremony and were in the process of retiring into elderhood.</p>
+<p><a id="note4" class="footnote" href="#fn4">4</a><em>murran</em> retire to the forest to eat meat and take herbal medicines before going on raids.</p>
+<p><a id="note5" class="footnote" href="#fn5">5</a> Ol piron &ndash; here the age-set spokesman of the sponsoring elders.</p>
+<p><a id="note6" class="footnote" href="#fn6">6</a> Olaigwanani kitok &ndash; the "great spokesman." Ole Galishu was senior spokesman for Il Dwati age set and had also been one of the senior government chiefs in Narok District.</p>
+</div></div>
+                    </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-date-of-interview" class="element">
+        <h3>Date of Interview</h3>
+                                    <div class="element-text">May 1973 and January 1983</div>
+                    </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-time-summary" class="element">
+        <h3>Time Summary</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-bit-ratefrequency" class="element">
+        <h3>Bit Rate/Frequency</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-duration" class="element">
+        <h3>Duration</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-location" class="element">
+        <h3>Location</h3>
+                                    <div class="element-text">Narok District, Kenya</div>
+                    </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-interviewee" class="element">
+        <h3>Interviewee</h3>
+                                    <div class="element-text">Aitteti ole Nkarara, Sironkei ole Nkoie, and Seiro ole Rakwa; and Senjura ole Nchoe</div>
+                    </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Mon, 28 Apr 2008 21:38:59 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Maasai Murran as Rebellious Youth (20th c)]]></title>
+      <link>https://cyh.rrchnm.org/items/show/53</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Maasai <em>Murran</em> as Rebellious Youth (20th c)</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text">Documents from 1880 to 1973 on the Eastern African Maasai provide a case study with a specifically African and a world history context, in which students examine how this age-set society divides the male life-cycle into distinct stages, and how societies socialize the young and manage generational tension.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-04-28</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Case Study Item Type Metadata</h2>
+        <div id="case-study-item-type-metadata-case-study-image" class="element">
+        <h3>Case Study Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-text" class="element">
+        <h3>Case Study Text</h3>
+                                    <div class="element-text"><h3>Why I Taught the Sources</h3>
+
+<p>A number of societies in Eastern Africa, including the Maasai, divide the male life-cycle into distinct stages: childhood; <em>murran</em>hood (or "warrior"); and elderhood. Age-set societies like the Maasai are perhaps unusually explicit in the way that they divide up the life cycle whereas other societies find different ways of socialising the young and managing generational tension. Among the Maasai, the stages are marked by a series of graduation and retirement ceremonies that emphasize the growing cohesion of the generational group and its changing relation to others.</p>
+
+<p>I use three texts on the Massai <em>murran</em> with upper level or seminar classes dealing with youth, either in a specifically African context or more generally in world history. The first is a travel account entitled <em>Through Masai Land</em> by Joseph Thompson. The second is an official report written by Clarence Buxton, District Commissioner, Narok, to the Officer in Charge on the Masai Reserve in July 1935 after a <em>murran</em> riot. The third contains field notes from interviews with elders about events under colonization. The interviews were conducted by historian Richard Waller and took place in 1973.</p> 
+
+<p>Since the texts are, essentially, about the way that social maturation is controlled and contested, there are comparative possibilities. I ask students to consider the contrasting natures of the types of sources and to think about how they might be contextualized and assessed. The variety of sources and their separation in time—from 1880 to 1973—offer a number of critical perspectives about processes of change.</p>
+
+<h3>How I Introduce the Sources</h3>
+
+<p>I generally introduce primary materials towards the middle of a course. Students need to acquire a degree of familiarity with the subject matter before they can make full use of unfamiliar materials. As they gain confidence, their grasp improves and they begin to understand the importance of primary sources for historians and become engaged in the process of interpretation. They learn how to "listen" to a text – for what it is not saying as well as what it is saying. In the process, they learn how to identify and analyze bias and subtexts.</p>
+
+<p>Students read the texts before class discussion. I generally divide a class into a number of small working groups. Each is given either one text or one theme to explore in depth. Because all group members have read the three different texts, we are able to discuss how primary sources, like the secondary literature, have an internal logic that only appears if the entire text is examined.</p>
+
+<h3>Reading the Sources</h3>
+
+<p>I provide background material and present some of the ideas leading to the major theme of youth culture and its context through an interrogation of its construction. I also pose preliminary questions for students to think about when reading these sources. For example, I ask students why Thomson places young men center-stage in his travel account, with only a few dismissive paragraphs about middle-aged men. Were these young men, the <em>murran</em>, simply more visible, assertive, and flamboyant? Why the long descriptions of dress? Does this reflect readers' expectations of the exotic or the essence of <em>murran</em>hood as experienced by the Massai? Was Thomson more confident in describing what he saw than what he was told (through interpreters)?</p>
+
+<p>I then ask for comparisons with the second document, the 1935 report written by Clarence Buxton, the British official who served as District Commissioner in Narok after a <em>murran</em>riot. <em>Murran</em> are still central, but does he see them in quite the same romantic way? Have they become archaic obstacles to progress? Has Buxton, any more than Thomson, sufficient understanding of language and culture to understand what he is seeing and being told? Comparing this report with Thompson's reminiscences, I ask whether they are really talking about the same thing.</p>  
+
+<p>In the third source, the interview field notes, is the elders' understanding of events and their significance different from Buxton's? What were the elders trying to convey to the interviewer about generational relations? I also ask students to consider what shifts occurred over time between these two narratives. Did the aggressive and self-confident warriors of 1880 become the defensive and hostile teenagers of the 1930s? Or did two different authors in two different times interpret the actions of the <em>murran</em> in different ways? What other factors, including external changes as well as the different narrators and kinds of documents, might be involved in these different perceptions?</p>
+
+<h3>Reflections</h3>
+
+<p>Although anthropologists and historians have not generally done so, it is possible to see <em>murran</em> as youth gangs: Maasai elders and British administrators would not have disagreed. Like gang members elsewhere, Maasai <em>murran</em> create a world and a group identity for themselves apart from "the mainstream."</p>
+
+<p>In some respects, the <em>murran</em> whom Thomson met were not dissimilar from those that Buxton dealt with. In the 1880s, the Maasai had been at the height of their power yet much had changed in the intervening fifty years. Over time, the Maasai lost much of their grazing lands and were confined within a Reserve under colonial rule. Raiding had been outlawed, and the martial virtue of the <em>murran</em>, useful to the British during their conquest of what became Kenya, seemed both archaic and threatening in a time of colonial law and order. The balance of power between <em>murran</em> and elders had also shifted in favour of the latter. Defiant before, angry young men now saw their world threatened and themselves marginalised. They were more obviously subservient to and dependent upon their elders than before.</p>
+
+<p>The Maasai struck back to maintain their honour and their way of life in a series of risings, against a background of calculated disobedience and refusal. After the risings in 1918 and 1922, the British administration decided, in effect, to abolish <em>murran</em>hood, but the attempt failed. By the early 1930s, the administration began to experiment with a modified form of "managed <em>murran</em>hood," allowing young men to be <em>murran</em> for a limited period with supervision.</p>
+
+<p>Sympathetic administrators like Buxton saw that youth must have a space and hoped that its energies and competitiveness might be channelled and controlled by working for the community and perhaps by organised sport. Experience showed, however, that <em>murran</em> could be suppressed but not tamed, and young men, uncertain about their future, continued to "give trouble" to the end of the colonial period and beyond.</p></div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Richard Waller</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">Bucknell University</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-primary-source-id" class="element">
+        <h3>Primary Source ID</h3>
+                                    <div class="element-text">54, 55, 56</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Mon, 28 Apr 2008 21:13:44 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Colonial Childhoods Oral History Project [Oral History]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/36</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Colonial Childhoods Oral History Project [Oral History]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>The Colonial Childhoods Oral History Project (CCOHP) comprises recorded interviews with 165 New Zealanders, male and female, Maori and Pakeha, the majority of whom were born before 1903. Interviews focus on the period before an individual’s 15th birthday. Participants discussed a wide range of topics relating to the culture of childhood, including home life, sibling influences, school and church activities, leisure, chores, friends, hobbies, values, clothes, parents, favorite foods, and special occasions. They also responded to questions concerning sexuality, drink, and violence. Interviews generally lasted for two or three hours and were always preceded by a preliminary meeting with the interviewer during which ethical issues were covered and permission forms processed. Not all interviewees felt comfortable in talking about every topic, and CCOHP interviewers were sensitive in respecting their preferences. Those who did discuss sexuality were frank and forthright.</p>
+
+<p>While a diversity of childhood experience was one very obvious finding of the project, some Pakeha patterns were apparent from the accumulated evidence. Wearing "hand-me-down" clothes was commonplace, particularly in larger families, as was sharing beds and bedrooms. Few informants felt that they had been well-instructed about sexuality, a topic that parents were generally reluctant to discuss. Those who grew up on farms tended to reach their own conclusions from observation of animal behavior.  Town-dwellers relied more heavily on hearsay and, in the case of one boy, some straight talking from the local Scoutmaster. This was an era where pregnancy outside of marriage was very strongly condemned.  Only one male interviewee alluded to tales of experimentation by a classmate.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Female Interviewee No. 35 (born 1897). Interview by Colonial Childhoods Oral History Project (CCOHP), New Zealand, February 9, 1989, tape 1.  In the author&#039;s possession. Annotated by Jeanine Graham.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-04-16</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Jeanine Graham</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">93</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">audio/mpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Oral History Item Type Metadata</h2>
+        <div id="oral-history-item-type-metadata-interviewer" class="element">
+        <h3>Interviewer</h3>
+                                    <div class="element-text">Colonial Childhoods Oral History Project Interviewer</div>
+                    </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-interview-transcription" class="element">
+        <h3>Interview Transcription</h3>
+                                    <div class="element-text"><p>When my brother was born I was just on 12 and the night before he was born, my mother said: "Would you like to go round and stay with Mrs Andrews?" So I stayed the night and I came home in the morning. Mrs Andrews said "Oh, you can go home now." So I went home. It wasn't far from where we were living in Petone. And when I got into the side I saw a most beautiful baby in a basket, on a chair, in the dining room and then I saw somebody rushing round in a starched apron with a cap on her head and I thought, "Well, who are you?" And I said to her, "Who's this in the basket?" She said, "That's your little brother." "Oh," I said, "Well then, I'll go and tell my mother." She said, "Don't you dare open that door. Your mother is very ill." Well, I was nearly 12 and I had no idea in the wild world where my brother had come from or how he got there or anything else – and I think that was quite wrong. I should have been told but I must have been very naïve or an idiot or something, I don't know what, but I never noticed that my mother was any different or having a baby.</p></div>
+                    </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-date-of-interview" class="element">
+        <h3>Date of Interview</h3>
+                                    <div class="element-text">February 9, 1989</div>
+                    </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-time-summary" class="element">
+        <h3>Time Summary</h3>
+                                    <div class="element-text">Birth of brother</div>
+                    </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-bit-ratefrequency" class="element">
+        <h3>Bit Rate/Frequency</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-duration" class="element">
+        <h3>Duration</h3>
+                                    <div class="element-text">1 min 37 seconds</div>
+                    </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-location" class="element">
+        <h3>Location</h3>
+                                    <div class="element-text">New Zealand</div>
+                    </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-interviewee" class="element">
+        <h3>Interviewee</h3>
+                                    <div class="element-text">Colonial Childhoods Oral History Project, CCOHP  Female Colonial Childhoods Oral History Project, CCOHP  Female Interviewee No 35</div>
+                    </div><!-- end element -->
+            <div id="oral-history-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file audio-mpeg"><object type="audio/mpeg" data="https://cyh.rrchnm.org/archive/files/1-01-alice-cross_c6ab70ce83.mp3" width="200" height="20">
+          <param name="src" value="https://cyh.rrchnm.org/archive/files/1-01-alice-cross_c6ab70ce83.mp3">
+          <param name="autoplay" value="false">
+          <param name="autoStart" value="0">
+          alt : <a href="https://cyh.rrchnm.org/archive/files/1-01-alice-cross_c6ab70ce83.mp3">1-01 Alice Cross.mp3</a>
+        </object></div>]]></description>
+      <pubDate>Wed, 16 Apr 2008 22:36:23 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/7/fullsize" type="audio/mpeg" length="1638110"/>
+    </item>
+    <item>
+      <title><![CDATA[Jewish Children & the Holocaust]]></title>
+      <link>https://cyh.rrchnm.org/items/show/26</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Jewish Children &amp; the Holocaust</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text">To enable students to go beyond the facts and details of the Holocaust, children&#039;s testimonies provide a fuller understanding of the complexity of war and genocide and provide an unusual angle of vision into childhood, the family, everyday life, and survival, giving students a child-centered view in which young people were not only victims and witnesses, but also historical agents.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Hochberg-Mariańska, Maria, and Noe Grüss,eds. <em>The Children Accuse</em>. Translated by Bill Johnston. London: Vallentine Mitchell, 1996.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-03-30</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                                    <div class="element-text">book</div>
+                    </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Case Study Item Type Metadata</h2>
+        <div id="case-study-item-type-metadata-case-study-image" class="element">
+        <h3>Case Study Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-text" class="element">
+        <h3>Case Study Text</h3>
+                                    <div class="element-text"><h3>Why I Taught the Source</h3>
+
+<p>Undergraduates enrolled in the 100-level course I teach on the Holocaust find the topic both compelling and overwhelming especially given the array of topics that cover the background to and mechanisms of destruction. In order to enable students to go beyond the countless facts and deeply disturbing details, I utilize survivors' narratives that provide a fuller understanding of the complexity of war and genocide. In my experience I have found that children's testimonies—diaries, memoirs, and documentaries—provide an unusual angle of vision into childhood, the family, everyday life, and survival. Using the oral histories of children provides a child-centered view of the Holocaust in which young people were not only victims and witnesses, but also historical agents.</p> 
+
+<p>Originally published in Polish by the Jewish Historical Commission in Cracow in 1946 and republished in English in 1996 by the British publisher Vallentine Mitchell, <em>The Children Accuse</em> is required reading about the early postwar testimonies of Jewish children in Poland. <a href="#note1" id="fn1" class="footnote">1</a> The book consists of 55 children's testimonies and 15 adult testimonies. The latter testimonies focus on children's experiences in various ghettos in Nazi-occupied Poland, whereas the children's testimonies are divided into six thematic sections: the ghettos, the camps, on the Aryan side, in hiding, the resistance and prison. The children's testimonies can be characterized as 'unliterary,' simple descriptive reports, close in time to the events they describe. They convey diversity of individual experiences, but, at the same time, they revolve around common themes and shared wartime experiences. They all are based on oral interviews with child survivors that were conducted according to the official guidelines on how to research Jewish children's wartime experiences that were issued in 1945 by the Historical Commission of the Central Committee of Polish Jews. These interviews were carried out in Jewish children's orphanages, dormitories, and places of daily care that were established in various Polish cities and towns immediately after the end of war.</p> 
+
+<h3>How I Introduce the Source</h3>
+
+<p>I introduce students to the testimonies by discussing the historical background and by posing a question about what we can learn from the close reading of children's testimonies.  My main objectives are to teach students that children's testimonies are a rich documentary source useful for the reconstruction of the history of Jewish children and Jewish family in Poland during the Second World War, and for the reconstruction of the multi-dimensional histories of Polish-Jewish and also Ukrainian-Jewish relations of the period. My specific aims are to demonstrate the ways in which testimonies: (1) shed light on the patterns of Jewish family life (e.g., the reversal of the roles between children and their parents) and in the ghettos; (2) map out social relations between the children and other individuals in the ghettos and camps (e.g., between children and individuals on the Aryan side in wartime and early post-war Poland as well as with their Christian Polish rescuers); (3) inform us about children's particular methods of survival and their role in the process of their own survival; and (4) reveal the emotional, intellectual, and physical state of young people emerging from the conditions of war, genocide, and a deep-seated fear of being exposed as Jewish.</p> 
+
+<p>Students also learn about the differences between children's testimonies and other primary sources—the official documents—which they also read and discuss in the classroom prior to our discussion on Jewish children's wartime experiences. This is achieved through a  two-page take-home assignment in which they answer the following key questions: How and in what ways do the testimonies differ from official documents? Describe the similarities and differences. What are, in your opinion, the shortcomings of the children's testimonies and what are their strengths as a historical evidence?</p>  
+
+<p>The subject is discussed in two 75-minute course periods during a week. In preparation, I show students a 15-minute clip from the film <em>Undzere Children</em> (<em>Our Children</em>). Afterwards, I ask them questions about the images of Jewish childhood during the war presented in the film and about representations of Jewish children during the Holocaust in Nazi anti-Jewish propaganda material discussed the previous week in the context of the Warsaw ghetto. This is conducted in the form of a "15-minute buzz discussion," aimed at the overview and categorization of acquired historical knowledge.</p>
+
+<h3>Reading the Source</h3>
+
+<p>Next, I provide a 10-minute general historical background (e.g., information and explanations about the various localities) and short definitions of unusual terms and vocabulary encountered in the testimonies. Students then form working groups—numbering between 5 and 6 individuals—that are assigned one or two children's testimonies from <em>The Children Accuse</em>. The final part of the first session is dedicated to going over the first homework assignment. Students read the testimony and answer the following questions: Does the child—she/he—remember his/her prewar childhood? What kind of social background does she/he have? Does the child remember his parents? What does she/he remember? What kind of wartime experience did the child undergo? What are the main recollected individuals, events and developments? What image of the life in a ghetto emerges from the testimony? How did the child survive? Was he/she assisted/helped by a rescuer and, if so, by whom? Who are the rescuers and how did they behave towards the child? What do we learn about the life of the child after the end of the war? How does she/he view their present situation? What feelings and reflections does she/he express? Are these feelings and reflections typical of a childhood age? What information appears to be absent from the child's testimony?</p>
+
+<p>These questions are written on the weekly outline posted on blackboard and circulated in class at the beginning of the first session.  I ask the students to provide written answers in the form of notes.  At the beginning of the second class session, students in each group are asked to compare their written notes, discuss their individual answers, and prepare the comprehensive group answer to the abovementioned questions. I ask each of the groups to select the most striking passages from testimonies to exemplify their answers. This takes place during the first 15-20 minutes and is followed by each groups' 10-minute oral presentation about its child's/children's testimony. This is followed by a general class-wide discussion that  builds on issues raised in each of the presented cases.  This discussion aims at a differentiation of the children's wartime experiences and at making analogies between "ordinary" childhood and childhood under the conditions of war and genocide. These discussions are usually animated.</p> 
+
+<p>The second homework assignment—the above mentioned two-page essay—asks the students to discuss and reflect on the value of a child's testimony in Holocaust history. This assignment offers students the chance to wrestle with salient questions about a variety of primary sources in an historical investigation.</p>
+
+<p>The two sessions are essential preparation for working on their final group assignment, a poster about Jewish children's life during the war.  (The poster represents 15% of the final grade.) Through the final assignment, the students expand their knowledge about and understanding of the subject by building on their previous work and by further investigating the subject outside the classroom. Students usually are quite enthusiastic about the poster project. It allows them to demonstrate not only historical knowledge but also their creativity with written and visual images, as well as artistic and aesthetic talents.</p>
+
+<h3>Reflections</h3>
+
+<p>Having used children's testimonies in a range of courses, I have learned to adapt them according to the course level and subject matter. In all classes, I have founded that students' responses to this material is very positive.</p> 
+
+<p>The testimonies, together with diaries, memoirs and documentary films such as <em>Undzere Children</em> (<em>Our Children</em>, Poland, 1948, Yiddish with English translation) allow students insight into the everyday life of the historical actors: the Jewish child survivors, family members, their Christian rescuers and other individuals whom children encountered in a ghetto and on the Aryan side. These primary sources allow students to follow in the footsteps of young Jewish children and see them as human beings who went through various wartime experiences and who harbor particular child-focused memories of the war. Students confront, in these testimonies, the uncontrived story of personal experience. From the testimonies, students gain not only an understanding of the variety of wartime experiences and survival, but also an understanding of the particular pain and perplexity of the children, who lost their families, were forced to assume Christian identities, and to fend for themselves though children.</p> 
+
+<div id="notes">
+<p><a href="#fn1" id="note1" class="footnote">1</a> Maria Hochberg-Mariańska and Noe Grüss, eds.  <em>The Children Accuse</em>, trans. Bill Johnston (London: Vallentine Mitchell, 1996).  See also: Hochberg-Mariańska, Maria and Noe Grüss, eds. Dzieci żydowskie oskarżają, Kraków, Żydowska Komisja Historyczna w Krakowie, 1946.</p>  
+</div></div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Joanna B. Michlic</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">Lehigh University</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-primary-source-id" class="element">
+        <h3>Primary Source ID</h3>
+                                    <div class="element-text">114, 115</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/42/fullsize"><img src="/files/display/42/square_thumbnail" class="thumb" alt="Jewish Children &amp;amp; the Holocaust" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Sun, 30 Mar 2008 22:03:55 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/42/fullsize" type="image/jpeg" length="170448"/>
+    </item>
+  </channel>
+</rss>

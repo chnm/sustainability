@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=Head+Lice&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:26:11 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Boke of Chyldren by Thomas Phaer [Excerpt]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/155</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text"><em>Boke of Chyldren</em> by Thomas Phaer [Excerpt]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Phaer was a lawyer and a physician who wrote the first work in English devoted solely to the health of children. It was first published in 1544 and went through many editions. The audience for the book according to Phaer was everyone who cared about <em>children</em>. It is a small book of only 56 pages but it covers most of the common conditions that children suffered – from agues or colds to parasitic worms. This section is on head lice and comes at the very end of the book. Lice, like fleas, were endemic in early modern society. Phaer advises the afflicted to avoid certain foods and offers several longer receits or prescriptions. They are not to eat figs and dates (hardly the diet of the poor) and to wash in salty water or brine. A longer receit concerns wearing a cloth around the waist that has been first soaked in pig’s grease and quicksilver, or mercury. Phaer confidently states that lice cannot bear the smell of quicksilver.</p> 
+
+<p>[Full text <a class="external" href=http://www.neonatology.org/classics/phaire/index.html> available online.</a>]</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Thomas Phaer</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Phaer, Thomas. <em>Boke of Chyldren</em>. 1545. A facsimile of the first edition, edited by A.V. Neale and Hugh R.E. Wallis. Edinburgh and London: E. & S. Livingston Ltd., 1955. Reproduced online: "The Boke of Chyldren," Neonatology on the Web, <a class="external" href=http://www.neonatology.org/classics/phaire/index.html> http://www.neonatology.org/classics/phaire/index.html</a> (accessed March 26, 2008). Annotated by Lynda Payne.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-12</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Lynda Payne</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">166</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3>Of Lise.</h3>
+
+<p>Sometimes not onely children but also other ages, are anoied with lice they procede of corrupt humour and are engendred with in the skinne, creeping out a lyue through the pores, whiche if they begin to swarme in exceeding number, that disease is called of the Grekes Phthiriasis whereof Herode died, as is written in the actes of Apostles: and among the Romaines Scilla, which was a great tyrant and many other haue been eaten of lice to death, whiche thing, whē it hapeneth of the plage of god, it is past remedy, but if it procedeth of a natural cause, ye may well cure it by the meanes following. Fyrst let the pacient abstaine from all kinde of corrupt meates, or that breeds flume, & amongh other, figs and dates must in this case be vtterly abhorred. Then make a lauatory to washe & scoure the body twise a day, thus, Take water of the sea or els brine, and strong lye of ashes, of eche a like por]cion, wormwood a handful, seeth thē a while, and after washe the body with the same lycour.</p>
+
+<h3><em>A goodly medicine for kyle lyce.</em></h3>
+
+<p>Take the groūdes or dregges of oyle, aloes, wormwood, & gall of a bull, or of an oxe, make an ointment which is singular good for the same purpose.</p>
+
+<h3><em>An other.</em></h3>
+
+<p>Take mustarde, and dissolue it in vinegar, with a little salte peter, and annoynt the places, where as the lice are wont to brede.</p>
+
+<p>Item an herbe at the apothecaries called stauesacre, brimstone, and vinegar, is excedyng good.</p>
+<p>It is good to giue the paciēt often in his drinke, pouder of an hartes horne brente.</p>
+
+<p>Stauisacre wt oyle is marueilouse holsome thing in this case.</p>
+
+<h3><em>An expert medicine to driue away lyce.</em></h3>
+
+<p>Take the groūdes or dregges of oyle or in lacke of it, freshe swines greace, a sufficiēt quātitie, wherin ye shal chase an oūce of quicksiluer til it be al sōkē into the greace, thā take pouder of stanisacre serced, and mingle al together, make a gyrdyll of a wollen list meete for the middle of the paciet, & al to annoynt it ouer with the sayd medicine, than let him weare it continually next his skinne, for it is a singular remedy to chase awaye the vermin. The only odour of quickesiluer killeth lyce.</p>
+
+<p>These shallbe sufficient to declare at this time in this little treatise of the cure of childreyn, which if I may know to be thankefully receyued, I will by Gods grace supplie more hereafter: neyther desire I any longer to lyue,t han I will employ my studies to the honour of God,a nd profit of the weale publike.</p>
+
+<h3>Thus endeth the boke of children, composed by Thomas Phayer, studioouse in Philosophie & Phisicke.</h3></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Mon, 13 Oct 2008 04:22:59 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

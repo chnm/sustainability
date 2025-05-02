@@ -1,0 +1,2276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse/10?tag=1900-1945&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:25:54 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Educational Reform in Japan (19th c.)]]></title>
+      <link>https://cyh.rrchnm.org/items/show/125</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Educational Reform in Japan (19th c.)</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>This module employs primary sources from Japan to illustrate themes in the rise of modern education systems, such as the equation of “education” with "schooling", the impact of modern schooling upon the culture and social experience of childhood, the connection between education and the nation-state, and the influence  of European imperialism upon schooling.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Brian Platt</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-08-28</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Teaching Module Item Type Metadata</h2>
+        <div id="teaching-module-item-type-metadata-bibliography" class="element">
+        <h3>Bibliography</h3>
+                                    <div class="element-text"><ol class= "bibliography">
+
+<li>Maynes, Mary Jo. <em>Schooling in Western Europe: A Social History</em>. Albany: State University of New York Press, 1985.<br />
+
+<span>This book offers a concise introduction to the history of modern school systems in Western Europe and uses a social history approach to explain the impact of those systems upon the experience of children and communities. Maynes' book helps to place the case of Meiji Japan in the context of slightly earlier efforts in Western Europe to establish compulsory, state-run school systems.</span></li>
+
+<li>McClain, James. <em>Japan: A Modern History</em>. New York: W.W. Norton, 2002.<br />  
+
+<span>This is an excellent introduction to the history of modern Japan, with a few chapters that deal specifically with the Meiji Era and the transformative effects of the reforms undertaken by the new government.</span></li>
+
+<li>Platt, Brian. <em>Burning and Building: Schooling and State Formation in Japan, 1750-1890</em>. Cambridge: Harvard University Asia Center, 2004.<br />
+
+<span>This book focuses specifically on Japan, looking at patterns of schooling in pre-modern Japan and the efforts by the Meiji state to build a centralized, compulsory school system based largely on Western models. Platt explores the experience of local communities as they negotiate with the Meiji state over the shape and control of the new schools.</span>
+
+<li>Stearns, Peter. <em>Childhood in World History</em>. New York: Routledge, 2006.<br />  
+
+<span>This book provides a broad, synthetic treatment of the history of childhood. Its particular merit is that it offers a truly global perspective, providing a broader context for understanding Western Europe and Japan. It also deals with a longer sweep of history, dealing not only with the inception of modern school systems but also with earlier and more recent developments.</span></li>
+</ol></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-document-based-question" class="element">
+        <h3>Document Based Question</h3>
+                                    <div class="element-text"><p>by Susan Douglass<br />
+<em>(Suggested writing time: 45-50 minutes)</em></p>
+
+<p>Using the images and texts in the documents provided, write a well-organized essay of at least five paragraphs in response to the following prompt.</p>
+<ul>
+<li>Based on analysis of evidence in the documents, assess the importance in Meiji Japan of developing a system of universal education as a requirement of nation-building.</li> 
+</ul>
+<p>Include in your discussion evidence of:</p> 
+<ul>
+
+<li>leaders' and intellectuals' views on the purposes and goals of education,</li>
+
+<li>elements identified as needing change in Japanese society, and the obstacles to achieving it,</li>
+
+<li>justifications for achieving educational goals by establishing universal, compulsory education, and</li>
+
+<li>the sources of motivation for reforming education and the models on which the new education system would be based.</li>
+</ul>
+
+<p>Your essay should:</p>
+<ul>
+<li>have a clear thesis,</li>
+
+<li>use at least six of the documents to support your thesis,</li>
+
+<li>show analysis by grouping the documents into at least two groups,</li>
+
+<li>analyze the point of view of the documents, and</li>
+
+<li>recognize the limitation of the documents before you by suggesting an additional type of document or source to make your discussion more complete or valid.</li>
+</ul></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-credits" class="element">
+        <h3>Credits</h3>
+                                    <div class="element-text"><h3>Grateful acknowledgment is made to the following institutions for primary sources:</h3>
+
+<p>[Information Coming Soon]</p>
+
+<h3>About the Author</h3>
+
+<p>Brian Platt is an Assistant Professor of History at George Mason University. He is the author of <em>Burning and Building: Schooling and State Formation in Japan, 1750-1890</em>.
+
+<h3>About the Lesson Plan Author</h3>
+
+<p>Susan Douglass is a doctoral student in history at George Mason University, and also serves as education outreach consultant for the Al-Waleed Center for Muslim-Christian Understanding at Georgetown University. Publications include <em>World Eras: Rise and Spread of Islam, 622-1500</em> (Thompson/Gale, 2002), the study <em>Teaching About Religion in National and State Social Studies Standards</em> (Freedom Forum First Amendment Center and Council on Islamic Education, 2000), and teaching resources, both online and in print, including and the curriculum project <em>World History for Us All</em>, <em>The Indian Ocean in World History</em>, and websites for documentary films such as <em>Cities of Light: the Rise and Fall of Islamic Spain and Muhammad:Legacy of a Prophet</em>.</p> </div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">George Mason University</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-introduction" class="element">
+        <h3>Introduction</h3>
+                                    <div class="element-text"><p>Soon after overthrowing the Tokugawa government in 1868, the new Meiji leaders set out ambitiously to build a modern nation-state. Among the earliest and most radical of the Meiji reforms was a plan for a centralized, compulsory educational system, modeled after those in Europe and America. Envisioning a future in which "there shall be no community with an unschooled family, and no family with an unschooled person," Meiji leaders hoped that schools would curb mounting social disorder and mobilize the Japanese people against the threat of encroaching Western imperialism.</p>  
+<p>The purpose of this module is to use the example of Japan to illustrate some key themes in the story of the rise of modern education: the connection between modern educational systems and the formation of the nation-state; the impact of European imperialism upon the spread of those systems; the increasingly inseparable association of "education" with "schooling"; and the accompanying impact of modern schooling upon the culture and social experience of childhood.</p>  
+	<p>The Meiji government's decision to create a centralized school system can be seen in the context of two broad transformations in the concept and practice of education that have occurred worldwide in the last 400 years. The first is the widespread proliferation of educational institutions for commoners.  This transformation occurred first in Western Europe and North America during the 17th and 18th centuries, when clergy and local elites, convinced that a limited education for local masses would have a positive effect upon the moral climate and the level of religious devotion in their communities, established schools for local children. Meanwhile, the expansion of the written word into the social and economic lives of ordinary people enabled them to conceive of the potential value of such schools.</p>  
+<p>This convergence of factors established the context for an unprecedented expansion in both school attendance and popular literacy. In England, France, New England, and parts of Germany and Italy, more than half of the male population, and over a quarter of the female population, had received some form of schooling and achieved at least a modest level of literacy by the end of the 18th century.</p>  
+<p>At that time, Japan was just beginning to undergo a similar transformation.  However, a rapid increase in the number of schools enabled Japan to achieve comparable rates of school attendance and literacy by the time of the Meiji Restoration in 1868.</p>
+	<p>While these changes were taking place in Japan during the early 19th century, a second transformation in education was underway in Europe and America. What defined this transformation was not a fundamental change in the number of schools or the patterns of attendance and literacy, but one in the organization and control of educational institutions. What we see, for the first time in history, is the systematic intervention of the state in the education of ordinary children.</p>  
+<p>Two key factors set the stage for this phenomenon. The first was the rise of industrial capitalism. Industrialization may or may not have stimulated a demand for education among the general population; however, what is clear is that the demographic shifts and social dislocations associated with industrialization begat new anxieties among elites about popular unrest.</p>  
+<p>Old fears about the danger of over-educated commoners gave way to the even more threatening specter of uneducated urban masses who lay outside the influence and regulation of social elites. Such concerns generated new ideas about how to prevent unrest through techniques of social management. Schooling came to be conceived as one of these techniques. Social elites, intellectuals, reformers, and government officials realized that the school could be used as a vehicle through which to properly socialize the lower classes—namely, to teach them discipline, frugality, and other values conducive to their new role in an industrializing society.</p>     
+	<p>Another major development that formed the context for the intervention of governments in education was the emergence of the nation-state. This new political formation was premised on the active involvement of the entire population in the life of the nation. Governments at this time sought to integrate people into the institutions of the state, mobilize them for various kinds of service to the nation, and inculcate in them a personal identification with the nation. It was soon recognized that schools could facilitate these efforts.</p>  
+<p>Just as schools could prepare people for their new economic roles in an industrialized society, they could prepare people for their new political roles as participants in the nation-state. Schooling was therefore a task too important to be left uncoordinated. Nor could the responsibility for schooling be relegated any longer to local elites or the Church, who themselves constituted a threat to the power of the central government.</p>  
+<p>Thus the rationale of the nation-state required that governments assume an educative role, instructing people—particularly children—in values and habits conducive to building the strength of the newly-conceived national community. Childhood therefore became a window of opportunity during which the state could shape its citizenry and thereby strengthen the nation in an era of international competition.</p>
+<p>By the mid-18th century, then, schooling in Western societies was closely bound up with industrial development and the emergence of a new kind of polity that relied upon the integration and mobilization of the masses. This was not lost on those Japanese who had opportunity to investigate conditions in the West. They had already discerned that the power of Western nations derived precisely from their industrial might and their ability to tap into the collective energies of their respective populations.</p>  
+<p>In the years following the Restoration, Meiji leaders also determined that widespread, centralized schooling would be essential if Japan were to harness these new forms of power for herself. Very early in Japan's state-building project, Japan's leaders hitched educational reform to the goals of strengthening the nation and protecting its independence; this much was agreed upon, even though officials diverged widely on many key aspects of educational policy. Much was riding on the creation of a new educational system, and as such, it became the nation's "urgent business" (<em>kyūmu</em>)—one of a number of terms that would be repeated endlessly by local officials during the early years of educational reform.</p>  
+<p>While the public educational systems in mid-19th century Europe and America represented the cumulative product of several phases of interventions by the state, in Japan the urgency of this task would not allow for such a fitful process. Rather, the creation of a new educational system would be attempted in one sudden, systematic, sweeping intervention.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Brian Platt</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-strategies" class="element">
+        <h3>Strategies</h3>
+                                    <div class="element-text"><p>While this module is part of a larger project on the history of youth and childhood, the sources deal mainly with the history of schooling and education. More narrowly, they deal with the issues faced by a single country—Japan—as it attempted for the first time to establish a national education system. For this reason, instructors should be prepared to help students make connections between the specific sources in this unit and the larger issues relating to the history of youth and childhood.</p>
+
+<p>First, instructors may need to make explicit the connection between the history of childhood to the history of schooling and education. The connection may seem self-evident: after all, childhood is the stage of life when people go to school and receive an education. However, this has not always been the case. For the overwhelming majority of people, and for most of human history, formal schooling has not been a part of the experience of childhood.</p>
+
+<p>The sources in this unit focus precisely on the moment when the Meiji government, in its efforts to modernize the Japanese nation, sought to <em>make</em> schooling an essential part of being a child. Furthermore, it is in large part through modern schooling—through the exercise of moving children out of the home and into a distinct institution charged with their care—that childhood as we know it has been defined. Instructors using these sources should try to point out this larger context, to help students to understand that their automatic association of childhood with schooling was something that has not always existed, and that these sources come from a time when it began to exist.</p>
+
+<p>Second, students may require some assistance in placing the case of Meiji Japan in a global historical context. As I discuss in the introductory essay, there are two larger contexts in which Meiji-era education can be understood. First, it is an example of the initial efforts by modernizing governments to intervene in society's efforts to educate children by creating compulsory, state-run school systems. This is a relatively recent phenomenon, dating from the 18th and 19th centuries, and the case of Meiji Japan should be seen as part of this larger historical movement.</p>  
+
+<p>Third, many of the sources in this unit can be best understood within the context of the history of Western imperialism. While several of the sources in this unit reveal an enthusiasm for Western models of schooling, it is important to remember that the specter of imperialism loomed behind all discussions of childhood and education. Japanese leaders understood that the adoption of Western models for schooling were part of the effort to overturn unequal treaties and prevent future incursions upon Japan's sovereignty. The context of imperialism, in turn, helps us to understand how the issues of childhood and education get wrapped up in discussions about tradition and national identity. Efforts to model Japan's education on the example of the West—the very nations that Japan perceived as threats—naturally spurred anxiety about the loss of tradition. Discussions of schooling and childhood—like discussions of gender, for example—were often proxies for discussions about tradition, modernity, imperialism, and national identity.</p>
+
+<p><strong>Discussion Questions</strong></p>
+<p>To help draw out these contexts, instructors might want to ask questions that encourage students to connect these sources to larger issues in the global history of childhood. For example:<br />  
+<ul><li>
+	What kinds of ideas about the purpose of education would <em>not</em> lead to the creation of school systems?</li>
+<li>  
+	How do you think the onset of compulsory schooling changed the experience of childhood? (A more informal, personal version: How would your life be different if schooling were not a part of it?)</li>
+<li>  
+	What motivations might governments have for investing so much effort into creating systems of education? What kinds of obstacles might governments face in attempting to do so?</li>  
+<li>
+	Why do you think that children might have become so important to governments beginning in the 18th and 19th centuries? How does the issue of childhood reflect larger questions about national identity?</li>
+<li>  
+	How do you think the debates about education and schooling we see in Meiji Japan might have played out differently in 19th-century Europe and the U.S.?</li>
+
+</ul></p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-lesson-plan" class="element">
+        <h3>Lesson Plan</h3>
+                                    <div class="element-text"><h3>Lesson Plan: Educational Reform in Japan (19th Century)</h3>
+
+<p>by Susan Douglass</p>
+<p>Time Estimated: two to three 45-50-minute classes</p>
+
+<h3>Objectives</h3>
+<ol>
+<li>Explain the relationship between modernizing the Japanese education system and Japanese nation-building.</li>
+
+<li>Explain the identification between education and schooling in the modernizing state.</li>
+
+<li>Assess the impact of modern schooling on Japanese culture and changes in children's lives.</li>
+
+<li>Analyse the impact of European imperialism on the decision-making process regarding educational reform. </li>
+</ol>
+
+<h3>Materials</h3>
+<ul>
+<li> Printouts of primary sources sufficient for each student to have a full set of the texts and images in the <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/125?section=introduction"><em>Educational Reform in Japan (19th c.)</em></a>. <a id="fn1" class="footnote" href="#note1">1</a></li>
+</ul>
+
+<h3>Day One</h3>
+<p><em>Hook</em><br />
+Compare the two images of Terakoya vs. Meiji School. Jot down a list of characteristics that describe the first school and th e second one. How does the nature of education seem to have changed? Which one would you rather attend, and why? What may have been lost and gained in the process of change?</p>
+
+
+<p><em>Making Sense of the Sources</em>
+<br />The most difficult task in using this teaching module is differentiating among similar ideas expressed in the written documents, and matching them with the various quarters of society in which they originated. It is necessary to identify the voice (traditional elements, progressive modernizers, state officials) and record their keywords and viewpoints, the outlines of debates and issues, tensions between the need to reform and the need to preserve, the social tensions and practical issues involved. Use the graphic organizer to collect and summarize ideas expressed in the documents about the nature and purpose of education in Meiji Japan, filling in the chart as an individual or small-group activity. Debrief after filling out the chart, discussing the change in the subjects, objects, and purposes of education these writers contemplated or realized. Finally, what evidence do the documents present concerning the sources of pressure to change the education system?</p>
+
+<p>Use the <a class="external" href=" http://chnm.gmu.edu/cyh/teaching-modules/125?section=primarysources&source=138">Kaichi and Mitsuke Schools</a> image to describe the physical setting of the modernized schools, including the second and third of the series of classroom images in <a class="external" href=" http://chnm.gmu.edu/cyh/teaching-modules/125?section=primarysources&source=131">Terakoya vs. Meiji School</a>. Discuss the change from traditional education to modern education in light of what the documents reflect of Japanese intellectuals' and officials' vision of a modernized Japanese society. How do the school buildings reflect both traditional Japanese and Western influences? </p>
+
+<h3>Day Two</h3>
+<p>How do you think this new form of education affected children in rural and  urban areas? How did it change the  position of the child among adults, and the family's and the child's relationship to the state?</p>
+ 
+<p>Using the image of rural children together with the attendance table, identify the obstacles and challenges to instituting universal schooling in Japan. Identify documents in the group that discuss difficulties to attaining education among the various classes. Compare these problems with contemporary challenges to school attendance and parental involvement in your own school and in contemporary discussions of education reform in the media.</p>
+
+<p>Ask students individually or in groups to come up with an additional type of document or information set that would help clarify the issues raised in the document based question. [<em>For example, the documents reveal nothing about the proposed curriculum for these schools, to answer the question of balance between traditional learning and modern learning, academic subjects vs. practical /vocational learning and the arts. This is especially interesting in the case of Japan, whose educators were more attentive than some modernizing states to traditional arts and  crafts, for example.</em>]</p>
+
+<h3>Day Three</h3>
+<p>The culminating activity is writing the DBQ essay, which can be done as an outside assignment or a timed activity, at the instructor's discretion. In the latter case, this would add one class period to the length of the activity.</p>
+
+<h3>Differentiation</h3>
+<p><em>Advanced Students</em><br />
+Students may research additional information on Japanese schooling  during the Meiji period, such as curriculum and images of textbooks, narratives about school days from literature and film, for example.</p>
+
+<p><em>Less Advanced Students</em><br />
+Remedial students can focus on a more limited range of documents and themes and could be given a modified question that of more limited scope. Alternatively, they can be given more time and scaffolding to help identify the issues. A small-group activity, for example, would have each student become very familiar with just one of the documents, and represent that voice and point of view in a panel discussion role-playing a debate among Japanese policy-makers on how to reform the schools. Their preparation could be supported by reading textbook summaries on the social history of Japan during that period, in order to identify the various interest groups and associate them with the positions taken in the documents.</p>
+<hr />
+<div id="notes">
+<p><a id="note1" class="footnote" href="#fn1">1</a> Texts include:</p>
+<ul>
+<li><a class="external" href=" http://chnm.gmu.edu/cyh/teaching-modules/125?section=primarysources&source=128">Emperor Meiji to President Grant on Iwakura Mission, 1871 [Letter]</a></li>
+ 
+<li><a class="external" href=" http://chnm.gmu.edu/cyh/teaching-modules/125?section=primarysources&source=129">Preamble to the Fundamental Code of Education, 1872 [Government Document]</a></li>
+
+<li><a class="external" href=" http://chnm.gmu.edu/cyh/teaching-modules/125?section=primarysources&source=130">Encouragement of Learning, 1872 [Literary Source]</a></li>
+ 
+<li><a class="external" href=" http://chnm.gmu.edu/cyh/teaching-modules/125?section=primarysources&source=131">Terakoya vs. Meiji School [Images]</a> 
+<a class="external" href=" http://chnm.gmu.edu/cyh/teaching-modules/125?section=primarysources&source=132">Meiji Era School Attendence [Tables]</a></li>
+ 
+<li><a class="external" href=" http://chnm.gmu.edu/cyh/teaching-modules/125?section=primarysources&source=133">Kaichi and Mitsuke Schools [Images]</a></li>
+ 
+<li><a class="external" href=" http://chnm.gmu.edu/cyh/teaching-modules/125?section=primarysources&source=136">Imperial Rescript: The Great Principles of Education, 1879 [Official Document]</a></li> 
+
+<li><a class="external" href=" http://chnm.gmu.edu/cyh/teaching-modules/125?section=primarysources&source=135">On Education [Essay]</a></li>
+ 
+<li><a class="external" href=" http://chnm.gmu.edu/cyh/teaching-modules/125?section=primarysources&source=136">"The Imperial Rescript on Education" [Official Document]</a></li> 
+
+<li><a class="external" href=" http://chnm.gmu.edu/cyh/teaching-modules/125?section=primarysources&source=137">Two Girls Carrying Children [Photograph]</a></li> 
+
+<li><a class="external" href=" http://chnm.gmu.edu/cyh/teaching-modules/125?section=primarysources&source=138">Explanation of School Matters [Official Document]</a></li>
+</ul>
+</div>
+
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-primary-sources" class="element">
+        <h3>Primary Sources</h3>
+                                    <div class="element-text">128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Fri, 29 Aug 2008 02:55:41 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[The Children’s Charter [Government Document]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/124</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text"><em>The Children’s Charter</em> [Government Document]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>By the early 20th century, urbanization and industrialization led many reformers to focus on child welfare and a recognition of children's rights as separate from those of adults. Several years later, Congress responded by creating the U.S. Children's Bureau designed to report on "all matters" related to the "welfare of children and child life." The bureau was the first federal agency in the world mandated to focus solely on the interests of a nation's youngest citizens. By 1930, the White House Conference on Child Health and Protection spelled out the specific rights of modern childhood in this Children's Charter. Does this charter specify rights unique to children? How could the rights in this charter be fulfilled?</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">1930 Children&#039;s Charter, White House Conference on Child Health and Protection, 1930, U.S. Children&#039;s Bureau Files,  National Archives, College Park, Maryland.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">1930-11-22</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Kriste Lindenmeyer</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">122</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3><em>The Children's Charter</em>, White House Conference on Child Health and Protection,
+November 22, 1930</h3> 
+
+<p>PRESIDENT HOOVER'S WHITE HOUSE CONFERENCE ON CHILD HEALTH AND PROTECTION, RECOGNIZING THE RIGHTS OF THE CHILD AS THE FIRST RIGHTS OF CITIZENSHIP, PLEDGES ITSELF TO THESE AIMS FOR THE CHILDREN OF AMERICA.</p>
+
+
+<ul>
+<li><strong>I.</strong> FOR every child spiritual and moral training to help him to stand firm under the
+pressure of life.</li>
+
+<li><strong>II.</strong> For every child understanding and the guarding of his personality as its most precious
+right.</li>
+
+<li><strong>III.</strong> For every child a home and that love and security which a home
+provides; and for that child who must receive foster care, the nearest substitute for his own
+home.</li>
+
+<li><strong>IV.</strong> For every child full preparation for his birth, his mother receiving prenatal,
+natal, and postnatal care; and the establishment of such protective measures as will make child-bearing safer.</li>
+
+<li><strong>V.</strong> For every child health protection from birth through adolescence, including:
+periodical health examinations and, where needed, care of specialists and hospital treatment;
+regular dental examinations and care of the teeth; protective and preventive measures against
+communicable diseases; the insuring of pure food, pure milk, and pure water.</li>
+
+<li><strong>VI.</strong> For every child from birth through adolescence, promotion of
+health, including health instruction, and a health program, wholesome physical and mental
+recreation, with teachers and leaders adequately trained.</li>
+
+<li><strong>VII.</strong> For every child a dwelling-place safe, sanitary, and
+wholesome, with reasonable provisions for privacy; free from conditions which tend to thwart
+his development; and a home environment harmonious and enriching.</li>
+
+<li><strong>VIII.</strong> For every child a school which is safe from hazards, sanitary, properly
+equipped, lighted, and ventilated. For younger children nursery schools and kindergartens to
+supplement home care.</li>
+
+<li><strong>IX.</strong> For every child a community which recognizes and plans for his needs, protects him
+against physical dangers, moral hazards, and disease; provides him with safe and wholesome
+places to play and recreation; and makes provision for his cultural and social needs.</li>
+
+<li><strong>X.</strong> For every child an education which, through the discovery and development of his
+individual abilities, prepares him for life; and through training and vocational guidance
+prepares him for a living which will yield him maximum satisfaction.</li>
+
+<li><strong>XI.</strong> For every child such teaching and training as will prepare him for successful
+parenthood, home-making, and the rights of citizenship; and for parents, supplementary
+training to fit them to deal wisely with the problems of parenthood.</li>
+
+<li><strong>XII.</strong> For every child education for safety and protection against accidents to which modern
+conditions subject him---those to which he is directly exposed and those which, through loss
+or maiming of his parents, affect him directly.</li>
+
+<li><strong>XIII.</strong> For every child who is blind, deaf, crippled, or otherwise physically handicapped,
+and for the child who is mentally handicapped, such measures as will early discover and
+diagnose his handicap, provide care and treatment, and so train him the he may become an asset
+to society rather than a liability. Expenses of these services should be borne publicly where
+they cannot be privately met.</li>
+
+<li><strong>XIV.</strong> For every child who is in conflict with society the right to be dealt with
+intelligently as society's charge, not society's outcast; with the home, the school, the
+church, the court and the institution when needed, shaped to return him whenever possible to
+the normal stream of life.</li>
+
+<li><strong>XV.</strong> For every child the right to grow up in a family with an adequate standard of living
+and the security of a stable income as the surest safeguard against social handicaps.</li>
+
+<li><strong>XVI.</strong> For every child protection against labor that stunts growth, either physical or
+mental, that limits education, that deprives children of the right of comradeship, of play,
+and of joy.</li>
+
+<li><strong>XVII.</strong> For every rural child as satisfactory schooling and health services as for the city child, and an extension to rural families of social, recreational, and cultural facilities.</li>
+
+<li><strong>XVIII.</strong> To supplement the home and the school in the training of youth, and to return to them those interests of which modern life tends to cheat children, every stimulation and
+encouragement should be given to the extension and development of the voluntary youth organizations.</li>
+
+<li><strong>XIX.</strong> To make everywhere available these minimum protections of the health and welfare of children, there should be a district, county, or community organization for health, education,
+and welfare, with full-time officials, coordinating with a state-wide program which will be responsive to a nationwide service of general information, statistics, and scientific research.<br />
+This should include: 
+<ol class="letters"> 
+<li> a.) Trained, full-time public health officials, with public health nurses, sanitary inspection, and
+laboratory workers</li>
+<li> b.) Available hospital beds</li> 
+<li> c.) Full-time public welfare service for the relief,
+aid, and guidance of children in special need due to poverty, misfortune, or behavior
+difficulties, and for the protection of children from abuse, neglect, exploitation, or moral
+hazard.</li> 
+</ol> 
+</ul>
+
+<p>FOR EVERY CHILD THESE RIGHTS, REGARDLESS OF RACE, OR COLOR, OR SITUATION, WHEREVER HE MAY LIVE UNDER THE PROTECTION OF THE AMERICAN FLAG.</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Fri, 15 Aug 2008 00:33:11 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Children and Human Rights (20th c.)]]></title>
+      <link>https://cyh.rrchnm.org/items/show/122</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Children and Human Rights (20th c.)</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text">Examining children&#039;s rights as human rights provides avenues for understanding the complexity of creating and implementing universal declarations of rights and makes international diplomatic history more approachable; the case study offers students the opportunity to research the current status of children from around the world, and connects the history of human rights to the children&#039;s rights movement that marked the opening and closing decades of the 20th century.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Kriste Lindenmeyer</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-08-14</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Case Study Item Type Metadata</h2>
+        <div id="case-study-item-type-metadata-case-study-image" class="element">
+        <h3>Case Study Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-text" class="element">
+        <h3>Case Study Text</h3>
+                                    <div class="element-text"><h3>Why I Taught the Sources</h3>
+<p>On April 18, 2008, Pope Benedict XVI told the United Nations General Assembly, "The promotion of human rights remains the most effective strategy for eliminating inequalities between countries and social groups, and for increasing security" <a class="external" href="http://wcbstv.com/papalvisit/pope.benedict.speech.2.703107.html">[full text]</a>. Like Pope Benedict, many scholars of international diplomacy and foreign policy talk about the history of human rights as a key shift in international policy after the Second World War.</p>
+
+<p>Few, however, connect the history of human rights to the children's rights movement that marked the opening and closing decades of the 20th century. Further, examining children's rights as human rights provides avenues for understanding the complexity of creating and implementing universal declarations of rights. In addition, for students, including children's rights makes international diplomatic history more approachable.</p>
+
+<p>My teaching experience is with college students, but the topic of children's rights as human rights is adaptable for use in the elementary grades through high school. Focusing on human rights as a concept underscores the social construction of many ideas taken for granted by students. It also offers students the opportunity to research the current status of children from around the world.</p> 
+
+<h3>How I Introduce the Sources</h3>
+<p>This teaching-case study utilizes three primary source documents to link the history of children's rights and human rights in 20th-century diplomatic history.</p>
+<ol>
+<li>1930 White House Conference <a class="external" href=http://chnm.gmu.edu/cyh/primary-sources/124><em>Children's Charter</em></a></li>
+<li>1948 United Nations <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/139"><em>Universal Declaration of Human Rights</em></a></li>
+<li>1989 United Nations <a class="external" href="http://www2.ohchr.org/english/law/crc.htm"><em>Convention on the Rights of the Child</em></a>.</li>
+	</ol>
+
+<p>For students with no previous exposure to the notion of rights, I begin class discussion by introducing the opening section of the 1776 American <a class="external" href="http://www.ourdocuments.gov/doc.php?flash=true&doc=2">Declaration of Independence</a>, "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty, and the Pursuit of Happiness."</p> 
+
+<p>Even students with only a limited knowledge of U.S. history recognize the reality that "unalienable rights" was malleable at the time and broadened to include a larger number of American citizens over time. With upper-level students I find it useful to also include references to the <a class="external" href="http://www.ourdocuments.gov/doc.php?flash=true&doc=40">13th</a>, <a class="external" href="http://www.ourdocuments.gov/doc.php?flash=true&doc=43">14th</a>, <a class="external" href="http://www.ourdocuments.gov/doc.php?doc=44">15th</a>, and <a class="external" href="http://www.ourdocuments.gov/doc.php?doc=63">19th</a> amendments of the U.S. Constitution.</p>
+ 
+<p>I explain that by the early 20th century, urbanization and industrialization led many reformers to focus on child welfare and a recognition of children's rights as separate from those of adults. For example, in 1905, American social worker Florence Kelley published <em>Some Ethical Gains through Legislation</em>. Kelley argued for the establishment of a federal bureau focused on children's issues and their "right to childhood."</p>
+
+<p>Nine years later, Congress responded by creating the U.S. Children's Bureau. The bureau was the first federal agency in the world mandated to focus solely on the interests of a nation's youngest citizens. Similarly, in 1909, Swedish author and social critic Ellen Key declared that a new era had arrived, "the century of the child."</p>
+
+<h3>Reading the Sources</h3>
+<p>By 1930, the White House Conference on Child Heath and Protection spelled out the 
+specific rights of modern childhood in a 19-point <em>Children's Charter</em>. I talk about the document in the context of the onset of the Great Depression and use stories from my book, <a class="external" href="http://www.amazon.com/Greatest-Generation-Grows-Childhood-Childhoods/dp/1566636604/ref=sr_1_5?ie=UTF8&s=books&qid=1218564163&sr=8-5"><em>The Greatest Generation Grows Up</em></a> to inform the discussion. The 1933 William Weld Movie, <em>Wild Boys of the Road</em>, is also a useful classroom tool for showing students conditions for young Americans in the Great Depression.</p> 
+
+<p>Ask students: Does the <em>Children's Charter</em> include rights different from those assumed for adults? What would be necessary to fulfill the rights spelled out in the charter? What does the charter suggest government should do to ensure rights for children?</p>
+
+<p>Students usually conclude that the document is more sentimental than effective as a policy tool. However, its very existence shows the influence of the idea of children's rights as human rights by 1930.</p> 
+
+<p>I then introduce the second primary source, the United Nations <a class="external" href="http://www.un.org/Overview/rights.html"><em>Universal Declaration of Human Rights</em></a>, ratified on December 10, 1948. By the late 1940s, the exposure of Nazi war crimes, along with the world-wide refugee problem that existed after World War II influenced the three-year old United Nations to pass its <em>Universal Declaration of Human Rights</em>. <a href="#note1" id="fn1" class="footnote">1</a></p>
+ 
+<p>Students read the declaration and discuss the specific protections and rights included in the document. I ask them to consider if the children's rights movement had any influence on the document. This discussion highlights the fact that children's rights and interests are defined by, and must be secured by, adults.</p>
+
+<p>Eleven years after ratification of the <em>Universal Declaration of Human Rights</em>, in November 1959, the U.N. adopted the <em>Declaration on the Rights of the Child</em>. Three decades later, in November 1989, it ratified as the UNICEF <a class="external" href="http://www2.ohchr.org/english/law/crc.htm"><em>Convention on the Rights of the Child</em></a>. By the fall of 1990, 20 U.N. member nations signed the document, qualifying it as international law and by 2007, all member nations except the U.S. signed the document.</p> 
+
+<p>This important document clearly argues that despite the ratification of the UN <em>Declaration of Human Rights</em>, children need special protections. Students always note somewhat ironically, that while this declaration takes the history of children's rights full circle, the United States has not signed the document. <a href="#note2" id="fn2" class="footnote">2</a></p>
+
+<h3>Reflections</h3>
+<p>This lesson highlights the importance of including the history of childhood and youth in historical interpretation and how difficult it is to create and enforce a single universal model of children's rights.</p>
+
+
+<h3>Additional Resources:</h3>
+
+<p>Lindenmeyer, Kriste. <em>The Greatest Generation Grows Up: American Childhood in the 1930s</em>. Chicago: Ivan R. Dee, 2005.</p>
+
+<p>Sealander, Judith. <em>The Failed Century of the Child: Governing America's Young in the Twentieth Century</em>. New York: Cambridge University, 2003.</p>
+
+<p>United Nations, UNICEF, <em>The State of the World's Children 2007: Women and Children the Double Dividend of Gender Equality</em> <a class="external" href="http://www.unicef.org/sowc07/docs/sowc07.pdf">http://www.unicef.org/sowc07/docs/sowc07.pdf</a> (accessed March 10, 2008).</p>
+
+<p>Veerman, Philip E. <em>The Rights of the Child and the Changing Image of Childhood</em>. Martinus Nijhoff Publishers, 1992.</p>
+
+<p>Burns H. Weston's <em>Child Labor and Human Rights: Making Children Matter</em> provides evidence of the work that still needs to be done to improve the situation for many of the world's children (Boulder, Colorado: Lynne Rienner Publishers, Inc. 2005).</p>
+
+
+<div id="notes">
+<p><a href="#fn1" id="note1" class="footnote">1</a> Showing older students images from the documentary, <em>Memories of the Camps</em>, helps students to understand the horrors that became visible to people at the time; PBS's Frontline has a useful website on this film with a complete online version and teacher's guide, 
+<a class="external" href="http://www.pbs.org/wgbh/pages/frontline/camp/">http://www.pbs.org/wgbh/pages/frontline/camp/</a>, accessed April 20, 2008.</p>
+
+<p><a href="#fn2" id="note2" class="footnote">2</a> For an introductory discussion about the U.S. and the Convention on the Rights of the Child see Joshua T. Lozman and Lainie Rutkow, "Time for America to Stand Up for Children's Rights," <em>Baltimore Sun</em>, 
+April 17, 2007 <a class="external" href="http://www.baltimoresun.com/>http://www.baltimoresun.com/"</a>.</p>
+</div></div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Kriste Lindenmeyer</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">University of Maryland, Baltimore County</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-primary-source-id" class="element">
+        <h3>Primary Source ID</h3>
+                                    <div class="element-text">124, 139, 140</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Thu, 14 Aug 2008 17:38:08 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Japanese Incarceration Camps Sites]]></title>
+      <link>https://cyh.rrchnm.org/items/show/119</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Japanese Incarceration Camps Sites</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-08-12</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.densho.org/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Densho: The Japanese American Legacy Project, Seattle, Washington, USA</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">April 2008</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>The period of U.S. history when thousands of Japanese-Americans were incarcerated in internment camps during World War II is well represented in internet resources for study. One of the richest sites on this topic is the <a class="external" href=http://www.densho.org/>Denshō Website</a>, which documents the lives of internees through text, photographs, maps, and video interviews with survivors. Because today's survivors were children and teens during World War II, their stories reveal the experiences of youth during the incarcerations.</p> 
+
+<p>Full access to the Denshō <a class="external" href=http://www.densho.org/archive/default.asp >archives</a>, containing "hundreds of hours of video testimony and tens of thousands of historical images," requires free registration; but the site includes a section labeled "From the Archive," which offers highlights from the collection that anyone can explore. One such highlighted feature is titled "Lessons in Democracy," a page using quotations, photographs, and video to explore children's education as "Americans" while living in the camps. In the words of one survivor, "It makes me a little teary-eyed because I think of the irony of learning the Pledge of Allegiance while being behind barbed wire fences."</p> 
+
+<p>A teacher could make good use of these materials in a lesson on the contradictions of democracy in U.S. history, and indeed, other parts of the <a class="external" href=http://www.densho.org/>Denshō Website</a> offer resources for augmenting such a lesson. For example, a section of the site named <a class="external" href=http://www.densho.org/sitesofshame/index.html>"Sites of Shame"</a> includes an extensive <a class="external" href=http://www.densho.org/sitesofshame/timeline.xml>timeline</a> of Asian-American history; it begins with the infamous Naturalization Act of 1790, which stated that only "free white persons" could become citizens, and includes subsequent entries on the Chinese Exclusion Act of 1882 as well as other undemocratic actions against Asians by the U.S. government. This feature helps students to realize that the incarceration of Japanese Americans was not an isolated event caused merely by World War II, but one that resulted from 150 years of racism toward all Asian immigrants. In this context, the Japanese incarcerations are less about "defending the country" and more an example of the systemic, historic hatred that used to be called "The Yellow Peril," brought to a crisis by a military event.</p> 
+
+<p>The <a class="external" href=http://www.densho.org/sitesofshame/index.html>"Sites of Shame"</a> section also includes a unique feature that charts the experiences of one particular family, <a class="external" href=http://www.densho.org/sitesofshame/family.xml>the Yasutakes</a>, as told by four siblings who were children and teens during the incarceration. Unfolding in several different "chapters," with audio interviews and photographs, the Yasutake experience is detailed from the moment when their home was first searched by the FBI through their incarceration, their ultimate release, and the modern-day aftermath they have experienced as adults. One interview clip draws an insightful parallel between past and present: noting how often he's been told to put that "ancient" past behind him, one Yasutake sibling states that the jingoistic response to the 9/11 attacks prove "this 'ancient' history from 60 years ago is just as relevant now as it ever has been."</p> 
+
+<p>The <a class="external" href=http://www.densho.org/sitesofshame/index.html>"Sites of Shame"</a> section of the <a class="external" href=http://www.densho.org/>Denshō Website</a> further offers an <a class="external" href=http://www.densho.org/sitesofshame/map.html>interactive map</a> of the U.S., allowing visitors to click on the locations of numerous detention centers; each click yields statistical data about the camp in question, and many of these pages include brief video interviews with survivors detailing the lives of children and teens in the camps. The page for the Heart Mountain camp in Wyoming includes a video of a woman recalling her group of high-school girls singing Christmas carols to one of the camp's armed guards. Though intended as a subtle, sarcastic act of resistance, the carols had an unexpected effect: the guard, homesick, became choked-up and thanked the teenage girls for what he thought was their kindness. Anecdotes like these make a deep impact on viewers by revealing the complicated emotional experiences behind historical facts.</p> 
+
+<p>Details of daily life are further illuminated on the page for the Santa Fe Department of Justice Internment Camp, where a man's video interview describes the educational activities of children and youth: "[W]e had many schools in Santa Fe like drawing, physics, electricity, in <em>shigin</em> and <em>shakuhachi</em> and <em>utai</em>, and of course Japanese language. And then they had the <em>pen shuji</em> -- that's Japanese calligraphy, writing with the regular pen, not the brush. And so our time spent there was never idle. We always did something."</p> 
+
+<p>Using these pages along with the <a class="external" href=http://www.densho.org/>Denshō site's</a> resources on "Lessons in Democracy," a teacher can juxtapose the dual, competing cultural lessons—American and Japanese—that framed the lives of incarcerated children. On the Denshō site's <a class="external" href=http://www.densho.org/>main page</a>, one can click the <a class="external" href=http://www.densho.org/learning/default.asp>"Learning Center"</a> tab for a wealth of other suggestions designed specifically for high-school and college teachers to build lessons around the site's rich materials.</p>
+ 
+<p>Several other internet sites, though less comprehensive, offer useful materials on the subject of children's lives in the camps. The Denshō site's information about the daily experiences of children can be fruitfully paired with <a class="external" href=http://memory.loc.gov/ammem/collections/anseladams/index.html> "Ansel Adams's Photographs of Japanese-American Internment at Manzanar,"</a> an online collection hosted at the Library of Congress's massive <a class="external" href=http://memory.loc.gov/ammem/index.html><em>American Memory</em></a> website. Though limited to only one detention camp, Manzanar, Adams' beautiful photographs illuminate many of the experiences of daily life that were common among internees at several camps. By searching the collection for "child," "family," "boys," and "girls," visitors will find stunning high-resolution images of the contexts of children's lives: interiors of living quarters, schoolrooms, gardens, hospitals, and camp stores where families shopped. These photographs provide a haunting glimpse of the bizarre contradictions of camp life: the relative appearance of "normality" (children living with their parents, going to Sunday School, playing games, shopping) in the starkly depressing context of broken-down barracks and barren desert surroundings, with barbed-wire borders.</p>  
+ 
+<p>Another resource for study can be found on the PBS website for the documentary, <a class="external" href=http://www.pbs.org/childofcamp/index.html><em>Children of the Camps</em></a>. The most useful of the ancillary materials is a <a class="external" href=http://www.pbs.org/childofcamp/history/timeline.html>timeline of events</a> that is briefer and more specific to WWII than the Asian-American timeline at the Denshō site. This timeline would be useful to students who are gaining their first sustained exposure to the topic.</p>  
+
+<p>In a section of the site called <a class="external" href=http://www.pbs.org/childofcamp/history/documents.html>"Historical Documents,"</a> one can find a full-text copy of Franklin D. Roosevelt's infamous <a class="external" href=http://www.pbs.org/childofcamp/history/eo9066.html>Executive Order 9066,</a> that mandated the evacuation and imprisonment of Japanese American families, as well as subsequent government documents that attempted to repair the damage: the <a class="external" href=http://www.pbs.org/childofcamp/history/civilact.html>Civil Liberties Act of 1988,</a> mandating reparations and apologies to the survivors, and a copy of <a class="external" href=http://www.pbs.org/childofcamp/history/clinton.html>President Clinton's formal letter of apology</a> on behalf of the nation.</p>
+
+<p>As a helpful prompt to further study, <a class="external" href=http://www.pbs.org/childofcamp/index.html><em>Children of the Camps</em></a> has assembled an extensive list of links to websites that offer more detailed histories of the camps themselves, their locations, and other aspects of Japanese-American history in the aftermath of the incarcerations. This page of links does not seem well-maintained, as a few of the links are currently dead. The active ones, however, are well worth exploring. They offer innumerable helpful materials to any teacher or student seeking to study the Japanese-American experience during and after World War II.</p></div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Ilana Nash</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">Western Michigan University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">One of the richest sites on this topic is the Denshō Website, which documents the lives of internees through text, photographs, maps, and video interviews with survivors.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/55/fullsize"><img src="/files/display/55/square_thumbnail" class="thumb" alt="Japanese Incarceration Camps Sites" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Fri, 11 Jul 2008 19:41:52 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/55/fullsize" type="image/jpeg" length="44301"/>
+    </item>
+    <item>
+      <title><![CDATA[The Children Accuse - The Testimony of Eryk Holder [Excerpt]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/115</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text"><em>The Children Accuse</em> - The Testimony of Eryk Holder [Excerpt]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>In recent years, testimonies, diaries and memoirs of Holocaust victims (those who perished and those who survived) have gained belated recognition as essential (not auxiliary) data for historical reconstruction. Early postwar children's recollections, such as this testimony by Eryk Holder, shed light on individual children's experiences as well as on children's viewpoints and self-reflections formed after they had emerged from the conditions of war and genocide. They show how the children themselves conceived, remembered, and reflected on all constant change in their young lives.</p> 
+<p>In his three-page testimony, Eryk Holder, who was born in 1937 into a comfortable middle-class family, describes in detail how his life dramatically changed as a result of the Nazi German occupation of Stanisławów, Eastern Poland, in the summer of 1941. His testimony gives insights into the gradual disintegration of a Jewish family as a result of brutal German policies of ghettoization. Eryk's testimony also sheds light on a child's life in hiding on the Aryan side. Thus, it is a document that allows a historian to fully reconstruct the rich and varied mosaic of relations between Jewish children and Christian Polish families during and immediately after the war.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Hochberg-Mariańska, Maria and Noe Grüss, eds. <em>The Children Accuse</em>. Translated by Bill Johnston. London: Vallentine Mitchell, 1996, 117–19.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-07-10</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Joanna B. Michlic</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">26</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3><em>In Hiding</em></h3> 
+<h3>1. ERYK HOLDER</h3>
+<br />
+<p><em>Born 1937 in Stanisławów</em></p>
+<p><em>(Statement taken by Dr Dawid Haupt, Przemyśl)</em></p>
+<br />
+<p>My father was an engineer at the power station in Stanisławów. Before the war my parents lived in their own house on Wysockiego Street in Stanisławów. My father worked and things were fine at home. When the Germans came my parents had to leave the house and we moved in with my grandfather and grandmother. Then things got worse but we did not go hungry, and father was still working at the power station and also trading. Mother was a cleaner at the railway generating station. I remember how one day the police took us from the flat and led us to the Jewish cemetery. When we go there there were hundreds of Jews, and more and more of them kept arriving. There were men, women and children. At one place in the cemetery there was a huge grave. The people who were standing nearest the grave had to undress and walk up to it, and one of the Germans shot them from behind. I saw that with my own eyes. The children were not shot but were thrown into the grave alive. At the cemetery my mother somehow got lost in the crowd and ended up at the front, close to where they were shooting people. So Mama was just about to get undressed to be killed, but since it was already late in the evening everyone who had not been shot was ordered to go home. We finally met up with Mama at the cemetery in the evening and we went home with grandmother (I do not remember whether grandfather was also there).</p>
+	<p>When the ghetto was formed in Stanisławów we moved to Śnieżna Street. Mama was taken while she was at work and put on a transport. On the way she jumped out of the train and broke her leg. Then she was taken to a work-camp, and soon after she was put on another transport. I never saw her again. Not long after that they shot my grandmother; I do not remember now whether it was then that they shot grandfather, or whether it had been earlier at the cemetery.</p> 
+	<p>When they shot grandmother we had to leave Śnieżna Street and we moved in with a lady in the ghetto. My father went on working at the railway and brought home food home, and the lady cooked for us and did our laundry.</p>
+	<p>This did not last long. They began transporting Jews out of the ghetto again. It was at that time that my father took me with him one day as he left the ghetto on his way to work. He told me to walk a few steps behind him. When we were near the railway a man came up to me, took me by the hand and led me to my 'aunt'. I knew this man was Mr Łopatyński, because my father had told me at home that he would hide me. In the evening my father came to see my 'aunt', who was Mr Łopatyński's sister, and spent a few days with me. Father gave Mr Łopatyński all our things and our money and grandfather's, and showed him the place where he had buried some gold.</p> 
+	<p>While I was at this aunt's, Mr Łopatyński built a hiding place in his garden, and when had finished it he took me to his house and hid me there. He made a wooden cot there. There was also a big opening with a grate in the hide-out, but there was no glass in it. I was not allowed to go near the opening, as children played in the garden and they would have noticed me. I knew that no one should know I was in the hide-out. Mr Łopatyński's children did not know about me either. I spent the summer and the winter there, and the next summer, until the Soviets drove the German's out. It was not bad in the hide-out. Mr Łopatyński or his wife brought me food a few times a day. I ate the same things they did. Sometimes they gave me a bath, but only when their children were not home. In the winter, I lay under the quilt all day. I don't remember whether I was cold. I was only ill once – I caught a chill.</p>
+	<p>I never went up to the opening in the hide-out, though I could hear the children playing in the garden; and I always remember that no one should see me. I was not afraid to be alone in the hide-out, and I never cried. But I missed my mother and father very much.</p>
+	<p>After the first few days, my father moved from aunt's flat to some barracks were Jews were living. For some time he continued to work on the railway. One day Mr Łopatyński came home from work and said that Germans had shot my father. They had been rounding up Jews from work to take to the cemetery; my father started to run away, and a German spotted him and shot him dead. When the Soviet army drove the Germans out of Stanisławów, Mr Łopatyński took me from the hide-out to his flat, and a week later handed me over to the Hellmans, a Jewish family who had survived. When the Hellmans left Stanisławów they took me with them and put me into a Jewish nursery in Przemyśl. I am all right here, because there are other children here with me. I am now in the first year at school.</p>
+	<p>I had no brothers and sisters. While I was at Mr Łopatyński's sister's I played with her son Ryś. Ryś loved me and never did me any harm.</p>
+	<p>My aunt taught me to say my prayers, ‘Our Father' and 'Hail Mary'. I knew that I was a Jewish boy and that because of that the Germans wanted to kill me.</p>
+<br />
+<p>(Archive of the CJHC, statement no. 889/II)</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Thu, 10 Jul 2008 19:51:29 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[The Children Accuse - The Testimony of Łazarz Krakowski [Excerpt]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/114</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text"><em>The Children Accuse</em> - The Testimony of Łazarz Krakowski [Excerpt]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>In recent years, testimonies, diaries and memoirs of Holocaust victims have gained belated recognition as essential (not auxiliary) data for historical reconstruction. In spite of the sketchy nature of postwar children's testimonies, a critical analysis of this invaluable documentation provides a deeper understanding of the process of survival among Jewish children.</p>
+<p>This early postwar testimony of Łazarz Krakowski, born on March 23, 1935, in Katowice, Silesia, sheds insight on the complex nature of survival during the Holocaust. It reveals anxieties, frustrations, and fears characteristic of a child who lived "under the surface" and "above the surface." A main challenge of living "under the surface" was the loss of childhood, of the freedom to play freely. For the children who lived "above the surface," the key daily challenge was to convincingly pass as Christian Polish children, to become "Aryan Jewish children" who perfected the act of mimicry. Łazarz's testimony reveals how dangerous and challenging it was to pass as a Christian child in an environment in which some Christian Polish neighbors fired off uncomfortable questions at the hidden Jewish children and their dedicated Christian Polish rescuers.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Hochberg-Mariańska, Maria and Noe Grüss, eds. <em>The Children Accuse</em>. Translated by Bill Johnston. London: Vallentine Mitchell, 1996, 125–6.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-07-10</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Joanna B. Michlic</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">26</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3><em>In Hiding</em></h3> 
+<h3>6. ŁAZARZ KRAKOWSKI</h3>
+
+<p><em>Born 23 March 1935 in Katowice; son of Chil and Necha Blumstein<p></em>
+<p><em>(Statement taken by Professor Chaimówna, Bedzin)</p></em>
+
+<p>. . . When my mother was sent away to do forced labour, the next day my father handed me over to Włada as she had brought me up. After I left the ghetto, on 23 June 1943, until 10 November 1944, I stayed in the flat the whole time, mostly under the bed. When there were no visitors there I would walk around the room, but quietly so that no one would hear. During the day there was no one at home as they went out to work. Mr Liwer stayed hidden at the home. He was an elderly man. We read newspapers and books together, mostly religious ones because there were not any others there. I had enough to eat; father had left some money so there was enough for me. I did not work, except that from time to time I peeled the potatoes and stoked the stove. The days were terrible, sitting the whole time without moving in that stuffy room; the worst time was when I fell ill and needed a doctor. We went to Sosnowiec to see the doctor; I was terrified, and prayed that no one would recognize me. At the doctor's I pretended to be the lady's son. The doctor said I had worms, and wrote a prescription for me. Two weeks later we had another trip like that to the doctor's; that time too everything went smoothly. On 10 November 1944 I went to live with the uncle of a lady I knew in the village of Bonowice. The uprising in Warsaw had just finished and they could take me in as a child whose parents had died during the uprising. There I came back to life. I was free. I could go wherever I wanted , and I simply gulped the air. One day a lady came to uncle's who suspected that I was Jewish. She fired off lots of questions at me, which I was able to answer because, as I said, I knew my religion well; so she decided that I was not Jewish. Here I was liberated by the Russians. I stayed in the country till 1 May 1945. I went to school; I was popular there, and I was very happy.</p>
+<p>(Archive of the CJHC, statement no. 629)</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Thu, 10 Jul 2008 19:46:24 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[1919 Cleveland Protestant Orphan Asylum Annual Report [Official Document]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/112</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">1919 Cleveland Protestant Orphan Asylum Annual Report [Official Document]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>The official records and reports of social welfare agencies and institutions provide insight into societal beliefs and attitudes related to deviance and changes in those beliefs and attitudes over time. While review of such documents may in some instances reveal radical changes in an agency's mission, more often what unfolds is a narrative of an evolutionary process anchored by consistent themes. Such is the case with the many child welfare agencies founded in the mid-19th century as orphan "asylums." Over time, they came to redefine their mission vis-à-vis dependent children from <em>sheltering</em> to <em>changing</em>.</p>
+
+<p>The Cleveland Protestant Orphan Asylum (CPOA, later renamed BeechBrook) was established by a religious organization, as many were in this era, and began with what is often described as a child-rescue mission. The year 1919 marked the first time in which specific reference was made to "difficult" (though still considered redeemable) children. Of the 296 children served, 85 had been placed in foster homes and 132 had been "returned to friends" (typically a parent or close relative). Over the next few decades, the agency reports document increasing numbers of "difficult" children. The growing discussion of degrees of difficulty, as well as evidence such as engaging psychiatric consultation, indicate movement toward the agency's present role within the mental health system.</p>
+
+<p>Additional records are available on this topic: American School for the Deaf, Perkins School, and others via the 
+<a class="external" href=http://www.disabilitymuseum.org>Disability History Museum.</a></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">The Cleveland Protestant Orphan Asylum. Sixty-Seventh Annual Report. October 31, 1919.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-07-04</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Philip L. Safford</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">110</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3>REPORT OF THE BOARD OF MANAGERS OF THE<br />
+CLEVELAND PROTESTANT ORPHAN ASYLUM<br />
+FOR THE YEAR CLOSING<br />
+OCTOBER 31, 1919.</h3>
+
+<p>The function of the Orphan Asylum, making a home for children, carries always hope and love and increasing interest. Every year the workers are learning and improving, and accomplishing more satisfactory results. The definite form of service in this Asylum, taking care o f children in this home, finding permanent homes for some of them in a good family, sheltering and eventually returning others to their own family or relatives, goes steadily on. There were two hundred and thirty children admitted
+during the past year. Three hundred and nine, in all,
+were cared for. Seventy-four were placed in homes, one hundred and fifty-six were returned to their own friends, and seventy-nine were still in the Asylum on October 31st, 1919.</p>
+
+<p>. . .</p>
+
+<p>The staff of visitors has been increased. This permits us not only to emphasize visits to the homes where our children have been placed, but also to carry on extension and advisory lines of work through visits to the parents of children who are in the Asylum for temporary shelter and thereby help them and their children in the future. The remarkable personal work and thought for every child results in good health, happiness
+and a helpful spirit toward others. The children were singularly free from illness and contagion for several months of the year. Careful attention was given to the report cards which the boys and girls brought home from school. Days in the open air when all enjoyed picnics to the farm were especially beneficial.</p> 
+
+<p>. . .</p>
+
+<p>Respectfully submitted<br />
+Mrs. J.R. OWENS,<br />
+SECRETARY</p>
+
+<br />
+<br />
+
+<h3>REPORT OF THE COMMITTEE ON ADMITTING AND PLACING CHILDREN FOR THE YEAR<br />
+CLOSING OCTOBER 31st,</h3>
+
+<p>Quietly and persistently your Committee on Admitting and Placing Children has carried on its work during the past year. Because of the flu epidermic and the readjustment period following the War the many cases have kept us on the alert trying to help those worthy and counseling those who needed guidance rather than help.</p>
+
+<p>However, our aim is to aid in some way all who call. Visitors ofttimes feel slighted because we do not immediately relieve them of their children and suggest instead other ways and means. Many times the parents need the children with them to act as governors on their own conduct. In other instances the quicker the children are admitted to the Home the better it is for them.</p>
+
+<p>We have cared for three hundred and nine children during the past year. It is interesting to note that of the one hundred and eleven new families helped this year but forty-four were American. The remaining - sixty-seven
+represented twenty-two different nationalities.</p>
+
+<p><img class="content-thumb" src="http://chnm.gmu.edu/cyh/images/orphan11.jpg"/>On our records of the year we also note that twenty-four fathers and nine mothers deserted. Twelve mothers were immoral. Eleven families were temporarily broken up because one or the other of the parents was in the
+hospital. The deaths of twenty fathers and sixteen mothers caused us to take temporary care of the children until other arrangements could be made for them. Fourteen cases were illegitimate.</p>
+
+<p>The present policy of the Institution is the same as in the past in regard to admitting and caring for children. In recent years there have been greater calls for the temporary shelter of children by parents who have for one cause or another been unable to care for their own.</p>
+
+<p>Last year we returned one hundred and fifty-six children to their parents or relations, as we believe in keeping the family together if possible. It is also our aim to thoroughly investigate the relatives of the
+child with the idea in mind of having them take care of their own kin and not delegate this responsibility to strangers.</p>
+
+<p>During the past twelve months we leave placed but seventy-four children in foster homes. One reason for this is that many children given to us for adoption have been returned to relations whom we have succeeded in interesting in the case. Very often, upon investigation, we found relatives who at first refused to assist the parents in caring for children willingly accept the responsibility when they learned that the parental rights had
+been legally forfeited.</p>
+
+<p>The real work of the Institution, however, is the same - the receiving of children who are left dependent and are eligible to be placed in foster homes. We are still firm believers in the family life for the child and no one can question the fact that the Institution is a great help in training the child for his future home.</p>
+
+<p>We thoroughly investigate the parents and home before We accept their child for adoption, believing it is but natural that the child should be kept, if possible, in the home of his own people.</p>
+
+<p>It is our plan to move slowly in placing a child, no matter how desirable the home may appear, because people sometimes are impulsive in this as in other important matters and give little thought to the responsibility they would assume. By delaying the placement a reasonable period it gives the parties concerned time to consider all phases of the undertakings. It also gives us a better opportunity to fit the home with the proper child
+and thus prevent a return or transfer later on. Our experience has shown us that this is the most satisfactory plan.</p>
+
+<p>Every charity organization has on its list people who are habitual troublemakers. The following case is typical in this respect. Several years ago we admitted a family of five children whose parents were of the worst
+type and who were living under disgraceful conditions. With the possible exception of the boy they could not rightfully be termed borderline, but rather they belonged to that class of child known as difficult. It was only after long periods of training that the children were placed in foster homes.</p>
+
+<p>The boy was transferred three times before he was placed in a home where he finally proved at all congenial. Temperamentally he is easy-going and if let alone he enjoys doing any kind of manual work and is happy when nothing occurs to disturb the routine of his life. He neither smokes, chews nor drinks and seldom leaves the farm. He has a good sized back account and as his needs are few the sum is steadily increasing. He will never add to the world's intellectual store, but the brawn of his class is a mighty factor
+in caring for a record crop of wheat or potatoes.</p>
+
+<p>It has been our experience that the logical place for a mentally retarded man or boy is the farm provided, however, that he has not in his makeup the trait of cruelty to animals. In the city the chances are that he will be but a tool in the hands of astute criminals but in the rural districts the opportunities for getting into trouble. are reduced to a minimum.</p>
+
+<p><img class="content-thumb" src="http://chnm.gmu.edu/cyh/images/orphan13.jpg"/>Edith, a sister, was found a home in an ordinary family. They were told she was a difficult child to manage, but they assured us we would not be called upon to solve their petty problems if we would but allow them to take the girl with them. The reports of our visitor show that there were many occasions when the family life did not run smoothly and had her foster parents been less persistent and persevering it is not to be doubted that there would have been an entirely different ending to the story of her girlhood days. She now has a home of her own and knows from experience that
+caring for children has its sorrows as well as its joys, its moments of pain as well as happiness.</p>
+
+<p>Clara, another sister, was the cause of much solicitation by everyone with whom she came in contact. She was by nature a disturber. If an occasion lacked variety or excitement, this child would find a way to supply the apparent deficiency. Her imagination was constantly at work and the plausible stories, complete with detail, caused more than one family to return her to the Home.</p>
+
+<p>When people would see her among the children in the Girls' Department they could not be convinced that she was not really as demure as she appeared, but after they had had her for a time we invariably received a letter asking for advice or requesting our visitor to call and We knew at once that the same old story was to be repeated.</p>
+
+<p>Upon one occasion she almost caused a separation between her foster parents by her stories. Frequent visitations and letters were necessary but even these would have been of no avail had the people with whom she was last placed wavered in what they considered their Christian duty. Clara, too, is married and now realizes her mistakes of earlier days.</p>
+
+<p>Sadie, a few years older than Clara, was marked with a propensity for wandering and was easily influenced by the older children. She remembered localities and names of streets where she had formerly lived with her own people and she never became really reconciled to her foster home. All efforts to interest her in the better things of life failed. School to her was but a place in which to idle away one's time and her attendance at
+church was always preceded by many protestations. One day we were notified that Sadie had boarded a train for Cleveland. We afterwards discovered that she had found her own people and drifted back into their ways.</p>
+
+<p>Bessie, the youngest, is still in her foster home. She has been a care in many ways but her foster parents are firm in the belief that she will outgrow her natural tendency for troublemaking. Should this prove true,
+it will be because she was placed when very young and her careful training will have neutralized the family trait.</p>
+
+<p>We have in mind another family of an entirely different type. Conditions were such that of the five children, only two of them were placed in homes- the others being returned to relatives. In after years the brothers and
+sisters were brought together. The brother and sister of the foster homes  had received college educations and each specialized in a chosen field of endeavor. When the others learned of this they were not to be outdone and
+immediately began courses of study in widely separated institutions of learning. The germ of achievement had been lying dormant in them thorough the years and needed but a stimulus to produce results. Today they are professional men and women but it is doubtful this would have been so had all of the five children been returned to their friends and relatives, as the educational advantages received by the two placed in foster homes proved an incentive to the others and goaded them on to work and study in order to attain an equality of learning similar to that of their more fortunate brother and sister.</p>
+
+<p><img class="content-thumb" src="http://chnm.gmu.edu/cyh/images/orphan15.jpg"/>We cannot close this report without a word of appreciation to those people who have taken these dependent children into their homes. Many times it has been their first experience in the intimate care of little ones and they have begun their task with positive opinions in the matter of child-rearing. However, they soon find that some revision is necessary. What seems perfectly plausible in theory does not always work out practically
+where the child is concerned. This period of adjustment affects the child as it does the parents and if the latter are but half-hearted in the desire for a little one in the home they are unable to stand the strain and the child is returned to the Institution the worse for having been placed.</p>
+
+<p>Many people feel so sorry for the little ones they take that their sympathy rather than good judgment is the dominant note in the child's training.
+Even a baby will take advantage of the weakness of a foster parent and instead of being governed the child becomes the monarch of all he surveys and every whim must at once be gratified.</p>
+
+<p>We see alike the frailties of the child as well as those of the foster parents who think they are following a wise course when they indulge children but really are in error. It is a simple matter to talk to the little one and point out his mistakes but it requires tact to do this with the foster parents. The latter class differ in their tendencies as do the children. They forget that the act of taking a penny from the kitchens table is an offense of no greater magnitude than it was when they themselves surreptitiously tip-toed to the cookie jar twenty years ago. They cannot see why the child should tell stories occasionally but they forget their own vivid imaginations when they were young.</p>
+
+<p>It is sometimes said that it child is lacking in appreciation but we find in some cases that the foster parents have made very little effort to bring out this admirable trait.</p>
+
+<p>When the foster parent has returned from a shopping tour the child eagerly inspects the purchases hoping that perhaps he may find something for himself. Clothing and the incidental expenses of keeping a child in the home mean very little to the average boy and girl and the juvenile tendency  is to take these things as a matter of course, but the aspect of a child"s whole world is changed for him if he is occasionally remembered with a small gift such as a base ball bat or a hair ribbon. Perhaps the mistakes of the foster parents have been legion, but the fact is indisputable that were it not for the many homes opened to these desolate little ones their chances for a normal existence would indeed be slight.</p>
+
+<p>Respectfully submitted,<br />
+MR. DOUGLAS PERKINS. . . </p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                                    <div class="element-text">111</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file application-pdf"><a class="download-file" href="/files/download/119/fullsize">CHY112.pdf</a></div>]]></description>
+      <pubDate>Fri, 04 Jul 2008 16:13:12 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/119/fullsize" type="application/pdf" length="3895524"/>
+    </item>
+    <item>
+      <title><![CDATA[Children and Disability (19th, 20th c.)]]></title>
+      <link>https://cyh.rrchnm.org/items/show/110</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Children and Disability (19th, 20th c.)</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text">This case study uses reports from an institution that housed some children with disabilities and helps students understand children&#039;s experience of disability over time, giving the institutional perspective on how such children were classified and how attitudes toward disabilities might have influenced how society dealt with them during the period.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-07-04</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Case Study Item Type Metadata</h2>
+        <div id="case-study-item-type-metadata-case-study-image" class="element">
+        <h3>Case Study Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-text" class="element">
+        <h3>Case Study Text</h3>
+                                    <div class="element-text"><h3>Why I Taught the Source</h3>
+<p>In studying the historical meaning of disability in the U.S., official reports of the myriad institutions established for the care, education, training, and sometimes merely confinement, of persons whose differences set them apart have been a key source of information. Such documents were typically written by administrators concerned primarily with the need to ensure continued public and institutional support.</p>
+
+<p>These reports can tell us many things and provide a useful resource to help students understand children's experience of disability over time, but they only provide part of the story. For example, they often address the experience of children with physical impairments or who bore such labels as "feeble-minded," but no comparable record exists concerning children with emotional disabilities. In addition, these reports represent the institutional voice. They do not reflect "insiders' views," that is, the perspectives of the persons affected by the services. These reports can be considered alongside memoirs written by those with sensory or other disabilities for multiple perspectives.</p>
+
+<h3>How I Introduce the Source</h3>
+<p>The 19th century was characterized by the establishment of institutions. Records of asylums for persons judged insane from the 19th century, however, make only occasional reference to inmates in their teens or childhood. If childhood emotional disturbance was present in the 19th century, the sparseness of data leads one to ask: <em>Where were the children</em>? Or, alternatively, does the absence of facilities specifically for the treatment of childhood disturbance indicate that the emotionally disturbed child is new to the 20th century?</p>
+
+<p>In teaching a course on the history of childhood, I pose these as alternative hypotheses:</p>
+
+<ol>
+<li>American children have always experienced the same range of mood, conduct, ideational, and other disorders as do children today, but their needs were not appropriately addressed before the 20th century; or</li>
+
+<li>Perhaps owing to a variety of socio-cultural factors (e.g., urbanization, industrialization, economic stressors, immigration, etc.), childhood emotional disturbance became significantly more visible and a cause for concern with the dawn of the 20th century.</li>
+
+</ol>
+
+<p>In class, we discuss the socially constructed nature of disability. In light of this, students tend to lean toward the first hypothesis, noting further the role of changing societal norms in determining whether certain behaviors are aberrant.</p>
+
+<p>In the 19th century, the U.S. actually presented an array of facilities where children considered different or difficult might be found. In addition to "lunatic asylums," reports from institutions for the "feeble-minded" in the 1880s noted cases of "moral idiocy" and "juvenile affective insanity." The mixed motives driving reformers led to a network of "Houses of Refuge," a euphemism for reformatories. At mid-century, many of the inmates of America's almshouses were children with physical or cognitive impairments including, as Dorothea Dix reported, "insanity."</p>
+
+<p>The nature of these institutions, though, changed over time. Many American orphanages were established during or after the Civil War. In the 1920s, in the context of a broad mental hygiene movement, these asylums began to redefine themselves into mental health agencies now known as residential treatment centers for disturbed children and youth. By the mid-1960s, treatment centers were established in virtually every region of the U.S., as well as in Canada and other industrialized nations.</p>
+
+<p>The records of these institutions provide a picture of change over the course of a century. They address the perceived or actual nature and needs of the children who were served – from dependent and pitiable to "difficult" and disturbed.</p>
+
+<p>The Cleveland Protestant Orphan Asylum (CPOA, later renamed BeechBrook) was established by a religious organization, as many were in this era, and began with what is often described as a <em>child-rescue</em> mission. The 1879 Annual Report of CPOA demonstrates their original purpose of ". . . sheltering orphaned and destitute children."</p>
+
+<h3>Reading the Source</h3>
+
+<p>The 1879 Report is especially instructive because it describes children who had been served since the agency's founding in 1852: ". . . we found them in good health, happy and contented; their physical wants abundantly supplied and their mental and moral training carefully looked after." With the exception of a few children rescued from alcoholic and abusive parents, the agency's clientele comprised orphaned or "half-orphaned" children. "Half-orphaned" usually involved a mother, or in some cases a father, who was at least temporarily unable to care for her or his child or children.</p> 
+
+<p>The annual report describes the goal of physically moving children in response to the "increasing call for shelter for orphans," with the goal of either "returning" or "placing out" with another family <em>every child</em> who was admitted. CPOA's annual reports summarize the agency's success in achieving that goal.</p> 
+
+<p>The year 1919 marked the first time in which specific reference was made to "difficult" (though still considered redeemable) children. Of the 296 children served, 85 had been placed in foster homes and 132 had been "returned to friends" (typically a parent or close relative). Over the next few decades, the agency reports document increasing numbers of "difficult" children. The growing discussion of degrees of difficulty, as well as evidence such as engaging psychiatric consultation, indicate movement toward the agency's present role within the mental health system.</p>
+
+<p>To read the report, students work in small groups and address a number of topics:</p>
+<ol>
+<li><em>The role of age, gender, parental socioeconomic level, and geographic location</em>: The documents are informative with respect to many key questions concerning clientele and possible changes over time. For example, in the 1870s, when CPOA and sister agencies were growing rapidly, urban school districts such as Cleveland were starting to establish "classes for unrulies," primarily troublesome male pupils. Did CPOA's clientele tend to come from rural rather than urban surroundings? Did sociocultural characteristics change over time? Were more girls than boys admitted or vice versa? At what ages were children typically admitted, that is, possibly before becoming "unruly"?</li>
+
+<li>
+<em>Etiological attributions</em>: In describing even "difficult" children as victims rather than menaces, these reports seem to contrast sharply with those of asylums and reformatories. Reports from the latter often ascribed child deviance to parental or child sexual or other "vile" misconduct. Does this reveal differences in perceptions and attitudes, or does there seem to have been a sorting process, whereby children were referred to the type of provider thought best suited to address their needs? Alternatively, do the reports put a rosy face on less salubrious realities – examples of what Goffman termed "cleaning up the front regions"?</li>
+
+<li>
+<em>Prognoses</em>: Is the goal of returning children to, or placing children with, families consistently evident in the successive reports? Are expressed beliefs about children's "redeemability" inconsistent with apparent societal attitudes during the "period of indictment" and of "negative eugenics?" <a href="#note1" id="fn1" class="footnote">1</a> What factors might help to explain such inconsistencies?</li>
+
+<li>
+<em>Remedies</em>: Were there strategies for "redeeming" young children in need or in trouble? What were they? Is there evidence that the philosophy of moral treatment that influenced early American, as well as European, psychiatry guided CPOA (and by extension similar agencies)? Specifically, was the ameliorative role of <em>work</em>, a key element of moral treatment emphasized in 19th-century orphanages, in any way different than in the asylums, almshouses, and reformatories?</li>
+</ol>
+
+
+
+<div id="notes">
+<p><a href="#fn1" id="note1" class="footnote">1</a>There was growing tendency, connected to the rise of the eugenics movement in the U.S., to associate cognitive disability with criminality and to advocate increasingly punitive means of containing and preventing (e.g., through involuntary sterilization) all forms of physical and behavioral deviance.</p>
+
+</div></div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Philip L. Safford</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">Kent State University</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-primary-source-id" class="element">
+        <h3>Primary Source ID</h3>
+                                    <div class="element-text">111, 112</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/45/fullsize"><img src="/files/display/45/square_thumbnail" class="thumb" alt="Children and Disability (19th, 20th c.)" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Fri, 04 Jul 2008 15:53:58 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/45/fullsize" type="image/jpeg" length="7013"/>
+    </item>
+    <item>
+      <title><![CDATA[Legal Protection for Scout Uniform, 1935: Tanganyika Government Ordinance [Official Document]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/102</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Legal Protection for Scout Uniform, 1935: Tanganyika Government Ordinance [Official Document]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Many African boys, teachers, and community leaders were genuinely inspired by scouting and founded their own unauthorized independent troops. In other cases, individuals dressed as scouts to claim the benefits of belonging to the movement. Scout leaders and government officials in East Africa paid little attention to these informal adaptations of scouting, but they became alarmed when dance societies in Mombasa began to use Scout uniforms in the early 1930s. These decidedly adult celebrations often included drinking and other forms on inappropriate revelry. Scout leaders lobbied the colonial authorities to crack down on scout impersonators, but at the time there were no laws against the unauthorized use of scout materials in the East African colonies. This legislation from Tanganyika (modern Tanzania) gave the territorial scout association sole legal control over the scout uniform and badges. From 1935 on, Africans who impersonated scouts or formed unauthorized troops faced a stiff fine and one month of jail time at hard labor.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Tanzania National Archives, Dar es Salaam, Tanzania. ACC 71. Annotated by Tim Parsons.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-06-26</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Tim Parsons</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">95</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text">&lt;h3&gt;An Ordinance to Further and Protect the Activities and Interests of the Boy Scouts Association of the Tanganyika Territory, 5th July 1935.&lt;/h3&gt;
+
+
+&lt;ol class=&quot;letters&quot;&gt;
+&lt;li&gt;1. This Ordinance may be cited as the Boy Scouts Ordinance.&lt;/li&gt;
+
+&lt;li&gt;2. In this Ordinance. . . &quot;Association&quot; means the Boy Scouts Association incorporated under the Royal Charter granted to the fourth day of January, 1912.&lt;/li&gt;
+
+&lt;li&gt;3. It shall not be lawful for any person, not being under the Rules of the Association duly authorized and entitled so to do, publicly to wear, carry or bear any uniform, badge, token or emblem which under the said Rules are specifically adopted for use under the authority of Association or which could reasonably be held to be an imitation of the same in such a style or manner as to convey an impression that such person is under the said Rules entitled to so to wear, carry or bear such uniform, badge, token or emblem.&lt;/li&gt;
+
+&lt;li&gt;4. No person shall sell, or offer for sale, any article bearing a badge token or emblem specifically adopted for use under the authority of the Association, to which could reasonably be held to be an imitation of the same, unless he shall have first obtained authority from the Commissioner in writing to do so.&lt;/li&gt;
+
+&lt;li&gt;5. It shall not be lawful for any Boy Scout, not being otherwise thereunto lawfully entitled and authorised, to pretend to be, or to pass himself off as, or to arrogate to himself the authority, position or powers of, or to claim to be or to act as –
+&lt;ol&gt;
+&lt;li&gt;(a) a member of the Tanganyika Territory Police Force, or&lt;/li&gt;
+&lt;li&gt;(b) an officer exercising police functions in the service of any native 
+     Authority&lt;/li&gt; 
+&lt;li&gt;(c) an agent or officer of the Government or of any native authority or 
+     tribunal.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;6. It shall not be lawful for any person to form, organise, or work in connection with, or be concerned in forming, organising, or working in connection with, any corps or body of persons who without due authority granted in accordance with the Rules of the Association claim to purport to be Boy Scouts or otherwise to be connected with the Association or who hold themselves out or pass themselves off, as Boy Scouts or as otherwise connected with the Association.&lt;/li&gt;
+&lt;li&gt;7. Any person contravening any of the provisions of this Ordinance is guilty of an offence and is liable to imprisonment for one month or a fine of two hundred shillings or both such penalties.&lt;/li&gt;
+&lt;/ol&gt;</div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Thu, 26 Jun 2008 15:35:03 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Pathfinder Warrant [Official Document]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/100</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Pathfinder Warrant [Official Document]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Imperial scout headquarters and the national and territorial scout associations were deeply concerned with ensuring that only respectable and responsible men became scoutmasters. In colonial Africa, this meant that potential scoutmasters had to also respect the political realities of European minority rule. As in Great Britain, acceptable candidates received a "warrant" from the territorial scout association permitting them to form and lead scout troops. In Africa, the warrant system was particularly useful in preventing unauthorized Africans from founding their own versions of the movement.</p> 	<p>More often than not, as was the case with this warrant for a South African Pathfinder troop, the scoutmasters were missionaries, teachers, or both. Dating from 1938, two years after the compromise that produced the four racially-segregated sections of South African scouting, the document incorporates both the Pathfinder arrow symbol and the official scout badge. However, the fact that it was issued by the "Pathfinder Boy Scouts Association of the Union of South Africa" sent a clear message that the Pathfinders were separate and distinct from mainstream scouting.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">South African Scout Association. Special Collections. University of Cape Town. Annotated by Tim Parsons.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-06-25</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Tim Parsons</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">95</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                                    <div class="element-text">This is a warrant (a certificate) affirming someone as an official scout leader. As in Great Britain, acceptable candidates received a &quot;warrant&quot; from the territorial scout association permitting them to form and lead scout troops. In Africa, the warrant system was particularly useful in preventing unauthorized Africans from founding their own versions of the movement. This warrant reads: [start] [top] Divisional No. 31, H.Q. /26/38 Signature of Warrant Holder, Veillet [signed]. [Title] The Pathfinder Boy Scouts Association of the Union of South Africa [image: boy scout fleur de lis] Warrant [Certificate text] You __Reverend. Leon Veillet__ are heredy appointed __-- A --__ Pathfinder Scout Master of the __1st Port Nolloth Pathfinder Scout Troop__ Group within the area of the __Namaqualand__ District, __(Acting for:-) Transvaal__ Division, South Africa. [dated and signed] Divisional Headquarters, Box 631 Johannesburg. Countersigned [signature] (Divisional Pathfinder Scout Commissioner), Dated 26th January, 1938. [signed] Chief Scout&#039;s Pathfinder Commissioner. [Footer] Th[is] Warrant is the property of the Pathfinders Boy Scouts Association, and is to be returned to them at any time on demand, or on the holder leaving the District of Division, and is only valid for the rank and within the Area stated. [End]</div>
+                    </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/38/fullsize"><img src="/files/display/38/square_thumbnail" class="thumb" alt="Pathfinder Warrant [Official Document]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Thu, 26 Jun 2008 02:19:21 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/38/fullsize" type="image/jpeg" length="119168"/>
+    </item>
+  </channel>
+</rss>

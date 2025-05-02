@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=%3Cem%3EWorld+Images%3C%2Fem%3E&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:19:32 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[World Images]]></title>
+      <link>https://cyh.rrchnm.org/items/show/239</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">World Images</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://worldart.sjsu.edu </div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">California State University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">April 2009</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>The <a class="external" href="http://worldart.sjsu.edu"><em>World Images</em></a> site, a project of California State University, is designed for simplicity of use if not aesthetic elegance. It is a utilitarian database well suited to teachers, professors, or students looking for presentation images licensed for educational use on a comprehensive range of subjects including photography, painting, illustration, and material culture with global geographic representation.</p>
+
+<p>The image collections are arranged as thumbnail panes on the home page, each hyperlinked to a list of portfolios that indicate how many images each contains. The site holds an archive of 72,000 images organized into 867 portfolios, and a tutorial shows how to create Community Portfolios. Users can browse the collection using keywords, artists, topics, titles, regions, or periods in quick or advanced search modes. Search results can be viewed as titles with hyperlinked acquisition numbers, as thumbnail images with titles, or as small or zoomable images with their metadata.</p> 
+<p>Categories include institutional collections in the database, faculty collections, course materials, and a collection of image portfolios correlated to required history topics in the California Educational Standards for grades 4–10. Since these curricular requirements are fairly common across the U.S., and in world history beyond the U.S., this is a valuable resource for teachers.</p> 
+
+<p><em>World Images</em> is rich in images related to children and youth. The "People and Portraits" portfolio contains three sub-categories on children with a total of 1,094 images, some overlapping. They include <a class="external" href="http://worldimages.sjsu.edu/?sid=1255&x=2996373">Children to 1500</a> (234), <a class="external" href="http://worldimages.sjsu.edu/Prt246?sid=1255&x=101517?Display=thu ">Children 1500-2000</a> (544), and <a class="external" href="http://worldimages.sjsu.edu/Prt233?sid=1255&x=101518?Display=thu ">Children of the World</a> (316).</p> 
+
+<p>The first is fairly inclusive geographically, but includes many images from Western traditions. The second is almost entirely European and American, and the third includes North and South American, African, Asian, and European children's photos and a few artworks and artifacts.  Much of the third collection is the work of photographer Kathleen Cohen.</p> 
+
+<p>The following search terms returned images on children and youth: "children" (1000), "childhood" (80), "girl" (382), "boy" (555 items), "infant" (119), and "family" (858). The metadata provided with each image includes title, artist or maker, historical period, region or country of origin, copyright holder of the image, and/or museum holding the object. The individual object view also shows what other collections include the object, and links to other objects by the same artist or unknown generic maker from that culture.  The photographs are labeled with title, year, location, and photographer, but nothing further, though some of the titles are very descriptive.</p> 
+
+<p>The information associated with <em>World Images</em> is thus limited, providing no further contextualization, nor are there links to descriptive information on museum sites where some are housed, for example. For this reason, the works of art found through this website are starting points for research about children in history rather than destinations. Some images, however interesting, remain mysterious.</p>
+
+<p>Teachers wanting to illustrate already researched lectures or activities with licensed images will find this site a rich resource, especially if the lack of detailed information on the images is not a problem. Interesting objects from the collection can stimulate fruitful discoveries of available research on the web or from books and articles. For example, an image of an ancient baby bottle led to a trove of online information about infant feeding through the centuries.</p>
+
+<p>Teachers can also create thematic collections that can be used for primary source investigations. A number of art images show punishment of children's misbehavior, for example, and children at play, as well as infant equipment from various times and places. These images can be used as exercises in examining primary sources as if they were "found objects" at a site or in an archive.</p> 
+
+<p><a class="external" href="http://chnm.gmu.edu/worldhistorysources/index.html">World History Sources</a> at the <a class="external" href="http://chnm.gmu.edu/ ">Center for History and New Media</a> has extensive lessons, exercises, and scholarly models for analyzing primary sources, including photographs, that could provide tools for working with the rich sources available on this website. A feature called "You be the Historian" could be adapted to interrogating the images from the <em>World Images</em> collections, and would reveal much about childhood by investigating questions to ask, and suggesting how to find answers.</p>
+
+
+
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">George Mason University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">World Images is rich in images related to children and youth. </div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/161/fullsize"><img src="/files/display/161/square_thumbnail" class="thumb" alt="World Images" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Tue, 19 May 2009 20:03:19 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/161/fullsize" type="image/jpeg" length="22441"/>
+    </item>
+  </channel>
+</rss>

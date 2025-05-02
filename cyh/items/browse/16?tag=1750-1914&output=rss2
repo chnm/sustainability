@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse/16?tag=1750-1914&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:22:56 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Home Economics Archive: Research, Tradition and History (HEARTH)]]></title>
+      <link>https://cyh.rrchnm.org/items/show/32</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Home Economics Archive: Research, Tradition and History (HEARTH)</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-04-01</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://hearth.library.cornell.edu/h/hearth/index.html</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Albert R. Mann Library, Cornell University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">December 2007</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>The history of childhood depends, to some extent, on understanding the history of home- and family-life, the primary context in which childhood occurs. In the U.S., the rise of the field known as "home economics" had an enormous impact on popular conceptions of children and what kind of care they require. The impressive <a class="external" href=http://hearth.library.cornell.edu/h/hearth/index.html><em>HEARTH</em></a> website offers the most comprehensive online collection of primary sources in the field of home economics from 1850 through 1950; a few sources, such as full-text articles from the <a class="external" href=http://hearth.library.cornell.edu/h/hearth/browse/title/4732504.html><em>Journal of Home Economics</em></a>, are inclusive through 1980. <a class="external" href=http://hearth.library.cornell.edu/h/hearth/about.html>Introductory material</a> addresses the importance of home economics to women's history and children's history as well as its broad impact on American culture.</p> 
+
+<p>Materials are arranged into 11 broadly-defined topics; each is introduced with a short essay, an image, and a substantial bibliography of influential texts on that topic, in PDF format. The history of home economics is a relatively young discipline, so these bibliographies provide an especially valuable service. While only one of the site's self-designed subject headings (<a class="external" href=http://hearth.library.cornell.edu/h/hearth/child.html>Care, Human Development, and Family Studies</a>) appears at first glance to be relevant for historians of childhood and youth, in fact, the entire site has valuable resources to offer.</p>
+
+<p>The field of Home Economics grew in concert with the popularity of the "scientific" approach to child-development. This approach influenced the systematization of public education, children's medical and psychological care, and the social studies of juvenile delinquency, among other topics. Indeed, Home Economics became one of the primary disciplinary venues through which child-study developed. Consequently, many subject bibliographies contain material relevant to the health, psychology, moral development, and education of children. Home economics was also a subject taught to young women in high schools and colleges for many decades, so a good share of the material on this site was read by female youths as part of their education.</p>
+
+<p>To find material specific to the history of children and/or youth, start with the <a class="external" href=http://hearth.library.cornell.edu/h/hearth/browse.html>Browse</a> page. This presents a list—fairly short now, but still growing—of available full-text journals. Clicking on the title of a journal leads to a list of all volumes and issue numbers for each year of publication; these, too, appear as hyperlinks, which lead to full-text articles. All issues of the journal <a class="external" href=http://hearth.library.cornell.edu/h/hearth/browse/title/4761305.html><em>Children</em></a>, produced by the U.S. Government Publication Office from 1954 to 1971, for example, are reproduced in their entirety. One can scan the tables of contents for each issue and discover articles with intriguing titles such as <a class="external" href=http://hearth.library.cornell.edu/cgi/t/text/pageviewer-idx?c=hearth;cc=hearth;sid=95bd87dbbb9da682dcf6967b1315d4c1;rgn=full%20text;idno=4761305_133_007;view=image;seq=0005>"What Makes a Good Parent?"</a> and <a class="external" href=http://hearth.library.cornell.edu/cgi/t/text/pageviewer-idx?c=hearth;cc=hearth;sid=95bd87dbbb9da682dcf6967b1315d4c1;rgn=full%20text;idno=4761305_133_007;view=image;seq=0017>"Mental Retardation in the Soviet Union"</a>.</p>
+
+<p>The "Browse" page also indexes HEARTH's full-text holdings (journals and books) alphabetically by author or title. Unfortunately, the books are not categorized beyond this. A reader who does not already know specific titles or authors will find it time-consuming to scan these alphabetized lists—it is like searching for a book in a library by wandering through the stacks and gazing hopefully at the shelves.</p>
+
+<p>The sole example of subject-categorization lies in the PDF subject-bibliographies. Alas, the PDF format is a poor choice. It prevents titles from appearing as hyperlinks, meaning that viewers cannot look at a bibliography and know which entries, if any, are available in full-text on the website.</p>
+
+<p>The full-text books and journals at HEARTH can be used to explore a range of topics when teaching the institutional history of childhood, such as how various institutions like the government, public schools, hospitals, and social services, influenced American ideologies of home, family, and children. Students raised in late 20th century schools may find it remarkable, for example, that turn-of-the-century educators considered a child's moral development to be an imperative duty of schoolteachers. Felix Adler's <a class="external" href=http://hearth.library.cornell.edu/cgi/t/text/text-idx?c=hearth;idno=4246986><em>The Moral Instruction of Children</em></a> (1912), which can be read in full-text on the site, includes chapters on children's moral responsibilities, like "The Duties Toward All Men (Justice and Charity)" and "The Elements of Civic Duty." Adler also offers chapters on how to instill morals in children by using fables, fairy tales, and even Homer's <em>Odyssey</em>. This emphasis on character, duty, and citizenship bears only a scant resemblance to the modern-day emphasis on building students' "self-esteem" in K-12 teaching. A history teacher might use this text to prompt students to think about change over time in America's concepts of children's roles in society, and what children "need" to fulfill those roles.</p>
+ 
+<p>Categories or strategies for searching would make these materials more user friendly for teachers and students, but barring that, the topics listed on the <a class="external" href=http://hearth.library.cornell.edu/h/hearth/subjects.html>Subjects</a> page or in the background essays provide a good starting point.</p></div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Ilana Nash</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">Western Michigan University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">The impressive HEARTH website offers the most comprehensive online collection of primary sources in the field of home economics from 1850 through 1950; a few sources, such as full-text articles from the Journal of Home Economics, are inclusive through 1980.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/54/fullsize"><img src="/files/display/54/square_thumbnail" class="thumb" alt="Home Economics Archive: Research, Tradition and History (HEARTH)" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Mon, 31 Mar 2008 01:11:27 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/54/fullsize" type="image/jpeg" length="52607"/>
+    </item>
+    <item>
+      <title><![CDATA[19th Century Schoolbooks]]></title>
+      <link>https://cyh.rrchnm.org/items/show/28</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">19th Century Schoolbooks</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-03-30</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://digital.library.pitt.edu/nietz/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Digital Research Library, University of Pittsburgh</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">November 2007</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>In 1958, Dr. John Nietz, an emeritus professor of Education at the University of Pittsburgh, donated 9,000 old textbooks from his personal collection to the Pitt library. <a class="external" href=http://digital.library.pitt.edu/nietz/><em>19th Century Schoolbooks</em></a> offers full-text access to 140 of these volumes as well as two surveys of historic schoolbooks created by Nietz. The books are available as page images as well as searchable text. An index of the collection provides bibliographic records for all 16,000 volumes in Nietz's collection.</p>
+
+<p>The collection focuses on standardized textbooks on general subject matters (most often reading, spelling, geography, arithmetic, and history), published or circulated between 1800 and 1899 for use in K-12 schools. The site allows for several types of searches: basic, boolean, proximity, and bibliographic searches, for those seeking a specific search-term, and a helpful browsing feature for those who simply want to see a sampling of what the collection offers. Clicking on a letter of the alphabet will allow you to browse all titles that begin with that letter.</p>  
+
+<p>This site will be most immediately useful to those studying the history of U.S. education, but other historians can find much here that could be of use in their classes. One intriguing aspect of the site is its revelations about the social values of a bygone time. The proliferation of textbooks on elocution and oratory, for example, attests to the earnest emphasis on spoken words in the 19th century: how to pronounce them, how to voice them clearly and "correctly"; how to emote words for dramatic recitations.</p> 
+
+<p>Texts like <a class="external" href=http://digital.library.pitt.edu/cgi-bin/t/text/text-idx?c=nietz;cc=nietz;q1=ladies;rgn=full%20text;view=toc;idno=00acl4424m><em>Dr. Scudder's Tales for Little Readers, About the Heathen</em></a> vividly demonstrate the condescending curiosity in 19th-century Orientalism. Chapter Two, "The Colors and Ornaments of the Hindoos," explains to the child-reader that some heathens are red, some are black, and many of them are beautiful, especially the "children of Brahmins and others, who are delicately brought up."</p> 
+
+<p>Entries such as <a class="external" href=http://digital.library.pitt.edu/cgi-bin/t/text/text-idx?c=nietz;cc=nietz;q1=titania;rgn=full%20text;view=toc;idno=00acj3075m><em>The Ladies' Reader: designed for the use of schools and family reading circles</em></a>, are valuable for exploring gender. This reader contains selections from famous literary works deemed appropriate for female sensibilities.</p> 
+
+<p>Teachers of early American history might find it useful to examine the <a class="external" href=http://digital.library.pitt.edu/cgi-bin/t/text/text-idx?c=nietz;cc=nietz;q1=New%20England%20Primer;rgn=full%20text;view=toc;idno=00acj3379m><em>New England Primer</em></a>, a valuable resource reproduced in its entirety. The <em>New England Primer</em> was a standard reader used for over two centuries, making it one of the foremost influential pedagogical texts in U.S. history. Examining each page of the <em>Primer</em>, visitors can study its juxtapositions of Puritan theology with elemental reading lessons, as in its famous Rhymed Alphabet (Letter J: "Job feels the Rod / Yet blesses God").</p>
+
+<p>The full texts of two treatises written by Nietz on textbooks are also useful resources: <a class="external" href=http://digital.library.pitt.edu/cgi-bin/t/text/text-idx?idno=00AEP6688M&view=toc&c=nietz><em>Old Textbooks</em></a> (1961) and <a class="external" href=http://digital.library.pitt.edu/cgi-bin/t/text/text-idx?c=nietz;cc=nietz;q1=Nietz;rgn=full%20text;view=toc;idno=00aep6689m><em>The Evolution of American Secondary-School Textbooks</em></a> (1966). These texts provide a good historical overview and introduction to the subject matter, as well as providing insight into the approach to analyzing textbooks in the 1960s.</p>
+
+<p>Additional reference materials include <a class="external" href=http://digital.library.pitt.edu/nietz/webbibn.html><em>Using Textbooks as a Research Resource: A Bibliography</em></a>, which offers an annotated list of scholarly works that utilize children's textbooks as primary sources. The bibliography includes works from as early as 1908, providing a rare longitudinal glimpse of the field of education-history. One limitation in this bibliography is that it contains no works more recent than the 1990s.</p>
+
+<p>A
+<a class="external" href=http://digital.library.pitt.edu/nietz/othercollections.html>resource page</a> provides links to related websites, such as the American Antiquarian Society's Pedagogical Juvenile Books collection. The entries are representative (not comprehensive) of special collections and rare-book rooms in U.S., British, and Canadian libraries. Some links are out of date. Overall, this website offers much that is useful in studying the history of American children's education.</p></div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Ilana Nash</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">Western Michigan University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">The collection focuses on standardized textbooks on general subject matters (most often reading, spelling, geography, arithmetic, and history), published or circulated between 1800 and 1899 for use in K-12 schools.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/62/fullsize"><img src="/files/display/62/square_thumbnail" class="thumb" alt="19th Century Schoolbooks" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Sun, 30 Mar 2008 23:26:02 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/62/fullsize" type="image/jpeg" length="67073"/>
+    </item>
+    <item>
+      <title><![CDATA[Popular Children’s Games (for Girls) [Print]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/25</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Popular Children’s Games (for Girls) [Print]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>This image of games for girls is one of a pair of woodblock prints by the artist Utagawa Hiroshige (1797–1858). The companion print (not included) shows games for boys. Woodblock prints, or <em>ukiyo-e</em>, can teach us about the children of townsmen (<em>chônin</em>) during the Tokugawa period (1600–1868). Ukiyo-e is a major artistic genre from this era. The word literally means “pictures of the floating world,” and refers to the Pleasure Quarters, an area zoned for vice. It was associated with a lively urban culture centered on merchants, tea-house girls, and the Kabuki theater.  Woodblock print technology enabled cheap reproductions of “celebrity portraits” of actors and famous courtesans, which doubled as advertising. Eventually, woodblock prints of famous landscapes became popular souvenirs. Peasant and warrior children are rarely depicted because <em>ukiyo-e</em> was mainly produced by and for the townsmen, who tended to be artisans and merchants.</p> 
+
+<p><em>Ukiyo-e</em> showing children may be divided into two kinds: Images <em>about</em> children and images <em>for</em> children. This one probably belongs to the latter category, because children enjoyed collecting pictures of "sets" of things, such as sets of kitchenware or sets of armor. They also enjoyed cutting out and assembling pre-printed paper dolls and guessing riddles based on illustrated hints. They played with a variety of board games and card games, and looked at illustrated folktales, or practiced writing with <em>iroha</em> (illustrated ABC charts). All this printed imagery could be purchased from a <em>dagashiya</em>, a sundries store selling toys and candies, or from a street vendor during a shrine festival, as well as from bookstores.</p> 
+
+<p>Of the games shown in this image, at least two are associated with the Lunar New Years celebration (O-Shôgatsu): <em>Oibane</em> (#1), batting a shuttlecock into the air with fans, and <em>Carta</em> (#2), a card-matching game in which the player tries to match a card inscribed with a well-known maxim to a card illustrated with a picture and the first syllable of the maxim. Girls also made handballs out of silk thread (<em>Temari</em>, #3), folded paper cranes (<em>Origami</em>, #4) or practiced Bon dancing and singing (<em>Bonbon</em>, #5).</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Hiroshige, Utagawa. Japanese girls at play. In <em>Ukiyoe no naka no kodomotachi</em>,  70-71. Tokyo: Kumon Publishing Co., Ltd., 1993.  Kumon Institute of Education, <a class="external" href=http://www.kumon.ne.jp/kodomo/ukiyoe/index.html>http://www.kumon.ne.jp/kodomo/ukiyoe/index.html</a> (accessed March 28, 2008). Annotated by L. Halliday Piel. </div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-03-28</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                                    <div class="element-text">Kumon Institute of Education, Kumon Group Public Relations Department</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                                    <div class="element-text">3-1 Goban-cho, Chiyoda-ku, Tokyo 102-0076, Japan</div>
+                    </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                                    <div class="element-text">Kumon Institute of Education, c.c. Takeshi UCHIYAMA</div>
+                    </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Still Image Item Type Metadata</h2>
+        <div id="still-image-item-type-metadata-physical-dimensions" class="element">
+        <h3>Physical Dimensions</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="still-image-item-type-metadata-image-description" class="element">
+        <h3>Image Description</h3>
+                                    <div class="element-text"><p>One of a pair of woodblock prints from Japan's Tokugawa Period (1600–1868) depicting popular children's games for girls.</p></div>
+                    </div><!-- end element -->
+            <div id="still-image-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/326/fullsize">utagawa_fuuryuuosanaasobi_7f74c829c4.jpg</a></div>]]></description>
+      <pubDate>Sat, 29 Mar 2008 02:09:31 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/326/fullsize" type="image/jpeg" length="2641438"/>
+    </item>
+    <item>
+      <title><![CDATA[Age of Consent Laws [Table]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/24</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Age of Consent Laws [Table]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Information on the ages used historically in western age of consent laws is not readily available. This table has been compiled from a combination of historical and contemporary sources. By 1880, the first date chosen, many western nations had established an age of consent for the first time, typically of 12 or 13 years. By 1920, when the influence of reform campaigns that established a new link between the age of consent and prostitution had run its course, most had revised their age upward, to 14 or 15 in European nations, and 16 in the Anglo-American world. In the last decades of the 20th century, states and nations with ages below those averages amended their laws to move closer to them. In Europe that growing conformity owed much to moves toward greater European integration. Given that the rationale for the age of consent has remained essentially unchanged in its emphasis on the need to protect 'immature' children, the table highlights the shifting and various definitions of childhood employed across time and cultures.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Date compiled from the following sources: Hirschfeld, Magnus. <em>The Homosexuality of Men and Women</em>. Translated by Michael Lombardi-Nash. Amherst, New York: Prometheus Books, 2000; Killias, Martin. "The Emergence of a New Taboo: The Desexualization of Youth in Western Societies Since 1800." <em>European Journal on Criminal Policy and Research</em> 8 (2000): 466; Odem, Mary. <em>Delinquent Daughters: Policing and Protecting Adolescent Female Sexuality in the United States, 1885-1920</em>. Chapel Hill: University of North Carolina Press, 1995; "Worldwide Ages of Consent," AVERTing HIV and Aids, <a href=http://www.avert.org/aofconsent.htm>www.avert.org/aofconsent.htm</a> (accessed November 29, 2007).</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-03-27</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Stephen Robertson</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">230</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Data Item Type Metadata</h2>
+        <div id="data-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3>Age Limit in Age of Consent Laws in Selected Countries</h3>
+
+<table cellpadding="0" cellspacing="0">
+<thead>
+  <tr> 
+    <th>&nbsp;</th>
+    <th>1880</th>
+    <th>1920</th>
+    <th>2007</th>
+  </tr>
+</thead>
+<tbody>
+  <tr> 
+    <td>Austria</td>
+    <td>14</td>
+    <td>14</td>
+    <td>14</td>
+  </tr>
+
+  <tr> 
+    <td>Belgium</td>
+    <td>-</td>
+    <td>16</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Bulgaria</td>
+
+    <td>13</td>
+    <td>13</td>
+    <td>14</td>
+  </tr>
+  <tr> 
+    <td>Denmark</td>
+    <td>12</td>
+
+    <td>12</td>
+    <td>15</td>
+  </tr>
+  <tr> 
+    <td>England &amp; Wales</td>
+    <td>13</td>
+
+    <td>16</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Finland</td>
+    <td>-</td>
+    <td>12</td>
+
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>France</td>
+    <td>13</td>
+    <td>13</td>
+    <td>15</td>
+
+  </tr>
+  <tr>
+    <td>Germany</td>
+    <td>14</td>
+    <td>14</td>
+    <td>14</td>
+  </tr>
+
+  <tr> 
+    <td>Greece</td>
+    <td>-</td>
+    <td>12</td>
+    <td>15</td>
+  </tr>
+  <tr> 
+    <td>Italy</td>
+
+    <td>-</td>
+    <td>16</td>
+    <td>14</td>
+  </tr>
+  <tr> 
+    <td>Luxembourg</td>
+    <td>15</td>
+
+    <td>15</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Norway</td>
+    <td>-</td>
+    <td>16</td>
+
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Portugal</td>
+    <td>12</td>
+    <td>12</td>
+    <td>14</td>
+
+  </tr>
+  <tr> 
+    <td>Romania</td>
+    <td>15</td>
+    <td>15</td>
+    <td>15</td>
+  </tr>
+
+  <tr> 
+    <td>Russia</td>
+    <td>10</td>
+    <td>14</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Scotland</td>
+
+    <td>12</td>
+    <td>12</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Spain</td>
+    <td>12</td>
+
+    <td>12</td>
+    <td>13</td>
+  </tr>
+  <tr> 
+    <td>Sweden</td>
+    <td>15</td>
+    <td>15</td>
+
+    <td>15</td>
+  </tr>
+  <tr> 
+    <td>Switzerland</td>
+    <td>various</td>
+    <td>16</td>
+    <td>16</td>
+
+  </tr>
+  <tr> 
+    <td>Turkey</td>
+    <td>15</td>
+    <td>15</td>
+    <td>18</td>
+  </tr>
+
+  <tr> 
+    <td>Argentina</td>
+    <td>-</td>
+    <td>12</td>
+    <td>13</td>
+  </tr>
+  <tr> 
+    <td>Brazil</td>
+
+    <td>-</td>
+    <td>16</td>
+    <td>14</td>
+  </tr>
+  <tr> 
+    <td>Chile</td>
+    <td>20</td>
+
+    <td>20</td>
+    <td>18</td>
+  </tr>
+  <tr> 
+    <td>Ecuador</td>
+    <td>-</td>
+    <td>14</td>
+
+    <td>14</td>
+  </tr>
+  <tr> 
+    <td>Canada</td>
+    <td>12</td>
+    <td>14</td>
+    <td>14</td>
+
+  </tr>
+  <tr> 
+    <td><em>Australia</em></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td>New South Wales</td>
+
+    <td>12</td>
+    <td>16</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Queensland</td>
+    <td>12</td>
+
+    <td>17</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Victoria</td>
+    <td>12</td>
+    <td>16</td>
+
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Western Australia</td>
+    <td>12</td>
+    <td>14</td>
+    <td>16</td>
+
+  </tr>
+  <tr> 
+    <td><em>United States</em></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td>Alabama</td>
+
+    <td>10</td>
+    <td>16</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Alaska</td>
+    <td>-</td>
+
+    <td>16</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Arizona</td>
+    <td>12</td>
+    <td>18</td>
+
+    <td>18</td>
+  </tr>
+  <tr> 
+    <td>Arkansas</td>
+    <td>10</td>
+    <td>16</td>
+    <td>16</td>
+
+  </tr>
+  <tr> 
+    <td>California</td>
+    <td>10</td>
+    <td>18</td>
+    <td>18</td>
+  </tr>
+
+  <tr> 
+    <td>Colorado</td>
+    <td>10</td>
+    <td>18</td>
+    <td>15</td>
+  </tr>
+  <tr> 
+    <td>Connecticut</td>
+
+    <td>10</td>
+    <td>16</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>District of Columbia</td>
+    <td>12</td>
+
+    <td>16</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Delaware</td>
+    <td>7</td>
+    <td>16</td>
+
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Florida</td>
+    <td>10</td>
+    <td>18</td>
+    <td>18</td>
+
+  </tr>
+  <tr> 
+    <td>Georgia</td>
+    <td>10</td>
+    <td>14</td>
+    <td>16</td>
+  </tr>
+
+  <tr> 
+    <td>Hawaii</td>
+    <td>-</td>
+    <td>-</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Idaho</td>
+
+    <td>10</td>
+    <td>18</td>
+    <td>18</td>
+  </tr>
+  <tr> 
+    <td>Illinois</td>
+    <td>10</td>
+
+    <td>16</td>
+    <td>17</td>
+  </tr>
+  <tr> 
+    <td>Indiana</td>
+    <td>12</td>
+    <td>16</td>
+
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Iowa</td>
+    <td>10</td>
+    <td>16</td>
+    <td>16</td>
+
+  </tr>
+  <tr> 
+    <td>Kansas</td>
+    <td>10</td>
+    <td>18</td>
+    <td>16</td>
+  </tr>
+
+  <tr> 
+    <td>Kentucky</td>
+    <td>12</td>
+    <td>16</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Louisiana</td>
+
+    <td>12</td>
+    <td>18</td>
+    <td>17</td>
+  </tr>
+  <tr> 
+    <td>Maine</td>
+    <td>10</td>
+
+    <td>16</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Maryland</td>
+    <td>10</td>
+    <td>16</td>
+
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Massachusetts</td>
+    <td>10</td>
+    <td>16</td>
+    <td>16</td>
+
+  </tr>
+  <tr> 
+    <td>Michigan</td>
+    <td>10</td>
+    <td>16</td>
+    <td>16</td>
+  </tr>
+
+  <tr> 
+    <td>Minnesota</td>
+    <td>10</td>
+    <td>18</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Mississippi</td>
+
+    <td>10</td>
+    <td>18</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Missouri</td>
+    <td>12</td>
+
+    <td>18</td>
+    <td>17</td>
+  </tr>
+  <tr> 
+    <td>Montana</td>
+    <td>10</td>
+    <td>18</td>
+
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Nebraska</td>
+    <td>10</td>
+    <td>18</td>
+    <td>17</td>
+
+  </tr>
+  <tr> 
+    <td>Nevada</td>
+    <td>12</td>
+    <td>18</td>
+    <td>16</td>
+  </tr>
+
+  <tr> 
+    <td>New Hampshire</td>
+    <td>10</td>
+    <td>16</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>New Jersey </td>
+
+    <td>10</td>
+    <td>16</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>New Mexico</td>
+    <td>10</td>
+
+    <td>16</td>
+    <td>17</td>
+  </tr>
+  <tr> 
+    <td>New York</td>
+    <td>10</td>
+    <td>18</td>
+
+    <td>17</td>
+  </tr>
+  <tr> 
+    <td>North Carolina</td>
+    <td>10</td>
+    <td>16</td>
+    <td>16</td>
+
+  </tr>
+  <tr> 
+    <td>North Dakota</td>
+    <td>10</td>
+    <td>18</td>
+    <td>18</td>
+  </tr>
+
+  <tr> 
+    <td>Ohio</td>
+    <td>10</td>
+    <td>16</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Oklahoma</td>
+
+    <td>-</td>
+    <td>-</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Oregon</td>
+    <td>10</td>
+
+    <td>16</td>
+    <td>18</td>
+  </tr>
+  <tr> 
+    <td>Pennsylvania</td>
+    <td>10</td>
+    <td>16</td>
+
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Rhode Island</td>
+    <td>10</td>
+    <td>16</td>
+    <td>16</td>
+
+  </tr>
+  <tr> 
+    <td>South Carolina</td>
+    <td>10</td>
+    <td>16</td>
+    <td>16</td>
+  </tr>
+
+  <tr> 
+    <td>South Dakota</td>
+    <td>10</td>
+    <td>18</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Tennessee</td>
+
+    <td>10</td>
+    <td>18</td>
+    <td>18</td>
+  </tr>
+  <tr> 
+    <td>Texas</td>
+    <td>10</td>
+
+    <td>18</td>
+    <td>17</td>
+  </tr>
+  <tr> 
+    <td>Utah</td>
+    <td>10</td>
+    <td>18</td>
+
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Vermont</td>
+    <td>10</td>
+    <td>16</td>
+    <td>16</td>
+
+  </tr>
+  <tr> 
+    <td>Virginia</td>
+    <td>12</td>
+    <td>16</td>
+    <td>18</td>
+  </tr>
+
+  <tr> 
+    <td>Washington</td>
+    <td>12</td>
+    <td>18</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>West Virginia</td>
+
+    <td>12</td>
+    <td>16</td>
+    <td>16</td>
+  </tr>
+  <tr> 
+    <td>Wisconsin</td>
+    <td>10</td>
+
+    <td>16</td>
+    <td>18</td>
+  </tr>
+  <tr> 
+    <td>Wyoming</td>
+    <td>10</td>
+    <td>16</td>
+
+    <td>16</td>
+  </tr>
+</tbody>
+</table></div>
+                    </div><!-- end element -->
+            <div id="data-item-type-metadata-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="data-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Thu, 27 Mar 2008 21:49:01 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[New York Public Library Digital Collections]]></title>
+      <link>https://cyh.rrchnm.org/items/show/19</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">New York Public Library Digital Collections</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text">This vast database of material primarily, but not exclusively, documents 19th- and 20th-century life in the U.S. The collections are principally visual sources, and include digitized versions of such material as rare prints and photographs, scanned images from books, sound files, and moving images.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-02-14</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.nypl.org/digital</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">New York Public Library</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">November 2007</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p>The <a class="external" href=http://www.nypl.org/digital/><em>New York Public Library Digital Collections</em></a> is a vast database of material primarily, but not exclusively, documents 19th- and 20th-century life in the U.S. The collections are principally visual sources, and include digitized versions of such material as rare prints and photographs, scanned images from books, sound files, and moving images. </p>
+
+<p>Several collections are especially useful to historians of children and childhood, including the 
+<a class="external" href=http://digital.nypl.org/mmpco>Mid-Manhattan Library Picture Collection Online</a>. This collection contains 30,000 digitized images from books, magazines, and newspapers as well as original photographs, prints, and postcards, mostly created before 1923. A keyword search for 
+<a class="external" href=http://digitalgallery.nypl.org/nypldigital/dgkeysearchresult.cfm?keyword=children&x=0&y=0>children</a> in this collection, for instance, connects users to 85 images, while 
+<a class="external" href=http://digitalgallery.nypl.org/nypldigital/dgkeysearchresult.cfm?keyword=girl&submit.x=20&submit.y=10>girl</a> links to 48 different images. </p>
+
+<p>Also useful to historians is the 
+<a class="external" href=http://digitalgallery.nypl.org/nypldigital/>NYPL Digital Gallery</a>, which provides access to over 550,000 images digitized from primary sources and printed rarities, including illuminated manuscripts, vintage posters, illustrated books, and printed ephemera. The 
+<a class="external" href=http://digitalgallery.nypl.org/nypldigital/dgsubjectbrowseresult.cfm>subject index</a> lists nearly 300 subject headings related to children that demonstrate enormous spatial, temporal, and subject breadth. Entries vary from 
+<a class="external" href=http://digitalgallery.nypl.org/nypldigital/dgkeysearchresult.cfm?word=Children%20%2D%2D%20Africa&s=3&notword=&f=2>Children — Africa</a> and 
+<a class="external" href=http://digitalgallery.nypl.org/nypldigital/dgkeysearchresult.cfm?word=Children%20%2D%2D%20Soviet%20Union&s=3&notword=&f=2>Children — Soviet Union</a> to 
+<a class="external" href=http://digitalgallery.nypl.org/nypldigital/dgkeysearchresult.cfm?word=Child%20labor&s=3&notword=&f=2>Child labor</a> and <a class="external" href=http://digitalgallery.nypl.org/nypldigital/dgkeysearchresult.cfm?word=Children%20%2D%2D%20Clothing%20%26%20dress%20%2D%2D%20England%20%2D%2D%201860%2D1869&s=3&notword=&f=2>Children — Clothing & dress — England — 1860-1869</a>.</p>
+
+<p>One interesting collection includes two groups of 50 cigarette cards. In the late 19th and early 20th centuries, tobacco manufacturers issued these trade cards to stiffen cigarette packaging and advertise brands. This collection includes several subsets depicting children, such as 
+<a class="external" href=http://digitalgallery.nypl.org/nypldigital/dgkeysearchresult.cfm?parent_id=466461&word>Children with rosy cheeks</a> and 
+<a class="external" href=http://digitalgallery.nypl.org/nypldigital/dgkeysearchresult.cfm?parent_id=466458&word>Children of all nations</a>. In the latter, we see national stereotypes crystallized. 
+<a class="external" href=http://digitalgallery.nypl.org/nypldigital/dgkeysearchdetail.cfm?trg=1&strucID=466717&imageID=1184574&parent_id=466460&word=&snum=&s=&notword=&d=&c=&f=&sScope=&sLevel=&sLabel=&total=50&num=12&imgs=12&pNum=&pos=15>England</a> is a blonde youth in a school-boy uniform, while 
+<a class="external" href=http://digitalgallery.nypl.org/nypldigital/dgkeysearchdetail.cfm?trg=1&strucID=466728&imageID=1184434&parent_id=466460&word=&snum=&s=&notword=&d=&c=&f=&sScope=&sLevel=&sLabel=&total=50&num=24&imgs=12&pNum=&pos=26>Mexico</a> is a peasant. Canada is not present at all!</p>
+
+<p>The cigarette card images illustrate one of the fascinating ways in which instructors and students could use material from the New York Public Library Digital site. In his 1962 publication, <em>Centuries of Childhood</em>, Philippe Ariès presented the provocative claim that childhood was an invention of the post-medieval world. Historians studying children and childhood <em>continue</em> to debate this idea and larger notions of how parents and broader social institutions treated children and conceived of childhood across time. Our own era recoils at the association of children and childhood with the tobacco industry, yet tobacco manufactures in the past century promoted an association of their product with children and childhood with no hesitation.</p>
+
+<p>In other cases, we see advertisers depicting children as small adults, rather than emphasizing a particularly distinctive era of childhood. See, for example, this 
+<a class="external" href=http://digitalgallery.nypl.org/nypldigital/dgkeysearchdetail.cfm?trg=1&strucID=305034&imageID=498916&word=children%20advertising&s=1&notword=&d=&c=&f=&lWord=&lField=&sScope=&sLevel=&sLabel=&total=333&num=240&imgs=12&pNum=&pos=249#>Easter trade card</a> from L. Prang & Co.</p>
+
+<p>Instructors and students could study the use of children in advertising across time and by various industries. In addition to the cigarette cards, a subject search within the Digital Gallery of 
+<a class="external" href=http://digitalgallery.nypl.org/nypldigital/dgkeysearchresult.cfm?keyword=children+advertising&submit.x=0&submit.y=0>children and advertising</a> yields a further 333 illustrations. These and other images available in the Digital Gallery can be used to examine the changing associations that Western (and world) societies have created with childhood in different periods, and to what different purposes they have used these associations.<a href="#note1" id="fn1" class="footnote">1</a></p>
+
+<p>Instructors might wish to consider the limitations of the sources pertaining to childhood available at this website. Common to most sources treating this topic, is the fact that children are perhaps the most voiceless of all possible historical subjects. (The sources children generated to depict their realities are all but non-existent.) We are always dealing with outsiders' views, looking in at (or more often, literally down upon) them. In all of these sources, what we almost always witness is a viewer's construction of children and childhood. In the images contained in this site, however, the degree to which this construction occurs ranges from the blatant, as in this <a class="external" href=http://digitalgallery.nypl.org/nypldigital/dgkeysearchdetail.cfm?trg=1&strucID=716094&imageID=809662&word=Children%27s%20Aid%20Society%20%28New%20York%2C%20N%2EY%2E%29%20%2D%2D%201870%2D1879&s=3&notword=&d=&c=&f=2&lWord=&lField=&sScope=&sLevel=&sLabel=&total=1&num=0&imgs=12&pNum=&pos=1#>1874 Children’s Aid Society advertisement</a> to the more subtle <a class="external" href=http://digitalgallery.nypl.org/nypldigital/dgkeysearchdetail.cfm?trg=1&strucID=613544&imageID=1260969&word=Children%2C%20Black&s=3&notword=&d=&c=&f=2&lWord=&lField=&sScope=&sLevel=&sLabel=&total=3&num=0&imgs=12&pNum=&pos=2#>Some typical Cuban faces - Santiago, Cuba 1899</a>.</p>
+
+<p>This latter photograph illustrates another shortcoming of many of these sources: the absence of expansive information about the context in which they were created or which they depict. Often, we know no more than the date on which an image was generated. Therefore, history teachers would likely wish to preview the sources they select for students to use and to present relevant background information about production and purpose of the source whenever possible.</p>
+
+<div id="notes">
+
+<p><a href="#fn1" id="note1" class="footnote">1</a>Cunningham, Hugh. <em>Children and Childhood in Western Society Since 1500</em>.</p>
+
+</div></div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Nora E. Jaffary</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">Concordia University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">The New York Public Library Digital Collections is a vast database of material primarily, but not exclusively, documents 19th- and 20th-century life in the U.S.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/53/fullsize"><img src="/files/display/53/square_thumbnail" class="thumb" alt="New York Public Library Digital Collections" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Thu, 14 Feb 2008 17:52:45 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/53/fullsize" type="image/jpeg" length="98231"/>
+    </item>
+  </channel>
+</rss>

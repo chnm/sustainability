@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=Playden+Onely&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:25:55 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Request: Playden Onely to the Royal African Company, 1721 [Official Document]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/147</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Request: Playden Onely to the Royal African Company, 1721 [Official Document]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>This excerpt is of a request made by Playden Onely to the members of the Royal African Company in 1721 for 130 children to be taken from West Africa to the West Indies for sale as slaves.  The RAC commissioned the slave ship Kent for the task, and the operation was a success. As a result, Onely contracted the RAC to deliver 500 children annually to specifically designated ports. What is particularly important about this request is the year that it was made. Abolitionist threats did not affect the slave trade until the 1780s. This request came some 60 years earlier, when planters preferred to purchase adult African males between the ages of 18 and 35. This request not only suggests that children were in minor demand much earlier than previously imagined, but the success of such a venture further supports changes in planter demand.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Playden Onely</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Donnan, Elizabeth. <em>Documents Illustrative of the Slave Trade to America</em>. Volume 2. New York: Octagon Books, 1965, xviii, 257-58. Annotated by Colleen A. Vasconcellos.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-12</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Colleen A. Vasconcellos</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">141</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3>THE ROYAL AFRICAN COMPANY: MINUTES AND FURTHER REPORT OF THE COMMITTEE OF TRADE.</h3>
+
+<p>This leads the Comm'ee to lay before the Court Some proposals which have been made to them by Mr. Playten Onely for a Contract to be made with some Lisbon Merchants for Slaves vizt:</p> 
+            <p>For 500 Annualy, Small Slaves Male and Female from 6 to 10 Years old, to be delivered<br /> 
+<ul>
+<li>at St. Iago at £10 per head</li>
+<li>in the River Gambia at £9</li>
+<li>at Lisbon at £15</li>
+</ul>
+<br />
+<p>to be paid for at Lisbon one Month after delivery, at the rate of 5 sh : 6 d. per mill rec [rei], which will be 540 : 545 Bus <a href="#note1" id="fn1" class="footnote">1</a> per head delivered at Lisbon.  In Case the Slaves are delivered in the River Gambia, or at St. Iago, the Payments are to be made in England by the Agents or Corespond'ts of the Contractors in two Months after the Certificates of such delivery shall be by the Company presented to the said Contractors Agents in London.</p> 
+            <p>For .1000 Adult Slaves annually from 12 to 40 Years of Age half Men and half Women, to be delivered at St. Iago according to the time which may be Stipulated at £18 per head to be paid for as above.</p> 
+            <p>If the Company think it their Interest to be concerned in Slaves to be delivered at St. Iago, in order to be transported to the Brazills for their own Account, the Contractors are willing to cover such Slaves under Portuguese Names, as they do their own, allowing about a Moider per head for letting the Said Slaves go to the Brazils in their Names, and allowing Freight to the Ships that carry them of about £5 : 10 to £6 per head, with a Commiss'n to those that sell them at the Brazils of abt 5 per Cent, and the Gold for which they are sold, to be consigned to the Contractors at Lisbon.</p> 
+            <p>It is proposed Mr. Onely may have liberty to treat with Some English Gentlemen at Lisbon of Credit and reputation for any Number of Negros to be delivered annually in such manner as may be agreed on at the Island of St. Thomas at Lao per head half Men, half Women, from 12 Years of Age to 40, to be paid for in Lond'n 2 Months after the Certificates are presented to their Agents here:  as also Boys and Girls from 7 to 10 Years of Age at £14 per head.</p> 
+            <p>Mr. Onely proposes in regard to himself, that in case he meets with Success, a Gratuity be made him in proportion to the Service he may do the Company. That an Allowance of about £200 per Anno be granted for his Expences, to Commence from the time of his Setting out, and Submitts to the Consideration of the Court his having already lost an opportunity of going in the Company's Service on this very account.</p> 
+<div id="notes">
+<p><a href="#fn1" id="note1" class="footnote">1</a>"Bus" may be a misreading for bits, or Spanish reals, which passed for 7 ½ d.</p>
+</div></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Sun, 12 Oct 2008 20:41:24 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse/4?tag=Personal+Accounts&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:23:05 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Childhood and Transatlantic Slavery]]></title>
+      <link>https://cyh.rrchnm.org/items/show/57</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Childhood and Transatlantic Slavery</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text">Analysis of excerpts from <em>The Interesting Narrative of the Life of Olaudah Equiano or Gustavus Vassa the African</em> helps students to reconstruct children's experience under slavery, to place slavery in a world history perspective, and to explore the problems facing historians in assessing evidence and addressing the problematic nature of sources.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Steven Mintz</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-05-01</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">58, 141, 142, 143, 144, 145</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Case Study Item Type Metadata</h2>
+        <div id="case-study-item-type-metadata-case-study-image" class="element">
+        <h3>Case Study Image</h3>
+                                    <div class="element-text"><p>Carretta likens the volume to another 18th-century autobiography, Benjamin Franklin's, which also uses a life story to advance larger themes and arguments. In short, reading this book challenges a reader to weigh historical evidence and to address the problematic nature of any autobiography, including the extent to which we can rely on a writer's memories and self-representation.</p></div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-text" class="element">
+        <h3>Case Study Text</h3>
+                                    <div class="element-text"><p>Until recently, the subject of childhood under slavery was almost entirely unstudied. This was true despite the fact that childhood is central to an understanding of slavery. In classical antiquity, abandoned children were a major source of slaves. Although most sub-Saharan Africans forced into slavery were in their teens and 20s, a substantial and growing proportion were children. In the American South in the decades before the Civil War, half of all slaves were under the age of 16.</p>
+
+<p>A focus on children not only underscores slavery's oppressions, it also reveals the ways that enslaved children and their parents dealt with slavery's hardships and horrors. It demonstrates that even children were active agents who were able to carve out a space where they could find a degree of autonomy.</p>
+
+<p>The study of slave children has brought many important facts to light. Infant and child mortality rates were twice as high among slave children as among southern white children. A major contributor to the high infant and child death rate was chronic undernourishment. Slaveowners showed surprisingly little concern for slave mothers' health or diet during pregnancy, providing pregnant women with no extra rations and employing them in intensive field work even in the last week before they gave birth. Not surprisingly, slave mothers suffered high rates of spontaneous abortions, stillbirths, and deaths shortly after birth. Half of all slave infants weighed less than 5.5 pounds at birth, or what we would today consider to be severely underweight.</p>
+
+<p>Growth rates among slave children were extremely slow. Most infants were weaned early, within three or four months of birth, and then fed gruel or porridge made of cornmeal. Around the age of three, they began to eat vegetables soups, potatoes, molasses, grits, hominy, and cornbread. This diet lacked protein, thiamine, niacin, calcium, magnesium, and vitamin D, and as a result, slave children often suffered from night blindness, abdominal swellings, swollen muscles, bowed legs, skin lesions, and convulsions. These apparently stemmed from beriberi, pellagra, tetany, rickets, and kwashiorkor, diseases that are caused by protein and nutritional deficiencies.</p> 
+
+<p>Deprived of an adequate diet, slave children were very small by modern standards. Their average height at age three was shorter than 99 percent of 20th-century American three year olds. At age 17, slave men were shorter than 96 percent of present day 17-year-old men and slave women were shorter than 80 percent of contemporary women.</p>
+
+<p>About half of all U.S. slave children grew up apart from their father, either because he lived on another plantation, had been sold away, or was white. On large plantations, infants and very young children were supervised and cared for by adults other than their parents. Children as young as two or three might work at domestic chores, including childcare or collecting trash and kindling, toting water, scaring away birds, weeding, or plucking grubs off of plants. Generally, in the U.S. South, children entered field work between the ages of eight and 12.</p>
+
+<p>Slave children received harsh punishments, not dissimilar from those meted out to adults. They might be whipped or even required to swallow worms they failed to pick off of cotton or tobacco plants. During adolescence, a majority of slave youth were sold or hired away.</p>
+
+<p>The study of childhood under slavery has given rise to a series of controversies. One is the extent to which slave children succeeded in "stealing" a childhood. Despite slavery's hardships and brutalities, many slave children were able to experience something that we would consider a childhood. Children played with home-made toys, including improvised marbles and hobby horses. Even where education was forbidden or strongly discouraged, a surprising proportion—perhaps between five and ten percent—learned how to read and write. Through their activities, games, religion, and relations with kin and other members of the slave community, children were able to make life bearable.</p>
+
+<p>Like children of the Holocaust, they played games that helped them cope with slavery's oppressions, including mock auctions or games that included whipping. Their songs, too, helped them deal with slavery's horrors. One song included the following lyrics that addressed the subject of family separation directly: "Mammy, is Ole' Massa gwin'er sell us tomorrow? / Yes, my chile. / Whar he gwin'er sell us? / Way down South in Georgia."</p>
+
+<p>Another area of controversy involves the extent to which slave parents were able to shield their children from slavery's brutalities. We have discovered that there was a "tug-of-war" between slave children's parents and plantation masters and mistresses, who were eager to make slave children, especially young children, feel loyalty, and even gratitude, to their owners. To win over children's affection, owners sometime gave them gifts and favors. At times, owners asked children to report rules violations within the slave quarters.</p>
+
+<p>Slave parents, in turn, sought to instill in their children a sense of loyalty to the slave community as a whole. They taught children to refer to other girls and boys as sister and brother, and to unrelated adults as aunt or uncle. Through folk tales, such as the famous "Br'er Rabbit" stories, parents taught their children how to outwit more powerful adversaries.</p>
+
+<p>Less studied questions are how the lives of slave children differed in urban and rural areas or on larger and smaller plantations, and how childhood experience differed at various points in time.</p> 
+
+<h3>Why I Taught the Source</h3>
+
+<p>In reconstructing children's experience under slavery, historians tap a wide range of sources. These include the published testimony of fugitive or emancipated slaves, contemporary letters, journals, plantation records, and oral histories, such as those collected by the U.S. Works Projects Administration during the Great Depression of the 1930s. Recently, scholars have supplemented traditional sources with unconventional forms of evidence, including photographs, slave songs, and artifacts, such as toys.</p> 
+
+<p>Published narratives by fugitive or former slaves provide especially useful insights into the world history of slave children. Especially notable are those by Frederick Douglass and Harriet Jacobs, who were enslaved in the U.S. during the early 19th century and whose writings underscore important aspects about childhood under slavery: (1) the extent of interracial interaction, including interracial play, on plantations in the U.S. South; (2) the moment when the full reality of life-long bondage dawned on slave children and the moment when they learned that adults in their lives, including parents, could not protect them from punishment; and (3) the harsh reality of sexual abuse faced by slave girls in their teenage years.</p>
+
+<p>Especially useful in helping to place slavery in a world history perspective is one of the first slave narratives, <em>The Interesting Narrative of the Life of Olaudah Equiano or Gustavus Vassa the African</em>, originally published in 1772. A former slave who purchased his freedom from a Quaker merchant in 1766, he traveled across the Atlantic and the Mediterranean on British merchant ships, served in the British navy, and became a leading figure in the 18th-century British antislavery movement. His autobiography, which went through nine editions between 1789 and 1797 and was translated into Dutch, German, and Russian, awakened thousands of readers to the horrors of the Atlantic slave trade.</p>
+
+<p>His narrative challenges the view that Africa at the time of the slave trade was a benighted or backward region. His region, "a charming fruitful vale, named Essaka," was "uncommonly rich," and his fellow countrymen were "almost a nation of dancers, musicians, and poets." He offers a graphic account of his kidnapping into slavery at the age of 11, and describes being held captive along the West African coast for seven months before was subsequently sold to British slavers, who shipped him to Barbados and then took him to Virginia.</p>
+
+<p>His narrative also offers a harrowing account of the shock and isolation he felt during the Middle Passage across the Atlantic. His description of the inhuman conditions aboard the slave ship has a power that has not been matched. "The air soon became unfit for respiration, from a variety of loathsome smells, and brought on a sickness among the slaves, of which many died," he wrote. "The closeness of the place and the heat of the climate," he wrote, "added to the number in the ship, which was so crowded that each had scarcely room to turn himself, almost suffocated us. . . .  The wretched situation was again aggravated by the galling of the chains, now become insupportable. . . . The shrieks of the women, and the groans of the dying, rendered the whole a scene of horror almost inconceivable."</p>
+
+<h3>How I Introduce the Source</h3>
+
+<p>Our knowledge about the past is derived from surviving sources of varying reliability. Primary sources provide the raw data out of which history is reconstructed. These may include printed or published texts, unpublished manuscripts and papers, maps and other visual materials, music and other audio materials, and artifacts. Primary sources must be used cautiously and critically because they do not offer an unmediated view of the past. At best, they offer a partial view. How, then, should students read the sources? By asking a series of questions dealing with: (1) <strong>authorship</strong> (who was the author of the primary source? when and why did the author write this text?); (2) <strong>content</strong> (what information does the primary source convey? is the author propounding a thesis or argument? what rhetorical techniques does the author use?); (3) <strong>purpose</strong> (what was the author's purpose in writing this text? what was the intended audience?); and (4) <strong>reliability</strong> (is the author's account credible? how would you describe the author's tone?)</p>
+
+<h3>Reading the Source</h3>
+
+<p>I have students read several excerpts from Equiano's autobiography. Either as a class or in small groups, we discuss each one, focusing on the questions about authorship, content, purpose, and reliability noted above.</p>
+ 
+<p>This autobiography can be read on multiple levels. It offers a graphic first-hand look at slavery's cruelties, including the process of enslavement and the horrors of the Middle Passage. It provides vivid insights into the social history of the 18th century and a gripping first-person account of the workings of triangular trade connecting Africa, the Americas, and Europe. The book is also a religious conversion narrative, which helps us understand how an individual coped with slavery's oppressions, as well as a travel narrative, which offers a vivid glimpse of the 18th-century Atlantic world.</p>
+
+<p>At this point, I complicate the discussion by introducing students to a lively scholarly controversy: a recent debate over whether Equiano was actually born in Africa. Two surviving documents—Equiano's baptismal records and the Royal Navy's muster rolls—indicate that he was born in "Carolina," leading Equiano's biographer, Vincent Carretta, to conclude that his "account of Africa may be based on oral history and reading, rather than personal experience." Carretta likens the volume to another 18th-century autobiography, Benjamin Franklin's, which also uses a life story to advance larger themes and arguments. In short, reading this book challenges a reader to weigh historical evidence and to address the problematic nature of any autobiography, including the extent to which we can rely on a writer's memories and self-representation.</p> 
+
+<p>Critics argue that the surviving documents may be mistaken, noting, for example, that the muster list gives the wrong last name for Equiano, suggesting its reference to his birthplace might also be incorrect. I then have the students discuss whether the debate over Equiano's birthplace lessens the value of his account. Here, it is important to note that even if his account is a composite of stories and information gathered from others, this does not make it a work of fiction.</p></div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Steven Mintz</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">Columbia University</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-primary-source-id" class="element">
+        <h3>Primary Source ID</h3>
+                                    <div class="element-text">142, 143, 144, 145</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/43/fullsize"><img src="/files/display/43/square_thumbnail" class="thumb" alt="Childhood and Transatlantic Slavery" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Thu, 01 May 2008 21:31:15 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/43/fullsize" type="image/jpeg" length="4784"/>
+    </item>
+    <item>
+      <title><![CDATA[Through Masai Land [Book Excerpt]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/56</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text"><em>Through Masai Land</em> [Book Excerpt]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Joseph Thomson traveled through Kenya Maasailand from 1883 to 1884 on a journey of exploration from the coast to Mt Kenya and Lake Victoria, under the auspices of the Royal Geographical Society. He was the second European to visit the area. Thomson travelled with a trading caravan, for traders knew the routes across Maasailand well. They often spoke the language and had contacts with local Maasai elders and through the traders, Thomson was able to communicate with the Maasai he met.</p>
+
+<p>On his return, Thomson wrote an account of his travels based on his diaries and notes. It was aimed at a popular audience, hence its rather racy and "unscientific" style of the fictional biography of "Moran" [i.e., <em>murran</em> or "warrior"] reproduced here. His account is, however, accurate enough and accords with what we know from other sources. Thomson probably got his information about <em>murran</em> partly from observation and partly from talking to elders who had once been <em>murran</em> themselves.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Joseph Thompson</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Thompson, Joseph. <em>Through Masai Land</em>. London: Sampson Low, Marston, Searle, & Rivington, 1887.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                                    <div class="element-text">Sampson Low, Marston, Searle, &amp; Rivington</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-05-01</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Richard Waller</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">53</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                                    <div class="element-text">book</div>
+                    </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>As a boy Moran - for such we may call him for convenience' sake - was pleasing in the extreme. At a very early age Moran broke away from his mother's apron-strings, and with miniature bow and arrow aped the bigger boys in their play. As he had no linen to soil, he only roused his mother's laughter if he turned up encrusted with filth. He was not even put through the horrors of the tub. Sometimes, however, his mother, in a fit of affection, and imbued with the belief that some day he would make a name for himself as a smasher of skulls and a lifter of cattle [cattle raider], would make up an unctuous and odoriferous composition of grease and clay, and anoint him therewith till he shone forth with a splendour dear to the Masai heart. On these occasions he would strut forth with all the pride proper to a small boy who has just had a suit of new clothes.</p>
+
+<p>And so life went on, and he was promoted to the rank of a boy proper. He was provided with a real bow and arrow. A square piece of sheep-skin was tied over the left shoulder, leaving the legs quite bare. He now began to cultivate, not a moustache, but his ear-lobes; that is to say, he took means to stretch them out till they would almost touch his shoulder, and he could nearly put his fist through the distended portion. This is done by first putting a slender stick through the lobe, and gradually replacing it by a bigger, till
+a piece of ivory six inches long can be inserted lengthwise.</p>
+
+<p>Our hero now looked longingly forward to the day when he should be a warrior; but meanwhile he must employ himself herding the goats and sheep. This was his first occupation. He had by this time acquired some notion of the geography of the country around, as his parents had not been stationary, having been compelled to move about from place to place according to the pasturage. The donkeys on these occasions conveyed their household goods, though his mother had to carry nearly as much, and build the hut after. He had also to accompany his parents in moving up from the plains to the highlands in the dry season and <em>vice versa</em> in the wet season. . . .</p>
+
+<p>Meanwhile Moran practiced with the spear, and killed innumerable imaginary enemies. He listened intently with beating heart to the stories of daring cattle-raids and sanguinary fights, but as yet he could only dye his spear in the blood of an antelope, or, it might be, of a buffalo. His food still continued to be that of a non-fighter, namely, curdled milk, maize, or millet, and meat. But vegetable paste was the meat of women and children, and. he loathed it, though he ate it.</p>
+
+<p>As he approached the age of fourteen he began to develop a truculent and ferocious expression, instead of making himself sick in the attempt to smoke a cigar, or examining his upper lip in the glass, as a lad of proper spirit in England would have done at the same age. It is quite laughable to think of Moran trying to look dangerous, pursing his brow, and generally cultivating the fiendish. And really, I am told he was the admiration and the envy of all the [boys] of the district, and quite won the hearts of the girls.</p>
+
+<p>At last it was agreed that Moran had become a man, and was fit to be a warrior. A certain rite [circumcision] was performed; and Moran was no longer a boy, he was an El-moran - a warrior. His father, who was wealthy, resolved to rig him out in the height of military fashion. . . . They chose a handsome shield of buffalo hide, beautifully made, elliptical in shape, and warranted to stand a tremendous blow from a spear. . . . After a careful examination, Moran selected a spear, with a blade two feet and a half long, a wooden handle fifteen inches, and a spike at the end about one foot and a half. The blade had an almost uniform width of from two to three inches, up to near the top, where it abruptly formed a point. A sword and a [club] of formidable appearance completed his warlike equipment.</p>
+
+<p>These important acquisitions made, our hero now proceeded to dress himself up as became his new character. He first worked his hair into a mop of strings, those falling over the forehead being cut shorter than the rest. Instead of the ivory ear-stretcher hitherto used, he put in a swell ear ornament formed of a tassel of iron chain. Round his neck he put a bracelet of coiled wire, and round his wrists a neatly formed bead mitten. On his ankles he bound a strip of the black hair of the <em>colobus</em> (monkey) of Central Africa. A glorious layer of grease and clay was plastered on his head and shoulders. This completed, he donned a very neat and handsomely decorated kid-skin garment, of very scanty dimensions, which served to cover his breast and shoulders, but hardly reached below the waist, and thus stood forth the complete military masher [dandy], ready for love or war.</p>
+
+<p>And now the great step of his life was taken. Thus far he had lived in the [camp] of the married people, and accordingly had to comport himself as "only a boy." Now he proceeded to a distant [camp] in which were none but young, unmarried men and women. To keep up his dignity and supply him with food his father provided him with a number of bullocks. Reaching the [camp], our friend found himself among a large number of splendidly built young savages – indeed the most magnificently modelled men conceivable. And here let me for a moment pause in my story to indulge in a passing word of description.</p>
+
+<p>There is, as a rule, not one of the El-moran under six feet. . . . Their appearance, however, is not suggestive of great strength, and they show little of the knotted and brawny muscle characteristic of the. . . typical athlete. The Apollo type is the more characteristic form, presenting a smoothness of outline which might be called almost effeminate. In most cases the nose is well raised and straight, frequently as good as any European's. The lips also vary from the thin and well formed down to the thick and everted. The eyes are bright, with the [whites] whiter than is common in Africa. The slits are generally narrow, with an upward slant.  The jaws are rarely prognathous, while the hair is a cross between the European and the negro, rarely in piles, but evenly spread over the head. Hair is scarcely in any case seen on the face or any part of the body. The cheek-bones are in all remarkably prominent, and the head narrow both above and below. Tattooing is not practised; but every Masai is branded with five or six marks on the thigh.</p>
+
+<p>Such are the main characteristics of the El-moran; but before we resume our narrative let us note a few facts about the young [girls] who are soon to be flirting with our hero. Happily facts support the verdict of gallantry when I say that they are really the best-looking girls I have ever met with in Africa. They are distinctly ladylike in both manner and physique. Their figures are slender and well formed. They share, like the men, the dark gums, and the bad sets of teeth. The hair is shaved off totally, leaving a shiny scalp.  As to dress, they are very decent, and almost classical, if a stinking greasy hide can have anything to do with things classical. They wear a dressed bullock's hide from which the hair has been scraped. This is tied over the left shoulder, passing under the right arm. A beaded belt confines it round the waist, leaving only one limb partly exposed. . . . Their ornaments are of a very remarkable nature. Round the legs from the ankles to the knees telegraph wire is coiled closely in spiral fashion. So awkward is this ornament that the wearer cannot walk properly, she cannot sit down or rise up like any other human being, and she cannot run. Round the arms she has wire similarly coiled both above and below the elbow. Round the neck more iron wire is coiled - in this case, however, horizontally - till the head seems to sit on an inverted iron salver. When the leg-ornaments are once on they must remain till finally taken off, as it requires many days of painful work to fit them into their places. They chafe the ankles excessively, and evidently give much pain. As they are put on when very young, the calf is not allowed to develop, and the consequence is, that when grown up the legs remain at a uniform thickness from ankle to knee - mere animated stilts, in fact. The weight of this armour varies according to the wealth of the parties, up to thirty pounds. Besides the iron wire, great quantities of beads and iron chains are disposed in various ways round the neck.</p>
+
+<p>Such, then, were the people that now greeted Moran, who, being a novice, had to suffer a good deal of chaff from both sexes. He was, however, soon initiated into the mysteries of a warrior [camp], and had seen a bit of life. The strictest diet imaginable was the rule. He had to be content with absolutely nothing but meat and milk. Tobacco or snuff, beer or spirits, vegetable food of all kinds, even the flesh of all animals except cattle, sheep, and goats, were alike eschewed. To eat any of those articles was to be degraded - to lose caste; to be offered them was to be insulted in the deepest manner. As if these rules were not strict enough, he must not be seen eating meat in the [camp], neither must he take it along with milk. So many days were devoted entirely to the drinking of new milk, and then, when carnivorous longings came over him, he had to retire with a bullock to a lonely place in the forest, accompanied by some of his comrades, and a [girl] to act as cook. Having scrupulously made certain that there was no trace of milk left on their stomachs by partaking of an extremely powerful purgative, they killed the bullock either with a blow from a [club] or by stabbing it in the back of the neck. They then opened a vein and drank the blood fresh from the animal. This proceeding of our voracious young friends was a wise though repulsive one, as the blood thus drunk provided the salts so necessary in the human economy; for the Masai do not partake of any salt in its common form. This sanguinary draught concluded, they proceeded to gorge themselves on the flesh, eating from morning till night - and keeping their cook steadily at work. The half-dozen men were quite able to dispose of the entire animal in a few days, and then they returned to the [camp] to resume the milk diet. . . .</p>
+
+<p>Till a war-raid was planned, Moran, our interesting protege, found he had nothing to do but make acquaintances and amuse himself with the girls. His cattle were looked after by some poor menials, and though the [camp] was stationed near a dangerous neighbour, yet no fighting took place. It was, however, a rule in the warrior [camps] that no fence for protection was allowed, hence the utmost vigilance had to be exercised. Moran thus in the course of his duty had frequently to act as watch. At other times he practised various military evolutions, and he kept up his muscle by [a] peculiar mode of dancing. . . . They led what might be called a serious life. They had no rollicking fun, no moonlight dancing, no lively songs, no thundering drums. No musical instrument whatsoever enlivened the Masai life, and their songs were entirely confined to such occasions as the return home from a successful raid, or the invocation of the deity. As soon as darkness fell upon the land the guard was appointed, the cattle milked, and everything hushed up in silence.</p>
+
+<p>Shortly after joining the [camp], Moran was called upon to record his vote in the election of a <em>Lytunu</em> [Olotuno] and a <em>Lygonani</em> [Olaigonani].  The <em>Lytunu</em> is a warrior elected by a number of [camps] as their captain or leader, with absolute power of life and death. He is their judge in cases of dispute. He directs their battles, though, curiously enough, he does not lead his men, but, like the general of a civilized army, he stands aside and watches the progress of the fight under the direct command of the <em>Lygonani</em>. If, however, he sees symptoms of his men wavering, he forthwith precipitates himself with his bodyguard into the battle. Of course he holds his office purely on sufferance, and if he fails to give satisfaction he is summarily deposed. This, indeed, is almost the only attempt at a form of government.  Each war-district elects its own <em>Lytunu</em>. The <em>Lygonani</em>, again, is a very different personage. He is the public leader of a [camp]; leads and guides the debate in cases of dispute. To be such arrogant and pugnacious savages, the Masai are the most remarkable speakers and debaters imaginable. . . . They will spend days discussing the most trivial matter - nothing, indeed, can be settled without endless talk. But we must proceed with our history.</p>
+
+<p>The <em>Lytunu</em> and <em>Lygonani</em> having been elected, a raid to the coast was determined on. For a month they devoted themselves to an indispensable, though somewhat revolting, preparation. This consisted in their retiring in small parties to the forest, and there gorging themselves with beef. This they did under the belief that they were storing up a supply of muscle and ferocity of the most pronounced type. This strange process being finished, and the day fixed on, the women of the [camp] went outside before sunrise, with grass dipped in the cream of a cow's milk. Then they danced and invoked Ngai [God] for a favourable issue to the enterprise, after which they threw the grass in the direction of the enemy. . . . Previous to this, however, a party had been sent to the chief <em>lybon</em> [laibon – prophet] of the Masai – Mbaratien [Mbatiany] - to seek advice as to the time of their start, and to procure medicines to make them successful. On their return the party mustered, and set off. It was a remarkable sight to behold these bloated young cut-throats on the march, and it is almost an impossibility to convey any clear picture of their appearance in words. . . .</p> 
+
+<p>Let us pause and in imagination watch some enthusiastic young [girl] buckling on the armour of her knight. First there is tied round his neck, whence it falls in flowing lengths, . . . a piece of cotton, six feet long, two feet broad, with a longitudinal stripe of coloured cloth sewed down the middle of it. Over his shoulders is placed a huge cape of kite's feathers - a regular heap of them. The kid-skin garment which hangs at his shoulder is now folded up, and tied tightly round his waist like a belt, so as to leave his arms free. His hair is tied into two pigtails, one before and one behind. On his head is placed a remarkable object formed of ostrich feathers stuck in a band of leather, the whole forming an elliptically-shaped head-gear. This is placed diagonally in a line beginning under the lower lip and running in front of the ear to the crown. His legs are ornamented with flowing hair of the <em>colobus</em>, resembling wings. His bodily adornment is finished off by the customary plastering of oil [fat]. His. . . sword is now attached – it does not hang - to his side; and through the belt is pushed the skull-smasher or [club], which may be thrown at an approaching enemy, or may give the quietus to a disabled one. His huge shield in his left hand and his great spear in his right complete his extraordinary equipment. For the rest you must imagine an Apollo-like form and the face of a fiend, and you have before you the beau ideal of a Masai warrior. He takes enormous pride in his weapons, and would part with everything he has rather than his spear. He glories in his scars, as the true laurel and decorative marks of one who delights in battles.</p>
+
+<p>With astonishing hardihood, Moran and his comrades, thus terribly arrayed, shaped their course towards [the coast]; for, strangely enough, they have found that they can [raid] the cattle with greater impunity there than anywhere else. With a consummate knowledge of the region, the Masai warriors threaded their way by special pathways. . . . Nearing the coast, they stowed themselves away in the bush, while a few of the bravest went forward to spy out the land. . . .</p>
+
+<p>The raid was, of course, successful, and our savage friends returned in great glee. On reaching their homes, however, matters had to be squared up, and the spoil divided. So many head of the captured cattle were set apart as the portion of the <em>lybon</em>, who had directed them so well, and whose medicines had been so potent. Then followed a sanguinary scene over the apportionment of the remainder. There was no attempt at a fair division. The braver men and bullies of the party, consulting only their own desires, took possession of such cattle as pleased them, and dared the rest to come and seize them. The understood rule was that if any warrior could hold his own in single combat against all comers for three days, the cattle were his. And thus began the real fighting of the expedition, revealing sickening sights of savage ferocity. There were more warriors killed over the division of the spoil than in the original capturing of it. To kill a man in this manner was considered all fair and above board. Blood feuds were unknown, a man not being considered worth avenging who could not hold his own life safe. If, however, a man was murdered treacherously, the criminal had to pay forty-nine bullocks. Our young warrior, as he was only as yet winning his spurs, had to be content with the honour and glory of the raid, and he had the modesty not to pit himself against abler and more ferocious fighters. It must be remembered that the cattle thus captured did not remain the property of the successful warriors. A warrior can have no property, and hence they all become his father's.</p>
+
+<p>The spoil being divided, the party were next able to do full honour to the men lost in the raid - those being considered worthy of all praise "who <em>rush</em> in to the field, and foremost fighting <em>fall</em>;" while men who die ignobly at home are only worthy to be despised and thrown to the vultures. Hence the warriors howled and jumped into the air in the dance, till the dead were duly commemorated. In this manner, Moran saw a good deal of fighting, and soon rose to fame in many a campaign. . . . </p>
+
+<p>And so with war and women, life passed in happy fashion. His demeanour was serious, and his expression ferocious, though he acquired an aristocratic <em>hauteur</em>, truly striking. He showed curiosity in a dignified manner. He rarely indulged in vulgar laughter, and smiling was hardly possible on a face which could only be called fiendish.</p>
+
+<p>He passed some twenty years in this manner. At last his father was found to be on the point of death, and he was sent for. Shortly after his arrival, the old man succumbed. . . .</p>
+
+<p>He was now sole heir of his father's herds, for his younger brothers did not receive a single head of cattle, though they had captured in their raids considerable numbers of them. Any they might secure now, however, would be their own property. Moran decidedly preferred the free and easy life of the warrior's [camp], but, alas! he discovered, not that he was becoming bald or developing grey hairs, but that he could not take the regulation dose of purgative as formerly. From this, coupled with the fact that he could not take such liberties with his stomach, he gathered that he was not quite so strong as formerly. We can imagine how he would curse his luck and look fiendish on discovering this unpalatable truth. There was nothing for it but to marry, and become a staid and respectable member of society. He had sown his wild oats.</p>
+
+<p>Casting about, he fixed upon a [girl] after his heart. The preliminaries having been arranged - the number of bullocks to be paid, &c - she was sealed to him. . . . At last the happy day arrived, and the final seal was put upon the marriage by both parties disposing of their chain earrings, and substituting a double disc of copper wire arranged spirally. The lady also shaved her head, laid aside the garment of the [girl], and clothed herself with two skins, one suspended from the waist the other from the shoulder. Strangest of all, however, and strikingly indicative of the fact that he had exchanged the spear for the distaff, Moran had actually to wear the garment of a [girl] for one month. . . .</p>
+
+<p>And now Moran's sole idea was to rear a brood of young cattle-[raiders], and so that he got them, he was not very particular as to the manner of it. He was not jealous, asked no awkward questions, and employed no spies. . . . We shall here prudently follow his example of non-inquisitiveness; for we might find that the domestic affairs of our friend's household will not bear a too curious scrutiny.</p>
+
+<p>He was now wholly a changed being - as indeed who is not when he gets married? His strict rules of diet were abandoned, and, though meat and milk were still the main items of his eating, he could now vary it with vegetable food, obtained by his wife from neighbouring agricultural tribes. Luxuries, also, he might now indulge in. He sported a fancy snuff-box and tobacco-box of ivory or rhinoceros horn, and delighted to rap up its contents as he handed it to a friend. He chewed tobacco (mixed always with [soda]), though he never smoked. Then, as often as convenient, he liked to foregather with his friends, and have a jolly carouse over beer or mead.</p>
+
+<p>It is pleasant to know that with this change in his mode of life there was a corresponding alteration (very much for the better) in his views of things. He delighted to talk with the traders whom before he had gloried in killing or annoying, and would in token of good-will cordially exchange the courtesies of life by spitting upon them and being spat upon. . . . He had no suspicions, and was communicative about his affairs and beliefs. He would even at times exercise a friendly guardianship of passing traders, and was able to ward off many a disaster by judicious warning. He was not stinted in his presents, and generally gave far more than he got. He has been known even to protect strayed porters, and tend sick men left behind. The softening down of his ferocity reacted upon his face. The habitual scowl gradually died away, and was replaced by a more pleasing and genial expression. . . .</p>
+
+<p>Moran found married life sadly dull after his warrior experiences, and to kill time he accompanied one or two war-parties. But that was exceptional. His time henceforward was chiefly occupied in eternal and interminable discussions on the most trivial questions, or wandering long distances on visits to his friends, while his wife stayed at home to milk the cattle, or occasionally made journeys to neighbouring hostile
+tribes to buy grain. She, however, was in her element when a caravan came round, and then she enjoyed the double pleasure of an intrigue and a lovely present of iron wire and
+beads.</p>
+
+<p>In time Moran's first wife became old and ugly, and he took to himself a second - the former being stripped of all her iron wire for the purpose of decking the new comer. At last the day closed for both of them, and one after the other, they formed the subject of horrible hyenas' laughter. These fierce creatures, with the vultures and the storks, tore their flesh under the light of the moon. Nothing remained but a couple of grim skulls and some bloody bones when the sun rose over the grassy plain in the morning; and the young urchins of the [camp] kicked them about and laughed as they threw them at one another.</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Thu, 01 May 2008 20:27:04 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Maasai Murran as Rebellious Youth (20th c)]]></title>
+      <link>https://cyh.rrchnm.org/items/show/53</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Maasai <em>Murran</em> as Rebellious Youth (20th c)</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text">Documents from 1880 to 1973 on the Eastern African Maasai provide a case study with a specifically African and a world history context, in which students examine how this age-set society divides the male life-cycle into distinct stages, and how societies socialize the young and manage generational tension.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-04-28</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Case Study Item Type Metadata</h2>
+        <div id="case-study-item-type-metadata-case-study-image" class="element">
+        <h3>Case Study Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-text" class="element">
+        <h3>Case Study Text</h3>
+                                    <div class="element-text"><h3>Why I Taught the Sources</h3>
+
+<p>A number of societies in Eastern Africa, including the Maasai, divide the male life-cycle into distinct stages: childhood; <em>murran</em>hood (or "warrior"); and elderhood. Age-set societies like the Maasai are perhaps unusually explicit in the way that they divide up the life cycle whereas other societies find different ways of socialising the young and managing generational tension. Among the Maasai, the stages are marked by a series of graduation and retirement ceremonies that emphasize the growing cohesion of the generational group and its changing relation to others.</p>
+
+<p>I use three texts on the Massai <em>murran</em> with upper level or seminar classes dealing with youth, either in a specifically African context or more generally in world history. The first is a travel account entitled <em>Through Masai Land</em> by Joseph Thompson. The second is an official report written by Clarence Buxton, District Commissioner, Narok, to the Officer in Charge on the Masai Reserve in July 1935 after a <em>murran</em> riot. The third contains field notes from interviews with elders about events under colonization. The interviews were conducted by historian Richard Waller and took place in 1973.</p> 
+
+<p>Since the texts are, essentially, about the way that social maturation is controlled and contested, there are comparative possibilities. I ask students to consider the contrasting natures of the types of sources and to think about how they might be contextualized and assessed. The variety of sources and their separation in time—from 1880 to 1973—offer a number of critical perspectives about processes of change.</p>
+
+<h3>How I Introduce the Sources</h3>
+
+<p>I generally introduce primary materials towards the middle of a course. Students need to acquire a degree of familiarity with the subject matter before they can make full use of unfamiliar materials. As they gain confidence, their grasp improves and they begin to understand the importance of primary sources for historians and become engaged in the process of interpretation. They learn how to "listen" to a text – for what it is not saying as well as what it is saying. In the process, they learn how to identify and analyze bias and subtexts.</p>
+
+<p>Students read the texts before class discussion. I generally divide a class into a number of small working groups. Each is given either one text or one theme to explore in depth. Because all group members have read the three different texts, we are able to discuss how primary sources, like the secondary literature, have an internal logic that only appears if the entire text is examined.</p>
+
+<h3>Reading the Sources</h3>
+
+<p>I provide background material and present some of the ideas leading to the major theme of youth culture and its context through an interrogation of its construction. I also pose preliminary questions for students to think about when reading these sources. For example, I ask students why Thomson places young men center-stage in his travel account, with only a few dismissive paragraphs about middle-aged men. Were these young men, the <em>murran</em>, simply more visible, assertive, and flamboyant? Why the long descriptions of dress? Does this reflect readers' expectations of the exotic or the essence of <em>murran</em>hood as experienced by the Massai? Was Thomson more confident in describing what he saw than what he was told (through interpreters)?</p>
+
+<p>I then ask for comparisons with the second document, the 1935 report written by Clarence Buxton, the British official who served as District Commissioner in Narok after a <em>murran</em>riot. <em>Murran</em> are still central, but does he see them in quite the same romantic way? Have they become archaic obstacles to progress? Has Buxton, any more than Thomson, sufficient understanding of language and culture to understand what he is seeing and being told? Comparing this report with Thompson's reminiscences, I ask whether they are really talking about the same thing.</p>  
+
+<p>In the third source, the interview field notes, is the elders' understanding of events and their significance different from Buxton's? What were the elders trying to convey to the interviewer about generational relations? I also ask students to consider what shifts occurred over time between these two narratives. Did the aggressive and self-confident warriors of 1880 become the defensive and hostile teenagers of the 1930s? Or did two different authors in two different times interpret the actions of the <em>murran</em> in different ways? What other factors, including external changes as well as the different narrators and kinds of documents, might be involved in these different perceptions?</p>
+
+<h3>Reflections</h3>
+
+<p>Although anthropologists and historians have not generally done so, it is possible to see <em>murran</em> as youth gangs: Maasai elders and British administrators would not have disagreed. Like gang members elsewhere, Maasai <em>murran</em> create a world and a group identity for themselves apart from "the mainstream."</p>
+
+<p>In some respects, the <em>murran</em> whom Thomson met were not dissimilar from those that Buxton dealt with. In the 1880s, the Maasai had been at the height of their power yet much had changed in the intervening fifty years. Over time, the Maasai lost much of their grazing lands and were confined within a Reserve under colonial rule. Raiding had been outlawed, and the martial virtue of the <em>murran</em>, useful to the British during their conquest of what became Kenya, seemed both archaic and threatening in a time of colonial law and order. The balance of power between <em>murran</em> and elders had also shifted in favour of the latter. Defiant before, angry young men now saw their world threatened and themselves marginalised. They were more obviously subservient to and dependent upon their elders than before.</p>
+
+<p>The Maasai struck back to maintain their honour and their way of life in a series of risings, against a background of calculated disobedience and refusal. After the risings in 1918 and 1922, the British administration decided, in effect, to abolish <em>murran</em>hood, but the attempt failed. By the early 1930s, the administration began to experiment with a modified form of "managed <em>murran</em>hood," allowing young men to be <em>murran</em> for a limited period with supervision.</p>
+
+<p>Sympathetic administrators like Buxton saw that youth must have a space and hoped that its energies and competitiveness might be channelled and controlled by working for the community and perhaps by organised sport. Experience showed, however, that <em>murran</em> could be suppressed but not tamed, and young men, uncertain about their future, continued to "give trouble" to the end of the colonial period and beyond.</p></div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Richard Waller</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">Bucknell University</div>
+                    </div><!-- end element -->
+            <div id="case-study-item-type-metadata-primary-source-id" class="element">
+        <h3>Primary Source ID</h3>
+                                    <div class="element-text">54, 55, 56</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Mon, 28 Apr 2008 21:13:44 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

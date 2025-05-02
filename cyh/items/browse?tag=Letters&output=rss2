@@ -1,0 +1,2121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=Letters&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:18:31 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Hidden Lives Revealed: A Virtual Archive]]></title>
+      <link>https://cyh.rrchnm.org/items/show/455</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Hidden Lives Revealed: A Virtual Archive</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://www.hiddenlives.org.uk/</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">The Children&#039;s Society</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">June 2010</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href="http://www.hiddenlives.org.uk/"><em>Hidden Lives Revealed: A Virtual Archive – Children in Care 1881-1918</em></a> is an attractive and well-organized website. It bills itself as an "intriguing encounter with children who were in the care of the Children's Society in late Victorian and early 20th-century Britain."</p> 
+<p>At its heart is a collection of <a class="external" href="http://www.hiddenlives.org.uk/photographs/index.html">photographs</a>, <a class="external" href="http://www.hiddenlives.org.uk/cases/index.html">case files</a>, and <a class="external" href="http://www.hiddenlives.org.uk/learning_materials/index.html">learning materials</a> from one of the many philanthropic societies dedicated to the care of children in Britain at this period. Most of the archive material was previously unavailable to the public, as might be expected with files giving personal details of children who were in care – though of course the anonymity of the children is respected. "No other Internet archive," it asserts, "gives you the opportunity to browse through such unique material – a kind of resource which has the type of information not recorded elsewhere."</p> 
+<p>Perhaps this is so. In any case, it can claim quite reasonably that it offers something for those studying Victorian history or for university students interested in social work. The Waifs and Strays' Society, later known as the Children's Society, is rather overshadowed in the history books by the Barnardo Homes: further proof, if needed, of the aggressive publicity campaigns that have earned Dr. Barnardo a certain notoriety among historians. <a href="#note1" id="fn1" class="footnote">1</a></p> 
+<p>A brief <a class="external" href="http://www.hiddenlives.org.uk/articles/history.html">History of the Waifs and Strays' Society</a> in a section of the website entitled <a class="external" href="http://www.hiddenlives.org.uk/articles/index.html"><em>Articles</em></a> usefully provides background information. (A link to the website of today's <a class="external" href="http://www.childrenssociety.org.uk/"><em>The Children's Society</em></a> provides further details for those interested.) The Society was founded in London in 1881 by a civil servant and Sunday school teacher named Edward Rudolf.</p> 
+<p>Rudolf aimed to set up a central home for the poorest and most neglected children cared for by the Church of England. It made a particular point of integrating its homes with the local community, aided by the parish organizations of the Anglican church. Other articles, incidentally, give a short biography of the founder, and introductions to poverty, juvenile delinquency and reformatories during the Victorian era. There is a concise and reasonably up-to-date <a class="external" href="http://www.hiddenlives.org.uk/bibliography.html"><em>Bibliography</em></a> in these areas as well. <a href="#note1" id="fn2" class="footnote">2</a></p>
+<p> <a class="external" href="http://www.hiddenlives.org.uk/photographs/index.html"><em>Photographs</em></a> is divided into 12 sections, covering such areas as the work, schooling, pets, clothing, illnesses and disabilities, and sporting activities. Each photograph is carefully documented with a date, location, creator, and description. <a class="external" href="http://www.hiddenlives.org.uk/homes/index.html"><em>The Homes</em></a> includes photographs and a detailed description. By 1918 the society had a total of 175 homes. These photographs inevitably look a bit grim now, though the society did have a policy of providing a family atmosphere in homes of around 10 children aged five to 14.</p> 
+<p>The sample of about 150 <a class="external" href="http://www.hiddenlives.org.uk/cases/index.html"><em>Case Files</em></a> will interest those who want a feel for historical research. Each one contains the detailed application form, including information on family background, health, education, current circumstances, and reasons for application. There is also interesting supplementary material in the form of personal letters, photographs, and school reports. All of these documents are reproduced in the original, and (mercifully) transcribed in print form. They can be browsed by keyword, running from <a class="external" href="http://www.hiddenlives.org.uk/cgi-bin/childsoc-cgi.pl?csocsection=cases&query=Abandonment+">"Abandonment"</a> to <a class="external" href="http://www.hiddenlives.org.uk/cgi-bin/childsoc-cgi.pl?csocsection=cases&query=World+War+I">"World War I ."</a></p> 
+<p>An example under <a class="external" href="http://www.hiddenlives.org.uk/cgi-bin/childsoc-cgi.pl?csocsection=cases&query=Running+away" >"Running Away"</a> documents a <a class="external" href="http://www.hiddenlives.org.uk/cgi-bin/displayrec.pl?searchtext=Running+away+++Croydon&record=/cases/case2716.html">girl</a> who ran away from a home in Croydon, claiming ill treatment and concerns about having her hair cut off because of lice. The file even includes a reproduction of a <a class="external" href="http://www.hiddenlives.org.uk/caseimages/2716_4_1.html">Christmas card</a> sent by her brother in 1891. Finally, there is a collection of <a class="external" href="http://www.hiddenlives.org.uk/learning_materials/index.html"><em>Learning Materials</em></a>, with exercises to find out "what it was like to be REALLY poor in Victorian and Edwardian times." A sub-section, entitled <a class="external" href="http://www.hiddenlives.org.uk/learning_materials/poverty/index.html"><em>Rescued from Poverty</em></a> has, for example, a fact file and questions for students concerning life on the streets and "who would you choose?"</p>
+<p>Inevitably with this kind of website, the society responsible gives a positive view of its activities. One might wish to ask further questions such as: whether the laundries and other commercial activities in the homes risked becoming exploitative, the relations between children and those running the homes, and why the photographs suggest that all the girls became maids and the boys soldiers! All the same, the Society is to be commended for providing a very approachable educational site, and for its innovative approach to publicizing its existence.</p>            
+<div id="notes">
+<p><a href="#fn1" id="note1" class="footnote">1</a> See, for example: Jean Heywood, <em>Children in Care Children in Care</em>,  3rd ed. (London: Routledge & Kegan Paul, 1978), ch. 4; Seth Koven, <em>Slumming: Sexual and Social Politics in Victorian London</em> (Princeton: Princeton University Press, 2004), ch. 2.</p>
+<p><a href="#fn1" id="note2" class="footnote">2</a> It might also have included Eric Hopkins, <em>Childhood Transformed: Working-Class Children in Nineteenth-Century England</em> (Manchester: Manchester University Press,1994), and Heather Shore, <em>Artful Dodgers: Youth and Crime in Early Nineteenth Century London</em> (Woodbridge, Suffolk: The Boydell Press,1999). </p>
+</div> 
+</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Colin Heywood</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">The University of Nottingham</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">At its heart is a collection of photographs, case files, and learning materials from one of the many philanthropic societies dedicated to the care of children in Britain at this period. </div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/490/fullsize"><img src="/files/display/490/square_thumbnail" class="thumb" alt="Hidden Lives Revealed: A Virtual Archive" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Wed, 07 Jul 2010 02:53:20 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/490/fullsize" type="image/jpeg" length="117023"/>
+    </item>
+    <item>
+      <title><![CDATA["I Must Of Course Have Something Of My Own Before Many More Years Have Passed Over My Head": Sally Rice Leaves the Farm, 1838 [Letters]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/397</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">&quot;I Must Of Course Have Something Of My Own Before Many More Years Have Passed Over My Head&quot;: Sally Rice Leaves the Farm, 1838 [Letters]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>From the rocky soil of Vermont's hill towns, many young men and women in the 19th century went looking for new opportunities. Often they made a series of moves between farm, factory, and city. Their leave-taking pitted the responsibilities of maintaining family farms against the new attractions of financial and social independence. Sally Rice, born in 1821 in Dover, Vermont, was typical. In 1838 she found work as a domestic servant in New York, not far over the border from her family's hardscrabble farm, securing for herself much valued wages and independence. Several years later she worked as a weaver in one of the many cotton mills that lined the Blackstone Valley of central Massachusetts and Connecticut. Her letters home to her mother and father in Vermont carefully weighed issues of family and independence, farm and factory life.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Nell W. Kull, "I Can Never Be Happy There Among So Many Mountains-The Letters of Sally Rice," <em>Vermont History</em> 38 (Winter, 1970), 51–55. </div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>[Union Village, 1839]</p>
+
+<p>Dear Father and Mother:</p>
+
+<p>I am well. I found good crossing the mountain. Got to Arlington about 8 in the evening. Staid over night and the next morning started for home. Arrived at Cambridge about one stoped at Comstocks hotel. I found a man there that was going directly to Union Village. With him I rode here and I was never so glad to see any place as I was to see my old home and friends. I found them all well except Mr. Salisbury. He was very sick and is now with the inflammation of the lings. It is doubtful whether he ever gets well. His sister is here taking care of him. I found Nancy here and another girl which was not much help. Nancy went away the next day but one and last week the other girl went so I alone at present. We expect Maria Gayton will come this week. Elem Knight and I got up Monday morning at one oclock to wash. He helpt me some and we got done before light and I should be willing to get up every morning at one...I can have a home here as long as I will stay and am steady. They are very anxious that I should live with them as long as I work out anywhere. . . I have one of the best homes and good society which is a good deal better than I can have there [at home]. Look at the company I should be with, a profane Sabbath breaking set. . . I can never be happy there in among so many mountains. . .  I feel as though I have worn out shoes and strength enough riding and walking over the mountains. I think it would be more consistent to save my strength to raise my boys. I shall need all I have got and as for marrying and setting in that wilderness, I wont. If a person ever expects to take comfort it is while they are young. I feel so...I have got so that by next summer if I could stay I could begin to lay up something. . . I am most 19 years old. I must of course have something of my own before many more years have passed over my head. And where is that something coming from if I go home and earn nothing. What can we get off that rocky farm only 2 or 3 cows. It would be another thing if you kept 9 or 10 cows and could raise corn to sell. . . It surely would be cheper for you to hire a girl one that would be contented to stay in the desert than for me to come home and live in trouble all the time. . . You may think me unkind but how can you blame me for wanting to stay here. I have but one life to live and I want to enjoy myself as well as I can while I live. . . Do come away dont lay your bones in that place I beg you. . . I want you should write me an answer. My love to all who inquire after. S. R.</p>
+
+<hr /> 
+
+<p>Masonville, Sunday, Feb 23, 1845</p>
+
+<p>Dear Father:</p>
+
+<p>I now take my pen in hand to let you know where I am and how I came here and how my health is. I have been waiting perhaps longer than I ought to without letting you know where I am and yet I had a reason for so doing. Well knowing that you were dolefully prejudiced against a cotton factory, and being no less prejudiced myself, I thought it best to wait and see how I prospered and also whether I was going to stay or not. I well knew that if I could not make more in the mill than I can doing housework I should not stay. Now I will tell you how I happened to come. The Saturday after New Years I came to Masonville in Thompson, Connecticut, with James Alger to visit his sister who weaves in the mill. We came Saturday and returned to Millbury on Monday. While here I was asked to come back and learn to weave. I did not fall in with the idea at all because I well knew that I should not like it as well as housework and Knowing that you would now approve of my working in the mill. But when I consider that I had got myself to take care of, I knew I ought to do that way I can make the most and save the most. I concluded to come and try, promising Mrs. Waters that if I did not like it I would return the first of April.</p>
+
+<p>I have wove 4 weeks and have wove 6.89 yds. We have one dollar and 10 cents for a hundred yards. I wove with Olive Alger one week to learn and I took 2 looms 2 weeks and now I have 3 looms. I get along as well as anyone could expect. I think that before the year is out I shall be able to tend 4 looms and then I can make more. 0. and P. Alger make three dollars a week besides their board. We pay 1.25 for our board. We three girls board with a Widow Whitemore. She is a first rate homespun woman. I like it quite as well as I expected but not as well as housework. To be sure it is a noisy place and we are confined more than I like to be. I do not wear out my clothes and shoes as I do when I housework. If I can make 2 dollars per week besides my board and save my clothes and shoes I think it will be better than to do housework for nine shillings. I mean for a year or two. I should not want to spend my days in a mill unless they are short because I like a farm too well for that. My health is good now. I wrote a letter to Levi and Nancy the week before I came her with a strict command not to tell any mortal that I was coming because if I did not stay I wanted nothing said about it. And I say now that if it does not agree with my health I shall give it up at once. I have been blessed with good health always ever since I began to work out. I have not been confined to my bed but one day since I was sick with mumps the time Grandmother Rice died. I was very sick one day when I was at Mrs. Waters.</p>
+<hr />
+<p>Dear Father, in my last letter I told you I had morally reformed. Yes I trust I have and bless God that he unsealed my eyes to see where I was standing, and where I have been since I became a backslider. The name haunts me. It all seems like a dream. Pray for me, Father, that if I ever enjoyed Religion I may enjoy it again and do as much good as I have hurt in the cause and the great God assisting me I will try to pray for myself. I feel I am perfectly willing to give up all into the hands of God and will try to lead a better life than I have done.</p>
+
+<p>I want you to write as soon as you get this. Address your letter to Masonville, Thompson, Conn. Give my love to Mother & to all our folks. Tell Brother to write. I have not written to Hiram yet. I want to know where Ephraim is & what he is doing and what you are all about and howyou all do Father.</p>
+
+<p>Good Bye, Sarah Rice </p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Sun, 17 Jan 2010 04:12:41 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Writing a Letter to Santa [Letter]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/339</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Writing a Letter to Santa [Letter]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Whether known as Saint Nicholas, Sinterklaas, Father Christmas, Kris Kringle, Babbo Natale, Christkind, Père Noël, Santa Claus ("Santa") or by many other names, this legendary gift-giver in European folklore and hagiography is well known around the world.</p>  
+<p>Writing a letter to Santa is among the numerous traditions surrounding Christmas. Although in 1889, Thomas Nast—the caricaturist credited with the modern portrayal of Santa—presented Santa reading letters from the parents of children in "Santa Claus's mail," writing to Santa is as much of a children's ritual as sitting on his lap. The form of "Dear Santa letters" typically include: a testament of "nice" not "naughty" behavior, a wish-list of toys, courteous mention of Mrs. Claus and the elves, and concern for the reindeer (especially Rudolph). One study found that girls’ letters tended to be longer, more polite, and include more requests for clothing or functional items as well as more gifts for other people. Recent research studies on elementary-school children in the U.S. have found that gender-neutral toys are as popular as sex-typed toys among girls and boys.</p> 
+<p>Children in Poland, Japan, and Great Britain are allegedly the most prolific writers of letters to Santa. While sample letters are on Internet sites that also sell Santa stationery, far more common is the hand-written letter illustrated with Santas, reindeers, sleds, Christmas trees, presents, etc. Japanese children sometimes include pieces of origami with their letters. Addressed to Santa in Toyland, the North Pole, Lapland, the Arctic Circle, the town of Santa Claus, Indiana, and elsewhere in the world, children’s letters are often answered by postal workers and charity volunteers. While children in Canada use a special postal code (H0H 0H0) those in Mexico and other Latin American countries send their letters attached to helium balloons. Since the turn of the 20th century children have also sent their Santa letters to newspapers where they have been reprinted in articles.</p> 
+<p>Along with other children who live in Ontario, Mary sent her letter to Eaton’s Department store that sponsored an annual Christmas parade. In what ways is the letter 9-year-old Mary wrote to Santa in 1968 consistent with children’s practices and in what ways is it unique? What might account for the differences? In addition to gender differences do children’s letters to Santa differ according to race, class, and region? What larger purposes might this ritual serve for parents and society?</p>  
+</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">"Letters to Santa," <em>Archives of Ontario</em>, <a class="external" href="http://www.archives.gov.on.ca/english/on-line-exhibits/eatons/santa-letters.aspx">http://www.archives.gov.on.ca/english/on-line-exhibits/eatons/santa-letters.aspx</a> (accessed November 3, 2009). Annotated by Miriam Forman-Brunell.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>Dear Santa:</p>
+
+<p>Please would you give me some dollhouse furniture and a camera and doll house. I like the toys. I liked the parade. In the parade I liked the chipmunk giant. My friend would like to have a game of Hands Down. Her last name is Duval. She lives near Milton Airport and Branton. I have some Coke and food for your reindeer. I will write the names of them if I could but I can’t. There is a picture for you.</p>
+
+<p>Mary</p>
+<p>Age 9</p>
+</div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/276/fullsize"><img src="/files/display/276/square_thumbnail" class="thumb" alt="Writing a Letter to Santa [Letter]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Tue, 03 Nov 2009 04:42:03 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/276/fullsize" type="image/jpeg" length="76761"/>
+    </item>
+    <item>
+      <title><![CDATA[Student Letter to Pierre DuPont [Letter]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/237</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Student Letter to Pierre DuPont [Letter]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Thelma Norwood, a 7th-grade student in Nassau, Delaware, wrote this letter in 1925. The school was segregated, or used only by African Americans, while separate schools were maintained for white students. The letter expresses appreciation on Du Pont Day, a celebration held each year to show gratitude to Pierre du Pont, founding member of DuPont Corporation, who spearheaded an effort to improve and modernize education for African Americans in Delaware. Du Pont worked to draw attention to the problem of inadequate education, donating over $6 million of his own money to fund studies, school construction, and to gain community support for improving African American children&rsquo;s school access and attendance.</p>
+<p>Thelma's letter illustrates the community's response to du Pont's gift, and indicates some ways in which the school administration showed gratitude toward du Pont through school activities and writing assignments. Her letter reflects both obstacles to education such as student absence due to the need for child labor to help support the family, and milestones of progress such as the recent graduates who went on to college (including Thelma's brother or cousin Charles). Her listing of the school's new equipment allows the inference that such items were lacking in her previous school, and the subjects listed indicate that both academic and vocational topics were taught. Many African Americans would have gone from the 8th grade directly into jobs, while few had the opportunity to attend high school, and even fewer to attend college.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Thelma Norwood</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text"><em>A Separate Place: the Schools P.S. DuPont Built</em> (Wilmington, DE: Hagley Museum and Library, 2003) at <a class="external" href="http://www.hagley.lib.de.us/hagley-separate-place-packet.pdf">http://www.hagley.lib.de.us/hagley-separate-place-packet.pdf</a>, pages 24–26  (accessed April 21, 2009). <a class="external" href="http://www.hagley.org">Hagley Museum and Library</a>.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">1935-10-30</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Kelly Schrum and Susan Douglass</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">236, 259, 260, 261</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text, image/jpeg</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                                    <div class="element-text"><em>A Separate Place: the Schools P.S. DuPont Built</em> (Wilmington, DE: Hagley Museum and Library, 2003) at <a class="external" href="http://www.hagley.lib.de.us/hagley-separate-place-packet.pdf">http://www.hagley.lib.de.us/hagley-separate-place-packet.pdf</a>, pages 24–26  (accessed April 21, 2009).</div>
+                    </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><div style="text-align: right;">Nassau Delaware</div>
+<div style="text-align: right;">October 30, 1925</div>
+<br />Honorable Pierre S. du Pont <br />1116 du Pont Building <br />Wilmington, Delaware  <br /><br />Dear Sir: <br /><br />&nbsp;&nbsp;&nbsp;&nbsp; Our Teacher has asked us to write you a letter to day, for we all know that you were the one that gave us our New School. Our School is as good as it was when we first came into it. We would like for you to come down, for we have all wishes to see you. We all appreciate our New School Building. In our School we have two wall clocks, an organ, graphonola, pencil sharpner, oil stove for hot lunches, two maps--one of South America, and one of the United States. We have five graduates at State College Dover Delaware--three boys and two girls--Christina Maull, Levata Williams, Cyrus Sparrow, Arthur Ward, Charles Norwood. I am in the Seventh Grade. We have Community Civics, Hygiene, Arithmetic, Geography, History, Language, Reader, Spelling and Industrial Artwork. In Industrial Artwork, we draw, make crepe paper flowers, baskets, etc. I like all of my studies very much and I am proud of all of my books. <br />&nbsp;&nbsp;&nbsp;&nbsp; I attended school eight days in September, three in October. I am sorry to say that I have been working to the packing house all summer, but I started to school for good now. I was very sorry that I couldn&rsquo;t get to School those days I was absent. I hope I wont have have to miss any more days this year. Our teacher is back this year. This makes the fourth year that she has taught our school. Her name is Mrs. Virginia H. Jones. The Primary Room has a new teacher, Miss Laurencetta M. Hicks. We all love both of the teachers. <br />&nbsp;&nbsp;&nbsp;&nbsp; We are celebrating (du Pont Day) to night, and have invited all of the Parents. We will have, cake, and ice cream to night. <br />&nbsp;&nbsp;&nbsp;&nbsp; We wish that you might live many more years to see what the Delaware Children might accomplish. <br /><br />
+<div style="text-align: left;">
+<div style="text-align: right;">Very Truly,</div>
+<div style="text-align: right;">Thelma Norwood</div>
+</div></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/156/fullsize"><img src="/files/display/156/square_thumbnail" class="thumb" alt="Student Letter to Pierre DuPont [Letter]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Sat, 09 May 2009 18:38:23 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/156/fullsize" type="image/jpeg" length="222953"/>
+    </item>
+    <item>
+      <title><![CDATA[Beatles Petition and Response [Letters]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/168</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Beatles Petition and Response [Letters]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>In April 1964, the U.S. Labor Department announced new rules for foreign entertainers. Applying through Immigration and Naturalization Service (INS), entertainers with unique talent would be allowed to enter. The Labor Department would evaluate all others to assess availability of American workers. Based on several misleading newspaper reports, rumors spread quickly that the Beatles would not be allowed to return to the U.S. Teenagers from around the country expressed outrage, writing immediately to President Lyndon Johnson, Labor Secretary W. Willard Wirtz, and members of Congress, among others. In the following letter, Arizona teenager Bonnie Wilkins writes to Secretary Wirtz and Herman Kenin, president of the American Federation of Musicians, promising to "fight, argue, [and] negotiate" until the Beatles are allowed to perform in the U.S. She submitted petitions with thousands of signatures from around the country, asking to be taken seriously despite her age and appealing to a universal teenage culture, "I'm sure that you had fads when you were teenagers." Teenage culture emerged in the 1920s, 1930s, and 1940s, based in part on a dramatic rise in high school attendance. Wilkins' letter and Wirtz's response demonstrate the acceptance of an established teenage culture in the 1960s, clearly defined both by its distinction from adult culture as well as by its connection. Wilkins and many other teens saw themselves as active citizens with a legitimate say in government actions.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Lee Ann Potter, "The Reaction of Beatles' Fans to Immigration Law, 1964," in <em>Teaching With Documents: 1950-1975 : Using Primary Sources from the National Archives</em>, ABC Clio (2002): 101-106. Visit <a href="http://www.archives.gov/education/lessons/" target="_blank"><em>Teaching with Documents</em></a> for more activities.<br /></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-18</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Kelly Schrum</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><h3>Beatles Petition</h3>
+<p style="text-align: right;">6215 Calle Redonda<br /> Scottsdale, Arizona<br /> April 24, 1964</p>
+<p>Mr. Herman Kenin<br /> President<br /> American Federation of Musicians<br /> New York, New York</p>
+<p>Willard Wirtz<br /> United States Sec. of Labor<br /> Washington D.C.</p>
+<p>Dear Messrs. Kenin and Wirtz,</p>
+<p>In the past few weeks Miss Debbie Page and I have been sponsoring a campaign against a decision made by you. This concerns action you are taking to keep the British groups, especially the Beatles, out of the United States. We have petitions from numerous parts of the country, all stating our extreme dislike and disapproval of your efforts. These aren't just crank petitions, for we have studied the problem carefully, and we realize that we are only minors, and that you hold high and esteemed positions as leaders of the country. But in this case we cannot accept the statement that, "You Can't Fight City Hall". We are going to fight, argue, negotiate, and keep on sending you thousands of names until some action is taken. Please don't just laugh at the petitions and throw them in the wastebasket--- please hear our plea. I'm sure that you had fads when you were teenagers, and just because they are from another country, there is no need to act that way toward the Beatles. We were a little tired of our American singers, and the Beatles are a refreshing change.</p>
+<p>We once again ask you to hear our plea, and please let the Beatles perform here--- they're not hurting anybody.</p>
+<p style="text-align: right;">Very Sincerely,</p>
+<p style="text-align: right;"><br /> Bonnie Wilkins</p>
+<hr />
+<h3>[Response]</h3>
+<p style="text-align: right;">May 4 &ndash; 1964</p>
+<p>Miss Bonnie Wilkins<br /> 6215 Calle Redonda<br /> Scottsdale, Arizona</p>
+<p>Dear Bonnie:</p>
+<p>Thank you and Miss Debbie Page for sending me the petitions urging that the Beatles be allowed to come back to the United States.</p>
+<p>The determination and ingenuity you demonstrated are very impressive. I also note that thousands of persons have signed your petitions. This is a tremendous showing of interest.</p>
+<p>The reports that I am trying to keep out the Beatles are absolutely incorrect. I am sorry that this false impression was created by an erroneous newspaper report.</p>
+<p>I do not know whether the Beatles will apply to re-enter the United States under the part of the law governed solely by the Immigration and Naturalization Service or under the rules where the department of Labor gives certain information to the Immigration Service. In either case, I assume the Beatles would be permitted to enter the United States again as they were earlier this year.</p>
+<p>You may be relieved to know that, while the Government of the United States is old, it is not run by old fogies.</p>
+<p style="text-align: right;">Yours sincerely,</p>
+<p style="text-align: right;"><br /> W. Willard Wirtz</p>
+<p style="text-align: right;">Secretary of Labor</p>
+<p style="text-align: right;">&nbsp;</p>
+<p style="text-align: left;">MCass/ah<br />4-30-64</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/173/fullsize"><img src="/files/display/173/square_thumbnail" class="thumb" alt="Beatles Petition and Response [Letters]" width="250" height="250"/>
+</a></div><div class="item-file image-jpeg"><a class="download-file" href="/files/download/175/fullsize"><img src="/files/display/175/square_thumbnail" class="thumb" alt="Beatles Petition and Response [Letters]" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Sun, 19 Oct 2008 04:55:29 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/173/fullsize" type="image/jpeg" length="157460"/>
+    </item>
+    <item>
+      <title><![CDATA[Health in England (16th–18th c.)]]></title>
+      <link>https://cyh.rrchnm.org/items/show/166</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Health in England (16th–18th c.)</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Health and sickness, as it pertains to children and youth in Early Modern England, is examined through an array of primary sources that illuminate both the perils of childhood in that age and the measures taken for the care of the ill and the emotional investment of families in caring for them.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Lynda Payne</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-14</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Teaching Module Item Type Metadata</h2>
+        <div id="teaching-module-item-type-metadata-bibliography" class="element">
+        <h3>Bibliography</h3>
+                                    <div class="element-text"><ol class="bibliography">
+<li>Abbot, Mary. <em>Life Cycles in England, 1560-1720: Cradle to Grave</em>. London: Routledge, 1996.<br />
+<span>Includes chapters on children and youth and primary written and visual sources with suggestions for their use.</span></li>
+
+<li>Beier, Lucinda. <em>Sufferers and Healers: The Experience of Illness in Seventeenth-century England</em>. London: Routledge, 1988.<br />
+<span>Focuses on the patients and those who treated them, from housewives to bonesetters to surgeons. Includes an analysis of the casebook of Joseph Binn, a London surgeon and some of his younger patients.</span></li>
+
+<li>Ben-Amos, Ilana Krausman. <em>Adolescence and Youth in Early Modern England</em>. New Haven: Yale University Press, 1994.<br />
+<span>Discusses the shorter life span of pre-modern people and why youth was so important as a result. Themes include the physical and emotional effects of being an apprentice or a servant. Not an easy read.</span></li>
+
+<li>Houlbrooke, Ralph A. <em>The English Family, 1450-1700</em>. New York: Longman, 1984.<br />
+<span>A classic work on the importance of understanding family structure in this period as the context to disease and death. Includes a chapter on children.</span></li>
+
+<li>Pollock, Linda. <em>Forgotten Children: Parent-Child Relations from 1500-1900</em> Cambridge University Press, 1983.<br />
+<span>A controversial work that argues against the idea that there was little concept of a childhood in the past and that life for the young was a brutal experience. Discusses the treatment of sick children and youth.</span></li>
+</ol></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-document-based-question" class="element">
+        <h3>Document Based Question</h3>
+                                    <div class="element-text"><p>by Sharon Cohen<br />
+<em>(Suggested writing time: 50 minutes)</em></p>
+
+<p><strong>Directions</strong><br />
+The following question is based on the documents included in this module. This question is designed to test your ability to work with and understand historical documents.</p>
+
+<p>Drawing on specific examples from the sources in the module, write a well- organized essay of at least five paragraphs in which you answer the following question:</p>
+<ul>
+<li> To what extent did parents in early modern England try not to become too attached to their children, as infant and child mortality was so high? </li>
+</ul>
+
+<p>Write an essay that:</p>
+<ul>
+<li>has a relevant, clear thesis that answers the question,</li>
+<li>uses at least six of the documents,</li>
+<li>analyzes the documents by grouping them in as many appropriate ways as possible. Does not simply summarize the documents individually, and</li>
+<li>takes into account both the sources of the documents and the creators' points of view.</li>
+</ul>
+<p>You may refer to relevant historical information not mentioned in the documents.</p>
+<p>Be sure to analyze point of view in at least three documents or images.</p>
+<p>What additional sources, types of documents, or information would you need to have a more complete view of this topic?</p> 
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-credits" class="element">
+        <h3>Credits</h3>
+                                    <div class="element-text"><p>Grateful acknowledgment is made to the following institutions for primary sources:</p>
+
+<ul>
+<li><a class="external" href="http://www.fordham.edu/halsall/mod/modsbook.html">Fordham University</a>,</li>
+<li><a class="external" href="http://www.irwin-pub.com/">Irwin Publishing</a>,</li>
+<li><a class="external" href="http://www.neonatology.org/index.html">Neonatology on the Web</a>,</li>
+<li><a class="external" href="http://www.nypl.org/">The New York Public Library, Astor, Lenox and Tilden Foundations</a>, and</li>
+<li><a class="external" href="http://images.wellcome.ac.uk/indexplus/image/L0030701.html">Wellcome Library</a>.</li>
+</ul>
+
+<h3>About the Author</h3>
+
+<p>Lynda Payne, Ph.D., RN, Sirridge Missouri Endowed Professor in Medical Humanities and Bioethics and Associate Professor of History, University of Missouri-Kansas City. She is the author of <em>With Words and Knives: Learning Medical Dispassion in Early Modern England</em>, and is currently researching and writing a monograph on the 18th-century surgeon Percivall Pott.</p>
+
+<h3>About the Lesson Plan Author</h3>
+<p>Sharon Cohen teaches AP World History and IB Theory of Knowledge at Springbrook High School in Maryland. She regularly presents papers on world history pedagogy at the annual conferences of the World History Association, the American Historical Association, the National Council for Teaching History, and the National Council for the Social Studies, served on the College Board's AP World History Development Committee, contributed articles to the online journal <em>World History Connected</em>, and published curriculum units in world history for the College Board and the online model world history project <em>World History For Us All</em>.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">University of Missouri-Kansas City</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-introduction" class="element">
+        <h3>Introduction</h3>
+                                    <div class="element-text"><p>Children and youth in early modern England (1500-1800) were subject to many diseases and physical hardships. From the great epidemic diseases of bubonic plague and smallpox, to more common illnesses such as measles and influenza that still afflict children today, sickness put children and youth at great risk. With no knowledge of bacteria or antibiotics, and surgery performed without anesthesia or even hand washing, there were few remedies for childhood illnesses beyond a nourishing diet and keeping the patient warm. Even surviving an illness could have permanent consequences, for example, scarlet fever left many children blind and deaf, and measles could cause severe scarring and facial bone loss.</p> 
+<p>One measurement of health in early modern England is revealed in the statistics of the number of deaths kept by church parishes. From these records historians have gleaned that infant mortality (death during the first year of life) was approximately 140 out of 1000 live births. The average mother had 7-8 live births over 15 years. Unidentifiable fevers, and the following list of diseases, killed perhaps 30% of England's children before the age of 15 – the bloody flux (dysentery), scarlatina (scarlet fever), whooping cough, influenza, smallpox, and pneumonia.</p> 
+<p>Death from disease was higher in urban than in rural areas. Early modern cities were widely, and often rightly, regarded as deadly environments. They contained large concentrations of population who were often poorly fed and housed. "Crowd diseases" such as typhus, smallpox, and tuberculosis prospered, and bubonic plague epidemics periodically swept through dense urban populations. In 1563, 1603, 1625 and 1665, about one fifth of the population of London died in plague outbreaks. In 1665, one of the deadliest years, 80,000 people died in the capital city. Of this number, historians estimate that at least 45,000 of the victims were under the age of 15.</p>
+<p>Besides diseases, accidents were common sources of sickness, disability and death for children and youth. From surveys of coroners's inquests, drowning in wells and bathtubs, was the most reported accidental death in children under the age of 5. Accidents were also reported connected to the work in which children were engaged beginning around age 8. Children cracked their skulls while fetching water, were trampled by horses while ploughing, or dropped and injured while under the care of siblings. Boys, unless they were from the noblest of families, were expected to serve an apprenticeship. They were often placed in dangerous crafts such as tanning, blacksmithing, or serving on ships, where chemical poisonings, fires, and war injuries were frequent occurrences. There are also accounts in diaries of the period of youthful pranks leading to injury, for example, hiding gunpowder in candles so they blew up when lit.</p> 
+<p>Throughout this period the primary place where sick children and youth were cared for was in the home, and the principal healers were women – mothers, daughters, wives, and servants. Powder burn remedies —applying a mixture of poultry fat and dung—were commonly included in home receit (remedy/recipe) books kept by the mistress of the household. Women developed considerable professional knowledge after the rise of the printing press in 1500 and the publication of books that had been only in the hands of physicians. Both herbal and chemical medicines were described as suitable for the young in family receit books, such as dried dill in honey for a cough, and iron filings in beer for paleness of the skin.</p> 
+<p>Children were rarely treated by the small and expensive elite of university-trained physicians to whom adult patients turned for a prognosis and not for a cure. Their remedies were also considered too drastic for children as they largely consisted of rectal purging (laxatives), bloodletting (cutting a vein open with a lancet), and forced vomiting (emetics). These treatments were based on an ancient Greek medical theory that the body was composed of four substances, or humors, created from the digestion of food. The four humors were choler or yellow bile, phlegm or mucus, black bile, and blood, and all had properties of being hot/cold and dry/wet. If the humors were balanced – neither too strong nor too weak – you were healthy. The hot and wet humor of blood and the hot and dry humor of yellow bile were believed to be naturally stronger in the young. Occasionally if these humors were not weakened and released from the body in the form of sweat, tears, urine, feces, or even sneezing, physicians would give children emetics to make them vomit or let blood through "cupping." Heated glass, bone, or brass cups would be placed upon skin that had been scratched or scarified with a knife. Blood would then flow gently from these wounds due to the creation of a vacuum by the heated cup.</p> 
+<p>Worried parents consulted surgeons, trained through apprenticeship, for broken limbs, ruptures, and the bladder stone. The latter was caused by the early modern diet, which was rich in gravel. Boys were often operated on for the stone by surgeons in this period with a mortality rate of 30%. The operation was called a lithotomy and took about three to five minutes to perform.  No anesthesia was used, instead surgeons relied on the child fainting from pain and being out during the extraction of the stone. Most often, parents turned first to family, friends, and neighbors, for medical advice, even the local blacksmith for a fee would set bones in humans as well as animals.</p. <p>As the specialty of pediatrics (from the Greek for child and healing) had yet to emerge, children were treated as small adults in hospitals and kept in the same wards as adult men and women. Some charitable institutions were opened in the early modern period, for example, the Children's Hospital in Norwich in 1621, but they tended to be more for children who were abandoned by their parents or orphaned, than for sick youngsters. The largest institution for orphans was the Foundling Hospital in London, opened in 1741. There were also medical discoveries that helped children and youth in this period, most notably, inoculation and vaccination for smallpox.</p> 
+		<p>Starting in the 1960s several scholars have argued that early modern parents tried not to invest too much emotion (or money) in a child until it reached an age where survival was likely. High birth rates, accompanied by high death rates for children under the age of ten years old, meant that family life was fragile and uncertain. Yet the parent-child relationship seems to have been as strong in the early modern period as in any other age, and former ideas of emotional indifference before the eighteenth century are now widely questioned by scholars. Most of the population had a hard struggle for existence but children were cared for as much as conditions would allow. The harrowing grief of mothers and fathers who lost children to disease or accident is indeed all too apparent in diaries and letters of the period.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Lynda Payne</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-strategies" class="element">
+        <h3>Strategies</h3>
+                                    <div class="element-text"><p>I have found that the best way to teach about sickness and health from centuries ago is to not to focus on the biology and statistics of diseases but to focus on the suffering and the impact of illness on a person's life. I have had students write about their own experience of illness until the age of 18, and then had them compare and contrast that with the common illnesses a child and youth would have experienced in early modern England. Students have also researched how medical conditions of children and youth would be diagnosed and treated by a variety of healers. They took into consideration wealth and poverty, class status, gender, and whether they were living in a city or in the countryside. Finally, I have had success with using visuals to illustrate not just medical care and treatment but environmental conditions. If you have students imagine life without modern conveniences such as electricity, gas, sewers, clean water, cars, and so forth (the list is long), their understanding and interpretation of images of early modern children and youth grows as they take into account the context of health, hygiene, and illness.</p>
+
+<h3>Discussion Questions</h3>
+<ul>
+<li>What were the common illnesses of children and youth in early modern England? What remedies were suggested and by whom? Can you describe some of the changes in medical treatment during this period? (Classification and description of diseases, inoculation and vaccination).</li>
+
+<li>Some historians have argued that children and youth had a miserable existence and that parents in early modern England tried not to become too attached to their children, as infant and child mortality was so high. Can you use the sources to argue for and against this thesis? (Teeth pulling, Gin Lane, Infanticide Trial versus The Graham Children and the Evelyn Diary).</li>
+</ul></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-lesson-plan" class="element">
+        <h3>Lesson Plan</h3>
+                                    <div class="element-text"><h3>Lesson Plan: Health in England (16th&ndash;18th c.)</h3>
+<p>by Sharon Cohen</p>
+<p><strong>Time Estimated:</strong> three 45-minute classes</p>
+
+<h3>Objectives</h3>
+<ol>
+<li> Students will be able to identify possible connections between the lack of modern conveniences and health, hygiene, and illness among children in early modern England.</li>
+
+<li>Students will be able to debate the extent to which parents demonstrated attachment to children in a period of high mortality for infants and young children. </li>
+</ol>
+
+<h3>Materials</h3>
+<ul>
+<li>Printouts of primary sources sufficient for each student to have a full set of the texts and images in the <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/166?section=introduction"><em>Health in England</em></a> Teaching Module. <a id="fn1" class="footnote" href="#note1">1</a></li>
+<li>Highlighters</li>
+<li>Index cards </li>
+</ul>
+
+<h3>Day One</h3>
+<p><em>Hook</em><br />
+Ask students to imagine life without modern conveniences such as electricity, sewers, and clean water by listing ten possible effects on health, hygiene, and illness. Then, with a partner, have them predict which of those effects were common among children in early modern England. Make a class list of these predictions to post for comparison later.</p>
+
+<p><em>Activity</em><br />
+Students will read the primary sources looking for any connections between the lack of modern conveniences and health, hygiene, and illness among children. One strategy to help with close reading is to help the students generate lists of typical words they might find in the text, and then encouraging them to underline or highlight the words associated with a lack of conveniences (such as lack of clean water for drinking or washing) and circle or highlight the words associated with symptoms of illness (complexion, fever, fits, pain, sweat, swollen, shivers, blisters) and treatments (ointment, medicine, bloodletting, fasting, bed rest). Have the students turn in their annotated sources. Check to make sure they found most of the key words. If not, show them to the students the next day.</p>
+
+<h3>Day Two: Debate Prep</h3>
+
+<p>Return the annotated sources and ask students to share with a partner the words that appeared the most often.</p>
+
+<p>With partners, have students try to translate those words into lists:</p>
+<ul>
+<li>identifying the common illnesses of children and youth in early modern England and</li>
+<li>identifying the remedies suggested and by whom.</li></ul>
+<p>They should write these analyses of the sources in the margins.</p>
+
+<p>Students prepare for a debate on whether parents in early modern England tried not to become too attached to their children, as infant and child mortality was so high. </p>
+
+<h3>Day Three: The Debate</h3>
+<p><em>Debate Directions</em><br />
+Divide the class into two groups (pro and con).</p>
+<p>Assign each student a specific speaking role in the debate.</p> 
+<ul>
+<li>Each group has a different student make the opening statement and the closing statement.</li>
+<li>Each group has six main pieces of evidence delivered by six different students.</li>
+<li>Each group also assigns six students to critique the evidence delivered on the basis of the authority or reliability and perspective of the source.</li>
+<li>That's 28 student roles. Adjust as necessary for the size of the class. If the class is larger, assign students to critique the arguments and evidence used overall in the debate and then report on their assessment at the end.</li>
+</ul>
+<h3>Differentiation</h3>
+<p>Some strategies for supporting and challenging students are already included in the lesson. For struggling readers, the sources might need to be translated into modern English, and perhaps even analyzed together as a class. The preparation for the debate for students still learning how to construct and support arguments might take an extra day, so the teacher can speak individually with each student to guide the framing of the arguments and selection of evidence to support the main points. To challenge students further, it might be possible for them to find additional evidence not included in this module, even perhaps going beyond the borders of England to compare the attitudes and practices toward children's health in other places.</p>
+
+<hr />
+<div id="notes">
+<p><a id="note1" class="footnote" href="#fn1">1</a> Texts include:</p>
+<ul>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/166?section=primarysources&source=155>Boke of Chyldren</a></li>
+
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/166?section=primarysources&source=156">"On Scarlet Fever"</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/166?section=primarysources&source=162">Infanticide Trial Transcript from the Old Bailey of Elizabeth Taylor of Clerkenwell</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/166?section=primarysources&source=158">Gin Lane text and illustration</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/166?section=primarysources&source=160">Diary of John Evelyn</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/166?section=primarysources&source=163">The Graham Children</a></li>
+</ul>
+</div>
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-primary-sources" class="element">
+        <h3>Primary Sources</h3>
+                                    <div class="element-text">155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Wed, 15 Oct 2008 00:12:45 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Lady Mary Wortley Montagu on Small Pox in Turkey [Letter]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/157</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Lady Mary Wortley Montagu on Small Pox in Turkey [Letter]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p> Lady Mary Wortley Montagu (1689-1762) was the wife of the British Ambassador to Turkey. In 1715 she had survived but been terribly scarred by smallpox while her brother had died from the disease. She was fascinated by the culture of the Ottoman Empire and in 1717 described the Turkish practice of inoculating healthy children with a weakened strain of smallpox to confer immunity from the more virulent strains of the disease. She immediately had her seven-year old son inoculated in Turkey and on her return to England, she had her daughter publicly inoculated at the royal court of George I to popularize the technique. In this she was only partially successful as inoculation continued to be dangerous and often resulted in death and scarring of infected children.</p>
+
+<p>[Full text <a class="external" href= http://www.fordham.edu/halsall/mod/montagu-smallpox.html> available online.</a>]</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Lady Mary Wortley Montagu</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Montagu, Lady Mary Wortley. <em>Letters of the Right Honourable Lady M—y W—y M—e Written during Her Travels in Europe, Asia and Africa to Persons of Distinction, Men of Letters, &c. in Different Parts of Europe</em>. Aix: Anthony Henricy, 1796, 167-69, letter 36, to Mrs. S.C. from Adrianople, 1717. Reproduced online: Fordham University, "Lady Mary Wortley Montagu (1689-1762): Smallpox Vaccination in Turkey," Modern History Sourcebook, <a class="external" href=http://www.fordham.edu/halsall/mod/montagu-smallpox.html>http://www.fordham.edu/halsall/mod/montagu-smallpox.html</a> (accessed March 26, 2008). Annotated by Lynda Payne.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-10-12</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Lynda Payne</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">166</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>A propos of distempers, I am going to tell you a thing, that will make you wish yourself here. The small-pox, so fatal, and so general amongst us, is here entirely harmless, by the invention of engrafting, which is the term they give it. There is a set of old women, who make it their business to perform the operation, every autumn, in the month of September, when the great heat is abated. People send to one another to know if any of their family has a mind to have the small-pox; they make parties for this purpose, and when they are met (commonly fifteen or sixteen together) the old woman comes with a nut-shell full of the matter of the best sort of small-pox, and asks what vein you please to have opened. She immediately rips open that you offer to her, with a large needle (which gives you no more pain than a common scratch) and puts into the vein as much matter as can lie upon the head of her needle, and after that, binds up the little wound with a hollow bit of shell, and in this manner opens four or five veins. The Grecians have commonly the superstition of opening one in the middle of the forehead, one in each arm, and one on the breast, to mark the sign of the Cross; but this has a very ill effect, all these wounds leaving little scars, and is not done by those that are not superstitious, who chuse to have them in the legs, or that part of the arm that is concealed. The children or young patients play together all the rest of the day, and are in perfect health to the eighth. Then the fever begins to seize them, and they keep their beds two days, very seldom three. They have very rarely above twenty or thirty in their faces, which never mark, and in eight days time they are as well as before their illness. Where they are wounded, there remains running sores during the distemper, which I don't doubt is a great relief to it. Every year, thousands undergo this operation, and the French Ambassador says pleasantly, that they take the small-pox here by way of diversion, as they take the waters in other countries. There is no example of any one that has died in it, and you may believe I am well satisfied of the safety of this experiment, since I intend to try it on my dear little son. I am patriot enough to take the pains to bring this useful invention into fashion in England, and I should not fail to write to some of our doctors very particularly about it, if I knew any one of them that I thought had virtue enough to destroy such a considerable branch of their revenue, for the good of mankind. But that distemper is too beneficial to them, not to expose to all their resentment, the hardy wight that should undertake to put an end to it. Perhaps if I live to return, I may, however, have courage to war with them. Upon this occasion, admire the heroism in the heart of<br />
+<em>Your friend, etc. etc.</em></p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Mon, 13 Oct 2008 05:16:10 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Emperor Meiji to President Grant on Iwakura Mission, 1871 [Letter]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/128</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Emperor Meiji to President Grant on Iwakura Mission, 1871 [Letter]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>The Iwakura Mission was a visit to the United States and Europe between 1871 and 1873 by many of the top officials of the new Meiji government. The primary purpose of the mission was to observe Western countries with an eye towards building a modern nation-state in Japan: in the words of the document, to "select from the various institutions prevailing among enlightened nations such as are best suited to our present conditions, and adapt them in gradual reforms and improvements of our policy and customs so as to be upon an equality with them." Notice, however, that such "improvements" were also motivated by the desire to overturn the unequal treaties imposed upon Japan by the U.S. in 1858.  Education is not mentioned here, but the members of the Iwakura Mission were keenly interested in observing schools and learning more about educational policy. Educational reform was tied closely to the desire to overturn unequal trade arrangements and avoid falling prey to Western imperialism.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Emperor Meiji</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Emperor Meiji to President Grant on Iwakura Mission, 1871. Adopted from the official translation as reproduced in <em>The New York Times</em>, March 5, 1872.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-09-22</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Brian Platt</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">125</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>Mutsuhito, Emperor of Japan, etc., to the President of the United States of America, our good brother and faithful friend, greeting:</p>
+	<p>Mr. President: Whereas since our accession by the blessing of heaven to the sacred throne on which our ancestors reigned from time immemorial, we have not dispatched any embassy to the Courts of Governments of friendly countries. We have thought fit to select our trusted and honored minister, Iwakura Tomomi, the Junior Prime Minister (<em>udaijin</em>), as Ambassador Extraordinary and have associated with him Kido Takayoshi, member of the Privy Council; Ōkubo Works; and Yamaguchi Masanao, Assistant Minister for Foreign Affairs as Associate Ambassadors Extraordinary, and invested them with full powers to proceed to the Government of the United States, as well as to other Governments, in order to declare our cordial friendship, and to place the peaceful relations between our respective nations on a firmer and broader basis. The period for revising the treaties now existing between ourselves and the United States is less than one year distant. We expect and intend to reform and improve the same so as to stand upon a similar footing with the most enlightened nations, and to attain the full development of public rights and interest. The civilization and institutions of Japan are so different from those of other countries that we cannot expect to reach the declared end at once. It is our purpose to select from the various institutions prevailing among enlightened nations such as are best suited to our present conditions, and adapt them in gradual reforms and improvements of our policy and customs so as to be upon equality with them. With this object we desire to fully disclose to the United States Government the condition of affairs in our Empire, and to consult upon the means of giving greater efficiency to our institutions at present and in the future, and as soon as the said Embassy returns home we will consider the revision of the treaties and accomplish what we have expected and intended. The Ministers who compose this Embassy have our confidence and esteem. We request you to favor them with full credence and due regard, and we earnestly pray for your continued health and happiness, and for the peace and prosperity of your great Republic.</p>
+	<p>In witness whereof we have hereunto set our hand and the great seal of our Empire, at our palace in the city of Tokyo, this fourth day of the eleventh month, of fourth year of Meiji.</p>
+
+<p>Your affectionate brother and friend,<br />
+Signed&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Mutsuhito<br />
+Countersigned&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sanjō Sanetomi, Prime Minister</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Wed, 17 Sep 2008 03:26:42 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[An Appeal for African Scouts: Canon William Palmer to Imperial Scout Headquarters, May 5, 1923 [Letter]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/98</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">An Appeal for African Scouts: Canon William Palmer to Imperial Scout Headquarters, May 5, 1923 [Letter]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>Almost immediately after learning of Baden Powell's creation of the Boy Scout Movement in 1907, the leaders of African and ethnically mixed communities (known as "Coloureds" in South Africa) began to found their own informal scout troops. The South African scout authorities refused to recognize these unsanctioned troops as scouts on the grounds that Afrikaner boys would not join a multi-racial organization. But they also worried that the general public would not be able to tell the difference between African boys dressed as scouts and "real" scouts. The South African Scout Association therefore insisted that non-European boys could only belong to a separate "Pathfinder movement" that was under its control but wore a distinctly different uniform.</p> 	<p>European teachers, missionaries, and church leaders like Canon Palmer sponsored most of these Pathfinder troops at African and Coloured schools. While Palmer makes an impassioned plea for the Imperial Scout Headquarters to recognize the Pathfinders as Scouts in pointing out its failure to live up to its own rhetoric of equality, he did not call for the admission of Africans, Coloureds, and Indians to European scout troops. During this period, "liberal" South Africans like Palmer tended to believe that Africans were inherently backwards and still unprepared to enter the "modern" world on equal terms. Instead of calling for equal rights for all South Africans, they strove to ensure that Africans received fair treatment in a segregated society. Liberals like Palmer believed that a "civilizing" form of adapted scouting like the Pathfinder movement would help prepare Africans for full citizenship at some point in the undefined future.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Palmer, William A. to The Boy Scouts Association Imperial Headquarters. May 5, 1923. South African Institute of Race Relations, University of Witwatersrand. Annotated by Tim Parsons.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-06-25</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Tim Parsons</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">95</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>The Boy Scouts Association<br />
+Imperial Headquarters<br />
+ 25 Buckingham Palace Road<br />
+London, S.W. 1</p>
+
+<br />
+<p>5 May 1923</p>
+<br />
+
+<p>Dear Sir,</p>
+
+	<p>This College is the training College for English Church boys (native and coloured) for the whole of the Transvaal and so far back as 1915, the present Bishop of St. Alban's, who was then Bishop of Pretoria, encouraged the idea of the formation of Native Scouts in connection with this College, which would spread eventually to other educational centers in the Diocese. For some time the proposal hung fire, mainly because we were handicapped during the war in the matter of staff; but after the war we were fortunate enough to get on our staff two keen experienced Scoutmasters, the Rev. S. P. Woodfield and Mr. W. E. Wilkinson, who took the matter up with enthusiasm. When, however, we applied to the Transvaal Scout Association in Johannesburg, a meeting was summoned in which we were told courteously, but quite plainly, that not for any reason whatsoever would we be allowed to call ourselves scouts, be affiliated to the Association as scouts, or wear the scout badge— and this, simply because our boys were BLACK— that was all. . . . We were allowed to affiliate ourselves as Pathfinders on condition that we did not wear the same uniform or badge, or call ourselves Scouts. I am not a member of the Association, and so appalled was I at the flagrant breach of what I considered the fundamental principle of Brotherhood that I was for leaving the whole things alone and starting an independent [scout] association, but the two scoutmasters, on the principle that at all costs it was vital to come under the control of the [British] Imperial [Scout] Headquarters, accepted what to me was a compromise of the Johannesburg [scout] executive steeped in racialism and colour prejudice.</p>
+	<p>Now, to our amazement, we find that our Association "cannot come under the jurisdiction of the Imperial Headquarters:" the only advantage we have apparently is affiliation with the Transvaal authorities of Boy Scouts, the body which has made no secret of its determination not to admit into the brotherhood of Scouts, the black and half-caste boy. To me, the ineptitude and shortsightedness of the whole thing is amazing. Our Native students went overseas; our Coloured Corps did most wonderful work during the [First World] War, but simply and solely because of the Colour prejudice their children are excluded from an Association whose first principles are of Brotherhood. Chinese and Japanese boys may be Scouts, but not boys living as an integral part of the British Empire. . . . The result is that all over South Africa, associations of Native Scouts are being formed – having no connection with any central organisation whatsoever. The native boy today sees the illustrated papers and knows that all over the world, irrespective of colour, boys are being enrolled as Scouts. His racial self-consciousness is one of the most marked features of South African life today. Is he likely to be satisfied with an Association having no connection with the great body of world Scouts, and admittedly based on colour prejudice of the most pronounced type, or to be deprived of the right to wear officially a uniform which he knows other black boys in Africa are wearing with credit, and full relationship with the Headquarters at home?</p>
+	<p>I fully appreciate the difficulties of the Scout Headquarters in Johannesburg; South Africa is full of racial prejudice, but I should have thought that the object of the Scout Association was to create an atmosphere in which racial prejudice cannot thrive, and not help to perpetuate it.</p>
+
+<p>I have the honour to be, Sir,<br />
+Your obedient servant,<br />
+<br />
+<br />
+Reverend Canon William A. Palmer<br />
+Principal of the Pretoria Diocesan College<br />
+Director of Native Missions in the Diocese of Pretoria</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Thu, 26 Jun 2008 01:09:43 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[African Scouting (20th c.)]]></title>
+      <link>https://cyh.rrchnm.org/items/show/95</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">African Scouting (20th c.)</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>This module examines the founding principles of Robert Baden-Powell's Boy Scout movement in terms of its vision for decreasing social tensions and fostering adherence to generationally transmitted values; the module illustrates the complexities of the Scouting movement among African youth living under European colonial rule.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-06-25</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Teaching Module Item Type Metadata</h2>
+        <div id="teaching-module-item-type-metadata-bibliography" class="element">
+        <h3>Bibliography</h3>
+                                    <div class="element-text"><ol class="bibliography">
+<li>Brown, Arthur. "The Development of the Scout Movement in Nigeria." <em>African Affairs</em> 46 (1947), 38-42.<br /> <span>Written by a Nigerian Scout official, the article provides a useful survey of the scope of scouting in colonial Nigeria.</span></li>
+<li>Baden Powell, Lord Robert. <em>Scouting for Boys.</em> 13th ed. London: C. Arthur Pearson, 1957.<br /> <span>This is the 13th edition of Baden Powell's original manual on scouting that launched the movement. He revised it regularly in later editions, but it remained scoutings' central canon.</span></li>
+<li>Baden Powell, Sir Robert. "White Men in Black Skins." <em>Elders Review of West African Affairs</em> 8, no. 30 (July 1929), 6-7.<br /> <span>Baden Powell published hundreds of books and articles on scouting, but this piece offers a frank and rare glimpse into his views on race.</span></li>
+<li>Gaitskell, Deborah. "Upward All and Play the Game: The Girl Wayfarers' Association in the Transvaal 1925-1975." In <em>Apartheid and Education: The Education of Black South Africans</em>, edited by Peter Kallaway. Johannesburg: Ravan Press, 1984.<br /> <span>There are very few scholarly works on the Pathfinder movement, but this article covers its sister movement, which was known as the "Wayfarers."</span></li> 
+<li>Proctor, Tammy. "'A Separate Path': Scouting and Guiding in Interwar South Africa." <em>Comparative Studies in Society and History</em> 42, no. 3 (July 2000), 605-31.<br /> <span>Written by a historian specializing in modern Britain, this article is useful for comparing the South African versions of scouting and guiding to their metropolitan British counterparts.</span></li>
+<li>Parsons, Timothy. <em>Race, Resistance and the Boy Scout Movement in British Colonial Africa</em>. Athens: Ohio University Press, 2004.<br />
+<span>This is the only book length treatment of the Boy Scout movement in colonial Africa.  It focuses primarily on scouting in English-speaking eastern and southern Africa.</span></li>
+<li><em>PAXTU: International Web Site for the History of Guiding & Scouting</em>, <a class="external" href=http://www.paxtu.org/index.html> http://www.paxtu.org/index.html</a> (accessed May 16, 2008).<br />
+<span>This website tracks the most current scholarship on international Scouting and Guiding. </span></li>
+</ol></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-document-based-question" class="element">
+        <h3>Document Based Question</h3>
+                                    <div class="element-text"><p>by Elizabeth Ten Dyke<br />
+<em>(Suggested writing time: 50 minutes)</em></p>
+
+<p>In the introduction to this unit, author Tim Parsons writes, "Scouting was thus both an instrument of colonial authority and a subversive challenge to the legitimacy of the British empire." In other words, scouting would "train" African boys to accept colonial power as well as empower Scouts to use the movement to resist or oppose colonial power. Write a well-organized essay drawing on evidence from three primary sources that helps you support this point of view.</p>  </div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-credits" class="element">
+        <h3>Credits</h3>
+                                    <div class="element-text"><p>Grateful acknowledgment is made to the following institutions for primary sources</p>
+<ul>
+<li><a class="external" href="http://eaglepress.com/">Eagle Press</a>,</li>
+<li><a class="external" href="http://standardmedia.co.ke/">East African Standard</a>,</li>
+<li><a class="external" href="http://www.iwm.org.uk/">Imperial War Museum, London,</li>
+<li>Journal of the Royal African Society,</li>
+<li><a class="external" href="http://www.ox.ac.uk/">Oxford University</a>,</li>
+<li><a class="external" href="http://www.scouting.org.za/">South African Scout Association</a>,</li>
+<li>Tanzania National Archives,</li>
+<li>Trustees of the National Library of Scotland, and</li>
+<li><a class="external" href="http://web.wits.ac.za/">University of Witwatersrand</a>.</li>
+</ul>
+
+<h3>About the Author</h3>
+
+<p>Tim Parsons is a Professor at Washington University. Parsons is the author of several books including: Race, Resistance and the Boy Scout Movement in British Colonial Africa; The 1964 Army Mutinies and the Making of Modern East Africa; The African Rank-and-File: Social Implications of Colonial Service in the King's African Rifles, 1902-1964; and The British Imperial Century, 1815-1914: A World History Perspective.</p>
+
+<h3>About the Lesson Plan Author</h3>
+<p>Elizabeth Ten Dyke has a Ph.D. in Cultural Anthropology. She  is Director of Instructional Services for the Kingston City School District,  and is the author of <em>Dresden: Paradoxes of Memory in History</em>.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">Washington University</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-introduction" class="element">
+        <h3>Introduction</h3>
+                                    <div class="element-text"><p>Conceived by General Sir Robert Baden Powell to reduce class tensions in early 20th-century Britain, the Boy Scout movement evolved into an international youth movement that offered a romantic program of vigorous outdoor life for boys and adolescents as a cure for the physical decline and social disruption caused by industrialization and urbanization. One of scouting's main goals was to create social stability by dealing with the complex problem of adolescence. Every generation fears that the generation that comes after it will not respect its rules, values, and division of property. As a uniformed and disciplined youth organization, the Scout movement taught young males in the difficult years between childhood and adulthood to respect older generations and accept their place in society. By the 1920s most of the nations of the world had embraced the movement as a way to teach young people to be loyal to the state and respect their elders. While governments worldwide utilized scouting to reinforce political and social authority, such was not the case in colonial Africa where marginalized groups and social outsiders used scouting to challenge dominant institutions.</p>
+<p>Scouting began in 1907 with Robert Baden-Powell's creation of a youth organization aimed at promoting physical, moral, and imperial fitness among British youth by capitalizing on their fascination with "frontier woodcraft" and "tribal" life. He incorporated these elements into scouting in order to inspire young Britons to emulate what he interpreted to be the most praiseworthy aspects of African life. A diverse and eclectic mix of tribal peoples that included Amerindians, Arab Bedouins, and New Zealand Maoris served as inspirations for the movement, but Africans occupied a central place in Baden Powell's thinking. A 20-year career fighting colonial wars made him a self-proclaimed expert on "tribal" cultures, which he claimed to have incorporated into the scout movement.</p>
+<p>At first, Baden-Powell did not have a specific ideology for scouting.  But eventually several key themes emerged in his thinking and became the central core of the scout creed. Concerned that urban slums and vice were undermining British security, he aimed to prepare younger generations to defend their nation and empire. Just as life on the imperial frontier taught virility, resourcefulness, and self-control, scouting was a "school of the woods" that would instill these same ideals in British youth. By adopting the values and discipline of "tribal" peoples, scouting would teach the vital manly qualities that consumerism and materialism had drained away from "civilized" western society.</p>
+<p>Similarly, Baden Powell also believed that class tensions led to national weakness. He therefore envisioned scouting as a way to teach working-class boys to accept their place in society by stressing obedience, discipline, and simplicity.  This helps to explain the Fourth Scout Law: "A Scout is a Brother to every other Scout." Baden Powell never intended for this brotherhood to lead to social equality; rather it was a sense of fraternity in scouting that would defuse social tensions by reducing friction between rich and poor boys.</p>
+<p>In the tense years before World War One, the movement's critics charged that scouting secretly prepared young men for military service. Baden Powell emphatically denied the charge, and after the war he recast scouting as an international peace movement. More significantly, he also acknowledged that non-Europeans could also be scouts and gave his blessing to administrators and educators who introduced scouting throughout the empire to teach imperial loyalty, encourage African and Asian students to accept their place in colonial society, and reduce the political and social friction that came with foreign imperial rule. By the inter-war era, colonial administrators and educators had begun to fear that student unrest, urban migration, and juvenile delinquency were products of a growing social crisis in local African communities. British administrators relied on local allies and chiefs to govern the African majority, and they worried that the younger generation's rejection of their elders' authority threatened widespread political and social instability.</p> 	<p>The Boy Scout movement promised to correct this imbalance by teaching students and city boys to respect colonial authority throughout the continent. In French-speaking Africa, Baptist missionaries in the Belgian Congo tried to substitute scouting for secret male initiation ceremonies, which they considered immoral, while Catholic educators sought to use the movement to train "Christian knights" to assist in converting the wider African population. Similarly, in the French colonies the authorities tried to use scouting to train a small African elite that would help them control the rest of colonial society.</p> 	<p>In eastern and southern Africa, British officials claimed that the authority of their African allies stemmed from "tribal tradition." But they also introduced western schooling to train the young Africans to help run the colonies and to demonstrate that they were "civilizing" their "primitive" subjects. The scout movement never achieved a mass African following, but it targeted the students, juvenile delinquents, and urban migrants that were the greatest threat to British rule.  Colonial educators and administrators worried that these "detribalized" Africans were politically dangerous, particularly when they flaunted "tribal tradition" and aspired to live a western lifestyle alongside European settlers. The colonial authorities turned to scouting to "retribalize" African adolescents by teaching them to remain in the countryside and accept the authority of their "native chiefs." Ironically, they looked to scouting to teach African boys how to be "tribal."</p> 	<p>Yet Africans also used scouting to claim the rights of full citizenship. They invoked the Fourth Scout Law, which declared a scout was a brother to every other scout, to challenge racial discrimination. Rather than making colonialism run more smoothly, then, scouting offered African boys a way to resist the discriminatory laws and social barriers that made them second-class citizens. Rejecting the authority of official colonial scout associations, they formed their own unauthorized troops to claim the power and legitimacy of the scout movement for themselves. Scouting was thus both an instrument of colonial authority and a subversive challenge to the legitimacy of the British Empire. The African Scout experience thus demonstrated how marginalized groups and social outsiders could use the movement to challenge these very same institutions. </p> 	<p>Baden Powell would have been dismayed by how these independent troops twisted and reinterpreted the scout canon to demand rights, respect, and eventually independence. In Kenya, some African troops ventured into politics during the early 1950s by supporting the anti-colonial Mau Mau rebellion, which was essentially a civil war between landless Kikuyu young men and the wealthy Kikuyu chiefs and landowners who were allied with the British colonial regime. While some African boys who wanted to join the movement illegally acquired uniforms they donned, others used scout clothing to exploit the colonial authorities' assumption that they were trustworthy. Dressed as scouts, they could travel more freely about the colony and were often able to collect money for "scout" activities. Scouting thus simultaneously bolstered colonial authority and challenged the legitimacy of the British Empire.</p> 	<p>Despite the challenges they posed during the 1950s, most territorial scout associations in Africa grew and prospered by allying with the colonial authorities.  European scout leaders demonized African nationalists and were caught by surprise when these men came to power after independence in the early 1960s.  It seemed likely that the movement's close ties to British imperialism would lead to its demise in post-colonial Africa, but the Africans who inherited control of the scout associations reinterpreted the scout canon to transfer their loyalty to the new nationalist regimes. The survival of scouting in the nationalist era thus demonstrates that the movement's vulnerability to re-interpretation by outsiders was also one of its great strengths. Once the new lines of political authority were clear, the scout associations made African nationalist regimes the focus of their second law ("A Scout is Loyal"). Even modern South African scouting, which lost popular African support for its unwillingness to challenge apartheid, has successfully reinvented itself as a force for economic and social development in the new South Africa.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Tim Parsons</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-strategies" class="element">
+        <h3>Strategies</h3>
+                                    <div class="element-text"><p>The Boy Scout movement exposes the tensions and divisions in any given society. Official scouting seeks an alliance with authority, and scout leaders interpret the scout canon to reflect prevailing values and social norms. Conversely, unofficial local modifications of scouting can express political and social opposition. National scout associations usually prevail in the struggle to define scout orthodoxy when their ties to political authority remain intact. Problems arise when the political and social terrain shifts before official scouting has time to react. As a result, scout authorities have become embroiled in controversies ranging from the civil rights struggle in the American South, nationalist resistance movements in India, and the contemporary American debate over gay rights.</p> 	<p>In colonial Africa, scouting exposed the hypocrisy and instability of British imperial rule. Administrators and educators hoped to use the movement to teach young Africans to accept their subordinate place in colonial society, but the Fourth Scout Law, which declared that all scouts were brothers, gave Africans the means to reject this second-class status. Thus, the two central themes that emerge from colonial African scouting are: 1) the movement's official role in imperial governance and administration, 2) African moves to take scouting over for their own purposes.</p> 
+<h3>Discussion Questions</h3>
+<ul>
+<li>What was the official purpose of the scout uniform? Why would boys in general, and African boys in particular find it appealing? How did the scout uniform and badges both reinforce and disrupt British colonial rule in Kenya and South Africa?</li>  
+
+<li> Why did the South African Scout Association force African boys to become Pathfinders instead of regular scouts? How did the segregated South African scout movement reflect the larger racial divisions in South African society? Why did Africans find the movement appealing despite its official ties to the apartheid regime?</li>
+</ul></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-lesson-plan" class="element">
+        <h3>Lesson Plan</h3>
+                                    <div class="element-text"><h3>Lesson Plan: ".. . And a Brother to Every Scout."</h3>
+<p>by Elizabeth Ten Dyke</p>
+<p><strong>Time Estimated:</strong> three 50-minute classes</p>
+
+<h3>Objectives</h3>
+<ol>
+<li>Discuss the influence of colonial experience on Baden Powell's decision to found the Boy Scouts</li>
+<li>Describe activities related to scouting in Africa</li>
+<li>Explain how a cultural tradition (scouting) can express social conflict and political struggle in a particular time and place.</li>
+</ol>
+<h3>Materials</h3>
+<ul>
+<li>Five sheets of chart paper</li>
+<li>Markers</li>
+<li>Copies of the <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/95?section=introduction">"Introduction"</a> to this module for all students, plus one extra</li>
+<li>Tape/glue</li>
+<li>Copies of each primary source, sufficient for all students</li>
+<li>Copies of <a class="external" href="http://chnm.gmu.edu/cyh/archive/files/fact_fib.pdf">"Fact or Fib" worksheet</a>, sufficient for all students</li>
+<li>Blank paper</li>
+<li>Colored pencils</li>
+</ul>
+
+<h3>Preparation</h3>
+<p>Take the <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/95?section=introduction">"Introduction"</a> to this module and cut it into five sections&mdash;two paragraphs per section. Attach each section to a sheet of chart paper. Label the charts A through E.  Post the chart paper around the room, or set each on a different desk or table.</p>
+
+<h3>Day One</h3>
+<p><em>Hook</em><br />
+Introduce the lesson by asking the students, "What do you think of when you think of the Boy Scouts?" Students may think of the uniforms of scouting, the rules and traditions, loyalty, activities such as camping, and awards including Eagle Scouts. They may mention Christian and anti-gay aspects of the scouting movement. Particularly if these subjects come up, ask students to speculate about how or why scouting has become an activity mired in disagreements about moral issues in our society today.</p>
+
+<p><em>Instruct</em><br />
+Explain to students that they will learn about the history of the Boy Scouts (when, where, and why it was founded). They will study primary sources that illustrate some of the tensions and conflicts that occurred when scouting expanded into colonial Africa. This lesson will help students see how cultural traditions can reflect complicated social situations in which different groups of people express disagreement and exercise competing interests.</p>
+
+<p><em>Activity</em><br />
+Give each student a complete copy of the introduction. Break the students into five groups, one at or near each poster. Assign each group the two paragraphs of reading that correspond to their poster. After they have completed their reading, they should make a bulleted list on the chart paper in which they outline the main ideas of the assigned passage. Have each group present their summary in turn. Students who are listening as others speak should take notes on the material.</p>
+
+<p><em>Discussion Questions</em></p>
+<ul>
+<li>Chart A (paragraphs 1, 2): What tribal peoples served as inspiration for the scouting movement? What was scouting supposed to teach the young people who participated in it?</li>
+<li>Chart B (paragraphs 3, 4): What concerned Baden Powell about his nation&rsquo;s youth? What values did he hope the Scouts would learn through their participation? Explain the Fourth Scout Law "A Scout is a Brother to every other Scout."</li>
+<li>Chart C (paragraphs 5, 6): Explain how scouting became an international movement. How was scouting supposed to help British colonial authorities maintain their power in places like Africa?</li>
+<li>Chart D (paragraphs 7, 8): Which young people were targeted for the African scouting movement? Why them? Give two examples of how "Africans . . . used scouting to claim the rights of full citizenship."</li>
+<li>Chart E (paragraphs 9, 10): How did scouting become involved in the 1950 Mau Mau rebellion in Kenya? Explain what happened to African scouting after British colonial rule came to an end. Did scouting come to an end as well? Why or why not?</li>
+</ul>
+
+<p><em>Homework</em><br />
+Working from their class notes, students should summarize information about how the basic values and goals were part of the Boy Scout movement early on. They should describe the goals of British colonial authorities as scouting was brought into Africa, and they should give one example of the way in which the Scouts went against British power.</p>
+
+<h3>Day Two</h3>
+<p><em>Activity #1</em></p>
+<ul>
+<li>Distribute copies of primary source: <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/95?section=primarysources&source=96">The Scouts' War Dance--Baden Powell's adaptation of a Zulu chant, c. 1910</a></li>
+<li>Distribute blank paper, colored pencils</li>
+</ul>
+
+<p>Have students look at the introduction to this primary source. Point out that Tim Parsons writes, the "odd ritual" of the war dance "was just the sort of thing that Edwardian schoolboys loved for it allowed them to play at being Africans in a thoroughly modern context." Ask students to speculate about what the author means by this statement.</p>
+
+<p>Have the whole class carefully read the description of the dance. Working in pairs, students should:</p>
+<ul>
+<li>Restate the different steps and parts of the dance in their own words.</li>
+<li>Draw or sketch an image of the scouts participating in this dance.</li>
+<li>Discuss what elements of the dance incorporate stereotypes about African culture.</li>
+<li>Discuss what elements of the dance incorporate scouting traditions.</li>
+</ul>
+<p>As a whole class: share sketches and discuss "How would this dance help Baden Powell achieve some of his goals for scouting?"</p>
+
+<p><em>Activity #2</em></p>
+
+<ul><li>Distribute copies of primary source: <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/95?section=primarysources&source=98">"Appeal for African Scouts: Canon William Palmer to Imperial Scout Headquarters May 5, 1923."</a></li></ul>
+
+<p>Using a pen, pencil, or highlighter, underline passages in the letter that answer the following questions:</p>
+
+<ul>
+<li>Who is the author of the letter? To whom is it addressed?</li>
+<li>Where in Africa (what territory) was the author of this letter and his students?</li>
+<li>Why were the students not allowed to call themselves Scouts?</li>
+<li>What <em>were</em> they allowed to do?</li>
+<li>What are three points the author makes to demonstrate that this is unfair?</li>
+</ul>
+
+<p><em>Homework</em><br />
+Respond in writing to the following question: "What does this conflict (over who may be a Scout) reveal or show about society in the Transvaal at this time?" Support your response with evidence from the document.</p>
+
+<h3>Day Three</h3>
+<ul>
+<li>Discuss the previous day's homework, focusing on the ways students used documentary evidence to support their point of view.</li>
+<li>Distribute primary source: <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/95?section=primarysources&source=102">"Legal Protection for Scout Uniform 1935: Tanganyika Government Ordinance."</a></li>
+<li>Distribute copies of the "Fact or Fib?" worksheet.</li>
+</ul>
+
+<p>Have students read the legislation with the worksheet in front of them. For each question on the worksheet, they should write a correct response (fact) and an incorrect response (fib).</p>
+
+<p>The entire class should address each question in turn. The student who answers may give the correct response, or the student may give an incorrect response. The other students should listen carefully. If the response is correct they should call out "Fact!" If the answer is false, they should call out "Fib!" Then, when asked, a student who identified a fib may give the correct information.</p>
+
+<p><em>Discussion</em><br />
+Based on your reading of this legislation, infer some of the problems that were occurring with Scouts in this time and place. In other words, what may have been going on that that government felt it was necessary to create this ordinance?</p>
+<p>Distribute copies of primary source: <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/95?section=primarysources&source=97">"Organization of British Imperial Scouting"</a> (table, 1951)/</p>
+
+<p>As a whole class discuss:</p>
+<ul>
+<li>What are the four groups of troops at the bottom of the chart?</li>
+<li>How many levels of authority were above them?</li>
+<li>What was the highest level?</li>
+<li>What was the second highest level?</li>
+<li>What does this chart show about the relationship between the British Empire and Africa?</li>
+</ul>
+<h3>Day Four</h3>
+
+<h3><a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/95?section=dbq">DBQ Essay</a></h3>
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-primary-sources" class="element">
+        <h3>Primary Sources</h3>
+                                    <div class="element-text">96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Thu, 26 Jun 2008 00:01:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

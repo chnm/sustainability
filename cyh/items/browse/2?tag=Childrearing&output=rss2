@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse/2?tag=Childrearing&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:24:06 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[The Atlantic Slave Trade and Slave Life in the Americas:  A Visual Record]]></title>
+      <link>https://cyh.rrchnm.org/items/show/34</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">The Atlantic Slave Trade and Slave Life in the Americas:  A Visual Record</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text">This database amasses over 1200 images documenting the history of the Atlantic slave trade and the lives of slaves and former slaves in the Americas. The images document the history of enslavement in West and West Central Africa, the English and French Caribbean, Brazil, and the United States. Most of the images are watercolors, sketches, and prints from 18th and 19th century European and American texts, although a few pieces predate this era, or are digitalized versions of previously unpublished archival material.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-04-03</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Website Review Item Type Metadata</h2>
+        <div id="website-review-item-type-metadata-website-url" class="element">
+        <h3>Website URL</h3>
+                                    <div class="element-text">http://hitchcock.itc.virginia.edu/Slavery/index.php</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-creator" class="element">
+        <h3>Website Creator</h3>
+                                    <div class="element-text">Virginia Foundation for the Humanities and University of Virginia</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-date-of-review" class="element">
+        <h3>Date of Review</h3>
+                                    <div class="element-text">December 2007</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-review-text" class="element">
+        <h3>Website Review Text</h3>
+                                    <div class="element-text"><p><a class="external" href=http://hitchcock.itc.virginia.edu/Slavery/index.php><em>The Atlantic Slave Trade and Slave Life in the Americas: A Visual Record</em></a> amasses over 1,200 images documenting the history of the Atlantic slave trade and the lives of slaves and former slaves in the Americas. The images document the history of enslavement in West and West Central Africa, the English and French Caribbean, Brazil, and the United States. Most of the images are watercolors, sketches, and prints from 18th and 19th century European and American texts, although a few pieces predate this era, or are digitalized versions of previously unpublished archival material. Finally, the site also contains a few newspaper advertisements for runaway slaves, such as this 1763 <a class="external" href=http://hitchcock.itc.virginia.edu/Slavery/detailsKeyword.php?keyword=boy&recordCount=33&theRecord=15> "Fugitive Slave Advertisement"</a> publicizing the escape of four slaves, including one 15-year-old boy.</p>  
+
+<p>Viewers can search for images of children within this site by browsing the 18 broad subject categories by which the database is organized. Two categories that include many images of children are <a class="external" href=http://hitchcock.itc.virginia.edu/Slavery/return.php?categorynum=2&categoryName=Pre-Colonial%20Africa:%20Society,%20Polity,%20Culture>Pre-Colonial Africa: Society, Polity, Culture</a> and <a class="external" href=http://hitchcock.itc.virginia.edu/Slavery/return.php?categorynum=13&categoryName=Family%20Life,%20Child%20Care,%20Schools>Family Life, Child Care, Schools</a>. Larger numbers of images involving children can be located by doing a keyword search from the general database for <a class="external" href=http://hitchcock.itc.virginia.edu/Slavery/returnKeyword.php?keyword=children> children</a> (97 images), <a class="external" href=http://hitchcock.itc.virginia.edu/Slavery/returnKeyword.php?keyword=girl> girl</a> (26 images) and <a class="external" href=http://hitchcock.itc.virginia.edu/Slavery/returnKeyword.php?keyword=boy> boy</a> (33 images).</p>
+
+<p>While the types of sources contained in this site pose some challenges to effective classroom use, instructors who think carefully about how to have students use these images will be rewarded with rich results. Both full bibliographic references and a clear indication of the geographic and temporal setting depicted are provided for each image. Also included are any relevant textual passages that might have accompanied an image in its original publication. However, as the site makes clear, its authors have made little effort to interpret the images or establish the historical authenticity or accuracy of what they depict, so much is required in this area by viewers.</p>  
+
+<p>There are several ways to approach this material. Instructors might point out to students that the images do not necessarily document slavery's history in a straight-forward and unmediated fashion, and in this case, they might design exercises for students that called for them to consider how the context and objective of an image's creator shaped the content of the image generated. This approach could be done by either restricting students to the use of material contained at the site, or by requiring them to do further research on the images’ creators.</p> 
+
+<p>Another option would be to explore the ways in which children are ubiquitous in images on this site, for example, as infants, strapped to the backs of women – presumably their mothers. Yet this depiction seems at odds with what we know to have been the extremely high rates of infant and childhood mortality that children experienced across the Americas under slavery. Young children in these images are also most often shown playing near, or sitting on the laps of their mothers, yet again, we know that it was common for slave children to be sold to others separately from their mothers. Instructors might therefore ask their students: Have these artists exaggerated the predominance of children's proximity to their mothers in these images? If so, why?</p>
+
+<p>Instructors might start by encouraging students to formulate interpretations involving childhood and children in slavery from the images, and then moving to secondary source material to learn more. Or an assignment could begin with historical context and then look for patterns mentioned in the literature or for images that counter a historical narrative. A few secondary sources that would work well with this collection of images include: Digital History's entry on <a class="external" href=http://www.digitalhistory.uh.edu/black_voices/voices_display.cfm?id=22> African American Voices</a> and Annie L. Burton's 19th century slave chronicle, <a class="external" href=http://docsouth.unc.edu/fpn/burton/burton.html> Memories of Childhood's Slavery Days</a>.</p>
+
+<p>One fascinating theme to explore would be inter-racial relations that childcare arrangements between slave and slave-owning families entailed.  See, for example, <a class="external" href=http://hitchcock.itc.virginia.edu/Slavery/detailsKeyword.php?keyword=children&recordCount=97&theRecord=37>Enslaved House Servants and White Children, South Carolina, 1863</a> and <a class="external" href=http://hitchcock.itc.virginia.edu/Slavery/detailsKeyword.php?keyword=children&recordCount=97&theRecord=44> Black Nursemaid, New Orleans, 1873-74</a>. Instructors might have students study these and other such images to consider how the relations they depict suggest ties of emotional intimacy and social proximity that contradict the more brutal relations between slaves and slave owners portrayed in so many other images at the site.</p>
+
+<p>Instructors could also use images in this collection to examine the issue of gender, encouraging students to consider, for example, how the slave experience differently affected boys and girls.  Students could analyze such images as George Cruikshank's pro-abolitionist drawing, <a class="external" href=http://hitchcock.itc.virginia.edu/Slavery/detailsKeyword.php?keyword=Cruikshank&recordCount=1&theRecord=0> "Punishment Aboard a Slave Ship, 1792"</a>  which depicts a 15-year-old girl who was tortured to death for her "virgin modesty" (she had refused to dance naked on the deck of a British slaving ship) or the similar scene illustrated in <a class="external" href=http://hitchcock.itc.virginia.edu/Slavery/detailsKeyword.php?keyword=girl&recordCount=26&theRecord=18>"Whipping a Slave in Surinam, 1770s"</a>. Such illustrations allow students to examine how slave owners and captors projected notions of heightened sexuality, or presumptions of sexual availability on female slaves, and contrast these with the experience of males.</p></div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-image-file-name" class="element">
+        <h3>Image File Name</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer" class="element">
+        <h3>Website Reviewer</h3>
+                                    <div class="element-text">Nora E. Jaffary</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-website-reviewer-institution" class="element">
+        <h3>Website Reviewer Institution</h3>
+                                    <div class="element-text">Concordia University</div>
+                    </div><!-- end element -->
+            <div id="website-review-item-type-metadata-pullquote" class="element">
+        <h3>Pullquote</h3>
+                                    <div class="element-text">The Atlantic Slave Trade and Slave Life in the Americas: A Visual Record amasses over 1,200 images documenting the history of the Atlantic slave trade and the lives of slaves and former slaves in the Americas.</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set --><div class="item-file image-jpeg"><a class="download-file" href="/files/download/22/fullsize"><img src="/files/display/22/square_thumbnail" class="thumb" alt="The Atlantic Slave Trade and Slave Life in the Americas:  A Visual Record" width="250" height="250"/>
+</a></div>]]></description>
+      <pubDate>Thu, 03 Apr 2008 15:50:21 +0000</pubDate>
+      <enclosure url="https://cyh.rrchnm.org/files/download/22/fullsize" type="image/jpeg" length="65384"/>
+    </item>
+  </channel>
+</rss>

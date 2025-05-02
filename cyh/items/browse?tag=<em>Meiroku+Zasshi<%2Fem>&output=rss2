@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=%3Cem%3EMeiroku+Zasshi%3C%2Fem%3E&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:24:29 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[On Education [Essay]]]></title>
+      <link>https://cyh.rrchnm.org/items/show/135</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">On Education [Essay]</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                                    <div class="element-text"><p>This essay was printed in the periodical <em>Meiroku Zasshi</em> in May 1874. The magazine was produced by a small group of intellectuals committed to the study of Europe and America. This journal, and the individuals who contributed to it, were at the core of the "Civilization and Enlightenment" movement in Japan in the 1870s. These intellectuals viewed themselves as enlighteners responsible for reforming Japanese society by spreading the word about the civilization that they observed in the West. They wrote on a variety of topics, using their knowledge of Europe and America to critique existing institutions and practices in Japan. Among other things, they advocated for the separation of church and state and for a more equitable, progressive model for relationships between husbands and wives. In this essay, Mitsukuri Shūhei emphasizes the importance of childhood as a distinct phase of life—the "dividing point at which it is determined whether an individual throughout his life will be wise or stupid, good or bad." Education, therefore—within both the school and the home—is of the utmost importance.</p></div>
+                    </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Mitsukur Shūhei</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                                    <div class="element-text">Shūhei, Mitsukuri. "On Education." <em>Meiroku Zasshi: Journal of the Japanese Enlightenment</em>. Translated and edited by William Braisted, 106-108. Cambridge: Harvard University Press, 1976.</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2008-09-25</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                                    <div class="element-text">Brian Platt</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                                    <div class="element-text">125</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                                    <div class="element-text">text</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">en</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Document Item Type Metadata</h2>
+        <div id="document-item-type-metadata-text" class="element">
+        <h3>Text</h3>
+                                    <div class="element-text"><p>Our children will surely become ill and die if we fail to give attention to their care during childhood. Moreover, if we do not educate them thoughtfully, they will invariably grow up so bigoted and stupid that they will be unable to compete even among barbarians. These are truisms most easy to understand. When it comes to caring for children, there is a natural instinct among parents, regardless of wealth and sophistication, to feel that they must earnestly protect their young. Is it not really strange and regrettable, however, that they are not a few who without reflection ignore the factor of education?</p>
+
+<p>From infancy until they are six or seven, children's minds are clean and without the slightest blemish while their characters are as pure and unadulterated as a perfect pearl. Since what then touches their eyes and ears, whether good or bad, makes a deep impression that will not be wiped out until death, this age provides the best opportunity for disciplining their natures and training them in deportment. They will become learned and virtuous if the training methods are appropriate, stupid and bigoted if the methods are bad. Just as a young tree once bent at planting cannot be straightened when it grows up, what deeply penetrates children's minds during this sensitive and keen period cannot be changed after they grow up, even though one may desire to do so. How can we avoid giving attention to this age that is the dividing point at which it is determined whether an individual throughout his life will be wise or stupid, good or bad?</p>
+
+<p>The countries of Europe and American have naturally left nothing undone in establishing schools everywhere and developing every method for the education of their children. With the advance of modern culture, however, the theory is increasingly widespread that education in the home clearly surpasses that in the schools. The theory runs as follows: A family resembles a country, and for parents to educate their children is their clear responsibility from the point of view of natural ethics (<em>tendō jinri</em>). Parents at home are able to guide children at any time during infancy when the young people are most receptive. Teaching what they desire to teach and transmitting what they desire to transmit, the father by his strictness and the mother by her tenderness carry on together without the injury of outsiders disturbing and tempting the children. Once the children leave home, it will be impossible for them to avoid disturbing and tempting evils even though their education is in a place of upright customs. Since the affection of even good teachers and good friends is vastly different from the guidance of parents as the best teachers for educating small children.</p>
+
+<p>This principle applies, however, only to the comparatively wealthy middle and upper class families since there are few parents even in the enlightened countries, not to mention unenlightened countries, who train their children sufficiently at home. There are times when even such [advantaged] parents can only entrust the training of their children to others for the reason that they are prevented by their occupations from performing their family duties. Under present conditions in society, however, parents take for granted that their children should be entrusted to others, and they seem not to recognize that their children's education is their principle parental responsibility. The homes being without parental training, the children of the rich consequently become accustomed to arrogant and extravagant ways by associating only with ignorant and blind servants, while the children of the poor learn mean and dirty habits by mingling with ignorant and stupid children. How can these children avoid becoming ignorant and stupid and thus waste their days in profitless and harmful activities?</p>
+
+<p>When the children grow up ignorant and delinquent because their parents were prevented by their occupations from training them, not a few parents freely admonish the children or even go so far as to reproach the children's friends and teachers without recognizing that they, the parents, themselves are the guilty. While they may be extremely mistaken, however, they should not be harshly blamed. Should you ask why, it is because they do not know how to educate their children since they, after all, did not themselves receive training from their parents.</p>
+
+<p>What then should we do about the situation? Needless to say, event though we want to halt the illness, the cure cannot be accomplished in a day when the disease has penetrated to the marrow of the bone. Therefore, I do not now suddenly hold the parents wholly responsible for the education of their children. If parents just recognize the training of their children to be their responsibility and if they attentively exhaust their powers to this end, then I hope that their children will also understand their responsibility to educate the succeeding generation and that this may ultimately become a family tradition and regional custom. What I desire still  more deeply is only that, by actively establishing girls' schools and devoting our energies to educating girls, we may train these girls to understand how important it is for them to educate the children to whom they give birth.</p>
+
+<p>Napoleon I once observed to the famous woman teacher Campan, "Since all the old methods of education really seem to be worthy of respect, what do we lack for the good upbringing of the people?" When Campan replied "Mothers," the emperor exclaimed in surprise, "Ah, this is true! This single word suffices as the guiding principle of education." These are indeed meaningful words.</p>
+
+<p>In a later number, I shall explain the necessity for girls' schools.</p></div>
+                    </div><!-- end element -->
+            <div id="document-item-type-metadata-related-primary-sources" class="element">
+        <h3>Related Primary Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Thu, 25 Sep 2008 22:51:56 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

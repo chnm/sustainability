@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Children and Youth in History]]></title>
+    <link>http://cyh.rrchnm.org/items/browse?tag=Chinese+Family+Life&amp;output=rss2</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Wed, 11 Aug 2021 03:18:42 +0000</pubDate>
+    <managingEditor>chnm@gmu.edu (Children and Youth in History)</managingEditor>
+    <generator>Zend_Feed</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[Late Imperial China]]></title>
+      <link>https://cyh.rrchnm.org/items/show/221</link>
+      <description><![CDATA[<div class="element-set">
+    <h2>Dublin Core</h2>
+        <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                                    <div class="element-text">Late Imperial China</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-subject" class="element">
+        <h3>Subject</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-creator" class="element">
+        <h3>Creator</h3>
+                                    <div class="element-text">Sue Fernsebner</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-date" class="element">
+        <h3>Date</h3>
+                                    <div class="element-text">2009-03-25</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-contributor" class="element">
+        <h3>Contributor</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-relation" class="element">
+        <h3>Relation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-format" class="element">
+        <h3>Format</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-language" class="element">
+        <h3>Language</h3>
+                                    <div class="element-text">eng</div>
+                    </div><!-- end element -->
+            <div id="dublin-core-type" class="element">
+        <h3>Type</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-identifier" class="element">
+        <h3>Identifier</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="dublin-core-coverage" class="element">
+        <h3>Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Additional Item Metadata</h2>
+        <div id="additional-item-metadata-transcription" class="element">
+        <h3>Transcription</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-local-url" class="element">
+        <h3>Local URL</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-online-submission" class="element">
+        <h3>Online Submission</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-posting-consent" class="element">
+        <h3>Posting Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-submission-consent" class="element">
+        <h3>Submission Consent</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-edit" class="element">
+        <h3>Process Edit</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-annotate" class="element">
+        <h3>Process Annotate</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-process-review" class="element">
+        <h3>Process Review</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-website-image" class="element">
+        <h3>Website Image</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-analyzing-sources" class="element">
+        <h3>Analyzing Sources</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-publisher" class="element">
+        <h3>Publisher</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-creator" class="element">
+        <h3>Creator</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-source" class="element">
+        <h3>Source</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-date" class="element">
+        <h3>Date</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights" class="element">
+        <h3>Rights</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-bibliographic-citation" class="element">
+        <h3>Bibliographic Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-provenance" class="element">
+        <h3>Provenance</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-citation" class="element">
+        <h3>Citation</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-spatial-coverage" class="element">
+        <h3>Spatial Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-rights-holder" class="element">
+        <h3>Rights Holder</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+            <div id="additional-item-metadata-temporal-coverage" class="element">
+        <h3>Temporal Coverage</h3>
+                    <div class="element-text-empty">[no text]</div>
+            </div><!-- end element -->
+        </div><!-- end element-set --><div class="element-set">
+    <h2>Teaching Module Item Type Metadata</h2>
+        <div id="teaching-module-item-type-metadata-bibliography" class="element">
+        <h3>Bibliography</h3>
+                                    <div class="element-text"><ol class="bibliography">
+<li>Cao Xueqin. <em>The Story of the Stone</em>. Translated by David Hawkes. 5 vols. New York: Penguin Classics, 1973.<br/> 
+
+	<span>A classic novel from 18th-century China that presents the life of an elite family, offering rich detail of daily life and practice, period humor, and dramatic intrigue.</span></li>
+
+<li>Hsiung Ping-chen. <em>A Tender Voyage: Children and Childhood in Late Imperial China</em>. Stanford: Stanford University Press, 2005. <br/>
+
+	<span>A path-breaking work on childhood in late Imperial China – an excellent study that explores the lives of children in relation to the social, material, and philosophical context of the period while raising important historiographic issues for further research.</span></li>
+
+<li>Kinney, Anne Behnke, ed. <em>Chinese Views of Childhood</em>. Honolulu: University of Hawaii Press, 1995.<br/> 
+	
+	<span>An edited volume rich in its thematic and temporal coverage of themes related to childhood in Chinese history.</span></li>
+
+<li>Saari, Jon L. <em>Legacies of Childhood: Growing Up Chinese in a Time of Crisis, 1890-1920</em>. Cambridge, MA: Harvard University Press East Asian Monographs, 1990.<br/> 
+
+	<span>This text provides an insightful examination of the experience of childhood at a moment of historical transition between the established traditions of family and education and the shifts accompanying the rise of a modern China in the early 20th century.</span></li>
+
+</ol></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-document-based-question" class="element">
+        <h3>Document Based Question</h3>
+                                    <div class="element-text"><p>by Susan Douglass<br />
+<em>(Suggested writing time: 50 minutes)</em></p>
+
+<p>Using the images and texts in the documents provided, write a well-organized essay of at least five paragraphs in response to the following prompt.</p>
+<ul>
+<li>Create a portrait describing childhood in late Imperial China in terms of the roles children were socialized to fulfill, the roles parents were expected to play in providing for and nurturing children at different stages of development, and the cultural objects used in teaching, entertaining, and childrearing. Base your description on analysis of evidence in the documents.</li>
+</ul>
+
+<p>Your essay should:</p>
+<ul>
+<li>have a clear thesis,</li>
+<li>use at least six of the documents to support your thesis,</li>
+<li>how analysis by grouping the documents into at least two groups,</li>
+<li>analyze the point of view of the documents, and</li>
+<li>recognize the limitation of the documents before you by suggesting an additional type of document or source to make your discussion more complete or valid.</li>
+</ul>
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-credits" class="element">
+        <h3>Credits</h3>
+                                    <div class="element-text"><h3>Grateful acknowledgment is made to the following institutions for primary sources:</h3>
+<p>[Information Coming Soon]</p>
+<h3>About the Author</h3>
+<p>Sue Fernsebner is a specialist in the cultural and social history of China during the 19th and 20th centuries. Her interests lie in the shared realms of material culture and social experience, gender, and global encounters. Included among her published works is the study "A People's Playthings: Toys, Childhood, and Chinese Identity, 1909&ndash;1933." She is currently finishing a book on China's participation in world's fairs and international expositions. She is Assistant Professor of History at the University of Mary Washington.</p>
+
+<h3>About the Lesson Plan Author</h3>
+
+<p>Susan Douglass is a doctoral student in history at George Mason University, and also serves as education outreach consultant for the Al-Waleed Center for Muslim-Christian Understanding at Georgetown University. Publications include <em>World Eras: Rise and Spread of Islam, 622-1500</em> (Thompson/Gale, 2002), the study <em>Teaching About Religion in National and State Social Studies Standards</em> (Freedom Forum First Amendment Center and Council on Islamic Education, 2000), and teaching resources, both online and in print, including and the curriculum project <em>World History for Us All, The Indian Ocean in World History</em>, and websites for documentary films such as <em>Cities of Light: the Rise and Fall of Islamic Spain</em> and <em>Muhammad:Legacy of a Prophet</em>.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-institution" class="element">
+        <h3>Case Study Institution</h3>
+                                    <div class="element-text">University of Mary Washington
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-introduction" class="element">
+        <h3>Introduction</h3>
+                                    <div class="element-text"><p>An exploration of primary sources on childhood in late imperial China (framed broadly as the Song through Qing dynasties, ca. 960-1911 CE) offers a window into lived experience and the diverse ways in which childhood itself could be imagined and articulated. As with other times and places, the historical record presents a variety of perspectives and different takes on childhood, providing a sense of that realm as socially defined, imagined, and experienced.</p>
+<p>Chinese family life in the late imperial period was marked by a complex realm of relationships. Children often grew up amidst an extended family of parents and siblings, grandparents, cousins, and, for the wealthier families, a domestic realm that would also include servants, wet-nurses, as well as the various women of a household including a formal wife and (potentially) multiple concubines. Extended families were thus the norm, offering a rich and complex community for the child.</p>
+<p>Practices of child-rearing and the life patterns of children were shaped by class and gender. The management of the household was overseen by females as was child-rearing itself. Women would care for the children and, particularly as the late imperial period progressed through the Ming and Qing dynasties, would also be responsible for much of their early education. Youngsters would be guided in their initial acquisition of literacy and numbers through memorization of basic poetry and childhood primers.</p>
+<p>Men in a family would also often play a role in children's lives, particularly in shaping decisions about the continued education and training of children (both boys and girls). Many a father or grandfather would also enjoy and celebrate leisure time with kids at play in the domestic quarters.</p>
+<p>Children themselves would share together the joys and endeavors of early childhood through to an age of seven or eight years, at which point gendered divisions would be more clearly defined in their own activities and in their own spaces of learning. Growing girls would learn from other women in the household the essential skills associated with the feminine, including embroidery, sewing, cooking, and, particularly for elite girls, reading and calligraphy.</p>
+<p>Elite boys, having shared an early training and playful realm with little girls, would then move to their own education, building up a literacy and experience with the canon of Confucian classics in preparation for the imperial state's civil service exams that could bring true success to their family and lineage. Boys who were not from elite classes, but who were raised in peasant households or by working class families, would also begin to engage in more strenuous work in the fields or perhaps new duties in the shops and artisan studios of an urban center.</p>
+<p>Social relationships, meanwhile, were shaped by and articulated through a rich culture of philosophy and practice associated with the family. Confucian classics such as <em>The Book of Rites</em> (<em>Liji</em>) set forth an ideal vision of the proper child and the mandated aims of child-rearing. Here, as in the many instructional texts that circulated amidst China's booming print industry of the late imperial period, an emphasis was placed upon a moral training for the child in appropriate forms of behavior and in a recognition of the value of social relationships.</p>
+<p>Moral teachings included the inculcation of a respect for elders and the encouragement of a child's true expressions of filial piety. This latter ideal was one celebrated as the foundation of a good family and of society itself. In ideal examples, children were honored for displaying a heartfelt sense of obligation, gratitude, and loyalty to their family as well as their dedication, throughout life, in caring for their elders.</p>
+<p>Actual practice, naturally, was more complex. Reaching beyond the texts devoted to the ideal and exemplary, one also discovers more varied depictions of children's lives. Sources found in literature, poetry, biography and family records as well as in visual images from the time reveal the variety of experiences, emotions, challenges, and playful intrigue found in (or represented through) the experience of childhood.</p>
+<p>The collection of primary sources offered here presents a view of both the normative prescriptions for the proper child as well as alternate perspectives on a culture of childhood in late imperial China.</p></div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-case-study-author" class="element">
+        <h3>Case Study Author</h3>
+                                    <div class="element-text">Susan Fernsebner</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-strategies" class="element">
+        <h3>Strategies</h3>
+                                    <div class="element-text"><p>The texts presented here offer a broad range of perspectives on childhood in late Imperial china. They include historical tales for children that paint the stories of heroes and villains, period literature, images, and folklore collections that offer a view toward the daily life and amusements of children, as well as the rhymed primers intended to train the child not only in literacy but also in a social and moral sensibility.</p> 
+
+<p>The sources cover a broad time frame as well as diverse aspects of childhood in late imperial China. They speak to a number of related themes and issues including ideal notions of the child and a child's place in the family, practices of play and amusement, and the complexities of latter-day efforts (and, indeed, those of adults themselves) to recapture and understand childhood as its own realm.</p>
+
+<p>One aspect for students to explore through their readings of this material is the moral instruction and dissemination of values that historical children would have encountered in their own exploration of these texts and stories. Students may read and compare the Meng Ch'iu and San Tzu Ching texts in regard to this issue. These two texts also provide for a view towards a comparison over time as the Meng Ch'iu text was critiqued and later faded from use (see source introductions for more detail).</p> 
+
+<p>Useful questions to ask here would include:</p>
+<ul>
+<li>What moral instructions might children have found in these texts?</li>	
+<li>What were the idealized social roles that were presented?</li>
+<li>What might adults who shared these texts have hoped that their children would have learned from them?</li>
+</ul>
+
+<p>Students might also explore the visions presented of the relationship between an individual and the social world that they inhabited, sometimes subtly and often less so,  in these texts. In exploring these questions, students may discover the closely tied (at least in an idealized realm) relationship between children and parents and the celebrated role of the family as the center of an ordered Chinese society.</p>
+
+<p>A second line of exploration for students lies in a comparative exploration of notions of amusement. Here we may compare pedagogical texts, particularly the <em>San Tzu Ching</em>, with images and impressions gained from literature (<em>Story of the Stone</em>), rhymes (Headland's collections), and images of childhood play.</p> 
+
+<ul>
+<li>How does the evidence offered in these diverse sources complicate a vision of childhood discipline as presented in pedagogical texts?</li>
+<li>What did "fun" mean to different children of the time?</li>
+<li>How did these sources' own presentation of childhood amusement offer evidence towards more complex visions of personal identity, life-paths, and social relationships?</li> 
+</ul>
+<p>Here one may explore articulations of family relationships, marriage, and education, among other topics, that are revealed in these texts and images.</p>
+
+<p>Finally, Isaac Taylor Headland's study of childhood rhymes and amusements sheds light upon a culture of play shared by children outside the elite class as represented in Hong Lou Meng. His collections introduce their own complexities, however, as material presented by a foreign observer of Chinese life in an era of high imperialism. As such, it offers a valuable opportunity for students to explore the complex nature of a cross-cultural encounter at a particular moment, one defined by a new economy and culture of global exchange, competition, and colonialism.</p> 
+
+<p>Worthwhile questions of exploration include:</p>
+<ul>
+<li>How does I.T. Headland describe or define "Chinese" in this discussion?</li>
+<li>What are the points he seeks to make?</li>
+<li>Who might he have imagined as his audience?</li> 
+<li>In what ways do our Chinese sources coincide with – or complicate – the depiction and analysis he offers?</li> 
+</ul>
+
+<h3>Discussion Questions</h3>
+
+<h3>Sources 1 and 2: 
+<em>Meng Ch'iu</em>, <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/222">Empress Ma in coarse-woven silk. . .</a> and
+<a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/223"> K'uang Heng bores a hole in the wall Sun Ching shuts his door</a> [Literary Excerpts]</h3>
+
+<ul>
+<li>Are these visions of success or achievement? What makes a good husband, wife, son or daughter? How are the relationships between people in these roles celebrated?</li>
+<li>What are the values that are celebrated here?</li> 
+<li>How is friendship or companionship characterized or depicted?</li>
+<li>How does emotion, as shown in these stories, related to moral value(s) or to idealized social roles?</li>
+</ul>
+
+<h3>Source 3: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/224"><em>Three-Character Classic</em></a> [Literary Excerpt]</h3>
+<ul>
+<li>What are the core social roles presented here?</li>
+<li>What kinds of mutual obligations and responsibilities are encouraged or mandated by these verses?</li>
+<li>How does memorization as a way of learning shape knowledge, and the individual? Is this a practice still known in our own day?</li>
+</ul>
+
+<h3>Source 4: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/225"><em>The Story of the Stone</em></a> [Literary Excerpt]</h3>
+
+<ul> 
+<li>What constitutes joy (or the opposite) for the elite children depicted in this text?</li>
+<li>What are the visions of talent and success as seen here? What skills do these youngsters celebrate for themselves?</li>
+<li>In what ways does this text complicate our vision of society as seen in the text of the children's primer?</li>
+</ul>
+
+<h3>Source 5: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/226">"Joyous Celebration at the New Year"</a> [Image]</h3>
+<ul>
+<li>What objects do the children in these images make use of? How do they appear, how are they handled or used, and what life do they seem to hold for the little ones who possess them? Students are encouraged to explore the visual depictions of the toys and objects themselves, and to imagine the games and play they might suggest.</li>
+
+<li>What kinds of social relationships within an elite household are represented in this image, both in the arrangement of domestic space and its uses? How does this visual depiction reveal an ideal vision of relationships within the family and between generations, genders, and classes?</li>
+
+<li>How does this visual image compare to the textual expressions of domestic ideals and relationships? (e.g. a child's feelings of respect and filial piety towards their parents, the joys of play and creative diversions,  engagement in productive work in the household?)</li>
+</ul>
+
+<h3>Source 6: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/227"><em>The Chinese Boy and Girl</em></a>, Preface [Literary Excerpt]</h3>
+
+<ul>
+<li>How does Isaac Taylor Headland describe or define "Chinese" in his discussion? What are the terms he uses? Points he seeks to make? Who might he imagine as his audience?</li>
+
+<li>In what ways do the Chinese rhymes and discussion he shares depict Chinese childhood and family life? What perspectives are offered on family roles, gender, socio-economic class? In what ways does Headland invoke discourses of nation and culture?</li>
+
+<li>How do these sources compare with others, translated from Chinese, that we have seen?</li>
+</ul>
+
+<h3>Source 7: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/228"><em> Chinese Mother Goose Rhymes </em></a> [Literary Excerpts]</h3>
+
+<ul>
+<li>What can we learn about specific social values as defined by a role in the family – mother, son, daughter, father, others? How do these rhymes reflect and/or complicate understandings of a traditional family system in imperial China?</li>
+
+<li>In what way does the humor presented in these rhymes also shed light upon an individual's expectations, hopes, or view of their life-path at that moment in history?</li>
+</ul>
+
+<h3>Source 8: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/262">"Yin Yu Tang: A Chinese Home"</a> [Online Exhibit]</h3>
+
+<ul>
+<li>How did families organize their domestic space in the late imperial period as seen in this exhibit? What are the ways in which the space is arranged, utilized, and imagined?</li>
+
+<li>Imagine <em>yourself</em> as a child growing up in this house. Where, in this household setting, did the children fit in? How does it seem that children may have used or experienced this space?</li>
+
+<li>What objects, in this family home, were designed for children? What were their practical purposes or uses? What might have been the personal value or symbolic meanings attached to them?</li>
+</ul>
+
+
+<h3>Sources 9 and 10: <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/263">Children and Toys</a> and <a class="external" href="http://chnm.gmu.edu/cyh/primary-sources/264">Selling Toys</a> [Selections]</h3>
+
+<ul>
+<li>Describe, in detail, the toys that we see depicted in these photographs of street scenes in China. Of what materials where they constructed and who made them? Who sold them? Who are the consumers depicted here?</li>
+
+<li>What attractions might these toys have held for children? What sorts of figures or imagery do they present? What stories, games, or visions of make-believe might they have inspired?</li>
+</ul>
+</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-lesson-plan" class="element">
+        <h3>Lesson Plan</h3>
+                                    <div class="element-text"><h3>Lesson Plan: Children in Late Imperial China</h3>
+<p>by Susan Douglass</p>
+<p><strong>Time Estimated:</strong> three to four 50-minute classes</p>
+<h3>Objectives</h3>
+<ol>
+<li>Students will make inferences from primary sources about expectations for instruction and roles of children in late Imperial China, 10th to 20th century.</li>
+<li>Students will differentiate between roles and attributes of boys and girls in China during the period.</li>
+
+<li>Students will explain how expectations for child raising changed over time in late Imperial China.</li>
+
+<li>Students will explore what a household reveals about ways of life for family members through examination of the Yin Yu Tang house virtual exhibition.</li>
+</ol>
+<h3>Materials</h3>
+<ul>
+<li> Printouts of primary sources sufficient for each student to have a full set of the texts and images in the <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=introduction"><em>Late Imperial China</em></a> Teaching Module. <a id="fn1" class="footnote" href="#note1">1</a></li>
+
+<li>Computer(s) with internet connection to view the Peabody Museum online exhibit <a class="external" href="http://www.pem.org/sites/yinyutang/index.html">Yin Yu Tang house</a> (lab, projection, assignment, or smartboard for viewing)</li>
+<li>Writing materials, notebooks, pads & pencils for sketching</li>
+</ul>
+
+<h3>Strategies</h3>
+
+<p><em>Hook</em><br />
+Think of a favorite children's book of yours, and describe its storyline in a short paragraph or narrative. Explain what moral or ethical message may be inherent in that story, and what it says about the contemporary culture of childhood (or the culture of the period in which it was written) and what expectations for the upbringing of children it reveals. Then, think of a favorite toy and sketch or describe it, explaining how you played with it, and why you enjoyed it. Did the toy have gender-specific attributes? What did it say about childhood in contemporary culture? Was it handmade or mass-produced, generic or a famous brand-name?</p>
+
+<p><em>Toys and Celebrations</em><br />
+ Using the images "Joyous Celebration at the New Year," and the photographic collections "Children and Toys" and "Selling Toys," students can make sketches of the toys and play activities shown. The annotations to the primary sources give some explanations of the images, and sketching the toys shown may help give clues as to their play value—what did they do that was attractive to children as play (e.g., movement, making sounds, humorous animals, whirligigs, fireworks, dolls or puppets, etc.) ?  A high-resolution image of <a class="external" href="http://www.npm.gov.tw/exh98/newyear/img_item_o3_en.html"><em>Joyous Celebration at the New Year</em></a>, shows much greater detail for the individual figures and groups. Discuss continuity and change over time between the painting and the photographs, as well as universal aspects of play across cultures. Which toys and activities seem gender-specific? What activities in the images do not rely on toys (e.g. putting pine branches in the fireplace in the painting, children playing with each other, etc.), and how are children in the painting and photographs involved in helping, serving adults, etc.</p>
+
+<p><em>Children's Literature</em><br />
+Building from the hook activity on children's literature, read the selections in the module such as the <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=primarysources&source=224"><em>Three-Character Classic</em></a>, <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=primarysources&source=225"><em>The Story of the Stone</em></a>, <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=primarysources&source=228"><em>Chinese Mother Goose Rhymes</em></a> and the more biographical <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=primarysources&source=222"><em>Meng Ch'iu</em>, Empress Ma in coarse-woven silk</a> and <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=primarysources&source=223"><em>Meng Ch'iu</em>, K'uang Heng bores a hole in the wall Sun Ching shuts his door</a>. Make a list of citations from the excerpts that indicate normative behavior. Mark them with sticky-notes, highlight, or copy the citations. Make a two-column chart with the headings: Qualities of the ideal boy and Qualities of the ideal girl. Using the citations, list the personal and moral qualities the stories instill about proper behavior and moral actions of boys and girls in Chinese society. (Extension: for comparison, the same activity can be done with examples of didactic literature either from other <em>Children & Youth in History</em> primary sources or from <a class="external" href="http://www.faqs.org/childhood/Ch-Co/Children-s-Literature.html">historical children's literature</a> for examples).</p>
+
+<p><em>Exploring the Yin Yu Tang House</em><br /> Introduce the activity by asking students to quickly sketch the layout of their own house, describe their sleeping space, and list the members of their household. They should use this material to think about how the house relates to the neighboring homes, how the common spaces of the house are shared by family members, and how this shared space reflects rules about adults' and children's roles in the family. What does your bedroom convey about the importance given to individual space and expectations about raising children, or child development? What values does the difference in decoration in common and private spaces say about the culture and how the family is constituted? Share ideas and differences among members of the class in discussion.</p>
+
+<p><em>Yin Yu Tang House, cont.</em><br />
+Building from the ideas shared about the students' own homes and lives, view the exhibit. Students may be assigned to view the exhibit as homework if this is practical. Pay particular attention to the layout of the house and conventions for who occupied which spaces in the house, who slept in which rooms with whom, and how other spaces in the house were used. In the Yin Yu Tang house, there were also spaces created or reserved for absent persons, and for reverence toward other figures. These figures changed over time (e.g., Buddhist objects of worship, ancestor images, lists of past family members, and later images of Mao).</p>
+
+<p><em>Optional Activity</em><br /> 
+The letters reproduced in the exhibit provide considerable evidence concerning lasting expectations and relations between adult children and their parents. Inquiries about health, concern for the raising of children from afar by absent fathers, duties concerning marriage of siblings and others, requests for goods from the city, formulas of politeness required in addressing family members, all make for interesting inferences about the nature of family life and the results of traditional upbringing of children.</li>
+
+<p><em>Optional Activity</em><br />  
+The sections of the exhibit on Ornamentation and Belongings are very revealing of change over time, as traditional carving and invocation of legends, lore, and protective decoration give way to the use of industrially produced decorative elements such as wallpaper, newspapers, and nationalist iconography such as Mao images vs. images and writing related to ancestors and religious imagery.</p>
+
+<h3>DBQ</h3> 
+<p>Writing the essay as a culminating activity can be done as a timed writing or as a homework assignment (see: <a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=dbq">Document Based Question</a>).</p>
+</ol>
+
+<h3>Differentiation</h3>
+
+<p><em>Advanced Students</em><br />
+Students may explore the objects and layout of the house in further detail, reporting on clothing, furnishings, and other aspects of interest. They may also explore additional passages from the literature excerpted in this module and evaluate these sources in terms of their use as evidence in explaining childrearing and education in late Imperial China.</p>
+
+<p><em>Less Advanced Students</em><br />
+Students can work with a limited number of documents, focusing their writing on one or more of the following three choices:</p>
+<br />
+<ol>
+<li>comparison between their own family home and the Yin Yu Tang house;</li>
+<li>comparing toys in contemporary society with the toys and games shown; or</li> 
+<li>a familiar didactic work of children's literature may also provide a concrete foil for comparison with some of the examples given in this module.</li></ol> 
+
+<p>Use one or more of these three possibilities to compose a concluding essay that utilizes evidence from the two sets of sources.</p>
+<hr />
+<div id="notes">
+<p><a id="note1" class="footnote" href="#fn1">1</a> Texts include:</p>
+<ul>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=primarysources&source=222"><em>Meng Ch'iu</em>, Empress Ma in coarse-woven silk… [Literary Excerpt]</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=primarysources&source=223"><em>Meng Ch'iu</em>, K'uang Heng bores a hole in the wall Sun Ching shuts his door [Literary Excerpt]</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=primarysources&source=224"><em>Three-Character Classic</em> [Literary Excerpt]</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=primarysources&source=225"><em>The Story of the Stone</em> [Literary Excerpt]</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=primarysources&source=226">Joyous Celebration at the New Year [Image]</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=primarysources&source=227"><em>The Chinese Boy and Girl</em> [Literary Excerpt]</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=primarysources&source=228"><em>Chinese Mother Goose Rhymes</em> [Literary Excerpts]</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=primarysources&source=262">"Yin Yu Tang: A Chinese Home" [Online Exhibit]</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=primarysources&source=263">Children and Toys [Photographs]</a></li>
+<li><a class="external" href="http://chnm.gmu.edu/cyh/teaching-modules/221?section=primarysources&source=264">Selling Toys [Photographs]</a></li>
+</ul></div</div>
+                    </div><!-- end element -->
+            <div id="teaching-module-item-type-metadata-primary-sources" class="element">
+        <h3>Primary Sources</h3>
+                                    <div class="element-text">222, 223, 224, 225, 226, 227, 228, 262, 263, 264</div>
+                    </div><!-- end element -->
+        </div><!-- end element-set -->]]></description>
+      <pubDate>Thu, 26 Mar 2009 05:32:17 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

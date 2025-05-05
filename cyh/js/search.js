@@ -362,6 +362,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchContainer = document.getElementById('staticSearch');
     
     if (searchContainer) {
+      // Remove the loading text
+      document.getElementById('search-loading').remove();
+      
       // Add search form to the page
       searchContainer.innerHTML = `
         <div class="search-container">

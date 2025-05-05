@@ -218,6 +218,11 @@ function getStaticTagFilters() {
           <label for="contentType-Teaching-Module">Teaching Module</label>
         </div>
         <div class="tag-checkbox">
+          <input type="checkbox" id="contentType-Website-Review" name="contentType" value="Website Review">
+          <label for="contentType-Website-Review">Website Review</label>
+        </div>
+
+        <div class="tag-checkbox">
           <input type="checkbox" id="contentType-Other" name="contentType" value="Other">
           <label for="contentType-Other">Other</label>
         </div>

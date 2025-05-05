@@ -1,0 +1,18 @@
+name: "Deploy Static Website"
+  
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "main"
+    paths:
+      - 'cyh/**'
+      - "!.github/**"
+
+jobs: 
+  deploy:
+    uses: chnm/.github/.github/workflows/static--deploy.yml@main
+    secrets: inherit
+    with:
+      website-devl-fqdn: "cyh.rrchnm.org"
+      website-prod-fqdn: "cyh.rrchnm.org"

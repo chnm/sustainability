@@ -1,7 +1,9 @@
 errors.log
-digitalcampus/
+node_modules/
 
+# site specific 
 cyh/archive/
 cyh/files/
 cyh/images/
-node_modules/
+digitalcampus/podcasts/
+

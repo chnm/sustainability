@@ -1,4 +1,4 @@
-name: "Deploy Static Website"
+name: "Deploy Static Website -- cyh"
   
 on:
   workflow_dispatch:

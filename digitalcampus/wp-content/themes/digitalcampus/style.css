@@ -1,0 +1,425 @@
+/* 
+Theme Name: DigitalCampus
+Theme URI: http://www.digitalcampus.tv
+Version: 1.0
+Description: Theme for Digital Campus.
+Author: Jeremy Boggs
+Author URI: http://clioweb.org
+*/
+/* 
+Grid: 940px wide, 12 columns at 60px each, 11 gutters at 20px each.
+1 = 60px
+2 = 140px (6 columns)
+3 = 220px (4 columns)
+4 = 300px (3 columns)
+5 = 380px
+6 = 460px (2 columns)
+7 = 540px
+8 = 620px
+9 = 700px
+10 = 780px
+11 = 860px
+12 = 940px
+*/
+
+/* == Reset == */
+@import url("reset.css");
+
+/* == Generic styles ======== */
+body {
+  font: 62.5% "Helvetica Neue", Arial, sans-serif;
+  min-width: 980px;
+  color: #222;
+  background: #b7dee2;
+}
+
+/* Headings */
+h1 {
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  color: #919998;
+  font-weight: bold;
+}
+
+.notice {
+  padding: 20px;
+  background-color: #F8E16C;
+  color: black;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.notice p {
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+h3 {
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Links */
+a:link {
+  color: #43829f;
+}
+
+a:visited {
+  color: #43829f;
+}
+
+a:focus {
+  color: #c60;
+}
+
+a:hover {
+  color: #c60;
+}
+
+a:active {
+  color: #43829f;
+}
+
+h1 a,
+h2 a,
+h3 a {
+  text-decoration: none;
+  color: #222 !important;
+}
+
+/* Misc Elements */
+p,
+ul,
+ol,
+dl,
+blockquote,
+address,
+label {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
+ol {
+  list-style: decimal;
+  margin-left: 20px;
+}
+
+ul li,
+ol li {
+  margin-bottom: 8px;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+/* Forms */
+label {
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.textinput,
+textarea {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Misc Classes */
+.links {
+  color: #c60;
+  font-weight: bold;
+}
+
+.links li a {
+  display: inline-block;
+}
+
+.links li a {
+  display: block;
+}
+
+.links a {
+  display: block;
+  border-bottom: 1px dotted #c0c5c9;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+.links a:hover {
+  background: #F0F8F9;
+}
+
+.pullquote {
+  margin-bottom: 20px;
+  background: #EDF7F8 url("images/bg-pullquote.gif") 20px 20px no-repeat;
+  padding: 20px 20px 2px 92px;
+}
+
+.cite {
+  font-size: 14px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.cite a {
+  text-decoration: none;
+}
+
+.categories {
+  font-weight: bold;
+}
+
+.categories a:link {
+  color: #43829f;
+  text-decoration: none;
+}
+
+.categories a:visited {
+  color: #43829f;
+}
+
+.categories a:focus {
+  color: #c60;
+}
+
+.categories a:hover {
+  color: #c60;
+}
+
+.categories a:active {
+  color: #43829f;
+}
+
+/* == Wrap == */
+#wrap {
+  position: relative;
+  width: 940px;
+}
+
+/* == Header == */
+#header {
+  position: relative;
+  border-bottom: 5px solid #fcfcfc;
+  height: 160px;
+  background: transparent url("images/bg-header2.jpg") bottom left no-repeat;
+}
+
+#header #logo {
+  position: absolute;
+  top: 36px;
+  left: 60px;
+  display: block;
+  width: 280px;
+  background: transparent url("images/digitalcampus-logo.gif") 0 0 no-repeat;
+  overflow: hidden;
+  padding-top: 70px;
+  height: 0 !important;
+  height
+  /**/
+  : 70px;
+}
+
+#description {
+  position: absolute;
+  top: 50px;
+  left: 490px;
+  width: 550px;
+  color: #fff;
+  font-size: 15px;
+}
+
+/* == Content == */
+#content {
+  position: absolute;
+  background: #fcfcfc;
+  top: 180px;
+  left: 60px;
+  width: 900px;
+  padding: 40px;
+}
+
+#primary {
+  width: 600px;
+  float: left;
+}
+
+div.post {
+  position: relative;
+  overflow: hidden;
+  zoom: 1;
+  margin-bottom: 20px;
+}
+
+div.post object {
+  position: absolute;
+  left: 0;
+  top: 40px;
+}
+
+div.post p.date {
+  text-align: right;
+}
+
+p.date a {
+  padding-left: 8px;
+  margin-left: 6px;
+  border-left: 1px solid #ccc;
+  text-decoration: none;
+}
+
+div.post h1 {
+  background: url("images/bg-diagonal.gif");
+}
+
+div.post h1 a {
+  background: #fcfcfc;
+  padding-right: 20px;
+}
+
+#post-nav {
+  list-style: none;
+  margin-left: 0;
+}
+
+#post-nav li a {
+  display: block;
+  float: left;
+  text-align: center;
+  width: 6em;
+  padding: 6px 20px;
+  text-decoration: none;
+  background: #EDF7F8;
+}
+
+#post-nav li#previous a {
+  float: right;
+  text-align: center;
+}
+
+#comments {
+  list-style: none;
+  margin-left: 0;
+}
+
+p.comment-author {
+  background: url("images/bg-diagonal.gif");
+}
+
+p.comment-author a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p.comment-author span {
+  background: #fcfcfc;
+  padding: 4px 20px 4px 0;
+}
+
+.comment-text {
+  margin-left: 40px;
+}
+
+#commentform {
+  padding: 20px;
+  background: #EDF7F8;
+}
+
+#secondary {
+  width: 260px;
+  float: right;
+}
+
+#secondary ul,
+#secondary p {
+  font-size: 12px;
+}
+
+#hosts {
+  list-style: none;
+  margin-left: 0;
+  overflow: hidden;
+  zoom: 1;
+}
+
+#hosts img {
+  background: transparent url("images/bg-diagonal.gif");
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin-right: 12px;
+  padding: 4px;
+}
+
+#hosts a {
+  text-decoration: none;
+  margin-bottom: 5px;
+  overflow: hidden;
+  zoom: 1;
+  font-size: 15px;
+  width: 100%;
+  font-weight: bold;
+  display: block;
+  float: left;
+  clear: both;
+}
+
+#search-digitalcampus,
+#subscribe-digitalcampus,
+#follow-digitalcampus {
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #43829f;
+  display: block;
+}
+
+#subscribe-digitalcampus img,
+#follow-digitalcampus img {
+  padding-right: 10px;
+}
+
+#follow-digitalcampus {
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 20px;
+}
+
+#credits,
+#credits ul {
+  list-style-type: none;
+  line-height: 1.2em;
+}
+
+
+/* == Footer == */
+#footer {
+  margin: 0;
+  padding: 0;
+}

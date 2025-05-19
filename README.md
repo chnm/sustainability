@@ -15,3 +15,4 @@ These are various sustainability projects, included here to help keep track of w
 - Jessica Otis (@jmotis)
 - Jason Heppler (@hepplerj)
 - Tony Trinh (@qtrinh2)
+- Savannah Scott (@sscott710)

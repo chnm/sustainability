@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+
+<!-- Meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- Stylesheets -->
+<link rel="stylesheet" media="screen" href="../../themes/default/css/screen.css" />
+<link rel="stylesheet" media="print" href="../../themes/default/css/print.css" />
+
+<!-- JavaScripts -->
+<script type="text/javascript" src="../../../shared/javascripts/prototype.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../../shared/javascripts/scriptaculous.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../themes/default/javascripts/niftycube.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../themes/default/javascripts/globals.js" charset="utf-8"></script>
+
+<!-- Plugin Stuff -->
+    
+    <script type="text/javascript">
+    //<![CDATA[
+    
+        function itemSwitchImage(whichImage) {
+            if(!document.getElementById("item-image-gallery-fullsize")) return;
+            
+            var source = whichImage.getAttribute("href");
+            var fullsize = document.getElementById("item-image-gallery-fullsize");
+            
+            if(fullsize.nodeName != "IMG") return true;
+            
+            fullsize.setAttribute("src",source);
+            
+            return false;
+        }
+        
+        function prepItemImageGallery() {
+            if(!document.getElementById) return;
+            if(!document.getElementsByTagName) return;
+            if(!document.getElementById("item-image-gallery")) return;
+            
+            var thumbnails = document.getElementById("item-image-gallery-thumbnails");
+            var links = thumbnails.getElementsByTagName("a");
+            for(var i=0; i<links.length; i++) {
+                links[i].onclick = function() {
+                    return itemSwitchImage(this);
+                }
+            }  
+        }
+        
+        Event.observe(window,"load",prepItemImageGallery);
+        //]]>
+        
+    </script>
+    
+
+</head>
+<body id="login">
+	<div id="wrap">
+		<div id="header">
+			<div id="site-title"><a href="../../index.html"></a></div>
+		</div>
+		<div id="content">
+<h1>Login</h1>
+		
+<form id="login-form" action="../../index.html" method="post" accept-charset="utf-8">
+	<fieldset>
+		<div class="field">
+	<label for="username">Username</label> 
+	<input type="text" name="username" class="textinput" id="username" />
+	</div>
+	<div class="field">
+	<label for="password">Password</label> 
+	<input type="password" name="password" class="textinput" id="password" />
+	</div>
+	</fieldset>
+	<input type="submit" class="login" value="Login" />
+</form>
+
+<ul>
+<li id="backtosite"><a href="https://chnm.gmu.edu/1989" id="public-link">View Public Site</a>
+</li>
+<li id="forgotpassword"><a href="../../users/forgotPassword.html">Lost your password?</a></li>
+</ul>
+
+</div>
+<div id="footer">
+		<p><a href="http://omeka.org" id="omeka-logo">Powered by Omeka</a></p>
+</div>
+</div>
+</body>
+</html>

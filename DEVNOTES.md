@@ -238,7 +238,8 @@ There are three key elements needed for the search page:
       });
    </script>
    ```
-   5. When adding the search page to the navigation, the easiest way to do this is to open VSCode and use Find and Replace in Files. Copy the current navigation elements, paste into the find field, paste again into the replace field, add the new search URL to the nav element, and then replace all across files. 
+
+5. When adding the search page to the navigation, the easiest way to do this is to open VSCode and use Find and Replace in Files. Copy the current navigation elements, paste into the find field, paste again into the replace field, add the new search URL to the nav element, and then replace all across files. 
 
 ## Search Index Generation
 

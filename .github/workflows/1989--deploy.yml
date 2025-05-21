@@ -1,18 +1,18 @@
-name: "Deploy Static Website -- cyh"
-  
+name: "Deploy Static Website -- 1989"
+
 on:
   workflow_dispatch:
   push:
     branches:
       - "**"
     paths:
-      - 'cyh/**'
+      - '1989/**'
       - "!.github/**"
 
-jobs: 
+jobs:
   deploy:
     uses: chnm/.github/.github/workflows/static--deploy.yml@main
     secrets: inherit
     with:
       website-devl-fqdn: "static.rrchnm.org"
-      website-prod-fqdn: "cyh.rrchnm.org"
+      website-prod-fqdn: "1989.rrchnm.org"

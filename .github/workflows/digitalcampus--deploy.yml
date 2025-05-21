@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - "main"
+      - "**"
     paths:
       - 'digitalcampus/**'
       - "!.github/**"
@@ -14,5 +14,5 @@ jobs:
     uses: chnm/.github/.github/workflows/static--deploy.yml@main
     secrets: inherit
     with:
-      website-devl-fqdn: "digitalcampus.tv"
+      website-devl-fqdn: "static.rrchnm.org"
       website-prod-fqdn: "digitalcampus.tv"

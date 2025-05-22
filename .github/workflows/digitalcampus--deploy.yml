@@ -14,5 +14,6 @@ jobs:
     uses: chnm/.github/.github/workflows/static--deploy.yml@main
     secrets: inherit
     with:
+      context_root: "digitalcampus"
       website-devl-fqdn: "static.rrchnm.org"
       website-prod-fqdn: "digitalcampus.tv"

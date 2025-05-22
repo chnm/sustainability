@@ -1,0 +1,19 @@
+name: "Deploy Static Website -- amboyna"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "**"
+    paths:
+      - 'amboyna/**'
+      - "!.github/**"
+
+jobs:
+  deploy:
+    uses: chnm/.github/.github/workflows/static--deploy.yml@main
+    secrets: inherit
+    with:
+      context_root: "amboyna"
+      website-devl-fqdn: "static.rrchnm.org"
+      website-prod-fqdn: "amboyna.org"

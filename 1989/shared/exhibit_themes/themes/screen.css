@@ -1,0 +1,9 @@
+.analyzing-evidence {float:left; width: 400px;}
+
+#questions {float:right; width: 166px;}
+	#questions ul, #questions p {font-size:1.2em; margin:0; list-style:none;}
+		#questions li {}
+		#questions a {text-decoration:none; display:block; border-bottom:1px solid #ccc;padding:0.5em 0;}
+		#questions li.current a {color: #c60; font-weight:bold;}
+#scholar-interview {float:left; width: 400px;}
+.analyzing-evidence h3, #scholar-info h3, #scholar-interview h3 {margin-top:0;}

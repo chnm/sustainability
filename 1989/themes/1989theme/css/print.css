@@ -1,8 +1,0 @@
-body {font-family: serif; font-size: .9em;}
-#logo a img {border:none;}
-h1 a, h2 a, h3 a {border:none; color: black; text-decoration:none;}
-div#module-nav, a.about, #searchwrap, #user-login, ul#primary-nav, #footer {display:none;}
-.exhibit-item img {border: none; float: right; padding-left: 1em;}
-#secondary {display:none;}
-#secondary ul {margin: 0; padding: 0;}
-#secondary ul li {list-style-type: none;}

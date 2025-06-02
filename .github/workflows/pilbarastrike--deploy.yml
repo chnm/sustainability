@@ -16,4 +16,4 @@ jobs:
     with:
       context_root: "pilbarastrike"
       website-devl-fqdn: "static.rrchnm.org"
-      website-prod-fqdn: "pilbarastrike.org"
+      website-prod-fqdn: "static.rrchnm.org"

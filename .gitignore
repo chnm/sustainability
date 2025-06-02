@@ -1,0 +1,10 @@
+errors.log
+node_modules/
+
+# site specific 
+cyh/archive/
+cyh/files/
+cyh/images/
+digitalcampus/podcasts/
+1989/archive/
+1989/files/

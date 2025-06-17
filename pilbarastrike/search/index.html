@@ -53,18 +53,19 @@
 </style>
 <![endif]-->
     <style>
-        @import url("sites/all/themes/omega/omega/css/layouts/simple/simple.layout.css%3Fqwnln1.css");
+        @import url("../sites/all/themes/omega/omega/css/layouts/simple/simple.layout.css%3Fqwnln1.css");
     </style>
     <script src="../sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js%3Fv=1.10.2"></script>
-    <script src="misc/jquery-extend-3.4.0.js"></script>
-    <script src="misc/jquery-html-prefilter-3.5.0-backport.js"></script>
-    <script src="misc/jquery.once.js"></script>
-    <script src="misc/drupal.js"></script>
+    <script src="../misc/jquery-extend-3.4.0.js"></script>
+    <script src="../misc/jquery-html-prefilter-3.5.0-backport.js"></script>
+    <script src="../misc/jquery.once.js"></script>
+    <script src="../misc/drupal.js"></script>
     <script src="../sites/all/themes/omega/omega/js/no-js.js%3Fqwnln1"></script>
     <script src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js%3Fv=1.10.2"></script>
     <script src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min.js%3Fv=1.10.2"></script>
-    <script src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.accordion.min.js%3Fv=1.10.2"></script>
-    <script src="modules/matomo/matomo.js"></script>
+    <script
+        src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.accordion.min.js%3Fv=1.10.2"></script>
+    <script src="../modules/matomo/matomo.js"></script>
     <script>var _paq = _paq || []; (function () { var u = (("https:" == document.location.protocol) ? "https://stats.rrchnm.org/" : "http://stats.rrchnm.org/"); _paq.push(["setSiteId", "76"]); _paq.push(["setTrackerUrl", u + "piwik.php"]); _paq.push(["setDoNotTrack", 1]); _paq.push(["trackPageView"]); _paq.push(["setIgnoreClasses", ["no-tracking", "colorbox"]]); _paq.push(["enableLinkTracking"]); var d = document, g = d.createElement("script"), s = d.getElementsByTagName("script")[0]; g.type = "text/javascript"; g.defer = true; g.async = true; g.src = u + "piwik.js"; s.parentNode.insertBefore(g, s); })();</script>
     <script src="../sites/all/themes/amboyna/js/amboyna.behaviors.js%3Fqwnln1"></script>
     <script src="../sites/all/themes/amboyna/js/jquery.matchHeight.js%3Fqwnln1"></script>
@@ -77,7 +78,8 @@
     </div>
     <div class="l-page has-no-sidebars">
         <header class="l-header" role="banner">
-            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/minisearch@7.1.2/dist/umd/index.min.js"></script>
+            <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/minisearch@7.1.2/dist/umd/index.min.js"></script>
             <div class="l-branding">
 
 
@@ -114,10 +116,11 @@
                         #search-box {
                             margin-bottom: 20px;
                             margin-top: 20px;
+                            margin-left: 20px;
                         }
 
                         #search-input {
-                            width: 100%;
+                            width: 75%;
                             padding: 10px;
                             font-size: 16px;
                             border: 1px solid #ccc;
@@ -126,6 +129,8 @@
 
                         #search-results {
                             margin-top: 20px;
+                            margin-left: 20px;
+                            width: 75%;
                         }
 
                         .result-item {
@@ -156,6 +161,7 @@
                             font-size: 16px;
                             margin: 20px 0;
                             font-style: italic;
+                            margin-left: 20px;
                         }
 
                         .sr-only {
@@ -171,14 +177,20 @@
                         }
                     </style>
         </header>
-        
-        <div class="entry-content">
-            <div id="search-box">
-                <input type="text" id="search-input" placeholder="Search...">
+
+        <div class="1-page has-no-sidebars">
+            <div class="1-content" role="main">
+                <div class="panel-pane pane-page-content">
+                <div class="entry-content">
+                    <div id="search-box">
+                        <input type="text" id="search-input" placeholder="Search...">
+                    </div>
+                    <div class="loading-text">Searching...</div>
+                    <div id="search-results" aria-live="polite"></div>
+                    <div id="search-announcement" class="sr-only" aria-live="assertive"></div>
+                </div>
+                </div>
             </div>
-            <div class="loading-text">Searching...</div>
-            <div id="search-results" aria-live="polite"></div>
-            <div id="search-announcement" class="sr-only" aria-live="assertive"></div>
         </div>
 
 

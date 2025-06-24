@@ -1,0 +1,5 @@
+<DL>
+	<DT>${CURRENT}. <b><a href="${URL}${ANCHOR}">${TITLE}</a></b> Score: ${PERCENT}% ${STARSLEFT}</DT>
+		<DD>${EXCERPT}<BR>
+		<i><a href="${URL}${ANCHOR}">${URL}${ANCHOR}</a></i> <font size="-1">${MODIFIED}, ${SIZE} bytes (${SIZEK}K), Computed score: ${SCORE}</font></DD>
+</DL>

@@ -1,0 +1,7 @@
+AuthUserFile /~barlow/midwife/templates/.htpasswd   
+AuthGroupFile /dev/null   
+AuthName The Weaving Histories Electronic Sample
+AuthType Basic
+<Limit GET POST PUT>   
+require user Weaving_Histories   
+</Limit>

@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Site Search Results: ${WORDS}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<base target="_parent">
+</head>
+<body text="#333366" link="#333399" vlink="#666699" bgcolor="#FFFFFF" alink="#3333CC">
+<!-- #BeginLibraryItem "/Library/topNav_toplevel_onWht.lbi" --><!--start topnav-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="top"> 
+    <td><a href="../home.html"><img src="../nav/nav_topWht_doHist.gif" width="51" height="13" border="0" vspace="0" hspace="0" ALT="DoHistory"></a></td>
+    <td align="right"><a href="../sitemap.html"><img src="../nav/nav_utilWht_map.gif" width="51" height="16" border="0" vspace="0" hspace="0" ALT="site map"></a><a href="../about/techHelp.html"><img src="../nav/nav_utilWht_help.gif" width="51" height="16" border="0"  vspace="0" hspace="0" ALT="tech help"></a><a href="../about/site.html"><img src="../nav/nav_utilWht_about.gif" width="73" height="16" border="0" vspace="0" hspace="0" ALT="about site"></a><a href="../search.html"><img src="../nav/nav_utilWht_search.gif" width="40" height="16" border="0" vspace="0" hspace="0" ALT="search"></a></td>
+  </tr>
+</table>
+<br>
+<!--`end topnav-->
+<!-- #EndLibraryItem --><br>
+<table width="575" border="0" cellpadding="4">
+  <tr> 
+    <td width="75" bgcolor="#333366">&nbsp;</td>
+    <td width="495"><img src="../search/images/searchResults_title.gif" alt="Search Results" width="199" height="25" border="0"></td>
+  </tr>
+  <tr> 
+    <td width="75" valign="top"><a href="../search.html"><font face="Arial, Helvetica, sans-serif"><b>New 
+      <br>
+      Search</b></font></a></td>
+    <td width="495"> <font face="Arial, Helvetica, sans-serif">${MATCHES} web pages 
+      match your query: <b>${LOGICAL_WORDS}</b></font><br>
+    </td>
+  </tr>
+</table>
+<table width="575" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+                <td align="left" width="150">
+                        <font face="Arial, Helvetica, sans-serif" size="-1">${PREVPAGE}</font>
+                </td>
+                <td align="center" width="200">
+			<font face="Arial, Helvetica, sans-serif">Web pages ${FIRSTDISPLAYED}-${LASTDISPLAYED} of ${MATCHES} matches</font>
+                </td>
+                <td align="right" width="150">
+                        <font face="Arial, Helvetica, sans-serif" size="-1">${NEXTPAGE}</font>
+                </td>
+        </tr>
+</table>
+<font face="Arial, Helvetica, sans-serif">

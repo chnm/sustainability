@@ -1,0 +1,115 @@
+<HTML>
+<HEAD>
+<TITLE>You transcribe</TITLE>
+</HEAD>
+<BODY TEXT="#FFFFFF" BGCOLOR="#000000" LINK="#ED181E" VLINK="#551A8B" ALINK="#ED181E">
+<FONT SIZE=+1>
+Enter your transcription for each of the lines in the blanks below. The first one has been done for you. When you are done, record your transcription and compare it the McCausland transcription (published by the Maine State Library).<BR>
+</FONT>
+<BR>
+
+<FORM ACTION="script needed here" METHOD="POST">
+<TABLE CELLSPACING=0 CELLPADDING=0 WIDTH=600 BORDER=0>
+<TR VALIGN=top>
+<!--left column-->
+<TD><IMG SRC="images/composite-leftln1.gif" hspace=0 ALT="10 October 1794 diary entry, left column line 1 and 2" BORDER=0><BR CLEAR=ALL>
+<INPUT NAME="Left First Line" SIZE=10 VALUE=""><BR>
+<BR>
+<BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="Left First Line" SIZE=10 VALUE=""><BR>
+<BR>
+<BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="Left First Line" SIZE=10 VALUE=""><BR>
+<BR>
+<BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="Left First Line" SIZE=10 VALUE=""><BR>
+<BR>
+<BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="Left First Line" SIZE=10 VALUE=""><BR>
+<BR>
+<BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="Left First Line" SIZE=10 VALUE=""><BR>
+</TD>
+<!--main text-->
+<TD><IMG SRC="images/compositeln1.gif"  hspace=0 ALT="10 October 1794 diary entry, line 1" BORDER=0 HEIGHT=29 WIDTH=400><BR CLEAR=ALL>
+<INPUT NAME="First Line" SIZE=65 VALUE="Cloudy. at mr Sewalls, they were"><BR>
+<BR>
+<IMG SRC="images/compositeln2.gif"  hspace=0 ALT="10 October 1794 diary entry, line 2" BORDER=0 HEIGHT=38 WIDTH=400><BR CLEAR=ALL>
+<INPUT NAME="Second Line" SIZE=65><BR>
+<BR>
+<IMG SRC="images/compositeln3.gif"  hspace=0 ALT="10 October 1794 diary entry, line 3" BORDER=0><BR CLEAR=ALL>
+<INPUT NAME="Third Line" SIZE=65><BR>
+<BR>
+<IMG SRC="images/compositeln4.gif"  hspace=0 ALT="10 October 1794 diary entry, line 4" BORDER=0><BR CLEAR=ALL>
+<INPUT NAME="Fourth Line" SIZE=65><BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="First Line" SIZE=65><BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="First Line" SIZE=65><BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="First Line" SIZE=65><BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="First Line" SIZE=65><BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="First Line" SIZE=65><BR>
+<BR>
+</TD>
+
+<!--right column-->
+<TD><IMG SRC="images/composite-rightln1.gif"  hspace=0 ALT="10 October 1794 diary entry, right column line 1" BORDER=0><BR CLEAR=ALL>
+<INPUT NAME="Right First Line" SIZE=15><BR>
+<BR>
+<BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="Left First Line" SIZE=15 VALUE=""><BR>
+<BR>
+<BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="Left First Line" SIZE=15 VALUE=""><BR>
+<BR>
+<BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="Left First Line" SIZE=15 VALUE=""><BR>
+<BR>
+<BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="Left First Line" SIZE=15 VALUE=""><BR>
+<BR>
+<BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="Left First Line" SIZE=15 VALUE=""><BR>
+<BR>
+<BR>
+<BR>
+<BR CLEAR=ALL>
+<INPUT NAME="Left First Line" SIZE=15 VALUE=""><BR></TD>
+</TR>
+</TABLE>
+
+
+<INPUT TYPE="submit" NAME="submit" VALUE="Record your transcription"> <A HREF="<<your_transcription.html>>">[script not written yet -- skip ahead]</A>
+
+</FORM>
+
+</BODY>
+</HTML>

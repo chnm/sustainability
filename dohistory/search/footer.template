@@ -1,0 +1,103 @@
+<table width="575" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top">
+                <td align="left" width="150">
+                        <font face="Arial, Helvetica, sans-serif" size="-1">${PREVPAGE}</font>
+                </td>
+                <td align="center" width="200">
+			<font face="Arial, Helvetica, sans-serif">Web pages ${FIRSTDISPLAYED}-${LASTDISPLAYED} of ${MATCHES} matches<BR>
+			${PAGELIST}</font>
+                </td>
+                <td align="right" width="150">
+                        <font face="Arial, Helvetica, sans-serif" size="-1">${NEXTPAGE}</font>
+                </td>
+        </tr>
+</table>
+<form method="get" action="${CGI}">
+<input type=hidden name=config value="${CONFIG}">
+<input type=hidden name=restrict value="${RESTRICT}">
+<input type=hidden name=exclude value="${EXCLUDE}">
+<font face="Arial, Helvetica, sans-serif">
+<font size="+1"><b>Modify search</b></font><br>
+<font size="-1">Search for: <input tpe="text" size="30" name="words" value="${WORDS}">
+Match: ${METHOD}
+<br>
+Format Results: ${FORMAT}
+Sort by: ${SORT}<br>
+<input type="submit" value="Search">
+</font></font>
+</form>
+<p><font face="Arial, Helvetica, sans-serif"><font size="+1"><b>Some notes on the search results</b></font></p>
+<p>Martha Ballard's Diary Online has it's own <a href="../diary/search.html">search page</a>. The results here 
+do not include pages from the Diary Online, but will include pages from the Stories and Themes in Martha's 
+Diary.</p>
+<p>For many pages in the Archive and elsewhere in the site, the title notation (I), (T) or (P) indicates and 
+image, text or printable version of that page, respectively.</p>
+<p>Pages are scored "on a curve" so that the best match (highest "Computed score") of all the current results receives a score 
+of 100%. Further scores are percentages of this highest computed score. The "Computed score" is a mathematical calculation of the 
+relevancy of that single page to the search terms, in which a score of 0 means not at all relevant and higher numbers indicate more 
+relevancy. In other words, you can compare "Computed scores", but not percentages, across different searches to determine if results 
+are similarly relevant.</p>
+<p>This search engine is powered by <a href="http://www.htdig.org">ht://Dig</a> version ${VERSION}.</p>
+<!-- #BeginLibraryItem "/Library/bottomSpace.lbi" --><!--start bottomspace-->
+<br>
+<br>
+<br>
+<br>
+<!--end bottomspace-->
+<!-- #EndLibraryItem --> 
+<!-- #BeginLibraryItem "/Library/bottomNav_home.lbi" --><!--start bottomnav-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr bgcolor="#CCCC66"> 
+    <td> 
+      <table width="100%" border="0" cellspacing="1" cellpadding="1">
+		<tr> 
+		  
+          <td height="15" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../home.html"><font color="#333399">home</font></a></font></td>
+		  
+          <td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../interests/index.html"><font color="#CCCC66">your 
+            interests</font></a></font></td>
+		  
+          <td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../martha/index.html"><font color="#CCCC66">who 
+            was Martha?</font></a></font></td>
+		  
+          <td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"><a href="../diary/index.html"><font color="#CCCC66">Martha's 
+            diary</font></a> </font></td>
+		  
+          <td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../book/index.html"><font color="#CCCC66">book</font></a></font></td>
+		  
+          <td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../film/index.html"><font color="#CCCC66">film</font></a></font></td>
+		  
+          <td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../DHindex.html"><font color="#CCCC66">doing 
+            history</font> </a></font></td>
+		  
+          <td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../archive/index.html"><font color="#CCCC66">archive</font></a></font></td>
+		  
+          <td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../on_your_own/index.html"><font color="#CCCC66">on 
+            your own</font></a></font></td>
+		</tr>
+		<tr> 
+		  
+          <td height="15" colspan="9"><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"><a href="../sitemap.html"><font color="#333399">site 
+            map</font></a></font><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | </font><a href="../about/techHelp.html"><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"><font color="#333399">tech 
+            help</font></font></a><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | </font><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"> 
+            <a href="../about/site.html"><font color="#333399"> about this site</font></a></font><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | </font><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"> 
+            <a href="../search.html"><font color="#333399">search</font></a> </font><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | </font><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"><a href="../about/projecthistory.html"><font color="#333399">project 
+            history</font></a></font><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | </font> <font face="Arial, Helvetica, sans-serif" size="1" color="#333366"><a href="../about/credits.html"><font color="#333399">credits 
+            and funders</font></a> </font><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | <a href="../about/use.html"><font color="#333399">use and rights</font></a> 
+            | </font><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"> 
+            <a href="../about/feedback.html"><font color="#333399">feedback &#149; 
+            contact us</font></a></font></td>
+		</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!--`end bottomnav--><!-- #EndLibraryItem --> 
+</body>
+</html>

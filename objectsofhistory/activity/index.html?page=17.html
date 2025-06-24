@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+	<head>
+		<!-- meta info -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="keywords,go,here" />
+		<meta name="description" content="The Object of History takes you behind the scenes with the curators at the National Museum of American History" />
+		<meta name="author" content="Center for History and New Media" />
+		<meta name="copyright" content="Copyright &copy; 2006." />
+		
+		<title>The Object of History | Behind the Scenes with the Curators of the National Museum of American History</title>
+		
+		<!-- various internal links -->
+		<link rel="Shortcut Icon" type="image/ico" href="../i/favicon.ico.html" />
+		<link rel="accessibility" href="../accessibility/index.html" title="Accessibility and Object of History." />
+		<link rel="author" href="../about/index.html" title="About Object of History." />
+		<link rel="home" href="../index.html" title="Home page." />
+		<link rel="organization" href="http://chnm.gmu.edu" title="Center for History and New Media" />
+		
+		<!-- Stylesheets -->
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/screen.css" />
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/gb_styles.css" />
+		<link rel="alternate stylesheet" media="print" href="../content/public/styles/print.css" />
+		
+		<!--[if IE 6]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie6.css" />
+		<![endif]-->
+		
+		<!--[if IE 7]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie7.css" />
+		<![endif]-->
+	
+		<!-- JavaScripts -->
+		<script type="text/javascript">
+		    var GB_ROOT_DIR = "/content/public/j/greybox/";
+		
+			// This hide the non-javascript activity form before the page load.
+			var checkJS = document.getElementById;
+
+			if (checkJS) {
+			        document.write('<style type="text/css">#activityform{display: none;}</style>');
+			}
+		
+		</script>
+
+		
+		<script type="text/javascript" src="../content/common/javascripts/prototype.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/common.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/dragdrop.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/niftycorners/niftycube.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS_fx.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/gb_scripts.js"></script>
+		<script type="text/javascript" src="../content/public/j/roundcorners.js"></script>
+		<script type="text/javascript" src="../content/public/j/imagepagination.js"></script>
+		
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '100']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+
+
+<body id="activity" class="index">
+	
+<div class="hide"><a href="index.html%3Fpage=17.html#content">Skip Navigation/Skip to Content</a></div>
+
+<div id="wrap">
+
+<div id="header">
+<div class="padding">
+<ul id="sitenav" class="navigation">
+	<li class="nav-guide"><a href="../guide/index.html">Guide</a></li>
+	<li class="nav-objects"><a href="../objects/index.html">Objects</a></li>
+	<li class="nav-forum"><a href="../forum/index.html">Forum</a></li>
+	
+	<li class="nav-activity"><a href="index.html">Activity</a></li>
+</ul>
+<h1 id="logo"><a href="../index.html">The Object of History | Behind the Scenes with the Curators of the National Museum of American History</a></h1>
+<h2 id="section-title" class="activity-title">Activity | Create a Virtual Exhibit</h2>
+
+</div>
+</div>
+
+<div id="content">
+	<div class="padding">
+<style type="text/css">
+@import url("../content/public/styles/activity.css");
+</style>
+
+<script type="text/javascript">
+
+function initAjaxActivity() {
+	var itemPaginate, itemCart, itemList, tourMeta;
+	$("itempaginate").style.display = "block";
+	$("itemcart").style.display = "block";
+	$("itemlist").style.display = "block";
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", {evalScripts:true});
+	new Ajax.Updater('tourmeta', "/activity/ajaxTourMeta/", {evalScripts:true});
+	new Ajax.Updater('itemcart', "/activity/ajaxItemCart/", {evalScripts: true});
+	paginateItems( 1  );
+//	paginateItems( 1, 4);
+}
+
+function buildPagination( page, per_page, total, collection_id )
+{
+	pages = Math.ceil( total / per_page );
+	if( page > 1 )
+	{
+		back = document.createElement('a');
+		back.setAttribute('href', 'javascript:void(0)');
+		back.setAttribute('id','previous');
+		back.onclick = function() {
+			paginateItems( page-1, collection_id );
+		}
+		back.innerHTML = '&larr;';
+	}
+	else
+	
+	{
+		back = document.createElement('span');
+		back.innerHTML = '';
+	}
+
+	current = document.createTextNode( ' '+page+' ' );
+
+	if( page < pages )
+	{
+		forward = document.createElement('a');
+		forward.setAttribute('href', 'javascript:void(0)');
+		forward.setAttribute('id','next');
+		forward.setAttribute('title','Next Page');
+		//forward.setAttribute('onclick', 'findMapItems("/mapXML/'+(parseInt(page)+1)+'")');
+		forward.onclick = function() {
+			paginateItems( page+1, collection_id );
+		}
+		forward.innerHTML = '&rarr;';
+	}
+	else
+	{
+		forward = document.createElement('span');
+		forward.innerHTML = '';
+	}
+
+	of = document.createTextNode(' of '+pages+' pages.');
+
+	// Build the html
+
+	span = document.getElementById('itempaginate');
+	span.appendChild(back);
+//	span.appendChild(current);
+	span.appendChild(forward);
+	//span.appendChild(of);
+}
+
+function paginateItems( page, collection_id )
+{
+	parameters = 'page=' + page;
+	
+	if(typeof(collection_id) != "undefined") {
+		parameters = parameters + '&collection=' + collection_id;
+	}else {
+		if( typeof($('item_limit')) != 'undefined') {
+			parameters = parameters + '&' + Form.serialize('item_limit');
+		}
+	}
+	
+	var itemopt = {
+		parameters: parameters,
+		method: 'get',
+		onComplete: function(t) {
+			$('itempaginate').innerHTML = '';
+			var total = $('total').innerHTML;
+
+			buildPagination( page, 12, total, collection_id);
+		},
+		onFailure: reportError,
+		evalScripts: true
+	}
+	
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", itemopt);
+	
+
+}
+function getItemId( draggable ) {
+	return draggable.id.substring(4, 8);
+}
+
+function getOrder( droppable ) {
+	return droppable.id.substring(5, 6);
+}
+
+function reportError(t)
+{
+	alert(t.status);
+}
+
+function fadeDraggable( draggable ) {
+	container = $('itemcontainer'+getItemId(draggable));
+	if( container ) {
+		itemNewImage = document.createElement('img');
+		dragImg = draggable.getElementsByTagName('img');
+		itemNewImage.src = dragImg[0].src;
+		container.appendChild(itemNewImage);
+		new Effect.Opacity(container.id, {duration:1.0, from: 1.0, to:0.2 });
+		/* if(navigator.appName == "Microsoft Internet Explorer") {
+			draggable.setAttribute('class','hide');
+		}
+		else {
+			draggable.class = 'hide';
+		} */
+		return true;
+	}
+	else {
+		return false;
+	}
+
+}
+addLoadListener(initAjaxActivity);
+
+</script>
+<div id="primary">	
+<form method="post" id="activityform">
+	<div id="paginate">
+	 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=16.html">&lt; Prev</a> | <a href="index.html%3Fpage=15.html">15</a> | <a href="index.html%3Fpage=16.html">16</a> | 17 | <a href="index.html%3Fpage=18.html">18</a> | <a href="index.html%3Fpage=19.html">19</a> | <a href="index.html%3Fpage=18.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	</div>
+			<h3> Select from the following items: </h3>
+		<ul class="activity-items">
+		
+						<li>
+				<img src="../content/thumbnails/doc2_tan_cc6f609d02.jpg" alt="While reformers were generally concerned with machine politics, the end of the nineteenth century saw another dramatic shift in the electoral landscape with widespread efforts to deny the vote to African Americans, particularly in the Southern states.  For example, restrictive policies in South Carolina began with the election law of 1882 that used an intricate system of eight ballot boxes to discourage illiterate white and black residents from voting. The state&#39;s 1895 Constitutional Convention added a poll tax and literacy test, thereby ensuring that a coalition of remaining black voters and disaffected whites could not unite to challenge Democratic Party rule in South Carolina. A handful of black delegates to the Convention raised their voices against this disenfranchisement. One of them was William J. Whipper, a Northern black lawyer who had moved to South Carolina during Reconstruction to become a rice planter as well as a Republican political leader. In this speech to the Convention, Whipper argued for retaining African-American voting rights." title="Fighting Back: A Black Lawyer Argues Against Disenfranchisement" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[55][item_id]">Fighting Back: A Black Lawyer Argues Against Disenfranchisement</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[55][item_id]" class="checkbox" value="55"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_blue_4860e1665c.jpg" alt="By the end of the Civil War many Northerners believed that changes for African Americans should go beyond simply ending slavery. The Fifteenth Amendment to the U.S. Constitution reflects that desire&mdash;it makes it illegal to deny people the right to vote on account of race. It is a remarkable change&mdash;just a decade earlier, the Supreme Court in the Dred Scott case had ruled that the &quot;the Negro had no rights a white man was bound to respect.&quot; Now the constitution outlawed racial discrimination in matters relating to a citizen&#39;s rights. Although, this amendment would be blatantly ignored over the next century, as Southern states systematically denied black people the right to vote. Nonetheless, it formed the basis for the  Nineteenth Amendment, which eliminated sex restrictions on voting.  African Americans would not see the promise of the Fifteenth amendment fulfilled until the long struggles of the Civil Rights movement in the 1950s and 1960s produced new voting rights legislation. " title="Constitutional Amendments Dealing with Voting" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[54][item_id]">Constitutional Amendments Dealing with Voting</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[54][item_id]" class="checkbox" value="54"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_red_584d439610.jpg" alt="Although African Americans won the right to vote with the fifteenth amendment in 1870, their gains were quickly eroded, especially after the end of Reconstruction in 1877. Indeed, exclusionary policies got worse in the late nineteenth century and Southern states developed policies to stop African Americans from voting. In 1899, for example, the North Carolina legislature passed an amendment requiring a literacy test for voting. In order to not disfranchise illiterate white men, a so-called &quot;grandfather&quot; clause stated that anyone whose father or grandfather could vote prior to 1867 (when there were no black voters) would be exempt from the literacy test. Moreover, those African Americans who tried to vote confronted racist polling officials who would ask questions about the state constitution that even legal experts could not answer." title="1899 North Carolina Literacy Test Requirement" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[53][item_id]">1899 North Carolina Literacy Test Requirement</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[53][item_id]" class="checkbox" value="53"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_tan_9d5d38ae61.jpg" alt="Delegates to the 1829-1830 Virginia Constitutional Convention included such prominent Virginians as James Madison, James Monroe, John Tyler, and John Marshall. Issues of representation and suffrage dominated the debate, which was largely a contest between eastern Virginia land and slave owners and the less affluent residents of western Virginia. Virginia was politically dominated by the wealthy tidewater planters, who were overrepresented in the state legislature because slaves were counted 3/5ths in apportioning representation. The convention ultimately compromised by loosening the requirements for suffrage&mdash;granting white suffrage to property holders with less value than had been previously required and extending the right to leaseholders and houseowners who paid taxes&mdash;and reducing the number of delegates and senators to the Virginia General Assembly based on the white population. At this time, Virginia was the last of the twenty-four states with property requirements for suffrage. The property requirement was not dropped until 1851." title="Virginia Constitution, Rights of Suffrage (1830)" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[52][item_id]">Virginia Constitution, Rights of Suffrage (1830)</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[52][item_id]" class="checkbox" value="52"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/NastIcon_6c51e00486.gif" alt="Thomas Nast&#39;s renowned illustrations in &lt;em&gt;Harper&#39;s Weekly&lt;/em&gt; worked to expose the political corruption of the infamous machine run beginning in the 1860s by William &quot;Boss&quot; Tweed in New York City&#39;s Tammany Hall.  Known for their corrupt dealings, the Democratic political machine used bribes, kickbacks, patronage, and sometimes engaged in voting fraud.  At the same time, they often won immigrant support because they provided badly needed services to poor communities. Because Tammany Hall controlled voting, taxes, and contracts, reform groups believed that cleaning the election process was one way to help undercut the political machines (and take back political power). Nast&#39;s cartoon illustrates voting fraud while exposing the larger corruption of the Tweed Ring. This 1871 cartoon is captioned with a quotation from Charles Dickens&#39; novel &lt;em&gt;Oliver Twist&lt;/em&gt;: &quot;They no sooner heard the cry, than, guessing how the matter stood, they issued forth with great promptitude; and, shouting &#39;Stop Thief!&#39; too, and joined in the pursuit like &lt;em&gt;Good Citizens&lt;/em&gt;.&quot;" title="Stop Thief!" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[51][item_id]">Stop Thief!</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[51][item_id]" class="checkbox" value="51"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/ArrestIcon_89edb9e93f.gif" alt="Campaign fraud involved different ways of casting multiple ballots. &quot;Repeaters&quot; would cast one ballot after another at the same polling place. Some would grow beards well before the election, then shave three times to produce progressively different appearances. &quot;Phantom voters&quot; registered with names and addresses of people who had died, moved, or never lived at the address on file. &quot;Floaters&quot; would vote at several different polling places. This illustration depicts  the arrest of a &quot;repeater&quot; during the 1896 election between McKinley and William Jennings Bryan. Notice the number of election judges." title="Arrest of a Repeater" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[50][item_id]">Arrest of a Repeater</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[50][item_id]" class="checkbox" value="50"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/bird-poster2sm_7a68383964.jpg" alt="" title="What kinds of fraud did the voting machine try to prevent?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[49][item_id]">What kinds of fraud did the voting machine try to prevent?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[49][item_id]" class="checkbox" value="49"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/bird-poster3sm_215dc073fc.jpg" alt="" title="Were there efforts made to teach voters how to use the machine?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[48][item_id]">Were there efforts made to teach voters how to use the machine?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[48][item_id]" class="checkbox" value="48"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/WillkieIcon_6b8bebd988.gif" alt="Political candidates have often distributed campaign promotional materials intended to help voters understand how to vote, whether by marking a ballot with a pencil or with a mechanical switch. In 1940 when Republican Wendell Willkie challenged incumbent Franklin D. Roosevelt, the world was focused on events in Europe and the beginnings of World War II. Willkie had been the dark horse candidate at the Republican National Convention, slipping ahead of favored candidate Thomas E. Dewey. As part of his campaign, Willkie attacked Roosevelt&#39;s unprecedented run for a third term and his inclination to involve America in the War. This novelty campaign ballot was created to influence voters specifically in Rockland County, New York. Notice the biographical information for the main candidates and the red levers that can only point in this sample ballot at the Republican nominations. " title="Willkie Novelty Ballot" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[47][item_id]">Willkie Novelty Ballot</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[47][item_id]" class="checkbox" value="47"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/globe_jar_da8106eab9.gif" alt="By the mid-nineteenth century almost all of the states had switched from voice-voting to written ballots.  The basic ballot box in the United States included a top slot and a lock to keep the votes secure until they were ready to be counted.  Like the slot-top wooden ballot box, this 1884 box with a glass chamber is typical of the devices used to secure single party tickets. Since the globe was glass, observers could determine the party ticket of the vote being cast.  This lack of anonymity was thought to help thwart the dominance of political machines and electoral fraud.  The image of the glass ballot box became a symbol of democratic self-government, and appeared in numerous politcal cartoons advocating political reform." title="Glass Globe Ballot Jar" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[46][item_id]">Glass Globe Ballot Jar</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[46][item_id]" class="checkbox" value="46"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/bird-poster1sm_40a35cdf1c.jpg" alt="" title="Why was the Voting Machine invented?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[45][item_id]">Why was the Voting Machine invented?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[45][item_id]" class="checkbox" value="45"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/patents_f3b5b8866d.gif" alt="This close up of the side of the voting machine highlights the range of patents that the Automatic Voting Machine Company filed on their product between 1889 and 1899.  Patents guaranteed inventors that they had exclusive rights to produce their inventions and that those rights would be protected by the federal government.  In 1790, the U.S. Congress passed the first Patent Act, which was drafted by Thomas Jefferson and applied to physical inventions rather than ideas. By 1836, the Congress established a Patent Office within the State Department to handle the review and issuance of the patents.  In 1849, the office was transferred to the Department of the Interior.  The number of patents issued during the later half of the nineteenth century increased dramatically with the explosion of mechanization in American industrial life." title="Standard Voting Machine Patents" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[44][item_id]">Standard Voting Machine Patents</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[44][item_id]" class="checkbox" value="44"  />
+	
+				Select This Item</label>
+			</li>
+					
+				</ul>
+		<hr class="clear" />
+		 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=16.html">&lt; Prev</a> | <a href="index.html%3Fpage=15.html">15</a> | <a href="index.html%3Fpage=16.html">16</a> | 17 | <a href="index.html%3Fpage=18.html">18</a> | <a href="index.html%3Fpage=19.html">19</a> | <a href="index.html%3Fpage=18.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	
+	<input type="submit" name="tour_select_items_submit" value="Select these items" />
+	<input type="submit" name="cancel_submit" value="Cancel" />
+</form>
+<div id="tourmeta"></div>
+
+<div id="itempaginate"></div>
+<div id="itemlist"></div>
+<div id="error"></div>
+
+<div id="itemcart"></div>
+
+</div>
+
+</div> <!-- closes padding div -->
+</div> <!-- closes content div -->
+			<div id="sponsors">
+				<div class="padding">
+				<a href="http://americanhistory.si.edu/"><span id="si-logo">National Museum of American History, Smithsonian Institution</span></a>
+				<a href="http://chnm.gmu.edu"><span id="chnm-logo">Roy Rosenzweig Center for History and New Media</span></a>
+				</div>
+			</div>
+			<div id="footer">
+			<div class="padding">
+			<ul class="navigation">
+				<li class="nav-home"><a href="../index/index.html">Home</a></li>
+				<li class="nav-about"><a href="../about/index.html">About</a></li>
+				<li class="nav-teachers"><a href="../teachers/index.html">Teachers</a></li>
+				<li class="nav-privacy"><a href="../privacy/index.html">Privacy</a></li>
+				<li class="nav-help"><a href="../help/index.html">Help</a></li>
+			</ul>
+			</div>
+			</div>
+		</div> <!-- closes wrap div -->
+		
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2013 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 4.1  -->
+<!-- Created: 5/31/2013 2:28:09 PM -->
+<script src="http://americanhistory.si.edu/_js/webtrends-ooh.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+_tag.WT.cg_n="histex";
+}
+_tag.dcsCollect();
+//]]>
+</script>
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://logs1.smithsonian.museum/dcswl5ztmadzpxv8vdov1jgep_3j8q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=objectofhistory.org"/></div>
+</noscript>
+<!-- END OF SmartSource Data Collector TAG -->
+
+
+
+	</body>
+	
+</html>

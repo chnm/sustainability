@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+	<head>
+		<!-- meta info -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="keywords,go,here" />
+		<meta name="description" content="The Object of History takes you behind the scenes with the curators at the National Museum of American History" />
+		<meta name="author" content="Center for History and New Media" />
+		<meta name="copyright" content="Copyright &copy; 2006." />
+		
+		<title>The Object of History | Behind the Scenes with the Curators of the National Museum of American History</title>
+		
+		<!-- various internal links -->
+		<link rel="Shortcut Icon" type="image/ico" href="../i/favicon.ico.html" />
+		<link rel="accessibility" href="../accessibility/index.html" title="Accessibility and Object of History." />
+		<link rel="author" href="../about/index.html" title="About Object of History." />
+		<link rel="home" href="../index.html" title="Home page." />
+		<link rel="organization" href="http://chnm.gmu.edu" title="Center for History and New Media" />
+		
+		<!-- Stylesheets -->
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/screen.css" />
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/gb_styles.css" />
+		<link rel="alternate stylesheet" media="print" href="../content/public/styles/print.css" />
+		
+		<!--[if IE 6]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie6.css" />
+		<![endif]-->
+		
+		<!--[if IE 7]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie7.css" />
+		<![endif]-->
+	
+		<!-- JavaScripts -->
+		<script type="text/javascript">
+		    var GB_ROOT_DIR = "/content/public/j/greybox/";
+		
+			// This hide the non-javascript activity form before the page load.
+			var checkJS = document.getElementById;
+
+			if (checkJS) {
+			        document.write('<style type="text/css">#activityform{display: none;}</style>');
+			}
+		
+		</script>
+
+		
+		<script type="text/javascript" src="../content/common/javascripts/prototype.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/common.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/dragdrop.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/niftycorners/niftycube.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS_fx.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/gb_scripts.js"></script>
+		<script type="text/javascript" src="../content/public/j/roundcorners.js"></script>
+		<script type="text/javascript" src="../content/public/j/imagepagination.js"></script>
+		
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '100']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+
+
+<body id="activity" class="index">
+	
+<div class="hide"><a href="index.html%3Fpage=14.html#content">Skip Navigation/Skip to Content</a></div>
+
+<div id="wrap">
+
+<div id="header">
+<div class="padding">
+<ul id="sitenav" class="navigation">
+	<li class="nav-guide"><a href="../guide/index.html">Guide</a></li>
+	<li class="nav-objects"><a href="../objects/index.html">Objects</a></li>
+	<li class="nav-forum"><a href="../forum/index.html">Forum</a></li>
+	
+	<li class="nav-activity"><a href="index.html">Activity</a></li>
+</ul>
+<h1 id="logo"><a href="../index.html">The Object of History | Behind the Scenes with the Curators of the National Museum of American History</a></h1>
+<h2 id="section-title" class="activity-title">Activity | Create a Virtual Exhibit</h2>
+
+</div>
+</div>
+
+<div id="content">
+	<div class="padding">
+<style type="text/css">
+@import url("../content/public/styles/activity.css");
+</style>
+
+<script type="text/javascript">
+
+function initAjaxActivity() {
+	var itemPaginate, itemCart, itemList, tourMeta;
+	$("itempaginate").style.display = "block";
+	$("itemcart").style.display = "block";
+	$("itemlist").style.display = "block";
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", {evalScripts:true});
+	new Ajax.Updater('tourmeta', "/activity/ajaxTourMeta/", {evalScripts:true});
+	new Ajax.Updater('itemcart', "/activity/ajaxItemCart/", {evalScripts: true});
+	paginateItems( 1  );
+//	paginateItems( 1, 4);
+}
+
+function buildPagination( page, per_page, total, collection_id )
+{
+	pages = Math.ceil( total / per_page );
+	if( page > 1 )
+	{
+		back = document.createElement('a');
+		back.setAttribute('href', 'javascript:void(0)');
+		back.setAttribute('id','previous');
+		back.onclick = function() {
+			paginateItems( page-1, collection_id );
+		}
+		back.innerHTML = '&larr;';
+	}
+	else
+	
+	{
+		back = document.createElement('span');
+		back.innerHTML = '';
+	}
+
+	current = document.createTextNode( ' '+page+' ' );
+
+	if( page < pages )
+	{
+		forward = document.createElement('a');
+		forward.setAttribute('href', 'javascript:void(0)');
+		forward.setAttribute('id','next');
+		forward.setAttribute('title','Next Page');
+		//forward.setAttribute('onclick', 'findMapItems("/mapXML/'+(parseInt(page)+1)+'")');
+		forward.onclick = function() {
+			paginateItems( page+1, collection_id );
+		}
+		forward.innerHTML = '&rarr;';
+	}
+	else
+	{
+		forward = document.createElement('span');
+		forward.innerHTML = '';
+	}
+
+	of = document.createTextNode(' of '+pages+' pages.');
+
+	// Build the html
+
+	span = document.getElementById('itempaginate');
+	span.appendChild(back);
+//	span.appendChild(current);
+	span.appendChild(forward);
+	//span.appendChild(of);
+}
+
+function paginateItems( page, collection_id )
+{
+	parameters = 'page=' + page;
+	
+	if(typeof(collection_id) != "undefined") {
+		parameters = parameters + '&collection=' + collection_id;
+	}else {
+		if( typeof($('item_limit')) != 'undefined') {
+			parameters = parameters + '&' + Form.serialize('item_limit');
+		}
+	}
+	
+	var itemopt = {
+		parameters: parameters,
+		method: 'get',
+		onComplete: function(t) {
+			$('itempaginate').innerHTML = '';
+			var total = $('total').innerHTML;
+
+			buildPagination( page, 12, total, collection_id);
+		},
+		onFailure: reportError,
+		evalScripts: true
+	}
+	
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", itemopt);
+	
+
+}
+function getItemId( draggable ) {
+	return draggable.id.substring(4, 8);
+}
+
+function getOrder( droppable ) {
+	return droppable.id.substring(5, 6);
+}
+
+function reportError(t)
+{
+	alert(t.status);
+}
+
+function fadeDraggable( draggable ) {
+	container = $('itemcontainer'+getItemId(draggable));
+	if( container ) {
+		itemNewImage = document.createElement('img');
+		dragImg = draggable.getElementsByTagName('img');
+		itemNewImage.src = dragImg[0].src;
+		container.appendChild(itemNewImage);
+		new Effect.Opacity(container.id, {duration:1.0, from: 1.0, to:0.2 });
+		/* if(navigator.appName == "Microsoft Internet Explorer") {
+			draggable.setAttribute('class','hide');
+		}
+		else {
+			draggable.class = 'hide';
+		} */
+		return true;
+	}
+	else {
+		return false;
+	}
+
+}
+addLoadListener(initAjaxActivity);
+
+</script>
+<div id="primary">	
+<form method="post" id="activityform">
+	<div id="paginate">
+	 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=13.html">&lt; Prev</a> | <a href="index.html%3Fpage=12.html">12</a> | <a href="index.html%3Fpage=13.html">13</a> | 14 | <a href="index.html%3Fpage=15.html">15</a> | <a href="index.html%3Fpage=16.html">16</a> | <a href="index.html%3Fpage=15.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	</div>
+			<h3> Select from the following items: </h3>
+		<ul class="activity-items">
+		
+						<li>
+				<img src="../content/thumbnails/ruffins1_73cee6483b.gif" alt="" title="What was the experience of eating at a lunch counter like?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[96][item_id]">What was the experience of eating at a lunch counter like?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[96][item_id]" class="checkbox" value="96"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/yeingst4_5d326217cd.gif" alt="" title="What condition was the lunch counter in when you went to Greensboro to examine it?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[95][item_id]">What condition was the lunch counter in when you went to Greensboro to examine it?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[95][item_id]" class="checkbox" value="95"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/Greensboro1959icon_b518d49550.gif" alt="Greensboro was a successful &quot;New South&quot; city with a strong economic base in textiles and insurance. African American residents did not, however, share in that prosperity. Although white leaders described local race relations as characterized by cooperation and civility, African Americans, who faced discrimination and segregation, did not share that view. Located in downtown Greensboro, the F.W. Woolworth store that became the site of the 1960 sit-in protests was a flagship store for the company.  This image shows the store in August 1959. The store closed in 1993 and became the location of the International Civil Rights Center and Museum." title="Greensboro, North Carolina F.W. Woolworth store " class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[94][item_id]">Greensboro, North Carolina F.W. Woolworth store </h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[94][item_id]" class="checkbox" value="94"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/johns_icon_b4d130268a.gif" alt="Ezell Blair, Jr. (now Jibreel Khazan), David Richmond, Joseph McNeil, and Franklin McCain were the participants of the initial Greensboro sit-in, but they were supported by a local African-American community with a strong tradition of independent institutions and activism.  They also had key allies in the white community.  White shoe store owner Ralph Johns had long supported the NAACP, serving as the chapter&#39;s vice president in the 1940s and 1950s, and was committed to the idea of demonstrating against segregated public facilities. For several years he tried to persuade black employees and students to go to a lunch counter and demand service. Joseph McNeil believed that Johns&#39;s involvement in the black community &quot;was far greater than [that of] any other merchant.&quot; As a result of his involvement, eggs were thrown at his store windows and rocks were thrown at him. He received numerous insults and threats, including bomb threats and obscene letters. In this interview from 1978, Johns relates his recollection of his role in the planning of the sit-ins." title="Planning the Sit-In: A Shoe-Store Owner&#39;s Recollection (Ralph Johns)" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[92][item_id]">Planning the Sit-In: A Shoe-Store Owner's Recollection (Ralph Johns)</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[92][item_id]" class="checkbox" value="92"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/picketers_icon_3175562267.gif" alt="The &lt;em&gt;Brown&lt;/em&gt; decision declared the system of legal segregation in public schools unconstitutional. The original decision was followed by a second related decision in 1955. This Supreme Court decision ordered that the states end segregation with &quot;all deliberate speed.&quot; There were considerable organized oppositions to the rulings. Segregationists played on the fears and prejudices of their communities and launched a militant campaign of defiance and resistance. Through state and local governments and private organizations, white supremacists attempted to block desegregation. People across the country, like these in 1956 from Poolesville, Maryland, took to the streets to protest integration. This kind of opposition exposed the deep divide in the nation and revealed the difficulty of enforcing the high court&#39;s decision." title="Opposition to Integration, 1956" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[91][item_id]">Opposition to Integration, 1956</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[91][item_id]" class="checkbox" value="91"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_brown_d3cf874e41.jpg" alt="Building on several more limited decisions in the 1940s, in 1954 the U.S. Supreme Court effectively rejected the language in the 1896 decision &lt;em&gt;Plessy v. Ferguson&lt;/em&gt;, which had decreed that supporting separate-but-equal accommodations for African Americans was acceptable. In this brief excerpt from the decision by Chief Justice Earl Warren, he declares &quot;Separate educational facilities are inherently unequal.&quot;  Greensboro, North Carolina was the first city in the South to announce that it would comply with &lt;em&gt;Brown v. Board of Education&lt;/em&gt;. But it was not until 1971, seventeen years after the Brown decision, that Greensboro finally integrated its public schools." title="Separate is Not Equal: the Brown v. Board of Education Supreme Court Decision" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[90][item_id]">Separate is Not Equal: the Brown v. Board of Education Supreme Court Decision</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[90][item_id]" class="checkbox" value="90"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/tisdale_icon_6b9d56b6ab.gif" alt="When Kress and Meyer&#39;s, two other local stores, agreed to desegregate their lunch counters, Woolworth&#39;s regional officers finally conceded as well. On July 25, 1960, the Greensboro lunch counter was finally desegregated. The first African Americans served were the black women who worked the lunch counter. In this interview, Geneva Tisdale, who was one of three black women who worked the counter, recalled the historic end of segregation in Woolworth&#39;s. " title="How it Ended: A Black Worker&#39;s Recollections (Geneva Tisdale)" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[89][item_id]">How it Ended: A Black Worker's Recollections (Geneva Tisdale)</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[89][item_id]" class="checkbox" value="89"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/CorePicketersIcon_27055112b4.gif" alt="The Greensboro sit-ins included activity outside the lunch counter. Everyday people marched outside the stores. In this photograph from April 14, 1960, the picketers were mostly ministers from a church committee that organized a protest of Woolworth policies in conjunction with the Congress of Racial Equality. The Woolworth&#39;s manager estimated that only 5 percent of his trade consisted of African Americans, but the loss of business and patronage from other customers scared away by the demonstrations cost the store $200,000 in sales in 1960. Sales decreased by 20 percent in Greensboro, with profits off by 50 percent.  " title="Segregation is Wrong: Protester Picket the Woolworth store " class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[87][item_id]">Segregation is Wrong: Protester Picket the Woolworth store </h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[87][item_id]" class="checkbox" value="87"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/porters2_smicon_11254e543c.gif" alt="The Brotherhood of Sleeping Car Porters was the first union of African Americans to gain real economic bargaining power with an employer. The porters were almost all employees of the Pullman Co., which from the 1870s through the 1950s, employed more African Americans than any other single firm in the U.S. From the 1920s through the 1940s, porters helped southern African Americans migrate by bringing back information on jobs and housing in the North. Porters were also involved in Civil Rights activities. Union leader A. Philip Randolph pressured President Franklin Roosevelt into issuing Executive Order 8802 in 1941. It barred discrimination in defense industries and created the Fair Employment Practices Committee. Pullman porter E.D. Nixon helped plan the Montgomery, Alabama, bus boycott of 1955-56. Later, Randolph was involved in planning the 1963 civil rights march on Washington. This badge is from the union&#39;s convention in 1948." title="Brotherhood of Sleeping Car Porters Badge: African American Activism" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[86][item_id]">Brotherhood of Sleeping Car Porters Badge: African American Activism</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[86][item_id]" class="checkbox" value="86"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_red_11cb01f213.jpg" alt="In the years following the end of Reconstruction in 1877, white politicians and lawmakers mostly retreated on their efforts to guarantee African Americans the full rights and protections of citizenship.  In the former Confederacy and neighboring states, local governments constructed a legal system aimed at re-establishing a society based on white supremacy. African American men were largely barred from voting. Legislation known as Jim Crow laws separated people of color from whites in schools, housing, jobs, and public gathering places.  The following laws are just a handful of examples of the regulations that proscribed African American life in large and small ways between Reconstruction and the mid-1960s." title="Jim Crow Rules the Day: Segregation Laws" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[85][item_id]">Jim Crow Rules the Day: Segregation Laws</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[85][item_id]" class="checkbox" value="85"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/OriginalExGrnboro_icon_09f34409dc.gif" alt="The lunch counter was first display in 1995 as part of an exhibit called &quot;Sitting for Justice: The Greensboro Sit-in of 1960.&quot; The materials on the left detailed the sit-ins in Greensboro in 1960 and the materials on the right represented the use of civil disobedience and non-violence in the struggle for racial justice around the world." title="Sitting for Justice" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[84][item_id]">Sitting for Justice</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[84][item_id]" class="checkbox" value="84"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_red_4026f2eec7.jpg" alt="Once the curators at the National Museum of American History acquired a portion of the Greensboro Woolworth&#39;s lunch counter, they also began to discuss how to display the lunch counter in the museum.  Their work was part of a long-standing effort on the part  of the museum to collect Civil Rights era material.  In this memorandum, curator Bill Yeingst  proposed a plan for exhibiting the lunch counter in the museum.  " title="Exhibit Review Committee" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[83][item_id]">Exhibit Review Committee</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[83][item_id]" class="checkbox" value="83"  />
+	
+				Select This Item</label>
+			</li>
+					
+				</ul>
+		<hr class="clear" />
+		 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=13.html">&lt; Prev</a> | <a href="index.html%3Fpage=12.html">12</a> | <a href="index.html%3Fpage=13.html">13</a> | 14 | <a href="index.html%3Fpage=15.html">15</a> | <a href="index.html%3Fpage=16.html">16</a> | <a href="index.html%3Fpage=15.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	
+	<input type="submit" name="tour_select_items_submit" value="Select these items" />
+	<input type="submit" name="cancel_submit" value="Cancel" />
+</form>
+<div id="tourmeta"></div>
+
+<div id="itempaginate"></div>
+<div id="itemlist"></div>
+<div id="error"></div>
+
+<div id="itemcart"></div>
+
+</div>
+
+</div> <!-- closes padding div -->
+</div> <!-- closes content div -->
+			<div id="sponsors">
+				<div class="padding">
+				<a href="http://americanhistory.si.edu/"><span id="si-logo">National Museum of American History, Smithsonian Institution</span></a>
+				<a href="http://chnm.gmu.edu"><span id="chnm-logo">Roy Rosenzweig Center for History and New Media</span></a>
+				</div>
+			</div>
+			<div id="footer">
+			<div class="padding">
+			<ul class="navigation">
+				<li class="nav-home"><a href="../index/index.html">Home</a></li>
+				<li class="nav-about"><a href="../about/index.html">About</a></li>
+				<li class="nav-teachers"><a href="../teachers/index.html">Teachers</a></li>
+				<li class="nav-privacy"><a href="../privacy/index.html">Privacy</a></li>
+				<li class="nav-help"><a href="../help/index.html">Help</a></li>
+			</ul>
+			</div>
+			</div>
+		</div> <!-- closes wrap div -->
+		
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2013 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 4.1  -->
+<!-- Created: 5/31/2013 2:28:09 PM -->
+<script src="http://americanhistory.si.edu/_js/webtrends-ooh.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+_tag.WT.cg_n="histex";
+}
+_tag.dcsCollect();
+//]]>
+</script>
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://logs1.smithsonian.museum/dcswl5ztmadzpxv8vdov1jgep_3j8q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=objectofhistory.org"/></div>
+</noscript>
+<!-- END OF SmartSource Data Collector TAG -->
+
+
+
+	</body>
+	
+</html>

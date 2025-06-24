@@ -1,0 +1,439 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+	<head>
+		<!-- meta info -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="keywords,go,here" />
+		<meta name="description" content="The Object of History takes you behind the scenes with the curators at the National Museum of American History" />
+		<meta name="author" content="Center for History and New Media" />
+		<meta name="copyright" content="Copyright &copy; 2006." />
+		
+		<title>The Object of History | Behind the Scenes with the Curators of the National Museum of American History</title>
+		
+		<!-- various internal links -->
+		<link rel="Shortcut Icon" type="image/ico" href="../i/favicon.ico.html" />
+		<link rel="accessibility" href="../accessibility/index.html" title="Accessibility and Object of History." />
+		<link rel="author" href="../about/index.html" title="About Object of History." />
+		<link rel="home" href="../index.html" title="Home page." />
+		<link rel="organization" href="http://chnm.gmu.edu" title="Center for History and New Media" />
+		
+		<!-- Stylesheets -->
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/screen.css" />
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/gb_styles.css" />
+		<link rel="alternate stylesheet" media="print" href="../content/public/styles/print.css" />
+		
+		<!--[if IE 6]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie6.css" />
+		<![endif]-->
+		
+		<!--[if IE 7]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie7.css" />
+		<![endif]-->
+	
+		<!-- JavaScripts -->
+		<script type="text/javascript">
+		    var GB_ROOT_DIR = "/content/public/j/greybox/";
+		
+			// This hide the non-javascript activity form before the page load.
+			var checkJS = document.getElementById;
+
+			if (checkJS) {
+			        document.write('<style type="text/css">#activityform{display: none;}</style>');
+			}
+		
+		</script>
+
+		
+		<script type="text/javascript" src="../content/common/javascripts/prototype.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/common.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/dragdrop.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/niftycorners/niftycube.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS_fx.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/gb_scripts.js"></script>
+		<script type="text/javascript" src="../content/public/j/roundcorners.js"></script>
+		<script type="text/javascript" src="../content/public/j/imagepagination.js"></script>
+		
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '100']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+
+
+<body id="activity" class="index">
+	
+<div class="hide"><a href="index.html%3Fpage=9.html#content">Skip Navigation/Skip to Content</a></div>
+
+<div id="wrap">
+
+<div id="header">
+<div class="padding">
+<ul id="sitenav" class="navigation">
+	<li class="nav-guide"><a href="../guide/index.html">Guide</a></li>
+	<li class="nav-objects"><a href="../objects/index.html">Objects</a></li>
+	<li class="nav-forum"><a href="../forum/index.html">Forum</a></li>
+	
+	<li class="nav-activity"><a href="index.html">Activity</a></li>
+</ul>
+<h1 id="logo"><a href="../index.html">The Object of History | Behind the Scenes with the Curators of the National Museum of American History</a></h1>
+<h2 id="section-title" class="activity-title">Activity | Create a Virtual Exhibit</h2>
+
+</div>
+</div>
+
+<div id="content">
+	<div class="padding">
+<style type="text/css">
+@import url("../content/public/styles/activity.css");
+</style>
+
+<script type="text/javascript">
+
+function initAjaxActivity() {
+	var itemPaginate, itemCart, itemList, tourMeta;
+	$("itempaginate").style.display = "block";
+	$("itemcart").style.display = "block";
+	$("itemlist").style.display = "block";
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", {evalScripts:true});
+	new Ajax.Updater('tourmeta', "/activity/ajaxTourMeta/", {evalScripts:true});
+	new Ajax.Updater('itemcart', "/activity/ajaxItemCart/", {evalScripts: true});
+	paginateItems( 1  );
+//	paginateItems( 1, 4);
+}
+
+function buildPagination( page, per_page, total, collection_id )
+{
+	pages = Math.ceil( total / per_page );
+	if( page > 1 )
+	{
+		back = document.createElement('a');
+		back.setAttribute('href', 'javascript:void(0)');
+		back.setAttribute('id','previous');
+		back.onclick = function() {
+			paginateItems( page-1, collection_id );
+		}
+		back.innerHTML = '&larr;';
+	}
+	else
+	
+	{
+		back = document.createElement('span');
+		back.innerHTML = '';
+	}
+
+	current = document.createTextNode( ' '+page+' ' );
+
+	if( page < pages )
+	{
+		forward = document.createElement('a');
+		forward.setAttribute('href', 'javascript:void(0)');
+		forward.setAttribute('id','next');
+		forward.setAttribute('title','Next Page');
+		//forward.setAttribute('onclick', 'findMapItems("/mapXML/'+(parseInt(page)+1)+'")');
+		forward.onclick = function() {
+			paginateItems( page+1, collection_id );
+		}
+		forward.innerHTML = '&rarr;';
+	}
+	else
+	{
+		forward = document.createElement('span');
+		forward.innerHTML = '';
+	}
+
+	of = document.createTextNode(' of '+pages+' pages.');
+
+	// Build the html
+
+	span = document.getElementById('itempaginate');
+	span.appendChild(back);
+//	span.appendChild(current);
+	span.appendChild(forward);
+	//span.appendChild(of);
+}
+
+function paginateItems( page, collection_id )
+{
+	parameters = 'page=' + page;
+	
+	if(typeof(collection_id) != "undefined") {
+		parameters = parameters + '&collection=' + collection_id;
+	}else {
+		if( typeof($('item_limit')) != 'undefined') {
+			parameters = parameters + '&' + Form.serialize('item_limit');
+		}
+	}
+	
+	var itemopt = {
+		parameters: parameters,
+		method: 'get',
+		onComplete: function(t) {
+			$('itempaginate').innerHTML = '';
+			var total = $('total').innerHTML;
+
+			buildPagination( page, 12, total, collection_id);
+		},
+		onFailure: reportError,
+		evalScripts: true
+	}
+	
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", itemopt);
+	
+
+}
+function getItemId( draggable ) {
+	return draggable.id.substring(4, 8);
+}
+
+function getOrder( droppable ) {
+	return droppable.id.substring(5, 6);
+}
+
+function reportError(t)
+{
+	alert(t.status);
+}
+
+function fadeDraggable( draggable ) {
+	container = $('itemcontainer'+getItemId(draggable));
+	if( container ) {
+		itemNewImage = document.createElement('img');
+		dragImg = draggable.getElementsByTagName('img');
+		itemNewImage.src = dragImg[0].src;
+		container.appendChild(itemNewImage);
+		new Effect.Opacity(container.id, {duration:1.0, from: 1.0, to:0.2 });
+		/* if(navigator.appName == "Microsoft Internet Explorer") {
+			draggable.setAttribute('class','hide');
+		}
+		else {
+			draggable.class = 'hide';
+		} */
+		return true;
+	}
+	else {
+		return false;
+	}
+
+}
+addLoadListener(initAjaxActivity);
+
+</script>
+<div id="primary">	
+<form method="post" id="activityform">
+	<div id="paginate">
+	 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=8.html">&lt; Prev</a> | <a href="index.html%3Fpage=7.html">7</a> | <a href="index.html%3Fpage=8.html">8</a> | 9 | <a href="index.html%3Fpage=10.html">10</a> | <a href="index.html%3Fpage=11.html">11</a> | <a href="index.html%3Fpage=10.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	</div>
+			<h3> Select from the following items: </h3>
+		<ul class="activity-items">
+		
+						<li>
+				<img src="../content/thumbnails/doc2_green_50265e0069.jpg" alt="Englishman Thomas Paine immigrated to Philadelphia in 1774 and quickly entered the contentious public debates taking place in magazines, newspapers, and pamphlets published within the colonies. Paine&#39;s extraordinary pamphlet, &lt;em&gt;Common Sense&lt;/em&gt;, appeared anonymously in Philadelphia in January 1776. It immediately became a best seller, circulating to readers and listeners throughout the colonies. The pamphlet called for a declaration of independence, denounced the King of England in radical language, and attacked monarchy as an unjust form of government.
+
+" title="Rallying Revolutionaries: Common Sense" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[178][item_id]">Rallying Revolutionaries: Common Sense</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[178][item_id]" class="checkbox" value="178"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_green_55b4d9a3a5.jpg" alt=" To Abraham Lincoln, and to many abolitionists of the 1850s -60s, there was evidence that American society was moving in the opposite direction from these ideals, in such events as the Fugitive Slave Act, the Kansas-Nebraska Act, the Dred Scot decision of the Supreme Court, and the gag rule in the South. They believed that the nation was losing the &quot;moral identity&quot; that they saw first stated in the Declaration of Independence. At Gettysburg battlefield, Lincoln appealed to ideals of equality and popular government that he saw expressed in the Declaration.
+
+" title="&quot;All Men are Created Equal&quot;: The Gettysburg Address" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[177][item_id]">"All Men are Created Equal": The Gettysburg Address</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[177][item_id]" class="checkbox" value="177"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_red_95afe4aa71.jpg" alt="Though Jefferson did not get to participate in the drafting of the Virginia Constitution in 1776, he wrote down his thoughts on the matter.  His work on this document eventually influenced his construction of the Declaration of Independence in significant ways, such as the catalog of misdeeds by King George justifying revolution." title="Precusor to the Declaration: Jefferson&#39;s Draft Constitution for Virginia" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[176][item_id]">Precusor to the Declaration: Jefferson's Draft Constitution for Virginia</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[176][item_id]" class="checkbox" value="176"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_tan_0f412dd9ed.jpg" alt="George Mason&#39;s Virginia Declaration of Rights is an important intellectual precursor to the Declaration of Independence because both Mason and Jefferson are working to express the concept of natural, inherent rights.  This notion draws on the philosophy of John Locke and the social compact theory of government. " title="Precursor to the Declaration: the Virginia Declaration of Rights" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[175][item_id]">Precursor to the Declaration: the Virginia Declaration of Rights</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[175][item_id]" class="checkbox" value="175"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/RandolphLabelIcon_c453536eb5.jpg" alt="Benjamin Randolph was a skilled craftsman, and a relative of Thomas Jefferson.  While in Philadelphia for the Continental Congress in 1775, Jefferson lodged with Randolph.  When he returned in 1776 for the Second Continental Congress, and lodged again with Randolph for a time.  During this second stay, Jefferson commissioned Randolph to build a writing box to his specifications.  Randolph&#39;s skill as a cabinetmaker is evident in the resultant lap desk.  This is an image of Randolph&#39;s trade card, which he would have given to his clients as a reminder of his services." title="Colonial Craftsman: Benjamin Randolph" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[171][item_id]">Colonial Craftsman: Benjamin Randolph</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[171][item_id]" class="checkbox" value="171"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/grapeknife_30de5128d6.gif" alt="This grape-picking knife was owned and used by Nathan Fay of Napa, Calif. Its short, curved blade and lightweight handle are typical of knives used during the annual harvest of wine grapes in the area. Although grape-picking machines are used in the large vineyards of California&#39;s Central Valley, hand tools like this are preferred on the estate vineyards in Napa. Fay personalized this knife, as do most workers who regularly pick grapes, by carving his name (&quot;NAT&quot;) in the wooden handle and by filing the blade to sharpen its edge." title="Grape-picking Knife" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[170][item_id]">Grape-picking Knife</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[170][item_id]" class="checkbox" value="170"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/Chavezposter_82ad24be20.gif" alt="The UFW widely distributed pro-union posters as tools for building a network of support.  Victory came in 1970 when the UFW signed contracts covering about 10,000 workers.  The union&#39;s early victories served as an inspiration to labor and community activists, and encouraged a whole generation of Latino youth to demand equal opportunity in all walks of life." title="&quot;May the Strike Go On!&quot;: UFW Poster" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[169][item_id]">"May the Strike Go On!": UFW Poster</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[169][item_id]" class="checkbox" value="169"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/boycottpin_f1c63eba59.jpg" alt="From its earliest days the UFW recognized the importance of rallying public opinion to its cause.  Through a national network of support groups and boycott committees, the union made the struggle for unionization part of the larger civil rights movement of the 1960s and 1970s.  Their strategy of non-violent resistance, fasts and marches drew the attention of the nation." title="Public Support: Boycott Grapes Button" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[168][item_id]">Public Support: Boycott Grapes Button</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[168][item_id]" class="checkbox" value="168"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/UFW-flag_8fcf748438.gif" alt="Under the leadership of Cesar E. Chavez, Dolores Huerta and others, the United Farm Workers (UFW) struggled to improve the deplorable conditions of farm workers.  The UFW used community organizing, marches, non-violent resistance and consumer boycotts to rally national support for their cause.  Cesar Chavez&#39;s brother Richard Chavez designed the Aztec eagle as the UFW logo, squaring off the edges so that it would be easy for workers to reproduce on flags and posters." title="La Causa: UFW Flag" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[167][item_id]">La Causa: UFW Flag</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[167][item_id]" class="checkbox" value="167"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/Mieri1_8091cc2661.gif" alt="" title="Can you describe the jacket?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[157][item_id]">Can you describe the jacket?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[157][item_id]" class="checkbox" value="157"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_tan_744a55f595.jpg" alt="In this interview from July 27, 2005, Luis Zamudio Villag&#243;mez discusses coming to the United States as a Bracero.  He sheds light on the recruitment process, wages, labor and living conditions." title="&quot;The only requirement was to be a hard worker:&quot; Bracero Oral History" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[156][item_id]">"The only requirement was to be a hard worker:" Bracero Oral History</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[156][item_id]" class="checkbox" value="156"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/Delano_e3b55ab353.gif" alt="On March 17, 1966, Cesar E. Chavez led a march from Delano, California to the state capitol in Sacramento to place pressure on the grape growers and state lawmakers.  The 230-mile march drew national attention to the plight of the farm workers.  When 10,000 workers and supporters arrived 25 days later at the capitol on Easter Sunday, they learned that Schenley Industries, an early target of the strike, had agreed to a settlement." title="&quot;United We Shall Stand:&quot; Delano Manifesto" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[155][item_id]">"United We Shall Stand:" Delano Manifesto</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[155][item_id]" class="checkbox" value="155"  />
+	
+				Select This Item</label>
+			</li>
+					
+				</ul>
+		<hr class="clear" />
+		 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=8.html">&lt; Prev</a> | <a href="index.html%3Fpage=7.html">7</a> | <a href="index.html%3Fpage=8.html">8</a> | 9 | <a href="index.html%3Fpage=10.html">10</a> | <a href="index.html%3Fpage=11.html">11</a> | <a href="index.html%3Fpage=10.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	
+	<input type="submit" name="tour_select_items_submit" value="Select these items" />
+	<input type="submit" name="cancel_submit" value="Cancel" />
+</form>
+<div id="tourmeta"></div>
+
+<div id="itempaginate"></div>
+<div id="itemlist"></div>
+<div id="error"></div>
+
+<div id="itemcart"></div>
+
+</div>
+
+</div> <!-- closes padding div -->
+</div> <!-- closes content div -->
+			<div id="sponsors">
+				<div class="padding">
+				<a href="http://americanhistory.si.edu/"><span id="si-logo">National Museum of American History, Smithsonian Institution</span></a>
+				<a href="http://chnm.gmu.edu"><span id="chnm-logo">Roy Rosenzweig Center for History and New Media</span></a>
+				</div>
+			</div>
+			<div id="footer">
+			<div class="padding">
+			<ul class="navigation">
+				<li class="nav-home"><a href="../index/index.html">Home</a></li>
+				<li class="nav-about"><a href="../about/index.html">About</a></li>
+				<li class="nav-teachers"><a href="../teachers/index.html">Teachers</a></li>
+				<li class="nav-privacy"><a href="../privacy/index.html">Privacy</a></li>
+				<li class="nav-help"><a href="../help/index.html">Help</a></li>
+			</ul>
+			</div>
+			</div>
+		</div> <!-- closes wrap div -->
+		
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2013 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 4.1  -->
+<!-- Created: 5/31/2013 2:28:09 PM -->
+<script src="http://americanhistory.si.edu/_js/webtrends-ooh.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+_tag.WT.cg_n="histex";
+}
+_tag.dcsCollect();
+//]]>
+</script>
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://logs1.smithsonian.museum/dcswl5ztmadzpxv8vdov1jgep_3j8q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=objectofhistory.org"/></div>
+</noscript>
+<!-- END OF SmartSource Data Collector TAG -->
+
+
+
+	</body>
+	
+</html>

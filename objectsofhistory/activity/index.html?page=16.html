@@ -1,0 +1,436 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+	<head>
+		<!-- meta info -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="keywords,go,here" />
+		<meta name="description" content="The Object of History takes you behind the scenes with the curators at the National Museum of American History" />
+		<meta name="author" content="Center for History and New Media" />
+		<meta name="copyright" content="Copyright &copy; 2006." />
+		
+		<title>The Object of History | Behind the Scenes with the Curators of the National Museum of American History</title>
+		
+		<!-- various internal links -->
+		<link rel="Shortcut Icon" type="image/ico" href="../i/favicon.ico.html" />
+		<link rel="accessibility" href="../accessibility/index.html" title="Accessibility and Object of History." />
+		<link rel="author" href="../about/index.html" title="About Object of History." />
+		<link rel="home" href="../index.html" title="Home page." />
+		<link rel="organization" href="http://chnm.gmu.edu" title="Center for History and New Media" />
+		
+		<!-- Stylesheets -->
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/screen.css" />
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/gb_styles.css" />
+		<link rel="alternate stylesheet" media="print" href="../content/public/styles/print.css" />
+		
+		<!--[if IE 6]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie6.css" />
+		<![endif]-->
+		
+		<!--[if IE 7]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie7.css" />
+		<![endif]-->
+	
+		<!-- JavaScripts -->
+		<script type="text/javascript">
+		    var GB_ROOT_DIR = "/content/public/j/greybox/";
+		
+			// This hide the non-javascript activity form before the page load.
+			var checkJS = document.getElementById;
+
+			if (checkJS) {
+			        document.write('<style type="text/css">#activityform{display: none;}</style>');
+			}
+		
+		</script>
+
+		
+		<script type="text/javascript" src="../content/common/javascripts/prototype.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/common.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/dragdrop.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/niftycorners/niftycube.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS_fx.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/gb_scripts.js"></script>
+		<script type="text/javascript" src="../content/public/j/roundcorners.js"></script>
+		<script type="text/javascript" src="../content/public/j/imagepagination.js"></script>
+		
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '100']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+
+
+<body id="activity" class="index">
+	
+<div class="hide"><a href="index.html%3Fpage=16.html#content">Skip Navigation/Skip to Content</a></div>
+
+<div id="wrap">
+
+<div id="header">
+<div class="padding">
+<ul id="sitenav" class="navigation">
+	<li class="nav-guide"><a href="../guide/index.html">Guide</a></li>
+	<li class="nav-objects"><a href="../objects/index.html">Objects</a></li>
+	<li class="nav-forum"><a href="../forum/index.html">Forum</a></li>
+	
+	<li class="nav-activity"><a href="index.html">Activity</a></li>
+</ul>
+<h1 id="logo"><a href="../index.html">The Object of History | Behind the Scenes with the Curators of the National Museum of American History</a></h1>
+<h2 id="section-title" class="activity-title">Activity | Create a Virtual Exhibit</h2>
+
+</div>
+</div>
+
+<div id="content">
+	<div class="padding">
+<style type="text/css">
+@import url("../content/public/styles/activity.css");
+</style>
+
+<script type="text/javascript">
+
+function initAjaxActivity() {
+	var itemPaginate, itemCart, itemList, tourMeta;
+	$("itempaginate").style.display = "block";
+	$("itemcart").style.display = "block";
+	$("itemlist").style.display = "block";
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", {evalScripts:true});
+	new Ajax.Updater('tourmeta', "/activity/ajaxTourMeta/", {evalScripts:true});
+	new Ajax.Updater('itemcart', "/activity/ajaxItemCart/", {evalScripts: true});
+	paginateItems( 1  );
+//	paginateItems( 1, 4);
+}
+
+function buildPagination( page, per_page, total, collection_id )
+{
+	pages = Math.ceil( total / per_page );
+	if( page > 1 )
+	{
+		back = document.createElement('a');
+		back.setAttribute('href', 'javascript:void(0)');
+		back.setAttribute('id','previous');
+		back.onclick = function() {
+			paginateItems( page-1, collection_id );
+		}
+		back.innerHTML = '&larr;';
+	}
+	else
+	
+	{
+		back = document.createElement('span');
+		back.innerHTML = '';
+	}
+
+	current = document.createTextNode( ' '+page+' ' );
+
+	if( page < pages )
+	{
+		forward = document.createElement('a');
+		forward.setAttribute('href', 'javascript:void(0)');
+		forward.setAttribute('id','next');
+		forward.setAttribute('title','Next Page');
+		//forward.setAttribute('onclick', 'findMapItems("/mapXML/'+(parseInt(page)+1)+'")');
+		forward.onclick = function() {
+			paginateItems( page+1, collection_id );
+		}
+		forward.innerHTML = '&rarr;';
+	}
+	else
+	{
+		forward = document.createElement('span');
+		forward.innerHTML = '';
+	}
+
+	of = document.createTextNode(' of '+pages+' pages.');
+
+	// Build the html
+
+	span = document.getElementById('itempaginate');
+	span.appendChild(back);
+//	span.appendChild(current);
+	span.appendChild(forward);
+	//span.appendChild(of);
+}
+
+function paginateItems( page, collection_id )
+{
+	parameters = 'page=' + page;
+	
+	if(typeof(collection_id) != "undefined") {
+		parameters = parameters + '&collection=' + collection_id;
+	}else {
+		if( typeof($('item_limit')) != 'undefined') {
+			parameters = parameters + '&' + Form.serialize('item_limit');
+		}
+	}
+	
+	var itemopt = {
+		parameters: parameters,
+		method: 'get',
+		onComplete: function(t) {
+			$('itempaginate').innerHTML = '';
+			var total = $('total').innerHTML;
+
+			buildPagination( page, 12, total, collection_id);
+		},
+		onFailure: reportError,
+		evalScripts: true
+	}
+	
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", itemopt);
+	
+
+}
+function getItemId( draggable ) {
+	return draggable.id.substring(4, 8);
+}
+
+function getOrder( droppable ) {
+	return droppable.id.substring(5, 6);
+}
+
+function reportError(t)
+{
+	alert(t.status);
+}
+
+function fadeDraggable( draggable ) {
+	container = $('itemcontainer'+getItemId(draggable));
+	if( container ) {
+		itemNewImage = document.createElement('img');
+		dragImg = draggable.getElementsByTagName('img');
+		itemNewImage.src = dragImg[0].src;
+		container.appendChild(itemNewImage);
+		new Effect.Opacity(container.id, {duration:1.0, from: 1.0, to:0.2 });
+		/* if(navigator.appName == "Microsoft Internet Explorer") {
+			draggable.setAttribute('class','hide');
+		}
+		else {
+			draggable.class = 'hide';
+		} */
+		return true;
+	}
+	else {
+		return false;
+	}
+
+}
+addLoadListener(initAjaxActivity);
+
+</script>
+<div id="primary">	
+<form method="post" id="activityform">
+	<div id="paginate">
+	 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=15.html">&lt; Prev</a> | <a href="index.html%3Fpage=14.html">14</a> | <a href="index.html%3Fpage=15.html">15</a> | 16 | <a href="index.html%3Fpage=17.html">17</a> | <a href="index.html%3Fpage=18.html">18</a> | <a href="index.html%3Fpage=17.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	</div>
+			<h3> Select from the following items: </h3>
+		<ul class="activity-items">
+		
+						<li>
+				<img src="../content/thumbnails/doc2_green_c1fdcb47d2.jpg" alt="Hosea Williams, the son of blind and poor African American parents, was born in 1926 in Georgia. After service in World War II, the GI bill allowed him to study chemistry and gain employment with the U.S. Department of Agriculture. Yet, even as a professional, he faced segregation in 1950s Savannah, Georgia, as he describes here in an interview done in the 1970s. By that time, Williams had left chemistry for the Civil Rights movement. He became a director of the Southern Christian Leadership Conference field staff.
+" title="Segregation Southern Style: A Recollection from the 1950s" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[70][item_id]">Segregation Southern Style: A Recollection from the 1950s</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[70][item_id]" class="checkbox" value="70"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/PittsburghLunchCountericon_2cd0b4b04c.gif" alt="By 1900, Southern laws and customs prevented African Americans from having equal access to public accommodations such as restaurants, toilets, and theaters. In some cases separate accommodations, based on local custom, also existed in the North. For example, an 1944 interview with Mary Church Terrell in the Pittsburgh Courier revealed that African Americans were allowed in to eat at public lunch counters until the end of the 19th century. She said, &quot;I remember stopping at the drug store on the corner of 9th and F streets for service. The white clerk told me it was my last service, that the behavior of a loud Negro man there previously had caused them to alter their policy of serving colored people there.&quot; But discrimination was far from uniform as this image suggests from 1951 of a lunch counter, located at the corner of Diamond and Wood Streets in Pittsburgh, with doors that open onto the street. " title="Pittsburgh Lunch Counter, 1951" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[69][item_id]">Pittsburgh Lunch Counter, 1951</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[69][item_id]" class="checkbox" value="69"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/DeKruilDrugStoreicon_13282d3582.gif" alt="Variety stores that sold an array of inexpensive products first appeared in the late nineteenth century from companies such as F.W. Woolworth, which started in 1878. These stores were often called &quot;five and dimes&quot; or &quot;five and tens,&quot; a reference to the fact that all of their merchandise cost a nickel or a dime.  By the mid-twentieth century many five and dimes included lunch counters where shoppers could grab a quick bite to eat. Drugstores also often included these lunch counters, such as the one pictured in this 1938 photo of a counter in De Kruil Drug Store, located in Grand Rapids, MI. These lunch counters served a large assortment of snacks, lunches, and dinners&#8212;club sandwiches, toasted tuna sandwiches, meatloaf, fries, homemade doughnuts. In the South, African Americans could purchase food items but they could not sit down and eat them. Other stores included Kress, Krege&#39;s, and G.C. Murphy&#39;s. By the late 1970s, lunch counters at five and dimes were beginning to fade from the American landscape. " title="De Kruil Drug Store Lunch Counter, 1938" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[68][item_id]">De Kruil Drug Store Lunch Counter, 1938</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[68][item_id]" class="checkbox" value="68"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_blue_5c1762c530.jpg" alt="This report details the physical aspects of the lunch counter from the Greensboro Woolworth store when it arrived at the National Museum of American History in 1994. Because the lunch counter was actually made up of a large number of pieces, the report deals with each element individually." title="What it Looked Like in 1994" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[67][item_id]">What it Looked Like in 1994</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[67][item_id]" class="checkbox" value="67"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/lunchcounter_icon_6d9b6ff783.gif" alt="Use your mouse to rotate the Woolworth&#39;s Lunch Counter by clicking and dragging either right or left.  Click on the + to zoom in and on the - to zoom out." title="Lunch Counter QTVR" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[66][item_id]">Lunch Counter QTVR</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[66][item_id]" class="checkbox" value="66"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/votingQTVRicon_86ac77b047.gif" alt="Use your mouse to rotate the 1898 Standard Voting Machine by clicking and dragging either right or left.  Click on the + to zoom in and on the - to zoom out." title="Voting Machine QTVR" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[63][item_id]">Voting Machine QTVR</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[63][item_id]" class="checkbox" value="63"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/stuffers_57b2bdad13.gif" alt="This article from &lt;em&gt;Frank Leslie&#39;s Illustrated Newspaper&lt;/em&gt; in 1856 depicts a &quot;stuffer&#39;s ballot-box.&quot;  The false sides and bottom allowed &quot;stuffers&quot; to conceal extra ballots for their candidate. By covertly sliding the panels,  dishonest partisans could mix the forged ballots in with the legally cast votes without ever disturbing the box&#39;s lock. The possibility of this type of electoral fraud led reformers to design ballot boxes immune to stuffing. One model included a crank through which the ballot passed and imprinted with a seal to prove its authenticity." title="Stuffer&#39;s Ballot Box" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[62][item_id]">Stuffer's Ballot Box</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[62][item_id]" class="checkbox" value="62"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/prisondressIcon_db5d5102bf.gif" alt="Lucy G. Branham was raised by a suffragist mother and a physician father in Baltimore, Maryland. Following graduate school at Johns Hopkins and Columbia, she worked on various suffrage activities. She was arrested in the National Woman&#39;s Party campaign of silent picketing at the White House in September 1917 and served two months in the Occoquan Workhouse and the District jail. Branham participated in the NWP &quot;Prison Special&quot; nationwide tour. Activists spoke about their experiences being arrested for demonstrating for the right to vote. This photograph shows Branham speaking at an outdoor meeting during the tour. She is pictured above a large crowd, wearing prison dress and suffrage sash, with a suffrage flag and camera on a tripod behind her." title="Lucy Branham in Occoquan Prison Dress" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[60][item_id]">Lucy Branham in Occoquan Prison Dress</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[60][item_id]" class="checkbox" value="60"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/bird-poster2_d303a58fc0.jpg" alt="" title="How did you become interested in the voting machine as a curator?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[59][item_id]">How did you become interested in the voting machine as a curator?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[59][item_id]" class="checkbox" value="59"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/bird-poster4sm_109552a4c0.jpg" alt="" title="How did the voting machine come to the museum?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[58][item_id]">How did the voting machine come to the museum?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[58][item_id]" class="checkbox" value="58"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/graddy-poster1_4fecd590a4.jpg" alt="" title="Who recieved the &quot;Jailed for Freedom&quot; pins?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[57][item_id]">Who recieved the "Jailed for Freedom" pins?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[57][item_id]" class="checkbox" value="57"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/NegroDisenfIcon_2d5d116a33.gif" alt="The Fifteenth Amendment, and the fact that the victorious North stationed federal troops in the South during Reconstruction, led to a brief period of political gains for African Americans. But white southerners began a counterattack against black voting. In some cases they used legal means, like poll taxes, but more commonly they resorted to acts of terrorist violence designed to intimidate citizens. The Ku Klux Klan (KKK) was one of the secret organizations that led the attacks on black voters, using lynchings, beatings and other forms of violent intimidation to keep African Americans from the polls. The KKK&#39;s activities are described in three massive volumes of testimony compiled by Congress in the 1860s, but whether constitutional or not, the actions of the Klan were successful in drastically reducing voting by African Americans. Senator Benjamin Ryan Tillman, pictured in this cartoon from 1897, often worked to disempower blacks." title="The Negro Disenfranchised" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[56][item_id]">The Negro Disenfranchised</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[56][item_id]" class="checkbox" value="56"  />
+	
+				Select This Item</label>
+			</li>
+					
+				</ul>
+		<hr class="clear" />
+		 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=15.html">&lt; Prev</a> | <a href="index.html%3Fpage=14.html">14</a> | <a href="index.html%3Fpage=15.html">15</a> | 16 | <a href="index.html%3Fpage=17.html">17</a> | <a href="index.html%3Fpage=18.html">18</a> | <a href="index.html%3Fpage=17.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	
+	<input type="submit" name="tour_select_items_submit" value="Select these items" />
+	<input type="submit" name="cancel_submit" value="Cancel" />
+</form>
+<div id="tourmeta"></div>
+
+<div id="itempaginate"></div>
+<div id="itemlist"></div>
+<div id="error"></div>
+
+<div id="itemcart"></div>
+
+</div>
+
+</div> <!-- closes padding div -->
+</div> <!-- closes content div -->
+			<div id="sponsors">
+				<div class="padding">
+				<a href="http://americanhistory.si.edu/"><span id="si-logo">National Museum of American History, Smithsonian Institution</span></a>
+				<a href="http://chnm.gmu.edu"><span id="chnm-logo">Roy Rosenzweig Center for History and New Media</span></a>
+				</div>
+			</div>
+			<div id="footer">
+			<div class="padding">
+			<ul class="navigation">
+				<li class="nav-home"><a href="../index/index.html">Home</a></li>
+				<li class="nav-about"><a href="../about/index.html">About</a></li>
+				<li class="nav-teachers"><a href="../teachers/index.html">Teachers</a></li>
+				<li class="nav-privacy"><a href="../privacy/index.html">Privacy</a></li>
+				<li class="nav-help"><a href="../help/index.html">Help</a></li>
+			</ul>
+			</div>
+			</div>
+		</div> <!-- closes wrap div -->
+		
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2013 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 4.1  -->
+<!-- Created: 5/31/2013 2:28:09 PM -->
+<script src="http://americanhistory.si.edu/_js/webtrends-ooh.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+_tag.WT.cg_n="histex";
+}
+_tag.dcsCollect();
+//]]>
+</script>
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://logs1.smithsonian.museum/dcswl5ztmadzpxv8vdov1jgep_3j8q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=objectofhistory.org"/></div>
+</noscript>
+<!-- END OF SmartSource Data Collector TAG -->
+
+
+
+	</body>
+	
+</html>

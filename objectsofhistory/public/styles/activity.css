@@ -1,0 +1,58 @@
+/* == Activity creation styles ============ */
+
+#itempaginate, #itemcart, #itemlist, #tourmeta {display:none;}
+
+#trashcan { display:block; background:#c60; border:1px solid #c30; color:#fff;height:70px; width:720px; clear:both;padding:5px; margin:0 5px 5px 0; }
+#tour_add_submit {float:right; padding:10px; background:#37577e; color:#fff; text-decoration:none; margin-bottom:20px;margin-right:10px;}
+#drop-instructions {margin:1em 0; padding:1em; background:#fff09e;}
+#email-tour {clear:both; margin-right:20px;display:block; width:730px;}
+#email-tour textarea {width:419px;}
+
+	#email-tour #section-alpha {float:left;width:240px;}
+	#email-tour #section-alpha input {width:240px;}
+	#email-tour #section-beta {float:right; width:420px;}
+
+/* Item Pagination */
+#itempaginate {width:auto;overflow:hidden; clear:both;background: #37577e; padding: 0;margin-top:2em;}
+	#itempaginate a {color:#fff; text-decoration:none; font-size:1.5em; font-weight:bold;}
+	#itempaginate a:hover {background: #333;}
+	#itempaginate #next {display:block; float:right; width:20px; height:1em; }
+	#itempaginate #previous {display:block; float:left; width: 20px; height:1em;}
+
+/* Item List */
+#itemlist {display:block; padding:1em;clear:both; overflow:hidden;background:#37577e;}
+	#itemlist h3 {display:none;}
+	#itemlist .itemcontainer {display:block; float:left; width:45px; height:45px;overflow:hidden; background:#ddd; border:5px solid #eee; margin:0 3px 0 0;}
+	#itemlist .itemcontainer img {width:45px; height:45px;}
+	#itemlist .item {cursor:move;}
+	#itemlist .item:hover {background:transparent;}
+
+/* Item Cart */
+#itemcart {display:block; clear:both; width:auto;}
+	#itemcart .item img {width:60px; height:60px;}
+	.itemholder {display:block; overflow:hidden; background-position:0 50%; background-repeat:no-repeat; margin:0 1em 1em; padding:0 0 0 50px; width:290px; display:block; float:left;}
+	.holder {display:block; float:left; width:60px; height:60px; background:transparent; padding:0px; margin: 0; border: 5px solid #ccc;}
+	.itemcommentary {display:block; float:left; width: 190px;margin-left:10px; margin-top:0;}
+	.itemcommentary textarea {width:188px; border:1px solid #ccc; font: 0.9em Verdana, sans-serif; background: #eee; height:68px;}
+	.itemcommentary label {font-size:0.9em; margin-bottom:1em;}
+	
+	#itemholder1 {background-image: url("../i/itemholder1.gif");background-repeat:no-repeat;background-position:0 50%;}
+	#itemholder2 {background-image: url("../i/itemholder2.gif");background-repeat:no-repeat;background-position:0 50%;}
+	#itemholder3 {background-image: url("../i/itemholder3.gif");background-repeat:no-repeat;background-position:0 50%;}
+	#itemholder4 {background-image: url("../i/itemholder4.gif");background-repeat:no-repeat;background-position:0 50%;}
+	#itemholder5 {background-image: url("../i/itemholder5.gif");background-repeat:no-repeat;background-position:0 50%;}
+	#itemholder6 {background-image: url("../i/itemholder6.gif");background-repeat:no-repeat;background-position:0 50%;}
+	
+/* Tour Meta */	
+#tourmeta {display:block;background:#FFF7CA; width:auto; overflow:hidden; margin-top:2em;}
+	#tourmeta h3 {text-align:left;margin:0; padding:1em 0;clear:both;}
+		#tourmeta h3 a {text-decoration:none; padding:1em; background:#FFF7CA; color:#555;}
+		#tourmetainfo {padding:0; background:#FFF7CA;margin-bottom:0;overflow:auto;height:1%; margin-top:1em;float:left; width:360px; display:block;}
+			#tourmetainfo textarea, #tourmetainfo input.textinput {width:340px; border: 1px solid #DACE8B;}
+			#tourmetainfo textarea{height:180px;}
+	#tourmeta #tour-instructions {float:right; width:350px; margin-right:10px;}
+
+/* IE6 \*/
+#itemlist, #tourmeta {height:1%;}
+#itempaginate {margin:0; height:1%;}
+/* end IE6 */

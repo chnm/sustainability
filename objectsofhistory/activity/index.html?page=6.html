@@ -1,0 +1,439 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+	<head>
+		<!-- meta info -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="keywords,go,here" />
+		<meta name="description" content="The Object of History takes you behind the scenes with the curators at the National Museum of American History" />
+		<meta name="author" content="Center for History and New Media" />
+		<meta name="copyright" content="Copyright &copy; 2006." />
+		
+		<title>The Object of History | Behind the Scenes with the Curators of the National Museum of American History</title>
+		
+		<!-- various internal links -->
+		<link rel="Shortcut Icon" type="image/ico" href="../i/favicon.ico.html" />
+		<link rel="accessibility" href="../accessibility/index.html" title="Accessibility and Object of History." />
+		<link rel="author" href="../about/index.html" title="About Object of History." />
+		<link rel="home" href="../index.html" title="Home page." />
+		<link rel="organization" href="http://chnm.gmu.edu" title="Center for History and New Media" />
+		
+		<!-- Stylesheets -->
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/screen.css" />
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/gb_styles.css" />
+		<link rel="alternate stylesheet" media="print" href="../content/public/styles/print.css" />
+		
+		<!--[if IE 6]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie6.css" />
+		<![endif]-->
+		
+		<!--[if IE 7]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie7.css" />
+		<![endif]-->
+	
+		<!-- JavaScripts -->
+		<script type="text/javascript">
+		    var GB_ROOT_DIR = "/content/public/j/greybox/";
+		
+			// This hide the non-javascript activity form before the page load.
+			var checkJS = document.getElementById;
+
+			if (checkJS) {
+			        document.write('<style type="text/css">#activityform{display: none;}</style>');
+			}
+		
+		</script>
+
+		
+		<script type="text/javascript" src="../content/common/javascripts/prototype.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/common.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/dragdrop.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/niftycorners/niftycube.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS_fx.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/gb_scripts.js"></script>
+		<script type="text/javascript" src="../content/public/j/roundcorners.js"></script>
+		<script type="text/javascript" src="../content/public/j/imagepagination.js"></script>
+		
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '100']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+
+
+<body id="activity" class="index">
+	
+<div class="hide"><a href="index.html%3Fpage=6.html#content">Skip Navigation/Skip to Content</a></div>
+
+<div id="wrap">
+
+<div id="header">
+<div class="padding">
+<ul id="sitenav" class="navigation">
+	<li class="nav-guide"><a href="../guide/index.html">Guide</a></li>
+	<li class="nav-objects"><a href="../objects/index.html">Objects</a></li>
+	<li class="nav-forum"><a href="../forum/index.html">Forum</a></li>
+	
+	<li class="nav-activity"><a href="index.html">Activity</a></li>
+</ul>
+<h1 id="logo"><a href="../index.html">The Object of History | Behind the Scenes with the Curators of the National Museum of American History</a></h1>
+<h2 id="section-title" class="activity-title">Activity | Create a Virtual Exhibit</h2>
+
+</div>
+</div>
+
+<div id="content">
+	<div class="padding">
+<style type="text/css">
+@import url("../content/public/styles/activity.css");
+</style>
+
+<script type="text/javascript">
+
+function initAjaxActivity() {
+	var itemPaginate, itemCart, itemList, tourMeta;
+	$("itempaginate").style.display = "block";
+	$("itemcart").style.display = "block";
+	$("itemlist").style.display = "block";
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", {evalScripts:true});
+	new Ajax.Updater('tourmeta', "/activity/ajaxTourMeta/", {evalScripts:true});
+	new Ajax.Updater('itemcart', "/activity/ajaxItemCart/", {evalScripts: true});
+	paginateItems( 1  );
+//	paginateItems( 1, 4);
+}
+
+function buildPagination( page, per_page, total, collection_id )
+{
+	pages = Math.ceil( total / per_page );
+	if( page > 1 )
+	{
+		back = document.createElement('a');
+		back.setAttribute('href', 'javascript:void(0)');
+		back.setAttribute('id','previous');
+		back.onclick = function() {
+			paginateItems( page-1, collection_id );
+		}
+		back.innerHTML = '&larr;';
+	}
+	else
+	
+	{
+		back = document.createElement('span');
+		back.innerHTML = '';
+	}
+
+	current = document.createTextNode( ' '+page+' ' );
+
+	if( page < pages )
+	{
+		forward = document.createElement('a');
+		forward.setAttribute('href', 'javascript:void(0)');
+		forward.setAttribute('id','next');
+		forward.setAttribute('title','Next Page');
+		//forward.setAttribute('onclick', 'findMapItems("/mapXML/'+(parseInt(page)+1)+'")');
+		forward.onclick = function() {
+			paginateItems( page+1, collection_id );
+		}
+		forward.innerHTML = '&rarr;';
+	}
+	else
+	{
+		forward = document.createElement('span');
+		forward.innerHTML = '';
+	}
+
+	of = document.createTextNode(' of '+pages+' pages.');
+
+	// Build the html
+
+	span = document.getElementById('itempaginate');
+	span.appendChild(back);
+//	span.appendChild(current);
+	span.appendChild(forward);
+	//span.appendChild(of);
+}
+
+function paginateItems( page, collection_id )
+{
+	parameters = 'page=' + page;
+	
+	if(typeof(collection_id) != "undefined") {
+		parameters = parameters + '&collection=' + collection_id;
+	}else {
+		if( typeof($('item_limit')) != 'undefined') {
+			parameters = parameters + '&' + Form.serialize('item_limit');
+		}
+	}
+	
+	var itemopt = {
+		parameters: parameters,
+		method: 'get',
+		onComplete: function(t) {
+			$('itempaginate').innerHTML = '';
+			var total = $('total').innerHTML;
+
+			buildPagination( page, 12, total, collection_id);
+		},
+		onFailure: reportError,
+		evalScripts: true
+	}
+	
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", itemopt);
+	
+
+}
+function getItemId( draggable ) {
+	return draggable.id.substring(4, 8);
+}
+
+function getOrder( droppable ) {
+	return droppable.id.substring(5, 6);
+}
+
+function reportError(t)
+{
+	alert(t.status);
+}
+
+function fadeDraggable( draggable ) {
+	container = $('itemcontainer'+getItemId(draggable));
+	if( container ) {
+		itemNewImage = document.createElement('img');
+		dragImg = draggable.getElementsByTagName('img');
+		itemNewImage.src = dragImg[0].src;
+		container.appendChild(itemNewImage);
+		new Effect.Opacity(container.id, {duration:1.0, from: 1.0, to:0.2 });
+		/* if(navigator.appName == "Microsoft Internet Explorer") {
+			draggable.setAttribute('class','hide');
+		}
+		else {
+			draggable.class = 'hide';
+		} */
+		return true;
+	}
+	else {
+		return false;
+	}
+
+}
+addLoadListener(initAjaxActivity);
+
+</script>
+<div id="primary">	
+<form method="post" id="activityform">
+	<div id="paginate">
+	 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=5.html">&lt; Prev</a> | <a href="index.html%3Fpage=4.html">4</a> | <a href="index.html%3Fpage=5.html">5</a> | 6 | <a href="index.html%3Fpage=7.html">7</a> | <a href="index.html%3Fpage=8.html">8</a> | <a href="index.html%3Fpage=7.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	</div>
+			<h3> Select from the following items: </h3>
+		<ul class="activity-items">
+		
+						<li>
+				<img src="../content/thumbnails/doc2_tan_bb5c1998a9.jpg" alt="One myth of the West is that the Gold Rush was almost exclusively a mass movement of men.  Numerous trail diaries, however, indicate the presence of women who traveled to California during the height of the Gold Rush.  The stereotype that women came to California unwillingly with their husbands is prevalently accepted, but does not begin to explain the motives of the women who journeyed to California alone or with families in search of adventure and riches.  Women in California were not all prostitutes either.  Just to name a few positions women held, women in California mined for gold, ran boardinghouses and Laundromats, and entertained in theatres.  One woman who caught the gold fever, Lucena Parsons, recorded in her journal her daily activities in California.  An excerpt of that journal is as follows:" title="Women and the Gold Rush: Luncena Parson&#39;s Perspective" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[229][item_id]">Women and the Gold Rush: Luncena Parson's Perspective</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[229][item_id]" class="checkbox" value="229"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_blue_ab7f2c522a.jpg" alt="&quot;Honest Sam&quot; Upham was one of many middle-class Americans who traveled to California to strike it rich in the Gold Rush. Upham reached California by sailing south around South America, before reaching San Francisco. His memoirs, &lt;em&gt;Notes of a Voyage to California Via Cape Horn, and Scenes of El Dorado, In the Years 1849-&#39;50&lt;/em&gt; offer detailed accounts of the both the journey and the miner&#39;s life in California. Upham included in his account his own version of a popular mining song, &quot;Song of the Gold-Digger:&quot;" title="Notes of a Voyage: Samuel Upham" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[228][item_id]">Notes of a Voyage: Samuel Upham</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[228][item_id]" class="checkbox" value="228"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_brown_83cdbcaa3b.jpg" alt="William G. Johnston was a young man who had never traveled far from home when he left for California. He kept a journal while making his journey to California with the first wagon train in 1849, which he later published in 1892.  Originally intended for a small circle of friends, Johnston&#39;s account of his experiences on the overland trail and as a prospector in California provides a rare glimpse into the daily life of a Forty-Niner.  His account is dedicated &quot;To my Messmates of the Plains and Mountains, and of the North fork, Living and Dead: To those of them who yet with me pursue life&#39;s journey, their steps bent towards a land having a City, the Streets of which are paved with Gold; and To the memory of those who, &#39;Life&#39;s fitful fever over,&#39; Sleep peacefully under the clods of the valley: In affectionate remembrance of their friendship, and of their many manly virtues, This Volume is Dedicated.&quot; This selection from is from an entry in Johnston&#39;s diary just as he entered into California with his wagon party." title="A Personal Account: William Johnston" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[227][item_id]">A Personal Account: William Johnston</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[227][item_id]" class="checkbox" value="227"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_green_32c7b1c0ad.jpg" alt="One group of emigrants who participated in the westward expansion and were present at Sutter&#39;s Fort at the time gold was discovered were the Mormons.  One of the first Mormon groups to arrive in California was made up of members of the Mormon Battalion.  This battalion had fought in the Mexican-American War and now made their way through northern California on their way to Salt Lake City just before the gold rush.  Nine of the twelve laborers who were enlisted by John Sutter to assist in building a gristmill and a sawmill near Sutter&#39;s Fort were members of the Mormon Battalion .  One veteran of the Mormon Battalion named Henry Bigler recalled his experiences working for Sutter in 1886.  Bigler volunteered to work on the construction of the sawmill under James Marshall in the fall of 1847.  Some of his thoughts and recollections of the events surrounding his employment during the winter of 1847-1848 are as follows:" title="Early Participants in the Gold Mining: Mormon Emigrants" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[226][item_id]">Early Participants in the Gold Mining: Mormon Emigrants</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[226][item_id]" class="checkbox" value="226"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/torah_icon_cf88ccdc2f.jpg" alt="Made in Wenkheim, Germany, this silk Torah mantle was brought to San Francisco by Jewish immigrants during the California gold rush and presented to Congregation Emanu-El.  Founded in 1850, Emanu-El (Hebrew for &quot;God is with us&quot;) was one of the first synagogues in San Francisco. It provided a spiritual and social community for German and central European Jews who came to California in search of economic opportunities." title="Migration and the Sacred: Torah Mantle" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[225][item_id]">Migration and the Sacred: Torah Mantle</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[225][item_id]" class="checkbox" value="225"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_red_e9901f9c28.jpg" alt="Many of the first Chinese immigrants who came to California were young men who left behind their families to seek their fortune.  Some of these families were eventually reunited, but many were not.  A record of the grief the wives and families felt for their Gold Mountain men exists in the form of folk songs.  Three of these folk songs are as follows:" title="Coming from the East: Chinese Immigrants" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[223][item_id]">Coming from the East: Chinese Immigrants</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[223][item_id]" class="checkbox" value="223"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_red_7493ee47ac.jpg" alt="Men like Benjamin Randolph, long known for their productive skills at various trades, increasingly claimed a political voice in the years leading up to the revolution. Like many other colonial seaports, Philadelphia elected Patriot committees to organize its resistance against Parliament. By the early 1770s, those committees included fewer wealthy merchants and more middling tradesmen, shop keepers, and craftsmen. These men pushed for more forceful statements of political rights, favored extensive economic boycotts of trade with England, and promoted American manufacturing. Many of the &quot;better sort&quot; of colonists lamented the growing influence of these men whom they had considered their social and political inferiors. Political activism by craftsmen and other middling colonists was essential to the radical choice to adopt independence." title="Craftsmen as Patriots: Voices for the Revolution" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[217][item_id]">Craftsmen as Patriots: Voices for the Revolution</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[217][item_id]" class="checkbox" value="217"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/committee_icon_09ea12e754.jpg" alt="Jefferson, a delegate from Virginia, was one member of a committee of 5 men, appointed by the Second Continental Congress to create a draft of a statement to declare independence. The committee discussed general points to make and elements to emphasize, then chose Jefferson to compose the first draft of the document. The other committee members, and then the Second Continental Congress as a whole, made editorial changes to Jefferson&#39;s draft. The Declaration was understood to be the expression of the entire Congress. From this perspective, the Declaration did not have a single author, nor was it intended to express a single man&#39;s philosophy or point of view." title="Other Authors: The Second Continental Congress" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[216][item_id]">Other Authors: The Second Continental Congress</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[216][item_id]" class="checkbox" value="216"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_blue_c6f7d02461.jpg" alt="Colonial newspapers reported that towns, cities, and counties gathered to hear a reading of the Declaration in the weeks after July 4. Many celebrated with drilling of their local militia, shouts of &quot;huzza&quot; to show approval, the making of effigies of George III, and other demonstrations." title="Independence Adopted by the People" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[215][item_id]">Independence Adopted by the People</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[215][item_id]" class="checkbox" value="215"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_tan_2c0b7745ff.jpg" alt="As early as March, 1776, Abigail Adams expressed the idea that the liberty the colonies then sought was not entirely consistent with chattel slavery or with the legal disabilities of free women. She wrote from Braintree, Mass., to her husband John, who was a member of Congress in Philadelphia on these topics" title="Evolution of the Declaration: Women&#39;s Rights" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[214][item_id]">Evolution of the Declaration: Women's Rights</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[214][item_id]" class="checkbox" value="214"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_green_f04ca8c4c7.jpg" alt=" The principles of England&#39;s two 17th-century revolutions were widely known in the colonies. Jonathan Mayhew, minister of West Church in Boston, delivered &quot;A Discourse Concerning Unlimited Submission and Non-Resistance to the Higher Powers&quot; and published it in 1750.  This excerpt shows his reasons for supporting the right to revolt.
+
+" title="Background to Independence: A New England minister affirms the right of Revolution (1750)" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[213][item_id]">Background to Independence: A New England minister affirms the right of Revolution (1750)</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[213][item_id]" class="checkbox" value="213"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_blue_9170f73f21.jpg" alt=" On the 4th of July, 1858, Abraham Lincoln suggested that the many immigrants who had recently arrived in the United States could nonetheless feel a sense of connection with Declaration of Independence. The ideals of the Declaration, he believed, belonged to many 19th-century Americans whose &quot;fathers&quot; did not even live in America in 1776. He called on Americans to re-adopt the central ideals of the revolutionary generation and to carry those ideals forward in their own lifetimes.
+
+" title="Evolution of the Declaration: Lincoln speaks to immigrants (1858)" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[212][item_id]">Evolution of the Declaration: Lincoln speaks to immigrants (1858)</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[212][item_id]" class="checkbox" value="212"  />
+	
+				Select This Item</label>
+			</li>
+					
+				</ul>
+		<hr class="clear" />
+		 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=5.html">&lt; Prev</a> | <a href="index.html%3Fpage=4.html">4</a> | <a href="index.html%3Fpage=5.html">5</a> | 6 | <a href="index.html%3Fpage=7.html">7</a> | <a href="index.html%3Fpage=8.html">8</a> | <a href="index.html%3Fpage=7.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	
+	<input type="submit" name="tour_select_items_submit" value="Select these items" />
+	<input type="submit" name="cancel_submit" value="Cancel" />
+</form>
+<div id="tourmeta"></div>
+
+<div id="itempaginate"></div>
+<div id="itemlist"></div>
+<div id="error"></div>
+
+<div id="itemcart"></div>
+
+</div>
+
+</div> <!-- closes padding div -->
+</div> <!-- closes content div -->
+			<div id="sponsors">
+				<div class="padding">
+				<a href="http://americanhistory.si.edu/"><span id="si-logo">National Museum of American History, Smithsonian Institution</span></a>
+				<a href="http://chnm.gmu.edu"><span id="chnm-logo">Roy Rosenzweig Center for History and New Media</span></a>
+				</div>
+			</div>
+			<div id="footer">
+			<div class="padding">
+			<ul class="navigation">
+				<li class="nav-home"><a href="../index/index.html">Home</a></li>
+				<li class="nav-about"><a href="../about/index.html">About</a></li>
+				<li class="nav-teachers"><a href="../teachers/index.html">Teachers</a></li>
+				<li class="nav-privacy"><a href="../privacy/index.html">Privacy</a></li>
+				<li class="nav-help"><a href="../help/index.html">Help</a></li>
+			</ul>
+			</div>
+			</div>
+		</div> <!-- closes wrap div -->
+		
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2013 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 4.1  -->
+<!-- Created: 5/31/2013 2:28:09 PM -->
+<script src="http://americanhistory.si.edu/_js/webtrends-ooh.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+_tag.WT.cg_n="histex";
+}
+_tag.dcsCollect();
+//]]>
+</script>
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://logs1.smithsonian.museum/dcswl5ztmadzpxv8vdov1jgep_3j8q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=objectofhistory.org"/></div>
+</noscript>
+<!-- END OF SmartSource Data Collector TAG -->
+
+
+
+	</body>
+	
+</html>

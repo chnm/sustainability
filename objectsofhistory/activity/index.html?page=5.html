@@ -1,0 +1,442 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+	<head>
+		<!-- meta info -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="keywords,go,here" />
+		<meta name="description" content="The Object of History takes you behind the scenes with the curators at the National Museum of American History" />
+		<meta name="author" content="Center for History and New Media" />
+		<meta name="copyright" content="Copyright &copy; 2006." />
+		
+		<title>The Object of History | Behind the Scenes with the Curators of the National Museum of American History</title>
+		
+		<!-- various internal links -->
+		<link rel="Shortcut Icon" type="image/ico" href="../i/favicon.ico.html" />
+		<link rel="accessibility" href="../accessibility/index.html" title="Accessibility and Object of History." />
+		<link rel="author" href="../about/index.html" title="About Object of History." />
+		<link rel="home" href="../index.html" title="Home page." />
+		<link rel="organization" href="http://chnm.gmu.edu" title="Center for History and New Media" />
+		
+		<!-- Stylesheets -->
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/screen.css" />
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/gb_styles.css" />
+		<link rel="alternate stylesheet" media="print" href="../content/public/styles/print.css" />
+		
+		<!--[if IE 6]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie6.css" />
+		<![endif]-->
+		
+		<!--[if IE 7]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie7.css" />
+		<![endif]-->
+	
+		<!-- JavaScripts -->
+		<script type="text/javascript">
+		    var GB_ROOT_DIR = "/content/public/j/greybox/";
+		
+			// This hide the non-javascript activity form before the page load.
+			var checkJS = document.getElementById;
+
+			if (checkJS) {
+			        document.write('<style type="text/css">#activityform{display: none;}</style>');
+			}
+		
+		</script>
+
+		
+		<script type="text/javascript" src="../content/common/javascripts/prototype.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/common.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/dragdrop.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/niftycorners/niftycube.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS_fx.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/gb_scripts.js"></script>
+		<script type="text/javascript" src="../content/public/j/roundcorners.js"></script>
+		<script type="text/javascript" src="../content/public/j/imagepagination.js"></script>
+		
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '100']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+
+
+<body id="activity" class="index">
+	
+<div class="hide"><a href="index.html%3Fpage=5.html#content">Skip Navigation/Skip to Content</a></div>
+
+<div id="wrap">
+
+<div id="header">
+<div class="padding">
+<ul id="sitenav" class="navigation">
+	<li class="nav-guide"><a href="../guide/index.html">Guide</a></li>
+	<li class="nav-objects"><a href="../objects/index.html">Objects</a></li>
+	<li class="nav-forum"><a href="../forum/index.html">Forum</a></li>
+	
+	<li class="nav-activity"><a href="index.html">Activity</a></li>
+</ul>
+<h1 id="logo"><a href="../index.html">The Object of History | Behind the Scenes with the Curators of the National Museum of American History</a></h1>
+<h2 id="section-title" class="activity-title">Activity | Create a Virtual Exhibit</h2>
+
+</div>
+</div>
+
+<div id="content">
+	<div class="padding">
+<style type="text/css">
+@import url("../content/public/styles/activity.css");
+</style>
+
+<script type="text/javascript">
+
+function initAjaxActivity() {
+	var itemPaginate, itemCart, itemList, tourMeta;
+	$("itempaginate").style.display = "block";
+	$("itemcart").style.display = "block";
+	$("itemlist").style.display = "block";
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", {evalScripts:true});
+	new Ajax.Updater('tourmeta', "/activity/ajaxTourMeta/", {evalScripts:true});
+	new Ajax.Updater('itemcart', "/activity/ajaxItemCart/", {evalScripts: true});
+	paginateItems( 1  );
+//	paginateItems( 1, 4);
+}
+
+function buildPagination( page, per_page, total, collection_id )
+{
+	pages = Math.ceil( total / per_page );
+	if( page > 1 )
+	{
+		back = document.createElement('a');
+		back.setAttribute('href', 'javascript:void(0)');
+		back.setAttribute('id','previous');
+		back.onclick = function() {
+			paginateItems( page-1, collection_id );
+		}
+		back.innerHTML = '&larr;';
+	}
+	else
+	
+	{
+		back = document.createElement('span');
+		back.innerHTML = '';
+	}
+
+	current = document.createTextNode( ' '+page+' ' );
+
+	if( page < pages )
+	{
+		forward = document.createElement('a');
+		forward.setAttribute('href', 'javascript:void(0)');
+		forward.setAttribute('id','next');
+		forward.setAttribute('title','Next Page');
+		//forward.setAttribute('onclick', 'findMapItems("/mapXML/'+(parseInt(page)+1)+'")');
+		forward.onclick = function() {
+			paginateItems( page+1, collection_id );
+		}
+		forward.innerHTML = '&rarr;';
+	}
+	else
+	{
+		forward = document.createElement('span');
+		forward.innerHTML = '';
+	}
+
+	of = document.createTextNode(' of '+pages+' pages.');
+
+	// Build the html
+
+	span = document.getElementById('itempaginate');
+	span.appendChild(back);
+//	span.appendChild(current);
+	span.appendChild(forward);
+	//span.appendChild(of);
+}
+
+function paginateItems( page, collection_id )
+{
+	parameters = 'page=' + page;
+	
+	if(typeof(collection_id) != "undefined") {
+		parameters = parameters + '&collection=' + collection_id;
+	}else {
+		if( typeof($('item_limit')) != 'undefined') {
+			parameters = parameters + '&' + Form.serialize('item_limit');
+		}
+	}
+	
+	var itemopt = {
+		parameters: parameters,
+		method: 'get',
+		onComplete: function(t) {
+			$('itempaginate').innerHTML = '';
+			var total = $('total').innerHTML;
+
+			buildPagination( page, 12, total, collection_id);
+		},
+		onFailure: reportError,
+		evalScripts: true
+	}
+	
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", itemopt);
+	
+
+}
+function getItemId( draggable ) {
+	return draggable.id.substring(4, 8);
+}
+
+function getOrder( droppable ) {
+	return droppable.id.substring(5, 6);
+}
+
+function reportError(t)
+{
+	alert(t.status);
+}
+
+function fadeDraggable( draggable ) {
+	container = $('itemcontainer'+getItemId(draggable));
+	if( container ) {
+		itemNewImage = document.createElement('img');
+		dragImg = draggable.getElementsByTagName('img');
+		itemNewImage.src = dragImg[0].src;
+		container.appendChild(itemNewImage);
+		new Effect.Opacity(container.id, {duration:1.0, from: 1.0, to:0.2 });
+		/* if(navigator.appName == "Microsoft Internet Explorer") {
+			draggable.setAttribute('class','hide');
+		}
+		else {
+			draggable.class = 'hide';
+		} */
+		return true;
+	}
+	else {
+		return false;
+	}
+
+}
+addLoadListener(initAjaxActivity);
+
+</script>
+<div id="primary">	
+<form method="post" id="activityform">
+	<div id="paginate">
+	 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=4.html">&lt; Prev</a> | <a href="index.html%3Fpage=3.html">3</a> | <a href="index.html%3Fpage=4.html">4</a> | 5 | <a href="index.html%3Fpage=6.html">6</a> | <a href="index.html%3Fpage=7.html">7</a> | <a href="index.html%3Fpage=6.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	</div>
+			<h3> Select from the following items: </h3>
+		<ul class="activity-items">
+		
+						<li>
+				<img src="../content/thumbnails/1998Poster_icon_7231a55f17.jpg" alt="The Marshall Gold Discovery State Park celebrated the Sesquicentennial of James Marshall&#39;s discovery at Coloma, California in 1998.  For this special occasion, the Smithsonian Institution permitted the original gold nugget to travel to the place at which it was first discovered with a museum curator.  This would mark the first time the gold nugget had left the museum for any such occasion since the 1860s." title="California Celebrates: Sesquicentennial of the Gold Rush" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[242][item_id]">California Celebrates: Sesquicentennial of the Gold Rush</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[242][item_id]" class="checkbox" value="242"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_blue_7005bef03e.jpg" alt="This document is of the original Executive Order issued by the governor of California in 1994, Pete Wilson, authorizing a California Gold Discovery to Statehood Sesquicentennial Commission to be formed in preparation for the 1998 celebration of the California Gold Rush." title="Sesquicentennial Celebration: Executive Order Authorizing Preparations" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[241][item_id]">Sesquicentennial Celebration: Executive Order Authorizing Preparations</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[241][item_id]" class="checkbox" value="241"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_brown_17d5f95fbf.jpg" alt="In 1925 the Pioneer Society of California requested the Smithsonian to return the gold nugget to California so that it could be displayed at the California State Museum.  The Smithsonian museum turned down the proposition.  Below is the original letter of request for the gold nugget to be transferred back to California." title="Return to California?: 1925 Request for the Gold Nugget" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[240][item_id]">Return to California?: 1925 Request for the Gold Nugget</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[240][item_id]" class="checkbox" value="240"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/watch_icon_053cfb449d.jpg" alt="A miner lucky enough to strike it rich might choose to showcase his or her discovery in the form of jewelry.  One example of this comes from gold discovered in Colorado.  A. W. Callen of Junction City, Kansas, had this watch and fob encrusted with nuggets from his Colorado gold mine. In 1886 he presented them to his children as birthday gifts. His daughter received the watch, set with four rubies and a diamond; his son received the fob, inscribed &quot;with Love from his Father &#39;Old Grizzly.&#39;&quot; The pieces were handed down in the family to Robert Callen King, who bequeathed them to the Smithsonian in 1963." title="Jewelry: Gold Nugget Watch and Fob, 1886" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[239][item_id]">Jewelry: Gold Nugget Watch and Fob, 1886</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[239][item_id]" class="checkbox" value="239"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/levis_icon_4eea5b683c.jpg" alt="Levi Strauss, who came to California as a prospector in the 1840s, made jeans popular in California during the gold rush years. These heavy brown duck trousers were worn in the late 1880s, probably by a teenage boy, and are one of the two earliest known pair of &quot;Levi&#39;s.&quot; Such work pants were known as &quot;jeans&quot; because they were often made from a cheap, sturdy fabric known as &quot;jean.&quot; Eventually, blue denim would become the standard." title="Levi&#39;s Brown Duck Trowsers" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[238][item_id]">Levi's Brown Duck Trowsers</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[238][item_id]" class="checkbox" value="238"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/water_icon_34e7a016ad.jpg" alt="The miner pictured in this early 20thc photograph is tending to what is called a sluice.  Sluicing, or sometimes referred to as &quot;rocking the cradle,&quot; is a method used to find gold.  To do this, the sluice is set up on an incline where water can be regulated to flow down into it.  Gravel is shoveled into the trough from the top of the incline.  Once this process is complete, any gold present will have remained at the bottom of the trough.  Gold is discovered by panning out this remaining gravel from the sluice." title="Rocking the Cradle: Seeking Gold with Water Pressure" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[236][item_id]">Rocking the Cradle: Seeking Gold with Water Pressure</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[236][item_id]" class="checkbox" value="236"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/sf_quadrilles01_icon_2e539f6c3c.jpg" alt="A Quadrille was a square dance done with four couples and was popular in the eighteenth and nineteenth centuries.  The cover of this songbook from 1852 has three main sketches which are meant to convey an image of the west.  The top right-hand sketch is of Lady America, the center sketch is of a miner, and the lower left-hand sketch is of ships making the long journey by sea to California.  The images romanticize California while simultaneously bringing a nostalgic remembrance of &quot;old America&quot; to the new.  " title="Romantic Visions: The California Quadrilles" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[235][item_id]">Romantic Visions: The California Quadrilles</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[235][item_id]" class="checkbox" value="235"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/panning_icon_55468589d0.jpg" alt="Panning for gold was a common practice among gold seekers because it required less equipment, which meant one could start looking for gold as soon as they arrived in California. Panning for gold was done in rivers and streams.  A miner would take his or her pan, place it in the water and fill it with gravel from the bottom of the river.  Using circular motions, any trace of gold would sink to the bottom of the pan while loose gravel and dirt would move to the side. Although this technique was not equipment intensive, panning for gold was labor intensive and tedious and did not always yield a large return for one&#39;s efforts." title="A Miner at Work: Panning for Gold" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[234][item_id]">A Miner at Work: Panning for Gold</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[234][item_id]" class="checkbox" value="234"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/rules_regs_icon_72e3f7d735.jpg" alt="A common stereotype of life in the Wild West in the midst of the gold rush was one of lawlessness, moral depravity, and vigilantism.  Drawn up in Boston in 1849, and carried by miner Henry Stevens on his journey to California, this list of rules and regulations was meant for the &quot;mutual protection&quot; of a trading and mining company.  This demonstrates that there was an interest on the part of some miners to have a system of rules and regulations to follow instead of permitting complete lawlessness and anarchy to run rampant.  " title="Rules and Regulations" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[233][item_id]">Rules and Regulations</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[233][item_id]" class="checkbox" value="233"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/sunstone_icon_196a071c11.jpg" alt="Mormon &quot;Sunstone&quot; Sculpture
+1844
+
+Symbol of &quot;the times and seasons of the last days&quot;
+A radiant face rising out of a bank of clouds and a pair of hand-held trumpets adorn this limestone capital from a Mormon Temple in Nauvoo, IL. It is one of 30 hand-carved, two-and-a-half-ton capitals that crowned pilasters encircling the temple before it burned down in 1848. Temple architect William Weeks probably based his designs for these &quot;sunstones&quot; on directions from church founder Joseph Smith. Carved temple stones symbolized &quot;the times and seasons of the last days&quot; when heavenly beings--shown by the faces of the sunstones--are said to have visited Smith in a dream.
+Notes
+	4&#39; high, 6&#39; wide, 18&quot; thick
+" title="Mormon Sunstone" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[232][item_id]">Mormon Sunstone</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[232][item_id]" class="checkbox" value="232"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/Gam_icon_e10f5260bb.jpg" alt="Gam Saam or &quot;Gold Mountain&quot; was the phrase the Chinese used in reference to the golden prospects California had to offer.  Vast numbers of Chinese arrived in California in search of their fortune.  Unfortunately, their endeavors were met with harsh discrimination.  Many Anglo-American miners were hostile towards the Chinese because they were willing to work for very low wages. This meant the Chinese took many jobs that may have otherwise gone to Anglo-Americans.  Still another example of discrimination the Chinese encountered was the Foreign Miner&#39;s Tax.  The Foreign Miner&#39;s Tax was instituted during the gold rush, which compelled such groups as the Chinese to pay a monthly tax to mine in California. " title="Chinese Miners: Gam Saam Meets El Dorado" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[231][item_id]">Chinese Miners: Gam Saam Meets El Dorado</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[231][item_id]" class="checkbox" value="231"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/handbill_icon_c3f5a0c031.jpg" alt="This is an advertisement for a steamship to California.  A ride on this steamship would have seemed highly appealing to people wanting to get to California quickly. A usual voyage on a ship to California made many stops and took several months to complete." title="Steamer Flyer" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[230][item_id]">Steamer Flyer</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[230][item_id]" class="checkbox" value="230"  />
+	
+				Select This Item</label>
+			</li>
+					
+				</ul>
+		<hr class="clear" />
+		 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=4.html">&lt; Prev</a> | <a href="index.html%3Fpage=3.html">3</a> | <a href="index.html%3Fpage=4.html">4</a> | 5 | <a href="index.html%3Fpage=6.html">6</a> | <a href="index.html%3Fpage=7.html">7</a> | <a href="index.html%3Fpage=6.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	
+	<input type="submit" name="tour_select_items_submit" value="Select these items" />
+	<input type="submit" name="cancel_submit" value="Cancel" />
+</form>
+<div id="tourmeta"></div>
+
+<div id="itempaginate"></div>
+<div id="itemlist"></div>
+<div id="error"></div>
+
+<div id="itemcart"></div>
+
+</div>
+
+</div> <!-- closes padding div -->
+</div> <!-- closes content div -->
+			<div id="sponsors">
+				<div class="padding">
+				<a href="http://americanhistory.si.edu/"><span id="si-logo">National Museum of American History, Smithsonian Institution</span></a>
+				<a href="http://chnm.gmu.edu"><span id="chnm-logo">Roy Rosenzweig Center for History and New Media</span></a>
+				</div>
+			</div>
+			<div id="footer">
+			<div class="padding">
+			<ul class="navigation">
+				<li class="nav-home"><a href="../index/index.html">Home</a></li>
+				<li class="nav-about"><a href="../about/index.html">About</a></li>
+				<li class="nav-teachers"><a href="../teachers/index.html">Teachers</a></li>
+				<li class="nav-privacy"><a href="../privacy/index.html">Privacy</a></li>
+				<li class="nav-help"><a href="../help/index.html">Help</a></li>
+			</ul>
+			</div>
+			</div>
+		</div> <!-- closes wrap div -->
+		
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2013 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 4.1  -->
+<!-- Created: 5/31/2013 2:28:09 PM -->
+<script src="http://americanhistory.si.edu/_js/webtrends-ooh.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+_tag.WT.cg_n="histex";
+}
+_tag.dcsCollect();
+//]]>
+</script>
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://logs1.smithsonian.museum/dcswl5ztmadzpxv8vdov1jgep_3j8q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=objectofhistory.org"/></div>
+</noscript>
+<!-- END OF SmartSource Data Collector TAG -->
+
+
+
+	</body>
+	
+</html>

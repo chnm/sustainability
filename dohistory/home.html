@@ -1,0 +1,426 @@
+<!--
+Do not edit home.html. To change the home page, edit the file home_template.html. 
+BE SURE to retain the DIARY ENTRY and DIARY LINK comment tags for the 
+"This Day in Martha's Life..." feature in the template page, 
+or the date and entry will not update. 
+Run creathome.pl perl script to create home.html.
+See readme_creathome.txt. -->
+<html>
+
+<head>
+
+<title>DoHistory Home</title>
+<meta name="keywords" content="history, A Midwife's Tale, Martha Ballard, American history, digital, education, early American, women's history, midwife, medicine, gener, female, eighteenth century, nineteenth century, diary, historiography, learn, educational, teach, Maine">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="A site that shows you how to piece together the past from the fragments that have survived. Our case study: Martha Ballard.">
+
+<base href="http://dohistory.org/">
+
+<script language="JavaScript">
+<!--
+  var iPath = 'homeImages/';
+  
+  if(document.images)
+  {
+    interests_martha_dft    = new Image();        interests_martha_dft.src    = iPath + 'interests_martha_dft.gif';
+    interests_psources_dft  = new Image();        interests_psources_dft.src  = iPath + 'interests_psources_dft.gif';
+    interests_genealogy_dft = new Image();        interests_genealogy_dft.src = iPath + 'interests_genealogy_dft.gif';
+    interests_midwifery_dft = new Image();        interests_midwifery_dft.src = iPath + 'interests_midwifery_dft.gif';
+    interests_teaching_dft  = new Image();        interests_teaching_dft.src  = iPath + 'interests_teaching_dft.gif';
+    interests_diaries_dft   = new Image();        interests_diaries_dft.src   = iPath + 'interests_diaries_dft.gif';
+    interests_film_dft      = new Image();        interests_film_dft.src      = iPath + 'interests_film_dft.gif';
+    interests_heading_on    = new Image();        interests_heading_on.src    = iPath + 'interests_heading_on.gif';
+    interests_heading_off   = new Image();        interests_heading_off.src   = iPath + 'interests_heading_off.gif';
+    interests_martha_on     = new Image();        interests_martha_on.src     = iPath + 'interests_martha_on.gif';
+    interests_martha_off    = new Image();        interests_martha_off.src    = iPath + 'interests_martha_off.gif';
+    interests_genealogy_on  = new Image();        interests_genealogy_on.src  = iPath + 'interests_genealogy_on.gif';
+    interests_genealogy_off = new Image();        interests_genealogy_off.src = iPath + 'interests_genealogy_off.gif';
+    interests_psources_on   = new Image();        interests_psources_on.src   = iPath + 'interests_psources_on.gif';
+    interests_psources_off  = new Image();        interests_psources_off.src  = iPath + 'interests_psources_off.gif';
+    interests_midwifery_on  = new Image();        interests_midwifery_on.src  = iPath + 'interests_midwifery_on.gif';
+    interests_midwifery_off = new Image();        interests_midwifery_off.src = iPath + 'interests_midwifery_off.gif';
+    interests_teaching_on   = new Image();        interests_teaching_on.src   = iPath + 'interests_teaching_on.gif';
+    interests_teaching_off  = new Image();        interests_teaching_off.src  = iPath + 'interests_teaching_off.gif';
+    interests_diaries_on    = new Image();        interests_diaries_on.src    = iPath + 'interests_diaries_on.gif';
+    interests_diaries_off   = new Image();        interests_diaries_off.src   = iPath + 'interests_diaries_off.gif';
+    interests_film_on       = new Image();        interests_film_on.src       = iPath + 'interests_film_on.gif';
+    interests_film_off      = new Image();        interests_film_off.src      = iPath + 'interests_film_off.gif';
+
+    whoWas_F1               = new Image(164,34);  whoWas_F1.src = "homeImages/whoWas.gif";
+    whoWas_F2               = new Image(164,34);  whoWas_F2.src = "homeImages/whoWas_F2.gif";
+    diaryOnline_F1          = new Image(203,34);  diaryOnline_F1.src = "homeImages/diaryOnline.gif";
+    diaryOnline_F3          = new Image(203,34);  diaryOnline_F3.src = "homeImages/diaryOnline_F3.gif";
+    home22a_r03_c07_F1      = new Image(207,34);  home22a_r03_c07_F1.src = "homeImages/home2-2a_r03_c07.gif";
+    home22a_r03_c07_F3      = new Image(207,34);  home22a_r03_c07_F3.src = "homeImages/home2-2a_r03_c07_F3.gif";
+    doingHistoryPics_F1     = new Image(202,91);  doingHistoryPics_F1.src = "homeImages/doingHistoryPics.jpg";
+    doingHistoryPics_F2     = new Image(202,91);  doingHistoryPics_F2.src = "homeImages/doingHistoryPics_F2.jpg";
+    doingHistoryPics_F3     = new Image(202,91);  doingHistoryPics_F3.src = "homeImages/doingHistoryPics_F3.jpg";
+    bookPic_F1              = new Image(80,125);  bookPic_F1.src = "homeImages/bookPic.jpg";
+    bookPic_F2              = new Image(80,125);  bookPic_F2.src = "homeImages/bookPic_F2.jpg";
+    bookPic_F3              = new Image(80,125);  bookPic_F3.src = "homeImages/bookPic_F3.jpg";
+    home22a_r04_c08_F1      = new Image(164,23);  home22a_r04_c08_F1.src = "homeImages/home2-2a_r04_c08.gif";
+    home22a_r04_c08_F3      = new Image(164,23);  home22a_r04_c08_F3.src = "homeImages/home2-2a_r04_c08_F3.gif";
+    home22a_r05_c02_F1      = new Image(164,130); home22a_r05_c02_F1.src = "homeImages/home2-2a_r05_c02.gif";
+    home22a_r05_c02_F3      = new Image(164,130); home22a_r05_c02_F3.src = "homeImages/home2-2a_r05_c02_F3.gif";
+    book_F1                 = new Image(118,32);  book_F1.src = "homeImages/book.gif";
+    book_F2                 = new Image(118,32);  book_F2.src = "homeImages/book_F2.gif";
+    filmPic_bookHilite_F1   = new Image(164,109); filmPic_bookHilite_F1.src = "homeImages/filmPic_bookHilite.jpg";
+    filmPic_bookHilite_F2   = new Image(164,109); filmPic_bookHilite_F2.src = "homeImages/filmPic_bookHilite_F2.jpg";
+    filmPic_bookHilite_F3   = new Image(164,109); filmPic_bookHilite_F3.src = "homeImages/filmPic_bookHilite_F3.jpg";
+    doingHistory_F1         = new Image(101,20);  doingHistory_F1.src = "homeImages/doingHistory.gif";
+    doingHistory_F2         = new Image(101,20);  doingHistory_F2.src = "homeImages/doingHistory_F2.gif";
+    doingHistoryHilite_F1   = new Image(166,28);  doingHistoryHilite_F1.src = "homeImages/doingHistoryHilite.gif";
+    doingHistoryHilite_F2   = new Image(166,28);  doingHistoryHilite_F2.src = "homeImages/doingHistoryHilite_F2.gif";
+    archivePics_F1          = new Image(166,104); archivePics_F1.src = "homeImages/archivePics.jpg";
+    archivePics_F3          = new Image(166,104); archivePics_F3.src = "homeImages/archivePics_F3.jpg";
+    film_F1                 = new Image(118,36);  film_F1.src = "homeImages/film.gif";
+    film_F3                 = new Image(118,36);  film_F3.src = "homeImages/film_F3.gif";
+    filmHilite_F1           = new Image(164,43);  filmHilite_F1.src = "homeImages/filmHilite.gif";
+    filmHilite_F3           = new Image(164,43);  filmHilite_F3.src = "homeImages/filmHilite_F3.gif";
+    archive_F1              = new Image(166,37);  archive_F1.src = "homeImages/archive.gif";
+    archive_F3              = new Image(166,37);  archive_F3.src = "homeImages/archive_F3.gif";
+    onYourOwn_F1            = new Image(95,18);   onYourOwn_F1.src = "homeImages/onYourOwn.gif";
+    onYourOwn_F3            = new Image(95,18);   onYourOwn_F3.src = "homeImages/onYourOwn_F3.gif";
+    onYourOwnHilite_F1      = new Image(164,39);  onYourOwnHilite_F1.src = "homeImages/onYourOwnHilite.gif";
+    onYourOwnHilite_F3      = new Image(164,39);  onYourOwnHilite_F3.src = "homeImages/onYourOwnHilite_F3.gif";
+    archiveHilite_F1        = new Image(246,20);  archiveHilite_F1.src = "homeImages/archiveHilite.gif";
+    archiveHilite_F3        = new Image(246,20);  archiveHilite_F3.src = "homeImages/archiveHilite_F3.gif";
+  }
+
+/* Function that displays status bar messages. */
+
+function dm(msgStr) {
+    window.status = msgStr;
+    document.MM_returnValue = true;
+}
+
+/* Function that swaps images. */
+
+function di20(id, newSrc) {
+    var theImage = FWFindImage(document, id, 0);
+    if (theImage) {
+        theImage.src = newSrc;
+    }
+}
+
+/* Functions that track and set toggle group button states. */
+
+function FWFindImage(doc, name, j) {
+    var theImage = false;
+    if (doc.images) {
+        theImage = doc.images[name];
+    }
+    if (theImage) {
+        return theImage;
+    }
+    if (doc.layers) {
+        for (j = 0; j < doc.layers.length; j++) {
+            theImage = FWFindImage(doc.layers[j].document, name, 0);
+            if (theImage) {
+                return (theImage);
+            }
+        }
+    }
+    return (false);
+}
+
+function MM_goToURL() { //v2.0
+  for (var i=0; i< (MM_goToURL.arguments.length - 1); i+=2) //with arg pairs
+    eval(MM_goToURL.arguments[i]+".location='"+MM_goToURL.arguments[i+1]+"'");
+  document.MM_returnValue = false;
+}
+
+function MM_timelineGoto(tmLnName, fNew, numGotos) { //v2.0
+  //Copyright 1997 Macromedia, Inc. All rights reserved.
+  var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,lastKeyFr,propNum,theObj;
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+  tmLn = document.MM_Time[tmLnName];
+  if (numGotos != null)
+    if (tmLn.gotoCount == null) tmLn.gotoCount = 1;
+    else if (tmLn.gotoCount++ >= numGotos) {tmLn.gotoCount=0; return}
+  jmpFwd = (fNew > tmLn.curFrame);
+  for (i = 0; i < tmLn.length; i++) {
+    sprite = (jmpFwd)? tmLn[i] : tmLn[(tmLn.length-1)-i]; //count bkwds if jumping back
+    if (sprite.charAt(0) == "s") {
+      numKeyFr = sprite.keyFrames.length;
+      firstKeyFr = sprite.keyFrames[0];
+      lastKeyFr = sprite.keyFrames[numKeyFr - 1];
+      if ((jmpFwd && fNew<firstKeyFr) || (!jmpFwd && lastKeyFr<fNew)) continue; //skip if untouchd
+      for (keyFrm=1; keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]; keyFrm++);
+      for (j=0; j<sprite.values.length; j++) {
+        props = sprite.values[j];
+        if (numKeyFr == props.length) propNum = keyFrm-1 //keyframes only
+        else propNum = Math.min(Math.max(0,fNew-firstKeyFr),props.length-1); //or keep in legal range
+        if (sprite.obj != null) {
+          if (props.prop2 == null) sprite.obj[props.prop] = props[propNum];
+          else        sprite.obj[props.prop2][props.prop] = props[propNum];
+      } }
+    } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+  }
+  tmLn.curFrame = fNew;
+  if (tmLn.ID == 0) eval('MM_timelinePlay(tmLnName)');
+}
+
+function MM_initTimelines() {
+    //MM_initTimelines() Copyright 1997 Macromedia, Inc. All rights reserved.
+    var ns = navigator.appName == "Netscape";
+    document.MM_Time = new Array(1);
+    document.MM_Time[0] = new Array(1);
+    document.MM_Time["Timeline1"] = document.MM_Time[0];
+    document.MM_Time[0].MM_Name = "Timeline1";
+    document.MM_Time[0].fps = 15;
+    document.MM_Time[0][0] = new String("sprite");
+    document.MM_Time[0][0].slot = 1;
+    if (ns)
+        document.MM_Time[0][0].obj = document["home22a_r05_c02"];
+    else
+        document.MM_Time[0][0].obj = document["home22a_r05_c02"];
+    document.MM_Time[0][0].keyFrames = new Array(1, 2, 15);
+    document.MM_Time[0][0].values = new Array(1);
+    document.MM_Time[0][0].values[0] = new Array("homeImages/home2-2a_r05_c02.gif","homeImages/interestMenuHilite.gif","homeImages/home2-2a_r05_c02.gif");
+    document.MM_Time[0][0].values[0].prop = "src";
+    document.MM_Time[0].lastFrame = 15;
+    for (i=0; i<document.MM_Time.length; i++) {
+        document.MM_Time[i].ID = null;
+        document.MM_Time[i].curFrame = 0;
+        document.MM_Time[i].delay = 1000/document.MM_Time[i].fps;
+    }
+}
+
+
+        interests_heading_stat   = 'If you\'re interested in... ';
+        interests_martha_stat    = 'Martha Ballard';
+        interests_genealogy_stat = 'Genealogy';
+        interests_psources_stat  = 'How to use primary sources';
+        interests_midwifery_stat = 'Midwifery & herbal medicine';
+        interests_teaching_stat  = 'Teaching with this Web site';
+        interests_diaries_stat   = 'Diaries';
+        interests_film_stat      = 'Films about the past';
+
+        var menu = new Array('martha','genealogy','psources','midwifery','teaching','diaries','film');
+        var menu_on = false;
+        var menu_active = true;
+        var menu_running = null;
+
+        function rollOver(iName,iState,sMess)
+        {
+          if(document.images)
+          {
+            document.images[iName].src = eval(iName + '_' + iState + '.src');
+          }
+        }
+
+        function activateMenu()
+        {
+          if(document.images)
+          {
+            menu_on = true;
+            if(menu_active)
+            {
+              menuLen = menu.length;
+              for(i = 0; i < menuLen; i++)
+              {
+                rollOver('interests_' + menu[i],'off');
+              }
+            }
+          }
+        }
+
+        function deactivateMenu()
+        {
+          if(document.images)
+          {
+            menuLen = menu.length;
+            for(i = 0; i < menuLen; i++)
+            {
+              menu_string = 'if (!menu_on) { rollOver(\'interests_' + menu[i] + '\',\'dft\'); menu_active = false; }';
+              setTimeout(menu_string,1);
+            }
+            menu_on = false;
+          }
+        }
+    //-->
+</script>
+
+</head>
+
+<body bgcolor="#333366" text="#CCCC99" link="#CCCC66" vlink="#999966" alink="#CCCC33">
+<table border="0" cellpadding="0" cellspacing="0" width="619">
+  <tr><!-- Shim row, height 1. --> 
+    <td><img src="homeImages/shim.gif" width="9" height="1" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="164" height="1" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="36" height="1" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="101" height="1" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="65" height="1" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="37" height="1" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="43" height="1" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="95" height="1" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="23" height="1" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="46" height="1" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 1 --> 
+    <td rowspan="17"><img name="home22a_r01_c01" src="homeImages/home2-2a_r01_c01.gif" width="9" height="399" border="0" alt=""></td>
+    <td><img name="doHistoryTitle" src="homeImages/doHistoryTitle.gif" width="164" height="42" border="0" alt="DoHistory"></td>
+    <td rowspan="2" colspan="8" valign="top"><font size="2" face="Arial, Helvetica, sans-serif">A 
+      site that shows you how to piece together<br>
+      the past from the fragments that have<br>
+      survived. Our case study: Martha Ballard.</font></td>
+    <td><img src="homeImages/shim.gif" width="1" height="42" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 2 --> 
+    <td>&nbsp;<font face="Arial, Helvetica, sans-serif" size="-1"><a href="about/site.html">What 
+      is this site?</a></font></td>
+    <td><img src="homeImages/shim.gif" width="1" height="23" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 3 --> 
+    <td><a href="martha/index.html" onMouseOut="di20('whoWas','homeImages/whoWas.gif');dm(' ');return document.MM_returnValue"  onMouseOver="di20('whoWas','homeImages/whoWas_F2.gif');dm('The woman who wrote the diary-- when, where and how she lived.');return document.MM_returnValue" ><img name="whoWas" src="homeImages/whoWas.gif" width="164" height="34" border="0" alt="Who Was Martha Ballard?"></a></td>
+    <td><img name="home22a_r03_c03" src="homeImages/home2-2a_r03_c03.gif" width="36" height="34" border="0" alt=""></td>
+    <td colspan="3"><a href="diary/index.html" onMouseOut="di20('doingHistoryPics','homeImages/doingHistoryPics.jpg');di20('diaryOnline','homeImages/diaryOnline.gif');di20('home22a_r03_c07','homeImages/home2-2a_r03_c07.gif');di20('home22a_r04_c08','homeImages/home2-2a_r04_c08.gif');di20('bookPic','homeImages/bookPic.jpg');dm(' ');return document.MM_returnValue"  onMouseOver="di20('doingHistoryPics','homeImages/doingHistoryPics_F3.jpg');di20('diaryOnline','homeImages/diaryOnline_F3.gif');di20('home22a_r03_c07','homeImages/home2-2a_r03_c07_F3.gif');di20('home22a_r04_c08','homeImages/home2-2a_r04_c08_F3.gif');di20('bookPic','homeImages/bookPic_F3.jpg');dm('Browse, read, search the entire diary in Martha\'s handwriting or transcribed.');return document.MM_returnValue" ><img name="diaryOnline" src="homeImages/diaryOnline.gif" width="203" height="34" border="0" title="" alt="Martha Ballard's Diary Online"></a></td>
+    <td colspan="4"><img name="home22a_r03_c07" src="homeImages/home2-2a_r03_c07.gif" width="207" height="34" border="0" alt="Can't view images? Use text menu at bottom"></td>
+    <td><img src="homeImages/shim.gif" width="1" height="34" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 4 --> 
+    <td><A HREF="interests/index.html" onMouseover="menu_active = true; activateMenu(true); rollOver('interests_heading','on'); dm(interests_heading_stat); return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_heading','off'); dm('')"><IMG NAME="interests_heading" SRC="homeImages/interests_heading_off.gif" WIDTH="164" HEIGHT="23" BORDER="0" ALT="If you're interested in... "></A></td>
+    <td rowspan="3" colspan="3"><img name="doingHistoryPics" src="homeImages/doingHistoryPics.jpg" width="202" height="91" border="0" alt=""></td>
+    <td rowspan="5" colspan="2"><img name="bookPic" src="homeImages/bookPic.jpg" width="80" height="125" border="0" alt=""></td>
+    <td colspan="3"><img name="home22a_r04_c08" src="homeImages/home2-2a_r04_c08.gif" width="164" height="23" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="1" height="23" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 5 --> 
+    <td rowspan="6">
+      <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0">
+        <TR><TD><A HREF="interests/i_martha.html" onMouseover="activateMenu(); if(menu_active) { dm(interests_martha_stat); rollOver('interests_martha','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_martha','off'); dm('')" onClick="return (menu_active)"><IMG NAME="interests_martha" SRC="homeImages/interests_martha_on.gif" WIDTH="164" HEIGHT="16" BORDER="0" ALT="Martha Ballard"></A></TD></TR>
+        <TR><TD><A HREF="interests/i_genealogy.html" onMouseover="activateMenu(); if(menu_active) { dm(interests_genealogy_stat); rollOver('interests_genealogy','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_genealogy','off'); dm('')" onClick="return (menu_active)"><IMG NAME="interests_genealogy" SRC="homeImages/interests_genealogy_on.gif" WIDTH="164" HEIGHT="18" BORDER="0" ALT="Genealogy"></A></TD></TR>
+        <TR><TD><A HREF="interests/i_primarysources.html" onMouseover="activateMenu(); if(menu_active) { dm(interests_psources_stat); rollOver('interests_psources','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_psources','off'); dm('')" onClick="return (menu_active)"><IMG NAME="interests_psources" SRC="homeImages/interests_psources_on.gif" WIDTH="164" HEIGHT="18" BORDER="0" ALT="How to use primary sources"></A></TD></TR>
+        <TR><TD><A HREF="interests/i_midwiferyherbal.html" onMouseover="activateMenu(); if(menu_active) { dm(interests_midwifery_stat); rollOver('interests_midwifery','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_midwifery','off'); dm('')" onClick="return (menu_active)"><IMG NAME="interests_midwifery" SRC="homeImages/interests_midwifery_on.gif" WIDTH="164" HEIGHT="18" BORDER="0" ALT="Midwifery &amp; herbal medicine"></A></TD></TR>
+        <TR><TD><A HREF="interests/i_teaching.html" onMouseover="activateMenu(); if(menu_active) { dm(interests_teaching_stat); rollOver('interests_teaching','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_teaching','off'); dm('')" onClick="return (menu_active)"><IMG NAME="interests_teaching" SRC="homeImages/interests_teaching_on.gif" WIDTH="164" HEIGHT="18" BORDER="0" ALT="Teaching with this Web site"></A></TD></TR>
+        <TR><TD><A HREF="interests/i_diaries.html" onMouseover="activateMenu(); if(menu_active) { dm(interests_diaries_stat); rollOver('interests_diaries','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_diaries','off'); dm('')" onClick="return (menu_active)"><IMG NAME="interests_diaries" SRC="homeImages/interests_diaries_on.gif" WIDTH="164" HEIGHT="18" BORDER="0" ALT="Diaries"></A></TD></TR>
+        <TR><TD><A HREF="interests/i_film.html" onMouseover="activateMenu(); if(menu_active) { dm(interests_film_stat); rollOver('interests_film','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_film','off'); dm('')" onClick="return (menu_active)"><IMG NAME="interests_film" SRC="homeImages/interests_film_on.gif" WIDTH="164" HEIGHT="24" BORDER="0" ALT="Films about the past"></A></TD></TR>
+      </TABLE>
+      <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+        <!--
+          deactivateMenu();
+        // -->
+      </SCRIPT>
+    </td>
+    <td colspan="2"><a href="book/index.html" onMouseOut="di20('book','homeImages/book.gif');di20('filmPic_bookHilite','homeImages/filmPic_bookHilite.jpg');di20('bookPic','homeImages/bookPic.jpg');dm(' ');return document.MM_returnValue"  onMouseOver="dm('Historian Laurel Thatcher Ulrich tells Martha\'s story, based on her diary.');di20('book','homeImages/book_F2.gif');di20('filmPic_bookHilite','homeImages/filmPic_bookHilite_F2.jpg');di20('bookPic','homeImages/bookPic_F2.jpg');return document.MM_returnValue" ><img name="book" src="homeImages/book.gif" width="118" height="32" border="0" title="" alt="A Midwife's Tale: The Book"></a></td>
+    <td><img name="home22a_r05_c10" src="homeImages/home2-2a_r05_c10.gif" width="46" height="32" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="1" height="32" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 6 --> 
+    <td rowspan="6" colspan="3"><img name="filmPic_bookHilite" src="homeImages/filmPic_bookHilite.jpg" width="164" height="109" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="1" height="36" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 7 --> 
+    <td rowspan="11"><img name="home22a_r07_c03" src="homeImages/home2-2a_r07_c03.gif" width="36" height="209" border="0" alt=""></td>
+    <td><a href="DHindex.html" onMouseOut="di20('doingHistoryHilite','homeImages/doingHistoryHilite.gif');di20('doingHistoryPics','homeImages/doingHistoryPics.jpg');di20('doingHistory','homeImages/doingHistory.gif');dm(' ');return document.MM_returnValue"  onMouseOver="dm('Two in-depth interactive examples of how to do history.');di20('doingHistoryHilite','homeImages/doingHistoryHilite_F2.gif');di20('doingHistoryPics','homeImages/doingHistoryPics_F2.jpg');di20('doingHistory','homeImages/doingHistory_F2.gif');return document.MM_returnValue" ><img name="doingHistory" src="homeImages/doingHistory.gif" width="101" height="20" border="0" title="" alt="Doing History"></a></td>
+    <td><img name="home22a_r07_c05" src="homeImages/home2-2a_r07_c05.gif" width="65" height="20" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 8 --> 
+    <td rowspan="2" colspan="2"><img name="doingHistoryHilite" src="homeImages/doingHistoryHilite.gif" width="166" height="28" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="1" height="14" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 9 --> 
+    <td rowspan="8" colspan="2"><img name="home22a_r09_c06" src="homeImages/home2-2a_r09_c06.gif" width="80" height="155" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="1" height="14" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 10 --> 
+    <td rowspan="5" colspan="2"><img name="archivePics" src="homeImages/archivePics.jpg" width="166" height="104" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="1" height="14" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 11 --> 
+    <td rowspan="3"><img name="home22a_r11_c02" src="homeImages/home2-2a_r11_c02.gif" width="164" height="65" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="1" height="11" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 12 --> 
+    <td colspan="2"><a href="film/index.html" onMouseOut="di20('film','homeImages/film.gif');di20('filmHilite','homeImages/filmHilite.gif');di20('filmPic_bookHilite','homeImages/filmPic_bookHilite.jpg');dm(' ');return document.MM_returnValue"  onMouseOver="dm('The film interweaves Martha\'s story with Ulrich\'s process of piecing it together.');di20('film','homeImages/film_F3.gif');di20('filmHilite','homeImages/filmHilite_F3.gif');di20('filmPic_bookHilite','homeImages/filmPic_bookHilite_F3.jpg');return document.MM_returnValue" ><img name="film" src="homeImages/film.gif" width="118" height="36" border="0" title="" alt="A Midwife's Tale: The Film"></a></td>
+    <td><img name="home22a_r12_c10" src="homeImages/home2-2a_r12_c10.gif" width="46" height="36" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="1" height="36" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 13 --> 
+    <td rowspan="2" colspan="3"><img name="filmHilite" src="homeImages/filmHilite.gif" width="164" height="43" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="1" height="18" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 14 --> 
+    <td rowspan="4"><font face="Arial, Helvetica, sans-serif" size="2">On 
+      this day in <br>
+      Martha Ballard's Diary...<br>
+      &quot;I have done hous wk&quot; 
+      <nobr>(<A HREF="../cgi-bin/gotodiary?date=18071121">November 21, 1807</A>)</nobr></font></td>
+    <td><img src="homeImages/shim.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 15 --> 
+    <td rowspan="2" colspan="2"><a href="archive/index.html" onMouseOut="di20('archive','homeImages/archive.gif');di20('archivePics','homeImages/archivePics.jpg');di20('archiveHilite','homeImages/archiveHilite.gif');dm(' ');return document.MM_returnValue"  onMouseOver="dm('All the primary documents used at this site.');di20('archive','homeImages/archive_F3.gif');di20('archivePics','homeImages/archivePics_F3.jpg');di20('archiveHilite','homeImages/archiveHilite_F3.gif');return document.MM_returnValue" ><img name="archive" src="homeImages/archive.gif" width="166" height="37" border="0" title="" alt="Archive of Primary Documents"></a></td>
+    <td><a href="on_your_own/index.html" onMouseOut="di20('onYourOwn','homeImages/onYourOwn.gif');di20('onYourOwnHilite','homeImages/onYourOwnHilite.gif');di20('filmHilite','homeImages/filmHilite.gif');dm(' ');return document.MM_returnValue"  onMouseOver="dm('Do your own history projects.');di20('onYourOwn','homeImages/onYourOwn_F3.gif');di20('onYourOwnHilite','homeImages/onYourOwnHilite_F3.gif');di20('filmHilite','homeImages/filmHilite_F2.gif');return document.MM_returnValue" ><img name="onYourOwn" src="homeImages/onYourOwn.gif" width="95" height="18" border="0" title="" alt="On Your Own"></a></td>
+    <td colspan="2"><img name="home22a_r15_c09" src="homeImages/home2-2a_r15_c09.gif" width="69" height="18" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="1" height="18" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 16 --> 
+    <td rowspan="2" colspan="3"><img name="onYourOwnHilite" src="homeImages/onYourOwnHilite.gif" width="164" height="39" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="1" height="19" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 17 --> 
+    <td colspan="4"><img name="archiveHilite" src="homeImages/archiveHilite.gif" width="246" height="20" border="0" alt=""></td>
+    <td><img src="homeImages/shim.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<!-- #BeginLibraryItem "/Library/bottomNav_home.lbi" --><!--start bottomnav-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr bgcolor="#CCCC66"> 
+    <td> 
+      <table width="100%" border="0" cellspacing="1" cellpadding="1">
+		<tr> 
+		  
+          <td height="15" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="home.html"><font color="#333399">home</font></a></font></td><td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="interests/index.html"><font color="#CCCC66">your 
+            interests</font></a></font></td><td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="martha/index.html"><font color="#CCCC66">who 
+            was Martha?</font></a></font></td><td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"><a href="diary/index.html"><font color="#CCCC66">Martha's 
+            diary</font></a> </font></td><td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="book/index.html"><font color="#CCCC66">book</font></a></font></td><td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="film/index.html"><font color="#CCCC66">film</font></a></font></td><td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="DHindex.html"><font color="#CCCC66">doing 
+            history</font> </a></font></td><td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="archive/index.html"><font color="#CCCC66">archive</font></a></font></td><td height="15" bgcolor="#333366" align="center"><font face="Arial, Helvetica, sans-serif" size="1"><a href="on_your_own/index.html"><font color="#CCCC66">on 
+            your own</font></a></font></td></tr>
+		<tr> 
+		  
+          <td height="15" colspan="9"><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"><a href="sitemap.html"><font color="#333399">site 
+            map</font></a></font><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | </font><a href="about/techHelp.html"><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"><font color="#333399">tech 
+            help</font></font></a><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | </font><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"> 
+            <a href="about/site.html"><font color="#333399"> about this site</font></a></font><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | </font><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"> 
+            <a href="search.html"><font color="#333399">search</font></a> </font><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | </font><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"><a href="about/projecthistory.html"><font color="#333399">project 
+            history</font></a></font><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | </font> <font face="Arial, Helvetica, sans-serif" size="1" color="#333366"><a href="about/credits.html"><font color="#333399">credits 
+            and funders</font></a> </font><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | <a href="about/use.html"><font color="#333399">use and rights</font></a> 
+            | </font><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"> 
+            <a href="about/feedback.html"><font color="#333399">feedback &#149; 
+            contact us</font></a></font></td></tr>
+      </table></td></tr>
+</table><!--`end bottomnav--><!-- #EndLibraryItem --> <br>
+<CENTER><font size="2" face="Arial, Helvetica, sans-serif">Created by <a href="http://www.filmstudycenter.org">Film 
+Study Center</a>, Harvard University and hosted by <a href="http://chnm.gmu.edu/">Roy Rosenzweig Center for History and New Media</a>, George Mason University.</font></CENTER>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+  <!--
+    deactivateMenu(); // again in case browser performed above script before loading images.
+  // -->
+</SCRIPT>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '94']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</body>
+</html>

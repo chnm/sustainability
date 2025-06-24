@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+	<head>
+		<!-- meta info -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="keywords,go,here" />
+		<meta name="description" content="The Object of History takes you behind the scenes with the curators at the National Museum of American History" />
+		<meta name="author" content="Center for History and New Media" />
+		<meta name="copyright" content="Copyright &copy; 2006." />
+		
+		<title>The Object of History | Behind the Scenes with the Curators of the National Museum of American History</title>
+		
+		<!-- various internal links -->
+		<link rel="Shortcut Icon" type="image/ico" href="../i/favicon.ico.html" />
+		<link rel="accessibility" href="../accessibility/index.html" title="Accessibility and Object of History." />
+		<link rel="author" href="../about/index.html" title="About Object of History." />
+		<link rel="home" href="../index.html" title="Home page." />
+		<link rel="organization" href="http://chnm.gmu.edu" title="Center for History and New Media" />
+		
+		<!-- Stylesheets -->
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/screen.css" />
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/gb_styles.css" />
+		<link rel="alternate stylesheet" media="print" href="../content/public/styles/print.css" />
+		
+		<!--[if IE 6]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie6.css" />
+		<![endif]-->
+		
+		<!--[if IE 7]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie7.css" />
+		<![endif]-->
+	
+		<!-- JavaScripts -->
+		<script type="text/javascript">
+		    var GB_ROOT_DIR = "/content/public/j/greybox/";
+		
+			// This hide the non-javascript activity form before the page load.
+			var checkJS = document.getElementById;
+
+			if (checkJS) {
+			        document.write('<style type="text/css">#activityform{display: none;}</style>');
+			}
+		
+		</script>
+
+		
+		<script type="text/javascript" src="../content/common/javascripts/prototype.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/common.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/dragdrop.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/niftycorners/niftycube.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS_fx.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/gb_scripts.js"></script>
+		<script type="text/javascript" src="../content/public/j/roundcorners.js"></script>
+		<script type="text/javascript" src="../content/public/j/imagepagination.js"></script>
+		
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '100']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+
+
+<body id="activity" class="index">
+	
+<div class="hide"><a href="index.html%3Fpage=18.html#content">Skip Navigation/Skip to Content</a></div>
+
+<div id="wrap">
+
+<div id="header">
+<div class="padding">
+<ul id="sitenav" class="navigation">
+	<li class="nav-guide"><a href="../guide/index.html">Guide</a></li>
+	<li class="nav-objects"><a href="../objects/index.html">Objects</a></li>
+	<li class="nav-forum"><a href="../forum/index.html">Forum</a></li>
+	
+	<li class="nav-activity"><a href="index.html">Activity</a></li>
+</ul>
+<h1 id="logo"><a href="../index.html">The Object of History | Behind the Scenes with the Curators of the National Museum of American History</a></h1>
+<h2 id="section-title" class="activity-title">Activity | Create a Virtual Exhibit</h2>
+
+</div>
+</div>
+
+<div id="content">
+	<div class="padding">
+<style type="text/css">
+@import url("../content/public/styles/activity.css");
+</style>
+
+<script type="text/javascript">
+
+function initAjaxActivity() {
+	var itemPaginate, itemCart, itemList, tourMeta;
+	$("itempaginate").style.display = "block";
+	$("itemcart").style.display = "block";
+	$("itemlist").style.display = "block";
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", {evalScripts:true});
+	new Ajax.Updater('tourmeta', "/activity/ajaxTourMeta/", {evalScripts:true});
+	new Ajax.Updater('itemcart', "/activity/ajaxItemCart/", {evalScripts: true});
+	paginateItems( 1  );
+//	paginateItems( 1, 4);
+}
+
+function buildPagination( page, per_page, total, collection_id )
+{
+	pages = Math.ceil( total / per_page );
+	if( page > 1 )
+	{
+		back = document.createElement('a');
+		back.setAttribute('href', 'javascript:void(0)');
+		back.setAttribute('id','previous');
+		back.onclick = function() {
+			paginateItems( page-1, collection_id );
+		}
+		back.innerHTML = '&larr;';
+	}
+	else
+	
+	{
+		back = document.createElement('span');
+		back.innerHTML = '';
+	}
+
+	current = document.createTextNode( ' '+page+' ' );
+
+	if( page < pages )
+	{
+		forward = document.createElement('a');
+		forward.setAttribute('href', 'javascript:void(0)');
+		forward.setAttribute('id','next');
+		forward.setAttribute('title','Next Page');
+		//forward.setAttribute('onclick', 'findMapItems("/mapXML/'+(parseInt(page)+1)+'")');
+		forward.onclick = function() {
+			paginateItems( page+1, collection_id );
+		}
+		forward.innerHTML = '&rarr;';
+	}
+	else
+	{
+		forward = document.createElement('span');
+		forward.innerHTML = '';
+	}
+
+	of = document.createTextNode(' of '+pages+' pages.');
+
+	// Build the html
+
+	span = document.getElementById('itempaginate');
+	span.appendChild(back);
+//	span.appendChild(current);
+	span.appendChild(forward);
+	//span.appendChild(of);
+}
+
+function paginateItems( page, collection_id )
+{
+	parameters = 'page=' + page;
+	
+	if(typeof(collection_id) != "undefined") {
+		parameters = parameters + '&collection=' + collection_id;
+	}else {
+		if( typeof($('item_limit')) != 'undefined') {
+			parameters = parameters + '&' + Form.serialize('item_limit');
+		}
+	}
+	
+	var itemopt = {
+		parameters: parameters,
+		method: 'get',
+		onComplete: function(t) {
+			$('itempaginate').innerHTML = '';
+			var total = $('total').innerHTML;
+
+			buildPagination( page, 12, total, collection_id);
+		},
+		onFailure: reportError,
+		evalScripts: true
+	}
+	
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", itemopt);
+	
+
+}
+function getItemId( draggable ) {
+	return draggable.id.substring(4, 8);
+}
+
+function getOrder( droppable ) {
+	return droppable.id.substring(5, 6);
+}
+
+function reportError(t)
+{
+	alert(t.status);
+}
+
+function fadeDraggable( draggable ) {
+	container = $('itemcontainer'+getItemId(draggable));
+	if( container ) {
+		itemNewImage = document.createElement('img');
+		dragImg = draggable.getElementsByTagName('img');
+		itemNewImage.src = dragImg[0].src;
+		container.appendChild(itemNewImage);
+		new Effect.Opacity(container.id, {duration:1.0, from: 1.0, to:0.2 });
+		/* if(navigator.appName == "Microsoft Internet Explorer") {
+			draggable.setAttribute('class','hide');
+		}
+		else {
+			draggable.class = 'hide';
+		} */
+		return true;
+	}
+	else {
+		return false;
+	}
+
+}
+addLoadListener(initAjaxActivity);
+
+</script>
+<div id="primary">	
+<form method="post" id="activityform">
+	<div id="paginate">
+	 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=17.html">&lt; Prev</a> | <a href="index.html%3Fpage=15.html">15</a> | <a href="index.html%3Fpage=16.html">16</a> | <a href="index.html%3Fpage=17.html">17</a> | 18 | <a href="index.html%3Fpage=19.html">19</a> | <a href="index.html%3Fpage=19.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	</div>
+			<h3> Select from the following items: </h3>
+		<ul class="activity-items">
+		
+						<li>
+				<img src="../content/thumbnails/bird-poster4sm_6c0324ec4b.jpg" alt="" title="Does the Voting Machine have distinctive characteristics or features?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[43][item_id]">Does the Voting Machine have distinctive characteristics or features?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[43][item_id]" class="checkbox" value="43"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/bird-poster3sm_df1aa51569.jpg" alt="" title="Are there any problems with the Voting Machine?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[42][item_id]">Are there any problems with the Voting Machine?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[42][item_id]" class="checkbox" value="42"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/bird-poster2sm_71e32d069a.jpg" alt="" title="How does the 1898 Standard Voting Machine work?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[41][item_id]">How does the 1898 Standard Voting Machine work?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[41][item_id]" class="checkbox" value="41"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_tan_d251be13fc.jpg" alt="In this letter to Rockwell Manufacturing, Museum Director Frank Taylor thanks the company for its donation and requests that they review the label text that Curator Wilcomb Washburn prepared for a temporary exhibit.  The letter included an enclosed draft of the label text that was to accompany both the United States voting machine and the Standard voting machine. " title="Review of Display Label Text" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[25][item_id]">Review of Display Label Text</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[25][item_id]" class="checkbox" value="25"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_red_2c84e509ae.jpg" alt="This letter from Rockwell Manufacturing provides general information about modern voting mechanisms and lists which states use voting machines.  The information was provided to enhance the label text that the curators would display with the voting machines.  Compare the suggested text to the second paragraph of the display label draft text." title="Rockwell Advises on the Item Label" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[24][item_id]">Rockwell Advises on the Item Label</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[24][item_id]" class="checkbox" value="24"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_green_0d0391d962.jpg" alt="In this correspondence between Frank P. Stone, General Sales Manager, and the Museum, Stone describes the two voting machines that Rockwell Manufacturing was donating to the collections: the United States voting machine and the Standard voting machine." title="Rockwell Manufacturing Responds" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[23][item_id]">Rockwell Manufacturing Responds</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[23][item_id]" class="checkbox" value="23"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_blue_5015d15cd0.jpg" alt="In a 1959 letter to the Automatic Voting Machine Company&mdash;located in Jamestown, NY, near Rochester&mdash;museum curator Wilcomb E. Washburn expresses his hopes to illustrate the history of automatic voting procedures. He had already acquired a collection of early ballot boxes that he wished to supplement with additional inventions in mechanical voting technology." title="NMAH approaches Rockwell Manufacturing" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[22][item_id]">NMAH approaches Rockwell Manufacturing</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[22][item_id]" class="checkbox" value="22"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_green_7954f68519.jpg" alt="The struggle for women&#39;s suffrage began in earnest during the first half of the nineteenth century.  In the post-Civil War years, women saw African Americans receive the right to vote, and large numbers of newly immigrated men participating in the electoral process.  By the late nineteenth and early twentieth centuries, some white women suffrage leaders, based on a sense of both class and racial superiority, were willing to argue that members of the working classes, new immigrants, and African Americans were unprepared to take on the rights and responsibilities of suffrage.  These claims served to bolster the case for granting white women the vote. Carrie Chapman Catt was active in the Iowa Woman&#39;s Suffrage Association and later the National Woman&#39;s Suffrage Association, succeeding Susan B. Anthony as president in 1890. In 1894 (a year of extraordinary class conflict which saw nearly a million workers involved in violent strikes, many of them immigrants), she addressed an Iowa suffrage gathering and maintained that women&#39;s suffrage was necessary to counter &quot;the ignorant foreign vote&quot; in American cities and protect the life and property of native-born Americans.  This struggle over who should have the right to vote coincided with efforts to reform the electoral process." title="Class Versus Gender: Catt Taps Middle-Class and Nativist Fears to Boost Women&#39;s Causes" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[19][item_id]">Class Versus Gender: Catt Taps Middle-Class and Nativist Fears to Boost Women's Causes</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[19][item_id]" class="checkbox" value="19"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_red_31a9c8fa75.jpg" alt="In the late nineteenth and early twentieth centuries, New York City&#39;s Tammany Hall organization achieved a nation-wide reputation for its political &quot;machine.&quot;  Beginning with the leadership of William &quot;Boss&quot; Tweed in the 1860s, the Democrats of Tammany Hall used their party structure and loyal employees to influence New York City politics for roughly seventy-five years.  Through a combination of corruption, patronage and hardwon loyalty, district assembly bosses, such George Washington Plunkitt won the admiration and dedication of the working-class immigrant residents of his district by paying attention to their personal needs and by guaranteeing them a place within the system in return for their support on election day.  Political machines and their attendant corruption were a popular target of reform-minded journalists, such as Lincoln Steffens, who in 1904 collected his writings on corruption in St. Louis, Minneapolis, Pittsburgh, Philadelphia, Chicago, and New York into &lt;em&gt;The Shame of the Cities&lt;/em&gt;. In response to Steffens&#39; criticisms, Plunkitt offered his own skeptical and humorous view urban politics as one chapter in a series of &quot;Plain Talks on Very Practical Politics,&quot; published in 1905." title="George Washington Plunkitt, &quot;On the Shame of the Cities&quot;" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[18][item_id]">George Washington Plunkitt, "On the Shame of the Cities"</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[18][item_id]" class="checkbox" value="18"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/pinIcon_315ab530bf.gif" alt="More than 150 women were sentenced to prison as a result of their picketing the White House. The charge of obstructing the sidewalk led to sentences from two to six months at the Occoquan Workhouse. The women demanded to be treated as political prisoners, objecting to poor conditions. With a few of their members placed in solitary confinement, some of the women embarked upon a hunger strike, which resulted in them being force fed by prison officials.  The National Women&#39;s Party recognized the travail and heroism of the prisoners.  In December, 1917, at a meeting in their honor, the pickets who had been jailed were presented with small silver pins in the shape of prison doors with heart-shaped locks. The women wore their pins to commemorate their imprisonment and call attention to the injustice of being &quot;jailed for freedom.&quot; In 1918 President Wilson pledged to support female suffrage.  Many of the women went on to conduct protests  around the country until the Nineteenth Amendment was passed." title="Jailed for Freedom Pin" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[17][item_id]">Jailed for Freedom Pin</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[17][item_id]" class="checkbox" value="17"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/harpers_cbc9db5267.gif" alt="The Fifteenth Amendment to the U. S. Constitution, ratified March 30, 1870, provided that all male citizens were entitled to vote. Because the African American population was so large in many parts of the South, whites were fearful of their participation in the political process. Nevertheless, the Radical Republicans in the U.S. Congress were determined that African Americans be accorded all of the rights of citizenship.  This is an illustration from the November 16, 1867 edition of Harper&#39;s Weekly." title="&quot;The First Vote&quot;" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[16][item_id]">"The First Vote"</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[16][item_id]" class="checkbox" value="16"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/blanketballotIcon_75071e6737.gif" alt="In the first half of the nineteenth century, voting procedures differed by location; in some areas in the South, men (and in those days only men) voted out loud when their name was called or signed their name in a poll book under the preferred candidate&#39;s name. By the 1850s, nearly all states used written ballots placed in a box or handed to an official. As the number of elected offices increased, printed ballots gradually replaced handwritten ones, and political parties began to prepare printed ballots, both to assist and to monitor their voters. The blanket  ballot, developed in Australia, was gradually adopted in the U.S. after 1888.  It listed all candidates and was printed by the city or the state, rather than by the political parties, as had been the case previously. This ballot&#8212;printed for the 1896 election&#8212;lists several different offices in addition to President, such as Governor and Congressional representative. Notice that William Jennings Bryan is listed for more than one ticket, although he has a different vice president for each party. " title="McKinley Blanket Ballot" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[15][item_id]">McKinley Blanket Ballot</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[15][item_id]" class="checkbox" value="15"  />
+	
+				Select This Item</label>
+			</li>
+					
+				</ul>
+		<hr class="clear" />
+		 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=17.html">&lt; Prev</a> | <a href="index.html%3Fpage=15.html">15</a> | <a href="index.html%3Fpage=16.html">16</a> | <a href="index.html%3Fpage=17.html">17</a> | 18 | <a href="index.html%3Fpage=19.html">19</a> | <a href="index.html%3Fpage=19.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	
+	<input type="submit" name="tour_select_items_submit" value="Select these items" />
+	<input type="submit" name="cancel_submit" value="Cancel" />
+</form>
+<div id="tourmeta"></div>
+
+<div id="itempaginate"></div>
+<div id="itemlist"></div>
+<div id="error"></div>
+
+<div id="itemcart"></div>
+
+</div>
+
+</div> <!-- closes padding div -->
+</div> <!-- closes content div -->
+			<div id="sponsors">
+				<div class="padding">
+				<a href="http://americanhistory.si.edu/"><span id="si-logo">National Museum of American History, Smithsonian Institution</span></a>
+				<a href="http://chnm.gmu.edu"><span id="chnm-logo">Roy Rosenzweig Center for History and New Media</span></a>
+				</div>
+			</div>
+			<div id="footer">
+			<div class="padding">
+			<ul class="navigation">
+				<li class="nav-home"><a href="../index/index.html">Home</a></li>
+				<li class="nav-about"><a href="../about/index.html">About</a></li>
+				<li class="nav-teachers"><a href="../teachers/index.html">Teachers</a></li>
+				<li class="nav-privacy"><a href="../privacy/index.html">Privacy</a></li>
+				<li class="nav-help"><a href="../help/index.html">Help</a></li>
+			</ul>
+			</div>
+			</div>
+		</div> <!-- closes wrap div -->
+		
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2013 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 4.1  -->
+<!-- Created: 5/31/2013 2:28:09 PM -->
+<script src="http://americanhistory.si.edu/_js/webtrends-ooh.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+_tag.WT.cg_n="histex";
+}
+_tag.dcsCollect();
+//]]>
+</script>
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://logs1.smithsonian.museum/dcswl5ztmadzpxv8vdov1jgep_3j8q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=objectofhistory.org"/></div>
+</noscript>
+<!-- END OF SmartSource Data Collector TAG -->
+
+
+
+	</body>
+	
+</html>

@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+	<head>
+		<!-- meta info -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="keywords,go,here" />
+		<meta name="description" content="The Object of History takes you behind the scenes with the curators at the National Museum of American History" />
+		<meta name="author" content="Center for History and New Media" />
+		<meta name="copyright" content="Copyright &copy; 2006." />
+		
+		<title>The Object of History | Behind the Scenes with the Curators of the National Museum of American History</title>
+		
+		<!-- various internal links -->
+		<link rel="Shortcut Icon" type="image/ico" href="../i/favicon.ico.html" />
+		<link rel="accessibility" href="../accessibility/index.html" title="Accessibility and Object of History." />
+		<link rel="author" href="../about/index.html" title="About Object of History." />
+		<link rel="home" href="../index.html" title="Home page." />
+		<link rel="organization" href="http://chnm.gmu.edu" title="Center for History and New Media" />
+		
+		<!-- Stylesheets -->
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/screen.css" />
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/gb_styles.css" />
+		<link rel="alternate stylesheet" media="print" href="../content/public/styles/print.css" />
+		
+		<!--[if IE 6]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie6.css" />
+		<![endif]-->
+		
+		<!--[if IE 7]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie7.css" />
+		<![endif]-->
+	
+		<!-- JavaScripts -->
+		<script type="text/javascript">
+		    var GB_ROOT_DIR = "/content/public/j/greybox/";
+		
+			// This hide the non-javascript activity form before the page load.
+			var checkJS = document.getElementById;
+
+			if (checkJS) {
+			        document.write('<style type="text/css">#activityform{display: none;}</style>');
+			}
+		
+		</script>
+
+		
+		<script type="text/javascript" src="../content/common/javascripts/prototype.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/common.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/dragdrop.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/niftycorners/niftycube.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS_fx.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/gb_scripts.js"></script>
+		<script type="text/javascript" src="../content/public/j/roundcorners.js"></script>
+		<script type="text/javascript" src="../content/public/j/imagepagination.js"></script>
+		
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '100']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+
+
+<body id="activity" class="index">
+	
+<div class="hide"><a href="index.html%3Fpage=2.html#content">Skip Navigation/Skip to Content</a></div>
+
+<div id="wrap">
+
+<div id="header">
+<div class="padding">
+<ul id="sitenav" class="navigation">
+	<li class="nav-guide"><a href="../guide/index.html">Guide</a></li>
+	<li class="nav-objects"><a href="../objects/index.html">Objects</a></li>
+	<li class="nav-forum"><a href="../forum/index.html">Forum</a></li>
+	
+	<li class="nav-activity"><a href="index.html">Activity</a></li>
+</ul>
+<h1 id="logo"><a href="../index.html">The Object of History | Behind the Scenes with the Curators of the National Museum of American History</a></h1>
+<h2 id="section-title" class="activity-title">Activity | Create a Virtual Exhibit</h2>
+
+</div>
+</div>
+
+<div id="content">
+	<div class="padding">
+<style type="text/css">
+@import url("../content/public/styles/activity.css");
+</style>
+
+<script type="text/javascript">
+
+function initAjaxActivity() {
+	var itemPaginate, itemCart, itemList, tourMeta;
+	$("itempaginate").style.display = "block";
+	$("itemcart").style.display = "block";
+	$("itemlist").style.display = "block";
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", {evalScripts:true});
+	new Ajax.Updater('tourmeta', "/activity/ajaxTourMeta/", {evalScripts:true});
+	new Ajax.Updater('itemcart', "/activity/ajaxItemCart/", {evalScripts: true});
+	paginateItems( 1  );
+//	paginateItems( 1, 4);
+}
+
+function buildPagination( page, per_page, total, collection_id )
+{
+	pages = Math.ceil( total / per_page );
+	if( page > 1 )
+	{
+		back = document.createElement('a');
+		back.setAttribute('href', 'javascript:void(0)');
+		back.setAttribute('id','previous');
+		back.onclick = function() {
+			paginateItems( page-1, collection_id );
+		}
+		back.innerHTML = '&larr;';
+	}
+	else
+	
+	{
+		back = document.createElement('span');
+		back.innerHTML = '';
+	}
+
+	current = document.createTextNode( ' '+page+' ' );
+
+	if( page < pages )
+	{
+		forward = document.createElement('a');
+		forward.setAttribute('href', 'javascript:void(0)');
+		forward.setAttribute('id','next');
+		forward.setAttribute('title','Next Page');
+		//forward.setAttribute('onclick', 'findMapItems("/mapXML/'+(parseInt(page)+1)+'")');
+		forward.onclick = function() {
+			paginateItems( page+1, collection_id );
+		}
+		forward.innerHTML = '&rarr;';
+	}
+	else
+	{
+		forward = document.createElement('span');
+		forward.innerHTML = '';
+	}
+
+	of = document.createTextNode(' of '+pages+' pages.');
+
+	// Build the html
+
+	span = document.getElementById('itempaginate');
+	span.appendChild(back);
+//	span.appendChild(current);
+	span.appendChild(forward);
+	//span.appendChild(of);
+}
+
+function paginateItems( page, collection_id )
+{
+	parameters = 'page=' + page;
+	
+	if(typeof(collection_id) != "undefined") {
+		parameters = parameters + '&collection=' + collection_id;
+	}else {
+		if( typeof($('item_limit')) != 'undefined') {
+			parameters = parameters + '&' + Form.serialize('item_limit');
+		}
+	}
+	
+	var itemopt = {
+		parameters: parameters,
+		method: 'get',
+		onComplete: function(t) {
+			$('itempaginate').innerHTML = '';
+			var total = $('total').innerHTML;
+
+			buildPagination( page, 12, total, collection_id);
+		},
+		onFailure: reportError,
+		evalScripts: true
+	}
+	
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", itemopt);
+	
+
+}
+function getItemId( draggable ) {
+	return draggable.id.substring(4, 8);
+}
+
+function getOrder( droppable ) {
+	return droppable.id.substring(5, 6);
+}
+
+function reportError(t)
+{
+	alert(t.status);
+}
+
+function fadeDraggable( draggable ) {
+	container = $('itemcontainer'+getItemId(draggable));
+	if( container ) {
+		itemNewImage = document.createElement('img');
+		dragImg = draggable.getElementsByTagName('img');
+		itemNewImage.src = dragImg[0].src;
+		container.appendChild(itemNewImage);
+		new Effect.Opacity(container.id, {duration:1.0, from: 1.0, to:0.2 });
+		/* if(navigator.appName == "Microsoft Internet Explorer") {
+			draggable.setAttribute('class','hide');
+		}
+		else {
+			draggable.class = 'hide';
+		} */
+		return true;
+	}
+	else {
+		return false;
+	}
+
+}
+addLoadListener(initAjaxActivity);
+
+</script>
+<div id="primary">	
+<form method="post" id="activityform">
+	<div id="paginate">
+	 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=1.html">&lt; Prev</a> | <a href="index.html%3Fpage=1.html">1</a> | 2 | <a href="index.html%3Fpage=3.html">3</a> | <a href="index.html%3Fpage=4.html">4</a> | <a href="index.html%3Fpage=5.html">5</a> | <a href="index.html%3Fpage=3.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	</div>
+			<h3> Select from the following items: </h3>
+		<ul class="activity-items">
+		
+						<li>
+				<img src="../content/thumbnails/museumcontent3icon_30d9c0f086.jpg" alt="The Museum decided to re-interpret the dresses of the First Ladies in light of changing views of women and their role in history.  Influenced by the women&#39;s movement of the 1970s, people questioned why the museum treated only women married to famous men, and why it focused so exclusively on those women&#39;s appearance and decorative role.  Women&#39;s historians wrote increasingly about the lives and achievements of women as scientists, educators, reformers, writers, and in other roles.  They became interested in the experience of more ordinary middle-class and working-class women as well. As one curator put it, the &quot;dolls in the doll house&quot; approach of the First Ladies Hall began to appear dated.  Yet the gowns remained popular among museum-goers.  In 1992, the Museum opened a new exhibition, entitled &quot;First Ladies, Political Role and Public Image.&quot;  It showed the popular gowns but also drew visitors&#39; attention to varied contributions and concerns of women placed in the role of First Lady." title="Feminist Critique and the Exhibition of the 1980s" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[335][item_id]">Feminist Critique and the Exhibition of the 1980s</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[335][item_id]" class="checkbox" value="335"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/museumcontent2icon_34c2d6a3de.jpg" alt="In 1955, curator Margaret Brown Klapthor created a separate exhibition for the first ladies&#39; gowns.  The new display showed the dresses chronologically, arranged on manniquins and set in period rooms modeled on rooms in the White House.  A decade later, the exhibition moved to a more elaborate setting in a new Museum of History and Technology (now that National Museum of American History).   The new exhibit also featured furnishings and chinaware from the White House.  This exhibition showed interest in decorative arts and, according to one curator, presented the gowns in a &quot;worshipful setting.&quot;  It became extremely popular, including with Mamie Eisenhower, pictured here with the First Lady of Argentina. " title="Exhibition of the 1950s and 1960s" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[334][item_id]">Exhibition of the 1950s and 1960s</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[334][item_id]" class="checkbox" value="334"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/museumcontent1icon_44e1e9c20a.jpg" alt="Early in the 20th century, two women collaborated to develop a collection of historic costumes, focusing on &quot;costumes of the ladies of the White House.&quot; Washington society leader Cassie Myers Julian-James and Rose Gouverneur Hoes, a descendant of President James Monroe, drew on their contacts with the families and friends of former first ladies.    By 1914, they had assembled a collection of fifteen gowns.   
+The press described the exhibition of the gowns as artistic and aesthetic as well as historical.  Shaped by the Progressive Era impulse toward &quot;uplift,&quot; the exhibition aimed partly to display and teach good taste.  In the 1920s, one visitor wrote that the dresses educated the public on a &quot;true American style&quot; of dress.   " title="Origins of the First Ladies Collection" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[333][item_id]">Origins of the First Ladies Collection</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[333][item_id]" class="checkbox" value="333"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/LincolnLogSplitter-icon_b33c89e84b.jpg" alt="Social expectations were different for the First Lady than they were for the President.  Ever since William Henry Harrison&#39;s campaign in 1840, many candidates for President presented themselves as simple men, born in a log cabin.  Abraham Lincoln ran as &quot;the railsplitter,&quot; a humble son of the frontier, familiar with physical labor and self-taught in the refinements of respectable society.  Yet the Lincolns&#39; western background was only an impediment for Mary Lincoln.  Although she came from a genteel Kentucky family, she faced a stereotype commonly held in eastern society.  Some expected her to embarrass the nation with uncouth &quot;western&quot; manners.  She told Keckley: &quot;The people scutinize every article that I wear with critical curiosity.  The very fact of having grown up in the West, subjects me to more searching observation.&quot; This image references Lincoln&#39;s &quot;railsplitter&quot;  reputation " title="Gender and the White House" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[332][item_id]">Gender and the White House</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[332][item_id]" class="checkbox" value="332"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/lincolnreceptionicon_1f893bd9c0.jpg" alt="Mary Lincoln took her position as female representative of the nation very seriously.  The crisis of the Civil War made it particularly vital that the Lincoln administration present a competent and unifying public face.  Even before the new President took office, southern states had seceded from the union to set up the Confederate States of America.  The Lincolns needed to impress influential leaders from the border states as well as ambassadors from France and England, then being courted by the Confederacy.
+ 
+Many people felt Mary Lincoln played the role of First Lady extremely well; writers in the press sometimes portrayed her as &quot;the republican queen,&quot; elegant and admirable at public occasions.  Others disliked the extravagant press coverage of the First Lady and criticized her for conspicuous consumption in time of war and sacrifice for the nation." title="Mary Lincoln as First Lady" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[331][item_id]">Mary Lincoln as First Lady</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[331][item_id]" class="checkbox" value="331"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_redicon_57995bda4d.JPG" alt="Free blacks in St. Louis lived in difficult circumstances.  They found economic opportunity in service trades and on the bustling Mississippi river front.  But Missouri was a slave state.  Its laws discouraged manumission, restricted the movements and education of free blacks, and limited their civil rights.  One contemporary said that St. Louis was &quot;extreme Southern&quot; in its &quot;prejudices, interests, and feelings.&quot;
+In the 1850s, when Elizabeth Keckley bought her freedom, forces that sought to limit or reverse her freedoms were gaining ground. The U.S. Supreme Court ruled against the case of Dred Scott, who had sued for his freedom in St. Louis.  The Fugitive Slave Law allowed federal agents to seize runaways even in free states, and free people needed documents, such as this Freedom License, to prove that they were not slaves.  Shown here is the freedom license issued to Elizabeth Keckley." title="African Americans in St. Louis" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[330][item_id]">African Americans in St. Louis</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[330][item_id]" class="checkbox" value="330"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/textilemill-icon_dde07a056f.jpg" alt="We can examine the fabric that made up Mary Lincoln&#39;s purple dress to explore the history behind its manufacture. The expensive silk velvet of the dress was almost certainly imported from France or Italy, centers of production for broadloom luxury fabrics at mid-century.  Textile manufacture was also an important industry within the Northern U.S., but it centered on the more common fabrics of cotton--the key product of the Southern economy--woolens, and linens. The velvet dress was the product of an international economic system.This image illustrates a textile mill in New Jersey in the 1880s.  " title="Textile Manufacture" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[329][item_id]">Textile Manufacture</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[329][item_id]" class="checkbox" value="329"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_tanicon_a2095673e9.JPG" alt="These records attested that Elizabeth Keckley bought her own freedom and that of her son, George, from Anne Burwell Garland, her owner, in 1855.  The price was $1200.  
+
+Freedom Papers were probably the most valued document owned by anyone who had once been a slave.  They marked a legal transition from chattel, belonging to another, to the status of free (though not equal) American. In her memoir, Elizabeth Keckley recalled asking her master, Hugh Garland, if she might somehow buy her freedom.  In reply, he offered her a quarter to pay the ferry boat across the river to the free state of Illinois.  But she refused to become a runaway, preferring freedom &quot;by such means as the laws of the country provide.&quot; She wanted legal freedom and the right to practice her trade in the familiar community of St. Louis.  Shown here is Elizabeth Keckley&#39;s document of emancipation." title="Becoming Free" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[296][item_id]">Becoming Free</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[296][item_id]" class="checkbox" value="296"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/Elizabeth-Keckleyiconjpg_54c3c9902e" alt="Elizabeth Keckley was born into slavery in Dinwiddie County, Virginia.  She grew up working in the household of Armistead Burwell, where her duties included sewing dresses for Burwell&#39;s wife and daughters.  When one of the Burwell daughters married and moved to St. Louis, Missouri, she took &quot;Lizzie&quot; along.  In Missouri, Elizabeth Keckley&#39;s dressmaking work helped support the household.  She created fashionable dresses for a clientele of society ladies in St. Louis.  In 1855, when her owner died, she found a way to buy freedom for herself and her son George.  She borrowed money from some of her wealthy patrons, set up shop as a free dressmaker, and worked to repay her debt.  Shown here is a portrait of Elizabeth Keckley; date unknown." title="Elizabeth Keckley, Dressmaker" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[295][item_id]">Elizabeth Keckley, Dressmaker</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[295][item_id]" class="checkbox" value="295"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/GReeneHeights-icon_f7dd3b014d.jpg" alt="Free African-American communities in many northern cities mobilized to provide food, clothing, shelter, and education for refugees.  Elizabeth Keckley joined with other members of her Washington, D.C. church, Fifteenth Street Presbyterian, to form a Society for the Relief of Contrabands.  They raised money and volunteered as teachers and aid workers in refugee camps in Alexandria and Washington, D.C.  Wrote Keckley, &quot;If the white people can give festivals to raise funds for the relief of suffering soldiers, why should not the well-to-do colored people go to work to do something for the benefit of the suffering blacks?&quot; This image depicts a Freedman&#39;s village called Greene Heights, located in Arlington, Virginia." title="African American Activism: Relief for Refugees" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[294][item_id]">African American Activism: Relief for Refugees</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[294][item_id]" class="checkbox" value="294"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/glbicon_74eb7037d3.jpg" alt="We can look at fashionable 19th-century dresses and other elements of women&#39;s apparel from the point of view of the women who ordered, purchased, and wore them.  Fashionable dress was necessary costume for women whose social class dictated that they live and appear as stylish &quot;ladies.&quot; Magazines such as Godey&#39;s Lady&#39;s Book showed readers the latest fashions of the season. " title="Fashionable Ladies" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[293][item_id]">Fashionable Ladies</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[293][item_id]" class="checkbox" value="293"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_blueicon_2b20e72d00.JPG" alt="Elizabeth Keckley recounted some of her experiences working for the Lincoln White House in a book, entitled Behind the Scenes, published in 1868.  The book resembled other slave narratives, such as those by Frederick Douglass and Harriet Jacobs, in recounting her struggles to rise from slavery to freedom.  Yet Keckley&#39;s book was also a memoir about life in the Lincoln White House.  She recounted her conversations and interactions with the President and emphasized the concerns and outlook of Mary Lincoln.  Sadly, the book created an estrangement between the two women.  They did not speak to one another again after it appeared in print." title="Behind the Scenes" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[288][item_id]">Behind the Scenes</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[288][item_id]" class="checkbox" value="288"  />
+	
+				Select This Item</label>
+			</li>
+					
+				</ul>
+		<hr class="clear" />
+		 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=1.html">&lt; Prev</a> | <a href="index.html%3Fpage=1.html">1</a> | 2 | <a href="index.html%3Fpage=3.html">3</a> | <a href="index.html%3Fpage=4.html">4</a> | <a href="index.html%3Fpage=5.html">5</a> | <a href="index.html%3Fpage=3.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	
+	<input type="submit" name="tour_select_items_submit" value="Select these items" />
+	<input type="submit" name="cancel_submit" value="Cancel" />
+</form>
+<div id="tourmeta"></div>
+
+<div id="itempaginate"></div>
+<div id="itemlist"></div>
+<div id="error"></div>
+
+<div id="itemcart"></div>
+
+</div>
+
+</div> <!-- closes padding div -->
+</div> <!-- closes content div -->
+			<div id="sponsors">
+				<div class="padding">
+				<a href="http://americanhistory.si.edu/"><span id="si-logo">National Museum of American History, Smithsonian Institution</span></a>
+				<a href="http://chnm.gmu.edu"><span id="chnm-logo">Roy Rosenzweig Center for History and New Media</span></a>
+				</div>
+			</div>
+			<div id="footer">
+			<div class="padding">
+			<ul class="navigation">
+				<li class="nav-home"><a href="../index/index.html">Home</a></li>
+				<li class="nav-about"><a href="../about/index.html">About</a></li>
+				<li class="nav-teachers"><a href="../teachers/index.html">Teachers</a></li>
+				<li class="nav-privacy"><a href="../privacy/index.html">Privacy</a></li>
+				<li class="nav-help"><a href="../help/index.html">Help</a></li>
+			</ul>
+			</div>
+			</div>
+		</div> <!-- closes wrap div -->
+		
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2013 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 4.1  -->
+<!-- Created: 5/31/2013 2:28:09 PM -->
+<script src="http://americanhistory.si.edu/_js/webtrends-ooh.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+_tag.WT.cg_n="histex";
+}
+_tag.dcsCollect();
+//]]>
+</script>
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://logs1.smithsonian.museum/dcswl5ztmadzpxv8vdov1jgep_3j8q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=objectofhistory.org"/></div>
+</noscript>
+<!-- END OF SmartSource Data Collector TAG -->
+
+
+
+	</body>
+	
+</html>

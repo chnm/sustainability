@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+	<head>
+		<!-- meta info -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="keywords,go,here" />
+		<meta name="description" content="The Object of History takes you behind the scenes with the curators at the National Museum of American History" />
+		<meta name="author" content="Center for History and New Media" />
+		<meta name="copyright" content="Copyright &copy; 2006." />
+		
+		<title>The Object of History | Behind the Scenes with the Curators of the National Museum of American History</title>
+		
+		<!-- various internal links -->
+		<link rel="Shortcut Icon" type="image/ico" href="../i/favicon.ico.html" />
+		<link rel="accessibility" href="../accessibility/index.html" title="Accessibility and Object of History." />
+		<link rel="author" href="../about/index.html" title="About Object of History." />
+		<link rel="home" href="../index.html" title="Home page." />
+		<link rel="organization" href="http://chnm.gmu.edu" title="Center for History and New Media" />
+		
+		<!-- Stylesheets -->
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/screen.css" />
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/gb_styles.css" />
+		<link rel="alternate stylesheet" media="print" href="../content/public/styles/print.css" />
+		
+		<!--[if IE 6]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie6.css" />
+		<![endif]-->
+		
+		<!--[if IE 7]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie7.css" />
+		<![endif]-->
+	
+		<!-- JavaScripts -->
+		<script type="text/javascript">
+		    var GB_ROOT_DIR = "/content/public/j/greybox/";
+		
+			// This hide the non-javascript activity form before the page load.
+			var checkJS = document.getElementById;
+
+			if (checkJS) {
+			        document.write('<style type="text/css">#activityform{display: none;}</style>');
+			}
+		
+		</script>
+
+		
+		<script type="text/javascript" src="../content/common/javascripts/prototype.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/common.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/dragdrop.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/niftycorners/niftycube.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS_fx.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/gb_scripts.js"></script>
+		<script type="text/javascript" src="../content/public/j/roundcorners.js"></script>
+		<script type="text/javascript" src="../content/public/j/imagepagination.js"></script>
+		
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '100']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+
+
+<body id="activity" class="index">
+	
+<div class="hide"><a href="index.html%3Fpage=10.html#content">Skip Navigation/Skip to Content</a></div>
+
+<div id="wrap">
+
+<div id="header">
+<div class="padding">
+<ul id="sitenav" class="navigation">
+	<li class="nav-guide"><a href="../guide/index.html">Guide</a></li>
+	<li class="nav-objects"><a href="../objects/index.html">Objects</a></li>
+	<li class="nav-forum"><a href="../forum/index.html">Forum</a></li>
+	
+	<li class="nav-activity"><a href="index.html">Activity</a></li>
+</ul>
+<h1 id="logo"><a href="../index.html">The Object of History | Behind the Scenes with the Curators of the National Museum of American History</a></h1>
+<h2 id="section-title" class="activity-title">Activity | Create a Virtual Exhibit</h2>
+
+</div>
+</div>
+
+<div id="content">
+	<div class="padding">
+<style type="text/css">
+@import url("../content/public/styles/activity.css");
+</style>
+
+<script type="text/javascript">
+
+function initAjaxActivity() {
+	var itemPaginate, itemCart, itemList, tourMeta;
+	$("itempaginate").style.display = "block";
+	$("itemcart").style.display = "block";
+	$("itemlist").style.display = "block";
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", {evalScripts:true});
+	new Ajax.Updater('tourmeta', "/activity/ajaxTourMeta/", {evalScripts:true});
+	new Ajax.Updater('itemcart', "/activity/ajaxItemCart/", {evalScripts: true});
+	paginateItems( 1  );
+//	paginateItems( 1, 4);
+}
+
+function buildPagination( page, per_page, total, collection_id )
+{
+	pages = Math.ceil( total / per_page );
+	if( page > 1 )
+	{
+		back = document.createElement('a');
+		back.setAttribute('href', 'javascript:void(0)');
+		back.setAttribute('id','previous');
+		back.onclick = function() {
+			paginateItems( page-1, collection_id );
+		}
+		back.innerHTML = '&larr;';
+	}
+	else
+	
+	{
+		back = document.createElement('span');
+		back.innerHTML = '';
+	}
+
+	current = document.createTextNode( ' '+page+' ' );
+
+	if( page < pages )
+	{
+		forward = document.createElement('a');
+		forward.setAttribute('href', 'javascript:void(0)');
+		forward.setAttribute('id','next');
+		forward.setAttribute('title','Next Page');
+		//forward.setAttribute('onclick', 'findMapItems("/mapXML/'+(parseInt(page)+1)+'")');
+		forward.onclick = function() {
+			paginateItems( page+1, collection_id );
+		}
+		forward.innerHTML = '&rarr;';
+	}
+	else
+	{
+		forward = document.createElement('span');
+		forward.innerHTML = '';
+	}
+
+	of = document.createTextNode(' of '+pages+' pages.');
+
+	// Build the html
+
+	span = document.getElementById('itempaginate');
+	span.appendChild(back);
+//	span.appendChild(current);
+	span.appendChild(forward);
+	//span.appendChild(of);
+}
+
+function paginateItems( page, collection_id )
+{
+	parameters = 'page=' + page;
+	
+	if(typeof(collection_id) != "undefined") {
+		parameters = parameters + '&collection=' + collection_id;
+	}else {
+		if( typeof($('item_limit')) != 'undefined') {
+			parameters = parameters + '&' + Form.serialize('item_limit');
+		}
+	}
+	
+	var itemopt = {
+		parameters: parameters,
+		method: 'get',
+		onComplete: function(t) {
+			$('itempaginate').innerHTML = '';
+			var total = $('total').innerHTML;
+
+			buildPagination( page, 12, total, collection_id);
+		},
+		onFailure: reportError,
+		evalScripts: true
+	}
+	
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", itemopt);
+	
+
+}
+function getItemId( draggable ) {
+	return draggable.id.substring(4, 8);
+}
+
+function getOrder( droppable ) {
+	return droppable.id.substring(5, 6);
+}
+
+function reportError(t)
+{
+	alert(t.status);
+}
+
+function fadeDraggable( draggable ) {
+	container = $('itemcontainer'+getItemId(draggable));
+	if( container ) {
+		itemNewImage = document.createElement('img');
+		dragImg = draggable.getElementsByTagName('img');
+		itemNewImage.src = dragImg[0].src;
+		container.appendChild(itemNewImage);
+		new Effect.Opacity(container.id, {duration:1.0, from: 1.0, to:0.2 });
+		/* if(navigator.appName == "Microsoft Internet Explorer") {
+			draggable.setAttribute('class','hide');
+		}
+		else {
+			draggable.class = 'hide';
+		} */
+		return true;
+	}
+	else {
+		return false;
+	}
+
+}
+addLoadListener(initAjaxActivity);
+
+</script>
+<div id="primary">	
+<form method="post" id="activityform">
+	<div id="paginate">
+	 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=9.html">&lt; Prev</a> | <a href="index.html%3Fpage=8.html">8</a> | <a href="index.html%3Fpage=9.html">9</a> | 10 | <a href="index.html%3Fpage=11.html">11</a> | <a href="index.html%3Fpage=12.html">12</a> | <a href="index.html%3Fpage=11.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	</div>
+			<h3> Select from the following items: </h3>
+		<ul class="activity-items">
+		
+						<li>
+				<img src="../content/thumbnails/shhoe_icon_3f424f44aa.gif" alt="Use your mouse to rotate the Short-Handled Hoe by clicking and dragging either right or left.  Click on the + to zoom in and on the - to zoom out." title="Short-handled Hoe QTVR" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[153][item_id]">Short-handled Hoe QTVR</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[153][item_id]" class="checkbox" value="153"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/Liebhold1_ac9c1e92c0.gif" alt="" title="What is the most important thing that teenagers should take away from an exhibit including the short-handled hoe?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[152][item_id]">What is the most important thing that teenagers should take away from an exhibit including the short-handled hoe?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[152][item_id]" class="checkbox" value="152"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/Liebhold2_beaf777118.gif" alt="" title="Has the short-handled hoe been on exhibit?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[151][item_id]">Has the short-handled hoe been on exhibit?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[151][item_id]" class="checkbox" value="151"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_tan_3dde184e18.jpg" alt="This document details the condition of the blade and handle of the hoe when it was received by NMAH." title="Object Condition Report" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[150][item_id]">Object Condition Report</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[150][item_id]" class="checkbox" value="150"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_red_41d5080c1f.jpg" alt="Once the Chavez family officially gave the short-handled hoe to NMAH, curator William L. Bird wrote a memo acknowledging the circumstances of that gift." title="Acknowledgement of Gift" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[149][item_id]">Acknowledgement of Gift</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[149][item_id]" class="checkbox" value="149"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_green_329c655402.jpg" alt="The short-handled hoe was a gift from Rita Chavez Medina, but the transaction was made by her son, Rudolph Medina.  In this memo, curator Harry Rubenstein further explains the circumstances of the gift and how the Chavez&#39;s presented the hoe to Secretary I. Michael Heyman." title="Memo on Chavez Hoe" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[148][item_id]">Memo on Chavez Hoe</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[148][item_id]" class="checkbox" value="148"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_brown_b6e253ccfd.jpg" alt="Having seen Cesar E. Chavez&#39;s union jacket included in a traveling exhibition, America&#39;s Smithsonian, along with other national treasures, the Chavez family was moved to donate a short-handled hoe. In this handwritten memo, drafted by Rudolph  Medina and signed by other members of the family, explains that the hoe donated to NMAH was first used by Cesar Chavez&#39;s father, Librado Hernendez Chavez." title="Handwritten Deed of Gift" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[147][item_id]">Handwritten Deed of Gift</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[147][item_id]" class="checkbox" value="147"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_blue_bbe5f92ae4.jpg" alt="This memo officially marks the short-handled hoe as part of the National Museum of American History&#39;s collections." title="Accession Memorandum" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[146][item_id]">Accession Memorandum</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[146][item_id]" class="checkbox" value="146"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/Liebhold3_f5c2ffc647.gif" alt="" title="How did this hoe end up in the collection?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[145][item_id]">How did this hoe end up in the collection?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[145][item_id]" class="checkbox" value="145"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/Liebhold4_810e1d50ce.gif" alt="" title="Does the short-handled hoe mean different things to different people?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[144][item_id]">Does the short-handled hoe mean different things to different people?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[144][item_id]" class="checkbox" value="144"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_green_61373a9551.jpg" alt="Beginning in 1972 lawyers representing farm workers petitioned the California Industrial Safety Board to prohibit the use of the short-handled hoe. Initially the Board rejected the workers&#39; claims. Finally, the plaintiffs appealed the case to the California Supreme Court, which declared in April 1975 that the short-handled hoe was &quot;an unsafe hand tool&quot; that was banned by California law." title="An &quot;Unsafe Hand Tool&quot;: The California Supreme Court Decision" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[143][item_id]">An "Unsafe Hand Tool": The California Supreme Court Decision</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[143][item_id]" class="checkbox" value="143"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_red_3a7e1ed3d1.jpg" alt="In 1972 Maurice &quot;Mo&quot; Jourdane, a young staff attorney for the California Rural Legal Assistance organization, petitioned the California Division of Industrial Safety for the prohibition of the short-handled hoe. He gathered testimonies from farm workers and doctors to illustrate the physical dangers of the hoe. The author of this statement, Jesus Serrano, lived in the Salinas Valley of California for most of his life. Here, he explains that growers like the short-handled hoe because it gave them more control and allowed them to see when they were resting." title="&quot;I can no longer bend over:&quot; A Farm worker Testifies" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[142][item_id]">"I can no longer bend over:" A Farm worker Testifies</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[142][item_id]" class="checkbox" value="142"  />
+	
+				Select This Item</label>
+			</li>
+					
+				</ul>
+		<hr class="clear" />
+		 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=9.html">&lt; Prev</a> | <a href="index.html%3Fpage=8.html">8</a> | <a href="index.html%3Fpage=9.html">9</a> | 10 | <a href="index.html%3Fpage=11.html">11</a> | <a href="index.html%3Fpage=12.html">12</a> | <a href="index.html%3Fpage=11.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	
+	<input type="submit" name="tour_select_items_submit" value="Select these items" />
+	<input type="submit" name="cancel_submit" value="Cancel" />
+</form>
+<div id="tourmeta"></div>
+
+<div id="itempaginate"></div>
+<div id="itemlist"></div>
+<div id="error"></div>
+
+<div id="itemcart"></div>
+
+</div>
+
+</div> <!-- closes padding div -->
+</div> <!-- closes content div -->
+			<div id="sponsors">
+				<div class="padding">
+				<a href="http://americanhistory.si.edu/"><span id="si-logo">National Museum of American History, Smithsonian Institution</span></a>
+				<a href="http://chnm.gmu.edu"><span id="chnm-logo">Roy Rosenzweig Center for History and New Media</span></a>
+				</div>
+			</div>
+			<div id="footer">
+			<div class="padding">
+			<ul class="navigation">
+				<li class="nav-home"><a href="../index/index.html">Home</a></li>
+				<li class="nav-about"><a href="../about/index.html">About</a></li>
+				<li class="nav-teachers"><a href="../teachers/index.html">Teachers</a></li>
+				<li class="nav-privacy"><a href="../privacy/index.html">Privacy</a></li>
+				<li class="nav-help"><a href="../help/index.html">Help</a></li>
+			</ul>
+			</div>
+			</div>
+		</div> <!-- closes wrap div -->
+		
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2013 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 4.1  -->
+<!-- Created: 5/31/2013 2:28:09 PM -->
+<script src="http://americanhistory.si.edu/_js/webtrends-ooh.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+_tag.WT.cg_n="histex";
+}
+_tag.dcsCollect();
+//]]>
+</script>
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://logs1.smithsonian.museum/dcswl5ztmadzpxv8vdov1jgep_3j8q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=objectofhistory.org"/></div>
+</noscript>
+<!-- END OF SmartSource Data Collector TAG -->
+
+
+
+	</body>
+	
+</html>

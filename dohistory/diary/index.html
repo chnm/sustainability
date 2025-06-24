@@ -1,0 +1,364 @@
+<html>
+<head>
+<title>Martha Ballard's Diary Online</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_preloadImages() { //v2.0
+  if (document.images) {
+    var imgFiles = MM_preloadImages.arguments;
+    if (document.preloadArray==null) document.preloadArray = new Array();
+    var i = document.preloadArray.length;
+    with (document) for (var j=0; j<imgFiles.length; j++) if (imgFiles[j].charAt(0)!="#"){
+      preloadArray[i] = new Image;
+      preloadArray[i++].src = imgFiles[j];
+  } }
+}
+
+function MM_swapImgRestore() { //v2.0
+  if (document.MM_swapImgData != null)
+    for (var i=0; i<(document.MM_swapImgData.length-1); i+=2)
+      document.MM_swapImgData[i].src = document.MM_swapImgData[i+1];
+}
+
+function MM_swapImage() { //v2.0
+  var i,j=0,objStr,obj,swapArray=new Array,oldArray=document.MM_swapImgData;
+  for (i=0; i < (MM_swapImage.arguments.length-2); i+=3) {
+    objStr = MM_swapImage.arguments[(navigator.appName == 'Netscape')?i:i+1];
+    if ((objStr.indexOf('document.layers[')==0 && document.layers==null) ||
+        (objStr.indexOf('document.all[')   ==0 && document.all   ==null))
+      objStr = 'document'+objStr.substring(objStr.lastIndexOf('.'),objStr.length);
+    obj = eval(objStr);
+    if (obj != null) {
+      swapArray[j++] = obj;
+      swapArray[j++] = (oldArray==null || oldArray[j-1]!=obj)?obj.src:oldArray[j];
+      obj.src = MM_swapImage.arguments[i+2];
+  } }
+  document.MM_swapImgData = swapArray; //used for restore
+}
+
+
+var typ = "", s = "";
+if (0 <= document.URL.indexOf("img")) typ = "img";  else typ = "txt"; 
+if (0 <= document.URL.indexOf('?')) {
+s = document.URL.substring(document.URL.indexOf('?')+1,document.URL.length); }
+function checkdate(formname) {
+noentry=0
+mdates="0230 0231 0431 0631 0931 1131"
+datenum=10000 *  document.dateform.Year[document.dateform.Year.selectedIndex].value + 100 *  document.dateform.Month[document.dateform.Month.selectedIndex].value + 1 * document.dateform.Day[document.dateform.Day.selectedIndex].value
+monthday=String(datenum.toString().substring(4))
+year=document.dateform.Year[document.dateform.Year.selectedIndex].value
+datelist = new Array(17850115, 17850927, 17850928, 17850929, 17850930, 17851001, 17851002, 17851003, 
+17851004, 17851005, 17880101, 17880102, 17880103, 17880104, 17880105, 17880106, 17880107, 17880108, 
+17880109, 17880110, 17880111, 17880112, 17880113, 17880114, 17880115, 17880116, 17880117, 17880118, 
+17890124, 17890125, 17890126, 17890127, 17890128, 17890129, 17890130, 17890131, 17900814, 17900815, 
+17920810, 18010525, 18010526, 18010527, 18010528, 18010529, 18010530, 18010531, 18010601, 18010602, 
+18010603, 18030524, 18030525, 18030526, 18070128, 18070129, 18070130, 18070131, 18070201, 18070202, 
+18070203, 18070204, 18070205, 18070206, 18070207, 18070208, 18070209, 18110718, 18110719, 18110720, 
+18110721, 18110722, 18110723, 18110724)
+for(count=0; count < datelist.length; count++)
+        noentry=noentry+(datelist[count]==datenum);
+deceased=(18120508 <= datenum)
+baddate=((0 <= mdates.indexOf(monthday)))+(monthday=="0229" & year != 1788 & year != 1792 & year != 1796 & year != 1804 & year != 1808 & year != 1812) 
+if (noentry) errcode=0
+if (baddate) errcode=1
+if (deceased) errcode=2
+if (baddate & deceased) errcode=3
+er=noentry+deceased+baddate
+messages=new Array("Martha Ballard did not write on this date.","This date is invalid.","Martha Ballard did not write after May 8, 1812.","This date is invalid. Also, Martha Ballard did not write after May 8, 1812.")
+if (er)
+        alert(messages[errcode])
+else {window.location.href="../../../cgi-bin/gotodiary?date="+datenum+"&type="+typ}
+}
+
+//-->
+
+
+
+
+
+
+
+
+</script>
+</head>
+
+<body bgcolor="#333366" text="#CCCC99" link="#CCCC66" vlink="#999966" alink="#CCCC33" onLoad="MM_preloadImages('MenuImages/lensOnAnim.gif','#948680632233');MM_preloadImages('MenuImages/decodeOn.jpg','#948682901166');MM_preloadImages('MenuImages/transcribeOnAnim.gif','#949615320150');MM_preloadImages('MenuImages/storiesOn.jpg','#949615561083');MM_preloadImages('MenuImages/searchOnAnim.gif','#949615607383');MM_preloadImages('MenuImages/browseOn.jpg','#949615645316')">
+<!-- #BeginLibraryItem "/Library/topNav_toplevel_onBlu.lbi" --><!--start topnav-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="top"> 
+    <td><a href="../home.html"><img src="../nav/nav_topBlu_doHist.gif" width="51" height="13" border="0" vspace="0" hspace="0" alt="DoHistory"></a></td>
+    <td align="right"><a href="../sitemap.html"><img src="../nav/nav_utilBlu_map.gif" width="51" height="16" border="0" vspace="0" hspace="0" alt="site map"></a><a href="../about/techHelp.html"><img src="../nav/nav_utilBlu_help.gif" width="51" height="16" border="0"  vspace="0" hspace="0" alt="tech help"></a><a href="../about/site.html"><img src="../nav/nav_utilBlu_about.gif" width="73" height="16" border="0" vspace="0" hspace="0" alt="about site"></a><a href="../search.html"><img src="../nav/nav_utilBlu_search.gif" width="40" height="16" border="0" vspace="0" hspace="0" alt="search"></a></td>
+  </tr>
+</table><br>
+<!--`end topnav-->
+<!-- #EndLibraryItem --> 
+<table width="575" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td colspan="2">
+      <p><img src="images/diary_Title.gif" width="308" height="31" alt="Martha Ballard's Diary Online"><br>
+	<font face="Arial, Helvetica, sans-serif" size="-1">Martha Ballard wrote 
+	in her diary nearly every day from January 1, 1785 to May 12, 1812</font> 
+	<font face="Arial, Helvetica, sans-serif" size="-1"> (27 years) <br>
+	for a total of almost 10,000 entries. Her diary is an unparalleled document 
+	in early American history.</font></p>
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="220"> 
+      <table border="0" cellpadding="0" cellspacing="0" width="300">
+	<tr><!-- Shim row, height 1. --> 
+	  <td><img src="MenuImages/shim.gif" width="13" height="1" border="0" alt=""></td>
+	  <td><img src="MenuImages/shim.gif" width="59" height="1" border="0" alt=""></td>
+	  <td><img src="MenuImages/shim.gif" width="66" height="1" border="0" alt=""></td>
+	  <td><img src="MenuImages/shim.gif" width="49" height="1" border="0" alt=""></td>
+	  <td><img src="MenuImages/shim.gif" width="113" height="1" border="0" alt=""></td>
+	  <td><img src="MenuImages/shim.gif" width="1" height="1" border="0" alt=""></td>
+	</tr>
+	<tr><!-- row 1 --> 
+	  <td rowspan="2" colspan="2"><img name="stories" src="MenuImages/stories.jpg" width="72" height="208" border="0" alt="ribbon for stories and themes"></td>
+	  <td><img name="DiaryMenu_r1_c3" src="MenuImages/DiaryMenu_r1_c3.jpg" width="66" height="144" border="0" alt=""></td>
+	  <td colspan="2"><img name="browse" src="MenuImages/browse.jpg" width="162" height="144" border="0" alt="browse animation"></td>
+	  <td><img src="MenuImages/shim.gif" width="1" height="144" border="0" ALT=""></td>
+	</tr>
+	<tr><!-- row 2 --> 
+	  <td><img name="search" src="MenuImages/search.jpg" width="66" height="64" border="0" alt="search animation"></td>
+	  <td rowspan="2" colspan="2"><img name="DiaryMenu_r2_c4" src="MenuImages/DiaryMenu_r2_c4.jpg" width="162" height="114" border="0" ALT=""></td>
+	  <td><img src="MenuImages/shim.gif" width="1" height="64" border="0" ALT=""></td>
+	</tr>
+	<tr><!-- row 3 --> 
+	  <td colspan="3"><img name="DiaryMenu_r3_c1" src="MenuImages/DiaryMenu_r3_c1.jpg" width="138" height="50" border="0" alt=""></td>
+	  <td><img src="MenuImages/shim.gif" width="1" height="50" border="0" ALT=""></td>
+	</tr>
+	<tr><!-- row 4 --> 
+	  <td rowspan="5"><img name="DiaryMenu_r4_c1" src="MenuImages/DiaryMenu_r4_c1.jpg" width="13" height="372" border="0" alt=""></td>
+	  <td colspan="3"><img name="lens" src="MenuImages/lens.jpg" width="174" height="30" border="0" alt="lens animation"></td>
+	  <td rowspan="5"><img name="DiaryMenu_r4_c5" src="MenuImages/DiaryMenu_r4_c5.jpg" width="113" height="372" border="0" alt=""></td>
+	  <td><img src="MenuImages/shim.gif" width="1" height="30" border="0" ALT=""></td>
+	</tr>
+	<tr><!-- row 5 --> 
+	  <td colspan="3"><img name="DiaryMenu_r5_c2" src="MenuImages/DiaryMenu_r5_c2.jpg" width="174" height="25" border="0" alt=""></td>
+	  <td><img src="MenuImages/shim.gif" width="1" height="25" border="0" ALT=""></td>
+	</tr>
+	<tr><!-- row 6 --> 
+	  <td colspan="3"><img name="transcribe" src="MenuImages/transcribe.jpg" width="174" height="17" border="0" alt="try transcribing animation"></td>
+	  <td><img src="MenuImages/shim.gif" width="1" height="17" border="0" ALT=""></td>
+	</tr>
+	<tr><!-- row 7 --> 
+	  <td colspan="3"><img name="decode" src="MenuImages/decode.jpg" width="174" height="124" border="0" alt="decoding animation"></td>
+	  <td><img src="MenuImages/shim.gif" width="1" height="124" border="0" ALT=""></td>
+	</tr>
+	<tr><!-- row 8 --> 
+	  <td colspan="3"><img name="DiaryMenu_r8_c2" src="MenuImages/DiaryMenu_r8_c2.jpg" width="174" height="176" border="0" alt=""></td>
+	  <td><img src="MenuImages/shim.gif" width="1" height="176" border="0" ALT=""></td>
+	</tr>
+      </table>
+
+</td>
+    <td width="275" valign="top"> 
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif" size="6" color="#999966">Explore 
+	the Diary</font></p>
+      <p><font size="+1" color="#CCCC66"><a href="1785/01/17850101_img.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.browse','document.browse','MenuImages/browseOn.jpg','#949615645316')"><img src="images/diaryBrowse_subtitle.gif" width="168" height="20" border="0" name="browseTarget" alt="Browse the Online Diary"></a></font></p>
+      <p><a href="search.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.search','document.search','MenuImages/searchOnAnim.gif','#949615607383')"><img src="images/diarySearch_subtitle.gif" width="164" height="19" border="0" name="searchTarget" alt="Search the Online Diary"></a></p>
+      <p><a href="themes/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.stories','document.stories','MenuImages/storiesOn.jpg','#949615561083')"><img src="images/diaryStories_subtitle.gif" width="163" height="39" border="0" name="storiesTarget" alt="Some Stories and Themes in the Diary"></a> 
+      </p>
+      <p><font face="Arial, Helvetica, sans-serif" size="6" color="#999966">Practice 
+	Reading the Diary</font></p>
+      <p><a href="exercises/lens/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.lens','document.lens','MenuImages/lensOnAnim.gif','#948680632233')"><img src="images/diaryLens_subtitle.gif" width="78" height="20" border="0" name="lensTarget" alt="Magic Lens"></a></p>
+      <p><a href="exercises/tryTranscribing.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.transcribe','document.transcribe','MenuImages/transcribeOnAnim.gif','#949615320150')"><img src="images/diaryTranscr_subtitle.gif" width="112" height="20" border="0" name="transcribeTarget" alt="Try Transcribing"></a></p>
+      <p><a href="exercises/decoding.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.decode','document.decode','MenuImages/decodeOn.jpg','#948682901166')"><img src="images/diaryDecode_subtitle.gif" width="133" height="20" border="0" name="decodeTarget" alt="Decoding the Diary"></a> 
+      </p>
+      <p><font face="Arial, Helvetica, sans-serif"><a href="about.html">About the 
+	Diary</a></font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><a href="aboutonlinediary.html">About 
+        the Online Diary</a></font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><a href="http://www.pictonpress.com/store/show/1107">Buy 
+        the Diary (from Picton Press)</a></font></p>
+      
+    </td>
+  </tr>
+</table>
+<form method="post"  name="dateform">
+                                <font size="+1">Go To A Date</font> 
+                                <select name="Month">
+                                        <option value="01">January</option>
+                                        <option value="02">February</option>
+                                        <option value="03">March</option>
+                                        <option value="04">April</option>
+                                        <option value="05">May</option>
+                                        <option value="06">June</option>
+                                        <option value="07">July</option>
+                                        <option value="08">August</option>
+                                        <option value="09">September</option>
+                                        <option value="10">October</option>
+                                        <option value="11">November</option>
+                                        <option value="12">December</option>
+                                </select>
+                                <select name="Day">
+                                        <option value="01">1</option>
+                                        <option value="02">2</option>
+                                        <option value="03">3</option>
+                                        <option value="04">4</option>
+                                        <option value="05">5</option>
+                                        <option value="06">6</option>
+                                        <option value="07">7</option>
+                                        <option value="08">8</option>
+                                        <option value="09">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                        <option value="31">31</option>
+                                </select>
+                                <select name="Year">
+                                        <option value="1785">1785</option>
+                                        <option value="1786">1786</option>
+                                        <option value="1787">1787</option>
+                                        <option value="1788">1788</option>
+                                        <option value="1789">1789</option>
+                                        <option value="1790">1790</option>
+                                        <option value="1791">1791</option>
+                                        <option value="1792">1792</option>
+                                        <option value="1793">1793</option>
+                                        <option value="1794">1794</option>
+                                        <option value="1795">1795</option>
+                                        <option value="1796">1796</option>
+                                        <option value="1797">1797</option>
+                                        <option value="1798">1798</option>
+                                        <option value="1799">1799</option>
+                                        <option value="1800">1800</option>
+                                        <option value="1801">1801</option>
+                                        <option value="1802">1802</option>
+                                        <option value="1803">1803</option>
+                                        <option value="1804">1804</option>
+                                        <option value="1805">1805</option>
+                                        <option value="1806">1806</option>
+                                        <option value="1807">1807</option>
+                                        <option value="1808">1808</option>
+                                        <option value="1809">1809</option>
+                                        <option value="1810">1810</option>
+                                        <option value="1811">1811</option>
+                                        <option value="1812">1812</option>
+                                </select>
+                                <input type="button" name="Submit" value="Go" onClick="checkdate(dateform)" alt="Go">
+                        </form>
+
+<p>
+<!-- #BeginLibraryItem "/Library/bottomSpace.lbi" --><!--start bottomspace-->
+<br>
+<br>
+<br>
+<br>
+<!--end bottomspace-->
+<!-- #EndLibraryItem --> 
+	<script language="JavaScript">
+<!--
+function changeIt() {
+var url = this.document.changer.SelectMenu.options[this.document.changer.SelectMenu.selectedIndex].value;
+if (url != "") {top.location.href = url;}
+}
+//-->
+</script>
+      <form name="changer" method="post">
+	<select name="SelectMenu" onChange="changeIt()">
+	  <option>Jump to...</option>
+	  <option value="../book/100_speech.html">Read Professor Ulrich's reflections 
+    on Martha's diary and her own diary</option>
+    <option value="../on_your_own/toolkit/foundDiary.html">Toolkit: What to do 
+    with a diary you've found</option>
+    <option value="../on_your_own/toolkit/writing.html">Toolkit: How to Read 18th-Century 
+    British-American Handwriting</option>
+    <option value="../archive/indexType.html#diaries">Archive: see other diaries 
+    at this site</option>
+    <option value="../on_your_own/bibliographies.html#diaries">Bibliography: Using 
+    Diaries and Journals</option>
+	</select>
+      </form>
+<p></p>
+<!-- #BeginLibraryItem "/Library/bottomNav_diary.lbi" --><!--start bottomnav--> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr bgcolor="#CCCC66"> 
+    <td> 
+      <table width="100%" border="0" cellspacing="1" cellpadding="1">
+		<tr align="center"> 
+	 	 
+          <td height="15" bgcolor="#333366"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../home.html"><font color="#CCCC66">home</font></a></font></td>
+		  
+          <td height="15" bgcolor="#333366"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../interests/index.html"><font color="#CCCC66">your 
+            interests</font></a></font></td>
+		  
+          <td height="15" bgcolor="#333366"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../martha/index.html"><font color="#CCCC66">who 
+            was Martha?</font></a></font></td>
+		  
+          <td height="15"><font face="Arial, Helvetica, sans-serif" size="1"><a href="index.html"><font color="#333399">Martha's 
+            diary</font></a></font></td>
+          <td height="15" bgcolor="#333366"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../book/index.html"><font color="#CCCC66">book</font></a></font></td>
+		  
+          <td height="15" bgcolor="#333366"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../film/index.html"><font color="#CCCC66">film</font></a></font></td>
+		  
+          <td height="15" bgcolor="#333366"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../DHindex.html"><font color="#CCCC66">doing 
+            history</font></a></font></td>
+		  
+          <td height="15" bgcolor="#333366"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../archive/index.html"><font color="#CCCC66">archive</font></a></font></td>
+		  
+          <td height="15" bgcolor="#333366"><font face="Arial, Helvetica, sans-serif" size="1"><a href="../on_your_own/index.html"><font color="#CCCC66">on 
+            your own</font></a></font></td>
+		</tr>
+		<tr align="center"> 
+		  
+          <td height="15" colspan="9"><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"><a href="index.html"><font color="#333399">browse</font></a></font><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | </font><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"><a href="search.html"><font color="#333399">search</font></a></font><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | </font><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"> 
+            <a href="themes/index.html"><font color="#333399">stories 
+            &amp; themes</font></a></font><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | </font><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"> 
+            <a href="exercises/lens/index.html"><font color="#333399">lens</font></a> 
+            </font><font face="Arial, Helvetica, sans-serif" size="1"> | </font><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"><a href="exercises/decoding.html"><font color="#333399">decoding</font></a></font><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | </font> <font face="Arial, Helvetica, sans-serif" size="1" color="#333366"><a href="exercises/tryTranscribing.html"><font color="#333399">transcribing</font></a> 
+            </font><font face="Arial, Helvetica, sans-serif" size="1"> | </font><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"> 
+            <a href="about.html"><font color="#333399">about diary</font></a></font><font face="Arial, Helvetica, sans-serif" size="1"> 
+            | </font><font face="Arial, Helvetica, sans-serif" size="1" color="#333366"><a href="aboutonlinediary.html"> 
+            <font color="#333399">about online diary</font> </a></font></td>
+		</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!--`end bottomnav-->
+<!-- #EndLibraryItem --><p></p>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '94']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</body>
+</html>

@@ -1,0 +1,446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+	<head>
+		<!-- meta info -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="keywords,go,here" />
+		<meta name="description" content="The Object of History takes you behind the scenes with the curators at the National Museum of American History" />
+		<meta name="author" content="Center for History and New Media" />
+		<meta name="copyright" content="Copyright &copy; 2006." />
+		
+		<title>The Object of History | Behind the Scenes with the Curators of the National Museum of American History</title>
+		
+		<!-- various internal links -->
+		<link rel="Shortcut Icon" type="image/ico" href="../i/favicon.ico.html" />
+		<link rel="accessibility" href="../accessibility/index.html" title="Accessibility and Object of History." />
+		<link rel="author" href="../about/index.html" title="About Object of History." />
+		<link rel="home" href="../index.html" title="Home page." />
+		<link rel="organization" href="http://chnm.gmu.edu" title="Center for History and New Media" />
+		
+		<!-- Stylesheets -->
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/screen.css" />
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/gb_styles.css" />
+		<link rel="alternate stylesheet" media="print" href="../content/public/styles/print.css" />
+		
+		<!--[if IE 6]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie6.css" />
+		<![endif]-->
+		
+		<!--[if IE 7]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie7.css" />
+		<![endif]-->
+	
+		<!-- JavaScripts -->
+		<script type="text/javascript">
+		    var GB_ROOT_DIR = "/content/public/j/greybox/";
+		
+			// This hide the non-javascript activity form before the page load.
+			var checkJS = document.getElementById;
+
+			if (checkJS) {
+			        document.write('<style type="text/css">#activityform{display: none;}</style>');
+			}
+		
+		</script>
+
+		
+		<script type="text/javascript" src="../content/common/javascripts/prototype.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/common.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/dragdrop.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/niftycorners/niftycube.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS_fx.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/gb_scripts.js"></script>
+		<script type="text/javascript" src="../content/public/j/roundcorners.js"></script>
+		<script type="text/javascript" src="../content/public/j/imagepagination.js"></script>
+		
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '100']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+
+
+<body id="activity" class="index">
+	
+<div class="hide"><a href="index.html#content">Skip Navigation/Skip to Content</a></div>
+
+<div id="wrap">
+
+<div id="header">
+<div class="padding">
+<ul id="sitenav" class="navigation">
+	<li class="nav-guide"><a href="../guide/index.html">Guide</a></li>
+	<li class="nav-objects"><a href="../objects/index.html">Objects</a></li>
+	<li class="nav-forum"><a href="../forum/index.html">Forum</a></li>
+	
+	<li class="nav-activity"><a href="index.html">Activity</a></li>
+</ul>
+<h1 id="logo"><a href="../index.html">The Object of History | Behind the Scenes with the Curators of the National Museum of American History</a></h1>
+<h2 id="section-title" class="activity-title">Activity | Create a Virtual Exhibit</h2>
+
+</div>
+</div>
+
+<div id="content">
+	<div class="padding">
+<style type="text/css">
+@import url("../content/public/styles/activity.css");
+</style>
+
+<script type="text/javascript">
+
+function initAjaxActivity() {
+	var itemPaginate, itemCart, itemList, tourMeta;
+	$("itempaginate").style.display = "block";
+	$("itemcart").style.display = "block";
+	$("itemlist").style.display = "block";
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", {evalScripts:true});
+	new Ajax.Updater('tourmeta', "/activity/ajaxTourMeta/", {evalScripts:true});
+	new Ajax.Updater('itemcart', "/activity/ajaxItemCart/", {evalScripts: true});
+	paginateItems( 1  );
+//	paginateItems( 1, 4);
+}
+
+function buildPagination( page, per_page, total, collection_id )
+{
+	pages = Math.ceil( total / per_page );
+	if( page > 1 )
+	{
+		back = document.createElement('a');
+		back.setAttribute('href', 'javascript:void(0)');
+		back.setAttribute('id','previous');
+		back.onclick = function() {
+			paginateItems( page-1, collection_id );
+		}
+		back.innerHTML = '&larr;';
+	}
+	else
+	
+	{
+		back = document.createElement('span');
+		back.innerHTML = '';
+	}
+
+	current = document.createTextNode( ' '+page+' ' );
+
+	if( page < pages )
+	{
+		forward = document.createElement('a');
+		forward.setAttribute('href', 'javascript:void(0)');
+		forward.setAttribute('id','next');
+		forward.setAttribute('title','Next Page');
+		//forward.setAttribute('onclick', 'findMapItems("/mapXML/'+(parseInt(page)+1)+'")');
+		forward.onclick = function() {
+			paginateItems( page+1, collection_id );
+		}
+		forward.innerHTML = '&rarr;';
+	}
+	else
+	{
+		forward = document.createElement('span');
+		forward.innerHTML = '';
+	}
+
+	of = document.createTextNode(' of '+pages+' pages.');
+
+	// Build the html
+
+	span = document.getElementById('itempaginate');
+	span.appendChild(back);
+//	span.appendChild(current);
+	span.appendChild(forward);
+	//span.appendChild(of);
+}
+
+function paginateItems( page, collection_id )
+{
+	parameters = 'page=' + page;
+	
+	if(typeof(collection_id) != "undefined") {
+		parameters = parameters + '&collection=' + collection_id;
+	}else {
+		if( typeof($('item_limit')) != 'undefined') {
+			parameters = parameters + '&' + Form.serialize('item_limit');
+		}
+	}
+	
+	var itemopt = {
+		parameters: parameters,
+		method: 'get',
+		onComplete: function(t) {
+			$('itempaginate').innerHTML = '';
+			var total = $('total').innerHTML;
+
+			buildPagination( page, 12, total, collection_id);
+		},
+		onFailure: reportError,
+		evalScripts: true
+	}
+	
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", itemopt);
+	
+
+}
+function getItemId( draggable ) {
+	return draggable.id.substring(4, 8);
+}
+
+function getOrder( droppable ) {
+	return droppable.id.substring(5, 6);
+}
+
+function reportError(t)
+{
+	alert(t.status);
+}
+
+function fadeDraggable( draggable ) {
+	container = $('itemcontainer'+getItemId(draggable));
+	if( container ) {
+		itemNewImage = document.createElement('img');
+		dragImg = draggable.getElementsByTagName('img');
+		itemNewImage.src = dragImg[0].src;
+		container.appendChild(itemNewImage);
+		new Effect.Opacity(container.id, {duration:1.0, from: 1.0, to:0.2 });
+		/* if(navigator.appName == "Microsoft Internet Explorer") {
+			draggable.setAttribute('class','hide');
+		}
+		else {
+			draggable.class = 'hide';
+		} */
+		return true;
+	}
+	else {
+		return false;
+	}
+
+}
+addLoadListener(initAjaxActivity);
+
+</script>
+<div id="primary">	
+<form method="post" id="activityform">
+	<div id="paginate">
+	 <a href="index.html%3Fpage=1.html">First</a> | &lt; Prev | 1 | <a href="index.html%3Fpage=2.html">2</a> | <a href="index.html%3Fpage=3.html">3</a> | <a href="index.html%3Fpage=4.html">4</a> | <a href="index.html%3Fpage=5.html">5</a> | <a href="index.html%3Fpage=2.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	</div>
+			<h3> Select from the following items: </h3>
+		<ul class="activity-items">
+		
+						<li>
+				<img src="../content/thumbnails/doc2_redicon_c3ddfdfcc1.JPG" alt="As the years went by, the Mary Todd Lincoln dress quickly deteriorated, losing much of its original appearance.  The Smithsonian National Museum of American History assessed the condition of the dress and produced this treatment report in 1989 shown here.  The treatment report details the condition of the dress and comments on where alterations and damage has been made. " title="Assessing the Condition of the Dress" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[359][item_id]">Assessing the Condition of the Dress</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[359][item_id]" class="checkbox" value="359"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_greenicon_efe534d491.JPG" alt="The Smithsonian National Museum of American History acquired several items for its collections including the the Mary Todd Lincoln dress from Cassie Mason Myers Julian-James.  Although the dress was on loan at the time of her death, James bequeathed the dress to the museum permanently upon her death in 1922." title="The Will of Cassie Mason Myers Julian-James" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[358][item_id]">The Will of Cassie Mason Myers Julian-James</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[358][item_id]" class="checkbox" value="358"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_tanicon_03c2170b8d.JPG" alt="When the museum permanently received into its possession the Mary Todd Lincoln dress, it was one item among many bequeathed by Cassie Mason Myers Julian-James.  These documents shown here were prepared by a committee whose specific purpose was to assess the items given to the museum by Mrs. Julian-James." title="The Museum Does an Inventory" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[357][item_id]">The Museum Does an Inventory</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[357][item_id]" class="checkbox" value="357"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/doc2_blueicon_ba2363fa49.JPG" alt="This is the letter sent by the Smithsonian National Museum of American History to the estate of Cassie Mason Myers Julian-James formally accepting the Mary Todd Lincoln dress into its collections in 1922." title="Acceptance of the Dress into the Museum" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[356][item_id]">Acceptance of the Dress into the Museum</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[356][item_id]" class="checkbox" value="356"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/15thStreetPresbyterianicon_2b29cd0126.jpg" alt="Elizabeth Keckley left St. Louis in 1860 and moved to the nation&#39;s capital, Washington, D.C.  She may have moved for personal reasons, or because she saw the Missouri legislature consider a bill that would reduce all free blacks aged 18 to 50 to slavery.  Slavery was legal and practiced in Washington, but free African Americans had grown to outnumber slaves there.    
+
+Within a few months, Keckley found white patrons who would help her gain the legal right to live and work in the city.  She later recounted that she sewed dresses for Mrs. Robert E. Lee, wife of the army officer, and Mrs. Jefferson Davis, wife of the Senator from Mississippi who would soon become President of the Confederacy.  She also made connections with the city&#39;s African American community.  She joined the fifteenth Street Presbyterian Church, pictured here.    " title="African Americans in Washington, D.C." class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[348][item_id]">African Americans in Washington, D.C.</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[348][item_id]" class="checkbox" value="348"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/Mary-Lincolnicon_6360f65ae0.jpg" alt="Beginning with Martha Washington, wives of the U.S. Presidents found themselves playing a public role as social hostess. Yet newspapers carried very limited information about the First Lady&#39;s clothing, interests, or activities.  Soon, first ladies faced partisan attacks from those who opposed their husband&#39;s policies. Abigail Adams realized that would be the case even before her husband John was inaugurated in 1797.  She said, &quot;I expect to be vilified and abused with my whole family when I come into this situation.&quot;   
+
+The public role of First Lady became more visible over the following decades, with the rise of newspapers that reported on White House social engagements and described the appearance and costume of the President&#39;s wife.  In the 1850s, popular illustrated papers appeared, including Harper&#39;s Weekly and Leslie&#39;s Illustrated.  They courted female readers and achieved broad distribution. They introduced regular features that treated the details of a First Lady&#39;s conduct and clothing." title="The Role of First Lady" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[346][item_id]">The Role of First Lady</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[346][item_id]" class="checkbox" value="346"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/seamstress-icon_9a007b22b1.jpg" alt="We can look at 19th-century dresses and other elements of women&#39;s costume as the products of the working people who produced them.   
+
+Women of most classes used needle and thread to make and mend household textiles and clothing.  Many women made modest incomes as semi-skilled seamstresses, doing ordinary sewing for other households.  A small number developed fine skills at design, cutting, and fitting of ladies&#39; dresses, so they could create stylish outfits for the fashionable ladies of their towns and cities.  
+
+Elizabeth Keckley, who produced most of Mrs. Lincoln&#39;s dresses in the early 1860s, was among the elite of her profession.  She called herself a &quot;modiste,&quot; a designer of dresses as well as needlewoman.  At the height of her career, in the mid-1860s, she ran a workshop that employed about 20 other women in Washington, D.C. This image is of an unknown woman at a sewing machine around 1853." title="Working Women: The Needle Trades" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[345][item_id]">Working Women: The Needle Trades</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[345][item_id]" class="checkbox" value="345"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/clark-smith-poster2sm_d6e53ae820.jpg" alt="" title="How would you display the dress in the museum?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[340][item_id]">How would you display the dress in the museum?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[340][item_id]" class="checkbox" value="340"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/basketdogicon_5a908a09d9.jpg" alt="Elizabeth Keckley and Mary Lincoln&#39;s shared much in common.  They were born in the same year, 1818, and spent their childhoods in the South.  Both of them lost a son during the war.  It was Elizabeth Keckley who nursed a grieving Mary Lincoln in the weeks that followed the death of 11 year old Willie Lincoln.  Elizabeth Keckley simultaneously mourned the loss of her own son, who enlisted as a white soldier in the Union Army.
+The two women also came to share a fundamental political and moral commitment.  The Todds of Kentucky were a slave owning family, and Mary saw many of her siblings and other relatives choose the Confederate side.  She herself was suspected of Southern sympathies.  But she and her husband both came to embrace emancipation as a necessary moral commitment of the nation.  This image, taken prior to the Civil War, depicts the relationships white slave owners had with their black slaves as on of master and subordinate.  The relationship Mary Todd Lincoln had with Elizabeth Keckley is unique because it stands in contrast to the slave/mistress relationships they may have been accustomed to growing up in the antebellum South." title="Common Experiences and Commitments" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[339][item_id]">Common Experiences and Commitments</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[339][item_id]" class="checkbox" value="339"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/clark-smith-poster1sm_eef846aaa6.jpg" alt="" title="What sort of relationship did Elizabeth Keckley have with Mary Todd Lincoln?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[338][item_id]">What sort of relationship did Elizabeth Keckley have with Mary Todd Lincoln?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[338][item_id]" class="checkbox" value="338"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/AGrimkeicon_aefd8a4847.jpg" alt="Women were among the social reformers who wrote, spoke, and organized against slavery during the antebellum years.  Leading abolitionists included such women as northerners Lydia Maria Childs and Harriet Beecher Stowe; ex-slaves Sojourner Truth and Harriet Tubman; and sisters Angelina and Sarah Grimke, originally from a slaveholding family in South Carolina.  Abolitionists, male or female, were always a radical minority even in Northern society.  
+
+Warfare mobilized many more women as organizers and volunteers in the U.S. Sanitary and U.S. Christian commissions, the two major Northern relief organizations of the day.  The commissions, both founded in 1861, promoted clean and healthy conditions in Union Army camps, provided services to soldiers, set up hospitals and sent nurses, and raised funds for supplies.  Shown here is a wood engraving of Angelina Grimke." title="Women as Activists" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[337][item_id]">Women as Activists</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[337][item_id]" class="checkbox" value="337"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/clark-smith-poster3sm_78d7af6293.jpg" alt="" title="Who Made the Dress?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[336][item_id]">Who Made the Dress?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[336][item_id]" class="checkbox" value="336"  />
+	
+				Select This Item</label>
+			</li>
+					
+				</ul>
+		<hr class="clear" />
+		 <a href="index.html%3Fpage=1.html">First</a> | &lt; Prev | 1 | <a href="index.html%3Fpage=2.html">2</a> | <a href="index.html%3Fpage=3.html">3</a> | <a href="index.html%3Fpage=4.html">4</a> | <a href="index.html%3Fpage=5.html">5</a> | <a href="index.html%3Fpage=2.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	
+	<input type="submit" name="tour_select_items_submit" value="Select these items" />
+	<input type="submit" name="cancel_submit" value="Cancel" />
+</form>
+<div id="tourmeta"></div>
+
+<div id="itempaginate"></div>
+<div id="itemlist"></div>
+<div id="error"></div>
+
+<div id="itemcart"></div>
+
+</div>
+
+</div> <!-- closes padding div -->
+</div> <!-- closes content div -->
+			<div id="sponsors">
+				<div class="padding">
+				<a href="http://americanhistory.si.edu/"><span id="si-logo">National Museum of American History, Smithsonian Institution</span></a>
+				<a href="http://chnm.gmu.edu"><span id="chnm-logo">Roy Rosenzweig Center for History and New Media</span></a>
+				</div>
+			</div>
+			<div id="footer">
+			<div class="padding">
+			<ul class="navigation">
+				<li class="nav-home"><a href="../index/index.html">Home</a></li>
+				<li class="nav-about"><a href="../about/index.html">About</a></li>
+				<li class="nav-teachers"><a href="../teachers/index.html">Teachers</a></li>
+				<li class="nav-privacy"><a href="../privacy/index.html">Privacy</a></li>
+				<li class="nav-help"><a href="../help/index.html">Help</a></li>
+			</ul>
+			</div>
+			</div>
+		</div> <!-- closes wrap div -->
+		
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2013 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 4.1  -->
+<!-- Created: 5/31/2013 2:28:09 PM -->
+<script src="http://americanhistory.si.edu/_js/webtrends-ooh.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+_tag.WT.cg_n="histex";
+}
+_tag.dcsCollect();
+//]]>
+</script>
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://logs1.smithsonian.museum/dcswl5ztmadzpxv8vdov1jgep_3j8q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=objectofhistory.org"/></div>
+</noscript>
+<!-- END OF SmartSource Data Collector TAG -->
+
+
+
+	</body>
+	
+</html>

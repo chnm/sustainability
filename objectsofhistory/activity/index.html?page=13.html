@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+	<head>
+		<!-- meta info -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="keywords,go,here" />
+		<meta name="description" content="The Object of History takes you behind the scenes with the curators at the National Museum of American History" />
+		<meta name="author" content="Center for History and New Media" />
+		<meta name="copyright" content="Copyright &copy; 2006." />
+		
+		<title>The Object of History | Behind the Scenes with the Curators of the National Museum of American History</title>
+		
+		<!-- various internal links -->
+		<link rel="Shortcut Icon" type="image/ico" href="../i/favicon.ico.html" />
+		<link rel="accessibility" href="../accessibility/index.html" title="Accessibility and Object of History." />
+		<link rel="author" href="../about/index.html" title="About Object of History." />
+		<link rel="home" href="../index.html" title="Home page." />
+		<link rel="organization" href="http://chnm.gmu.edu" title="Center for History and New Media" />
+		
+		<!-- Stylesheets -->
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/screen.css" />
+		<link rel="stylesheet" media="screen,projection" href="../content/public/styles/gb_styles.css" />
+		<link rel="alternate stylesheet" media="print" href="../content/public/styles/print.css" />
+		
+		<!--[if IE 6]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie6.css" />
+		<![endif]-->
+		
+		<!--[if IE 7]>
+		<link rel="stylesheet" media="screen" href="/content/public/styles/ie7.css" />
+		<![endif]-->
+	
+		<!-- JavaScripts -->
+		<script type="text/javascript">
+		    var GB_ROOT_DIR = "/content/public/j/greybox/";
+		
+			// This hide the non-javascript activity form before the page load.
+			var checkJS = document.getElementById;
+
+			if (checkJS) {
+			        document.write('<style type="text/css">#activityform{display: none;}</style>');
+			}
+		
+		</script>
+
+		
+		<script type="text/javascript" src="../content/common/javascripts/prototype.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/common.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../content/common/javascripts/dragdrop.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/niftycorners/niftycube.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/AJS_fx.js"></script>
+ 		<script type="text/javascript" src="../content/public/j/greybox/gb_scripts.js"></script>
+		<script type="text/javascript" src="../content/public/j/roundcorners.js"></script>
+		<script type="text/javascript" src="../content/public/j/imagepagination.js"></script>
+		
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '100']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+
+
+<body id="activity" class="index">
+	
+<div class="hide"><a href="index.html%3Fpage=13.html#content">Skip Navigation/Skip to Content</a></div>
+
+<div id="wrap">
+
+<div id="header">
+<div class="padding">
+<ul id="sitenav" class="navigation">
+	<li class="nav-guide"><a href="../guide/index.html">Guide</a></li>
+	<li class="nav-objects"><a href="../objects/index.html">Objects</a></li>
+	<li class="nav-forum"><a href="../forum/index.html">Forum</a></li>
+	
+	<li class="nav-activity"><a href="index.html">Activity</a></li>
+</ul>
+<h1 id="logo"><a href="../index.html">The Object of History | Behind the Scenes with the Curators of the National Museum of American History</a></h1>
+<h2 id="section-title" class="activity-title">Activity | Create a Virtual Exhibit</h2>
+
+</div>
+</div>
+
+<div id="content">
+	<div class="padding">
+<style type="text/css">
+@import url("../content/public/styles/activity.css");
+</style>
+
+<script type="text/javascript">
+
+function initAjaxActivity() {
+	var itemPaginate, itemCart, itemList, tourMeta;
+	$("itempaginate").style.display = "block";
+	$("itemcart").style.display = "block";
+	$("itemlist").style.display = "block";
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", {evalScripts:true});
+	new Ajax.Updater('tourmeta', "/activity/ajaxTourMeta/", {evalScripts:true});
+	new Ajax.Updater('itemcart', "/activity/ajaxItemCart/", {evalScripts: true});
+	paginateItems( 1  );
+//	paginateItems( 1, 4);
+}
+
+function buildPagination( page, per_page, total, collection_id )
+{
+	pages = Math.ceil( total / per_page );
+	if( page > 1 )
+	{
+		back = document.createElement('a');
+		back.setAttribute('href', 'javascript:void(0)');
+		back.setAttribute('id','previous');
+		back.onclick = function() {
+			paginateItems( page-1, collection_id );
+		}
+		back.innerHTML = '&larr;';
+	}
+	else
+	
+	{
+		back = document.createElement('span');
+		back.innerHTML = '';
+	}
+
+	current = document.createTextNode( ' '+page+' ' );
+
+	if( page < pages )
+	{
+		forward = document.createElement('a');
+		forward.setAttribute('href', 'javascript:void(0)');
+		forward.setAttribute('id','next');
+		forward.setAttribute('title','Next Page');
+		//forward.setAttribute('onclick', 'findMapItems("/mapXML/'+(parseInt(page)+1)+'")');
+		forward.onclick = function() {
+			paginateItems( page+1, collection_id );
+		}
+		forward.innerHTML = '&rarr;';
+	}
+	else
+	{
+		forward = document.createElement('span');
+		forward.innerHTML = '';
+	}
+
+	of = document.createTextNode(' of '+pages+' pages.');
+
+	// Build the html
+
+	span = document.getElementById('itempaginate');
+	span.appendChild(back);
+//	span.appendChild(current);
+	span.appendChild(forward);
+	//span.appendChild(of);
+}
+
+function paginateItems( page, collection_id )
+{
+	parameters = 'page=' + page;
+	
+	if(typeof(collection_id) != "undefined") {
+		parameters = parameters + '&collection=' + collection_id;
+	}else {
+		if( typeof($('item_limit')) != 'undefined') {
+			parameters = parameters + '&' + Form.serialize('item_limit');
+		}
+	}
+	
+	var itemopt = {
+		parameters: parameters,
+		method: 'get',
+		onComplete: function(t) {
+			$('itempaginate').innerHTML = '';
+			var total = $('total').innerHTML;
+
+			buildPagination( page, 12, total, collection_id);
+		},
+		onFailure: reportError,
+		evalScripts: true
+	}
+	
+	new Ajax.Updater('itemlist', "/activity/ajaxItemList/", itemopt);
+	
+
+}
+function getItemId( draggable ) {
+	return draggable.id.substring(4, 8);
+}
+
+function getOrder( droppable ) {
+	return droppable.id.substring(5, 6);
+}
+
+function reportError(t)
+{
+	alert(t.status);
+}
+
+function fadeDraggable( draggable ) {
+	container = $('itemcontainer'+getItemId(draggable));
+	if( container ) {
+		itemNewImage = document.createElement('img');
+		dragImg = draggable.getElementsByTagName('img');
+		itemNewImage.src = dragImg[0].src;
+		container.appendChild(itemNewImage);
+		new Effect.Opacity(container.id, {duration:1.0, from: 1.0, to:0.2 });
+		/* if(navigator.appName == "Microsoft Internet Explorer") {
+			draggable.setAttribute('class','hide');
+		}
+		else {
+			draggable.class = 'hide';
+		} */
+		return true;
+	}
+	else {
+		return false;
+	}
+
+}
+addLoadListener(initAjaxActivity);
+
+</script>
+<div id="primary">	
+<form method="post" id="activityform">
+	<div id="paginate">
+	 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=12.html">&lt; Prev</a> | <a href="index.html%3Fpage=11.html">11</a> | <a href="index.html%3Fpage=12.html">12</a> | 13 | <a href="index.html%3Fpage=14.html">14</a> | <a href="index.html%3Fpage=15.html">15</a> | <a href="index.html%3Fpage=14.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	</div>
+			<h3> Select from the following items: </h3>
+		<ul class="activity-items">
+		
+						<li>
+				<img src="../content/thumbnails/OriginalSNCCPinsicon_28b94b3a73.gif" alt="Founded in April 1960 in Raleigh, NC, the Student Non-violent Coordinating Committee (SNCC) helped to bring student activists together and to stimulate their efforts at fighting segregation.  SNCC was instrumental in staging sit-ins across the South in 1960.  These lapel pins were one way to show support for the students&#39; efforts." title="Support Southern Students: SNCC pins" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[114][item_id]">Support Southern Students: SNCC pins</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[114][item_id]" class="checkbox" value="114"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/jibreelnow_icon_7d8450a4c3.gif" alt="To mark the unveiling of the Greensboro Woolworth&#39;s Lunch Counter Display, NMAH held a public dedication on January 14, 1995.  Jibreel Khazan (formerly Ezell Blair, Jr.), Joseph McNeil, and Franklin McCain were present to discuss the sit-ins and their memories of the Civil Rights movement.  In this video, Khazan recalls his interaction with the counter workers and some of the store&#39;s white patrons." title="A Counter Becomes History" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[113][item_id]">A Counter Becomes History</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[113][item_id]" class="checkbox" value="113"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/microphone_brown_f0958e0302.jpg" alt="Ezell Blair, Jr. (now Jibreel Khazan), Joseph McNeil, Franklin McCain, and David Richmond, the four students who began the Greensboro Sit-in, started school at North Carolina A&amp;T in the fall of 1959. They spent evenings talking about the condition of African Americans in the United States and the need to take action. David Richmond, recalls that &quot;We challenged each other, really. We constantly heard about all the evils that are occurring and how blacks are mistreated and nobody was doing anything about it. . . . We used to question, &#39;Why is it that you have to sit in the balcony? Why do you have to ride in the back of the bus?&#39;&quot; In this interview conducted in 1979, Joseph McNeil gives his own account of February 1, 1960." title="How it Originated: Joseph McNeil&#39;s Story, Part II" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[106][item_id]">How it Originated: Joseph McNeil's Story, Part II</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[106][item_id]" class="checkbox" value="106"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/ruffins1_16323554c5.gif" alt="" title="Why was Greensboro the locale for this important sit-in?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[105][item_id]">Why was Greensboro the locale for this important sit-in?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[105][item_id]" class="checkbox" value="105"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/yeingst2_c9cca436e7.gif" alt="" title="Is the lunch counter as it was used in 1960? " class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[104][item_id]">Is the lunch counter as it was used in 1960? </h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[104][item_id]" class="checkbox" value="104"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/yeingst5_5f5db403dd.gif" alt="" title="What are some of the challenges for a curator displaying the lunch counter?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[103][item_id]">What are some of the challenges for a curator displaying the lunch counter?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[103][item_id]" class="checkbox" value="103"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/ruffins1_bab78442e4.gif" alt="" title="Are there things about the lunch  counter that a visitor to the museum might not see or understand when they encounter the object? " class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[102][item_id]">Are there things about the lunch  counter that a visitor to the museum might not see or understand when they encounter the object? </h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[102][item_id]" class="checkbox" value="102"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/yeingst4_39851e1fa7.gif" alt="" title="How has the museum displayed the lunch counter?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[101][item_id]">How has the museum displayed the lunch counter?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[101][item_id]" class="checkbox" value="101"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/yeingst3_35b4e389b8.gif" alt="" title="How did the Woolworth&#39;s lunch counter become part of NMAH&#39;s collections?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[100][item_id]">How did the Woolworth's lunch counter become part of NMAH's collections?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[100][item_id]" class="checkbox" value="100"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/ruffins4_38a56a131b.gif" alt="" title="What was the impact of the sit-ins? " class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[99][item_id]">What was the impact of the sit-ins? </h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[99][item_id]" class="checkbox" value="99"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/ruffins3_ae5cbdec42.gif" alt="" title="What is the early twenty-first century equivalent of the mid-twentieth-century lunch counter? " class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[98][item_id]">What is the early twenty-first century equivalent of the mid-twentieth-century lunch counter? </h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[98][item_id]" class="checkbox" value="98"  />
+	
+				Select This Item</label>
+			</li>
+					
+		
+						<li>
+				<img src="../content/thumbnails/yeingst1_6b13b74971.gif" alt="" title="Why is this lunch counter special?" class="thumbnail" width="100" height="100"/>
+				<h3 for="Items[97][item_id]">Why is this lunch counter special?</h3>
+				<label class="checkbox">
+				<input type="checkbox" name="Items[97][item_id]" class="checkbox" value="97"  />
+	
+				Select This Item</label>
+			</li>
+					
+				</ul>
+		<hr class="clear" />
+		 <a href="index.html%3Fpage=1.html">First</a> | <a href="index.html%3Fpage=12.html">&lt; Prev</a> | <a href="index.html%3Fpage=11.html">11</a> | <a href="index.html%3Fpage=12.html">12</a> | 13 | <a href="index.html%3Fpage=14.html">14</a> | <a href="index.html%3Fpage=15.html">15</a> | <a href="index.html%3Fpage=14.html">Next &gt;</a> | <a href="index.html%3Fpage=19.html">Last</a> <select class="pagination-link" onchange="location.href = '/activity/?page=' + this.value + ''"><option>Page:&nbsp;&nbsp;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>	
+	<input type="submit" name="tour_select_items_submit" value="Select these items" />
+	<input type="submit" name="cancel_submit" value="Cancel" />
+</form>
+<div id="tourmeta"></div>
+
+<div id="itempaginate"></div>
+<div id="itemlist"></div>
+<div id="error"></div>
+
+<div id="itemcart"></div>
+
+</div>
+
+</div> <!-- closes padding div -->
+</div> <!-- closes content div -->
+			<div id="sponsors">
+				<div class="padding">
+				<a href="http://americanhistory.si.edu/"><span id="si-logo">National Museum of American History, Smithsonian Institution</span></a>
+				<a href="http://chnm.gmu.edu"><span id="chnm-logo">Roy Rosenzweig Center for History and New Media</span></a>
+				</div>
+			</div>
+			<div id="footer">
+			<div class="padding">
+			<ul class="navigation">
+				<li class="nav-home"><a href="../index/index.html">Home</a></li>
+				<li class="nav-about"><a href="../about/index.html">About</a></li>
+				<li class="nav-teachers"><a href="../teachers/index.html">Teachers</a></li>
+				<li class="nav-privacy"><a href="../privacy/index.html">Privacy</a></li>
+				<li class="nav-help"><a href="../help/index.html">Help</a></li>
+			</ul>
+			</div>
+			</div>
+		</div> <!-- closes wrap div -->
+		
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2013 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 4.1  -->
+<!-- Created: 5/31/2013 2:28:09 PM -->
+<script src="http://americanhistory.si.edu/_js/webtrends-ooh.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+_tag.WT.cg_n="histex";
+}
+_tag.dcsCollect();
+//]]>
+</script>
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://logs1.smithsonian.museum/dcswl5ztmadzpxv8vdov1jgep_3j8q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=objectofhistory.org"/></div>
+</noscript>
+<!-- END OF SmartSource Data Collector TAG -->
+
+
+
+	</body>
+	
+</html>

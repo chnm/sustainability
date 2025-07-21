@@ -5,7 +5,7 @@ These are various sustainability projects, included here to help keep track of w
 | Project        | Status  | Repo             | Description                                                 |
 | -------------- | ------- | ---------------- | ----------------------------------------------------------- |
 | Scripts        | ongoing | `scripts/`       | Scripts and other tools for aiding in flattening and fixes. |
-| 9/11 Digital Arhive | ongoing | `911digitalarchive/` | Flattened Omeka site for the 9/11 Digital Arhive project. |
+| 9/11 Digital Archive | ongoing | `911digitalarchive/` | Flattened Omeka site for the 9/11 Digital Archive project. |
 | Amboyna        | ongoing | `amboyna/`       | Flattened Drupal site for the Amboyna project.              |
 | Harambee City  | done    | `harambeecity/`  | Flattened Omeka site for the Harambee City project.         |
 | Maritime Asia  | hold    | `maritime/`      | Flattened Drupal site for Maritime Asia.                    |

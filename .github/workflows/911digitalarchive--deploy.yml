@@ -16,4 +16,4 @@ jobs:
     with:
       context_root: "911digitalarchive"
       website-devl-fqdn: "dev.911digitalarchive.org"
-      website-prod-fqdn: "dev.911digitalarchive.org
+      website-prod-fqdn: "dev.911digitalarchive.org"

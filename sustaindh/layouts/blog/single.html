@@ -1,0 +1,35 @@
+{{- define "content" -}}
+
+<article class="blog-post">
+    <div class="blog-header">
+        <h1 class="blog-title">{{ .Title }}</h1>
+        <div class="blog-meta">
+            {{ if .Params.author }}
+                <span class="blog-author">By {{ .Params.author }}</span>
+            {{ end }} &mdash;
+            {{ if .Date }}
+                <time class="blog-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                    {{ .Date.Format "January 2, 2006" }}
+                </time>
+            {{ end }}
+        </div>
+    </div>
+
+{{ if and (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") (.Scratch.Get "params").enable_toc }}
+    {{ $toc_position := (.Scratch.Get "params").toc_position }}
+    {{ if eq $toc_position "right" }}
+        {{ partial "fixed-toc.html" (dict "context" . "position" $toc_position) }}
+    {{ else if eq $toc_position "top" }}
+        {{ $enable_collapsible_toc := (.Scratch.Get "params").enable_collapsible_toc }}
+        {{ partial "collapsible-menu.html" (dict "type" "toc" "context" . "enable" $enable_collapsible_toc) }}
+    {{ end }}
+{{ end }}
+
+{{ if .Content }}
+    <div class="content-margin">
+        {{- partial "content.html" (dict "ctx" . "content" .Content) -}}
+    </div>
+{{ end }}
+</article>
+
+{{- end -}}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podcasts on SustainbleDH</title>
+    <link>http://localhost:1313/categories/podcasts/</link>
+    <description>Recent content in Podcasts on SustainbleDH</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Sep 2022 15:37:51 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/podcasts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcasts and Sustainability</title>
+      <link>http://localhost:1313/blog/podcasts-and-sustainability/</link>
+      <pubDate>Fri, 30 Sep 2022 15:37:51 -0500</pubDate>
+      
+      <guid>http://localhost:1313/blog/podcasts-and-sustainability/</guid>
+      <description>&lt;p&gt;In the spring of 2022,  the podcast Consolation Prize was wrapping up its second and final season. As a member of both of the Sustainability and Consolation Prize teams, I (Megan) was tasked with initiating the end-of-project workflow for the show’s website. At the same time, RRCHNM’s other podcast, The Green Tunnel, was concluding its first season and R2 Studios – a podcasting studio at RRCHNM – was set to grow. These events combined to present an opportunity to create a sustainability plan for our podcasting efforts which would allow us to preserve materials proactively rather than triage five or ten years down the line.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

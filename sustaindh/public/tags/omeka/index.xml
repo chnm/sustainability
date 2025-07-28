@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Omeka on SustainbleDH</title>
+    <link>http://localhost:1313/tags/omeka/</link>
+    <description>Recent content in Omeka on SustainbleDH</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Dec 2022 15:42:47 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/omeka/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Translating Custom Themes In A Twinned Omeka Site</title>
+      <link>http://localhost:1313/blog/translating-custom-themes/</link>
+      <pubDate>Fri, 02 Dec 2022 15:42:47 -0500</pubDate>
+      
+      <guid>http://localhost:1313/blog/translating-custom-themes/</guid>
+      <description>&lt;p&gt;The Bracero History Archive was an early Omeka site built by RRCHNM. The project itself was a collaboration between multiple institutions. It brings together artifacts and oral histories from the Bracero program of the mid-twentieth century. In addition to being a significant digital history project in terms of collaboration, the official curriculum of the state of California requires students to learn about the Bracero Program and teachers frequently use this project for that purpose. This is a site that needs to stay live and functional.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Monitoring And Managing A Collecting Project</title>
+      <link>http://localhost:1313/blog/monitoring-and-managing/</link>
+      <pubDate>Fri, 18 Nov 2022 15:39:07 -0500</pubDate>
+      
+      <guid>http://localhost:1313/blog/monitoring-and-managing/</guid>
+      <description>&lt;p&gt;One of the projects which came to the sustainability team was The September 11 Digital Archive. Although I (Megan) had not previously been officially involved with the project, I had been part of projects and conversations which touched on or included the site (specifically the Omeka Classic plugins for topic modeling). I also had some experience with other community collecting projects, including concerns over privacy and harmful language in relation to contributions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Upgrading Antique Omeka Sites</title>
+      <link>http://localhost:1313/blog/upgrading-antique-omeka-sites/</link>
+      <pubDate>Fri, 02 Sep 2022 15:06:37 -0500</pubDate>
+      
+      <guid>http://localhost:1313/blog/upgrading-antique-omeka-sites/</guid>
+      <description>&lt;p&gt;Some of the older sites – orphaned and not – which we had to deal with fell into a category which can loosely be called “Antique Omeka sites”. These sites were created mostly before 2011, and ran versions of Omeka Classic from 0.8 through 1.2.&lt;/p&gt;
+&lt;p&gt;The challenge with these sites was that they could not be easily upgraded to current versions of Omeka Classic. As of 2022, sites running Omeka Classic 1.2.1 or higher can be upgraded straight to the latest version, but earlier versions of Omeka Classic need additional work because of changes in the database and file structures.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on SustainbleDH</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on SustainbleDH</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Dec 2022 15:42:47 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Omeka</title>
+      <link>http://localhost:1313/tags/omeka/</link>
+      <pubDate>Fri, 02 Dec 2022 15:42:47 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/omeka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WordPress</title>
+      <link>http://localhost:1313/tags/wordpress/</link>
+      <pubDate>Mon, 21 Nov 2022 15:40:37 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Podcasts</title>
+      <link>http://localhost:1313/tags/podcasts/</link>
+      <pubDate>Fri, 30 Sep 2022 15:37:51 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/podcasts/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

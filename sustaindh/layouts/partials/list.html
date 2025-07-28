@@ -1,0 +1,52 @@
+{{ $show_date := .show_date | default true }}
+{{ $pages := .pages }}
+{{ $group_by_year := .group_by_year | default true }}
+
+{{- if $pages -}}
+{{- if $show_date -}}
+    {{- $pages = $pages.ByPublishDate.Reverse -}}
+{{- end -}}
+<div class="blog-list">
+    {{ range $pages }}
+        <article class="blog-list-item">
+            <div class="blog-list-header">
+                <h3 class="blog-list-title">
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </h3>
+                <div class="blog-list-meta">
+                    {{ if .Params.author }}
+                        <span class="blog-list-author">By {{ .Params.author }}</span>
+                    {{ end }}
+        &mdash;
+                    {{ if $show_date }}
+                        <time class="blog-list-date" datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}">
+                            {{ if $group_by_year }}
+                                {{ .PublishDate.Format "January 2" }}
+                            {{ else }}
+                                {{ .PublishDate.Format "January 2, 2006" }}
+                            {{ end }}
+                        </time>
+                    {{ end }}
+                </div>
+            </div>
+            
+            {{ if .Summary }}
+                <div class="blog-list-excerpt">
+                    {{ .Summary }}
+                    {{ if .Truncated }}
+                        <a href="{{ .RelPermalink }}" class="read-more">Read more →</a>
+                    {{ end }}
+                </div>
+            {{ end }}
+            
+            {{ if .Params.tags }}
+                <div class="blog-list-tags">
+                    {{ range .Params.tags }}
+                        <span class="blog-tag">{{ . }}</span>
+                    {{ end }}
+                </div>
+            {{ end }}
+        </article>
+    {{ end }}
+</div>
+{{- end -}}

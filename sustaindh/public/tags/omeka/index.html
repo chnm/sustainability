@@ -1,0 +1,374 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang='en-us'><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href='http://localhost:1313/favicon.ico' type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Omeka - SustainbleDH</title>
+
+    
+
+    
+
+    
+
+    
+        <meta property="og:url" content="http://localhost:1313/tags/omeka/">
+  <meta property="og:site_name" content="SustainbleDH">
+  <meta property="og:title" content="Omeka">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+    
+
+    
+        
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Omeka">
+
+    <link rel="stylesheet" href="/style.css" integrity="">
+
+
+
+
+
+    
+    <script>
+        if (!('theme' in localStorage)) {
+            localStorage.theme = 'light';
+        }
+
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+            document.documentElement.setAttribute("data-theme", "light");
+        }
+    </script>
+<script defer src="/js/theme-switch.js" integrity=""></script>
+
+
+
+    <script defer src="/js/hide-navbar-on-scroll.js" integrity=""></script>
+
+
+
+
+
+    <script defer src="/js/zooming.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    <script defer src="/js/search-en-us.js" integrity=""></script>
+
+
+
+
+
+
+    
+</head>
+<body><header>
+    <div id="header_content">
+        <div id="header_left">
+            <div id="sidebar_btn">
+                <input type="checkbox" id="sidebar_btn_input" class="hidden" />
+                <label id="sidebar_btn_label" for="sidebar_btn_input">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.5rem" height="1.5rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+</svg>
+
+</label>
+                <label id="sidebar_canvas_overlay_wrapper" for="sidebar_btn_input">
+                    <div id="sidebar_canvas_overlay"></div>
+                </label>
+                <div id="sidebar">
+                    <ul><li>
+                                <a href="/reusable-protocols/">Reusable Protocols</a></li><li>
+                                <a href="/resources/">Resources</a></li><li>
+                                <a href="/about/">About</a></li><li>
+                                <a href="/blog/">Blog</a></li></ul>
+                </div>
+            </div>
+        
+            <div class="brand">
+                <div>
+                    <a href="/">SustainbleDH</a>
+                </div>
+            </div><nav id="header_navbar" class="pure-menu header-menu">
+    <ul class="pure-menu-list"><li class="header-menu-item pure-menu-item ">
+                    
+                        <a href="/reusable-protocols/" class="pure-menu-link">Reusable Protocols</a>
+                    
+                </li><li class="header-menu-item pure-menu-item ">
+                    
+                        <a href="/resources/" class="pure-menu-link">Resources</a>
+                    
+                </li><li class="header-menu-item pure-menu-item ">
+                    
+                        <a href="/about/" class="pure-menu-link">About</a>
+                    
+                </li><li class="header-menu-item pure-menu-item ">
+                    
+                        <a href="/blog/" class="pure-menu-link">Blog</a>
+                    
+                </li></ul>
+</nav>
+</div>
+
+        <div id="header_right">
+            
+
+            <div id="theme_tool">
+                <button id="dark_mode_btn" class="header-menu-btn outline-button" title='Switch to dark mode' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.5rem" height="1.5rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+</svg>
+
+</button>
+                <button id="light_mode_btn" class="header-menu-btn outline-button" title='Switch to light mode' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.5rem" height="1.5rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+</svg>
+
+</button>
+            </div>
+
+            
+                <div id="search_tool">
+                    <button id="search_btn" class="header-menu-btn outline-button" title='Search Posts' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.5rem" height="1.5rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+</svg>
+
+</button>
+                </div>
+            
+        </div>
+    </div>
+</header><div id="search_menu_wrapper" class="hidden">
+    <div id="search_menu">
+        <div id="search_menu_toolbar">
+            <div id="search_menu_input_wrapper">
+                <input id="search_menu_input" type="text" placeholder='Search Posts'>
+            </div>
+            <div id="search_menu_close_btn">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.25rem" height="1.25rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>
+</svg>
+
+</div>
+        </div>
+        <div id="search_menu_results">
+        </div>
+    </div>
+</div>
+<main>
+            <div id="content" class="content-margin">
+                <div>
+    <div class="term-title">
+        <h1>Omeka</h1>
+        
+                <div class="icon">
+                    <a rel="noopener" target="_blank" href="http://localhost:1313/tags/omeka/index.xml"> 
+                        
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.5rem" height="1.5rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle>
+</svg>
+
+
+                    </a>
+                </div>
+            
+        </div>
+    
+        
+            <div class="content-margin">
+                <h2>2022</h2>
+
+<div class="blog-list">
+    
+        <article class="blog-list-item">
+            <div class="blog-list-header">
+                <h3 class="blog-list-title">
+                    <a href="/blog/translating-custom-themes/">Translating Custom Themes In A Twinned Omeka Site</a>
+                </h3>
+                <div class="blog-list-meta">
+                    
+                        <span class="blog-list-author">By Megan Brett</span>
+                    
+        &mdash;
+                    
+                        <time class="blog-list-date" datetime="2022-12-02T15:42:47-05:00">
+                            
+                                December 2
+                            
+                        </time>
+                    
+                </div>
+            </div>
+            
+            
+                <div class="blog-list-excerpt">
+                    <p>The Bracero History Archive was an early Omeka site built by RRCHNM. The project itself was a collaboration between multiple institutions. It brings together artifacts and oral histories from the Bracero program of the mid-twentieth century. In addition to being a significant digital history project in terms of collaboration, the official curriculum of the state of California requires students to learn about the Bracero Program and teachers frequently use this project for that purpose. This is a site that needs to stay live and functional.</p>
+                    
+                        <a href="/blog/translating-custom-themes/" class="read-more">Read more →</a>
+                    
+                </div>
+            
+            
+            
+                <div class="blog-list-tags">
+                    
+                        <span class="blog-tag">omeka</span>
+                    
+                </div>
+            
+        </article>
+    
+        <article class="blog-list-item">
+            <div class="blog-list-header">
+                <h3 class="blog-list-title">
+                    <a href="/blog/monitoring-and-managing/">Monitoring And Managing A Collecting Project</a>
+                </h3>
+                <div class="blog-list-meta">
+                    
+                        <span class="blog-list-author">By Megan Brett</span>
+                    
+        &mdash;
+                    
+                        <time class="blog-list-date" datetime="2022-11-18T15:39:07-05:00">
+                            
+                                November 18
+                            
+                        </time>
+                    
+                </div>
+            </div>
+            
+            
+                <div class="blog-list-excerpt">
+                    <p>One of the projects which came to the sustainability team was The September 11 Digital Archive. Although I (Megan) had not previously been officially involved with the project, I had been part of projects and conversations which touched on or included the site (specifically the Omeka Classic plugins for topic modeling). I also had some experience with other community collecting projects, including concerns over privacy and harmful language in relation to contributions.</p>
+                    
+                        <a href="/blog/monitoring-and-managing/" class="read-more">Read more →</a>
+                    
+                </div>
+            
+            
+            
+                <div class="blog-list-tags">
+                    
+                        <span class="blog-tag">omeka</span>
+                    
+                </div>
+            
+        </article>
+    
+        <article class="blog-list-item">
+            <div class="blog-list-header">
+                <h3 class="blog-list-title">
+                    <a href="/blog/upgrading-antique-omeka-sites/">Upgrading Antique Omeka Sites</a>
+                </h3>
+                <div class="blog-list-meta">
+                    
+                        <span class="blog-list-author">By Megan Brett</span>
+                    
+        &mdash;
+                    
+                        <time class="blog-list-date" datetime="2022-09-02T15:06:37-05:00">
+                            
+                                September 2
+                            
+                        </time>
+                    
+                </div>
+            </div>
+            
+            
+                <div class="blog-list-excerpt">
+                    <p>Some of the older sites – orphaned and not – which we had to deal with fell into a category which can loosely be called “Antique Omeka sites”. These sites were created mostly before 2011, and ran versions of Omeka Classic from 0.8 through 1.2.</p>
+<p>The challenge with these sites was that they could not be easily upgraded to current versions of Omeka Classic. As of 2022, sites running Omeka Classic 1.2.1 or higher can be upgraded straight to the latest version, but earlier versions of Omeka Classic need additional work because of changes in the database and file structures.</p>
+                    
+                        <a href="/blog/upgrading-antique-omeka-sites/" class="read-more">Read more →</a>
+                    
+                </div>
+            
+            
+            
+                <div class="blog-list-tags">
+                    
+                        <span class="blog-tag">omeka</span>
+                    
+                </div>
+            
+        </article>
+    
+</div></div>
+        
+        
+    
+</div>
+
+                
+                    
+                
+
+                
+            </div>
+        </main>
+<footer>
+    <article>Copyright © 2020-2025 Roy Rosenzweig Center for History and New Media</article>
+</footer>
+
+</body>
+</html>

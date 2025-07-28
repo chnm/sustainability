@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preservation on SustainbleDH</title>
+    <link>http://localhost:1313/tags/preservation/</link>
+    <description>Recent content in Preservation on SustainbleDH</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Sep 2022 15:06:37 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/preservation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upgrading Antique Omeka Sites</title>
+      <link>http://localhost:1313/blog/upgrading-antique-omeka-sites/</link>
+      <pubDate>Fri, 02 Sep 2022 15:06:37 -0500</pubDate>
+      
+      <guid>http://localhost:1313/blog/upgrading-antique-omeka-sites/</guid>
+      <description>&lt;p&gt;Some of the older sites – orphaned and not – which we had to deal with fell into a category which can loosely be called “Antique Omeka sites”. These sites were created mostly before 2011, and ran versions of Omeka Classic from 0.8 through 1.2.&lt;/p&gt;
+&lt;p&gt;The challenge with these sites was that they could not be easily upgraded to current versions of Omeka Classic. As of 2022, sites running Omeka Classic 1.2.1 or higher can be upgraded straight to the latest version, but earlier versions of Omeka Classic need additional work because of changes in the database and file structures.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

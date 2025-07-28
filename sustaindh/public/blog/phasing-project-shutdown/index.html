@@ -1,0 +1,288 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang='en-us'><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href='http://localhost:1313/favicon.ico' type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phasing Project Shutdown - SustainbleDH</title>
+
+    
+
+    
+
+    
+    <meta name="author" content="Megan Brett" />
+    
+
+    
+        <meta property="og:url" content="http://localhost:1313/blog/phasing-project-shutdown/">
+  <meta property="og:site_name" content="SustainbleDH">
+  <meta property="og:title" content="Phasing Project Shutdown">
+  <meta property="og:description" content="As part of our sustainability efforts, we created the end of project workflow which we have shared on this site. How does that actually work when put into practice? In some cases, it has allowed us to wind down projects in stages – keeping core functionality and data accessible while removing high maintenance features – rather than leaving them up until a crisis demands triage or conservation efforts.
+We used the workflow with two projects which serve as interesting examples of how to undertake this staged approach in practice. With Creating Local Linkages, we had to decide how to manage closing down the login-only area with a community of users. While we have written about Consolation Prize as a test case for end of project workflows for podcasts, the website for the show also presents some challenges, largely from the plugins which power the episode index page.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2022-11-21T15:40:37-05:00">
+    <meta property="article:modified_time" content="2022-11-21T15:40:37-05:00">
+    <meta property="article:tag" content="WordPress">
+
+    
+
+    
+        
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Phasing Project Shutdown">
+  <meta name="twitter:description" content="As part of our sustainability efforts, we created the end of project workflow which we have shared on this site. How does that actually work when put into practice? In some cases, it has allowed us to wind down projects in stages – keeping core functionality and data accessible while removing high maintenance features – rather than leaving them up until a crisis demands triage or conservation efforts.
+We used the workflow with two projects which serve as interesting examples of how to undertake this staged approach in practice. With Creating Local Linkages, we had to decide how to manage closing down the login-only area with a community of users. While we have written about Consolation Prize as a test case for end of project workflows for podcasts, the website for the show also presents some challenges, largely from the plugins which power the episode index page.">
+
+    <link rel="stylesheet" href="/style.css" integrity="">
+
+
+
+
+
+    
+    <script>
+        if (!('theme' in localStorage)) {
+            localStorage.theme = 'light';
+        }
+
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+            document.documentElement.setAttribute("data-theme", "light");
+        }
+    </script>
+<script defer src="/js/theme-switch.js" integrity=""></script>
+
+
+
+    <script defer src="/js/hide-navbar-on-scroll.js" integrity=""></script>
+
+
+
+
+
+    <script defer src="/js/zooming.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    <script defer src="/js/search-en-us.js" integrity=""></script>
+
+
+
+
+
+
+    
+</head>
+<body><header>
+    <div id="header_content">
+        <div id="header_left">
+            <div id="sidebar_btn">
+                <input type="checkbox" id="sidebar_btn_input" class="hidden" />
+                <label id="sidebar_btn_label" for="sidebar_btn_input">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.5rem" height="1.5rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+</svg>
+
+</label>
+                <label id="sidebar_canvas_overlay_wrapper" for="sidebar_btn_input">
+                    <div id="sidebar_canvas_overlay"></div>
+                </label>
+                <div id="sidebar">
+                    <ul><li>
+                                <a href="/reusable-protocols/">Reusable Protocols</a></li><li>
+                                <a href="/resources/">Resources</a></li><li>
+                                <a href="/about/">About</a></li><li>
+                                <a href="/blog/">Blog</a></li></ul>
+                </div>
+            </div>
+        
+            <div class="brand">
+                <div>
+                    <a href="/">SustainbleDH</a>
+                </div>
+            </div><nav id="header_navbar" class="pure-menu header-menu">
+    <ul class="pure-menu-list"><li class="header-menu-item pure-menu-item ">
+                    
+                        <a href="/reusable-protocols/" class="pure-menu-link">Reusable Protocols</a>
+                    
+                </li><li class="header-menu-item pure-menu-item ">
+                    
+                        <a href="/resources/" class="pure-menu-link">Resources</a>
+                    
+                </li><li class="header-menu-item pure-menu-item ">
+                    
+                        <a href="/about/" class="pure-menu-link">About</a>
+                    
+                </li><li class="header-menu-item pure-menu-item insection">
+                    
+                        <a href="/blog/" class="pure-menu-link">Blog</a>
+                    
+                </li></ul>
+</nav>
+</div>
+
+        <div id="header_right">
+            
+
+            <div id="theme_tool">
+                <button id="dark_mode_btn" class="header-menu-btn outline-button" title='Switch to dark mode' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.5rem" height="1.5rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+</svg>
+
+</button>
+                <button id="light_mode_btn" class="header-menu-btn outline-button" title='Switch to light mode' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.5rem" height="1.5rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+</svg>
+
+</button>
+            </div>
+
+            
+                <div id="search_tool">
+                    <button id="search_btn" class="header-menu-btn outline-button" title='Search Posts' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.5rem" height="1.5rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+</svg>
+
+</button>
+                </div>
+            
+        </div>
+    </div>
+</header><div id="search_menu_wrapper" class="hidden">
+    <div id="search_menu">
+        <div id="search_menu_toolbar">
+            <div id="search_menu_input_wrapper">
+                <input id="search_menu_input" type="text" placeholder='Search Posts'>
+            </div>
+            <div id="search_menu_close_btn">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.25rem" height="1.25rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>
+</svg>
+
+</div>
+        </div>
+        <div id="search_menu_results">
+        </div>
+    </div>
+</div>
+<main>
+            <div id="content" class="content-margin">
+                <article class="blog-post">
+    <div class="blog-header">
+        <h1 class="blog-title">Phasing Project Shutdown</h1>
+        <div class="blog-meta">
+            
+                <span class="blog-author">By Megan Brett</span>
+             &mdash;
+            
+                <time class="blog-date" datetime="2022-11-21T15:40:37-05:00">
+                    November 21, 2022
+                </time>
+            
+        </div>
+    </div>
+
+
+
+
+    <div class="content-margin">
+
+
+
+<article class="line-numbers">
+    
+    
+
+    
+    
+        
+        
+            
+        
+        <section><p>As part of our sustainability efforts, we created the end of project workflow which we have shared on this site. How does that actually work when put into practice? In some cases, it has allowed us to wind down projects in stages – keeping core functionality and data accessible while removing high maintenance features – rather than leaving them up until a crisis demands triage or conservation efforts.</p>
+<p>We used the workflow with two projects which serve as interesting examples of how to undertake this staged approach in practice. With Creating Local Linkages, we had to decide how to manage closing down the login-only area with a community of users. While we have written about Consolation Prize as a test case for end of project workflows for podcasts, the website for the show also presents some challenges, largely from the plugins which power the episode index page.</p>
+<p>Creating Local Linkages (CLL) was a IMLS-funded project to create an online curriculum and asynchronous course to help public librarians learn how to do – and how to teach patrons to do – digital local history projects. The site was built on WordPress, with the majority of the curriculum and public-facing content made up of WordPress pages and pdf files, all of which were fairly straightforward to flatten. The course component for CLL operated in a members-only part of the website and was run using Commons in a Box (CBox). It included discussion forums for each of the four sessions, a docs feature where participants could create and submit written assignments, and messaging features which the instructors used to provide feedback.</p>
+<p>The first decision which we made with the CLL team was how long they wanted to keep the login-only section of the website live. We were not going to be able to maintain the forums and other parts of the site after flattening. The CLL team also needed to decide how best to communicate the impending closure with the participants.</p>
+<p>The CLL team decided to give course participants until late summer to save any materials from the course. In early May they sent emails to all course participants letting them know that the forums and other areas would be taken down at the end of July. They also sent messages through the forums and messaging system with the same information. A reminder email was sent in late June, and another just a few days before the scheduled end date. In actuality, we left the CBox plugins active until early August, (rightly) anticipating that some participants would wait until the absolute last minute to log in and save their materials.</p>
+<p>We used the three-month grace period for the course participants to prepare the rest of the site for flattening. We checked all of the external and internal links, cleaned up bits of code, and made sure that we knew what the flattened version should look like. We also generated all of the documentation from the end of project workflow, so that we had everything we needed to submit the site to our institutional repository, minus the archive of the site itself. In August we deactivated the CBox plugins, removed the links to the participant areas from the site, and then captured the site in archival form. With that, we had everything we needed to submit the site to the repository. We then took the time to check the flattened version for any odd glitches, ensuring it was ready to go live. The CLL team had said they were happy to move to a flat site after the course section closed, so we were able to transition the site from WordPress to flattened in the fall of 2021.</p>
+<p>While the existence of the course communication platform added additional steps to the process of winding down Creating Local Linkages, we were able to find a way to work that process into the larger end of project workflow. The most important aspect of managing these extra steps was communication – both in terms of alerting participants to the impending closure and monitoring emails, forums, and direct messages in case participants had questions or problems.</p>
+<p>The site for Consolation Prize is also built on WordPress, and like CLL the main driver of sustainability planning has been the functionality of a few of the WordPress plugins – in this case, the plugins which populate the episode index page. These plugins create an interactive map of places covered in the episodes, a subject-based index, and a table of episodes which visitors can use to sort and search. The subject list should flatten fairly easily, as it is just links, and the searchable table may end up being removed before we flatten the site.</p>
+<p>Screenshot of the episode index page of Consolation Prize. There is a world map with mutlicolored pin icons. Below that are rectangular buttons with subject headings.
+Episode index page for Consolation Prize
+The head of the studio wants to keep the map, if possible, because it shows the geographic range that the podcast covered. Each pin on the map corresponds to the location of a consulate discussed in the show’s episodes. We are still trying to determine if it is possible to re-create the map with tools that will work on a flattened site. We are also considering the possibility of replacing the map with a static image showing the locations covered. Our final decision will have to balance the importance of the map to the purpose of the site with the need for code which is relatively flat and low-maintenance.</p>
+<p>Trying to find a solution to the map has not halted all work sustaining and closing down the project. As detailed in the previous post, we are processing all of the individual episodes as records for our institutional repository, a task which includes capturing the show notes – WordPress posts – for each episode. Parts of the site are thus already being captured, and this also acts as a check to ensure that there’s nothing currently broken on those pages which would need to be fixed before flattening.</p>
+<p>Using the end of project workflow as a guiding framework has allowed us to adapt when projects have unique needs without losing track of the essentials. By breaking down the tasks into disparate pieces, we have been able to prepare projects for phased shutdowns, saving our future selves a lot of time and frustration.</p>
+</section>
+    
+</article>
+</div>
+
+</article>
+
+                
+                    
+                
+
+                
+            </div>
+        </main>
+<footer>
+    <article>Copyright © 2020-2025 Roy Rosenzweig Center for History and New Media</article>
+</footer>
+
+</body>
+</html>

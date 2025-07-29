@@ -1,10 +1,10 @@
 baseURL = 'https://sustainabledh.org/'
 languageCode = 'en-us'
-title = 'SustainbleDH'
+title = 'Sustainble DH'
 theme = "hugo-theme-monochrome"
 
 [params]
-footer = "Copyright © 2020-2025 Roy Rosenzweig Center for History and New Media"
+footer = "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Cite as CC-BY-NC-SA 4.0 Roy Rosenzweig Center for History and New Media"
 enable_toc = true
 toc_position = "right"
 enable_collapsible_toc = false

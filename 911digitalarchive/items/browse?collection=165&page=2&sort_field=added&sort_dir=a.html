@@ -74,9 +74,7 @@
             
             <div id="site-title"><a href="../index.html" ><img src="https://911digitalarchive.org/files/theme_uploads/7c6f790d5b9534b2f7bfc9cb93ac4ad4.png" alt="September 11 Digital Archive" /></a>
 </div>
-            <div id="search-container">
-                <form id="search-form" name="search-form" action="https://911digitalarchive.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search" aria-labelledby="submit_search">            <input type="hidden" name="query_type" value="keyword" id="query_type">                <input type="hidden" name="record_types[]" value="Item" id="record_types">                <input type="hidden" name="record_types[]" value="File" id="record_types">                <input type="hidden" name="record_types[]" value="Collection" id="record_types">                <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
-            </div><!-- end search -->
+            
 
             <nav id="top-nav" class="main-navigation">
                 <ul class="navigation">
@@ -101,6 +99,9 @@
     <li>
         <a href="../staff.html">Staff</a>
     </li>
+<li>
+        <a href="../search/index.html">Search</a> 
+    </li>
 </ul>            </nav>
 
         </header>
@@ -116,7 +117,6 @@
         <a href="browse.html">Browse All</a>
     </li>
     <li>
-        <a href="search.html">Search Items</a>
     </li>
 </ul></nav>
 
@@ -389,9 +389,11 @@
 
 <div id="outputs">
     <span class="outputs-label">Output Formats</span>
-                <p id="output-format-list">
-        <a href="browse%3Fcollection=165&amp;page=2&amp;sort_field=added&amp;sort_dir=a&amp;output=atom">atom</a>, <a href="browse%3Fcollection=165&amp;page=2&amp;sort_field=added&amp;sort_dir=a&amp;output=csv">csv</a>, <a href="browse%3Fcollection=165&amp;page=2&amp;sort_field=added&amp;sort_dir=a&amp;output=dc-rdf">dc-rdf</a>, <a href="browse%3Fcollection=165&amp;page=2&amp;sort_field=added&amp;sort_dir=a&amp;output=dcmes-xml">dcmes-xml</a>, <a href="browse%3Fcollection=165&amp;page=2&amp;sort_field=added&amp;sort_dir=a&amp;output=json">json</a>, <a href="browse%3Fcollection=165&amp;page=2&amp;sort_field=added&amp;sort_dir=a&amp;output=omeka-xml">omeka-xml</a>, <a href="browse%3Fcollection=165&amp;page=2&amp;sort_field=added&amp;sort_dir=a&amp;output=rss2">rss2</a>        </p>
-    </div>
+    <p id="output-format-list">
+        <a href="browse%3Foutput=atom">atom</a>, <a href="browse%3Foutput=csv">csv</a>, <a href="browse%3Foutput=dc-rdf">dc-rdf</a>, <a href="browse%3Foutput=dcmes-xml">dcmes-xml</a>, <a href="browse%3Foutput=json">json</a>, <a href="browse%3Foutput=omeka-xml">omeka-xml</a>, <a href="browse%3Foutput=rss2">rss2</a>
+    </p>
+</div>
+
 
 
         </article>
@@ -421,12 +423,15 @@
     <li>
         <a href="../staff.html">Staff</a>
     </li>
+<li>
+        <a href="../search/index.html">Search</a> 
+    </li>
 </ul>            </nav>
 
             <div id="footer-text">
                                                     <!--p></p-->
                     <p>Copyright © 2002<script>new Date().getFullYear()>2002&&document.write("-"+new Date().getFullYear());</script>, Roy Rosenzweig Center for History and New Media and American Social History Project/Center for Media and Learning</p>
-                                <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+                                <p></p>
             </div>
 
             

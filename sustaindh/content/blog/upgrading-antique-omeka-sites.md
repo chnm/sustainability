@@ -30,4 +30,4 @@ Before we could deploy the upgraded site, we also had to deal with the theme. Pr
 
 I want to note that all of the Omeka sites that we remediated in this manner were old projects which were no longer funded. In many cases, the people who worked on the projects are no longer at George Mason. However, in a few cases there was one person associated with the project still at George Mason. In those instances, I talked with them to ask what they felt was the essential functionality of the site, both in terms of content and appearance. These conversations helped the Sustainability Team when it came time to make decisions about plugins and theme settings in the upgraded site.
 
-[Download the technical instructions for updating antique Omeka Classic sites (pdf)]()
+[Download the technical instructions for updating antique Omeka Classic sites (pdf)](/files/HowToUpgradeAntiqueOmekaClassic.pdf)

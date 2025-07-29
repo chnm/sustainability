@@ -1,0 +1,19 @@
+name: "Deploy Static Website -- 911digitalarchive"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "**"
+    paths:
+      - '911digitalarchive/**'
+      - "!.github/**"
+
+jobs:
+  deploy:
+    uses: chnm/.github/.github/workflows/static--deploy.yml@main
+    secrets: inherit
+    with:
+      context_root: "911digitalarchive"
+      website-devl-fqdn: "dev.911digitalarchive.org"
+      website-prod-fqdn: "dev.911digitalarchive.org"

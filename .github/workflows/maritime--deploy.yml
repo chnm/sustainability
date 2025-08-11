@@ -1,0 +1,19 @@
+name: "Deploy Static Website -- maritime"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "**"
+    paths:
+      - 'maritime/**'
+      - "!.github/**"
+
+jobs:
+  deploy:
+    uses: chnm/.github/.github/workflows/static--deploy.yml@main
+    secrets: inherit
+    with:
+      context_root: "maritime"
+      website-devl-fqdn: "static.rrchnm.org"
+      website-prod-fqdn: "maritime-asia.org"

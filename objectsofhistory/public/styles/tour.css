@@ -1,0 +1,21 @@
+/** CSS for tours **/
+
+#tour-meta {margin: 20px 20px 0; padding: 20px 0 10px;background:#49668A;}
+	#tour-meta h2 {margin:0; padding:0.5em 1em; font-size:1em; width:3em;color:#fff;}
+	#tour-meta ul{display:block; text-align:center; padding:0; margin:0;}
+		#tour-meta li {display:inline; width:50px; height:50px;}
+	#tour-meta a { padding:0; width:50px; height:50px;}
+	#tour-meta a:hover img {opacity: 1;}
+	#tour-meta a.current img {opacity: 10; background:#c60;}
+		#tour-meta a img {padding:4px; background:#fff; width:46px; height:46px;opacity: .6;}
+		#tour-meta a span {display:none;}
+
+#tour-description {line-height:1.75em; padding:20px 0;font-size:0.9em; color:#555; display:block; font-style:italic;float:left; width: 180px;}
+
+.activity-items {list-style:none; margin-left:auto; margin-right:auto; padding-left:0;}
+.activity-items li {display:block; float:left; margin:5px;min-height:80px; width:700px;background:#fff09e; clear:left;padding:10px;}
+.activity-items li img {width:80px; height:80px; display:block; float:left;}
+.activity-items li label, .activity-items li h3 {margin-left:90px;}
+
+.tour #item-show {display:block; float:right; width: 520px; padding-left:20px;padding-bottom:10px;border-left:1px dotted #49668A;}
+.pagination-nav {clear:both;padding-top:1em; border-top: 1px dotted #49668A;}

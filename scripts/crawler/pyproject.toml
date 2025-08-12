@@ -3,7 +3,7 @@ name = "crawler"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Jason Heppler",email = "jason.heppler@gmail.com"}
+    {name = "Jason Heppler",email = "jheppler@gmu.edu"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"

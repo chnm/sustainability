@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/minisearch@7.1.2/dist/umd/index.min.js"></script>
+</head>
+<body>
+    <script>
+        const testDoc = {
+            id: 1,
+            title: "Test Title",
+            content: "Test content with words"
+        };
+
+        const testSearch = new MiniSearch({
+            fields: ['title', 'content']
+        });
+
+        console.log('Before:', testSearch.termCount);
+        testSearch.add(testDoc);
+        console.log('After:', testSearch.termCount);
+        console.log('Terms:', Object.keys(testSearch.termCount));
+        console.log('Search test:', testSearch.search('Test'));
+    </script>
+</body>
+</html>

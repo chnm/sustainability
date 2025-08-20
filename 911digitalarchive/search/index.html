@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -200,12 +201,12 @@
 
             <h1>Search Results</h1>
             <div class="entry-content">
-                <!--<button id="prev-btn">Previous</button>
-                <button id="next-btn">Next</button>-->
 
                 <div class="loading-text">Searching...</div>
+                <div id="pagination"></div>
                 <div id="search-results" aria-live="polite"></div>
                 <div id="search-announcement" class="sr-only" aria-live="assertive"></div>
+                <div id="pagination-lower"></div>
             </div>
         </article>
 
@@ -248,7 +249,8 @@
                     Roy Rosenzweig Center for History and New Media and American Social History Project/Center for Media
                     and Learning
                 </p>
-                <p>This is a static version of a former Omeka site. If you encounter a missing or broken item, please contact us at <a href="mailto:chnm@gmu.edu">chnm@gmu.edu</a> for access to the original site.</p>
+                <p>This is a static version of a former Omeka site. If you encounter a missing or broken item, please
+                    contact us at <a href="mailto:chnm@gmu.edu">chnm@gmu.edu</a> for access to the original site.</p>
             </div>
 
 
@@ -303,8 +305,11 @@
             let focusOnResults = false; // Flag to control when to focus on results
 
             //pagination 
-            const itemsPerPage = 25;
+            let allResults = []; // store all search results here
             let currentPage = 1;
+            const resultsPerPage = 25; // adjust for your needs
+            const paginationContainer = document.getElementById('pagination')
+            const paginationContainerLower = document.getElementById('pagination-lower')
 
             // Load the JSON documents
             fetch('/js/search-documents.json')
@@ -354,7 +359,12 @@
                         // Search after a short delay
                         setTimeout(() => {
                             const results = miniSearch.search(query);
-                            displayResults(results, query);
+                            allResults = results
+                            //displayResults(results, query);
+                            if (results.length === 0) {
+                                noResults(query)
+                            }
+                            renderPage(1)
                             loadingText.style.display = 'none';
 
                             // Only focus on results when explicitly requested (Enter key pressed)
@@ -389,7 +399,7 @@
                 });
 
             // Function to display search results
-            function displayResults(results, query) {
+            /*function displayResults(results, query) {
                 if (results.length === 0) {
                     searchResults.innerHTML = '<p>No results found for "' + query + '"</p>';
                     searchAnnouncement.textContent = 'No results found for "' + query + '"';
@@ -398,10 +408,6 @@
 
                 // Create a map to deduplicate results by URL
                 const uniqueResults = new Map();
-
-                //console.log(results)
-                //const totalPages = Math.ceil(results.length / itemsPerPage);
-                //console.log(totalPages)
 
                 // Keep only the first occurrence of each URL, normalizing URLs to handle both with and without index.html
                 results.forEach(result => {
@@ -435,7 +441,99 @@
                 // Announce the number of results for screen readers
                 const resultsCount = uniqueResults.size;
                 searchAnnouncement.textContent = `Found ${resultsCount} result${resultsCount !== 1 ? 's' : ''} for "${query}"`;
+            };*/
+
+            //experimenting with pagination
+            //if no search results
+            function noResults(query) {
+                if (allResults.length === 0) {
+                    searchResults.innerHTML = '<p>No results found for "' + query + '"</p>';
+                    searchAnnouncement.textContent = 'No results found for "' + query + '"';
+                    return;
+                }
             };
+
+            function renderPage(page) {
+                const searchResults = document.getElementById('search-results');
+
+                // Create a map to deduplicate results by URL
+                const uniqueResults = new Map();
+
+                // Keep only the first occurrence of each URL, normalizing URLs to handle both with and without index.html
+                allResults.forEach(result => {
+                    // Normalize the URL by removing index.html from the end
+                    const normalizedUrl = result.url.replace(/\/index\.html$/, '/');
+                    if (!uniqueResults.has(normalizedUrl)) {
+                        uniqueResults.set(normalizedUrl, result);
+                    }
+                });
+
+                let html = '';
+
+                // Calculate slice indexes
+                const startIndex = (page - 1) * resultsPerPage;
+                const endIndex = startIndex + resultsPerPage;
+
+                const pageResults = allResults.slice(startIndex, endIndex);
+
+                pageResults.forEach(result => {
+                    let tagsHtml = '';
+                    if (result.tags && result.tags.length > 0) {
+                        tagsHtml = `<div class="result-tags">Tags: ${result.tags.join(', ')}</div>`;
+                    }
+
+                    html += `
+            <div class="result-item">
+                <div class="result-title"><a href="${result.url}">${result.title}</a></div>
+                <div class="result-url">${result.url}</div>
+                ${tagsHtml}
+            </div>
+        `;
+                });
+
+                searchResults.innerHTML = html;
+                renderPagination();
+            };
+
+            function changePage(page) {
+                const totalPages = Math.ceil(allResults.length / resultsPerPage);
+                if (page >= 1 && page <= totalPages) {
+                    currentPage = page;
+                    renderPage(currentPage);
+                }
+            };
+
+            function renderPagination() {
+                const totalPages = Math.max(1, Math.ceil(allResults.length / resultsPerPage));
+                // limit visible page buttons for long lists
+                const range = 3;
+                const start = Math.max(1, currentPage - range);
+                const end = Math.min(totalPages, currentPage + range);
+
+                let html = `<button class="page-btn" data-page="${currentPage - 1}" ${currentPage === 1 ? 'style="display: none;"' : ''}>Prev</button>`;
+                //html += `<button class="page-btn" data-page="${1}" ${currentPage === 1 ? 'style="display: none;"' : ''}>First</button>`;
+                for (let i = start; i <= end; i++) {
+                    html += `<button class="page-btn ${i === currentPage ? 'active ' : ''}" data-page="${i}" ${i === currentPage ? 'aria-current="page" disabled ' : ''}>${i}</button>`;
+                }
+                //html += `<button class="page-btn" data-page="${totalPages}" ${currentPage === totalPages ? 'style="display: none;"' : ''}>Last</button>`;
+                html += `<button class="page-btn" data-page="${currentPage + 1}" ${currentPage === totalPages ? 'style="display: none;"' : ''}>Next</button>`;
+
+                paginationContainer.innerHTML = html;
+                paginationContainerLower.innerHTML = html;
+            };
+
+            paginationContainer.addEventListener('click', (e) => {
+                const btn = e.target.closest('button[data-page]');
+                if (!btn || btn.disabled) return;
+                const page = Number(btn.dataset.page);
+                changePage(page);
+            });
+            paginationContainerLower.addEventListener('click', (e) => {
+                const btn = e.target.closest('button[data-page]');
+                if (!btn || btn.disabled) return;
+                const page = Number(btn.dataset.page);
+                changePage(page);
+            });
         });
     </script>
 </body>

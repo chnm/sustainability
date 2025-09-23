@@ -144,27 +144,15 @@
 
 <body class="search">
     <div id="wrap">
-
         <header role="banner">
-
-
-
-
             <div id="site-title"><a href="https://911digitalarchive.org"><img
                         src="https://911digitalarchive.org/files/theme_uploads/7c6f790d5b9534b2f7bfc9cb93ac4ad4.png"
                         alt="September 11 Digital Archive"></a>
             </div>
-            <div id="search-container">
-                <div id="search-form">
-                    <input type="text" name="query" id="query" title="Search" aria-labelledby="submit_search"
-                        placeholder="Search for items...">
-                    <button name="submit_search" id="submit_search" type="submit">Search</button>
-                </div>
-            </div>
-            <!--<div id="search-box">
+            <div id="search-box">
                 <input type="text" id="search-input" placeholder="Search for items..."> <button name="submit_search"
                     id="submit_search" value="Search" type="button">Search</button>
-            </div>--><!-- end search -->
+            </div><!-- end search -->
 
             <nav id="top-nav" class="main-navigation">
                 <ul class="navigation">
@@ -201,7 +189,6 @@
 
             <h1>Search Results</h1>
             <div class="entry-content">
-
                 <div class="loading-text">Searching...</div>
                 <div id="pagination"></div>
                 <div id="search-results" aria-live="polite"></div>
@@ -294,9 +281,9 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            //const searchInput = document.getElementById('search-input');
-            const searchInput = document.getElementById('query');
-            const searchResults = document.getElementById('search-results');
+            const searchInput = document.getElementById('search-input');
+            //const searchInput = document.getElementById('query');
+          console.log("search input", searchInput);
             const loadingText = document.querySelector('.loading-text');
             const searchAnnouncement = document.getElementById('search-announcement');
             const searchButton = document.getElementById('submit_search')

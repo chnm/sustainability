@@ -81,7 +81,25 @@ else {window.location.href="../../../cgi-bin/gotodiary?date="+datenum+"&type="+t
 
 
 </script>
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '94']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
 </head>
+
 
 <body bgcolor="#333366" text="#CCCC99" link="#CCCC66" vlink="#999966" alink="#CCCC33" onLoad="MM_preloadImages('MenuImages/lensOnAnim.gif','#948680632233');MM_preloadImages('MenuImages/decodeOn.jpg','#948682901166');MM_preloadImages('MenuImages/transcribeOnAnim.gif','#949615320150');MM_preloadImages('MenuImages/storiesOn.jpg','#949615561083');MM_preloadImages('MenuImages/searchOnAnim.gif','#949615607383');MM_preloadImages('MenuImages/browseOn.jpg','#949615645316')">
 <!-- #BeginLibraryItem "/Library/topNav_toplevel_onBlu.lbi" --><!--start topnav-->
@@ -345,20 +363,5 @@ if (url != "") {top.location.href = url;}
 </table>
 <!--`end bottomnav-->
 <!-- #EndLibraryItem --><p></p>
-<!-- Matomo -->
-<script>
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="https://stats.rrchnm.org/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '94']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
 </body>
 </html>

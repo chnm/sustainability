@@ -241,7 +241,25 @@ function MM_initTimelines() {
         }
     //-->
 </script>
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '94']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
 </head>
+
 
 <body bgcolor="#333366" text="#CCCC99" link="#CCCC66" vlink="#999966" alink="#CCCC33">
 <table border="0" cellpadding="0" cellspacing="0" width="619">
@@ -406,20 +424,5 @@ Study Center</a>, Harvard University and hosted by <a href="http://chnm.gmu.edu/
     deactivateMenu(); // again in case browser performed above script before loading images.
   // -->
 </SCRIPT>
-<!-- Matomo -->
-<script>
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="https://stats.rrchnm.org/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '94']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
 </body>
 </html>

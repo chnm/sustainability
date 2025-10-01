@@ -103,30 +103,6 @@
     <script src="sites/all/modules/ajax_links_api/ajax_links_api.js%3Fqwnke1"></script>
     <script src="sites/all/modules/amboyna_utility/amboyna_utility.js%3Fqwnke1"></script>
     <script src="sites/all/modules/lightbox2/js/lightbox.js%3F1646872692"></script>
-    <script src="modules/matomo/matomo.js%3Fqwnke1"></script>
-    <script>
-      var _paq = _paq || [];
-      (function () {
-        var u =
-          "https:" == document.location.protocol
-            ? "https://stats.rrchnm.org/"
-            : "http://stats.rrchnm.org/";
-        _paq.push(["setSiteId", "65"]);
-        _paq.push(["setTrackerUrl", u + "piwik.php"]);
-        _paq.push(["setDoNotTrack", 1]);
-        _paq.push(["trackPageView"]);
-        _paq.push(["setIgnoreClasses", ["no-tracking", "colorbox"]]);
-        _paq.push(["enableLinkTracking"]);
-        var d = document,
-          g = d.createElement("script"),
-          s = d.getElementsByTagName("script")[0];
-        g.type = "text/javascript";
-        g.defer = true;
-        g.async = true;
-        g.src = u + "piwik.js";
-        s.parentNode.insertBefore(g, s);
-      })();
-    </script>
     <script src="sites/all/modules/views/js/base.js%3Fqwnke1"></script>
     <script src="misc/progress.js%3Fv=7.82"></script>
     <script src="sites/all/modules/views/js/ajax_view.js%3Fqwnke1"></script>
@@ -159,7 +135,6 @@
             "sites\/all\/modules\/ajax_links_api\/ajax_links_api.js": 1,
             "sites\/all\/modules\/amboyna_utility\/amboyna_utility.js": 1,
             "sites\/all\/modules\/lightbox2\/js\/lightbox.js": 1,
-            "modules\/matomo\/matomo.js": 1,
             0: 1,
             "sites\/all\/modules\/views\/js\/base.js": 1,
             "misc\/progress.js": 1,
@@ -267,7 +242,6 @@
           iframe_border: 1,
           enable_video: 0,
         },
-        matomo: { trackMailto: 1 },
         views: {
           ajax_path: "\/views\/ajax",
           ajaxViews: {
@@ -573,7 +547,25 @@
         urlIsAjaxTrusted: { "\/views\/ajax": true },
       });
     </script>
-  </head>
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '65']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+
   <body
     class="html not-front not-logged-in page-node page-node- page-node-73 node-type-timeline-node section-timeline"
     class="html not-front not-logged-in page-node page-node- page-node-73 node-type-timeline-node section-timeline"

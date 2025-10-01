@@ -101,6 +101,40 @@
             margin-bottom: 20px;
             padding-bottom: 20px;
             border-bottom: 1px dotted #ccc;
+            display: flex;
+            gap: 15px;
+        }
+
+        .result-thumbnail {
+            flex-shrink: 0;
+        }
+
+        .result-thumbnail img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+
+        .result-content {
+            flex: 1;
+        }
+
+        .result-no-thumbnail {
+            width: 80px;
+            height: 80px;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 11px;
+            color: #666;
+            line-height: 1.2;
+            flex-shrink: 0;
         }
 
         .result-title {
@@ -138,6 +172,20 @@
             white-space: nowrap;
             border: 0;
         }
+
+        #progress-container {
+            overflow: hidden;
+        }
+
+        #progress-bar {
+            background: linear-gradient(90deg, #43829f 0%, #5a9fc7 100%);
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        #progress-text {
+            color: #666;
+            font-weight: 500;
+        }
     </style>
 
 </head>
@@ -145,8 +193,8 @@
 <body class="search">
     <div id="wrap">
         <header role="banner">
-            <div id="site-title"><a href="https://911digitalarchive.org"><img
-                        src="https://911digitalarchive.org/files/theme_uploads/7c6f790d5b9534b2f7bfc9cb93ac4ad4.png"
+            <div id="site-title"><a href="/"><img
+                        src="/files/theme_uploads/7c6f790d5b9534b2f7bfc9cb93ac4ad4.png"
                         alt="September 11 Digital Archive"></a>
             </div>
             <div id="search-box">
@@ -166,7 +214,7 @@
                         <a href="/about">About</a>
                     </li>
                     <li>
-                        <a href="https://911digitalarchive.org/news/">News</a>
+                        <a href="/news/">News</a>
                     </li>
                     <li>
                         <a href="/faqs">FAQs about 9/11</a>
@@ -190,6 +238,13 @@
             <h1>Search Results</h1>
             <div class="entry-content">
                 <div class="loading-text">Searching...</div>
+                <div id="index-loading" class="loading-text" style="display: block;">
+                    <div>Loading search index...</div>
+                    <div id="progress-container" style="width: 100%; max-width: 500px; margin: 10px auto;">
+                        <div id="progress-bar" style="width: 0%; height: 20px; background-color: #43829f; border-radius: 10px; transition: width 0.3s ease;"></div>
+                        <div id="progress-text" style="text-align: center; margin-top: 5px; font-size: 14px;">0 of 0 documents indexed</div>
+                    </div>
+                </div>
                 <div id="pagination"></div>
                 <div id="search-results" aria-live="polite"></div>
                 <div id="search-announcement" class="sr-only" aria-live="assertive"></div>
@@ -211,7 +266,7 @@
                         <a href="/about">About</a>
                     </li>
                     <li>
-                        <a href="https://911digitalarchive.org/news/">News</a>
+                        <a href="/news/">News</a>
                     </li>
                     <li>
                         <a href="/faqs">FAQs about 9/11</a>
@@ -298,24 +353,91 @@
             const paginationContainer = document.getElementById('pagination')
             const paginationContainerLower = document.getElementById('pagination-lower')
 
-            // Load the JSON documents
-            fetch('/js/search-documents.json')
-                .then(response => response.json())
-                .then(data => {
-                    documents = data;
+            // Function to convert hardcoded URLs to work with current domain
+            function convertUrl(url) {
+                if (url && url.includes('911digitalarchive.org')) {
+                    return url.replace(/https?:\/\/911digitalarchive\.org/, window.location.origin);
+                }
+                return url;
+            }
 
+            // Load the JSON documents with performance tracking
+            // Disable search input while loading
+            searchInput.disabled = true;
+            searchInput.placeholder = 'Loading search index...';
+            searchButton.disabled = true;
+            
+            console.time('Total initialization');
+            console.time('JSON fetch and parse');
+            
+            fetch('/js/search-documents.json')
+                .then(response => {
+                    console.log('Response size:', response.headers.get('content-length'), 'bytes');
+                    return response.json();
+                })
+                .then(data => {
+                    console.timeEnd('JSON fetch and parse');
+                    console.log('Documents loaded:', data.length);
+                    documents = data;
+                    
+                    // Initialize progress bar
+                    const progressBar = document.getElementById('progress-bar');
+                    const progressText = document.getElementById('progress-text');
+                    progressText.textContent = `0 of ${documents.length} documents indexed`;
+
+                    console.time('MiniSearch initialization');
                     // Initialize MiniSearch
                     miniSearch = new MiniSearch({
                         fields: ['title', 'content'],
-                        storeFields: ['title', 'url', 'content', 'tags'],
+                        storeFields: ['title', 'url', 'content', 'tags', 'thumbnail'],
                         searchOptions: {
                             boost: { title: 2 },
                             fuzzy: 0.2
                         }
                     });
+                    console.timeEnd('MiniSearch initialization');
 
-                    // Add documents to the index
-                    miniSearch.addAll(documents);
+                    console.time('MiniSearch indexing');
+                    // Add documents to the index in batches to avoid blocking
+                    const batchSize = 1000;
+                    let index = 0;
+                    
+                    function addBatch() {
+                        const batch = documents.slice(index, index + batchSize);
+                        if (batch.length > 0) {
+                            miniSearch.addAll(batch);
+                            index += batchSize;
+                            const currentCount = Math.min(index, documents.length);
+                            console.log(`Indexed ${currentCount} of ${documents.length} documents`);
+                            
+                            // Update progress bar
+                            const progressPercentage = (currentCount / documents.length) * 100;
+                            progressBar.style.width = progressPercentage + '%';
+                            progressText.textContent = `${currentCount.toLocaleString()} of ${documents.length.toLocaleString()} documents indexed`;
+                            
+                            if (index < documents.length) {
+                                // Use setTimeout to yield control back to the browser
+                                setTimeout(addBatch, 10);
+                            } else {
+                                console.timeEnd('MiniSearch indexing');
+                                console.timeEnd('Total initialization');
+                                console.log('Search index ready!');
+                                
+                                // Show completion message briefly
+                                progressText.textContent = 'Search index ready! You can now search.';
+                                setTimeout(() => {
+                                    document.getElementById('index-loading').style.display = 'none';
+                                }, 1000);
+                                
+                                // Re-enable search input
+                                searchInput.disabled = false;
+                                searchInput.placeholder = 'Search for items...';
+                                searchButton.disabled = false;
+                            }
+                        }
+                    }
+                    
+                    addBatch();
 
                     // Add event listener for Enter key press to trigger focusing on results
                     searchInput.addEventListener('keydown', function (e) {
@@ -345,7 +467,10 @@
 
                         // Search after a short delay
                         setTimeout(() => {
+                            console.time(`Search for "${query}"`);
                             const results = miniSearch.search(query);
+                            console.timeEnd(`Search for "${query}"`);
+                            console.log(`Found ${results.length} results`);
                             allResults = results
                             //displayResults(results, query);
                             if (results.length === 0) {
@@ -441,27 +566,20 @@
             };
 
             function renderPage(page) {
+                console.time('renderPage');
                 const searchResults = document.getElementById('search-results');
 
-                // Create a map to deduplicate results by URL
-                const uniqueResults = new Map();
+                // Calculate slice indexes first (more efficient)
+                const startIndex = (page - 1) * resultsPerPage;
+                const endIndex = startIndex + resultsPerPage;
+                const pageResults = allResults.slice(startIndex, endIndex);
 
-                // Keep only the first occurrence of each URL, normalizing URLs to handle both with and without index.html
-                allResults.forEach(result => {
-                    // Normalize the URL by removing index.html from the end
-                    const normalizedUrl = result.url.replace(/\/index\.html$/, '/');
-                    if (!uniqueResults.has(normalizedUrl)) {
-                        uniqueResults.set(normalizedUrl, result);
-                    }
-                });
+                console.log(`Rendering page ${page}, showing ${pageResults.length} results`);
 
                 let html = '';
 
-                // Calculate slice indexes
-                const startIndex = (page - 1) * resultsPerPage;
-                const endIndex = startIndex + resultsPerPage;
-
-                const pageResults = allResults.slice(startIndex, endIndex);
+                // Create a document fragment for better DOM performance
+                const fragment = document.createDocumentFragment();
 
                 pageResults.forEach(result => {
                     let tagsHtml = '';
@@ -469,17 +587,29 @@
                         tagsHtml = `<div class="result-tags">Tags: ${result.tags.join(', ')}</div>`;
                     }
 
+                    let thumbnailHtml = '';
+                    if (result.thumbnail) {
+                        const thumbnailUrl = convertUrl(result.thumbnail);
+                        thumbnailHtml = `<div class="result-thumbnail"><img loading="lazy" src="${thumbnailUrl}" alt="Thumbnail for ${result.title}"></div>`;
+                    } else {
+                        thumbnailHtml = `<div class="result-no-thumbnail">No image preview available</div>`;
+                    }
+
                     html += `
             <div class="result-item">
-                <div class="result-title"><a href="${result.url}">${result.title}</a></div>
-                <div class="result-url">${result.url}</div>
-                ${tagsHtml}
+                ${thumbnailHtml}
+                <div class="result-content">
+                    <div class="result-title"><a href="${result.url}">${result.title}</a></div>
+                    <div class="result-url">${result.url}</div>
+                    ${tagsHtml}
+                </div>
             </div>
         `;
                 });
 
                 searchResults.innerHTML = html;
                 renderPagination();
+                console.timeEnd('renderPage');
             };
 
             function changePage(page) {

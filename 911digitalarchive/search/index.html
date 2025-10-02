@@ -193,8 +193,8 @@
 <body class="search">
     <div id="wrap">
         <header role="banner">
-            <div id="site-title"><a href="/"><img
-                        src="/files/theme_uploads/7c6f790d5b9534b2f7bfc9cb93ac4ad4.png"
+            <div id="site-title"><a href="https://911digitalarchive.org"><img
+                        src="https://911digitalarchive.org/files/theme_uploads/7c6f790d5b9534b2f7bfc9cb93ac4ad4.png"
                         alt="September 11 Digital Archive"></a>
             </div>
             <div id="search-box">
@@ -214,7 +214,7 @@
                         <a href="/about">About</a>
                     </li>
                     <li>
-                        <a href="/news/">News</a>
+                        <a href="https://911digitalarchive.org/news/">News</a>
                     </li>
                     <li>
                         <a href="/faqs">FAQs about 9/11</a>
@@ -266,7 +266,7 @@
                         <a href="/about">About</a>
                     </li>
                     <li>
-                        <a href="/news/">News</a>
+                        <a href="https://911digitalarchive.org/news/">News</a>
                     </li>
                     <li>
                         <a href="/faqs">FAQs about 9/11</a>
@@ -353,13 +353,6 @@
             const paginationContainer = document.getElementById('pagination')
             const paginationContainerLower = document.getElementById('pagination-lower')
 
-            // Function to convert hardcoded URLs to work with current domain
-            function convertUrl(url) {
-                if (url && url.includes('911digitalarchive.org')) {
-                    return url.replace(/https?:\/\/911digitalarchive\.org/, window.location.origin);
-                }
-                return url;
-            }
 
             // Load the JSON documents with performance tracking
             // Disable search input while loading
@@ -589,8 +582,7 @@
 
                     let thumbnailHtml = '';
                     if (result.thumbnail) {
-                        const thumbnailUrl = convertUrl(result.thumbnail);
-                        thumbnailHtml = `<div class="result-thumbnail"><img loading="lazy" src="${thumbnailUrl}" alt="Thumbnail for ${result.title}"></div>`;
+                        thumbnailHtml = `<div class="result-thumbnail"><img loading="lazy" src="${result.thumbnail}" alt="Thumbnail for ${result.title}"></div>`;
                     } else {
                         thumbnailHtml = `<div class="result-no-thumbnail">No image preview available</div>`;
                     }

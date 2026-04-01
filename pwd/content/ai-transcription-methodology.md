@@ -1,0 +1,56 @@
+---
+title: "Transcription Methodology Using Generative AI"
+slug: ai-transcription-methodology
+type: page
+---
+
+## Overview
+
+The *Papers of the War Department* collection contains over 42,000 documents, many of which are handwritten correspondence and records from the late 18th century. Since 2011, volunteer transcribers have contributed human transcriptions of these documents. To supplement this effort and expand access to documents that have not yet been transcribed by hand, the project has developed an AI-assisted transcription pipeline using generative AI.
+
+AI transcriptions are presented alongside human transcriptions in a tabbed interface on each document page. Where a human transcription exists, it remains the primary text. AI transcriptions are clearly labeled and should be understood as machine-generated readings that may contain errors, particularly with difficult handwriting, damaged documents, or unusual letterforms.
+
+## Model and Approach
+
+AI transcriptions are generated using [Anthropic's Claude](https://www.anthropic.com/claude), a large language model with strong vision capabilities for reading handwritten text. The default model used is **Claude Sonnet**, though the pipeline supports other Claude model variants.
+
+Each document's page images are sent to the model along with a detailed system prompt that instructs the model to act as an expert paleographer specializing in 18th-century American handwritten documents. The model processes the images and returns a plain-text transcription.
+
+## Transcription Guidelines
+
+The AI transcription prompt follows the same editorial standards used by human transcribers on this project:
+
+- **Faithful reproduction**: The text is transcribed exactly as it appears, preserving original spelling, punctuation, and capitalization, even when unconventional by modern standards.
+- **No modernization**: Spelling is not corrected or standardized. Punctuation and capitalization follow the original document.
+- **Marginalia and notations**: Postal notations, administrative notes, and other marginalia are recorded in brackets.
+- **Document markings**: Strikethroughs are indicated as `[strikethrough: text]`, underlined text as `[underline: text]`, and superscript characters use `<sup>` tags (e.g., May 19<sup>th</sup>, 1793).
+- **Illegible text**: Words that cannot be deciphered are marked `[undecipherable]`. Partial readings are noted as `[undecipherable: probable reading]`.
+- **Multi-page documents**: Pages are transcribed in order as a continuous document without page markers.
+- **Scope**: Only the primary document in each record is transcribed. Letter books or other compilations that may appear in the same image are not included unless they are the subject of the record.
+
+## Technical Pipeline
+
+The transcription pipeline works as follows:
+
+1. **Image retrieval**: Document page images are identified from each document's metadata. Original-resolution images are fetched from the project's object storage.
+2. **API submission**: Images are sent to the Claude API as base64-encoded data along with the paleography system prompt. A low temperature setting (0.1) is used to favor consistent, conservative readings over creative interpretation.
+3. **Output storage**: Transcriptions are saved to a structured JSON file (`data/transcriptions_ai.json`), keyed by each document's identifier. This file is read by Hugo at build time and displayed in the AI transcription tab.
+4. **Batch processing**: Documents are processed sequentially with rate limiting. The pipeline supports resuming interrupted runs and skipping documents that have already been transcribed.
+
+## Limitations
+
+AI transcription of 18th-century handwriting is an imperfect process. Users should be aware of the following limitations:
+
+- **Handwriting variability**: The quality of AI transcriptions varies with the legibility of the original handwriting. Documents written in clear, consistent hands produce better results than those with irregular or hurried script.
+- **Damaged or faded documents**: Ink fading, water damage, tears, and other physical deterioration reduce transcription accuracy.
+- **Abbreviations and conventions**: Period-specific abbreviations, contractions (e.g., the "thorn" character for "the"), and letterforms may be misread.
+- **Context and proper nouns**: The model may misread unfamiliar place names, personal names, or specialized terminology from the period.
+- **Not a substitute for scholarly editing**: AI transcriptions have not been reviewed or corrected by human editors. They are provided as a reading aid, not as a definitive scholarly text.
+
+## Use and Citation
+
+AI transcriptions are provided to improve access to the collection and to support research, teaching, and public engagement. When citing an AI-generated transcription, users should note that it is a machine-generated text. We recommend the following citation format:
+
+> [Document title], Papers of the War Department, 1784–1800. AI transcription generated by Claude (Anthropic). [URL]. Accessed [date].
+
+For scholarship requiring high accuracy, users are encouraged to verify AI transcriptions against the document images, which are available on each document's page.

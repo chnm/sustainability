@@ -1,0 +1,59 @@
+<ul class="navigation">
+    <li{{ if eq .Page.Params.slug "about" }} class="active"{{ end }}>
+        <a href="/about/">About</a>
+        <ul>
+            <li><a href="/project_history/">Project History</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/news/">News</a>
+    </li>
+    <li{{ if eq .Page.Params.slug "Guides" }} class="active"{{ end }}>
+        <a href="/Guides/">Guides</a>
+        <ul>
+            <li>
+                <a href="/usermanual/">How to use the Papers of the War Department</a>
+                <ul>
+                    <li><a href="/browsing-pwd/">Browsing Names and Documents</a></li>
+                    <li><a href="/searching-pwd/">Searching the Collection</a></li>
+                    <li><a href="/cite_docs/">How to Cite Documents</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/context/">Historical Context</a>
+                <ul>
+                    <li><a href="/resources/">Resources for the Late Eighteenth Century United States</a></li>
+                    <li><a href="/abbreviations/">Commonly used abbreviations</a></li>
+                    <li><a href="/paleography/">Paleography resources</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/transcribing-guide/">Transcribing the Papers of the War Department</a>
+                <ul>
+                    <li><a href="/transcribe-start/">Creating an Account</a></li>
+                    <li><a href="/transcribe-guidelines/">Transcription Guidelines</a></li>
+                    <li><a href="/dashboard/">User Accounts: Dashboard, Contributions, and Watchlist</a></li>
+                    <li><a href="/browsedocuments/">Browsing and Searching Documents</a></li>
+                    <li><a href="/docs/">Working with Documents</a></li>
+                    <li><a href="/pages/">Viewing and Transcribing Pages</a></li>
+                    <li><a href="/screencasts/">Screencasts</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li{{ if eq .Page.Params.slug "teach" }} class="active"{{ end }}>
+        <a href="/teach/">Teach</a>
+        <ul>
+            <li><a href="/pensions/">Pensions</a></li>
+            <li><a href="/counterfeit/">Counterfeiting</a></li>
+            <li><a href="/indigenousdiplomacy/">Indigenous Diplomacy</a></li>
+            <li><a href="/quasiwar/">Quasi War</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/document/">Collection</a>
+    </li>
+    <li>
+        <a href="/search/">Search</a>
+    </li>
+</ul>

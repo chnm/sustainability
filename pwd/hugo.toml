@@ -1,0 +1,20 @@
+baseURL = "https://wardepartmentpapers.org/"
+languageCode = "en-us"
+title = "Papers of the War Department"
+staticDir = ["static"]
+
+[params]
+  mediaBaseURL = "https://obj.rrchnm.org/wardepartmentpapers.org"
+
+[taxonomies]
+  author = "authors"
+  recipient = "recipients"
+  collection = "collections"
+  repository = "repositories"
+  doc_type = "doc_types"
+
+[pagination]
+  pagerSize = 25
+
+[markup.goldmark.renderer]
+  unsafe = true

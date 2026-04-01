@@ -1,0 +1,10 @@
+{{/* Shared item sections — currently minimal after restructuring */}}
+{{ with .Params.content_note }}
+<div class="property"><h4>Content note</h4><div class="values"><div class="value">{{ . }}</div></div></div>
+{{ end }}
+{{ with .Params.author_note }}
+<div class="property"><h4>Author note</h4><div class="values"><div class="value">{{ . }}</div></div></div>
+{{ end }}
+{{ with .Params.recipient_note }}
+<div class="property"><h4>Recipient note</h4><div class="values"><div class="value">{{ . }}</div></div></div>
+{{ end }}

@@ -1,0 +1,56 @@
+{{ with .Params.doc_types }}
+<div class="property"><h4>Type</h4><div class="values">{{ range . }}<div class="value">{{ . }}</div>{{ end }}</div></div>
+{{ end }}
+{{ with .Params.description }}
+<div class="property"><h4>Description</h4><div class="values"><div class="value">{{ . }}</div></div></div>
+{{ end }}
+{{ if or .Params.year .Params.month .Params.day }}
+<div class="property"><h4>Date</h4><div class="values"><div class="value">{{ with .Params.month }}{{ . }}/{{ end }}{{ with .Params.day }}{{ . }}/{{ end }}{{ with .Params.year }}{{ . }}{{ end }}</div></div></div>
+{{ end }}
+{{ with .Params.authors }}
+<div class="property"><h4>Author</h4><div class="values">
+    {{ range . }}<div class="value"><a class="resource-link" href="{{ "authors" | relURL }}/{{ . | urlize }}/">{{ . }}</a></div>{{ end }}
+</div></div>
+{{ end }}
+{{ with .Params.recipients }}
+<div class="property"><h4>Recipient</h4><div class="values">
+    {{ range . }}<div class="value"><a class="resource-link" href="{{ "recipients" | relURL }}/{{ . | urlize }}/">{{ . }}</a></div>{{ end }}
+</div></div>
+{{ end }}
+{{ with .Params.sent_from }}
+<div class="property"><h4>Sent from</h4><div class="values"><div class="value">{{ . }}</div></div></div>
+{{ end }}
+{{ with .Params.repositories }}
+<div class="property"><h4>Repository</h4><div class="values">
+    {{ range . }}<div class="value"><a class="resource-link" href="{{ "repositories" | relURL }}/{{ . | urlize }}/">{{ . }}</a></div>{{ end }}
+</div></div>
+{{ end }}
+{{ with .Params.collections }}
+<div class="property"><h4>Collection</h4><div class="values">
+    {{ range . }}<div class="value"><a class="resource-link" href="{{ "collections" | relURL }}/{{ . | urlize }}/">{{ . }}</a></div>{{ end }}
+</div></div>
+{{ end }}
+{{ with .Params.document_number }}
+<div class="property"><h4>Document number</h4><div class="values"><div class="value">{{ . }}</div></div></div>
+{{ end }}
+{{ with .Params.page_start }}
+<div class="property"><h4>Page start</h4><div class="values"><div class="value">{{ . }}</div></div></div>
+{{ end }}
+{{ with .Params.note }}
+<div class="property"><h4>Note</h4><div class="values"><div class="value">{{ . }}</div></div></div>
+{{ end }}
+{{ with .Params.notable_persons }}
+<div class="property"><h4>Notable persons</h4><div class="values">
+    {{ range . }}<div class="value" data-pagefind-filter="notable_person">{{ . }}</div>{{ end }}
+</div></div>
+{{ end }}
+{{ with .Params.notable_locations }}
+<div class="property"><h4>Notable locations</h4><div class="values">
+    {{ range . }}<div class="value" data-pagefind-filter="notable_location">{{ . }}</div>{{ end }}
+</div></div>
+{{ end }}
+{{ with .Params.notable_items }}
+<div class="property"><h4>Notable items</h4><div class="values">
+    {{ range . }}<div class="value" data-pagefind-filter="notable_item">{{ . }}</div>{{ end }}
+</div></div>
+{{ end }}

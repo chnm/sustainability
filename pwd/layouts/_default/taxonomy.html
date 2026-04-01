@@ -1,0 +1,85 @@
+{{ define "bodyclass" }}taxonomy browse{{ end }}
+{{ define "main" }}
+{{ if eq .Kind "term" }}
+    {{/* Term page: list of documents for a specific term */}}
+    <h2>{{ .Title }}</h2>
+    <p class="term-context">{{ len .Pages }} document{{ if ne (len .Pages) 1 }}s{{ end }}</p>
+
+    {{ $paginator := .Paginate (.Pages.ByParam "year") }}
+    <div class="browse-controls">
+        <nav class="pagination" aria-label="Pagination">
+            {{ template "_internal/pagination.html" . }}
+            <span class="row-count">{{ len $paginator.Pages }} of {{ $paginator.TotalNumberOfElements }}</span>
+        </nav>
+    </div>
+    <ul class="resource-list term-documents">
+        {{ range $paginator.Pages }}
+        <li class="item resource">
+            <div class="item-meta">
+                {{ with .Params.thumbnail_square }}
+                <a class="item-thumbnail" href="{{ $.RelPermalink }}" aria-hidden="true" tabindex="-1"><img src="{{ . }}" alt="" loading="lazy"></a>
+                {{ end }}
+                <div class="item-details">
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                    <div class="item-metadata">
+                        {{ if or .Params.year .Params.month .Params.day }}
+                        <span class="item-date">{{ with .Params.month }}{{ . }}/{{ end }}{{ with .Params.day }}{{ . }}/{{ end }}{{ with .Params.year }}{{ . }}{{ end }}</span>
+                        {{ end }}
+                        {{ with .Params.doc_types }}
+                        <span class="item-type">{{ index . 0 }}</span>
+                        {{ end }}
+                    </div>
+                    {{ with .Params.description }}
+                    <p class="item-description">{{ truncate 200 . }}</p>
+                    {{ end }}
+                    {{ with .Params.collections }}
+                    <span class="item-collection"><a href="{{ "collections" | relURL }}/{{ index . 0 | urlize }}/">{{ index . 0 }}</a></span>
+                    {{ end }}
+                </div>
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+    <div class="browse-controls">
+        <nav class="pagination" aria-label="Pagination">
+            {{ template "_internal/pagination.html" . }}
+        </nav>
+    </div>
+{{ else }}
+    {{/* Taxonomy list page: all terms alphabetically */}}
+    <h2>{{ .Title }}</h2>
+    {{ .Content }}
+    <p class="row-count">{{ len .Pages }} terms</p>
+
+    {{ $currentLetter := "" }}
+    {{ range .Pages.ByTitle }}
+        {{ $firstLetter := upper (substr .Title 0 1) }}
+        {{ if ne $firstLetter $currentLetter }}
+            {{ if $currentLetter }}
+                </ul>
+            {{ end }}
+            {{ $currentLetter = $firstLetter }}
+            <h3 class="alpha-heading" id="letter-{{ $firstLetter }}">{{ $firstLetter }}</h3>
+            <ul class="taxonomy-list">
+        {{ end }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <span class="count">({{ len .Pages }})</span>
+        </li>
+    {{ end }}
+    {{ if $currentLetter }}
+        </ul>
+    {{ end }}
+
+    <nav class="alpha-nav" aria-label="Alphabetical navigation">
+        {{ $seen := dict }}
+        {{ range .Pages.ByTitle }}
+            {{ $letter := upper (substr .Title 0 1) }}
+            {{ if not (index $seen $letter) }}
+                {{ $seen = merge $seen (dict $letter true) }}
+                <a href="#letter-{{ $letter }}">{{ $letter }}</a>
+            {{ end }}
+        {{ end }}
+    </nav>
+{{ end }}
+{{ end }}

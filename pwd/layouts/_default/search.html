@@ -1,0 +1,17 @@
+{{ define "bodyclass" }}page search{{ end }}
+{{ define "main" }}
+<h2>Search the Collection</h2>
+<div id="search"></div>
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+window.addEventListener('DOMContentLoaded', function () {
+    new PagefindUI({
+        element: "#search",
+        showSubResults: true,
+        showImages: false,
+        resetStyles: false
+    });
+});
+</script>
+{{ end }}

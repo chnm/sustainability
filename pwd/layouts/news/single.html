@@ -1,0 +1,20 @@
+{{ define "bodyclass" }}page news{{ end }}
+{{ define "main" }}
+<div class="blocks">
+    <article>
+        <div class="post-header">
+            <h2 class="post-title">{{ .Title }}</h2>
+            <div class="post-meta">
+                {{ with .Params.author }}<span class="author">{{ . }}</span>{{ end }}
+                <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
+                {{ with .Params.categories }}
+                <span class="categories">{{ range . }}{{ . }} {{ end }}</span>
+                {{ end }}
+            </div>
+        </div>
+        <div class="post-content" data-pagefind-body>
+            {{ .Content }}
+        </div>
+    </article>
+</div>
+{{ end }}

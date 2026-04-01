@@ -1,0 +1,13 @@
+{{ define "bodyclass" }}page {{ .Params.slug | default .File.BaseFileName }}{{ end }}
+{{ define "main" }}
+<div class="blocks" data-pagefind-body>
+    <h2>{{ .Title }}</h2>
+    {{ .Content }}
+</div>
+{{ if or .PrevInSection .NextInSection }}
+<nav class="site-page-pagination" aria-label="Page navigation">
+    {{ with .PrevInSection }}<a class="yellow button" href="{{ .RelPermalink }}" aria-label="Previous: {{ .Title }}">Previous</a>{{ end }}
+    {{ with .NextInSection }}<a class="yellow button" href="{{ .RelPermalink }}" aria-label="Next: {{ .Title }}">Next</a>{{ end }}
+</nav>
+{{ end }}
+{{ end }}

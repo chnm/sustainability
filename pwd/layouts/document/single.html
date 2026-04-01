@@ -1,0 +1,228 @@
+{{ define "bodyclass" }}item show{{ end }}
+{{ define "main" }}
+<article data-pagefind-body>
+<h2><span class="title">{{ .Title }}</span></h2>
+{{ with .Params.resource_type }}<span data-pagefind-filter="type" hidden>{{ . }}</span>{{ end }}
+{{ with .Params.year }}<span data-pagefind-filter="year" hidden>{{ . }}</span>{{ end }}
+
+{{ $images := .Params.images | default slice }}
+
+<div class="document-primary">
+    {{ if $images }}
+    <div class="document-images">
+        <div class="doc-viewer-controls">
+            {{ if gt (len $images) 1 }}
+            <div class="doc-gallery-nav">
+                <button class="doc-viewer-btn doc-gallery-prev" aria-label="Previous page">&#8249;</button>
+                <span class="doc-gallery-counter" aria-live="polite"><span class="doc-gallery-cur">1</span> / {{ len $images }}</span>
+                <button class="doc-viewer-btn doc-gallery-next" aria-label="Next page">&#8250;</button>
+            </div>
+            {{ end }}
+            <div class="doc-zoom-controls">
+                <button class="doc-viewer-btn doc-zoom-out" aria-label="Zoom out">&#x2212;</button>
+                <span class="doc-zoom-level" aria-live="polite">100%</span>
+                <button class="doc-viewer-btn doc-zoom-in" aria-label="Zoom in">&#x2b;</button>
+                <button class="doc-viewer-btn doc-zoom-reset" aria-label="Reset zoom">Fit</button>
+            </div>
+            <a class="doc-viewer-btn doc-download" href="{{ $.Site.Params.mediaBaseURL }}/files/original/{{ index $images 0 }}" download aria-label="Download original">&#x21e3;</a>
+        </div>
+        <div class="doc-image-viewport" tabindex="0" role="img" aria-label="Document image viewer — use plus and minus to zoom, arrow keys to pan">
+            {{ range $i, $file := $images }}
+            <img class="doc-image{{ if gt (len $images) 1 }} doc-gallery-slide{{ end }}"
+                 src="{{ $.Site.Params.mediaBaseURL }}/files/large/{{ $file }}"
+                 data-original="{{ $.Site.Params.mediaBaseURL }}/files/original/{{ $file }}"
+                 loading="{{ if eq $i 0 }}eager{{ else }}lazy{{ end }}"
+                 alt="Page {{ add $i 1 }}"
+                 draggable="false">
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+    <div class="document-transcription">
+        <div class="transcription-tabs" role="tablist" aria-label="Transcription">
+            <button class="tab active" role="tab" aria-selected="true" aria-controls="panel-human" id="tab-human" data-tab="human">Human transcription</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="panel-ai" id="tab-ai" data-tab="ai" tabindex="-1">AI transcription</button>
+        </div>
+        <div class="tab-content active" role="tabpanel" id="panel-human" aria-labelledby="tab-human" data-tab-content="human">
+            {{ if .Content }}
+            <div class="transcription-text" data-pagefind-weight="2">{{ .Content }}</div>
+            {{ else }}
+            <p class="transcription-unavailable"><em>No human transcription currently available for this document.</em></p>
+            {{ end }}
+        </div>
+        <div class="tab-content" role="tabpanel" id="panel-ai" aria-labelledby="tab-ai" data-tab-content="ai" hidden>
+            {{ $aiTrans := false }}
+            {{ with .Site.Data.transcriptions_ai }}
+                {{ $aiTrans = index . (string $.Params.omeka_id) }}
+            {{ end }}
+            {{ with $aiTrans }}
+            <div class="transcription-text">{{ . | safeHTML }}</div>
+            {{ else }}
+            <p class="transcription-unavailable"><em>AI transcription not yet available for this document.</em></p>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Mobile nav toggle
+    var navToggle = document.querySelector('.nav-toggle');
+    if (navToggle) {
+        navToggle.addEventListener('click', function() {
+            var expanded = this.getAttribute('aria-expanded') === 'true';
+            this.setAttribute('aria-expanded', !expanded);
+        });
+    }
+
+    // ARIA tabs with keyboard navigation
+    document.querySelectorAll('[role="tablist"]').forEach(function(tablist) {
+        var tabs = Array.from(tablist.querySelectorAll('[role="tab"]'));
+        var panels = tabs.map(function(tab) {
+            return document.getElementById(tab.getAttribute('aria-controls'));
+        });
+
+        function activateTab(tab) {
+            tabs.forEach(function(t, i) {
+                var selected = t === tab;
+                t.setAttribute('aria-selected', selected);
+                t.classList.toggle('active', selected);
+                t.tabIndex = selected ? 0 : -1;
+                panels[i].hidden = !selected;
+                panels[i].classList.toggle('active', selected);
+            });
+            tab.focus();
+        }
+
+        tabs.forEach(function(tab) {
+            tab.addEventListener('click', function() { activateTab(this); });
+        });
+
+        tablist.addEventListener('keydown', function(e) {
+            var idx = tabs.indexOf(document.activeElement);
+            if (idx === -1) return;
+            if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+                e.preventDefault();
+                var next = e.key === 'ArrowRight' ? (idx + 1) % tabs.length : (idx - 1 + tabs.length) % tabs.length;
+                activateTab(tabs[next]);
+            }
+            if (e.key === 'Home') { e.preventDefault(); activateTab(tabs[0]); }
+            if (e.key === 'End') { e.preventDefault(); activateTab(tabs[tabs.length - 1]); }
+        });
+    });
+
+    // Image viewer: zoom, pan, gallery, keyboard
+    document.querySelectorAll('.document-images').forEach(function(viewer) {
+        var viewport  = viewer.querySelector('.doc-image-viewport');
+        var images    = Array.from(viewport.querySelectorAll('.doc-image'));
+        var zoomLabel = viewer.querySelector('.doc-zoom-level');
+        var downloadBtn = viewer.querySelector('.doc-download');
+        var currentImg = images[0];
+        var currentIdx = 0;
+
+        var zoom = 1, panX = 0, panY = 0;
+        var isDragging = false, dragStartX, dragStartY, panStartX, panStartY;
+        var MIN_ZOOM = 0.5, MAX_ZOOM = 5, ZOOM_STEP = 0.25, PAN_STEP = 50;
+
+        function applyTransform() {
+            currentImg.style.transform = 'translate(' + panX + 'px,' + panY + 'px) scale(' + zoom + ')';
+            zoomLabel.textContent = Math.round(zoom * 100) + '%';
+            viewport.style.cursor = zoom > 1 ? 'grab' : 'default';
+        }
+
+        function resetZoom() {
+            zoom = 1; panX = 0; panY = 0;
+            applyTransform();
+        }
+
+        function setZoom(newZoom) {
+            zoom = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, newZoom));
+            if (zoom <= 1) { panX = 0; panY = 0; }
+            applyTransform();
+        }
+
+        // Zoom button controls
+        viewer.querySelector('.doc-zoom-in').addEventListener('click', function() { setZoom(zoom + ZOOM_STEP); });
+        viewer.querySelector('.doc-zoom-out').addEventListener('click', function() { setZoom(zoom - ZOOM_STEP); });
+        viewer.querySelector('.doc-zoom-reset').addEventListener('click', resetZoom);
+
+        // Mouse wheel zoom — only preventDefault when zoomed to avoid trapping scroll
+        viewport.addEventListener('wheel', function(e) {
+            if (zoom > 1 || e.deltaY < 0) {
+                e.preventDefault();
+                setZoom(zoom + (e.deltaY > 0 ? -ZOOM_STEP : ZOOM_STEP));
+            }
+        }, { passive: false });
+
+        // Click-drag pan
+        viewport.addEventListener('mousedown', function(e) {
+            if (zoom <= 1) return;
+            isDragging = true;
+            dragStartX = e.clientX; dragStartY = e.clientY;
+            panStartX = panX; panStartY = panY;
+            viewport.style.cursor = 'grabbing';
+            e.preventDefault();
+        });
+        window.addEventListener('mousemove', function(e) {
+            if (!isDragging) return;
+            panX = panStartX + (e.clientX - dragStartX);
+            panY = panStartY + (e.clientY - dragStartY);
+            applyTransform();
+        });
+        window.addEventListener('mouseup', function() {
+            if (isDragging) {
+                isDragging = false;
+                viewport.style.cursor = zoom > 1 ? 'grab' : 'default';
+            }
+        });
+
+        // Keyboard zoom and pan on viewport
+        viewport.addEventListener('keydown', function(e) {
+            var handled = true;
+            switch (e.key) {
+                case '+': case '=': setZoom(zoom + ZOOM_STEP); break;
+                case '-': setZoom(zoom - ZOOM_STEP); break;
+                case '0': resetZoom(); break;
+                case 'ArrowUp':    if (zoom > 1) { panY += PAN_STEP; applyTransform(); } else handled = false; break;
+                case 'ArrowDown':  if (zoom > 1) { panY -= PAN_STEP; applyTransform(); } else handled = false; break;
+                case 'ArrowLeft':  if (zoom > 1) { panX += PAN_STEP; applyTransform(); } else handled = false; break;
+                case 'ArrowRight': if (zoom > 1) { panX -= PAN_STEP; applyTransform(); } else handled = false; break;
+                default: handled = false;
+            }
+            if (handled) e.preventDefault();
+        });
+
+        // Gallery carousel (if multi-page)
+        if (images.length > 1) {
+            var counter = viewer.querySelector('.doc-gallery-cur');
+            var prevBtn = viewer.querySelector('.doc-gallery-prev');
+            var nextBtn = viewer.querySelector('.doc-gallery-next');
+
+            function goTo(n) {
+                images[currentIdx].hidden = true;
+                images[currentIdx].style.transform = '';
+                currentIdx = n;
+                currentImg = images[currentIdx];
+                currentImg.hidden = false;
+                counter.textContent = currentIdx + 1;
+                prevBtn.disabled = currentIdx === 0;
+                nextBtn.disabled = currentIdx === images.length - 1;
+                downloadBtn.href = currentImg.dataset.original;
+                resetZoom();
+            }
+
+            images.forEach(function(img) { img.hidden = true; });
+            goTo(0);
+
+            prevBtn.addEventListener('click', function() { if (currentIdx > 0) goTo(currentIdx - 1); });
+            nextBtn.addEventListener('click', function() { if (currentIdx < images.length - 1) goTo(currentIdx + 1); });
+        }
+    });
+});
+</script>
+
+<div class="properties">
+    {{ partial "item/document.html" . }}
+</div>
+</article>
+{{ end }}

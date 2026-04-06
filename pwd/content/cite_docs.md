@@ -1,6 +1,4 @@
 ---
-aliases:
-- /s/home/page/cite_docs
 omeka_page_id: 26
 slug: cite_docs
 title: How to Cite Documents

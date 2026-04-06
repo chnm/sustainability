@@ -2,7 +2,7 @@
 aliases:
 - /s/home/page/Guides
 omeka_page_id: 4
-slug: Guides
+slug: guides
 title: Guides
 type: page
 ---

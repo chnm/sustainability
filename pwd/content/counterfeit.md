@@ -1,6 +1,4 @@
 ---
-aliases:
-- /s/home/page/counterfeit
 omeka_page_id: 28
 slug: counterfeit
 title: Counterfeiting

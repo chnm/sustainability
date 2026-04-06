@@ -5,7 +5,8 @@ Migrate image references from data/media_map.json lookup to inline YAML frontmat
 For each document in content/document/:
 - Reads the image_id from frontmatter
 - Looks up filenames in data/media_map.json
-- Adds an `images:` list to frontmatter
+- Uses page_start (1-indexed) to select the correct single image from the reel
+- Adds an `images:` list to frontmatter (single image, not the full reel)
 - Renames `image_id` to `omeka_image_id` for reference
 - Preserves the markdown body exactly
 
@@ -87,10 +88,24 @@ def main():
             image_id_str = image_id_match.group(1).strip().strip("'\"")
 
             # Look up in media map
-            filenames = media_map.get(image_id_str, [])
-            if not filenames:
+            all_files = media_map.get(image_id_str, [])
+            if not all_files:
                 print(f"  WARNING: image_id {image_id_str} not in media_map ({filepath.name})")
                 stats["not_in_map"] += 1
+
+            # Use page_start to select the correct single image from the reel.
+            # Each document references one page within an Image item (microfilm reel).
+            ps_match = re.search(r'^page_start:\s*["\x27]?(\d+)', frontmatter, re.MULTILINE)
+            if all_files and ps_match:
+                page_start = int(ps_match.group(1))
+                if 1 <= page_start <= len(all_files):
+                    filenames = [all_files[page_start - 1]]
+                else:
+                    filenames = []  # page_start refers to a different reel
+            elif all_files:
+                filenames = []  # no page_start — can't determine correct image
+            else:
+                filenames = []
 
             # Build the images block
             if filenames:

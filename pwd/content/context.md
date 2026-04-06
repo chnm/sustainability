@@ -1,4 +1,6 @@
 ---
+aliases:
+- /s/home/page/context
 omeka_page_id: 11
 slug: context
 title: Historical Context

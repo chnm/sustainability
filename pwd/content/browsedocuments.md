@@ -1,6 +1,4 @@
 ---
-aliases:
-- /s/home/page/browsedocuments
 omeka_page_id: 13
 slug: browsedocuments
 title: Browsing and Searching Documents

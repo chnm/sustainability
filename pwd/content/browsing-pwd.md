@@ -1,6 +1,4 @@
 ---
-aliases:
-- /s/home/page/browsing-pwd
 omeka_page_id: 22
 slug: browsing-pwd
 title: Browsing Names and Documents

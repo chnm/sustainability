@@ -1,6 +1,6 @@
-#!/usr/bin/env -S uv run python3
+#!/usr/bin/env python3
 """
-Extract image filenames from Hugo document frontmatter using yq.
+Extract image filenames from Hugo document frontmatter.
 
 Produces images.tsv with one line per document:
     omeka_id<TAB>image1.jpg,image2.jpg,...
@@ -9,28 +9,53 @@ Only includes documents that have a non-empty images list.
 
 Usage:
     python3 build_image_list.py
-    python3 build_image_list.py --content-dir ../hugo/content/document
+    python3 build_image_list.py --content-dir ../content/document
     python3 build_image_list.py -o images.tsv
 """
 
 import argparse
 import glob
 import os
-import subprocess
+import re
 from pathlib import Path
 
-YQ = os.environ.get("YQ", "yq")
 
+def parse_frontmatter(filepath):
+    """Extract omeka_id and images list from Hugo markdown frontmatter.
 
-def get_frontmatter_field(filepath, expression):
-    """Use yq to extract a field from YAML frontmatter."""
-    result = subprocess.run(
-        [YQ, "--front-matter=extract", expression, str(filepath)],
-        capture_output=True, text=True,
-    )
-    if result.returncode != 0:
+    Uses simple regex parsing to avoid external dependencies (no yaml/yq).
+    """
+    with open(filepath) as f:
+        content = f.read(8192)  # frontmatter is near the top
+    if not content.startswith("---"):
         return None
-    return result.stdout.strip()
+    try:
+        end = content.index("---", 3)
+    except ValueError:
+        return None
+    fm = content[3:end]
+
+    # Extract omeka_id
+    m = re.search(r'^omeka_id:\s*(\S+)', fm, re.MULTILINE)
+    omeka_id = m.group(1).strip("'\"") if m else None
+
+    # Extract images list (YAML list items following "images:")
+    images = []
+    m = re.search(r'^images:', fm, re.MULTILINE)
+    if m:
+        rest = fm[m.end():]
+        # Skip "images: []" (empty list)
+        if rest.lstrip().startswith("[]"):
+            pass
+        else:
+            for line in rest.splitlines():
+                stripped = line.strip()
+                if stripped.startswith("- "):
+                    images.append(stripped[2:].strip())
+                elif stripped and not stripped.startswith("#"):
+                    break  # next key
+
+    return {"omeka_id": omeka_id, "images": images}
 
 
 def main():
@@ -39,13 +64,13 @@ def main():
     )
     parser.add_argument(
         "--content-dir",
-        default=os.path.join(os.path.dirname(__file__), "..", "hugo", "content", "document"),
-        help="Path to hugo/content/document/",
+        default=os.path.join(os.path.dirname(__file__), "..", "content", "document"),
+        help="Path to content/document/",
     )
     parser.add_argument(
         "-o", "--output",
         default=os.path.join(os.path.dirname(__file__), "images.tsv"),
-        help="Output manifest file (default: transcription/images.tsv)",
+        help="Output manifest file (default: _transcription/images.tsv)",
     )
     args = parser.parse_args()
 
@@ -62,21 +87,21 @@ def main():
             if (i + 1) % 5000 == 0:
                 print(f"  Progress: {i + 1}/{len(doc_files)}...")
 
-            omeka_id = get_frontmatter_field(doc_path, ".omeka_id")
-            if not omeka_id or omeka_id == "null":
+            fm = parse_frontmatter(doc_path)
+            if not fm:
                 continue
 
-            images_raw = get_frontmatter_field(doc_path, ".images[]")
-            if not images_raw or images_raw == "null":
+            omeka_id = fm.get("omeka_id")
+            if not omeka_id:
                 continue
 
-            image_files = [line.strip() for line in images_raw.splitlines() if line.strip()]
-            if not image_files:
+            images = fm.get("images", [])
+            if not images:
                 continue
 
-            out.write(f"{omeka_id}\t{','.join(image_files)}\n")
+            out.write(f"{omeka_id}\t{','.join(images)}\n")
             total_docs += 1
-            total_images += len(image_files)
+            total_images += len(images)
 
     print(f"Wrote {args.output}")
     print(f"  Documents with images: {total_docs}")

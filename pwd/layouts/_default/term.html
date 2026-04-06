@@ -30,8 +30,8 @@
                 {{ with .Params.description }}
                 <p class="item-description">{{ truncate 200 . }}</p>
                 {{ end }}
-                {{ with .Params.collections }}
-                <span class="item-collection"><a href="{{ "collections" | relURL }}/{{ index . 0 | urlize }}/">{{ index . 0 }}</a></span>
+                {{ with .GetTerms "collections" }}
+                <span class="item-collection"><a href="{{ (index . 0).RelPermalink }}">{{ (index . 0).LinkTitle }}</a></span>
                 {{ end }}
             </div>
         </div>

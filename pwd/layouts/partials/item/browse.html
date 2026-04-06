@@ -12,7 +12,7 @@
     <li class="item resource">
         <div class="item-meta">
             {{ with .Params.thumbnail_square }}
-            <div class="item-thumbnail"><img src="{{ . }}" alt=""></div>
+            <div class="item-thumbnail"><img src="{{ . }}" alt="Thumbnail of archival document"></div>
             {{ end }}
             <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
             {{ with .Params.resource_type }}<span class="resource-class">{{ . }}</span>{{ end }}

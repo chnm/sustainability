@@ -14,8 +14,11 @@
     {{ range $paginator.Pages }}
     <li class="item resource">
         <div class="item-meta">
-            {{ with .Params.thumbnail_square }}
-            <a class="item-thumbnail" href="{{ $.RelPermalink }}" aria-hidden="true" tabindex="-1"><img src="{{ . }}" alt="" loading="lazy"></a>
+            {{ $images := .Params.images | default slice }}
+            {{ if $images }}
+            <a class="item-thumbnail" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1"><img src="{{ $.Site.Params.mediaBaseURL }}/files/square/{{ index $images 0 }}" alt="" loading="lazy"></a>
+            {{ else }}
+            <a class="item-thumbnail item-thumbnail-placeholder" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1"><span>No image</span></a>
             {{ end }}
             <div class="item-details">
                 <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>

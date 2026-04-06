@@ -1,4 +1,6 @@
 ---
+aliases:
+- /s/home/page/about
 omeka_page_id: 3
 slug: about
 title: About

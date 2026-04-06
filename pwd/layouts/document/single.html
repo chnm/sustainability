@@ -8,8 +8,8 @@
 {{ $images := .Params.images | default slice }}
 
 <div class="document-primary">
-    {{ if $images }}
     <div class="document-images">
+        {{ if $images }}
         <div class="doc-viewer-controls">
             {{ if gt (len $images) 1 }}
             <div class="doc-gallery-nav">
@@ -36,8 +36,12 @@
                  draggable="false">
             {{ end }}
         </div>
+        {{ else }}
+        <div class="doc-image-unavailable">
+            <p>No document image is currently available.</p>
+        </div>
+        {{ end }}
     </div>
-    {{ end }}
     <div class="document-transcription">
         <div class="transcription-tabs" role="tablist" aria-label="Transcription">
             <button class="tab active" role="tab" aria-selected="true" aria-controls="panel-human" id="tab-human" data-tab="human">Human transcription</button>

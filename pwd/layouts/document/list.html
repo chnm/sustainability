@@ -1,5 +1,48 @@
 {{ define "bodyclass" }}item browse{{ end }}
 {{ define "main" }}
 <h2>Documents</h2>
-{{ partial "item/browse.html" . }}
+{{ .Content }}
+{{ $paginator := .Paginate (.Pages.ByParam "year") }}
+<div class="browse-controls">
+    <nav class="pagination">
+        {{ template "_internal/pagination.html" . }}
+        <span class="row-count">{{ len $paginator.Pages }} of {{ $paginator.TotalNumberOfElements }}</span>
+    </nav>
+</div>
+<ul class="resource-list term-documents">
+    {{ range $paginator.Pages }}
+    <li class="item resource">
+        <div class="item-meta">
+            {{ $images := .Params.images | default slice }}
+            {{ if $images }}
+            <a class="item-thumbnail" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1"><img src="{{ $.Site.Params.mediaBaseURL }}/files/square/{{ index $images 0 }}" alt="" loading="lazy"></a>
+            {{ else }}
+            <a class="item-thumbnail item-thumbnail-placeholder" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1"><span>No image</span></a>
+            {{ end }}
+            <div class="item-details">
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                <div class="item-metadata">
+                    {{ if or .Params.year .Params.month .Params.day }}
+                    <span class="item-date">{{ with .Params.month }}{{ . }}/{{ end }}{{ with .Params.day }}{{ . }}/{{ end }}{{ with .Params.year }}{{ . }}{{ end }}</span>
+                    {{ end }}
+                    {{ with .Params.doc_types }}
+                    <span class="item-type">{{ index . 0 }}</span>
+                    {{ end }}
+                </div>
+                {{ with .Params.description }}
+                <p class="item-description">{{ truncate 200 . }}</p>
+                {{ end }}
+                {{ with .GetTerms "collections" }}
+                <span class="item-collection"><a href="{{ (index . 0).RelPermalink }}">{{ (index . 0).LinkTitle }}</a></span>
+                {{ end }}
+            </div>
+        </div>
+    </li>
+    {{ end }}
+</ul>
+<div class="browse-controls">
+    <nav class="pagination">
+        {{ template "_internal/pagination.html" . }}
+    </nav>
+</div>
 {{ end }}

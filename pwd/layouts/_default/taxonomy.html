@@ -57,12 +57,15 @@
     {{ $currentLetter := "" }}
     {{ range .Pages.ByTitle }}
         {{ $firstLetter := upper (substr .Title 0 1) }}
-        {{ if ne $firstLetter $currentLetter }}
+        {{ $isAlpha := findRE "^[A-Z]$" $firstLetter }}
+        {{ $displayLetter := cond (gt (len $isAlpha) 0) $firstLetter "#" }}
+        {{ $anchorId := cond (gt (len $isAlpha) 0) $firstLetter "other" }}
+        {{ if ne $displayLetter $currentLetter }}
             {{ if $currentLetter }}
                 </ul>
             {{ end }}
-            {{ $currentLetter = $firstLetter }}
-            <h3 class="alpha-heading" id="letter-{{ $firstLetter }}">{{ $firstLetter }}</h3>
+            {{ $currentLetter = $displayLetter }}
+            <h3 class="alpha-heading" id="letter-{{ $anchorId }}">{{ $displayLetter }}</h3>
             <ul class="taxonomy-list">
         {{ end }}
         <li>
@@ -77,10 +80,13 @@
     <nav class="alpha-nav" aria-label="Alphabetical navigation">
         {{ $seen := dict }}
         {{ range .Pages.ByTitle }}
-            {{ $letter := upper (substr .Title 0 1) }}
-            {{ if not (index $seen $letter) }}
-                {{ $seen = merge $seen (dict $letter true) }}
-                <a href="#letter-{{ $letter }}">{{ $letter }}</a>
+            {{ $firstLetter := upper (substr .Title 0 1) }}
+            {{ $isAlpha := findRE "^[A-Z]$" $firstLetter }}
+            {{ $displayLetter := cond (gt (len $isAlpha) 0) $firstLetter "#" }}
+            {{ $anchorId := cond (gt (len $isAlpha) 0) $firstLetter "other" }}
+            {{ if not (index $seen $displayLetter) }}
+                {{ $seen = merge $seen (dict $displayLetter true) }}
+                <a href="#letter-{{ $anchorId }}">{{ $displayLetter }}</a>
             {{ end }}
         {{ end }}
     </nav>

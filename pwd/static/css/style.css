@@ -33,7 +33,7 @@
 .term-documents .item.resource{border-bottom:1px solid #8e8e8e;padding:20px 0}
 .term-documents .item-thumbnail{flex-shrink:0;margin-right:15px;align-self:flex-start}
 .term-documents .item-thumbnail img{width:60px;height:60px;object-fit:cover;border:1px solid #e0e0e0;display:block}
-.term-documents .item-thumbnail-placeholder{display:flex;align-items:center;justify-content:center;width:60px;height:60px;background:#f5f5f5;border:1px solid #e0e0e0;color:#999;font-size:11px;text-align:center;text-decoration:none;line-height:1.2}
+.term-documents .item-thumbnail-placeholder{display:flex;align-items:center;justify-content:center;width:60px;height:60px;background:#f5f5f5;border:1px solid #e0e0e0;color:#666;font-size:11px;text-align:center;text-decoration:none;line-height:1.2}
 .term-documents .item-details{flex:1}
 .term-documents .item-meta{display:flex;align-items:flex-start}
 .term-documents .item-metadata{display:flex;gap:15px;color:#666;font-size:15px;margin-bottom:4px}

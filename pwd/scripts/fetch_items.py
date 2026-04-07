@@ -130,6 +130,7 @@ def extract_document(item, fm, coll_to_repo):
 
     fm["document_number"] = get_literal(item, "pwd:documentNumber")
     fm["page_start"] = get_literal(item, "bibo:pageStart")
+    fm["num_pages"] = get_literal(item, "bibo:numPages")
     fm["note"] = get_literal(item, "pwd:note")
     fm["content_note"] = get_literal(item, "pwd:contentNote")
     fm["author_note"] = get_literal(item, "pwd:authorNote")

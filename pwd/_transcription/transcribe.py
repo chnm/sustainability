@@ -8,20 +8,20 @@ deletes the local image copies. Tracks progress in a cache file so
 runs can be interrupted and resumed.
 
 Usage:
-    # First, build the image manifest:
-    python3 build_image_list.py
+    # First, build the image manifest (from project root):
+    python3 _transcription/build_image_list.py --content-dir content/document
 
     # Transcribe all documents (resumes automatically):
-    python3 transcribe.py
+    python3 _transcription/transcribe.py
 
     # Limit to N documents:
-    python3 transcribe.py --limit 10
+    python3 _transcription/transcribe.py --limit 10
 
     # Start fresh (ignore cache):
-    python3 transcribe.py --no-resume
+    python3 _transcription/transcribe.py --no-resume
 
     # Use a different model:
-    python3 transcribe.py --model claude-sonnet-4-6
+    python3 _transcription/transcribe.py --model claude-sonnet-4-6
 """
 
 import argparse

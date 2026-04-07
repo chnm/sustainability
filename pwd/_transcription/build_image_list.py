@@ -7,10 +7,10 @@ Produces images.tsv with one line per document:
 
 Only includes documents that have a non-empty images list.
 
-Usage:
-    python3 build_image_list.py
-    python3 build_image_list.py --content-dir ../content/document
-    python3 build_image_list.py -o images.tsv
+Usage (from project root):
+    python3 _transcription/build_image_list.py
+    python3 _transcription/build_image_list.py --content-dir content/document
+    python3 _transcription/build_image_list.py -o _transcription/images.tsv
 """
 
 import argparse

@@ -1,0 +1,38 @@
+.redBox {
+
+	font-family: "Times New Roman", Times, serif;
+
+	font-size: 12pt;
+
+	font-weight: bold;
+
+	color: #FFFFFF;
+
+	background-color: #FE0034;
+
+	padding: 10px 5px 10px 10px;
+
+
+
+}
+
+.mainText {
+
+	font-family: "Times New Roman", Times, serif;
+
+	font-size: 12pt;
+
+	color: #000000;
+
+}
+
+.lenght {
+
+	font-family: "Times New Roman", Times, serif;
+
+	font-size: 9pt;
+
+	color: #FFFFFF;
+
+}
+

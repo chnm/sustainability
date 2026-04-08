@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+div {
+    margin: 10px 0;
+}
+#wrap {
+	background:url(images/header_bg_old.jpg) top repeat-x;
+	background-color: #fff;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3a4592;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+#header {
+	background:url(images/head_img.jpg) top no-repeat;
+	width: 750px;
+	height: 80px;
+    margin: 0px;
+	}
+#sub_header {
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 440px;
+	height: 60px;
+	margin: 2px 0px 0px 140px;
+	font-size: 10px;
+	color: #5b6080;
+	letter-spacing: 0.2px;
+	}
+
+#sub_header a {
+	color:  #5b6080;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+#sub_header a:hover {
+	text-decoration: underline;
+}
+#search_boxes {
+    margin: 0px;
+	margin: 3px 0px 0px 1px;
+	width: 180px;
+	float: left;
+	text-align:left;
+	}
+img {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	vertical-align:middle;
+	}
+input,textarea,select {
+	border: 1px solid #e4b1b4;
+	vertical-align:middle;
+	}
+.select_text {
+    border: 1px solid #e4b1b4;
+    font: 11px verdana, san-serif;
+    color: #3a4592;
+}
+#container {
+	margin: 0 auto;
+	width: 780px;
+	padding: 0px;
+}
+
+#subscribeForm {
+    clear: all;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.required {
+    font-weight: bold;
+    color: #900;
+}
+table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3a4592;
+    border-spacing: 10px;
+}
+	
+#footer {
+	width: 750px;
+	height: 70px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #b94429;
+	text-align: center;
+	padding: 25px 0px 0px 35px;
+}
+ul{
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+	}
+#footer ul {
+	margin: 0px;
+	padding: 0px;
+	color: #3a4592;
+	}
+#footer ul li {
+	display: inline;
+	padding: 0px 10px 0px 0px;
+}
+#copyright {
+	color: #3a4592;
+	font-size: 9px;
+	}
+	
+ol.lowerletters {
+list-style-type: lower-alpha;
+}

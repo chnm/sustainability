@@ -1,6 +1,5 @@
 
 body {
-	background:url(images/page_bg.jpg) top repeat-x;
 	background-color: #fff;
 	text-align: center;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -22,7 +21,7 @@ input {
 	vertical-align:middle;
 	}
 #container {
-
+	background:url(images/page_bg.jpg) top repeat-x;
 	margin: 0 auto;
 	width: 780px;
 	padding: 0px;

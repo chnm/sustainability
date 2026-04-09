@@ -21,7 +21,8 @@ input {
 	vertical-align:middle;
 	}
 #container {
-	background:url(images/page_bg.jpg) top repeat-x;
+	background:url(images/page_bg.jpg) top no-repeat;
+	background-color: #fff;
 	margin: 0 auto;
 	width: 780px;
 	padding: 0px;

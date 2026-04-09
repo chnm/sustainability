@@ -40,13 +40,13 @@
   <div id="sub_header"> Designed for high school and college teachers and students,<br> 
     <em>History Matters</em> serves as a gateway to web resources and offers<br> 
     other useful materials for teaching U.S. history. (<a href="https://historymatters.gmu.edu/talkinghistory/AmericanIndianForum/3D%22http://www.weatherpoint.com/denverpost/images/expansion.html">more on this site</a>) </div> 
-  <div id="search_boxes"> 
-    <form method="post" id="my_keyword" name="my_keyword" action="https://historymatters.gmu.edu/search.php?function=find"> 
-      <img src="https://historymatters.gmu.edu/talkinghistory/AmericanIndianForum/3D%22http://www.weatherpoint.com/denverpost/images/images/search_icon.jpg" alt="search:" border="0"> 
-      <input name="Keyword" type=TEXT size="12" maxlength=255> 
-      <a href="javascript:document.my_keyword.submit()"> <img src="https://historymatters.gmu.edu/talkinghistory/AmericanIndianForum/3D%22http://www.weatherpoint.com/denverpost/images/images/go_button.jpg" alt="go!" width="30" height="13" border="0"></a><br> 
-    </form> 
-      <a href="../../../../../../search.php.html"><img src="https://historymatters.gmu.edu/talkinghistory/AmericanIndianForum/3D%22http://www.weatherpoint.com/denverpost/images/images/advanced_search_button.jpg" alt="advanced search - go!" width="172" height="11" border="0"></a> 
+  <div id="search_boxes">
+  <form id="hm_search" onsubmit="window.location.href='/search.html?q='+encodeURIComponent(this.q.value); return false;">
+    <img src="/images/search_icon.jpg" alt="search:" style="vertical-align:middle;">
+    <input name="q" type="text" size="12" maxlength="255" style="border: 1px solid #e4b1b4; width: 85px; vertical-align:middle;">
+    <button type="submit" style="background:none;border:none;cursor:pointer;padding:0;vertical-align:middle;"><img src="/images/go_button.jpg" alt="go!" width="30" height="13" style="vertical-align:middle;"></button><br>
+    <a href="/search.html" style="font-size:10px; color:#3a4592;">search this site</a>
+  </form>
   </div> 
 
     <div id="many_pasts"><a href="../../../../../../browse/manypasts/index.html"><img src="../../../../../../images/many_pasts.jpg" alt="many pasts - explore over 800 primary source documents, images, and audio interviews" width="175" height="66" border="0"><br> 

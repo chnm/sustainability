@@ -38,25 +38,14 @@
             <a href="../../credits.html">about us</a> 
         </div> 
 
-    <div id="search_boxes"> 
-
-  <form method="post" id="my_keyword" name="my_keyword" action="http://historymatters.gmu.edu/search.php?function=find"> 
-
-    <a href="javascript:document.my_keyword.submit()"><img src="../../images/search_icon.jpg" alt="search:" width="50" height="10"></a> 
-
-    <input name="Keyword" type=TEXT size="12" maxlength=255> 
-
-    <a href="javascript:document.my_keyword.submit()"><img src="../../images/go_button.jpg" alt="go!" width="30" height="13"></a> <br> 
-
-    <a href="../../search.php.html"><img src="../../images/adv_search_button.jpg" alt="advanced search - go!" width="172" height="11"></a> 
-
-  </form> 
-
-  <form method="GET" action="../../search.php.html"> 
-
-    <input type="hidden" name="function" value="find"> </form>
-
-    </div>
+    <div id="search_boxes">
+  <form id="hm_search" onsubmit="window.location.href='/search.html?q='+encodeURIComponent(this.q.value); return false;">
+    <img src="/images/search_icon.jpg" alt="search:" style="vertical-align:middle;">
+    <input name="q" type="text" size="12" maxlength="255" style="border: 1px solid #e4b1b4; width: 85px; vertical-align:middle;">
+    <button type="submit" style="background:none;border:none;cursor:pointer;padding:0;vertical-align:middle;"><img src="/images/go_button.jpg" alt="go!" width="30" height="13" style="vertical-align:middle;"></button><br>
+    <a href="/search.html" style="font-size:10px; color:#3a4592;">search this site</a>
+  </form>
+  </div>
         <br class="cleared"> 
       <h3 class="cleared centered">Students As Historians</h3><p class="intro"> This feature presents examples of the kinds of projects history students, from high school to graduate school, have done on the Internet. Projects range from oral histories or prose with Web links to visual essays or exhibits. Browse the full list below or go to our <a href="../../search.php.html">full search</a> feature that allows you to locate student projects quickly by topic, time period, or keyword. Read our <a href="../../substuhist.html">guidelines</a> for information on adding your students&#146; projects to this feature.</p><p class="intro cleared">There are <strong>25</strong> matching records, sorted by time period. 
 

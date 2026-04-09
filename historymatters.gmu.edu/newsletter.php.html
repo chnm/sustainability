@@ -36,14 +36,14 @@
             <a href="credits.html">about us</a> 
         </div> <!-- sub_header -->
 
-        <div id="search_boxes"> 
-            <form method="post" id="my_keyword" name="my_keyword" action="http://historymatters.gmu.edu/search.php?function=find"> 
-                <a href="javascript:document.my_keyword.submit()"><img src="images/search_icon.jpg" alt="search:" width="50" height="10"></a> 
-                <input name="Keyword" type="text" size="10" maxlength="255" /> 
-                <a href="javascript:document.my_keyword.submit()"><img src="images/go_button.jpg" alt="go!" width="30" height="11"></a> <br> 
-                <a href="search.php.html"><img src="images/adv_search_button.jpg" alt="advanced search - go!" width="172" height="11"></a> 
-            </form> 
-        </div> <!-- search_boxes -->
+        <div id="search_boxes">
+  <form id="hm_search" onsubmit="window.location.href='/search.html?q='+encodeURIComponent(this.q.value); return false;">
+    <img src="/images/search_icon.jpg" alt="search:" style="vertical-align:middle;">
+    <input name="q" type="text" size="12" maxlength="255" style="border: 1px solid #e4b1b4; width: 85px; vertical-align:middle;">
+    <button type="submit" style="background:none;border:none;cursor:pointer;padding:0;vertical-align:middle;"><img src="/images/go_button.jpg" alt="go!" width="30" height="13" style="vertical-align:middle;"></button><br>
+    <a href="/search.html" style="font-size:10px; color:#3a4592;">search this site</a>
+  </form>
+  </div> <!-- search_boxes -->
  
         <div id="subscribeForm">
         <p>Thanks for your interest! Please fill out this simple form and we'll add you to our mailing list.</p>

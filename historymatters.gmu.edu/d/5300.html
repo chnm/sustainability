@@ -35,25 +35,14 @@
         <a href="../credits.html">about us</a> 
     </div> 
 
-    <div id="search_boxes"> 
-
-  <form method="post" id="my_keyword" name="my_keyword" action="http://historymatters.gmu.edu/search.php?function=find"> 
-
-    <a href="javascript:document.my_keyword.submit()"><img src="../images/search_icon.jpg" alt="search:" width="50" height="10"></a> 
-
-    <input name="Keyword" type=TEXT size="12" maxlength=255> 
-
-    <a href="javascript:document.my_keyword.submit()"><img src="../images/go_button.jpg" alt="go!" width="30" height="13"></a> <br> 
-
-    <a href="../search.php.html"><img src="../images/adv_search_button.jpg" alt="advanced search - go!" width="172" height="11"></a> 
-
-  </form> 
-
-  <form method="GET" action="../search.php.html"> 
-
-    <input type="hidden" name="function" value="find"> </form>
-
-    </div>
+    <div id="search_boxes">
+  <form id="hm_search" onsubmit="window.location.href='/search.html?q='+encodeURIComponent(this.q.value); return false;">
+    <img src="/images/search_icon.jpg" alt="search:" style="vertical-align:middle;">
+    <input name="q" type="text" size="12" maxlength="255" style="border: 1px solid #e4b1b4; width: 85px; vertical-align:middle;">
+    <button type="submit" style="background:none;border:none;cursor:pointer;padding:0;vertical-align:middle;"><img src="/images/go_button.jpg" alt="go!" width="30" height="13" style="vertical-align:middle;"></button><br>
+    <a href="/search.html" style="font-size:10px; color:#3a4592;">search this site</a>
+  </form>
+  </div>
 
     <br class="cleared">  
      <p><html> <i>Do History</i><br><a href=http://www.DoHistory.org>http://www.DoHistory.org</a>.<br>Created and maintained by the Film Study Center at Harvard University. <br>Reviewed Jan. 1&#8211;15, 2001. <p>Imagine a Home Depot for historians. After browsing aisles piled with raw materials and receiving expert advice from a well-trained staff, could the do-it-yourselfer craft an elegant book or a compelling documentary? Yes, answers <i>Do History,</i> a superb online resource that invites visitors to explore the process of &#8220;piecing together the lives of ordinary people,&#8221; in this case, of the eighteenth-century Maine midwife Martha Ballard. Experimental and interactive, the aptly named <i>Do History</i> aims to provide users with the tools to rebuild the past from scratch.   

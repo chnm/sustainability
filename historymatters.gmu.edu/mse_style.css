@@ -36,7 +36,8 @@ h2, h3, h4 {
 	font-size: 14px;
 }
 #container {
-	background:url(images/header_bg.jpg) top repeat-x;
+	background:url(images/header_bg.jpg) top no-repeat;
+	background-color: #fff;
 	margin: 0 auto;
 	width: 780px;
 	text-align: left;

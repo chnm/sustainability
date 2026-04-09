@@ -6,7 +6,7 @@ div {
     margin: 10px 0;
 }
 #wrap {
-	background:url(images/header_bg_old.jpg) top repeat-x;
+	background:url(images/header_bg_old.jpg) top no-repeat;
 	background-color: #fff;
 	text-align: center;
 	font-family: Verdana, Arial, Helvetica, sans-serif;

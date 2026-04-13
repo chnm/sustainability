@@ -22,6 +22,7 @@
 @media screen and (max-width:800px){.document-primary{flex-direction:column;padding:0 15px}.document-transcription{position:static;max-height:none}}
 /* Transcription tabs */
 .transcription-tabs{flex-shrink:0;display:flex;gap:0;margin-bottom:0;border-bottom:2px solid #8e8e8e}.transcription-tabs .tab{background:none;border:1px solid transparent;border-bottom:none;padding:8px 20px;cursor:pointer;font-size:16px;color:#666;border-radius:3px 3px 0 0}.transcription-tabs .tab.active{background:#fff;border-color:#8e8e8e;border-bottom:2px solid #fff;margin-bottom:-2px;color:#111;font-weight:bold}.tab-content{padding:20px;flex:1;overflow-y:auto;min-height:0}.tab-content[hidden]{display:none}.transcription-text{white-space:pre-wrap;line-height:1.8}.transcription-unavailable{color:#666;padding:20px 0}
+.machine-transcription-note{margin-top:20px;padding:12px 16px;background:#f5f0e6;border:1px solid #d4c9a8;border-radius:4px;font-size:14px;color:#555;line-height:1.5}.machine-transcription-note p{margin:0}.machine-transcription-note code{background:#ebe5d6;padding:1px 5px;border-radius:3px;font-size:13px;color:#555}
 /* Taxonomy pages */
 .taxonomy-list{list-style:none;margin:0;columns:2;column-gap:30px}.taxonomy-list li{break-inside:avoid;margin-bottom:4px}.taxonomy-list .count{color:#666;font-size:14px}.term-context{color:#666;font-variant:small-caps;margin-top:-10px}
 /* Taxonomy alphabetical navigation */

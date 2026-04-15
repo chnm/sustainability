@@ -1,7 +1,7 @@
 ---
 aliases:
 - /news/?p=2103
-author: jdauteri
+author: Jessica Dauterive
 categories:
 - News
 date: '2019-04-23T19:09:00'

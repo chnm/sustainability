@@ -12,6 +12,7 @@ staticDir = ["static"]
   collection = "collections"
   repository = "repositories"
   doc_type = "doc_types"
+  category = "categories"
 
 [pagination]
   pagerSize = 25

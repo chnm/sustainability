@@ -1,7 +1,7 @@
 ---
 aliases:
 - /news/?p=2114
-author: jdauteri
+author: Jessica Dauterive
 categories:
 - Uncategorized
 date: '2019-07-03T15:00:00'

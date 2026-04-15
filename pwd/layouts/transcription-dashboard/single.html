@@ -1,0 +1,223 @@
+{{ define "bodyclass" }}page transcription-dashboard{{ end }}
+{{ define "main" }}
+{{ $d := site.Data.transcription_dashboard }}
+{{ $stats := $d.stats }}
+<div class="blocks">
+    <h2>Transcription Dashboard</h2>
+    <p class="dash-subtitle">Overview of human and machine transcription coverage across {{ $stats.total | lang.FormatNumber 0 }} documents.</p>
+
+    {{/* Summary cards */}}
+    <div class="dash-summary">
+        <div class="dash-card dash-card-both">
+            <span class="dash-card-number">{{ $stats.both | lang.FormatNumber 0 }}</span>
+            <span class="dash-card-label">Both</span>
+        </div>
+        <div class="dash-card dash-card-human">
+            <span class="dash-card-number">{{ $stats.human_only | lang.FormatNumber 0 }}</span>
+            <span class="dash-card-label">Human only</span>
+        </div>
+        <div class="dash-card dash-card-ai">
+            <span class="dash-card-number">{{ $stats.ai_only | lang.FormatNumber 0 }}</span>
+            <span class="dash-card-label">Machine only</span>
+        </div>
+        <div class="dash-card dash-card-neither">
+            <span class="dash-card-number">{{ $stats.neither | lang.FormatNumber 0 }}</span>
+            <span class="dash-card-label">No transcription</span>
+        </div>
+    </div>
+
+    {{/* Progress bar */}}
+    {{ $pctBoth := mul (div (float $stats.both) (float $stats.total)) 100 }}
+    {{ $pctHuman := mul (div (float $stats.human_only) (float $stats.total)) 100 }}
+    {{ $pctAI := mul (div (float $stats.ai_only) (float $stats.total)) 100 }}
+    {{ $pctNeither := mul (div (float $stats.neither) (float $stats.total)) 100 }}
+    <div class="dash-progress-wrap">
+        <div class="dash-progress">
+            <div class="dash-progress-seg dash-seg-both" style="width:{{ printf "%.1f" $pctBoth }}%" title="Both: {{ printf "%.1f" $pctBoth }}%"></div>
+            <div class="dash-progress-seg dash-seg-human" style="width:{{ printf "%.1f" $pctHuman }}%" title="Human only: {{ printf "%.1f" $pctHuman }}%"></div>
+            <div class="dash-progress-seg dash-seg-ai" style="width:{{ printf "%.1f" $pctAI }}%" title="Machine only: {{ printf "%.1f" $pctAI }}%"></div>
+            <div class="dash-progress-seg dash-seg-neither" style="width:{{ printf "%.1f" $pctNeither }}%" title="No transcription: {{ printf "%.1f" $pctNeither }}%"></div>
+        </div>
+        <div class="dash-progress-legend">
+            <span class="dash-legend-item"><span class="dash-legend-dot dash-seg-both"></span> Both ({{ printf "%.1f" $pctBoth }}%)</span>
+            <span class="dash-legend-item"><span class="dash-legend-dot dash-seg-human"></span> Human only ({{ printf "%.1f" $pctHuman }}%)</span>
+            <span class="dash-legend-item"><span class="dash-legend-dot dash-seg-ai"></span> Machine only ({{ printf "%.1f" $pctAI }}%)</span>
+            <span class="dash-legend-item"><span class="dash-legend-dot dash-seg-neither"></span> None ({{ printf "%.1f" $pctNeither }}%)</span>
+        </div>
+    </div>
+
+    {{/* Collection table */}}
+    <h3>By Collection</h3>
+    <div class="dash-controls">
+        <input type="text" id="dash-filter" placeholder="Filter collections..." class="dash-search">
+        <select id="dash-sort">
+            <option value="name">Sort by name</option>
+            <option value="total-desc">Most documents</option>
+            <option value="coverage-desc">Best coverage</option>
+            <option value="coverage-asc">Least coverage</option>
+        </select>
+    </div>
+    <table class="dash-table" id="dash-collection-table">
+        <thead>
+            <tr>
+                <th>Collection</th>
+                <th>Total</th>
+                <th>Both</th>
+                <th>Human</th>
+                <th>Machine</th>
+                <th>None</th>
+                <th>Coverage</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range $d.collections }}
+            {{ $anyTranscription := add .both (add .human_only .ai_only) }}
+            {{ $coveragePct := mul (div (float $anyTranscription) (float .total)) 100 }}
+            <tr data-name="{{ lower .name }}" data-total="{{ .total }}" data-coverage="{{ printf "%.1f" $coveragePct }}">
+                <td><a href="#" class="dash-collection-link" data-collection="{{ .name }}">{{ .name }}</a></td>
+                <td>{{ .total }}</td>
+                <td>{{ if .both }}<span class="dash-badge dash-badge-both">{{ .both }}</span>{{ else }}-{{ end }}</td>
+                <td>{{ if .human_only }}<span class="dash-badge dash-badge-human">{{ .human_only }}</span>{{ else }}-{{ end }}</td>
+                <td>{{ if .ai_only }}<span class="dash-badge dash-badge-ai">{{ .ai_only }}</span>{{ else }}-{{ end }}</td>
+                <td>{{ if .neither }}{{ .neither }}{{ else }}-{{ end }}</td>
+                <td>
+                    <div class="dash-mini-bar">
+                        <div class="dash-mini-fill" style="width:{{ printf "%.1f" $coveragePct }}%"></div>
+                    </div>
+                    <span class="dash-pct">{{ printf "%.0f" $coveragePct }}%</span>
+                </td>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+
+    {{/* Document drill-down modal */}}
+    <div id="dash-modal-backdrop" class="dash-modal-backdrop" style="display:none">
+        <div class="dash-modal" role="dialog" aria-labelledby="dash-document-heading">
+            <div class="dash-modal-header">
+                <h3 id="dash-document-heading"></h3>
+                <button id="dash-doc-close" class="dash-modal-close" aria-label="Close">&times;</button>
+            </div>
+            <div class="dash-doc-controls">
+                <select id="dash-doc-status-filter">
+                    <option value="all">All statuses</option>
+                    <option value="both">Both transcriptions</option>
+                    <option value="human_only">Human only</option>
+                    <option value="ai_only">Machine only</option>
+                    <option value="neither">No transcription</option>
+                </select>
+                <span id="dash-doc-count"></span>
+            </div>
+            <div class="dash-modal-body">
+                <table class="dash-table dash-doc-table">
+                    <thead>
+                        <tr><th>Document</th><th>Year</th><th>Status</th></tr>
+                    </thead>
+                    <tbody id="dash-doc-tbody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{/* Embed document data as JSON for client-side drill-down */}}
+<script>
+(function() {
+    var docs = {{ $d.documents | jsonify | safeJS }};
+
+    var statusLabels = {
+        both: "Both",
+        human_only: "Human only",
+        ai_only: "Machine only",
+        neither: "None"
+    };
+    var statusClasses = {
+        both: "dash-badge-both",
+        human_only: "dash-badge-human",
+        ai_only: "dash-badge-ai",
+        neither: "dash-badge-neither"
+    };
+
+    // Collection filter
+    var filterInput = document.getElementById("dash-filter");
+    var table = document.getElementById("dash-collection-table");
+    var rows = table.querySelectorAll("tbody tr");
+
+    filterInput.addEventListener("input", function() {
+        var q = this.value.toLowerCase();
+        rows.forEach(function(row) {
+            row.style.display = row.dataset.name.indexOf(q) !== -1 ? "" : "none";
+        });
+    });
+
+    // Sort
+    var sortSelect = document.getElementById("dash-sort");
+    sortSelect.addEventListener("change", function() {
+        var tbody = table.querySelector("tbody");
+        var arr = Array.from(rows);
+        switch (this.value) {
+            case "name": arr.sort(function(a,b) { return a.dataset.name.localeCompare(b.dataset.name); }); break;
+            case "total-desc": arr.sort(function(a,b) { return b.dataset.total - a.dataset.total; }); break;
+            case "coverage-desc": arr.sort(function(a,b) { return b.dataset.coverage - a.dataset.coverage; }); break;
+            case "coverage-asc": arr.sort(function(a,b) { return a.dataset.coverage - b.dataset.coverage; }); break;
+        }
+        arr.forEach(function(row) { tbody.appendChild(row); });
+    });
+
+    // Document drill-down modal
+    var backdrop = document.getElementById("dash-modal-backdrop");
+    var heading = document.getElementById("dash-document-heading");
+    var tbody = document.getElementById("dash-doc-tbody");
+    var countEl = document.getElementById("dash-doc-count");
+    var statusFilter = document.getElementById("dash-doc-status-filter");
+    var currentCollection = "";
+
+    function openModal() {
+        backdrop.style.display = "flex";
+        document.body.style.overflow = "hidden";
+    }
+
+    function closeModal() {
+        backdrop.style.display = "none";
+        document.body.style.overflow = "";
+    }
+
+    function renderDocs(collection, status) {
+        var filtered = docs.filter(function(d) {
+            return d.collection === collection && (status === "all" || d.status === status);
+        });
+        countEl.textContent = filtered.length + " document" + (filtered.length !== 1 ? "s" : "");
+        tbody.innerHTML = filtered.map(function(d) {
+            return '<tr><td><a href="/document/' + d.id + '/">' + d.title + '</a></td>' +
+                   '<td>' + (d.year || '-') + '</td>' +
+                   '<td><span class="dash-badge ' + statusClasses[d.status] + '">' + statusLabels[d.status] + '</span></td></tr>';
+        }).join("");
+    }
+
+    document.querySelectorAll(".dash-collection-link").forEach(function(link) {
+        link.addEventListener("click", function(e) {
+            e.preventDefault();
+            currentCollection = this.dataset.collection;
+            heading.textContent = currentCollection;
+            statusFilter.value = "all";
+            renderDocs(currentCollection, "all");
+            openModal();
+        });
+    });
+
+    statusFilter.addEventListener("change", function() {
+        renderDocs(currentCollection, this.value);
+    });
+
+    document.getElementById("dash-doc-close").addEventListener("click", closeModal);
+
+    backdrop.addEventListener("click", function(e) {
+        if (e.target === backdrop) closeModal();
+    });
+
+    document.addEventListener("keydown", function(e) {
+        if (e.key === "Escape" && backdrop.style.display === "flex") closeModal();
+    });
+})();
+</script>
+{{ end }}

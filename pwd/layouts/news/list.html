@@ -2,21 +2,94 @@
 {{ define "main" }}
 <div class="blocks">
     <h2>News</h2>
-    {{ $paginator := .Paginate .Pages }}
-    {{ range $paginator.Pages }}
-    <article class="post-summary">
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        <div class="post-meta">
-            {{ with .Params.author }}<span class="author">{{ . }}</span>{{ end }}
-            <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
+    <div class="news-layout">
+        <div class="news-main">
+            {{ $paginator := .Paginate .Pages }}
+            <div class="news-list">
+            {{ range $paginator.Pages }}
+            <article class="news-card">
+                <div class="news-card-date">
+                    <span class="news-card-month">{{ .Date.Format "Jan" }}</span>
+                    <span class="news-card-day">{{ .Date.Format "2" }}</span>
+                    <span class="news-card-year">{{ .Date.Format "2006" }}</span>
+                </div>
+                <div class="news-card-body">
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                    {{ with .Params.author }}<span class="news-card-author">By {{ . }}</span>{{ end }}
+                    {{ with .Params.categories }}
+                    <div class="news-card-categories">
+                        {{ range . }}<span class="news-card-tag">{{ . }}</span>{{ end }}
+                    </div>
+                    {{ end }}
+                    {{ if .Params.description }}
+                    <p class="news-card-excerpt">{{ .Params.description }}</p>
+                    {{ else }}
+                    <p class="news-card-excerpt">{{ .Summary }}</p>
+                    {{ end }}
+                    <a href="{{ .RelPermalink }}" class="news-card-link">Read more</a>
+                </div>
+            </article>
+            {{ end }}
+            </div>
+            <div class="browse-controls">
+                <nav class="pagination">
+                    {{ template "_internal/pagination.html" . }}
+                </nav>
+            </div>
         </div>
-        {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
-    </article>
-    {{ end }}
-    <div class="browse-controls">
-        <nav class="pagination">
-            {{ template "_internal/pagination.html" . }}
-        </nav>
+        <aside class="news-sidebar">
+            {{/* Categories */}}
+            {{ with site.Taxonomies.categories }}
+            <div class="news-filter">
+                <h3>Categories</h3>
+                <ul>
+                    {{ range .Alphabetical }}
+                    <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> <span class="count">({{ .Count }})</span></li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+
+            {{/* Monthly archive grouped by year */}}
+            <div class="news-filter">
+                <h3>Archives</h3>
+                {{ $years := dict }}
+                {{ range (where site.RegularPages "Type" "news") }}
+                    {{ $year := .Date.Format "2006" }}
+                    {{ $month := .Date.Format "January" }}
+                    {{ $key := printf "%s|%s" $year $month }}
+                    {{ if not (index $years $key) }}
+                        {{ $years = merge $years (dict $key 1) }}
+                    {{ else }}
+                        {{ $years = merge $years (dict $key (add (index $years $key) 1)) }}
+                    {{ end }}
+                {{ end }}
+                {{ $yearList := slice }}
+                {{ range $k, $v := $years }}
+                    {{ $parts := split $k "|" }}
+                    {{ $y := index $parts 0 }}
+                    {{ if not (in $yearList $y) }}
+                        {{ $yearList = $yearList | append $y }}
+                    {{ end }}
+                {{ end }}
+                {{ $yearList = sort $yearList "value" "desc" }}
+                <ul class="archive-years">
+                {{ range $y := $yearList }}
+                    <li>
+                        <strong>{{ $y }}</strong>
+                        <ul>
+                        {{ range $k, $v := $years }}
+                            {{ $parts := split $k "|" }}
+                            {{ if eq (index $parts 0) $y }}
+                            <li>{{ index $parts 1 }} <span class="count">({{ $v }})</span></li>
+                            {{ end }}
+                        {{ end }}
+                        </ul>
+                    </li>
+                {{ end }}
+                </ul>
+            </div>
+        </aside>
     </div>
 </div>
 {{ end }}

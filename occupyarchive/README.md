@@ -346,8 +346,6 @@ line across 8,326 pages (the Twitter account is inactive).
 
 ```
 .
-├── Dockerfile                  (stagex/user-caddy + node index stage)
-├── .dockerignore               (excludes archive/, pagefind/, Dockerfile, …)
 ├── .gitignore                  (excludes archive/, Dockerfile)
 ├── README.md                   (this file)
 ├── index.html                  (featured-item randomizer injected)

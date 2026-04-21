@@ -66,14 +66,14 @@ Omeka source.
 
 | Artifact | Count / Size |
 |---|---|
-| Static HTML pages | 8,328 |
+| Static HTML pages | 8,327 |
 | Item show pages | 3,528 |
 | Type-filtered browse pages restored | 141 (5 landings + 136 paginated) |
 | Collection-filtered browse pages restored | 298 (202 landings + 96 paginated) |
-| Pages with search form injected | 8,328 |
-| Pages stripped of Google Analytics | 8,328 |
-| Pages stripped of FakeCron (external + inline) | 8,328 |
-| Pagefind index | 37 MB, 8,326 pages, 40,461 words, 3 filters |
+| Pages with search form injected | 8,327 |
+| Pages stripped of Google Analytics | 8,327 |
+| Pages stripped of FakeCron (external + inline) | 8,327 |
+| Pagefind index | 37 MB, 8,325 pages, 40,462 words, 3 filters |
 | Featured-item randomizer pool | 11 items |
 | Map pins (GeoJSON) | 79 (from 88 rows in `omeka_locations`) |
 | Archive media (sidecar, not in repo) | 4,454 files, ~2.3 GB |
@@ -311,15 +311,36 @@ from 84 item show pages (the full block: Google Maps script, plugin
 CDATA init script). Also stripped two sitewide `<link>` tags and
 two `<script>` tags from `share.html` referencing the same plugin.
 
-Plugin directories removed from the repo:
+All Omeka plugin directories removed from the repo:
 
-- `plugins/FakeCron/` — 0 remaining references.
-- `plugins/Geolocation/` — 0 remaining references after the widget
-  strip. The rebuilt `/items/map.html` uses Leaflet + OSM (see §5)
-  and does not depend on this plugin.
+- `plugins/FakeCron/` — no references.
+- `plugins/Geolocation/` — no references after the widget strip. The
+  rebuilt `/items/map.html` uses Leaflet + OSM (see §5) and does not
+  depend on this plugin.
+- `plugins/Contribution/` — only referenced by `share.html`, which
+  was removed (see §8). `plugins/` directory deleted entirely.
 
-`plugins/Contribution/` is retained — `share.html` still loads its
-`contribution-public-form.js`.
+### 8. Share page removal
+
+The "Share Your Story" flow on the live Omeka site collected user
+contributions through the Contribution plugin. On a frozen static
+mirror that form can't work — POSTs have nowhere to go. Removed:
+
+- `share.html` — the contribution form page.
+- `contribution/terms.html` — terms-of-service fragment only
+  referenced by `share.html`.
+- `plugins/Contribution/` — plugin assets, now orphaned.
+- `<div id="share-box">` ("Share Your Story" sidebar) from
+  `index.html` and `search.html`.
+- `<li class="nav-share"><a href="share.html">Share</a></li>`
+  from the main and footer nav on 16,650 occurrences across all pages.
+- An empty `<li class="nav-"><a href="share.html"></a></li>` nav
+  artifact from 8,325 pages.
+- A prose link `<a href="share.html">We want to hear from you.</a>`
+  in `about.html` (paragraph rewritten to drop the call-to-action).
+
+Also removed: the `<p>Follow us: <a>@occupyarchive</a></p>` footer
+line across 8,326 pages (the Twitter account is inactive).
 
 ## Directory snapshot (this repo)
 
@@ -331,7 +352,7 @@ Plugin directories removed from the repo:
 ├── README.md                   (this file)
 ├── index.html                  (featured-item randomizer injected)
 ├── search.html                 (Pagefind UI, reads ?q=)
-├── about.html, contact.html, share.html, items.html, collections.html
+├── about.html, contact.html, items.html, collections.html
 ├── featured-pool.json          (11 featured items)
 ├── pagefind_index.mjs          (Node script: items.json → pagefind/)
 ├── data/
@@ -357,8 +378,6 @@ Plugin directories removed from the repo:
 │   └── show/
 │       └── <N>.html            (3,528 item pages)
 ├── collections/
-├── plugins/
-│   └── Contribution/              (only surviving plugin — used by share.html)
 ├── themes/
 └── application/
 ```

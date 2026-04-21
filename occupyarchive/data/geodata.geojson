@@ -1,0 +1,1190 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.051254613245,
+          35.149165855952
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "url": "/items/show/5.html",
+        "title": "Occupy Memphis demonstrators"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6121893,
+          39.2903848
+        ]
+      },
+      "properties": {
+        "id": 1459,
+        "url": "/items/show/1459.html",
+        "title": "Occupy Baltimore"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2711137,
+          37.8043637
+        ]
+      },
+      "properties": {
+        "id": 1460,
+        "url": "/items/show/1460.html",
+        "title": "Press Release Announcing Shut Down of Port of Oakland, Nov. 2, 2001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4021057,
+          41.8248663
+        ]
+      },
+      "properties": {
+        "id": 1521,
+        "url": "/items/show/1521.html",
+        "title": "Brown Faculty Statement"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.163789,
+          39.952335
+        ]
+      },
+      "properties": {
+        "id": 1522,
+        "url": "/items/show/1522.html",
+        "title": "The Occupy Philadelphia Inquirer, Volume 1, Number 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.126236199999994,
+          51.5001524
+        ]
+      },
+      "properties": {
+        "id": 1523,
+        "url": "/items/show/1523.html",
+        "title": "the church and the state"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.126236199999994,
+          51.5001524
+        ]
+      },
+      "properties": {
+        "id": 1524,
+        "url": "/items/show/1524.html",
+        "title": "the occupied times"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.06087260000004,
+          51.4427238
+        ]
+      },
+      "properties": {
+        "id": 1525,
+        "url": "/items/show/1525.html",
+        "title": "david cameron @ the camp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0106244087219,
+          40.7091037420751
+        ]
+      },
+      "properties": {
+        "id": 1526,
+        "url": "/items/show/1526.html",
+        "title": "Accounts Closed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.13563210000007,
+          38.706932
+        ]
+      },
+      "properties": {
+        "id": 1685,
+        "url": "/items/show/1685.html",
+        "title": "Occupy Lisbon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6762071,
+          45.5234515
+        ]
+      },
+      "properties": {
+        "id": 1747,
+        "url": "/items/show/1747.html",
+        "title": "[Untitled]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.8494217,
+          21.3038525
+        ]
+      },
+      "properties": {
+        "id": 2292,
+        "url": "/items/show/2292.html",
+        "title": "Photo of Occupy Honolulu Protesters - Thomas Square, Honolulu, Oahu Hawaii"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0363658,
+          38.8951118
+        ]
+      },
+      "properties": {
+        "id": 2490,
+        "url": "/items/show/2490.html",
+        "title": "Occupy K-Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.58203125,
+          40.7176466870321
+        ]
+      },
+      "properties": {
+        "id": 2514,
+        "url": "/items/show/2514.html",
+        "title": "Occupy Eureka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0597732,
+          42.3584308
+        ]
+      },
+      "properties": {
+        "id": 2515,
+        "url": "/items/show/2515.html",
+        "title": "Original Banksters sign"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0597732,
+          42.3584308
+        ]
+      },
+      "properties": {
+        "id": 2516,
+        "url": "/items/show/2516.html",
+        "title": "Boehner sign, side 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0597732,
+          42.3584308
+        ]
+      },
+      "properties": {
+        "id": 2517,
+        "url": "/items/show/2517.html",
+        "title": "Boehner sign, side 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0597732,
+          42.3584308
+        ]
+      },
+      "properties": {
+        "id": 2518,
+        "url": "/items/show/2518.html",
+        "title": "City Hall Boston Nov. 2, 2011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0597732,
+          42.3584308
+        ]
+      },
+      "properties": {
+        "id": 2519,
+        "url": "/items/show/2519.html",
+        "title": "Occupy Boston medic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0597732,
+          42.3584308
+        ]
+      },
+      "properties": {
+        "id": 2520,
+        "url": "/items/show/2520.html",
+        "title": "Fire extinguishers, Occupy Boston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0597732,
+          42.3584308
+        ]
+      },
+      "properties": {
+        "id": 2521,
+        "url": "/items/show/2521.html",
+        "title": "I Am Occupy Boston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2565,
+        "url": "/items/show/2565.html",
+        "title": "Occupy Salt Lake City Oral History Interview - Seth Neily"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2566,
+        "url": "/items/show/2566.html",
+        "title": "Occupy Salt Lake City Oral History Interview - Seth Walker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0111915,
+          40.7092876
+        ]
+      },
+      "properties": {
+        "id": 2567,
+        "url": "/items/show/2567.html",
+        "title": "#Tiny Tenting"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.27734375,
+          32.9943198250109
+        ]
+      },
+      "properties": {
+        "id": 2568,
+        "url": "/items/show/2568.html",
+        "title": "Occupied - By The 1%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0111915,
+          40.7092876
+        ]
+      },
+      "properties": {
+        "id": 2589,
+        "url": "/items/show/2589.html",
+        "title": "Occupy Wall Street -- the Oil Painting -- by Rich Zubaty"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2109375,
+          44.5939348588835
+        ]
+      },
+      "properties": {
+        "id": 2590,
+        "url": "/items/show/2590.html",
+        "title": "USA-99% flag"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0059731,
+          40.7143528
+        ]
+      },
+      "properties": {
+        "id": 2591,
+        "url": "/items/show/2591.html",
+        "title": "Occupy Wall Street, A Love Story"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.310546875,
+          46.3806136051137
+        ]
+      },
+      "properties": {
+        "id": 2592,
+        "url": "/items/show/2592.html",
+        "title": "Occupy-France"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4041024000001,
+          47.2692124
+        ]
+      },
+      "properties": {
+        "id": 2594,
+        "url": "/items/show/2594.html",
+        "title": "Occupy Innsbruck Camp Waltherpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2595,
+        "url": "/items/show/2595.html",
+        "title": "Occupy Salt Lake City Oral History Interview \u2013 Stacey Allen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2597,
+        "url": "/items/show/2597.html",
+        "title": "Occupy Salt Lake City Oral History Interview \u2013 Skylar Church"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2598,
+        "url": "/items/show/2598.html",
+        "title": "Occupy Salt Lake City Oral History Interview \u2013 Rachel Carter"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2599,
+        "url": "/items/show/2599.html",
+        "title": "Occupy Salt Lake City Oral History Interview \u2013 Tara Marie Robbins"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2601,
+        "url": "/items/show/2601.html",
+        "title": "Occupy Salt Lake City Oral History Interview \u2013 Shari Wade"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2604,
+        "url": "/items/show/2604.html",
+        "title": "Occupy Salt Lake City Oral History Interview \u2013 Edward Swift"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2605,
+        "url": "/items/show/2605.html",
+        "title": "Occupy Salt Lake City Oral History Interview \u2013 Deborah Henry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2436849,
+          34.0522342
+        ]
+      },
+      "properties": {
+        "id": 2607,
+        "url": "/items/show/2607.html",
+        "title": "OccupyFACE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2628,
+        "url": "/items/show/2628.html",
+        "title": "Occupy Salt Lake City - Bank Transfer Day Flyer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2629,
+        "url": "/items/show/2629.html",
+        "title": "Occupy Salt Lake City - You are the 99% Flyer - Part I"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2630,
+        "url": "/items/show/2630.html",
+        "title": "Occupy Salt Lake City - You are the 99% Flyer - Part II"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2631,
+        "url": "/items/show/2631.html",
+        "title": "Occupy Salt Lake City Oral History Interview - Joe Zug"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2632,
+        "url": "/items/show/2632.html",
+        "title": "Occupy Salt Lake City Oral History Interview - Chris Baldwin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2633,
+        "url": "/items/show/2633.html",
+        "title": "Occupy Salt Lake City Oral History Interview - Melanie Martin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 2634,
+        "url": "/items/show/2634.html",
+        "title": "Occupy Salt Lake City Oral History Interview - Gail Fish"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6297982,
+          41.8781136
+        ]
+      },
+      "properties": {
+        "id": 2635,
+        "url": "/items/show/2635.html",
+        "title": "Occupy the American Economic Association"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.78125,
+          42.5566673099969
+        ]
+      },
+      "properties": {
+        "id": 2656,
+        "url": "/items/show/2656.html",
+        "title": "THE FLOWING HAIR CENT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66739,
+          41.877282
+        ]
+      },
+      "properties": {
+        "id": 3162,
+        "url": "/items/show/3162.html",
+        "title": "Labor Solidarity Conference - Chicago 1-28-2012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.33984375,
+          25.804275209019
+        ]
+      },
+      "properties": {
+        "id": 3163,
+        "url": "/items/show/3163.html",
+        "title": "Occupy Coconut Grove Dec 2011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 3165,
+        "url": "/items/show/3165.html",
+        "title": "Occupy Salt Lake City Oral History Interview - Stewart Thorpe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 3166,
+        "url": "/items/show/3166.html",
+        "title": "Occupy Salt Lake City Oral History Interview - Isaac Hoppe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 3167,
+        "url": "/items/show/3167.html",
+        "title": "Occupy Salt Lake City Oral History Interview - &quot;D&quot;"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0083796,
+          40.707811
+        ]
+      },
+      "properties": {
+        "id": 3301,
+        "url": "/items/show/3301.html",
+        "title": "protester number zero"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0764574,
+          42.3166769
+        ]
+      },
+      "properties": {
+        "id": 3302,
+        "url": "/items/show/3302.html",
+        "title": "Occupy Boston 30-Oct-2011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3840186,
+          43.656446
+        ]
+      },
+      "properties": {
+        "id": 3303,
+        "url": "/items/show/3303.html",
+        "title": "this is a yurt 2-Nov-2011 Occupy Toronto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3840186,
+          43.656446
+        ]
+      },
+      "properties": {
+        "id": 3304,
+        "url": "/items/show/3304.html",
+        "title": "I Don&#039;t need your change, I need a job. 2-Nov-2011 Occupy Toronto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3840186,
+          43.656446
+        ]
+      },
+      "properties": {
+        "id": 3305,
+        "url": "/items/show/3305.html",
+        "title": "Will Work For Change, 02-Nov-2011 Occupy Toronto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0764574,
+          42.3166769
+        ]
+      },
+      "properties": {
+        "id": 3306,
+        "url": "/items/show/3306.html",
+        "title": "I took an Oath, 30-Oct-2011 Occupy Boston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0111915,
+          40.7092876
+        ]
+      },
+      "properties": {
+        "id": 3308,
+        "url": "/items/show/3308.html",
+        "title": "99 luft balloons - Occupy Wall Street, NYC 25-Oct-2011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0111915,
+          40.7092876
+        ]
+      },
+      "properties": {
+        "id": 3309,
+        "url": "/items/show/3309.html",
+        "title": "Next Step General Strike, 25-Oct-2011 Liberty Park, NYC, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0111915,
+          40.7092876
+        ]
+      },
+      "properties": {
+        "id": 3311,
+        "url": "/items/show/3311.html",
+        "title": "Our plan was flawless.. 22-Oct-2011 Occupy Wall Street NYC, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0111915,
+          40.7092876
+        ]
+      },
+      "properties": {
+        "id": 3314,
+        "url": "/items/show/3314.html",
+        "title": "We saw something, ~Sept 17-20th Occupy Wall Street NYC, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8910474,
+          40.7607793
+        ]
+      },
+      "properties": {
+        "id": 3335,
+        "url": "/items/show/3335.html",
+        "title": "Occupy Salt Lake City Oral History Interview - John Netto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0059731,
+          40.7143528
+        ]
+      },
+      "properties": {
+        "id": 3336,
+        "url": "/items/show/3336.html",
+        "title": "The Global Movement Sept 11 2011 NYC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8967590332,
+          47.033205528816
+        ]
+      },
+      "properties": {
+        "id": 3427,
+        "url": "/items/show/3427.html",
+        "title": "The Fall of Occupy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1636729,
+          40.8020712
+        ]
+      },
+      "properties": {
+        "id": 3568,
+        "url": "/items/show/3568.html",
+        "title": "[Untitled]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.0828396,
+          40.8665166
+        ]
+      },
+      "properties": {
+        "id": 3569,
+        "url": "/items/show/3569.html",
+        "title": "Occupy Arcata at the Plaza, October 16, 2011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1636729,
+          40.8020712
+        ]
+      },
+      "properties": {
+        "id": 3572,
+        "url": "/items/show/3572.html",
+        "title": "Occupy Eureka on Halloween"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1636729,
+          40.8020712
+        ]
+      },
+      "properties": {
+        "id": 3573,
+        "url": "/items/show/3573.html",
+        "title": "Occupy Eureka on Halloween"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1636729,
+          40.8020712
+        ]
+      },
+      "properties": {
+        "id": 3574,
+        "url": "/items/show/3574.html",
+        "title": "Occupy Eureka, In Tent City #2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1636729,
+          40.8020712
+        ]
+      },
+      "properties": {
+        "id": 3576,
+        "url": "/items/show/3576.html",
+        "title": "[Untitled]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1636729,
+          40.8020712
+        ]
+      },
+      "properties": {
+        "id": 3577,
+        "url": "/items/show/3577.html",
+        "title": "[Untitled]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1636729,
+          40.8020712
+        ]
+      },
+      "properties": {
+        "id": 3578,
+        "url": "/items/show/3578.html",
+        "title": "[Untitled]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1636729,
+          40.8020712
+        ]
+      },
+      "properties": {
+        "id": 3579,
+        "url": "/items/show/3579.html",
+        "title": "[Untitled]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1636729,
+          40.8020712
+        ]
+      },
+      "properties": {
+        "id": 3580,
+        "url": "/items/show/3580.html",
+        "title": "[Untitled]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1636729,
+          40.8020712
+        ]
+      },
+      "properties": {
+        "id": 3581,
+        "url": "/items/show/3581.html",
+        "title": "[Untitled]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1636729,
+          40.8020712
+        ]
+      },
+      "properties": {
+        "id": 3582,
+        "url": "/items/show/3582.html",
+        "title": "[Untitled]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00390625,
+          40.380028402512
+        ]
+      },
+      "properties": {
+        "id": 3583,
+        "url": "/items/show/3583.html",
+        "title": "Archivo 15M show in New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.00982101260252,
+          41.562962609278
+        ]
+      },
+      "properties": {
+        "id": 3608,
+        "url": "/items/show/3608.html",
+        "title": "Acampada Terrassa"
+      }
+    }
+  ]
+}

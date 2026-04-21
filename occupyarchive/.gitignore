@@ -1,0 +1,6 @@
+Dockerfile
+
+# archive/ is the ~2.3 GB media sidecar — hosted in S3, not in git.
+# See README.md "Archive storage" for how to provide it at build/run time.
+archive/
+

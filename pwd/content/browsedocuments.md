@@ -19,7 +19,7 @@ Browsing and searching documents are also covered in this tutorial video:
 
 You can search all of the documents available for transcription using the Search field in the right-hand corner of the page when you are browsing documents. This keyword search will search across titles and all of the other information for a document, including collection information.
 
-**![](http://arata.gmu.edu/Screenshots/Transcribe_Search.png)**
+**![](/img/screenshots/Transcribe_Search.png)**
 
 Once you are viewing a document, the search box allows you to search the additional information of the pages of the document. Please note that this does not include any community-generated transcriptions.
 
@@ -42,7 +42,7 @@ You have a choice of two layouts: List and Grid. List is set as the default view
   - transcription status; and
   - number of approved pages.
 
-**![](http://arata.gmu.edu/Screenshots/Transcribe_Browse.png)**
+**![](/img/screenshots/Transcribe_Browse.png)**
 
 You can toggle between the list and grid views using the Layout buttons on the upper left side of the page. The List button has three lines, the Grid button is a square of four squares.
 
@@ -59,7 +59,7 @@ The Sort function allows you to sort by date transcribed.
 - *Descending****,*** will display the documents beginning with most recently one to be worked by you or another transcriber.
 - *Ascending**,***  will display the opposite, meaning that documents that have either never been worked on or were the last to have been worked on first.
 
-**![](http://arata.gmu.edu/Screenshots/Transcribe_Sort.png)**
+**![](/img/screenshots/Transcribe_Sort.png)**
 
 Descending view is useful if you’d like to quickly return to a document you have recently worked on (you can also add these to your watchlist), or would like to contribute to unfinished transcriptions recently worked on by other transcribers.  Ascending view will allow you to quickly see which documents have never been worked on if you’d like to start from scratch.
 
@@ -71,6 +71,6 @@ The Filter dropdown provides five options for changing the view:
 - *Is in progress*,  shows items that have started to be transcribed; and
 - *Is new*, displays those items that have not been started.
 
-**![](http://arata.gmu.edu/Screenshots/Transcribe_Filter.png)**
+**![](/img/screenshots/Transcribe_Filter.png)**
 
 ---

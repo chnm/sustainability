@@ -28,22 +28,22 @@ Clicking on the thumbnail or pagetitle will take you to the media-level view. Th
 
 The main part of this page displays the Media Viewer on the left and any saved Transcription text on the right. If this particular page has its own detailed information separate from the larger document, it will be displayed below. The Media Viewer allows you to more closely view the document in order to assess the handwriting, complexity, and condition of the document. Use the tool bar at the top to zoom in or out, rotate left or right, or reset the image to fill the viewer. The *Transcription* section gives you a sense of how much of the transcription has been completed, if any, and to quickly scan for any potential revisions. If you decide that you want to work with a different pagein this document you can use the arrows on the right side of the header to toggle through them.
 
-**![](http://arata.gmu.edu/Screenshots/Transcribe_Page.png)**
+**![](/img/screenshots/Transcribe_Page.png)**
 
 The options included in the bar above the Media Viewer and Transcriptiondisplay provide four options for working with this page:
 
 - *Transcribe*, brings you to the main transcriptionpage, outlined in more detail in the next section.
 - *Browse revision history*, allows you explore the changes made to this document by you and/or other users, as well as compare any discrepancies between versions. Learn more about revision historyin a later section.
 - *View Notes*, brings you to the discussion page for this media item where you can write notes or questions to be read by other volunteers and the PWD editorial team. Learn more about the discussionpage in a later section.
-- *Track Media*, allows you to add this item to your Watchlist by clicking on this button. If you want to remove this item from your Watchlistsimply click "Stop Tracking Page." You can access your Watchlist from your Dashboard**,** allowing you to quickly scan In Progress media. Learn more about the Watchlist by scrolling to the bottom of the [User Accounts](/s/home/page/dashboard) documentation page.
+- *Track Media*, allows you to add this item to your Watchlist by clicking on this button. If you want to remove this item from your Watchlistsimply click "Stop Tracking Page." You can access your Watchlist from your Dashboard**,** allowing you to quickly scan In Progress media. Learn more about the Watchlist by scrolling to the bottom of the [User Accounts](/dashboard/) documentation page.
 
 ---
 
 ### **Transcribing Pages**
 
-This section will tell you how to navigate through the Transcription page. For guidelines about transcribing please see our [Transcription Guide](/s/home/page/transcribe-guidelines)**.** For help with historical context or handwriting, consult our [Historical Resources](/s/home/page/resources)**,** [Paleography Resources](/s/home/page/paleography)and[Common Abbreviations](/s/home/page/abbreviations)guides.
+This section will tell you how to navigate through the Transcription page. For guidelines about transcribing please see our [Transcription Guide](/transcribe-guidelines/)**.** For help with historical context or handwriting, consult our [Historical Resources](/resources/)**,** [Paleography Resources](/paleography/)and[Common Abbreviations](/abbreviations/)guides.
 
-**![](http://arata.gmu.edu/Screenshots/Transcribe_Overview.png)**
+**![](/img/screenshots/Transcribe_Overview.png)**
 
 Clicking on Transcribe either from the document-level or media-level view will bring you to the page where you can begin to transcribe individual media. If you arrive here erroneously, clicking *Cancel* in the header will take you back to the media-level view. The page will again display the main document title followed by the media titles. The header will also contain new items that give you information about the state of this particular page in the document:
 
@@ -63,7 +63,7 @@ The image viewer allows you to manipulate the view of your image for optimized t
 - *Rotate Left* by clicking on the fourth icon (circular arrow pointing left).
 - *Reset* allows you to return to the original image view .
 
-The text editor is where you will work on your transcription. This interface should be familiar to most users who have worked with any kind of text editor. The toolbar at the top contains formatting options available for transcriptions. If your particular transcription calls for more advanced formatting options, either consult the [Transcription Guidelines](/s/home/page/transcribe-guidelines) or this list of [HTML formatting codes](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references).
+The text editor is where you will work on your transcription. This interface should be familiar to most users who have worked with any kind of text editor. The toolbar at the top contains formatting options available for transcriptions. If your particular transcription calls for more advanced formatting options, either consult the [Transcription Guidelines](/transcribe-guidelines/) or this list of [HTML formatting codes](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references).
 
 Because Scripto tracks the changes for each transcription, there is a field above the text editor labeled "Summarize your changes" where you can include a brief comment about what work you have done in this session before saving, e.g., “Began transcription” or “Updated table up to row 5.” When viewing the Browse Revision History page, any changes made during this session will be included with the comment you enter here.
 
@@ -81,7 +81,7 @@ On the Browse revision historypage you can explore how the transcription for thi
 - *Size*, displays the size, in bytes, of the edit, followed by the difference, in characters, between the previous and current versions.
 - *Comment*, displays the text in the "Summarize your changes*"*field when this transcription was saved.
 
-**![](http://arata.gmu.edu/Screenshots/Transcribe_Revision.png)**
+**![](/img/screenshots/Transcribe_Revision.png)**
 
 To compare different versions of the transcription side by side, use the Comparefeature. Clicking on "cur"will compare that version with the current version. Clicking "prev"will compare that version with the previously saved version. Alternatively, you can fill in the circle next to two versions and click "Compare selected." The comparison allows you to view the changes line by line and compare parts that have been revised, deleted, or added.
 
@@ -91,13 +91,13 @@ To compare different versions of the transcription side by side, use the Compare
 
 The View Notes section is where you and other transcribers along with the *Papers of the War Department* editorial staff can discuss certain documents or transcriptions. This is where you can ask questions about this specific page*.* This page can be used to ask for help deciphering tricky handwriting, or to answer other transcribers’ questions about person or place names they cannot identify. The Media Viewer remains on the left side of the page with the Transcription text included below. The right side of the page will display any notes associated with this Page. If no notes have been added, it will say [No notes yet.].
 
-**![](http://arata.gmu.edu/Screenshots/Notes_Page.png)**
+**![](/img/screenshots/Notes_Page.png)**
 
 Clicking on Editin the Notes section will bring you to a page that looks similar to the transcriptionpage, however it has a distinct purpose. The text to the right of the image explains this. "Summarize your changes"allows you add a description of your note to appear in the Browse notes historypage (just like the Browse revision historypage). Finally, the text editor includes fewer tools than the Transcribeeditor. In addition to Bold, Italics, Underline*,* and Block Quotes,there is a Signatureoption*.* This will include both your username as well as the time and date of your contribution.
 
 Because all users will contribute their comments within the same text editor, we encourage users to include their Signatureafter their comment to keep track of the history of the conversation. We also suggest adding new comments in descending order, or, add your comment followed by your Signature above the previous comment. When finished with your contribution, click Saveat the top of the page.
 
-**![](http://arata.gmu.edu/Screenshots/Notes_Signature.png)**
+**![](/img/screenshots/Notes_Signature.png)**
 
 The Browse notes history option will take you to a page that allows you to compare the history of changes to the discussion section. Like the Browse revision historysection, you are able to Compare versions, view the Dateof each contribution, the Userwho made the contribution, the Sizeof the contribution, and the Commentadded in the "Summarize your changes"field.
 

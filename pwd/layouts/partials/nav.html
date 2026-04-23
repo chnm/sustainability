@@ -5,10 +5,10 @@
             <li><a href="/project_history/">Project History</a></li>
         </ul>
     </li>
-    <li>
+    <li{{ if eq .Section "news" }} class="active"{{ end }}>
         <a href="/news/">News</a>
     </li>
-    <li{{ if eq .Page.Params.slug "Guides" }} class="active"{{ end }}>
+    <li{{ if eq .Page.Params.slug "guides" }} class="active"{{ end }}>
         <a href="/guides/">Guides</a>
         <ul>
             <li>
@@ -50,10 +50,10 @@
             <li><a href="/quasiwar/">Quasi War</a></li>
         </ul>
     </li>
-    <li>
+    <li{{ if or (eq .Section "document") (eq .Data.Plural "authors") }} class="active"{{ end }}>
         <a href="/document/">Collection</a>
     </li>
-    <li>
+    <li{{ if eq .Page.Params.layout "search" }} class="active"{{ end }}>
         <a href="/search/">Search</a>
     </li>
 </ul>

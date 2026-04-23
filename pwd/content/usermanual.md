@@ -8,3 +8,7 @@ type: page
 ---
 
 These pages explain the basics of using our browse and search pages, and offer some tips on finding specific content in the collection.
+
+- [Browsing Names and Documents](/browsing-pwd/)
+- [Searching the Collection](/searching-pwd/)
+- [How to Cite Documents](/cite_docs/)

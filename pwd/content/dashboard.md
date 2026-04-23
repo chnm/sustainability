@@ -9,7 +9,7 @@ type: page
 
 Clicking the user icon in the navigation menu on the Transcribe page (it looks like a person) opens a dropdown menu which tells you the username which is currently logged-in, and gives you options to see your Dashboard, Contributions, and Watchlist.
 
-**![](http://arata.gmu.edu/Screenshots/Account_Options.png)**
+**![](/img/screenshots/Account_Options.png)**
 
 ---
 
@@ -17,7 +17,7 @@ Clicking the user icon in the navigation menu on the Transcribe page (it looks l
 
 The dashboard gives you an overview of your Contributions and your Watchlist.
 
-**![](http://arata.gmu.edu/Screenshots/Account_Dashboard.png)**
+**![](/img/screenshots/Account_Dashboard.png)**
 
 Your recent Contributions (documents you have edited) will display as a list. In each row, it will show the following information:
 
@@ -49,7 +49,7 @@ Your Contributions are those documents which you have edited in some way, either
 
 Your contributions display in a table. Because you transcribe documents page by page, the rows in the table correspond to the pages of a document, not to the entire document itself.
 
-**![](http://arata.gmu.edu/Screenshots/Account_Contributions.png)**
+**![](/img/screenshots/Account_Contributions.png)**
 
 Each column header provides the following information:
 
@@ -68,7 +68,7 @@ Each column header provides the following information:
 
 You can choose to track pages which you have not edited by adding them to your Watchlist. This table keeps you updated on the latest changes to the pages and documents which you are watching.
 
-**![](http://arata.gmu.edu/Screenshots/Account_Watchlist.png)**
+**![](/img/screenshots/Account_Watchlist.png)**
 
 Above the table of watched documents is a dropdown menu which lets you select the time period for changes. You can choose from:
 

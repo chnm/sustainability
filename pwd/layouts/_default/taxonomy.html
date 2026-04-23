@@ -50,7 +50,15 @@
     </div>
 {{ else }}
     {{/* Taxonomy list page: all terms alphabetically */}}
+    {{ if eq .Data.Plural "authors" }}
+    <h2>Collection</h2>
+    <nav class="browse-tabs" aria-label="Browse by type">
+        <a class="browse-tab" href="/document/">Documents <span class="count">({{ len (where site.RegularPages "Type" "document") }})</span></a>
+        <a class="browse-tab active" href="/authors/">Names <span class="count">({{ len .Pages }})</span></a>
+    </nav>
+    {{ else }}
     <h2>{{ .Title }}</h2>
+    {{ end }}
     {{ .Content }}
     <p class="row-count">{{ len .Pages }} terms</p>
 

@@ -7,9 +7,9 @@ on:
       - "**"
     paths:
       - 'historymatters.gmu.edu/**'
-      - "!.github/**"
 
 jobs:
+
   deploy:
     uses: chnm/.github/.github/workflows/static--deploy.yml@main
     secrets: inherit

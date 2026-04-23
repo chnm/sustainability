@@ -1,4 +1,4 @@
-name: "[wardepartmentpapers.org] Build, Release, Deploy"
+name: "[wardepartmentpapers.org] Hugo Build, Release, Deploy"
 
 on:
   workflow_dispatch:

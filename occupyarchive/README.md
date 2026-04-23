@@ -70,6 +70,7 @@ Omeka source.
 | Item show pages | 3,528 |
 | Type-filtered browse pages restored | 141 (5 landings + 136 paginated) |
 | Collection-filtered browse pages restored | 298 (202 landings + 96 paginated) |
+| Tag-cloud anchors restored on `/items/tags.html` | 1,824 |
 | Pages with search form injected | 8,327 |
 | Pages stripped of Google Analytics | 8,327 |
 | Pages stripped of FakeCron (external + inline) | 8,327 |
@@ -103,6 +104,8 @@ All scripts are idempotent and safe to re-run.
 | `postprocess.py` | (pre-existing) `_wget/` → `_static/`: link rewrite, form strip. |
 | `inject_pagefind.py` | Swap the Omeka search form for a GET-form pointing at `/search.html`; generate `/search.html` from `index.html` with a Pagefind UI mount that reads `?q=` from the URL. |
 | `rescue_type_filters.py` | Recover 141 `?type=N` filtered browse pages that `postprocess.py` dropped; rename into a clean URL scheme; fix nav. |
+| `rescue_collection_filters.py` | Same shape as the type rescue, but for `?collection=N`; recovers 298 pages and patches `collections/show/*` hrefs. |
+| `rescue_tag_cloud.py` | Re-inject the 1,824 anchors on `/items/tags.html` that `postprocess.py` stripped; rewrite hrefs from the dropped `?tags=X` scheme to the slug-based `/items/browse/tag/X.html` canonical URLs. |
 | `generate_featured.py` | Extract `featured=1 AND public=1` items from SQL → `featured-pool.json`; inject a small randomizer script into `index.html`. |
 | `generate_map.py` | Replace the broken Omeka Geolocation + Google Maps v3 page with Leaflet + OSM, fed from a static `data/geodata.geojson`. |
 | `strip_ga.py` | Remove the baked-in Google Analytics `<script>` block (UA-3026200-6). Matomo (rrchnm) left intact. |
@@ -122,7 +125,7 @@ Stage 2 (Caddy) ships the static site.
 - `COPY --from=stagex/core-musl / /` provides runtime libs.
 - Caddyfile:
   - `auto_https off`, `admin off`, `:80`.
-  - `try_files {path} {path}.html {path}/index.html` — handles extensionless paths since the crawl uses flat `.html` files (`items/show/1000.html`, not `items/show/1000/index.html`).
+  - `try_files {path} {path}.html` — handles extensionless URLs (e.g. `/items/show/1000` → `items/show/1000.html`, `/items/browse/type/6/page/100` → `.../page/100.html`). `file_server`'s default `index` directive serves `index.html` for directory requests natively, so no third fallback arm is needed.
   - Long-cache `public, max-age=31536000, immutable` for `/archive/*`, `/pagefind/*`, `/themes/*`.
   - `encode gzip zstd` — Pagefind `.pagefind` shards are pre-compressed and skipped by Caddy's default MIME detection.
 
@@ -185,8 +188,17 @@ faithfully crawled.
 
 - Reads `_wget/.../items/browse/*?type=*.html`.
 - Two filename patterns:
-  - `items/browse/index.html?type=N.html` → `items/browse/type/N.html`
+  - `items/browse/index.html?type=N.html` → `items/browse/type/N/index.html`
   - `items/browse/P?type=N.html` → `items/browse/type/N/page/P.html`
+
+  The landing is written as `N/index.html` (not a flat `N.html`) so it
+  doesn't collide with the `N/page/` pagination subtree sharing its
+  name. When a `.html` file and a directory share a basename, both
+  Apache's `!-d` mod_rewrite clause and Caddy's `try_files` match the
+  directory first and never consult the sibling file, 404'ing the
+  canonical `/items/browse/type/N` URL. Writing it inside the
+  directory as `index.html` is served natively by `DirectoryIndex` /
+  `file_server`'s default `index`.
 - Rewrites link targets:
   - `/items/browse/?type=N` → `/items/browse/type/N`
   - `href="N?type=M"` (relative pagination) → `/items/browse/type/M/page/N`
@@ -218,7 +230,7 @@ link on all 202 `collections/show/<id>.html` pages (plus 10 on
 `rescue_collection_filters.py` mirrors the type-filter rescue:
 
 - Landing: `_wget/items/browse?collection=N.html` →
-  `_static/items/browse/collection/N.html`
+  `_static/items/browse/collection/N/index.html` (same shadowing-avoidance rationale as type landings above).
 - Paginated: `_wget/items/browse/P?collection=N.html` →
   `_static/items/browse/collection/N/page/P.html`
 - Absolutizes relatives with different bases per source location
@@ -239,6 +251,34 @@ of the site, so the following were run with `STATIC_ROOT=/workspace/occupyarchiv
 **Result**: 298 files rescued (202 landings + 96 paginated), 664
 hrefs patched across 256 existing pages. Zero remaining `collection=`
 404s.
+
+### 3b. Tag cloud anchors (`/items/tags.html`)
+
+Same root cause as 3 and 3a, different symptom. `postprocess.py`
+dropped querystring files wholesale and then stripped the now-broken
+anchors on `/items/tags.html` rather than rewriting them, leaving
+1,824 bare `<li class="…popular">tagname</li>` entries — visible
+text, no link.
+
+wget had captured two URL forms for every tag (the `?tags=X`
+querystring variant, deleted in postprocess, *and* the slug-based
+`/items/browse/tag/X` canonical, which is still on disk). The cloud
+just needed its hrefs rewritten to the surviving form.
+
+`rescue_tag_cloud.py`:
+
+1. Pulls the `<ul class="popularity">` block verbatim from
+   `_wget/items/tags.html` (the original cloud, anchors intact).
+2. Rewrites each `href="[./]?browse%3Ftags=SLUG.html"` →
+   `href="/items/browse/tag/SLUG.html"`.
+3. Verifies each target file exists on disk; warns on any miss.
+4. Swaps the block into `_static/items/tags.html`.
+
+Using the wget HTML as the source of truth sidesteps having to
+reinvent Omeka's tag-name-to-slug transformation (which is non-trivial
+— slugs preserve literal `:`, `=`, `+`, and non-ASCII characters).
+
+**Result**: 1,824 anchors re-injected, 0 missing on disk.
 
 ### 4. Randomized featured items on the homepage
 
@@ -369,10 +409,14 @@ line across 8,326 pages (the Twitter account is inactive).
 │   ├── browse/
 │   │   ├── <N>.html            (pagination: all items)
 │   │   ├── tag/<slug>/         (tag-filtered)
-│   │   └── type/               (RESTORED — see rescue_type_filters)
-│   │       ├── 1.html          (Documents landing)
-│   │       ├── 4.html, 5.html, 6.html, 7.html
-│   │       └── {1,4,5,6,7}/page/<P>.html
+│   │   ├── type/               (RESTORED — see rescue_type_filters)
+│   │   │   └── {1,4,5,6,7}/
+│   │   │       ├── index.html  (type landing — Documents / Images / …)
+│   │   │       └── page/<P>.html
+│   │   └── collection/         (RESTORED — see rescue_collection_filters)
+│   │       └── <N>/
+│   │           ├── index.html  (collection landing, 202 total)
+│   │           └── page/<P>.html (where present)
 │   └── show/
 │       └── <N>.html            (3,528 item pages)
 ├── collections/
@@ -390,16 +434,34 @@ Running from a fresh `_wget/` (skip step 1 if already done):
    - `build/crawl.sh` → `_wget/`.
 2. `python3 build/postprocess.py` — `_wget/` → `_static/` (pre-existing).
 3. `python3 build/rescue_type_filters.py` — restore type filter pages + fix nav.
-4. `python3 build/strip_ga.py` — drop Google Analytics.
-5. `python3 build/strip_fakecron.py` — drop FakeCron.
-6. `python3 build/inject_pagefind.py` — wire up search form + `/search.html`.
-7. `python3 build/generate_featured.py` — featured-item randomizer + pool JSON.
-8. `python3 build/generate_map.py` — GeoJSON + Leaflet map page.
-9. `npx -y pagefind@latest --site occupyarchive.org_static` — build the search index (reads `data-pagefind-body` + facet spans).
-10. `docker build -t occupyarchive-static occupyarchive.org_static` — ship image.
+4. `python3 build/rescue_collection_filters.py` — restore collection filter pages + fix `collections/show/*` hrefs.
+5. `python3 build/rescue_tag_cloud.py` — re-inject anchors on `/items/tags.html`.
+6. `python3 build/strip_ga.py` — drop Google Analytics.
+7. `python3 build/strip_fakecron.py` — drop FakeCron.
+8. `python3 build/inject_pagefind.py` — wire up search form + `/search.html`.
+9. `python3 build/generate_featured.py` — featured-item randomizer + pool JSON.
+10. `python3 build/generate_map.py` — GeoJSON + Leaflet map page.
+11. Migrate filter landings to `index.html` form (see rescue sections for why):
 
-Steps 3–8 are order-independent among each other (no cross-dependencies);
-keep them before step 9 so Pagefind indexes the final HTML.
+    ```bash
+    for dir in items/browse/type items/browse/collection; do
+      find "$dir" -maxdepth 1 -type f -name '*.html' | while read f; do
+        base="${f%.html}"; mkdir -p "$base"
+        [ -e "$base/index.html" ] || mv "$f" "$base/index.html"
+      done
+    done
+    ```
+
+    The rescue scripts currently emit flat `N.html` landings next to
+    the `N/page/` pagination subtree, which shadows the landing on
+    any directory-aware server (mod_rewrite `!-d`, Caddy `try_files`).
+    Either patch the rescue scripts to write `N/index.html` directly,
+    or run the loop above.
+12. `npx -y pagefind@latest --site occupyarchive.org_static` — build the search index (reads `data-pagefind-body` + facet spans).
+13. `docker build -t occupyarchive-static occupyarchive.org_static` — ship image.
+
+Steps 3–11 are order-independent among each other (no cross-dependencies);
+keep them before step 12 so Pagefind indexes the final HTML.
 
 ## Deferred / known issues
 
@@ -424,7 +486,7 @@ Smoke-test against the serving container:
 - [ ] `/items/browse` paginates to the last page.
 - [ ] `/items/browse/type/6` (Images) renders; pagination links work.
 - [ ] `/items/show/<id>` — sample 20 pages; images load from `/archive/`.
-- [ ] `/items/tags` and `/items/browse/tag/<slug>/` render.
+- [ ] `/items/tags.html` renders and every tag is a clickable `<a>`; a sampled tag navigates to its `/items/browse/tag/<slug>.html` page.
 - [ ] `/items/map.html` shows a US-centered map with 79 pins; popups link to show pages.
 - [ ] `/search.html?q=seattle` returns ranked results; clicking a result goes to the item page.
 - [ ] Network tab: no requests to `localhost:8080`, `www.google-analytics.com`, `maps.google.com`, or `fake-cron`.

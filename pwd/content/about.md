@@ -52,3 +52,9 @@ This site currently runs on the static site generator, [Hugo](https://gohugo.io/
 - David Goure, *Intern*, 2006-2008
 
 **[Get in touch with the *Papers of the War Department* team](https://rrchnm.org/our-story/contact-us/).**
+
+---
+
+<nav class="sub-page-nav" aria-label="Related pages">
+<a class="yellow button" href="/project_history/">Project History</a>
+</nav>

@@ -15,10 +15,10 @@ This video demonstrates the basics of signing up for an account, starting at the
 
 To join as a community transcriber, go to the account creation page by clicking Transcribe in the navigation menu and then clicking Create account at the top right of the page. You will need to enter: a username, a password (twice), and your email address. You can also provide a name which will be used to credit your work; if you do not, everything will be credited to your username.
 
-**![](http://arata.gmu.edu/Screenshots/Transcribe_Account.png)**
+**![](/img/screenshots/Transcribe_Account.png)**
 
 After you submit the form, check your email for a message with a validation link; if you do not see it in a timely fashion, be sure to check your spam or junk mail filter. Clicking the link in the activation email will take you to the main page of the Papers of the War Department MediaWiki installation. The MediaWiki installation is only for administrative purposes. Once you have allowed the page to load and verified your email, you can leave the page and return to the *Papers of the War Department* main site.
 
 Following validation, your account will be active and you can log in to the Transcription section of the Papers of the War Department at any time.
 
-Before you begin transcribing, please review the [Transcription Guidelines](/s/home/page/transcribe-guidelines). These guidelines are also a useful resource if you get stuck while transcribing. We also have a number of resources for transcribers, including [paleography](/s/home/page/paleography) (handwriting)  and [commonly used abbreviations](/s/home/page/abbreviations).
+Before you begin transcribing, please review the [Transcription Guidelines](/transcribe-guidelines/). These guidelines are also a useful resource if you get stuck while transcribing. We also have a number of resources for transcribers, including [paleography](/paleography/) (handwriting)  and [commonly used abbreviations](/abbreviations/).

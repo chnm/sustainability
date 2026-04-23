@@ -18,7 +18,7 @@ The Layout options are the same as the Document Browse page. List is set as the 
 - *List,* displays the media in horizontal rows that prioritize text with a small thumbnail of each item followed by information for that particular item.
 - *Grid,* displays the media in squares four per row that prioritize a large thumbnail of each item with information about each image listed below.
 
-**![](http://arata.gmu.edu/Screenshots/Transcribe_Doc.png)**
+**![](/img/screenshots/Transcribe_Doc.png)**
 
 In the default Listview, each media page has its own row that lists Page information, date when the page was Last transcribed, and its Status*.*
 
@@ -49,6 +49,6 @@ You can also Filter the media through a number of options:
 
 The details section below includes information related to the entire document. This includes Title, Description, Date, Author, Location, Recipient,and Collection*.* Scrolling down to the Notes, Notable person/group, Notable location, and Notable item/thing can be helpful for giving you context to decipher parts of a transcription you aren’t sure about as you work through each page.
 
-**![](http://arata.gmu.edu/Screenshots/Transcribe_Details.png)**
+**![](/img/screenshots/Transcribe_Details.png)**
 
 ---

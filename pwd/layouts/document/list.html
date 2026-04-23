@@ -1,6 +1,10 @@
 {{ define "bodyclass" }}item browse{{ end }}
 {{ define "main" }}
-<h2>Documents</h2>
+<h2>Collection</h2>
+<nav class="browse-tabs" aria-label="Browse by type">
+    <a class="browse-tab active" href="/document/">Documents <span class="count">({{ len .Pages }})</span></a>
+    <a class="browse-tab" href="/authors/">Names <span class="count">({{ len (site.Taxonomies.authors) }})</span></a>
+</nav>
 {{ .Content }}
 {{ $paginator := .Paginate (.Pages.ByParam "year") }}
 <div class="browse-controls">

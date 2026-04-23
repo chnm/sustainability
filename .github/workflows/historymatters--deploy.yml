@@ -9,7 +9,6 @@ on:
       - 'historymatters.gmu.edu/**'
 
 jobs:
-
   deploy:
     uses: chnm/.github/.github/workflows/static--deploy.yml@main
     secrets: inherit

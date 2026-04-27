@@ -1,0 +1,201 @@
+<html>
+<head>
+<title>Exercise: Is the Film &quot;Authentic&quot;?</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script type="text/javascript">
+<!--
+<!--start hiding
+
+
+
+
+
+<!-- 
+
+// same deal as before .... enter the feedback-comments for each question below .... 
+
+// theAnalysis1Array takes comments for each answer,  
+
+// skip the first one, (where the x is) because that would be 
+
+// considered 0 
+
+// don't hit the return key when you enter these comments just type
+
+// on one long straight line .... the text will automatically wrap 
+
+// in the feedback box on the quiz -->
+
+
+var theAnalysis1Array = new Array(
+
+"x",
+
+"Yes, these troops are in the Orange Mountains of New Jersey.",
+
+"No, these troops are in the Orange Mountains of New Jersey.")
+
+
+var theAnalysis2Array = new Array(
+
+"x",
+
+"Yes, these troops are the New Jersey National Guard reenacting the battle in New Jersey.",
+
+"No, these troops are the New Jersey National Guard reenacting the battle in New Jersey.")
+
+
+
+var theAnalysis3Array = new Array(
+
+"x",
+
+"No, these troops really were in the Philippines.",
+
+"Yes! These troops really were in the Philippines.")
+
+
+
+function q1(x,y){
+
+
+
+		document.theForm.question1[x].checked = true
+
+		document.theForm.feedback1.value = theAnalysis1Array[y]}
+		
+		
+		
+function q2(x,y){
+
+
+
+		document.theForm.question2[x].checked = true
+
+		document.theForm.feedback2.value = theAnalysis2Array[y]}
+
+	
+
+function q3(x,y){
+
+
+
+		document.theForm.question3[x].checked = true
+
+		document.theForm.feedback3.value = theAnalysis3Array[y]}
+
+				
+		
+<!--**********************************-->  
+
+
+//stop hiding -->
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+
+
+<body bgcolor="#FFFFFF" text="#000000">
+<form name="theForm" method="post" action="">
+  <table border="0" cellspacing="0" cellpadding="0" width="528">
+    <tr> 
+      <td colspan="3"><img src="images/authenticity.gif" width="483" height="78"></td>
+    </tr>
+    <tr> 
+      <td colspan="3"> 
+        <p>&nbsp;</p>
+        <p>The Philippine-American 
+          War (1899-1902) was one of the first U.S. wars to take place in the 
+          era of moving pictures. View the three film clips below and decide which 
+          are reenactments and which filmed actual events. After you are done, 
+          click Commentary for more information on authenticity and reenactments 
+          in early films.</p>
+        <p>&nbsp;</p>
+        </td>
+    </tr>
+    <tr> 
+      <td width="240"> 
+        <p><embed src="candaba.mov" width="240" height="196" autoplay="false" loop="false" controller="true" playeveryframe="false" bgcolor="#FFFFFF" kioskmode="false" targetcache="false" pluginspage="http://www.apple.com/quicktime/">
+          </embed></p>
+      </td>
+      <td width="20"><img src="images/space1.gif" width="20" height="20"></td>
+      <td width="268"> 
+        <p><i><b>Capture 
+          of Trenches at Candaba</b></i></p>
+        <p><b> 
+          <input type="radio" name="question1" value="yes" onClick="q1(0,1)">
+          </b>Reenactment </p>
+        <p> 
+          <input type="radio" name="question1" value="yes" onClick="q1(1,2)">
+          Actual Events 
+        </p>
+        <p> 
+          <textarea name="feedback1" cols="50"></textarea>
+        </p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="240">&nbsp;</td>
+      <td width="20">&nbsp;</td>
+      <td width="268">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="240"> 
+        <p><embed src="caloocan.mov" width="240" height="196" autoplay="false" loop="false" controller="true" playeveryframe="false" bgcolor="#FFFFFF" kioskmode="false" targetcache="false" pluginspage="http://www.apple.com/quicktime/">
+          </embed></p>
+      </td>
+      <td width="20"><img src="images/space1.gif" width="20" height="20"></td>
+      <td width="268"> 
+        <p><i><b>Advance 
+          of Kansas Volunteers at Caloocan</b></i></p>
+        <p><b> 
+          <input type="radio" name="question2" value="yes" onClick="q2(0,1)">
+          </b>Reenactment 
+        </p>
+        <p> 
+          <input type="radio" name="question2" value="yes" onClick="q2(1,2)">
+          Actual Events 
+        </p>
+        <p> 
+          <textarea name="feedback2" cols="50"></textarea>
+        </p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="240">&nbsp;</td>
+      <td width="20">&nbsp;</td>
+      <td width="268">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td height="196" width="240"> 
+        <p><embed src="25thinfa.mov" width="240" height="196" autoplay="false" loop="false" controller="true" playeveryframe="false" bgcolor="#FFFFFF" kioskmode="false" targetcache="false" pluginspage="http://www.apple.com/quicktime/">
+          </embed></p>
+      </td>
+      <td height="196" width="20"><img src="images/space1.gif" width="20" height="20"></td>
+      <td height="196" width="268"> 
+        <p><i><b>25<sup>th</sup> 
+          Infantry</b></i></p>
+        <p><b> 
+          <input type="radio" name="question3" value="yes" onClick="q3(0,1)">
+          </b>Reenactment 
+        </p>
+        
+         
+        <p> 
+          <input type="radio" name="question3" value="yes" onClick="q3(1,2)">
+          Actual Events</p>
+        <p> 
+          <textarea name="feedback3" cols="50"></textarea>
+        </p>
+      </td>
+    </tr>
+  </table>
+  <p><a href="javascript:;"
+onClick="MM_openBrWindow('commentarypop1.html','','scrollbars=yes,resizable=yes,width=450,height=400')"><u>Commentary</u></a></p>
+</form>
+<p>&nbsp;</p>
+</body>
+</html>

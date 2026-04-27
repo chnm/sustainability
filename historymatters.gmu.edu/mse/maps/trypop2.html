@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>How Do You Make A Flat Map Out of a Round World?</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="maps.css" type="text/css">
+<script type="text/javascript">
+
+
+
+
+
+<!--start hiding
+
+
+
+
+
+<!-- 
+
+// same deal as before .... enter the feedback-comments for each question below .... 
+
+// theAnalysis1Array takes comments for each answer,  
+
+// skip the first one, (where the x is) because that would be 
+
+// considered 0 
+
+// don't hit the return key when you enter these comments just type
+
+// on one long straight line .... the text will automatically wrap 
+
+// in the feedback box on the quiz -->
+
+
+var theAnalysis1Array = new Array(
+
+"x",
+
+"Not so great. It's an Equal Area Cylindrical projection, an equal area map with problems of distortion in shape, direction, and distance. As an equal area map, it shows the states in correct proportion to their areas, but the other spatial attributes are compromised. It is commonly used to map equatorial areas and is not appropriate for showing the United States.",
+
+"This one looks better at first glance, but it has problems. This is a Mercator projection, which is used for navigational purposes. The further one moves away from the equator the greater the distortion of area. Compare the size of Texas and Montana. Texas should be forty percent larger than Montana.",
+
+"Still not the best choice. This Robinson projection does a good job of maintaining overall shape and area relationships on a map of the world. While the United States may be more recognizable in this projection, it still contains a significant amount of distortion. There are better alternatives for mapping an area like the United States.",
+
+"This Albers projection contains the least distortion of these four maps, because it is designed for use with places in the midlatitudes like the contiguous forty-eight states of the U.S. This makes it your best choice. When in doubt about a projection, compare a flat map with a globe--the greater the flat map deviates from the appearance of the area on the globe, the more distortion has occurred.")
+
+
+
+function q1(x,y){
+
+
+
+		document.theForm.question1[x].checked = true
+
+		document.theForm.feedback1.value = theAnalysis1Array[y]}
+		
+
+				
+		
+<!--**********************************-->  
+
+
+//stop hiding -->
+
+</script>
+<body bgcolor="#FFFFFF" text="#000000" link="#0066FF" vlink="#FF0000">
+<table width="470" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td> 
+      <p class="bodytext"><img src="images/accurateques.gif" width="483" height="88"></p>
+      <form name="theForm" method="post" action="" enctype="multipart/form-data">
+        <table width="470" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td colspan="2"><img src="images/equalarea1.jpg" width="199" height="129"></td>
+            <td width="70">&nbsp;</td>
+            <td colspan="2"><img src="images/mercator1.jpg" width="199" height="129"></td>
+          </tr>
+          <tr> 
+            <td width="24"> 
+              <input type="radio" name="question1" value="yes" onClick="q1(0,1)">
+            </td>
+            <td width="176" class="bodytext">Map A</td>
+            <td width="70">&nbsp;</td>
+            <td width="24"> 
+              <input type="radio" name="question1" value="yes" onClick="q1(1,2)">
+            </td>
+            <td width="176" class="bodytext">Map B</td>
+          </tr>
+          <tr> 
+            <td colspan="2">&nbsp;</td>
+            <td width="70">&nbsp;</td>
+            <td colspan="2">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td colspan="2"><img src="images/robinson1.jpg" width="199" height="129"></td>
+            <td width="70">&nbsp;</td>
+            <td colspan="2"><img src="images/albers1.jpg" width="199" height="129"></td>
+          </tr>
+          <tr> 
+            <td width="24"> 
+              <input type="radio" name="question1" value="yes" onClick="q1(2,3)">
+            </td>
+            <td width="176" class="bodytext">Map C</td>
+            <td width="70">&nbsp;</td>
+            <td width="24"> 
+              <input type="radio" name="question1" value="yes" onClick="q1(3,4)">
+            </td>
+            <td width="176" class="bodytext">Map D</td>
+          </tr>
+          <tr> 
+            <td colspan="5"><img src="images/space1.gif" width="20" height="20"></td>
+          </tr>
+          <tr> 
+            <td colspan="5"> 
+              <div align="center">
+                <textarea name="feedback1" rows=12 cols=50&quot; wrap="VIRTUAL"></textarea>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <p>&nbsp;</p></form>
+      
+    </td>
+  </tr>
+</table></div></html>
+</html>

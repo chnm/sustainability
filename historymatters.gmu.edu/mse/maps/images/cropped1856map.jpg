@@ -1,0 +1,78 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>History Matters: The U.S. Survey Course on the Web</title>
+<link href="hm_style.css" rel="stylesheet" type="text/css" media="screen">
+<style type="text/css">
+ #head_img {
+  	<>margin: -1px;
+ }
+</style>
+
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '56']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+
+</head>
+<body> 
+<div id="container"> 
+  <div id="header"><a href="http://historymatters.gmu.edu"><img src="http://historymatters.gmu.edu/images/head_img.jpg" alt="HISTORY MATTERS - The U.S. Survey Course on the Web" id="head_img"></a>
+  </div> 
+  <div id="sub_header"> Designed for high school and college teachers and students,<br> 
+    <em>History Matters</em> serves as a gateway to web resources and offers<br> 
+    other useful materials for teaching U.S. history. (<a href="expansion.html">more on this site</a>) </div> 
+  <div id="search_boxes"> 
+    <form method="post" id="my_keyword" name="my_keyword" action="/search.php?function=find"> 
+      <img src="images/search_icon.jpg" alt="search:" border="0"> 
+      <input name="Keyword" type=TEXT size="12" maxlength=255> 
+      <a href="javascript:document.my_keyword.submit()"> <img src="images/go_button.jpg" alt="go!" width="30" height="13" border="0"></a><br> 
+    </form> 
+      <a href="https://historymatters.gmu.edu/search.php"><img src="images/advanced_search_button.jpg" alt="advanced search - go!" width="172" height="11" border="0"></a> 
+  </div> 
+
+    <div id="many_pasts"><a href="http://historymatters.gmu.edu/browse/manypasts/"><img src="http://historymatters.gmu.edu/images/many_pasts.jpg" alt="many pasts - explore over 800 primary source documents, images, and audio interviews" width="175" height="66" border="0"><br> 
+      <img src="http://historymatters.gmu.edu/images/icon1.jpg" alt="many pasts icon" width="64" height="142" border="0"></a> </div> 
+    <div id="mse"><a href="http://historymatters.gmu.edu/browse/makesense/"><img src="http://historymatters.gmu.edu/images/making_sense.jpg" alt="making sense of evidence - read how historians approach sources and use them to make sense of the past" width="243" height="66" border="0"><br> 
+      <img src="http://historymatters.gmu.edu/images/icon2.jpg" alt="making sense of evidence icon" border="0"></a></div> 
+    <div id="www_history"><a href="http://historymatters.gmu.edu/browse/wwwhistory/"><img src="http://historymatters.gmu.edu/images/www_history.jpg" alt="www.history - search over 700 fully reviewed and annotated websites in American history" width="175" height="66" border="0"><br> 
+      <img src="http://historymatters.gmu.edu/images/icon3.jpg" alt="www.history icon" border="0"></a></div> 
+    <ul id="other_sections">
+      <li><a href="http://historymatters.gmu.edu/browse/digblack/"><img src="http://historymatters.gmu.edu/images/sub_menu_01.jpg" border="0" ></a></li>
+       <li><a href="http://historymatters.gmu.edu/browse/refdesk/"><img src="http://historymatters.gmu.edu/images/sub_menu_02.jpg" alt="reference desk - copyright, standards, and evaluating websites" width="427" height="16" ></a></li>
+       <li><a href="http://historymatters.gmu.edu/browse/talkhist/"><img src="http://historymatters.gmu.edu/images/sub_menu_03.jpg" alt="talking history - archives forums with teachers and scholars" ></a></li>
+       <li><a href="http://historymatters.gmu.edu/browse/syllabus/"><img src="http://historymatters.gmu.edu/images/sub_menu_04.jpg" alt="syllabus central - annotated syllabi"></a></li> 
+       <li><a href="http://historymatters.gmu.edu/browse/studhist/"><img src="http://historymatters.gmu.edu/images/sub_menu_05.jpg" alt="students as historians - student work on the Web"></a></li>
+       <li><a href="http://historymatters.gmu.edu/browse/secrets/"><img src="http://historymatters.gmu.edu/images/sub_menu_06.jpg" alt="secrets of great history teachers - teachers share strategies and techniques"></a></li>
+       <li><a href="http://historymatters.gmu.edu/browse/puzzled/"><img src="http://historymatters.gmu.edu/images/sub_menu_07.jpg" alt="puzzled by the past - an archive of past quizzes"></a></li>
+    </ul>
+
+  <div id="footer">Created by the American Social History Project / Center for Media and Learning (Graduate Center, CUNY)<br> 
+    and the Roy Rosenzweig Center for History and New Media (George Mason University).
+    <ul> 
+    <li>&#8226; <a href="http://historymatters.gmu.edu/all.html">full  resource list</a> </li> 
+      <li>&#8226; <a href="http://historymatters.gmu.edu/ourotherprojs.html">our other projects</a></li> 
+      <li>&#8226; <a href="http://historymatters.gmu.edu/credits.html">about us</a> </li> 
+    </ul> 
+    <p id="copyright">Copyright 1998-2026 American Social History Productions, Inc. All rights reserved.</p> 
+        <p>Last Updated: March 22, 2018.</p> 
+
+  </div> 
+</div> 
+</body>
+</html>
+

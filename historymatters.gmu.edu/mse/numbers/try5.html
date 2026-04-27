@@ -1,0 +1,182 @@
+<html>
+<head>
+<title>How Do I Locate Patterns? Averages</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--start hiding
+
+<!-- 
+
+// same deal as before .... enter the feedback-comments for each question below .... 
+
+// theAnalysis1Array takes comments for each answer,  
+
+// skip the first one, (where the x is) because that would be 
+
+// considered 0 
+
+// don't hit the return key when you enter these comments just type
+
+// on one long straight line .... the text will automatically wrap 
+
+// in the feedback box on the quiz -->
+
+
+var theAnalysis1Array = new Array(
+
+"x",
+
+"Not exactly",
+
+"Yes",
+
+"Not quite right")
+
+
+	function q1(x,y){
+
+		document.form1.question1[x].checked = true
+
+		document.form1.textfield.value = theAnalysis1Array[y]}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+<link rel="stylesheet" href="links.css" type="text/css">
+ </head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="483" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td height="634">
+      <div class=Section1> 
+        <div class=Section1>
+          <p><img src="images/typical.gif" width="354" height="87"><br>
+            <br>
+            Let&#146;s look at an example of historical analysis that uses averages. 
+            Our data set is drawn from the tax list of Russia Township, Ohio, 
+            in 1850. The tax list provides property assessments for a total of 
+            392 resident taxpayers. With the help of Microsoft Excel, we have 
+            calculated the mean, median, and mode:<br>
+            <br>
+            Mean=$667<br>
+            Median=$389<br>
+            Mode=$260<br>
+            </p>
+          <form name="form1" method="post" action="">
+            <p>What 
+              was the &quot;typical&quot; property assessment in Russia Township, 
+              Ohio, in 1850?<br>
+              <br>
+              <input type="radio" name="question1" onClick="q1(0,1)">
+              $260<br>
+              <input type="radio" name="question1" onClick="q1(1,2)">
+              $389 <br>
+              <input type="radio" name="question1" onClick="q1(2,3)">
+              $667</p>
+            <p> 
+              <input type="text" name="textfield">
+            </p>
+          </form>
+          <p>Why the 
+            median and not the mean or the mode? Each of these figures tells us 
+            something about the average property holding of a Russia Township 
+            taxpayer in 1850. Indeed, depending on what you intend by the term 
+            &quot;typical,&quot; you could argue that the typical Russia Township 
+            taxpayer owned $260, $389, or $667 in assessed property in 1850. It 
+            is important to specify which measure you are using when you speak 
+            of the &quot;average&quot; or &quot;typical&quot; member of a data 
+            set.<br>
+            <br>
+            Taken together the mean and median tell us something about the larger 
+            pattern of property holding in Russia Township that neither reveals 
+            on its own. From the fact that the mean is higher than the median, 
+            we can infer that the distribution of property assessments is skewed 
+            rather than symmetrical. As it happens, the assessments of a small 
+            number of quite large property holders raised the mean without affecting 
+            the median. This pattern is visually evident in the following graph 
+            of the <b>distribution</b> of property assessments:<br>
+            <br>
+            <b>Graph 3: Distribution of Taxpayers by Assessment Category, Russia 
+            Township, Ohio, 1850<br>
+            <br>
+            </b><img src="images/graph3-Q5.jpg" width="420" height="326" border="1"></p>
+          <p>As Graph 
+            3 makes clear, there was a large range of property assessments in 
+            Russia Township in 1850. And just as averages summarize the central 
+            tendency of a data set, other measures are useful for summarizing 
+            the <b>dispersion</b> or <b>variability</b> of a data set. The simplest 
+            way to specify dispersion is to give the minimum and maximum of the 
+            range, $13 and $7358 in the case of Russia Township property assessments. 
+            But the minimum and maximum by themselves do not tell us much about 
+            how tightly clustered or broadly spread out the bulk of data points 
+            are; they just tell us where the extremes lie at either end of the 
+            range. <br>
+            <br>
+            A less intuitive but otherwise more useful summary statistic of dispersion 
+            is <b>standard deviation</b>. Technically, standard deviation is defined 
+            as &quot;the square root of the arithmetic mean of the squared deviations 
+            from the mean&quot;<a href="javascript:;" onClick="MM_openBrWindow('question5pop1.html','footnote','scrollbars=yes,resizable=yes,width=170,height=62')">*</a>, 
+            and it is calculated according to the following formula: </p>
+          <p><img src="images/mathformula.gif" width="421" height="133"></p>
+        </div>
+        <div class=Section1> 
+          <p>If this 
+            seems a bit confusing, don&#146;t panic. For common sense purposes, 
+            you may wish to conceptualize standard deviation in one of three ways. 
+            The first is to think of it as a measure of the average of the distances 
+            between each data point and the mean of the data set. The standard 
+            deviation is not the <i>mean</i> of the distances of the data points 
+            from the mean, but it is a kind of average.<br>
+            <br>
+            A second way to think about standard deviations requires that you 
+            imagine a <b>normal distribution</b> or the so-called bell curve as 
+            pictured below. You are probably familiar with the notion of a normal 
+            distribution because aptitude and achievement tests like the SAT are 
+            designed so that test scores will be distributed according to such 
+            a symmetrical pattern within a large population.</p>
+          <p><img src="images/q5curve.gif" width="478" height="313"></p>
+          <p>Statisticians 
+            have established that in all normal distributions approximately 68 
+            percent of the data will fall within one standard deviation on either 
+            side of the mean, and approximately 95 percent of the data will fall 
+            within two standard deviations on either side of the mean. That does 
+            not mean all normal distributions are identical, however. The bell 
+            curve can be flatter or steeper depending on the relative dispersion 
+            of the data. If the data are spread out, then the curve will be flatter 
+            and the standard deviation larger. If the data are tightly clustered 
+            around the mean, then the curve will be sharper and the standard deviation 
+            smaller. But the proportion of data within one standard deviation 
+            (68 percent) and within two standard deviations (95 percent) remains 
+            the same across all normal distributions. <a href="javascript:;" onClick="MM_openBrWindow('http://huizen.dds.nl/%7Eberrie/normal.html','quicktimeClip','scrollbars=yes,resizable=yes,width=480,height=500')">(Click 
+          to see an example of what happens to a normal distribution curve when 
+          you change the standard deviation. This link will take you to Berrie's 
+          Statistics Page and requires Quicktime player.)</a><br>
+            <br>
+            Unfortunately, historical data rarely arrange themselves neatly into 
+            a normal distribution. So you may want to think about standard deviation 
+            in a third way, by comparing its magnitude to the mean of the data 
+            set. As a rule of thumb, when the standard deviation is smaller than 
+            the mean, the data are relatively closely clustered and mean is considered 
+            a reasonably good representation of the full data set. By contrast, 
+            if the standard deviation is greater than the mean, then the data 
+            are relatively widely dispersed and the mean is a rather poor representation 
+            of the full data set. <br>
+            <br>
+            If we return to the data set of Russia Township taxpayers in 1850, 
+            we can calculate the standard deviation with the help of Microsoft 
+            Excel. It is $907, considerably larger than the mean of $667. Here 
+            is further evidence that it would be misleading to say, &quot;The 
+            typical Russia Township taxpayer was assessed for $667&quot; just 
+            because the mean property assessment was $667. In this instance, a 
+            better measure of typicality would be the median: $389.</p>
+        </div>
+        <p>&nbsp;</p>
+        </div>
+      <div class=Section1></div>
+    </td>
+  </tr>
+</table></div></html>
+</html>

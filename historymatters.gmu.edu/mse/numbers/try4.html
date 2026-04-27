@@ -1,0 +1,415 @@
+<html>
+<head>
+<title>How Do I Locate Patterns? Totals and Rates</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--start hiding
+
+<!-- 
+
+// same deal as before .... enter the feedback-comments for each question below .... 
+
+// theAnalysis1Array takes comments for each answer,  
+
+// skip the first one, (where the x is) because that would be 
+
+// considered 0 
+
+// don't hit the return key when you enter these comments just type
+
+// on one long straight line .... the text will automatically wrap 
+
+// in the feedback box on the quiz -->
+
+
+var theAnalysis1Array = new Array(
+
+"x",
+
+"Wrong!",
+
+"Correct!",
+
+"Wrong!")
+
+var theAnalysis2Array = new Array(
+
+"x",
+
+"Incorrect",
+
+"Incorrect",
+
+"Incorrect",
+
+"Correct!")
+
+
+	function q1(x,y){
+
+		document.form1.question1[x].checked = true
+
+		document.form1.textfield.value = theAnalysis1Array[y]}
+	
+	function q2(x,y){
+
+		document.form2.question2[x].checked = true
+
+		document.form2.textfield2.value = theAnalysis2Array[y]}
+<!--**********************************-->  
+
+
+
+//-->
+</script>
+ </head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="519" border="0" cellspacing="0" cellpadding="0" height="1853">
+  <tr>
+    <td>
+      <div class=Section1> 
+        <div class=Section1>
+          <p><img src="images/readthis.gif" width="522" height="89"><br>
+            </p>
+          <p>Let us 
+            begin with <b>totals</b>. Just tracking the total number of people 
+            in a particular place over time can be revealing. For example, using 
+            federal census records, we can determine how many people resided in 
+            New York City at ten-year intervals between 1790 and 1840. Indeed, 
+            the census takers themselves did the necessary addition, and the government 
+            published the results: in 1790, there were 33,131 residents; in 1800, 
+            there were 60,489; in 1810, there were 96,373; in 1820, there were 
+            123,706; in 1830, there were 197,112; and in 1840, 312, 710. Written 
+            out in a single sentence, these numbers may not mean much. But if 
+            you put them in a table, you should begin to see a pattern. <br>
+            <br>
+            <b>Table A: The Population of New York City, 1790-1840</b><br>
+            </p>
+          <table width="178" border="1" cellspacing="0" cellpadding="0" height="134">
+            <tr> 
+              <td width="88"> 
+                <div align="center"><b>Year</b></div>
+              </td>
+              <td width="90"> 
+                <div align="center"><b>Population</b></div>
+              </td>
+            </tr>
+            <tr> 
+              <td width="88"> 
+                <div align="center">1790</div>
+              </td>
+              <td width="90"> 
+                <div align="center">33,131</div>
+              </td>
+            </tr>
+            <tr> 
+              <td width="88"> 
+                <div align="center">1800</div>
+              </td>
+              <td width="90"> 
+                <div align="center">60,489</div>
+              </td>
+            </tr>
+            <tr> 
+              <td width="88"> 
+                <div align="center">1810</div>
+              </td>
+              <td width="90"> 
+                <div align="center">96,373</div>
+              </td>
+            </tr>
+            <tr> 
+              <td width="88"> 
+                <div align="center">1820</div>
+              </td>
+              <td width="90"> 
+                <div align="center">123,704</div>
+              </td>
+            </tr>
+            <tr> 
+              <td height="18" width="88"> 
+                <div align="center">1830</div>
+              </td>
+              <td height="18" width="90"> 
+                <div align="center">197,112</div>
+              </td>
+            </tr>
+            <tr> 
+              <td width="88"> 
+                <div align="center">1840</div>
+              </td>
+              <td width="90"> 
+                <div align="center">312,710</div>
+              </td>
+            </tr>
+          </table>
+          <br>
+          <form name="form1" method="post" action="">
+            Looking 
+            at these totals, what do you think was the pattern of growth in the 
+            population of New York City from 1790 to 1840? 
+            <p> 
+              <input type="radio" name="question1" onClick="q1(0,1)">
+              Downward <br>
+              <input type="radio" name="question1" onClick="q1(1,2)">
+              Upward <br>
+              <input type="radio" name="question1" onClick="q1(2,3)">
+              Flat </p>
+            <p> 
+              <input type="text" name="textfield" value="">
+              </p>
+          </form>
+          <p>This 
+            graph makes the pattern even clearer:<br>
+            </p>
+        </div>
+        <div class=Section1> 
+          <p><b>Graph 
+            1: The Population of New York City, 1790-1840</b></p>
+          <p><span style='font-size:10.0pt;font-family:Verdana'><img src="images/q4graph1.gif" width="490" height="296"><br>
+            </span></p>
+          <form name="form2" method="post" action="">
+            <p>Reading 
+              this graph, in which decade do you think the most rapid growth in 
+              population occurred? <br>
+              <br>
+              <input type="radio" name="question2" onClick="q2(0,1)">
+              1830 and 1840 <br>
+              <input type="radio" name="question2" onClick="q2(1,2)">
+              1810 and 1820 <br>
+              <input type="radio" name="question2" onClick="q2(2,3)">
+              1800 and 1810 <br>
+              <input type="radio" name="question2" onClick="q2(3,4)">
+              1790 and 1800  </p>
+            <p> 
+              <input type="text" name="textfield2">
+            </p>
+          </form>
+          <p>How can 
+            that be? Graph 1 illustrates the pattern of population growth by decade 
+            in absolute terms. You must still &quot;read&quot; the patterns carefully, 
+            however. It is tempting to conclude from Graph 1 not only that the 
+            population of New York City grew substantially between 1790 and 1840, 
+            but that it grew at a higher <b>rate</b> after 1820 because the line 
+            on the graph rises more steeply after 1820 than before. <br>
+            <br>
+            Now look at Table B. If you calculate population growth per decade 
+            as a <b>percentage</b> of the city&#146;s population at the start 
+            of the decade, you may be surprised by the results: by this measure, 
+            the decade with the highest rate of growth was 1790-1800. <br>
+            <br>
+            <b>Table B: The Rate of Population Growth by Decade, New York City, 
+            1790-1840</b></p>
+          <table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ mso-table-layout-alt:fixed;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-padding-alt:0in 0in 0in 0in'>
+            <tr style='height:15.7pt'> 
+              <td width=63 valign=top style='width:62.8pt;border:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:15.7pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'> 
+                  <o:p></o:p></span></p>
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'><b>Year</b><o:p></o:p></span></p>
+              </td>
+              <td width=68 valign=top style='width:68.45pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0in 0in 0in 0in;
+  height:15.7pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'> 
+                  <o:p></o:p></span></p>
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'><b>Population</b><o:p></o:p></span></p>
+              </td>
+              <td width=121 valign=bottom style='width:121.25pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0in 0in 0in 0in;
+  height:15.7pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'><b>Population 
+                  growth over decade (absolute difference)<o:p></o:p></b><o:p></o:p></span></p>
+              </td>
+              <td width=171 valign=bottom style='width:170.75pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0in 0in 0in 0in;
+  height:15.7pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'><b>Rate 
+                  of population growth (increase as percentage of population at 
+                  decade's start)</b><o:p></o:p></span></p>
+              </td>
+            </tr>
+            <tr style='height:13.3pt'> 
+              <td width=63 valign=top style='width:62.8pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 0in 0in 0in;
+  height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>1790<o:p></o:p></span></p>
+              </td>
+              <td width=68 valign=top style='width:68.45pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>33,131<o:p></o:p></span></p>
+              </td>
+              <td width=121 valign=bottom style='width:121.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center">  
+                  <![if !supportEmptyParas]>
+                  &nbsp; 
+                  <![endif]>
+                  <span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+              </td>
+              <td width=171 valign=bottom style='width:170.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center">  
+                  <![if !supportEmptyParas]>
+                  &nbsp; 
+                  <![endif]>
+                  <span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+              </td>
+            </tr>
+            <tr style='height:13.3pt'> 
+              <td width=63 valign=top style='width:62.8pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 0in 0in 0in;
+  height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>1800<o:p></o:p></span></p>
+              </td>
+              <td width=68 valign=top style='width:68.45pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>60,489<o:p></o:p></span></p>
+              </td>
+              <td width=121 valign=bottom style='width:121.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>27,358<o:p></o:p></span></p>
+              </td>
+              <td width=171 valign=bottom style='width:170.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>83%<o:p></o:p></span></p>
+              </td>
+            </tr>
+            <tr style='height:13.3pt'> 
+              <td width=63 valign=top style='width:62.8pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 0in 0in 0in;
+  height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>1810<o:p></o:p></span></p>
+              </td>
+              <td width=68 valign=top style='width:68.45pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>96,373<o:p></o:p></span></p>
+              </td>
+              <td width=121 valign=bottom style='width:121.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>35,884<o:p></o:p></span></p>
+              </td>
+              <td width=171 valign=bottom style='width:170.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>59%<o:p></o:p></span></p>
+              </td>
+            </tr>
+            <tr style='height:13.3pt'> 
+              <td width=63 valign=top style='width:62.8pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 0in 0in 0in;
+  height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>1820<o:p></o:p></span></p>
+              </td>
+              <td width=68 valign=top style='width:68.45pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>123,704<o:p></o:p></span></p>
+              </td>
+              <td width=121 valign=bottom style='width:121.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>27,331<o:p></o:p></span></p>
+              </td>
+              <td width=171 valign=bottom style='width:170.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>28%<o:p></o:p></span></p>
+              </td>
+            </tr>
+            <tr style='height:13.3pt'> 
+              <td width=63 valign=top style='width:62.8pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 0in 0in 0in;
+  height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>1830<o:p></o:p></span></p>
+              </td>
+              <td width=68 valign=top style='width:68.45pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>197,112<o:p></o:p></span></p>
+              </td>
+              <td width=121 valign=bottom style='width:121.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>73,408<o:p></o:p></span></p>
+              </td>
+              <td width=171 valign=bottom style='width:170.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>59%<o:p></o:p></span></p>
+              </td>
+            </tr>
+            <tr style='height:13.3pt'> 
+              <td width=63 valign=top style='width:62.8pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 0in 0in 0in;
+  height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>1840<o:p></o:p></span></p>
+              </td>
+              <td width=68 valign=top style='width:68.45pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>312,710<o:p></o:p></span></p>
+              </td>
+              <td width=121 valign=bottom style='width:121.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>115,598<o:p></o:p></span></p>
+              </td>
+              <td width=171 valign=bottom style='width:170.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 0in 0in 0in;height:13.3pt'> 
+                <p class=MsoNormal align="center"><span style='font-family:Verdana'>59%<o:p></o:p></span></p>
+              </td>
+            </tr>
+          </table>
+          <p><b>Graph 
+            2: The Rate of Population Growth by Decade, New York City, 1790-1840</b></p>
+          <p><img src="images/q4graph2.gif" width="523" height="305"></p>
+          <p>Graph 
+            2 visually illustrates the change in the rate of population growth 
+            by decade. So what can we learn from Graph 2? By itself, it suggests 
+            that New York City&#146;s population increased continuously between 
+            1790 and 1840, but not at a consistent pace. While the population 
+            grew at virtually the same rate (59%) in each of three decades (1800 
+            to 1810, 1820 to 1830, and 1830 to 1840), it grew at a noticeably 
+            higher rate in the 1790s and a markedly lower rate in 1810s. Why? 
+            Neither Graph 2 nor Table B provides an explanation, but were we to 
+            carry our study of New York City forward, we would want to investigate 
+            what was distinctive about the two &quot;abnormal&quot; decades.</p>
+        </div>
+      </div>
+      </td>
+  </tr>
+</table></div></html>
+</html>

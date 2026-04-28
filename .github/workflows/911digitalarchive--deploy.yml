@@ -15,5 +15,5 @@ jobs:
     secrets: inherit
     with:
       context_root: "911digitalarchive"
-      website-devl-fqdn: "dev.911digitalarchive.org"
-      website-prod-fqdn: "dev.911digitalarchive.org"
+      website-devl-fqdn: "911.dev.chnm.gmu.edu"
+      website-prod-fqdn: "911.dev.chnm.gmu.edu"

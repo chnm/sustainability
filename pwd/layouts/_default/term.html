@@ -1,13 +1,12 @@
 {{ define "bodyclass" }}taxonomy term browse{{ end }}
 {{ define "main" }}
 <h2>{{ .Title }}</h2>
-<p class="term-context">{{ len .Pages }} document{{ if ne (len .Pages) 1 }}s{{ end }}</p>
+<p class="term-context">{{ len .Pages | lang.FormatNumber 0 }} document{{ if ne (len .Pages) 1 }}s{{ end }}</p>
 
 {{ $paginator := .Paginate (.Pages.ByParam "year") }}
 <div class="browse-controls">
     <nav class="pagination" aria-label="Pagination">
         {{ template "_internal/pagination.html" . }}
-        <span class="row-count">{{ len $paginator.Pages }} of {{ $paginator.TotalNumberOfElements }}</span>
     </nav>
 </div>
 <ul class="resource-list term-documents">

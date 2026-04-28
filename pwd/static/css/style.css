@@ -24,17 +24,19 @@
 .transcription-tabs{flex-shrink:0;display:flex;gap:0;margin-bottom:0;border-bottom:2px solid #8e8e8e}.transcription-tabs .tab{background:none;border:1px solid transparent;border-bottom:none;padding:8px 20px;cursor:pointer;font-size:16px;color:#666;border-radius:3px 3px 0 0}.transcription-tabs .tab.active{background:#fff;border-color:#8e8e8e;border-bottom:2px solid #fff;margin-bottom:-2px;color:#111;font-weight:bold}.tab-content{padding:20px;flex:1;overflow-y:auto;min-height:0}.tab-content[hidden]{display:none}.transcription-text{white-space:pre-wrap;line-height:1.8}.transcription-unavailable{color:#666;padding:20px 0}
 .machine-transcription-note{margin-top:20px;padding:12px 16px;background:#f5f0e6;border:1px solid #d4c9a8;border-radius:4px;font-size:14px;color:#555;line-height:1.5}.machine-transcription-note p{margin:0}.machine-transcription-note code{background:#ebe5d6;padding:1px 5px;border-radius:3px;font-size:13px;color:#555}
 /* Taxonomy pages */
+.taxonomy.browse .page-content .wrapper{max-width:900px;margin:0 auto}
 .taxonomy-list{list-style:none;margin:0;columns:2;column-gap:30px}.taxonomy-list li{break-inside:avoid;margin-bottom:4px}.taxonomy-list .count{color:#666;font-size:14px}.term-context{color:#666;font-variant:small-caps;margin-top:-10px}
 /* Taxonomy alphabetical navigation */
 .alpha-heading{border-bottom:2px solid #8e8e8e;padding-bottom:4px;margin-top:30px;font-variant:small-caps}
-.alpha-nav{position:sticky;top:0;background:rgba(253,253,253,0.95);padding:8px 0;text-align:center;border-bottom:1px solid #8e8e8e;margin-bottom:15px;z-index:10}
+.alpha-nav{position:sticky;top:0;background:rgba(253,253,253,0.95);padding:10px 0;text-align:center;border-bottom:1px solid #8e8e8e;margin-bottom:15px;z-index:10;box-shadow:0 2px 4px rgba(0,0,0,0.05)}
 .alpha-nav a{display:inline-block;padding:2px 6px;margin:0 1px;font-size:14px;font-weight:bold}
+.back-to-top{position:fixed;bottom:30px;right:30px;background:#8bb5cb;color:#000;padding:8px 14px;border-radius:3px;font-size:14px;font-weight:bold;text-decoration:none;box-shadow:0 2px 6px rgba(0,0,0,0.2);opacity:0;pointer-events:none;transition:opacity 0.2s}.back-to-top.visible{opacity:1;pointer-events:auto}.back-to-top:hover{background:#6a9ab5;color:#000}
 /* Term page document list */
 .term-documents{list-style:none;margin:30px auto;max-width:900px;padding:0;border-top:1px solid #8e8e8e}
 .term-documents .item.resource{border-bottom:1px solid #8e8e8e;padding:20px 0}
 .term-documents .item-thumbnail{flex-shrink:0;margin-right:15px;align-self:flex-start}
-.term-documents .item-thumbnail img{width:150px;height:150px;object-fit:cover;border:1px solid #e0e0e0;display:block}
-.term-documents .item-thumbnail-placeholder{display:flex;align-items:center;justify-content:center;width:150px;height:150px;background:#f5f5f5;border:1px solid #e0e0e0;color:#666;font-size:11px;text-align:center;text-decoration:none;line-height:1.2}
+.term-documents .item-thumbnail img{width:250px;height:250px;object-fit:cover;border:1px solid #e0e0e0;display:block}
+.term-documents .item-thumbnail-placeholder{display:flex;align-items:center;justify-content:center;width:250px;height:250px;background:#f5f5f5;border:1px solid #e0e0e0;color:#666;font-size:16px;text-align:center;text-decoration:none;line-height:1.2}
 .term-documents .item-details{flex:1}
 .term-documents .item-meta{display:flex;align-items:flex-start}
 .term-documents .item-metadata{display:flex;gap:15px;color:#666;font-size:15px;margin-bottom:4px}
@@ -53,6 +55,25 @@ ul.pagination .page-item.active .page-link{background:#8bb5cb;color:#000;font-we
 ul.pagination .page-item.disabled .page-link{color:#ccc;cursor:default}
 ul.pagination .page-link:hover{background:rgba(0,107,163,0.1)}
 nav.pagination .row-count{margin-left:15px;white-space:nowrap}
+/* Search page */
+.search-form{margin-bottom:20px}
+.search-bar{display:flex;gap:8px;margin-bottom:12px}
+.search-bar input[type="text"]{flex:1;font-size:18px;padding:8px 12px;border:1px solid #8e8e8e;border-radius:3px}
+.search-bar button{padding:8px 20px;background:#8bb5cb;border:1px solid #000;border-width:3px 1px 1px;border-radius:0;cursor:pointer;font-size:18px}
+.search-bar button:hover{background:#6a9ab5}
+.search-type-selector{display:flex;gap:20px;font-size:15px}
+.search-type-selector label{cursor:pointer;display:flex;align-items:center;gap:4px}
+.search-status{color:#666;font-style:italic;font-size:15px}
+.search-result-count{color:#666;font-size:15px;margin-bottom:10px}
+.search-result-list{list-style:none;margin:0;padding:0}
+.search-result-item{padding:12px 0;border-bottom:1px solid #e0e0e0}
+.search-result-title{font-size:18px;font-weight:bold}
+.search-result-meta{color:#666;font-size:14px;margin-top:2px}
+.search-result-desc{font-size:14px;color:#3f3f3f;margin-top:4px;line-height:1.4}
+.search-no-results{color:#666;font-style:italic}
+.search-pagination{margin-top:20px;text-align:center;padding:10px 0;border-top:1px solid #e0e0e0}
+.search-pagination a{margin:0 10px}
+.search-page-info{color:#666;font-size:14px}
 /* Prevent horizontal overflow on both html and body */
 html{overflow-x:hidden}
 /* White content area over background image */
@@ -117,6 +138,11 @@ html{overflow-x:hidden}
 .news-pager-next{margin-left:auto;text-align:right}
 .news-card-categories a.news-card-tag{color:#006ba3;text-decoration:none}
 .news-card-categories a.news-card-tag:hover{background:rgba(0,107,163,0.2)}
+/* News archive page */
+.archive-year-heading{border-bottom:2px solid #8e8e8e;padding-bottom:4px;margin-top:30px;font-variant:small-caps}
+.archive-month-heading{margin-top:20px;margin-bottom:8px;font-variant:small-caps;color:#333}
+.archive-posts{list-style:none;margin:0 0 15px}.archive-posts li{padding:4px 0;border-bottom:1px solid #f0f0f0}
+.archive-posts .archive-date{display:inline-block;width:50px;color:#666;font-size:14px;font-variant:tabular-nums}
 @media screen and (max-width:39.9375em){.news-article-header{flex-direction:column;gap:10px}.news-layout{flex-direction:column}.news-sidebar{width:100%;position:static}.news-card-date{min-width:60px;padding:15px 10px}.news-card-day{font-size:22px}.news-card-body{padding:15px}}
 /* Transcription dashboard */
 .dash-subtitle{color:#666;margin-bottom:25px}

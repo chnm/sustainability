@@ -4,13 +4,15 @@
 <nav class="browse-tabs" aria-label="Browse by type">
     <a class="browse-tab active" href="/document/">Documents <span class="count">({{ len .Pages }})</span></a>
     <a class="browse-tab" href="/authors/">Names <span class="count">({{ len (site.Taxonomies.authors) }})</span></a>
+    <a class="browse-tab" href="/collections/">Collections <span class="count">({{ len (site.Taxonomies.collections) }})</span></a>
+    <a class="browse-tab" href="/repositories/">Repositories <span class="count">({{ len (site.Taxonomies.repositories) }})</span></a>
 </nav>
 {{ .Content }}
 {{ $paginator := .Paginate (.Pages.ByParam "year") }}
+<p class="row-count">{{ $paginator.TotalNumberOfElements | lang.FormatNumber 0 }} items</p>
 <div class="browse-controls">
     <nav class="pagination">
         {{ template "_internal/pagination.html" . }}
-        <span class="row-count">{{ len $paginator.Pages }} of {{ $paginator.TotalNumberOfElements }}</span>
     </nav>
 </div>
 <ul class="resource-list term-documents">

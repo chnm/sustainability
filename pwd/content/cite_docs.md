@@ -5,6 +5,7 @@ omeka_page_id: 26
 slug: cite_docs
 title: How to Cite Documents
 type: page
+weight: 70
 ---
 
 ### Please use the following citation format to cite particular documents in your own research and writing.

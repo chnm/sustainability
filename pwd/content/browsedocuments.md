@@ -5,6 +5,7 @@ omeka_page_id: 13
 slug: browsedocuments
 title: Browsing and Searching Documents
 type: page
+weight: 160
 ---
 
 Clicking on Transcribe in the navigation menu will take you to the Transcription Project page where you can search or browse through all of the documents available for transcription. Clicking on Browse documents at any time in the Scripto Transcription Project navigation menu will bring you back to this page.

@@ -5,6 +5,7 @@ omeka_page_id: 8
 slug: paleography
 title: Paleography resources
 type: page
+weight: 110
 ---
 
 This selection of resources below can guide you through the process of deciphering the handwriting of historical documents, or what is sometimes called paleography. These resources provide useful overviews of historical letter-writing conventions including format and abbreviations, common transcription mistakes, and some even offer resources that allow you to practice your transcription skills. Having a look at one or several of these resources is a great first step for new users, and can even sharpen some the skills of more seasoned transcribers.

@@ -5,6 +5,7 @@ omeka_page_id: 10
 slug: pensions
 title: Pensions
 type: page
+weight: 210
 ---
 
 ## **Pensions for Veterans, Widows, and Orphans in the *Papers of the War Department* online collection**

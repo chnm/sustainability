@@ -5,6 +5,7 @@ omeka_page_id: 5
 slug: teach
 title: Teach
 type: page
+weight: 200
 ---
 
 Though it was one of the most significant Federal departments created by the new Constitution, the War Department in its early years was very small. Its modest office housed the Secretary of War, two clerks responsible for day-to-day correspondence, and two or three other functionaries who carried out the activities of the department: ordering arms and supplies, investigating claims lodged against the military, maintaining the army, policing the boundaries of the new nation and—after the end of the War of Independence—looking after those who served in the Army according to Congress’ direction.

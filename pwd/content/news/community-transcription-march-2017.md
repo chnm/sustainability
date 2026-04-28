@@ -1,0 +1,18 @@
+---
+aliases:
+- /news/?p=2004
+author: Alyssa Fahringer
+categories:
+- Updates
+date: '2017-04-03T09:58:00'
+title: 'Community Transcription: March 2017'
+type: news
+wp_post_id: 2004
+---
+
+<p>March 2017Â marked the seventy-first month since we opened the War Department archives to community transcription, and over five years after launch we still receive requests for transcriber accounts! Here is a snapshot of transcription activity for last month:</p>
+<p>Twenty-four new transcribers signed up last monthÂ which brings the total number of transcribers up toÂ 2,874 as of March 31, 2017.Â These individuals who signed up in MarchÂ mentioned an interest in people and topics such as the history of the <a href="/searchresults.php?searchClass=fulltextSearch&amp;firstSearch=true&amp;fulltextQuery=choctaw&amp;submitSearchSimple=Search">Choctaw Nation,</a>Â <a href="/person.php?id=15">William Simmons,</a>Â <a href="/searchresults.php?searchClass=fulltextSearch&amp;firstSearch=true&amp;fulltextQuery=Kentucky+Mounted+Volunteers&amp;submitSearchSimple=Search">Kentucky Mounted Volunteers,</a>Â <a href="/searchresults.php?searchClass=fulltextSearch&amp;firstSearch=true&amp;fulltextQuery=Battle+of+Fallen+Timbers&amp;submitSearchSimple=Search">Battle of Fallen Timbers,</a>Â <a href="/person.php?id=21">Joshua Humphreys,</a> Â <a href="/searchresults.php?searchClass=fulltextSearch&amp;firstSearch=true&amp;fulltextQuery=oconee+war&amp;submitSearchSimple=Search">Oconee War,</a>Â and <a href="/searchresults.php?searchClass=fulltextSearch&amp;firstSearch=true&amp;fulltextQuery=georgia&amp;submitSearchSimple=Search">Georgia.</a></p>
+<p>Newly transcribed documents include ones regarding <a href="/document.php?id=31398">procedures to charge stores,</a>Â <a href="/document.php?id=34554">certification of payment,</a>Â <a href="/document.php?id=42274">request for boring mill and bill of scantling,</a>Â <a href="/document.php?id=42256">memorandum for Doctor Johnson,</a>Â andÂ <a href="/document.php?id=8114">estimate of money wanted for supplies for Georgia</a>.Â Transcribers also transcribed documents reflecting last month’s theme of the military,Â including <a href="/document.php?id=4607">discussion of transportation of military stores from Rhode Island,</a>Â <a href="/document.php?id=8368">general policy on southern frontier,</a>Â <a href="/document.php?id=32321">concerning military stores and clothing,</a>Â <a href="/document.php?id=31180">plans for providing and issuing military supplies,</a>Â <a href="/document.php?id=20823">request for military regulations,</a>Â <a href="/document.php?id=42254">account of Captain James Bruff,</a>Â andÂ <a href="/document.php?id=7924">shipment of paper and military stores</a>.</p>
+<p>Our community of transcribers have added 262<strong>Â </strong>transcribed pages to War Department documents, with the total number of saves being 20,212. Overall, we have had 688, 521Â page views.</p>
+<p>For the month of April, we are encouraging our volunteers to transcribe documents relating to international affairs.Â The following documents mention this theme and are in need of transcription: <a href="/document.php?id=21245">response to inquires from John Adams regarding relations with France,</a>Â <a href="/document.php?id=37678">activity with France,</a>Â and <a href="/document.php?id=4656">intelligence report on relations between Spain and Britain.</a> Â Follow us on Twitter (<a href="https://twitter.com/wardeptpapers">@wardeptpapers</a>) where weâll be posting more documents in need of transcription throughout the month.</p>
+<p>Interested in contributing to the project? Individuals can <a href="/transcribe.php">register for a transcription account</a> and become a transcription associate.</p>

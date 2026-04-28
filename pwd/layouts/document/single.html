@@ -4,11 +4,12 @@
 <h2><span class="title">{{ .Title }}</span></h2>
 {{ with .Params.resource_type }}<span data-pagefind-filter="type" hidden>{{ . }}</span>{{ end }}
 {{ with .Params.year }}<span data-pagefind-filter="year" hidden>{{ . }}</span>{{ end }}
+{{ with .Params.description }}<p data-pagefind-meta="description" hidden>{{ . }}</p>{{ end }}
 
 {{ $images := .Params.images | default slice }}
 
 <div class="document-primary">
-    <div class="document-images">
+    <div class="document-images" data-pagefind-ignore>
         {{ if $images }}
         <div class="doc-viewer-controls">
             {{ if gt (len $images) 1 }}
@@ -71,7 +72,7 @@
     </div>
 </div>
 
-<script>
+<script data-pagefind-ignore>
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile nav toggle
     var navToggle = document.querySelector('.nav-toggle');
@@ -228,7 +229,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<div class="properties">
+<div class="properties" data-pagefind-ignore>
     {{ partial "item/document.html" . }}
 </div>
 </article>

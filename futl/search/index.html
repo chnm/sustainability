@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html class="no-js" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width" name="viewport"/>
+<title>Search | For Us the Living</title>
+<link href="/sites/default/files/favicon.jpg" rel="shortcut icon" type="image/jpeg"/>
+<link href="/sites/all/themes/omega/omega/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed"/>
+<!-- Same theme stylesheets as a content page -->
+<style>
+    @import url("/sites/all/themes/omega/omega/css/modules/system/system.base.css");
+    @import url("/sites/all/themes/omega/omega/css/modules/system/system.theme.css");
+    @import url("/sites/all/themes/omega/omega/css/modules/search/search.theme.css");
+    @import url("/sites/all/themes/arlington/css/arlington.normalize.css");
+    @import url("/sites/all/themes/arlington/css/arlington.hacks.css");
+    @import url("/sites/all/themes/arlington/css/arlington.styles.css");
+    @import url("/sites/all/themes/omega/omega/css/layouts/simple/simple.layout.css");
+  </style>
+<!-- Pagefind UI -->
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet"/>
+<script src="/pagefind/pagefind-ui.js"></script>
+<style id="futl-search-overrides">
+    /* Header pills — matching the rest of the site */
+    .l-header .l-branding .searchwrap {
+      position: absolute; top: 0; right: 17%; z-index: 99;
+      background-color: #3395a5; box-shadow: 1px 1px 3px #004e5c;
+      padding: 0.1em 1.5em; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
+    }
+    .l-header .l-branding .searchwrap a {
+      color: #fff !important; text-transform: uppercase; font-size: 0.8em;
+      text-decoration: none;
+    }
+    .l-header .l-branding .searchwrap a:hover { text-decoration: underline; }
+    .l-header .rightside .teachlink {
+      display: inline-block; color: #fff !important; text-transform: uppercase;
+      font-size: 0.9em; text-decoration: none; line-height: 1.6em; width: 100%;
+      text-align: center; padding: 0.2em 0;
+    }
+    @media (max-width: 568px) {
+      .l-header .l-branding .searchwrap {
+        position: relative; right: 0;
+        border-bottom-left-radius: 0; border-bottom-right-radius: 0;
+        text-align: center;
+      }
+    }
+
+    .search-shell {
+      max-width: 900px;
+      margin: 2em auto 5em;
+      padding: 0 1.25em;
+    }
+    .search-title {
+      font-family: "CenStd", Georgia, serif;
+      color: #001b39;
+      font-size: 2.4em;
+      margin: 0 0 1em;
+      text-align: center;
+      border-bottom: 2px solid #3395a5;
+      padding-bottom: 0.3em;
+    }
+    .search-intro {
+      font-family: "TGothic", Georgia, serif;
+      color: #555;
+      text-align: center;
+      margin-bottom: 2em;
+    }
+
+    /* Pagefind UI — recolor + reshape to match Arlington theme */
+    :root {
+      --pagefind-ui-primary: #3395a5;
+      --pagefind-ui-text: #001b39;
+      --pagefind-ui-background: #ffffff;
+      --pagefind-ui-border: #cfd6db;
+      --pagefind-ui-tag: #e3e0db;
+      --pagefind-ui-border-width: 1px;
+      --pagefind-ui-border-radius: 8px;
+      --pagefind-ui-image-border-radius: 6px;
+      --pagefind-ui-image-box-ratio: 3 / 2;
+      --pagefind-ui-font: "TGothic", Georgia, serif;
+    }
+    .pagefind-ui__search-input {
+      box-shadow: 1px 8px 20px 0 #a6a6a6;
+      font-size: 1.1em;
+    }
+    /* Clear button — match the .teachlink pill */
+    .pagefind-ui__search-clear {
+      color: #fff !important;
+      background-color: #3395a5 !important;
+      text-transform: uppercase;
+      font-size: 0.8em !important;
+      font-weight: 600;
+      padding: 0.4em 1.2em !important;
+      border-radius: 6px !important;
+      border: none !important;
+      box-shadow: 1px 1px 3px #004e5c;
+      cursor: pointer;
+      letter-spacing: 0.05em;
+    }
+    .pagefind-ui__search-clear:hover {
+      background-color: #007A8F !important;
+      text-decoration: underline;
+    }
+
+    /* Result cards — generous horizontal padding to match content-page rhythm */
+    .pagefind-ui__results-area .pagefind-ui__result {
+      border-radius: 10px;
+      box-shadow: 1px 4px 12px 0 rgba(166,166,166,0.4);
+      padding: 1.5em 2.5em !important;
+      margin-bottom: 1em;
+      background: #fff;
+      box-sizing: border-box;
+    }
+    /* Inner Pagefind containers also have flex/grid layout that constrains
+       spacing; add explicit horizontal margin so titles + excerpts breathe. */
+    .pagefind-ui__results-area .pagefind-ui__result-inner,
+    .pagefind-ui__results-area .pagefind-ui__result-title,
+    .pagefind-ui__results-area .pagefind-ui__result-excerpt,
+    .pagefind-ui__results-area .pagefind-ui__result-tags {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    @media (max-width: 568px) {
+      .pagefind-ui__results-area .pagefind-ui__result {
+        padding: 1em 1.25em !important;
+      }
+    }
+    .pagefind-ui__result-link {
+      color: #007A8F !important;
+      font-family: "CenStd", Georgia, serif;
+      font-size: 1.2em;
+    }
+    .pagefind-ui__result-link:hover { color: #001b39 !important; }
+    .pagefind-ui__result-excerpt mark {
+      background: #ffd966;
+      color: #001b39;
+      padding: 0 0.15em;
+      border-radius: 2px;
+    }
+    .pagefind-ui__message {
+      color: #555;
+      font-family: "TGothic", Georgia, serif;
+    }
+  </style>
+<style id="futl-archive-overrides">
+  /* Expand JS-driven collapsibles so an archive viewer sees every transcription,
+     completion message, and progressive-disclosure block. */
+  .accordion .acont,
+  .acont,
+  .panel-pane.webform.hidden,
+  .views-field-field-transcription .accordion,
+  .node-type-hypothesis .hidden,
+  .node-type-resource .pane-page-content .hidden,
+  .node-type-rethink .hidden { display: block !important; }
+  .accordion .atitle:before { content: none !important; }
+
+  /* Resource pages: live theme uses JS to add `.myself` to the active citation
+     paragraph; without that JS the citation text is hidden. Always show it. */
+  .pane-resource-image .views-field-field-citation- .field-content p {
+    display: inline !important;
+  }
+
+  /* Resource pages: hide the source-thumbnail carousel selector. It's a JS
+     navigation widget with no behaviour in a static archive, and the main
+     image is already shown above. */
+  .pane-resource-image .views-field-field-source-1 { display: none !important; }
+
+  /* Multi-source resource pages: pane-resource-image is constrained to 48%
+     by the theme, which is fine for the image+citation up top. Transcriptions
+     get extracted by the scrub into a sibling .multi-source-transcriptions
+     container that flows full-width BELOW both columns. */
+  .node-type-resource .pane-page-content .multi-source-transcriptions {
+    clear: both;
+    display: block;
+    width: 100%;
+    margin: 1em 0;
+  }
+  .node-type-resource .pane-page-content .multi-source-transcriptions .views-field-field-transcription {
+    margin-bottom: 1em;
+  }
+
+  /* Look-closer pages: each magnifying glass on the source image reveals a
+     <div class="cluewrap"> on click via JS. With no JS, all three should be
+     shown so the archive viewer sees every clue. Stack them vertically. */
+  .node-type-look-closer .imgholder .clues .cluewrap {
+    display: block !important;
+    margin-bottom: 1em;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+  /* Magnifying-glass overlay buttons are click-only affordances; with all clues
+     shown there's nothing to click, so hide them to avoid confusion. */
+  .node-type-look-closer .imgholder .magicimgwraper .glass { display: none !important; }
+
+  /* Mirror arlington.behaviors.js:167-169 — node 605's "Think about it: …Confederate
+     Mound…" block was content authored for a different page and is hidden on
+     the live site by a hard-coded JS rule. Honor that on the archive too. */
+  .node-type-look-closer.page-node-605 .nextpart { display: none !important; }
+
+  /* /content/teach (page-node-727) — login link was removed from the right
+     column of the "Like What You See? Get Started!" infoblock; with the right
+     column gone, center the video on its own row. */
+  .page-node-727 .infosession .infoblock { text-align: center; }
+  .page-node-727 .infosession .infoblock .holdleft { width: 100%; max-width: 720px; display: block; margin: 0 auto; }
+
+  /* Header — Teach link was moved from .teachwrap into .rightside (which used
+     to host the login form). Style the relocated anchor to match the original
+     .teachwrap a rules so it reads correctly in the styled rightside slot. */
+  .l-header .rightside .teachlink {
+    display: inline-block;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    text-decoration: none;
+    line-height: 1.6em;
+    width: 100%;
+    text-align: center;
+    padding: 0.2em 0;
+  }
+  .l-header .rightside .teachlink:hover { text-decoration: underline; }
+
+  /* Header — Search slot, styled to mirror the original .teachwrap pill that
+     was at right: 17%. Sits left of the .rightside Teach button. */
+  .l-header .l-branding .searchwrap {
+    position: absolute;
+    top: 0;
+    right: 17%;
+    z-index: 99;
+    background-color: #3395a5;
+    box-shadow: 1px 1px 3px #004e5c;
+    padding: 0.1em 1.5em 0.1em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  @media (max-width: 568px) {
+    .l-header .l-branding .searchwrap {
+      position: relative;
+      right: 0;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      text-align: center;
+    }
+  }
+  .l-header .l-branding .searchwrap a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    text-decoration: none;
+  }
+  .l-header .l-branding .searchwrap a:hover { text-decoration: underline; }
+</style><script id="futl-archive-behaviors">
+document.addEventListener("click", function (e) {
+  var box = e.target.closest && e.target.closest(".boxwrap");
+  if (box) {
+    var sib = box.parentElement && box.parentElement.querySelector(".popupme");
+    if (sib) { sib.style.display = "block"; e.preventDefault(); }
+    return;
+  }
+  var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
+  // Only close on the dimmed backdrop; let clicks inside the inner card pass
+  // through (so the "Preview Module" link still navigates).
+  if (!inner) {
+    var popup = e.target.closest && e.target.closest(".popupme");
+    if (popup) popup.style.display = "none";
+  }
+});
+</script></head>
+<body class="html not-front not-logged-in section-search">
+<div class="l-page has-no-sidebars">
+<header class="l-header" role="banner">
+<div class="l-branding">
+<div class="l-region l-region--branding">
+<div class="panel-pane pane-custom pane-1">
+<div class="redtop">
+<div class="leftside">
+<a class="sitelogo" href="/">For us the living</a>
+<div class="minititle">Learning from the stories of Alexandria National Cemetery</div>
+</div>
+<div class="searchwrap"><a class="searchlink" href="/search/">Search</a></div>
+<div class="rightside">
+<div class="extralinks">
+<a class="teachlink" href="/content/teach">Teach</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="l-main">
+<div class="l-content" data-pagefind-body="" role="main">
+<div class="search-shell">
+<h1 class="search-title">Search the archive</h1>
+<p class="search-intro">Search across every page in the For Us the Living archive.</p>
+<div id="search"></div>
+</div>
+</div>
+</main>
+<footer class="l-footer" role="contentinfo">
+<div class="l-region l-region--footer">
+<div class="panel-pane pane-custom pane-5"></div>
+</div>
+</footer>
+</div>
+<script>
+    window.addEventListener("DOMContentLoaded", function () {
+      new PagefindUI({
+        element: "#search",
+        showSubResults: true,
+        showImages: false,
+        resetStyles: false,
+      });
+    });
+  </script>
+</body>
+</html>

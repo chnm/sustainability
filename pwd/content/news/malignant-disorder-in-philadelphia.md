@@ -1,0 +1,13 @@
+---
+aliases:
+- /news/?p=230
+author: rharless
+categories:
+- Document Guides
+date: '2011-03-28T18:28:00'
+title: Malignant Disorder in Philadelphia
+type: news
+wp_post_id: 230
+---
+
+<p style="text-align: left;">During most of the presidential administrations of George Washington and John Adams (1790-1800) the “seat of government'” was in Philadelphia. The War Department offices, therefore, were in a location that was annually afflicted during the hot summer months with outbreaks of malaria–known simply as “the fever”–which raged throughÂ the capital cityÂ resulting in the loss of countless lives. Of course the cause of this deadly disease was not known so the response of the federal government was to move its offices and employees to Trenton, New Jersey where theyÂ remained until it appeared safe to return to Philadelphia, usually in November. In 1793 one of the most virulent malaria epidemics in U.S. history occurred in Phildelphia, killing five thousand people 0r ten percent of the city’s population.Â In a series of letters written during the late summer and earlyÂ autumn of 1793, Samuel Hodgdon, the Commissary of Military Stores, who for unknown reasons remained in the city,Â frequently refers to the ravages of (in his words) theÂ “malignant disorder.”Â  In a <a href="/document.php?id=9223" target="_blank" title='The "Malignant Disorder" in Philadelphia'>letter</a> written on September 21st, he enviously observes that “half the inhabitants of the City are gone into the country.” This exodusÂ included theÂ Chief ExecutiveÂ and his Cabinet: according to Hodgdon, the President was at Mount Vernon, the Secretary of the Treasury [Hamilton] was in New York, the Secretary of Foreign Affairs [Jefferson] was in Virginia and the Secretary of War [Knox] was in Boston.Â ButÂ Hodgdon was still mired in Philadelphia with “my hands full of business.”Â Referring to the effects of the disease, heÂ laments that the “havock in our city…has surpassed everything that I have before seen.” “The dying groans has filled our long nights and the dead has rushed toÂ our eyes with the returning day. Whole families have been swept away.” Aside fromÂ the obviousÂ concerns about himself and his family, Hodgdon had to worry about the possiblity that the supplies of clothing he was sending to the Army might be infected with the disease. Although he notes that “a large portion of the Clothing was on the road before there was any infection in the City” he decided to take no chances with the clothingÂ that was still to be sent. His solution was “smoking and repacking” the clothing before sending it.</p>

@@ -1,7 +1,7 @@
 {{ define "bodyclass" }}page news{{ end }}
 {{ define "main" }}
 <div class="blocks">
-    <h2>News</h2>
+    <h2>News: {{ .Title }}</h2>
     <div class="news-layout">
         <div class="news-main">
             {{ $paginator := .Paginate .Pages }}

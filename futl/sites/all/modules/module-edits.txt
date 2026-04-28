@@ -1,0 +1,31 @@
+module edits info file
+
+replies
+commented lines:
+908
+962
+1021
+
+790
+updated this:
+$vars['reply_form'] = drupal_get_form('reply_add_form_'. $vars['entity_id'] .'_'. $vars['instance_id'], $vars['entity_id'], $vars['instance_id'], 0);
+
+line 800 added as per http://drupal.org/node/1789110  (may throw off the above numbers 
+/**
+*  _forms
+*/
+function reply_forms($form_id, $args) {
+  $forms = array();
+
+  if (stripos($form_id, 'reply_add_form') === 0) {
+    $forms[$form_id] = array(
+      'callback' => 'reply_add_form',
+    );
+  }
+
+  return $forms;
+}
+
+
+
+to remove the ability to forward to entity reply and remain on page - jm

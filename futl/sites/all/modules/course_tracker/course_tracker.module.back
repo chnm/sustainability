@@ -1,0 +1,770 @@
+<?php
+/**
+ * Drupal Hooks
+ *
+ */
+//hook ctools_render_alter
+function course_tracker_ctools_render_alter(&$info, $page, $context) {
+    global $user;
+    $userId = $user->uid;
+    //ad some js to relate uid
+    drupal_add_js(array('currentUser' => $user->uid), 'setting');
+    drupal_add_js(array('course_tracker' => array('uid' => $userId)), 'setting');
+    //contains page markup
+    //get context from pane
+
+    //
+    //BEGIN PAGE TRACKING LOGIC
+    //
+    if(isset($context['contexts']['argument_entity_id:node_1'])) {
+        if ($context['contexts']['argument_entity_id:node_1']->data) {
+            $uri = request_uri();
+            $data = $context['contexts']['argument_entity_id:node_1']->data;
+            $current = array("page" => $uri, "nid" => $data->nid, "title" => $data->title, "type" => $data->type);
+            $currentTracker = serialize($current);
+
+            $user = user_load($userId);
+            if($user->uid  != 0){
+                if ($data->type == "module_page") {
+                    //set current module page
+                    $user->field_module_page['und'][0]['value'] = $currentTracker;
+                    if ($user->field_module_page_history['und'][0]['value']) {
+                        $pageHistory = unserialize($user->field_module_page_history['und'][0]['value']);
+                        if (array_key_exists($uri, $pageHistory)) {
+                            $pageHistory[$uri]['count']++;
+                            //update old history visit count
+                        } else {
+                            //add new history
+                            $pageHistory[$uri] = array("title" => $data->title, "nid" => $data->nid, "count" => 1);
+                        }
+                        //set user field
+                        $user->field_module_page_history['und'][0]['value'] = serialize($pageHistory);
+                    }  else {
+                        //user has no history so create the first array
+                        $user->field_module_page_history['und'][0]['value'] = serialize(array($uri => array("title" => $data->title, "nid" => $data->nid, "count" => 1)));
+                    }
+                } //end if module_page
+                //set current page
+                $user->field_current_page['und'][0]['value'] = $currentTracker;
+                user_save($user);
+            }
+        }
+    }
+    //END PAGE TRACKING LOGIC
+
+    //RUN ON INTRO PAGE ONLY!
+    if (arg(1) == 15 || arg(1) == 210 || arg(1) == 144) {
+        if ($user) {
+            $ogGroup = og_get_groups_by_user();
+            $group = "";
+            foreach($ogGroup['node'] as $i){
+                if($i == 15){
+                    $group = $i;
+                }else if($i ==210){
+                    $group = $i;
+                }else if($i ==144){
+                    $group = $i;
+                }
+            }
+
+            $pageHistory = null;
+            if(isset($user->field_module_page_history['und'][0]['value']) && $user->field_module_page_history['und'][0]['value'] != null){
+                $pageHistory = unserialize($user->field_module_page_history['und'][0]['value']);
+            }else{
+                //return;
+            }
+            $currentPage = null;
+            if(isset($user->field_current_page['und'][0]['value']) && $user->field_current_page['und'][0]['value'] != null){
+                $currentPage = unserialize($user->field_current_page['und'][0]['value']);
+            }else{
+                //return;
+            }
+            $currentModulePage = null;
+            if(isset($user->field_module_page['und'][0]['value']) && $user->field_module_page['und'][0]['value'] != null){
+                $currentModulePage = unserialize($user->field_module_page['und'][0]['value']);
+            }else{
+                //return;
+            }
+
+            if($pageHistory){
+                foreach ($pageHistory as $key => $value) {
+                    $pos = strpos($key, "?");
+                    if ($pos) {
+                        $uri = substr($key, 0, $pos);
+                    } else {
+                        $uri = $key;
+                    }
+                    $title = htmlspecialchars($value['title']);
+                    $search = '<a href="' . $uri . '">' . $title . '</a>';
+                    $replace = '<a class="visited" href="' . $uri . '">' . $title . '</a>';
+                    $info['content'] = str_replace($search, $replace, $info['content']);
+                }
+            }
+
+            if($currentModulePage){
+                $pos = strpos($currentModulePage['page'], "?");
+                if ($pos) {
+                    $uri = substr($currentModulePage['page'], 0, $pos);
+                } else {
+                    $uri = $currentModulePage['page'];
+                }
+                $title = htmlspecialchars($currentModulePage['title']);
+                $search = '<a class="visited" href="' . $uri . '">' . $title . '</a>';
+                $replace = '<a class="visited current" href="' . $uri . '">' . $title . '</a>';
+                $info['content'] = str_replace($search, $replace, $info['content']);
+            }
+
+
+            //
+            //Disabled urls for non active pages
+            //
+            if ($currentModulePage == NULL) {
+                if($group == 15){
+                    //digital
+                    $moduleId = 20;
+                }else if($group == 210){
+                    //digital public
+                    $moduleId = 352;
+                }else if($group == 144){
+                    //t&l
+                    $moduleId = 689;
+                }
+
+            } else {
+                $moduleId = course_tracker_get_current_module($currentModulePage['nid'],$user);
+            }
+            if (course_tracker_check_module_completed($currentModulePage['nid'], $moduleId,$user)) {
+                $moduleId = course_tracker_get_next_module($moduleId,$user);
+            }
+
+            //hide module pages that do not belong to current module the user is on
+            $hideUrls = course_tracker_get_non_module_nodes($moduleId,$user);
+            foreach ($hideUrls as $uri) {
+                $uri = base_path() . drupal_get_path_alias('node/' . $uri);
+                $uri = htmlspecialchars($uri);
+                $search = '<a href="' . $uri . '">';
+                $replace = '<a class="closed" href="">';
+                $info['content'] = str_replace($search, $replace, $info['content']);
+
+                //if visited (fixes bug where they skip thourgh and it doesnt lock them out) //may need to remove..
+//                $search = '<a class="visited" href="' . $uri . '">';
+//                $replace = '<a class="closed visited" href="">';
+//                $info['content'] = str_replace($search, $replace, $info['content']);
+
+
+            }
+
+
+            //add some js to show what the next page is
+            //print " current module page: " . $currentModulePage['nid'] . "</br>";
+
+            $next = course_tracker_get_next_page($currentModulePage['nid'],$user);
+            //print "next page:" .$next . "</br></br>";
+
+            //hack for pub modules 6-9 out of order
+            $next = course_tracker_get_next_hack($next,$user);
+
+            if ($next) {
+                $node = node_load($next);
+                $title = $node->title;
+                $link = '<a class="next-up" href="/dhcert/node/' . $next . '">' . $title . '<i class="fa fa-chevron-right fa-2x"></i></a>';
+                drupal_add_js(array('course_tracker' => array('next_page' => $link)), 'setting');
+            }
+        }
+    }
+
+}//end hook_ctools_render_alter
+
+//hook preprocess
+function course_tracker_preprocess(&$vars, $hook) {
+    //drupal_add_js(drupal_get_path('module', 'course_tracker') . '/d3.min.js', 'file');
+    //drupal_add_js(drupal_get_path('module', 'course_tracker') . '/d3.layout.cloud.js', 'file');
+    drupal_add_js(drupal_get_path('module', 'course_tracker') . '/course_tracker.js', 'file');
+}
+
+/**
+ * Callback functions
+ */
+
+//Setup menu/callback
+function course_tracker_menu() {
+    //Router Menu Item For AHAH
+    //Page arguments 1 = subcallback 2 = value
+    $items['course_tracker/op'] = array(
+        'page callback' => 'course_tracker_callback',
+        'page arguments' => array(2, 3),
+        'title' => 'Callback Only',
+        'access arguments' => array('access content'),
+        'type' => MENU_CALLBACK,
+    );
+    return $items;
+}
+
+function course_tracker_callback($op,$val){
+    switch($op){
+        case 'getNumModDone':
+            print course_tracker_callback_getNumModDone();
+            break;
+        case 'getPerDone':
+            print course_tracker_callback_getPerDone();
+            break;
+        default :
+            print '';
+    }
+}
+
+function course_tracker_callback_getNumModDone(){
+    $user = user_load($_POST['uid']);
+    return course_tracker_get_number_modules_completed($user);
+}
+
+function course_tracker_callback_getPerDone(){
+    $user = user_load($_POST['uid']);
+    return course_tracker_get_percent_complete($user);
+}
+
+/**
+ * Utility Functions
+ *
+ */
+function course_tracker_get_next_hack($module,$user){
+    $next = null;
+    if($module == 361 || $module == 360 || $module == 359 || $module == 358 || $module == 357){
+        if(!course_tracker_get_module_completed($user,357)){
+            $next = 357;
+        }else if(!course_tracker_get_module_completed($user,358)){
+            $next = 358;
+        }else if(!course_tracker_get_module_completed($user,359)){
+            $next = 359;
+        }else if(!course_tracker_get_module_completed($user,360)){
+            $next = 360;
+        }else{
+            $next = 361;
+        }
+        return $next;
+    }else if($module == 67 || $module == 75 || $module == 87 || $module == 101){
+        if(!course_tracker_get_module_completed($user,67)){
+            $next = 67;
+        }else if(!course_tracker_get_module_completed($user,75)){
+            $next = 75;
+        }else if(!course_tracker_get_module_completed($user,87)){
+            $next = 87;
+        }else{
+            $next = 101;
+        }
+        return $next;
+    }else{
+        return $module;
+    }
+
+    return null;
+}
+
+
+function course_tracker_get_next_page($nid,$user){
+    $index = course_tracker_get_index($user);
+    $tick = false;
+    foreach($index as $module){
+        foreach($module[1] as $moduleItem){
+            if($tick){
+                return $moduleItem;
+            }else{
+                if($nid == $moduleItem){
+                    $tick = true;
+                }
+            }
+        }
+    }
+    return null;
+}
+
+//Get id of users current module from module's child node id
+function course_tracker_get_current_module($id,$user){
+    $index = course_tracker_get_index($user);
+    $mid = null;
+    foreach($index as $module){
+        $mid = $module[0];
+        foreach($module[1] as $moduleItem){
+            if($moduleItem == $id){
+                return $mid;
+            }
+        }
+    }
+    //default module to first module (20)
+    return 20;
+}
+
+//return bool whether user has completed module
+function course_tracker_check_module_completed($pid,$mid,$user){
+    $index = course_tracker_get_index($user);
+    foreach($index as $module){
+        if($mid == $module[0]){
+            if($pid == end($module[1])){
+                return TRUE;
+            }
+        }
+    }
+    return FALSE;
+}
+
+//MAJOR (FLEX) HACKS FOR FIRST and SECOND COURSE -JM
+function course_tracker_get_next_module($mid,$user){
+    $index = course_tracker_get_index($user);
+    $tick = false;
+
+    //begin 1st course hack
+    $comp = true;
+    if(!course_tracker_get_module_completed($user,67)){
+        $comp = false;
+    }
+    if(!course_tracker_get_module_completed($user,75)){
+        $comp = false;
+    }
+    if(!course_tracker_get_module_completed($user,87)){
+        $comp = false;
+    }
+
+    if($comp && ($mid == 67 || $mid == 75 || $mid == 87)){
+        return 101;
+    }
+    //end 1st course hack
+
+    //begin 2nd course hack
+    $comp = true;
+    if(!course_tracker_get_module_completed($user,357)){
+        $comp = false;
+    }
+    if(!course_tracker_get_module_completed($user,358)){
+        $comp = false;
+    }
+    if(!course_tracker_get_module_completed($user,359)){
+        $comp = false;
+    }
+    if(!course_tracker_get_module_completed($user,360)){
+        $comp = false;
+    }
+
+    if($comp && ($mid == 357 || $mid == 358 || $mid == 359 || $mid == 369)){
+        return 361;
+    }
+    //end 2nd course hack
+
+    foreach($index as $module){
+        if(!$tick){
+            if($mid == $module[0]){
+                $tick = true;
+            }
+        }else{
+            return $module[0];
+        }
+    }
+    return null;
+}
+
+//Return node ids of nodes in the current module
+function course_tracker_get_module_nodes($id,$user){
+    $index = course_tracker_get_index($user);
+    $nodes = array();
+    foreach($index as $module){
+        //$mid = $module[0];
+        foreach($module[1] as $moduleItem){
+            $nodes[] = $moduleItem;
+        }
+        if($module[0] == $id){
+            return $nodes;
+        }
+    }
+}
+
+//Return node ids of nodes not currently in the current module MAJOR (FLEX) HACKS FOR FIRST and SECOND COURSE -JM
+function course_tracker_get_non_module_nodes($id,$user){
+    $index = course_tracker_get_index($user);
+    $nodes = array();
+    //dpm($index);
+    //HACK to allow users to work on any of the dhcert modules 7-9
+    if($id == 67 || $id == 75 || $id == 87){
+        foreach($index as $module){
+            if($module[0] != $id  && $module[0] != 67 && $module[0] != 75 && $module[0] != 87){
+                foreach($module[1] as $moduleItem){
+                    $nodes[] = $moduleItem;
+                }
+                if(course_tracker_get_module_completed($user,67)){
+                    $nodes[] = 67;
+                }
+                if(course_tracker_get_module_completed($user,75)){
+                    $nodes[] = 75;
+                }
+                if(course_tracker_get_module_completed($user,87)){
+                    $nodes[] = 87;
+                }
+            }
+        }
+        //HACK to see if we can lock them out of the 3 random modules when they are done with them all
+    }else if($id == 101){
+        $comp = true;
+        if(!course_tracker_get_module_completed($user,67)){
+            $comp = false;
+        }
+        if(!course_tracker_get_module_completed($user,75)){
+            $comp = false;
+        }
+        if(!course_tracker_get_module_completed($user,87)){
+            $comp = false;
+        }
+        if($comp){
+            //go about our business they have finished the 3 and are moving on
+            foreach($index as $module){
+                if($module[0] != $id){
+                    foreach($module[1] as $moduleItem){
+                        $nodes[] = $moduleItem;
+                    }
+                }
+            }
+        }else{
+            //they have not finished the 3 so don't lock them out of them just yet
+            foreach($index as $module){
+                if($module[0] != 67 && $module[0] != 75 && $module[0] != 87){
+                    foreach($module[1] as $moduleItem){
+                        $nodes[] = $moduleItem;
+                    }
+                }
+            }
+        }
+    }else{
+        foreach($index as $module){
+            if($module[0] != $id){
+                foreach($module[1] as $moduleItem){
+                    $nodes[] = $moduleItem;
+                }
+            }
+        }
+    }
+
+    //HACK to allow users to work on any of the digital public history modules 6-9
+    if($id == 357 || $id == 358 || $id == 359 || $id == 360){
+        foreach($index as $module){
+            if($module[0] != $id  && $module[0] != 357 && $module[0] != 358 && $module[0] != 359 && $module[0] != 360 && $module[0]){
+                foreach($module[1] as $moduleItem){
+                    $nodes[] = $moduleItem;
+                }
+                if(course_tracker_get_module_completed($user,357)){
+                    $nodes[] = 357;
+                }
+                if(course_tracker_get_module_completed($user,358)){
+                    $nodes[] = 358;
+                }
+                if(course_tracker_get_module_completed($user,359)){
+                    $nodes[] = 359;
+                }
+                if(course_tracker_get_module_completed($user,360)){
+                    $nodes[] = 360;
+                }
+            }
+        }
+        //HACK to see if we can lock them out of the 4 random modules when they are done with them all
+    }else if($id == 361){
+        $comp = true;
+        if(!course_tracker_get_module_completed($user,357)){
+            $comp = false;
+        }
+        if(!course_tracker_get_module_completed($user,358)){
+            $comp = false;
+        }
+        if(!course_tracker_get_module_completed($user,359)){
+            $comp = false;
+        }
+        if(!course_tracker_get_module_completed($user,360)){
+            $comp = false;
+        }
+        if($comp){
+            //go about our business they have finished the 4 and are moving on
+            foreach($index as $module){
+                if($module[0] != $id){
+                    foreach($module[1] as $moduleItem){
+                        $nodes[] = $moduleItem;
+                    }
+                }
+            }
+        }else{
+            //they have not finished the 4 so don't lock them out of them just yet
+            foreach($index as $module){
+                if($module[0] != 357 && $module[0] != 358 && $module[0] != 359 && $module[0] != 360){
+                    foreach($module[1] as $moduleItem){
+                        $nodes[] = $moduleItem;
+                    }
+                }
+            }
+        }
+
+    }else{
+        foreach($index as $module){
+            if($module[0] != $id){
+                foreach($module[1] as $moduleItem){
+                    $nodes[] = $moduleItem;
+                }
+            }
+        }
+    }
+    return $nodes;
+}
+
+//Return percent complete of total module pages for progress meter (JM FIX hardcoded module count)
+function course_tracker_get_percent_complete($user){
+    if($user->field_module_page_history['und'][0]['value']) {
+        $pageHistory = unserialize($user->field_module_page_history['und'][0]['value']);
+        $index = course_tracker_get_index($user);
+        $modules = array();
+        foreach ($pageHistory as $key => $value){
+            $id = $value['nid'];
+            $mid = null;
+            foreach($index as $module){
+                $mid = $module[0];
+                foreach($module[1] as $moduleItem){
+                    if($moduleItem == $id){
+                        $modules[] = $mid;
+                    }
+                }
+            }
+        }
+        $completed = count(array_unique($modules));
+        if($completed < 1){
+            return 0;
+        }else{
+            return round($completed/14,2,PHP_ROUND_HALF_UP);
+            //return round($completed/13,2,PHP_ROUND_HALF_UP);
+            //return round($completed/9,2,PHP_ROUND_HALF_UP);
+        }
+    }
+}
+
+function course_tracker_get_module_completed($user,$checkCompleted){
+    if($user->field_module_page_history['und'][0]['value']) {
+        $pageHistory = unserialize($user->field_module_page_history['und'][0]['value']);
+        $index = course_tracker_get_index($user);
+        $modules = array();
+        foreach ($pageHistory as $key => $value){
+            $id = $value['nid'];
+            $mid = null;
+            foreach($index as $module){
+                $mid = $module[0];
+                foreach($module[1] as $moduleItem){
+                    if($moduleItem == $id){
+                        $modules[] = $mid;
+                    }
+                }
+            }
+        }
+        $completed = array_unique($modules);
+        if(array_search($checkCompleted,$completed)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+}
+
+//Return count of total modules completed for progress meter
+function course_tracker_get_number_modules_completed($user){
+    if($user->field_module_page_history['und'][0]['value']) {
+        $pageHistory = unserialize($user->field_module_page_history['und'][0]['value']);
+        $index = course_tracker_get_index($user);
+        $modules = array();
+        foreach ($pageHistory as $key => $value){
+            $id = $value['nid'];
+            $mid = null;
+            foreach($index as $module){
+                $mid = $module[0];
+                foreach($module[1] as $moduleItem){
+                    if($moduleItem == $id){
+                        $modules[] = $mid;
+                    }
+                }
+            }
+        }
+        $completed = count(array_unique($modules));
+        if($completed < 1){
+            return 0;
+        }else{
+            return $completed;
+        }
+    }
+}
+
+//Array of the course module nid mapping
+function course_tracker_get_index($user){
+    $ogGroup = og_get_groups_by_user($user);
+    foreach($ogGroup['node'] as $i){
+        if($i == 15){
+            return array(
+                //Course Introduction
+                array(20,
+                    array(304, 196, 344, 305, 331, 333, 21)
+                ),
+                //What is Digital Humanities
+                array(22,
+                    array(271, 23, 24, 25, 26, 27, 28, 128, 29, 30)
+                ),
+                //Who Owns What?
+                array(31,
+                    array(272, 719, 32, 36, 722, 717, 37, 38, 39)
+                ),
+                //Digitization
+                array(40,
+                    array(265, 41, 42, 43, 131, 45, 319)
+                ),
+                //Databases and Searches
+                array(46,
+                    array(261, 47, 48, 49, 50, 52, 51, 60)
+                ),
+                //Humanities on the Web
+                array(54,
+                    array(266, 55, 57, 58, 723, 321, 61, 349, 335)
+                ),
+                //Digital Tools (Text Mining/Topic Modeling) (FLEX)
+                array(67,
+                    array(264, 64, 724, 65, 68, 69, 70, 71, 72, 223, 273, 310, 337)
+                ),
+                //Digital Tools (Mapping) (FLEX)
+                array(87,
+                    array(262, 725, 89, 90, 91, 93, 92, 94, 96, 95, 97, 132, 98, 233, 99, 312)
+                ),
+                //Digital Tools (Networks and Visualization) (FLEX)
+                array(75,
+                    array(263, 76, 77, 79, 341, 80, 81, 82, 83, 84, 209, 227, 85, 311, 100)
+                ),
+                //Crowdsourced Knowledge
+                array(101,
+                    array(260, 343, 102, 103, 104, 105, 106, 107, 300, 301)
+                ),
+                //Crowdsourced Digitization
+                array(108,
+                    array(269, 109, 110, 112, 339, 113, 340, 114, 115, 116, 323, 133, 117)
+                ),
+                //Online Communication
+                array(118,
+                    array(267, 120, 188, 189, 192, 193, 239, 308)
+                ),
+                //Reviewing Work in Progress
+                array(122,
+                    array(268, 123, 124, 125)
+                ),
+                //Conclusion
+                array(126,
+                    array(259, 127, 520, 303, 484)
+                )
+            );
+        }else if($i == 210){
+            //digital pubic history
+            return array(
+                //Roots of Public History
+                array(352,
+                    array(532,366,531,470,365,368,367,377,378,379,380,514,464)
+                ),
+                //Survey of the field
+                array(353,
+                    array(471,544,369,370,381,382,465,383,384)
+                ),
+                //Audience, Dialogue, and Co-Creation
+                array(354,
+                    array(473,371,385,386,372,387,392,393,394,388,389,390,391,395,396,466)
+                ),
+                //Collections
+                array(355,
+                    array(474,373,397,402,398,399,403,400,401,404,405,539,375)
+                ),
+                //Narrative Interpretation
+                array(356,
+                    array(475,376,407,408,416,409,410,411,412,417,413,414,415,418,419,420,468)
+                ),
+                //Local Sites and Community History
+                array(357,
+                    array(476,421,422,423,424,425,496)
+                ),
+                //Oral History
+                array(358,
+                    array(477,426,427,428,429,430,431)
+                ),
+                //Landscape, Mobile
+                array(359,
+                    array(478,432,433,434,435,436,437,438,439,440)
+                ),
+                //Social Media
+                array(360,
+                    array(479,441,442,447,443,444,445,446,448,449,450)
+                ),
+                //Drafts
+                array(361,
+                    array(451,452)
+                ),
+                //Evaluation
+                array(362,
+                    array(480,454,455,456,457,458,459,460,469)
+                ),
+                //Penultimate Project Presentations
+                array(363,
+                    array(542,545,453,546,461,547)
+                ),
+                //Final Materials
+                array(364,
+                    array(543,462,463,538)
+                )
+            );
+        }else if($i = 144){
+            return array(
+                //Pre-Course Introduction
+                array(689,
+                    array(636,637,638,702,697)
+                ),
+                //Thinking About Historical Thinking
+                array(551,
+                    array(559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,575,574)
+                ),
+                //The History of History Teaching
+                array(552,
+                    array(576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,686,703)
+                ),
+                //Images
+                array(553,
+                    array(591,592,594,595,596,597,598,599,600)
+                ),
+                //Film
+                array(554,
+                    array(601,602,603,604,605,606,607,608,609,610)
+                ),
+                //Searching
+                array(555,
+                    array(611,612,613,614,615,616,617,618,619,620,621)
+                ),
+                //Wikipedia and the Malleable Past
+                array(556,
+                    array(622,623,624,625,626,627,628)
+                ),
+                //Projects - Other Peoples and Yours
+                array(557,
+                    array(629,630,709,710,631,632,633,634)
+                ),
+                //Yours
+                array(558,
+                    array(690,691,692,693,688,694,695,696)
+                ),
+            );
+
+        }//end elsif
+    }
+
+
+
+}
+
+function course_tracker_form_alter(&$form, &$form_state, $form_id) {
+    //dprint_r($form);
+    if ($form_id == 'user_profile_form') {
+        $form['#submit'][] = 'course_tracker_submit_handler';
+    }
+}
+
+function course_tracker_submit_handler(&$form, &$form_state) {
+    $form_state['redirect'] = 'content/hist-689-teaching-and-learning-history-digital-age';
+}
+
+

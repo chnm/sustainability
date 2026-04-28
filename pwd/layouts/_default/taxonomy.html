@@ -50,17 +50,40 @@
     </div>
 {{ else }}
     {{/* Taxonomy list page: all terms alphabetically */}}
-    {{ if eq .Data.Plural "authors" }}
+    {{ $browseTaxonomies := slice "authors" "collections" "repositories" }}
+    {{ if in $browseTaxonomies .Data.Plural }}
     <h2>Collection</h2>
     <nav class="browse-tabs" aria-label="Browse by type">
         <a class="browse-tab" href="/document/">Documents <span class="count">({{ len (where site.RegularPages "Type" "document") }})</span></a>
-        <a class="browse-tab active" href="/authors/">Names <span class="count">({{ len .Pages }})</span></a>
+        <a class="browse-tab{{ if eq .Data.Plural "authors" }} active{{ end }}" href="/authors/">Names <span class="count">({{ len (site.Taxonomies.authors) }})</span></a>
+        <a class="browse-tab{{ if eq .Data.Plural "collections" }} active{{ end }}" href="/collections/">Collections <span class="count">({{ len (site.Taxonomies.collections) }})</span></a>
+        <a class="browse-tab{{ if eq .Data.Plural "repositories" }} active{{ end }}" href="/repositories/">Repositories <span class="count">({{ len (site.Taxonomies.repositories) }})</span></a>
     </nav>
     {{ else }}
     <h2>{{ .Title }}</h2>
     {{ end }}
     {{ .Content }}
-    <p class="row-count">{{ len .Pages }} terms</p>
+    <p class="row-count" id="top">{{ len .Pages | lang.FormatNumber 0 }} items</p>
+
+    {{/* Build letter list once for both TOC and headings */}}
+    {{ $seen := dict }}
+    {{ $letters := slice }}
+    {{ range .Pages.ByTitle }}
+        {{ $firstLetter := upper (substr .Title 0 1) }}
+        {{ $isAlpha := findRE "^[A-Z]$" $firstLetter }}
+        {{ $displayLetter := cond (gt (len $isAlpha) 0) $firstLetter "#" }}
+        {{ $anchorId := cond (gt (len $isAlpha) 0) $firstLetter "other" }}
+        {{ if not (index $seen $displayLetter) }}
+            {{ $seen = merge $seen (dict $displayLetter true) }}
+            {{ $letters = $letters | append (dict "display" $displayLetter "anchor" $anchorId) }}
+        {{ end }}
+    {{ end }}
+
+    <nav class="alpha-nav" aria-label="Alphabetical navigation">
+        {{ range $letters }}
+        <a href="#letter-{{ .anchor }}">{{ .display }}</a>
+        {{ end }}
+    </nav>
 
     {{ $currentLetter := "" }}
     {{ range .Pages.ByTitle }}
@@ -85,18 +108,14 @@
         </ul>
     {{ end }}
 
-    <nav class="alpha-nav" aria-label="Alphabetical navigation">
-        {{ $seen := dict }}
-        {{ range .Pages.ByTitle }}
-            {{ $firstLetter := upper (substr .Title 0 1) }}
-            {{ $isAlpha := findRE "^[A-Z]$" $firstLetter }}
-            {{ $displayLetter := cond (gt (len $isAlpha) 0) $firstLetter "#" }}
-            {{ $anchorId := cond (gt (len $isAlpha) 0) $firstLetter "other" }}
-            {{ if not (index $seen $displayLetter) }}
-                {{ $seen = merge $seen (dict $displayLetter true) }}
-                <a href="#letter-{{ $anchorId }}">{{ $displayLetter }}</a>
-            {{ end }}
-        {{ end }}
-    </nav>
+    <a href="#top" class="back-to-top" id="back-to-top" aria-label="Back to top">&uarr; Back to Top of Page</a>
+    <script>
+    (function() {
+        var btn = document.getElementById('back-to-top');
+        window.addEventListener('scroll', function() {
+            btn.classList.toggle('visible', window.scrollY > 400);
+        });
+    })();
+    </script>
 {{ end }}
 {{ end }}

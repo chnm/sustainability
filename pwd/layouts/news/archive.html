@@ -1,0 +1,46 @@
+{{ define "bodyclass" }}page news{{ end }}
+{{ define "main" }}
+<div class="blocks">
+    <h2>News Archive</h2>
+    <p><a href="/news/">&larr; Back to News</a></p>
+    <div class="news-layout">
+        <div class="news-main">
+            {{ $posts := where site.RegularPages "Type" "news" }}
+            {{ $posts = $posts.ByDate.Reverse }}
+            {{ $currentYear := "" }}
+            {{ $currentMonth := "" }}
+            {{ range $posts }}
+                {{ $year := .Date.Format "2006" }}
+                {{ $month := .Date.Format "January" }}
+                {{ $monthNum := .Date.Format "01" }}
+                {{ if ne $year $currentYear }}
+                    {{ if $currentYear }}
+                        </ul>
+                    {{ end }}
+                    {{ $currentYear = $year }}
+                    {{ $currentMonth = "" }}
+                    <h3 class="archive-year-heading" id="year-{{ $year }}">{{ $year }}</h3>
+                {{ end }}
+                {{ if ne $month $currentMonth }}
+                    {{ if $currentMonth }}
+                        </ul>
+                    {{ end }}
+                    {{ $currentMonth = $month }}
+                    <h4 class="archive-month-heading" id="archive-{{ $year }}-{{ $monthNum }}">{{ $month }}</h4>
+                    <ul class="archive-posts">
+                {{ end }}
+                <li>
+                    <span class="archive-date">{{ .Date.Format "Jan 2" }}</span>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>
+            {{ end }}
+            {{ if $currentMonth }}
+                </ul>
+            {{ end }}
+        </div>
+        <aside class="news-sidebar">
+            {{ partial "news-sidebar.html" . }}
+        </aside>
+    </div>
+</div>
+{{ end }}

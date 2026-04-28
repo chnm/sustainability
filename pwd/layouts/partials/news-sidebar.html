@@ -1,0 +1,59 @@
+{{/* Categories */}}
+{{ with site.Taxonomies.categories }}
+<div class="news-filter">
+    <h3>Categories</h3>
+    <ul>
+        {{ range .Alphabetical }}
+        <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> <span class="count">({{ .Count }})</span></li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}
+
+{{/* Monthly archive grouped by year */}}
+<div class="news-filter">
+    <h3>Archives</h3>
+    {{ $months := dict }}
+    {{ $yearSet := dict }}
+    {{ range (where site.RegularPages "Type" "news") }}
+        {{ $year := .Date.Format "2006" }}
+        {{ $month := .Date.Format "January" }}
+        {{ $monthNum := .Date.Format "01" }}
+        {{ $key := printf "%s|%s|%s" $year $monthNum $month }}
+        {{ $yearSet = merge $yearSet (dict $year true) }}
+        {{ if not (index $months $key) }}
+            {{ $months = merge $months (dict $key 1) }}
+        {{ else }}
+            {{ $months = merge $months (dict $key (add (index $months $key) 1)) }}
+        {{ end }}
+    {{ end }}
+    {{ $yearList := slice }}
+    {{ range $k, $v := $yearSet }}
+        {{ $yearList = $yearList | append $k }}
+    {{ end }}
+    {{ $yearList = sort $yearList "value" "desc" }}
+    <ul class="archive-years">
+    {{ range $y := $yearList }}
+        <li>
+            <strong><a href="/news/archive/#year-{{ $y }}">{{ $y }}</a></strong>
+            <ul>
+            {{ $sortedKeys := slice }}
+            {{ range $k, $v := $months }}
+                {{ $parts := split $k "|" }}
+                {{ if eq (index $parts 0) $y }}
+                    {{ $sortedKeys = $sortedKeys | append $k }}
+                {{ end }}
+            {{ end }}
+            {{ $sortedKeys = sort $sortedKeys "value" "desc" }}
+            {{ range $k := $sortedKeys }}
+                {{ $parts := split $k "|" }}
+                {{ $monthNum := index $parts 1 }}
+                {{ $monthName := index $parts 2 }}
+                {{ $count := index $months $k }}
+                <li><a href="/news/archive/#archive-{{ index $parts 0 }}-{{ $monthNum }}">{{ $monthName }}</a> <span class="count">({{ $count }})</span></li>
+            {{ end }}
+            </ul>
+        </li>
+    {{ end }}
+    </ul>
+</div>

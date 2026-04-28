@@ -1,17 +1,20 @@
 {{ define "bodyclass" }}page search{{ end }}
 {{ define "main" }}
-<h2>Search the Collection</h2>
-<div id="search"></div>
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-window.addEventListener('DOMContentLoaded', function () {
-    new PagefindUI({
-        element: "#search",
-        showSubResults: true,
-        showImages: false,
-        resetStyles: false
-    });
-});
-</script>
+<div class="blocks">
+    <h2>Search the Collection</h2>
+    <form id="search-form" class="search-form">
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Enter search terms..." aria-label="Search terms" autocomplete="off">
+            <button type="submit">Search</button>
+        </div>
+        <div class="search-type-selector">
+            <label><input type="radio" name="search-type" value="documents" checked> Documents ({{ len (where site.RegularPages "Type" "document") | lang.FormatNumber 0 }})</label>
+            <label><input type="radio" name="search-type" value="pages"> Guides &amp; News ({{ add (len (where site.RegularPages "Type" "page")) (len (where site.RegularPages "Type" "news")) }})</label>
+        </div>
+    </form>
+    <p id="search-status" class="search-status"></p>
+    <div id="search-results"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/minisearch@7.1.1/dist/umd/index.min.js"></script>
+<script src="/js/search.js"></script>
 {{ end }}

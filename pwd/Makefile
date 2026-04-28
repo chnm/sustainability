@@ -28,12 +28,12 @@ extract-news:
 dashboard:
 	python3 scripts/build_transcription_dashboard.py
 
-build:
-	ulimit -n 65536 && hugo --minify
-	npx pagefind --site public
+search-index:
+	python3 scripts/build_search_index.py
 
-index:
-	npx pagefind --site public
+build:
+	python3 scripts/build_search_index.py
+	ulimit -n 65536 && hugo --minify
 
 serve:
 	hugo server --bind 0.0.0.0 --poll 1s

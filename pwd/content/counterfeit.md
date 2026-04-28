@@ -5,6 +5,7 @@ omeka_page_id: 28
 slug: counterfeit
 title: Counterfeiting
 type: page
+weight: 220
 ---
 
 ## **Counterfeit! Exploring a forgery scandal in the *Papers of the War Department* online collection**

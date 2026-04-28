@@ -5,6 +5,7 @@ omeka_page_id: 18
 slug: transcribe-guidelines
 title: Transcription Guidelines
 type: page
+weight: 140
 ---
 
 ### General

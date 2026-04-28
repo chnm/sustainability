@@ -5,6 +5,7 @@ omeka_page_id: 29
 slug: quasiwar
 title: Quasi War
 type: page
+weight: 240
 ---
 
 ## **A “Quasi War”? Exploring the young United States’ almost-conflict with France**

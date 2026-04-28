@@ -5,6 +5,7 @@ omeka_page_id: 22
 slug: browsing-pwd
 title: Browsing Names and Documents
 type: page
+weight: 50
 ---
 
 Visit the Browse page by clicking on Collection in the navigation menu. This page is set to browse All items in the *Papers of the War Department*. You can also refine your browsing by selecting from two categories: names and documents.

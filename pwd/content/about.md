@@ -5,6 +5,7 @@ omeka_page_id: 3
 slug: about
 title: About
 type: page
+weight: 10
 ---
 
 On the night of November 8, 1800, fire devastated the War Office, consuming the papers, records, and books stored there. Two weeks later, Secretary of War Samuel Dexter lamented in a letter that “All the papers in my office [have] been destroyed.” For the past two centuries, the official records of the War Department effectively began with Dexter’s letter. *Papers of the War Department 1784-1800* is an innovative digital editorial project which reconstructed these records through a painstaking multi-year research effort and makes them freely available online.
@@ -51,10 +52,5 @@ This site currently runs on the static site generator, [Hugo](https://gohugo.io/
 - Alexa Potter, *Assistant Editor*, 2010-2011
 - David Goure, *Intern*, 2006-2008
 
-**[Get in touch with the *Papers of the War Department* team](https://rrchnm.org/our-story/contact-us/).**
+**[Get in touch with the *Papers of the War Department* team](https://rrchnm.org).**
 
----
-
-<nav class="sub-page-nav" aria-label="Related pages">
-<a class="yellow button" href="/project_history/">Project History</a>
-</nav>

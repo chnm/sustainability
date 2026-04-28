@@ -5,6 +5,7 @@ omeka_page_id: 32
 slug: indigenousdiplomacy
 title: Indigenous Diplomacy
 type: page
+weight: 230
 ---
 
 ## **“A Peace which shall be lasting”? Analyzing Early American Diplomacy with Indigenous Peoples**

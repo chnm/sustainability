@@ -5,6 +5,7 @@ omeka_page_id: 9
 slug: abbreviations
 title: Commonly used abbreviations
 type: page
+weight: 100
 ---
 
 Just as modern text and email writers use abbreviations (LOL, ttyl), shortened forms (best instead of best regards), and letter writing conventions (dear sir, sincerely), the letter writers of the 18th century had a pool of common abbreviations and conventions to draw from.

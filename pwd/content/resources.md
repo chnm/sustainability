@@ -5,6 +5,7 @@ omeka_page_id: 7
 slug: resources
 title: Resources for the Late Eighteenth Century United States
 type: page
+weight: 90
 ---
 
 The aim of this page is to contextualize how people of various classes, races, and genders experienced politics and society in the late eighteenth century. Rather than providing a comprehensive list, we have selected some helpful resources to better understand social and political life during time period. For general resources on the military, economics, religion, and material culture, please see the bottom of this page.

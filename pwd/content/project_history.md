@@ -5,6 +5,7 @@ omeka_page_id: 35
 slug: project_history
 title: Project History
 type: page
+weight: 20
 ---
 
 *The Papers of the War Department 1784-1800* is a significant legacy digital public humanities project. Conceived in the early 1990s as a collection to be distributed on CD-ROM, it was an early example of an open-access documentary collection and of community-sourced transcribing.

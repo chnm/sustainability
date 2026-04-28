@@ -5,6 +5,7 @@ omeka_page_id: 23
 slug: searching-pwd
 title: Searching the Collection
 type: page
+weight: 60
 ---
 
 There are various ways to search the *Papers of the War Department*collection.  The following videos demonstrate how to search by keyword or for a particular name. The rest of this guide provides more in-depth information about searching the collection.

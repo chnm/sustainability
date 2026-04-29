@@ -22,6 +22,8 @@ The project to reconstitute the War Department Papers was begun by Ted Crackel i
 
 The *Papers* is not only an online collection of digitized documents. It also represents an innovative digital editorial and transcription project. Since 2011, members of the public have been able to participate in this process of fully transcribing the documents in the collection by making their own transcriptions and uploading them to the collection. Volunteer transcribers include teachers, students, retired documentary editors, members of American Indian nations, and many others in the United States and abroad. The Papers site offers resources to help individuals learn more about historical handwriting and letter writing, and teaching modules for use at the high school or undergraduate level. In addition, the project has begun using generative AI to produce supplementary transcriptions of documents not yet transcribed by volunteers. Learn more about this process in our [AI Transcription Methodology](/transcription-methodology/).
 
+You can view the status of transcriptions across the entire site by visiting our [transcription dashboard](/transcription-dashboard/).
+
 This site currently runs on the static site generator, [Hugo](https://gohugo.io/). This site was originally built on [Omeka S](https://omeka.org/s/) and the transcription interface ran on [Scripto](https://scripto.org/). The project no longer is accepting human transcriptions of the Papers. Our work was made possible thanks to funding from the American Council of Learned Societies, the National Endowment for the Humanities, and the National Historic Publications and Records Commission.
 
 ## Project Staff

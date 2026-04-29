@@ -6,6 +6,7 @@ slug: searching-pwd
 title: Searching the Collection
 type: page
 weight: 60
+outdated: true
 ---
 
 There are various ways to search the *Papers of the War Department*collection.  The following videos demonstrate how to search by keyword or for a particular name. The rest of this guide provides more in-depth information about searching the collection.
@@ -22,6 +23,8 @@ There are various ways to search the *Papers of the War Department*collection.�
 
 You can search across the entire *Papers of the War Department* collection using the Search page, accessible by clicking on Search in the navigation menu, or by clicking on Advanced Search in the Collection page. Advanced search has a series of options: Search by Value, search by class, and search by item set. The sections below explain how each option works.
 
+![Advanced search page](/img/screenshots/searching-pwd/Search_Page.png)
+
 You can add criteria - for example searching by two values - using the "Add new" button below each search option. These search terms build - searching with two "by item sets" options will return all items in either item set, rather than only those items which are in both.
 
 To perform a basic keyword search, use only the Search by Value option. Set the first dropdown to "[Any Property]" and from the second dropdown choose "contains", then type your search terms into the text field.  Note that this will search the collections, including repository information, but will not include the guides or teaching modules.
@@ -29,6 +32,8 @@ To perform a basic keyword search, use only the Search by Value option. Set the 
 ---
 
 ### Search by value
+
+![Search by value options](/img/screenshots/searching-pwd/Search_By_Value.png)
 
 This section lets you search a specific field, or Value, for the text that you enter.
 
@@ -47,9 +52,13 @@ The second dropdown allows you to set how the property you selected in the first
 
 The final field in this part of the search is a text area where you can enter your search terms.
 
+![Search value dropdown options](/img/screenshots/searching-pwd/Search_Value_Dropdown.png)
+
 ---
 
 ### Search by class
+
+![Search by class dropdown](/img/screenshots/searching-pwd/Search_By_Class.png)
 
 Select a Class from the dropdown menu to restrict your search only to items of that kind of class.
 
@@ -66,6 +75,8 @@ The classes used by this project are in the "Papers of the War Department" vocab
 ---
 
 ### Search by item set
+
+![Search by item set](/img/screenshots/searching-pwd/Search_By_Item_Set.png)
 
 Limit your search to an Item Set, or collection of items, used to help organize the material in the *Papers of the War Department.*
 

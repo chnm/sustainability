@@ -6,6 +6,7 @@ slug: transcribe-guidelines
 title: Transcription Guidelines
 type: page
 weight: 140
+outdated: true
 ---
 
 ### General

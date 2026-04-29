@@ -2,6 +2,11 @@
 {{ define "main" }}
 <div class="blocks" data-pagefind-body>
     <h2>{{ .Title }}</h2>
+    {{ if .Params.outdated }}
+    <aside class="notice notice-outdated">
+        <strong>Note:</strong> The following content applies to an older version of the site and is preserved here as a historical record of the previous site.
+    </aside>
+    {{ end }}
     {{ .Content }}
 </div>
 {{ if .Params.weight }}

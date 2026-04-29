@@ -201,3 +201,5 @@ html{overflow-x:hidden}
 .browse-tab:hover{color:#111;border-bottom-color:#ccc}
 .browse-tab.active{color:#111;font-weight:700;border-bottom-color:#c5a243}
 .browse-tab .count{font-size:14px;color:#888}
+/* Outdated content notice */
+.notice-outdated{background:#fef9e7;border-left:4px solid #c5a243;padding:12px 16px;margin-bottom:20px;font-size:15px;color:#5a4e2f}

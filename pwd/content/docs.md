@@ -6,6 +6,7 @@ slug: docs
 title: Working with Documents
 type: page
 weight: 170
+outdated: true
 ---
 
 Clicking on the title or thumbnail of any document in the document browse page allows you to view individual documents in the *Papers of the War Department* archive available for transcription and its associated media. The title of the page refers to the document as a whole, displaying each Page available for transcription below followed by detailed information on the document.

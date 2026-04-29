@@ -6,6 +6,7 @@ slug: transcribe-start
 title: Creating an Account
 type: page
 weight: 130
+outdated: true
 ---
 
 You do not need to have a transcriber account in order to browse the documents of the *Papers of the War Department,* but you do need one to help us to transcribe them.

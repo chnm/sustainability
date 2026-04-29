@@ -6,6 +6,7 @@ slug: dashboard
 title: 'User Accounts: Dashboard, Contributions, and Watchlist'
 type: page
 weight: 150
+outdated: true
 ---
 
 Clicking the user icon in the navigation menu on the Transcribe page (it looks like a person) opens a dropdown menu which tells you the username which is currently logged-in, and gives you options to see your Dashboard, Contributions, and Watchlist.

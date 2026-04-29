@@ -6,6 +6,7 @@ slug: pages
 title: Viewing and Transcribing Pages
 type: page
 weight: 180
+outdated: true
 ---
 
 Each individual page listed in the document-view needs to be transcribed in order to complete the document’s full transcription. In order to work with a page you have two options.

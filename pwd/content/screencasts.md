@@ -6,6 +6,7 @@ slug: screencasts
 title: Screencasts
 type: page
 weight: 190
+outdated: true
 ---
 
 These screencasts are a supplement to the written guides. They demonstrate how to navigate the transcription project, sign up to be a *Papers of the War Department* transcriber, transcribe a document, and use the notes function.

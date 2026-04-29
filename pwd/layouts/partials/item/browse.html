@@ -1,0 +1,27 @@
+{{/* Shared browse list for all resource types */}}
+{{ .Content }}
+{{ $paginator := .Paginate .Pages }}
+<div class="browse-controls">
+    <nav class="pagination">
+        {{ template "_internal/pagination.html" . }}
+        <span class="row-count">{{ len $paginator.Pages }} of {{ $paginator.TotalNumberOfElements }}</span>
+    </nav>
+</div>
+<ul class="resource-list">
+    {{ range $paginator.Pages }}
+    <li class="item resource">
+        <div class="item-meta">
+            {{ with .Params.thumbnail_square }}
+            <div class="item-thumbnail"><img src="{{ . }}" alt="Thumbnail of archival document"></div>
+            {{ end }}
+            <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+            {{ with .Params.resource_type }}<span class="resource-class">{{ . }}</span>{{ end }}
+        </div>
+    </li>
+    {{ end }}
+</ul>
+<div class="browse-controls">
+    <nav class="pagination">
+        {{ template "_internal/pagination.html" . }}
+    </nav>
+</div>

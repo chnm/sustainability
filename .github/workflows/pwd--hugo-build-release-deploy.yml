@@ -18,13 +18,13 @@ jobs:
       container-image-name: "pwd-website"
       hugo-context-root: "pwd"
       hugo-devl-url: "https://hugo.wardepartmentpapers.org"
-      hugo-prod-url: "https://hugo.wardepartmentpapers.org"
+      hugo-prod-url: "https://wardepartmentpapers.org"
 
       build-artifact-name: "pwd-website"
       release-tag-name-type: "iso"
 
       website-devl-fqdn: "hugo.wardepartmentpapers.org"
-      website-prod-fqdn: "hugo.wardepartmentpapers.org"
+      website-prod-fqdn: "wardepartmentpapers.org"
 
   deploy:
     uses: chnm/.github/.github/workflows/docker--deploy.yml@main
@@ -32,4 +32,4 @@ jobs:
     secrets: inherit
     with:
       website-devl-fqdn: "hugo.wardepartmentpapers.org"
-      website-prod-fqdn: "hugo.wardepartmentpapers.org"
+      website-prod-fqdn: "wardepartmentpapers.org"

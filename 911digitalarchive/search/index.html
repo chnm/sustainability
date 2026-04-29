@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -100,6 +101,40 @@
             margin-bottom: 20px;
             padding-bottom: 20px;
             border-bottom: 1px dotted #ccc;
+            display: flex;
+            gap: 15px;
+        }
+
+        .result-thumbnail {
+            flex-shrink: 0;
+        }
+
+        .result-thumbnail img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+
+        .result-content {
+            flex: 1;
+        }
+
+        .result-no-thumbnail {
+            width: 80px;
+            height: 80px;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 11px;
+            color: #666;
+            line-height: 1.2;
+            flex-shrink: 0;
         }
 
         .result-title {
@@ -137,33 +172,35 @@
             white-space: nowrap;
             border: 0;
         }
+
+        #progress-container {
+            overflow: hidden;
+        }
+
+        #progress-bar {
+            background: linear-gradient(90deg, #43829f 0%, #5a9fc7 100%);
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        #progress-text {
+            color: #666;
+            font-weight: 500;
+        }
     </style>
 
 </head>
 
 <body class="search">
     <div id="wrap">
-
         <header role="banner">
-
-
-
-
             <div id="site-title"><a href="https://911digitalarchive.org"><img
                         src="https://911digitalarchive.org/files/theme_uploads/7c6f790d5b9534b2f7bfc9cb93ac4ad4.png"
                         alt="September 11 Digital Archive"></a>
             </div>
-            <div id="search-container">
-                <div id="search-form">
-                    <input type="text" name="query" id="query" title="Search" aria-labelledby="submit_search"
-                        placeholder="Search for items...">
-                    <button name="submit_search" id="submit_search" type="submit">Search</button>
-                </div>
-            </div>
-            <!--<div id="search-box">
+            <div id="search-box">
                 <input type="text" id="search-input" placeholder="Search for items..."> <button name="submit_search"
                     id="submit_search" value="Search" type="button">Search</button>
-            </div>--><!-- end search -->
+            </div><!-- end search -->
 
             <nav id="top-nav" class="main-navigation">
                 <ul class="navigation">
@@ -200,12 +237,18 @@
 
             <h1>Search Results</h1>
             <div class="entry-content">
-                <!--<button id="prev-btn">Previous</button>
-                <button id="next-btn">Next</button>-->
-
                 <div class="loading-text">Searching...</div>
+                <div id="index-loading" class="loading-text" style="display: block;">
+                    <div>Loading search index...</div>
+                    <div id="progress-container" style="width: 100%; max-width: 500px; margin: 10px auto;">
+                        <div id="progress-bar" style="width: 0%; height: 20px; background-color: #43829f; border-radius: 10px; transition: width 0.3s ease;"></div>
+                        <div id="progress-text" style="text-align: center; margin-top: 5px; font-size: 14px;">0 of 0 documents indexed</div>
+                    </div>
+                </div>
+                <div id="pagination"></div>
                 <div id="search-results" aria-live="polite"></div>
                 <div id="search-announcement" class="sr-only" aria-live="assertive"></div>
+                <div id="pagination-lower"></div>
             </div>
         </article>
 
@@ -248,7 +291,8 @@
                     Roy Rosenzweig Center for History and New Media and American Social History Project/Center for Media
                     and Learning
                 </p>
-                <p></p>
+                <p>This is a static version of a former Omeka site. If you encounter a missing or broken item, please
+                    contact us at <a href="mailto:chnm@gmu.edu">chnm@gmu.edu</a> for access to the original site.</p>
             </div>
 
 
@@ -292,9 +336,9 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            //const searchInput = document.getElementById('search-input');
-            const searchInput = document.getElementById('query');
-            const searchResults = document.getElementById('search-results');
+            const searchInput = document.getElementById('search-input');
+            //const searchInput = document.getElementById('query');
+          console.log("search input", searchInput);
             const loadingText = document.querySelector('.loading-text');
             const searchAnnouncement = document.getElementById('search-announcement');
             const searchButton = document.getElementById('submit_search')
@@ -303,27 +347,90 @@
             let focusOnResults = false; // Flag to control when to focus on results
 
             //pagination 
-            const itemsPerPage = 25;
+            let allResults = []; // store all search results here
             let currentPage = 1;
+            const resultsPerPage = 25; // adjust for your needs
+            const paginationContainer = document.getElementById('pagination')
+            const paginationContainerLower = document.getElementById('pagination-lower')
 
-            // Load the JSON documents
+
+            // Load the JSON documents with performance tracking
+            // Disable search input while loading
+            searchInput.disabled = true;
+            searchInput.placeholder = 'Loading search index...';
+            searchButton.disabled = true;
+            
+            console.time('Total initialization');
+            console.time('JSON fetch and parse');
+            
             fetch('/js/search-documents.json')
-                .then(response => response.json())
+                .then(response => {
+                    console.log('Response size:', response.headers.get('content-length'), 'bytes');
+                    return response.json();
+                })
                 .then(data => {
+                    console.timeEnd('JSON fetch and parse');
+                    console.log('Documents loaded:', data.length);
                     documents = data;
+                    
+                    // Initialize progress bar
+                    const progressBar = document.getElementById('progress-bar');
+                    const progressText = document.getElementById('progress-text');
+                    progressText.textContent = `0 of ${documents.length} documents indexed`;
 
+                    console.time('MiniSearch initialization');
                     // Initialize MiniSearch
                     miniSearch = new MiniSearch({
                         fields: ['title', 'content'],
-                        storeFields: ['title', 'url', 'content', 'tags'],
+                        storeFields: ['title', 'url', 'content', 'tags', 'thumbnail'],
                         searchOptions: {
                             boost: { title: 2 },
                             fuzzy: 0.2
                         }
                     });
+                    console.timeEnd('MiniSearch initialization');
 
-                    // Add documents to the index
-                    miniSearch.addAll(documents);
+                    console.time('MiniSearch indexing');
+                    // Add documents to the index in batches to avoid blocking
+                    const batchSize = 1000;
+                    let index = 0;
+                    
+                    function addBatch() {
+                        const batch = documents.slice(index, index + batchSize);
+                        if (batch.length > 0) {
+                            miniSearch.addAll(batch);
+                            index += batchSize;
+                            const currentCount = Math.min(index, documents.length);
+                            console.log(`Indexed ${currentCount} of ${documents.length} documents`);
+                            
+                            // Update progress bar
+                            const progressPercentage = (currentCount / documents.length) * 100;
+                            progressBar.style.width = progressPercentage + '%';
+                            progressText.textContent = `${currentCount.toLocaleString()} of ${documents.length.toLocaleString()} documents indexed`;
+                            
+                            if (index < documents.length) {
+                                // Use setTimeout to yield control back to the browser
+                                setTimeout(addBatch, 10);
+                            } else {
+                                console.timeEnd('MiniSearch indexing');
+                                console.timeEnd('Total initialization');
+                                console.log('Search index ready!');
+                                
+                                // Show completion message briefly
+                                progressText.textContent = 'Search index ready! You can now search.';
+                                setTimeout(() => {
+                                    document.getElementById('index-loading').style.display = 'none';
+                                }, 1000);
+                                
+                                // Re-enable search input
+                                searchInput.disabled = false;
+                                searchInput.placeholder = 'Search for items...';
+                                searchButton.disabled = false;
+                            }
+                        }
+                    }
+                    
+                    addBatch();
 
                     // Add event listener for Enter key press to trigger focusing on results
                     searchInput.addEventListener('keydown', function (e) {
@@ -353,8 +460,16 @@
 
                         // Search after a short delay
                         setTimeout(() => {
+                            console.time(`Search for "${query}"`);
                             const results = miniSearch.search(query);
-                            displayResults(results, query);
+                            console.timeEnd(`Search for "${query}"`);
+                            console.log(`Found ${results.length} results`);
+                            allResults = results
+                            //displayResults(results, query);
+                            if (results.length === 0) {
+                                noResults(query)
+                            }
+                            renderPage(1)
                             loadingText.style.display = 'none';
 
                             // Only focus on results when explicitly requested (Enter key pressed)
@@ -389,7 +504,7 @@
                 });
 
             // Function to display search results
-            function displayResults(results, query) {
+            /*function displayResults(results, query) {
                 if (results.length === 0) {
                     searchResults.innerHTML = '<p>No results found for "' + query + '"</p>';
                     searchAnnouncement.textContent = 'No results found for "' + query + '"';
@@ -398,10 +513,6 @@
 
                 // Create a map to deduplicate results by URL
                 const uniqueResults = new Map();
-
-                //console.log(results)
-                //const totalPages = Math.ceil(results.length / itemsPerPage);
-                //console.log(totalPages)
 
                 // Keep only the first occurrence of each URL, normalizing URLs to handle both with and without index.html
                 results.forEach(result => {
@@ -435,7 +546,103 @@
                 // Announce the number of results for screen readers
                 const resultsCount = uniqueResults.size;
                 searchAnnouncement.textContent = `Found ${resultsCount} result${resultsCount !== 1 ? 's' : ''} for "${query}"`;
+            };*/
+
+            //experimenting with pagination
+            //if no search results
+            function noResults(query) {
+                if (allResults.length === 0) {
+                    searchResults.innerHTML = '<p>No results found for "' + query + '"</p>';
+                    searchAnnouncement.textContent = 'No results found for "' + query + '"';
+                    return;
+                }
             };
+
+            function renderPage(page) {
+                console.time('renderPage');
+                const searchResults = document.getElementById('search-results');
+
+                // Calculate slice indexes first (more efficient)
+                const startIndex = (page - 1) * resultsPerPage;
+                const endIndex = startIndex + resultsPerPage;
+                const pageResults = allResults.slice(startIndex, endIndex);
+
+                console.log(`Rendering page ${page}, showing ${pageResults.length} results`);
+
+                let html = '';
+
+                // Create a document fragment for better DOM performance
+                const fragment = document.createDocumentFragment();
+
+                pageResults.forEach(result => {
+                    let tagsHtml = '';
+                    if (result.tags && result.tags.length > 0) {
+                        tagsHtml = `<div class="result-tags">Tags: ${result.tags.join(', ')}</div>`;
+                    }
+
+                    let thumbnailHtml = '';
+                    if (result.thumbnail) {
+                        thumbnailHtml = `<div class="result-thumbnail"><img loading="lazy" src="${result.thumbnail}" alt="Thumbnail for ${result.title}"></div>`;
+                    } else {
+                        thumbnailHtml = `<div class="result-no-thumbnail">No image preview available</div>`;
+                    }
+
+                    html += `
+            <div class="result-item">
+                ${thumbnailHtml}
+                <div class="result-content">
+                    <div class="result-title"><a href="${result.url}">${result.title}</a></div>
+                    <div class="result-url">${result.url}</div>
+                    ${tagsHtml}
+                </div>
+            </div>
+        `;
+                });
+
+                searchResults.innerHTML = html;
+                renderPagination();
+                console.timeEnd('renderPage');
+            };
+
+            function changePage(page) {
+                const totalPages = Math.ceil(allResults.length / resultsPerPage);
+                if (page >= 1 && page <= totalPages) {
+                    currentPage = page;
+                    renderPage(currentPage);
+                }
+            };
+
+            function renderPagination() {
+                const totalPages = Math.max(1, Math.ceil(allResults.length / resultsPerPage));
+                // limit visible page buttons for long lists
+                const range = 3;
+                const start = Math.max(1, currentPage - range);
+                const end = Math.min(totalPages, currentPage + range);
+
+                let html = `<button class="page-btn" data-page="${currentPage - 1}" ${currentPage === 1 ? 'style="display: none;"' : ''}>Prev</button>`;
+                //html += `<button class="page-btn" data-page="${1}" ${currentPage === 1 ? 'style="display: none;"' : ''}>First</button>`;
+                for (let i = start; i <= end; i++) {
+                    html += `<button class="page-btn ${i === currentPage ? 'active ' : ''}" data-page="${i}" ${i === currentPage ? 'aria-current="page" disabled ' : ''}>${i}</button>`;
+                }
+                //html += `<button class="page-btn" data-page="${totalPages}" ${currentPage === totalPages ? 'style="display: none;"' : ''}>Last</button>`;
+                html += `<button class="page-btn" data-page="${currentPage + 1}" ${currentPage === totalPages ? 'style="display: none;"' : ''}>Next</button>`;
+
+                paginationContainer.innerHTML = html;
+                paginationContainerLower.innerHTML = html;
+            };
+
+            paginationContainer.addEventListener('click', (e) => {
+                const btn = e.target.closest('button[data-page]');
+                if (!btn || btn.disabled) return;
+                const page = Number(btn.dataset.page);
+                changePage(page);
+            });
+            paginationContainerLower.addEventListener('click', (e) => {
+                const btn = e.target.closest('button[data-page]');
+                if (!btn || btn.disabled) return;
+                const page = Number(btn.dataset.page);
+                changePage(page);
+            });
         });
     </script>
 </body>

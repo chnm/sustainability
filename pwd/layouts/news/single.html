@@ -1,0 +1,35 @@
+{{ define "bodyclass" }}page news{{ end }}
+{{ define "main" }}
+<div class="blocks">
+    <nav class="news-back"><a href="/news/">&larr; All News</a></nav>
+    <article class="news-article">
+        <header class="news-article-header">
+            <div class="news-card-date">
+                <span class="news-card-month">{{ .Date.Format "Jan" }}</span>
+                <span class="news-card-day">{{ .Date.Format "2" }}</span>
+                <span class="news-card-year">{{ .Date.Format "2006" }}</span>
+            </div>
+            <div class="news-article-title">
+                <h2>{{ .Title }}</h2>
+                {{ with .Params.author }}<span class="news-card-author">By {{ . }}</span>{{ end }}
+                {{ with .Params.categories }}
+                <div class="news-card-categories">
+                    {{ range . }}<a href="{{ "/categories/" | relURL }}{{ . | urlize }}/" class="news-card-tag">{{ . }}</a>{{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </header>
+        <div class="news-article-body" data-pagefind-body>
+            {{ .Content }}
+        </div>
+        {{ $prev := .PrevInSection }}
+        {{ $next := .NextInSection }}
+        {{ if or $prev $next }}
+        <nav class="news-pager">
+            {{ with $next }}<a class="news-pager-link news-pager-prev" href="{{ .RelPermalink }}">&larr; {{ .Title }}</a>{{ end }}
+            {{ with $prev }}<a class="news-pager-link news-pager-next" href="{{ .RelPermalink }}">{{ .Title }} &rarr;</a>{{ end }}
+        </nav>
+        {{ end }}
+    </article>
+</div>
+{{ end }}

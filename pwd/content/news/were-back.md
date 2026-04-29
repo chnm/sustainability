@@ -1,0 +1,17 @@
+---
+aliases:
+- /news/?p=2103
+author: Jessica Dauterive
+categories:
+- News
+date: '2019-04-23T19:09:00'
+title: We’re Back!
+type: news
+wp_post_id: 2103
+---
+
+<p><span style="font-weight: 400;">The <em>Papers of the War Department</em> team is happy to announce that we’re back online! </span></p>
+<p><span style="font-weight: 400;">The last time you heard from us, we were putting transcriptions on hold to start a total redesign of the <em>Papers of the War Department</em> website with the support of a grant from the American Council of Learned Societies. This included migrating nearly 200 gigabytes of <em>Papers of the War Department</em> items, metadata, and image files into </span><i><span style="font-weight: 400;">Omeka S,</span></i><span style="font-weight: 400;"> which now powers the website with a fully redesigned look and feel. We’ve also released an updated beta version of the </span><i><span style="font-weight: 400;">Scripto</span></i><span style="font-weight: 400;"> plugin, which is facilitating transcription, with updated functionality for an easier transcription process.</span></p>
+<p><span style="font-weight: 400;">We’ve made a number of changes since then. We updated the user experience, refining both the design of the website and the ways that you can navigate through it. This includes new browse pages to explore the <em>Papers</em>, and a Teach section with lesson plans to incorporate the documents into the classroom. We’ve also updated the transcription interface, making the experience more streamlined with a new media viewer and text editor. Underneath all of these exciting changes, however, are still the over 40,000 documents that have always made up the <em>Papers of the War Department</em> collection, including thousands of documents that are still awaiting transcription. Please explore! If you get stuck, refer to the </span><a href="/Guides/">Guides</a><span style="font-weight: 400;"> section that provides documentation for both browsing and transcribing. If you’re still stuck, </span>reach out to us at info@wardepartmentpapers.org.</p>
+<p><span style="font-weight: 400;">We also want to acknowledge our amazing redesign team who made all of these updates happen. Sheila Brennan led the team as our first Principal Investigator until June 2018, when our Editor-in-Chief Christopher Hamner moved into this role. Both Brennan and Hamner have been essential to keeping the vision of the project central to the redesign process. Alyssa Fahringer kept the team organized as the Project Manager during the first phase of the redesign, while Jessica Dauterive has stepped in as Project Manager since January 2019. Our lead developer Jim Safley oversaw the migration of all PWD content to the new website and designed the new </span><i><span style="font-weight: 400;">Scripto </span></i><span style="font-weight: 400;">module, while our lead designer Kim Nguyen fully redesigned the website and user experience. Megan Brett continues to serve as Outreach Coordinator, making sure to keep the <em>Papers of the War Department</em> community going strong.</span></p>
+<p><span style="font-weight: 400;">So, welcome back to the <em>Papers of the War Department</em>! <a href="/s/home/item">Browse</a> the Collection, explore the <a href="/teach/">Teach</a> pages, and sign up <a href="/scripto/s/home/1/create-account">here</a> for a new transcription account to join our community of volunteers.</span></p>

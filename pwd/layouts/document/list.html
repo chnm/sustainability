@@ -1,0 +1,54 @@
+{{ define "bodyclass" }}item browse{{ end }}
+{{ define "main" }}
+<h2>Collection</h2>
+<nav class="browse-tabs" aria-label="Browse by type">
+    <a class="browse-tab active" href="/document/">Documents <span class="count">({{ len .Pages }})</span></a>
+    <a class="browse-tab" href="/authors/">Names <span class="count">({{ len (site.Taxonomies.authors) }})</span></a>
+    <a class="browse-tab" href="/collections/">Collections <span class="count">({{ len (site.Taxonomies.collections) }})</span></a>
+    <a class="browse-tab" href="/repositories/">Repositories <span class="count">({{ len (site.Taxonomies.repositories) }})</span></a>
+</nav>
+{{ .Content }}
+{{ $paginator := .Paginate (.Pages.ByParam "year") }}
+<p class="row-count">{{ $paginator.TotalNumberOfElements | lang.FormatNumber 0 }} items</p>
+<div class="browse-controls">
+    <nav class="pagination">
+        {{ template "_internal/pagination.html" . }}
+    </nav>
+</div>
+<ul class="resource-list term-documents">
+    {{ range $paginator.Pages }}
+    <li class="item resource">
+        <div class="item-meta">
+            {{ $images := .Params.images | default slice }}
+            {{ if $images }}
+            <a class="item-thumbnail" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1"><img src="{{ $.Site.Params.mediaBaseURL }}/files/square/{{ index $images 0 }}" alt="Thumbnail of archival document" loading="lazy"></a>
+            {{ else }}
+            <a class="item-thumbnail item-thumbnail-placeholder" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1"><span>No image</span></a>
+            {{ end }}
+            <div class="item-details">
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                <div class="item-metadata">
+                    {{ if or .Params.year .Params.month .Params.day }}
+                    <span class="item-date">{{ with .Params.month }}{{ . }}/{{ end }}{{ with .Params.day }}{{ . }}/{{ end }}{{ with .Params.year }}{{ . }}{{ end }}</span>
+                    {{ end }}
+                    {{ with .Params.doc_types }}
+                    <span class="item-type">{{ index . 0 }}</span>
+                    {{ end }}
+                </div>
+                {{ with .Params.description }}
+                <p class="item-description">{{ truncate 200 . }}</p>
+                {{ end }}
+                {{ with .GetTerms "collections" }}
+                <span class="item-collection"><a href="{{ (index . 0).RelPermalink }}">{{ (index . 0).LinkTitle }}</a></span>
+                {{ end }}
+            </div>
+        </div>
+    </li>
+    {{ end }}
+</ul>
+<div class="browse-controls">
+    <nav class="pagination">
+        {{ template "_internal/pagination.html" . }}
+    </nav>
+</div>
+{{ end }}

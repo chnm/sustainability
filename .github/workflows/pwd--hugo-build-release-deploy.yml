@@ -1,0 +1,35 @@
+name: "[wardepartmentpapers.org] Hugo Build, Release, Deploy"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "main"
+      - "preview"
+      - "feat/pwd-migration"
+
+jobs:
+
+  build-release:
+    uses: chnm/.github/.github/workflows/hugo--build-release.yml@main
+    secrets: inherit
+    with:
+      container-registry: "ghcr.io"
+      container-image-name: "pwd-website"
+      hugo-context-root: "pwd"
+      hugo-devl-url: "https://hugo.wardepartmentpapers.org"
+      hugo-prod-url: "https://wardepartmentpapers.org"
+
+      build-artifact-name: "pwd-website"
+      release-tag-name-type: "iso"
+
+      website-devl-fqdn: "hugo.wardepartmentpapers.org"
+      website-prod-fqdn: "wardepartmentpapers.org"
+
+  deploy:
+    uses: chnm/.github/.github/workflows/docker--deploy.yml@main
+    needs: [build-release]
+    secrets: inherit
+    with:
+      website-devl-fqdn: "hugo.wardepartmentpapers.org"
+      website-prod-fqdn: "wardepartmentpapers.org"

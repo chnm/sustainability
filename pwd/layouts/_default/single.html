@@ -1,0 +1,40 @@
+{{ define "bodyclass" }}page {{ .Params.slug | default .File.BaseFileName }}{{ end }}
+{{ define "main" }}
+<div class="blocks" data-pagefind-body>
+    <h2>{{ .Title }}</h2>
+    {{ if .Params.outdated }}
+    <aside class="notice notice-outdated">
+        <strong>Note:</strong> The following content applies to an older version of the site and is preserved here as a historical record of the previous site.
+    </aside>
+    {{ end }}
+    {{ .Content }}
+</div>
+{{ if .Params.weight }}
+{{- $pages := sort (where site.RegularPages "Params.weight" "gt" 0) "Params.weight" }}
+{{- $prev := false }}
+{{- $next := false }}
+{{- $found := false }}
+{{- range $pages }}
+    {{- if $found }}
+        {{- if not $next }}
+            {{- $next = . }}
+        {{- end }}
+    {{- else if eq .File.Path $.File.Path }}
+        {{- $found = true }}
+    {{- else }}
+        {{- $prev = . }}
+    {{- end }}
+{{- end }}
+{{- if or $prev $next }}
+<nav class="site-page-pagination">
+    {{- with $prev }}
+    <a href="{{ .RelPermalink }}">Previous</a>
+    {{- end }}
+    {{- if and $prev $next }} | {{ end }}
+    {{- with $next }}
+    <a href="{{ .RelPermalink }}">Next</a>
+    {{- end }}
+</nav>
+{{- end }}
+{{- end }}
+{{ end }}

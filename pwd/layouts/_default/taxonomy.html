@@ -1,0 +1,121 @@
+{{ define "bodyclass" }}taxonomy browse{{ end }}
+{{ define "main" }}
+{{ if eq .Kind "term" }}
+    {{/* Term page: list of documents for a specific term */}}
+    <h2>{{ .Title }}</h2>
+    <p class="term-context">{{ len .Pages }} document{{ if ne (len .Pages) 1 }}s{{ end }}</p>
+
+    {{ $paginator := .Paginate (.Pages.ByParam "year") }}
+    <div class="browse-controls">
+        <nav class="pagination" aria-label="Pagination">
+            {{ template "_internal/pagination.html" . }}
+            <span class="row-count">{{ len $paginator.Pages }} of {{ $paginator.TotalNumberOfElements }}</span>
+        </nav>
+    </div>
+    <ul class="resource-list term-documents">
+        {{ range $paginator.Pages }}
+        <li class="item resource">
+            <div class="item-meta">
+                {{ $images := .Params.images | default slice }}
+                {{ if $images }}
+                <a class="item-thumbnail" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1"><img src="{{ $.Site.Params.mediaBaseURL }}/files/square/{{ index $images 0 }}" alt="Thumbnail of archival document" loading="lazy"></a>
+                {{ else }}
+                <a class="item-thumbnail item-thumbnail-placeholder" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1"><span>No image</span></a>
+                {{ end }}
+                <div class="item-details">
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                    <div class="item-metadata">
+                        {{ if or .Params.year .Params.month .Params.day }}
+                        <span class="item-date">{{ with .Params.month }}{{ . }}/{{ end }}{{ with .Params.day }}{{ . }}/{{ end }}{{ with .Params.year }}{{ . }}{{ end }}</span>
+                        {{ end }}
+                        {{ with .Params.doc_types }}
+                        <span class="item-type">{{ index . 0 }}</span>
+                        {{ end }}
+                    </div>
+                    {{ with .Params.description }}
+                    <p class="item-description">{{ truncate 200 . }}</p>
+                    {{ end }}
+                    {{ with .GetTerms "collections" }}
+                    <span class="item-collection"><a href="{{ (index . 0).RelPermalink }}">{{ (index . 0).LinkTitle }}</a></span>
+                    {{ end }}
+                </div>
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+    <div class="browse-controls">
+        <nav class="pagination" aria-label="Pagination">
+            {{ template "_internal/pagination.html" . }}
+        </nav>
+    </div>
+{{ else }}
+    {{/* Taxonomy list page: all terms alphabetically */}}
+    {{ $browseTaxonomies := slice "authors" "collections" "repositories" }}
+    {{ if in $browseTaxonomies .Data.Plural }}
+    <h2>Collection</h2>
+    <nav class="browse-tabs" aria-label="Browse by type">
+        <a class="browse-tab" href="/document/">Documents <span class="count">({{ len (where site.RegularPages "Type" "document") }})</span></a>
+        <a class="browse-tab{{ if eq .Data.Plural "authors" }} active{{ end }}" href="/authors/">Names <span class="count">({{ len (site.Taxonomies.authors) }})</span></a>
+        <a class="browse-tab{{ if eq .Data.Plural "collections" }} active{{ end }}" href="/collections/">Collections <span class="count">({{ len (site.Taxonomies.collections) }})</span></a>
+        <a class="browse-tab{{ if eq .Data.Plural "repositories" }} active{{ end }}" href="/repositories/">Repositories <span class="count">({{ len (site.Taxonomies.repositories) }})</span></a>
+    </nav>
+    {{ else }}
+    <h2>{{ .Title }}</h2>
+    {{ end }}
+    {{ .Content }}
+    <p class="row-count" id="top">{{ len .Pages | lang.FormatNumber 0 }} items</p>
+
+    {{/* Build letter list once for both TOC and headings */}}
+    {{ $seen := dict }}
+    {{ $letters := slice }}
+    {{ range .Pages.ByTitle }}
+        {{ $firstLetter := upper (substr .Title 0 1) }}
+        {{ $isAlpha := findRE "^[A-Z]$" $firstLetter }}
+        {{ $displayLetter := cond (gt (len $isAlpha) 0) $firstLetter "#" }}
+        {{ $anchorId := cond (gt (len $isAlpha) 0) $firstLetter "other" }}
+        {{ if not (index $seen $displayLetter) }}
+            {{ $seen = merge $seen (dict $displayLetter true) }}
+            {{ $letters = $letters | append (dict "display" $displayLetter "anchor" $anchorId) }}
+        {{ end }}
+    {{ end }}
+
+    <nav class="alpha-nav" aria-label="Alphabetical navigation">
+        {{ range $letters }}
+        <a href="#letter-{{ .anchor }}">{{ .display }}</a>
+        {{ end }}
+    </nav>
+
+    {{ $currentLetter := "" }}
+    {{ range .Pages.ByTitle }}
+        {{ $firstLetter := upper (substr .Title 0 1) }}
+        {{ $isAlpha := findRE "^[A-Z]$" $firstLetter }}
+        {{ $displayLetter := cond (gt (len $isAlpha) 0) $firstLetter "#" }}
+        {{ $anchorId := cond (gt (len $isAlpha) 0) $firstLetter "other" }}
+        {{ if ne $displayLetter $currentLetter }}
+            {{ if $currentLetter }}
+                </ul>
+            {{ end }}
+            {{ $currentLetter = $displayLetter }}
+            <h3 class="alpha-heading" id="letter-{{ $anchorId }}">{{ $displayLetter }}</h3>
+            <ul class="taxonomy-list">
+        {{ end }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <span class="count">({{ len .Pages }})</span>
+        </li>
+    {{ end }}
+    {{ if $currentLetter }}
+        </ul>
+    {{ end }}
+
+    <a href="#top" class="back-to-top" id="back-to-top" aria-label="Back to top">&uarr; Back to Top of Page</a>
+    <script>
+    (function() {
+        var btn = document.getElementById('back-to-top');
+        window.addEventListener('scroll', function() {
+            btn.classList.toggle('visible', window.scrollY > 400);
+        });
+    })();
+    </script>
+{{ end }}
+{{ end }}

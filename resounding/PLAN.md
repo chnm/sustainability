@@ -76,21 +76,27 @@ The Drupal-restore tooling (Phase A) lives **with the Drupal source tree**, outs
 └── scripts/
     └── restore_db.sh                    # rsync backups -> docker-host, bring up the stack, smoke-test
 
-/workspace/sustainability/resounding/   # this repo (the publishable archive)
-├── PLAN.md                              # this file
-├── README.md                            # how to rebuild and serve
-├── scripts/
-│   ├── explore.py                       # Playwright crawl of the live site — dumps a DOM/network manifest
-│   ├── export.py                        # Playwright-driven static export (renders each page, saves DOM + assets)
-│   └── verify.py                        # Playwright comparison of static `site/` vs live container
-└── site/                                # the publishable static site (output of export.py)
-    ├── index.html
-    ├── browse.html
-    ├── about.html
-    ├── <17 song slug pages>.html
-    ├── node/<N>.html
-    └── sites/{all,default}/...          # CSS, JS, images, MP3s, PDFs
+/workspace/sustainability/resounding/   # this repo
+├── PLAN.md                              # this file (committed)
+├── README.md                            # how to rebuild and serve (committed)
+├── .gitignore                           # excludes the gitignored paths below (committed)
+├── site/                                # the publishable static site, output of export.py (committed)
+│   ├── index.html
+│   ├── browse.html
+│   ├── about.html
+│   ├── <17 song slug pages>.html
+│   ├── node/<N>.html
+│   └── sites/{all,default}/...          # CSS, JS, images, MP3s, PDFs
+├── scripts/                             # build tooling (gitignored — not part of the archive)
+│   ├── explore.py                       # Playwright crawl of the live site, dumps DOM/network manifest
+│   ├── export.py                        # rewrite the wget mirror into site/ (Phase C.1)
+│   └── verify.py                        # Playwright comparison of static site/ vs live container (Phase D)
+└── manifests/                           # crawl/verification output (gitignored)
+    ├── live.json                        # URL list, per-page response counts, asset inventory
+    └── dom/<slug>.html                  # post-JS DOM, one file per crawled URL
 ```
+
+**Only `site/` and the two markdown docs are intended for the published archive.** Everything else lives in the repo for convenience but is `.gitignore`d — re-running `scripts/explore.py` regenerates `manifests/`, and `scripts/` itself is reproducible from PLAN.md if lost.
 
 ## Phase A — Restore the live Drupal site in Docker
 
@@ -167,9 +173,10 @@ If Phase B shows the JS work is limited to (i) replacing `<div class="replaceme"
 3. Copy from `backups/.../web/sites/default/files/`: all 17 `*.pdf`, all 51 `*.mp3`, plus any image referenced by HTML and not already in the wget tree.
 4. Rewrite every `*.html` under `site/`:
    - Strip `https?://resoundingthearchives\.org/`. For `node/*.html`, prefix the now-relative paths with `../`.
-   - Replace `<div class="replaceme">URL</div>` with `<audio controls><source src="URL" type="audio/mpeg">…</audio><div class="dllink"><a href="URL">Download Audio</a></div>` (mirrors the JS in `js_qq4t63...js`).
-   - Replace the Google Docs PDF iframe with `<embed src="<local-pdf>" width="600" height="780" type="application/pdf">`.
-   - Drop IE-conditional `<!--[if lte IE 8]>...<![endif]-->` blocks pointing at the live host, and the Matomo `<script>` block (`_paq`).
+   - Replace the *inner content* of `<div class="replaceme">URL</div>` with `<audio controls><source src="URL" type="audio/mpeg">…</audio><div class="dllink"><a href="URL">Download Audio</a></div>`. The outer `<div class="replaceme">` wrapper is preserved (mirrors the JS behavior observed in Phase B; the JS in `js_qq4t63…js` does an in-place inner replacement).
+   - Replace the Google Docs PDF iframe (`<iframe src="//docs.google.com/viewer?…&url=PDF">`) with `<embed src="<local-pdf>" width="600" height="780" type="application/pdf">`. This also eliminates the 40+ third-party requests Phase B observed against `docs.google.com`, `apis.google.com`, `youtube.com`, `gstatic.com`.
+   - Neutralize the `/browse` Drupal Views exposed-filter form (search input, sort-by, sort-order, "Go" submit). It's a server-side Views query that cannot work without Drupal; remove the `<form>` entirely or replace with a static notice. Phase B confirmed the form is only on `/browse`.
+   - Drop IE-conditional `<!--[if lte IE 8]>...<![endif]-->` blocks pointing at the live host, and the Matomo `<script>` block (`_paq`, 42 reqs to `stats.rrchnm.org` per Phase B).
    - Strip `?itok=...` and `?1382488163` from `src=`/`href=` (handles raw `?` and `%3F`).
    - Strip `<link rel="canonical">` and `<link rel="shortlink">`.
 5. Apply the same `?1382488163` strip to all `css_*.css` bundles.
@@ -179,7 +186,7 @@ If Phase B shows the JS work is limited to (i) replacing `<div class="replaceme"
 
 If Phase B reveals JS-rendered content beyond the documented patterns (e.g. Browse-page client filtering, lazy-loaded assets, AJAX-injected nodes), `scripts/export.py` runs Playwright against the live container and saves the **post-JS DOM** for every URL in the manifest, plus every networked asset. Implementation: for each URL, `await page.goto(url, wait_until='networkidle')`, `await page.content()`, then for each network response cached during the load, write its body to `site/<path>` using the URL path. Strip absolute hosts and rewrite the same way as C.1 step 4.
 
-Decide between C.1 and C.2 after running Phase B — don't pre-commit. The manifest from B will make the choice obvious.
+**Decision (locked after Phase B): C.1.** The crawl visited 20 URLs (homepage, /browse, /about, 17 song nodes; /node/5 is the About page, /node/10 is 404) and produced `manifests/live.json` + per-URL post-JS DOM under `manifests/dom/`. Comparing those against the wget mirror confirmed the JS work is limited to: (i) inner-replacement of `<div class="replaceme">` with `<audio>` + download link, (ii) Drupal admin/menu chrome we don't need, (iii) the Google Docs PDF iframe, and (iv) Matomo + Google Docs viewer 3rd-party requests we strip. No AJAX-injected page content, no lazy-loaded same-origin assets beyond what the static HTML already references. C.2 (Playwright snapshot export) is therefore unnecessary and is kept only as a documented fallback if a future change to the live site adds new dynamic behavior.
 
 ## Phase D — Verify the static export against the live site
 
@@ -220,6 +227,10 @@ A green run of `verify.py` is the completion signal.
 - **Container host:** `docker-host` (`moby@10.112.113.211`) over SSH; do not run containers locally.
 - **Browser automation:** Playwright (Python) over CDP to a Chromium on docker-host.
 
-## Open questions to resolve in Phase A
+## Open questions
 
-- Does the Drupal site have any non-public URLs we should *not* include in the static export (admin pages, user profile pages, search forms requiring POST)? Phase B's crawler should default to following only links inside `<main>` / outside the admin region, but the exact boundary depends on what the live site exposes. Decide after the first Playwright crawl.
+- **Webfonts.** The live site loads two CSS-referenced font files from `fonts.gstatic.com` (and the CSS itself from `fonts.googleapis.com`). Decide in Phase C whether to keep the external links (depends on Google's CDN at view time) or download and ship the fonts locally (fully self-contained, larger archive). Default leaning: vendor locally for archival self-sufficiency.
+
+## Resolved questions
+
+- ~~Non-public URLs in the export?~~ Phase B's crawler blacklisted `/admin`, `/user`, `/node/N/edit`, `/search` and the manifest shows zero admin pages were exposed via public links from `/`, `/browse`, or any song page. Nothing to filter out.

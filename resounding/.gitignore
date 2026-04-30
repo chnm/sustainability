@@ -1,0 +1,4 @@
+# Build tooling and crawl artifacts: not part of the published archive.
+# Only `site/` (and the markdown docs) should be committed.
+/scripts/
+/manifests/

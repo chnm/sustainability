@@ -63,24 +63,33 @@ A Playwright-enabled Chromium runs in a sidecar container on docker-host (image 
 
 ## Output layout
 
+The Drupal-restore tooling (Phase A) lives **with the Drupal source tree**, outside this repo, because it is single-use scaffolding for reading the original site — not part of the publishable archive. The static-export tooling and its output live in this repo.
+
 ```
-/workspace/resounding/
-├── PLAN.md            # this file
-├── README.md          # how to rebuild and serve
+/workspace/resoundingthearchives.org/   # Drupal source tree (NOT in this repo)
+├── wget/                                # pre-existing wget mirror
+├── backups/                             # pre-existing var/{lib/mysql,www/html/web} snapshot
 ├── compose/
-│   └── drupal.yml     # docker-compose for the live Drupal restore (MySQL 5.7 + PHP-Apache)
+│   ├── drupal.yml                       # docker-compose for the live Drupal restore (MySQL 5.7 + PHP-Apache)
+│   ├── web.Dockerfile                   # php:7.4-apache + gd/mysqli/pdo_mysql/zip/opcache
+│   └── settings.local.php               # cache-off, base_url override, dropped into rsynced tree
+└── scripts/
+    └── restore_db.sh                    # rsync backups -> docker-host, bring up the stack, smoke-test
+
+/workspace/sustainability/resounding/   # this repo (the publishable archive)
+├── PLAN.md                              # this file
+├── README.md                            # how to rebuild and serve
 ├── scripts/
-│   ├── restore_db.sh  # bring up MySQL 5.7, point it at the backup, verify
-│   ├── explore.py     # Playwright crawl of the live site — dumps a DOM/network manifest
-│   ├── export.py      # Playwright-driven static export (renders each page, saves DOM + assets)
-│   └── verify.py      # Playwright comparison of static `site/` vs live container
-└── site/              # the publishable static site (output of export.py)
+│   ├── explore.py                       # Playwright crawl of the live site — dumps a DOM/network manifest
+│   ├── export.py                        # Playwright-driven static export (renders each page, saves DOM + assets)
+│   └── verify.py                        # Playwright comparison of static `site/` vs live container
+└── site/                                # the publishable static site (output of export.py)
     ├── index.html
     ├── browse.html
     ├── about.html
     ├── <17 song slug pages>.html
     ├── node/<N>.html
-    └── sites/{all,default}/...   # CSS, JS, images, MP3s, PDFs
+    └── sites/{all,default}/...          # CSS, JS, images, MP3s, PDFs
 ```
 
 ## Phase A — Restore the live Drupal site in Docker

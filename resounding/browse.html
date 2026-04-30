@@ -65,17 +65,45 @@
       <h3>Songs (17 Total)</h3>    </div>
   
       <div class="view-filters" id="rta-search">
-  <link rel="stylesheet" href="pagefind/pagefind-ui.css">
-  <div id="rta-pagefind"></div>
-  <script src="pagefind/pagefind-ui.js"></script>
-  <script>
-    window.addEventListener('DOMContentLoaded', () => {
-      new PagefindUI({
-        element: '#rta-pagefind',
-        showImages: false,
-        showSubResults: true,
-        resetStyles: false,
-        translations: { placeholder: 'Search the archive\u2026' },
+  <input id="rta-q" type="search" placeholder="Search the archive…" autocomplete="off" aria-label="Search">
+  <p id="rta-status" aria-live="polite" hidden></p>
+  <script type="module">
+    import('./pagefind/pagefind.js').then(async (pagefind) => {
+      const input = document.getElementById('rta-q');
+      const status = document.getElementById('rta-status');
+      const cards = Array.from(document.querySelectorAll('.view-content .views-row'));
+      const cardByHref = new Map();
+      for (const c of cards) {
+        const a = c.querySelector('a[href]');
+        if (a) cardByHref.set(decodeURIComponent(a.getAttribute('href')), c);
+      }
+      const apply = async (q) => {
+        if (!q) {
+          cards.forEach(c => c.style.display = '');
+          status.hidden = true; status.textContent = '';
+          return;
+        }
+        const res = await pagefind.search(q);
+        const data = await Promise.all(res.results.map(r => r.data()));
+        const matched = new Set(
+          data.map(d => decodeURIComponent(d.url).replace(/^\//, '').split('#')[0])
+        );
+        let shown = 0;
+        cards.forEach(c => {
+          const href = decodeURIComponent(c.querySelector('a[href]')?.getAttribute('href') || '');
+          const visible = matched.has(href);
+          c.style.display = visible ? '' : 'none';
+          if (visible) shown++;
+        });
+        status.hidden = false;
+        status.textContent = shown === 0
+          ? `No songs match “${q}”`
+          : `${shown} of ${cards.length} song${cards.length === 1 ? '' : 's'} match “${q}”`;
+      };
+      let t;
+      input.addEventListener('input', e => {
+        clearTimeout(t);
+        t = setTimeout(() => apply(e.target.value.trim()), 120);
       });
     });
   </script>
@@ -89,7 +117,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">After the War Is Over</div>
-            <div class="viewbutton"> <a href="node/12.html">View</a></div>
+            <div class="viewbutton"> <a href="after-war-over-will-there-be-any-home-sweet-home.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/After%20the%20War%20is%20Over_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -102,7 +130,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">America, Here’s My Boy</div>
-            <div class="viewbutton"> <a href="node/15.html">View</a></div>
+            <div class="viewbutton"> <a href="america-here’s-my-boy.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/America_Here_s%20My%20Boy_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -115,7 +143,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">Good Morning Mr. Zip-Zip-Zip!</div>
-            <div class="viewbutton"> <a href="node/19.html">View</a></div>
+            <div class="viewbutton"> <a href="good-morning-mr-zip-zip-zip.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/Good%20Morning%20MrZipZipZip_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -128,7 +156,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">I&#039;m Raising My Boy to Be a Soldier</div>
-            <div class="viewbutton"> <a href="node/2.html">View</a></div>
+            <div class="viewbutton"> <a href="im-raising-my-boy-be-soldier-fight-usa.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/I%27m%20Raising%20My%20Boy%20to%20Be%20a%20Soldier_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -141,7 +169,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">Just a Baby’s Prayer at Twilight</div>
-            <div class="viewbutton"> <a href="node/14.html">View</a></div>
+            <div class="viewbutton"> <a href="just-baby’s-prayer-twilight-her-daddy-over-there.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/Just%20a%20Baby_s%20Prayer_studio_0.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -154,7 +182,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">K-K-K-Katy</div>
-            <div class="viewbutton"> <a href="node/9.html">View</a></div>
+            <div class="viewbutton"> <a href="k-k-k-katy.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/K-K-K-Katy_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -167,7 +195,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">How I Hate to Get Up</div>
-            <div class="viewbutton"> <a href="node/4.html">View</a></div>
+            <div class="viewbutton"> <a href="oh-how-i-hate-get-morning.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/Oh%20How%20I%20Hate%20to%20Get%20Up%20in%20the%20Morning_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -180,7 +208,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">Old Glory</div>
-            <div class="viewbutton"> <a href="node/16.html">View</a></div>
+            <div class="viewbutton"> <a href="old-glory-song-preparedness.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/Old%20Glory_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -193,7 +221,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">Our Gallant 91st</div>
-            <div class="viewbutton"> <a href="node/6.html">View</a></div>
+            <div class="viewbutton"> <a href="our-gallant-91st-wild-west-division.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/Our%20Gallant%2091st%20Wild%20West%20Divison_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -206,7 +234,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">Over There</div>
-            <div class="viewbutton"> <a href="node/3.html">View</a></div>
+            <div class="viewbutton"> <a href="over-there.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/Over%20There_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -219,7 +247,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">Somehwere in France is Daddy</div>
-            <div class="viewbutton"> <a href="node/1.html">View</a></div>
+            <div class="viewbutton"> <a href="somewhere-france-daddy.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/Somwehere%20in%20France%20is%20Daddy_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -232,7 +260,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">The Little Good for Nothing</div>
-            <div class="viewbutton"> <a href="node/17.html">View</a></div>
+            <div class="viewbutton"> <a href="little-good-nothings-good-something-after-all.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/Little%20Good%20for%20Nothing_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -245,7 +273,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">Those Draftin’ Blues</div>
-            <div class="viewbutton"> <a href="node/11.html">View</a></div>
+            <div class="viewbutton"> <a href="those-draftin’-blues.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/Those%20Draft%20in%20Blues_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -258,7 +286,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">United States Democracy March</div>
-            <div class="viewbutton"> <a href="node/7.html">View</a></div>
+            <div class="viewbutton"> <a href="united-states-democracy-march.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/United%20States%20Democracy%20March_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -271,7 +299,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">We Don’t Want the Bacon</div>
-            <div class="viewbutton"> <a href="node/18.html">View</a></div>
+            <div class="viewbutton"> <a href="we-don’t-want-bacon-what-we-want-piece-rhine.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/We%20Don%27t%20Want%20the%20Bacon_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -284,7 +312,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">We’re Going Over</div>
-            <div class="viewbutton"> <a href="node/13.html">View</a></div>
+            <div class="viewbutton"> <a href="we’re-going-over.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/We_re%20Going%20Over_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>
@@ -297,7 +325,7 @@
     <div class="details">
         <div class="textgohere">
             <div class="title">&quot;Parlez Vous Français&quot;</div>
-            <div class="viewbutton"> <a href="node/8.html">View</a></div>
+            <div class="viewbutton"> <a href="when-yankee-doodle-learns-parlez-vous-français.html">View</a></div>
             <div class="playbutton">Sample<span class="recordfile">/sites/default/files/When%20Yankee%20Doodle_clip.mp3</span></div>
         </div>
         <div class="greenback"></div>

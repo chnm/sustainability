@@ -17,10 +17,12 @@ resounding/
 ├── <17 song slug pages>.html          # canonical song URLs
 ├── node/<N>.html                      # alias pages: /node/N → song page
 ├── sites/all/                         # Drupal theme assets (CSS-referenced images)
-├── sites/default/files/   [GITIGNORED] # heavy regenerable content (~162 MB):
-│                                      #   51 MP3s, 17 PDFs, song images,
-│                                      #   Drupal-aggregated CSS/JS bundles,
-│                                      #   vendored Google Fonts woff2
+├── sites/default/files/css/           # Drupal-aggregated CSS bundles (committed)
+├── sites/default/files/js/            # Drupal-aggregated JS bundles (committed)
+├── sites/default/files/fonts/         # vendored Oswald woff2 (committed)
+├── sites/default/files/    [PARTIAL]  # the rest is GITIGNORED — heavy regenerable
+│                                      # content (~162 MB): 51 MP3s, 17 PDFs,
+│                                      # song images, homepage thumbnails
 ├── pagefind/              [GITIGNORED] # client-side search index (~860 KB)
 ├── scripts/               [GITIGNORED] # build tooling
 └── manifests/             [GITIGNORED] # Phase B crawl artifacts

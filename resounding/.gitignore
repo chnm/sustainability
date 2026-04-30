@@ -6,3 +6,6 @@
 # the wget mirror + Drupal backups. ~162 MB of MP3s, PDFs, images, plus the
 # Drupal-aggregated CSS/JS bundles and vendored Google Fonts woff2 files.
 /sites/default/files/
+
+# Client-side search index built by pagefind during export.py. ~1 MB.
+/pagefind/

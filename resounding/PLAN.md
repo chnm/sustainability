@@ -178,7 +178,7 @@ If Phase B shows the JS work is limited to (i) replacing `<div class="replaceme"
 4. Rewrite every `*.html` under `site/`:
    - Strip `https?://resoundingthearchives\.org/`. For `node/*.html`, prefix the now-relative paths with `../`.
    - Replace the *inner content* of `<div class="replaceme">URL</div>` with `<audio controls><source src="URL" type="audio/mpeg">…</audio><div class="dllink"><a href="URL">Download Audio</a></div>`. The outer `<div class="replaceme">` wrapper is preserved (mirrors the JS behavior observed in Phase B; the JS in `js_qq4t63…js` does an in-place inner replacement).
-   - Replace the Google Docs PDF iframe (`<iframe src="//docs.google.com/viewer?…&url=PDF">`) with `<embed src="<local-pdf>" width="600" height="780" type="application/pdf">`. This also eliminates the 40+ third-party requests Phase B observed against `docs.google.com`, `apis.google.com`, `youtube.com`, `gstatic.com`.
+   - Replace the Google Docs PDF iframe (`<iframe src="//docs.google.com/viewer?…&url=PDF">`) with a same-shape iframe pointing at the local file: `<iframe id="pdf_reader" src="<local-pdf>" width="600" height="780" style="border:none;">`. This eliminates the 40+ third-party requests Phase B observed against `docs.google.com`, `apis.google.com`, `youtube.com`, `gstatic.com`. The browser's native PDF viewer renders the iframe inline. (We tried `<embed type="application/pdf">` first but the omega theme's normalize CSS includes `embed,img,object,video { height: auto }`, which collapsed the embed to ~150 px regardless of the height attribute. `iframe` isn't in that list.)
    - Neutralize the `/browse` Drupal Views exposed-filter form (search input, sort-by, sort-order, "Go" submit). It's a server-side Views query that cannot work without Drupal; remove the `<form>` entirely or replace with a static notice. Phase B confirmed the form is only on `/browse`.
    - Drop IE-conditional `<!--[if lte IE 8]>...<![endif]-->` blocks pointing at the live host, and the Matomo `<script>` block (`_paq`, 42 reqs to `stats.rrchnm.org` per Phase B).
    - Strip `?itok=...` and `?1382488163` from `src=`/`href=` (handles raw `?` and `%3F`).
@@ -225,7 +225,7 @@ A green run of `verify.py` is the completion signal.
 
 ## Decisions already locked
 
-- **PDF embed:** native `<embed src="local.pdf">` (not Google Docs viewer).
+- **PDF embed:** local `<iframe id="pdf_reader" src="<local-pdf>">` (not Google Docs viewer, not `<embed>` — see Phase C.1 step 4 for why iframe specifically).
 - **`?itok=` thumbnails:** rename to drop the suffix.
 - **MySQL version:** 5.7 in Docker (not MariaDB, not 8.0).
 - **Container host:** `docker-host` (`moby@10.112.113.211`) over SSH; do not run containers locally.

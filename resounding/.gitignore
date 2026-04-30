@@ -3,9 +3,13 @@
 /manifests/
 
 # Generated/vendored content: derivable from running scripts/export.py against
-# the wget mirror + Drupal backups. ~162 MB of MP3s, PDFs, images, plus the
-# Drupal-aggregated CSS/JS bundles and vendored Google Fonts woff2 files.
-/sites/default/files/
+# the wget mirror + Drupal backups. ~162 MB of MP3s, PDFs, and song images.
+# CSS/JS bundles and vendored woff2 fonts are committed (small, needed at
+# runtime by every page) — everything else here stays out of git.
+/sites/default/files/*
+!/sites/default/files/css/
+!/sites/default/files/js/
+!/sites/default/files/fonts/
 
 # Client-side search index built by pagefind during export.py. ~1 MB.
 /pagefind/

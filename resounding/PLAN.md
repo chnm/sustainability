@@ -1,5 +1,12 @@
 # PLAN — Static rebuild of resoundingthearchives.org
 
+> **Status: Phases A, B, C, and D complete.** The static archive is committed
+> at the repo root and deployed via caddy on docker-host port 8081, alongside
+> the live Drupal restore (Phase A) on port 8080. Phase D's Playwright
+> comparison passes 20/20 across all reachable URLs. Subsequent post-launch
+> tweaks are listed under "Post-launch tweaks" below. AGENTS.md is the
+> rapid-orientation document; this file is the deeper "why" reference.
+
 ## Context
 
 The original site is a Drupal 7 install of "ReSounding the Archives" (RRCHNM/GMU + UVA + VT — WWI sheet music recordings by student performers). It is being decommissioned and we want a self-contained archival copy that opens from any static web server with no PHP, no database, and no dependency on the live `resoundingthearchives.org` host or third-party services.
@@ -232,10 +239,26 @@ A green run of `verify.py` is the completion signal.
 - **Container host:** `docker-host` (`moby@10.112.113.211`) over SSH; do not run containers locally.
 - **Browser automation:** Playwright (Python) over CDP to a Chromium on docker-host.
 
-## Open questions
+## Post-launch tweaks (after Phase D)
 
-- **Webfonts.** The live site loads two CSS-referenced font files from `fonts.gstatic.com` (and the CSS itself from `fonts.googleapis.com`). Decide in Phase C whether to keep the external links (depends on Google's CDN at view time) or download and ship the fonts locally (fully self-contained, larger archive). Default leaning: vendor locally for archival self-sufficiency.
+These were applied after the initial 20/20 verify pass, each in its own commit:
+
+- **PDF embed swapped from `<embed>` to `<iframe>`.** The omega theme's normalize CSS includes `embed,img,object,video { height:auto }`, which collapsed the PDF viewer to ~150 px tall regardless of the height attribute. `<iframe>` isn't subject to that rule and matches the original Drupal markup shape.
+- **RSS feed removed.** The wget mirror included an `rss.xml` with absolute live-host URLs; an archived static site doesn't need a feed. Removed both the file and the `<link rel="alternate" type="application/rss+xml">` from index.html.
+- **Pagefind search on /browse.** The original Drupal Views exposed-filter form was server-side and stripped during Phase C; restored as a client-side substring search using [Pagefind](https://pagefind.app). The build runs `npx pagefind --site . --glob "*.html"` to index the 17 slug pages plus `/`, `about.html`. Each card on /browse filters in place by matching pagefind result URLs against its (rewritten) slug `<a href>`. browse.html and node/N aliases are `data-pagefind-ignore`d to avoid noise.
+- **Search input styled** to match the omega/rta palette (`#516959` border, Oswald label, sage focus ring).
+- **Homepage card shuffle.** The four featured cards on `/` are Fisher-Yates-shuffled at DOMContentLoaded so the front page rotates which song the visitor lands on.
+
+## Deploy infrastructure
+
+| Endpoint | What | Stack |
+|---|---|---|
+| http://10.112.113.211:8080/ | Live Drupal restore (Phase A — ground truth for verify) | `mysql:5.7` + `php:7.4-apache`, `compose/drupal.yml` under `/workspace/resoundingthearchives.org/` |
+| http://10.112.113.211:8081/ | This static archive | `caddy:alpine` running `caddy file-server`; `scripts/deploy.sh` rsyncs the repo to `docker-host:/home/moby/srv/resounding-static/` then (re)launches the container |
+
+Both run on the same `docker-host` so a single Playwright session can compare them. `scripts/deploy.sh` is idempotent.
 
 ## Resolved questions
 
 - ~~Non-public URLs in the export?~~ Phase B's crawler blacklisted `/admin`, `/user`, `/node/N/edit`, `/search` and the manifest shows zero admin pages were exposed via public links from `/`, `/browse`, or any song page. Nothing to filter out.
+- ~~Webfonts: external Google Fonts vs vendor locally?~~ Vendored locally. `scripts/export.py` step 5 downloads the `https://fonts.googleapis.com/css?family=Oswald:400,300,700` CSS plus the 5 referenced woff2 files into `sites/default/files/fonts/`, and inlines the `@font-face` rules into the Drupal-bundled CSS that originally `@import`ed Google Fonts. No third-party requests at runtime.

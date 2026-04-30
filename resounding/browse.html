@@ -65,7 +65,53 @@
       <h3>Songs (17 Total)</h3>    </div>
   
       <div class="view-filters" id="rta-search">
-  <input id="rta-q" type="search" placeholder="Search the archive…" autocomplete="off" aria-label="Search">
+  <style>
+    #rta-search {
+      clear: both;
+      margin: 0 0 1.6rem 0;
+      padding: 0;
+      width: 100%;
+      max-width: 480px;
+    }
+    #rta-search label {
+      display: block;
+      margin: 0 0 0.4rem 0;
+      font-family: "Oswald", "Arial Narrow", Arial, sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #516959;
+    }
+    #rta-q {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 0.7rem 0.9rem;
+      font-family: "Oswald", "Arial Narrow", Arial, sans-serif;
+      font-size: 1.05rem;
+      color: #2a2a2a;
+      background: #fff;
+      border: 2px solid #516959;
+      border-radius: 2px;
+      outline: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+      -webkit-appearance: none;
+    }
+    #rta-q::placeholder { color: #999; font-style: italic; }
+    #rta-q:focus {
+      border-color: #829e8b;
+      box-shadow: 0 0 0 3px rgba(130, 158, 139, 0.28);
+    }
+    #rta-status {
+      margin: 0.55rem 0 0 0;
+      font-family: "Oswald", "Arial Narrow", Arial, sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.06em;
+      color: #516959;
+    }
+    #rta-status[data-empty="1"] { color: #bf3f3e; }
+  </style>
+  <label for="rta-q">Search the Archive</label>
+  <input id="rta-q" type="search" placeholder="Title, lyrics, composer…" autocomplete="off" aria-label="Search">
   <p id="rta-status" aria-live="polite" hidden></p>
   <script type="module">
     import('./pagefind/pagefind.js').then(async (pagefind) => {
@@ -96,6 +142,7 @@
           if (visible) shown++;
         });
         status.hidden = false;
+        status.dataset.empty = shown === 0 ? '1' : '0';
         status.textContent = shown === 0
           ? `No songs match “${q}”`
           : `${shown} of ${cards.length} song${cards.length === 1 ? '' : 's'} match “${q}”`;

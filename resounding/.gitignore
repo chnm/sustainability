@@ -1,4 +1,8 @@
 # Build tooling and crawl artifacts: not part of the published archive.
-# Only `site/` (and the markdown docs) should be committed.
 /scripts/
 /manifests/
+
+# Generated/vendored content: derivable from running scripts/export.py against
+# the wget mirror + Drupal backups. ~162 MB of MP3s, PDFs, images, plus the
+# Drupal-aggregated CSS/JS bundles and vendored Google Fonts woff2 files.
+/sites/default/files/

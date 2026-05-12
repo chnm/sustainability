@@ -1,0 +1,11 @@
+/* ---- SIA ----- */
+
+audio{
+	width:					195px;
+	margin:					15px 0 5px 0;
+}
+
+audio:last-of-type{
+	margin-bottom:			15px;
+}
+

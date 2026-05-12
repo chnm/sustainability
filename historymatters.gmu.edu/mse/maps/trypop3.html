@@ -1,0 +1,222 @@
+<html>
+<head>
+<title>Does Scale Make a Difference?</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="maps.css" type="text/css">
+<script type="text/javascript">
+<!--
+<!--start hiding
+
+
+
+
+
+<!-- 
+
+// same deal as before .... enter the feedback-comments for each question below .... 
+
+// theAnalysis1Array takes comments for each answer,  
+
+// skip the first one, (where the x is) because that would be 
+
+// considered 0 
+
+// don't hit the return key when you enter these comments just type
+
+// on one long straight line .... the text will automatically wrap 
+
+// in the feedback box on the quiz -->
+
+
+var theAnalysis1Array = new Array(
+
+"x",
+
+"Correct!",
+
+"Wrong")
+
+var theAnalysis2Array = new Array(
+
+"x",
+
+"Wrong",
+
+"Correct!")
+
+var theAnalysis3Array = new Array(
+
+"x",
+
+"Correct!",
+
+"Try again",
+
+"Try again",
+
+"Try again",
+
+"Correct!",
+
+"Try again",
+
+"Try again")
+
+function q1(x,y){
+
+
+
+		document.theForm.question1[x].checked = true
+
+		document.theForm.feedback1.value = theAnalysis1Array[y]}
+
+
+function q2(x,y){
+
+
+
+		document.theForm.question2[x].checked = true
+
+		document.theForm.feedback2.value = theAnalysis2Array[y]}
+		
+
+function q3(x,y){
+
+
+
+		document.theForm.question3[x].checked = true
+
+		document.theForm.feedback3.value = theAnalysis3Array[y]}
+		
+
+				
+		
+<!--**********************************-->  
+
+
+//stop hiding -->
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '56']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+<body bgcolor="#FFFFFF" text="#000000" link="#0066FF" vlink="#FF0000">
+<table width="520" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td> 
+      <p class="bodytext"><img src="images/scale.gif" width="483" height="88"></p>
+      <form name="theForm" method="post" action="">
+        <p class="bodytext">MAP A: Is this a 
+          <input type="radio" name="question1" value="yes" onClick="q1(0,1)">
+          large scale map OR a 
+          <input type="radio" name="question1" value="yes" onClick="q1(1,2)">
+          <span class="bodytext">small scale map? 
+          <input type="text" name="feedback1" size="17">
+          </span></p>
+        <table width="332" border="0" cellspacing="5" cellpadding="0">
+          <tr> 
+            <td height="82"><a href="javascript:;"><img src="images/normandysmallthumb.jpg" width="350" height="248" border="0" onClick="MM_openBrWindow('normandysmall.html','','scrollbars=yes,resizable=yes,width=740,height=550')"></a></td>
+          </tr>
+          <tr> 
+            <td class="captiontext"> 
+              <div align="center">Click on image to enlarge</div>
+            </td>
+          </tr>
+        </table>
+        <p class="bodytext">MAP B: Is this a 
+          <input type="radio" name="question2" value="yes" onClick="q2(0,1)">
+          large scale map OR a 
+          <input type="radio" name="question2" value="yes" onClick="q2(1,2)">
+          small scale map? 
+          <input type="text" name="feedback2" size="17">
+        </p>
+        <table width="343" border="0" cellspacing="5" cellpadding="0">
+          <tr> 
+            <td><a href="javascript:;"><img src="images/normandylargethumb.jpg" width="350" height="195" onClick="MM_openBrWindow('normandylarge.html','','scrollbars=yes,resizable=yes,width=740,height=400')" border="0"></a></td>
+          </tr>
+          <tr> 
+            <td> 
+              <div align="center" class="captiontext">Click on image to enlarge</div>
+            </td>
+          </tr>
+        </table>
+        <p class="bodytext">What information does the large scale map provide 
+          that the small scale does not? (There may be more than one correct answer!)</p>
+        <table width="187" border="0" cellspacing="5" cellpadding="0">
+          <tr> 
+            <td width="24"> 
+              <input type="radio" name="question3" value="yes" onClick="q3(0,1)">
+            </td>
+            <td class="bodytext" width="148">railroads</td>
+          </tr>
+          <tr> 
+            <td width="24"> 
+              <input type="radio" name="question3" value="yes" onClick="q3(1,2)">
+            </td>
+            <td class="bodytext" width="148">cities</td>
+          </tr>
+          <tr> 
+            <td width="24"> 
+              <input type="radio" name="question3" value="yes" onClick="q3(2,3)">
+            </td>
+            <td class="bodytext" width="148">beach landings</td>
+          </tr>
+          <tr> 
+            <td width="24"> 
+              <input type="radio" name="question3" value="yes" onClick="q3(3,4)">
+            </td>
+            <td class="bodytext" width="148"> 
+              <p>drop zone</p>
+            </td>
+          </tr>
+          <tr> 
+            <td width="24"> 
+              <input type="radio" name="question3" value="yes" onClick="q3(4,5)">
+            </td>
+            <td class="bodytext" width="148">elevations</td>
+          </tr>
+          <tr> 
+            <td width="24"> 
+              <input type="radio" name="question3" value="yes" onClick="q3(5,6)">
+            </td>
+            <td class="bodytext" width="148">troop nationalities</td>
+          </tr>
+          <tr> 
+            <td width="24"> 
+              <input type="radio" name="question3" value="yes" onClick="q3(6,7)">
+            </td>
+            <td class="bodytext" width="148">British departure points</td>
+          </tr>
+          <tr> 
+            <td colspan="2">&nbsp; </td>
+          </tr>
+          <tr> 
+            <td colspan="2"> 
+              <input type="text" name="feedback3">
+            </td>
+          </tr>
+        </table>
+      </form>
+      <p>&nbsp;</p>
+      </td>
+  </tr>
+</table></div></html>
+</html>

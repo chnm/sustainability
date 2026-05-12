@@ -1,0 +1,19 @@
+name: "Deploy Static Website -- historymatters"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "**"
+    paths:
+      - 'historymatters.gmu.edu/**'
+      - ".github/**"
+
+jobs:
+  deploy:
+    uses: chnm/.github/.github/workflows/static--deploy.yml@main
+    secrets: inherit
+    with:
+      context_root: "historymatters.gmu.edu"
+      website-devl-fqdn: "static.rrchnm.org"
+      website-prod-fqdn: "historymatters.gmu.edu"

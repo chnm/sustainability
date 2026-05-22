@@ -6,7 +6,8 @@ on:
     branches:
       - "main"
       - "preview"
-      - "feat/pwd-migration"
+    paths:
+      - "pwd/**"
 
 jobs:
 

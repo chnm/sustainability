@@ -184,7 +184,12 @@
     if (!Array.isArray(pool) || pool.length < 2) return;
     const pick = () => pool[Math.floor(Math.random() * pool.length)];
     let a = pick(), b = pick();
-    while (b.id === a.id && b.type === a.type) b = pick();
+    // Avoid visually identical tiles: many challenges share a title and/or
+    // thumbnail across SIDs (e.g. 32 challenges all titled "Fighting Against
+    // Barriers"), so dedup on appearance, not just id. Cap iterations.
+    for (let i = 0; i < 100 && (a === b || a.title === b.title || a.thumb === b.thumb); i++) {
+      b = pick();
+    }
     const apply = (selector, item) => {
       const tile = document.querySelector(selector);
       if (!tile) return;

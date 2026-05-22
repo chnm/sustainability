@@ -173,6 +173,37 @@
     
     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"user":{"uid":0,"permissionsHash":"e6c8e55eb74be57410013023d5cd58e36cc0ffbbdacda028df621ad7fddd17c9"}}</script>
 <script src="sites/default/files/js/js_11yZpCS4BPBfm_MyfFLXGyc3UK5fZg9EggRWlpr7OKk.js"></script>
+<script>
+// Mimic the live site's per-load randomized Featured/Popular tiles.
+// Manifest of all 546 captured challenges lives at assets/challenges.json.
+(async () => {
+  try {
+    const r = await fetch("assets/challenges.json", { cache: "no-store" });
+    if (!r.ok) return;
+    const pool = await r.json();
+    if (!Array.isArray(pool) || pool.length < 2) return;
+    const pick = () => pool[Math.floor(Math.random() * pool.length)];
+    let a = pick(), b = pick();
+    while (b.id === a.id && b.type === a.type) b = pick();
+    const apply = (selector, item) => {
+      const tile = document.querySelector(selector);
+      if (!tile) return;
+      const anchor = tile.closest("a");
+      if (anchor) anchor.setAttribute("href", item.href);
+      const titleEl = tile.querySelector(".title span");
+      if (titleEl) titleEl.textContent = item.title;
+      const typeEl = tile.querySelector(".type");
+      if (typeEl) typeEl.textContent = item.type_label;
+      const img = tile.querySelector(".thumbnail img");
+      if (img) img.setAttribute("src", item.thumb);
+    };
+    apply(".challenge-tile.t_0", a);
+    apply(".challenge-tile.t_1", b);
+  } catch (e) {
+    /* fetch failed (e.g. file:// origin) — keep the hardcoded tiles. */
+  }
+})();
+</script>
 
   </body>
 </html>

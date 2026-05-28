@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html class="" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+    
+        <title>Browse Items &middot; RRCHNM20</title>
+
+    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://20.rrchnm.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://20.rrchnm.org/items/browse?output=atom" />
+        <!-- Stylesheets -->
+    <link href="plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="plugins/Geolocation/views/shared/css/geolocation-marker.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="plugins/Html5Media/views/shared/mediaelement/mediaelementplayer.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="application/views/scripts/css/iconfonts.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="themes/Berlin/css/style.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >    <!-- JavaScripts -->
+                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="application/views/scripts/javascripts/vendor/jquery.ui.touch-punch.js"></script>
+<script type="text/javascript">
+    //<!--
+    jQuery.noConflict();    //-->
+</script>
+<script type="text/javascript" src="plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="plugins/Geolocation/views/shared/javascripts/leaflet/leaflet-providers.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="plugins/Geolocation/views/shared/javascripts/map.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="plugins/Html5Media/views/shared/mediaelement/mediaelement-and-player.min.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="themes/Berlin/javascripts/vendor/modernizr.js%3Fv=3.0.1"></script>
+<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="/application/views/scripts/javascripts/vendor/selectivizr.js?v=3.0.1"></script><![endif]-->
+<script type="text/javascript" src="application/views/scripts/javascripts/vendor/respond.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="themes/Berlin/javascripts/globals.js%3Fv=3.0.1"></script>
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '80']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+ <body class="items browse">
+            <header>
+                        <div id="site-title"><a href="index.html" ><img src="files/theme_uploads/4b4fcc995a954f13421b6ad475c4fe3d.png" alt="RRCHNM20" /></a>
+</div>
+
+            <div id="search-container">
+                                <form id="search-form" name="search-form" action="https://20.rrchnm.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search" aria-labelledby="submit_search">        <div id="advanced-form">
+        <fieldset id="query-types">
+            <legend>Search using this query type:</legend>
+            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
+<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
+<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
+                <fieldset id="record-types">
+            <legend>Search only these record types:</legend>
+                        <input type="checkbox" name="record_types[]" id="record_types-Item" value="Item" checked="checked"> <label for="record_types-Item">Item</label><br>
+                        <input type="checkbox" name="record_types[]" id="record_types-File" value="File" checked="checked"> <label for="record_types-File">File</label><br>
+                        <input type="checkbox" name="record_types[]" id="record_types-Collection" value="Collection" checked="checked"> <label for="record_types-Collection">Collection</label><br>
+                    </fieldset>
+                <p><a href="items/search%3Fpage=23.html">Advanced Search (Items only)</a></p>
+    </div>
+        <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+                            </div>
+        </header>
+
+         <div id="primary-nav">
+             <ul class="navigation">
+    <li>
+        <a href="about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="items/browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="exhibits.html">Histories</a>
+    </li>
+    <li>
+        <a href="items/browse.html">See it All</a>
+    </li>
+</ul>         </div>
+  
+         <div id="mobile-nav">
+             <ul class="navigation">
+    <li>
+        <a href="about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="items/browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="exhibits.html">Histories</a>
+    </li>
+    <li>
+        <a href="items/browse.html">See it All</a>
+    </li>
+</ul>         </div>
+        
+                               
+    <div id="content">
+
+
+<h1>Browse Items (422 total)</h1>
+
+<nav class="items-nav navigation secondary-nav">
+    <ul class="navigation">
+    <li>
+        <a href="items/browse.html">Browse All</a>
+    </li>
+    <li>
+        <a href="items/tags.html">Browse by Tag</a>
+    </li>
+    <li>
+        <a href="items/search.html">Search Items</a>
+    </li>
+    <li>
+        <a href="items/map.html">Browse Map</a>
+    </li>
+</ul></nav>
+
+
+<nav class="pagination-nav" aria-label="Pagination">
+    <ul class="pagination">
+                <!-- Previous page link -->
+        <li class="pagination_previous">
+                        <a rel="prev" href="items%3Fpage=22.html">Previous Page</a>
+        </li>
+        
+        <li class="page-input">
+        <form action="items.html" method="get" accept-charset="utf-8">
+        <label>Page<input type="text" name="page" title="Current Page" value="23"></label> of 43        </form>
+        </li>
+
+                <!-- Next page link -->
+        <li class="pagination_next">
+                        <a rel="next" href="items%3Fpage=24.html">Next Page</a>
+        </li>
+            </ul>
+</nav>
+
+
+
+<div id="sort-links">
+    <span class="sort-label">Sort by: </span><ul id="sort-links-list"><li  ><a href="https://20.rrchnm.org/items?page=23&amp;sort_field=Dublin+Core%2CTitle">Title <span aria-label="Sort ascending" title="Sort ascending"></span></a></li><li  ><a href="https://20.rrchnm.org/items?page=23&amp;sort_field=Dublin+Core%2CCreator">Creator <span aria-label="Sort ascending" title="Sort ascending"></span></a></li><li class="sorting desc" ><a href="https://20.rrchnm.org/items?page=23&amp;sort_field=added&amp;sort_dir=a">Date Added <span aria-label="Sorting descending" title="Sorting descending"></span></a></li></ul></div>
+
+
+<div class="item hentry">
+    <h3><a href="items/show/258.html" class="permalink">The Lost Museum</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/258.html"><img src="https://20.rrchnm.org/files/square_thumbnails/a573477f9949cc4741efe41d07382ac8.jpg" alt="LM3_03.jpg" title="LM3_03.jpg"></a>    </div>
+    
+
+<div class="item-description">
+A re-creation of PT Barnum’s American Museum as a lens into mid-19th century New York City and antebellum America. The Lost Museum website offers visitors a visualization and spacial interpretation of this extraordinary institution as well as an innovative way to learn and teach about the many issues and events of the period. This project grew from a proposal for a CD-ROM project called Landscapes in Time that aimed to provide a dense portrait of a particular time and single place as a…</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=The+Lost+Museum&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F258"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/256.html" class="permalink">Histories of the National Mall</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/256.html"><img src="https://20.rrchnm.org/files/square_thumbnails/2f38ef58de0ee7fa6164839629a015cf.jpg" alt="Screenshot" title="Screenshot"></a>    </div>
+    
+
+<div class="item-description">
+Histories of the National Mall will make visible the rich past of the National Mall for its millions of on-site visitors through a website easily accessible by mobile phones that provides content and interpretation far superior to static guidebooks and existing mobile tours and applications.</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Histories+of+the+National+Mall&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F256"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/255.html" class="permalink">Exploring U.S. History</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/255.html"><img src="https://20.rrchnm.org/files/square_thumbnails/d92be9242fc460e679e0f9af318d6995.jpg" alt="expploring.tiff" title="expploring.tiff"></a>    </div>
+    
+
+<div class="item-description">
+These modules, designed for George Mason University&#039;s U.S. survey course History 120, offer relevant exercises that reinforce textbook readings and classroom discussion. They provide an alternate, often entertaining, way of investigating historical concepts and problems.<br />
+<br />
+Divided into four chronological periods, these modules cover a variety of topics, including indentured servitude, runaway slaves, popular culture in the 19th century, and advertisements in the early 20th century.<br />
+<br />
+These…</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Exploring+U.S.+History&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F255"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/254.html" class="permalink">Western Civilization Webography Project</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/254.html"><img src="https://20.rrchnm.org/files/square_thumbnails/19bbf33bd1cd96056c0ae13543f57ff5.jpg" alt="Screenshot" title="Screenshot"></a>    </div>
+    
+
+<div class="item-description">
+The Webography Project helps students learn to review the historical content of websites. Students using the Project visit and review one or more websites, answering questions in a database and writing annotations that describe the website’s accuracy, currency, and objectivity. The Project database includes close to 1,000 individual student reviews of websites, more than half of which are available online. The Webography Project is available for use by teachers who want to make the analysis of…</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Western+Civilization+Webography+Project&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F254"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/253.html" class="permalink">Interpreting the Declaration of Independence by Translation</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/253.html"><img src="https://20.rrchnm.org/files/square_thumbnails/4eadd14ea9f599e62df59c8212f9574f.jpg" alt="Screenshot" title="Screenshot"></a>    </div>
+    
+
+<div class="item-description">
+The Journal of American History&#039;s round table on translations of the Declaration of Independence seemed like a natural candidate for on-line publication. Although the print journal was able to devote a substantial number of pages in the March 1999 issue to the round table, it could not also include the many versions of the Declaration of Independence, as it has been translated into different languages and at different times. On the Web, we are able to include this richer documentation. Where…</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Interpreting+the+Declaration+of+Independence+by+Translation&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F253"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/252.html" class="permalink">Imaging the French Revolution</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/252.html"><img src="https://20.rrchnm.org/files/square_thumbnails/cb74d2a95b3e87de2dc9740363f62ef5.jpg" alt="Screenshot" title="Screenshot"></a>    </div>
+    
+
+<div class="item-description">
+Imaging the French Revolution—an experiment in digital scholarship—is organized in three sections. In essays, seven scholars— selected for their previous work on revolutionary images—analyze forty-two images of crowds and crowd violence in the French Revolution, a shared on-line archive that provided the starting point for the project. Offering the most relevant examples and comments from an on-line forum that took place during the summer of 2003, discussion highlights an effort by those same…</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Imaging+the+French+Revolution&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F252"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/250.html" class="permalink">For Virginians: Government Matters</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/250.html"><img src="https://20.rrchnm.org/files/square_thumbnails/4f23547d363d043188fd85510444e9ca.jpg" alt="Screenshot" title="Screenshot"></a>    </div>
+    
+
+<div class="item-description">
+For Virginians: Government Matters is a free online teaching and learning resource highlighting active citizen involvement, the impact of state and local government on daily life, and how individuals shape their communities in the Commonwealth.<br />
+For Virginians: Government Matters is a free website with four key features: a Teaching Source Database with introductions and essential questions to offer guidance on how to use those sources critically and tools for annotating and organizing the…</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=For+Virginians%3A+Government+Matters&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F250"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/249.html" class="permalink">Sea of Liberty</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/249.html"><img src="https://20.rrchnm.org/files/square_thumbnails/44bcc85a166c64bc71b9d883d0b1c710.jpg" alt="Screenshot 2014" title="Screenshot 2014"></a>    </div>
+    
+
+<div class="item-description">
+Inspired by the Monticello exhibition, The Boisterous Sea of Liberty, the interactive website Sea of Liberty invites you to: explore documents, letters, artwork, and photographs related to the ideas of liberty, freedom, and self-governance, create digital projects that draw inspiration from the past, and showcase project ideas for others to see and learn from. In addition, educators enjoy access to resources related to teaching with primary sources, teaching historical thinking, and encouraging…</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Sea+of+Liberty&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F249"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/248.html" class="permalink">The Popular Romance Project</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/248.html"><img src="https://20.rrchnm.org/files/square_thumbnails/67451a856bb63f01f485f69bb773c40e.jpg" alt="Screenshot 2014" title="Screenshot 2014"></a>    </div>
+    
+
+<div class="item-description">
+The Popular Romance Project explores the fascinating, often contradictory origins and influences of popular romance as told in novels, films, comics, advice books, songs, and internet fan fiction, taking a global perspective—while looking back across time as far as the ancient Greeks. The Popular Romance Project includes several ambitious, high-profile, carefully integrated programs: a feature-length documentary, Love Between the Covers, for international television broadcast, focusing on the…</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=The+Popular+Romance+Project&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F248"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/245.html" class="permalink">Hidden in Plain Sight</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/245.html"><img src="https://20.rrchnm.org/files/square_thumbnails/481d49535bf6452f2ee9416e7ba024e3.jpg" alt="Screenshot" title="Screenshot"></a>    </div>
+    
+
+<div class="item-description">
+Hidden in Plain Sight is an online course for practicing K-12 teachers in the Commonwealth of Virginia designed to teach about America&#039;s past through everyday objects. This course was created by the Roy Rosenzweig Center for History and New Media (CHNM) at George Mason University with funding from the Virginia Department of Education</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Hidden+in+Plain+Sight&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F245"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+
+<nav class="pagination-nav" aria-label="Pagination">
+    <ul class="pagination">
+                <!-- Previous page link -->
+        <li class="pagination_previous">
+                        <a rel="prev" href="items%3Fpage=22.html">Previous Page</a>
+        </li>
+        
+        <li class="page-input">
+        <form action="items.html" method="get" accept-charset="utf-8">
+        <label>Page<input type="text" name="page" title="Current Page" value="23"></label> of 43        </form>
+        </li>
+
+                <!-- Next page link -->
+        <li class="pagination_next">
+                        <a rel="next" href="items%3Fpage=24.html">Next Page</a>
+        </li>
+            </ul>
+</nav>
+
+
+<div id="outputs">
+    <span class="outputs-label">Output Formats</span>
+                <p id="output-format-list">
+        <a href="https://20.rrchnm.org/items?page=23&amp;output=atom">atom</a>, <a href="https://20.rrchnm.org/items?page=23&amp;output=dcmes-xml">dcmes-xml</a>, <a href="https://20.rrchnm.org/items?page=23&amp;output=json">json</a>, <a href="https://20.rrchnm.org/items?page=23&amp;output=omeka-xml">omeka-xml</a>, <a href="https://20.rrchnm.org/items?page=23&amp;output=rss2">rss2</a>        </p>
+    </div>
+
+
+</div><!-- end content -->
+
+<footer>
+
+    <div id="footer-content" class="center-div">
+                        <nav><ul class="navigation">
+    <li>
+        <a href="about-this-site.html">About</a>
+    </li>
+    <li>
+        <a href="items/browse/type/project.html">Projects</a>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="exhibits.html">Histories</a>
+    </li>
+    <li>
+        <a href="items/browse.html">See it All</a>
+    </li>
+</ul></nav>
+        <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+
+    </div><!-- end footer-content -->
+
+     
+</footer>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        Omeka.showAdvancedForm();
+               Omeka.dropDown();
+    });
+</script>
+
+</body>
+
+</html>

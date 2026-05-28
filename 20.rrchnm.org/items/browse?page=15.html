@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html class="" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+    
+        <title>Browse Items &middot; RRCHNM20</title>
+
+    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://20.rrchnm.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://20.rrchnm.org/items/browse?output=atom" />
+        <!-- Stylesheets -->
+    <link href="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="../plugins/Geolocation/views/shared/css/geolocation-marker.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="../plugins/Html5Media/views/shared/mediaelement/mediaelementplayer.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="../application/views/scripts/css/iconfonts.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="../themes/Berlin/css/style.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >    <!-- JavaScripts -->
+                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="../application/views/scripts/javascripts/vendor/jquery.ui.touch-punch.js"></script>
+<script type="text/javascript">
+    //<!--
+    jQuery.noConflict();    //-->
+</script>
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet-providers.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/map.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="../plugins/Html5Media/views/shared/mediaelement/mediaelement-and-player.min.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="../themes/Berlin/javascripts/vendor/modernizr.js%3Fv=3.0.1"></script>
+<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="/application/views/scripts/javascripts/vendor/selectivizr.js?v=3.0.1"></script><![endif]-->
+<script type="text/javascript" src="../application/views/scripts/javascripts/vendor/respond.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="../themes/Berlin/javascripts/globals.js%3Fv=3.0.1"></script>
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '80']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+ <body class="items browse">
+            <header>
+                        <div id="site-title"><a href="../index.html" ><img src="../files/theme_uploads/4b4fcc995a954f13421b6ad475c4fe3d.png" alt="RRCHNM20" /></a>
+</div>
+
+            <div id="search-container">
+                                <form id="search-form" name="search-form" action="https://20.rrchnm.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search" aria-labelledby="submit_search">        <div id="advanced-form">
+        <fieldset id="query-types">
+            <legend>Search using this query type:</legend>
+            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
+<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
+<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
+                <fieldset id="record-types">
+            <legend>Search only these record types:</legend>
+                        <input type="checkbox" name="record_types[]" id="record_types-Item" value="Item" checked="checked"> <label for="record_types-Item">Item</label><br>
+                        <input type="checkbox" name="record_types[]" id="record_types-File" value="File" checked="checked"> <label for="record_types-File">File</label><br>
+                        <input type="checkbox" name="record_types[]" id="record_types-Collection" value="Collection" checked="checked"> <label for="record_types-Collection">Collection</label><br>
+                    </fieldset>
+                <p><a href="search%3Fpage=15.html">Advanced Search (Items only)</a></p>
+    </div>
+        <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+                            </div>
+        </header>
+
+         <div id="primary-nav">
+             <ul class="navigation">
+    <li>
+        <a href="../about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="../about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="../neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="../exhibits.html">Histories</a>
+    </li>
+    <li class="active">
+        <a href="browse.html">See it All</a>
+    </li>
+</ul>         </div>
+  
+         <div id="mobile-nav">
+             <ul class="navigation">
+    <li>
+        <a href="../about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="../about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="../neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="../exhibits.html">Histories</a>
+    </li>
+    <li class="active">
+        <a href="browse.html">See it All</a>
+    </li>
+</ul>         </div>
+        
+                               
+    <div id="content">
+
+
+<h1>Browse Items (422 total)</h1>
+
+<nav class="items-nav navigation secondary-nav">
+    <ul class="navigation">
+    <li class="active">
+        <a href="browse.html">Browse All</a>
+    </li>
+    <li>
+        <a href="tags.html">Browse by Tag</a>
+    </li>
+    <li>
+        <a href="search.html">Search Items</a>
+    </li>
+    <li>
+        <a href="map.html">Browse Map</a>
+    </li>
+</ul></nav>
+
+
+<nav class="pagination-nav" aria-label="Pagination">
+    <ul class="pagination">
+                <!-- Previous page link -->
+        <li class="pagination_previous">
+                        <a rel="prev" href="browse%3Fpage=14.html">Previous Page</a>
+        </li>
+        
+        <li class="page-input">
+        <form action="browse.html" method="get" accept-charset="utf-8">
+        <label>Page<input type="text" name="page" title="Current Page" value="15"></label> of 43        </form>
+        </li>
+
+                <!-- Next page link -->
+        <li class="pagination_next">
+                        <a rel="next" href="browse%3Fpage=16.html">Next Page</a>
+        </li>
+            </ul>
+</nav>
+
+
+
+<div id="sort-links">
+    <span class="sort-label">Sort by: </span><ul id="sort-links-list"><li  ><a href="https://20.rrchnm.org/items/browse?page=15&amp;sort_field=Dublin+Core%2CTitle">Title <span aria-label="Sort ascending" title="Sort ascending"></span></a></li><li  ><a href="https://20.rrchnm.org/items/browse?page=15&amp;sort_field=Dublin+Core%2CCreator">Creator <span aria-label="Sort ascending" title="Sort ascending"></span></a></li><li class="sorting desc" ><a href="https://20.rrchnm.org/items/browse?page=15&amp;sort_field=added&amp;sort_dir=a">Date Added <span aria-label="Sorting descending" title="Sorting descending"></span></a></li></ul></div>
+
+
+<div class="item hentry">
+    <h3><a href="show/341.html" class="permalink">CHNM Website December 2004</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/341.html"><img src="https://20.rrchnm.org/files/square_thumbnails/fdbcc044da132a9d9f9fd90d8c9a2b16.jpg" alt="CHNM Website December 2004, with 10th anniversary logo" title="CHNM Website December 2004, with 10th anniversary logo"></a>    </div>
+    
+
+<div class="item-description">
+A screenshot of the CHNM website homepage from December 2004, with the 10th anniversary logo.</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.description=A+screenshot+of+the+CHNM+website+homepage+from+December+2004%2C+with+the+10th+anniversary+logo.&amp;rft.title=CHNM+Website+December+2004&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F341"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/340.html" class="permalink">CHNM Website 1998</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/340.html"><img src="https://20.rrchnm.org/files/square_thumbnails/b4f614e895e4d40a8ab40f6380a9b653.jpg" alt="CHNM site_01_28_1968.tiff" title="CHNM site_01_28_1968.tiff"></a>    </div>
+    
+
+<div class="item-description">
+A screenshot of the CHNM website homepage from January 1998.</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.description=A+screenshot+of+the+CHNM+website+homepage+from+January+1998.&amp;rft.publisher=Internet+Archive+Wayback+machine&amp;rft.date=01%2F28%2F1998&amp;rft.title=CHNM+Website+1998&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F340"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/339.html" class="permalink">SmartFox: the Scholar’s Browser for Digital Collections </a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/339.html"><img src="https://20.rrchnm.org/files/square_thumbnails/f703638afc2857e1b1361cc257550d38.jpg" alt="zotero_512x512x32.png" title="zotero_512x512x32.png"></a>    </div>
+    
+
+<div class="item-description">
+SmartFox, a set of tools incorporated into popular, open, and free web software, will address these major problems by creating a web browser that is “smarter” in two key ways. First, one tool will enable the browser to intelligently sense when its user is viewing a digital library or museum object; this will allow the browser to capture information from the page automatically, such as the creator, title, date of creation, and copyright information. Second, another tool will store and organize…</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=SmartFox%3A+the+Scholar%E2%80%99s+Browser+for+Digital+Collections+&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F339"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/338.html" class="permalink">September 11 Digital Archive: Collecting, Preserving and Presenting the Past</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/338.html"><img src="https://20.rrchnm.org/files/square_thumbnails/d8bf093ffcf639894fa7b7507dcf7fbc.jpg" alt="911_sticker.png" title="911_sticker.png"></a>    </div>
+    
+
+<div class="item-description">
+The September 11 Digital Archive will play a key role in the use of electronic media to collect, preserve and present the history of the September 11 attacks and the public responses.</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=September+11+Digital+Archive%3A+Collecting%2C+Preserving+and+Presenting+the+Past&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F338"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/337.html" class="permalink">Thomas Jefferson Foundation</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/337.html"><img src="https://20.rrchnm.org/files/square_thumbnails/5420deb3fe419188fc02374a3a32baf6.jpg" alt="TJF.tiff" title="TJF.tiff"></a>    </div>
+    
+
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Thomas+Jefferson+Foundation&amp;rft.type=Funding+Organization&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F337"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/336.html" class="permalink">Scholarship in the Age of Abundance: Enhancing Historical Research with Text-Mining and Analysis Tools</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/336.html"><img src="https://20.rrchnm.org/files/square_thumbnails/9709f80e4c455c44ba2fe4516f22bd13.jpg" alt="Scholarship in the Age of Abundance Proposal Narrative" title="Scholarship in the Age of Abundance Proposal Narrative"></a>    </div>
+    
+
+<div class="item-description">
+This project gathers information about how digital resources are being currently used, seeks to make them easier to use in more sophisticated ways, and exemplifies some promising approaches to text mining and analysis.</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Scholarship+in+the+Age+of+Abundance%3A+Enhancing+Historical+Research+with+Text-Mining+and+Analysis+Tools&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F336"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/335.html" class="permalink">Carnegie Corporation of New York</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/335.html"><img src="https://20.rrchnm.org/files/square_thumbnails/f3c2ba06a2d7f5de0c912351a339f777.jpg" alt="Carnegie.tiff" title="Carnegie.tiff"></a>    </div>
+    
+
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Carnegie+Corporation+of+New+York&amp;rft.type=Funding+Organization&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F335"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/333.html" class="permalink">Connecticut History Online</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/333.html"><img src="https://20.rrchnm.org/files/square_thumbnails/30ee3e4df09272ddcc2188be9c7fb5bc.jpg" alt="CHO.tiff" title="CHO.tiff"></a>    </div>
+    
+
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Connecticut+History+Online&amp;rft.type=Partner&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F333"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/332.html" class="permalink">Connecticut Explored</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/332.html"><img src="https://20.rrchnm.org/files/square_thumbnails/d11eb3b890fd553f861ec450aa014d9f.jpg" alt="Explored.tiff" title="Explored.tiff"></a>    </div>
+    
+
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Connecticut+Explored&amp;rft.type=Partner&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F332"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/331.html" class="permalink">Connecticut Council for the Social Studies</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/331.html"><img src="https://20.rrchnm.org/files/square_thumbnails/57cf7b8d53e8ff07ccec96ad16365f19.jpg" alt="CCSS.tiff" title="CCSS.tiff"></a>    </div>
+    
+
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Connecticut+Council+for+the+Social+Studies&amp;rft.type=Partner&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F331"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+
+<nav class="pagination-nav" aria-label="Pagination">
+    <ul class="pagination">
+                <!-- Previous page link -->
+        <li class="pagination_previous">
+                        <a rel="prev" href="browse%3Fpage=14.html">Previous Page</a>
+        </li>
+        
+        <li class="page-input">
+        <form action="browse.html" method="get" accept-charset="utf-8">
+        <label>Page<input type="text" name="page" title="Current Page" value="15"></label> of 43        </form>
+        </li>
+
+                <!-- Next page link -->
+        <li class="pagination_next">
+                        <a rel="next" href="browse%3Fpage=16.html">Next Page</a>
+        </li>
+            </ul>
+</nav>
+
+
+<div id="outputs">
+    <span class="outputs-label">Output Formats</span>
+                <p id="output-format-list">
+        <a href="https://20.rrchnm.org/items/browse?page=15&amp;output=atom">atom</a>, <a href="https://20.rrchnm.org/items/browse?page=15&amp;output=dcmes-xml">dcmes-xml</a>, <a href="https://20.rrchnm.org/items/browse?page=15&amp;output=json">json</a>, <a href="https://20.rrchnm.org/items/browse?page=15&amp;output=omeka-xml">omeka-xml</a>, <a href="https://20.rrchnm.org/items/browse?page=15&amp;output=rss2">rss2</a>        </p>
+    </div>
+
+
+</div><!-- end content -->
+
+<footer>
+
+    <div id="footer-content" class="center-div">
+                        <nav><ul class="navigation">
+    <li>
+        <a href="../about-this-site.html">About</a>
+    </li>
+    <li>
+        <a href="browse/type/project.html">Projects</a>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="../exhibits.html">Histories</a>
+    </li>
+    <li class="active">
+        <a href="browse.html">See it All</a>
+    </li>
+</ul></nav>
+        <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+
+    </div><!-- end footer-content -->
+
+     
+</footer>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        Omeka.showAdvancedForm();
+               Omeka.dropDown();
+    });
+</script>
+
+</body>
+
+</html>

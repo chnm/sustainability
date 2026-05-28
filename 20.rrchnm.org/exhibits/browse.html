@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html class="" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+    
+        <title>Browse Exhibits &middot; RRCHNM20</title>
+
+    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://20.rrchnm.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://20.rrchnm.org/items/browse?output=atom" />
+        <!-- Stylesheets -->
+    <link href="../plugins/ExhibitBuilder/views/public/css/exhibits.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="../plugins/Geolocation/views/shared/css/geolocation-marker.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="../plugins/Html5Media/views/shared/mediaelement/mediaelementplayer.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="../application/views/scripts/css/iconfonts.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="../themes/Berlin/css/style.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >    <!-- JavaScripts -->
+                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="../application/views/scripts/javascripts/vendor/jquery.ui.touch-punch.js"></script>
+<script type="text/javascript">
+    //<!--
+    jQuery.noConflict();    //-->
+</script>
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet-providers.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/map.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="../plugins/Html5Media/views/shared/mediaelement/mediaelement-and-player.min.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="../themes/Berlin/javascripts/vendor/modernizr.js%3Fv=3.0.1"></script>
+<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="/application/views/scripts/javascripts/vendor/selectivizr.js?v=3.0.1"></script><![endif]-->
+<script type="text/javascript" src="../application/views/scripts/javascripts/vendor/respond.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="../themes/Berlin/javascripts/globals.js%3Fv=3.0.1"></script>
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '80']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+ <body class="exhibits browse">
+            <header>
+                        <div id="site-title"><a href="../index.html" ><img src="../files/theme_uploads/4b4fcc995a954f13421b6ad475c4fe3d.png" alt="RRCHNM20" /></a>
+</div>
+
+            <div id="search-container">
+                                <form id="search-form" name="search-form" action="https://20.rrchnm.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search" aria-labelledby="submit_search">        <div id="advanced-form">
+        <fieldset id="query-types">
+            <legend>Search using this query type:</legend>
+            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
+<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
+<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
+                <fieldset id="record-types">
+            <legend>Search only these record types:</legend>
+                        <input type="checkbox" name="record_types[]" id="record_types-Item" value="Item" checked="checked"> <label for="record_types-Item">Item</label><br>
+                        <input type="checkbox" name="record_types[]" id="record_types-File" value="File" checked="checked"> <label for="record_types-File">File</label><br>
+                        <input type="checkbox" name="record_types[]" id="record_types-Collection" value="Collection" checked="checked"> <label for="record_types-Collection">Collection</label><br>
+                    </fieldset>
+                <p><a href="../items/search.html">Advanced Search (Items only)</a></p>
+    </div>
+        <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+                            </div>
+        </header>
+
+         <div id="primary-nav">
+             <ul class="navigation">
+    <li>
+        <a href="../about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="../about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="../items/browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="../neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li class="active">
+        <a href="../exhibits.html">Histories</a>
+    </li>
+    <li>
+        <a href="../items/browse.html">See it All</a>
+    </li>
+</ul>         </div>
+  
+         <div id="mobile-nav">
+             <ul class="navigation">
+    <li>
+        <a href="../about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="../about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="../items/browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="../neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li class="active">
+        <a href="../exhibits.html">Histories</a>
+    </li>
+    <li>
+        <a href="../items/browse.html">See it All</a>
+    </li>
+</ul>         </div>
+        
+                               
+    <div id="content">
+
+<h1>Browse Exhibits (9 total)</h1>
+
+<nav class="navigation secondary-nav">
+    <ul class="navigation">
+    <li class="active">
+        <a href="../exhibits.html">Browse All</a>
+    </li>
+    <li>
+        <a href="tags.html">Browse by Tag</a>
+    </li>
+</ul></nav>
+
+
+        <div class="exhibit  even">
+        <h2><a href="show/websites.html" >CHNM Website Through the Years</a></h2>
+                    <a href="show/websites.html" class="image"><img src="https://20.rrchnm.org/files/square_thumbnails/b4f614e895e4d40a8ab40f6380a9b653.jpg" alt="CHNM site_01_28_1968.tiff" title="CHNM site_01_28_1968.tiff"></a>                        <div class="description"><p>Showcases the aesthetics of the CHNM website from 1998 through today. </p></div>
+                    </div>
+        <div class="exhibit  odd">
+        <h2><a href="show/september-11-digital-archive.html" >September 11 Digital Archive</a></h2>
+                    <a href="show/september-11-digital-archive.html" class="image"><img src="https://20.rrchnm.org/files/square_thumbnails/daae6d971b6f0007783a67241a1b770c.jpg" alt="Blackout History Project Home Page.png" title="Blackout History Project Home Page.png"></a>                        <div class="description"><p>In response to the terrible events of Septemeber 11th, <a href="http://ashp.cuny.edu">the American Social History Project</a> at the City University of New York Graduate <a href="http://chnm.gmu.edu">Center and the Center for History</a> and New Media at George Mason University created the <em>September 11 Digital Archive</em>. Its purpose is to collect, preserve, and present the history of the attacks on New York, Pennsylvania and Virginia. Funded by the <a href="http://www.sloan.org">Alred P. Sloan Foundation,</a> the Digital Archive will also provde a way of assessing how history is being recorded and preserved in the twenty-first century. <br /><br />This exhibit attempts to provide context for the <em>September 11 Digital Archive.</em> How does the digital archive "fit" into the story that is CHNM? How has it been influenced by prior projects and how has it lead the center towards new projects? In this way, the exhibit is more on the Center for History and New Media and its story as it relates to the <em>September 11 Digital Archive</em>.</p></div>
+                    </div>
+        <div class="exhibit  even">
+        <h2><a href="show/timeline.html" >Timeline of CHNM Projects, DH Centers, Technologies, Scholarship, &amp; Blogs</a></h2>
+                    <a href="show/timeline.html" class="image"><img src="https://20.rrchnm.org/files/square_thumbnails/4cba6cbf40bb20bc9a2c30ed65829024.jpg" alt="line mode browser.png" title="line mode browser.png"></a>                        <div class="description"><p><iframe src="http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0Ag-HnozGlIDUdEZlOHFjZ3dpVnhnWmFUcmpZbEF4WEE&amp;font=Bevan-PotanoSans&amp;maptype=toner&amp;lang=en&amp;height=650" frameborder="0" width="100%" height="650"></iframe></p></div>
+                    </div>
+        <div class="exhibit  odd">
+        <h2><a href="show/pwd.html" >Papers of the War Department 1784-1800</a></h2>
+                    <a href="show/pwd.html" class="image"><img src="https://20.rrchnm.org/files/square_thumbnails/64e69411a42550695121d25bbcb98495.jpg" alt="RRCHNM_sign_500px.jpg" title="RRCHNM_sign_500px.jpg"></a>                        <div class="description"><p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://drive.google.com/thumbnail?id=0B4Z1m7sqOJ9jOGR5TFJ3TDY3YTA&amp;authuser=0&amp;v=1461255425205&amp;sz=w967-h752" alt="" width="448" height="161" /> <br />On November 8, 1800 the War Office experienced a fire which destroyed the papers, records, and books contained there. The history of the War Department from 1784-1800 was thought to have been lost for two centuries. The Papers of the War Department has brought together these once lost documents into one freely accessible online collection.</p>
+<p>Without the Papers of the War Department, these documents which constitute the first archive of the Unted States, would have remained scattered accross hundreds of archives and collections. With the original leadership of Ted Crackel and later the staff at RRCHNM, these important documents which help researchers discover the country's beginning are now easily accessible.</p></div>
+                        <p class="tags"><a href="../exhibits%3Ftags=papers+of+the+ward+department.html" rel="tag">papers of the ward department</a>, <a href="../exhibits%3Ftags=pwd.html" rel="tag">pwd</a>, <a href="../exhibits%3Ftags=scripto.html" rel="tag">scripto</a></p>
+            </div>
+        <div class="exhibit  even">
+        <h2><a href="show/history-matters.html" >History Matters</a></h2>
+                    <a href="show/history-matters.html" class="image"><img src="https://20.rrchnm.org/files/square_thumbnails/ba47f529ab496887764669a773d514fd.jpg" alt="Screen Shot 2016-05-01 at 9.47.56 PM.png" title="Screen Shot 2016-05-01 at 9.47.56 PM.png"></a>                        <div class="description"><p>History Matters arose from the CD-Rom <em>Who Built America </em>and led to the development of<em> Teaching History, World History Matters, Children in world history, the Making of 1989, </em>and<em> Teaching American Histor</em>y. The importance of teacher training to make more substantial use of these source materials is a sometimes overlooked part of the project.&nbsp;</p>
+<p>In 1998 when it was invisioned, access to primary sources alone was very significant. &nbsp;The focus of putting evidence of the life of ordinary people was a outgrowth of ASHP and Roy's interests and multi-media was particularly suited to the focus on history form the ground up and promoting critical historical thinking.</p></div>
+                    </div>
+        <div class="exhibit  odd">
+        <h2><a href="show/the-lost-museum.html" >The Lost Museum</a></h2>
+                    <a href="show/the-lost-museum.html" class="image"><img src="https://20.rrchnm.org/files/square_thumbnails/c97cb7ba95314f3f3e1ad10c11d12468.jpg" alt="The Picture Gallery" title="The Picture Gallery"></a>                        <div class="description"><p><em>The Lost Museum</em>&nbsp;is an online historical game built between 2000-2005 through a collaboration between the <a href="http://rrchnm.org/">Roy Rosenzweig Center for History and New Media</a>&nbsp;at George Mason Univeristy and the <a href="https://ashp.cuny.edu/">American Social History Project</a>&nbsp;at City University of New York. The game guides users through an immersive, 3-D re-creation of P.T. Barnum's American Museum. In 1865, Barnum's museum was burned down and the crime went unsolved. Players of <em>The Lost Museum</em>&nbsp;are asked to investigate potential arson suspects as they travel through four rooms in the museum and consult various sources in a historical database. By attempting to solve the mystery, players gain a better understanding of the social, poltiical, and cultural landscape of 19th century life.</p>
+<p><em>The Lost Museum</em>&nbsp;was part of a moment in the late-1990s and early-2000s when new media, particularly in the form of CD-ROMs and the World Wide Web, made possible new and creative forms of historical storytelling. This exhibit explores the imagining, funding, and building of&nbsp;<em>The Lost Museum</em>, and considers the role of historical gaming in the digital humanities today.</p>
+<p>This project owes much to a compilation of publicity for and reflections about&nbsp;<em>The Lost Museum</em>&nbsp;that can be found <a href="http://lostmuseum.cuny.edu/about.php">on this page</a>. The holes that couldn't be filled by those sources were filled by <a href="https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Doctoral-Programs/History/Faculty-Bios/Joshua-Brown">Josh Brown</a>, executive producer of the project, who shared with me his time and insight into the development of&nbsp;<em>The Lost Museum.</em></p>
+<p>Play the game <a href="http://lostmuseum.cuny.edu/">here</a>, or continue to the first section of this exhibit, <a href="show/the-lost-museum/early-collaboration-and-web-de.html">Imagining The Lost Museum</a>.</p></div>
+                    </div>
+        <div class="exhibit  even">
+        <h2><a href="show/ooh.html" >The Object of History</a></h2>
+                    <a href="show/ooh.html" class="image"><img src="https://20.rrchnm.org/files/square_thumbnails/cdba8d27da9eae7c2eb82637e8a5b2ce.jpg" alt="Object of History Main Page Screenshot" title="Object of History Main Page Screenshot"></a>                        <div class="description"><p dir="ltr">Between 2005 and 2008, Smithsonian&rsquo;s National Museum of American History (<a href="http://americanhistory.si.edu/" target="_self">NMAH</a>) and George Mason University&rsquo;s Center for History and New Media (<a href="http://rrchnm.org/" target="_self">CHNM</a>) collaborated to produce the Object of History <a href="../items/show/202.html" target="_self">project</a>: a low-cost online resource for teachers and students of U.S. history to develop an understanding of material culture as historical evidence.</p>
+<p><span id="docs-internal-guid-7d9e0f6c-927a-df8e-4547-36e972a70fc8"><a href="http://objectofhistory.org/">The Object of History</a> provides online access to six objects from NMAH&rsquo;s collections through interactive &ldquo;3D&rdquo; photographs, contextual information, related historical documents, and relevant resource links for each object. The site also connects teachers and students with the expertise of curators and historians through interviews about each object and its historical context. Additionally, the project serves small museums seeking to enhance their online educational programming by providing a free and easy-to-use <a href="http://objectofhistory.org/demo/OOH_Omeka_Guide.pdf" target="_self">template</a> for creating their own versions of the Object of History.</span></p></div>
+                    </div>
+        <div class="exhibit  odd">
+        <h2><a href="show/making1989.html" >Making the History of 1989</a></h2>
+                    <a href="show/making1989.html" class="image"><img src="https://20.rrchnm.org/files/square_thumbnails/64e69411a42550695121d25bbcb98495.jpg" alt="RRCHNM_sign_500px.jpg" title="RRCHNM_sign_500px.jpg"></a>                        <div class="description"><p><em>Making the History of 1989</em> was launched in 2009 by George Mason University's Roy Rosenzweig Center for History and New Media (then known as the <span>Center for History and New Media)</span>. The project was conceived as a means of teaching high school and college students the revolutionary events which preceded the fall of the Soviet Union. <em>Making the History 1989</em> showcases source materials covering Eastern Europe's social, cultural and political events and their global impact. The project was designed to teach students how history is made by historians, how evidence is analyzed and how narratives are crafted.</p></div>
+                    </div>
+        <div class="exhibit  even">
+        <h2><a href="show/histories-of-the-national-mall.html" >Histories of the National Mall</a></h2>
+                    <a href="show/histories-of-the-national-mall.html" class="image"><img src="https://20.rrchnm.org/files/square_thumbnails/10e9e69db88a919150254f5002cf9f3b.jpg" alt="card.tiff" title="card.tiff"></a>                        <div class="description"><p>Each year, over 25,000,000 people visit the National Mall. These visitors experience what seems to be a deliberately planned landscape connecting the museums, monuments, and memorials that celebrate the history of the United States. However, the Mall has a hidden history as a contested public space, and there is little publicly available information on the landscape itself to inform visitors of its evolution through time.</p>
+<p>The <a href="https://rrchnm.org/">Roy Rosenzweig Center for History and New Media</a>, funded by a $304,565 grant from the <a href="https://www.neh.gov/">National Endowment for the Humanities</a>, created the <a href="http://mallhistory.org/">Histories of the National Mall</a> project to connect Mall visitors with this landscape&rsquo;s invisible history.</p>
+<p><img src="https://i0.wp.com/mallhistory.org/Guide/wp-content/uploads/2015/08/canal-capitol.jpg" alt="Capitol" width="300" height="250" /></p>
+<div>&nbsp;</div></div>
+                    </div>
+
+
+
+</div><!-- end content -->
+
+<footer>
+
+    <div id="footer-content" class="center-div">
+                        <nav><ul class="navigation">
+    <li>
+        <a href="../about-this-site.html">About</a>
+    </li>
+    <li>
+        <a href="../items/browse/type/project.html">Projects</a>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li class="active">
+        <a href="../exhibits.html">Histories</a>
+    </li>
+    <li>
+        <a href="../items/browse.html">See it All</a>
+    </li>
+</ul></nav>
+        <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+
+    </div><!-- end footer-content -->
+
+     
+</footer>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        Omeka.showAdvancedForm();
+               Omeka.dropDown();
+    });
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html class="" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+    
+        <title>Browse Items &middot; RRCHNM20</title>
+
+    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://20.rrchnm.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://20.rrchnm.org/items/browse?output=atom" />
+        <!-- Stylesheets -->
+    <link href="plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="plugins/Geolocation/views/shared/css/geolocation-marker.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="plugins/Html5Media/views/shared/mediaelement/mediaelementplayer.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="application/views/scripts/css/iconfonts.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="themes/Berlin/css/style.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >    <!-- JavaScripts -->
+                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="application/views/scripts/javascripts/vendor/jquery.ui.touch-punch.js"></script>
+<script type="text/javascript">
+    //<!--
+    jQuery.noConflict();    //-->
+</script>
+<script type="text/javascript" src="plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="plugins/Geolocation/views/shared/javascripts/leaflet/leaflet-providers.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="plugins/Geolocation/views/shared/javascripts/map.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="plugins/Html5Media/views/shared/mediaelement/mediaelement-and-player.min.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="themes/Berlin/javascripts/vendor/modernizr.js%3Fv=3.0.1"></script>
+<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="/application/views/scripts/javascripts/vendor/selectivizr.js?v=3.0.1"></script><![endif]-->
+<script type="text/javascript" src="application/views/scripts/javascripts/vendor/respond.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="themes/Berlin/javascripts/globals.js%3Fv=3.0.1"></script>
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '80']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+ <body class="items browse">
+            <header>
+                        <div id="site-title"><a href="index.html" ><img src="files/theme_uploads/4b4fcc995a954f13421b6ad475c4fe3d.png" alt="RRCHNM20" /></a>
+</div>
+
+            <div id="search-container">
+                                <form id="search-form" name="search-form" action="https://20.rrchnm.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search" aria-labelledby="submit_search">        <div id="advanced-form">
+        <fieldset id="query-types">
+            <legend>Search using this query type:</legend>
+            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
+<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
+<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
+                <fieldset id="record-types">
+            <legend>Search only these record types:</legend>
+                        <input type="checkbox" name="record_types[]" id="record_types-Item" value="Item" checked="checked"> <label for="record_types-Item">Item</label><br>
+                        <input type="checkbox" name="record_types[]" id="record_types-File" value="File" checked="checked"> <label for="record_types-File">File</label><br>
+                        <input type="checkbox" name="record_types[]" id="record_types-Collection" value="Collection" checked="checked"> <label for="record_types-Collection">Collection</label><br>
+                    </fieldset>
+                <p><a href="items/search%3Fpage=10.html">Advanced Search (Items only)</a></p>
+    </div>
+        <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+                            </div>
+        </header>
+
+         <div id="primary-nav">
+             <ul class="navigation">
+    <li>
+        <a href="about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="items/browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="exhibits.html">Histories</a>
+    </li>
+    <li>
+        <a href="items/browse.html">See it All</a>
+    </li>
+</ul>         </div>
+  
+         <div id="mobile-nav">
+             <ul class="navigation">
+    <li>
+        <a href="about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="items/browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="exhibits.html">Histories</a>
+    </li>
+    <li>
+        <a href="items/browse.html">See it All</a>
+    </li>
+</ul>         </div>
+        
+                               
+    <div id="content">
+
+
+<h1>Browse Items (422 total)</h1>
+
+<nav class="items-nav navigation secondary-nav">
+    <ul class="navigation">
+    <li>
+        <a href="items/browse.html">Browse All</a>
+    </li>
+    <li>
+        <a href="items/tags.html">Browse by Tag</a>
+    </li>
+    <li>
+        <a href="items/search.html">Search Items</a>
+    </li>
+    <li>
+        <a href="items/map.html">Browse Map</a>
+    </li>
+</ul></nav>
+
+
+<nav class="pagination-nav" aria-label="Pagination">
+    <ul class="pagination">
+                <!-- Previous page link -->
+        <li class="pagination_previous">
+                        <a rel="prev" href="items%3Fpage=9.html">Previous Page</a>
+        </li>
+        
+        <li class="page-input">
+        <form action="items.html" method="get" accept-charset="utf-8">
+        <label>Page<input type="text" name="page" title="Current Page" value="10"></label> of 43        </form>
+        </li>
+
+                <!-- Next page link -->
+        <li class="pagination_next">
+                        <a rel="next" href="items%3Fpage=11.html">Next Page</a>
+        </li>
+            </ul>
+</nav>
+
+
+
+<div id="sort-links">
+    <span class="sort-label">Sort by: </span><ul id="sort-links-list"><li  ><a href="https://20.rrchnm.org/items?page=10&amp;sort_field=Dublin+Core%2CTitle">Title <span aria-label="Sort ascending" title="Sort ascending"></span></a></li><li  ><a href="https://20.rrchnm.org/items?page=10&amp;sort_field=Dublin+Core%2CCreator">Creator <span aria-label="Sort ascending" title="Sort ascending"></span></a></li><li class="sorting desc" ><a href="https://20.rrchnm.org/items?page=10&amp;sort_field=added&amp;sort_dir=a">Date Added <span aria-label="Sorting descending" title="Sorting descending"></span></a></li></ul></div>
+
+
+<div class="item hentry">
+    <h3><a href="items/show/395.html" class="permalink">Omeka developer meeting</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/395.html"><img src="https://20.rrchnm.org/files/square_thumbnails/5c9a38c557f1f34009f6d22d1b090aa3.jpg" alt="developers_corneroffice.jpg" title="developers_corneroffice.jpg"></a>    </div>
+    
+
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Jeremy+Boggs&amp;rft.date=2009&amp;rft.title=Omeka+developer+meeting&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F395"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/394.html" class="permalink">&quot;CHNM Suspects&quot; team t-shirt</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/394.html"><img src="https://20.rrchnm.org/files/square_thumbnails/f0847535841e804361a1c6e2239f824f.jpg" alt="chnmsuspectsv2.jpg" title="chnmsuspectsv2.jpg"></a>    </div>
+    
+
+<div class="item-description">
+T-shirt design by Jeremy Boggs for the 2006 GMU Victims&#039; Rights 5k Team </div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.description=T-shirt+design+by+Jeremy+Boggs+for+the+2006+GMU+Victims%27+Rights+5k+Team+&amp;rft.date=April+2006&amp;rft.title=%22CHNM+Suspects%22+team+t-shirt&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F394"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/393.html" class="permalink">&quot;Sound of CHNM&quot; team t-shirt </a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/393.html"><img src="https://20.rrchnm.org/files/square_thumbnails/23f0529bd1b0f7aee15d656ab1a19e35.jpg" alt="SOUNDofCHNM150.jpg" title="SOUNDofCHNM150.jpg"></a>    </div>
+    
+
+<div class="item-description">
+Designed by Rustin Crandall as the CHNM team t-shirt for the GMU Victims&#039; Rights 5K in April, 2005.</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.description=Designed+by+Rustin+Crandall+as+the+CHNM+team+t-shirt+for+the+GMU+Victims%27+Rights+5K+in+April%2C+2005.&amp;rft.date=April+2005&amp;rft.title=%22Sound+of+CHNM%22+team+t-shirt+&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F393"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/392.html" class="permalink">Zotero 1.0 Planning</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/392.html"><img src="https://20.rrchnm.org/files/square_thumbnails/2ed17304d5c6658896e227bca07f86ce.jpg" alt="CIMG1048.jpg" title="CIMG1048.jpg"></a>    </div>
+    
+
+<div class="item-description">
+Brainstorming session during Zotero&#039;s initial beta period. From left: Dan Cohen, Josh Greenberg, Simon Kornblith, Roy Rosenzweig, Dan Stillman, Sean Takats, Trevor Owens, Matt Eaton</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.contributor=Sean+Takats&amp;rft.subject=zotero&amp;rft.description=Brainstorming+session+during+Zotero%27s+initial+beta+period.+From+left%3A+Dan+Cohen%2C+Josh+Greenberg%2C+Simon+Kornblith%2C+Roy+Rosenzweig%2C+Dan+Stillman%2C+Sean+Takats%2C+Trevor+Owens%2C+Matt+Eaton&amp;rft.date=2007&amp;rft.title=Zotero+1.0+Planning&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F392"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/390.html" class="permalink">Emiglio Promoting THATCamp</a></h3>
+    <div class="item-meta">
+    
+
+<div class="item-description">
+Stop motion of Emiglio robot dancing in the Robot Room. </div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.description=Stop+motion+of+Emiglio+robot+dancing+in+the+Robot+Room.+&amp;rft.date=Probably+on+a+Friday&amp;rft.title=Emiglio+Promoting+THATCamp&amp;rft.type=videoRecording&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F390"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/389.html" class="permalink">Kool-Aid Man is Jeremy Boggs </a></h3>
+    <div class="item-meta">
+    
+
+<div class="item-description">
+A mash-up of an old Kool-Aid commercial where Jeremy Boggs briefly plays the role of the Kool-Aid man. Youtube user &quot;takats&quot; commented &quot;This genius commercial is clearly the work of Esteban Spielbergo, the Steven Spielberg of Mexico. P.S. At least 90% of the views are me.&quot; and user &quot;Tad Suiter&quot; commented &quot;Dude, that&#039;s hilarious.&quot;  By 2014 the video had recieved 630 views, 4 thumbs up and 0 thumbs down on YouTube&quot; CC-BY -&gt; Trevor Owens</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.description=A+mash-up+of+an+old+Kool-Aid+commercial+where+Jeremy+Boggs+briefly+plays+the+role+of+the+Kool-Aid+man.+Youtube+user+%22takats%22+commented+%22This+genius+commercial+is+clearly+the+work+of+Esteban+Spielbergo%2C+the+Steven+Spielberg+of+Mexico.+P.S.+At+least+90%25+of+the+views+are+me.%22+and+user+%22Tad+Suiter%22+commented+%22Dude%2C+that%27s+hilarious.%22++By+2014+the+video+had+recieved+630+views%2C+4+thumbs+up+and+0+thumbs+down+on+YouTube%22+CC-BY+-%3E+Trevor+Owens&amp;rft.date=March+25%2C+2010+4%3A50+PM&amp;rft.title=Kool-Aid+Man+is+Jeremy+Boggs+&amp;rft.type=videoRecording&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F389"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/388.html" class="permalink">Registration at THATcamp 2008</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/388.html"><img src="https://20.rrchnm.org/files/square_thumbnails/43d7da5a5fcbb680333aca53da5fa1dd.jpg" alt="2539040350_82bce06d55_o.jpg" title="2539040350_82bce06d55_o.jpg"></a>    </div>
+    
+
+<div class="item-description">
+Trevor Owens and Dave Lester are behind the registration desk, Patrick Murray John is visible in the distance, Jason Rodhy is standing with his back to the camera, Lisa Spiro is visible on the right side of the photo. CC-BY Finn Arne Jørgensen</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.description=Trevor+Owens+and+Dave+Lester+are+behind+the+registration+desk%2C+Patrick+Murray+John+is+visible+in+the+distance%2C+Jason+Rodhy+is+standing+with+his+back+to+the+camera%2C+Lisa+Spiro+is+visible+on+the+right+side+of+the+photo.+CC-BY+Finn+Arne+J%C3%B8rgensen&amp;rft.date=May+31%2C+2008&amp;rft.title=Registration+at+THATcamp+2008&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F388"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/386.html" class="permalink">Planning THATcamp 2008</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/386.html"><img src="https://20.rrchnm.org/files/square_thumbnails/e77a40670bd720554ec64dda6ae121be.jpg" alt="2537703427_6142a48f9f_o.jpg" title="2537703427_6142a48f9f_o.jpg"></a>    </div>
+    
+
+<div class="item-description">
+Pictured (left to right) Jeremy Boggs, Tom Scheinfeldt, Ken Albers, Dave Lester.  CC-BY -&gt; Finn Arne Jørgensen</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.description=Pictured+%28left+to+right%29+Jeremy+Boggs%2C+Tom+Scheinfeldt%2C+Ken+Albers%2C+Dave+Lester.++CC-BY+-%3E+Finn+Arne+J%C3%B8rgensen&amp;rft.date=May+30%2C+2008&amp;rft.title=Planning+THATcamp+2008&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F386"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/385.html" class="permalink">Presenting Zotero at Educause 2007</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/385.html"><img src="https://20.rrchnm.org/files/square_thumbnails/2834aca45bad8c806fe75afc31f6c84d.jpg" alt="1857670294_0f59f7d9d3_o.jpg" title="1857670294_0f59f7d9d3_o.jpg"></a>    </div>
+    
+
+<div class="item-description">
+A photo of Trevor Owens presenting &quot;There Has to Be a Better Way: Zotero and Research 2.0&quot; to a packed session at Educause in October of 2007 in Seattle WA. As the primary educational technology conference for higher education institutions this talk played a significant role in further getting the word out about Zotero to this community. </div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.description=A+photo+of+Trevor+Owens+presenting+%22There+Has+to+Be+a+Better+Way%3A+Zotero+and+Research+2.0%22+to+a+packed+session+at+Educause+in+October+of+2007+in+Seattle+WA.+As+the+primary+educational+technology+conference+for+higher+education+institutions+this+talk+played+a+significant+role+in+further+getting+the+word+out+about+Zotero+to+this+community.+&amp;rft.date=October+25%2C+2007&amp;rft.title=Presenting+Zotero+at+Educause+2007&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F385"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/384.html" class="permalink">Working on WBA2: Brown, Rosenzweig, &amp; Brier</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/384.html"><img src="https://20.rrchnm.org/files/square_thumbnails/7e19f90f2686791c012908b6485a4e5d.jpg" alt="JB-RR-SB1997024.jpg" title="JB-RR-SB1997024.jpg"></a>    </div>
+    
+
+<div class="item-description">
+This photo of Josh Brown, Roy Rosenzweig, and Steve Brier was taken by our editor during (I&#039;m pretty sure) the summer of 1997 at a meeting at Worth Publishers. At the time, we were working on both the second edition of the Who Built America? book and the second CD-ROM, Who Built America? From the Great War of 1914 to the Dawn of the Atomic Age (both published in 2000).</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.description=This+photo+of+Josh+Brown%2C+Roy+Rosenzweig%2C+and+Steve+Brier+was+taken+by+our+editor+during+%28I%27m+pretty+sure%29+the+summer+of+1997+at+a+meeting+at+Worth+Publishers.+At+the+time%2C+we+were+working+on+both+the+second+edition+of+the+Who+Built+America%3F+book+and+the+second+CD-ROM%2C+Who+Built+America%3F+From+the+Great+War+of+1914+to+the+Dawn+of+the+Atomic+Age+%28both+published+in+2000%29.&amp;rft.date=c.+1997&amp;rft.title=Working+on+WBA2%3A+Brown%2C+Rosenzweig%2C+%26+Brier&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F384"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+
+<nav class="pagination-nav" aria-label="Pagination">
+    <ul class="pagination">
+                <!-- Previous page link -->
+        <li class="pagination_previous">
+                        <a rel="prev" href="items%3Fpage=9.html">Previous Page</a>
+        </li>
+        
+        <li class="page-input">
+        <form action="items.html" method="get" accept-charset="utf-8">
+        <label>Page<input type="text" name="page" title="Current Page" value="10"></label> of 43        </form>
+        </li>
+
+                <!-- Next page link -->
+        <li class="pagination_next">
+                        <a rel="next" href="items%3Fpage=11.html">Next Page</a>
+        </li>
+            </ul>
+</nav>
+
+
+<div id="outputs">
+    <span class="outputs-label">Output Formats</span>
+                <p id="output-format-list">
+        <a href="https://20.rrchnm.org/items?page=10&amp;output=atom">atom</a>, <a href="https://20.rrchnm.org/items?page=10&amp;output=dcmes-xml">dcmes-xml</a>, <a href="https://20.rrchnm.org/items?page=10&amp;output=json">json</a>, <a href="https://20.rrchnm.org/items?page=10&amp;output=omeka-xml">omeka-xml</a>, <a href="https://20.rrchnm.org/items?page=10&amp;output=rss2">rss2</a>        </p>
+    </div>
+
+
+</div><!-- end content -->
+
+<footer>
+
+    <div id="footer-content" class="center-div">
+                        <nav><ul class="navigation">
+    <li>
+        <a href="about-this-site.html">About</a>
+    </li>
+    <li>
+        <a href="items/browse/type/project.html">Projects</a>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="exhibits.html">Histories</a>
+    </li>
+    <li>
+        <a href="items/browse.html">See it All</a>
+    </li>
+</ul></nav>
+        <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+
+    </div><!-- end footer-content -->
+
+     
+</footer>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        Omeka.showAdvancedForm();
+               Omeka.dropDown();
+    });
+</script>
+
+</body>
+
+</html>

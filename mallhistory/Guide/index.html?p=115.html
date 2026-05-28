@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://mallhistory.org/Guide/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://mallhistory.org/Guide/wp-content/themes/twentyfifteen/js/html5.js"></script>
+	<![endif]-->
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Cordova Development Guide &#8211; Building Histories of the National Mall</title>
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Building Histories of the National Mall &raquo; Feed" href="feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Building Histories of the National Mall &raquo; Comments Feed" href="comments/feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/mallhistory.org\/Guide\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='twentyfifteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='wp-content/themes/twentyfifteen/genericons/genericons.css%3Fver=3.2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-style-css'  href='wp-content/themes/twentyfifteen/style.css%3Fver=4.7.4.css' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='http://mallhistory.org/Guide/wp-content/themes/twentyfifteen/css/ie.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='http://mallhistory.org/Guide/wp-content/themes/twentyfifteen/css/ie7.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<link rel='https://api.w.org/' href='wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.4" />
+<link rel="canonical" href="index.html%3Fp=115.html" />
+<link rel='shortlink' href='index.html%3Fp=115.html' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed%3Furl=http:%252F%252Fmallhistory.org%252FGuide%252Foutreach-and-publicity%252Fmaking-an-app%252Fcordova-development-guide%252F.html" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed%3Furl=http:%252F%252Fmallhistory.org%252FGuide%252Foutreach-and-publicity%252Fmaking-an-app%252Fcordova-development-guide%252F&amp;format=xml.html" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url("wp-content/uploads/2015/08/background.jpg"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: fixed; }
+</style>
+</head>
+
+<body class="page-template-default page page-id-115 page-child parent-pageid-112 custom-background">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="index.html%3Fp=115.html#content">Skip to content</a>
+
+	<div id="sidebar" class="sidebar">
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-branding">
+										<p class="site-title"><a href="index.html" rel="home">Building Histories of the National Mall</a></p>
+											<p class="site-description">A Guide to Creating a Digital Public History Project</p>
+									<button class="secondary-toggle">Menu and widgets</button>
+			</div><!-- .site-branding -->
+		</header><!-- .site-header -->
+
+			<div id="secondary" class="secondary">
+
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+				<div class="menu-contents-container"><ul id="menu-contents" class="nav-menu"><li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70"><a href="index.html%3Fp=9.html">Project Rationale</a>
+<ul class="sub-menu">
+	<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="index.html%3Fp=11.html">Mobile Public History</a></li>
+	<li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a href="index.html%3Fp=15.html">Audiences</a></li>
+	<li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126"><a href="index.html%3Fp=124.html">Project Team</a></li>
+</ul>
+</li>
+<li id="menu-item-276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="index.html%3Fp=271.html">Technical Infrastructure</a></li>
+<li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-60"><a href="index.html%3Fp=18.html">Content Development and Interpretative Approach</a>
+<ul class="sub-menu">
+	<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61"><a href="index.html%3Fp=21.html">Maps</a>
+	<ul class="sub-menu">
+		<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="index.html%3Fp=23.html">Developing and Designing the Map</a></li>
+	</ul>
+</li>
+	<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="index.html%3Fp=26.html">People-Places-Past Events</a></li>
+	<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-64"><a href="index.html%3Fp=30.html">Explorations</a>
+	<ul class="sub-menu">
+		<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="index.html%3Fp=33.html">Scavenger Hunts</a></li>
+	</ul>
+</li>
+	<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="index.html%3Fp=35.html">Content Testing</a></li>
+	<li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="index.html%3Fp=37.html">Composing for the Mobile Web</a></li>
+</ul>
+</li>
+<li id="menu-item-134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-134"><a href="index.html%3Fp=84.html">User Experience and Design</a>
+<ul class="sub-menu">
+	<li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135"><a href="index.html%3Fp=88.html">Design and Testing</a></li>
+</ul>
+</li>
+<li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current_page_ancestor menu-item-has-children menu-item-129"><a href="index.html%3Fp=99.html">Outreach and Publicity</a>
+<ul class="sub-menu">
+	<li id="menu-item-132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a href="index.html%3Fp=108.html">Social Media Strategy</a></li>
+	<li id="menu-item-130" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-130"><a href="index.html%3Fp=112.html">Making an &#8220;App&#8221;</a>
+	<ul class="sub-menu">
+		<li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-115 current_page_item menu-item-131"><a href="index.html%3Fp=115.html">Cordova Development Guide</a></li>
+	</ul>
+</li>
+	<li id="menu-item-136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136"><a href="index.html%3Fp=117.html">Secondary Outreach: Peers</a></li>
+</ul>
+</li>
+<li id="menu-item-127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-127"><a href="index.html%3Fp=122.html">Challenges</a></li>
+<li id="menu-item-128" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-128"><a href="index.html%3Fp=120.html">Measuring Success</a></li>
+</ul></div>			</nav><!-- .main-navigation -->
+		
+		
+					<div id="widget-area" class="widget-area" role="complementary">
+				<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="index.html">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit screen-reader-text" value="Search" />
+			</form></aside>			</div><!-- .widget-area -->
+		
+	</div><!-- .secondary -->
+
+	</div><!-- .sidebar -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+<article id="post-115" class="post-115 page type-page status-publish hentry">
+	
+	<header class="entry-header">
+		<h1 class="entry-title">Cordova Development Guide</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><em>Written by Spencer Roberts</em></p>
+<p>In an effort to reach users who go to the app stores first to find content, the team investigated ways to create placeholder apps for multiple mobile platforms in the most cost-effective way. The development team decided to use the <a href="http://cordova.apache.org/docs/en/3.5.0/guide_overview_index.md.html#Overview">Apache Cordova</a><i> </i>open-source mobile development framework, because we didn&#8217;t want to expend time and resources developing, and maintaining separate apps for each type of device.</p>
+<p>The framework uses common web programming languages (HTML5, CSS3, and JavaScript) rather than languages specific for each operating system, and creates one set of content files using HTML and CSS can be packaged for multiple devices. Cordova contains and uses the software development kits (SDKs) for each brand of device on behalf of its developers.</p>
+<p>There are different ways to create an app with Cordova. If a website uses basic HTML and CSS pages, the entire site can be packaged and distributed for users to download and use on their phone without a data or WiFi connection. For database-driven sites that include large image and media files, it is better to create an app with one page that directs users to the full site in their web browser.</p>
+<p>The steps below describe a standard procedure for implementing Cordova with simple landing/launching pages that send users from an app to a web-hosted site. Many of the steps follow the<a href="http://cordova.apache.org/docs/en/3.5.0/index.html"> Cordova documentation</a>, and when necessary, we modified the procedure for our needs. Cordova can be used for a <a href="http://cordova.apache.org/docs/en/3.5.0/guide_platforms_index.md.html#Platform%20Guides">variety of platforms</a>, we focus here on Android, iOS, Blackberry, Windows Phone, and Windows 8.</p>
+<h4 id="step-one">1.    Install Cordova</h4>
+<p>The process of installing Cordova can be complicated for users unfamiliar with the command-line used by their operating system. Because we are primarily interested in simple, cross-platform development, we will use only the<a href="http://cordova.apache.org/docs/en/3.5.0/guide_cli_index.md.html#The%20Command-Line%20Interface"> command-line interface</a> (CLI).</p>
+<p>It is best to navigate within the command-line interface (such as Terminal) to a directory close to the root for your OS. For instance, we can use something like: <code>MacintoshHD/Developer/apps</code><br />
+The <a href="http://cordova.apache.org/docs/en/3.5.0/guide_cli_index.md.html#The%20Command-Line%20Interface">Cordova documentation</a> explains and points to guides about how to accomplish these first three steps.</p>
+<ol>
+<li>Install Node.js</li>
+<li>Install a git client</li>
+<li>Use npm to install cordova</li>
+</ol>
+<p><b>This is an important section:</b></p>
+<ul>
+<li>You may need to add the npm directory to your PATH in order to invoke globally installed <code>npm</code> modules.</li>
+<li>On Windows, <code>npm</code> can usually be found at: <code>C:\Users\username\AppData\Roaming\npm</code></li>
+<li>On OS X and Linux it can usually be found at: <code>/usr/local/share/npm</code></li>
+</ul>
+<h4>2.    Create the App</h4>
+<p>Using only one command, Cordova can create a new project and its base files. Follow the instructions in the<a href="http://cordova.apache.org/docs/en/3.5.0/guide_cli_index.md.html#The%20Command-Line%20Interface_create_the_app"> documentation</a> to understand how the command works and create a new project.</p>
+<h4> 3.    Build the HTML pages and CSS stylesheet</h4>
+<p>Strangely, the Cordova documentation skips over an important step: editing the base files for the new project.</p>
+<p>Once you create a new project, Cordova generates a folder called <code>www</code> in which is stored the primary content in files and folders. The main page is <code>index.html</code> and there are folders for <code>img</code>, <code>css</code>, and <code>js</code>.</p>
+<p>To customize your app, and remove the default content by Cordova, edit <code>index.html</code> and <code>index.css</code> to suit your style and interface needs. If needed, edit <code>index.js</code> for advanced javascript functions.</p>
+<p>If you are building a multi-page site, rather than a simple forwarding page, use <code>index.html</code> as your homepage and include other <code>.html</code> pages in the same directory.</p>
+<h4>4.    Acquire Developer Accounts</h4>
+<p>Although you will not need to use these accounts until later in the process, it is worthwhile to begin the acquisition process early in order to avoid delays. Identify which accounts you will require to distribute for each platform. Note that most developer accounts will require payment of a one-time or yearly fee.</p>
+<ul>
+<li>Android: $25 one-time registration</li>
+<li>iOS: $99 per year subscription</li>
+<li>Windows Phone only: $19 one-time registration</li>
+<li>Windows 8 and Phone: $99 one-time registration</li>
+<li>BlackBerry: free</li>
+</ul>
+<h4>5.    Install Software Development Kits</h4>
+<p>Although Cordova can do much of the work to build for each platform, it requires you to install the SDK for each platform. This can be the most complicated part of the process.</p>
+<p>Cordova&#8217;s<a href="http://cordova.apache.org/docs/en/3.5.0/guide_platforms_index.md.html#Platform%20Guides"> Platform Guides</a> provide most of the instruction for installing the different software packages. In this section, we address some of the issues you may encounter.</p>
+<h4><b>a.</b><b>    </b><b>Android</b></h4>
+<ul>
+<li><a href="http://cordova.apache.org/docs/en/3.5.0/guide_platforms_android_index.md.html#Android%2520Platform%2520Guide">The Cordova Documentation for Android is here</a>.</li>
+</ul>
+<ul>
+<li>The Android team has recently packaged their SDK into a larger suite of development tools called<a href="http://developer.android.com/sdk/index.html"> Eclipse ADT</a>. Cordova does not require Eclipse; it only needs command-line access to the Android SDK. In order to emulate Android devices, you can use the Android SDK to set up a device and testing parameters. In essence, you can download Eclipse along with the SDK, but you probably won&#8217;t use the other parts of Eclipse.</li>
+</ul>
+<ul>
+<li>Another option is to click &#8220;Get the SDK for an Existing IDE&#8221; and download the SDK by itself. That will meet the needs of Cordova and emulation without the added hassle of Eclipse. (In this case, Cordova is serving as your Integrated Development Environment (IDE) rather than Eclipse.)</li>
+</ul>
+<ul>
+<li>In order to allow Cordova to access the Android commands, you will need to add android to your path, using the procedure <a href="index.html%3Fp=115.html#step-one">outlined in step 1</a>.</li>
+</ul>
+<ul>
+<li>By default, the Android SDK only downloads the most recent API kit. Unfortunately, Cordova requires version 19. To solve this issue, run android from the command line, and check the boxes next to API version 19 of the kit to download.<a href="http://cordova.apache.org/docs/en/3.5.0/img/guide/platforms/android/asdk_window.png"> The Cordova screenshot</a> shows only up to API v17, but 19 should appear as an option.</li>
+</ul>
+<ul>
+<li>Once you have solved the above issues, you should be able to follow the Cordova guide for any further development.</li>
+</ul>
+<h4><b>b.</b><b>    i</b><b>OS</b></h4>
+<ul>
+<li>The<a href="http://cordova.apache.org/docs/en/3.5.0/guide_platforms_ios_index.md.html#iOS%20Platform%20Guide"> Cordova documentation</a> for iOS is the most straightforward of the platforms guides, and you should be able to install the SDK and build for iOS without significant issues.</li>
+</ul>
+<h4> <b>c.</b><b>    </b><b>Windows Phone and Windows 8</b></h4>
+<ul>
+<li><a href="http://cordova.apache.org/docs/en/3.5.0/guide_platforms_wp8_index.md.html#Windows%20Phone%20Platform%20Guide">Cordova documentation for Windows Phone</a></li>
+</ul>
+<ul>
+<li><a href="http://cordova.apache.org/docs/en/3.5.0/guide_platforms_win8_index.md.html#Windows%208%20Platform%20Guide">Cordova documentation for Windows 8</a></li>
+</ul>
+<ul>
+<li>The primary downside to development for the Windows platforms is that you will need a fairly high-performance PC in order to emulate or test your app. Although it is possible to use a virtual machine on a Mac, performance issues make the job more difficult.</li>
+</ul>
+<ul>
+<li>In order to emulate Windows Phone apps, your PC will need an Intel processor that supports specific virtualization. Check the<a href="http://cordova.apache.org/docs/en/3.5.0/guide_platforms_wp8_index.md.html#Windows%20Phone%20Platform%20Guide_requirements_and_support"> requirements</a> to see if your machine can support emulation. Otherwise, you will be able to build the app, but not emulate it.</li>
+</ul>
+<ul>
+<li>Emulation is not the only option for testing, however, because you can still use a Windows Phone to test the app before distribution. If you have fewer resources, and cannot afford an upgraded PC, skip the emulation and go straight to testing on a device.</li>
+</ul>
+<h4>6.    Build for Each Platform</h4>
+<p>Once you have installed each SDK that you plan to use, Cordova will be able to access the SDKs in order to build a native app for each platform. The Cordova interface is very straightforward.</p>
+<ol>
+<li>Follow the instructions to<a href="http://cordova.apache.org/docs/en/3.5.0/guide_cli_index.md.html#The%20Command-Line%20Interface_add_platforms"> add each platform you need</a>.</li>
+<li>Follow the<a href="http://cordova.apache.org/docs/en/3.5.0/guide_cli_index.md.html#The%20Command-Line%20Interface_build_the_app"> instructions for building the app</a>.<br />
+<h4>7.    Emulate the App for Each Platform</h4>
+</li>
+</ol>
+<p>For iOS and Android, the process for emulation is very easy, and most hardware should be able to handle the emulation. BlackBerry and Windows are more complicated because they require higher hardware and software capabilities.</p>
+<ol>
+<li>Use the<a href="http://cordova.apache.org/docs/en/3.5.0/guide_cli_index.md.html#The%20Command-Line%20Interface_test_the_app_on_an_emulator_or_device"> Cordova commands to emulate the app for each platform that your machine can handle</a>.</li>
+<li>If your machine is not capable of emulating for platforms such as BlackBerry and Windows, simply skip emulation and use a device for testing.</li>
+</ol>
+<h4>8.    Test the App on Devices</h4>
+<ul>
+<li>The Cordova documentation provides guidance for deploying your app to different devices for testing.
+<ul>
+<li><a href="http://cordova.apache.org/docs/en/3.5.0/guide_platforms_android_index.md.html#Android%20Platform%20Guide_deploy_to_device">Android devices</a></li>
+<li><a href="http://cordova.apache.org/docs/en/3.5.0/guide_platforms_ios_index.md.html#iOS%20Platform%20Guide_deploy_to_device">iOS devices</a></li>
+<li><a href="http://cordova.apache.org/docs/en/3.5.0/guide_platforms_blackberry10_index.md.html#BlackBerry%2010%20Platform%20Guide_deploy_to_device">BlackBerry devices</a></li>
+<li><a href="http://cordova.apache.org/docs/en/3.5.0/guide_platforms_wp8_index.md.html#Windows%20Phone%20Platform%20Guide_deploy_to_device">Windows Phone</a></li>
+<li><a href="http://cordova.apache.org/docs/en/3.5.0/guide_platforms_win8_index.md.html#Windows%208%20Platform%20Guide_open_the_project_in_the_sdk_and_deploy_the_app">Windows 8 App</a> (Windows 8 apps can only be tested on a PC with Windows 8 installed as an operating system)</li>
+</ul>
+</li>
+</ul>
+<h4>9.    Sign and Distribute the App</h4>
+<ul>
+<li>Once you have emulated and tested your app on a device, the final step is to sign (authorize the version for release) and then distribute your app through the appropriate vendor. Each platform has a different procedure for reviewing and approving apps.
+<ul>
+<li><a href="http://developer.android.com/distribute/googleplay/start.html">Google Play through Android Developer</a></li>
+<li><a href="https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/Introduction/Introduction.html">App Store through iOS Developer</a></li>
+<li><a href="https://developer.blackberry.com/distribute/">BlackBerry distribution services</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/apps/hh694062.aspx">App submission through Windows Dev Center</a></li>
+</ul>
+</li>
+</ul>
+<p><a href="index.html%3Fp=112.html">Previous</a> | <a href="index.html%3Fp=117.html">Next</a></p>
+			</div><!-- .entry-content -->
+
+	
+</article><!-- #post-## -->
+
+		</main><!-- .site-main -->
+	</div><!-- .content-area -->
+
+
+	</div><!-- .site-content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+						<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+		</div><!-- .site-info -->
+	</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+<script type='text/javascript' src='wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js%3Fver=20141010.html'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/themes/twentyfifteen/js/functions.js%3Fver=20150330.html'></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.min.js%3Fver=4.7.4.html'></script>
+
+</body>
+</html>

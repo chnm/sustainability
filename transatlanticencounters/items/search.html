@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+        <meta name="author" content="Michele Greet" />
+            <meta name="copyright" content="© Michele Greet, 2012-2021" />
+                <title>Search Items &middot; Transatlantic Encounters: Latin American Artists in Interwar Paris</title>
+
+    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://transatlanticencounters.rrchnm.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://transatlanticencounters.rrchnm.org/items/browse?output=atom" />
+    <!-- Plugin Stuff -->
+    
+    <!-- Stylesheets -->
+    <link href="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.css%3Fv=3.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="../plugins/Geolocation/views/shared/css/geolocation-marker.css%3Fv=3.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="../themes/centerrow/css/style.css%3Fv=2.8.css" media="all" rel="stylesheet" type="text/css" >
+<link href="../application/views/scripts/css/iconfonts.css%3Fv=2.8.css" media="all" rel="stylesheet" type="text/css" >
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic" media="all" rel="stylesheet" type="text/css" ><style type="text/css" media="all">
+<!--
+@media screen and (max-width: 600px) {
+#site-title {
+padding:0 !important
+}
+
+.col-3 {
+min-width:100%
+}
+
+.col-4 {
+min-width:100%
+}
+
+.col-9 {
+min-width:100%
+}
+
+.gallery-link-text {
+font-size:1.4rem !important;
+max-height:68%;
+padding:20px !important
+}
+}
+
+body {
+font-family:Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif
+}
+
+#search-container {
+top:0;
+background-color:#fff !important
+}
+
+.search-toggle {
+background-color:#E6E7C4 !important;
+border-color:#E6E7C4 !important
+}
+
+#search-form {
+padding:5px;
+background:#fff !important
+}
+
+#wrap {
+background-color:#f6efdf;
+padding:0.1% 0.625%
+}
+
+#site-title {
+font-family:'Catorze27Style1-Medium' !important;
+background-color:#445E76;
+padding:60px
+}
+
+#site-title a {
+color:#fff
+}
+
+#site-title img {
+max-height:none;
+max-width:100%
+}
+
+#home h1 {
+display:none
+}
+
+.col-1 {
+width:8.33%
+}
+
+.col-2 {
+width:16.66%
+}
+
+.col-3 {
+width:32%;
+float:left;
+position:relative
+}
+
+.col-4 {
+width:32.33%;
+float:left;
+max-height:300px;
+overflow:hidden;
+position:relative;
+margin:0.25%
+}
+
+.col-4 img {
+width:100%;
+min-height:350px
+}
+
+.col-5 {
+width:41.66%
+}
+
+.col-6 {
+width:50%
+}
+
+.col-7 {
+width:58.33%
+}
+
+.col-8 {
+width:66.66%;
+float:left;
+max-height:300px;
+overflow:hidden;
+position:relative
+}
+
+.col-9 {
+width:66%;
+float:left;
+position:relative
+}
+
+.col-10 {
+width:83.33%
+}
+
+.col-11 {
+width:91.66%
+}
+
+.col-12 {
+width:100%
+}
+
+.row {
+clear:both;
+display:table
+}
+
+.grid {
+float:left;
+width:33%;
+padding-right:10px;
+overflow:hidden;
+position:relative;
+max-height:300px
+}
+
+.centered {
+position:absolute;
+bottom:2%;
+left:5%;
+width:100%;
+font-size:18px;
+color:#fff;
+background-color:#445e76;
+border-left:4px solid #E6E7C4;
+padding:20px
+}
+
+.centered a {
+color:#E6E7C4
+}
+
+nav .navigation, nav ul {
+border-top:1px solid #445E76;
+border-bottom:1px solid #445E76;
+padding:10px;
+text-align:center
+}
+
+.gallery-link {
+margin-bottom:20px;
+width:100%;
+min-height:400px;
+position:relative;
+max-height:400px;
+overflow:hidden
+}
+
+.gallery-link img {
+width:100%;
+height:auto
+}
+
+.gallery-link-text {
+width:70%;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+padding:50px;
+background-color:#000;
+opacity:0.8;
+color:#fff;
+font-size:2rem;
+vertical-align:middle;
+z-index:9;
+position:absolute;
+top:20%;
+left:15%
+}
+
+.gallery-link-text a {
+color:#fff
+}
+
+.contributors-list {
+background-color:#f6efdf !important;
+text-align:left
+}
+
+.contact-right {
+border-left:1px solid #666;
+padding-left:1%
+}
+
+.contributors-list ul {
+text-align:left
+}
+
+#item-output-formats {
+display:none
+}
+-->
+</style>
+<style>
+
+body,
+#search-form,
+#search-container input[type="text"],
+#search-container button,
+#advanced-form {
+    background-color: #99BDC8}
+
+header nav .navigation,
+#search-container input[type="text"],
+#search-container button,
+#search-form.closed + .search-toggle,
+#advanced-form,
+#search-filters ul li,
+#item-filters ul li,
+.element-set h2,
+#exhibit-page-navigation,
+#exhibit-pages > ul > li:not(:last-of-type),
+#exhibit-pages h4,
+table,
+th, 
+td,
+select,
+.item-pagination.navigation,
+.secondary-nav ul {
+    border-color: #99BDC8}
+
+a,
+.secondary-nav.navigation li.active a,
+.pagination-nav .sorting a,
+#sort-links .sorting a,
+#exhibit-pages .current a {
+    color: #445E76;
+}
+</style>
+    <!-- JavaScripts -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=2.8\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=2.8\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+    jQuery.noConflict();    //-->
+</script>
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.js%3Fv=3.2"></script>
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet-providers.js%3Fv=3.2"></script>
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/map.js%3Fv=3.2"></script>
+<script type="text/javascript" src="../application/views/scripts/javascripts/globals.js%3Fv=2.8"></script>
+<script type="text/javascript" src="../themes/centerrow/js/centerrow.js%3Fv=2.8"></script>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '82']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+
+<body class="items advanced-search">
+    <a href="search.html#content" id="skipnav">Skip to main content</a>
+        <div id="wrap">
+
+        <header role="banner">
+
+            
+            <div id="site-title"><a href="../index.html" ><img src="../files/theme_uploads/224264e06db63f27bcef96a007380384.png" alt="Transatlantic Encounters: Latin American Artists in Interwar Paris" /></a>
+</div>
+
+            <div id="search-container" role="search">
+                                <form id="search-form" name="search-form" role="search" class="closed" action="https://transatlanticencounters.rrchnm.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search" placeholder="Search">            <input type="hidden" name="query_type" value="keyword" id="query_type">                <input type="hidden" name="record_types[]" value="Item" id="record_types">                <input type="hidden" name="record_types[]" value="File" id="record_types">                <input type="hidden" name="record_types[]" value="Collection" id="record_types">                <input type="hidden" name="record_types[]" value="SimplePagesPage" id="record_types">                <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>                                <button type="button" class="search-toggle" title="Toggle search"></button>
+            </div>
+
+
+            <nav id="top-nav" role="navigation">
+                <ul class="navigation">
+    <li>
+        <a href="../index.html">Home</a>
+    </li>
+    <li>
+        <a href="https://transatlanticencounters.rrchnm.org/items/browse?collection=1&amp;sort_field=Dublin+Core%2CTitle">Artists</a>
+    </li>
+    <li>
+        <a href="https://transatlanticencounters.rrchnm.org/items/browse?collection=2&amp;sort_field=Dublin+Core%2CTitle">Galleries</a>
+    </li>
+    <li>
+        <a href="tags.html">Subjects</a>
+    </li>
+    <li>
+        <a href="../maps.html">Maps</a>
+    </li>
+    <li>
+        <a href="../about.html">About</a>
+    </li>
+    <li>
+        <a href="../contact.html">Contact</a>
+    </li>
+    <li>
+        <a href="../bibliography.html">Bibliography</a>
+    </li>
+</ul>            </nav>
+
+            
+        </header>
+
+        <article id="content" role="main">
+
+            
+<h1>Search Items</h1>
+
+<nav class="items-nav navigation secondary-nav">
+    <ul class="navigation">
+    <li>
+        <a href="browse.html">Browse All</a>
+    </li>
+    <li>
+        <a href="tags.html">Browse by Tag</a>
+    </li>
+    <li class="active">
+        <a href="search.html">Search Items</a>
+    </li>
+    <li>
+        <a href="map.html">Browse Map</a>
+    </li>
+</ul></nav>
+
+
+<form id="advanced-search-form" action="browse.html" method="GET">
+    <div id="search-keywords" class="field">
+        <label for="keyword-search">Search for Keywords</label>        <div class="inputs">
+        <input type="text" name="search" id="keyword-search" value="" size="40">        </div>
+    </div>
+    <div id="search-narrow-by-fields" class="field">
+        <div class="label">Narrow by Specific Fields</div>
+        <div class="inputs">
+                    <div class="search-entry">
+                <select name="advanced[0][joiner]" id="" title="Search Joiner" class="advanced-search-joiner">
+    <option value="and">AND</option>
+    <option value="or">OR</option>
+</select><select name="advanced[0][element_id]" id="" title="Search Field" class="advanced-search-element">
+    <option value="">Select Below </option>
+    <option value="50">Title</option>
+    <option value="49">Subject</option>
+    <option value="41">Description</option>
+    <option value="39">Creator</option>
+    <option value="48">Source</option>
+    <option value="45">Publisher</option>
+    <option value="40">Date</option>
+    <option value="37">Contributor</option>
+    <option value="47">Rights</option>
+    <option value="46">Relation</option>
+    <option value="42">Format</option>
+    <option value="44">Language</option>
+    <option value="51">Type</option>
+    <option value="43">Identifier</option>
+    <option value="38">Coverage</option>
+    <option value="93">Artist</option>
+    <option value="92">Government Grant</option>
+    <option value="91">Contacts</option>
+    <option value="90">Exhibitions</option>
+    <option value="89">Schools Attended</option>
+    <option value="88">Address in Paris</option>
+    <option value="87">Dates in Paris</option>
+    <option value="86">Nationality</option>
+    <option value="113">Gallery Description</option>
+    <option value="94">Notes</option>
+    <option value="95">Image</option>
+    <option value="108">About</option>
+    <option value="109">Year Opened</option>
+    <option value="110">Opened</option>
+    <option value="111">Latin American Artists Exhibited</option>
+    <option value="112">Other Notable Artists Exhibited</option>
+    <option value="114">Opening Year</option>
+    <option value="115">Gallery Owner</option>
+    <option value="116">Closing Year</option>
+    <option value="117">Years Open</option>
+    <option value="118">Web Site</option>
+    <option value="107">Name</option>
+    <option value="106">Schools</option>
+    <option value="96">Birth Date:</option>
+    <option value="97">Death Date:</option>
+    <option value="98">Image:</option>
+    <option value="99">Nationality:</option>
+    <option value="100">Dates in Paris:</option>
+    <option value="101">Address in Paris:</option>
+    <option value="102">Exhibitions:</option>
+    <option value="103">Contacts:</option>
+    <option value="104">Government Grant:</option>
+    <option value="105">Notes:</option>
+    <option value="119">Also known as</option>
+    <option value="21">CC</option>
+    <option value="34">Occupation</option>
+    <option value="35">Biographical Text</option>
+    <option value="19">From</option>
+    <option value="18">Subject Line</option>
+    <option value="17">Email Body</option>
+    <option value="16">Time Summary</option>
+    <option value="15">Bit Rate/Frequency</option>
+    <option value="14">Director</option>
+    <option value="33">Death Date</option>
+    <option value="32">Birthplace</option>
+    <option value="31">Birth Date</option>
+    <option value="22">BCC</option>
+    <option value="23">Number of Attachments</option>
+    <option value="24">Standards</option>
+    <option value="25">Objectives</option>
+    <option value="27">Lesson Plan Text</option>
+    <option value="28">URL</option>
+    <option value="29">Event Type</option>
+    <option value="30">Participants</option>
+    <option value="13">Producer</option>
+    <option value="12">Compression</option>
+    <option value="20">To</option>
+    <option value="26">Materials</option>
+    <option value="2">Interviewer</option>
+    <option value="36">Bibliography</option>
+    <option value="3">Interviewee</option>
+    <option value="4">Location</option>
+    <option value="5">Transcription</option>
+    <option value="11">Duration</option>
+    <option value="1">Text</option>
+    <option value="10">Physical Dimensions</option>
+    <option value="7">Original Format</option>
+    <option value="6">Local URL</option>
+    <option value="120">Artist</option>
+    <option value="121">Attorney Agent</option>
+    <option value="122">Author</option>
+    <option value="123">Book Author</option>
+    <option value="124">Cartographer</option>
+    <option value="125">Cast Member</option>
+    <option value="126">Commenter</option>
+    <option value="127">Composer</option>
+    <option value="128">Contributor</option>
+    <option value="129">Cosponsor</option>
+    <option value="130">Counsel</option>
+    <option value="131">Director</option>
+    <option value="132">Editor</option>
+    <option value="133">Guest</option>
+    <option value="134">Interviewee</option>
+    <option value="135">Interviewer</option>
+    <option value="136">Inventor</option>
+    <option value="137">Performer</option>
+    <option value="138">Podcaster</option>
+    <option value="139">Presenter</option>
+    <option value="140">Producer</option>
+    <option value="141">Programmer</option>
+    <option value="142">Recipient</option>
+    <option value="143">Reviewed Author</option>
+    <option value="144">Scriptwriter</option>
+    <option value="145">Series Editor</option>
+    <option value="146">Sponsor</option>
+    <option value="147">Translator</option>
+    <option value="148">Words By</option>
+    <option value="149">Item Type</option>
+    <option value="150">Note</option>
+    <option value="151">DOI</option>
+    <option value="152">ISBN</option>
+    <option value="153">ISSN</option>
+    <option value="154">Abstract Note</option>
+    <option value="155">Access Date</option>
+    <option value="156">Application Number</option>
+    <option value="157">Archive</option>
+    <option value="158">Archive Location</option>
+    <option value="159">Artwork Medium</option>
+    <option value="160">Artwork Size</option>
+    <option value="161">Assignee</option>
+    <option value="162">Audio File Type</option>
+    <option value="163">Audio Recording Format</option>
+    <option value="164">Bill Number</option>
+    <option value="165">Blog Title</option>
+    <option value="166">Book Title</option>
+    <option value="167">Call Number</option>
+    <option value="168">Case Name</option>
+    <option value="169">Code</option>
+    <option value="170">Code Number</option>
+    <option value="171">Code Pages</option>
+    <option value="172">Code Volume</option>
+    <option value="173">Committee</option>
+    <option value="174">Company</option>
+    <option value="175">Conference Name</option>
+    <option value="176">Country</option>
+    <option value="177">Court</option>
+    <option value="178">Date</option>
+    <option value="179">Date Decided</option>
+    <option value="180">Date Enacted</option>
+    <option value="181">Dictionary Title</option>
+    <option value="182">Distributor</option>
+    <option value="183">Docket Number</option>
+    <option value="184">Document Number</option>
+    <option value="185">Edition</option>
+    <option value="186">Encyclopedia Title</option>
+    <option value="187">Episode Number</option>
+    <option value="188">Extra</option>
+    <option value="189">Filing Date</option>
+    <option value="190">First Page</option>
+    <option value="191">Forum Title</option>
+    <option value="192">Genre</option>
+    <option value="193">History</option>
+    <option value="194">Institution</option>
+    <option value="195">Interview Medium</option>
+    <option value="196">Issue</option>
+    <option value="197">Issue Date</option>
+    <option value="198">Issuing Authority</option>
+    <option value="199">Journal Abbreviation</option>
+    <option value="200">Label</option>
+    <option value="201">Language</option>
+    <option value="202">Legal Status</option>
+    <option value="203">Legislative Body</option>
+    <option value="204">Letter Type</option>
+    <option value="205">Library Catalog</option>
+    <option value="206">Manuscript Type</option>
+    <option value="207">Map Type</option>
+    <option value="208">Medium</option>
+    <option value="209">Meeting Name</option>
+    <option value="210">Name of Act</option>
+    <option value="211">Network</option>
+    <option value="212">Num Pages</option>
+    <option value="213">Number</option>
+    <option value="214">Number of Volumes</option>
+    <option value="215">Pages</option>
+    <option value="216">Patent Number</option>
+    <option value="217">Place</option>
+    <option value="218">Post Type</option>
+    <option value="219">Presentation Type</option>
+    <option value="220">Priority Numbers</option>
+    <option value="221">Proceedings Title</option>
+    <option value="222">Program Title</option>
+    <option value="223">Programming Language</option>
+    <option value="224">Public Law Number</option>
+    <option value="225">Publication Title</option>
+    <option value="226">Publisher</option>
+    <option value="227">References</option>
+    <option value="228">Report Number</option>
+    <option value="229">Report Type</option>
+    <option value="230">Reporter</option>
+    <option value="231">Reporter Volume</option>
+    <option value="232">Rights</option>
+    <option value="233">Running Time</option>
+    <option value="234">Scale</option>
+    <option value="235">Section</option>
+    <option value="236">Series</option>
+    <option value="237">Series Number</option>
+    <option value="238">Series Text</option>
+    <option value="239">Series Title</option>
+    <option value="240">Session</option>
+    <option value="241">Short Title</option>
+    <option value="242">Studio</option>
+    <option value="243">Subject</option>
+    <option value="244">System</option>
+    <option value="245">Thesis Type</option>
+    <option value="246">Title</option>
+    <option value="247">University</option>
+    <option value="248">URL</option>
+    <option value="249">Version</option>
+    <option value="250">Video Recording Format</option>
+    <option value="251">Volume</option>
+    <option value="252">Website Title</option>
+    <option value="253">Website Type</option>
+    <option value="254">Attachment Title</option>
+    <option value="255">Attachment URL</option>
+</select><select name="advanced[0][type]" id="" title="Search Type" class="advanced-search-type">
+    <option value="" selected="selected">Select Below </option>
+    <option value="contains">contains</option>
+    <option value="does not contain">does not contain</option>
+    <option value="is exactly">is exactly</option>
+    <option value="is empty">is empty</option>
+    <option value="is not empty">is not empty</option>
+    <option value="starts with">starts with</option>
+    <option value="ends with">ends with</option>
+</select><input type="text" name="advanced[0][terms]" id="" value="" size="20" title="Search Terms" class="advanced-search-terms">                <button type="button" class="remove_search" disabled="disabled" style="display: none;">Remove field</button>
+            </div>
+                </div>
+        <button type="button" class="add_search">Add a Field</button>
+    </div>
+
+    <div id="search-by-range" class="field">
+        <label for="range">Search by a range of ID#s (example: 1-4, 156, 79)</label>        <div class="inputs">
+        <input type="text" name="range" id="range" value="" size="40">        </div>
+    </div>
+
+    <div class="field">
+        <label for="collection-search">Search By Collection</label>        <div class="inputs">
+        <select name="collection" id="collection-search">
+    <option value="">Select Below </option>
+    <option value="0">No Collection</option>
+    <option value="1">Latin American Artists in Paris</option>
+    <option value="2">Paris Galleries</option>
+</select>        </div>
+    </div>
+
+    <div class="field">
+        <label for="item-type-search">Search By Type</label>        <div class="inputs">
+        <select name="type" id="item-type-search">
+    <option value="">Select Below </option>
+    <option value="1">Document</option>
+    <option value="3">Moving Image</option>
+    <option value="4">Oral History</option>
+    <option value="5">Sound</option>
+    <option value="6">Still Image</option>
+    <option value="7">Website</option>
+    <option value="8">Event</option>
+    <option value="9">Email</option>
+    <option value="10">Lesson Plan</option>
+    <option value="11">Hyperlink</option>
+    <option value="13">Interactive Resource</option>
+    <option value="14">Artist</option>
+    <option value="15">Gallery</option>
+</select>        </div>
+    </div>
+
+    
+    <div class="field">
+        <label for="tag-search">Search By Tags</label>        <div class="inputs">
+        <input type="text" name="tags" id="tag-search" value="" size="40">        </div>
+    </div>
+
+
+    
+    <div class="field">
+        <label for="featured">Featured/Non-Featured</label>        <div class="inputs">
+        <select name="featured" id="featured">
+    <option value="">Select Below </option>
+    <option value="1">Only Featured Items</option>
+    <option value="0">Only Non-Featured Items</option>
+</select>        </div>
+    </div>
+
+    
+<div class="field">
+    <div class="two columns alpha">
+        <label for="geolocation-mapped">Geolocation Status</label>    </div>
+    <div class="five columns omega inputs">
+        <select name="geolocation-mapped" id="geolocation-mapped">
+    <option value="">Select Below</option>
+    <option value="1">Only Items with Locations</option>
+    <option value="0">Only Items without Locations</option>
+</select>    </div>
+</div>
+
+<div class="field">
+    <div class="two columns alpha">
+        <label for="geolocation-address">Geographic Address</label>    </div>
+    <div class="five columns omega inputs">
+        <input type="text" name="geolocation-address" id="geolocation-address-input" value="" size="40">        <input type="hidden" name="geolocation-latitude" value="" id="geolocation-latitude-input">        <input type="hidden" name="geolocation-longitude" value="" id="geolocation-longitude-input">    </div>
+</div>
+
+<div class="field">
+    <div class="two columns alpha">
+        <label for="geolocation-radius">Geographic Radius (miles)</label>    </div>
+    <div class="five columns omega inputs">
+        <input type="text" name="geolocation-radius" id="geolocation-radius" value="10" size="40">    </div>
+</div>
+
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/geocoder.js%3Fv=2.8" charset="utf-8"></script><script type="text/javascript">
+(function ($) {
+    function disableOnUnmapped(mappedInput) {
+        var disabled = false;
+        if (mappedInput.val() === '0') {
+            disabled = true;
+        }
+        $('#geolocation-address-input, #geolocation-latitude, #geolocation-longitude, #geolocation-radius').prop('disabled', disabled);
+    }
+
+    $(document).ready(function() {
+        var geocoder = new OmekaGeocoder("nominatim");
+        var pauseForm = true;
+        $('#geolocation-address-input').parents('form').submit(function(event) {
+            // Find the geolocation for the address
+            if (!pauseForm) {
+                return;
+            }
+
+            var form = this;
+            var address = $('#geolocation-address-input').val();
+            if ($.trim(address).length > 0) {
+                event.preventDefault();
+                geocoder.geocode(address).then(function (coords) {
+                    $('#geolocation-latitude-input').val(coords[0]);
+                    $('#geolocation-longitude-input').val(coords[1]);
+                    pauseForm = false;
+                    form.submit();
+                }, function () {
+                    alert('Error: "' + address + '" was not found!');
+                });
+            }
+        });
+
+        var mapped = $('#geolocation-mapped');
+        disableOnUnmapped(mapped);
+        $(mapped).change(function () {
+            disableOnUnmapped($(this));
+        });
+    });
+})(jQuery);
+</script>
+    <div>
+                <input type="submit" class="submit" name="submit_search" id="submit_search_advanced" value="Search for items">
+    </div>
+</form>
+
+<script type="text/javascript" src="../application/views/scripts/javascripts/items-search.js%3Fv=2.8" charset="utf-8"></script><script type="text/javascript">
+    jQuery(document).ready(function () {
+        Omeka.Search.activateSearchButtons();
+    });
+</script>
+
+</article><!-- end content -->
+
+<footer role="contentinfo">
+
+    <div id="footer-content" class="center-div">
+                        <p>© Michele Greet, 2012-2021</p>
+                <nav id="bottom-nav"><ul class="navigation">
+    <li>
+        <a href="../index.html">Home</a>
+    </li>
+    <li>
+        <a href="https://transatlanticencounters.rrchnm.org/items/browse?collection=1&amp;sort_field=Dublin+Core%2CTitle">Artists</a>
+    </li>
+    <li>
+        <a href="https://transatlanticencounters.rrchnm.org/items/browse?collection=2&amp;sort_field=Dublin+Core%2CTitle">Galleries</a>
+    </li>
+    <li>
+        <a href="tags.html">Subjects</a>
+    </li>
+    <li>
+        <a href="../maps.html">Maps</a>
+    </li>
+    <li>
+        <a href="../about.html">About</a>
+    </li>
+    <li>
+        <a href="../contact.html">Contact</a>
+    </li>
+    <li>
+        <a href="../bibliography.html">Bibliography</a>
+    </li>
+</ul></nav>
+        <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+
+    </div><!-- end footer-content -->
+
+     
+</footer>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        Omeka.skipNav();
+    });
+</script>
+
+</body>
+
+</html>

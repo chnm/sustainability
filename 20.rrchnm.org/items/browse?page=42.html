@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html class="" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+    
+        <title>Browse Items &middot; RRCHNM20</title>
+
+    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://20.rrchnm.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://20.rrchnm.org/items/browse?output=atom" />
+        <!-- Stylesheets -->
+    <link href="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="../plugins/Geolocation/views/shared/css/geolocation-marker.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="../plugins/Html5Media/views/shared/mediaelement/mediaelementplayer.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="../application/views/scripts/css/iconfonts.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="../themes/Berlin/css/style.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >    <!-- JavaScripts -->
+                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="../application/views/scripts/javascripts/vendor/jquery.ui.touch-punch.js"></script>
+<script type="text/javascript">
+    //<!--
+    jQuery.noConflict();    //-->
+</script>
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet-providers.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/map.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="../plugins/Html5Media/views/shared/mediaelement/mediaelement-and-player.min.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="../themes/Berlin/javascripts/vendor/modernizr.js%3Fv=3.0.1"></script>
+<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="/application/views/scripts/javascripts/vendor/selectivizr.js?v=3.0.1"></script><![endif]-->
+<script type="text/javascript" src="../application/views/scripts/javascripts/vendor/respond.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="../themes/Berlin/javascripts/globals.js%3Fv=3.0.1"></script>
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '80']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+ <body class="items browse">
+            <header>
+                        <div id="site-title"><a href="../index.html" ><img src="../files/theme_uploads/4b4fcc995a954f13421b6ad475c4fe3d.png" alt="RRCHNM20" /></a>
+</div>
+
+            <div id="search-container">
+                                <form id="search-form" name="search-form" action="https://20.rrchnm.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search" aria-labelledby="submit_search">        <div id="advanced-form">
+        <fieldset id="query-types">
+            <legend>Search using this query type:</legend>
+            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
+<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
+<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
+                <fieldset id="record-types">
+            <legend>Search only these record types:</legend>
+                        <input type="checkbox" name="record_types[]" id="record_types-Item" value="Item" checked="checked"> <label for="record_types-Item">Item</label><br>
+                        <input type="checkbox" name="record_types[]" id="record_types-File" value="File" checked="checked"> <label for="record_types-File">File</label><br>
+                        <input type="checkbox" name="record_types[]" id="record_types-Collection" value="Collection" checked="checked"> <label for="record_types-Collection">Collection</label><br>
+                    </fieldset>
+                <p><a href="search%3Fpage=42.html">Advanced Search (Items only)</a></p>
+    </div>
+        <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+                            </div>
+        </header>
+
+         <div id="primary-nav">
+             <ul class="navigation">
+    <li>
+        <a href="../about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="../about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="../neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="../exhibits.html">Histories</a>
+    </li>
+    <li class="active">
+        <a href="browse.html">See it All</a>
+    </li>
+</ul>         </div>
+  
+         <div id="mobile-nav">
+             <ul class="navigation">
+    <li>
+        <a href="../about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="../about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="../neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="../exhibits.html">Histories</a>
+    </li>
+    <li class="active">
+        <a href="browse.html">See it All</a>
+    </li>
+</ul>         </div>
+        
+                               
+    <div id="content">
+
+
+<h1>Browse Items (422 total)</h1>
+
+<nav class="items-nav navigation secondary-nav">
+    <ul class="navigation">
+    <li class="active">
+        <a href="browse.html">Browse All</a>
+    </li>
+    <li>
+        <a href="tags.html">Browse by Tag</a>
+    </li>
+    <li>
+        <a href="search.html">Search Items</a>
+    </li>
+    <li>
+        <a href="map.html">Browse Map</a>
+    </li>
+</ul></nav>
+
+
+<nav class="pagination-nav" aria-label="Pagination">
+    <ul class="pagination">
+                <!-- Previous page link -->
+        <li class="pagination_previous">
+                        <a rel="prev" href="browse%3Fpage=41.html">Previous Page</a>
+        </li>
+        
+        <li class="page-input">
+        <form action="browse.html" method="get" accept-charset="utf-8">
+        <label>Page<input type="text" name="page" title="Current Page" value="42"></label> of 43        </form>
+        </li>
+
+                <!-- Next page link -->
+        <li class="pagination_next">
+                        <a rel="next" href="browse%3Fpage=43.html">Next Page</a>
+        </li>
+            </ul>
+</nav>
+
+
+
+<div id="sort-links">
+    <span class="sort-label">Sort by: </span><ul id="sort-links-list"><li  ><a href="https://20.rrchnm.org/items/browse?page=42&amp;sort_field=Dublin+Core%2CTitle">Title <span aria-label="Sort ascending" title="Sort ascending"></span></a></li><li  ><a href="https://20.rrchnm.org/items/browse?page=42&amp;sort_field=Dublin+Core%2CCreator">Creator <span aria-label="Sort ascending" title="Sort ascending"></span></a></li><li class="sorting desc" ><a href="https://20.rrchnm.org/items/browse?page=42&amp;sort_field=added&amp;sort_dir=a">Date Added <span aria-label="Sorting descending" title="Sorting descending"></span></a></li></ul></div>
+
+
+<div class="item hentry">
+    <h3><a href="show/16.html" class="permalink">Michael Laine</a></h3>
+    <div class="item-meta">
+    
+
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Michael+Laine&amp;rft.type=Person&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F16"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/15.html" class="permalink">Jessica Finnefrock</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/15.html"><img src="https://20.rrchnm.org/files/square_thumbnails/b21fe514c025ed69e3c515acbfed8606.jpg" alt="jessica_finnefrock.jpg" title="jessica_finnefrock.jpg"></a>    </div>
+    
+
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Jessica+Finnefrock&amp;rft.type=Person&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F15"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/14.html" class="permalink">TuVinh Vuong</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/14.html"><img src="https://20.rrchnm.org/files/square_thumbnails/5f2959c81767fe11a57101bdf9265158.jpg" alt="1305be8.jpg" title="1305be8.jpg"></a>    </div>
+    
+
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=TuVinh+Vuong&amp;rft.type=Person&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F14"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/13.html" class="permalink">Firefox Scholar 2.0: Building the Next Generation Scholarly Research Tool</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/13.html"><img src="https://20.rrchnm.org/files/square_thumbnails/f627ff9a30ced4c10e3a17ac6c9be9d6.jpg" alt="Vector Title, for print services." title="Vector Title, for print services."></a>    </div>
+    
+
+<div class="item-description">
+Although we are excited about our progress on Firefox Scholar 1.0, it was only intended as a pilot—one that would not work with all the major research collections and one focused on libraries in the Commonwealth of Virginia. Moreover, as originally formulated, Firefox Scholar was essentially a personal silo for information. Recently, however, we have grown increasingly convinced that this development is really only a<br />
+first step toward the real promise of Firefox Scholar—the truly groundbreaking…</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Firefox+Scholar+2.0%3A+Building+the+Next+Generation+Scholarly+Research+Tool&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F13"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/12.html" class="permalink">Zotero Everywhere: Browser- and Machine-Independent Support for the Research Community </a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/12.html"><img src="https://20.rrchnm.org/files/square_thumbnails/0b1fd9b6c8df2ac19043fb7c9db119ed.jpg" alt="zotero_512x512x32.png" title="zotero_512x512x32.png"></a>    </div>
+    
+
+<div class="item-description">
+Through initiatives such as optional fee-based cloud storage through the recently formed Corporation for Digital Scholarship, a non-profit established to underwrite Zotero’s continuing<br />
+costs, the project has made major progress with respect to sustainability within the bounds of existing grant funding. Nonetheless, a critical challenge to Zotero’s long-term sustainability remains its exclusive tethering to the Firefox browser. We therefore propose a staged project to decouple Zotero from…</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Zotero+Everywhere%3A+Browser-+and+Machine-Independent+Support+for+the+Research+Community+&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F12"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/11.html" class="permalink">Chrisanne Wyrzykowski</a></h3>
+    <div class="item-meta">
+    
+
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Chrisanne+Wyrzykowski&amp;rft.type=Person&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F11"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/10.html" class="permalink">Elena Razlogova</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/10.html"><img src="https://20.rrchnm.org/files/square_thumbnails/a0380f08f796df75edcd9d9641a39238.jpg" alt="razlogovae.jpg" title="razlogovae.jpg"></a>    </div>
+    
+
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Elena+Razlogova&amp;rft.type=Person&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F10"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/9.html" class="permalink">Exposing and Sharing the Hidden Archive: Advancing Scholarship and Academic Collaboration</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/9.html"><img src="https://20.rrchnm.org/files/square_thumbnails/e7b9ef629e72c779c661c1cec8760179.jpg" alt="Zotero 2.0 flyer" title="Zotero 2.0 flyer"></a>    </div>
+    
+
+<div class="item-description">
+The Internet Archive and the Zotero Project propose a collaborative project to build a structured archival and access environment for the aggregated materials of thousands of scholars. The project would offer a critical back-end extension to the Zotero research platform to provide permanent archiving and personalized file and project materials management. The platform would create a &quot;Zotero Commons&quot;--publicly shared items from the community of scholars--as well as a more circumscribed &#039;group&#039;…</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Exposing+and+Sharing+the+Hidden+Archive%3A+Advancing+Scholarship+and+Academic+Collaboration&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F9"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/8.html" class="permalink">Mike O&#039;Malley</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/8.html"><img src="https://20.rrchnm.org/files/square_thumbnails/44c113bd43fd825ab49b68f290babedc.jpg" alt="MikeOMalleyheadshot.jpg" title="MikeOMalleyheadshot.jpg"></a>    </div>
+    
+
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.title=Mike+O%27Malley&amp;rft.type=Person&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F8"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/7.html" class="permalink">Echo 2: Exploring and Collecting the History of Science, Technology, and Industry in a Digital Era</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/7.html"><img src="https://20.rrchnm.org/files/square_thumbnails/caf57af71c3c1943ab01f3fb4d668c76.jpg" alt="Echo website 2008-present" title="Echo website 2008-present"></a>    </div>
+    
+
+<div class="item-description">
+Echo 2 worked to build on the efforts of Echo 1. Beginning in July 2005, week-long, intensive workshops for fifteen participants who plan to create online projects in the history of science, technology, and industry. </div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.subject=Proposal+for+a+second+part+of+the+Echo+project-+designed+to+enhance+outreach+and+training%2C+developing+tools+and+new+approaches+to+teaching+history+online.&amp;rft.description=Echo+2+worked+to+build+on+the+efforts+of+Echo+1.+Beginning+in+July+2005%2C+week-long%2C+intensive+workshops+for+fifteen+participants+who+plan+to+create+online+projects+in+the+history+of+science%2C+technology%2C+and+industry.+&amp;rft.date=January+16%2C+2004&amp;rft.title=Echo+2%3A+Exploring+and+Collecting+the+History+of+Science%2C+Technology%2C+and+Industry+in+a+Digital+Era&amp;rft.type=Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F7"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+
+<nav class="pagination-nav" aria-label="Pagination">
+    <ul class="pagination">
+                <!-- Previous page link -->
+        <li class="pagination_previous">
+                        <a rel="prev" href="browse%3Fpage=41.html">Previous Page</a>
+        </li>
+        
+        <li class="page-input">
+        <form action="browse.html" method="get" accept-charset="utf-8">
+        <label>Page<input type="text" name="page" title="Current Page" value="42"></label> of 43        </form>
+        </li>
+
+                <!-- Next page link -->
+        <li class="pagination_next">
+                        <a rel="next" href="browse%3Fpage=43.html">Next Page</a>
+        </li>
+            </ul>
+</nav>
+
+
+<div id="outputs">
+    <span class="outputs-label">Output Formats</span>
+                <p id="output-format-list">
+        <a href="https://20.rrchnm.org/items/browse?page=42&amp;output=atom">atom</a>, <a href="https://20.rrchnm.org/items/browse?page=42&amp;output=dcmes-xml">dcmes-xml</a>, <a href="https://20.rrchnm.org/items/browse?page=42&amp;output=json">json</a>, <a href="https://20.rrchnm.org/items/browse?page=42&amp;output=omeka-xml">omeka-xml</a>, <a href="https://20.rrchnm.org/items/browse?page=42&amp;output=rss2">rss2</a>        </p>
+    </div>
+
+
+</div><!-- end content -->
+
+<footer>
+
+    <div id="footer-content" class="center-div">
+                        <nav><ul class="navigation">
+    <li>
+        <a href="../about-this-site.html">About</a>
+    </li>
+    <li>
+        <a href="browse/type/project.html">Projects</a>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="../exhibits.html">Histories</a>
+    </li>
+    <li class="active">
+        <a href="browse.html">See it All</a>
+    </li>
+</ul></nav>
+        <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+
+    </div><!-- end footer-content -->
+
+     
+</footer>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        Omeka.showAdvancedForm();
+               Omeka.dropDown();
+    });
+</script>
+
+</body>
+
+</html>

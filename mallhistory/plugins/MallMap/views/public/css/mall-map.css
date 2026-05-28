@@ -1,0 +1,410 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot.html');
+    src:url('../fonts/icomoon.eot%3F.html') format('embedded-opentype'),
+        url('../fonts/icomoon.woff.html') format('woff'),
+        url('../fonts/icomoon.ttf.html') format('truetype'),
+        url('../fonts/icomoon.svg.html') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+a#locate-button:before, #filter-button:before, 
+#filters div label.on:before, #toggle-map-button,
+.back-button:before{
+    font-family: 'icomoon';
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-family: "Raleway", sans-serif;
+    color: #375e5d;
+}
+
+#map {
+    width: 100%;
+}
+
+h1 { 
+    margin-top: 0; 
+    font-weight: normal;
+}
+
+img {
+    margin: 20px 0;
+}
+
+select { 
+    width: 100%; 
+    margin-bottom: 1.5em; 
+    font-size: 1em;
+}
+
+label { 
+    display: inline-block;
+    margin-bottom: .5em; 
+}
+
+#site-title img {
+    margin: 0;
+}
+
+/* header {
+    width: 100%;
+    height: 59px;
+    display: block;
+    position: relative;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    left: 0;
+    z-index: 1020;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(90deg, rgba(255, 194, 0, 0.6), rgba(190, 183, 0, 0.35));
+} */
+
+.screen-reader-text {
+    display: none;
+}
+
+#marker-count, #all-button {
+}
+
+div[role="main"] {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.button {
+    color: #fff;
+    background-color: #2b89d9;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+#marker-count { 
+}
+
+#all-button { right: 60px; }
+
+#filters h1 {
+    margin-top: 0;
+    font-weight: normal;
+    background-color: #FFE400;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+#info-panel h1 {
+    background-color: #FFE400;
+    margin: -20px -10px 20px;
+    padding: 10px;
+}
+
+a#toggle-map-button:before { content: "\e00f"; }
+
+a#locate-button:before { 
+    content: "\e012";
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+a#locate-button {
+    position: absolute;
+    bottom: 11px;
+    z-index: 1000;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2B89D9;
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,.15);
+    box-shadow: 0 0 20px rgba(0,0,0,.15);
+    font-size: 20px;
+    line-height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #78B6EB;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+a#locate-button {
+    left: 10px;  
+}
+
+.touch a#locate-button {
+    border-radius: 10px;
+    border: 4px solid rgba(0,0,0,.3) !important;
+}
+
+.touch a#locate-button.disabled:before {
+    background-color: rgba(255,255,255.8);
+}
+
+#filter-button:before { content: "\e013"; }
+
+#filter-button.on:before, a.back-button:before { content: "\e00d"; }
+
+#filter-button,
+#toggle-map-button {
+    position: absolute;
+    top: 0;
+    font-size: 24px;
+    height: 2.25em;
+    line-height: 2.25em;
+    padding: 0 10px;
+    color: #fff;
+    border-left: 1px solid rgba(255,255,255,.15);
+    cursor: pointer;
+}
+
+#filter-button {
+    right: 0;
+}
+
+#toggle-map-button {
+    right: 45px;
+    opacity: .25;
+    border-left: 1px solid rgba(255,255,255,.65);
+}
+
+#toggle-map-button.on {
+    opacity: 1;
+    border-left: 1px solid rgba(255,255,255,.15);
+}
+
+#info-panel .back-button {
+    display: block;
+    padding: .5em 10px;
+    z-index: 1010;
+    background-color: #FFE400;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+#filters {
+    position: absolute;
+    left: 0;
+    top: 54px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    background-size: cover;
+    width: 100%;
+    z-index: 1001;
+    padding: 80px 10px 20px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: none;
+}
+
+#filters div label {
+    background-color: rgba(219, 108, 54, 0.15);
+    border-radius: 3px;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 40px;
+    width: 100%;
+    color: #DF582D;
+    position: relative;
+}
+
+#filters div label.on {
+    background-color: rgba(33, 201, 0, 0.15);
+    color: #36A036;;
+}
+
+#filters div label:before {
+    content: "";
+    background-color: #DB6C36;
+    color: #FFF;
+    height: 40px;
+    display: block;
+    float: left;
+    vertical-align: middle;
+    line-height: 40px !important;
+    width: 40px;
+    text-align: center;
+    border-radius: 3px 0 0 3px;
+    margin-right: .5em;
+}
+
+#filters div label.on:before {
+    content: "\e006";
+    background-color: rgba(33, 201, 0, 1);
+}
+
+#filters div input[type=checkbox] {
+    margin: 0 2em 0 -2em;
+    display: none;
+}
+
+.disabled {
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: #C7C7C7 !important;
+    border: 1px solid rgba(0, 0, 0, 0.3) !important;
+    border-radius: 10px !important;
+    box-sizing: content-box !important;
+}
+
+#info-panel {
+    display: none;
+    position: absolute;
+    background: url('../images/bg.jpg') no-repeat top right;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1020;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#info-panel-content {
+    padding: 20px 10px;
+}
+
+#info-panel p {
+    line-height: 24px;
+}
+
+/* Leaflet Overrides */
+
+.leaflet-container {
+    font-family : "Raleway", sans-serif !important;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    border-radius: 0;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+    position: absolute;
+    top: -6px !important;
+    right: -10px !important;
+    padding: 1px 2px !important;
+    width: 20px !important;
+    height: 20px !important;
+    color: #FFF !important;
+    background: #DB6C36 !important;
+    border-radius: 20px;
+    border: 1px solid #F89361;
+    font-weight: normal !important;
+}
+
+.leaflet-popup-content {
+    text-align: center;
+    margin: 10px !important;
+}
+
+.leaflet-popup-content h3 {
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.leaflet-popup-content img {
+    margin: 10px auto;
+}
+
+.open-info-panel.button {
+    width: 100%;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* Tooltip styles */
+
+#first-time {
+    position: absolute;
+    top: 3.3125em;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: none;
+}
+
+#first-time .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.75);
+}
+
+#first-time .tooltip {
+    background-color: #fff;
+    position: absolute;
+    max-width: 50%;
+    right: 20px;
+    top: 1.5em;
+    padding: 0 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#first-time .tooltip:before {
+    content: "";
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    top: -10px;
+    right: 0;
+    border-right: 10px solid #FFF;
+    border-top: 10px solid rgba(0, 0, 0, 0);
+}
+
+#first-time button {
+    border: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0;
+    margin-bottom: 1.5em;
+}
+
+@media screen and (max-width: 640px) {
+
+    #first-time .tooltip {
+        max-width: 90%;
+        right: 5%;
+    }
+
+}

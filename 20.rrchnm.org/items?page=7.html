@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html class="" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+    
+        <title>Browse Items &middot; RRCHNM20</title>
+
+    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://20.rrchnm.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://20.rrchnm.org/items/browse?output=atom" />
+        <!-- Stylesheets -->
+    <link href="plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="plugins/Geolocation/views/shared/css/geolocation-marker.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="plugins/Html5Media/views/shared/mediaelement/mediaelementplayer.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="application/views/scripts/css/iconfonts.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="themes/Berlin/css/style.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >    <!-- JavaScripts -->
+                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="application/views/scripts/javascripts/vendor/jquery.ui.touch-punch.js"></script>
+<script type="text/javascript">
+    //<!--
+    jQuery.noConflict();    //-->
+</script>
+<script type="text/javascript" src="plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="plugins/Geolocation/views/shared/javascripts/leaflet/leaflet-providers.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="plugins/Geolocation/views/shared/javascripts/map.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="plugins/Html5Media/views/shared/mediaelement/mediaelement-and-player.min.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="themes/Berlin/javascripts/vendor/modernizr.js%3Fv=3.0.1"></script>
+<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="/application/views/scripts/javascripts/vendor/selectivizr.js?v=3.0.1"></script><![endif]-->
+<script type="text/javascript" src="application/views/scripts/javascripts/vendor/respond.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="themes/Berlin/javascripts/globals.js%3Fv=3.0.1"></script>
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '80']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+ <body class="items browse">
+            <header>
+                        <div id="site-title"><a href="index.html" ><img src="files/theme_uploads/4b4fcc995a954f13421b6ad475c4fe3d.png" alt="RRCHNM20" /></a>
+</div>
+
+            <div id="search-container">
+                                <form id="search-form" name="search-form" action="https://20.rrchnm.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search" aria-labelledby="submit_search">        <div id="advanced-form">
+        <fieldset id="query-types">
+            <legend>Search using this query type:</legend>
+            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
+<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
+<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
+                <fieldset id="record-types">
+            <legend>Search only these record types:</legend>
+                        <input type="checkbox" name="record_types[]" id="record_types-Item" value="Item" checked="checked"> <label for="record_types-Item">Item</label><br>
+                        <input type="checkbox" name="record_types[]" id="record_types-File" value="File" checked="checked"> <label for="record_types-File">File</label><br>
+                        <input type="checkbox" name="record_types[]" id="record_types-Collection" value="Collection" checked="checked"> <label for="record_types-Collection">Collection</label><br>
+                    </fieldset>
+                <p><a href="items/search%3Fpage=7.html">Advanced Search (Items only)</a></p>
+    </div>
+        <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+                            </div>
+        </header>
+
+         <div id="primary-nav">
+             <ul class="navigation">
+    <li>
+        <a href="about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="items/browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="exhibits.html">Histories</a>
+    </li>
+    <li>
+        <a href="items/browse.html">See it All</a>
+    </li>
+</ul>         </div>
+  
+         <div id="mobile-nav">
+             <ul class="navigation">
+    <li>
+        <a href="about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="items/browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="exhibits.html">Histories</a>
+    </li>
+    <li>
+        <a href="items/browse.html">See it All</a>
+    </li>
+</ul>         </div>
+        
+                               
+    <div id="content">
+
+
+<h1>Browse Items (422 total)</h1>
+
+<nav class="items-nav navigation secondary-nav">
+    <ul class="navigation">
+    <li>
+        <a href="items/browse.html">Browse All</a>
+    </li>
+    <li>
+        <a href="items/tags.html">Browse by Tag</a>
+    </li>
+    <li>
+        <a href="items/search.html">Search Items</a>
+    </li>
+    <li>
+        <a href="items/map.html">Browse Map</a>
+    </li>
+</ul></nav>
+
+
+<nav class="pagination-nav" aria-label="Pagination">
+    <ul class="pagination">
+                <!-- Previous page link -->
+        <li class="pagination_previous">
+                        <a rel="prev" href="items%3Fpage=6.html">Previous Page</a>
+        </li>
+        
+        <li class="page-input">
+        <form action="items.html" method="get" accept-charset="utf-8">
+        <label>Page<input type="text" name="page" title="Current Page" value="7"></label> of 43        </form>
+        </li>
+
+                <!-- Next page link -->
+        <li class="pagination_next">
+                        <a rel="next" href="items%3Fpage=8.html">Next Page</a>
+        </li>
+            </ul>
+</nav>
+
+
+
+<div id="sort-links">
+    <span class="sort-label">Sort by: </span><ul id="sort-links-list"><li  ><a href="https://20.rrchnm.org/items?page=7&amp;sort_field=Dublin+Core%2CTitle">Title <span aria-label="Sort ascending" title="Sort ascending"></span></a></li><li  ><a href="https://20.rrchnm.org/items?page=7&amp;sort_field=Dublin+Core%2CCreator">Creator <span aria-label="Sort ascending" title="Sort ascending"></span></a></li><li class="sorting desc" ><a href="https://20.rrchnm.org/items?page=7&amp;sort_field=added&amp;sort_dir=a">Date Added <span aria-label="Sorting descending" title="Sorting descending"></span></a></li></ul></div>
+
+
+<div class="item hentry">
+    <h3><a href="items/show/425.html" class="permalink">Staff Holiday Photo 2010</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/425.html"><img src="https://20.rrchnm.org/files/square_thumbnails/e85aaee48140566a0a1c2e29b59c574d.jpg" alt="2010_staff-holiday.jpg" title="2010_staff-holiday.jpg"></a>    </div>
+    
+
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Chris+Preparato&amp;rft.date=November+10%2C+2010&amp;rft.title=Staff+Holiday+Photo+2010&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F425"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/424.html" class="permalink">Brainstorming the Future of CHNM </a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/424.html"><img src="https://20.rrchnm.org/files/square_thumbnails/08aac05344a0935fe95a4aa4063bf9b5.jpg" alt="Ben Hurwitz discussin an idea, CHNM Planning, (November 13, 2013).jpg" title="Ben Hurwitz discussin an idea, CHNM Planning, (November 13, 2013).jpg"></a>    </div>
+    
+
+<div class="item-description">
+Ben Hurwitz adds his perspective at the RR-CHNM Planning Meeting. </div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Chris+Preperato&amp;rft.description=Ben+Hurwitz+adds+his+perspective+at+the+RR-CHNM+Planning+Meeting.+&amp;rft.date=November+13%2C+2013&amp;rft.title=Brainstorming+the+Future+of+CHNM+&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F424"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/423.html" class="permalink">Holiday Recycling</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/423.html"><img src="https://20.rrchnm.org/files/square_thumbnails/ad2f0a117f576ea56f6bc01925ca3a28.jpg" alt="Andy Privee revealing his prize, CHNM Holiday Party 2010 (Dec 16, 2010).JPG" title="Andy Privee revealing his prize, CHNM Holiday Party 2010 (Dec 16, 2010).JPG"></a>    </div>
+    
+
+<div class="item-description">
+Andy Privee opens a fairy princess figurine during the CHNM holiday party white elephant gift exchange.  </div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Chris+Preperato&amp;rft.description=Andy+Privee+opens+a+fairy+princess+figurine+during+the+CHNM+holiday+party+white+elephant+gift+exchange.++&amp;rft.date=December+16%2C+2010&amp;rft.title=Holiday+Recycling&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F423"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/422.html" class="permalink">The Gloves Come Off</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/422.html"><img src="https://20.rrchnm.org/files/square_thumbnails/7d7a1f38c5333f6dd65fa302c5514e8a.jpg" alt="Amanda French claiming the gloves, CHNM Holiday Party 2013 (December 13, 2013).jpg" title="Amanda French claiming the gloves, CHNM Holiday Party 2013 (December 13, 2013).jpg"></a>    </div>
+    
+
+<div class="item-description">
+At the CHNM Holiday Party, Amanda French claims a pair of gloves for herself as part of the white elephant gift exchange.</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Chris+Preperato&amp;rft.description=At+the+CHNM+Holiday+Party%2C+Amanda+French+claims+a+pair+of+gloves+for+herself+as+part+of+the+white+elephant+gift+exchange.&amp;rft.date=December+13%2C+2013&amp;rft.title=The+Gloves+Come+Off&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F422"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/421.html" class="permalink">Declaration Detectives</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/421.html"><img src="https://20.rrchnm.org/files/square_thumbnails/d334f42483feca18d6903fb59d8fd2a7.jpg" alt="8th grade Students looking closely at Declaration (Nov 14, 2008).JPG" title="8th grade Students looking closely at Declaration (Nov 14, 2008).JPG"></a>    </div>
+    
+
+<div class="item-description">
+Eighth-grade students closely examine the wording of the Declaration of Independence in a Teaching American History activity.  </div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Chris+Preperato&amp;rft.description=Eighth-grade+students+closely+examine+the+wording+of+the+Declaration+of+Independence+in+a+Teaching+American+History+activity.++&amp;rft.date=November+14%2C+2008&amp;rft.title=Declaration+Detectives&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F421"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/420.html" class="permalink">Bringing History into Focus</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/420.html"><img src="https://20.rrchnm.org/files/square_thumbnails/01ae8292a63891eae2665c3ce860db9a.jpg" alt="8th grade student at Mexican Cultural Institute (Oct 2010).JPG" title="8th grade student at Mexican Cultural Institute (Oct 2010).JPG"></a>    </div>
+    
+
+<div class="item-description">
+An eighth-grade student taking part in a Teaching American History activity takes a photo at the Mexican Cultural Institute.</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Chris+Preperato&amp;rft.description=An+eighth-grade+student+taking+part+in+a+Teaching+American+History+activity+takes+a+photo+at+the+Mexican+Cultural+Institute.&amp;rft.date=October+2010+&amp;rft.title=Bringing+History+into+Focus&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F420"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/419.html" class="permalink">Hands-On History</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/419.html"><img src="https://20.rrchnm.org/files/square_thumbnails/9c638432e6f45a6039928d78d48ccb62.jpg" alt="5th grade student looking closely at a MD Historical Society photo (Mar 15, 2013).jpg" title="5th grade student looking closely at a MD Historical Society photo (Mar 15, 2013).jpg"></a>    </div>
+    
+
+<div class="item-description">
+A fifth-grade student examines a photo at the Maryland Historical Society. Teaching American History activities explored how to analyze photographs as historical evidence.</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Chris+Preperato&amp;rft.description=A+fifth-grade+student+examines+a+photo+at+the+Maryland+Historical+Society.+Teaching+American+History+activities+explored+how+to+analyze+photographs+as+historical+evidence.&amp;rft.date=March+15%2C+2013&amp;rft.title=Hands-On+History&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F419"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/418.html" class="permalink">Framing the Past</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/418.html"><img src="https://20.rrchnm.org/files/square_thumbnails/52e7e15c3f63690be1178dfd5ba4d572.jpg" alt="1st grade teacher Jennifer Orr taking a photo of the Tidal Basin (May 6 2012).jpg" title="1st grade teacher Jennifer Orr taking a photo of the Tidal Basin (May 6 2012).jpg"></a>    </div>
+    
+
+<div class="item-description">
+First-grade teacher Jennifer Orr takes a photo of the Tidal Basin.  Teaching American History activities allowed teachers and students to explore places and learn different ways to interpret the landscape. </div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Chris+Preperato+&amp;rft.description=First-grade+teacher+Jennifer+Orr+takes+a+photo+of+the+Tidal+Basin.++Teaching+American+History+activities+allowed+teachers+and+students+to+explore+places+and+learn+different+ways+to+interpret+the+landscape.+&amp;rft.date=May+6%2C+2012&amp;rft.title=Framing+the+Past&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F418"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/417.html" class="permalink">History&#039;s a Snap</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/417.html"><img src="https://20.rrchnm.org/files/square_thumbnails/ec3e8aa392cb8514689c4faf8d793957.jpg" alt="1st grade students taking photos of the FDR Memorial (May 6 2012).jpg" title="1st grade students taking photos of the FDR Memorial (May 6 2012).jpg"></a>    </div>
+    
+
+<div class="item-description">
+Two first-grade students learn about historical thinking by taking photos of the FDR Memorial.  Teaching American History activities encouraged teachers and students to explore the meaning behind monuments and memorials.  </div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Chris+Preperato&amp;rft.description=Two+first-grade+students+learn+about+historical+thinking+by+taking+photos+of+the+FDR+Memorial.++Teaching+American+History+activities+encouraged+teachers+and+students+to+explore+the+meaning+behind+monuments+and+memorials.++&amp;rft.date=May+6%2C+2012&amp;rft.title=History%27s+a+Snap&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F417"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="items/show/416.html" class="permalink">Questioning Cartoons</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="items/show/416.html"><img src="https://20.rrchnm.org/files/square_thumbnails/a74c46d1e1791ad129a9b43661df9782.jpg" alt="VA 4th grade students looking at poliical cartoon (2008).JPG" title="VA 4th grade students looking at poliical cartoon (2008).JPG"></a>    </div>
+    
+
+<div class="item-description">
+Two Virginia fourth graders analyze a pair of editorial cartoons as part of a Teaching American History activity.  By asking questions about the artist&#039;s choices in creating these cartoons, students learn more about Virginia&#039;s history of segregation and &quot;Massive Resistance&quot;.  </div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Kelly+Schrum&amp;rft.description=Two+Virginia+fourth+graders+analyze+a+pair+of+editorial+cartoons+as+part+of+a+Teaching+American+History+activity.++By+asking+questions+about+the+artist%27s+choices+in+creating+these+cartoons%2C+students+learn+more+about+Virginia%27s+history+of+segregation+and+%22Massive+Resistance%22.++&amp;rft.date=2008&amp;rft.title=Questioning+Cartoons&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F416"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+
+<nav class="pagination-nav" aria-label="Pagination">
+    <ul class="pagination">
+                <!-- Previous page link -->
+        <li class="pagination_previous">
+                        <a rel="prev" href="items%3Fpage=6.html">Previous Page</a>
+        </li>
+        
+        <li class="page-input">
+        <form action="items.html" method="get" accept-charset="utf-8">
+        <label>Page<input type="text" name="page" title="Current Page" value="7"></label> of 43        </form>
+        </li>
+
+                <!-- Next page link -->
+        <li class="pagination_next">
+                        <a rel="next" href="items%3Fpage=8.html">Next Page</a>
+        </li>
+            </ul>
+</nav>
+
+
+<div id="outputs">
+    <span class="outputs-label">Output Formats</span>
+                <p id="output-format-list">
+        <a href="https://20.rrchnm.org/items?page=7&amp;output=atom">atom</a>, <a href="https://20.rrchnm.org/items?page=7&amp;output=dcmes-xml">dcmes-xml</a>, <a href="https://20.rrchnm.org/items?page=7&amp;output=json">json</a>, <a href="https://20.rrchnm.org/items?page=7&amp;output=omeka-xml">omeka-xml</a>, <a href="https://20.rrchnm.org/items?page=7&amp;output=rss2">rss2</a>        </p>
+    </div>
+
+
+</div><!-- end content -->
+
+<footer>
+
+    <div id="footer-content" class="center-div">
+                        <nav><ul class="navigation">
+    <li>
+        <a href="about-this-site.html">About</a>
+    </li>
+    <li>
+        <a href="items/browse/type/project.html">Projects</a>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="exhibits.html">Histories</a>
+    </li>
+    <li>
+        <a href="items/browse.html">See it All</a>
+    </li>
+</ul></nav>
+        <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+
+    </div><!-- end footer-content -->
+
+     
+</footer>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        Omeka.showAdvancedForm();
+               Omeka.dropDown();
+    });
+</script>
+
+</body>
+
+</html>

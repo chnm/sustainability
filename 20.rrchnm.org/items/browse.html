@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html class="" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+    
+        <title>Browse Items &middot; RRCHNM20</title>
+
+    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://20.rrchnm.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://20.rrchnm.org/items/browse?output=atom" />
+        <!-- Stylesheets -->
+    <link href="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="../plugins/Geolocation/views/shared/css/geolocation-marker.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="../plugins/Html5Media/views/shared/mediaelement/mediaelementplayer.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="../application/views/scripts/css/iconfonts.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="../themes/Berlin/css/style.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >    <!-- JavaScripts -->
+                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="../application/views/scripts/javascripts/vendor/jquery.ui.touch-punch.js"></script>
+<script type="text/javascript">
+    //<!--
+    jQuery.noConflict();    //-->
+</script>
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet-providers.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/map.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="../plugins/Html5Media/views/shared/mediaelement/mediaelement-and-player.min.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="../themes/Berlin/javascripts/vendor/modernizr.js%3Fv=3.0.1"></script>
+<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="/application/views/scripts/javascripts/vendor/selectivizr.js?v=3.0.1"></script><![endif]-->
+<script type="text/javascript" src="../application/views/scripts/javascripts/vendor/respond.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="../themes/Berlin/javascripts/globals.js%3Fv=3.0.1"></script>
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '80']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+ <body class="items browse">
+            <header>
+                        <div id="site-title"><a href="../index.html" ><img src="../files/theme_uploads/4b4fcc995a954f13421b6ad475c4fe3d.png" alt="RRCHNM20" /></a>
+</div>
+
+            <div id="search-container">
+                                <form id="search-form" name="search-form" action="https://20.rrchnm.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search" aria-labelledby="submit_search">        <div id="advanced-form">
+        <fieldset id="query-types">
+            <legend>Search using this query type:</legend>
+            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
+<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
+<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
+                <fieldset id="record-types">
+            <legend>Search only these record types:</legend>
+                        <input type="checkbox" name="record_types[]" id="record_types-Item" value="Item" checked="checked"> <label for="record_types-Item">Item</label><br>
+                        <input type="checkbox" name="record_types[]" id="record_types-File" value="File" checked="checked"> <label for="record_types-File">File</label><br>
+                        <input type="checkbox" name="record_types[]" id="record_types-Collection" value="Collection" checked="checked"> <label for="record_types-Collection">Collection</label><br>
+                    </fieldset>
+                <p><a href="search.html">Advanced Search (Items only)</a></p>
+    </div>
+        <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+                            </div>
+        </header>
+
+         <div id="primary-nav">
+             <ul class="navigation">
+    <li>
+        <a href="../about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="../about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="../neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="../exhibits.html">Histories</a>
+    </li>
+    <li class="active">
+        <a href="browse.html">See it All</a>
+    </li>
+</ul>         </div>
+  
+         <div id="mobile-nav">
+             <ul class="navigation">
+    <li>
+        <a href="../about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="../about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="../neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="../exhibits.html">Histories</a>
+    </li>
+    <li class="active">
+        <a href="browse.html">See it All</a>
+    </li>
+</ul>         </div>
+        
+                               
+    <div id="content">
+
+
+<h1>Browse Items (422 total)</h1>
+
+<nav class="items-nav navigation secondary-nav">
+    <ul class="navigation">
+    <li class="active">
+        <a href="browse.html">Browse All</a>
+    </li>
+    <li>
+        <a href="tags.html">Browse by Tag</a>
+    </li>
+    <li>
+        <a href="search.html">Search Items</a>
+    </li>
+    <li>
+        <a href="map.html">Browse Map</a>
+    </li>
+</ul></nav>
+
+
+<nav class="pagination-nav" aria-label="Pagination">
+    <ul class="pagination">
+        
+        <li class="page-input">
+        <form action="browse.html" method="get" accept-charset="utf-8">
+        <label>Page<input type="text" name="page" title="Current Page" value="1"></label> of 43        </form>
+        </li>
+
+                <!-- Next page link -->
+        <li class="pagination_next">
+                        <a rel="next" href="browse%3Fpage=2.html">Next Page</a>
+        </li>
+            </ul>
+</nav>
+
+
+
+<div id="sort-links">
+    <span class="sort-label">Sort by: </span><ul id="sort-links-list"><li  ><a href="https://20.rrchnm.org/items/browse?sort_field=Dublin+Core%2CTitle">Title <span aria-label="Sort ascending" title="Sort ascending"></span></a></li><li  ><a href="https://20.rrchnm.org/items/browse?sort_field=Dublin+Core%2CCreator">Creator <span aria-label="Sort ascending" title="Sort ascending"></span></a></li><li class="sorting desc" ><a href="https://20.rrchnm.org/items/browse?sort_field=added&amp;sort_dir=a">Date Added <span aria-label="Sorting descending" title="Sorting descending"></span></a></li></ul></div>
+
+
+<div class="item hentry">
+    <h3><a href="show/504.html" class="permalink">NEH Gaming Screenshots</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/504.html"><img src="https://20.rrchnm.org/files/square_thumbnails/4e0dbf10dac582b4db78f2a71b7aeb1a.jpg" alt="Screen Shot 2016-10-05 at 8.57.57 PM.png" title="Screen Shot 2016-10-05 at 8.57.57 PM.png"></a>    </div>
+    
+
+<div class="item-description">
+A collection of screenshots that reflect humanities games funded by NEH since 2010. The screenshots are as follows: 1-Walden, A Game,http://www.waldengame.com/2-Walden, A Game,http://www.waldengame.com/3-Mission US,http://www.mission-us.org/4-American Guide Game,http://sparkmedia.org/projects/soul-of-a-place-the-american-guide-game/</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.description=A+collection+of+screenshots+that+reflect+humanities+games+funded+by+NEH+since+2010.+The+screenshots+are+as+follows%3A+1-Walden%2C+A+Game%2Chttp%3A%2F%2Fwww.waldengame.com%2F2-Walden%2C+A+Game%2Chttp%3A%2F%2Fwww.waldengame.com%2F3-Mission+US%2Chttp%3A%2F%2Fwww.mission-us.org%2F4-American+Guide+Game%2Chttp%3A%2F%2Fsparkmedia.org%2Fprojects%2Fsoul-of-a-place-the-american-guide-game%2F&amp;rft.source=http%3A%2F%2Fwww.neh.gov%2Ffiles%2Fnews%2Fneh_digital_funding_list_of_games.pdf&amp;rft.title=NEH+Gaming+Screenshots&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F504"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/503.html" class="permalink">Lost Museum Screenshots</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/503.html"><img src="https://20.rrchnm.org/files/square_thumbnails/c97cb7ba95314f3f3e1ad10c11d12468.jpg" alt="The Picture Gallery" title="The Picture Gallery"></a>    </div>
+    
+
+<div class="item-description">
+These screenshots are taken from various moments of The Lost Museum. The locations of each image are as follows:1-The Picture Gallery2-The Lecture Hall3-The Lost Museum original interface4-The Lost Museum 2015 redesign interface5-The Picture Gallery, with Flash movie triggered6-The Waxworks Room7-The Slave Owner Conspiracy object view8-The Lost Museum Archive9-The Lost Museum Classroom</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Roy+Rosenzweig+Center+for+History+and+New+Media%2C+GMU%0D%0AAmerican+Social+History+Project%2C+CUNY&amp;rft.description=These+screenshots+are+taken+from+various+moments+of+The+Lost+Museum.+The+locations+of+each+image+are+as+follows%3A1-The+Picture+Gallery2-The+Lecture+Hall3-The+Lost+Museum+original+interface4-The+Lost+Museum+2015+redesign+interface5-The+Picture+Gallery%2C+with+Flash+movie+triggered6-The+Waxworks+Room7-The+Slave+Owner+Conspiracy+object+view8-The+Lost+Museum+Archive9-The+Lost+Museum+Classroom&amp;rft.publisher=Jessica+Dauterive&amp;rft.source=http%3A%2F%2Flostmuseum.cuny.edu%2F&amp;rft.title=Lost+Museum+Screenshots&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F503"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/502.html" class="permalink">Myst Screenshot</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/502.html"><img src="https://20.rrchnm.org/files/square_thumbnails/9b49a1fdb00c06d2be9e50c82a409531.jpg" alt="Screen Shot 2016-10-06 at 12.08.27 PM.png" title="Screen Shot 2016-10-06 at 12.08.27 PM.png"></a>    </div>
+    
+
+<div class="item-description">
+A screen shot of the original adventure puzzle game Myst.</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Jessica+Dauterive&amp;rft.description=A+screen+shot+of+the+original+adventure+puzzle+game+Myst.&amp;rft.source=http%3A%2F%2Fwww.mystjourney.com%2Fimg%2Fscreenshots%2Fmyst-42.jpg&amp;rft.title=Myst+Screenshot&amp;rft.type=Still+Image&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F502"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/488.html" class="permalink">September 11 Digital Archive Library of Congress</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/488.html"><img src="https://20.rrchnm.org/files/square_thumbnails/7fa71599a881661451c19c2b7f63b140.jpg" alt="Library of Congress.png" title="Library of Congress.png"></a>    </div>
+    
+
+<div class="item-description">
+Screenshot of the September 11 Digital Archive Entry into the Library of Congress</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Jordan+Bratt&amp;rft.description=Screenshot+of+the+September+11+Digital+Archive+Entry+into+the+Library+of+Congress&amp;rft.date=December+15%2C+2014&amp;rft.title=September+11+Digital+Archive+Library+of+Congress&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F488"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/487.html" class="permalink">Blackout History Project</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/487.html"><img src="https://20.rrchnm.org/files/square_thumbnails/daae6d971b6f0007783a67241a1b770c.jpg" alt="Blackout History Project Home Page.png" title="Blackout History Project Home Page.png"></a>    </div>
+    
+
+<div class="item-description">
+Screenshot of the Blackout History Project Home Page</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Jordan+Bratt&amp;rft.description=Screenshot+of+the+Blackout+History+Project+Home+Page&amp;rft.date=December+10%2C+2014&amp;rft.format=PNG&amp;rft.title=Blackout+History+Project&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F487"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/486.html" class="permalink">Zotero</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/486.html"><img src="https://20.rrchnm.org/files/square_thumbnails/ebfa63199a09f3dbbd0f6b23e6762a75.jpg" alt="Zotero - FIX.png" title="Zotero - FIX.png"></a>    </div>
+    
+
+<div class="item-description">
+Screenshot of Zotero site</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Alyssa+Fahringer&amp;rft.contributor=Zotero&amp;rft.description=Screenshot+of+Zotero+site&amp;rft.date=Captured+December+9%2C+2014&amp;rft.format=PNG&amp;rft.title=Zotero&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F486"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/485.html" class="permalink">Firefox</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/485.html"><img src="https://20.rrchnm.org/files/square_thumbnails/d2e447379048420428d5cb71ee4745cf.jpg" alt="Firefox 2004 - FIX.png" title="Firefox 2004 - FIX.png"></a>    </div>
+    
+
+<div class="item-description">
+Screenshot of Firefox site</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Alyssa+Fahringer&amp;rft.contributor=Firefox&amp;rft.description=Screenshot+of+Firefox+site&amp;rft.date=Captured+December+9%2C+2014&amp;rft.format=PNG&amp;rft.title=Firefox&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F485"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/482.html" class="permalink">PressForward</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/482.html"><img src="https://20.rrchnm.org/files/square_thumbnails/dec86db931f59c122786063d61a1e010.jpg" alt="PressForward.png" title="PressForward.png"></a>    </div>
+    
+
+<div class="item-description">
+Screenshot of PressForward on Timeline JS </div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Alyssa+Fahringer&amp;rft.contributor=Timeline+JS&amp;rft.description=Screenshot+of+PressForward+on+Timeline+JS+&amp;rft.date=Captured+December+9%2C+2014&amp;rft.format=PNG&amp;rft.rights=Public+domain&amp;rft.title=PressForward&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F482"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/481.html" class="permalink">Omeka</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/481.html"><img src="https://20.rrchnm.org/files/square_thumbnails/7079af0390068433e6f605686b322e2d.jpg" alt="Omeka.png" title="Omeka.png"></a>    </div>
+    
+
+<div class="item-description">
+Screenshot of Omeka on Timeline jS</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Alyssa+Fahringer&amp;rft.contributor=Timeline+JS&amp;rft.description=Screenshot+of+Omeka+on+Timeline+jS&amp;rft.date=Captured+December+9%2C+2014&amp;rft.format=PNG&amp;rft.rights=Public+domain&amp;rft.title=Omeka&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F481"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+<div class="item hentry">
+    <h3><a href="show/480.html" class="permalink">History</a></h3>
+    <div class="item-meta">
+        <div class="item-img">
+        <a href="show/480.html"><img src="https://20.rrchnm.org/files/square_thumbnails/862289e27429f22170905073c5b5c687.jpg" alt="history.png" title="history.png"></a>    </div>
+    
+
+<div class="item-description">
+Screenshot of History on Timeline JS</div>
+
+  
+
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Alyssa+Fahringer&amp;rft.contributor=Timeline+JS&amp;rft.description=Screenshot+of+History+on+Timeline+JS&amp;rft.date=Captured+December+9%2C+2014&amp;rft.format=PNG&amp;rft.rights=Public+domain&amp;rft.title=History&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F480"></span>
+    </div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->
+
+<nav class="pagination-nav" aria-label="Pagination">
+    <ul class="pagination">
+        
+        <li class="page-input">
+        <form action="browse.html" method="get" accept-charset="utf-8">
+        <label>Page<input type="text" name="page" title="Current Page" value="1"></label> of 43        </form>
+        </li>
+
+                <!-- Next page link -->
+        <li class="pagination_next">
+                        <a rel="next" href="browse%3Fpage=2.html">Next Page</a>
+        </li>
+            </ul>
+</nav>
+
+
+<div id="outputs">
+    <span class="outputs-label">Output Formats</span>
+                <p id="output-format-list">
+        <a href="https://20.rrchnm.org/items/browse?output=atom">atom</a>, <a href="https://20.rrchnm.org/items/browse?output=dcmes-xml">dcmes-xml</a>, <a href="https://20.rrchnm.org/items/browse?output=json">json</a>, <a href="https://20.rrchnm.org/items/browse?output=omeka-xml">omeka-xml</a>, <a href="https://20.rrchnm.org/items/browse?output=rss2">rss2</a>        </p>
+    </div>
+
+
+</div><!-- end content -->
+
+<footer>
+
+    <div id="footer-content" class="center-div">
+                        <nav><ul class="navigation">
+    <li>
+        <a href="../about-this-site.html">About</a>
+    </li>
+    <li>
+        <a href="browse/type/project.html">Projects</a>
+    </li>
+    <li>
+        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+    </li>
+    <li>
+        <a href="../exhibits.html">Histories</a>
+    </li>
+    <li class="active">
+        <a href="browse.html">See it All</a>
+    </li>
+</ul></nav>
+        <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+
+    </div><!-- end footer-content -->
+
+     
+</footer>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        Omeka.showAdvancedForm();
+               Omeka.dropDown();
+    });
+</script>
+
+</body>
+
+</html>

@@ -8,14 +8,20 @@ snapshots, and the Dockerfile. The ~2.3 GB of binary media lives
 
 ## Archive storage
 
-The `archive/` directory (images, audio, video, zips, PDFs — ~2.3 GB
-across ~4,500 files) is **not tracked in git** (`.gitignore`d). It's
-hosted separately in an S3-compatible bucket and provided to the
-Caddy container at build or run time.
+Media (images, audio, video, zips, PDFs — ~2.3 GB across ~4,500
+files) is **served directly from an S3-compatible bucket** at
+`https://obj.rrchnm.org/occupyarchive.org/archive/`. The serving
+container ships HTML, JSON, and Pagefind only; it does not hold
+binary media.
 
-Contents:
+Every `/archive/<subdir>/<file>` reference in the HTML and JSON has
+been rewritten to the absolute bucket URL by
+`build/rewrite_archive_urls.py`. Re-run that script after any
+regeneration from the Omeka source.
 
-| Subdir | Files | Size | Purpose |
+Contents (bucket layout mirrors the original Omeka tree):
+
+| Bucket path | Files | Size | Purpose |
 |---|---|---|---|
 | `archive/files/` | 2,491 | 2.1 GB | originals (jpg, pdf, mp3, mp4, zip, …) |
 | `archive/fullsize/` | 981 | 181 MB | image derivative — display size |
@@ -25,42 +31,12 @@ Contents:
 Omeka's proportional `archive/thumbnails/` derivative is intentionally
 omitted — the theme uses `square_thumbnails/` exclusively.
 
-### Supplying `archive/` to a running image
-
-Two supported patterns:
-
-**A. Fetch at image build time from S3 / R2 / object store.**
-Extend the Dockerfile with a build-arg and a single tarball fetch
-after the `COPY . /srv` line:
-
-```dockerfile
-ARG ARCHIVE_URL
-RUN curl -fsSL "$ARCHIVE_URL" | tar -xz -C /srv
-```
-
-Bucket layout: a single `archive.tar.gz` at the bucket root, or
-shard by subdirectory (`files.tar.gz`, `fullsize.tar.gz`,
-`square_thumbnails.tar.gz`, `theme_uploads.tar.gz`) if uploads need
-to stay under per-object limits.
-
-**B. Bind-mount at runtime.** Keep the image lean (~250 MB) and
-mount the archive at container start:
-
-```bash
-docker run --rm -p 8080:80 \
-  -v /path/to/archive:/srv/archive:ro \
-  occupyarchive-static
-```
-
-Caddy serves `/archive/*` with a year-long immutable cache header, so
-either pattern behaves identically to the client.
-
 ### Integrity
 
-All 4,454 files on disk are referenced by HTML or `data/files.json`,
-and every reference resolves — `archive/` is in sync with the rest
-of the static site. Keep it that way if you regenerate it from the
-Omeka source.
+All 4,454 objects in the bucket are referenced by HTML or
+`data/files.json`, and every reference resolves to a bucket URL.
+Keep it that way if you regenerate from the Omeka source: re-upload
+new/changed objects and re-run `rewrite_archive_urls.py`.
 
 ## Outcomes at a glance
 
@@ -77,7 +53,7 @@ Omeka source.
 | Pagefind index | 37 MB, 8,325 pages, 40,462 words, 3 filters |
 | Featured-item randomizer pool | 11 items |
 | Map pins (GeoJSON) | 79 (from 88 rows in `omeka_locations`) |
-| Archive media (sidecar, not in repo) | 4,454 files, ~2.3 GB |
+| Archive media (bucket-hosted, not in repo) | 4,454 files, ~2.3 GB |
 | Serve image base | `stagex/user-caddy` |
 
 ## Upstream source tree
@@ -110,6 +86,7 @@ All scripts are idempotent and safe to re-run.
 | `generate_map.py` | Replace the broken Omeka Geolocation + Google Maps v3 page with Leaflet + OSM, fed from a static `data/geodata.geojson`. |
 | `strip_ga.py` | Remove the baked-in Google Analytics `<script>` block (UA-3026200-6). Matomo (rrchnm) left intact. |
 | `strip_fakecron.py` | Remove both the external `fakecron.js` `<script src>` and the inline `var FakeCron = {}` config block. |
+| `rewrite_archive_urls.py` | Rewrite every `/archive/<subdir>/` reference in HTML + JSON to `https://obj.rrchnm.org/occupyarchive.org/archive/<subdir>/`. Idempotent. |
 
 ## Work completed
 
@@ -126,15 +103,15 @@ Stage 2 (Caddy) ships the static site.
 - Caddyfile:
   - `auto_https off`, `admin off`, `:80`.
   - `try_files {path} {path}.html` — handles extensionless URLs (e.g. `/items/show/1000` → `items/show/1000.html`, `/items/browse/type/6/page/100` → `.../page/100.html`). `file_server`'s default `index` directive serves `index.html` for directory requests natively, so no third fallback arm is needed.
-  - Long-cache `public, max-age=31536000, immutable` for `/archive/*`, `/pagefind/*`, `/themes/*`.
+  - Long-cache `public, max-age=31536000, immutable` for `/pagefind/*`, `/themes/*` (archive media is served by the bucket, not Caddy).
   - `encode gzip zstd` — Pagefind `.pagefind` shards are pre-compressed and skipped by Caddy's default MIME detection.
 
-Build + run (archive bind-mounted; see [Archive storage](#archive-storage)
-for the S3-fetch alternative):
+Build + run (media is fetched from the bucket — see
+[Archive storage](#archive-storage)):
 
 ```bash
 docker build -t occupyarchive-static .
-docker run --rm -p 8080:80 -v /path/to/archive:/srv/archive:ro occupyarchive-static
+docker run --rm -p 8080:80 occupyarchive-static
 ```
 
 ### 2. Client-side search (Pagefind)
@@ -400,7 +377,7 @@ line across 8,326 pages (the Twitter account is inactive).
 │   ├── tags.json
 │   └── geodata.geojson         (79 map pins)
 ├── pagefind/                   (36 MB sharded index + WASM)
-├── archive/                    (GITIGNORED — see "Archive storage")
+├── (archive media is bucket-hosted, not in repo — see "Archive storage")
 ├── items/
 │   ├── advanced-search.html    (orphan — link removed, file still on disk)
 │   ├── map.html                (Leaflet + OSM)
@@ -441,7 +418,8 @@ Running from a fresh `_wget/` (skip step 1 if already done):
 8. `python3 build/inject_pagefind.py` — wire up search form + `/search.html`.
 9. `python3 build/generate_featured.py` — featured-item randomizer + pool JSON.
 10. `python3 build/generate_map.py` — GeoJSON + Leaflet map page.
-11. Migrate filter landings to `index.html` form (see rescue sections for why):
+11. `python3 build/rewrite_archive_urls.py` — point every `/archive/` reference at the obj.rrchnm.org bucket.
+12. Migrate filter landings to `index.html` form (see rescue sections for why):
 
     ```bash
     for dir in items/browse/type items/browse/collection; do
@@ -457,11 +435,11 @@ Running from a fresh `_wget/` (skip step 1 if already done):
     any directory-aware server (mod_rewrite `!-d`, Caddy `try_files`).
     Either patch the rescue scripts to write `N/index.html` directly,
     or run the loop above.
-12. `npx -y pagefind@latest --site occupyarchive.org_static` — build the search index (reads `data-pagefind-body` + facet spans).
-13. `docker build -t occupyarchive-static occupyarchive.org_static` — ship image.
+13. `npx -y pagefind@latest --site occupyarchive.org_static` — build the search index (reads `data-pagefind-body` + facet spans).
+14. `docker build -t occupyarchive-static occupyarchive.org_static` — ship image.
 
-Steps 3–11 are order-independent among each other (no cross-dependencies);
-keep them before step 12 so Pagefind indexes the final HTML.
+Steps 3–12 are order-independent among each other (no cross-dependencies);
+keep them before step 13 so Pagefind indexes the final HTML.
 
 ## Deferred / known issues
 
@@ -485,7 +463,7 @@ Smoke-test against the serving container:
 - [ ] `/` renders; reload swaps the two featured items.
 - [ ] `/items/browse` paginates to the last page.
 - [ ] `/items/browse/type/6` (Images) renders; pagination links work.
-- [ ] `/items/show/<id>` — sample 20 pages; images load from `/archive/`.
+- [ ] `/items/show/<id>` — sample 20 pages; images load from `obj.rrchnm.org/occupyarchive.org/archive/...`.
 - [ ] `/items/tags.html` renders and every tag is a clickable `<a>`; a sampled tag navigates to its `/items/browse/tag/<slug>.html` page.
 - [ ] `/items/map.html` shows a US-centered map with 79 pins; popups link to show pages.
 - [ ] `/search.html?q=seattle` returns ranked results; clicking a result goes to the item page.

@@ -15,5 +15,6 @@ jobs:
     secrets: inherit
     with:
       context_root: "occupyarchive"
-      website-devl-fqdn: "static.rrchnm.org"
+      website-devl-fqdn: "occupyarchive.dev.chnm.gmu.edu"
       website-prod-fqdn: "occupyarchive.org"
+      runner_labels: '["self-hosted","IncusOS"]'

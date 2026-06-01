@@ -17,3 +17,4 @@ jobs:
       context_root: "resounding"
       website-devl-fqdn: "resounding.dev.chnm.gmu.edu"
       website-prod-fqdn: "resoundingthearchives.org"
+      runner_labels: '["self-hosted","IncusOS"]'

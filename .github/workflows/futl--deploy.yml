@@ -17,3 +17,4 @@ jobs:
       context_root: "futl"
       website-devl-fqdn: "futl.dev.chnm.gmu.edu"
       website-prod-fqdn: "futl.dev.chnm.gmu.edu"
+      runner_labels: '["self-hosted","IncusOS"]'

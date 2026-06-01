@@ -17,3 +17,4 @@ jobs:
       context_root: "eagleeyecitizen"
       website-devl-fqdn: "eec.dev.chnm.gmu.edu"
       website-prod-fqdn: "eagleeyecitizen.org"
+      runner_labels: '["self-hosted","IncusOS"]'

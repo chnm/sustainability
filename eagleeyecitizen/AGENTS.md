@@ -106,17 +106,21 @@ homepage, `solve-challenges.html`, a `solve/bp/`, `solve/sio/`,
 
 ### Status
 
-Last full audit: **none performed.** The archive inherits Drupal 9 +
-EEC theme markup; remediation has only been done as a side-effect of
-other work. Treat the table below as a living triage list — when you
-find or fix a WCAG issue, add or update a row instead of leaving it
-in commit messages.
+Last full audit: **2026-06-02**, axe-core 4.11.4 via `mcp__a11y`. Sample
+of 7 pages: `index.html`, `about.html`, `teach.html`,
+`solve-challenges.html`, `create-challenges.html`, `solve/bp/2705.html`,
+`solve/sio/27403.html`, `solve/tat/6140.html`. Treat the table below as
+a living triage list — when you find or fix an issue, add or update a
+row instead of leaving it in commit messages.
 
 | ID | SC | Lvl | Where | Status | Notes |
 |----|----|----|-------|--------|-------|
 | BANNER-CONTRAST | 1.4.3 Contrast (Minimum) | AA | `assets/archive.css` `.ee-archive-banner` | ✅ verified | Text `#f9f5ef` on `#474747` ≈ 9.4:1 (AAA); underlined link same color (no color-only affordance). |
 | BANNER-NAME | 4.1.2 Name, Role, Value | AA | banner markup | ✅ verified | `role="note"` on the wrapper; logo link has `aria-label="RRCHNM"`. |
 | BANNER-ORDER | 1.3.2 Meaningful Sequence | A | every page | ✅ verified | Banner is statically rendered, encountered first by screen readers. |
+| LOGO-LINK-NAME | 2.4.4 Link Purpose / 4.1.2 Name, Role, Value | A | every page — `<a class="logo">` (header) and `<a class="logo-chnm">` (footer) | ❌ open | Both anchors have empty inner HTML and rely on CSS `background-image`; axe reports "Element is in tab order and does not have accessible text." Add `aria-label="Eagle Eye Citizen — home"` to `.logo` and `aria-label="Roy Rosenzweig Center for History and New Media"` to `.logo-chnm`. Universal — fix via repo-wide sweep. |
+| HP-TILE-IMG-ALT | 1.1.1 Non-text Content | A | `index.html` — `.challenge-tile img` (homepage tile thumbnails, 2 occurrences) | ❌ open | The inline randomizer JS sets `src` from `assets/challenges.json` but never sets `alt`. Decorative is fine here (the link's `.title` span already names it) — call `img.setAttribute("alt", "")` inside `apply()`. |
+| TEACH-RIBBON-CONTRAST | 1.4.3 Contrast (Minimum) | AA | `teach.html` — `.topic-title.ribbon.teach-tile--titlec span` (6 ribbon labels: Resources, Achievements, Differentiation, In a Pinch, Assessment, Lesson Planning) | ❌ open | White on `#068690` teal at 17.6px bold = **4.35:1** (needs 4.5:1). Darken the teal in the EEC stylesheet — e.g. `#015960` ≈ 7.6:1 or `#06727b` ≈ 5.0:1. CSS lives in `sites/default/files/css/css_wmK-…css`; safer to override in `assets/archive.css` than to edit the cached Drupal CSS bundle. |
 
 ### Known suspects (unverified — needs an audit pass)
 

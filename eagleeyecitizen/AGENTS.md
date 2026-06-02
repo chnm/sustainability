@@ -122,6 +122,15 @@ row instead of leaving it in commit messages.
 | HP-TILE-IMG-ALT | 1.1.1 Non-text Content | A | `index.html` — `.challenge-tile img` (homepage tile thumbnails, 2 occurrences) | ❌ open | The inline randomizer JS sets `src` from `assets/challenges.json` but never sets `alt`. Decorative is fine here (the link's `.title` span already names it) — call `img.setAttribute("alt", "")` inside `apply()`. |
 | TEACH-RIBBON-CONTRAST | 1.4.3 Contrast (Minimum) | AA | `teach.html` — `.topic-title.ribbon.teach-tile--titlec span` (6 ribbon labels: Resources, Achievements, Differentiation, In a Pinch, Assessment, Lesson Planning) | ❌ open | White on `#068690` teal at 17.6px bold = **4.35:1** (needs 4.5:1). Darken the teal in the EEC stylesheet — e.g. `#015960` ≈ 7.6:1 or `#06727b` ≈ 5.0:1. CSS lives in `sites/default/files/css/css_wmK-…css`; safer to override in `assets/archive.css` than to edit the cached Drupal CSS bundle. |
 
+### Todos
+
+- [ ] **LOGO-LINK-NAME** — Add `aria-label="Eagle Eye Citizen — home"` to every `<a class="logo">` and `aria-label="Roy Rosenzweig Center for History and New Media"` to every `<a class="logo-chnm">`. Repo-wide sed sweep over ~1,508 HTML files. (SC 2.4.4 / 4.1.2 — A)
+- [ ] **HP-TILE-IMG-ALT** — In `index.html`'s tile randomizer JS (`apply()`), call `img.setAttribute("alt", "")` so the thumbnails are correctly marked decorative (the link's `.title` already names each tile). (SC 1.1.1 — A)
+- [ ] **TEACH-RIBBON-CONTRAST** — Override the ribbon background to a darker teal (e.g. `#06727b` for AA, `#015960` for AAA) via a rule in `assets/archive.css` rather than editing the Drupal CSS bundle. (SC 1.4.3 — AA)
+- [ ] **SKIP-LINK-TARGET** — Add `id="main-content"` to the `<main>` element on every page so the existing "Skip to main content" link has somewhere to focus. axe doesn't flag this (it accepts the landmark for 2.4.1) but the link is currently broken. (SC 2.4.1 — A)
+- [ ] **AUDIT-INCOMPLETE-CONTRAST** — Every page returned `incomplete: 1` from axe, almost certainly a `color-contrast` check it couldn't resolve against a gradient/image background. Manually verify and close out.
+- [ ] **AUDIT-SUSPECTS** — Work through the unverified items in the "Known suspects" subsection below (dead form labels, decorative iconography, copper-on-cream contrast, headings, lang on challenge-detail pages, 2.4.11 Focus Not Obscured for the sticky banner).
+
 ### Known suspects (unverified — needs an audit pass)
 
 - **Forms** still present in the archive (challenge answer inputs, search

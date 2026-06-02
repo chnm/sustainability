@@ -30,7 +30,7 @@
 <div class="front-header">
   <div class="container">
     <div class="b-1">
-      <a href="index.html" class="logo"></a>
+      <a href="index.html" class="logo" aria-label="Eagle Eye Citizen — home"></a>
       <div class="tagline">Solve and create American history and civics challenges to explore Library of Congress primary sources — and look closer.</div>
     </div>
     <div>
@@ -49,7 +49,7 @@
 </div>
 
 
-<main>
+<main id="main-content">
   <div class="border-well">
     <div class="container">
 
@@ -73,7 +73,7 @@
               </div>
               <div>
                 <div class="thumbnail">
-                  <img src="https://obj.rrchnm.org/eagleeyecitizen.org/files/Abrahams_draft_thumbnail.jpg">
+                  <img src="https://obj.rrchnm.org/eagleeyecitizen.org/files/Abrahams_draft_thumbnail.jpg" alt="">
                 </div>
               </div>
                         </div>
@@ -82,7 +82,7 @@
             <div class="challenge-tile t_1">
                           <div>
                 <div class="thumbnail">
-                  <img src="https://obj.rrchnm.org/eagleeyecitizen.org/files/Eight_Dollars_A_Day_thumbnail.jpg">
+                  <img src="https://obj.rrchnm.org/eagleeyecitizen.org/files/Eight_Dollars_A_Day_thumbnail.jpg" alt="">
                 </div>
               </div>
                <div>
@@ -106,7 +106,7 @@
   <div class="footer--top"></div>
   <div class="container">
     <div>
-      <a href="https://rrchnm.org" class="logo-chnm"></a>
+      <a href="https://rrchnm.org" class="logo-chnm" aria-label="Roy Rosenzweig Center for History and New Media"></a>
       <ul>
         <li><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a></li>
         <li><a href="about.html">About</a></li>
@@ -167,7 +167,10 @@
       const typeEl = tile.querySelector(".type");
       if (typeEl) typeEl.textContent = item.type_label;
       const img = tile.querySelector(".thumbnail img");
-      if (img) img.setAttribute("src", item.thumb);
+      if (img) {
+        img.setAttribute("src", item.thumb);
+        img.setAttribute("alt", "");
+      }
     };
     apply(".challenge-tile.t_0", a);
     apply(".challenge-tile.t_1", b);

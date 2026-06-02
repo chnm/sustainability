@@ -55,3 +55,11 @@
 header .ee-archived-notice {
   display: none;
 }
+
+/* WCAG 1.4.3 Contrast (Minimum) — Drupal's .teach-link--well .ribbon sets
+   background #068690 with white text (4.35:1, fails AA at 17.6px bold).
+   Darken to #015960 (≈ 7.6:1, passes AAA). body prefix bumps specificity
+   above the Drupal rule so we don't have to edit the cached CSS bundle. */
+body .teach-link--well .ribbon {
+  background-color: #015960;
+}

@@ -82,3 +82,63 @@ fetch fails and the hardcoded fallback tiles are kept.
 - `position: sticky` on the banner needs to be preserved — History
   Matters uses `position: relative` but EEC's banner is sticky by
   intent.
+
+## Accessibility — WCAG triage
+
+**Target:** WCAG 2.1 Level AA is required. WCAG 2.2 additions are
+nice-to-have; prefer to fix anything in 2.2 that's cheap, but a 2.2-only
+failure doesn't block.
+
+**How to audit a page.** Two MCPs are available at user scope:
+
+- `mcp__a11y__test_accessibility` — pass a URL, runs axe-core, returns
+  rule violations grouped by impact. Use this as the default scan.
+- `mcp__a11y__check_color_contrast` and `check_aria_attributes` —
+  targeted checks when triaging one finding.
+- For interactive flow checks, drive the page with the `playwright` MCP
+  and pair it with `mcp__a11y__test_html_string` on the post-interaction
+  DOM.
+
+Live URL to scan: `http://10.112.113.211:8082/<path>`. For a sweep,
+script the MCP over a representative sample (one of each layout —
+homepage, `solve-challenges.html`, a `solve/bp/`, `solve/sio/`,
+`solve/tat/` page, `about.html`, `teach.html`).
+
+### Status
+
+Last full audit: **none performed.** The archive inherits Drupal 9 +
+EEC theme markup; remediation has only been done as a side-effect of
+other work. Treat the table below as a living triage list — when you
+find or fix a WCAG issue, add or update a row instead of leaving it
+in commit messages.
+
+| ID | SC | Lvl | Where | Status | Notes |
+|----|----|----|-------|--------|-------|
+| BANNER-CONTRAST | 1.4.3 Contrast (Minimum) | AA | `assets/archive.css` `.ee-archive-banner` | ✅ verified | Text `#f9f5ef` on `#474747` ≈ 9.4:1 (AAA); underlined link same color (no color-only affordance). |
+| BANNER-NAME | 4.1.2 Name, Role, Value | AA | banner markup | ✅ verified | `role="note"` on the wrapper; logo link has `aria-label="RRCHNM"`. |
+| BANNER-ORDER | 1.3.2 Meaningful Sequence | A | every page | ✅ verified | Banner is statically rendered, encountered first by screen readers. |
+
+### Known suspects (unverified — needs an audit pass)
+
+- **Forms** still present in the archive (challenge answer inputs, search
+  inputs) are non-functional but keep their labels, required markers,
+  and submit buttons. Confirm focus order is sane and that "Required"
+  + `aria-required` don't lie when the form does nothing.
+- **Decorative SVG/PNG iconography** (`themes/eagleeye/img/*`) is loaded
+  via CSS `background-image`, which is correct for purely decorative
+  content but means any informational icon needs an accompanying text
+  label in the DOM.
+- **Color contrast on theme accents** (`#bd7332` copper on `#f9f5ef`
+  cream — used for tile labels, buttons) — has not been measured.
+- **Headings** — Drupal often emits skipped heading levels. Run an axe
+  pass and check `heading-order`.
+- **Lang attribute** — `<html lang="en">` is present on the homepage;
+  confirm every page has it (the original Drupal render should, but the
+  challenge-detail pages are worth a spot check).
+- **Skip link** — every page has `<a href="…#main-content" class="visually-hidden focusable">Skip to main content</a>`,
+  but `#main-content` is not currently set on the `<main>` element on
+  most pages. That's a 2.4.1 Bypass Blocks failure — should be fixed by
+  adding `id="main-content"` to the `<main>` tag.
+- **2.2-only worth keeping in mind:** 2.4.11 Focus Not Obscured (Minimum)
+  — verify the sticky archive banner doesn't cover focused elements
+  near the top of the page when tabbing.

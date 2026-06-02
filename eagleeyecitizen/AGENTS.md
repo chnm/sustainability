@@ -121,13 +121,13 @@ row instead of leaving it in commit messages.
 | LOGO-LINK-NAME | 2.4.4 Link Purpose / 4.1.2 Name, Role, Value | A | every page — `<a class="logo">` (header) and `<a class="logo-chnm">` (footer) | ✅ fixed 2026-06-02 | Added `aria-label="Eagle Eye Citizen — home"` to all 1503 header logo anchors and `aria-label="Roy Rosenzweig Center for History and New Media"` to all 1503 footer marks. Verified clean on re-scan. |
 | HP-TILE-IMG-ALT | 1.1.1 Non-text Content | A | `index.html` — `.challenge-tile img` (homepage tile thumbnails, 2 occurrences) | ✅ fixed 2026-06-02 | Added `alt=""` to both hardcoded fallback `<img>` tags and `img.setAttribute("alt", "")` inside `apply()` in the randomizer JS. Decorative is correct — tile title text already names each link. Verified clean on re-scan. |
 | SKIP-LINK-TARGET | 2.4.1 Bypass Blocks | A | every page — `<main>` element | ✅ fixed 2026-06-02 | Added `id="main-content"` so the existing `<a href="…#main-content">Skip to main content</a>` link now lands somewhere. axe didn't flag this (accepts the landmark) but the link was nonfunctional. 1503 pages. |
-| TEACH-RIBBON-CONTRAST | 1.4.3 Contrast (Minimum) | AA | `teach.html` — `.topic-title.ribbon.teach-tile--titlec span` (6 ribbon labels: Resources, Achievements, Differentiation, In a Pinch, Assessment, Lesson Planning) | ❌ open | White on `#068690` teal at 17.6px bold = **4.35:1** (needs 4.5:1). Darken the teal in the EEC stylesheet — e.g. `#015960` ≈ 7.6:1 or `#06727b` ≈ 5.0:1. CSS lives in `sites/default/files/css/css_wmK-…css`; safer to override in `assets/archive.css` than to edit the cached Drupal CSS bundle. |
+| TEACH-RIBBON-CONTRAST | 1.4.3 Contrast (Minimum) | AA | `teach.html` — `.topic-title.ribbon.teach-tile--titlec span` (6 ribbon labels: Resources, Achievements, Differentiation, In a Pinch, Assessment, Lesson Planning) | ✅ fixed 2026-06-02 | Override added to `assets/archive.css`: `body .teach-link--well .ribbon { background-color: #015960; }`. White on `#015960` ≈ 7.6:1 (passes AAA). `body` prefix bumps specificity above Drupal's `.teach-link--well .ribbon` so the cached CSS bundle stays untouched. Verified clean on re-scan. |
 
 ### Todos
 
 - [x] **LOGO-LINK-NAME** — done 2026-06-02.
 - [x] **HP-TILE-IMG-ALT** — done 2026-06-02.
-- [ ] **TEACH-RIBBON-CONTRAST** — Override the ribbon background to a darker teal (e.g. `#06727b` for AA, `#015960` for AAA) via a rule in `assets/archive.css` rather than editing the Drupal CSS bundle. (SC 1.4.3 — AA)
+- [x] **TEACH-RIBBON-CONTRAST** — done 2026-06-02 (`#015960`, ≈ 7.6:1, AAA).
 - [x] **SKIP-LINK-TARGET** — done 2026-06-02.
 - [ ] **AUDIT-INCOMPLETE-CONTRAST** — Every page returned `incomplete: 1` from axe, almost certainly a `color-contrast` check it couldn't resolve against a gradient/image background. Manually verify and close out.
 - [ ] **AUDIT-SUSPECTS** — Work through the unverified items in the "Known suspects" subsection below (dead form labels, decorative iconography, copper-on-cream contrast, headings, lang on challenge-detail pages, 2.4.11 Focus Not Obscured for the sticky banner).

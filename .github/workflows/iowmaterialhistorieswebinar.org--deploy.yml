@@ -1,0 +1,20 @@
+name: "Deploy Static Website -- iowmaterialhistorieswebinar.org"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "**"
+    paths:
+      - 'iowmaterialhistorieswebinar.org/**'
+      - "!.github/**"
+
+jobs:
+  deploy:
+    uses: chnm/.github/.github/workflows/static--deploy.yml@main
+    secrets: inherit
+    with:
+      context_root: "iowmaterialhistorieswebinar.org"
+      website-devl-fqdn: "iowmaterial.dev.chnm.gmu.edu"
+      website-prod-fqdn: "iowmaterial.dev.chnm.gmu.edu"
+      runner_labels: '["self-hosted","IncusOS"]'

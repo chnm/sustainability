@@ -1,0 +1,20 @@
+name: "Deploy Static Website -- 20.rrchnm.org"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "**"
+    paths:
+      - '20.rrchnm.org/**'
+      - "!.github/**"
+
+jobs:
+  deploy:
+    uses: chnm/.github/.github/workflows/static--deploy.yml@main
+    secrets: inherit
+    with:
+      context_root: "20.rrchnm.org"
+      website-devl-fqdn: "20th.dev.chnm.gmu.edu"
+      website-prod-fqdn: "20th.dev.chnm.gmu.edu"
+      runner_labels: '["self-hosted","IncusOS"]'

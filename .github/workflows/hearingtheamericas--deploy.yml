@@ -1,0 +1,20 @@
+name: "Deploy Static Website -- hearingtheamericas"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "**"
+    paths:
+      - 'hearingtheamericas/**'
+      - "!.github/**"
+
+jobs:
+  deploy:
+    uses: chnm/.github/.github/workflows/static--deploy.yml@main
+    secrets: inherit
+    with:
+      context_root: "hearingtheamericas"
+      website-devl-fqdn: "hearamerica.dev.chnm.gmu.edu"
+      website-prod-fqdn: "hearamerica.dev.chnm.gmu.edu"
+      runner_labels: '["self-hosted","IncusOS"]'

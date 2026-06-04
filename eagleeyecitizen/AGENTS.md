@@ -43,15 +43,12 @@ replacement, then redeploy.
 
 ## Asset hosting
 
-User-uploaded files (challenge thumbnails, source images) live in the
-MinIO bucket at `obj.rrchnm.org/eagleeyecitizen.org/files/`. Only the
-`files/` subdirectory is referenced; the bucket's `js/`, `css/`, and
-`ctools/` directories are unused by the archive.
-
-**Spaces in filenames must be `%20`, not `&#32;`.** The bucket only
-serves the percent-encoded form. Decimal HTML entities (`&#32;`) don't
-round-trip correctly when assigned via `setAttribute('src', …)` from
-the challenges manifest.
+User-uploaded files (challenge thumbnails, source images) are referenced
+in-repo as `sites/default/files/<name>`. The actual bytes live in the
+MinIO bucket at `obj.rrchnm.org/eagleeyecitizen.org/files/`; the
+production web server rewrites `/sites/default/files/...` requests to
+that bucket. The static export therefore carries no `obj.rrchnm.org`
+URLs — the redirect is the single source of truth for where files live.
 
 ## Homepage tile manifest
 

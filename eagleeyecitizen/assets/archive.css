@@ -63,3 +63,15 @@ header .ee-archived-notice {
 body .teach-link--well .ribbon {
   background-color: #015960;
 }
+
+/* End-of-challenge Submit POSTed an AJAX score; in the archive it's been
+   swapped for a link back to the matching solve-challenges tab. Mirror the
+   `.action-btns button` sizing so the anchor reads as a button. */
+.action-btns a.action--complete {
+  display: inline-block;
+  width: 340px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 0.5rem 1rem;
+  text-decoration: none;
+}

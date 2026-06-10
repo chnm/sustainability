@@ -1,0 +1,46 @@
+---
+aliases:
+  - /items/show/33673
+  - /items/show/33673.html
+collections: []
+contributors: []
+date: '2008-02-14 21:53:47'
+draft: false
+dublin_core:
+  Description:
+    - html: false
+      text: There is a massive experiment being performed on thousands of primarily African American children in New Orleans. No one asked the permission of the children. No one asked permission of their parents. This experiment involves a fight for the education of children.\r\n\r\nThis is the experiment.\r\n\r\nThe First Half\r\n\r\nHalf of the nearly 30,000 children expected to enroll in the fall of 2007 in New Orleans public schools have been enrolled in special public schools, most called charter schools. These schools have been given tens of millions of dollars by the federal government in extra money, over and above their regular state and local money, to set up and operate. These special public schools are not open to every child and do not allow every student who wants to attend to enroll. Some charter schools have special selective academic criteria which allow them to exclude children in need of special academic help. Other charter schools have special admission policies and student and parental requirements which effectively screen out many children. The children in this half of the experiment are taught by accredited teachers in manageable sized classes. There are no overcrowded classes because these charter schools have enrollment caps which allow them to turn away\r\n\r\nstudents. These schools also educate far fewer students with academic or emotional disabilities. Children in charter schools are in better facilities than the other half of the children. These schools are getting special grants from Laura Bush to rebuild their libraries and grants from other foundations to help them educate. These schools do educate some white children along with African American children. These are public schools, but they are not available to all the public school students.\r\n\r\nThe Other Half\r\n\r\nThe other half of public school students, over ten thousand children, have been assigned to a one year old experiment in public education run by the State of Louisiana called the \"Recovery School District\" (RSD) program. The education these children receive will be compared to the education received by the first half in the charter schools. These children are effectively what is called the \"control group\" of an experiment - those against whom the others will be evaluated.\r\n\r\nThe RSD schools have not been given millions of extra federal dollars to operate. The new RSD has inexperienced leadership. Many critical vacancies exist in their already insufficient district-wide staff. Many of the teachers are uncertified. In fact, the RSD schools do not yet have enough teachers, even counting the uncertified, to start school in the fall of 2007. Some of the RSD school buildings scheduled to be used for the fall of 2007 have not yet been built.\r\n\r\nIn the first year of this experiment, the RSD had one security guard for every 37 students. Students at John McDonough High said their RSD school, which employed more guards than teachers, had a \"prison atmosphere.\" In some schools, children spent long stretches of their school days in the gymnasium waiting for teachers to show up to teach them.\r\n\r\nThere is little academic or emotional counseling in the RSD schools. Children with special needs suffer from lack of qualified staff. College prep math and science classes and language immersion are rarely offered. Class rooms keep filling up as new children return back to New Orleans and are assigned to RSD schools.\r\n\r\nMany of the RSD schools do not have working kitchens or water fountains. Bathroom facilities are scandalous - teachers at one school report there are two bathrooms for the entire school, one for all the male students, faculty and staff and another for all the females in the building.\r\n\r\nDanatus King, of the NAACP in New Orleans, said \"What happened last year was a tragedy. Many of the city\'s children were denied an education last year because of a failure to plan on the part of the RSD.\"\r\n\r\nHardly any white children attend this half of the school experiment.\r\n\r\nThese are the public schools available to the rest of the public school students.\r\n
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: 'Fighting for the Right to Learn: The Public Education Experiment in New Orleans Two Years after Katrina'
+featured: false
+files:
+  - fullsize:
+    id: 24169
+    mime: application/msword
+    original_filename: Quigley_5b951fc4e7.Fighting for the Right to Learn.doc
+    thumb:
+    url: https://hurricanearchive.org/files/original/14fb29cab17c0914fb29cab185d3.doc
+geo:
+id: 33673
+item_type: Document
+item_type_metadata: {}
+lastmod: '2021-01-12 20:13:24'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '33673'
+tags:
+  - charter schools
+  - rsd
+  - schools
+title: 'Fighting for the Right to Learn: The Public Education Experiment in New Orleans Two Years after Katrina'
+type: items
+---
+
+{{< raw >}}
+There is a massive experiment being performed on thousands of primarily African American children in New Orleans. No one asked the permission of the children. No one asked permission of their parents. This experiment involves a fight for the education of children.\r\n\r\nThis is the experiment.\r\n\r\nThe First Half\r\n\r\nHalf of the nearly 30,000 children expected to enroll in the fall of 2007 in New Orleans public schools have been enrolled in special public schools, most called charter schools. These schools have been given tens of millions of dollars by the federal government in extra money, over and above their regular state and local money, to set up and operate. These special public schools are not open to every child and do not allow every student who wants to attend to enroll. Some charter schools have special selective academic criteria which allow them to exclude children in need of special academic help. Other charter schools have special admission policies and student and parental requirements which effectively screen out many children. The children in this half of the experiment are taught by accredited teachers in manageable sized classes. There are no overcrowded classes because these charter schools have enrollment caps which allow them to turn away\r\n\r\nstudents. These schools also educate far fewer students with academic or emotional disabilities. Children in charter schools are in better facilities than the other half of the children. These schools are getting special grants from Laura Bush to rebuild their libraries and grants from other foundations to help them educate. These schools do educate some white children along with African American children. These are public schools, but they are not available to all the public school students.\r\n\r\nThe Other Half\r\n\r\nThe other half of public school students, over ten thousand children, have been assigned to a one year old experiment in public education run by the State of Louisiana called the \"Recovery School District\" (RSD) program. The education these children receive will be compared to the education received by the first half in the charter schools. These children are effectively what is called the \"control group\" of an experiment - those against whom the others will be evaluated.\r\n\r\nThe RSD schools have not been given millions of extra federal dollars to operate. The new RSD has inexperienced leadership. Many critical vacancies exist in their already insufficient district-wide staff. Many of the teachers are uncertified. In fact, the RSD schools do not yet have enough teachers, even counting the uncertified, to start school in the fall of 2007. Some of the RSD school buildings scheduled to be used for the fall of 2007 have not yet been built.\r\n\r\nIn the first year of this experiment, the RSD had one security guard for every 37 students. Students at John McDonough High said their RSD school, which employed more guards than teachers, had a \"prison atmosphere.\" In some schools, children spent long stretches of their school days in the gymnasium waiting for teachers to show up to teach them.\r\n\r\nThere is little academic or emotional counseling in the RSD schools. Children with special needs suffer from lack of qualified staff. College prep math and science classes and language immersion are rarely offered. Class rooms keep filling up as new children return back to New Orleans and are assigned to RSD schools.\r\n\r\nMany of the RSD schools do not have working kitchens or water fountains. Bathroom facilities are scandalous - teachers at one school report there are two bathrooms for the entire school, one for all the male students, faculty and staff and another for all the females in the building.\r\n\r\nDanatus King, of the NAACP in New Orleans, said \"What happened last year was a tragedy. Many of the city\'s children were denied an education last year because of a failure to plan on the part of the RSD.\"\r\n\r\nHardly any white children attend this half of the school experiment.\r\n\r\nThese are the public schools available to the rest of the public school students.\r\n
+{{< /raw >}}

@@ -1,0 +1,44 @@
+---
+aliases:
+  - /items/show/1716
+  - /items/show/1716.html
+collections: []
+contributors: []
+date: '2006-01-30 17:07:55'
+draft: false
+dublin_core:
+  Date:
+    - html: false
+      text: '0000-00-00 00:00:00'
+  Description:
+    - html: false
+      text: "\\r\\nHurricane Rita Watch: Day Four ... Daybreak \\r\\nThursday, September 22, 2005\\r\\n\\r\\nSome 40 hours from now, Hurricane Rita will plow ashore somewhere less than one hour\\'s drive from where I sit. We\\'re unlikely to dodge this 500-mile-wide bullet, but in the peculiar counter-clockwise morphology of hurricanes, one might pray for a few miles of wobble. Why? Because one side (the east) tends to be more destructive than the other (the west), and the leading edge (the so-called \\\"right-front\\\") packs the most lethal impact. So, when expecting the company of hurricanes, try to sit on the left.\\r\\n\\r\\nThe NOAA\\'s 10 a.m. Central forecast moved \\\"Ground Zero\\\" slightly east from the Bolivar Peninsula -- only a half-hour southwest of us -- toward Port Arthur, the port and petrochemical complex due south of Beaumont. It is a major component of our coverage area, a working-class city with some of the same socio-economic fragility that was exposed in New Orleans by Hurricane Katrina. In real time, only a few minutes would separate the bang-bang impacts on Port Arthur and Beaumont. That\\'s how close we are.\\r\\n\\r\\nIf Rita continues to track eastward -- likely falling into the draft behind the protective high-pressure system now moving out of here -- Beaumont and Southeast Texas might find itself sitting on Rita\\'s left. Or Rita might stay the course and plow into Port Arthur. Or she might back-track toward Galveston again. The only true prediction can be that CNN\\'s intrepid storm-chasers will be on the move through Friday night.\\r\\n\\r\\nSo we\\'re caught up in the swirling crosswinds of uncertainty, too. We are now under a mandatory evacuation, so we have no readers waiting home for our carriers, at least not in any dependable pattern. We have too few pressmen to run the press, too few mailroom personnel to manage the inserting and distribution, no carriers (even if we\\'d send them into a storm with a scrap of paper that\\'s worth 50 cents.) So we have determined that for the next few days, our newspaper will be online exclusively. [UPDATE 6:35 p.m.: We will print an 8-page storm special later tonight, probably by sending pages to our sister paper, the San Antonio Express-News, where they\\'ll be printed. They\\'ll be taken to appropriate shelters immediately and held for our returning subscribers. The urge to create a historical record of the single biggest news event in our paper\\'s 125-year history is strong. All those pages will also be available online.]\\r\\n\\r\\nWhether we\\'ll decamp to Lake Charles, La., or hunker down here, we haven\\'t made a final decision. In the wee hours of Saturday, Lake Charles might be closer to Ground Zero than we are. Or not. Lake Charles is also under and evacuation order, we\\'re told. So are the rather remote inland towns of Jasper and Newton, north of us. We\\'ve tried to scatter our limited reporting resources around the region to anticipate the many stories the Rita is spawning -- evacuees, the people who provide them sanctuary, the useful information they might need, and a view of the homeland they\\'ll want.\\r\\n\\r\\nThis morning, I rose an hour before dawn to check the storm track. The skies here were clear and warm, and utterly still. Not eerily, but ominously. I knew that within 48 hours, the dawn would turn to a boil, slicing through us. In the dark, I lowered the pool level, took down a few wind bells from Paolo Soleri\\'s commune in Arizona, and stowed anything that might be swept up by wind as a lethal projectile. I put some canned food in a box and took a couple books I\\'d hate to lose. And I threw in two extras, for perverse writerly reasons: \\\"Flood\\\" by Robert Penn Warren and \\\"Sudden Times\\\" by a friend, Irish novelist Dermot Healy. Glancing through the titles on the shelf, I remembered planting potatoes at Dermot\\'s western Ireland cottage on St. Patrick\\'s Day 2000, a different kind of morning. I wanted to keep the thought.\\r\\n\\r\\nKeep a good thought for us, too. Come Monday, all might be different.\\r\\n\\r\\nposting from\\r\\nhttp://underthenews.blogspot.com/\\r\\n"
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: 'Hurricane Rita Watch: Day Four ... Daybreak'
+featured: false
+files: []
+geo:
+  address: ''
+  lat: 0.0
+  lng: 0.0
+  zoom: 12
+id: 1716
+item_type: Document
+item_type_metadata: {}
+lastmod: '2021-01-12 20:13:24'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '1716'
+tags: []
+title: 'Hurricane Rita Watch: Day Four ... Daybreak'
+type: items
+---
+
+{{< raw >}}
+\r\nHurricane Rita Watch: Day Four ... Daybreak \r\nThursday, September 22, 2005\r\n\r\nSome 40 hours from now, Hurricane Rita will plow ashore somewhere less than one hour\'s drive from where I sit. We\'re unlikely to dodge this 500-mile-wide bullet, but in the peculiar counter-clockwise morphology of hurricanes, one might pray for a few miles of wobble. Why? Because one side (the east) tends to be more destructive than the other (the west), and the leading edge (the so-called \"right-front\") packs the most lethal impact. So, when expecting the company of hurricanes, try to sit on the left.\r\n\r\nThe NOAA\'s 10 a.m. Central forecast moved \"Ground Zero\" slightly east from the Bolivar Peninsula -- only a half-hour southwest of us -- toward Port Arthur, the port and petrochemical complex due south of Beaumont. It is a major component of our coverage area, a working-class city with some of the same socio-economic fragility that was exposed in New Orleans by Hurricane Katrina. In real time, only a few minutes would separate the bang-bang impacts on Port Arthur and Beaumont. That\'s how close we are.\r\n\r\nIf Rita continues to track eastward -- likely falling into the draft behind the protective high-pressure system now moving out of here -- Beaumont and Southeast Texas might find itself sitting on Rita\'s left. Or Rita might stay the course and plow into Port Arthur. Or she might back-track toward Galveston again. The only true prediction can be that CNN\'s intrepid storm-chasers will be on the move through Friday night.\r\n\r\nSo we\'re caught up in the swirling crosswinds of uncertainty, too. We are now under a mandatory evacuation, so we have no readers waiting home for our carriers, at least not in any dependable pattern. We have too few pressmen to run the press, too few mailroom personnel to manage the inserting and distribution, no carriers (even if we\'d send them into a storm with a scrap of paper that\'s worth 50 cents.) So we have determined that for the next few days, our newspaper will be online exclusively. [UPDATE 6:35 p.m.: We will print an 8-page storm special later tonight, probably by sending pages to our sister paper, the San Antonio Express-News, where they\'ll be printed. They\'ll be taken to appropriate shelters immediately and held for our returning subscribers. The urge to create a historical record of the single biggest news event in our paper\'s 125-year history is strong. All those pages will also be available online.]\r\n\r\nWhether we\'ll decamp to Lake Charles, La., or hunker down here, we haven\'t made a final decision. In the wee hours of Saturday, Lake Charles might be closer to Ground Zero than we are. Or not. Lake Charles is also under and evacuation order, we\'re told. So are the rather remote inland towns of Jasper and Newton, north of us. We\'ve tried to scatter our limited reporting resources around the region to anticipate the many stories the Rita is spawning -- evacuees, the people who provide them sanctuary, the useful information they might need, and a view of the homeland they\'ll want.\r\n\r\nThis morning, I rose an hour before dawn to check the storm track. The skies here were clear and warm, and utterly still. Not eerily, but ominously. I knew that within 48 hours, the dawn would turn to a boil, slicing through us. In the dark, I lowered the pool level, took down a few wind bells from Paolo Soleri\'s commune in Arizona, and stowed anything that might be swept up by wind as a lethal projectile. I put some canned food in a box and took a couple books I\'d hate to lose. And I threw in two extras, for perverse writerly reasons: \"Flood\" by Robert Penn Warren and \"Sudden Times\" by a friend, Irish novelist Dermot Healy. Glancing through the titles on the shelf, I remembered planting potatoes at Dermot\'s western Ireland cottage on St. Patrick\'s Day 2000, a different kind of morning. I wanted to keep the thought.\r\n\r\nKeep a good thought for us, too. Come Monday, all might be different.\r\n\r\nposting from\r\nhttp://underthenews.blogspot.com/\r\n
+{{< /raw >}}

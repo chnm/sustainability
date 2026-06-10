@@ -1,0 +1,44 @@
+---
+aliases:
+  - /items/show/189
+  - /items/show/189.html
+collections: []
+contributors: []
+date: '2005-11-18 20:37:48'
+draft: false
+dublin_core:
+  Date:
+    - html: false
+      text: '2005-11-18 15:37:48'
+  Description:
+    - html: false
+      text: This was written in frustrated anger on Sept. 3rd and submitted to a national newspaper but never published.\r\n\r\n   \" We traveled all day today to get from our Hurricane Katrina evacuation perch in northern Louisiana to our daughter\'s 2-bedroom apartment in southwest Louisiana.  The gas lines were daunting and the possibility of being homeless for several more weeks unsettling.  Tomorrow morning early, we are going to stand in line for emergency food stamps.  2 of our 7 children are graduating seniors from the University of New Orleans, and will not be able to attend college. Housing is either not available or the college willing to help does not offer Political Science/Pre-Law or Psychology as majors.  But this is nothing at all compared to so many of our brethren.\r\n      All the rumors about violence and snipings are really true.  And floating bloated bodies, and rivers of feces and filth---all true!  A tragedy of stupendous proportions. \r\n And passing the buck by saying that the local and state governments were responsible for not asking more forcefully is so lame.  They did ask, but should not have had to!  Our local rescue people could not even contact each other to coordinate more concerted efforts.  They worked feverishly for so many days without reinforcements.  And to blame the victims by saying they should have evacuated is also lame.  Yes, some should have and did not; others wanted to and could not.  But how does this justify letting them perish when the greatest country in the world could have saved more?  And while I am complaining, why did the airlines cancel flights on Saturday and Sunday before the weather was even bad enough to endanger people or planes?  If anything, we needed more flights out, not less.  \r\n     We are furious down here with the federal government\'s incompetence.  Perhaps if New Orleans were a third-world country, food and water would have been airdropped to us.  A few helicopters to rescue people off of rooftops was not enough!!  Where were the troops and why did it take freakin\' 4 days for the Nat\'l Guard to show up in more telling numbers?  And why could we not have had an active military presence while people were dying not only as victims of Katrina but as victims of civil unrest and lawlessness?  Bush\'s carefree smile yesterday as he \"comforted\" all of us who have lost so much, was anything but comforting.  \r\n       It makes my blood boil when I hear conservatives, who know squat, complain about Mayor Nagin as the one not organized and ready.  Our mayor has been here through the whole ordeal and even had to appeal to other countries to get help that our own country was not providing fast enough.  He has been a real leader.  Look how much help was rushed to New York after 9/11, and look at the hurricane response to Florida.  What happened here?  Does Louisiana not count as much?  And to blame our mayor defies logic.\r\n      Bush, on the other hand, thinks his duty ended with phone call orders to FEMA and Homeland Security.  They both fell flat so why did not Bush follow up?  He is the same \"leader\" that read a story about a goat for 7 minutes after the US was attacked on 9/11.    Wow, do we ever feel safe from terrorism now!  \r\n       America, we still have people trapped in attics!  We still have people dying like flies!   Why has FEMA not done more?  We have buildings burning to the ground, and yet Homeland Security will not let experienced pilots of planes from a neighboring state, who have volunteered to fight the flames, do so.  Why has Homeland Security not done more?  \r\n     Military, fresh from Iraq, and now helping here, have commented that they would rather be in Baghdad because conditions are so much worse in New Orleans.  What a sad commentary!  The US is sooooooooo prepared!  What a joke!  The government cannot even handle a disaster that we knew was coming for 2 days ahead of time.  This is more than inexcusable--it is criminal negligence! \"\r\n \r\nGilda Werner Reed, Ph.D.
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: Online Story Contribution, Hurricane Digital Memory Bank
+featured: false
+files: []
+geo:
+  address: ''
+  lat: 30.005653
+  lng: -90.20733
+  zoom: 12
+id: 189
+item_type: Document
+item_type_metadata: {}
+lastmod: '2021-01-12 20:13:24'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '189'
+tags: []
+title: Online Story Contribution, Hurricane Digital Memory Bank
+type: items
+---
+
+{{< raw >}}
+This was written in frustrated anger on Sept. 3rd and submitted to a national newspaper but never published.\r\n\r\n   \" We traveled all day today to get from our Hurricane Katrina evacuation perch in northern Louisiana to our daughter\'s 2-bedroom apartment in southwest Louisiana.  The gas lines were daunting and the possibility of being homeless for several more weeks unsettling.  Tomorrow morning early, we are going to stand in line for emergency food stamps.  2 of our 7 children are graduating seniors from the University of New Orleans, and will not be able to attend college. Housing is either not available or the college willing to help does not offer Political Science/Pre-Law or Psychology as majors.  But this is nothing at all compared to so many of our brethren.\r\n      All the rumors about violence and snipings are really true.  And floating bloated bodies, and rivers of feces and filth---all true!  A tragedy of stupendous proportions. \r\n And passing the buck by saying that the local and state governments were responsible for not asking more forcefully is so lame.  They did ask, but should not have had to!  Our local rescue people could not even contact each other to coordinate more concerted efforts.  They worked feverishly for so many days without reinforcements.  And to blame the victims by saying they should have evacuated is also lame.  Yes, some should have and did not; others wanted to and could not.  But how does this justify letting them perish when the greatest country in the world could have saved more?  And while I am complaining, why did the airlines cancel flights on Saturday and Sunday before the weather was even bad enough to endanger people or planes?  If anything, we needed more flights out, not less.  \r\n     We are furious down here with the federal government\'s incompetence.  Perhaps if New Orleans were a third-world country, food and water would have been airdropped to us.  A few helicopters to rescue people off of rooftops was not enough!!  Where were the troops and why did it take freakin\' 4 days for the Nat\'l Guard to show up in more telling numbers?  And why could we not have had an active military presence while people were dying not only as victims of Katrina but as victims of civil unrest and lawlessness?  Bush\'s carefree smile yesterday as he \"comforted\" all of us who have lost so much, was anything but comforting.  \r\n       It makes my blood boil when I hear conservatives, who know squat, complain about Mayor Nagin as the one not organized and ready.  Our mayor has been here through the whole ordeal and even had to appeal to other countries to get help that our own country was not providing fast enough.  He has been a real leader.  Look how much help was rushed to New York after 9/11, and look at the hurricane response to Florida.  What happened here?  Does Louisiana not count as much?  And to blame our mayor defies logic.\r\n      Bush, on the other hand, thinks his duty ended with phone call orders to FEMA and Homeland Security.  They both fell flat so why did not Bush follow up?  He is the same \"leader\" that read a story about a goat for 7 minutes after the US was attacked on 9/11.    Wow, do we ever feel safe from terrorism now!  \r\n       America, we still have people trapped in attics!  We still have people dying like flies!   Why has FEMA not done more?  We have buildings burning to the ground, and yet Homeland Security will not let experienced pilots of planes from a neighboring state, who have volunteered to fight the flames, do so.  Why has Homeland Security not done more?  \r\n     Military, fresh from Iraq, and now helping here, have commented that they would rather be in Baghdad because conditions are so much worse in New Orleans.  What a sad commentary!  The US is sooooooooo prepared!  What a joke!  The government cannot even handle a disaster that we knew was coming for 2 days ahead of time.  This is more than inexcusable--it is criminal negligence! \"\r\n \r\nGilda Werner Reed, Ph.D.
+{{< /raw >}}

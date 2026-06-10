@@ -1,0 +1,50 @@
+---
+aliases:
+  - /items/show/34
+  - /items/show/34.html
+collections: []
+contributors: []
+date: '2005-11-16 15:26:22'
+draft: false
+dublin_core:
+  Date:
+    - html: false
+      text: '2005-11-16 00:00:00'
+  Description:
+    - html: false
+      text: "At last!  After much frantic searching, my brother-in-law found this\\r\\npicture yesterday (again, from the NOAA website at\\r\\nhttp://www.noaa.gov).  I\\'ve taken the liberty of adding some markings\\r\\nto it.\\r\\n\\r\\nhttp://dev.priorartisans.com/paul/katrina/24427024_markup.jpg\\r\\n\\r\\nThe original picture with no markings is at\\r\\nhttp://dev.priorartisans.com/paul/katrina/24427024.jpg\\r\\n\\r\\nThese images are rotated 90 degrees - North is to the right.\\r\\n\\r\\nThe markings:\\r\\n\\r\\n#1 - Our house\\r\\n#2 - My brother-in-law Trey\\'s house\\r\\n#3 - My father-in-law\\'s house.\\r\\n\\r\\nAs you can see, there is water everywhere.  Near our house (just on\\r\\nthe left) there is a white splotch which I\\'m pretty sure is my car.  I\\r\\ncan see my car, which tells me at least the *highest* point of the\\r\\nwater - we can\\'t have more than 2 feet in the house.  My backyard is\\r\\nunderwater, but our house is about 3 feet above the ground in the\\r\\nback.\\r\\n\\r\\nSo - I\\'m fairly sure that we\\'ll have water damage in the house, but we\\r\\nalso know it is not catastrophic.\\r\\n\\r\\nMy brother-in-law probably has less water.  Unfortunately, we think my\\r\\nfather-in-law probably has more.\\r\\n\\r\\nThe other markings:\\r\\n\\r\\nTwo purple lines heading North/South (right/left in the pic): This is\\r\\nthe 17th street canal.  The actual breach is about 5 miles to the\\r\\nnorth.\\r\\nOne green line heading East/West (top/bottom in the pic): This is a\\r\\nraised railroad trestle that we hoped would keep water out of the\\r\\nneighborhood\\r\\nOne yellow-ish line heading North/South (right/left in the pic): This\\r\\nis the border of a geographic feature called the \\\"Metairie Ridge\\\".  As\\r\\nyou may see, the land along this ridge is high and dry.  We are about\\r\\ntwo blocks off of the ridge.\\r\\n\\r\\nWhat I\\'ve recently learned - currently, the Mississippi makes a big\\r\\ndip south around the city of New Orleans - forming the shape that\\r\\ncreated the nicname \\\"The Crescent City\\\".  At the French Quarter, the\\r\\nriver makes a sharp turn - finishing the crescent by heading North,\\r\\nthen turning South to continue along to the Gulf.  Many (thousands?  I\\r\\ndon\\'t really know how long ago), the river did not make the crescent -\\r\\nit continued straight through what is now the city of New Orleans,\\r\\nbefore making the turn to the South at what is now the French Quarter.\\r\\n The \\\"Metairie Ridge\\\" is the old shore of the Mississippi River.  Just\\r\\nlike today, the shore of the river was the high point int he area.\\r\\n\\r\\nWe always new we were near/on the edges of the Ridge, but this picture\\r\\nlike no other I\\'ve ever seen truly illustrates that ridge.\\r\\n\\r\\nThe total height difference between the peak of the ridge and our\\r\\nhouse (a distance of two blocks)?  I dunno, but it can\\'t be more than\\r\\n5 feet - as we walk it, its a barely discernable slope.  You can look\\r\\nat it and it appears to the naked eye that its level.  But -\\r\\nobviously, its not.\\r\\n\\r\\nOur houses in Baton Rouge are arranged, but we\\'re not sure when we\\'re\\r\\ngoing.  We thought we would leave on Tuesday.  But now we\\'re thinking\\r\\nof leaving tomorrow.  Jefferson Parish (the other side of the 17th\\r\\nstreet canal from our house, where my father-in-law lives) is open for\\r\\nrefugees on Monday, to return and get what they need from their house.\\r\\n So we\\'re thinking of trying to go and retrieve some stuff from all 3\\r\\nhouses.  But I\\'m sure that will be an adventure of the first order,\\r\\ngiven the chaos in the city and stream of supplies heading in and\\r\\nrefugees heading out.  And we still don\\'t know for sure that the water\\r\\nin our neighborhoods has actually stopped rising.\\r\\n\\r\\nBut still - we\\'re still lucky and we know it.\\r\\n\\r\\nFor those of you associated with Notre Dame, please visit the ND\\r\\nAlumni websites to see how you can help:\\r\\nhttp://www.ndkatrina.com\\r\\nhttp://alumni.nd.edu/commserv/hurricane_relief.html\\r\\n\\r\\nHard for me to believe that we kickoff the season tonight.  Just seems\\r\\nlike another lifetime when I was awaiting that.\\r\\n\\r\\nFor those of you not associated with Notre Dame, please visit those\\r\\npages as well for any ideas of charities to contribute to (if you are\\r\\nlooking for ideas).  The Notre Dame community is important to me, and\\r\\nI believe strongly in the charities they are supporting and\\r\\nencouraging.\\r\\n\\r\\nMore to come later, especially if we attempt to visit our house."
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: " Third of 9 emails describing the Christmann family\\'s Katrina story"
+featured: false
+files:
+  - fullsize:
+    id: 21
+    mime: text/plain; charset=us-ascii
+    original_filename: christmannemail3_c6a1930d73.txt
+    thumb:
+    url: https://hurricanearchive.org/files/original/14fb2a7141a18314fb2a7141a56e.txt
+geo:
+  address: ''
+  lat: 29.98509
+  lng: -90.12171
+  zoom: 12
+id: 34
+item_type: Document
+item_type_metadata: {}
+lastmod: '2021-01-12 20:13:24'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '34'
+tags: []
+title: " Third of 9 emails describing the Christmann family\\'s Katrina story"
+type: items
+---
+
+{{< raw >}}
+At last!  After much frantic searching, my brother-in-law found this\r\npicture yesterday (again, from the NOAA website at\r\nhttp://www.noaa.gov).  I\'ve taken the liberty of adding some markings\r\nto it.\r\n\r\nhttp://dev.priorartisans.com/paul/katrina/24427024_markup.jpg\r\n\r\nThe original picture with no markings is at\r\nhttp://dev.priorartisans.com/paul/katrina/24427024.jpg\r\n\r\nThese images are rotated 90 degrees - North is to the right.\r\n\r\nThe markings:\r\n\r\n#1 - Our house\r\n#2 - My brother-in-law Trey\'s house\r\n#3 - My father-in-law\'s house.\r\n\r\nAs you can see, there is water everywhere.  Near our house (just on\r\nthe left) there is a white splotch which I\'m pretty sure is my car.  I\r\ncan see my car, which tells me at least the *highest* point of the\r\nwater - we can\'t have more than 2 feet in the house.  My backyard is\r\nunderwater, but our house is about 3 feet above the ground in the\r\nback.\r\n\r\nSo - I\'m fairly sure that we\'ll have water damage in the house, but we\r\nalso know it is not catastrophic.\r\n\r\nMy brother-in-law probably has less water.  Unfortunately, we think my\r\nfather-in-law probably has more.\r\n\r\nThe other markings:\r\n\r\nTwo purple lines heading North/South (right/left in the pic): This is\r\nthe 17th street canal.  The actual breach is about 5 miles to the\r\nnorth.\r\nOne green line heading East/West (top/bottom in the pic): This is a\r\nraised railroad trestle that we hoped would keep water out of the\r\nneighborhood\r\nOne yellow-ish line heading North/South (right/left in the pic): This\r\nis the border of a geographic feature called the \"Metairie Ridge\".  As\r\nyou may see, the land along this ridge is high and dry.  We are about\r\ntwo blocks off of the ridge.\r\n\r\nWhat I\'ve recently learned - currently, the Mississippi makes a big\r\ndip south around the city of New Orleans - forming the shape that\r\ncreated the nicname \"The Crescent City\".  At the French Quarter, the\r\nriver makes a sharp turn - finishing the crescent by heading North,\r\nthen turning South to continue along to the Gulf.  Many (thousands?  I\r\ndon\'t really know how long ago), the river did not make the crescent -\r\nit continued straight through what is now the city of New Orleans,\r\nbefore making the turn to the South at what is now the French Quarter.\r\n The \"Metairie Ridge\" is the old shore of the Mississippi River.  Just\r\nlike today, the shore of the river was the high point int he area.\r\n\r\nWe always new we were near/on the edges of the Ridge, but this picture\r\nlike no other I\'ve ever seen truly illustrates that ridge.\r\n\r\nThe total height difference between the peak of the ridge and our\r\nhouse (a distance of two blocks)?  I dunno, but it can\'t be more than\r\n5 feet - as we walk it, its a barely discernable slope.  You can look\r\nat it and it appears to the naked eye that its level.  But -\r\nobviously, its not.\r\n\r\nOur houses in Baton Rouge are arranged, but we\'re not sure when we\'re\r\ngoing.  We thought we would leave on Tuesday.  But now we\'re thinking\r\nof leaving tomorrow.  Jefferson Parish (the other side of the 17th\r\nstreet canal from our house, where my father-in-law lives) is open for\r\nrefugees on Monday, to return and get what they need from their house.\r\n So we\'re thinking of trying to go and retrieve some stuff from all 3\r\nhouses.  But I\'m sure that will be an adventure of the first order,\r\ngiven the chaos in the city and stream of supplies heading in and\r\nrefugees heading out.  And we still don\'t know for sure that the water\r\nin our neighborhoods has actually stopped rising.\r\n\r\nBut still - we\'re still lucky and we know it.\r\n\r\nFor those of you associated with Notre Dame, please visit the ND\r\nAlumni websites to see how you can help:\r\nhttp://www.ndkatrina.com\r\nhttp://alumni.nd.edu/commserv/hurricane_relief.html\r\n\r\nHard for me to believe that we kickoff the season tonight.  Just seems\r\nlike another lifetime when I was awaiting that.\r\n\r\nFor those of you not associated with Notre Dame, please visit those\r\npages as well for any ideas of charities to contribute to (if you are\r\nlooking for ideas).  The Notre Dame community is important to me, and\r\nI believe strongly in the charities they are supporting and\r\nencouraging.\r\n\r\nMore to come later, especially if we attempt to visit our house.
+{{< /raw >}}

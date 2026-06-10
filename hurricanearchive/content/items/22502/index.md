@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/22502
+  - /items/show/22502.html
+collections:
+  - '102'
+contributors: []
+date: '2007-02-02 03:39:53'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: DSC 1343Jacksonbarracks.JPG
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f5cccf5214fb29f5ccd338.jpg
+    id: 19453
+    mime: image/jpeg
+    original_filename: DSC 1343Jacksonbarracks.JPG
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f5cccf5214fb29f5ccd338.jpg
+    url: https://hurricanearchive.org/files/original/14fb29f5cccf5214fb29f5ccd338.jpg
+geo:
+id: 22502
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2007-02-05 15:08:14'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '22502'
+tags: []
+title: DSC 1343Jacksonbarracks.JPG
+type: items
+---

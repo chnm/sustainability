@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/21930
+  - /items/show/21930.html
+collections:
+  - '102'
+contributors: []
+date: '2007-02-02 03:39:53'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: Picture 261-J2.jpg
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29faf23c0014fb29faf243bf.jpg
+    id: 18881
+    mime: image/jpeg
+    original_filename: Picture 261-J2.jpg
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb29faf23c0014fb29faf243bf.jpg
+    url: https://hurricanearchive.org/files/original/14fb29faf23c0014fb29faf243bf.jpg
+geo:
+id: 21930
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2007-02-05 15:08:14'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '21930'
+tags: []
+title: Picture 261-J2.jpg
+type: items
+---

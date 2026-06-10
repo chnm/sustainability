@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/7252
+  - /items/show/7252.html
+collections:
+  - '67'
+contributors: []
+date: '2006-09-18 17:14:06'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: 03 03 2006 B6.pdf
+featured: false
+files:
+  - fullsize:
+    id: 6260
+    mime: application/pdf
+    original_filename: 03 03 2006 B6.pdf
+    thumb:
+    url: https://hurricanearchive.org/files/original/14fb2a439cf77e14fb2a439cfb64.pdf
+geo:
+id: 7252
+item_type: Document
+item_type_metadata: {}
+lastmod: '2006-09-18 17:19:50'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '7252'
+tags: []
+title: 03 03 2006 B6.pdf
+type: items
+---

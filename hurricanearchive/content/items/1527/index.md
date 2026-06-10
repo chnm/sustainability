@@ -1,0 +1,51 @@
+---
+aliases:
+  - /items/show/1527
+  - /items/show/1527.html
+collections:
+  - '10'
+contributors: []
+date: '2006-01-27 16:40:09'
+draft: false
+dublin_core:
+  Date:
+    - html: false
+      text: '2005-09-28 22:04:20'
+  Description:
+    - html: false
+      text: 'The Williams Family at Houma Civic Center â€“ Bryan, Sr., wife Beverly, granddaughter\nAsha Williams, grandson Adam Williams. '
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: 2005-28474.jpg (Object)
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a68242f4714fb2a6824332d.jpg
+    id: 1707
+    mime: image/jpeg
+    original_filename: 2005-28474.jpg
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a68242f4714fb2a6824332d.jpg
+    url: https://hurricanearchive.org/files/original/14fb2a68242f4714fb2a6824332d.jpg
+geo:
+  address: ''
+  lat: 0.0
+  lng: 0.0
+  zoom: 12
+id: 1527
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2006-01-27 16:48:08'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '1527'
+tags: []
+title: 2005-28474.jpg (Object)
+type: items
+---
+
+{{< raw >}}
+The Williams Family at Houma Civic Center â€“ Bryan, Sr., wife Beverly, granddaughter\nAsha Williams, grandson Adam Williams.
+{{< /raw >}}

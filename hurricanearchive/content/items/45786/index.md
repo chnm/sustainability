@@ -1,0 +1,34 @@
+---
+aliases:
+  - /items/show/45786
+  - /items/show/45786.html
+collections:
+  - '232'
+contributors: []
+date: '2012-05-24 18:59:14'
+draft: false
+dublin_core:
+  Title:
+    - html: false
+      text: Moffett, Nateisha.dft.doc
+featured: false
+files:
+  - fullsize:
+    id: 46415
+    mime: application/msword
+    original_filename: Moffett, Nateisha.dft.doc
+    thumb:
+    url: https://hurricanearchive.org/files/original/14fbe8715469d214fbe871546db7.doc
+geo:
+id: 45786
+item_type: Oral History
+item_type_metadata: {}
+lastmod: '2012-06-14 15:31:58'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '45786'
+tags: []
+title: Moffett, Nateisha.dft.doc
+type: items
+---

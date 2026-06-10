@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/25185
+  - /items/show/25185.html
+collections:
+  - '102'
+contributors: []
+date: '2007-02-02 19:50:07'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: DSC 1804superdome.JPG
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e133e82c14fb29e133f015.jpg
+    id: 22128
+    mime: image/jpeg
+    original_filename: DSC 1804superdome.JPG
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e133e82c14fb29e133f015.jpg
+    url: https://hurricanearchive.org/files/original/14fb29e133e82c14fb29e133f015.jpg
+geo:
+id: 25185
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2007-02-05 15:09:05'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '25185'
+tags: []
+title: DSC 1804superdome.JPG
+type: items
+---

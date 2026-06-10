@@ -1,0 +1,44 @@
+---
+aliases:
+  - /items/show/476
+  - /items/show/476.html
+collections: []
+contributors: []
+date: '2005-12-28 03:22:57'
+draft: false
+dublin_core:
+  Date:
+    - html: false
+      text: '2005-12-27 22:22:57'
+  Description:
+    - html: false
+      text: 'Blog posting, SB: Relaxing on the Bayou, \r\nOctober 18, 2005\r\n\r\nMalls, Shopping, and Housing\r\n\r\nHurricanes Rita and Katrina got me thinking about malls as public spaces again. Historians, such as Lizabeth Cohen, have studied the development of malls in the post-war era, and how they change consumer practices and affect the landscape.\r\n\r\nOver the past month or so I have noticed that the malls near me (where teenagers hang out and seniors and mothers with baby carriages come to walk ) transformed from places of consumerism into places of giving and living. The day I drove out of Port Arthur to evacuate with stores closed for the storm, scores of ambulances parked in clumps at the Central Mall waiting for their orders to pick up the infirm. When I returned, the same parking lot was relief area central. Scores of mobile homes, tents, trailers, trucks, and port-o-lets gathered in different areas of the mall parking lots. Coast Guard, National Guard, Police, Fire, power company workers, and other personnel slept, ate, and met in these areas because they are large open spaces near major roads in town. Relief organizations set up stations in the Parkdale Mall in Beaumont and at the Central Mall in Port Arthur to distribute ice, MREs or comfort. Then insurance companies brought in mobile units to these public places.\r\n\r\nThe Central Mall was dying before the hurricane and may not survive after. Only 3 stores are operational (Target, Sears, and Dillards) with the others requiring major repairs because of problems with the roof. But during the past couple of weeks that mall lot was busier than I’d ever seen it since moving here. Even if for a short time, the Mall became a place of giving and a rest area for those working to bring the cities back to life.\r\n\r\nI have some other thoughts on the economic market after these hurricanes. Typically I like to support small business people in town as they compete against national chains. But after storms such as these, it was the national chains that open their doors first and had supplies in those stores, such as the Home Depots, Walmarts, Targets, and Best Buys. The chains can also redistribute losses from damage so that the stores don’t have to fold. Small stores or local chains often find themselves in big trouble. One thing that always struck me about Southeast Texas was the lack of small businesses and the proliferation of chains, and I wonder if the small owners will bounce back.\r\n\r\nAnd if businesses can open, boy are they busy! Stores around here are open for limited hours and sometimes with limited goods or menus. Many stores and restaurants are desperate for workers and have “Now Hiring” banners displayed.\r\nThe Waffle House down the street from me has been packed ever since it re-opened last week, and it’s never that busy. The influx of out-of-town workers together with those still struggling without power or working fridges are flooding these places. It would seem as if any money lost during the storm may be made up in the coming weeks. Who knows, but it is very interesting to watch all of this progress.\r\n\r\nI’m concerned about housing too. The destruction in New Orleans and southern Louisiana is so great that these people need a place to live in order to bring back the businesses or get the plants running again. In the Port Arthur area many of the apartment buildings have sustained damage, like ours, and there are fewer choices on where to move. There used to be a lot of choices, but I’m not sure that is the case anymore. Will there be major shortages, or will a large population shift permanently away from the Gulf?\r\n\r\nOn a personal note, a new fridge arrived for us today–hooray! Yesterday, mail was delivered to our re-constructed mailboxes for the first time since Sept 21. The dehumidifier is working like a champ, drying out the dampness and helping with the funky odor. It’s been almost 1 month since the exodus and the storm, so it’s nice to be back in our home, even if it smells.'
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: Online Story Contribution, Hurricane Digital Memory Bank
+featured: false
+files: []
+geo:
+  address: ''
+  lat: 29.864207
+  lng: -93.942055
+  zoom: 12
+id: 476
+item_type: Document
+item_type_metadata: {}
+lastmod: '2021-01-12 20:13:24'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '476'
+tags: []
+title: Online Story Contribution, Hurricane Digital Memory Bank
+type: items
+---
+
+{{< raw >}}
+Blog posting, SB: Relaxing on the Bayou, \r\nOctober 18, 2005\r\n\r\nMalls, Shopping, and Housing\r\n\r\nHurricanes Rita and Katrina got me thinking about malls as public spaces again. Historians, such as Lizabeth Cohen, have studied the development of malls in the post-war era, and how they change consumer practices and affect the landscape.\r\n\r\nOver the past month or so I have noticed that the malls near me (where teenagers hang out and seniors and mothers with baby carriages come to walk ) transformed from places of consumerism into places of giving and living. The day I drove out of Port Arthur to evacuate with stores closed for the storm, scores of ambulances parked in clumps at the Central Mall waiting for their orders to pick up the infirm. When I returned, the same parking lot was relief area central. Scores of mobile homes, tents, trailers, trucks, and port-o-lets gathered in different areas of the mall parking lots. Coast Guard, National Guard, Police, Fire, power company workers, and other personnel slept, ate, and met in these areas because they are large open spaces near major roads in town. Relief organizations set up stations in the Parkdale Mall in Beaumont and at the Central Mall in Port Arthur to distribute ice, MREs or comfort. Then insurance companies brought in mobile units to these public places.\r\n\r\nThe Central Mall was dying before the hurricane and may not survive after. Only 3 stores are operational (Target, Sears, and Dillards) with the others requiring major repairs because of problems with the roof. But during the past couple of weeks that mall lot was busier than I’d ever seen it since moving here. Even if for a short time, the Mall became a place of giving and a rest area for those working to bring the cities back to life.\r\n\r\nI have some other thoughts on the economic market after these hurricanes. Typically I like to support small business people in town as they compete against national chains. But after storms such as these, it was the national chains that open their doors first and had supplies in those stores, such as the Home Depots, Walmarts, Targets, and Best Buys. The chains can also redistribute losses from damage so that the stores don’t have to fold. Small stores or local chains often find themselves in big trouble. One thing that always struck me about Southeast Texas was the lack of small businesses and the proliferation of chains, and I wonder if the small owners will bounce back.\r\n\r\nAnd if businesses can open, boy are they busy! Stores around here are open for limited hours and sometimes with limited goods or menus. Many stores and restaurants are desperate for workers and have “Now Hiring” banners displayed.\r\nThe Waffle House down the street from me has been packed ever since it re-opened last week, and it’s never that busy. The influx of out-of-town workers together with those still struggling without power or working fridges are flooding these places. It would seem as if any money lost during the storm may be made up in the coming weeks. Who knows, but it is very interesting to watch all of this progress.\r\n\r\nI’m concerned about housing too. The destruction in New Orleans and southern Louisiana is so great that these people need a place to live in order to bring back the businesses or get the plants running again. In the Port Arthur area many of the apartment buildings have sustained damage, like ours, and there are fewer choices on where to move. There used to be a lot of choices, but I’m not sure that is the case anymore. Will there be major shortages, or will a large population shift permanently away from the Gulf?\r\n\r\nOn a personal note, a new fridge arrived for us today–hooray! Yesterday, mail was delivered to our re-constructed mailboxes for the first time since Sept 21. The dehumidifier is working like a champ, drying out the dampness and helping with the funky odor. It’s been almost 1 month since the exodus and the storm, so it’s nice to be back in our home, even if it smells.
+{{< /raw >}}

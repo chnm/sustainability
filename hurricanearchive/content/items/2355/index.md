@@ -1,0 +1,44 @@
+---
+aliases:
+  - /items/show/2355
+  - /items/show/2355.html
+collections: []
+contributors: []
+date: '2006-07-26 20:07:13'
+draft: false
+dublin_core:
+  Date:
+    - html: false
+      text: '2006-07-26 16:07:13'
+  Description:
+    - html: false
+      text: "University of Virginia, New Orleans Journals\\r\\n\\r\\nTuesday, January 10, 2006\\r\\n\\r\\nRoss Baird, College of Arts & Sciences\\r\\n\\r\\nYou know, when you hear about the devastation of Katrina, \\r\\n\\r\\noften it comes in plain numbers, 200,000 homes destroyed by \\r\\n\\r\\nwater. In many ways, the past couple of days have balanced \\r\\n\\r\\nperception with reality. In our class last week, we reviewed a lot \\r\\n\\r\\nof these numbers. Being on the ground, however, allows us to \\r\\n\\r\\nunderstand the sheer magnitude of these numbers and exactly \\r\\n\\r\\nwhat they mean.\\r\\n\\r\\nToday, we were in New Orleans East gutting a house that was \\r\\n\\r\\nflooded in the hurricane and had been untouched since. We \\r\\n\\r\\nwalked into the house of a guidance counselor at Xavier Prep \\r\\n\\r\\nand saw moldy couches, ruined clothing, and waterlogged \\r\\n\\r\\nbookshelves. In a day\\'s work, the twenty of us were able to \\r\\n\\r\\nentirely gut the house, removing all her belongings and \\r\\n\\r\\nappliances, tearing out sheetrock and insulation, and scraping \\r\\n\\r\\nwood paneling until the house was a shell. The transformation \\r\\n\\r\\nwas stunning, and we were happy to do our part. But this was \\r\\n\\r\\njust one house on one block. There are 200,000 houses like \\r\\n\\r\\nthis, and it took a full day\\'s work of 20 college students just to \\r\\n\\r\\nhandle one property. We had a six-foot tall pile of trash on the \\r\\n\\r\\nstreet, and the trash needs to go somewhere. The woman \\r\\n\\r\\nwhose house it was needs to decide whether to rebuild it or \\r\\n\\r\\nmove somewhere else. And there are 200,000 households like \\r\\n\\r\\nhers. Talk about numbers.\\r\\n\\r\\nAt the same time, we were very happy to help and we realized \\r\\n\\r\\nwhat we are doing is important. Pat [Lampkin] talked to the \\r\\n\\r\\nwoman over the phone several times throughout the day, and let \\r\\n\\r\\nher know that we were able to salvage several sentimental items \\r\\n\\r\\nfrom the house, such as photos, silver, and her wedding dress. \\r\\n\\r\\nHearing this woman\\'s story--how she had fled the hurricane, \\r\\n\\r\\nwas living in Houston, and didn\\'t know her next move--and \\r\\n\\r\\nseeing devastated houses throughout the whole district, and \\r\\n\\r\\nrealizing that every house has a similar story--that\\'s a lot to \\r\\n\\r\\nwrap our minds around. Tomorrow the City of New Orleans is \\r\\n\\r\\nreleasing its official rebuilding plan, but we\\'re seeing first-hand \\r\\n\\r\\nwhat that\\'s going to mean on the ground.\\r\\n\\r\\nAnd driving to and from the sites is interesting, too. We drive \\r\\n\\r\\ndown Magazine Street, the old antique district, which was \\r\\n\\r\\nbarely flooded and, fortunately, is coming back well. But then \\r\\n\\r\\nyou drive past a block where the floodlines come up seven feet \\r\\n\\r\\nand the businesses aren\\'t even close to returning. Bourbon \\r\\n\\r\\nStreet was back on New Year\\'s Eve, and we see Mardi Gras \\r\\n\\r\\nreturning, and many of the homes are fine, but the entire city \\r\\n\\r\\nneeds both the wealthy and the poor to run. The business \\r\\n\\r\\nowners put a lot into the economy, and the lower-income \\r\\n\\r\\nresidents hold a lot of the low-income service jobs that are \\r\\n\\r\\nnecessary, too.\\r\\n\\r\\nA simple drive down Carrolton Street, like we took today, will \\r\\n\\r\\nshow both.\\r\\nI don\\'t think the public\\'s perception goes adequately beyond \\r\\n\\r\\nBourbon Street and Mardi Gras, though. I personally had no \\r\\n\\r\\nidea from the news coverage that we all see that things were \\r\\n\\r\\nthis desperate in many parts of the city. I hope that one of the \\r\\n\\r\\nthings our class can do is help people realize what\\'s going \\r\\n\\r\\ndown here. Our work of the past two days (and this whole \\r\\n\\r\\nweek) may just be a \\\"drop in the bucket\\\", as we keep hearing \\r\\n\\r\\nfrom the folks leading the trip. But as long as I\\'m talking about \\r\\n\\r\\nnumbers--the bucket down here needs a lot of drops.\\r\\nOriginal URL: \\r\\n\\r\\nhttp://www.virginia.edu/topnews/releases2006/NewOrleansJourn\\r\\n\\r\\nal07.html"
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: Online Story Contribution, Hurricane Digital Memory Bank
+featured: false
+files: []
+geo:
+  address: ''
+  lat: 38.034272
+  lng: -78.503156
+  zoom: 12
+id: 2355
+item_type: Document
+item_type_metadata: {}
+lastmod: '2021-01-12 20:13:24'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '2355'
+tags: []
+title: Online Story Contribution, Hurricane Digital Memory Bank
+type: items
+---
+
+{{< raw >}}
+University of Virginia, New Orleans Journals\r\n\r\nTuesday, January 10, 2006\r\n\r\nRoss Baird, College of Arts &amp; Sciences\r\n\r\nYou know, when you hear about the devastation of Katrina, \r\n\r\noften it comes in plain numbers, 200,000 homes destroyed by \r\n\r\nwater. In many ways, the past couple of days have balanced \r\n\r\nperception with reality. In our class last week, we reviewed a lot \r\n\r\nof these numbers. Being on the ground, however, allows us to \r\n\r\nunderstand the sheer magnitude of these numbers and exactly \r\n\r\nwhat they mean.\r\n\r\nToday, we were in New Orleans East gutting a house that was \r\n\r\nflooded in the hurricane and had been untouched since. We \r\n\r\nwalked into the house of a guidance counselor at Xavier Prep \r\n\r\nand saw moldy couches, ruined clothing, and waterlogged \r\n\r\nbookshelves. In a day\'s work, the twenty of us were able to \r\n\r\nentirely gut the house, removing all her belongings and \r\n\r\nappliances, tearing out sheetrock and insulation, and scraping \r\n\r\nwood paneling until the house was a shell. The transformation \r\n\r\nwas stunning, and we were happy to do our part. But this was \r\n\r\njust one house on one block. There are 200,000 houses like \r\n\r\nthis, and it took a full day\'s work of 20 college students just to \r\n\r\nhandle one property. We had a six-foot tall pile of trash on the \r\n\r\nstreet, and the trash needs to go somewhere. The woman \r\n\r\nwhose house it was needs to decide whether to rebuild it or \r\n\r\nmove somewhere else. And there are 200,000 households like \r\n\r\nhers. Talk about numbers.\r\n\r\nAt the same time, we were very happy to help and we realized \r\n\r\nwhat we are doing is important. Pat [Lampkin] talked to the \r\n\r\nwoman over the phone several times throughout the day, and let \r\n\r\nher know that we were able to salvage several sentimental items \r\n\r\nfrom the house, such as photos, silver, and her wedding dress. \r\n\r\nHearing this woman\'s story--how she had fled the hurricane, \r\n\r\nwas living in Houston, and didn\'t know her next move--and \r\n\r\nseeing devastated houses throughout the whole district, and \r\n\r\nrealizing that every house has a similar story--that\'s a lot to \r\n\r\nwrap our minds around. Tomorrow the City of New Orleans is \r\n\r\nreleasing its official rebuilding plan, but we\'re seeing first-hand \r\n\r\nwhat that\'s going to mean on the ground.\r\n\r\nAnd driving to and from the sites is interesting, too. We drive \r\n\r\ndown Magazine Street, the old antique district, which was \r\n\r\nbarely flooded and, fortunately, is coming back well. But then \r\n\r\nyou drive past a block where the floodlines come up seven feet \r\n\r\nand the businesses aren\'t even close to returning. Bourbon \r\n\r\nStreet was back on New Year\'s Eve, and we see Mardi Gras \r\n\r\nreturning, and many of the homes are fine, but the entire city \r\n\r\nneeds both the wealthy and the poor to run. The business \r\n\r\nowners put a lot into the economy, and the lower-income \r\n\r\nresidents hold a lot of the low-income service jobs that are \r\n\r\nnecessary, too.\r\n\r\nA simple drive down Carrolton Street, like we took today, will \r\n\r\nshow both.\r\nI don\'t think the public\'s perception goes adequately beyond \r\n\r\nBourbon Street and Mardi Gras, though. I personally had no \r\n\r\nidea from the news coverage that we all see that things were \r\n\r\nthis desperate in many parts of the city. I hope that one of the \r\n\r\nthings our class can do is help people realize what\'s going \r\n\r\ndown here. Our work of the past two days (and this whole \r\n\r\nweek) may just be a \"drop in the bucket\", as we keep hearing \r\n\r\nfrom the folks leading the trip. But as long as I\'m talking about \r\n\r\nnumbers--the bucket down here needs a lot of drops.\r\nOriginal URL: \r\n\r\nhttp://www.virginia.edu/topnews/releases2006/NewOrleansJourn\r\n\r\nal07.html
+{{< /raw >}}

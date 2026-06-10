@@ -1,0 +1,51 @@
+---
+aliases:
+  - /items/show/1378
+  - /items/show/1378.html
+collections:
+  - '10'
+contributors: []
+date: '2006-01-27 16:40:04'
+draft: false
+dublin_core:
+  Date:
+    - html: false
+      text: '2005-09-27 22:03:53'
+  Description:
+    - html: false
+      text: Returning to New Orleans on the raod to Slidell, Louisiana, in the eye of Katrina.\n
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: 2005-28126.jpg (Object)
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a692f16b314fb2a692f1a9b.jpg
+    id: 1558
+    mime: image/jpeg
+    original_filename: 2005-28126.jpg
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a692f16b314fb2a692f1a9b.jpg
+    url: https://hurricanearchive.org/files/original/14fb2a692f16b314fb2a692f1a9b.jpg
+geo:
+  address: ''
+  lat: 0.0
+  lng: 0.0
+  zoom: 12
+id: 1378
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2006-01-27 16:48:07'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '1378'
+tags: []
+title: 2005-28126.jpg (Object)
+type: items
+---
+
+{{< raw >}}
+Returning to New Orleans on the raod to Slidell, Louisiana, in the eye of Katrina.\n
+{{< /raw >}}

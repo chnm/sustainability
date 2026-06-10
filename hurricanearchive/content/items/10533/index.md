@@ -1,0 +1,41 @@
+---
+aliases:
+  - /items/show/10533
+  - /items/show/10533.html
+collections:
+  - '67'
+contributors: []
+date: '2006-09-19 13:23:11'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: 11 19 2005 A3.pdf
+featured: false
+files:
+  - fullsize:
+    id: 9532
+    mime: application/pdf
+    original_filename: 11 19 2005 A3.pdf
+    thumb:
+    url: https://hurricanearchive.org/files/original/14fb2a2b0ad5b814fb2a2b0ad9d9.pdf
+geo:
+  address: ''
+  lat: 0.0
+  lng: 0.0
+  zoom: 12
+id: 10533
+item_type: Document
+item_type_metadata: {}
+lastmod: '2006-09-19 14:56:34'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '10533'
+tags: []
+title: 11 19 2005 A3.pdf
+type: items
+---

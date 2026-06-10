@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/25081
+  - /items/show/25081.html
+collections:
+  - '102'
+contributors: []
+date: '2007-02-02 19:50:07'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: DSC 1667superdome.JPG
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e275493314fb29e2754d18.jpg
+    id: 22025
+    mime: image/jpeg
+    original_filename: DSC 1667superdome.JPG
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e275493314fb29e2754d18.jpg
+    url: https://hurricanearchive.org/files/original/14fb29e275493314fb29e2754d18.jpg
+geo:
+id: 25081
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2007-02-05 15:09:05'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '25081'
+tags: []
+title: DSC 1667superdome.JPG
+type: items
+---

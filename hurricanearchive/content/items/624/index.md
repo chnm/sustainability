@@ -1,0 +1,50 @@
+---
+aliases:
+  - /items/show/624
+  - /items/show/624.html
+collections: []
+contributors: []
+date: '2006-01-17 18:12:28'
+draft: false
+dublin_core:
+  Date:
+    - html: false
+      text: '2006-01-17 13:12:28'
+  Description:
+    - html: false
+      text: ' Katrina \"debris\" found in the 9th Ward of New Orleans.  Contributed by Tina Hodgin visiting from Austin, TX.'
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: Online Image Contribution, Hurricane Digital Memory Bank
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f56dcf514fb2a6f56e0f5.jpg
+    id: 463
+    mime: image/jpeg
+    original_filename: The_new_testament_katrina_debris_8f082a0d1f.jpg
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f56dcf514fb2a6f56e0f5.jpg
+    url: https://hurricanearchive.org/files/original/14fb2a6f56dcf514fb2a6f56e0f5.jpg
+geo:
+  address: ''
+  lat: 0.0
+  lng: 0.0
+  zoom: 12
+id: 624
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2021-01-12 20:13:24'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '624'
+tags: []
+title: Online Image Contribution, Hurricane Digital Memory Bank
+type: items
+---
+
+{{< raw >}}
+Katrina \"debris\" found in the 9th Ward of New Orleans.  Contributed by Tina Hodgin visiting from Austin, TX.
+{{< /raw >}}

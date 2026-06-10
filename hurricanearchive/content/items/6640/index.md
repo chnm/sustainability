@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/6640
+  - /items/show/6640.html
+collections:
+  - '67'
+contributors: []
+date: '2006-09-18 17:14:06'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: 02 12 2006 D3.pdf
+featured: false
+files:
+  - fullsize:
+    id: 5648
+    mime: application/pdf
+    original_filename: 02 12 2006 D3.pdf
+    thumb:
+    url: https://hurricanearchive.org/files/original/14fb2a496d308b14fb2a496d421e.pdf
+geo:
+id: 6640
+item_type: Document
+item_type_metadata: {}
+lastmod: '2006-09-18 17:18:23'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '6640'
+tags: []
+title: 02 12 2006 D3.pdf
+type: items
+---

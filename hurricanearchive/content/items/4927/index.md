@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/4927
+  - /items/show/4927.html
+collections:
+  - '65'
+contributors: []
+date: '2006-09-11 19:27:01'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: DSCN0246.JPG
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a54edfd5c14fb2a54ee012f.jpg
+    id: 4029
+    mime: image/jpeg
+    original_filename: DSCN0246.JPG
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a54edfd5c14fb2a54ee012f.jpg
+    url: https://hurricanearchive.org/files/original/14fb2a54edfd5c14fb2a54ee012f.jpg
+geo:
+id: 4927
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2006-09-11 19:28:30'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '4927'
+tags: []
+title: DSCN0246.JPG
+type: items
+---

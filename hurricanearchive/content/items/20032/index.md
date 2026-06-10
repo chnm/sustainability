@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/20032
+  - /items/show/20032.html
+collections:
+  - '102'
+contributors: []
+date: '2007-02-01 21:27:41'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: Picture 129cplthompson.jpg
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0b9e0a9614fb2a0b9e0e7b.jpg
+    id: 16985
+    mime: image/jpeg
+    original_filename: Picture 129cplthompson.jpg
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0b9e0a9614fb2a0b9e0e7b.jpg
+    url: https://hurricanearchive.org/files/original/14fb2a0b9e0a9614fb2a0b9e0e7b.jpg
+geo:
+id: 20032
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2007-02-05 15:08:14'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '20032'
+tags: []
+title: Picture 129cplthompson.jpg
+type: items
+---

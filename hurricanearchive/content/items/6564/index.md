@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/6564
+  - /items/show/6564.html
+collections:
+  - '67'
+contributors: []
+date: '2006-09-18 17:14:06'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: 02 10 2006 C3.pdf
+featured: false
+files:
+  - fullsize:
+    id: 5572
+    mime: application/pdf
+    original_filename: 02 10 2006 C3.pdf
+    thumb:
+    url: https://hurricanearchive.org/files/original/14fb2a49e98e8914fb2a49e99d47.pdf
+geo:
+id: 6564
+item_type: Document
+item_type_metadata: {}
+lastmod: '2006-09-18 17:18:12'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '6564'
+tags: []
+title: 02 10 2006 C3.pdf
+type: items
+---

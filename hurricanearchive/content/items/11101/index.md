@@ -1,0 +1,41 @@
+---
+aliases:
+  - /items/show/11101
+  - /items/show/11101.html
+collections:
+  - '67'
+contributors: []
+date: '2006-09-19 13:23:11'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: 12 11 2005 A20.pdf
+featured: false
+files:
+  - fullsize:
+    id: 10100
+    mime: application/pdf
+    original_filename: 12 11 2005 A20.pdf
+    thumb:
+    url: https://hurricanearchive.org/files/original/14fb2a2758af6314fb2a2758b347.pdf
+geo:
+  address: ''
+  lat: 0.0
+  lng: 0.0
+  zoom: 12
+id: 11101
+item_type: Document
+item_type_metadata: {}
+lastmod: '2006-09-19 14:56:34'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '11101'
+tags: []
+title: 12 11 2005 A20.pdf
+type: items
+---

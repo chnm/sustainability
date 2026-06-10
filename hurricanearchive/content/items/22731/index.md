@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/22731
+  - /items/show/22731.html
+collections:
+  - '102'
+contributors: []
+date: '2007-02-02 03:39:53'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: PICT0689Jacksonbarracks.JPG
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f45acfe214fb29f45addc3.jpg
+    id: 19682
+    mime: image/jpeg
+    original_filename: PICT0689Jacksonbarracks.JPG
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f45acfe214fb29f45addc3.jpg
+    url: https://hurricanearchive.org/files/original/14fb29f45acfe214fb29f45addc3.jpg
+geo:
+id: 22731
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2007-02-05 15:08:14'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '22731'
+tags: []
+title: PICT0689Jacksonbarracks.JPG
+type: items
+---

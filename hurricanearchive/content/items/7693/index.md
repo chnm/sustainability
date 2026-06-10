@@ -1,0 +1,41 @@
+---
+aliases:
+  - /items/show/7693
+  - /items/show/7693.html
+collections:
+  - '67'
+contributors: []
+date: '2006-09-18 20:14:11'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: 03 17 2006 B3.pdf
+featured: false
+files:
+  - fullsize:
+    id: 6697
+    mime: application/pdf
+    original_filename: 03 17 2006 B3.pdf
+    thumb:
+    url: https://hurricanearchive.org/files/original/14fb2a4008c1da14fb2a4008c5bf.pdf
+geo:
+  address: ''
+  lat: 0.0
+  lng: 0.0
+  zoom: 12
+id: 7693
+item_type: Document
+item_type_metadata: {}
+lastmod: '2006-09-19 14:55:23'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '7693'
+tags: []
+title: 03 17 2006 B3.pdf
+type: items
+---

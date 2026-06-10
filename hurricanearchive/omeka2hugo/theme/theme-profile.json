@@ -1,0 +1,26 @@
+{
+  "chrome_options": {
+    "author": "",
+    "copyright": "Copyrights for materials in the archive are retained by the original creators. All else © 2005 Roy Rosenzweig Center for History and New Media",
+    "description": " ",
+    "public_theme": "hurricane",
+    "show_empty_elements": "0",
+    "site_title": "Hurricane Digital Memory Bank",
+    "use_square_thumbnail": "1"
+  },
+  "description": " ",
+  "site_title": "Hurricane Digital Memory Bank",
+  "theme": "hurricane",
+  "theme_options": {
+    "custom_header_navigation": null,
+    "display_dublin_core_fields": null,
+    "display_featured_collection": "1",
+    "display_featured_exhibit": "1",
+    "display_featured_item": "1",
+    "display_footer_copyright": "0",
+    "footer_text": null,
+    "homepage_recent_items": null,
+    "homepage_text": null,
+    "logo": null
+  }
+}

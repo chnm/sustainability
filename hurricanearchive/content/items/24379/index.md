@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/24379
+  - /items/show/24379.html
+collections:
+  - '102'
+contributors: []
+date: '2007-02-02 19:50:07'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: 501060-R2-00-0.jpg
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e85db26514fb29e85db64b.jpg
+    id: 21323
+    mime: image/jpeg
+    original_filename: 501060-R2-00-0.jpg
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e85db26514fb29e85db64b.jpg
+    url: https://hurricanearchive.org/files/original/14fb29e85db26514fb29e85db64b.jpg
+geo:
+id: 24379
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2007-02-05 15:09:05'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '24379'
+tags: []
+title: 501060-R2-00-0.jpg
+type: items
+---

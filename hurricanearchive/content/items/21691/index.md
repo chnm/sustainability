@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/21691
+  - /items/show/21691.html
+collections:
+  - '102'
+contributors: []
+date: '2007-02-02 03:39:53'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: FH000022.jpg
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fc65b04e14fb29fc65b434.jpg
+    id: 18642
+    mime: image/jpeg
+    original_filename: FH000022.jpg
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fc65b04e14fb29fc65b434.jpg
+    url: https://hurricanearchive.org/files/original/14fb29fc65b04e14fb29fc65b434.jpg
+geo:
+id: 21691
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2007-02-05 15:08:14'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '21691'
+tags: []
+title: FH000022.jpg
+type: items
+---

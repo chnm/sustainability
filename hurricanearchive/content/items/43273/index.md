@@ -1,0 +1,35 @@
+---
+aliases:
+  - /items/show/43273
+  - /items/show/43273.html
+collections: []
+contributors: []
+date: '2010-09-10 04:12:54'
+draft: false
+dublin_core:
+  Description:
+    - html: false
+      text: I was enlisted in the Army National Guard and called to federal active duty when Hurricane Katrina destroyed our Gulf Coast. My unit was activated three or four days before the storm, and instructed to report to our home base in Picayune, Mississippi. Upon arrival we unloaded our gear and attended hours upon hours of meetings involving evacuation protocol, rescue proceedures, and everything in between. Our unit split up into teams in order to complete necessary tasks to complete preparation in a timely manner. I was already a member of my units \"advance party team,\" which is a small team that is sent ahead of the group to evaluate the situation at hand, prepare the area, and communicate and coordinate with the rear parties. The morning before the storm made landfall, my team was moved to an abandoned National Guard unit in Bay St. Louis, Mississippi, only blocks from the beach, where the wrath of the storm was expected to sweep miles of land back into the seas. Our commander immediately contacted our headquarters division to request that our team be allowed to pull back inland because at our location, survival was slim. If we didn\'t survive, then we couldn\'t rescue those in need. In the meantime, we communicated with local officials and other rescue teams and shared information involving locations and exact numbers of those residents refusing to evacuate in order to strategize the rescue of those civilians immediately following the storm. I remember an elder gentleman driving up as I was standing outside of the unit. I was watching the weather move in; getting myself prepared. The gentleman never introduced himself, only drove up next to me and pointed to this half razed building that was to be our \"shelter,\" and said, \"I belonged to this unit back when Camille hit. We flooded pretty bad. Ya\'ll won\'t make it here. May God bless you.\" He shook my hand and was gone just as quickly as he arrived. I distinctly remember that feeling in the pit of my stomach...the one that was already there but suddenly more pronounced. That feeling that you cannot possibly understand until you\'ve had it, although you think you have had it, until you actually do. It\'s not your typical fear or worry, nor a small flutter. This was it. The moment that reality set in. I remember feeling the wind pick up and the domed sky seemed earily sketched. The tall pines swayed back in forth in perfect rythm. The rain began. It was almost that beautiful moment only movies and deep imagination can portray, that moment  right before you die. That\'s all I could think of, once again. This is it. I was interrupted in my moment, the call to load up and pull back. And that we did, and almost too late. By the time we began our convoy back towards Picayune, the rains and wind were intense. The howl of the wind echoed in all directions. We drove, as fast as possible but unbearably slow all in the same breath. I can\'t recall exact times and events of all that followed, those days are unbearable and blurred. I do recall that on that day, I had no idea that the weeks to follow would be more physically and mentally exhausting than even my all to recent fifteen month tour in Fallujah, Iraq. But it was. Witnessing death and destruction in your own backyard in indescribable.
+  Language:
+    - html: false
+      text: eng
+featured: false
+files: []
+geo:
+id: 43273
+item_type: Document
+item_type_metadata: {}
+lastmod: '2021-01-12 20:13:24'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '43273'
+tags:
+  - military memories
+title: Item 43273
+type: items
+---
+
+{{< raw >}}
+I was enlisted in the Army National Guard and called to federal active duty when Hurricane Katrina destroyed our Gulf Coast. My unit was activated three or four days before the storm, and instructed to report to our home base in Picayune, Mississippi. Upon arrival we unloaded our gear and attended hours upon hours of meetings involving evacuation protocol, rescue proceedures, and everything in between. Our unit split up into teams in order to complete necessary tasks to complete preparation in a timely manner. I was already a member of my units \"advance party team,\" which is a small team that is sent ahead of the group to evaluate the situation at hand, prepare the area, and communicate and coordinate with the rear parties. The morning before the storm made landfall, my team was moved to an abandoned National Guard unit in Bay St. Louis, Mississippi, only blocks from the beach, where the wrath of the storm was expected to sweep miles of land back into the seas. Our commander immediately contacted our headquarters division to request that our team be allowed to pull back inland because at our location, survival was slim. If we didn\'t survive, then we couldn\'t rescue those in need. In the meantime, we communicated with local officials and other rescue teams and shared information involving locations and exact numbers of those residents refusing to evacuate in order to strategize the rescue of those civilians immediately following the storm. I remember an elder gentleman driving up as I was standing outside of the unit. I was watching the weather move in; getting myself prepared. The gentleman never introduced himself, only drove up next to me and pointed to this half razed building that was to be our \"shelter,\" and said, \"I belonged to this unit back when Camille hit. We flooded pretty bad. Ya\'ll won\'t make it here. May God bless you.\" He shook my hand and was gone just as quickly as he arrived. I distinctly remember that feeling in the pit of my stomach...the one that was already there but suddenly more pronounced. That feeling that you cannot possibly understand until you\'ve had it, although you think you have had it, until you actually do. It\'s not your typical fear or worry, nor a small flutter. This was it. The moment that reality set in. I remember feeling the wind pick up and the domed sky seemed earily sketched. The tall pines swayed back in forth in perfect rythm. The rain began. It was almost that beautiful moment only movies and deep imagination can portray, that moment  right before you die. That\'s all I could think of, once again. This is it. I was interrupted in my moment, the call to load up and pull back. And that we did, and almost too late. By the time we began our convoy back towards Picayune, the rains and wind were intense. The howl of the wind echoed in all directions. We drove, as fast as possible but unbearably slow all in the same breath. I can\'t recall exact times and events of all that followed, those days are unbearable and blurred. I do recall that on that day, I had no idea that the weeks to follow would be more physically and mentally exhausting than even my all to recent fifteen month tour in Fallujah, Iraq. But it was. Witnessing death and destruction in your own backyard in indescribable.
+{{< /raw >}}

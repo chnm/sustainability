@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/21359
+  - /items/show/21359.html
+collections:
+  - '102'
+contributors: []
+date: '2007-02-02 03:39:53'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: DSC 0236-9-25-2.JPG
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ff39b3c914fb29ff39b7af.jpg
+    id: 18310
+    mime: image/jpeg
+    original_filename: DSC 0236-9-25-2.JPG
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ff39b3c914fb29ff39b7af.jpg
+    url: https://hurricanearchive.org/files/original/14fb29ff39b3c914fb29ff39b7af.jpg
+geo:
+id: 21359
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2007-02-05 15:08:14'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '21359'
+tags: []
+title: DSC 0236-9-25-2.JPG
+type: items
+---

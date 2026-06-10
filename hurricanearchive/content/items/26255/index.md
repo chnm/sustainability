@@ -1,0 +1,52 @@
+---
+aliases:
+  - /items/show/26255
+  - /items/show/26255.html
+collections:
+  - '68'
+contributors: []
+date: '2007-03-27 00:01:09'
+draft: false
+dublin_core:
+  Description:
+    - html: false
+      text: Friends of Angela and Harold Bernard Jr., 1929.\r\n\r\nThis image is from the archive of Ron Chapman,\r\nProfessor of History at Nunez Community College. Nunez\r\nCommunity College is located in Chalmette, in St.\r\nBernard Parish, Louisiana.  In 2005 it was heavily\r\ndamaged by flooding due to Hurricane Katrina.\r\n
+  Language:
+    - html: false
+      text: eng
+  Publisher:
+    - html: false
+      text: Ron Chapman Archive, Nunez Community College
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d93d5a3014fb29d93d5e15.jpg
+    id: 22836
+    mime: image/jpeg
+    original_filename: AB two young men_32ed86ce8c.jpg
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d93d5a3014fb29d93d5e15.jpg
+    url: https://hurricanearchive.org/files/original/14fb29d93d5a3014fb29d93d5e15.jpg
+geo:
+  address: Chalmette, LA
+  lat: 29.9427892
+  lng: -89.9629372
+  zoom: 12
+id: 26255
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2025-04-04 18:48:12'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '26255'
+tags:
+  - New Orleans
+  - men
+  - nunez community college
+  - ron chapman
+title: Item 26255
+type: items
+---
+
+{{< raw >}}
+Friends of Angela and Harold Bernard Jr., 1929.\r\n\r\nThis image is from the archive of Ron Chapman,\r\nProfessor of History at Nunez Community College. Nunez\r\nCommunity College is located in Chalmette, in St.\r\nBernard Parish, Louisiana.  In 2005 it was heavily\r\ndamaged by flooding due to Hurricane Katrina.\r\n
+{{< /raw >}}

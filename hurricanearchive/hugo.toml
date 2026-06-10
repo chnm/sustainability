@@ -1,0 +1,18 @@
+baseURL = ""
+title = "Hurricane Digital Memory Bank"
+languageCode = "en-us"
+disableKinds = ["RSS"]
+
+[params]
+  origin = "https://hurricanearchive.org"
+  site_name = "hurricanearchive"
+
+[taxonomies]
+  collection = "collections"
+  tag = "tags"
+
+[pagination]
+  pagerSize = 50
+
+[markup.goldmark.renderer]
+  unsafe = true

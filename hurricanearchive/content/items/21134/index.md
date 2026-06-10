@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/21134
+  - /items/show/21134.html
+collections:
+  - '102'
+contributors: []
+date: '2007-02-02 03:39:53'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: DSC 0183-21.JPG
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a006728bf14fb2a00672c9b.jpg
+    id: 18085
+    mime: image/jpeg
+    original_filename: DSC 0183-21.JPG
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a006728bf14fb2a00672c9b.jpg
+    url: https://hurricanearchive.org/files/original/14fb2a006728bf14fb2a00672c9b.jpg
+geo:
+id: 21134
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2007-02-05 15:08:14'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '21134'
+tags: []
+title: DSC 0183-21.JPG
+type: items
+---

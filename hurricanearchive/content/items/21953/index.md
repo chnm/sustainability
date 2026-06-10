@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/21953
+  - /items/show/21953.html
+collections:
+  - '102'
+contributors: []
+date: '2007-02-02 03:39:53'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: Picture 284-J2.jpg
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fadd135d14fb29fadd16c4.jpg
+    id: 18904
+    mime: image/jpeg
+    original_filename: Picture 284-J2.jpg
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fadd135d14fb29fadd16c4.jpg
+    url: https://hurricanearchive.org/files/original/14fb29fadd135d14fb29fadd16c4.jpg
+geo:
+id: 21953
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2007-02-05 15:08:14'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '21953'
+tags: []
+title: Picture 284-J2.jpg
+type: items
+---

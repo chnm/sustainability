@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/6492
+  - /items/show/6492.html
+collections:
+  - '67'
+contributors: []
+date: '2006-09-18 17:14:06'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: 02 08 2006 A6.pdf
+featured: false
+files:
+  - fullsize:
+    id: 5500
+    mime: application/pdf
+    original_filename: 02 08 2006 A6.pdf
+    thumb:
+    url: https://hurricanearchive.org/files/original/14fb2a4ae1a86114fb2a4ae1d4c2.pdf
+geo:
+id: 6492
+item_type: Document
+item_type_metadata: {}
+lastmod: '2006-09-18 17:18:02'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '6492'
+tags: []
+title: 02 08 2006 A6.pdf
+type: items
+---

@@ -1,0 +1,51 @@
+---
+aliases:
+  - /items/show/1152
+  - /items/show/1152.html
+collections:
+  - '10'
+contributors: []
+date: '2006-01-27 16:39:57'
+draft: false
+dublin_core:
+  Date:
+    - html: false
+      text: '2005-09-28 10:04:55'
+  Description:
+    - html: false
+      text: Slidell, Louisiana, in the eye of Katrina.
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: 2005-28420.jpg (Object)
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6ac340bf14fb2a6ac348d0.jpg
+    id: 1332
+    mime: image/jpeg
+    original_filename: 2005-28420.jpg
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6ac340bf14fb2a6ac348d0.jpg
+    url: https://hurricanearchive.org/files/original/14fb2a6ac340bf14fb2a6ac348d0.jpg
+geo:
+  address: ''
+  lat: 0.0
+  lng: 0.0
+  zoom: 12
+id: 1152
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2006-01-27 16:48:05'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '1152'
+tags: []
+title: 2005-28420.jpg (Object)
+type: items
+---
+
+{{< raw >}}
+Slidell, Louisiana, in the eye of Katrina.
+{{< /raw >}}

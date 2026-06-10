@@ -1,0 +1,44 @@
+---
+aliases:
+  - /items/show/878
+  - /items/show/878.html
+collections:
+  - '10'
+contributors: []
+date: '2006-01-27 16:39:49'
+draft: false
+dublin_core:
+  Date:
+    - html: false
+      text: '2005-09-28 23:49:10'
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: 2005-28484.jpg (Object)
+featured: false
+files:
+  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6c88ba3114fb2a6c88be20.jpg
+    id: 1058
+    mime: image/jpeg
+    original_filename: 2005-28484.jpg
+    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6c88ba3114fb2a6c88be20.jpg
+    url: https://hurricanearchive.org/files/original/14fb2a6c88ba3114fb2a6c88be20.jpg
+geo:
+  address: ''
+  lat: 0.0
+  lng: 0.0
+  zoom: 12
+id: 878
+item_type: Still Image
+item_type_metadata: {}
+lastmod: '2006-01-27 16:48:02'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '878'
+tags: []
+title: 2005-28484.jpg (Object)
+type: items
+---

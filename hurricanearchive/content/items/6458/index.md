@@ -1,0 +1,37 @@
+---
+aliases:
+  - /items/show/6458
+  - /items/show/6458.html
+collections:
+  - '67'
+contributors: []
+date: '2006-09-18 17:14:06'
+draft: false
+dublin_core:
+  Language:
+    - html: false
+      text: eng
+  Title:
+    - html: false
+      text: 02 07 2006 A11.pdf
+featured: false
+files:
+  - fullsize:
+    id: 5466
+    mime: application/pdf
+    original_filename: 02 07 2006 A11.pdf
+    thumb:
+    url: https://hurricanearchive.org/files/original/14fb2a4b638e0c14fb2a4b6391f1.pdf
+geo:
+id: 6458
+item_type: Document
+item_type_metadata: {}
+lastmod: '2006-09-18 17:17:57'
+layout: single
+plugin_metadata: []
+related_items: []
+slug: '6458'
+tags: []
+title: 02 07 2006 A11.pdf
+type: items
+---

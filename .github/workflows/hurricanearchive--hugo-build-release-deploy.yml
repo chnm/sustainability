@@ -19,6 +19,7 @@ jobs:
       container-registry: "ghcr.io"
       container-image-name: "hurricanearchive-website"
       hugo-context-root: "hurricanearchive"
+      hugo-content-path: "/srv"
       hugo-devl-url: "https://hurricane.dev.chnm.gmu.edu"
       hugo-prod-url: "https://hurricane.dev.chnm.gmu.edu"
 

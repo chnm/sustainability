@@ -1,0 +1,9 @@
+{
+  "name": "hurricanearchive",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Hurricane Digital Memory Bank — Hugo static site with pagefind search.",
+  "devDependencies": {
+    "pagefind": "^1.4.0"
+  }
+}

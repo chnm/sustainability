@@ -26,6 +26,6 @@ jobs:
       release-tag-name-type: "iso"
       tag-prefix: "hurricane-"
 
-      website-devl-fqdn: "hurricanearchive.dev.chnm.gmu.edu"
-      website-prod-fqdn: "hurricanearchive.dev.chnm.gmu.edu"
+      website-devl-fqdn: "hurricane.dev.chnm.gmu.edu"
+      website-prod-fqdn: "hurricane.dev.chnm.gmu.edu"
 

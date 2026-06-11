@@ -4,13 +4,12 @@ aliases:
   - /items/show/2661.html
 collections:
   - '20'
-contributors: []
 date: '2006-08-21 16:10:59'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Auditorium seats and cinder blocks, Cameron Elementary School, Cameron/Louisiana, December 2005 '
+      text: Auditorium seats and cinder blocks, Cameron Elementary School, Cameron/Louisiana, December 2005
   Language:
     - html: false
       text: eng

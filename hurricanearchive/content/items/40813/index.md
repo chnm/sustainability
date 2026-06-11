@@ -3,13 +3,12 @@ aliases:
   - /items/show/40813
   - /items/show/40813.html
 collections: []
-contributors: []
 date: '2009-08-29 11:00:07'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'After Katrina, people not only had to deal with losing so much, but in the rebuild effort they had to watch out for price gougers.  This man was an out-of-town worker being arrested in Slidell after trying to charge my neighbor $5,000 for cutting down a tree.  The police were adamant about this and charged him to the fullest.  I was impressed with the Slidell Police Department in their efforts to help keep gougers away!\r\n '
+      text: After Katrina, people not only had to deal with losing so much, but in the rebuild effort they had to watch out for price gougers.  This man was an out-of-town worker being arrested in Slidell after trying to charge my neighbor $5,000 for cutting down a tree.  The police were adamant about this and charged him to the fullest.  I was impressed with the Slidell Police Department in their efforts to help keep gougers away!\r\n
   Language:
     - html: false
       text: eng
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 29.993
   lng: -91.23047
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40813
 item_type: Still Image

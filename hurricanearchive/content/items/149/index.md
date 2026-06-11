@@ -3,7 +3,6 @@ aliases:
   - /items/show/149
   - /items/show/149.html
 collections: []
-contributors: []
 date: '2005-11-18 06:53:06'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 01:53:06'
   Description:
     - html: false
-      text: ' A picture I took of New Olreans before any sign of Katrina.'
+      text: A picture I took of New Olreans before any sign of Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.030902
   lng: -90.068022
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 149
 item_type: Still Image

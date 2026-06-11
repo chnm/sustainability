@@ -3,7 +3,6 @@ aliases:
   - /items/show/1836
   - /items/show/1836.html
 collections: []
-contributors: []
 date: '2006-02-12 08:02:50'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-12 03:02:50'
   Description:
     - html: false
-      text: ' Mirabeau and Saint Anthony Aves. Near the London Avenue Canal'
+      text: Mirabeau and Saint Anthony Aves. Near the London Avenue Canal
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0076269718883
   lng: -90.065016746521
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1836
 item_type: Still Image

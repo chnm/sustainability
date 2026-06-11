@@ -3,7 +3,6 @@ aliases:
   - /items/show/2448
   - /items/show/2448.html
 collections: []
-contributors: []
 date: '2006-08-10 01:36:32'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: ''
   lat: 30.0286775329042
   lng: -89.97802734374999
+  map_type: ''
   zoom: 12
 id: 2448
 item_type: Still Image

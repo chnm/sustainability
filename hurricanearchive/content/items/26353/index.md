@@ -4,7 +4,6 @@ aliases:
   - /items/show/26353.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-28 19:17:22'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Riverside, CA
   lat: 33.95333
   lng: -117.39528
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26353
 item_type: Document

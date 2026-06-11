@@ -3,7 +3,6 @@ aliases:
   - /items/show/5323
   - /items/show/5323.html
 collections: []
-contributors: []
 date: '2006-09-14 19:42:29'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 21282 fm 365
   lat: 29.93337
   lng: -94.27763
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 5323
 item_type: Document

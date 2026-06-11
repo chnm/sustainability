@@ -3,13 +3,12 @@ aliases:
   - /items/show/41361
   - /items/show/41361.html
 collections: []
-contributors: []
 date: '2009-10-10 17:30:27'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "This van was parked behind UNO\\'s Jefferson Center, on Causeway Blvd. in Metairie, in the fall of 2008. "
+      text: This van was parked behind UNO\'s Jefferson Center, on Causeway Blvd. in Metairie, in the fall of 2008.
   Language:
     - html: false
       text: eng
@@ -19,6 +18,7 @@ geo:
   address: 2000 lakeshore drive
   lat: 30.01218
   lng: -90.15604
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 41361
 item_type: Document

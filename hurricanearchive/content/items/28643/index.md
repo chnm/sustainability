@@ -3,13 +3,14 @@ aliases:
   - /items/show/28643
   - /items/show/28643.html
 collections: []
-contributors: []
 date: '2007-06-13 17:49:59'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Near Common Ground's Lower 9th Ward building, there were some supplies that people could take.\r\nNew Orleans, LA\r\n"
+      text: |-
+        Near Common Ground's Lower 9th Ward building, there were some supplies that people could take.
+        New Orleans, LA
   Language:
     - html: false
       text: eng

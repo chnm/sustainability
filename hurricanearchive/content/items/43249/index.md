@@ -3,7 +3,6 @@ aliases:
   - /items/show/43249
   - /items/show/43249.html
 collections: []
-contributors: []
 date: '2010-09-08 03:32:23'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 3825 Palmisano Blvd.
   lat: 29.95151
   lng: -89.94499
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43249
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/26423
   - /items/show/26423.html
 collections: []
-contributors: []
 date: '2007-03-29 19:52:18'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: Moonraker Rd
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26423
 item_type: Still Image

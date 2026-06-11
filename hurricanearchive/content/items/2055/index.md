@@ -3,7 +3,6 @@ aliases:
   - /items/show/2055
   - /items/show/2055.html
 collections: []
-contributors: []
 date: '2006-03-28 05:06:03'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-28 00:06:03'
   Description:
     - html: false
-      text: ' August 29, 2006\r\nStorm surge covering I-10 at Oak Harbor in Slidell. Yes, that is a house floating down the interstate! View from Bayou Country General Store.'
+      text: August 29, 2006\r\nStorm surge covering I-10 at Oak Harbor in Slidell. Yes, that is a house floating down the interstate! View from Bayou Country General Store.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.224439238648202
   lng: -89.77881431579591
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2055
 item_type: Still Image

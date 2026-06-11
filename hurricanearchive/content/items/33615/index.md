@@ -3,13 +3,12 @@ aliases:
   - /items/show/33615
   - /items/show/33615.html
 collections: []
-contributors: []
 date: '2008-02-11 17:12:26'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'This is a scan of an article I wrote that was published in many newspapers across the country.  It describes my experiences in the wake of Katrina when I traveled to Mississippi to pick up my son.  '
+      text: This is a scan of an article I wrote that was published in many newspapers across the country.  It describes my experiences in the wake of Katrina when I traveled to Mississippi to pick up my son.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: ''
   lat: 30.33495
   lng: -88.5498
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33615
 item_type: Still Image

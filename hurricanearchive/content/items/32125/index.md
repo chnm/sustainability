@@ -4,7 +4,6 @@ aliases:
   - /items/show/32125.html
 collections:
   - '19'
-contributors: []
 date: '2007-09-04 16:33:37'
 draft: false
 dublin_core:
@@ -13,13 +12,13 @@ dublin_core:
       text: '2007-09-04 00:00:00'
   Description:
     - html: false
-      text: 'I snapped this photo on Ponce de Leon Street in Mid-City New Orleans (my neighborhood) in July 2007. Prior to Hurricane Katrina, rents were much lower. A shotgun double in this neighborhood could be found for $600 and a studio would be about $400. Landlords blame soaring insurance costs for the rent increases. (Prior to Katrina, the half a shotgun double I now rent cost only $300/month!) '
+      text: I snapped this photo on Ponce de Leon Street in Mid-City New Orleans (my neighborhood) in July 2007. Prior to Hurricane Katrina, rents were much lower. A shotgun double in this neighborhood could be found for $600 and a studio would be about $400. Landlords blame soaring insurance costs for the rent increases. (Prior to Katrina, the half a shotgun double I now rent cost only $300/month!)
   Language:
     - html: false
       text: eng
   Title:
     - html: false
-      text: 'For Rent  '
+      text: For Rent
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc087a5b14fb29cc087e41.jpg
@@ -32,6 +31,7 @@ geo:
   address: Ponce de leon Street
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 32125
 item_type: Still Image
@@ -47,7 +47,7 @@ tags:
   - landlords
   - midcity
   - rent
-title: 'For Rent  '
+title: For Rent
 type: items
 ---
 

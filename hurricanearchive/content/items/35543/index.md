@@ -3,7 +3,6 @@ aliases:
   - /items/show/35543
   - /items/show/35543.html
 collections: []
-contributors: []
 date: '2008-06-05 00:34:45'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 316 filmore ave
   lat: 30.01261
   lng: -90.11123
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35543
 item_type: Document

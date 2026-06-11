@@ -3,7 +3,6 @@ aliases:
   - /items/show/410
   - /items/show/410.html
 collections: []
-contributors: []
 date: '2005-12-26 18:45:41'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 13:45:41'
   Description:
     - html: false
-      text: ' A car has been tossed about like a mere tin can.'
+      text: A car has been tossed about like a mere tin can.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.3278420010727
   lng: -89.241943359375
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 410
 item_type: Still Image

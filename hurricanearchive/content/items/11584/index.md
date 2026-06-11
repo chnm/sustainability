@@ -3,13 +3,12 @@ aliases:
   - /items/show/11584
   - /items/show/11584.html
 collections: []
-contributors: []
 date: '2006-10-01 00:54:34'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Gutting out debris, Canal St., October 2005. '
+      text: Gutting out debris, Canal St., October 2005.
   Language:
     - html: false
       text: eng
@@ -19,6 +18,7 @@ geo:
   address: Canal St., New Orleans, LA
   lat: 29.95419
   lng: -90.0709
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 11584
 item_type: Document

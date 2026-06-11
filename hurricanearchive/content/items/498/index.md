@@ -3,7 +3,6 @@ aliases:
   - /items/show/498
   - /items/show/498.html
 collections: []
-contributors: []
 date: '2005-12-29 02:44:45'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 21:44:45'
   Description:
     - html: false
-      text: ' Another fridge, another message, a very important message.'
+      text: Another fridge, another message, a very important message.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.938343
   lng: -90.100773
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 498
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/214
   - /items/show/214.html
 collections: []
-contributors: []
 date: '2005-11-20 06:12:56'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-20 01:12:56'
   Description:
     - html: false
-      text: ' A friend of mine took this picture in St. Bernard.'
+      text: A friend of mine took this picture in St. Bernard.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.984643
   lng: -90.161821
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 214
 item_type: Still Image

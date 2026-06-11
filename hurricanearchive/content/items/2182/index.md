@@ -3,7 +3,6 @@ aliases:
   - /items/show/2182
   - /items/show/2182.html
 collections: []
-contributors: []
 date: '2006-04-22 17:24:46'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 00:00:00'
   Description:
     - html: false
-      text: ' Getting a big hug at the Red Cross shelter in Arcadia, Florida after Hurricane Charley 2004'
+      text: Getting a big hug at the Red Cross shelter in Arcadia, Florida after Hurricane Charley 2004
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 27.18608
   lng: -81.86666
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2182
 item_type: Still Image

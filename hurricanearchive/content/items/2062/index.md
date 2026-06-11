@@ -3,7 +3,6 @@ aliases:
   - /items/show/2062
   - /items/show/2062.html
 collections: []
-contributors: []
 date: '2006-04-05 18:32:33'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-05 14:32:33'
   Description:
     - html: false
-      text: ' Here be monsters.\r\n\r\nLiving room. S. Rendon st., New Orleans.'
+      text: Here be monsters.\r\n\r\nLiving room. S. Rendon st., New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.967129708835
   lng: -90.09449958801271
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2062
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/2336
   - /items/show/2336.html
 collections: []
-contributors: []
 date: '2006-07-23 08:14:29'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-23 04:14:29'
   Description:
     - html: false
-      text: " A McDonald\\'s sign that doesn\\'t look like such a happy place to be anymore"
+      text: A McDonald\'s sign that doesn\'t look like such a happy place to be anymore
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.444825956002695
   lng: -90.9508323669434
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2336
 item_type: Still Image

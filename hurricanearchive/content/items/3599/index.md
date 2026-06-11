@@ -4,13 +4,12 @@ aliases:
   - /items/show/3599.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'These cats keep a watchful eye on possessions removed from their home.  It seems very odd to be able to walk up to a house and view this in front of a home.  While some people might be tempted to take these, I think most people understand the unspoken rule that this is not to be touched.  Scenes like this can be found in every neighborhood destroyed by Katrina.     '
+      text: These cats keep a watchful eye on possessions removed from their home.  It seems very odd to be able to walk up to a house and view this in front of a home.  While some people might be tempted to take these, I think most people understand the unspoken rule that this is not to be touched.  Scenes like this can be found in every neighborhood destroyed by Katrina.
   Language:
     - html: false
       text: eng

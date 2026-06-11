@@ -3,13 +3,12 @@ aliases:
   - /items/show/26560
   - /items/show/26560.html
 collections: []
-contributors: []
 date: '2007-04-07 20:20:45'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "I shot this image at a home in the Lower Ninth ward this past March (2007)  I was there as a relief worker, and the image of this businessman\\'s shirt just hanging there jumped out at me. It kind of tells a story itself. . .about being left behind. "
+      text: I shot this image at a home in the Lower Ninth ward this past March (2007)  I was there as a relief worker, and the image of this businessman\'s shirt just hanging there jumped out at me. It kind of tells a story itself. . .about being left behind.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: Ninth Ward
   lat: 29.14257
   lng: -81.8042
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26560
 item_type: Still Image

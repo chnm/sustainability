@@ -4,7 +4,6 @@ aliases:
   - /items/show/26357.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-28 19:26:42'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: new orleans, la
   lat: 29.95444
   lng: -90.075
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26357
 item_type: Document

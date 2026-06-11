@@ -3,7 +3,6 @@ aliases:
   - /items/show/260
   - /items/show/260.html
 collections: []
-contributors: []
 date: '2005-11-26 04:44:58'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-25 23:44:58'
   Description:
     - html: false
-      text: ' My apartment.'
+      text: My apartment.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.920768
   lng: -90.204326
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 260
 item_type: Still Image

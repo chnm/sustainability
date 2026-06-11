@@ -3,7 +3,6 @@ aliases:
   - /items/show/32216
   - /items/show/32216.html
 collections: []
-contributors: []
 date: '2007-09-06 14:44:53'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: St. Bernard Parish
   lat: 32.32883
   lng: -90.92441
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 32216
 item_type: Still Image

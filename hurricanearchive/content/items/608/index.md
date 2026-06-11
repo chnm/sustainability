@@ -3,7 +3,6 @@ aliases:
   - /items/show/608
   - /items/show/608.html
 collections: []
-contributors: []
 date: '2006-01-17 09:05:10'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 04:05:10'
   Description:
     - html: false
-      text: ' I took this picture outside a damaged Holiday Inn in Port Arthur, Texas on October 16th, 2005, over 3 weeks after Hurricane Rita hit here.  Dealing with the aftermath on a daily basis, this sign actually brought a little hope.  Every day you saw it, it was still true.'
+      text: I took this picture outside a damaged Holiday Inn in Port Arthur, Texas on October 16th, 2005, over 3 weeks after Hurricane Rita hit here.  Dealing with the aftermath on a daily basis, this sign actually brought a little hope.  Every day you saw it, it was still true.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.148461
   lng: -94.172481
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 608
 item_type: Still Image

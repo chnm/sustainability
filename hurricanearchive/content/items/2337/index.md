@@ -3,7 +3,6 @@ aliases:
   - /items/show/2337
   - /items/show/2337.html
 collections: []
-contributors: []
 date: '2006-07-23 08:16:52'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-23 04:16:52'
   Description:
     - html: false
-      text: " This is a building in downtown New Orleans that had it\\'s window\\'s busted out by the storm"
+      text: This is a building in downtown New Orleans that had it\'s window\'s busted out by the storm
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.4447519598356
   lng: -90.95126152038569
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2337
 item_type: Still Image

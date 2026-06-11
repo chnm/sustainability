@@ -3,7 +3,6 @@ aliases:
   - /items/show/136
   - /items/show/136.html
 collections: []
-contributors: []
 date: '2005-11-17 23:25:14'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 18:25:14'
   Description:
     - html: false
-      text: ' Waiting to be rescued. When will they ever come?'
+      text: Waiting to be rescued. When will they ever come?
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.942737894394103
   lng: -90.0745010375977
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 136
 item_type: Still Image

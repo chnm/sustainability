@@ -4,13 +4,12 @@ aliases:
   - /items/show/26918.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Cori Lee who lived in New Orleans and her family evacuated to Middle Tennessee and now attends Middle Tennessee State University. '
+      text: Interview with Cori Lee who lived in New Orleans and her family evacuated to Middle Tennessee and now attends Middle Tennessee State University.
   Language:
     - html: false
       text: eng

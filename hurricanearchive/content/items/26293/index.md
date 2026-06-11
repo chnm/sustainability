@@ -4,7 +4,6 @@ aliases:
   - /items/show/26293.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-27 15:17:56'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Kennedale, Texas
   lat: 32.64667
   lng: -97.22556
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26293
 item_type: Document

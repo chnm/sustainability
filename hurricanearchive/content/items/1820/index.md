@@ -3,7 +3,6 @@ aliases:
   - /items/show/1820
   - /items/show/1820.html
 collections: []
-contributors: []
 date: '2006-02-08 05:52:21'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-08 00:52:21'
   Description:
     - html: false
-      text: ' Gramercy VFD Station 3 recieved damage from Katrina'
+      text: Gramercy VFD Station 3 recieved damage from Katrina
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0721022485992
   lng: -90.70466995239259
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1820
 item_type: Still Image

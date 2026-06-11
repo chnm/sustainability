@@ -4,7 +4,6 @@ aliases:
   - /items/show/31589.html
 collections:
   - '68'
-contributors: []
 date: '2007-08-22 08:21:32'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 900 Camp St.
   lat: 29.94411
   lng: -90.07091
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 31589
 item_type: Still Image

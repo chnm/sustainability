@@ -3,7 +3,6 @@ aliases:
   - /items/show/33474
   - /items/show/33474.html
 collections: []
-contributors: []
 date: '2008-01-31 18:42:51'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 4016 Paige Janette dr
   lat: 29.86108
   lng: -90.08259
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33474
 item_type: Document

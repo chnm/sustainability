@@ -3,7 +3,6 @@ aliases:
   - /items/show/2339
   - /items/show/2339.html
 collections: []
-contributors: []
 date: '2006-07-23 08:31:21'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-23 04:31:21'
   Description:
     - html: false
-      text: " this is a house that had it\\'s roof ripped off by the high winds"
+      text: this is a house that had it\'s roof ripped off by the high winds
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.4451219401091
   lng: -90.9521198272705
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2339
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/40869
   - /items/show/40869.html
 collections: []
-contributors: []
 date: '2009-08-31 23:15:28'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 3703 West Bode PKWY
   lat: 29.95969
   lng: -90.22797
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40869
 item_type: Document

@@ -3,13 +3,12 @@ aliases:
   - /items/show/41375
   - /items/show/41375.html
 collections: []
-contributors: []
 date: '2009-10-12 00:17:13'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Family from Florida who helped us dig through what was left of our house! '
+      text: Family from Florida who helped us dig through what was left of our house!
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: 7224 patricia street
   lat: 29.9657
   lng: -89.99653
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 41375
 item_type: Still Image

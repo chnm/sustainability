@@ -4,7 +4,6 @@ aliases:
   - /items/show/2394.html
 collections:
   - '16'
-contributors: []
 date: '2006-08-17 17:10:54'
 draft: false
 dublin_core:
@@ -13,13 +12,13 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: '(Aug. 29, 2005) - Flooded roadways can be seen as the Coast Guard conducts initial Hurricane Katrina damage assessment overflights here today. U.S. Coast Guard photograph by Petty Officer 2nd Class Kyle Niemi \r\n050829-C-3550N-082 (FR) '
+      text: (Aug. 29, 2005) - Flooded roadways can be seen as the Coast Guard conducts initial Hurricane Katrina damage assessment overflights here today. U.S. Coast Guard photograph by Petty Officer 2nd Class Kyle Niemi \r\n050829-C-3550N-082 (FR)
   Language:
     - html: false
       text: eng
   Publisher:
     - html: false
-      text: 'U.S. COAST GUARD '
+      text: U.S. COAST GUARD
   Title:
     - html: false
       text: Flooded New Orleans

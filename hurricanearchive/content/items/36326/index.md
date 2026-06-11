@@ -3,7 +3,6 @@ aliases:
   - /items/show/36326
   - /items/show/36326.html
 collections: []
-contributors: []
 date: '2008-07-21 03:51:33'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: '840  Joe Yenni #28 Kenner, LA'
   lat: 30.0408
   lng: -90.2578
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 36326
 item_type: Document

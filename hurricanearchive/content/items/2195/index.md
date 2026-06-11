@@ -3,7 +3,6 @@ aliases:
   - /items/show/2195
   - /items/show/2195.html
 collections: []
-contributors: []
 date: '2006-04-24 03:59:02'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-23 23:59:02'
   Description:
     - html: false
-      text: ' Halloween 2005 in post-Katrina New Orleans at the Intersection of Decatur and Governor Nicholls...   The gentleman was dressed as a FEMA check.'
+      text: Halloween 2005 in post-Katrina New Orleans at the Intersection of Decatur and Governor Nicholls...   The gentleman was dressed as a FEMA check.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.960548970379698
   lng: -90.0596952438354
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2195
 item_type: Still Image

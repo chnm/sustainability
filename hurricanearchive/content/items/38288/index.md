@@ -3,7 +3,6 @@ aliases:
   - /items/show/38288
   - /items/show/38288.html
 collections: []
-contributors: []
 date: '2008-12-10 22:54:11'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: PO Box 750454
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 38288
 item_type: Document

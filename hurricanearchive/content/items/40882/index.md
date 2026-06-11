@@ -3,7 +3,6 @@ aliases:
   - /items/show/40882
   - /items/show/40882.html
 collections: []
-contributors: []
 date: '2009-09-01 20:48:51'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: ''
   lat: 30.26856
   lng: -89.75006
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40882
 item_type: Document

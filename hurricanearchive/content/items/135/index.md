@@ -3,7 +3,6 @@ aliases:
   - /items/show/135
   - /items/show/135.html
 collections: []
-contributors: []
 date: '2005-11-17 23:21:54'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 18:21:54'
   Description:
     - html: false
-      text: ' Being swept away on the Mississippi Gulf Coast.'
+      text: Being swept away on the Mississippi Gulf Coast.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.3918303280881
   lng: -88.9590454101562
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 135
 item_type: Still Image

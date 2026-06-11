@@ -3,13 +3,12 @@ aliases:
   - /items/show/34425
   - /items/show/34425.html
 collections: []
-contributors: []
 date: '2008-04-17 19:25:01'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Anne &amp; John\\'s Den destroyed "
+      text: Anne &amp; John\'s Den destroyed
   Rights:
     - html: false
       text: Attribution-NonCommercial License (http://creativecommons.org/licenses/by-nc/2.0/)
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 30.22894
   lng: -89.80244
+  map_type: Yahoo Maps API
   zoom: 12
 id: 34425
 item_type: Still Image

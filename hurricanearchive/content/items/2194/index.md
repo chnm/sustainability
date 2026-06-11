@@ -3,7 +3,6 @@ aliases:
   - /items/show/2194
   - /items/show/2194.html
 collections: []
-contributors: []
 date: '2006-04-24 03:55:09'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-23 23:55:09'
   Description:
     - html: false
-      text: ' Halloween on Decatur Street at the intersection of Decatur and Govenor Nicholls...   The man on the left was dressed as a FEMA agent and the man on the right was dressed as a FEMA check.    When this picture was taken, the man dressed as a FEMA agent was writing a \"FEMA check\" to the other person.'
+      text: Halloween on Decatur Street at the intersection of Decatur and Govenor Nicholls...   The man on the left was dressed as a FEMA agent and the man on the right was dressed as a FEMA check.    When this picture was taken, the man dressed as a FEMA agent was writing a \"FEMA check\" to the other person.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9605117898285
   lng: -90.0597596168518
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2194
 item_type: Still Image

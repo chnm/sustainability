@@ -4,7 +4,6 @@ aliases:
   - /items/show/26508.html
 collections:
   - '143'
-contributors: []
 date: '2007-04-04 20:00:38'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: dallas, tx
   lat: 32.78333
   lng: -96.8
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26508
 item_type: Document

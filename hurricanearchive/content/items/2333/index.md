@@ -3,7 +3,6 @@ aliases:
   - /items/show/2333
   - /items/show/2333.html
 collections: []
-contributors: []
 date: '2006-07-21 02:50:56'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-20 22:50:56'
   Description:
     - html: false
-      text: " Doesn\\'t really need explaning"
+      text: Doesn\'t really need explaning
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.4448999521135
   lng: -90.95126152038569
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2333
 item_type: Still Image

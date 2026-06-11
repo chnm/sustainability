@@ -3,13 +3,12 @@ aliases:
   - /items/show/41359
   - /items/show/41359.html
 collections: []
-contributors: []
 date: '2009-10-10 17:26:53'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "A woman was wearing this shirt at Daneel Playground in New Orleans on October 10, 2009. She said her brother bought it from a street vendor in New Orleans very soon after the storm, before many people had returned. He had come back to gut some people\\'s houses. "
+      text: A woman was wearing this shirt at Daneel Playground in New Orleans on October 10, 2009. She said her brother bought it from a street vendor in New Orleans very soon after the storm, before many people had returned. He had come back to gut some people\'s houses.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: 2000 lakeshore drive
   lat: 29.92957
   lng: -90.11415
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 41359
 item_type: Still Image

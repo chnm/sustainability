@@ -3,7 +3,6 @@ aliases:
   - /items/show/43272
   - /items/show/43272.html
 collections: []
-contributors: []
 date: '2010-09-10 03:06:38'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: lizabeth dr.
   lat: 29.86581
   lng: -90.09115
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43272
 item_type: Document

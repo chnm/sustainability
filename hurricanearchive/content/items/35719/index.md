@@ -4,7 +4,6 @@ aliases:
   - /items/show/35719.html
 collections:
   - '212'
-contributors: []
 date: '2008-06-17 15:51:44'
 draft: false
 dublin_core:
@@ -29,6 +28,7 @@ geo:
   address: 100 Walnut Street
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35719
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/24
   - /items/show/24.html
 collections: []
-contributors: []
 date: '2005-11-15 21:46:51'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-15 16:46:51'
   Description:
     - html: false
-      text: ' This is an aerial photo, showing the wide-spread flooding of the New Orleans metro area due to the levees breaking after Hurricane Katrina.'
+      text: This is an aerial photo, showing the wide-spread flooding of the New Orleans metro area due to the levees breaking after Hurricane Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.951082
   lng: -90.206031
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 24
 item_type: Still Image

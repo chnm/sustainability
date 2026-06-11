@@ -4,13 +4,12 @@ aliases:
   - /items/show/3606.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'I was able to get approved access to enter Brother Martin High School by Elysian Fields Ave.  The front of the the school had about 1.5+ feet of water in the classrooms.  Boxes of equipment and supplies saved from the classrooms are stacked in the basketball gymnasium.  '
+      text: I was able to get approved access to enter Brother Martin High School by Elysian Fields Ave.  The front of the the school had about 1.5+ feet of water in the classrooms.  Boxes of equipment and supplies saved from the classrooms are stacked in the basketball gymnasium.
   Language:
     - html: false
       text: eng

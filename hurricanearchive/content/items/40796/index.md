@@ -3,7 +3,6 @@ aliases:
   - /items/show/40796
   - /items/show/40796.html
 collections: []
-contributors: []
 date: '2009-08-28 16:00:18'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 2501 Hero Drive
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40796
 item_type: Document

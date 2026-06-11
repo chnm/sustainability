@@ -3,7 +3,6 @@ aliases:
   - /items/show/407
   - /items/show/407.html
 collections: []
-contributors: []
 date: '2005-12-26 18:39:27'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 13:39:27'
   Description:
     - html: false
-      text: ' Sand covers the yard like snow in front of a residence in Pass Christian.'
+      text: Sand covers the yard like snow in front of a residence in Pass Christian.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.3349538819886
   lng: -89.2062377929688
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 407
 item_type: Still Image

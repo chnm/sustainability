@@ -4,7 +4,6 @@ aliases:
   - /items/show/362.html
 collections:
   - '190'
-contributors: []
 date: '2005-12-14 18:43:12'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2005-12-14 00:00:00'
   Description:
     - html: false
-      text: ' Research project on people with special needs.'
+      text: Research project on people with special needs.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 30.40829
   lng: -91.14391
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 362
 item_type: Document

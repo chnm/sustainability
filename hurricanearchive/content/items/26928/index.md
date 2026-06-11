@@ -4,13 +4,12 @@ aliases:
   - /items/show/26928.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Kendyl Stokes, an emergency management planner with the Tennessee Emergency Management Agency, who assisted and managed with hurricane relief. '
+      text: Interview with Kendyl Stokes, an emergency management planner with the Tennessee Emergency Management Agency, who assisted and managed with hurricane relief.
   Language:
     - html: false
       text: eng

@@ -4,7 +4,6 @@ aliases:
   - /items/show/26486.html
 collections:
   - '143'
-contributors: []
 date: '2007-04-04 15:54:07'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Burleson, Texas
   lat: 32.54194
   lng: -97.32056
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26486
 item_type: Document

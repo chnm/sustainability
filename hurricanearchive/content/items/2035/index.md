@@ -3,7 +3,6 @@ aliases:
   - /items/show/2035
   - /items/show/2035.html
 collections: []
-contributors: []
 date: '2006-03-18 09:38:19'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-18 04:38:19'
   Description:
     - html: false
-      text: " Dr Robert\\'s Car Care"
+      text: Dr Robert\'s Car Care
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.2547301074341
   lng: -89.7902297973633
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2035
 item_type: Still Image

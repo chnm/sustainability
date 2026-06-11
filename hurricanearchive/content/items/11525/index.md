@@ -3,7 +3,6 @@ aliases:
   - /items/show/11525
   - /items/show/11525.html
 collections: []
-contributors: []
 date: '2006-09-26 01:56:23'
 draft: false
 dublin_core:

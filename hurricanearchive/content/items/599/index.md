@@ -3,7 +3,6 @@ aliases:
   - /items/show/599
   - /items/show/599.html
 collections: []
-contributors: []
 date: '2006-01-16 17:09:07'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-16 12:09:07'
   Description:
     - html: false
-      text: " This was taken by my cousin Stacey when we first inspected my Grandmother\\'s house in Mid-City."
+      text: This was taken by my cousin Stacey when we first inspected my Grandmother\'s house in Mid-City.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.981776793542103
   lng: -90.074200630188
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 599
 item_type: Still Image

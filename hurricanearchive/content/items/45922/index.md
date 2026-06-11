@@ -3,13 +3,12 @@ aliases:
   - /items/show/45922
   - /items/show/45922.html
 collections: []
-contributors: []
 date: '2012-10-08 01:25:30'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Picture taken in the Lower Ninth Ward of New Orleans by my son, Farren Clark in November 2005.  It illustrates the mud hardening into large chunks and cracking upon the covered surfaces.  It also illustrates the separation residents experienced from their homes, family members, patterns of daily routines and interaction. The thesis \"Surviving Hurricane Katrina, a Qualitative Narrative Inquiry\" was published in 2007 at the University of Northern Iowa.\r\n"
+      text: Picture taken in the Lower Ninth Ward of New Orleans by my son, Farren Clark in November 2005.  It illustrates the mud hardening into large chunks and cracking upon the covered surfaces.  It also illustrates the separation residents experienced from their homes, family members, patterns of daily routines and interaction. The thesis "Surviving Hurricane Katrina, a Qualitative Narrative Inquiry" was published in 2007 at the University of Northern Iowa.
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/d776f7c85b94df79e2e27f6f1c995956.jpg

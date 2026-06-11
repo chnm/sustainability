@@ -3,7 +3,6 @@ aliases:
   - /items/show/127
   - /items/show/127.html
 collections: []
-contributors: []
 date: '2005-11-17 22:56:27'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:56:27'
   Description:
     - html: false
-      text: ' \"The water is rising pleas...\" Please Help!'
+      text: \"The water is rising pleas...\" Please Help!
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 127
 item_type: Still Image

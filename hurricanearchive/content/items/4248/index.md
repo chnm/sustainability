@@ -3,7 +3,6 @@ aliases:
   - /items/show/4248
   - /items/show/4248.html
 collections: []
-contributors: []
 date: '2006-08-28 13:05:18'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1301 NW 17th Street
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 4248
 item_type: Document

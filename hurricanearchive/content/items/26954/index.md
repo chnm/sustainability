@@ -3,13 +3,12 @@ aliases:
   - /items/show/26954
   - /items/show/26954.html
 collections: []
-contributors: []
 date: '2007-04-19 19:34:00'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'you can see what city look like after hurricane Katrina. '
+      text: you can see what city look like after hurricane Katrina.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: ''
   lat: 38.96861
   lng: -77.34139
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26954
 item_type: Still Image

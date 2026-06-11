@@ -3,13 +3,12 @@ aliases:
   - /items/show/44066
   - /items/show/44066.html
 collections: []
-contributors: []
 date: '2011-02-17 03:06:06'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "My grandmother\\'s house in Metairie only had two feet of water, but it was still enough to destroy everything. "
+      text: My grandmother\'s house in Metairie only had two feet of water, but it was still enough to destroy everything.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: 4609 Lake Como
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 44066
 item_type: Still Image

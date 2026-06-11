@@ -3,7 +3,6 @@ aliases:
   - /items/show/176
   - /items/show/176.html
 collections: []
-contributors: []
 date: '2005-11-18 18:23:25'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 13:23:25'
   Description:
     - html: false
-      text: ' In the neighborhood near Urquhart St, near the locks, New Orleans\r\nTaken on 9/10/05'
+      text: In the neighborhood near Urquhart St, near the locks, New Orleans\r\nTaken on 9/10/05
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9662374308524
   lng: -90.0318002700806
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 176
 item_type: Still Image

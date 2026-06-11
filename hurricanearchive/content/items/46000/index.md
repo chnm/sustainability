@@ -3,7 +3,6 @@ aliases:
   - /items/show/46000
   - /items/show/46000.html
 collections: []
-contributors: []
 date: '2013-12-16 23:41:40'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: Bush, LA
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps v3.x
   zoom: 0
 id: 46000
 item_type: Still Image

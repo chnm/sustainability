@@ -3,7 +3,6 @@ aliases:
   - /items/show/123
   - /items/show/123.html
 collections: []
-contributors: []
 date: '2005-11-17 22:52:40'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:52:40'
   Description:
     - html: false
-      text: ' New Orleans Hyatt. \"It looked like a bomb went off!\"'
+      text: New Orleans Hyatt. \"It looked like a bomb went off!\"
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.916852233070202
   lng: -90.087890625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 123
 item_type: Still Image

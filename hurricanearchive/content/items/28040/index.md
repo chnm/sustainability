@@ -4,7 +4,6 @@ aliases:
   - /items/show/28040.html
 collections:
   - '147'
-contributors: []
 date: '2007-05-28 04:15:51'
 draft: false
 dublin_core:
@@ -16,7 +15,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'Algiers Ferry '
+      text: Algiers Ferry
 featured: false
 files: []
 geo:
@@ -36,7 +35,7 @@ tags:
   - hustonville
   - kentucky
   - willow grove baptist church
-title: 'Algiers Ferry '
+title: Algiers Ferry
 type: items
 ---
 

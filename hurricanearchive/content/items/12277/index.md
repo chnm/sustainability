@@ -3,7 +3,6 @@ aliases:
   - /items/show/12277
   - /items/show/12277.html
 collections: []
-contributors: []
 date: '2006-10-26 14:01:27'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: carrie lane
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12277
 item_type: Document

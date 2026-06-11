@@ -3,7 +3,6 @@ aliases:
   - /items/show/40238
   - /items/show/40238.html
 collections: []
-contributors: []
 date: '2009-05-08 23:04:19'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 612 Franklin Ct.
   lat: 30.07605
   lng: -90.4816
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40238
 item_type: Document

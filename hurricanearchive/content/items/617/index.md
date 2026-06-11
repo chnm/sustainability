@@ -3,7 +3,6 @@ aliases:
   - /items/show/617
   - /items/show/617.html
 collections: []
-contributors: []
 date: '2006-01-17 17:08:50'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 12:08:50'
   Description:
     - html: false
-      text: ' Taken a week after the hurricane. This was typical of the debris found in yards. It was hard to clear b/c of the downed power lines that were tangled up in the mess. This was taken in Lumberton, Texas.'
+      text: Taken a week after the hurricane. This was typical of the debris found in yards. It was hard to clear b/c of the downed power lines that were tangled up in the mess. This was taken in Lumberton, Texas.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.281836
   lng: -94.219122
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 617
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/45306
   - /items/show/45306.html
 collections: []
-contributors: []
 date: '2012-02-10 23:56:51'
 draft: false
 dublin_core:
@@ -15,7 +14,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'Katrina & the Arts: '
+      text: 'Katrina & the Arts:'
 featured: false
 files:
   - fullsize:
@@ -37,7 +36,7 @@ tags:
   - Slidell
   - art
   - artists
-title: 'Katrina & the Arts: '
+title: 'Katrina & the Arts:'
 type: items
 ---
 

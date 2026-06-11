@@ -4,7 +4,6 @@ aliases:
   - /items/show/26019.html
 collections:
   - '142'
-contributors: []
 date: '2007-03-14 13:46:12'
 draft: false
 dublin_core:
@@ -32,6 +31,7 @@ geo:
   address: 920 Jourdan, New Orleans, Louisiana
   lat: 29.96139
   lng: -90.02593
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26019
 item_type: Moving Image

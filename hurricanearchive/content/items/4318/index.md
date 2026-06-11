@@ -4,13 +4,12 @@ aliases:
   - /items/show/4318.html
 collections:
   - '58'
-contributors: []
 date: '2006-08-29 16:00:59'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: " \t\\r\\n2 Days In New Orleans\\r\\nDirector: Jason Vowell\\r\\n\\r\\nDuration: 07:54\\r\\nThis short attempts a non-biased look at post Katrina New Orleans by interviewing a diverse group of New Orleanians over one weekend. The film expresses the frustration, anger, resolve, and hope of the people in this great city. 2 Days 6 people 1 story A snapshot of life in the Big Easy - 4 months post Katrina. Music by The Habernachery"
+      text: '\r\n2 Days In New Orleans\r\nDirector: Jason Vowell\r\n\r\nDuration: 07:54\r\nThis short attempts a non-biased look at post Katrina New Orleans by interviewing a diverse group of New Orleanians over one weekend. The film expresses the frustration, anger, resolve, and hope of the people in this great city. 2 Days 6 people 1 story A snapshot of life in the Big Easy - 4 months post Katrina. Music by The Habernachery'
   Language:
     - html: false
       text: eng

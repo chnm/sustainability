@@ -4,7 +4,6 @@ aliases:
   - /items/show/15401.html
 collections:
   - '103'
-contributors: []
 date: '2007-01-29 21:00:19'
 draft: false
 dublin_core:

@@ -4,7 +4,6 @@ aliases:
   - /items/show/26492.html
 collections:
   - '143'
-contributors: []
 date: '2007-04-04 16:12:20'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Montesano, Washington
   lat: 46.98139
   lng: -123.60139
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26492
 item_type: Document

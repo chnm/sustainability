@@ -3,7 +3,6 @@ aliases:
   - /items/show/437
   - /items/show/437.html
 collections: []
-contributors: []
 date: '2005-12-26 20:36:03'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 15:36:03'
   Description:
     - html: false
-      text: ' A demolished car sits in front of its house.'
+      text: A demolished car sits in front of its house.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.916852233070202
   lng: -90.087890625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 437
 item_type: Still Image

@@ -4,7 +4,6 @@ aliases:
   - /items/show/32128.html
 collections:
   - '19'
-contributors: []
 date: '2007-09-04 17:16:21'
 draft: false
 dublin_core:
@@ -32,6 +31,7 @@ geo:
   address: 3428 Cleveland St
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 32128
 item_type: Still Image

@@ -3,13 +3,12 @@ aliases:
   - /items/show/34457
   - /items/show/34457.html
 collections: []
-contributors: []
 date: '2008-04-17 19:27:38'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Back yard of several homes located in Eden Isle  Slidell '
+      text: Back yard of several homes located in Eden Isle  Slidell
   Rights:
     - html: false
       text: Attribution-NonCommercial License (http://creativecommons.org/licenses/by-nc/2.0/)
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 30.2254
   lng: -89.78868
+  map_type: Yahoo Maps API
   zoom: 12
 id: 34457
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/156
   - /items/show/156.html
 collections: []
-contributors: []
 date: '2005-11-18 07:49:05'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 02:49:05'
   Description:
     - html: false
-      text: ' Grocery store on Elysian fields in New Orleans, Louisiana.'
+      text: Grocery store on Elysian fields in New Orleans, Louisiana.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 156
 item_type: Still Image

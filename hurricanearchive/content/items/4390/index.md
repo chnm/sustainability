@@ -3,7 +3,6 @@ aliases:
   - /items/show/4390
   - /items/show/4390.html
 collections: []
-contributors: []
 date: '2006-08-31 23:51:54'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-09-20 16:06:52'
   Description:
     - html: false
-      text: 'Boat left stranded after Hurricane Rita near Intercoastal City, Vermilion Parish, November 27, 2005, '
+      text: Boat left stranded after Hurricane Rita near Intercoastal City, Vermilion Parish, November 27, 2005,
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.82173
   lng: -92.14027
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 4390
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/1735
   - /items/show/1735.html
 collections: []
-contributors: []
 date: '2006-01-30 20:30:53'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-30 15:30:53'
   Description:
     - html: false
-      text: ' Christian Fellowhip Church in Beaumont, Texas after Hurricane Rita'
+      text: Christian Fellowhip Church in Beaumont, Texas after Hurricane Rita
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.148461
   lng: -94.172481
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1735
 item_type: Still Image

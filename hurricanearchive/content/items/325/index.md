@@ -3,7 +3,6 @@ aliases:
   - /items/show/325
   - /items/show/325.html
 collections: []
-contributors: []
 date: '2005-12-05 00:59:13'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-04 19:59:13'
   Description:
     - html: false
-      text: " Rita\\'s damage to historic downtown DeRidder, LA."
+      text: Rita\'s damage to historic downtown DeRidder, LA.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.651656
   lng: -93.299574
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 325
 item_type: Still Image

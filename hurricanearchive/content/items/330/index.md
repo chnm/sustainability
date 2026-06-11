@@ -4,7 +4,6 @@ aliases:
   - /items/show/330.html
 collections:
   - '190'
-contributors: []
 date: '2005-12-06 02:51:37'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2005-12-05 00:00:00'
   Description:
     - html: false
-      text: ' This is a picture of my old house in Lakeview or 70124 ZIP code.'
+      text: This is a picture of my old house in Lakeview or 70124 ZIP code.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 29.96145
   lng: -90.15772
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 330
 item_type: Still Image

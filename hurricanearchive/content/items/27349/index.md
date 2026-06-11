@@ -3,13 +3,12 @@ aliases:
   - /items/show/27349
   - /items/show/27349.html
 collections: []
-contributors: []
 date: '2007-05-08 16:25:58'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'This is traffic on FM 1960, heading towards I-45.  I finally managed to extricate myself from this mess, and worked my way through the backroads until I got near 45.  It took me 4 1/2 hours to go 35 miles.  '
+      text: This is traffic on FM 1960, heading towards I-45.  I finally managed to extricate myself from this mess, and worked my way through the backroads until I got near 45.  It took me 4 1/2 hours to go 35 miles.
   Rights:
     - html: false
       text: Attribution-NonCommercial License (http://creativecommons.org/licenses/by-nc/2.0/)
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 29.99828
   lng: -95.48175
+  map_type: Yahoo Maps API
   zoom: 12
 id: 27349
 item_type: Still Image

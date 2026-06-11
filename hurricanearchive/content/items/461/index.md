@@ -3,7 +3,6 @@ aliases:
   - /items/show/461
   - /items/show/461.html
 collections: []
-contributors: []
 date: '2005-12-27 20:02:59'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 15:02:59'
   Description:
     - html: false
-      text: ' A house in Bay St. Louis displays an American flag over the blue tarp.'
+      text: A house in Bay St. Louis displays an American flag over the blue tarp.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.346805868962104
   lng: -89.2007446289062
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 461
 item_type: Still Image

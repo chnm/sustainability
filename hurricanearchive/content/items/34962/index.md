@@ -4,7 +4,6 @@ aliases:
   - /items/show/34962.html
 collections:
   - '204'
-contributors: []
 date: '2008-05-07 16:17:54'
 draft: false
 dublin_core:
@@ -29,6 +28,7 @@ geo:
   address: 1204 Engineers Road
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34962
 item_type: Document

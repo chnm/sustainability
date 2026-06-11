@@ -3,7 +3,6 @@ aliases:
   - /items/show/45938
   - /items/show/45938.html
 collections: []
-contributors: []
 date: '2013-01-28 18:21:14'
 draft: false
 dublin_core:
@@ -16,6 +15,7 @@ geo:
   address: Chalmette
   lat: 29.9427037
   lng: -89.96340170000002
+  map_type: Google Maps v3.x
   zoom: 3
 id: 45938
 item_type: Document

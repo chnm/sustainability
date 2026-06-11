@@ -3,7 +3,6 @@ aliases:
   - /items/show/153
   - /items/show/153.html
 collections: []
-contributors: []
 date: '2005-11-18 07:42:49'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 02:42:49'
   Description:
     - html: false
-      text: ' A Kenner neighborhood.'
+      text: A Kenner neighborhood.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.030902
   lng: -90.068022
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 153
 item_type: Still Image

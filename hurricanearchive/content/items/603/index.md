@@ -3,7 +3,6 @@ aliases:
   - /items/show/603
   - /items/show/603.html
 collections: []
-contributors: []
 date: '2006-01-17 03:32:05'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-16 22:32:05'
   Description:
     - html: false
-      text: ' This little pink and green cottage bears the mark of the house to house search. Something about the symmetry of this image is unsettling-given the chaos from which it emerged'
+      text: This little pink and green cottage bears the mark of the house to house search. Something about the symmetry of this image is unsettling-given the chaos from which it emerged
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 603
 item_type: Still Image

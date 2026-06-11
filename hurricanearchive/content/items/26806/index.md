@@ -4,13 +4,12 @@ aliases:
   - /items/show/26806.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-17 17:04:12'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Kevin Vaughn, student at Middle Tennessee State University, who volunteered on the Gulf Coast as part of an alternative spring break trip. '
+      text: Interview with Kevin Vaughn, student at Middle Tennessee State University, who volunteered on the Gulf Coast as part of an alternative spring break trip.
   Language:
     - html: false
       text: eng

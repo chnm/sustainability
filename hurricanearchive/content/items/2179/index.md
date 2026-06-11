@@ -3,7 +3,6 @@ aliases:
   - /items/show/2179
   - /items/show/2179.html
 collections: []
-contributors: []
 date: '2006-04-22 17:17:40'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 13:17:40'
   Description:
     - html: false
-      text: ' Downtown Arcadia, Florida after Hurricane Charley came through on August 13, 2004'
+      text: Downtown Arcadia, Florida after Hurricane Charley came through on August 13, 2004
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 27.186075
   lng: -81.866661
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2179
 item_type: Still Image

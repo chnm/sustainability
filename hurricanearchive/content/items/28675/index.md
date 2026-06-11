@@ -3,13 +3,14 @@ aliases:
   - /items/show/28675
   - /items/show/28675.html
 collections: []
-contributors: []
 date: '2007-06-13 20:25:32'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "The Super Dome was still under reconstruction when I was there.\r\nNew Orleans, LA"
+      text: |-
+        The Super Dome was still under reconstruction when I was there.
+        New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

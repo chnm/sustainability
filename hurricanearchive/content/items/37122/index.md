@@ -3,7 +3,6 @@ aliases:
   - /items/show/37122
   - /items/show/37122.html
 collections: []
-contributors: []
 date: '2008-09-01 04:20:50'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 3313  ERATO STREET
   lat: 29.72622
   lng: -90.26367
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37122
 item_type: Document

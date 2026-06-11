@@ -4,7 +4,6 @@ aliases:
   - /items/show/12334.html
 collections:
   - '87'
-contributors: []
 date: '2006-10-31 05:24:47'
 draft: false
 dublin_core:
@@ -20,6 +19,7 @@ geo:
   address: 2249 Robert E. Lee Blvd
   lat: 30.02219
   lng: -90.05958
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12334
 item_type: Document

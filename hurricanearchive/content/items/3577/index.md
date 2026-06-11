@@ -4,13 +4,12 @@ aliases:
   - /items/show/3577.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Many refrigerators, with rotting contents like this, line the streets of every neighborhood wherever I went. '
+      text: Many refrigerators, with rotting contents like this, line the streets of every neighborhood wherever I went.
   Language:
     - html: false
       text: eng

@@ -3,7 +3,6 @@ aliases:
   - /items/show/2305
   - /items/show/2305.html
 collections: []
-contributors: []
 date: '2006-06-08 04:07:30'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-06-08 00:07:30'
   Description:
     - html: false
-      text: ' Roof damage and a downed fence in Westwego, La'
+      text: Roof damage and a downed fence in Westwego, La
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2305
 item_type: Still Image

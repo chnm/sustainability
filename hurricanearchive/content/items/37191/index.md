@@ -3,7 +3,6 @@ aliases:
   - /items/show/37191
   - /items/show/37191.html
 collections: []
-contributors: []
 date: '2008-09-04 19:34:10'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 30047 pine street
   lat: 25.6019
   lng: -86.2207
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37191
 item_type: Document

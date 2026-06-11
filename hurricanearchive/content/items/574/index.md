@@ -3,7 +3,6 @@ aliases:
   - /items/show/574
   - /items/show/574.html
 collections: []
-contributors: []
 date: '2006-01-13 22:02:09'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:02:09'
   Description:
     - html: false
-      text: ' This is the view through the missing roof of my home north of Covington.'
+      text: This is the view through the missing roof of my home north of Covington.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.5663257417141
   lng: -90.0693726539612
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 574
 item_type: Still Image

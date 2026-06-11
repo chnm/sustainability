@@ -3,7 +3,6 @@ aliases:
   - /items/show/39580
   - /items/show/39580.html
 collections: []
-contributors: []
 date: '2009-03-04 07:56:24'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 208 Southwind dr. Athens,al
   lat: 34.78092
   lng: -86.97651
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 39580
 item_type: Document

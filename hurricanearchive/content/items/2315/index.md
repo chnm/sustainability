@@ -3,7 +3,6 @@ aliases:
   - /items/show/2315
   - /items/show/2315.html
 collections: []
-contributors: []
 date: '2006-06-20 18:07:26'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-06-20 14:07:26'
   Description:
     - html: false
-      text: ' Extreme Makeover--Home Edition (ABC) rebuilt the Sabine Pass firehouse, landscaped the property, and gave the village a new truck, all of which was destroyed by Hurricane Rita. The firehouse is the bright spot in town, as of April 19, 2006.'
+      text: Extreme Makeover--Home Edition (ABC) rebuilt the Sabine Pass firehouse, landscaped the property, and gave the village a new truck, all of which was destroyed by Hurricane Rita. The firehouse is the bright spot in town, as of April 19, 2006.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.729799972602194
   lng: -93.89533996582031
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2315
 item_type: Still Image

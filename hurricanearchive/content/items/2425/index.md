@@ -4,7 +4,6 @@ aliases:
   - /items/show/2425.html
 collections:
   - '16'
-contributors: []
 date: '2006-08-17 17:11:13'
 draft: false
 dublin_core:
@@ -19,7 +18,7 @@ dublin_core:
       text: eng
   Publisher:
     - html: false
-      text: 'U.S. COAST GUARD '
+      text: U.S. COAST GUARD
   Title:
     - html: false
       text: Controlled Burn after Chevron Oil Spill in Empire, LA

@@ -4,7 +4,6 @@ aliases:
   - /items/show/26274.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-27 14:19:59'
 draft: false
 dublin_core:
@@ -16,7 +15,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: ' Hurrycane Katrina'
+      text: Hurrycane Katrina
 featured: false
 files: []
 geo:
@@ -30,7 +29,7 @@ related_items: []
 slug: '26274'
 tags:
   - poetry
-title: ' Hurrycane Katrina'
+title: Hurrycane Katrina
 type: items
 ---
 

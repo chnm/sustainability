@@ -3,7 +3,6 @@ aliases:
   - /items/show/53
   - /items/show/53.html
 collections: []
-contributors: []
 date: '2005-11-16 22:15:07'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-16 17:15:07'
   Description:
     - html: false
-      text: ' I am an alumnae of Mount Carmel Academy, and this a picture of our gymnasium following Katrina.'
+      text: I am an alumnae of Mount Carmel Academy, and this a picture of our gymnasium following Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.993002284551103
   lng: -90.0439453125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 53
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/416
   - /items/show/416.html
 collections: []
-contributors: []
 date: '2005-12-26 18:58:05'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 13:58:05'
   Description:
     - html: false
-      text: ' Pass Christian school buses are demolished.'
+      text: Pass Christian school buses are demolished.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.3491760941498
   lng: -89.22821044921879
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 416
 item_type: Still Image

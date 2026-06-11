@@ -3,7 +3,6 @@ aliases:
   - /items/show/2272
   - /items/show/2272.html
 collections: []
-contributors: []
 date: '2006-05-27 15:21:19'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-05-27 00:00:00'
   Description:
     - html: false
-      text: ' This is the email correspondence between my mother and me before, during, and after Hurricance Katrina.'
+      text: This is the email correspondence between my mother and me before, during, and after Hurricance Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.44699
   lng: -89.97659
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2272
 item_type: Document

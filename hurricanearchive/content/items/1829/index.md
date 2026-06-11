@@ -3,7 +3,6 @@ aliases:
   - /items/show/1829
   - /items/show/1829.html
 collections: []
-contributors: []
 date: '2006-02-09 23:09:20'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-09 18:09:20'
   Description:
     - html: false
-      text: ' This picture was taken Thursday after Katrina hit. It is a picture of teh 17th street canal pumping station. the lake water had achived equilibrium wihin the city and the pumping station is clearly flooded. In normal conditions 10 to 12 feet separate the pumping station from the water line in the canal'
+      text: This picture was taken Thursday after Katrina hit. It is a picture of teh 17th street canal pumping station. the lake water had achived equilibrium wihin the city and the pumping station is clearly flooded. In normal conditions 10 to 12 feet separate the pumping station from the water line in the canal
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.987426868181196
   lng: -90.12445449829099
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1829
 item_type: Still Image

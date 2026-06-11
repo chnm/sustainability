@@ -3,7 +3,6 @@ aliases:
   - /items/show/43239
   - /items/show/43239.html
 collections: []
-contributors: []
 date: '2010-09-08 01:03:05'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 853 MOCKING BIRD AVE
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43239
 item_type: Document

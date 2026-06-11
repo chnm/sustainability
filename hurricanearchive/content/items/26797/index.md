@@ -4,13 +4,12 @@ aliases:
   - /items/show/26797.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-17 17:04:12'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Charles Bell, of Murphreesboro, TN, was deployed with the Tennessee National Guard to the Gulf Coast following Hurricane Katrina.  '
+      text: Interview with Charles Bell, of Murphreesboro, TN, was deployed with the Tennessee National Guard to the Gulf Coast following Hurricane Katrina.
   Language:
     - html: false
       text: eng

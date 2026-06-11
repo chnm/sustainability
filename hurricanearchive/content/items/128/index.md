@@ -3,7 +3,6 @@ aliases:
   - /items/show/128
   - /items/show/128.html
 collections: []
-contributors: []
 date: '2005-11-17 22:57:54'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:57:54'
   Description:
     - html: false
-      text: ' The President came to visit.'
+      text: The President came to visit.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 128
 item_type: Still Image

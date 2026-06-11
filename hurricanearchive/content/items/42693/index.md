@@ -3,7 +3,6 @@ aliases:
   - /items/show/42693
   - /items/show/42693.html
 collections: []
-contributors: []
 date: '2010-06-01 15:49:43'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: 350 Jefferson Heights Avenue
   lat: 29.95521
   lng: -90.17468
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42693
 item_type: Document

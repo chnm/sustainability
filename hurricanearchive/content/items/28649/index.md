@@ -3,13 +3,14 @@ aliases:
   - /items/show/28649
   - /items/show/28649.html
 collections: []
-contributors: []
 date: '2007-06-13 17:50:16'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "\"200\"\r\nLower 9th Ward, New Orleans, LA"
+      text: |-
+        "200"
+        Lower 9th Ward, New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

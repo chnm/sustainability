@@ -4,13 +4,12 @@ aliases:
   - /items/show/3592.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'A side street off of Elysian Fields near Brother Martin H.S. reveals a destroyed garage.     '
+      text: A side street off of Elysian Fields near Brother Martin H.S. reveals a destroyed garage.
   Language:
     - html: false
       text: eng

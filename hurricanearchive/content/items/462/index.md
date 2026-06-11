@@ -3,7 +3,6 @@ aliases:
   - /items/show/462
   - /items/show/462.html
 collections: []
-contributors: []
 date: '2005-12-27 20:05:00'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 15:05:00'
   Description:
     - html: false
-      text: ' A tattered American flag still stands.'
+      text: A tattered American flag still stands.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342065246371604
   lng: -89.3463134765625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 462
 item_type: Still Image

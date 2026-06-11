@@ -4,7 +4,6 @@ aliases:
   - /items/show/26276.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-27 14:28:20'
 draft: false
 dublin_core:
@@ -16,7 +15,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: ' Vogue La Galere'
+      text: Vogue La Galere
 featured: false
 files: []
 geo:
@@ -30,7 +29,7 @@ related_items: []
 slug: '26276'
 tags:
   - poetry
-title: ' Vogue La Galere'
+title: Vogue La Galere
 type: items
 ---
 

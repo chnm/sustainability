@@ -4,7 +4,6 @@ aliases:
   - /items/show/26761.html
 collections:
   - '80'
-contributors: []
 date: '2007-04-17 00:59:40'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2007-04-16 00:00:00'
   Description:
     - html: false
-      text: 'Charcoal portrait of Dar, a Common Ground volunteer who describes how she came to help build the health clinic. '
+      text: Charcoal portrait of Dar, a Common Ground volunteer who describes how she came to help build the health clinic.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26761
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/2253
   - /items/show/2253.html
 collections: []
-contributors: []
 date: '2006-04-27 21:23:20'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-27 17:23:20'
   Description:
     - html: false
-      text: ' This is a transcribed version of a handwritten journal kept by Carmella Lovett who rode out the storm with her husband in  Lacombe, La. It details the damage they encurred and how they dealt with lack of electricity, gas shortages, job uncertainty, and their family in the months following Hurricane Katrina.'
+      text: This is a transcribed version of a handwritten journal kept by Carmella Lovett who rode out the storm with her husband in  Lacombe, La. It details the damage they encurred and how they dealt with lack of electricity, gas shortages, job uncertainty, and their family in the months following Hurricane Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.3008714282426
   lng: -89.896445274353
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2253
 item_type: Document

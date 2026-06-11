@@ -3,7 +3,6 @@ aliases:
   - /items/show/566
   - /items/show/566.html
 collections: []
-contributors: []
 date: '2006-01-13 21:55:29'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 16:55:29'
   Description:
     - html: false
-      text: ' Bay Saint Louis, Mississippi'
+      text: Bay Saint Louis, Mississippi
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 566
 item_type: Still Image

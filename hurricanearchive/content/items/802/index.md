@@ -4,7 +4,6 @@ aliases:
   - /items/show/802.html
 collections:
   - '10'
-contributors: []
 date: '2006-01-27 16:39:46'
 draft: false
 dublin_core:
@@ -46,6 +45,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 802
 item_type: Still Image

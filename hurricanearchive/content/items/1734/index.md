@@ -3,7 +3,6 @@ aliases:
   - /items/show/1734
   - /items/show/1734.html
 collections: []
-contributors: []
 date: '2006-01-30 20:24:33'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-30 15:24:33'
   Description:
     - html: false
-      text: ' 5 feet of water in Mandeville after Hurricane Rita.'
+      text: 5 feet of water in Mandeville after Hurricane Rita.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.148461
   lng: -94.172481
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1734
 item_type: Still Image

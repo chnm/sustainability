@@ -3,7 +3,6 @@ aliases:
   - /items/show/293
   - /items/show/293.html
 collections: []
-contributors: []
 date: '2005-12-01 02:46:00'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-30 21:46:00'
   Description:
     - html: false
-      text: ' Our once beautiful park in DeRidder, Louisiana, lost many, many trees. An annual event, (Christmas in the Park) had to be cancelled because of the danger of putting in the holiday decorations. Visits with Santa, sleigh rides through the park, carolling, etc. will have to wait until next year.'
+      text: Our once beautiful park in DeRidder, Louisiana, lost many, many trees. An annual event, (Christmas in the Park) had to be cancelled because of the danger of putting in the holiday decorations. Visits with Santa, sleigh rides through the park, carolling, etc. will have to wait until next year.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.651656
   lng: -93.299574
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 293
 item_type: Still Image

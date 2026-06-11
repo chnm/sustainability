@@ -3,7 +3,6 @@ aliases:
   - /items/show/71
   - /items/show/71.html
 collections: []
-contributors: []
 date: '2005-11-17 06:06:35'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 01:06:35'
   Description:
     - html: false
-      text: ' Remnants of the Beach Vista community pool in Pass Christian, MS.'
+      text: Remnants of the Beach Vista community pool in Pass Christian, MS.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 71
 item_type: Still Image

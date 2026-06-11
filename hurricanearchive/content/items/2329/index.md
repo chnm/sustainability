@@ -3,7 +3,6 @@ aliases:
   - /items/show/2329
   - /items/show/2329.html
 collections: []
-contributors: []
 date: '2006-07-20 05:22:50'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-20 01:22:50'
   Description:
     - html: false
-      text: ' this house use dto be on the corner of camp and st andrew streets. picture taken october 2005.'
+      text: this house use dto be on the corner of camp and st andrew streets. picture taken october 2005.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9788029409262
   lng: -90.06531715393069
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2329
 item_type: Still Image

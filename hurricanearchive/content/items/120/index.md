@@ -3,7 +3,6 @@ aliases:
   - /items/show/120
   - /items/show/120.html
 collections: []
-contributors: []
 date: '2005-11-17 22:49:16'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:49:16'
   Description:
     - html: false
-      text: " \\\"F.E.M.A (le)\\\" Impersonator\\\" passing out $2,000 checks at M.O.M.\\'s Ball, October 29, 2005"
+      text: \"F.E.M.A (le)\" Impersonator\" passing out $2,000 checks at M.O.M.\'s Ball, October 29, 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.938343
   lng: -90.100773
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 120
 item_type: Still Image

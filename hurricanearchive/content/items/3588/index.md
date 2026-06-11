@@ -4,13 +4,12 @@ aliases:
   - /items/show/3588.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Traffic lights are still not operable in most intersections of New Orleans.  This was the view from Prentiss and Elysian Fields.       '
+      text: Traffic lights are still not operable in most intersections of New Orleans.  This was the view from Prentiss and Elysian Fields.
   Language:
     - html: false
       text: eng

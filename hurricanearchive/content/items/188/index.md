@@ -3,7 +3,6 @@ aliases:
   - /items/show/188
   - /items/show/188.html
 collections: []
-contributors: []
 date: '2005-11-18 19:10:32'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 14:10:32'
   Description:
     - html: false
-      text: ' Damage located on the West Bank Expressway in Harvey, La. The damage was created by a possible tornado rumored to touched down in the area.'
+      text: Damage located on the West Bank Expressway in Harvey, La. The damage was created by a possible tornado rumored to touched down in the area.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 188
 item_type: Still Image

@@ -4,13 +4,12 @@ aliases:
   - /items/show/26927.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Katrina Stanifer who volunteered with the alternative spring break program at Middle Tennessee State University. '
+      text: Interview with Katrina Stanifer who volunteered with the alternative spring break program at Middle Tennessee State University.
   Language:
     - html: false
       text: eng

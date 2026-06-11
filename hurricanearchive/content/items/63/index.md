@@ -3,7 +3,6 @@ aliases:
   - /items/show/63
   - /items/show/63.html
 collections: []
-contributors: []
 date: '2005-11-16 23:29:41'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-16 18:29:41'
   Description:
     - html: false
-      text: ' Evacuees land in Charlotte.  Will Katrina result in a permanent migration out of New Orleans? (AP photo/The Charlotte Observer, Jeff Siner)'
+      text: Evacuees land in Charlotte.  Will Katrina result in a permanent migration out of New Orleans? (AP photo/The Charlotte Observer, Jeff Siner)
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.948283
   lng: -90.122498
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 63
 item_type: Still Image

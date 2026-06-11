@@ -4,13 +4,12 @@ aliases:
   - /items/show/34408.html
 collections:
   - '185'
-contributors: []
 date: '2008-04-17 19:21:33'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Aerial shot of the eye of storm in the Gulf of Mexico as it approached the coast of La. and Miss. The storm was huge as evidenced by this photo '
+      text: Aerial shot of the eye of storm in the Gulf of Mexico as it approached the coast of La. and Miss. The storm was huge as evidenced by this photo
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 30.22559
   lng: -89.84997
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34408
 item_type: Still Image

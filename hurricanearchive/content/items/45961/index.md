@@ -3,13 +3,12 @@ aliases:
   - /items/show/45961
   - /items/show/45961.html
 collections: []
-contributors: []
 date: '2013-09-05 00:40:47'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Oh, Louisa. I grew up in this neighborhood, but I would never had thought it would be gone in seconds. My house was gone and so were the memories I cherished as a child. Sometimes, I wish Katrina would never have happened.  '
+      text: Oh, Louisa. I grew up in this neighborhood, but I would never had thought it would be gone in seconds. My house was gone and so were the memories I cherished as a child. Sometimes, I wish Katrina would never have happened.
   Title:
     - html: false
       text: Louisa

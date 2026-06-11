@@ -3,7 +3,6 @@ aliases:
   - /items/show/40951
   - /items/show/40951.html
 collections: []
-contributors: []
 date: '2009-09-04 08:29:08'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1232 Richmond Dr.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40951
 item_type: Document

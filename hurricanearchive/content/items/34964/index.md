@@ -4,7 +4,6 @@ aliases:
   - /items/show/34964.html
 collections:
   - '186'
-contributors: []
 date: '2008-05-07 17:26:40'
 draft: false
 dublin_core:
@@ -29,6 +28,7 @@ geo:
   address: 511 marigny
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34964
 item_type: Document

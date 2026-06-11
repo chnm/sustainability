@@ -3,7 +3,6 @@ aliases:
   - /items/show/37814
   - /items/show/37814.html
 collections: []
-contributors: []
 date: '2008-10-28 15:42:42'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 237 Debbie Dr.
   lat: 30.2248
   lng: -89.83547
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37814
 item_type: Still Image

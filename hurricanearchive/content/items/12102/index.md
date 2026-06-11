@@ -3,7 +3,6 @@ aliases:
   - /items/show/12102
   - /items/show/12102.html
 collections: []
-contributors: []
 date: '2006-10-12 18:01:22'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 6413 Lafreniere St.
   lat: 29.99261
   lng: -90.20707
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12102
 item_type: Document

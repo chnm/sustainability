@@ -3,7 +3,6 @@ aliases:
   - /items/show/90
   - /items/show/90.html
 collections: []
-contributors: []
 date: '2005-11-17 13:30:33'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 08:30:33'
   Description:
     - html: false
-      text: " Zimmer\\'s Seafood on St. Andrew St. in New Orleans."
+      text: Zimmer\'s Seafood on St. Andrew St. in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 90
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/2158
   - /items/show/2158.html
 collections: []
-contributors: []
 date: '2006-04-14 20:04:05'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-14 16:04:05'
   Description:
     - html: false
-      text: " This is the foundation of Grandmother\\'s house.  Some chairs are sitting in the laundry room, a table is in the hall, a trash bag is lying in the back bedroom and a pile of bricks is in the middle of Grandmother\\'s bedroom."
+      text: This is the foundation of Grandmother\'s house.  Some chairs are sitting in the laundry room, a table is in the hall, a trash bag is lying in the back bedroom and a pile of bricks is in the middle of Grandmother\'s bedroom.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.294720505724204
   lng: -89.34408187866208
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2158
 item_type: Still Image

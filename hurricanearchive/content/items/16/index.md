@@ -3,7 +3,6 @@ aliases:
   - /items/show/16
   - /items/show/16.html
 collections: []
-contributors: []
 date: '2005-11-15 20:45:38'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-15 15:45:38'
   Description:
     - html: false
-      text: ' This boat in Sabine Pass was blown over by the storm where it remained tipped over 90 degrees too far.\r\nTaken on Oct 16'
+      text: This boat in Sabine Pass was blown over by the storm where it remained tipped over 90 degrees too far.\r\nTaken on Oct 16
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.725924175870098
   lng: -93.870964050293
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 16
 item_type: Still Image

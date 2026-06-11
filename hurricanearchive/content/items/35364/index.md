@@ -4,7 +4,6 @@ aliases:
   - /items/show/35364.html
 collections:
   - '68'
-contributors: []
 date: '2008-05-27 02:15:15'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 738 poland ave, new orleans, la
   lat: 29.96118
   lng: -90.03259
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35364
 item_type: Still Image

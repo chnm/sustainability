@@ -4,7 +4,6 @@ aliases:
   - /items/show/33105.html
 collections:
   - '174'
-contributors: []
 date: '2007-11-01 16:14:16'
 draft: false
 dublin_core:
@@ -16,7 +15,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'Reinitiating Collegiate Sociology '
+      text: Reinitiating Collegiate Sociology
 featured: false
 files:
   - fullsize:
@@ -29,6 +28,7 @@ geo:
   address: Lake Charles, LA
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33105
 item_type: Document
@@ -42,7 +42,7 @@ tags:
   - mcneese state university
   - sociology
   - weeber
-title: 'Reinitiating Collegiate Sociology '
+title: Reinitiating Collegiate Sociology
 type: items
 ---
 

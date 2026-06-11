@@ -4,13 +4,12 @@ aliases:
   - /items/show/13270.html
 collections:
   - '88'
-contributors: []
 date: '2006-11-27 20:11:02'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'This is a log kept by Storm Hunter, Mark Robinson, about following Hurricane Katrina. '
+      text: This is a log kept by Storm Hunter, Mark Robinson, about following Hurricane Katrina.
   Language:
     - html: false
       text: eng

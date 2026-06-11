@@ -4,7 +4,6 @@ aliases:
   - /items/show/26301.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-27 15:38:28'
 draft: false
 dublin_core:
@@ -16,13 +15,14 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: ' Beneath The Painted Cloudy Sky'
+      text: Beneath The Painted Cloudy Sky
 featured: false
 files: []
 geo:
   address: San Antonio, TX
   lat: 29.42389
   lng: -98.49333
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26301
 item_type: Document
@@ -34,7 +34,7 @@ related_items: []
 slug: '26301'
 tags:
   - poetry
-title: ' Beneath The Painted Cloudy Sky'
+title: Beneath The Painted Cloudy Sky
 type: items
 ---
 

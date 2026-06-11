@@ -3,7 +3,6 @@ aliases:
   - /items/show/73
   - /items/show/73.html
 collections: []
-contributors: []
 date: '2005-11-17 06:13:25'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 01:13:25'
   Description:
     - html: false
-      text: ' First half of signs on a St. Charles Ave. establishment in New Orleans.'
+      text: First half of signs on a St. Charles Ave. establishment in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 73
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/23
   - /items/show/23.html
 collections: []
-contributors: []
 date: '2005-11-15 21:26:17'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-15 16:26:17'
   Description:
     - html: false
-      text: " Ancelet\\'s Cajun Market housed in a former gas station. Their smoker sat in front under what used to be the awning. Twin City Highway in Port Arthur, TX. \\r\\nTake on October 11, 2005."
+      text: Ancelet\'s Cajun Market housed in a former gas station. Their smoker sat in front under what used to be the awning. Twin City Highway in Port Arthur, TX. \r\nTake on October 11, 2005.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9599168991186
   lng: -93.967866897583
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 23
 item_type: Still Image

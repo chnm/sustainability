@@ -3,7 +3,6 @@ aliases:
   - /items/show/42091
   - /items/show/42091.html
 collections: []
-contributors: []
 date: '2010-02-16 18:32:47'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2010-02-16 13:32:47'
   Description:
     - html: false
-      text: 'My old home rebuilt.  Notice the neighbor on the right is raised on stilts.  The home on the left is now gone.  '
+      text: My old home rebuilt.  Notice the neighbor on the right is raised on stilts.  The home on the left is now gone.
   Language:
     - html: false
       text: eng
@@ -28,6 +27,7 @@ geo:
   address: 5769 Wingate
   lat: 30.01697
   lng: -90.06788
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42091
 item_type: Still Image

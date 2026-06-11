@@ -3,7 +3,6 @@ aliases:
   - /items/show/420
   - /items/show/420.html
 collections: []
-contributors: []
 date: '2005-12-26 19:47:27'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 14:47:27'
   Description:
     - html: false
-      text: ' Suviving \"debris\" from LaFrance Fish Camp, Hancock County, MS.  The fish camp, comprised of 30 campsites, including my own, was in the direct impact zone and wiped out.  Like most places, anything that survived is considered a treasure.'
+      text: Suviving \"debris\" from LaFrance Fish Camp, Hancock County, MS.  The fish camp, comprised of 30 campsites, including my own, was in the direct impact zone and wiped out.  Like most places, anything that survived is considered a treasure.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.1854960221094
   lng: -89.5138549804688
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 420
 item_type: Still Image

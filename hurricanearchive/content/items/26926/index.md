@@ -4,7 +4,6 @@ aliases:
   - /items/show/26926.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2006-07-03 00:00:00'
   Description:
     - html: false
-      text: "Interview with John Blankenship, an attorney in Murphreesboro, whose relatives along Mississippi\\'s Gulf Coast were affected by Hurricane Katrina. "
+      text: Interview with John Blankenship, an attorney in Murphreesboro, whose relatives along Mississippi\'s Gulf Coast were affected by Hurricane Katrina.
   Language:
     - html: false
       text: eng

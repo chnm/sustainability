@@ -4,7 +4,6 @@ aliases:
   - /items/show/12879.html
 collections:
   - '87'
-contributors: []
 date: '2006-11-20 20:08:49'
 draft: false
 dublin_core:
@@ -29,6 +28,7 @@ geo:
   address: University of New Orleans
   lat: 29.95444
   lng: -90.075
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12879
 item_type: Document

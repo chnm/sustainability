@@ -3,7 +3,6 @@ aliases:
   - /items/show/111
   - /items/show/111.html
 collections: []
-contributors: []
 date: '2005-11-17 22:39:05'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:39:05'
   Description:
     - html: false
-      text: ' Halloween Night on Decatur Street in the French Quarter.  Troops of refridgerators gathered and marched up and down the streets.  One question around town is why \"Voodoo Today 5p.m.\" was spray painted on so many fridges, a month before the announcement of the return of Voodoo Fest to Audobon Park.'
+      text: Halloween Night on Decatur Street in the French Quarter.  Troops of refridgerators gathered and marched up and down the streets.  One question around town is why \"Voodoo Today 5p.m.\" was spray painted on so many fridges, a month before the announcement of the return of Voodoo Fest to Audobon Park.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.938343
   lng: -90.100773
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 111
 item_type: Still Image

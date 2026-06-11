@@ -3,7 +3,6 @@ aliases:
   - /items/show/317
   - /items/show/317.html
 collections: []
-contributors: []
 date: '2005-12-03 03:16:23'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-02 22:16:23'
   Description:
     - html: false
-      text: " The American Flag in my neighbor\\'s yard after the hurricane."
+      text: The American Flag in my neighbor\'s yard after the hurricane.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.2234751165002
   lng: -92.0297241210938
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 317
 item_type: Still Image

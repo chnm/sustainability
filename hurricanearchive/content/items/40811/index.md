@@ -3,7 +3,6 @@ aliases:
   - /items/show/40811
   - /items/show/40811.html
 collections: []
-contributors: []
 date: '2009-08-29 04:48:21'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 7901 trout st
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40811
 item_type: Document

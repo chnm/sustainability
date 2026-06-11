@@ -3,7 +3,6 @@ aliases:
   - /items/show/2180
   - /items/show/2180.html
 collections: []
-contributors: []
 date: '2006-04-22 17:19:41'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 13:19:41'
   Description:
     - html: false
-      text: ' Downtown Arcadia, Florida. Hurricane Charley 2004'
+      text: Downtown Arcadia, Florida. Hurricane Charley 2004
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 27.186075
   lng: -81.866661
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2180
 item_type: Still Image

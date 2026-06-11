@@ -3,7 +3,6 @@ aliases:
   - /items/show/32837
   - /items/show/32837.html
 collections: []
-contributors: []
 date: '2007-10-09 19:04:17'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1615 quail cove bay st louis mississippi
   lat: 30.32528
   lng: -89.35989
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 32837
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/710
   - /items/show/710.html
 collections: []
-contributors: []
 date: '2006-01-26 19:07:01'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-26 14:07:01'
   Description:
     - html: false
-      text: " Please find an emotional story about my daughter and how she was affected by Hurricane Katrina.  Please share this picture and story with other on your hurricane archive website.\\r\\n\\r\\nJessica Chatelain, 18, of New Orleans, is shown in this picture standing in the midst of flood-damaged items and the mold-stained walls of her family\\'s home in the Lakeview section of New Orleans.  Her home was under seven feet of flood water for several weeks following Hurricane Katrina.  Years ago, the brightly-colored chair in this picture (affectionately known as the \\\"Ya-Ya\\\" chair) was painted for her by her elementary school classmates.  In spite of the mud, mold, and debris, Jessica still manages to smile, as she dons her rubber gloves, boots, and mask to clean and disinfect this treasured \\\"heirloom\\\" from her elementary school days, knowing that this is but one small step in the progression of recovery from Hurricane Katrina\\'s devastation.  Before leaving the house on the afternoon that this picture was taken, Jessica scribbled the following message in bold letters on the wall inside the closet of her bedroom in the damaged home:\\r\\n\\\"I love this house!... This was my closet and my room ... I will be back one day.\\\"\\r\\n\\r\\nJessica Chatelain\\r\\nFormer Lakeview Resident\\r\\nCurrently attending LSU - Baton Rouge\\r\\n(504) 338-9556"
+      text: Please find an emotional story about my daughter and how she was affected by Hurricane Katrina.  Please share this picture and story with other on your hurricane archive website.\r\n\r\nJessica Chatelain, 18, of New Orleans, is shown in this picture standing in the midst of flood-damaged items and the mold-stained walls of her family\'s home in the Lakeview section of New Orleans.  Her home was under seven feet of flood water for several weeks following Hurricane Katrina.  Years ago, the brightly-colored chair in this picture (affectionately known as the \"Ya-Ya\" chair) was painted for her by her elementary school classmates.  In spite of the mud, mold, and debris, Jessica still manages to smile, as she dons her rubber gloves, boots, and mask to clean and disinfect this treasured \"heirloom\" from her elementary school days, knowing that this is but one small step in the progression of recovery from Hurricane Katrina\'s devastation.  Before leaving the house on the afternoon that this picture was taken, Jessica scribbled the following message in bold letters on the wall inside the closet of her bedroom in the damaged home:\r\n\"I love this house!... This was my closet and my room ... I will be back one day.\"\r\n\r\nJessica Chatelain\r\nFormer Lakeview Resident\r\nCurrently attending LSU - Baton Rouge\r\n(504) 338-9556
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 710
 item_type: Still Image

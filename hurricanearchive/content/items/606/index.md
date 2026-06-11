@@ -3,7 +3,6 @@ aliases:
   - /items/show/606
   - /items/show/606.html
 collections: []
-contributors: []
 date: '2006-01-17 08:29:08'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 03:29:08'
   Description:
     - html: false
-      text: ' Target in Beaumont, Texas after Hurricane Rita'
+      text: Target in Beaumont, Texas after Hurricane Rita
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9549345496561
   lng: -94.21875
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 606
 item_type: Still Image

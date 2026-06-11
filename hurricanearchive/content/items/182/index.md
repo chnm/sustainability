@@ -3,7 +3,6 @@ aliases:
   - /items/show/182
   - /items/show/182.html
 collections: []
-contributors: []
 date: '2005-11-18 18:40:46'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 13:40:46'
   Description:
     - html: false
-      text: ' Off  HWY 23 truck stuck in tree 3-4 miles north of Empire, LA.\r\nWater still on roads at the time,  9-13-05'
+      text: Off  HWY 23 truck stuck in tree 3-4 miles north of Empire, LA.\r\nWater still on roads at the time,  9-13-05
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.5196955069536
   lng: -89.74800109863281
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 182
 item_type: Still Image

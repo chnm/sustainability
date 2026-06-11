@@ -3,7 +3,6 @@ aliases:
   - /items/show/25460
   - /items/show/25460.html
 collections: []
-contributors: []
 date: '2007-02-05 03:56:11'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-08-01 00:00:00'
   Description:
     - html: false
-      text: 'Acting Superintendent of New Orleans Public Schools addresses staff at the beginning of the 06/07 school year  '
+      text: Acting Superintendent of New Orleans Public Schools addresses staff at the beginning of the 06/07 school year
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.48655
   lng: -90.04395
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 25460
 item_type: Document

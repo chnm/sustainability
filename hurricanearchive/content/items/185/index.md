@@ -3,7 +3,6 @@ aliases:
   - /items/show/185
   - /items/show/185.html
 collections: []
-contributors: []
 date: '2005-11-18 18:49:37'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 13:49:37'
   Description:
     - html: false
-      text: ' Living in New Orleans, is my persoanl essay about hurricane Katrina. How it affected my family, friends, and myself. This personal account covers from the Friday before Katrina made landfall, to the Friday after.'
+      text: Living in New Orleans, is my persoanl essay about hurricane Katrina. How it affected my family, friends, and myself. This personal account covers from the Friday before Katrina made landfall, to the Friday after.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.943769
   lng: -90.083172
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 185
 item_type: Document

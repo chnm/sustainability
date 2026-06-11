@@ -3,7 +3,6 @@ aliases:
   - /items/show/37
   - /items/show/37.html
 collections: []
-contributors: []
 date: '2005-11-16 15:33:09'
 draft: false
 dublin_core:
@@ -18,7 +17,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: " Sixth of 9 emails describing the Christmann family\\'s Katrina story"
+      text: Sixth of 9 emails describing the Christmann family\'s Katrina story
 featured: false
 files:
   - fullsize:
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.98401
   lng: -90.12179
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37
 item_type: Document
@@ -41,7 +41,7 @@ plugin_metadata: []
 related_items: []
 slug: '37'
 tags: []
-title: " Sixth of 9 emails describing the Christmann family\\'s Katrina story"
+title: Sixth of 9 emails describing the Christmann family\'s Katrina story
 type: items
 ---
 

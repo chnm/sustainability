@@ -3,7 +3,6 @@ aliases:
   - /items/show/1847
   - /items/show/1847.html
 collections: []
-contributors: []
 date: '2006-02-14 01:01:40'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-13 20:01:40'
   Description:
     - html: false
-      text: " Johnson\\'s Bayou School lost classrooms facing south during Hurricane Rita. The school is now under  construction. Taken on Feb 12, 2006."
+      text: Johnson\'s Bayou School lost classrooms facing south during Hurricane Rita. The school is now under  construction. Taken on Feb 12, 2006.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.7619931096015
   lng: -93.6474609375
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1847
 item_type: Still Image

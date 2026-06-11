@@ -4,13 +4,12 @@ aliases:
   - /items/show/26158.html
 collections:
   - '68'
-contributors: []
 date: '2007-03-21 14:53:02'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Photo courtesy of Elizabeth \"Gidget\" McDougal, Tourist Director at St. Bernard Parish Tourist Commission:Taste of St. Bernard, 2005 '
+      text: Photo courtesy of Elizabeth \"Gidget\" McDougal, Tourist Director at St. Bernard Parish Tourist Commission:Taste of St. Bernard, 2005
   Language:
     - html: false
       text: eng

@@ -3,7 +3,6 @@ aliases:
   - /items/show/648
   - /items/show/648.html
 collections: []
-contributors: []
 date: '2006-01-21 05:46:12'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-21 00:46:12'
   Description:
     - html: false
-      text: ' East levee break of London Avenue Canal near Mirabeau in New Orleans'
+      text: East levee break of London Avenue Canal near Mirabeau in New Orleans
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.008648946969497
   lng: -90.0690507888794
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 648
 item_type: Still Image

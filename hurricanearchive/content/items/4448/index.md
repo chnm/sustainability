@@ -4,7 +4,6 @@ aliases:
   - /items/show/4448.html
 collections:
   - '174'
-contributors: []
 date: '2006-09-05 15:25:15'
 draft: false
 dublin_core:
@@ -29,6 +28,7 @@ geo:
   address: Sabine Pass, TX
   lat: 29.73333
   lng: -93.89417
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 4448
 item_type: Document

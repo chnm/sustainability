@@ -3,7 +3,6 @@ aliases:
   - /items/show/2334
   - /items/show/2334.html
 collections: []
-contributors: []
 date: '2006-07-21 02:54:28'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-20 22:54:28'
   Description:
     - html: false
-      text: ' I thought this was a good picture, you can see where the water level was.'
+      text: I thought this was a good picture, you can see where the water level was.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.4454179233169
   lng: -90.9517765045166
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2334
 item_type: Still Image

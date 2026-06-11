@@ -3,7 +3,6 @@ aliases:
   - /items/show/519
   - /items/show/519.html
 collections: []
-contributors: []
 date: '2006-01-04 00:10:22'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-03 19:10:22'
   Description:
     - html: false
-      text: ' After watching the levees burst on CNN I started getting some of the other folks in the hotel to record podcasts. This one is from a lady named Anethea who lived in the 9th Ward'
+      text: After watching the levees burst on CNN I started getting some of the other folks in the hotel to record podcasts. This one is from a lady named Anethea who lived in the 9th Ward
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 35.210811
   lng: -90.203849
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 519
 item_type: Document

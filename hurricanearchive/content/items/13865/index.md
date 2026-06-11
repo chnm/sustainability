@@ -4,7 +4,6 @@ aliases:
   - /items/show/13865.html
 collections:
   - '91'
-contributors: []
 date: '2006-12-11 13:57:29'
 draft: false
 dublin_core:
@@ -19,7 +18,7 @@ files:
   - fullsize:
     id: 11564
     mime: application/vnd.ms-powerpoint
-    original_filename: ' SHN Anniversary Power Point_6236b86c14.ppt'
+    original_filename: SHN Anniversary Power Point_6236b86c14.ppt
     thumb:
     url: https://hurricanearchive.org/files/original/14fb2a1c80195514fb2a1c801d38.ppt
 geo:

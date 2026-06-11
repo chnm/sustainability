@@ -3,7 +3,6 @@ aliases:
   - /items/show/12100
   - /items/show/12100.html
 collections: []
-contributors: []
 date: '2006-10-12 18:00:43'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 29444 bayou paquet rd
   lat: 30.28995
   lng: -89.91783
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12100
 item_type: Document

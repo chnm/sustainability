@@ -3,7 +3,6 @@ aliases:
   - /items/show/2168
   - /items/show/2168.html
 collections: []
-contributors: []
 date: '2006-04-22 13:21:20'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 09:21:20'
   Description:
     - html: false
-      text: ' Two lucky pets and one lucky owner staying in the back yard at the American Red Cross Hurricane Katrina shelter in Citronelle, Alabama.'
+      text: Two lucky pets and one lucky owner staying in the back yard at the American Red Cross Hurricane Katrina shelter in Citronelle, Alabama.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.1187943959895
   lng: -88.26416015625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2168
 item_type: Still Image

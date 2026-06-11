@@ -3,7 +3,6 @@ aliases:
   - /items/show/366
   - /items/show/366.html
 collections: []
-contributors: []
 date: '2005-12-14 22:56:09'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-14 17:56:09'
   Description:
     - html: false
-      text: ' email from a colleague describing her early reactions to evacuating from New Orleans to Houston because of Hurricane Katrina'
+      text: email from a colleague describing her early reactions to evacuating from New Orleans to Houston because of Hurricane Katrina
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 366
 item_type: Document

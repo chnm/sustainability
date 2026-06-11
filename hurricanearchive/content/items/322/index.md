@@ -3,7 +3,6 @@ aliases:
   - /items/show/322
   - /items/show/322.html
 collections: []
-contributors: []
 date: '2005-12-05 00:54:06'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-04 19:54:06'
   Description:
     - html: false
-      text: ' This is on the corner of the historic downtown part of DeRidder, Louisiana. These buildings are one hundred years old, Some were damaged severely, others received broken windows or shredded awnings and still others saw no effects at all.'
+      text: This is on the corner of the historic downtown part of DeRidder, Louisiana. These buildings are one hundred years old, Some were damaged severely, others received broken windows or shredded awnings and still others saw no effects at all.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.651656
   lng: -93.299574
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 322
 item_type: Still Image

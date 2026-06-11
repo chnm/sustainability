@@ -3,7 +3,6 @@ aliases:
   - /items/show/2314
   - /items/show/2314.html
 collections: []
-contributors: []
 date: '2006-06-20 18:03:32'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-06-20 14:03:32'
   Description:
     - html: false
-      text: " K-D Eats,a roadside food stand that opened since Rita to serve Sabine Pass\\'s residents and workers. Taken April 19, 2006"
+      text: K-D Eats,a roadside food stand that opened since Rita to serve Sabine Pass\'s residents and workers. Taken April 19, 2006
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.729799972602194
   lng: -93.89533996582031
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2314
 item_type: Still Image

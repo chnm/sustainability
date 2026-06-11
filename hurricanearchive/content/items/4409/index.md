@@ -3,7 +3,6 @@ aliases:
   - /items/show/4409
   - /items/show/4409.html
 collections: []
-contributors: []
 date: '2006-09-02 07:24:05'
 draft: false
 dublin_core:
@@ -31,6 +30,7 @@ geo:
   address: 1719 N. Claiborne Ave.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 4409
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/578
   - /items/show/578.html
 collections: []
-contributors: []
 date: '2006-01-13 22:05:49'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:05:49'
   Description:
     - html: false
-      text: ' The Pass Christian, MS Wal-Mart, only 2 years old & totally gutted.'
+      text: The Pass Christian, MS Wal-Mart, only 2 years old & totally gutted.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.374646
   lng: -89.177143
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 578
 item_type: Still Image

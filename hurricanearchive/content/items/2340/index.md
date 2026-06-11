@@ -3,7 +3,6 @@ aliases:
   - /items/show/2340
   - /items/show/2340.html
 collections: []
-contributors: []
 date: '2006-07-23 08:33:30'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-23 04:33:30'
   Description:
     - html: false
-      text: ' A solder on gaurd out side a hospital'
+      text: A solder on gaurd out side a hospital
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.444825956002695
   lng: -90.9505748748779
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2340
 item_type: Still Image

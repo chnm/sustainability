@@ -3,7 +3,6 @@ aliases:
   - /items/show/286
   - /items/show/286.html
 collections: []
-contributors: []
 date: '2005-11-28 16:34:19'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-28 11:34:19'
   Description:
     - html: false
-      text: ' These used to be street car tracks, before being submerged and completely covered in mud.'
+      text: These used to be street car tracks, before being submerged and completely covered in mud.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9344076117419
   lng: -90.1234245300293
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 286
 item_type: Still Image

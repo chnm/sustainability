@@ -3,13 +3,12 @@ aliases:
   - /items/show/12650
   - /items/show/12650.html
 collections: []
-contributors: []
 date: '2006-11-15 16:55:39'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "I live on Cape Cod and am a full time graduate student at Boston College working on dual degrees in Social Work and Pastoral Ministry.  I am also on the greater Boston advisory board of the Salvation Army.  I redeployed my field assignment to Camp Edwards for Operation Helping Hands and was there before the first plane arrived and until the last person left.  Serving God and my country was the experience of a lifetime.   \\r\\nMy final year field assignment is at the Barnstable Senior Center in Hyannis.  \\r\\n\\r\\nThis file provides an analysis of Massachusetts\\' Operation Helping Hands - Camp Edwards 9/5/2005-10/21/05   "
+      text: I live on Cape Cod and am a full time graduate student at Boston College working on dual degrees in Social Work and Pastoral Ministry.  I am also on the greater Boston advisory board of the Salvation Army.  I redeployed my field assignment to Camp Edwards for Operation Helping Hands and was there before the first plane arrived and until the last person left.  Serving God and my country was the experience of a lifetime.   \r\nMy final year field assignment is at the Barnstable Senior Center in Hyannis.  \r\n\r\nThis file provides an analysis of Massachusetts\' Operation Helping Hands - Camp Edwards 9/5/2005-10/21/05
   Language:
     - html: false
       text: eng
@@ -28,6 +27,7 @@ geo:
   address: 367 Main Street
   lat: 41.65306
   lng: -70.28328
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12650
 item_type: Document

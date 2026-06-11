@@ -3,7 +3,6 @@ aliases:
   - /items/show/2023
   - /items/show/2023.html
 collections: []
-contributors: []
 date: '2006-03-14 17:45:20'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-14 12:45:20'
   Description:
     - html: false
-      text: ' Monday afternoon, August 29 2005, my daughter and I went outside our home to survey the damage. I gave her some diving goggles to protect her eyes from flying debris.'
+      text: Monday afternoon, August 29 2005, my daughter and I went outside our home to survey the damage. I gave her some diving goggles to protect her eyes from flying debris.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.290857455046197
   lng: -89.80809330940251
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2023
 item_type: Still Image

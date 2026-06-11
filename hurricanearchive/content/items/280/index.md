@@ -3,7 +3,6 @@ aliases:
   - /items/show/280
   - /items/show/280.html
 collections: []
-contributors: []
 date: '2005-11-26 18:42:54'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-26 13:42:54'
   Description:
     - html: false
-      text: ' Another boat found its way from the harbour at West End to a front yard. (image provided by mudbugdesigns.com)'
+      text: Another boat found its way from the harbour at West End to a front yard. (image provided by mudbugdesigns.com)
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.022138031277596
   lng: -90.11072158813481
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 280
 item_type: Still Image

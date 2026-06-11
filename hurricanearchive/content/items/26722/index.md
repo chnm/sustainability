@@ -4,7 +4,6 @@ aliases:
   - /items/show/26722.html
 collections:
   - '80'
-contributors: []
 date: '2007-04-16 20:27:44'
 draft: false
 dublin_core:
@@ -32,6 +31,7 @@ geo:
   address: Forstall St
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26722
 item_type: Document

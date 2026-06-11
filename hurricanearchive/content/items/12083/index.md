@@ -3,7 +3,6 @@ aliases:
   - /items/show/12083
   - /items/show/12083.html
 collections: []
-contributors: []
 date: '2006-10-12 16:32:32'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 3026 dauphine
   lat: 29.96469
   lng: -90.04647
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12083
 item_type: Document

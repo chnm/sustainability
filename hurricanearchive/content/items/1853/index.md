@@ -3,7 +3,6 @@ aliases:
   - /items/show/1853
   - /items/show/1853.html
 collections: []
-contributors: []
 date: '2006-02-18 06:07:06'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-18 01:07:06'
   Description:
     - html: false
-      text: " One of the most grievous losses after Katrina was the family collection of photographs.  The London Ave. levee breach let in an awful collection of yuck which obliterated all photos, amazingly except for Polaroids.  I found this one of my son stuck in the buckled wood flooring of mama and daddy\\'s house.  We all cried because in 2002 at 24 he died of an asthma attack.  Losing all his photos was like losing him again, until God led us to this lone survivor.  Amen."
+      text: One of the most grievous losses after Katrina was the family collection of photographs.  The London Ave. levee breach let in an awful collection of yuck which obliterated all photos, amazingly except for Polaroids.  I found this one of my son stuck in the buckled wood flooring of mama and daddy\'s house.  We all cried because in 2002 at 24 he died of an asthma attack.  Losing all his photos was like losing him again, until God led us to this lone survivor.  Amen.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.009063
   lng: -90.062147
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1853
 item_type: Still Image

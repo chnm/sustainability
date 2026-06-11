@@ -4,7 +4,6 @@ aliases:
   - /items/show/13353.html
 collections:
   - '68'
-contributors: []
 date: '2006-11-30 18:56:16'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: new oreleans
   lat: 29.97358
   lng: -90.08568
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 13353
 item_type: Still Image

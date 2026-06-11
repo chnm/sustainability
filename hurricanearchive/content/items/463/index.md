@@ -3,7 +3,6 @@ aliases:
   - /items/show/463
   - /items/show/463.html
 collections: []
-contributors: []
 date: '2005-12-27 20:06:55'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 15:06:55'
   Description:
     - html: false
-      text: ' Only a foundation is left of a house where a family once lived.'
+      text: Only a foundation is left of a house where a family once lived.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.356286425251202
   lng: -89.33258056640618
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 463
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/40944
   - /items/show/40944.html
 collections: []
-contributors: []
 date: '2009-09-04 01:23:52'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 801 Ave C
   lat: 29.89729
   lng: -90.09499
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40944
 item_type: Document

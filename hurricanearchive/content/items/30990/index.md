@@ -3,13 +3,12 @@ aliases:
   - /items/show/30990
   - /items/show/30990.html
 collections: []
-contributors: []
 date: '2007-08-01 22:13:11'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Mississippi Hurricane Photos, '
+      text: Mississippi Hurricane Photos,
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: 945 North Shore Drive
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 30990
 item_type: Document

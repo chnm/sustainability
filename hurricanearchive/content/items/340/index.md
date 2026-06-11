@@ -3,7 +3,6 @@ aliases:
   - /items/show/340
   - /items/show/340.html
 collections: []
-contributors: []
 date: '2005-12-09 20:15:20'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-09 15:15:20'
   Description:
     - html: false
-      text: " Although I don\\'t live in Biloxi, I took this when I went there to help with clean up. As you can see, theres a lot to do, even 3 months after the storm. Its hard to imagine that your work is actually making a dent, but even the smallest help is important."
+      text: Although I don\'t live in Biloxi, I took this when I went there to help with clean up. As you can see, theres a lot to do, even 3 months after the storm. Its hard to imagine that your work is actually making a dent, but even the smallest help is important.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 340
 item_type: Still Image

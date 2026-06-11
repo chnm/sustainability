@@ -3,7 +3,6 @@ aliases:
   - /items/show/164
   - /items/show/164.html
 collections: []
-contributors: []
 date: '2005-11-18 15:42:53'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 10:42:53'
   Description:
     - html: false
-      text: ' Damage occuring on the West Bank Expressway, possibly from a tornado resulting from Hurricane Katrina.'
+      text: Damage occuring on the West Bank Expressway, possibly from a tornado resulting from Hurricane Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 164
 item_type: Still Image

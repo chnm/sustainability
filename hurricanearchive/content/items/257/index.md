@@ -3,7 +3,6 @@ aliases:
   - /items/show/257
   - /items/show/257.html
 collections: []
-contributors: []
 date: '2005-11-26 02:24:32'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-25 21:24:32'
   Description:
     - html: false
-      text: ' pulled image from net127.com'
+      text: pulled image from net127.com
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0690939644389
   lng: -90.2197265625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 257
 item_type: Still Image

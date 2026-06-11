@@ -3,7 +3,6 @@ aliases:
   - /items/show/30488
   - /items/show/30488.html
 collections: []
-contributors: []
 date: '2007-07-20 03:31:09'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: Westbank Expressway
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 30488
 item_type: Still Image

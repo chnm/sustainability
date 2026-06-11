@@ -3,7 +3,6 @@ aliases:
   - /items/show/323
   - /items/show/323.html
 collections: []
-contributors: []
 date: '2005-12-05 00:55:58'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-04 19:55:58'
   Description:
     - html: false
-      text: ' Another shot of the damage to the historic 100 year-old section of downtown DeRidder, LA.'
+      text: Another shot of the damage to the historic 100 year-old section of downtown DeRidder, LA.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.651656
   lng: -93.299574
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 323
 item_type: Still Image

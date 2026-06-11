@@ -4,7 +4,6 @@ aliases:
   - /items/show/26728.html
 collections:
   - '80'
-contributors: []
 date: '2007-04-16 21:19:27'
 draft: false
 dublin_core:
@@ -13,13 +12,13 @@ dublin_core:
       text: '2007-04-16 00:00:00'
   Description:
     - html: false
-      text: 'Charcoal portrait of young African American man who volunteered with Common Ground. In text he describes walking through the Ninth Ward to distribute CG newspaper, seeing desolate landscape but people with strength. '
+      text: Charcoal portrait of young African American man who volunteered with Common Ground. In text he describes walking through the Ninth Ward to distribute CG newspaper, seeing desolate landscape but people with strength.
   Language:
     - html: false
       text: eng
   Title:
     - html: false
-      text: 'Portrait & Narrative '
+      text: Portrait & Narrative
 featured: false
 files:
   - fullsize:
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26728
 item_type: Still Image
@@ -51,7 +51,7 @@ tags:
   - racism
   - strength
   - volunteer
-title: 'Portrait & Narrative '
+title: Portrait & Narrative
 type: items
 ---
 

@@ -4,7 +4,6 @@ aliases:
   - /items/show/34615.html
 collections:
   - '68'
-contributors: []
 date: '2008-04-23 20:29:24'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 3500 St. Claude Ave., New Orleans, LA
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34615
 item_type: Still Image

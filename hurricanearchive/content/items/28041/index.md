@@ -4,7 +4,6 @@ aliases:
   - /items/show/28041.html
 collections:
   - '147'
-contributors: []
 date: '2007-05-28 04:26:05'
 draft: false
 dublin_core:
@@ -16,7 +15,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'Judge dismissed claim that local police violated the right to travel '
+      text: Judge dismissed claim that local police violated the right to travel
 featured: false
 files: []
 geo:
@@ -37,7 +36,7 @@ tags:
   - gretna police department
   - jefferson parish sheriffs office
   - judge mary lemmon
-title: 'Judge dismissed claim that local police violated the right to travel '
+title: Judge dismissed claim that local police violated the right to travel
 type: items
 ---
 

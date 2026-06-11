@@ -3,7 +3,6 @@ aliases:
   - /items/show/26033
   - /items/show/26033.html
 collections: []
-contributors: []
 date: '2007-03-17 02:37:18'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: University of New Orleans, History Department
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26033
 item_type: Document

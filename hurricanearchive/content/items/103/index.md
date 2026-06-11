@@ -3,7 +3,6 @@ aliases:
   - /items/show/103
   - /items/show/103.html
 collections: []
-contributors: []
 date: '2005-11-17 22:27:45'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:27:45'
   Description:
     - html: false
-      text: ' aerial photo from noaa.gov'
+      text: aerial photo from noaa.gov
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.929605
   lng: -90.013164
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 103
 item_type: Still Image

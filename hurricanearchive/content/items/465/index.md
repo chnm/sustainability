@@ -3,7 +3,6 @@ aliases:
   - /items/show/465
   - /items/show/465.html
 collections: []
-contributors: []
 date: '2005-12-27 20:10:29'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 15:10:29'
   Description:
     - html: false
-      text: ' The roads in Pass Christian are empty now...'
+      text: The roads in Pass Christian are empty now...
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.337324394179
   lng: -89.2254638671875
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 465
 item_type: Still Image

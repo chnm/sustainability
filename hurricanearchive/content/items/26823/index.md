@@ -4,7 +4,6 @@ aliases:
   - /items/show/26823.html
 collections:
   - '80'
-contributors: []
 date: '2007-04-18 03:52:46'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2007-04-17 00:00:00'
   Description:
     - html: false
-      text: 'Charcoal portrait of Nicki Sabalu. Text begins: \"Among my first days in New Orleans a woman invited me to visit her home on Congress Street (Upper Ninth Ward)...\" '
+      text: 'Charcoal portrait of Nicki Sabalu. Text begins: \"Among my first days in New Orleans a woman invited me to visit her home on Congress Street (Upper Ninth Ward)...\"'
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: Congress St
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26823
 item_type: Document

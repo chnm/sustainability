@@ -3,7 +3,6 @@ aliases:
   - /items/show/225
   - /items/show/225.html
 collections: []
-contributors: []
 date: '2005-11-21 04:25:28'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-20 23:25:28'
   Description:
     - html: false
-      text: ' Photo taken by Michael Sharpe while standing on the 17th Street Canal.'
+      text: Photo taken by Michael Sharpe while standing on the 17th Street Canal.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.065367
   lng: -90.527515
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 225
 item_type: Still Image

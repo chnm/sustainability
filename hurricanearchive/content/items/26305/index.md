@@ -4,7 +4,6 @@ aliases:
   - /items/show/26305.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-27 15:48:17'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: north carolina
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26305
 item_type: Document

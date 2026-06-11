@@ -3,7 +3,6 @@ aliases:
   - /items/show/67
   - /items/show/67.html
 collections: []
-contributors: []
 date: '2005-11-17 05:37:29'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 00:37:29'
   Description:
     - html: false
-      text: ' Corner of Vista Dr. and Hwy. 90 in Pass Christian, MS.  Slaps of the 4-lane highway are in the middle.'
+      text: Corner of Vista Dr. and Hwy. 90 in Pass Christian, MS.  Slaps of the 4-lane highway are in the middle.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.989731411577104
   lng: -90.2265930175781
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 67
 item_type: Still Image

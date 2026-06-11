@@ -3,7 +3,6 @@ aliases:
   - /items/show/1866
   - /items/show/1866.html
 collections: []
-contributors: []
 date: '2006-02-24 13:28:05'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-24 08:28:05'
   Description:
     - html: false
-      text: " This is my grandmother\\'shouse near bullard in new orleans east.  looks ok from the outside but the inside is a mess."
+      text: This is my grandmother\'shouse near bullard in new orleans east.  looks ok from the outside but the inside is a mess.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1866
 item_type: Still Image

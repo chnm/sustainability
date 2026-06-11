@@ -3,13 +3,12 @@ aliases:
   - /items/show/34431
   - /items/show/34431.html
 collections: []
-contributors: []
 date: '2008-04-17 19:25:34'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Most homes were totally destroyed the ones that weren\\'t had to be eventually torn down.  Only a few structures survived "
+      text: Most homes were totally destroyed the ones that weren\'t had to be eventually torn down.  Only a few structures survived
   Rights:
     - html: false
       text: Attribution-NonCommercial License (http://creativecommons.org/licenses/by-nc/2.0/)
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 30.23864
   lng: -89.80182
+  map_type: Yahoo Maps API
   zoom: 12
 id: 34431
 item_type: Still Image

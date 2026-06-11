@@ -3,13 +3,12 @@ aliases:
   - /items/show/46001
   - /items/show/46001.html
 collections: []
-contributors: []
 date: '2014-01-23 03:19:37'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'This image is of the house me and my family moved into in Braithwaite after the storm. My Father was a minister at the time of the storm. In early 2006 we moved from Virginia to the New Orleans area in order to help with the rebuilding process. My Father took the pastorship of a small church in St. Bernard Parish. This house the was church parsonage which we helped rebuild. '
+      text: This image is of the house me and my family moved into in Braithwaite after the storm. My Father was a minister at the time of the storm. In early 2006 we moved from Virginia to the New Orleans area in order to help with the rebuilding process. My Father took the pastorship of a small church in St. Bernard Parish. This house the was church parsonage which we helped rebuild.
   Title:
     - html: false
       text: Braithwaite

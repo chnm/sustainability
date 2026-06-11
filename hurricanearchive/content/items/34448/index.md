@@ -3,7 +3,6 @@ aliases:
   - /items/show/34448
   - /items/show/34448.html
 collections: []
-contributors: []
 date: '2008-04-17 19:27:13'
 draft: false
 dublin_core:
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 30.23397
   lng: -89.74916
+  map_type: Yahoo Maps API
   zoom: 12
 id: 34448
 item_type: Still Image

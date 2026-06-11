@@ -4,13 +4,12 @@ aliases:
   - /items/show/42880.html
 collections:
   - '68'
-contributors: []
 date: '2010-06-30 02:38:13'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'My great grandfather Leon Mistretta and daughter Mary Jean in front of the St. Louis Cathedral. '
+      text: My great grandfather Leon Mistretta and daughter Mary Jean in front of the St. Louis Cathedral.
   Language:
     - html: false
       text: eng
@@ -26,6 +25,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42880
 item_type: Still Image

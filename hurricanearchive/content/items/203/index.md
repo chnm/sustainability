@@ -3,7 +3,6 @@ aliases:
   - /items/show/203
   - /items/show/203.html
 collections: []
-contributors: []
 date: '2005-11-19 05:37:59'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-19 00:37:59'
   Description:
     - html: false
-      text: ' This convenience store is located at the beginning of the S-turn on Jefferson Hwy.  The ice machine was located up against the building before the hurricane decided to put it out in the middle of the parking lot.'
+      text: This convenience store is located at the beginning of the S-turn on Jefferson Hwy.  The ice machine was located up against the building before the hurricane decided to put it out in the middle of the parking lot.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9380521962303
   lng: -90.19380569458009
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 203
 item_type: Still Image

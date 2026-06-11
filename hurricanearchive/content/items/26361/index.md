@@ -4,7 +4,6 @@ aliases:
   - /items/show/26361.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-28 19:47:00'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Florence, NJ
   lat: 40.11944
   lng: -74.80583
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26361
 item_type: Document

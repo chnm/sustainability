@@ -3,7 +3,6 @@ aliases:
   - /items/show/44340
   - /items/show/44340.html
 collections: []
-contributors: []
 date: '2011-05-01 12:12:57'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2011-08-24 16:13:37'
   Description:
     - html: false
-      text: '2 blks from dome, Nola Sept late or IOct '
+      text: 2 blks from dome, Nola Sept late or IOct
   Language:
     - html: false
       text: eng
@@ -28,6 +27,7 @@ geo:
   address: 4820 lAKE cOMO AVE
   lat: 29.76438
   lng: -89.78027
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 44340
 item_type: Still Image

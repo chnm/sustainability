@@ -3,7 +3,6 @@ aliases:
   - /items/show/575
   - /items/show/575.html
 collections: []
-contributors: []
 date: '2006-01-13 22:02:13'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:02:13'
   Description:
     - html: false
-      text: ' What used to be the Life Center next door to St. Thomas Catholic Church, on the beach in Long Beach.'
+      text: What used to be the Life Center next door to St. Thomas Catholic Church, on the beach in Long Beach.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.374646
   lng: -89.177143
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 575
 item_type: Still Image

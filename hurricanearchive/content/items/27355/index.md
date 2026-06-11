@@ -3,7 +3,6 @@ aliases:
   - /items/show/27355
   - /items/show/27355.html
 collections: []
-contributors: []
 date: '2007-05-08 16:27:28'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: <a href='\"http://www.flickr.com/photos/timconnor/sets/72157594152672237/\"'>Mr. Conner</a>
   Description:
     - html: false
-      text: '4924 Near Lakeshore, New Orleans, LA '
+      text: 4924 Near Lakeshore, New Orleans, LA
   Rights:
     - html: true
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.84064
   lng: -92.20619
+  map_type: Google Maps v3.x
   zoom: 12
 id: 27355
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/1897
   - /items/show/1897.html
 collections: []
-contributors: []
 date: '2006-03-06 22:26:01'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 17:26:01'
   Description:
     - html: false
-      text: ' Hurricane Wilma winds Oct. 24,2005'
+      text: Hurricane Wilma winds Oct. 24,2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 26.246003863035
   lng: -80.0965118408203
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1897
 item_type: Still Image

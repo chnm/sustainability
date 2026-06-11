@@ -3,7 +3,6 @@ aliases:
   - /items/show/1842
   - /items/show/1842.html
 collections: []
-contributors: []
 date: '2006-02-14 00:39:16'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-13 19:39:16'
   Description:
     - html: false
-      text: ' The road directly off of Route 82 that used to lead into the community of Holly Beach, LA is very quiet. \r\nTaken February 12, 2006'
+      text: The road directly off of Route 82 that used to lead into the community of Holly Beach, LA is very quiet. \r\nTaken February 12, 2006
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.771529831403097
   lng: -93.46047878265381
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1842
 item_type: Still Image

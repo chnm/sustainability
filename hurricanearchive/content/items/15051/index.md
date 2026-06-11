@@ -4,7 +4,6 @@ aliases:
   - /items/show/15051.html
 collections:
   - '68'
-contributors: []
 date: '2007-01-15 16:34:55'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 5534 Chamberlain Drive
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 15051
 item_type: Still Image

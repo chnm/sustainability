@@ -4,13 +4,12 @@ aliases:
   - /items/show/26901.html
 collections:
   - '68'
-contributors: []
 date: '2007-04-18 05:40:07'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Keith M. Jackson and classmates in court yard at Saint Mark\\'s School, Chalmette, Louisiana, 1970. \\r\\n\\r\\nThis image is from the archive of Ron Chapman,\\r\\nProfessor of History at Nunez Community College. Nunez\\r\\nCommunity College is located in Chalmette, in St.\\r\\nBernard Parish, Louisiana.  In 2005 it was heavily\\r\\ndamaged by flooding due to Hurricane Katrina.\\r\\n "
+      text: Keith M. Jackson and classmates in court yard at Saint Mark\'s School, Chalmette, Louisiana, 1970. \r\n\r\nThis image is from the archive of Ron Chapman,\r\nProfessor of History at Nunez Community College. Nunez\r\nCommunity College is located in Chalmette, in St.\r\nBernard Parish, Louisiana.  In 2005 it was heavily\r\ndamaged by flooding due to Hurricane Katrina.\r\n
   Language:
     - html: false
       text: eng
@@ -26,6 +25,7 @@ geo:
   address: ''
   lat: 29.87876
   lng: -90.04395
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26901
 item_type: Still Image

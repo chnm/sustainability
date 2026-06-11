@@ -3,7 +3,6 @@ aliases:
   - /items/show/59
   - /items/show/59.html
 collections: []
-contributors: []
 date: '2005-11-16 22:32:27'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-16 17:32:27'
   Description:
     - html: false
-      text: ' This is the now infamous photo of the Circle Food Store in New Orleans.'
+      text: This is the now infamous photo of the Circle Food Store in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.958304
   lng: -90.077
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 59
 item_type: Still Image

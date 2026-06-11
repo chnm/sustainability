@@ -4,7 +4,6 @@ aliases:
   - /items/show/26496.html
 collections:
   - '143'
-contributors: []
 date: '2007-04-04 16:27:06'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: San Antonio, TX
   lat: 29.42389
   lng: -98.49333
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26496
 item_type: Document

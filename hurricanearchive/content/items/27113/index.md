@@ -4,7 +4,6 @@ aliases:
   - /items/show/27113.html
 collections:
   - '174'
-contributors: []
 date: '2007-05-01 15:42:24'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 3118 Burton St., Lake Charles, LA
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 27113
 item_type: Document

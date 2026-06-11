@@ -3,7 +3,6 @@ aliases:
   - /items/show/213
   - /items/show/213.html
 collections: []
-contributors: []
 date: '2005-11-20 03:19:42'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-19 22:19:42'
   Description:
     - html: false
-      text: ' This article, published in the pediatric cardiology journal Congenital Cardiology Today, was written by two pediatric cardiologists who, with their family, were at Tulane University Medical Center during Hurricane Katrina.  It details the effort and sacrifices made to save the patients, and then the ordeal of being rescued themselves.'
+      text: This article, published in the pediatric cardiology journal Congenital Cardiology Today, was written by two pediatric cardiologists who, with their family, were at Tulane University Medical Center during Hurricane Katrina.  It details the effort and sacrifices made to save the patients, and then the ordeal of being rescued themselves.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.958304
   lng: -90.077
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 213
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/40940
   - /items/show/40940.html
 collections: []
-contributors: []
 date: '2009-09-03 23:59:20'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 310 Orpheum Avenue
   lat: 29.98476
   lng: -90.12486
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40940
 item_type: Document

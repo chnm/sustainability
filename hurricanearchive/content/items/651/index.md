@@ -3,7 +3,6 @@ aliases:
   - /items/show/651
   - /items/show/651.html
 collections: []
-contributors: []
 date: '2006-01-21 06:11:07'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-21 01:11:07'
   Description:
     - html: false
-      text: ' Right after Katrina passed on 8-29-05 in front of Superdome, prior to flood.'
+      text: Right after Katrina passed on 8-29-05 in front of Superdome, prior to flood.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.952108628540298
   lng: -90.0815391540527
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 651
 item_type: Still Image

@@ -4,7 +4,6 @@ aliases:
   - /items/show/12991.html
 collections:
   - '87'
-contributors: []
 date: '2006-11-27 03:30:19'
 draft: false
 dublin_core:
@@ -13,7 +12,12 @@ dublin_core:
       text: Michael Mizell-Nelson
   Description:
     - html: false
-      text: "Historically Speaking, UNO history department Historically Speaking: The Bulletin of the Historical Society July/August 2006 Volume VII, Number\r\n  \r\n\"Historians in the Midst of Catastrophe: Reflections of the University of New Orleans's Department of History after Hurricane Katrina.\" \r\n\r\nMichael Mizell-Nelson, assistant professor of history and specialist in U.S. labor and race relations, is a native of New Orleans. His story is attached"
+      text: |-
+        Historically Speaking, UNO history department Historically Speaking: The Bulletin of the Historical Society July/August 2006 Volume VII, Number
+
+        "Historians in the Midst of Catastrophe: Reflections of the University of New Orleans's Department of History after Hurricane Katrina."
+
+        Michael Mizell-Nelson, assistant professor of history and specialist in U.S. labor and race relations, is a native of New Orleans. His story is attached
   Language:
     - html: false
       text: eng

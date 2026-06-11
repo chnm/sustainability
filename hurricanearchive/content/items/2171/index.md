@@ -3,7 +3,6 @@ aliases:
   - /items/show/2171
   - /items/show/2171.html
 collections: []
-contributors: []
 date: '2006-04-22 14:06:16'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 10:06:16'
   Description:
     - html: false
-      text: ' 2004 Florida Hurricane Season'
+      text: 2004 Florida Hurricane Season
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 27.203872
   lng: -82.443249
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2171
 item_type: Document

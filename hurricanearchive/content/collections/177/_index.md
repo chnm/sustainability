@@ -11,7 +11,7 @@ lastmod: '2000-01-01 05:00:00'
 layout: single
 parent_id:
 slug: '177'
-title: 'Mississippi Center for Nonprofits '
+title: Mississippi Center for Nonprofits
 type: collections
 ---
 

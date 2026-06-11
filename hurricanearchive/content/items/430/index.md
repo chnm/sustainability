@@ -3,7 +3,6 @@ aliases:
   - /items/show/430
   - /items/show/430.html
 collections: []
-contributors: []
 date: '2005-12-26 20:17:30'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 15:17:30'
   Description:
     - html: false
-      text: ' The flood line on the side of a bus runs right through the American flag. Picture taken in New Orleans.'
+      text: The flood line on the side of a bus runs right through the American flag. Picture taken in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9549345496561
   lng: -90.1318359375
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 430
 item_type: Still Image

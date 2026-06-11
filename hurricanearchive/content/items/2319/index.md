@@ -3,7 +3,6 @@ aliases:
   - /items/show/2319
   - /items/show/2319.html
 collections: []
-contributors: []
 date: '2006-07-09 03:05:32'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-08 23:05:32'
   Description:
     - html: false
-      text: ' Rita frog, taken in Head of Island, LA after the flood.'
+      text: Rita frog, taken in Head of Island, LA after the flood.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342352
   lng: -90.685853
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2319
 item_type: Still Image

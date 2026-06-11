@@ -3,7 +3,6 @@ aliases:
   - /items/show/37372
   - /items/show/37372.html
 collections: []
-contributors: []
 date: '2008-09-18 03:56:38'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 101 e leblanc st
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37372
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/417
   - /items/show/417.html
 collections: []
-contributors: []
 date: '2005-12-26 18:59:30'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 13:59:30'
   Description:
     - html: false
-      text: ' This sign says it all.'
+      text: This sign says it all.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342065246371604
   lng: -89.21997070312499
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 417
 item_type: Still Image

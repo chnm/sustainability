@@ -4,13 +4,12 @@ aliases:
   - /items/show/2462.html
 collections:
   - '19'
-contributors: []
 date: '2006-08-21 16:10:59'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Buried car across from levee breach, Lower 9th Ward/New Orleans, September 2005 '
+      text: Buried car across from levee breach, Lower 9th Ward/New Orleans, September 2005
   Language:
     - html: false
       text: eng

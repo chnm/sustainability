@@ -3,7 +3,6 @@ aliases:
   - /items/show/181
   - /items/show/181.html
 collections: []
-contributors: []
 date: '2005-11-18 18:34:49'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 13:34:49'
   Description:
     - html: false
-      text: ' Chalmette, LA\r\nEvidence of Murphy oil spill with the thick black oil covering the  street. A person in their shallow boat explores the damage. Taken  9/13/05'
+      text: Chalmette, LA\r\nEvidence of Murphy oil spill with the thick black oil covering the  street. A person in their shallow boat explores the damage. Taken  9/13/05
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9393909896555
   lng: -89.97116088867192
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 181
 item_type: Still Image

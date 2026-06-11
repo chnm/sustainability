@@ -4,13 +4,12 @@ aliases:
   - /items/show/34495.html
 collections:
   - '185'
-contributors: []
 date: '2008-04-17 19:30:35'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Eddie & Renee Lewis back yard was completely under water during the storm.  '
+      text: Eddie & Renee Lewis back yard was completely under water during the storm.
   Language:
     - html: false
       text: eng

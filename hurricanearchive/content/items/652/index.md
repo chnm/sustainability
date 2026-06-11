@@ -3,7 +3,6 @@ aliases:
   - /items/show/652
   - /items/show/652.html
 collections: []
-contributors: []
 date: '2006-01-21 06:16:01'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-21 01:16:01'
   Description:
     - html: false
-      text: ' Across the street from the New Orleans Superdome 8-29-05 a couple of hours after Katrina passed and prior to the flood.'
+      text: Across the street from the New Orleans Superdome 8-29-05 a couple of hours after Katrina passed and prior to the flood.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9522945468714
   lng: -90.08166790008539
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 652
 item_type: Still Image

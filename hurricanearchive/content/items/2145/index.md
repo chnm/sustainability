@@ -3,7 +3,6 @@ aliases:
   - /items/show/2145
   - /items/show/2145.html
 collections: []
-contributors: []
 date: '2006-04-12 22:05:21'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-12 18:05:21'
   Description:
     - html: false
-      text: ' Home destroyed by Rita in Orange, Texas'
+      text: Home destroyed by Rita in Orange, Texas
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.135425
   lng: -93.860282
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2145
 item_type: Still Image

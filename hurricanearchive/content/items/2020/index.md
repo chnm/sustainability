@@ -3,7 +3,6 @@ aliases:
   - /items/show/2020
   - /items/show/2020.html
 collections: []
-contributors: []
 date: '2006-03-14 01:30:50'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-13 20:30:50'
   Description:
     - html: false
-      text: ' I was installing communicaitons systems for the Coast Guard in Vencie, Louisiana. I took  about 100 photos.   I put them at www.epstein.bz/nola.'
+      text: I was installing communicaitons systems for the Coast Guard in Vencie, Louisiana. I took  about 100 photos.   I put them at www.epstein.bz/nola.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.272024709098396
   lng: -89.35180664062501
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2020
 item_type: Still Image

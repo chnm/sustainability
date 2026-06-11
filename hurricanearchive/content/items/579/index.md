@@ -3,7 +3,6 @@ aliases:
   - /items/show/579
   - /items/show/579.html
 collections: []
-contributors: []
 date: '2006-01-13 22:07:50'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:07:50'
   Description:
     - html: false
-      text: ' Me standing in front of a lot of debris on Jeff Davis Avenue in downtown Long Beach.'
+      text: Me standing in front of a lot of debris on Jeff Davis Avenue in downtown Long Beach.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.374646
   lng: -89.177143
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 579
 item_type: Still Image

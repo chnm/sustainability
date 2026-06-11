@@ -3,7 +3,6 @@ aliases:
   - /items/show/503
   - /items/show/503.html
 collections: []
-contributors: []
 date: '2005-12-30 05:36:42'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-30 00:36:42'
   Description:
     - html: false
-      text: ' A marked house on Canal St in the Mid-City section of New Orleans.'
+      text: A marked house on Canal St in the Mid-City section of New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9760520479806
   lng: -90.10239601135251
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 503
 item_type: Still Image

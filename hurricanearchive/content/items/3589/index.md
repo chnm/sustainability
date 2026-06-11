@@ -4,13 +4,12 @@ aliases:
   - /items/show/3589.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Another large tree bowed down to Katrina\\'s winds on Elysian Fields.  "
+      text: Another large tree bowed down to Katrina\'s winds on Elysian Fields.
   Language:
     - html: false
       text: eng

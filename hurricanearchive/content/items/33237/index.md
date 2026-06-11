@@ -3,13 +3,12 @@ aliases:
   - /items/show/33237
   - /items/show/33237.html
 collections: []
-contributors: []
 date: '2007-11-29 19:17:57'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Synagogue in LakeView\n\nthe flood water effected synagogues &amp; churches, black &amp; white, rich &amp; poor\n\nNew Orleans, Louisiana\n\n2 days shy of the 2nd anniversary of Hurricane Katrina '
+      text: Synagogue in LakeView\n\nthe flood water effected synagogues &amp; churches, black &amp; white, rich &amp; poor\n\nNew Orleans, Louisiana\n\n2 days shy of the 2nd anniversary of Hurricane Katrina
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

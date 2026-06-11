@@ -4,13 +4,12 @@ aliases:
   - /items/show/2699.html
 collections:
   - '21'
-contributors: []
 date: '2006-08-21 18:47:48'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Shermanika drew the scene on the road to Texas including the animals she saw along the way and the sandwich she ate on the bus. '
+      text: Shermanika drew the scene on the road to Texas including the animals she saw along the way and the sandwich she ate on the bus.
   Language:
     - html: false
       text: eng

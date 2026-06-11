@@ -3,7 +3,6 @@ aliases:
   - /items/show/33849
   - /items/show/33849.html
 collections: []
-contributors: []
 date: '2008-02-26 21:19:44'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: Emory, VA
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33849
 item_type: Document

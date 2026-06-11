@@ -3,7 +3,6 @@ aliases:
   - /items/show/31775
   - /items/show/31775.html
 collections: []
-contributors: []
 date: '2007-08-26 03:40:06'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 3623 Banks
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 31775
 item_type: Document

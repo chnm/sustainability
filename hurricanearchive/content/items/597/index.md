@@ -3,7 +3,6 @@ aliases:
   - /items/show/597
   - /items/show/597.html
 collections: []
-contributors: []
 date: '2006-01-15 15:41:03'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-15 10:41:03'
   Description:
     - html: false
-      text: " To the extent local, state and federal governments failed to meet the challenges presented by Katrina, each has pointed fingers at the others.  The song \\\\\\'Get It Right\\\\\\' emphasizes that after all the finger pointing the governments must use the lessons of the past to \\\\\\'get it right next time.\\\\\\'"
+      text: To the extent local, state and federal governments failed to meet the challenges presented by Katrina, each has pointed fingers at the others.  The song \\\'Get It Right\\\' emphasizes that after all the finger pointing the governments must use the lessons of the past to \\\'get it right next time.\\\'
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0248133340817
   lng: -90.23036956787111
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 597
 item_type: Document

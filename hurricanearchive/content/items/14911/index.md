@@ -3,13 +3,12 @@ aliases:
   - /items/show/14911
   - /items/show/14911.html
 collections: []
-contributors: []
 date: '2007-01-05 01:51:36'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'View of interior of our home as it appeared on first entry following hurricane Katrina flood.  '
+      text: View of interior of our home as it appeared on first entry following hurricane Katrina flood.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: 4782 Citrus Drive, New Orleans
   lat: 30.02205
   lng: -89.97479
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 14911
 item_type: Still Image

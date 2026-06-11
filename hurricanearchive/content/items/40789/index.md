@@ -3,7 +3,6 @@ aliases:
   - /items/show/40789
   - /items/show/40789.html
 collections: []
-contributors: []
 date: '2009-08-28 04:49:24'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: Iraq
   lat: 32.75032
   lng: 44.29688
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40789
 item_type: Document

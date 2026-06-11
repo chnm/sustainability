@@ -3,7 +3,6 @@ aliases:
   - /items/show/41824
   - /items/show/41824.html
 collections: []
-contributors: []
 date: '2009-12-21 14:36:32'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: 325 depre st
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 41824
 item_type: Document

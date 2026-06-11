@@ -3,7 +3,6 @@ aliases:
   - /items/show/400
   - /items/show/400.html
 collections: []
-contributors: []
 date: '2005-12-26 18:26:52'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 13:26:52'
   Description:
     - html: false
-      text: ' An historic church  in Waveland, MS.'
+      text: An historic church  in Waveland, MS.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.297017883372
   lng: -89.3682861328125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 400
 item_type: Still Image

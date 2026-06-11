@@ -3,7 +3,6 @@ aliases:
   - /items/show/245
   - /items/show/245.html
 collections: []
-contributors: []
 date: '2005-11-24 03:51:36'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-23 22:51:36'
   Description:
     - html: false
-      text: " Inside of Franco\\'s Lakeview Athletic Club Childcare Center"
+      text: Inside of Franco\'s Lakeview Athletic Club Childcare Center
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 245
 item_type: Still Image

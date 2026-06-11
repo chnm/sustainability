@@ -3,7 +3,6 @@ aliases:
   - /items/show/2331
   - /items/show/2331.html
 collections: []
-contributors: []
 date: '2006-07-20 16:37:38'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-20 12:37:38'
   Description:
     - html: false
-      text: ' The weight Gym at the University of New Orleans before it was cleaned up by the 747th mp co out of MA.'
+      text: The weight Gym at the University of New Orleans before it was cleaned up by the 747th mp co out of MA.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.372875188117998
   lng: -90.2719116210938
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2331
 item_type: Still Image

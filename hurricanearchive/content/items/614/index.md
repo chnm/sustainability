@@ -3,7 +3,6 @@ aliases:
   - /items/show/614
   - /items/show/614.html
 collections: []
-contributors: []
 date: '2006-01-17 17:03:17'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 12:03:17'
   Description:
     - html: false
-      text: ' This was taken 8 days after Hurricane Rita. This building was used to sale shrimp and was located on Hwy. 69 beside the Lumberton on the Lake Apartments.'
+      text: This was taken 8 days after Hurricane Rita. This building was used to sale shrimp and was located on Hwy. 69 beside the Lumberton on the Lake Apartments.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.281836
   lng: -94.219122
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 614
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/36220
   - /items/show/36220.html
 collections: []
-contributors: []
 date: '2008-07-16 15:22:11'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 207 Bell Street
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 36220
 item_type: Still Image

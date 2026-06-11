@@ -3,7 +3,6 @@ aliases:
   - /items/show/2186
   - /items/show/2186.html
 collections: []
-contributors: []
 date: '2006-04-22 17:36:22'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 00:00:00'
   Description:
     - html: false
-      text: ' Getting ready for Hurricane Wilma in Arcadia, Florida'
+      text: Getting ready for Hurricane Wilma in Arcadia, Florida
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 27.18608
   lng: -81.86666
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2186
 item_type: Still Image

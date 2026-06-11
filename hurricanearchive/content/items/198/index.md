@@ -3,7 +3,6 @@ aliases:
   - /items/show/198
   - /items/show/198.html
 collections: []
-contributors: []
 date: '2005-11-19 00:29:35'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 19:29:35'
   Description:
     - html: false
-      text: ' A trophy shop near home on Airline Highway was completely destroyed.'
+      text: A trophy shop near home on Airline Highway was completely destroyed.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 198
 item_type: Still Image

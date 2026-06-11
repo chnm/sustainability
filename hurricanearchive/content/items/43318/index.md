@@ -3,13 +3,12 @@ aliases:
   - /items/show/43318
   - /items/show/43318.html
 collections: []
-contributors: []
 date: '2010-09-20 15:00:42'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: ' Looking along Brushfire Lane in Eden Isles, Slidell LA as the water began to recede.  Picture by my neighbor, Charlie Freidman.\r\n\r\n '
+      text: Looking along Brushfire Lane in Eden Isles, Slidell LA as the water began to recede.  Picture by my neighbor, Charlie Freidman.\r\n\r\n
   Language:
     - html: false
       text: eng
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 30.22807
   lng: -89.7981
+  map_type: ''
   zoom: 12
 id: 43318
 item_type: Still Image

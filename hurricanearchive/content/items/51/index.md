@@ -3,7 +3,6 @@ aliases:
   - /items/show/51
   - /items/show/51.html
 collections: []
-contributors: []
 date: '2005-11-16 21:28:00'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-16 16:28:00'
   Description:
     - html: false
-      text: ' The remains of a Lakeview home.'
+      text: The remains of a Lakeview home.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 51
 item_type: Still Image

@@ -4,13 +4,12 @@ aliases:
   - /items/show/26796.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-17 17:04:12'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Bruce Ciemniecki, of Franklin, TN, who helped to organize Katrina relief and drove supplies from Tennessee down to the Gulf Coast. '
+      text: Interview with Bruce Ciemniecki, of Franklin, TN, who helped to organize Katrina relief and drove supplies from Tennessee down to the Gulf Coast.
   Language:
     - html: false
       text: eng

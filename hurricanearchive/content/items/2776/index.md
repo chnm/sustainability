@@ -4,7 +4,6 @@ aliases:
   - /items/show/2776.html
 collections:
   - '21'
-contributors: []
 date: '2006-08-21 18:47:48'
 draft: false
 dublin_core:
@@ -19,13 +18,13 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: '&ldquo;the Mean Old Storm&rdquo; '
+      text: '&ldquo;the Mean Old Storm&rdquo;'
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a603d66d514fb2a603d6abc.jpg
     id: 2258
     mime: image/jpeg
-    original_filename: '&ldquo;the Mean Old Storm&rdquo; '
+    original_filename: '&ldquo;the Mean Old Storm&rdquo;'
     thumb: https://hurricanearchive.org/files/thumbnails/14fb2a603d66d514fb2a603d6abc.jpg
     url: https://hurricanearchive.org/files/original/14fb2a603d66d514fb2a603d6abc.jpg
 geo:
@@ -38,7 +37,7 @@ plugin_metadata: []
 related_items: []
 slug: '2776'
 tags: []
-title: '&ldquo;the Mean Old Storm&rdquo; '
+title: '&ldquo;the Mean Old Storm&rdquo;'
 type: items
 ---
 

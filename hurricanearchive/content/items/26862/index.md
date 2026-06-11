@@ -4,13 +4,12 @@ aliases:
   - /items/show/26862.html
 collections:
   - '68'
-contributors: []
 date: '2007-04-18 04:54:09'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'A Mardi Gras float being pulled by mules during the parade, New Orleans. \r\n\r\nThis image is from the archive of Ron Chapman,\r\nProfessor of History at Nunez Community College. Nunez\r\nCommunity College is located in Chalmette, in St.\r\nBernard Parish, Louisiana.  In 2005 it was heavily\r\ndamaged by flooding due to Hurricane Katrina.\r\n '
+      text: A Mardi Gras float being pulled by mules during the parade, New Orleans. \r\n\r\nThis image is from the archive of Ron Chapman,\r\nProfessor of History at Nunez Community College. Nunez\r\nCommunity College is located in Chalmette, in St.\r\nBernard Parish, Louisiana.  In 2005 it was heavily\r\ndamaged by flooding due to Hurricane Katrina.\r\n
   Language:
     - html: false
       text: eng
@@ -29,6 +28,7 @@ geo:
   address: ''
   lat: 29.91685
   lng: -90.08789
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26862
 item_type: Still Image

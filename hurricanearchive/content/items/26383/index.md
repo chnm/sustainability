@@ -4,7 +4,6 @@ aliases:
   - /items/show/26383.html
 collections:
   - '68'
-contributors: []
 date: '2007-03-29 00:03:29'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 3728 Palmisano Blvd., Chalmette, LA
   lat: 29.95094
   lng: -89.94581
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26383
 item_type: Still Image

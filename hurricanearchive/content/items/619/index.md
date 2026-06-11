@@ -3,7 +3,6 @@ aliases:
   - /items/show/619
   - /items/show/619.html
 collections: []
-contributors: []
 date: '2006-01-17 17:10:51'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 12:10:51'
   Description:
     - html: false
-      text: ' Evadale High School Gym. Week after hurricane.'
+      text: Evadale High School Gym. Week after hurricane.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.69986
   lng: -94.163
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 619
 item_type: Still Image

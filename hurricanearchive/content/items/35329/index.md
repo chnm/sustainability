@@ -4,7 +4,6 @@ aliases:
   - /items/show/35329.html
 collections:
   - '68'
-contributors: []
 date: '2008-05-27 00:00:04'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: Piety and Burgundy
   lat: 29.96482
   lng: -90.04226
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35329
 item_type: Still Image

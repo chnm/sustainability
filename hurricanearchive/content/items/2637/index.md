@@ -4,13 +4,12 @@ aliases:
   - /items/show/2637.html
 collections:
   - '20'
-contributors: []
 date: '2006-08-21 16:10:59'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Downed \"Stop\" sign, Holly Beach/Louisiana, December 2005 '
+      text: Downed \"Stop\" sign, Holly Beach/Louisiana, December 2005
   Language:
     - html: false
       text: eng

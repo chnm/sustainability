@@ -4,7 +4,6 @@ aliases:
   - /items/show/14536.html
 collections:
   - '93'
-contributors: []
 date: '2006-12-19 15:34:26'
 draft: false
 dublin_core:
@@ -33,7 +32,9 @@ related_items: []
 slug: '14536'
 tags:
   - justice system
-  - "katrina gideon interview\r\nproject"
+  - |-
+    katrina gideon interview
+    project
 title: Item 14536
 type: items
 ---

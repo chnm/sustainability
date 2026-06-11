@@ -3,13 +3,12 @@ aliases:
   - /items/show/38300
   - /items/show/38300.html
 collections: []
-contributors: []
 date: '2008-12-11 16:28:11'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'This is  a power point on the Andrew Higgins boats that were made in New Orleans. Higgins Industries is especially significant because their landing craft played an essential role in the D-Day invasion of Normandy. '
+      text: This is  a power point on the Andrew Higgins boats that were made in New Orleans. Higgins Industries is especially significant because their landing craft played an essential role in the D-Day invasion of Normandy.
   Language:
     - html: false
       text: eng
@@ -28,6 +27,7 @@ geo:
   address: 109 jasmine lane
   lat: 29.94532
   lng: -90.23947
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 38300
 item_type: Document

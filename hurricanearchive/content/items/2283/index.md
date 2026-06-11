@@ -3,7 +3,6 @@ aliases:
   - /items/show/2283
   - /items/show/2283.html
 collections: []
-contributors: []
 date: '2006-05-31 14:56:55'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-05-31 10:56:55'
   Description:
     - html: false
-      text: ' Transfering a patient from Kenner Regional Hospital to the airport 4 days after the storm, in the back of a pick-up truck.'
+      text: Transfering a patient from Kenner Regional Hospital to the airport 4 days after the storm, in the back of a pick-up truck.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.974936799407697
   lng: -90.18213272094731
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2283
 item_type: Still Image

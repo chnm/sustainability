@@ -3,7 +3,6 @@ aliases:
   - /items/show/626
   - /items/show/626.html
 collections: []
-contributors: []
 date: '2006-01-17 18:29:23'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 13:29:23'
   Description:
     - html: false
-      text: ' OUCH!  Redwood Apartments in Kenner, LA after Katrina.  Taken by Miguel Moreno a producer from TVE, Spain.'
+      text: OUCH!  Redwood Apartments in Kenner, LA after Katrina.  Taken by Miguel Moreno a producer from TVE, Spain.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342352
   lng: -90.685853
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 626
 item_type: Still Image

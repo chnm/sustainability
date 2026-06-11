@@ -4,13 +4,12 @@ aliases:
   - /items/show/26799.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-17 17:04:12'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with David Shinn, member of the Tennessee National Guard who was deployed to Naval Air Station New Orleans to help with the recovery efforts. '
+      text: Interview with David Shinn, member of the Tennessee National Guard who was deployed to Naval Air Station New Orleans to help with the recovery efforts.
   Language:
     - html: false
       text: eng

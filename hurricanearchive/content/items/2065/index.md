@@ -3,7 +3,6 @@ aliases:
   - /items/show/2065
   - /items/show/2065.html
 collections: []
-contributors: []
 date: '2006-04-06 21:04:45'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-06 17:04:45'
   Description:
     - html: false
-      text: ' While in Cancun, Mexico on our honeymoon, Hurricane Wilma came and churned over us for 32 hours, while moving a whopping 3 miles an hour.  There was no FEMA that ever came, no national guard to save us from the intense looting - just the people that lived and worked in the city.'
+      text: While in Cancun, Mexico on our honeymoon, Hurricane Wilma came and churned over us for 32 hours, while moving a whopping 3 miles an hour.  There was no FEMA that ever came, no national guard to save us from the intense looting - just the people that lived and worked in the city.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2065
 item_type: Still Image

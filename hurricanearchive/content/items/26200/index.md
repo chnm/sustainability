@@ -4,7 +4,6 @@ aliases:
   - /items/show/26200.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-21 20:37:40'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: louisville, ky
   lat: 38.25417
   lng: -85.75944
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26200
 item_type: Document

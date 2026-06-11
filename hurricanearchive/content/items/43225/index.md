@@ -3,7 +3,6 @@ aliases:
   - /items/show/43225
   - /items/show/43225.html
 collections: []
-contributors: []
 date: '2010-09-07 21:05:47'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 2045 south glencove lane
   lat: 29.89063
   lng: -90.02873
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43225
 item_type: Document

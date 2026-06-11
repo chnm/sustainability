@@ -3,7 +3,6 @@ aliases:
   - /items/show/40569
   - /items/show/40569.html
 collections: []
-contributors: []
 date: '2009-07-21 13:11:18'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 35442 Hwy 11
   lat: 29.3581
   lng: -89.53131
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40569
 item_type: Document

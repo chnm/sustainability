@@ -3,7 +3,6 @@ aliases:
   - /items/show/2169
   - /items/show/2169.html
 collections: []
-contributors: []
 date: '2006-04-22 13:35:53'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 09:35:53'
   Description:
     - html: false
-      text: " My hero\\'s from Arcadia, Florida unloading much needed medical supplies such as insulin, tetnus and syringe\\'s to the American Red Cross Hurricane Katrina shelter in Citronelle, Alabama. Arcadia, Florida got bulldozed on August 13, 2004 by Hurricane Charley."
+      text: My hero\'s from Arcadia, Florida unloading much needed medical supplies such as insulin, tetnus and syringe\'s to the American Red Cross Hurricane Katrina shelter in Citronelle, Alabama. Arcadia, Florida got bulldozed on August 13, 2004 by Hurricane Charley.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.1046852937585
   lng: -88.26141357421879
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2169
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/412
   - /items/show/412.html
 collections: []
-contributors: []
 date: '2005-12-26 18:49:09'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 13:49:09'
   Description:
     - html: false
-      text: ' Personal items are some of what remain at a house in Pass Christian.'
+      text: Personal items are some of what remain at a house in Pass Christian.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.337324394179
   lng: -89.2117309570312
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 412
 item_type: Still Image

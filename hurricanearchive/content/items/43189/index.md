@@ -3,7 +3,6 @@ aliases:
   - /items/show/43189
   - /items/show/43189.html
 collections: []
-contributors: []
 date: '2010-09-06 04:33:20'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 2020 Lowerlline St.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43189
 item_type: Still Image

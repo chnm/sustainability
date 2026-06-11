@@ -3,7 +3,6 @@ aliases:
   - /items/show/1882
   - /items/show/1882.html
 collections: []
-contributors: []
 date: '2006-03-06 13:17:58'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 08:17:58'
   Description:
     - html: false
-      text: ' This me standing on a 150 year old oak tree that fell during Hurrican Katrina.  I think this was one of the things that bother me the most about the storm.  Homes can be rebuilt, but the lose of Trees on the Northshore will never be replaced in our life time.'
+      text: This me standing on a 150 year old oak tree that fell during Hurrican Katrina.  I think this was one of the things that bother me the most about the storm.  Homes can be rebuilt, but the lose of Trees on the Northshore will never be replaced in our life time.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 51.027576337802394
   lng: -61.77612304687501
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1882
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/1736
   - /items/show/1736.html
 collections: []
-contributors: []
 date: '2006-01-30 20:40:22'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-30 15:40:22'
   Description:
     - html: false
-      text: ' Newton High School - way up in Newton, Texas'
+      text: Newton High School - way up in Newton, Texas
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.148461
   lng: -94.172481
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1736
 item_type: Still Image

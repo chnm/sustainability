@@ -3,7 +3,6 @@ aliases:
   - /items/show/25976
   - /items/show/25976.html
 collections: []
-contributors: []
 date: '2007-03-09 03:45:55'
 draft: false
 dublin_core:
@@ -18,7 +17,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: ' Katrina Ground Zero - 10 months later - Progress is in the eye of the beholder '
+      text: Katrina Ground Zero - 10 months later - Progress is in the eye of the beholder
 featured: false
 files: []
 geo:
@@ -31,7 +30,7 @@ plugin_metadata: []
 related_items: []
 slug: '25976'
 tags: []
-title: ' Katrina Ground Zero - 10 months later - Progress is in the eye of the beholder '
+title: Katrina Ground Zero - 10 months later - Progress is in the eye of the beholder
 type: items
 ---
 

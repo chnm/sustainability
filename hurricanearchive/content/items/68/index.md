@@ -3,7 +3,6 @@ aliases:
   - /items/show/68
   - /items/show/68.html
 collections: []
-contributors: []
 date: '2005-11-17 05:41:12'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 00:41:12'
   Description:
     - html: false
-      text: ' The remnants of the Bay Bridge looking from Bay St. Louis, MS towards Pass Christian, MS.'
+      text: The remnants of the Bay Bridge looking from Bay St. Louis, MS towards Pass Christian, MS.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 68
 item_type: Still Image

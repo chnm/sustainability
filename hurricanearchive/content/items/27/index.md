@@ -3,7 +3,6 @@ aliases:
   - /items/show/27
   - /items/show/27.html
 collections: []
-contributors: []
 date: '2005-11-16 03:18:55'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-15 22:18:55'
   Description:
     - html: false
-      text: ' This is where the levee breached.'
+      text: This is where the levee breached.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 27
 item_type: Still Image

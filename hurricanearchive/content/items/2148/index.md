@@ -3,7 +3,6 @@ aliases:
   - /items/show/2148
   - /items/show/2148.html
 collections: []
-contributors: []
 date: '2006-04-14 01:36:52'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-13 21:36:52'
   Description:
     - html: false
-      text: " This was Van Choate\\'s Cajun Eatery.  Thanks alot Rita!"
+      text: This was Van Choate\'s Cajun Eatery.  Thanks alot Rita!
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.135425
   lng: -93.860282
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2148
 item_type: Still Image

@@ -4,13 +4,12 @@ aliases:
   - /items/show/3432.html
 collections:
   - '51'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'OLYMPUS DIGITAL CAMERA         '
+      text: OLYMPUS DIGITAL CAMERA
   Language:
     - html: false
       text: eng

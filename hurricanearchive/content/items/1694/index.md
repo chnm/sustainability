@@ -4,7 +4,6 @@ aliases:
   - /items/show/1694.html
 collections:
   - '11'
-contributors: []
 date: '2006-01-27 17:23:44'
 draft: false
 dublin_core:
@@ -29,6 +28,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps v3.x
   zoom: 12
 id: 1694
 item_type: Moving Image

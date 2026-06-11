@@ -3,7 +3,6 @@ aliases:
   - /items/show/1838
   - /items/show/1838.html
 collections: []
-contributors: []
 date: '2006-02-12 15:37:04'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-12 10:37:04'
   Description:
     - html: false
-      text: ' Pointe aux Chene Elem School after Rita'
+      text: Pointe aux Chene Elem School after Rita
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.456248
   lng: -90.524964
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1838
 item_type: Still Image

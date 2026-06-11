@@ -3,7 +3,6 @@ aliases:
   - /items/show/494
   - /items/show/494.html
 collections: []
-contributors: []
 date: '2005-12-29 02:25:49'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 21:25:49'
   Description:
     - html: false
-      text: ' Destiny Oaks, a new housing developement along the gulf in Long Beach.'
+      text: Destiny Oaks, a new housing developement along the gulf in Long Beach.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.938343
   lng: -90.100773
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 494
 item_type: Still Image

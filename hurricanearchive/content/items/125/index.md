@@ -3,7 +3,6 @@ aliases:
   - /items/show/125
   - /items/show/125.html
 collections: []
-contributors: []
 date: '2005-11-17 22:55:20'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:55:20'
   Description:
     - html: false
-      text: ' Martial law tried to keep the peace.'
+      text: Martial law tried to keep the peace.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.916852233070202
   lng: -90.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 125
 item_type: Still Image

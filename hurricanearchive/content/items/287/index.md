@@ -3,7 +3,6 @@ aliases:
   - /items/show/287
   - /items/show/287.html
 collections: []
-contributors: []
 date: '2005-11-30 13:52:47'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-30 08:52:47'
   Description:
     - html: false
-      text: ' At Bent Tree Village apartment complex, Port Arthur, more than half of the buildings sustained damage and were unihabitable. This is a line of \"dead fridges\" removed from apartments after nearly 3 weeks without power. Between the garbage piling up and the rotting food, the stench was overwhelming.\r\n\r\nTaken on 10/10/05'
+      text: At Bent Tree Village apartment complex, Port Arthur, more than half of the buildings sustained damage and were unihabitable. This is a line of \"dead fridges\" removed from apartments after nearly 3 weeks without power. Between the garbage piling up and the rotting food, the stench was overwhelming.\r\n\r\nTaken on 10/10/05
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9493569965946
   lng: -93.96627902984619
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 287
 item_type: Still Image

@@ -4,13 +4,12 @@ aliases:
   - /items/show/3587.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Drywall boards much be removed before the rebuilding process can begin.       '
+      text: Drywall boards much be removed before the rebuilding process can begin.
   Language:
     - html: false
       text: eng

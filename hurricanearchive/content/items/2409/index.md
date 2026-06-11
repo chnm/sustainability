@@ -4,7 +4,6 @@ aliases:
   - /items/show/2409.html
 collections:
   - '16'
-contributors: []
 date: '2006-08-17 17:11:00'
 draft: false
 dublin_core:
@@ -13,13 +12,13 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: ' MOBILE, Ala. (Sept. 4, 2005) - Coast Guard Petty Officer 1st Class Craig A. Miller, 40, of Ocean City, N.J., signs an ax today at the Coast Guard Aviation Training Center here. Coast Guard aircrews from around the country are flying to Mobile in responseto Hurricane Katrina. The aircrews signed the ax as a symbol of the unorthodox methods they have used to rescue hurricane victims and will display the ax at the Coast Guard Aviation Training Center in memory of those they rescued. USCG photo by NyxoLyno Cangemi. \r\n050903-C-3721C-014 '
+      text: MOBILE, Ala. (Sept. 4, 2005) - Coast Guard Petty Officer 1st Class Craig A. Miller, 40, of Ocean City, N.J., signs an ax today at the Coast Guard Aviation Training Center here. Coast Guard aircrews from around the country are flying to Mobile in responseto Hurricane Katrina. The aircrews signed the ax as a symbol of the unorthodox methods they have used to rescue hurricane victims and will display the ax at the Coast Guard Aviation Training Center in memory of those they rescued. USCG photo by NyxoLyno Cangemi. \r\n050903-C-3721C-014
   Language:
     - html: false
       text: eng
   Publisher:
     - html: false
-      text: 'US COAST GUARD '
+      text: US COAST GUARD
   Title:
     - html: false
       text: Remembering the Rescued

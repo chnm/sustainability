@@ -3,7 +3,6 @@ aliases:
   - /items/show/620
   - /items/show/620.html
 collections: []
-contributors: []
 date: '2006-01-17 17:12:39'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 12:12:39'
   Description:
     - html: false
-      text: " Resturant in Lumberton, Texas that had a tree on top of it\\'s roof. This resturant is located on Hwy 96. This picture was taken a week after the hurricane. As of 1/17/06 this resturant is still not open."
+      text: Resturant in Lumberton, Texas that had a tree on top of it\'s roof. This resturant is located on Hwy 96. This picture was taken a week after the hurricane. As of 1/17/06 this resturant is still not open.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.281836
   lng: -94.219122
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 620
 item_type: Still Image

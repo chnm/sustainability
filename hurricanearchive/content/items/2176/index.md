@@ -3,7 +3,6 @@ aliases:
   - /items/show/2176
   - /items/show/2176.html
 collections: []
-contributors: []
 date: '2006-04-22 17:09:59'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 13:09:59'
   Description:
     - html: false
-      text: ' Unloading supplies at American Red Cross Shelter in Citronelle, Alabama.'
+      text: Unloading supplies at American Red Cross Shelter in Citronelle, Alabama.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.1046852937585
   lng: -88.22296142578121
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2176
 item_type: Still Image

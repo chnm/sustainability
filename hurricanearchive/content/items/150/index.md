@@ -3,7 +3,6 @@ aliases:
   - /items/show/150
   - /items/show/150.html
 collections: []
-contributors: []
 date: '2005-11-18 07:02:46'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 02:02:46'
   Description:
     - html: false
-      text: ' A big pile of trash near the New Orleans lake front by west end.'
+      text: A big pile of trash near the New Orleans lake front by west end.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.030902
   lng: -90.068022
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 150
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/35635
   - /items/show/35635.html
 collections: []
-contributors: []
 date: '2008-06-10 20:56:22'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 8549 Squadron Dr.
   lat: 29.96124
   lng: -89.97023000000002
+  map_type: Google Maps v3.x
   zoom: 12
 id: 35635
 item_type: Document

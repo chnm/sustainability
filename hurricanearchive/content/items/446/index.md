@@ -3,7 +3,6 @@ aliases:
   - /items/show/446
   - /items/show/446.html
 collections: []
-contributors: []
 date: '2005-12-27 15:43:31'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 10:43:31'
   Description:
     - html: false
-      text: ' A new house in Waveland is destroyed by the winds.'
+      text: A new house in Waveland is destroyed by the winds.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.3396948489742
   lng: -89.37103271484379
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 446
 item_type: Still Image

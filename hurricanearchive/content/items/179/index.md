@@ -3,7 +3,6 @@ aliases:
   - /items/show/179
   - /items/show/179.html
 collections: []
-contributors: []
 date: '2005-11-18 18:30:22'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 13:30:22'
   Description:
     - html: false
-      text: ' Chinook helicopter picking up sandbags to fill one of the levee breaks in New Orleans, 9/13/05'
+      text: Chinook helicopter picking up sandbags to fill one of the levee breaks in New Orleans, 9/13/05
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.035216603131698
   lng: -90.04918098449711
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 179
 item_type: Still Image

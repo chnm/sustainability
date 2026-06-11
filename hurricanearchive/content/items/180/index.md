@@ -3,7 +3,6 @@ aliases:
   - /items/show/180
   - /items/show/180.html
 collections: []
-contributors: []
 date: '2005-11-18 18:32:32'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 13:32:32'
   Description:
     - html: false
-      text: ' Evidence of the Murphy oil spill in Chalmette, LA\r\nTaken on 9/13/05'
+      text: Evidence of the Murphy oil spill in Chalmette, LA\r\nTaken on 9/13/05
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.945935942595003
   lng: -89.97056007385248
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 180
 item_type: Still Image

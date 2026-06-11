@@ -3,7 +3,6 @@ aliases:
   - /items/show/43150
   - /items/show/43150.html
 collections: []
-contributors: []
 date: '2010-09-01 03:32:04'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 9904 Paula Dr
   lat: 29.96355
   lng: -90.21483
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43150
 item_type: Document

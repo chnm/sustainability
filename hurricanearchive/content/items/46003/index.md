@@ -3,13 +3,15 @@ aliases:
   - /items/show/46003
   - /items/show/46003.html
 collections: []
-contributors: []
 date: '2014-01-27 23:52:35'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "I lived in Lakeview when Katrina devastated New Olreans. My Father and I taveled by boat to our house that was still under 6 feet of water. I had to kick out a window to enter my house because the doors were swollen with water. \r\n\r\nWhen entering my home I realized everything was destroyed with no hope of rescuing anything. The rooms looked like all my stuff was put into a blender with black mud and thrown around the house. I will never forget the burning smell of the toxic flood water that filled my home."
+      text: |-
+        I lived in Lakeview when Katrina devastated New Olreans. My Father and I taveled by boat to our house that was still under 6 feet of water. I had to kick out a window to enter my house because the doors were swollen with water.
+
+        When entering my home I realized everything was destroyed with no hope of rescuing anything. The rooms looked like all my stuff was put into a blender with black mud and thrown around the house. I will never forget the burning smell of the toxic flood water that filled my home.
   Title:
     - html: false
       text: Lakeview
@@ -25,6 +27,7 @@ geo:
   address: 400 tacoma street  New orleans, louisiana
   lat: 30.0101311
   lng: -90.1198301
+  map_type: Google Maps v3.x
   zoom: 10
 id: 46003
 item_type: Still Image

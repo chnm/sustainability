@@ -4,7 +4,6 @@ aliases:
   - /items/show/32042.html
 collections:
   - '68'
-contributors: []
 date: '2007-09-02 17:13:10'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 2920 Green Acres Rd
   lat: 30.00227
   lng: -90.1996
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 32042
 item_type: Still Image

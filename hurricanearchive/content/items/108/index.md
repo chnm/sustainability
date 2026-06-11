@@ -3,7 +3,6 @@ aliases:
   - /items/show/108
   - /items/show/108.html
 collections: []
-contributors: []
 date: '2005-11-17 22:35:36'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:35:36'
   Description:
     - html: false
-      text: ' Martial law was declared after the storm.'
+      text: Martial law was declared after the storm.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.916852233070202
   lng: -90.087890625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 108
 item_type: Still Image

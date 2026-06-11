@@ -3,7 +3,6 @@ aliases:
   - /items/show/1846
   - /items/show/1846.html
 collections: []
-contributors: []
 date: '2006-02-14 00:57:34'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-13 19:57:34'
   Description:
     - html: false
-      text: " Johnson\\'s Bayou, LA  school remains closed as of February 12, 2006 from damage from Hurricane Rita. The few returning students attend school in other parts of Cameron Parish."
+      text: Johnson\'s Bayou, LA  school remains closed as of February 12, 2006 from damage from Hurricane Rita. The few returning students attend school in other parts of Cameron Parish.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.765569486667
   lng: -93.72161865234379
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1846
 item_type: Still Image

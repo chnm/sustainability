@@ -3,7 +3,6 @@ aliases:
   - /items/show/426
   - /items/show/426.html
 collections: []
-contributors: []
 date: '2005-12-26 20:10:20'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 15:10:20'
   Description:
     - html: false
-      text: " A mud-caked ground is what\\'s left after the flood waters recede."
+      text: A mud-caked ground is what\'s left after the flood waters recede.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 426
 item_type: Still Image

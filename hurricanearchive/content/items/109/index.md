@@ -3,7 +3,6 @@ aliases:
   - /items/show/109
   - /items/show/109.html
 collections: []
-contributors: []
 date: '2005-11-17 22:37:31'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:37:31'
   Description:
     - html: false
-      text: ' Flooding at the Industrial Canal in New Orleans East and St. Bernard.'
+      text: Flooding at the Industrial Canal in New Orleans East and St. Bernard.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9805129170606
   lng: -90.02197265625001
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 109
 item_type: Still Image

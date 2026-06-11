@@ -14,10 +14,15 @@ this directory a precise record of what each conversion changed.
 - **conversion-manifest.json** — every output path the converter wrote, each
   with its SHA-256, plus per-phase counts, the missing-asset total, and
   ``missing_assets_by_parent`` (that total bucketed by the parent dir of each
-  miss, e.g. ``files/original`` vs ``files/thumbnails``). Use it to see what
-  changed between runs and as a CI summary. (The manifest and the
-  missing-assets log are written directly and are not themselves listed inside
-  the manifest, to avoid self-reference.)
+  miss, e.g. ``files/original`` vs ``files/thumbnails``). It also carries a
+  ``skipped`` block: records that were deliberately *not* emitted because they
+  aren't public-facing — non-public items/collections and unpublished simple
+  pages — each as ``{reason, count, ascending ids}``, so a diff shows exactly
+  which records were newly hidden or revealed. Only record types whose emit
+  phase actually ran appear there. Use the manifest to see what changed between
+  runs and as a CI summary. (The manifest and the missing-assets log are
+  written directly and are not themselves listed inside the manifest, to avoid
+  self-reference.)
 - **missing-assets.log** — tab-separated list of binary files (images, PDFs,
   audio) that the content references but that were absent from the wget mirror at
   conversion time. Columns: `<absolute-url>\t<referencing-item-id>\t`

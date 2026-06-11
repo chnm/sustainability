@@ -3,7 +3,6 @@ aliases:
   - /items/show/4230
   - /items/show/4230.html
 collections: []
-contributors: []
 date: '2006-08-27 14:49:33'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1108 North Starrett Road
   lat: 29.98891
   lng: -90.2245
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 4230
 item_type: Document

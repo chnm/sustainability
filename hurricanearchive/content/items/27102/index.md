@@ -4,7 +4,6 @@ aliases:
   - /items/show/27102.html
 collections:
   - '160'
-contributors: []
 date: '2007-04-30 22:48:39'
 draft: false
 dublin_core:
@@ -29,6 +28,7 @@ geo:
   address: 246 Manassas Street
   lat: 29.96232
   lng: -90.08893
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 27102
 item_type: Document

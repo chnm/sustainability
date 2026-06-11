@@ -3,7 +3,6 @@ aliases:
   - /items/show/37918
   - /items/show/37918.html
 collections: []
-contributors: []
 date: '2008-11-05 01:44:31'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: 904 w william david
   lat: 30.00877
   lng: -90.13402
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37918
 item_type: Document

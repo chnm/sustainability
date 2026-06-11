@@ -3,7 +3,6 @@ aliases:
   - /items/show/664
   - /items/show/664.html
 collections: []
-contributors: []
 date: '2006-01-24 01:28:54'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-23 20:28:54'
   Description:
     - html: false
-      text: ' Strange horizontal pattern of burn damage.  Must have burned to the flood water level.  S.Gayoso and Earhart in N.O.'
+      text: Strange horizontal pattern of burn damage.  Must have burned to the flood water level.  S.Gayoso and Earhart in N.O.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 664
 item_type: Still Image

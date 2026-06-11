@@ -3,13 +3,12 @@ aliases:
   - /items/show/12555
   - /items/show/12555.html
 collections: []
-contributors: []
 date: '2006-11-08 21:42:10'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "The man in the wheel chair I call Lucky inspired me more than words can described.  He reminded me so much of my late grandfather.  Sharing his story with me encouraged me to complete my documentary about hurricane Katrina.  To this day, I continue to advocate on the survivors\\' behalf.  I don\\'t know where this gentleman is but I hope to one day be reunited so I can tell him how much he inspired me and my work.  Thank you Lucky.  "
+      text: The man in the wheel chair I call Lucky inspired me more than words can described.  He reminded me so much of my late grandfather.  Sharing his story with me encouraged me to complete my documentary about hurricane Katrina.  To this day, I continue to advocate on the survivors\' behalf.  I don\'t know where this gentleman is but I hope to one day be reunited so I can tell him how much he inspired me and my work.  Thank you Lucky.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12555
 item_type: Still Image

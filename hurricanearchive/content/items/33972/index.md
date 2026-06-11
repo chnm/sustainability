@@ -3,7 +3,6 @@ aliases:
   - /items/show/33972
   - /items/show/33972.html
 collections: []
-contributors: []
 date: '2008-03-05 14:28:15'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 2119 Royal Street
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33972
 item_type: Document

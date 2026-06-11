@@ -3,7 +3,6 @@ aliases:
   - /items/show/2187
   - /items/show/2187.html
 collections: []
-contributors: []
 date: '2006-04-22 17:38:53'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 00:00:00'
   Description:
     - html: false
-      text: ' Happy to be alive.'
+      text: Happy to be alive.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.11879
   lng: -88.24493
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2187
 item_type: Still Image

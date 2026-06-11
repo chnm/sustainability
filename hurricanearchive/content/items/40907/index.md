@@ -3,7 +3,6 @@ aliases:
   - /items/show/40907
   - /items/show/40907.html
 collections: []
-contributors: []
 date: '2009-09-02 20:18:40'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: bud polk rd
   lat: 30.43269
   lng: -89.79832
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40907
 item_type: Still Image

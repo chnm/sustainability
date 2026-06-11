@@ -3,7 +3,6 @@ aliases:
   - /items/show/2318
   - /items/show/2318.html
 collections: []
-contributors: []
 date: '2006-07-06 20:05:17'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: ''
   lat: 29.7833284052572
   lng: -90.0245046615601
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2318
 item_type: Document

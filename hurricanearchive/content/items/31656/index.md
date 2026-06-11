@@ -3,7 +3,6 @@ aliases:
   - /items/show/31656
   - /items/show/31656.html
 collections: []
-contributors: []
 date: '2007-08-23 05:02:04'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 2409 Taffy Dr.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 31656
 item_type: Document

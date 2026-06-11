@@ -3,7 +3,6 @@ aliases:
   - /items/show/501
   - /items/show/501.html
 collections: []
-contributors: []
 date: '2005-12-30 05:30:35'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-30 00:30:35'
   Description:
     - html: false
-      text: ' Collapsed house in Iberville St. in the Mid-City section of New Orleans.'
+      text: Collapsed house in Iberville St. in the Mid-City section of New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9765724930298
   lng: -90.1014947891235
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 501
 item_type: Still Image

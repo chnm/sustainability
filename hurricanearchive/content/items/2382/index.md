@@ -4,7 +4,6 @@ aliases:
   - /items/show/2382.html
 collections:
   - '14'
-contributors: []
 date: '2006-08-17 17:10:49'
 draft: false
 dublin_core:
@@ -13,13 +12,13 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: " HOUSTON, Tex. (Sept. 23, 2005)--Coast Guard Petty Officer Keivar MacDonald of Sector Ohio Valley in Louisville, KY assists a Coast Guard Disaster Area Relief (DART) in navigating traffic in Huntsville, Texas. The team, which consists of 15 small boats and Coast Guard members from 39 separate units around the country, have have been based in New Orleans as first responders and are now staged in Houston, Texas to perform search and rescue operations in response to Hurricane Rita. USCG photo by PA3 Mariana O\\'Leary \\r\\n"
+      text: HOUSTON, Tex. (Sept. 23, 2005)--Coast Guard Petty Officer Keivar MacDonald of Sector Ohio Valley in Louisville, KY assists a Coast Guard Disaster Area Relief (DART) in navigating traffic in Huntsville, Texas. The team, which consists of 15 small boats and Coast Guard members from 39 separate units around the country, have have been based in New Orleans as first responders and are now staged in Houston, Texas to perform search and rescue operations in response to Hurricane Rita. USCG photo by PA3 Mariana O\'Leary \r\n
   Language:
     - html: false
       text: eng
   Publisher:
     - html: false
-      text: 'U.S. COAST GUARD '
+      text: U.S. COAST GUARD
   Title:
     - html: false
       text: USCG Assists with Evacuation Traffic

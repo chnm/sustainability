@@ -4,7 +4,6 @@ aliases:
   - /items/show/2379.html
 collections:
   - '14'
-contributors: []
 date: '2006-08-17 17:10:48'
 draft: false
 dublin_core:
@@ -19,7 +18,7 @@ dublin_core:
       text: eng
   Publisher:
     - html: false
-      text: 'DIGITAL '
+      text: DIGITAL
   Title:
     - html: false
       text: Disaster Response Team Heads to Cameron, LA

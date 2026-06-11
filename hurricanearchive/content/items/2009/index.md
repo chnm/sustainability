@@ -3,7 +3,6 @@ aliases:
   - /items/show/2009
   - /items/show/2009.html
 collections: []
-contributors: []
 date: '2006-03-11 17:57:49'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-11 12:57:49'
   Description:
     - html: false
-      text: ' see http://algierspoint.us\r\n(links to historic audio files from mayor Nagin, articles by Ann Rice and bloggers focused on Katrina and the Algiers Point)'
+      text: see http://algierspoint.us\r\n(links to historic audio files from mayor Nagin, articles by Ann Rice and bloggers focused on Katrina and the Algiers Point)
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.951885526084002
   lng: -90.05167007446289
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2009
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/385
   - /items/show/385.html
 collections: []
-contributors: []
 date: '2005-12-22 13:01:07'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-22 08:01:07'
   Description:
     - html: false
-      text: ' This is an interview I did with my best friend Brent Stumbo. Brent lost everything in Hurricane Katrina. In this interview he discusses his losses, struggles, and hopes.'
+      text: This is an interview I did with my best friend Brent Stumbo. Brent lost everything in Hurricane Katrina. In this interview he discusses his losses, struggles, and hopes.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 385
 item_type: Document

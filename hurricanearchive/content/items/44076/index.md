@@ -3,13 +3,12 @@ aliases:
   - /items/show/44076
   - /items/show/44076.html
 collections: []
-contributors: []
 date: '2011-02-18 05:06:35'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "This is a picture of my parent\\'s automotive shop. It is located on N. Causeway Blvd. During Katrina, the large garage doors were blown down by the wind and became curtains beating against cars for hours on end. It scratched the paint off of hoods and shattered windshields. Also, this became a major problem with looters who could easily walk in and steal thousands of dollars of tools and equipment. We were able to get a pass to come back in a few days after the stop to seal the shop securely. The Jefferson police Dept. located around the corner was kind enough to set up a watch for us until we could get back. "
+      text: This is a picture of my parent\'s automotive shop. It is located on N. Causeway Blvd. During Katrina, the large garage doors were blown down by the wind and became curtains beating against cars for hours on end. It scratched the paint off of hoods and shattered windshields. Also, this became a major problem with looters who could easily walk in and steal thousands of dollars of tools and equipment. We were able to get a pass to come back in a few days after the stop to seal the shop securely. The Jefferson police Dept. located around the corner was kind enough to set up a watch for us until we could get back.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: 91 Oaklawn Drive
   lat: 29.98389
   lng: -90.1694
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 44076
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/1834
   - /items/show/1834.html
 collections: []
-contributors: []
 date: '2006-02-12 07:49:00'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-12 02:49:00'
   Description:
     - html: false
-      text: ' August 31, 2005 Trapped by the flood. Simon and Ian'
+      text: August 31, 2005 Trapped by the flood. Simon and Ian
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9809961658498
   lng: -90.10241746902472
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1834
 item_type: Still Image

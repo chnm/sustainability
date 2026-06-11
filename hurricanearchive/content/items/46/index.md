@@ -3,7 +3,6 @@ aliases:
   - /items/show/46
   - /items/show/46.html
 collections: []
-contributors: []
 date: '2005-11-16 18:32:21'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-16 13:32:21'
   Description:
     - html: false
-      text: ' This is an essay I wrote describing my experiences in Slidell before, and after Hurricane Katrina struck.'
+      text: This is an essay I wrote describing my experiences in Slidell before, and after Hurricane Katrina struck.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.446993
   lng: -89.976592
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 46
 item_type: Document

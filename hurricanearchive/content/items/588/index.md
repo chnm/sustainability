@@ -3,7 +3,6 @@ aliases:
   - /items/show/588
   - /items/show/588.html
 collections: []
-contributors: []
 date: '2006-01-13 22:44:30'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:44:30'
   Description:
     - html: false
-      text: ' The Pass Christian library trailer is well-marked.  Good luck finding the City Hall trailer!'
+      text: The Pass Christian library trailer is well-marked.  Good luck finding the City Hall trailer!
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 588
 item_type: Still Image

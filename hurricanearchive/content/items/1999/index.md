@@ -3,7 +3,6 @@ aliases:
   - /items/show/1999
   - /items/show/1999.html
 collections: []
-contributors: []
 date: '2006-03-11 05:07:19'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-11 00:07:19'
   Description:
     - html: false
-      text: ' Lower Ninth Ward'
+      text: Lower Ninth Ward
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1999
 item_type: Still Image

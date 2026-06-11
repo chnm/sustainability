@@ -3,7 +3,6 @@ aliases:
   - /items/show/277
   - /items/show/277.html
 collections: []
-contributors: []
 date: '2005-11-26 18:34:53'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-26 13:34:53'
   Description:
     - html: false
-      text: ' Barnes & Noble of Metairie 1 week after Katrina. Our roof caved in and we have to rebuild the store from the ground up.'
+      text: Barnes & Noble of Metairie 1 week after Katrina. Our roof caved in and we have to rebuild the store from the ground up.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0046724756269
   lng: -90.16603946685791
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 277
 item_type: Still Image

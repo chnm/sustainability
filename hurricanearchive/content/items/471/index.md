@@ -3,7 +3,6 @@ aliases:
   - /items/show/471
   - /items/show/471.html
 collections: []
-contributors: []
 date: '2005-12-27 20:27:13'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 15:27:13'
   Description:
     - html: false
-      text: ' Belongings are put on the street because of flooding.'
+      text: Belongings are put on the street because of flooding.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.916852233070202
   lng: -89.95605468750001
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 471
 item_type: Still Image

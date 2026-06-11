@@ -3,7 +3,6 @@ aliases:
   - /items/show/139
   - /items/show/139.html
 collections: []
-contributors: []
 date: '2005-11-17 23:30:53'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 18:30:53'
   Description:
     - html: false
-      text: ' Garden District homes were set ablaze.'
+      text: Garden District homes were set ablaze.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9207206332959
   lng: -90.1084899902344
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 139
 item_type: Still Image

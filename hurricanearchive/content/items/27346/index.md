@@ -3,13 +3,12 @@ aliases:
   - /items/show/27346
   - /items/show/27346.html
 collections: []
-contributors: []
 date: '2007-05-08 16:24:44'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'The traffic was simply stunning.  If you look carefully,  you can see that the traffic is all flowing north (even in the southbound lanes). It took the police and TxDOT a long time to figure out how to put northbound traffic onto the southbound side of the freeway.  '
+      text: The traffic was simply stunning.  If you look carefully,  you can see that the traffic is all flowing north (even in the southbound lanes). It took the police and TxDOT a long time to figure out how to put northbound traffic onto the southbound side of the freeway.
   Rights:
     - html: false
       text: Attribution-NonCommercial License (http://creativecommons.org/licenses/by-nc/2.0/)
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 30.07522
   lng: -95.43694
+  map_type: Yahoo Maps API
   zoom: 12
 id: 27346
 item_type: Still Image

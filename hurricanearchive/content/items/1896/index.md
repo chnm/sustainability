@@ -3,7 +3,6 @@ aliases:
   - /items/show/1896
   - /items/show/1896.html
 collections: []
-contributors: []
 date: '2006-03-06 22:23:44'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 17:23:44'
   Description:
     - html: false
-      text: " This is my daughter\\'s house before Katrina, home pretty much intact after Katrina except for one LITTLE problem, someone had kicked the door in and looted her belongings.  She did not want to return to New Orleans after that, she felt so insecure after that but eventually she returned to New Orleans to contribute to the rebuilding."
+      text: This is my daughter\'s house before Katrina, home pretty much intact after Katrina except for one LITTLE problem, someone had kicked the door in and looted her belongings.  She did not want to return to New Orleans after that, she felt so insecure after that but eventually she returned to New Orleans to contribute to the rebuilding.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1896
 item_type: Still Image

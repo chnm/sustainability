@@ -4,13 +4,12 @@ aliases:
   - /items/show/15502.html
 collections:
   - '68'
-contributors: []
 date: '2007-02-01 15:49:54'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: '15th anniversary of Vincent Morales & Isabelle McCormick, 1985. '
+      text: 15th anniversary of Vincent Morales & Isabelle McCormick, 1985.
   Language:
     - html: false
       text: eng

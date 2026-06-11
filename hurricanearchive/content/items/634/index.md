@@ -3,7 +3,6 @@ aliases:
   - /items/show/634
   - /items/show/634.html
 collections: []
-contributors: []
 date: '2006-01-18 01:20:45'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 20:20:45'
   Description:
     - html: false
-      text: ' The Katrina evacuation from the Superdome to Metairie, LA.  Taken by Miguel Moreno TVE, newscaster from Spain.'
+      text: The Katrina evacuation from the Superdome to Metairie, LA.  Taken by Miguel Moreno TVE, newscaster from Spain.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342352
   lng: -90.685853
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 634
 item_type: Still Image

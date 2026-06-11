@@ -3,7 +3,6 @@ aliases:
   - /items/show/2166
   - /items/show/2166.html
 collections: []
-contributors: []
 date: '2006-04-18 01:18:15'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-17 21:18:15'
   Description:
     - html: false
-      text: " I will never forget this day at the American Red Cross shelter in Citronelle, Alabama. An elderly couple that was staying at the shelter went to their home to see the damage. They returned with a small box of jewerly and these photos on the cot, that was all that was left of the couples home. The poor couple couldn\\'t even remember the name of their insurance company."
+      text: I will never forget this day at the American Red Cross shelter in Citronelle, Alabama. An elderly couple that was staying at the shelter went to their home to see the damage. They returned with a small box of jewerly and these photos on the cot, that was all that was left of the couples home. The poor couple couldn\'t even remember the name of their insurance company.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.1117401069797
   lng: -88.2421875
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2166
 item_type: Still Image

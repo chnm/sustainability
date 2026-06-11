@@ -3,7 +3,6 @@ aliases:
   - /items/show/10090
   - /items/show/10090.html
 collections: []
-contributors: []
 date: '2006-09-18 20:21:51'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: ''
   zoom: 12
 id: 10090
 item_type: Document

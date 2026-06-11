@@ -3,7 +3,6 @@ aliases:
   - /items/show/58
   - /items/show/58.html
 collections: []
-contributors: []
 date: '2005-11-16 22:31:20'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-16 17:31:20'
   Description:
     - html: false
-      text: ' New Orleans Flood Map by Google'
+      text: New Orleans Flood Map by Google
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.958304
   lng: -90.077
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 58
 item_type: Still Image

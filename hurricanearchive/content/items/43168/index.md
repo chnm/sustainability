@@ -3,7 +3,6 @@ aliases:
   - /items/show/43168
   - /items/show/43168.html
 collections: []
-contributors: []
 date: '2010-09-03 01:52:47'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 200 Rowley Blvd.
   lat: 29.95418
   lng: -89.99503
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43168
 item_type: Still Image

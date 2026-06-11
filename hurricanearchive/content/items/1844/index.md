@@ -3,7 +3,6 @@ aliases:
   - /items/show/1844
   - /items/show/1844.html
 collections: []
-contributors: []
 date: '2006-02-14 00:50:55'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-13 19:50:55'
   Description:
     - html: false
-      text: ' Looking south to the Gulf of Mexico from Route 82 in Holly Beach, LA. This area has seen very little federal aid since Rita hit in September. Taken February 12, 2006'
+      text: Looking south to the Gulf of Mexico from Route 82 in Holly Beach, LA. This area has seen very little federal aid since Rita hit in September. Taken February 12, 2006
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.7720140938343
   lng: -93.4509515762329
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1844
 item_type: Still Image

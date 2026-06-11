@@ -3,13 +3,14 @@ aliases:
   - /items/show/28685
   - /items/show/28685.html
 collections: []
-contributors: []
 date: '2007-06-13 20:27:27'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "This is one of the most beautiful shots I took while riding around the Lower 9th Ward. There's usually not this amount of life and color.\r\nLower 9th Ward, New Orleans, LA"
+      text: |-
+        This is one of the most beautiful shots I took while riding around the Lower 9th Ward. There's usually not this amount of life and color.
+        Lower 9th Ward, New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

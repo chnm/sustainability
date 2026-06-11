@@ -3,7 +3,6 @@ aliases:
   - /items/show/64
   - /items/show/64.html
 collections: []
-contributors: []
 date: '2005-11-17 01:41:37'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-16 20:41:37'
   Description:
     - html: false
-      text: ' Upside down root beer mug at the Frostop restaurant on South Claiborne Avenue Uptown.'
+      text: Upside down root beer mug at the Frostop restaurant on South Claiborne Avenue Uptown.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 64
 item_type: Still Image

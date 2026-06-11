@@ -3,7 +3,6 @@ aliases:
   - /items/show/580
   - /items/show/580.html
 collections: []
-contributors: []
 date: '2006-01-13 22:07:54'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:07:54'
   Description:
     - html: false
-      text: ' The Tree on the Mound at the University of Miami.  The most beloved tree on campus, felled by a young Katrina.'
+      text: The Tree on the Mound at the University of Miami.  The most beloved tree on campus, felled by a young Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 25.719729884548702
   lng: -80.27765750885011
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 580
 item_type: Still Image

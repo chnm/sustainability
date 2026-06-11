@@ -3,7 +3,6 @@ aliases:
   - /items/show/2322
   - /items/show/2322.html
 collections: []
-contributors: []
 date: '2006-07-09 03:19:00'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-08 23:19:00'
   Description:
     - html: false
-      text: " Friends, Jim and Evelyn return to their home in Slidell after their home was wiped out by Katrina.  They stayed with me in Head of Island for 6 weeks.  They immediately went to work fixing the damage to their home and were the first people back in their home after Katrina and they are in their late 70\\'s.  They are an amazing couple, they wasted no time whinning."
+      text: Friends, Jim and Evelyn return to their home in Slidell after their home was wiped out by Katrina.  They stayed with me in Head of Island for 6 weeks.  They immediately went to work fixing the damage to their home and were the first people back in their home after Katrina and they are in their late 70\'s.  They are an amazing couple, they wasted no time whinning.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342352
   lng: -90.685853
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2322
 item_type: Still Image

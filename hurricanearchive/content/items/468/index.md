@@ -3,7 +3,6 @@ aliases:
   - /items/show/468
   - /items/show/468.html
 collections: []
-contributors: []
 date: '2005-12-27 20:16:28'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 15:16:28'
   Description:
     - html: false
-      text: ' A beautiful, plantation-style home is gutted on the first floor.'
+      text: A beautiful, plantation-style home is gutted on the first floor.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.387091887781096
   lng: -89.208984375
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 468
 item_type: Still Image

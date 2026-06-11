@@ -4,7 +4,6 @@ aliases:
   - /items/show/26143.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-21 14:02:25'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Medford, OR
   lat: 42.32667
   lng: -122.87444
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26143
 item_type: Document

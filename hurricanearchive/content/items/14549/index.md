@@ -4,13 +4,12 @@ aliases:
   - /items/show/14549.html
 collections:
   - '84'
-contributors: []
 date: '2006-12-19 23:49:56'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'This attached file is the Statement of Principles of the Law Students For Government Accountability (LSGA). \r\n\r\nOpen it up to find out what the LSGA is lobbying for.  '
+      text: This attached file is the Statement of Principles of the Law Students For Government Accountability (LSGA). \r\n\r\nOpen it up to find out what the LSGA is lobbying for.
   Language:
     - html: false
       text: eng

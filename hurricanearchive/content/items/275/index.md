@@ -3,7 +3,6 @@ aliases:
   - /items/show/275
   - /items/show/275.html
 collections: []
-contributors: []
 date: '2005-11-26 18:00:51'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-26 13:00:51'
   Description:
     - html: false
-      text: ' The court yard outside the Hancock County Historical Society in Bay-St.Louis, MS.'
+      text: The court yard outside the Hancock County Historical Society in Bay-St.Louis, MS.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.3109677385397
   lng: -89.32826757431029
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 275
 item_type: Still Image

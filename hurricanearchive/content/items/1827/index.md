@@ -3,7 +3,6 @@ aliases:
   - /items/show/1827
   - /items/show/1827.html
 collections: []
-contributors: []
 date: '2006-02-09 19:02:50'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-09 14:02:50'
   Description:
     - html: false
-      text: ' Arabi resident, Cynthia Weatherly, in the full recommend protective equipment needed to enter her flooded home weeks after Katrina.'
+      text: Arabi resident, Cynthia Weatherly, in the full recommend protective equipment needed to enter her flooded home weeks after Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.961448
   lng: -90.157715
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1827
 item_type: Still Image

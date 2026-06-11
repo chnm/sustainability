@@ -3,7 +3,6 @@ aliases:
   - /items/show/38329
   - /items/show/38329.html
 collections: []
-contributors: []
 date: '2008-12-13 19:42:42'
 draft: false
 dublin_core:
@@ -28,6 +27,7 @@ geo:
   address: 644 Wiegand DR.
   lat: 29.94039
   lng: -90.15936
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 38329
 item_type: Document

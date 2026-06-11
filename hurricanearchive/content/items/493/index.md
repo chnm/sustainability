@@ -3,7 +3,6 @@ aliases:
   - /items/show/493
   - /items/show/493.html
 collections: []
-contributors: []
 date: '2005-12-28 21:21:43'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 16:21:43'
   Description:
     - html: false
-      text: ' Cocodrie at the end of Hwy. 56 in Terrebonne Parish, Louisiana.  The wetlands took a terrible blow destroying miles of marsh in this area during Hurricanes Katrina and Rita.  September 2005'
+      text: Cocodrie at the end of Hwy. 56 in Terrebonne Parish, Louisiana.  The wetlands took a terrible blow destroying miles of marsh in this area during Hurricanes Katrina and Rita.  September 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.269628815226596
   lng: -90.6564331054688
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 493
 item_type: Still Image

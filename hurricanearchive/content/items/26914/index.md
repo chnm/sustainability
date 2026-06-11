@@ -4,19 +4,18 @@ aliases:
   - /items/show/26914.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Barron Russell, a native New Orleanian, who relocated to Middle Tennessee after Hurricane Katrina. '
+      text: Interview with Barron Russell, a native New Orleanian, who relocated to Middle Tennessee after Hurricane Katrina.
   Language:
     - html: false
       text: eng
   Rights:
     - html: false
-      text: 'Interviewee asked that this be made available only for researchers. '
+      text: Interviewee asked that this be made available only for researchers.
   Title:
     - html: false
       text: Barron Russell HK5256K.mp3

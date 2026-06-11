@@ -4,7 +4,6 @@ aliases:
   - /items/show/14177.html
 collections:
   - '99'
-contributors: []
 date: '2006-12-13 17:27:32'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: ''
   zoom: 12
 id: 14177
 item_type: Oral History

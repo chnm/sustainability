@@ -3,7 +3,6 @@ aliases:
   - /items/show/43265
   - /items/show/43265.html
 collections: []
-contributors: []
 date: '2010-09-09 18:32:34'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 100 Janet Drive
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43265
 item_type: Document

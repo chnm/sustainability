@@ -3,7 +3,6 @@ aliases:
   - /items/show/262
   - /items/show/262.html
 collections: []
-contributors: []
 date: '2005-11-26 17:11:04'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-26 00:00:00'
   Description:
     - html: false
-      text: ' \"Unnatural Disaster\" story from US Coast Guard Reservist magazine, vol 52, no. 7-05\r\nStory and images of the Coast Guard response in New Orleans following hurricane Katrina.'
+      text: \"Unnatural Disaster\" story from US Coast Guard Reservist magazine, vol 52, no. 7-05\r\nStory and images of the Coast Guard response in New Orleans following hurricane Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.83796
   lng: -90.00824
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 262
 item_type: Document

@@ -4,7 +4,6 @@ aliases:
   - /items/show/26306.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-27 15:49:50'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Baton Rouge, Louisiana
   lat: 30.45056
   lng: -91.15444
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26306
 item_type: Document

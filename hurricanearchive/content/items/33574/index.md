@@ -4,19 +4,18 @@ aliases:
   - /items/show/33574.html
 collections:
   - '184'
-contributors: []
 date: '2008-02-09 03:00:11'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: ' \"1200 people trapped in N.O. hospital need evacuation\"\r\n8-30-2005\r\nemail from Bill Quigley'
+      text: \"1200 people trapped in N.O. hospital need evacuation\"\r\n8-30-2005\r\nemail from Bill Quigley
   Language:
     - html: false
       text: eng
   Title:
     - html: false
-      text: ' \"1200 people trapped in N.O. hospital need evacuation\"'
+      text: \"1200 people trapped in N.O. hospital need evacuation\"
 featured: false
 files: []
 geo:
@@ -31,7 +30,7 @@ slug: '33574'
 tags:
   - bill quigley
   - hospital
-title: ' \"1200 people trapped in N.O. hospital need evacuation\"'
+title: \"1200 people trapped in N.O. hospital need evacuation\"
 type: items
 ---
 

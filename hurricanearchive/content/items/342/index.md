@@ -3,7 +3,6 @@ aliases:
   - /items/show/342
   - /items/show/342.html
 collections: []
-contributors: []
 date: '2005-12-10 16:12:12'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-10 11:12:12'
   Description:
     - html: false
-      text: ' old town. slidell, la.'
+      text: old town. slidell, la.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.446993
   lng: -89.976592
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 342
 item_type: Still Image

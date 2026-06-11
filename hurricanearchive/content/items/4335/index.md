@@ -3,7 +3,6 @@ aliases:
   - /items/show/4335
   - /items/show/4335.html
 collections: []
-contributors: []
 date: '2006-08-29 20:51:04'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 10090 69th
   lat: 40.00696
   lng: -105.19023
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 4335
 item_type: Document

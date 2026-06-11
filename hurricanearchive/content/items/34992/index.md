@@ -3,13 +3,12 @@ aliases:
   - /items/show/34992
   - /items/show/34992.html
 collections: []
-contributors: []
 date: '2008-05-07 19:16:10'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'the now not-so-empty lot '
+      text: the now not-so-empty lot
   Rights:
     - html: false
       text: Attribution-NonCommercial-NoDerivs License (http://creativecommons.org/licenses/by-nc-nd/2.0/)

@@ -3,7 +3,6 @@ aliases:
   - /items/show/492
   - /items/show/492.html
 collections: []
-contributors: []
 date: '2005-12-28 21:17:39'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 16:17:39'
   Description:
     - html: false
-      text: ' Boudreaux Canal Elementary School on Hwy. 56, Terrebonne Parish, Louisiana, surrounded by waters after Hurricane Rita.  Sept. 2005.'
+      text: Boudreaux Canal Elementary School on Hwy. 56, Terrebonne Parish, Louisiana, surrounded by waters after Hurricane Rita.  Sept. 2005.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.3869615216575
   lng: -90.61798095703121
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 492
 item_type: Still Image

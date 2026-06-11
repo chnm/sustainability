@@ -3,7 +3,6 @@ aliases:
   - /items/show/42695
   - /items/show/42695.html
 collections: []
-contributors: []
 date: '2010-06-01 15:50:07'
 draft: false
 dublin_core:
@@ -25,9 +24,10 @@ files:
     thumb:
     url: https://hurricanearchive.org/files/original/14fb29c288afc114fb29c288b3a7.docx
 geo:
-  address: '1517 1st Avenue '
+  address: 1517 1st Avenue
   lat: 30.21937
   lng: -93.20099
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42695
 item_type: Document

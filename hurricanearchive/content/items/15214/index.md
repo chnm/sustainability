@@ -3,13 +3,12 @@ aliases:
   - /items/show/15214
   - /items/show/15214.html
 collections: []
-contributors: []
 date: '2007-01-23 19:16:06'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: ' I want to say a big thank you to a lot of people, but mostly to the young males of the uptown area who helped my family during the storm, with out your caring nature, we would have truly suffered more than we did. I am sad to say I cant recall your names, but I do, remember your faces!! beautiful angels, indeed again God bless, and from my heart to yours.'
+      text: I want to say a big thank you to a lot of people, but mostly to the young males of the uptown area who helped my family during the storm, with out your caring nature, we would have truly suffered more than we did. I am sad to say I cant recall your names, but I do, remember your faces!! beautiful angels, indeed again God bless, and from my heart to yours.
   Language:
     - html: false
       text: eng

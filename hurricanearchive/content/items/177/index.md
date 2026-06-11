@@ -3,7 +3,6 @@ aliases:
   - /items/show/177
   - /items/show/177.html
 collections: []
-contributors: []
 date: '2005-11-18 18:23:35'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 13:23:35'
   Description:
     - html: false
-      text: ' Mount Carmel Academy days after levee breach.'
+      text: Mount Carmel Academy days after levee breach.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9138764383176
   lng: -90.0460052490234
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 177
 item_type: Still Image

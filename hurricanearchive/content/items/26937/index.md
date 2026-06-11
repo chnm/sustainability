@@ -4,13 +4,12 @@ aliases:
   - /items/show/26937.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview Shawn Brazile a resident of New Orleans who relocated to middle Tennessee following Hurricane Katrina. '
+      text: Interview Shawn Brazile a resident of New Orleans who relocated to middle Tennessee following Hurricane Katrina.
   Language:
     - html: false
       text: eng

@@ -3,7 +3,6 @@ aliases:
   - /items/show/2033
   - /items/show/2033.html
 collections: []
-contributors: []
 date: '2006-03-18 09:28:24'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-18 04:28:24'
   Description:
     - html: false
-      text: ' Pelican St 4 hours after Katrina'
+      text: Pelican St 4 hours after Katrina
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.2916078437037
   lng: -89.83756542205809
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2033
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/647
   - /items/show/647.html
 collections: []
-contributors: []
 date: '2006-01-21 05:35:49'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-21 00:35:49'
   Description:
     - html: false
-      text: ' Mardi Gras Indian house on St. Roch in New Orleans after katrina'
+      text: Mardi Gras Indian house on St. Roch in New Orleans after katrina
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.981702448312
   lng: -90.05338668823241
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 647
 item_type: Still Image

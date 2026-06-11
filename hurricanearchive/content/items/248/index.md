@@ -3,7 +3,6 @@ aliases:
   - /items/show/248
   - /items/show/248.html
 collections: []
-contributors: []
 date: '2005-11-25 04:59:28'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-24 23:59:28'
   Description:
     - html: false
-      text: ' This is the inside of my home in Old Gentilly...'
+      text: This is the inside of my home in Old Gentilly...
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.009063
   lng: -90.062147
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 248
 item_type: Still Image

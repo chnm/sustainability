@@ -3,7 +3,6 @@ aliases:
   - /items/show/2259
   - /items/show/2259.html
 collections: []
-contributors: []
 date: '2006-05-07 16:10:37'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-05-07 12:10:37'
   Description:
     - html: false
-      text: " A different angle of my husband\\'s truck."
+      text: A different angle of my husband\'s truck.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.652811
   lng: -89.578002
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2259
 item_type: Still Image

@@ -4,7 +4,6 @@ aliases:
   - /items/show/26261.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-27 13:52:09'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Innisfail, Alberta, Canada
   lat: 52.02138
   lng: -113.95456
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26261
 item_type: Document

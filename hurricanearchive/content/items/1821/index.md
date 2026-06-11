@@ -3,7 +3,6 @@ aliases:
   - /items/show/1821
   - /items/show/1821.html
 collections: []
-contributors: []
 date: '2006-02-08 05:55:20'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-08 00:55:20'
   Description:
     - html: false
-      text: ' Refugee wait ou at Golden Grove Truck Stop in Gramercy, LA'
+      text: Refugee wait ou at Golden Grove Truck Stop in Gramercy, LA
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0690196846607
   lng: -90.68346977233891
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1821
 item_type: Still Image

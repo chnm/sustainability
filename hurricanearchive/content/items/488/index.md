@@ -3,7 +3,6 @@ aliases:
   - /items/show/488
   - /items/show/488.html
 collections: []
-contributors: []
 date: '2005-12-28 20:50:27'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 15:50:27'
   Description:
     - html: false
-      text: ' A home stands isolated by water after a levee broke in Montegut, Terrebonne Parish, Louisiana.  This was a fews days after Hurricane Rita. September 2005, on Bayouside Drive, Chauvin.'
+      text: A home stands isolated by water after a levee broke in Montegut, Terrebonne Parish, Louisiana.  This was a fews days after Hurricane Rita. September 2005, on Bayouside Drive, Chauvin.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.4037123110325
   lng: -90.615234375
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 488
 item_type: Still Image

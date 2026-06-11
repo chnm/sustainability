@@ -3,7 +3,6 @@ aliases:
   - /items/show/43141
   - /items/show/43141.html
 collections: []
-contributors: []
 date: '2010-08-31 14:41:23'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 4711 Bienville St
   lat: 29.98083
   lng: -90.10537
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43141
 item_type: Document

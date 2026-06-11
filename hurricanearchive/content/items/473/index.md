@@ -3,7 +3,6 @@ aliases:
   - /items/show/473
   - /items/show/473.html
 collections: []
-contributors: []
 date: '2005-12-27 20:31:43'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 15:31:43'
   Description:
     - html: false
-      text: ' Business signs fill the intersections in New Orleans in an attempt to rebuild the city.'
+      text: Business signs fill the intersections in New Orleans in an attempt to rebuild the city.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.993002284551103
   lng: -90.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 473
 item_type: Still Image

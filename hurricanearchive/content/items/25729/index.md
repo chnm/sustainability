@@ -4,13 +4,12 @@ aliases:
   - /items/show/25729.html
 collections:
   - '68'
-contributors: []
 date: '2007-02-22 14:40:42'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Karen Patcheco and an unknown person in a President Nixon mask at a Shangri-La parade in St. Bernard.  '
+      text: Karen Patcheco and an unknown person in a President Nixon mask at a Shangri-La parade in St. Bernard.
   Language:
     - html: false
       text: eng

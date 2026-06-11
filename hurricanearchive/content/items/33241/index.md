@@ -3,13 +3,12 @@ aliases:
   - /items/show/33241
   - /items/show/33241.html
 collections: []
-contributors: []
 date: '2007-11-29 19:18:03'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "built before people forgot that New Orleans floods from time to time, and we get a Hurricane every now and then, we get tropical storms more frequently than that, but in areas of New Orleans that are more prone to flooding then others we would build our houses up. Here you can see the flood line is just about even with the first level ( It\\'s not really a first floor) it was about 8 feet deep here, but when they built this house they knew it happened from time to time - hell maybe this is the first time this house ever took on 8 feet of water, I sure it\\'s taken on a foot or two a dozen times in it\\'s lifetime. I\\'m some parts of the city we forgot though.......building slab houses because it was fashionable or cheaper at the time....... "
+      text: built before people forgot that New Orleans floods from time to time, and we get a Hurricane every now and then, we get tropical storms more frequently than that, but in areas of New Orleans that are more prone to flooding then others we would build our houses up. Here you can see the flood line is just about even with the first level ( It\'s not really a first floor) it was about 8 feet deep here, but when they built this house they knew it happened from time to time - hell maybe this is the first time this house ever took on 8 feet of water, I sure it\'s taken on a foot or two a dozen times in it\'s lifetime. I\'m some parts of the city we forgot though.......building slab houses because it was fashionable or cheaper at the time.......
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

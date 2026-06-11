@@ -3,7 +3,6 @@ aliases:
   - /items/show/369
   - /items/show/369.html
 collections: []
-contributors: []
 date: '2005-12-15 18:30:43'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-15 13:30:43'
   Description:
     - html: false
-      text: " Before, during, and after a major hurricane, you will eat a LOT of sandwiches until the power comes back on.  It\\'s not uncommon to head to the grocery store and see frightenly empty shelves."
+      text: Before, during, and after a major hurricane, you will eat a LOT of sandwiches until the power comes back on.  It\'s not uncommon to head to the grocery store and see frightenly empty shelves.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.6193002515347
   lng: -88.19592475891109
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 369
 item_type: Still Image

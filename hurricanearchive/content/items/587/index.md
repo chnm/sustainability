@@ -3,7 +3,6 @@ aliases:
   - /items/show/587
   - /items/show/587.html
 collections: []
-contributors: []
 date: '2006-01-13 22:44:19'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:44:19'
   Description:
     - html: false
-      text: ' Alone on the beach. Bay Saint Louis, Miss.'
+      text: Alone on the beach. Bay Saint Louis, Miss.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 587
 item_type: Still Image

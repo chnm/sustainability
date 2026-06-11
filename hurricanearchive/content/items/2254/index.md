@@ -4,7 +4,6 @@ aliases:
   - /items/show/2254.html
 collections:
   - '174'
-contributors: []
 date: '2006-04-28 21:38:49'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2006-04-28 00:00:00'
   Description:
     - html: false
-      text: ' Author: Stan C. Weeber\r\n              Assistant Professor, Sociology\r\n              McNeese State University\r\n              Lake Charles, LA\r\n\r\nTitle: Storytelling, Survival and Healing: A Sociological Narrative Following Hurricanes Katrina and Rita\r\n\r\nThis is the narrative story of how my family and I survived Hurricanes Katrina and Rita and their aftermaths from August, 2005 through April, 2006.'
+      text: 'Author: Stan C. Weeber\r\n              Assistant Professor, Sociology\r\n              McNeese State University\r\n              Lake Charles, LA\r\n\r\nTitle: Storytelling, Survival and Healing: A Sociological Narrative Following Hurricanes Katrina and Rita\r\n\r\nThis is the narrative story of how my family and I survived Hurricanes Katrina and Rita and their aftermaths from August, 2005 through April, 2006.'
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 30.2211
   lng: -93.23822
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2254
 item_type: Document

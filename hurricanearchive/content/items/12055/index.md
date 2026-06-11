@@ -3,7 +3,6 @@ aliases:
   - /items/show/12055
   - /items/show/12055.html
 collections: []
-contributors: []
 date: '2006-10-12 15:05:17'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 61004 Timber Bend Dr
   lat: 30.3199
   lng: -89.89742
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12055
 item_type: Document

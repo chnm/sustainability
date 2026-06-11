@@ -3,7 +3,6 @@ aliases:
   - /items/show/427
   - /items/show/427.html
 collections: []
-contributors: []
 date: '2005-12-26 20:11:58'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 15:11:58'
   Description:
     - html: false
-      text: ' \"Fire the next time\" spray-painted on a house in New Orleans.'
+      text: \"Fire the next time\" spray-painted on a house in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9549345496561
   lng: -90.087890625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 427
 item_type: Still Image

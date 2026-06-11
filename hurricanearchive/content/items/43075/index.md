@@ -3,7 +3,6 @@ aliases:
   - /items/show/43075
   - /items/show/43075.html
 collections: []
-contributors: []
 date: '2010-08-26 11:41:44'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1117 Royal Street
   lat: 29.9617
   lng: -90.06177
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43075
 item_type: Document

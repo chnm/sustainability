@@ -4,7 +4,6 @@ aliases:
   - /items/show/26303.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-27 15:44:10'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: el paso, tx
   lat: 31.75861
   lng: -106.48639
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26303
 item_type: Document

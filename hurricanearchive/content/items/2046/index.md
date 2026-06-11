@@ -3,7 +3,6 @@ aliases:
   - /items/show/2046
   - /items/show/2046.html
 collections: []
-contributors: []
 date: '2006-03-20 18:47:07'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-20 13:47:07'
   Description:
     - html: false
-      text: ' A mini storage building on Gulfway Drive in Port Arthur, TX.  Destroyed by Hurricane Rita on 9/24/05.'
+      text: A mini storage building on Gulfway Drive in Port Arthur, TX.  Destroyed by Hurricane Rita on 9/24/05.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.864207
   lng: -93.942055
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2046
 item_type: Still Image

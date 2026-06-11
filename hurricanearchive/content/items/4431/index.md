@@ -3,7 +3,6 @@ aliases:
   - /items/show/4431
   - /items/show/4431.html
 collections: []
-contributors: []
 date: '2006-09-04 16:18:25'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: po box 1822  Avaon, CA
   lat: 33.97981
   lng: -118.30078
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 4431
 item_type: Document

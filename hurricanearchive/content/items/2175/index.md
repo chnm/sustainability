@@ -3,7 +3,6 @@ aliases:
   - /items/show/2175
   - /items/show/2175.html
 collections: []
-contributors: []
 date: '2006-04-22 17:06:36'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 13:06:36'
   Description:
     - html: false
-      text: ' Victims of Hurricane Katrina staying at American Red Cross in Citronelle, Alabama.'
+      text: Victims of Hurricane Katrina staying at American Red Cross in Citronelle, Alabama.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.12584816072
   lng: -88.2586669921875
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2175
 item_type: Still Image

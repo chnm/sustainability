@@ -3,7 +3,6 @@ aliases:
   - /items/show/12086
   - /items/show/12086.html
 collections: []
-contributors: []
 date: '2006-10-12 16:35:21'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 840 Orion Ave.
   lat: 30.00309
   lng: -90.14135
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12086
 item_type: Document

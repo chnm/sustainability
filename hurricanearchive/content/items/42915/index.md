@@ -3,7 +3,6 @@ aliases:
   - /items/show/42915
   - /items/show/42915.html
 collections: []
-contributors: []
 date: '2010-07-23 12:11:24'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: 1549 Goodwood Drive
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42915
 item_type: Document

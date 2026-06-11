@@ -3,13 +3,12 @@ aliases:
   - /items/show/34480
   - /items/show/34480.html
 collections: []
-contributors: []
 date: '2008-04-17 19:29:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'No home was left untouched on Rats Nest Road. Most homes were 100% destroyed and many of the ones that were still standing had to be torn down. '
+      text: No home was left untouched on Rats Nest Road. Most homes were 100% destroyed and many of the ones that were still standing had to be torn down.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.22586
   lng: -89.83311
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34480
 item_type: Still Image

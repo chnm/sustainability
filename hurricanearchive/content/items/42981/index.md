@@ -3,7 +3,6 @@ aliases:
   - /items/show/42981
   - /items/show/42981.html
 collections: []
-contributors: []
 date: '2010-08-17 16:01:30'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: 5323 wilton dr
   lat: 30.01399
   lng: -90.06586
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42981
 item_type: Document

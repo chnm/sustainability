@@ -3,7 +3,6 @@ aliases:
   - /items/show/26
   - /items/show/26.html
 collections: []
-contributors: []
 date: '2005-11-16 03:17:45'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-15 22:17:45'
   Description:
     - html: false
-      text: ' St. Dominic school in Lakeview.'
+      text: St. Dominic school in Lakeview.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.951082
   lng: -90.206031
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26
 item_type: Still Image

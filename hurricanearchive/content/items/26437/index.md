@@ -3,7 +3,6 @@ aliases:
   - /items/show/26437
   - /items/show/26437.html
 collections: []
-contributors: []
 date: '2007-03-31 18:04:59'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 15235 Oneal Rd
   lat: 30.47064
   lng: -89.09395
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26437
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/1837
   - /items/show/1837.html
 collections: []
-contributors: []
 date: '2006-02-12 08:07:51'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-12 03:07:51'
   Description:
     - html: false
-      text: ' Mirabeau Ave. and Warrington Drive. A house in the middle of the street, where the London Avenue levee failed.'
+      text: Mirabeau Ave. and Warrington Drive. A house in the middle of the street, where the London Avenue levee failed.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0083144835564
   lng: -90.0686430931091
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1837
 item_type: Still Image

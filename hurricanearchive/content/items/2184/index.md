@@ -3,7 +3,6 @@ aliases:
   - /items/show/2184
   - /items/show/2184.html
 collections: []
-contributors: []
 date: '2006-04-22 17:31:05'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 00:00:00'
   Description:
     - html: false
-      text: " One thing I learned over the past couple hurricane season\\'s is that mobile homes don\\'t do so well in a hurricane."
+      text: One thing I learned over the past couple hurricane season\'s is that mobile homes don\'t do so well in a hurricane.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 27.18608
   lng: -81.86666
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2184
 item_type: Still Image

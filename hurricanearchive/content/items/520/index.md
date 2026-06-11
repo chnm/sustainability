@@ -3,7 +3,6 @@ aliases:
   - /items/show/520
   - /items/show/520.html
 collections: []
-contributors: []
 date: '2006-01-04 00:13:08'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-03 19:13:08'
   Description:
     - html: false
-      text: ' Podcast from the hotel in W. Memphis, AR where we were staying immediately after the storm. This was done right after siting through the first footage of large scale looting in the city.'
+      text: Podcast from the hotel in W. Memphis, AR where we were staying immediately after the storm. This was done right after siting through the first footage of large scale looting in the city.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 35.210811
   lng: -90.203849
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 520
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/638
   - /items/show/638.html
 collections: []
-contributors: []
 date: '2006-01-18 01:59:33'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 20:59:33'
   Description:
     - html: false
-      text: ' Clusters of red ants floating in the flood waters, if you where unfortunate enough to walk into these you would surely be sorry that you were ever born.'
+      text: Clusters of red ants floating in the flood waters, if you where unfortunate enough to walk into these you would surely be sorry that you were ever born.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342352
   lng: -90.685853
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 638
 item_type: Still Image

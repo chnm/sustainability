@@ -3,7 +3,6 @@ aliases:
   - /items/show/2162
   - /items/show/2162.html
 collections: []
-contributors: []
 date: '2006-04-16 16:37:38'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-16 12:37:38'
   Description:
     - html: false
-      text: ' Storm victims sorting through supplies at the United Methodist Church Hurricane Katrina shelter in Citronelle, Alabama.'
+      text: Storm victims sorting through supplies at the United Methodist Church Hurricane Katrina shelter in Citronelle, Alabama.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.107036956407104
   lng: -88.2366943359375
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2162
 item_type: Still Image

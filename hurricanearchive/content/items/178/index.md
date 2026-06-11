@@ -3,7 +3,6 @@ aliases:
   - /items/show/178
   - /items/show/178.html
 collections: []
-contributors: []
 date: '2005-11-18 18:25:36'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 13:25:36'
   Description:
     - html: false
-      text: ' Two barges pushed up again railroad bridge on the industrial canal where I-10 passes over it, New Orleans.  9/10/05'
+      text: Two barges pushed up again railroad bridge on the industrial canal where I-10 passes over it, New Orleans.  9/10/05
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0045981475423
   lng: -90.0267791748047
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 178
 item_type: Still Image

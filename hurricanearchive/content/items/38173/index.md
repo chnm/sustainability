@@ -3,7 +3,6 @@ aliases:
   - /items/show/38173
   - /items/show/38173.html
 collections: []
-contributors: []
 date: '2008-11-24 01:58:43'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 4115 Kansas Ave
   lat: 30.03072
   lng: -90.23253
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 38173
 item_type: Document

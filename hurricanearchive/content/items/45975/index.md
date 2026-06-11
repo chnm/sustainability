@@ -3,13 +3,12 @@ aliases:
   - /items/show/45975
   - /items/show/45975.html
 collections: []
-contributors: []
 date: '2013-09-07 20:07:05'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'This photo was taken at my house. It represents a packed box that my brother had labeled before we evacuated to Houston, Texas, for Hurricane Georges in 1998. I chose to include this photo because it includes some unique images that my brother had drawn himself (he was 9 at the time) and associated with the storm. Some of these images include references to the following: WWL News Channel 4 (a local New Orleans TV news station), The Weather Channel on channel 18, and NFIP (National Flood Insurance Program). My mother has referred to Hurricane Georges as, "The Pre-Katrina Hurricane," because  of its similar path and its effect on the Chandeleur Islands. '
+      text: 'This photo was taken at my house. It represents a packed box that my brother had labeled before we evacuated to Houston, Texas, for Hurricane Georges in 1998. I chose to include this photo because it includes some unique images that my brother had drawn himself (he was 9 at the time) and associated with the storm. Some of these images include references to the following: WWL News Channel 4 (a local New Orleans TV news station), The Weather Channel on channel 18, and NFIP (National Flood Insurance Program). My mother has referred to Hurricane Georges as, "The Pre-Katrina Hurricane," because  of its similar path and its effect on the Chandeleur Islands.'
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/9156aec3400a3a0658851ee3031bc360.jpg

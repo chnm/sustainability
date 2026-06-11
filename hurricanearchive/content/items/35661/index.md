@@ -3,7 +3,6 @@ aliases:
   - /items/show/35661
   - /items/show/35661.html
 collections: []
-contributors: []
 date: '2008-06-12 16:16:46'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: harvey, la
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35661
 item_type: Document

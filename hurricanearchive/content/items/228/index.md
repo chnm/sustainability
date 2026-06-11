@@ -3,7 +3,6 @@ aliases:
   - /items/show/228
   - /items/show/228.html
 collections: []
-contributors: []
 date: '2005-11-21 20:16:25'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-21 15:16:25'
   Description:
     - html: false
-      text: " M.O.M.\\'s Ball, October 29, 2005."
+      text: M.O.M.\'s Ball, October 29, 2005.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.938343
   lng: -90.100773
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 228
 item_type: Still Image

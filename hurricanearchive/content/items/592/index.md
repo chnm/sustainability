@@ -3,7 +3,6 @@ aliases:
   - /items/show/592
   - /items/show/592.html
 collections: []
-contributors: []
 date: '2006-01-13 22:55:55'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:55:55'
   Description:
     - html: false
-      text: ' Taken at Humane Society of LA now in Tylertown,MS.  Dutchess & Shelli.  Lots of TLC!'
+      text: Taken at Humane Society of LA now in Tylertown,MS.  Dutchess & Shelli.  Lots of TLC!
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.1376032700213
   lng: -90.14831542968751
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 592
 item_type: Still Image

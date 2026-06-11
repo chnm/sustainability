@@ -3,7 +3,6 @@ aliases:
   - /items/show/25977
   - /items/show/25977.html
 collections: []
-contributors: []
 date: '2007-03-09 03:57:42'
 draft: false
 dublin_core:
@@ -18,7 +17,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'Blogging from Katrina Ground Zero: Waveland, MS â€“ Day 4 '
+      text: 'Blogging from Katrina Ground Zero: Waveland, MS â€“ Day 4'
 featured: false
 files: []
 geo:
@@ -31,7 +30,7 @@ plugin_metadata: []
 related_items: []
 slug: '25977'
 tags: []
-title: 'Blogging from Katrina Ground Zero: Waveland, MS â€“ Day 4 '
+title: 'Blogging from Katrina Ground Zero: Waveland, MS â€“ Day 4'
 type: items
 ---
 

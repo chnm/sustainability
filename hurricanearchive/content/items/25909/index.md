@@ -3,7 +3,6 @@ aliases:
   - /items/show/25909
   - /items/show/25909.html
 collections: []
-contributors: []
 date: '2007-03-05 15:35:02'
 draft: false
 dublin_core:
@@ -22,9 +21,10 @@ files:
     thumb: https://hurricanearchive.org/files/thumbnails/14fb29dbcdeec514fb29dbcdf2ab.jpg
     url: https://hurricanearchive.org/files/original/14fb29dbcdeec514fb29dbcdf2ab.jpg
 geo:
-  address: '125 S Buchanan St, Lafayette, LA '
+  address: 125 S Buchanan St, Lafayette, LA
   lat: 30.23045
   lng: -92.0165
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 25909
 item_type: Still Image

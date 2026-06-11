@@ -4,7 +4,6 @@ aliases:
   - /items/show/26189.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-21 18:43:39'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: harrisburg, pa
   lat: 40.27361
   lng: -76.88472
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26189
 item_type: Document

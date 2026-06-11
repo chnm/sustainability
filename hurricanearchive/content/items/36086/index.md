@@ -3,7 +3,6 @@ aliases:
   - /items/show/36086
   - /items/show/36086.html
 collections: []
-contributors: []
 date: '2008-07-07 16:59:32'
 draft: false
 dublin_core:
@@ -28,6 +27,7 @@ geo:
   address: 3319 St. Claude Avenue
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 36086
 item_type: Document

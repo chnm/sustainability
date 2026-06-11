@@ -3,7 +3,6 @@ aliases:
   - /items/show/1878
   - /items/show/1878.html
 collections: []
-contributors: []
 date: '2006-03-06 10:17:43'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 05:17:43'
   Description:
     - html: false
-      text: " This is a picture of \\'The Inn by the Sea\\' and adjacent structures.  This is in Past Christian on the tip of Bay St. Louis.\\r\\n\\r\\nI\\'ve got almost 1000 pictures of the Katrina damage as I am a structural inspector that logged about 200 hours from late October to mid-November in the Bay St. Louis, Diamondhead, Long Beach, and Gulf Port areas assess the damage of structures."
+      text: This is a picture of \'The Inn by the Sea\' and adjacent structures.  This is in Past Christian on the tip of Bay St. Louis.\r\n\r\nI\'ve got almost 1000 pictures of the Katrina damage as I am a structural inspector that logged about 200 hours from late October to mid-November in the Bay St. Louis, Diamondhead, Long Beach, and Gulf Port areas assess the damage of structures.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1878
 item_type: Still Image

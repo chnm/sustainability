@@ -3,13 +3,14 @@ aliases:
   - /items/show/28661
   - /items/show/28661.html
 collections: []
-contributors: []
 date: '2007-06-13 20:23:54'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "\"Dead dog by fence. Killed by owner stupidity. Assholes!\"\r\nLower 9th Ward, New Orleans, LA"
+      text: |-
+        "Dead dog by fence. Killed by owner stupidity. Assholes!"
+        Lower 9th Ward, New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

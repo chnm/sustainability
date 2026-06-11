@@ -4,7 +4,6 @@ aliases:
   - /items/show/26336.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-28 18:36:30'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: baltimore, md
   lat: 39.29028
   lng: -76.6125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26336
 item_type: Document

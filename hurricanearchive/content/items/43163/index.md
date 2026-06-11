@@ -3,7 +3,6 @@ aliases:
   - /items/show/43163
   - /items/show/43163.html
 collections: []
-contributors: []
 date: '2010-09-02 19:28:17'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 4051 Clermont Dr.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43163
 item_type: Document

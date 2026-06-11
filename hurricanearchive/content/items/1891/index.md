@@ -3,7 +3,6 @@ aliases:
   - /items/show/1891
   - /items/show/1891.html
 collections: []
-contributors: []
 date: '2006-03-06 17:55:25'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 12:55:25'
   Description:
     - html: false
-      text: ' The wind was so powerful in Hattiesburg, Ms. that it took down brick walls (as was the case at this assisted living center).'
+      text: The wind was so powerful in Hattiesburg, Ms. that it took down brick walls (as was the case at this assisted living center).
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.245138
   lng: -89.28071
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1891
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/33452
   - /items/show/33452.html
 collections: []
-contributors: []
 date: '2008-01-29 19:07:47'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 504 Severn Ave
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33452
 item_type: Document

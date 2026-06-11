@@ -4,7 +4,6 @@ aliases:
   - /items/show/2410.html
 collections:
   - '16'
-contributors: []
 date: '2006-08-17 17:11:00'
 draft: false
 dublin_core:
@@ -19,7 +18,7 @@ dublin_core:
       text: eng
   Publisher:
     - html: false
-      text: 'US COAST GUARD '
+      text: US COAST GUARD
   Title:
     - html: false
       text: Evacuation by Barge

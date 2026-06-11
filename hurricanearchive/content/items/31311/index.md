@@ -4,7 +4,6 @@ aliases:
   - /items/show/31311.html
 collections:
   - '172'
-contributors: []
 date: '2007-08-13 10:40:20'
 draft: false
 dublin_core:
@@ -32,6 +31,7 @@ geo:
   address: 1342 Mandolin St
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 31311
 item_type: Still Image

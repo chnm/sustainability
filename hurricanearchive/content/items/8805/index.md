@@ -4,7 +4,6 @@ aliases:
   - /items/show/8805.html
 collections:
   - '67'
-contributors: []
 date: '2006-09-18 20:14:11'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: ''
   zoom: 12
 id: 8805
 item_type: Document

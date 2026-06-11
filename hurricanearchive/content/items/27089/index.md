@@ -4,7 +4,6 @@ aliases:
   - /items/show/27089.html
 collections:
   - '160'
-contributors: []
 date: '2007-04-30 16:48:28'
 draft: false
 dublin_core:
@@ -29,6 +28,7 @@ geo:
   address: 425 Manassas
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 27089
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/33278
   - /items/show/33278.html
 collections: []
-contributors: []
 date: '2007-12-22 16:17:24'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: Lakeview
   lat: 29.53523
   lng: -90.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33278
 item_type: Still Image

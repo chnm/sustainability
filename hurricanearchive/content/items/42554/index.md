@@ -3,7 +3,6 @@ aliases:
   - /items/show/42554
   - /items/show/42554.html
 collections: []
-contributors: []
 date: '2010-06-01 15:53:28'
 draft: false
 dublin_core:
@@ -28,6 +27,7 @@ geo:
   address: 5769 Wingate Drive
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42554
 item_type: Still Image

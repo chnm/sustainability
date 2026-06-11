@@ -3,7 +3,6 @@ aliases:
   - /items/show/4252
   - /items/show/4252.html
 collections: []
-contributors: []
 date: '2006-08-28 13:29:35'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 751 Barrett Rd
   lat: 30.42843
   lng: -88.97736
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 4252
 item_type: Document

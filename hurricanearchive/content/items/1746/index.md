@@ -3,7 +3,6 @@ aliases:
   - /items/show/1746
   - /items/show/1746.html
 collections: []
-contributors: []
 date: '2006-01-30 21:30:51'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-30 16:30:51'
   Description:
     - html: false
-      text: ' Orange First Baptist Church in Orange, Texas after Hurricane Rita.  The church was established in 1857.'
+      text: Orange First Baptist Church in Orange, Texas after Hurricane Rita.  The church was established in 1857.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.148461
   lng: -94.172481
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1746
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/34296
   - /items/show/34296.html
 collections: []
-contributors: []
 date: '2008-04-06 16:39:16'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 195 cypress lane
   lat: 29.23895
   lng: -89.98567
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34296
 item_type: Document

@@ -4,7 +4,6 @@ aliases:
   - /items/show/27443.html
 collections:
   - '68'
-contributors: []
 date: '2007-05-12 15:22:58'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 918 Papworth Avenue, Metairie
   lat: 30.00126
   lng: -90.12661
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 27443
 item_type: Still Image

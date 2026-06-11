@@ -3,13 +3,12 @@ aliases:
   - /items/show/37841
   - /items/show/37841.html
 collections: []
-contributors: []
 date: '2008-10-31 00:02:36'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'October 2005. This is a picture of a bedroom in my home after Hurricane Katrina. My New Orleans East home had about eight feet of water. The walls of the room are covered in mold and all of the furniture is destroyed. '
+      text: October 2005. This is a picture of a bedroom in my home after Hurricane Katrina. My New Orleans East home had about eight feet of water. The walls of the room are covered in mold and all of the furniture is destroyed.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: 4813 Virgilian St.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37841
 item_type: Still Image

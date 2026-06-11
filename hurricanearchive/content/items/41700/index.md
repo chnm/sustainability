@@ -3,7 +3,6 @@ aliases:
   - /items/show/41700
   - /items/show/41700.html
 collections: []
-contributors: []
 date: '2009-12-21 14:37:55'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2009-12-21 09:37:55'
   Description:
     - html: false
-      text: "As the sun was going down on August 29, 2005, my 95-year-old, invalid mother died in my arms as we tried to escape the rising flood waters coming into our house by climbing the fold-down stairs into the attic of our house. The next morning, August 30, at about 9:30 AM, I had to leave her body behind in the bathroom of the house so I could swim to a neighbor\\'s house to let him and his wife know that I was okay. Men in a flatboat who came to rescue me and other neighbors would not let me return to my house to rescue my two dogs, Peri and Tuppence.\\r\\n<\\r\\nWithout going into exhaustive detail, I will simply say that my past life died that day with Mother and my dogs. I now wish to devote my life to living my life to be a blessing to others. "
+      text: As the sun was going down on August 29, 2005, my 95-year-old, invalid mother died in my arms as we tried to escape the rising flood waters coming into our house by climbing the fold-down stairs into the attic of our house. The next morning, August 30, at about 9:30 AM, I had to leave her body behind in the bathroom of the house so I could swim to a neighbor\'s house to let him and his wife know that I was okay. Men in a flatboat who came to rescue me and other neighbors would not let me return to my house to rescue my two dogs, Peri and Tuppence.\r\n<\r\nWithout going into exhaustive detail, I will simply say that my past life died that day with Mother and my dogs. I now wish to devote my life to living my life to be a blessing to others.
   Language:
     - html: false
       text: eng
@@ -22,6 +21,7 @@ geo:
   address: ''
   lat: 30.00291
   lng: -90.10739
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 41700
 item_type: Document

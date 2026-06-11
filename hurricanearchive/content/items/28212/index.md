@@ -4,7 +4,6 @@ aliases:
   - /items/show/28212.html
 collections:
   - '155'
-contributors: []
 date: '2007-06-01 18:37:46'
 draft: false
 dublin_core:
@@ -16,7 +15,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: "Flyer Advertising \\'Neighborhoods: 2426 Bradish Place\\'  Art Installation "
+      text: "Flyer Advertising \\'Neighborhoods: 2426 Bradish Place\\'  Art Installation"
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d2a7b08814fb29d2a7b46e.jpg
@@ -26,9 +25,10 @@ files:
     thumb: https://hurricanearchive.org/files/thumbnails/14fb29d2a7b08814fb29d2a7b46e.jpg
     url: https://hurricanearchive.org/files/original/14fb29d2a7b08814fb29d2a7b46e.jpg
 geo:
-  address: '2426 Bradish Place '
+  address: 2426 Bradish Place
   lat: 29.95962
   lng: -90.08766
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 28212
 item_type: Still Image
@@ -46,7 +46,7 @@ tags:
   - music
   - neighborhoods
   - visual artists
-title: "Flyer Advertising \\'Neighborhoods: 2426 Bradish Place\\'  Art Installation "
+title: "Flyer Advertising \\'Neighborhoods: 2426 Bradish Place\\'  Art Installation"
 type: items
 ---
 

@@ -4,7 +4,6 @@ aliases:
   - /items/show/26192.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-21 20:10:44'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Kentucky
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26192
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/42962
   - /items/show/42962.html
 collections: []
-contributors: []
 date: '2010-08-17 15:56:23'
 draft: false
 dublin_core:
@@ -28,6 +27,7 @@ geo:
   address: 4173 Toulouse St
   lat: 29.9794
   lng: -90.09859
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42962
 item_type: Still Image

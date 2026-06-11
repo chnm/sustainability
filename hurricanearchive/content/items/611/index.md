@@ -3,7 +3,6 @@ aliases:
   - /items/show/611
   - /items/show/611.html
 collections: []
-contributors: []
 date: '2006-01-17 09:26:53'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 04:26:53'
   Description:
     - html: false
-      text: " I took this close-up of the Shire Apts. in northern Port Arthur, Texas.  The whole complex was damaged badly.  I don\\'t know if it was repairable.  This was taken on October 16, 2005, over 3 weeks after Hurricane Rita hit here."
+      text: I took this close-up of the Shire Apts. in northern Port Arthur, Texas.  The whole complex was damaged badly.  I don\'t know if it was repairable.  This was taken on October 16, 2005, over 3 weeks after Hurricane Rita hit here.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.148461
   lng: -94.172481
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 611
 item_type: Still Image

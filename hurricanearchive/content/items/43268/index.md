@@ -3,13 +3,12 @@ aliases:
   - /items/show/43268
   - /items/show/43268.html
 collections: []
-contributors: []
 date: '2010-09-09 19:46:31'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Three feet of water in my dad\\'s house. No fun but I consider myself lucky considering the other tragedies. "
+      text: Three feet of water in my dad\'s house. No fun but I consider myself lucky considering the other tragedies.
   Language:
     - html: false
       text: eng
@@ -19,6 +18,7 @@ geo:
   address: 138 Lafayette Street
   lat: 30.35507
   lng: -90.04666
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43268
 item_type: Document

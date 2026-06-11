@@ -4,7 +4,6 @@ aliases:
   - /items/show/28970.html
 collections:
   - '155'
-contributors: []
 date: '2007-06-21 10:39:25'
 draft: false
 dublin_core:
@@ -13,7 +12,11 @@ dublin_core:
       text: '2007-06-20 00:00:00'
   Description:
     - html: false
-      text: "Photo of Panorama Jazz Band performing on May 19, 2007 in a gutted house as part of the art installation \"Heighborhoods: 2426 Bradish Place.\" Members of Panorama were John Gross (tuba), Sean Clark (drums) and Ben Schenck (clarinet)\r\nArtwork in the foreground is by Robert Vicknair/Monica Zeringue. The plastic dress is decorated with satellite images of waterways, islands,and canal. A map of the Tulane /Gravier neighborhood adorns the bodice. \r\n\r\n\"NEIGHBORHOODS: 2426 BRADISH PLACE\" was a multidisciplinary installation, the third in a series, that took place in the gutted ground floor of the home of Michelle Levine and Clay Thomas on May 19th, 2007. Michelle is an artist who is currently rebuilding her house and studio in the Tulane/Gravier neighborhood. Through the use of interviews with neighbors, soundscapes, live music, drawing, photography, and sculpture, this event confronted the range of issues the community is experiencing as they revitalize this neighborhood.\r\n\r\n"
+      text: |-
+        Photo of Panorama Jazz Band performing on May 19, 2007 in a gutted house as part of the art installation "Heighborhoods: 2426 Bradish Place." Members of Panorama were John Gross (tuba), Sean Clark (drums) and Ben Schenck (clarinet)
+        Artwork in the foreground is by Robert Vicknair/Monica Zeringue. The plastic dress is decorated with satellite images of waterways, islands,and canal. A map of the Tulane /Gravier neighborhood adorns the bodice.
+
+        "NEIGHBORHOODS: 2426 BRADISH PLACE" was a multidisciplinary installation, the third in a series, that took place in the gutted ground floor of the home of Michelle Levine and Clay Thomas on May 19th, 2007. Michelle is an artist who is currently rebuilding her house and studio in the Tulane/Gravier neighborhood. Through the use of interviews with neighbors, soundscapes, live music, drawing, photography, and sculpture, this event confronted the range of issues the community is experiencing as they revitalize this neighborhood.
   Language:
     - html: false
       text: eng
@@ -32,6 +35,7 @@ geo:
   address: 2426 Bradish Place
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps v3.x
   zoom: 12
 id: 28970
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/35973
   - /items/show/35973.html
 collections: []
-contributors: []
 date: '2008-07-01 01:47:15'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: Uptown
   lat: 29.57346
   lng: -90.17578
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35973
 item_type: Still Image

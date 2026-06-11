@@ -4,13 +4,12 @@ aliases:
   - /items/show/3593.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Most contents of the homes were destroyed by the flood waters.  This trip back to New Orleans revealed interesting glimpses into people\\'s lives regarding what they cherished and retrieved from their homes.       "
+      text: Most contents of the homes were destroyed by the flood waters.  This trip back to New Orleans revealed interesting glimpses into people\'s lives regarding what they cherished and retrieved from their homes.
   Language:
     - html: false
       text: eng

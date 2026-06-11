@@ -3,13 +3,12 @@ aliases:
   - /items/show/34418
   - /items/show/34418.html
 collections: []
-contributors: []
 date: '2008-04-17 19:24:47'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "John\\'s piano ruined by water "
+      text: John\'s piano ruined by water
   Rights:
     - html: false
       text: Attribution-NonCommercial License (http://creativecommons.org/licenses/by-nc/2.0/)
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 30.22894
   lng: -89.80244
+  map_type: Yahoo Maps API
   zoom: 12
 id: 34418
 item_type: Still Image

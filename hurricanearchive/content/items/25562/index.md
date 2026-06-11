@@ -4,7 +4,6 @@ aliases:
   - /items/show/25562.html
 collections:
   - '68'
-contributors: []
 date: '2007-02-16 00:38:14'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 1 Bar Pilots Road
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 25562
 item_type: Still Image

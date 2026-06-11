@@ -3,7 +3,6 @@ aliases:
   - /items/show/140
   - /items/show/140.html
 collections: []
-contributors: []
 date: '2005-11-17 23:41:52'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 18:41:52'
   Description:
     - html: false
-      text: ' Caught on film looting at Wal-Mart.'
+      text: Caught on film looting at Wal-Mart.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.878755346037998
   lng: -90.087890625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 140
 item_type: Still Image

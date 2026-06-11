@@ -3,7 +3,6 @@ aliases:
   - /items/show/504
   - /items/show/504.html
 collections: []
-contributors: []
 date: '2006-01-02 16:54:26'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-02 11:54:26'
   Description:
     - html: false
-      text: ' 1848 Orpheum Avenue, Pre & Post K'
+      text: 1848 Orpheum Avenue, Pre & Post K
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0223981333294
   lng: -90.12212634086612
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 504
 item_type: Still Image

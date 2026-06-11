@@ -3,7 +3,6 @@ aliases:
   - /items/show/40236
   - /items/show/40236.html
 collections: []
-contributors: []
 date: '2009-05-08 20:11:09'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 3757 Lang St
   lat: 29.91537
   lng: -90.00407
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40236
 item_type: Document

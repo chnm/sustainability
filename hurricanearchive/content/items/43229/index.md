@@ -3,7 +3,6 @@ aliases:
   - /items/show/43229
   - /items/show/43229.html
 collections: []
-contributors: []
 date: '2010-09-07 21:36:30'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 6901 Argonne
   lat: 30.0155
   lng: -90.10105
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43229
 item_type: Document

@@ -4,7 +4,6 @@ aliases:
   - /items/show/32510.html
 collections:
   - '151'
-contributors: []
 date: '2007-09-26 02:12:28'
 draft: false
 dublin_core:
@@ -29,6 +28,7 @@ geo:
   address: convention Center Blvd
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 32510
 item_type: Document

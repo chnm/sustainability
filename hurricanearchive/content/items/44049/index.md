@@ -3,13 +3,12 @@ aliases:
   - /items/show/44049
   - /items/show/44049.html
 collections: []
-contributors: []
 date: '2011-02-12 17:01:21'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "The bookshelf in the hallway of my house had completely disintegrated and all of the books were left, scattered and covered in mold. Notice, the only visible book is titled \\\"You Won\\'t Believe Your Eyes.\\\" My mom, who took this photo, did not arrange the books that way, and did not even notice the book, until the picture was developed. This picture is from the inside of my family\\'s Gentilly Woods home, that was filled with seven feet of water during Hurricane Katrina. "
+      text: The bookshelf in the hallway of my house had completely disintegrated and all of the books were left, scattered and covered in mold. Notice, the only visible book is titled \"You Won\'t Believe Your Eyes.\" My mom, who took this photo, did not arrange the books that way, and did not even notice the book, until the picture was developed. This picture is from the inside of my family\'s Gentilly Woods home, that was filled with seven feet of water during Hurricane Katrina.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: ''
   lat: 29.95493
   lng: -89.97803
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 44049
 item_type: Still Image

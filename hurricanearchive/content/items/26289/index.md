@@ -4,7 +4,6 @@ aliases:
   - /items/show/26289.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-27 15:09:32'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: santa fe, nm
   lat: 35.68694
   lng: -105.93722
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26289
 item_type: Document

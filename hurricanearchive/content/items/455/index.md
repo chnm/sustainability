@@ -3,7 +3,6 @@ aliases:
   - /items/show/455
   - /items/show/455.html
 collections: []
-contributors: []
 date: '2005-12-27 18:39:27'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 13:39:27'
   Description:
     - html: false
-      text: ' a  reflection poem ( written by my mother)about Katrina & Rita'
+      text: a  reflection poem ( written by my mother)about Katrina & Rita
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.4392020872356
   lng: -90.07415771484379
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 455
 item_type: Document

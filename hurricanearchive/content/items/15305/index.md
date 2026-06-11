@@ -4,13 +4,12 @@ aliases:
   - /items/show/15305.html
 collections:
   - '68'
-contributors: []
 date: '2007-01-25 15:53:30'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Claire Henderson\\'s mother at 86.  "
+      text: Claire Henderson\'s mother at 86.
   Language:
     - html: false
       text: eng

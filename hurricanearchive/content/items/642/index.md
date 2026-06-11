@@ -3,7 +3,6 @@ aliases:
   - /items/show/642
   - /items/show/642.html
 collections: []
-contributors: []
 date: '2006-01-19 17:40:46'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-19 12:40:46'
   Description:
     - html: false
-      text: ' Before and after damage caused by Hurricane Rita near Lake Charles, LA'
+      text: Before and after damage caused by Hurricane Rita near Lake Charles, LA
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.254396476749502
   lng: -93.23135375976561
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 642
 item_type: Still Image

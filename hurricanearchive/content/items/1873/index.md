@@ -3,7 +3,6 @@ aliases:
   - /items/show/1873
   - /items/show/1873.html
 collections: []
-contributors: []
 date: '2006-03-02 18:22:32'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-02 13:22:32'
   Description:
     - html: false
-      text: ' In this file our colleges from Westwego La gathered pictures.'
+      text: In this file our colleges from Westwego La gathered pictures.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9477952256724
   lng: -90.1016235351562
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1873
 item_type: Document

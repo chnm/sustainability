@@ -3,7 +3,6 @@ aliases:
   - /items/show/26562
   - /items/show/26562.html
 collections: []
-contributors: []
 date: '2007-04-07 20:23:14'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: Ninth Ward
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26562
 item_type: Still Image

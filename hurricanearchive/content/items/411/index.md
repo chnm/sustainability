@@ -3,7 +3,6 @@ aliases:
   - /items/show/411
   - /items/show/411.html
 collections: []
-contributors: []
 date: '2005-12-26 18:47:24'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 13:47:24'
   Description:
     - html: false
-      text: ' A headboard lies among the ruin in Bay St. Louis.'
+      text: A headboard lies among the ruin in Bay St. Louis.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.337324394179
   lng: -89.2062377929688
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 411
 item_type: Still Image

@@ -4,7 +4,6 @@ aliases:
   - /items/show/26491.html
 collections:
   - '143'
-contributors: []
 date: '2007-04-04 16:06:50'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Spencer, Indiana
   lat: 39.28667
   lng: -86.7625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26491
 item_type: Document

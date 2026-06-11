@@ -3,13 +3,12 @@ aliases:
   - /items/show/33260
   - /items/show/33260.html
 collections: []
-contributors: []
 date: '2007-11-29 19:25:20'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'sitting....never gutted....sitting....waiting.... for almost two years.......sitting .....waiting now to be demolished '
+      text: sitting....never gutted....sitting....waiting.... for almost two years.......sitting .....waiting now to be demolished
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33260
 item_type: Still Image

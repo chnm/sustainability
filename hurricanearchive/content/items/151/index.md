@@ -3,7 +3,6 @@ aliases:
   - /items/show/151
   - /items/show/151.html
 collections: []
-contributors: []
 date: '2005-11-18 07:38:58'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 02:38:58'
   Description:
     - html: false
-      text: ' A moldy ceiling in Kenner.'
+      text: A moldy ceiling in Kenner.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.030902
   lng: -90.068022
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 151
 item_type: Still Image

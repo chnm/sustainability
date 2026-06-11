@@ -4,7 +4,6 @@ aliases:
   - /items/show/33657.html
 collections:
   - '184'
-contributors: []
 date: '2008-02-14 18:44:42'
 draft: false
 dublin_core:
@@ -16,7 +15,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'Seven Months After Katrina: Sleeping in Your Car in Front of Your Trailer in Front of Your Devastated Home, Tales of Lunacy and Hope from New Orleans  '
+      text: 'Seven Months After Katrina: Sleeping in Your Car in Front of Your Trailer in Front of Your Devastated Home, Tales of Lunacy and Hope from New Orleans'
 featured: false
 files: []
 geo:
@@ -31,7 +30,7 @@ slug: '33657'
 tags:
   - FEMA
   - contractors
-title: 'Seven Months After Katrina: Sleeping in Your Car in Front of Your Trailer in Front of Your Devastated Home, Tales of Lunacy and Hope from New Orleans  '
+title: 'Seven Months After Katrina: Sleeping in Your Car in Front of Your Trailer in Front of Your Devastated Home, Tales of Lunacy and Hope from New Orleans'
 type: items
 ---
 

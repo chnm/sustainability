@@ -3,7 +3,6 @@ aliases:
   - /items/show/45978
   - /items/show/45978.html
 collections: []
-contributors: []
 date: '2013-09-07 21:45:30'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: Waveland, Mississippi
   lat: 30.2868632
   lng: -89.37615870000002
+  map_type: Google Maps v3.x
   zoom: 12
 id: 45978
 item_type: Still Image

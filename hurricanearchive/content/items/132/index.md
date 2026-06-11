@@ -3,7 +3,6 @@ aliases:
   - /items/show/132
   - /items/show/132.html
 collections: []
-contributors: []
 date: '2005-11-17 23:17:16'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 18:17:16'
   Description:
     - html: false
-      text: ' Policing the French Quarter.'
+      text: Policing the French Quarter.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.922505998090802
   lng: -90.08136749267581
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 132
 item_type: Still Image

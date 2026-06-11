@@ -3,7 +3,6 @@ aliases:
   - /items/show/133
   - /items/show/133.html
 collections: []
-contributors: []
 date: '2005-11-17 23:19:02'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 18:19:02'
   Description:
     - html: false
-      text: ' Rescue of an infant by jet ski.'
+      text: Rescue of an infant by jet ski.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0310554265402
   lng: -89.912109375
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 133
 item_type: Still Image

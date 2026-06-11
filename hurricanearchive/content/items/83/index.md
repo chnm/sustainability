@@ -3,7 +3,6 @@ aliases:
   - /items/show/83
   - /items/show/83.html
 collections: []
-contributors: []
 date: '2005-11-17 06:54:22'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 01:54:22'
   Description:
     - html: false
-      text: ' Canal St. scene in New Orleans.'
+      text: Canal St. scene in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 83
 item_type: Still Image

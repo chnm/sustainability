@@ -4,13 +4,12 @@ aliases:
   - /items/show/3601.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "These kittens seem puzzled by everything that\\'s happened during the past ten weeks.      "
+      text: These kittens seem puzzled by everything that\'s happened during the past ten weeks.
   Language:
     - html: false
       text: eng

@@ -4,7 +4,6 @@ aliases:
   - /items/show/37963.html
 collections:
   - '216'
-contributors: []
 date: '2008-11-11 22:57:30'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: 8100 Oak Street
   lat: 29.94735
   lng: -90.12979
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37963
 item_type: Document

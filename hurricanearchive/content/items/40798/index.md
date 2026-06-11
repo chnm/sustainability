@@ -3,7 +3,6 @@ aliases:
   - /items/show/40798
   - /items/show/40798.html
 collections: []
-contributors: []
 date: '2009-08-28 16:25:22'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 208 Rio Vista Ave.
   lat: 29.96212
   lng: -90.14989
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40798
 item_type: Document

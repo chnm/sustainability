@@ -4,13 +4,12 @@ aliases:
   - /items/show/26929.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Kevin Fontenette originally of Slidell, LA who evacuated to Baton Rouge before Katrina and eventually to Tennessee after the storm passed. '
+      text: Interview with Kevin Fontenette originally of Slidell, LA who evacuated to Baton Rouge before Katrina and eventually to Tennessee after the storm passed.
   Language:
     - html: false
       text: eng

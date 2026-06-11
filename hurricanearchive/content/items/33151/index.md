@@ -3,7 +3,6 @@ aliases:
   - /items/show/33151
   - /items/show/33151.html
 collections: []
-contributors: []
 date: '2007-11-20 06:29:08'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1108 North Starrett Rd, Metairie, LA
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33151
 item_type: Document

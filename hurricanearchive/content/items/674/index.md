@@ -3,7 +3,6 @@ aliases:
   - /items/show/674
   - /items/show/674.html
 collections: []
-contributors: []
 date: '2006-01-25 07:21:03'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-25 02:21:03'
   Description:
     - html: false
-      text: ' View the day after Katrina passed'
+      text: View the day after Katrina passed
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.944299744734103
   lng: -89.9808597564697
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 674
 item_type: Still Image

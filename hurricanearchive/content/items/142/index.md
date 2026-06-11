@@ -3,7 +3,6 @@ aliases:
   - /items/show/142
   - /items/show/142.html
 collections: []
-contributors: []
 date: '2005-11-17 23:45:16'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 18:45:16'
   Description:
     - html: false
-      text: ' The flag still flies in New Orleans.'
+      text: The flag still flies in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9549345496561
   lng: -90.0439453125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 142
 item_type: Still Image

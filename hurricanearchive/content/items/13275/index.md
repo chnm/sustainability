@@ -3,7 +3,6 @@ aliases:
   - /items/show/13275
   - /items/show/13275.html
 collections: []
-contributors: []
 date: '2006-11-28 03:42:01'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: Chalmette, Louisiana
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 13275
 item_type: Document

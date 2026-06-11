@@ -3,7 +3,6 @@ aliases:
   - /items/show/27368
   - /items/show/27368.html
 collections: []
-contributors: []
 date: '2007-05-08 20:26:40'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: ''
   lat: 38.45184
   lng: -77.49713
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 27368
 item_type: Document

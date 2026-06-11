@@ -3,7 +3,6 @@ aliases:
   - /items/show/15315
   - /items/show/15315.html
 collections: []
-contributors: []
 date: '2007-01-25 20:33:16'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 2720 Earl Dr.
   lat: 29.93526
   lng: -89.91911
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 15315
 item_type: Document

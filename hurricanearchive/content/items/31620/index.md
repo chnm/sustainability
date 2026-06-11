@@ -3,7 +3,6 @@ aliases:
   - /items/show/31620
   - /items/show/31620.html
 collections: []
-contributors: []
 date: '2007-08-22 18:50:33'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 12301 Six Flags Parkway
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 31620
 item_type: Document

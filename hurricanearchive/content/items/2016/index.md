@@ -3,7 +3,6 @@ aliases:
   - /items/show/2016
   - /items/show/2016.html
 collections: []
-contributors: []
 date: '2006-03-13 04:14:29'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-12 23:14:29'
   Description:
     - html: false
-      text: ' street sign la fontaine and washington'
+      text: street sign la fontaine and washington
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.4062663463962
   lng: -88.8279390335083
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2016
 item_type: Still Image

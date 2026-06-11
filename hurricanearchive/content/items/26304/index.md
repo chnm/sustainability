@@ -4,7 +4,6 @@ aliases:
   - /items/show/26304.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-27 15:46:16'
 draft: false
 dublin_core:
@@ -16,7 +15,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: ' Put Those Cameras Down'
+      text: Put Those Cameras Down
 featured: false
 files: []
 geo:
@@ -30,7 +29,7 @@ related_items: []
 slug: '26304'
 tags:
   - poetry
-title: ' Put Those Cameras Down'
+title: Put Those Cameras Down
 type: items
 ---
 

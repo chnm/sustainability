@@ -14,3 +14,7 @@ body { font-family: -apple-system, system-ui, sans-serif; margin: 0 auto; max-wi
 .terms-cloud .terms-count { color: #888; font-size: 0.85em; }
 .terms-cloud a { text-decoration: none; }
 .terms-cloud a:hover { text-decoration: underline; }
+/* dev-only "View original" link (development environment) */
+.dev-source-link { margin: 0.25em 0 1em; font-size: 0.85em; }
+.dev-source-link a { display: inline-block; padding: 0.15em 0.6em; border: 1px dashed #c9a227; border-radius: 4px; background: #fffbe6; color: #8a6d00; text-decoration: none; }
+.dev-source-link a:hover { background: #fff3bf; }

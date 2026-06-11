@@ -3,7 +3,6 @@ aliases:
   - /items/show/2026
   - /items/show/2026.html
 collections: []
-contributors: []
 date: '2006-03-14 19:10:10'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-14 14:10:10'
   Description:
     - html: false
-      text: ' Picture of our house at 2304 Marietta St. Chalmette before the storm.'
+      text: Picture of our house at 2304 Marietta St. Chalmette before the storm.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.936936521280202
   lng: -89.96000289916991
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2026
 item_type: Still Image

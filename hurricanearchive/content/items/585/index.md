@@ -3,7 +3,6 @@ aliases:
   - /items/show/585
   - /items/show/585.html
 collections: []
-contributors: []
 date: '2006-01-13 22:41:51'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:41:51'
   Description:
     - html: false
-      text: ' New Orleans, 9th Ward, by Industrial Canal Break.'
+      text: New Orleans, 9th Ward, by Industrial Canal Break.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 585
 item_type: Still Image

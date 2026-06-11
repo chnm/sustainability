@@ -3,7 +3,6 @@ aliases:
   - /items/show/216
   - /items/show/216.html
 collections: []
-contributors: []
 date: '2005-11-20 06:24:03'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-20 01:24:03'
   Description:
     - html: false
-      text: ' This is the debris at a friends house right off of Fleur Di Lis and Veterans.'
+      text: This is the debris at a friends house right off of Fleur Di Lis and Veterans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.984643
   lng: -90.161821
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 216
 item_type: Still Image

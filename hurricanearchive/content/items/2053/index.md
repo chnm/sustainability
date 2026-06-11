@@ -3,7 +3,6 @@ aliases:
   - /items/show/2053
   - /items/show/2053.html
 collections: []
-contributors: []
 date: '2006-03-26 16:27:04'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-26 11:27:04'
   Description:
     - html: false
-      text: ' I am on Esplanade not too far from Rampart.We were trying to get to my friends house on Claiborne.The water was disgusting and I had too many cuts on me to go any further.This was our 5th time in the water-much of it waste deep.'
+      text: I am on Esplanade not too far from Rampart.We were trying to get to my friends house on Claiborne.The water was disgusting and I had too many cuts on me to go any further.This was our 5th time in the water-much of it waste deep.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.968553
   lng: -90.02845
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2053
 item_type: Still Image

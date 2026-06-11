@@ -3,7 +3,6 @@ aliases:
   - /items/show/43957
   - /items/show/43957.html
 collections: []
-contributors: []
 date: '2011-01-29 15:22:44'
 draft: false
 dublin_core:
@@ -16,9 +15,10 @@ dublin_core:
 featured: false
 files: []
 geo:
-  address: '2917 Woods Drive '
+  address: 2917 Woods Drive
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43957
 item_type: Document

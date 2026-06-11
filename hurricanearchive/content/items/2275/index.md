@@ -3,7 +3,6 @@ aliases:
   - /items/show/2275
   - /items/show/2275.html
 collections: []
-contributors: []
 date: '2006-05-28 20:07:45'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-05-28 16:07:45'
   Description:
     - html: false
-      text: ' A camera crew and sandbagger.'
+      text: A camera crew and sandbagger.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9356720745457
   lng: -90.07995128631589
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2275
 item_type: Still Image

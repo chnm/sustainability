@@ -3,7 +3,6 @@ aliases:
   - /items/show/152
   - /items/show/152.html
 collections: []
-contributors: []
 date: '2005-11-18 07:40:55'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 02:40:55'
   Description:
     - html: false
-      text: ' Shell on Robert E. Lee and Paris Road in New Orleans.'
+      text: Shell on Robert E. Lee and Paris Road in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.030902
   lng: -90.068022
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 152
 item_type: Still Image

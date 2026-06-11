@@ -3,7 +3,6 @@ aliases:
   - /items/show/33359
   - /items/show/33359.html
 collections: []
-contributors: []
 date: '2008-01-11 04:05:54'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 617 Gallier Street
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33359
 item_type: Document

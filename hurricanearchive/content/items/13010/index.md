@@ -4,7 +4,6 @@ aliases:
   - /items/show/13010.html
 collections:
   - '174'
-contributors: []
 date: '2006-11-27 17:37:55'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: Lake Charles, LA
   lat: 30.22845
   lng: -93.18797
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 13010
 item_type: Document

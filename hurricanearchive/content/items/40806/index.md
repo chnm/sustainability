@@ -3,7 +3,6 @@ aliases:
   - /items/show/40806
   - /items/show/40806.html
 collections: []
-contributors: []
 date: '2009-08-28 20:08:05'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 305 schlief Drive
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40806
 item_type: Document

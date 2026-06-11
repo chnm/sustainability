@@ -4,13 +4,12 @@ aliases:
   - /items/show/15273.html
 collections:
   - '68'
-contributors: []
 date: '2007-01-24 21:40:50'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Rebecca\\'s husband Gatien started the St. Bernard Wetlands Foundation to save the wetlands. They used discarded Christmas trees to rebuild the land. "
+      text: Rebecca\'s husband Gatien started the St. Bernard Wetlands Foundation to save the wetlands. They used discarded Christmas trees to rebuild the land.
   Language:
     - html: false
       text: eng

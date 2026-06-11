@@ -3,7 +3,6 @@ aliases:
   - /items/show/12095
   - /items/show/12095.html
 collections: []
-contributors: []
 date: '2006-10-12 17:54:26'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 2005 Soanish Oaks Dr.
   lat: 29.87226
   lng: -90.05191
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12095
 item_type: Document

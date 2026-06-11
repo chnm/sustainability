@@ -3,13 +3,12 @@ aliases:
   - /items/show/38298
   - /items/show/38298.html
 collections: []
-contributors: []
 date: '2008-12-11 09:41:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'The file I am sharing is a PowerPoint Presentation on the New Orleans Mardi Gras Indians. Enjoy!  '
+      text: The file I am sharing is a PowerPoint Presentation on the New Orleans Mardi Gras Indians. Enjoy!
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 38298
 item_type: Document

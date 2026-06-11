@@ -3,7 +3,6 @@ aliases:
   - /items/show/31705
   - /items/show/31705.html
 collections: []
-contributors: []
 date: '2007-08-24 03:49:38'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 802 Grove Avenue
   lat: 29.94824
   lng: -90.20177
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 31705
 item_type: Document

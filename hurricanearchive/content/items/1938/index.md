@@ -3,7 +3,6 @@ aliases:
   - /items/show/1938
   - /items/show/1938.html
 collections: []
-contributors: []
 date: '2006-03-07 17:00:49'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-07 12:00:49'
   Description:
     - html: false
-      text: ' My house at 302 Waveland Ave Waveland, Ms'
+      text: My house at 302 Waveland Ave Waveland, Ms
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.2774143351815
   lng: -89.38510894775389
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1938
 item_type: Still Image

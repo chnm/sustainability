@@ -3,7 +3,6 @@ aliases:
   - /items/show/584
   - /items/show/584.html
 collections: []
-contributors: []
 date: '2006-01-13 22:40:46'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:40:46'
   Description:
     - html: false
-      text: ' Saw this on a garage door in St. Bernard parish.  No domestic problems in that house!'
+      text: Saw this on a garage door in St. Bernard parish.  No domestic problems in that house!
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 584
 item_type: Still Image

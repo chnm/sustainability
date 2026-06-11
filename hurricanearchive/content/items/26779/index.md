@@ -4,13 +4,12 @@ aliases:
   - /items/show/26779.html
 collections:
   - '68'
-contributors: []
 date: '2007-04-17 03:34:57'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Clothilde Rodrigue in Thibodaux, Louisiana taken between 1905-1915. \r\n\r\nThis image is from the archive of Ron Chapman,\r\nProfessor of History at Nunez Community College. Nunez\r\nCommunity College is located in Chalmette, in St.\r\nBernard Parish, Louisiana.  In 2005 it was heavily\r\ndamaged by flooding due to Hurricane Katrina. '
+      text: Clothilde Rodrigue in Thibodaux, Louisiana taken between 1905-1915. \r\n\r\nThis image is from the archive of Ron Chapman,\r\nProfessor of History at Nunez Community College. Nunez\r\nCommunity College is located in Chalmette, in St.\r\nBernard Parish, Louisiana.  In 2005 it was heavily\r\ndamaged by flooding due to Hurricane Katrina.
   Language:
     - html: false
       text: eng
@@ -26,6 +25,7 @@ geo:
   address: ''
   lat: 29.91685
   lng: -90.04395
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26779
 item_type: Still Image

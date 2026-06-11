@@ -3,7 +3,6 @@ aliases:
   - /items/show/1894
   - /items/show/1894.html
 collections: []
-contributors: []
 date: '2006-03-06 21:54:22'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 00:00:00'
   Description:
     - html: false
-      text: " Isabel in Baltimore Maryland  - Sept\\'04"
+      text: Isabel in Baltimore Maryland  - Sept\'04
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 39.29591
   lng: -76.60844
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1894
 item_type: Still Image

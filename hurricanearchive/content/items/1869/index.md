@@ -3,7 +3,6 @@ aliases:
   - /items/show/1869
   - /items/show/1869.html
 collections: []
-contributors: []
 date: '2006-02-25 01:50:29'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-24 20:50:29'
   Description:
     - html: false
-      text: ' St. Maurice Catholic Church 605 St. Maurice Ave, New Orleans, LA. \r\n\r\nIn the Lower 9th Ward near Arabi, La.  The building.  The church was built in 1857 to serve Faugborg La Course the area running from just below the Ursuline Convent on Jourdan Street (now the site of the industrial canal) to Parish Rd. in Chalmette.'
+      text: St. Maurice Catholic Church 605 St. Maurice Ave, New Orleans, LA. \r\n\r\nIn the Lower 9th Ward near Arabi, La.  The building.  The church was built in 1857 to serve Faugborg La Course the area running from just below the Ursuline Convent on Jourdan Street (now the site of the industrial canal) to Parish Rd. in Chalmette.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1869
 item_type: Still Image

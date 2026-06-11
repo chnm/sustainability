@@ -4,13 +4,12 @@ aliases:
   - /items/show/28907.html
 collections:
   - '160'
-contributors: []
 date: '2007-06-19 04:02:25'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'The Katrina Journal, a series of short-takes and observations on facing post-Katrina life in New Orleans head-on, was written from June to December 2006 to, as Gehman puts it, "cry out the silent tears" of loss and recovery. '
+      text: The Katrina Journal, a series of short-takes and observations on facing post-Katrina life in New Orleans head-on, was written from June to December 2006 to, as Gehman puts it, "cry out the silent tears" of loss and recovery.
   Language:
     - html: false
       text: eng

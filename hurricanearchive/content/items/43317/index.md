@@ -3,7 +3,6 @@ aliases:
   - /items/show/43317
   - /items/show/43317.html
 collections: []
-contributors: []
 date: '2010-09-20 15:00:42'
 draft: false
 dublin_core:
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 30.22807
   lng: -89.79809999999998
+  map_type: Google Maps v3.x
   zoom: 12
 id: 43317
 item_type: Still Image

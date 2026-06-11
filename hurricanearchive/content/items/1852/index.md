@@ -3,7 +3,6 @@ aliases:
   - /items/show/1852
   - /items/show/1852.html
 collections: []
-contributors: []
 date: '2006-02-18 05:58:57'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-18 00:58:57'
   Description:
     - html: false
-      text: ' When Mama saw her immaculate little Gentilly 50 year home after we were allowed back in the neighborhood, she was stunned.  We salvaged her china, which had floated throughout their home, and not much else.  She asked me, \"Did you ever think a house of mine would look like this?\"  I could only tell her that it was easy to see that it was once adorable because the bed was still made throw pillow and all.  It was just 2 feet from the ceiling. Good grief.'
+      text: When Mama saw her immaculate little Gentilly 50 year home after we were allowed back in the neighborhood, she was stunned.  We salvaged her china, which had floated throughout their home, and not much else.  She asked me, \"Did you ever think a house of mine would look like this?\"  I could only tell her that it was easy to see that it was once adorable because the bed was still made throw pillow and all.  It was just 2 feet from the ceiling. Good grief.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.009063
   lng: -90.062147
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1852
 item_type: Still Image

@@ -4,7 +4,6 @@ aliases:
   - /items/show/2414.html
 collections:
   - '16'
-contributors: []
 date: '2006-08-17 17:11:02'
 draft: false
 dublin_core:
@@ -13,13 +12,13 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: "POTASH, La. (Sept. 17, 2005) U.S. Coast Guard Chief Phillip Jenicek of Sector New Orleans and Petty Officer Quoen Harris of the Atlantic Strike Team take samples at the Sundown East Oil Facility. The site, which has spilled approximately 18,900 gallons of oil after sustaining damage during the Hurricane Katrina, is one of ten large oil spills that federal, state, and local officials are responding to in cooperation with industry partners. USCG photo by PO Mariana O\\'Leary \\r\\n050917-C-9889O-006 "
+      text: POTASH, La. (Sept. 17, 2005) U.S. Coast Guard Chief Phillip Jenicek of Sector New Orleans and Petty Officer Quoen Harris of the Atlantic Strike Team take samples at the Sundown East Oil Facility. The site, which has spilled approximately 18,900 gallons of oil after sustaining damage during the Hurricane Katrina, is one of ten large oil spills that federal, state, and local officials are responding to in cooperation with industry partners. USCG photo by PO Mariana O\'Leary \r\n050917-C-9889O-006
   Language:
     - html: false
       text: eng
   Publisher:
     - html: false
-      text: 'US COAST GUARD '
+      text: US COAST GUARD
   Title:
     - html: false
       text: Cleaning up Sundown East oil spill

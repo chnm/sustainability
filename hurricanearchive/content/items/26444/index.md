@@ -3,7 +3,6 @@ aliases:
   - /items/show/26444
   - /items/show/26444.html
 collections: []
-contributors: []
 date: '2007-04-01 23:24:10'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 4232 St. Claude New Orleans
   lat: 29.97455
   lng: -90.08516
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26444
 item_type: Document

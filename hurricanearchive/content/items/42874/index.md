@@ -3,7 +3,6 @@ aliases:
   - /items/show/42874
   - /items/show/42874.html
 collections: []
-contributors: []
 date: '2010-07-23 12:13:42'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: 1124 Aurora
   lat: 30.00949
   lng: -90.13983
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42874
 item_type: Document

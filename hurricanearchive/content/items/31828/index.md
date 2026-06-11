@@ -3,7 +3,6 @@ aliases:
   - /items/show/31828
   - /items/show/31828.html
 collections: []
-contributors: []
 date: '2007-08-27 22:53:02'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 3608 Page Drive
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 31828
 item_type: Document

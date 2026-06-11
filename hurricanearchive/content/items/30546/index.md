@@ -3,7 +3,6 @@ aliases:
   - /items/show/30546
   - /items/show/30546.html
 collections: []
-contributors: []
 date: '2007-07-22 01:30:45'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 409 Norton Ave, Arabi LA
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 30546
 item_type: Document

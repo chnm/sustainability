@@ -4,7 +4,6 @@ aliases:
   - /items/show/2386.html
 collections:
   - '15'
-contributors: []
 date: '2006-08-17 17:10:51'
 draft: false
 dublin_core:
@@ -19,7 +18,7 @@ dublin_core:
       text: eng
   Publisher:
     - html: false
-      text: 'U.S. COAST GUARD '
+      text: U.S. COAST GUARD
   Title:
     - html: false
       text: Preparing for Hurricane Wilma

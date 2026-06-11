@@ -3,13 +3,12 @@ aliases:
   - /items/show/25915
   - /items/show/25915.html
 collections: []
-contributors: []
 date: '2007-03-05 21:04:25'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'it was t he worst day of my life i never imagen the hurracane wold acually hit new orleans. i i will never forget what that day did to me '
+      text: it was t he worst day of my life i never imagen the hurracane wold acually hit new orleans. i i will never forget what that day did to me
   Language:
     - html: false
       text: eng

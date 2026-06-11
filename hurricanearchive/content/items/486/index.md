@@ -3,7 +3,6 @@ aliases:
   - /items/show/486
   - /items/show/486.html
 collections: []
-contributors: []
 date: '2005-12-28 20:07:37'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 15:07:37'
   Description:
     - html: false
-      text: ' A house surrounded by flood waters after a levee was  breached during Hurricane Rita.  This house was located on Hwy. 56, in Chauvin, Louisiana, a small shrimping community near the coast of Louisiana.'
+      text: A house surrounded by flood waters after a levee was  breached during Hurricane Rita.  This house was located on Hwy. 56, in Chauvin, Louisiana, a small shrimping community near the coast of Louisiana.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.402515917576096
   lng: -90.6166076660156
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 486
 item_type: Still Image

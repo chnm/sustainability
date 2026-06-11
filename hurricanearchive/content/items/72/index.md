@@ -3,7 +3,6 @@ aliases:
   - /items/show/72
   - /items/show/72.html
 collections: []
-contributors: []
 date: '2005-11-17 06:10:21'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 01:10:21'
   Description:
     - html: false
-      text: ' Our daughter is in this ambulance being transferred to Touro Rehab in New Orleans.'
+      text: Our daughter is in this ambulance being transferred to Touro Rehab in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 72
 item_type: Still Image

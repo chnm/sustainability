@@ -3,7 +3,6 @@ aliases:
   - /items/show/2008
   - /items/show/2008.html
 collections: []
-contributors: []
 date: '2006-03-11 17:12:45'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-11 12:12:45'
   Description:
     - html: false
-      text: ' Had 36\"-40\" of flooding in this area causing trailer to overturn.'
+      text: Had 36\"-40\" of flooding in this area causing trailer to overturn.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.125233517313298
   lng: -93.29186439514162
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2008
 item_type: Still Image

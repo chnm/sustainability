@@ -3,7 +3,6 @@ aliases:
   - /items/show/247
   - /items/show/247.html
 collections: []
-contributors: []
 date: '2005-11-24 07:27:43'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-24 02:27:43'
   Description:
     - html: false
-      text: ' '
+      text: ''
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.939504
   lng: -90.074122
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 247
 item_type: Still Image

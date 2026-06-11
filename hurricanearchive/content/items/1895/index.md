@@ -3,7 +3,6 @@ aliases:
   - /items/show/1895
   - /items/show/1895.html
 collections: []
-contributors: []
 date: '2006-03-06 22:04:02'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 17:04:02'
   Description:
     - html: false
-      text: ' Here is another picture from Folsom Louisiand Jim Crump standing next to a 150 year old OAK tree.  Unbelievable!!!'
+      text: Here is another picture from Folsom Louisiand Jim Crump standing next to a 150 year old OAK tree.  Unbelievable!!!
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1895
 item_type: Still Image

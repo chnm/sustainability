@@ -4,7 +4,6 @@ aliases:
   - /items/show/25489.html
 collections:
   - '68'
-contributors: []
 date: '2007-02-07 21:38:27'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 2720 Jackson Blvd
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 25489
 item_type: Still Image

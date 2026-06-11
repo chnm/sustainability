@@ -3,7 +3,6 @@ aliases:
   - /items/show/43277
   - /items/show/43277.html
 collections: []
-contributors: []
 date: '2010-09-10 07:13:04'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 4317 Hollygrove St.
   lat: 29.97577
   lng: -90.11325
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43277
 item_type: Document

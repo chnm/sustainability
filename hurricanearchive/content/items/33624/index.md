@@ -4,7 +4,6 @@ aliases:
   - /items/show/33624.html
 collections:
   - '183'
-contributors: []
 date: '2008-02-12 04:05:26'
 draft: false
 dublin_core:
@@ -16,7 +15,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'Is Katrina a Natural Disaster or a Crisis in Public Policy?  '
+      text: Is Katrina a Natural Disaster or a Crisis in Public Policy?
 featured: false
 files: []
 geo:
@@ -29,7 +28,7 @@ plugin_metadata: []
 related_items: []
 slug: '33624'
 tags: []
-title: 'Is Katrina a Natural Disaster or a Crisis in Public Policy?  '
+title: Is Katrina a Natural Disaster or a Crisis in Public Policy?
 type: items
 ---
 

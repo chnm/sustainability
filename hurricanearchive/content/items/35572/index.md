@@ -3,7 +3,6 @@ aliases:
   - /items/show/35572
   - /items/show/35572.html
 collections: []
-contributors: []
 date: '2008-06-06 20:33:17'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 174 Beach View Ave  Biloxi MS
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35572
 item_type: Document

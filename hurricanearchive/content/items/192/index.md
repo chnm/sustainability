@@ -3,7 +3,6 @@ aliases:
   - /items/show/192
   - /items/show/192.html
 collections: []
-contributors: []
 date: '2005-11-18 23:38:37'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 18:38:37'
   Description:
     - html: false
-      text: " Cleaning out the ol\\' refridgerator after two months leave of absence."
+      text: Cleaning out the ol\' refridgerator after two months leave of absence.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.938343
   lng: -90.100773
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 192
 item_type: Still Image

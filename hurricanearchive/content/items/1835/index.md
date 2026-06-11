@@ -3,7 +3,6 @@ aliases:
   - /items/show/1835
   - /items/show/1835.html
 collections: []
-contributors: []
 date: '2006-02-12 07:52:04'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-12 02:52:04'
   Description:
     - html: false
-      text: ' August 31, 2005 Ian'
+      text: August 31, 2005 Ian
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.981033338736196
   lng: -90.1022887229919
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1835
 item_type: Still Image

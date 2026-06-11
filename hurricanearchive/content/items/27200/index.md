@@ -3,13 +3,12 @@ aliases:
   - /items/show/27200
   - /items/show/27200.html
 collections: []
-contributors: []
 date: '2007-05-05 04:35:36'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "This is a photo taken from what would have been looking into the door of the Station Captain\\'s room.  Yes, it was an inclosed room. "
+      text: This is a photo taken from what would have been looking into the door of the Station Captain\'s room.  Yes, it was an inclosed room.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 27200
 item_type: Still Image

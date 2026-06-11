@@ -3,7 +3,6 @@ aliases:
   - /items/show/35977
   - /items/show/35977.html
 collections: []
-contributors: []
 date: '2008-07-01 02:02:30'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: New Orleans
   lat: 29.84064
   lng: -90.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35977
 item_type: Still Image

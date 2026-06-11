@@ -3,7 +3,6 @@ aliases:
   - /items/show/2165
   - /items/show/2165.html
 collections: []
-contributors: []
 date: '2006-04-18 01:09:31'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-17 21:09:31'
   Description:
     - html: false
-      text: ' Red Cross Heater Meals and Comfort Kits where loke gold that first week in Citronelle, Alabama and all over the gulf coast.'
+      text: Red Cross Heater Meals and Comfort Kits where loke gold that first week in Citronelle, Alabama and all over the gulf coast.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.1011576905899
   lng: -88.2298278808594
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2165
 item_type: Still Image

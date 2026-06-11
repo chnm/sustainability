@@ -3,7 +3,6 @@ aliases:
   - /items/show/2018
   - /items/show/2018.html
 collections: []
-contributors: []
 date: '2006-03-14 01:17:01'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-13 20:17:01'
   Description:
     - html: false
-      text: ' On the roof of the Hyatt over looking the Dome'
+      text: On the roof of the Hyatt over looking the Dome
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9506212693763
   lng: -90.0762176513672
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2018
 item_type: Still Image

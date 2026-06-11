@@ -3,13 +3,12 @@ aliases:
   - /items/show/4226
   - /items/show/4226.html
 collections: []
-contributors: []
 date: '2006-08-27 13:42:52'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Media Coverage. I think that New Orleans received too much of Media Coverage. St. Bernard, Plaquemines, and Mississippi Gulf Coast were basically wiped out compared to the city, and I don\\'t include the ninth ward in the New Orleans, B/C the 9th ward like st bernard was totally destroyed. The CITY< EVERYTHING ON THE NEWS FOR DAYS FOLLOWING WE WERE LITERALLY IN THE DARK. AND I WILL NEVER FORGET THAT. "
+      text: Media Coverage. I think that New Orleans received too much of Media Coverage. St. Bernard, Plaquemines, and Mississippi Gulf Coast were basically wiped out compared to the city, and I don\'t include the ninth ward in the New Orleans, B/C the 9th ward like st bernard was totally destroyed. The CITY< EVERYTHING ON THE NEWS FOR DAYS FOLLOWING WE WERE LITERALLY IN THE DARK. AND I WILL NEVER FORGET THAT.
   Language:
     - html: false
       text: other

@@ -3,7 +3,6 @@ aliases:
   - /items/show/33274
   - /items/show/33274.html
 collections: []
-contributors: []
 date: '2007-12-20 15:39:11'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 17th ward
   lat: 48.23485
   lng: -101.30304
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33274
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/582
   - /items/show/582.html
 collections: []
-contributors: []
 date: '2006-01-13 22:36:37'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:36:37'
   Description:
     - html: false
-      text: ' More tent dwellings beneath I-610 in City Park. Jan. 2006'
+      text: More tent dwellings beneath I-610 in City Park. Jan. 2006
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 582
 item_type: Still Image

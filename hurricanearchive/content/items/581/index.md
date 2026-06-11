@@ -3,7 +3,6 @@ aliases:
   - /items/show/581
   - /items/show/581.html
 collections: []
-contributors: []
 date: '2006-01-13 22:32:38'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:32:38'
   Description:
     - html: false
-      text: ' 4 and a 1/2 months post-Katrina.  Tent residences in City Park.'
+      text: 4 and a 1/2 months post-Katrina.  Tent residences in City Park.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 581
 item_type: Still Image

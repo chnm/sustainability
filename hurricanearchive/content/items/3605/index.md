@@ -4,13 +4,12 @@ aliases:
   - /items/show/3605.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "There\\'s an amazing amount of symbolism and irony everywhere you look!   "
+      text: There\'s an amazing amount of symbolism and irony everywhere you look!
   Language:
     - html: false
       text: eng

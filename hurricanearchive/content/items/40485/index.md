@@ -3,7 +3,6 @@ aliases:
   - /items/show/40485
   - /items/show/40485.html
 collections: []
-contributors: []
 date: '2009-06-25 03:44:16'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 705 Chic-a-dee court
   lat: 30.26785
   lng: -89.7108
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40485
 item_type: Document

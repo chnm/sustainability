@@ -3,7 +3,6 @@ aliases:
   - /items/show/235
   - /items/show/235.html
 collections: []
-contributors: []
 date: '2005-11-23 00:25:18'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-22 19:25:18'
   Description:
     - html: false
-      text: ' Essay of my Hurricane Experience for my History of New Orleans class.'
+      text: Essay of my Hurricane Experience for my History of New Orleans class.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.065367
   lng: -90.527515
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 235
 item_type: Document

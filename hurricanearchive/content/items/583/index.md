@@ -3,7 +3,6 @@ aliases:
   - /items/show/583
   - /items/show/583.html
 collections: []
-contributors: []
 date: '2006-01-13 22:40:25'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:40:25'
   Description:
     - html: false
-      text: ' Hurricane Camille landmark needs to add the name \"Katrina\".'
+      text: Hurricane Camille landmark needs to add the name \"Katrina\".
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 583
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/25982
   - /items/show/25982.html
 collections: []
-contributors: []
 date: '2007-03-09 04:15:50'
 draft: false
 dublin_core:
@@ -18,7 +17,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'Turkey Day Katrina Style '
+      text: Turkey Day Katrina Style
 featured: false
 files: []
 geo:
@@ -31,7 +30,7 @@ plugin_metadata: []
 related_items: []
 slug: '25982'
 tags: []
-title: 'Turkey Day Katrina Style '
+title: Turkey Day Katrina Style
 type: items
 ---
 

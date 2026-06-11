@@ -3,7 +3,6 @@ aliases:
   - /items/show/734
   - /items/show/734.html
 collections: []
-contributors: []
 date: '2006-01-27 04:12:58'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-26 23:12:58'
   Description:
     - html: false
-      text: ' 1 Dead in attic on St. Roch in New Orleans'
+      text: 1 Dead in attic on St. Roch in New Orleans
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.979323371561904
   lng: -90.0530433654785
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 734
 item_type: Still Image

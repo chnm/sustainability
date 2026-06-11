@@ -3,7 +3,6 @@ aliases:
   - /items/show/658
   - /items/show/658.html
 collections: []
-contributors: []
 date: '2006-01-22 16:42:04'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-22 11:42:04'
   Description:
     - html: false
-      text: ' Site of breached levee on western side of London Avenue Canal'
+      text: Site of breached levee on western side of London Avenue Canal
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.020540246562
   lng: -90.07115364074708
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 658
 item_type: Still Image

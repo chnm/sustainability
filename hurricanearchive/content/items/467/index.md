@@ -3,7 +3,6 @@ aliases:
   - /items/show/467
   - /items/show/467.html
 collections: []
-contributors: []
 date: '2005-12-27 20:14:47'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 15:14:47'
   Description:
     - html: false
-      text: ' This is the foundation on which Pass Christian Yacht Club used to sit.'
+      text: This is the foundation on which Pass Christian Yacht Club used to sit.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.353916372297
   lng: -89.3600463867188
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 467
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/434
   - /items/show/434.html
 collections: []
-contributors: []
 date: '2005-12-26 20:28:27'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 15:28:27'
   Description:
     - html: false
-      text: ' Only a few things remain at a demolished house.'
+      text: Only a few things remain at a demolished house.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.993002284551103
   lng: -90.1318359375
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 434
 item_type: Still Image

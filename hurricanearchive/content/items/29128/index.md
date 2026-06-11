@@ -4,7 +4,6 @@ aliases:
   - /items/show/29128.html
 collections:
   - '165'
-contributors: []
 date: '2007-06-22 18:04:46'
 draft: false
 dublin_core:
@@ -16,7 +15,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'Zephyr Field '
+      text: Zephyr Field
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ced4149e14fb29ced443e3.jpg
@@ -36,7 +35,7 @@ related_items: []
 slug: '29128'
 tags:
   - zephyr field
-title: 'Zephyr Field '
+title: Zephyr Field
 type: items
 ---
 

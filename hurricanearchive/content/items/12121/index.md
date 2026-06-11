@@ -3,7 +3,6 @@ aliases:
   - /items/show/12121
   - /items/show/12121.html
 collections: []
-contributors: []
 date: '2006-10-13 05:16:30'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: 507 Main Street
   lat: 30.31478
   lng: -89.33961
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12121
 item_type: Still Image

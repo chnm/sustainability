@@ -3,7 +3,6 @@ aliases:
   - /items/show/38232
   - /items/show/38232.html
 collections: []
-contributors: []
 date: '2008-12-04 16:34:45'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 4786 Viola Dr
   lat: 30.01935
   lng: -89.99612
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 38232
 item_type: Document

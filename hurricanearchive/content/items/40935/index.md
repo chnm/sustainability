@@ -3,13 +3,12 @@ aliases:
   - /items/show/40935
   - /items/show/40935.html
 collections: []
-contributors: []
 date: '2009-09-03 21:14:27'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "This picture was taken the day after Katrina hit. My family and I stayed in our home in Harahan through out the storm and its aftermath. We spent our time cleaning up our neighborhood and the yards belonging to our close friends and family. This is a picture I took of my brother and father while we were cleaning up my grandparent\\'s home in River Ridge. We were extremely lucky to have our home spared 100%. I am glad we were able to have their house looking closer to normal before my grandparents came back from their evacuation in Tennessee. "
+      text: This picture was taken the day after Katrina hit. My family and I stayed in our home in Harahan through out the storm and its aftermath. We spent our time cleaning up our neighborhood and the yards belonging to our close friends and family. This is a picture I took of my brother and father while we were cleaning up my grandparent\'s home in River Ridge. We were extremely lucky to have our home spared 100%. I am glad we were able to have their house looking closer to normal before my grandparents came back from their evacuation in Tennessee.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: ''
   lat: 29.95656
   lng: -90.20102
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40935
 item_type: Still Image

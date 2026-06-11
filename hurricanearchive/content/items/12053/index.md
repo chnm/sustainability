@@ -3,7 +3,6 @@ aliases:
   - /items/show/12053
   - /items/show/12053.html
 collections: []
-contributors: []
 date: '2006-10-12 14:49:05'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: Eden Isles
   lat: 30.22666
   lng: -89.79641
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12053
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/45905
   - /items/show/45905.html
 collections: []
-contributors: []
 date: '2012-09-03 05:33:49'
 draft: false
 dublin_core:
@@ -16,6 +15,7 @@ geo:
   address: United States
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps v3.x
   zoom: 7
 id: 45905
 item_type: Document

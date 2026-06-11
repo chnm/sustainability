@@ -3,7 +3,6 @@ aliases:
   - /items/show/2012
   - /items/show/2012.html
 collections: []
-contributors: []
 date: '2006-03-11 20:09:31'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-11 15:09:31'
   Description:
     - html: false
-      text: ' Lake Catherine, LA.  Standing on Hwy 90 about 2 miles west of Fort Pike, looking towards the west.  All of the nice homes and camps that once were are now all gone.'
+      text: Lake Catherine, LA.  Standing on Hwy 90 about 2 miles west of Fort Pike, looking towards the west.  All of the nice homes and camps that once were are now all gone.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.141861334222103
   lng: -89.7504043579102
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2012
 item_type: Still Image

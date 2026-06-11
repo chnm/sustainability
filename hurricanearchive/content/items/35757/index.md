@@ -3,7 +3,6 @@ aliases:
   - /items/show/35757
   - /items/show/35757.html
 collections: []
-contributors: []
 date: '2008-06-19 14:53:05'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 347 Depre Street
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35757
 item_type: Document

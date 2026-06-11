@@ -3,7 +3,6 @@ aliases:
   - /items/show/45924
   - /items/show/45924.html
 collections: []
-contributors: []
 date: '2012-12-11 01:21:51'
 draft: false
 dublin_core:
@@ -16,6 +15,7 @@ geo:
   address: Algiers
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps v3.x
   zoom: 0
 id: 45924
 item_type: Document

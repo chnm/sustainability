@@ -3,7 +3,6 @@ aliases:
   - /items/show/436
   - /items/show/436.html
 collections: []
-contributors: []
 date: '2005-12-26 20:34:17'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 15:34:17'
   Description:
     - html: false
-      text: ' Total demolition.'
+      text: Total demolition.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 436
 item_type: Still Image

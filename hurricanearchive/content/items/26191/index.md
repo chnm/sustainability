@@ -4,7 +4,6 @@ aliases:
   - /items/show/26191.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-21 18:51:49'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: studio city, ca
   lat: 34.14861
   lng: -118.39556
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26191
 item_type: Document

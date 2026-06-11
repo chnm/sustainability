@@ -4,13 +4,12 @@ aliases:
   - /items/show/26942.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Bridget Vinson, of Gentilly, LA, who evacuated to Tennessee after Hurricane Katrina. '
+      text: Interview with Bridget Vinson, of Gentilly, LA, who evacuated to Tennessee after Hurricane Katrina.
   Language:
     - html: false
       text: eng

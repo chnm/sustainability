@@ -3,7 +3,6 @@ aliases:
   - /items/show/2159
   - /items/show/2159.html
 collections: []
-contributors: []
 date: '2006-04-14 20:11:05'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-14 16:11:05'
   Description:
     - html: false
-      text: ' A peacock from the hotel we stayed in when we helped Grandmother set up her trailer.  Every day we drove to Bay St. Louis where we saw piles of debris and then every evening we would drive back to a nice hotel complete with peacocks.'
+      text: A peacock from the hotel we stayed in when we helped Grandmother set up her trailer.  Every day we drove to Bay St. Louis where we saw piles of debris and then every evening we would drive back to a nice hotel complete with peacocks.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.463989071862997
   lng: -89.1122102737427
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2159
 item_type: Still Image

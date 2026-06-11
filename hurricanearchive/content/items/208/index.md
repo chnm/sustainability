@@ -3,7 +3,6 @@ aliases:
   - /items/show/208
   - /items/show/208.html
 collections: []
-contributors: []
 date: '2005-11-19 09:13:54'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-19 04:13:54'
   Description:
     - html: false
-      text: ' This is a picture of the Chalmette National Cemetary where fallen war heroes have been buried since the Revolutionary War.'
+      text: This is a picture of the Chalmette National Cemetary where fallen war heroes have been buried since the Revolutionary War.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.900262
   lng: -89.894926
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 208
 item_type: Still Image

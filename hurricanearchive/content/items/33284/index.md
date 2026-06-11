@@ -4,7 +4,6 @@ aliases:
   - /items/show/33284.html
 collections:
   - '181'
-contributors: []
 date: '2007-12-23 22:49:33'
 draft: false
 dublin_core:
@@ -25,9 +24,9 @@ files:
   - fullsize:
     id: 24120
     mime: application/octet-stream
-    original_filename: 'Perry_0bf92d5660.Creative Candidates '
+    original_filename: Perry_0bf92d5660.Creative Candidates
     thumb:
-    url: 'https://hurricanearchive.org/files/original/14fb29cafdfb4e14fb29cafdfef1.Creative Candidates '
+    url: https://hurricanearchive.org/files/original/14fb29cafdfb4e14fb29cafdfef1.Creative Candidates
 geo:
 id: 33284
 item_type: Document

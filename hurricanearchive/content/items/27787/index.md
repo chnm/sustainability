@@ -4,7 +4,6 @@ aliases:
   - /items/show/27787.html
 collections:
   - '147'
-contributors: []
 date: '2007-05-20 20:12:45'
 draft: false
 dublin_core:
@@ -16,7 +15,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'Algiers busses, used for evacuation '
+      text: Algiers busses, used for evacuation
 featured: false
 files: []
 geo:
@@ -36,7 +35,7 @@ tags:
   - convention center
   - orleans parish school board
   - superdome
-title: 'Algiers busses, used for evacuation '
+title: Algiers busses, used for evacuation
 type: items
 ---
 

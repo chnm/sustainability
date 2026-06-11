@@ -4,13 +4,12 @@ aliases:
   - /items/show/34633.html
 collections:
   - '185'
-contributors: []
 date: '2008-04-24 19:33:23'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Article written for Realtor Magazine about several realtors who lost everything in Hurricane Katrina.  '
+      text: Article written for Realtor Magazine about several realtors who lost everything in Hurricane Katrina.
   Language:
     - html: false
       text: eng

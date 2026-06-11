@@ -3,7 +3,6 @@ aliases:
   - /items/show/25981
   - /items/show/25981.html
 collections: []
-contributors: []
 date: '2007-03-09 04:07:33'
 draft: false
 dublin_core:
@@ -18,7 +17,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'NPR Segment on the Waveland Drug Store destroyed by Katrina '
+      text: NPR Segment on the Waveland Drug Store destroyed by Katrina
 featured: false
 files: []
 geo:
@@ -31,7 +30,7 @@ plugin_metadata: []
 related_items: []
 slug: '25981'
 tags: []
-title: 'NPR Segment on the Waveland Drug Store destroyed by Katrina '
+title: NPR Segment on the Waveland Drug Store destroyed by Katrina
 type: items
 ---
 

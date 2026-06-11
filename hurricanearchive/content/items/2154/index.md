@@ -3,7 +3,6 @@ aliases:
   - /items/show/2154
   - /items/show/2154.html
 collections: []
-contributors: []
 date: '2006-04-14 19:33:47'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-14 15:33:47'
   Description:
     - html: false
-      text: " This is a picture of my Grandmother looking out at the beach while sitting next to what used to be her home.  The American flag was put up to cheer Grandmother up.  The tree she is sitting next to is still alive, as is the one in the upper left corner.  Some of her other trees weren\\'t as lucky."
+      text: This is a picture of my Grandmother looking out at the beach while sitting next to what used to be her home.  The American flag was put up to cheer Grandmother up.  The tree she is sitting next to is still alive, as is the one in the upper left corner.  Some of her other trees weren\'t as lucky.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.2947575606294
   lng: -89.3441247940063
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2154
 item_type: Still Image

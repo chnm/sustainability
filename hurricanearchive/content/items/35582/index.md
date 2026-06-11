@@ -3,7 +3,6 @@ aliases:
   - /items/show/35582
   - /items/show/35582.html
 collections: []
-contributors: []
 date: '2008-06-07 21:03:37'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 4901 Venus street
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35582
 item_type: Document

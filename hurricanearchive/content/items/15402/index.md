@@ -4,13 +4,12 @@ aliases:
   - /items/show/15402.html
 collections:
   - '103'
-contributors: []
 date: '2007-01-29 21:00:19'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Oral history of Corey Lee who evacuated from Louisiana after Hurricane Katrina and enrolled in Middle Tennessee State University. '
+      text: Oral history of Corey Lee who evacuated from Louisiana after Hurricane Katrina and enrolled in Middle Tennessee State University.
   Language:
     - html: false
       text: eng

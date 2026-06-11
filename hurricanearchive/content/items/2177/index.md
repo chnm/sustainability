@@ -3,7 +3,6 @@ aliases:
   - /items/show/2177
   - /items/show/2177.html
 collections: []
-contributors: []
 date: '2006-04-22 17:12:25'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 13:12:25'
   Description:
     - html: false
-      text: ' Birthday party at the Hurricane Katrina shelter in Citronelle, Alabama.'
+      text: Birthday party at the Hurricane Katrina shelter in Citronelle, Alabama.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.1046852937585
   lng: -88.253173828125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2177
 item_type: Still Image

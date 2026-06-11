@@ -3,7 +3,6 @@ aliases:
   - /items/show/344
   - /items/show/344.html
 collections: []
-contributors: []
 date: '2005-12-10 16:15:16'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-10 11:15:16'
   Description:
     - html: false
-      text: ' desks from our lady of lourdes catholic school. \r\nslidell, la.'
+      text: desks from our lady of lourdes catholic school. \r\nslidell, la.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.446993
   lng: -89.976592
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 344
 item_type: Still Image

@@ -4,7 +4,6 @@ aliases:
   - /items/show/1291.html
 collections:
   - '10'
-contributors: []
 date: '2006-01-27 16:40:02'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2005-09-27 10:19:47'
   Description:
     - html: false
-      text: 'Katrina-damaged McDonalds signage. '
+      text: Katrina-damaged McDonalds signage.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1291
 item_type: Still Image

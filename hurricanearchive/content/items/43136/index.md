@@ -3,7 +3,6 @@ aliases:
   - /items/show/43136
   - /items/show/43136.html
 collections: []
-contributors: []
 date: '2010-08-31 00:37:06'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 4403 Joycelyn Dr.
   lat: 29.90783
   lng: -89.98508
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43136
 item_type: Document

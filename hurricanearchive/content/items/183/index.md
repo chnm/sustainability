@@ -3,7 +3,6 @@ aliases:
   - /items/show/183
   - /items/show/183.html
 collections: []
-contributors: []
 date: '2005-11-18 18:46:36'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 13:46:36'
   Description:
     - html: false
-      text: ' Off  HWY 23, on the way to Empire, LA.\r\n Cemetery in the background , with some floating coffins on the edge of the water.'
+      text: Off  HWY 23, on the way to Empire, LA.\r\n Cemetery in the background , with some floating coffins on the edge of the water.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.399225762981402
   lng: -89.6099853515625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 183
 item_type: Still Image

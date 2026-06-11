@@ -3,7 +3,6 @@ aliases:
   - /items/show/2192
   - /items/show/2192.html
 collections: []
-contributors: []
 date: '2006-04-24 03:23:50'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-23 23:23:50'
   Description:
     - html: false
-      text: ' The refrigerator was found in the French Quarter one afternoon.'
+      text: The refrigerator was found in the French Quarter one afternoon.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: french quarter, new orleans
   lat: 29.9584426
   lng: -90.0644107
+  map_type: Google Maps v3.x
   zoom: 12
 id: 2192
 item_type: Still Image

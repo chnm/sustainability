@@ -3,7 +3,6 @@ aliases:
   - /items/show/110
   - /items/show/110.html
 collections: []
-contributors: []
 date: '2005-11-17 22:38:25'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:38:25'
   Description:
     - html: false
-      text: ' Treme, New Orleans'
+      text: Treme, New Orleans
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9828919653158
   lng: -90.0514984130859
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 110
 item_type: Still Image

@@ -4,7 +4,6 @@ aliases:
   - /items/show/2400.html
 collections:
   - '16'
-contributors: []
 date: '2006-08-17 17:10:57'
 draft: false
 dublin_core:
@@ -13,13 +12,13 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: ' (Sept. 2, 2005) - Lt. j.g. Shay Williams, of Coast Guard Air Station New Orleans, carries a small child from the Superdome in New Orleans into a rescue helicopter today. The Coast Guard continues to rescue survivors of Hurricane Katrina and transport them to safer areas. U.S. Coast Guard Photo by Petty Officer 2nd Class Kyle Niemi \r\n050902-C-3550N-138 (FR) '
+      text: (Sept. 2, 2005) - Lt. j.g. Shay Williams, of Coast Guard Air Station New Orleans, carries a small child from the Superdome in New Orleans into a rescue helicopter today. The Coast Guard continues to rescue survivors of Hurricane Katrina and transport them to safer areas. U.S. Coast Guard Photo by Petty Officer 2nd Class Kyle Niemi \r\n050902-C-3550N-138 (FR)
   Language:
     - html: false
       text: eng
   Publisher:
     - html: false
-      text: 'U.S. COAST GUARD '
+      text: U.S. COAST GUARD
   Title:
     - html: false
       text: Superdome Rescue

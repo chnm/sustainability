@@ -3,7 +3,6 @@ aliases:
   - /items/show/438
   - /items/show/438.html
 collections: []
-contributors: []
 date: '2005-12-26 20:37:26'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 15:37:26'
   Description:
     - html: false
-      text: ' A boat rests next to a demolished house.'
+      text: A boat rests next to a demolished house.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.878755346037998
   lng: -90.0439453125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 438
 item_type: Still Image

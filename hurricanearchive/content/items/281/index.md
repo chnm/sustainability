@@ -3,7 +3,6 @@ aliases:
   - /items/show/281
   - /items/show/281.html
 collections: []
-contributors: []
 date: '2005-11-26 18:44:49'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-26 13:44:49'
   Description:
     - html: false
-      text: ' Taking a picture of someone taking a picture of the Marina on Lakeshore Dr completely destroyed. (image provided by mudbugdesigns.com)'
+      text: Taking a picture of someone taking a picture of the Marina on Lakeshore Dr completely destroyed. (image provided by mudbugdesigns.com)
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0245903949386
   lng: -90.11681556701659
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 281
 item_type: Still Image

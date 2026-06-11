@@ -3,7 +3,6 @@ aliases:
   - /items/show/34046
   - /items/show/34046.html
 collections: []
-contributors: []
 date: '2008-03-13 19:09:59'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 11 Shady Ln
   lat: 30.41153
   lng: -90.10506
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34046
 item_type: Document

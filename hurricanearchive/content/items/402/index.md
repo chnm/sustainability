@@ -3,7 +3,6 @@ aliases:
   - /items/show/402
   - /items/show/402.html
 collections: []
-contributors: []
 date: '2005-12-26 18:30:21'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 13:30:21'
   Description:
     - html: false
-      text: ' A sign on the beach gives hope to survivors.'
+      text: A sign on the beach gives hope to survivors.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.285159872426
   lng: -89.39849853515621
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 402
 item_type: Still Image

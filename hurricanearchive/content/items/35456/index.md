@@ -4,7 +4,6 @@ aliases:
   - /items/show/35456.html
 collections:
   - '68'
-contributors: []
 date: '2008-06-02 02:45:32'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 6048 Canal Blvd. New Orleans, LA
   lat: 29.99523
   lng: -90.09484
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35456
 item_type: Still Image

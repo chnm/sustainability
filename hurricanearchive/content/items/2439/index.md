@@ -3,7 +3,6 @@ aliases:
   - /items/show/2439
   - /items/show/2439.html
 collections: []
-contributors: []
 date: '2006-07-31 15:54:50'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: ''
   lat: 38.853231
   lng: -77.305097
+  map_type: ''
   zoom: 12
 id: 2439
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/37410
   - /items/show/37410.html
 collections: []
-contributors: []
 date: '2008-09-21 01:50:52'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 4009 orange grove rd.
   lat: 30.40008
   lng: -88.45411
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37410
 item_type: Document

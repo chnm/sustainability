@@ -3,7 +3,6 @@ aliases:
   - /items/show/294
   - /items/show/294.html
 collections: []
-contributors: []
 date: '2005-12-01 19:03:54'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-01 14:03:54'
   Description:
     - html: false
-      text: ' The following are blog entries from “Between the 5 & the 6” which is a personal blog from Ryan Burchett.  During hurricanes Katrina and Rita, Ryan was the Chief Meteorologist at KLFY-TV Channel 10, the CBS affiliate in Lafayette, Louisiana.  Ryan had the unique perspective of covering both storms extensively as both impacted the KLFY viewing area.  The blogs were written mainly for the consumption of family and friends and not as a public forum, but offer a unique perspective of both storms.'
+      text: The following are blog entries from “Between the 5 & the 6” which is a personal blog from Ryan Burchett.  During hurricanes Katrina and Rita, Ryan was the Chief Meteorologist at KLFY-TV Channel 10, the CBS affiliate in Lafayette, Louisiana.  Ryan had the unique perspective of covering both storms extensively as both impacted the KLFY viewing area.  The blogs were written mainly for the consumption of family and friends and not as a public forum, but offer a unique perspective of both storms.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.225848323247703
   lng: -92.0269775390625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 294
 item_type: Document

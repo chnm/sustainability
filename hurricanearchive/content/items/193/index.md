@@ -3,7 +3,6 @@ aliases:
   - /items/show/193
   - /items/show/193.html
 collections: []
-contributors: []
 date: '2005-11-18 23:45:25'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 18:45:25'
   Description:
     - html: false
-      text: ' An N.O.P.D. officer days after the storm hit.  This picture was not taken by a friend.'
+      text: An N.O.P.D. officer days after the storm hit.  This picture was not taken by a friend.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.938343
   lng: -90.100773
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 193
 item_type: Still Image

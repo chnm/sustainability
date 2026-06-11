@@ -3,7 +3,6 @@ aliases:
   - /items/show/1854
   - /items/show/1854.html
 collections: []
-contributors: []
 date: '2006-02-18 06:13:46'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-18 01:13:46'
   Description:
     - html: false
-      text: ' Water line.  The flood reached 10 and a half feet and stayed at at least 9 feet for 3 weeks.  How could anything survive that.  All was lost in this Wilton Drive Gentilly home as well as all the others in the area.  How could a levee be so ineffective?'
+      text: Water line.  The flood reached 10 and a half feet and stayed at at least 9 feet for 3 weeks.  How could anything survive that.  All was lost in this Wilton Drive Gentilly home as well as all the others in the area.  How could a levee be so ineffective?
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1854
 item_type: Still Image

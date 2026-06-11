@@ -4,7 +4,6 @@ aliases:
   - /items/show/26255.html
 collections:
   - '68'
-contributors: []
 date: '2007-03-27 00:01:09'
 draft: false
 dublin_core:
@@ -29,6 +28,7 @@ geo:
   address: Chalmette, LA
   lat: 29.9427892
   lng: -89.9629372
+  map_type: Leaflet
   zoom: 12
 id: 26255
 item_type: Still Image

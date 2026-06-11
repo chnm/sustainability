@@ -4,7 +4,6 @@ aliases:
   - /items/show/26014.html
 collections:
   - '142'
-contributors: []
 date: '2007-03-14 13:46:12'
 draft: false
 dublin_core:
@@ -32,6 +31,7 @@ geo:
   address: 5440 Law Street, New Orleans
   lat: 29.97694
   lng: -90.01253
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26014
 item_type: Moving Image

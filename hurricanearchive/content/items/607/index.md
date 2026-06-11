@@ -3,7 +3,6 @@ aliases:
   - /items/show/607
   - /items/show/607.html
 collections: []
-contributors: []
 date: '2006-01-17 08:56:00'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 03:56:00'
   Description:
     - html: false
-      text: ' I took this picture after returning home from evacuation, over 2 weeks after Hurricane Rita hit here.  This used to be Mattress Warehouse in front of Parkdale Mall in Beaumont, Texas.'
+      text: I took this picture after returning home from evacuation, over 2 weeks after Hurricane Rita hit here.  This used to be Mattress Warehouse in front of Parkdale Mall in Beaumont, Texas.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.148461
   lng: -94.172481
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 607
 item_type: Still Image

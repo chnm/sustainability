@@ -4,7 +4,6 @@ aliases:
   - /items/show/26729.html
 collections:
   - '80'
-contributors: []
 date: '2007-04-16 21:29:05'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2007-04-16 00:00:00'
   Description:
     - html: false
-      text: 'Charcoal portrait of Common Ground volunteer. First line of text: \"What I have seen here has blown my mind...\" Talks about compassion, the need to question what is going on in the world. '
+      text: 'Charcoal portrait of Common Ground volunteer. First line of text: \"What I have seen here has blown my mind...\" Talks about compassion, the need to question what is going on in the world.'
   Language:
     - html: false
       text: eng

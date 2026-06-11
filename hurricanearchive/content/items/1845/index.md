@@ -3,7 +3,6 @@ aliases:
   - /items/show/1845
   - /items/show/1845.html
 collections: []
-contributors: []
 date: '2006-02-14 00:54:48'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-13 19:54:48'
   Description:
     - html: false
-      text: " Looking south to the Gulf of Mexico from Route 82 into Holly Beach, LA. The small flag flying appears to show the Johnson\\'s Bayou School Rebels mascot on a Confederate battle flag.\\r\\nTaken February 12, 2006."
+      text: Looking south to the Gulf of Mexico from Route 82 into Holly Beach, LA. The small flag flying appears to show the Johnson\'s Bayou School Rebels mascot on a Confederate battle flag.\r\nTaken February 12, 2006.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.7722003479921
   lng: -93.45348358154301
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1845
 item_type: Still Image

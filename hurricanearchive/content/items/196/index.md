@@ -3,7 +3,6 @@ aliases:
   - /items/show/196
   - /items/show/196.html
 collections: []
-contributors: []
 date: '2005-11-18 23:52:53'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 18:52:53'
   Description:
     - html: false
-      text: ' The Subway on Convention Center Boulevard.'
+      text: The Subway on Convention Center Boulevard.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.938343
   lng: -90.100773
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 196
 item_type: Still Image

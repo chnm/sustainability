@@ -3,7 +3,6 @@ aliases:
   - /items/show/12033
   - /items/show/12033.html
 collections: []
-contributors: []
 date: '2006-10-06 19:54:42'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 4902 Arts Street
   lat: 30.00948
   lng: -90.05362
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12033
 item_type: Still Image

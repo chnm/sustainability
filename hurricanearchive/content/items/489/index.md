@@ -3,7 +3,6 @@ aliases:
   - /items/show/489
   - /items/show/489.html
 collections: []
-contributors: []
 date: '2005-12-28 20:58:50'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 15:58:50'
   Description:
     - html: false
-      text: ' Egrets feeding in the yards of homes after the flood waters of Hurricane Rita receded.  These homes of shrimpers are located on Hwy. 56, Terrebonne Parish, Louisiana, on Bayou Petit Caillou between Chauvin and Cocodrie. Sept. 2005'
+      text: Egrets feeding in the yards of homes after the flood waters of Hurricane Rita receded.  These homes of shrimpers are located on Hwy. 56, Terrebonne Parish, Louisiana, on Bayou Petit Caillou between Chauvin and Cocodrie. Sept. 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.4061050557093
   lng: -90.6124877929688
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 489
 item_type: Still Image

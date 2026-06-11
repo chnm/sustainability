@@ -3,13 +3,12 @@ aliases:
   - /items/show/32137
   - /items/show/32137.html
 collections: []
-contributors: []
 date: '2007-09-04 18:09:00'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Time line of events at the Louis Armstrong airport following Katrina. '
+      text: Time line of events at the Louis Armstrong airport following Katrina.
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

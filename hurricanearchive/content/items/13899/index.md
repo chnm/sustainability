@@ -3,13 +3,12 @@ aliases:
   - /items/show/13899
   - /items/show/13899.html
 collections: []
-contributors: []
 date: '2006-12-12 17:13:56'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'reminders of the life that was lived inside those walls. '
+      text: reminders of the life that was lived inside those walls.
   Language:
     - html: false
       text: eng

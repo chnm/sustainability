@@ -3,7 +3,6 @@ aliases:
   - /items/show/35663
   - /items/show/35663.html
 collections: []
-contributors: []
 date: '2008-06-12 19:54:21'
 draft: false
 dublin_core:
@@ -16,9 +15,10 @@ dublin_core:
 featured: false
 files: []
 geo:
-  address: '3113 Tyla Ct Harvey, La '
+  address: 3113 Tyla Ct Harvey, La
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35663
 item_type: Document

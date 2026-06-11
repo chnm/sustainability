@@ -3,7 +3,6 @@ aliases:
   - /items/show/32486
   - /items/show/32486.html
 collections: []
-contributors: []
 date: '2007-09-24 23:18:26'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: s. mumboct.
   lat: 30.01203
   lng: -90.43945
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 32486
 item_type: Document

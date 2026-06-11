@@ -4,7 +4,6 @@ aliases:
   - /items/show/26345.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-28 19:03:08'
 draft: false
 dublin_core:
@@ -16,13 +15,14 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: ' Hurricane Katrina'
+      text: Hurricane Katrina
 featured: false
 files: []
 geo:
   address: Harrison, Arkansas
   lat: 36.22972
   lng: -93.1075
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26345
 item_type: Document
@@ -34,7 +34,7 @@ related_items: []
 slug: '26345'
 tags:
   - poetry
-title: ' Hurricane Katrina'
+title: Hurricane Katrina
 type: items
 ---
 

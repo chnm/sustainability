@@ -3,7 +3,6 @@ aliases:
   - /items/show/25980
   - /items/show/25980.html
 collections: []
-contributors: []
 date: '2007-03-09 04:05:16'
 draft: false
 dublin_core:
@@ -18,7 +17,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'Waveland makes National Geographic Special Edition on Katrina '
+      text: Waveland makes National Geographic Special Edition on Katrina
 featured: false
 files: []
 geo:
@@ -31,7 +30,7 @@ plugin_metadata: []
 related_items: []
 slug: '25980'
 tags: []
-title: 'Waveland makes National Geographic Special Edition on Katrina '
+title: Waveland makes National Geographic Special Edition on Katrina
 type: items
 ---
 

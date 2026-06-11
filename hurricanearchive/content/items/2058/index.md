@@ -3,7 +3,6 @@ aliases:
   - /items/show/2058
   - /items/show/2058.html
 collections: []
-contributors: []
 date: '2006-03-30 06:24:12'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-30 01:24:12'
   Description:
     - html: false
-      text: ' Oct 31, 2005  Lakeview, Canal Parish\r\nFive shots stiched together in perspective on a Nikon D70.\r\nThis  is  a man- made mountain of the belongings of the fine people of Lakeview. I would estimate the height to be 30ft , a city block deep and a mile long. I have detail shots of items that survived and will upload these pics with the hope to reunite with them their owners.'
+      text: Oct 31, 2005  Lakeview, Canal Parish\r\nFive shots stiched together in perspective on a Nikon D70.\r\nThis  is  a man- made mountain of the belongings of the fine people of Lakeview. I would estimate the height to be 30ft , a city block deep and a mile long. I have detail shots of items that survived and will upload these pics with the hope to reunite with them their owners.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2058
 item_type: Still Image

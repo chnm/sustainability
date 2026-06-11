@@ -3,7 +3,6 @@ aliases:
   - /items/show/1867
   - /items/show/1867.html
 collections: []
-contributors: []
 date: '2006-02-24 13:30:43'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-24 08:30:43'
   Description:
     - html: false
-      text: ' The red house on the left is my Aunt and Uncles.  They were only a few blocks down the street from the levee break.  The house has abotu 3-4 inches of mud inside. Everything was destroyed.  Now we are just waiting to find out what the Corps wants to do with the property, if the land will be needed for the new levee repairs or pumping stations they plan to build.'
+      text: The red house on the left is my Aunt and Uncles.  They were only a few blocks down the street from the levee break.  The house has abotu 3-4 inches of mud inside. Everything was destroyed.  Now we are just waiting to find out what the Corps wants to do with the property, if the land will be needed for the new levee repairs or pumping stations they plan to build.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.002253
   lng: -90.103673
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1867
 item_type: Still Image

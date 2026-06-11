@@ -3,7 +3,6 @@ aliases:
   - /items/show/1863
   - /items/show/1863.html
 collections: []
-contributors: []
 date: '2006-02-21 15:13:14'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-21 10:13:14'
   Description:
     - html: false
-      text: ' This was my bedroom Post-Katrina in Eastern New Orleans. The water from the levee broke through the home.'
+      text: This was my bedroom Post-Katrina in Eastern New Orleans. The water from the levee broke through the home.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.998653
   lng: -90.044561
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1863
 item_type: Still Image

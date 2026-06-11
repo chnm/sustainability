@@ -4,7 +4,6 @@ aliases:
   - /items/show/26359.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-28 19:41:47'
 draft: false
 dublin_core:
@@ -16,13 +15,14 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: ' My City Was Gone'
+      text: My City Was Gone
 featured: false
 files: []
 geo:
   address: SLidell, LA
   lat: 30.275
   lng: -89.78111
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26359
 item_type: Document
@@ -34,7 +34,7 @@ related_items: []
 slug: '26359'
 tags:
   - poetry
-title: ' My City Was Gone'
+title: My City Was Gone
 type: items
 ---
 

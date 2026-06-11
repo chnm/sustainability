@@ -3,7 +3,6 @@ aliases:
   - /items/show/2172
   - /items/show/2172.html
 collections: []
-contributors: []
 date: '2006-04-22 14:18:56'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 10:18:56'
   Description:
     - html: false
-      text: ' Talking things over at the United Methodist Church in Citronelle, Alabama a Hurricane Katrina shelter.'
+      text: Talking things over at the United Methodist Church in Citronelle, Alabama a Hurricane Katrina shelter.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.1046852937585
   lng: -88.23944091796879
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2172
 item_type: Still Image

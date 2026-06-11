@@ -3,7 +3,6 @@ aliases:
   - /items/show/1832
   - /items/show/1832.html
 collections: []
-contributors: []
 date: '2006-02-09 23:23:15'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-09 18:23:15'
   Description:
     - html: false
-      text: " This is a photo of a lear jet model 24 that was washed into the art deco fountains built in the 30\\'s and designed by Ticky Alverez."
+      text: This is a photo of a lear jet model 24 that was washed into the art deco fountains built in the 30\'s and designed by Ticky Alverez.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0350679926905
   lng: -90.0265216827393
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1832
 item_type: Still Image

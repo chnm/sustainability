@@ -4,13 +4,12 @@ aliases:
   - /items/show/3607.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'This school, like most other schools in New Orleans, has adjusted to the challenge of continuing school sessions.  Some classes are held here in New Orleans while other students, who are now living in Baton Rouge, are attending classes at Catholic High School.  Both schools are run by the Brothers of the Sacred Heart. '
+      text: This school, like most other schools in New Orleans, has adjusted to the challenge of continuing school sessions.  Some classes are held here in New Orleans while other students, who are now living in Baton Rouge, are attending classes at Catholic High School.  Both schools are run by the Brothers of the Sacred Heart.
   Language:
     - html: false
       text: eng

@@ -3,7 +3,6 @@ aliases:
   - /items/show/469
   - /items/show/469.html
 collections: []
-contributors: []
 date: '2005-12-27 20:22:50'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 15:22:50'
   Description:
     - html: false
-      text: ' The owners try to make sure that their house is not bulldozed in New Orleans.'
+      text: The owners try to make sure that their house is not bulldozed in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9549345496561
   lng: -90.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 469
 item_type: Still Image

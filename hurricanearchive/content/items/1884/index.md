@@ -3,7 +3,6 @@ aliases:
   - /items/show/1884
   - /items/show/1884.html
 collections: []
-contributors: []
 date: '2006-03-06 13:28:41'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 08:28:41'
   Description:
     - html: false
-      text: ' Rats Nest Road or Lakeview Dr. Slidell Louisiana'
+      text: Rats Nest Road or Lakeview Dr. Slidell Louisiana
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.2169855869278
   lng: -89.8125457763672
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1884
 item_type: Still Image

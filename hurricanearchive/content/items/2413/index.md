@@ -4,7 +4,6 @@ aliases:
   - /items/show/2413.html
 collections:
   - '16'
-contributors: []
 date: '2006-08-17 17:11:02'
 draft: false
 dublin_core:
@@ -13,13 +12,13 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: "BATON ROUGE, La. (Sept. 17, 2005) An oil skimmer cleans oil from the water\\'s surface at the Sundown East oil facility in Southeast Louisiana. The site which has spilled approximately 18,900 gallons of oil after sustaining damage during the hurricane, is one of ten large oil spills that federal, state, and local officials are responding to in cooperation with industry partners. USCG photo by PO Mariana O\\'Leary \\r\\n050917-C-9889O-007 "
+      text: BATON ROUGE, La. (Sept. 17, 2005) An oil skimmer cleans oil from the water\'s surface at the Sundown East oil facility in Southeast Louisiana. The site which has spilled approximately 18,900 gallons of oil after sustaining damage during the hurricane, is one of ten large oil spills that federal, state, and local officials are responding to in cooperation with industry partners. USCG photo by PO Mariana O\'Leary \r\n050917-C-9889O-007
   Language:
     - html: false
       text: eng
   Publisher:
     - html: false
-      text: 'US COAST GUARD '
+      text: US COAST GUARD
   Title:
     - html: false
       text: Oil Skimmer Cleaning up Spill

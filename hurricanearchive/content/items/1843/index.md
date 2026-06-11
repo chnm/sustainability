@@ -3,7 +3,6 @@ aliases:
   - /items/show/1843
   - /items/show/1843.html
 collections: []
-contributors: []
 date: '2006-02-14 00:45:18'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-13 19:45:18'
   Description:
     - html: false
-      text: " Looking north towards Route 82 in Holly Beach, LA where homes used to stand. This area was hit by Rita\\'s storm surge that threw water and sand into the neighborhood and sent vehicles into ditches and buried them in mud. Taken February 12, 2006"
+      text: Looking north towards Route 82 in Holly Beach, LA where homes used to stand. This area was hit by Rita\'s storm surge that threw water and sand into the neighborhood and sent vehicles into ditches and buried them in mud. Taken February 12, 2006
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.7714925803499
   lng: -93.46026420593259
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1843
 item_type: Still Image

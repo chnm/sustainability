@@ -3,13 +3,14 @@ aliases:
   - /items/show/28632
   - /items/show/28632.html
 collections: []
-contributors: []
 date: '2007-06-13 17:40:43'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "\"2520 GPS\"\r\nLower 9th Ward, New Orleans, LA\r\n"
+      text: |-
+        "2520 GPS"
+        Lower 9th Ward, New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

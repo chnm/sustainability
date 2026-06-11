@@ -3,7 +3,6 @@ aliases:
   - /items/show/1880
   - /items/show/1880.html
 collections: []
-contributors: []
 date: '2006-03-06 12:57:36'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 07:57:36'
   Description:
     - html: false
-      text: ' I am not sure who took this photo.  It appeared in our local newspaper and I copied it.  This is a view of a highway with high water and with out the water.  Same location.'
+      text: I am not sure who took this photo.  It appeared in our local newspaper and I copied it.  This is a view of a highway with high water and with out the water.  Same location.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.561855
   lng: -90.752351
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1880
 item_type: Still Image

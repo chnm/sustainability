@@ -3,7 +3,6 @@ aliases:
   - /items/show/484
   - /items/show/484.html
 collections: []
-contributors: []
 date: '2005-12-28 20:00:38'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 15:00:38'
   Description:
     - html: false
-      text: ' Hurricane Rita aftermath, September 2005, Dulac, Louisiana, on Hwy.  57, Terrebonne Parish.'
+      text: Hurricane Rita aftermath, September 2005, Dulac, Louisiana, on Hwy.  57, Terrebonne Parish.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.3486636465236
   lng: -90.64270019531249
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 484
 item_type: Still Image

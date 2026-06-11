@@ -3,7 +3,6 @@ aliases:
   - /items/show/618
   - /items/show/618.html
 collections: []
-contributors: []
 date: '2006-01-17 17:09:43'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 12:09:43'
   Description:
     - html: false
-      text: ' Gas station in Evadale, Texas. Week after hurricane went through.'
+      text: Gas station in Evadale, Texas. Week after hurricane went through.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.69986
   lng: -94.163
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 618
 item_type: Still Image

@@ -4,13 +4,12 @@ aliases:
   - /items/show/26931.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Leslie York of Smyrna, TN whose parents lived in Gulfport, MS during Hurricane Katrina. '
+      text: Interview with Leslie York of Smyrna, TN whose parents lived in Gulfport, MS during Hurricane Katrina.
   Language:
     - html: false
       text: eng

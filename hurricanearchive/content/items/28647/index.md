@@ -3,13 +3,14 @@ aliases:
   - /items/show/28647
   - /items/show/28647.html
 collections: []
-contributors: []
 date: '2007-06-13 17:50:11'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "The infamous new levee, which should have been completed by today.\r\nLower 9th Ward, New Orleans, LA"
+      text: |-
+        The infamous new levee, which should have been completed by today.
+        Lower 9th Ward, New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

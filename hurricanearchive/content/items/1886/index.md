@@ -3,7 +3,6 @@ aliases:
   - /items/show/1886
   - /items/show/1886.html
 collections: []
-contributors: []
 date: '2006-03-06 14:14:19'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 09:14:19'
   Description:
     - html: false
-      text: ' 4000 blk Iroquois st . About a half hour after the storm subsided.Water was about 6 ft in the streets.'
+      text: 4000 blk Iroquois st . About a half hour after the storm subsided.Water was about 6 ft in the streets.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.000658679387698
   lng: -90.0433015823364
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1886
 item_type: Still Image

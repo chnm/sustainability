@@ -3,7 +3,6 @@ aliases:
   - /items/show/616
   - /items/show/616.html
 collections: []
-contributors: []
 date: '2006-01-17 17:07:08'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 12:07:08'
   Description:
     - html: false
-      text: " Obscured by the base of tree\\'s is the house in the background. This was the driveway to the house. This is a good example of how big uprooted trees were, and how much ground was pulled up with them. This was taken in W. Walton Rd. in Lumberton, Texas."
+      text: Obscured by the base of tree\'s is the house in the background. This was the driveway to the house. This is a good example of how big uprooted trees were, and how much ground was pulled up with them. This was taken in W. Walton Rd. in Lumberton, Texas.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.281836
   lng: -94.219122
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 616
 item_type: Still Image

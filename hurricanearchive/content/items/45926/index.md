@@ -3,7 +3,6 @@ aliases:
   - /items/show/45926
   - /items/show/45926.html
 collections: []
-contributors: []
 date: '2013-01-18 23:53:33'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: May 2006, 9 months after Katrina
   Title:
     - html: false
-      text: "9 months after Katrina\r\n"
+      text: 9 months after Katrina
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/d8a71fb7952416a606ce2982fe7a1a8d.jpg
@@ -31,7 +30,7 @@ plugin_metadata: []
 related_items: []
 slug: '45926'
 tags: []
-title: "9 months after Katrina\r\n"
+title: 9 months after Katrina
 type: items
 ---
 

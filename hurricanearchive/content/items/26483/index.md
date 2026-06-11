@@ -4,7 +4,6 @@ aliases:
   - /items/show/26483.html
 collections:
   - '143'
-contributors: []
 date: '2007-04-04 15:44:41'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: metarie, la
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26483
 item_type: Document

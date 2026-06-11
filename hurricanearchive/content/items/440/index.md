@@ -3,7 +3,6 @@ aliases:
   - /items/show/440
   - /items/show/440.html
 collections: []
-contributors: []
 date: '2005-12-26 20:40:31'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 15:40:31'
   Description:
     - html: false
-      text: ' The Gulfport beach and waters are littered with debris.'
+      text: The Gulfport beach and waters are littered with debris.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.993002284551103
   lng: -90.17578125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 440
 item_type: Still Image

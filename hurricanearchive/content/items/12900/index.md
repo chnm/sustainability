@@ -3,13 +3,12 @@ aliases:
   - /items/show/12900
   - /items/show/12900.html
 collections: []
-contributors: []
 date: '2006-11-21 18:39:00'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Moving away, is like living in the witness protection program.  '
+      text: Moving away, is like living in the witness protection program.
   Language:
     - html: false
       text: eng

@@ -3,7 +3,6 @@ aliases:
   - /items/show/43266
   - /items/show/43266.html
 collections: []
-contributors: []
 date: '2010-09-09 18:33:32'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 8208 nelson st
   lat: 29.9575
   lng: -90.12096
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43266
 item_type: Document

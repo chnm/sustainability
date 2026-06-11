@@ -3,7 +3,6 @@ aliases:
   - /items/show/657
   - /items/show/657.html
 collections: []
-contributors: []
 date: '2006-01-22 16:30:14'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-22 11:30:14'
   Description:
     - html: false
-      text: ' 8-30-05 - Base of helicopter rescue operations on Superdome parking garage'
+      text: 8-30-05 - Base of helicopter rescue operations on Superdome parking garage
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.952257363233002
   lng: -90.0815391540527
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 657
 item_type: Still Image

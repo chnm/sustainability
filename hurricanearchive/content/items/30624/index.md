@@ -4,7 +4,6 @@ aliases:
   - /items/show/30624.html
 collections:
   - '166'
-contributors: []
 date: '2007-07-24 01:20:04'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2007-07-23 00:00:00'
   Description:
     - html: false
-      text: 'Photo of the remains of an old wooden building (possibly a cotton press or other agricultural storage structure) along Tchoupitoulas Street, near the wharves. The blue sky, fluffy clouds and overgrown lot make the scene look very rural, but this location is in the middle of the city. '
+      text: Photo of the remains of an old wooden building (possibly a cotton press or other agricultural storage structure) along Tchoupitoulas Street, near the wharves. The blue sky, fluffy clouds and overgrown lot make the scene look very rural, but this location is in the middle of the city.
   Language:
     - html: false
       text: eng

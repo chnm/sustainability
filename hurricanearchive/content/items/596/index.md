@@ -3,7 +3,6 @@ aliases:
   - /items/show/596
   - /items/show/596.html
 collections: []
-contributors: []
 date: '2006-01-15 15:12:16'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-15 10:12:16'
   Description:
     - html: false
-      text: " Once the rising water destroyed the city, the hope has been the city will rise again better and stronger - hence the song \\\\\\'Rising.\\\\\\'"
+      text: Once the rising water destroyed the city, the hope has been the city will rise again better and stronger - hence the song \\\'Rising.\\\'
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.024664708042
   lng: -90.2302837371826
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 596
 item_type: Document

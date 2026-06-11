@@ -4,7 +4,6 @@ aliases:
   - /items/show/35333.html
 collections:
   - '68'
-contributors: []
 date: '2008-05-27 00:05:50'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 400 Marigny St New Orleans
   lat: 29.96189
   lng: -90.05499
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35333
 item_type: Still Image

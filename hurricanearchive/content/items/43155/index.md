@@ -3,13 +3,12 @@ aliases:
   - /items/show/43155
   - /items/show/43155.html
 collections: []
-contributors: []
 date: '2010-09-02 01:30:47'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'pictures say a thousand words. '
+      text: pictures say a thousand words.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: 13929 tudo dr. new orleans la
   lat: 30.04048
   lng: -89.9206
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43155
 item_type: Still Image

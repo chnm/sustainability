@@ -3,13 +3,12 @@ aliases:
   - /items/show/34401
   - /items/show/34401.html
 collections: []
-contributors: []
 date: '2008-04-17 19:19:30'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Just found out that John is hasn\\'t replaced this shower and is  still taking a shower in this "
+      text: Just found out that John is hasn\'t replaced this shower and is  still taking a shower in this
   Rights:
     - html: false
       text: Attribution-NonCommercial License (http://creativecommons.org/licenses/by-nc/2.0/)
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 30.22894
   lng: -89.80244
+  map_type: Yahoo Maps API
   zoom: 12
 id: 34401
 item_type: Still Image

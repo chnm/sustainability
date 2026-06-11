@@ -3,7 +3,6 @@ aliases:
   - /items/show/343
   - /items/show/343.html
 collections: []
-contributors: []
 date: '2005-12-10 16:13:26'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-10 11:13:26'
   Description:
     - html: false
-      text: ' our lady of lourdes catholic church and school. \r\nslidell, la.'
+      text: our lady of lourdes catholic church and school. \r\nslidell, la.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.446993
   lng: -89.976592
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 343
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/42085
   - /items/show/42085.html
 collections: []
-contributors: []
 date: '2010-02-16 18:33:42'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2010-02-16 13:33:42'
   Description:
     - html: false
-      text: 'The street seems so hauntingly empty like a post-apocalyptic world. '
+      text: The street seems so hauntingly empty like a post-apocalyptic world.
   Language:
     - html: false
       text: eng
@@ -28,6 +27,7 @@ geo:
   address: 5769 Wingate
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42085
 item_type: Still Image

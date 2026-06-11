@@ -3,7 +3,6 @@ aliases:
   - /items/show/1860
   - /items/show/1860.html
 collections: []
-contributors: []
 date: '2006-02-21 05:20:13'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-21 00:20:13'
   Description:
     - html: false
-      text: ' Collapsed ceilng in den at my house at 5768 Wildair in New Orleans. The ceiling in four rooms collapsed as a result of severe wind damage to the roof.'
+      text: Collapsed ceilng in den at my house at 5768 Wildair in New Orleans. The ceiling in four rooms collapsed as a result of severe wind damage to the roof.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.009063
   lng: -90.062147
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1860
 item_type: Still Image

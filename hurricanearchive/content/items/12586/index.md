@@ -3,7 +3,6 @@ aliases:
   - /items/show/12586
   - /items/show/12586.html
 collections: []
-contributors: []
 date: '2006-11-09 18:03:37'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 5317 Camp sTREET
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12586
 item_type: Still Image

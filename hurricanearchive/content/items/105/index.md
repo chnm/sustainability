@@ -3,7 +3,6 @@ aliases:
   - /items/show/105
   - /items/show/105.html
 collections: []
-contributors: []
 date: '2005-11-17 22:31:03'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:31:03'
   Description:
     - html: false
-      text: ' Gulfport-Biloxi bridge.'
+      text: Gulfport-Biloxi bridge.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.448673679287598
   lng: -89.0771484375
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 105
 item_type: Still Image

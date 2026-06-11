@@ -4,7 +4,6 @@ aliases:
   - /items/show/39901.html
 collections:
   - '194'
-contributors: []
 date: '2009-03-24 20:49:21'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: 8000 Oak Street
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 39901
 item_type: Hyperlink

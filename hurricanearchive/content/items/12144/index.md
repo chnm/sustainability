@@ -3,7 +3,6 @@ aliases:
   - /items/show/12144
   - /items/show/12144.html
 collections: []
-contributors: []
 date: '2006-10-16 19:37:10'
 draft: false
 dublin_core:
@@ -36,7 +35,9 @@ slug: '12144'
 tags:
   - Evacuation
   - baltimore
-  - "displace\r\ncolumbus ohio"
+  - |-
+    displace
+    columbus ohio
   - displacement
   - evacuating
   - lajitas texas

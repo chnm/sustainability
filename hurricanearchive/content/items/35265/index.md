@@ -4,7 +4,6 @@ aliases:
   - /items/show/35265.html
 collections:
   - '68'
-contributors: []
 date: '2008-05-26 19:45:23'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: poland st, new orleans, la
   lat: 29.96059
   lng: -90.03262
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35265
 item_type: Still Image

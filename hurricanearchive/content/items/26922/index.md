@@ -4,13 +4,12 @@ aliases:
   - /items/show/26922.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with LT Col. Gary Herr of the Tennessee National Guard who deployed to the Gulf Coast for Katrina relief. '
+      text: Interview with LT Col. Gary Herr of the Tennessee National Guard who deployed to the Gulf Coast for Katrina relief.
   Language:
     - html: false
       text: eng

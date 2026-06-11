@@ -3,13 +3,14 @@ aliases:
   - /items/show/28680
   - /items/show/28680.html
 collections: []
-contributors: []
 date: '2007-06-13 20:27:21'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "This cemetery (I think) was placed on a road medium.\r\n9th Ward, New Orleans, LA"
+      text: |-
+        This cemetery (I think) was placed on a road medium.
+        9th Ward, New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

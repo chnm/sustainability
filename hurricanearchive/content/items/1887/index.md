@@ -3,7 +3,6 @@ aliases:
   - /items/show/1887
   - /items/show/1887.html
 collections: []
-contributors: []
 date: '2006-03-06 15:20:40'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 10:20:40'
   Description:
     - html: false
-      text: ' This was taken over Port Sulphur La. Plaguemines Parish.'
+      text: This was taken over Port Sulphur La. Plaguemines Parish.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.502725
   lng: -89.69023
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1887
 item_type: Still Image

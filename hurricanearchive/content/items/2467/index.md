@@ -4,13 +4,12 @@ aliases:
   - /items/show/2467.html
 collections:
   - '19'
-contributors: []
 date: '2006-08-21 16:10:59'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Remains of waterfront dwellings along Lakeview Drive, Slidell/Louisiana, November 2005 '
+      text: Remains of waterfront dwellings along Lakeview Drive, Slidell/Louisiana, November 2005
   Language:
     - html: false
       text: eng

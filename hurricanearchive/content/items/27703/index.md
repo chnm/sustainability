@@ -4,7 +4,6 @@ aliases:
   - /items/show/27703.html
 collections:
   - '68'
-contributors: []
 date: '2007-05-18 05:19:20'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: lake pontchartrain
   lat: 30.20379
   lng: -90.08717
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 27703
 item_type: Still Image

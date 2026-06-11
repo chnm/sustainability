@@ -3,7 +3,6 @@ aliases:
   - /items/show/25
   - /items/show/25.html
 collections: []
-contributors: []
 date: '2005-11-16 03:15:42'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-15 22:15:42'
   Description:
     - html: false
-      text: ' This is a house in Lakeview after Katrina.'
+      text: This is a house in Lakeview after Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.951082
   lng: -90.206031
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 25
 item_type: Still Image

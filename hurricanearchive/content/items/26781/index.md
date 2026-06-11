@@ -4,13 +4,12 @@ aliases:
   - /items/show/26781.html
 collections:
   - '68'
-contributors: []
 date: '2007-04-17 03:39:37'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Alvin Donner and mother Clothilde R. Donner outside their new home, New Orleans, 1949-50.\r\n\r\nThis image is from the archive of Ron Chapman,\r\nProfessor of History at Nunez Community College. Nunez\r\nCommunity College is located in Chalmette, in St.\r\nBernard Parish, Louisiana.  In 2005 it was heavily\r\ndamaged by flooding due to Hurricane Katrina. '
+      text: Alvin Donner and mother Clothilde R. Donner outside their new home, New Orleans, 1949-50.\r\n\r\nThis image is from the archive of Ron Chapman,\r\nProfessor of History at Nunez Community College. Nunez\r\nCommunity College is located in Chalmette, in St.\r\nBernard Parish, Louisiana.  In 2005 it was heavily\r\ndamaged by flooding due to Hurricane Katrina.
   Language:
     - html: false
       text: eng
@@ -29,6 +28,7 @@ geo:
   address: ''
   lat: 29.91685
   lng: -90.04395
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26781
 item_type: Still Image

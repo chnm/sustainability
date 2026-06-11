@@ -3,7 +3,6 @@ aliases:
   - /items/show/26609
   - /items/show/26609.html
 collections: []
-contributors: []
 date: '2007-04-11 18:03:29'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 8725 Camden St.
   lat: 38.71991
   lng: -77.07179
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26609
 item_type: Document

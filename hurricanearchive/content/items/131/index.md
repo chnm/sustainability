@@ -3,7 +3,6 @@ aliases:
   - /items/show/131
   - /items/show/131.html
 collections: []
-contributors: []
 date: '2005-11-17 23:00:43'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 18:00:43'
   Description:
     - html: false
-      text: " Proud to Swim Home, M.O.M.\\'s Ball, October 29, 2005"
+      text: Proud to Swim Home, M.O.M.\'s Ball, October 29, 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 131
 item_type: Still Image

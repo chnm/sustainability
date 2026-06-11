@@ -3,7 +3,6 @@ aliases:
   - /items/show/25599
   - /items/show/25599.html
 collections: []
-contributors: []
 date: '2007-02-18 17:45:34'
 draft: false
 dublin_core:
@@ -18,7 +17,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'The destruction caused by Hurricane Katrina '
+      text: The destruction caused by Hurricane Katrina
 featured: false
 files: []
 geo:
@@ -31,7 +30,7 @@ plugin_metadata: []
 related_items: []
 slug: '25599'
 tags: []
-title: 'The destruction caused by Hurricane Katrina '
+title: The destruction caused by Hurricane Katrina
 type: items
 ---
 

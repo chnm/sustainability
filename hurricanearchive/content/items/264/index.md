@@ -3,7 +3,6 @@ aliases:
   - /items/show/264
   - /items/show/264.html
 collections: []
-contributors: []
 date: '2005-11-26 17:19:56'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-26 12:19:56'
   Description:
     - html: false
-      text: ' Story of Coast Guard unit aiding in the relief efforts in Gulfport, MS, published in US Coast Guard Reservist magazine, vol 52, no. 7-05.'
+      text: Story of Coast Guard unit aiding in the relief efforts in Gulfport, MS, published in US Coast Guard Reservist magazine, vol 52, no. 7-05.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.376281460780895
   lng: -89.1267585754395
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 264
 item_type: Document

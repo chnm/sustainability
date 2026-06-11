@@ -3,7 +3,6 @@ aliases:
   - /items/show/42439
   - /items/show/42439.html
 collections: []
-contributors: []
 date: '2010-04-12 20:18:36'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: 1816 Pasadena Av.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42439
 item_type: Document

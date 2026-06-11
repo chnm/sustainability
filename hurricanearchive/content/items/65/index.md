@@ -3,7 +3,6 @@ aliases:
   - /items/show/65
   - /items/show/65.html
 collections: []
-contributors: []
 date: '2005-11-17 03:53:33'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-16 22:53:33'
   Description:
     - html: false
-      text: ' This is a image I would like to go along with my story.'
+      text: This is a image I would like to go along with my story.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.435893
   lng: -90.011991
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 65
 item_type: Still Image

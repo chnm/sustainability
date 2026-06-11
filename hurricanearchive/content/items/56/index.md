@@ -3,7 +3,6 @@ aliases:
   - /items/show/56
   - /items/show/56.html
 collections: []
-contributors: []
 date: '2005-11-16 22:25:58'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-16 17:25:58'
   Description:
     - html: false
-      text: " Katrina\\'s damage in the Gulf of Mexico."
+      text: Katrina\'s damage in the Gulf of Mexico.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 56
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/70
   - /items/show/70.html
 collections: []
-contributors: []
 date: '2005-11-17 06:00:11'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 01:00:11'
   Description:
     - html: false
-      text: ' Our non-house in Pass Christian, MS.  No walls or roofs for as far as the eye could see.  Beach and Gulf of Mexico in the far background.'
+      text: Our non-house in Pass Christian, MS.  No walls or roofs for as far as the eye could see.  Beach and Gulf of Mexico in the far background.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 70
 item_type: Still Image

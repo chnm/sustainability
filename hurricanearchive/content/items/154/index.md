@@ -3,7 +3,6 @@ aliases:
   - /items/show/154
   - /items/show/154.html
 collections: []
-contributors: []
 date: '2005-11-18 07:44:07'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 02:44:07'
   Description:
     - html: false
-      text: ' Shell on Robert E. Lee and paris Road in New Olreans.'
+      text: Shell on Robert E. Lee and paris Road in New Olreans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 154
 item_type: Still Image

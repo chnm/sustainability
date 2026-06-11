@@ -3,13 +3,14 @@ aliases:
   - /items/show/28681
   - /items/show/28681.html
 collections: []
-contributors: []
 date: '2007-06-13 20:27:22'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "\"Patsy pls. watch my place. They're breaking in.\"\r\nLower 9th Ward, New Orleans, LA"
+      text: |-
+        "Patsy pls. watch my place. They're breaking in."
+        Lower 9th Ward, New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

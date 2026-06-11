@@ -3,7 +3,6 @@ aliases:
   - /items/show/1864
   - /items/show/1864.html
 collections: []
-contributors: []
 date: '2006-02-21 15:17:04'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-21 10:17:04'
   Description:
     - html: false
-      text: ' When we went to our home in Eastern New Orleans, it was badly destroyed. The wind knocked out most of the house. Flood water, not from the hurricane, but from the levee destroyed the inside. Mostly wind damage.'
+      text: When we went to our home in Eastern New Orleans, it was badly destroyed. The wind knocked out most of the house. Flood water, not from the hurricane, but from the levee destroyed the inside. Mostly wind damage.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.998653
   lng: -90.044561
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1864
 item_type: Still Image

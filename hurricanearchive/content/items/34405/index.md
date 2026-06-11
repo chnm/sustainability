@@ -4,13 +4,12 @@ aliases:
   - /items/show/34405.html
 collections:
   - '200'
-contributors: []
 date: '2008-04-17 19:19:34'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'This subdivision had approximately 4-5 feet of water inside most homes.  The water came in and went out in about four hours; consequently, many outside plants & trees survived the salty water.  '
+      text: This subdivision had approximately 4-5 feet of water inside most homes.  The water came in and went out in about four hours; consequently, many outside plants & trees survived the salty water.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 30.22894
   lng: -89.80244
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34405
 item_type: Still Image

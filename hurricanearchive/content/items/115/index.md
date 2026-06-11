@@ -3,7 +3,6 @@ aliases:
   - /items/show/115
   - /items/show/115.html
 collections: []
-contributors: []
 date: '2005-11-17 22:43:56'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:43:56'
   Description:
     - html: false
-      text: ' Military searches homes for bodies in New Orleans.'
+      text: Military searches homes for bodies in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.916852233070202
   lng: -90.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 115
 item_type: Still Image

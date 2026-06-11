@@ -4,7 +4,6 @@ aliases:
   - /items/show/35352.html
 collections:
   - '68'
-contributors: []
 date: '2008-05-27 01:39:19'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 3067 Saint Claude Ave, New Orleans, LA
   lat: 29.96784
   lng: -90.04458
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35352
 item_type: Still Image

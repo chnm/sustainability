@@ -3,7 +3,6 @@ aliases:
   - /items/show/624
   - /items/show/624.html
 collections: []
-contributors: []
 date: '2006-01-17 18:12:28'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 13:12:28'
   Description:
     - html: false
-      text: ' Katrina \"debris\" found in the 9th Ward of New Orleans.  Contributed by Tina Hodgin visiting from Austin, TX.'
+      text: Katrina \"debris\" found in the 9th Ward of New Orleans.  Contributed by Tina Hodgin visiting from Austin, TX.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 624
 item_type: Still Image

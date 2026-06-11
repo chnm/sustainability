@@ -3,7 +3,6 @@ aliases:
   - /items/show/2153
   - /items/show/2153.html
 collections: []
-contributors: []
 date: '2006-04-14 02:11:50'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-13 22:11:50'
   Description:
     - html: false
-      text: ' This is a journal of my personal experience during  and after the hurricane.'
+      text: This is a journal of my personal experience during  and after the hurricane.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.15549
   lng: -93.935765
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2153
 item_type: Document

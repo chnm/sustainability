@@ -3,7 +3,6 @@ aliases:
   - /items/show/114
   - /items/show/114.html
 collections: []
-contributors: []
 date: '2005-11-17 22:43:14'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:43:14'
   Description:
     - html: false
-      text: " \\\"A Sign From God\\\"  M.O.M.\\'s Ball, October 29, 2005"
+      text: \"A Sign From God\"  M.O.M.\'s Ball, October 29, 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.938343
   lng: -90.100773
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 114
 item_type: Still Image

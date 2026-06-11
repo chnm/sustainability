@@ -3,7 +3,6 @@ aliases:
   - /items/show/35783
   - /items/show/35783.html
 collections: []
-contributors: []
 date: '2008-06-20 22:56:50'
 draft: false
 dublin_core:
@@ -28,6 +27,7 @@ geo:
   address: Jourdan Avenue
   lat: 44.76137
   lng: 0.02956
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35783
 item_type: Document

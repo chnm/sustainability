@@ -4,13 +4,12 @@ aliases:
   - /items/show/3586.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Unending trash - residents along Prentiss Avee. throw out furniture and drywall destroyed by the flooding.  Flood levels in this area were 10+ feet.     '
+      text: Unending trash - residents along Prentiss Avee. throw out furniture and drywall destroyed by the flooding.  Flood levels in this area were 10+ feet.
   Language:
     - html: false
       text: eng

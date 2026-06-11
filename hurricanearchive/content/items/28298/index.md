@@ -4,7 +4,6 @@ aliases:
   - /items/show/28298.html
 collections:
   - '157'
-contributors: []
 date: '2007-06-04 00:04:48'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: S Broad St & Banks St
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 28298
 item_type: Hyperlink

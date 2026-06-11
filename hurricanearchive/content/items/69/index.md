@@ -3,7 +3,6 @@ aliases:
   - /items/show/69
   - /items/show/69.html
 collections: []
-contributors: []
 date: '2005-11-17 05:52:13'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 00:52:13'
   Description:
     - html: false
-      text: ' The remnants of a bathroom from our 118 Vista Dr. non-house in Pass Christian, MS landed many neighboring slabs away with the soap still cradled in the soapdish.  Water lines of 35 to 40 feet were measured on telephone poles.'
+      text: The remnants of a bathroom from our 118 Vista Dr. non-house in Pass Christian, MS landed many neighboring slabs away with the soap still cradled in the soapdish.  Water lines of 35 to 40 feet were measured on telephone poles.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 69
 item_type: Still Image

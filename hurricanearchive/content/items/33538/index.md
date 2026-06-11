@@ -3,7 +3,6 @@ aliases:
   - /items/show/33538
   - /items/show/33538.html
 collections: []
-contributors: []
 date: '2008-02-06 15:48:18'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 1220 Dauphine Street
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33538
 item_type: Still Image

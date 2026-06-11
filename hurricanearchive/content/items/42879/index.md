@@ -4,13 +4,12 @@ aliases:
   - /items/show/42879.html
 collections:
   - '68'
-contributors: []
 date: '2010-06-30 02:34:05'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'My grandmother Vita Jo Mistretta and great grandfather Leon Mistretta. '
+      text: My grandmother Vita Jo Mistretta and great grandfather Leon Mistretta.
   Language:
     - html: false
       text: eng
@@ -26,6 +25,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42879
 item_type: Still Image

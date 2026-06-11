@@ -3,7 +3,6 @@ aliases:
   - /items/show/21
   - /items/show/21.html
 collections: []
-contributors: []
 date: '2005-11-15 21:02:37'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-15 16:02:37'
   Description:
     - html: false
-      text: ' This is a radio interview with New Orleans Mayor Ray Nagin, just days after Katrina flooded the city. This interview originated on WWL 870am, and portions of it have been used by nearly every news network in the United States.'
+      text: This is a radio interview with New Orleans Mayor Ray Nagin, just days after Katrina flooded the city. This interview originated on WWL 870am, and portions of it have been used by nearly every news network in the United States.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.031251
   lng: -89.975819
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 21
 item_type: Document

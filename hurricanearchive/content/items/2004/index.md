@@ -3,7 +3,6 @@ aliases:
   - /items/show/2004
   - /items/show/2004.html
 collections: []
-contributors: []
 date: '2006-03-11 05:25:14'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-11 00:25:14'
   Description:
     - html: false
-      text: ' St. Bernard Parish'
+      text: St. Bernard Parish
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2004
 item_type: Still Image

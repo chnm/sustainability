@@ -3,7 +3,6 @@ aliases:
   - /items/show/42
   - /items/show/42.html
 collections: []
-contributors: []
 date: '2005-11-16 18:09:06'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-16 13:09:06'
   Description:
     - html: false
-      text: ' what is left of West End Parkway'
+      text: what is left of West End Parkway
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42
 item_type: Still Image

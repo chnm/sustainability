@@ -4,7 +4,6 @@ aliases:
   - /items/show/26315.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-28 15:33:31'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: atlanta, ga
   lat: 33.74889
   lng: -84.38806
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26315
 item_type: Document

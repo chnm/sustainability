@@ -3,7 +3,6 @@ aliases:
   - /items/show/33178
   - /items/show/33178.html
 collections: []
-contributors: []
 date: '2007-11-27 18:38:37'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 9350 W. Inniswold Rd
   lat: 30.44867
   lng: -91.23047
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33178
 item_type: Document

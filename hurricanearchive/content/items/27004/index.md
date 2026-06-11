@@ -4,7 +4,6 @@ aliases:
   - /items/show/27004.html
 collections:
   - '68'
-contributors: []
 date: '2007-04-25 00:58:34'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 123 baronne st
   lat: 29.95404
   lng: -90.07125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 27004
 item_type: Still Image

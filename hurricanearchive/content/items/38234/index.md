@@ -4,7 +4,6 @@ aliases:
   - /items/show/38234.html
 collections:
   - '188'
-contributors: []
 date: '2008-12-04 19:07:20'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 4201 Transcontinental Blvd., Metairie, LA
   lat: 30.01494
   lng: -90.19784
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 38234
 item_type: Document

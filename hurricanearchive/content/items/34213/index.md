@@ -4,7 +4,6 @@ aliases:
   - /items/show/34213.html
 collections:
   - '68'
-contributors: []
 date: '2008-03-31 19:35:24'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: St Roch Avenue
   lat: 29.97657
   lng: -90.05279
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34213
 item_type: Still Image

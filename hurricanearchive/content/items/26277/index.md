@@ -4,7 +4,6 @@ aliases:
   - /items/show/26277.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-27 14:32:35'
 draft: false
 dublin_core:
@@ -16,13 +15,14 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: ' I Need To Write'
+      text: I Need To Write
 featured: false
 files: []
 geo:
   address: utica, ny
   lat: 43.10083
   lng: -75.23306
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26277
 item_type: Document
@@ -34,7 +34,7 @@ related_items: []
 slug: '26277'
 tags:
   - poetry
-title: ' I Need To Write'
+title: I Need To Write
 type: items
 ---
 

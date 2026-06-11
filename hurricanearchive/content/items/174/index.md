@@ -3,7 +3,6 @@ aliases:
   - /items/show/174
   - /items/show/174.html
 collections: []
-contributors: []
 date: '2005-11-18 18:20:17'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 13:20:17'
   Description:
     - html: false
-      text: ' In the neighborhood near Urquhart St, New Orleans\r\nTaken on 9/10/05'
+      text: In the neighborhood near Urquhart St, New Orleans\r\nTaken on 9/10/05
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9670553526425
   lng: -90.0328302383423
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 174
 item_type: Still Image

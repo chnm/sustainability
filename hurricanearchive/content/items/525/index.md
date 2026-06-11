@@ -3,7 +3,6 @@ aliases:
   - /items/show/525
   - /items/show/525.html
 collections: []
-contributors: []
 date: '2006-01-04 00:30:29'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-03 19:30:29'
   Description:
     - html: false
-      text: ' 10-19-05 NY,NY\r\nA Podcast interview with Jac from DefendNewOrleans.COM'
+      text: 10-19-05 NY,NY\r\nA Podcast interview with Jac from DefendNewOrleans.COM
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 40.7360066852552
   lng: -73.9902591705322
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 525
 item_type: Document

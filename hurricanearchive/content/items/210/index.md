@@ -3,7 +3,6 @@ aliases:
   - /items/show/210
   - /items/show/210.html
 collections: []
-contributors: []
 date: '2005-11-20 01:17:43'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-19 20:17:43'
   Description:
     - html: false
-      text: " Mid-City Lanes...Rock\\'n Bowl"
+      text: Mid-City Lanes...Rock\'n Bowl
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 210
 item_type: Still Image

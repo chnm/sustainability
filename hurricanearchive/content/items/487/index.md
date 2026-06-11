@@ -3,7 +3,6 @@ aliases:
   - /items/show/487
   - /items/show/487.html
 collections: []
-contributors: []
 date: '2005-12-28 20:23:56'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 15:23:56'
   Description:
     - html: false
-      text: " Hurricane Rita after a levee breach in Terrebonne Parish, Louisiana, in the town of Chauvin, Louisiana.  This mother gives her child a ride out to their car from their flooded home using a child\\'s swimming pool.  A few days after the hurricane.  Off of Hwy. 56."
+      text: Hurricane Rita after a levee breach in Terrebonne Parish, Louisiana, in the town of Chauvin, Louisiana.  This mother gives her child a ride out to their car from their flooded home using a child\'s swimming pool.  A few days after the hurricane.  Off of Hwy. 56.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.425244985472
   lng: -90.62896728515621
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 487
 item_type: Still Image

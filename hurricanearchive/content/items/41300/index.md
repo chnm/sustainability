@@ -3,7 +3,6 @@ aliases:
   - /items/show/41300
   - /items/show/41300.html
 collections: []
-contributors: []
 date: '2009-10-01 17:13:32'
 draft: false
 dublin_core:
@@ -16,9 +15,10 @@ dublin_core:
 featured: false
 files: []
 geo:
-  address: '328 almond creek slidell,la '
+  address: 328 almond creek slidell,la
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 41300
 item_type: Document

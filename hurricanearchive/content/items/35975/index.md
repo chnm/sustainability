@@ -3,13 +3,12 @@ aliases:
   - /items/show/35975
   - /items/show/35975.html
 collections: []
-contributors: []
 date: '2008-07-01 01:55:43'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: '   Taken on the Causeway mid-day the Sunday before landfall.  One of the things that continues to be a wonder is how everyone we knew took exactly three days worth of clothes.  My wife and I evacuated because we knew the levees were not designed to hold back the anticipated storm surge, but still packed as though this was not going to happen.  I think the packing job of this guy pretty much sums up the idea of what was important to take, and how ridiculous it proved to be in the aftermath.'
+      text: Taken on the Causeway mid-day the Sunday before landfall.  One of the things that continues to be a wonder is how everyone we knew took exactly three days worth of clothes.  My wife and I evacuated because we knew the levees were not designed to hold back the anticipated storm surge, but still packed as though this was not going to happen.  I think the packing job of this guy pretty much sums up the idea of what was important to take, and how ridiculous it proved to be in the aftermath.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: ''
   lat: 30.2211
   lng: -90.35156
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35975
 item_type: Still Image

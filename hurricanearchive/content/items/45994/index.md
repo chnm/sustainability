@@ -3,13 +3,12 @@ aliases:
   - /items/show/45994
   - /items/show/45994.html
 collections: []
-contributors: []
 date: '2013-09-09 00:01:10'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'I remember seeing this picture and wondering if everything was ok back home. I can remember thinking of my house and if it was still there or if it was flooded. '
+      text: I remember seeing this picture and wondering if everything was ok back home. I can remember thinking of my house and if it was still there or if it was flooded.
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/65f738543fefae2ae607786843bcdeb2.jpg
@@ -22,6 +21,7 @@ geo:
   address: United States
   lat: 29.954934549656144
   lng: -90.06317138671875
+  map_type: Google Maps v3.x
   zoom: 6
 id: 45994
 item_type: Still Image

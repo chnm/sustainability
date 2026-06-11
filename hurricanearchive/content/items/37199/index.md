@@ -4,7 +4,6 @@ aliases:
   - /items/show/37199.html
 collections:
   - '68'
-contributors: []
 date: '2008-09-05 06:11:42'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 3639 Annunciation St
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37199
 item_type: Still Image

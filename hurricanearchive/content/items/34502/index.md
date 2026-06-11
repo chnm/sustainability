@@ -4,13 +4,12 @@ aliases:
   - /items/show/34502.html
 collections:
   - '196'
-contributors: []
 date: '2008-04-17 19:31:48'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Only one home standing on Debbie Drive that wasn\\'t totally destroyed. This home belonged to Chuck and Charleen Abate the best neighbors the Havrilla\\'s ever had. Liz Havrilla had the key to their home around her wrist and was unable to take refuge in their home because the stairs had been washed away and their was no way to get inside the house.    "
+      text: Only one home standing on Debbie Drive that wasn\'t totally destroyed. This home belonged to Chuck and Charleen Abate the best neighbors the Havrilla\'s ever had. Liz Havrilla had the key to their home around her wrist and was unable to take refuge in their home because the stairs had been washed away and their was no way to get inside the house.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: Debbie Ddrive
   lat: 30.22539
   lng: -89.83296
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34502
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/34057
   - /items/show/34057.html
 collections: []
-contributors: []
 date: '2008-03-14 21:33:38'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 732 C Village Road
   lat: 30.02309
   lng: -90.25785
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34057
 item_type: Document

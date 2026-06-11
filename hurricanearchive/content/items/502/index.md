@@ -3,7 +3,6 @@ aliases:
   - /items/show/502
   - /items/show/502.html
 collections: []
-contributors: []
 date: '2005-12-30 05:34:00'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-30 00:34:00'
   Description:
     - html: false
-      text: ' Debris from a flooded law office in the Mid-City section of New Orleans on Iberville St.'
+      text: Debris from a flooded law office in the Mid-City section of New Orleans on Iberville St.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.976498143904
   lng: -90.1014518737793
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 502
 item_type: Still Image

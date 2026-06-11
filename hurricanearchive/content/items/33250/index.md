@@ -3,13 +3,12 @@ aliases:
   - /items/show/33250
   - /items/show/33250.html
 collections: []
-contributors: []
 date: '2007-11-29 19:21:43'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "This Corner Store was functioning before Katrina, and was looted during or after the storm. It\\'s in an area of uptown New Orleans that has very little resources as far as groceries and such.\\n\\nThis place sits and decays....... "
+      text: This Corner Store was functioning before Katrina, and was looted during or after the storm. It\'s in an area of uptown New Orleans that has very little resources as far as groceries and such.\n\nThis place sits and decays.......
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 41.8848
   lng: -88.30876
+  map_type: Yahoo Maps API
   zoom: 12
 id: 33250
 item_type: Still Image

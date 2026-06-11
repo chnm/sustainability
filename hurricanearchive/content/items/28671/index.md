@@ -3,13 +3,14 @@ aliases:
   - /items/show/28671
   - /items/show/28671.html
 collections: []
-contributors: []
 date: '2007-06-13 20:25:28'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "\"Please Bulldose\"\r\nLower 9th Ward, New Orleans, LA"
+      text: |-
+        "Please Bulldose"
+        Lower 9th Ward, New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

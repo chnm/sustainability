@@ -3,7 +3,6 @@ aliases:
   - /items/show/31649
   - /items/show/31649.html
 collections: []
-contributors: []
 date: '2007-08-23 03:42:18'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 2320 N. Sibley St.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 31649
 item_type: Document

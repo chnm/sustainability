@@ -4,7 +4,6 @@ aliases:
   - /items/show/12046.html
 collections:
   - '175'
-contributors: []
 date: '2006-10-11 15:57:43'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2006-02-20 00:00:00'
   Description:
     - html: false
-      text: "In the month leading up to the 2006 mayoral election Ray Nagin visited every high school in the city.  After he spoke to the students at Math and Science High School he answered some more questions from the teacher\\'s at the school.  The audio also includes him being asked to contribute some money to the school\\'s robotics team.      "
+      text: In the month leading up to the 2006 mayoral election Ray Nagin visited every high school in the city.  After he spoke to the students at Math and Science High School he answered some more questions from the teacher\'s at the school.  The audio also includes him being asked to contribute some money to the school\'s robotics team.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: Math and Science High School (Located in Henry Allen Elementary School)
   lat: 29.93337
   lng: -90.11456
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12046
 item_type: Document

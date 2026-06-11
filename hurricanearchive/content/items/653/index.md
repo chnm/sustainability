@@ -3,7 +3,6 @@ aliases:
   - /items/show/653
   - /items/show/653.html
 collections: []
-contributors: []
 date: '2006-01-21 06:24:20'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-21 01:24:20'
   Description:
     - html: false
-      text: ' From inside the Superdome. Hole in the roof after Katrina blew off large pieces of the roof.'
+      text: From inside the Superdome. Hole in the roof after Katrina blew off large pieces of the roof.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.951811158487303
   lng: -90.0820541381836
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 653
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/441
   - /items/show/441.html
 collections: []
-contributors: []
 date: '2005-12-26 20:42:39'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 15:42:39'
   Description:
     - html: false
-      text: ' A notice to all who may try to invade and destroy.'
+      text: A notice to all who may try to invade and destroy.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9549345496561
   lng: -90.17578125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 441
 item_type: Still Image

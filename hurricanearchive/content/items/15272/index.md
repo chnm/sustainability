@@ -4,13 +4,12 @@ aliases:
   - /items/show/15272.html
 collections:
   - '68'
-contributors: []
 date: '2007-01-24 21:38:54'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Annual Easter Egg hunt in Meraux, 2004. 150 kids attended in 2005. Backyard of Rebecca Livaudais. '
+      text: Annual Easter Egg hunt in Meraux, 2004. 150 kids attended in 2005. Backyard of Rebecca Livaudais.
   Language:
     - html: false
       text: eng

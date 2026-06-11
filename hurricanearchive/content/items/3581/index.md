@@ -4,13 +4,12 @@ aliases:
   - /items/show/3581.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "The water pouring from this kitchen drawer has been here for ten weeks since Hurricane Katrina hit the area.  The combination of the stagnant water and mold growing everywhere in the apartment combined to make a powerful stench!  The refrigerator was still in the kitchen.  I wasn\\'t about to open it!  It took some effort, but I found Robert\\'s father\\'s wallet he wanted.  I also found two silver dollars he had forgotten about that also belonged to his father.  Those are the only items that were recovered from Robert\\'s apartment after Hurricane Katrina.  I\\'ll never forget this experience or these images.  I won\\'t be going back there again.    "
+      text: The water pouring from this kitchen drawer has been here for ten weeks since Hurricane Katrina hit the area.  The combination of the stagnant water and mold growing everywhere in the apartment combined to make a powerful stench!  The refrigerator was still in the kitchen.  I wasn\'t about to open it!  It took some effort, but I found Robert\'s father\'s wallet he wanted.  I also found two silver dollars he had forgotten about that also belonged to his father.  Those are the only items that were recovered from Robert\'s apartment after Hurricane Katrina.  I\'ll never forget this experience or these images.  I won\'t be going back there again.
   Language:
     - html: false
       text: eng

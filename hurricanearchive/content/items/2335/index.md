@@ -3,7 +3,6 @@ aliases:
   - /items/show/2335
   - /items/show/2335.html
 collections: []
-contributors: []
 date: '2006-07-23 08:11:42'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-23 04:11:42'
   Description:
     - html: false
-      text: ' Hotel that was damaged off of I-10 east going into New Orleans'
+      text: Hotel that was damaged off of I-10 east going into New Orleans
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.4443079816539
   lng: -90.95070362091062
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2335
 item_type: Still Image

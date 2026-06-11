@@ -3,7 +3,6 @@ aliases:
   - /items/show/477
   - /items/show/477.html
 collections: []
-contributors: []
 date: '2005-12-28 15:08:15'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 10:08:15'
   Description:
     - html: false
-      text: ' Christmas Day.  Long Beach, Mississippi.  People scattered decorations around the wreckage that was Pirate Street.'
+      text: Christmas Day.  Long Beach, Mississippi.  People scattered decorations around the wreckage that was Pirate Street.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.938343
   lng: -90.100773
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 477
 item_type: Still Image

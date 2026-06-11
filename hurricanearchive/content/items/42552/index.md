@@ -3,7 +3,6 @@ aliases:
   - /items/show/42552
   - /items/show/42552.html
 collections: []
-contributors: []
 date: '2010-06-01 15:53:38'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2010-06-01 11:53:38'
   Description:
     - html: false
-      text: "My old next door neighbor\\'s home on the corner.  This home was completely destroyed and is no longer there.  An empty lot stands there now.  "
+      text: My old next door neighbor\'s home on the corner.  This home was completely destroyed and is no longer there.  An empty lot stands there now.
   Language:
     - html: false
       text: eng
@@ -28,6 +27,7 @@ geo:
   address: 5769 Wingate Drive
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42552
 item_type: Still Image

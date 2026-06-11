@@ -3,7 +3,6 @@ aliases:
   - /items/show/1840
   - /items/show/1840.html
 collections: []
-contributors: []
 date: '2006-02-14 00:35:01'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-13 19:35:01'
   Description:
     - html: false
-      text: " Remnants of Holly Beach (Cameron Parish), LA taken February 12, 2006.\\r\\n\\r\\nHolly Beach\\'s population was about 200 prior to Hurricane Rita, but now the entire community is totally destroyed."
+      text: Remnants of Holly Beach (Cameron Parish), LA taken February 12, 2006.\r\n\r\nHolly Beach\'s population was about 200 prior to Hurricane Rita, but now the entire community is totally destroyed.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.7714925803499
   lng: -93.46129417419431
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1840
 item_type: Still Image

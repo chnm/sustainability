@@ -3,7 +3,6 @@ aliases:
   - /items/show/195
   - /items/show/195.html
 collections: []
-contributors: []
 date: '2005-11-18 23:50:05'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 18:50:05'
   Description:
     - html: false
-      text: " The Coliseum Theater.  They\\'ve already started construction to restore it."
+      text: The Coliseum Theater.  They\'ve already started construction to restore it.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.938343
   lng: -90.100773
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 195
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/354
   - /items/show/354.html
 collections: []
-contributors: []
 date: '2005-12-14 00:47:24'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-13 19:47:24'
   Description:
     - html: false
-      text: ' This is an essay I did on emails collected dealing with the aftermath of Katrina in New Orleans that I wrote for a history class at the University of New Orleans.  Images and archived emails are given credit where applicable.'
+      text: This is an essay I did on emails collected dealing with the aftermath of Katrina in New Orleans that I wrote for a history class at the University of New Orleans.  Images and archived emails are given credit where applicable.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.945998
   lng: -90.354891
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 354
 item_type: Document

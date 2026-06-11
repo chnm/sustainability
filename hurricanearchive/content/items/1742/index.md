@@ -3,7 +3,6 @@ aliases:
   - /items/show/1742
   - /items/show/1742.html
 collections: []
-contributors: []
 date: '2006-01-30 21:07:27'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-30 16:07:27'
   Description:
     - html: false
-      text: ' Vidor Church of Christ in Vidor, Texas after Hurricane Rita.'
+      text: Vidor Church of Christ in Vidor, Texas after Hurricane Rita.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.148461
   lng: -94.172481
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1742
 item_type: Still Image

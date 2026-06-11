@@ -4,7 +4,6 @@ aliases:
   - /items/show/2378.html
 collections:
   - '14'
-contributors: []
 date: '2006-08-17 17:10:48'
 draft: false
 dublin_core:
@@ -19,7 +18,7 @@ dublin_core:
       text: eng
   Publisher:
     - html: false
-      text: 'US COAST GUARD '
+      text: US COAST GUARD
   Title:
     - html: false
       text: Small Boats Preparing to Help with Rita

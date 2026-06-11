@@ -3,7 +3,6 @@ aliases:
   - /items/show/146
   - /items/show/146.html
 collections: []
-contributors: []
 date: '2005-11-18 05:52:11'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 00:52:11'
   Description:
     - html: false
-      text: ' Satellite image of Hurricane Katrina as she makes landfall.'
+      text: Satellite image of Hurricane Katrina as she makes landfall.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 146
 item_type: Still Image

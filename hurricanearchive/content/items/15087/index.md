@@ -3,7 +3,6 @@ aliases:
   - /items/show/15087
   - /items/show/15087.html
 collections: []
-contributors: []
 date: '2007-01-19 17:43:01'
 draft: false
 dublin_core:
@@ -16,9 +15,10 @@ dublin_core:
 featured: false
 files: []
 geo:
-  address: '125 S Buchanan St, Lafayette, LA '
+  address: 125 S Buchanan St, Lafayette, LA
   lat: 30.23045
   lng: -92.0165
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 15087
 item_type: Document

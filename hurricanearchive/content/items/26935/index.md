@@ -4,13 +4,12 @@ aliases:
   - /items/show/26935.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Richard Unangst of New Orleans, LA who relocated to Middle Tennessee after Hurricane Katrina. '
+      text: Interview with Richard Unangst of New Orleans, LA who relocated to Middle Tennessee after Hurricane Katrina.
   Language:
     - html: false
       text: eng

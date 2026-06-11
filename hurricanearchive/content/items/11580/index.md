@@ -3,7 +3,6 @@ aliases:
   - /items/show/11580
   - /items/show/11580.html
 collections: []
-contributors: []
 date: '2006-10-01 00:46:35'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: Chalmette, LA
   lat: 29.97263
   lng: -89.94524
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 11580
 item_type: Still Image

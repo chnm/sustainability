@@ -3,13 +3,12 @@ aliases:
   - /items/show/45967
   - /items/show/45967.html
 collections: []
-contributors: []
 date: '2013-09-06 03:11:48'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'This picture was taken in the Watson Chapel area near Jacksonville, Alabama after the April 27, 2011 tornadoes struck. The tornado that struck here was an EF4. I was a volunteer helping with debris cleanup. The damage was devastating, but the area has since started to rebuild. I would like to send hope and prayers to the victims of this disaster.   '
+      text: This picture was taken in the Watson Chapel area near Jacksonville, Alabama after the April 27, 2011 tornadoes struck. The tornado that struck here was an EF4. I was a volunteer helping with debris cleanup. The damage was devastating, but the area has since started to rebuild. I would like to send hope and prayers to the victims of this disaster.
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/9973ea9c496d088e885b87ea554d3a7e.jpg

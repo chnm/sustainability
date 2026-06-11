@@ -3,7 +3,6 @@ aliases:
   - /items/show/29
   - /items/show/29.html
 collections: []
-contributors: []
 date: '2005-11-16 03:22:16'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-15 22:22:16'
   Description:
     - html: false
-      text: ' Interstate where water rose up on each side.'
+      text: Interstate where water rose up on each side.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 29
 item_type: Still Image

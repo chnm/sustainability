@@ -3,7 +3,6 @@ aliases:
   - /items/show/2150
   - /items/show/2150.html
 collections: []
-contributors: []
 date: '2006-04-14 01:51:09'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-13 21:51:09'
   Description:
     - html: false
-      text: ' A view of our backporch.  This pic was taken after we removed the neighbors tree !  It was hurled like a javelin through our windows.'
+      text: A view of our backporch.  This pic was taken after we removed the neighbors tree !  It was hurled like a javelin through our windows.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.135425
   lng: -93.860282
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2150
 item_type: Still Image

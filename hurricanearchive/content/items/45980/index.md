@@ -3,13 +3,12 @@ aliases:
   - /items/show/45980
   - /items/show/45980.html
 collections: []
-contributors: []
 date: '2013-09-07 22:18:57'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "This picture, taken by my mother, is of a classroom inside St. Paul's Episcopal School on Canal Boulevard in Lakeview, New Orleans, one month after the storm. My little brother was attending St. Paul's prior to Katrina. "
+      text: This picture, taken by my mother, is of a classroom inside St. Paul's Episcopal School on Canal Boulevard in Lakeview, New Orleans, one month after the storm. My little brother was attending St. Paul's prior to Katrina.
   Title:
     - html: false
       text: St. Paul's School, New Orleans
@@ -25,6 +24,7 @@ geo:
   address: 6249 Canal Blvd., New Orleans, LA 70124
   lat: 30.0043826
   lng: -90.1078539
+  map_type: Google Maps v3.x
   zoom: 8
 id: 45980
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/1983
   - /items/show/1983.html
 collections: []
-contributors: []
 date: '2006-03-08 12:45:17'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-08 07:45:17'
   Description:
     - html: false
-      text: ' The property is down but the family is fine.'
+      text: The property is down but the family is fine.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.279823299830202
   lng: -89.8431015014648
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1983
 item_type: Still Image

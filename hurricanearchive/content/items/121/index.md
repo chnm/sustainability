@@ -3,7 +3,6 @@ aliases:
   - /items/show/121
   - /items/show/121.html
 collections: []
-contributors: []
 date: '2005-11-17 22:50:09'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:50:09'
   Description:
     - html: false
-      text: ' The pumping stations were completely submerged.'
+      text: The pumping stations were completely submerged.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9935969771495
   lng: -90.11638641357419
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 121
 item_type: Still Image

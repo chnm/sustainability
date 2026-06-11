@@ -3,7 +3,6 @@ aliases:
   - /items/show/2155
   - /items/show/2155.html
 collections: []
-contributors: []
 date: '2006-04-14 19:41:11'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-14 15:41:11'
   Description:
     - html: false
-      text: " This is a stairway to nowhere on the lot across the street from Grandmother\\'s house in Bay St. Louis (near the Waveland city limit)."
+      text: This is a stairway to nowhere on the lot across the street from Grandmother\'s house in Bay St. Louis (near the Waveland city limit).
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.294535230988
   lng: -89.34463977813719
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2155
 item_type: Still Image

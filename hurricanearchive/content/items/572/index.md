@@ -3,7 +3,6 @@ aliases:
   - /items/show/572
   - /items/show/572.html
 collections: []
-contributors: []
 date: '2006-01-13 22:00:32'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:00:32'
   Description:
     - html: false
-      text: ' New Orleans, Garden District.'
+      text: New Orleans, Garden District.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 572
 item_type: Still Image

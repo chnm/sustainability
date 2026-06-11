@@ -4,7 +4,6 @@ aliases:
   - /items/show/28973.html
 collections:
   - '155'
-contributors: []
 date: '2007-06-21 11:47:46'
 draft: false
 dublin_core:
@@ -13,7 +12,10 @@ dublin_core:
       text: '2007-06-20 00:00:00'
   Description:
     - html: false
-      text: "Photo detail of one of the three chairs suspended from a tree that comprise Jonathan Traviesa's artwork \"The Delicate Situation of John McDonough.\" Traviesa comment: \"New Orleans public education is at a crossroads. I see potential blossoming and potential death.\"\r\n\r\n\"NEIGHBORHOODS: 2426 BRADISH PLACE\" was a multidisciplinary installation, the third in a series, that took place in the gutted ground floor of the home of Michelle Levine and Clay Thomas on May 19th, 2007. Michelle is an artist who is currently rebuilding her house and studio in the Tulane/Gravier neighborhood. Through the use of interviews with neighbors, soundscapes, live music, drawing, photography, and sculpture, this event confronted the range of issues the community is experiencing as they revitalize this neighborhood."
+      text: |-
+        Photo detail of one of the three chairs suspended from a tree that comprise Jonathan Traviesa's artwork "The Delicate Situation of John McDonough." Traviesa comment: "New Orleans public education is at a crossroads. I see potential blossoming and potential death."
+
+        "NEIGHBORHOODS: 2426 BRADISH PLACE" was a multidisciplinary installation, the third in a series, that took place in the gutted ground floor of the home of Michelle Levine and Clay Thomas on May 19th, 2007. Michelle is an artist who is currently rebuilding her house and studio in the Tulane/Gravier neighborhood. Through the use of interviews with neighbors, soundscapes, live music, drawing, photography, and sculpture, this event confronted the range of issues the community is experiencing as they revitalize this neighborhood.
   Language:
     - html: false
       text: eng
@@ -32,6 +34,7 @@ geo:
   address: 2426 Bradish Place
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps v3.x
   zoom: 12
 id: 28973
 item_type: Still Image

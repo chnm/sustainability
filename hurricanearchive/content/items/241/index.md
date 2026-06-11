@@ -3,7 +3,6 @@ aliases:
   - /items/show/241
   - /items/show/241.html
 collections: []
-contributors: []
 date: '2005-11-23 21:56:34'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-23 16:56:34'
   Description:
     - html: false
-      text: ' This is a picture of my backyard at my house in Destrehan, LA.  Hurricane Katrina caused lots of wind damage, but not much water at all in this area.  We are very thankful and blessed.'
+      text: This is a picture of my backyard at my house in Destrehan, LA.  Hurricane Katrina caused lots of wind damage, but not much water at all in this area.  We are very thankful and blessed.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.964207
   lng: -90.368185
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 241
 item_type: Still Image

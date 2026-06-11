@@ -4,7 +4,6 @@ aliases:
   - /items/show/31601.html
 collections:
   - '68'
-contributors: []
 date: '2007-08-22 11:07:45'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 545 Saint Charles Ave
   lat: 29.9489
   lng: -90.07079
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 31601
 item_type: Still Image

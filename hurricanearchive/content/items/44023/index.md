@@ -3,13 +3,12 @@ aliases:
   - /items/show/44023
   - /items/show/44023.html
 collections: []
-contributors: []
 date: '2011-02-04 20:18:39'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'This once lively and attractive theme park now lies in ruins since the storm.  Being vandalized and rotting day by day.   '
+      text: This once lively and attractive theme park now lies in ruins since the storm.  Being vandalized and rotting day by day.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: 4128 West Loyola Drive
   lat: 30.03877
   lng: -90.27214
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 44023
 item_type: Still Image

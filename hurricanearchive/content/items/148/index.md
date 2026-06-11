@@ -3,7 +3,6 @@ aliases:
   - /items/show/148
   - /items/show/148.html
 collections: []
-contributors: []
 date: '2005-11-18 06:47:24'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 01:47:24'
   Description:
     - html: false
-      text: " We went back to check on my mom\\'s house and found part of the celing caved in."
+      text: We went back to check on my mom\'s house and found part of the celing caved in.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.030902
   lng: -90.068022
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 148
 item_type: Still Image

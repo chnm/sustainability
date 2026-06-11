@@ -3,7 +3,6 @@ aliases:
   - /items/show/655
   - /items/show/655.html
 collections: []
-contributors: []
 date: '2006-01-22 14:09:34'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-22 09:09:34'
   Description:
     - html: false
-      text: ' Not much remains of my camp in Bucktown, 1848 Orpheum Ave'
+      text: Not much remains of my camp in Bucktown, 1848 Orpheum Ave
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0222030568545
   lng: -90.1220726966858
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 655
 item_type: Still Image

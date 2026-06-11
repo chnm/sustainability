@@ -3,19 +3,19 @@ aliases:
   - /items/show/45982
   - /items/show/45982.html
 collections: []
-contributors: []
 date: '2013-09-07 23:30:53'
 draft: false
 dublin_core:
   Title:
     - html: false
-      text: 'Contract Fraud '
+      text: Contract Fraud
 featured: false
 files: []
 geo:
   address: Downtown New Orleans
   lat: 30.420256142845
   lng: -89.56604003906199
+  map_type: Google Maps v3.x
   zoom: 8
 id: 45982
 item_type: Document
@@ -29,6 +29,6 @@ plugin_metadata: []
 related_items: []
 slug: '45982'
 tags: []
-title: 'Contract Fraud '
+title: Contract Fraud
 type: items
 ---

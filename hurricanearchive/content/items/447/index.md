@@ -3,7 +3,6 @@ aliases:
   - /items/show/447
   - /items/show/447.html
 collections: []
-contributors: []
 date: '2005-12-27 17:05:34'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 12:05:34'
   Description:
     - html: false
-      text: " St. Tammany Association for Retarded Citizens, Inc. (STARC), is a non profit which provides services and supports to individuals with mental retardation and/or developmental disabilities.  It was severely impacted by Hurricane Katrina ($1.5 million dollars in damage and losses).  \\r\\nSTARC\\\\\\'s art program lost everything, however, two of its adult clients produced Katrina Christmas cards which were \\\\\\\"best sellers\\\\\\\" and really uplifted the spirits of the people affected by the hurricane. \\r\\n\\r\\nI submitted the other picture and now am submitting the second one."
+      text: St. Tammany Association for Retarded Citizens, Inc. (STARC), is a non profit which provides services and supports to individuals with mental retardation and/or developmental disabilities.  It was severely impacted by Hurricane Katrina ($1.5 million dollars in damage and losses).  \r\nSTARC\\\'s art program lost everything, however, two of its adult clients produced Katrina Christmas cards which were \\\"best sellers\\\" and really uplifted the spirits of the people affected by the hurricane. \r\n\r\nI submitted the other picture and now am submitting the second one.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.446993
   lng: -89.976592
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 447
 item_type: Still Image

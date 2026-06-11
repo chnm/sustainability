@@ -4,13 +4,12 @@ aliases:
   - /items/show/15403.html
 collections:
   - '103'
-contributors: []
 date: '2007-01-29 21:00:19'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Oral history of Daniel Maher who evacuated from Louisiana fleeing Hurricane Katrina and enrolled in Middle Tennessee State University. '
+      text: Oral history of Daniel Maher who evacuated from Louisiana fleeing Hurricane Katrina and enrolled in Middle Tennessee State University.
   Language:
     - html: false
       text: eng

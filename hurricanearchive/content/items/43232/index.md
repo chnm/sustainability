@@ -3,7 +3,6 @@ aliases:
   - /items/show/43232
   - /items/show/43232.html
 collections: []
-contributors: []
 date: '2010-09-07 22:25:45'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 4212 Bonway Drive
   lat: 30.49343
   lng: -87.16958
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43232
 item_type: Document

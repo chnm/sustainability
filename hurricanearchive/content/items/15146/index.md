@@ -4,13 +4,12 @@ aliases:
   - /items/show/15146.html
 collections:
   - '68'
-contributors: []
 date: '2007-01-20 16:24:37'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Xmas in Lakeview home 1958.  '
+      text: Xmas in Lakeview home 1958.
   Language:
     - html: false
       text: eng
@@ -26,6 +25,7 @@ geo:
   address: ''
   lat: 37.77123
   lng: -122.44127
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 15146
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/1859
   - /items/show/1859.html
 collections: []
-contributors: []
 date: '2006-02-21 05:17:18'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-21 00:17:18'
   Description:
     - html: false
-      text: ' Back of house at 5768 Wildair showing water line.'
+      text: Back of house at 5768 Wildair showing water line.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.009063
   lng: -90.062147
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1859
 item_type: Still Image

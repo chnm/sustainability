@@ -3,7 +3,6 @@ aliases:
   - /items/show/1862
   - /items/show/1862.html
 collections: []
-contributors: []
 date: '2006-02-21 10:34:22'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-21 05:34:22'
   Description:
     - html: false
-      text: " I took this while on foot patrol along the levee. This is in the Mirabeau Ave area. A squad of MPs from Massachusetts 747th Mp co. Patrolled this area looking for any surviors and looters that remained in 100+ degree heat with 90%+ humidity. You can\\'t imagine what it smells like unless you were there."
+      text: I took this while on foot patrol along the levee. This is in the Mirabeau Ave area. A squad of MPs from Massachusetts 747th Mp co. Patrolled this area looking for any surviors and looters that remained in 100+ degree heat with 90%+ humidity. You can\'t imagine what it smells like unless you were there.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.008388808856697
   lng: -90.06956577301031
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1862
 item_type: Still Image

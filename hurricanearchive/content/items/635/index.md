@@ -3,7 +3,6 @@ aliases:
   - /items/show/635
   - /items/show/635.html
 collections: []
-contributors: []
 date: '2006-01-18 01:24:05'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 20:24:05'
   Description:
     - html: false
-      text: ' My cement pet alligator in my yard at Head of Island, LA, during the flood after Rita, looked real enough to scare the wits out of some people.'
+      text: My cement pet alligator in my yard at Head of Island, LA, during the flood after Rita, looked real enough to scare the wits out of some people.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342352
   lng: -90.685853
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 635
 item_type: Still Image

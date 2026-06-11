@@ -4,7 +4,6 @@ aliases:
   - /items/show/29361.html
 collections:
   - '156'
-contributors: []
 date: '2007-06-27 23:35:20'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 2426 Bradish Place
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 29361
 item_type: Document

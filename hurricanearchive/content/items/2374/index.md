@@ -4,7 +4,6 @@ aliases:
   - /items/show/2374.html
 collections:
   - '14'
-contributors: []
 date: '2006-08-17 17:10:47'
 draft: false
 dublin_core:
@@ -19,7 +18,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'COAST GUARD D.A.R.T. SEARCHES CAMERON PARISH '
+      text: COAST GUARD D.A.R.T. SEARCHES CAMERON PARISH
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66d31ae614fb2a66d31ed4.jpg
@@ -38,7 +37,7 @@ plugin_metadata: []
 related_items: []
 slug: '2374'
 tags: []
-title: 'COAST GUARD D.A.R.T. SEARCHES CAMERON PARISH '
+title: COAST GUARD D.A.R.T. SEARCHES CAMERON PARISH
 type: items
 ---
 

@@ -3,13 +3,15 @@ aliases:
   - /items/show/28668
   - /items/show/28668.html
 collections: []
-contributors: []
 date: '2007-06-13 20:25:25'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Hurricane season officially begins today.\r\n\r\n\"I'm back, R U?\"5000 Dauphine St., Lower 9th Ward, New Orleans, LA"
+      text: |-
+        Hurricane season officially begins today.
+
+        "I'm back, R U?"5000 Dauphine St., Lower 9th Ward, New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

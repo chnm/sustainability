@@ -4,7 +4,6 @@ aliases:
   - /items/show/26297.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-27 15:26:24'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: los angeles, ca
   lat: 34.05222
   lng: -118.24278
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26297
 item_type: Document

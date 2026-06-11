@@ -3,7 +3,6 @@ aliases:
   - /items/show/628
   - /items/show/628.html
 collections: []
-contributors: []
 date: '2006-01-17 23:59:23'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 18:59:23'
   Description:
     - html: false
-      text: ' Still time for humor after Katrina!  House is gone but dummy still has a beer and his favorite stuffed dog.  taken near Slidell, LA.'
+      text: Still time for humor after Katrina!  House is gone but dummy still has a beer and his favorite stuffed dog.  taken near Slidell, LA.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342352
   lng: -90.685853
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 628
 item_type: Still Image

@@ -4,13 +4,12 @@ aliases:
   - /items/show/26804.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-17 17:04:12'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Jim Schroeder who lives in Murphreesboro, TN and volunteered for Katrina relief. '
+      text: Interview with Jim Schroeder who lives in Murphreesboro, TN and volunteered for Katrina relief.
   Language:
     - html: false
       text: eng

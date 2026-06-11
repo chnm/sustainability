@@ -3,7 +3,6 @@ aliases:
   - /items/show/1879
   - /items/show/1879.html
 collections: []
-contributors: []
 date: '2006-03-06 12:55:41'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 07:55:41'
   Description:
     - html: false
-      text: ' Here is an article I wrote for a Canadian magazine.  It was published in Canada'
+      text: Here is an article I wrote for a Canadian magazine.  It was published in Canada
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.5997300943804
   lng: -90.69488525390621
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1879
 item_type: Document

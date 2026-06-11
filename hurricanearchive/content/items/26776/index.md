@@ -4,13 +4,12 @@ aliases:
   - /items/show/26776.html
 collections:
   - '68'
-contributors: []
 date: '2007-04-17 03:24:00'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'William David Chatham, Earl Mondell Chatham and Lola Dunnam Chatham, 1923.\r\n\r\nThis image is from the archive of Ron Chapman,\r\nProfessor of History at Nunez Community College. Nunez\r\nCommunity College is located in Chalmette, in St.\r\nBernard Parish, Louisiana.  In 2005 it was heavily\r\ndamaged by flooding due to Hurricane Katrina. '
+      text: William David Chatham, Earl Mondell Chatham and Lola Dunnam Chatham, 1923.\r\n\r\nThis image is from the archive of Ron Chapman,\r\nProfessor of History at Nunez Community College. Nunez\r\nCommunity College is located in Chalmette, in St.\r\nBernard Parish, Louisiana.  In 2005 it was heavily\r\ndamaged by flooding due to Hurricane Katrina.
   Language:
     - html: false
       text: eng
@@ -29,6 +28,7 @@ geo:
   address: ''
   lat: 29.95493
   lng: -90.04395
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26776
 item_type: Still Image

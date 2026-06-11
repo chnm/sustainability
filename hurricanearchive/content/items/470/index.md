@@ -3,7 +3,6 @@ aliases:
   - /items/show/470
   - /items/show/470.html
 collections: []
-contributors: []
 date: '2005-12-27 20:24:44'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 15:24:44'
   Description:
     - html: false
-      text: ' A boat is grounded near New Orleans Health Sciences Center.'
+      text: A boat is grounded near New Orleans Health Sciences Center.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9549345496561
   lng: -90.087890625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 470
 item_type: Still Image

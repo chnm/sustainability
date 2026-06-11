@@ -3,7 +3,6 @@ aliases:
   - /items/show/12104
   - /items/show/12104.html
 collections: []
-contributors: []
 date: '2006-10-12 18:05:40'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 2516 Soniat st.
   lat: 29.93712
   lng: -90.10925
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12104
 item_type: Document

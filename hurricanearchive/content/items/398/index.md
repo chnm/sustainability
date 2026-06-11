@@ -3,7 +3,6 @@ aliases:
   - /items/show/398
   - /items/show/398.html
 collections: []
-contributors: []
 date: '2005-12-26 17:47:58'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 12:47:58'
   Description:
     - html: false
-      text: ' A broken record is found lying on the ground beside a house in Waveland.'
+      text: A broken record is found lying on the ground beside a house in Waveland.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.417887641071204
   lng: -89.14306640625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 398
 item_type: Still Image

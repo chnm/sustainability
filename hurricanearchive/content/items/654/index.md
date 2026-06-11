@@ -3,7 +3,6 @@ aliases:
   - /items/show/654
   - /items/show/654.html
 collections: []
-contributors: []
 date: '2006-01-21 20:55:51'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-21 15:55:51'
   Description:
     - html: false
-      text: ' Ninth ward of New Orleans after Katrina.'
+      text: Ninth ward of New Orleans after Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9650477144129
   lng: -90.02197265625001
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 654
 item_type: Still Image

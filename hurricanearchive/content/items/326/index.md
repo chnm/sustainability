@@ -3,7 +3,6 @@ aliases:
   - /items/show/326
   - /items/show/326.html
 collections: []
-contributors: []
 date: '2005-12-05 01:01:49'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-04 20:01:49'
   Description:
     - html: false
-      text: ' At least most of the business people kept a sense of humor. This sign was posted on the window coverings of a donut shop in downtown DeRidder, LA.'
+      text: At least most of the business people kept a sense of humor. This sign was posted on the window coverings of a donut shop in downtown DeRidder, LA.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.651656
   lng: -93.299574
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 326
 item_type: Still Image

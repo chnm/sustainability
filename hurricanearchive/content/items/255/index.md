@@ -3,7 +3,6 @@ aliases:
   - /items/show/255
   - /items/show/255.html
 collections: []
-contributors: []
 date: '2005-11-26 01:42:10'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-25 20:42:10'
   Description:
     - html: false
-      text: " this is a picture of my little cousin\\'s playset that was destroyed b/c of teh storm. a tree from next door fell on it."
+      text: this is a picture of my little cousin\'s playset that was destroyed b/c of teh storm. a tree from next door fell on it.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.951082
   lng: -90.206031
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 255
 item_type: Still Image

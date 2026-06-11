@@ -3,7 +3,6 @@ aliases:
   - /items/show/2276
   - /items/show/2276.html
 collections: []
-contributors: []
 date: '2006-05-28 20:10:36'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-05-28 16:10:36'
   Description:
     - html: false
-      text: ' Waiting to be evacuated from the hotel, August 28.'
+      text: Waiting to be evacuated from the hotel, August 28.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9357092643849
   lng: -90.0799942016602
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2276
 item_type: Still Image

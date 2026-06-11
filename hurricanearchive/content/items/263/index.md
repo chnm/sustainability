@@ -3,7 +3,6 @@ aliases:
   - /items/show/263
   - /items/show/263.html
 collections: []
-contributors: []
 date: '2005-11-26 17:16:51'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-26 12:16:51'
   Description:
     - html: false
-      text: ' First-hand account of a Coast Guard reservist who came to New Orleans to assist with the relief efforts of Hurricane Katrina. Published in US Coast Guard Reservist magazine, vol 52, no. 7-05'
+      text: First-hand account of a Coast Guard reservist who came to New Orleans to assist with the relief efforts of Hurricane Katrina. Published in US Coast Guard Reservist magazine, vol 52, no. 7-05
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9759033488943
   lng: -90.19835472106931
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 263
 item_type: Document

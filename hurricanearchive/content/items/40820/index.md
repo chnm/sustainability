@@ -3,7 +3,6 @@ aliases:
   - /items/show/40820
   - /items/show/40820.html
 collections: []
-contributors: []
 date: '2009-08-29 16:06:54'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 705 Terry Drive
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40820
 item_type: Document

@@ -4,13 +4,12 @@ aliases:
   - /items/show/3608.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Busts of famous leaders line the bleachers.     '
+      text: Busts of famous leaders line the bleachers.
   Language:
     - html: false
       text: eng

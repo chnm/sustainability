@@ -3,7 +3,6 @@ aliases:
   - /items/show/44031
   - /items/show/44031.html
 collections: []
-contributors: []
 date: '2011-02-05 17:34:31'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1303 cypress drive apt B
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 44031
 item_type: Document

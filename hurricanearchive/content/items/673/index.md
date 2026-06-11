@@ -3,7 +3,6 @@ aliases:
   - /items/show/673
   - /items/show/673.html
 collections: []
-contributors: []
 date: '2006-01-25 07:16:52'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-25 02:16:52'
   Description:
     - html: false
-      text: " This was the first house built in this subdivision after WW2. It\\'s been in my family all this time. It had been completely gutted and rebuilt just two years ago and now it has to be done all over again. My sister plans on moving back as soon as possible."
+      text: This was the first house built in this subdivision after WW2. It\'s been in my family all this time. It had been completely gutted and rebuilt just two years ago and now it has to be done all over again. My sister plans on moving back as soon as possible.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9419104756455
   lng: -89.976761341095
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 673
 item_type: Still Image

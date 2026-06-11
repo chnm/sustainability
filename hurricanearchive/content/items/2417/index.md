@@ -4,7 +4,6 @@ aliases:
   - /items/show/2417.html
 collections:
   - '16'
-contributors: []
 date: '2006-08-17 17:11:03'
 draft: false
 dublin_core:
@@ -19,7 +18,7 @@ dublin_core:
       text: eng
   Publisher:
     - html: false
-      text: 'US COAST GUARD '
+      text: US COAST GUARD
   Title:
     - html: false
       text: Oil Tank Damage in LA

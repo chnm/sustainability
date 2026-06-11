@@ -3,7 +3,6 @@ aliases:
   - /items/show/175
   - /items/show/175.html
 collections: []
-contributors: []
 date: '2005-11-18 18:21:35'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 13:21:35'
   Description:
     - html: false
-      text: ' Lakeview home living room.'
+      text: Lakeview home living room.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9138764383176
   lng: -90.0466918945312
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 175
 item_type: Still Image

@@ -4,13 +4,12 @@ aliases:
   - /items/show/26938.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Terry Davis from American Association of State and Local History who helped to organize a team to assess damage caused by Hurricane Katrina along the Gulf Coast. '
+      text: Interview with Terry Davis from American Association of State and Local History who helped to organize a team to assess damage caused by Hurricane Katrina along the Gulf Coast.
   Language:
     - html: false
       text: eng

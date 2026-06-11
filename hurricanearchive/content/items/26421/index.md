@@ -3,7 +3,6 @@ aliases:
   - /items/show/26421
   - /items/show/26421.html
 collections: []
-contributors: []
 date: '2007-03-29 19:47:09'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: Spartan
   lat: 30.80791
   lng: -84.81445
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26421
 item_type: Still Image

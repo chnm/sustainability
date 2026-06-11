@@ -11,7 +11,7 @@ lastmod: '2000-01-01 05:00:00'
 layout: single
 parent_id:
 slug: '45'
-title: "Wild Dog Digital's Louisiana and Mississippi Photographs "
+title: Wild Dog Digital's Louisiana and Mississippi Photographs
 type: collections
 ---
 

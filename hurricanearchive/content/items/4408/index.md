@@ -3,7 +3,6 @@ aliases:
   - /items/show/4408
   - /items/show/4408.html
 collections: []
-contributors: []
 date: '2006-09-02 06:17:20'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 3875 N Major Dr
   lat: 30.119
   lng: -94.18957
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 4408
 item_type: Document

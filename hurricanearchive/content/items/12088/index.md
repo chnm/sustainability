@@ -3,7 +3,6 @@ aliases:
   - /items/show/12088
   - /items/show/12088.html
 collections: []
-contributors: []
 date: '2006-10-12 16:35:44'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 4842 Bergerac St
   lat: 30.03602
   lng: -89.92629
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12088
 item_type: Document

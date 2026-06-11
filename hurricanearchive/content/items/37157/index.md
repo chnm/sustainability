@@ -3,13 +3,12 @@ aliases:
   - /items/show/37157
   - /items/show/37157.html
 collections: []
-contributors: []
 date: '2008-09-02 22:31:50'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'This was our living room.  '
+      text: This was our living room.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: 8059 Curran Blvd
   lat: 30.0377
   lng: -90.00141
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37157
 item_type: Still Image

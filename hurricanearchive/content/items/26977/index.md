@@ -3,7 +3,6 @@ aliases:
   - /items/show/26977
   - /items/show/26977.html
 collections: []
-contributors: []
 date: '2007-04-20 21:23:26'
 draft: false
 dublin_core:
@@ -31,6 +30,7 @@ geo:
   address: 1800 Spain Street
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26977
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/409
   - /items/show/409.html
 collections: []
-contributors: []
 date: '2005-12-26 18:43:27'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 13:43:27'
   Description:
     - html: false
-      text: ' A beach home is gutted.'
+      text: A beach home is gutted.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.337324394179
   lng: -89.1815185546875
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 409
 item_type: Still Image

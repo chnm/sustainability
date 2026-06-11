@@ -3,7 +3,6 @@ aliases:
   - /items/show/595
   - /items/show/595.html
 collections: []
-contributors: []
 date: '2006-01-15 15:01:46'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-15 10:01:46'
   Description:
     - html: false
-      text: " In the days following Katrina, we believed our home in Kenner was destroyed, and we even rented a broken down house in Prairieville, Louisiana for the months ahead.  The feelings of loss, longing and hope during that time produced the song \\'Back in New Orleans.\\'  As it turned out, our home was spared the worst, and we\\'re back."
+      text: In the days following Katrina, we believed our home in Kenner was destroyed, and we even rented a broken down house in Prairieville, Louisiana for the months ahead.  The feelings of loss, longing and hope during that time produced the song \'Back in New Orleans.\'  As it turned out, our home was spared the worst, and we\'re back.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0248133340817
   lng: -90.2301979064941
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 595
 item_type: Document

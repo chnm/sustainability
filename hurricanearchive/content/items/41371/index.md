@@ -3,7 +3,6 @@ aliases:
   - /items/show/41371
   - /items/show/41371.html
 collections: []
-contributors: []
 date: '2009-10-11 19:52:42'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1234 CENTER ST ,ARABI LOUISIANA
   lat: 29.9572
   lng: -89.9984
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 41371
 item_type: Document

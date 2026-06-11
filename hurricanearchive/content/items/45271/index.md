@@ -3,13 +3,14 @@ aliases:
   - /items/show/45271
   - /items/show/45271.html
 collections: []
-contributors: []
 date: '2012-02-02 06:18:22'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "My father built this house at 7510 Sheffield St. in New Orleans East right before I was born in 1982.  Though my own rental home in Lakeview got 9 1/2 feet of water and I lost all my belongings, somehow this hit \"home\" much harder.  We had sold the home many years before Katrina but when I visited it in 2011 this is hardly what I expected.  \r\nSome parts of New Orleans East still resemble a post-apocalyptic wasteland full of these large destroyed boxes of memories people once called home."
+      text: |-
+        My father built this house at 7510 Sheffield St. in New Orleans East right before I was born in 1982.  Though my own rental home in Lakeview got 9 1/2 feet of water and I lost all my belongings, somehow this hit "home" much harder.  We had sold the home many years before Katrina but when I visited it in 2011 this is hardly what I expected.
+        Some parts of New Orleans East still resemble a post-apocalyptic wasteland full of these large destroyed boxes of memories people once called home.
   Language:
     - html: false
       text: eng

@@ -3,7 +3,6 @@ aliases:
   - /items/show/2064
   - /items/show/2064.html
 collections: []
-contributors: []
 date: '2006-04-06 18:46:29'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-06 14:46:29'
   Description:
     - html: false
-      text: ' Speedee Oil change in Hattiesburg, MS on August 30, 2005'
+      text: Speedee Oil change in Hattiesburg, MS on August 30, 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.321820657765603
   lng: -89.3724060058594
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2064
 item_type: Still Image

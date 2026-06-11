@@ -4,13 +4,12 @@ aliases:
   - /items/show/34342.html
 collections:
   - '200'
-contributors: []
 date: '2008-04-09 14:28:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "This is just one interior door in Anne & John\\'s home in Clipper Estates, all needed to be replaced because of the water and moisture from the storm "
+      text: This is just one interior door in Anne & John\'s home in Clipper Estates, all needed to be replaced because of the water and moisture from the storm
   Language:
     - html: false
       text: eng
@@ -19,7 +18,7 @@ dublin_core:
       text: Attribution-NonCommercial License (http://creativecommons.org/licenses/by-nc/2.0/)
   Title:
     - html: false
-      text: '1068  Clipper, Iinterior Door Destroyed '
+      text: 1068  Clipper, Iinterior Door Destroyed
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca47729714fb29ca47767b.jpg
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 30.22894
   lng: -89.80244
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34342
 item_type: Still Image
@@ -51,7 +51,7 @@ tags:
   - havrilla
   - liz ashe havrilla
   - lizashehavrilla
-title: '1068  Clipper, Iinterior Door Destroyed '
+title: 1068  Clipper, Iinterior Door Destroyed
 type: items
 ---
 

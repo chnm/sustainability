@@ -3,7 +3,6 @@ aliases:
   - /items/show/33381
   - /items/show/33381.html
 collections: []
-contributors: []
 date: '2008-01-20 01:41:31'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 422 Delaronde Street
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33381
 item_type: Document

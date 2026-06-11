@@ -3,7 +3,6 @@ aliases:
   - /items/show/211
   - /items/show/211.html
 collections: []
-contributors: []
 date: '2005-11-20 01:59:23'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-19 20:59:23'
   Description:
     - html: false
-      text: ' Louisiana Superdome and New Orleans centere courtesy of nola.com'
+      text: Louisiana Superdome and New Orleans centere courtesy of nola.com
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.935002655063098
   lng: -90.0799942016602
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 211
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/601
   - /items/show/601.html
 collections: []
-contributors: []
 date: '2006-01-16 20:47:35'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-16 15:47:35'
   Description:
     - html: false
-      text: ' Outside of Sacred Heart Catholic Church in Creole.  Mid October after Rita.'
+      text: Outside of Sacred Heart Catholic Church in Creole.  Mid October after Rita.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.8085319067757
   lng: -93.15869808197019
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 601
 item_type: Still Image

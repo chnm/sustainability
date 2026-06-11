@@ -4,13 +4,12 @@ aliases:
   - /items/show/34515.html
 collections:
   - '196'
-contributors: []
 date: '2008-04-17 19:32:43'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "This was Anna's car that she bought from a priest. That is why we called it the Pope Mobile.  The car was a total loss. "
+      text: This was Anna's car that she bought from a priest. That is why we called it the Pope Mobile.  The car was a total loss.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 30.22539
   lng: -89.83296
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34515
 item_type: Still Image

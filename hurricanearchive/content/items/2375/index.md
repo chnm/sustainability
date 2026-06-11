@@ -4,7 +4,6 @@ aliases:
   - /items/show/2375.html
 collections:
   - '14'
-contributors: []
 date: '2006-08-17 17:10:47'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: ' LAKE CHARLES, La. (Sept. 26, 2005)--Coast Guard Chief Petty Officer Robert Davis and Chief Warrant Officer Ray Holland, from the Disaster Area Response Team, looks down at a turned over newpaper stand at the local paper dated Sept. 21 with the headline \"All Too Famaliar\" dealing with Hurricane Katrina. D.A.R.T along with FEMA and other emergency agencies searched Cameron Parish for any residents still needing assistance after Hurricane Rita destroyed parts of Louisiana. Coast Guard photo by PA3 Kelly Newlin \r\n'
+      text: LAKE CHARLES, La. (Sept. 26, 2005)--Coast Guard Chief Petty Officer Robert Davis and Chief Warrant Officer Ray Holland, from the Disaster Area Response Team, looks down at a turned over newpaper stand at the local paper dated Sept. 21 with the headline \"All Too Famaliar\" dealing with Hurricane Katrina. D.A.R.T along with FEMA and other emergency agencies searched Cameron Parish for any residents still needing assistance after Hurricane Rita destroyed parts of Louisiana. Coast Guard photo by PA3 Kelly Newlin \r\n
   Language:
     - html: false
       text: eng

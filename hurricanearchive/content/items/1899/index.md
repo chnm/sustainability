@@ -3,7 +3,6 @@ aliases:
   - /items/show/1899
   - /items/show/1899.html
 collections: []
-contributors: []
 date: '2006-03-07 04:04:48'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 23:04:48'
   Description:
     - html: false
-      text: ' '
+      text: ''
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 25.463811966833703
   lng: -80.4418087005615
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1899
 item_type: Still Image

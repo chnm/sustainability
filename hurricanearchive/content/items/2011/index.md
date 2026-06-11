@@ -3,7 +3,6 @@ aliases:
   - /items/show/2011
   - /items/show/2011.html
 collections: []
-contributors: []
 date: '2006-03-11 18:01:39'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-11 13:01:39'
   Description:
     - html: false
-      text: ' katrina christmas display on Alix st  (and more info about the point available at http://algierspoint.us)'
+      text: katrina christmas display on Alix st  (and more info about the point available at http://algierspoint.us)
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9512905837533
   lng: -90.05202412605291
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2011
 item_type: Still Image

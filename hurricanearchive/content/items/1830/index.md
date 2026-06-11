@@ -3,7 +3,6 @@ aliases:
   - /items/show/1830
   - /items/show/1830.html
 collections: []
-contributors: []
 date: '2006-02-09 23:11:55'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-09 18:11:55'
   Description:
     - html: false
-      text: ' This is a photo of an Ex-Levee board president, Bob Harvey. His house lies flooded from the levee breaks.\r\n\r\nThis photo was taken two week after katrina before the city was pumped out.'
+      text: This is a photo of an Ex-Levee board president, Bob Harvey. His house lies flooded from the levee breaks.\r\n\r\nThis photo was taken two week after katrina before the city was pumped out.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9796951060607
   lng: -90.1234674453735
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1830
 item_type: Still Image

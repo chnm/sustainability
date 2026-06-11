@@ -3,7 +3,6 @@ aliases:
   - /items/show/42978
   - /items/show/42978.html
 collections: []
-contributors: []
 date: '2010-08-17 16:01:15'
 draft: false
 dublin_core:
@@ -19,9 +18,10 @@ dublin_core:
 featured: false
 files: []
 geo:
-  address: '1901 Green '
+  address: 1901 Green
   lat: 29.99142
   lng: -90.1801
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42978
 item_type: Document

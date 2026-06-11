@@ -3,7 +3,6 @@ aliases:
   - /items/show/19
   - /items/show/19.html
 collections: []
-contributors: []
 date: '2005-11-15 20:56:11'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-15 15:56:11'
   Description:
     - html: false
-      text: ' Get me out of here! This was the scene as thousands of people evacuated Southeast Texas along the evacuation routes we were forced to take north and east of the Beaumont-Port Arthur area.\r\n At this point we were in the Big Thicket National Preserve with no services near, such as restrooms, gas stations, convenient stores, or restaurants. The wooded edges of the road served as public bathrooms because we had no other choice. One unfortunate outcome of this evacuation is that some of these back roads were destroyed by all of the garbage, waste, and traffic, such as huge chunks of pavement were pulled up by 18-wheelers. Oh yeah and the temps were in the 100s. Taken on Sept 22, 2005.'
+      text: Get me out of here! This was the scene as thousands of people evacuated Southeast Texas along the evacuation routes we were forced to take north and east of the Beaumont-Port Arthur area.\r\n At this point we were in the Big Thicket National Preserve with no services near, such as restrooms, gas stations, convenient stores, or restaurants. The wooded edges of the road served as public bathrooms because we had no other choice. One unfortunate outcome of this evacuation is that some of these back roads were destroyed by all of the garbage, waste, and traffic, such as huge chunks of pavement were pulled up by 18-wheelers. Oh yeah and the temps were in the 100s. Taken on Sept 22, 2005.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.305614044788705
   lng: -94.4480895996094
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 19
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/102
   - /items/show/102.html
 collections: []
-contributors: []
 date: '2005-11-17 22:21:09'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:21:09'
   Description:
     - html: false
-      text: ' Only in New Orleans'
+      text: Only in New Orleans
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.968504
   lng: -90.067122
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 102
 item_type: Still Image

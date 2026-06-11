@@ -3,7 +3,6 @@ aliases:
   - /items/show/629
   - /items/show/629.html
 collections: []
-contributors: []
 date: '2006-01-18 00:02:58'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 19:02:58'
   Description:
     - html: false
-      text: ' Shore to shore dead fish on the Amite River after Katrina.  Picture taken in Head of Island, LA, approximately 60 miles from New Orleans.'
+      text: Shore to shore dead fish on the Amite River after Katrina.  Picture taken in Head of Island, LA, approximately 60 miles from New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342352
   lng: -90.685853
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 629
 item_type: Still Image

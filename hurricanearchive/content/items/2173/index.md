@@ -3,7 +3,6 @@ aliases:
   - /items/show/2173
   - /items/show/2173.html
 collections: []
-contributors: []
 date: '2006-04-22 14:23:06'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 10:23:06'
   Description:
     - html: false
-      text: ' American Red Cross Youth Corps in action.'
+      text: American Red Cross Youth Corps in action.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 27.203872
   lng: -82.443249
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2173
 item_type: Still Image

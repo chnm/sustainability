@@ -4,7 +4,6 @@ aliases:
   - /items/show/26332.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-28 18:27:46'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Smithtown, NY
   lat: 40.85583
   lng: -73.20111
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26332
 item_type: Document

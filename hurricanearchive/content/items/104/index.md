@@ -3,7 +3,6 @@ aliases:
   - /items/show/104
   - /items/show/104.html
 collections: []
-contributors: []
 date: '2005-11-17 22:29:32'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:29:32'
   Description:
     - html: false
-      text: ' Aerial photo of New Orleans East.'
+      text: Aerial photo of New Orleans East.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.993002284551103
   lng: -89.86816406250001
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 104
 item_type: Still Image

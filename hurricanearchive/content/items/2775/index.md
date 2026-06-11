@@ -4,7 +4,6 @@ aliases:
   - /items/show/2775.html
 collections:
   - '21'
-contributors: []
 date: '2006-08-21 18:47:48'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: '  &ldquo;You went in one way and came out another&rdquo;'
+      text: '&ldquo;You went in one way and came out another&rdquo;'
   Language:
     - html: false
       text: eng

@@ -3,7 +3,6 @@ aliases:
   - /items/show/318
   - /items/show/318.html
 collections: []
-contributors: []
 date: '2005-12-03 03:26:28'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-02 22:26:28'
   Description:
     - html: false
-      text: ' Walkers and crutches awaiting evacuees of Hurricane s Katrina and Rita in Lafayette, Louisiana Cajundome.'
+      text: Walkers and crutches awaiting evacuees of Hurricane s Katrina and Rita in Lafayette, Louisiana Cajundome.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.218209359545195
   lng: -92.03886508941649
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 318
 item_type: Still Image

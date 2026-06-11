@@ -3,7 +3,6 @@ aliases:
   - /items/show/43156
   - /items/show/43156.html
 collections: []
-contributors: []
 date: '2010-09-02 02:39:15'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1130 Dove Pk rd
   lat: 30.41522
   lng: -90.05759
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43156
 item_type: Document

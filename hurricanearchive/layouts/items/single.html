@@ -1,6 +1,7 @@
 {{ define "main" }}
 <article class="item">
   <h1>{{ .Title }}</h1>
+  {{ partial "original-source.html" . }}
 
   {{ with .Params.files }}
     <div class="item-files">

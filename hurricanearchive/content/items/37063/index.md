@@ -3,7 +3,6 @@ aliases:
   - /items/show/37063
   - /items/show/37063.html
 collections: []
-contributors: []
 date: '2008-08-29 05:23:38'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 735 dumaine street, new orleans, LA
   lat: 29.95982
   lng: -90.06358
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37063
 item_type: Document

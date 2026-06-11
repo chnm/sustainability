@@ -4,13 +4,12 @@ aliases:
   - /items/show/36247.html
 collections:
   - '211'
-contributors: []
 date: '2008-07-17 14:50:11'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'An instrumental song Phil Melancon wrote for a documentary a few years ago. '
+      text: An instrumental song Phil Melancon wrote for a documentary a few years ago.
   Language:
     - html: false
       text: eng

@@ -4,13 +4,12 @@ aliases:
   - /items/show/27805.html
 collections:
   - '149'
-contributors: []
 date: '2007-05-21 04:29:42'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'THE ONGUARD \r\nVolume XXXIV,  7  NEWSPAPER of the ARMYand AIR NATIONAL GUARD  '
+      text: THE ONGUARD \r\nVolume XXXIV,  7  NEWSPAPER of the ARMYand AIR NATIONAL GUARD
   Language:
     - html: false
       text: eng

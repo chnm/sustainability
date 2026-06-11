@@ -3,7 +3,6 @@ aliases:
   - /items/show/45908
   - /items/show/45908.html
 collections: []
-contributors: []
 date: '2012-09-03 21:13:30'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: Braithwaite, Louisiana
   lat: 29.866111
   lng: -89.94361100000003
+  map_type: Google Maps v3.x
   zoom: 6
 id: 45908
 item_type: Still Image

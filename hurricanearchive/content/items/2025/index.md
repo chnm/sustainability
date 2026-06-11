@@ -3,7 +3,6 @@ aliases:
   - /items/show/2025
   - /items/show/2025.html
 collections: []
-contributors: []
 date: '2006-03-14 17:58:55'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-14 12:58:55'
   Description:
     - html: false
-      text: ' As you can see, the streets flooded at the height of the storm. ( Actually the water\r\ngushed from the storm drains.) Interesting enough, later that evening (Aug 29) the streets were dry.'
+      text: As you can see, the streets flooded at the height of the storm. ( Actually the water\r\ngushed from the storm drains.) Interesting enough, later that evening (Aug 29) the streets were dry.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.2908852473211
   lng: -89.80808258056639
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2025
 item_type: Still Image

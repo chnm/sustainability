@@ -3,7 +3,6 @@ aliases:
   - /items/show/4187
   - /items/show/4187.html
 collections: []
-contributors: []
 date: '2006-08-25 17:32:10'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 5717 nw 74th ave, tamarac, fl
   lat: 26.19614
   lng: -80.24938
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 4187
 item_type: Document

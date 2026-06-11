@@ -3,7 +3,6 @@ aliases:
   - /items/show/563
   - /items/show/563.html
 collections: []
-contributors: []
 date: '2006-01-13 21:53:28'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 16:53:28'
   Description:
     - html: false
-      text: ' This is a large portion of our homes roof, now in the yard.'
+      text: This is a large portion of our homes roof, now in the yard.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.566088
   lng: -90.109823
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 563
 item_type: Still Image

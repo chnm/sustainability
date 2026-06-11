@@ -3,7 +3,6 @@ aliases:
   - /items/show/35594
   - /items/show/35594.html
 collections: []
-contributors: []
 date: '2008-06-08 20:51:32'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 4908 Avron Blvd.
   lat: 29.53523
   lng: -89.86816
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35594
 item_type: Document

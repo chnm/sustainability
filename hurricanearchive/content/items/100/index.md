@@ -3,7 +3,6 @@ aliases:
   - /items/show/100
   - /items/show/100.html
 collections: []
-contributors: []
 date: '2005-11-17 17:33:15'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 12:33:15'
   Description:
     - html: false
-      text: ' Discontent with an insurance adjuster on Napoleon Avenue in Uptown New Orleans.'
+      text: Discontent with an insurance adjuster on Napoleon Avenue in Uptown New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.952659
   lng: -90.102965
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 100
 item_type: Still Image

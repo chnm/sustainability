@@ -3,7 +3,6 @@ aliases:
   - /items/show/40836
   - /items/show/40836.html
 collections: []
-contributors: []
 date: '2009-08-30 19:19:48'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 5329 Pitre Dr. Crown Point, LA
   lat: 29.77347
   lng: -90.09441
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40836
 item_type: Document

@@ -4,7 +4,6 @@ aliases:
   - /items/show/26352.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-28 19:14:46'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Defiance, OH
   lat: 41.28444
   lng: -84.35583
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26352
 item_type: Document

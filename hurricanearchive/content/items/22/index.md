@@ -3,7 +3,6 @@ aliases:
   - /items/show/22
   - /items/show/22.html
 collections: []
-contributors: []
 date: '2005-11-15 21:10:39'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-15 16:10:39'
   Description:
     - html: false
-      text: ' The mailboxes at our Port Arthur, TX apartment complex were smashed by Rita.\r\nTaken on Oct 10, 2005'
+      text: The mailboxes at our Port Arthur, TX apartment complex were smashed by Rita.\r\nTaken on Oct 10, 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9492082575635
   lng: -93.9661502838135
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 22
 item_type: Still Image

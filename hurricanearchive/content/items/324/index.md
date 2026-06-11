@@ -3,7 +3,6 @@ aliases:
   - /items/show/324
   - /items/show/324.html
 collections: []
-contributors: []
 date: '2005-12-05 00:57:38'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-04 19:57:38'
   Description:
     - html: false
-      text: ' Damage to old downtown part of DeRidder, LA.'
+      text: Damage to old downtown part of DeRidder, LA.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.651656
   lng: -93.299574
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 324
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/43131
   - /items/show/43131.html
 collections: []
-contributors: []
 date: '2010-08-30 21:52:25'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: St Anthony Ave
   lat: 30.00921
   lng: -90.06334
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43131
 item_type: Document

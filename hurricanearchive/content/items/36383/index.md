@@ -3,7 +3,6 @@ aliases:
   - /items/show/36383
   - /items/show/36383.html
 collections: []
-contributors: []
 date: '2008-07-23 14:13:49'
 draft: false
 dublin_core:
@@ -15,7 +14,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: " \t About our Solution / Hurricane Katrina Story "
+      text: About our Solution / Hurricane Katrina Story
 featured: false
 files:
   - fullsize:
@@ -34,7 +33,7 @@ plugin_metadata: []
 related_items: []
 slug: '36383'
 tags: []
-title: " \t About our Solution / Hurricane Katrina Story "
+title: About our Solution / Hurricane Katrina Story
 type: items
 ---
 

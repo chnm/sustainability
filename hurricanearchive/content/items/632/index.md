@@ -3,7 +3,6 @@ aliases:
   - /items/show/632
   - /items/show/632.html
 collections: []
-contributors: []
 date: '2006-01-18 01:13:52'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 20:13:52'
   Description:
     - html: false
-      text: ' The Amite River in my yard, Head of Island, LA.'
+      text: The Amite River in my yard, Head of Island, LA.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342352
   lng: -90.685853
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 632
 item_type: Still Image

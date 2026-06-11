@@ -3,7 +3,6 @@ aliases:
   - /items/show/2024
   - /items/show/2024.html
 collections: []
-contributors: []
 date: '2006-03-14 17:55:07'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-14 12:55:07'
   Description:
     - html: false
-      text: ' The ground became so sodden that many\r\nmature trees were uprooted along with, in this case, underground electric power lines.'
+      text: The ground became so sodden that many\r\nmature trees were uprooted along with, in this case, underground electric power lines.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.290866719138698
   lng: -89.80812549591062
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2024
 item_type: Still Image

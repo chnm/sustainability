@@ -3,13 +3,12 @@ aliases:
   - /items/show/12643
   - /items/show/12643.html
 collections: []
-contributors: []
 date: '2006-11-14 18:38:16'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'The intersection of Mirabeau Avenue and the London Avenue Canal offers one of the most subtle critiques of the response of the local, state, and federal government to our continuing crisis. '
+      text: The intersection of Mirabeau Avenue and the London Avenue Canal offers one of the most subtle critiques of the response of the local, state, and federal government to our continuing crisis.
   Language:
     - html: false
       text: eng
@@ -28,6 +27,7 @@ geo:
   address: Mirabeau and Warrington
   lat: 30.0076
   lng: -90.0686
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12643
 item_type: Still Image

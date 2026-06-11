@@ -3,7 +3,6 @@ aliases:
   - /items/show/5361
   - /items/show/5361.html
 collections: []
-contributors: []
 date: '2006-09-18 00:27:38'
 draft: false
 dublin_core:
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 30.27841
   lng: -89.77119
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 5361
 item_type: Still Image

@@ -3,13 +3,12 @@ aliases:
   - /items/show/37988
   - /items/show/37988.html
 collections: []
-contributors: []
 date: '2008-11-14 18:35:36'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'This is a photo of my bedroom after hurricane Katrina.  My mother and I lived near Baptist Memorial hospital in Uptown/Central City and our home received approximately 5 feet of water.  We were displaced for almost a year and had to replace everything we owned over the next 3 years as FEMA denied our claim saying we living in the wrong Zip Code and that we could not have received any damage.  It was a very difficult time for us but it made us both stronger and wiser. '
+      text: This is a photo of my bedroom after hurricane Katrina.  My mother and I lived near Baptist Memorial hospital in Uptown/Central City and our home received approximately 5 feet of water.  We were displaced for almost a year and had to replace everything we owned over the next 3 years as FEMA denied our claim saying we living in the wrong Zip Code and that we could not have received any damage.  It was a very difficult time for us but it made us both stronger and wiser.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: 4920 Magnolia Street
   lat: 29.93685
   lng: -90.1074
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37988
 item_type: Still Image

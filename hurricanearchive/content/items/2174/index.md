@@ -3,7 +3,6 @@ aliases:
   - /items/show/2174
   - /items/show/2174.html
 collections: []
-contributors: []
 date: '2006-04-22 14:28:13'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 10:28:13'
   Description:
     - html: false
-      text: ' Slim pickings.'
+      text: Slim pickings.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.107036956407104
   lng: -88.25042724609379
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2174
 item_type: Still Image

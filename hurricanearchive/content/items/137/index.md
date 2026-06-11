@@ -3,7 +3,6 @@ aliases:
   - /items/show/137
   - /items/show/137.html
 collections: []
-contributors: []
 date: '2005-11-17 23:26:22'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 18:26:22'
   Description:
     - html: false
-      text: ' Rescue by air.'
+      text: Rescue by air.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 137
 item_type: Still Image

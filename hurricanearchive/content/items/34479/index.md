@@ -4,13 +4,12 @@ aliases:
   - /items/show/34479.html
 collections:
   - '185'
-contributors: []
 date: '2008-04-17 19:29:52'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'The interstate was blocked from trafic due to debris on the road.  '
+      text: The interstate was blocked from trafic due to debris on the road.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 30.22586
   lng: -89.83311
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34479
 item_type: Still Image

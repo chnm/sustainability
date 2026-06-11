@@ -3,7 +3,6 @@ aliases:
   - /items/show/250
   - /items/show/250.html
 collections: []
-contributors: []
 date: '2005-11-25 14:26:39'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-25 09:26:39'
   Description:
     - html: false
-      text: ' This is my story of hurricane Katrina.'
+      text: This is my story of hurricane Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 250
 item_type: Document

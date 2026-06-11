@@ -3,7 +3,6 @@ aliases:
   - /items/show/97
   - /items/show/97.html
 collections: []
-contributors: []
 date: '2005-11-17 14:09:00'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 09:09:00'
   Description:
     - html: false
-      text: " Robert\\'s Market on Canal St. in New Orleans."
+      text: Robert\'s Market on Canal St. in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 97
 item_type: Still Image

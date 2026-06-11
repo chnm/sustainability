@@ -3,7 +3,6 @@ aliases:
   - /items/show/35084
   - /items/show/35084.html
 collections: []
-contributors: []
 date: '2008-05-12 17:44:21'
 draft: false
 dublin_core:
@@ -28,6 +27,7 @@ geo:
   address: 7730 marquis st
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35084
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/386
   - /items/show/386.html
 collections: []
-contributors: []
 date: '2005-12-22 13:07:39'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-22 08:07:39'
   Description:
     - html: false
-      text: ' This is a photo-essay based on my interview with Brent Stumbo, which has also been submitted to his site. It allows you to actually SEE the damages and losses discussed in the interview.'
+      text: This is a photo-essay based on my interview with Brent Stumbo, which has also been submitted to his site. It allows you to actually SEE the damages and losses discussed in the interview.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.446993
   lng: -89.976592
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 386
 item_type: Document

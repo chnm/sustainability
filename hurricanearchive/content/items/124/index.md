@@ -3,7 +3,6 @@ aliases:
   - /items/show/124
   - /items/show/124.html
 collections: []
-contributors: []
 date: '2005-11-17 22:54:17'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:54:17'
   Description:
     - html: false
-      text: ' Military convoy.'
+      text: Military convoy.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9549345496561
   lng: -90.087890625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 124
 item_type: Still Image

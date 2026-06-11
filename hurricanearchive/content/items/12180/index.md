@@ -4,7 +4,6 @@ aliases:
   - /items/show/12180.html
 collections:
   - '175'
-contributors: []
 date: '2006-10-18 17:18:47'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2006-02-23 00:00:00'
   Description:
     - html: false
-      text: "File is the audio from an interview conducted by a New Orleans\\' high school student with his principal Barbara McPhee.  The interview was conducted for a book project titled Desire: Returning and Resurrecting New Orleans.  To see related objects click on the Math and Science Charter High School tag. "
+      text: "File is the audio from an interview conducted by a New Orleans\\' high school student with his principal Barbara McPhee.  The interview was conducted for a book project titled Desire: Returning and Resurrecting New Orleans.  To see related objects click on the Math and Science Charter High School tag."
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 29.93355
   lng: -90.1145
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12180
 item_type: Document

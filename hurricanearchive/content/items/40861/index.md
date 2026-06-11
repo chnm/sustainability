@@ -3,7 +3,6 @@ aliases:
   - /items/show/40861
   - /items/show/40861.html
 collections: []
-contributors: []
 date: '2009-08-31 20:56:08'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 5650 Rosemary Place
   lat: 29.99317
   lng: -90.11289
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40861
 item_type: Document

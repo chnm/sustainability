@@ -3,7 +3,6 @@ aliases:
   - /items/show/11508
   - /items/show/11508.html
 collections: []
-contributors: []
 date: '2006-09-25 18:16:26'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-09-25 00:00:00'
   Description:
     - html: false
-      text: 'As an animal rescuer we were given addresses in New Orleans to go to to attempt to save people pets, if they were still alive.  This address said two dogs left in the shed.  We found one dead. The other may have gotten out a high window when the waters rose to the top of the shed. '
+      text: As an animal rescuer we were given addresses in New Orleans to go to to attempt to save people pets, if they were still alive.  This address said two dogs left in the shed.  We found one dead. The other may have gotten out a high window when the waters rose to the top of the shed.
   Language:
     - html: false
       text: eng

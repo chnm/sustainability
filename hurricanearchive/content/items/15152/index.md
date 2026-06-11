@@ -4,13 +4,12 @@ aliases:
   - /items/show/15152.html
 collections:
   - '68'
-contributors: []
 date: '2007-01-20 16:44:32'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Canal St. Easter Parade around 1960.  '
+      text: Canal St. Easter Parade around 1960.
   Language:
     - html: false
       text: eng
@@ -26,6 +25,7 @@ geo:
   address: ''
   lat: 37.77123
   lng: -122.44127
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 15152
 item_type: Still Image

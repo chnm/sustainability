@@ -4,7 +4,6 @@ aliases:
   - /items/show/35279.html
 collections:
   - '68'
-contributors: []
 date: '2008-05-26 22:19:30'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: new orleans, la
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35279
 item_type: Still Image

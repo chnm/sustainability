@@ -3,7 +3,6 @@ aliases:
   - /items/show/12090
   - /items/show/12090.html
 collections: []
-contributors: []
 date: '2006-10-12 16:37:01'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 320 florida
   lat: 29.96868
   lng: -90.23004
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12090
 item_type: Document

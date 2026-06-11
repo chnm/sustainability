@@ -3,7 +3,6 @@ aliases:
   - /items/show/2149
   - /items/show/2149.html
 collections: []
-contributors: []
 date: '2006-04-14 01:41:13'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-13 21:41:13'
   Description:
     - html: false
-      text: " After returning from evacuation.  Our youngest son turned 6 on Oct. 5th.  Thanks to Rita it was an \\\"interesting party\\\" !  We were still under curfew and birthday cakes were next to impossible to come by.  The hum of the generator accompanied \\\"Happy Birthday\\\" but this is what it\\'s all about.  Rebuilding and moving on.  We were all grateful to have loved ones with us to celebrate."
+      text: After returning from evacuation.  Our youngest son turned 6 on Oct. 5th.  Thanks to Rita it was an \"interesting party\" !  We were still under curfew and birthday cakes were next to impossible to come by.  The hum of the generator accompanied \"Happy Birthday\" but this is what it\'s all about.  Rebuilding and moving on.  We were all grateful to have loved ones with us to celebrate.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.135425
   lng: -93.860282
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2149
 item_type: Still Image

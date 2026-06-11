@@ -4,13 +4,12 @@ aliases:
   - /items/show/15122.html
 collections:
   - '68'
-contributors: []
 date: '2007-01-20 02:28:51'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Clinton Joseph Minor\r\n\r\nHis ancestors long-time residents of Fazendeville. '
+      text: Clinton Joseph Minor\r\n\r\nHis ancestors long-time residents of Fazendeville.
   Language:
     - html: false
       text: eng

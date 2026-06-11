@@ -4,13 +4,12 @@ aliases:
   - /items/show/3611.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "This brings back some really good memories for me.  Everyone on the 1971 team spent very long hours practicing and working toward the goal of winning this championship.  I\\'m glad it survived Hurricane Katrina.     "
+      text: This brings back some really good memories for me.  Everyone on the 1971 team spent very long hours practicing and working toward the goal of winning this championship.  I\'m glad it survived Hurricane Katrina.
   Language:
     - html: false
       text: eng

@@ -3,7 +3,6 @@ aliases:
   - /items/show/1870
   - /items/show/1870.html
 collections: []
-contributors: []
 date: '2006-02-25 01:53:45'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-24 20:53:45'
   Description:
     - html: false
-      text: ' St. Maurice Catholic Church 605 St. Maurice Ave, New Orleans, LA.  \r\n\r\nThe wooden frame of the steeple of St. Maurice church was blown off in the storm.  It was removed of its verdegris c copper covering by looters.   The interior of the church had water to the tops of the pews.  The church had undergone extensive renovations within the last decade. \r\n\r\n The church was built in 1857 to serve Faugborg La Course the area running from just below the Ursuline Convent on Jourdan Street (now the site of the industrial canal) to Parish Rd. in Chalmette.'
+      text: St. Maurice Catholic Church 605 St. Maurice Ave, New Orleans, LA.  \r\n\r\nThe wooden frame of the steeple of St. Maurice church was blown off in the storm.  It was removed of its verdegris c copper covering by looters.   The interior of the church had water to the tops of the pews.  The church had undergone extensive renovations within the last decade. \r\n\r\n The church was built in 1857 to serve Faugborg La Course the area running from just below the Ursuline Convent on Jourdan Street (now the site of the industrial canal) to Parish Rd. in Chalmette.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1870
 item_type: Still Image

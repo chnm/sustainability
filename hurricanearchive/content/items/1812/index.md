@@ -3,7 +3,6 @@ aliases:
   - /items/show/1812
   - /items/show/1812.html
 collections: []
-contributors: []
 date: '2006-02-06 14:20:21'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-06 09:20:21'
   Description:
     - html: false
-      text: ' 501 & 503 Passera Court. August 30, 2005'
+      text: 501 & 503 Passera Court. August 30, 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.981182030142598
   lng: -90.102481842041
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1812
 item_type: Still Image

@@ -3,13 +3,15 @@ aliases:
   - /items/show/28667
   - /items/show/28667.html
 collections: []
-contributors: []
 date: '2007-06-13 20:25:23'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "This is one of those homes that actually floated off the foundation.\r\nKeep in mind, this was 8 months after the big hurricanes...\r\nLower 9th Ward, New Orleans, LA"
+      text: |-
+        This is one of those homes that actually floated off the foundation.
+        Keep in mind, this was 8 months after the big hurricanes...
+        Lower 9th Ward, New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

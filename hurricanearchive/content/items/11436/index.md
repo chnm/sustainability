@@ -3,7 +3,6 @@ aliases:
   - /items/show/11436
   - /items/show/11436.html
 collections: []
-contributors: []
 date: '2006-09-21 06:55:27'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: Coliseum and Gen. Pershing
   lat: 29.95493
   lng: -90.13184
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 11436
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/12652
   - /items/show/12652.html
 collections: []
-contributors: []
 date: '2006-11-15 17:09:12'
 draft: false
 dublin_core:
@@ -25,9 +24,10 @@ files:
     thumb:
     url: https://hurricanearchive.org/files/original/14fb2a21f8ec8414fb2a21f8f066.doc
 geo:
-  address: '367 Main Street '
+  address: 367 Main Street
   lat: 41.65306
   lng: -70.28328
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12652
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/1883
   - /items/show/1883.html
 collections: []
-contributors: []
 date: '2006-03-06 13:24:50'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 08:24:50'
   Description:
     - html: false
-      text: " We went to see family in New Jersey over Thanksgiving just to get away. We were retruning home to Slidell over the twin span and for the first time I saw the devastaion along the shore line to Lake Ponchatrain. We got off at Eden Isles and drove to Rats Nest Road to see what wasn\\'t there."
+      text: We went to see family in New Jersey over Thanksgiving just to get away. We were retruning home to Slidell over the twin span and for the first time I saw the devastaion along the shore line to Lake Ponchatrain. We got off at Eden Isles and drove to Rats Nest Road to see what wasn\'t there.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.2176531011518
   lng: -89.8173093795776
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1883
 item_type: Still Image

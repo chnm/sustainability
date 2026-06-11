@@ -3,7 +3,6 @@ aliases:
   - /items/show/40945
   - /items/show/40945.html
 collections: []
-contributors: []
 date: '2009-09-04 03:34:59'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 229 Southwood Dr. Gretna, LA
   lat: 28.92163
   lng: -90.04395
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40945
 item_type: Document

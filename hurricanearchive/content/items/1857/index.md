@@ -3,7 +3,6 @@ aliases:
   - /items/show/1857
   - /items/show/1857.html
 collections: []
-contributors: []
 date: '2006-02-21 05:13:08'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-21 00:13:08'
   Description:
     - html: false
-      text: ' My house at 5768 Wildair about three blocks from the London Avenue Canal. Received at least eight feet of flood water. Water line is about 2/3 of the way up windows, but ther is evidens that the water was above that level at least a foot. All vegetation is dead.'
+      text: My house at 5768 Wildair about three blocks from the London Avenue Canal. Received at least eight feet of flood water. Water line is about 2/3 of the way up windows, but ther is evidens that the water was above that level at least a foot. All vegetation is dead.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.016415613516898
   lng: -90.0676345825195
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1857
 item_type: Still Image

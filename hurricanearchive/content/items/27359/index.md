@@ -3,13 +3,12 @@ aliases:
   - /items/show/27359
   - /items/show/27359.html
 collections: []
-contributors: []
 date: '2007-05-08 17:37:50'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'a hurricane hero is some one who trys to help someone that needs help who has lost there house or has lost someone or something they love '
+      text: a hurricane hero is some one who trys to help someone that needs help who has lost there house or has lost someone or something they love
   Language:
     - html: false
       text: eng

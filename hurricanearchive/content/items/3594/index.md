@@ -4,13 +4,12 @@ aliases:
   - /items/show/3594.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'A vase pulled out of a destroyed home rests on top of a chair damaged by the flood waters.        '
+      text: A vase pulled out of a destroyed home rests on top of a chair damaged by the flood waters.
   Language:
     - html: false
       text: eng

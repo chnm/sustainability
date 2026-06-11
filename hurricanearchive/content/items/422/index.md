@@ -3,7 +3,6 @@ aliases:
   - /items/show/422
   - /items/show/422.html
 collections: []
-contributors: []
 date: '2005-12-26 20:03:49'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 15:03:49'
   Description:
     - html: false
-      text: ' The sign says it all. Taken in New Orleans.'
+      text: The sign says it all. Taken in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.993002284551103
   lng: -90.0439453125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 422
 item_type: Still Image

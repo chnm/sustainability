@@ -3,7 +3,6 @@ aliases:
   - /items/show/443
   - /items/show/443.html
 collections: []
-contributors: []
 date: '2005-12-27 01:01:04'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: ''
   lat: 30.399234
   lng: -88.886261
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 443
 item_type: Hyperlink

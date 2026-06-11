@@ -3,7 +3,6 @@ aliases:
   - /items/show/500
   - /items/show/500.html
 collections: []
-contributors: []
 date: '2005-12-30 05:27:11'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-30 00:27:11'
   Description:
     - html: false
-      text: ' The moldy interior of a small ground level apartment on Iberville St in Mid-City New Orleans.'
+      text: The moldy interior of a small ground level apartment on Iberville St in Mid-City New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9765724930298
   lng: -90.1015162467957
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 500
 item_type: Still Image

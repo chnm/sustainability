@@ -4,7 +4,6 @@ aliases:
   - /items/show/28222.html
 collections:
   - '155'
-contributors: []
 date: '2007-06-01 21:00:10'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2007-06-01 00:00:00'
   Description:
     - html: false
-      text: "This drawing by Robert Vicknair features a silhouette of musician Kathleen Kraus holding a drill and a go cup. Vicknair created the artwork fron an image taken at the first NEIGHBORHOODS art installation, which was held Kathleen\\'s house in Holy Cross in January 2006.\\r\\n These drawings on asphalt felt were part of NEIGHBORHOODS: 2426 BRADISH PLACE, a site-specific art installation held on May 19, 2007. \\r\\n  From the artist\\'s comments: \\\"The stark figure/ground compositions were used to create iconic scenes of residents and buildings in each neighborhood. Also,due to the lack of electricity at two sites,high-contrast imagery was necessary.\\\"\\r\\n\\r\\n    \\r\\n  \\r\\n\\r\\n "
+      text: "This drawing by Robert Vicknair features a silhouette of musician Kathleen Kraus holding a drill and a go cup. Vicknair created the artwork fron an image taken at the first NEIGHBORHOODS art installation, which was held Kathleen\\'s house in Holy Cross in January 2006.\\r\\n These drawings on asphalt felt were part of NEIGHBORHOODS: 2426 BRADISH PLACE, a site-specific art installation held on May 19, 2007. \\r\\n  From the artist\\'s comments: \\\"The stark figure/ground compositions were used to create iconic scenes of residents and buildings in each neighborhood. Also,due to the lack of electricity at two sites,high-contrast imagery was necessary.\\\"\\r\\n\\r\\n    \\r\\n  \\r\\n\\r\\n"
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: 2426 Bradish Place
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 28222
 item_type: Still Image

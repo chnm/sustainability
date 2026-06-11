@@ -4,7 +4,6 @@ aliases:
   - /items/show/28972.html
 collections:
   - '155'
-contributors: []
 date: '2007-06-21 11:15:38'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2007-06-20 00:00:00'
   Description:
     - html: false
-      text: "Photograph showing detail of \"Taboogaloo,\" an artwork by Pat Cronin that was part of the \"NEIGHBORHOODS: 2426 BRADISH PLACE\" multidisciplinary installation. The Bradish Place show was the third in a series and took place in the gutted ground floor of the home of Michelle Levine and Clay Thomas on May 19th, 2007. Michelle is an artist who is currently rebuilding her house and studio in the Tulane/Gravier neighborhood. Through the use of interviews with neighbors, soundscapes, live music, drawing, photography, and sculpture, this event confronted the range of issues the community is experiencing as they revitalize this neighborhood.\r\n\r\n"
+      text: 'Photograph showing detail of "Taboogaloo," an artwork by Pat Cronin that was part of the "NEIGHBORHOODS: 2426 BRADISH PLACE" multidisciplinary installation. The Bradish Place show was the third in a series and took place in the gutted ground floor of the home of Michelle Levine and Clay Thomas on May 19th, 2007. Michelle is an artist who is currently rebuilding her house and studio in the Tulane/Gravier neighborhood. Through the use of interviews with neighbors, soundscapes, live music, drawing, photography, and sculpture, this event confronted the range of issues the community is experiencing as they revitalize this neighborhood.'
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: 2426 Bradish Place
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps v3.x
   zoom: 12
 id: 28972
 item_type: Still Image

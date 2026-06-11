@@ -4,7 +4,6 @@ aliases:
   - /items/show/29318.html
 collections:
   - '156'
-contributors: []
 date: '2007-06-27 05:07:03'
 draft: false
 dublin_core:
@@ -19,7 +18,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'Building '
+      text: Building
 featured: false
 files:
   - fullsize:
@@ -32,6 +31,7 @@ geo:
   address: 2426 Bradish Place
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 29318
 item_type: Still Image
@@ -46,7 +46,7 @@ tags:
   - bradish place
   - buildings
   - maxx sizeler
-title: 'Building '
+title: Building
 type: items
 ---
 

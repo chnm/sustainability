@@ -4,7 +4,6 @@ aliases:
   - /items/show/34048.html
 collections:
   - '188'
-contributors: []
 date: '2008-03-13 19:17:01'
 draft: false
 dublin_core:
@@ -32,6 +31,7 @@ geo:
   address: 4201 Transcontinental Blvd
   lat: 30.01494
   lng: -90.19784
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34048
 item_type: Document

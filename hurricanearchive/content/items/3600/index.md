@@ -4,13 +4,12 @@ aliases:
   - /items/show/3600.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'The groom holds his bride as they view their new surroundings between a detergent bottle and the garden bed along Elysian Fields Ave.     '
+      text: The groom holds his bride as they view their new surroundings between a detergent bottle and the garden bed along Elysian Fields Ave.
   Language:
     - html: false
       text: eng

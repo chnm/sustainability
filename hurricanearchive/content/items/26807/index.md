@@ -4,13 +4,12 @@ aliases:
   - /items/show/26807.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-17 17:04:12'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Laura Dolph, a veterinary technician, who traveled to the Gulf Coast to rescue stranded pets. '
+      text: Interview with Laura Dolph, a veterinary technician, who traveled to the Gulf Coast to rescue stranded pets.
   Language:
     - html: false
       text: eng

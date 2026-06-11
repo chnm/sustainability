@@ -3,7 +3,6 @@ aliases:
   - /items/show/425
   - /items/show/425.html
 collections: []
-contributors: []
 date: '2005-12-26 20:08:41'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 15:08:41'
   Description:
     - html: false
-      text: ' Just a reminder that FEMA was there.'
+      text: Just a reminder that FEMA was there.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.916852233070202
   lng: -90.2197265625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 425
 item_type: Still Image

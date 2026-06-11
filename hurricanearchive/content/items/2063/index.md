@@ -3,7 +3,6 @@ aliases:
   - /items/show/2063
   - /items/show/2063.html
 collections: []
-contributors: []
 date: '2006-04-06 18:41:06'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-06 14:41:06'
   Description:
     - html: false
-      text: ' This is a view of Lake Street just south of I 210, looking south about 1 week after hurricane Rita made landfall.  The concrete power  poles had been installed about one month prior.'
+      text: This is a view of Lake Street just south of I 210, looking south about 1 week after hurricane Rita made landfall.  The concrete power  poles had been installed about one month prior.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.1945470580493
   lng: -93.2323837280273
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2063
 item_type: Still Image

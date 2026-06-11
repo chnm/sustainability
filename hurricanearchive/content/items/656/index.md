@@ -3,7 +3,6 @@ aliases:
   - /items/show/656
   - /items/show/656.html
 collections: []
-contributors: []
 date: '2006-01-22 16:23:33'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-22 11:23:33'
   Description:
     - html: false
-      text: ' 8-30-2005 outside the Superdome; first full day of flooding in New Orleans'
+      text: 8-30-2005 outside the Superdome; first full day of flooding in New Orleans
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.952257363233002
   lng: -90.0820541381836
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 656
 item_type: Still Image

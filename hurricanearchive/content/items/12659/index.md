@@ -3,7 +3,6 @@ aliases:
   - /items/show/12659
   - /items/show/12659.html
 collections: []
-contributors: []
 date: '2006-11-16 00:34:43'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: 2125 Mirabeau
   lat: 30.00815
   lng: -90.06178
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12659
 item_type: Document

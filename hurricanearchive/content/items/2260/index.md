@@ -3,7 +3,6 @@ aliases:
   - /items/show/2260
   - /items/show/2260.html
 collections: []
-contributors: []
 date: '2006-05-09 15:16:11'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-05-09 11:16:11'
   Description:
     - html: false
-      text: ' Our living room on Palmisano Blvd. after Hurricane Katrina'
+      text: Our living room on Palmisano Blvd. after Hurricane Katrina
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.950862966754404
   lng: -89.94560480117799
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2260
 item_type: Still Image

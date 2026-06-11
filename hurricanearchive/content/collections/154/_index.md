@@ -11,7 +11,7 @@ lastmod: '2000-01-01 05:00:00'
 layout: single
 parent_id:
 slug: '154'
-title: 'New Orleans Visual Artists '
+title: New Orleans Visual Artists
 type: collections
 ---
 

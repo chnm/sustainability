@@ -3,7 +3,6 @@ aliases:
   - /items/show/297
   - /items/show/297.html
 collections: []
-contributors: []
 date: '2005-12-01 19:35:14'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-01 14:35:14'
   Description:
     - html: false
-      text: ' Picture of CBD from Algiers Point ferry landing.'
+      text: Picture of CBD from Algiers Point ferry landing.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9535215991382
   lng: -90.055103302002
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 297
 item_type: Still Image

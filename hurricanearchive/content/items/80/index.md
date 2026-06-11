@@ -3,7 +3,6 @@ aliases:
   - /items/show/80
   - /items/show/80.html
 collections: []
-contributors: []
 date: '2005-11-17 06:43:31'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 01:43:31'
   Description:
     - html: false
-      text: ' Erosion of ground beneath Lake Ponchartrain seawall.'
+      text: Erosion of ground beneath Lake Ponchartrain seawall.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 80
 item_type: Still Image

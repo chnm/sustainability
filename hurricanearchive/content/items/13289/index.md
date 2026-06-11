@@ -4,7 +4,6 @@ aliases:
   - /items/show/13289.html
 collections:
   - '86'
-contributors: []
 date: '2006-11-28 20:04:14'
 draft: false
 dublin_core:
@@ -16,7 +15,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'Gentilly '
+      text: Gentilly
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e684f8914fb2a1e685267.jpg
@@ -44,7 +43,7 @@ tags:
   - trailer
   - university of new orleans
   - uno
-title: 'Gentilly '
+title: Gentilly
 type: items
 ---
 

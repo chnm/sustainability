@@ -4,13 +4,12 @@ aliases:
   - /items/show/3595.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Bowls and trinkets were removed from the muck inside a destroyed home.        '
+      text: Bowls and trinkets were removed from the muck inside a destroyed home.
   Language:
     - html: false
       text: eng

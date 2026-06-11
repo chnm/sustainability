@@ -3,7 +3,6 @@ aliases:
   - /items/show/464
   - /items/show/464.html
 collections: []
-contributors: []
 date: '2005-12-27 20:08:46'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 15:08:46'
   Description:
     - html: false
-      text: ' A ripped-up mattress is among debris left from the storm.'
+      text: A ripped-up mattress is among debris left from the storm.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.356286425251202
   lng: -89.18701171875
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 464
 item_type: Still Image

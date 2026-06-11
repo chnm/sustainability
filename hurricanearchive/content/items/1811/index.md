@@ -3,7 +3,6 @@ aliases:
   - /items/show/1811
   - /items/show/1811.html
 collections: []
-contributors: []
 date: '2006-02-06 14:16:43'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-06 09:16:43'
   Description:
     - html: false
-      text: ' My house, 500 &502 Passera Court, August 30, 2006'
+      text: My house, 500 &502 Passera Court, August 30, 2006
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.981033338736196
   lng: -90.10222434997561
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1811
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/637
   - /items/show/637.html
 collections: []
-contributors: []
 date: '2006-01-18 01:56:45'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 20:56:45'
   Description:
     - html: false
-      text: ' Fernando with TVE, from Spain at the morgue set up in St. Gabriel, LA.  He was able to get the scoop on the refrigerated trucks rolling in to St. Gabriel.  Countless trucks rolled in for the 10, 000 bodies expected as per the mayor of New Orleans.  In actuality they were not needed, the dead remain under 1,200.'
+      text: Fernando with TVE, from Spain at the morgue set up in St. Gabriel, LA.  He was able to get the scoop on the refrigerated trucks rolling in to St. Gabriel.  Countless trucks rolled in for the 10, 000 bodies expected as per the mayor of New Orleans.  In actuality they were not needed, the dead remain under 1,200.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342352
   lng: -90.685853
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 637
 item_type: Still Image

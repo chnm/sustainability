@@ -3,7 +3,6 @@ aliases:
   - /items/show/35633
   - /items/show/35633.html
 collections: []
-contributors: []
 date: '2008-06-10 20:19:42'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 2905 Decomine Dr
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35633
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/2156
   - /items/show/2156.html
 collections: []
-contributors: []
 date: '2006-04-14 19:57:32'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-14 15:57:32'
   Description:
     - html: false
-      text: ' This is how far level ground dropped in downtown Bay St. Louis.'
+      text: This is how far level ground dropped in downtown Bay St. Louis.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.3128757317195
   lng: -89.32434082031249
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2156
 item_type: Still Image

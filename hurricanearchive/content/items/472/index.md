@@ -3,7 +3,6 @@ aliases:
   - /items/show/472
   - /items/show/472.html
 collections: []
-contributors: []
 date: '2005-12-27 20:29:10'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 15:29:10'
   Description:
     - html: false
-      text: ' More belongings are thrown to the edge of the street as a result of flooding in New Orleans.'
+      text: More belongings are thrown to the edge of the street as a result of flooding in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.916852233070202
   lng: -90.0439453125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 472
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/272
   - /items/show/272.html
 collections: []
-contributors: []
 date: '2005-11-26 17:55:38'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-26 12:55:38'
   Description:
     - html: false
-      text: ' Example of destruction in Pass Christian, MS.'
+      text: Example of destruction in Pass Christian, MS.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.3396948489742
   lng: -89.2117309570312
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 272
 item_type: Still Image

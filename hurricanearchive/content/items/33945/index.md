@@ -3,7 +3,6 @@ aliases:
   - /items/show/33945
   - /items/show/33945.html
 collections: []
-contributors: []
 date: '2008-03-03 21:19:49'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: Dallas, TX
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33945
 item_type: Document

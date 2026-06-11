@@ -3,7 +3,6 @@ aliases:
   - /items/show/278
   - /items/show/278.html
 collections: []
-contributors: []
 date: '2005-11-26 18:37:10'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-26 13:37:10'
   Description:
     - html: false
-      text: ' The corner store in Fat City, Metairie, 2 blocks from my old apartment. It was flooded, looted, and burned to the ground. (image provided by mudbugdesigns.com)'
+      text: The corner store in Fat City, Metairie, 2 blocks from my old apartment. It was flooded, looted, and burned to the ground. (image provided by mudbugdesigns.com)
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0092063834854
   lng: -90.16290664672849
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 278
 item_type: Still Image

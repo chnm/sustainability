@@ -4,7 +4,6 @@ aliases:
   - /items/show/2389.html
 collections:
   - '16'
-contributors: []
 date: '2006-08-17 17:10:52'
 draft: false
 dublin_core:
@@ -13,13 +12,13 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: ' MOBILE, Ala. (Oct. 13, 2005)--Chief Petty Officer Ian A. Woods, 39, Sector New York, marks a Coast Guard inspection sticker on the 55-foot, displaced fishing vessel Binh Minh in Bayou La Batre, Ala., today. Woods, a project manager for the Mobile UnifiedCommandâ€™s Environmental Branch, oversaw hazardous materials and vessel remediation in the Bayou La Batre area. Upon the initial assessment of vessels displaced by Hurricane Katrina in Alabama and Mississippi, Coast Guard vessel teams checked the integrity and seaworthy conditions of each vessel. They marked vessels with inspection stickers to let vessel owners know who to call for help with vessel removal and pollution response questions. The Binh Minh was successfully refloated and returned to its owner Bot Tran. USCG photo by PA2 Lisa Hennings \r\n'
+      text: MOBILE, Ala. (Oct. 13, 2005)--Chief Petty Officer Ian A. Woods, 39, Sector New York, marks a Coast Guard inspection sticker on the 55-foot, displaced fishing vessel Binh Minh in Bayou La Batre, Ala., today. Woods, a project manager for the Mobile UnifiedCommandâ€™s Environmental Branch, oversaw hazardous materials and vessel remediation in the Bayou La Batre area. Upon the initial assessment of vessels displaced by Hurricane Katrina in Alabama and Mississippi, Coast Guard vessel teams checked the integrity and seaworthy conditions of each vessel. They marked vessels with inspection stickers to let vessel owners know who to call for help with vessel removal and pollution response questions. The Binh Minh was successfully refloated and returned to its owner Bot Tran. USCG photo by PA2 Lisa Hennings \r\n
   Language:
     - html: false
       text: eng
   Publisher:
     - html: false
-      text: 'US COAST GUARD '
+      text: US COAST GUARD
   Title:
     - html: false
       text: COAST GUARD ASSESSES HUNDREDS OF VESSELS

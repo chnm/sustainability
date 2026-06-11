@@ -3,7 +3,6 @@ aliases:
   - /items/show/40214
   - /items/show/40214.html
 collections: []
-contributors: []
 date: '2009-05-06 06:52:51'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: Oak Street
   lat: 29.9533
   lng: -90.12772
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40214
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/319
   - /items/show/319.html
 collections: []
-contributors: []
 date: '2005-12-03 03:33:51'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-02 22:33:51'
   Description:
     - html: false
-      text: " US Flag in my neighbor\\'s yard, day after hurricane Rita."
+      text: US Flag in my neighbor\'s yard, day after hurricane Rita.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 319
 item_type: Still Image

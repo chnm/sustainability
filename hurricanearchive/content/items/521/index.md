@@ -3,7 +3,6 @@ aliases:
   - /items/show/521
   - /items/show/521.html
 collections: []
-contributors: []
 date: '2006-01-04 00:15:35'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-03 19:15:35'
   Description:
     - html: false
-      text: ' 9-30-05 W. Memphis, AR\r\nA podcast made while we watched the aftermath of the levee failure.'
+      text: 9-30-05 W. Memphis, AR\r\nA podcast made while we watched the aftermath of the levee failure.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 35.210811
   lng: -90.203849
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 521
 item_type: Document

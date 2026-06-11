@@ -3,7 +3,6 @@ aliases:
   - /items/show/370
   - /items/show/370.html
 collections: []
-contributors: []
 date: '2005-12-15 18:47:42'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-15 13:47:42'
   Description:
     - html: false
-      text: " The Alabama State Defense Force worked along side National Guard, volunteers, and prisoners to distribute MRE\\'s, water, ice, toiletries, canned goods, clothing, diapers, and anything else that people needed.  The ASDF is an unpaid, voluntary division of the National Guard."
+      text: The Alabama State Defense Force worked along side National Guard, volunteers, and prisoners to distribute MRE\'s, water, ice, toiletries, canned goods, clothing, diapers, and anything else that people needed.  The ASDF is an unpaid, voluntary division of the National Guard.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.6193002515347
   lng: -88.19566726684569
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 370
 item_type: Still Image

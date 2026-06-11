@@ -3,7 +3,6 @@ aliases:
   - /items/show/161
   - /items/show/161.html
 collections: []
-contributors: []
 date: '2005-11-18 09:22:45'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 04:22:45'
   Description:
     - html: false
-      text: ' My mom and sister took this picture by West End.  There was still water in the street about a month after the storm.'
+      text: My mom and sister took this picture by West End.  There was still water in the street about a month after the storm.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.984643
   lng: -90.161821
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 161
 item_type: Still Image

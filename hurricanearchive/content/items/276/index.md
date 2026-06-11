@@ -3,7 +3,6 @@ aliases:
   - /items/show/276
   - /items/show/276.html
 collections: []
-contributors: []
 date: '2005-11-26 18:31:04'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-26 13:31:04'
   Description:
     - html: false
-      text: ' Dorignacs in Metairie (image provided by mudbugdesigns.com)'
+      text: Dorignacs in Metairie (image provided by mudbugdesigns.com)
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0011789954666
   lng: -90.1311492919922
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 276
 item_type: Still Image

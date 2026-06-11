@@ -4,7 +4,6 @@ aliases:
   - /items/show/26348.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-28 19:07:30'
 draft: false
 dublin_core:
@@ -16,7 +15,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: ' Katrina'
+      text: Katrina
 featured: false
 files: []
 geo:
@@ -30,7 +29,7 @@ related_items: []
 slug: '26348'
 tags:
   - poetry
-title: ' Katrina'
+title: Katrina
 type: items
 ---
 

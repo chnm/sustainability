@@ -3,13 +3,12 @@ aliases:
   - /items/show/32141
   - /items/show/32141.html
 collections: []
-contributors: []
 date: '2007-09-04 18:09:04'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Taken in a heavy rainstorm on 8-29-07 in New Orleans\\'s French Quarter. "
+      text: Taken in a heavy rainstorm on 8-29-07 in New Orleans\'s French Quarter.
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

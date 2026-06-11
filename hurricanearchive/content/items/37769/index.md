@@ -3,7 +3,6 @@ aliases:
   - /items/show/37769
   - /items/show/37769.html
 collections: []
-contributors: []
 date: '2008-10-24 22:09:01'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 8 yosemite dr. new orleans
   lat: 29.91718
   lng: -90.01189
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37769
 item_type: Still Image

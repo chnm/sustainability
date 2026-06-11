@@ -3,7 +3,6 @@ aliases:
   - /items/show/98
   - /items/show/98.html
 collections: []
-contributors: []
 date: '2005-11-17 14:13:26'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 09:13:26'
   Description:
     - html: false
-      text: ' Sheetrock, anyone?  Canal St., New Orleans.'
+      text: Sheetrock, anyone?  Canal St., New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 98
 item_type: Still Image

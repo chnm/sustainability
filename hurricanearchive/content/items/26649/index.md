@@ -4,7 +4,6 @@ aliases:
   - /items/show/26649.html
 collections:
   - '150'
-contributors: []
 date: '2007-04-13 14:46:57'
 draft: false
 dublin_core:
@@ -35,6 +34,7 @@ geo:
   address: St.  Maurice St.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26649
 item_type: Document

@@ -3,13 +3,12 @@ aliases:
   - /items/show/33163
   - /items/show/33163.html
 collections: []
-contributors: []
 date: '2007-11-21 05:22:59'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'The infamous FEMA trailer, part of the New Orleans landscape since 2005. '
+      text: The infamous FEMA trailer, part of the New Orleans landscape since 2005.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: ''
   lat: 29.93813
   lng: -90.07403
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33163
 item_type: Still Image

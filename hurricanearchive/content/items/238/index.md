@@ -3,7 +3,6 @@ aliases:
   - /items/show/238
   - /items/show/238.html
 collections: []
-contributors: []
 date: '2005-11-23 01:02:19'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-22 20:02:19'
   Description:
     - html: false
-      text: ' This is a picture of my friends home in Covington, Louisiana.  The home was damaged by Hurricane Katrina.'
+      text: This is a picture of my friends home in Covington, Louisiana.  The home was damaged by Hurricane Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.065367
   lng: -90.527515
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 238
 item_type: Still Image

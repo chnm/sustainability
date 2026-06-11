@@ -3,7 +3,6 @@ aliases:
   - /items/show/42699
   - /items/show/42699.html
 collections: []
-contributors: []
 date: '2010-06-01 15:50:34'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: 2701 jackson blvd
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42699
 item_type: Document

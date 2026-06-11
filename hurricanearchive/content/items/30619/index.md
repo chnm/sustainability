@@ -4,7 +4,6 @@ aliases:
   - /items/show/30619.html
 collections:
   - '166'
-contributors: []
 date: '2007-07-24 01:01:39'
 draft: false
 dublin_core:
@@ -32,6 +31,7 @@ geo:
   address: St. Ferdinand Street
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 30619
 item_type: Still Image

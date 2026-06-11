@@ -4,13 +4,12 @@ aliases:
   - /items/show/3596.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'He still listens to her play the mandolin even though she has lost her head.        '
+      text: He still listens to her play the mandolin even though she has lost her head.
   Language:
     - html: false
       text: eng

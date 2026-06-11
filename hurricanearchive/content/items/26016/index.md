@@ -4,7 +4,6 @@ aliases:
   - /items/show/26016.html
 collections:
   - '142'
-contributors: []
 date: '2007-03-14 13:46:12'
 draft: false
 dublin_core:
@@ -32,6 +31,7 @@ geo:
   address: 1743 Lamanche Street, New Orleans
   lat: 29.96748
   lng: -90.01265
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26016
 item_type: Moving Image

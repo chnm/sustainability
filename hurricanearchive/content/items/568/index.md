@@ -3,7 +3,6 @@ aliases:
   - /items/show/568
   - /items/show/568.html
 collections: []
-contributors: []
 date: '2006-01-13 21:57:59'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 16:57:59'
   Description:
     - html: false
-      text: ' A destroyed Waffle House on the beach in Long Beach.'
+      text: A destroyed Waffle House on the beach in Long Beach.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.374646
   lng: -89.177143
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 568
 item_type: Still Image

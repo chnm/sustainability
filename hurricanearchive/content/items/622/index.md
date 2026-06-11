@@ -3,7 +3,6 @@ aliases:
   - /items/show/622
   - /items/show/622.html
 collections: []
-contributors: []
 date: '2006-01-17 18:06:46'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 13:06:46'
   Description:
     - html: false
-      text: ' No Kidding!  This is the road to a little local \"watering\" hole called Swamp Waters in Head of Island, Louisiana'
+      text: No Kidding!  This is the road to a little local \"watering\" hole called Swamp Waters in Head of Island, Louisiana
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.313616689930704
   lng: -90.68389892578121
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 622
 item_type: Still Image

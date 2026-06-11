@@ -4,7 +4,6 @@ aliases:
   - /items/show/28272.html
 collections:
   - '155'
-contributors: []
 date: '2007-06-02 22:41:39'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2007-06-02 00:00:00'
   Description:
     - html: false
-      text: "Photo of Ben Schenck of Panorama Jazz Band, playing clarinet while standing next to artwork by Robert Vicknair/Monica Zeringue The skirt and back of the plastic dress are decorated with satellite images of waterways, islands,and canals.A map of the Tulane/Gravier neighborhood covers the stomach of the figure.\\r\\n\\r\\nPanorama Jazz Band\\'s performance in the gutted, first floor of a house in the Tulane/Gravier neighborhood was part of an art installation called NEIGHBORHOODS: 2426 BRADISH PLACE on May 19, 2006. Also playing with Panorama that night were Jon Gross(tuba) and Sean Clark (drums). "
+      text: "Photo of Ben Schenck of Panorama Jazz Band, playing clarinet while standing next to artwork by Robert Vicknair/Monica Zeringue The skirt and back of the plastic dress are decorated with satellite images of waterways, islands,and canals.A map of the Tulane/Gravier neighborhood covers the stomach of the figure.\\r\\n\\r\\nPanorama Jazz Band\\'s performance in the gutted, first floor of a house in the Tulane/Gravier neighborhood was part of an art installation called NEIGHBORHOODS: 2426 BRADISH PLACE on May 19, 2006. Also playing with Panorama that night were Jon Gross(tuba) and Sean Clark (drums)."
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: 2426 Bradish Place
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 28272
 item_type: Document

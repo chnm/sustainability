@@ -3,7 +3,6 @@ aliases:
   - /items/show/2013
   - /items/show/2013.html
 collections: []
-contributors: []
 date: '2006-03-11 20:12:21'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-11 15:12:21'
   Description:
     - html: false
-      text: ' Lake Catherine, LA about 2 miles west of Fort Pike, looking towards the east.'
+      text: Lake Catherine, LA about 2 miles west of Fort Pike, looking towards the east.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.1415644334843
   lng: -89.75006103515621
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2013
 item_type: Still Image

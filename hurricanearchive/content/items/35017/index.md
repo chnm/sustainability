@@ -3,7 +3,6 @@ aliases:
   - /items/show/35017
   - /items/show/35017.html
 collections: []
-contributors: []
 date: '2008-05-07 23:10:11'
 draft: false
 dublin_core:
@@ -28,6 +27,7 @@ geo:
   address: 2357 milan
   lat: 29.93121
   lng: -90.10029
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35017
 item_type: Document

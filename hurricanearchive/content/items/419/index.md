@@ -3,7 +3,6 @@ aliases:
   - /items/show/419
   - /items/show/419.html
 collections: []
-contributors: []
 date: '2005-12-26 19:05:58'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 14:05:58'
   Description:
     - html: false
-      text: ' Boats are tossed around like toys at Lake Pontchatrain.'
+      text: Boats are tossed around like toys at Lake Pontchatrain.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.943035391587696
   lng: -90.16204833984379
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 419
 item_type: Still Image

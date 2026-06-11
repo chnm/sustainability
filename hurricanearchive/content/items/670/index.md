@@ -3,7 +3,6 @@ aliases:
   - /items/show/670
   - /items/show/670.html
 collections: []
-contributors: []
 date: '2006-01-24 04:03:06'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-23 23:03:06'
   Description:
     - html: false
-      text: ' 8-30-05 outside the Superdome'
+      text: 8-30-05 outside the Superdome
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9507700062939
   lng: -90.08136749267581
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 670
 item_type: Still Image

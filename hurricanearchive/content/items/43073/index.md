@@ -3,7 +3,6 @@ aliases:
   - /items/show/43073
   - /items/show/43073.html
 collections: []
-contributors: []
 date: '2010-08-26 02:12:38'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 3013 Hyman Pl.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43073
 item_type: Document

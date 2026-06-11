@@ -3,7 +3,6 @@ aliases:
   - /items/show/45948
   - /items/show/45948.html
 collections: []
-contributors: []
 date: '2013-02-07 20:59:43'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 6508 Bellaire Dr
   lat: 30.01065
   lng: -90.12153899999998
+  map_type: Google Maps v3.x
   zoom: 8
 id: 45948
 item_type: Still Image

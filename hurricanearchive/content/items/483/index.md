@@ -3,7 +3,6 @@ aliases:
   - /items/show/483
   - /items/show/483.html
 collections: []
-contributors: []
 date: '2005-12-28 19:56:38'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 14:56:38'
   Description:
     - html: false
-      text: ' Hurricane  Rita, Sept. 2005,  pirogues in the flooded neighbor of Chauvin, Louisiana, after the dam was breached behind the town.'
+      text: Hurricane  Rita, Sept. 2005,  pirogues in the flooded neighbor of Chauvin, Louisiana, after the dam was breached behind the town.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.6785080910336
   lng: -90.60630798339838
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 483
 item_type: Still Image

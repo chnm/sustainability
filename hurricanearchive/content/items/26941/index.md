@@ -4,13 +4,12 @@ aliases:
   - /items/show/26941.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Vicki Brumfield volunteered to help with recovery following Hurricane Katrina. '
+      text: Interview with Vicki Brumfield volunteered to help with recovery following Hurricane Katrina.
   Language:
     - html: false
       text: eng

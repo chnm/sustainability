@@ -4,7 +4,6 @@ aliases:
   - /items/show/26360.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-28 19:44:17'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Arlington, TX
   lat: 32.73556
   lng: -97.10778
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26360
 item_type: Document

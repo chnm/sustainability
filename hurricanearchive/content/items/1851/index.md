@@ -3,7 +3,6 @@ aliases:
   - /items/show/1851
   - /items/show/1851.html
 collections: []
-contributors: []
 date: '2006-02-17 22:13:27'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-17 17:13:27'
   Description:
     - html: false
-      text: ' Witch legs under a fallen down house.'
+      text: Witch legs under a fallen down house.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9668694619177
   lng: -90.05252838134771
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1851
 item_type: Still Image

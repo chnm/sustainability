@@ -3,7 +3,6 @@ aliases:
   - /items/show/4456
   - /items/show/4456.html
 collections: []
-contributors: []
 date: '2006-09-05 22:49:28'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 312 whitney lane
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 4456
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/237
   - /items/show/237.html
 collections: []
-contributors: []
 date: '2005-11-23 00:59:15'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-22 19:59:15'
   Description:
     - html: false
-      text: ' This is an essay that I wrote for my history class at the University of New Orleans.  It is an account of what I experienced during Hurricane Katrina.'
+      text: This is an essay that I wrote for my history class at the University of New Orleans.  It is an account of what I experienced during Hurricane Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.065367
   lng: -90.527515
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 237
 item_type: Document

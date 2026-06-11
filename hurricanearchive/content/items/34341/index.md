@@ -4,13 +4,12 @@ aliases:
   - /items/show/34341.html
 collections:
   - '200'
-contributors: []
 date: '2008-04-09 14:28:54'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "John\\'s power tools were all destroyed from the rising water in his garage.  "
+      text: John\'s power tools were all destroyed from the rising water in his garage.
   Language:
     - html: false
       text: eng
@@ -19,7 +18,7 @@ dublin_core:
       text: Attribution-NonCommercial License (http://creativecommons.org/licenses/by-nc/2.0/)
   Title:
     - html: false
-      text: '1068 Clipper Dr. Slidell '
+      text: 1068 Clipper Dr. Slidell
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca47fb3f14fb29ca47ff24.jpg
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 30.22894
   lng: -89.80244
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34341
 item_type: Still Image
@@ -50,7 +50,7 @@ tags:
   - havrilla
   - liz ashe havrilla
   - lizashehavrilla
-title: '1068 Clipper Dr. Slidell '
+title: 1068 Clipper Dr. Slidell
 type: items
 ---
 

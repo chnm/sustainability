@@ -4,7 +4,6 @@ aliases:
   - /items/show/34520.html
 collections:
   - '196'
-contributors: []
 date: '2008-04-17 19:33:30'
 draft: false
 dublin_core:
@@ -19,7 +18,7 @@ dublin_core:
       text: Attribution-NonCommercial License (http://creativecommons.org/licenses/by-nc/2.0/)
   Title:
     - html: false
-      text: 'Section of home totally blown away '
+      text: Section of home totally blown away
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c995c2f714fb29c995c6e6.jpg
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 30.22539
   lng: -89.83296
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34520
 item_type: Still Image
@@ -51,7 +51,7 @@ tags:
   - lizashehavrilla
   - nick  anna leggio
   - north shore beach
-title: 'Section of home totally blown away '
+title: Section of home totally blown away
 type: items
 ---
 

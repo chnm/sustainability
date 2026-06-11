@@ -3,7 +3,6 @@ aliases:
   - /items/show/433
   - /items/show/433.html
 collections: []
-contributors: []
 date: '2005-12-26 20:25:56'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 15:25:56'
   Description:
     - html: false
-      text: ' A house is moved off of its foundation.'
+      text: A house is moved off of its foundation.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.916852233070202
   lng: -90.0439453125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 433
 item_type: Still Image

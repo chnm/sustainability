@@ -3,7 +3,6 @@ aliases:
   - /items/show/42935
   - /items/show/42935.html
 collections: []
-contributors: []
 date: '2010-07-23 12:10:00'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: 96 Greenwood Road, Northampton
   lat: 52.23841
   lng: -0.91148
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42935
 item_type: Document

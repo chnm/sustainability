@@ -4,19 +4,18 @@ aliases:
   - /items/show/26795.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-17 17:04:12'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Alex Barge, a native of Slidell, LA who is a graduate student at Middle Tennessee State University. '
+      text: Interview with Alex Barge, a native of Slidell, LA who is a graduate student at Middle Tennessee State University.
   Language:
     - html: false
       text: eng
   Rights:
     - html: false
-      text: 'Individual only wanted interview available for researchers. '
+      text: Individual only wanted interview available for researchers.
   Title:
     - html: false
       text: Alex Barge HK356K.mp3

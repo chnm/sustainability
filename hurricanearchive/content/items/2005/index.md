@@ -3,7 +3,6 @@ aliases:
   - /items/show/2005
   - /items/show/2005.html
 collections: []
-contributors: []
 date: '2006-03-11 05:27:00'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-11 00:27:00'
   Description:
     - html: false
-      text: ' Lower Ninth Ward New Orleans'
+      text: Lower Ninth Ward New Orleans
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2005
 item_type: Still Image

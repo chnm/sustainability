@@ -3,7 +3,6 @@ aliases:
   - /items/show/1826
   - /items/show/1826.html
 collections: []
-contributors: []
 date: '2006-02-09 14:59:15'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-09 09:59:15'
   Description:
     - html: false
-      text: ' Our belongings that were destroyed by the street in Kenner, LA. (GREENLAWN TERRACE SUBDIVISION) How sad we were to return home 2 weeks after Katrina and find nearly everything inside our home destroyed!! Today is 02/09/06 and we are still awaiting on repairs of our home. We are still displaced in San Antonio and are not sure when we will be able to return home. We sure do miss our friends and family and try to make quick trips home, but it is difficult being 10 hours away to drive. WE WISH ALL THE BEST!  NEW ORLEANS WILL REBUILD!!!'
+      text: Our belongings that were destroyed by the street in Kenner, LA. (GREENLAWN TERRACE SUBDIVISION) How sad we were to return home 2 weeks after Katrina and find nearly everything inside our home destroyed!! Today is 02/09/06 and we are still awaiting on repairs of our home. We are still displaced in San Antonio and are not sure when we will be able to return home. We sure do miss our friends and family and try to make quick trips home, but it is difficult being 10 hours away to drive. WE WISH ALL THE BEST!  NEW ORLEANS WILL REBUILD!!!
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.027041
   lng: -90.250547
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1826
 item_type: Still Image

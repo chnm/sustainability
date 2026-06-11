@@ -3,7 +3,6 @@ aliases:
   - /items/show/12979
   - /items/show/12979.html
 collections: []
-contributors: []
 date: '2006-11-26 05:23:06'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: Pacific Avenue
   lat: 30.03106
   lng: -90.17578
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12979
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/39530
   - /items/show/39530.html
 collections: []
-contributors: []
 date: '2009-02-28 17:52:45'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 4630 orleans
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 39530
 item_type: Still Image

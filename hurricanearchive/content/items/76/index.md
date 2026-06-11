@@ -3,7 +3,6 @@ aliases:
   - /items/show/76
   - /items/show/76.html
 collections: []
-contributors: []
 date: '2005-11-17 06:27:58'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 01:27:58'
   Description:
     - html: false
-      text: ' This downtown New Orleans building did not make it.'
+      text: This downtown New Orleans building did not make it.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 76
 item_type: Still Image

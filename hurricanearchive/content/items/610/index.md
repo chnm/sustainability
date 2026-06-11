@@ -3,7 +3,6 @@ aliases:
   - /items/show/610
   - /items/show/610.html
 collections: []
-contributors: []
 date: '2006-01-17 09:16:25'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 04:16:25'
   Description:
     - html: false
-      text: " I took this picture after returning home from the evacuation, over 2 weeks after Hurricane Rita hit here.  This is Hollywood Theater near Parkdale Mall in Beaumont, Texas.  It hasn\\'t reopened."
+      text: I took this picture after returning home from the evacuation, over 2 weeks after Hurricane Rita hit here.  This is Hollywood Theater near Parkdale Mall in Beaumont, Texas.  It hasn\'t reopened.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.148461
   lng: -94.172481
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 610
 item_type: Still Image

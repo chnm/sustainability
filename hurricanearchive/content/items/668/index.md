@@ -3,7 +3,6 @@ aliases:
   - /items/show/668
   - /items/show/668.html
 collections: []
-contributors: []
 date: '2006-01-24 03:52:05'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-23 22:52:05'
   Description:
     - html: false
-      text: ' Ninth Ward New Orleans'
+      text: Ninth Ward New Orleans
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.951364951739297
   lng: -90.08102416992189
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 668
 item_type: Still Image

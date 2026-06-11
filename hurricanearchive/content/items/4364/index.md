@@ -4,7 +4,6 @@ aliases:
   - /items/show/4364.html
 collections:
   - '190'
-contributors: []
 date: '2006-08-31 01:49:35'
 draft: false
 dublin_core:
@@ -32,6 +31,7 @@ geo:
   address: 3557 Inwood Avenue
   lat: 29.99966
   lng: -90.12104
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 4364
 item_type: Still Image

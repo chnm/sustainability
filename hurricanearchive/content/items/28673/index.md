@@ -3,13 +3,14 @@ aliases:
   - /items/show/28673
   - /items/show/28673.html
 collections: []
-contributors: []
 date: '2007-06-13 20:25:30'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Some artish stuff on a Median in the 9th Ward.\r\nNew Orleans, LA"
+      text: |-
+        Some artish stuff on a Median in the 9th Ward.
+        New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

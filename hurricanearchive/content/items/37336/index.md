@@ -3,13 +3,12 @@ aliases:
   - /items/show/37336
   - /items/show/37336.html
 collections: []
-contributors: []
 date: '2008-09-15 05:07:48'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Lafayette Cemeteries; pictures taken in September 2007.  Photographed for research. '
+      text: Lafayette Cemeteries; pictures taken in September 2007.  Photographed for research.
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: 2800 prytania
   lat: 29.92879
   lng: -90.08537
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37336
 item_type: Still Image

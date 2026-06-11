@@ -3,7 +3,6 @@ aliases:
   - /items/show/184
   - /items/show/184.html
 collections: []
-contributors: []
 date: '2005-11-18 18:48:31'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 13:48:31'
   Description:
     - html: false
-      text: ' An example of how more than 90% of the homes looked south of New Orleans, off of hwy 23.\r\nTaken 9/15/05'
+      text: An example of how more than 90% of the homes looked south of New Orleans, off of hwy 23.\r\nTaken 9/15/05
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.4895167759739
   lng: -89.7074890136719
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 184
 item_type: Still Image

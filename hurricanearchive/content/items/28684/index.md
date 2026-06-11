@@ -3,13 +3,14 @@ aliases:
   - /items/show/28684
   - /items/show/28684.html
 collections: []
-contributors: []
 date: '2007-06-13 20:27:26'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "I like the chicken part...\r\nLower 9th Ward, New Orleans, LA"
+      text: |-
+        I like the chicken part...
+        Lower 9th Ward, New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

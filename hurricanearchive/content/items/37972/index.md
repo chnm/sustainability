@@ -3,7 +3,6 @@ aliases:
   - /items/show/37972
   - /items/show/37972.html
 collections: []
-contributors: []
 date: '2008-11-13 05:27:08'
 draft: false
 dublin_core:
@@ -16,6 +15,7 @@ geo:
   address: 4813 Virgilian St.
   lat: 29.84064
   lng: -90.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 37972
 item_type: Document

@@ -4,7 +4,6 @@ aliases:
   - /items/show/34474.html
 collections:
   - '185'
-contributors: []
 date: '2008-04-17 19:29:16'
 draft: false
 dublin_core:
@@ -19,7 +18,7 @@ dublin_core:
       text: Attribution-NonCommercial License (http://creativecommons.org/licenses/by-nc/2.0/)
   Title:
     - html: false
-      text: 'Colapsed Twin Span Bridge '
+      text: Colapsed Twin Span Bridge
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9d920c814fb29c9d92673.jpg
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 30.20935
   lng: -89.79761
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34474
 item_type: Still Image
@@ -58,7 +58,7 @@ tags:
   - rising water
   - twin span
   - waterfront
-title: 'Colapsed Twin Span Bridge '
+title: Colapsed Twin Span Bridge
 type: items
 ---
 

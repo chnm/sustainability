@@ -3,7 +3,6 @@ aliases:
   - /items/show/625
   - /items/show/625.html
 collections: []
-contributors: []
 date: '2006-01-17 18:16:56'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 13:16:56'
   Description:
     - html: false
-      text: ' Superdome in New Orleans taken by Miguel Moreno, a producer for TVE from Spain.'
+      text: Superdome in New Orleans taken by Miguel Moreno, a producer for TVE from Spain.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342352
   lng: -90.685853
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 625
 item_type: Still Image

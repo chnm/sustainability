@@ -3,7 +3,6 @@ aliases:
   - /items/show/42817
   - /items/show/42817.html
 collections: []
-contributors: []
 date: '2010-07-23 12:17:39'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2010-07-23 08:17:39'
   Description:
     - html: false
-      text: 'Damage in Franklinton. '
+      text: Damage in Franklinton.
   Language:
     - html: false
       text: eng
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 30.84985
   lng: -90.11207
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42817
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/5
   - /items/show/5.html
 collections: []
-contributors: []
 date: '2005-11-15 16:52:43'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-15 11:52:43'
   Description:
     - html: false
-      text: " A gas station that clearly can\\'t sell gas tries to woo customers in to buy drinks, snacks, or ice at the corner of Jimmy Johnson Blvd and 9th Avenue, Port Arthur, TX, taken October 11, 2005"
+      text: A gas station that clearly can\'t sell gas tries to woo customers in to buy drinks, snacks, or ice at the corner of Jimmy Johnson Blvd and 9th Avenue, Port Arthur, TX, taken October 11, 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.945415337104503
   lng: -93.9751625061035
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 5
 item_type: Still Image

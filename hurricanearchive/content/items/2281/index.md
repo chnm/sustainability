@@ -3,7 +3,6 @@ aliases:
   - /items/show/2281
   - /items/show/2281.html
 collections: []
-contributors: []
 date: '2006-05-29 17:01:26'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-05-29 13:01:26'
   Description:
     - html: false
-      text: ' These burrowing owls made their home outside the elemtary school that served as a shelter for my mother, my aunt and other evacuees.'
+      text: These burrowing owls made their home outside the elemtary school that served as a shelter for my mother, my aunt and other evacuees.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 26.015754898733096
   lng: -80.1632022857666
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2281
 item_type: Still Image

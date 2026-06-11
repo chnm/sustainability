@@ -3,13 +3,12 @@ aliases:
   - /items/show/40179
   - /items/show/40179.html
 collections: []
-contributors: []
 date: '2009-04-29 04:22:13'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'I will add some stories out of my present research here in New Orleans based on interviews with people who are related to Katrina or the recovery process in New Orleans (victims of Katrina, social entrepreneurs, volunteers, pastors, etc.) '
+      text: I will add some stories out of my present research here in New Orleans based on interviews with people who are related to Katrina or the recovery process in New Orleans (victims of Katrina, social entrepreneurs, volunteers, pastors, etc.)
   Language:
     - html: false
       text: eng
@@ -19,6 +18,7 @@ geo:
   address: Graz, Austria
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40179
 item_type: Document

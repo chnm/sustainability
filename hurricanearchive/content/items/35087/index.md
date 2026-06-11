@@ -3,7 +3,6 @@ aliases:
   - /items/show/35087
   - /items/show/35087.html
 collections: []
-contributors: []
 date: '2008-05-12 18:53:49'
 draft: false
 dublin_core:
@@ -15,7 +14,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'Upstairs Lounge massacre '
+      text: Upstairs Lounge massacre
 featured: false
 files:
   - fullsize:
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 29.96582
   lng: -90.06568
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35087
 item_type: Document
@@ -42,7 +42,7 @@ tags:
   - upstairs lounge
   - upstairs lounge fire
   - upstairs lounge massacre
-title: 'Upstairs Lounge massacre '
+title: Upstairs Lounge massacre
 type: items
 ---
 

@@ -3,7 +3,6 @@ aliases:
   - /items/show/1868
   - /items/show/1868.html
 collections: []
-contributors: []
 date: '2006-02-24 13:51:27'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-24 08:51:27'
   Description:
     - html: false
-      text: " This is what Katrina did to my mother\\'s parquet flooring when the flood waters came into the house. We had between 6 inches and 12 inches of water. The water caused the wood floors to buckle so that sections of the flooring started to look like a mountain range.  These floors are being replaced with Pergo flooring.\\r\\n\\r\\nImage was taken using a Kodak EasyShare camera and is also contributed to WWl-TV\\'s online Katrina slideshow at www.wwltv.com."
+      text: This is what Katrina did to my mother\'s parquet flooring when the flood waters came into the house. We had between 6 inches and 12 inches of water. The water caused the wood floors to buckle so that sections of the flooring started to look like a mountain range.  These floors are being replaced with Pergo flooring.\r\n\r\nImage was taken using a Kodak EasyShare camera and is also contributed to WWl-TV\'s online Katrina slideshow at www.wwltv.com.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1868
 item_type: Still Image

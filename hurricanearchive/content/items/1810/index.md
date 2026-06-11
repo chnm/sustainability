@@ -3,7 +3,6 @@ aliases:
   - /items/show/1810
   - /items/show/1810.html
 collections: []
-contributors: []
 date: '2006-02-05 02:59:17'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-04 21:59:17'
   Description:
     - html: false
-      text: ' This is the front of our house in Old Town after Hurrican Rita.'
+      text: This is the front of our house in Old Town after Hurrican Rita.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.084112
   lng: -94.126444
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1810
 item_type: Still Image

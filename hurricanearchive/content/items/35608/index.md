@@ -3,7 +3,6 @@ aliases:
   - /items/show/35608
   - /items/show/35608.html
 collections: []
-contributors: []
 date: '2008-06-09 18:20:53'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 105 East 18th Street
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35608
 item_type: Document

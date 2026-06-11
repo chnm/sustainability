@@ -3,7 +3,6 @@ aliases:
   - /items/show/273
   - /items/show/273.html
 collections: []
-contributors: []
 date: '2005-11-26 17:57:03'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-26 12:57:03'
   Description:
     - html: false
-      text: ' One of the Biloxi casinos was pushed into the Holiday Inn.'
+      text: One of the Biloxi casinos was pushed into the Holiday Inn.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.394791736573
   lng: -88.85776519775389
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 273
 item_type: Still Image

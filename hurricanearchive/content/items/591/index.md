@@ -3,7 +3,6 @@ aliases:
   - /items/show/591
   - /items/show/591.html
 collections: []
-contributors: []
 date: '2006-01-13 22:51:44'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:51:44'
   Description:
     - html: false
-      text: ' The only thing left standing in this tavern.'
+      text: The only thing left standing in this tavern.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.983189342340502
   lng: -90.0651025772095
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 591
 item_type: Still Image

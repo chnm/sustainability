@@ -3,7 +3,6 @@ aliases:
   - /items/show/1817
   - /items/show/1817.html
 collections: []
-contributors: []
 date: '2006-02-06 22:53:30'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-06 17:53:30'
   Description:
     - html: false
-      text: ' Telephone service in Pass Christian Mississippi - Oct 2005'
+      text: Telephone service in Pass Christian Mississippi - Oct 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.3145058323889
   lng: -89.25292968750001
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1817
 item_type: Still Image

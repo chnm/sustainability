@@ -3,13 +3,12 @@ aliases:
   - /items/show/33744
   - /items/show/33744.html
 collections: []
-contributors: []
 date: '2008-02-19 06:47:17'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: " My life\\'s been unremarkable. I haven\\'t been up to much recently. I\\'ve just been letting everything wash over me lately, not that it matters.I am not only encouraged by that.  "
+      text: My life\'s been unremarkable. I haven\'t been up to much recently. I\'ve just been letting everything wash over me lately, not that it matters.I am not only encouraged by that.
   Language:
     - html: false
       text: eng
@@ -19,6 +18,7 @@ geo:
   address: Roxas
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33744
 item_type: Document

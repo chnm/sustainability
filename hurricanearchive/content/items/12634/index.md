@@ -3,7 +3,6 @@ aliases:
   - /items/show/12634
   - /items/show/12634.html
 collections: []
-contributors: []
 date: '2006-11-14 16:02:23'
 draft: false
 dublin_core:
@@ -15,7 +14,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: "Katrina\\'s Impact Analysis Issues "
+      text: Katrina\'s Impact Analysis Issues
 featured: false
 files: []
 geo:
@@ -28,7 +27,7 @@ plugin_metadata: []
 related_items: []
 slug: '12634'
 tags: []
-title: "Katrina\\'s Impact Analysis Issues "
+title: Katrina\'s Impact Analysis Issues
 type: items
 ---
 

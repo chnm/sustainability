@@ -3,7 +3,6 @@ aliases:
   - /items/show/496
   - /items/show/496.html
 collections: []
-contributors: []
 date: '2005-12-29 02:37:42'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 21:37:42'
   Description:
     - html: false
-      text: " My friend walks her dog around the neighborhood that was her parent\\'s retirement community.  Luckily, their home was the very last home to be untouched by the storm surge.  They now have a view of the gulf that used to be five blocks away."
+      text: My friend walks her dog around the neighborhood that was her parent\'s retirement community.  Luckily, their home was the very last home to be untouched by the storm surge.  They now have a view of the gulf that used to be five blocks away.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.938343
   lng: -90.100773
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 496
 item_type: Still Image

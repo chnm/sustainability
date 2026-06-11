@@ -3,7 +3,6 @@ aliases:
   - /items/show/401
   - /items/show/401.html
 collections: []
-contributors: []
 date: '2005-12-26 18:28:29'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 13:28:29'
   Description:
     - html: false
-      text: ' Two statues remain among the destruction.'
+      text: Two statues remain among the destruction.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.297017883372
   lng: -89.296875
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 401
 item_type: Still Image

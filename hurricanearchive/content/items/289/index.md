@@ -3,7 +3,6 @@ aliases:
   - /items/show/289
   - /items/show/289.html
 collections: []
-contributors: []
 date: '2005-12-01 02:26:10'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-30 21:26:10'
   Description:
     - html: false
-      text: ' Already playing host to many of the Katrina Hurricane evacuees, businesses and homeowners in DeRidder, Louisiana made preparations early for the landfall of Rita. By Friday morning- 24 hours before the storm blew in, this was the scene.'
+      text: Already playing host to many of the Katrina Hurricane evacuees, businesses and homeowners in DeRidder, Louisiana made preparations early for the landfall of Rita. By Friday morning- 24 hours before the storm blew in, this was the scene.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.855079286968603
   lng: -93.28765869140618
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 289
 item_type: Still Image

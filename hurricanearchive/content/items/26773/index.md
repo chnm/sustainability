@@ -4,13 +4,12 @@ aliases:
   - /items/show/26773.html
 collections:
   - '68'
-contributors: []
 date: '2007-04-17 03:15:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "First generation Americans from the Dunnam family; Ella Dunnam Evans, Leona Dunnam Ivy, Lola Dunnam Chatham, Janie Dunnam Snellgrove, Jessie Dunnam Snellgrove and Ledger Dunnam, 1940\\'s.\\r\\n\\r\\nThis image is from the archive of Ron Chapman,\\r\\nProfessor of History at Nunez Community College. Nunez\\r\\nCommunity College is located in Chalmette, in St.\\r\\nBernard Parish, Louisiana.  In 2005 it was heavily\\r\\ndamaged by flooding due to Hurricane Katrina. "
+      text: First generation Americans from the Dunnam family; Ella Dunnam Evans, Leona Dunnam Ivy, Lola Dunnam Chatham, Janie Dunnam Snellgrove, Jessie Dunnam Snellgrove and Ledger Dunnam, 1940\'s.\r\n\r\nThis image is from the archive of Ron Chapman,\r\nProfessor of History at Nunez Community College. Nunez\r\nCommunity College is located in Chalmette, in St.\r\nBernard Parish, Louisiana.  In 2005 it was heavily\r\ndamaged by flooding due to Hurricane Katrina.
   Language:
     - html: false
       text: eng
@@ -29,6 +28,7 @@ geo:
   address: ''
   lat: 29.91685
   lng: -90.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26773
 item_type: Still Image

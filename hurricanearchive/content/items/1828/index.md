@@ -3,7 +3,6 @@ aliases:
   - /items/show/1828
   - /items/show/1828.html
 collections: []
-contributors: []
 date: '2006-02-09 23:06:18'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-09 18:06:18'
   Description:
     - html: false
-      text: ' This photo was taken on Thursady after the katrina. The levee breaks were not fixed and the city had achived equilibrium with the lake. This photo was taken at the parish line on teh Metairie Road bridge crossing over the 17 th street canal. The pumping station is in teh backround. Note the higher levee on the Jefferson parish side. The water is covering the top of the levee on the Olreans parish side on Maryland Drive'
+      text: This photo was taken on Thursady after the katrina. The levee breaks were not fixed and the city had achived equilibrium with the lake. This photo was taken at the parish line on teh Metairie Road bridge crossing over the 17 th street canal. The pumping station is in teh backround. Note the higher levee on the Jefferson parish side. The water is covering the top of the levee on the Olreans parish side on Maryland Drive
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9792490244952
   lng: -90.12488365173338
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1828
 item_type: Still Image

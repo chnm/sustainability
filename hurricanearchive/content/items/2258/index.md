@@ -3,7 +3,6 @@ aliases:
   - /items/show/2258
   - /items/show/2258.html
 collections: []
-contributors: []
 date: '2006-05-07 16:05:07'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-05-07 12:05:07'
   Description:
     - html: false
-      text: " My husband\\'s truck on Hwy 49 near Seminary,MS just north of Hattiesburg,after some trees fell on it during Katrina."
+      text: My husband\'s truck on Hwy 49 near Seminary,MS just north of Hattiesburg,after some trees fell on it during Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.652811
   lng: -89.578002
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2258
 item_type: Still Image

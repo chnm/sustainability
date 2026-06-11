@@ -3,7 +3,6 @@ aliases:
   - /items/show/197
   - /items/show/197.html
 collections: []
-contributors: []
 date: '2005-11-19 00:16:57'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 19:16:57'
   Description:
     - html: false
-      text: ' The now common symbol on homes that signifies survival or death surrounding this tragedy.  This is our home which fortunately we all made it out of safely.  The number zero at the bottom of the X represents no fatalities in our home.'
+      text: The now common symbol on homes that signifies survival or death surrounding this tragedy.  This is our home which fortunately we all made it out of safely.  The number zero at the bottom of the X represents no fatalities in our home.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 197
 item_type: Still Image

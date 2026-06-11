@@ -3,7 +3,6 @@ aliases:
   - /items/show/341
   - /items/show/341.html
 collections: []
-contributors: []
 date: '2005-12-10 16:09:01'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-10 11:09:01'
   Description:
     - html: false
-      text: ' i took this photo in slidell, la. i went home to my hometown of slidell a few weeks after katrina to help my family.'
+      text: i took this photo in slidell, la. i went home to my hometown of slidell a few weeks after katrina to help my family.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9549345496561
   lng: -90.17578125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 341
 item_type: Still Image

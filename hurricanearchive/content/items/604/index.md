@@ -3,7 +3,6 @@ aliases:
   - /items/show/604
   - /items/show/604.html
 collections: []
-contributors: []
 date: '2006-01-17 03:45:56'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-16 22:45:56'
   Description:
     - html: false
-      text: ' This is a picture I took in the 9th Ward in New Orleans in Jan. 2006.'
+      text: This is a picture I took in the 9th Ward in New Orleans in Jan. 2006.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.951082
   lng: -90.206031
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 604
 item_type: Still Image

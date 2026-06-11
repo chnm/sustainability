@@ -3,7 +3,6 @@ aliases:
   - /items/show/1890
   - /items/show/1890.html
 collections: []
-contributors: []
 date: '2006-03-06 17:53:42'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 12:53:42'
   Description:
     - html: false
-      text: ' 3-4 days after the hurricane, one place in Hattiesburg, Ms. opened up for gas but only allowed people to fill a container.'
+      text: 3-4 days after the hurricane, one place in Hattiesburg, Ms. opened up for gas but only allowed people to fill a container.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.245138
   lng: -89.28071
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1890
 item_type: Still Image

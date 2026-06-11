@@ -3,7 +3,6 @@ aliases:
   - /items/show/119
   - /items/show/119.html
 collections: []
-contributors: []
 date: '2005-11-17 22:48:57'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:48:57'
   Description:
     - html: false
-      text: ' Visable Satellite Sun Aug 28 (NOAA)'
+      text: Visable Satellite Sun Aug 28 (NOAA)
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.267232865200903
   lng: -89.78027343750001
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 119
 item_type: Still Image

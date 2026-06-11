@@ -3,7 +3,6 @@ aliases:
   - /items/show/339
   - /items/show/339.html
 collections: []
-contributors: []
 date: '2005-12-09 20:08:53'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-09 15:08:53'
   Description:
     - html: false
-      text: ' I took this picture in Ocean Springs Miss. where my family & I helped a family gut out their house'
+      text: I took this picture in Ocean Springs Miss. where my family & I helped a family gut out their house
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.533876572997602
   lng: -88.94805908203121
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 339
 item_type: Still Image

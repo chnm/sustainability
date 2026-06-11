@@ -3,7 +3,6 @@ aliases:
   - /items/show/165
   - /items/show/165.html
 collections: []
-contributors: []
 date: '2005-11-18 16:53:25'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 11:53:25'
   Description:
     - html: false
-      text: ' One of the thousands of friges lineing the streets of New Orleans, this one addressed to one of the many Scapegoats for the disaster.'
+      text: One of the thousands of friges lineing the streets of New Orleans, this one addressed to one of the many Scapegoats for the disaster.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 165
 item_type: Still Image

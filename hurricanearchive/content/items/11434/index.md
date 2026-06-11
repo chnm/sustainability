@@ -3,7 +3,6 @@ aliases:
   - /items/show/11434
   - /items/show/11434.html
 collections: []
-contributors: []
 date: '2006-09-21 05:14:54'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 927 Pine St
   lat: 29.94049
   lng: -90.12547
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 11434
 item_type: Document

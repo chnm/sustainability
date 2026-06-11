@@ -4,7 +4,6 @@ aliases:
   - /items/show/2401.html
 collections:
   - '16'
-contributors: []
 date: '2006-08-17 17:10:57'
 draft: false
 dublin_core:
@@ -13,13 +12,13 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: 'NEW ORLEANS - (Sept. 4, 2005)--A Coast Guard search and rescue crew from a St. Louis, Mo., based Disaster Area Response Team drags their skiff to a launching point on South Carrollton Avenue in New Oreans to look for people in distress. USCG photo by PA3 L.F. Chambers \r\n050904-C-4987C-503 '
+      text: NEW ORLEANS - (Sept. 4, 2005)--A Coast Guard search and rescue crew from a St. Louis, Mo., based Disaster Area Response Team drags their skiff to a launching point on South Carrollton Avenue in New Oreans to look for people in distress. USCG photo by PA3 L.F. Chambers \r\n050904-C-4987C-503
   Language:
     - html: false
       text: eng
   Publisher:
     - html: false
-      text: 'U.S. COAST GUARD '
+      text: U.S. COAST GUARD
   Title:
     - html: false
       text: Looking for the stranded

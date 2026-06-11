@@ -3,7 +3,6 @@ aliases:
   - /items/show/2015
   - /items/show/2015.html
 collections: []
-contributors: []
 date: '2006-03-12 17:50:41'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-12 12:50:41'
   Description:
     - html: false
-      text: ' Lakefront- Mandeville-Java Grotto. You will be missed.'
+      text: Lakefront- Mandeville-Java Grotto. You will be missed.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.435893
   lng: -90.011991
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2015
 item_type: Still Image

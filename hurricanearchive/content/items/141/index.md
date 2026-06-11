@@ -3,7 +3,6 @@ aliases:
   - /items/show/141
   - /items/show/141.html
 collections: []
-contributors: []
 date: '2005-11-17 23:43:30'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 18:43:30'
   Description:
     - html: false
-      text: ' Jesuit student transports his cats to safety.'
+      text: Jesuit student transports his cats to safety.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.916852233070202
   lng: -90.087890625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 141
 item_type: Still Image

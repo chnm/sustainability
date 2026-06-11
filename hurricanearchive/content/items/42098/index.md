@@ -3,7 +3,6 @@ aliases:
   - /items/show/42098
   - /items/show/42098.html
 collections: []
-contributors: []
 date: '2010-02-16 18:22:26'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: LA
   lat: 0.0
   lng: 0.0
+  map_type: ''
   zoom: 12
 id: 42098
 item_type: Document

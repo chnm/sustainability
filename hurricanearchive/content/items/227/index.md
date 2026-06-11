@@ -3,7 +3,6 @@ aliases:
   - /items/show/227
   - /items/show/227.html
 collections: []
-contributors: []
 date: '2005-11-21 04:27:13'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-20 23:27:13'
   Description:
     - html: false
-      text: ' Favorite Restaurant near West End.  Photo taken by Michael Sharpe.'
+      text: Favorite Restaurant near West End.  Photo taken by Michael Sharpe.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 227
 item_type: Still Image

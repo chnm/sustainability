@@ -3,7 +3,6 @@ aliases:
   - /items/show/41088
   - /items/show/41088.html
 collections: []
-contributors: []
 date: '2009-09-15 21:49:11'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 18515 Shadow Creek Ave
   lat: 30.41747
   lng: -90.98184
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 41088
 item_type: Document

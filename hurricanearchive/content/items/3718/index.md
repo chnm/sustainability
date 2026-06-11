@@ -3,7 +3,6 @@ aliases:
   - /items/show/3718
   - /items/show/3718.html
 collections: []
-contributors: []
 date: '2006-08-24 18:18:35'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 126 West Scenic Drive, Pass Christian, MS
   lat: 30.31421
   lng: -89.24763
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 3718
 item_type: Document

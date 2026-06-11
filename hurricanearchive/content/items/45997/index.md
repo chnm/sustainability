@@ -3,13 +3,12 @@ aliases:
   - /items/show/45997
   - /items/show/45997.html
 collections: []
-contributors: []
 date: '2013-09-16 19:59:30'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'This is a picture of me ( Emily Brauninger ) and my best friend, Samantha Dante who I met after I evacuated to Houston for Hurricane Katrina. We met in September 2005 and have been best friends ever since. '
+      text: This is a picture of me ( Emily Brauninger ) and my best friend, Samantha Dante who I met after I evacuated to Houston for Hurricane Katrina. We met in September 2005 and have been best friends ever since.
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/fecf61858b39f9f39cca9ddde01f080c.jpg

@@ -4,7 +4,6 @@ aliases:
   - /items/show/26198.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-21 20:32:00'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Lafayette, LA
   lat: 30.22389
   lng: -92.01972
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26198
 item_type: Document

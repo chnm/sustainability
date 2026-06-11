@@ -4,7 +4,6 @@ aliases:
   - /items/show/2395.html
 collections:
   - '16'
-contributors: []
 date: '2006-08-17 17:10:55'
 draft: false
 dublin_core:
@@ -13,13 +12,13 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: 'NEW ORLEANS (Aug. 30, 2005) - Coast Guard Petty Officer 2nd Class Scott D. Rady, 34, of Tampa, Fla., give the signal to hoist a pregnant woman from her apartment here today. In all, the Coast Guard rescued 11 survivors from the apartment building. Rady is a rescue swimmer sent from Clearwater, Fla., to help aid in search and rescue efforts in the wake of Hurricane Katrina. U.S. Coast Guard photograph by Petty Officer 2nd Class NyxoLyno Cangemi \r\n050830-C-3721C-071 (FR) '
+      text: NEW ORLEANS (Aug. 30, 2005) - Coast Guard Petty Officer 2nd Class Scott D. Rady, 34, of Tampa, Fla., give the signal to hoist a pregnant woman from her apartment here today. In all, the Coast Guard rescued 11 survivors from the apartment building. Rady is a rescue swimmer sent from Clearwater, Fla., to help aid in search and rescue efforts in the wake of Hurricane Katrina. U.S. Coast Guard photograph by Petty Officer 2nd Class NyxoLyno Cangemi \r\n050830-C-3721C-071 (FR)
   Language:
     - html: false
       text: eng
   Publisher:
     - html: false
-      text: 'US COAST GUARD '
+      text: US COAST GUARD
   Title:
     - html: false
       text: Aerial Coast Guard rescue from New Orleans Apartment Building

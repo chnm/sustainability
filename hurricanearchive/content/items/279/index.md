@@ -3,7 +3,6 @@ aliases:
   - /items/show/279
   - /items/show/279.html
 collections: []
-contributors: []
 date: '2005-11-26 18:40:25'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-26 13:40:25'
   Description:
     - html: false
-      text: " Ferrara\\'s Market in Gentily, out by UNO. (image provided by mudbugdesigns.com)"
+      text: Ferrara\'s Market in Gentily, out by UNO. (image provided by mudbugdesigns.com)
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.020354455970498
   lng: -90.062141418457
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 279
 item_type: Still Image

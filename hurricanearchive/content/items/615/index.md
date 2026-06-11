@@ -3,7 +3,6 @@ aliases:
   - /items/show/615
   - /items/show/615.html
 collections: []
-contributors: []
 date: '2006-01-17 17:05:01'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 12:05:01'
   Description:
     - html: false
-      text: ' This is a tree down on W. Walton Road. This picture was taken aprox. 1 week after Rita went through. You can see it was snagged on a power line.'
+      text: This is a tree down on W. Walton Road. This picture was taken aprox. 1 week after Rita went through. You can see it was snagged on a power line.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.281836
   lng: -94.219122
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 615
 item_type: Still Image

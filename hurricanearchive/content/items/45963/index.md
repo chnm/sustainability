@@ -3,7 +3,6 @@ aliases:
   - /items/show/45963
   - /items/show/45963.html
 collections: []
-contributors: []
 date: '2013-09-05 14:28:59'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: Lemoyne Dr. Laplace 70068
   lat: 30.088355
   lng: -90.48066519999998
+  map_type: Google Maps v3.x
   zoom: 8
 id: 45963
 item_type: Still Image

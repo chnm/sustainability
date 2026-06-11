@@ -3,7 +3,6 @@ aliases:
   - /items/show/86
   - /items/show/86.html
 collections: []
-contributors: []
 date: '2005-11-17 07:09:48'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 02:09:48'
   Description:
     - html: false
-      text: ' Miles of refrigerators; mounds of trash in New Orleans.'
+      text: Miles of refrigerators; mounds of trash in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 86
 item_type: Still Image

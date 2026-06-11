@@ -3,7 +3,6 @@ aliases:
   - /items/show/669
   - /items/show/669.html
 collections: []
-contributors: []
 date: '2006-01-24 03:56:29'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-23 22:56:29'
   Description:
     - html: false
-      text: ' Building at corner of Magazine and Jackson Avenue.'
+      text: Building at corner of Magazine and Jackson Avenue.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.951067479461596
   lng: -90.0817108154297
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 669
 item_type: Still Image

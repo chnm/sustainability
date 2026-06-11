@@ -4,13 +4,12 @@ aliases:
   - /items/show/26943.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with William Dennius, born in Jackson, Mississippi. '
+      text: Interview with William Dennius, born in Jackson, Mississippi.
   Language:
     - html: false
       text: eng

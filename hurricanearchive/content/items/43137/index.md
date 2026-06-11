@@ -3,7 +3,6 @@ aliases:
   - /items/show/43137
   - /items/show/43137.html
 collections: []
-contributors: []
 date: '2010-08-31 02:26:46'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 3179 Duncan Street
   lat: 30.2595
   lng: -89.77765
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43137
 item_type: Document

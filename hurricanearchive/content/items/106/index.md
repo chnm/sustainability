@@ -3,7 +3,6 @@ aliases:
   - /items/show/106
   - /items/show/106.html
 collections: []
-contributors: []
 date: '2005-11-17 22:32:24'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:32:24'
   Description:
     - html: false
-      text: ' NOPD vehicle completely submerged.'
+      text: NOPD vehicle completely submerged.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.878755346037998
   lng: -90.0439453125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 106
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/442
   - /items/show/442.html
 collections: []
-contributors: []
 date: '2005-12-26 20:44:06'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 15:44:06'
   Description:
     - html: false
-      text: " A view of a what\\'s left of a fence."
+      text: A view of a what\'s left of a fence.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.993002284551103
   lng: -90.087890625
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 442
 item_type: Still Image

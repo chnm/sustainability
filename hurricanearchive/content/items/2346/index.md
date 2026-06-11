@@ -4,7 +4,6 @@ aliases:
   - /items/show/2346.html
 collections:
   - '174'
-contributors: []
 date: '2006-07-25 16:00:34'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2006-07-25 00:00:00'
   Description:
     - html: false
-      text: ' This is the narrative story of the 200 New Orleans college students who moved to Lake Charles, Louisiana after Hurricane Katrina, and only days later were forced to move again due to Hurricane Rita.'
+      text: This is the narrative story of the 200 New Orleans college students who moved to Lake Charles, Louisiana after Hurricane Katrina, and only days later were forced to move again due to Hurricane Rita.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 30.23336
   lng: -93.2149
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2346
 item_type: Document

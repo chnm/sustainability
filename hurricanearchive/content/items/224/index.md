@@ -3,7 +3,6 @@ aliases:
   - /items/show/224
   - /items/show/224.html
 collections: []
-contributors: []
 date: '2005-11-21 04:23:03'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-20 23:23:03'
   Description:
     - html: false
-      text: ' The blog I kept about Katrina.'
+      text: The blog I kept about Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.379561
   lng: -89.90975
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 224
 item_type: Document

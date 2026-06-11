@@ -3,7 +3,6 @@ aliases:
   - /items/show/202
   - /items/show/202.html
 collections: []
-contributors: []
 date: '2005-11-19 05:32:39'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-19 00:32:39'
   Description:
     - html: false
-      text: ' This tree was located on the corner of Jefferson Hwy. and Mayo Ave.  When they replaced this one pole, about 1/3 of Harahan regained power.'
+      text: This tree was located on the corner of Jefferson Hwy. and Mayo Ave.  When they replaced this one pole, about 1/3 of Harahan regained power.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.935820833819104
   lng: -90.203332901001
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 202
 item_type: Still Image

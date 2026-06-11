@@ -4,7 +4,6 @@ aliases:
   - /items/show/28214.html
 collections:
   - '155'
-contributors: []
 date: '2007-06-01 19:29:36'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2007-06-01 00:00:00'
   Description:
     - html: false
-      text: 'Photograph of a few members of the crowd at NEIGHBORHOODS: 2426 BRADISH PLACE, an art installation set up in the Tulane/Gravier neighborhood for one night only. The event took place on May 19, 2007 from 6 - 9 p.m. in the gutted ground floor of the home of Michelle Levine and Clay Thomas. Michelle Levine is an artist who is currently rebuilding her house and studio in the Tulane/Gravier neighborhood. Through the use of interviews with neighbors, sound-scapes, live music, drawing, photography, and sculpture, this event confronted a range of issues the com-\r\nmunity is experiencing as they revitalize this neighborhood. \r\n\r\nThe show featured visual art by: Shannon Crane, Courtney Egan, Scott Saltzman, Maxx Sizeler, David Sullivan, Jonathan Traviesa, Elizabeth Underwood, Robert Vicknair, and Monica Zeringue. Sound by Anton Gussoni, and Sparti-\r\neTucker. Live music performed by The Panorama Jazz Band.\r\n '
+      text: 'Photograph of a few members of the crowd at NEIGHBORHOODS: 2426 BRADISH PLACE, an art installation set up in the Tulane/Gravier neighborhood for one night only. The event took place on May 19, 2007 from 6 - 9 p.m. in the gutted ground floor of the home of Michelle Levine and Clay Thomas. Michelle Levine is an artist who is currently rebuilding her house and studio in the Tulane/Gravier neighborhood. Through the use of interviews with neighbors, sound-scapes, live music, drawing, photography, and sculpture, this event confronted a range of issues the com-\r\nmunity is experiencing as they revitalize this neighborhood. \r\n\r\nThe show featured visual art by: Shannon Crane, Courtney Egan, Scott Saltzman, Maxx Sizeler, David Sullivan, Jonathan Traviesa, Elizabeth Underwood, Robert Vicknair, and Monica Zeringue. Sound by Anton Gussoni, and Sparti-\r\neTucker. Live music performed by The Panorama Jazz Band.\r\n'
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: 2426 Bradish Place
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 28214
 item_type: Still Image

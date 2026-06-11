@@ -4,13 +4,12 @@ aliases:
   - /items/show/28422.html
 collections:
   - '157'
-contributors: []
 date: '2007-06-08 20:58:06'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Mr. Ramsey\\'s suit for Mardi Gras Day 2006 commemorated the lost history of the Corner Bar. The names of all the old bars that no longer exist post-Katrina are listed on his suit. "
+      text: Mr. Ramsey\'s suit for Mardi Gras Day 2006 commemorated the lost history of the Corner Bar. The names of all the old bars that no longer exist post-Katrina are listed on his suit.
   Language:
     - html: false
       text: eng

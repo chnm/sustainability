@@ -3,7 +3,6 @@ aliases:
   - /items/show/609
   - /items/show/609.html
 collections: []
-contributors: []
 date: '2006-01-17 09:09:22'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 04:09:22'
   Description:
     - html: false
-      text: ' I took this picture at a badly damaged RaceTrac gas station in Port Arthur, Texas on October 16, 2005, over 3 weeks after Hurricane Rita here.'
+      text: I took this picture at a badly damaged RaceTrac gas station in Port Arthur, Texas on October 16, 2005, over 3 weeks after Hurricane Rita here.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.148461
   lng: -94.172481
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 609
 item_type: Still Image

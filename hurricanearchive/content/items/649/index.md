@@ -3,7 +3,6 @@ aliases:
   - /items/show/649
   - /items/show/649.html
 collections: []
-contributors: []
 date: '2006-01-21 05:55:25'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-21 00:55:25'
   Description:
     - html: false
-      text: ' West End New Orleans, LA after Katrina'
+      text: West End New Orleans, LA after Katrina
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.020726036805197
   lng: -90.1223945617676
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 649
 item_type: Still Image

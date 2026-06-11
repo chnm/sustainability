@@ -3,7 +3,6 @@ aliases:
   - /items/show/42814
   - /items/show/42814.html
 collections: []
-contributors: []
 date: '2010-07-23 12:17:19'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: 1526 camp street
   lat: 29.93407
   lng: -90.07386
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42814
 item_type: Document

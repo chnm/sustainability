@@ -3,7 +3,6 @@ aliases:
   - /items/show/1738
   - /items/show/1738.html
 collections: []
-contributors: []
 date: '2006-01-30 20:44:45'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-30 15:44:45'
   Description:
     - html: false
-      text: ' The remnants of a home in Sabine Pass, Texas after Hurricane Rita.'
+      text: The remnants of a home in Sabine Pass, Texas after Hurricane Rita.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.148461
   lng: -94.172481
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1738
 item_type: Still Image

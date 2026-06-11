@@ -3,7 +3,6 @@ aliases:
   - /items/show/42055
   - /items/show/42055.html
 collections: []
-contributors: []
 date: '2010-02-16 05:35:58'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2010-02-16 00:35:58'
   Description:
     - html: false
-      text: 'Revolutionary Communist Party flyer--mid-August 2006.  '
+      text: Revolutionary Communist Party flyer--mid-August 2006.
   Language:
     - html: false
       text: eng
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42055
 item_type: Still Image

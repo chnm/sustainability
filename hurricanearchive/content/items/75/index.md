@@ -3,7 +3,6 @@ aliases:
   - /items/show/75
   - /items/show/75.html
 collections: []
-contributors: []
 date: '2005-11-17 06:23:34'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 01:23:34'
   Description:
     - html: false
-      text: ' Stores at the corner of Rbt. E. Lee and Paris in Lake Terrace in New Orleans near the University of New Orleans.'
+      text: Stores at the corner of Rbt. E. Lee and Paris in Lake Terrace in New Orleans near the University of New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 75
 item_type: Still Image

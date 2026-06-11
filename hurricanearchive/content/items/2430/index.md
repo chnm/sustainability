@@ -4,7 +4,6 @@ aliases:
   - /items/show/2430.html
 collections:
   - '16'
-contributors: []
 date: '2006-08-17 17:11:16'
 draft: false
 dublin_core:
@@ -13,13 +12,13 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: " ALEXANDRIA, La. (Aug. 30, 2005) Capt. Frank Paskewich, commander of Coast Guard Sector New Orleans, looks out over the ravaged Super Dome after Hurricane Katrina. The Coast Guard conducted numerous damage-assessment over-flights along the Gulf Coast in the days following Katrina\\'s aftermath. USCG photo by PA3 Luke Pinneo \\r\\n"
+      text: ALEXANDRIA, La. (Aug. 30, 2005) Capt. Frank Paskewich, commander of Coast Guard Sector New Orleans, looks out over the ravaged Super Dome after Hurricane Katrina. The Coast Guard conducted numerous damage-assessment over-flights along the Gulf Coast in the days following Katrina\'s aftermath. USCG photo by PA3 Luke Pinneo \r\n
   Language:
     - html: false
       text: eng
   Publisher:
     - html: false
-      text: 'US COAST GUARD '
+      text: US COAST GUARD
   Title:
     - html: false
       text: Over the Superdome

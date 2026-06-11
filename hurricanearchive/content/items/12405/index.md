@@ -4,7 +4,6 @@ aliases:
   - /items/show/12405.html
 collections:
   - '79'
-contributors: []
 date: '2006-11-03 15:25:19'
 draft: false
 dublin_core:
@@ -20,6 +19,7 @@ geo:
   address: 617 City Park Avenue
   lat: 29.98389
   lng: -90.10469
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12405
 item_type: Document

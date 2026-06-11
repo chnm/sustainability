@@ -3,7 +3,6 @@ aliases:
   - /items/show/2193
   - /items/show/2193.html
 collections: []
-contributors: []
 date: '2006-04-24 03:33:42'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-23 23:33:42'
   Description:
     - html: false
-      text: ' This was taken at the intersection of Decatur and Ursulines and expresses disdain with the way Katrina was handed by elected officials.'
+      text: This was taken at the intersection of Decatur and Ursulines and expresses disdain with the way Katrina was handed by elected officials.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9601957545822
   lng: -90.0600600242615
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2193
 item_type: Still Image

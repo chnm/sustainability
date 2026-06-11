@@ -3,7 +3,6 @@ aliases:
   - /items/show/1824
   - /items/show/1824.html
 collections: []
-contributors: []
 date: '2006-02-09 14:06:02'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-09 09:06:02'
   Description:
     - html: false
-      text: ' I live in Kenner and we got nearly 3 ft. of water in our home which destroyed just about everything. There were many neighborhoods with flooding and so sad for everyone when they returned and saw this devastation. I Sure hope this never happens again but with the weakness of our levees this could be a possibility'
+      text: I live in Kenner and we got nearly 3 ft. of water in our home which destroyed just about everything. There were many neighborhoods with flooding and so sad for everyone when they returned and saw this devastation. I Sure hope this never happens again but with the weakness of our levees this could be a possibility
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.027041
   lng: -90.250547
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1824
 item_type: Still Image

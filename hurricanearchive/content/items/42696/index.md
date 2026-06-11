@@ -3,7 +3,6 @@ aliases:
   - /items/show/42696
   - /items/show/42696.html
 collections: []
-contributors: []
 date: '2010-06-01 15:50:24'
 draft: false
 dublin_core:
@@ -28,6 +27,7 @@ geo:
   address: 1718 Mendez St.
   lat: 30.01542
   lng: -90.07239
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42696
 item_type: Still Image

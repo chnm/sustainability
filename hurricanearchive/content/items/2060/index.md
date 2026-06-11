@@ -3,7 +3,6 @@ aliases:
   - /items/show/2060
   - /items/show/2060.html
 collections: []
-contributors: []
 date: '2006-04-03 17:44:58'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-03 13:44:58'
   Description:
     - html: false
-      text: ' This is the dining room of 6836 Colbert St.'
+      text: This is the dining room of 6836 Colbert St.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0152450782946
   lng: -90.11036753654481
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2060
 item_type: Still Image

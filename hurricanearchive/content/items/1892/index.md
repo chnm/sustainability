@@ -3,7 +3,6 @@ aliases:
   - /items/show/1892
   - /items/show/1892.html
 collections: []
-contributors: []
 date: '2006-03-06 17:59:50'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 12:59:50'
   Description:
     - html: false
-      text: ' This was a common scene in most places effected by the hurricane.  Many people could not get rid of the stench from the rotting food and just threw the fridge away.'
+      text: This was a common scene in most places effected by the hurricane.  Many people could not get rid of the stench from the rotting food and just threw the fridge away.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.245138
   lng: -89.28071
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1892
 item_type: Still Image

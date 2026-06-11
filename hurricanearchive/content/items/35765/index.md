@@ -3,7 +3,6 @@ aliases:
   - /items/show/35765
   - /items/show/35765.html
 collections: []
-contributors: []
 date: '2008-06-19 23:04:41'
 draft: false
 dublin_core:
@@ -16,9 +15,10 @@ dublin_core:
 featured: false
 files: []
 geo:
-  address: '61 Melrose Dr '
+  address: 61 Melrose Dr
   lat: 29.97112
   lng: -90.36555
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35765
 item_type: Document

@@ -4,7 +4,6 @@ aliases:
   - /items/show/333.html
 collections:
   - '143'
-contributors: []
 date: '2005-12-06 16:58:39'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: ''
   lat: 32.74609
   lng: -117.17052
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 333
 item_type: Document

@@ -4,7 +4,6 @@ aliases:
   - /items/show/1073.html
 collections:
   - '10'
-contributors: []
 date: '2006-01-27 16:39:55'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2005-09-29 00:43:38'
   Description:
     - html: false
-      text: ' Ward 7, New Orleans, La.'
+      text: Ward 7, New Orleans, La.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1073
 item_type: Still Image

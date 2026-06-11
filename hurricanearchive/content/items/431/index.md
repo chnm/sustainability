@@ -3,7 +3,6 @@ aliases:
   - /items/show/431
   - /items/show/431.html
 collections: []
-contributors: []
 date: '2005-12-26 20:20:38'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 15:20:38'
   Description:
     - html: false
-      text: ' First Baptist Church in Gulfport is gutted.'
+      text: First Baptist Church in Gulfport is gutted.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9549345496561
   lng: -90.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 431
 item_type: Still Image

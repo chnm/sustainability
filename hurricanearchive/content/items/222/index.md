@@ -3,7 +3,6 @@ aliases:
   - /items/show/222
   - /items/show/222.html
 collections: []
-contributors: []
 date: '2005-11-21 00:18:32'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-20 19:18:32'
   Description:
     - html: false
-      text: ' This is only funny from a certain point of view.  Someone in St. Bernard parish told us, \"Well at least the top of your car is clean.\"  When I saw this picture, I thought about my car.  Laughed a little about it.  Look, the top of this car is clean too!'
+      text: This is only funny from a certain point of view.  Someone in St. Bernard parish told us, \"Well at least the top of your car is clean.\"  When I saw this picture, I thought about my car.  Laughed a little about it.  Look, the top of this car is clean too!
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.900262
   lng: -89.894926
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 222
 item_type: Still Image

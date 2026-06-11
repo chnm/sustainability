@@ -4,7 +4,6 @@ aliases:
   - /items/show/12179.html
 collections:
   - '175'
-contributors: []
 date: '2006-10-18 16:51:58'
 draft: false
 dublin_core:
@@ -19,7 +18,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: "Audio of Ashleigh Joplin\\'s Interview With Her Dad "
+      text: Audio of Ashleigh Joplin\'s Interview With Her Dad
 featured: false
 files:
   - fullsize:
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 29.93352
   lng: -90.11471
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12179
 item_type: Document
@@ -45,7 +45,7 @@ tags:
   - math and science charter high school
   - oral history
   - recovery
-title: "Audio of Ashleigh Joplin\\'s Interview With Her Dad "
+title: Audio of Ashleigh Joplin\'s Interview With Her Dad
 type: items
 ---
 

@@ -4,7 +4,6 @@ aliases:
   - /items/show/33645.html
 collections:
   - '184'
-contributors: []
 date: '2008-02-13 17:03:19'
 draft: false
 dublin_core:
@@ -16,7 +15,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: ' No Home for the Holidays: Stop Evictions of Katrina Evacuees'
+      text: 'No Home for the Holidays: Stop Evictions of Katrina Evacuees'
 featured: false
 files: []
 geo:
@@ -31,7 +30,7 @@ slug: '33645'
 tags:
   - Evacuees
   - evictions
-title: ' No Home for the Holidays: Stop Evictions of Katrina Evacuees'
+title: 'No Home for the Holidays: Stop Evictions of Katrina Evacuees'
 type: items
 ---
 

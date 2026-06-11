@@ -3,7 +3,6 @@ aliases:
   - /items/show/593
   - /items/show/593.html
 collections: []
-contributors: []
 date: '2006-01-13 22:56:34'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 17:56:34'
   Description:
     - html: false
-      text: " The site of the popular \\\"Pirates Cove\\\".  The deli is in business in a trailer near Pass Christian\\'s \\\"temp business district\\\"."
+      text: The site of the popular \"Pirates Cove\".  The deli is in business in a trailer near Pass Christian\'s \"temp business district\".
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 593
 item_type: Still Image

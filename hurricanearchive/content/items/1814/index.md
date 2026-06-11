@@ -3,7 +3,6 @@ aliases:
   - /items/show/1814
   - /items/show/1814.html
 collections: []
-contributors: []
 date: '2006-02-06 21:40:57'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-06 16:40:57'
   Description:
     - html: false
-      text: ' Mississippi - No street signs available. After Katrina and Rita.'
+      text: Mississippi - No street signs available. After Katrina and Rita.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.353916372297
   lng: -89.17053222656249
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1814
 item_type: Still Image

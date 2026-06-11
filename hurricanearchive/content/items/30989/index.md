@@ -3,7 +3,6 @@ aliases:
   - /items/show/30989
   - /items/show/30989.html
 collections: []
-contributors: []
 date: '2007-08-01 22:06:41'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 945 North Shore Drive
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 30989
 item_type: Still Image

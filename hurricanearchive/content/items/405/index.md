@@ -3,7 +3,6 @@ aliases:
   - /items/show/405
   - /items/show/405.html
 collections: []
-contributors: []
 date: '2005-12-26 18:35:26'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 00:00:00'
   Description:
     - html: false
-      text: ' FEMA and other volunteers are given a note of thanks.'
+      text: FEMA and other volunteers are given a note of thanks.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.31362
   lng: -89.3573
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 405
 item_type: Still Image

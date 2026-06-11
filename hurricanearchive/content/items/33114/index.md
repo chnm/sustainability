@@ -3,7 +3,6 @@ aliases:
   - /items/show/33114
   - /items/show/33114.html
 collections: []
-contributors: []
 date: '2007-11-06 11:45:52'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1116 N Derbigny St
   lat: 29.96891
   lng: -90.06798
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33114
 item_type: Document

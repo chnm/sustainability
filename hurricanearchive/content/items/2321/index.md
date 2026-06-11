@@ -3,7 +3,6 @@ aliases:
   - /items/show/2321
   - /items/show/2321.html
 collections: []
-contributors: []
 date: '2006-07-09 03:12:11'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-08 23:12:11'
   Description:
     - html: false
-      text: ' Boy having fun during flood at Head of Island after Rita.'
+      text: Boy having fun during flood at Head of Island after Rita.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342352
   lng: -90.685853
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2321
 item_type: Still Image

@@ -3,13 +3,14 @@ aliases:
   - /items/show/28645
   - /items/show/28645.html
 collections: []
-contributors: []
 date: '2007-06-13 17:50:05'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Faith\r\nLower 9th Ward, New Orleans, LA"
+      text: |-
+        Faith
+        Lower 9th Ward, New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

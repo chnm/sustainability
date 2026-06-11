@@ -4,7 +4,6 @@ aliases:
   - /items/show/363.html
 collections:
   - '190'
-contributors: []
 date: '2005-12-14 18:44:50'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2005-12-14 00:00:00'
   Description:
     - html: false
-      text: ' Interview of supervisor at special needs shelters.'
+      text: Interview of supervisor at special needs shelters.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 30.35534
   lng: -91.07212
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 363
 item_type: Document

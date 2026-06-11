@@ -3,13 +3,12 @@ aliases:
   - /items/show/33226
   - /items/show/33226.html
 collections: []
-contributors: []
 date: '2007-11-29 19:13:52'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'just about every structure here in New Orleans had one of these search and rescue marking on them when various search and rescue teams search New Orleans in September 05. The teams were searching for survivors as well as any bodies. Some people have painted over these markings while others have turned them into shrines of sorts. Here this one has been transformed into a pictograph '
+      text: just about every structure here in New Orleans had one of these search and rescue marking on them when various search and rescue teams search New Orleans in September 05. The teams were searching for survivors as well as any bodies. Some people have painted over these markings while others have turned them into shrines of sorts. Here this one has been transformed into a pictograph
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

@@ -3,7 +3,6 @@ aliases:
   - /items/show/41377
   - /items/show/41377.html
 collections: []
-contributors: []
 date: '2009-10-12 00:20:29'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 7224 patricia street
   lat: 29.9657
   lng: -89.99653
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 41377
 item_type: Still Image

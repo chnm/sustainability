@@ -3,7 +3,6 @@ aliases:
   - /items/show/1982
   - /items/show/1982.html
 collections: []
-contributors: []
 date: '2006-03-08 12:26:08'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-08 07:26:08'
   Description:
     - html: false
-      text: ' My garage 1500 sq. ft. downed by three trees and flood water yes.'
+      text: My garage 1500 sq. ft. downed by three trees and flood water yes.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.280268025299
   lng: -89.8431015014648
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1982
 item_type: Still Image

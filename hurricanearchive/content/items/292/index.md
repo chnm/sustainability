@@ -3,7 +3,6 @@ aliases:
   - /items/show/292
   - /items/show/292.html
 collections: []
-contributors: []
 date: '2005-12-01 02:41:59'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-30 21:41:59'
   Description:
     - html: false
-      text: ' One of the old buildings in the historic part of downtown DeRidder, LA. At one time, this building served as the local newspaper office. It had been closed up for years, but Rita opened it right up again. We call this one \"topless.\"'
+      text: One of the old buildings in the historic part of downtown DeRidder, LA. At one time, this building served as the local newspaper office. It had been closed up for years, but Rita opened it right up again. We call this one \"topless.\"
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.651656
   lng: -93.299574
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 292
 item_type: Still Image

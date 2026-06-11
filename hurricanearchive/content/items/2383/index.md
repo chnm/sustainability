@@ -4,7 +4,6 @@ aliases:
   - /items/show/2383.html
 collections:
   - '14'
-contributors: []
 date: '2006-08-17 17:10:50'
 draft: false
 dublin_core:
@@ -19,7 +18,7 @@ dublin_core:
       text: eng
   Publisher:
     - html: false
-      text: 'U.S. COAST GUARD '
+      text: U.S. COAST GUARD
   Title:
     - html: false
       text: Damage at USCG Station Sabine, TX

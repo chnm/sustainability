@@ -3,7 +3,6 @@ aliases:
   - /items/show/130
   - /items/show/130.html
 collections: []
-contributors: []
 date: '2005-11-17 22:59:55'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:59:55'
   Description:
     - html: false
-      text: ' 9 friends lost their homes a couple of block from here.'
+      text: 9 friends lost their homes a couple of block from here.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9549345496561
   lng: -90.0439453125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 130
 item_type: Still Image

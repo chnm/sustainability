@@ -3,7 +3,6 @@ aliases:
   - /items/show/35813
   - /items/show/35813.html
 collections: []
-contributors: []
 date: '2008-06-22 19:23:19'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: Broadmoor area
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35813
 item_type: Still Image

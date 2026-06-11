@@ -3,7 +3,6 @@ aliases:
   - /items/show/1813
   - /items/show/1813.html
 collections: []
-contributors: []
 date: '2006-02-06 14:31:08'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-06 09:31:08'
   Description:
     - html: false
-      text: ' Passera Court. August 30, 2005'
+      text: Passera Court. August 30, 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9813307213265
   lng: -90.10222434997561
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1813
 item_type: Still Image

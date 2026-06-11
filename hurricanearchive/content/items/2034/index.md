@@ -3,7 +3,6 @@ aliases:
   - /items/show/2034
   - /items/show/2034.html
 collections: []
-contributors: []
 date: '2006-03-18 09:32:14'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-18 04:32:14'
   Description:
     - html: false
-      text: ' The only house on the lake side of Rat Nest Road that is still partially there.'
+      text: The only house on the lake side of Rat Nest Road that is still partially there.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.214278399476598
   lng: -89.8015594482422
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2034
 item_type: Still Image

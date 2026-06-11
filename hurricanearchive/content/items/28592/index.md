@@ -3,13 +3,12 @@ aliases:
   - /items/show/28592
   - /items/show/28592.html
 collections: []
-contributors: []
 date: '2007-06-13 17:29:09'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "We\\'re painting the floor in the place I live, My roommates already painted the walls and ceiling.\\nMy roommates are getting married in July, and they want the place to look nice for that.\\nI\\'m gonna be their minister. "
+      text: We\'re painting the floor in the place I live, My roommates already painted the walls and ceiling.\nMy roommates are getting married in July, and they want the place to look nice for that.\nI\'m gonna be their minister.
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

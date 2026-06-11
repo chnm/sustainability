@@ -3,7 +3,6 @@ aliases:
   - /items/show/43254
   - /items/show/43254.html
 collections: []
-contributors: []
 date: '2010-09-08 05:16:29'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 6837 Gen Haig St
   lat: 30.01414
   lng: -90.10007
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43254
 item_type: Document

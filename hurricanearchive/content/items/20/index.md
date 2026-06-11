@@ -3,7 +3,6 @@ aliases:
   - /items/show/20
   - /items/show/20.html
 collections: []
-contributors: []
 date: '2005-11-15 21:00:20'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-15 16:00:20'
   Description:
     - html: false
-      text: ' People stretched along the long road out of town as thousands of people evacuated Southeast Texas along the routes we were forced to take north and east of the Beaumont-Port Arthur area. Many people walked their dogs, or themselves, while the traffic stopped, which was frequent. \r\n\r\nThis photo is from the Big Thicket National Preserve with no services near, such as restrooms, gas stations, convenient stores, or restaurants. The wooded edges of the road served as public bathrooms because we had no other choice.'
+      text: People stretched along the long road out of town as thousands of people evacuated Southeast Texas along the routes we were forced to take north and east of the Beaumont-Port Arthur area. Many people walked their dogs, or themselves, while the traffic stopped, which was frequent. \r\n\r\nThis photo is from the Big Thicket National Preserve with no services near, such as restrooms, gas stations, convenient stores, or restaurants. The wooded edges of the road served as public bathrooms because we had no other choice.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.306355057899
   lng: -94.4463729858398
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 20
 item_type: Still Image

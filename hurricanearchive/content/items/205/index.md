@@ -3,7 +3,6 @@ aliases:
   - /items/show/205
   - /items/show/205.html
 collections: []
-contributors: []
 date: '2005-11-19 05:43:19'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-19 00:43:19'
   Description:
     - html: false
-      text: ' This is my personal essay of Hurricane Katrina!'
+      text: This is my personal essay of Hurricane Katrina!
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 205
 item_type: Document

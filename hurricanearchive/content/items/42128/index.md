@@ -3,7 +3,6 @@ aliases:
   - /items/show/42128
   - /items/show/42128.html
 collections: []
-contributors: []
 date: '2010-02-22 18:03:35'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2010-02-22 13:03:35'
   Description:
     - html: false
-      text: "At the corner of Loyola Ave and Julia St mere blocks from the Superdome, the scene of chaos and an immeasurable amount of human suffering after Hurricane Katrina, 100\\'s of thousands of people gather to celebrate the Saints Superbowl win. Four years later they are united in the ecstasy of victory instead of the anguish of defeat. Photo was taken February 9, 2010.\t"
+      text: At the corner of Loyola Ave and Julia St mere blocks from the Superdome, the scene of chaos and an immeasurable amount of human suffering after Hurricane Katrina, 100\'s of thousands of people gather to celebrate the Saints Superbowl win. Four years later they are united in the ecstasy of victory instead of the anguish of defeat. Photo was taken February 9, 2010.
   Language:
     - html: false
       text: eng

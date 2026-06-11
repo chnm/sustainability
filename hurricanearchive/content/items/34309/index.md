@@ -3,7 +3,6 @@ aliases:
   - /items/show/34309
   - /items/show/34309.html
 collections: []
-contributors: []
 date: '2008-04-07 19:28:19'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1429 26th ave.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34309
 item_type: Document

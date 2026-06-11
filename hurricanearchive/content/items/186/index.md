@@ -3,7 +3,6 @@ aliases:
   - /items/show/186
   - /items/show/186.html
 collections: []
-contributors: []
 date: '2005-11-18 18:52:28'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 13:52:28'
   Description:
     - html: false
-      text: ' This is a picture from the lower ninth ward, near the levee break in the industrial canal.'
+      text: This is a picture from the lower ninth ward, near the levee break in the industrial canal.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.943769
   lng: -90.083172
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 186
 item_type: Still Image

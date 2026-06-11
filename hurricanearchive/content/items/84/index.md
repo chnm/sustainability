@@ -3,7 +3,6 @@ aliases:
   - /items/show/84
   - /items/show/84.html
 collections: []
-contributors: []
 date: '2005-11-17 06:59:37'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 01:59:37'
   Description:
     - html: false
-      text: ' Debris piling up a couple of stories high in Lafreniere Park at the West Metairie/David Dr. end.'
+      text: Debris piling up a couple of stories high in Lafreniere Park at the West Metairie/David Dr. end.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 84
 item_type: Still Image

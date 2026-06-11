@@ -3,7 +3,6 @@ aliases:
   - /items/show/41039
   - /items/show/41039.html
 collections: []
-contributors: []
 date: '2009-09-13 23:23:14'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 2000 lakeshore drive
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 41039
 item_type: Document

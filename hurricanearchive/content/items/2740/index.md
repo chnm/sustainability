@@ -4,7 +4,6 @@ aliases:
   - /items/show/2740.html
 collections:
   - '21'
-contributors: []
 date: '2006-08-21 18:47:48'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: ' &ldquo;I&rsquo;m going to live in it some day.  It is really warm inside.&rdquo;'
+      text: '&ldquo;I&rsquo;m going to live in it some day.  It is really warm inside.&rdquo;'
   Language:
     - html: false
       text: eng

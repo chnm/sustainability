@@ -3,7 +3,6 @@ aliases:
   - /items/show/215
   - /items/show/215.html
 collections: []
-contributors: []
 date: '2005-11-20 06:19:49'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-20 01:19:49'
   Description:
     - html: false
-      text: ' This was taken in Metairie (right off of West Metairie and Causeway).  Trees just snapped like twigs.'
+      text: This was taken in Metairie (right off of West Metairie and Causeway).  Trees just snapped like twigs.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.984643
   lng: -90.161821
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 215
 item_type: Still Image

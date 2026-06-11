@@ -3,7 +3,6 @@ aliases:
   - /items/show/30
   - /items/show/30.html
 collections: []
-contributors: []
 date: '2005-11-16 03:29:20'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-15 22:29:20'
   Description:
     - html: false
-      text: ' A slideshow of pictures before and after Katrina to the background music \"I will remember you\"'
+      text: A slideshow of pictures before and after Katrina to the background music \"I will remember you\"
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 30
 item_type: Document

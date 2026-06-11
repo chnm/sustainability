@@ -3,7 +3,6 @@ aliases:
   - /items/show/2029
   - /items/show/2029.html
 collections: []
-contributors: []
 date: '2006-03-14 19:16:28'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-14 14:16:28'
   Description:
     - html: false
-      text: ' 2304 Marietta St. Chalmette, LA my family home after the storm (looks the same 7 months later.'
+      text: 2304 Marietta St. Chalmette, LA my family home after the storm (looks the same 7 months later.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.947746
   lng: -89.954906
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2029
 item_type: Still Image

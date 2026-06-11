@@ -3,7 +3,6 @@ aliases:
   - /items/show/282
   - /items/show/282.html
 collections: []
-contributors: []
 date: '2005-11-26 18:47:13'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-26 13:47:13'
   Description:
     - html: false
-      text: ' A boat throw from Lake Pontchartrain onto Old Hammond Hwy (image provided by mudbugdesigns.com)'
+      text: A boat throw from Lake Pontchartrain onto Old Hammond Hwy (image provided by mudbugdesigns.com)
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0200571903003
   lng: -90.12462615966798
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 282
 item_type: Still Image

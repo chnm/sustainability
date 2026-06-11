@@ -3,7 +3,6 @@ aliases:
   - /items/show/491
   - /items/show/491.html
 collections: []
-contributors: []
 date: '2005-12-28 21:14:54'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 16:14:54'
   Description:
     - html: false
-      text: ' A home on Hwy. 56 between Chauvin and Cocodrie, Terrebonne Parish, Louisiana.  The flood waters of Hurricane Rita washed through the Louisiana wetlands further destroying the marshes. Sept. 2005'
+      text: A home on Hwy. 56 between Chauvin and Cocodrie, Terrebonne Parish, Louisiana.  The flood waters of Hurricane Rita washed through the Louisiana wetlands further destroying the marshes. Sept. 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.398926652739203
   lng: -90.626220703125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 491
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/2278
   - /items/show/2278.html
 collections: []
-contributors: []
 date: '2006-05-28 20:13:34'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-05-28 16:13:34'
   Description:
     - html: false
-      text: ' Evacuating on Josephine St., August 28.'
+      text: Evacuating on Josephine St., August 28.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9357092643849
   lng: -90.07990837097171
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2278
 item_type: Still Image

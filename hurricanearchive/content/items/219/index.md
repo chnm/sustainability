@@ -3,7 +3,6 @@ aliases:
   - /items/show/219
   - /items/show/219.html
 collections: []
-contributors: []
 date: '2005-11-20 19:33:50'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-20 14:33:50'
   Description:
     - html: false
-      text: ' The Galleria Office Building after the storm'
+      text: The Galleria Office Building after the storm
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.993448304333903
   lng: -90.15123367309569
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 219
 item_type: Still Image

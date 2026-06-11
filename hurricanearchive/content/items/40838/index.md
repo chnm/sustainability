@@ -3,7 +3,6 @@ aliases:
   - /items/show/40838
   - /items/show/40838.html
 collections: []
-contributors: []
 date: '2009-08-30 20:59:30'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1526 camp st
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40838
 item_type: Document

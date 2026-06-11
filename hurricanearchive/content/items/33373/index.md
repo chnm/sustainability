@@ -3,7 +3,6 @@ aliases:
   - /items/show/33373
   - /items/show/33373.html
 collections: []
-contributors: []
 date: '2008-01-16 23:13:57'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: 431 26th Street
   lat: 30.00664
   lng: -90.12053
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33373
 item_type: Document

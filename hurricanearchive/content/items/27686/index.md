@@ -4,7 +4,6 @@ aliases:
   - /items/show/27686.html
 collections:
   - '68'
-contributors: []
 date: '2007-05-18 04:37:12'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: 6960 Martin Dr
   lat: 30.02739
   lng: -90.01149
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 27686
 item_type: Still Image

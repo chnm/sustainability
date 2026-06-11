@@ -3,7 +3,6 @@ aliases:
   - /items/show/40999
   - /items/show/40999.html
 collections: []
-contributors: []
 date: '2009-09-11 02:19:49'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 920 neyrey drive
   lat: 29.98298
   lng: -90.1669
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40999
 item_type: Document

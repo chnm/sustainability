@@ -4,7 +4,6 @@ aliases:
   - /items/show/12304.html
 collections:
   - '172'
-contributors: []
 date: '2006-10-29 20:53:44'
 draft: false
 dublin_core:
@@ -16,13 +15,14 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: '\"Gothtober\" Katrina Flash Movies. '
+      text: \"Gothtober\" Katrina Flash Movies.
 featured: false
 files: []
 geo:
   address: 2444 North Rampart
   lat: 29.96779
   lng: -90.05304
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12304
 item_type: Hyperlink
@@ -36,7 +36,7 @@ tags:
   - art
   - artist
   - helen hill
-title: '\"Gothtober\" Katrina Flash Movies. '
+title: \"Gothtober\" Katrina Flash Movies.
 type: items
 ---
 

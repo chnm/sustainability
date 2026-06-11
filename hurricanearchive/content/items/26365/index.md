@@ -4,7 +4,6 @@ aliases:
   - /items/show/26365.html
 collections:
   - '68'
-contributors: []
 date: '2007-03-28 23:02:09'
 draft: false
 dublin_core:
@@ -26,6 +25,7 @@ geo:
   address: Israelite Spiritual Church, 3000 Frenchmen St., New Orleans, LA
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26365
 item_type: Still Image

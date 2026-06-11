@@ -4,13 +4,12 @@ aliases:
   - /items/show/26924.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Jacob Thompson of the Tennessee Air National Guard who deployed to the Gulf Coast following Hurricane Katrina. '
+      text: Interview with Jacob Thompson of the Tennessee Air National Guard who deployed to the Gulf Coast following Hurricane Katrina.
   Language:
     - html: false
       text: eng

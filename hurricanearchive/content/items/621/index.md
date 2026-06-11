@@ -3,7 +3,6 @@ aliases:
   - /items/show/621
   - /items/show/621.html
 collections: []
-contributors: []
 date: '2006-01-17 17:14:42'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 12:14:42'
   Description:
     - html: false
-      text: ' This house was demolished by Hurricane Rita. You can see the markings of the National Guard. This was taken off W. chance Cut off in Lumberton, Texas. The house was tore to the ground and demolished. This was typical of older houses which had trees through them.'
+      text: This house was demolished by Hurricane Rita. You can see the markings of the National Guard. This was taken off W. chance Cut off in Lumberton, Texas. The house was tore to the ground and demolished. This was typical of older houses which had trees through them.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.281836
   lng: -94.219122
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 621
 item_type: Still Image

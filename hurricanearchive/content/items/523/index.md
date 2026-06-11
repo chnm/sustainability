@@ -3,7 +3,6 @@ aliases:
   - /items/show/523
   - /items/show/523.html
 collections: []
-contributors: []
 date: '2006-01-04 00:19:56'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-03 19:19:56'
   Description:
     - html: false
-      text: ' 9-31-05 W. Memphis, AR\r\nA podcast interview with Michael Guilliot from Kenner, La (a suburb of New Orleans)'
+      text: 9-31-05 W. Memphis, AR\r\nA podcast interview with Michael Guilliot from Kenner, La (a suburb of New Orleans)
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 35.210811
   lng: -90.203849
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 523
 item_type: Document

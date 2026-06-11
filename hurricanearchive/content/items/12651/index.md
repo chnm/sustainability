@@ -3,7 +3,6 @@ aliases:
   - /items/show/12651
   - /items/show/12651.html
 collections: []
-contributors: []
 date: '2006-11-15 17:03:53'
 draft: false
 dublin_core:
@@ -28,6 +27,7 @@ geo:
   address: 367 Main Street
   lat: 41.65306
   lng: -70.28328
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12651
 item_type: Document

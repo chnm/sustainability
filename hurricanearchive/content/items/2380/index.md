@@ -4,7 +4,6 @@ aliases:
   - /items/show/2380.html
 collections:
   - '14'
-contributors: []
 date: '2006-08-17 17:10:48'
 draft: false
 dublin_core:
@@ -13,13 +12,13 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: ' KODIAK, Alaska (Sept. 22, 2005)--Coast Guard Petty Officer Mark Kenolio assists Petty Officer Joseph Zemchak guide a load of gear into a C-130 that will be heading south. The C-130 crew will be pre-staged down south to provide communications support and supplies and equipment that may be needed to support rescue efforts due to the effects Hurricane Rita. The C-130 crew of seven is leaving here with nine other passengers consisting of HH-60 Jayhawk and HH-65 Dolphin helicopter crewmembers. They will be picking up other volunteers along the way before making their final stop in Little Rock, Ark. Official Coast Guard photo by Petty Officer Christopher D. McLaughlin \r\n'
+      text: KODIAK, Alaska (Sept. 22, 2005)--Coast Guard Petty Officer Mark Kenolio assists Petty Officer Joseph Zemchak guide a load of gear into a C-130 that will be heading south. The C-130 crew will be pre-staged down south to provide communications support and supplies and equipment that may be needed to support rescue efforts due to the effects Hurricane Rita. The C-130 crew of seven is leaving here with nine other passengers consisting of HH-60 Jayhawk and HH-65 Dolphin helicopter crewmembers. They will be picking up other volunteers along the way before making their final stop in Little Rock, Ark. Official Coast Guard photo by Petty Officer Christopher D. McLaughlin \r\n
   Language:
     - html: false
       text: eng
   Publisher:
     - html: false
-      text: 'U.S. COAST GUARD '
+      text: U.S. COAST GUARD
   Title:
     - html: false
       text: Supplies from Kodiak, AK heading towards the Gulf Coast

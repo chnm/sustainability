@@ -3,13 +3,12 @@ aliases:
   - /items/show/35979
   - /items/show/35979.html
 collections: []
-contributors: []
 date: '2008-07-01 02:09:11'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'We love Waffle House!!!  '
+      text: We love Waffle House!!!
   Language:
     - html: false
       text: eng
@@ -25,6 +24,7 @@ geo:
   address: Gulfport
   lat: 30.10712
   lng: -89.12109
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35979
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/1737
   - /items/show/1737.html
 collections: []
-contributors: []
 date: '2006-01-30 20:42:44'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-30 15:42:44'
   Description:
     - html: false
-      text: ' A home destroyed by Hurricane Rita in Sabine Pass, Texas'
+      text: A home destroyed by Hurricane Rita in Sabine Pass, Texas
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.148461
   lng: -94.172481
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1737
 item_type: Still Image

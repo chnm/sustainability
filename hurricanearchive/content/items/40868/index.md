@@ -3,7 +3,6 @@ aliases:
   - /items/show/40868
   - /items/show/40868.html
 collections: []
-contributors: []
 date: '2009-08-31 22:41:41'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1311 Cherokee Ave.
   lat: 29.57346
   lng: -89.93408
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40868
 item_type: Document

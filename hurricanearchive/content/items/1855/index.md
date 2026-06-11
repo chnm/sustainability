@@ -3,7 +3,6 @@ aliases:
   - /items/show/1855
   - /items/show/1855.html
 collections: []
-contributors: []
 date: '2006-02-19 22:35:15'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-19 17:35:15'
   Description:
     - html: false
-      text: " My dad, John an 82 year old WW II veteran, said not even the war prepared him to see what happened to his Wilton Drive home.  Stunned on our first visit back, he just kept repeating, \\\"Now what?\\\"  Sadly, six months later, he is still asking the same question.  No progress.  Legislators, old people gotta\\' know something."
+      text: My dad, John an 82 year old WW II veteran, said not even the war prepared him to see what happened to his Wilton Drive home.  Stunned on our first visit back, he just kept repeating, \"Now what?\"  Sadly, six months later, he is still asking the same question.  No progress.  Legislators, old people gotta\' know something.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0181249417213
   lng: -90.0661754608154
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1855
 item_type: Still Image

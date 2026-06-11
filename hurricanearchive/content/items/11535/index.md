@@ -3,7 +3,6 @@ aliases:
   - /items/show/11535
   - /items/show/11535.html
 collections: []
-contributors: []
 date: '2006-09-26 21:33:51'
 draft: false
 dublin_core:
@@ -16,9 +15,10 @@ dublin_core:
 featured: false
 files: []
 geo:
-  address: ' 690 Orange St.'
+  address: 690 Orange St.
   lat: 29.87876
   lng: -93.99902
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 11535
 item_type: Document

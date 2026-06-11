@@ -3,7 +3,6 @@ aliases:
   - /items/show/93
   - /items/show/93.html
 collections: []
-contributors: []
 date: '2005-11-17 13:40:30'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 08:40:30'
   Description:
     - html: false
-      text: ' Church steeple in Bay St. Louis, MS.'
+      text: Church steeple in Bay St. Louis, MS.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 93
 item_type: Still Image

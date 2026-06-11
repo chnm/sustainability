@@ -3,7 +3,6 @@ aliases:
   - /items/show/40833
   - /items/show/40833.html
 collections: []
-contributors: []
 date: '2009-08-30 17:39:35'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 136 Evangeline Trace
   lat: 29.86338
   lng: -89.98179
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40833
 item_type: Document

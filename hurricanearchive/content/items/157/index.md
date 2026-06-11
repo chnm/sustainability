@@ -3,7 +3,6 @@ aliases:
   - /items/show/157
   - /items/show/157.html
 collections: []
-contributors: []
 date: '2005-11-18 07:50:43'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-18 02:50:43'
   Description:
     - html: false
-      text: ' West End in New Orleans, Louisiana'
+      text: West End in New Orleans, Louisiana
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.030902
   lng: -90.068022
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 157
 item_type: Still Image

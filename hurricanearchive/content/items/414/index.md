@@ -3,7 +3,6 @@ aliases:
   - /items/show/414
   - /items/show/414.html
 collections: []
-contributors: []
 date: '2005-12-26 18:52:22'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 13:52:22'
   Description:
     - html: false
-      text: ' A few personal items are salvaged at the remains of a house in Pass Christian.'
+      text: A few personal items are salvaged at the remains of a house in Pass Christian.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.3349538819886
   lng: -89.23095703125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 414
 item_type: Still Image

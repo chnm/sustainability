@@ -3,7 +3,6 @@ aliases:
   - /items/show/2185
   - /items/show/2185.html
 collections: []
-contributors: []
 date: '2006-04-22 17:34:10'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 00:00:00'
   Description:
     - html: false
-      text: ' Hurricane Charley destruction Florida August 13, 2004'
+      text: Hurricane Charley destruction Florida August 13, 2004
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 27.18608
   lng: -81.86666
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2185
 item_type: Still Image

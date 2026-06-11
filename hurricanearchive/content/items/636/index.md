@@ -3,7 +3,6 @@ aliases:
   - /items/show/636
   - /items/show/636.html
 collections: []
-contributors: []
 date: '2006-01-18 01:50:42'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 20:50:42'
   Description:
     - html: false
-      text: ' TVE newscrew from Spain covering Katrina devastation.  Fernando, Rosa, Miguel and Vicente stayed with me in Head of Island, it was impossible to get a hotel room anywhere.  they joked that they were the only newscrew that had a bath and clean clothes every day.  My electricity was out for 6 days.and I washed clothes as soon as the power came back on.'
+      text: TVE newscrew from Spain covering Katrina devastation.  Fernando, Rosa, Miguel and Vicente stayed with me in Head of Island, it was impossible to get a hotel room anywhere.  they joked that they were the only newscrew that had a bath and clean clothes every day.  My electricity was out for 6 days.and I washed clothes as soon as the power came back on.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342352
   lng: -90.685853
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 636
 item_type: Still Image

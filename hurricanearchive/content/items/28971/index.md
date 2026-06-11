@@ -4,7 +4,6 @@ aliases:
   - /items/show/28971.html
 collections:
   - '155'
-contributors: []
 date: '2007-06-21 11:07:01'
 draft: false
 dublin_core:
@@ -13,13 +12,17 @@ dublin_core:
       text: '2007-06-20 00:00:00'
   Description:
     - html: false
-      text: "Photogaph of people standing in the yard of 2426 Bradish Place  next to artist David Sullivan's Falsestate Tower. Sullivan's work references that that fact that the Falstaff Brewery tower is one of the landmarks of the neighborhood.\r\nSullivan wrote:\"The Falstaff brewery tower's glowing orb used to alert the neighborhood to weather conditions. My 10-foot high, cobbled-together tower, Falsestate, comments on the current conditions I see in the city.\"\r\n\r\n\"NEIGHBORHOODS: 2426 BRADISH PLACE\" was a multidisciplinary installation, the third in a series, that took place in the gutted ground floor of the home of Michelle Levine and Clay Thomas on May 19th, 2007. Michelle is an artist who is currently rebuilding her house and studio in the Tulane/Gravier neighborhood. Through the use of interviews with neighbors, soundscapes, live music, drawing, photography, and sculpture, this event confronted the range of issues the community is experiencing as they revitalize this neighborhood."
+      text: |-
+        Photogaph of people standing in the yard of 2426 Bradish Place  next to artist David Sullivan's Falsestate Tower. Sullivan's work references that that fact that the Falstaff Brewery tower is one of the landmarks of the neighborhood.
+        Sullivan wrote:"The Falstaff brewery tower's glowing orb used to alert the neighborhood to weather conditions. My 10-foot high, cobbled-together tower, Falsestate, comments on the current conditions I see in the city."
+
+        "NEIGHBORHOODS: 2426 BRADISH PLACE" was a multidisciplinary installation, the third in a series, that took place in the gutted ground floor of the home of Michelle Levine and Clay Thomas on May 19th, 2007. Michelle is an artist who is currently rebuilding her house and studio in the Tulane/Gravier neighborhood. Through the use of interviews with neighbors, soundscapes, live music, drawing, photography, and sculpture, this event confronted the range of issues the community is experiencing as they revitalize this neighborhood.
   Language:
     - html: false
       text: eng
   Title:
     - html: false
-      text: 'FALSESTATE Tower & People '
+      text: FALSESTATE Tower & People
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d14b29d314fb29d14b2b7b.jpg
@@ -32,6 +35,7 @@ geo:
   address: 2426 Bradish Place
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps v3.x
   zoom: 12
 id: 28971
 item_type: Still Image
@@ -46,7 +50,7 @@ tags:
   - bradish place
   - david sullivan
   - falstaff
-title: 'FALSESTATE Tower & People '
+title: FALSESTATE Tower & People
 type: items
 ---
 

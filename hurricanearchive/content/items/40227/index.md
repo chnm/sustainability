@@ -3,7 +3,6 @@ aliases:
   - /items/show/40227
   - /items/show/40227.html
 collections: []
-contributors: []
 date: '2009-05-08 00:51:35'
 draft: false
 dublin_core:
@@ -28,6 +27,7 @@ geo:
   address: 879 legion dr gretna la
   lat: 29.89255
   lng: -90.02704
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40227
 item_type: Document

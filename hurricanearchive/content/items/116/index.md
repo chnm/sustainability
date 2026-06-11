@@ -3,7 +3,6 @@ aliases:
   - /items/show/116
   - /items/show/116.html
 collections: []
-contributors: []
 date: '2005-11-17 22:44:55'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:44:55'
   Description:
     - html: false
-      text: ' The day the levees broke.'
+      text: The day the levees broke.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.878755346037998
   lng: -90.1318359375
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 116
 item_type: Still Image

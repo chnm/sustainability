@@ -3,7 +3,6 @@ aliases:
   - /items/show/565
   - /items/show/565.html
 collections: []
-contributors: []
 date: '2006-01-13 21:55:07'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-13 16:55:07'
   Description:
     - html: false
-      text: ' This was a sign on the beach telling you to turn to get into downtown Long Beach.  This is pretty much a sign to no where.'
+      text: This was a sign on the beach telling you to turn to get into downtown Long Beach.  This is pretty much a sign to no where.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.374646
   lng: -89.177143
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 565
 item_type: Still Image

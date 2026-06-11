@@ -3,7 +3,6 @@ aliases:
   - /items/show/506
   - /items/show/506.html
 collections: []
-contributors: []
 date: '2006-01-03 03:52:57'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-02 22:52:57'
   Description:
     - html: false
-      text: ' Jack in the Box sign that fell on an SUV during Rita. The SUV is on the right.'
+      text: Jack in the Box sign that fell on an SUV during Rita. The SUV is on the right.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0387460356084
   lng: -94.15446281433111
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 506
 item_type: Still Image

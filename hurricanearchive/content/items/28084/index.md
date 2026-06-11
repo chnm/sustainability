@@ -3,7 +3,6 @@ aliases:
   - /items/show/28084
   - /items/show/28084.html
 collections: []
-contributors: []
 date: '2007-05-29 06:59:37'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 5800 Old Gentilly Rd.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 28084
 item_type: Document

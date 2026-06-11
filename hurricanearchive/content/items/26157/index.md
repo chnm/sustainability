@@ -4,7 +4,6 @@ aliases:
   - /items/show/26157.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-21 14:50:48'
 draft: false
 dublin_core:
@@ -16,7 +15,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: ' K a t r i n a - The Hurricane'
+      text: K a t r i n a - The Hurricane
 featured: false
 files: []
 geo:
@@ -30,7 +29,7 @@ related_items: []
 slug: '26157'
 tags:
   - poetry
-title: ' K a t r i n a - The Hurricane'
+title: K a t r i n a - The Hurricane
 type: items
 ---
 

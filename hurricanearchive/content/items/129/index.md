@@ -3,7 +3,6 @@ aliases:
   - /items/show/129
   - /items/show/129.html
 collections: []
-contributors: []
 date: '2005-11-17 22:58:02'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:58:02'
   Description:
     - html: false
-      text: " \\\"The Water Is Fine\\\", M.O.M.\\'s Ball, October 29, 2005"
+      text: \"The Water Is Fine\", M.O.M.\'s Ball, October 29, 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.938343
   lng: -90.100773
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 129
 item_type: Still Image

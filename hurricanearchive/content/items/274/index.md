@@ -3,7 +3,6 @@ aliases:
   - /items/show/274
   - /items/show/274.html
 collections: []
-contributors: []
 date: '2005-11-26 17:58:37'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-26 12:58:37'
   Description:
     - html: false
-      text: ' A Bay St.Louis, MS beach house destroyed by Katrina.'
+      text: A Bay St.Louis, MS beach house destroyed by Katrina.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.3124311541037
   lng: -89.32434082031249
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 274
 item_type: Still Image

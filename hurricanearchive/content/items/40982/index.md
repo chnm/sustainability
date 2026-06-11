@@ -3,7 +3,6 @@ aliases:
   - /items/show/40982
   - /items/show/40982.html
 collections: []
-contributors: []
 date: '2009-09-08 17:25:02'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 2069 Juniper Dr.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40982
 item_type: Document

@@ -4,7 +4,6 @@ aliases:
   - /items/show/30615.html
 collections:
   - '166'
-contributors: []
 date: '2007-07-24 00:48:51'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2007-07-23 00:00:00'
   Description:
     - html: false
-      text: 'Photo of post-Katrina signage on Tchoupitoulas Street, uptown. '
+      text: Photo of post-Katrina signage on Tchoupitoulas Street, uptown.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 30615
 item_type: Still Image

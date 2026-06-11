@@ -3,7 +3,6 @@ aliases:
   - /items/show/12082
   - /items/show/12082.html
 collections: []
-contributors: []
 date: '2006-10-12 16:31:26'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: Cernay St.
   lat: 30.03731
   lng: -89.92122
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 12082
 item_type: Document

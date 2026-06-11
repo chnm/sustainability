@@ -3,7 +3,6 @@ aliases:
   - /items/show/524
   - /items/show/524.html
 collections: []
-contributors: []
 date: '2006-01-04 00:23:56'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-03 19:23:56'
   Description:
     - html: false
-      text: ' 9-31-05 W. Memphis\r\nPodcast interview with Michael Lawler from Slidell made from the hotel in W. Memphis. He was a property owner that had many properties in the suddenly demolished 9th Ward'
+      text: 9-31-05 W. Memphis\r\nPodcast interview with Michael Lawler from Slidell made from the hotel in W. Memphis. He was a property owner that had many properties in the suddenly demolished 9th Ward
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 35.210811
   lng: -90.203849
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 524
 item_type: Document

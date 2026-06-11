@@ -3,7 +3,6 @@ aliases:
   - /items/show/81
   - /items/show/81.html
 collections: []
-contributors: []
 date: '2005-11-17 06:46:33'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 01:46:33'
   Description:
     - html: false
-      text: ' Remains of 1 of the lakefront shelters.'
+      text: Remains of 1 of the lakefront shelters.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 81
 item_type: Still Image

@@ -4,13 +4,12 @@ aliases:
   - /items/show/34478.html
 collections:
   - '185'
-contributors: []
 date: '2008-04-17 19:29:51'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Debris pilled high on Pontchartrain Drive for weeks after the storm.  Most of the properties on Pontchartrain Drive were washed away and or destroyed by the tidal surge.  Most of what remained had to be torn down or totally rebuilt.  '
+      text: Debris pilled high on Pontchartrain Drive for weeks after the storm.  Most of the properties on Pontchartrain Drive were washed away and or destroyed by the tidal surge.  Most of what remained had to be torn down or totally rebuilt.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 30.22586
   lng: -89.83311
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34478
 item_type: Still Image

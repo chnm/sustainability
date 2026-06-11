@@ -4,13 +4,12 @@ aliases:
   - /items/show/3578.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'There are still many refrigerators and freezers just like this that are still sitting inside destroyed homes.       '
+      text: There are still many refrigerators and freezers just like this that are still sitting inside destroyed homes.
   Language:
     - html: false
       text: eng

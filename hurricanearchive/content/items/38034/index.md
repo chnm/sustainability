@@ -3,7 +3,6 @@ aliases:
   - /items/show/38034
   - /items/show/38034.html
 collections: []
-contributors: []
 date: '2008-11-20 09:52:55'
 draft: false
 dublin_core:
@@ -16,9 +15,10 @@ dublin_core:
 featured: false
 files: []
 geo:
-  address: ' HUTCHINSON ST'
+  address: HUTCHINSON ST
   lat: 32.47423
   lng: -93.82441
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 38034
 item_type: Document

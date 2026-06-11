@@ -3,7 +3,6 @@ aliases:
   - /items/show/15
   - /items/show/15.html
 collections: []
-contributors: []
 date: '2005-11-15 20:36:47'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-15 15:36:47'
   Description:
     - html: false
-      text: ' A truck blown into a ditch after the hurricane in Sabine Pass across the street from some of the dry docks. Taken October 16, 2005'
+      text: A truck blown into a ditch after the hurricane in Sabine Pass across the street from some of the dry docks. Taken October 16, 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.7166812872311
   lng: -93.8651275634766
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 15
 item_type: Still Image

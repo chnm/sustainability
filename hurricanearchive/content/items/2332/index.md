@@ -3,7 +3,6 @@ aliases:
   - /items/show/2332
   - /items/show/2332.html
 collections: []
-contributors: []
 date: '2006-07-21 02:48:26'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-20 22:48:26'
   Description:
     - html: false
-      text: " I found this paper sitting out side of a house in down town New Orleans.  I don\\\\\\'t remember the exact date but it was before Reta hit.  When I opened it I thought It would make a good picture of the talk that was going on before the storm hit. and the paper was closed up like it had been delivered but the onwer of the paper never got to read it."
+      text: I found this paper sitting out side of a house in down town New Orleans.  I don\\\'t remember the exact date but it was before Reta hit.  When I opened it I thought It would make a good picture of the talk that was going on before the storm hit. and the paper was closed up like it had been delivered but the onwer of the paper never got to read it.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.444603967333098
   lng: -90.9515190124512
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2332
 item_type: Still Image

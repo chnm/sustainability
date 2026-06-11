@@ -3,7 +3,6 @@ aliases:
   - /items/show/490
   - /items/show/490.html
 collections: []
-contributors: []
 date: '2005-12-28 21:03:00'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 16:03:00'
   Description:
     - html: false
-      text: ' Flood waters surround mobile home while new car and pirogue transport residents to their home.  Bayouside Drive, Chauvin, Louisiana. Sept. 2005'
+      text: Flood waters surround mobile home while new car and pirogue transport residents to their home.  Bayouside Drive, Chauvin, Louisiana. Sept. 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.391747742992802
   lng: -90.615234375
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 490
 item_type: Still Image

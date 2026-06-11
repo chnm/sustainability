@@ -3,7 +3,6 @@ aliases:
   - /items/show/33132
   - /items/show/33132.html
 collections: []
-contributors: []
 date: '2007-11-19 14:02:12'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 730 East Beach Blvd, Long Beach, MS
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33132
 item_type: Still Image

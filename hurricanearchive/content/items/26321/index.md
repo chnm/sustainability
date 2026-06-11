@@ -4,7 +4,6 @@ aliases:
   - /items/show/26321.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-28 15:54:05'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Gulport  Mississippi
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26321
 item_type: Document

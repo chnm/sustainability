@@ -4,13 +4,12 @@ aliases:
   - /items/show/34523.html
 collections:
   - '196'
-contributors: []
 date: '2008-04-17 19:33:40'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Thousands of homes were totally destroyed from hight water and winds from hurricane Katrina.  This car belonged to Anna Leggio.  The car was a total loss and she didn\\'t have insurance on it. "
+      text: Thousands of homes were totally destroyed from hight water and winds from hurricane Katrina.  This car belonged to Anna Leggio.  The car was a total loss and she didn\'t have insurance on it.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 30.22539
   lng: -89.83296
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34523
 item_type: Still Image

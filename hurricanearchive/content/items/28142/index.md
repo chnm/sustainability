@@ -3,7 +3,6 @@ aliases:
   - /items/show/28142
   - /items/show/28142.html
 collections: []
-contributors: []
 date: '2007-05-30 17:38:20'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 6068 Warrington Dr., New Orleans
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 28142
 item_type: Document

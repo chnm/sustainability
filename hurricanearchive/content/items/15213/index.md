@@ -3,7 +3,6 @@ aliases:
   - /items/show/15213
   - /items/show/15213.html
 collections: []
-contributors: []
 date: '2007-01-23 19:03:24'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: Friscoville Ave.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 15213
 item_type: Still Image

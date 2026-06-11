@@ -3,7 +3,6 @@ aliases:
   - /items/show/2157
   - /items/show/2157.html
 collections: []
-contributors: []
 date: '2006-04-14 19:59:18'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-14 15:59:18'
   Description:
     - html: false
-      text: ' Downtown Bay St. Louis'
+      text: Downtown Bay St. Louis
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.31302392381
   lng: -89.3270874023438
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2157
 item_type: Still Image

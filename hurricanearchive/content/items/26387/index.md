@@ -4,13 +4,12 @@ aliases:
   - /items/show/26387.html
 collections:
   - '68'
-contributors: []
 date: '2007-03-29 00:14:29'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Erica and Ryan Kissee at Versailles Cardinals football and neighborhood park, 1996.  '
+      text: Erica and Ryan Kissee at Versailles Cardinals football and neighborhood park, 1996.
   Language:
     - html: false
       text: eng
@@ -26,6 +25,7 @@ geo:
   address: 3709 Palmisano Blvd., Chalmette, LA
   lat: 29.95079
   lng: -89.94575
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26387
 item_type: Still Image

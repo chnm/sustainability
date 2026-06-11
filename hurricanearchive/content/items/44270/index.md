@@ -3,7 +3,6 @@ aliases:
   - /items/show/44270
   - /items/show/44270.html
 collections: []
-contributors: []
 date: '2011-04-13 23:10:08'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 424 Rosedale Dr.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 44270
 item_type: Document

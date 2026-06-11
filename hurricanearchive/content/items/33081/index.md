@@ -3,13 +3,12 @@ aliases:
   - /items/show/33081
   - /items/show/33081.html
 collections: []
-contributors: []
 date: '2007-10-23 13:12:57'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Fila Phil New Orleans Own All I got to say is we will Bounce back nomatter what yaheardme , They never cared anyway 9thward '
+      text: Fila Phil New Orleans Own All I got to say is we will Bounce back nomatter what yaheardme , They never cared anyway 9thward
   Language:
     - html: false
       text: eng
@@ -19,6 +18,7 @@ geo:
   address: 3107 abundance court
   lat: 29.99166
   lng: -90.03862
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33081
 item_type: Document

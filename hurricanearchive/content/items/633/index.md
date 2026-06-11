@@ -3,7 +3,6 @@ aliases:
   - /items/show/633
   - /items/show/633.html
 collections: []
-contributors: []
 date: '2006-01-18 01:18:19'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-17 20:18:19'
   Description:
     - html: false
-      text: ' Katrina (legal) aliens crew working in the 9th ward where the mold and contamination is rampant.'
+      text: Katrina (legal) aliens crew working in the 9th ward where the mold and contamination is rampant.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.342352
   lng: -90.685853
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 633
 item_type: Still Image

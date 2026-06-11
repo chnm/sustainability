@@ -3,7 +3,6 @@ aliases:
   - /items/show/43228
   - /items/show/43228.html
 collections: []
-contributors: []
 date: '2010-09-07 21:18:18'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 5610 Brighton Pl.
   lat: 29.92399
   lng: -89.99451
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43228
 item_type: Document

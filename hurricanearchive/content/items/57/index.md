@@ -3,7 +3,6 @@ aliases:
   - /items/show/57
   - /items/show/57.html
 collections: []
-contributors: []
 date: '2005-11-16 22:30:23'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-16 17:30:23'
   Description:
     - html: false
-      text: " During \\\"Katrina Week\\\" firefighters didn\\'t have enough water to protect the city.  This Camp Street (New Orleans) home is one of many that burned to the ground."
+      text: During \"Katrina Week\" firefighters didn\'t have enough water to protect the city.  This Camp Street (New Orleans) home is one of many that burned to the ground.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 57
 item_type: Still Image

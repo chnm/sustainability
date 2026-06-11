@@ -3,7 +3,6 @@ aliases:
   - /items/show/1881
   - /items/show/1881.html
 collections: []
-contributors: []
 date: '2006-03-06 13:15:12'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-06 08:15:12'
   Description:
     - html: false
-      text: ' Gravier St. behind Charity Hospital in New Orleans'
+      text: Gravier St. behind Charity Hospital in New Orleans
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9551948278245
   lng: -90.07817029953
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1881
 item_type: Still Image

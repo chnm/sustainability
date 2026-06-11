@@ -4,13 +4,12 @@ aliases:
   - /items/show/3598.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'White work gloves, a trash bag and dust mask are placed by the garden bed next to the treasures rescued from a home.    '
+      text: White work gloves, a trash bag and dust mask are placed by the garden bed next to the treasures rescued from a home.
   Language:
     - html: false
       text: eng

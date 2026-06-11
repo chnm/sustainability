@@ -3,7 +3,6 @@ aliases:
   - /items/show/1816
   - /items/show/1816.html
 collections: []
-contributors: []
 date: '2006-02-06 21:52:21'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-06 16:52:21'
   Description:
     - html: false
-      text: ' Pass Christian MS - too close to the beach front to survive the wave.'
+      text: Pass Christian MS - too close to the beach front to survive the wave.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.382353217669603
   lng: -89.17053222656249
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1816
 item_type: Still Image

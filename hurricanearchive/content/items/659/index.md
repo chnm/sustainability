@@ -3,7 +3,6 @@ aliases:
   - /items/show/659
   - /items/show/659.html
 collections: []
-contributors: []
 date: '2006-01-22 22:31:16'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-22 17:31:16'
   Description:
     - html: false
-      text: ' Poydras side of Hyatt Hotel on 8/29/05'
+      text: Poydras side of Hyatt Hotel on 8/29/05
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9515136875445
   lng: -90.07947921752931
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 659
 item_type: Still Image

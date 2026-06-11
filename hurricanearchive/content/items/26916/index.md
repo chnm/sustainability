@@ -4,13 +4,12 @@ aliases:
   - /items/show/26916.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Cecil Whaley, Emergency Management Administrator for Tennessee Emergency Management Agency. '
+      text: Interview with Cecil Whaley, Emergency Management Administrator for Tennessee Emergency Management Agency.
   Language:
     - html: false
       text: eng

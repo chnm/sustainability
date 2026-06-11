@@ -3,7 +3,6 @@ aliases:
   - /items/show/40864
   - /items/show/40864.html
 collections: []
-contributors: []
 date: '2009-08-31 21:18:22'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 3108 north labarre
   lat: 30.00715
   lng: -90.15135
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40864
 item_type: Document

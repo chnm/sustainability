@@ -3,7 +3,6 @@ aliases:
   - /items/show/2010
   - /items/show/2010.html
 collections: []
-contributors: []
 date: '2006-03-11 17:59:50'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-11 12:59:50'
   Description:
     - html: false
-      text: ' christmas/katrina display at the lakeview mall'
+      text: christmas/katrina display at the lakeview mall
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.0045981475423
   lng: -90.15775680541991
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2010
 item_type: Still Image

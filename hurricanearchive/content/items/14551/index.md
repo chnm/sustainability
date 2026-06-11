@@ -3,13 +3,12 @@ aliases:
   - /items/show/14551
   - /items/show/14551.html
 collections: []
-contributors: []
 date: '2006-12-19 23:54:43'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'The attached file is a lobbying kit put out by Law Students for Government Accountability (LSGA): Everything you need to know in order to start making a difference today. '
+      text: 'The attached file is a lobbying kit put out by Law Students for Government Accountability (LSGA): Everything you need to know in order to start making a difference today.'
   Language:
     - html: false
       text: eng

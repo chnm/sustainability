@@ -3,7 +3,6 @@ aliases:
   - /items/show/14625
   - /items/show/14625.html
 collections: []
-contributors: []
 date: '2006-12-22 16:04:24'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 5748 Wilton Drive
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 14625
 item_type: Still Image

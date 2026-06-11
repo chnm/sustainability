@@ -4,7 +4,6 @@ aliases:
   - /items/show/46028.html
 collections:
   - '233'
-contributors: []
 date: '2016-08-27 05:34:58'
 draft: false
 dublin_core:
@@ -17,6 +16,7 @@ geo:
   address: 1489 Burbank dr, new orleans, la
   lat: 30.018501
   lng: -90.07782600000002
+  map_type: Google Maps v3.x
   zoom: 7
 id: 46028
 item_type: Document

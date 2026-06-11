@@ -3,7 +3,6 @@ aliases:
   - /items/show/30484
   - /items/show/30484.html
 collections: []
-contributors: []
 date: '2007-07-20 03:15:37'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 929 E. Lexington
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 30484
 item_type: Document

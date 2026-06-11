@@ -3,7 +3,6 @@ aliases:
   - /items/show/94
   - /items/show/94.html
 collections: []
-contributors: []
 date: '2005-11-17 13:49:14'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 08:49:14'
   Description:
     - html: false
-      text: ' Sunrise of calm Lake Ponchartrain taken from the Causeway once it reopened.'
+      text: Sunrise of calm Lake Ponchartrain taken from the Causeway once it reopened.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 94
 item_type: Still Image

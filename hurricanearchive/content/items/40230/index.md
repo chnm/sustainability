@@ -3,7 +3,6 @@ aliases:
   - /items/show/40230
   - /items/show/40230.html
 collections: []
-contributors: []
 date: '2009-05-08 02:39:55'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 2112 cambridge dr
   lat: 30.08394
   lng: -90.47661
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40230
 item_type: Document

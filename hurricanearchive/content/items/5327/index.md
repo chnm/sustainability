@@ -3,7 +3,6 @@ aliases:
   - /items/show/5327
   - /items/show/5327.html
 collections: []
-contributors: []
 date: '2006-09-14 22:30:00'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 7226 Pitt St.
   lat: 29.93292
   lng: -90.13068
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 5327
 item_type: Document

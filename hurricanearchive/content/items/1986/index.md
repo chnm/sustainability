@@ -3,7 +3,6 @@ aliases:
   - /items/show/1986
   - /items/show/1986.html
 collections: []
-contributors: []
 date: '2006-03-09 04:46:57'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-08 23:46:57'
   Description:
     - html: false
-      text: ' Our newly built building was now at a dead end road...All roads to Bayou Country were gone. Twinspan & service road gone...\r\n8-29-05'
+      text: Our newly built building was now at a dead end road...All roads to Bayou Country were gone. Twinspan & service road gone...\r\n8-29-05
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.211014841607604
   lng: -89.7885131835938
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1986
 item_type: Still Image

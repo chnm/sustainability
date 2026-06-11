@@ -3,7 +3,6 @@ aliases:
   - /items/show/5353
   - /items/show/5353.html
 collections: []
-contributors: []
 date: '2006-09-17 07:42:14'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 7365 Bocage Boulevard
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 5353
 item_type: Document

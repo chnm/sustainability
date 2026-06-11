@@ -4,7 +4,6 @@ aliases:
   - /items/show/26194.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-21 20:20:17'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: beaumont, alberta
   lat: 53.35478
   lng: -113.41396
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26194
 item_type: Document

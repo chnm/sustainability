@@ -3,7 +3,6 @@ aliases:
   - /items/show/2296
   - /items/show/2296.html
 collections: []
-contributors: []
 date: '2006-06-06 13:32:32'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-06-06 09:32:32'
   Description:
     - html: false
-      text: ' Storm surge in front of Saint Stanislaus College in Bay Saint Louis soon after sunrise on August 29, 2005.'
+      text: Storm surge in front of Saint Stanislaus College in Bay Saint Louis soon after sunrise on August 29, 2005.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.306503259848803
   lng: -89.32888984680179
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2296
 item_type: Still Image

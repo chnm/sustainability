@@ -3,13 +3,12 @@ aliases:
   - /items/show/34826
   - /items/show/34826.html
 collections: []
-contributors: []
 date: '2008-05-05 14:36:06'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "This is an interview with a Veteran\\'s Affairs Police Officer who was working at the VA Hospital in New Orleans before, during and after Hurricane Katrina. "
+      text: This is an interview with a Veteran\'s Affairs Police Officer who was working at the VA Hospital in New Orleans before, during and after Hurricane Katrina.
   Language:
     - html: false
       text: eng
@@ -28,6 +27,7 @@ geo:
   address: 129 S. Murat
   lat: 29.97719
   lng: -90.10534
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34826
 item_type: Document

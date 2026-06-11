@@ -3,7 +3,6 @@ aliases:
   - /items/show/107
   - /items/show/107.html
 collections: []
-contributors: []
 date: '2005-11-17 22:34:25'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:34:25'
   Description:
     - html: false
-      text: ' Jesuit High School, New Orleans.'
+      text: Jesuit High School, New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.993002284551103
   lng: -90.0439453125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 107
 item_type: Still Image

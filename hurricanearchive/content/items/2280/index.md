@@ -3,7 +3,6 @@ aliases:
   - /items/show/2280
   - /items/show/2280.html
 collections: []
-contributors: []
 date: '2006-05-29 16:51:02'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-05-29 12:51:02'
   Description:
     - html: false
-      text: ' Park Street, Orange Texas'
+      text: Park Street, Orange Texas
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.135425
   lng: -93.860282
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2280
 item_type: Still Image

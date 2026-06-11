@@ -3,7 +3,6 @@ aliases:
   - /items/show/2338
   - /items/show/2338.html
 collections: []
-contributors: []
 date: '2006-07-23 08:29:27'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-23 04:29:27'
   Description:
     - html: false
-      text: " This is one of the house\\'s that was on fire that everyone saw on the new that the fire department could not get to."
+      text: This is one of the house\'s that was on fire that everyone saw on the new that the fire department could not get to.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.4454179233169
   lng: -90.95229148864749
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2338
 item_type: Still Image

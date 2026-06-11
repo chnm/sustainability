@@ -3,7 +3,6 @@ aliases:
   - /items/show/1841
   - /items/show/1841.html
 collections: []
-contributors: []
 date: '2006-02-14 00:37:14'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-13 19:37:14'
   Description:
     - html: false
-      text: " Mud and rubble is all that is left of someone\\'s home in Holly Beach, LA.  The entire town was destroyed by Rita. Taken February 12, 2006."
+      text: Mud and rubble is all that is left of someone\'s home in Holly Beach, LA.  The entire town was destroyed by Rita. Taken February 12, 2006.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.7716788354775
   lng: -93.46112251281738
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1841
 item_type: Still Image

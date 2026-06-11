@@ -3,7 +3,6 @@ aliases:
   - /items/show/118
   - /items/show/118.html
 collections: []
-contributors: []
 date: '2005-11-17 22:46:53'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:46:53'
   Description:
     - html: false
-      text: ' Infrared Satellite 07:40PM EDT Sun Aug 28'
+      text: Infrared Satellite 07:40PM EDT Sun Aug 28
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.267232865200903
   lng: -90.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 118
 item_type: Still Image

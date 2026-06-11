@@ -3,7 +3,6 @@ aliases:
   - /items/show/138
   - /items/show/138.html
 collections: []
-contributors: []
 date: '2005-11-17 23:28:20'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 18:28:20'
   Description:
     - html: false
-      text: ' Fire on New Orleans waterfront, near the Riverwalk.'
+      text: Fire on New Orleans waterfront, near the Riverwalk.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9549345496561
   lng: -90.0439453125
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 138
 item_type: Still Image

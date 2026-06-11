@@ -3,7 +3,6 @@ aliases:
   - /items/show/499
   - /items/show/499.html
 collections: []
-contributors: []
 date: '2005-12-29 02:47:40'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 21:47:40'
   Description:
     - html: false
-      text: ' Open for business, the gas station mini-mart on Beatline Road in Long Beach, MS.'
+      text: Open for business, the gas station mini-mart on Beatline Road in Long Beach, MS.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.938343
   lng: -90.100773
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 499
 item_type: Still Image

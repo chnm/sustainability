@@ -3,7 +3,6 @@ aliases:
   - /items/show/40800
   - /items/show/40800.html
 collections: []
-contributors: []
 date: '2009-08-28 17:01:58'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: Hudson Pl.
   lat: 29.92587
   lng: -89.99934
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40800
 item_type: Document

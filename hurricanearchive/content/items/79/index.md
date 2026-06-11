@@ -3,7 +3,6 @@ aliases:
   - /items/show/79
   - /items/show/79.html
 collections: []
-contributors: []
 date: '2005-11-17 06:39:46'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 01:39:46'
   Description:
     - html: false
-      text: ' Lighthouse and remnants of Southern Yacht Club.  New Orleans lakefront.'
+      text: Lighthouse and remnants of Southern Yacht Club.  New Orleans lakefront.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 79
 item_type: Still Image

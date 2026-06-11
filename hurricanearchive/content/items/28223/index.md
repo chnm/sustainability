@@ -4,7 +4,6 @@ aliases:
   - /items/show/28223.html
 collections:
   - '155'
-contributors: []
 date: '2007-06-01 21:09:46'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2007-06-01 00:00:00'
   Description:
     - html: false
-      text: 'Photograph showing detail of an artwork by Robert Vicknair. This piece was part of a site-specific multi-media installation called NEIGHBORHOODS: 2426 BRADISH PLACE. '
+      text: 'Photograph showing detail of an artwork by Robert Vicknair. This piece was part of a site-specific multi-media installation called NEIGHBORHOODS: 2426 BRADISH PLACE.'
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: 2426 Bradish Place
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 28223
 item_type: Still Image

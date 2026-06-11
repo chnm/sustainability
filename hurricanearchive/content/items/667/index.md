@@ -3,7 +3,6 @@ aliases:
   - /items/show/667
   - /items/show/667.html
 collections: []
-contributors: []
 date: '2006-01-24 03:43:50'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-23 22:43:50'
   Description:
     - html: false
-      text: ' collapsed wall on Perdido street 8-29-2005'
+      text: collapsed wall on Perdido street 8-29-2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.951364951739297
   lng: -90.080680847168
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 667
 item_type: Still Image

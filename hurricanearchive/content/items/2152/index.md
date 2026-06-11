@@ -3,7 +3,6 @@ aliases:
   - /items/show/2152
   - /items/show/2152.html
 collections: []
-contributors: []
 date: '2006-04-14 02:01:46'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-13 22:01:46'
   Description:
     - html: false
-      text: ' Self storage building in Orange, Texas.  Thanks Rita'
+      text: Self storage building in Orange, Texas.  Thanks Rita
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.135425
   lng: -93.860282
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2152
 item_type: Still Image

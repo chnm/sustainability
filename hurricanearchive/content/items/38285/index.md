@@ -3,7 +3,6 @@ aliases:
   - /items/show/38285
   - /items/show/38285.html
 collections: []
-contributors: []
 date: '2008-12-10 18:13:07'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1709 Ryan Ave
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 38285
 item_type: Document

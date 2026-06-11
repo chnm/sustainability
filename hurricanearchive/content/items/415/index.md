@@ -3,7 +3,6 @@ aliases:
   - /items/show/415
   - /items/show/415.html
 collections: []
-contributors: []
 date: '2005-12-26 18:56:38'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 13:56:38'
   Description:
     - html: false
-      text: ' An angel is camoflaged by a concrete slab.'
+      text: An angel is camoflaged by a concrete slab.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.3444355863685
   lng: -89.2117309570312
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 415
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/11582
   - /items/show/11582.html
 collections: []
-contributors: []
 date: '2006-10-01 00:49:35'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: Bourbon St., New Orleans, LA
   lat: 29.95947
   lng: -90.06492
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 11582
 item_type: Document

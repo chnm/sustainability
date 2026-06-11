@@ -3,7 +3,6 @@ aliases:
   - /items/show/291
   - /items/show/291.html
 collections: []
-contributors: []
 date: '2005-12-01 02:34:27'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-30 21:34:27'
   Description:
     - html: false
-      text: ' DeRidder, Louisiana suffered the loss of thousands of roofs. This was the remains of the roof off of a building in the historic downtown area, which received much damage.'
+      text: DeRidder, Louisiana suffered the loss of thousands of roofs. This was the remains of the roof off of a building in the historic downtown area, which received much damage.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.651656
   lng: -93.299574
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 291
 item_type: Still Image

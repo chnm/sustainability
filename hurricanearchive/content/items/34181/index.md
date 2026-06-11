@@ -4,13 +4,12 @@ aliases:
   - /items/show/34181.html
 collections:
   - '87'
-contributors: []
 date: '2008-03-28 03:22:59'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "The Truth Be Told:A Collection of Misinformed Emails About Post-Hurricane Katrina New Orleans\\r\\n\\r\\nTim Ory created the attached project while enrolled in the online Creating a Katrina Archive course taught during the University of New Orleans\\' post-Katrina Fall 2005 semester (October-December 2005). "
+      text: The Truth Be Told:A Collection of Misinformed Emails About Post-Hurricane Katrina New Orleans\r\n\r\nTim Ory created the attached project while enrolled in the online Creating a Katrina Archive course taught during the University of New Orleans\' post-Katrina Fall 2005 semester (October-December 2005).
   Language:
     - html: false
       text: eng

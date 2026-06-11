@@ -3,7 +3,6 @@ aliases:
   - /items/show/45988
   - /items/show/45988.html
 collections: []
-contributors: []
 date: '2013-09-08 02:28:45'
 draft: false
 dublin_core:
@@ -16,6 +15,7 @@ geo:
   address: 3800 Gallo Drive
   lat: 29.9506781
   lng: -89.94226570000001
+  map_type: Google Maps v3.x
   zoom: 8
 id: 45988
 item_type: Document

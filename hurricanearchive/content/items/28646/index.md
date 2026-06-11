@@ -3,13 +3,14 @@ aliases:
   - /items/show/28646
   - /items/show/28646.html
 collections: []
-contributors: []
 date: '2007-06-13 17:50:09'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "Deslonde St. and N. Galvez St.\r\nLower 9th Ward, New Orleans, LA"
+      text: |-
+        Deslonde St. and N. Galvez St.
+        Lower 9th Ward, New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

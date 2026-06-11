@@ -3,13 +3,14 @@ aliases:
   - /items/show/28644
   - /items/show/28644.html
 collections: []
-contributors: []
 date: '2007-06-13 17:50:02'
 draft: false
 dublin_core:
   Description:
     - html: true
-      text: "<p>Near <a href='\\\"http://www.commongroundrelief.org/\\\"' target='\\\"_blank\\\"'>Common Ground</a>'s Lower 9th Ward building, there were some supplies that people could take.</p>\n<p>New Orleans, LA</p>"
+      text: |-
+        <p>Near <a href='\"http://www.commongroundrelief.org/\"' target='\"_blank\"'>Common Ground</a>'s Lower 9th Ward building, there were some supplies that people could take.</p>
+        <p>New Orleans, LA</p>
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

@@ -3,7 +3,6 @@ aliases:
   - /items/show/485
   - /items/show/485.html
 collections: []
-contributors: []
 date: '2005-12-28 20:03:56'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 15:03:56'
   Description:
     - html: false
-      text: ' A tank  turned on its side on Hwy. 56 between Chauvin and Cocodrie, Terrebonne Parish, Louisiana, following Hurricane Rita, September 2005.'
+      text: A tank  turned on its side on Hwy. 56 between Chauvin and Cocodrie, Terrebonne Parish, Louisiana, following Hurricane Rita, September 2005.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.3654207394138
   lng: -90.6317138671875
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 485
 item_type: Still Image

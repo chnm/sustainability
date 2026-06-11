@@ -3,7 +3,6 @@ aliases:
   - /items/show/497
   - /items/show/497.html
 collections: []
-contributors: []
 date: '2005-12-29 02:42:48'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-28 21:42:48'
   Description:
     - html: false
-      text: ' Razor wire set up by the National Guard along the Gulf Coast Beach areas.'
+      text: Razor wire set up by the National Guard along the Gulf Coast Beach areas.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.938343
   lng: -90.100773
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 497
 item_type: Still Image

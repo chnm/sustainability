@@ -3,7 +3,6 @@ aliases:
   - /items/show/665
   - /items/show/665.html
 collections: []
-contributors: []
 date: '2006-01-24 01:36:52'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-23 20:36:52'
   Description:
     - html: false
-      text: ' Westbank church steeple bit the dust off of General de Gaulle.'
+      text: Westbank church steeple bit the dust off of General de Gaulle.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 665
 item_type: Still Image

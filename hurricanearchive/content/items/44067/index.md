@@ -3,7 +3,6 @@ aliases:
   - /items/show/44067
   - /items/show/44067.html
 collections: []
-contributors: []
 date: '2011-02-17 04:46:27'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 7340 Arbor Drive
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 44067
 item_type: Document

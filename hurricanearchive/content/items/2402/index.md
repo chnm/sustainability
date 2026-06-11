@@ -4,7 +4,6 @@ aliases:
   - /items/show/2402.html
 collections:
   - '16'
-contributors: []
 date: '2006-08-17 17:10:58'
 draft: false
 dublin_core:
@@ -19,7 +18,7 @@ dublin_core:
       text: eng
   Publisher:
     - html: false
-      text: 'U.S. COAST GUARD '
+      text: U.S. COAST GUARD
   Title:
     - html: false
       text: Elderly couple prepare for air transport

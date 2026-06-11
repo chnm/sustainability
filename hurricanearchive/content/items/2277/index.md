@@ -3,7 +3,6 @@ aliases:
   - /items/show/2277
   - /items/show/2277.html
 collections: []
-contributors: []
 date: '2006-05-28 20:12:30'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-05-28 16:12:30'
   Description:
     - html: false
-      text: ' Sandbagging a hotel on St. Charles Ave., August 28.'
+      text: Sandbagging a hotel on St. Charles Ave., August 28.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.935783644021704
   lng: -90.08003711700441
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2277
 item_type: Still Image

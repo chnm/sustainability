@@ -3,7 +3,6 @@ aliases:
   - /items/show/5368
   - /items/show/5368.html
 collections: []
-contributors: []
 date: '2006-09-18 16:25:46'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: Covington, Louisiana
   lat: 30.47528
   lng: -90.10083
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 5368
 item_type: Document

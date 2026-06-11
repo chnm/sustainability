@@ -3,7 +3,6 @@ aliases:
   - /items/show/43267
   - /items/show/43267.html
 collections: []
-contributors: []
 date: '2010-09-09 18:49:02'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 4804 rebecca blvd
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43267
 item_type: Document

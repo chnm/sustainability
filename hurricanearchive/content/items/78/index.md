@@ -3,7 +3,6 @@ aliases:
   - /items/show/78
   - /items/show/78.html
 collections: []
-contributors: []
 date: '2005-11-17 06:36:19'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 01:36:19'
   Description:
     - html: false
-      text: ' And the light still works--just at a different angle on St. Charles Ave. in New Orleans.'
+      text: And the light still works--just at a different angle on St. Charles Ave. in New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 78
 item_type: Still Image

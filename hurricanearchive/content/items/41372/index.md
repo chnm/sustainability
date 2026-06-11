@@ -3,7 +3,6 @@ aliases:
   - /items/show/41372
   - /items/show/41372.html
 collections: []
-contributors: []
 date: '2009-10-11 21:54:17'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 2832 Regal Drive
   lat: 29.95237
   lng: -89.98587
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 41372
 item_type: Still Image

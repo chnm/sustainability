@@ -3,7 +3,6 @@ aliases:
   - /items/show/35037
   - /items/show/35037.html
 collections: []
-contributors: []
 date: '2008-05-09 02:23:33'
 draft: false
 dublin_core:
@@ -28,6 +27,7 @@ geo:
   address: 610 1/2 Keller Ave. Westwego, La
   lat: 29.90226
   lng: -90.1352
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 35037
 item_type: Document

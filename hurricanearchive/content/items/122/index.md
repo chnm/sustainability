@@ -3,7 +3,6 @@ aliases:
   - /items/show/122
   - /items/show/122.html
 collections: []
-contributors: []
 date: '2005-11-17 22:51:39'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 17:51:39'
   Description:
     - html: false
-      text: ' After the rain came the fire.'
+      text: After the rain came the fire.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9192328048421
   lng: -90.07553100585942
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 122
 item_type: Still Image

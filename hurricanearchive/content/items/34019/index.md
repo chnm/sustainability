@@ -3,7 +3,6 @@ aliases:
   - /items/show/34019
   - /items/show/34019.html
 collections: []
-contributors: []
 date: '2008-03-10 21:11:10'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1310 Simon Bolivar Ave.  New Orleans, LA
   lat: 29.9437
   lng: -90.08037
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34019
 item_type: Document

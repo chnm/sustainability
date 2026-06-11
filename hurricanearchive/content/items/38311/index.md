@@ -3,7 +3,6 @@ aliases:
   - /items/show/38311
   - /items/show/38311.html
 collections: []
-contributors: []
 date: '2008-12-12 17:50:48'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 4133 Banks Street
   lat: 29.97244
   lng: -90.10366
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 38311
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/2036
   - /items/show/2036.html
 collections: []
-contributors: []
 date: '2006-03-20 16:39:19'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-20 11:39:19'
   Description:
     - html: false
-      text: ' US Coast Guard magazine, \"Katrina, the Gulf Response,\" special edition 2005.   It focuses on the Coast Guard responses to Hurricanes Katrina and Rita.'
+      text: US Coast Guard magazine, \"Katrina, the Gulf Response,\" special edition 2005.   It focuses on the Coast Guard responses to Hurricanes Katrina and Rita.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2036
 item_type: Document

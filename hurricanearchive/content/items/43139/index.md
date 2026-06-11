@@ -3,7 +3,6 @@ aliases:
   - /items/show/43139
   - /items/show/43139.html
 collections: []
-contributors: []
 date: '2010-08-31 04:37:08'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1105 frankel ave
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43139
 item_type: Document

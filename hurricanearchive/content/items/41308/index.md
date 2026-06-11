@@ -3,7 +3,6 @@ aliases:
   - /items/show/41308
   - /items/show/41308.html
 collections: []
-contributors: []
 date: '2009-10-02 20:03:41'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1900 Alabo
   lat: 29.96869
   lng: -90.01039
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 41308
 item_type: Document

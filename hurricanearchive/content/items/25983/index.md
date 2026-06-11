@@ -3,7 +3,6 @@ aliases:
   - /items/show/25983
   - /items/show/25983.html
 collections: []
-contributors: []
 date: '2007-03-09 04:18:55'
 draft: false
 dublin_core:
@@ -18,7 +17,7 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: 'Hurricane Katrina East-Eye Wall strikes my hometown of Waveland, MS '
+      text: Hurricane Katrina East-Eye Wall strikes my hometown of Waveland, MS
 featured: false
 files: []
 geo:
@@ -31,7 +30,7 @@ plugin_metadata: []
 related_items: []
 slug: '25983'
 tags: []
-title: 'Hurricane Katrina East-Eye Wall strikes my hometown of Waveland, MS '
+title: Hurricane Katrina East-Eye Wall strikes my hometown of Waveland, MS
 type: items
 ---
 

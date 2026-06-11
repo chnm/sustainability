@@ -3,7 +3,6 @@ aliases:
   - /items/show/28969
   - /items/show/28969.html
 collections: []
-contributors: []
 date: '2007-06-21 10:34:42'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2007-06-20 00:00:00'
   Description:
     - html: false
-      text: "Kathleen Kraus listens to oral history interviews of neighborhood residents that are part of Jonathan Traviesa's \"Tulane/Gravier Gentlemen.\" "
+      text: Kathleen Kraus listens to oral history interviews of neighborhood residents that are part of Jonathan Traviesa's "Tulane/Gravier Gentlemen."
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: 2426 Bradish Place
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps v3.x
   zoom: 12
 id: 28969
 item_type: Still Image

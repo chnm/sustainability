@@ -4,13 +4,12 @@ aliases:
   - /items/show/3603.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'A doll collection and food scale must hold a particular significance for the owner.  Notice that the St. Augustine lawn is dead.      '
+      text: A doll collection and food scale must hold a particular significance for the owner.  Notice that the St. Augustine lawn is dead.
   Language:
     - html: false
       text: eng

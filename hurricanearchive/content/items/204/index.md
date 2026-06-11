@@ -3,7 +3,6 @@ aliases:
   - /items/show/204
   - /items/show/204.html
 collections: []
-contributors: []
 date: '2005-11-19 05:42:34'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-19 00:42:34'
   Description:
     - html: false
-      text: ' Picture taken while driving down 3rd St. in Kenner.'
+      text: Picture taken while driving down 3rd St. in Kenner.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.974565047101
   lng: -90.25354385375981
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 204
 item_type: Still Image

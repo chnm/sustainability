@@ -4,7 +4,6 @@ aliases:
   - /items/show/26481.html
 collections:
   - '143'
-contributors: []
 date: '2007-04-04 15:37:51'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: albany, ny
   lat: 42.6525
   lng: -73.75667
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26481
 item_type: Document

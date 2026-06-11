@@ -3,7 +3,6 @@ aliases:
   - /items/show/336
   - /items/show/336.html
 collections: []
-contributors: []
 date: '2005-12-08 18:53:17'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-08 13:53:17'
   Description:
     - html: false
-      text: ' Our Lady of Lourdes Catholic Church.\r\nSlidell, LA'
+      text: Our Lady of Lourdes Catholic Church.\r\nSlidell, LA
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.446993
   lng: -89.976592
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 336
 item_type: Still Image

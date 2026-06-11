@@ -4,7 +4,6 @@ aliases:
   - /items/show/852.html
 collections:
   - '10'
-contributors: []
 date: '2006-01-27 16:39:48'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2005-09-28 22:02:24'
   Description:
     - html: false
-      text: 'The Williams Family at Houma Civic Center â€“ Bryan, Sr., wife Beverly, granddaughter\nAsha Williams, grandson Adam Williams. '
+      text: The Williams Family at Houma Civic Center â€“ Bryan, Sr., wife Beverly, granddaughter\nAsha Williams, grandson Adam Williams.
   Language:
     - html: false
       text: eng
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 852
 item_type: Still Image

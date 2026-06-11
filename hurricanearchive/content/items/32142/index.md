@@ -3,13 +3,12 @@ aliases:
   - /items/show/32142
   - /items/show/32142.html
 collections: []
-contributors: []
 date: '2007-09-04 18:09:05'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'A boutique owner tries to stay in business by enticing customers into his shop with his creative sign. '
+      text: A boutique owner tries to stay in business by enticing customers into his shop with his creative sign.
   Language:
     - html: false
       text: eng

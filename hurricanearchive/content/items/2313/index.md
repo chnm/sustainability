@@ -3,7 +3,6 @@ aliases:
   - /items/show/2313
   - /items/show/2313.html
 collections: []
-contributors: []
 date: '2006-06-20 18:01:16'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-06-20 14:01:16'
   Description:
     - html: false
-      text: ' Hurricane debris still piled up at the 4-way stop in Sabine Pass, TX taken April 19, 2006.'
+      text: Hurricane debris still piled up at the 4-way stop in Sabine Pass, TX taken April 19, 2006.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.728011161944703
   lng: -93.8932800292969
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2313
 item_type: Still Image

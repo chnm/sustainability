@@ -3,7 +3,6 @@ aliases:
   - /items/show/295
   - /items/show/295.html
 collections: []
-contributors: []
 date: '2005-12-01 19:30:49'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-01 14:30:49'
   Description:
     - html: false
-      text: ' Picture of wind/rain during the peak of the storm titled \"Hell hath no fury\"'
+      text: Picture of wind/rain during the peak of the storm titled \"Hell hath no fury\"
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.6121352405895
   lng: -89.9218940734863
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 295
 item_type: Still Image

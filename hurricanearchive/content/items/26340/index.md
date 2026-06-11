@@ -4,7 +4,6 @@ aliases:
   - /items/show/26340.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-28 18:50:52'
 draft: false
 dublin_core:
@@ -16,13 +15,14 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: ' Rita Is Her Name'
+      text: Rita Is Her Name
 featured: false
 files: []
 geo:
   address: San Antonio, TX
   lat: 29.42389
   lng: -98.49333
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26340
 item_type: Document
@@ -34,7 +34,7 @@ related_items: []
 slug: '26340'
 tags:
   - poetry
-title: ' Rita Is Her Name'
+title: Rita Is Her Name
 type: items
 ---
 

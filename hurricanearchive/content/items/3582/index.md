@@ -4,13 +4,12 @@ aliases:
   - /items/show/3582.html
 collections:
   - '53'
-contributors: []
 date: '2006-08-24 16:01:55'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Water reached the attic and destroyed the ceiling.  The apartment is still very damp.   '
+      text: Water reached the attic and destroyed the ceiling.  The apartment is still very damp.
   Language:
     - html: false
       text: eng

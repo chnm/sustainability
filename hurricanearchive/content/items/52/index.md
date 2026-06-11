@@ -3,7 +3,6 @@ aliases:
   - /items/show/52
   - /items/show/52.html
 collections: []
-contributors: []
 date: '2005-11-16 21:45:26'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-16 16:45:26'
   Description:
     - html: false
-      text: ' A boat misplaced by Katrina(at the entrance of West End).'
+      text: A boat misplaced by Katrina(at the entrance of West End).
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.984643
   lng: -90.161821
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 52
 item_type: Still Image

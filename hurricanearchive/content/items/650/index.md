@@ -3,7 +3,6 @@ aliases:
   - /items/show/650
   - /items/show/650.html
 collections: []
-contributors: []
 date: '2006-01-21 06:06:05'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-21 01:06:05'
   Description:
     - html: false
-      text: ' Photo taken on 8-29-05 a couple of hours after Katrina and before the flood waters came - just outside of the Superdome'
+      text: Photo taken on 8-29-05 a couple of hours after Katrina and before the flood waters came - just outside of the Superdome
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.952926666596998
   lng: -90.08136749267581
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 650
 item_type: Still Image

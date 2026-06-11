@@ -3,7 +3,6 @@ aliases:
   - /items/show/40873
   - /items/show/40873.html
 collections: []
-contributors: []
 date: '2009-09-01 02:50:28'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 644 Wiegand Dr., Bridge City
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40873
 item_type: Document

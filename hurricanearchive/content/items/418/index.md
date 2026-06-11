@@ -3,7 +3,6 @@ aliases:
   - /items/show/418
   - /items/show/418.html
 collections: []
-contributors: []
 date: '2005-12-26 19:02:05'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 14:02:05'
   Description:
     - html: false
-      text: " The family car is demolished at my sister\\'s and brother-in-law\\'s house in Covington."
+      text: The family car is demolished at my sister\'s and brother-in-law\'s house in Covington.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.4534091302036
   lng: -90.07965087890621
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 418
 item_type: Still Image

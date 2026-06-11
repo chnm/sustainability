@@ -4,7 +4,6 @@ aliases:
   - /items/show/26273.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-27 14:17:45'
 draft: false
 dublin_core:
@@ -16,13 +15,14 @@ dublin_core:
       text: eng
   Title:
     - html: false
-      text: ' Katrina Hit'
+      text: Katrina Hit
 featured: false
 files: []
 geo:
   address: Nokomis, Illinois
   lat: 39.30111
   lng: -89.285
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26273
 item_type: Document
@@ -34,7 +34,7 @@ related_items: []
 slug: '26273'
 tags:
   - poetry
-title: ' Katrina Hit'
+title: Katrina Hit
 type: items
 ---
 

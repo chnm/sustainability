@@ -3,7 +3,6 @@ aliases:
   - /items/show/2330
   - /items/show/2330.html
 collections: []
-contributors: []
 date: '2006-07-20 16:28:41'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-20 12:28:41'
   Description:
     - html: false
-      text: ' Level Of the water in New Orleans'
+      text: Level Of the water in New Orleans
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.373467591889497
   lng: -90.2348327636719
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2330
 item_type: Still Image

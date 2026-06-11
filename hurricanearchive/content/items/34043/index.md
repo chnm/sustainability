@@ -3,7 +3,6 @@ aliases:
   - /items/show/34043
   - /items/show/34043.html
 collections: []
-contributors: []
 date: '2008-03-12 20:21:59'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 1544 poland avenue
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34043
 item_type: Document

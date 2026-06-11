@@ -3,7 +3,6 @@ aliases:
   - /items/show/42775
   - /items/show/42775.html
 collections: []
-contributors: []
 date: '2010-07-23 12:19:02'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: 222 Arlington Dr
   lat: 29.89825
   lng: -90.34272
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42775
 item_type: Document

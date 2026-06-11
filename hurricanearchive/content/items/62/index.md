@@ -3,7 +3,6 @@ aliases:
   - /items/show/62
   - /items/show/62.html
 collections: []
-contributors: []
 date: '2005-11-16 22:35:14'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-16 17:35:14'
   Description:
     - html: false
-      text: ' \"Refugees\" Swimming to the Dome'
+      text: \"Refugees\" Swimming to the Dome
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.958304
   lng: -90.077
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 62
 item_type: Still Image

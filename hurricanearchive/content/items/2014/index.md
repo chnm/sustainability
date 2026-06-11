@@ -3,7 +3,6 @@ aliases:
   - /items/show/2014
   - /items/show/2014.html
 collections: []
-contributors: []
 date: '2006-03-11 20:14:47'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-11 15:14:47'
   Description:
     - html: false
-      text: ' Catholic Church at Lake Catherine, LA.  St. Nicholas of Myra located on US Hwy 90'
+      text: Catholic Church at Lake Catherine, LA.  St. Nicholas of Myra located on US Hwy 90
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.1415644334843
   lng: -89.75006103515621
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2014
 item_type: Still Image

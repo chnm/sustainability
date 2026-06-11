@@ -4,7 +4,6 @@ aliases:
   - /items/show/33390.html
 collections:
   - '185'
-contributors: []
 date: '2008-01-21 19:58:35'
 draft: false
 dublin_core:
@@ -20,9 +19,10 @@ dublin_core:
 featured: false
 files: []
 geo:
-  address: '237 Debbie Drive Slidell, La. '
+  address: 237 Debbie Drive Slidell, La.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 33390
 item_type: Document

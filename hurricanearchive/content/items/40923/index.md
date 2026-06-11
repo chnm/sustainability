@@ -3,7 +3,6 @@ aliases:
   - /items/show/40923
   - /items/show/40923.html
 collections: []
-contributors: []
 date: '2009-09-03 02:12:17'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 3138 Hudson Place
   lat: 29.92134
   lng: -90.00026
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40923
 item_type: Document

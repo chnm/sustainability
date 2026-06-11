@@ -3,7 +3,6 @@ aliases:
   - /items/show/42081
   - /items/show/42081.html
 collections: []
-contributors: []
 date: '2010-02-16 05:39:53'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2010-02-16 00:39:53'
   Description:
     - html: false
-      text: 'A pass by my childhood home shows the devastation of about 10 to 11 feet of water.  '
+      text: A pass by my childhood home shows the devastation of about 10 to 11 feet of water.
   Language:
     - html: false
       text: eng
@@ -28,6 +27,7 @@ geo:
   address: ''
   lat: 30.01853
   lng: -90.06774
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42081
 item_type: Still Image

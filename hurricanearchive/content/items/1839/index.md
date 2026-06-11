@@ -3,7 +3,6 @@ aliases:
   - /items/show/1839
   - /items/show/1839.html
 collections: []
-contributors: []
 date: '2006-02-12 23:01:46'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-12 18:01:46'
   Description:
     - html: false
-      text: ' This picture shows what was left of the Dairy Queen on Route 105 in Beaumont, TX. We were driving back home to Beaumont from Denton, TX.'
+      text: This picture shows what was left of the Dairy Queen on Route 105 in Beaumont, TX. We were driving back home to Beaumont from Denton, TX.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.115295
   lng: -94.157916
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1839
 item_type: Still Image

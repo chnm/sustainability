@@ -4,7 +4,6 @@ aliases:
   - /items/show/26963.html
 collections:
   - '80'
-contributors: []
 date: '2007-04-20 02:41:12'
 draft: false
 dublin_core:
@@ -13,7 +12,7 @@ dublin_core:
       text: '2007-04-19 00:00:00'
   Description:
     - html: false
-      text: 'Charcoal portraits of Common Ground volunteer from Cleveland, Ohio. Gave up sprink break along with friends Dan and Jon. Describes \"lack of ease\" in role as viewer of Lower Ninth Ward devestation. Ponders his motives for \"spending spring break in a federal disaster area.\" Father works for FEMA. '
+      text: Charcoal portraits of Common Ground volunteer from Cleveland, Ohio. Gave up sprink break along with friends Dan and Jon. Describes \"lack of ease\" in role as viewer of Lower Ninth Ward devestation. Ponders his motives for \"spending spring break in a federal disaster area.\" Father works for FEMA.
   Language:
     - html: false
       text: eng

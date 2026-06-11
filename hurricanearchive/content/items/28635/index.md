@@ -3,13 +3,14 @@ aliases:
   - /items/show/28635
   - /items/show/28635.html
 collections: []
-contributors: []
 date: '2007-06-13 17:40:46'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: "\"View Vie\"\r\nLower 9th Ward, New Orleans, LA"
+      text: |-
+        "View Vie"
+        Lower 9th Ward, New Orleans, LA
   Rights:
     - html: false
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)

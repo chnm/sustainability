@@ -3,7 +3,6 @@ aliases:
   - /items/show/42143
   - /items/show/42143.html
 collections: []
-contributors: []
 date: '2010-02-22 17:58:35'
 draft: false
 dublin_core:
@@ -28,6 +27,7 @@ geo:
   address: Lynnette Dr
   lat: 29.98656
   lng: -90.223
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42143
 item_type: Still Image

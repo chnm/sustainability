@@ -3,7 +3,6 @@ aliases:
   - /items/show/1823
   - /items/show/1823.html
 collections: []
-contributors: []
 date: '2006-02-09 04:35:36'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-08 23:35:36'
   Description:
     - html: false
-      text: " My house on Southshore sustained only minmal damage from Katrina\\'s wind and no damage from flooding.  I was very very lucky to get away with such little damage. My neighbors closer to West Esplanade did sustain flooding due to Aaron Broussard\\'s decision to evacuate the pump operators."
+      text: My house on Southshore sustained only minmal damage from Katrina\'s wind and no damage from flooding.  I was very very lucky to get away with such little damage. My neighbors closer to West Esplanade did sustain flooding due to Aaron Broussard\'s decision to evacuate the pump operators.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.018886698060697
   lng: -90.170202255249
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1823
 item_type: Still Image

@@ -4,7 +4,6 @@ aliases:
   - /items/show/26266.html
 collections:
   - '143'
-contributors: []
 date: '2007-03-27 14:02:16'
 draft: false
 dublin_core:
@@ -23,6 +22,7 @@ geo:
   address: Boulder, Colorado
   lat: 40.015
   lng: -105.27
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 26266
 item_type: Document

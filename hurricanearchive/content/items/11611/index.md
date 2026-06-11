@@ -3,7 +3,6 @@ aliases:
   - /items/show/11611
   - /items/show/11611.html
 collections: []
-contributors: []
 date: '2006-10-04 07:05:32'
 draft: false
 dublin_core:
@@ -19,9 +18,10 @@ dublin_core:
 featured: false
 files: []
 geo:
-  address: ' 832 Royal St'
+  address: 832 Royal St
   lat: 29.95934
   lng: -90.06359
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 11611
 item_type: Document

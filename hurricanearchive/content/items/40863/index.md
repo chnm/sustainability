@@ -3,7 +3,6 @@ aliases:
   - /items/show/40863
   - /items/show/40863.html
 collections: []
-contributors: []
 date: '2009-08-31 21:09:15'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 328 almond creek
   lat: 30.26104
   lng: -89.74649
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 40863
 item_type: Document

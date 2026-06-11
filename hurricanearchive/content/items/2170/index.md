@@ -3,7 +3,6 @@ aliases:
   - /items/show/2170
   - /items/show/2170.html
 collections: []
-contributors: []
 date: '2006-04-22 13:46:37'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-22 09:46:37'
   Description:
     - html: false
-      text: ' All the church groups from around Citronelle were life savers, we had a different church group in the kitchen preparring meals for a three week period. We served over 8000 meals at the Methodist church shelter in Citronelle, Alabama.'
+      text: All the church groups from around Citronelle were life savers, we had a different church group in the kitchen preparring meals for a three week period. We served over 8000 meals at the Methodist church shelter in Citronelle, Alabama.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 31.109388560815002
   lng: -88.2339477539062
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2170
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/39535
   - /items/show/39535.html
 collections: []
-contributors: []
 date: '2009-02-28 18:01:22'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 4630 Orleans Avenue
   lat: 29.98332
   lng: -90.10176
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 39535
 item_type: Still Image

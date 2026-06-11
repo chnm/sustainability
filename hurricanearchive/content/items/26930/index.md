@@ -4,13 +4,12 @@ aliases:
   - /items/show/26930.html
 collections:
   - '103'
-contributors: []
 date: '2007-04-18 18:24:14'
 draft: false
 dublin_core:
   Description:
     - html: false
-      text: 'Interview with Dr. Leslie Sharpe from Murphreesboro, TN who accompanied students of Middle Tennessee State University on an alternative spring break trip to help with the Gulf Coast recovery. '
+      text: Interview with Dr. Leslie Sharpe from Murphreesboro, TN who accompanied students of Middle Tennessee State University on an alternative spring break trip to help with the Gulf Coast recovery.
   Language:
     - html: false
       text: eng

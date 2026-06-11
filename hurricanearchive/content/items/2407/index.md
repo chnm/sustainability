@@ -4,7 +4,6 @@ aliases:
   - /items/show/2407.html
 collections:
   - '16'
-contributors: []
 date: '2006-08-17 17:10:59'
 draft: false
 dublin_core:
@@ -13,13 +12,13 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: 'GULFPORT, Miss. (Sept, 6, 2005) Coast Guard Station Gulfport Mississippi destroyed by Hurricane Katrina. USCG photo by Lt.j.g Earl Lingerfelt. \r\n050906-C-4567L-002 '
+      text: GULFPORT, Miss. (Sept, 6, 2005) Coast Guard Station Gulfport Mississippi destroyed by Hurricane Katrina. USCG photo by Lt.j.g Earl Lingerfelt. \r\n050906-C-4567L-002
   Language:
     - html: false
       text: eng
   Publisher:
     - html: false
-      text: 'US COAST GUARD '
+      text: US COAST GUARD
   Title:
     - html: false
       text: Gulfport\'s Coastal Damage Included USCG Station

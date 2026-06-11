@@ -3,7 +3,6 @@ aliases:
   - /items/show/45946
   - /items/show/45946.html
 collections: []
-contributors: []
 date: '2013-02-01 02:53:40'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 4862 Treves st
   lat: 30.039201
   lng: -89.91396800000001
+  map_type: Google Maps v3.x
   zoom: 13
 id: 45946
 item_type: Still Image

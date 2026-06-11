@@ -3,7 +3,6 @@ aliases:
   - /items/show/39898
   - /items/show/39898.html
 collections: []
-contributors: []
 date: '2009-03-24 19:50:27'
 draft: false
 dublin_core:
@@ -19,6 +18,7 @@ geo:
   address: 930 oley
   lat: 40.34563
   lng: -75.91861
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 39898
 item_type: Document

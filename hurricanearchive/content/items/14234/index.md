@@ -3,7 +3,6 @@ aliases:
   - /items/show/14234
   - /items/show/14234.html
 collections: []
-contributors: []
 date: '2006-12-14 03:08:16'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 1247 Esplanade Avenue
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 14234
 item_type: Document

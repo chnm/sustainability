@@ -3,7 +3,6 @@ aliases:
   - /items/show/87
   - /items/show/87.html
 collections: []
-contributors: []
 date: '2005-11-17 07:17:21'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 02:17:21'
   Description:
     - html: false
-      text: ' Hyatt window damage 2 and 1/2 months post Katrina.  New Orleans.'
+      text: Hyatt window damage 2 and 1/2 months post Katrina.  New Orleans.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 87
 item_type: Still Image

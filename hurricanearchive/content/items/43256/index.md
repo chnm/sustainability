@@ -3,7 +3,6 @@ aliases:
   - /items/show/43256
   - /items/show/43256.html
 collections: []
-contributors: []
 date: '2010-09-08 05:37:27'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: Chamberlain Dr, New Orleans, LA
   lat: 30.01334
   lng: -90.07379
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 43256
 item_type: Document

@@ -3,7 +3,6 @@ aliases:
   - /items/show/466
   - /items/show/466.html
 collections: []
-contributors: []
 date: '2005-12-27 20:12:55'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-27 15:12:55'
   Description:
     - html: false
-      text: ' A torn, battered flag remains a silhouette against the sky at the Pass Christian Yacht Club.'
+      text: A torn, battered flag remains a silhouette against the sky at the Pass Christian Yacht Club.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.3989375576187
   lng: -89.3545532226562
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 466
 item_type: Still Image

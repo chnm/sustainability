@@ -4,7 +4,6 @@ aliases:
   - /items/show/2396.html
 collections:
   - '16'
-contributors: []
 date: '2006-08-17 17:10:55'
 draft: false
 dublin_core:
@@ -13,13 +12,13 @@ dublin_core:
       text: '0000-00-00 00:00:00'
   Description:
     - html: false
-      text: 'NEW ORLEANS (Aug. 30, 2005) - Survivors, pulled from their apartment building by a Coast Guard rescue swimmer, sit on the floor of an HH-65 Jayhawk rescue helicopter here today. In all, the Coast Guard rescued 11 survivors from the apartment building. Coast Guard rescue crews have been working to rescue individuals trapped in their homes in the wake of Hurricane Katrina. U.S. Coast Guard photograph by Petty Officer 2nd Class NyxoLyno Cangemi \r\n050830-C-3721C-143 (FR) '
+      text: NEW ORLEANS (Aug. 30, 2005) - Survivors, pulled from their apartment building by a Coast Guard rescue swimmer, sit on the floor of an HH-65 Jayhawk rescue helicopter here today. In all, the Coast Guard rescued 11 survivors from the apartment building. Coast Guard rescue crews have been working to rescue individuals trapped in their homes in the wake of Hurricane Katrina. U.S. Coast Guard photograph by Petty Officer 2nd Class NyxoLyno Cangemi \r\n050830-C-3721C-143 (FR)
   Language:
     - html: false
       text: eng
   Publisher:
     - html: false
-      text: 'US COAST GUARD '
+      text: US COAST GUARD
   Title:
     - html: false
       text: Katrina Survivors in USCG Helicopter

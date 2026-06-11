@@ -3,7 +3,6 @@ aliases:
   - /items/show/335
   - /items/show/335.html
 collections: []
-contributors: []
 date: '2005-12-07 07:06:24'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-07 02:06:24'
   Description:
     - html: false
-      text: " Carr Drive in Slidell, La several months after Katrina.  Very near Lake Ponchertrain.  It\\'s a small example of how long it will take before there is any normalcy in the place."
+      text: Carr Drive in Slidell, La several months after Katrina.  Very near Lake Ponchertrain.  It\'s a small example of how long it will take before there is any normalcy in the place.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 335
 item_type: Still Image

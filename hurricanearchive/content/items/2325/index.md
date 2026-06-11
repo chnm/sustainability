@@ -3,7 +3,6 @@ aliases:
   - /items/show/2325
   - /items/show/2325.html
 collections: []
-contributors: []
 date: '2006-07-16 19:22:41'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-07-16 15:22:41'
   Description:
     - html: false
-      text: ' This is my home after hurricane Rita hit. It was in Forked Island, which is in Vermilion Parish. The Jesus statue in front is made of clay. When we first came back just his head was sticking out of the water. He is still standing in that same place today, we have not touched him. Our home is gone but Jesus is still present here.'
+      text: This is my home after hurricane Rita hit. It was in Forked Island, which is in Vermilion Parish. The Jesus statue in front is made of clay. When we first came back just his head was sticking out of the water. He is still standing in that same place today, we have not touched him. Our home is gone but Jesus is still present here.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.946603
   lng: -92.241595
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2325
 item_type: Still Image

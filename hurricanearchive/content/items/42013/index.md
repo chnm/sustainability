@@ -3,7 +3,6 @@ aliases:
   - /items/show/42013
   - /items/show/42013.html
 collections: []
-contributors: []
 date: '2010-02-16 05:37:59'
 draft: false
 dublin_core:
@@ -22,6 +21,7 @@ geo:
   address: 24318 Norchester Way
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 42013
 item_type: Document

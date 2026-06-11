@@ -3,7 +3,6 @@ aliases:
   - /items/show/77
   - /items/show/77.html
 collections: []
-contributors: []
 date: '2005-11-17 06:32:03'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-11-17 01:32:03'
   Description:
     - html: false
-      text: ' Entire New Orleans city block burned to the ground.  Notre Dame Seminary on Carrollton Ave. in the background.'
+      text: Entire New Orleans city block burned to the ground.  Notre Dame Seminary on Carrollton Ave. in the background.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.005653
   lng: -90.20733
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 77
 item_type: Still Image

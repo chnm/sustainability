@@ -3,7 +3,6 @@ aliases:
   - /items/show/1831
   - /items/show/1831.html
 collections: []
-contributors: []
 date: '2006-02-09 23:18:24'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-09 18:18:24'
   Description:
     - html: false
-      text: ' This photo was taken two weeks after katrina at the intersection of  Iona & geranium street looking towrds North Line. The flat boat was used by private security details to get to and from dry land. these private security details were generallt heavily armed ex-military types. they were hired by teh very wealthy who live in this area.'
+      text: This photo was taken two weeks after katrina at the intersection of  Iona & geranium street looking towrds North Line. The flat boat was used by private security details to get to and from dry land. these private security details were generallt heavily armed ex-military types. they were hired by teh very wealthy who live in this area.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.9795835858572
   lng: -90.13162136077881
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1831
 item_type: Still Image

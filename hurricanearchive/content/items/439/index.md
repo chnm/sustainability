@@ -3,7 +3,6 @@ aliases:
   - /items/show/439
   - /items/show/439.html
 collections: []
-contributors: []
 date: '2005-12-26 20:39:01'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2005-12-26 15:39:01'
   Description:
     - html: false
-      text: ' Promises of a future seem to be gone.'
+      text: Promises of a future seem to be gone.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 29.916852233070202
   lng: -89.95605468750001
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 439
 item_type: Still Image

@@ -3,7 +3,6 @@ aliases:
   - /items/show/644
   - /items/show/644.html
 collections: []
-contributors: []
 date: '2006-01-20 04:33:29'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-01-19 23:33:29'
   Description:
     - html: false
-      text: ' '
+      text: ''
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 644
 item_type: Still Image

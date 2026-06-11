@@ -3,7 +3,6 @@ aliases:
   - /items/show/2316
   - /items/show/2316.html
 collections: []
-contributors: []
 date: '2006-06-28 01:51:14'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-06-27 21:51:14'
   Description:
     - html: false
-      text: " This is the Chateau DiJon Apartments in Metairie on W. Esplanade N.  This complex had been hit by a tornado 2 months earlier during tropical storm Cindy and  it hadn\\'t even been repaired from that yet!  I stayed through that storm and it scared me to death. Who would have known almost 2 months later mother nature would try to finish the job?  I evacuated to Lafayette, Lousiana and  was hit by the  95 mile an hour fallout from  Rita next !!!   I am now back in the windy city (Chicago) where the only big wind is the politicians.   Though I will miss  the  varied colorful public figures of New Orleans and Jefferson Parrishes ( don\\'t worry I don\\'t mean  you Harry Lee, NOT )\\r\\n\\r\\nLiving in  Lousiana was some of the most exciting and devasting times of my life and I wouldn\\'t give up the experience I had for anything!  Though being homeless, jobless, friendless almost  and  in a daze for 6 months surely does bite the big one, GOD (are you listening?)"
+      text: This is the Chateau DiJon Apartments in Metairie on W. Esplanade N.  This complex had been hit by a tornado 2 months earlier during tropical storm Cindy and  it hadn\'t even been repaired from that yet!  I stayed through that storm and it scared me to death. Who would have known almost 2 months later mother nature would try to finish the job?  I evacuated to Lafayette, Lousiana and  was hit by the  95 mile an hour fallout from  Rita next !!!   I am now back in the windy city (Chicago) where the only big wind is the politicians.   Though I will miss  the  varied colorful public figures of New Orleans and Jefferson Parrishes ( don\'t worry I don\'t mean  you Harry Lee, NOT )\r\n\r\nLiving in  Lousiana was some of the most exciting and devasting times of my life and I wouldn\'t give up the experience I had for anything!  Though being homeless, jobless, friendless almost  and  in a daze for 6 months surely does bite the big one, GOD (are you listening?)
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.016378453880897
   lng: -90.1566410064697
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2316
 item_type: Still Image

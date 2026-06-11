@@ -3,7 +3,6 @@ aliases:
   - /items/show/11475
   - /items/show/11475.html
 collections: []
-contributors: []
 date: '2006-09-24 16:36:26'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: Griffin's Gallery, 325 Level Road
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 11475
 item_type: Still Image

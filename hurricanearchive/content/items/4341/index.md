@@ -3,7 +3,6 @@ aliases:
   - /items/show/4341
   - /items/show/4341.html
 collections: []
-contributors: []
 date: '2006-08-29 22:13:39'
 draft: false
 dublin_core:
@@ -31,6 +30,7 @@ geo:
   address: Hwy 35 and hwy 82
   lat: 29.83707
   lng: -92.30301
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 4341
 item_type: Still Image

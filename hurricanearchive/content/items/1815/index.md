@@ -3,7 +3,6 @@ aliases:
   - /items/show/1815
   - /items/show/1815.html
 collections: []
-contributors: []
 date: '2006-02-06 21:48:52'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-02-06 16:48:52'
   Description:
     - html: false
-      text: ' Pass Christian area -Mississippi - house on tracks. October 2005'
+      text: Pass Christian area -Mississippi - house on tracks. October 2005
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.401306519203597
   lng: -89.17053222656249
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1815
 item_type: Still Image

@@ -4,7 +4,6 @@ aliases:
   - /items/show/34339.html
 collections:
   - '195'
-contributors: []
 date: '2008-04-09 14:28:52'
 draft: false
 dublin_core:
@@ -19,7 +18,7 @@ dublin_core:
       text: Attribution-NonCommercial License (http://creativecommons.org/licenses/by-nc/2.0/)
   Title:
     - html: false
-      text: 'DEBBIE DRIVE '
+      text: DEBBIE DRIVE
 featured: false
 files:
   - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca4a3d4414fb29ca4a4135.jpg
@@ -32,6 +31,7 @@ geo:
   address: ''
   lat: 30.22437
   lng: -89.83333
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 34339
 item_type: Still Image
@@ -48,7 +48,7 @@ tags:
   - lizashehavrilla
   - northshore
   - northshore beach
-title: 'DEBBIE DRIVE '
+title: DEBBIE DRIVE
 type: items
 ---
 

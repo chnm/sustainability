@@ -3,7 +3,6 @@ aliases:
   - /items/show/38327
   - /items/show/38327.html
 collections: []
-contributors: []
 date: '2008-12-13 15:47:28'
 draft: false
 dublin_core:
@@ -25,6 +24,7 @@ geo:
   address: 3100 Mansfield St.
   lat: 0.0
   lng: 0.0
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 38327
 item_type: Document

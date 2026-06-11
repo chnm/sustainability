@@ -3,7 +3,6 @@ aliases:
   - /items/show/2147
   - /items/show/2147.html
 collections: []
-contributors: []
 date: '2006-04-14 01:34:19'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-04-13 21:34:19'
   Description:
     - html: false
-      text: " After busting out the windows in our upstairs bathroom, the force of the wind slammed the door shut.  With the door shut Rita\\'s winds were free to destroy the bathroom!"
+      text: After busting out the windows in our upstairs bathroom, the force of the wind slammed the door shut.  With the door shut Rita\'s winds were free to destroy the bathroom!
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.135425
   lng: -93.860282
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 2147
 item_type: Still Image

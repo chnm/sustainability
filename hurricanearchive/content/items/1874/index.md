@@ -3,7 +3,6 @@ aliases:
   - /items/show/1874
   - /items/show/1874.html
 collections: []
-contributors: []
 date: '2006-03-02 21:30:32'
 draft: false
 dublin_core:
@@ -12,7 +11,7 @@ dublin_core:
       text: '2006-03-02 16:30:32'
   Description:
     - html: false
-      text: " This is a picture of the Old Brick House on Bay View Ave. in Biloxi, MS.  I don\\'t recall what day it was taken on but it was in the second or third week after the storm."
+      text: This is a picture of the Old Brick House on Bay View Ave. in Biloxi, MS.  I don\'t recall what day it was taken on but it was in the second or third week after the storm.
   Language:
     - html: false
       text: eng
@@ -31,6 +30,7 @@ geo:
   address: ''
   lat: 30.429100508441405
   lng: -88.9572429656982
+  map_type: Google Maps API Version 2
   zoom: 12
 id: 1874
 item_type: Still Image

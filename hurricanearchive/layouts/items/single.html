@@ -55,6 +55,14 @@
     </dl>
   {{ end }}
 
+  {{ with .Params.geo }}
+    <h2>Location</h2>
+    <dl class="item-geo">
+      {{ with .address }}<dt>Address</dt><dd>{{ . }}</dd>{{ end }}
+      <dt>Coordinates</dt><dd>{{ .lat }}, {{ .lng }}</dd>
+    </dl>
+  {{ end }}
+
   {{ with .Params.collections }}
     <p>
       <strong>Collection:</strong>

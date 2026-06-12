@@ -1,0 +1,20 @@
+{{- /* Renders one browse card matching the original Omeka "hurricane" theme:
+       image items -> div.item-img with square thumbnail; others -> div.browse-item-description. */ -}}
+{{- $img := false -}}
+{{- range .Params.files -}}{{- if and (not $img) .mime (hasPrefix .mime "image/") -}}{{- $img = . -}}{{- end -}}{{- end -}}
+<div class="item hentry">
+	<div class="item-meta">
+		{{- if $img }}
+		<div class="item-img">
+			{{- $sq := replace (or $img.thumb $img.fullsize $img.url) "/thumbnails/" "/square_thumbnails/" }}
+			<a href="{{ .RelPermalink }}"><img src="{{ $sq }}" alt="{{ $img.original_filename }}" title="{{ $img.original_filename }}"></a>
+			<p><a href="{{ .RelPermalink }}">{{ .Title | truncate 20 "…" }}</a></p>
+		</div>
+		{{- else }}
+		<div class="browse-item-description">
+			<h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+		</div>
+		<p><a href="{{ .RelPermalink }}">{{ .Title | truncate 20 "…" }}</a></p>
+		{{- end }}
+	</div><!-- end class="item-meta" -->
+</div><!-- end class="item hentry" -->

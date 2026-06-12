@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ $paginator := .Paginate .Pages }}
+<div id="items-heading">
+	<div class="heading">  <h2> Items tagged &#8220;{{ .Title }}&#8221; ({{ len .Pages }} total) </h2>
+		<ul class="navigation">
+			<li class="nav-all-items"><a href="{{ "items/" | relURL }}">All Items</a></li>
+			<li class="nav-tags current"><a href="{{ "tags/" | relURL }}">Tags</a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="items-primary">
+	{{ range $paginator.Pages }}
+		{{ partial "item-card.html" . }}
+	{{ end }}
+</div>
+{{ partial "pager.html" $paginator }}
+{{ end }}

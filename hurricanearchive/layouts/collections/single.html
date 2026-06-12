@@ -1,19 +1,35 @@
 {{ define "main" }}
-<article class="collection">
-  <h1>{{ .Title }}</h1>
-  {{ partial "original-source.html" . }}
-  <div class="page-body">{{ .Content }}</div>
+{{- $term := index site.Taxonomies.collections .Params.slug -}}
+{{- $items := false -}}{{- with $term }}{{ $items = .Pages }}{{ end -}}
+<div id="heading">
+	<div class="heading">  <h2>  </h2>
+	</div>
+</div>
+<div id="primary">
+	<div class="collection">
+		<div class="collection-show">
+			<div class="element">
+				<h3>Description</h3>
+				<div class="element-text">{{ .Content }}</div>
+			</div>
+			<div class="collection-link">
+				<p><a href="#collection-items">View this collection{{ with $items }} ({{ len . }} items){{ end }}</a></p>
+			</div>
+			{{ partial "original-source.html" . }}
+		</div><!-- end class="collection" -->
+	</div>
 
-  {{ $term := index site.Taxonomies.collections .Params.slug }}
-  {{ with $term }}
-    <h2>Items in this collection ({{ len .Pages }})</h2>
-    <ul class="item-list">
-      {{ range .Pages.ByTitle }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-      {{ end }}
-    </ul>
-  {{ else }}
-    <p class="item-list-empty">No items in this collection.</p>
-  {{ end }}
-</article>
+	{{ with $items }}
+		{{ $paginator := $.Paginate . }}
+		<br><hr><br>
+		<div id="collection-items">
+			<div id="items-primary">
+				{{ range $paginator.Pages }}
+					{{ partial "item-card.html" . }}
+				{{ end }}
+			</div>
+			{{ partial "pager.html" $paginator }}
+		</div>
+	{{ end }}
+</div><!-- end primary -->
 {{ end }}

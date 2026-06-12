@@ -1,11 +1,30 @@
-<header class="site-header">
-  <a class="site-title" href="{{ "" | relURL }}">{{ site.Title }}</a>
-  <nav class="site-nav">
-    <a href="{{ "items/" | relURL }}">Items</a>
-    <a href="{{ "collections/" | relURL }}">Collections</a>
-    {{ with site.Taxonomies.tags }}{{ if . }}<a href="{{ "tags/" | relURL }}">Tags</a>{{ end }}{{ end }}
-    {{ with site.GetPage "/map" }}<a href="{{ "map/" | relURL }}">Map</a>{{ end }}
-    {{ range site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>
-    {{ end }}
-  </nav>
-</header>
+{{- $url := .RelPermalink -}}
+{{- $isItems := or (eq .Section "items") (hasPrefix $url "/items") -}}
+{{- $isColls := hasPrefix $url "/collections" -}}
+{{- $isAbout := hasPrefix $url "/about" -}}
+{{- $isContrib := hasPrefix $url "/contributionphase" -}}
+<div id="header">
+	<div class="hdmb-subtitle"><h1>-</h1></div>
+	<div class="hdmb-logo"><a href="{{ "" | relURL }}">Hurricane Archive</a></div>
+	<div class="blurb">
+		<div class="blurb-wrap">
+		<h1>Collecting and Preserving the Stories of Katrina and Rita</h1>
+		<div class="search-clear"></div>
+		<div class="search">
+			<form id="search-form" action="{{ "search/" | relURL }}" method="get">
+				<input type="text" name="q" title="Search">
+				<button id="submit_search" type="submit">Search</button>
+			</form>
+			<p><a href="{{ "search/" | relURL }}">Advanced Search</a></p>
+		</div>
+		<p>The <a href="http://chnm.gmu.edu" rel="external">Roy Rosenzweig Center for History and New Media (<abbr title="Roy Rosenzweig Center for History and New Media">CHNM</abbr>)</a> at George Mason University and the <a href="http://www.uno.edu" rel="external">University of New Orleans</a> organized the Hurricane Digital Memory Bank (<abbr title="Hurricane Digital Memory Bank">HDMB</abbr>) in 2005 in partnership with many national and Gulf Coast area organizations and individuals. HDMB was awarded the Award of Merit for Leadership in History, and is the largest free public archive of Katrina and Rita with over 25,000 items in the collection. <a href="{{ "about/" | relURL }}">Read More.</a></p>
+		</div>
+	</div>
+	<ul id="mainnav">
+		<li class="nav-home{{ if .IsHome }} current{{ end }}"><a href="{{ "" | relURL }}">Home</a></li>
+		<li class="nav-about-this-project{{ if $isAbout }} current{{ end }}"><a href="{{ "about/" | relURL }}">About this Project</a></li>
+		<li class="nav-items{{ if $isItems }} current{{ end }}"><a href="{{ "items/" | relURL }}">Items</a></li>
+		<li class="nav-collections{{ if $isColls }} current{{ end }}"><a href="{{ "collections/" | relURL }}">Collections</a></li>
+		<li class="nav-add-to-memory-bank{{ if $isContrib }} current{{ end }}"><a href="{{ "contributionphase/" | relURL }}">Add to Memory Bank</a></li>
+	</ul>
+</div>

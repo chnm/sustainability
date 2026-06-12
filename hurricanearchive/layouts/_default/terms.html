@@ -1,14 +1,40 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ $count := len .Data.Terms }}
-<p class="terms-summary">{{ $count }} {{ .Data.Singular }}{{ if ne $count 1 }}s{{ end }}</p>
-
-<ul class="terms-cloud">
-  {{ range .Data.Terms.Alphabetical }}
-    <li>
-      <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
-      <span class="terms-count">{{ .Count }}</span>
-    </li>
-  {{ end }}
-</ul>
+{{ if eq .Data.Plural "collections" }}
+	{{/* Collections browse — every collection record (incl. empty ones), newest id first. */}}
+	<div id="heading">
+		<div class="heading">  <h2> Collections </h2>
+		</div>
+	</div>
+	<div id="collections">
+		{{/* Only real, file-backed collection records — not term pages auto-created
+		     from collection ids that items reference but that have no content page. */}}
+		{{ range sort (where (where site.Pages "Type" "collections") "File" "!=" nil) "Params.id" "desc" }}
+			<div class="collection">
+				<div class="collection-meta">
+					<h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+					<div class="element">
+						<div class="element-text"><p>{{ .Plain | truncate 150 "…" }}</p></div>
+					</div>
+				</div>
+				<div class="collection-items"></div>
+			</div><!-- end class="collection" -->
+		{{ end }}
+	</div>
+{{ else }}
+	{{/* Tag cloud — popularity buckets matching the legacy .v-popular … .vvvvvvvvv-popular sizes. */}}
+	<div id="heading">
+		<div class="heading">  <h2> Browse Items by Tag </h2>
+		</div>
+	</div>
+	{{ $max := 1 }}
+	{{ range .Data.Terms }}{{ if gt .Count $max }}{{ $max = .Count }}{{ end }}{{ end }}
+	{{ $cls := slice "" "v-popular" "vv-popular" "vvv-popular" "vvvv-popular" "vvvvv-popular" "vvvvvv-popular" "vvvvvvv-popular" "vvvvvvvv-popular" "vvvvvvvvv-popular" }}
+	<ul class="popularity">
+		{{ range .Data.Terms.Alphabetical }}
+			{{ $lvl := int (math.Floor (mul (div (float .Count) $max) 9)) }}
+			{{ if gt $lvl 9 }}{{ $lvl = 9 }}{{ end }}
+			<li class="{{ index $cls $lvl }}"><a href="{{ .Page.RelPermalink }}" rel="tag">{{ .Page.Title }}</a></li>
+		{{ end }}
+	</ul>
+{{ end }}
 {{ end }}

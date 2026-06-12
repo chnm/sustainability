@@ -1,5 +1,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} &middot; {{ site.Title }}{{ end }}</title>
-{{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ site.Title }} | {{ .Title }}{{ end }}</title>
+{{ with .Description }}<meta name="description" content="{{ . }}">{{ else }}<meta name="description" content=" ">{{ end }}
+
+{{/* Original Omeka "hurricane" theme stylesheet, vendored verbatim (sha256 4d0c54b2…).
+     Served from the same path the theme used so its ../images/* url() refs resolve. */}}
+<link rel="stylesheet" href="{{ "themes/hurricane/css/style.css" | relURL }}" media="all" type="text/css">
 {{ with resources.Get "css/site.css" }}<link rel="stylesheet" href="{{ .RelPermalink }}">{{ end }}
+
+{{/* Leaflet only on pages that render a map (item geolocation + the map browse page). */}}
+{{ $needsMap := false }}
+{{ if eq .Type "map" }}{{ $needsMap = true }}{{ end }}
+{{ with .Params.geo }}{{ if or (ne (float .lat) 0.0) (ne (float .lng) 0.0) }}{{ $needsMap = true }}{{ end }}{{ end }}
+{{ if $needsMap }}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+{{ end }}

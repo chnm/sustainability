@@ -1,0 +1,56 @@
+{{ define "main" }}
+{{- $featured := where (where site.RegularPages "Type" "items") "Params.featured" true -}}
+{{- $featImg := false -}}
+{{- range (where $featured "Params.item_type" "Still Image") -}}
+  {{- if and (not $featImg) (gt (len .Params.files) 0) -}}{{- $featImg = . -}}{{- end -}}
+{{- end -}}
+{{- $stories := first 2 (where $featured "Params.item_type" "Document") -}}
+
+	<div id="home" class="primary">
+		<h2>Featured Image</h2>
+		<div id="featured-item">
+			{{ with $featImg }}
+				{{ $f := index .Params.files 0 }}
+				<a href="{{ .RelPermalink }}"><img src="{{ or $f.fullsize $f.url }}" alt="{{ $f.original_filename }}" title="{{ $f.original_filename }}"></a>
+				<h4>{{ .Title }}</h4>
+			{{ end }}
+		</div>
+		<div id="explanation">
+			<p>We welcome contributions from survivors, first responders, relief workers, family, friends, and anyone with reflections on the hurricanes and their aftermath</p>
+			<a href="{{ "contributionphase/" | relURL }}">Add to the Archive</a>
+		</div>
+	</div>
+
+	<div id="home" class="secondary">
+		<h2>Featured Stories</h2>
+		{{ range $stories }}
+			{{ $desc := "" }}
+			{{ with .Params.dublin_core.Description }}{{ $desc = (index . 0).text }}{{ end }}
+			{{ $desc = $desc | plainify | replaceRE `\\[rnt]` " " | replaceRE `\s+` " " }}
+			<div class="story">
+				<p>&#8220;{{ $desc | truncate 280 "" }}&#8221; <a href="{{ .RelPermalink }}">More...</a></p>
+			</div>
+		{{ end }}
+	</div>
+
+	<div id="home" class="tertiary">
+		<h2>Browse</h2>
+		<div class="browse-links">
+			<ul>
+				<li class="nav-images"><a href="{{ "items/" | relURL }}">Images</a></li>
+				<li class="nav-stories"><a href="{{ "items/" | relURL }}">Stories</a></li>
+				<li class="nav-oral-histories"><a href="{{ "items/" | relURL }}">Oral Histories</a></li>
+				<li class="nav-video"><a href="{{ "items/" | relURL }}">Video</a></li>
+			</ul>
+		</div>
+		<h2>Map</h2>
+		<div class="map">
+			<a href="{{ "map/" | relURL }}"><img src="{{ "themes/hurricane/images/map.jpg" | relURL }}" alt="Map"></a>
+		</div>
+		<h2>Tags</h2>
+		<div class="tags">
+			{{ $tags := first 8 site.Taxonomies.tags.ByCount }}
+			{{ range $i, $t := $tags }}{{ if $i }}, {{ end }}<a href="{{ $t.Page.RelPermalink }}" rel="tag">{{ $t.Page.Title }}</a>{{ end }}
+		</div>
+	</div>
+{{ end }}

@@ -1,10 +1,12 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
-<ul class="page-list">
-  {{ range .Paginator.Pages }}
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-  {{ end }}
-</ul>
-{{ template "_internal/pagination.html" . }}
+<div id="primary">
+	<h1>{{ .Title }}</h1>
+	{{ .Content }}
+	<ul class="page-list">
+		{{ range .Paginator.Pages }}
+			<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+		{{ end }}
+	</ul>
+	{{ partial "pager.html" .Paginator }}
+</div>
 {{ end }}

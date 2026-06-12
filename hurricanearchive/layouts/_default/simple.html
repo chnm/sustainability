@@ -1,0 +1,8 @@
+{{ define "main" }}
+<div id="primary">
+	<p id="simple-pages-breadcrumbs"><a href="{{ "" | relURL }}">Home</a><span class="separator" aria-hidden="true"> &gt; </span>{{ .Title }}</p>
+	<h1>{{ .Title }}</h1>
+	{{ partial "original-source.html" . }}
+	{{ .Content }}
+</div>
+{{ end }}

@@ -26,8 +26,10 @@
 			{{ end }}
 		{{ end }}
 
-		{{ with .Params.dublin_core.Description }}
-			{{ range . }}<p>{{ if .html }}{{ .text | safeHTML }}{{ else }}{{ .text }}{{ end }}</p>{{ end }}
+		{{ with .Params.dublin_core.Description }}{{ partial "element-text.html" . }}{{ end }}
+
+		{{ with .Params.item_type_metadata }}
+			{{ range $field, $vals := . }}{{ partial "element-text.html" $vals }}{{ end }}
 		{{ end }}
 
 		{{ with .Params.tags }}

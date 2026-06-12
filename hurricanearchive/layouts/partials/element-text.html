@@ -1,0 +1,17 @@
+{{- /*
+  Render an Omeka element value list as body text.
+  Input (.): a slice of maps, each { html: bool, text: string }.
+
+  Mirrors the original "hurricane" theme, which prints item body text
+  unlabeled. Plain-text values are split on blank lines into paragraphs;
+  pre-rendered HTML values are emitted as-is.
+*/ -}}
+{{- range . -}}
+  {{- if .html -}}
+    {{ .text | safeHTML }}
+  {{- else -}}
+    {{- range (split .text "\n\n") -}}
+      {{- with (trim . " \t\r\n") }}<p>{{ . }}</p>{{ end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

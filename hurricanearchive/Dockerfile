@@ -16,8 +16,11 @@ COPY . .
 
 RUN npm ci
 RUN hugo ${HUGO_BUILD_ARGS}
-# Pagefind search is not integrated into the site yet; skip building the index.
-# RUN npx --no-install pagefind --site public
+# Build the pagefind search index. Restrict the walk to real item pages
+# (items/<id>/index.html — the single-segment glob skips the ~46k two-segment
+# /items/show/<id> alias redirect stubs that previously OOM-ed the indexer),
+# and the item template marks only its content with data-pagefind-body.
+RUN npx --no-install pagefind --site public --glob "items/*/index.html"
 
 FROM stagex/user-caddy
 

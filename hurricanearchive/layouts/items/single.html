@@ -1,5 +1,14 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+{{- /* Search index scope: only the content below is fed to pagefind
+       (data-pagefind-body), so the ~46k /items/show alias redirect stubs and
+       browse pages are excluded. Title/image/type are surfaced as result
+       metadata; the volatile citation date, geo map and prev/next nav are
+       ignored so they don't pollute the index. */ -}}
+{{- $img := false -}}
+{{- range .Params.files -}}{{- if and (not $img) .mime (hasPrefix .mime "image/") -}}{{- $img = . -}}{{- end -}}{{- end -}}
+<div data-pagefind-body data-pagefind-filter="type:{{ .Params.item_type }}">
+<h1 data-pagefind-meta="title">{{ .Title }}</h1>
+{{- if $img }}<span hidden data-pagefind-meta="image:{{ replace (or $img.thumb $img.fullsize $img.url) "/thumbnails/" "/square_thumbnails/" }}"></span>{{ end }}
 {{ partial "original-source.html" . }}
 <div id="show">
 {{- $hasImage := false -}}
@@ -38,7 +47,7 @@
 			</ul></div>
 		{{ end }}
 
-		<div id="item-citation" class="element">
+		<div id="item-citation" class="element" data-pagefind-ignore>
 			<h3>Citation</h3>
 			<div class="element-text">&#8220;{{ .Title }},&#8221; <em>{{ site.Title }}</em>, accessed {{ now.Format "January 2, 2006" }}, <span class="citation-url">{{ site.Params.origin }}/items/show/{{ .Params.id }}</span>.</div>
 		</div>
@@ -46,7 +55,7 @@
 		{{ with .Params.geo }}
 			{{ if or (ne (float .lat) 0.0) (ne (float .lng) 0.0) }}
 				{{ $id := $.Params.id }}
-				<div id="geolocation"><h2>Geolocation</h2>
+				<div id="geolocation" data-pagefind-ignore><h2>Geolocation</h2>
 					<div id="item-map-{{ $id }}" class="map geolocation-map" style="width: 600px; height: 300px"></div>
 					<script>
 					window.addEventListener('load', function () {
@@ -60,9 +69,10 @@
 		{{ end }}
 	</div>
 
-	<div id="pagination-bottom" class="pagination">
+	<div id="pagination-bottom" class="pagination" data-pagefind-ignore>
 		{{ with .PrevInSection }}<li id="previous-item" class="previous"><a href="{{ .RelPermalink }}">Previous Item</a></li>{{ end }}
 		{{ with .NextInSection }}<li id="next-item" class="next"><a href="{{ .RelPermalink }}">Next Item</a></li>{{ end }}
 	</div>
+</div>
 </div>
 {{ end }}

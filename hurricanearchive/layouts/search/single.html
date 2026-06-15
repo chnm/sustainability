@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{- /* Static search results, backed by the pagefind index built in the
+       Docker image (/pagefind/*). Mirrors the legacy Omeka behaviour: a
+       keyword box whose results render as the same thumbnail+title cards as
+       the browse pages. The header search form GETs ?q= to this page. */ -}}
+<div id="items-heading">
+	<div class="heading">  <h2> Search </h2>
+		{{ partial "items-nav.html" "" }}
+	</div>
+</div>
+
+<div id="search-page">
+	<form id="page-search-form" role="search">
+		<input type="text" id="search-q" name="q" title="Search" placeholder="Search the archive…" autocomplete="off">
+		<button type="submit">Search</button>
+	</form>
+	<p id="search-status" aria-live="polite"></p>
+	<div id="items-primary" class="search-results"></div>
+	<div id="search-more"></div>
+</div>
+
+{{ with resources.Get "js/search.js" }}
+<script type="module" src="{{ .RelPermalink }}"></script>
+{{ end }}
+{{ end }}

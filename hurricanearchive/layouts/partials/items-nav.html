@@ -1,0 +1,12 @@
+{{- /* Browse navigation shared by the "All Items" list and the per-type browse pages.
+       Context (.) is the current filter key: one of
+       "all" "images" "stories" "oral-histories" "video". */ -}}
+<ul class="navigation">
+	<li class="nav-all-items{{ if eq . "all" }} current{{ end }}"><a href="{{ "items/" | relURL }}">All Items</a></li>
+	<li class="nav-images{{ if eq . "images" }} current{{ end }}"><a href="{{ "items/image/" | relURL }}">Images</a></li>
+	<li class="nav-stories{{ if eq . "stories" }} current{{ end }}"><a href="{{ "items/story/" | relURL }}">Stories</a></li>
+	<li class="nav-oral-histories{{ if eq . "oral-histories" }} current{{ end }}"><a href="{{ "items/oral-history/" | relURL }}">Oral Histories</a></li>
+	<li class="nav-video{{ if eq . "video" }} current{{ end }}"><a href="{{ "items/video/" | relURL }}">Video</a></li>
+	<li class="nav-map"><a href="{{ "map/" | relURL }}">Map</a></li>
+	<li class="nav-tags"><a href="{{ "tags/" | relURL }}">Tags</a></li>
+</ul>

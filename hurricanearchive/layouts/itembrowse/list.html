@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{- /* Per-type browse page (Images / Stories / Oral Histories / Video).
+       The matching Omeka item_type and nav highlight key come from the
+       section's _index.md front matter (item_type / nav_key). */ -}}
+{{ $items := where site.RegularPages "Params.item_type" .Params.item_type }}
+{{ $paginator := .Paginate $items }}
+<div id="items-heading">
+	<div class="heading">  <h2> {{ .Title }} ({{ len $items }} total) </h2>
+		{{ partial "items-nav.html" .Params.nav_key }}
+	</div>
+</div>
+
+<div id="items-primary">
+	{{ range $paginator.Pages }}
+		{{ partial "item-card.html" . }}
+	{{ end }}
+</div>
+{{ partial "pager.html" $paginator }}
+{{ end }}

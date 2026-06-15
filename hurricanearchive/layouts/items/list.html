@@ -1,16 +1,9 @@
 {{ define "main" }}
-{{ $paginator := .Paginate .Pages }}
+{{ $items := .RegularPages }}
+{{ $paginator := .Paginate $items }}
 <div id="items-heading">
-	<div class="heading">  <h2> Items ({{ len .Pages }} total) </h2>
-		<ul class="navigation">
-			<li class="nav-all-items current"><a href="{{ "items/" | relURL }}">All Items</a></li>
-			<li class="nav-images"><a href="{{ "items/" | relURL }}">Images</a></li>
-			<li class="nav-stories"><a href="{{ "items/" | relURL }}">Stories</a></li>
-			<li class="nav-oral-histories"><a href="{{ "items/" | relURL }}">Oral Histories</a></li>
-			<li class="nav-video"><a href="{{ "items/" | relURL }}">Video</a></li>
-			<li class="nav-map"><a href="{{ "map/" | relURL }}">Map</a></li>
-			<li class="nav-tags"><a href="{{ "tags/" | relURL }}">Tags</a></li>
-		</ul>
+	<div class="heading">  <h2> Items ({{ len $items }} total) </h2>
+		{{ partial "items-nav.html" "all" }}
 	</div>
 </div>
 

@@ -20,10 +20,9 @@
 </div>
 
 <div id="search-page">
-	<form id="page-search-form" role="search">
-		<input type="text" id="search-q" name="q" title="Search" placeholder="Search the archive…" autocomplete="off">
-		<button type="submit">Search</button>
-	</form>
+	{{- /* No dedicated search box here: the always-present header search form
+	       (#search-form) is the input. search.js intercepts its submit on this
+	       page for in-place results; on every other page it GETs ?q= here. */ -}}
 	<p id="search-status" aria-live="polite"></p>
 	<div id="items-primary" class="search-results"></div>
 	<div id="search-more"></div>

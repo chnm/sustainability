@@ -18,7 +18,9 @@ const TYPE_TO_SLUG = Object.fromEntries(
   Object.entries(SLUG_TO_TYPE).map(([slug, type]) => [type, slug])
 );
 
-const input = document.getElementById('search-q');
+// Reuse the always-present header search form rather than a page-local box.
+const searchForm = document.getElementById('search-form');
+const input = searchForm && searchForm.querySelector('input[name="q"]');
 const statusEl = document.getElementById('search-status');
 const resultsEl = document.getElementById('items-primary');
 const moreEl = document.getElementById('search-more');
@@ -156,15 +158,17 @@ filtersEl.addEventListener('click', (e) => {
   doSearch();
 });
 
-document.getElementById('page-search-form').addEventListener('submit', (e) => {
-  e.preventDefault();
-  curQuery = input.value;
-  syncURL();
-  doSearch();
-});
+if (searchForm) {
+  searchForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    curQuery = input.value;
+    syncURL();
+    doSearch();
+  });
+}
 
 const params = new URLSearchParams(window.location.search);
 curQuery = params.get('q') || '';
 curType = SLUG_TO_TYPE[params.get('type')] || '';
-input.value = curQuery;
+if (input) input.value = curQuery;
 if (curQuery) doSearch();

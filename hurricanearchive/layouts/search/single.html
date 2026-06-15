@@ -5,7 +5,17 @@
        the browse pages. The header search form GETs ?q= to this page. */ -}}
 <div id="items-heading">
 	<div class="heading">  <h2> Search </h2>
-		{{ partial "items-nav.html" "" }}
+		{{- /* Item-type facet bar — same tabs/classes as items-nav so it matches
+		       the browse pages, but these filter the current query in place
+		       (wired up + live counts injected by search.js). data-type holds the
+		       Omeka item_type stored in the pagefind "type" filter. */ -}}
+		<ul class="navigation" id="search-filters" hidden>
+			<li class="nav-all-items" data-type=""><a href="#"><span class="lbl">All Items</span> <span class="cnt"></span></a></li>
+			<li class="nav-images" data-type="Still Image"><a href="#"><span class="lbl">Images</span> <span class="cnt"></span></a></li>
+			<li class="nav-stories" data-type="Document"><a href="#"><span class="lbl">Stories</span> <span class="cnt"></span></a></li>
+			<li class="nav-oral-histories" data-type="Oral History"><a href="#"><span class="lbl">Oral Histories</span> <span class="cnt"></span></a></li>
+			<li class="nav-video" data-type="Moving Image"><a href="#"><span class="lbl">Video</span> <span class="cnt"></span></a></li>
+		</ul>
 	</div>
 </div>
 

@@ -16,7 +16,8 @@ COPY . .
 
 RUN npm ci
 RUN hugo ${HUGO_BUILD_ARGS}
-RUN npx --no-install pagefind --site public
+# Pagefind search is not integrated into the site yet; skip building the index.
+# RUN npx --no-install pagefind --site public
 
 FROM stagex/user-caddy
 

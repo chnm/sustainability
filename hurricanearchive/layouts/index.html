@@ -1,19 +1,40 @@
 {{ define "main" }}
 {{- $featured := where (where site.RegularPages "Type" "items") "Params.featured" true -}}
-{{- $featImg := false -}}
+{{- $featImgs := slice -}}
 {{- range (where $featured "Params.item_type" "Still Image") -}}
-  {{- if and (not $featImg) (gt (len .Params.files) 0) -}}{{- $featImg = . -}}{{- end -}}
+  {{- if gt (len .Params.files) 0 -}}{{- $featImgs = $featImgs | append . -}}{{- end -}}
 {{- end -}}
 {{- $stories := first 2 (where $featured "Params.item_type" "Document") -}}
 
 	<div id="home" class="primary">
 		<h2>Featured Image</h2>
 		<div id="featured-item">
-			{{ with $featImg }}
-				{{ $f := index .Params.files 0 }}
-				<a href="{{ .RelPermalink }}"><img src="{{ or $f.fullsize $f.url }}" alt="{{ $f.original_filename }}" title="{{ $f.original_filename }}"></a>
-				<h4>{{ .Title }}</h4>
-			{{ end }}
+			{{- with $featImgs }}
+				{{- $first := index . 0 }}
+				{{- $f := index $first.Params.files 0 }}
+				<a id="featured-link" href="{{ $first.RelPermalink }}"><img id="featured-img" src="{{ or $f.fullsize $f.url }}" alt="{{ $f.original_filename }}" title="{{ $f.original_filename }}"></a>
+				<h4 id="featured-title">{{ $first.Title }}</h4>
+				{{- /* Pick a random featured image per page load, matching the original Omeka random_featured_item().
+				       The first image is rendered server-side so no-JS clients and crawlers still get a valid one. */}}
+				{{- $data := slice }}
+				{{- range . }}{{ $df := index .Params.files 0 }}{{ $data = $data | append (dict "href" .RelPermalink "src" (or $df.fullsize $df.url) "title" .Title "alt" $df.original_filename) }}{{ end }}
+				<script type="application/json" id="featured-data">{{ $data | jsonify | safeJS }}</script>
+				<script>
+				(function () {
+					var el = document.getElementById('featured-data');
+					if (!el) return;
+					var items = JSON.parse(el.textContent || '[]');
+					if (items.length < 2) return;
+					var pick = items[Math.floor(Math.random() * items.length)];
+					var link = document.getElementById('featured-link');
+					var img = document.getElementById('featured-img');
+					var title = document.getElementById('featured-title');
+					if (link) link.href = pick.href;
+					if (img) { img.src = pick.src; img.alt = pick.alt; img.title = pick.alt; }
+					if (title) title.textContent = pick.title;
+				})();
+				</script>
+			{{- end }}
 		</div>
 		<div id="explanation">
 			<p>We welcome contributions from survivors, first responders, relief workers, family, friends, and anyone with reflections on the hurricanes and their aftermath</p>

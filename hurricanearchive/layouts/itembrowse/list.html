@@ -1,12 +1,8 @@
 {{ define "main" }}
-{{- /* Per-type browse page (Stories / Oral Histories / Video) and the
-       "All Items" view. The matching Omeka item_type and nav highlight key
-       come from the section's _index.md front matter (item_type / nav_key).
-       When item_type is unset (the All Items page) every item is listed. */ -}}
-{{ $items := where site.RegularPages "Section" "items" }}
-{{ with .Params.item_type }}
-{{ $items = where site.RegularPages "Params.item_type" . }}
-{{ end }}
+{{- /* Per-type browse page (Images / Stories / Oral Histories / Video).
+       The matching Omeka item_type and nav highlight key come from the
+       section's _index.md front matter (item_type / nav_key). */ -}}
+{{ $items := where site.RegularPages "Params.item_type" .Params.item_type }}
 {{ $paginator := .Paginate $items }}
 <div id="items-heading">
 	<div class="heading">  <h2> {{ .Title }} ({{ len $items }} total) </h2>

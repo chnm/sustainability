@@ -1,9 +1,11 @@
 {{ define "main" }}
-{{ $items := .RegularPages }}
+{{- /* Default Items landing: the Images filter. The other filters live at
+       /items/all (everything), /items/story, /items/oral-history, /items/video. */ -}}
+{{ $items := where .RegularPages "Params.item_type" "Still Image" }}
 {{ $paginator := .Paginate $items }}
 <div id="items-heading">
-	<div class="heading">  <h2> Items ({{ len $items }} total) </h2>
-		{{ partial "items-nav.html" "all" }}
+	<div class="heading">  <h2> Images ({{ len $items }} total) </h2>
+		{{ partial "items-nav.html" "images" }}
 	</div>
 </div>
 

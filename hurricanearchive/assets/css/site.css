@@ -15,6 +15,34 @@
 #geolocation .geolocation-map,
 #map { max-width: 100%; }
 
+/* Archived-copy notice banner. Structure adapted from eec.dev.chnm.gmu.edu;
+   recolored to the hurricane palette: navy link blue (#369) with a sage-green
+   (#c6d6c2) nav-accent border and off-white (#f7f7f7) panel text. */
+.hdmb-archive-banner {
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	display: flex;
+	align-items: center;
+	background-color: #336699;
+	color: #f7f7f7;
+	padding: 8px 12px;
+	border-bottom: 3px solid #c6d6c2;
+	line-height: 1.5;
+	position: sticky;
+	top: 0;
+	z-index: 9999;
+}
+.hdmb-archive-banner__logo {
+	display: inline-block;
+	flex-shrink: 0;
+	width: 31px;
+	height: 30px;
+	margin-right: 15px;
+	background: #f7f7f7 url("/assets/rrchnm_logo.png") center center / contain no-repeat;
+	border-radius: 3px;
+}
+.hdmb-archive-banner a { color: #f7f7f7; text-decoration: underline; }
+.hdmb-archive-banner a:hover { color: #fff; }
+
 /* dev-only "View original" link (development environment) */
 .dev-source-link { margin: 0.25em 0 1em; font-size: 0.85em; }
 .dev-source-link a { display: inline-block; padding: 0.15em 0.6em; border: 1px dashed #c9a227; border-radius: 4px; background: #fffbe6; color: #8a6d00; text-decoration: none; }

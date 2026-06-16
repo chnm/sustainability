@@ -4,6 +4,7 @@
 {{ partial "head.html" . }}
 </head>
 <body{{ with .Params.bodyid }} id="{{ . }}"{{ end }}>
+{{ partial "archive-banner.html" . }}
 {{ partial "header.html" . }}
 <div id="content">
 {{ block "main" . }}{{ end }}

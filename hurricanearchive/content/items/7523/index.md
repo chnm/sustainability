@@ -20,7 +20,7 @@ files:
     mime: F            0x07           video/h264
     original_filename: 03 12 2006 .DS Store
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a41a625e214fb2a41a64cfb.DS_Store
+    url: /files/original/14fb2a41a625e214fb2a41a64cfb.DS_Store
 geo:
 id: 7523
 item_type: Document

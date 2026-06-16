@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Rowell, Chris.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871ba605c14fbe871ba6449.doc
+    url: /files/original/14fbe871ba605c14fbe871ba6449.doc
 geo:
 id: 45831
 item_type: Oral History

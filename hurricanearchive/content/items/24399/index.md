@@ -15,12 +15,12 @@ dublin_core:
       text: 501060-R2-20-19A.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e841d92814fb29e841dd0c.jpg
+  - fullsize: /files/fullsize/14fb29e841d92814fb29e841dd0c.jpg
     id: 21343
     mime: image/jpeg
     original_filename: 501060-R2-20-19A.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e841d92814fb29e841dd0c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e841d92814fb29e841dd0c.jpg
+    thumb: /files/thumbnails/14fb29e841d92814fb29e841dd0c.jpg
+    url: /files/original/14fb29e841d92814fb29e841dd0c.jpg
 geo:
 id: 24399
 item_type: Still Image

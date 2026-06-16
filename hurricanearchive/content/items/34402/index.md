@@ -17,12 +17,12 @@ dublin_core:
       text: DEBBIEDRIVE2
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca3b6afd14fb29ca3b78a8.jpg
+  - fullsize: /files/fullsize/14fb29ca3b6afd14fb29ca3b78a8.jpg
     id: 24236
     mime: image/jpg
     original_filename: 2380907114_77fa3ed5a3.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca3b6afd14fb29ca3b78a8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca3b6afd14fb29ca3b78a8.jpg
+    thumb: /files/thumbnails/14fb29ca3b6afd14fb29ca3b78a8.jpg
+    url: /files/original/14fb29ca3b6afd14fb29ca3b78a8.jpg
 geo:
   address: ''
   lat: 30.22437

@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: JaneHillenbrand.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e28ef8114fb2a5e28f368.wav
+    url: /files/original/14fb2a5e28ef8114fb2a5e28f368.wav
 geo:
 id: 3070
 item_type: Oral History

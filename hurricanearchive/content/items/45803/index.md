@@ -19,13 +19,13 @@ files:
     mime: application/msword
     original_filename: Patterson, J.C.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871661e8314fbe871662268.doc
+    url: /files/original/14fbe871661e8314fbe871662268.doc
   - fullsize:
     id: 46437
     mime: application/msword
     original_filename: Patterson, J.C..trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87166d22a14fbe87166d614.doc
+    url: /files/original/14fbe87166d22a14fbe87166d614.doc
 geo:
 id: 45803
 item_type: Oral History

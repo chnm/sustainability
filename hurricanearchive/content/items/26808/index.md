@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Myron Watkins HK11156K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7b1967d14fb29d7b19a5f.mp3
+    url: /files/original/14fb29d7b1967d14fb29d7b19a5f.mp3
 geo:
 id: 26808
 item_type: Oral History

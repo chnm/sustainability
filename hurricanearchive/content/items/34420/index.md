@@ -21,12 +21,12 @@ dublin_core:
       text: Water line in the home of Anne & John
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca1c300314fb29ca1c3413.jpg
+  - fullsize: /files/fullsize/14fb29ca1c300314fb29ca1c3413.jpg
     id: 24254
     mime: image/jpg
     original_filename: 2379863965_ecce2e1241.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca1c300314fb29ca1c3413.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca1c300314fb29ca1c3413.jpg
+    thumb: /files/thumbnails/14fb29ca1c300314fb29ca1c3413.jpg
+    url: /files/original/14fb29ca1c300314fb29ca1c3413.jpg
 geo:
   address: ''
   lat: 30.22894

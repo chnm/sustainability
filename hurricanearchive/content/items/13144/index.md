@@ -15,12 +15,12 @@ dublin_core:
       text: west windy.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2009c1f414fb2a2009db01.jpg
+  - fullsize: /files/fullsize/14fb2a2009c1f414fb2a2009db01.jpg
     id: 11154
     mime: image/jpeg
     original_filename: west windy.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2009c1f414fb2a2009db01.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2009c1f414fb2a2009db01.jpg
+    thumb: /files/thumbnails/14fb2a2009c1f414fb2a2009db01.jpg
+    url: /files/original/14fb2a2009c1f414fb2a2009db01.jpg
 geo:
 id: 13144
 item_type: Still Image

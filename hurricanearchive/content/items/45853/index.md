@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Stasny, Kim.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871f5162c14fbe871f51a1c.doc
+    url: /files/original/14fbe871f5162c14fbe871f51a1c.doc
 geo:
 id: 45853
 item_type: Oral History

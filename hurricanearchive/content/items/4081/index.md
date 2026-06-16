@@ -15,12 +15,12 @@ dublin_core:
       text: IMG_0979.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5802157114fb2a58021954.jpg
+  - fullsize: /files/fullsize/14fb2a5802157114fb2a58021954.jpg
     id: 3492
     mime: image/jpeg
     original_filename: IMG_0979.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5802157114fb2a58021954.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5802157114fb2a58021954.jpg
+    thumb: /files/thumbnails/14fb2a5802157114fb2a58021954.jpg
+    url: /files/original/14fb2a5802157114fb2a58021954.jpg
 geo:
 id: 4081
 item_type: Still Image

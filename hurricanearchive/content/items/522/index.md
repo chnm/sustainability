@@ -25,7 +25,7 @@ files:
     mime: application/octet-stream
     original_filename: 9_30_05WooWoo9Ward_f1492a882f.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6fa5a30d14fb2a6fa5a6f2.mp3
+    url: /files/original/14fb2a6fa5a30d14fb2a6fa5a6f2.mp3
 geo:
   address: ''
   lat: 35.210811

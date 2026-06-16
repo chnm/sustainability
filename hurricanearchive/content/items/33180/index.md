@@ -17,12 +17,12 @@ dublin_core:
       text: New Orleans, 11/07
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbd0409514fb29cbd0722c.jpg
+  - fullsize: /files/fullsize/14fb29cbd0409514fb29cbd0722c.jpg
     id: 24030
     mime: image/jpg
     original_filename: 2038263929_0b22e9c0c2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbd0409514fb29cbd0722c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbd0409514fb29cbd0722c.jpg
+    thumb: /files/thumbnails/14fb29cbd0409514fb29cbd0722c.jpg
+    url: /files/original/14fb29cbd0409514fb29cbd0722c.jpg
 geo:
   address: ''
   lat: 29.95916

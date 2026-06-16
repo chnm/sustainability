@@ -19,7 +19,7 @@ files:
     mime: audio/mpeg
     original_filename: Katrice Lavie_6336ffe6b5.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d3a4aaaf14fb29d3a4ae95.mp3
+    url: /files/original/14fb29d3a4aaaf14fb29d3a4ae95.mp3
 geo:
 id: 27524
 item_type: Document

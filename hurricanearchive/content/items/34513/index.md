@@ -21,12 +21,12 @@ dublin_core:
       text: Debris Covered every street at North Shore Beach
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c99c1b9314fb29c99c1f70.jpg
+  - fullsize: /files/fullsize/14fb29c99c1b9314fb29c99c1f70.jpg
     id: 24347
     mime: image/jpg
     original_filename: 2292057656_fbfcbb8290.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c99c1b9314fb29c99c1f70.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c99c1b9314fb29c99c1f70.jpg
+    thumb: /files/thumbnails/14fb29c99c1b9314fb29c99c1f70.jpg
+    url: /files/original/14fb29c99c1b9314fb29c99c1f70.jpg
 geo:
   address: ''
   lat: 30.22539

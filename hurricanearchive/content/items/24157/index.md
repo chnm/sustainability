@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0022stbernardparishS&R.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ea3475cb14fb29ea3479b0.jpg
+  - fullsize: /files/fullsize/14fb29ea3475cb14fb29ea3479b0.jpg
     id: 21101
     mime: image/jpeg
     original_filename: DSC 0022stbernardparishS&R.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ea3475cb14fb29ea3479b0.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ea3475cb14fb29ea3479b0.jpg
+    thumb: /files/thumbnails/14fb29ea3475cb14fb29ea3479b0.jpg
+    url: /files/original/14fb29ea3475cb14fb29ea3479b0.jpg
 geo:
 id: 24157
 item_type: Still Image

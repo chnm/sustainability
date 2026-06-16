@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: slidell_da01623d70.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d5ce154214fb29d5ce385a.pdf
+    url: /files/original/14fb29d5ce154214fb29d5ce385a.pdf
 geo:
 id: 26964
 item_type: Document

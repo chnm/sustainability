@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d958864914fb29d9588a0a.jpg
+  - fullsize: /files/fullsize/14fb29d958864914fb29d9588a0a.jpg
     id: 22828
     mime: image/jpeg
     original_filename: AB New Orleans 1950s 1_7b149a2e67.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d958864914fb29d9588a0a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d958864914fb29d9588a0a.jpg
+    thumb: /files/thumbnails/14fb29d958864914fb29d9588a0a.jpg
+    url: /files/original/14fb29d958864914fb29d9588a0a.jpg
 geo:
   address: ''
   lat: 29.95493

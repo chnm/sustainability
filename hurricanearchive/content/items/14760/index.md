@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a17df10f914fb2a17df14e4.jpg
+  - fullsize: /files/fullsize/14fb2a17df10f914fb2a17df14e4.jpg
     id: 12181
     mime: image/jpeg
     original_filename: GoodShepherd_DiJonaiPress_10_14b32560d3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a17df10f914fb2a17df14e4.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a17df10f914fb2a17df14e4.jpg
+    thumb: /files/thumbnails/14fb2a17df10f914fb2a17df14e4.jpg
+    url: /files/original/14fb2a17df10f914fb2a17df14e4.jpg
 geo:
 id: 14760
 item_type: Still Image

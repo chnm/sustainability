@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca4ed0d514fb29ca4ed4bc.jpg
+  - fullsize: /files/fullsize/14fb29ca4ed0d514fb29ca4ed4bc.jpg
     id: 24219
     mime: image/jpeg
     original_filename: photo_tribunal-press-conference-mckinney-new-orleans_2d07b79753.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca4ed0d514fb29ca4ed4bc.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca4ed0d514fb29ca4ed4bc.jpg
+    thumb: /files/thumbnails/14fb29ca4ed0d514fb29ca4ed4bc.jpg
+    url: /files/original/14fb29ca4ed0d514fb29ca4ed4bc.jpg
 geo:
 id: 34308
 item_type: Still Image

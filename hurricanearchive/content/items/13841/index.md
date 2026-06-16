@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Membership Call 11_6_06_6413a8710c.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c9359a114fb2a1c9374e3.doc
+    url: /files/original/14fb2a1c9359a114fb2a1c9374e3.doc
 geo:
 id: 13841
 item_type: Document

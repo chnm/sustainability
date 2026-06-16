@@ -19,13 +19,13 @@ files:
     mime: application/msword
     original_filename: Saujon, Rose and Harvey.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871d7a7c214fbe871d7aba6.doc
+    url: /files/original/14fbe871d7a7c214fbe871d7aba6.doc
   - fullsize:
     id: 46479
     mime: application/msword
     original_filename: Saujon, Rose and Harvey.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871d945d614fbe871d949ff.doc
+    url: /files/original/14fbe871d945d614fbe871d949ff.doc
 geo:
 id: 45839
 item_type: Oral History

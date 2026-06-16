@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2482ec6a14fb2a2482fa86.jpg
+  - fullsize: /files/fullsize/14fb2a2482ec6a14fb2a2482fa86.jpg
     id: 10423
     mime: image/jpeg
     original_filename: neveragain_aad78e4b9d.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2482ec6a14fb2a2482fa86.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2482ec6a14fb2a2482fa86.jpg
+    thumb: /files/thumbnails/14fb2a2482ec6a14fb2a2482fa86.jpg
+    url: /files/original/14fb2a2482ec6a14fb2a2482fa86.jpg
 geo:
   address: Griffin's Gallery, 325 Level Road
   lat: 0.0

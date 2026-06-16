@@ -15,12 +15,12 @@ dublin_core:
       text: atop the levee1.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f05603b14fb2a1f05641b.jpg
+  - fullsize: /files/fullsize/14fb2a1f05603b14fb2a1f05641b.jpg
     id: 11245
     mime: image/jpeg
     original_filename: atop the levee1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f05603b14fb2a1f05641b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f05603b14fb2a1f05641b.jpg
+    thumb: /files/thumbnails/14fb2a1f05603b14fb2a1f05641b.jpg
+    url: /files/original/14fb2a1f05603b14fb2a1f05641b.jpg
 geo:
 id: 13235
 item_type: Still Image

@@ -14,12 +14,12 @@ dublin_core:
       text: DPS aftermath 6
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c5812e4014fb29c5813225.jpg
+  - fullsize: /files/fullsize/14fb29c5812e4014fb29c5813225.jpg
     id: 24741
     mime: image/jpeg
     original_filename: refueling_0c0054afd1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c5812e4014fb29c5813225.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c5812e4014fb29c5813225.jpg
+    thumb: /files/thumbnails/14fb29c5812e4014fb29c5813225.jpg
+    url: /files/original/14fb29c5812e4014fb29c5813225.jpg
 geo:
 id: 36393
 item_type: Still Image

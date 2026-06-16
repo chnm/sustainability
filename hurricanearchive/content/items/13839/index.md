@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: 10_28_05_Student_Planning_Meeting_Notes_fdabbdd074.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c95ec2a14fb2a1c95f00e.doc
+    url: /files/original/14fb2a1c95ec2a14fb2a1c95f00e.doc
 geo:
 id: 13839
 item_type: Document

@@ -11,12 +11,12 @@ dublin_core:
       text: This is a picture of what my yard looked like about two days after Hurricane Katrina hit. I remember my family and I having to climb under tree limbs to work our way down the driveway to see if we still had a house. Thankfully our home was perfectly fine and the only damage we had was a loss of about one hundred pine trees.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14dcbba38f5b7c0609d4a24e7117c440.jpg
+  - fullsize: /files/fullsize/14dcbba38f5b7c0609d4a24e7117c440.jpg
     id: 46580
     mime: image/jpeg
     original_filename: 9-4-2013 5;49;17 PM.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14dcbba38f5b7c0609d4a24e7117c440.jpg
-    url: https://hurricanearchive.org/files/original/14dcbba38f5b7c0609d4a24e7117c440.jpg
+    thumb: /files/thumbnails/14dcbba38f5b7c0609d4a24e7117c440.jpg
+    url: /files/original/14dcbba38f5b7c0609d4a24e7117c440.jpg
 geo:
   address: Bush, LA
   lat: 0.0

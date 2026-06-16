@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: Wetmore,DistributingRisksandResponsibilities_c87dda73d4.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbc5d59914fb29dbc5dd00.pdf
+    url: /files/original/14fb29dbc5d59914fb29dbc5dd00.pdf
 geo:
 id: 25928
 item_type: Document

@@ -25,7 +25,7 @@ files:
     mime: application/octet-stream
     original_filename: 9_3105MichaelLawlerFrom_Slidell_f3e6b6868c.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6fa3e9fa14fb2a6fa3ee4f.mp3
+    url: /files/original/14fb2a6fa3e9fa14fb2a6fa3ee4f.mp3
 geo:
   address: ''
   lat: 35.210811

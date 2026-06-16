@@ -14,12 +14,12 @@ dublin_core:
       text: See u Soon
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1b4140014fb29d1b417e3.jpg
+  - fullsize: /files/fullsize/14fb29d1b4140014fb29d1b417e3.jpg
     id: 23539
     mime: image/jpg
     original_filename: 114539923_bc7895a534.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1b4140014fb29d1b417e3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1b4140014fb29d1b417e3.jpg
+    thumb: /files/thumbnails/14fb29d1b4140014fb29d1b417e3.jpg
+    url: /files/original/14fb29d1b4140014fb29d1b417e3.jpg
 geo:
 id: 28695
 item_type: Still Image

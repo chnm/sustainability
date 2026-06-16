@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Rollins, Leah T.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871b82a1314fbe871b82dfa.doc
+    url: /files/original/14fbe871b82a1314fbe871b82dfa.doc
 geo:
 id: 45829
 item_type: Oral History

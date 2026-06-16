@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cab8ce8b14fb29cab8d294.jpg
+  - fullsize: /files/fullsize/14fb29cab8ce8b14fb29cab8d294.jpg
     id: 24158
     mime: image/pjpeg
     original_filename: Sun Herald (Biloxi)_b49b9b1de6.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cab8ce8b14fb29cab8d294.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cab8ce8b14fb29cab8d294.jpg
+    thumb: /files/thumbnails/14fb29cab8ce8b14fb29cab8d294.jpg
+    url: /files/original/14fb29cab8ce8b14fb29cab8d294.jpg
 geo:
   address: ''
   lat: 30.33495

@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Dan Pomeroy HK2856K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d63e793d14fb29d63e800a.mp3
+    url: /files/original/14fb29d63e793d14fb29d63e800a.mp3
 geo:
 id: 26919
 item_type: Oral History

@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c2ada73514fb29c2adaa8d.jpg
+  - fullsize: /files/fullsize/14fb29c2ada73514fb29c2adaa8d.jpg
     id: 25005
     mime: image/pjpeg
     original_filename: beads_de622924a7.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c2ada73514fb29c2adaa8d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c2ada73514fb29c2adaa8d.jpg
+    thumb: /files/thumbnails/14fb29c2ada73514fb29c2adaa8d.jpg
+    url: /files/original/14fb29c2ada73514fb29c2adaa8d.jpg
 geo:
 id: 42228
 item_type: Still Image

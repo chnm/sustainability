@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: someTrots_6ee6fc2486.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d5da8ca414fb29d5da9086.pdf
+    url: /files/original/14fb29d5da8ca414fb29d5da9086.pdf
 geo:
 id: 26962
 item_type: Document

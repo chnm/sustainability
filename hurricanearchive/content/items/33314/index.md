@@ -22,7 +22,7 @@ files:
     mime: application/msword
     original_filename: Perry_b87a5c9631.10 ways to bring the public back into public education.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cacbf9ba14fb29cacbfda2.doc
+    url: /files/original/14fb29cacbf9ba14fb29cacbfda2.doc
 geo:
 id: 33314
 item_type: Document

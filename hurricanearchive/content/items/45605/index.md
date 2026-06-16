@@ -17,7 +17,7 @@ files:
     mime: directory)
     original_filename: Transcripts
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ffc9af414fbe86ffc9ed9
+    url: /files/original/14fbe86ffc9af414fbe86ffc9ed9
 geo:
 id: 45605
 item_type: Oral History

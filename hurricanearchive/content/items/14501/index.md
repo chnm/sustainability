@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Re[SHN] Lobbying -Statement of Principles, Next Steps(1)_c2432b6aa6.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a190bdf1814fb2a190be311.doc
+    url: /files/original/14fb2a190bdf1814fb2a190be311.doc
 geo:
 id: 14501
 item_type: Document

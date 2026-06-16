@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Nguyen, Dinh Thang.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8715e778714fbe8715e7b6e.doc
+    url: /files/original/14fbe8715e778714fbe8715e7b6e.doc
 geo:
 id: 45797
 item_type: Oral History

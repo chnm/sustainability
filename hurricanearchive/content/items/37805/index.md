@@ -11,12 +11,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c566294b14fb29c5662d2d.jpg
+  - fullsize: /files/fullsize/14fb29c566294b14fb29c5662d2d.jpg
     id: 24759
     mime: image/pjpeg
     original_filename: 854407452_9b8ec77fbf_94cc4dcbe8.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c566294b14fb29c5662d2d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c566294b14fb29c5662d2d.jpg
+    thumb: /files/thumbnails/14fb29c566294b14fb29c5662d2d.jpg
+    url: /files/original/14fb29c566294b14fb29c5662d2d.jpg
 geo:
   address: 8 yosemite dr.
   lat: 29.91718

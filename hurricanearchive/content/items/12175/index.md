@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: tparticle.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a223858c714fb2a22385cad.doc
+    url: /files/original/14fb2a223858c714fb2a22385cad.doc
 geo:
 id: 12175
 item_type: Document

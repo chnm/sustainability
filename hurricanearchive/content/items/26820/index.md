@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d79d9eec14fb29d79da217.jpg
+  - fullsize: /files/fullsize/14fb29d79d9eec14fb29d79da217.jpg
     id: 23004
     mime: image/jpeg
     original_filename: 1972chalmettebasket ball_ea52ae69a5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d79d9eec14fb29d79da217.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d79d9eec14fb29d79da217.jpg
+    thumb: /files/thumbnails/14fb29d79d9eec14fb29d79da217.jpg
+    url: /files/original/14fb29d79d9eec14fb29d79da217.jpg
 geo:
 id: 26820
 item_type: Still Image

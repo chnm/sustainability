@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Sullivan, Peggy.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871fda53c14fbe871fda922.doc
+    url: /files/original/14fbe871fda53c14fbe871fda922.doc
 geo:
 id: 45859
 item_type: Oral History

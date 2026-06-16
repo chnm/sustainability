@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Kiln-Matos1.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2356a2fb14fb2a2356a6df.doc
+    url: /files/original/14fb2a2356a2fb14fb2a2356a6df.doc
 geo:
 id: 11804
 item_type: Document

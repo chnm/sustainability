@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: SHNLobbyingProject_c1912f64c1.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18e83b7f14fb2a18e83f5f.doc
+    url: /files/original/14fb2a18e83b7f14fb2a18e83f5f.doc
 geo:
 id: 14524
 item_type: Document

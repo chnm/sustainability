@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: eastmagnolia.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23089b2214fb2a2308a40d.doc
+    url: /files/original/14fb2a23089b2214fb2a2308a40d.doc
 geo:
 id: 11858
 item_type: Document

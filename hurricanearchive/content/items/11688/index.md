@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Paul Lee.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23f003a414fb2a23f00ecb.htm
+    url: /files/original/14fb2a23f003a414fb2a23f00ecb.htm
 geo:
 id: 11688
 item_type: Oral History

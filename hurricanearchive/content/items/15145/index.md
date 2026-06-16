@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a16f14ea814fb2a16f15325.jpg
+  - fullsize: /files/fullsize/14fb2a16f14ea814fb2a16f15325.jpg
     id: 12307
     mime: image/pjpeg
     original_filename: Throw Me Somthin Mistah_97e28a073c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a16f14ea814fb2a16f15325.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a16f14ea814fb2a16f15325.jpg
+    thumb: /files/thumbnails/14fb2a16f14ea814fb2a16f15325.jpg
+    url: /files/original/14fb2a16f14ea814fb2a16f15325.jpg
 geo:
   address: ''
   lat: 37.77123

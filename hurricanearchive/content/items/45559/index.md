@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Coyle, Rava 6-19-07 Tape 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f19793c14fbe86f197d22.mp3
+    url: /files/original/14fbe86f19793c14fbe86f197d22.mp3
   - fullsize:
     id: 46027
     mime: application/msword
     original_filename: Coyle, Rava.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f1a212d14fbe86f1a251c.doc
+    url: /files/original/14fbe86f1a212d14fbe86f1a251c.doc
 geo:
 id: 45559
 item_type: Oral History

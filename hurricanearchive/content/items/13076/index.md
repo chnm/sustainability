@@ -15,12 +15,12 @@ dublin_core:
       text: cooling tower end.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a208daf7e14fb2a208db541.jpg
+  - fullsize: /files/fullsize/14fb2a208daf7e14fb2a208db541.jpg
     id: 11086
     mime: image/jpeg
     original_filename: cooling tower end.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a208daf7e14fb2a208db541.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a208daf7e14fb2a208db541.jpg
+    thumb: /files/thumbnails/14fb2a208daf7e14fb2a208db541.jpg
+    url: /files/original/14fb2a208daf7e14fb2a208db541.jpg
 geo:
 id: 13076
 item_type: Still Image

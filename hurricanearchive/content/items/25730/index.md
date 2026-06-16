@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc991d6314fb29dc992149.jpg
+  - fullsize: /files/fullsize/14fb29dc991d6314fb29dc992149.jpg
     id: 22523
     mime: image/jpeg
     original_filename: KPatcheco-05crab boil_6baa6e4f9b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc991d6314fb29dc992149.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc991d6314fb29dc992149.jpg
+    thumb: /files/thumbnails/14fb29dc991d6314fb29dc992149.jpg
+    url: /files/original/14fb29dc991d6314fb29dc992149.jpg
 geo:
 id: 25730
 item_type: Still Image

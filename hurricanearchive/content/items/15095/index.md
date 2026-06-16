@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a172e12cb14fb2a172e16bc.jpg
+  - fullsize: /files/fullsize/14fb2a172e12cb14fb2a172e16bc.jpg
     id: 12255
     mime: image/jpeg
     original_filename: 1993 First Staff @ gr~000A-16_ac23d1fc80.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a172e12cb14fb2a172e16bc.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a172e12cb14fb2a172e16bc.jpg
+    thumb: /files/thumbnails/14fb2a172e12cb14fb2a172e16bc.jpg
+    url: /files/original/14fb2a172e12cb14fb2a172e16bc.jpg
 geo:
 id: 15095
 item_type: Still Image

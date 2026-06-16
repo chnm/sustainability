@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Lassen, Gregg.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87103b57114fbe87103b958.doc
+    url: /files/original/14fbe87103b57114fbe87103b958.doc
 geo:
 id: 45741
 item_type: Oral History

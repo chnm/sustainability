@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c62af46a14fb29c62af7f3.jpg
+  - fullsize: /files/fullsize/14fb29c62af46a14fb29c62af7f3.jpg
     id: 24687
     mime: image/pjpeg
     original_filename: 3_3aff62cd35.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c62af46a14fb29c62af7f3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c62af46a14fb29c62af7f3.jpg
+    thumb: /files/thumbnails/14fb29c62af46a14fb29c62af7f3.jpg
+    url: /files/original/14fb29c62af46a14fb29c62af7f3.jpg
 geo:
   address: 3067 Saint Claude Ave, New Orleans, LA
   lat: 29.96784

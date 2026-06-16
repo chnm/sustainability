@@ -17,12 +17,12 @@ dublin_core:
       text: Mud
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d4a01c8514fb29d4a059d1.jpg
+  - fullsize: /files/fullsize/14fb29d4a01c8514fb29d4a059d1.jpg
     id: 23219
     mime: image/jpg
     original_filename: 336696342_764c9a723d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d4a01c8514fb29d4a059d1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d4a01c8514fb29d4a059d1.jpg
+    thumb: /files/thumbnails/14fb29d4a01c8514fb29d4a059d1.jpg
+    url: /files/original/14fb29d4a01c8514fb29d4a059d1.jpg
 geo:
 id: 27332
 item_type: Still Image

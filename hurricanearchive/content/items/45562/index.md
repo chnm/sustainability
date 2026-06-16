@@ -19,25 +19,25 @@ files:
     mime: audio/mpeg
     original_filename: Creel, Vincent 03-19-08 1 of 3.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f202a2914fbe86f202e0e.mp3
+    url: /files/original/14fbe86f202a2914fbe86f202e0e.mp3
   - fullsize:
     id: 46035
     mime: audio/mpeg
     original_filename: Creel, Vincent 03-19-08 2 of 3.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f2104e114fbe86f2108c4.mp3
+    url: /files/original/14fbe86f2104e114fbe86f2108c4.mp3
   - fullsize:
     id: 46036
     mime: audio/mpeg
     original_filename: Creel, Vincent 03-19-08 3 of 3.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f21acd114fbe86f21b0b5.mp3
+    url: /files/original/14fbe86f21acd114fbe86f21b0b5.mp3
   - fullsize:
     id: 46037
     mime: application/msword
     original_filename: Creel, Vincent.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f2254c214fbe86f2258a7.doc
+    url: /files/original/14fbe86f2254c214fbe86f2258a7.doc
 geo:
 id: 45562
 item_type: Oral History

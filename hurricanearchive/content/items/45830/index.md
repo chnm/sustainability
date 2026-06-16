@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Roughton, Albert.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871b9760e14fbe871b979f0.doc
+    url: /files/original/14fbe871b9760e14fbe871b979f0.doc
 geo:
 id: 45830
 item_type: Oral History

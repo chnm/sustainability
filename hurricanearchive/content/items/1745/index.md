@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6efc556614fb2a6efc5942.jpg
+  - fullsize: /files/fullsize/14fb2a6efc556614fb2a6efc5942.jpg
     id: 575
     mime: image/jpeg
     original_filename: StAnthonyRomanCatholicCathedralLandmark_c15a8efe6f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6efc556614fb2a6efc5942.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6efc556614fb2a6efc5942.jpg
+    thumb: /files/thumbnails/14fb2a6efc556614fb2a6efc5942.jpg
+    url: /files/original/14fb2a6efc556614fb2a6efc5942.jpg
 geo:
   address: ''
   lat: 30.148461

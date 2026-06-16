@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: julieclaire.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23bcb7ec14fb2a23bcbbd8.html
+    url: /files/original/14fb2a23bcb7ec14fb2a23bcbbd8.html
 geo:
 id: 11734
 item_type: Oral History

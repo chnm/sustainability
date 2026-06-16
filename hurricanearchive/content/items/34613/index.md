@@ -18,12 +18,12 @@ dublin_core:
       text: Ninth Ward Marching Band
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c982c2ad14fb29c982c691.jpg
+  - fullsize: /files/fullsize/14fb29c982c2ad14fb29c982c691.jpg
     id: 24368
     mime: image/pjpeg
     original_filename: henderberg2_7d5225a788.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c982c2ad14fb29c982c691.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c982c2ad14fb29c982c691.jpg
+    thumb: /files/thumbnails/14fb29c982c2ad14fb29c982c691.jpg
+    url: /files/original/14fb29c982c2ad14fb29c982c691.jpg
 geo:
   address: 3500 St. Claude Ave., New Orleans, LA
   lat: 0.0

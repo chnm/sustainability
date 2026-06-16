@@ -15,12 +15,12 @@ dublin_core:
       text: KSARNG blackhawk.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b83b65414fb2a1b83bb0d.jpg
+  - fullsize: /files/fullsize/14fb2a1b83b65414fb2a1b83bb0d.jpg
     id: 11785
     mime: image/jpeg
     original_filename: KSARNG blackhawk.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b83b65414fb2a1b83bb0d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b83b65414fb2a1b83bb0d.jpg
+    thumb: /files/thumbnails/14fb2a1b83b65414fb2a1b83bb0d.jpg
+    url: /files/original/14fb2a1b83b65414fb2a1b83bb0d.jpg
 geo:
   address: ''
   lat: 0.0

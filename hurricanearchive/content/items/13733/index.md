@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: leadership minutes June 21_06_db35842916.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ccccc3814fb2a1cccd28d.doc
+    url: /files/original/14fb2a1ccccc3814fb2a1cccd28d.doc
 geo:
 id: 13733
 item_type: Document

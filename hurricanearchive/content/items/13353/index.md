@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e3e18fb14fb2a1e3e1cdf.jpg
+  - fullsize: /files/fullsize/14fb2a1e3e18fb14fb2a1e3e1cdf.jpg
     id: 11300
     mime: image/jpeg
     original_filename: 104_MG_4840_39ab256394.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e3e18fb14fb2a1e3e1cdf.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e3e18fb14fb2a1e3e1cdf.jpg
+    thumb: /files/thumbnails/14fb2a1e3e18fb14fb2a1e3e1cdf.jpg
+    url: /files/original/14fb2a1e3e18fb14fb2a1e3e1cdf.jpg
 geo:
   address: new oreleans
   lat: 29.97358

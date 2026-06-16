@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc0b394e14fb29cc0b3d33.jpg
+  - fullsize: /files/fullsize/14fb29cc0b394e14fb29cc0b3d33.jpg
     id: 23969
     mime: image/jpeg
     original_filename: DSC_0005_d26338bf4d.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc0b394e14fb29cc0b3d33.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc0b394e14fb29cc0b3d33.jpg
+    thumb: /files/thumbnails/14fb29cc0b394e14fb29cc0b3d33.jpg
+    url: /files/original/14fb29cc0b394e14fb29cc0b3d33.jpg
 geo:
   address: ''
   lat: 0.0

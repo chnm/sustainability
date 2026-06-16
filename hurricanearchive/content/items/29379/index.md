@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: saenger_61215d13c0.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce61d4d514fb29ce61d8b6.pdf
+    url: /files/original/14fb29ce61d4d514fb29ce61d8b6.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

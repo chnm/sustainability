@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Cintra, Victoria.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8707b680c14fbe8707b6bfb.doc
+    url: /files/original/14fbe8707b680c14fbe8707b6bfb.doc
 geo:
 id: 45652
 item_type: Oral History

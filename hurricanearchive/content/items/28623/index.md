@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6851.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d20e0c1714fb29d20e1028.jpg
+  - fullsize: /files/fullsize/14fb29d20e0c1714fb29d20e1028.jpg
     id: 23474
     mime: image/jpg
     original_filename: 159310048_18c3a758f6.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d20e0c1714fb29d20e1028.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d20e0c1714fb29d20e1028.jpg
+    thumb: /files/thumbnails/14fb29d20e0c1714fb29d20e1028.jpg
+    url: /files/original/14fb29d20e0c1714fb29d20e1028.jpg
 geo:
 id: 28623
 item_type: Still Image

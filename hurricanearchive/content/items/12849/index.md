@@ -15,12 +15,12 @@ dublin_core:
       text: Bulldozed streets, Lower 9th ward north of Claiborne.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2173527514fb2a2173565c.jpg
+  - fullsize: /files/fullsize/14fb2a2173527514fb2a2173565c.jpg
     id: 10993
     mime: image/jpeg
     original_filename: Bulldozed streets, Lower 9th ward north of Claiborne.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2173527514fb2a2173565c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2173527514fb2a2173565c.jpg
+    thumb: /files/thumbnails/14fb2a2173527514fb2a2173565c.jpg
+    url: /files/original/14fb2a2173527514fb2a2173565c.jpg
 geo:
 id: 12849
 item_type: Still Image

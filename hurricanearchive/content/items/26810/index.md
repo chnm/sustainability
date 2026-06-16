@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Steve Murphree HK5156K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7a80bf014fb29d7ab2825.mp3
+    url: /files/original/14fb29d7a80bf014fb29d7ab2825.mp3
 geo:
 id: 26810
 item_type: Oral History

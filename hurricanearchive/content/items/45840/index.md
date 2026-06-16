@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Saunders, Wilson B.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871da3fe514fbe871da4398.doc
+    url: /files/original/14fbe871da3fe514fbe871da4398.doc
 geo:
 id: 45840
 item_type: Oral History

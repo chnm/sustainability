@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 16 2006 Entergy to assess costs of hurricane repairs.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35e0e92e14fb2a35e0ed01.txt
+    url: /files/original/14fb2a35e0e92e14fb2a35e0ed01.txt
 geo:
   address: ''
   lat: 0.0

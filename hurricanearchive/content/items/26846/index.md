@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d776cccd14fb29d776d4c8.jpg
+  - fullsize: /files/fullsize/14fb29d776cccd14fb29d776d4c8.jpg
     id: 23030
     mime: image/jpeg
     original_filename: steve luke best groomed_3d4a2da8d7.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d776cccd14fb29d776d4c8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d776cccd14fb29d776d4c8.jpg
+    thumb: /files/thumbnails/14fb29d776cccd14fb29d776d4c8.jpg
+    url: /files/original/14fb29d776cccd14fb29d776d4c8.jpg
 geo:
 id: 26846
 item_type: Still Image

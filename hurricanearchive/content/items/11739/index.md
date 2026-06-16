@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: kristybarnes.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23b9223514fb2a23b9260e.html
+    url: /files/original/14fb2a23b9223514fb2a23b9260e.html
 geo:
 id: 11739
 item_type: Oral History

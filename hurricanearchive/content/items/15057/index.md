@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a176e8b2814fb2a176e8f0c.jpg
+  - fullsize: /files/fullsize/14fb2a176e8b2814fb2a176e8f0c.jpg
     id: 12243
     mime: image/jpeg
     original_filename: Sarma_p2_02_2ba2cf2698.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a176e8b2814fb2a176e8f0c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a176e8b2814fb2a176e8f0c.jpg
+    thumb: /files/thumbnails/14fb2a176e8b2814fb2a176e8f0c.jpg
+    url: /files/original/14fb2a176e8b2814fb2a176e8f0c.jpg
 geo:
   address: 5534 Chamberlain Drive
   lat: 0.0

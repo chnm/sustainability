@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 032satellite.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a13bdf71314fb2a13be3801.jpg
+  - fullsize: /files/fullsize/14fb2a13bdf71314fb2a13be3801.jpg
     id: 15965
     mime: image/jpeg
     original_filename: Picture 032satellite.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a13bdf71314fb2a13be3801.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a13bdf71314fb2a13be3801.jpg
+    thumb: /files/thumbnails/14fb2a13bdf71314fb2a13be3801.jpg
+    url: /files/original/14fb2a13bdf71314fb2a13be3801.jpg
 geo:
 id: 19012
 item_type: Still Image

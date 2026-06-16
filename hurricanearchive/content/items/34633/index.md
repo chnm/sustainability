@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: Online Exclusive_ Hurricane Katrina_ One Year Later_17a7f9d9f1.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c97d466a14fb29c97d4a50.pdf
+    url: /files/original/14fb29c97d466a14fb29c97d4a50.pdf
 geo:
 id: 34633
 item_type: Document

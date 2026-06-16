@@ -17,12 +17,12 @@ dublin_core:
       text: Pontchartrain
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca0d59af14fb29ca0d5d9d.jpg
+  - fullsize: /files/fullsize/14fb29ca0d59af14fb29ca0d5d9d.jpg
     id: 24267
     mime: image/jpg
     original_filename: 2326959502_01458bb744.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca0d59af14fb29ca0d5d9d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca0d59af14fb29ca0d5d9d.jpg
+    thumb: /files/thumbnails/14fb29ca0d59af14fb29ca0d5d9d.jpg
+    url: /files/original/14fb29ca0d59af14fb29ca0d5d9d.jpg
 geo:
   address: ''
   lat: 30.23864

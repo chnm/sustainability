@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Tisdale, Paul.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8720a06cd14fbe8720a0ab2.doc
+    url: /files/original/14fbe8720a06cd14fbe8720a0ab2.doc
 geo:
 id: 45868
 item_type: Oral History

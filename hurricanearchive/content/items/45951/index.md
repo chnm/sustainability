@@ -14,12 +14,12 @@ dublin_core:
       text: Chair Hanging from Chandelier
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/05a552224480a1a30a50f6af9fde89db.jpg
+  - fullsize: /files/fullsize/05a552224480a1a30a50f6af9fde89db.jpg
     id: 46551
     mime: image/jpeg
     original_filename: Sprite.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/05a552224480a1a30a50f6af9fde89db.jpg
-    url: https://hurricanearchive.org/files/original/05a552224480a1a30a50f6af9fde89db.jpg
+    thumb: /files/thumbnails/05a552224480a1a30a50f6af9fde89db.jpg
+    url: /files/original/05a552224480a1a30a50f6af9fde89db.jpg
 geo:
   address: ''
   lat: 30.011389646346

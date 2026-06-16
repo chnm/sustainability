@@ -15,12 +15,12 @@ dublin_core:
       text: 211 debris.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f394cf414fb2a1f3950db.jpg
+  - fullsize: /files/fullsize/14fb2a1f394cf414fb2a1f3950db.jpg
     id: 11227
     mime: image/jpeg
     original_filename: 211 debris.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f394cf414fb2a1f3950db.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f394cf414fb2a1f3950db.jpg
+    thumb: /files/thumbnails/14fb2a1f394cf414fb2a1f3950db.jpg
+    url: /files/original/14fb2a1f394cf414fb2a1f3950db.jpg
 geo:
 id: 13217
 item_type: Still Image

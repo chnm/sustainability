@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d666c47b14fb29d666c861.jpg
+  - fullsize: /files/fullsize/14fb29d666c47b14fb29d666c861.jpg
     id: 23077
     mime: image/jpeg
     original_filename: miss carolemundt_5383963be2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d666c47b14fb29d666c861.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d666c47b14fb29d666c861.jpg
+    thumb: /files/thumbnails/14fb29d666c47b14fb29d666c861.jpg
+    url: /files/original/14fb29d666c47b14fb29d666c861.jpg
 geo:
 id: 26893
 item_type: Still Image

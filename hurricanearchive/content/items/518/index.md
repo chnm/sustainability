@@ -25,7 +25,7 @@ files:
     mime: application/octet-stream
     original_filename: 8_28_05LeavingTown_2afdccd9fe.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6fa8798314fb2a6fa87d4d.mp3
+    url: /files/original/14fb2a6fa8798314fb2a6fa87d4d.mp3
 geo:
   address: ''
   lat: 29.938343

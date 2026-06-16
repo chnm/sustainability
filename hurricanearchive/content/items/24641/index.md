@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0036medics.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e5d9633e14fb29e5d96ec3.jpg
+  - fullsize: /files/fullsize/14fb29e5d9633e14fb29e5d96ec3.jpg
     id: 21585
     mime: image/jpeg
     original_filename: DSC 0036medics.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e5d9633e14fb29e5d96ec3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e5d9633e14fb29e5d96ec3.jpg
+    thumb: /files/thumbnails/14fb29e5d9633e14fb29e5d96ec3.jpg
+    url: /files/original/14fb29e5d9633e14fb29e5d96ec3.jpg
 geo:
 id: 24641
 item_type: Still Image

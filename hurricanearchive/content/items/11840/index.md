@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: The day before the storm.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a231c20ba14fb2a231c249f.doc
+    url: /files/original/14fb2a231c20ba14fb2a231c249f.doc
 geo:
 id: 11840
 item_type: Document

@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: brokenmirrored_d7a8a67987.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d81e38ee14fb29d81e3c23.pdf
+    url: /files/original/14fb29d81e38ee14fb29d81e3c23.pdf
 geo:
   address: ''
   lat: 0.0

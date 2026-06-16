@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Francis Arnona HK0156K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d63ba37f14fb29d63bb95e.mp3
+    url: /files/original/14fb29d63ba37f14fb29d63bb95e.mp3
 geo:
 id: 26921
 item_type: Oral History

@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 24 2006 Slow going in fast food.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35d8158314fb2a35d81961.txt
+    url: /files/original/14fb2a35d8158314fb2a35d81961.txt
 geo:
   address: ''
   lat: 0.0

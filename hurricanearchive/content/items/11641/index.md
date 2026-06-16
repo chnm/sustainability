@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Gabrielle Benn.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a246756fe14fb2a24675adc.htm
+    url: /files/original/14fb2a246756fe14fb2a24675adc.htm
 geo:
 id: 11641
 item_type: Oral History

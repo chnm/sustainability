@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Nguyen, Jessie.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8715f236014fbe8715f2773.doc
+    url: /files/original/14fbe8715f236014fbe8715f2773.doc
 geo:
 id: 45798
 item_type: Oral History

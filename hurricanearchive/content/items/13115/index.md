@@ -15,12 +15,12 @@ dublin_core:
       text: george shooting.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2055b39f14fb2a2055b785.jpg
+  - fullsize: /files/fullsize/14fb2a2055b39f14fb2a2055b785.jpg
     id: 11125
     mime: image/jpeg
     original_filename: george shooting.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2055b39f14fb2a2055b785.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2055b39f14fb2a2055b785.jpg
+    thumb: /files/thumbnails/14fb2a2055b39f14fb2a2055b785.jpg
+    url: /files/original/14fb2a2055b39f14fb2a2055b785.jpg
 geo:
 id: 13115
 item_type: Still Image

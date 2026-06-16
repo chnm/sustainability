@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d783b15914fb29d783b53f.jpg
+  - fullsize: /files/fullsize/14fb29d783b15914fb29d783b53f.jpg
     id: 23022
     mime: image/jpeg
     original_filename: senior faces_556270fdbf.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d783b15914fb29d783b53f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d783b15914fb29d783b53f.jpg
+    thumb: /files/thumbnails/14fb29d783b15914fb29d783b53f.jpg
+    url: /files/original/14fb29d783b15914fb29d783b53f.jpg
 geo:
 id: 26838
 item_type: Still Image

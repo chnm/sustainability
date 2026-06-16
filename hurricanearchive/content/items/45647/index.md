@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Castellon, Morgan.trs (English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8706d398b14fbe8706d3d71.doc
+    url: /files/original/14fbe8706d398b14fbe8706d3d71.doc
   - fullsize:
     id: 46256
     mime: application/msword
     original_filename: Castellon, Morgan.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8706f0a4b14fbe8706f0e31.doc
+    url: /files/original/14fbe8706f0a4b14fbe8706f0e31.doc
 geo:
 id: 45647
 item_type: Oral History

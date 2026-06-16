@@ -22,7 +22,7 @@ files:
     mime: application/msword
     original_filename: katrina superdome susanna powers for hurricanearchiveorg may08_46cbde24ec.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c775595114fb29c7755d39.doc
+    url: /files/original/14fb29c775595114fb29c7755d39.doc
 geo:
   address: 4014 Fairmont Dr., New Orleans
   lat: 0.0

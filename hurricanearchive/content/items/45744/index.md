@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Lawrence, Mandy.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87116c5d014fbe87116c9b8.doc
+    url: /files/original/14fbe87116c5d014fbe87116c9b8.doc
 geo:
 id: 45744
 item_type: Oral History

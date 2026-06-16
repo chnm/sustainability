@@ -21,12 +21,12 @@ dublin_core:
       text: Cemetery Row
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9b57ede14fb29c9b582cd.jpg
+  - fullsize: /files/fullsize/14fb29c9b57ede14fb29c9b582cd.jpg
     id: 24324
     mime: image/jpg
     original_filename: 2310193609_91668345a5.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9b57ede14fb29c9b582cd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9b57ede14fb29c9b582cd.jpg
+    thumb: /files/thumbnails/14fb29c9b57ede14fb29c9b582cd.jpg
+    url: /files/original/14fb29c9b57ede14fb29c9b582cd.jpg
 geo:
 id: 34490
 item_type: Still Image

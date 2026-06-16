@@ -21,12 +21,12 @@ dublin_core:
       text: Photo of Man Participating in Maxx Sizeler\'s Art Project
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d2a4baea14fb29d2a4becf.jpg
+  - fullsize: /files/fullsize/14fb29d2a4baea14fb29d2a4becf.jpg
     id: 23396
     mime: image/pjpeg
     original_filename: brandis_place_HURRICANE_ART021_b005933132.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d2a4baea14fb29d2a4becf.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d2a4baea14fb29d2a4becf.jpg
+    thumb: /files/thumbnails/14fb29d2a4baea14fb29d2a4becf.jpg
+    url: /files/original/14fb29d2a4baea14fb29d2a4becf.jpg
 geo:
   address: 2426 Bradish Place
   lat: 0.0

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Holly Nowell.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a246340ae14fb2a2463458b.html
+    url: /files/original/14fb2a246340ae14fb2a2463458b.html
 geo:
 id: 11647
 item_type: Oral History

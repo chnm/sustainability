@@ -18,12 +18,12 @@ dublin_core:
       text: 20060210_MG_0438.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a641f2d2e14fb2a641f38f5.jpg
+  - fullsize: /files/fullsize/14fb2a641f2d2e14fb2a641f38f5.jpg
     id: 2098
     mime: image/jpeg
     original_filename: 20060210_MG_0438.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a641f2d2e14fb2a641f38f5.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a641f2d2e14fb2a641f38f5.jpg
+    thumb: /files/thumbnails/14fb2a641f2d2e14fb2a641f38f5.jpg
+    url: /files/original/14fb2a641f2d2e14fb2a641f38f5.jpg
 geo:
 id: 2616
 item_type: Still Image

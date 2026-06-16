@@ -25,7 +25,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: christmannemail8_baton_8323a2a828.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a713e01ad14fb2a713e0593.txt
+    url: /files/original/14fb2a713e01ad14fb2a713e0593.txt
 geo:
   address: ''
   lat: 29.98423

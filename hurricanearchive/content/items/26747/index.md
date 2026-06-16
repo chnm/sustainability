@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: CMC_904ab0904f.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d80773ac14fb29d807778f.pdf
+    url: /files/original/14fb29d80773ac14fb29d807778f.pdf
 geo:
 id: 26747
 item_type: Document

@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: One-page Lobby Summary_a36a150072.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18f0059914fb2a18f0096f.doc
+    url: /files/original/14fb2a18f0059914fb2a18f0096f.doc
 geo:
 id: 14515
 item_type: Document

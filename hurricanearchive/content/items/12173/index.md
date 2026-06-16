@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: pressrelease.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a223cfbf714fb2a223cffde.doc
+    url: /files/original/14fb2a223cfbf714fb2a223cffde.doc
 geo:
 id: 12173
 item_type: Document

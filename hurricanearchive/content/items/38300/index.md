@@ -22,7 +22,7 @@ files:
     mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
     original_filename: Andrew Higgins3_f6ec799bfe.docx
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c51ebd1614fb29c51ec100.docx
+    url: /files/original/14fb29c51ebd1614fb29c51ec100.docx
 geo:
   address: 109 jasmine lane
   lat: 29.94532

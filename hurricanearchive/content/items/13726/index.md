@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: SHN Planning Mtg 3_16_06_10c71c901f.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ce222b614fb2a1ce2265e.doc
+    url: /files/original/14fb2a1ce222b614fb2a1ce2265e.doc
 geo:
 id: 13726
 item_type: Document

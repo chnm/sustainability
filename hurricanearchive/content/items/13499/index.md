@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: 000 cover page.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1e18911814fb2a1e1894fc.pdf
+    url: /files/original/14fb2a1e18911814fb2a1e1894fc.pdf
 geo:
 id: 13499
 item_type: Document

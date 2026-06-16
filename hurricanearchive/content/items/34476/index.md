@@ -21,12 +21,12 @@ dublin_core:
       text: Carr Drive Slidell La
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9d4489c14fb29c9d44c72.jpg
+  - fullsize: /files/fullsize/14fb29c9d4489c14fb29c9d44c72.jpg
     id: 24310
     mime: image/jpg
     original_filename: 2326882230_66ab08826a.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9d4489c14fb29c9d44c72.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9d4489c14fb29c9d44c72.jpg
+    thumb: /files/thumbnails/14fb29c9d4489c14fb29c9d44c72.jpg
+    url: /files/original/14fb29c9d4489c14fb29c9d44c72.jpg
 geo:
   address: ''
   lat: 30.20382

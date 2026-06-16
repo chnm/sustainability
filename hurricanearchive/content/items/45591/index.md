@@ -19,25 +19,25 @@ files:
     mime: audio/mpeg
     original_filename: Ellzie, Joel 10-26-05 Side 1.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86fa538e614fbe86fa53cc0.mp3
+    url: /files/original/14fbe86fa538e614fbe86fa53cc0.mp3
   - fullsize:
     id: 46125
     mime: audio/mpeg
     original_filename: Ellzie, Joel 10-26-05 Side 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86fa6cb1414fbe86fa6cefa.mp3
+    url: /files/original/14fbe86fa6cb1414fbe86fa6cefa.mp3
   - fullsize:
     id: 46126
     mime: audio/mpeg
     original_filename: Ellzie, Joel.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86fa776f514fbe86fa77ad0.mp3
+    url: /files/original/14fbe86fa776f514fbe86fa77ad0.mp3
   - fullsize:
     id: 46127
     mime: application/msword
     original_filename: Ellzie, Joel.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86fa826aa14fbe86fa82a90.doc
+    url: /files/original/14fbe86fa826aa14fbe86fa82a90.doc
 geo:
 id: 45591
 item_type: Oral History

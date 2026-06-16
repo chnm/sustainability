@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6eb6dbcb14fb2a6eb6dfa5.jpg
+  - fullsize: /files/fullsize/14fb2a6eb6dbcb14fb2a6eb6dfa5.jpg
     id: 655
     mime: image/jpeg
     original_filename: IMG_0946_0548ef5794.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6eb6dbcb14fb2a6eb6dfa5.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6eb6dbcb14fb2a6eb6dfa5.jpg
+    thumb: /files/thumbnails/14fb2a6eb6dbcb14fb2a6eb6dfa5.jpg
+    url: /files/original/14fb2a6eb6dbcb14fb2a6eb6dfa5.jpg
 geo:
   address: ''
   lat: 30.0076269718883

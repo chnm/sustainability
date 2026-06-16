@@ -19,12 +19,12 @@ dublin_core:
       text: DSC_6745.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1c08ccd14fb29d1c090b3.jpg
+  - fullsize: /files/fullsize/14fb29d1c08ccd14fb29d1c090b3.jpg
     id: 23529
     mime: image/jpg
     original_filename: 157224428_c79582c926.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1c08ccd14fb29d1c090b3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1c08ccd14fb29d1c090b3.jpg
+    thumb: /files/thumbnails/14fb29d1c08ccd14fb29d1c090b3.jpg
+    url: /files/original/14fb29d1c08ccd14fb29d1c090b3.jpg
 geo:
 id: 28684
 item_type: Still Image

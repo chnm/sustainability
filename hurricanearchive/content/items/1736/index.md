@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f01607114fb2a6f016448.jpg
+  - fullsize: /files/fullsize/14fb2a6f01607114fb2a6f016448.jpg
     id: 566
     mime: image/jpeg
     original_filename: NewtonHighSchool_a4efa29d64.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f01607114fb2a6f016448.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f01607114fb2a6f016448.jpg
+    thumb: /files/thumbnails/14fb2a6f01607114fb2a6f016448.jpg
+    url: /files/original/14fb2a6f01607114fb2a6f016448.jpg
 geo:
   address: ''
   lat: 30.148461

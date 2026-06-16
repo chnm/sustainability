@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6949.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d228fd6814fb29d229014c.jpg
+  - fullsize: /files/fullsize/14fb29d228fd6814fb29d229014c.jpg
     id: 23453
     mime: image/jpg
     original_filename: 162358599_7613d46fd5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d228fd6814fb29d229014c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d228fd6814fb29d229014c.jpg
+    thumb: /files/thumbnails/14fb29d228fd6814fb29d229014c.jpg
+    url: /files/original/14fb29d228fd6814fb29d229014c.jpg
 geo:
 id: 28602
 item_type: Still Image

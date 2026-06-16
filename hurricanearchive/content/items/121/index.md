@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a70f1589714fb2a70f15c7b.jpg
+  - fullsize: /files/fullsize/14fb2a70f1589714fb2a70f15c7b.jpg
     id: 94
     mime: image/jpeg
     original_filename: PumpingStation_c7a5934f5e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a70f1589714fb2a70f15c7b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a70f1589714fb2a70f15c7b.jpg
+    thumb: /files/thumbnails/14fb2a70f1589714fb2a70f15c7b.jpg
+    url: /files/original/14fb2a70f1589714fb2a70f15c7b.jpg
 geo:
   address: ''
   lat: 29.9935969771495

@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: WandaDoran.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e15c03014fb2a5e15c40a.wav
+    url: /files/original/14fb2a5e15c03014fb2a5e15c40a.wav
 geo:
 id: 3089
 item_type: Oral History

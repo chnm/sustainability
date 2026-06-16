@@ -17,12 +17,12 @@ dublin_core:
       text: No Parking Any time Flood Line
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb75a1d614fb29cb75a5b6.jpg
+  - fullsize: /files/fullsize/14fb29cb75a1d614fb29cb75a5b6.jpg
     id: 24073
     mime: image/jpg
     original_filename: 1265268133_11629a8ed1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb75a1d614fb29cb75a5b6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb75a1d614fb29cb75a5b6.jpg
+    thumb: /files/thumbnails/14fb29cb75a1d614fb29cb75a5b6.jpg
+    url: /files/original/14fb29cb75a1d614fb29cb75a5b6.jpg
 geo:
 id: 33223
 item_type: Still Image

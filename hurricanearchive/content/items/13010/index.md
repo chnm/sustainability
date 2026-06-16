@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Lady Lives At Holly Beach_0b1e3c64d9.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2137a75b14fb2a2137aeaa.doc
+    url: /files/original/14fb2a2137a75b14fb2a2137aeaa.doc
 geo:
   address: Lake Charles, LA
   lat: 30.22845

@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: MG Mason 4 Oct 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1b3d301f14fb2a1b3d3403.wav
+    url: /files/original/14fb2a1b3d301f14fb2a1b3d3403.wav
 geo:
   address: ''
   lat: 0.0

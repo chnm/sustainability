@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Adam McQueen.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23985cc114fb2a23987997.doc
+    url: /files/original/14fb2a23985cc114fb2a23987997.doc
 geo:
 id: 11763
 item_type: Document

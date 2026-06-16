@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: NickiSabalu_89a46a6244.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7989d6014fb29d798a146.pdf
+    url: /files/original/14fb29d7989d6014fb29d798a146.pdf
 geo:
   address: Congress St
   lat: 0.0

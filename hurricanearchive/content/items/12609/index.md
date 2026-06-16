@@ -26,7 +26,7 @@ files:
     mime: application/octet-stream
     original_filename: DRAFT SHN Report v_b8c6b6b9e0.5.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a22003d8014fb2a22004164.doc
+    url: /files/original/14fb2a22003d8014fb2a22004164.doc
 geo:
   address: ''
   lat: 29.9419

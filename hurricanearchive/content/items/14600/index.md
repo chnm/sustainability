@@ -20,7 +20,7 @@ files:
     mime: application/x-zip-compressed
     original_filename: nyuhurricanereliefrebuildingefforts_781d591fb3.zip
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1884b91414fb2a18853cd0.zip
+    url: /files/original/14fb2a1884b91414fb2a18853cd0.zip
 geo:
 id: 14600
 item_type: Document

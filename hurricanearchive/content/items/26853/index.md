@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d737841714fb29d737884a.jpg
+  - fullsize: /files/fullsize/14fb29d737841714fb29d737884a.jpg
     id: 23037
     mime: image/jpeg
     original_filename: mr wayne warner principal_ee9233f317.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d737841714fb29d737884a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d737841714fb29d737884a.jpg
+    thumb: /files/thumbnails/14fb29d737841714fb29d737884a.jpg
+    url: /files/original/14fb29d737841714fb29d737884a.jpg
 geo:
 id: 26853
 item_type: Still Image

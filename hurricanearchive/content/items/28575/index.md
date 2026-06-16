@@ -14,12 +14,12 @@ dublin_core:
       text: i stayed in new orleans for katrina
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d2423d3914fb29d2424105.jpg
+  - fullsize: /files/fullsize/14fb29d2423d3914fb29d2424105.jpg
     id: 23427
     mime: image/jpg
     original_filename: 176014323_fc01a5ebd0.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d2423d3914fb29d2424105.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d2423d3914fb29d2424105.jpg
+    thumb: /files/thumbnails/14fb29d2423d3914fb29d2424105.jpg
+    url: /files/original/14fb29d2423d3914fb29d2424105.jpg
 geo:
 id: 28575
 item_type: Still Image

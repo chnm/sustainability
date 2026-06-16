@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a171a301414fb2a171a33f2.jpg
+  - fullsize: /files/fullsize/14fb2a171a301414fb2a171a33f2.jpg
     id: 12268
     mime: image/jpeg
     original_filename: Orientation03 (11)-8_c4a5f090c5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a171a301414fb2a171a33f2.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a171a301414fb2a171a33f2.jpg
+    thumb: /files/thumbnails/14fb2a171a301414fb2a171a33f2.jpg
+    url: /files/original/14fb2a171a301414fb2a171a33f2.jpg
 geo:
 id: 15108
 item_type: Still Image

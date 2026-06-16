@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c21bc05314fb29c21bc453.jpg
+  - fullsize: /files/fullsize/14fb29c21bc05314fb29c21bc453.jpg
     id: 25106
     mime: image/jpeg
     original_filename: livingroom_6af58dd6e9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c21bc05314fb29c21bc453.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c21bc05314fb29c21bc453.jpg
+    thumb: /files/thumbnails/14fb29c21bc05314fb29c21bc453.jpg
+    url: /files/original/14fb29c21bc05314fb29c21bc453.jpg
 geo:
   address: 3825 Palmisano Blvd.
   lat: 29.95145

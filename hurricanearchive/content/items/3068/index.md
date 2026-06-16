@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Capt James Hall.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e2b6ca714fb2a5e2d4ffb.wav
+    url: /files/original/14fb2a5e2b6ca714fb2a5e2d4ffb.wav
 geo:
 id: 3068
 item_type: Oral History

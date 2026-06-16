@@ -29,7 +29,7 @@ files:
     mime: application/pdf
     original_filename: completeNightmare_ab2fa06329.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d5bcaa0814fb29d5bcadee.pdf
+    url: /files/original/14fb29d5bcaa0814fb29d5bcadee.pdf
 geo:
   address: St.  Maurice St.
   lat: 0.0

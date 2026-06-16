@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d784edad14fb29d784f19c.jpg
+  - fullsize: /files/fullsize/14fb29d784edad14fb29d784f19c.jpg
     id: 23021
     mime: image/jpeg
     original_filename: 1975faces1_10d718f8aa.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d784edad14fb29d784f19c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d784edad14fb29d784f19c.jpg
+    thumb: /files/thumbnails/14fb29d784edad14fb29d784f19c.jpg
+    url: /files/original/14fb29d784edad14fb29d784f19c.jpg
 geo:
 id: 26837
 item_type: Still Image

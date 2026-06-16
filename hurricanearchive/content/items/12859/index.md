@@ -15,12 +15,12 @@ dublin_core:
       text: london-canal10-29.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2166ae8514fb2a2166b26b.jpg
+  - fullsize: /files/fullsize/14fb2a2166ae8514fb2a2166b26b.jpg
     id: 11003
     mime: image/jpeg
     original_filename: london-canal10-29.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2166ae8514fb2a2166b26b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2166ae8514fb2a2166b26b.jpg
+    thumb: /files/thumbnails/14fb2a2166ae8514fb2a2166b26b.jpg
+    url: /files/original/14fb2a2166ae8514fb2a2166b26b.jpg
 geo:
 id: 12859
 item_type: Still Image

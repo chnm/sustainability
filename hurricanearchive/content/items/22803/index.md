@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 007117thstreetcanal.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f39319b714fb29f3931d9b.jpg
+  - fullsize: /files/fullsize/14fb29f39319b714fb29f3931d9b.jpg
     id: 19754
     mime: image/jpeg
     original_filename: DSC 007117thstreetcanal.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f39319b714fb29f3931d9b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f39319b714fb29f3931d9b.jpg
+    thumb: /files/thumbnails/14fb29f39319b714fb29f3931d9b.jpg
+    url: /files/original/14fb29f39319b714fb29f3931d9b.jpg
 geo:
 id: 22803
 item_type: Still Image

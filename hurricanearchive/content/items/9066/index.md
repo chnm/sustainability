@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 06 01 2006 West End little league fields still in recovery stage in wake of Rita.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35c0ee4914fb2a35c0f28c.txt
+    url: /files/original/14fb2a35c0ee4914fb2a35c0f28c.txt
 geo:
   address: ''
   lat: 0.0

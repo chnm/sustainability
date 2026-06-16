@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Home Health Care After Katrina and Rita_c6d39f91df.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ca59e26214fb29ca59e647.doc
+    url: /files/original/14fb29ca59e26214fb29ca59e647.doc
 geo:
   address: ''
   lat: 30.06909

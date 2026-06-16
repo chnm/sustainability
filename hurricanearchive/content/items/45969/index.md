@@ -11,12 +11,12 @@ dublin_core:
       text: This is just one of the many trees in my neighborhood that was knocked down.  Over the years several hurricanes, such as Katrina, Gustav, and Issac have destroyed more and more trees throughout the community.  In the near future, it seems as if the neighborhood will have fewer and fewer trees.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/5fbb452edade14d19631bcc69c482642.jpg
+  - fullsize: /files/fullsize/5fbb452edade14d19631bcc69c482642.jpg
     id: 46564
     mime: image/jpeg
     original_filename: IMG_0886.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/5fbb452edade14d19631bcc69c482642.jpg
-    url: https://hurricanearchive.org/files/original/5fbb452edade14d19631bcc69c482642.JPG
+    thumb: /files/thumbnails/5fbb452edade14d19631bcc69c482642.jpg
+    url: /files/original/5fbb452edade14d19631bcc69c482642.JPG
 geo:
   address: ''
   lat: 29.953744697923

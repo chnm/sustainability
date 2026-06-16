@@ -24,12 +24,12 @@ dublin_core:
       text: Assessing Oil Damage in Venice
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6666f69d14fb2a6666fe38.jpg
+  - fullsize: /files/fullsize/14fb2a6666f69d14fb2a6666fe38.jpg
     id: 1920
     mime: image/jpeg
     original_filename: apuscg_HURRICAN_KATRI_05C0Y_40ad03e876.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6666f69d14fb2a6666fe38.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6666f69d14fb2a6666fe38.jpg
+    thumb: /files/thumbnails/14fb2a6666f69d14fb2a6666fe38.jpg
+    url: /files/original/14fb2a6666f69d14fb2a6666fe38.jpg
 geo:
 id: 2428
 item_type: Still Image

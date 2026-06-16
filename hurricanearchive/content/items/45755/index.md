@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Lovett, Montel.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87133617414fbe87133655b.doc
+    url: /files/original/14fbe87133617414fbe87133655b.doc
 geo:
 id: 45755
 item_type: Oral History

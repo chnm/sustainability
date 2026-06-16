@@ -20,12 +20,12 @@ dublin_core:
       text: 'Sticks & Stars: Detail of Art Installation by Elizabeth Underwood'
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d265154014fb29d2651cb5.jpg
+  - fullsize: /files/fullsize/14fb29d265154014fb29d2651cb5.jpg
     id: 23418
     mime: image/jpeg
     original_filename: sticks stars_cf0703b1ff.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d265154014fb29d2651cb5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d265154014fb29d2651cb5.jpg
+    thumb: /files/thumbnails/14fb29d265154014fb29d2651cb5.jpg
+    url: /files/original/14fb29d265154014fb29d2651cb5.jpg
 geo:
   address: 2426 Bradish Place
   lat: 0.0

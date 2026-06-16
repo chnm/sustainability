@@ -26,7 +26,7 @@ files:
     mime: audio/wav
     original_filename: mcphee_574464f458.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2235fb7614fb2a223606e9.wav
+    url: /files/original/14fb2a2235fb7614fb2a223606e9.wav
 geo:
   address: ''
   lat: 29.93355

@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d84e7e8b14fb29d84e82bd.jpg
+  - fullsize: /files/fullsize/14fb29d84e7e8b14fb29d84e82bd.jpg
     id: 22906
     mime: image/jpeg
     original_filename: JA 1 1948 aunt Biddy_05f801c492.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d84e7e8b14fb29d84e82bd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d84e7e8b14fb29d84e82bd.jpg
+    thumb: /files/thumbnails/14fb29d84e7e8b14fb29d84e82bd.jpg
+    url: /files/original/14fb29d84e7e8b14fb29d84e82bd.jpg
 geo:
   address: ''
   lat: 29.91685

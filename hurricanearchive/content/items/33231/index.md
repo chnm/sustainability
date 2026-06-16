@@ -17,12 +17,12 @@ dublin_core:
       text: Dixie Double Doors
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb61900014fb29cb619aba.jpg
+  - fullsize: /files/fullsize/14fb29cb61900014fb29cb619aba.jpg
     id: 24081
     mime: image/jpg
     original_filename: 1259921882_1d7a742955.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb61900014fb29cb619aba.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb61900014fb29cb619aba.jpg
+    thumb: /files/thumbnails/14fb29cb61900014fb29cb619aba.jpg
+    url: /files/original/14fb29cb61900014fb29cb619aba.jpg
 geo:
 id: 33231
 item_type: Still Image

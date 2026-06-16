@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Megan Houghton2.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a233b097814fb2a233b0d65.doc
+    url: /files/original/14fb2a233b097814fb2a233b0d65.doc
 geo:
 id: 11814
 item_type: Document

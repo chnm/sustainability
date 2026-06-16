@@ -14,12 +14,12 @@ dublin_core:
       text: not our problem dude
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d244774c14fb29d2447b30.jpg
+  - fullsize: /files/fullsize/14fb29d244774c14fb29d2447b30.jpg
     id: 23425
     mime: image/jpg
     original_filename: 176014486_6d80738761.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d244774c14fb29d2447b30.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d244774c14fb29d2447b30.jpg
+    thumb: /files/thumbnails/14fb29d244774c14fb29d2447b30.jpg
+    url: /files/original/14fb29d244774c14fb29d2447b30.jpg
 geo:
 id: 28573
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Robert O'Neal2.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23ec7a8214fb2a23ec7e8c.htm
+    url: /files/original/14fb2a23ec7a8214fb2a23ec7e8c.htm
 geo:
 id: 11692
 item_type: Oral History

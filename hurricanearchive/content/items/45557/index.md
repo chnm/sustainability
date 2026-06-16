@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Burney, Dorothy W. 2-22-07.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f16be2714fbe86f16c3d7.mp3
+    url: /files/original/14fbe86f16be2714fbe86f16c3d7.mp3
   - fullsize:
     id: 46023
     mime: application/msword
     original_filename: Burney, Dorothy W(820).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f17627214fbe86f176610.doc
+    url: /files/original/14fbe86f17627214fbe86f176610.doc
 geo:
 id: 45557
 item_type: Oral History

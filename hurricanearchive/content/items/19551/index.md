@@ -15,12 +15,12 @@ dublin_core:
       text: S4300005zephyrfield.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0f46ecb514fb2a0f46f1a9.jpg
+  - fullsize: /files/fullsize/14fb2a0f46ecb514fb2a0f46f1a9.jpg
     id: 16504
     mime: image/jpeg
     original_filename: S4300005zephyrfield.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0f46ecb514fb2a0f46f1a9.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0f46ecb514fb2a0f46f1a9.jpg
+    thumb: /files/thumbnails/14fb2a0f46ecb514fb2a0f46f1a9.jpg
+    url: /files/original/14fb2a0f46ecb514fb2a0f46f1a9.jpg
 geo:
 id: 19551
 item_type: Still Image

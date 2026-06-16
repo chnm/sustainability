@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7dae9d914fb29d7daedca.jpg
+  - fullsize: /files/fullsize/14fb29d7dae9d914fb29d7daedca.jpg
     id: 22970
     mime: image/jpeg
     original_filename: WC family history_47efb1681d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7dae9d914fb29d7daedca.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7dae9d914fb29d7daedca.jpg
+    thumb: /files/thumbnails/14fb29d7dae9d914fb29d7daedca.jpg
+    url: /files/original/14fb29d7dae9d914fb29d7daedca.jpg
 geo:
   address: ''
   lat: 29.95493

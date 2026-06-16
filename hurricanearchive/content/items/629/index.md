@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f546c1314fb2a6f546ff9.jpg
+  - fullsize: /files/fullsize/14fb2a6f546c1314fb2a6f546ff9.jpg
     id: 467
     mime: image/png
     original_filename: Dead_Fish_on_the_Amite_River_after_Katrina_eff8a73b64.png
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f546c1314fb2a6f546ff9.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f546c1314fb2a6f546ff9.jpg
+    thumb: /files/thumbnails/14fb2a6f546c1314fb2a6f546ff9.jpg
+    url: /files/original/14fb2a6f546c1314fb2a6f546ff9.jpg
 geo:
   address: ''
   lat: 30.342352

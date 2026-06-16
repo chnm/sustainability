@@ -26,7 +26,7 @@ files:
     mime: application/msword
     original_filename: Katrina_and_People_with_Special_Needs_11f30306d1.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a702cd95514fb2a702cdd3a.doc
+    url: /files/original/14fb2a702cd95514fb2a702cdd3a.doc
 geo:
   address: ''
   lat: 30.40829

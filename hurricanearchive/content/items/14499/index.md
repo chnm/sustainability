@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: '[SHN] SHN Statement of Principles Process_5980a0d5c4.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1910461314fb2a191049f9.doc
+    url: /files/original/14fb2a1910461314fb2a191049f9.doc
 geo:
 id: 14499
 item_type: Document

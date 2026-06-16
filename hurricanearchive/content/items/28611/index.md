@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6913.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d223587a14fb29d2235c5f.jpg
+  - fullsize: /files/fullsize/14fb29d223587a14fb29d2235c5f.jpg
     id: 23462
     mime: image/jpg
     original_filename: 162062807_3868d89f5e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d223587a14fb29d2235c5f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d223587a14fb29d2235c5f.jpg
+    thumb: /files/thumbnails/14fb29d223587a14fb29d2235c5f.jpg
+    url: /files/original/14fb29d223587a14fb29d2235c5f.jpg
 geo:
 id: 28611
 item_type: Still Image

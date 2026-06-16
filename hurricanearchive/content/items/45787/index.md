@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Montelongo, Josefina.trs (English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87155310414fbe8715534e4.doc
+    url: /files/original/14fbe87155310414fbe8715534e4.doc
   - fullsize:
     id: 46417
     mime: application/msword
     original_filename: Montelongo, Josefina.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87155e0b714fbe87155e4d5.doc
+    url: /files/original/14fbe87155e0b714fbe87155e4d5.doc
 geo:
 id: 45787
 item_type: Oral History

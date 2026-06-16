@@ -23,7 +23,7 @@ files:
     mime: video/mp4
     original_filename: RestNORest.mp4
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5743306c14fb2a574335ff.mp4
+    url: /files/original/14fb2a5743306c14fb2a574335ff.mp4
 geo:
 id: 4325
 item_type: Moving Image

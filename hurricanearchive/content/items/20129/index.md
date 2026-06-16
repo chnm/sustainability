@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 226cplthompson.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0b254b8b14fb2a0b254fdb.jpg
+  - fullsize: /files/fullsize/14fb2a0b254b8b14fb2a0b254fdb.jpg
     id: 17082
     mime: image/jpeg
     original_filename: Picture 226cplthompson.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0b254b8b14fb2a0b254fdb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0b254b8b14fb2a0b254fdb.jpg
+    thumb: /files/thumbnails/14fb2a0b254b8b14fb2a0b254fdb.jpg
+    url: /files/original/14fb2a0b254b8b14fb2a0b254fdb.jpg
 geo:
 id: 20129
 item_type: Still Image

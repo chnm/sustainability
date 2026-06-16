@@ -21,12 +21,12 @@ dublin_core:
       text: WOLDENBERG_FOG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9b8803f14fb29c9b8842c.jpg
+  - fullsize: /files/fullsize/14fb29c9b8803f14fb29c9b8842c.jpg
     id: 24320
     mime: image/jpg
     original_filename: 2310200457_f3f1ffe286.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9b8803f14fb29c9b8842c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9b8803f14fb29c9b8842c.jpg
+    thumb: /files/thumbnails/14fb29c9b8803f14fb29c9b8842c.jpg
+    url: /files/original/14fb29c9b8803f14fb29c9b8842c.jpg
 geo:
   address: ''
   lat: 30.22586

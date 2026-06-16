@@ -15,12 +15,12 @@ dublin_core:
       text: firerescue.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1950422214fb2a19504f9a.jpg
+  - fullsize: /files/fullsize/14fb2a1950422214fb2a19504f9a.jpg
     id: 12015
     mime: image/jpeg
     original_filename: firerescue.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1950422214fb2a19504f9a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1950422214fb2a19504f9a.jpg
+    thumb: /files/thumbnails/14fb2a1950422214fb2a19504f9a.jpg
+    url: /files/original/14fb2a1950422214fb2a19504f9a.jpg
 geo:
 id: 14391
 item_type: Still Image

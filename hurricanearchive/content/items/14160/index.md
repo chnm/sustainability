@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: MAJ Edward Gargas 1OCT05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1b4db01e14fb2a1b4db401.wav
+    url: /files/original/14fb2a1b4db01e14fb2a1b4db401.wav
 geo:
   address: ''
   lat: 0.0

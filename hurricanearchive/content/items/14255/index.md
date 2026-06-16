@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: The Allstate Saga.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1a65da8114fb2a1a65de66.pdf
+    url: /files/original/14fb2a1a65da8114fb2a1a65de66.pdf
 geo:
 id: 14255
 item_type: Document

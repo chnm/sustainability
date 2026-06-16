@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Tarkan Weston.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23cece4f14fb2a23ced8bc.htm
+    url: /files/original/14fb2a23cece4f14fb2a23ced8bc.htm
 geo:
 id: 11710
 item_type: Oral History

@@ -25,7 +25,7 @@ files:
     mime: application/msword
     original_filename: Katrina_Blog_eec7a19876.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a7074543b14fb2a7074583b.doc
+    url: /files/original/14fb2a7074543b14fb2a7074583b.doc
 geo:
   address: ''
   lat: 30.379561

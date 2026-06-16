@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c1ea8f3614fb29c1ea999b.jpg
+  - fullsize: /files/fullsize/14fb29c1ea8f3614fb29c1ea999b.jpg
     id: 25111
     mime: image/png
     original_filename: Image7_b7b82fde85.png
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c1ea8f3614fb29c1ea999b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c1ea8f3614fb29c1ea999b.jpg
+    thumb: /files/thumbnails/14fb29c1ea8f3614fb29c1ea999b.jpg
+    url: /files/original/14fb29c1ea8f3614fb29c1ea999b.jpg
 geo:
   address: 5008 Janice Avenue Kenner, Louisiana
   lat: 0.0

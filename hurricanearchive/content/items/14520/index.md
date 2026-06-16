@@ -20,7 +20,7 @@ files:
     mime: application/octet-stream
     original_filename: Lobbying Message_36ad1c755f.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18ec75c314fb2a18ec7dc6.doc
+    url: /files/original/14fb2a18ec75c314fb2a18ec7dc6.doc
 geo:
 id: 14520
 item_type: Document

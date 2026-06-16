@@ -17,12 +17,12 @@ dublin_core:
       text: Land Locked Boat
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb72e41914fb29cb72eaa1.jpg
+  - fullsize: /files/fullsize/14fb29cb72e41914fb29cb72eaa1.jpg
     id: 24075
     mime: image/jpg
     original_filename: 1260570161_ab564fe090.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb72e41914fb29cb72eaa1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb72e41914fb29cb72eaa1.jpg
+    thumb: /files/thumbnails/14fb29cb72e41914fb29cb72eaa1.jpg
+    url: /files/original/14fb29cb72e41914fb29cb72eaa1.jpg
 geo:
 id: 33225
 item_type: Still Image

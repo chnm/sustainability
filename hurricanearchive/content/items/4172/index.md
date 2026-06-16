@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a574f00e414fb2a574f04d0.jpg
+  - fullsize: /files/fullsize/14fb2a574f00e414fb2a574f04d0.jpg
     id: 3582
     mime: image/jpeg
     original_filename: souvenier_city_sign_giltport_b2f1996b7c_f8378990b0.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a574f00e414fb2a574f04d0.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a574f00e414fb2a574f04d0.jpg
+    thumb: /files/thumbnails/14fb2a574f00e414fb2a574f04d0.jpg
+    url: /files/original/14fb2a574f00e414fb2a574f04d0.jpg
 geo:
 id: 4172
 item_type: Still Image

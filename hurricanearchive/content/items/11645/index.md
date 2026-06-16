@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Holis S. Williams.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2464e61b14fb2a2464ea01.html
+    url: /files/original/14fb2a2464e61b14fb2a2464ea01.html
 geo:
 id: 11645
 item_type: Oral History

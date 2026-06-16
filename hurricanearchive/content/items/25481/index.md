@@ -20,7 +20,7 @@ files:
     mime: audio/mp3
     original_filename: Isabelle_McCormick_Wooden_Shoes_5c11ee12ee.MP3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dd93952a14fb29dd939910.MP3
+    url: /files/original/14fb29dd93952a14fb29dd939910.MP3
 geo:
 id: 25481
 item_type: Document

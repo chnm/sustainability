@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Brister, Eddie 2-21-07.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ef358b614fbe86ef35ca3.mp3
+    url: /files/original/14fbe86ef358b614fbe86ef35ca3.mp3
   - fullsize:
     id: 45996
     mime: application/msword
     original_filename: Brister, Eddie.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ef3fcbf14fbe86ef400a4.doc
+    url: /files/original/14fbe86ef3fcbf14fbe86ef400a4.doc
 geo:
 id: 45549
 item_type: Oral History

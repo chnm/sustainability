@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Robinson, LaShonya.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871ab861e14fbe871ab8dcb.doc
+    url: /files/original/14fbe871ab861e14fbe871ab8dcb.doc
 geo:
 id: 45825
 item_type: Oral History

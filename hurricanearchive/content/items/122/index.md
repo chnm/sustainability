@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a70f0917814fb2a70f09552.jpg
+  - fullsize: /files/fullsize/14fb2a70f0917814fb2a70f09552.jpg
     id: 95
     mime: image/jpeg
     original_filename: 02090543new_orleans_burning_28487fca5a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a70f0917814fb2a70f09552.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a70f0917814fb2a70f09552.jpg
+    thumb: /files/thumbnails/14fb2a70f0917814fb2a70f09552.jpg
+    url: /files/original/14fb2a70f0917814fb2a70f09552.jpg
 geo:
   address: ''
   lat: 29.9192328048421

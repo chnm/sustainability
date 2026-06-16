@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Re [SHN] Lobby Update_d7de0f8974.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18e380c414fb2a18e384aa.doc
+    url: /files/original/14fb2a18e380c414fb2a18e384aa.doc
 geo:
 id: 14547
 item_type: Document

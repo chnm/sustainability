@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: quentincrabtree.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23b5de5714fb2a23b5e24a.html
+    url: /files/original/14fb2a23b5de5714fb2a23b5e24a.html
 geo:
 id: 11744
 item_type: Oral History

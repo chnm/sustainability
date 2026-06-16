@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a70ce76be14fb2a70ce7a9b.jpg
+  - fullsize: /files/fullsize/14fb2a70ce76be14fb2a70ce7a9b.jpg
     id: 126
     mime: image/jpeg
     original_filename: IMG_2186_e8dbb99af3.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a70ce76be14fb2a70ce7a9b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a70ce76be14fb2a70ce7a9b.jpg
+    thumb: /files/thumbnails/14fb2a70ce76be14fb2a70ce7a9b.jpg
+    url: /files/original/14fb2a70ce76be14fb2a70ce7a9b.jpg
 geo:
   address: ''
   lat: 30.030902

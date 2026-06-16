@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d8924c7614fb29d8924fac.jpg
+  - fullsize: /files/fullsize/14fb29d8924c7614fb29d8924fac.jpg
     id: 22884
     mime: image/jpeg
     original_filename: HS 5 AIrline Hwy 1940s_1c3846a6e9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d8924c7614fb29d8924fac.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d8924c7614fb29d8924fac.jpg
+    thumb: /files/thumbnails/14fb29d8924c7614fb29d8924fac.jpg
+    url: /files/original/14fb29d8924c7614fb29d8924fac.jpg
 geo:
   address: ''
   lat: 29.87876

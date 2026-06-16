@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a21ac5bd914fb2a21ac5fbf.jpg
+  - fullsize: /files/fullsize/14fb2a21ac5bd914fb2a21ac5fbf.jpg
     id: 10971
     mime: image/pjpeg
     original_filename: taco bell_6f28a5b339.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a21ac5bd914fb2a21ac5fbf.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a21ac5bd914fb2a21ac5fbf.jpg
+    thumb: /files/thumbnails/14fb2a21ac5bd914fb2a21ac5fbf.jpg
+    url: /files/original/14fb2a21ac5bd914fb2a21ac5fbf.jpg
 geo:
   address: ''
   lat: 30.39849

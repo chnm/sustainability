@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Operation Katrina ASOL.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d06362b014fb29d0636696.ppt
+    url: /files/original/14fb29d06362b014fb29d0636696.ppt
 geo:
 id: 29056
 item_type: Document

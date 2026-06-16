@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: FinalDraftScriptkatrina2006.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a224790b114fb2a22479499.doc
+    url: /files/original/14fb2a224790b114fb2a22479499.doc
 geo:
 id: 12159
 item_type: Document

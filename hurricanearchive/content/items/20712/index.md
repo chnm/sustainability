@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0063-16.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a04c0d70314fb2a04c0dafd.jpg
+  - fullsize: /files/fullsize/14fb2a04c0d70314fb2a04c0dafd.jpg
     id: 17665
     mime: image/jpeg
     original_filename: DSC 0063-16.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a04c0d70314fb2a04c0dafd.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a04c0d70314fb2a04c0dafd.jpg
+    thumb: /files/thumbnails/14fb2a04c0d70314fb2a04c0dafd.jpg
+    url: /files/original/14fb2a04c0d70314fb2a04c0dafd.jpg
 geo:
 id: 20712
 item_type: Still Image

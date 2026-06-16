@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Statement_of_Commitment_FINAL_cad0884b24.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18f1d7af14fb2a18f1db30.doc
+    url: /files/original/14fb2a18f1d7af14fb2a18f1db30.doc
 geo:
 id: 14513
 item_type: Document

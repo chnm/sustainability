@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Vinson Bridget HK1256K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d5f89a2b14fb29d5f89e10.mp3
+    url: /files/original/14fb29d5f89a2b14fb29d5f89e10.mp3
 geo:
 id: 26942
 item_type: Oral History

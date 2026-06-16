@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f4de65214fb2a6f4dea2d.jpg
+  - fullsize: /files/fullsize/14fb2a6f4de65214fb2a6f4dea2d.jpg
     id: 475
     mime: image/png
     original_filename: Fernando_TVE_61a9fc7419.png
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f4de65214fb2a6f4dea2d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f4de65214fb2a6f4dea2d.jpg
+    thumb: /files/thumbnails/14fb2a6f4de65214fb2a6f4dea2d.jpg
+    url: /files/original/14fb2a6f4de65214fb2a6f4dea2d.jpg
 geo:
   address: ''
   lat: 30.342352

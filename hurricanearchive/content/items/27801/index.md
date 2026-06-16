@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: KoenigA_Eye of Storm_Federalist-wtr 06_07_f67de48fc4.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d2b6adc714fb29d2b6b1ac.pdf
+    url: /files/original/14fb29d2b6adc714fb29d2b6b1ac.pdf
 geo:
 id: 27801
 item_type: Document

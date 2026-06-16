@@ -15,12 +15,12 @@ dublin_core:
       text: 1SG Lawrence Marold.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e92d62d614fb29e92d66c7.jpg
+  - fullsize: /files/fullsize/14fb29e92d62d614fb29e92d66c7.jpg
     id: 21208
     mime: image/jpeg
     original_filename: 1SG Lawrence Marold.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e92d62d614fb29e92d66c7.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e92d62d614fb29e92d66c7.jpg
+    thumb: /files/thumbnails/14fb29e92d62d614fb29e92d66c7.jpg
+    url: /files/original/14fb29e92d62d614fb29e92d66c7.jpg
 geo:
 id: 24264
 item_type: Still Image

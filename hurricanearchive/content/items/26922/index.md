@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Gary Herr HK3356K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d639038f14fb29d6390f58.mp3
+    url: /files/original/14fb29d639038f14fb29d6390f58.mp3
 geo:
 id: 26922
 item_type: Oral History

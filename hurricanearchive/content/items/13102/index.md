@@ -15,12 +15,12 @@ dublin_core:
       text: end look east.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2062961514fb2a206299fb.jpg
+  - fullsize: /files/fullsize/14fb2a2062961514fb2a206299fb.jpg
     id: 11112
     mime: image/jpeg
     original_filename: end look east.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2062961514fb2a206299fb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2062961514fb2a206299fb.jpg
+    thumb: /files/thumbnails/14fb2a2062961514fb2a206299fb.jpg
+    url: /files/original/14fb2a2062961514fb2a206299fb.jpg
 geo:
 id: 13102
 item_type: Still Image

@@ -21,12 +21,12 @@ dublin_core:
       text: Boats Washed A Shore in Eden Isles
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9b9b0e514fb29c9b9b4ca.jpg
+  - fullsize: /files/fullsize/14fb29c9b9b0e514fb29c9b9b4ca.jpg
     id: 24319
     mime: image/jpg
     original_filename: 2326882748_9547df3cb2.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9b9b0e514fb29c9b9b4ca.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9b9b0e514fb29c9b9b4ca.jpg
+    thumb: /files/thumbnails/14fb29c9b9b0e514fb29c9b9b4ca.jpg
+    url: /files/original/14fb29c9b9b0e514fb29c9b9b4ca.jpg
 geo:
   address: ''
   lat: 30.22586

@@ -17,7 +17,7 @@ files:
     mime: audio/mpeg
     original_filename: Yancey, Jim 2-22-07.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870482a8314fbe870482e62.mp3
+    url: /files/original/14fbe870482a8314fbe870482e62.mp3
 geo:
 id: 45623
 item_type: Oral History

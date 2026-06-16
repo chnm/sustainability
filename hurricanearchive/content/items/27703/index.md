@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d2caea7914fb29d2caee5e.jpg
+  - fullsize: /files/fullsize/14fb29d2caea7914fb29d2caee5e.jpg
     id: 23363
     mime: image/jpeg
     original_filename: _MG_6619_8f893bcf07.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d2caea7914fb29d2caee5e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d2caea7914fb29d2caee5e.jpg
+    thumb: /files/thumbnails/14fb29d2caea7914fb29d2caee5e.jpg
+    url: /files/original/14fb29d2caea7914fb29d2caee5e.jpg
 geo:
   address: lake pontchartrain
   lat: 30.20379

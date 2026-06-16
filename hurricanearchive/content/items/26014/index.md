@@ -26,7 +26,7 @@ files:
     mime: video/mp4
     original_filename: NWT-Greta's Grandfather's House.mp4
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dba9a7f914fb29dba9e192.mp4
+    url: /files/original/14fb29dba9a7f914fb29dba9e192.mp4
 geo:
   address: 5440 Law Street, New Orleans
   lat: 29.97694

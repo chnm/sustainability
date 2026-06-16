@@ -21,12 +21,12 @@ dublin_core:
       text: Photo of Bayou Behind Leggio\'s home
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9a09a0814fb29c9a09df2.jpg
+  - fullsize: /files/fullsize/14fb29c9a09a0814fb29c9a09df2.jpg
     id: 24342
     mime: image/jpg
     original_filename: 2291279761_bca860758c.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9a09a0814fb29c9a09df2.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9a09a0814fb29c9a09df2.jpg
+    thumb: /files/thumbnails/14fb29c9a09a0814fb29c9a09df2.jpg
+    url: /files/original/14fb29c9a09a0814fb29c9a09df2.jpg
 geo:
   address: ''
   lat: 30.22539

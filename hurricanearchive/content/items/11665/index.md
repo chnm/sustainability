@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Joshua Ronald Bowling.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2435177c14fb2a24351b60.htm
+    url: /files/original/14fb2a2435177c14fb2a24351b60.htm
 geo:
 id: 11665
 item_type: Oral History

@@ -25,7 +25,7 @@ files:
     mime: audio/mpeg
     original_filename: Jack_Strange__Get_It_Right122305_f986120426.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6f6af44614fb2a6f6af65e.mp3
+    url: /files/original/14fb2a6f6af44614fb2a6f6af65e.mp3
 geo:
   address: ''
   lat: 30.0248133340817

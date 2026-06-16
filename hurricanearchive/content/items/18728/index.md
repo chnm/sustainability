@@ -15,12 +15,12 @@ dublin_core:
       text: S4300094alero.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1557bb2514fb2a1557bf0b.jpg
+  - fullsize: /files/fullsize/14fb2a1557bb2514fb2a1557bf0b.jpg
     id: 15681
     mime: image/jpeg
     original_filename: S4300094alero.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1557bb2514fb2a1557bf0b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1557bb2514fb2a1557bf0b.jpg
+    thumb: /files/thumbnails/14fb2a1557bb2514fb2a1557bf0b.jpg
+    url: /files/original/14fb2a1557bb2514fb2a1557bf0b.jpg
 geo:
 id: 18728
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: ralphbrouh.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23b526cf14fb2a23b52ab4.html
+    url: /files/original/14fb2a23b526cf14fb2a23b52ab4.html
 geo:
 id: 11745
 item_type: Oral History

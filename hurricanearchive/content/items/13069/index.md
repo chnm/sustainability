@@ -15,12 +15,12 @@ dublin_core:
       text: begin windy2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20947bd014fb2a209481df.jpg
+  - fullsize: /files/fullsize/14fb2a20947bd014fb2a209481df.jpg
     id: 11079
     mime: image/jpeg
     original_filename: begin windy2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20947bd014fb2a209481df.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20947bd014fb2a209481df.jpg
+    thumb: /files/thumbnails/14fb2a20947bd014fb2a209481df.jpg
+    url: /files/original/14fb2a20947bd014fb2a209481df.jpg
 geo:
 id: 13069
 item_type: Still Image

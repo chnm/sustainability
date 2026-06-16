@@ -15,12 +15,12 @@ dublin_core:
       text: Damaged Platform with an Oil Slick.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb66351514fb29fb6638fa.jpg
+  - fullsize: /files/fullsize/14fb29fb66351514fb29fb6638fa.jpg
     id: 18792
     mime: image/jpeg
     original_filename: Damaged Platform with an Oil Slick.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb66351514fb29fb6638fa.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb66351514fb29fb6638fa.jpg
+    thumb: /files/thumbnails/14fb29fb66351514fb29fb6638fa.jpg
+    url: /files/original/14fb29fb66351514fb29fb6638fa.jpg
 geo:
 id: 21841
 item_type: Still Image

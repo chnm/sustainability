@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dbef40b214fb29dbf0023e.jpg
+  - fullsize: /files/fullsize/14fb29dbef40b214fb29dbf0023e.jpg
     id: 22586
     mime: image/jpeg
     original_filename: chalmettecup_5415431d7c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dbef40b214fb29dbf0023e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dbef40b214fb29dbf0023e.jpg
+    thumb: /files/thumbnails/14fb29dbef40b214fb29dbf0023e.jpg
+    url: /files/original/14fb29dbef40b214fb29dbf0023e.jpg
 geo:
 id: 25824
 item_type: Still Image

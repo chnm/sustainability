@@ -15,12 +15,12 @@ dublin_core:
       text: Katrina (Candice) 074.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a229eb9b514fb2a229ebc32.jpg
+  - fullsize: /files/fullsize/14fb2a229eb9b514fb2a229ebc32.jpg
     id: 10782
     mime: image/jpeg
     original_filename: Katrina (Candice) 074.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a229eb9b514fb2a229ebc32.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a229eb9b514fb2a229ebc32.jpg
+    thumb: /files/thumbnails/14fb2a229eb9b514fb2a229ebc32.jpg
+    url: /files/original/14fb2a229eb9b514fb2a229ebc32.jpg
 geo:
 id: 11952
 item_type: Still Image

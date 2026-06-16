@@ -19,25 +19,25 @@ files:
     mime: audio/mpeg
     original_filename: Beasley, Rev. Zachary 06-16-08 1 of 3.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e8ec00214fbe86e8ec3dd.mp3
+    url: /files/original/14fbe86e8ec00214fbe86e8ec3dd.mp3
   - fullsize:
     id: 45946
     mime: audio/mpeg
     original_filename: Beasley, Rev. Zachary 06-16-08 2 of 3.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e903d1014fbe86e9040f5.mp3
+    url: /files/original/14fbe86e903d1014fbe86e9040f5.mp3
   - fullsize:
     id: 45947
     mime: audio/mpeg
     original_filename: Beasley, Rev. Zachary 06-16-08 3 of 3.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e9146b114fbe86e914a87.mp3
+    url: /files/original/14fbe86e9146b114fbe86e914a87.mp3
   - fullsize:
     id: 45948
     mime: application/msword
     original_filename: Beasley, Zachary.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e939c3414fbe86e93a010.doc
+    url: /files/original/14fbe86e939c3414fbe86e93a010.doc
 geo:
 id: 45534
 item_type: Oral History

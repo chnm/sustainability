@@ -24,12 +24,12 @@ dublin_core:
       text: Vessel Recovery Efforts
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a665afe5714fb2a665b0234.jpg
+  - fullsize: /files/fullsize/14fb2a665afe5714fb2a665b0234.jpg
     id: 1923
     mime: image/jpeg
     original_filename: apuscg_VESSEL_RECOVER_05CIA_d65b6db925.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a665afe5714fb2a665b0234.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a665afe5714fb2a665b0234.jpg
+    thumb: /files/thumbnails/14fb2a665afe5714fb2a665b0234.jpg
+    url: /files/original/14fb2a665afe5714fb2a665b0234.jpg
 geo:
 id: 2431
 item_type: Still Image

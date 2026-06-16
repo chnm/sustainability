@@ -22,7 +22,7 @@ files:
     mime: application/octet-stream
     original_filename: ANALYSIS OHH 12 4 _433083f09d.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a21fcb51614fb2a21fcb8ec.doc
+    url: /files/original/14fb2a21fcb51614fb2a21fcb8ec.doc
 geo:
   address: 367 Main Street
   lat: 41.65306

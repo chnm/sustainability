@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: 08-31-06 Agenda_b0d2b47f56.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ca936af14fb2a1ca93fe7.doc
+    url: /files/original/14fb2a1ca936af14fb2a1ca93fe7.doc
 geo:
 id: 13815
 item_type: Document

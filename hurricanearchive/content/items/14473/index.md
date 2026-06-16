@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1927a74d14fb2a1927adbe.jpg
+  - fullsize: /files/fullsize/14fb2a1927a74d14fb2a1927adbe.jpg
     id: 12044
     mime: image/jpeg
     original_filename: Graffitti014_09381a824f.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1927a74d14fb2a1927adbe.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1927a74d14fb2a1927adbe.jpg
+    thumb: /files/thumbnails/14fb2a1927a74d14fb2a1927adbe.jpg
+    url: /files/original/14fb2a1927a74d14fb2a1927adbe.jpg
 geo:
   address: 2600 Royal Street
   lat: 29.96482

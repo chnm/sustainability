@@ -24,12 +24,12 @@ dublin_core:
       text: 'AD:  New Orleans After the Deluge, Prologue, Part I'
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbed84fc14fb29cbed88e2.jpg
+  - fullsize: /files/fullsize/14fb29cbed84fc14fb29cbed88e2.jpg
     id: 24004
     mime: image/jpeg
     original_filename: adcp01-1_c1d28eaefd.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbed84fc14fb29cbed88e2.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbed84fc14fb29cbed88e2.jpg
+    thumb: /files/thumbnails/14fb29cbed84fc14fb29cbed88e2.jpg
+    url: /files/original/14fb29cbed84fc14fb29cbed88e2.jpg
 geo:
 id: 32518
 item_type: Hyperlink

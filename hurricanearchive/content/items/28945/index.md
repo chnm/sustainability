@@ -21,12 +21,12 @@ dublin_core:
       text: Ailing Creature
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d15435a814fb29d15439be.jpg
+  - fullsize: /files/fullsize/14fb29d15435a814fb29d15439be.jpg
     id: 23564
     mime: image/jpeg
     original_filename: creature_7d48127408.jpg.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d15435a814fb29d15439be.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d15435a814fb29d15439be.jpg
+    thumb: /files/thumbnails/14fb29d15435a814fb29d15439be.jpg
+    url: /files/original/14fb29d15435a814fb29d15439be.jpg
 geo:
   address: 2426 Bradish Place
   lat: 0.0

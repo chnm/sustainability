@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_737dfb9739.Where.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cadb6b0714fb29cadb700b.doc
+    url: /files/original/14fb29cadb6b0714fb29cadb700b.doc
 geo:
 id: 33303
 item_type: Document

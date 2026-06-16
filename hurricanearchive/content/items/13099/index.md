@@ -15,12 +15,12 @@ dublin_core:
       text: end debris2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2065e97614fb2a2065ed5e.jpg
+  - fullsize: /files/fullsize/14fb2a2065e97614fb2a2065ed5e.jpg
     id: 11109
     mime: image/jpeg
     original_filename: end debris2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2065e97614fb2a2065ed5e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2065e97614fb2a2065ed5e.jpg
+    thumb: /files/thumbnails/14fb2a2065e97614fb2a2065ed5e.jpg
+    url: /files/original/14fb2a2065e97614fb2a2065ed5e.jpg
 geo:
 id: 13099
 item_type: Still Image

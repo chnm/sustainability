@@ -15,12 +15,12 @@ dublin_core:
       text: Behind the Superdome 5superdome.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e532c15e14fb29e532c62d.jpg
+  - fullsize: /files/fullsize/14fb29e532c15e14fb29e532c62d.jpg
     id: 21688
     mime: image/jpeg
     original_filename: Behind the Superdome 5superdome.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e532c15e14fb29e532c62d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e532c15e14fb29e532c62d.jpg
+    thumb: /files/thumbnails/14fb29e532c15e14fb29e532c62d.jpg
+    url: /files/original/14fb29e532c15e14fb29e532c62d.jpg
 geo:
 id: 24744
 item_type: Still Image

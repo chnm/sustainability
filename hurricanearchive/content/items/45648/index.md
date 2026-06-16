@@ -19,13 +19,13 @@ files:
     mime: application/msword
     original_filename: Chandler, Jason.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870713b1114fbe870713ef2.doc
+    url: /files/original/14fbe870713b1114fbe870713ef2.doc
   - fullsize:
     id: 46258
     mime: application/msword
     original_filename: Chandler, Jason.toc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8707238fa14fbe870723cd2.doc
+    url: /files/original/14fbe8707238fa14fbe870723cd2.doc
 geo:
 id: 45648
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 049.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc7c9df014fb29cc7ca1d5.jpg
+  - fullsize: /files/fullsize/14fb29cc7c9df014fb29cc7ca1d5.jpg
     id: 23884
     mime: image/jpeg
     original_filename: Picture 049.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc7c9df014fb29cc7ca1d5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc7c9df014fb29cc7ca1d5.jpg
+    thumb: /files/thumbnails/14fb29cc7c9df014fb29cc7ca1d5.jpg
+    url: /files/original/14fb29cc7c9df014fb29cc7ca1d5.jpg
 geo:
 id: 30784
 item_type: Still Image

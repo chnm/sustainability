@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: BarnesGautierPhotographer.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a238cbe7f14fb2a238cc242.doc
+    url: /files/original/14fb2a238cbe7f14fb2a238cc242.doc
 geo:
 id: 11767
 item_type: Document

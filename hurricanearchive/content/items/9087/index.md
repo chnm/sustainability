@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 08 2005 Lamar enrolls Katrina evacuees.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35adad6e14fb2a35adb141.txt
+    url: /files/original/14fb2a35adad6e14fb2a35adb141.txt
 geo:
   address: ''
   lat: 0.0

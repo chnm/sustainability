@@ -15,12 +15,12 @@ dublin_core:
       text: folsom rust & reds 1.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc5155dc14fb29cc5159b9.jpg
+  - fullsize: /files/fullsize/14fb29cc5155dc14fb29cc5159b9.jpg
     id: 23912
     mime: image/jpeg
     original_filename: folsom rust & reds 1.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc5155dc14fb29cc5159b9.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc5155dc14fb29cc5159b9.jpg
+    thumb: /files/thumbnails/14fb29cc5155dc14fb29cc5159b9.jpg
+    url: /files/original/14fb29cc5155dc14fb29cc5159b9.jpg
 geo:
 id: 30812
 item_type: Still Image

@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d876ef5d14fb29d876ffaa.jpg
+  - fullsize: /files/fullsize/14fb29d876ef5d14fb29d876ffaa.jpg
     id: 22895
     mime: image/pjpeg
     original_filename: Slidell 2_0346d7ee5f.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d876ef5d14fb29d876ffaa.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d876ef5d14fb29d876ffaa.jpg
+    thumb: /files/thumbnails/14fb29d876ef5d14fb29d876ffaa.jpg
+    url: /files/original/14fb29d876ef5d14fb29d876ffaa.jpg
 geo:
   address: Spartan
   lat: 30.80791

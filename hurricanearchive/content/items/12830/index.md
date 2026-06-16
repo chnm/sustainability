@@ -15,12 +15,12 @@ dublin_core:
       text: 1434 Marais St. You Loot, We Shoot.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a21a883a614fb2a21a8878b.jpg
+  - fullsize: /files/fullsize/14fb2a21a883a614fb2a21a8878b.jpg
     id: 10974
     mime: image/jpeg
     original_filename: 1434 Marais St. You Loot, We Shoot.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a21a883a614fb2a21a8878b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a21a883a614fb2a21a8878b.jpg
+    thumb: /files/thumbnails/14fb2a21a883a614fb2a21a8878b.jpg
+    url: /files/original/14fb2a21a883a614fb2a21a8878b.jpg
 geo:
 id: 12830
 item_type: Still Image

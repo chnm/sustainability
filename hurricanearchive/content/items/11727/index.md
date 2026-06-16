@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: dixiedawson.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c1654814fb2a23c16932.html
+    url: /files/original/14fb2a23c1654814fb2a23c16932.html
 geo:
 id: 11727
 item_type: Oral History

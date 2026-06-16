@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Vicki Brumfield HK256K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d5f9ceac14fb29d5f9d292.mp3
+    url: /files/original/14fb29d5f9ceac14fb29d5f9d292.mp3
 geo:
 id: 26941
 item_type: Oral History

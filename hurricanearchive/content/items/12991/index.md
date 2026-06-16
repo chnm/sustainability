@@ -31,7 +31,7 @@ files:
     mime: application/msword
     original_filename: mizell-nelson_uno_38de0407f3.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2143456f14fb2a21434953.doc
+    url: /files/original/14fb2a2143456f14fb2a21434953.doc
 geo:
 id: 12991
 item_type: Document

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Josh David Gillie.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2437df7314fb2a2437ea0a.html
+    url: /files/original/14fb2a2437df7314fb2a2437ea0a.html
 geo:
 id: 11664
 item_type: Oral History

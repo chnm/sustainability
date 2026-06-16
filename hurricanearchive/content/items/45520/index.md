@@ -17,7 +17,7 @@ files:
     mime: audio/mpeg
     original_filename: Amanda & Ken with Faith Elizabeth Hodge.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e5d205d14fbe86e5d2442.mp3
+    url: /files/original/14fbe86e5d205d14fbe86e5d2442.mp3
 geo:
 id: 45520
 item_type: Oral History

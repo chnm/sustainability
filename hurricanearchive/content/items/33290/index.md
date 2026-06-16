@@ -26,7 +26,7 @@ files:
     mime: application/msword
     original_filename: Perry_79bf1afb18.What can we learn from Nagin.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29caf323c914fb29caf3331a.doc
+    url: /files/original/14fb29caf323c914fb29caf3331a.doc
 geo:
 id: 33290
 item_type: Document

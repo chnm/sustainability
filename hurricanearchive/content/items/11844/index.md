@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Wiggins, Mississipp BULLi.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2317855914fb2a2317893e.doc
+    url: /files/original/14fb2a2317855914fb2a2317893e.doc
 geo:
 id: 11844
 item_type: Document

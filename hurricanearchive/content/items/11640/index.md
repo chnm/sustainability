@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Farah Shae McAdams.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2467d0d014fb2a2467d3f1.htm
+    url: /files/original/14fb2a2467d0d014fb2a2467d3f1.htm
 geo:
 id: 11640
 item_type: Oral History

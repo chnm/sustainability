@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: 08-24-06 Minutes_06396bb278.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1caa348614fb2a1caa3990.doc
+    url: /files/original/14fb2a1caa348614fb2a1caa3990.doc
 geo:
 id: 13812
 item_type: Document

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Sorenson, Luxurie.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871f3ca3714fbe871f3ce25.doc
+    url: /files/original/14fbe871f3ca3714fbe871f3ce25.doc
 geo:
 id: 45851
 item_type: Oral History

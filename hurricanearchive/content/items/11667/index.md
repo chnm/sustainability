@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Katessa Ciera Leverette.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2430d20214fb2a2430d5e8.html
+    url: /files/original/14fb2a2430d20214fb2a2430d5e8.html
 geo:
 id: 11667
 item_type: Oral History

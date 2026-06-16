@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 13 2006 Rita bus fire victims reach settlement.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35e2739714fb2a35e2777d.txt
+    url: /files/original/14fb2a35e2739714fb2a35e2777d.txt
 geo:
   address: ''
   lat: 0.0

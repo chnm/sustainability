@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c41db35914fb29c41db496.jpg
+  - fullsize: /files/fullsize/14fb29c41db35914fb29c41db496.jpg
     id: 24901
     mime: image/pjpeg
     original_filename: scan0001_edafd1dac1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c41db35914fb29c41db496.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c41db35914fb29c41db496.jpg
+    thumb: /files/thumbnails/14fb29c41db35914fb29c41db496.jpg
+    url: /files/original/14fb29c41db35914fb29c41db496.jpg
 geo:
   address: 2629 buccaneer dr
   lat: 0.0

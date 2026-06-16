@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c3242c8014fb29c3243062.jpg
+  - fullsize: /files/fullsize/14fb29c3242c8014fb29c3243062.jpg
     id: 24961
     mime: image/jpeg
     original_filename: BBB Saints Victory Parade_3dc2e5073e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c3242c8014fb29c3243062.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c3242c8014fb29c3243062.jpg
+    thumb: /files/thumbnails/14fb29c3242c8014fb29c3243062.jpg
+    url: /files/original/14fb29c3242c8014fb29c3243062.jpg
 geo:
   address: ''
   lat: 0.0

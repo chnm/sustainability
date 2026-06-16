@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: SFC Matejowsky 5 Oct 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1af2a17b14fb2a1af2a55f.wav
+    url: /files/original/14fb2a1af2a17b14fb2a1af2a55f.wav
 geo:
   address: ''
   lat: 0.0

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Schloegel, George A.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871daeb8c14fbe871dba703.doc
+    url: /files/original/14fbe871daeb8c14fbe871dba703.doc
 geo:
 id: 45841
 item_type: Oral History

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Sledge, Deborah.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871f1d2cb14fbe871f1d653.doc
+    url: /files/original/14fbe871f1d2cb14fbe871f1d653.doc
 geo:
 id: 45848
 item_type: Oral History

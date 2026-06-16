@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 08 2006 Local employers find parolees fitting needs.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a3610d38314fb2a3610ee46.txt
+    url: /files/original/14fb2a3610d38314fb2a3610ee46.txt
 geo:
   address: ''
   lat: 0.0

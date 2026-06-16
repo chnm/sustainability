@@ -19,12 +19,12 @@ dublin_core:
       text: Bay St. Louis
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/002039b24f6263f23961ab3eb8374c0f.jpg
+  - fullsize: /files/fullsize/002039b24f6263f23961ab3eb8374c0f.jpg
     id: 46541
     mime: image/jpeg
     original_filename: P1010067.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/002039b24f6263f23961ab3eb8374c0f.jpg
-    url: https://hurricanearchive.org/files/original/002039b24f6263f23961ab3eb8374c0f.JPG
+    thumb: /files/thumbnails/002039b24f6263f23961ab3eb8374c0f.jpg
+    url: /files/original/002039b24f6263f23961ab3eb8374c0f.JPG
 geo:
   address: Bay Saint Louis Mississppi
   lat: 30.305326

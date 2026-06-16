@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 06 02 2006 All eyes now on the Gulf.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35becd8a14fb2a35bed168.txt
+    url: /files/original/14fb2a35becd8a14fb2a35bed168.txt
 geo:
   address: ''
   lat: 0.0

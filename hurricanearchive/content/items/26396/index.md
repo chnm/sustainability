@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d8de530714fb29d8de56eb.jpg
+  - fullsize: /files/fullsize/14fb29d8de530714fb29d8de56eb.jpg
     id: 22874
     mime: image/jpeg
     original_filename: EV 2 Family 1912_19fb95b28c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d8de530714fb29d8de56eb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d8de530714fb29d8de56eb.jpg
+    thumb: /files/thumbnails/14fb29d8de530714fb29d8de56eb.jpg
+    url: /files/original/14fb29d8de530714fb29d8de56eb.jpg
 geo:
   address: ''
   lat: 29.95493

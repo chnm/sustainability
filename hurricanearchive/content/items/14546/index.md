@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: '[SHN] SHN Lobby Conference Call Sunday08_08_06_342eb47cc1.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18e3e64c14fb2a18e3ea32.doc
+    url: /files/original/14fb2a18e3e64c14fb2a18e3ea32.doc
 geo:
 id: 14546
 item_type: Document

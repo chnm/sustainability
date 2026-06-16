@@ -17,19 +17,19 @@ files:
     mime: audio/mpeg
     original_filename: Father Lohan, Louis 07-11-08 1 of 3.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86fb35b9a14fbe86fb35f75.mp3
+    url: /files/original/14fbe86fb35b9a14fbe86fb35f75.mp3
   - fullsize:
     id: 46139
     mime: audio/mpeg
     original_filename: Father Lohan, Louis 07-11-08 2 of 3.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86fb4364214fbe86fb43a27.mp3
+    url: /files/original/14fbe86fb4364214fbe86fb43a27.mp3
   - fullsize:
     id: 46140
     mime: audio/mpeg
     original_filename: Father Lohan, Louis 07-11-08 3 of 3.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86fb5247d14fbe86fb52864.mp3
+    url: /files/original/14fbe86fb5247d14fbe86fb52864.mp3
 geo:
 id: 45596
 item_type: Oral History

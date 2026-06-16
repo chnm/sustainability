@@ -17,12 +17,12 @@ dublin_core:
       text: Coin Laundrymat with Flood Line
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb6562ee14fb29cb656826.jpg
+  - fullsize: /files/fullsize/14fb29cb6562ee14fb29cb656826.jpg
     id: 24079
     mime: image/jpg
     original_filename: 1260625584_99952c09ad.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb6562ee14fb29cb656826.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb6562ee14fb29cb656826.jpg
+    thumb: /files/thumbnails/14fb29cb6562ee14fb29cb656826.jpg
+    url: /files/original/14fb29cb6562ee14fb29cb656826.jpg
 geo:
 id: 33229
 item_type: Still Image

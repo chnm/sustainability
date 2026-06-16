@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Boudreaux, Craig 4-11-07.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ee0e8a714fbe86ee0ec81.mp3
+    url: /files/original/14fbe86ee0e8a714fbe86ee0ec81.mp3
   - fullsize:
     id: 45980
     mime: application/msword
     original_filename: Boudreaux, Craig.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ee1cb1c14fbe86ee1cf03.doc
+    url: /files/original/14fbe86ee1cb1c14fbe86ee1cf03.doc
 geo:
 id: 45543
 item_type: Oral History

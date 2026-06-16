@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Moffett, Nateisha.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8715469d214fbe871546db7.doc
+    url: /files/original/14fbe8715469d214fbe871546db7.doc
 geo:
 id: 45786
 item_type: Oral History

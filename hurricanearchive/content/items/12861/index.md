@@ -15,12 +15,12 @@ dublin_core:
       text: Napoleon.Abandoned cars on neutral ground.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a21656cba14fb2a21658319.jpg
+  - fullsize: /files/fullsize/14fb2a21656cba14fb2a21658319.jpg
     id: 11005
     mime: image/jpeg
     original_filename: Napoleon.Abandoned cars on neutral ground.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a21656cba14fb2a21658319.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a21656cba14fb2a21658319.jpg
+    thumb: /files/thumbnails/14fb2a21656cba14fb2a21658319.jpg
+    url: /files/original/14fb2a21656cba14fb2a21658319.jpg
 geo:
 id: 12861
 item_type: Still Image

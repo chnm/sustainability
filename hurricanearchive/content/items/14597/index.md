@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Right to Counsel Project Next Steps + Roles_542513f085.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a188ab58114fb2a188ac5f0.doc
+    url: /files/original/14fb2a188ab58114fb2a188ac5f0.doc
 geo:
 id: 14597
 item_type: Document

@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Remembering Holly Beach_c4b79cb521.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d5b40b1814fb29d5b42690.doc
+    url: /files/original/14fb29d5b40b1814fb29d5b42690.doc
 geo:
   address: 3118 Burton St., Lake Charles, LA
   lat: 0.0

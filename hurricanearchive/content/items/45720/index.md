@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Jenkins, Arneshia.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870f0b8ae14fbe870f0bc86.doc
+    url: /files/original/14fbe870f0b8ae14fbe870f0bc86.doc
 geo:
 id: 45720
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a17335c4d14fb2a17336031.jpg
+  - fullsize: /files/fullsize/14fb2a17335c4d14fb2a17336031.jpg
     id: 12252
     mime: image/jpeg
     original_filename: 1986 Billboard-19_88afb491ad.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a17335c4d14fb2a17336031.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a17335c4d14fb2a17336031.jpg
+    thumb: /files/thumbnails/14fb2a17335c4d14fb2a17336031.jpg
+    url: /files/original/14fb2a17335c4d14fb2a17336031.jpg
 geo:
 id: 15092
 item_type: Still Image

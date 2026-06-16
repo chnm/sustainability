@@ -15,12 +15,12 @@ dublin_core:
       text: School at Empire LA.jpgsatellite
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb29e60314fb29fb29e9e9.jpg
+  - fullsize: /files/fullsize/14fb29fb29e60314fb29fb29e9e9.jpg
     id: 18846
     mime: image/jpeg
     original_filename: School at Empire LA.jpgsatellite
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb29e60314fb29fb29e9e9.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb29e60314fb29fb29e9e9.jpgsatellite
+    thumb: /files/thumbnails/14fb29fb29e60314fb29fb29e9e9.jpg
+    url: /files/original/14fb29fb29e60314fb29fb29e9e9.jpgsatellite
 geo:
 id: 21895
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: brentvowell.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c6c01314fb2a23c6c629.html
+    url: /files/original/14fb2a23c6c01314fb2a23c6c629.html
 geo:
 id: 11718
 item_type: Oral History

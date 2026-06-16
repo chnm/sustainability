@@ -24,12 +24,12 @@ dublin_core:
       text: Gulfport\'s Coastal Damage Included USCG Station
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66aaafef14fb2a66aabd00.jpg
+  - fullsize: /files/fullsize/14fb2a66aaafef14fb2a66aabd00.jpg
     id: 1899
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05C0G_5c7e072f75.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66aaafef14fb2a66aabd00.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66aaafef14fb2a66aabd00.jpg
+    thumb: /files/thumbnails/14fb2a66aaafef14fb2a66aabd00.jpg
+    url: /files/original/14fb2a66aaafef14fb2a66aabd00.jpg
 geo:
 id: 2407
 item_type: Still Image

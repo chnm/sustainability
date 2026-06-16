@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: 354.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d96889f14fb2a1d96a5b3.pdf
+    url: /files/original/14fb2a1d96889f14fb2a1d96a5b3.pdf
 geo:
 id: 13559
 item_type: Document

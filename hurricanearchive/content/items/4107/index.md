@@ -18,12 +18,12 @@ dublin_core:
       text: IMG_1049.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a57b0887014fb2a57b098bc.jpg
+  - fullsize: /files/fullsize/14fb2a57b0887014fb2a57b098bc.jpg
     id: 3518
     mime: image/jpeg
     original_filename: Presidential Visit
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a57b0887014fb2a57b098bc.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a57b0887014fb2a57b098bc.jpg
+    thumb: /files/thumbnails/14fb2a57b0887014fb2a57b098bc.jpg
+    url: /files/original/14fb2a57b0887014fb2a57b098bc.jpg
 geo:
 id: 4107
 item_type: Still Image

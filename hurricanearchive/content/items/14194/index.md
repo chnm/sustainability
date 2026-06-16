@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: SSG Toby Green.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ab676fc14fb2a1ab67a77.wav
+    url: /files/original/14fb2a1ab676fc14fb2a1ab67a77.wav
 geo:
   address: ''
   lat: 0.0

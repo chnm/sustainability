@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a17d170dc14fb2a17d174bb.jpg
+  - fullsize: /files/fullsize/14fb2a17d170dc14fb2a17d174bb.jpg
     id: 12193
     mime: image/jpeg
     original_filename: GoodShepherd_IsrealJackson_01_7d7854b6a1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a17d170dc14fb2a17d174bb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a17d170dc14fb2a17d174bb.jpg
+    thumb: /files/thumbnails/14fb2a17d170dc14fb2a17d174bb.jpg
+    url: /files/original/14fb2a17d170dc14fb2a17d174bb.jpg
 geo:
 id: 14772
 item_type: Still Image

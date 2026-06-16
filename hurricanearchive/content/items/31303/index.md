@@ -24,12 +24,12 @@ dublin_core:
       text: Photograph of Broussard Living Room
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc3a7ee914fb29cc3a82cf.jpg
+  - fullsize: /files/fullsize/14fb29cc3a7ee914fb29cc3a82cf.jpg
     id: 23931
     mime: image/jpeg
     original_filename: broussardLR_d2d250dba9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc3a7ee914fb29cc3a82cf.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc3a7ee914fb29cc3a82cf.jpg
+    thumb: /files/thumbnails/14fb29cc3a7ee914fb29cc3a82cf.jpg
+    url: /files/original/14fb29cc3a7ee914fb29cc3a82cf.jpg
 geo:
   address: 1342 Mandolin St.
   lat: 0.0

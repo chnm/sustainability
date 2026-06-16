@@ -17,12 +17,12 @@ dublin_core:
       text: Loading Dock Window
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb5d251514fb29cb5d28fa.jpg
+  - fullsize: /files/fullsize/14fb29cb5d251514fb29cb5d28fa.jpg
     id: 24083
     mime: image/jpg
     original_filename: 1259921878_ca54826caf.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb5d251514fb29cb5d28fa.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb5d251514fb29cb5d28fa.jpg
+    thumb: /files/thumbnails/14fb29cb5d251514fb29cb5d28fa.jpg
+    url: /files/original/14fb29cb5d251514fb29cb5d28fa.jpg
 geo:
 id: 33233
 item_type: Still Image

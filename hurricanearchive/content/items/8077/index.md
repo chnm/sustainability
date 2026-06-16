@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: 03 30 2006 A14.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a3d5ba33514fb2a3d5bc467.pdf
+    url: /files/original/14fb2a3d5ba33514fb2a3d5bc467.pdf
 geo:
   address: ''
   lat: 0.0

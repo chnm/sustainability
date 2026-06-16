@@ -15,12 +15,12 @@ dublin_core:
       text: before boarded up 2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20fef73d14fb2a20ff3083.jpg
+  - fullsize: /files/fullsize/14fb2a20fef73d14fb2a20ff3083.jpg
     id: 11038
     mime: image/jpeg
     original_filename: before boarded up 2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20fef73d14fb2a20ff3083.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20fef73d14fb2a20ff3083.jpg
+    thumb: /files/thumbnails/14fb2a20fef73d14fb2a20ff3083.jpg
+    url: /files/original/14fb2a20fef73d14fb2a20ff3083.jpg
 geo:
 id: 13028
 item_type: Still Image

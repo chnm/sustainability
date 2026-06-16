@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6ec50a0214fb2a6ec50de7.jpg
+  - fullsize: /files/fullsize/14fb2a6ec50a0214fb2a6ec50de7.jpg
     id: 636
     mime: image/jpeg
     original_filename: IMG_0453_f72ea4cc69.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6ec50a0214fb2a6ec50de7.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6ec50a0214fb2a6ec50de7.jpg
+    thumb: /files/thumbnails/14fb2a6ec50a0214fb2a6ec50de7.jpg
+    url: /files/original/14fb2a6ec50a0214fb2a6ec50de7.jpg
 geo:
   address: ''
   lat: 29.981182030142598

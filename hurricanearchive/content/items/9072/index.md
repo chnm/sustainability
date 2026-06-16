@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 02 2005 Hurricane Katrina, How to Help.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35bb6a8314fb2a35bb6e75.txt
+    url: /files/original/14fb2a35bb6a8314fb2a35bb6e75.txt
 geo:
   address: ''
   lat: 0.0

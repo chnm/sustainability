@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: On Guard Nov 05_3518a50cf5.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d2b3818714fb29d2b38563.pdf
+    url: /files/original/14fb29d2b3818714fb29d2b38563.pdf
 geo:
 id: 27806
 item_type: Document

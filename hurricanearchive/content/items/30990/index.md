@@ -19,7 +19,7 @@ files:
     mime: text/html
     original_filename: New photos, Hurricane katrina_568a187b95.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cc41108614fb29cc411462.htm
+    url: /files/original/14fb29cc41108614fb29cc411462.htm
 geo:
   address: 945 North Shore Drive
   lat: 0.0

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Draft Statement of Principles_d41f95babf.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18f0ffba14fb2a18f10361.doc
+    url: /files/original/14fb2a18f0ffba14fb2a18f10361.doc
 geo:
 id: 14514
 item_type: Document

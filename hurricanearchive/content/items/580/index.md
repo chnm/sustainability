@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f79f77214fb2a6f79fb58.jpg
+  - fullsize: /files/fullsize/14fb2a6f79f77214fb2a6f79fb58.jpg
     id: 425
     mime: image/jpeg
     original_filename: Downed_Tree_c7a3e7aede.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f79f77214fb2a6f79fb58.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f79f77214fb2a6f79fb58.jpg
+    thumb: /files/thumbnails/14fb2a6f79f77214fb2a6f79fb58.jpg
+    url: /files/original/14fb2a6f79f77214fb2a6f79fb58.jpg
 geo:
   address: ''
   lat: 25.719729884548702

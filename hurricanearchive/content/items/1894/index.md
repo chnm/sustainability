@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6e664cc914fb2a6e6650a6.jpg
+  - fullsize: /files/fullsize/14fb2a6e664cc914fb2a6e6650a6.jpg
     id: 701
     mime: image/jpeg
     original_filename: Izzy_sm684_b142cf5a69.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6e664cc914fb2a6e6650a6.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6e664cc914fb2a6e6650a6.jpg
+    thumb: /files/thumbnails/14fb2a6e664cc914fb2a6e6650a6.jpg
+    url: /files/original/14fb2a6e664cc914fb2a6e6650a6.jpg
 geo:
   address: ''
   lat: 39.29591

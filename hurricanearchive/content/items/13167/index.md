@@ -15,12 +15,12 @@ dublin_core:
       text: 159 collapsed building.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1fae11d214fb2a1fae15ba.jpg
+  - fullsize: /files/fullsize/14fb2a1fae11d214fb2a1fae15ba.jpg
     id: 11177
     mime: image/jpeg
     original_filename: 159 collapsed building.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1fae11d214fb2a1fae15ba.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1fae11d214fb2a1fae15ba.jpg
+    thumb: /files/thumbnails/14fb2a1fae11d214fb2a1fae15ba.jpg
+    url: /files/original/14fb2a1fae11d214fb2a1fae15ba.jpg
 geo:
 id: 13167
 item_type: Still Image

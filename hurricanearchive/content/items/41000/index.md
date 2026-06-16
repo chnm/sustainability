@@ -22,7 +22,7 @@ files:
     mime: application/vnd.ms-powerpoint
     original_filename: katrina digital archive text_7ba37a1a19.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c4b6dc8b14fb29c4b6e39f.ppt
+    url: /files/original/14fb29c4b6dc8b14fb29c4b6e39f.ppt
 geo:
   address: 5885 Fleur de Lis
   lat: 0.0

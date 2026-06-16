@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: James Michael Vancourt.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a24555e4614fb2a2455640a.htm
+    url: /files/original/14fb2a24555e4614fb2a2455640a.htm
 geo:
 id: 11650
 item_type: Oral History

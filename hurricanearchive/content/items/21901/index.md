@@ -15,12 +15,12 @@ dublin_core:
       text: Slidell LTC2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb1274f414fb29fb1278cd.jpg
+  - fullsize: /files/fullsize/14fb29fb1274f414fb29fb1278cd.jpg
     id: 18852
     mime: image/jpeg
     original_filename: Slidell LTC2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb1274f414fb29fb1278cd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb1274f414fb29fb1278cd.jpg
+    thumb: /files/thumbnails/14fb29fb1274f414fb29fb1278cd.jpg
+    url: /files/original/14fb29fb1274f414fb29fb1278cd.jpg
 geo:
 id: 21901
 item_type: Still Image

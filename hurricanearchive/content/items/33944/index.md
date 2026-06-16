@@ -19,7 +19,7 @@ files:
     mime: text/plain
     original_filename: democraticundergroundforum_1858d40867.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ca982c9d14fb29ca983082.txt
+    url: /files/original/14fb29ca982c9d14fb29ca983082.txt
 geo:
   address: Dallas, Texas
   lat: 0.0

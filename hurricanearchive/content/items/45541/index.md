@@ -17,25 +17,25 @@ files:
     mime: audio/mpeg
     original_filename: Bise, Carter 6-21-07 Tape 1 Side 1.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ecc151e14fbe86ecc1901.mp3
+    url: /files/original/14fbe86ecc151e14fbe86ecc1901.mp3
   - fullsize:
     id: 45972
     mime: audio/mpeg
     original_filename: Bise, Carter 6-21-07 Tape 1 Side 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ecdca8914fbe86ecdce6a.mp3
+    url: /files/original/14fbe86ecdca8914fbe86ecdce6a.mp3
   - fullsize:
     id: 45973
     mime: audio/mpeg
     original_filename: Bise, Carter 6-21-07 Tape 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ecf0ac414fbe86ecf0ea6.mp3
+    url: /files/original/14fbe86ecf0ac414fbe86ecf0ea6.mp3
   - fullsize:
     id: 45974
     mime: application/msword
     original_filename: Bise, Judge Carter.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ed3b36614fbe86ed3eacd.doc
+    url: /files/original/14fbe86ed3b36614fbe86ed3eacd.doc
 geo:
 id: 45541
 item_type: Oral History

@@ -25,7 +25,7 @@ files:
     mime: application/msword
     original_filename: Cowen_Speech__GMU_commencement_003d6ce9af.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cc30bb7b14fb29cc30bf5f.doc
+    url: /files/original/14fb29cc30bb7b14fb29cc30bf5f.doc
 geo:
   address: ''
   lat: 38.83082

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Letter_Institutional_Liaisons_12_05_05_fcd06c2362.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18ba29dd14fb2a18ba2dc1.doc
+    url: /files/original/14fb2a18ba29dd14fb2a18ba2dc1.doc
 geo:
 id: 14578
 item_type: Document

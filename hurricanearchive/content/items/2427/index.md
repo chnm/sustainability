@@ -24,12 +24,12 @@ dublin_core:
       text: Sandbag drops to contain levees
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6669347c14fb2a6669385f.jpg
+  - fullsize: /files/fullsize/14fb2a6669347c14fb2a6669385f.jpg
     id: 1919
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_RITA_05C87_0ef98582bc.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6669347c14fb2a6669385f.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6669347c14fb2a6669385f.jpg
+    thumb: /files/thumbnails/14fb2a6669347c14fb2a6669385f.jpg
+    url: /files/original/14fb2a6669347c14fb2a6669385f.jpg
 geo:
 id: 2427
 item_type: Still Image

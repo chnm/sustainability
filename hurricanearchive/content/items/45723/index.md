@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Jones, Eric.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870f2c7d814fbe870f2cbc3.doc
+    url: /files/original/14fbe870f2c7d814fbe870f2cbc3.doc
 geo:
 id: 45723
 item_type: Oral History

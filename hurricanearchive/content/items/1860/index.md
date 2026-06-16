@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6e9f3a8814fb2a6e9f3e61.jpg
+  - fullsize: /files/fullsize/14fb2a6e9f3a8814fb2a6e9f3e61.jpg
     id: 676
     mime: image/jpeg
     original_filename: collapsed_ceiling_in_den_d57c124f63.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6e9f3a8814fb2a6e9f3e61.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6e9f3a8814fb2a6e9f3e61.jpg
+    thumb: /files/thumbnails/14fb2a6e9f3a8814fb2a6e9f3e61.jpg
+    url: /files/original/14fb2a6e9f3a8814fb2a6e9f3e61.jpg
 geo:
   address: ''
   lat: 30.009063

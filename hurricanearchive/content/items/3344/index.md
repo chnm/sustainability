@@ -15,12 +15,12 @@ dublin_core:
       text: SS NOLA, Lakeview (10).JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5c518a1714fb2a5c518dfc.jpg
+  - fullsize: /files/fullsize/14fb2a5c518a1714fb2a5c518dfc.jpg
     id: 2815
     mime: image/jpeg
     original_filename: SS NOLA, Lakeview (10).JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5c518a1714fb2a5c518dfc.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5c518a1714fb2a5c518dfc.jpg
+    thumb: /files/thumbnails/14fb2a5c518a1714fb2a5c518dfc.jpg
+    url: /files/original/14fb2a5c518a1714fb2a5c518dfc.jpg
 geo:
 id: 3344
 item_type: Still Image

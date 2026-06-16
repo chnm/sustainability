@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a17b7990814fb2a17b79d14.jpg
+  - fullsize: /files/fullsize/14fb2a17b7990814fb2a17b79d14.jpg
     id: 12208
     mime: image/jpeg
     original_filename: GoodShepherd_PatreenHughes_02_09c553fc4a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a17b7990814fb2a17b79d14.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a17b7990814fb2a17b79d14.jpg
+    thumb: /files/thumbnails/14fb2a17b7990814fb2a17b79d14.jpg
+    url: /files/original/14fb2a17b7990814fb2a17b79d14.jpg
 geo:
 id: 14789
 item_type: Still Image

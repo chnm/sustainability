@@ -22,7 +22,7 @@ files:
     mime: application/octet-stream
     original_filename: Oral History_c97c606ea9
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c8e2e22414fb29c8e2e93e
+    url: /files/original/14fb29c8e2e22414fb29c8e2e93e
 geo:
   address: 129 S. Murat
   lat: 29.97719

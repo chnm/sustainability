@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: memoinoppbrownmot_7a51f7e833.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cbf2612d14fb29cbf2650b.pdf
+    url: /files/original/14fb29cbf2612d14fb29cbf2650b.pdf
 geo:
   address: Convention Center Blvd
   lat: 0.0

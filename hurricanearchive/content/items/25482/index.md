@@ -20,7 +20,7 @@ files:
     mime: audio/mp3
     original_filename: Cecile_Robin_StBernardChristmas_6d192dad05.MP3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dd92a6f214fb29dd92aad7.MP3
+    url: /files/original/14fb29dd92a6f214fb29dd92aad7.MP3
 geo:
 id: 25482
 item_type: Document

@@ -14,12 +14,12 @@ dublin_core:
       text: DPS aftermath 4
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c590988014fb29c5909ccf.jpg
+  - fullsize: /files/fullsize/14fb29c590988014fb29c5909ccf.jpg
     id: 24739
     mime: image/jpeg
     original_filename: broken-windows_87255aab80.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c590988014fb29c5909ccf.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c590988014fb29c5909ccf.jpg
+    thumb: /files/thumbnails/14fb29c590988014fb29c5909ccf.jpg
+    url: /files/original/14fb29c590988014fb29c5909ccf.jpg
 geo:
 id: 36391
 item_type: Still Image

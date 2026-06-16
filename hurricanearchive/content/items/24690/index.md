@@ -15,12 +15,12 @@ dublin_core:
       text: 20051011-A-2421S-0126jrbpresvisit.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e58a177914fb29e58a1b53.jpg
+  - fullsize: /files/fullsize/14fb29e58a177914fb29e58a1b53.jpg
     id: 21634
     mime: image/jpeg
     original_filename: 20051011-A-2421S-0126jrbpresvisit.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e58a177914fb29e58a1b53.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e58a177914fb29e58a1b53.jpg
+    thumb: /files/thumbnails/14fb29e58a177914fb29e58a1b53.jpg
+    url: /files/original/14fb29e58a177914fb29e58a1b53.jpg
 geo:
 id: 24690
 item_type: Still Image

@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: SHN_GATHERING_MINUTES_10-20-06_13dea83927.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c83a40d14fb2a1c83a745.doc
+    url: /files/original/14fb2a1c83a40d14fb2a1c83a745.doc
 geo:
 id: 13844
 item_type: Document

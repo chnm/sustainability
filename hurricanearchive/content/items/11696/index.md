@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Sandi Cunningham.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23e8f0a414fb2a23e8f488.html
+    url: /files/original/14fb2a23e8f0a414fb2a23e8f488.html
 geo:
 id: 11696
 item_type: Oral History

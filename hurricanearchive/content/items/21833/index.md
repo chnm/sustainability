@@ -15,12 +15,12 @@ dublin_core:
       text: Arabi Nursing Home.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb6b5ad014fb29fb6b62e6.jpg
+  - fullsize: /files/fullsize/14fb29fb6b5ad014fb29fb6b62e6.jpg
     id: 18784
     mime: image/jpeg
     original_filename: Arabi Nursing Home.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb6b5ad014fb29fb6b62e6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb6b5ad014fb29fb6b62e6.jpg
+    thumb: /files/thumbnails/14fb29fb6b5ad014fb29fb6b62e6.jpg
+    url: /files/original/14fb29fb6b5ad014fb29fb6b62e6.jpg
 geo:
 id: 21833
 item_type: Still Image

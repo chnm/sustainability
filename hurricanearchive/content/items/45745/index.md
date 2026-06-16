@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Lawson, Bill.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871178cfc14fbe87117b245.doc
+    url: /files/original/14fbe871178cfc14fbe87117b245.doc
 geo:
 id: 45745
 item_type: Oral History

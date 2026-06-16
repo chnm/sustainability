@@ -15,12 +15,12 @@ dublin_core:
       text: Soldier quarters.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1ab0d8b214fb2a1ab0dc98.jpg
+  - fullsize: /files/fullsize/14fb2a1ab0d8b214fb2a1ab0dc98.jpg
     id: 11840
     mime: image/jpeg
     original_filename: Soldier quarters.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1ab0d8b214fb2a1ab0dc98.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1ab0d8b214fb2a1ab0dc98.jpg
+    thumb: /files/thumbnails/14fb2a1ab0d8b214fb2a1ab0dc98.jpg
+    url: /files/original/14fb2a1ab0d8b214fb2a1ab0dc98.jpg
 geo:
   address: ''
   lat: 0.0

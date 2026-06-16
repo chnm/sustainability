@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Shirley Gordon Overstreet.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23dde2dd14fb2a23dde6c3.html
+    url: /files/original/14fb2a23dde2dd14fb2a23dde6c3.html
 geo:
 id: 11704
 item_type: Oral History

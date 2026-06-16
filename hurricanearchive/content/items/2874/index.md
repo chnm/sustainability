@@ -15,12 +15,12 @@ dublin_core:
       text: MVC-031S.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5fb0867814fb2a5fb08a5f.jpg
+  - fullsize: /files/fullsize/14fb2a5fb0867814fb2a5fb08a5f.jpg
     id: 2356
     mime: image/jpeg
     original_filename: MVC-031S.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5fb0867814fb2a5fb08a5f.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5fb0867814fb2a5fb08a5f.jpg
+    thumb: /files/thumbnails/14fb2a5fb0867814fb2a5fb08a5f.jpg
+    url: /files/original/14fb2a5fb0867814fb2a5fb08a5f.jpg
 geo:
 id: 2874
 item_type: Still Image

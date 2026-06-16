@@ -17,12 +17,12 @@ dublin_core:
       text: Dock\'s End
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbb9374a14fb29cbb93df7.jpg
+  - fullsize: /files/fullsize/14fb29cbb9374a14fb29cbb93df7.jpg
     id: 24039
     mime: image/jpg
     original_filename: 1438011435_e242b12f60.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbb9374a14fb29cbb93df7.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbb9374a14fb29cbb93df7.jpg
+    thumb: /files/thumbnails/14fb29cbb9374a14fb29cbb93df7.jpg
+    url: /files/original/14fb29cbb9374a14fb29cbb93df7.jpg
 geo:
 id: 33189
 item_type: Still Image

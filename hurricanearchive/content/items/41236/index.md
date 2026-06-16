@@ -12,12 +12,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c427839814fb29c427e4ad.jpg
+  - fullsize: /files/fullsize/14fb29c427839814fb29c427e4ad.jpg
     id: 24897
     mime: image/pjpeg
     original_filename: post card 2 9_d1b780a0f6.23.09.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c427839814fb29c427e4ad.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c427839814fb29c427e4ad.jpg
+    thumb: /files/thumbnails/14fb29c427839814fb29c427e4ad.jpg
+    url: /files/original/14fb29c427839814fb29c427e4ad.jpg
 geo:
   address: ''
   lat: 29.95958

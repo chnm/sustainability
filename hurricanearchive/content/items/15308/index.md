@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a169e676314fb2a169e6b49.jpg
+  - fullsize: /files/fullsize/14fb2a169e676314fb2a169e6b49.jpg
     id: 12378
     mime: image/jpeg
     original_filename: PPeabody-5_052f96efcd.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a169e676314fb2a169e6b49.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a169e676314fb2a169e6b49.jpg
+    thumb: /files/thumbnails/14fb2a169e676314fb2a169e6b49.jpg
+    url: /files/original/14fb2a169e676314fb2a169e6b49.jpg
 geo:
 id: 15308
 item_type: Still Image

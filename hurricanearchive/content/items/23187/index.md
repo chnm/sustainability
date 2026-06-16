@@ -20,7 +20,7 @@ files:
     mime: application/octet-stream
     original_filename: P1010007delaware.MOV
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29f0fee08e14fb29f0fee467.MOV
+    url: /files/original/14fb29f0fee08e14fb29f0fee467.MOV
 geo:
 id: 23187
 item_type: Document

@@ -18,12 +18,12 @@ dublin_core:
       text: 1932 Poor Boy
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca4e28e314fb29ca4e2cc8.jpg
+  - fullsize: /files/fullsize/14fb29ca4e28e314fb29ca4e2cc8.jpg
     id: 24220
     mime: image/tiff
     original_filename: 1933 Po Boy_8ea74383ba.tiff
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca4e28e314fb29ca4e2cc8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca4e28e314fb29ca4e2cc8.tiff
+    thumb: /files/thumbnails/14fb29ca4e28e314fb29ca4e2cc8.jpg
+    url: /files/original/14fb29ca4e28e314fb29ca4e2cc8.tiff
 geo:
 id: 34329
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Scriptofkatrina2007.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a22440a8914fb2a22440e6e.doc
+    url: /files/original/14fb2a22440a8914fb2a22440e6e.doc
 geo:
 id: 12165
 item_type: Document

@@ -19,13 +19,13 @@ files:
     mime: application/msword
     original_filename: Reyes, Jeovany.trs(English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871a3d99614fbe871a3dd72.doc
+    url: /files/original/14fbe871a3d99614fbe871a3dd72.doc
   - fullsize:
     id: 46459
     mime: application/msword
     original_filename: Reyes, Jeovany.trs(Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871a6756214fbe871a67948.doc
+    url: /files/original/14fbe871a6756214fbe871a67948.doc
 geo:
 id: 45823
 item_type: Oral History

@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: SGT Timothy A. Porter, Sr. 2 Oct 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ae0e15a14fb2a1ae0e53e.wav
+    url: /files/original/14fb2a1ae0e15a14fb2a1ae0e53e.wav
 geo:
   address: ''
   lat: 0.0

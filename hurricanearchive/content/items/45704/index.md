@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Harris Jr, Melton.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870d4d4cd14fbe870d4eb09.doc
+    url: /files/original/14fbe870d4d4cd14fbe870d4eb09.doc
 geo:
 id: 45704
 item_type: Oral History

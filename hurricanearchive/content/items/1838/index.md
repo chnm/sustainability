@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6eb5459914fb2a6eb5497f.jpg
+  - fullsize: /files/fullsize/14fb2a6eb5459914fb2a6eb5497f.jpg
     id: 657
     mime: image/jpeg
     original_filename: pointeauxcheneschool_c6d39c75b7.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6eb5459914fb2a6eb5497f.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6eb5459914fb2a6eb5497f.jpg
+    thumb: /files/thumbnails/14fb2a6eb5459914fb2a6eb5497f.jpg
+    url: /files/original/14fb2a6eb5459914fb2a6eb5497f.jpg
 geo:
   address: ''
   lat: 29.456248

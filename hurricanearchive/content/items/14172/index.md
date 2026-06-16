@@ -15,12 +15,12 @@ dublin_core:
       text: POD line.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b03d78714fb2a1b03f8fe.jpg
+  - fullsize: /files/fullsize/14fb2a1b03d78714fb2a1b03f8fe.jpg
     id: 11816
     mime: image/jpeg
     original_filename: POD line.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b03d78714fb2a1b03f8fe.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b03d78714fb2a1b03f8fe.jpg
+    thumb: /files/thumbnails/14fb2a1b03d78714fb2a1b03f8fe.jpg
+    url: /files/original/14fb2a1b03d78714fb2a1b03f8fe.jpg
 geo:
   address: ''
   lat: 0.0

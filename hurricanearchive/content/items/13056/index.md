@@ -15,12 +15,12 @@ dublin_core:
       text: before tying on 2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20b92cf814fb2a20b93095.jpg
+  - fullsize: /files/fullsize/14fb2a20b92cf814fb2a20b93095.jpg
     id: 11066
     mime: image/jpeg
     original_filename: before tying on 2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20b92cf814fb2a20b93095.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20b92cf814fb2a20b93095.jpg
+    thumb: /files/thumbnails/14fb2a20b92cf814fb2a20b93095.jpg
+    url: /files/original/14fb2a20b92cf814fb2a20b93095.jpg
 geo:
 id: 13056
 item_type: Still Image

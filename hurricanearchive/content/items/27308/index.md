@@ -17,12 +17,12 @@ dublin_core:
       text: Claiborne Bridge
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d550e3d314fb29d550e706.jpg
+  - fullsize: /files/fullsize/14fb29d550e3d314fb29d550e706.jpg
     id: 23195
     mime: image/jpg
     original_filename: 336698563_2853facf29.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d550e3d314fb29d550e706.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d550e3d314fb29d550e706.jpg
+    thumb: /files/thumbnails/14fb29d550e3d314fb29d550e706.jpg
+    url: /files/original/14fb29d550e3d314fb29d550e706.jpg
 geo:
 id: 27308
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a17318f8514fb2a17319363.jpg
+  - fullsize: /files/fullsize/14fb2a17318f8514fb2a17319363.jpg
     id: 12253
     mime: image/jpeg
     original_filename: 1991 Gulf War Kingcake-18_1eef32f9d1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a17318f8514fb2a17319363.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a17318f8514fb2a17319363.jpg
+    thumb: /files/thumbnails/14fb2a17318f8514fb2a17319363.jpg
+    url: /files/original/14fb2a17318f8514fb2a17319363.jpg
 geo:
 id: 15093
 item_type: Still Image

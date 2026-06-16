@@ -15,12 +15,12 @@ dublin_core:
       text: Bogalusa LTC.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb68e84f14fb29fb68ec35.jpg
+  - fullsize: /files/fullsize/14fb29fb68e84f14fb29fb68ec35.jpg
     id: 18787
     mime: image/jpeg
     original_filename: Bogalusa LTC.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb68e84f14fb29fb68ec35.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb68e84f14fb29fb68ec35.jpg
+    thumb: /files/thumbnails/14fb29fb68e84f14fb29fb68ec35.jpg
+    url: /files/original/14fb29fb68e84f14fb29fb68ec35.jpg
 geo:
 id: 21836
 item_type: Still Image

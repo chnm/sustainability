@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Lobbying Recruitment_Flyer_FINAL_fc7a206591.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18ff2d8a14fb2a19002399.doc
+    url: /files/original/14fb2a18ff2d8a14fb2a19002399.doc
 geo:
 id: 14506
 item_type: Document

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Thames, Shelby.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87204bb9a14fbe87204bf81.doc
+    url: /files/original/14fbe87204bb9a14fbe87204bf81.doc
 geo:
 id: 45865
 item_type: Oral History

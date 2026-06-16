@@ -26,7 +26,7 @@ files:
     mime: application/octet-stream
     original_filename: '[SHN]Talking Points Draft_58b28cd5e3.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d04867614fb2a1d048d62.doc
+    url: /files/original/14fb2a1d04867614fb2a1d048d62.doc
 geo:
 id: 13711
 item_type: Document

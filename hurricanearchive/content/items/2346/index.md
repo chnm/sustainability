@@ -26,7 +26,7 @@ files:
     mime: application/msword
     original_filename: Storytelling_and_Survival_3_New_Orleans_30ac6a1999.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6d46a02914fb2a6d46a40e.doc
+    url: /files/original/14fb2a6d46a02914fb2a6d46a40e.doc
 geo:
   address: ''
   lat: 30.23336

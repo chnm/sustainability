@@ -17,12 +17,12 @@ dublin_core:
       text: Vermilion Parish 7th ward volunteer fire department
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d5bbd33914fb29d5bbd720.jpg
+  - fullsize: /files/fullsize/14fb29d5bbd33914fb29d5bbd720.jpg
     id: 23138
     mime: image/jpg
     original_filename: 348972217_51ff4290ea.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d5bbd33914fb29d5bbd720.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d5bbd33914fb29d5bbd720.jpg
+    thumb: /files/thumbnails/14fb29d5bbd33914fb29d5bbd720.jpg
+    url: /files/original/14fb29d5bbd33914fb29d5bbd720.jpg
 geo:
   address: ''
   lat: 29.78551

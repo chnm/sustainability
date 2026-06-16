@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: SHN Leadership 5-31-06_61792cdbf9.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cd7999914fb2a1cd79d7d.doc
+    url: /files/original/14fb2a1cd7999914fb2a1cd79d7d.doc
 geo:
 id: 13728
 item_type: Document

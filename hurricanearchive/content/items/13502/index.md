@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: 000.3 foreword page 3.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1e12c8e714fb2a1e12cccf.pdf
+    url: /files/original/14fb2a1e12c8e714fb2a1e12cccf.pdf
 geo:
 id: 13502
 item_type: Document

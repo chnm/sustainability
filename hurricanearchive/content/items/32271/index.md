@@ -22,7 +22,7 @@ files:
     mime: application/x-pdf
     original_filename: redcrossreport2007_d3f506e519.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cbf7a86b14fb29cbf7ac50.pdf
+    url: /files/original/14fb29cbf7a86b14fb29cbf7ac50.pdf
 geo:
 id: 32271
 item_type: Document

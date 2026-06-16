@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6928.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d2265dc014fb29d22661a5.jpg
+  - fullsize: /files/fullsize/14fb29d2265dc014fb29d22661a5.jpg
     id: 23457
     mime: image/jpg
     original_filename: 162117760_7707a3792f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d2265dc014fb29d22661a5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d2265dc014fb29d22661a5.jpg
+    thumb: /files/thumbnails/14fb29d2265dc014fb29d22661a5.jpg
+    url: /files/original/14fb29d2265dc014fb29d22661a5.jpg
 geo:
 id: 28606
 item_type: Still Image

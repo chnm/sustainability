@@ -15,12 +15,12 @@ dublin_core:
       text: Support around the Superdomesuperdome.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dde2d04b14fb29dde2d7d3.jpg
+  - fullsize: /files/fullsize/14fb29dde2d04b14fb29dde2d7d3.jpg
     id: 22363
     mime: image/jpeg
     original_filename: Support around the Superdomesuperdome.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dde2d04b14fb29dde2d7d3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dde2d04b14fb29dde2d7d3.jpg
+    thumb: /files/thumbnails/14fb29dde2d04b14fb29dde2d7d3.jpg
+    url: /files/original/14fb29dde2d04b14fb29dde2d7d3.jpg
 geo:
 id: 25424
 item_type: Still Image

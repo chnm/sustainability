@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: SFC Wood and SPC Riley 24 Sep 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ae5367614fb2a1ae53a5a.wav
+    url: /files/original/14fb2a1ae5367614fb2a1ae53a5a.wav
 geo:
   address: ''
   lat: 0.0

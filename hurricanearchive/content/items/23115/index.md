@@ -15,12 +15,12 @@ dublin_core:
       text: 051003-A-1687S-064CaliforniaNG.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f180a34c14fb29f180a72f.jpg
+  - fullsize: /files/fullsize/14fb29f180a34c14fb29f180a72f.jpg
     id: 20059
     mime: image/jpeg
     original_filename: 051003-A-1687S-064CaliforniaNG.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f180a34c14fb29f180a72f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f180a34c14fb29f180a72f.jpg
+    thumb: /files/thumbnails/14fb29f180a34c14fb29f180a72f.jpg
+    url: /files/original/14fb29f180a34c14fb29f180a72f.jpg
 geo:
 id: 23115
 item_type: Still Image

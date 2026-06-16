@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Boudreaux Jr., Edmond A(828).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8705c9e1c14fbe8705ca202.doc
+    url: /files/original/14fbe8705c9e1c14fbe8705ca202.doc
 geo:
 id: 45635
 item_type: Oral History

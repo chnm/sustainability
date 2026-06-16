@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Seymore, Molly.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871e72a1d14fbe871e72e0d.doc
+    url: /files/original/14fbe871e72a1d14fbe871e72e0d.doc
 geo:
 id: 45843
 item_type: Oral History

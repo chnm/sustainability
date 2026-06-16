@@ -26,7 +26,7 @@ files:
     mime: application/msword
     original_filename: Dear Work Crew_4d98f5a58a.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ca96775c14fb29ca967b9f.doc
+    url: /files/original/14fb29ca96775c14fb29ca967b9f.doc
 geo:
   address: 4201 Transcontinental Blvd
   lat: 30.01494

@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6846.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d207f88614fb29d207fa05.jpg
+  - fullsize: /files/fullsize/14fb29d207f88614fb29d207fa05.jpg
     id: 23478
     mime: image/jpg
     original_filename: 158897194_e72379b84f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d207f88614fb29d207fa05.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d207f88614fb29d207fa05.jpg
+    thumb: /files/thumbnails/14fb29d207f88614fb29d207fa05.jpg
+    url: /files/original/14fb29d207f88614fb29d207fa05.jpg
 geo:
 id: 28627
 item_type: Still Image

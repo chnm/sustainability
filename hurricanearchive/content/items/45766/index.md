@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Matheson, Sue.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871404fdf14fbe8714053cd.doc
+    url: /files/original/14fbe871404fdf14fbe8714053cd.doc
 geo:
 id: 45766
 item_type: Oral History

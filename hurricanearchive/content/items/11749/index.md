@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: ryanwheelock.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23b0d1a414fb2a23b0d592.html
+    url: /files/original/14fb2a23b0d1a414fb2a23b0d592.html
 geo:
 id: 11749
 item_type: Oral History

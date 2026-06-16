@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d73902c814fb29d73906af.jpg
+  - fullsize: /files/fullsize/14fb29d73902c814fb29d73906af.jpg
     id: 23036
     mime: image/jpeg
     original_filename: slow dancing_ec1905dfa7.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d73902c814fb29d73906af.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d73902c814fb29d73906af.jpg
+    thumb: /files/thumbnails/14fb29d73902c814fb29d73906af.jpg
+    url: /files/original/14fb29d73902c814fb29d73906af.jpg
 geo:
 id: 26852
 item_type: Still Image

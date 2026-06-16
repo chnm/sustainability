@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0040grandisle.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a152a909614fb2a152a9490.jpg
+  - fullsize: /files/fullsize/14fb2a152a909614fb2a152a9490.jpg
     id: 15765
     mime: image/jpeg
     original_filename: DSC 0040grandisle.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a152a909614fb2a152a9490.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a152a909614fb2a152a9490.jpg
+    thumb: /files/thumbnails/14fb2a152a909614fb2a152a9490.jpg
+    url: /files/original/14fb2a152a909614fb2a152a9490.jpg
 geo:
 id: 18812
 item_type: Still Image

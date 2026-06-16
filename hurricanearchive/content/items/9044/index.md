@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 17 2006 Area delegation pleads for aid.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35e073f714fb2a35e07849.txt
+    url: /files/original/14fb2a35e073f714fb2a35e07849.txt
 geo:
   address: ''
   lat: 0.0

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: 09_20_06_Agenda_30b548f267.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c9eb98d14fb2a1c9ebd67.doc
+    url: /files/original/14fb2a1c9eb98d14fb2a1c9ebd67.doc
 geo:
 id: 13826
 item_type: Document

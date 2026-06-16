@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Eric R Womack.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a24696a1b14fb2a24696e00.htm
+    url: /files/original/14fb2a24696a1b14fb2a24696e00.htm
 geo:
 id: 11638
 item_type: Oral History

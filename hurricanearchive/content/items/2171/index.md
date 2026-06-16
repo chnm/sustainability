@@ -25,7 +25,7 @@ files:
     mime: application/pdf
     original_filename: HurricanePresentation_2f64fb1f94.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6d89d0a114fb2a6d89d48f.pdf
+    url: /files/original/14fb2a6d89d0a114fb2a6d89d48f.pdf
 geo:
   address: ''
   lat: 27.203872

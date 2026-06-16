@@ -21,12 +21,12 @@ dublin_core:
       text: LegionOaksWaterline
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d28ef1b114fb29d28f0e4a.jpg
+  - fullsize: /files/fullsize/14fb29d28ef1b114fb29d28f0e4a.jpg
     id: 23408
     mime: image/jpg
     original_filename: 385042709_81f565d0dd.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d28ef1b114fb29d28f0e4a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d28ef1b114fb29d28f0e4a.jpg
+    thumb: /files/thumbnails/14fb29d28ef1b114fb29d28f0e4a.jpg
+    url: /files/original/14fb29d28ef1b114fb29d28f0e4a.jpg
 geo:
 id: 28255
 item_type: Still Image

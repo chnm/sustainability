@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a70e1696f14fb2a70e16d4b.jpg
+  - fullsize: /files/fullsize/14fb2a70e1696f14fb2a70e16d4b.jpg
     id: 113
     mime: image/jpeg
     original_filename: looting_at_walmart_2542da6550.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a70e1696f14fb2a70e16d4b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a70e1696f14fb2a70e16d4b.jpg
+    thumb: /files/thumbnails/14fb2a70e1696f14fb2a70e16d4b.jpg
+    url: /files/original/14fb2a70e1696f14fb2a70e16d4b.jpg
 geo:
   address: ''
   lat: 29.878755346037998

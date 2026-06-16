@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 365-J2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f9f50cf014fb29f9f5108a.jpg
+  - fullsize: /files/fullsize/14fb29f9f50cf014fb29f9f5108a.jpg
     id: 18985
     mime: image/jpeg
     original_filename: Picture 365-J2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f9f50cf014fb29f9f5108a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f9f50cf014fb29f9f5108a.jpg
+    thumb: /files/thumbnails/14fb29f9f50cf014fb29f9f5108a.jpg
+    url: /files/original/14fb29f9f50cf014fb29f9f5108a.jpg
 geo:
 id: 22034
 item_type: Still Image

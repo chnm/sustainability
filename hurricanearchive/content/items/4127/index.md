@@ -15,12 +15,12 @@ dublin_core:
       text: IMG_0013.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a57875cb214fb2a57876099.jpg
+  - fullsize: /files/fullsize/14fb2a57875cb214fb2a57876099.jpg
     id: 3538
     mime: image/jpeg
     original_filename: IMG_0013.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a57875cb214fb2a57876099.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a57875cb214fb2a57876099.jpg
+    thumb: /files/thumbnails/14fb2a57875cb214fb2a57876099.jpg
+    url: /files/original/14fb2a57875cb214fb2a57876099.jpg
 geo:
 id: 4127
 item_type: Still Image

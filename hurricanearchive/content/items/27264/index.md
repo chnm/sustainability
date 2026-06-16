@@ -14,12 +14,12 @@ dublin_core:
       text: Post Katrina French Market.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d595003914fb29d5950412.jpg
+  - fullsize: /files/fullsize/14fb29d595003914fb29d5950412.jpg
     id: 23170
     mime: image/jpeg
     original_filename: Post Katrina French Market.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d595003914fb29d5950412.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d595003914fb29d5950412.jpg
+    thumb: /files/thumbnails/14fb29d595003914fb29d5950412.jpg
+    url: /files/original/14fb29d595003914fb29d5950412.jpg
 geo:
 id: 27264
 item_type: Still Image

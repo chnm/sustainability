@@ -16,7 +16,7 @@ files:
     mime: application/msword
     original_filename: what you can do_LobbyEffort_ef630279e5.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18e6e3cc14fb2a18e6e7d1.doc
+    url: /files/original/14fb2a18e6e3cc14fb2a18e6e7d1.doc
 geo:
 id: 14537
 item_type: Document

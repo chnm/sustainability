@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Sullivan, Pat.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871fd012414fbe871fd0500.doc
+    url: /files/original/14fbe871fd012414fbe871fd0500.doc
 geo:
 id: 45858
 item_type: Oral History

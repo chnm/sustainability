@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbd85fd414fb29cbd865f5.jpg
+  - fullsize: /files/fullsize/14fb29cbd85fd414fb29cbd865f5.jpg
     id: 24022
     mime: image/jpeg
     original_filename: Hurricane symbol esoteric 11-3-07_ba59ba0102.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbd85fd414fb29cbd865f5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbd85fd414fb29cbd865f5.jpg
+    thumb: /files/thumbnails/14fb29cbd85fd414fb29cbd865f5.jpg
+    url: /files/original/14fb29cbd85fd414fb29cbd865f5.jpg
 geo:
   address: ''
   lat: 30.27456

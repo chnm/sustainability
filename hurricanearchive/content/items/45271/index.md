@@ -21,7 +21,7 @@ files:
     mime: video/x-m4v
     original_filename: 7510 Sheffiled Street_32b8413b93.m4v
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c1c83fcc14fb29c1c843c3.m4v
+    url: /files/original/14fb29c1c83fcc14fb29c1c843c3.m4v
 geo:
 id: 45271
 item_type: Document

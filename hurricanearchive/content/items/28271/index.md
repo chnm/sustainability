@@ -20,12 +20,12 @@ dublin_core:
       text: Trio of Chairs in a Tree
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d26c775614fb29d26c7dc1.jpg
+  - fullsize: /files/fullsize/14fb29d26c775614fb29d26c7dc1.jpg
     id: 23415
     mime: image/jpeg
     original_filename: chairs tree_2d66d2b47e.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d26c775614fb29d26c7dc1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d26c775614fb29d26c7dc1.jpg
+    thumb: /files/thumbnails/14fb29d26c775614fb29d26c7dc1.jpg
+    url: /files/original/14fb29d26c775614fb29d26c7dc1.jpg
 geo:
   address: 2426  Bradish Place
   lat: 0.0

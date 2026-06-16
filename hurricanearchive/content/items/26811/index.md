@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Susana Donaghey MT156K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7a6782714fb29d7a6842b.mp3
+    url: /files/original/14fb29d7a6782714fb29d7a6842b.mp3
 geo:
 id: 26811
 item_type: Oral History

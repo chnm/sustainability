@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Cintra and Melquiades.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87074e84a14fbe87074ec2e.doc
+    url: /files/original/14fbe87074e84a14fbe87074ec2e.doc
 geo:
 id: 45651
 item_type: Oral History

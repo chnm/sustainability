@@ -21,12 +21,12 @@ dublin_core:
       text: Aerial view of Oak Harbor
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca2a569c14fb29ca2a5a80.jpg
+  - fullsize: /files/fullsize/14fb29ca2a569c14fb29ca2a5a80.jpg
     id: 24245
     mime: image/jpg
     original_filename: 2380730274_51f0d8e30c.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca2a569c14fb29ca2a5a80.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca2a569c14fb29ca2a5a80.jpg
+    thumb: /files/thumbnails/14fb29ca2a569c14fb29ca2a5a80.jpg
+    url: /files/original/14fb29ca2a569c14fb29ca2a5a80.jpg
 geo:
   address: ''
   lat: 30.23849

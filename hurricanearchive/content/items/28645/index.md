@@ -19,12 +19,12 @@ dublin_core:
       text: DSC_6810
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1f1e63814fb29d1f1eff5.jpg
+  - fullsize: /files/fullsize/14fb29d1f1e63814fb29d1f1eff5.jpg
     id: 23496
     mime: image/jpg
     original_filename: 158641139_c56a7a2d5f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1f1e63814fb29d1f1eff5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1f1e63814fb29d1f1eff5.jpg
+    thumb: /files/thumbnails/14fb29d1f1e63814fb29d1f1eff5.jpg
+    url: /files/original/14fb29d1f1e63814fb29d1f1eff5.jpg
 geo:
 id: 28645
 item_type: Still Image

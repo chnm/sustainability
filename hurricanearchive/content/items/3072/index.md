@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Karen Baker.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e273a1d14fb2a5e273e04.wav
+    url: /files/original/14fb2a5e273a1d14fb2a5e273e04.wav
 geo:
 id: 3072
 item_type: Oral History

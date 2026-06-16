@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Laube, Jerry.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871108c4e14fbe871109035.doc
+    url: /files/original/14fbe871108c4e14fbe871109035.doc
 geo:
 id: 45743
 item_type: Oral History

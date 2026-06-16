@@ -17,19 +17,19 @@ files:
     mime: audio/mpeg
     original_filename: Beers, Paul 9-26-07 1 of 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e95de2814fbe86e95e210.mp3
+    url: /files/original/14fbe86e95de2814fbe86e95e210.mp3
   - fullsize:
     id: 45950
     mime: audio/mpeg
     original_filename: Beers, Paul 9-26-07 2 of 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e96f38514fbe86e96f75d.mp3
+    url: /files/original/14fbe86e96f38514fbe86e96f75d.mp3
   - fullsize:
     id: 45951
     mime: application/msword
     original_filename: Beers, Paul.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e98eb4914fbe86e98ef28.doc
+    url: /files/original/14fbe86e98eb4914fbe86e98ef28.doc
 geo:
 id: 45535
 item_type: Oral History

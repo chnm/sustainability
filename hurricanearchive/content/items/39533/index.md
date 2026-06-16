@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c50de91914fb29c50deb2e.jpg
+  - fullsize: /files/fullsize/14fb29c50de91914fb29c50deb2e.jpg
     id: 24809
     mime: image/pjpeg
     original_filename: endymion2_f9068f9bbd.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c50de91914fb29c50deb2e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c50de91914fb29c50deb2e.jpg
+    thumb: /files/thumbnails/14fb29c50de91914fb29c50deb2e.jpg
+    url: /files/original/14fb29c50de91914fb29c50deb2e.jpg
 geo:
   address: 4630 orleans ave.
   lat: 29.98332

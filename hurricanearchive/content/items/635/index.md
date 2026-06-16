@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f500b4e14fb2a6f500f34.jpg
+  - fullsize: /files/fullsize/14fb2a6f500b4e14fb2a6f500f34.jpg
     id: 473
     mime: image/jpeg
     original_filename: Manuels_pet_alligator_04a9c7a46e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f500b4e14fb2a6f500f34.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f500b4e14fb2a6f500f34.jpg
+    thumb: /files/thumbnails/14fb2a6f500b4e14fb2a6f500f34.jpg
+    url: /files/original/14fb2a6f500b4e14fb2a6f500f34.jpg
 geo:
   address: ''
   lat: 30.342352

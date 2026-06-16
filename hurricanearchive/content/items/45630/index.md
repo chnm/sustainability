@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Bass, Robert.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87057667414fbe870576a63.doc
+    url: /files/original/14fbe87057667414fbe870576a63.doc
 geo:
 id: 45630
 item_type: Oral History

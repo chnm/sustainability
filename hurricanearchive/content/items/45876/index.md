@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Walker, William W.(803).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8721a409c14fbe8721a4482.doc
+    url: /files/original/14fbe8721a409c14fbe8721a4482.doc
 geo:
 id: 45876
 item_type: Oral History

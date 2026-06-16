@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0019M.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0700431d14fb2a07004702.jpg
+  - fullsize: /files/fullsize/14fb2a0700431d14fb2a07004702.jpg
     id: 17424
     mime: image/jpeg
     original_filename: DSC 0019M.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0700431d14fb2a07004702.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0700431d14fb2a07004702.jpg
+    thumb: /files/thumbnails/14fb2a0700431d14fb2a07004702.jpg
+    url: /files/original/14fb2a0700431d14fb2a07004702.jpg
 geo:
 id: 20471
 item_type: Still Image

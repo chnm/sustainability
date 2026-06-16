@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Brann, Emily.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8705d422414fbe8705d4609.doc
+    url: /files/original/14fbe8705d422414fbe8705d4609.doc
 geo:
 id: 45636
 item_type: Oral History

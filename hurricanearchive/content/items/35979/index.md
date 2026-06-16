@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c5d3405214fb29c5d34438.jpg
+  - fullsize: /files/fullsize/14fb29c5d3405214fb29c5d34438.jpg
     id: 24715
     mime: image/jpeg
     original_filename: US 90 04_4bf28c4612.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c5d3405214fb29c5d34438.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c5d3405214fb29c5d34438.jpg
+    thumb: /files/thumbnails/14fb29c5d3405214fb29c5d34438.jpg
+    url: /files/original/14fb29c5d3405214fb29c5d34438.jpg
 geo:
   address: Gulfport
   lat: 30.10712

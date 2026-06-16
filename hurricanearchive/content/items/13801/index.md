@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: SHN Membership Call July 26agend_fbb5f5b418.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1caef6f814fb2a1caefade.doc
+    url: /files/original/14fb2a1caef6f814fb2a1caefade.doc
 geo:
 id: 13801
 item_type: Document

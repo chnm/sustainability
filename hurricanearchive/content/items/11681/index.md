@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Michelle Cajepe Conner.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a24080c1814fb2a24080ffb.html
+    url: /files/original/14fb2a24080c1814fb2a24080ffb.html
 geo:
 id: 11681
 item_type: Oral History

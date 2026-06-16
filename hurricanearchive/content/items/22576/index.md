@@ -15,12 +15,12 @@ dublin_core:
       text: Doorway at Jack Brks 3Jacksonbarracks.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f533a6be14fb29f533aaa3.jpg
+  - fullsize: /files/fullsize/14fb29f533a6be14fb29f533aaa3.jpg
     id: 19527
     mime: image/jpeg
     original_filename: Doorway at Jack Brks 3Jacksonbarracks.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f533a6be14fb29f533aaa3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f533a6be14fb29f533aaa3.jpg
+    thumb: /files/thumbnails/14fb29f533a6be14fb29f533aaa3.jpg
+    url: /files/original/14fb29f533a6be14fb29f533aaa3.jpg
 geo:
 id: 22576
 item_type: Still Image

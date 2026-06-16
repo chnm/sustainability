@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Photographer gulfport.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2326155b14fb2a2326192a.doc
+    url: /files/original/14fb2a2326155b14fb2a2326192a.doc
 geo:
 id: 11831
 item_type: Document

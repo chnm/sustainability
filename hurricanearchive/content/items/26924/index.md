@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Jacob Thompson HK1056K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d634e00814fb29d634e3eb.mp3
+    url: /files/original/14fb29d634e00814fb29d634e3eb.mp3
 geo:
 id: 26924
 item_type: Oral History

@@ -16,7 +16,7 @@ files:
     mime: text/html
     original_filename: Hurricane Katrina Pictures, Applause, UA Fort Smith_8ada2e0ab8.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c1e981c214fb29c1e985a8.html
+    url: /files/original/14fb29c1e981c214fb29c1e985a8.html
 geo:
   address: ''
   lat: 29.68805

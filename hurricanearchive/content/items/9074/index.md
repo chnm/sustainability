@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 02 2005 MDA telethon also will pitch Katrina relief.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35ba9f6f14fb2a35baa42e.txt
+    url: /files/original/14fb2a35ba9f6f14fb2a35baa42e.txt
 geo:
   address: ''
   lat: 0.0

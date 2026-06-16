@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: justinburton.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23bc4a9814fb2a23bc4e76.html
+    url: /files/original/14fb2a23bc4a9814fb2a23bc4e76.html
 geo:
 id: 11735
 item_type: Oral History

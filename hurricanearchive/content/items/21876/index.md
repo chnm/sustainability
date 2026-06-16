@@ -15,12 +15,12 @@ dublin_core:
       text: LSU School of Denistry.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb4ad63d14fb29fb4ada22.jpg
+  - fullsize: /files/fullsize/14fb29fb4ad63d14fb29fb4ada22.jpg
     id: 18827
     mime: image/jpeg
     original_filename: LSU School of Denistry.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb4ad63d14fb29fb4ada22.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb4ad63d14fb29fb4ada22.jpg
+    thumb: /files/thumbnails/14fb29fb4ad63d14fb29fb4ada22.jpg
+    url: /files/original/14fb29fb4ad63d14fb29fb4ada22.jpg
 geo:
 id: 21876
 item_type: Still Image

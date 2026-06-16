@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Barbara Manix HK1856K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d649475414fb29d6494b39.mp3
+    url: /files/original/14fb29d649475414fb29d6494b39.mp3
 geo:
 id: 26913
 item_type: Oral History

@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c28c031814fb29c28c06fe.jpg
+  - fullsize: /files/fullsize/14fb29c28c031814fb29c28c06fe.jpg
     id: 25043
     mime: image/jpeg
     original_filename: Wingate3_5561805ede.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c28c031814fb29c28c06fe.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c28c031814fb29c28c06fe.jpg
+    thumb: /files/thumbnails/14fb29c28c031814fb29c28c06fe.jpg
+    url: /files/original/14fb29c28c031814fb29c28c06fe.jpg
 geo:
   address: 5769 Wingate Drive
   lat: 0.0

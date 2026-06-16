@@ -15,12 +15,12 @@ dublin_core:
       text: 09210012iwojima.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a11794c6614fb2a1179538d.jpg
+  - fullsize: /files/fullsize/14fb2a11794c6614fb2a1179538d.jpg
     id: 16215
     mime: image/jpeg
     original_filename: 09210012iwojima.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a11794c6614fb2a1179538d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a11794c6614fb2a1179538d.jpg
+    thumb: /files/thumbnails/14fb2a11794c6614fb2a1179538d.jpg
+    url: /files/original/14fb2a11794c6614fb2a1179538d.jpg
 geo:
 id: 19262
 item_type: Still Image

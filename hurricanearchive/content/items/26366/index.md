@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d9277bba14fb29d9277f91.jpg
+  - fullsize: /files/fullsize/14fb29d9277bba14fb29d9277f91.jpg
     id: 22845
     mime: image/jpeg
     original_filename: Lionell Powell_5842_5a4a91015a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d9277bba14fb29d9277f91.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d9277bba14fb29d9277f91.jpg
+    thumb: /files/thumbnails/14fb29d9277bba14fb29d9277f91.jpg
+    url: /files/original/14fb29d9277bba14fb29d9277f91.jpg
 geo:
   address: Israelite Spiritual Church, 3000 Frenchmen St., New Orleans, LA
   lat: 0.0

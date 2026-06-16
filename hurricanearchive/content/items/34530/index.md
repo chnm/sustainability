@@ -21,12 +21,12 @@ dublin_core:
       text: Nick Leggio\'s Home office
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c985a83614fb29c985aed4.jpg
+  - fullsize: /files/fullsize/14fb29c985a83614fb29c985aed4.jpg
     id: 24364
     mime: image/jpg
     original_filename: 2277255507_ad212b56e4.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c985a83614fb29c985aed4.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c985a83614fb29c985aed4.jpg
+    thumb: /files/thumbnails/14fb29c985a83614fb29c985aed4.jpg
+    url: /files/original/14fb29c985a83614fb29c985aed4.jpg
 geo:
   address: ''
   lat: 30.22539

@@ -24,12 +24,12 @@ dublin_core:
       text: Cleaning up Oil Spill at Bass Enterprises
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a667c772214fb2a667c7b08.jpg
+  - fullsize: /files/fullsize/14fb2a667c772214fb2a667c7b08.jpg
     id: 1915
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05CDP_e2f9272ff2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a667c772214fb2a667c7b08.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a667c772214fb2a667c7b08.jpg
+    thumb: /files/thumbnails/14fb2a667c772214fb2a667c7b08.jpg
+    url: /files/original/14fb2a667c772214fb2a667c7b08.jpg
 geo:
 id: 2423
 item_type: Still Image

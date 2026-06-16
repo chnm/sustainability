@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: redsox_b0c8c27385.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce328b9f14fb29ce328f46.pdf
+    url: /files/original/14fb29ce328b9f14fb29ce328f46.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d8b3bba314fb29d8b3bfdc.jpg
+  - fullsize: /files/fullsize/14fb29d8b3bba314fb29d8b3bfdc.jpg
     id: 22881
     mime: image/jpeg
     original_filename: HS 2 Huey Long Bridge_445e06ad5c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d8b3bba314fb29d8b3bfdc.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d8b3bba314fb29d8b3bfdc.jpg
+    thumb: /files/thumbnails/14fb29d8b3bba314fb29d8b3bfdc.jpg
+    url: /files/original/14fb29d8b3bba314fb29d8b3bfdc.jpg
 geo:
   address: ''
   lat: 29.91685

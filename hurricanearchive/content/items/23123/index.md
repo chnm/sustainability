@@ -15,12 +15,12 @@ dublin_core:
       text: 051003-A-2604S-0030WestVirginiaNG.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f17752d614fb29f17756bd.jpg
+  - fullsize: /files/fullsize/14fb29f17752d614fb29f17756bd.jpg
     id: 20067
     mime: image/jpeg
     original_filename: 051003-A-2604S-0030WestVirginiaNG.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f17752d614fb29f17756bd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f17752d614fb29f17756bd.jpg
+    thumb: /files/thumbnails/14fb29f17752d614fb29f17756bd.jpg
+    url: /files/original/14fb29f17752d614fb29f17756bd.jpg
 geo:
 id: 23123
 item_type: Still Image

@@ -23,7 +23,7 @@ files:
     mime: text/html
     original_filename: Katrina Does St_d16c95b4b2.ppt.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ca951f9914fb29ca9569f9.htm
+    url: /files/original/14fb29ca951f9914fb29ca9569f9.htm
 geo:
   address: ''
   lat: 0.0

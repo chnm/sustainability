@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_d661061c52.Adios amigos.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29caccb53114fb29caccb9a4.doc
+    url: /files/original/14fb29caccb53114fb29caccb9a4.doc
 geo:
 id: 33313
 item_type: Document

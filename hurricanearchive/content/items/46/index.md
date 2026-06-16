@@ -25,7 +25,7 @@ files:
     mime: application/msword
     original_filename: katressay_d41e65d59b.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a713c11cb14fb2a713c159d.doc
+    url: /files/original/14fb2a713c11cb14fb2a713c159d.doc
 geo:
   address: ''
   lat: 30.446993

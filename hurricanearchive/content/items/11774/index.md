@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Biloxi pics Gretch.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2382a12614fb2a2382a50c.doc
+    url: /files/original/14fb2a2382a12614fb2a2382a50c.doc
 geo:
 id: 11774
 item_type: Document

@@ -17,12 +17,12 @@ dublin_core:
       text: Lake Ponch Bridge
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbc8405714fb29cbc84401.jpg
+  - fullsize: /files/fullsize/14fb29cbc8405714fb29cbc84401.jpg
     id: 24034
     mime: image/jpg
     original_filename: 1438012117_a189caf82f.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbc8405714fb29cbc84401.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbc8405714fb29cbc84401.jpg
+    thumb: /files/thumbnails/14fb29cbc8405714fb29cbc84401.jpg
+    url: /files/original/14fb29cbc8405714fb29cbc84401.jpg
 geo:
   address: ''
   lat: 29.95916

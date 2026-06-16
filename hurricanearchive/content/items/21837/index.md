@@ -15,12 +15,12 @@ dublin_core:
       text: Canal at I-10.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb6882da14fb29fb6886ac.jpg
+  - fullsize: /files/fullsize/14fb29fb6882da14fb29fb6886ac.jpg
     id: 18788
     mime: image/jpeg
     original_filename: Canal at I-10.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb6882da14fb29fb6886ac.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb6882da14fb29fb6886ac.jpg
+    thumb: /files/thumbnails/14fb29fb6882da14fb29fb6886ac.jpg
+    url: /files/original/14fb29fb6882da14fb29fb6886ac.jpg
 geo:
 id: 21837
 item_type: Still Image

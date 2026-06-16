@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Chet Brace HK2756K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d64319c214fb29d6431da7.mp3
+    url: /files/original/14fb29d64319c214fb29d6431da7.mp3
 geo:
 id: 26917
 item_type: Oral History

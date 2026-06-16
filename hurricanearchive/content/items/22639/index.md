@@ -15,12 +15,12 @@ dublin_core:
       text: Looking out of Jack BrksJacksonbarracks.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f4e82fe214fb29f4e833c6.jpg
+  - fullsize: /files/fullsize/14fb29f4e82fe214fb29f4e833c6.jpg
     id: 19590
     mime: image/jpeg
     original_filename: Looking out of Jack BrksJacksonbarracks.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f4e82fe214fb29f4e833c6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f4e82fe214fb29f4e833c6.jpg
+    thumb: /files/thumbnails/14fb29f4e82fe214fb29f4e833c6.jpg
+    url: /files/original/14fb29f4e82fe214fb29f4e833c6.jpg
 geo:
 id: 22639
 item_type: Still Image

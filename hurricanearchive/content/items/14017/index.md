@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: 1SG Lawrence Marold 26 Sep 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c72fc6c14fb2a1c730051.wav
+    url: /files/original/14fb2a1c72fc6c14fb2a1c730051.wav
 geo:
   address: ''
   lat: 0.0

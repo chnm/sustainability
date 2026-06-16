@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: SPC Ross and SPC Leggett 27SEP2005.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1abc16da14fb2a1abc1abf.wav
+    url: /files/original/14fb2a1abc16da14fb2a1abc1abf.wav
 geo:
   address: ''
   lat: 0.0

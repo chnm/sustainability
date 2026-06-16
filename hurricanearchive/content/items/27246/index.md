@@ -14,12 +14,12 @@ dublin_core:
       text: Breach from 17th ST bridge.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d5a8524c14fb29d5a85632.jpg
+  - fullsize: /files/fullsize/14fb29d5a8524c14fb29d5a85632.jpg
     id: 23152
     mime: image/jpeg
     original_filename: Breach from 17th ST bridge.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d5a8524c14fb29d5a85632.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d5a8524c14fb29d5a85632.jpg
+    thumb: /files/thumbnails/14fb29d5a8524c14fb29d5a85632.jpg
+    url: /files/original/14fb29d5a8524c14fb29d5a85632.jpg
 geo:
 id: 27246
 item_type: Still Image

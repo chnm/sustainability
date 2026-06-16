@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Steven Toler.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e18a63314fb2a5e18aa18.wav
+    url: /files/original/14fb2a5e18a63314fb2a5e18aa18.wav
 geo:
 id: 3086
 item_type: Oral History

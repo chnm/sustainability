@@ -15,12 +15,12 @@ dublin_core:
       text: dried swamp.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1ec21bdc14fb2a1ec21fc0.jpg
+  - fullsize: /files/fullsize/14fb2a1ec21bdc14fb2a1ec21fc0.jpg
     id: 11253
     mime: image/jpeg
     original_filename: dried swamp.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1ec21bdc14fb2a1ec21fc0.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1ec21bdc14fb2a1ec21fc0.jpg
+    thumb: /files/thumbnails/14fb2a1ec21bdc14fb2a1ec21fc0.jpg
+    url: /files/original/14fb2a1ec21bdc14fb2a1ec21fc0.jpg
 geo:
 id: 13243
 item_type: Still Image

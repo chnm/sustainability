@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Jarvis J. Nunn.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2441e27a14fb2a2441e660.htm
+    url: /files/original/14fb2a2441e27a14fb2a2441e660.htm
 geo:
 id: 11654
 item_type: Oral History

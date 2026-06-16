@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Latham, Terry.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8710c5fca14fbe8710c63bb.doc
+    url: /files/original/14fbe8710c5fca14fbe8710c63bb.doc
 geo:
 id: 45742
 item_type: Oral History

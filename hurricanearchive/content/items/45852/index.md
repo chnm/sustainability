@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Stallworth, Bill.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871f46e7114fbe871f47224.doc
+    url: /files/original/14fbe871f46e7114fbe871f47224.doc
 geo:
 id: 45852
 item_type: Oral History

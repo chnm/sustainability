@@ -22,7 +22,7 @@ files:
     mime: audio/x-wav
     original_filename: JohnLingoni.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5725cbb214fb2a5725cf97.wav
+    url: /files/original/14fb2a5725cbb214fb2a5725cf97.wav
 geo:
   address: ''
   lat: 30.00564

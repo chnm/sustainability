@@ -15,12 +15,12 @@ dublin_core:
       text: local officials, IOWA, LA.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1a86951614fb2a1a869805.jpg
+  - fullsize: /files/fullsize/14fb2a1a86951614fb2a1a869805.jpg
     id: 11862
     mime: image/jpeg
     original_filename: local officials, IOWA, LA.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1a86951614fb2a1a869805.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1a86951614fb2a1a869805.jpg
+    thumb: /files/thumbnails/14fb2a1a86951614fb2a1a869805.jpg
+    url: /files/original/14fb2a1a86951614fb2a1a869805.jpg
 geo:
   address: ''
   lat: 0.0

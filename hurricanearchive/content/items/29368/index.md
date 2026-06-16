@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: crows_040eadd6bc.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce68e0d114fb29ce68eb57.pdf
+    url: /files/original/14fb29ce68e0d114fb29ce68eb57.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

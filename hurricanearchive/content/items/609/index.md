@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f6332b614fb2a6f633895.jpg
+  - fullsize: /files/fullsize/14fb2a6f6332b614fb2a6f633895.jpg
     id: 451
     mime: image/jpeg
     original_filename: RaceTrac4_Oct16_2_ffef46a85b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f6332b614fb2a6f633895.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f6332b614fb2a6f633895.jpg
+    thumb: /files/thumbnails/14fb2a6f6332b614fb2a6f633895.jpg
+    url: /files/original/14fb2a6f6332b614fb2a6f633895.jpg
 geo:
   address: ''
   lat: 30.148461

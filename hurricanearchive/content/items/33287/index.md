@@ -26,7 +26,7 @@ files:
     mime: application/msword
     original_filename: Perry_6682e0b57b.Did you know its Black History Month.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29caf8756814fb29caf87969.doc
+    url: /files/original/14fb29caf8756814fb29caf87969.doc
 geo:
 id: 33287
 item_type: Document

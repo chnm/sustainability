@@ -20,7 +20,7 @@ files:
     mime: application/octet-stream
     original_filename: mangipano_a3f228e377.interview.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cabee0cd14fb29cabee4b2.doc
+    url: /files/original/14fb29cabee0cd14fb29cabee4b2.doc
 geo:
   address: ''
   lat: 0.0

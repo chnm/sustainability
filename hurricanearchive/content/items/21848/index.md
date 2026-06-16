@@ -15,12 +15,12 @@ dublin_core:
       text: Dillard University looking North.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb61cc6814fb29fb61d050.jpg
+  - fullsize: /files/fullsize/14fb29fb61cc6814fb29fb61d050.jpg
     id: 18799
     mime: image/jpeg
     original_filename: Dillard University looking North.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb61cc6814fb29fb61d050.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb61cc6814fb29fb61d050.jpg
+    thumb: /files/thumbnails/14fb29fb61cc6814fb29fb61d050.jpg
+    url: /files/original/14fb29fb61cc6814fb29fb61d050.jpg
 geo:
 id: 21848
 item_type: Still Image

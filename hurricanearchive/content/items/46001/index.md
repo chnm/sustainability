@@ -14,12 +14,12 @@ dublin_core:
       text: Braithwaite
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/2f0010893b1d56d096336a5ea6409026.jpg
+  - fullsize: /files/fullsize/2f0010893b1d56d096336a5ea6409026.jpg
     id: 46581
     mime: image/jpeg
     original_filename: Earl Hippen at Cornerstone 017.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/2f0010893b1d56d096336a5ea6409026.jpg
-    url: https://hurricanearchive.org/files/original/2f0010893b1d56d096336a5ea6409026.jpg
+    thumb: /files/thumbnails/2f0010893b1d56d096336a5ea6409026.jpg
+    url: /files/original/2f0010893b1d56d096336a5ea6409026.jpg
 geo:
 id: 46001
 item_type: Still Image

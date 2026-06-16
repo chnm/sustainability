@@ -15,12 +15,12 @@ dublin_core:
       text: IMG_1017.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a57d0e07014fb2a57d0e451.jpg
+  - fullsize: /files/fullsize/14fb2a57d0e07014fb2a57d0e451.jpg
     id: 3507
     mime: image/jpeg
     original_filename: IMG_1017.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a57d0e07014fb2a57d0e451.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a57d0e07014fb2a57d0e451.jpg
+    thumb: /files/thumbnails/14fb2a57d0e07014fb2a57d0e451.jpg
+    url: /files/original/14fb2a57d0e07014fb2a57d0e451.jpg
 geo:
 id: 4096
 item_type: Still Image

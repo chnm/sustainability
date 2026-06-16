@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: LTG Blum 29 Sep 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1b6c431014fb2a1b6c46f6.wav
+    url: /files/original/14fb2a1b6c431014fb2a1b6c46f6.wav
 geo:
   address: ''
   lat: 0.0

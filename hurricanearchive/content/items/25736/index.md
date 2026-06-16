@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc8ce6f714fb29dc8ceb0c.jpg
+  - fullsize: /files/fullsize/14fb29dc8ce6f714fb29dc8ceb0c.jpg
     id: 22529
     mime: image/jpeg
     original_filename: KPatcheco-11maryjaneathouse1980's_87bb29c131.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc8ce6f714fb29dc8ceb0c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc8ce6f714fb29dc8ceb0c.jpg
+    thumb: /files/thumbnails/14fb29dc8ce6f714fb29dc8ceb0c.jpg
+    url: /files/original/14fb29dc8ce6f714fb29dc8ceb0c.jpg
 geo:
 id: 25736
 item_type: Still Image

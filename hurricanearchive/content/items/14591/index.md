@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Student Hurricane Network org proposal 1_11_06_8e6b12254a.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1890746514fb2a18907ef7.doc
+    url: /files/original/14fb2a1890746514fb2a18907ef7.doc
 geo:
 id: 14591
 item_type: Document

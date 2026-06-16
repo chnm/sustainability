@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6efeaad914fb2a6efeaec3.jpg
+  - fullsize: /files/fullsize/14fb2a6efeaad914fb2a6efeaec3.jpg
     id: 570
     mime: image/jpeg
     original_filename: PortArthurHomeRita_5843365066.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6efeaad914fb2a6efeaec3.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6efeaad914fb2a6efeaec3.jpg
+    thumb: /files/thumbnails/14fb2a6efeaad914fb2a6efeaec3.jpg
+    url: /files/original/14fb2a6efeaad914fb2a6efeaec3.jpg
 geo:
   address: ''
   lat: 30.148461

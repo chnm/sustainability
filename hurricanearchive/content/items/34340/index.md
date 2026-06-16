@@ -21,12 +21,12 @@ dublin_core:
       text: 237 Debbie Drive
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca48aee414fb29ca48b2ca.jpg
+  - fullsize: /files/fullsize/14fb29ca48aee414fb29ca48b2ca.jpg
     id: 24224
     mime: image/jpg
     original_filename: 2380907836_cbea184b4c.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca48aee414fb29ca48b2ca.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca48aee414fb29ca48b2ca.jpg
+    thumb: /files/thumbnails/14fb29ca48aee414fb29ca48b2ca.jpg
+    url: /files/original/14fb29ca48aee414fb29ca48b2ca.jpg
 geo:
   address: ''
   lat: 30.22437

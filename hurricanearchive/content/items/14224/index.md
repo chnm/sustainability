@@ -15,12 +15,12 @@ dublin_core:
       text: porter.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1a76048b14fb2a1a76086f.jpg
+  - fullsize: /files/fullsize/14fb2a1a76048b14fb2a1a76086f.jpg
     id: 11868
     mime: image/jpeg
     original_filename: porter.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1a76048b14fb2a1a76086f.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1a76048b14fb2a1a76086f.jpg
+    thumb: /files/thumbnails/14fb2a1a76048b14fb2a1a76086f.jpg
+    url: /files/original/14fb2a1a76048b14fb2a1a76086f.jpg
 geo:
   address: ''
   lat: 0.0

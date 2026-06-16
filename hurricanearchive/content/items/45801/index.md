@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Ortega, Omar.trs (English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87161fc2d14fbe871620004.doc
+    url: /files/original/14fbe87161fc2d14fbe871620004.doc
   - fullsize:
     id: 46433
     mime: application/msword
     original_filename: Ortega, Omar.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87162f28d14fbe87162f60d.doc
+    url: /files/original/14fbe87162f28d14fbe87162f60d.doc
 geo:
 id: 45801
 item_type: Oral History

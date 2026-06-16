@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Cox, James Raymond.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87080a5f214fbe87080a9d7.doc
+    url: /files/original/14fbe87080a5f214fbe87080a9d7.doc
 geo:
 id: 45656
 item_type: Oral History

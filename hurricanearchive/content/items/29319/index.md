@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: citywithscars_b6319c3355.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce8b502114fb29ce8b5409.pdf
+    url: /files/original/14fb29ce8b502114fb29ce8b5409.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

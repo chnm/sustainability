@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Genin, Phyllis (Fee).trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870b8d95114fbe870b8dd2b.doc
+    url: /files/original/14fbe870b8d95114fbe870b8dd2b.doc
 geo:
 id: 45681
 item_type: Oral History

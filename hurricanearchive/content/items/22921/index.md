@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0018tolbertmedia.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f2b08cbd14fb29f2b0909f.jpg
+  - fullsize: /files/fullsize/14fb29f2b08cbd14fb29f2b0909f.jpg
     id: 19865
     mime: image/jpeg
     original_filename: DSC 0018tolbertmedia.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f2b08cbd14fb29f2b0909f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f2b08cbd14fb29f2b0909f.jpg
+    thumb: /files/thumbnails/14fb29f2b08cbd14fb29f2b0909f.jpg
+    url: /files/original/14fb29f2b08cbd14fb29f2b0909f.jpg
 geo:
 id: 22921
 item_type: Still Image

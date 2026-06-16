@@ -21,12 +21,12 @@ dublin_core:
       text: '&ldquo;rip New Orleans&rdquo;'
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a602f211e14fb2a602f2504.jpg
+  - fullsize: /files/fullsize/14fb2a602f211e14fb2a602f2504.jpg
     id: 2269
     mime: image/jpeg
     original_filename: '&ldquo;rip New Orleans&rdquo;'
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a602f211e14fb2a602f2504.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a602f211e14fb2a602f2504.jpg
+    thumb: /files/thumbnails/14fb2a602f211e14fb2a602f2504.jpg
+    url: /files/original/14fb2a602f211e14fb2a602f2504.jpg
 geo:
 id: 2787
 item_type: Still Image

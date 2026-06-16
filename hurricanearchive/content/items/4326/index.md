@@ -23,7 +23,7 @@ files:
     mime: video/mp4
     original_filename: The Raw Truth.mp4
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5740482514fb2a57404c0f.mp4
+    url: /files/original/14fb2a5740482514fb2a57404c0f.mp4
 geo:
 id: 4326
 item_type: Moving Image

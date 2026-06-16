@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Hingle, Ronald.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870dee27914fbe870dee99d.doc
+    url: /files/original/14fbe870dee27914fbe870dee99d.doc
 geo:
 id: 45710
 item_type: Oral History

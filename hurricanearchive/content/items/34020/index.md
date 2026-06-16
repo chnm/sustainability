@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca9c01c814fb29ca9c0565.jpg
+  - fullsize: /files/fullsize/14fb29ca9c01c814fb29ca9c0565.jpg
     id: 24185
     mime: image/pjpeg
     original_filename: quilt2_600c2e00da.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca9c01c814fb29ca9c0565.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca9c01c814fb29ca9c0565.jpg
+    thumb: /files/thumbnails/14fb29ca9c01c814fb29ca9c0565.jpg
+    url: /files/original/14fb29ca9c01c814fb29ca9c0565.jpg
 geo:
   address: 1310 Simon Bolivar Ave.  New Orleans  LA
   lat: 29.9437

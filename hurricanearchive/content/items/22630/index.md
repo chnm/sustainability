@@ -15,12 +15,12 @@ dublin_core:
       text: Inside Quarters at Jack Brks 3Jacksonbarracks.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f4fbc88d14fb29f4fbcc72.jpg
+  - fullsize: /files/fullsize/14fb29f4fbc88d14fb29f4fbcc72.jpg
     id: 19581
     mime: image/jpeg
     original_filename: Inside Quarters at Jack Brks 3Jacksonbarracks.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f4fbc88d14fb29f4fbcc72.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f4fbc88d14fb29f4fbcc72.jpg
+    thumb: /files/thumbnails/14fb29f4fbc88d14fb29f4fbcc72.jpg
+    url: /files/original/14fb29f4fbc88d14fb29f4fbcc72.jpg
 geo:
 id: 22630
 item_type: Still Image

@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Morgan, Elizabeth.trs (English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871584db714fbe87158519b.doc
+    url: /files/original/14fbe871584db714fbe87158519b.doc
   - fullsize:
     id: 46420
     mime: application/msword
     original_filename: Morgan, Elizabeth.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87158fd6e14fbe871590155.doc
+    url: /files/original/14fbe87158fd6e14fbe871590155.doc
 geo:
 id: 45789
 item_type: Oral History

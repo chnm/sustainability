@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Courtney Geary.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2470c6c014fb2a2470ca9f.html
+    url: /files/original/14fb2a2470c6c014fb2a2470ca9f.html
 geo:
 id: 11627
 item_type: Oral History

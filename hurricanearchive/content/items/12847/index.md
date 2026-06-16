@@ -15,12 +15,12 @@ dublin_core:
       text: 9ward florida breach.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a21756d6f14fb2a2175714e.jpg
+  - fullsize: /files/fullsize/14fb2a21756d6f14fb2a2175714e.jpg
     id: 10991
     mime: image/jpeg
     original_filename: 9ward florida breach.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a21756d6f14fb2a2175714e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a21756d6f14fb2a2175714e.jpg
+    thumb: /files/thumbnails/14fb2a21756d6f14fb2a2175714e.jpg
+    url: /files/original/14fb2a21756d6f14fb2a2175714e.jpg
 geo:
 id: 12847
 item_type: Still Image

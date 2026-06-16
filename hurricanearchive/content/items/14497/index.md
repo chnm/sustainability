@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: '[SHN] Lobbying -- Statement of Principles, Next Steps_613a22aba0.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1915f31814fb2a1915f871.doc
+    url: /files/original/14fb2a1915f31814fb2a1915f871.doc
 geo:
 id: 14497
 item_type: Document

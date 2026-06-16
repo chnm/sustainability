@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: corpses_95a23b983c.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce81857314fb29ce81977b.pdf
+    url: /files/original/14fb29ce81857314fb29ce81977b.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

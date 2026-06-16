@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: MAJ Ed Bush 12 Oct 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1b51baf414fb2a1b51cb88.wav
+    url: /files/original/14fb2a1b51baf414fb2a1b51cb88.wav
 geo:
   address: ''
   lat: 0.0

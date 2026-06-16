@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbf3cc5d14fb29cbf3d044.jpg
+  - fullsize: /files/fullsize/14fb29cbf3cc5d14fb29cbf3d044.jpg
     id: 23996
     mime: image/jpeg
     original_filename: and_then_there_was_one_e84041034d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbf3cc5d14fb29cbf3d044.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbf3cc5d14fb29cbf3d044.jpg
+    thumb: /files/thumbnails/14fb29cbf3cc5d14fb29cbf3d044.jpg
+    url: /files/original/14fb29cbf3cc5d14fb29cbf3d044.jpg
 geo:
   address: ''
   lat: 29.68805

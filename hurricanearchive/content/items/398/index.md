@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a701b54a414fb2a701b57e1.jpg
+  - fullsize: /files/fullsize/14fb2a701b54a414fb2a701b57e1.jpg
     id: 267
     mime: image/jpeg
     original_filename: Resize_of_DSC_0348_fa5ba0cb03.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a701b54a414fb2a701b57e1.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a701b54a414fb2a701b57e1.jpg
+    thumb: /files/thumbnails/14fb2a701b54a414fb2a701b57e1.jpg
+    url: /files/original/14fb2a701b54a414fb2a701b57e1.jpg
 geo:
   address: ''
   lat: 30.417887641071204

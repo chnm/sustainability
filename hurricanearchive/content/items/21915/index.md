@@ -15,12 +15,12 @@ dublin_core:
       text: Venice - Oil sheen around white tanks.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb06ecf214fb29fb0702f6.jpg
+  - fullsize: /files/fullsize/14fb29fb06ecf214fb29fb0702f6.jpg
     id: 18866
     mime: image/jpeg
     original_filename: Venice - Oil sheen around white tanks.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb06ecf214fb29fb0702f6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb06ecf214fb29fb0702f6.jpg
+    thumb: /files/thumbnails/14fb29fb06ecf214fb29fb0702f6.jpg
+    url: /files/original/14fb29fb06ecf214fb29fb0702f6.jpg
 geo:
 id: 21915
 item_type: Still Image

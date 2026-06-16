@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a17199ba814fb2a17199f8d.jpg
+  - fullsize: /files/fullsize/14fb2a17199ba814fb2a17199f8d.jpg
     id: 12269
     mime: image/jpeg
     original_filename: TW & Clinton-1_60687ea583.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a17199ba814fb2a17199f8d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a17199ba814fb2a17199f8d.jpg
+    thumb: /files/thumbnails/14fb2a17199ba814fb2a17199f8d.jpg
+    url: /files/original/14fb2a17199ba814fb2a17199f8d.jpg
 geo:
 id: 15109
 item_type: Still Image

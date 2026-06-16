@@ -15,12 +15,12 @@ dublin_core:
       text: 09270006plaqueminesparishS&R.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ec35dbb614fb29ec35df9c.jpg
+  - fullsize: /files/fullsize/14fb29ec35dbb614fb29ec35df9c.jpg
     id: 20912
     mime: image/jpeg
     original_filename: 09270006plaqueminesparishS&R.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ec35dbb614fb29ec35df9c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ec35dbb614fb29ec35df9c.jpg
+    thumb: /files/thumbnails/14fb29ec35dbb614fb29ec35df9c.jpg
+    url: /files/original/14fb29ec35dbb614fb29ec35df9c.jpg
 geo:
 id: 23968
 item_type: Still Image

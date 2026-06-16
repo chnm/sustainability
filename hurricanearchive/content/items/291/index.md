@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a704db98d14fb2a704dc158.jpg
+  - fullsize: /files/fullsize/14fb2a704db98d14fb2a704dc158.jpg
     id: 214
     mime: image/jpeg
     original_filename: 013_tin_from_roof_463ffbbba0.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a704db98d14fb2a704dc158.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a704db98d14fb2a704dc158.jpg
+    thumb: /files/thumbnails/14fb2a704db98d14fb2a704dc158.jpg
+    url: /files/original/14fb2a704db98d14fb2a704dc158.jpg
 geo:
   address: ''
   lat: 30.651656

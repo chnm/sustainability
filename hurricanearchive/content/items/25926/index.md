@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: Allen, JusticeandExpertKnowledge_836bb1ae52.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbc8f1d014fb29dbc8f5b6.pdf
+    url: /files/original/14fb29dbc8f1d014fb29dbc8f5b6.pdf
 geo:
 id: 25926
 item_type: Document

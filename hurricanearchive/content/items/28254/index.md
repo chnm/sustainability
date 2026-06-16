@@ -21,12 +21,12 @@ dublin_core:
       text: Thomas Steve Thomas
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d291ddb514fb29d291e199.jpg
+  - fullsize: /files/fullsize/14fb29d291ddb514fb29d291e199.jpg
     id: 23407
     mime: image/jpg
     original_filename: 384884876_a2c176d1fb.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d291ddb514fb29d291e199.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d291ddb514fb29d291e199.jpg
+    thumb: /files/thumbnails/14fb29d291ddb514fb29d291e199.jpg
+    url: /files/original/14fb29d291ddb514fb29d291e199.jpg
 geo:
 id: 28254
 item_type: Still Image

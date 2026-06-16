@@ -17,19 +17,19 @@ files:
     mime: audio/mpeg
     original_filename: Baker, Ronald 5-17-06 .mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e6c7bac14fbe86e6c7f81.mp3
+    url: /files/original/14fbe86e6c7bac14fbe86e6c7f81.mp3
   - fullsize:
     id: 45926
     mime: audio/mpeg
     original_filename: Baker, Ronald 5-17-06.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e6d277714fbe86e6d2b52.mp3
+    url: /files/original/14fbe86e6d277714fbe86e6d2b52.mp3
   - fullsize:
     id: 45927
     mime: application/msword
     original_filename: Baker, Ronald(804).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e6de2e514fbe86e6de6d7.doc
+    url: /files/original/14fbe86e6de2e514fbe86e6de6d7.doc
 geo:
 id: 45527
 item_type: Oral History

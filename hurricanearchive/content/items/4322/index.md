@@ -23,7 +23,7 @@ files:
     mime: video/mp4
     original_filename: Media On Katrina.mp4
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5747e4f214fb2a5747e8d9.mp4
+    url: /files/original/14fb2a5747e4f214fb2a5747e8d9.mp4
 geo:
 id: 4322
 item_type: Moving Image

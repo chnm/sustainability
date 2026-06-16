@@ -15,12 +15,12 @@ dublin_core:
       text: end look south3.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a205eb7be14fb2a205ebbae.jpg
+  - fullsize: /files/fullsize/14fb2a205eb7be14fb2a205ebbae.jpg
     id: 11115
     mime: image/jpeg
     original_filename: end look south3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a205eb7be14fb2a205ebbae.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a205eb7be14fb2a205ebbae.jpg
+    thumb: /files/thumbnails/14fb2a205eb7be14fb2a205ebbae.jpg
+    url: /files/original/14fb2a205eb7be14fb2a205ebbae.jpg
 geo:
 id: 13105
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: 261st-3 at TF Pelican J-6 deskgillslong.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0ea6bc5e14fb2a0ea6bf78.jpg
+  - fullsize: /files/fullsize/14fb2a0ea6bc5e14fb2a0ea6bf78.jpg
     id: 16579
     mime: image/jpeg
     original_filename: 261st-3 at TF Pelican J-6 deskgillslong.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0ea6bc5e14fb2a0ea6bf78.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0ea6bc5e14fb2a0ea6bf78.jpg
+    thumb: /files/thumbnails/14fb2a0ea6bc5e14fb2a0ea6bf78.jpg
+    url: /files/original/14fb2a0ea6bc5e14fb2a0ea6bf78.jpg
 geo:
 id: 19626
 item_type: Still Image

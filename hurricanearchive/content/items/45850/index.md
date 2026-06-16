@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Smith, Gavin.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871f3263114fbe871f32a15.doc
+    url: /files/original/14fbe871f3263114fbe871f32a15.doc
 geo:
 id: 45850
 item_type: Oral History

@@ -17,19 +17,19 @@ files:
     mime: application/msword
     original_filename: Guider, C.A.Troy(832).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870d04caa14fbe870d05090.doc
+    url: /files/original/14fbe870d04caa14fbe870d05090.doc
   - fullsize:
     id: 46320
     mime: application/msword
     original_filename: Guider, C.A. Troy.bio.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870d1044314fbe870d1081e.doc
+    url: /files/original/14fbe870d1044314fbe870d1081e.doc
   - fullsize:
     id: 46321
     mime: application/msword
     original_filename: Guider, C.A. Troy.toc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870d1b01b14fbe870d1b407.doc
+    url: /files/original/14fbe870d1b01b14fbe870d1b407.doc
 geo:
 id: 45700
 item_type: Oral History

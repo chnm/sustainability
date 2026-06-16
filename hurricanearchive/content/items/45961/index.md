@@ -14,12 +14,12 @@ dublin_core:
       text: Louisa
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/212a06b31ecc2f369e8652ea71cd9812.jpg
+  - fullsize: /files/fullsize/212a06b31ecc2f369e8652ea71cd9812.jpg
     id: 46557
     mime: image/jpeg
     original_filename: Louisa and Higgins.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/212a06b31ecc2f369e8652ea71cd9812.jpg
-    url: https://hurricanearchive.org/files/original/212a06b31ecc2f369e8652ea71cd9812.jpg
+    thumb: /files/thumbnails/212a06b31ecc2f369e8652ea71cd9812.jpg
+    url: /files/original/212a06b31ecc2f369e8652ea71cd9812.jpg
 geo:
 id: 45961
 item_type: Still Image

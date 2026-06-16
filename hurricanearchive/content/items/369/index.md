@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a7024a84e14fb2a7024ac40.jpg
+  - fullsize: /files/fullsize/14fb2a7024a84e14fb2a7024ac40.jpg
     id: 251
     mime: image/jpeg
     original_filename: No_one_likes_White_Bread_II_d2faa651b3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a7024a84e14fb2a7024ac40.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a7024a84e14fb2a7024ac40.jpg
+    thumb: /files/thumbnails/14fb2a7024a84e14fb2a7024ac40.jpg
+    url: /files/original/14fb2a7024a84e14fb2a7024ac40.jpg
 geo:
   address: ''
   lat: 30.6193002515347

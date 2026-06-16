@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: David A. Lidgard.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a246d5d8f14fb2a246d6178.htm
+    url: /files/original/14fb2a246d5d8f14fb2a246d6178.htm
 geo:
 id: 11633
 item_type: Oral History

@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: 20050924 new orleans water floods again grid.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29fb732aeb14fb29fb732ed1.pdf
+    url: /files/original/14fb29fb732aeb14fb29fb732ed1.pdf
 geo:
 id: 21830
 item_type: Document

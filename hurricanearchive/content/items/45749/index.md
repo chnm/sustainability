@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Lewis,J.B.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871208b8e14fbe87120aba3.doc
+    url: /files/original/14fbe871208b8e14fbe87120aba3.doc
 geo:
 id: 45749
 item_type: Oral History

@@ -18,12 +18,12 @@ dublin_core:
       text: Merry Christmas, Lyndel Drive, 2002, living room
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca64483d14fb29ca644c06.jpg
+  - fullsize: /files/fullsize/14fb29ca64483d14fb29ca644c06.jpg
     id: 24202
     mime: image/jpeg
     original_filename: MaryXmas03 (21) (2)_871185d0ff.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca64483d14fb29ca644c06.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca64483d14fb29ca644c06.jpg
+    thumb: /files/thumbnails/14fb29ca64483d14fb29ca644c06.jpg
+    url: /files/original/14fb29ca64483d14fb29ca644c06.jpg
 geo:
   address: ''
   lat: 0.0

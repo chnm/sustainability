@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Volunteer FAQ_a736044c72.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18c9deeb14fb2a18c9e2d1.doc
+    url: /files/original/14fb2a18c9deeb14fb2a18c9e2d1.doc
 geo:
 id: 14573
 item_type: Document

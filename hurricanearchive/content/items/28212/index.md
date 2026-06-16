@@ -18,12 +18,12 @@ dublin_core:
       text: "Flyer Advertising \\'Neighborhoods: 2426 Bradish Place\\'  Art Installation"
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d2a7b08814fb29d2a7b46e.jpg
+  - fullsize: /files/fullsize/14fb29d2a7b08814fb29d2a7b46e.jpg
     id: 23392
     mime: image/pjpeg
     original_filename: bradishplace_flyer_7dad27f517.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d2a7b08814fb29d2a7b46e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d2a7b08814fb29d2a7b46e.jpg
+    thumb: /files/thumbnails/14fb29d2a7b08814fb29d2a7b46e.jpg
+    url: /files/original/14fb29d2a7b08814fb29d2a7b46e.jpg
 geo:
   address: 2426 Bradish Place
   lat: 29.95962

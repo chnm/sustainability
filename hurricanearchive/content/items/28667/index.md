@@ -20,12 +20,12 @@ dublin_core:
       text: DSC_6793.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1da557d14fb29d1da5a9f.jpg
+  - fullsize: /files/fullsize/14fb29d1da557d14fb29d1da5a9f.jpg
     id: 23512
     mime: image/jpg
     original_filename: 158072477_bcfa1d4591.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1da557d14fb29d1da5a9f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1da557d14fb29d1da5a9f.jpg
+    thumb: /files/thumbnails/14fb29d1da557d14fb29d1da5a9f.jpg
+    url: /files/original/14fb29d1da557d14fb29d1da5a9f.jpg
 geo:
 id: 28667
 item_type: Still Image

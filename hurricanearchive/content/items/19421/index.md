@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0063engineers.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1052fa0914fb2a1052fe08.jpg
+  - fullsize: /files/fullsize/14fb2a1052fa0914fb2a1052fe08.jpg
     id: 16374
     mime: image/jpeg
     original_filename: DSC 0063engineers.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1052fa0914fb2a1052fe08.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1052fa0914fb2a1052fe08.jpg
+    thumb: /files/thumbnails/14fb2a1052fa0914fb2a1052fe08.jpg
+    url: /files/original/14fb2a1052fa0914fb2a1052fe08.jpg
 geo:
 id: 19421
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: london-cnal10-29-2.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2165ef2d14fb2a2165f6fa.jpg
+  - fullsize: /files/fullsize/14fb2a2165ef2d14fb2a2165f6fa.jpg
     id: 11004
     mime: image/jpeg
     original_filename: london-cnal10-29-2.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2165ef2d14fb2a2165f6fa.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2165ef2d14fb2a2165f6fa.jpg
+    thumb: /files/thumbnails/14fb2a2165ef2d14fb2a2165f6fa.jpg
+    url: /files/original/14fb2a2165ef2d14fb2a2165f6fa.jpg
 geo:
 id: 12860
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Ashleigh Pack.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a24733f6114fb2a2473434e.html
+    url: /files/original/14fb2a24733f6114fb2a2473434e.html
 geo:
 id: 11621
 item_type: Oral History

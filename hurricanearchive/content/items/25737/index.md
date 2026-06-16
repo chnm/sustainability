@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc8ac82614fb29dc8acc0b.jpg
+  - fullsize: /files/fullsize/14fb29dc8ac82614fb29dc8acc0b.jpg
     id: 22530
     mime: image/jpeg
     original_filename: KPatcheco-12KPandbrianonboat_c7c8e77f8e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc8ac82614fb29dc8acc0b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc8ac82614fb29dc8acc0b.jpg
+    thumb: /files/thumbnails/14fb29dc8ac82614fb29dc8acc0b.jpg
+    url: /files/original/14fb29dc8ac82614fb29dc8acc0b.jpg
 geo:
 id: 25737
 item_type: Still Image

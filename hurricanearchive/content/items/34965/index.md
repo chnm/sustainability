@@ -19,7 +19,7 @@ files:
     mime: application/msword
     original_filename: interview_5c4b89090d.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c824679e14fb29c8246b84.doc
+    url: /files/original/14fb29c824679e14fb29c8246b84.doc
 geo:
   address: ''
   lat: 29.86972

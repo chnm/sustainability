@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0040ninthwardnola.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a151e69e714fb2a151e6d98.jpg
+  - fullsize: /files/fullsize/14fb2a151e69e714fb2a151e6d98.jpg
     id: 15766
     mime: image/jpeg
     original_filename: DSC 0040ninthwardnola.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a151e69e714fb2a151e6d98.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a151e69e714fb2a151e6d98.jpg
+    thumb: /files/thumbnails/14fb2a151e69e714fb2a151e6d98.jpg
+    url: /files/original/14fb2a151e69e714fb2a151e6d98.jpg
 geo:
 id: 18813
 item_type: Still Image

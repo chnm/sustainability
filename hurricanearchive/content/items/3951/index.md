@@ -18,12 +18,12 @@ dublin_core:
       text: DSC00987.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a58c8482114fb2a58c84c06.jpg
+  - fullsize: /files/fullsize/14fb2a58c8482114fb2a58c84c06.jpg
     id: 3362
     mime: image/jpeg
     original_filename: Presidential Visit
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a58c8482114fb2a58c84c06.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a58c8482114fb2a58c84c06.jpg
+    thumb: /files/thumbnails/14fb2a58c8482114fb2a58c84c06.jpg
+    url: /files/original/14fb2a58c8482114fb2a58c84c06.jpg
 geo:
 id: 3951
 item_type: Still Image

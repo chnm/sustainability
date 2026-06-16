@@ -15,12 +15,12 @@ dublin_core:
       text: Chevron refinery west of Venice.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb669aa114fb29fb669e83.jpg
+  - fullsize: /files/fullsize/14fb29fb669aa114fb29fb669e83.jpg
     id: 18791
     mime: image/jpeg
     original_filename: Chevron refinery west of Venice.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb669aa114fb29fb669e83.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb669aa114fb29fb669e83.jpg
+    thumb: /files/thumbnails/14fb29fb669aa114fb29fb669e83.jpg
+    url: /files/original/14fb29fb669aa114fb29fb669e83.jpg
 geo:
 id: 21840
 item_type: Still Image

@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c567d6d914fb29c567dabd.jpg
+  - fullsize: /files/fullsize/14fb29c567d6d914fb29c567dabd.jpg
     id: 24757
     mime: image/pjpeg
     original_filename: 854407452_9b8ec77fbf_4f18fe0838.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c567d6d914fb29c567dabd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c567d6d914fb29c567dabd.jpg
+    thumb: /files/thumbnails/14fb29c567d6d914fb29c567dabd.jpg
+    url: /files/original/14fb29c567d6d914fb29c567dabd.jpg
 geo:
   address: 8 yosemite dr. new orleans
   lat: 29.91718

@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0318cowanmedia.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f264ee4614fb29f264f223.jpg
+  - fullsize: /files/fullsize/14fb29f264ee4614fb29f264f223.jpg
     id: 19908
     mime: image/jpeg
     original_filename: DSC 0318cowanmedia.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f264ee4614fb29f264f223.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f264ee4614fb29f264f223.jpg
+    thumb: /files/thumbnails/14fb29f264ee4614fb29f264f223.jpg
+    url: /files/original/14fb29f264ee4614fb29f264f223.jpg
 geo:
 id: 22964
 item_type: Still Image

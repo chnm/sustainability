@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Ocean Springs-Matos.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2337bdef14fb2a2337c1d6.doc
+    url: /files/original/14fb2a2337bdef14fb2a2337c1d6.doc
 geo:
 id: 11817
 item_type: Document

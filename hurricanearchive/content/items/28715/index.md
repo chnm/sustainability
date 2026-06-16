@@ -14,12 +14,12 @@ dublin_core:
       text: Suuuuuper Dooome
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d161ac5314fb29d161b038.jpg
+  - fullsize: /files/fullsize/14fb29d161ac5314fb29d161b038.jpg
     id: 23559
     mime: image/jpg
     original_filename: 114535605_2fa4bd6c9e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d161ac5314fb29d161b038.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d161ac5314fb29d161b038.jpg
+    thumb: /files/thumbnails/14fb29d161ac5314fb29d161b038.jpg
+    url: /files/original/14fb29d161ac5314fb29d161b038.jpg
 geo:
 id: 28715
 item_type: Still Image

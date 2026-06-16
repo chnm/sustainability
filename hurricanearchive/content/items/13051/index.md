@@ -15,12 +15,12 @@ dublin_core:
       text: before train station.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20bdd3c814fb2a20bdd7ac.jpg
+  - fullsize: /files/fullsize/14fb2a20bdd3c814fb2a20bdd7ac.jpg
     id: 11061
     mime: image/jpeg
     original_filename: before train station.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20bdd3c814fb2a20bdd7ac.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20bdd3c814fb2a20bdd7ac.jpg
+    thumb: /files/thumbnails/14fb2a20bdd3c814fb2a20bdd7ac.jpg
+    url: /files/original/14fb2a20bdd3c814fb2a20bdd7ac.jpg
 geo:
 id: 13051
 item_type: Still Image

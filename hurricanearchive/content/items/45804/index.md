@@ -19,13 +19,13 @@ files:
     mime: application/msword
     original_filename: Peranich, Alfred John.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8716781fb14fbe8716785d7.doc
+    url: /files/original/14fbe8716781fb14fbe8716785d7.doc
   - fullsize:
     id: 46439
     mime: application/msword
     original_filename: Peranich, Alfred John.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8716877f714fbe871687bdd.doc
+    url: /files/original/14fbe8716877f714fbe871687bdd.doc
 geo:
 id: 45804
 item_type: Oral History

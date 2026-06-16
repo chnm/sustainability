@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7ce906314fb29d7ce9448.jpg
+  - fullsize: /files/fullsize/14fb29d7ce906314fb29d7ce9448.jpg
     id: 22980
     mime: image/jpeg
     original_filename: SD new home algiers_261ebf0916.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7ce906314fb29d7ce9448.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7ce906314fb29d7ce9448.jpg
+    thumb: /files/thumbnails/14fb29d7ce906314fb29d7ce9448.jpg
+    url: /files/original/14fb29d7ce906314fb29d7ce9448.jpg
 geo:
   address: ''
   lat: 30.03106

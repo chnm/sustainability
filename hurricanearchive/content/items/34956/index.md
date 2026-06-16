@@ -14,12 +14,12 @@ dublin_core:
       text: September 5, 2007
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c82e2ed914fb29c82e32bd.jpg
+  - fullsize: /files/fullsize/14fb29c82e2ed914fb29c82e32bd.jpg
     id: 24531
     mime: image/jpg
     original_filename: 2417116978_1c4397a0aa.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c82e2ed914fb29c82e32bd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c82e2ed914fb29c82e32bd.jpg
+    thumb: /files/thumbnails/14fb29c82e2ed914fb29c82e32bd.jpg
+    url: /files/original/14fb29c82e2ed914fb29c82e32bd.jpg
 geo:
 id: 34956
 item_type: Still Image

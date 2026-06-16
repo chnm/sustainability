@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 03 2005 Katrina looting hasn't stymied aid donors so far.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35b870fa14fb2a35b8a510.txt
+    url: /files/original/14fb2a35b870fa14fb2a35b8a510.txt
 geo:
   address: ''
   lat: 0.0

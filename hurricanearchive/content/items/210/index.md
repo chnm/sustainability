@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a7087a8ad14fb2a7087ae21.jpg
+  - fullsize: /files/fullsize/14fb2a7087a8ad14fb2a7087ae21.jpg
     id: 169
     mime: image/jpeg
     original_filename: midcityNola_d706d5ba51.jpeg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a7087a8ad14fb2a7087ae21.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a7087a8ad14fb2a7087ae21.jpg
+    thumb: /files/thumbnails/14fb2a7087a8ad14fb2a7087ae21.jpg
+    url: /files/original/14fb2a7087a8ad14fb2a7087ae21.jpg
 geo:
   address: ''
   lat: 0.0

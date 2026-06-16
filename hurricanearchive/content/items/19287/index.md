@@ -15,12 +15,12 @@ dublin_core:
       text: USS Iwo Jima3iwojima.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1155103514fb2a11551642.jpg
+  - fullsize: /files/fullsize/14fb2a1155103514fb2a11551642.jpg
     id: 16240
     mime: image/jpeg
     original_filename: USS Iwo Jima3iwojima.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1155103514fb2a11551642.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1155103514fb2a11551642.jpg
+    thumb: /files/thumbnails/14fb2a1155103514fb2a11551642.jpg
+    url: /files/original/14fb2a1155103514fb2a11551642.jpg
 geo:
 id: 19287
 item_type: Still Image

@@ -24,12 +24,12 @@ dublin_core:
       text: USCG Cutter Spencer pulls to port in New Orleans
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66a01c9b14fb2a66a02093.jpg
+  - fullsize: /files/fullsize/14fb2a66a01c9b14fb2a66a02093.jpg
     id: 1903
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05C27_ad90c51a86.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66a01c9b14fb2a66a02093.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66a01c9b14fb2a66a02093.jpg
+    thumb: /files/thumbnails/14fb2a66a01c9b14fb2a66a02093.jpg
+    url: /files/original/14fb2a66a01c9b14fb2a66a02093.jpg
 geo:
 id: 2411
 item_type: Still Image

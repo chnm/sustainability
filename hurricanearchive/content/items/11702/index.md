@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Sheila Maria Leggett.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23e0753814fb2a23e0791f.html
+    url: /files/original/14fb2a23e0753814fb2a23e0791f.html
 geo:
 id: 11702
 item_type: Oral History

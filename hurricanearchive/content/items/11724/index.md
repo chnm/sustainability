@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: cortezmyers.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c3503a14fb2a23c35cfe.html
+    url: /files/original/14fb2a23c3503a14fb2a23c35cfe.html
 geo:
 id: 11724
 item_type: Oral History

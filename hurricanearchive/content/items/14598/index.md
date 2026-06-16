@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Triage_Minutes03_13_06_3238763c3b.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1889bb0514fb2a1889bff0.doc
+    url: /files/original/14fb2a1889bb0514fb2a1889bff0.doc
 geo:
 id: 14598
 item_type: Document

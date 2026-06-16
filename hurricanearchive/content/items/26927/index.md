@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Katrina Stanifer HK56K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d62cbfe414fb29d62ccb4d.mp3
+    url: /files/original/14fb29d62cbfe414fb29d62ccb4d.mp3
 geo:
 id: 26927
 item_type: Oral History

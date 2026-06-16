@@ -15,12 +15,12 @@ dublin_core:
       text: UNO - South Side of Campus.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb09535314fb29fb095710.jpg
+  - fullsize: /files/fullsize/14fb29fb09535314fb29fb095710.jpg
     id: 18864
     mime: image/jpeg
     original_filename: UNO - South Side of Campus.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb09535314fb29fb095710.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb09535314fb29fb095710.jpg
+    thumb: /files/thumbnails/14fb29fb09535314fb29fb095710.jpg
+    url: /files/original/14fb29fb09535314fb29fb095710.jpg
 geo:
 id: 21913
 item_type: Still Image

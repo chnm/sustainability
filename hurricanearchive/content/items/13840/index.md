@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: SHN Membership Call Tonight_11_1_06_a9335a587d.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c95168314fb2a1c951f41.doc
+    url: /files/original/14fb2a1c95168314fb2a1c951f41.doc
 geo:
 id: 13840
 item_type: Document

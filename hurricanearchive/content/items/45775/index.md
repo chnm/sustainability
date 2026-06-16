@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: McDonald, Harry.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8714911b314fbe871491598.doc
+    url: /files/original/14fbe8714911b314fbe871491598.doc
 geo:
 id: 45775
 item_type: Oral History

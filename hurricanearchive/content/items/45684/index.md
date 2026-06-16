@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Goggins, Susan.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870bbb37f14fbe870bbb766.doc
+    url: /files/original/14fbe870bbb37f14fbe870bbb766.doc
 geo:
 id: 45684
 item_type: Oral History

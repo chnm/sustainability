@@ -15,12 +15,12 @@ dublin_core:
       text: Medical processing2delaware.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f1362a8214fb29f1362e67.jpg
+  - fullsize: /files/fullsize/14fb29f1362a8214fb29f1362e67.jpg
     id: 20123
     mime: image/jpeg
     original_filename: Medical processing2delaware.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f1362a8214fb29f1362e67.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f1362a8214fb29f1362e67.jpg
+    thumb: /files/thumbnails/14fb29f1362a8214fb29f1362e67.jpg
+    url: /files/original/14fb29f1362a8214fb29f1362e67.jpg
 geo:
 id: 23179
 item_type: Still Image

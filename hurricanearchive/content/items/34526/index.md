@@ -21,12 +21,12 @@ dublin_core:
       text: Interior of Anna & Nick Leggio\'s home
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c98e7c8614fb29c98e81a5.jpg
+  - fullsize: /files/fullsize/14fb29c98e7c8614fb29c98e81a5.jpg
     id: 24360
     mime: image/jpg
     original_filename: 2291199331_37a729f0d3.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c98e7c8614fb29c98e81a5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c98e7c8614fb29c98e81a5.jpg
+    thumb: /files/thumbnails/14fb29c98e7c8614fb29c98e81a5.jpg
+    url: /files/original/14fb29c98e7c8614fb29c98e81a5.jpg
 geo:
   address: ''
   lat: 30.22539

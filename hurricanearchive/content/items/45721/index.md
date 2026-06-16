@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Joachim, Patricia.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870f1647314fbe870f16859.doc
+    url: /files/original/14fbe870f1647314fbe870f16859.doc
 geo:
 id: 45721
 item_type: Oral History

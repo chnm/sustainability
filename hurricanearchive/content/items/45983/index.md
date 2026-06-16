@@ -11,12 +11,12 @@ dublin_core:
       text: This is the rebuilding of the front part of my Gramma's home. People from all over came to help out in her community. We were excited to see the the front part of the house rebuilt on this day. It gave us hope again.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/efc60aeb24f5a29f29de6b0230b1344d.jpg
+  - fullsize: /files/fullsize/efc60aeb24f5a29f29de6b0230b1344d.jpg
     id: 46573
     mime: image/jpeg
     original_filename: cbk.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/efc60aeb24f5a29f29de6b0230b1344d.jpg
-    url: https://hurricanearchive.org/files/original/efc60aeb24f5a29f29de6b0230b1344d.jpg
+    thumb: /files/thumbnails/efc60aeb24f5a29f29de6b0230b1344d.jpg
+    url: /files/original/efc60aeb24f5a29f29de6b0230b1344d.jpg
 geo:
   address: ''
   lat: 0.0

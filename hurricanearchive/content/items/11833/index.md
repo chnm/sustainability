@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Redue of Katrina 1 Gretch LB.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2322068614fb2a23220a65.doc
+    url: /files/original/14fb2a2322068614fb2a23220a65.doc
 geo:
 id: 11833
 item_type: Document

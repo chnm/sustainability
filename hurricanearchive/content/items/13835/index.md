@@ -16,7 +16,7 @@ files:
     mime: application/msword
     original_filename: '[SHN] EJWs Panel Agenda, Oct_3a645a6793. 19th.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c98f55314fb2a1c98f92d.doc
+    url: /files/original/14fb2a1c98f55314fb2a1c98f92d.doc
 geo:
 id: 13835
 item_type: Document

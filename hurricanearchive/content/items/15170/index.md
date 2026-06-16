@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a16c5c1b514fb2a16c5c59b.jpg
+  - fullsize: /files/fullsize/14fb2a16c5c1b514fb2a16c5c59b.jpg
     id: 12328
     mime: image/jpeg
     original_filename: GBuckley-6192_939d4b03f0.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a16c5c1b514fb2a16c5c59b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a16c5c1b514fb2a16c5c59b.jpg
+    thumb: /files/thumbnails/14fb2a16c5c1b514fb2a16c5c59b.jpg
+    url: /files/original/14fb2a16c5c1b514fb2a16c5c59b.jpg
 geo:
 id: 15170
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: CPT James Smith (1).wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1bc48db514fb2a1bc49180.wav
+    url: /files/original/14fb2a1bc48db514fb2a1bc49180.wav
 geo:
   address: ''
   lat: 0.0

@@ -19,13 +19,13 @@ files:
     mime: application/msword
     original_filename: Rockwood, Irazema.trs English.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871b62f4814fbe871b6324a.doc
+    url: /files/original/14fbe871b62f4814fbe871b6324a.doc
   - fullsize:
     id: 46465
     mime: application/msword
     original_filename: Rockwood, Irazema.trs Spanish.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871b7052614fbe871b7090a.doc
+    url: /files/original/14fbe871b7052614fbe871b7090a.doc
 geo:
 id: 45828
 item_type: Oral History

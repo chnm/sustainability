@@ -14,12 +14,12 @@ dublin_core:
       text: IMG_7471.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb9987a014fb29cb998b86.jpg
+  - fullsize: /files/fullsize/14fb29cb9987a014fb29cb998b86.jpg
     id: 24051
     mime: image/jpg
     original_filename: 1282489034_98e52a1e21.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb9987a014fb29cb998b86.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb9987a014fb29cb998b86.jpg
+    thumb: /files/thumbnails/14fb29cb9987a014fb29cb998b86.jpg
+    url: /files/original/14fb29cb9987a014fb29cb998b86.jpg
 geo:
 id: 33201
 item_type: Still Image

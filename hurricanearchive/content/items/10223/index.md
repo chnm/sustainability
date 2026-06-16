@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: 11 09 2005 B8.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2d1a77f014fb2a2d1a7bd6.pdf
+    url: /files/original/14fb2a2d1a77f014fb2a2d1a7bd6.pdf
 geo:
   address: ''
   lat: 0.0

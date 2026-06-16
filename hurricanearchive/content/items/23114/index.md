@@ -15,12 +15,12 @@ dublin_core:
       text: 051002-A-9722M-081MarylandNG.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f182aaad14fb29f182ae93.jpg
+  - fullsize: /files/fullsize/14fb29f182aaad14fb29f182ae93.jpg
     id: 20058
     mime: image/jpeg
     original_filename: 051002-A-9722M-081MarylandNG.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f182aaad14fb29f182ae93.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f182aaad14fb29f182ae93.jpg
+    thumb: /files/thumbnails/14fb29f182aaad14fb29f182ae93.jpg
+    url: /files/original/14fb29f182aaad14fb29f182ae93.jpg
 geo:
 id: 23114
 item_type: Still Image

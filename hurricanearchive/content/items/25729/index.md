@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc9b9dda14fb29dc9ba1b8.jpg
+  - fullsize: /files/fullsize/14fb29dc9b9dda14fb29dc9ba1b8.jpg
     id: 22521
     mime: image/jpeg
     original_filename: KPatcheco-04KPandpresnixon_a55d9df260.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc9b9dda14fb29dc9ba1b8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc9b9dda14fb29dc9ba1b8.jpg
+    thumb: /files/thumbnails/14fb29dc9b9dda14fb29dc9ba1b8.jpg
+    url: /files/original/14fb29dc9b9dda14fb29dc9ba1b8.jpg
 geo:
 id: 25729
 item_type: Still Image

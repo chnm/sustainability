@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7faed5114fb29d7fe3599.jpg
+  - fullsize: /files/fullsize/14fb29d7faed5114fb29d7fe3599.jpg
     id: 22945
     mime: image/jpeg
     original_filename: RB girl 1947_172bca1b1e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7faed5114fb29d7fe3599.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7faed5114fb29d7fe3599.jpg
+    thumb: /files/thumbnails/14fb29d7faed5114fb29d7fe3599.jpg
+    url: /files/original/14fb29d7faed5114fb29d7fe3599.jpg
 geo:
   address: ''
   lat: 29.87876

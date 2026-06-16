@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbe0a85014fb29cbe0ace7.jpg
+  - fullsize: /files/fullsize/14fb29cbe0a85014fb29cbe0ace7.jpg
     id: 24018
     mime: image/jpeg
     original_filename: FDL symbol NO Nov 1 2007_f04ba2ae32.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbe0a85014fb29cbe0ace7.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbe0a85014fb29cbe0ace7.jpg
+    thumb: /files/thumbnails/14fb29cbe0a85014fb29cbe0ace7.jpg
+    url: /files/original/14fb29cbe0a85014fb29cbe0ace7.jpg
 geo:
   address: ''
   lat: 29.96445

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7f3955914fb29d7f39a5f.jpg
+  - fullsize: /files/fullsize/14fb29d7f3955914fb29d7f39a5f.jpg
     id: 22949
     mime: image/jpeg
     original_filename: SW 1960 picnic_c48c6acfe9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7f3955914fb29d7f39a5f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7f3955914fb29d7f39a5f.jpg
+    thumb: /files/thumbnails/14fb29d7f3955914fb29d7f39a5f.jpg
+    url: /files/original/14fb29d7f3955914fb29d7f39a5f.jpg
 geo:
   address: ''
   lat: 29.91685

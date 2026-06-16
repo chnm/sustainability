@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6805.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1f7dfc814fb29d1f7e4e4.jpg
+  - fullsize: /files/fullsize/14fb29d1f7dfc814fb29d1f7e4e4.jpg
     id: 23490
     mime: image/jpg
     original_filename: 158786339_20fbf929c2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1f7dfc814fb29d1f7e4e4.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1f7dfc814fb29d1f7e4e4.jpg
+    thumb: /files/thumbnails/14fb29d1f7dfc814fb29d1f7e4e4.jpg
+    url: /files/original/14fb29d1f7dfc814fb29d1f7e4e4.jpg
 geo:
 id: 28639
 item_type: Still Image

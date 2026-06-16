@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 02 2005 Katrina disrupts Gulf oil system.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35bb149814fb2a35bb187d.txt
+    url: /files/original/14fb2a35bb149814fb2a35bb187d.txt
 geo:
   address: ''
   lat: 0.0

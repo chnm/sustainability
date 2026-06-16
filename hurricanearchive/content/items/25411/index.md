@@ -15,12 +15,12 @@ dublin_core:
       text: Next to the Superdome 6superdome.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29de005d7a14fb29de00615d.jpg
+  - fullsize: /files/fullsize/14fb29de005d7a14fb29de00615d.jpg
     id: 22350
     mime: image/jpeg
     original_filename: Next to the Superdome 6superdome.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29de005d7a14fb29de00615d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29de005d7a14fb29de00615d.jpg
+    thumb: /files/thumbnails/14fb29de005d7a14fb29de00615d.jpg
+    url: /files/original/14fb29de005d7a14fb29de00615d.jpg
 geo:
 id: 25411
 item_type: Still Image

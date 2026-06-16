@@ -26,7 +26,7 @@ files:
     mime: video/mp4
     original_filename: NWT-Greta's Mother's Evacuation.mp4
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dba32c5914fb29dba33040.mp4
+    url: /files/original/14fb29dba32c5914fb29dba33040.mp4
 geo:
   address: 1743 Lamanche Street, New Orleans
   lat: 29.96748

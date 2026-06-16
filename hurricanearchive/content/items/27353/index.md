@@ -17,12 +17,12 @@ dublin_core:
       text: One year after Rita hit.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d420f88b14fb29d420fc70.jpg
+  - fullsize: /files/fullsize/14fb29d420f88b14fb29d420fc70.jpg
     id: 23240
     mime: image/jpg
     original_filename: 209499929_1468e16dfd.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d420f88b14fb29d420fc70.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d420f88b14fb29d420fc70.jpg
+    thumb: /files/thumbnails/14fb29d420f88b14fb29d420fc70.jpg
+    url: /files/original/14fb29d420f88b14fb29d420fc70.jpg
 geo:
   address: ''
   lat: 29.84064

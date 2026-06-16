@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 28 2006 Gulf of destruction.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35d0364614fb2a35d03a2b.txt
+    url: /files/original/14fb2a35d0364614fb2a35d03a2b.txt
 geo:
   address: ''
   lat: 0.0

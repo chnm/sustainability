@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c1d1a7c114fb29c1d1aba7.jpg
+  - fullsize: /files/fullsize/14fb29c1d1a7c114fb29c1d1aba7.jpg
     id: 25128
     mime: image/pjpeg
     original_filename: Baday_e8f3169843.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c1d1a7c114fb29c1d1aba7.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c1d1a7c114fb29c1d1aba7.jpg
+    thumb: /files/thumbnails/14fb29c1d1a7c114fb29c1d1aba7.jpg
+    url: /files/original/14fb29c1d1a7c114fb29c1d1aba7.jpg
 geo:
   address: 4820 lAKE cOMO AVE
   lat: 29.76438

@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 07 2006 Political competition is thin amid Rita recovery.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a3612412c14fb2a36124696.txt
+    url: /files/original/14fb2a3612412c14fb2a36124696.txt
 geo:
   address: ''
   lat: 0.0

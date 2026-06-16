@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Schroeder, Mary Agnes.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871dccfd514fbe871dcd3be.doc
+    url: /files/original/14fbe871dccfd514fbe871dcd3be.doc
 geo:
 id: 45842
 item_type: Oral History

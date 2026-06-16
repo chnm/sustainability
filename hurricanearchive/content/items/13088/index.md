@@ -15,12 +15,12 @@ dublin_core:
       text: debris north2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a208379df14fb2a20837eb3.jpg
+  - fullsize: /files/fullsize/14fb2a208379df14fb2a20837eb3.jpg
     id: 11098
     mime: image/jpeg
     original_filename: debris north2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a208379df14fb2a20837eb3.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a208379df14fb2a20837eb3.jpg
+    thumb: /files/thumbnails/14fb2a208379df14fb2a20837eb3.jpg
+    url: /files/original/14fb2a208379df14fb2a20837eb3.jpg
 geo:
 id: 13088
 item_type: Still Image

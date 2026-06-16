@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: John P. Bonnecarrere, Sr 2  19 Oct 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e2812e714fb2a5e2814d1.wav
+    url: /files/original/14fb2a5e2812e714fb2a5e2814d1.wav
 geo:
 id: 3071
 item_type: Oral History

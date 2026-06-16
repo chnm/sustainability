@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: TimesKatrinaStories.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2243994a14fb2a22439d2d.doc
+    url: /files/original/14fb2a2243994a14fb2a22439d2d.doc
 geo:
 id: 12166
 item_type: Document

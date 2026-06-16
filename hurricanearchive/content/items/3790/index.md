@@ -15,12 +15,12 @@ dublin_core:
       text: USS Alabama 2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a599aea9514fb2a599af0a0.jpg
+  - fullsize: /files/fullsize/14fb2a599aea9514fb2a599af0a0.jpg
     id: 3205
     mime: image/jpeg
     original_filename: USS Alabama 2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a599aea9514fb2a599af0a0.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a599aea9514fb2a599af0a0.jpg
+    thumb: /files/thumbnails/14fb2a599aea9514fb2a599af0a0.jpg
+    url: /files/original/14fb2a599aea9514fb2a599af0a0.jpg
 geo:
 id: 3790
 item_type: Still Image

@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: DESIRE_N_4242db91cb.O.HighSchool_BookProject.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2237a90b14fb2a2237acf0.pdf
+    url: /files/original/14fb2a2237a90b14fb2a2237acf0.pdf
 geo:
   address: ''
   lat: 29.9334

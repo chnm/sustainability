@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Taylor, Gene.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87201f4c314fbe87201f8a9.doc
+    url: /files/original/14fbe87201f4c314fbe87201f8a9.doc
 geo:
 id: 45863
 item_type: Oral History

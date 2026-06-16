@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c551255a14fb29c551293f.jpg
+  - fullsize: /files/fullsize/14fb29c551255a14fb29c551293f.jpg
     id: 24768
     mime: image/pjpeg
     original_filename: StephsRoomKatrina_2b3726fded.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c551255a14fb29c551293f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c551255a14fb29c551293f.jpg
+    thumb: /files/thumbnails/14fb29c551255a14fb29c551293f.jpg
+    url: /files/original/14fb29c551255a14fb29c551293f.jpg
 geo:
   address: 4920 Magnolia Street
   lat: 29.93685

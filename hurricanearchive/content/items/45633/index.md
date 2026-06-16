@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Berry, Pamela.bio.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870596e8b14fbe8705971c7.doc
+    url: /files/original/14fbe870596e8b14fbe8705971c7.doc
   - fullsize:
     id: 46234
     mime: application/msword
     original_filename: Berry, Pamela.toc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8705a0e0014fbe8705a11ed.doc
+    url: /files/original/14fbe8705a0e0014fbe8705a11ed.doc
 geo:
 id: 45633
 item_type: Oral History

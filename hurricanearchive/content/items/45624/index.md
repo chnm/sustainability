@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Yanes, Luis 2-07 Side 1.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87048d65414fbe87048da3a.mp3
+    url: /files/original/14fbe87048d65414fbe87048da3a.mp3
   - fullsize:
     id: 46218
     mime: audio/mpeg
     original_filename: Yanes, Luis 2-07 Side 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87049fb4514fbe87049ff29.mp3
+    url: /files/original/14fbe87049fb4514fbe87049ff29.mp3
 geo:
 id: 45624
 item_type: Oral History

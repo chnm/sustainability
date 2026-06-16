@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1726e66d14fb2a17270d85.jpg
+  - fullsize: /files/fullsize/14fb2a1726e66d14fb2a17270d85.jpg
     id: 12261
     mime: image/jpeg
     original_filename: CampusShots5 05 (2)-12_80372f0513.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1726e66d14fb2a17270d85.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1726e66d14fb2a17270d85.jpg
+    thumb: /files/thumbnails/14fb2a1726e66d14fb2a17270d85.jpg
+    url: /files/original/14fb2a1726e66d14fb2a17270d85.jpg
 geo:
 id: 15101
 item_type: Still Image

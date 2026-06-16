@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a7007f21314fb2a7008190a.jpg
+  - fullsize: /files/fullsize/14fb2a7007f21314fb2a7008190a.jpg
     id: 289
     mime: image/jpeg
     original_filename: HurricaneKSurvivor_Creche_a6e949fa44.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a7007f21314fb2a7008190a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a7007f21314fb2a7008190a.jpg
+    thumb: /files/thumbnails/14fb2a7007f21314fb2a7008190a.jpg
+    url: /files/original/14fb2a7007f21314fb2a7008190a.jpg
 geo:
   address: ''
   lat: 30.1854960221094

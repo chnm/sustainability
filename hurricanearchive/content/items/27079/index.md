@@ -20,12 +20,12 @@ dublin_core:
       text: Barge on House
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d5b9432f14fb29d5b94714.jpg
+  - fullsize: /files/fullsize/14fb29d5b9432f14fb29d5b94714.jpg
     id: 23139
     mime: image/jpg
     original_filename: 336698022_7fb342e59f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d5b9432f14fb29d5b94714.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d5b9432f14fb29d5b94714.jpg
+    thumb: /files/thumbnails/14fb29d5b9432f14fb29d5b94714.jpg
+    url: /files/original/14fb29d5b9432f14fb29d5b94714.jpg
 geo:
 id: 27079
 item_type: Still Image

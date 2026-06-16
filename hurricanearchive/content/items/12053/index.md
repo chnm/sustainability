@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a224bbfe014fb2a224bc2b0.jpg
+  - fullsize: /files/fullsize/14fb2a224bbfe014fb2a224bc2b0.jpg
     id: 10854
     mime: image/pjpeg
     original_filename: jrspictures003_2b7d16d768.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a224bbfe014fb2a224bc2b0.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a224bbfe014fb2a224bc2b0.jpg
+    thumb: /files/thumbnails/14fb2a224bbfe014fb2a224bc2b0.jpg
+    url: /files/original/14fb2a224bbfe014fb2a224bc2b0.jpg
 geo:
   address: Eden Isles
   lat: 30.22666

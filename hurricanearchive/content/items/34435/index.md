@@ -17,12 +17,12 @@ dublin_core:
       text: Clipper Dr. Clipper Estates
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca0c197914fb29ca0c1d5d.jpg
+  - fullsize: /files/fullsize/14fb29ca0c197914fb29ca0c1d5d.jpg
     id: 24269
     mime: image/jpg
     original_filename: 2326960258_f738b66b1d.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca0c197914fb29ca0c1d5d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca0c197914fb29ca0c1d5d.jpg
+    thumb: /files/thumbnails/14fb29ca0c197914fb29ca0c1d5d.jpg
+    url: /files/original/14fb29ca0c197914fb29ca0c1d5d.jpg
 geo:
   address: ''
   lat: 30.22444

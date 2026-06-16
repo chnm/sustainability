@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d6c7e4bc14fb29d6c7e67f.jpg
+  - fullsize: /files/fullsize/14fb29d6c7e4bc14fb29d6c7e67f.jpg
     id: 23064
     mime: image/jpeg
     original_filename: 98 maroonmemories_bc077827c0.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d6c7e4bc14fb29d6c7e67f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d6c7e4bc14fb29d6c7e67f.jpg
+    thumb: /files/thumbnails/14fb29d6c7e4bc14fb29d6c7e67f.jpg
+    url: /files/original/14fb29d6c7e4bc14fb29d6c7e67f.jpg
 geo:
 id: 26880
 item_type: Still Image

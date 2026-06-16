@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c33b00d914fb29c33b04b6.jpg
+  - fullsize: /files/fullsize/14fb29c33b00d914fb29c33b04b6.jpg
     id: 24953
     mime: image/gif
     original_filename: billatvis_eec1a415f4.gif
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c33b00d914fb29c33b04b6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c33b00d914fb29c33b04b6.jpg
+    thumb: /files/thumbnails/14fb29c33b00d914fb29c33b04b6.jpg
+    url: /files/original/14fb29c33b00d914fb29c33b04b6.jpg
 geo:
   address: ''
   lat: 0.0

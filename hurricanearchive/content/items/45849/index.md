@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Smith, David.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871f2822a14fbe871f2861f.doc
+    url: /files/original/14fbe871f2822a14fbe871f2861f.doc
 geo:
 id: 45849
 item_type: Oral History

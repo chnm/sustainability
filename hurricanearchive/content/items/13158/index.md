@@ -15,12 +15,12 @@ dublin_core:
       text: 148 using a flash in a hurricane.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1fda999814fb2a1fda9cba.jpg
+  - fullsize: /files/fullsize/14fb2a1fda999814fb2a1fda9cba.jpg
     id: 11168
     mime: image/jpeg
     original_filename: 148 using a flash in a hurricane.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1fda999814fb2a1fda9cba.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1fda999814fb2a1fda9cba.jpg
+    thumb: /files/thumbnails/14fb2a1fda999814fb2a1fda9cba.jpg
+    url: /files/original/14fb2a1fda999814fb2a1fda9cba.jpg
 geo:
 id: 13158
 item_type: Still Image

@@ -21,12 +21,12 @@ dublin_core:
       text: View of debris from Anna & Nick Leggio\'s porch
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c999973514fb29c9999b11.jpg
+  - fullsize: /files/fullsize/14fb29c999973514fb29c9999b11.jpg
     id: 24350
     mime: image/jpg
     original_filename: 2292020058_88e7cc0e18.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c999973514fb29c9999b11.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c999973514fb29c9999b11.jpg
+    thumb: /files/thumbnails/14fb29c999973514fb29c9999b11.jpg
+    url: /files/original/14fb29c999973514fb29c9999b11.jpg
 geo:
   address: ''
   lat: 30.22539

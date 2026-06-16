@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d8385e2314fb29d8386209.jpg
+  - fullsize: /files/fullsize/14fb29d8385e2314fb29d8386209.jpg
     id: 22910
     mime: image/jpeg
     original_filename: JA 5 ladies dinning 1946_965d0d0234.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d8385e2314fb29d8386209.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d8385e2314fb29d8386209.jpg
+    thumb: /files/thumbnails/14fb29d8385e2314fb29d8386209.jpg
+    url: /files/original/14fb29d8385e2314fb29d8386209.jpg
 geo:
   address: ''
   lat: 29.87876

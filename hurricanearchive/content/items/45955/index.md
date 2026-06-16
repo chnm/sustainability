@@ -14,12 +14,12 @@ dublin_core:
       text: Laplace
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/df86471fddb7071b1548260967d6b25b.jpg
+  - fullsize: /files/fullsize/df86471fddb7071b1548260967d6b25b.jpg
     id: 46553
     mime: image/jpeg
     original_filename: HPIM1525.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/df86471fddb7071b1548260967d6b25b.jpg
-    url: https://hurricanearchive.org/files/original/df86471fddb7071b1548260967d6b25b.JPG
+    thumb: /files/thumbnails/df86471fddb7071b1548260967d6b25b.jpg
+    url: /files/original/df86471fddb7071b1548260967d6b25b.JPG
 geo:
 id: 45955
 item_type: Still Image

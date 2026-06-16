@@ -15,12 +15,12 @@ dublin_core:
       text: before air conditioner.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a211d710614fb2a211d74ea.jpg
+  - fullsize: /files/fullsize/14fb2a211d710614fb2a211d74ea.jpg
     id: 11033
     mime: image/jpeg
     original_filename: before air conditioner.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a211d710614fb2a211d74ea.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a211d710614fb2a211d74ea.jpg
+    thumb: /files/thumbnails/14fb2a211d710614fb2a211d74ea.jpg
+    url: /files/original/14fb2a211d710614fb2a211d74ea.jpg
 geo:
 id: 13023
 item_type: Still Image

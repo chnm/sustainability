@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0060OEP.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f1b951ea14fb29f1b955ce.jpg
+  - fullsize: /files/fullsize/14fb29f1b951ea14fb29f1b955ce.jpg
     id: 19994
     mime: image/jpeg
     original_filename: DSC 0060OEP.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f1b951ea14fb29f1b955ce.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f1b951ea14fb29f1b955ce.jpg
+    thumb: /files/thumbnails/14fb29f1b951ea14fb29f1b955ce.jpg
+    url: /files/original/14fb29f1b951ea14fb29f1b955ce.jpg
 geo:
 id: 23050
 item_type: Still Image

@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6fab20ef14fb2a6fab24d4.jpg
+  - fullsize: /files/fullsize/14fb2a6fab20ef14fb2a6fab24d4.jpg
     id: 363
     mime: image/jpeg
     original_filename: bucktown2thumb1_0ef20469bb.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6fab20ef14fb2a6fab24d4.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6fab20ef14fb2a6fab24d4.jpg
+    thumb: /files/thumbnails/14fb2a6fab20ef14fb2a6fab24d4.jpg
+    url: /files/original/14fb2a6fab20ef14fb2a6fab24d4.jpg
 geo:
   address: ''
   lat: 30.0223981333294

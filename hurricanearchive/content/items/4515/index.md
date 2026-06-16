@@ -15,12 +15,12 @@ dublin_core:
       text: DSCN0727.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a57174f5514fb2a5717533b.jpg
+  - fullsize: /files/fullsize/14fb2a57174f5514fb2a5717533b.jpg
     id: 3632
     mime: image/jpeg
     original_filename: DSCN0727.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a57174f5514fb2a5717533b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a57174f5514fb2a5717533b.jpg
+    thumb: /files/thumbnails/14fb2a57174f5514fb2a5717533b.jpg
+    url: /files/original/14fb2a57174f5514fb2a5717533b.jpg
 geo:
 id: 4515
 item_type: Still Image

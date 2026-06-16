@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: SHN Membership Call Minutes and Agenda7_14_06_8ba9899672.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cc2540514fb2a1cc2577c.doc
+    url: /files/original/14fb2a1cc2540514fb2a1cc2577c.doc
 geo:
 id: 13790
 item_type: Document

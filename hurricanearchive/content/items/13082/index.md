@@ -15,12 +15,12 @@ dublin_core:
       text: dawn courtyard.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20893ff114fb2a20894b3b.jpg
+  - fullsize: /files/fullsize/14fb2a20893ff114fb2a20894b3b.jpg
     id: 11092
     mime: image/jpeg
     original_filename: dawn courtyard.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20893ff114fb2a20894b3b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20893ff114fb2a20894b3b.jpg
+    thumb: /files/thumbnails/14fb2a20893ff114fb2a20894b3b.jpg
+    url: /files/original/14fb2a20893ff114fb2a20894b3b.jpg
 geo:
 id: 13082
 item_type: Still Image

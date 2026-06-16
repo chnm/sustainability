@@ -26,7 +26,7 @@ files:
     mime: video/mp4
     original_filename: NWT-Neighbor Views Church.mp4
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dba0cb8914fb29dba0cf8f.mp4
+    url: /files/original/14fb29dba0cb8914fb29dba0cf8f.mp4
 geo:
   address: 1743 Lamanche Street, New Orleans
   lat: 29.96748

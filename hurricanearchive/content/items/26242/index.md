@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d960197814fb29d9601de9.jpg
+  - fullsize: /files/fullsize/14fb29d960197814fb29d9601de9.jpg
     id: 22823
     mime: image/jpeg
     original_filename: AB Mardi Gras 71 3_2491d46a30.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d960197814fb29d9601de9.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d960197814fb29d9601de9.jpg
+    thumb: /files/thumbnails/14fb29d960197814fb29d9601de9.jpg
+    url: /files/original/14fb29d960197814fb29d9601de9.jpg
 geo:
   address: ''
   lat: 29.87876

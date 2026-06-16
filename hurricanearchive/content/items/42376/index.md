@@ -22,7 +22,7 @@ files:
     mime: application/octet-stream
     original_filename: Scrap_fc41cdbadd.shs
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c2905a7314fb29c2905e55.shs
+    url: /files/original/14fb29c2905a7314fb29c2905e55.shs
 geo:
 id: 42376
 item_type: Document

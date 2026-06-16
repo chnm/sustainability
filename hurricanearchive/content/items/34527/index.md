@@ -21,12 +21,12 @@ dublin_core:
       text: Bayou behind Anna & Nick Leggio\'s Home
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c98b690214fb29c98b6ccb.jpg
+  - fullsize: /files/fullsize/14fb29c98b690214fb29c98b6ccb.jpg
     id: 24361
     mime: image/jpg
     original_filename: 2291203455_8536c02406.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c98b690214fb29c98b6ccb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c98b690214fb29c98b6ccb.jpg
+    thumb: /files/thumbnails/14fb29c98b690214fb29c98b6ccb.jpg
+    url: /files/original/14fb29c98b690214fb29c98b6ccb.jpg
 geo:
   address: ''
   lat: 30.22539

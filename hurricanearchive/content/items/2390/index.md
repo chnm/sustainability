@@ -24,12 +24,12 @@ dublin_core:
       text: COAST GUARD VIETNAMESE TRANSLATOR
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66c15eb614fb2a66c1629b.jpg
+  - fullsize: /files/fullsize/14fb2a66c15eb614fb2a66c1629b.jpg
     id: 1882
     mime: image/jpeg
     original_filename: apuscg_COAST_GUARD_VI_05CIG_4547a1b642.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66c15eb614fb2a66c1629b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66c15eb614fb2a66c1629b.jpg
+    thumb: /files/thumbnails/14fb2a66c15eb614fb2a66c1629b.jpg
+    url: /files/original/14fb2a66c15eb614fb2a66c1629b.jpg
 geo:
 id: 2390
 item_type: Still Image

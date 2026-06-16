@@ -15,12 +15,12 @@ dublin_core:
       text: P1010091empireS&R.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ee16a69b14fb29ee16aa81.jpg
+  - fullsize: /files/fullsize/14fb29ee16a69b14fb29ee16aa81.jpg
     id: 20594
     mime: image/jpeg
     original_filename: P1010091empireS&R.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ee16a69b14fb29ee16aa81.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ee16a69b14fb29ee16aa81.jpg
+    thumb: /files/thumbnails/14fb29ee16a69b14fb29ee16aa81.jpg
+    url: /files/original/14fb29ee16a69b14fb29ee16aa81.jpg
 geo:
 id: 23650
 item_type: Still Image

@@ -17,12 +17,12 @@ dublin_core:
       text: Harsh Katrina Stain
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb23228014fb29cb232630.jpg
+  - fullsize: /files/fullsize/14fb29cb23228014fb29cb232630.jpg
     id: 24103
     mime: image/jpg
     original_filename: 1231252384_b8ba50dafc.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb23228014fb29cb232630.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb23228014fb29cb232630.jpg
+    thumb: /files/thumbnails/14fb29cb23228014fb29cb232630.jpg
+    url: /files/original/14fb29cb23228014fb29cb232630.jpg
 geo:
 id: 33253
 item_type: Still Image

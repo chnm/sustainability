@@ -21,12 +21,12 @@ dublin_core:
       text: GentillyJT03
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d294db2614fb29d294df0a.jpg
+  - fullsize: /files/fullsize/14fb29d294db2614fb29d294df0a.jpg
     id: 23405
     mime: image/jpg
     original_filename: 384684809_385a2fb560.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d294db2614fb29d294df0a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d294db2614fb29d294df0a.jpg
+    thumb: /files/thumbnails/14fb29d294db2614fb29d294df0a.jpg
+    url: /files/original/14fb29d294db2614fb29d294df0a.jpg
 geo:
   address: ''
   lat: 30.01333

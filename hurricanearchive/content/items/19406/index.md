@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0052engineersgrandisleengineers.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1086cf4f14fb2a1086d335.jpg
+  - fullsize: /files/fullsize/14fb2a1086cf4f14fb2a1086d335.jpg
     id: 16359
     mime: image/jpeg
     original_filename: DSC 0052engineersgrandisleengineers.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1086cf4f14fb2a1086d335.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1086cf4f14fb2a1086d335.jpg
+    thumb: /files/thumbnails/14fb2a1086cf4f14fb2a1086d335.jpg
+    url: /files/original/14fb2a1086cf4f14fb2a1086d335.jpg
 geo:
 id: 19406
 item_type: Still Image

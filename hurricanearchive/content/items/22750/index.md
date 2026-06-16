@@ -15,12 +15,12 @@ dublin_core:
       text: POV parking Jackson BarracksJacksonbarracks.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f43875e314fb29f43879ca.jpg
+  - fullsize: /files/fullsize/14fb29f43875e314fb29f43879ca.jpg
     id: 19701
     mime: image/jpeg
     original_filename: POV parking Jackson BarracksJacksonbarracks.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f43875e314fb29f43879ca.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f43875e314fb29f43879ca.jpg
+    thumb: /files/thumbnails/14fb29f43875e314fb29f43879ca.jpg
+    url: /files/original/14fb29f43875e314fb29f43879ca.jpg
 geo:
 id: 22750
 item_type: Still Image

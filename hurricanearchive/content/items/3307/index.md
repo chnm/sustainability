@@ -15,12 +15,12 @@ dublin_core:
       text: SS NOLA Lower 9th Ward (67).jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5c7b7d8614fb2a5c7d6bee.jpg
+  - fullsize: /files/fullsize/14fb2a5c7b7d8614fb2a5c7d6bee.jpg
     id: 2778
     mime: image/jpeg
     original_filename: SS NOLA Lower 9th Ward (67).jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5c7b7d8614fb2a5c7d6bee.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5c7b7d8614fb2a5c7d6bee.jpg
+    thumb: /files/thumbnails/14fb2a5c7b7d8614fb2a5c7d6bee.jpg
+    url: /files/original/14fb2a5c7b7d8614fb2a5c7d6bee.jpg
 geo:
 id: 3307
 item_type: Still Image

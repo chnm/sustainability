@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0041H.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a05b95ae014fb2a05b95ecc.jpg
+  - fullsize: /files/fullsize/14fb2a05b95ae014fb2a05b95ecc.jpg
     id: 17556
     mime: image/jpeg
     original_filename: DSC 0041H.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a05b95ae014fb2a05b95ecc.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a05b95ae014fb2a05b95ecc.jpg
+    thumb: /files/thumbnails/14fb2a05b95ae014fb2a05b95ecc.jpg
+    url: /files/original/14fb2a05b95ae014fb2a05b95ecc.jpg
 geo:
 id: 20603
 item_type: Still Image

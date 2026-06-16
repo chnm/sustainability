@@ -15,12 +15,12 @@ dublin_core:
       text: palm tree with flash.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e8989ec14fb2a1e899ccc.jpg
+  - fullsize: /files/fullsize/14fb2a1e8989ec14fb2a1e899ccc.jpg
     id: 11269
     mime: image/jpeg
     original_filename: palm tree with flash.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e8989ec14fb2a1e899ccc.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e8989ec14fb2a1e899ccc.jpg
+    thumb: /files/thumbnails/14fb2a1e8989ec14fb2a1e899ccc.jpg
+    url: /files/original/14fb2a1e8989ec14fb2a1e899ccc.jpg
 geo:
 id: 13259
 item_type: Still Image

@@ -24,12 +24,12 @@ dublin_core:
       text: Supplies from Kodiak, AK heading towards the Gulf Coast
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66ccd00b14fb2a66ccd3bf.jpg
+  - fullsize: /files/fullsize/14fb2a66ccd00b14fb2a66ccd3bf.jpg
     id: 1872
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_RITA_05C47_8feb2971be.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66ccd00b14fb2a66ccd3bf.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66ccd00b14fb2a66ccd3bf.jpg
+    thumb: /files/thumbnails/14fb2a66ccd00b14fb2a66ccd3bf.jpg
+    url: /files/original/14fb2a66ccd00b14fb2a66ccd3bf.jpg
 geo:
 id: 2380
 item_type: Still Image

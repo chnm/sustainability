@@ -15,12 +15,12 @@ dublin_core:
       text: Sleeping at Jack BrksJacksonbarracks.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f3bd67a914fb29f3bd6b8d.jpg
+  - fullsize: /files/fullsize/14fb29f3bd67a914fb29f3bd6b8d.jpg
     id: 19746
     mime: image/jpeg
     original_filename: Sleeping at Jack BrksJacksonbarracks.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f3bd67a914fb29f3bd6b8d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f3bd67a914fb29f3bd6b8d.jpg
+    thumb: /files/thumbnails/14fb29f3bd67a914fb29f3bd6b8d.jpg
+    url: /files/original/14fb29f3bd67a914fb29f3bd6b8d.jpg
 geo:
 id: 22795
 item_type: Still Image

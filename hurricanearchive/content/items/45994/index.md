@@ -11,12 +11,12 @@ dublin_core:
       text: I remember seeing this picture and wondering if everything was ok back home. I can remember thinking of my house and if it was still there or if it was flooded.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/65f738543fefae2ae607786843bcdeb2.jpg
+  - fullsize: /files/fullsize/65f738543fefae2ae607786843bcdeb2.jpg
     id: 46577
     mime: image/jpeg
     original_filename: images.jpeg
-    thumb: https://hurricanearchive.org/files/thumbnails/65f738543fefae2ae607786843bcdeb2.jpg
-    url: https://hurricanearchive.org/files/original/65f738543fefae2ae607786843bcdeb2.jpeg
+    thumb: /files/thumbnails/65f738543fefae2ae607786843bcdeb2.jpg
+    url: /files/original/65f738543fefae2ae607786843bcdeb2.jpeg
 geo:
   address: United States
   lat: 29.954934549656144

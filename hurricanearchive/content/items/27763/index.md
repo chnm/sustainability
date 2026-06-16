@@ -23,7 +23,7 @@ files:
     mime: text/rtf
     original_filename: Â J_d9587b633b.Michael.brown.rtf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d2b770e014fb29d2b774f2.rtf
+    url: /files/original/14fb29d2b770e014fb29d2b774f2.rtf
 geo:
 id: 27763
 item_type: Document

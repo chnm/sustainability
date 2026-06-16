@@ -15,12 +15,12 @@ dublin_core:
       text: Refrig. Free Food.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2160658014fb2a21606981.jpg
+  - fullsize: /files/fullsize/14fb2a2160658014fb2a21606981.jpg
     id: 11009
     mime: image/jpeg
     original_filename: Refrig. Free Food.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2160658014fb2a21606981.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2160658014fb2a21606981.jpg
+    thumb: /files/thumbnails/14fb2a2160658014fb2a21606981.jpg
+    url: /files/original/14fb2a2160658014fb2a21606981.jpg
 geo:
 id: 12865
 item_type: Still Image

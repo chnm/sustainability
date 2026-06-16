@@ -23,7 +23,7 @@ files:
     mime: text/rtf
     original_filename: st_fe49122d81.rtf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d2aa447d14fb29d2aa4863.rtf
+    url: /files/original/14fb29d2aa447d14fb29d2aa4863.rtf
 geo:
 id: 27765
 item_type: Document

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Mitchell McNabb.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23f4831c14fb2a23f49822.html
+    url: /files/original/14fb2a23f4831c14fb2a23f49822.html
 geo:
 id: 11683
 item_type: Oral History

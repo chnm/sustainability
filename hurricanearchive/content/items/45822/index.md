@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Reuter, Marianne.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871a2629814fbe871a26683.doc
+    url: /files/original/14fbe871a2629814fbe871a26683.doc
 geo:
 id: 45822
 item_type: Oral History

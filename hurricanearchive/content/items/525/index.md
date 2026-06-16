@@ -25,7 +25,7 @@ files:
     mime: application/octet-stream
     original_filename: 10_19_05DefendNewOrleans_7feff0278e.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6fa2c8cb14fb2a6fa2ccb2.mp3
+    url: /files/original/14fb2a6fa2c8cb14fb2a6fa2ccb2.mp3
 geo:
   address: ''
   lat: 40.7360066852552

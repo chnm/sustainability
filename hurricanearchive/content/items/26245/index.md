@@ -18,12 +18,12 @@ dublin_core:
       text: Mardi Gras 1971
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d95b164314fb29d95b1a28.jpg
+  - fullsize: /files/fullsize/14fb29d95b164314fb29d95b1a28.jpg
     id: 22826
     mime: image/jpeg
     original_filename: AB Mardi Gras 1971_7cbaaa66bb.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d95b164314fb29d95b1a28.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d95b164314fb29d95b1a28.jpg
+    thumb: /files/thumbnails/14fb29d95b164314fb29d95b1a28.jpg
+    url: /files/original/14fb29d95b164314fb29d95b1a28.jpg
 geo:
   address: ''
   lat: 29.91685

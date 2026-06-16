@@ -15,12 +15,12 @@ dublin_core:
       text: 04.08 N.O.002.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dcd9728614fb29dcd9766c.jpg
+  - fullsize: /files/fullsize/14fb29dcd9728614fb29dcd9766c.jpg
     id: 22500
     mime: image/jpeg
     original_filename: 04.08 N.O.002.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dcd9728614fb29dcd9766c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dcd9728614fb29dcd9766c.jpg
+    thumb: /files/thumbnails/14fb29dcd9728614fb29dcd9766c.jpg
+    url: /files/original/14fb29dcd9728614fb29dcd9766c.jpg
 geo:
 id: 25661
 item_type: Still Image

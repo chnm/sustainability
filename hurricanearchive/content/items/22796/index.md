@@ -15,12 +15,12 @@ dublin_core:
       text: Stairwell at Jack BrkslJacksonbarracks.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f3b361ee14fb29f3b36615.jpg
+  - fullsize: /files/fullsize/14fb29f3b361ee14fb29f3b36615.jpg
     id: 19747
     mime: image/jpeg
     original_filename: Stairwell at Jack BrkslJacksonbarracks.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f3b361ee14fb29f3b36615.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f3b361ee14fb29f3b36615.jpg
+    thumb: /files/thumbnails/14fb29f3b361ee14fb29f3b36615.jpg
+    url: /files/original/14fb29f3b361ee14fb29f3b36615.jpg
 geo:
 id: 22796
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: S4300047neworleansS&R.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ed024b4014fb29ed024f26.jpg
+  - fullsize: /files/fullsize/14fb29ed024b4014fb29ed024f26.jpg
     id: 20746
     mime: image/jpeg
     original_filename: S4300047neworleansS&R.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ed024b4014fb29ed024f26.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ed024b4014fb29ed024f26.jpg
+    thumb: /files/thumbnails/14fb29ed024b4014fb29ed024f26.jpg
+    url: /files/original/14fb29ed024b4014fb29ed024f26.jpg
 geo:
 id: 23802
 item_type: Still Image

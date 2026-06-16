@@ -22,7 +22,7 @@ files:
     mime: application/msword
     original_filename: Fear and Loathing in the City that Forgot to Care_b172b406c8.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c770c1dd14fb29c770c5c4.doc
+    url: /files/original/14fb29c770c1dd14fb29c770c5c4.doc
 geo:
   address: ''
   lat: 29.96582

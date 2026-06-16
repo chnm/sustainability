@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Landrum HK5192K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a164e8bc414fb2a164e8fa9.mp3
+    url: /files/original/14fb2a164e8bc414fb2a164e8fa9.mp3
 geo:
 id: 15401
 item_type: Oral History

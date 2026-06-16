@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a709e1cc214fb2a709e20a8.jpg
+  - fullsize: /files/fullsize/14fb2a709e1cc214fb2a709e20a8.jpg
     id: 152
     mime: image/jpeg
     original_filename: 20_Destruction1_4115e17be1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a709e1cc214fb2a709e20a8.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a709e1cc214fb2a709e20a8.jpg
+    thumb: /files/thumbnails/14fb2a709e1cc214fb2a709e20a8.jpg
+    url: /files/original/14fb2a709e1cc214fb2a709e20a8.jpg
 geo:
   address: ''
   lat: 29.943769

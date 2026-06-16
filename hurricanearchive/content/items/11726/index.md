@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: darrylmoore.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c1cad114fb2a23c1d29f.html
+    url: /files/original/14fb2a23c1cad114fb2a23c1d29f.html
 geo:
 id: 11726
 item_type: Oral History

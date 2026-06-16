@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 11 2006 Legislature must support Entergy bonds.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a3603610e14fb2a36036486.txt
+    url: /files/original/14fb2a3603610e14fb2a36036486.txt
 geo:
   address: ''
   lat: 0.0

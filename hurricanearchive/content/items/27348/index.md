@@ -17,12 +17,12 @@ dublin_core:
       text: hrita I45 going north
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d42e361e14fb29d42e3a04.jpg
+  - fullsize: /files/fullsize/14fb29d42e361e14fb29d42e3a04.jpg
     id: 23235
     mime: image/jpg
     original_filename: 221564179_f049e42b00.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d42e361e14fb29d42e3a04.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d42e361e14fb29d42e3a04.jpg
+    thumb: /files/thumbnails/14fb29d42e361e14fb29d42e3a04.jpg
+    url: /files/original/14fb29d42e361e14fb29d42e3a04.jpg
 geo:
   address: ''
   lat: 30.07522

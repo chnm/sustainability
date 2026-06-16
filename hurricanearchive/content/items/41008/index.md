@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c4b08bc214fb29c4b08fa8.jpg
+  - fullsize: /files/fullsize/14fb29c4b08bc214fb29c4b08fa8.jpg
     id: 24859
     mime: image/pjpeg
     original_filename: 4 - Canal 1_44c905d306.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c4b08bc214fb29c4b08fa8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c4b08bc214fb29c4b08fa8.jpg
+    thumb: /files/thumbnails/14fb29c4b08bc214fb29c4b08fa8.jpg
+    url: /files/original/14fb29c4b08bc214fb29c4b08fa8.jpg
 geo:
   address: ''
   lat: 0.0

@@ -15,12 +15,12 @@ dublin_core:
       text: Oil spill SE of Port Sulphur.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb370eb014fb29fb371294.jpg
+  - fullsize: /files/fullsize/14fb29fb370eb014fb29fb371294.jpg
     id: 18843
     mime: image/jpeg
     original_filename: Oil spill SE of Port Sulphur.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb370eb014fb29fb371294.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb370eb014fb29fb371294.jpg
+    thumb: /files/thumbnails/14fb29fb370eb014fb29fb371294.jpg
+    url: /files/original/14fb29fb370eb014fb29fb371294.jpg
 geo:
 id: 21892
 item_type: Still Image

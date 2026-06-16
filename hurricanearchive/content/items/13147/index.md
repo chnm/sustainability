@@ -15,12 +15,12 @@ dublin_core:
       text: wrecked office.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1ffd714c14fb2a1ffd7919.jpg
+  - fullsize: /files/fullsize/14fb2a1ffd714c14fb2a1ffd7919.jpg
     id: 11157
     mime: image/jpeg
     original_filename: wrecked office.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1ffd714c14fb2a1ffd7919.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1ffd714c14fb2a1ffd7919.jpg
+    thumb: /files/thumbnails/14fb2a1ffd714c14fb2a1ffd7919.jpg
+    url: /files/original/14fb2a1ffd714c14fb2a1ffd7919.jpg
 geo:
 id: 13147
 item_type: Still Image

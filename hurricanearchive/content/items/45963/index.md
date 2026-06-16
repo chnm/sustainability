@@ -11,12 +11,12 @@ dublin_core:
       text: This was a picture of the front of my home for Isaac that a neighbor sent me and my husband. We evacuated to Texas and after hearing from family and friends that lost their homes to flood waters, we were left to wonder how bad our house would be when we went home. Luckily the only thing that we lost was my car. Our half of the street didn't get water in the homes, but the other half of the street did. There are currently still people in our neighbor hood and all around Laplace still rebuilding.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/b61614c5ad33ba23a1e0dc2efefa0b96.jpg
+  - fullsize: /files/fullsize/b61614c5ad33ba23a1e0dc2efefa0b96.jpg
     id: 46559
     mime: image/jpeg
     original_filename: hurrican issac.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/b61614c5ad33ba23a1e0dc2efefa0b96.jpg
-    url: https://hurricanearchive.org/files/original/b61614c5ad33ba23a1e0dc2efefa0b96.jpg
+    thumb: /files/thumbnails/b61614c5ad33ba23a1e0dc2efefa0b96.jpg
+    url: /files/original/b61614c5ad33ba23a1e0dc2efefa0b96.jpg
 geo:
   address: Lemoyne Dr. Laplace 70068
   lat: 30.088355

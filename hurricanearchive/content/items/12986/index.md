@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: JamesMokhiber_UNO_b5e1675c2d.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2147831614fb2a214786fb.doc
+    url: /files/original/14fb2a2147831614fb2a214786fb.doc
 geo:
 id: 12986
 item_type: Document

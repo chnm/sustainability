@@ -15,12 +15,12 @@ dublin_core:
       text: 111-1171 IMGcameronpresvisit.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e58e9f4f14fb29e58ea32d.jpg
+  - fullsize: /files/fullsize/14fb29e58e9f4f14fb29e58ea32d.jpg
     id: 21630
     mime: image/jpeg
     original_filename: 111-1171 IMGcameronpresvisit.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e58e9f4f14fb29e58ea32d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e58e9f4f14fb29e58ea32d.jpg
+    thumb: /files/thumbnails/14fb29e58e9f4f14fb29e58ea32d.jpg
+    url: /files/original/14fb29e58e9f4f14fb29e58ea32d.jpg
 geo:
 id: 24686
 item_type: Still Image

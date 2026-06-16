@@ -22,7 +22,7 @@ files:
     mime: audio/x-wav
     original_filename: Gail Ballard.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5727c37b14fb2a5727cb49.wav
+    url: /files/original/14fb2a5727c37b14fb2a5727cb49.wav
 geo:
   address: ''
   lat: 29.95035

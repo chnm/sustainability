@@ -15,12 +15,12 @@ dublin_core:
       text: BC prepares tp meet with.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1bdd55fd14fb2a1bdd59e3.jpg
+  - fullsize: /files/fullsize/14fb2a1bdd55fd14fb2a1bdd59e3.jpg
     id: 11727
     mime: image/jpeg
     original_filename: BC prepares tp meet with.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1bdd55fd14fb2a1bdd59e3.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1bdd55fd14fb2a1bdd59e3.jpg
+    thumb: /files/thumbnails/14fb2a1bdd55fd14fb2a1bdd59e3.jpg
+    url: /files/original/14fb2a1bdd55fd14fb2a1bdd59e3.jpg
 geo:
   address: ''
   lat: 0.0

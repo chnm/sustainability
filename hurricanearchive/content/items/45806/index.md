@@ -17,7 +17,7 @@ files:
     mime: application/x-zip
     original_filename: Peranich, Stephen.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87169e40c14fbe87169e716.doc
+    url: /files/original/14fbe87169e40c14fbe87169e716.doc
 geo:
 id: 45806
 item_type: Oral History

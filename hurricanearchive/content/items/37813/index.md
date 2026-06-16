@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c55b59f414fb29c55b5dd8.jpg
+  - fullsize: /files/fullsize/14fb29c55b59f414fb29c55b5dd8.jpg
     id: 24763
     mime: image/bmp
     original_filename: Gustave 12_3548196c28.bmp
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c55b59f414fb29c55b5dd8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c55b59f414fb29c55b5dd8.jpg
+    thumb: /files/thumbnails/14fb29c55b59f414fb29c55b5dd8.jpg
+    url: /files/original/14fb29c55b59f414fb29c55b5dd8.jpg
 geo:
   address: 237 Debbie Dr.
   lat: 30.2248

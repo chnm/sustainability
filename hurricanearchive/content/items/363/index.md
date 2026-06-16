@@ -26,7 +26,7 @@ files:
     mime: application/msword
     original_filename: Marsha_Blackmon_Interview_ceea81cbf2.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a702986f114fb2a70298a70.doc
+    url: /files/original/14fb2a702986f114fb2a70298a70.doc
 geo:
   address: ''
   lat: 30.35534

@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Photographer pascagoula.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2324f83614fb2a2324fc19.doc
+    url: /files/original/14fb2a2324f83614fb2a2324fc19.doc
 geo:
 id: 11832
 item_type: Document

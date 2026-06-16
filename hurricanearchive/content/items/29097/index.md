@@ -18,12 +18,12 @@ dublin_core:
       text: Operation Crescent Guard
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cfa2ea0514fb29cfa45441.jpg
+  - fullsize: /files/fullsize/14fb29cfa2ea0514fb29cfa45441.jpg
     id: 23667
     mime: image/jpeg
     original_filename: DSCN0656.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cfa2ea0514fb29cfa45441.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cfa2ea0514fb29cfa45441.jpg
+    thumb: /files/thumbnails/14fb29cfa2ea0514fb29cfa45441.jpg
+    url: /files/original/14fb29cfa2ea0514fb29cfa45441.jpg
 geo:
 id: 29097
 item_type: Still Image

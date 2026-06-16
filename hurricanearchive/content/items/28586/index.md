@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6970.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d2386bcf14fb29d2386fbc.jpg
+  - fullsize: /files/fullsize/14fb29d2386bcf14fb29d2386fbc.jpg
     id: 23437
     mime: image/jpg
     original_filename: 162618074_a45ae5d2a3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d2386bcf14fb29d2386fbc.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d2386bcf14fb29d2386fbc.jpg
+    thumb: /files/thumbnails/14fb29d2386bcf14fb29d2386fbc.jpg
+    url: /files/original/14fb29d2386bcf14fb29d2386fbc.jpg
 geo:
 id: 28586
 item_type: Still Image

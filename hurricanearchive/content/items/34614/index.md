@@ -18,12 +18,12 @@ dublin_core:
       text: Dinner at Acme Oyster House
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c981fb7414fb29c9820041.jpg
+  - fullsize: /files/fullsize/14fb29c981fb7414fb29c9820041.jpg
     id: 24369
     mime: image/pjpeg
     original_filename: henderberg3_37eb094649.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c981fb7414fb29c9820041.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c981fb7414fb29c9820041.jpg
+    thumb: /files/thumbnails/14fb29c981fb7414fb29c9820041.jpg
+    url: /files/original/14fb29c981fb7414fb29c9820041.jpg
 geo:
   address: 3500 St. Claude Ave., New Orleans, La
   lat: 0.0

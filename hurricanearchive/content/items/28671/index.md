@@ -19,12 +19,12 @@ dublin_core:
       text: DSC_6787.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1d0976014fb29d1d09b6a.jpg
+  - fullsize: /files/fullsize/14fb29d1d0976014fb29d1d09b6a.jpg
     id: 23516
     mime: image/jpg
     original_filename: 158012050_20b9df1252.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1d0976014fb29d1d09b6a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1d0976014fb29d1d09b6a.jpg
+    thumb: /files/thumbnails/14fb29d1d0976014fb29d1d09b6a.jpg
+    url: /files/original/14fb29d1d0976014fb29d1d09b6a.jpg
 geo:
 id: 28671
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0229-21.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ff7bd57114fb29ff7bd956.jpg
+  - fullsize: /files/fullsize/14fb29ff7bd57114fb29ff7bd956.jpg
     id: 18279
     mime: image/jpeg
     original_filename: DSC 0229-21.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ff7bd57114fb29ff7bd956.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ff7bd57114fb29ff7bd956.jpg
+    thumb: /files/thumbnails/14fb29ff7bd57114fb29ff7bd956.jpg
+    url: /files/original/14fb29ff7bd57114fb29ff7bd956.jpg
 geo:
 id: 21328
 item_type: Still Image

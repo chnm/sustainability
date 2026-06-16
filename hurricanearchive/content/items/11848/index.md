@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: stormstorybowman.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23138a1814fb2a23138fc7.htm
+    url: /files/original/14fb2a23138a1814fb2a23138fc7.htm
 geo:
 id: 11848
 item_type: Document

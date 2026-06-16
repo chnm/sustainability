@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Kirk Jackson.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a24240b0b14fb2a242441b3.htm
+    url: /files/original/14fb2a24240b0b14fb2a242441b3.htm
 geo:
 id: 11671
 item_type: Oral History

@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: GHenderson_loveanddeathintheruins_e7c9343951.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d2b831e814fb29d2b8345d.pdf
+    url: /files/original/14fb29d2b831e814fb29d2b8345d.pdf
 geo:
 id: 27762
 item_type: Document

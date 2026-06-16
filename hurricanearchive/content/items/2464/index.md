@@ -18,12 +18,12 @@ dublin_core:
       text: 20051002_MG_8049.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66487ad314fb2a66487eb9.jpg
+  - fullsize: /files/fullsize/14fb2a66487ad314fb2a66487eb9.jpg
     id: 1946
     mime: image/jpeg
     original_filename: 20051002_MG_8049.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66487ad314fb2a66487eb9.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66487ad314fb2a66487eb9.jpg
+    thumb: /files/thumbnails/14fb2a66487ad314fb2a66487eb9.jpg
+    url: /files/original/14fb2a66487ad314fb2a66487eb9.jpg
 geo:
 id: 2464
 item_type: Still Image

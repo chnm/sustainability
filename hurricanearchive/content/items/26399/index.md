@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d8c9f0e114fb29d8c9f39d.jpg
+  - fullsize: /files/fullsize/14fb29d8c9f0e114fb29d8c9f39d.jpg
     id: 22877
     mime: image/jpeg
     original_filename: EV 5 Grandfather 1912_74dbd0dade.A.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d8c9f0e114fb29d8c9f39d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d8c9f0e114fb29d8c9f39d.jpg
+    thumb: /files/thumbnails/14fb29d8c9f0e114fb29d8c9f39d.jpg
+    url: /files/original/14fb29d8c9f0e114fb29d8c9f39d.jpg
 geo:
   address: ''
   lat: 29.91685

@@ -21,12 +21,12 @@ dublin_core:
       text: Bayou filled with debris after the storm
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9a1de2c14fb29c9a1e20a.jpg
+  - fullsize: /files/fullsize/14fb29c9a1de2c14fb29c9a1e20a.jpg
     id: 24340
     mime: image/jpg
     original_filename: 2291277581_d3fcc7ad30.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9a1de2c14fb29c9a1e20a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9a1de2c14fb29c9a1e20a.jpg
+    thumb: /files/thumbnails/14fb29c9a1de2c14fb29c9a1e20a.jpg
+    url: /files/original/14fb29c9a1de2c14fb29c9a1e20a.jpg
 geo:
   address: ''
   lat: 30.22539

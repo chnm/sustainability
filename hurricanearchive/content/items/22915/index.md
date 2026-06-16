@@ -20,7 +20,7 @@ files:
     mime: audio/mpeg
     original_filename: Kenny_Tucker_Christmas_Lights_33df1cd887.MP3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29f2b249ea14fb29f2b24dcf.MP3
+    url: /files/original/14fb29f2b249ea14fb29f2b24dcf.MP3
 geo:
 id: 22915
 item_type: Document

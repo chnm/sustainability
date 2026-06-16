@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Miller, Jana.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87152a0e714fbe87152a4bf.doc
+    url: /files/original/14fbe87152a0e714fbe87152a4bf.doc
 geo:
 id: 45784
 item_type: Oral History

@@ -23,7 +23,7 @@ files:
     mime: video/quicktime
     original_filename: delacroix_katrina_10_05.mov
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5c16451114fb2a5c1648df.mov
+    url: /files/original/14fb2a5c16451114fb2a5c1648df.mov
 geo:
 id: 3370
 item_type: Moving Image

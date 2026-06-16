@@ -26,7 +26,7 @@ files:
     mime: application/msword
     original_filename: Perry_2742ef4bfe.The Mexicans are Coming.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29caf9a4fc14fb29caf9a8e0.doc
+    url: /files/original/14fb29caf9a4fc14fb29caf9a8e0.doc
 geo:
 id: 33286
 item_type: Document

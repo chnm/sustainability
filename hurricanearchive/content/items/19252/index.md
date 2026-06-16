@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0137rita.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a119de8eb14fb2a119decd1.jpg
+  - fullsize: /files/fullsize/14fb2a119de8eb14fb2a119decd1.jpg
     id: 16205
     mime: image/jpeg
     original_filename: DSC 0137rita.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a119de8eb14fb2a119decd1.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a119de8eb14fb2a119decd1.jpg
+    thumb: /files/thumbnails/14fb2a119de8eb14fb2a119decd1.jpg
+    url: /files/original/14fb2a119de8eb14fb2a119decd1.jpg
 geo:
 id: 19252
 item_type: Still Image

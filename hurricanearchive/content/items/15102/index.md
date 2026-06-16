@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1720218214fb2a17202561.jpg
+  - fullsize: /files/fullsize/14fb2a1720218214fb2a17202561.jpg
     id: 12262
     mime: image/jpeg
     original_filename: CampusTechFee04 (11)-5_0e991b4324.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1720218214fb2a17202561.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1720218214fb2a17202561.jpg
+    thumb: /files/thumbnails/14fb2a1720218214fb2a17202561.jpg
+    url: /files/original/14fb2a1720218214fb2a17202561.jpg
 geo:
 id: 15102
 item_type: Still Image

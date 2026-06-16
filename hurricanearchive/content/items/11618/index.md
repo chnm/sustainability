@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Alexander Eshan O'Neal.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2474876c14fb2a24748b63.htm
+    url: /files/original/14fb2a2474876c14fb2a24748b63.htm
 geo:
 id: 11618
 item_type: Oral History

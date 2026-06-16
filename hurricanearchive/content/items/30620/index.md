@@ -21,12 +21,12 @@ dublin_core:
       text: Broken Traffic Light
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ccd448dc14fb29ccd44c2d.jpg
+  - fullsize: /files/fullsize/14fb29ccd448dc14fb29ccd44c2d.jpg
     id: 23790
     mime: image/pjpeg
     original_filename: stoplight magazine st_2f4a338681.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ccd448dc14fb29ccd44c2d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ccd448dc14fb29ccd44c2d.jpg
+    thumb: /files/thumbnails/14fb29ccd448dc14fb29ccd44c2d.jpg
+    url: /files/original/14fb29ccd448dc14fb29ccd44c2d.jpg
 geo:
 id: 30620
 item_type: Still Image

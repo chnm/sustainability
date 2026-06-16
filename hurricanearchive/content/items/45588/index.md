@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: DuPree, Johnny 8-01-06.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f8891b214fbe86f88959a.mp3
+    url: /files/original/14fbe86f8891b214fbe86f88959a.mp3
   - fullsize:
     id: 46116
     mime: application/msword
     original_filename: DuPree, Johnny(824).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f89c64214fbe86f89ca28.doc
+    url: /files/original/14fbe86f89c64214fbe86f89ca28.doc
 geo:
 id: 45588
 item_type: Oral History

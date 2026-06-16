@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Video Description.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5c17c3a514fb2a5c17c78b.doc
+    url: /files/original/14fb2a5c17c3a514fb2a5c17c78b.doc
 geo:
 id: 3369
 item_type: Document

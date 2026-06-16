@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: peachhouse.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a230cb65914fb2a230cba03.doc
+    url: /files/original/14fb2a230cb65914fb2a230cba03.doc
 geo:
 id: 11853
 item_type: Document

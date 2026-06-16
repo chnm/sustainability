@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 28 2006 A storm of emotions.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35d30d3914fb2a35d3259a.txt
+    url: /files/original/14fb2a35d30d3914fb2a35d3259a.txt
 geo:
   address: ''
   lat: 0.0

@@ -23,7 +23,7 @@ files:
     mime: text/rtf
     original_filename: Katrina memory_9074b2f415.rtf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d2abd6c614fb29d2abe282.rtf
+    url: /files/original/14fb29d2abd6c614fb29d2abe282.rtf
 geo:
 id: 27913
 item_type: Document

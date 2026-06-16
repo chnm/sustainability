@@ -17,12 +17,12 @@ dublin_core:
       text: Back Yard Boat.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c1e864bb14fb29c1e86897.jpg
+  - fullsize: /files/fullsize/14fb29c1e864bb14fb29c1e86897.jpg
     id: 25113
     mime: image/jpeg
     original_filename: Back Yard Boat.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c1e864bb14fb29c1e86897.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c1e864bb14fb29c1e86897.jpg
+    thumb: /files/thumbnails/14fb29c1e864bb14fb29c1e86897.jpg
+    url: /files/original/14fb29c1e864bb14fb29c1e86897.jpg
 geo:
   address: ''
   lat: 30.22807

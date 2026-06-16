@@ -15,12 +15,12 @@ dublin_core:
       text: george 3.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a205006d114fb2a20500aba.jpg
+  - fullsize: /files/fullsize/14fb2a205006d114fb2a20500aba.jpg
     id: 11128
     mime: image/jpeg
     original_filename: george 3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a205006d114fb2a20500aba.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a205006d114fb2a20500aba.jpg
+    thumb: /files/thumbnails/14fb2a205006d114fb2a20500aba.jpg
+    url: /files/original/14fb2a205006d114fb2a20500aba.jpg
 geo:
 id: 13118
 item_type: Still Image

@@ -21,12 +21,12 @@ dublin_core:
       text: houseExt03
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d2878f9614fb29d2879356.jpg
+  - fullsize: /files/fullsize/14fb29d2878f9614fb29d2879356.jpg
     id: 23411
     mime: image/jpg
     original_filename: 385028117_9af83616b4.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d2878f9614fb29d2879356.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d2878f9614fb29d2879356.jpg
+    thumb: /files/thumbnails/14fb29d2878f9614fb29d2879356.jpg
+    url: /files/original/14fb29d2878f9614fb29d2879356.jpg
 geo:
 id: 28258
 item_type: Still Image

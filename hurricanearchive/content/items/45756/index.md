@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Lowe, Judith.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87134401514fbe871349611.doc
+    url: /files/original/14fbe87134401514fbe871349611.doc
 geo:
 id: 45756
 item_type: Oral History

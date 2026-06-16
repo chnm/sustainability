@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Morriss, Fredric Tobias.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8715a60d614fbe8715a64c6.doc
+    url: /files/original/14fbe8715a60d614fbe8715a64c6.doc
 geo:
 id: 45791
 item_type: Oral History

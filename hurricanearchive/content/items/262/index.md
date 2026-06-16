@@ -25,7 +25,7 @@ files:
     mime: application/pdf
     original_filename: Unnatural_disaster_140bd16121.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a706236ad14fb2a70623c10.pdf
+    url: /files/original/14fb2a706236ad14fb2a70623c10.pdf
 geo:
   address: ''
   lat: 29.83796

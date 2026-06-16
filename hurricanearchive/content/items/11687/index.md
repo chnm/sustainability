@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Pallas Scretching.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23f07c1a14fb2a23f08000.html
+    url: /files/original/14fb2a23f07c1a14fb2a23f08000.html
 geo:
 id: 11687
 item_type: Oral History

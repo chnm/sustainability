@@ -15,12 +15,12 @@ dublin_core:
       text: LTC Mouton briefing the mediamedia.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f2604ef014fb29f26052d4.jpg
+  - fullsize: /files/fullsize/14fb29f2604ef014fb29f26052d4.jpg
     id: 19914
     mime: image/jpeg
     original_filename: LTC Mouton briefing the mediamedia.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f2604ef014fb29f26052d4.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f2604ef014fb29f26052d4.jpg
+    thumb: /files/thumbnails/14fb29f2604ef014fb29f26052d4.jpg
+    url: /files/original/14fb29f2604ef014fb29f26052d4.jpg
 geo:
 id: 22970
 item_type: Still Image

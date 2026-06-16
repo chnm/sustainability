@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Gollott, Richard.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870bdd26214fbe870bdd64e.doc
+    url: /files/original/14fbe870bdd26214fbe870bdd64e.doc
 geo:
 id: 45687
 item_type: Oral History

@@ -17,12 +17,12 @@ dublin_core:
       text: Flipped cars on Claiborne Ave Neutral Ground
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d5665f8214fb29d566674f.jpg
+  - fullsize: /files/fullsize/14fb29d5665f8214fb29d566674f.jpg
     id: 23190
     mime: image/jpg
     original_filename: 336698728_73d7493844.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d5665f8214fb29d566674f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d5665f8214fb29d566674f.jpg
+    thumb: /files/thumbnails/14fb29d5665f8214fb29d566674f.jpg
+    url: /files/original/14fb29d5665f8214fb29d566674f.jpg
 geo:
 id: 27303
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 16 2005 New home.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35a0de5514fb2a35a0e0c7.txt
+    url: /files/original/14fb2a35a0de5514fb2a35a0e0c7.txt
 geo:
   address: ''
   lat: 0.0

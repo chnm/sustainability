@@ -23,7 +23,7 @@ files:
     mime: application/octet-stream
     original_filename: Admin mtg notes 2_19_124da42622.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cec43d214fb2a1cec4785.doc
+    url: /files/original/14fb2a1cec43d214fb2a1cec4785.doc
 geo:
 id: 13720
 item_type: Document

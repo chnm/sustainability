@@ -11,12 +11,12 @@ dublin_core:
       text: This is a sobering reminder of the day my life and the lives of all of my neighbors stood still.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/5cda96996a4a8aa8398b6dc1327be3da.jpg
+  - fullsize: /files/fullsize/5cda96996a4a8aa8398b6dc1327be3da.jpg
     id: 46561
     mime: image/jpeg
     original_filename: FrontYardLG.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/5cda96996a4a8aa8398b6dc1327be3da.jpg
-    url: https://hurricanearchive.org/files/original/5cda96996a4a8aa8398b6dc1327be3da.jpg
+    thumb: /files/thumbnails/5cda96996a4a8aa8398b6dc1327be3da.jpg
+    url: /files/original/5cda96996a4a8aa8398b6dc1327be3da.jpg
 geo:
 id: 45965
 item_type: Still Image

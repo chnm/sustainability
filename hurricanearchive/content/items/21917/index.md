@@ -15,12 +15,12 @@ dublin_core:
       text: Wal-Mart in Gonzales LA.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb00473814fb29fb004b26.jpg
+  - fullsize: /files/fullsize/14fb29fb00473814fb29fb004b26.jpg
     id: 18868
     mime: image/jpeg
     original_filename: Wal-Mart in Gonzales LA.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb00473814fb29fb004b26.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb00473814fb29fb004b26.jpg
+    thumb: /files/thumbnails/14fb29fb00473814fb29fb004b26.jpg
+    url: /files/original/14fb29fb00473814fb29fb004b26.jpg
 geo:
 id: 21917
 item_type: Still Image

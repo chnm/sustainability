@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6953.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d22eec8214fb29d22ef069.jpg
+  - fullsize: /files/fullsize/14fb29d22eec8214fb29d22ef069.jpg
     id: 23448
     mime: image/jpg
     original_filename: 162411544_ceb03d9d9a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d22eec8214fb29d22ef069.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d22eec8214fb29d22ef069.jpg
+    thumb: /files/thumbnails/14fb29d22eec8214fb29d22ef069.jpg
+    url: /files/original/14fb29d22eec8214fb29d22ef069.jpg
 geo:
 id: 28597
 item_type: Still Image

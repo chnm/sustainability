@@ -16,12 +16,12 @@ dublin_core:
       text: NY2NO
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/92bc10a7b4e14dc94fad4b3372cd6cd8.jpg
+  - fullsize: /files/fullsize/92bc10a7b4e14dc94fad4b3372cd6cd8.jpg
     id: 46538
     mime: image/jpeg
     original_filename: waterlevel.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/92bc10a7b4e14dc94fad4b3372cd6cd8.jpg
-    url: https://hurricanearchive.org/files/original/92bc10a7b4e14dc94fad4b3372cd6cd8.jpg
+    thumb: /files/thumbnails/92bc10a7b4e14dc94fad4b3372cd6cd8.jpg
+    url: /files/original/92bc10a7b4e14dc94fad4b3372cd6cd8.jpg
 geo:
   address: lower ninth ward
   lat: 29.9682712

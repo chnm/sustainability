@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Beauvoir pics gretch.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a238688e014fb2a23868cc6.doc
+    url: /files/original/14fb2a238688e014fb2a23868cc6.doc
 geo:
 id: 11769
 item_type: Document

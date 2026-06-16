@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 12 2006 Old Town's charm worth preserving.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35fc174114fb2a35fc1bda.txt
+    url: /files/original/14fb2a35fc174114fb2a35fc1bda.txt
 geo:
   address: ''
   lat: 0.0

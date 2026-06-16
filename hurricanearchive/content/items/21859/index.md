@@ -15,12 +15,12 @@ dublin_core:
       text: EO A0019.TIF
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb5a9aaf14fb29fb5a9ea0.jpg
+  - fullsize: /files/fullsize/14fb29fb5a9aaf14fb29fb5a9ea0.jpg
     id: 18810
     mime: image/tiff
     original_filename: EO A0019.TIF
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb5a9aaf14fb29fb5a9ea0.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb5a9aaf14fb29fb5a9ea0.TIF
+    thumb: /files/thumbnails/14fb29fb5a9aaf14fb29fb5a9ea0.jpg
+    url: /files/original/14fb29fb5a9aaf14fb29fb5a9ea0.TIF
 geo:
 id: 21859
 item_type: Still Image

@@ -26,7 +26,7 @@ files:
     mime: video/mp4
     original_filename: NWT-Greta's Evacuation Story.mp4
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbab70f314fb29dbab74da.mp4
+    url: /files/original/14fb29dbab70f314fb29dbab74da.mp4
 geo:
   address: 920 Jourdan, New Orleans, Louisiana
   lat: 29.96139

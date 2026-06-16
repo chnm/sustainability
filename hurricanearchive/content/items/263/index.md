@@ -25,7 +25,7 @@ files:
     mime: application/pdf
     original_filename: twisted_sisters_71d95553b0.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a70616ba014fb2a70616f86.pdf
+    url: /files/original/14fb2a70616ba014fb2a70616f86.pdf
 geo:
   address: ''
   lat: 29.9759033488943

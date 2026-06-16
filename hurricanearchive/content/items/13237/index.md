@@ -15,12 +15,12 @@ dublin_core:
       text: bigger waves.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f01a5c514fb2a1f01ac24.jpg
+  - fullsize: /files/fullsize/14fb2a1f01a5c514fb2a1f01ac24.jpg
     id: 11247
     mime: image/jpeg
     original_filename: bigger waves.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f01a5c514fb2a1f01ac24.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f01a5c514fb2a1f01ac24.jpg
+    thumb: /files/thumbnails/14fb2a1f01a5c514fb2a1f01ac24.jpg
+    url: /files/original/14fb2a1f01a5c514fb2a1f01ac24.jpg
 geo:
 id: 13237
 item_type: Still Image

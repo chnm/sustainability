@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6758.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1c130dc14fb29d1c1389d.jpg
+  - fullsize: /files/fullsize/14fb29d1c130dc14fb29d1c1389d.jpg
     id: 23528
     mime: image/jpg
     original_filename: 157224414_387997eab7.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1c130dc14fb29d1c1389d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1c130dc14fb29d1c1389d.jpg
+    thumb: /files/thumbnails/14fb29d1c130dc14fb29d1c1389d.jpg
+    url: /files/original/14fb29d1c130dc14fb29d1c1389d.jpg
 geo:
 id: 28683
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: before me.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20d7988314fb2a20d79c68.jpg
+  - fullsize: /files/fullsize/14fb2a20d7988314fb2a20d79c68.jpg
     id: 11056
     mime: image/jpeg
     original_filename: before me.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20d7988314fb2a20d79c68.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20d7988314fb2a20d79c68.jpg
+    thumb: /files/thumbnails/14fb2a20d7988314fb2a20d79c68.jpg
+    url: /files/original/14fb2a20d7988314fb2a20d79c68.jpg
 geo:
 id: 13046
 item_type: Still Image

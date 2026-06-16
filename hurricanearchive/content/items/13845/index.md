@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: SHN Membership Liaison Call tonight 11_29_2006_42133c1a67.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c81d29a14fb2a1c81d687.doc
+    url: /files/original/14fb2a1c81d29a14fb2a1c81d687.doc
 geo:
 id: 13845
 item_type: Document

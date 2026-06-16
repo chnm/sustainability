@@ -15,12 +15,12 @@ dublin_core:
       text: before court sculpt.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20f6339f14fb2a20f64249.jpg
+  - fullsize: /files/fullsize/14fb2a20f6339f14fb2a20f64249.jpg
     id: 11043
     mime: image/jpeg
     original_filename: before court sculpt.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20f6339f14fb2a20f64249.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20f6339f14fb2a20f64249.jpg
+    thumb: /files/thumbnails/14fb2a20f6339f14fb2a20f64249.jpg
+    url: /files/original/14fb2a20f6339f14fb2a20f64249.jpg
 geo:
 id: 13033
 item_type: Still Image

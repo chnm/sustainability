@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc28fd3c14fb29cc290120.jpg
+  - fullsize: /files/fullsize/14fb29cc28fd3c14fb29cc290120.jpg
     id: 23945
     mime: image/jpeg
     original_filename: 022606NOLA155RWlg_f11b9855c5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc28fd3c14fb29cc290120.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc28fd3c14fb29cc290120.jpg
+    thumb: /files/thumbnails/14fb29cc28fd3c14fb29cc290120.jpg
+    url: /files/original/14fb29cc28fd3c14fb29cc290120.jpg
 geo:
 id: 31588
 item_type: Still Image

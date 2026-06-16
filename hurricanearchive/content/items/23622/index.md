@@ -15,12 +15,12 @@ dublin_core:
       text: Lake PontchartrainneworleansS&R.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ee6c019a14fb29ee6c04f8.jpg
+  - fullsize: /files/fullsize/14fb29ee6c019a14fb29ee6c04f8.jpg
     id: 20566
     mime: image/jpeg
     original_filename: Lake PontchartrainneworleansS&R.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ee6c019a14fb29ee6c04f8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ee6c019a14fb29ee6c04f8.jpg
+    thumb: /files/thumbnails/14fb29ee6c019a14fb29ee6c04f8.jpg
+    url: /files/original/14fb29ee6c019a14fb29ee6c04f8.jpg
 geo:
 id: 23622
 item_type: Still Image

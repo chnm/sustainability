@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d97ac04e14fb29d97ac20a.jpg
+  - fullsize: /files/fullsize/14fb29d97ac04e14fb29d97ac20a.jpg
     id: 22818
     mime: image/jpeg
     original_filename: AB Little Woods 1950-2_501a7995fe.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d97ac04e14fb29d97ac20a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d97ac04e14fb29d97ac20a.jpg
+    thumb: /files/thumbnails/14fb29d97ac04e14fb29d97ac20a.jpg
+    url: /files/original/14fb29d97ac04e14fb29d97ac20a.jpg
 geo:
   address: ''
   lat: 29.91685

@@ -15,12 +15,12 @@ dublin_core:
       text: 189 flooding9.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f71fef914fb2a1f7202de.jpg
+  - fullsize: /files/fullsize/14fb2a1f71fef914fb2a1f7202de.jpg
     id: 11206
     mime: image/jpeg
     original_filename: 189 flooding9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f71fef914fb2a1f7202de.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f71fef914fb2a1f7202de.jpg
+    thumb: /files/thumbnails/14fb2a1f71fef914fb2a1f7202de.jpg
+    url: /files/original/14fb2a1f71fef914fb2a1f7202de.jpg
 geo:
 id: 13196
 item_type: Still Image

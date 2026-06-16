@@ -14,12 +14,12 @@ dublin_core:
       text: Braithwaite
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/e2bb6a4158c5910905186c5307e650e3.jpg
+  - fullsize: /files/fullsize/e2bb6a4158c5910905186c5307e650e3.jpg
     id: 46537
     mime: image/jpeg
     original_filename: isaac7.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/e2bb6a4158c5910905186c5307e650e3.jpg
-    url: https://hurricanearchive.org/files/original/e2bb6a4158c5910905186c5307e650e3.jpg
+    thumb: /files/thumbnails/e2bb6a4158c5910905186c5307e650e3.jpg
+    url: /files/original/e2bb6a4158c5910905186c5307e650e3.jpg
 geo:
   address: Braithwaite, Louisiana
   lat: 29.866111

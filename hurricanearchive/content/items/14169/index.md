@@ -15,12 +15,12 @@ dublin_core:
       text: Our location 20050925.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b0b2b8714fb2a1b0b2f6d.jpg
+  - fullsize: /files/fullsize/14fb2a1b0b2b8714fb2a1b0b2f6d.jpg
     id: 11813
     mime: image/jpeg
     original_filename: Our location 20050925.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b0b2b8714fb2a1b0b2f6d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b0b2b8714fb2a1b0b2f6d.jpg
+    thumb: /files/thumbnails/14fb2a1b0b2b8714fb2a1b0b2f6d.jpg
+    url: /files/original/14fb2a1b0b2b8714fb2a1b0b2f6d.jpg
 geo:
   address: ''
   lat: 0.0

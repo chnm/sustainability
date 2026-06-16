@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Steering Committee Minutes 1-31-06_6188d60bbb.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cf6b51014fb2a1cf6b8f6.doc
+    url: /files/original/14fb2a1cf6b51014fb2a1cf6b8f6.doc
 geo:
 id: 13717
 item_type: Document

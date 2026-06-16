@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d5e0435b14fb29d5e0a71d.jpg
+  - fullsize: /files/fullsize/14fb29d5e0435b14fb29d5e0a71d.jpg
     id: 23123
     mime: image/pjpeg
     original_filename: katrina_e0fbc2079d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d5e0435b14fb29d5e0a71d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d5e0435b14fb29d5e0a71d.jpg
+    thumb: /files/thumbnails/14fb29d5e0435b14fb29d5e0a71d.jpg
+    url: /files/original/14fb29d5e0435b14fb29d5e0a71d.jpg
 geo:
   address: ''
   lat: 38.96861

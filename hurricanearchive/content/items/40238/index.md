@@ -19,7 +19,7 @@ files:
     mime: application/vnd.ms-powerpoint
     original_filename: History of Zulu Parade_52fb03b4e0.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c4f3986c14fb29c4f39c51.ppt
+    url: /files/original/14fb29c4f3986c14fb29c4f39c51.ppt
 geo:
   address: 612 Franklin Ct.
   lat: 30.07605

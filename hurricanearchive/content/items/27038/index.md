@@ -20,12 +20,12 @@ dublin_core:
       text: Smokey
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d5bd424e14fb29d5bd4634.jpg
+  - fullsize: /files/fullsize/14fb29d5bd424e14fb29d5bd4634.jpg
     id: 23136
     mime: image/jpg
     original_filename: 473693283_668154ca64.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d5bd424e14fb29d5bd4634.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d5bd424e14fb29d5bd4634.jpg
+    thumb: /files/thumbnails/14fb29d5bd424e14fb29d5bd4634.jpg
+    url: /files/original/14fb29d5bd424e14fb29d5bd4634.jpg
 geo:
 id: 27038
 item_type: Still Image

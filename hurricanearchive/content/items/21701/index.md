@@ -15,12 +15,12 @@ dublin_core:
       text: Helping hand.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fc5c291c14fb29fc5c2d0a.jpg
+  - fullsize: /files/fullsize/14fb29fc5c291c14fb29fc5c2d0a.jpg
     id: 18652
     mime: image/jpeg
     original_filename: Helping hand.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fc5c291c14fb29fc5c2d0a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fc5c291c14fb29fc5c2d0a.jpg
+    thumb: /files/thumbnails/14fb29fc5c291c14fb29fc5c2d0a.jpg
+    url: /files/original/14fb29fc5c291c14fb29fc5c2d0a.jpg
 geo:
 id: 21701
 item_type: Still Image

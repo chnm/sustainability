@@ -15,12 +15,12 @@ dublin_core:
       text: 166 cars buried.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f9b1cdb14fb2a1f9b20c2.jpg
+  - fullsize: /files/fullsize/14fb2a1f9b1cdb14fb2a1f9b20c2.jpg
     id: 11184
     mime: image/jpeg
     original_filename: 166 cars buried.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f9b1cdb14fb2a1f9b20c2.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f9b1cdb14fb2a1f9b20c2.jpg
+    thumb: /files/thumbnails/14fb2a1f9b1cdb14fb2a1f9b20c2.jpg
+    url: /files/original/14fb2a1f9b1cdb14fb2a1f9b20c2.jpg
 geo:
 id: 13174
 item_type: Still Image

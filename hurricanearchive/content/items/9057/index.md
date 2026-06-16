@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 25 2006 Medical, energy officials chronicle hurricane lessons.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35d5fa8114fb2a35d5fe66.txt
+    url: /files/original/14fb2a35d5fa8114fb2a35d5fe66.txt
 geo:
   address: ''
   lat: 0.0

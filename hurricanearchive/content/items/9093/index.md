@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 14 2005 Katrina must spark disaster plan review.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35a5ca4c14fb2a35a5ce53.txt
+    url: /files/original/14fb2a35a5ca4c14fb2a35a5ce53.txt
 geo:
   address: ''
   lat: 0.0

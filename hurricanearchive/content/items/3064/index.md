@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: NHDM email to AASLH.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e44c55e14fb2a5e44cbf9.doc
+    url: /files/original/14fb2a5e44c55e14fb2a5e44cbf9.doc
 geo:
 id: 3064
 item_type: Document

@@ -24,12 +24,12 @@ dublin_core:
       text: Elderly couple prepare for air transport
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66b4912b14fb2a66b4947e.jpg
+  - fullsize: /files/fullsize/14fb2a66b4912b14fb2a66b4947e.jpg
     id: 1894
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05BZA_33f517242b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66b4912b14fb2a66b4947e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66b4912b14fb2a66b4947e.jpg
+    thumb: /files/thumbnails/14fb2a66b4912b14fb2a66b4947e.jpg
+    url: /files/original/14fb2a66b4912b14fb2a66b4947e.jpg
 geo:
 id: 2402
 item_type: Still Image

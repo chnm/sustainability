@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Jonathan Hall.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2439ee2b14fb2a2439fb35.htm
+    url: /files/original/14fb2a2439ee2b14fb2a2439fb35.htm
 geo:
 id: 11662
 item_type: Oral History

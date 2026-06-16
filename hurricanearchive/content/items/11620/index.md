@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Ardell Roberts.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2473c81014fb2a2473cbf6.htm
+    url: /files/original/14fb2a2473c81014fb2a2473cbf6.htm
 geo:
 id: 11620
 item_type: Oral History

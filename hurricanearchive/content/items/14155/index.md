@@ -15,12 +15,12 @@ dublin_core:
       text: Launch the boats.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b5c867214fb2a1b5c8a57.jpg
+  - fullsize: /files/fullsize/14fb2a1b5c867214fb2a1b5c8a57.jpg
     id: 11799
     mime: image/jpeg
     original_filename: Launch the boats.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b5c867214fb2a1b5c8a57.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b5c867214fb2a1b5c8a57.jpg
+    thumb: /files/thumbnails/14fb2a1b5c867214fb2a1b5c8a57.jpg
+    url: /files/original/14fb2a1b5c867214fb2a1b5c8a57.jpg
 geo:
   address: ''
   lat: 0.0

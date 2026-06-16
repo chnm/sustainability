@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0311causeway.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a140e303514fb2a140e341d.jpg
+  - fullsize: /files/fullsize/14fb2a140e303514fb2a140e341d.jpg
     id: 15901
     mime: image/jpeg
     original_filename: DSC 0311causeway.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a140e303514fb2a140e341d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a140e303514fb2a140e341d.jpg
+    thumb: /files/thumbnails/14fb2a140e303514fb2a140e341d.jpg
+    url: /files/original/14fb2a140e303514fb2a140e341d.jpg
 geo:
 id: 18948
 item_type: Still Image

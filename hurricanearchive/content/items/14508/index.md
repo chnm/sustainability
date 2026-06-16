@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Lobbying_Effort_GAMEPLAN_c36fbee703.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18f47dd414fb2a18f481c6.doc
+    url: /files/original/14fb2a18f47dd414fb2a18f481c6.doc
 geo:
 id: 14508
 item_type: Document

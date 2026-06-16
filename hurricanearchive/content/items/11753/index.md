@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: sherriduncan.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23ac959114fb2a23ac9970.html
+    url: /files/original/14fb2a23ac959114fb2a23ac9970.html
 geo:
 id: 11753
 item_type: Oral History

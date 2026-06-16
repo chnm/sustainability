@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Shirlaura Baker Bremer.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23df1b4214fb2a23df1f28.html
+    url: /files/original/14fb2a23df1b4214fb2a23df1f28.html
 geo:
 id: 11703
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: closeup me on the phone.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1ec51c2a14fb2a1ec57612.jpg
+  - fullsize: /files/fullsize/14fb2a1ec51c2a14fb2a1ec57612.jpg
     id: 11252
     mime: image/jpeg
     original_filename: closeup me on the phone.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1ec51c2a14fb2a1ec57612.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1ec51c2a14fb2a1ec57612.jpg
+    thumb: /files/thumbnails/14fb2a1ec51c2a14fb2a1ec57612.jpg
+    url: /files/original/14fb2a1ec51c2a14fb2a1ec57612.jpg
 geo:
 id: 13242
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: 100_0167.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5925b12314fb2a5925b50d.jpg
+  - fullsize: /files/fullsize/14fb2a5925b12314fb2a5925b50d.jpg
     id: 3285
     mime: image/jpeg
     original_filename: 100_0167.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5925b12314fb2a5925b50d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5925b12314fb2a5925b50d.jpg
+    thumb: /files/thumbnails/14fb2a5925b12314fb2a5925b50d.jpg
+    url: /files/original/14fb2a5925b12314fb2a5925b50d.jpg
 geo:
 id: 3874
 item_type: Still Image

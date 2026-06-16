@@ -21,12 +21,12 @@ dublin_core:
       text: Home after some debris removal
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9a49db514fb29c9a4a100.jpg
+  - fullsize: /files/fullsize/14fb29c9a49db514fb29c9a4a100.jpg
     id: 24338
     mime: image/jpg
     original_filename: 2292070870_1c90ab7f8f.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9a49db514fb29c9a4a100.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9a49db514fb29c9a4a100.jpg
+    thumb: /files/thumbnails/14fb29c9a49db514fb29c9a4a100.jpg
+    url: /files/original/14fb29c9a49db514fb29c9a4a100.jpg
 geo:
   address: ''
   lat: 30.22539

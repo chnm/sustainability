@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: ReinitiatingCollegiateSociology_c244ed2540.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cbe6fd9c14fb29cbe7017a.doc
+    url: /files/original/14fb29cbe6fd9c14fb29cbe7017a.doc
 geo:
   address: Lake Charles, LA
   lat: 0.0

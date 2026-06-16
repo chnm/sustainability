@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Griffith, John C. (812).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870cd6c2114fbe870cd7008.doc
+    url: /files/original/14fbe870cd6c2114fbe870cd7008.doc
 geo:
 id: 45697
 item_type: Oral History

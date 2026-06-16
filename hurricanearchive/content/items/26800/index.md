@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Denise Gaspard HK3156K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7c58a3514fb29d7c58c75.mp3
+    url: /files/original/14fb29d7c58a3514fb29d7c58c75.mp3
 geo:
 id: 26800
 item_type: Oral History

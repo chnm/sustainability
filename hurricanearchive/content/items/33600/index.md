@@ -23,7 +23,7 @@ files:
     mime: application/octet-stream
     original_filename: Perry_0d408555f0.3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cabb994114fb29cabb9d1a.3
+    url: /files/original/14fb29cabb994114fb29cabb9d1a.3
 geo:
 id: 33600
 item_type: Document

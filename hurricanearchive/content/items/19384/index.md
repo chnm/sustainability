@@ -15,12 +15,12 @@ dublin_core:
       text: DSCN2245engineers.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a10a0b33214fb2a10a0b717.jpg
+  - fullsize: /files/fullsize/14fb2a10a0b33214fb2a10a0b717.jpg
     id: 16337
     mime: image/jpeg
     original_filename: DSCN2245engineers.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a10a0b33214fb2a10a0b717.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a10a0b33214fb2a10a0b717.jpg
+    thumb: /files/thumbnails/14fb2a10a0b33214fb2a10a0b717.jpg
+    url: /files/original/14fb2a10a0b33214fb2a10a0b717.jpg
 geo:
 id: 19384
 item_type: Still Image

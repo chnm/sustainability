@@ -18,12 +18,12 @@ dublin_core:
       text: Martin Brothers Coffee Stand and Restaurant
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca4d2f0114fb29ca4d36d0.jpg
+  - fullsize: /files/fullsize/14fb29ca4d2f0114fb29ca4d36d0.jpg
     id: 24221
     mime: image/tiff
     original_filename: French Market 1_a7917677b4.tiff
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca4d2f0114fb29ca4d36d0.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca4d2f0114fb29ca4d36d0.tiff
+    thumb: /files/thumbnails/14fb29ca4d2f0114fb29ca4d36d0.jpg
+    url: /files/original/14fb29ca4d2f0114fb29ca4d36d0.tiff
 geo:
 id: 34333
 item_type: Still Image

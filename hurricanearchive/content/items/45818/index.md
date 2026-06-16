@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Reed, Sharri(813).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8719cf9cd14fbe8719cfdc2.doc
+    url: /files/original/14fbe8719cf9cd14fbe8719cfdc2.doc
 geo:
 id: 45818
 item_type: Oral History

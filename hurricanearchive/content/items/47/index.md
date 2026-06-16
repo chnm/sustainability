@@ -25,7 +25,7 @@ files:
     mime: application/msword
     original_filename: giarrusso1essay_6e55c70f1b.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a713b98aa14fb2a713b9c97.doc
+    url: /files/original/14fb2a713b98aa14fb2a713b9c97.doc
 geo:
   address: ''
   lat: 0.0

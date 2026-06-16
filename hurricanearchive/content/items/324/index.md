@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a703a8d7614fb2a703a9f7b.jpg
+  - fullsize: /files/fullsize/14fb2a703a8d7614fb2a703a9f7b.jpg
     id: 229
     mime: image/jpeg
     original_filename: 033_downtown_deridder_fec62db0e9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a703a8d7614fb2a703a9f7b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a703a8d7614fb2a703a9f7b.jpg
+    thumb: /files/thumbnails/14fb2a703a8d7614fb2a703a9f7b.jpg
+    url: /files/original/14fb2a703a8d7614fb2a703a9f7b.jpg
 geo:
   address: ''
   lat: 30.651656

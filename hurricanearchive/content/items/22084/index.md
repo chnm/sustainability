@@ -15,12 +15,12 @@ dublin_core:
       text: trop dep 17-J2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f993b65d14fb29f993ba50.jpg
+  - fullsize: /files/fullsize/14fb29f993b65d14fb29f993ba50.jpg
     id: 19035
     mime: image/jpeg
     original_filename: trop dep 17-J2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f993b65d14fb29f993ba50.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f993b65d14fb29f993ba50.jpg
+    thumb: /files/thumbnails/14fb29f993b65d14fb29f993ba50.jpg
+    url: /files/original/14fb29f993b65d14fb29f993ba50.jpg
 geo:
 id: 22084
 item_type: Still Image

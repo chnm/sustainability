@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Bosargeessay.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a237695c514fb2a23769bca.doc
+    url: /files/original/14fb2a237695c514fb2a23769bca.doc
 geo:
 id: 11781
 item_type: Document

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Brown, Natalie.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8705f322214fbe8705f3609.doc
+    url: /files/original/14fbe8705f322214fbe8705f3609.doc
 geo:
 id: 45638
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a17be2fd614fb2a17be33bd.jpg
+  - fullsize: /files/fullsize/14fb2a17be2fd614fb2a17be33bd.jpg
     id: 12204
     mime: image/jpeg
     original_filename: GoodShepherd_LelandJackson_01_5e6432cff6.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a17be2fd614fb2a17be33bd.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a17be2fd614fb2a17be33bd.jpg
+    thumb: /files/thumbnails/14fb2a17be2fd614fb2a17be33bd.jpg
+    url: /files/original/14fb2a17be2fd614fb2a17be33bd.jpg
 geo:
 id: 14785
 item_type: Still Image

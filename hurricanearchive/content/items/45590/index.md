@@ -17,19 +17,19 @@ files:
     mime: audio/mpeg
     original_filename: Eaton, Teri 03-12-08 1 of 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f9cd57714fbe86f9cda63.mp3
+    url: /files/original/14fbe86f9cd57714fbe86f9cda63.mp3
   - fullsize:
     id: 46122
     mime: audio/mpeg
     original_filename: Eaton, Teri 03-12-08 2 of 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f9e3dab14fbe86f9e41e7.mp3
+    url: /files/original/14fbe86f9e3dab14fbe86f9e41e7.mp3
   - fullsize:
     id: 46123
     mime: application/msword
     original_filename: Eaton, Teri.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86fa2107314fbe86fa21453.doc
+    url: /files/original/14fbe86fa2107314fbe86fa21453.doc
 geo:
 id: 45590
 item_type: Oral History

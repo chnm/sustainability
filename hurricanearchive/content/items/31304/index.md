@@ -21,12 +21,12 @@ dublin_core:
       text: Photograph of Rene Broussard\'s Bedroom
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc392b3114fb29cc392f0c.jpg
+  - fullsize: /files/fullsize/14fb29cc392b3114fb29cc392f0c.jpg
     id: 23932
     mime: image/jpeg
     original_filename: renesroom_fa2b0b5dc8.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc392b3114fb29cc392f0c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc392b3114fb29cc392f0c.jpg
+    thumb: /files/thumbnails/14fb29cc392b3114fb29cc392f0c.jpg
+    url: /files/original/14fb29cc392b3114fb29cc392f0c.jpg
 geo:
   address: 1342 Mandolin St.
   lat: 0.0

@@ -20,7 +20,7 @@ files:
     mime: video/x-msvideo
     original_filename: MVI 0547Jacksonbarracks.AVI
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29f4e716b214fb29f4e71bc2.AVI
+    url: /files/original/14fb29f4e716b214fb29f4e71bc2.AVI
 geo:
 id: 22640
 item_type: Document

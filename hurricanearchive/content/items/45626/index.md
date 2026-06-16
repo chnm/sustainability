@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Ahmad, Naseer.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870526d4714fbe87052712d.doc
+    url: /files/original/14fbe870526d4714fbe87052712d.doc
 geo:
 id: 45626
 item_type: Oral History

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Register, Charles.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871a099c614fbe871a09d8f.doc
+    url: /files/original/14fbe871a099c614fbe871a09d8f.doc
 geo:
 id: 45820
 item_type: Oral History

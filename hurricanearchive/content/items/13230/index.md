@@ -15,12 +15,12 @@ dublin_core:
       text: 225 just missed the car.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f23203c14fb2a1f232421.jpg
+  - fullsize: /files/fullsize/14fb2a1f23203c14fb2a1f232421.jpg
     id: 11240
     mime: image/jpeg
     original_filename: 225 just missed the car.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f23203c14fb2a1f232421.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f23203c14fb2a1f232421.jpg
+    thumb: /files/thumbnails/14fb2a1f23203c14fb2a1f232421.jpg
+    url: /files/original/14fb2a1f23203c14fb2a1f232421.jpg
 geo:
 id: 13230
 item_type: Still Image

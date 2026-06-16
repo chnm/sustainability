@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c33eb21814fb29c33eb69e.jpg
+  - fullsize: /files/fullsize/14fb29c33eb21814fb29c33eb69e.jpg
     id: 24948
     mime: image/pjpeg
     original_filename: Mom's house_8c9e06f137.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c33eb21814fb29c33eb69e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c33eb21814fb29c33eb69e.jpg
+    thumb: /files/thumbnails/14fb29c33eb21814fb29c33eb69e.jpg
+    url: /files/original/14fb29c33eb21814fb29c33eb69e.jpg
 geo:
   address: Lynnette Dr
   lat: 29.98656

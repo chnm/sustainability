@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: COL Pat Santos 25Sep2005.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1bcf01b314fb2a1bcf0572.wav
+    url: /files/original/14fb2a1bcf01b314fb2a1bcf0572.wav
 geo:
   address: ''
   lat: 0.0

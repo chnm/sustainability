@@ -15,12 +15,12 @@ dublin_core:
       text: heading south.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e95e30414fb2a1e95e6ea.jpg
+  - fullsize: /files/fullsize/14fb2a1e95e30414fb2a1e95e6ea.jpg
     id: 11264
     mime: image/jpeg
     original_filename: heading south.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e95e30414fb2a1e95e6ea.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e95e30414fb2a1e95e6ea.jpg
+    thumb: /files/thumbnails/14fb2a1e95e30414fb2a1e95e6ea.jpg
+    url: /files/original/14fb2a1e95e30414fb2a1e95e6ea.jpg
 geo:
 id: 13254
 item_type: Still Image

@@ -26,7 +26,7 @@ files:
     mime: application/octet-stream
     original_filename: Perry_6bab0d6365.St. Augustine
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29caf081d314fb29caf085b6. Augustine
+    url: /files/original/14fb29caf081d314fb29caf085b6. Augustine
 geo:
 id: 33293
 item_type: Document

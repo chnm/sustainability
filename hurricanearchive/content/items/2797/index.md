@@ -21,12 +21,12 @@ dublin_core:
       text: Red Cross Dudes
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a60270c3614fb2a60270f44.jpg
+  - fullsize: /files/fullsize/14fb2a60270c3614fb2a60270f44.jpg
     id: 2279
     mime: image/jpeg
     original_filename: Red Cross Dudes
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a60270c3614fb2a60270f44.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a60270c3614fb2a60270f44.jpg
+    thumb: /files/thumbnails/14fb2a60270c3614fb2a60270f44.jpg
+    url: /files/original/14fb2a60270c3614fb2a60270f44.jpg
 geo:
 id: 2797
 item_type: Still Image

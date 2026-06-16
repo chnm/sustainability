@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Carl Carter.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a247287de14fb2a24728bbb.htm
+    url: /files/original/14fb2a247287de14fb2a24728bbb.htm
 geo:
 id: 11623
 item_type: Oral History

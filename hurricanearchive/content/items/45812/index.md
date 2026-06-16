@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Poirier, Leann.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8717a31e114fbe8717a385d.doc
+    url: /files/original/14fbe8717a31e114fbe8717a385d.doc
 geo:
 id: 45812
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: cooling tower wind.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a208d2ba714fb2a208d3282.jpg
+  - fullsize: /files/fullsize/14fb2a208d2ba714fb2a208d3282.jpg
     id: 11087
     mime: image/jpeg
     original_filename: cooling tower wind.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a208d2ba714fb2a208d3282.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a208d2ba714fb2a208d3282.jpg
+    thumb: /files/thumbnails/14fb2a208d2ba714fb2a208d3282.jpg
+    url: /files/original/14fb2a208d2ba714fb2a208d3282.jpg
 geo:
 id: 13077
 item_type: Still Image

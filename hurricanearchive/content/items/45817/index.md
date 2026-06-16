@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Reed, Jeffrey.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8719c03c314fbe8719c07ae.doc
+    url: /files/original/14fbe8719c03c314fbe8719c07ae.doc
 geo:
 id: 45817
 item_type: Oral History

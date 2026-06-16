@@ -21,12 +21,12 @@ dublin_core:
       text: BenPlays
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d273a12014fb29d273beca.jpg
+  - fullsize: /files/fullsize/14fb29d273a12014fb29d273beca.jpg
     id: 23413
     mime: image/jpg
     original_filename: 385028114_a57d927ff9.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d273a12014fb29d273beca.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d273a12014fb29d273beca.jpg
+    thumb: /files/thumbnails/14fb29d273a12014fb29d273beca.jpg
+    url: /files/original/14fb29d273a12014fb29d273beca.jpg
 geo:
 id: 28260
 item_type: Still Image

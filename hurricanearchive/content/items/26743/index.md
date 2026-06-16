@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: CascadeofMiracles_0e58032462.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d80cbad814fb29d80cbebd.pdf
+    url: /files/original/14fb29d80cbad814fb29d80cbebd.pdf
 geo:
 id: 26743
 item_type: Document

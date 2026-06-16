@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Gray, Angelia Genice.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870c8114714fbe870c8152d.doc
+    url: /files/original/14fbe870c8114714fbe870c8152d.doc
 geo:
 id: 45691
 item_type: Oral History

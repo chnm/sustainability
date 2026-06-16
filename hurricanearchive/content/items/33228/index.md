@@ -17,12 +17,12 @@ dublin_core:
       text: LeBlanc estate
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb67544214fb29cb675828.jpg
+  - fullsize: /files/fullsize/14fb29cb67544214fb29cb675828.jpg
     id: 24078
     mime: image/jpg
     original_filename: 1260360549_a8e62d88a2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb67544214fb29cb675828.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb67544214fb29cb675828.jpg
+    thumb: /files/thumbnails/14fb29cb67544214fb29cb675828.jpg
+    url: /files/original/14fb29cb67544214fb29cb675828.jpg
 geo:
 id: 33228
 item_type: Still Image

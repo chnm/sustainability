@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Rachelle Morvant HK56K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d60758bf14fb29d6075c95.mp3
+    url: /files/original/14fb29d60758bf14fb29d6075c95.mp3
 geo:
 id: 26934
 item_type: Oral History

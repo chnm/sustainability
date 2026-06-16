@@ -15,12 +15,12 @@ dublin_core:
       text: SPC James King.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1ad4704714fb2a1ad4c003.jpg
+  - fullsize: /files/fullsize/14fb2a1ad4704714fb2a1ad4c003.jpg
     id: 11828
     mime: image/jpeg
     original_filename: SPC James King.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1ad4704714fb2a1ad4c003.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1ad4704714fb2a1ad4c003.jpg
+    thumb: /files/thumbnails/14fb2a1ad4704714fb2a1ad4c003.jpg
+    url: /files/original/14fb2a1ad4704714fb2a1ad4c003.jpg
 geo:
   address: ''
   lat: 0.0

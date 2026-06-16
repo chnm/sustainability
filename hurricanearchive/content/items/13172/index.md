@@ -15,12 +15,12 @@ dublin_core:
       text: 164 tree down1.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1fa1357114fb2a1fa13957.jpg
+  - fullsize: /files/fullsize/14fb2a1fa1357114fb2a1fa13957.jpg
     id: 11182
     mime: image/jpeg
     original_filename: 164 tree down1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1fa1357114fb2a1fa13957.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1fa1357114fb2a1fa13957.jpg
+    thumb: /files/thumbnails/14fb2a1fa1357114fb2a1fa13957.jpg
+    url: /files/original/14fb2a1fa1357114fb2a1fa13957.jpg
 geo:
 id: 13172
 item_type: Still Image

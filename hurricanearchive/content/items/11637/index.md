@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Elisa E. O'Neal.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a246a065014fb2a246a0a34.htm
+    url: /files/original/14fb2a246a065014fb2a246a0a34.htm
 geo:
 id: 11637
 item_type: Oral History

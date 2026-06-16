@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: collagelongbeach.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a230a492e14fb2a230a4d13.doc
+    url: /files/original/14fb2a230a492e14fb2a230a4d13.doc
 geo:
 id: 11856
 item_type: Document

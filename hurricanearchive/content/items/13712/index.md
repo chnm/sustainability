@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: One_Year_Later_Letter_da87219700.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cfd09bd14fb2a1cfd0da2.pdf
+    url: /files/original/14fb2a1cfd09bd14fb2a1cfd0da2.pdf
 geo:
 id: 13712
 item_type: Document

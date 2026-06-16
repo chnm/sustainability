@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Curry, Kathy.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87084478114fbe870844b66.doc
+    url: /files/original/14fbe87084478114fbe870844b66.doc
 geo:
 id: 45661
 item_type: Oral History

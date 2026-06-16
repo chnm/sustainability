@@ -20,12 +20,12 @@ dublin_core:
       text: Harvilla\'s Pier and Mold Bloom in the lake
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca30a9d014fb29ca30ada6.jpg
+  - fullsize: /files/fullsize/14fb29ca30a9d014fb29ca30ada6.jpg
     id: 24240
     mime: image/jpg
     original_filename: 2380907352_bf8f208350.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca30a9d014fb29ca30ada6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca30a9d014fb29ca30ada6.jpg
+    thumb: /files/thumbnails/14fb29ca30a9d014fb29ca30ada6.jpg
+    url: /files/original/14fb29ca30a9d014fb29ca30ada6.jpg
 geo:
   address: ''
   lat: 30.22437

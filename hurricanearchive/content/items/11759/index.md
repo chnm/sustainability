@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: takeiaedwards.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23a3f31014fb2a23a3f6f4.html
+    url: /files/original/14fb2a23a3f31014fb2a23a3f6f4.html
 geo:
 id: 11759
 item_type: Oral History

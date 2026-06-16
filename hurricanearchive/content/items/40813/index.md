@@ -17,12 +17,12 @@ dublin_core:
       text: Slidell Police didn\'t mess around when it came to price gougers.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c4d57af214fb29c4d57ed6.jpg
+  - fullsize: /files/fullsize/14fb29c4d57af214fb29c4d57ed6.jpg
     id: 24837
     mime: image/pjpeg
     original_filename: DSC_0174(2)_73ae59bcab.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c4d57af214fb29c4d57ed6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c4d57af214fb29c4d57ed6.jpg
+    thumb: /files/thumbnails/14fb29c4d57af214fb29c4d57ed6.jpg
+    url: /files/original/14fb29c4d57af214fb29c4d57ed6.jpg
 geo:
   address: ''
   lat: 29.993

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: McDaniel, Cynthia&Leroy.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8714583aa14fbe87145879c.doc
+    url: /files/original/14fbe8714583aa14fbe87145879c.doc
 geo:
 id: 45772
 item_type: Oral History

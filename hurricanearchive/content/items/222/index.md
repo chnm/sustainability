@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a70751bf714fb2a70752752.jpg
+  - fullsize: /files/fullsize/14fb2a70751bf714fb2a70752752.jpg
     id: 177
     mime: image/jpeg
     original_filename: volvo_top_LOL_6d45edfdad.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a70751bf714fb2a70752752.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a70751bf714fb2a70752752.jpg
+    thumb: /files/thumbnails/14fb2a70751bf714fb2a70752752.jpg
+    url: /files/original/14fb2a70751bf714fb2a70752752.jpg
 geo:
   address: ''
   lat: 29.900262

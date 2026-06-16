@@ -18,12 +18,12 @@ dublin_core:
       text: Neighborhood flooding
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2215c27314fb2a2215c72b.jpg
+  - fullsize: /files/fullsize/14fb2a2215c27314fb2a2215c72b.jpg
     id: 10912
     mime: image/jpeg
     original_filename: neighborhood1_dbcb8e10ba.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2215c27314fb2a2215c72b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2215c27314fb2a2215c72b.jpg
+    thumb: /files/thumbnails/14fb2a2215c27314fb2a2215c72b.jpg
+    url: /files/original/14fb2a2215c27314fb2a2215c72b.jpg
 geo:
   address: Bank Street and Tulane Ave, New Orleans, LA
   lat: 29.95657

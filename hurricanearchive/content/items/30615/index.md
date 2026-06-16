@@ -21,12 +21,12 @@ dublin_core:
       text: Nuns & Paternity Testing
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ccee06d914fb29ccee0abe.jpg
+  - fullsize: /files/fullsize/14fb29ccee06d914fb29ccee0abe.jpg
     id: 23786
     mime: image/pjpeg
     original_filename: nun st_f5af5efb45.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ccee06d914fb29ccee0abe.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ccee06d914fb29ccee0abe.jpg
+    thumb: /files/thumbnails/14fb29ccee06d914fb29ccee0abe.jpg
+    url: /files/original/14fb29ccee06d914fb29ccee0abe.jpg
 geo:
   address: ''
   lat: 0.0

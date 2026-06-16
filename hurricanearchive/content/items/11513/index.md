@@ -19,7 +19,7 @@ files:
     mime: application/pdf
     original_filename: hero_5a0e4ec8d8.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a247ad06814fb2a247ad522.pdf
+    url: /files/original/14fb2a247ad06814fb2a247ad522.pdf
 geo:
   address: ''
   lat: 0.0

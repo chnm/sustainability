@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 09 2006 Brady says Rita aid is in limbo.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a360a3f0214fb2a360a41e4.txt
+    url: /files/original/14fb2a360a3f0214fb2a360a41e4.txt
 geo:
   address: ''
   lat: 0.0

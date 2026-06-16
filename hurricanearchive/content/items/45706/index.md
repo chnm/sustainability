@@ -19,13 +19,13 @@ files:
     mime: application/msword
     original_filename: Hayles, Linda.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870d7ab1014fbe870d7aef6.doc
+    url: /files/original/14fbe870d7ab1014fbe870d7aef6.doc
   - fullsize:
     id: 46328
     mime: application/msword
     original_filename: Hayles, Linda.toc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870d8474b14fbe870d84b45.doc
+    url: /files/original/14fbe870d8474b14fbe870d84b45.doc
 geo:
 id: 45706
 item_type: Oral History

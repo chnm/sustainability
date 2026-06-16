@@ -15,12 +15,12 @@ dublin_core:
       text: SRT at superdome.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1abb20d814fb2a1abb24bc.jpg
+  - fullsize: /files/fullsize/14fb2a1abb20d814fb2a1abb24bc.jpg
     id: 11834
     mime: image/jpeg
     original_filename: SRT at superdome.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1abb20d814fb2a1abb24bc.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1abb20d814fb2a1abb24bc.jpg
+    thumb: /files/thumbnails/14fb2a1abb20d814fb2a1abb24bc.jpg
+    url: /files/original/14fb2a1abb20d814fb2a1abb24bc.jpg
 geo:
   address: ''
   lat: 0.0

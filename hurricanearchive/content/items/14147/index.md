@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: LTC Robert Jones 1OCT05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1b6d5c4314fb2a1b6d8360.wav
+    url: /files/original/14fb2a1b6d5c4314fb2a1b6d8360.wav
 geo:
   address: ''
   lat: 0.0

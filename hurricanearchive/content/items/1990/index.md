@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6ded742714fb2a6ded780d.jpg
+  - fullsize: /files/fullsize/14fb2a6ded742714fb2a6ded780d.jpg
     id: 787
     mime: image/jpeg
     original_filename: cameron_parish200_97519a27e9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6ded742714fb2a6ded780d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6ded742714fb2a6ded780d.jpg
+    thumb: /files/thumbnails/14fb2a6ded742714fb2a6ded780d.jpg
+    url: /files/original/14fb2a6ded742714fb2a6ded780d.jpg
 geo:
   address: ''
   lat: 29.791099

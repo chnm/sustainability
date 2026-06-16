@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Matchmakers For Justice 07_10_06[1]_7273a0abd3.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18db1a8c14fb2a18db1e63.doc
+    url: /files/original/14fb2a18db1a8c14fb2a18db1e63.doc
 geo:
 id: 14557
 item_type: Document

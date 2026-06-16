@@ -15,12 +15,12 @@ dublin_core:
       text: bumpertrimedtiff.tif
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc52579914fb29cc525b7b.jpg
+  - fullsize: /files/fullsize/14fb29cc52579914fb29cc525b7b.jpg
     id: 23911
     mime: image/tiff
     original_filename: bumpertrimedtiff.tif
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc52579914fb29cc525b7b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc52579914fb29cc525b7b.tif
+    thumb: /files/thumbnails/14fb29cc52579914fb29cc525b7b.jpg
+    url: /files/original/14fb29cc52579914fb29cc525b7b.tif
 geo:
 id: 30811
 item_type: Document

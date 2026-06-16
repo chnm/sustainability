@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: ASOL Brief.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d06472ff14fb29d06477f1.ppt
+    url: /files/original/14fb29d06472ff14fb29d06477f1.ppt
 geo:
 id: 29055
 item_type: Document

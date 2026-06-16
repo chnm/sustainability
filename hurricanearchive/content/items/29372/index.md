@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: to DEJA from Lea_56be3eddec.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce64e9d214fb29ce64f184.pdf
+    url: /files/original/14fb29ce64e9d214fb29ce64f184.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

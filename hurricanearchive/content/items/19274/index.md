@@ -15,12 +15,12 @@ dublin_core:
       text: Iwo and Cruise Ship2iwojima.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1163daae14fb2a1163deb4.jpg
+  - fullsize: /files/fullsize/14fb2a1163daae14fb2a1163deb4.jpg
     id: 16227
     mime: image/jpeg
     original_filename: Iwo and Cruise Ship2iwojima.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1163daae14fb2a1163deb4.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1163daae14fb2a1163deb4.jpg
+    thumb: /files/thumbnails/14fb2a1163daae14fb2a1163deb4.jpg
+    url: /files/original/14fb2a1163daae14fb2a1163deb4.jpg
 geo:
 id: 19274
 item_type: Still Image

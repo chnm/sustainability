@@ -20,7 +20,7 @@ files:
     mime: text/rtf
     original_filename: J2(2)mobilePAO.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29f137dfe414fb29f137e3c8.doc
+    url: /files/original/14fb29f137dfe414fb29f137e3c8.doc
 geo:
 id: 23178
 item_type: Document

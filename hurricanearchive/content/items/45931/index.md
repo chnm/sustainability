@@ -11,12 +11,12 @@ dublin_core:
       text: In the weeks after Katrina, ordinary events like getting a haircut were difficult because no businesses were open. In the photo, Chill the barber is giving haircuts outside on Claiborne Ave.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/639432642053c03466ddcc5dc052ed56.jpg
+  - fullsize: /files/fullsize/639432642053c03466ddcc5dc052ed56.jpg
     id: 46545
     mime: image/jpeg
     original_filename: DSC00569.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/639432642053c03466ddcc5dc052ed56.jpg
-    url: https://hurricanearchive.org/files/original/639432642053c03466ddcc5dc052ed56.JPG
+    thumb: /files/thumbnails/639432642053c03466ddcc5dc052ed56.jpg
+    url: /files/original/639432642053c03466ddcc5dc052ed56.JPG
 geo:
   address: new orleans
   lat: 29.9510658

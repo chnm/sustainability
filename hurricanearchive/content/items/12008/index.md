@@ -15,12 +15,12 @@ dublin_core:
       text: bushespasschristianvisi531.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a225c3af314fb2a225c3ed3.jpg
+  - fullsize: /files/fullsize/14fb2a225c3af314fb2a225c3ed3.jpg
     id: 10838
     mime: image/jpeg
     original_filename: bushespasschristianvisi531.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a225c3af314fb2a225c3ed3.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a225c3af314fb2a225c3ed3.jpg
+    thumb: /files/thumbnails/14fb2a225c3af314fb2a225c3ed3.jpg
+    url: /files/original/14fb2a225c3af314fb2a225c3ed3.jpg
 geo:
 id: 12008
 item_type: Still Image

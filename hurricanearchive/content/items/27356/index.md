@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6986.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d41c0cca14fb29d41c10a6.jpg
+  - fullsize: /files/fullsize/14fb29d41c0cca14fb29d41c10a6.jpg
     id: 23243
     mime: image/jpg
     original_filename: 163135526_dd50efbfc9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d41c0cca14fb29d41c10a6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d41c0cca14fb29d41c10a6.jpg
+    thumb: /files/thumbnails/14fb29d41c0cca14fb29d41c10a6.jpg
+    url: /files/original/14fb29d41c0cca14fb29d41c10a6.jpg
 geo:
   address: ''
   lat: 29.84064

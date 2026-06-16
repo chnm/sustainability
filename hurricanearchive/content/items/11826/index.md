@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Perklyman.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a232bfc9a14fb2a232c0084.doc
+    url: /files/original/14fb2a232bfc9a14fb2a232c0084.doc
 geo:
 id: 11826
 item_type: Document

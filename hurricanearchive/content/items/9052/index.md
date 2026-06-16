@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 24 2006 Looking for a loved one after the storm.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35dab91814fb2a35dabcff.txt
+    url: /files/original/14fb2a35dab91814fb2a35dabcff.txt
 geo:
   address: ''
   lat: 0.0

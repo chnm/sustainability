@@ -15,12 +15,12 @@ dublin_core:
       text: DCP 7409.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ccc4648b14fb29ccc4686a.jpg
+  - fullsize: /files/fullsize/14fb29ccc4648b14fb29ccc4686a.jpg
     id: 23812
     mime: image/jpeg
     original_filename: DCP 7409.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ccc4648b14fb29ccc4686a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ccc4648b14fb29ccc4686a.jpg
+    thumb: /files/thumbnails/14fb29ccc4648b14fb29ccc4686a.jpg
+    url: /files/original/14fb29ccc4648b14fb29ccc4686a.jpg
 geo:
 id: 30712
 item_type: Still Image

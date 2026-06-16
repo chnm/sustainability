@@ -17,12 +17,12 @@ dublin_core:
       text: 1935 Rolls Royce 20/25 post-Katrina
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb3426f214fb29cb342ad3.jpg
+  - fullsize: /files/fullsize/14fb29cb3426f214fb29cb342ad3.jpg
     id: 24094
     mime: image/jpg
     original_filename: 1242847514_11c9ce8efb.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb3426f214fb29cb342ad3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb3426f214fb29cb342ad3.jpg
+    thumb: /files/thumbnails/14fb29cb3426f214fb29cb342ad3.jpg
+    url: /files/original/14fb29cb3426f214fb29cb342ad3.jpg
 geo:
   address: ''
   lat: 41.8848

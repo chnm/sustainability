@@ -15,12 +15,12 @@ dublin_core:
       text: 20050929040.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1bf332e314fb2a1bf336cc.jpg
+  - fullsize: /files/fullsize/14fb2a1bf332e314fb2a1bf336cc.jpg
     id: 11708
     mime: image/jpeg
     original_filename: 20050929040.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1bf332e314fb2a1bf336cc.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1bf332e314fb2a1bf336cc.jpg
+    thumb: /files/thumbnails/14fb2a1bf332e314fb2a1bf336cc.jpg
+    url: /files/original/14fb2a1bf332e314fb2a1bf336cc.jpg
 geo:
   address: ''
   lat: 0.0

@@ -17,25 +17,25 @@ files:
     mime: application/msword
     original_filename: Gordon, Lori K.bio.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870c133cb14fbe870c137b1.doc
+    url: /files/original/14fbe870c133cb14fbe870c137b1.doc
   - fullsize:
     id: 46305
     mime: application/msword
     original_filename: Gordon, Lori.K.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870c254d614fbe870c258ba.doc
+    url: /files/original/14fbe870c254d614fbe870c258ba.doc
   - fullsize:
     id: 46306
     mime: application/msword
     original_filename: Gordon, Lori.K.toc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870c31c0414fbe870c31fe9.doc
+    url: /files/original/14fbe870c31c0414fbe870c31fe9.doc
   - fullsize:
     id: 46307
     mime: application/msword
     original_filename: Gordon, Lori K.trs2.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870c5525d14fbe870c55637.doc
+    url: /files/original/14fbe870c5525d14fbe870c55637.doc
 geo:
 id: 45689
 item_type: Oral History

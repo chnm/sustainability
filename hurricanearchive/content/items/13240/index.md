@@ -15,12 +15,12 @@ dublin_core:
       text: boat and bush2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1eebb37714fb2a1eebb6ab.jpg
+  - fullsize: /files/fullsize/14fb2a1eebb37714fb2a1eebb6ab.jpg
     id: 11250
     mime: image/jpeg
     original_filename: boat and bush2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1eebb37714fb2a1eebb6ab.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1eebb37714fb2a1eebb6ab.jpg
+    thumb: /files/thumbnails/14fb2a1eebb37714fb2a1eebb6ab.jpg
+    url: /files/original/14fb2a1eebb37714fb2a1eebb6ab.jpg
 geo:
 id: 13240
 item_type: Still Image

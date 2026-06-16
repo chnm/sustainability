@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f66013214fb2a6f660517.jpg
+  - fullsize: /files/fullsize/14fb2a6f66013214fb2a6f660517.jpg
     id: 449
     mime: image/jpeg
     original_filename: matresswarehouse2p_2b30e938e9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f66013214fb2a6f660517.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f66013214fb2a6f660517.jpg
+    thumb: /files/thumbnails/14fb2a6f66013214fb2a6f660517.jpg
+    url: /files/original/14fb2a6f66013214fb2a6f660517.jpg
 geo:
   address: ''
   lat: 30.148461

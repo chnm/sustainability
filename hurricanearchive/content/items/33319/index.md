@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_cccb58b5c8.The Reprise of Shame.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cac4b6de14fb29cac4bac2.doc
+    url: /files/original/14fb29cac4b6de14fb29cac4bac2.doc
 geo:
 id: 33319
 item_type: Document

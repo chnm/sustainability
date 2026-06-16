@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0184media.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f280aed714fb29f280b2bd.jpg
+  - fullsize: /files/fullsize/14fb29f280aed714fb29f280b2bd.jpg
     id: 19895
     mime: image/jpeg
     original_filename: DSC 0184media.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f280aed714fb29f280b2bd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f280aed714fb29f280b2bd.jpg
+    thumb: /files/thumbnails/14fb29f280aed714fb29f280b2bd.jpg
+    url: /files/original/14fb29f280aed714fb29f280b2bd.jpg
 geo:
 id: 22951
 item_type: Still Image

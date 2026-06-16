@@ -29,13 +29,13 @@ files:
     mime: application/octet-stream
     original_filename: '[SHN] Award for Social Innovation_Social Innovation Fund_f7e928f63a.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d1e17fc14fb2a1d1e268f.doc
+    url: /files/original/14fb2a1d1e17fc14fb2a1d1e268f.doc
   - fullsize:
     id: 11475
     mime: application/pdf
     original_filename: SIF-Desc_6ddc0840d2.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d1c209414fb2a1d1c254d.pdf
+    url: /files/original/14fb2a1d1c209414fb2a1d1c254d.pdf
 geo:
 id: 13700
 item_type: Document

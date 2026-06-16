@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: gretchengilliand.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23bef9fa14fb2a23befdd6.html
+    url: /files/original/14fb2a23bef9fa14fb2a23befdd6.html
 geo:
 id: 11729
 item_type: Oral History

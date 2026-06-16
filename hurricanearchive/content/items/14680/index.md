@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a183a97c914fb2a183a9bb8.jpg
+  - fullsize: /files/fullsize/14fb2a183a97c914fb2a183a9bb8.jpg
     id: 12142
     mime: image/jpeg
     original_filename: GoodShepherd_AlisenReed_01_87236d1d83.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a183a97c914fb2a183a9bb8.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a183a97c914fb2a183a9bb8.jpg
+    thumb: /files/thumbnails/14fb2a183a97c914fb2a183a9bb8.jpg
+    url: /files/original/14fb2a183a97c914fb2a183a9bb8.jpg
 geo:
 id: 14680
 item_type: Still Image

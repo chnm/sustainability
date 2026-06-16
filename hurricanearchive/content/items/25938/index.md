@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dbb6a9f614fb29dbb6adaa.jpg
+  - fullsize: /files/fullsize/14fb29dbb6a9f614fb29dbb6adaa.jpg
     id: 22608
     mime: image/pjpeg
     original_filename: Katrina 3_057cb8f8bc.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dbb6a9f614fb29dbb6adaa.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dbb6a9f614fb29dbb6adaa.jpg
+    thumb: /files/thumbnails/14fb29dbb6a9f614fb29dbb6adaa.jpg
+    url: /files/original/14fb29dbb6a9f614fb29dbb6adaa.jpg
 geo:
   address: ''
   lat: 0.0

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Vallejo, Marilyn.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87211ec4114fbe87211f033.doc
+    url: /files/original/14fbe87211ec4114fbe87211f033.doc
 geo:
 id: 45873
 item_type: Oral History

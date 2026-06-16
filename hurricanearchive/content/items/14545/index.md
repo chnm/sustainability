@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: '[SHN] Fwd-Lobbying Effort Phase 2_a11c3f5860.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18e46b1414fb2a18e46efa.doc
+    url: /files/original/14fb2a18e46b1414fb2a18e46efa.doc
 geo:
 id: 14545
 item_type: Document

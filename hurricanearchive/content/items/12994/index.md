@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Artikel CA_bb350ae771.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a213cc37614fb2a213cc758.doc
+    url: /files/original/14fb2a213cc37614fb2a213cc758.doc
 geo:
 id: 12994
 item_type: Document

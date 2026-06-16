@@ -15,12 +15,12 @@ dublin_core:
       text: 20050904MS-EO A1196-RC-26B JEFFERSON PARISH HURRICANE KATRINA.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb76a17814fb29fb76a56e.jpg
+  - fullsize: /files/fullsize/14fb29fb76a17814fb29fb76a56e.jpg
     id: 18779
     mime: image/jpeg
     original_filename: 20050904MS-EO A1196-RC-26B JEFFERSON PARISH HURRICANE KATRINA.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb76a17814fb29fb76a56e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb76a17814fb29fb76a56e.jpg
+    thumb: /files/thumbnails/14fb29fb76a17814fb29fb76a56e.jpg
+    url: /files/original/14fb29fb76a17814fb29fb76a56e.jpg
 geo:
 id: 21828
 item_type: Still Image

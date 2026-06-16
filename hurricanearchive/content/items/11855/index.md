@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: churches chicken.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a230b00b814fb2a230b049e.doc
+    url: /files/original/14fb2a230b00b814fb2a230b049e.doc
 geo:
 id: 11855
 item_type: Document

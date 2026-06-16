@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: crisis_49e0ef5a7a.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7ec16f414fb29d7ec1d1c.pdf
+    url: /files/original/14fb29d7ec16f414fb29d7ec1d1c.pdf
 geo:
 id: 26756
 item_type: Document

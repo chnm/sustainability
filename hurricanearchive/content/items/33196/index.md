@@ -17,12 +17,12 @@ dublin_core:
       text: Where Traffic Lights Once Stood
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cba642cb14fb29cba64dbd.jpg
+  - fullsize: /files/fullsize/14fb29cba642cb14fb29cba64dbd.jpg
     id: 24046
     mime: image/jpg
     original_filename: 1438011907_f07e17848e.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cba642cb14fb29cba64dbd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cba642cb14fb29cba64dbd.jpg
+    thumb: /files/thumbnails/14fb29cba642cb14fb29cba64dbd.jpg
+    url: /files/original/14fb29cba642cb14fb29cba64dbd.jpg
 geo:
 id: 33196
 item_type: Still Image

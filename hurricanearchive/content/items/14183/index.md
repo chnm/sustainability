@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: SGT Womack 26SEP2005.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ad81d7514fb2a1ad8215b.wav
+    url: /files/original/14fb2a1ad81d7514fb2a1ad8215b.wav
 geo:
   address: ''
   lat: 0.0

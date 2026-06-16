@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6db09ec414fb2a6db0a2aa.jpg
+  - fullsize: /files/fullsize/14fb2a6db09ec414fb2a6db0a2aa.jpg
     id: 818
     mime: image/jpeg
     original_filename: house21a_d33ceb0526.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6db09ec414fb2a6db0a2aa.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6db09ec414fb2a6db0a2aa.jpg
+    thumb: /files/thumbnails/14fb2a6db09ec414fb2a6db0a2aa.jpg
+    url: /files/original/14fb2a6db09ec414fb2a6db0a2aa.jpg
 geo:
   address: ''
   lat: 29.936936521280202

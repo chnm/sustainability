@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Mark Kelly.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e23526414fb2a5e235640.wav
+    url: /files/original/14fb2a5e23526414fb2a5e235640.wav
 geo:
 id: 3076
 item_type: Oral History

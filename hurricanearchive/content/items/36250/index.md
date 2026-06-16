@@ -23,7 +23,7 @@ files:
     mime: audio/x-ms-wma
     original_filename: 11 Track 11_b9fbd08212.wma
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c5aa2ee614fb29c5acac62.wma
+    url: /files/original/14fb29c5aa2ee614fb29c5acac62.wma
 geo:
 id: 36250
 item_type: Document

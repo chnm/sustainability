@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: alexanderjohnson.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c89c8414fb2a23c8a071.html
+    url: /files/original/14fb2a23c89c8414fb2a23c8a071.html
 geo:
 id: 11714
 item_type: Oral History

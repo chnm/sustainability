@@ -15,12 +15,12 @@ dublin_core:
       text: SGT Womack 26SEP2005.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1adec80f14fb2a1adecbee.jpg
+  - fullsize: /files/fullsize/14fb2a1adec80f14fb2a1adecbee.jpg
     id: 11826
     mime: image/jpeg
     original_filename: SGT Womack 26SEP2005.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1adec80f14fb2a1adecbee.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1adec80f14fb2a1adecbee.jpg
+    thumb: /files/thumbnails/14fb2a1adec80f14fb2a1adecbee.jpg
+    url: /files/original/14fb2a1adec80f14fb2a1adecbee.jpg
 geo:
   address: ''
   lat: 0.0

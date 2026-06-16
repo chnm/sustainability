@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc0d543b14fb29cc0d5821.jpg
+  - fullsize: /files/fullsize/14fb29cc0d543b14fb29cc0d5821.jpg
     id: 23968
     mime: image/pjpeg
     original_filename: Buckled Parquet Floor_ec40b7d0d4.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc0d543b14fb29cc0d5821.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc0d543b14fb29cc0d5821.jpg
+    thumb: /files/thumbnails/14fb29cc0d543b14fb29cc0d5821.jpg
+    url: /files/original/14fb29cc0d543b14fb29cc0d5821.jpg
 geo:
   address: 2920 Green Acres Rd
   lat: 30.00227

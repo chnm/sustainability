@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: andrewtubbs.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c8375c14fb2a23c83ec8.html
+    url: /files/original/14fb2a23c8375c14fb2a23c83ec8.html
 geo:
 id: 11715
 item_type: Oral History

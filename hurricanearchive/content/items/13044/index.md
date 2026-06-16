@@ -15,12 +15,12 @@ dublin_core:
       text: before looking north.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20de6a3c14fb2a20de6e22.jpg
+  - fullsize: /files/fullsize/14fb2a20de6a3c14fb2a20de6e22.jpg
     id: 11054
     mime: image/jpeg
     original_filename: before looking north.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20de6a3c14fb2a20de6e22.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20de6a3c14fb2a20de6e22.jpg
+    thumb: /files/thumbnails/14fb2a20de6a3c14fb2a20de6e22.jpg
+    url: /files/original/14fb2a20de6a3c14fb2a20de6e22.jpg
 geo:
 id: 13044
 item_type: Still Image

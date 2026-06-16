@@ -15,12 +15,12 @@ dublin_core:
       text: begin front courtyard2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20a25bf514fb2a20a25fdb.jpg
+  - fullsize: /files/fullsize/14fb2a20a25bf514fb2a20a25fdb.jpg
     id: 11073
     mime: image/jpeg
     original_filename: begin front courtyard2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20a25bf514fb2a20a25fdb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20a25bf514fb2a20a25fdb.jpg
+    thumb: /files/thumbnails/14fb2a20a25bf514fb2a20a25fdb.jpg
+    url: /files/original/14fb2a20a25bf514fb2a20a25fdb.jpg
 geo:
 id: 13063
 item_type: Still Image

@@ -26,7 +26,7 @@ files:
     mime: audio/mpeg
     original_filename: Alex Barge HK356K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7cb286514fb29d7cb2d6f.mp3
+    url: /files/original/14fb29d7cb286514fb29d7cb2d6f.mp3
 geo:
 id: 26795
 item_type: Oral History

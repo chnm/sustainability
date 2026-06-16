@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6d59f2b314fb2a6d59f695.jpg
+  - fullsize: /files/fullsize/14fb2a6d59f2b314fb2a6d59f695.jpg
     id: 903
     mime: image/jpeg
     original_filename: debris_8996656dde.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6d59f2b314fb2a6d59f695.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6d59f2b314fb2a6d59f695.jpg
+    thumb: /files/thumbnails/14fb2a6d59f2b314fb2a6d59f695.jpg
+    url: /files/original/14fb2a6d59f2b314fb2a6d59f695.jpg
 geo:
   address: ''
   lat: 29.728011161944703

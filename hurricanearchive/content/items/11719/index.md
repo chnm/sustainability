@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: brittanywarhelo.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c5d1d314fb2a23c5d5b8.html
+    url: /files/original/14fb2a23c5d1d314fb2a23c5d5b8.html
 geo:
 id: 11719
 item_type: Oral History

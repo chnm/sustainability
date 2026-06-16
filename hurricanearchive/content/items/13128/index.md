@@ -15,12 +15,12 @@ dublin_core:
       text: looking north wind.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a203c8af414fb2a203c8ed9.jpg
+  - fullsize: /files/fullsize/14fb2a203c8af414fb2a203c8ed9.jpg
     id: 11138
     mime: image/jpeg
     original_filename: looking north wind.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a203c8af414fb2a203c8ed9.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a203c8af414fb2a203c8ed9.jpg
+    thumb: /files/thumbnails/14fb2a203c8af414fb2a203c8ed9.jpg
+    url: /files/original/14fb2a203c8af414fb2a203c8ed9.jpg
 geo:
 id: 13128
 item_type: Still Image

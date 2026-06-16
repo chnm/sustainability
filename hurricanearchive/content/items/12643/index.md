@@ -17,12 +17,12 @@ dublin_core:
       text: Deaf Government Zone
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a21fe348814fb2a21fe37ad.jpg
+  - fullsize: /files/fullsize/14fb2a21fe348814fb2a21fe37ad.jpg
     id: 10930
     mime: image/pjpeg
     original_filename: deaf govt001_e416e1c0a4.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a21fe348814fb2a21fe37ad.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a21fe348814fb2a21fe37ad.jpg
+    thumb: /files/thumbnails/14fb2a21fe348814fb2a21fe37ad.jpg
+    url: /files/original/14fb2a21fe348814fb2a21fe37ad.jpg
 geo:
   address: Mirabeau and Warrington
   lat: 30.0076

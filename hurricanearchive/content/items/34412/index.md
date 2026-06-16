@@ -20,12 +20,12 @@ dublin_core:
       text: Eden Isles in Slidell
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca2964c114fb29ca29685f.jpg
+  - fullsize: /files/fullsize/14fb29ca2964c114fb29ca29685f.jpg
     id: 24246
     mime: image/jpg
     original_filename: 2380728988_c6e5cfb0aa.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca2964c114fb29ca29685f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca2964c114fb29ca29685f.jpg
+    thumb: /files/thumbnails/14fb29ca2964c114fb29ca29685f.jpg
+    url: /files/original/14fb29ca2964c114fb29ca29685f.jpg
 geo:
   address: ''
   lat: 30.23512

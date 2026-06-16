@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 2023superdome.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29df55583914fb29df555c1f.jpg
+  - fullsize: /files/fullsize/14fb29df55583914fb29df555c1f.jpg
     id: 22238
     mime: image/jpeg
     original_filename: DSC 2023superdome.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29df55583914fb29df555c1f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29df55583914fb29df555c1f.jpg
+    thumb: /files/thumbnails/14fb29df55583914fb29df555c1f.jpg
+    url: /files/original/14fb29df55583914fb29df555c1f.jpg
 geo:
 id: 25296
 item_type: Still Image

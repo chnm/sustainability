@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Richard Unangst HK156K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d606436714fb29d606474d.mp3
+    url: /files/original/14fb29d606436714fb29d606474d.mp3
 geo:
 id: 26935
 item_type: Oral History

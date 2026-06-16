@@ -21,12 +21,12 @@ dublin_core:
       text: Levee System in Slidell did little to help the residents
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9c1d0e014fb29c9c1d4c4.jpg
+  - fullsize: /files/fullsize/14fb29c9c1d0e014fb29c9c1d4c4.jpg
     id: 24316
     mime: image/jpg
     original_filename: 2326884212_b45bdfe513.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9c1d0e014fb29c9c1d4c4.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9c1d0e014fb29c9c1d4c4.jpg
+    thumb: /files/thumbnails/14fb29c9c1d0e014fb29c9c1d4c4.jpg
+    url: /files/original/14fb29c9c1d0e014fb29c9c1d4c4.jpg
 geo:
   address: ''
   lat: 30.23434

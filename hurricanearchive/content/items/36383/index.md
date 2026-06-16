@@ -22,7 +22,7 @@ files:
     mime: text/html
     original_filename: hurricane-katrina-story_5c6f666135.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c599b08814fb29c599b474.html
+    url: /files/original/14fb29c599b08814fb29c599b474.html
 geo:
 id: 36383
 item_type: Document

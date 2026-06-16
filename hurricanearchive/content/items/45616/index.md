@@ -17,19 +17,19 @@ files:
     mime: audio/mpeg
     original_filename: Williams, Eddie 1-04-06 Side 1.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87039253f14fbe870392929.mp3
+    url: /files/original/14fbe87039253f14fbe870392929.mp3
   - fullsize:
     id: 46201
     mime: audio/mpeg
     original_filename: Williams, Eddie 1-04-06 Side 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87039d8de14fbe87039dcc3.mp3
+    url: /files/original/14fbe87039d8de14fbe87039dcc3.mp3
   - fullsize:
     id: 46202
     mime: application/msword
     original_filename: Williams, Eddie.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8703a889b14fbe8703a8c84.doc
+    url: /files/original/14fbe8703a889b14fbe8703a8c84.doc
 geo:
 id: 45616
 item_type: Oral History

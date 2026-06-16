@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c2a1303814fb29c2a17c6d.jpg
+  - fullsize: /files/fullsize/14fb29c2a1303814fb29c2a17c6d.jpg
     id: 25029
     mime: image/pjpeg
     original_filename: farrar3_6a482fb768.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c2a1303814fb29c2a17c6d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c2a1303814fb29c2a17c6d.jpg
+    thumb: /files/thumbnails/14fb29c2a1303814fb29c2a17c6d.jpg
+    url: /files/original/14fb29c2a1303814fb29c2a17c6d.jpg
 geo:
   address: ''
   lat: 0.0

@@ -23,7 +23,7 @@ files:
     mime: application/octet-stream
     original_filename: '[SHN]FINAL National Press Release_2cea556499.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d09a84f14fb2a1d09af0a.doc
+    url: /files/original/14fb2a1d09a84f14fb2a1d09af0a.doc
 geo:
 id: 13707
 item_type: Document

@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: AJames_4daa0d9093.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d829324214fb29d8293626.pdf
+    url: /files/original/14fb29d829324214fb29d8293626.pdf
 geo:
   address: Forstall St
   lat: 0.0

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: rashadsingleton.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23b482c614fb2a23b486b4.html
+    url: /files/original/14fb2a23b482c614fb2a23b486b4.html
 geo:
 id: 11746
 item_type: Oral History

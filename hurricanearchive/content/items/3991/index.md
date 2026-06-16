@@ -15,12 +15,12 @@ dublin_core:
       text: DSC01081.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a58a178c614fb2a58a17cae.jpg
+  - fullsize: /files/fullsize/14fb2a58a178c614fb2a58a17cae.jpg
     id: 3402
     mime: image/jpeg
     original_filename: DSC01081.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a58a178c614fb2a58a17cae.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a58a178c614fb2a58a17cae.jpg
+    thumb: /files/thumbnails/14fb2a58a178c614fb2a58a17cae.jpg
+    url: /files/original/14fb2a58a178c614fb2a58a17cae.jpg
 geo:
 id: 3991
 item_type: Still Image

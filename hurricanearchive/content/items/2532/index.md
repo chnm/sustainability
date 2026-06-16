@@ -18,12 +18,12 @@ dublin_core:
       text: 20051105_MG_8758.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a65ae06e914fb2a65ae0ad2.jpg
+  - fullsize: /files/fullsize/14fb2a65ae06e914fb2a65ae0ad2.jpg
     id: 2014
     mime: image/jpeg
     original_filename: 20051105_MG_8758.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a65ae06e914fb2a65ae0ad2.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a65ae06e914fb2a65ae0ad2.jpg
+    thumb: /files/thumbnails/14fb2a65ae06e914fb2a65ae0ad2.jpg
+    url: /files/original/14fb2a65ae06e914fb2a65ae0ad2.jpg
 geo:
 id: 2532
 item_type: Still Image

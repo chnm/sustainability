@@ -24,12 +24,12 @@ dublin_core:
       text: 'AD:  New Orleans After the Deluge, Chapter 2 \" Should I Stay\"'
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbeb911d14fb29cbeb9502.jpg
+  - fullsize: /files/fullsize/14fb29cbeb911d14fb29cbeb9502.jpg
     id: 24007
     mime: image/jpeg
     original_filename: adc02_7383be686a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbeb911d14fb29cbeb9502.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbeb911d14fb29cbeb9502.jpg
+    thumb: /files/thumbnails/14fb29cbeb911d14fb29cbeb9502.jpg
+    url: /files/original/14fb29cbeb911d14fb29cbeb9502.jpg
 geo:
 id: 32521
 item_type: Hyperlink

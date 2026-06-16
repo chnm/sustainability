@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c5c8864814fb29c5c88c7d.jpg
+  - fullsize: /files/fullsize/14fb29c5c8864814fb29c5c88c7d.jpg
     id: 24718
     mime: image/pjpeg
     original_filename: katrina1_5a7d78937d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c5c8864814fb29c5c88c7d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c5c8864814fb29c5c88c7d.jpg
+    thumb: /files/thumbnails/14fb29c5c8864814fb29c5c88c7d.jpg
+    url: /files/original/14fb29c5c8864814fb29c5c88c7d.jpg
 geo:
   address: 207 Bell Street
   lat: 0.0

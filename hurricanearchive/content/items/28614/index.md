@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6908.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d21dd46914fb29d21dd84f.jpg
+  - fullsize: /files/fullsize/14fb29d21dd46914fb29d21dd84f.jpg
     id: 23465
     mime: image/jpg
     original_filename: 161990753_0fe84839ed.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d21dd46914fb29d21dd84f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d21dd46914fb29d21dd84f.jpg
+    thumb: /files/thumbnails/14fb29d21dd46914fb29d21dd84f.jpg
+    url: /files/original/14fb29d21dd46914fb29d21dd84f.jpg
 geo:
 id: 28614
 item_type: Still Image

@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6815.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1e9349814fb29d1e93ed8.jpg
+  - fullsize: /files/fullsize/14fb29d1e9349814fb29d1e93ed8.jpg
     id: 23501
     mime: image/jpg
     original_filename: 158259469_3b5f7716cb.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1e9349814fb29d1e93ed8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1e9349814fb29d1e93ed8.jpg
+    thumb: /files/thumbnails/14fb29d1e9349814fb29d1e93ed8.jpg
+    url: /files/original/14fb29d1e9349814fb29d1e93ed8.jpg
 geo:
 id: 28650
 item_type: Still Image

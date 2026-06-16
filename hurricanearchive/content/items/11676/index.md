@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Marie K. Ross.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2414ded714fb2a2414e2da.html
+    url: /files/original/14fb2a2414ded714fb2a2414e2da.html
 geo:
 id: 11676
 item_type: Oral History

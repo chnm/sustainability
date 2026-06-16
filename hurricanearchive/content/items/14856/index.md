@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Student Hurrican Network -- For Immidiate ReleaseFINAL_450035840d.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1789e9b314fb2a1789ed98.doc
+    url: /files/original/14fb2a1789e9b314fb2a1789ed98.doc
 geo:
 id: 14856
 item_type: Document

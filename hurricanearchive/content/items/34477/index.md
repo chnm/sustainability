@@ -21,12 +21,12 @@ dublin_core:
       text: Floded out Car Lot off Interstate in Slidell
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9d34eba14fb29c9d35291.jpg
+  - fullsize: /files/fullsize/14fb29c9d34eba14fb29c9d35291.jpg
     id: 24311
     mime: image/jpg
     original_filename: 2326879426_ffc22a4cc9.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9d34eba14fb29c9d35291.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9d34eba14fb29c9d35291.jpg
+    thumb: /files/thumbnails/14fb29c9d34eba14fb29c9d35291.jpg
+    url: /files/original/14fb29c9d34eba14fb29c9d35291.jpg
 geo:
   address: ''
   lat: 30.20382

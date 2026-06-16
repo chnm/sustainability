@@ -17,25 +17,25 @@ files:
     mime: audio/mpeg
     original_filename: East, Glen 5-30-07 Side 1.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f93268414fbe86f932a7c.mp3
+    url: /files/original/14fbe86f93268414fbe86f932a7c.mp3
   - fullsize:
     id: 46118
     mime: audio/mpeg
     original_filename: East, Glen 5-30-07 Side 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f95223814fbe86f95261f.mp3
+    url: /files/original/14fbe86f95223814fbe86f95261f.mp3
   - fullsize:
     id: 46119
     mime: application/msword
     original_filename: East, Glen.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f9898c414fbe86f98abb3.doc
+    url: /files/original/14fbe86f9898c414fbe86f98abb3.doc
   - fullsize:
     id: 46120
     mime: application/msword
     original_filename: East, Glen.toc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f9aabff14fbe86f9ab0ab.doc
+    url: /files/original/14fbe86f9aabff14fbe86f9ab0ab.doc
 geo:
 id: 45589
 item_type: Oral History

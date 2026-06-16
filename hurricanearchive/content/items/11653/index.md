@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Janyne Marie Evans.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2443afc514fb2a2443b344.htm
+    url: /files/original/14fb2a2443afc514fb2a2443b344.htm
 geo:
 id: 11653
 item_type: Oral History

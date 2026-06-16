@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6840.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d202baad14fb29d202c369.jpg
+  - fullsize: /files/fullsize/14fb29d202baad14fb29d202c369.jpg
     id: 23482
     mime: image/jpg
     original_filename: 158885491_e535543a86.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d202baad14fb29d202c369.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d202baad14fb29d202c369.jpg
+    thumb: /files/thumbnails/14fb29d202baad14fb29d202c369.jpg
+    url: /files/original/14fb29d202baad14fb29d202c369.jpg
 geo:
 id: 28631
 item_type: Still Image

@@ -24,13 +24,13 @@ files:
     mime: audio/mp3
     original_filename: Irvan_Perez_Decimas_Engish_29367dab74.MP3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dd96b5a714fb29dd96b98d.MP3
+    url: /files/original/14fb29dd96b5a714fb29dd96b98d.MP3
   - fullsize:
     id: 22393
     mime: audio/mp3
     original_filename: Irvan_Perez_Decimas_Spanish_425d7da3b1.MP3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dd9611a514fb29dd96165d.MP3
+    url: /files/original/14fb29dd9611a514fb29dd96165d.MP3
 geo:
 id: 25479
 item_type: Document

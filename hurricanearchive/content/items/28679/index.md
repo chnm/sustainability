@@ -14,12 +14,12 @@ dublin_core:
       text: DSC_6764.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1c6d9a914fb29d1c6dd88.jpg
+  - fullsize: /files/fullsize/14fb29d1c6d9a914fb29d1c6dd88.jpg
     id: 23524
     mime: image/jpg
     original_filename: 157265047_c3c09c8464.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1c6d9a914fb29d1c6dd88.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1c6d9a914fb29d1c6dd88.jpg
+    thumb: /files/thumbnails/14fb29d1c6d9a914fb29d1c6dd88.jpg
+    url: /files/original/14fb29d1c6d9a914fb29d1c6dd88.jpg
 geo:
 id: 28679
 item_type: Still Image

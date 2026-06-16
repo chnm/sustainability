@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: rico'smathis.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23b2ed2c14fb2a23b2f07e.html
+    url: /files/original/14fb2a23b2ed2c14fb2a23b2f07e.html
 geo:
 id: 11747
 item_type: Oral History

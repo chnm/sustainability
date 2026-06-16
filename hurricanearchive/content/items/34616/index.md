@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c97ea9c614fb29c97eadad.jpg
+  - fullsize: /files/fullsize/14fb29c97ea9c614fb29c97eadad.jpg
     id: 24371
     mime: image/pjpeg
     original_filename: henderberg5_82ff5a990b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c97ea9c614fb29c97eadad.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c97ea9c614fb29c97eadad.jpg
+    thumb: /files/thumbnails/14fb29c97ea9c614fb29c97eadad.jpg
+    url: /files/original/14fb29c97ea9c614fb29c97eadad.jpg
 geo:
   address: 3500 St. Claude Ave., New Orleans, LA
   lat: 0.0

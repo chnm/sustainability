@@ -21,12 +21,12 @@ dublin_core:
       text: Anna Leggio\'s Pope Mobile
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c99adf3514fb29c99ae31d.jpg
+  - fullsize: /files/fullsize/14fb29c99adf3514fb29c99ae31d.jpg
     id: 24349
     mime: image/jpg
     original_filename: 2292024084_4c770c9373.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c99adf3514fb29c99ae31d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c99adf3514fb29c99ae31d.jpg
+    thumb: /files/thumbnails/14fb29c99adf3514fb29c99ae31d.jpg
+    url: /files/original/14fb29c99adf3514fb29c99ae31d.jpg
 geo:
   address: ''
   lat: 30.22539

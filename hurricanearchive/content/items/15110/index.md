@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1718d86514fb2a1718dc4b.jpg
+  - fullsize: /files/fullsize/14fb2a1718d86514fb2a1718dc4b.jpg
     id: 12270
     mime: image/jpeg
     original_filename: SecondLine-3404_bebf553c4a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1718d86514fb2a1718dc4b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1718d86514fb2a1718dc4b.jpg
+    thumb: /files/thumbnails/14fb2a1718d86514fb2a1718dc4b.jpg
+    url: /files/original/14fb2a1718d86514fb2a1718dc4b.jpg
 geo:
 id: 15110
 item_type: Still Image

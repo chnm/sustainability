@@ -19,13 +19,13 @@ files:
     mime: application/msword
     original_filename: Gavagnie, Robert.trs2.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870b746ed14fbe870b74ac8.doc
+    url: /files/original/14fbe870b746ed14fbe870b74ac8.doc
   - fullsize:
     id: 46293
     mime: application/msword
     original_filename: Gavagnie, Robert.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870b7f6b114fbe870b7fa88.doc
+    url: /files/original/14fbe870b7f6b114fbe870b7fa88.doc
 geo:
 id: 45680
 item_type: Oral History

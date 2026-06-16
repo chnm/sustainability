@@ -15,12 +15,12 @@ dublin_core:
       text: geraldos crew.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e9955e614fb2a1e995986.jpg
+  - fullsize: /files/fullsize/14fb2a1e9955e614fb2a1e995986.jpg
     id: 11261
     mime: image/jpeg
     original_filename: geraldos crew.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e9955e614fb2a1e995986.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e9955e614fb2a1e995986.jpg
+    thumb: /files/thumbnails/14fb2a1e9955e614fb2a1e995986.jpg
+    url: /files/original/14fb2a1e9955e614fb2a1e995986.jpg
 geo:
 id: 13251
 item_type: Still Image

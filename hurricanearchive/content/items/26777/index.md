@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7d96f0914fb29d7d972f0.jpg
+  - fullsize: /files/fullsize/14fb29d7d96f0914fb29d7d972f0.jpg
     id: 22972
     mime: image/jpeg
     original_filename: WC merdian tornado 1900s_6738cfd7ab.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7d96f0914fb29d7d972f0.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7d96f0914fb29d7d972f0.jpg
+    thumb: /files/thumbnails/14fb29d7d96f0914fb29d7d972f0.jpg
+    url: /files/original/14fb29d7d96f0914fb29d7d972f0.jpg
 geo:
   address: ''
   lat: 29.95493

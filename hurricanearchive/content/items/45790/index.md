@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Morrison, Claire Boggs.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87159b51414fbe87159b8e3.doc
+    url: /files/original/14fbe87159b51414fbe87159b8e3.doc
 geo:
 id: 45790
 item_type: Oral History

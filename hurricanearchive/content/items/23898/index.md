@@ -15,12 +15,12 @@ dublin_core:
       text: picture 4stbernardparishS&R.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ec88257614fb29ec88295b.jpg
+  - fullsize: /files/fullsize/14fb29ec88257614fb29ec88295b.jpg
     id: 20842
     mime: image/jpeg
     original_filename: picture 4stbernardparishS&R.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ec88257614fb29ec88295b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ec88257614fb29ec88295b.jpg
+    thumb: /files/thumbnails/14fb29ec88257614fb29ec88295b.jpg
+    url: /files/original/14fb29ec88257614fb29ec88295b.jpg
 geo:
 id: 23898
 item_type: Still Image

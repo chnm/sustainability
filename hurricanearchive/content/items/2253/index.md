@@ -25,7 +25,7 @@ files:
     mime: application/msword
     original_filename: O_u_r___S_t_a_y___D_u_r_i_n_g___H_u_r_r_i_c_a_n_e___K_a_t_r_i_n_a_475febe48b.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6d6cfaec14fb2a6d6cfeda.doc
+    url: /files/original/14fb2a6d6cfaec14fb2a6d6cfeda.doc
 geo:
   address: ''
   lat: 30.3008714282426

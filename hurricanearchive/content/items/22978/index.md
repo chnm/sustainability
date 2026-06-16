@@ -15,12 +15,12 @@ dublin_core:
       text: Hanger 5 at NAS NONASneworleans.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f256fe4d14fb29f2570233.jpg
+  - fullsize: /files/fullsize/14fb29f256fe4d14fb29f2570233.jpg
     id: 19922
     mime: image/jpeg
     original_filename: Hanger 5 at NAS NONASneworleans.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f256fe4d14fb29f2570233.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f256fe4d14fb29f2570233.jpg
+    thumb: /files/thumbnails/14fb29f256fe4d14fb29f2570233.jpg
+    url: /files/original/14fb29f256fe4d14fb29f2570233.jpg
 geo:
 id: 22978
 item_type: Still Image

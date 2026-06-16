@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Justin Jones.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2433853c14fb2a24338922.html
+    url: /files/original/14fb2a2433853c14fb2a24338922.html
 geo:
 id: 11666
 item_type: Oral History

@@ -22,7 +22,7 @@ files:
     mime: application/vnd.openxmlformats-officedocument.presentationml.presentation
     original_filename: Loup-garou_69bd8af2cc.pptx
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c505781914fb29c5057ba4.pptx
+    url: /files/original/14fb29c505781914fb29c5057ba4.pptx
 geo:
   address: 879 legion dr gretna la
   lat: 29.89255

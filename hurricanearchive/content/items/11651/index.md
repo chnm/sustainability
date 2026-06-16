@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: James Watts.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2448e6fb14fb2a2448eae1.htm
+    url: /files/original/14fb2a2448e6fb14fb2a2448eae1.htm
 geo:
 id: 11651
 item_type: Oral History

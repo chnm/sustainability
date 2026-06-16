@@ -15,12 +15,12 @@ dublin_core:
       text: DSCN2164conventionctr.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a11c493d914fb2a11c497bd.jpg
+  - fullsize: /files/fullsize/14fb2a11c493d914fb2a11c497bd.jpg
     id: 16172
     mime: image/jpeg
     original_filename: DSCN2164conventionctr.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a11c493d914fb2a11c497bd.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a11c493d914fb2a11c497bd.jpg
+    thumb: /files/thumbnails/14fb2a11c493d914fb2a11c497bd.jpg
+    url: /files/original/14fb2a11c493d914fb2a11c497bd.jpg
 geo:
 id: 19219
 item_type: Still Image

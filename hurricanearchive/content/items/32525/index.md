@@ -24,12 +24,12 @@ dublin_core:
       text: 'AD:  New Orleans After the Deluge, Chapter 6  \"Flotsam and Jetsam\"'
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbe84d6b14fb29cbe8515a.jpg
+  - fullsize: /files/fullsize/14fb29cbe84d6b14fb29cbe8515a.jpg
     id: 24011
     mime: image/jpeg
     original_filename: adc06_67133e1d58.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbe84d6b14fb29cbe8515a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbe84d6b14fb29cbe8515a.jpg
+    thumb: /files/thumbnails/14fb29cbe84d6b14fb29cbe8515a.jpg
+    url: /files/original/14fb29cbe84d6b14fb29cbe8515a.jpg
 geo:
 id: 32525
 item_type: Hyperlink

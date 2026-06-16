@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: BarnesWigginsPhotographer1.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2389018714fb2a238905cd.doc
+    url: /files/original/14fb2a2389018714fb2a238905cd.doc
 geo:
 id: 11768
 item_type: Document

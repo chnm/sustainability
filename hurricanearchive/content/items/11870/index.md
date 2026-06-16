@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: hurley.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a22fce09414fb2a22fceeab.doc
+    url: /files/original/14fb2a22fce09414fb2a22fceeab.doc
 geo:
 id: 11870
 item_type: Document

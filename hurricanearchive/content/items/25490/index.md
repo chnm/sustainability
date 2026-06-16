@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dd883d7214fb29dd88419e.jpg
+  - fullsize: /files/fullsize/14fb29dd883d7214fb29dd88419e.jpg
     id: 22404
     mime: image/jpeg
     original_filename: DianeMerlaine-6177_a0de197379.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dd883d7214fb29dd88419e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dd883d7214fb29dd88419e.jpg
+    thumb: /files/thumbnails/14fb29dd883d7214fb29dd88419e.jpg
+    url: /files/original/14fb29dd883d7214fb29dd88419e.jpg
 geo:
   address: 2720 Jackson Blvd
   lat: 0.0

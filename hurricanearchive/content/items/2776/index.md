@@ -21,12 +21,12 @@ dublin_core:
       text: '&ldquo;the Mean Old Storm&rdquo;'
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a603d66d514fb2a603d6abc.jpg
+  - fullsize: /files/fullsize/14fb2a603d66d514fb2a603d6abc.jpg
     id: 2258
     mime: image/jpeg
     original_filename: '&ldquo;the Mean Old Storm&rdquo;'
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a603d66d514fb2a603d6abc.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a603d66d514fb2a603d6abc.jpg
+    thumb: /files/thumbnails/14fb2a603d66d514fb2a603d6abc.jpg
+    url: /files/original/14fb2a603d66d514fb2a603d6abc.jpg
 geo:
 id: 2776
 item_type: Still Image

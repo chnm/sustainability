@@ -15,12 +15,12 @@ dublin_core:
       text: looking north2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2043e54b14fb2a2043e8fb.jpg
+  - fullsize: /files/fullsize/14fb2a2043e54b14fb2a2043e8fb.jpg
     id: 11136
     mime: image/jpeg
     original_filename: looking north2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2043e54b14fb2a2043e8fb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2043e54b14fb2a2043e8fb.jpg
+    thumb: /files/thumbnails/14fb2a2043e54b14fb2a2043e8fb.jpg
+    url: /files/original/14fb2a2043e54b14fb2a2043e8fb.jpg
 geo:
 id: 13126
 item_type: Still Image

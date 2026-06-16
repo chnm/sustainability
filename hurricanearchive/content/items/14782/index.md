@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a17c1490b14fb2a17c14f0c.jpg
+  - fullsize: /files/fullsize/14fb2a17c1490b14fb2a17c14f0c.jpg
     id: 12201
     mime: image/jpeg
     original_filename: GoodShepherd_KyraBowens_01_145be61006.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a17c1490b14fb2a17c14f0c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a17c1490b14fb2a17c14f0c.jpg
+    thumb: /files/thumbnails/14fb2a17c1490b14fb2a17c14f0c.jpg
+    url: /files/original/14fb2a17c1490b14fb2a17c14f0c.jpg
 geo:
 id: 14782
 item_type: Still Image

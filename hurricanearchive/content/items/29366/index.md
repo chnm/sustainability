@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: funeralhome_089f812b80.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce6b4bcf14fb29ce6b51f6.pdf
+    url: /files/original/14fb29ce6b4bcf14fb29ce6b51f6.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

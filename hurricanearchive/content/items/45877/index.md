@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Warr, Mayor Brent.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8721cd4b414fbe8721cd891.doc
+    url: /files/original/14fbe8721cd4b414fbe8721cd891.doc
 geo:
 id: 45877
 item_type: Oral History

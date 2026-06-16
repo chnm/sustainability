@@ -15,12 +15,12 @@ dublin_core:
       text: aerials96.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a196620af14fb2a1966248a.jpg
+  - fullsize: /files/fullsize/14fb2a196620af14fb2a1966248a.jpg
     id: 12011
     mime: image/jpeg
     original_filename: aerials96.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a196620af14fb2a1966248a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a196620af14fb2a1966248a.jpg
+    thumb: /files/thumbnails/14fb2a196620af14fb2a1966248a.jpg
+    url: /files/original/14fb2a196620af14fb2a1966248a.jpg
 geo:
 id: 14387
 item_type: Still Image

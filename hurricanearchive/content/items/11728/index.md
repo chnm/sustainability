@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: erictisdale.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c0926e14fb2a23c09649.html
+    url: /files/original/14fb2a23c0926e14fb2a23c09649.html
 geo:
 id: 11728
 item_type: Oral History

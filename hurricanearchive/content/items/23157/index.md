@@ -15,12 +15,12 @@ dublin_core:
       text: 20051003-A-3780B-257NewMexicoNG.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f14b93aa14fb29f14b9791.jpg
+  - fullsize: /files/fullsize/14fb29f14b93aa14fb29f14b9791.jpg
     id: 20101
     mime: image/jpeg
     original_filename: 20051003-A-3780B-257NewMexicoNG.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f14b93aa14fb29f14b9791.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f14b93aa14fb29f14b9791.jpg
+    thumb: /files/thumbnails/14fb29f14b93aa14fb29f14b9791.jpg
+    url: /files/original/14fb29f14b93aa14fb29f14b9791.jpg
 geo:
 id: 23157
 item_type: Still Image

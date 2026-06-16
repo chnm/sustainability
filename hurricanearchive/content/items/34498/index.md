@@ -21,12 +21,12 @@ dublin_core:
       text: North Shore Beach Pier Located at 237 Debbie Drive
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9ac3dde14fb29c9ac41c3.jpg
+  - fullsize: /files/fullsize/14fb29c9ac3dde14fb29c9ac41c3.jpg
     id: 24332
     mime: image/jpg
     original_filename: 2309933823_c6202da62a.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9ac3dde14fb29c9ac41c3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9ac3dde14fb29c9ac41c3.jpg
+    thumb: /files/thumbnails/14fb29c9ac3dde14fb29c9ac41c3.jpg
+    url: /files/original/14fb29c9ac3dde14fb29c9ac41c3.jpg
 geo:
   address: 237 Debbie Drive
   lat: 30.22539

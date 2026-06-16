@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a705e9eb614fb2a705ea2ad.jpg
+  - fullsize: /files/fullsize/14fb2a705e9eb614fb2a705ea2ad.jpg
     id: 199
     mime: image/jpeg
     original_filename: passchristian_07590e4aa9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a705e9eb614fb2a705ea2ad.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a705e9eb614fb2a705ea2ad.jpg
+    thumb: /files/thumbnails/14fb2a705e9eb614fb2a705ea2ad.jpg
+    url: /files/original/14fb2a705e9eb614fb2a705ea2ad.jpg
 geo:
   address: ''
   lat: 30.3396948489742

@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d959f15d14fb29d959f542.jpg
+  - fullsize: /files/fullsize/14fb29d959f15d14fb29d959f542.jpg
     id: 22827
     mime: image/jpeg
     original_filename: AB midwife 1900s_407fccdc8f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d959f15d14fb29d959f542.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d959f15d14fb29d959f542.jpg
+    thumb: /files/thumbnails/14fb29d959f15d14fb29d959f542.jpg
+    url: /files/original/14fb29d959f15d14fb29d959f542.jpg
 geo:
   address: ''
   lat: 29.87876

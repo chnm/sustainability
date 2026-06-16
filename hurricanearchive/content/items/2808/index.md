@@ -15,12 +15,12 @@ dublin_core:
       text: quiltTXrowA0006.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5ffd5f0514fb2a5ffd62ea.jpg
+  - fullsize: /files/fullsize/14fb2a5ffd5f0514fb2a5ffd62ea.jpg
     id: 2290
     mime: image/jpeg
     original_filename: quiltTXrowA0006.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5ffd5f0514fb2a5ffd62ea.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5ffd5f0514fb2a5ffd62ea.jpg
+    thumb: /files/thumbnails/14fb2a5ffd5f0514fb2a5ffd62ea.jpg
+    url: /files/original/14fb2a5ffd5f0514fb2a5ffd62ea.jpg
 geo:
 id: 2808
 item_type: Still Image

@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_95748d89d5.The politics of friendship.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cac954e214fb29cac95a2a.doc
+    url: /files/original/14fb29cac954e214fb29cac95a2a.doc
 geo:
 id: 33316
 item_type: Document

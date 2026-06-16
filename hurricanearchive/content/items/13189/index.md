@@ -15,12 +15,12 @@ dublin_core:
       text: 182 roof peel and flooding.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f7c474214fb2a1f7c4b29.jpg
+  - fullsize: /files/fullsize/14fb2a1f7c474214fb2a1f7c4b29.jpg
     id: 11199
     mime: image/jpeg
     original_filename: 182 roof peel and flooding.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f7c474214fb2a1f7c4b29.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f7c474214fb2a1f7c4b29.jpg
+    thumb: /files/thumbnails/14fb2a1f7c474214fb2a1f7c4b29.jpg
+    url: /files/original/14fb2a1f7c474214fb2a1f7c4b29.jpg
 geo:
 id: 13189
 item_type: Still Image

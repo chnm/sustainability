@@ -22,7 +22,7 @@ files:
     mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
     original_filename: katirna _72c3a30217.docx
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c288afc114fb29c288b3a7.docx
+    url: /files/original/14fb29c288afc114fb29c288b3a7.docx
 geo:
   address: 1517 1st Avenue
   lat: 30.21937

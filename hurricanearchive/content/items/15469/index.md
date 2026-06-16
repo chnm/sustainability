@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1634e0d014fb2a1634e4a6.jpg
+  - fullsize: /files/fullsize/14fb2a1634e0d014fb2a1634e4a6.jpg
     id: 12456
     mime: image/jpeg
     original_filename: GoodShepherd_JohanLowe_02_02986f9570.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1634e0d014fb2a1634e4a6.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1634e0d014fb2a1634e4a6.jpg
+    thumb: /files/thumbnails/14fb2a1634e0d014fb2a1634e4a6.jpg
+    url: /files/original/14fb2a1634e0d014fb2a1634e4a6.jpg
 geo:
 id: 15469
 item_type: Still Image

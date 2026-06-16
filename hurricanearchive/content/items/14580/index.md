@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: letterhead_2_ca75e58cab.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18b5ffa914fb2a18b6038d.doc
+    url: /files/original/14fb2a18b5ffa914fb2a18b6038d.doc
 geo:
 id: 14580
 item_type: Document

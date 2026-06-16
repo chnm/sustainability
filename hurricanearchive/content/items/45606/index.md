@@ -17,7 +17,7 @@ files:
     mime: audio/mpeg
     original_filename: Walker, Bill 6-05-06 Katrina Original mp3.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ffd2f6b14fbe86ffd3343.mp3
+    url: /files/original/14fbe86ffd2f6b14fbe86ffd3343.mp3
 geo:
 id: 45606
 item_type: Oral History

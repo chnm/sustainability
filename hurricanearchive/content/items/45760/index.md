@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Mabil, Deng.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87139d1ae14fbe87139d595.doc
+    url: /files/original/14fbe87139d1ae14fbe87139d595.doc
 geo:
 id: 45760
 item_type: Oral History

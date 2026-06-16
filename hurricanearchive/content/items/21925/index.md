@@ -15,12 +15,12 @@ dublin_core:
       text: outages.jpgsatellite
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29faf8988014fb29faf89c66.jpg
+  - fullsize: /files/fullsize/14fb29faf8988014fb29faf89c66.jpg
     id: 18876
     mime: image/jpeg
     original_filename: outages.jpgsatellite
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29faf8988014fb29faf89c66.jpg
-    url: https://hurricanearchive.org/files/original/14fb29faf8988014fb29faf89c66.jpgsatellite
+    thumb: /files/thumbnails/14fb29faf8988014fb29faf89c66.jpg
+    url: /files/original/14fb29faf8988014fb29faf89c66.jpgsatellite
 geo:
 id: 21925
 item_type: Still Image

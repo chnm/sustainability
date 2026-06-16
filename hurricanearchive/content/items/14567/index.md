@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: Hurricane Katrina Class Action Lawsuits FINAL 12_04_05_f109d1d32f.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18d67b1d14fb2a18d67f02.doc
+    url: /files/original/14fb2a18d67b1d14fb2a18d67f02.doc
 geo:
 id: 14567
 item_type: Document

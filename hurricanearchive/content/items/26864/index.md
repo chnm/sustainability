@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7099e9214fb29d709a2dc.jpg
+  - fullsize: /files/fullsize/14fb29d7099e9214fb29d709a2dc.jpg
     id: 23048
     mime: image/jpeg
     original_filename: wittieststacietwiggsgaveydealminana_d5f989506e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7099e9214fb29d709a2dc.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7099e9214fb29d709a2dc.jpg
+    thumb: /files/thumbnails/14fb29d7099e9214fb29d709a2dc.jpg
+    url: /files/original/14fb29d7099e9214fb29d709a2dc.jpg
 geo:
 id: 26864
 item_type: Still Image

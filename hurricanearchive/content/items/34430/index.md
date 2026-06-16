@@ -17,12 +17,12 @@ dublin_core:
       text: Pontchartrain  Drive
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca1097f114fb29ca109c56.jpg
+  - fullsize: /files/fullsize/14fb29ca1097f114fb29ca109c56.jpg
     id: 24264
     mime: image/jpg
     original_filename: 2326144497_189689059c.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca1097f114fb29ca109c56.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca1097f114fb29ca109c56.jpg
+    thumb: /files/thumbnails/14fb29ca1097f114fb29ca109c56.jpg
+    url: /files/original/14fb29ca1097f114fb29ca109c56.jpg
 geo:
   address: ''
   lat: 30.23864

@@ -14,12 +14,12 @@ dublin_core:
       text: make levees not war
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d25063db14fb29d2506838.jpg
+  - fullsize: /files/fullsize/14fb29d25063db14fb29d2506838.jpg
     id: 23421
     mime: image/jpg
     original_filename: 176014279_d064c48862.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d25063db14fb29d2506838.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d25063db14fb29d2506838.jpg
+    thumb: /files/thumbnails/14fb29d25063db14fb29d2506838.jpg
+    url: /files/original/14fb29d25063db14fb29d2506838.jpg
 geo:
 id: 28569
 item_type: Still Image

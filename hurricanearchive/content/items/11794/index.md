@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Hard Rock.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a236202d314fb2a236206b1.doc
+    url: /files/original/14fb2a236202d314fb2a236206b1.doc
 geo:
 id: 11794
 item_type: Document

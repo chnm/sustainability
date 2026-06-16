@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7e96dcd14fb29d7e971cb.jpg
+  - fullsize: /files/fullsize/14fb29d7e96dcd14fb29d7e971cb.jpg
     id: 22955
     mime: image/jpeg
     original_filename: SW 1970 men_bf6e609b49.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7e96dcd14fb29d7e971cb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7e96dcd14fb29d7e971cb.jpg
+    thumb: /files/thumbnails/14fb29d7e96dcd14fb29d7e971cb.jpg
+    url: /files/original/14fb29d7e96dcd14fb29d7e971cb.jpg
 geo:
   address: ''
   lat: 29.95493

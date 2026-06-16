@@ -19,7 +19,7 @@ files:
     mime: application/vnd.ms-powerpoint
     original_filename: Katrina City Tour_0411e3c3eb.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c4e2e23a14fb29c4e2e9d2.ppt
+    url: /files/original/14fb29c4e2e23a14fb29c4e2e9d2.ppt
 geo:
   address: ''
   lat: 29.57346

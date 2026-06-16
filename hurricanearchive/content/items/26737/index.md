@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: bubble_54ab51ab1e.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d817dc2514fb29d817dfc9.pdf
+    url: /files/original/14fb29d817dc2514fb29d817dfc9.pdf
 geo:
 id: 26737
 item_type: Document

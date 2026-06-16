@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a70d4223d14fb2a70d42a89.jpg
+  - fullsize: /files/fullsize/14fb2a70d4223d14fb2a70d42a89.jpg
     id: 124
     mime: image/jpeg
     original_filename: IMG_2175_67b0cbe0a8.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a70d4223d14fb2a70d42a89.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a70d4223d14fb2a70d42a89.jpg
+    thumb: /files/thumbnails/14fb2a70d4223d14fb2a70d42a89.jpg
+    url: /files/original/14fb2a70d4223d14fb2a70d42a89.jpg
 geo:
   address: ''
   lat: 30.030902

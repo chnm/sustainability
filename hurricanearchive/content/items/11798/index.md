@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Holly Hills Gretch.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a235d4da614fb2a235d518b.doc
+    url: /files/original/14fb2a235d4da614fb2a235d518b.doc
 geo:
 id: 11798
 item_type: Document

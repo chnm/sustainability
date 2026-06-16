@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1876936d14fb2a18769b6e.jpg
+  - fullsize: /files/fullsize/14fb2a1876936d14fb2a18769b6e.jpg
     id: 12132
     mime: image/jpeg
     original_filename: GoodShepherd_Alexia Wilson pics04_487e556dc3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1876936d14fb2a18769b6e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1876936d14fb2a18769b6e.jpg
+    thumb: /files/thumbnails/14fb2a1876936d14fb2a18769b6e.jpg
+    url: /files/original/14fb2a1876936d14fb2a18769b6e.jpg
 geo:
 id: 14668
 item_type: Still Image

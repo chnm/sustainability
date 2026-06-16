@@ -14,12 +14,12 @@ dublin_core:
       text: London Ave Canal Job
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c83ec62a14fb29c83eca10.jpg
+  - fullsize: /files/fullsize/14fb29c83ec62a14fb29c83eca10.jpg
     id: 24521
     mime: image/jpg
     original_filename: 2438608781_fdc090e567.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c83ec62a14fb29c83eca10.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c83ec62a14fb29c83eca10.jpg
+    thumb: /files/thumbnails/14fb29c83ec62a14fb29c83eca10.jpg
+    url: /files/original/14fb29c83ec62a14fb29c83eca10.jpg
 geo:
 id: 34946
 item_type: Still Image

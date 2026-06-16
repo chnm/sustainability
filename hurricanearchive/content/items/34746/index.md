@@ -14,12 +14,12 @@ dublin_core:
       text: Lacombe
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c8ea810614fb29c8ea84a8.jpg
+  - fullsize: /files/fullsize/14fb29c8ea810614fb29c8ea84a8.jpg
     id: 24426
     mime: image/jpg
     original_filename: 2420883485_3aa145df23.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c8ea810614fb29c8ea84a8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c8ea810614fb29c8ea84a8.jpg
+    thumb: /files/thumbnails/14fb29c8ea810614fb29c8ea84a8.jpg
+    url: /files/original/14fb29c8ea810614fb29c8ea84a8.jpg
 geo:
 id: 34746
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a16eeabf414fb2a16eeafd6.jpg
+  - fullsize: /files/fullsize/14fb2a16eeabf414fb2a16eeafd6.jpg
     id: 12309
     mime: image/pjpeg
     original_filename: Arthur Cousins and Daddy's Yogi Cake 1963_9d9d92efcc.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a16eeabf414fb2a16eeafd6.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a16eeabf414fb2a16eeafd6.jpg
+    thumb: /files/thumbnails/14fb2a16eeabf414fb2a16eeafd6.jpg
+    url: /files/original/14fb2a16eeabf414fb2a16eeafd6.jpg
 geo:
   address: ''
   lat: 37.77123

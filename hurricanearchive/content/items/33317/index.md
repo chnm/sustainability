@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_f5296b60c1.Are you down for the cause.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cac7f6af14fb29cac7fa93.doc
+    url: /files/original/14fb29cac7f6af14fb29cac7fa93.doc
 geo:
 id: 33317
 item_type: Document

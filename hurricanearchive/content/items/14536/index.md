@@ -20,7 +20,7 @@ files:
     mime: application/octet-stream
     original_filename: '[SHN] T-P Article December 16, 2006_522a5f6dac.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18e79b5b14fb2a18e79f6b.doc
+    url: /files/original/14fb2a18e79b5b14fb2a18e79f6b.doc
 geo:
 id: 14536
 item_type: Document

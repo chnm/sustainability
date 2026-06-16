@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a16fddda914fb2a16fddfa0.jpg
+  - fullsize: /files/fullsize/14fb2a16fddda914fb2a16fddfa0.jpg
     id: 12294
     mime: image/jpeg
     original_filename: EMinor-5651_1383021e0d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a16fddda914fb2a16fddfa0.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a16fddda914fb2a16fddfa0.jpg
+    thumb: /files/thumbnails/14fb2a16fddda914fb2a16fddfa0.jpg
+    url: /files/original/14fb2a16fddda914fb2a16fddfa0.jpg
 geo:
 id: 15131
 item_type: Still Image

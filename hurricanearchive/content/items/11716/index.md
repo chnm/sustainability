@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: aprilmcDonald.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c7b79014fb2a23c7bde7.html
+    url: /files/original/14fb2a23c7b79014fb2a23c7bde7.html
 geo:
 id: 11716
 item_type: Oral History

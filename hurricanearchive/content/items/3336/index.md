@@ -15,12 +15,12 @@ dublin_core:
       text: SS NOLA Press conference (3).JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5c591a6c14fb2a5c591efc.jpg
+  - fullsize: /files/fullsize/14fb2a5c591a6c14fb2a5c591efc.jpg
     id: 2807
     mime: image/jpeg
     original_filename: SS NOLA Press conference (3).JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5c591a6c14fb2a5c591efc.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5c591a6c14fb2a5c591efc.jpg
+    thumb: /files/thumbnails/14fb2a5c591a6c14fb2a5c591efc.jpg
+    url: /files/original/14fb2a5c591a6c14fb2a5c591efc.jpg
 geo:
 id: 3336
 item_type: Still Image

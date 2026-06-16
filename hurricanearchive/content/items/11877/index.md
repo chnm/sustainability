@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: mcdonalds.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a22f2a99614fb2a22f2ad7b.doc
+    url: /files/original/14fb2a22f2a99614fb2a22f2ad7b.doc
 geo:
 id: 11877
 item_type: Document

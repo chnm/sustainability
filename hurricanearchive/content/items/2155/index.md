@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6d95964a14fb2a6d9599e1.jpg
+  - fullsize: /files/fullsize/14fb2a6d95964a14fb2a6d9599e1.jpg
     id: 848
     mime: image/jpeg
     original_filename: Stairway_to_Heavnowhere_8c95f7e1a0.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6d95964a14fb2a6d9599e1.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6d95964a14fb2a6d9599e1.jpg
+    thumb: /files/thumbnails/14fb2a6d95964a14fb2a6d9599e1.jpg
+    url: /files/original/14fb2a6d95964a14fb2a6d9599e1.jpg
 geo:
   address: ''
   lat: 30.294535230988

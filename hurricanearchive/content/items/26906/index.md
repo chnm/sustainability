@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: true
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d64ddada14fb29d64ddebb.jpg
+  - fullsize: /files/fullsize/14fb29d64ddada14fb29d64ddebb.jpg
     id: 23085
     mime: image/pjpeg
     original_filename: Mississippi_9899ed64b2.2006 008.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d64ddada14fb29d64ddebb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d64ddada14fb29d64ddebb.jpg
+    thumb: /files/thumbnails/14fb29d64ddada14fb29d64ddebb.jpg
+    url: /files/original/14fb29d64ddada14fb29d64ddebb.jpg
 geo:
 id: 26906
 item_type: Still Image

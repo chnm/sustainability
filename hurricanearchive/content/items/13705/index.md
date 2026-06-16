@@ -26,7 +26,7 @@ files:
     mime: application/octet-stream
     original_filename: American_Bar_Association_Link(OneYearLater)_9ced811a75.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d0d2f8e14fb2a1d0d37a2.doc
+    url: /files/original/14fb2a1d0d2f8e14fb2a1d0d37a2.doc
 geo:
 id: 13705
 item_type: Document

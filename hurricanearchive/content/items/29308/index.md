@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: she remembers_7059d5c1df.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ceb17e6914fb29ceb1824e.pdf
+    url: /files/original/14fb29ceb17e6914fb29ceb1824e.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

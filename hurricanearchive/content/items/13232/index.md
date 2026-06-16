@@ -15,12 +15,12 @@ dublin_core:
       text: 227 unshattered glass1.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f1cb5b014fb2a1f1cbad2.jpg
+  - fullsize: /files/fullsize/14fb2a1f1cb5b014fb2a1f1cbad2.jpg
     id: 11242
     mime: image/jpeg
     original_filename: 227 unshattered glass1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f1cb5b014fb2a1f1cbad2.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f1cb5b014fb2a1f1cbad2.jpg
+    thumb: /files/thumbnails/14fb2a1f1cb5b014fb2a1f1cbad2.jpg
+    url: /files/original/14fb2a1f1cb5b014fb2a1f1cbad2.jpg
 geo:
 id: 13232
 item_type: Still Image

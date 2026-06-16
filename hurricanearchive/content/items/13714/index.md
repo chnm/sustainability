@@ -23,7 +23,7 @@ files:
     mime: application/octet-stream
     original_filename: 1_22_06 Committee Meeting Notes_eb600f9a9b.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cfb601014fb2a1cfb64e4.doc
+    url: /files/original/14fb2a1cfb601014fb2a1cfb64e4.doc
 geo:
 id: 13714
 item_type: Document

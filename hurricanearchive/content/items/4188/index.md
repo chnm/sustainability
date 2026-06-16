@@ -14,12 +14,12 @@ dublin_core:
       text: Total home damage
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a574dd04414fb2a574dd42a.jpg
+  - fullsize: /files/fullsize/14fb2a574dd04414fb2a574dd42a.jpg
     id: 3584
     mime: image/pjpeg
     original_filename: 9-19-2005-20_818d26c5ac.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a574dd04414fb2a574dd42a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a574dd04414fb2a574dd42a.jpg
+    thumb: /files/thumbnails/14fb2a574dd04414fb2a574dd42a.jpg
+    url: /files/original/14fb2a574dd04414fb2a574dd42a.jpg
 geo:
   address: Lakeview
   lat: 29.91685

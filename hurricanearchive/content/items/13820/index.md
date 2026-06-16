@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: '[SHN] Meeting Minutes 9_07_06_37198f6da2.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ca40add14fb2a1ca40ebb.doc
+    url: /files/original/14fb2a1ca40add14fb2a1ca40ebb.doc
 geo:
 id: 13820
 item_type: Document

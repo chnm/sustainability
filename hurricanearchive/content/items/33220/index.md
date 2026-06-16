@@ -17,12 +17,12 @@ dublin_core:
       text: Resupply
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb797a3014fb29cb797dd1.jpg
+  - fullsize: /files/fullsize/14fb29cb797a3014fb29cb797dd1.jpg
     id: 24070
     mime: image/jpg
     original_filename: 1265939713_9342f7d076.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb797a3014fb29cb797dd1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb797a3014fb29cb797dd1.jpg
+    thumb: /files/thumbnails/14fb29cb797a3014fb29cb797dd1.jpg
+    url: /files/original/14fb29cb797a3014fb29cb797dd1.jpg
 geo:
   address: ''
   lat: 30.4637

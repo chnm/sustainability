@@ -21,12 +21,12 @@ dublin_core:
       text: Photograph of Miss Rose\'s Butterflies
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc379ccd14fb29cc37a0b3.jpg
+  - fullsize: /files/fullsize/14fb29cc379ccd14fb29cc37a0b3.jpg
     id: 23933
     mime: image/jpeg
     original_filename: butterflies_d7d03a3fae.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc379ccd14fb29cc37a0b3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc379ccd14fb29cc37a0b3.jpg
+    thumb: /files/thumbnails/14fb29cc379ccd14fb29cc37a0b3.jpg
+    url: /files/original/14fb29cc379ccd14fb29cc37a0b3.jpg
 geo:
   address: 1342 Mandolin St.
   lat: 0.0

@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 332-J2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fa34076b14fb29fa340b4b.jpg
+  - fullsize: /files/fullsize/14fb29fa34076b14fb29fa340b4b.jpg
     id: 18952
     mime: image/jpeg
     original_filename: Picture 332-J2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fa34076b14fb29fa340b4b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fa34076b14fb29fa340b4b.jpg
+    thumb: /files/thumbnails/14fb29fa34076b14fb29fa340b4b.jpg
+    url: /files/original/14fb29fa34076b14fb29fa340b4b.jpg
 geo:
 id: 22001
 item_type: Still Image

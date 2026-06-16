@@ -17,19 +17,19 @@ files:
     mime: audio/mpeg
     original_filename: Brooks, Rev. Rick.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86efc9f4b14fbe86efca330.mp3
+    url: /files/original/14fbe86efc9f4b14fbe86efca330.mp3
   - fullsize:
     id: 46003
     mime: audio/mpeg
     original_filename: Brooks, Rick 2-21-08.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86efdf6fd14fbe86efdfae9.mp3
+    url: /files/original/14fbe86efdf6fd14fbe86efdfae9.mp3
   - fullsize:
     id: 46004
     mime: application/msword
     original_filename: Brooks, Rick.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86efeb26d14fbe86efeb654.doc
+    url: /files/original/14fbe86efeb26d14fbe86efeb654.doc
 geo:
 id: 45551
 item_type: Oral History

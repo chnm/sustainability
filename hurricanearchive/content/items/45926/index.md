@@ -14,12 +14,12 @@ dublin_core:
       text: 9 months after Katrina
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/d8a71fb7952416a606ce2982fe7a1a8d.jpg
+  - fullsize: /files/fullsize/d8a71fb7952416a606ce2982fe7a1a8d.jpg
     id: 46544
     mime: image/jpeg
     original_filename: tumblr_ld1ur4PeCw1qahclpo1_500.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/d8a71fb7952416a606ce2982fe7a1a8d.jpg
-    url: https://hurricanearchive.org/files/original/d8a71fb7952416a606ce2982fe7a1a8d.jpg
+    thumb: /files/thumbnails/d8a71fb7952416a606ce2982fe7a1a8d.jpg
+    url: /files/original/d8a71fb7952416a606ce2982fe7a1a8d.jpg
 geo:
 id: 45926
 item_type: Still Image

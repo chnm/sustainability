@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Tardo, Wendy.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87200915e14fbe87200954c.doc
+    url: /files/original/14fbe87200915e14fbe87200954c.doc
   - fullsize:
     id: 46506
     mime: application/msword
     original_filename: Tardo, Wendy.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8720148ed14fbe872014cd2.doc
+    url: /files/original/14fbe8720148ed14fbe872014cd2.doc
 geo:
 id: 45862
 item_type: Oral History

@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: Brownmemoinreply_b9d5a7083b.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cbf18a6314fb29cbf18e41.pdf
+    url: /files/original/14fb29cbf18a6314fb29cbf18e41.pdf
 geo:
   address: convention Center Blvd
   lat: 0.0

@@ -19,7 +19,7 @@ files:
     mime: application/msword
     original_filename: LIFE AND DEATH IN NEW ORLEANS--CV_2df57b7474.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a214b536f14fb2a214b5751.doc
+    url: /files/original/14fb2a214b536f14fb2a214b5751.doc
 geo:
   address: Pacific Avenue
   lat: 30.03106

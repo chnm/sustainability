@@ -15,12 +15,12 @@ dublin_core:
       text: One American Energy.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb35165414fb29fb351acc.jpg
+  - fullsize: /files/fullsize/14fb29fb35165414fb29fb351acc.jpg
     id: 18844
     mime: image/jpeg
     original_filename: One American Energy.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb35165414fb29fb351acc.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb35165414fb29fb351acc.jpg
+    thumb: /files/thumbnails/14fb29fb35165414fb29fb351acc.jpg
+    url: /files/original/14fb29fb35165414fb29fb351acc.jpg
 geo:
 id: 21893
 item_type: Still Image

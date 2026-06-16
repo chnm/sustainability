@@ -23,7 +23,7 @@ files:
     mime: application/x-zip-compressed
     original_filename: SHNFunding_0c485c8ca9.zip
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18e6479214fb2a18e64b8a.zip
+    url: /files/original/14fb2a18e6479214fb2a18e64b8a.zip
 geo:
 id: 14538
 item_type: Document

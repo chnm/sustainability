@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 1882.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a136de45714fb2a136defcd.jpg
+  - fullsize: /files/fullsize/14fb2a136de45714fb2a136defcd.jpg
     id: 16022
     mime: image/jpeg
     original_filename: DSC 1882.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a136de45714fb2a136defcd.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a136de45714fb2a136defcd.jpg
+    thumb: /files/thumbnails/14fb2a136de45714fb2a136defcd.jpg
+    url: /files/original/14fb2a136de45714fb2a136defcd.jpg
 geo:
 id: 19069
 item_type: Still Image

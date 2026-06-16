@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: Bijker, AmericanandDutchCoastalEngineering_abc0ff1020.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbc187ff14fb29dbc18c26.pdf
+    url: /files/original/14fb29dbc187ff14fb29dbc18c26.pdf
 geo:
 id: 25931
 item_type: Document

@@ -17,12 +17,12 @@ dublin_core:
       text: Rebuild New Orleans banners
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbfadc8914fb29cbfae06c.jpg
+  - fullsize: /files/fullsize/14fb29cbfadc8914fb29cbfae06c.jpg
     id: 23983
     mime: image/jpg
     original_filename: 1279844391_62a7187341.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbfadc8914fb29cbfae06c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbfadc8914fb29cbfae06c.jpg
+    thumb: /files/thumbnails/14fb29cbfadc8914fb29cbfae06c.jpg
+    url: /files/original/14fb29cbfadc8914fb29cbfae06c.jpg
 geo:
 id: 32141
 item_type: Still Image

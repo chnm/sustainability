@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c308164c14fb29c3081a31.jpg
+  - fullsize: /files/fullsize/14fb29c308164c14fb29c3081a31.jpg
     id: 24967
     mime: image/jpeg
     original_filename: mariesbar_1c7b461fee.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c308164c14fb29c3081a31.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c308164c14fb29c3081a31.jpg
+    thumb: /files/thumbnails/14fb29c308164c14fb29c3081a31.jpg
+    url: /files/original/14fb29c308164c14fb29c3081a31.jpg
 geo:
   address: ''
   lat: 0.0

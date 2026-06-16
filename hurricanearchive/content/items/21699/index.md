@@ -15,12 +15,12 @@ dublin_core:
       text: FH000028-9-23.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fc5d46d214fb29fc5d4a1b.jpg
+  - fullsize: /files/fullsize/14fb29fc5d46d214fb29fc5d4a1b.jpg
     id: 18650
     mime: image/jpeg
     original_filename: FH000028-9-23.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fc5d46d214fb29fc5d4a1b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fc5d46d214fb29fc5d4a1b.jpg
+    thumb: /files/thumbnails/14fb29fc5d46d214fb29fc5d4a1b.jpg
+    url: /files/original/14fb29fc5d46d214fb29fc5d4a1b.jpg
 geo:
 id: 21699
 item_type: Still Image

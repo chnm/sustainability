@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 27 2006 Civic center roof among contracts.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35d4877d14fb2a35d48d5b.txt
+    url: /files/original/14fb2a35d4877d14fb2a35d48d5b.txt
 geo:
   address: ''
   lat: 0.0

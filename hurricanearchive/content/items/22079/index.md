@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 410-J2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f99730c214fb29f99734a7.jpg
+  - fullsize: /files/fullsize/14fb29f99730c214fb29f99734a7.jpg
     id: 19030
     mime: image/jpeg
     original_filename: Picture 410-J2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f99730c214fb29f99734a7.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f99730c214fb29f99734a7.jpg
+    thumb: /files/thumbnails/14fb29f99730c214fb29f99734a7.jpg
+    url: /files/original/14fb29f99730c214fb29f99734a7.jpg
 geo:
 id: 22079
 item_type: Still Image

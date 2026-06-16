@@ -15,12 +15,12 @@ dublin_core:
       text: Local officials compare information.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b55874f14fb2a1b5589c6.jpg
+  - fullsize: /files/fullsize/14fb2a1b55874f14fb2a1b5589c6.jpg
     id: 11801
     mime: image/jpeg
     original_filename: Local officials compare information.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b55874f14fb2a1b5589c6.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b55874f14fb2a1b5589c6.jpg
+    thumb: /files/thumbnails/14fb2a1b55874f14fb2a1b5589c6.jpg
+    url: /files/original/14fb2a1b55874f14fb2a1b5589c6.jpg
 geo:
   address: ''
   lat: 0.0

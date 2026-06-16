@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 025conventionctr.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a11b9d63d14fb2a11b9dc17.jpg
+  - fullsize: /files/fullsize/14fb2a11b9d63d14fb2a11b9dc17.jpg
     id: 16184
     mime: image/jpeg
     original_filename: Picture 025conventionctr.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a11b9d63d14fb2a11b9dc17.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a11b9d63d14fb2a11b9dc17.jpg
+    thumb: /files/thumbnails/14fb2a11b9d63d14fb2a11b9dc17.jpg
+    url: /files/original/14fb2a11b9d63d14fb2a11b9dc17.jpg
 geo:
 id: 19231
 item_type: Still Image

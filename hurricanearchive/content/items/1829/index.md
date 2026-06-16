@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6ebb639514fb2a6ebb677a.jpg
+  - fullsize: /files/fullsize/14fb2a6ebb639514fb2a6ebb677a.jpg
     id: 649
     mime: image/jpeg
     original_filename: 17th_street_canl_pumping_station_flooded_2cf051538b.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6ebb639514fb2a6ebb677a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6ebb639514fb2a6ebb677a.jpg
+    thumb: /files/thumbnails/14fb2a6ebb639514fb2a6ebb677a.jpg
+    url: /files/original/14fb2a6ebb639514fb2a6ebb677a.jpg
 geo:
   address: ''
   lat: 29.987426868181196

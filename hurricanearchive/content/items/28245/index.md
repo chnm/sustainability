@@ -21,12 +21,12 @@ dublin_core:
       text: DavidScottInstall
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d2a2efa714fb29d2a2f204.jpg
+  - fullsize: /files/fullsize/14fb29d2a2efa714fb29d2a2f204.jpg
     id: 23398
     mime: image/jpg
     original_filename: 384884901_32500bad29.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d2a2efa714fb29d2a2f204.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d2a2efa714fb29d2a2f204.jpg
+    thumb: /files/thumbnails/14fb29d2a2efa714fb29d2a2f204.jpg
+    url: /files/original/14fb29d2a2efa714fb29d2a2f204.jpg
 geo:
 id: 28245
 item_type: Still Image

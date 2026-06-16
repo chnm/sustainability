@@ -20,7 +20,7 @@ files:
     mime: text/rtf
     original_filename: Matos Pass Christian.rtf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a233c49f414fb2a233c4d9a.rtf
+    url: /files/original/14fb2a233c49f414fb2a233c4d9a.rtf
 geo:
 id: 11812
 item_type: Document

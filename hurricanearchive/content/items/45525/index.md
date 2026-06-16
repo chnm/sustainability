@@ -17,19 +17,19 @@ files:
     mime: audio/mpeg
     original_filename: Ayala, Hector 8-05-07.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e662ebc14fbe86e6632f5.mp3
+    url: /files/original/14fbe86e662ebc14fbe86e6632f5.mp3
   - fullsize:
     id: 45922
     mime: application/msword
     original_filename: Ayala, Hector.trs English.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e67094914fbe86e670d31.doc
+    url: /files/original/14fbe86e67094914fbe86e670d31.doc
   - fullsize:
     id: 45923
     mime: application/msword
     original_filename: Ayala, Hector.trs Spanish.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e67b13b14fbe86e67b520.doc
+    url: /files/original/14fbe86e67b13b14fbe86e67b520.doc
 geo:
 id: 45525
 item_type: Oral History

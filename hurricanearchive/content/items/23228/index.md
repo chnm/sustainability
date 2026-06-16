@@ -15,12 +15,12 @@ dublin_core:
       text: Satellite Image 20.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f0977ff014fb29f09783d6.jpg
+  - fullsize: /files/fullsize/14fb29f0977ff014fb29f09783d6.jpg
     id: 20172
     mime: image/jpeg
     original_filename: Satellite Image 20.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f0977ff014fb29f09783d6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f0977ff014fb29f09783d6.jpg
+    thumb: /files/thumbnails/14fb29f0977ff014fb29f09783d6.jpg
+    url: /files/original/14fb29f0977ff014fb29f09783d6.jpg
 geo:
 id: 23228
 item_type: Still Image

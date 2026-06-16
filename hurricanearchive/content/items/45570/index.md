@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Davidson, Serena  4-06-06 Katrina.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f315dfe14fbe86f3161ee.mp3
+    url: /files/original/14fbe86f315dfe14fbe86f3161ee.mp3
   - fullsize:
     id: 46055
     mime: application/msword
     original_filename: Davidson, Serena.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f3205ee14fbe86f3209d3.doc
+    url: /files/original/14fbe86f3205ee14fbe86f3209d3.doc
 geo:
 id: 45570
 item_type: Oral History

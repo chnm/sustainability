@@ -15,12 +15,12 @@ dublin_core:
       text: 501059-R1-14-13A.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e86aa07914fb29e86aa45f.jpg
+  - fullsize: /files/fullsize/14fb29e86aa07914fb29e86aa45f.jpg
     id: 21310
     mime: image/jpeg
     original_filename: 501059-R1-14-13A.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e86aa07914fb29e86aa45f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e86aa07914fb29e86aa45f.jpg
+    thumb: /files/thumbnails/14fb29e86aa07914fb29e86aa45f.jpg
+    url: /files/original/14fb29e86aa07914fb29e86aa45f.jpg
 geo:
 id: 24366
 item_type: Still Image

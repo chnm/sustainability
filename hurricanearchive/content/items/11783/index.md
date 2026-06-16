@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Cowan Lorraine Bridge gretch.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a236e7d5914fb2a236e81a6.doc
+    url: /files/original/14fb2a236e7d5914fb2a236e81a6.doc
 geo:
 id: 11783
 item_type: Document

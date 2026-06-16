@@ -15,12 +15,12 @@ dublin_core:
       text: 209 beaumont dmg.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f3c0bf614fb2a1f3c0fd6.jpg
+  - fullsize: /files/fullsize/14fb2a1f3c0bf614fb2a1f3c0fd6.jpg
     id: 11225
     mime: image/jpeg
     original_filename: 209 beaumont dmg.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f3c0bf614fb2a1f3c0fd6.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f3c0bf614fb2a1f3c0fd6.jpg
+    thumb: /files/thumbnails/14fb2a1f3c0bf614fb2a1f3c0fd6.jpg
+    url: /files/original/14fb2a1f3c0bf614fb2a1f3c0fd6.jpg
 geo:
 id: 13215
 item_type: Still Image

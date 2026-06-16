@@ -19,12 +19,12 @@ dublin_core:
       text: DSC_6799.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1e197e514fb29d1e19bcb.jpg
+  - fullsize: /files/fullsize/14fb29d1e197e514fb29d1e19bcb.jpg
     id: 23509
     mime: image/jpg
     original_filename: 158072461_a6dc96eaaa.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1e197e514fb29d1e19bcb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1e197e514fb29d1e19bcb.jpg
+    thumb: /files/thumbnails/14fb29d1e197e514fb29d1e19bcb.jpg
+    url: /files/original/14fb29d1e197e514fb29d1e19bcb.jpg
 geo:
 id: 28662
 item_type: Still Image

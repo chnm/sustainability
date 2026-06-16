@@ -18,12 +18,12 @@ dublin_core:
       text: 20051204_MG_9443.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6472ab2214fb2a6472d95c.jpg
+  - fullsize: /files/fullsize/14fb2a6472ab2214fb2a6472d95c.jpg
     id: 2073
     mime: image/jpeg
     original_filename: 20051204_MG_9443.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6472ab2214fb2a6472d95c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6472ab2214fb2a6472d95c.jpg
+    thumb: /files/thumbnails/14fb2a6472ab2214fb2a6472d95c.jpg
+    url: /files/original/14fb2a6472ab2214fb2a6472d95c.jpg
 geo:
 id: 2591
 item_type: Still Image

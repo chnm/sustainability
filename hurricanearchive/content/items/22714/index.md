@@ -15,12 +15,12 @@ dublin_core:
       text: PICT0612Jacksonbarracks.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f47911ac14fb29f479159b.jpg
+  - fullsize: /files/fullsize/14fb29f47911ac14fb29f479159b.jpg
     id: 19665
     mime: image/jpeg
     original_filename: PICT0612Jacksonbarracks.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f47911ac14fb29f479159b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f47911ac14fb29f479159b.jpg
+    thumb: /files/thumbnails/14fb29f47911ac14fb29f479159b.jpg
+    url: /files/original/14fb29f47911ac14fb29f479159b.jpg
 geo:
 id: 22714
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: BG Jones 20Sep05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1bdb1df814fb2a1bdb2c36.wav
+    url: /files/original/14fb2a1bdb1df814fb2a1bdb2c36.wav
 geo:
   address: ''
   lat: 0.0

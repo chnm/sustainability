@@ -19,7 +19,7 @@ files:
     mime: video/x-ms-wmv
     original_filename: aoc_spirit_6060754501.wmv
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbd1ec5014fb29dbd1f036.wmv
+    url: /files/original/14fb29dbd1ec5014fb29dbd1f036.wmv
 geo:
   address: 125 S Buchanan St, Lafayette, LA
   lat: 30.23045

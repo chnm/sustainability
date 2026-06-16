@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Marcus Millender.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2419c86114fb2a2419cc46.html
+    url: /files/original/14fb2a2419c86114fb2a2419cc46.html
 geo:
 id: 11674
 item_type: Oral History

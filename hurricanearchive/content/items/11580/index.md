@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2475a87114fb2a2475ac50.jpg
+  - fullsize: /files/fullsize/14fb2a2475a87114fb2a2475ac50.jpg
     id: 10445
     mime: image/pjpeg
     original_filename: Chalmette shrimp boats_df03e43d75.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2475a87114fb2a2475ac50.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2475a87114fb2a2475ac50.jpg
+    thumb: /files/thumbnails/14fb2a2475a87114fb2a2475ac50.jpg
+    url: /files/original/14fb2a2475a87114fb2a2475ac50.jpg
 geo:
   address: Chalmette, LA
   lat: 29.97263

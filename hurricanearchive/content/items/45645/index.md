@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Cartujano, Claudia.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8706a3c1114fbe8706a3ff4.doc
+    url: /files/original/14fbe8706a3c1114fbe8706a3ff4.doc
 geo:
 id: 45645
 item_type: Oral History

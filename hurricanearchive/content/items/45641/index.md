@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Calzada, Jesus.trs (English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870640a7a14fbe870640e5f.doc
+    url: /files/original/14fbe870640a7a14fbe870640e5f.doc
   - fullsize:
     id: 46247
     mime: application/msword
     original_filename: Calzada, Jesus.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87064ae8014fbe87064b26c.doc
+    url: /files/original/14fbe87064ae8014fbe87064b26c.doc
 geo:
 id: 45641
 item_type: Oral History

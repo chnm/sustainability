@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Jonathan Robichaux.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a24389b8914fb2a2438a5da.htm
+    url: /files/original/14fb2a24389b8914fb2a2438a5da.htm
 geo:
 id: 11663
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1611be8814fb2a1611c275.jpg
+  - fullsize: /files/fullsize/14fb2a1611be8814fb2a1611c275.jpg
     id: 12481
     mime: image/jpeg
     original_filename: IsabelleMcCormick-65_b404ac35ae.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1611be8814fb2a1611c275.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1611be8814fb2a1611c275.jpg
+    thumb: /files/thumbnails/14fb2a1611be8814fb2a1611c275.jpg
+    url: /files/original/14fb2a1611be8814fb2a1611c275.jpg
 geo:
 id: 15511
 item_type: Still Image

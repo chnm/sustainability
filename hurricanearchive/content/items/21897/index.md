@@ -15,12 +15,12 @@ dublin_core:
       text: Shell Oil - Looking West.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb184cc714fb29fb18509f.jpg
+  - fullsize: /files/fullsize/14fb29fb184cc714fb29fb18509f.jpg
     id: 18848
     mime: image/jpeg
     original_filename: Shell Oil - Looking West.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb184cc714fb29fb18509f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb184cc714fb29fb18509f.jpg
+    thumb: /files/thumbnails/14fb29fb184cc714fb29fb18509f.jpg
+    url: /files/original/14fb29fb184cc714fb29fb18509f.jpg
 geo:
 id: 21897
 item_type: Still Image

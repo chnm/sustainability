@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Cucullu, Pat.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87081ee1114fbe87081f1e9.doc
+    url: /files/original/14fbe87081ee1114fbe87081f1e9.doc
 geo:
 id: 45658
 item_type: Oral History

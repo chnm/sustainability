@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: marymitchell_uno_b5223e25b3.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2144fad714fb2a2144febc.doc
+    url: /files/original/14fb2a2144fad714fb2a2144febc.doc
 geo:
 id: 12987
 item_type: Document

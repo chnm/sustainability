@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Strock, Carl.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871fada7614fbe871fade5f.doc
+    url: /files/original/14fbe871fada7614fbe871fade5f.doc
   - fullsize:
     id: 46500
     mime: application/msword
     original_filename: Strock, Carl.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871fc554a14fbe871fc5934.doc
+    url: /files/original/14fbe871fc554a14fbe871fc5934.doc
 geo:
 id: 45857
 item_type: Oral History

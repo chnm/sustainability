@@ -15,12 +15,12 @@ dublin_core:
       text: 09210021J6.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f9864c0a14fb29f98657ba.jpg
+  - fullsize: /files/fullsize/14fb29f9864c0a14fb29f98657ba.jpg
     id: 19054
     mime: image/jpeg
     original_filename: 09210021J6.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f9864c0a14fb29f98657ba.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f9864c0a14fb29f98657ba.jpg
+    thumb: /files/thumbnails/14fb29f9864c0a14fb29f98657ba.jpg
+    url: /files/original/14fb29f9864c0a14fb29f98657ba.jpg
 geo:
 id: 22103
 item_type: Still Image

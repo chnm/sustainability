@@ -21,12 +21,12 @@ dublin_core:
       text: Leggio\'s Front Porch
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c99b7f5414fb29c99b833a.jpg
+  - fullsize: /files/fullsize/14fb29c99b7f5414fb29c99b833a.jpg
     id: 24348
     mime: image/jpg
     original_filename: 2291269889_ea5922de4e.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c99b7f5414fb29c99b833a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c99b7f5414fb29c99b833a.jpg
+    thumb: /files/thumbnails/14fb29c99b7f5414fb29c99b833a.jpg
+    url: /files/original/14fb29c99b7f5414fb29c99b833a.jpg
 geo:
   address: ''
   lat: 30.22539

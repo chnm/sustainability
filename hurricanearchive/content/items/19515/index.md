@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 075engineers.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0f97b37e14fb2a0f97b74b.jpg
+  - fullsize: /files/fullsize/14fb2a0f97b37e14fb2a0f97b74b.jpg
     id: 16468
     mime: image/jpeg
     original_filename: Picture 075engineers.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0f97b37e14fb2a0f97b74b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0f97b37e14fb2a0f97b74b.jpg
+    thumb: /files/thumbnails/14fb2a0f97b37e14fb2a0f97b74b.jpg
+    url: /files/original/14fb2a0f97b37e14fb2a0f97b74b.jpg
 geo:
 id: 19515
 item_type: Still Image

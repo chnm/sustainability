@@ -15,12 +15,12 @@ dublin_core:
       text: before bank2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a211850d114fb2a211854b2.jpg
+  - fullsize: /files/fullsize/14fb2a211850d114fb2a211854b2.jpg
     id: 11035
     mime: image/jpeg
     original_filename: before bank2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a211850d114fb2a211854b2.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a211850d114fb2a211854b2.jpg
+    thumb: /files/thumbnails/14fb2a211850d114fb2a211854b2.jpg
+    url: /files/original/14fb2a211850d114fb2a211854b2.jpg
 geo:
 id: 13025
 item_type: Still Image

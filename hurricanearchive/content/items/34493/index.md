@@ -21,12 +21,12 @@ dublin_core:
       text: Sun Set at a Metairie Cemetery
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9b3414014fb29c9b344a5.jpg
+  - fullsize: /files/fullsize/14fb29c9b3414014fb29c9b344a5.jpg
     id: 24327
     mime: image/jpg
     original_filename: 2310193613_ae6abb0a3a.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9b3414014fb29c9b344a5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9b3414014fb29c9b344a5.jpg
+    thumb: /files/thumbnails/14fb29c9b3414014fb29c9b344a5.jpg
+    url: /files/original/14fb29c9b3414014fb29c9b344a5.jpg
 geo:
 id: 34493
 item_type: Still Image

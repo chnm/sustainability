@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c224594a14fb29c2246115.jpg
+  - fullsize: /files/fullsize/14fb29c224594a14fb29c2246115.jpg
     id: 25103
     mime: image/pjpeg
     original_filename: room 7_c4217f8d40.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c224594a14fb29c2246115.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c224594a14fb29c2246115.jpg
+    thumb: /files/thumbnails/14fb29c224594a14fb29c2246115.jpg
+    url: /files/original/14fb29c224594a14fb29c2246115.jpg
 geo:
   address: ''
   lat: 30.02053

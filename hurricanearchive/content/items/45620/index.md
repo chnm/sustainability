@@ -19,19 +19,19 @@ files:
     mime: audio/mpeg
     original_filename: Wise, Melissa 6-14-06 Side 1 Katrina.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870427da514fbe870428197.mp3
+    url: /files/original/14fbe870427da514fbe870428197.mp3
   - fullsize:
     id: 46210
     mime: audio/mpeg
     original_filename: Wise, Melissa 6-14-06 Side 2 Katrina.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87043297d14fbe870432d65.mp3
+    url: /files/original/14fbe87043297d14fbe870432d65.mp3
   - fullsize:
     id: 46211
     mime: application/msword
     original_filename: Wise, Melissa.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87043d16e14fbe87043d55b.doc
+    url: /files/original/14fbe87043d16e14fbe87043d55b.doc
 geo:
 id: 45620
 item_type: Oral History

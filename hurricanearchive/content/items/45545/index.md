@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Bower, Jeffrey J. 3-29-06.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ee6d3ee14fbe86ee6d7d4.mp3
+    url: /files/original/14fbe86ee6d3ee14fbe86ee6d7d4.mp3
   - fullsize:
     id: 45987
     mime: application/msword
     original_filename: Bower, Jeffrey J.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ee7fcc114fbe86ee800af.doc
+    url: /files/original/14fbe86ee7fcc114fbe86ee800af.doc
 geo:
 id: 45545
 item_type: Oral History

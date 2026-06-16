@@ -15,12 +15,12 @@ dublin_core:
       text: St. John Airport.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb10fdf914fb29fb1101de.jpg
+  - fullsize: /files/fullsize/14fb29fb10fdf914fb29fb1101de.jpg
     id: 18854
     mime: image/jpeg
     original_filename: St. John Airport.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb10fdf914fb29fb1101de.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb10fdf914fb29fb1101de.jpg
+    thumb: /files/thumbnails/14fb29fb10fdf914fb29fb1101de.jpg
+    url: /files/original/14fb29fb10fdf914fb29fb1101de.jpg
 geo:
 id: 21903
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: MG Blum-LA TAG news conference 29 Sep 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1b4534c214fb2a1b4538a8.wav
+    url: /files/original/14fb2a1b4534c214fb2a1b4538a8.wav
 geo:
   address: ''
   lat: 0.0

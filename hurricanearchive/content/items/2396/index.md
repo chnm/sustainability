@@ -24,12 +24,12 @@ dublin_core:
       text: Katrina Survivors in USCG Helicopter
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66b9dee914fb2a66b9e2da.jpg
+  - fullsize: /files/fullsize/14fb2a66b9dee914fb2a66b9e2da.jpg
     id: 1888
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05BVS_b37608aa2e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66b9dee914fb2a66b9e2da.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66b9dee914fb2a66b9e2da.jpg
+    thumb: /files/thumbnails/14fb2a66b9dee914fb2a66b9e2da.jpg
+    url: /files/original/14fb2a66b9dee914fb2a66b9e2da.jpg
 geo:
 id: 2396
 item_type: Still Image

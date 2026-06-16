@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: 9thwardblues_b1083c2137.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ceaafbc614fb29ceac29af.pdf
+    url: /files/original/14fb29ceaafbc614fb29ceac29af.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

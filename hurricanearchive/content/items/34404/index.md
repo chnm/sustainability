@@ -21,12 +21,12 @@ dublin_core:
       text: Christmas Day 2004 at the Havrilla\'s Home on Debbie Drive.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca35645f14fb29ca356844.jpg
+  - fullsize: /files/fullsize/14fb29ca35645f14fb29ca356844.jpg
     id: 24238
     mime: image/jpg
     original_filename: 2380071691_9126cce932.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca35645f14fb29ca356844.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca35645f14fb29ca356844.jpg
+    thumb: /files/thumbnails/14fb29ca35645f14fb29ca356844.jpg
+    url: /files/original/14fb29ca35645f14fb29ca356844.jpg
 geo:
   address: ''
   lat: 30.22437

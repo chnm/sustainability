@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: meniwish_8a4779c7f2.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce6723e714fb29ce6727f7.pdf
+    url: /files/original/14fb29ce6723e714fb29ce6727f7.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

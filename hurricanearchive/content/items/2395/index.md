@@ -24,12 +24,12 @@ dublin_core:
       text: Aerial Coast Guard rescue from New Orleans Apartment Building
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66ba967d14fb2a66ba9a62.jpg
+  - fullsize: /files/fullsize/14fb2a66ba967d14fb2a66ba9a62.jpg
     id: 1887
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05BVM_bc35132db2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66ba967d14fb2a66ba9a62.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66ba967d14fb2a66ba9a62.jpg
+    thumb: /files/thumbnails/14fb2a66ba967d14fb2a66ba9a62.jpg
+    url: /files/original/14fb2a66ba967d14fb2a66ba9a62.jpg
 geo:
 id: 2395
 item_type: Still Image

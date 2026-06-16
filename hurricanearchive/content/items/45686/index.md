@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Goldsmith, Stacy.toc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870bd036314fbe870bd0748.doc
+    url: /files/original/14fbe870bd036314fbe870bd0748.doc
 geo:
 id: 45686
 item_type: Oral History

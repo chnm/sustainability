@@ -15,12 +15,12 @@ dublin_core:
       text: 501055-R1-11-10Asuperdome.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e56c0b0014fb29e56c11b3.jpg
+  - fullsize: /files/fullsize/14fb29e56c0b0014fb29e56c11b3.jpg
     id: 21653
     mime: image/jpeg
     original_filename: 501055-R1-11-10Asuperdome.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e56c0b0014fb29e56c11b3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e56c0b0014fb29e56c11b3.jpg
+    thumb: /files/thumbnails/14fb29e56c0b0014fb29e56c11b3.jpg
+    url: /files/original/14fb29e56c0b0014fb29e56c11b3.jpg
 geo:
 id: 24709
 item_type: Still Image

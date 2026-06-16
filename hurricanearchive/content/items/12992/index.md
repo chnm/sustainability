@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: CatherineCandy_UNO_c64f26ad2e.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a21423bde14fb2a21423fc2.doc
+    url: /files/original/14fb2a21423bde14fb2a21423fc2.doc
 geo:
 id: 12992
 item_type: Document

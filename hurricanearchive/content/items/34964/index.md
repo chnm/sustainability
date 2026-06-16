@@ -23,7 +23,7 @@ files:
     mime: application/vnd.ms-powerpoint
     original_filename: Plan B_724c76d7f7.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c777937714fb29c777975c.ppt
+    url: /files/original/14fb29c777937714fb29c777975c.ppt
 geo:
   address: 511 marigny
   lat: 0.0

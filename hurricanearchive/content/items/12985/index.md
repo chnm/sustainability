@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: RaphaelCassimere_UNO_6993c2d772.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a214a2a9c14fb2a214a2e83.doc
+    url: /files/original/14fb2a214a2a9c14fb2a214a2e83.doc
 geo:
   address: 2000 Lakeshore Drive
   lat: 0.0

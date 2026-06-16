@@ -15,12 +15,12 @@ dublin_core:
       text: PICT0878neworleansS&R.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ed216b2e14fb29ed22cb0f.jpg
+  - fullsize: /files/fullsize/14fb29ed216b2e14fb29ed22cb0f.jpg
     id: 20726
     mime: image/jpeg
     original_filename: PICT0878neworleansS&R.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ed216b2e14fb29ed22cb0f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ed216b2e14fb29ed22cb0f.jpg
+    thumb: /files/thumbnails/14fb29ed216b2e14fb29ed22cb0f.jpg
+    url: /files/original/14fb29ed216b2e14fb29ed22cb0f.jpg
 geo:
 id: 23782
 item_type: Still Image

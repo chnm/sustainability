@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c229bbce14fb29c229bfb6.jpg
+  - fullsize: /files/fullsize/14fb29c229bbce14fb29c229bfb6.jpg
     id: 25101
     mime: image/pjpeg
     original_filename: Roof Damage 2_36bc333d7d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c229bbce14fb29c229bfb6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c229bbce14fb29c229bfb6.jpg
+    thumb: /files/thumbnails/14fb29c229bbce14fb29c229bfb6.jpg
+    url: /files/original/14fb29c229bbce14fb29c229bfb6.jpg
 geo:
   address: ''
   lat: 30.02053

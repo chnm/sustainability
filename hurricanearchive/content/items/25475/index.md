@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dd99f95214fb29dd9a02ad.jpg
+  - fullsize: /files/fullsize/14fb29dd99f95214fb29dd9a02ad.jpg
     id: 22388
     mime: image/jpeg
     original_filename: KrisharaJohnson-1_d03c2406c2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dd99f95214fb29dd9a02ad.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dd99f95214fb29dd9a02ad.jpg
+    thumb: /files/thumbnails/14fb29dd99f95214fb29dd9a02ad.jpg
+    url: /files/original/14fb29dd99f95214fb29dd9a02ad.jpg
 geo:
 id: 25475
 item_type: Still Image

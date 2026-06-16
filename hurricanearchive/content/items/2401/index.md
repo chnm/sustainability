@@ -24,12 +24,12 @@ dublin_core:
       text: Looking for the stranded
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66b602f114fb2a66b606c9.jpg
+  - fullsize: /files/fullsize/14fb2a66b602f114fb2a66b606c9.jpg
     id: 1893
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05BZ1_df1b116c6f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66b602f114fb2a66b606c9.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66b602f114fb2a66b606c9.jpg
+    thumb: /files/thumbnails/14fb2a66b602f114fb2a66b606c9.jpg
+    url: /files/original/14fb2a66b602f114fb2a66b606c9.jpg
 geo:
 id: 2401
 item_type: Still Image

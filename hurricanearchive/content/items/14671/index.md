@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a18710d0b14fb2a1871147a.jpg
+  - fullsize: /files/fullsize/14fb2a18710d0b14fb2a1871147a.jpg
     id: 12135
     mime: image/jpeg
     original_filename: GoodShepherd_AlexisMorgan_02_380c0f659c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a18710d0b14fb2a1871147a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a18710d0b14fb2a1871147a.jpg
+    thumb: /files/thumbnails/14fb2a18710d0b14fb2a1871147a.jpg
+    url: /files/original/14fb2a18710d0b14fb2a1871147a.jpg
 geo:
 id: 14671
 item_type: Still Image

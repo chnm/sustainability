@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6871.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d21bec4514fb29d21bf02b.jpg
+  - fullsize: /files/fullsize/14fb29d21bec4514fb29d21bf02b.jpg
     id: 23467
     mime: image/jpg
     original_filename: 161990677_20137ee5cf.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d21bec4514fb29d21bf02b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d21bec4514fb29d21bf02b.jpg
+    thumb: /files/thumbnails/14fb29d21bec4514fb29d21bf02b.jpg
+    url: /files/original/14fb29d21bec4514fb29d21bf02b.jpg
 geo:
 id: 28616
 item_type: Still Image

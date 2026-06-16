@@ -24,12 +24,12 @@ dublin_core:
       text: Flooded New Orleans
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66bbf5f814fb2a66bc022c.jpg
+  - fullsize: /files/fullsize/14fb2a66bbf5f814fb2a66bc022c.jpg
     id: 1886
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05BV4_7d5efb7661.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66bbf5f814fb2a66bc022c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66bbf5f814fb2a66bc022c.jpg
+    thumb: /files/thumbnails/14fb2a66bbf5f814fb2a66bc022c.jpg
+    url: /files/original/14fb2a66bbf5f814fb2a66bc022c.jpg
 geo:
 id: 2394
 item_type: Still Image

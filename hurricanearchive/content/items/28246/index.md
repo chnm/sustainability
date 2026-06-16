@@ -21,12 +21,12 @@ dublin_core:
       text: candlesDetail
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d29e584014fb29d29e5fb0.jpg
+  - fullsize: /files/fullsize/14fb29d29e584014fb29d29e5fb0.jpg
     id: 23399
     mime: image/jpg
     original_filename: 384884883_c3bbcbbf47.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d29e584014fb29d29e5fb0.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d29e584014fb29d29e5fb0.jpg
+    thumb: /files/thumbnails/14fb29d29e584014fb29d29e5fb0.jpg
+    url: /files/original/14fb29d29e584014fb29d29e5fb0.jpg
 geo:
 id: 28246
 item_type: Still Image

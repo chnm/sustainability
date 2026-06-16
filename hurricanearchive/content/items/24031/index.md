@@ -15,12 +15,12 @@ dublin_core:
       text: 501058-R1-21-19AneworleansS&R.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29eb72544314fb29eb730fd5.jpg
+  - fullsize: /files/fullsize/14fb29eb72544314fb29eb730fd5.jpg
     id: 20975
     mime: image/jpeg
     original_filename: 501058-R1-21-19AneworleansS&R.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29eb72544314fb29eb730fd5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29eb72544314fb29eb730fd5.jpg
+    thumb: /files/thumbnails/14fb29eb72544314fb29eb730fd5.jpg
+    url: /files/original/14fb29eb72544314fb29eb730fd5.jpg
 geo:
 id: 24031
 item_type: Still Image

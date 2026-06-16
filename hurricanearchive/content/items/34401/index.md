@@ -17,12 +17,12 @@ dublin_core:
       text: 1064 Clipper
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca3c748414fb29ca3c786a.jpg
+  - fullsize: /files/fullsize/14fb29ca3c748414fb29ca3c786a.jpg
     id: 24235
     mime: image/jpg
     original_filename: 2380072655_a32dc743b2.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca3c748414fb29ca3c786a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca3c748414fb29ca3c786a.jpg
+    thumb: /files/thumbnails/14fb29ca3c748414fb29ca3c786a.jpg
+    url: /files/original/14fb29ca3c748414fb29ca3c786a.jpg
 geo:
   address: ''
   lat: 30.22894

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Roberts, Paige.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871a8aec914fbe871a8b383.doc
+    url: /files/original/14fbe871a8aec914fbe871a8b383.doc
 geo:
 id: 45824
 item_type: Oral History

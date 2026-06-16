@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Terese, Joe.(796).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87203062d14fbe872030a12.doc
+    url: /files/original/14fbe87203062d14fbe872030a12.doc
 geo:
 id: 45864
 item_type: Oral History

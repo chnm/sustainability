@@ -17,7 +17,7 @@ files:
     mime: audio/mpeg
     original_filename: Ahmad - Amtul Bari Chaudhry - (no gift for two members)  Ahmad Family 7-25-06.MP3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e56e30914fbe86e56e6fc.MP3
+    url: /files/original/14fbe86e56e30914fbe86e56e6fc.MP3
 geo:
 id: 45518
 item_type: Oral History

@@ -26,7 +26,7 @@ files:
     mime: application/msword
     original_filename: Perry_88cc0e5944.The Welcomed Challenge of Autonomy.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29caf2704914fb29caf271c2.doc
+    url: /files/original/14fb29caf2704914fb29caf271c2.doc
 geo:
 id: 33291
 item_type: Document

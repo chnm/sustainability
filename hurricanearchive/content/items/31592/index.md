@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc2279b114fb29cc227d97.jpg
+  - fullsize: /files/fullsize/14fb29cc2279b114fb29cc227d97.jpg
     id: 23949
     mime: image/jpeg
     original_filename: 061207NOLA011RWlg_3805115f74.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc2279b114fb29cc227d97.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc2279b114fb29cc227d97.jpg
+    thumb: /files/thumbnails/14fb29cc2279b114fb29cc227d97.jpg
+    url: /files/original/14fb29cc2279b114fb29cc227d97.jpg
 geo:
 id: 31592
 item_type: Still Image

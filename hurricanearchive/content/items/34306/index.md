@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca514bca14fb29ca526edc.jpg
+  - fullsize: /files/fullsize/14fb29ca514bca14fb29ca526edc.jpg
     id: 24217
     mime: image/jpeg
     original_filename: photo_NO-city-hall-housing-is-a-human-right_566a5c6dd4.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca514bca14fb29ca526edc.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca514bca14fb29ca526edc.jpg
+    thumb: /files/thumbnails/14fb29ca514bca14fb29ca526edc.jpg
+    url: /files/original/14fb29ca514bca14fb29ca526edc.jpg
 geo:
 id: 34306
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c569e9fe14fb29c569ede4.jpg
+  - fullsize: /files/fullsize/14fb29c569e9fe14fb29c569ede4.jpg
     id: 24755
     mime: image/pjpeg
     original_filename: Ole Time Mardi Gras_5b8cdaa62b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c569e9fe14fb29c569ede4.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c569e9fe14fb29c569ede4.jpg
+    thumb: /files/thumbnails/14fb29c569e9fe14fb29c569ede4.jpg
+    url: /files/original/14fb29c569e9fe14fb29c569ede4.jpg
 geo:
   address: 3639 Annunciation St
   lat: 0.0

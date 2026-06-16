@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: Hurricane Katrina Bay St.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1a66773014fb2a1a667b8e.pdf
+    url: /files/original/14fb2a1a66773014fb2a1a667b8e.pdf
 geo:
 id: 14254
 item_type: Document

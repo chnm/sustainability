@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Welch, Laura Kristen 8-13-07 Side 1.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87021db2214fbe87021df06.mp3
+    url: /files/original/14fbe87021db2214fbe87021df06.mp3
   - fullsize:
     id: 46187
     mime: audio/mpeg
     original_filename: Welch, Laura Kristen 8-13-07 Side 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87023f32314fbe87023ffe8.mp3
+    url: /files/original/14fbe87023f32314fbe87023ffe8.mp3
 geo:
 id: 45611
 item_type: Oral History

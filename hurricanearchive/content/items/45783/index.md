@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Miller, Charlie.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871519f1514fbe87151a2fd.doc
+    url: /files/original/14fbe871519f1514fbe87151a2fd.doc
 geo:
 id: 45783
 item_type: Oral History

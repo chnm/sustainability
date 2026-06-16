@@ -15,12 +15,12 @@ dublin_core:
       text: 527chinookPicture3.png
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a138c928614fb2a138c970e.jpg
+  - fullsize: /files/fullsize/14fb2a138c928614fb2a138c970e.jpg
     id: 15989
     mime: image/png
     original_filename: 527chinookPicture3.png
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a138c928614fb2a138c970e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a138c928614fb2a138c970e.jpg
+    thumb: /files/thumbnails/14fb2a138c928614fb2a138c970e.jpg
+    url: /files/original/14fb2a138c928614fb2a138c970e.jpg
 geo:
 id: 19036
 item_type: Still Image

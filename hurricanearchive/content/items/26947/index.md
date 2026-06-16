@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: NoThey_2a52be194c.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d5f2390214fb29d5f23b27.pdf
+    url: /files/original/14fb29d5f2390214fb29d5f23b27.pdf
 geo:
 id: 26947
 item_type: Document

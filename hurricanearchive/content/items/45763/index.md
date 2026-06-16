@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Martin, Brian.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8713c6d9614fbe8713c7170.doc
+    url: /files/original/14fbe8713c6d9614fbe8713c7170.doc
 geo:
 id: 45763
 item_type: Oral History

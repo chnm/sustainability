@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: after katrina_9a8809db7d.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce8dd09e14fb29ce8dd483.pdf
+    url: /files/original/14fb29ce8dd09e14fb29ce8dd483.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

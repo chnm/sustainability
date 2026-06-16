@@ -19,7 +19,7 @@ files:
     mime: application/vnd.ms-powerpoint
     original_filename: Storyville_6c566e2ae7.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c50145cd14fb29c50149b4.ppt
+    url: /files/original/14fb29c50145cd14fb29c50149b4.ppt
 geo:
   address: 2112 cambridge dr
   lat: 30.08394

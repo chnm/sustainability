@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a17d0924014fb2a17d09622.jpg
+  - fullsize: /files/fullsize/14fb2a17d0924014fb2a17d09622.jpg
     id: 12194
     mime: image/jpeg
     original_filename: GoodShepherd_KaitlinGlapion_04_ad60f5a62e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a17d0924014fb2a17d09622.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a17d0924014fb2a17d09622.jpg
+    thumb: /files/thumbnails/14fb2a17d0924014fb2a17d09622.jpg
+    url: /files/original/14fb2a17d0924014fb2a17d09622.jpg
 geo:
 id: 14773
 item_type: Still Image

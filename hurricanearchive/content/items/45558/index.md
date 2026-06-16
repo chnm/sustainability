@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Bynum, Stephanie 8-29-06 Katrina.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f180e0914fbe86f1811e8.mp3
+    url: /files/original/14fbe86f180e0914fbe86f1811e8.mp3
   - fullsize:
     id: 46025
     mime: application/msword
     original_filename: Bynum, Stephanie.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f18c59714fbe86f18c979.doc
+    url: /files/original/14fbe86f18c59714fbe86f18c979.doc
 geo:
 id: 45558
 item_type: Oral History

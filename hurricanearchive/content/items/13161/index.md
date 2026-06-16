@@ -15,12 +15,12 @@ dublin_core:
       text: 151 port arthur damage1.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1fbdf98814fb2a1fbdfd6c.jpg
+  - fullsize: /files/fullsize/14fb2a1fbdf98814fb2a1fbdfd6c.jpg
     id: 11171
     mime: image/jpeg
     original_filename: 151 port arthur damage1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1fbdf98814fb2a1fbdfd6c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1fbdf98814fb2a1fbdfd6c.jpg
+    thumb: /files/thumbnails/14fb2a1fbdf98814fb2a1fbdfd6c.jpg
+    url: /files/original/14fb2a1fbdf98814fb2a1fbdfd6c.jpg
 geo:
 id: 13161
 item_type: Still Image

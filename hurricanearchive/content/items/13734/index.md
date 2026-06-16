@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Membership Call June 28_06_0171f8f9c8.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ccaf1e014fb2a1ccaf5c1.doc
+    url: /files/original/14fb2a1ccaf1e014fb2a1ccaf5c1.doc
 geo:
 id: 13734
 item_type: Document

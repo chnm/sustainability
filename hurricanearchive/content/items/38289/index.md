@@ -19,7 +19,7 @@ files:
     mime: application/vnd.openxmlformats-officedocument.presentationml.presentation
     original_filename: A History of Pontchartrain Beach Amusement Park_8c354078fb.pptx
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c52235f314fb29c52239c7.pptx
+    url: /files/original/14fb29c52235f314fb29c52239c7.pptx
 geo:
   address: ''
   lat: 29.80252

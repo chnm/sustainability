@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: backpacknewspapers_f4d3376f5f.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d825b01c14fb29d825b3fc.pdf
+    url: /files/original/14fb29d825b01c14fb29d825b3fc.pdf
 geo:
   address: ''
   lat: 0.0

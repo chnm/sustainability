@@ -17,19 +17,19 @@ files:
     mime: application/msword
     original_filename: Blain, Cheryl Ann.bio.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8705ab20814fbe8705ab5f5.doc
+    url: /files/original/14fbe8705ab20814fbe8705ab5f5.doc
   - fullsize:
     id: 46236
     mime: application/msword
     original_filename: Blain, Cheryl Ann.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8705b59f614fbe8705b5ddc.doc
+    url: /files/original/14fbe8705b59f614fbe8705b5ddc.doc
   - fullsize:
     id: 46237
     mime: application/msword
     original_filename: Blain, Cheryl Ann.toc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8705bfa2114fbe8705bfdfa.doc
+    url: /files/original/14fbe8705bfa2114fbe8705bfdfa.doc
 geo:
 id: 45634
 item_type: Oral History

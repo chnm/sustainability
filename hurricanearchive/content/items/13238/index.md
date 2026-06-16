@@ -15,12 +15,12 @@ dublin_core:
       text: blinds2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1efd418c14fb2a1efd5b64.jpg
+  - fullsize: /files/fullsize/14fb2a1efd418c14fb2a1efd5b64.jpg
     id: 11248
     mime: image/jpeg
     original_filename: blinds2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1efd418c14fb2a1efd5b64.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1efd418c14fb2a1efd5b64.jpg
+    thumb: /files/thumbnails/14fb2a1efd418c14fb2a1efd5b64.jpg
+    url: /files/original/14fb2a1efd418c14fb2a1efd5b64.jpg
 geo:
 id: 13238
 item_type: Still Image

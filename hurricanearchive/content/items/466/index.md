@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6fcb6cd114fb2a6fcb70de.jpg
+  - fullsize: /files/fullsize/14fb2a6fcb6cd114fb2a6fcb70de.jpg
     id: 331
     mime: image/jpeg
     original_filename: Resize_of_Reexposure_of_DSC_0442_8262f22d04.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6fcb6cd114fb2a6fcb70de.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6fcb6cd114fb2a6fcb70de.jpg
+    thumb: /files/thumbnails/14fb2a6fcb6cd114fb2a6fcb70de.jpg
+    url: /files/original/14fb2a6fcb6cd114fb2a6fcb70de.jpg
 geo:
   address: ''
   lat: 30.3989375576187

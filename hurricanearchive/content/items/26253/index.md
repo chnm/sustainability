@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d9411d3314fb29d9412118.jpg
+  - fullsize: /files/fullsize/14fb29d9411d3314fb29d9412118.jpg
     id: 22834
     mime: image/jpeg
     original_filename: AB Pontchartrain Beach_0c4c84c34a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d9411d3314fb29d9412118.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d9411d3314fb29d9412118.jpg
+    thumb: /files/thumbnails/14fb29d9411d3314fb29d9412118.jpg
+    url: /files/original/14fb29d9411d3314fb29d9412118.jpg
 geo:
   address: ''
   lat: 29.87876

@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: ory_92c90c731e.12.05.project.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ca6d53a814fb29ca6d5879.doc
+    url: /files/original/14fb29ca6d53a814fb29ca6d5879.doc
 geo:
 id: 34181
 item_type: Document

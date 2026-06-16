@@ -20,12 +20,12 @@ dublin_core:
       text: Trying to Stay in Business
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbf9fa0614fb29cbf9fdeb.jpg
+  - fullsize: /files/fullsize/14fb29cbf9fa0614fb29cbf9fdeb.jpg
     id: 23984
     mime: image/jpg
     original_filename: 1279844135_f17f1c3c38.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbf9fa0614fb29cbf9fdeb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbf9fa0614fb29cbf9fdeb.jpg
+    thumb: /files/thumbnails/14fb29cbf9fa0614fb29cbf9fdeb.jpg
+    url: /files/original/14fb29cbf9fa0614fb29cbf9fdeb.jpg
 geo:
 id: 32142
 item_type: Still Image

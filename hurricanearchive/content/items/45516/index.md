@@ -17,19 +17,19 @@ files:
     mime: audio/mpeg
     original_filename: Adams, Lee J. (Rev) 06-06-08 pt 1 of 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e509dd314fbe86e50a1bb.mp3
+    url: /files/original/14fbe86e509dd314fbe86e50a1bb.mp3
   - fullsize:
     id: 45897
     mime: audio/mpeg
     original_filename: Adams, Lee J. (Rev.) 06-06-08 pt 2 of 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e514d9414fbe86e51517a.mp3
+    url: /files/original/14fbe86e514d9414fbe86e51517a.mp3
   - fullsize:
     id: 45898
     mime: application/msword
     original_filename: Adams, Lee J.trs copy.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e52ad1c14fbe86e52b106.doc
+    url: /files/original/14fbe86e52ad1c14fbe86e52b106.doc
 geo:
 id: 45516
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: Copy (2) of 09140009.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0af92a4614fb2a0af92e25.jpg
+  - fullsize: /files/fullsize/14fb2a0af92a4614fb2a0af92e25.jpg
     id: 17120
     mime: image/jpeg
     original_filename: Copy (2) of 09140009.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0af92a4614fb2a0af92e25.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0af92a4614fb2a0af92e25.jpg
+    thumb: /files/thumbnails/14fb2a0af92a4614fb2a0af92e25.jpg
+    url: /files/original/14fb2a0af92a4614fb2a0af92e25.jpg
 geo:
 id: 20167
 item_type: Still Image

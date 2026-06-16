@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c2878ae814fb29c2878ec3.jpg
+  - fullsize: /files/fullsize/14fb29c2878ae814fb29c2878ec3.jpg
     id: 25048
     mime: image/jpeg
     original_filename: SCAN0010_08b6e22ac1.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c2878ae814fb29c2878ec3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c2878ae814fb29c2878ec3.jpg
+    thumb: /files/thumbnails/14fb29c2878ae814fb29c2878ec3.jpg
+    url: /files/original/14fb29c2878ae814fb29c2878ec3.jpg
 geo:
   address: 1718 Mendez St.
   lat: 30.01542

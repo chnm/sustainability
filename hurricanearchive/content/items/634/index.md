@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f50d27814fb2a6f50d664.jpg
+  - fullsize: /files/fullsize/14fb2a6f50d27814fb2a6f50d664.jpg
     id: 472
     mime: image/jpeg
     original_filename: Evacuation_090305_005_5a707a2ca5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f50d27814fb2a6f50d664.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f50d27814fb2a6f50d664.jpg
+    thumb: /files/thumbnails/14fb2a6f50d27814fb2a6f50d664.jpg
+    url: /files/original/14fb2a6f50d27814fb2a6f50d664.jpg
 geo:
   address: ''
   lat: 30.342352

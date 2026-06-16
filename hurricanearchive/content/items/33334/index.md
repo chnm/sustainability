@@ -20,7 +20,7 @@ files:
     mime: text/rtf
     original_filename: HansBayer_e2b0548187.int .rtf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cac1eaf214fb29cac1f2d4.rtf
+    url: /files/original/14fb29cac1eaf214fb29cac1f2d4.rtf
 geo:
 id: 33334
 item_type: Document

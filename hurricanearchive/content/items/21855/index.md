@@ -15,12 +15,12 @@ dublin_core:
       text: EO A0012.BMP
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb5dafa014fb29fb5db377.jpg
+  - fullsize: /files/fullsize/14fb29fb5dafa014fb29fb5db377.jpg
     id: 18806
     mime: image/x-ms-bmp
     original_filename: EO A0012.BMP
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb5dafa014fb29fb5db377.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb5dafa014fb29fb5db377.BMP
+    thumb: /files/thumbnails/14fb29fb5dafa014fb29fb5db377.jpg
+    url: /files/original/14fb29fb5dafa014fb29fb5db377.BMP
 geo:
 id: 21855
 item_type: Still Image

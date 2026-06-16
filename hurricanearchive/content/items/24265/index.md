@@ -15,12 +15,12 @@ dublin_core:
       text: 1SG Robinson.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e92be06914fb29e92be43d.jpg
+  - fullsize: /files/fullsize/14fb29e92be06914fb29e92be43d.jpg
     id: 21209
     mime: image/jpeg
     original_filename: 1SG Robinson.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e92be06914fb29e92be43d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e92be06914fb29e92be43d.jpg
+    thumb: /files/thumbnails/14fb29e92be06914fb29e92be43d.jpg
+    url: /files/original/14fb29e92be06914fb29e92be43d.jpg
 geo:
 id: 24265
 item_type: Still Image

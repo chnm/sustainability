@@ -17,7 +17,7 @@ files:
     mime: audio/mpeg
     original_filename: Wolfe, Margaret M. H. 2-21-07.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870457b3314fbe870457f0b.mp3
+    url: /files/original/14fbe870457b3314fbe870457f0b.mp3
 geo:
 id: 45621
 item_type: Oral History

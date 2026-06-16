@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Jennifer A. Garner.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a243c23bf14fb2a243c27a4.html
+    url: /files/original/14fb2a243c23bf14fb2a243c27a4.html
 geo:
 id: 11658
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: 203 sign down.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f50d7cf14fb2a1f50dbb5.jpg
+  - fullsize: /files/fullsize/14fb2a1f50d7cf14fb2a1f50dbb5.jpg
     id: 11219
     mime: image/jpeg
     original_filename: 203 sign down.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f50d7cf14fb2a1f50dbb5.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f50d7cf14fb2a1f50dbb5.jpg
+    thumb: /files/thumbnails/14fb2a1f50d7cf14fb2a1f50dbb5.jpg
+    url: /files/original/14fb2a1f50d7cf14fb2a1f50dbb5.jpg
 geo:
 id: 13209
 item_type: Still Image

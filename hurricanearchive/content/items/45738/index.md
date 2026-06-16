@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Ladner, Marlin R.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871004e9014fbe871005268.doc
+    url: /files/original/14fbe871004e9014fbe871005268.doc
 geo:
 id: 45738
 item_type: Oral History

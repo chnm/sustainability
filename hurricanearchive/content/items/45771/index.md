@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: McCullum, Patrice Y.(811).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87144d00814fbe87144d3fc.doc
+    url: /files/original/14fbe87144d00814fbe87144d3fc.doc
 geo:
 id: 45771
 item_type: Oral History

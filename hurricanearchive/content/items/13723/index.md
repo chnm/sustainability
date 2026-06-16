@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: Projects Conference Call 3_049bdd3884.5.06.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ce3c84614fb2a1ce3cc21.doc
+    url: /files/original/14fb2a1ce3c84614fb2a1ce3cc21.doc
 geo:
 id: 13723
 item_type: Document

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d41ae3fe14fb29d41ae7db.jpg
+  - fullsize: /files/fullsize/14fb29d41ae3fe14fb29d41ae7db.jpg
     id: 23244
     mime: image/pjpeg
     original_filename: DADDY Spur Gas Baseball Team 1937 - ORIGINAL_bfc1710546.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d41ae3fe14fb29d41ae7db.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d41ae3fe14fb29d41ae7db.jpg
+    thumb: /files/thumbnails/14fb29d41ae3fe14fb29d41ae7db.jpg
+    url: /files/original/14fb29d41ae3fe14fb29d41ae7db.jpg
 geo:
   address: 918 Papworth Avenue, Metairie
   lat: 30.00126

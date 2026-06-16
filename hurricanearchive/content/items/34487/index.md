@@ -21,12 +21,12 @@ dublin_core:
       text: French Quarater Buggy
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9b7c4d114fb29c9b7c8ae.jpg
+  - fullsize: /files/fullsize/14fb29c9b7c4d114fb29c9b7c8ae.jpg
     id: 24321
     mime: image/jpg
     original_filename: 2310200477_35584a3eab.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9b7c4d114fb29c9b7c8ae.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9b7c4d114fb29c9b7c8ae.jpg
+    thumb: /files/thumbnails/14fb29c9b7c4d114fb29c9b7c8ae.jpg
+    url: /files/original/14fb29c9b7c4d114fb29c9b7c8ae.jpg
 geo:
   address: ''
   lat: 30.22586

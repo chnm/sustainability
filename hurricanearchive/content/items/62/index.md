@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a712d3b2014fb2a712e6d4f.jpg
+  - fullsize: /files/fullsize/14fb2a712d3b2014fb2a712e6d4f.jpg
     id: 41
     mime: image/jpeg
     original_filename: refugeessuperdome_053b17b5f4.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a712d3b2014fb2a712e6d4f.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a712d3b2014fb2a712e6d4f.jpg
+    thumb: /files/thumbnails/14fb2a712d3b2014fb2a712e6d4f.jpg
+    url: /files/original/14fb2a712d3b2014fb2a712e6d4f.jpg
 geo:
   address: ''
   lat: 29.958304

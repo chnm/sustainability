@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0001 corp.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1385582814fb2a13855c0e.jpg
+  - fullsize: /files/fullsize/14fb2a1385582814fb2a13855c0e.jpg
     id: 15997
     mime: image/jpeg
     original_filename: DSC 0001 corp.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1385582814fb2a13855c0e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1385582814fb2a13855c0e.jpg
+    thumb: /files/thumbnails/14fb2a1385582814fb2a13855c0e.jpg
+    url: /files/original/14fb2a1385582814fb2a13855c0e.jpg
 geo:
 id: 19044
 item_type: Still Image

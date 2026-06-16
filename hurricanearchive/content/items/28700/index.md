@@ -14,12 +14,12 @@ dublin_core:
       text: Outside a hurricane damaged house
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d18998e514fb29d1899cca.jpg
+  - fullsize: /files/fullsize/14fb29d18998e514fb29d1899cca.jpg
     id: 23544
     mime: image/jpg
     original_filename: 114540049_5c2ccb5f6d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d18998e514fb29d1899cca.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d18998e514fb29d1899cca.jpg
+    thumb: /files/thumbnails/14fb29d18998e514fb29d1899cca.jpg
+    url: /files/original/14fb29d18998e514fb29d1899cca.jpg
 geo:
 id: 28700
 item_type: Still Image

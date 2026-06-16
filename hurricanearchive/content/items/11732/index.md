@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: jessicapierce.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23bd92a514fb2a23bd9683.html
+    url: /files/original/14fb2a23bd92a514fb2a23bd9683.html
 geo:
 id: 11732
 item_type: Oral History

@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 18 2005 Beach lots on Bolivar remain hot properties.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a359c142914fb2a359c180c.txt
+    url: /files/original/14fb2a359c142914fb2a359c180c.txt
 geo:
   address: ''
   lat: 0.0

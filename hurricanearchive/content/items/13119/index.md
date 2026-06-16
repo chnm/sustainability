@@ -15,12 +15,12 @@ dublin_core:
       text: george roof rack.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a204e918214fb2a204e95e0.jpg
+  - fullsize: /files/fullsize/14fb2a204e918214fb2a204e95e0.jpg
     id: 11129
     mime: image/jpeg
     original_filename: george roof rack.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a204e918214fb2a204e95e0.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a204e918214fb2a204e95e0.jpg
+    thumb: /files/thumbnails/14fb2a204e918214fb2a204e95e0.jpg
+    url: /files/original/14fb2a204e918214fb2a204e95e0.jpg
 geo:
 id: 13119
 item_type: Still Image

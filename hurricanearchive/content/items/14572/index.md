@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: BIENVENUE[activities]_61eb2a9305.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18cf0cec14fb2a18cf102d.doc
+    url: /files/original/14fb2a18cf0cec14fb2a18cf102d.doc
 geo:
 id: 14572
 item_type: Document

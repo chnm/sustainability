@@ -15,12 +15,12 @@ dublin_core:
       text: adams.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1aa0f15614fb2a1aa0f505.jpg
+  - fullsize: /files/fullsize/14fb2a1aa0f15614fb2a1aa0f505.jpg
     id: 11845
     mime: image/jpeg
     original_filename: adams.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1aa0f15614fb2a1aa0f505.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1aa0f15614fb2a1aa0f505.jpg
+    thumb: /files/thumbnails/14fb2a1aa0f15614fb2a1aa0f505.jpg
+    url: /files/original/14fb2a1aa0f15614fb2a1aa0f505.jpg
 geo:
   address: ''
   lat: 0.0

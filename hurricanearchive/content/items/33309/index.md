@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_47228422f9.Getting it out in the open.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cad3bbe414fb29cad3bfcb.doc
+    url: /files/original/14fb29cad3bbe414fb29cad3bfcb.doc
 geo:
 id: 33309
 item_type: Document

@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Mark Edwards HK2056K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d61c295814fb29d61c2df9.mp3
+    url: /files/original/14fb29d61c295814fb29d61c2df9.mp3
 geo:
 id: 26932
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: Sidney Collier 2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb15050a14fb29fb1508ee.jpg
+  - fullsize: /files/fullsize/14fb29fb15050a14fb29fb1508ee.jpg
     id: 18849
     mime: image/jpeg
     original_filename: Sidney Collier 2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb15050a14fb29fb1508ee.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb15050a14fb29fb1508ee.jpg
+    thumb: /files/thumbnails/14fb29fb15050a14fb29fb1508ee.jpg
+    url: /files/original/14fb29fb15050a14fb29fb1508ee.jpg
 geo:
 id: 21898
 item_type: Still Image

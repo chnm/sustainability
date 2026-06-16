@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1821bacc14fb2a1821beb0.jpg
+  - fullsize: /files/fullsize/14fb2a1821bacc14fb2a1821beb0.jpg
     id: 12155
     mime: image/jpeg
     original_filename: GoodShepherd_CameronSimms_03_a62f5275e5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1821bacc14fb2a1821beb0.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1821bacc14fb2a1821beb0.jpg
+    thumb: /files/thumbnails/14fb2a1821bacc14fb2a1821beb0.jpg
+    url: /files/original/14fb2a1821bacc14fb2a1821beb0.jpg
 geo:
 id: 14695
 item_type: Still Image

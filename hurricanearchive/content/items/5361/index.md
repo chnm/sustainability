@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a530e63af14fb2a530e6794.jpg
+  - fullsize: /files/fullsize/14fb2a530e63af14fb2a530e6794.jpg
     id: 4377
     mime: image/jpeg
     original_filename: rat's next rd vera's 2_1052d7fa02.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a530e63af14fb2a530e6794.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a530e63af14fb2a530e6794.jpg
+    thumb: /files/thumbnails/14fb2a530e63af14fb2a530e6794.jpg
+    url: /files/original/14fb2a530e63af14fb2a530e6794.jpg
 geo:
   address: ''
   lat: 30.27841

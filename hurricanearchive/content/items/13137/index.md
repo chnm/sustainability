@@ -15,12 +15,12 @@ dublin_core:
       text: tree courtyard end.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20281da714fb2a20284d8b.jpg
+  - fullsize: /files/fullsize/14fb2a20281da714fb2a20284d8b.jpg
     id: 11147
     mime: image/jpeg
     original_filename: tree courtyard end.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20281da714fb2a20284d8b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20281da714fb2a20284d8b.jpg
+    thumb: /files/thumbnails/14fb2a20281da714fb2a20284d8b.jpg
+    url: /files/original/14fb2a20281da714fb2a20284d8b.jpg
 geo:
 id: 13137
 item_type: Still Image

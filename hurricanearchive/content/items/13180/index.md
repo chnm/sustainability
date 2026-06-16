@@ -15,12 +15,12 @@ dublin_core:
       text: 172 extreme flooding.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f8df04614fb2a1f8df40b.jpg
+  - fullsize: /files/fullsize/14fb2a1f8df04614fb2a1f8df40b.jpg
     id: 11190
     mime: image/jpeg
     original_filename: 172 extreme flooding.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f8df04614fb2a1f8df40b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f8df04614fb2a1f8df40b.jpg
+    thumb: /files/thumbnails/14fb2a1f8df04614fb2a1f8df40b.jpg
+    url: /files/original/14fb2a1f8df04614fb2a1f8df40b.jpg
 geo:
 id: 13180
 item_type: Still Image

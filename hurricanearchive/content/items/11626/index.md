@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: ColleenBond.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2471247c14fb2a2471285a.html
+    url: /files/original/14fb2a2471247c14fb2a2471285a.html
 geo:
 id: 11626
 item_type: Oral History

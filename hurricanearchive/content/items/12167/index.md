@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: Voices Issue 2.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2242ce3214fb2a2242d219.pdf
+    url: /files/original/14fb2a2242ce3214fb2a2242d219.pdf
 geo:
 id: 12167
 item_type: Document

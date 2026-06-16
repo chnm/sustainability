@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cd704e9414fb29cd705278.jpg
+  - fullsize: /files/fullsize/14fb29cd704e9414fb29cd705278.jpg
     id: 23768
     mime: image/jpeg
     original_filename: IMG_0353_17271c5529.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cd704e9414fb29cd705278.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cd704e9414fb29cd705278.jpg
+    thumb: /files/thumbnails/14fb29cd704e9414fb29cd705278.jpg
+    url: /files/original/14fb29cd704e9414fb29cd705278.jpg
 geo:
 id: 30038
 item_type: Still Image

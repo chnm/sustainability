@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0100-21.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e7778b9814fb29e7778f76.jpg
+  - fullsize: /files/fullsize/14fb29e7778b9814fb29e7778f76.jpg
     id: 21414
     mime: image/jpeg
     original_filename: DSC 0100-21.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e7778b9814fb29e7778f76.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e7778b9814fb29e7778f76.jpg
+    thumb: /files/thumbnails/14fb29e7778b9814fb29e7778f76.jpg
+    url: /files/original/14fb29e7778b9814fb29e7778f76.jpg
 geo:
 id: 24470
 item_type: Still Image

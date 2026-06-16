@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: MINUTES5_17_06_c5b8eafc5d.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cd80bef14fb2a1cd908ae.doc
+    url: /files/original/14fb2a1cd80bef14fb2a1cd908ae.doc
 geo:
 id: 13727
 item_type: Document

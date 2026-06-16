@@ -19,18 +19,18 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d9d8853114fb29d9d88cb5.jpg
+  - fullsize: /files/fullsize/14fb29d9d8853114fb29d9d88cb5.jpg
     id: 22777
     mime: image/jpeg
     original_filename: PGWinners_58d4149756.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d9d8853114fb29d9d88cb5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d9d8853114fb29d9d88cb5.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d9d1cf4214fb29d9d1d23a.jpg
+    thumb: /files/thumbnails/14fb29d9d8853114fb29d9d88cb5.jpg
+    url: /files/original/14fb29d9d8853114fb29d9d88cb5.jpg
+  - fullsize: /files/fullsize/14fb29d9d1cf4214fb29d9d1d23a.jpg
     id: 22778
     mime: image/jpeg
     original_filename: redfishcatch_965f7eb624.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d9d1cf4214fb29d9d1d23a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d9d1cf4214fb29d9d1d23a.jpg
+    thumb: /files/thumbnails/14fb29d9d1cf4214fb29d9d1d23a.jpg
+    url: /files/original/14fb29d9d1cf4214fb29d9d1d23a.jpg
 geo:
 id: 26171
 item_type: Still Image

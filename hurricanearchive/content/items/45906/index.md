@@ -14,12 +14,12 @@ dublin_core:
       text: MREs
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/335bbb761c6d9c58e77c6955e70b4ba8.jpg
+  - fullsize: /files/fullsize/335bbb761c6d9c58e77c6955e70b4ba8.jpg
     id: 46535
     mime: image/jpeg
     original_filename: MRE.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/335bbb761c6d9c58e77c6955e70b4ba8.jpg
-    url: https://hurricanearchive.org/files/original/335bbb761c6d9c58e77c6955e70b4ba8.jpg
+    thumb: /files/thumbnails/335bbb761c6d9c58e77c6955e70b4ba8.jpg
+    url: /files/original/335bbb761c6d9c58e77c6955e70b4ba8.jpg
 geo:
   address: ''
   lat: 29.961094176695

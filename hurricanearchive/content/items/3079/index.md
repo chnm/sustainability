@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Patrick Thies.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e1eacd714fb2a5e1eb0bc.wav
+    url: /files/original/14fb2a5e1eacd714fb2a5e1eb0bc.wav
 geo:
 id: 3079
 item_type: Oral History

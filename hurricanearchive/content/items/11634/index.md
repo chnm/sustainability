@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: David Barnes.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a246c3c9414fb2a246c4081.htm
+    url: /files/original/14fb2a246c3c9414fb2a246c4081.htm
 geo:
 id: 11634
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: Fox News interview.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b93099214fb2a1b930d77.jpg
+  - fullsize: /files/fullsize/14fb2a1b93099214fb2a1b930d77.jpg
     id: 11780
     mime: image/jpeg
     original_filename: Fox News interview.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b93099214fb2a1b930d77.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b93099214fb2a1b930d77.jpg
+    thumb: /files/thumbnails/14fb2a1b93099214fb2a1b930d77.jpg
+    url: /files/original/14fb2a1b93099214fb2a1b930d77.jpg
 geo:
   address: ''
   lat: 0.0

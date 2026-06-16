@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6fbdd6f014fb2a6fbddad6.jpg
+  - fullsize: /files/fullsize/14fb2a6fbdd6f014fb2a6fbddad6.jpg
     id: 343
     mime: image/jpeg
     original_filename: Dulac_2254_d9dc1bf468.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6fbdd6f014fb2a6fbddad6.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6fbdd6f014fb2a6fbddad6.jpg
+    thumb: /files/thumbnails/14fb2a6fbdd6f014fb2a6fbddad6.jpg
+    url: /files/original/14fb2a6fbdd6f014fb2a6fbddad6.jpg
 geo:
   address: ''
   lat: 29.3486636465236

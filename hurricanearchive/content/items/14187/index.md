@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: SPC King and PFC Hymel 24SEP2005.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ac158a314fb2a1ac298f7.wav
+    url: /files/original/14fb2a1ac158a314fb2a1ac298f7.wav
 geo:
   address: ''
   lat: 0.0

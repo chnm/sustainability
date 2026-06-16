@@ -15,12 +15,12 @@ dublin_core:
       text: DSCN0020.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1ba44d7414fb2a1ba451bc.jpg
+  - fullsize: /files/fullsize/14fb2a1ba44d7414fb2a1ba451bc.jpg
     id: 11772
     mime: image/jpeg
     original_filename: DSCN0020.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1ba44d7414fb2a1ba451bc.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1ba44d7414fb2a1ba451bc.jpg
+    thumb: /files/thumbnails/14fb2a1ba44d7414fb2a1ba451bc.jpg
+    url: /files/original/14fb2a1ba44d7414fb2a1ba451bc.jpg
 geo:
   address: ''
   lat: 0.0

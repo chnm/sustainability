@@ -18,12 +18,12 @@ dublin_core:
       text: Lyndel, Guest Bedroom
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca60163814fb29ca601a1d.jpg
+  - fullsize: /files/fullsize/14fb29ca60163814fb29ca601a1d.jpg
     id: 24205
     mime: image/jpeg
     original_filename: Lyndel house (9) (2)_ff844d7113.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca60163814fb29ca601a1d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca60163814fb29ca601a1d.jpg
+    thumb: /files/thumbnails/14fb29ca60163814fb29ca601a1d.jpg
+    url: /files/original/14fb29ca60163814fb29ca601a1d.jpg
 geo:
   address: ''
   lat: 0.0

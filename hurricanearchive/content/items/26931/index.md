@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Leslie York HK2256K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d62103cd14fb29d62120ca.mp3
+    url: /files/original/14fb29d62103cd14fb29d62120ca.mp3
 geo:
 id: 26931
 item_type: Oral History

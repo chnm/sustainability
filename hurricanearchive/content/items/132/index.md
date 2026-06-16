@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a70e744f814fb2a70e748dd.jpg
+  - fullsize: /files/fullsize/14fb2a70e744f814fb2a70e748dd.jpg
     id: 105
     mime: image/jpeg
     original_filename: katrinapolice_1b285a454c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a70e744f814fb2a70e748dd.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a70e744f814fb2a70e748dd.jpg
+    thumb: /files/thumbnails/14fb2a70e744f814fb2a70e748dd.jpg
+    url: /files/original/14fb2a70e744f814fb2a70e748dd.jpg
 geo:
   address: ''
   lat: 29.922505998090802

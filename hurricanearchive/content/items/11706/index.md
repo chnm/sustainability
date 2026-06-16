@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Susan Kate Richardson.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23daddc114fb2a23dae185.htm
+    url: /files/original/14fb2a23daddc114fb2a23dae185.htm
 geo:
 id: 11706
 item_type: Oral History

@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: Notice to Law Students_5f6799474f.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18ac75ed14fb2a18ac79d6.doc
+    url: /files/original/14fb2a18ac75ed14fb2a18ac79d6.doc
 geo:
 id: 14582
 item_type: Document

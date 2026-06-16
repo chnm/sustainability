@@ -15,12 +15,12 @@ dublin_core:
       text: traffic4.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e6c752714fb2a1e6c78ac.jpg
+  - fullsize: /files/fullsize/14fb2a1e6c752714fb2a1e6c78ac.jpg
     id: 11278
     mime: image/jpeg
     original_filename: traffic4.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e6c752714fb2a1e6c78ac.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e6c752714fb2a1e6c78ac.jpg
+    thumb: /files/thumbnails/14fb2a1e6c752714fb2a1e6c78ac.jpg
+    url: /files/original/14fb2a1e6c752714fb2a1e6c78ac.jpg
 geo:
 id: 13268
 item_type: Still Image

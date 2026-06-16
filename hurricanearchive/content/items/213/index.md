@@ -25,7 +25,7 @@ files:
     mime: application/pdf
     original_filename: Katrina_Article_61c031491d.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a70821a3614fb2a70821cd4.pdf
+    url: /files/original/14fb2a70821a3614fb2a70821cd4.pdf
 geo:
   address: ''
   lat: 29.958304

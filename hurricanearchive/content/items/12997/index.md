@@ -19,7 +19,7 @@ files:
     mime: text/html
     original_filename: trailer_ea40c10ba2.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a213ba27414fb2a213ba68f.html
+    url: /files/original/14fb2a213ba27414fb2a213ba68f.html
 geo:
 id: 12997
 item_type: Document

@@ -17,7 +17,7 @@ files:
     mime: application/pdf
     original_filename: LexisNexis_SHNnarrative_2726d6cb8b.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18b19ed414fb2a18b1a35e.pdf
+    url: /files/original/14fb2a18b19ed414fb2a18b1a35e.pdf
 geo:
 id: 14581
 item_type: Document

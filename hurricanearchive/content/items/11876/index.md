@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: markmcnabb.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a22f3518814fb2a22f3556d.htm
+    url: /files/original/14fb2a22f3518814fb2a22f3556d.htm
 geo:
 id: 11876
 item_type: Document

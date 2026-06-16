@@ -24,12 +24,12 @@ dublin_core:
       text: Distributing Ice in Gulfport, MS
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66887f2514fb2a668882a4.jpg
+  - fullsize: /files/fullsize/14fb2a66887f2514fb2a668882a4.jpg
     id: 1910
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05C6D_58b76467d6.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66887f2514fb2a668882a4.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66887f2514fb2a668882a4.jpg
+    thumb: /files/thumbnails/14fb2a66887f2514fb2a668882a4.jpg
+    url: /files/original/14fb2a66887f2514fb2a668882a4.jpg
 geo:
 id: 2418
 item_type: Still Image

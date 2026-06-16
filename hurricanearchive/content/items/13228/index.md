@@ -15,12 +15,12 @@ dublin_core:
       text: 223 sheet metal.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f29001214fb2a1f2903af.jpg
+  - fullsize: /files/fullsize/14fb2a1f29001214fb2a1f2903af.jpg
     id: 11238
     mime: image/jpeg
     original_filename: 223 sheet metal.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f29001214fb2a1f2903af.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f29001214fb2a1f2903af.jpg
+    thumb: /files/thumbnails/14fb2a1f29001214fb2a1f2903af.jpg
+    url: /files/original/14fb2a1f29001214fb2a1f2903af.jpg
 geo:
 id: 13228
 item_type: Still Image

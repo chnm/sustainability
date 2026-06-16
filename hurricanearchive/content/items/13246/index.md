@@ -15,12 +15,12 @@ dublin_core:
       text: enough with the palm tree.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1eb2d06314fb2a1eb2d75d.jpg
+  - fullsize: /files/fullsize/14fb2a1eb2d06314fb2a1eb2d75d.jpg
     id: 11256
     mime: image/jpeg
     original_filename: enough with the palm tree.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1eb2d06314fb2a1eb2d75d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1eb2d06314fb2a1eb2d75d.jpg
+    thumb: /files/thumbnails/14fb2a1eb2d06314fb2a1eb2d75d.jpg
+    url: /files/original/14fb2a1eb2d06314fb2a1eb2d75d.jpg
 geo:
 id: 13246
 item_type: Still Image

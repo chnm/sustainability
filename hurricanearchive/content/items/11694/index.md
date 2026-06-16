@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Robin Stone.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23ea214014fb2a23ea2526.html
+    url: /files/original/14fb2a23ea214014fb2a23ea2526.html
 geo:
 id: 11694
 item_type: Oral History

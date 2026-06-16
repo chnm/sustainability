@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Maj Anthony Randall and LT David Stuever.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e2588c514fb2a5e258c86.wav
+    url: /files/original/14fb2a5e2588c514fb2a5e258c86.wav
 geo:
 id: 3073
 item_type: Oral History

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Rikki Johlene Sherman.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23edb31614fb2a23edb707.html
+    url: /files/original/14fb2a23edb31614fb2a23edb707.html
 geo:
 id: 11690
 item_type: Oral History

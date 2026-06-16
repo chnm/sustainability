@@ -15,12 +15,12 @@ dublin_core:
       text: shrimping boats.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e7c607014fb2a1e7c6456.jpg
+  - fullsize: /files/fullsize/14fb2a1e7c607014fb2a1e7c6456.jpg
     id: 11272
     mime: image/jpeg
     original_filename: shrimping boats.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e7c607014fb2a1e7c6456.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e7c607014fb2a1e7c6456.jpg
+    thumb: /files/thumbnails/14fb2a1e7c607014fb2a1e7c6456.jpg
+    url: /files/original/14fb2a1e7c607014fb2a1e7c6456.jpg
 geo:
 id: 13262
 item_type: Still Image

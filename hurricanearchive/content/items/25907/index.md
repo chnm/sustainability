@@ -19,7 +19,7 @@ files:
     mime: video/x-ms-wmv
     original_filename: Same_Struggle02_146722c352.wmv
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbd02c9f14fb29dbd0339a.wmv
+    url: /files/original/14fb29dbd02c9f14fb29dbd0339a.wmv
 geo:
   address: 125 S Buchanan St, Lafayette, LA
   lat: 30.23045

@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dbccd1b414fb29dbccd598.jpg
+  - fullsize: /files/fullsize/14fb29dbccd1b414fb29dbccd598.jpg
     id: 22596
     mime: image/jpeg
     original_filename: evacuee_stories_5_cae4c9d67c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dbccd1b414fb29dbccd598.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dbccd1b414fb29dbccd598.jpg
+    thumb: /files/thumbnails/14fb29dbccd1b414fb29dbccd598.jpg
+    url: /files/original/14fb29dbccd1b414fb29dbccd598.jpg
 geo:
   address: 125 S Buchanan St, Lafayette, LA
   lat: 30.23045

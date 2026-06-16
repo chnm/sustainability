@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d78201cc14fb29d78203ca.jpg
+  - fullsize: /files/fullsize/14fb29d78201cc14fb29d78203ca.jpg
     id: 23024
     mime: image/jpeg
     original_filename: darrylbreauxfootball_cf0bab32a1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d78201cc14fb29d78203ca.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d78201cc14fb29d78203ca.jpg
+    thumb: /files/thumbnails/14fb29d78201cc14fb29d78203ca.jpg
+    url: /files/original/14fb29d78201cc14fb29d78203ca.jpg
 geo:
 id: 26840
 item_type: Still Image

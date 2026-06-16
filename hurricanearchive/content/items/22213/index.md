@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 1020Jacksonbarracks.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f914e2bd14fb29f914ee48.jpg
+  - fullsize: /files/fullsize/14fb29f914e2bd14fb29f914ee48.jpg
     id: 19164
     mime: image/jpeg
     original_filename: DSC 1020Jacksonbarracks.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f914e2bd14fb29f914ee48.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f914e2bd14fb29f914ee48.jpg
+    thumb: /files/thumbnails/14fb29f914e2bd14fb29f914ee48.jpg
+    url: /files/original/14fb29f914e2bd14fb29f914ee48.jpg
 geo:
 id: 22213
 item_type: Still Image

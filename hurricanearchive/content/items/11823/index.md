@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Pass Christian Mississippi BULL.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2330b1b414fb2a2330b5a1.doc
+    url: /files/original/14fb2a2330b1b414fb2a2330b5a1.doc
 geo:
 id: 11823
 item_type: Document

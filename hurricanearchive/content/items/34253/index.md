@@ -15,12 +15,12 @@ dublin_core:
       text: Living Room, Lyndel Drive, 2
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca6647ae14fb29ca664b92.jpg
+  - fullsize: /files/fullsize/14fb29ca6647ae14fb29ca664b92.jpg
     id: 24201
     mime: image/jpeg
     original_filename: Lyndell Damage (8) (2)_8781465fd3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca6647ae14fb29ca664b92.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca6647ae14fb29ca664b92.jpg
+    thumb: /files/thumbnails/14fb29ca6647ae14fb29ca664b92.jpg
+    url: /files/original/14fb29ca6647ae14fb29ca664b92.jpg
 geo:
   address: ''
   lat: 0.0

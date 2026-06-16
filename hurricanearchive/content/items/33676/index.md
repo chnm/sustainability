@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: How to Destroy an African American City_6c1727390e.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29caac616814fb29caac654d.doc
+    url: /files/original/14fb29caac616814fb29caac654d.doc
 geo:
 id: 33676
 item_type: Document

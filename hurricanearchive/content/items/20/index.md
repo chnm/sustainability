@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a714834b014fb2a71483892.jpg
+  - fullsize: /files/fullsize/14fb2a714834b014fb2a71483892.jpg
     id: 8
     mime: image/jpeg
     original_filename: outoftown2_3dcb3a5307.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a714834b014fb2a71483892.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a714834b014fb2a71483892.jpg
+    thumb: /files/thumbnails/14fb2a714834b014fb2a71483892.jpg
+    url: /files/original/14fb2a714834b014fb2a71483892.jpg
 geo:
   address: ''
   lat: 30.306355057899

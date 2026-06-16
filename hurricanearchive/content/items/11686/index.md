@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Nikki K Kiser.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23f1f1fa14fb2a23f1fd1d.html
+    url: /files/original/14fb2a23f1f1fa14fb2a23f1fd1d.html
 geo:
 id: 11686
 item_type: Oral History

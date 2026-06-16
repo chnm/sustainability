@@ -17,12 +17,12 @@ dublin_core:
       text: Tony\'s Mid City
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb24dba514fb29cb24df82.jpg
+  - fullsize: /files/fullsize/14fb29cb24dba514fb29cb24df82.jpg
     id: 24102
     mime: image/jpg
     original_filename: 1231327908_1ae93b41ce.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb24dba514fb29cb24df82.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb24dba514fb29cb24df82.jpg
+    thumb: /files/thumbnails/14fb29cb24dba514fb29cb24df82.jpg
+    url: /files/original/14fb29cb24dba514fb29cb24df82.jpg
 geo:
 id: 33252
 item_type: Still Image

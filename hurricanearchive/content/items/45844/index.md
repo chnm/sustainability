@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Shelly, Guss.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871e950cb14fbe871e95645.doc
+    url: /files/original/14fbe871e950cb14fbe871e95645.doc
 geo:
 id: 45844
 item_type: Oral History

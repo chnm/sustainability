@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c513119214fb29c5131570.jpg
+  - fullsize: /files/fullsize/14fb29c513119214fb29c5131570.jpg
     id: 24803
     mime: image/jpeg
     original_filename: Twisted FDL 2007_2b63ee5c5a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c513119214fb29c5131570.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c513119214fb29c5131570.jpg
+    thumb: /files/thumbnails/14fb29c513119214fb29c5131570.jpg
+    url: /files/original/14fb29c513119214fb29c5131570.jpg
 geo:
   address: ''
   lat: 0.0

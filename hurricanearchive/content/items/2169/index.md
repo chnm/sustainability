@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6d8b5b0b14fb2a6d8b5eef.jpg
+  - fullsize: /files/fullsize/14fb2a6d8b5b0b14fb2a6d8b5eef.jpg
     id: 858
     mime: image/jpeg
     original_filename: 14_14_beb55409c1.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6d8b5b0b14fb2a6d8b5eef.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6d8b5b0b14fb2a6d8b5eef.jpg
+    thumb: /files/thumbnails/14fb2a6d8b5b0b14fb2a6d8b5eef.jpg
+    url: /files/original/14fb2a6d8b5b0b14fb2a6d8b5eef.jpg
 geo:
   address: ''
   lat: 31.1046852937585

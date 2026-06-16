@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Treasurebay.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a231af40a14fb2a231af7ee.doc
+    url: /files/original/14fb2a231af40a14fb2a231af7ee.doc
 geo:
 id: 11841
 item_type: Document

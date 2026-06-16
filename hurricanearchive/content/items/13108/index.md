@@ -15,12 +15,12 @@ dublin_core:
       text: end tree scrape.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a205bf4e814fb2a205bf8c4.jpg
+  - fullsize: /files/fullsize/14fb2a205bf4e814fb2a205bf8c4.jpg
     id: 11118
     mime: image/jpeg
     original_filename: end tree scrape.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a205bf4e814fb2a205bf8c4.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a205bf4e814fb2a205bf8c4.jpg
+    thumb: /files/thumbnails/14fb2a205bf4e814fb2a205bf8c4.jpg
+    url: /files/original/14fb2a205bf4e814fb2a205bf8c4.jpg
 geo:
 id: 13108
 item_type: Still Image

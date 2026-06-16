@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a165937f214fb2a16593fbe.jpg
+  - fullsize: /files/fullsize/14fb2a165937f214fb2a16593fbe.jpg
     id: 12429
     mime: image/pjpeg
     original_filename: Lake Villa_cfbf2b48c6.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a165937f214fb2a16593fbe.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a165937f214fb2a16593fbe.jpg
+    thumb: /files/thumbnails/14fb2a165937f214fb2a16593fbe.jpg
+    url: /files/original/14fb2a165937f214fb2a16593fbe.jpg
 geo:
   address: ''
   lat: 30.00991

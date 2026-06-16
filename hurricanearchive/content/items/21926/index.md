@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: st bernard water recedes 11sep grid.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29faf70a2714fb29faf70e5b.pdf
+    url: /files/original/14fb29faf70a2714fb29faf70e5b.pdf
 geo:
 id: 21926
 item_type: Document

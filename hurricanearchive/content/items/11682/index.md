@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Michelle Mae Dupree.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23f4fb9d14fb2a24015903.html
+    url: /files/original/14fb2a23f4fb9d14fb2a24015903.html
 geo:
 id: 11682
 item_type: Oral History

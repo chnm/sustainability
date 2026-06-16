@@ -19,7 +19,7 @@ files:
     mime: application/msword
     original_filename: Hanrahan_530c148bac.Afinalpaper.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2250ecff14fb2a2250f0e5.doc
+    url: /files/original/14fb2a2250ecff14fb2a2250f0e5.doc
 geo:
 id: 12031
 item_type: Document

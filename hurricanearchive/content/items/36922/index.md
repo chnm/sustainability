@@ -23,7 +23,7 @@ files:
     mime: audio/x-ms-wma
     original_filename: 03 Track 3_e1e1099ac0.wma
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c572503714fb29c572541d.wma
+    url: /files/original/14fb29c572503714fb29c572541d.wma
 geo:
 id: 36922
 item_type: Document

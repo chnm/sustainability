@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: dgriffith_cbc6853791.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce5e264014fb29ce5e2948.pdf
+    url: /files/original/14fb29ce5e264014fb29ce5e2948.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

@@ -23,7 +23,7 @@ files:
     mime: application/octet-stream
     original_filename: notes1-29-06admin_ef144c8345.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cfa490014fb2a1cfa4adb.doc
+    url: /files/original/14fb2a1cfa490014fb2a1cfa4adb.doc
 geo:
 id: 13716
 item_type: Document

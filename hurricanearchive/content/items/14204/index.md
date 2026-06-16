@@ -15,12 +15,12 @@ dublin_core:
       text: boats in armory.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1a9a9e1214fb2a1a9aa1f8.jpg
+  - fullsize: /files/fullsize/14fb2a1a9a9e1214fb2a1a9aa1f8.jpg
     id: 11848
     mime: image/jpeg
     original_filename: boats in armory.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1a9a9e1214fb2a1a9aa1f8.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1a9a9e1214fb2a1a9aa1f8.jpg
+    thumb: /files/thumbnails/14fb2a1a9a9e1214fb2a1a9aa1f8.jpg
+    url: /files/original/14fb2a1a9a9e1214fb2a1a9aa1f8.jpg
 geo:
   address: ''
   lat: 0.0

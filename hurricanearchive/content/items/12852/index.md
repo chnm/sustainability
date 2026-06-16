@@ -15,12 +15,12 @@ dublin_core:
       text: Elisian Fields McDonalds sign.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a21703da214fb2a2170417e.jpg
+  - fullsize: /files/fullsize/14fb2a21703da214fb2a2170417e.jpg
     id: 10996
     mime: image/jpeg
     original_filename: Elisian Fields McDonalds sign.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a21703da214fb2a2170417e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a21703da214fb2a2170417e.jpg
+    thumb: /files/thumbnails/14fb2a21703da214fb2a2170417e.jpg
+    url: /files/original/14fb2a21703da214fb2a2170417e.jpg
 geo:
 id: 12852
 item_type: Still Image

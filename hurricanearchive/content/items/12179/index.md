@@ -26,7 +26,7 @@ files:
     mime: audio/wav
     original_filename: mjoplin_d1d2552831.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2236d62814fb2a2236da18.wav
+    url: /files/original/14fb2a2236d62814fb2a2236da18.wav
 geo:
   address: ''
   lat: 29.93352

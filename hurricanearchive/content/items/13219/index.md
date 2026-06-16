@@ -15,12 +15,12 @@ dublin_core:
       text: 213 blinds.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f37840514fb2a1f3787ea.jpg
+  - fullsize: /files/fullsize/14fb2a1f37840514fb2a1f3787ea.jpg
     id: 11229
     mime: image/jpeg
     original_filename: 213 blinds.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f37840514fb2a1f3787ea.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f37840514fb2a1f3787ea.jpg
+    thumb: /files/thumbnails/14fb2a1f37840514fb2a1f3787ea.jpg
+    url: /files/original/14fb2a1f37840514fb2a1f3787ea.jpg
 geo:
 id: 13219
 item_type: Still Image

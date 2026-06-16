@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Nguyen, Tung M.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87161505a14fbe871615425.doc
+    url: /files/original/14fbe87161505a14fbe871615425.doc
 geo:
 id: 45800
 item_type: Oral History

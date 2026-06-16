@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: COL Barry Keeling 8OCT05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1bd213cc14fb2a1bd217b2.wav
+    url: /files/original/14fb2a1bd213cc14fb2a1bd217b2.wav
 geo:
   address: ''
   lat: 0.0

@@ -23,7 +23,7 @@ files:
     mime: application/octet-stream
     original_filename: ABA email_a1094c9b1e.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d0e1e7b14fb2a1d0e2632.doc
+    url: /files/original/14fb2a1d0e1e7b14fb2a1d0e2632.doc
 geo:
 id: 13704
 item_type: Document

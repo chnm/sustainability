@@ -15,12 +15,12 @@ dublin_core:
       text: Lakeview 10-29-3.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a21675a6114fb2a21675e42.jpg
+  - fullsize: /files/fullsize/14fb2a21675a6114fb2a21675e42.jpg
     id: 11002
     mime: image/jpeg
     original_filename: Lakeview 10-29-3.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a21675a6114fb2a21675e42.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a21675a6114fb2a21675e42.jpg
+    thumb: /files/thumbnails/14fb2a21675a6114fb2a21675e42.jpg
+    url: /files/original/14fb2a21675a6114fb2a21675e42.jpg
 geo:
 id: 12858
 item_type: Still Image

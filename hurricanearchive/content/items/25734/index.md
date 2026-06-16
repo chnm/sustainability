@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc9414b914fb29dc941a3a.jpg
+  - fullsize: /files/fullsize/14fb29dc9414b914fb29dc941a3a.jpg
     id: 22527
     mime: image/jpeg
     original_filename: KPatcheco-09KPandmorris_f3d062bd1a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc9414b914fb29dc941a3a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc9414b914fb29dc941a3a.jpg
+    thumb: /files/thumbnails/14fb29dc9414b914fb29dc941a3a.jpg
+    url: /files/original/14fb29dc9414b914fb29dc941a3a.jpg
 geo:
 id: 25734
 item_type: Still Image

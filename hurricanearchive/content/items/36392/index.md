@@ -14,12 +14,12 @@ dublin_core:
       text: DPS aftermath 5
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c5899a7814fb29c5899dde.jpg
+  - fullsize: /files/fullsize/14fb29c5899a7814fb29c5899dde.jpg
     id: 24740
     mime: image/jpeg
     original_filename: flood-downtown_b450bc988a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c5899a7814fb29c5899dde.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c5899a7814fb29c5899dde.jpg
+    thumb: /files/thumbnails/14fb29c5899a7814fb29c5899dde.jpg
+    url: /files/original/14fb29c5899a7814fb29c5899dde.jpg
 geo:
 id: 36392
 item_type: Still Image

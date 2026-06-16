@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: Inventory your own law school_2e6f7772b6.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18c0feb114fb2a18c10958.doc
+    url: /files/original/14fb2a18c0feb114fb2a18c10958.doc
 geo:
 id: 14576
 item_type: Document

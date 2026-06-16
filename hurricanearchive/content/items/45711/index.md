@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Hirsch, Robert E.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870e0c51114fbe870e0c903.doc
+    url: /files/original/14fbe870e0c51114fbe870e0c903.doc
   - fullsize:
     id: 46335
     mime: application/msword
     original_filename: Hirsch, Robert E.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870e1a79714fbe870e1ab89.doc
+    url: /files/original/14fbe870e1a79714fbe870e1ab89.doc
 geo:
 id: 45711
 item_type: Oral History

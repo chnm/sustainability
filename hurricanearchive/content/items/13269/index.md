@@ -15,12 +15,12 @@ dublin_core:
       text: waves.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e6b3a8914fb2a1e6b3d6b.jpg
+  - fullsize: /files/fullsize/14fb2a1e6b3a8914fb2a1e6b3d6b.jpg
     id: 11279
     mime: image/jpeg
     original_filename: waves.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e6b3a8914fb2a1e6b3d6b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e6b3a8914fb2a1e6b3d6b.jpg
+    thumb: /files/thumbnails/14fb2a1e6b3a8914fb2a1e6b3d6b.jpg
+    url: /files/original/14fb2a1e6b3a8914fb2a1e6b3d6b.jpg
 geo:
 id: 13269
 item_type: Still Image

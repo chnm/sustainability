@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: '[SHN]Press Talking points 12_21_05_86958fad59.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d01843e14fb2a1d0188e6.doc
+    url: /files/original/14fb2a1d01843e14fb2a1d0188e6.doc
 geo:
 id: 13710
 item_type: Document

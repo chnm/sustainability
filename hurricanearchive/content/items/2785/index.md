@@ -18,12 +18,12 @@ dublin_core:
       text: Rescu
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a60310f8414fb2a60311360.jpg
+  - fullsize: /files/fullsize/14fb2a60310f8414fb2a60311360.jpg
     id: 2267
     mime: image/jpeg
     original_filename: Rescu
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a60310f8414fb2a60311360.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a60310f8414fb2a60311360.jpg
+    thumb: /files/thumbnails/14fb2a60310f8414fb2a60311360.jpg
+    url: /files/original/14fb2a60310f8414fb2a60311360.jpg
 geo:
 id: 2785
 item_type: Still Image

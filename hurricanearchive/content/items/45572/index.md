@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Deal, Thomas R. 9-16-05.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f35a39014fbe86f35a775.mp3
+    url: /files/original/14fbe86f35a39014fbe86f35a775.mp3
   - fullsize:
     id: 46059
     mime: application/msword
     original_filename: Deal, Thomas R.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f36f75a14fbe86f36fb3d.doc
+    url: /files/original/14fbe86f36f75a14fbe86f36fb3d.doc
 geo:
 id: 45572
 item_type: Oral History

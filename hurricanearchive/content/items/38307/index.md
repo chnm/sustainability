@@ -19,7 +19,7 @@ files:
     mime: application/vnd.ms-powerpoint
     original_filename: Myrtle Plantation_58925c5d76.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c51df9d214fb29c51dfdb7.ppt
+    url: /files/original/14fb29c51df9d214fb29c51dfdb7.ppt
 geo:
   address: ''
   lat: 29.8236

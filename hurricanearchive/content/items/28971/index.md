@@ -25,12 +25,12 @@ dublin_core:
       text: FALSESTATE Tower & People
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d14b29d314fb29d14b2b7b.jpg
+  - fullsize: /files/fullsize/14fb29d14b29d314fb29d14b2b7b.jpg
     id: 23571
     mime: image/jpeg
     original_filename: falsestate_69da4e93c3.jpg.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d14b29d314fb29d14b2b7b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d14b29d314fb29d14b2b7b.jpg
+    thumb: /files/thumbnails/14fb29d14b29d314fb29d14b2b7b.jpg
+    url: /files/original/14fb29d14b29d314fb29d14b2b7b.jpg
 geo:
   address: 2426 Bradish Place
   lat: 0.0

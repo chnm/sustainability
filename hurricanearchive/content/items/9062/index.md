@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 28 2006 Season needs governments, people to plan.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35ce087f14fb2a35ce1918.txt
+    url: /files/original/14fb2a35ce087f14fb2a35ce1918.txt
 geo:
   address: ''
   lat: 0.0

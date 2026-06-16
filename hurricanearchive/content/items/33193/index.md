@@ -17,12 +17,12 @@ dublin_core:
       text: Shrimp Boat Tossed Like A Toy
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbad6a5014fb29cbad6e32.jpg
+  - fullsize: /files/fullsize/14fb29cbad6a5014fb29cbad6e32.jpg
     id: 24043
     mime: image/jpg
     original_filename: 1438868268_0a7adee28b.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbad6a5014fb29cbad6e32.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbad6a5014fb29cbad6e32.jpg
+    thumb: /files/thumbnails/14fb29cbad6a5014fb29cbad6e32.jpg
+    url: /files/original/14fb29cbad6a5014fb29cbad6e32.jpg
 geo:
 id: 33193
 item_type: Still Image

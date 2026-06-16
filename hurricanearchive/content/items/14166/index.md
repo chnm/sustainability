@@ -15,12 +15,12 @@ dublin_core:
       text: MPs to WalMart.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b385e0514fb2a1b3869fb.jpg
+  - fullsize: /files/fullsize/14fb2a1b385e0514fb2a1b3869fb.jpg
     id: 11810
     mime: image/jpeg
     original_filename: MPs to WalMart.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b385e0514fb2a1b3869fb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b385e0514fb2a1b3869fb.jpg
+    thumb: /files/thumbnails/14fb2a1b385e0514fb2a1b3869fb.jpg
+    url: /files/original/14fb2a1b385e0514fb2a1b3869fb.jpg
 geo:
   address: ''
   lat: 0.0

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d823c41514fb29d823c7f4.jpg
+  - fullsize: /files/fullsize/14fb29d823c41514fb29d823c7f4.jpg
     id: 22928
     mime: image/jpeg
     original_filename: JB 3 Pontchartrain Beach_da7eeff27f.1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d823c41514fb29d823c7f4.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d823c41514fb29d823c7f4.jpg
+    thumb: /files/thumbnails/14fb29d823c41514fb29d823c7f4.jpg
+    url: /files/original/14fb29d823c41514fb29d823c7f4.jpg
 geo:
   address: ''
   lat: 29.87876

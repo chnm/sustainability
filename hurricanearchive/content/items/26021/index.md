@@ -23,7 +23,7 @@ files:
     mime: video/mp4
     original_filename: NWT-Upper Ninth Ward Bus Tour.mp4
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29db9d56b914fb29db9d5af0.mp4
+    url: /files/original/14fb29db9d56b914fb29db9d5af0.mp4
 geo:
   address: 4232 St. Claude New Orleans
   lat: 29.9651

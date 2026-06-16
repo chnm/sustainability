@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbe154c914fb29cbe158af.jpg
+  - fullsize: /files/fullsize/14fb29cbe154c914fb29cbe158af.jpg
     id: 24017
     mime: image/jpeg
     original_filename: 100_5065_ce8dcc783f.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbe154c914fb29cbe158af.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbe154c914fb29cbe158af.jpg
+    thumb: /files/thumbnails/14fb29cbe154c914fb29cbe158af.jpg
+    url: /files/original/14fb29cbe154c914fb29cbe158af.jpg
 geo:
   address: 730 East Beach Blvd, Long Beach, MS
   lat: 0.0

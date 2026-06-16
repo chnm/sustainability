@@ -15,12 +15,12 @@ dublin_core:
       text: Flood wall break,sections separating.1.London St. Canal.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a216bda7814fb2a216bde5e.jpg
+  - fullsize: /files/fullsize/14fb2a216bda7814fb2a216bde5e.jpg
     id: 10998
     mime: image/jpeg
     original_filename: Flood wall break,sections separating.1.London St. Canal.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a216bda7814fb2a216bde5e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a216bda7814fb2a216bde5e.jpg
+    thumb: /files/thumbnails/14fb2a216bda7814fb2a216bde5e.jpg
+    url: /files/original/14fb2a216bda7814fb2a216bde5e.jpg
 geo:
 id: 12854
 item_type: Still Image

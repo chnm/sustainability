@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c29e6b0014fb29c29e6ee6.jpg
+  - fullsize: /files/fullsize/14fb29c29e6b0014fb29c29e6ee6.jpg
     id: 25030
     mime: image/pjpeg
     original_filename: farrar4_05dc2151bb.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c29e6b0014fb29c29e6ee6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c29e6b0014fb29c29e6ee6.jpg
+    thumb: /files/thumbnails/14fb29c29e6b0014fb29c29e6ee6.jpg
+    url: /files/original/14fb29c29e6b0014fb29c29e6ee6.jpg
 geo:
   address: ''
   lat: 0.0

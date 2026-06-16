@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Kell, Kay.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870f8596814fbe870f85d48.doc
+    url: /files/original/14fbe870f8596814fbe870f85d48.doc
 geo:
 id: 45731
 item_type: Oral History

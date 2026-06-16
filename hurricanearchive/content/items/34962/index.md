@@ -23,7 +23,7 @@ files:
     mime: application/octet-stream
     original_filename: Circle_7e278d1076.rtf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c825a3e814fb29c825a7cf.rtf
+    url: /files/original/14fb29c825a3e814fb29c825a7cf.rtf
 geo:
   address: 1204 Engineers Road
   lat: 0.0

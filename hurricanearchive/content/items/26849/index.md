@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d744a4fa14fb29d744a896.jpg
+  - fullsize: /files/fullsize/14fb29d744a4fa14fb29d744a896.jpg
     id: 23033
     mime: image/jpeg
     original_filename: guy with umbrella_6b4b147a55.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d744a4fa14fb29d744a896.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d744a4fa14fb29d744a896.jpg
+    thumb: /files/thumbnails/14fb29d744a4fa14fb29d744a896.jpg
+    url: /files/original/14fb29d744a4fa14fb29d744a896.jpg
 geo:
 id: 26849
 item_type: Still Image

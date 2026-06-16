@@ -21,12 +21,12 @@ dublin_core:
       text: Tin Can Phones by Elizabeth Underwood
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d2675b1814fb29d26762e5.jpg
+  - fullsize: /files/fullsize/14fb29d2675b1814fb29d26762e5.jpg
     id: 23417
     mime: image/jpeg
     original_filename: tin can phones_d216d07536.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d2675b1814fb29d26762e5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d2675b1814fb29d26762e5.jpg
+    thumb: /files/thumbnails/14fb29d2675b1814fb29d26762e5.jpg
+    url: /files/original/14fb29d2675b1814fb29d26762e5.jpg
 geo:
   address: 2426 Bradish Place
   lat: 0.0

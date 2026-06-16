@@ -25,7 +25,7 @@ files:
     mime: application/octet-stream
     original_filename: 9_30_05Anethea9Ward_e00ab084b5.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6fa7e11c14fb2a6fa7e500.mp3
+    url: /files/original/14fb2a6fa7e11c14fb2a6fa7e500.mp3
 geo:
   address: ''
   lat: 35.210811

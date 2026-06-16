@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: 401.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d51f8b114fb2a1d51fc97.pdf
+    url: /files/original/14fb2a1d51f8b114fb2a1d51fc97.pdf
 geo:
 id: 13604
 item_type: Document

@@ -19,12 +19,12 @@ dublin_core:
       text: DSC_6844.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d200808114fb29d2008463.jpg
+  - fullsize: /files/fullsize/14fb29d200808114fb29d2008463.jpg
     id: 23485
     mime: image/jpg
     original_filename: 158885479_cc1d4a9990.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d200808114fb29d2008463.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d200808114fb29d2008463.jpg
+    thumb: /files/thumbnails/14fb29d200808114fb29d2008463.jpg
+    url: /files/original/14fb29d200808114fb29d2008463.jpg
 geo:
 id: 28634
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 08 2005 Nederlanders reach out to Katrina victims online.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35ad2f2014fb2a35ad3063.txt
+    url: /files/original/14fb2a35ad2f2014fb2a35ad3063.txt
 geo:
   address: ''
   lat: 0.0

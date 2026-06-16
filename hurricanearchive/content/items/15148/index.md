@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a16ecdc9214fb2a16ece052.jpg
+  - fullsize: /files/fullsize/14fb2a16ecdc9214fb2a16ece052.jpg
     id: 12310
     mime: image/pjpeg
     original_filename: artmaxmas61a_fbafc08fa9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a16ecdc9214fb2a16ece052.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a16ecdc9214fb2a16ece052.jpg
+    thumb: /files/thumbnails/14fb2a16ecdc9214fb2a16ece052.jpg
+    url: /files/original/14fb2a16ecdc9214fb2a16ece052.jpg
 geo:
   address: ''
   lat: 37.77123

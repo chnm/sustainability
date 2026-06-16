@@ -18,12 +18,12 @@ dublin_core:
       text: Merry Christmas, Kitchen, Lyndel Drive
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca6171c514fb29ca6175ab.jpg
+  - fullsize: /files/fullsize/14fb29ca6171c514fb29ca6175ab.jpg
     id: 24204
     mime: image/jpeg
     original_filename: MaryXmas03 (19) (2)_04bb52f8cf.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca6171c514fb29ca6175ab.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca6171c514fb29ca6175ab.jpg
+    thumb: /files/thumbnails/14fb29ca6171c514fb29ca6175ab.jpg
+    url: /files/original/14fb29ca6171c514fb29ca6175ab.jpg
 geo:
   address: ''
   lat: 0.0

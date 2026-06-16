@@ -24,12 +24,12 @@ dublin_core:
       text: COAST GUARD ASSESSES HUNDREDS OF VESSELS
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66c231c014fb2a66c23964.jpg
+  - fullsize: /files/fullsize/14fb2a66c231c014fb2a66c23964.jpg
     id: 1881
     mime: image/jpeg
     original_filename: apuscg_COAST_GUARD_AS_05CHY_2e65ca6128.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66c231c014fb2a66c23964.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66c231c014fb2a66c23964.jpg
+    thumb: /files/thumbnails/14fb2a66c231c014fb2a66c23964.jpg
+    url: /files/original/14fb2a66c231c014fb2a66c23964.jpg
 geo:
 id: 2389
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: heatherflier.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a22413fde14fb2a224143c3.doc
+    url: /files/original/14fb2a22413fde14fb2a224143c3.doc
 geo:
 id: 12169
 item_type: Document

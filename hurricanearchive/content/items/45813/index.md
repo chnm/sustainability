@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Postlewate, Rusty.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8717bb33814fbe8717bdaf5.doc
+    url: /files/original/14fbe8717bb33814fbe8717bdaf5.doc
 geo:
 id: 45813
 item_type: Oral History

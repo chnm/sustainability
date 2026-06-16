@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Bass, Ali side 1.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e7d3e2414fbe86e7d4208.mp3
+    url: /files/original/14fbe86e7d3e2414fbe86e7d4208.mp3
   - fullsize:
     id: 45936
     mime: audio/mpeg
     original_filename: Bass, Ali side 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e7e91e814fbe86e7e95cf.mp3
+    url: /files/original/14fbe86e7e91e814fbe86e7e95cf.mp3
 geo:
 id: 45530
 item_type: Oral History

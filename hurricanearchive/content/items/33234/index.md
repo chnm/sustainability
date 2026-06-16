@@ -17,12 +17,12 @@ dublin_core:
       text: Side Entrance
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb5902c014fb29cb5906a5.jpg
+  - fullsize: /files/fullsize/14fb29cb5902c014fb29cb5906a5.jpg
     id: 24084
     mime: image/jpg
     original_filename: 1256938129_8a66426a46.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb5902c014fb29cb5906a5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb5902c014fb29cb5906a5.jpg
+    thumb: /files/thumbnails/14fb29cb5902c014fb29cb5906a5.jpg
+    url: /files/original/14fb29cb5902c014fb29cb5906a5.jpg
 geo:
 id: 33234
 item_type: Still Image

@@ -20,12 +20,12 @@ dublin_core:
       text: House in Swamp
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5721c52a14fb2a5721c898.jpg
+  - fullsize: /files/fullsize/14fb2a5721c52a14fb2a5721c898.jpg
     id: 3619
     mime: image/pjpeg
     original_filename: houseinswampesther_ec92c1c73a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5721c52a14fb2a5721c898.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5721c52a14fb2a5721c898.jpg
+    thumb: /files/thumbnails/14fb2a5721c52a14fb2a5721c898.jpg
+    url: /files/original/14fb2a5721c52a14fb2a5721c898.jpg
 geo:
   address: ''
   lat: 29.84362

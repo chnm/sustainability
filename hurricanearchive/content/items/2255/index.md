@@ -26,7 +26,7 @@ files:
     mime: application/msword
     original_filename: AfterKatrina_0956f1d1ff.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6d6bf15d14fb2a6d6bf54d.doc
+    url: /files/original/14fb2a6d6bf15d14fb2a6d6bf54d.doc
 geo:
   address: ''
   lat: 30.20018

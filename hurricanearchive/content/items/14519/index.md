@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Gameplan_57fd948fb9.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18ed211b14fb2a18ed2500.doc
+    url: /files/original/14fb2a18ed211b14fb2a18ed2500.doc
 geo:
 id: 14519
 item_type: Document

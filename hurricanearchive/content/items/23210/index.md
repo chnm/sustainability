@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: SandbagsmobilePAO.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29f0b0103414fb29f0b01419.doc
+    url: /files/original/14fb29f0b0103414fb29f0b01419.doc
 geo:
 id: 23210
 item_type: Document

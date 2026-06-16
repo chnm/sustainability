@@ -18,12 +18,12 @@ dublin_core:
       text: Base Buildup
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d06801e514fb29d06805cb.jpg
+  - fullsize: /files/fullsize/14fb29d06801e514fb29d06805cb.jpg
     id: 23621
     mime: image/jpeg
     original_filename: LAANG-Photo-20.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d06801e514fb29d06805cb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d06801e514fb29d06805cb.jpg
+    thumb: /files/thumbnails/14fb29d06801e514fb29d06805cb.jpg
+    url: /files/original/14fb29d06801e514fb29d06805cb.jpg
 geo:
 id: 29051
 item_type: Still Image

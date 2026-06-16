@@ -15,12 +15,12 @@ dublin_core:
       text: 3731 Magazine.Help me find my cat.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a21a280e814fb2a21a284cf.jpg
+  - fullsize: /files/fullsize/14fb2a21a280e814fb2a21a284cf.jpg
     id: 10977
     mime: image/jpeg
     original_filename: 3731 Magazine.Help me find my cat.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a21a280e814fb2a21a284cf.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a21a280e814fb2a21a284cf.jpg
+    thumb: /files/thumbnails/14fb2a21a280e814fb2a21a284cf.jpg
+    url: /files/original/14fb2a21a280e814fb2a21a284cf.jpg
 geo:
 id: 12833
 item_type: Still Image

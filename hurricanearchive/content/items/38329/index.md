@@ -22,7 +22,7 @@ files:
     mime: application/vnd.ms-powerpoint
     original_filename: The Lakefront_8c5cbea9a6.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c5141b1714fb29c5141efd.ppt
+    url: /files/original/14fb29c5141b1714fb29c5141efd.ppt
 geo:
   address: 644 Wiegand DR.
   lat: 29.94039

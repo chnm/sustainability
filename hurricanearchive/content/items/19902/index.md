@@ -15,12 +15,12 @@ dublin_core:
       text: Hootersgillslong.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0cca89c614fb2a0cca8c3b.jpg
+  - fullsize: /files/fullsize/14fb2a0cca89c614fb2a0cca8c3b.jpg
     id: 16855
     mime: image/jpeg
     original_filename: Hootersgillslong.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0cca89c614fb2a0cca8c3b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0cca89c614fb2a0cca8c3b.jpg
+    thumb: /files/thumbnails/14fb2a0cca89c614fb2a0cca8c3b.jpg
+    url: /files/original/14fb2a0cca89c614fb2a0cca8c3b.jpg
 geo:
 id: 19902
 item_type: Still Image

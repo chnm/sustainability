@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: the Beach.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a231129a414fb2a23112cbf.doc
+    url: /files/original/14fb2a231129a414fb2a23112cbf.doc
 geo:
 id: 11849
 item_type: Document

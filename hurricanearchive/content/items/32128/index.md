@@ -21,12 +21,12 @@ dublin_core:
       text: House Totem
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc071ae114fb29cc072269.jpg
+  - fullsize: /files/fullsize/14fb29cc071ae114fb29cc072269.jpg
     id: 23973
     mime: image/jpeg
     original_filename: housetotem_f679295fef.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc071ae114fb29cc072269.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc071ae114fb29cc072269.jpg
+    thumb: /files/thumbnails/14fb29cc071ae114fb29cc072269.jpg
+    url: /files/original/14fb29cc071ae114fb29cc072269.jpg
 geo:
   address: 3428 Cleveland St
   lat: 0.0

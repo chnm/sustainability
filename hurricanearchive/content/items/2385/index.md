@@ -24,12 +24,12 @@ dublin_core:
       text: Surveying Diesel Fuel Damage at Texas Point Wildlife Refuge
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66c5466f14fb2a66c54a56.jpg
+  - fullsize: /files/fullsize/14fb2a66c5466f14fb2a66c54a56.jpg
     id: 1877
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_RITA_05CA4_e2560fe942.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66c5466f14fb2a66c54a56.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66c5466f14fb2a66c54a56.jpg
+    thumb: /files/thumbnails/14fb2a66c5466f14fb2a66c54a56.jpg
+    url: /files/original/14fb2a66c5466f14fb2a66c54a56.jpg
 geo:
 id: 2385
 item_type: Still Image

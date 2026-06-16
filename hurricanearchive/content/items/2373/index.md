@@ -21,12 +21,12 @@ dublin_core:
       text: USCG Helping with Dolphin Rescue
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66d3bfe114fb2a66d3c798.jpg
+  - fullsize: /files/fullsize/14fb2a66d3bfe114fb2a66d3c798.jpg
     id: 1865
     mime: image/jpeg
     original_filename: 249112_bd3e392996.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66d3bfe114fb2a66d3c798.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66d3bfe114fb2a66d3c798.jpg
+    thumb: /files/thumbnails/14fb2a66d3bfe114fb2a66d3c798.jpg
+    url: /files/original/14fb2a66d3bfe114fb2a66d3c798.jpg
 geo:
 id: 2373
 item_type: Still Image

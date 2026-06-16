@@ -15,12 +15,12 @@ dublin_core:
       text: 150 damage1.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1fd2c55214fb2a1fd2c934.jpg
+  - fullsize: /files/fullsize/14fb2a1fd2c55214fb2a1fd2c934.jpg
     id: 11170
     mime: image/jpeg
     original_filename: 150 damage1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1fd2c55214fb2a1fd2c934.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1fd2c55214fb2a1fd2c934.jpg
+    thumb: /files/thumbnails/14fb2a1fd2c55214fb2a1fd2c934.jpg
+    url: /files/original/14fb2a1fd2c55214fb2a1fd2c934.jpg
 geo:
 id: 13160
 item_type: Still Image

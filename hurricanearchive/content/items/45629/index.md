@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Bassi, Tomas.trs (English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870561e6d14fbe870562250.doc
+    url: /files/original/14fbe870561e6d14fbe870562250.doc
   - fullsize:
     id: 46229
     mime: application/msword
     original_filename: Bassi, Tomas.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87056c27b14fbe87056c658.doc
+    url: /files/original/14fbe87056c27b14fbe87056c658.doc
 geo:
 id: 45629
 item_type: Oral History

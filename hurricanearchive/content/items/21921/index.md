@@ -15,12 +15,12 @@ dublin_core:
       text: cnnneworleansmap30sep05.gif
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fafc49e214fb29fafc5166.jpg
+  - fullsize: /files/fullsize/14fb29fafc49e214fb29fafc5166.jpg
     id: 18872
     mime: image/gif
     original_filename: cnnneworleansmap30sep05.gif
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fafc49e214fb29fafc5166.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fafc49e214fb29fafc5166.jpg
+    thumb: /files/thumbnails/14fb29fafc49e214fb29fafc5166.jpg
+    url: /files/original/14fb29fafc49e214fb29fafc5166.jpg
 geo:
 id: 21921
 item_type: Still Image

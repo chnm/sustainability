@@ -21,12 +21,12 @@ dublin_core:
       text: Tree Falling On Car
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a602e94c714fb2a602e9871.jpg
+  - fullsize: /files/fullsize/14fb2a602e94c714fb2a602e9871.jpg
     id: 2270
     mime: image/jpeg
     original_filename: Tree Falling On Car
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a602e94c714fb2a602e9871.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a602e94c714fb2a602e9871.jpg
+    thumb: /files/thumbnails/14fb2a602e94c714fb2a602e9871.jpg
+    url: /files/original/14fb2a602e94c714fb2a602e9871.jpg
 geo:
 id: 2788
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: getting windy.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e96e8af14fb2a1e96ec93.jpg
+  - fullsize: /files/fullsize/14fb2a1e96e8af14fb2a1e96ec93.jpg
     id: 11263
     mime: image/jpeg
     original_filename: getting windy.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e96e8af14fb2a1e96ec93.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e96e8af14fb2a1e96ec93.jpg
+    thumb: /files/thumbnails/14fb2a1e96e8af14fb2a1e96ec93.jpg
+    url: /files/original/14fb2a1e96e8af14fb2a1e96ec93.jpg
 geo:
 id: 13253
 item_type: Still Image

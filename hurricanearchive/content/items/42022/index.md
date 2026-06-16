@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c3e538a414fb29c3e53c97.jpg
+  - fullsize: /files/fullsize/14fb29c3e538a414fb29c3e53c97.jpg
     id: 24909
     mime: image/jpeg
     original_filename: Stainless fdl  water_cbd5d38e6d.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c3e538a414fb29c3e53c97.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c3e538a414fb29c3e53c97.jpg
+    thumb: /files/thumbnails/14fb29c3e538a414fb29c3e53c97.jpg
+    url: /files/original/14fb29c3e538a414fb29c3e53c97.jpg
 geo:
   address: ''
   lat: 0.0

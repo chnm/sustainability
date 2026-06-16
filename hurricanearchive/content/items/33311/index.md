@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_84d53db263.The school change game.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cad09f3d14fb29cad0a323.doc
+    url: /files/original/14fb29cad09f3d14fb29cad0a323.doc
 geo:
 id: 33311
 item_type: Document

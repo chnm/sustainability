@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 18 2005 Shift pork toward Katrina recovery.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a358d9dd114fb2a358db32f.txt
+    url: /files/original/14fb2a358d9dd114fb2a358db32f.txt
 geo:
   address: ''
   lat: 0.0

@@ -18,12 +18,12 @@ dublin_core:
       text: House Front
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2211824e14fb2a221184b8.jpg
+  - fullsize: /files/fullsize/14fb2a2211824e14fb2a221184b8.jpg
     id: 10917
     mime: image/jpeg
     original_filename: house-front-rjpgcr3_7816a8c8f0.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2211824e14fb2a221184b8.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2211824e14fb2a221184b8.jpg
+    thumb: /files/thumbnails/14fb2a2211824e14fb2a221184b8.jpg
+    url: /files/original/14fb2a2211824e14fb2a221184b8.jpg
 geo:
   address: ''
   lat: 29.95657

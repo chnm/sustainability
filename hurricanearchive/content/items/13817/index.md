@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Leadership call minutes 9_2_06_238ae13455.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ca5cfcf14fb2a1ca5d3b4.doc
+    url: /files/original/14fb2a1ca5cfcf14fb2a1ca5d3b4.doc
 geo:
 id: 13817
 item_type: Document

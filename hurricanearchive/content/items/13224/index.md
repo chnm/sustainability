@@ -15,12 +15,12 @@ dublin_core:
       text: 219 tired george.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f2e4aec14fb2a1f2e4ed0.jpg
+  - fullsize: /files/fullsize/14fb2a1f2e4aec14fb2a1f2e4ed0.jpg
     id: 11234
     mime: image/jpeg
     original_filename: 219 tired george.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f2e4aec14fb2a1f2e4ed0.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f2e4aec14fb2a1f2e4ed0.jpg
+    thumb: /files/thumbnails/14fb2a1f2e4aec14fb2a1f2e4ed0.jpg
+    url: /files/original/14fb2a1f2e4aec14fb2a1f2e4ed0.jpg
 geo:
 id: 13224
 item_type: Still Image

@@ -21,12 +21,12 @@ dublin_core:
       text: Helen Heart
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc07de2b14fb29cc07e20a.jpg
+  - fullsize: /files/fullsize/14fb29cc07de2b14fb29cc07e20a.jpg
     id: 23972
     mime: image/jpeg
     original_filename: Helenheart_f3900ede98.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc07de2b14fb29cc07e20a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc07de2b14fb29cc07e20a.jpg
+    thumb: /files/thumbnails/14fb29cc07de2b14fb29cc07e20a.jpg
+    url: /files/original/14fb29cc07de2b14fb29cc07e20a.jpg
 geo:
   address: 3438 Cleveland St
   lat: 0.0

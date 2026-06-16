@@ -17,12 +17,12 @@ dublin_core:
       text: Broken Boardwalk | Lake Charles, LA
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d438a78d14fb29d438ab73.jpg
+  - fullsize: /files/fullsize/14fb29d438a78d14fb29d438ab73.jpg
     id: 23232
     mime: image/jpg
     original_filename: 267994433_ec536bccd8.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d438a78d14fb29d438ab73.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d438a78d14fb29d438ab73.jpg
+    thumb: /files/thumbnails/14fb29d438a78d14fb29d438ab73.jpg
+    url: /files/original/14fb29d438a78d14fb29d438ab73.jpg
 geo:
 id: 27345
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0010.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a07fee6a814fb2a07feea8d.jpg
+  - fullsize: /files/fullsize/14fb2a07fee6a814fb2a07feea8d.jpg
     id: 17354
     mime: image/jpeg
     original_filename: DSC 0010.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a07fee6a814fb2a07feea8d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a07fee6a814fb2a07feea8d.jpg
+    thumb: /files/thumbnails/14fb2a07fee6a814fb2a07feea8d.jpg
+    url: /files/original/14fb2a07fee6a814fb2a07feea8d.jpg
 geo:
 id: 20401
 item_type: Still Image

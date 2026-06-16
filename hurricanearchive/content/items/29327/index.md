@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: carpenter_959ca7bda6.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce7c720814fb29ce7c7610.pdf
+    url: /files/original/14fb29ce7c720814fb29ce7c7610.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

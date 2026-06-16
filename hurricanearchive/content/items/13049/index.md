@@ -15,12 +15,12 @@ dublin_core:
       text: before street west.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20c05e5914fb2a20c0623d.jpg
+  - fullsize: /files/fullsize/14fb2a20c05e5914fb2a20c0623d.jpg
     id: 11059
     mime: image/jpeg
     original_filename: before street west.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20c05e5914fb2a20c0623d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20c05e5914fb2a20c0623d.jpg
+    thumb: /files/thumbnails/14fb2a20c05e5914fb2a20c0623d.jpg
+    url: /files/original/14fb2a20c05e5914fb2a20c0623d.jpg
 geo:
 id: 13049
 item_type: Still Image

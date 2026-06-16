@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Thompson, Gary.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87205e88b14fbe87205ec39.doc
+    url: /files/original/14fbe87205e88b14fbe87205ec39.doc
 geo:
 id: 45866
 item_type: Oral History

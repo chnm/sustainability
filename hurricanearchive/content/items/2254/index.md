@@ -26,7 +26,7 @@ files:
     mime: application/msword
     original_filename: Storytelling_and_Survival_74d32058d4.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6d6c56e714fb2a6d6c5ad4.doc
+    url: /files/original/14fb2a6d6c56e714fb2a6d6c5ad4.doc
 geo:
   address: ''
   lat: 30.2211

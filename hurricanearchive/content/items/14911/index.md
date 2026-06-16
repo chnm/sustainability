@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1788151b14fb2a17881900.jpg
+  - fullsize: /files/fullsize/14fb2a1788151b14fb2a17881900.jpg
     id: 12232
     mime: image/pjpeg
     original_filename: DSCF0083_e7e0a0806c.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1788151b14fb2a17881900.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1788151b14fb2a17881900.jpg
+    thumb: /files/thumbnails/14fb2a1788151b14fb2a17881900.jpg
+    url: /files/original/14fb2a1788151b14fb2a17881900.jpg
 geo:
   address: 4782 Citrus Drive, New Orleans
   lat: 30.02205

@@ -22,7 +22,7 @@ files:
     mime: application/msword
     original_filename: FIELD LOG 10 23 cmr_f115e0f3b8.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a21f8ec8414fb2a21f8f066.doc
+    url: /files/original/14fb2a21f8ec8414fb2a21f8f066.doc
 geo:
   address: 367 Main Street
   lat: 41.65306

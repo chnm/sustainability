@@ -15,12 +15,12 @@ dublin_core:
       text: CH(LTC) Reynolds.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1bd3541514fb2a1bd35906.jpg
+  - fullsize: /files/fullsize/14fb2a1bd3541514fb2a1bd35906.jpg
     id: 11732
     mime: image/jpeg
     original_filename: CH(LTC) Reynolds.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1bd3541514fb2a1bd35906.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1bd3541514fb2a1bd35906.jpg
+    thumb: /files/thumbnails/14fb2a1bd3541514fb2a1bd35906.jpg
+    url: /files/original/14fb2a1bd3541514fb2a1bd35906.jpg
 geo:
   address: ''
   lat: 0.0

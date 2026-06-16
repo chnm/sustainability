@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Longo, John Tommy.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8712e689f14fbe8713015e6.doc
+    url: /files/original/14fbe8712e689f14fbe8713015e6.doc
 geo:
 id: 45753
 item_type: Oral History

@@ -22,7 +22,7 @@ files:
     mime: application/octet-stream
     original_filename: Perry_cc3316c217.Solomon Amendment
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cafcb44814fb29cafcb5ee.Solomon Amendment
+    url: /files/original/14fb29cafcb44814fb29cafcb5ee.Solomon Amendment
 geo:
 id: 33285
 item_type: Document

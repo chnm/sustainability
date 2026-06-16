@@ -17,12 +17,12 @@ dublin_core:
       text: hurricane rita traffic
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d4286da314fb29d4287a85.jpg
+  - fullsize: /files/fullsize/14fb29d4286da314fb29d4287a85.jpg
     id: 23236
     mime: image/jpg
     original_filename: 221566275_a975ace33c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d4286da314fb29d4287a85.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d4286da314fb29d4287a85.jpg
+    thumb: /files/thumbnails/14fb29d4286da314fb29d4287a85.jpg
+    url: /files/original/14fb29d4286da314fb29d4287a85.jpg
 geo:
   address: ''
   lat: 29.99828

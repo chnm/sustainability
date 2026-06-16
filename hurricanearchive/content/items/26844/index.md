@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d77bd3ff14fb29d77bd7e3.jpg
+  - fullsize: /files/fullsize/14fb29d77bd3ff14fb29d77bd7e3.jpg
     id: 23028
     mime: image/jpeg
     original_filename: cheerleaders_17655d799d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d77bd3ff14fb29d77bd7e3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d77bd3ff14fb29d77bd7e3.jpg
+    thumb: /files/thumbnails/14fb29d77bd3ff14fb29d77bd7e3.jpg
+    url: /files/original/14fb29d77bd3ff14fb29d77bd7e3.jpg
 geo:
 id: 26844
 item_type: Still Image

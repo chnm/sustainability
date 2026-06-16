@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Leslie Sharpe HK2156K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d6257e1014fb29d6258177.mp3
+    url: /files/original/14fb29d6257e1014fb29d6258177.mp3
 geo:
 id: 26930
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: lobby debris3.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20486fa114fb2a20487759.jpg
+  - fullsize: /files/fullsize/14fb2a20486fa114fb2a20487759.jpg
     id: 11134
     mime: image/jpeg
     original_filename: lobby debris3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20486fa114fb2a20487759.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20486fa114fb2a20487759.jpg
+    thumb: /files/thumbnails/14fb2a20486fa114fb2a20487759.jpg
+    url: /files/original/14fb2a20486fa114fb2a20487759.jpg
 geo:
 id: 13124
 item_type: Still Image

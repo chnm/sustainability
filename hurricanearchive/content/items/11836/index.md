@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Saucier pics.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2320164014fb2a23201a68.doc
+    url: /files/original/14fb2a2320164014fb2a23201a68.doc
 geo:
 id: 11836
 item_type: Document

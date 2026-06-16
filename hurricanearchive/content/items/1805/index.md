@@ -20,12 +20,12 @@ dublin_core:
       text: Online Story Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6ec6ee3e14fb2a6ec6f21b.jpg
+  - fullsize: /files/fullsize/14fb2a6ec6ee3e14fb2a6ec6f21b.jpg
     id: 633
     mime: image/jpeg
     original_filename: 4705034_80X60_df7d19a5c1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6ec6ee3e14fb2a6ec6f21b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6ec6ee3e14fb2a6ec6f21b.jpg
+    thumb: /files/thumbnails/14fb2a6ec6ee3e14fb2a6ec6f21b.jpg
+    url: /files/original/14fb2a6ec6ee3e14fb2a6ec6f21b.jpg
 geo:
   address: ''
   lat: 0.0

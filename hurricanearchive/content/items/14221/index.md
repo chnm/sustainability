@@ -15,12 +15,12 @@ dublin_core:
       text: new orleans patrol2.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1a7bed9914fb2a1a7befcb.jpg
+  - fullsize: /files/fullsize/14fb2a1a7bed9914fb2a1a7befcb.jpg
     id: 11865
     mime: image/jpeg
     original_filename: new orleans patrol2.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1a7bed9914fb2a1a7befcb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1a7bed9914fb2a1a7befcb.jpg
+    thumb: /files/thumbnails/14fb2a1a7bed9914fb2a1a7befcb.jpg
+    url: /files/original/14fb2a1a7bed9914fb2a1a7befcb.jpg
 geo:
   address: ''
   lat: 0.0

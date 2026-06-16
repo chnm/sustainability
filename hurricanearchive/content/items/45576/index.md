@@ -17,7 +17,7 @@ files:
     mime: audio/mpeg
     original_filename: Destin Madon & ____ Davis with Emily Brann.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f45d1b914fbe86f45d5a3.mp3
+    url: /files/original/14fbe86f45d1b914fbe86f45d5a3.mp3
 geo:
 id: 45576
 item_type: Oral History

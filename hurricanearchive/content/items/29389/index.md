@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: sliverbyriver_c2e7c0a9d8.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce30840914fb29ce30892c.pdf
+    url: /files/original/14fb29ce30840914fb29ce30892c.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

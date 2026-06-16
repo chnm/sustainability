@@ -18,12 +18,12 @@ dublin_core:
       text: Gentilly
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e684f8914fb2a1e685267.jpg
+  - fullsize: /files/fullsize/14fb2a1e684f8914fb2a1e685267.jpg
     id: 11280
     mime: image/pjpeg
     original_filename: marionwieser_be327f1aa9.trailer3_bw.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e684f8914fb2a1e685267.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e684f8914fb2a1e685267.jpg
+    thumb: /files/thumbnails/14fb2a1e684f8914fb2a1e685267.jpg
+    url: /files/original/14fb2a1e684f8914fb2a1e685267.jpg
 geo:
 id: 13289
 item_type: Still Image

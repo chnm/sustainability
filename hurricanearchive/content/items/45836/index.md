@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Rutkowski, Rebecca.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871c75ab014fbe871c75e41.doc
+    url: /files/original/14fbe871c75ab014fbe871c75e41.doc
 geo:
 id: 45836
 item_type: Oral History

@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: nickwright_f87532d64c.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d5d1964e14fb29d5d19871.pdf
+    url: /files/original/14fb29d5d1964e14fb29d5d19871.pdf
 geo:
 id: 26963
 item_type: Document

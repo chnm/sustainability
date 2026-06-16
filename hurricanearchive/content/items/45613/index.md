@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Westfall, Rich 9-21-07.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8702a5e6d14fbe8702a624e.mp3
+    url: /files/original/14fbe8702a5e6d14fbe8702a624e.mp3
   - fullsize:
     id: 46191
     mime: application/msword
     original_filename: Westfall, Rich.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8702b7b9014fbe8702b7f6c.doc
+    url: /files/original/14fbe8702b7b9014fbe8702b7f6c.doc
 geo:
 id: 45613
 item_type: Oral History

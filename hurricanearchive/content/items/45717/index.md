@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Hughes, Paula.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870ebefec14fbe870ebf3d1.doc
+    url: /files/original/14fbe870ebefec14fbe870ebf3d1.doc
 geo:
 id: 45717
 item_type: Oral History

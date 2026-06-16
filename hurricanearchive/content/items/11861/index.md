@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: essay3.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2306457014fb2a23064a0f.doc
+    url: /files/original/14fb2a2306457014fb2a23064a0f.doc
 geo:
 id: 11861
 item_type: Document

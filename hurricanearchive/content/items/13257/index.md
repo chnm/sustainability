@@ -15,12 +15,12 @@ dublin_core:
       text: me on the phone.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e90772c14fb2a1e90bb04.jpg
+  - fullsize: /files/fullsize/14fb2a1e90772c14fb2a1e90bb04.jpg
     id: 11267
     mime: image/jpeg
     original_filename: me on the phone.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e90772c14fb2a1e90bb04.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e90772c14fb2a1e90bb04.jpg
+    thumb: /files/thumbnails/14fb2a1e90772c14fb2a1e90bb04.jpg
+    url: /files/original/14fb2a1e90772c14fb2a1e90bb04.jpg
 geo:
 id: 13257
 item_type: Still Image

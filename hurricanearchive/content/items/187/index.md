@@ -25,7 +25,7 @@ files:
     mime: text/rtf
     original_filename: Katrina_personal_experience_0e7c040cfd.rtf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a709cffb314fb2a709d0398.rtf
+    url: /files/original/14fb2a709cffb314fb2a709d0398.rtf
 geo:
   address: ''
   lat: 0.0

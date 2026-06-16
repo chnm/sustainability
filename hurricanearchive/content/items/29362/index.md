@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: kim_676076ed5f.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce79034e14fb29ce790734.pdf
+    url: /files/original/14fb29ce79034e14fb29ce790734.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

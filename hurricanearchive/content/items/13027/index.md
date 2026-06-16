@@ -15,12 +15,12 @@ dublin_core:
       text: before blue sky2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2101975714fb2a21019b3d.jpg
+  - fullsize: /files/fullsize/14fb2a2101975714fb2a21019b3d.jpg
     id: 11037
     mime: image/jpeg
     original_filename: before blue sky2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2101975714fb2a21019b3d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2101975714fb2a21019b3d.jpg
+    thumb: /files/thumbnails/14fb2a2101975714fb2a21019b3d.jpg
+    url: /files/original/14fb2a2101975714fb2a21019b3d.jpg
 geo:
 id: 13027
 item_type: Still Image

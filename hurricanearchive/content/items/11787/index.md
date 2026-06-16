@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: D'Iberville-St. Martin 2.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2367cecf14fb2a2367d324.doc
+    url: /files/original/14fb2a2367cecf14fb2a2367d324.doc
 geo:
 id: 11787
 item_type: Document

@@ -15,12 +15,12 @@ dublin_core:
       text: J2 (56).JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a110c3d4014fb2a110c4125.jpg
+  - fullsize: /files/fullsize/14fb2a110c3d4014fb2a110c4125.jpg
     id: 16293
     mime: image/jpeg
     original_filename: J2 (56).JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a110c3d4014fb2a110c4125.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a110c3d4014fb2a110c4125.jpg
+    thumb: /files/thumbnails/14fb2a110c3d4014fb2a110c4125.jpg
+    url: /files/original/14fb2a110c3d4014fb2a110c4125.jpg
 geo:
 id: 19340
 item_type: Still Image

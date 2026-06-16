@@ -15,12 +15,12 @@ dublin_core:
       text: 202 twisted metal.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f51ba5214fb2a1f51be38.jpg
+  - fullsize: /files/fullsize/14fb2a1f51ba5214fb2a1f51be38.jpg
     id: 11218
     mime: image/jpeg
     original_filename: 202 twisted metal.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f51ba5214fb2a1f51be38.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f51ba5214fb2a1f51be38.jpg
+    thumb: /files/thumbnails/14fb2a1f51ba5214fb2a1f51be38.jpg
+    url: /files/original/14fb2a1f51ba5214fb2a1f51be38.jpg
 geo:
 id: 13208
 item_type: Still Image

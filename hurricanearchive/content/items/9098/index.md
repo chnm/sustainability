@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 17 2005 Kansas town 'adopts' Bridge City.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a359dc80014fb2a359de282.txt
+    url: /files/original/14fb2a359dc80014fb2a359de282.txt
 geo:
   address: ''
   lat: 0.0

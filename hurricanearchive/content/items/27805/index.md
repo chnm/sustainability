@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: On Guard Kat-Special_b1e60b01d7.05.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d2b4a66b14fb29d2b4aa48.pdf
+    url: /files/original/14fb29d2b4a66b14fb29d2b4aa48.pdf
 geo:
 id: 27805
 item_type: Document

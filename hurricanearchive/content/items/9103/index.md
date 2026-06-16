@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 19 2005 Feds should learn from 9-11, Katrina.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a358bcae414fb2a358bced1.txt
+    url: /files/original/14fb2a358bcae414fb2a358bced1.txt
 geo:
   address: ''
   lat: 0.0

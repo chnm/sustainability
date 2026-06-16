@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d88dc6b614fb29d88dccc3.jpg
+  - fullsize: /files/fullsize/14fb29d88dc6b614fb29d88dccc3.jpg
     id: 22885
     mime: image/jpeg
     original_filename: HS 6 Sazerac Bar 1934_eb4e739380.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d88dc6b614fb29d88dccc3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d88dc6b614fb29d88dccc3.jpg
+    thumb: /files/thumbnails/14fb29d88dc6b614fb29d88dccc3.jpg
+    url: /files/original/14fb29d88dc6b614fb29d88dccc3.jpg
 geo:
   address: ''
   lat: 29.91685

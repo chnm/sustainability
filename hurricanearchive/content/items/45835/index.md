@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Ruspoli, Thomas.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871c4d05014fbe871c4d700.doc
+    url: /files/original/14fbe871c4d05014fbe871c4d700.doc
 geo:
 id: 45835
 item_type: Oral History

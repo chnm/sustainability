@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d9dcc3e714fb29d9dcc612.jpg
+  - fullsize: /files/fullsize/14fb29d9dcc3e714fb29d9dcc612.jpg
     id: 22775
     mime: image/jpeg
     original_filename: kidcrawf_9f8456284f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d9dcc3e714fb29d9dcc612.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d9dcc3e714fb29d9dcc612.jpg
+    thumb: /files/thumbnails/14fb29d9dcc3e714fb29d9dcc612.jpg
+    url: /files/original/14fb29d9dcc3e714fb29d9dcc612.jpg
 geo:
 id: 26168
 item_type: Still Image

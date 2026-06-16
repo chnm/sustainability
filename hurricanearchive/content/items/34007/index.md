@@ -17,12 +17,12 @@ dublin_core:
       text: Chalmette
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29caa23c6b14fb29caa24050.jpg
+  - fullsize: /files/fullsize/14fb29caa23c6b14fb29caa24050.jpg
     id: 24183
     mime: image/jpeg
     original_filename: Courts House_c4edb81b11.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29caa23c6b14fb29caa24050.jpg
-    url: https://hurricanearchive.org/files/original/14fb29caa23c6b14fb29caa24050.jpg
+    thumb: /files/thumbnails/14fb29caa23c6b14fb29caa24050.jpg
+    url: /files/original/14fb29caa23c6b14fb29caa24050.jpg
 geo:
   address: ''
   lat: 29.97784

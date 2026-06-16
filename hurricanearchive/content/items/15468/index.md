@@ -19,18 +19,18 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a163584c714fb2a163588b6.jpg
+  - fullsize: /files/fullsize/14fb2a163584c714fb2a163588b6.jpg
     id: 12455
     mime: image/jpeg
     original_filename: GoodShepherd_JohanLowe_01_bfe90ef2a1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a163584c714fb2a163588b6.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a163584c714fb2a163588b6.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1634199414fb2a16341e67.jpg
+    thumb: /files/thumbnails/14fb2a163584c714fb2a163588b6.jpg
+    url: /files/original/14fb2a163584c714fb2a163588b6.jpg
+  - fullsize: /files/fullsize/14fb2a1634199414fb2a16341e67.jpg
     id: 12457
     mime: image/jpeg
     original_filename: GoodShepherd_JohanLowe_03_89f7b67e39.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1634199414fb2a16341e67.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1634199414fb2a16341e67.jpg
+    thumb: /files/thumbnails/14fb2a1634199414fb2a16341e67.jpg
+    url: /files/original/14fb2a1634199414fb2a16341e67.jpg
 geo:
 id: 15468
 item_type: Still Image

@@ -23,7 +23,7 @@ files:
     mime: video/x-msvideo
     original_filename: JPEOC Katrina Video.AVI
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d088de3c14fb29d089070a.AVI
+    url: /files/original/14fb29d088de3c14fb29d089070a.AVI
 geo:
 id: 29030
 item_type: Document

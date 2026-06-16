@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Mari-Ellen Pack.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2416de7a14fb2a2416ef7c.html
+    url: /files/original/14fb2a2416de7a14fb2a2416ef7c.html
 geo:
 id: 11675
 item_type: Oral History

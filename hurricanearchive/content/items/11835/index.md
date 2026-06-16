@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Saucier pics Gretch.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2320aaed14fb2a2320aed3.doc
+    url: /files/original/14fb2a2320aaed14fb2a2320aed3.doc
 geo:
 id: 11835
 item_type: Document

@@ -15,12 +15,12 @@ dublin_core:
       text: 228 unshattered2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f1b890014fb2a1f1b9c05.jpg
+  - fullsize: /files/fullsize/14fb2a1f1b890014fb2a1f1b9c05.jpg
     id: 11243
     mime: image/jpeg
     original_filename: 228 unshattered2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f1b890014fb2a1f1b9c05.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f1b890014fb2a1f1b9c05.jpg
+    thumb: /files/thumbnails/14fb2a1f1b890014fb2a1f1b9c05.jpg
+    url: /files/original/14fb2a1f1b890014fb2a1f1b9c05.jpg
 geo:
 id: 13233
 item_type: Still Image

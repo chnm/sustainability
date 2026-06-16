@@ -20,7 +20,7 @@ files:
     mime: text/rtf
     original_filename: VACCINECaliforniaNG.rtf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29f0ae594c14fb29f0ae5c8e.rtf
+    url: /files/original/14fb29f0ae594c14fb29f0ae5c8e.rtf
 geo:
 id: 23211
 item_type: Document

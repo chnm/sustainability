@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: West, Emma L. 10-28-05.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87025d28814fbe87025d676.mp3
+    url: /files/original/14fbe87025d28814fbe87025d676.mp3
   - fullsize:
     id: 46189
     mime: audio/mpeg
     original_filename: West, Emma L..mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87028a47714fbe87028a8f8.mp3
+    url: /files/original/14fbe87028a47714fbe87028a8f8.mp3
 geo:
 id: 45612
 item_type: Oral History

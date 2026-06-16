@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d731098914fb29d7310c64.jpg
+  - fullsize: /files/fullsize/14fb29d731098914fb29d7310c64.jpg
     id: 23040
     mime: image/jpeg
     original_filename: miss doris voitier_75cf6ac583.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d731098914fb29d7310c64.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d731098914fb29d7310c64.jpg
+    thumb: /files/thumbnails/14fb29d731098914fb29d7310c64.jpg
+    url: /files/original/14fb29d731098914fb29d7310c64.jpg
 geo:
 id: 26856
 item_type: Still Image

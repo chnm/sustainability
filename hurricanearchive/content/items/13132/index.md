@@ -15,12 +15,12 @@ dublin_core:
       text: restaurant copper end.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20325e0c14fb2a203261ed.jpg
+  - fullsize: /files/fullsize/14fb2a20325e0c14fb2a203261ed.jpg
     id: 11142
     mime: image/jpeg
     original_filename: restaurant copper end.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20325e0c14fb2a203261ed.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20325e0c14fb2a203261ed.jpg
+    thumb: /files/thumbnails/14fb2a20325e0c14fb2a203261ed.jpg
+    url: /files/original/14fb2a20325e0c14fb2a203261ed.jpg
 geo:
 id: 13132
 item_type: Still Image

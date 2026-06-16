@@ -18,12 +18,12 @@ dublin_core:
       text: 159th Fighter Wing Zephyr Field Ops
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cf322e8f14fb29cf323fcc.jpg
+  - fullsize: /files/fullsize/14fb29cf322e8f14fb29cf323fcc.jpg
     id: 23687
     mime: image/jpeg
     original_filename: 8196926-R1-024-10A.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cf322e8f14fb29cf323fcc.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cf322e8f14fb29cf323fcc.jpg
+    thumb: /files/thumbnails/14fb29cf322e8f14fb29cf323fcc.jpg
+    url: /files/original/14fb29cf322e8f14fb29cf323fcc.jpg
 geo:
 id: 29117
 item_type: Still Image

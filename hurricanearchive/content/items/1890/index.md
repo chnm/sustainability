@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6e6c728714fb2a6e6c772f.jpg
+  - fullsize: /files/fullsize/14fb2a6e6c728714fb2a6e6c772f.jpg
     id: 698
     mime: image/jpeg
     original_filename: gaslines_48cf4d5114.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6e6c728714fb2a6e6c772f.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6e6c728714fb2a6e6c772f.jpg
+    thumb: /files/thumbnails/14fb2a6e6c728714fb2a6e6c772f.jpg
+    url: /files/original/14fb2a6e6c728714fb2a6e6c772f.jpg
 geo:
   address: ''
   lat: 31.245138

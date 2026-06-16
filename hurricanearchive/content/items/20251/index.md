@@ -15,12 +15,12 @@ dublin_core:
       text: Copy of 14rescue.a1.MEDIUM.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0a70c98014fb2a0a70cd66.jpg
+  - fullsize: /files/fullsize/14fb2a0a70c98014fb2a0a70cd66.jpg
     id: 17204
     mime: image/jpeg
     original_filename: Copy of 14rescue.a1.MEDIUM.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0a70c98014fb2a0a70cd66.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0a70c98014fb2a0a70cd66.jpg
+    thumb: /files/thumbnails/14fb2a0a70c98014fb2a0a70cd66.jpg
+    url: /files/original/14fb2a0a70c98014fb2a0a70cd66.jpg
 geo:
 id: 20251
 item_type: Still Image

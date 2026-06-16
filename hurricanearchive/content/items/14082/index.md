@@ -15,12 +15,12 @@ dublin_core:
       text: Area Damage.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1bdf133014fb2a1bdf1716.jpg
+  - fullsize: /files/fullsize/14fb2a1bdf133014fb2a1bdf1716.jpg
     id: 11726
     mime: image/jpeg
     original_filename: Area Damage.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1bdf133014fb2a1bdf1716.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1bdf133014fb2a1bdf1716.jpg
+    thumb: /files/thumbnails/14fb2a1bdf133014fb2a1bdf1716.jpg
+    url: /files/original/14fb2a1bdf133014fb2a1bdf1716.jpg
 geo:
   address: ''
   lat: 0.0

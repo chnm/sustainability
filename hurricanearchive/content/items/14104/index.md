@@ -15,12 +15,12 @@ dublin_core:
       text: Clear the parking lot.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1bbede4414fb2a1bbee229.jpg
+  - fullsize: /files/fullsize/14fb2a1bbede4414fb2a1bbee229.jpg
     id: 11748
     mime: image/jpeg
     original_filename: Clear the parking lot.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1bbede4414fb2a1bbee229.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1bbede4414fb2a1bbee229.jpg
+    thumb: /files/thumbnails/14fb2a1bbede4414fb2a1bbee229.jpg
+    url: /files/original/14fb2a1bbede4414fb2a1bbee229.jpg
 geo:
   address: ''
   lat: 0.0

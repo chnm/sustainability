@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: 1LT Adams 5 Oct 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c79460c14fb2a1c79494b.wav
+    url: /files/original/14fb2a1c79460c14fb2a1c79494b.wav
 geo:
   address: ''
   lat: 0.0

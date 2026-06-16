@@ -26,7 +26,7 @@ files:
     mime: application/msword
     original_filename: Perry_297f177274.Top Ten Education Questions for Mayoral and City Council Candidates.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29caf4c84314fb29caf4cb22.doc
+    url: /files/original/14fb29caf4c84314fb29caf4cb22.doc
 geo:
 id: 33288
 item_type: Document

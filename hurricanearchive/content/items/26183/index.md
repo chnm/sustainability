@@ -23,24 +23,24 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d9a9575114fb29d9a95b34.jpg
+  - fullsize: /files/fullsize/14fb29d9a9575114fb29d9a95b34.jpg
     id: 22797
     mime: image/jpeg
     original_filename: chalbfld_355122fa7f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d9a9575114fb29d9a95b34.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d9a9575114fb29d9a95b34.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d9a8077a14fb29d9a80b60.jpg
+    thumb: /files/thumbnails/14fb29d9a9575114fb29d9a95b34.jpg
+    url: /files/original/14fb29d9a9575114fb29d9a95b34.jpg
+  - fullsize: /files/fullsize/14fb29d9a8077a14fb29d9a80b60.jpg
     id: 22798
     mime: image/jpeg
     original_filename: img0007_29a7b95a1f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d9a8077a14fb29d9a80b60.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d9a8077a14fb29d9a80b60.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d9a5063e14fb29d9a50a18.jpg
+    thumb: /files/thumbnails/14fb29d9a8077a14fb29d9a80b60.jpg
+    url: /files/original/14fb29d9a8077a14fb29d9a80b60.jpg
+  - fullsize: /files/fullsize/14fb29d9a5063e14fb29d9a50a18.jpg
     id: 22799
     mime: image/jpeg
     original_filename: tpic4_d2dc8493a9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d9a5063e14fb29d9a50a18.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d9a5063e14fb29d9a50a18.jpg
+    thumb: /files/thumbnails/14fb29d9a5063e14fb29d9a50a18.jpg
+    url: /files/original/14fb29d9a5063e14fb29d9a50a18.jpg
 geo:
 id: 26183
 item_type: Still Image

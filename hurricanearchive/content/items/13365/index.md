@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: JoeCaldwell_uno_da0404a653.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1e2c781d14fb2a1e2c7bed.doc
+    url: /files/original/14fb2a1e2c781d14fb2a1e2c7bed.doc
 geo:
   address: ''
   lat: 0.0

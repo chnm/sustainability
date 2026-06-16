@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: greatsadness_ff0ebf7686.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce2c6b0c14fb29ce2c6ef1.pdf
+    url: /files/original/14fb29ce2c6b0c14fb29ce2c6ef1.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

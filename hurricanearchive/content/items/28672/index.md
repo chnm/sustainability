@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6778.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1cd3bc514fb29d1cd41c8.jpg
+  - fullsize: /files/fullsize/14fb29d1cd3bc514fb29d1cd41c8.jpg
     id: 23517
     mime: image/jpg
     original_filename: 157448563_50579556ed.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1cd3bc514fb29d1cd41c8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1cd3bc514fb29d1cd41c8.jpg
+    thumb: /files/thumbnails/14fb29d1cd3bc514fb29d1cd41c8.jpg
+    url: /files/original/14fb29d1cd3bc514fb29d1cd41c8.jpg
 geo:
 id: 28672
 item_type: Still Image

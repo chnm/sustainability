@@ -15,12 +15,12 @@ dublin_core:
       text: patrick hesp9-14-05.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2161da3914fb2a2161dc6c.jpg
+  - fullsize: /files/fullsize/14fb2a2161da3914fb2a2161dc6c.jpg
     id: 11008
     mime: image/jpeg
     original_filename: patrick hesp9-14-05.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2161da3914fb2a2161dc6c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2161da3914fb2a2161dc6c.jpg
+    thumb: /files/thumbnails/14fb2a2161da3914fb2a2161dc6c.jpg
+    url: /files/original/14fb2a2161da3914fb2a2161dc6c.jpg
 geo:
 id: 12864
 item_type: Still Image

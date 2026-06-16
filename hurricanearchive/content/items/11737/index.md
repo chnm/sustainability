@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: kimberlypaige.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23ba858f14fb2a23ba8974.html
+    url: /files/original/14fb2a23ba858f14fb2a23ba8974.html
 geo:
 id: 11737
 item_type: Oral History

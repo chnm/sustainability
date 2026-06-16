@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6db5807614fb2a6db586d3.jpg
+  - fullsize: /files/fullsize/14fb2a6db5807614fb2a6db586d3.jpg
     id: 813
     mime: image/jpeg
     original_filename: DSC01073_178f3bee7b.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6db5807614fb2a6db586d3.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6db5807614fb2a6db586d3.jpg
+    thumb: /files/thumbnails/14fb2a6db5807614fb2a6db586d3.jpg
+    url: /files/original/14fb2a6db5807614fb2a6db586d3.jpg
 geo:
   address: ''
   lat: 29.9506212693763

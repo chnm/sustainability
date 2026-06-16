@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Figueroa, Ana.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8708a36ca14fbe8708a3aae.doc
+    url: /files/original/14fbe8708a36ca14fbe8708a3aae.doc
 geo:
 id: 45666
 item_type: Oral History

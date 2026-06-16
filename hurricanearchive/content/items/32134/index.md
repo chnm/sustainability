@@ -17,12 +17,12 @@ dublin_core:
       text: Katrina Candlelight Vigil
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc04967e14fb29cc049a64.jpg
+  - fullsize: /files/fullsize/14fb29cc04967e14fb29cc049a64.jpg
     id: 23976
     mime: image/jpg
     original_filename: 1279845759_fb9a888466.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc04967e14fb29cc049a64.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc04967e14fb29cc049a64.jpg
+    thumb: /files/thumbnails/14fb29cc04967e14fb29cc049a64.jpg
+    url: /files/original/14fb29cc04967e14fb29cc049a64.jpg
 geo:
 id: 32134
 item_type: Still Image

@@ -18,12 +18,12 @@ dublin_core:
       text: Gentilly
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e5a2f9e14fb2a1e5a3382.jpg
+  - fullsize: /files/fullsize/14fb2a1e5a2f9e14fb2a1e5a3382.jpg
     id: 11284
     mime: image/pjpeg
     original_filename: wieser_d8515eca93.neighborhood.trailer5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e5a2f9e14fb2a1e5a3382.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e5a2f9e14fb2a1e5a3382.jpg
+    thumb: /files/thumbnails/14fb2a1e5a2f9e14fb2a1e5a3382.jpg
+    url: /files/original/14fb2a1e5a2f9e14fb2a1e5a3382.jpg
 geo:
 id: 13293
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Official Timeline_7f52fdda2a.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a19261ce614fb2a192620c6.doc
+    url: /files/original/14fb2a19261ce614fb2a192620c6.doc
 geo:
 id: 14495
 item_type: Document

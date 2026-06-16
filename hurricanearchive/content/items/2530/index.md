@@ -18,12 +18,12 @@ dublin_core:
       text: 20051105_MG_8744.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a65b2fa8814fb2a65b2fe6e.jpg
+  - fullsize: /files/fullsize/14fb2a65b2fa8814fb2a65b2fe6e.jpg
     id: 2012
     mime: image/jpeg
     original_filename: 20051105_MG_8744.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a65b2fa8814fb2a65b2fe6e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a65b2fa8814fb2a65b2fe6e.jpg
+    thumb: /files/thumbnails/14fb2a65b2fa8814fb2a65b2fe6e.jpg
+    url: /files/original/14fb2a65b2fa8814fb2a65b2fe6e.jpg
 geo:
 id: 2530
 item_type: Still Image

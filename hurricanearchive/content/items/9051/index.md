@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 24 2006 Keeping track.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35db1eae14fb2a35db228a.txt
+    url: /files/original/14fb2a35db1eae14fb2a35db228a.txt
 geo:
   address: ''
   lat: 0.0

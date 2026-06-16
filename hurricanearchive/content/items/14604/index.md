@@ -17,7 +17,7 @@ files:
     mime: application/x-zip-compressed
     original_filename: winterspringplacements_2c10869947.zip
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1880b6fb14fb2a1880bde6.zip
+    url: /files/original/14fb2a1880b6fb14fb2a1880bde6.zip
 geo:
 id: 14604
 item_type: Document

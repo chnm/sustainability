@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Ruiz, Javier.trs (English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871bc915514fbe871bc9e20.doc
+    url: /files/original/14fbe871bc915514fbe871bc9e20.doc
   - fullsize:
     id: 46470
     mime: application/msword
     original_filename: Ruiz, Javier.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871bda50314fbe871bdad33.doc
+    url: /files/original/14fbe871bda50314fbe871bdad33.doc
 geo:
 id: 45832
 item_type: Oral History

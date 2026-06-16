@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dd82a82514fb29dd82ac0d.jpg
+  - fullsize: /files/fullsize/14fb29dd82a82514fb29dd82ac0d.jpg
     id: 22409
     mime: image/jpeg
     original_filename: DianeMerlaine-6187_9cb075efe6.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dd82a82514fb29dd82ac0d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dd82a82514fb29dd82ac0d.jpg
+    thumb: /files/thumbnails/14fb29dd82a82514fb29dd82ac0d.jpg
+    url: /files/original/14fb29dd82a82514fb29dd82ac0d.jpg
 geo:
 id: 25495
 item_type: Still Image

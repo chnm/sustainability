@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a707317fe14fb2a70731bdb.jpg
+  - fullsize: /files/fullsize/14fb2a707317fe14fb2a70731bdb.jpg
     id: 179
     mime: image/jpeg
     original_filename: 17th_Street_Canal_1_6c96d74aec.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a707317fe14fb2a70731bdb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a707317fe14fb2a70731bdb.jpg
+    thumb: /files/thumbnails/14fb2a707317fe14fb2a70731bdb.jpg
+    url: /files/original/14fb2a707317fe14fb2a70731bdb.jpg
 geo:
   address: ''
   lat: 30.065367

@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0024tentcity.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0d78863814fb2a0d788a1c.jpg
+  - fullsize: /files/fullsize/14fb2a0d78863814fb2a0d788a1c.jpg
     id: 16791
     mime: image/jpeg
     original_filename: DSC 0024tentcity.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0d78863814fb2a0d788a1c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0d78863814fb2a0d788a1c.jpg
+    thumb: /files/thumbnails/14fb2a0d78863814fb2a0d788a1c.jpg
+    url: /files/original/14fb2a0d78863814fb2a0d788a1c.jpg
 geo:
 id: 19838
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: almost naked Dave.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a21302d7214fb2a21303154.jpg
+  - fullsize: /files/fullsize/14fb2a21302d7214fb2a21303154.jpg
     id: 11031
     mime: image/jpeg
     original_filename: almost naked Dave.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a21302d7214fb2a21303154.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a21302d7214fb2a21303154.jpg
+    thumb: /files/thumbnails/14fb2a21302d7214fb2a21303154.jpg
+    url: /files/original/14fb2a21302d7214fb2a21303154.jpg
 geo:
 id: 13021
 item_type: Still Image

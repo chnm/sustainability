@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc6999c714fb29dc699dac.jpg
+  - fullsize: /files/fullsize/14fb29dc6999c714fb29dc699dac.jpg
     id: 22540
     mime: image/jpeg
     original_filename: KPatcheco-military2_a25682cf02.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc6999c714fb29dc699dac.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc6999c714fb29dc699dac.jpg
+    thumb: /files/thumbnails/14fb29dc6999c714fb29dc699dac.jpg
+    url: /files/original/14fb29dc6999c714fb29dc699dac.jpg
 geo:
 id: 25747
 item_type: Still Image

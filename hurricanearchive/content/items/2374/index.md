@@ -21,12 +21,12 @@ dublin_core:
       text: COAST GUARD D.A.R.T. SEARCHES CAMERON PARISH
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66d31ae614fb2a66d31ed4.jpg
+  - fullsize: /files/fullsize/14fb2a66d31ae614fb2a66d31ed4.jpg
     id: 1866
     mime: image/jpeg
     original_filename: 249142_8dd117add3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66d31ae614fb2a66d31ed4.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66d31ae614fb2a66d31ed4.jpg
+    thumb: /files/thumbnails/14fb2a66d31ae614fb2a66d31ed4.jpg
+    url: /files/original/14fb2a66d31ae614fb2a66d31ed4.jpg
 geo:
 id: 2374
 item_type: Still Image

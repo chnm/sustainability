@@ -15,12 +15,12 @@ dublin_core:
       text: Aerial imagery 1.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1be0641314fb2a1be0760c.jpg
+  - fullsize: /files/fullsize/14fb2a1be0641314fb2a1be0760c.jpg
     id: 11725
     mime: image/jpeg
     original_filename: Aerial imagery 1.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1be0641314fb2a1be0760c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1be0641314fb2a1be0760c.jpg
+    thumb: /files/thumbnails/14fb2a1be0641314fb2a1be0760c.jpg
+    url: /files/original/14fb2a1be0641314fb2a1be0760c.jpg
 geo:
   address: ''
   lat: 0.0

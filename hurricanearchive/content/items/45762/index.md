@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Mars, Carol(802).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8713baa4414fbe8713bb1d2.doc
+    url: /files/original/14fbe8713baa4414fbe8713bb1d2.doc
 geo:
 id: 45762
 item_type: Oral History

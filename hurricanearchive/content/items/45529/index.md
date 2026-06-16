@@ -17,19 +17,19 @@ files:
     mime: audio/mpeg
     original_filename: Barrales, Leopoldo 7-30-07.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e76ed4d14fbe86e76f12a.mp3
+    url: /files/original/14fbe86e76ed4d14fbe86e76f12a.mp3
   - fullsize:
     id: 45933
     mime: application/msword
     original_filename: Barrales, Leopoldo.trs (English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e794a9c14fbe86e794e8b.doc
+    url: /files/original/14fbe86e794a9c14fbe86e794e8b.doc
   - fullsize:
     id: 45934
     mime: application/msword
     original_filename: Barrales, Leopoldo.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e7c116614fbe86e7c1548.doc
+    url: /files/original/14fbe86e7c116614fbe86e7c1548.doc
 geo:
 id: 45529
 item_type: Oral History

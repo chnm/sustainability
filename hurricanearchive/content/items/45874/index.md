@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Veglia, Susan.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8721343eb14fbe872134bb8.doc
+    url: /files/original/14fbe8721343eb14fbe872134bb8.doc
 geo:
 id: 45874
 item_type: Oral History

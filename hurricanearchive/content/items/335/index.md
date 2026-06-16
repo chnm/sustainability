@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a7035f32214fb2a7035f6fe.jpg
+  - fullsize: /files/fullsize/14fb2a7035f32214fb2a7035f6fe.jpg
     id: 233
     mime: image/jpeg
     original_filename: sheesh_04fceea60d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a7035f32214fb2a7035f6fe.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a7035f32214fb2a7035f6fe.jpg
+    thumb: /files/thumbnails/14fb2a7035f32214fb2a7035f6fe.jpg
+    url: /files/original/14fb2a7035f32214fb2a7035f6fe.jpg
 geo:
   address: ''
   lat: 0.0

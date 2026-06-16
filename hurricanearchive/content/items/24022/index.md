@@ -15,12 +15,12 @@ dublin_core:
       text: 14rescue.a1S&R
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ebe7996e14fb29ebe79e4b.jpg
+  - fullsize: /files/fullsize/14fb29ebe7996e14fb29ebe79e4b.jpg
     id: 20966
     mime: image/jpeg
     original_filename: 14rescue.a1S&R
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ebe7996e14fb29ebe79e4b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ebe7996e14fb29ebe79e4b.a1S&R
+    thumb: /files/thumbnails/14fb29ebe7996e14fb29ebe79e4b.jpg
+    url: /files/original/14fb29ebe7996e14fb29ebe79e4b.a1S&R
 geo:
 id: 24022
 item_type: Still Image

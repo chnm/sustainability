@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6eba5dee14fb2a6eba61ce.jpg
+  - fullsize: /files/fullsize/14fb2a6eba5dee14fb2a6eba61ce.jpg
     id: 650
     mime: image/jpeg
     original_filename: Ex_levee_orleans_levee_board_presidents_home_c67333bbdb.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6eba5dee14fb2a6eba61ce.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6eba5dee14fb2a6eba61ce.jpg
+    thumb: /files/thumbnails/14fb2a6eba5dee14fb2a6eba61ce.jpg
+    url: /files/original/14fb2a6eba5dee14fb2a6eba61ce.jpg
 geo:
   address: ''
   lat: 29.9796951060607

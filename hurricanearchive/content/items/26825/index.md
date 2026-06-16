@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d79624c614fb29d79628ab.jpg
+  - fullsize: /files/fullsize/14fb29d79624c614fb29d79628ab.jpg
     id: 23009
     mime: image/jpeg
     original_filename: SF Oil Rig_ef1b3731b5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d79624c614fb29d79628ab.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d79624c614fb29d79628ab.jpg
+    thumb: /files/thumbnails/14fb29d79624c614fb29d79628ab.jpg
+    url: /files/original/14fb29d79624c614fb29d79628ab.jpg
 geo:
   address: ''
   lat: 29.87876

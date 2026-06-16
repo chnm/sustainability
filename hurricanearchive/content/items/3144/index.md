@@ -15,12 +15,12 @@ dublin_core:
       text: ES NOLA Lower Garden (1).JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5dbb95b414fb2a5dbb9998.jpg
+  - fullsize: /files/fullsize/14fb2a5dbb95b414fb2a5dbb9998.jpg
     id: 2616
     mime: image/jpeg
     original_filename: ES NOLA Lower Garden (1).JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5dbb95b414fb2a5dbb9998.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5dbb95b414fb2a5dbb9998.jpg
+    thumb: /files/thumbnails/14fb2a5dbb95b414fb2a5dbb9998.jpg
+    url: /files/original/14fb2a5dbb95b414fb2a5dbb9998.jpg
 geo:
 id: 3144
 item_type: Still Image

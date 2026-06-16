@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a70d8865e14fb2a70d88a44.jpg
+  - fullsize: /files/fullsize/14fb2a70d8865e14fb2a70d88a44.jpg
     id: 121
     mime: image/jpeg
     original_filename: IMG_2180_25b48bd38e.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a70d8865e14fb2a70d88a44.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a70d8865e14fb2a70d88a44.jpg
+    thumb: /files/thumbnails/14fb2a70d8865e14fb2a70d88a44.jpg
+    url: /files/original/14fb2a70d8865e14fb2a70d88a44.jpg
 geo:
   address: ''
   lat: 30.030902

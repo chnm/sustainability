@@ -14,12 +14,12 @@ dublin_core:
       text: Gas Station along Gulf Coast.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d5a5e94714fb29d5a5ed2a.jpg
+  - fullsize: /files/fullsize/14fb29d5a5e94714fb29d5a5ed2a.jpg
     id: 23155
     mime: image/jpeg
     original_filename: Gas Station along Gulf Coast.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d5a5e94714fb29d5a5ed2a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d5a5e94714fb29d5a5ed2a.jpg
+    thumb: /files/thumbnails/14fb29d5a5e94714fb29d5a5ed2a.jpg
+    url: /files/original/14fb29d5a5e94714fb29d5a5ed2a.jpg
 geo:
 id: 27249
 item_type: Still Image

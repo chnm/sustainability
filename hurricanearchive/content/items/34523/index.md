@@ -21,12 +21,12 @@ dublin_core:
       text: One of Thousands of Destroyed Vehicles
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c993699614fb29c9936d73.jpg
+  - fullsize: /files/fullsize/14fb29c993699614fb29c9936d73.jpg
     id: 24357
     mime: image/jpg
     original_filename: 2291226451_5df3cc5f6b.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c993699614fb29c9936d73.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c993699614fb29c9936d73.jpg
+    thumb: /files/thumbnails/14fb29c993699614fb29c9936d73.jpg
+    url: /files/original/14fb29c993699614fb29c9936d73.jpg
 geo:
   address: ''
   lat: 30.22539

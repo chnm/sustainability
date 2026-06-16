@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a705dd3a114fb2a705dd78e.jpg
+  - fullsize: /files/fullsize/14fb2a705dd3a114fb2a705dd78e.jpg
     id: 200
     mime: image/jpeg
     original_filename: biloxicasinoinholidayinn_c21d3003ec.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a705dd3a114fb2a705dd78e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a705dd3a114fb2a705dd78e.jpg
+    thumb: /files/thumbnails/14fb2a705dd3a114fb2a705dd78e.jpg
+    url: /files/original/14fb2a705dd3a114fb2a705dd78e.jpg
 geo:
   address: ''
   lat: 30.394791736573

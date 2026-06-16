@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d8d4b6ef14fb29d8d4badd.jpg
+  - fullsize: /files/fullsize/14fb29d8d4b6ef14fb29d8d4badd.jpg
     id: 22876
     mime: image/jpeg
     original_filename: ev 4 St_5f7d99b5a5. Bernard Market.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d8d4b6ef14fb29d8d4badd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d8d4b6ef14fb29d8d4badd.jpg
+    thumb: /files/thumbnails/14fb29d8d4b6ef14fb29d8d4badd.jpg
+    url: /files/original/14fb29d8d4b6ef14fb29d8d4badd.jpg
 geo:
   address: ''
   lat: 29.87876

@@ -17,12 +17,12 @@ dublin_core:
       text: Barge - on top of houses
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d49d8e0a14fb29d49d91ef.jpg
+  - fullsize: /files/fullsize/14fb29d49d8e0a14fb29d49d91ef.jpg
     id: 23220
     mime: image/jpg
     original_filename: 336696847_e981e6d3b1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d49d8e0a14fb29d49d91ef.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d49d8e0a14fb29d49d91ef.jpg
+    thumb: /files/thumbnails/14fb29d49d8e0a14fb29d49d91ef.jpg
+    url: /files/original/14fb29d49d8e0a14fb29d49d91ef.jpg
 geo:
 id: 27333
 item_type: Still Image

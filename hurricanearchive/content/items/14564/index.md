@@ -20,7 +20,7 @@ files:
     mime: application/octet-stream
     original_filename: NYU Relief & Rebuilding Efforts- Overview_67151809fe.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18d8ff8714fb2a18d90512.doc
+    url: /files/original/14fb2a18d8ff8714fb2a18d90512.doc
 geo:
 id: 14564
 item_type: Document

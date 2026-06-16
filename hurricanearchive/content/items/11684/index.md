@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Morgan Necaise.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23f3b41f14fb2a23f3b7ff.htm
+    url: /files/original/14fb2a23f3b41f14fb2a23f3b7ff.htm
 geo:
 id: 11684
 item_type: Oral History

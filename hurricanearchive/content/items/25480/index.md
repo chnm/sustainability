@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dd94f0af14fb29dd94f49e.jpg
+  - fullsize: /files/fullsize/14fb29dd94f0af14fb29dd94f49e.jpg
     id: 22394
     mime: image/jpeg
     original_filename: TommyCooke-6271_9f9424ad65.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dd94f0af14fb29dd94f49e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dd94f0af14fb29dd94f49e.jpg
+    thumb: /files/thumbnails/14fb29dd94f0af14fb29dd94f49e.jpg
+    url: /files/original/14fb29dd94f0af14fb29dd94f49e.jpg
 geo:
 id: 25480
 item_type: Still Image

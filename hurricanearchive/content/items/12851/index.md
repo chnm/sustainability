@@ -15,12 +15,12 @@ dublin_core:
       text: dept social services 9-14.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2171184614fb2a21711c37.jpg
+  - fullsize: /files/fullsize/14fb2a2171184614fb2a21711c37.jpg
     id: 10995
     mime: image/jpeg
     original_filename: dept social services 9-14.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2171184614fb2a21711c37.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2171184614fb2a21711c37.jpg
+    thumb: /files/thumbnails/14fb2a2171184614fb2a21711c37.jpg
+    url: /files/original/14fb2a2171184614fb2a21711c37.jpg
 geo:
 id: 12851
 item_type: Still Image

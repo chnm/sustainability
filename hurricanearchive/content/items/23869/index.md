@@ -15,12 +15,12 @@ dublin_core:
       text: S4300225jeffersonparishS&R.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ecab296014fb29ecab5c67.jpg
+  - fullsize: /files/fullsize/14fb29ecab296014fb29ecab5c67.jpg
     id: 20813
     mime: image/jpeg
     original_filename: S4300225jeffersonparishS&R.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ecab296014fb29ecab5c67.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ecab296014fb29ecab5c67.jpg
+    thumb: /files/thumbnails/14fb29ecab296014fb29ecab5c67.jpg
+    url: /files/original/14fb29ecab296014fb29ecab5c67.jpg
 geo:
 id: 23869
 item_type: Still Image

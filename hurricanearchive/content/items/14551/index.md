@@ -19,7 +19,7 @@ files:
     mime: application/msword
     original_filename: LobbyKit_a92de45e8b.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18e096d214fb2a18e09ab8.doc
+    url: /files/original/14fb2a18e096d214fb2a18e09ab8.doc
 geo:
 id: 14551
 item_type: Document

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Danielle Marie Smith.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a246eb14f14fb2a246eb536.htm
+    url: /files/original/14fb2a246eb14f14fb2a246eb536.htm
 geo:
 id: 11630
 item_type: Oral History

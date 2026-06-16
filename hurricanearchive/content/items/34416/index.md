@@ -17,12 +17,12 @@ dublin_core:
       text: Derriwatcher\'s Home
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca205a5514fb29ca205c86.jpg
+  - fullsize: /files/fullsize/14fb29ca205a5514fb29ca205c86.jpg
     id: 24250
     mime: image/jpg
     original_filename: 2380708602_c36012ad5e.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca205a5514fb29ca205c86.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca205a5514fb29ca205c86.jpg
+    thumb: /files/thumbnails/14fb29ca205a5514fb29ca205c86.jpg
+    url: /files/original/14fb29ca205a5514fb29ca205c86.jpg
 geo:
   address: ''
   lat: 30.22894

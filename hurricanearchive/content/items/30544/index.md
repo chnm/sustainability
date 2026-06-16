@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ccf2df2814fb29ccf2e303.jpg
+  - fullsize: /files/fullsize/14fb29ccf2df2814fb29ccf2e303.jpg
     id: 23781
     mime: image/pjpeg
     original_filename: 7265930-R1-026-11A_99afcc3554.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ccf2df2814fb29ccf2e303.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ccf2df2814fb29ccf2e303.jpg
+    thumb: /files/thumbnails/14fb29ccf2df2814fb29ccf2e303.jpg
+    url: /files/original/14fb29ccf2df2814fb29ccf2e303.jpg
 geo:
   address: 409 Norton Ave, Arabi LA
   lat: 0.0

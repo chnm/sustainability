@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7ea293e14fb29d7ea2d24.jpg
+  - fullsize: /files/fullsize/14fb29d7ea293e14fb29d7ea2d24.jpg
     id: 22954
     mime: image/jpeg
     original_filename: SW 1970 flood street_bda3f85262.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7ea293e14fb29d7ea2d24.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7ea293e14fb29d7ea2d24.jpg
+    thumb: /files/thumbnails/14fb29d7ea293e14fb29d7ea2d24.jpg
+    url: /files/original/14fb29d7ea293e14fb29d7ea2d24.jpg
 geo:
   address: ''
   lat: 29.91685

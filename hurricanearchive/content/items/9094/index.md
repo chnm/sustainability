@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 15 2005 Texas game wardens, state parks aid Katrina victims.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35a4f77014fb2a35a4fb4d.txt
+    url: /files/original/14fb2a35a4f77014fb2a35a4fb4d.txt
 geo:
   address: ''
   lat: 0.0

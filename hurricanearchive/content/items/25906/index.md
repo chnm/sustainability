@@ -19,7 +19,7 @@ files:
     mime: video/x-ms-wmv
     original_filename: pay_it_forward_c0cd240e28.wmv
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbd0ea9314fb29dbd0ee7a.wmv
+    url: /files/original/14fb29dbd0ea9314fb29dbd0ee7a.wmv
 geo:
   address: 125 S Buchanan St, Lafayette, LA
   lat: 30.23045

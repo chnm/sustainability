@@ -19,18 +19,18 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a15a8abe614fb2a15a8afcc.jpg
+  - fullsize: /files/fullsize/14fb2a15a8abe614fb2a15a8afcc.jpg
     id: 13949
     mime: image/jpeg
     original_filename: CecileRobin-5898_87323e6e32.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a15a8abe614fb2a15a8afcc.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a15a8abe614fb2a15a8afcc.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a15a2729914fb2a15a2767d.jpg
+    thumb: /files/thumbnails/14fb2a15a8abe614fb2a15a8afcc.jpg
+    url: /files/original/14fb2a15a8abe614fb2a15a8afcc.jpg
+  - fullsize: /files/fullsize/14fb2a15a2729914fb2a15a2767d.jpg
     id: 13950
     mime: image/jpeg
     original_filename: CecileRobin-5899_be0e8545b4.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a15a2729914fb2a15a2767d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a15a2729914fb2a15a2767d.jpg
+    thumb: /files/thumbnails/14fb2a15a2729914fb2a15a2767d.jpg
+    url: /files/original/14fb2a15a2729914fb2a15a2767d.jpg
 geo:
 id: 16970
 item_type: Still Image

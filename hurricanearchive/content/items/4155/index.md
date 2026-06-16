@@ -15,12 +15,12 @@ dublin_core:
       text: P1010022.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a575b81b914fb2a575b85ad.jpg
+  - fullsize: /files/fullsize/14fb2a575b81b914fb2a575b85ad.jpg
     id: 3566
     mime: image/jpeg
     original_filename: P1010022.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a575b81b914fb2a575b85ad.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a575b81b914fb2a575b85ad.jpg
+    thumb: /files/thumbnails/14fb2a575b81b914fb2a575b85ad.jpg
+    url: /files/original/14fb2a575b81b914fb2a575b85ad.jpg
 geo:
 id: 4155
 item_type: Still Image

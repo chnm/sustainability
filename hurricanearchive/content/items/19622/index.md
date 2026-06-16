@@ -15,12 +15,12 @@ dublin_core:
       text: 09240023rita.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0eabcc3714fb2a0eabd01b.jpg
+  - fullsize: /files/fullsize/14fb2a0eabcc3714fb2a0eabd01b.jpg
     id: 16575
     mime: image/jpeg
     original_filename: 09240023rita.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0eabcc3714fb2a0eabd01b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0eabcc3714fb2a0eabd01b.jpg
+    thumb: /files/thumbnails/14fb2a0eabcc3714fb2a0eabd01b.jpg
+    url: /files/original/14fb2a0eabcc3714fb2a0eabd01b.jpg
 geo:
 id: 19622
 item_type: Still Image

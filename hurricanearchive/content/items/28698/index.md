@@ -14,12 +14,12 @@ dublin_core:
       text: Inside a hurricane damaged house
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1a9c00414fb29d1aa0d33.jpg
+  - fullsize: /files/fullsize/14fb29d1a9c00414fb29d1aa0d33.jpg
     id: 23542
     mime: image/jpg
     original_filename: 114540328_540ccac26d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1a9c00414fb29d1aa0d33.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1a9c00414fb29d1aa0d33.jpg
+    thumb: /files/thumbnails/14fb29d1a9c00414fb29d1aa0d33.jpg
+    url: /files/original/14fb29d1a9c00414fb29d1aa0d33.jpg
 geo:
 id: 28698
 item_type: Still Image

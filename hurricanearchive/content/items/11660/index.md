@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Johnene Marie Thames.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a243b3d5514fb2a243b4138.htm
+    url: /files/original/14fb2a243b3d5514fb2a243b4138.htm
 geo:
 id: 11660
 item_type: Oral History

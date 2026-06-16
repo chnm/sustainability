@@ -26,7 +26,7 @@ files:
     mime: application/msword
     original_filename: '[SHN}Press Release 12_21_05_c9105c35b8.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cfdc53014fb2a1cfdc91c.doc
+    url: /files/original/14fb2a1cfdc53014fb2a1cfdc91c.doc
 geo:
 id: 13709
 item_type: Document

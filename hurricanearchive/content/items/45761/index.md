@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Mahner, Cynthia.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8713aac6814fbe8713ab053.doc
+    url: /files/original/14fbe8713aac6814fbe8713ab053.doc
 geo:
 id: 45761
 item_type: Oral History

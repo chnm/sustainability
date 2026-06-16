@@ -23,7 +23,7 @@ files:
     mime: audio/x-ms-wma
     original_filename: 39 Chalmette_eeef060e43.wma
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c5c5ba0e14fb29c5c5bdef.wma
+    url: /files/original/14fb29c5c5ba0e14fb29c5c5bdef.wma
 geo:
 id: 36249
 item_type: Document

@@ -15,12 +15,12 @@ dublin_core:
       text: WyattmobilePAO.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f0a6b00914fb29f0a6b3ef.jpg
+  - fullsize: /files/fullsize/14fb29f0a6b00914fb29f0a6b3ef.jpg
     id: 20157
     mime: image/jpeg
     original_filename: WyattmobilePAO.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f0a6b00914fb29f0a6b3ef.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f0a6b00914fb29f0a6b3ef.jpg
+    thumb: /files/thumbnails/14fb29f0a6b00914fb29f0a6b3ef.jpg
+    url: /files/original/14fb29f0a6b00914fb29f0a6b3ef.jpg
 geo:
 id: 23213
 item_type: Still Image

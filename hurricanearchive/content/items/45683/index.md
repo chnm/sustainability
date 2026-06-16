@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Gibson, Perry&Bobbye.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870ba57ef14fbe870ba5bcb.doc
+    url: /files/original/14fbe870ba57ef14fbe870ba5bcb.doc
   - fullsize:
     id: 46297
     mime: application/msword
     original_filename: Gibson, Perry&Bobbye.toc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870bb07a614fbe870bb0b8b.doc
+    url: /files/original/14fbe870bb07a614fbe870bb0b8b.doc
 geo:
 id: 45683
 item_type: Oral History

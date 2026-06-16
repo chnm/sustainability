@@ -14,12 +14,12 @@ dublin_core:
       text: Hurricanes Uncensored
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d18ac59914fb29d18ac9c7.jpg
+  - fullsize: /files/fullsize/14fb29d18ac59914fb29d18ac9c7.jpg
     id: 23543
     mime: image/jpg
     original_filename: 114541286_8789185a18.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d18ac59914fb29d18ac9c7.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d18ac59914fb29d18ac9c7.jpg
+    thumb: /files/thumbnails/14fb29d18ac59914fb29d18ac9c7.jpg
+    url: /files/original/14fb29d18ac59914fb29d18ac9c7.jpg
 geo:
 id: 28699
 item_type: Still Image

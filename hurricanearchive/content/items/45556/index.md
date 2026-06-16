@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Bunkheila, Ghazi 4-21-07.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f14f54514fbe86f14f91b.mp3
+    url: /files/original/14fbe86f14f54514fbe86f14f91b.mp3
   - fullsize:
     id: 46021
     mime: application/msword
     original_filename: Bunkheila, Ghazi.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f16069414fbe86f160a82.doc
+    url: /files/original/14fbe86f16069414fbe86f160a82.doc
 geo:
 id: 45556
 item_type: Oral History

@@ -23,7 +23,7 @@ files:
     mime: application/octet-stream
     original_filename: Francisco di Santis_7df8560fb4.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a221b09c214fb2a221b0daa.doc
+    url: /files/original/14fb2a221b09c214fb2a221b0daa.doc
 geo:
 id: 12506
 item_type: Document

@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0179industrialcanal.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f36ee3ef14fb29f36ee79e.jpg
+  - fullsize: /files/fullsize/14fb29f36ee3ef14fb29f36ee79e.jpg
     id: 19760
     mime: image/jpeg
     original_filename: DSC 0179industrialcanal.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f36ee3ef14fb29f36ee79e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f36ee3ef14fb29f36ee79e.jpg
+    thumb: /files/thumbnails/14fb29f36ee3ef14fb29f36ee79e.jpg
+    url: /files/original/14fb29f36ee3ef14fb29f36ee79e.jpg
 geo:
 id: 22809
 item_type: Still Image

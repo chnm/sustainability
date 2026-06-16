@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Williams, Letitia H. 12-29-06.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8703cc6ca14fbe8703cd42c.mp3
+    url: /files/original/14fbe8703cc6ca14fbe8703cd42c.mp3
   - fullsize:
     id: 46204
     mime: application/msword
     original_filename: Williams, Letitia H.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8703e1a8814fbe8703e1e66.doc
+    url: /files/original/14fbe8703e1a8814fbe8703e1e66.doc
 geo:
 id: 45617
 item_type: Oral History

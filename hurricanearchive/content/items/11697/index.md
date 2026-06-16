@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Sara Lynn Myers.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23e8508514fb2a23e85469.html
+    url: /files/original/14fb2a23e8508514fb2a23e85469.html
 geo:
 id: 11697
 item_type: Oral History

@@ -23,7 +23,7 @@ files:
     mime: application/octet-stream
     original_filename: '[SHN]Law School Specific Releases_73f990e963.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d080c4514fb2a1d081467.doc
+    url: /files/original/14fb2a1d080c4514fb2a1d081467.doc
 geo:
 id: 13708
 item_type: Document

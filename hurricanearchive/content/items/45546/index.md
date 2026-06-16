@@ -17,7 +17,7 @@ files:
     mime: audio/mpeg
     original_filename: Brann, Emily - by Damiyr Davis & Desta Mason.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ee9b23114fbe86ee9b61a.mp3
+    url: /files/original/14fbe86ee9b23114fbe86ee9b61a.mp3
 geo:
 id: 45546
 item_type: Oral History

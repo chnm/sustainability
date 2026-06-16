@@ -17,7 +17,7 @@ files:
     mime: audio/mpeg
     original_filename: figueroa, Ana 07-14-07.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86fb9f69014fbe86fb9fbd7.mp3
+    url: /files/original/14fbe86fb9f69014fbe86fb9fbd7.mp3
 geo:
 id: 45599
 item_type: Oral History

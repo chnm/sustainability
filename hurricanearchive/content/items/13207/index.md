@@ -15,12 +15,12 @@ dublin_core:
       text: 201 tree damage.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f5271e014fb2a1f5275c5.jpg
+  - fullsize: /files/fullsize/14fb2a1f5271e014fb2a1f5275c5.jpg
     id: 11217
     mime: image/jpeg
     original_filename: 201 tree damage.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f5271e014fb2a1f5275c5.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f5271e014fb2a1f5275c5.jpg
+    thumb: /files/thumbnails/14fb2a1f5271e014fb2a1f5275c5.jpg
+    url: /files/original/14fb2a1f5271e014fb2a1f5275c5.jpg
 geo:
 id: 13207
 item_type: Still Image

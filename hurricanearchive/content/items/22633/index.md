@@ -15,12 +15,12 @@ dublin_core:
       text: JB parking lotJacksonbarracks.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f4edfbe914fb29f4edffce.jpg
+  - fullsize: /files/fullsize/14fb29f4edfbe914fb29f4edffce.jpg
     id: 19584
     mime: image/jpeg
     original_filename: JB parking lotJacksonbarracks.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f4edfbe914fb29f4edffce.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f4edfbe914fb29f4edffce.jpg
+    thumb: /files/thumbnails/14fb29f4edfbe914fb29f4edffce.jpg
+    url: /files/original/14fb29f4edfbe914fb29f4edffce.jpg
 geo:
 id: 22633
 item_type: Still Image

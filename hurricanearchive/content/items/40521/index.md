@@ -11,12 +11,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c4ddeaa014fb29c4ddee7f.jpg
+  - fullsize: /files/fullsize/14fb29c4ddeaa014fb29c4ddee7f.jpg
     id: 24833
     mime: image/pjpeg
     original_filename: l_42aa98af01204c1bcamp on lakeview dr_f5ce45b569.aad7e4f788a34a6d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c4ddeaa014fb29c4ddee7f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c4ddeaa014fb29c4ddee7f.jpg
+    thumb: /files/thumbnails/14fb29c4ddeaa014fb29c4ddee7f.jpg
+    url: /files/original/14fb29c4ddeaa014fb29c4ddee7f.jpg
 geo:
   address: ''
   lat: 30.29702

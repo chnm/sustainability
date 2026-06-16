@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Vesa, Maria.trs (English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87215dfbf14fbe87215e3a3.doc
+    url: /files/original/14fbe87215dfbf14fbe87215e3a3.doc
   - fullsize:
     id: 46520
     mime: application/msword
     original_filename: Vesa, Maria.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8721731fd14fbe872183168.doc
+    url: /files/original/14fbe8721731fd14fbe872183168.doc
 geo:
 id: 45875
 item_type: Oral History

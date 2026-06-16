@@ -15,12 +15,12 @@ dublin_core:
       text: SFC Kenna Wood.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1af521ed14fb2a1af52630.jpg
+  - fullsize: /files/fullsize/14fb2a1af521ed14fb2a1af52630.jpg
     id: 11820
     mime: image/jpeg
     original_filename: SFC Kenna Wood.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1af521ed14fb2a1af52630.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1af521ed14fb2a1af52630.jpg
+    thumb: /files/thumbnails/14fb2a1af521ed14fb2a1af52630.jpg
+    url: /files/original/14fb2a1af521ed14fb2a1af52630.jpg
 geo:
   address: ''
   lat: 0.0

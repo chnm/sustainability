@@ -17,19 +17,19 @@ files:
     mime: audio/mpeg
     original_filename: Domico, Adrianne 2-21-08.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f4d47de14fbe86f4d4b69.mp3
+    url: /files/original/14fbe86f4d47de14fbe86f4d4b69.mp3
   - fullsize:
     id: 46078
     mime: audio/mpeg
     original_filename: Domico, Adrianne.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f5183a214fbe86f51877e.mp3
+    url: /files/original/14fbe86f5183a214fbe86f51877e.mp3
   - fullsize:
     id: 46079
     mime: application/msword
     original_filename: Domico, Adrianne.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f52b82c14fbe86f52bc13.doc
+    url: /files/original/14fbe86f52b82c14fbe86f52bc13.doc
 geo:
 id: 45579
 item_type: Oral History

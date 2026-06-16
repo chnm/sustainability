@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Willits, Bob 2-22-07.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870411a4014fbe870411e32.mp3
+    url: /files/original/14fbe870411a4014fbe870411e32.mp3
   - fullsize:
     id: 46208
     mime: application/msword
     original_filename: Willits, Bob.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87041ca7d14fbe87041cde5.doc
+    url: /files/original/14fbe87041ca7d14fbe87041cde5.doc
 geo:
 id: 45619
 item_type: Oral History

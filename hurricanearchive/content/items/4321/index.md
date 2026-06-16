@@ -23,7 +23,7 @@ files:
     mime: video/quicktime
     original_filename: Leprit du coeur.mov
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5748a45114fb2a5748a836.mov
+    url: /files/original/14fb2a5748a45114fb2a5748a836.mov
 geo:
 id: 4321
 item_type: Moving Image

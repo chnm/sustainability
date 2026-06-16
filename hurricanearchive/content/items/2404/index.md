@@ -24,12 +24,12 @@ dublin_core:
       text: Jumping to Land
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66b23e4614fb2a66b2422b.jpg
+  - fullsize: /files/fullsize/14fb2a66b23e4614fb2a66b2422b.jpg
     id: 1896
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05BZY_af7f642e8c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66b23e4614fb2a66b2422b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66b23e4614fb2a66b2422b.jpg
+    thumb: /files/thumbnails/14fb2a66b23e4614fb2a66b2422b.jpg
+    url: /files/original/14fb2a66b23e4614fb2a66b2422b.jpg
 geo:
 id: 2404
 item_type: Still Image

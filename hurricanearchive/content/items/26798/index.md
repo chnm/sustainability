@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Dan Brown HK38128K56K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7c8245114fb29d7c82839.mp3
+    url: /files/original/14fb29d7c8245114fb29d7c82839.mp3
 geo:
 id: 26798
 item_type: Oral History

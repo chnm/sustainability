@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Gutting NOLA_e565d72087.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29caae32bd14fb29caae3e1f.doc
+    url: /files/original/14fb29caae32bd14fb29caae3e1f.doc
 geo:
 id: 33675
 item_type: Document

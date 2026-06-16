@@ -15,12 +15,12 @@ dublin_core:
       text: Copy of 527%20(sept12)Picture2.png
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0a6b261914fb2a0a6b29fc.jpg
+  - fullsize: /files/fullsize/14fb2a0a6b261914fb2a0a6b29fc.jpg
     id: 17208
     mime: image/png
     original_filename: Copy of 527%20(sept12)Picture2.png
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0a6b261914fb2a0a6b29fc.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0a6b261914fb2a0a6b29fc.jpg
+    thumb: /files/thumbnails/14fb2a0a6b261914fb2a0a6b29fc.jpg
+    url: /files/original/14fb2a0a6b261914fb2a0a6b29fc.jpg
 geo:
 id: 20255
 item_type: Still Image

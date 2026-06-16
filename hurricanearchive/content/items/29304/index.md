@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: 3100 block chartres_8f1341f4ce.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cec15a5014fb29cec16af4.pdf
+    url: /files/original/14fb29cec15a5014fb29cec16af4.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_b3b332ce2e.Taming the gaming addiction.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cad1c41d14fb29cad1c802.doc
+    url: /files/original/14fb29cad1c41d14fb29cad1c802.doc
 geo:
 id: 33310
 item_type: Document

@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c4da225614fb29c4da3349.jpg
+  - fullsize: /files/fullsize/14fb29c4da225614fb29c4da3349.jpg
     id: 24834
     mime: image/jpeg
     original_filename: August 2009 011_3162299d38.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c4da225614fb29c4da3349.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c4da225614fb29c4da3349.jpg
+    thumb: /files/thumbnails/14fb29c4da225614fb29c4da3349.jpg
+    url: /files/original/14fb29c4da225614fb29c4da3349.jpg
 geo:
   address: ''
   lat: 0.0

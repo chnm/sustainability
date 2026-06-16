@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d80a4de914fb29d80a51cf.jpg
+  - fullsize: /files/fullsize/14fb29d80a4de914fb29d80a51cf.jpg
     id: 22941
     mime: image/jpeg
     original_filename: RB First Communion 1952_c1c1d96640.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d80a4de914fb29d80a51cf.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d80a4de914fb29d80a51cf.jpg
+    thumb: /files/thumbnails/14fb29d80a4de914fb29d80a51cf.jpg
+    url: /files/original/14fb29d80a4de914fb29d80a51cf.jpg
 geo:
   address: ''
   lat: 29.95493

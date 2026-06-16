@@ -15,12 +15,12 @@ dublin_core:
       text: northbound traffic.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e8b3ea514fb2a1e8b4364.jpg
+  - fullsize: /files/fullsize/14fb2a1e8b3ea514fb2a1e8b4364.jpg
     id: 11268
     mime: image/jpeg
     original_filename: northbound traffic.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e8b3ea514fb2a1e8b4364.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e8b3ea514fb2a1e8b4364.jpg
+    thumb: /files/thumbnails/14fb2a1e8b3ea514fb2a1e8b4364.jpg
+    url: /files/original/14fb2a1e8b3ea514fb2a1e8b4364.jpg
 geo:
 id: 13258
 item_type: Still Image

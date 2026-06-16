@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Tonkel, Keith.(799).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8720c4cbc14fbe8720c50a1.doc
+    url: /files/original/14fbe8720c4cbc14fbe8720c50a1.doc
 geo:
 id: 45870
 item_type: Oral History

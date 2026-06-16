@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Johnson, Leroy.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870f21c0214fbe870f21fe7.doc
+    url: /files/original/14fbe870f21c0214fbe870f21fe7.doc
 geo:
 id: 45722
 item_type: Oral History

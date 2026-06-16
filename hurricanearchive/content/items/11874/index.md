@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: kristy barnes.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a22f6760214fb2a22f679e7.doc
+    url: /files/original/14fb2a22f6760214fb2a22f679e7.doc
 geo:
 id: 11874
 item_type: Document

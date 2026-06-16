@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dbb84b4114fb29dbb854b0.jpg
+  - fullsize: /files/fullsize/14fb29dbb84b4114fb29dbb854b0.jpg
     id: 22606
     mime: image/pjpeg
     original_filename: Katrina1_c83928e754.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dbb84b4114fb29dbb854b0.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dbb84b4114fb29dbb854b0.jpg
+    thumb: /files/thumbnails/14fb29dbb84b4114fb29dbb854b0.jpg
+    url: /files/original/14fb29dbb84b4114fb29dbb854b0.jpg
 geo:
   address: 5220 Gin Road Pearlington,Ms
   lat: 0.0

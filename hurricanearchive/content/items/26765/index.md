@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: ErasedLandscapes_03b942f5e4.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7e324ef14fb29d7e32920.pdf
+    url: /files/original/14fb29d7e324ef14fb29d7e32920.pdf
 geo:
   address: ''
   lat: 0.0

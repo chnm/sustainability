@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: LTC Owen Monconduit.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1b71752e14fb2a1b717b9b.wav
+    url: /files/original/14fb2a1b71752e14fb2a1b717b9b.wav
 geo:
   address: ''
   lat: 0.0

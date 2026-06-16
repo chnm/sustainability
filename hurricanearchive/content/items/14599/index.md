@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: Right to Counsel Project Proposal FINAL_a6f45b3bc7.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1887c80614fb2a1887cfb9.doc
+    url: /files/original/14fb2a1887c80614fb2a1887cfb9.doc
 geo:
 id: 14599
 item_type: Document

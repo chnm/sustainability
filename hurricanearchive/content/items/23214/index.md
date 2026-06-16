@@ -20,7 +20,7 @@ files:
     mime: text/rtf
     original_filename: bayou1WestVirginiaNG.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29f0a56fc914fb29f0a573ad.doc
+    url: /files/original/14fb29f0a56fc914fb29f0a573ad.doc
 geo:
 id: 23214
 item_type: Document

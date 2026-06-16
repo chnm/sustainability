@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Dorothy McLaren HK128K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7c438da14fb29d7c43ca9.mp3
+    url: /files/original/14fb29d7c438da14fb29d7c43ca9.mp3
 geo:
 id: 26801
 item_type: Oral History

@@ -20,7 +20,7 @@ files:
     mime: text/rtf
     original_filename: houchins2wordpadMarylandNG.rtf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29f0a4bc2b14fb29f0a4c012.rtf
+    url: /files/original/14fb29f0a4bc2b14fb29f0a4c012.rtf
 geo:
 id: 23215
 item_type: Document

@@ -14,12 +14,12 @@ dublin_core:
       text: Repairing What Has Been Lost
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbbd23c514fb29cbbd26c6.jpg
+  - fullsize: /files/fullsize/14fb29cbbd23c514fb29cbbd26c6.jpg
     id: 24038
     mime: image/jpg
     original_filename: 1438012549_b07e3c867b.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbbd23c514fb29cbbd26c6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbbd23c514fb29cbbd26c6.jpg
+    thumb: /files/thumbnails/14fb29cbbd23c514fb29cbbd26c6.jpg
+    url: /files/original/14fb29cbbd23c514fb29cbbd26c6.jpg
 geo:
 id: 33188
 item_type: Still Image

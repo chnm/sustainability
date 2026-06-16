@@ -22,7 +22,7 @@ files:
     mime: audio/x-wav
     original_filename: Robert Landston.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5723724414fb2a5723762a.wav
+    url: /files/original/14fb2a5723724414fb2a5723762a.wav
 geo:
   address: ''
   lat: 30.48761

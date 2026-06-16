@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: SSG Frank D Boone.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ab9e48614fb2a1ab9e875.wav
+    url: /files/original/14fb2a1ab9e48614fb2a1ab9e875.wav
 geo:
   address: ''
   lat: 0.0

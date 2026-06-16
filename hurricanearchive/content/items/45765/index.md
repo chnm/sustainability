@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Mason, John Lee(822).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8713eea2b14fbe8713eee12.doc
+    url: /files/original/14fbe8713eea2b14fbe8713eee12.doc
 geo:
 id: 45765
 item_type: Oral History

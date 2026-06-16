@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 19 2006 Viator's candor helped inform all taxpayers.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35dded4114fb2a35ddf127.txt
+    url: /files/original/14fb2a35dded4114fb2a35ddf127.txt
 geo:
   address: ''
   lat: 0.0

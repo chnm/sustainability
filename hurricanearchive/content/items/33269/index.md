@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb0adc6714fb29cb0ae048.jpg
+  - fullsize: /files/fullsize/14fb29cb0adc6714fb29cb0ae048.jpg
     id: 24112
     mime: image/jpeg
     original_filename: bett car on ground pic NOLA_269a26eea2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb0adc6714fb29cb0ae048.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb0adc6714fb29cb0ae048.jpg
+    thumb: /files/thumbnails/14fb29cb0adc6714fb29cb0ae048.jpg
+    url: /files/original/14fb29cb0adc6714fb29cb0ae048.jpg
 geo:
   address: ''
   lat: 29.94214

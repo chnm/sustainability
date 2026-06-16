@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Shauna Breland.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23e1ed4214fb2a23e1fd8e.htm
+    url: /files/original/14fb2a23e1ed4214fb2a23e1fd8e.htm
 geo:
 id: 11700
 item_type: Oral History

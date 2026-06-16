@@ -19,12 +19,12 @@ dublin_core:
       text: DSC_6842.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1ea039214fb29d1ea077a.jpg
+  - fullsize: /files/fullsize/14fb29d1ea039214fb29d1ea077a.jpg
     id: 23500
     mime: image/jpg
     original_filename: 158259522_a60e5c35bc.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1ea039214fb29d1ea077a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1ea039214fb29d1ea077a.jpg
+    thumb: /files/thumbnails/14fb29d1ea039214fb29d1ea077a.jpg
+    url: /files/original/14fb29d1ea039214fb29d1ea077a.jpg
 geo:
 id: 28649
 item_type: Still Image

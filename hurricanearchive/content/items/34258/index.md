@@ -18,12 +18,12 @@ dublin_core:
       text: Lyndel, Backdoor, entrance to laundry room
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca5df97814fb29ca5dfce1.jpg
+  - fullsize: /files/fullsize/14fb29ca5df97814fb29ca5dfce1.jpg
     id: 24206
     mime: image/jpeg
     original_filename: Lyndel damage (2) (2)_09973796d6.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca5df97814fb29ca5dfce1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca5df97814fb29ca5dfce1.jpg
+    thumb: /files/thumbnails/14fb29ca5df97814fb29ca5dfce1.jpg
+    url: /files/original/14fb29ca5df97814fb29ca5dfce1.jpg
 geo:
   address: ''
   lat: 0.0

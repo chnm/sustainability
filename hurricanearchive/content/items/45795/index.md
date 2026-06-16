@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Natal, Gordon Jr.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8715d180714fbe8715d1bee.doc
+    url: /files/original/14fbe8715d180714fbe8715d1bee.doc
 geo:
 id: 45795
 item_type: Oral History

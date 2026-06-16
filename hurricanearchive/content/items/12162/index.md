@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: SARAH and TOM enter with three chairs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2245a49f14fb2a2245a87e.doc
+    url: /files/original/14fb2a2245a49f14fb2a2245a87e.doc
 geo:
 id: 12162
 item_type: Document

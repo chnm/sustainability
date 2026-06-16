@@ -14,12 +14,12 @@ dublin_core:
       text: IMG_7455.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb88a23914fb29cb88a61b.jpg
+  - fullsize: /files/fullsize/14fb29cb88a23914fb29cb88a61b.jpg
     id: 24062
     mime: image/jpg
     original_filename: 1281603731_3b97c316c8.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb88a23914fb29cb88a61b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb88a23914fb29cb88a61b.jpg
+    thumb: /files/thumbnails/14fb29cb88a23914fb29cb88a61b.jpg
+    url: /files/original/14fb29cb88a23914fb29cb88a61b.jpg
 geo:
 id: 33212
 item_type: Still Image

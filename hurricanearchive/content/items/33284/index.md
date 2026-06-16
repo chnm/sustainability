@@ -26,7 +26,7 @@ files:
     mime: application/octet-stream
     original_filename: Perry_0bf92d5660.Creative Candidates
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cafdfb4e14fb29cafdfef1.Creative Candidates
+    url: /files/original/14fb29cafdfb4e14fb29cafdfef1.Creative Candidates
 geo:
 id: 33284
 item_type: Document

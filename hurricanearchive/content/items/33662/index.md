@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Quigley_809f67df9b.The Public Housing Struggle in New Orleans.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cab4e6cd14fb29cab4eaaf.doc
+    url: /files/original/14fb29cab4e6cd14fb29cab4eaaf.doc
 geo:
 id: 33662
 item_type: Document

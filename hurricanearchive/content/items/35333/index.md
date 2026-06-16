@@ -15,12 +15,12 @@ dublin_core:
       text: Bubba\'s Produce Co. 4
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c643812c14fb29c645223c.jpg
+  - fullsize: /files/fullsize/14fb29c643812c14fb29c645223c.jpg
     id: 24671
     mime: image/pjpeg
     original_filename: 74_049ecb1ab3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c643812c14fb29c645223c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c643812c14fb29c645223c.jpg
+    thumb: /files/thumbnails/14fb29c643812c14fb29c645223c.jpg
+    url: /files/original/14fb29c643812c14fb29c645223c.jpg
 geo:
   address: 400 Marigny St New Orleans
   lat: 29.96189

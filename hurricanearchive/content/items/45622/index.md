@@ -17,19 +17,19 @@ files:
     mime: audio/mpeg
     original_filename: Wright, Zenobia 8-24-06 Side 1.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87046231014fbe8704626f5.mp3
+    url: /files/original/14fbe87046231014fbe8704626f5.mp3
   - fullsize:
     id: 46214
     mime: audio/mpeg
     original_filename: Wright, Zenobia 8-24-06 Side 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87046ceee14fbe87046d2cb.mp3
+    url: /files/original/14fbe87046ceee14fbe87046d2cb.mp3
   - fullsize:
     id: 46215
     mime: application/msword
     original_filename: Wright, Zenobia.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8704776d614fbe870477abc.doc
+    url: /files/original/14fbe8704776d614fbe870477abc.doc
 geo:
 id: 45622
 item_type: Oral History

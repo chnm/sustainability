@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d990ae6914fb29d990b269.jpg
+  - fullsize: /files/fullsize/14fb29d990ae6914fb29d990b269.jpg
     id: 22814
     mime: image/jpeg
     original_filename: AB couple_d1e9ea73ec.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d990ae6914fb29d990b269.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d990ae6914fb29d990b269.jpg
+    thumb: /files/thumbnails/14fb29d990ae6914fb29d990b269.jpg
+    url: /files/original/14fb29d990ae6914fb29d990b269.jpg
 geo:
   address: ''
   lat: 29.91685

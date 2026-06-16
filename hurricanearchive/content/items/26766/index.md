@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: fight4something_0e2d0306fe.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7e2792314fb29d7e27d02.pdf
+    url: /files/original/14fb29d7e2792314fb29d7e27d02.pdf
 geo:
 id: 26766
 item_type: Document

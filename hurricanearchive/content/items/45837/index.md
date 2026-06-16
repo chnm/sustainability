@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Sanchez, Rafael.trs(English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871cbcd6114fbe871ccfda4.doc
+    url: /files/original/14fbe871cbcd6114fbe871ccfda4.doc
   - fullsize:
     id: 46476
     mime: application/msword
     original_filename: Sanchez, Rafael.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871d3816614fbe871d3883c.doc
+    url: /files/original/14fbe871d3816614fbe871d3883c.doc
 geo:
 id: 45837
 item_type: Oral History

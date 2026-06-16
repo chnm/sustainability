@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6efcd25414fb2a6efcd641.jpg
+  - fullsize: /files/fullsize/14fb2a6efcd25414fb2a6efcd641.jpg
     id: 574
     mime: image/jpeg
     original_filename: PineForestBaptChurchVidor_0a7c3af9cf.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6efcd25414fb2a6efcd641.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6efcd25414fb2a6efcd641.jpg
+    thumb: /files/thumbnails/14fb2a6efcd25414fb2a6efcd641.jpg
+    url: /files/original/14fb2a6efcd25414fb2a6efcd641.jpg
 geo:
   address: ''
   lat: 30.148461

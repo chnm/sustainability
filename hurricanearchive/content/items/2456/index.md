@@ -18,12 +18,12 @@ dublin_core:
       text: 20050901_MG_8014.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a665662e514fb2a665666ca.jpg
+  - fullsize: /files/fullsize/14fb2a665662e514fb2a665666ca.jpg
     id: 1938
     mime: image/jpeg
     original_filename: 20050901_MG_8014.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a665662e514fb2a665666ca.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a665662e514fb2a665666ca.jpg
+    thumb: /files/thumbnails/14fb2a665662e514fb2a665666ca.jpg
+    url: /files/original/14fb2a665662e514fb2a665666ca.jpg
 geo:
 id: 2456
 item_type: Still Image

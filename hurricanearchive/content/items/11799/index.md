@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Holly Hills Pics.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a235c8e4914fb2a235c9237.doc
+    url: /files/original/14fb2a235c8e4914fb2a235c9237.doc
 geo:
 id: 11799
 item_type: Document

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d6b16bdd14fb29d6b16fc0.jpg
+  - fullsize: /files/fullsize/14fb29d6b16bdd14fb29d6b16fc0.jpg
     id: 23068
     mime: image/jpeg
     original_filename: 98faces3_7b7a2d26e1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d6b16bdd14fb29d6b16fc0.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d6b16bdd14fb29d6b16fc0.jpg
+    thumb: /files/thumbnails/14fb29d6b16bdd14fb29d6b16fc0.jpg
+    url: /files/original/14fb29d6b16bdd14fb29d6b16fc0.jpg
 geo:
 id: 26884
 item_type: Still Image

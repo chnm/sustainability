@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Nguyen-Brown, Sue.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8715dc3e214fbe8715dc7cd.doc
+    url: /files/original/14fbe8715dc3e214fbe8715dc7cd.doc
 geo:
 id: 45796
 item_type: Oral History

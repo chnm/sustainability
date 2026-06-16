@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6e64455b14fb2a6e644943.jpg
+  - fullsize: /files/fullsize/14fb2a6e64455b14fb2a6e644943.jpg
     id: 703
     mime: image/jpeg
     original_filename: Lorens_house_7a5b0caf57.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6e64455b14fb2a6e644943.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6e64455b14fb2a6e644943.jpg
+    thumb: /files/thumbnails/14fb2a6e64455b14fb2a6e644943.jpg
+    url: /files/original/14fb2a6e64455b14fb2a6e644943.jpg
 geo:
   address: ''
   lat: 0.0

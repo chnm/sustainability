@@ -18,12 +18,12 @@ dublin_core:
       text: Inmate Evacuation
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a220d92d514fb2a220d96bb.jpg
+  - fullsize: /files/fullsize/14fb2a220d92d514fb2a220d96bb.jpg
     id: 10920
     mime: image/jpeg
     original_filename: overpass-prisoners-lg_0a15639b5b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a220d92d514fb2a220d96bb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a220d92d514fb2a220d96bb.jpg
+    thumb: /files/thumbnails/14fb2a220d92d514fb2a220d96bb.jpg
+    url: /files/original/14fb2a220d92d514fb2a220d96bb.jpg
 geo:
 id: 12538
 item_type: Still Image

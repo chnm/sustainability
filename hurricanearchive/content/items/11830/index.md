@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Photographer gautier.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a232acfe914fb2a232ad3cd.doc
+    url: /files/original/14fb2a232acfe914fb2a232ad3cd.doc
 geo:
 id: 11830
 item_type: Document

@@ -15,12 +15,12 @@ dublin_core:
       text: SGT Spencer.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1ae23ceb14fb2a1ae240cf.jpg
+  - fullsize: /files/fullsize/14fb2a1ae23ceb14fb2a1ae240cf.jpg
     id: 11824
     mime: image/jpeg
     original_filename: SGT Spencer.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1ae23ceb14fb2a1ae240cf.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1ae23ceb14fb2a1ae240cf.jpg
+    thumb: /files/thumbnails/14fb2a1ae23ceb14fb2a1ae240cf.jpg
+    url: /files/original/14fb2a1ae23ceb14fb2a1ae240cf.jpg
 geo:
   address: ''
   lat: 0.0

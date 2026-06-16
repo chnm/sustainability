@@ -14,12 +14,12 @@ dublin_core:
       text: Headline from Times-Picayune, 8-30-07
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc011ca614fb29cc01201c.jpg
+  - fullsize: /files/fullsize/14fb29cc011ca614fb29cc01201c.jpg
     id: 23978
     mime: image/jpg
     original_filename: 1280711072_7ae2813f0b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc011ca614fb29cc01201c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc011ca614fb29cc01201c.jpg
+    thumb: /files/thumbnails/14fb29cc011ca614fb29cc01201c.jpg
+    url: /files/original/14fb29cc011ca614fb29cc01201c.jpg
 geo:
 id: 32136
 item_type: Still Image

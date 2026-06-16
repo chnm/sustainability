@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc9c97bf14fb29dc9c9b9f.jpg
+  - fullsize: /files/fullsize/14fb29dc9c97bf14fb29dc9c9b9f.jpg
     id: 22520
     mime: image/jpeg
     original_filename: KPatcheco-03KP&playmateschalmettepark_63291cf2aa.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc9c97bf14fb29dc9c9b9f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc9c97bf14fb29dc9c9b9f.jpg
+    thumb: /files/thumbnails/14fb29dc9c97bf14fb29dc9c9b9f.jpg
+    url: /files/original/14fb29dc9c97bf14fb29dc9c9b9f.jpg
 geo:
 id: 25728
 item_type: Still Image

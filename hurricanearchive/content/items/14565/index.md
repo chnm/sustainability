@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Central Research Database Current[1]_c6335afe1b.Pending 12_06_05.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18d85f6414fb2a18d8634c.doc
+    url: /files/original/14fb2a18d85f6414fb2a18d8634c.doc
 geo:
 id: 14565
 item_type: Document

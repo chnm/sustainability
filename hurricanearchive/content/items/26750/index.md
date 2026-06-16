@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7f7079614fb29d7f7171a.jpg
+  - fullsize: /files/fullsize/14fb29d7f7079614fb29d7f7171a.jpg
     id: 22947
     mime: image/jpeg
     original_filename: RB st paul stataue 1942_315efd9b07.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7f7079614fb29d7f7171a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7f7079614fb29d7f7171a.jpg
+    thumb: /files/thumbnails/14fb29d7f7079614fb29d7f7171a.jpg
+    url: /files/original/14fb29d7f7079614fb29d7f7171a.jpg
 geo:
   address: ''
   lat: 29.95493

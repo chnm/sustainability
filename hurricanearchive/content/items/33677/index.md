@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: HUD demolitions draw noose tighter around New Orleans_0abf59e339.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29caaa467914fb29caaa4a5f.doc
+    url: /files/original/14fb29caaa467914fb29caaa4a5f.doc
 geo:
 id: 33677
 item_type: Document

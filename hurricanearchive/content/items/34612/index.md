@@ -18,12 +18,12 @@ dublin_core:
       text: Party at Michaud\'s
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c983b8b214fb29c983bc97.jpg
+  - fullsize: /files/fullsize/14fb29c983b8b214fb29c983bc97.jpg
     id: 24367
     mime: image/pjpeg
     original_filename: henderberg_37c4892a2d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c983b8b214fb29c983bc97.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c983b8b214fb29c983bc97.jpg
+    thumb: /files/thumbnails/14fb29c983b8b214fb29c983bc97.jpg
+    url: /files/original/14fb29c983b8b214fb29c983bc97.jpg
 geo:
   address: 3500 St. Claude Ave., New Orleans, LA
   lat: 0.0

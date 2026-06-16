@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: SSG Tommy A Nichols.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e1b038614fb2a5e1b079e.wav
+    url: /files/original/14fb2a5e1b038614fb2a5e1b079e.wav
 geo:
 id: 3083
 item_type: Oral History

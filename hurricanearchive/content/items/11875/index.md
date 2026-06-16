@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: largeboats.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a22f4208214fb2a22f42475.doc
+    url: /files/original/14fb2a22f4208214fb2a22f42475.doc
 geo:
 id: 11875
 item_type: Document

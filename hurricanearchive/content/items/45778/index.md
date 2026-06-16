@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: McIver, Keith.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8714cb36614fbe8714cb71a.doc
+    url: /files/original/14fbe8714cb36614fbe8714cb71a.doc
 geo:
 id: 45778
 item_type: Oral History

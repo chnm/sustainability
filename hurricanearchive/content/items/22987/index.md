@@ -15,12 +15,12 @@ dublin_core:
       text: Meeting outside freq ofc NAS NONASneworleans.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f2470add14fb29f2470ec2.jpg
+  - fullsize: /files/fullsize/14fb29f2470add14fb29f2470ec2.jpg
     id: 19931
     mime: image/jpeg
     original_filename: Meeting outside freq ofc NAS NONASneworleans.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f2470add14fb29f2470ec2.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f2470add14fb29f2470ec2.jpg
+    thumb: /files/thumbnails/14fb29f2470add14fb29f2470ec2.jpg
+    url: /files/original/14fb29f2470add14fb29f2470ec2.jpg
 geo:
 id: 22987
 item_type: Still Image

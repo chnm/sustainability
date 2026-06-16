@@ -17,12 +17,12 @@ dublin_core:
       text: Approaching Levee Break
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d538b0fc14fb29d538b4df.jpg
+  - fullsize: /files/fullsize/14fb29d538b0fc14fb29d538b4df.jpg
     id: 23197
     mime: image/jpg
     original_filename: 336698807_74a66071ef.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d538b0fc14fb29d538b4df.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d538b0fc14fb29d538b4df.jpg
+    thumb: /files/thumbnails/14fb29d538b0fc14fb29d538b4df.jpg
+    url: /files/original/14fb29d538b0fc14fb29d538b4df.jpg
 geo:
 id: 27310
 item_type: Still Image

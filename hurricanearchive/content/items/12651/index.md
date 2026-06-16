@@ -22,7 +22,7 @@ files:
     mime: application/octet-stream
     original_filename: Being available_34ee5bbc35.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a21fc14e714fb2a21fc18cc.doc
+    url: /files/original/14fb2a21fc14e714fb2a21fc18cc.doc
 geo:
   address: 367 Main Street
   lat: 41.65306

@@ -14,12 +14,12 @@ dublin_core:
       text: fix everything my ass
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d245337b14fb29d2453cc7.jpg
+  - fullsize: /files/fullsize/14fb29d245337b14fb29d2453cc7.jpg
     id: 23424
     mime: image/jpg
     original_filename: 176014214_61bd1c24bb.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d245337b14fb29d2453cc7.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d245337b14fb29d2453cc7.jpg
+    thumb: /files/thumbnails/14fb29d245337b14fb29d2453cc7.jpg
+    url: /files/original/14fb29d245337b14fb29d2453cc7.jpg
 geo:
 id: 28572
 item_type: Still Image

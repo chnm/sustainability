@@ -24,12 +24,12 @@ dublin_core:
       text: HH-65 Helipcopter Repair in New Orleans
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66c0bab314fb2a66c0bea2.jpg
+  - fullsize: /files/fullsize/14fb2a66c0bab314fb2a66c0bea2.jpg
     id: 1883
     mime: image/jpeg
     original_filename: apuscg_HH65_REPAIR__05CX4_df83d4883d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66c0bab314fb2a66c0bea2.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66c0bab314fb2a66c0bea2.jpg
+    thumb: /files/thumbnails/14fb2a66c0bab314fb2a66c0bea2.jpg
+    url: /files/original/14fb2a66c0bab314fb2a66c0bea2.jpg
 geo:
 id: 2391
 item_type: Still Image

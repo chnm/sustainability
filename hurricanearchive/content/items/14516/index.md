@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: Community_Involvement[1]_e37b6413f3.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18ee187c14fb2a18ee1b0b.doc
+    url: /files/original/14fb2a18ee187c14fb2a18ee1b0b.doc
 geo:
 id: 14516
 item_type: Document

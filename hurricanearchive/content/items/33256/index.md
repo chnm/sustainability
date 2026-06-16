@@ -17,12 +17,12 @@ dublin_core:
       text: Mid City Meat Market
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb15bc6914fb29cb15c2fd.jpg
+  - fullsize: /files/fullsize/14fb29cb15bc6914fb29cb15c2fd.jpg
     id: 24106
     mime: image/jpg
     original_filename: 1226263344_6b5d1961db.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb15bc6914fb29cb15c2fd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb15bc6914fb29cb15c2fd.jpg
+    thumb: /files/thumbnails/14fb29cb15bc6914fb29cb15c2fd.jpg
+    url: /files/original/14fb29cb15bc6914fb29cb15c2fd.jpg
 geo:
 id: 33256
 item_type: Still Image

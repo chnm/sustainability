@@ -26,7 +26,7 @@ files:
     mime: application/octet-stream
     original_filename: journalentry_d7a9a7ffd5.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ccfb8b4d14fb29ccfb911b.doc
+    url: /files/original/14fb29ccfb8b4d14fb29ccfb911b.doc
 geo:
   address: ''
   lat: 0.0

@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 055.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc76ed3914fb29cc76f127.jpg
+  - fullsize: /files/fullsize/14fb29cc76ed3914fb29cc76f127.jpg
     id: 23890
     mime: image/jpeg
     original_filename: Picture 055.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc76ed3914fb29cc76f127.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc76ed3914fb29cc76f127.jpg
+    thumb: /files/thumbnails/14fb29cc76ed3914fb29cc76f127.jpg
+    url: /files/original/14fb29cc76ed3914fb29cc76f127.jpg
 geo:
 id: 30790
 item_type: Still Image

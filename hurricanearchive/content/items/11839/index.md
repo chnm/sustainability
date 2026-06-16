@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Tarkan Weston1.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a231ce80014fb2a231cebcb.doc
+    url: /files/original/14fb2a231ce80014fb2a231cebcb.doc
 geo:
 id: 11839
 item_type: Document

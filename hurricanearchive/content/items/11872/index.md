@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: katrina 4.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a22f9449914fb2a22f9487a.doc
+    url: /files/original/14fb2a22f9449914fb2a22f9487a.doc
 geo:
 id: 11872
 item_type: Document

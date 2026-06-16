@@ -25,7 +25,7 @@ files:
     mime: application/msword
     original_filename: Brenterview_643bfb7ca4.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a70225aa814fb2a70225e93.doc
+    url: /files/original/14fb2a70225aa814fb2a70225e93.doc
 geo:
   address: ''
   lat: 0.0

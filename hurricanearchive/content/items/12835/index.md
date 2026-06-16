@@ -15,12 +15,12 @@ dublin_core:
       text: 9th ward 9-18-12.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a219cbe5014fb2a219cc234.jpg
+  - fullsize: /files/fullsize/14fb2a219cbe5014fb2a219cc234.jpg
     id: 10979
     mime: image/jpeg
     original_filename: 9th ward 9-18-12.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a219cbe5014fb2a219cc234.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a219cbe5014fb2a219cc234.jpg
+    thumb: /files/thumbnails/14fb2a219cbe5014fb2a219cc234.jpg
+    url: /files/original/14fb2a219cbe5014fb2a219cc234.jpg
 geo:
 id: 12835
 item_type: Still Image

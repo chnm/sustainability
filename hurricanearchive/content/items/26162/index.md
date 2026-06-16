@@ -19,18 +19,18 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d9f2f4b214fb29d9f2f947.jpg
+  - fullsize: /files/fullsize/14fb29d9f2f4b214fb29d9f2f947.jpg
     id: 22765
     mime: image/jpeg
     original_filename: eatcraw_59be0d93ce.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d9f2f4b214fb29d9f2f947.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d9f2f4b214fb29d9f2f947.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d9f181ab14fb29d9f18593.jpg
+    thumb: /files/thumbnails/14fb29d9f2f4b214fb29d9f2f947.jpg
+    url: /files/original/14fb29d9f2f4b214fb29d9f2f947.jpg
+  - fullsize: /files/fullsize/14fb29d9f181ab14fb29d9f18593.jpg
     id: 22766
     mime: image/jpeg
     original_filename: eatcrawfish_5e0de9c493.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d9f181ab14fb29d9f18593.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d9f181ab14fb29d9f18593.jpg
+    thumb: /files/thumbnails/14fb29d9f181ab14fb29d9f18593.jpg
+    url: /files/original/14fb29d9f181ab14fb29d9f18593.jpg
 geo:
 id: 26162
 item_type: Still Image

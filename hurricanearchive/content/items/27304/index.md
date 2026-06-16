@@ -17,12 +17,12 @@ dublin_core:
       text: Barge/Empty Space
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d563a04314fb29d563a09a.jpg
+  - fullsize: /files/fullsize/14fb29d563a04314fb29d563a09a.jpg
     id: 23191
     mime: image/jpg
     original_filename: 336698361_eece6b0edf.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d563a04314fb29d563a09a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d563a04314fb29d563a09a.jpg
+    thumb: /files/thumbnails/14fb29d563a04314fb29d563a09a.jpg
+    url: /files/original/14fb29d563a04314fb29d563a09a.jpg
 geo:
 id: 27304
 item_type: Still Image

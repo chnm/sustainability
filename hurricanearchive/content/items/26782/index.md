@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7d49d2214fb29d7d4a0f4.jpg
+  - fullsize: /files/fullsize/14fb29d7d49d2214fb29d7d4a0f4.jpg
     id: 22977
     mime: image/jpeg
     original_filename: SD 1950s gas station_d34f5e9518.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7d49d2214fb29d7d4a0f4.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7d49d2214fb29d7d4a0f4.jpg
+    thumb: /files/thumbnails/14fb29d7d49d2214fb29d7d4a0f4.jpg
+    url: /files/original/14fb29d7d49d2214fb29d7d4a0f4.jpg
 geo:
   address: ''
   lat: 30.03106

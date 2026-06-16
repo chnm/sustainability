@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 05 2005 Join relief effort for Hurricane Katrina victims.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35b0b4e914fb2a35b0b8ce.txt
+    url: /files/original/14fb2a35b0b4e914fb2a35b0b8ce.txt
 geo:
   address: ''
   lat: 0.0

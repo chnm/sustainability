@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Keith, Kasey.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870f776da14fbe870f77ac0.doc
+    url: /files/original/14fbe870f776da14fbe870f77ac0.doc
 geo:
 id: 45730
 item_type: Oral History

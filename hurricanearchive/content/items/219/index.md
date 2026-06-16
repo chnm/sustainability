@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a70766b4314fb2a70767292.jpg
+  - fullsize: /files/fullsize/14fb2a70766b4314fb2a70767292.jpg
     id: 176
     mime: image/jpeg
     original_filename: Galleria_Destruction_2c8e0f44dd.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a70766b4314fb2a70767292.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a70766b4314fb2a70767292.jpg
+    thumb: /files/thumbnails/14fb2a70766b4314fb2a70767292.jpg
+    url: /files/original/14fb2a70766b4314fb2a70767292.jpg
 geo:
   address: ''
   lat: 29.993448304333903

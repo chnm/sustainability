@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Dozier, Glynna.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f75622c14fbe86f7569f8.mp3
+    url: /files/original/14fbe86f75622c14fbe86f7569f8.mp3
   - fullsize:
     id: 46097
     mime: application/msword
     original_filename: Dozier, Glynna.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f76832f14fbe86f768714.doc
+    url: /files/original/14fbe86f76832f14fbe86f768714.doc
 geo:
 id: 45582
 item_type: Oral History

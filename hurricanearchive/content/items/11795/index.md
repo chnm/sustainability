@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Hburg1.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23616e6514fb2a2361730d.doc
+    url: /files/original/14fb2a23616e6514fb2a2361730d.doc
 geo:
 id: 11795
 item_type: Document

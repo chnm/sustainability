@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: D-DayMuseumSymLessons_a081c0fbe5.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a213ebb4114fb2a213ebf25.doc
+    url: /files/original/14fb2a213ebb4114fb2a213ebf25.doc
 geo:
 id: 12993
 item_type: Document

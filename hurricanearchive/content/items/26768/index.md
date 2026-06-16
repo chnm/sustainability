@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: FleurDeLis_a1123dc54e.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7e0046314fb29d7e00849.pdf
+    url: /files/original/14fb29d7e0046314fb29d7e00849.pdf
 geo:
 id: 26768
 item_type: Document

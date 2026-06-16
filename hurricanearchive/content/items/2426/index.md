@@ -24,12 +24,12 @@ dublin_core:
       text: Cutter Clamp Returns to Galveston after Hurricane Duty
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6674495714fb2a667456b9.jpg
+  - fullsize: /files/fullsize/14fb2a6674495714fb2a667456b9.jpg
     id: 1918
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05CGP_110954b01e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6674495714fb2a667456b9.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6674495714fb2a667456b9.jpg
+    thumb: /files/thumbnails/14fb2a6674495714fb2a667456b9.jpg
+    url: /files/original/14fb2a6674495714fb2a667456b9.jpg
 geo:
 id: 2426
 item_type: Still Image

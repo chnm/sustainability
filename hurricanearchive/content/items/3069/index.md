@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Capt MargaretFilios.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e2a3f6314fb2a5e2a4348.wav
+    url: /files/original/14fb2a5e2a3f6314fb2a5e2a4348.wav
 geo:
 id: 3069
 item_type: Oral History

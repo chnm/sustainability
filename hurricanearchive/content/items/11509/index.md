@@ -19,7 +19,7 @@ files:
     mime: application/pdf
     original_filename: petrescue_ac8944d6c9.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2481719a14fb2a24817649.pdf
+    url: /files/original/14fb2a2481719a14fb2a24817649.pdf
 geo:
   address: ''
   lat: 0.0

@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0299westend.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1416290a14fb2a14162db8.jpg
+  - fullsize: /files/fullsize/14fb2a1416290a14fb2a14162db8.jpg
     id: 15895
     mime: image/jpeg
     original_filename: DSC 0299westend.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1416290a14fb2a14162db8.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1416290a14fb2a14162db8.jpg
+    thumb: /files/thumbnails/14fb2a1416290a14fb2a14162db8.jpg
+    url: /files/original/14fb2a1416290a14fb2a14162db8.jpg
 geo:
 id: 18942
 item_type: Still Image

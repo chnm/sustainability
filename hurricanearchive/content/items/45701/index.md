@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Hamilton, Carrolyn.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870d2cd3114fbe870d2d117.doc
+    url: /files/original/14fbe870d2cd3114fbe870d2d117.doc
 geo:
 id: 45701
 item_type: Oral History

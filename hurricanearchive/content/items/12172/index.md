@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: mediaadvisory.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a223dfdbd14fb2a223e01a7.doc
+    url: /files/original/14fb2a223dfdbd14fb2a223e01a7.doc
 geo:
 id: 12172
 item_type: Document

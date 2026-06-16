@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 2188.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a135138e914fb2a13513ccf.jpg
+  - fullsize: /files/fullsize/14fb2a135138e914fb2a13513ccf.jpg
     id: 16033
     mime: image/jpeg
     original_filename: DSC 2188.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a135138e914fb2a13513ccf.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a135138e914fb2a13513ccf.jpg
+    thumb: /files/thumbnails/14fb2a135138e914fb2a13513ccf.jpg
+    url: /files/original/14fb2a135138e914fb2a13513ccf.jpg
 geo:
 id: 19080
 item_type: Still Image

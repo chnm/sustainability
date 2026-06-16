@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: J. P. Hollingsworth.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a246094e514fb2a246098cb.htm
+    url: /files/original/14fb2a246094e514fb2a246098cb.htm
 geo:
 id: 11648
 item_type: Oral History

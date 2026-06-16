@@ -17,12 +17,12 @@ dublin_core:
       text: Inside Mike\'s House
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d509b64114fb29d509ba25.jpg
+  - fullsize: /files/fullsize/14fb29d509b64114fb29d509ba25.jpg
     id: 23209
     mime: image/jpg
     original_filename: 336693899_3326517b46.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d509b64114fb29d509ba25.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d509b64114fb29d509ba25.jpg
+    thumb: /files/thumbnails/14fb29d509b64114fb29d509ba25.jpg
+    url: /files/original/14fb29d509b64114fb29d509ba25.jpg
 geo:
 id: 27322
 item_type: Still Image

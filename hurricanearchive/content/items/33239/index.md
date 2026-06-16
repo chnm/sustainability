@@ -17,12 +17,12 @@ dublin_core:
       text: Double Door Flood Stain
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb50c9cb14fb29cb50cdb1.jpg
+  - fullsize: /files/fullsize/14fb29cb50c9cb14fb29cb50cdb1.jpg
     id: 24089
     mime: image/jpg
     original_filename: 1252063501_9986a4cf38.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb50c9cb14fb29cb50cdb1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb50c9cb14fb29cb50cdb1.jpg
+    thumb: /files/thumbnails/14fb29cb50c9cb14fb29cb50cdb1.jpg
+    url: /files/original/14fb29cb50c9cb14fb29cb50cdb1.jpg
 geo:
 id: 33239
 item_type: Still Image

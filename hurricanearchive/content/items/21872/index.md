@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: J2 Target Deck.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29fb4e930014fb29fb4e96e6.doc
+    url: /files/original/14fb29fb4e930014fb29fb4e96e6.doc
 geo:
 id: 21872
 item_type: Document

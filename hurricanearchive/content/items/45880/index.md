@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Williams, Martha.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87224aa6a14fbe87224ae50.doc
+    url: /files/original/14fbe87224aa6a14fbe87224ae50.doc
 geo:
 id: 45880
 item_type: Oral History

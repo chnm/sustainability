@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: McDermott, Leo Chipper.trs1.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871479abc14fbe871479f19.doc
+    url: /files/original/14fbe871479abc14fbe871479f19.doc
   - fullsize:
     id: 46403
     mime: application/msword
     original_filename: McDermott, Leo Chipper.trs2.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871484e6414fbe87148524b.doc
+    url: /files/original/14fbe871484e6414fbe87148524b.doc
 geo:
 id: 45774
 item_type: Oral History

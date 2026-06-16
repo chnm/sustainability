@@ -17,31 +17,31 @@ files:
     mime: audio/mpeg
     original_filename: Berry, Pamela L. 10-27-05 Side 1.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ec2ab6314fbe86ec2afdd.mp3
+    url: /files/original/14fbe86ec2ab6314fbe86ec2afdd.mp3
   - fullsize:
     id: 45964
     mime: audio/mpeg
     original_filename: Berry, Pamela L. 10-27-05 Side 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ec48bdc14fbe86ec48fa7.mp3
+    url: /files/original/14fbe86ec48bdc14fbe86ec48fa7.mp3
   - fullsize:
     id: 45965
     mime: audio/mpeg
     original_filename: Berry, Pamela L. Side 1 10-27-05.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ec533bd14fbe86ec53794.mp3
+    url: /files/original/14fbe86ec533bd14fbe86ec53794.mp3
   - fullsize:
     id: 45966
     mime: audio/mpeg
     original_filename: Berry, Pamela L. Side 2 10-27-05.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ec6f57314fbe86ec6f8be.mp3
+    url: /files/original/14fbe86ec6f57314fbe86ec6f8be.mp3
   - fullsize:
     id: 45967
     mime: application/msword
     original_filename: Berry, Pamela L.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ec892db14fbe86ec898a5.doc
+    url: /files/original/14fbe86ec892db14fbe86ec898a5.doc
 geo:
 id: 45539
 item_type: Oral History

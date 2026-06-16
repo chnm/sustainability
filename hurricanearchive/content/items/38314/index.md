@@ -22,7 +22,7 @@ files:
     mime: application/octet-stream
     original_filename: Laisses Les Bon Temps Rouler_f0b39deb90.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c5160ef814fb29c51612de.doc
+    url: /files/original/14fb29c5160ef814fb29c51612de.doc
 geo:
   address: ''
   lat: 29.99538

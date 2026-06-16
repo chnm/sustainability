@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 05 2006 Hotelier indicted on Rita fraud charges.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a3618ee0a14fb2a3618f159.txt
+    url: /files/original/14fb2a3618ee0a14fb2a3618f159.txt
 geo:
   address: ''
   lat: 0.0

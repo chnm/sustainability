@@ -19,18 +19,18 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dd7d9d2314fb29dd7da108.jpg
+  - fullsize: /files/fullsize/14fb29dd7d9d2314fb29dd7da108.jpg
     id: 22411
     mime: image/jpeg
     original_filename: EvaDow-1-2_475dcd60e0.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dd7d9d2314fb29dd7da108.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dd7d9d2314fb29dd7da108.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dd7b9e6114fb29dd7ba179.jpg
+    thumb: /files/thumbnails/14fb29dd7d9d2314fb29dd7da108.jpg
+    url: /files/original/14fb29dd7d9d2314fb29dd7da108.jpg
+  - fullsize: /files/fullsize/14fb29dd7b9e6114fb29dd7ba179.jpg
     id: 22412
     mime: image/jpeg
     original_filename: EvaDow-1_b0bce77233.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dd7b9e6114fb29dd7ba179.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dd7b9e6114fb29dd7ba179.jpg
+    thumb: /files/thumbnails/14fb29dd7b9e6114fb29dd7ba179.jpg
+    url: /files/original/14fb29dd7b9e6114fb29dd7ba179.jpg
 geo:
 id: 25497
 item_type: Still Image

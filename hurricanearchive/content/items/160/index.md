@@ -25,7 +25,7 @@ files:
     mime: application/msword
     original_filename: personal_essay_e9bde8e48b.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a70c9cbd014fb2a70c9d39f.doc
+    url: /files/original/14fb2a70c9cbd014fb2a70c9d39f.doc
 geo:
   address: ''
   lat: 29.984643

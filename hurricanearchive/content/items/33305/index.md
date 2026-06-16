@@ -22,7 +22,7 @@ files:
     mime: application/msword
     original_filename: Perry_cb8ed69cec.Getting Nagin.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cad945db14fb29cad94966.doc
+    url: /files/original/14fb29cad945db14fb29cad94966.doc
 geo:
 id: 33305
 item_type: Document

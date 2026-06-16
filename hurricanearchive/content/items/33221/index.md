@@ -17,12 +17,12 @@ dublin_core:
       text: Unhappy Anniversary
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb781e5714fb29cb78223e.jpg
+  - fullsize: /files/fullsize/14fb29cb781e5714fb29cb78223e.jpg
     id: 24071
     mime: image/jpg
     original_filename: 1265937567_3c9e14d601.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb781e5714fb29cb78223e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb781e5714fb29cb78223e.jpg
+    thumb: /files/thumbnails/14fb29cb781e5714fb29cb78223e.jpg
+    url: /files/original/14fb29cb781e5714fb29cb78223e.jpg
 geo:
   address: ''
   lat: 30.36332

@@ -15,12 +15,12 @@ dublin_core:
       text: convoy.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1a965cae14fb2a1a96649e.jpg
+  - fullsize: /files/fullsize/14fb2a1a965cae14fb2a1a96649e.jpg
     id: 11853
     mime: image/jpeg
     original_filename: convoy.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1a965cae14fb2a1a96649e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1a965cae14fb2a1a96649e.jpg
+    thumb: /files/thumbnails/14fb2a1a965cae14fb2a1a96649e.jpg
+    url: /files/original/14fb2a1a965cae14fb2a1a96649e.jpg
 geo:
   address: ''
   lat: 0.0

@@ -15,12 +15,12 @@ dublin_core:
       text: USS Alabama 8.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a597f24a314fb2a597f2dc9.jpg
+  - fullsize: /files/fullsize/14fb2a597f24a314fb2a597f2dc9.jpg
     id: 3211
     mime: image/jpeg
     original_filename: USS Alabama 8.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a597f24a314fb2a597f2dc9.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a597f24a314fb2a597f2dc9.jpg
+    thumb: /files/thumbnails/14fb2a597f24a314fb2a597f2dc9.jpg
+    url: /files/original/14fb2a597f24a314fb2a597f2dc9.jpg
 geo:
 id: 3796
 item_type: Still Image

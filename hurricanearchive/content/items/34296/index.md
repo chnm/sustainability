@@ -19,7 +19,7 @@ files:
     mime: application/pdf
     original_filename: katrinapics_b02de5b430.JPG.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ca58dcbb14fb29ca58e0a2.pdf
+    url: /files/original/14fb29ca58dcbb14fb29ca58e0a2.pdf
 geo:
   address: 195 cypress lane
   lat: 29.23895

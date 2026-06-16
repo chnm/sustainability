@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc886b6f14fb29dc888cd9.jpg
+  - fullsize: /files/fullsize/14fb29dc886b6f14fb29dc888cd9.jpg
     id: 22531
     mime: image/jpeg
     original_filename: KPatcheco-15family1997bday_2336853736.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc886b6f14fb29dc888cd9.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc886b6f14fb29dc888cd9.jpg
+    thumb: /files/thumbnails/14fb29dc886b6f14fb29dc888cd9.jpg
+    url: /files/original/14fb29dc886b6f14fb29dc888cd9.jpg
 geo:
 id: 25738
 item_type: Still Image

@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: memorypast_a0604d9cdb.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce22fd9014fb29ce230e1d.pdf
+    url: /files/original/14fb29ce22fd9014fb29ce230e1d.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

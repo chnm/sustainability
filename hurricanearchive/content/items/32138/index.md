@@ -14,12 +14,12 @@ dublin_core:
       text: Katrina Thank You\'s at Armstrong Airport
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbfc91e814fb29cbfc95ce.jpg
+  - fullsize: /files/fullsize/14fb29cbfc91e814fb29cbfc95ce.jpg
     id: 23980
     mime: image/jpg
     original_filename: 1279844903_3fb3d8fcfc.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbfc91e814fb29cbfc95ce.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbfc91e814fb29cbfc95ce.jpg
+    thumb: /files/thumbnails/14fb29cbfc91e814fb29cbfc95ce.jpg
+    url: /files/original/14fb29cbfc91e814fb29cbfc95ce.jpg
 geo:
 id: 32138
 item_type: Still Image

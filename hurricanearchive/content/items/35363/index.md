@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c5f804ec14fb29c5f852ee.jpg
+  - fullsize: /files/fullsize/14fb29c5f804ec14fb29c5f852ee.jpg
     id: 24698
     mime: image/pjpeg
     original_filename: 6_2ffa39c554.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c5f804ec14fb29c5f852ee.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c5f804ec14fb29c5f852ee.jpg
+    thumb: /files/thumbnails/14fb29c5f804ec14fb29c5f852ee.jpg
+    url: /files/original/14fb29c5f804ec14fb29c5f852ee.jpg
 geo:
   address: 738 poland ave, new orleans, la
   lat: 29.96118

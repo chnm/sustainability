@@ -15,12 +15,12 @@ dublin_core:
       text: 501057-R1-09-7Abatonrouge.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1543a97b14fb2a1543ad6c.jpg
+  - fullsize: /files/fullsize/14fb2a1543a97b14fb2a1543ad6c.jpg
     id: 15732
     mime: image/jpeg
     original_filename: 501057-R1-09-7Abatonrouge.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1543a97b14fb2a1543ad6c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1543a97b14fb2a1543ad6c.jpg
+    thumb: /files/thumbnails/14fb2a1543a97b14fb2a1543ad6c.jpg
+    url: /files/original/14fb2a1543a97b14fb2a1543ad6c.jpg
 geo:
 id: 18779
 item_type: Still Image

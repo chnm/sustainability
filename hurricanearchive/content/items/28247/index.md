@@ -21,12 +21,12 @@ dublin_core:
       text: HouseExt
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d29c61fb14fb29d29c6e33.jpg
+  - fullsize: /files/fullsize/14fb29d29c61fb14fb29d29c6e33.jpg
     id: 23400
     mime: image/jpg
     original_filename: '384884879_4409241231.'
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d29c61fb14fb29d29c6e33.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d29c61fb14fb29d29c6e33.jpg
+    thumb: /files/thumbnails/14fb29d29c61fb14fb29d29c6e33.jpg
+    url: /files/original/14fb29d29c61fb14fb29d29c6e33.jpg
 geo:
   address: ''
   lat: 30.01333

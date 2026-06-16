@@ -24,12 +24,12 @@ dublin_core:
       text: USCG Help Clean a Damaged Home in MS
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6687bb8714fb2a6687bf62.jpg
+  - fullsize: /files/fullsize/14fb2a6687bb8714fb2a6687bf62.jpg
     id: 1911
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05C6J_fed66de5e6.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6687bb8714fb2a6687bf62.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6687bb8714fb2a6687bf62.jpg
+    thumb: /files/thumbnails/14fb2a6687bb8714fb2a6687bf62.jpg
+    url: /files/original/14fb2a6687bb8714fb2a6687bf62.jpg
 geo:
 id: 2419
 item_type: Still Image

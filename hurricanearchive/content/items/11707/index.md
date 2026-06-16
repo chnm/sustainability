@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Tara Ferrill.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23d7096914fb2a23d70d4d.html
+    url: /files/original/14fb2a23d7096914fb2a23d70d4d.html
 geo:
 id: 11707
 item_type: Oral History

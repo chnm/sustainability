@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Kayla Joseph.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2429e6ae14fb2a2429ea95.htm
+    url: /files/original/14fb2a2429e6ae14fb2a2429ea95.htm
 geo:
 id: 11669
 item_type: Oral History

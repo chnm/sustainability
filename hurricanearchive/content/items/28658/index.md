@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6812.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1e4ef1d14fb29d1e4f30b.jpg
+  - fullsize: /files/fullsize/14fb29d1e4ef1d14fb29d1e4f30b.jpg
     id: 23505
     mime: image/jpg
     original_filename: 158169378_1e28fc2d15.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1e4ef1d14fb29d1e4f30b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1e4ef1d14fb29d1e4f30b.jpg
+    thumb: /files/thumbnails/14fb29d1e4ef1d14fb29d1e4f30b.jpg
+    url: /files/original/14fb29d1e4ef1d14fb29d1e4f30b.jpg
 geo:
 id: 28658
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: ssgdunnpicsuperdome.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ddb10e6314fb29ddb3f97b.jpg
+  - fullsize: /files/fullsize/14fb29ddb10e6314fb29ddb3f97b.jpg
     id: 22378
     mime: image/jpeg
     original_filename: ssgdunnpicsuperdome.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ddb10e6314fb29ddb3f97b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ddb10e6314fb29ddb3f97b.jpg
+    thumb: /files/thumbnails/14fb29ddb10e6314fb29ddb3f97b.jpg
+    url: /files/original/14fb29ddb10e6314fb29ddb3f97b.jpg
 geo:
 id: 25439
 item_type: Still Image

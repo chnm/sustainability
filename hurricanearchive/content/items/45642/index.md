@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Campbell, Isolina.trs (English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87065567714fbe870655a53.doc
+    url: /files/original/14fbe87065567714fbe870655a53.doc
   - fullsize:
     id: 46249
     mime: application/msword
     original_filename: Campbell, Isolina.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87067561014fbe870675a00.doc
+    url: /files/original/14fbe87067561014fbe870675a00.doc
 geo:
 id: 45642
 item_type: Oral History

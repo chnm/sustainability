@@ -15,12 +15,12 @@ dublin_core:
       text: ES NOLA, Midcity (68).JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5d392c6214fb2a5d393048.jpg
+  - fullsize: /files/fullsize/14fb2a5d392c6214fb2a5d393048.jpg
     id: 2692
     mime: image/jpeg
     original_filename: ES NOLA, Midcity (68).JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5d392c6214fb2a5d393048.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5d392c6214fb2a5d393048.jpg
+    thumb: /files/thumbnails/14fb2a5d392c6214fb2a5d393048.jpg
+    url: /files/original/14fb2a5d392c6214fb2a5d393048.jpg
 geo:
 id: 3220
 item_type: Still Image

@@ -17,49 +17,49 @@ files:
     mime: audio/mpeg
     original_filename: Dunaway, Fred & Caroline 10-06-06 Tape 1 Side 1 Katrina.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f81374314fbe86f813b23.mp3
+    url: /files/original/14fbe86f81374314fbe86f813b23.mp3
   - fullsize:
     id: 46107
     mime: audio/mpeg
     original_filename: Dunaway, Fred & Caroline 10-06-06 Tape 1 Side 2 Katrina.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f81eaeb14fbe86f81eecb.mp3
+    url: /files/original/14fbe86f81eaeb14fbe86f81eecb.mp3
   - fullsize:
     id: 46108
     mime: audio/mpeg
     original_filename: Dunaway, Fred & Caroline 10-06-06 Tape 2  Katrina.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f8296be14fbe86f829aa4.mp3
+    url: /files/original/14fbe86f8296be14fbe86f829aa4.mp3
   - fullsize:
     id: 46109
     mime: audio/mpeg
     original_filename: Dunaway, Fred & Caroline 10-06-06 Tape 3 Side 1 Katrina.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f833eae14fbe86f8342a1.mp3
+    url: /files/original/14fbe86f833eae14fbe86f8342a1.mp3
   - fullsize:
     id: 46110
     mime: audio/mpeg
     original_filename: Dunaway, Fred & Caroline 10-06-06 Tape 3 Side 2 Katrina.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f83fa2614fbe86f83fe1a.mp3
+    url: /files/original/14fbe86f83fa2614fbe86f83fe1a.mp3
   - fullsize:
     id: 46111
     mime: application/msword
     original_filename: Dunaway, Fred & Caroline.bio.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f84a21914fbe86f84a5fc.doc
+    url: /files/original/14fbe86f84a21914fbe86f84a5fc.doc
   - fullsize:
     id: 46274
     mime: application/msword
     original_filename: Dunaway, Caroline and Fred.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87087317414fbe870873895.doc
+    url: /files/original/14fbe87087317414fbe870873895.doc
   - fullsize:
     id: 46275
     mime: application/msword
     original_filename: Dunaway, Caroline & Fred.toc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87087ea6214fbe87088074b.doc
+    url: /files/original/14fbe87087ea6214fbe87088074b.doc
 geo:
 id: 45586
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: Venice LA.jpgsatellite
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb04810e14fb29fb0484f3.jpg
+  - fullsize: /files/fullsize/14fb29fb04810e14fb29fb0484f3.jpg
     id: 18867
     mime: image/jpeg
     original_filename: Venice LA.jpgsatellite
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb04810e14fb29fb0484f3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb04810e14fb29fb0484f3.jpgsatellite
+    thumb: /files/thumbnails/14fb29fb04810e14fb29fb0484f3.jpg
+    url: /files/original/14fb29fb04810e14fb29fb0484f3.jpgsatellite
 geo:
 id: 21916
 item_type: Still Image

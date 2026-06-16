@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a172cedfa14fb2a172cf1d4.jpg
+  - fullsize: /files/fullsize/14fb2a172cedfa14fb2a172cf1d4.jpg
     id: 12257
     mime: image/jpeg
     original_filename: 1995 Groundbreaking-14_a2ed73333b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a172cedfa14fb2a172cf1d4.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a172cedfa14fb2a172cf1d4.jpg
+    thumb: /files/thumbnails/14fb2a172cedfa14fb2a172cf1d4.jpg
+    url: /files/original/14fb2a172cedfa14fb2a172cf1d4.jpg
 geo:
 id: 15097
 item_type: Still Image

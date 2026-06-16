@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d79292ff14fb29d79296e7.jpg
+  - fullsize: /files/fullsize/14fb29d79292ff14fb29d79296e7.jpg
     id: 23010
     mime: image/jpeg
     original_filename: coolcrewatchalmette_1b7f73f60c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d79292ff14fb29d79296e7.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d79292ff14fb29d79296e7.jpg
+    thumb: /files/thumbnails/14fb29d79292ff14fb29d79296e7.jpg
+    url: /files/original/14fb29d79292ff14fb29d79296e7.jpg
 geo:
 id: 26826
 item_type: Still Image

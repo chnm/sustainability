@@ -19,18 +19,18 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1660c75714fb2a1660cb3d.jpg
+  - fullsize: /files/fullsize/14fb2a1660c75714fb2a1660cb3d.jpg
     id: 12423
     mime: image/jpeg
     original_filename: IMcCormick-18_80ca330765.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1660c75714fb2a1660cb3d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1660c75714fb2a1660cb3d.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a165e831114fb2a165e86f7.jpg
+    thumb: /files/thumbnails/14fb2a1660c75714fb2a1660cb3d.jpg
+    url: /files/original/14fb2a1660c75714fb2a1660cb3d.jpg
+  - fullsize: /files/fullsize/14fb2a165e831114fb2a165e86f7.jpg
     id: 12424
     mime: image/jpeg
     original_filename: IMcCormick-19_93c01f85d6.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a165e831114fb2a165e86f7.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a165e831114fb2a165e86f7.jpg
+    thumb: /files/thumbnails/14fb2a165e831114fb2a165e86f7.jpg
+    url: /files/original/14fb2a165e831114fb2a165e86f7.jpg
 geo:
 id: 15353
 item_type: Still Image

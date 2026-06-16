@@ -19,7 +19,7 @@ files:
     mime: application/msword
     original_filename: DixieBeer1_348fc9d555.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c52e063514fb29c52e0862.doc
+    url: /files/original/14fb29c52e063514fb29c52e0862.doc
 geo:
   address: PO Box 750454
   lat: 0.0

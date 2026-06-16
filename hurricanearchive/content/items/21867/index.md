@@ -15,12 +15,12 @@ dublin_core:
       text: I-10 & I- 510 Interchange looking South.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb53738014fb29fb537702.jpg
+  - fullsize: /files/fullsize/14fb29fb53738014fb29fb537702.jpg
     id: 18818
     mime: image/jpeg
     original_filename: I-10 & I- 510 Interchange looking South.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb53738014fb29fb537702.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb53738014fb29fb537702.jpg
+    thumb: /files/thumbnails/14fb29fb53738014fb29fb537702.jpg
+    url: /files/original/14fb29fb53738014fb29fb537702.jpg
 geo:
 id: 21867
 item_type: Still Image

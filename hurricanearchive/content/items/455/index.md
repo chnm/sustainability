@@ -25,7 +25,7 @@ files:
     mime: application/msword
     original_filename: How_Dare_The_Sun_Shine_f3a4a288bf.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6fd2f55014fb2a6fd2f98a.doc
+    url: /files/original/14fb2a6fd2f55014fb2a6fd2f98a.doc
 geo:
   address: ''
   lat: 30.4392020872356

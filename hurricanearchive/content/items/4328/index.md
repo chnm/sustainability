@@ -23,7 +23,7 @@ files:
     mime: video/quicktime
     original_filename: aloudcolor.mov
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a573b0e6014fb2a573b120f.mov
+    url: /files/original/14fb2a573b0e6014fb2a573b120f.mov
 geo:
 id: 4328
 item_type: Moving Image

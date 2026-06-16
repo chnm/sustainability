@@ -20,7 +20,7 @@ files:
     mime: application/octet-stream
     original_filename: Disaster_Paper_12_15_06[2]_0187073170.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a187e3fed14fb2a187e43d3.doc
+    url: /files/original/14fb2a187e3fed14fb2a187e43d3.doc
 geo:
 id: 14614
 item_type: Document

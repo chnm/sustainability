@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Kelsey Gurganus.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2428834414fb2a24288729.htm
+    url: /files/original/14fb2a2428834414fb2a24288729.htm
 geo:
 id: 11670
 item_type: Oral History

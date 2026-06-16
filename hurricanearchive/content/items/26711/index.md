@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d82c7a3914fb29d82c7dbd.jpg
+  - fullsize: /files/fullsize/14fb29d82c7a3914fb29d82c7dbd.jpg
     id: 22918
     mime: image/jpeg
     original_filename: JB 2 grandparents_b6234904ff.3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d82c7a3914fb29d82c7dbd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d82c7a3914fb29d82c7dbd.jpg
+    thumb: /files/thumbnails/14fb29d82c7a3914fb29d82c7dbd.jpg
+    url: /files/original/14fb29d82c7a3914fb29d82c7dbd.jpg
 geo:
   address: ''
   lat: 29.91685

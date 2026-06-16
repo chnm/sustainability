@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 1826superdome.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e11119e014fb29e1111c6a.jpg
+  - fullsize: /files/fullsize/14fb29e11119e014fb29e1111c6a.jpg
     id: 22143
     mime: image/jpeg
     original_filename: DSC 1826superdome.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e11119e014fb29e1111c6a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e11119e014fb29e1111c6a.jpg
+    thumb: /files/thumbnails/14fb29e11119e014fb29e1111c6a.jpg
+    url: /files/original/14fb29e11119e014fb29e1111c6a.jpg
 geo:
 id: 25200
 item_type: Still Image

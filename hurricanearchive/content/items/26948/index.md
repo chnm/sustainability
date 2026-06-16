@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: paintingpainting_f42d956631.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d5ecc19a14fb29d5ecc581.pdf
+    url: /files/original/14fb29d5ecc19a14fb29d5ecc581.pdf
 geo:
   address: ''
   lat: 0.0

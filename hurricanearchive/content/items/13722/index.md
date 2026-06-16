@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: admin_minutes02_26_2006_3ef1bb1b80.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ce4493d14fb2a1ce4a5b4.doc
+    url: /files/original/14fb2a1ce4493d14fb2a1ce4a5b4.doc
 geo:
 id: 13722
 item_type: Document

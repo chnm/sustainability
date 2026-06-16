@@ -21,12 +21,12 @@ dublin_core:
       text: Rescue
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6071079114fb2a60710b79.jpg
+  - fullsize: /files/fullsize/14fb2a6071079114fb2a60710b79.jpg
     id: 2200
     mime: image/jpeg
     original_filename: Rescue
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6071079114fb2a60710b79.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6071079114fb2a60710b79.jpg
+    thumb: /files/thumbnails/14fb2a6071079114fb2a60710b79.jpg
+    url: /files/original/14fb2a6071079114fb2a60710b79.jpg
 geo:
 id: 2718
 item_type: Still Image

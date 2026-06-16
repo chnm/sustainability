@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Steven Singerman.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e1955f214fb2a5e1959e5.wav
+    url: /files/original/14fb2a5e1955f214fb2a5e1959e5.wav
 geo:
 id: 3085
 item_type: Oral History

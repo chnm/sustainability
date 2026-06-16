@@ -15,12 +15,12 @@ dublin_core:
       text: IMG_1032.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a57b61ae814fb2a57b621ab.jpg
+  - fullsize: /files/fullsize/14fb2a57b61ae814fb2a57b621ab.jpg
     id: 3515
     mime: image/jpeg
     original_filename: IMG_1032.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a57b61ae814fb2a57b621ab.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a57b61ae814fb2a57b621ab.jpg
+    thumb: /files/thumbnails/14fb2a57b61ae814fb2a57b621ab.jpg
+    url: /files/original/14fb2a57b61ae814fb2a57b621ab.jpg
 geo:
 id: 4104
 item_type: Still Image

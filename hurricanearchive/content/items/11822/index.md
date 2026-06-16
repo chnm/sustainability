@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Pass Christian 3.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23317cc614fb2a233180ac.doc
+    url: /files/original/14fb2a23317cc614fb2a233180ac.doc
 geo:
 id: 11822
 item_type: Document

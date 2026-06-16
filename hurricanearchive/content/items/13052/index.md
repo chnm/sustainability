@@ -15,12 +15,12 @@ dublin_core:
       text: before trees north.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20bd33aa14fb2a20bd378f.jpg
+  - fullsize: /files/fullsize/14fb2a20bd33aa14fb2a20bd378f.jpg
     id: 11062
     mime: image/jpeg
     original_filename: before trees north.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20bd33aa14fb2a20bd378f.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20bd33aa14fb2a20bd378f.jpg
+    thumb: /files/thumbnails/14fb2a20bd33aa14fb2a20bd378f.jpg
+    url: /files/original/14fb2a20bd33aa14fb2a20bd378f.jpg
 geo:
 id: 13052
 item_type: Still Image

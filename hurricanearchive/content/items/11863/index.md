@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: farmer.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a230488e814fb2a23049964.doc
+    url: /files/original/14fb2a230488e814fb2a23049964.doc
 geo:
 id: 11863
 item_type: Document

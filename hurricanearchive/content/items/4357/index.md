@@ -22,7 +22,7 @@ files:
     mime: audio/x-wav
     original_filename: Maria Keating1.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5724b66a14fb2a5724ba58.wav
+    url: /files/original/14fb2a5724b66a14fb2a5724ba58.wav
 geo:
   address: ''
   lat: 30.07772

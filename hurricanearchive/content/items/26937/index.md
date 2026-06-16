@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Shawn Bazile HK2656K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d602ec3914fb29d603a3cd.mp3
+    url: /files/original/14fb29d602ec3914fb29d603a3cd.mp3
 geo:
 id: 26937
 item_type: Oral History

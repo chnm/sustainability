@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: i grew_331362ca43.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cec6131414fb29cec615c6.pdf
+    url: /files/original/14fb29cec6131414fb29cec615c6.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c3b2482714fb29c3b24bc6.jpg
+  - fullsize: /files/fullsize/14fb29c3b2482714fb29c3b24bc6.jpg
     id: 24912
     mime: image/pjpeg
     original_filename: laurishirtback_5e0ad823fe.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c3b2482714fb29c3b24bc6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c3b2482714fb29c3b24bc6.jpg
+    thumb: /files/thumbnails/14fb29c3b2482714fb29c3b24bc6.jpg
+    url: /files/original/14fb29c3b2482714fb29c3b24bc6.jpg
 geo:
   address: ''
   lat: 0.0

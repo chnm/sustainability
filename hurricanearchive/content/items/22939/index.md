@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0045media.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f2965aac14fb29f2967617.jpg
+  - fullsize: /files/fullsize/14fb29f2965aac14fb29f2967617.jpg
     id: 19883
     mime: image/jpeg
     original_filename: DSC 0045media.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f2965aac14fb29f2967617.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f2965aac14fb29f2967617.jpg
+    thumb: /files/thumbnails/14fb29f2965aac14fb29f2967617.jpg
+    url: /files/original/14fb29f2965aac14fb29f2967617.jpg
 geo:
 id: 22939
 item_type: Still Image

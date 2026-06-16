@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: MattMoore.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e21ef0314fb2a5e21f2e2.wav
+    url: /files/original/14fb2a5e21ef0314fb2a5e21f2e2.wav
 geo:
 id: 3077
 item_type: Oral History

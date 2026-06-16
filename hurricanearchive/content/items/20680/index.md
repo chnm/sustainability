@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0055M.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0513ee4e14fb2a05145a30.jpg
+  - fullsize: /files/fullsize/14fb2a0513ee4e14fb2a05145a30.jpg
     id: 17633
     mime: image/jpeg
     original_filename: DSC 0055M.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0513ee4e14fb2a05145a30.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0513ee4e14fb2a05145a30.jpg
+    thumb: /files/thumbnails/14fb2a0513ee4e14fb2a05145a30.jpg
+    url: /files/original/14fb2a0513ee4e14fb2a05145a30.jpg
 geo:
 id: 20680
 item_type: Still Image

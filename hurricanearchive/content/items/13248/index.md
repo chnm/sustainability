@@ -15,12 +15,12 @@ dublin_core:
       text: george driving.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1ea405b614fb2a1ea4099b.jpg
+  - fullsize: /files/fullsize/14fb2a1ea405b614fb2a1ea4099b.jpg
     id: 11258
     mime: image/jpeg
     original_filename: george driving.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1ea405b614fb2a1ea4099b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1ea405b614fb2a1ea4099b.jpg
+    thumb: /files/thumbnails/14fb2a1ea405b614fb2a1ea4099b.jpg
+    url: /files/original/14fb2a1ea405b614fb2a1ea4099b.jpg
 geo:
 id: 13248
 item_type: Still Image

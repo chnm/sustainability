@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Target Deck - N.O.  Downtown Hotels.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29fb0f176814fb29fb0f1b4e.doc
+    url: /files/original/14fb29fb0f176814fb29fb0f1b4e.doc
 geo:
 id: 21905
 item_type: Document

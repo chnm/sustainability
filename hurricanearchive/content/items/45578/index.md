@@ -17,25 +17,25 @@ files:
     mime: audio/mpeg
     original_filename: Dickson-Rishel, Rod 06-16-08 1 of 3.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f48a81e14fbe86f48ac04.mp3
+    url: /files/original/14fbe86f48a81e14fbe86f48ac04.mp3
   - fullsize:
     id: 46074
     mime: audio/mpeg
     original_filename: Dickson-Rishel, Rod 06-16-08 2 of 3.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f49677e14fbe86f496b6f.mp3
+    url: /files/original/14fbe86f49677e14fbe86f496b6f.mp3
   - fullsize:
     id: 46075
     mime: audio/mpeg
     original_filename: Dickson-Rishel, Rod 06-16-08 3 of 3.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f4a7cd514fbe86f4a80b3.mp3
+    url: /files/original/14fbe86f4a7cd514fbe86f4a80b3.mp3
   - fullsize:
     id: 46076
     mime: application/msword
     original_filename: Dickson-Rishel, Rod.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f4ba98a14fbe86f4bad6d.doc
+    url: /files/original/14fbe86f4ba98a14fbe86f4bad6d.doc
 geo:
 id: 45578
 item_type: Oral History

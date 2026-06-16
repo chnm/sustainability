@@ -15,12 +15,12 @@ dublin_core:
       text: Industrial Canal.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb50101f14fb29fb501404.jpg
+  - fullsize: /files/fullsize/14fb29fb50101f14fb29fb501404.jpg
     id: 18822
     mime: image/jpeg
     original_filename: Industrial Canal.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb50101f14fb29fb501404.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb50101f14fb29fb501404.jpg
+    thumb: /files/thumbnails/14fb29fb50101f14fb29fb501404.jpg
+    url: /files/original/14fb29fb50101f14fb29fb501404.jpg
 geo:
 id: 21871
 item_type: Still Image

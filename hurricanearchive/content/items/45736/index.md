@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Krohn-David,Robin.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870fbb88a14fbe870fbbc74.doc
+    url: /files/original/14fbe870fbb88a14fbe870fbbc74.doc
 geo:
 id: 45736
 item_type: Oral History

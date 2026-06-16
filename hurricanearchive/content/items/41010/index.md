@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c4acf3bc14fb29c4acf79f.jpg
+  - fullsize: /files/fullsize/14fb29c4acf3bc14fb29c4acf79f.jpg
     id: 24861
     mime: image/pjpeg
     original_filename: 6 - Robert E_f1e7232c39. Lee 1.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c4acf3bc14fb29c4acf79f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c4acf3bc14fb29c4acf79f.jpg
+    thumb: /files/thumbnails/14fb29c4acf3bc14fb29c4acf79f.jpg
+    url: /files/original/14fb29c4acf3bc14fb29c4acf79f.jpg
 geo:
   address: ''
   lat: 0.0

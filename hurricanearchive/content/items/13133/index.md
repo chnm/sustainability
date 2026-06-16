@@ -15,12 +15,12 @@ dublin_core:
       text: south bank building end.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20313d1a14fb2a203140f6.jpg
+  - fullsize: /files/fullsize/14fb2a20313d1a14fb2a203140f6.jpg
     id: 11143
     mime: image/jpeg
     original_filename: south bank building end.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20313d1a14fb2a203140f6.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20313d1a14fb2a203140f6.jpg
+    thumb: /files/thumbnails/14fb2a20313d1a14fb2a203140f6.jpg
+    url: /files/original/14fb2a20313d1a14fb2a203140f6.jpg
 geo:
 id: 13133
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1816a11814fb2a1816a52a.jpg
+  - fullsize: /files/fullsize/14fb2a1816a11814fb2a1816a52a.jpg
     id: 12161
     mime: image/jpeg
     original_filename: GoodShepherd_DannishDanionGreen_01_ff8f8572be.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1816a11814fb2a1816a52a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1816a11814fb2a1816a52a.jpg
+    thumb: /files/thumbnails/14fb2a1816a11814fb2a1816a52a.jpg
+    url: /files/original/14fb2a1816a11814fb2a1816a52a.jpg
 geo:
 id: 14701
 item_type: Still Image

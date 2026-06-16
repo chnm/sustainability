@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c4b818dc14fb29c4b81cc2.jpg
+  - fullsize: /files/fullsize/14fb29c4b818dc14fb29c4b81cc2.jpg
     id: 24851
     mime: image/pjpeg
     original_filename: Helicopter_db4517568e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c4b818dc14fb29c4b81cc2.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c4b818dc14fb29c4b81cc2.jpg
+    thumb: /files/thumbnails/14fb29c4b818dc14fb29c4b81cc2.jpg
+    url: /files/original/14fb29c4b818dc14fb29c4b81cc2.jpg
 geo:
   address: ''
   lat: 0.0

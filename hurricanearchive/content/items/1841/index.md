@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6eb36d1a14fb2a6eb370f3.jpg
+  - fullsize: /files/fullsize/14fb2a6eb36d1a14fb2a6eb370f3.jpg
     id: 660
     mime: image/jpeg
     original_filename: holly2_9b748651df.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6eb36d1a14fb2a6eb370f3.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6eb36d1a14fb2a6eb370f3.jpg
+    thumb: /files/thumbnails/14fb2a6eb36d1a14fb2a6eb370f3.jpg
+    url: /files/original/14fb2a6eb36d1a14fb2a6eb370f3.jpg
 geo:
   address: ''
   lat: 29.7716788354775

@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Interview of Sheila Chatelain_96292865a5.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cb0baf4314fb29cb0bbb5f.doc
+    url: /files/original/14fb29cb0baf4314fb29cb0bbb5f.doc
 geo:
   address: ''
   lat: 0.0

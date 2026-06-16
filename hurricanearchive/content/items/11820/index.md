@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: OlierPhotographer.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2333bec814fb2a2333c2ac.doc
+    url: /files/original/14fb2a2333bec814fb2a2333c2ac.doc
 geo:
 id: 11820
 item_type: Document

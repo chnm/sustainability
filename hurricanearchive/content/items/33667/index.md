@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Quigley_b3330e52a1.Feeding 18,000.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cab3355314fb29cab33959.doc
+    url: /files/original/14fb29cab3355314fb29cab33959.doc
 geo:
 id: 33667
 item_type: Document

@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 13 2005 Area cities review emergency plans.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35a8f69f14fb2a35a8fa83.txt
+    url: /files/original/14fb2a35a8f69f14fb2a35a8fa83.txt
 geo:
   address: ''
   lat: 0.0

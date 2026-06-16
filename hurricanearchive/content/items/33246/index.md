@@ -17,12 +17,12 @@ dublin_core:
       text: Safe Way Supermarket
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb326c0f14fb29cb3275b9.jpg
+  - fullsize: /files/fullsize/14fb29cb326c0f14fb29cb3275b9.jpg
     id: 24096
     mime: image/jpg
     original_filename: 1239954658_020f89b3c9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb326c0f14fb29cb3275b9.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb326c0f14fb29cb3275b9.jpg
+    thumb: /files/thumbnails/14fb29cb326c0f14fb29cb3275b9.jpg
+    url: /files/original/14fb29cb326c0f14fb29cb3275b9.jpg
 geo:
   address: ''
   lat: 41.8848

@@ -15,12 +15,12 @@ dublin_core:
       text: 217 roofing.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f34451b14fb2a1f345d40.jpg
+  - fullsize: /files/fullsize/14fb2a1f34451b14fb2a1f345d40.jpg
     id: 11232
     mime: image/jpeg
     original_filename: 217 roofing.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f34451b14fb2a1f345d40.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f34451b14fb2a1f345d40.jpg
+    thumb: /files/thumbnails/14fb2a1f34451b14fb2a1f345d40.jpg
+    url: /files/original/14fb2a1f34451b14fb2a1f345d40.jpg
 geo:
 id: 13222
 item_type: Still Image

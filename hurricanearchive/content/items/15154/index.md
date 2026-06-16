@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a16d1199614fb2a16d11d7c.jpg
+  - fullsize: /files/fullsize/14fb2a16d1199614fb2a16d11d7c.jpg
     id: 12316
     mime: image/pjpeg
     original_filename: madabeach_2f4dd0f62f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a16d1199614fb2a16d11d7c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a16d1199614fb2a16d11d7c.jpg
+    thumb: /files/thumbnails/14fb2a16d1199614fb2a16d11d7c.jpg
+    url: /files/original/14fb2a16d1199614fb2a16d11d7c.jpg
 geo:
   address: ''
   lat: 37.77123

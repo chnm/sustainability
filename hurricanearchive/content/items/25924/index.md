@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: Sims,ThingsFallApart_47c89d6206.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbcad9ea14fb29dbcade05.pdf
+    url: /files/original/14fb29dbcad9ea14fb29dbcade05.pdf
 geo:
 id: 25924
 item_type: Document

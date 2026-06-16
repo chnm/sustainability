@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Sgt Bryan Harter and SSG Jonathan Hannon.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e1a1d1914fb2a5e1a20fe.wav
+    url: /files/original/14fb2a5e1a1d1914fb2a5e1a20fe.wav
 geo:
 id: 3084
 item_type: Oral History

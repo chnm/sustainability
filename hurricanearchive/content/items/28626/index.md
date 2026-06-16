@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6834
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d209134914fb29d2091717.jpg
+  - fullsize: /files/fullsize/14fb29d209134914fb29d2091717.jpg
     id: 23477
     mime: image/jpg
     original_filename: 158949268_17ab505665.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d209134914fb29d2091717.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d209134914fb29d2091717.jpg
+    thumb: /files/thumbnails/14fb29d209134914fb29d2091717.jpg
+    url: /files/original/14fb29d209134914fb29d2091717.jpg
 geo:
 id: 28626
 item_type: Still Image

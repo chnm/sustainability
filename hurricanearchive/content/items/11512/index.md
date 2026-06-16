@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a247eb82414fb2a247ebc09.jpg
+  - fullsize: /files/fullsize/14fb2a247eb82414fb2a247ebc09.jpg
     id: 10438
     mime: image/pjpeg
     original_filename: lakevista_c8da718115.nola.resident.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a247eb82414fb2a247ebc09.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a247eb82414fb2a247ebc09.jpg
+    thumb: /files/thumbnails/14fb2a247eb82414fb2a247ebc09.jpg
+    url: /files/original/14fb2a247eb82414fb2a247ebc09.jpg
 geo:
   address: ''
   lat: 30.02197

@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: survivingkatrina_2f9d906b46.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2219c98f14fb2a2219d1fd.pdf
+    url: /files/original/14fb2a2219c98f14fb2a2219d1fd.pdf
 geo:
 id: 12527
 item_type: Document

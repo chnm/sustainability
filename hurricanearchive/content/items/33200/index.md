@@ -14,12 +14,12 @@ dublin_core:
       text: IMG_7533.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb9ab83b14fb29cb9abc20.jpg
+  - fullsize: /files/fullsize/14fb29cb9ab83b14fb29cb9abc20.jpg
     id: 24050
     mime: image/jpg
     original_filename: 1281653683_5b71b77630.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb9ab83b14fb29cb9abc20.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb9ab83b14fb29cb9abc20.jpg
+    thumb: /files/thumbnails/14fb29cb9ab83b14fb29cb9abc20.jpg
+    url: /files/original/14fb29cb9ab83b14fb29cb9abc20.jpg
 geo:
 id: 33200
 item_type: Still Image

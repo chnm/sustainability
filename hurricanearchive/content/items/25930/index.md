@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: Henke,situationnormal_6891fce79c.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbc2e77614fb29dbc2ee8b.pdf
+    url: /files/original/14fb29dbc2e77614fb29dbc2ee8b.pdf
 geo:
 id: 25930
 item_type: Document

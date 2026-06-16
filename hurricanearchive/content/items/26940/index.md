@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Tom Hannegan HK2456K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d5fb0fee14fb29d5fb1b49.mp3
+    url: /files/original/14fb29d5fb0fee14fb29d5fb1b49.mp3
 geo:
 id: 26940
 item_type: Oral History

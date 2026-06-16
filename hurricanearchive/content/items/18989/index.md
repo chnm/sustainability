@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 2151rescuehelicopter.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a13d8e84b14fb2a13d8ec28.jpg
+  - fullsize: /files/fullsize/14fb2a13d8e84b14fb2a13d8ec28.jpg
     id: 15942
     mime: image/jpeg
     original_filename: DSC 2151rescuehelicopter.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a13d8e84b14fb2a13d8ec28.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a13d8e84b14fb2a13d8ec28.jpg
+    thumb: /files/thumbnails/14fb2a13d8e84b14fb2a13d8ec28.jpg
+    url: /files/original/14fb2a13d8e84b14fb2a13d8ec28.jpg
 geo:
 id: 18989
 item_type: Still Image

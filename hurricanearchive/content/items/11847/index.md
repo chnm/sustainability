@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: sportspub.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23148bd514fb2a23148fc2.doc
+    url: /files/original/14fb2a23148bd514fb2a23148fc2.doc
 geo:
 id: 11847
 item_type: Document

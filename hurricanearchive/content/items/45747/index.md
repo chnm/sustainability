@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Leos, Socorro.trs (English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87119fa0014fbe87119fde2.doc
+    url: /files/original/14fbe87119fa0014fbe87119fde2.doc
   - fullsize:
     id: 46373
     mime: application/msword
     original_filename: Leos, Socorro.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8711b78bb14fbe8711b7ca2.doc
+    url: /files/original/14fbe8711b78bb14fbe8711b7ca2.doc
 geo:
 id: 45747
 item_type: Oral History

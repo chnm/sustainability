@@ -15,12 +15,12 @@ dublin_core:
       text: IMG_0021.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a58271ba514fb2a58271f8a.jpg
+  - fullsize: /files/fullsize/14fb2a58271ba514fb2a58271f8a.jpg
     id: 3479
     mime: image/jpeg
     original_filename: IMG_0021.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a58271ba514fb2a58271f8a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a58271ba514fb2a58271f8a.jpg
+    thumb: /files/thumbnails/14fb2a58271ba514fb2a58271f8a.jpg
+    url: /files/original/14fb2a58271ba514fb2a58271f8a.jpg
 geo:
 id: 4068
 item_type: Still Image

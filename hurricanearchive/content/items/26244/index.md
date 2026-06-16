@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d95c103414fb29d95c1419.jpg
+  - fullsize: /files/fullsize/14fb29d95c103414fb29d95c1419.jpg
     id: 22825
     mime: image/jpeg
     original_filename: AB Mardi Gras 1946_e7f090780d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d95c103414fb29d95c1419.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d95c103414fb29d95c1419.jpg
+    thumb: /files/thumbnails/14fb29d95c103414fb29d95c1419.jpg
+    url: /files/original/14fb29d95c103414fb29d95c1419.jpg
 geo:
   address: ''
   lat: 29.91685

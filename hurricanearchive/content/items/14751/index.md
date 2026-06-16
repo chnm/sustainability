@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1804da2a14fb2a1804dd09.jpg
+  - fullsize: /files/fullsize/14fb2a1804da2a14fb2a1804dd09.jpg
     id: 12172
     mime: image/jpeg
     original_filename: GoodShepherd_DayshaCamp_02_a5f14c0d49.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1804da2a14fb2a1804dd09.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1804da2a14fb2a1804dd09.jpg
+    thumb: /files/thumbnails/14fb2a1804da2a14fb2a1804dd09.jpg
+    url: /files/original/14fb2a1804da2a14fb2a1804dd09.jpg
 geo:
 id: 14751
 item_type: Still Image

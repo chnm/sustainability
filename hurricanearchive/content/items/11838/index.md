@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Susan B Hurrican Katrina.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a231da02314fb2a231da35c.doc
+    url: /files/original/14fb2a231da02314fb2a231da35c.doc
 geo:
 id: 11838
 item_type: Document

@@ -15,12 +15,12 @@ dublin_core:
       text: PuppystbernardparishS&R.bmp
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ed05d17214fb29ed05d548.jpg
+  - fullsize: /files/fullsize/14fb29ed05d17214fb29ed05d548.jpg
     id: 20740
     mime: image/x-ms-bmp
     original_filename: PuppystbernardparishS&R.bmp
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ed05d17214fb29ed05d548.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ed05d17214fb29ed05d548.jpg
+    thumb: /files/thumbnails/14fb29ed05d17214fb29ed05d548.jpg
+    url: /files/original/14fb29ed05d17214fb29ed05d548.jpg
 geo:
 id: 23796
 item_type: Still Image

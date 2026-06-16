@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: Thursday's Call- Agenda Items 9_04_06_5fd87f9acc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ca4977514fb2a1ca49f3f.doc
+    url: /files/original/14fb2a1ca4977514fb2a1ca49f3f.doc
 geo:
 id: 13819
 item_type: Document

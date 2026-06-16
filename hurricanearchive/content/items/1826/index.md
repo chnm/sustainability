@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6ebdd46d14fb2a6ebdd852.jpg
+  - fullsize: /files/fullsize/14fb2a6ebdd46d14fb2a6ebdd852.jpg
     id: 646
     mime: image/jpeg
     original_filename: house_contents_destroyed_by_street2_e9ce297b4b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6ebdd46d14fb2a6ebdd852.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6ebdd46d14fb2a6ebdd852.jpg
+    thumb: /files/thumbnails/14fb2a6ebdd46d14fb2a6ebdd852.jpg
+    url: /files/original/14fb2a6ebdd46d14fb2a6ebdd852.jpg
 geo:
   address: ''
   lat: 30.027041

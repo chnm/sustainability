@@ -15,12 +15,12 @@ dublin_core:
       text: 200 billboard dmage2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f53cd7514fb2a1f53d15a.jpg
+  - fullsize: /files/fullsize/14fb2a1f53cd7514fb2a1f53d15a.jpg
     id: 11216
     mime: image/jpeg
     original_filename: 200 billboard dmage2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f53cd7514fb2a1f53d15a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f53cd7514fb2a1f53d15a.jpg
+    thumb: /files/thumbnails/14fb2a1f53cd7514fb2a1f53d15a.jpg
+    url: /files/original/14fb2a1f53cd7514fb2a1f53d15a.jpg
 geo:
 id: 13206
 item_type: Still Image

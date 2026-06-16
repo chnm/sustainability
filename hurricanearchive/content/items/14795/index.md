@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a17a9959814fb2a17a9997c.jpg
+  - fullsize: /files/fullsize/14fb2a17a9959814fb2a17a9997c.jpg
     id: 12213
     mime: image/jpeg
     original_filename: GoodShepherd_TalijahGrowe_04_d669354d24.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a17a9959814fb2a17a9997c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a17a9959814fb2a17a9997c.jpg
+    thumb: /files/thumbnails/14fb2a17a9959814fb2a17a9997c.jpg
+    url: /files/original/14fb2a17a9959814fb2a17a9997c.jpg
 geo:
 id: 14795
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: text/rtf
     original_filename: Matos BSL Gulfport.rtf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a233e35d014fb2a233e39b6.rtf
+    url: /files/original/14fb2a233e35d014fb2a233e39b6.rtf
 geo:
 id: 11809
 item_type: Document

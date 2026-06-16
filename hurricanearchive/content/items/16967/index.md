@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a15b33c9114fb2a15b3407c.jpg
+  - fullsize: /files/fullsize/14fb2a15b33c9114fb2a15b3407c.jpg
     id: 13946
     mime: image/jpeg
     original_filename: CecileRobin-5893_027184fb64.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a15b33c9114fb2a15b3407c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a15b33c9114fb2a15b3407c.jpg
+    thumb: /files/thumbnails/14fb2a15b33c9114fb2a15b3407c.jpg
+    url: /files/original/14fb2a15b33c9114fb2a15b3407c.jpg
 geo:
 id: 16967
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 01 2005 Katrina cuts off ports.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35bc7bdb14fb2a35bc7fc2.txt
+    url: /files/original/14fb2a35bc7bdb14fb2a35bc7fc2.txt
 geo:
   address: ''
   lat: 0.0

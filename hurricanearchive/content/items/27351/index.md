@@ -17,12 +17,12 @@ dublin_core:
       text: Still waiting
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d424d47b14fb29d424d945.jpg
+  - fullsize: /files/fullsize/14fb29d424d47b14fb29d424d945.jpg
     id: 23238
     mime: image/jpg
     original_filename: 209500052_f9e848980c.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d424d47b14fb29d424d945.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d424d47b14fb29d424d945.jpg
+    thumb: /files/thumbnails/14fb29d424d47b14fb29d424d945.jpg
+    url: /files/original/14fb29d424d47b14fb29d424d945.jpg
 geo:
   address: ''
   lat: 29.87552

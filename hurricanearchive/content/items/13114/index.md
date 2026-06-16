@@ -15,12 +15,12 @@ dublin_core:
       text: garage wind.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2056730514fb2a205676e2.jpg
+  - fullsize: /files/fullsize/14fb2a2056730514fb2a205676e2.jpg
     id: 11124
     mime: image/jpeg
     original_filename: garage wind.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2056730514fb2a205676e2.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2056730514fb2a205676e2.jpg
+    thumb: /files/thumbnails/14fb2a2056730514fb2a205676e2.jpg
+    url: /files/original/14fb2a2056730514fb2a205676e2.jpg
 geo:
 id: 13114
 item_type: Still Image

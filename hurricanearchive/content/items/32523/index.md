@@ -24,12 +24,12 @@ dublin_core:
       text: 'AD:  New Orleans After the Deluge, Chapter 4 \"Zero Hour\"'
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbea126814fb29cbea1655.jpg
+  - fullsize: /files/fullsize/14fb29cbea126814fb29cbea1655.jpg
     id: 24009
     mime: image/jpeg
     original_filename: adc04_ec2a1748cf.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbea126814fb29cbea1655.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbea126814fb29cbea1655.jpg
+    thumb: /files/thumbnails/14fb29cbea126814fb29cbea1655.jpg
+    url: /files/original/14fb29cbea126814fb29cbea1655.jpg
 geo:
 id: 32523
 item_type: Hyperlink

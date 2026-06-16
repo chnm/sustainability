@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Agenda 8-3-06_eb6cc55085.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cae5eab14fb2a1cae629b.doc
+    url: /files/original/14fb2a1cae5eab14fb2a1cae629b.doc
 geo:
 id: 13806
 item_type: Document

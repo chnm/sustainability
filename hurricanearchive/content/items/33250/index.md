@@ -17,12 +17,12 @@ dublin_core:
       text: massive Corner Store
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb2ac3df14fb29cb2acebe.jpg
+  - fullsize: /files/fullsize/14fb29cb2ac3df14fb29cb2acebe.jpg
     id: 24100
     mime: image/jpg
     original_filename: 1231398936_217a54b6f3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb2ac3df14fb29cb2acebe.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb2ac3df14fb29cb2acebe.jpg
+    thumb: /files/thumbnails/14fb29cb2ac3df14fb29cb2acebe.jpg
+    url: /files/original/14fb29cb2ac3df14fb29cb2acebe.jpg
 geo:
   address: ''
   lat: 41.8848

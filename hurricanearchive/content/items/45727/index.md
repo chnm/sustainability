@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Jones, Winston(808).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870f5774114fbe870f57b20.doc
+    url: /files/original/14fbe870f5774114fbe870f57b20.doc
 geo:
 id: 45727
 item_type: Oral History

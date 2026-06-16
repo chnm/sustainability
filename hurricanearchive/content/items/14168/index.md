@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: McKee and Harrell 21Sep05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1b0c390d14fb2a1b0c3ce6.wav
+    url: /files/original/14fb2a1b0c390d14fb2a1b0c3ce6.wav
 geo:
   address: ''
   lat: 0.0

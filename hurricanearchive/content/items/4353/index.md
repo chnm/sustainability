@@ -22,7 +22,7 @@ files:
     mime: audio/x-wav
     original_filename: Aunt of two twin boys.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5734d4cd14fb2a5734d8b0.wav
+    url: /files/original/14fb2a5734d4cd14fb2a5734d8b0.wav
 geo:
   address: ''
   lat: 29.92886

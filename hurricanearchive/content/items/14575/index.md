@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: institutional liaison handbook FINAL_c760df1da1.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18c34f8d14fb2a18c35376.doc
+    url: /files/original/14fb2a18c34f8d14fb2a18c35376.doc
 geo:
 id: 14575
 item_type: Document

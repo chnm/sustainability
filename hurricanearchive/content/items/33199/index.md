@@ -14,12 +14,12 @@ dublin_core:
       text: IMG_7545.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb9ec86b14fb29cb9ed3e2.jpg
+  - fullsize: /files/fullsize/14fb29cb9ec86b14fb29cb9ed3e2.jpg
     id: 24049
     mime: image/jpg
     original_filename: 1281656545_f920915636.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb9ec86b14fb29cb9ed3e2.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb9ec86b14fb29cb9ed3e2.jpg
+    thumb: /files/thumbnails/14fb29cb9ec86b14fb29cb9ed3e2.jpg
+    url: /files/original/14fb29cb9ec86b14fb29cb9ed3e2.jpg
 geo:
 id: 33199
 item_type: Still Image

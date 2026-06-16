@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: probonoversion.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a223bb00614fb2a223bb3ed.doc
+    url: /files/original/14fb2a223bb00614fb2a223bb3ed.doc
 geo:
 id: 12174
 item_type: Document

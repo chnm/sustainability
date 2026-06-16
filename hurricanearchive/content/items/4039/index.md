@@ -15,12 +15,12 @@ dublin_core:
       text: DSC01159.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5855533414fb2a58555719.jpg
+  - fullsize: /files/fullsize/14fb2a5855533414fb2a58555719.jpg
     id: 3450
     mime: image/jpeg
     original_filename: DSC01159.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5855533414fb2a58555719.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5855533414fb2a58555719.jpg
+    thumb: /files/thumbnails/14fb2a5855533414fb2a58555719.jpg
+    url: /files/original/14fb2a5855533414fb2a58555719.jpg
 geo:
 id: 4039
 item_type: Still Image

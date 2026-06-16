@@ -21,12 +21,12 @@ dublin_core:
       text: 1068 Clipper Dr. Slidell
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca47fb3f14fb29ca47ff24.jpg
+  - fullsize: /files/fullsize/14fb29ca47fb3f14fb29ca47ff24.jpg
     id: 24225
     mime: image/jpg
     original_filename: 2380908100_87e014a0e5.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca47fb3f14fb29ca47ff24.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca47fb3f14fb29ca47ff24.jpg
+    thumb: /files/thumbnails/14fb29ca47fb3f14fb29ca47ff24.jpg
+    url: /files/original/14fb29ca47fb3f14fb29ca47ff24.jpg
 geo:
   address: ''
   lat: 30.22894

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc0e26f414fb29dc0e2c54.jpg
+  - fullsize: /files/fullsize/14fb29dc0e26f414fb29dc0e2c54.jpg
     id: 22572
     mime: image/jpeg
     original_filename: DotBenge-flan_535d043ef3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc0e26f414fb29dc0e2c54.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc0e26f414fb29dc0e2c54.jpg
+    thumb: /files/thumbnails/14fb29dc0e26f414fb29dc0e2c54.jpg
+    url: /files/original/14fb29dc0e26f414fb29dc0e2c54.jpg
 geo:
 id: 25812
 item_type: Still Image

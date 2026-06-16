@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: boatbridge.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a230be33e14fb2a230be73f.doc
+    url: /files/original/14fb2a230be33e14fb2a230be73f.doc
 geo:
 id: 11854
 item_type: Document

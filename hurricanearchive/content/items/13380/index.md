@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e22bc5a14fb2a1e22c040.jpg
+  - fullsize: /files/fullsize/14fb2a1e22bc5a14fb2a1e22c040.jpg
     id: 11328
     mime: image/jpeg
     original_filename: 104_MG_4970_52fb85d596.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e22bc5a14fb2a1e22c040.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e22bc5a14fb2a1e22c040.jpg
+    thumb: /files/thumbnails/14fb2a1e22bc5a14fb2a1e22c040.jpg
+    url: /files/original/14fb2a1e22bc5a14fb2a1e22c040.jpg
 geo:
 id: 13380
 item_type: Still Image

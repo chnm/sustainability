@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6e6b3e4c14fb2a6e6b41eb.jpg
+  - fullsize: /files/fullsize/14fb2a6e6b3e4c14fb2a6e6b41eb.jpg
     id: 699
     mime: image/jpeg
     original_filename: assisted_living_8c580fa0be.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6e6b3e4c14fb2a6e6b41eb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6e6b3e4c14fb2a6e6b41eb.jpg
+    thumb: /files/thumbnails/14fb2a6e6b3e4c14fb2a6e6b41eb.jpg
+    url: /files/original/14fb2a6e6b3e4c14fb2a6e6b41eb.jpg
 geo:
   address: ''
   lat: 31.245138

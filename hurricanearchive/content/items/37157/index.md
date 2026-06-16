@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c56c2fdf14fb29c56c33c4.jpg
+  - fullsize: /files/fullsize/14fb29c56c2fdf14fb29c56c33c4.jpg
     id: 24753
     mime: image/jpeg
     original_filename: Living Room 1B_ccb16e010b.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c56c2fdf14fb29c56c33c4.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c56c2fdf14fb29c56c33c4.jpg
+    thumb: /files/thumbnails/14fb29c56c2fdf14fb29c56c33c4.jpg
+    url: /files/original/14fb29c56c2fdf14fb29c56c33c4.jpg
 geo:
   address: 8059 Curran Blvd
   lat: 30.0377

@@ -15,12 +15,12 @@ dublin_core:
       text: Napoleon.dead appliances on neutral ground.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2164b2df14fb2a2164bb06.jpg
+  - fullsize: /files/fullsize/14fb2a2164b2df14fb2a2164bb06.jpg
     id: 11006
     mime: image/jpeg
     original_filename: Napoleon.dead appliances on neutral ground.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2164b2df14fb2a2164bb06.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2164b2df14fb2a2164bb06.jpg
+    thumb: /files/thumbnails/14fb2a2164b2df14fb2a2164bb06.jpg
+    url: /files/original/14fb2a2164b2df14fb2a2164bb06.jpg
 geo:
 id: 12862
 item_type: Still Image

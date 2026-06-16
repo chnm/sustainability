@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: RodneyBridge.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e1db27014fb2a5e1dbeb2.wav
+    url: /files/original/14fb2a5e1db27014fb2a5e1dbeb2.wav
 geo:
 id: 3080
 item_type: Oral History

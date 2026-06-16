@@ -23,7 +23,7 @@ files:
     mime: application/octet-stream
     original_filename: The Matching Process Workflow and JobDivision_ff08663a04.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c92140814fb2a1c9217e8.doc
+    url: /files/original/14fb2a1c92140814fb2a1c9217e8.doc
 geo:
 id: 13842
 item_type: Document

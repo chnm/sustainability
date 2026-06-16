@@ -15,12 +15,12 @@ dublin_core:
       text: 09110012delaware.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f16c5c9814fb29f16c607a.jpg
+  - fullsize: /files/fullsize/14fb29f16c5c9814fb29f16c607a.jpg
     id: 20079
     mime: image/jpeg
     original_filename: 09110012delaware.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f16c5c9814fb29f16c607a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f16c5c9814fb29f16c607a.jpg
+    thumb: /files/thumbnails/14fb29f16c5c9814fb29f16c607a.jpg
+    url: /files/original/14fb29f16c5c9814fb29f16c607a.jpg
 geo:
 id: 23135
 item_type: Still Image

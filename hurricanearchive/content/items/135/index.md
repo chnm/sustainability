@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a70e4ad1c14fb2a70e4b100.jpg
+  - fullsize: /files/fullsize/14fb2a70e4ad1c14fb2a70e4b100.jpg
     id: 108
     mime: image/jpeg
     original_filename: swept_24456ee944.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a70e4ad1c14fb2a70e4b100.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a70e4ad1c14fb2a70e4b100.jpg
+    thumb: /files/thumbnails/14fb2a70e4ad1c14fb2a70e4b100.jpg
+    url: /files/original/14fb2a70e4ad1c14fb2a70e4b100.jpg
 geo:
   address: ''
   lat: 30.3918303280881

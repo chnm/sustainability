@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Green, Becky.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870cb2a1c14fbe870cb2e03.doc
+    url: /files/original/14fbe870cb2a1c14fbe870cb2e03.doc
 geo:
 id: 45694
 item_type: Oral History

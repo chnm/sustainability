@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0282downtownnola.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1423f97c14fb2a1423fd64.jpg
+  - fullsize: /files/fullsize/14fb2a1423f97c14fb2a1423fd64.jpg
     id: 15885
     mime: image/jpeg
     original_filename: DSC 0282downtownnola.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1423f97c14fb2a1423fd64.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1423f97c14fb2a1423fd64.jpg
+    thumb: /files/thumbnails/14fb2a1423f97c14fb2a1423fd64.jpg
+    url: /files/original/14fb2a1423f97c14fb2a1423fd64.jpg
 geo:
 id: 18932
 item_type: Still Image

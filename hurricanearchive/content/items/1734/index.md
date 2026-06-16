@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f0285fa14fb2a6f02896f.jpg
+  - fullsize: /files/fullsize/14fb2a6f0285fa14fb2a6f02896f.jpg
     id: 564
     mime: image/jpeg
     original_filename: MandevilleSept24_5feetwater_7f527db949.jpeg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f0285fa14fb2a6f02896f.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f0285fa14fb2a6f02896f.jpg
+    thumb: /files/thumbnails/14fb2a6f0285fa14fb2a6f02896f.jpg
+    url: /files/original/14fb2a6f0285fa14fb2a6f02896f.jpg
 geo:
   address: ''
   lat: 30.148461

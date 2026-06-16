@@ -12,12 +12,12 @@ dublin_core:
       text: 'Finding God in New Orleans after Katrina: A Story by an Episcopal Priest'
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/62bd8f6f7c1b2bb05f73418d2c5f9fd1.jpg
+  - fullsize: /files/fullsize/62bd8f6f7c1b2bb05f73418d2c5f9fd1.jpg
     id: 46585
     mime: image/jpeg
     original_filename: 08.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/62bd8f6f7c1b2bb05f73418d2c5f9fd1.jpg
-    url: https://hurricanearchive.org/files/original/62bd8f6f7c1b2bb05f73418d2c5f9fd1.jpg
+    thumb: /files/thumbnails/62bd8f6f7c1b2bb05f73418d2c5f9fd1.jpg
+    url: /files/original/62bd8f6f7c1b2bb05f73418d2c5f9fd1.jpg
 geo:
   address: French Quarter
   lat: 29.9584426

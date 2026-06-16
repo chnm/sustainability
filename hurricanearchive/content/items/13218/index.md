@@ -15,12 +15,12 @@ dublin_core:
       text: 212 news truck.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f3862a214fb2a1f386687.jpg
+  - fullsize: /files/fullsize/14fb2a1f3862a214fb2a1f386687.jpg
     id: 11228
     mime: image/jpeg
     original_filename: 212 news truck.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f3862a214fb2a1f386687.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f3862a214fb2a1f386687.jpg
+    thumb: /files/thumbnails/14fb2a1f3862a214fb2a1f386687.jpg
+    url: /files/original/14fb2a1f3862a214fb2a1f386687.jpg
 geo:
 id: 13218
 item_type: Still Image

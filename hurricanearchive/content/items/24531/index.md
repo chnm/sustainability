@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0111-16.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e6f2ff1614fb29e6f302e7.jpg
+  - fullsize: /files/fullsize/14fb29e6f2ff1614fb29e6f302e7.jpg
     id: 21475
     mime: image/jpeg
     original_filename: DSC 0111-16.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e6f2ff1614fb29e6f302e7.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e6f2ff1614fb29e6f302e7.jpg
+    thumb: /files/thumbnails/14fb29e6f2ff1614fb29e6f302e7.jpg
+    url: /files/original/14fb29e6f2ff1614fb29e6f302e7.jpg
 geo:
 id: 24531
 item_type: Still Image

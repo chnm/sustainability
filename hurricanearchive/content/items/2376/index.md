@@ -24,12 +24,12 @@ dublin_core:
       text: Dolphin Rescue in Cameron
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66d1791614fb2a66d17cf2.jpg
+  - fullsize: /files/fullsize/14fb2a66d1791614fb2a66d17cf2.jpg
     id: 1868
     mime: image/jpeg
     original_filename: apuscg_DOLPHIN_RESCUE_05C8Y_c864ad0bd2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66d1791614fb2a66d17cf2.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66d1791614fb2a66d17cf2.jpg
+    thumb: /files/thumbnails/14fb2a66d1791614fb2a66d17cf2.jpg
+    url: /files/original/14fb2a66d1791614fb2a66d17cf2.jpg
 geo:
 id: 2376
 item_type: Still Image

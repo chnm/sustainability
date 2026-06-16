@@ -15,12 +15,12 @@ dublin_core:
       text: NO 014majortodd.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f2e50dc614fb29f2e511ac.jpg
+  - fullsize: /files/fullsize/14fb29f2e50dc614fb29f2e511ac.jpg
     id: 19843
     mime: image/jpeg
     original_filename: NO 014majortodd.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f2e50dc614fb29f2e511ac.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f2e50dc614fb29f2e511ac.jpg
+    thumb: /files/thumbnails/14fb29f2e50dc614fb29f2e511ac.jpg
+    url: /files/original/14fb29f2e50dc614fb29f2e511ac.jpg
 geo:
 id: 22892
 item_type: Still Image

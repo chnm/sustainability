@@ -15,12 +15,12 @@ dublin_core:
       text: USS Alabama 10.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a599c09de14fb2a599c0dd4.jpg
+  - fullsize: /files/fullsize/14fb2a599c09de14fb2a599c0dd4.jpg
     id: 3204
     mime: image/jpeg
     original_filename: USS Alabama 10.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a599c09de14fb2a599c0dd4.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a599c09de14fb2a599c0dd4.jpg
+    thumb: /files/thumbnails/14fb2a599c09de14fb2a599c0dd4.jpg
+    url: /files/original/14fb2a599c09de14fb2a599c0dd4.jpg
 geo:
 id: 3789
 item_type: Still Image

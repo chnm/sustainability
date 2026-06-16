@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6d5255e614fb2a6d5259cc.jpg
+  - fullsize: /files/fullsize/14fb2a6d5255e614fb2a6d5259cc.jpg
     id: 910
     mime: image/png
     original_filename: Jim__Evelyn_Fountain_0893a09490.png
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6d5255e614fb2a6d5259cc.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6d5255e614fb2a6d5259cc.jpg
+    thumb: /files/thumbnails/14fb2a6d5255e614fb2a6d5259cc.jpg
+    url: /files/original/14fb2a6d5255e614fb2a6d5259cc.jpg
 geo:
   address: ''
   lat: 30.342352

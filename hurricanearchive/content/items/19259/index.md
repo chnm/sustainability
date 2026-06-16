@@ -15,12 +15,12 @@ dublin_core:
       text: LTC Mouton briefing the mediarita.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1195235e14fb2a11952750.jpg
+  - fullsize: /files/fullsize/14fb2a1195235e14fb2a11952750.jpg
     id: 16212
     mime: image/jpeg
     original_filename: LTC Mouton briefing the mediarita.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1195235e14fb2a11952750.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1195235e14fb2a11952750.jpg
+    thumb: /files/thumbnails/14fb2a1195235e14fb2a11952750.jpg
+    url: /files/original/14fb2a1195235e14fb2a11952750.jpg
 geo:
 id: 19259
 item_type: Still Image

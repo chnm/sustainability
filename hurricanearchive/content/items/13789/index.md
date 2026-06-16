@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: SHN Membership Conference Call Minutes_7_06_06_86107a190a.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cc554cc14fb2a1cc558a1.doc
+    url: /files/original/14fb2a1cc554cc14fb2a1cc558a1.doc
 geo:
 id: 13789
 item_type: Document

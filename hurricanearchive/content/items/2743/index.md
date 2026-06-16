@@ -21,12 +21,12 @@ dublin_core:
       text: Specialist Guidry
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a60594a5414fb2a60594e34.jpg
+  - fullsize: /files/fullsize/14fb2a60594a5414fb2a60594e34.jpg
     id: 2225
     mime: image/jpeg
     original_filename: Specialist Guidry
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a60594a5414fb2a60594e34.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a60594a5414fb2a60594e34.jpg
+    thumb: /files/thumbnails/14fb2a60594a5414fb2a60594e34.jpg
+    url: /files/original/14fb2a60594a5414fb2a60594e34.jpg
 geo:
 id: 2743
 item_type: Still Image

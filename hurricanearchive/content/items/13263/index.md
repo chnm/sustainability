@@ -15,12 +15,12 @@ dublin_core:
       text: the guys.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e79b8e114fb2a1e79bcc6.jpg
+  - fullsize: /files/fullsize/14fb2a1e79b8e114fb2a1e79bcc6.jpg
     id: 11273
     mime: image/jpeg
     original_filename: the guys.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e79b8e114fb2a1e79bcc6.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e79b8e114fb2a1e79bcc6.jpg
+    thumb: /files/thumbnails/14fb2a1e79b8e114fb2a1e79bcc6.jpg
+    url: /files/original/14fb2a1e79b8e114fb2a1e79bcc6.jpg
 geo:
 id: 13263
 item_type: Still Image

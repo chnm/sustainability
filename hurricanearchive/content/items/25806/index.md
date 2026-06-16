@@ -19,18 +19,18 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc18670b14fb29dc186af1.jpg
+  - fullsize: /files/fullsize/14fb29dc18670b14fb29dc186af1.jpg
     id: 22562
     mime: image/jpeg
     original_filename: DotBenge-5803_1706a25032.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc18670b14fb29dc186af1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc18670b14fb29dc186af1.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc17bf2014fb29dc17c306.jpg
+    thumb: /files/thumbnails/14fb29dc18670b14fb29dc186af1.jpg
+    url: /files/original/14fb29dc18670b14fb29dc186af1.jpg
+  - fullsize: /files/fullsize/14fb29dc17bf2014fb29dc17c306.jpg
     id: 22563
     mime: image/jpeg
     original_filename: DotBenge-5811_c0186804a8.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc17bf2014fb29dc17c306.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc17bf2014fb29dc17c306.jpg
+    thumb: /files/thumbnails/14fb29dc17bf2014fb29dc17c306.jpg
+    url: /files/original/14fb29dc17bf2014fb29dc17c306.jpg
 geo:
 id: 25806
 item_type: Still Image

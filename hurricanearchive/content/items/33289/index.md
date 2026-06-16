@@ -26,7 +26,7 @@ files:
     mime: application/msword
     original_filename: Perry_fd63497863.Get Rid of the Project.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29caf40fb814fb29caf41519.doc
+    url: /files/original/14fb29caf40fb814fb29caf41519.doc
 geo:
 id: 33289
 item_type: Document

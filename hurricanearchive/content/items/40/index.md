@@ -25,7 +25,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: christmannemail9_nola_2fbd7993a2.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a713d609d14fb2a713d6630.txt
+    url: /files/original/14fb2a713d609d14fb2a713d6630.txt
 geo:
   address: ''
   lat: 29.9843

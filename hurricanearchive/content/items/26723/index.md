@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: AlvinMarigny_e45e27680b.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d82853a914fb29d828578e.pdf
+    url: /files/original/14fb29d82853a914fb29d828578e.pdf
 geo:
   address: ''
   lat: 0.0

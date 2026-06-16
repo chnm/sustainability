@@ -21,12 +21,12 @@ dublin_core:
       text: Section of home totally blown away
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c995c2f714fb29c995c6e6.jpg
+  - fullsize: /files/fullsize/14fb29c995c2f714fb29c995c6e6.jpg
     id: 24354
     mime: image/jpg
     original_filename: 2291227423_f56b4d9290.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c995c2f714fb29c995c6e6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c995c2f714fb29c995c6e6.jpg
+    thumb: /files/thumbnails/14fb29c995c2f714fb29c995c6e6.jpg
+    url: /files/original/14fb29c995c2f714fb29c995c6e6.jpg
 geo:
   address: ''
   lat: 30.22539

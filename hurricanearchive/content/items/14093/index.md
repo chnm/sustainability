@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: COL Pretcher 24 Sep 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1bcd04d814fb2a1bcd08be.wav
+    url: /files/original/14fb2a1bcd04d814fb2a1bcd08be.wav
 geo:
   address: ''
   lat: 0.0

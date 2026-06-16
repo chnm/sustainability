@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f519d8b14fb2a6f51a171.jpg
+  - fullsize: /files/fullsize/14fb2a6f519d8b14fb2a6f51a171.jpg
     id: 471
     mime: image/jpeg
     original_filename: Katrina_Aliens_2006_46bee079ea.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f519d8b14fb2a6f51a171.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f519d8b14fb2a6f51a171.jpg
+    thumb: /files/thumbnails/14fb2a6f519d8b14fb2a6f51a171.jpg
+    url: /files/original/14fb2a6f519d8b14fb2a6f51a171.jpg
 geo:
   address: ''
   lat: 30.342352

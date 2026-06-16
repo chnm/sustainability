@@ -12,12 +12,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c636075d14fb29c63611fd.jpg
+  - fullsize: /files/fullsize/14fb29c636075d14fb29c63611fd.jpg
     id: 24680
     mime: image/pjpeg
     original_filename: 87_1b712a15d7.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c636075d14fb29c63611fd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c636075d14fb29c63611fd.jpg
+    thumb: /files/thumbnails/14fb29c636075d14fb29c63611fd.jpg
+    url: /files/original/14fb29c636075d14fb29c63611fd.jpg
 geo:
   address: Piety and Burgundy
   lat: 29.95324

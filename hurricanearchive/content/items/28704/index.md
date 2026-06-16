@@ -14,12 +14,12 @@ dublin_core:
       text: A damaged house from Katrina
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d180ac5114fb29d180b039.jpg
+  - fullsize: /files/fullsize/14fb29d180ac5114fb29d180b039.jpg
     id: 23548
     mime: image/jpg
     original_filename: 114539364_af0dfd8b9f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d180ac5114fb29d180b039.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d180ac5114fb29d180b039.jpg
+    thumb: /files/thumbnails/14fb29d180ac5114fb29d180b039.jpg
+    url: /files/original/14fb29d180ac5114fb29d180b039.jpg
 geo:
 id: 28704
 item_type: Still Image

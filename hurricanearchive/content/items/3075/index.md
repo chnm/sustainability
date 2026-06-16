@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Marie Hanzel.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e23eabb14fb2a5e23ee95.wav
+    url: /files/original/14fb2a5e23eabb14fb2a5e23ee95.wav
 geo:
 id: 3075
 item_type: Oral History

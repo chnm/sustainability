@@ -17,12 +17,12 @@ dublin_core:
       text: Mike West\'s House
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d518ecd914fb29d518edf6.jpg
+  - fullsize: /files/fullsize/14fb29d518ecd914fb29d518edf6.jpg
     id: 23202
     mime: image/jpg
     original_filename: 336694179_c12321e5c5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d518ecd914fb29d518edf6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d518ecd914fb29d518edf6.jpg
+    thumb: /files/thumbnails/14fb29d518ecd914fb29d518edf6.jpg
+    url: /files/original/14fb29d518ecd914fb29d518edf6.jpg
 geo:
 id: 27315
 item_type: Still Image

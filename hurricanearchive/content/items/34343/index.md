@@ -21,12 +21,12 @@ dublin_core:
       text: 1068 Clipper Dr. Slidell, La.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca46bb0514fb29ca46beea.jpg
+  - fullsize: /files/fullsize/14fb29ca46bb0514fb29ca46beea.jpg
     id: 24227
     mime: image/jpg
     original_filename: 2380908508_c7f6b0c874.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca46bb0514fb29ca46beea.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca46bb0514fb29ca46beea.jpg
+    thumb: /files/thumbnails/14fb29ca46bb0514fb29ca46beea.jpg
+    url: /files/original/14fb29ca46bb0514fb29ca46beea.jpg
 geo:
   address: ''
   lat: 30.22894

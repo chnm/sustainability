@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Carriere, Brian.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87069710314fbe8706974e7.doc
+    url: /files/original/14fbe87069710314fbe8706974e7.doc
 geo:
 id: 45644
 item_type: Oral History

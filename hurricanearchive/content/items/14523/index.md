@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: LSGA_10_17_06_37bd465bb4.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18e8df8014fb2a18e8e416.doc
+    url: /files/original/14fb2a18e8df8014fb2a18e8e416.doc
 geo:
 id: 14523
 item_type: Document

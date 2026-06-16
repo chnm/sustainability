@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Quigley_94687f0e3d.Six Months after Katrina.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cab7f49b14fb29cab7fbf7.doc
+    url: /files/original/14fb29cab7f49b14fb29cab7fbf7.doc
 geo:
 id: 33646
 item_type: Document

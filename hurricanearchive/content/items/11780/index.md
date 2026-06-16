@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Biloxi3-Matos.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2378bc2d14fb2a2378c012.doc
+    url: /files/original/14fb2a2378bc2d14fb2a2378c012.doc
 geo:
 id: 11780
 item_type: Document

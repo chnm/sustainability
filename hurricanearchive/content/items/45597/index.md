@@ -17,7 +17,7 @@ files:
     mime: audio/mpeg
     original_filename: Faulk, Barbra Kay 11-03-05.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86fb61e6d14fbe86fb6225a.mp3
+    url: /files/original/14fbe86fb61e6d14fbe86fb6225a.mp3
 geo:
 id: 45597
 item_type: Oral History

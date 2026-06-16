@@ -17,12 +17,12 @@ dublin_core:
       text: Private Property Flood Line
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb746b5b14fb29cb747130.jpg
+  - fullsize: /files/fullsize/14fb29cb746b5b14fb29cb747130.jpg
     id: 24074
     mime: image/jpg
     original_filename: 1261478980_d1a1058cca.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb746b5b14fb29cb747130.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb746b5b14fb29cb747130.jpg
+    thumb: /files/thumbnails/14fb29cb746b5b14fb29cb747130.jpg
+    url: /files/original/14fb29cb746b5b14fb29cb747130.jpg
 geo:
 id: 33224
 item_type: Still Image

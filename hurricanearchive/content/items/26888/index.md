@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d6867bf214fb29d6867fd6.jpg
+  - fullsize: /files/fullsize/14fb29d6867bf214fb29d6867fd6.jpg
     id: 23072
     mime: image/jpeg
     original_filename: KJ Snow 2  64-04_2e878486a3.2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d6867bf214fb29d6867fd6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d6867bf214fb29d6867fd6.jpg
+    thumb: /files/thumbnails/14fb29d6867bf214fb29d6867fd6.jpg
+    url: /files/original/14fb29d6867bf214fb29d6867fd6.jpg
 geo:
   address: ''
   lat: 29.95493

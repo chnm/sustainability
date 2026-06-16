@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Jerrica Lugo HK756K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d6332f7f14fb29d63332b1.mp3
+    url: /files/original/14fb29d6332f7f14fb29d63332b1.mp3
 geo:
 id: 26925
 item_type: Oral History

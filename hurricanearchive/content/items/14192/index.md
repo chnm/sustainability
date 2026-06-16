@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: SSG Joel Plummer.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ab88cdb14fb2a1ab890d1.wav
+    url: /files/original/14fb2a1ab88cdb14fb2a1ab890d1.wav
 geo:
   address: ''
   lat: 0.0

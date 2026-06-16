@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Challenges of Red Cross and FEMA.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23747a8e14fb2a23747e73.doc
+    url: /files/original/14fb2a23747a8e14fb2a23747e73.doc
 geo:
 id: 11782
 item_type: Document

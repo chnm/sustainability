@@ -21,12 +21,12 @@ dublin_core:
       text: City Park Oak Tree
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9b6bb3b14fb29c9b6bf20.jpg
+  - fullsize: /files/fullsize/14fb29c9b6bb3b14fb29c9b6bf20.jpg
     id: 24322
     mime: image/jpg
     original_filename: 2310200473_057b9e8123.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9b6bb3b14fb29c9b6bf20.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9b6bb3b14fb29c9b6bf20.jpg
+    thumb: /files/thumbnails/14fb29c9b6bb3b14fb29c9b6bf20.jpg
+    url: /files/original/14fb29c9b6bb3b14fb29c9b6bf20.jpg
 geo:
 id: 34488
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a16b6823214fb2a16b68617.jpg
+  - fullsize: /files/fullsize/14fb2a16b6823214fb2a16b68617.jpg
     id: 12351
     mime: image/jpeg
     original_filename: RLivaduais-23_0d4fd432ed.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a16b6823214fb2a16b68617.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a16b6823214fb2a16b68617.jpg
+    thumb: /files/thumbnails/14fb2a16b6823214fb2a16b68617.jpg
+    url: /files/original/14fb2a16b6823214fb2a16b68617.jpg
 geo:
 id: 15261
 item_type: Still Image

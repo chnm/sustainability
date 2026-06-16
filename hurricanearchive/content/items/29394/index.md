@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: mourn_e71c582ef0.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce2b888b14fb29ce2b8c6e.pdf
+    url: /files/original/14fb29ce2b888b14fb29ce2b8c6e.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

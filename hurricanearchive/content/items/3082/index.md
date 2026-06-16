@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: SSG Gautreaux et al.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e1be84014fb2a5e1be9f0.wav
+    url: /files/original/14fb2a5e1be84014fb2a5e1be9f0.wav
 geo:
 id: 3082
 item_type: Oral History

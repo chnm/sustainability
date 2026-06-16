@@ -26,7 +26,7 @@ files:
     mime: audio/wav
     original_filename: nagininterview_302fcbe291.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a224d128314fb2a224d69a6.wav
+    url: /files/original/14fb2a224d128314fb2a224d69a6.wav
 geo:
   address: Math and Science High School (Located in Henry Allen Elementary School)
   lat: 29.93337

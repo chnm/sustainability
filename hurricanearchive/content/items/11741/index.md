@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: levijohnson.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23b7360614fb2a23b73e13.html
+    url: /files/original/14fb2a23b7360614fb2a23b73e13.html
 geo:
 id: 11741
 item_type: Oral History

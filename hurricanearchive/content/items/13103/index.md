@@ -15,12 +15,12 @@ dublin_core:
       text: end look north2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a206188a314fb2a20618c88.jpg
+  - fullsize: /files/fullsize/14fb2a206188a314fb2a20618c88.jpg
     id: 11113
     mime: image/jpeg
     original_filename: end look north2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a206188a314fb2a20618c88.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a206188a314fb2a20618c88.jpg
+    thumb: /files/thumbnails/14fb2a206188a314fb2a20618c88.jpg
+    url: /files/original/14fb2a206188a314fb2a20618c88.jpg
 geo:
 id: 13103
 item_type: Still Image

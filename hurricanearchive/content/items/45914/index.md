@@ -14,12 +14,12 @@ dublin_core:
       text: Belle Chasse Rainbow
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/f33807155d8bbcb50320c9ecc25d232f.jpg
+  - fullsize: /files/fullsize/f33807155d8bbcb50320c9ecc25d232f.jpg
     id: 46539
     mime: image/jpeg
     original_filename: photo.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/f33807155d8bbcb50320c9ecc25d232f.jpg
-    url: https://hurricanearchive.org/files/original/f33807155d8bbcb50320c9ecc25d232f.JPG
+    thumb: /files/thumbnails/f33807155d8bbcb50320c9ecc25d232f.jpg
+    url: /files/original/f33807155d8bbcb50320c9ecc25d232f.JPG
 geo:
   address: Belle Chasse, LA
   lat: 29.8549287

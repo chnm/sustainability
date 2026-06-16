@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Meeting_Request_SHNLobbying_2f83ece5f1.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18f36c7314fb2a18f3705f.doc
+    url: /files/original/14fb2a18f36c7314fb2a18f3705f.doc
 geo:
 id: 14511
 item_type: Document

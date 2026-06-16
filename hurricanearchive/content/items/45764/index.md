@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Martinez, Claudia.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8713e1b2c14fbe8713e1f17.doc
+    url: /files/original/14fbe8713e1b2c14fbe8713e1f17.doc
 geo:
 id: 45764
 item_type: Oral History

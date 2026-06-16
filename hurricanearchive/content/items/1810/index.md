@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6ec66d6114fb2a6ec6713d.jpg
+  - fullsize: /files/fullsize/14fb2a6ec66d6114fb2a6ec6713d.jpg
     id: 634
     mime: image/jpeg
     original_filename: HouseDamage_6e865b18e6.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6ec66d6114fb2a6ec6713d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6ec66d6114fb2a6ec6713d.jpg
+    thumb: /files/thumbnails/14fb2a6ec66d6114fb2a6ec6713d.jpg
+    url: /files/original/14fb2a6ec66d6114fb2a6ec6713d.jpg
 geo:
   address: ''
   lat: 30.084112

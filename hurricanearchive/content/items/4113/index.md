@@ -18,12 +18,12 @@ dublin_core:
       text: IMG_1061.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a57a7a53814fb2a57a7a91d.jpg
+  - fullsize: /files/fullsize/14fb2a57a7a53814fb2a57a7a91d.jpg
     id: 3524
     mime: image/jpeg
     original_filename: Presidential Visit
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a57a7a53814fb2a57a7a91d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a57a7a53814fb2a57a7a91d.jpg
+    thumb: /files/thumbnails/14fb2a57a7a53814fb2a57a7a91d.jpg
+    url: /files/original/14fb2a57a7a53814fb2a57a7a91d.jpg
 geo:
 id: 4113
 item_type: Still Image

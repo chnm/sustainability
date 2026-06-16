@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6da8406514fb2a6da8444a.jpg
+  - fullsize: /files/fullsize/14fb2a6da8406514fb2a6da8444a.jpg
     id: 827
     mime: image/jpeg
     original_filename: ministorage_fc1cf2ef8d.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6da8406514fb2a6da8444a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6da8406514fb2a6da8444a.jpg
+    thumb: /files/thumbnails/14fb2a6da8406514fb2a6da8444a.jpg
+    url: /files/original/14fb2a6da8406514fb2a6da8444a.jpg
 geo:
   address: ''
   lat: 29.864207

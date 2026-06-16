@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0028lakecharles.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1539ff1714fb2a153a02fd.jpg
+  - fullsize: /files/fullsize/14fb2a1539ff1714fb2a153a02fd.jpg
     id: 15747
     mime: image/jpeg
     original_filename: DSC 0028lakecharles.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1539ff1714fb2a153a02fd.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1539ff1714fb2a153a02fd.jpg
+    thumb: /files/thumbnails/14fb2a1539ff1714fb2a153a02fd.jpg
+    url: /files/original/14fb2a1539ff1714fb2a153a02fd.jpg
 geo:
 id: 18794
 item_type: Still Image

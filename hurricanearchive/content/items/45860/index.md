@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Swaykos, Joseph.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871fe7a5614fbe871fe8126.doc
+    url: /files/original/14fbe871fe7a5614fbe871fe8126.doc
 geo:
 id: 45860
 item_type: Oral History

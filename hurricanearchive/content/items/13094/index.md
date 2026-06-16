@@ -15,12 +15,12 @@ dublin_core:
       text: during look south2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2074b81014fb2a2074bbf5.jpg
+  - fullsize: /files/fullsize/14fb2a2074b81014fb2a2074bbf5.jpg
     id: 11104
     mime: image/jpeg
     original_filename: during look south2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2074b81014fb2a2074bbf5.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2074b81014fb2a2074bbf5.jpg
+    thumb: /files/thumbnails/14fb2a2074b81014fb2a2074bbf5.jpg
+    url: /files/original/14fb2a2074b81014fb2a2074bbf5.jpg
 geo:
 id: 13094
 item_type: Still Image

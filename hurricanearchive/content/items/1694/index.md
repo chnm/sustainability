@@ -23,7 +23,7 @@ files:
     mime: application/octet-stream
     original_filename: Katrina.wmv
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a66d4b8e014fb2a66d4bcc4.wmv
+    url: /files/original/14fb2a66d4b8e014fb2a66d4bcc4.wmv
 geo:
   address: ''
   lat: 0.0

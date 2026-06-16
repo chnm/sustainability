@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: OlierPhotographerBiloxi.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23321cec14fb2a233220ca.doc
+    url: /files/original/14fb2a23321cec14fb2a233220ca.doc
 geo:
 id: 11821
 item_type: Document

@@ -19,7 +19,7 @@ files:
     mime: application/msword
     original_filename: Kat_Sci_Letter_11th_take[1]_d399089728.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29db99630914fb29db9966cc.doc
+    url: /files/original/14fb29db99630914fb29db9966cc.doc
 geo:
   address: University of New Orleans, History Department
   lat: 0.0

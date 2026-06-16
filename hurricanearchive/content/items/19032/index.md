@@ -15,12 +15,12 @@ dublin_core:
       text: S4300213MSriver.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a13904a6a14fb2a13904e55.jpg
+  - fullsize: /files/fullsize/14fb2a13904a6a14fb2a13904e55.jpg
     id: 15985
     mime: image/jpeg
     original_filename: S4300213MSriver.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a13904a6a14fb2a13904e55.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a13904a6a14fb2a13904e55.jpg
+    thumb: /files/thumbnails/14fb2a13904a6a14fb2a13904e55.jpg
+    url: /files/original/14fb2a13904a6a14fb2a13904e55.jpg
 geo:
 id: 19032
 item_type: Still Image

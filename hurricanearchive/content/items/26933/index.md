@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Pat Landrum HK556K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d609d53c14fb29d609d93f.mp3
+    url: /files/original/14fb29d609d53c14fb29d609d93f.mp3
 geo:
 id: 26933
 item_type: Oral History

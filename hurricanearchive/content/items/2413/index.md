@@ -24,12 +24,12 @@ dublin_core:
       text: Oil Skimmer Cleaning up Spill
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66993cfe14fb2a669940e1.jpg
+  - fullsize: /files/fullsize/14fb2a66993cfe14fb2a669940e1.jpg
     id: 1905
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05C3G_e0de2ae39b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66993cfe14fb2a669940e1.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66993cfe14fb2a669940e1.jpg
+    thumb: /files/thumbnails/14fb2a66993cfe14fb2a669940e1.jpg
+    url: /files/original/14fb2a66993cfe14fb2a669940e1.jpg
 geo:
 id: 2413
 item_type: Still Image

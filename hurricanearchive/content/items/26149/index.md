@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29da08001514fb29da0803fa.jpg
+  - fullsize: /files/fullsize/14fb29da08001514fb29da0803fa.jpg
     id: 22757
     mime: image/jpeg
     original_filename: dot benge_5771_2406b76712.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29da08001514fb29da0803fa.jpg
-    url: https://hurricanearchive.org/files/original/14fb29da08001514fb29da0803fa.jpg
+    thumb: /files/thumbnails/14fb29da08001514fb29da0803fa.jpg
+    url: /files/original/14fb29da08001514fb29da0803fa.jpg
 geo:
 id: 26149
 item_type: Still Image

@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc0a4efd14fb29cc0a52e2.jpg
+  - fullsize: /files/fullsize/14fb29cc0a4efd14fb29cc0a52e2.jpg
     id: 23970
     mime: image/jpeg
     original_filename: DSC_0313_64729d3719.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc0a4efd14fb29cc0a52e2.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc0a4efd14fb29cc0a52e2.jpg
+    thumb: /files/thumbnails/14fb29cc0a4efd14fb29cc0a52e2.jpg
+    url: /files/original/14fb29cc0a4efd14fb29cc0a52e2.jpg
 geo:
 id: 32066
 item_type: Still Image

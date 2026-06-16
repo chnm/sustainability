@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Wolfe, Margaret.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8722590dd14fbe8722594ba.doc
+    url: /files/original/14fbe8722590dd14fbe8722594ba.doc
 geo:
 id: 45881
 item_type: Oral History

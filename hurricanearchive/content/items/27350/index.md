@@ -17,12 +17,12 @@ dublin_core:
       text: Waiting to again Rest In Peace...
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d426ef8114fb29d426fc6c.jpg
+  - fullsize: /files/fullsize/14fb29d426ef8114fb29d426fc6c.jpg
     id: 23237
     mime: image/jpg
     original_filename: 209499984_9ae84a5772.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d426ef8114fb29d426fc6c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d426ef8114fb29d426fc6c.jpg
+    thumb: /files/thumbnails/14fb29d426ef8114fb29d426fc6c.jpg
+    url: /files/original/14fb29d426ef8114fb29d426fc6c.jpg
 geo:
   address: ''
   lat: 29.8431

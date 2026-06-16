@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7dc782214fb29d7dc7c1e.jpg
+  - fullsize: /files/fullsize/14fb29d7dc782214fb29d7dc7c1e.jpg
     id: 22968
     mime: image/jpeg
     original_filename: WC 1940s family_aea91828ec.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7dc782214fb29d7dc7c1e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7dc782214fb29d7dc7c1e.jpg
+    thumb: /files/thumbnails/14fb29d7dc782214fb29d7dc7c1e.jpg
+    url: /files/original/14fb29d7dc782214fb29d7dc7c1e.jpg
 geo:
   address: ''
   lat: 29.91685

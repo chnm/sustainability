@@ -23,7 +23,7 @@ files:
     mime: video/mp4
     original_filename: PKMG2006.mp4
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5744437b14fb2a57444b42.mp4
+    url: /files/original/14fb2a5744437b14fb2a57444b42.mp4
 geo:
 id: 4324
 item_type: Moving Image

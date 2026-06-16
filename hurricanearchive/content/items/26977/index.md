@@ -20,12 +20,12 @@ dublin_core:
       text: Abandoned Boat, 18 Months After Katrina
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d5c9c6c314fb29d5c9cbb6.jpg
+  - fullsize: /files/fullsize/14fb29d5c9c6c314fb29d5c9cbb6.jpg
     id: 23127
     mime: image/jpeg
     original_filename: SpainStreet_4d1a5da55e.jpg.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d5c9c6c314fb29d5c9cbb6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d5c9c6c314fb29d5c9cbb6.jpg
+    thumb: /files/thumbnails/14fb29d5c9c6c314fb29d5c9cbb6.jpg
+    url: /files/original/14fb29d5c9c6c314fb29d5c9cbb6.jpg
 geo:
   address: 1800 Spain Street
   lat: 0.0

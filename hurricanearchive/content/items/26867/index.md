@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d6fe1c4814fb29d6fe202d.jpg
+  - fullsize: /files/fullsize/14fb29d6fe1c4814fb29d6fe202d.jpg
     id: 23051
     mime: image/jpeg
     original_filename: studentsshowsmiles_b02006b7af.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d6fe1c4814fb29d6fe202d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d6fe1c4814fb29d6fe202d.jpg
+    thumb: /files/thumbnails/14fb29d6fe1c4814fb29d6fe202d.jpg
+    url: /files/original/14fb29d6fe1c4814fb29d6fe202d.jpg
 geo:
 id: 26867
 item_type: Still Image

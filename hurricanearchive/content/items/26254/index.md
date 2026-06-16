@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d93e448414fb29d93e4868.jpg
+  - fullsize: /files/fullsize/14fb29d93e448414fb29d93e4868.jpg
     id: 22835
     mime: image/jpeg
     original_filename: AB two men drinking_18f365fcbd.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d93e448414fb29d93e4868.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d93e448414fb29d93e4868.jpg
+    thumb: /files/thumbnails/14fb29d93e448414fb29d93e4868.jpg
+    url: /files/original/14fb29d93e448414fb29d93e4868.jpg
 geo:
   address: ''
   lat: 29.84064

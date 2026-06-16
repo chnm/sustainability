@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Christian, Ruth M.(809).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87073fa0d14fbe87073fdf2.doc
+    url: /files/original/14fbe87073fa0d14fbe87073fdf2.doc
 geo:
 id: 45650
 item_type: Oral History

@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 13 2005 Katrina washes over America's sense of idolatry.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35a7aedf14fb2a35a7ba49.txt
+    url: /files/original/14fb2a35a7aedf14fb2a35a7ba49.txt
 geo:
   address: ''
   lat: 0.0

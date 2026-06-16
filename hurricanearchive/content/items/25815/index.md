@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc0b048814fb29dc0b0831.jpg
+  - fullsize: /files/fullsize/14fb29dc0b048814fb29dc0b0831.jpg
     id: 22575
     mime: image/jpeg
     original_filename: DotBenge-caldo_2c0657d612.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc0b048814fb29dc0b0831.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc0b048814fb29dc0b0831.jpg
+    thumb: /files/thumbnails/14fb29dc0b048814fb29dc0b0831.jpg
+    url: /files/original/14fb29dc0b048814fb29dc0b0831.jpg
 geo:
 id: 25815
 item_type: Still Image

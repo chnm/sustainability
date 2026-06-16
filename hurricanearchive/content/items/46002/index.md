@@ -18,12 +18,12 @@ dublin_core:
       text: Katrina Kollage
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/4a8261a60456468f590466578072bf98.jpg
+  - fullsize: /files/fullsize/4a8261a60456468f590466578072bf98.jpg
     id: 46582
     mime: image/jpeg
     original_filename: Katrina Kollage hab.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/4a8261a60456468f590466578072bf98.jpg
-    url: https://hurricanearchive.org/files/original/4a8261a60456468f590466578072bf98.jpg
+    thumb: /files/thumbnails/4a8261a60456468f590466578072bf98.jpg
+    url: /files/original/4a8261a60456468f590466578072bf98.jpg
 geo:
   address: ''
   lat: 29.921613319696

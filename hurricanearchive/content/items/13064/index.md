@@ -15,12 +15,12 @@ dublin_core:
       text: begin front street1.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20a1891514fb2a20a18cfb.jpg
+  - fullsize: /files/fullsize/14fb2a20a1891514fb2a20a18cfb.jpg
     id: 11074
     mime: image/jpeg
     original_filename: begin front street1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20a1891514fb2a20a18cfb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20a1891514fb2a20a18cfb.jpg
+    thumb: /files/thumbnails/14fb2a20a1891514fb2a20a18cfb.jpg
+    url: /files/original/14fb2a20a1891514fb2a20a18cfb.jpg
 geo:
 id: 13064
 item_type: Still Image

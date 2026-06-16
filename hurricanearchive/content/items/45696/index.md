@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Greene, Kate.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870ccb49314fbe870ccb878.doc
+    url: /files/original/14fbe870ccb49314fbe870ccb878.doc
 geo:
 id: 45696
 item_type: Oral History

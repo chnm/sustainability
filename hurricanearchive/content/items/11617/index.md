@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Alexander Boswell.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2474e91414fb2a2474ecf4.html
+    url: /files/original/14fb2a2474e91414fb2a2474ecf4.html
 geo:
 id: 11617
 item_type: Oral History

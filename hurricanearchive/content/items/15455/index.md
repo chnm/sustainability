@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1649992514fb2a16499a71.jpg
+  - fullsize: /files/fullsize/14fb2a1649992514fb2a16499a71.jpg
     id: 12441
     mime: image/jpeg
     original_filename: GoodShepherd_TylerColeman_04_d29bfc5e5f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1649992514fb2a16499a71.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1649992514fb2a16499a71.jpg
+    thumb: /files/thumbnails/14fb2a1649992514fb2a16499a71.jpg
+    url: /files/original/14fb2a1649992514fb2a16499a71.jpg
 geo:
 id: 15455
 item_type: Still Image

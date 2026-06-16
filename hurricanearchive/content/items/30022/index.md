@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ce11b68f14fb29ce11ba74.jpg
+  - fullsize: /files/fullsize/14fb29ce11b68f14fb29ce11ba74.jpg
     id: 23752
     mime: image/jpeg
     original_filename: pics+2006-07+157_48d22531ff.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ce11b68f14fb29ce11ba74.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ce11b68f14fb29ce11ba74.jpg
+    thumb: /files/thumbnails/14fb29ce11b68f14fb29ce11ba74.jpg
+    url: /files/original/14fb29ce11b68f14fb29ce11ba74.jpg
 geo:
 id: 30022
 item_type: Still Image

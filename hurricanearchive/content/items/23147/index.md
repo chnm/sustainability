@@ -15,12 +15,12 @@ dublin_core:
       text: 20051001-A-2421S-005mobilePAO.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f1535da414fb29f153656c.jpg
+  - fullsize: /files/fullsize/14fb29f1535da414fb29f153656c.jpg
     id: 20091
     mime: image/jpeg
     original_filename: 20051001-A-2421S-005mobilePAO.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f1535da414fb29f153656c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f1535da414fb29f153656c.jpg
+    thumb: /files/thumbnails/14fb29f1535da414fb29f153656c.jpg
+    url: /files/original/14fb29f1535da414fb29f153656c.jpg
 geo:
 id: 23147
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Yacht.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23169b0214fb2a2316a445.doc
+    url: /files/original/14fb2a23169b0214fb2a2316a445.doc
 geo:
 id: 11845
 item_type: Document

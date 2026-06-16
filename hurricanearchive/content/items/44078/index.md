@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c1d3f57414fb29c1d3fd42.jpg
+  - fullsize: /files/fullsize/14fb29c1d3f57414fb29c1d3fd42.jpg
     id: 25126
     mime: image/jpeg
     original_filename: 4994_4cdd1adb18.012106_user_lakeview.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c1d3f57414fb29c1d3fd42.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c1d3f57414fb29c1d3fd42.jpg
+    thumb: /files/thumbnails/14fb29c1d3f57414fb29c1d3fd42.jpg
+    url: /files/original/14fb29c1d3f57414fb29c1d3fd42.jpg
 geo:
 id: 44078
 item_type: Still Image

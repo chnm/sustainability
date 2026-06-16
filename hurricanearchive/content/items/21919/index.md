@@ -15,12 +15,12 @@ dublin_core:
       text: Xavier University.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fafe35b814fb29fafe3994.jpg
+  - fullsize: /files/fullsize/14fb29fafe35b814fb29fafe3994.jpg
     id: 18870
     mime: image/jpeg
     original_filename: Xavier University.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fafe35b814fb29fafe3994.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fafe35b814fb29fafe3994.jpg
+    thumb: /files/thumbnails/14fb29fafe35b814fb29fafe3994.jpg
+    url: /files/original/14fb29fafe35b814fb29fafe3994.jpg
 geo:
 id: 21919
 item_type: Still Image

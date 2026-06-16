@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7d5cda814fb29d7d5d1e6.jpg
+  - fullsize: /files/fullsize/14fb29d7d5cda814fb29d7d5d1e6.jpg
     id: 22976
     mime: image/jpeg
     original_filename: SD 1949-50 COuple_34e0b2060e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7d5cda814fb29d7d5d1e6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7d5cda814fb29d7d5d1e6.jpg
+    thumb: /files/thumbnails/14fb29d7d5cda814fb29d7d5d1e6.jpg
+    url: /files/original/14fb29d7d5cda814fb29d7d5d1e6.jpg
 geo:
   address: ''
   lat: 29.91685

@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 11 2006 Debris refuses to go away.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a36057f5614fb2a36058a7b.txt
+    url: /files/original/14fb2a36057f5614fb2a36058a7b.txt
 geo:
   address: ''
   lat: 0.0

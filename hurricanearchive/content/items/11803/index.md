@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Kevin Roth.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a235896e014fb2a23589ac5.doc
+    url: /files/original/14fb2a235896e014fb2a23589ac5.doc
 geo:
 id: 11803
 item_type: Document

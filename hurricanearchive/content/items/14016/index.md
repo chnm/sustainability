@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: 1SG Donald Robinson 26SEP05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c75751014fb2a1c7578f5.wav
+    url: /files/original/14fb2a1c75751014fb2a1c7578f5.wav
 geo:
   address: ''
   lat: 0.0

@@ -15,12 +15,12 @@ dublin_core:
       text: Katrina.bmp
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f0a3ed3914fb29f0a3f116.jpg
+  - fullsize: /files/fullsize/14fb29f0a3ed3914fb29f0a3f116.jpg
     id: 20160
     mime: image/x-ms-bmp
     original_filename: Katrina.bmp
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f0a3ed3914fb29f0a3f116.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f0a3ed3914fb29f0a3f116.jpg
+    thumb: /files/thumbnails/14fb29f0a3ed3914fb29f0a3f116.jpg
+    url: /files/original/14fb29f0a3ed3914fb29f0a3f116.jpg
 geo:
 id: 23216
 item_type: Still Image

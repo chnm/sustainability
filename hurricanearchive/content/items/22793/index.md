@@ -15,12 +15,12 @@ dublin_core:
       text: SGT truck2 at Jackson BrksJacksonbarracks.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f3d6525b14fb29f3d65581.jpg
+  - fullsize: /files/fullsize/14fb29f3d6525b14fb29f3d65581.jpg
     id: 19744
     mime: image/jpeg
     original_filename: SGT truck2 at Jackson BrksJacksonbarracks.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f3d6525b14fb29f3d65581.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f3d6525b14fb29f3d65581.jpg
+    thumb: /files/thumbnails/14fb29f3d6525b14fb29f3d65581.jpg
+    url: /files/original/14fb29f3d6525b14fb29f3d65581.jpg
 geo:
 id: 22793
 item_type: Still Image

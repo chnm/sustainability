@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c1d2d47e14fb29c1d2dc4d.jpg
+  - fullsize: /files/fullsize/14fb29c1d2d47e14fb29c1d2dc4d.jpg
     id: 25127
     mime: image/pjpeg
     original_filename: Hands_b777a34e0c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c1d2d47e14fb29c1d2dc4d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c1d2d47e14fb29c1d2dc4d.jpg
+    thumb: /files/thumbnails/14fb29c1d2d47e14fb29c1d2dc4d.jpg
+    url: /files/original/14fb29c1d2d47e14fb29c1d2dc4d.jpg
 geo:
   address: ''
   lat: 30.35927

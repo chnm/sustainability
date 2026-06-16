@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d71022bd14fb29d71024bf.jpg
+  - fullsize: /files/fullsize/14fb29d71022bd14fb29d71024bf.jpg
     id: 23047
     mime: image/jpeg
     original_filename: fighting owl band_884528a5ce.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d71022bd14fb29d71024bf.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d71022bd14fb29d71024bf.jpg
+    thumb: /files/thumbnails/14fb29d71022bd14fb29d71024bf.jpg
+    url: /files/original/14fb29d71022bd14fb29d71024bf.jpg
 geo:
 id: 26863
 item_type: Still Image

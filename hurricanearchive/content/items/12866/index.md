@@ -15,12 +15,12 @@ dublin_core:
       text: st bernard10-14.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a215f3e4c14fb2a215f4230.jpg
+  - fullsize: /files/fullsize/14fb2a215f3e4c14fb2a215f4230.jpg
     id: 11010
     mime: image/jpeg
     original_filename: st bernard10-14.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a215f3e4c14fb2a215f4230.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a215f3e4c14fb2a215f4230.jpg
+    thumb: /files/thumbnails/14fb2a215f3e4c14fb2a215f4230.jpg
+    url: /files/original/14fb2a215f3e4c14fb2a215f4230.jpg
 geo:
 id: 12866
 item_type: Still Image

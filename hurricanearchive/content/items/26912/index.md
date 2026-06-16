@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Allison Kennedy HK356K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d64b529a14fb29d64b5680.mp3
+    url: /files/original/14fb29d64b529a14fb29d64b5680.mp3
 geo:
 id: 26912
 item_type: Oral History

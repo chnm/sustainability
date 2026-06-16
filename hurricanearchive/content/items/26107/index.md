@@ -27,30 +27,30 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29db0e79d114fb29db0e7db8.jpg
+  - fullsize: /files/fullsize/14fb29db0e79d114fb29db0e7db8.jpg
     id: 22679
     mime: image/jpeg
     original_filename: Jeff Chauppetta_6425_e96a116a42.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29db0e79d114fb29db0e7db8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29db0e79d114fb29db0e7db8.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29db04f4e514fb29db04f8c8.jpg
+    thumb: /files/thumbnails/14fb29db0e79d114fb29db0e7db8.jpg
+    url: /files/original/14fb29db0e79d114fb29db0e7db8.jpg
+  - fullsize: /files/fullsize/14fb29db04f4e514fb29db04f8c8.jpg
     id: 22680
     mime: image/jpeg
     original_filename: Jeff Chauppetta_6426_73a9f5350e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29db04f4e514fb29db04f8c8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29db04f4e514fb29db04f8c8.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29db02dde214fb29db02e1c3.jpg
+    thumb: /files/thumbnails/14fb29db04f4e514fb29db04f8c8.jpg
+    url: /files/original/14fb29db04f4e514fb29db04f8c8.jpg
+  - fullsize: /files/fullsize/14fb29db02dde214fb29db02e1c3.jpg
     id: 22681
     mime: image/jpeg
     original_filename: Jeff Chauppetta_6427_bd18cce1f5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29db02dde214fb29db02e1c3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29db02dde214fb29db02e1c3.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29db00b35114fb29db00b733.jpg
+    thumb: /files/thumbnails/14fb29db02dde214fb29db02e1c3.jpg
+    url: /files/original/14fb29db02dde214fb29db02e1c3.jpg
+  - fullsize: /files/fullsize/14fb29db00b35114fb29db00b733.jpg
     id: 22682
     mime: image/jpeg
     original_filename: Jeff Chauppetta_6428_8f60d87d50.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29db00b35114fb29db00b733.jpg
-    url: https://hurricanearchive.org/files/original/14fb29db00b35114fb29db00b733.jpg
+    thumb: /files/thumbnails/14fb29db00b35114fb29db00b733.jpg
+    url: /files/original/14fb29db00b35114fb29db00b733.jpg
 geo:
 id: 26107
 item_type: Still Image

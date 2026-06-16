@@ -17,7 +17,7 @@ files:
     mime: audio/mpeg
     original_filename: Curry, Kathy   & (no gift for Schroeder) Mary Agnes Schroeder 6-28-06 Katrina.MP3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f2dae7914fbe86f2db269.MP3
+    url: /files/original/14fbe86f2dae7914fbe86f2db269.MP3
 geo:
 id: 45568
 item_type: Oral History

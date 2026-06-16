@@ -17,12 +17,12 @@ dublin_core:
       text: More Katrina Aftermath
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbae549f14fb29cbae5882.jpg
+  - fullsize: /files/fullsize/14fb29cbae549f14fb29cbae5882.jpg
     id: 24042
     mime: image/jpg
     original_filename: 1438012699_e9e4c12a1b.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbae549f14fb29cbae5882.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbae549f14fb29cbae5882.jpg
+    thumb: /files/thumbnails/14fb29cbae549f14fb29cbae5882.jpg
+    url: /files/original/14fb29cbae549f14fb29cbae5882.jpg
 geo:
 id: 33192
 item_type: Still Image

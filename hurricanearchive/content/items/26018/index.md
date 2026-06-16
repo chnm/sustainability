@@ -26,7 +26,7 @@ files:
     mime: video/mp4
     original_filename: NWT-Amozian Baptist Church.mp4
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbb32f1614fb29dbb332ef.mp4
+    url: /files/original/14fb29dbb32f1614fb29dbb332ef.mp4
 geo:
   address: 907 Deslonde Street, Amozion Baptis Church, New Orleans, Louisiana
   lat: 29.96102

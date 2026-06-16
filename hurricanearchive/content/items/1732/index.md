@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f04663014fb2a6f0469b2.jpg
+  - fullsize: /files/fullsize/14fb2a6f04663014fb2a6f0469b2.jpg
     id: 562
     mime: image/jpeg
     original_filename: SilsbeeTexasDestroyedTrees_5b7fdee632.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f04663014fb2a6f0469b2.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f04663014fb2a6f0469b2.jpg
+    thumb: /files/thumbnails/14fb2a6f04663014fb2a6f0469b2.jpg
+    url: /files/original/14fb2a6f04663014fb2a6f0469b2.jpg
 geo:
   address: ''
   lat: 30.148461

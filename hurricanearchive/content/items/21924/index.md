@@ -15,12 +15,12 @@ dublin_core:
       text: neworleans.neighborhoods
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29faf9639014fb29faf96775.jpg
+  - fullsize: /files/fullsize/14fb29faf9639014fb29faf96775.jpg
     id: 18875
     mime: image/gif
     original_filename: neworleans.neighborhoods
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29faf9639014fb29faf96775.jpg
-    url: https://hurricanearchive.org/files/original/14fb29faf9639014fb29faf96775.neighborhoods
+    thumb: /files/thumbnails/14fb29faf9639014fb29faf96775.jpg
+    url: /files/original/14fb29faf9639014fb29faf96775.neighborhoods
 geo:
 id: 21924
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: looking south end2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2039f14e14fb2a2039f627.jpg
+  - fullsize: /files/fullsize/14fb2a2039f14e14fb2a2039f627.jpg
     id: 11139
     mime: image/jpeg
     original_filename: looking south end2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2039f14e14fb2a2039f627.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2039f14e14fb2a2039f627.jpg
+    thumb: /files/thumbnails/14fb2a2039f14e14fb2a2039f627.jpg
+    url: /files/original/14fb2a2039f14e14fb2a2039f627.jpg
 geo:
 id: 13129
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 20 2005 Entergy Texas plans for storm recovery.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a358adcaa14fb2a358ae090.txt
+    url: /files/original/14fb2a358adcaa14fb2a358ae090.txt
 geo:
   address: ''
   lat: 0.0

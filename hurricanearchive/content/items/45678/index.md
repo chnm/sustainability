@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Gautier-Hague, Renee(818).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870b552fe14fbe870b556e5.doc
+    url: /files/original/14fbe870b552fe14fbe870b556e5.doc
 geo:
 id: 45678
 item_type: Oral History

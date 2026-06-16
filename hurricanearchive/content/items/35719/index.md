@@ -23,7 +23,7 @@ files:
     mime: audio/x-ms-wma
     original_filename: 02 Track 2_7d5e2f7b2f.wma
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c5c11ea914fb29c5c1229a.wma
+    url: /files/original/14fb29c5c11ea914fb29c5c1229a.wma
 geo:
   address: 100 Walnut Street
   lat: 0.0

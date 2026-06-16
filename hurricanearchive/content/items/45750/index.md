@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Lindgren, John.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87123a8dc14fbe87123ac4f.doc
+    url: /files/original/14fbe87123a8dc14fbe87123ac4f.doc
 geo:
 id: 45750
 item_type: Oral History

@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 04 2005 Crime not on minds.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35b69c4d14fb2a35b6a034.txt
+    url: /files/original/14fb2a35b69c4d14fb2a35b6a034.txt
 geo:
   address: ''
   lat: 0.0

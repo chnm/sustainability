@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: crystaleffler.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c28a3014fb2a23c291f5.html
+    url: /files/original/14fb2a23c28a3014fb2a23c291f5.html
 geo:
 id: 11725
 item_type: Oral History

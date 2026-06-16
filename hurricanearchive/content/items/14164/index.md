@@ -15,12 +15,12 @@ dublin_core:
       text: MN UH60A Flight Crew 27SEP2005.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b3bbddf14fb2a1b3bcf08.jpg
+  - fullsize: /files/fullsize/14fb2a1b3bbddf14fb2a1b3bcf08.jpg
     id: 11808
     mime: image/jpeg
     original_filename: MN UH60A Flight Crew 27SEP2005.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b3bbddf14fb2a1b3bcf08.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b3bbddf14fb2a1b3bcf08.jpg
+    thumb: /files/thumbnails/14fb2a1b3bbddf14fb2a1b3bcf08.jpg
+    url: /files/original/14fb2a1b3bbddf14fb2a1b3bcf08.jpg
 geo:
   address: ''
   lat: 0.0

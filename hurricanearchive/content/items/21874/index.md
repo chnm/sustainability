@@ -20,7 +20,7 @@ files:
     mime: application/x-zip
     original_filename: Katrina-damage-outages-05Sep.kmz
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29fb4d6a3d14fb29fb4d6e1a.kmz
+    url: /files/original/14fb29fb4d6a3d14fb29fb4d6e1a.kmz
 geo:
 id: 21874
 item_type: Document

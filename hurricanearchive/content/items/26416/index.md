@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d8786c6d14fb29d8787268.jpg
+  - fullsize: /files/fullsize/14fb29d8786c6d14fb29d8787268.jpg
     id: 22894
     mime: image/jpeg
     original_filename: NH_54dbfe5164. Young man PCT.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d8786c6d14fb29d8787268.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d8786c6d14fb29d8787268.jpg
+    thumb: /files/thumbnails/14fb29d8786c6d14fb29d8787268.jpg
+    url: /files/original/14fb29d8786c6d14fb29d8787268.jpg
 geo:
   address: ''
   lat: 29.91685

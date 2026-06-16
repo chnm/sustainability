@@ -15,12 +15,12 @@ dublin_core:
       text: NewOrleans3.jpgsatellite
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb42ef4714fb29fb42f32d.jpg
+  - fullsize: /files/fullsize/14fb29fb42ef4714fb29fb42f32d.jpg
     id: 18837
     mime: image/jpeg
     original_filename: NewOrleans3.jpgsatellite
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb42ef4714fb29fb42f32d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb42ef4714fb29fb42f32d.jpgsatellite
+    thumb: /files/thumbnails/14fb29fb42ef4714fb29fb42f32d.jpg
+    url: /files/original/14fb29fb42ef4714fb29fb42f32d.jpgsatellite
 geo:
 id: 21886
 item_type: Still Image

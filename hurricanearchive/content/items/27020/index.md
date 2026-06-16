@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d5c385bb14fb29d5c38997.jpg
+  - fullsize: /files/fullsize/14fb29d5c385bb14fb29d5c38997.jpg
     id: 23131
     mime: image/jpeg
     original_filename: Wedding_Pictures__26__d7c5829c1e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d5c385bb14fb29d5c38997.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d5c385bb14fb29d5c38997.jpg
+    thumb: /files/thumbnails/14fb29d5c385bb14fb29d5c38997.jpg
+    url: /files/original/14fb29d5c385bb14fb29d5c38997.jpg
 geo:
 id: 27020
 item_type: Still Image

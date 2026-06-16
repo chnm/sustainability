@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=unknown
     original_filename: homepagedescription.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a194e9df614fb2a194ea1d5.txt
+    url: /files/original/14fb2a194e9df614fb2a194ea1d5.txt
 geo:
 id: 14392
 item_type: Document

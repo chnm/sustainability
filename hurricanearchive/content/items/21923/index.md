@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: new orleans water recedes 11sep 4web.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29fafa49fc14fb29fafa4de1.pdf
+    url: /files/original/14fb29fafa49fc14fb29fafa4de1.pdf
 geo:
 id: 21923
 item_type: Document

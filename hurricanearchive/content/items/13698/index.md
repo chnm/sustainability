@@ -41,25 +41,25 @@ files:
     mime: application/octet-stream
     original_filename: Jan_3c6ccc28eb. 6th Stipend Response Letter.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d24da5714fb2a1d24e1ae.doc
+    url: /files/original/14fb2a1d24da5714fb2a1d24e1ae.doc
   - fullsize:
     id: 11470
     mime: application/octet-stream
     original_filename: '[SHN] {urgent} RSVP for Winter Leadership Mtg_84188a21bf.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d22bb5114fb2a1d22beb7.doc
+    url: /files/original/14fb2a1d22bb5114fb2a1d22beb7.doc
   - fullsize:
     id: 11471
     mime: application/msword
     original_filename: '[SHN] Jan_143103d0c1. 6 SHN Leadership Mtg. -- Stipend Procedure.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d21a19c14fb2a1d21a581.doc
+    url: /files/original/14fb2a1d21a19c14fb2a1d21a581.doc
   - fullsize:
     id: 11473
     mime: application/vnd.ms-excel
     original_filename: Jan_8a3625d74d._6th_2006_Stipend.xls
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d20dcc914fb2a1d20f022.xls
+    url: /files/original/14fb2a1d20dcc914fb2a1d20f022.xls
 geo:
 id: 13698
 item_type: Document

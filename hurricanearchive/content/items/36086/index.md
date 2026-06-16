@@ -22,7 +22,7 @@ files:
     mime: message/rfc822
     original_filename: MySA_com Pets and Animals_b712bb1f98.mht
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c5cb4b6e14fb29c5cb4f53.mht
+    url: /files/original/14fb29c5cb4b6e14fb29c5cb4f53.mht
 geo:
   address: 3319 St. Claude Avenue
   lat: 0.0

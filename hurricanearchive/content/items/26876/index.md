@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d6d0ba0b14fb29d6d0c228.jpg
+  - fullsize: /files/fullsize/14fb29d6d0ba0b14fb29d6d0c228.jpg
     id: 23060
     mime: image/jpeg
     original_filename: KJ Prom 1956_46319cc6e2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d6d0ba0b14fb29d6d0c228.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d6d0ba0b14fb29d6d0c228.jpg
+    thumb: /files/thumbnails/14fb29d6d0ba0b14fb29d6d0c228.jpg
+    url: /files/original/14fb29d6d0ba0b14fb29d6d0c228.jpg
 geo:
   address: ''
   lat: 29.87876

@@ -14,12 +14,12 @@ dublin_core:
       text: This is me, SSG Tom Murphy, of the MA Army National Guard\'s 747th MP Co. directing traffice at Lakeshore & Franklin right outside the UNO forum.  It is about 2pm and HOT!  The smell coming off the lake was horrendous.  But it was a beautiful part of New Orleans never the less.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a665a130014fb2a665a13fe.jpg
+  - fullsize: /files/fullsize/14fb2a665a130014fb2a665a13fe.jpg
     id: 1931
     mime: image/jpeg
     original_filename: Murph_e1ad177eac.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a665a130014fb2a665a13fe.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a665a130014fb2a665a13fe.jpg
+    thumb: /files/thumbnails/14fb2a665a130014fb2a665a13fe.jpg
+    url: /files/original/14fb2a665a130014fb2a665a13fe.jpg
 geo:
 id: 2441
 item_type: Still Image

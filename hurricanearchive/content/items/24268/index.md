@@ -15,12 +15,12 @@ dublin_core:
       text: 20050926006.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e925d1c014fb29e925d5a5.jpg
+  - fullsize: /files/fullsize/14fb29e925d1c014fb29e925d5a5.jpg
     id: 21212
     mime: image/jpeg
     original_filename: 20050926006.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e925d1c014fb29e925d5a5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e925d1c014fb29e925d5a5.jpg
+    thumb: /files/thumbnails/14fb29e925d1c014fb29e925d5a5.jpg
+    url: /files/original/14fb29e925d1c014fb29e925d5a5.jpg
 geo:
 id: 24268
 item_type: Still Image

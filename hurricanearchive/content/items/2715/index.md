@@ -21,12 +21,12 @@ dublin_core:
       text: Self-portrait Crying
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a60730b1a14fb2a60730ef7.jpg
+  - fullsize: /files/fullsize/14fb2a60730b1a14fb2a60730ef7.jpg
     id: 2197
     mime: image/jpeg
     original_filename: Self-portrait Crying
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a60730b1a14fb2a60730ef7.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a60730b1a14fb2a60730ef7.jpg
+    thumb: /files/thumbnails/14fb2a60730b1a14fb2a60730ef7.jpg
+    url: /files/original/14fb2a60730b1a14fb2a60730ef7.jpg
 geo:
 id: 2715
 item_type: Still Image

@@ -25,7 +25,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: christmannemail3_c6a1930d73.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a7141a18314fb2a7141a56e.txt
+    url: /files/original/14fb2a7141a18314fb2a7141a56e.txt
 geo:
   address: ''
   lat: 29.98509

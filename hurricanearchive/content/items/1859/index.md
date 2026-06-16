@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6ea0d24114fb2a6ea0d616.jpg
+  - fullsize: /files/fullsize/14fb2a6ea0d24114fb2a6ea0d616.jpg
     id: 675
     mime: image/jpeg
     original_filename: back_of_house_showing_water_line_0ea3cbaa7f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6ea0d24114fb2a6ea0d616.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6ea0d24114fb2a6ea0d616.jpg
+    thumb: /files/thumbnails/14fb2a6ea0d24114fb2a6ea0d616.jpg
+    url: /files/original/14fb2a6ea0d24114fb2a6ea0d616.jpg
 geo:
   address: ''
   lat: 30.009063

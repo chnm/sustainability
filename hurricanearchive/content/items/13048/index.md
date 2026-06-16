@@ -15,12 +15,12 @@ dublin_core:
       text: before street south.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20c26a6e14fb2a20c2be44.jpg
+  - fullsize: /files/fullsize/14fb2a20c26a6e14fb2a20c2be44.jpg
     id: 11058
     mime: image/jpeg
     original_filename: before street south.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20c26a6e14fb2a20c2be44.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20c26a6e14fb2a20c2be44.jpg
+    thumb: /files/thumbnails/14fb2a20c26a6e14fb2a20c2be44.jpg
+    url: /files/original/14fb2a20c26a6e14fb2a20c2be44.jpg
 geo:
 id: 13048
 item_type: Still Image

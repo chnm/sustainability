@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Mathews, Ricky.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8714170e714fbe8714174cc.doc
+    url: /files/original/14fbe8714170e714fbe8714174cc.doc
 geo:
 id: 45767
 item_type: Oral History

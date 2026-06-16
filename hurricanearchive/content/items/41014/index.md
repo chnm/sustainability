@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c4a04a6914fb29c4a04e4e.jpg
+  - fullsize: /files/fullsize/14fb29c4a04a6914fb29c4a04e4e.jpg
     id: 24865
     mime: image/pjpeg
     original_filename: 10 - Warrington 5_63a261db4d.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c4a04a6914fb29c4a04e4e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c4a04a6914fb29c4a04e4e.jpg
+    thumb: /files/thumbnails/14fb29c4a04a6914fb29c4a04e4e.jpg
+    url: /files/original/14fb29c4a04a6914fb29c4a04e4e.jpg
 geo:
   address: ''
   lat: 0.0

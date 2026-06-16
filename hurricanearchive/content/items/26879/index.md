@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d6ca4fa314fb29d6ca5748.jpg
+  - fullsize: /files/fullsize/14fb29d6ca4fa314fb29d6ca5748.jpg
     id: 23063
     mime: image/jpeg
     original_filename: 09cafeteriacustodialstaff_ddc62fd533.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d6ca4fa314fb29d6ca5748.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d6ca4fa314fb29d6ca5748.jpg
+    thumb: /files/thumbnails/14fb29d6ca4fa314fb29d6ca5748.jpg
+    url: /files/original/14fb29d6ca4fa314fb29d6ca5748.jpg
 geo:
 id: 26879
 item_type: Still Image

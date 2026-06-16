@@ -25,7 +25,7 @@ files:
     mime: application/msword
     original_filename: Katrina_emails_bc05ca91ba.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6d66a26b14fb2a6d66a638.doc
+    url: /files/original/14fb2a6d66a26b14fb2a6d66a638.doc
 geo:
   address: ''
   lat: 30.446993

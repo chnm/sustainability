@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: coolboats.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23097b9214fb2a230982dd.doc
+    url: /files/original/14fb2a23097b9214fb2a230982dd.doc
 geo:
 id: 11857
 item_type: Document

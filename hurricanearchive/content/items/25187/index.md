@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 1808superdome.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e12eb1dc14fb29e12eddb0.jpg
+  - fullsize: /files/fullsize/14fb29e12eb1dc14fb29e12eddb0.jpg
     id: 22130
     mime: image/jpeg
     original_filename: DSC 1808superdome.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e12eb1dc14fb29e12eddb0.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e12eb1dc14fb29e12eddb0.jpg
+    thumb: /files/thumbnails/14fb29e12eb1dc14fb29e12eddb0.jpg
+    url: /files/original/14fb29e12eb1dc14fb29e12eddb0.jpg
 geo:
 id: 25187
 item_type: Still Image

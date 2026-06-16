@@ -26,7 +26,7 @@ files:
     mime: application/msword
     original_filename: Perry_901d55fc44.Rebuild around Colleges.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cae0360314fb29cae038b0.doc
+    url: /files/original/14fb29cae0360314fb29cae038b0.doc
 geo:
 id: 33294
 item_type: Document

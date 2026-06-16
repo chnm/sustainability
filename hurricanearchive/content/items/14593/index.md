@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: SHN Newsletter, Vol[1]_458099de72. 2, No. 1.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a188c108914fb2a188c146f.doc
+    url: /files/original/14fb2a188c108914fb2a188c146f.doc
 geo:
 id: 14593
 item_type: Document

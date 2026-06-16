@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: sincekatrina_e27021c56d.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2208341f14fb2a22083803.pdf
+    url: /files/original/14fb2a2208341f14fb2a22083803.pdf
 geo:
 id: 12542
 item_type: Document

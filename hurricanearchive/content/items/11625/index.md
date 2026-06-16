@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Christopher Lamy.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2471861e14fb2a24718a02.htm
+    url: /files/original/14fb2a2471861e14fb2a24718a02.htm
 geo:
 id: 11625
 item_type: Oral History

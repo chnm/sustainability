@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Diaz, Raphael 7-30-07 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f46b45514fbe86f46b823.mp3
+    url: /files/original/14fbe86f46b45514fbe86f46b823.mp3
   - fullsize:
     id: 46072
     mime: audio/mpeg
     original_filename: Diaz, Raphael 7-30-07.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f478efc14fbe86f4792d8.mp3
+    url: /files/original/14fbe86f478efc14fbe86f4792d8.mp3
 geo:
 id: 45577
 item_type: Oral History

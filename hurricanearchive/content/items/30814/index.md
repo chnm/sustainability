@@ -18,12 +18,12 @@ dublin_core:
       text: jacksqtrimmedtiff.tif
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc4e4e4714fb29cc4e5232.jpg
+  - fullsize: /files/fullsize/14fb29cc4e4e4714fb29cc4e5232.jpg
     id: 23914
     mime: image/tiff
     original_filename: jacksqtrimmedtiff.tif
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc4e4e4714fb29cc4e5232.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc4e4e4714fb29cc4e5232.tif
+    thumb: /files/thumbnails/14fb29cc4e4e4714fb29cc4e5232.jpg
+    url: /files/original/14fb29cc4e4e4714fb29cc4e5232.tif
 geo:
 id: 30814
 item_type: Document

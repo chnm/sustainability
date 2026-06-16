@@ -15,12 +15,12 @@ dublin_core:
       text: 17th Avenue small.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb7b295014fb29fb7b2d36.jpg
+  - fullsize: /files/fullsize/14fb29fb7b295014fb29fb7b2d36.jpg
     id: 18773
     mime: image/jpeg
     original_filename: 17th Avenue small.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb7b295014fb29fb7b2d36.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb7b295014fb29fb7b2d36.jpg
+    thumb: /files/thumbnails/14fb29fb7b295014fb29fb7b2d36.jpg
+    url: /files/original/14fb29fb7b295014fb29fb7b2d36.jpg
 geo:
 id: 21822
 item_type: Still Image

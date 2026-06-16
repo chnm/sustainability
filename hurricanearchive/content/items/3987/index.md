@@ -15,12 +15,12 @@ dublin_core:
       text: DSC01077.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a58a4c44914fb2a58a4c826.jpg
+  - fullsize: /files/fullsize/14fb2a58a4c44914fb2a58a4c826.jpg
     id: 3398
     mime: image/jpeg
     original_filename: DSC01077.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a58a4c44914fb2a58a4c826.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a58a4c44914fb2a58a4c826.jpg
+    thumb: /files/thumbnails/14fb2a58a4c44914fb2a58a4c826.jpg
+    url: /files/original/14fb2a58a4c44914fb2a58a4c826.jpg
 geo:
 id: 3987
 item_type: Still Image

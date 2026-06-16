@@ -15,12 +15,12 @@ dublin_core:
       text: New Orleans from I-10 4superdome.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29de2ce73614fb29de2d8328.jpg
+  - fullsize: /files/fullsize/14fb29de2ce73614fb29de2d8328.jpg
     id: 22344
     mime: image/jpeg
     original_filename: New Orleans from I-10 4superdome.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29de2ce73614fb29de2d8328.jpg
-    url: https://hurricanearchive.org/files/original/14fb29de2ce73614fb29de2d8328.jpg
+    thumb: /files/thumbnails/14fb29de2ce73614fb29de2d8328.jpg
+    url: /files/original/14fb29de2ce73614fb29de2d8328.jpg
 geo:
 id: 25405
 item_type: Still Image

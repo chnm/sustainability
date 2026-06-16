@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6ec2472b14fb2a6ec24b10.jpg
+  - fullsize: /files/fullsize/14fb2a6ec2472b14fb2a6ec24b10.jpg
     id: 640
     mime: image/jpeg
     original_filename: NOLA_after_Katrina_Oct_2005_178_f9b35243c1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6ec2472b14fb2a6ec24b10.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6ec2472b14fb2a6ec24b10.jpg
+    thumb: /files/thumbnails/14fb2a6ec2472b14fb2a6ec24b10.jpg
+    url: /files/original/14fb2a6ec2472b14fb2a6ec24b10.jpg
 geo:
   address: ''
   lat: 30.382353217669603

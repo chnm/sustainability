@@ -14,12 +14,12 @@ dublin_core:
       text: The Serenity Prayer
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1b160cd14fb29d1b164b0.jpg
+  - fullsize: /files/fullsize/14fb29d1b160cd14fb29d1b164b0.jpg
     id: 23540
     mime: image/jpg
     original_filename: 114540125_de7b73995f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1b160cd14fb29d1b164b0.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1b160cd14fb29d1b164b0.jpg
+    thumb: /files/thumbnails/14fb29d1b160cd14fb29d1b164b0.jpg
+    url: /files/original/14fb29d1b160cd14fb29d1b164b0.jpg
 geo:
 id: 28696
 item_type: Still Image

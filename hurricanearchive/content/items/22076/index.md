@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 407-J2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f99a49ab14fb29f99a4d75.jpg
+  - fullsize: /files/fullsize/14fb29f99a49ab14fb29f99a4d75.jpg
     id: 19027
     mime: image/jpeg
     original_filename: Picture 407-J2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f99a49ab14fb29f99a4d75.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f99a49ab14fb29f99a4d75.jpg
+    thumb: /files/thumbnails/14fb29f99a49ab14fb29f99a4d75.jpg
+    url: /files/original/14fb29f99a49ab14fb29f99a4d75.jpg
 geo:
 id: 22076
 item_type: Still Image

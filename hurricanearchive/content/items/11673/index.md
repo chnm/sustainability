@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Lee Trebotich.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a241b81b114fb2a241b8a1a.htm
+    url: /files/original/14fb2a241b81b114fb2a241b8a1a.htm
 geo:
 id: 11673
 item_type: Oral History

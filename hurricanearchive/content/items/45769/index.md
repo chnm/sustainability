@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: McCaleb, Jewel.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87142c89114fbe87142cc80.doc
+    url: /files/original/14fbe87142c89114fbe87142cc80.doc
 geo:
 id: 45769
 item_type: Oral History

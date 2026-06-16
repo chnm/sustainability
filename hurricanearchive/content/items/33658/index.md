@@ -22,7 +22,7 @@ files:
     mime: application/msword
     original_filename: Trying to Make It Home_09186f989f.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cab72caa14fb29cab73090.doc
+    url: /files/original/14fb29cab72caa14fb29cab73090.doc
 geo:
 id: 33658
 item_type: Document

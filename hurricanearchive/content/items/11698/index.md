@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Sarah Beth Hawley.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23e779b114fb2a23e77d97.html
+    url: /files/original/14fb2a23e779b114fb2a23e77d97.html
 geo:
 id: 11698
 item_type: Oral History

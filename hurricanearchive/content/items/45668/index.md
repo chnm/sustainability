@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Fortenberry, Cortney.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8708e1e9614fbe8708e227b.doc
+    url: /files/original/14fbe8708e1e9614fbe8708e227b.doc
 geo:
 id: 45668
 item_type: Oral History

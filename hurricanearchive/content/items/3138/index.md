@@ -15,12 +15,12 @@ dublin_core:
       text: ES NOLA Lakeview, Lake front (5).JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5dc2273d14fb2a5dc22ea0.jpg
+  - fullsize: /files/fullsize/14fb2a5dc2273d14fb2a5dc22ea0.jpg
     id: 2610
     mime: image/jpeg
     original_filename: ES NOLA Lakeview, Lake front (5).JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5dc2273d14fb2a5dc22ea0.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5dc2273d14fb2a5dc22ea0.jpg
+    thumb: /files/thumbnails/14fb2a5dc2273d14fb2a5dc22ea0.jpg
+    url: /files/original/14fb2a5dc2273d14fb2a5dc22ea0.jpg
 geo:
 id: 3138
 item_type: Still Image

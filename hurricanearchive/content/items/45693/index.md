@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Gray, Spencer L.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870ca767d14fbe870ca7a76.doc
+    url: /files/original/14fbe870ca767d14fbe870ca7a76.doc
 geo:
 id: 45693
 item_type: Oral History

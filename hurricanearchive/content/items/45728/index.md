@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Jourdan, Catherine.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870f61f2a14fbe870f62319.doc
+    url: /files/original/14fbe870f61f2a14fbe870f62319.doc
 geo:
 id: 45728
 item_type: Oral History

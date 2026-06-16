@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Ashley Celeste Boehnel.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2472e58f14fb2a2472e97c.htm
+    url: /files/original/14fb2a2472e58f14fb2a2472e97c.htm
 geo:
 id: 11622
 item_type: Oral History

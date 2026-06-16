@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_2389412db2.Not just better schools.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cacad4d614fb29cacad8bb.doc
+    url: /files/original/14fb29cacad4d614fb29cacad8bb.doc
 geo:
 id: 33315
 item_type: Document

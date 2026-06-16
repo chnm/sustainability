@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a704d213714fb2a704d251b.jpg
+  - fullsize: /files/fullsize/14fb2a704d213714fb2a704d251b.jpg
     id: 215
     mime: image/jpeg
     original_filename: 014_topless_b38e3a9134.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a704d213714fb2a704d251b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a704d213714fb2a704d251b.jpg
+    thumb: /files/thumbnails/14fb2a704d213714fb2a704d251b.jpg
+    url: /files/original/14fb2a704d213714fb2a704d251b.jpg
 geo:
   address: ''
   lat: 30.651656

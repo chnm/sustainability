@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Duggan, Frankie 3-21-06.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f7f299a14fbe86f7f2d8c.mp3
+    url: /files/original/14fbe86f7f299a14fbe86f7f2d8c.mp3
   - fullsize:
     id: 46105
     mime: application/msword
     original_filename: Duggan, Frankie.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f808b6614fbe86f808f49.doc
+    url: /files/original/14fbe86f808b6614fbe86f808f49.doc
 geo:
 id: 45585
 item_type: Oral History

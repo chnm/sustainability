@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 326-J2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fa3b0be214fb29fa3b0fd1.jpg
+  - fullsize: /files/fullsize/14fb29fa3b0be214fb29fa3b0fd1.jpg
     id: 18946
     mime: image/jpeg
     original_filename: Picture 326-J2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fa3b0be214fb29fa3b0fd1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fa3b0be214fb29fa3b0fd1.jpg
+    thumb: /files/thumbnails/14fb29fa3b0be214fb29fa3b0fd1.jpg
+    url: /files/original/14fb29fa3b0be214fb29fa3b0fd1.jpg
 geo:
 id: 21995
 item_type: Still Image

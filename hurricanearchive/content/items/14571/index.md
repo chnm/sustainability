@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: SHN_Evaluations_d77cdb9a19.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18d14b4c14fb2a18d14f2f.doc
+    url: /files/original/14fb2a18d14b4c14fb2a18d14f2f.doc
 geo:
 id: 14571
 item_type: Document

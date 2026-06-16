@@ -21,12 +21,12 @@ dublin_core:
       text: North Shore Beach
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9a99e1e14fb29c9a9a1fc.jpg
+  - fullsize: /files/fullsize/14fb29c9a99e1e14fb29c9a9a1fc.jpg
     id: 24334
     mime: image/jpg
     original_filename: 2310735844_bdb4039deb.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9a99e1e14fb29c9a9a1fc.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9a99e1e14fb29c9a9a1fc.jpg
+    thumb: /files/thumbnails/14fb29c9a99e1e14fb29c9a9a1fc.jpg
+    url: /files/original/14fb29c9a99e1e14fb29c9a9a1fc.jpg
 geo:
   address: 237 Debbie Dr.
   lat: 30.22539

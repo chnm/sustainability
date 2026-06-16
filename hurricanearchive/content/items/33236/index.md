@@ -17,12 +17,12 @@ dublin_core:
       text: Tulane Ave Demo
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb56400714fb29cb5643ca.jpg
+  - fullsize: /files/fullsize/14fb29cb56400714fb29cb5643ca.jpg
     id: 24086
     mime: image/jpg
     original_filename: 1256891941_aaac232db6.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb56400714fb29cb5643ca.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb56400714fb29cb5643ca.jpg
+    thumb: /files/thumbnails/14fb29cb56400714fb29cb5643ca.jpg
+    url: /files/original/14fb29cb56400714fb29cb5643ca.jpg
 geo:
 id: 33236
 item_type: Still Image

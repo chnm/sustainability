@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Cowan Lorraine Bridge.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a236d7ee414fb2a236d8365.doc
+    url: /files/original/14fb2a236d7ee414fb2a236d8365.doc
 geo:
 id: 11784
 item_type: Document

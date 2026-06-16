@@ -25,7 +25,7 @@ files:
     mime: audio/mpeg
     original_filename: Jack_Strange__Rising122905_91abdf9713.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6f6b8add14fb2a6f6b8eb8.mp3
+    url: /files/original/14fb2a6f6b8add14fb2a6f6b8eb8.mp3
 geo:
   address: ''
   lat: 30.024664708042

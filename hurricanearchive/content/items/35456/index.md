@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c5f117d814fb29c5f11be1.jpg
+  - fullsize: /files/fullsize/14fb29c5f117d814fb29c5f11be1.jpg
     id: 24702
     mime: image/pjpeg
     original_filename: 1968 Storyland Entrance City Park_530942ec47.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c5f117d814fb29c5f11be1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c5f117d814fb29c5f11be1.jpg
+    thumb: /files/thumbnails/14fb29c5f117d814fb29c5f11be1.jpg
+    url: /files/original/14fb29c5f117d814fb29c5f11be1.jpg
 geo:
   address: 6048 Canal Blvd. New Orleans, LA
   lat: 29.99523

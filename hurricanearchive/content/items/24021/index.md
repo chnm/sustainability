@@ -15,12 +15,12 @@ dublin_core:
       text: 14ocleadS&R.ss hneworleans
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ebe8648314fb29ebe86867.jpg
+  - fullsize: /files/fullsize/14fb29ebe8648314fb29ebe86867.jpg
     id: 20965
     mime: image/jpeg
     original_filename: 14ocleadS&R.ss hneworleans
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ebe8648314fb29ebe86867.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ebe8648314fb29ebe86867.ss_hneworleans
+    thumb: /files/thumbnails/14fb29ebe8648314fb29ebe86867.jpg
+    url: /files/original/14fb29ebe8648314fb29ebe86867.ss_hneworleans
 geo:
 id: 24021
 item_type: Still Image

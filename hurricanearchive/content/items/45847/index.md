@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Singleton.Alva.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871f0b94114fbe871f0bd26.doc
+    url: /files/original/14fbe871f0b94114fbe871f0bd26.doc
 geo:
 id: 45847
 item_type: Oral History

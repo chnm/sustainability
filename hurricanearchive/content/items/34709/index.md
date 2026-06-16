@@ -14,12 +14,12 @@ dublin_core:
       text: Ocean Springs7
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c95c78c614fb29c95c7ab8.jpg
+  - fullsize: /files/fullsize/14fb29c95c78c614fb29c95c7ab8.jpg
     id: 24389
     mime: image/jpg
     original_filename: 2434807784_54d549bf16.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c95c78c614fb29c95c7ab8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c95c78c614fb29c95c7ab8.jpg
+    thumb: /files/thumbnails/14fb29c95c78c614fb29c95c7ab8.jpg
+    url: /files/original/14fb29c95c78c614fb29c95c7ab8.jpg
 geo:
 id: 34709
 item_type: Still Image

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: draft leadership minutes 6_14_06_dd57e09111.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ccef11814fb2a1ccef4ee.doc
+    url: /files/original/14fb2a1ccef11814fb2a1ccef4ee.doc
 geo:
 id: 13731
 item_type: Document

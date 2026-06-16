@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a17a8de1014fb2a17a8e1f6.jpg
+  - fullsize: /files/fullsize/14fb2a17a8de1014fb2a17a8e1f6.jpg
     id: 12214
     mime: image/jpeg
     original_filename: GoodShepherd_TameraConey_01_0da5ba5b1f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a17a8de1014fb2a17a8e1f6.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a17a8de1014fb2a17a8e1f6.jpg
+    thumb: /files/thumbnails/14fb2a17a8de1014fb2a17a8e1f6.jpg
+    url: /files/original/14fb2a17a8de1014fb2a17a8e1f6.jpg
 geo:
 id: 14796
 item_type: Still Image

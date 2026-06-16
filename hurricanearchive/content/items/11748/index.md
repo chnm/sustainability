@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: roderickperkins.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23b1bbfe14fb2a23b1bfe3.html
+    url: /files/original/14fb2a23b1bbfe14fb2a23b1bfe3.html
 geo:
 id: 11748
 item_type: Oral History

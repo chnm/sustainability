@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: '[SHN] Research Update-Minutes 7_17_2006_ae6391b1be.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cb1181214fb2a1cb11c7a.doc
+    url: /files/original/14fb2a1cb1181214fb2a1cb11c7a.doc
 geo:
 id: 13799
 item_type: Document

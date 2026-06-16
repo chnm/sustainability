@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: 2LT Carmen Toscano 26 Sep 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1be25ca714fb2a1be26106.wav
+    url: /files/original/14fb2a1be25ca714fb2a1be26106.wav
 geo:
   address: ''
   lat: 0.0

@@ -15,12 +15,12 @@ dublin_core:
       text: Stranded at Jackson BarracksJacksonbarracks.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f3ad31f114fb29f3ad35db.jpg
+  - fullsize: /files/fullsize/14fb29f3ad31f114fb29f3ad35db.jpg
     id: 19748
     mime: image/jpeg
     original_filename: Stranded at Jackson BarracksJacksonbarracks.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f3ad31f114fb29f3ad35db.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f3ad31f114fb29f3ad35db.jpg
+    thumb: /files/thumbnails/14fb29f3ad31f114fb29f3ad35db.jpg
+    url: /files/original/14fb29f3ad31f114fb29f3ad35db.jpg
 geo:
 id: 22797
 item_type: Still Image

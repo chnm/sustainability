@@ -15,12 +15,12 @@ dublin_core:
       text: Baggage being loaded 3delaware.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f143e76514fb29f143eb4b.jpg
+  - fullsize: /files/fullsize/14fb29f143e76514fb29f143eb4b.jpg
     id: 20113
     mime: image/jpeg
     original_filename: Baggage being loaded 3delaware.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f143e76514fb29f143eb4b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f143e76514fb29f143eb4b.jpg
+    thumb: /files/thumbnails/14fb29f143e76514fb29f143eb4b.jpg
+    url: /files/original/14fb29f143e76514fb29f143eb4b.jpg
 geo:
 id: 23169
 item_type: Still Image

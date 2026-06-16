@@ -19,7 +19,7 @@ files:
     mime: application/vnd.openxmlformats-officedocument.presentationml.slideshow
     original_filename: Laura Plantation prese_f6cb34c93c.ppsx
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c5076b9014fb29c5076f81.ppsx
+    url: /files/original/14fb29c5076b9014fb29c5076f81.ppsx
 geo:
   address: ''
   lat: 0.0

@@ -11,12 +11,12 @@ dublin_core:
       text: This is a picture of what my family and I came home to on August 31, 2005. We traveled from Arkansas, where we had evacuated to, in the hopes of still having a house to live in. When we pulled into the driveway, our hopes began to diminish. The path leading to our house was completely blocked by fallen pine trees. We decided the only way to confirm our suspicions of coming home to a house smashed to pieces was to crawl under and climb over the tree limbs. We were successful and overjoyed to find our house completely intact!
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/f5f708e13d20a6f70fb256b72ee645f3.jpg
+  - fullsize: /files/fullsize/f5f708e13d20a6f70fb256b72ee645f3.jpg
     id: 46555
     mime: image/jpeg
     original_filename: 9-4-2013 5;49;17 PM.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/f5f708e13d20a6f70fb256b72ee645f3.jpg
-    url: https://hurricanearchive.org/files/original/f5f708e13d20a6f70fb256b72ee645f3.jpg
+    thumb: /files/thumbnails/f5f708e13d20a6f70fb256b72ee645f3.jpg
+    url: /files/original/f5f708e13d20a6f70fb256b72ee645f3.jpg
 geo:
   address: ''
   lat: 30.608326489239

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Jon W. Cleveland.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a243a9b3614fb2a243aa12a.htm
+    url: /files/original/14fb2a243a9b3614fb2a243aa12a.htm
 geo:
 id: 11661
 item_type: Oral History

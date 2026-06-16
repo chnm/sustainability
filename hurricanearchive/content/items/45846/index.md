@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Simmons, Robert.tp.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871ee655614fbe871ee693b.doc
+    url: /files/original/14fbe871ee655614fbe871ee693b.doc
 geo:
 id: 45846
 item_type: Oral History

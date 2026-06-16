@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: jenniferstage.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23bdf05a14fb2a23bdf446.html
+    url: /files/original/14fb2a23bdf05a14fb2a23bdf446.html
 geo:
 id: 11731
 item_type: Oral History

@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Daxecker, Ursula  4-26-06 Katrina.MP3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f32aa0014fbe86f32addb.MP3
+    url: /files/original/14fbe86f32aa0014fbe86f32addb.MP3
   - fullsize:
     id: 46057
     mime: application/msword
     original_filename: Daxecker, Ursula.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f335d9c14fbe86f336185.doc
+    url: /files/original/14fbe86f335d9c14fbe86f336185.doc
 geo:
 id: 45571
 item_type: Oral History

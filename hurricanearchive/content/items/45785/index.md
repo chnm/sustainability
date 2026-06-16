@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Mims, Thomas.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871538f1d14fbe871539301.doc
+    url: /files/original/14fbe871538f1d14fbe871539301.doc
 geo:
 id: 45785
 item_type: Oral History

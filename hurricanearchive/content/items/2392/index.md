@@ -24,12 +24,12 @@ dublin_core:
       text: Displaced Vessels in MS
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66bf3d9814fb2a66c00332.jpg
+  - fullsize: /files/fullsize/14fb2a66bf3d9814fb2a66c00332.jpg
     id: 1884
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_EVAL_05CIM_5a543b8f61.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66bf3d9814fb2a66c00332.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66bf3d9814fb2a66c00332.jpg
+    thumb: /files/thumbnails/14fb2a66bf3d9814fb2a66c00332.jpg
+    url: /files/original/14fb2a66bf3d9814fb2a66c00332.jpg
 geo:
 id: 2392
 item_type: Still Image

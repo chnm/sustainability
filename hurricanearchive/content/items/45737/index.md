@@ -19,13 +19,13 @@ files:
     mime: application/msword
     original_filename: Ladner, Gregory.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870fd8d3d14fbe870fd9121.doc
+    url: /files/original/14fbe870fd8d3d14fbe870fd9121.doc
   - fullsize:
     id: 46362
     mime: application/msword
     original_filename: Ladner, Gregory.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870fee4eb14fbe870fee8d0.doc
+    url: /files/original/14fbe870fee4eb14fbe870fee8d0.doc
 geo:
 id: 45737
 item_type: Oral History

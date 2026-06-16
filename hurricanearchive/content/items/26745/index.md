@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: ChrisJ_c2f7adadd2.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d809734114fb29d8097726.pdf
+    url: /files/original/14fb29d809734114fb29d8097726.pdf
 geo:
 id: 26745
 item_type: Document

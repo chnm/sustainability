@@ -25,7 +25,7 @@ files:
     mime: application/pdf
     original_filename: Katrina_2005_9a0a421b49.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6da90f6114fb2a6da91346.pdf
+    url: /files/original/14fb2a6da90f6114fb2a6da91346.pdf
 geo:
   address: ''
   lat: 0.0

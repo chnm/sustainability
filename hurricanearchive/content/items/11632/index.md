@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Darrell Hampton.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a246de63c14fb2a246dea22.html
+    url: /files/original/14fb2a246de63c14fb2a246dea22.html
 geo:
 id: 11632
 item_type: Oral History

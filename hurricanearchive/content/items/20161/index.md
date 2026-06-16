@@ -15,12 +15,12 @@ dublin_core:
       text: 1LT Campbell 27SEP2005.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0afe3ec614fb2a0afe42ca.jpg
+  - fullsize: /files/fullsize/14fb2a0afe3ec614fb2a0afe42ca.jpg
     id: 17114
     mime: image/jpeg
     original_filename: 1LT Campbell 27SEP2005.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0afe3ec614fb2a0afe42ca.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0afe3ec614fb2a0afe42ca.jpg
+    thumb: /files/thumbnails/14fb2a0afe3ec614fb2a0afe42ca.jpg
+    url: /files/original/14fb2a0afe3ec614fb2a0afe42ca.jpg
 geo:
 id: 20161
 item_type: Still Image

@@ -21,12 +21,12 @@ dublin_core:
       text: Where Vera Resturant was on Lakeview/Rats Nest Road/Slidell
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a717d943b14fb2a717d9810.jpg
+  - fullsize: /files/fullsize/14fb2a717d943b14fb2a717d9810.jpg
     id: 2
     mime: image/jpeg
     original_filename: veras_8fc2182316.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a717d943b14fb2a717d9810.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a717d943b14fb2a717d9810.jpg
+    thumb: /files/thumbnails/14fb2a717d943b14fb2a717d9810.jpg
+    url: /files/original/14fb2a717d943b14fb2a717d9810.jpg
 geo:
   address: ''
   lat: 30.44699

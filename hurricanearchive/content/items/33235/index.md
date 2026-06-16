@@ -17,12 +17,12 @@ dublin_core:
       text: Central City Corner Store
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb574d5514fb29cb57513a.jpg
+  - fullsize: /files/fullsize/14fb29cb574d5514fb29cb57513a.jpg
     id: 24085
     mime: image/jpg
     original_filename: 1256980987_97af36392c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb574d5514fb29cb57513a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb574d5514fb29cb57513a.jpg
+    thumb: /files/thumbnails/14fb29cb574d5514fb29cb57513a.jpg
+    url: /files/original/14fb29cb574d5514fb29cb57513a.jpg
 geo:
 id: 33235
 item_type: Still Image

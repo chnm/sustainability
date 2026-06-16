@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: SHN Membership Conference Call Agenda July 5_58de7a4179.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cc6b05114fb2a1cc6b43e.doc
+    url: /files/original/14fb2a1cc6b05114fb2a1cc6b43e.doc
 geo:
 id: 13787
 item_type: Document

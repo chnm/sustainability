@@ -15,12 +15,12 @@ dublin_core:
       text: twin span BH view 1.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dd9bd5bc14fb29dd9bd9a0.jpg
+  - fullsize: /files/fullsize/14fb29dd9bd5bc14fb29dd9bd9a0.jpg
     id: 22386
     mime: image/jpeg
     original_filename: twin span BH view 1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dd9bd5bc14fb29dd9bd9a0.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dd9bd5bc14fb29dd9bd9a0.jpg
+    thumb: /files/thumbnails/14fb29dd9bd5bc14fb29dd9bd9a0.jpg
+    url: /files/original/14fb29dd9bd5bc14fb29dd9bd9a0.jpg
 geo:
 id: 25447
 item_type: Still Image

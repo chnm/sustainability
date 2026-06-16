@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a179ae68a14fb2a179aea7a.jpg
+  - fullsize: /files/fullsize/14fb2a179ae68a14fb2a179aea7a.jpg
     id: 12225
     mime: image/jpeg
     original_filename: GoodShepherd_TrinityMiller_03_dce3070432.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a179ae68a14fb2a179aea7a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a179ae68a14fb2a179aea7a.jpg
+    thumb: /files/thumbnails/14fb2a179ae68a14fb2a179aea7a.jpg
+    url: /files/original/14fb2a179ae68a14fb2a179aea7a.jpg
 geo:
 id: 14807
 item_type: Still Image

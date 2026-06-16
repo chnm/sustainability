@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: Tribute_Magazine_94a1e2ca39.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29caa6616114fb29caa6668a.pdf
+    url: /files/original/14fb29caa6616114fb29caa6668a.pdf
 geo:
 id: 33789
 item_type: Document

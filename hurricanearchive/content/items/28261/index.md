@@ -21,12 +21,12 @@ dublin_core:
       text: BelindaDances
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d2713fef14fb29d27143d5.jpg
+  - fullsize: /files/fullsize/14fb29d2713fef14fb29d27143d5.jpg
     id: 23414
     mime: image/jpg
     original_filename: 385028111_1256521eab.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d2713fef14fb29d27143d5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d2713fef14fb29d27143d5.jpg
+    thumb: /files/thumbnails/14fb29d2713fef14fb29d27143d5.jpg
+    url: /files/original/14fb29d2713fef14fb29d27143d5.jpg
 geo:
 id: 28261
 item_type: Still Image

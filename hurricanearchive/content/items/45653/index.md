@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Copy of Steckler, Judge Sandy.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8707d255a14fbe8707d29ad.doc
+    url: /files/original/14fbe8707d255a14fbe8707d29ad.doc
 geo:
 id: 45653
 item_type: Oral History

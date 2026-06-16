@@ -15,12 +15,12 @@ dublin_core:
       text: LTG Blum on dozer.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b60658814fb2a1b60693d.jpg
+  - fullsize: /files/fullsize/14fb2a1b60658814fb2a1b60693d.jpg
     id: 11797
     mime: image/jpeg
     original_filename: LTG Blum on dozer.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b60658814fb2a1b60693d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b60658814fb2a1b60693d.jpg
+    thumb: /files/thumbnails/14fb2a1b60658814fb2a1b60693d.jpg
+    url: /files/original/14fb2a1b60658814fb2a1b60693d.jpg
 geo:
   address: ''
   lat: 0.0

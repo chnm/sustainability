@@ -17,12 +17,12 @@ dublin_core:
       text: Tilted House
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d568086714fb29d56812d1.jpg
+  - fullsize: /files/fullsize/14fb29d568086714fb29d56812d1.jpg
     id: 23189
     mime: image/jpg
     original_filename: 336698667_fad703d0ce.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d568086714fb29d56812d1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d568086714fb29d56812d1.jpg
+    thumb: /files/thumbnails/14fb29d568086714fb29d56812d1.jpg
+    url: /files/original/14fb29d568086714fb29d56812d1.jpg
 geo:
 id: 27302
 item_type: Still Image

@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c240c7a014fb29c240cd1c.jpg
+  - fullsize: /files/fullsize/14fb29c240c7a014fb29c240cd1c.jpg
     id: 25089
     mime: image/jpeg
     original_filename: Bunny_684d86e581.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c240c7a014fb29c240cd1c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c240c7a014fb29c240cd1c.jpg
+    thumb: /files/thumbnails/14fb29c240c7a014fb29c240cd1c.jpg
+    url: /files/original/14fb29c240c7a014fb29c240cd1c.jpg
 geo:
 id: 43104
 item_type: Still Image

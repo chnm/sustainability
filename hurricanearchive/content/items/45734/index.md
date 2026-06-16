@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Koch, Kathleen.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870fa60e114fbe870fa64bd.doc
+    url: /files/original/14fbe870fa60e114fbe870fa64bd.doc
 geo:
 id: 45734
 item_type: Oral History

@@ -21,12 +21,12 @@ dublin_core:
       text: EGRET_REFLECTION
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9b6174d14fb29c9b61b1b.jpg
+  - fullsize: /files/fullsize/14fb29c9b6174d14fb29c9b61b1b.jpg
     id: 24323
     mime: image/jpg
     original_filename: 2310193603_94c026206d.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9b6174d14fb29c9b61b1b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9b6174d14fb29c9b61b1b.jpg
+    thumb: /files/thumbnails/14fb29c9b6174d14fb29c9b61b1b.jpg
+    url: /files/original/14fb29c9b6174d14fb29c9b61b1b.jpg
 geo:
 id: 34489
 item_type: Still Image

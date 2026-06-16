@@ -15,12 +15,12 @@ dublin_core:
       text: Puppy.bmp
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fc26c48914fb29fc26c5bd.jpg
+  - fullsize: /files/fullsize/14fb29fc26c48914fb29fc26c5bd.jpg
     id: 18679
     mime: image/x-ms-bmp
     original_filename: Puppy.bmp
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fc26c48914fb29fc26c5bd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fc26c48914fb29fc26c5bd.jpg
+    thumb: /files/thumbnails/14fb29fc26c48914fb29fc26c5bd.jpg
+    url: /files/original/14fb29fc26c48914fb29fc26c5bd.jpg
 geo:
 id: 21728
 item_type: Still Image

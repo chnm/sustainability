@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Moody, Mary Etta(810).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87156abca14fbe87156afbb.doc
+    url: /files/original/14fbe87156abca14fbe87156afbb.doc
 geo:
 id: 45788
 item_type: Oral History

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Thomas Matthew Sorrels.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23cc965314fb2a23cc9bc3.html
+    url: /files/original/14fb2a23cc965314fb2a23cc9bc3.html
 geo:
 id: 11711
 item_type: Oral History

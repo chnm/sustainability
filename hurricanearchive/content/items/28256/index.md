@@ -21,12 +21,12 @@ dublin_core:
       text: Trish&VernaOnSphere
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d28cfff214fb29d28d0575.jpg
+  - fullsize: /files/fullsize/14fb29d28cfff214fb29d28d0575.jpg
     id: 23409
     mime: image/jpg
     original_filename: 385042705_a498f8869f.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d28cfff214fb29d28d0575.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d28cfff214fb29d28d0575.jpg
+    thumb: /files/thumbnails/14fb29d28cfff214fb29d28d0575.jpg
+    url: /files/original/14fb29d28cfff214fb29d28d0575.jpg
 geo:
 id: 28256
 item_type: Still Image

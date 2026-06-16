@@ -24,12 +24,12 @@ dublin_core:
       text: Controlled Burn after Chevron Oil Spill in Empire, LA
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6677dfae14fb2a6677e395.jpg
+  - fullsize: /files/fullsize/14fb2a6677dfae14fb2a6677e395.jpg
     id: 1917
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05CGD_3b950e9553.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6677dfae14fb2a6677e395.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6677dfae14fb2a6677e395.jpg
+    thumb: /files/thumbnails/14fb2a6677dfae14fb2a6677e395.jpg
+    url: /files/original/14fb2a6677dfae14fb2a6677e395.jpg
 geo:
 id: 2425
 item_type: Still Image

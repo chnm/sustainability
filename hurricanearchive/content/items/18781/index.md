@@ -15,12 +15,12 @@ dublin_core:
       text: 527chinookPicture2rescuehelicopter.png
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1542367614fb2a15423a5b.jpg
+  - fullsize: /files/fullsize/14fb2a1542367614fb2a15423a5b.jpg
     id: 15734
     mime: image/png
     original_filename: 527chinookPicture2rescuehelicopter.png
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1542367614fb2a15423a5b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1542367614fb2a15423a5b.jpg
+    thumb: /files/thumbnails/14fb2a1542367614fb2a15423a5b.jpg
+    url: /files/original/14fb2a1542367614fb2a15423a5b.jpg
 geo:
 id: 18781
 item_type: Still Image

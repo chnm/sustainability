@@ -11,12 +11,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2248c91814fb2a2248cd0c.jpg
+  - fullsize: /files/fullsize/14fb2a2248c91814fb2a2248cd0c.jpg
     id: 10863
     mime: image/pjpeg
     original_filename: 2005112843253A_5_c9bac5b68a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2248c91814fb2a2248cd0c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2248c91814fb2a2248cd0c.jpg
+    thumb: /files/thumbnails/14fb2a2248c91814fb2a2248cd0c.jpg
+    url: /files/original/14fb2a2248c91814fb2a2248cd0c.jpg
 geo:
   address: 507 Main Street
   lat: 30.31478

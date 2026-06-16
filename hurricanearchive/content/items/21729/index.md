@@ -15,12 +15,12 @@ dublin_core:
       text: TOK20509140235-big.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fc1956dd14fb29fc195ac1.jpg
+  - fullsize: /files/fullsize/14fb29fc1956dd14fb29fc195ac1.jpg
     id: 18680
     mime: image/jpeg
     original_filename: TOK20509140235-big.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fc1956dd14fb29fc195ac1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fc1956dd14fb29fc195ac1.jpg
+    thumb: /files/thumbnails/14fb29fc1956dd14fb29fc195ac1.jpg
+    url: /files/original/14fb29fc1956dd14fb29fc195ac1.jpg
 geo:
 id: 21729
 item_type: Still Image

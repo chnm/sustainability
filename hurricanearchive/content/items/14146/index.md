@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: LTC Pilkington 21 Sep 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1b7063bf14fb2a1b7067b0.wav
+    url: /files/original/14fb2a1b7063bf14fb2a1b7067b0.wav
 geo:
   address: ''
   lat: 0.0

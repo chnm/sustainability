@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0063cropengineers.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a10555ec414fb2a10556061.jpg
+  - fullsize: /files/fullsize/14fb2a10555ec414fb2a10556061.jpg
     id: 16373
     mime: image/jpeg
     original_filename: DSC 0063cropengineers.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a10555ec414fb2a10556061.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a10555ec414fb2a10556061.jpg
+    thumb: /files/thumbnails/14fb2a10555ec414fb2a10556061.jpg
+    url: /files/original/14fb2a10555ec414fb2a10556061.jpg
 geo:
 id: 19420
 item_type: Still Image

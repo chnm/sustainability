@@ -15,12 +15,12 @@ dublin_core:
       text: ES Jefferson Parish (3).JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5dda1cd614fb2a5dda20ba.jpg
+  - fullsize: /files/fullsize/14fb2a5dda1cd614fb2a5dda20ba.jpg
     id: 2589
     mime: image/jpeg
     original_filename: ES Jefferson Parish (3).JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5dda1cd614fb2a5dda20ba.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5dda1cd614fb2a5dda20ba.jpg
+    thumb: /files/thumbnails/14fb2a5dda1cd614fb2a5dda20ba.jpg
+    url: /files/original/14fb2a5dda1cd614fb2a5dda20ba.jpg
 geo:
 id: 3117
 item_type: Still Image

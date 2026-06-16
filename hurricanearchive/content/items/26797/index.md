@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Charles Bell HK451256K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7c91e4014fb29d7c92225.mp3
+    url: /files/original/14fb29d7c91e4014fb29d7c92225.mp3
 geo:
 id: 26797
 item_type: Oral History

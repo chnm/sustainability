@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Knowles, Marie.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870f9b11514fbe870f9b4fb.doc
+    url: /files/original/14fbe870f9b11514fbe870f9b4fb.doc
 geo:
 id: 45733
 item_type: Oral History

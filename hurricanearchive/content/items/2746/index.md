@@ -21,12 +21,12 @@ dublin_core:
       text: '&ldquo;house Before Katrina\"'
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6057b42314fb2a6057b809.jpg
+  - fullsize: /files/fullsize/14fb2a6057b42314fb2a6057b809.jpg
     id: 2228
     mime: image/jpeg
     original_filename: '&ldquo;house Before Katrina"'
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6057b42314fb2a6057b809.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6057b42314fb2a6057b809.jpg
+    thumb: /files/thumbnails/14fb2a6057b42314fb2a6057b809.jpg
+    url: /files/original/14fb2a6057b42314fb2a6057b809.jpg
 geo:
 id: 2746
 item_type: Still Image

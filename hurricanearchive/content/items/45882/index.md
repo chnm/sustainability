@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Yancey Jr., James.(800).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8722682fd14fbe8722686fa.doc
+    url: /files/original/14fbe8722682fd14fbe8722686fa.doc
 geo:
 id: 45882
 item_type: Oral History

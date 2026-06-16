@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc7d911314fb29dc7d94f2.jpg
+  - fullsize: /files/fullsize/14fb29dc7d911314fb29dc7d94f2.jpg
     id: 22534
     mime: image/jpeg
     original_filename: KPatcheco-18party_fdc9598981.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc7d911314fb29dc7d94f2.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc7d911314fb29dc7d94f2.jpg
+    thumb: /files/thumbnails/14fb29dc7d911314fb29dc7d94f2.jpg
+    url: /files/original/14fb29dc7d911314fb29dc7d94f2.jpg
 geo:
 id: 25741
 item_type: Still Image

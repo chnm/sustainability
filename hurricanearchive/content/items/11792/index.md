@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Gulfport1.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2363d38714fb2a2363d76d.doc
+    url: /files/original/14fb2a2363d38714fb2a2363d76d.doc
 geo:
 id: 11792
 item_type: Document

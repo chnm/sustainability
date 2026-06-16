@@ -18,12 +18,12 @@ dublin_core:
       text: Mary
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a220ca88214fb2a220cac68.jpg
+  - fullsize: /files/fullsize/14fb2a220ca88214fb2a220cac68.jpg
     id: 10921
     mime: image/jpeg
     original_filename: mary_770090eda9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a220ca88214fb2a220cac68.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a220ca88214fb2a220cac68.jpg
+    thumb: /files/thumbnails/14fb2a220ca88214fb2a220cac68.jpg
+    url: /files/original/14fb2a220ca88214fb2a220cac68.jpg
 geo:
 id: 12539
 item_type: Still Image

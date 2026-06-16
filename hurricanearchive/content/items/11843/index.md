@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Wiggins Gretch.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2318486014fb2a23184cb8.doc
+    url: /files/original/14fb2a2318486014fb2a23184cb8.doc
 geo:
 id: 11843
 item_type: Document

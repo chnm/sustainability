@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 05 2005 Bonds grow between volunteers, Katrina evacuees.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35b3153714fb2a35b31631.txt
+    url: /files/original/14fb2a35b3153714fb2a35b31631.txt
 geo:
   address: ''
   lat: 0.0

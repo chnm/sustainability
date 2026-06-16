@@ -15,12 +15,12 @@ dublin_core:
       text: SS St. Bernard (1).jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5c34e75614fb2a5c34ef23.jpg
+  - fullsize: /files/fullsize/14fb2a5c34e75614fb2a5c34ef23.jpg
     id: 2831
     mime: image/jpeg
     original_filename: SS St. Bernard (1).jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5c34e75614fb2a5c34ef23.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5c34e75614fb2a5c34ef23.jpg
+    thumb: /files/thumbnails/14fb2a5c34e75614fb2a5c34ef23.jpg
+    url: /files/original/14fb2a5c34e75614fb2a5c34ef23.jpg
 geo:
 id: 3360
 item_type: Still Image

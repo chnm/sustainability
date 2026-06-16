@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Anthony Mark Bang.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a247429b214fb2a24742d98.html
+    url: /files/original/14fb2a247429b214fb2a24742d98.html
 geo:
 id: 11619
 item_type: Oral History

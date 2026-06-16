@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Janae Johnson.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a244871d114fb2a244875b7.htm
+    url: /files/original/14fb2a244871d114fb2a244875b7.htm
 geo:
 id: 11652
 item_type: Oral History

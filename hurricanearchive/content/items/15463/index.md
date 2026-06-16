@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a163c5a5514fb2a163c5e3b.jpg
+  - fullsize: /files/fullsize/14fb2a163c5a5514fb2a163c5e3b.jpg
     id: 12449
     mime: image/jpeg
     original_filename: GoodShepherd_LoganPage_08_27a93f3447.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a163c5a5514fb2a163c5e3b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a163c5a5514fb2a163c5e3b.jpg
+    thumb: /files/thumbnails/14fb2a163c5a5514fb2a163c5e3b.jpg
+    url: /files/original/14fb2a163c5a5514fb2a163c5e3b.jpg
 geo:
 id: 15463
 item_type: Still Image

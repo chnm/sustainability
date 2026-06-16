@@ -22,7 +22,7 @@ files:
     mime: application/msword
     original_filename: steering committee conference call 2_15_06_4bf6d2f757.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ced2a0314fb2a1ced2de3.doc
+    url: /files/original/14fb2a1ced2a0314fb2a1ced2de3.doc
 geo:
 id: 13719
 item_type: Document

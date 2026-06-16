@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a17152f3914fb2a1715331d.jpg
+  - fullsize: /files/fullsize/14fb2a17152f3914fb2a1715331d.jpg
     id: 12276
     mime: image/jpeg
     original_filename: Minor-5653_d665504886.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a17152f3914fb2a1715331d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a17152f3914fb2a1715331d.jpg
+    thumb: /files/thumbnails/14fb2a17152f3914fb2a1715331d.jpg
+    url: /files/original/14fb2a17152f3914fb2a1715331d.jpg
 geo:
 id: 15114
 item_type: Still Image

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Cox, Sean Arthur.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8708149fb14fbe870814de0.doc
+    url: /files/original/14fbe8708149fb14fbe870814de0.doc
 geo:
 id: 45657
 item_type: Oral History

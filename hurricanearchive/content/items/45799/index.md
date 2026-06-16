@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Nguyen, Kim.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8716094c714fbe8716098d1.doc
+    url: /files/original/14fbe8716094c714fbe8716098d1.doc
 geo:
 id: 45799
 item_type: Oral History

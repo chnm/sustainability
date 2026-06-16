@@ -15,12 +15,12 @@ dublin_core:
       text: Steph and Frank over New Orleansmedia.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f25ba18e14fb29f25ba574.jpg
+  - fullsize: /files/fullsize/14fb29f25ba18e14fb29f25ba574.jpg
     id: 19919
     mime: image/jpeg
     original_filename: Steph and Frank over New Orleansmedia.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f25ba18e14fb29f25ba574.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f25ba18e14fb29f25ba574.jpg
+    thumb: /files/thumbnails/14fb29f25ba18e14fb29f25ba574.jpg
+    url: /files/original/14fb29f25ba18e14fb29f25ba574.jpg
 geo:
 id: 22975
 item_type: Still Image

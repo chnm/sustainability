@@ -17,12 +17,12 @@ dublin_core:
       text: 2 Years Today.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb83206214fb29cb832444.jpg
+  - fullsize: /files/fullsize/14fb29cb83206214fb29cb832444.jpg
     id: 24066
     mime: image/jpg
     original_filename: 1267588078_17ee15550f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb83206214fb29cb832444.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb83206214fb29cb832444.jpg
+    thumb: /files/thumbnails/14fb29cb83206214fb29cb832444.jpg
+    url: /files/original/14fb29cb83206214fb29cb832444.jpg
 geo:
 id: 33216
 item_type: Still Image

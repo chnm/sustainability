@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Anderson, Zondra  8-10-06 Katrina.MP3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e5dd7eb14fbe86e5ddbd8.MP3
+    url: /files/original/14fbe86e5dd7eb14fbe86e5ddbd8.MP3
   - fullsize:
     id: 45912
     mime: application/msword
     original_filename: Anderson, Zondra.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e5e83c214fbe86e5e87b1.doc
+    url: /files/original/14fbe86e5e83c214fbe86e5e87b1.doc
 geo:
 id: 45521
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: dawn street look south2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2087eb5114fb2a2087ef27.jpg
+  - fullsize: /files/fullsize/14fb2a2087eb5114fb2a2087ef27.jpg
     id: 11094
     mime: image/jpeg
     original_filename: dawn street look south2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2087eb5114fb2a2087ef27.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2087eb5114fb2a2087ef27.jpg
+    thumb: /files/thumbnails/14fb2a2087eb5114fb2a2087ef27.jpg
+    url: /files/original/14fb2a2087eb5114fb2a2087ef27.jpg
 geo:
 id: 13084
 item_type: Still Image

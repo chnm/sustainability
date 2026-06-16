@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 12 2005 Katrina is reminder of another killer storm.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35aacb4914fb2a35aacf23.txt
+    url: /files/original/14fb2a35aacb4914fb2a35aacf23.txt
 geo:
   address: ''
   lat: 0.0

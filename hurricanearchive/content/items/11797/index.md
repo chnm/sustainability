@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Holly Hills Biloxi Gretch.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a235e015114fb2a235e0537.doc
+    url: /files/original/14fb2a235e015114fb2a235e0537.doc
 geo:
 id: 11797
 item_type: Document

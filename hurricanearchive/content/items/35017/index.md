@@ -22,7 +22,7 @@ files:
     mime: application/octet-stream
     original_filename: nola oral history_888a6fd94b.wps
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c776439e14fb29c7764784.wps
+    url: /files/original/14fb29c776439e14fb29c7764784.wps
 geo:
   address: 2357 milan
   lat: 29.93121

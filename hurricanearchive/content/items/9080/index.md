@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 04 2005 Katrina evacuees seek out some comfort foods.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35b62b0e14fb2a35b633f5.txt
+    url: /files/original/14fb2a35b62b0e14fb2a35b633f5.txt
 geo:
   address: ''
   lat: 0.0

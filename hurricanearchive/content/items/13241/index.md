@@ -15,12 +15,12 @@ dublin_core:
       text: boat mooring.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1ecac64214fb2a1ecb992a.jpg
+  - fullsize: /files/fullsize/14fb2a1ecac64214fb2a1ecb992a.jpg
     id: 11251
     mime: image/jpeg
     original_filename: boat mooring.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1ecac64214fb2a1ecb992a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1ecac64214fb2a1ecb992a.jpg
+    thumb: /files/thumbnails/14fb2a1ecac64214fb2a1ecb992a.jpg
+    url: /files/original/14fb2a1ecac64214fb2a1ecb992a.jpg
 geo:
 id: 13241
 item_type: Still Image

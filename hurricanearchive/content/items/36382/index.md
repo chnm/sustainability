@@ -22,7 +22,7 @@ files:
     mime: text/html
     original_filename: Katrin_Update_DPS_b0f90485a4.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c59be2de14fb29c59be6c3.htm
+    url: /files/original/14fb29c59be2de14fb29c59be6c3.htm
 geo:
 id: 36382
 item_type: Document

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Stevens, Susan.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871f85de014fbe871f861be.doc
+    url: /files/original/14fbe871f85de014fbe871f861be.doc
 geo:
 id: 45855
 item_type: Oral History

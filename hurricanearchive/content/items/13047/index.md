@@ -15,12 +15,12 @@ dublin_core:
       text: before sandbags.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20c4cece14fb2a20c4dccb.jpg
+  - fullsize: /files/fullsize/14fb2a20c4cece14fb2a20c4dccb.jpg
     id: 11057
     mime: image/jpeg
     original_filename: before sandbags.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20c4cece14fb2a20c4dccb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20c4cece14fb2a20c4dccb.jpg
+    thumb: /files/thumbnails/14fb2a20c4cece14fb2a20c4dccb.jpg
+    url: /files/original/14fb2a20c4cece14fb2a20c4dccb.jpg
 geo:
 id: 13047
 item_type: Still Image

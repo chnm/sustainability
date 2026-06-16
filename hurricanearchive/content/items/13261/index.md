@@ -15,12 +15,12 @@ dublin_core:
       text: rita begins2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e7de50d14fb2a1e7def76.jpg
+  - fullsize: /files/fullsize/14fb2a1e7de50d14fb2a1e7def76.jpg
     id: 11271
     mime: image/jpeg
     original_filename: rita begins2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e7de50d14fb2a1e7def76.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e7de50d14fb2a1e7def76.jpg
+    thumb: /files/thumbnails/14fb2a1e7de50d14fb2a1e7def76.jpg
+    url: /files/original/14fb2a1e7de50d14fb2a1e7def76.jpg
 geo:
 id: 13261
 item_type: Still Image

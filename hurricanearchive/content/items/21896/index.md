@@ -15,12 +15,12 @@ dublin_core:
       text: School at Port Sulphur LA.jpgsatellite
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb29364614fb29fb293a54.jpg
+  - fullsize: /files/fullsize/14fb29fb29364614fb29fb293a54.jpg
     id: 18847
     mime: image/jpeg
     original_filename: School at Port Sulphur LA.jpgsatellite
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb29364614fb29fb293a54.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb29364614fb29fb293a54.jpgsatellite
+    thumb: /files/thumbnails/14fb29fb29364614fb29fb293a54.jpg
+    url: /files/original/14fb29fb29364614fb29fb293a54.jpgsatellite
 geo:
 id: 21896
 item_type: Still Image

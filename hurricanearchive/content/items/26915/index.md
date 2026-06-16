@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Catherine Griffon H56K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d645a20914fb29d645a5ee.mp3
+    url: /files/original/14fb29d645a20914fb29d645a5ee.mp3
 geo:
 id: 26915
 item_type: Oral History

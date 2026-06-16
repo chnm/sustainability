@@ -20,7 +20,7 @@ files:
     mime: ''
     original_filename: NORTHCOM Geospatial Index on NIPR.xls
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29fb46ac1f14fb29fb46affa.xls
+    url: /files/original/14fb29fb46ac1f14fb29fb46affa.xls
 geo:
 id: 21881
 item_type: Document

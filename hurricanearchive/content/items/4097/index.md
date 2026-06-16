@@ -15,12 +15,12 @@ dublin_core:
       text: IMG_1023.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a57ccf27b14fb2a57ccf661.jpg
+  - fullsize: /files/fullsize/14fb2a57ccf27b14fb2a57ccf661.jpg
     id: 3508
     mime: image/jpeg
     original_filename: IMG_1023.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a57ccf27b14fb2a57ccf661.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a57ccf27b14fb2a57ccf661.jpg
+    thumb: /files/thumbnails/14fb2a57ccf27b14fb2a57ccf661.jpg
+    url: /files/original/14fb2a57ccf27b14fb2a57ccf661.jpg
 geo:
 id: 4097
 item_type: Still Image

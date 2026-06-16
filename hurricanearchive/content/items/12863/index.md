@@ -15,12 +15,12 @@ dublin_core:
       text: Paris at Crescent. Church with dangling cross.jpeg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2163bcce14fb2a2163c0bb.jpg
+  - fullsize: /files/fullsize/14fb2a2163bcce14fb2a2163c0bb.jpg
     id: 11007
     mime: image/jpeg
     original_filename: Paris at Crescent. Church with dangling cross.jpeg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2163bcce14fb2a2163c0bb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2163bcce14fb2a2163c0bb.jpg
+    thumb: /files/thumbnails/14fb2a2163bcce14fb2a2163c0bb.jpg
+    url: /files/original/14fb2a2163bcce14fb2a2163c0bb.jpg
 geo:
 id: 12863
 item_type: Still Image

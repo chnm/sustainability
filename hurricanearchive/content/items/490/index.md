@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6fb7e7e014fb2a6fb7ebc6.jpg
+  - fullsize: /files/fullsize/14fb2a6fb7e7e014fb2a6fb7ebc6.jpg
     id: 349
     mime: image/jpeg
     original_filename: Rita_2190_91584660a2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6fb7e7e014fb2a6fb7ebc6.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6fb7e7e014fb2a6fb7ebc6.jpg
+    thumb: /files/thumbnails/14fb2a6fb7e7e014fb2a6fb7ebc6.jpg
+    url: /files/original/14fb2a6fb7e7e014fb2a6fb7ebc6.jpg
 geo:
   address: ''
   lat: 29.391747742992802

@@ -22,7 +22,7 @@ files:
     mime: application/vnd.ms-powerpoint
     original_filename: The History of Our Lady of Prompt Succor_e94cdfc028.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c7734e0814fb29c77351f8.ppt
+    url: /files/original/14fb29c7734e0814fb29c77351f8.ppt
 geo:
   address: 610 1/2 Keller Ave. Westwego, La
   lat: 29.90226

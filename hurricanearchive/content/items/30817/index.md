@@ -18,12 +18,12 @@ dublin_core:
       text: rolland, his month on left and aunt effie.tif
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc4b220114fb29cc4b25e5.jpg
+  - fullsize: /files/fullsize/14fb29cc4b220114fb29cc4b25e5.jpg
     id: 23917
     mime: image/tiff
     original_filename: rolland, his month on left and aunt effie.tif
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc4b220114fb29cc4b25e5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc4b220114fb29cc4b25e5.tif
+    thumb: /files/thumbnails/14fb29cc4b220114fb29cc4b25e5.jpg
+    url: /files/original/14fb29cc4b220114fb29cc4b25e5.tif
 geo:
 id: 30817
 item_type: Document

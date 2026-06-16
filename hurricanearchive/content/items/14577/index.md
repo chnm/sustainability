@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: Laila_Adrienne_thoughts_db0d878c9f.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18bba8a214fb2a18bbac7e.doc
+    url: /files/original/14fb2a18bba8a214fb2a18bbac7e.doc
 geo:
 id: 14577
 item_type: Document

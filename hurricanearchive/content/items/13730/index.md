@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: 6-6-06 Communications Committee Minutes_7f90bfca4f.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cd0b86914fb2a1cd0bc43.doc
+    url: /files/original/14fb2a1cd0b86914fb2a1cd0bc43.doc
 geo:
 id: 13730
 item_type: Document

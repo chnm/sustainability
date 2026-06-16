@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Work Projects for Students_cf1a0cc740.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a188edb3e14fb2a188ef6a3.doc
+    url: /files/original/14fb2a188edb3e14fb2a188ef6a3.doc
 geo:
 id: 14592
 item_type: Document

@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d820fd5b14fb29d821013f.jpg
+  - fullsize: /files/fullsize/14fb29d820fd5b14fb29d821013f.jpg
     id: 22931
     mime: image/jpeg
     original_filename: JB 4 New Orleans Home 1951_e804e9f324.2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d820fd5b14fb29d821013f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d820fd5b14fb29d821013f.jpg
+    thumb: /files/thumbnails/14fb29d820fd5b14fb29d821013f.jpg
+    url: /files/original/14fb29d820fd5b14fb29d821013f.jpg
 geo:
   address: ''
   lat: 29.87876

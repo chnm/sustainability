@@ -15,12 +15,12 @@ dublin_core:
       text: Floating ants.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b96a4c114fb2a1b96a721.jpg
+  - fullsize: /files/fullsize/14fb2a1b96a4c114fb2a1b96a721.jpg
     id: 11779
     mime: image/jpeg
     original_filename: Floating ants.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b96a4c114fb2a1b96a721.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b96a4c114fb2a1b96a721.jpg
+    thumb: /files/thumbnails/14fb2a1b96a4c114fb2a1b96a721.jpg
+    url: /files/original/14fb2a1b96a4c114fb2a1b96a721.jpg
 geo:
   address: ''
   lat: 0.0

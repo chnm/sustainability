@@ -15,12 +15,12 @@ dublin_core:
       text: TAG house jackson barracks.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1aa4735214fb2a1aa47737.jpg
+  - fullsize: /files/fullsize/14fb2a1aa4735214fb2a1aa47737.jpg
     id: 11842
     mime: image/jpeg
     original_filename: TAG house jackson barracks.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1aa4735214fb2a1aa47737.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1aa4735214fb2a1aa47737.jpg
+    thumb: /files/thumbnails/14fb2a1aa4735214fb2a1aa47737.jpg
+    url: /files/original/14fb2a1aa4735214fb2a1aa47737.jpg
 geo:
   address: ''
   lat: 0.0

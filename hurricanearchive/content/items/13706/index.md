@@ -23,7 +23,7 @@ files:
     mime: application/octet-stream
     original_filename: "[SHN]FINAL Media Advisory,02,28,'06_92a69a9d54.doc"
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d0c87d914fb2a1d0c8cdf.doc
+    url: /files/original/14fb2a1d0c87d914fb2a1d0c8cdf.doc
 geo:
 id: 13706
 item_type: Document

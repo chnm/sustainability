@@ -24,12 +24,12 @@ dublin_core:
       text: USCG Rescue in Mobile
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66b90c1014fb2a66b90feb.jpg
+  - fullsize: /files/fullsize/14fb2a66b90c1014fb2a66b90feb.jpg
     id: 1889
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05BW7_c39bc43e00.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66b90c1014fb2a66b90feb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66b90c1014fb2a66b90feb.jpg
+    thumb: /files/thumbnails/14fb2a66b90c1014fb2a66b90feb.jpg
+    url: /files/original/14fb2a66b90c1014fb2a66b90feb.jpg
 geo:
 id: 2397
 item_type: Still Image

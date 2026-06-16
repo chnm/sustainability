@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Gaines, Raven.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870905efb14fbe8709062ed.doc
+    url: /files/original/14fbe870905efb14fbe8709062ed.doc
 geo:
 id: 45670
 item_type: Oral History

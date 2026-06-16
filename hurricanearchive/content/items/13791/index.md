@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: SHN Membership Call Agenda July 12_6480d29343.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cc0262b14fb2a1cc02cdc.doc
+    url: /files/original/14fb2a1cc0262b14fb2a1cc02cdc.doc
 geo:
 id: 13791
 item_type: Document

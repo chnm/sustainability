@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: Emily_9d242a5e7b.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7e4364e14fb29d7e43b2b.pdf
+    url: /files/original/14fb29d7e4364e14fb29d7e43b2b.pdf
 geo:
 id: 26764
 item_type: Document

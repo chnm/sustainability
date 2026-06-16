@@ -22,7 +22,7 @@ files:
     mime: application/octet-stream
     original_filename: Anniversary 11.wmv
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2248158014fb2a22481959.wmv
+    url: /files/original/14fb2a2248158014fb2a22481959.wmv
 geo:
 id: 12144
 item_type: Document

@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: redue Katrina Pic Gretch Bay st Louis.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a231589ab14fb2a23158d91.doc
+    url: /files/original/14fb2a231589ab14fb2a23158d91.doc
 geo:
 id: 11846
 item_type: Document

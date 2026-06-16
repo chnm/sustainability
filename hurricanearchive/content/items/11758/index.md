@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: susanbull.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23a5141114fb2a23a5181a.html
+    url: /files/original/14fb2a23a5141114fb2a23a5181a.html
 geo:
 id: 11758
 item_type: Oral History

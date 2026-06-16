@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Reghi, James.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8719f013414fbe8719f051a.doc
+    url: /files/original/14fbe8719f013414fbe8719f051a.doc
 geo:
 id: 45819
 item_type: Oral History

@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: cynthiascott_bac51da25c.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce29b95314fb29ce29bbb3.pdf
+    url: /files/original/14fb29ce29b95314fb29ce29bbb3.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

@@ -24,12 +24,12 @@ dublin_core:
       text: 'AD:  New Orleans After the Deluge, Chapter 3 \"Or Should I Go \"'
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbeafcb814fb29cbeb009d.jpg
+  - fullsize: /files/fullsize/14fb29cbeafcb814fb29cbeb009d.jpg
     id: 24008
     mime: image/jpeg
     original_filename: adc03_fe61cfeb23.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbeafcb814fb29cbeb009d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbeafcb814fb29cbeb009d.jpg
+    thumb: /files/thumbnails/14fb29cbeafcb814fb29cbeb009d.jpg
+    url: /files/original/14fb29cbeafcb814fb29cbeb009d.jpg
 geo:
 id: 32522
 item_type: Hyperlink

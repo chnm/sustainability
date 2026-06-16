@@ -25,7 +25,7 @@ files:
     mime: ''
     original_filename: TheGreatUSA_c84c35c09a.PPS
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6e77e5a214fb2a6e77e97f.PPS
+    url: /files/original/14fb2a6e77e5a214fb2a6e77e97f.PPS
 geo:
   address: ''
   lat: 29.9477952256724

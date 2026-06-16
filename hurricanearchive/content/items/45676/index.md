@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Garcia Sr., David.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870b3ad2f14fbe870b3b114.doc
+    url: /files/original/14fbe870b3ad2f14fbe870b3b114.doc
 geo:
 id: 45676
 item_type: Oral History

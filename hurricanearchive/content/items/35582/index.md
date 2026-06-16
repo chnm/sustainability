@@ -19,7 +19,7 @@ files:
     mime: application/msword
     original_filename: My Dear Fema trailer_436fd71fe5.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c5e997fb14fb29c5e99be1.doc
+    url: /files/original/14fb29c5e997fb14fb29c5e99be1.doc
 geo:
   address: 4901 Venus street
   lat: 0.0

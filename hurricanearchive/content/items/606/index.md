@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f66dbe014fb2a6f66dfd3.jpg
+  - fullsize: /files/fullsize/14fb2a6f66dbe014fb2a6f66dfd3.jpg
     id: 448
     mime: image/jpeg
     original_filename: TargetBmtRita2_7b639d49a7.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f66dbe014fb2a6f66dfd3.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f66dbe014fb2a6f66dfd3.jpg
+    thumb: /files/thumbnails/14fb2a6f66dbe014fb2a6f66dfd3.jpg
+    url: /files/original/14fb2a6f66dbe014fb2a6f66dfd3.jpg
 geo:
   address: ''
   lat: 29.9549345496561

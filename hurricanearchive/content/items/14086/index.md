@@ -15,12 +15,12 @@ dublin_core:
       text: BG Jones.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1bd9d48814fb2a1bd9dccd.jpg
+  - fullsize: /files/fullsize/14fb2a1bd9d48814fb2a1bd9dccd.jpg
     id: 11730
     mime: image/jpeg
     original_filename: BG Jones.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1bd9d48814fb2a1bd9dccd.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1bd9d48814fb2a1bd9dccd.jpg
+    thumb: /files/thumbnails/14fb2a1bd9d48814fb2a1bd9dccd.jpg
+    url: /files/original/14fb2a1bd9d48814fb2a1bd9dccd.jpg
 geo:
   address: ''
   lat: 0.0

@@ -15,12 +15,12 @@ dublin_core:
       text: New Orleans from I-10neworleansS&R.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ee6aefaf14fb29ee6af394.jpg
+  - fullsize: /files/fullsize/14fb29ee6aefaf14fb29ee6af394.jpg
     id: 20567
     mime: image/jpeg
     original_filename: New Orleans from I-10neworleansS&R.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ee6aefaf14fb29ee6af394.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ee6aefaf14fb29ee6af394.jpg
+    thumb: /files/thumbnails/14fb29ee6aefaf14fb29ee6af394.jpg
+    url: /files/original/14fb29ee6aefaf14fb29ee6af394.jpg
 geo:
 id: 23623
 item_type: Still Image

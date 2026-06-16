@@ -15,12 +15,12 @@ dublin_core:
       text: More Jackson Barracks 10Jacksonbarracks.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f4e6496e14fb29f4e64bac.jpg
+  - fullsize: /files/fullsize/14fb29f4e6496e14fb29f4e64bac.jpg
     id: 19592
     mime: image/jpeg
     original_filename: More Jackson Barracks 10Jacksonbarracks.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f4e6496e14fb29f4e64bac.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f4e6496e14fb29f4e64bac.jpg
+    thumb: /files/thumbnails/14fb29f4e6496e14fb29f4e64bac.jpg
+    url: /files/original/14fb29f4e6496e14fb29f4e64bac.jpg
 geo:
 id: 22641
 item_type: Still Image

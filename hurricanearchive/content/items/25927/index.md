@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: Sims2,TheDayAfterTheHurricane_805f566aa0.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbc7f3fd14fb29dbc7f7e2.pdf
+    url: /files/original/14fb29dbc7f3fd14fb29dbc7f7e2.pdf
 geo:
 id: 25927
 item_type: Document

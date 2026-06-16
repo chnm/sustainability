@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Lyon, Linda.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87138acc314fbe87138b0a8.doc
+    url: /files/original/14fbe87138acc314fbe87138b0a8.doc
 geo:
 id: 45759
 item_type: Oral History

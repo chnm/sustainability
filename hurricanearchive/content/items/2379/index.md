@@ -24,12 +24,12 @@ dublin_core:
       text: Disaster Response Team Heads to Cameron, LA
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66ce42f214fb2a66ce46b9.jpg
+  - fullsize: /files/fullsize/14fb2a66ce42f214fb2a66ce46b9.jpg
     id: 1871
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05C8S_c5eef51233.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66ce42f214fb2a66ce46b9.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66ce42f214fb2a66ce46b9.jpg
+    thumb: /files/thumbnails/14fb2a66ce42f214fb2a66ce46b9.jpg
+    url: /files/original/14fb2a66ce42f214fb2a66ce46b9.jpg
 geo:
 id: 2379
 item_type: Still Image

@@ -21,12 +21,12 @@ dublin_core:
       text: RobtBelVerna
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d29b723314fb29d29b7618.jpg
+  - fullsize: /files/fullsize/14fb29d29b723314fb29d29b7618.jpg
     id: 23401
     mime: image/jpg
     original_filename: 384884877_52bc0abe08.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d29b723314fb29d29b7618.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d29b723314fb29d29b7618.jpg
+    thumb: /files/thumbnails/14fb29d29b723314fb29d29b7618.jpg
+    url: /files/original/14fb29d29b723314fb29d29b7618.jpg
 geo:
   address: ''
   lat: 30.01333

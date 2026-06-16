@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: kimberlyscott.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23b9ce0114fb2a23b9d1ef.html
+    url: /files/original/14fb2a23b9ce0114fb2a23b9d1ef.html
 geo:
 id: 11738
 item_type: Oral History

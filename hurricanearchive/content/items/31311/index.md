@@ -21,12 +21,12 @@ dublin_core:
       text: Salvaged Baby Photo of Rene Broussard
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc33677f14fb29cc337116.jpg
+  - fullsize: /files/fullsize/14fb29cc33677f14fb29cc337116.jpg
     id: 23936
     mime: image/jpeg
     original_filename: shoebaby_a2bafe6db7.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc33677f14fb29cc337116.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc33677f14fb29cc337116.jpg
+    thumb: /files/thumbnails/14fb29cc33677f14fb29cc337116.jpg
+    url: /files/original/14fb29cc33677f14fb29cc337116.jpg
 geo:
   address: 1342 Mandolin St
   lat: 0.0

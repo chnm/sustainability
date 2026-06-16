@@ -14,12 +14,12 @@ dublin_core:
       text: DPS aftermath 8
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c575ca9e14fb29c5795aa3.jpg
+  - fullsize: /files/fullsize/14fb29c575ca9e14fb29c5795aa3.jpg
     id: 24743
     mime: image/jpeg
     original_filename: fuel-building_7e3b093766.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c575ca9e14fb29c5795aa3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c575ca9e14fb29c5795aa3.jpg
+    thumb: /files/thumbnails/14fb29c575ca9e14fb29c5795aa3.jpg
+    url: /files/original/14fb29c575ca9e14fb29c5795aa3.jpg
 geo:
 id: 36395
 item_type: Still Image

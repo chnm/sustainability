@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6d58b2f714fb2a6d58bb21.jpg
+  - fullsize: /files/fullsize/14fb2a6d58b2f714fb2a6d58bb21.jpg
     id: 904
     mime: image/jpeg
     original_filename: roadsidestand_39fe8c0a0b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6d58b2f714fb2a6d58bb21.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6d58b2f714fb2a6d58bb21.jpg
+    thumb: /files/thumbnails/14fb2a6d58b2f714fb2a6d58bb21.jpg
+    url: /files/original/14fb2a6d58b2f714fb2a6d58bb21.jpg
 geo:
   address: ''
   lat: 29.729799972602194

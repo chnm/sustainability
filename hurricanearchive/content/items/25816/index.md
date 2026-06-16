@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc09e78814fb29dc09eb1f.jpg
+  - fullsize: /files/fullsize/14fb29dc09e78814fb29dc09eb1f.jpg
     id: 22576
     mime: image/jpeg
     original_filename: DotBenge-intro_94e3979a66.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc09e78814fb29dc09eb1f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc09e78814fb29dc09eb1f.jpg
+    thumb: /files/thumbnails/14fb29dc09e78814fb29dc09eb1f.jpg
+    url: /files/original/14fb29dc09e78814fb29dc09eb1f.jpg
 geo:
 id: 25816
 item_type: Still Image

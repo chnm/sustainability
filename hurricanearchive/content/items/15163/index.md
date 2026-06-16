@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a16cb85f614fb2a16cb9480.jpg
+  - fullsize: /files/fullsize/14fb2a16cb85f614fb2a16cb9480.jpg
     id: 12321
     mime: image/jpeg
     original_filename: IPerez-6045_4aec54c7fc.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a16cb85f614fb2a16cb9480.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a16cb85f614fb2a16cb9480.jpg
+    thumb: /files/thumbnails/14fb2a16cb85f614fb2a16cb9480.jpg
+    url: /files/original/14fb2a16cb85f614fb2a16cb9480.jpg
 geo:
 id: 15163
 item_type: Still Image

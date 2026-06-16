@@ -19,18 +19,18 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a16a65c3c14fb2a16a66023.jpg
+  - fullsize: /files/fullsize/14fb2a16a65c3c14fb2a16a66023.jpg
     id: 12370
     mime: image/jpeg
     original_filename: CHenderson-1_f7292e41ec.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a16a65c3c14fb2a16a66023.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a16a65c3c14fb2a16a66023.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a16a55a8514fb2a16a55e69.jpg
+    thumb: /files/thumbnails/14fb2a16a65c3c14fb2a16a66023.jpg
+    url: /files/original/14fb2a16a65c3c14fb2a16a66023.jpg
+  - fullsize: /files/fullsize/14fb2a16a55a8514fb2a16a55e69.jpg
     id: 12371
     mime: image/jpeg
     original_filename: CHenderson-2_10a7244b7f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a16a55a8514fb2a16a55e69.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a16a55a8514fb2a16a55e69.jpg
+    thumb: /files/thumbnails/14fb2a16a55a8514fb2a16a55e69.jpg
+    url: /files/original/14fb2a16a55a8514fb2a16a55e69.jpg
 geo:
 id: 15302
 item_type: Still Image

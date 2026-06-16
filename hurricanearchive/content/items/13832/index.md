@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: 10-4-06_SHN Leadership Call Agenda 2_d49a2c2f66.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c9c2d4914fb2a1c9c3130.doc
+    url: /files/original/14fb2a1c9c2d4914fb2a1c9c3130.doc
 geo:
 id: 13832
 item_type: Document

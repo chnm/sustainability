@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f68106c14fb2a6f681448.jpg
+  - fullsize: /files/fullsize/14fb2a6f68106c14fb2a6f681448.jpg
     id: 446
     mime: image/jpeg
     original_filename: 2louisiana_003_b514fc81d3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f68106c14fb2a6f681448.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f68106c14fb2a6f681448.jpg
+    thumb: /files/thumbnails/14fb2a6f68106c14fb2a6f681448.jpg
+    url: /files/original/14fb2a6f68106c14fb2a6f681448.jpg
 geo:
   address: ''
   lat: 0.0

@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 06 01 2006 PA approves repair contracts.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35cb36f314fb2a35cb3acb.txt
+    url: /files/original/14fb2a35cb36f314fb2a35cb3acb.txt
 geo:
   address: ''
   lat: 0.0

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Galanto, Juan and Drozda, Marta.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87096a82614fbe87096abfa.doc
+    url: /files/original/14fbe87096a82614fbe87096abfa.doc
 geo:
 id: 45671
 item_type: Oral History

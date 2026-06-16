@@ -15,12 +15,12 @@ dublin_core:
       text: before looking east2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20e1009714fb2a20e1047d.jpg
+  - fullsize: /files/fullsize/14fb2a20e1009714fb2a20e1047d.jpg
     id: 11053
     mime: image/jpeg
     original_filename: before looking east2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20e1009714fb2a20e1047d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20e1009714fb2a20e1047d.jpg
+    thumb: /files/thumbnails/14fb2a20e1009714fb2a20e1047d.jpg
+    url: /files/original/14fb2a20e1009714fb2a20e1047d.jpg
 geo:
 id: 13043
 item_type: Still Image

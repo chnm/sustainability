@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Ernst Matthew Chavana.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2468a6d114fb2a2468aab8.htm
+    url: /files/original/14fb2a2468a6d114fb2a2468aab8.htm
 geo:
 id: 11639
 item_type: Oral History

@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Cecil Whaley HK3156K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d64465b214fb29d6446999.mp3
+    url: /files/original/14fb29d64465b214fb29d6446999.mp3
 geo:
 id: 26916
 item_type: Oral History

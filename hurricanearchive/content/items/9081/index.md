@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 04 2005 Katrina might boost Texas food prices.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35b4a0b814fb2a35b4ad4f.txt
+    url: /files/original/14fb2a35b4a0b814fb2a35b4ad4f.txt
 geo:
   address: ''
   lat: 0.0

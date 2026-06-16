@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: housesfloated_2d749bad73.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce5d254614fb29ce5d47ca.pdf
+    url: /files/original/14fb29ce5d254614fb29ce5d47ca.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

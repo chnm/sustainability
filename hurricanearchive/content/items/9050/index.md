@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 23 2006 2-1-1 aids evacuees who need transport.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35dbd66a14fb2a35dbda45.txt
+    url: /files/original/14fb2a35dbd66a14fb2a35dbda45.txt
 geo:
   address: ''
   lat: 0.0

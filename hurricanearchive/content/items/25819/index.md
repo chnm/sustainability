@@ -23,24 +23,24 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc01ae3d14fb29dc01b213.jpg
+  - fullsize: /files/fullsize/14fb29dc01ae3d14fb29dc01b213.jpg
     id: 22579
     mime: image/jpeg
     original_filename: DotBenge-intro_df252fe0ea.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc01ae3d14fb29dc01b213.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc01ae3d14fb29dc01b213.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dbfcca4714fb29dbfcce29.jpg
+    thumb: /files/thumbnails/14fb29dc01ae3d14fb29dc01b213.jpg
+    url: /files/original/14fb29dc01ae3d14fb29dc01b213.jpg
+  - fullsize: /files/fullsize/14fb29dbfcca4714fb29dbfcce29.jpg
     id: 22580
     mime: image/jpeg
     original_filename: DotBenge-book-front_6b28a1c662.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dbfcca4714fb29dbfcce29.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dbfcca4714fb29dbfcce29.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dbfa171614fb29dbfa1bc0.jpg
+    thumb: /files/thumbnails/14fb29dbfcca4714fb29dbfcce29.jpg
+    url: /files/original/14fb29dbfcca4714fb29dbfcce29.jpg
+  - fullsize: /files/fullsize/14fb29dbfa171614fb29dbfa1bc0.jpg
     id: 22581
     mime: image/jpeg
     original_filename: DotBenge-book-back_3d75336836.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dbfa171614fb29dbfa1bc0.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dbfa171614fb29dbfa1bc0.jpg
+    thumb: /files/thumbnails/14fb29dbfa171614fb29dbfa1bc0.jpg
+    url: /files/original/14fb29dbfa171614fb29dbfa1bc0.jpg
 geo:
 id: 25819
 item_type: Still Image

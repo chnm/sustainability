@@ -15,12 +15,12 @@ dublin_core:
       text: 20050904MS-EO A1173-RC-26B ORLEANS PARISH HURRICANE KATRINA.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb778fb314fb29fb779397.jpg
+  - fullsize: /files/fullsize/14fb29fb778fb314fb29fb779397.jpg
     id: 18778
     mime: image/jpeg
     original_filename: 20050904MS-EO A1173-RC-26B ORLEANS PARISH HURRICANE KATRINA.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb778fb314fb29fb779397.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb778fb314fb29fb779397.jpg
+    thumb: /files/thumbnails/14fb29fb778fb314fb29fb779397.jpg
+    url: /files/original/14fb29fb778fb314fb29fb779397.jpg
 geo:
 id: 21827
 item_type: Still Image

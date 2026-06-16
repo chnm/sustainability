@@ -21,12 +21,12 @@ dublin_core:
       text: Waiting To Be Rescued
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6032d86c14fb2a6032eb2f.jpg
+  - fullsize: /files/fullsize/14fb2a6032d86c14fb2a6032eb2f.jpg
     id: 2266
     mime: image/jpeg
     original_filename: Waiting To Be Rescued
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6032d86c14fb2a6032eb2f.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6032d86c14fb2a6032eb2f.jpg
+    thumb: /files/thumbnails/14fb2a6032d86c14fb2a6032eb2f.jpg
+    url: /files/original/14fb2a6032d86c14fb2a6032eb2f.jpg
 geo:
 id: 2784
 item_type: Still Image

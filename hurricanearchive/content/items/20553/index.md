@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0033-20.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0636d89814fb2a0636dc76.jpg
+  - fullsize: /files/fullsize/14fb2a0636d89814fb2a0636dc76.jpg
     id: 17506
     mime: image/jpeg
     original_filename: DSC 0033-20.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0636d89814fb2a0636dc76.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0636d89814fb2a0636dc76.jpg
+    thumb: /files/thumbnails/14fb2a0636d89814fb2a0636dc76.jpg
+    url: /files/original/14fb2a0636d89814fb2a0636dc76.jpg
 geo:
 id: 20553
 item_type: Still Image

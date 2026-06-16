@@ -17,12 +17,12 @@ dublin_core:
       text: Flood Line - Zoom Out
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb4d493514fb29cb4d4eea.jpg
+  - fullsize: /files/fullsize/14fb29cb4d493514fb29cb4d4eea.jpg
     id: 24090
     mime: image/jpg
     original_filename: 1252063515_5e833d46dc.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb4d493514fb29cb4d4eea.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb4d493514fb29cb4d4eea.jpg
+    thumb: /files/thumbnails/14fb29cb4d493514fb29cb4d4eea.jpg
+    url: /files/original/14fb29cb4d493514fb29cb4d4eea.jpg
 geo:
 id: 33240
 item_type: Still Image

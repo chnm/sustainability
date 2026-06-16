@@ -17,12 +17,12 @@ dublin_core:
       text: The First Thing We Saw
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbbdfd8e14fb29cbbe1ce0.jpg
+  - fullsize: /files/fullsize/14fb29cbbdfd8e14fb29cbbe1ce0.jpg
     id: 24037
     mime: image/jpg
     original_filename: 1438867528_238964d4b0.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbbdfd8e14fb29cbbe1ce0.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbbdfd8e14fb29cbbe1ce0.jpg
+    thumb: /files/thumbnails/14fb29cbbdfd8e14fb29cbbe1ce0.jpg
+    url: /files/original/14fb29cbbdfd8e14fb29cbbe1ce0.jpg
 geo:
 id: 33187
 item_type: Still Image

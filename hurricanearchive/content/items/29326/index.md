@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: coliseum_aa6e983739.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce7eb8aa14fb29ce7f0998.pdf
+    url: /files/original/14fb29ce7eb8aa14fb29ce7f0998.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

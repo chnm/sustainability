@@ -21,12 +21,12 @@ dublin_core:
       text: Endymion Float/Water
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9b4234b14fb29c9b4272a.jpg
+  - fullsize: /files/fullsize/14fb29c9b4234b14fb29c9b4272a.jpg
     id: 24326
     mime: image/jpg
     original_filename: 2310193615_7c1e79c505.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9b4234b14fb29c9b4272a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9b4234b14fb29c9b4272a.jpg
+    thumb: /files/thumbnails/14fb29c9b4234b14fb29c9b4272a.jpg
+    url: /files/original/14fb29c9b4234b14fb29c9b4272a.jpg
 geo:
 id: 34492
 item_type: Still Image

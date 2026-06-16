@@ -19,12 +19,12 @@ dublin_core:
       text: DSC_6770.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1ca38b114fb29d1ca3c8f.jpg
+  - fullsize: /files/fullsize/14fb29d1ca38b114fb29d1ca3c8f.jpg
     id: 23519
     mime: image/jpg
     original_filename: 157377577_b6cfcde4b5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1ca38b114fb29d1ca3c8f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1ca38b114fb29d1ca3c8f.jpg
+    thumb: /files/thumbnails/14fb29d1ca38b114fb29d1ca3c8f.jpg
+    url: /files/original/14fb29d1ca38b114fb29d1ca3c8f.jpg
 geo:
 id: 28674
 item_type: Still Image

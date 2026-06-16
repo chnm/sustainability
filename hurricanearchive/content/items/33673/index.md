@@ -22,7 +22,7 @@ files:
     mime: application/msword
     original_filename: Quigley_5b951fc4e7.Fighting for the Right to Learn.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cab17c0914fb29cab185d3.doc
+    url: /files/original/14fb29cab17c0914fb29cab185d3.doc
 geo:
 id: 33673
 item_type: Document

@@ -14,12 +14,12 @@ dublin_core:
       text: Holy Cross
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/18ccb30cb6e629b033bb57f3d2a6f438.jpg
+  - fullsize: /files/fullsize/18ccb30cb6e629b033bb57f3d2a6f438.jpg
     id: 46547
     mime: image/jpeg
     original_filename: admin3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/18ccb30cb6e629b033bb57f3d2a6f438.jpg
-    url: https://hurricanearchive.org/files/original/18ccb30cb6e629b033bb57f3d2a6f438.jpg
+    thumb: /files/thumbnails/18ccb30cb6e629b033bb57f3d2a6f438.jpg
+    url: /files/original/18ccb30cb6e629b033bb57f3d2a6f438.jpg
 geo:
   address: 5500 Paris Avenue
   lat: 30.0144435

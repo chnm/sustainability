@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: SHN_ANNUAL_REPORT_2006_35b7c328fc.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d2a672d14fb2a1d2a6b10.pdf
+    url: /files/original/14fb2a1d2a672d14fb2a1d2a6b10.pdf
 geo:
   address: ''
   lat: 29.93947

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d83491d314fb29d83495b8.jpg
+  - fullsize: /files/fullsize/14fb29d83491d314fb29d83495b8.jpg
     id: 22913
     mime: image/jpeg
     original_filename: JA 8 Sailor Hawaii WWII_2804310b82.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d83491d314fb29d83495b8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d83491d314fb29d83495b8.jpg
+    thumb: /files/thumbnails/14fb29d83491d314fb29d83495b8.jpg
+    url: /files/original/14fb29d83491d314fb29d83495b8.jpg
 geo:
   address: ''
   lat: 29.91685

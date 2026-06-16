@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a70596f2c14fb2a705972e1.jpg
+  - fullsize: /files/fullsize/14fb2a70596f2c14fb2a705972e1.jpg
     id: 206
     mime: image/jpeg
     original_filename: ferraras_3f8d139b40.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a70596f2c14fb2a705972e1.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a70596f2c14fb2a705972e1.jpg
+    thumb: /files/thumbnails/14fb2a70596f2c14fb2a705972e1.jpg
+    url: /files/original/14fb2a70596f2c14fb2a705972e1.jpg
 geo:
   address: ''
   lat: 30.020354455970498

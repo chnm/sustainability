@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a224a018e14fb2a224a0584.jpg
+  - fullsize: /files/fullsize/14fb2a224a018e14fb2a224a0584.jpg
     id: 10860
     mime: image/pjpeg
     original_filename: katrina_downtown_027_4fe5cfe67a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a224a018e14fb2a224a0584.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a224a018e14fb2a224a0584.jpg
+    thumb: /files/thumbnails/14fb2a224a018e14fb2a224a0584.jpg
+    url: /files/original/14fb2a224a018e14fb2a224a0584.jpg
 geo:
 id: 12117
 item_type: Still Image

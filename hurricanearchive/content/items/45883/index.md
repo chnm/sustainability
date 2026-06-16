@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Yanes, Alex Luis.trs(English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87228403614fbe87228441b.doc
+    url: /files/original/14fbe87228403614fbe87228441b.doc
   - fullsize:
     id: 46529
     mime: application/msword
     original_filename: Yanes, Alex Luis.trs(Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8722a767514fbe8722a7a5c.doc
+    url: /files/original/14fbe8722a767514fbe8722a7a5c.doc
 geo:
 id: 45883
 item_type: Oral History

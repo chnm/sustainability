@@ -15,12 +15,12 @@ dublin_core:
       text: LAANG-Photo-07.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d07428be14fb29d0742d2c.jpg
+  - fullsize: /files/fullsize/14fb29d07428be14fb29d0742d2c.jpg
     id: 23608
     mime: image/jpeg
     original_filename: LAANG-Photo-07.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d07428be14fb29d0742d2c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d07428be14fb29d0742d2c.jpg
+    thumb: /files/thumbnails/14fb29d07428be14fb29d0742d2c.jpg
+    url: /files/original/14fb29d07428be14fb29d0742d2c.jpg
 geo:
 id: 29038
 item_type: Still Image

@@ -17,12 +17,12 @@ dublin_core:
       text: Saved by Breakaway Walls
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbb63a5f14fb29cbb63dbf.jpg
+  - fullsize: /files/fullsize/14fb29cbb63a5f14fb29cbb63dbf.jpg
     id: 24040
     mime: image/jpg
     original_filename: 1438867818_571441c94f.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbb63a5f14fb29cbb63dbf.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbb63a5f14fb29cbb63dbf.jpg
+    thumb: /files/thumbnails/14fb29cbb63a5f14fb29cbb63dbf.jpg
+    url: /files/original/14fb29cbb63a5f14fb29cbb63dbf.jpg
 geo:
 id: 33190
 item_type: Still Image

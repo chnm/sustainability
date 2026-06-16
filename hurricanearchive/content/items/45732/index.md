@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Kliger, Ella.(801).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870f9092e14fbe870f90d09.doc
+    url: /files/original/14fbe870f9092e14fbe870f90d09.doc
 geo:
 id: 45732
 item_type: Oral History

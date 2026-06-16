@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dd698f7014fb29dd699355.jpg
+  - fullsize: /files/fullsize/14fb29dd698f7014fb29dd699355.jpg
     id: 22418
     mime: image/jpeg
     original_filename: EvaDow-3-3_8744d2bb4b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dd698f7014fb29dd699355.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dd698f7014fb29dd699355.jpg
+    thumb: /files/thumbnails/14fb29dd698f7014fb29dd699355.jpg
+    url: /files/original/14fb29dd698f7014fb29dd699355.jpg
 geo:
 id: 25502
 item_type: Still Image

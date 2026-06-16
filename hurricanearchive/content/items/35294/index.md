@@ -12,12 +12,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c6e9b3bf14fb29c6e9b7a5.jpg
+  - fullsize: /files/fullsize/14fb29c6e9b3bf14fb29c6e9b7a5.jpg
     id: 24633
     mime: image/pjpeg
     original_filename: 29_56f2bd9346.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c6e9b3bf14fb29c6e9b7a5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c6e9b3bf14fb29c6e9b7a5.jpg
+    thumb: /files/thumbnails/14fb29c6e9b3bf14fb29c6e9b7a5.jpg
+    url: /files/original/14fb29c6e9b3bf14fb29c6e9b7a5.jpg
 geo:
   address: new orleans, la
   lat: 29.95324

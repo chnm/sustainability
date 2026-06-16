@@ -15,12 +15,12 @@ dublin_core:
       text: before gassing up.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20ec5e2b14fb2a20ec6210.jpg
+  - fullsize: /files/fullsize/14fb2a20ec5e2b14fb2a20ec6210.jpg
     id: 11047
     mime: image/jpeg
     original_filename: before gassing up.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20ec5e2b14fb2a20ec6210.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20ec5e2b14fb2a20ec6210.jpg
+    thumb: /files/thumbnails/14fb2a20ec5e2b14fb2a20ec6210.jpg
+    url: /files/original/14fb2a20ec5e2b14fb2a20ec6210.jpg
 geo:
 id: 13037
 item_type: Still Image

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Rushing, Andrew.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871c1f3fc14fbe871c1f821.doc
+    url: /files/original/14fbe871c1f3fc14fbe871c1f821.doc
 geo:
 id: 45833
 item_type: Oral History

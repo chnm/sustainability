@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Lopez, Jose.trs (English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87131b3da14fbe87131b7c0.doc
+    url: /files/original/14fbe87131b3da14fbe87131b7c0.doc
   - fullsize:
     id: 46381
     mime: application/msword
     original_filename: Lopez, Jose.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87132734714fbe871327720.doc
+    url: /files/original/14fbe87132734714fbe871327720.doc
 geo:
 id: 45754
 item_type: Oral History

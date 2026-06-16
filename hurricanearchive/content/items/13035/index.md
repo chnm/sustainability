@@ -15,12 +15,12 @@ dublin_core:
       text: before courtyard east2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20f0a9e114fb2a20f0ae72.jpg
+  - fullsize: /files/fullsize/14fb2a20f0a9e114fb2a20f0ae72.jpg
     id: 11045
     mime: image/jpeg
     original_filename: before courtyard east2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20f0a9e114fb2a20f0ae72.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20f0a9e114fb2a20f0ae72.jpg
+    thumb: /files/thumbnails/14fb2a20f0a9e114fb2a20f0ae72.jpg
+    url: /files/original/14fb2a20f0a9e114fb2a20f0ae72.jpg
 geo:
 id: 13035
 item_type: Still Image

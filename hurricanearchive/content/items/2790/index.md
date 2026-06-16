@@ -21,12 +21,12 @@ dublin_core:
       text: '&ldquo;bell South&rdquo;'
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a602cdf2814fb2a602ce309.jpg
+  - fullsize: /files/fullsize/14fb2a602cdf2814fb2a602ce309.jpg
     id: 2272
     mime: image/jpeg
     original_filename: '&ldquo;bell South&rdquo;'
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a602cdf2814fb2a602ce309.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a602cdf2814fb2a602ce309.jpg
+    thumb: /files/thumbnails/14fb2a602cdf2814fb2a602ce309.jpg
+    url: /files/original/14fb2a602cdf2814fb2a602ce309.jpg
 geo:
 id: 2790
 item_type: Still Image

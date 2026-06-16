@@ -19,7 +19,7 @@ files:
     mime: application/pdf
     original_filename: Katrina - before and after_88b04c9d70.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c1f3e92414fb29c1f40352.pdf
+    url: /files/original/14fb29c1f3e92414fb29c1f40352.pdf
 geo:
   address: Chamberlain Dr, New Orleans, LA
   lat: 30.01334

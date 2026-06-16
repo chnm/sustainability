@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Magnolia1.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2340a50b14fb2a2340a8ee.doc
+    url: /files/original/14fb2a2340a50b14fb2a2340a8ee.doc
 geo:
 id: 11807
 item_type: Document

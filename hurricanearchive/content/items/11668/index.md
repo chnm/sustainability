@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Kathy A. Allen-Sykes.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a242cefc814fb2a242cf3ad.html
+    url: /files/original/14fb2a242cefc814fb2a242cf3ad.html
 geo:
 id: 11668
 item_type: Oral History

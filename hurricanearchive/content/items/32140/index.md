@@ -17,12 +17,12 @@ dublin_core:
       text: Remembering those lost in Katrina
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbfb847214fb29cbfb8858.jpg
+  - fullsize: /files/fullsize/14fb29cbfb847214fb29cbfb8858.jpg
     id: 23982
     mime: image/jpg
     original_filename: 1280710362_1c7c07ac11.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbfb847214fb29cbfb8858.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbfb847214fb29cbfb8858.jpg
+    thumb: /files/thumbnails/14fb29cbfb847214fb29cbfb8858.jpg
+    url: /files/original/14fb29cbfb847214fb29cbfb8858.jpg
 geo:
 id: 32140
 item_type: Still Image

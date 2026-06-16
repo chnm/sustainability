@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Rachel Shenk HK511256K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7b0757c14fb29d7b07963.mp3
+    url: /files/original/14fb29d7b0757c14fb29d7b07963.mp3
 geo:
 id: 26809
 item_type: Oral History

@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: Student Trips-Conference Call 9_6_06_29f9cea708.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ca1385c14fb2a1ca13c4b.doc
+    url: /files/original/14fb2a1ca1385c14fb2a1ca13c4b.doc
 geo:
 id: 13824
 item_type: Document

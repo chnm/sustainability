@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: Press Release MatchmakersForJustice_088b0ef39d.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ca1c8da14fb2a1ca1ccc4.doc
+    url: /files/original/14fb2a1ca1c8da14fb2a1ca1ccc4.doc
 geo:
 id: 13823
 item_type: Document

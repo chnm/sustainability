@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: Eliot_f507532391.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7e572fb14fb29d7e57703.pdf
+    url: /files/original/14fb29d7e572fb14fb29d7e57703.pdf
 geo:
 id: 26763
 item_type: Document

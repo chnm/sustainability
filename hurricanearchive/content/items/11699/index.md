@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Shane Rafael Rodriguez.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23e4c28814fb2a23e4c66e.htm
+    url: /files/original/14fb2a23e4c28814fb2a23e4c66e.htm
 geo:
 id: 11699
 item_type: Oral History

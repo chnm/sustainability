@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d785ad0014fb29d785b0e6.jpg
+  - fullsize: /files/fullsize/14fb29d785ad0014fb29d785b0e6.jpg
     id: 23020
     mime: image/jpeg
     original_filename: beta club float_b376ff0527.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d785ad0014fb29d785b0e6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d785ad0014fb29d785b0e6.jpg
+    thumb: /files/thumbnails/14fb29d785ad0014fb29d785b0e6.jpg
+    url: /files/original/14fb29d785ad0014fb29d785b0e6.jpg
 geo:
 id: 26836
 item_type: Still Image

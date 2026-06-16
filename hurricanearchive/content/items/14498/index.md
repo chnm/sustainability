@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: '[SHN] Statement of Principles overdue Update_dbd0ccaf17.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1913822b14fb2a191385e6.doc
+    url: /files/original/14fb2a1913822b14fb2a191385e6.doc
 geo:
 id: 14498
 item_type: Document

@@ -15,12 +15,12 @@ dublin_core:
       text: 45th BCT TOC.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e913276414fb29e9132b4f.jpg
+  - fullsize: /files/fullsize/14fb29e913276414fb29e9132b4f.jpg
     id: 21223
     mime: image/jpeg
     original_filename: 45th BCT TOC.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e913276414fb29e9132b4f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e913276414fb29e9132b4f.jpg
+    thumb: /files/thumbnails/14fb29e913276414fb29e9132b4f.jpg
+    url: /files/original/14fb29e913276414fb29e9132b4f.jpg
 geo:
 id: 24279
 item_type: Still Image

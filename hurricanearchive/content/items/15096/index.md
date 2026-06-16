@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a172d7e6614fb2a172d826c.jpg
+  - fullsize: /files/fullsize/14fb2a172d7e6614fb2a172d826c.jpg
     id: 12256
     mime: image/jpeg
     original_filename: 1994 First New Sign-15_fb6edc3b51.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a172d7e6614fb2a172d826c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a172d7e6614fb2a172d826c.jpg
+    thumb: /files/thumbnails/14fb2a172d7e6614fb2a172d826c.jpg
+    url: /files/original/14fb2a172d7e6614fb2a172d826c.jpg
 geo:
 id: 15096
 item_type: Still Image

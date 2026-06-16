@@ -20,12 +20,12 @@ dublin_core:
       text: Forked Island Bridge
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a57376cad14fb2a57377093.jpg
+  - fullsize: /files/fullsize/14fb2a57376cad14fb2a57377093.jpg
     id: 3606
     mime: image/pjpeg
     original_filename: forkedislandbridgenw_86ecd535cf.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a57376cad14fb2a57377093.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a57376cad14fb2a57377093.jpg
+    thumb: /files/thumbnails/14fb2a57376cad14fb2a57377093.jpg
+    url: /files/original/14fb2a57376cad14fb2a57377093.jpg
 geo:
   address: ''
   lat: 29.83111

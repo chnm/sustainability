@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Luck, Jacqueline.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87135b71114fbe87135baf8.doc
+    url: /files/original/14fbe87135b71114fbe87135baf8.doc
 geo:
 id: 45757
 item_type: Oral History

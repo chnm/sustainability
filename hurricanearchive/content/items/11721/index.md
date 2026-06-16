@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: candacechampion.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c4f33c14fb2a23c4f722.html
+    url: /files/original/14fb2a23c4f33c14fb2a23c4f722.html
 geo:
 id: 11721
 item_type: Oral History

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Holloway, A.J.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870e6181314fbe870e63b4c.doc
+    url: /files/original/14fbe870e6181314fbe870e63b4c.doc
 geo:
 id: 45713
 item_type: Oral History

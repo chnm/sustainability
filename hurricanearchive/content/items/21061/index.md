@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 1881.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a00be3a8e14fb2a00be3e75.jpg
+  - fullsize: /files/fullsize/14fb2a00be3a8e14fb2a00be3e75.jpg
     id: 18012
     mime: image/jpeg
     original_filename: DSC 1881.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a00be3a8e14fb2a00be3e75.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a00be3a8e14fb2a00be3e75.jpg
+    thumb: /files/thumbnails/14fb2a00be3a8e14fb2a00be3e75.jpg
+    url: /files/original/14fb2a00be3a8e14fb2a00be3e75.jpg
 geo:
 id: 21061
 item_type: Still Image

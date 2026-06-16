@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Fighting for the Right to Learn Part II_08011e278d.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cab0b19c14fb29cab0ba7b.doc
+    url: /files/original/14fb29cab0b19c14fb29cab0ba7b.doc
 geo:
 id: 33674
 item_type: Document

@@ -21,12 +21,12 @@ dublin_core:
       text: Ben Schenck of Panorama Jazz Band
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d268a70d14fb29d268aaf2.jpg
+  - fullsize: /files/fullsize/14fb29d268a70d14fb29d268aaf2.jpg
     id: 23416
     mime: image/jpeg
     original_filename: ben dress closeup_ac7187b7bc.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d268a70d14fb29d268aaf2.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d268a70d14fb29d268aaf2.jpg
+    thumb: /files/thumbnails/14fb29d268a70d14fb29d268aaf2.jpg
+    url: /files/original/14fb29d268a70d14fb29d268aaf2.jpg
 geo:
   address: 2426 Bradish Place
   lat: 0.0

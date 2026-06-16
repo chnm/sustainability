@@ -23,7 +23,7 @@ files:
     mime: audio/x-ms-wma
     original_filename: 17 Track 17_0645bb9c50.wma
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c570028414fb29c5700667.wma
+    url: /files/original/14fb29c570028414fb29c5700667.wma
 geo:
 id: 36923
 item_type: Document

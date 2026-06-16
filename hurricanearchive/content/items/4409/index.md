@@ -20,12 +20,12 @@ dublin_core:
       text: 1719 N. Claiborne Ave.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a57208c4714fb2a5720904a.jpg
+  - fullsize: /files/fullsize/14fb2a57208c4714fb2a5720904a.jpg
     id: 3620
     mime: image/pjpeg
     original_filename: DSCN0041_a19b5048e0.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a57208c4714fb2a5720904a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a57208c4714fb2a5720904a.jpg
+    thumb: /files/thumbnails/14fb2a57208c4714fb2a5720904a.jpg
+    url: /files/original/14fb2a57208c4714fb2a5720904a.jpg
 geo:
   address: 1719 N. Claiborne Ave.
   lat: 0.0

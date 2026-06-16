@@ -17,7 +17,7 @@ files:
     mime: ''
     original_filename: Francia, Lilian - by Mark Miranda, Suzanne O'Leary and Nandi Wright.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86fd8e57014fbe86fdc769b.mp3
+    url: /files/original/14fbe86fd8e57014fbe86fdc769b.mp3
 geo:
 id: 45602
 item_type: Oral History

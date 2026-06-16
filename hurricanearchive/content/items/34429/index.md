@@ -17,12 +17,12 @@ dublin_core:
       text: Pontchartrain
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca128bcd14fb29ca128fb7.jpg
+  - fullsize: /files/fullsize/14fb29ca128bcd14fb29ca128fb7.jpg
     id: 24263
     mime: image/jpg
     original_filename: 2326143149_e4fbfa6a4b.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca128bcd14fb29ca128fb7.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca128bcd14fb29ca128fb7.jpg
+    thumb: /files/thumbnails/14fb29ca128bcd14fb29ca128fb7.jpg
+    url: /files/original/14fb29ca128bcd14fb29ca128fb7.jpg
 geo:
 id: 34429
 item_type: Still Image

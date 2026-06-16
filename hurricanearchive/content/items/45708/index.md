@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Hewes, Michael.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870dc94a914fbe870dc988f.doc
+    url: /files/original/14fbe870dc94a914fbe870dc988f.doc
 geo:
 id: 45708
 item_type: Oral History

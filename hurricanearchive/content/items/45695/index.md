@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Green, Deborah.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870cbe97d14fbe870cbed64.doc
+    url: /files/original/14fbe870cbe97d14fbe870cbed64.doc
 geo:
 id: 45695
 item_type: Oral History

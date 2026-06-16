@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Sarah Coulter HK3556K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d6051ea614fb29d605227b.mp3
+    url: /files/original/14fb29d6051ea614fb29d605227b.mp3
 geo:
 id: 26936
 item_type: Oral History

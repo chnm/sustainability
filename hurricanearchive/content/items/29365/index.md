@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: lukegarrison_2b82880caf.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce70b6d514fb29ce70babd.pdf
+    url: /files/original/14fb29ce70b6d514fb29ce70babd.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

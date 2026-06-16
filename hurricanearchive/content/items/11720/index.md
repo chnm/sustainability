@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: brittanywittman.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c5609614fb2a23c5647c.html
+    url: /files/original/14fb2a23c5609614fb2a23c5647c.html
 geo:
 id: 11720
 item_type: Oral History

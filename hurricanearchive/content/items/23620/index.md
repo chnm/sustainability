@@ -15,12 +15,12 @@ dublin_core:
       text: Helping handneworleansS&R.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ee6de94214fb29ee6ded27.jpg
+  - fullsize: /files/fullsize/14fb29ee6de94214fb29ee6ded27.jpg
     id: 20564
     mime: image/jpeg
     original_filename: Helping handneworleansS&R.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ee6de94214fb29ee6ded27.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ee6de94214fb29ee6ded27.jpg
+    thumb: /files/thumbnails/14fb29ee6de94214fb29ee6ded27.jpg
+    url: /files/original/14fb29ee6de94214fb29ee6ded27.jpg
 geo:
 id: 23620
 item_type: Still Image

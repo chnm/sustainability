@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 25 2006 Wait for Rita relief prolonged.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35d5141414fb2a35d517f9.txt
+    url: /files/original/14fb2a35d5141414fb2a35d517f9.txt
 geo:
   address: ''
   lat: 0.0

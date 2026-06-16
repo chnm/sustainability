@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Terry Davis HK2556K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d601092314fb29d60116dd.mp3
+    url: /files/original/14fb29d601092314fb29d60116dd.mp3
 geo:
 id: 26938
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: conservation-daily-prod-update-location-map.gif
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fafaf9bb14fb29fafafda1.jpg
+  - fullsize: /files/fullsize/14fb29fafaf9bb14fb29fafafda1.jpg
     id: 18873
     mime: image/gif
     original_filename: conservation-daily-prod-update-location-map.gif
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fafaf9bb14fb29fafafda1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fafaf9bb14fb29fafafda1.jpg
+    thumb: /files/thumbnails/14fb29fafaf9bb14fb29fafafda1.jpg
+    url: /files/original/14fb29fafaf9bb14fb29fafafda1.jpg
 geo:
 id: 21922
 item_type: Still Image

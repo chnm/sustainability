@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Gambino, Angela.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870a386c014fbe870a38aa8.doc
+    url: /files/original/14fbe870a386c014fbe870a38aa8.doc
 geo:
 id: 45672
 item_type: Oral History

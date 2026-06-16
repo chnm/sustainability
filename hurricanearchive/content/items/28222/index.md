@@ -21,12 +21,12 @@ dublin_core:
       text: Photographic Detail of Artwork by Robert Vicknair
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d2a6f54c14fb29d2a6f8fc.jpg
+  - fullsize: /files/fullsize/14fb29d2a6f54c14fb29d2a6f8fc.jpg
     id: 23394
     mime: image/pjpeg
     original_filename: brandis_place_HURRICANE_ART020_15ac7dba18.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d2a6f54c14fb29d2a6f8fc.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d2a6f54c14fb29d2a6f8fc.jpg
+    thumb: /files/thumbnails/14fb29d2a6f54c14fb29d2a6f8fc.jpg
+    url: /files/original/14fb29d2a6f54c14fb29d2a6f8fc.jpg
 geo:
   address: 2426 Bradish Place
   lat: 0.0

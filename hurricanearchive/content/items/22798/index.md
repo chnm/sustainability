@@ -15,12 +15,12 @@ dublin_core:
       text: Wind damage at Jack BrksJacksonbarracks.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f3a552d814fb29f3a556be.jpg
+  - fullsize: /files/fullsize/14fb29f3a552d814fb29f3a556be.jpg
     id: 19749
     mime: image/jpeg
     original_filename: Wind damage at Jack BrksJacksonbarracks.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f3a552d814fb29f3a556be.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f3a552d814fb29f3a556be.jpg
+    thumb: /files/thumbnails/14fb29f3a552d814fb29f3a556be.jpg
+    url: /files/original/14fb29f3a552d814fb29f3a556be.jpg
 geo:
 id: 22798
 item_type: Still Image

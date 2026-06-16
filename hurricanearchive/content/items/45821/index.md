@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Reso, Michael.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871a1552614fbe871a1591b.doc
+    url: /files/original/14fbe871a1552614fbe871a1591b.doc
 geo:
 id: 45821
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: DSCN2260neworleansS&R.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f037d77414fb29f037db59.jpg
+  - fullsize: /files/fullsize/14fb29f037d77414fb29f037db59.jpg
     id: 20207
     mime: image/jpeg
     original_filename: DSCN2260neworleansS&R.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f037d77414fb29f037db59.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f037d77414fb29f037db59.jpg
+    thumb: /files/thumbnails/14fb29f037d77414fb29f037db59.jpg
+    url: /files/original/14fb29f037d77414fb29f037db59.jpg
 geo:
 id: 23263
 item_type: Still Image

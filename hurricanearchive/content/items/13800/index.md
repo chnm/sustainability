@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: '[SHN]leadership call this afternoon - 7_16_06_e6692e1949.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cb0685c14fb2a1cb06c4a.doc
+    url: /files/original/14fb2a1cb0685c14fb2a1cb06c4a.doc
 geo:
 id: 13800
 item_type: Document

@@ -15,12 +15,12 @@ dublin_core:
       text: Resupply at NAS NONASneworleans.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f237001a14fb29f2370400.jpg
+  - fullsize: /files/fullsize/14fb29f237001a14fb29f2370400.jpg
     id: 19934
     mime: image/jpeg
     original_filename: Resupply at NAS NONASneworleans.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f237001a14fb29f2370400.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f237001a14fb29f2370400.jpg
+    thumb: /files/thumbnails/14fb29f237001a14fb29f2370400.jpg
+    url: /files/original/14fb29f237001a14fb29f2370400.jpg
 geo:
 id: 22990
 item_type: Still Image

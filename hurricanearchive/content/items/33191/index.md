@@ -17,12 +17,12 @@ dublin_core:
       text: Another Block, Another Foundation
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbb2bf7f14fb29cbb2c363.jpg
+  - fullsize: /files/fullsize/14fb29cbb2bf7f14fb29cbb2c363.jpg
     id: 24041
     mime: image/jpg
     original_filename: 1438011657_3b82c89355.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbb2bf7f14fb29cbb2c363.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbb2bf7f14fb29cbb2c363.jpg
+    thumb: /files/thumbnails/14fb29cbb2bf7f14fb29cbb2c363.jpg
+    url: /files/original/14fb29cbb2bf7f14fb29cbb2c363.jpg
 geo:
 id: 33191
 item_type: Still Image

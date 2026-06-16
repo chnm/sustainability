@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a7135867f14fb2a71358a50.jpg
+  - fullsize: /files/fullsize/14fb2a7135867f14fb2a71358a50.jpg
     id: 35
     mime: image/jpeg
     original_filename: oil_platform_d260895209.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a7135867f14fb2a71358a50.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a7135867f14fb2a71358a50.jpg
+    thumb: /files/thumbnails/14fb2a7135867f14fb2a71358a50.jpg
+    url: /files/original/14fb2a7135867f14fb2a71358a50.jpg
 geo:
   address: ''
   lat: 0.0

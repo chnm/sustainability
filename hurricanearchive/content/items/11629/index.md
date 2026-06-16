@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Daniel "Kip" McGee.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a246f0f1214fb2a246f12ef.htm
+    url: /files/original/14fb2a246f0f1214fb2a246f12ef.htm
 geo:
 id: 11629
 item_type: Oral History

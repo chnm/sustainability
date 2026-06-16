@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a173509e014fb2a17350dc1.jpg
+  - fullsize: /files/fullsize/14fb2a173509e014fb2a17350dc1.jpg
     id: 12251
     mime: image/jpeg
     original_filename: 1980 Dedication of E_637ff3b83c.~0003-20.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a173509e014fb2a17350dc1.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a173509e014fb2a17350dc1.jpg
+    thumb: /files/thumbnails/14fb2a173509e014fb2a17350dc1.jpg
+    url: /files/original/14fb2a173509e014fb2a17350dc1.jpg
 geo:
 id: 15091
 item_type: Still Image

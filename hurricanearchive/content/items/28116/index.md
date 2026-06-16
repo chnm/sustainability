@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d2a88b3b14fb29d2a88f27.jpg
+  - fullsize: /files/fullsize/14fb29d2a88b3b14fb29d2a88f27.jpg
     id: 23391
     mime: image/pjpeg
     original_filename: graduation pics-09_c2959320d3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d2a88b3b14fb29d2a88f27.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d2a88b3b14fb29d2a88f27.jpg
+    thumb: /files/thumbnails/14fb29d2a88b3b14fb29d2a88f27.jpg
+    url: /files/original/14fb29d2a88b3b14fb29d2a88f27.jpg
 geo:
   address: 3557 Inwood Avenue
   lat: 0.0

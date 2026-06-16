@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a224f315d14fb2a224f3543.jpg
+  - fullsize: /files/fullsize/14fb2a224f315d14fb2a224f3543.jpg
     id: 10852
     mime: image/pjpeg
     original_filename: Katrina - Piranah_7db1526eaa.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a224f315d14fb2a224f3543.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a224f315d14fb2a224f3543.jpg
+    thumb: /files/thumbnails/14fb2a224f315d14fb2a224f3543.jpg
+    url: /files/original/14fb2a224f315d14fb2a224f3543.jpg
 geo:
   address: 4902 Arts Street
   lat: 30.00948

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: McIlwain, Barry.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8714bc11014fbe8714bc4f9.doc
+    url: /files/original/14fbe8714bc11014fbe8714bc4f9.doc
 geo:
 id: 45777
 item_type: Oral History

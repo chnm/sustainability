@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: Voices%20Issue%203.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a22422a3014fb2a22422e16.pdf
+    url: /files/original/14fb2a22422a3014fb2a22422e16.pdf
 geo:
 id: 12168
 item_type: Document

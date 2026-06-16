@@ -15,12 +15,12 @@ dublin_core:
       text: 226 more metal.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f20da5214fb2a1f20de37.jpg
+  - fullsize: /files/fullsize/14fb2a1f20da5214fb2a1f20de37.jpg
     id: 11241
     mime: image/jpeg
     original_filename: 226 more metal.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f20da5214fb2a1f20de37.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f20da5214fb2a1f20de37.jpg
+    thumb: /files/thumbnails/14fb2a1f20da5214fb2a1f20de37.jpg
+    url: /files/original/14fb2a1f20da5214fb2a1f20de37.jpg
 geo:
 id: 13231
 item_type: Still Image

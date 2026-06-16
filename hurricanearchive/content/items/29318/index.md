@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: buildingis_90fee9094c.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce8c80c214fb29ce8c84a7.pdf
+    url: /files/original/14fb29ce8c80c214fb29ce8c84a7.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Chenoweth, Richard(825).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87073178c14fbe870731b6e.doc
+    url: /files/original/14fbe87073178c14fbe870731b6e.doc
 geo:
 id: 45649
 item_type: Oral History

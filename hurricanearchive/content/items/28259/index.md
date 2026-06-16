@@ -21,12 +21,12 @@ dublin_core:
       text: FamiilyCUs
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d27b935214fb29d27b978b.jpg
+  - fullsize: /files/fullsize/14fb29d27b935214fb29d27b978b.jpg
     id: 23412
     mime: image/jpg
     original_filename: 385028115_e58e4dd501.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d27b935214fb29d27b978b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d27b935214fb29d27b978b.jpg
+    thumb: /files/thumbnails/14fb29d27b935214fb29d27b978b.jpg
+    url: /files/original/14fb29d27b935214fb29d27b978b.jpg
 geo:
 id: 28259
 item_type: Still Image

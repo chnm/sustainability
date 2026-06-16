@@ -14,12 +14,12 @@ dublin_core:
       text: The Corner of My House
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/f03241e73c4d2ebc351118bf7b7b5d41.jpg
+  - fullsize: /files/fullsize/f03241e73c4d2ebc351118bf7b7b5d41.jpg
     id: 46549
     mime: image/jpeg
     original_filename: image.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/f03241e73c4d2ebc351118bf7b7b5d41.jpg
-    url: https://hurricanearchive.org/files/original/f03241e73c4d2ebc351118bf7b7b5d41.jpg
+    thumb: /files/thumbnails/f03241e73c4d2ebc351118bf7b7b5d41.jpg
+    url: /files/original/f03241e73c4d2ebc351118bf7b7b5d41.jpg
 geo:
   address: 4862 Treves st
   lat: 30.039201

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Perkins, Louise.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8716af49914fbe8716af880.doc
+    url: /files/original/14fbe8716af49914fbe8716af880.doc
 geo:
 id: 45807
 item_type: Oral History

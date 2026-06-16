@@ -15,12 +15,12 @@ dublin_core:
       text: MPs with water.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b17f28414fb2a1b17fdf4.jpg
+  - fullsize: /files/fullsize/14fb2a1b17f28414fb2a1b17fdf4.jpg
     id: 11811
     mime: image/jpeg
     original_filename: MPs with water.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b17f28414fb2a1b17fdf4.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b17f28414fb2a1b17fdf4.jpg
+    thumb: /files/thumbnails/14fb2a1b17f28414fb2a1b17fdf4.jpg
+    url: /files/original/14fb2a1b17f28414fb2a1b17fdf4.jpg
 geo:
   address: ''
   lat: 0.0

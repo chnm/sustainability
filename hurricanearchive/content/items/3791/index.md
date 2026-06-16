@@ -15,12 +15,12 @@ dublin_core:
       text: USS Alabama 3.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5996cea114fb2a5996ed58.jpg
+  - fullsize: /files/fullsize/14fb2a5996cea114fb2a5996ed58.jpg
     id: 3206
     mime: image/jpeg
     original_filename: USS Alabama 3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5996cea114fb2a5996ed58.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5996cea114fb2a5996ed58.jpg
+    thumb: /files/thumbnails/14fb2a5996cea114fb2a5996ed58.jpg
+    url: /files/original/14fb2a5996cea114fb2a5996ed58.jpg
 geo:
 id: 3791
 item_type: Still Image

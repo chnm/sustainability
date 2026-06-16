@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a18758dfe14fb2a18759546.jpg
+  - fullsize: /files/fullsize/14fb2a18758dfe14fb2a18759546.jpg
     id: 12133
     mime: image/jpeg
     original_filename: GoodShepherd_Alexia_Wilson_Blanket06_b9bdd0314e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a18758dfe14fb2a18759546.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a18758dfe14fb2a18759546.jpg
+    thumb: /files/thumbnails/14fb2a18758dfe14fb2a18759546.jpg
+    url: /files/original/14fb2a18758dfe14fb2a18759546.jpg
 geo:
 id: 14669
 item_type: Still Image

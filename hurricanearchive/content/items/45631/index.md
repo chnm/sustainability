@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Beard, Gwendolyn((807).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87058163f14fbe870581a19.doc
+    url: /files/original/14fbe87058163f14fbe870581a19.doc
 geo:
 id: 45631
 item_type: Oral History

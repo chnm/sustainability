@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6956.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d2322ab314fb29d2322ea2.jpg
+  - fullsize: /files/fullsize/14fb29d2322ab314fb29d2322ea2.jpg
     id: 23444
     mime: image/jpg
     original_filename: 162411422_471f0d3248.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d2322ab314fb29d2322ea2.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d2322ab314fb29d2322ea2.jpg
+    thumb: /files/thumbnails/14fb29d2322ab314fb29d2322ea2.jpg
+    url: /files/original/14fb29d2322ab314fb29d2322ea2.jpg
 geo:
 id: 28593
 item_type: Still Image

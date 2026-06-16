@@ -21,12 +21,12 @@ dublin_core:
       text: 1068 Clipper Dr. Clipper Estates, Slidell, La.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca4c526b14fb29ca4c5450.jpg
+  - fullsize: /files/fullsize/14fb29ca4c526b14fb29ca4c5450.jpg
     id: 24222
     mime: image/jpg
     original_filename: 2380072463_20d21e73c3.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca4c526b14fb29ca4c5450.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca4c526b14fb29ca4c5450.jpg
+    thumb: /files/thumbnails/14fb29ca4c526b14fb29ca4c5450.jpg
+    url: /files/original/14fb29ca4c526b14fb29ca4c5450.jpg
 geo:
   address: ''
   lat: 30.22894

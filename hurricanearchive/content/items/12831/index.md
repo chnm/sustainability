@@ -15,12 +15,12 @@ dublin_core:
       text: 17street-canal1029.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a21a6979514fb2a21a69b78.jpg
+  - fullsize: /files/fullsize/14fb2a21a6979514fb2a21a69b78.jpg
     id: 10975
     mime: image/jpeg
     original_filename: 17street-canal1029.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a21a6979514fb2a21a69b78.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a21a6979514fb2a21a69b78.jpg
+    thumb: /files/thumbnails/14fb2a21a6979514fb2a21a69b78.jpg
+    url: /files/original/14fb2a21a6979514fb2a21a69b78.jpg
 geo:
 id: 12831
 item_type: Still Image

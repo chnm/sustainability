@@ -17,12 +17,12 @@ dublin_core:
       text: Brown Derby
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/0cf8c821f77ae63ec1b759a70fb7b6d8.jpg
+  - fullsize: /files/fullsize/0cf8c821f77ae63ec1b759a70fb7b6d8.jpg
     id: 46565
     mime: image/jpeg
     original_filename: brown derby.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/0cf8c821f77ae63ec1b759a70fb7b6d8.jpg
-    url: https://hurricanearchive.org/files/original/0cf8c821f77ae63ec1b759a70fb7b6d8.jpg
+    thumb: /files/thumbnails/0cf8c821f77ae63ec1b759a70fb7b6d8.jpg
+    url: /files/original/0cf8c821f77ae63ec1b759a70fb7b6d8.jpg
 geo:
   address: 3401 Baronne Street, New Orleans, La 70115
   lat: 29.9301642

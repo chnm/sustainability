@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a70e28ce514fb2a70e2922e.jpg
+  - fullsize: /files/fullsize/14fb2a70e28ce514fb2a70e2922e.jpg
     id: 111
     mime: image/jpeg
     original_filename: Fire_on_New_Orleans_Waterfront_a0df1a7791.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a70e28ce514fb2a70e2922e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a70e28ce514fb2a70e2922e.jpg
+    thumb: /files/thumbnails/14fb2a70e28ce514fb2a70e2922e.jpg
+    url: /files/original/14fb2a70e28ce514fb2a70e2922e.jpg
 geo:
   address: ''
   lat: 29.9549345496561

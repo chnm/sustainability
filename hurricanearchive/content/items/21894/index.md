@@ -15,12 +15,12 @@ dublin_core:
       text: Refinery at Carlisle LA.jpgsatellite
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb33f1ff14fb29fb33f64a.jpg
+  - fullsize: /files/fullsize/14fb29fb33f1ff14fb29fb33f64a.jpg
     id: 18845
     mime: image/jpeg
     original_filename: Refinery at Carlisle LA.jpgsatellite
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb33f1ff14fb29fb33f64a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb33f1ff14fb29fb33f64a.jpgsatellite
+    thumb: /files/thumbnails/14fb29fb33f1ff14fb29fb33f64a.jpg
+    url: /files/original/14fb29fb33f1ff14fb29fb33f64a.jpgsatellite
 geo:
 id: 21894
 item_type: Still Image

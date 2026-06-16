@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 285-J2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fada0d4714fb29fada113a.jpg
+  - fullsize: /files/fullsize/14fb29fada0d4714fb29fada113a.jpg
     id: 18905
     mime: image/jpeg
     original_filename: Picture 285-J2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fada0d4714fb29fada113a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fada0d4714fb29fada113a.jpg
+    thumb: /files/thumbnails/14fb29fada0d4714fb29fada113a.jpg
+    url: /files/original/14fb29fada0d4714fb29fada113a.jpg
 geo:
 id: 21954
 item_type: Still Image

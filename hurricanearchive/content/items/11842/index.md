@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Waveland-Matos.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2319984214fb2a23199c5f.doc
+    url: /files/original/14fb2a2319984214fb2a23199c5f.doc
 geo:
 id: 11842
 item_type: Document

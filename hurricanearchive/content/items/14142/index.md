@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: LTC Doug Mouton 7 Oct 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1b8037f414fb2a1b803cdb.wav
+    url: /files/original/14fb2a1b8037f414fb2a1b803cdb.wav
 geo:
   address: ''
   lat: 0.0

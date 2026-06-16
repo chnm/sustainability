@@ -15,12 +15,12 @@ dublin_core:
       text: Pussycat Caverns Theater 2
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c64cf9ee14fb29c64cfd43.jpg
+  - fullsize: /files/fullsize/14fb29c64cf9ee14fb29c64cfd43.jpg
     id: 24666
     mime: image/pjpeg
     original_filename: 70_91f95c5f81.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c64cf9ee14fb29c64cfd43.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c64cf9ee14fb29c64cfd43.jpg
+    thumb: /files/thumbnails/14fb29c64cf9ee14fb29c64cfd43.jpg
+    url: /files/original/14fb29c64cf9ee14fb29c64cfd43.jpg
 geo:
   address: Piety and Burgundy
   lat: 29.96482

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: corbinpannell.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c4050214fb2a23c40cc7.html
+    url: /files/original/14fb2a23c4050214fb2a23c40cc7.html
 geo:
 id: 11723
 item_type: Oral History

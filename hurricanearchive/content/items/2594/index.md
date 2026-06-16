@@ -18,12 +18,12 @@ dublin_core:
       text: 20060101_MG_9513.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a64681a5714fb2a646824ce.jpg
+  - fullsize: /files/fullsize/14fb2a64681a5714fb2a646824ce.jpg
     id: 2076
     mime: image/jpeg
     original_filename: 20060101_MG_9513.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a64681a5714fb2a646824ce.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a64681a5714fb2a646824ce.jpg
+    thumb: /files/thumbnails/14fb2a64681a5714fb2a646824ce.jpg
+    url: /files/original/14fb2a64681a5714fb2a646824ce.jpg
 geo:
 id: 2594
 item_type: Still Image

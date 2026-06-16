@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Beaviour Beach Pics.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2385dd3814fb2a2385e1b1.doc
+    url: /files/original/14fb2a2385dd3814fb2a2385e1b1.doc
 geo:
 id: 11770
 item_type: Document

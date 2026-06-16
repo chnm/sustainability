@@ -17,12 +17,12 @@ dublin_core:
       text: Lakeview Presbyterian_2
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c93997e614fb29c939a36a.jpg
+  - fullsize: /files/fullsize/14fb29c93997e614fb29c939a36a.jpg
     id: 24403
     mime: image/jpg
     original_filename: 2421713500_ec91749f9d.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c93997e614fb29c939a36a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c93997e614fb29c939a36a.jpg
+    thumb: /files/thumbnails/14fb29c93997e614fb29c939a36a.jpg
+    url: /files/original/14fb29c93997e614fb29c939a36a.jpg
 geo:
   address: ''
   lat: 29.99774

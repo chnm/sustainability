@@ -24,12 +24,12 @@ dublin_core:
       text: Coast Guard Helicopter Rescue in New Orleans
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66bde5ef14fb2a66bdea64.jpg
+  - fullsize: /files/fullsize/14fb2a66bde5ef14fb2a66bdea64.jpg
     id: 1885
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05BV1_a37ca49db6.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66bde5ef14fb2a66bdea64.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66bde5ef14fb2a66bdea64.jpg
+    thumb: /files/thumbnails/14fb2a66bde5ef14fb2a66bdea64.jpg
+    url: /files/original/14fb2a66bde5ef14fb2a66bdea64.jpg
 geo:
 id: 2393
 item_type: Still Image

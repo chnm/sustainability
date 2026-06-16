@@ -24,12 +24,12 @@ dublin_core:
       text: Aborbing Surface Oil from Bass oil spill
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a667ecefe14fb2a667ed7aa.jpg
+  - fullsize: /files/fullsize/14fb2a667ecefe14fb2a667ed7aa.jpg
     id: 1914
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05CDM_f249bd0a9e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a667ecefe14fb2a667ed7aa.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a667ecefe14fb2a667ed7aa.jpg
+    thumb: /files/thumbnails/14fb2a667ecefe14fb2a667ed7aa.jpg
+    url: /files/original/14fb2a667ecefe14fb2a667ed7aa.jpg
 geo:
 id: 2422
 item_type: Still Image

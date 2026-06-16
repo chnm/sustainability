@@ -15,12 +15,12 @@ dublin_core:
       text: 191 scared dogs1.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f6d4dc214fb2a1f6d51a8.jpg
+  - fullsize: /files/fullsize/14fb2a1f6d4dc214fb2a1f6d51a8.jpg
     id: 11208
     mime: image/jpeg
     original_filename: 191 scared dogs1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f6d4dc214fb2a1f6d51a8.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f6d4dc214fb2a1f6d51a8.jpg
+    thumb: /files/thumbnails/14fb2a1f6d4dc214fb2a1f6d51a8.jpg
+    url: /files/original/14fb2a1f6d4dc214fb2a1f6d51a8.jpg
 geo:
 id: 13198
 item_type: Still Image

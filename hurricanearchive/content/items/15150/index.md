@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a16e93a6d14fb2a16e94247.jpg
+  - fullsize: /files/fullsize/14fb2a16e93a6d14fb2a16e94247.jpg
     id: 12312
     mime: image/pjpeg
     original_filename: Cousins 1959_5a9129dafc.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a16e93a6d14fb2a16e94247.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a16e93a6d14fb2a16e94247.jpg
+    thumb: /files/thumbnails/14fb2a16e93a6d14fb2a16e94247.jpg
+    url: /files/original/14fb2a16e93a6d14fb2a16e94247.jpg
 geo:
   address: ''
   lat: 37.77123

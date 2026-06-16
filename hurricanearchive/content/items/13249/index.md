@@ -15,12 +15,12 @@ dublin_core:
       text: george phoning.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1ea2e89c14fb2a1ea2ec91.jpg
+  - fullsize: /files/fullsize/14fb2a1ea2e89c14fb2a1ea2ec91.jpg
     id: 11259
     mime: image/jpeg
     original_filename: george phoning.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1ea2e89c14fb2a1ea2ec91.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1ea2e89c14fb2a1ea2ec91.jpg
+    thumb: /files/thumbnails/14fb2a1ea2e89c14fb2a1ea2ec91.jpg
+    url: /files/original/14fb2a1ea2e89c14fb2a1ea2ec91.jpg
 geo:
 id: 13249
 item_type: Still Image

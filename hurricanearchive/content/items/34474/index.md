@@ -21,12 +21,12 @@ dublin_core:
       text: Colapsed Twin Span Bridge
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9d920c814fb29c9d92673.jpg
+  - fullsize: /files/fullsize/14fb29c9d920c814fb29c9d92673.jpg
     id: 24308
     mime: image/jpg
     original_filename: 2326882488_64718185dd.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9d920c814fb29c9d92673.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9d920c814fb29c9d92673.jpg
+    thumb: /files/thumbnails/14fb29c9d920c814fb29c9d92673.jpg
+    url: /files/original/14fb29c9d920c814fb29c9d92673.jpg
 geo:
   address: ''
   lat: 30.20935

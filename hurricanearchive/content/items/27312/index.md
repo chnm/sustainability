@@ -17,12 +17,12 @@ dublin_core:
       text: Objects in the Mud
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d520914914fb29d5209892.jpg
+  - fullsize: /files/fullsize/14fb29d520914914fb29d5209892.jpg
     id: 23199
     mime: image/jpg
     original_filename: 336697588_453d169df4.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d520914914fb29d5209892.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d520914914fb29d5209892.jpg
+    thumb: /files/thumbnails/14fb29d520914914fb29d5209892.jpg
+    url: /files/original/14fb29d520914914fb29d5209892.jpg
 geo:
 id: 27312
 item_type: Still Image

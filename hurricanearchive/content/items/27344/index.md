@@ -17,12 +17,12 @@ dublin_core:
       text: St. Bernard Parish Line
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d455e86914fb29d45619e2.jpg
+  - fullsize: /files/fullsize/14fb29d455e86914fb29d45619e2.jpg
     id: 23231
     mime: image/jpg
     original_filename: 336695436_b10acaef90.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d455e86914fb29d45619e2.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d455e86914fb29d45619e2.jpg
+    thumb: /files/thumbnails/14fb29d455e86914fb29d45619e2.jpg
+    url: /files/original/14fb29d455e86914fb29d45619e2.jpg
 geo:
 id: 27344
 item_type: Still Image

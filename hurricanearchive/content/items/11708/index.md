@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Tara Sims.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23d4960e14fb2a23d4dc7c.html
+    url: /files/original/14fb2a23d4960e14fb2a23d4dc7c.html
 geo:
 id: 11708
 item_type: Oral History

@@ -24,12 +24,12 @@ dublin_core:
       text: Damage at USCG Station Sabine, TX
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66c91c1714fb2a66c92280.jpg
+  - fullsize: /files/fullsize/14fb2a66c91c1714fb2a66c92280.jpg
     id: 1875
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_RITA_05C84_4cc33c101b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66c91c1714fb2a66c92280.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66c91c1714fb2a66c92280.jpg
+    thumb: /files/thumbnails/14fb2a66c91c1714fb2a66c92280.jpg
+    url: /files/original/14fb2a66c91c1714fb2a66c92280.jpg
 geo:
 id: 2383
 item_type: Still Image

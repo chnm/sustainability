@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 10 2006 Utility wants Rita bonds.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a36079a5014fb2a36079e35.txt
+    url: /files/original/14fb2a36079a5014fb2a36079e35.txt
 geo:
   address: ''
   lat: 0.0

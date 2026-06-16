@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: johnscottlott.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23bd30fb14fb2a23bd34e0.html
+    url: /files/original/14fb2a23bd30fb14fb2a23bd34e0.html
 geo:
 id: 11733
 item_type: Oral History

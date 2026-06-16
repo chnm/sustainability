@@ -20,7 +20,7 @@ files:
     mime: application/x-zip-compressed
     original_filename: cornellspringbreaktrip_c42d66bafa.zip
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1883d3a314fb2a1883d78a.zip
+    url: /files/original/14fb2a1883d3a314fb2a1883d78a.zip
 geo:
 id: 14601
 item_type: Document

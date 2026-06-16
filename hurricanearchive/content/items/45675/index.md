@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Garcia, Rene.trs English.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870b2de3214fbe870b307e0.doc
+    url: /files/original/14fbe870b2de3214fbe870b307e0.doc
 geo:
 id: 45675
 item_type: Oral History

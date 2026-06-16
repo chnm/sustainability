@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a70b90daa14fb2a70b9118f.jpg
+  - fullsize: /files/fullsize/14fb2a70b90daa14fb2a70b9118f.jpg
     id: 141
     mime: image/jpeg
     original_filename: lakeview_7cc092bbe8.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a70b90daa14fb2a70b9118f.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a70b90daa14fb2a70b9118f.jpg
+    thumb: /files/thumbnails/14fb2a70b90daa14fb2a70b9118f.jpg
+    url: /files/original/14fb2a70b90daa14fb2a70b9118f.jpg
 geo:
   address: ''
   lat: 29.9138764383176

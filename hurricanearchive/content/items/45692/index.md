@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Gray, Lamar.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870c9bafb14fbe870c9bee2.doc
+    url: /files/original/14fbe870c9bafb14fbe870c9bee2.doc
 geo:
 id: 45692
 item_type: Oral History

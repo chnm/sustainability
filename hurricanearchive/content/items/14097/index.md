@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: CPL William Howland 2 Oct 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1bc78af114fb2a1bc78eb4.wav
+    url: /files/original/14fb2a1bc78af114fb2a1bc78eb4.wav
 geo:
   address: ''
   lat: 0.0

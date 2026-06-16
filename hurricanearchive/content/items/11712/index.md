@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Tristan Dale Brown.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23ca35bd14fb2a23ca3bf5.htm
+    url: /files/original/14fb2a23ca35bd14fb2a23ca3bf5.htm
 geo:
 id: 11712
 item_type: Oral History

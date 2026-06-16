@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: true
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbf8fc2d14fb29cbf90012.jpg
+  - fullsize: /files/fullsize/14fb29cbf8fc2d14fb29cbf90012.jpg
     id: 23985
     mime: image/pjpeg
     original_filename: l_8d6475e205df2ab7e330a2388eff3881_e884aeca75.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbf8fc2d14fb29cbf90012.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbf8fc2d14fb29cbf90012.jpg
+    thumb: /files/thumbnails/14fb29cbf8fc2d14fb29cbf90012.jpg
+    url: /files/original/14fb29cbf8fc2d14fb29cbf90012.jpg
 geo:
   address: St. Bernard Parish
   lat: 32.32883

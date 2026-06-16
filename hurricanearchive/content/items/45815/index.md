@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Prendergast, Michael.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87199b79a14fbe87199c404.doc
+    url: /files/original/14fbe87199b79a14fbe87199c404.doc
 geo:
 id: 45815
 item_type: Oral History

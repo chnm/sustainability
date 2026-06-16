@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Jones, Mark.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870f3779614fbe870f37b85.doc
+    url: /files/original/14fbe870f3779614fbe870f37b85.doc
 geo:
 id: 45724
 item_type: Oral History

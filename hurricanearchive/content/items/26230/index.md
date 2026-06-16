@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d9957a6a14fb29d995a9d8.jpg
+  - fullsize: /files/fullsize/14fb29d9957a6a14fb29d995a9d8.jpg
     id: 22811
     mime: image/jpeg
     original_filename: AB Bunkie_901848bc10.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d9957a6a14fb29d995a9d8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d9957a6a14fb29d995a9d8.jpg
+    thumb: /files/thumbnails/14fb29d9957a6a14fb29d995a9d8.jpg
+    url: /files/original/14fb29d9957a6a14fb29d995a9d8.jpg
 geo:
   address: ''
   lat: 29.91685

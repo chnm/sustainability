@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Brian Wideman.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e32345e14fb2a5e323841.wav
+    url: /files/original/14fb2a5e32345e14fb2a5e323841.wav
 geo:
 id: 3067
 item_type: Oral History

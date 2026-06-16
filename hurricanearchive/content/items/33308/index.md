@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_dc81e3c3e4.The guarantees of Virginia Tech.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cad5a40a14fb29cad5a7ef.doc
+    url: /files/original/14fb29cad5a40a14fb29cad5a7ef.doc
 geo:
 id: 33308
 item_type: Document

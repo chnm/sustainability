@@ -24,12 +24,12 @@ dublin_core:
       text: Inspecting Shrimp Boats still Ashore
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6662557e14fb2a6662fddf.jpg
+  - fullsize: /files/fullsize/14fb2a6662557e14fb2a6662fddf.jpg
     id: 1921
     mime: image/jpeg
     original_filename: apuscg_KATRINA_FOR_R_05D01_1ebb5b1675.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6662557e14fb2a6662fddf.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6662557e14fb2a6662fddf.jpg
+    thumb: /files/thumbnails/14fb2a6662557e14fb2a6662fddf.jpg
+    url: /files/original/14fb2a6662557e14fb2a6662fddf.jpg
 geo:
 id: 2429
 item_type: Still Image

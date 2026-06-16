@@ -17,12 +17,12 @@ dublin_core:
       text: Katrina Timeline
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc002de014fb29cc0031c2.jpg
+  - fullsize: /files/fullsize/14fb29cc002de014fb29cc0031c2.jpg
     id: 23979
     mime: image/jpg
     original_filename: 1280710850_9ece32e7b2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc002de014fb29cc0031c2.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc002de014fb29cc0031c2.jpg
+    thumb: /files/thumbnails/14fb29cc002de014fb29cc0031c2.jpg
+    url: /files/original/14fb29cc002de014fb29cc0031c2.jpg
 geo:
 id: 32137
 item_type: Still Image

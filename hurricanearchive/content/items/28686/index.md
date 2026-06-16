@@ -14,12 +14,12 @@ dublin_core:
       text: My badge when volunteering for Hurricanes Katrina and Rita at the Cajun Dome
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1be311814fb29d1be34fe.jpg
+  - fullsize: /files/fullsize/14fb29d1be311814fb29d1be34fe.jpg
     id: 23531
     mime: image/jpg
     original_filename: 150724276_755fdd5669.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1be311814fb29d1be34fe.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1be311814fb29d1be34fe.jpg
+    thumb: /files/thumbnails/14fb29d1be311814fb29d1be34fe.jpg
+    url: /files/original/14fb29d1be311814fb29d1be34fe.jpg
 geo:
 id: 28686
 item_type: Still Image

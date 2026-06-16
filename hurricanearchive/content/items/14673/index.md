@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1866a04614fb2a1866a42b.jpg
+  - fullsize: /files/fullsize/14fb2a1866a04614fb2a1866a42b.jpg
     id: 12137
     mime: image/jpeg
     original_filename: GoodShepherd_AlijahOConnor_01_627d91a4b3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1866a04614fb2a1866a42b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1866a04614fb2a1866a42b.jpg
+    thumb: /files/thumbnails/14fb2a1866a04614fb2a1866a42b.jpg
+    url: /files/original/14fb2a1866a04614fb2a1866a42b.jpg
 geo:
 id: 14673
 item_type: Still Image

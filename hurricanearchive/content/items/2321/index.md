@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6d53442114fb2a6d534807.jpg
+  - fullsize: /files/fullsize/14fb2a6d53442114fb2a6d534807.jpg
     id: 909
     mime: image/jpeg
     original_filename: Julias_grandson_6d8c101e25.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6d53442114fb2a6d534807.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6d53442114fb2a6d534807.jpg
+    thumb: /files/thumbnails/14fb2a6d53442114fb2a6d534807.jpg
+    url: /files/original/14fb2a6d53442114fb2a6d534807.jpg
 geo:
   address: ''
   lat: 30.342352

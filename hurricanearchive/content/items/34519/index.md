@@ -20,12 +20,12 @@ dublin_core:
       text: After debris was removed at Anna & Nick Leggio\'s home on Jacqueline
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c996a5a814fb29c996b7fb.jpg
+  - fullsize: /files/fullsize/14fb29c996a5a814fb29c996b7fb.jpg
     id: 24353
     mime: image/jpg
     original_filename: 2291225385_48ce2544fa.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c996a5a814fb29c996b7fb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c996a5a814fb29c996b7fb.jpg
+    thumb: /files/thumbnails/14fb29c996a5a814fb29c996b7fb.jpg
+    url: /files/original/14fb29c996a5a814fb29c996b7fb.jpg
 geo:
   address: ''
   lat: 30.22539

@@ -21,12 +21,12 @@ dublin_core:
       text: Eddie & Renee Lewis\' Home on Olive in Slidell
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9b0c25214fb29c9b0c42c.jpg
+  - fullsize: /files/fullsize/14fb29c9b0c25214fb29c9b0c42c.jpg
     id: 24329
     mime: image/jpg
     original_filename: 2309992149_cfe23ade6d.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9b0c25214fb29c9b0c42c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9b0c25214fb29c9b0c42c.jpg
+    thumb: /files/thumbnails/14fb29c9b0c25214fb29c9b0c42c.jpg
+    url: /files/original/14fb29c9b0c25214fb29c9b0c42c.jpg
 geo:
 id: 34495
 item_type: Still Image

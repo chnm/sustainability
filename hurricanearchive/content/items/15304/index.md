@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a16a3a13e14fb2a16a3a63a.jpg
+  - fullsize: /files/fullsize/14fb2a16a3a13e14fb2a16a3a63a.jpg
     id: 12373
     mime: image/jpeg
     original_filename: CHenderson-4_691b6f160e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a16a3a13e14fb2a16a3a63a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a16a3a13e14fb2a16a3a63a.jpg
+    thumb: /files/thumbnails/14fb2a16a3a13e14fb2a16a3a63a.jpg
+    url: /files/original/14fb2a16a3a13e14fb2a16a3a63a.jpg
 geo:
 id: 15304
 item_type: Still Image

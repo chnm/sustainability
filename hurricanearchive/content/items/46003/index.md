@@ -17,12 +17,12 @@ dublin_core:
       text: Lakeview
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/336d059c93e90b6ccd57019512513750.jpg
+  - fullsize: /files/fullsize/336d059c93e90b6ccd57019512513750.jpg
     id: 46583
     mime: image/jpeg
     original_filename: flooding_kenner_hurricane_katrina.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/336d059c93e90b6ccd57019512513750.jpg
-    url: https://hurricanearchive.org/files/original/336d059c93e90b6ccd57019512513750.JPG
+    thumb: /files/thumbnails/336d059c93e90b6ccd57019512513750.jpg
+    url: /files/original/336d059c93e90b6ccd57019512513750.JPG
 geo:
   address: 400 tacoma street  New orleans, louisiana
   lat: 30.0101311

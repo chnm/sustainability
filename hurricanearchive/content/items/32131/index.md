@@ -21,12 +21,12 @@ dublin_core:
       text: Cleveland Street House
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc064be214fb29cc064fd1.jpg
+  - fullsize: /files/fullsize/14fb29cc064be214fb29cc064fd1.jpg
     id: 23974
     mime: image/jpeg
     original_filename: clevelandst_bd7a693d7b.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc064be214fb29cc064fd1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc064be214fb29cc064fd1.jpg
+    thumb: /files/thumbnails/14fb29cc064be214fb29cc064fd1.jpg
+    url: /files/original/14fb29cc064be214fb29cc064fd1.jpg
 geo:
   address: 3428 Cleveland St
   lat: 0.0

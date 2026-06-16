@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 1947superdome.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e046c11614fb29e046c4fc.jpg
+  - fullsize: /files/fullsize/14fb29e046c11614fb29e046c4fc.jpg
     id: 22191
     mime: image/jpeg
     original_filename: DSC 1947superdome.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e046c11614fb29e046c4fc.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e046c11614fb29e046c4fc.jpg
+    thumb: /files/thumbnails/14fb29e046c11614fb29e046c4fc.jpg
+    url: /files/original/14fb29e046c11614fb29e046c4fc.jpg
 geo:
 id: 25249
 item_type: Still Image

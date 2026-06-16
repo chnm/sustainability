@@ -15,12 +15,12 @@ dublin_core:
       text: flying debris1.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2058d82414fb2a2058dc0a.jpg
+  - fullsize: /files/fullsize/14fb2a2058d82414fb2a2058dc0a.jpg
     id: 11121
     mime: image/jpeg
     original_filename: flying debris1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2058d82414fb2a2058dc0a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2058d82414fb2a2058dc0a.jpg
+    thumb: /files/thumbnails/14fb2a2058d82414fb2a2058dc0a.jpg
+    url: /files/original/14fb2a2058d82414fb2a2058dc0a.jpg
 geo:
 id: 13111
 item_type: Still Image

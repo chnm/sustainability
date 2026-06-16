@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Biloxi Pics 2.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a238475c014fb2a238479e0.doc
+    url: /files/original/14fb2a238475c014fb2a238479e0.doc
 geo:
 id: 11772
 item_type: Document

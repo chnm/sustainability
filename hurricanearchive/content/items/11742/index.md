@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: marianneoglerree.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23b6d07c14fb2a23b6d461.html
+    url: /files/original/14fb2a23b6d07c14fb2a23b6d461.html
 geo:
 id: 11742
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: 181 flooded car2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f7d50d614fb2a1f7d54bb.jpg
+  - fullsize: /files/fullsize/14fb2a1f7d50d614fb2a1f7d54bb.jpg
     id: 11198
     mime: image/jpeg
     original_filename: 181 flooded car2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f7d50d614fb2a1f7d54bb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f7d50d614fb2a1f7d54bb.jpg
+    thumb: /files/thumbnails/14fb2a1f7d50d614fb2a1f7d54bb.jpg
+    url: /files/original/14fb2a1f7d50d614fb2a1f7d54bb.jpg
 geo:
 id: 13188
 item_type: Still Image

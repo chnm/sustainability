@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a179e3e4014fb2a179e49da.jpg
+  - fullsize: /files/fullsize/14fb2a179e3e4014fb2a179e49da.jpg
     id: 12223
     mime: image/jpeg
     original_filename: GoodShepherd_TiaRobinson_01_7f2f9acd13.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a179e3e4014fb2a179e49da.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a179e3e4014fb2a179e49da.jpg
+    thumb: /files/thumbnails/14fb2a179e3e4014fb2a179e49da.jpg
+    url: /files/original/14fb2a179e3e4014fb2a179e49da.jpg
 geo:
 id: 14805
 item_type: Still Image

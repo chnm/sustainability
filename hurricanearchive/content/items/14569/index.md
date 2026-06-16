@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: Research Projects 12_28_05_ceb5e36885.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18d46be714fb2a18d46fc9.doc
+    url: /files/original/14fb2a18d46be714fb2a18d46fc9.doc
 geo:
 id: 14569
 item_type: Document

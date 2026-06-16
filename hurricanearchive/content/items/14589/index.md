@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: SHN_Winterbreak summary_df194db54a.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1891bbc214fb2a1891bfa9.doc
+    url: /files/original/14fb2a1891bbc214fb2a1891bfa9.doc
 geo:
 id: 14589
 item_type: Document

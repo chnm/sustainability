@@ -15,12 +15,12 @@ dublin_core:
       text: hallDSC 0065.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fc17e3db14fb29fc17e7c2.jpg
+  - fullsize: /files/fullsize/14fb29fc17e3db14fb29fc17e7c2.jpg
     id: 18682
     mime: image/jpeg
     original_filename: hallDSC 0065.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fc17e3db14fb29fc17e7c2.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fc17e3db14fb29fc17e7c2.jpg
+    thumb: /files/thumbnails/14fb29fc17e3db14fb29fc17e7c2.jpg
+    url: /files/original/14fb29fc17e3db14fb29fc17e7c2.jpg
 geo:
 id: 21731
 item_type: Still Image

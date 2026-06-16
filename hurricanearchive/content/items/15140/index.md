@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a16f5127114fb2a16f51655.jpg
+  - fullsize: /files/fullsize/14fb2a16f5127114fb2a16f51655.jpg
     id: 12302
     mime: image/pjpeg
     original_filename: IMG_6394_8415113c40.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a16f5127114fb2a16f51655.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a16f5127114fb2a16f51655.jpg
+    thumb: /files/thumbnails/14fb2a16f5127114fb2a16f51655.jpg
+    url: /files/original/14fb2a16f5127114fb2a16f51655.jpg
 geo:
   address: ''
   lat: 37.77123

@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f6e7c8314fb2a6f6e8071.jpg
+  - fullsize: /files/fullsize/14fb2a6f6e7c8314fb2a6f6e8071.jpg
     id: 437
     mime: image/jpeg
     original_filename: Tylertown4_032_fec6a645f0.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f6e7c8314fb2a6f6e8071.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f6e7c8314fb2a6f6e8071.jpg
+    thumb: /files/thumbnails/14fb2a6f6e7c8314fb2a6f6e8071.jpg
+    url: /files/original/14fb2a6f6e7c8314fb2a6f6e8071.jpg
 geo:
   address: ''
   lat: 31.1376032700213

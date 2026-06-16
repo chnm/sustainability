@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a171bf12b14fb2a171bf511.jpg
+  - fullsize: /files/fullsize/14fb2a171bf12b14fb2a171bf511.jpg
     id: 12266
     mime: image/jpeg
     original_filename: March7a (23)-6_c9f8c49676.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a171bf12b14fb2a171bf511.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a171bf12b14fb2a171bf511.jpg
+    thumb: /files/thumbnails/14fb2a171bf12b14fb2a171bf511.jpg
+    url: /files/original/14fb2a171bf12b14fb2a171bf511.jpg
 geo:
 id: 15106
 item_type: Still Image

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Robinson, Rucks.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871add79e14fbe871addb83.doc
+    url: /files/original/14fbe871add79e14fbe871addb83.doc
 geo:
 id: 45826
 item_type: Oral History

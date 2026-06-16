@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Maher HK4192K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a164c4eeb14fb2a164c519d.mp3
+    url: /files/original/14fb2a164c4eeb14fb2a164c519d.mp3
 geo:
 id: 15403
 item_type: Oral History

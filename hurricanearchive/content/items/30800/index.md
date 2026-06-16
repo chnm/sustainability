@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 065.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc67922014fb29cc67bf5f.jpg
+  - fullsize: /files/fullsize/14fb29cc67922014fb29cc67bf5f.jpg
     id: 23900
     mime: image/jpeg
     original_filename: Picture 065.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc67922014fb29cc67bf5f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc67922014fb29cc67bf5f.jpg
+    thumb: /files/thumbnails/14fb29cc67922014fb29cc67bf5f.jpg
+    url: /files/original/14fb29cc67922014fb29cc67bf5f.jpg
 geo:
 id: 30800
 item_type: Still Image

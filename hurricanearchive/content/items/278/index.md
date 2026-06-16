@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a7059ebfa14fb2a7059f654.jpg
+  - fullsize: /files/fullsize/14fb2a7059ebfa14fb2a7059f654.jpg
     id: 205
     mime: image/jpeg
     original_filename: cornerstore_79f8605650.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a7059ebfa14fb2a7059f654.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a7059ebfa14fb2a7059f654.jpg
+    thumb: /files/thumbnails/14fb2a7059ebfa14fb2a7059f654.jpg
+    url: /files/original/14fb2a7059ebfa14fb2a7059f654.jpg
 geo:
   address: ''
   lat: 30.0092063834854

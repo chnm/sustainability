@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Student Hurricane Network Fact Sheet_Draft_ff1e9d809e.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1891276614fb2a18912fa8.doc
+    url: /files/original/14fb2a1891276614fb2a18912fa8.doc
 geo:
 id: 14590
 item_type: Document

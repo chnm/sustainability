@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6e75420714fb2a6e754614.jpg
+  - fullsize: /files/fullsize/14fb2a6e75420714fb2a6e754614.jpg
     id: 691
     mime: image/jpeg
     original_filename: flood_GC_92405_d0f23519db.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6e75420714fb2a6e754614.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6e75420714fb2a6e754614.jpg
+    thumb: /files/thumbnails/14fb2a6e75420714fb2a6e754614.jpg
+    url: /files/original/14fb2a6e75420714fb2a6e754614.jpg
 geo:
   address: ''
   lat: 29.561855

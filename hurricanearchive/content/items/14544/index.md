@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: '[SHN] SHN Lobbying Effort Needs Your Help!!_08bd0b7153.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18e52ccf14fb2a18e52e57.doc
+    url: /files/original/14fb2a18e52ccf14fb2a18e52e57.doc
 geo:
 id: 14544
 item_type: Document

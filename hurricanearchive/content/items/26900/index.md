@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d6533ee314fb29d6534739.jpg
+  - fullsize: /files/fullsize/14fb29d6533ee314fb29d6534739.jpg
     id: 23083
     mime: image/jpeg
     original_filename: KJ St Marks 2 1970_f9c30a3287.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d6533ee314fb29d6534739.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d6533ee314fb29d6534739.jpg
+    thumb: /files/thumbnails/14fb29d6533ee314fb29d6534739.jpg
+    url: /files/original/14fb29d6533ee314fb29d6534739.jpg
 geo:
   address: ''
   lat: 29.87876

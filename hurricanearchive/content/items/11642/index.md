@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: George Frank Paine.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2466c29014fb2a2466c67e.htm
+    url: /files/original/14fb2a2466c29014fb2a2466c67e.htm
 geo:
 id: 11642
 item_type: Oral History

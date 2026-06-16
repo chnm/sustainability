@@ -15,12 +15,12 @@ dublin_core:
       text: CSA-2005-09-13-083957neworleansS&R.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29eb49a5f914fb29eb49b16d.jpg
+  - fullsize: /files/fullsize/14fb29eb49a5f914fb29eb49b16d.jpg
     id: 20984
     mime: image/jpeg
     original_filename: CSA-2005-09-13-083957neworleansS&R.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29eb49a5f914fb29eb49b16d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29eb49a5f914fb29eb49b16d.jpg
+    thumb: /files/thumbnails/14fb29eb49a5f914fb29eb49b16d.jpg
+    url: /files/original/14fb29eb49a5f914fb29eb49b16d.jpg
 geo:
 id: 24040
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: meganhoughton.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23b65f4814fb2a23b66324.html
+    url: /files/original/14fb2a23b65f4814fb2a23b66324.html
 geo:
 id: 11743
 item_type: Oral History

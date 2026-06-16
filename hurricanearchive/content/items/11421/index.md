@@ -22,7 +22,7 @@ files:
     mime: application/octet-stream
     original_filename: 91106call.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a24847eb314fb2a24848290.mp3
+    url: /files/original/14fb2a24847eb314fb2a24848290.mp3
 geo:
   address: ''
   lat: 0.0

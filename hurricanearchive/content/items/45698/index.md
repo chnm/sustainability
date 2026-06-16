@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Grimes, Bruce.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870ce23b214fbe870ce2797.doc
+    url: /files/original/14fbe870ce23b214fbe870ce2797.doc
 geo:
 id: 45698
 item_type: Oral History

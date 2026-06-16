@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c2300c0e14fb29c23059b5.jpg
+  - fullsize: /files/fullsize/14fb29c2300c0e14fb29c23059b5.jpg
     id: 25098
     mime: image/jpeg
     original_filename: CIMG0185_3f224f0af1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c2300c0e14fb29c23059b5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c2300c0e14fb29c23059b5.jpg
+    thumb: /files/thumbnails/14fb29c2300c0e14fb29c23059b5.jpg
+    url: /files/original/14fb29c2300c0e14fb29c23059b5.jpg
 geo:
   address: 13929 tudo dr. new orleans la
   lat: 30.04048

@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: StatementofPrinciples_3ff831db90.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18e194ce14fb2a18e19893.pdf
+    url: /files/original/14fb2a18e194ce14fb2a18e19893.pdf
 geo:
 id: 14549
 item_type: Document

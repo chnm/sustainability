@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Benvenutti, Charles.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87058c20b14fbe87058c5f1.doc
+    url: /files/original/14fbe87058c20b14fbe87058c5f1.doc
 geo:
 id: 45632
 item_type: Oral History

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Preble, John.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87194efd914fbe87194ffde.doc
+    url: /files/original/14fbe87194efd914fbe87194ffde.doc
 geo:
 id: 45814
 item_type: Oral History

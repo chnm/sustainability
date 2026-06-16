@@ -15,12 +15,12 @@ dublin_core:
       text: 050930-A-9722M-002mobilePAO.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f187848714fb29f1878877.jpg
+  - fullsize: /files/fullsize/14fb29f187848714fb29f1878877.jpg
     id: 20053
     mime: image/jpeg
     original_filename: 050930-A-9722M-002mobilePAO.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f187848714fb29f1878877.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f187848714fb29f1878877.jpg
+    thumb: /files/thumbnails/14fb29f187848714fb29f1878877.jpg
+    url: /files/original/14fb29f187848714fb29f1878877.jpg
 geo:
 id: 23109
 item_type: Still Image

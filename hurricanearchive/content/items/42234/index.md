@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c2a92e7214fb29c2a93258.jpg
+  - fullsize: /files/fullsize/14fb29c2a92e7214fb29c2a93258.jpg
     id: 25011
     mime: image/pjpeg
     original_filename: Abandoned%20dogs%20left%20stranded%20in%20the%20wake%20of%20Hurricane%20Katrina_244751036b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c2a92e7214fb29c2a93258.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c2a92e7214fb29c2a93258.jpg
+    thumb: /files/thumbnails/14fb29c2a92e7214fb29c2a93258.jpg
+    url: /files/original/14fb29c2a92e7214fb29c2a93258.jpg
 geo:
 id: 42234
 item_type: Still Image

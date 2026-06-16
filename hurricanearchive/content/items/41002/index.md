@@ -22,7 +22,7 @@ files:
     mime: application/pdf
     original_filename: FourYearsLater_758a6437f1.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c4b5a03814fb29c4b5a41e.pdf
+    url: /files/original/14fb29c4b5a03814fb29c4b5a41e.pdf
 geo:
   address: ''
   lat: 30.06984

@@ -15,12 +15,12 @@ dublin_core:
       text: LTC Mouton 7 Oct 05.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b73b76714fb2a1b73bd74.jpg
+  - fullsize: /files/fullsize/14fb2a1b73b76714fb2a1b73bd74.jpg
     id: 11788
     mime: image/jpeg
     original_filename: LTC Mouton 7 Oct 05.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b73b76714fb2a1b73bd74.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b73b76714fb2a1b73bd74.jpg
+    thumb: /files/thumbnails/14fb2a1b73b76714fb2a1b73bd74.jpg
+    url: /files/original/14fb2a1b73b76714fb2a1b73bd74.jpg
 geo:
   address: ''
   lat: 0.0

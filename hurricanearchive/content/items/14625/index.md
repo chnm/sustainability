@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a187ca5e514fb2a187ca9cc.jpg
+  - fullsize: /files/fullsize/14fb2a187ca5e514fb2a187ca9cc.jpg
     id: 12128
     mime: image/jpeg
     original_filename: wilton dr gutted_57ecb71cc3.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a187ca5e514fb2a187ca9cc.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a187ca5e514fb2a187ca9cc.jpg
+    thumb: /files/thumbnails/14fb2a187ca5e514fb2a187ca9cc.jpg
+    url: /files/original/14fb2a187ca5e514fb2a187ca9cc.jpg
 geo:
   address: 5748 Wilton Drive
   lat: 0.0

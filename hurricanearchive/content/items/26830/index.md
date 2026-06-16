@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d78c15d314fb29d78c1bfd.jpg
+  - fullsize: /files/fullsize/14fb29d78c15d314fb29d78c1bfd.jpg
     id: 23014
     mime: image/jpeg
     original_filename: chalmette faces 1972_96208b65a7.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d78c15d314fb29d78c1bfd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d78c15d314fb29d78c1bfd.jpg
+    thumb: /files/thumbnails/14fb29d78c15d314fb29d78c1bfd.jpg
+    url: /files/original/14fb29d78c15d314fb29d78c1bfd.jpg
 geo:
 id: 26830
 item_type: Still Image

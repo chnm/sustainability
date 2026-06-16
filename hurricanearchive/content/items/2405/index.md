@@ -24,12 +24,12 @@ dublin_core:
       text: Marking a Home
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66b1290014fb2a66b12ce5.jpg
+  - fullsize: /files/fullsize/14fb2a66b1290014fb2a66b12ce5.jpg
     id: 1897
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05C01_43411a9011.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66b1290014fb2a66b12ce5.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66b1290014fb2a66b12ce5.jpg
+    thumb: /files/thumbnails/14fb2a66b1290014fb2a66b12ce5.jpg
+    url: /files/original/14fb2a66b1290014fb2a66b12ce5.jpg
 geo:
 id: 2405
 item_type: Still Image

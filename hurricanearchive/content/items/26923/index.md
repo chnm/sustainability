@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Hank Koeblar HK3256K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d637965a14fb29d6379b06.mp3
+    url: /files/original/14fb29d637965a14fb29d6379b06.mp3
 geo:
 id: 26923
 item_type: Oral History

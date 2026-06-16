@@ -17,12 +17,12 @@ dublin_core:
       text: No Longer \"Lovin\' It\"
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbc0e9b414fb29cbc0ed99.jpg
+  - fullsize: /files/fullsize/14fb29cbc0e9b414fb29cbc0ed99.jpg
     id: 24036
     mime: image/jpg
     original_filename: 1438868844_2efb066486.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbc0e9b414fb29cbc0ed99.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbc0e9b414fb29cbc0ed99.jpg
+    thumb: /files/thumbnails/14fb29cbc0e9b414fb29cbc0ed99.jpg
+    url: /files/original/14fb29cbc0e9b414fb29cbc0ed99.jpg
 geo:
 id: 33186
 item_type: Still Image

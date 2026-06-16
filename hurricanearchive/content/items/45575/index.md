@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Delgado, Deborah 9-05 Side 1 NG.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f44242614fbe86f44368e.mp3
+    url: /files/original/14fbe86f44242614fbe86f44368e.mp3
   - fullsize:
     id: 46069
     mime: audio/mpeg
     original_filename: Delgado, Deborah 9-05 Side 2 NG.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f451e1214fbe86f4521ef.mp3
+    url: /files/original/14fbe86f451e1214fbe86f4521ef.mp3
 geo:
 id: 45575
 item_type: Oral History

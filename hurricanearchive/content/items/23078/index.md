@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0088OEP.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f19ee1a814fb29f19ee586.jpg
+  - fullsize: /files/fullsize/14fb29f19ee1a814fb29f19ee586.jpg
     id: 20022
     mime: image/jpeg
     original_filename: DSC 0088OEP.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f19ee1a814fb29f19ee586.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f19ee1a814fb29f19ee586.jpg
+    thumb: /files/thumbnails/14fb29f19ee1a814fb29f19ee586.jpg
+    url: /files/original/14fb29f19ee1a814fb29f19ee586.jpg
 geo:
 id: 23078
 item_type: Still Image

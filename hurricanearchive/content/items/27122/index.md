@@ -17,12 +17,12 @@ dublin_core:
       text: Levee Break
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d5b31f2214fb29d5b32b7b.jpg
+  - fullsize: /files/fullsize/14fb29d5b31f2214fb29d5b32b7b.jpg
     id: 23144
     mime: image/jpg
     original_filename: 336698111_7786731d2b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d5b31f2214fb29d5b32b7b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d5b31f2214fb29d5b32b7b.jpg
+    thumb: /files/thumbnails/14fb29d5b31f2214fb29d5b32b7b.jpg
+    url: /files/original/14fb29d5b31f2214fb29d5b32b7b.jpg
 geo:
 id: 27122
 item_type: Still Image

@@ -26,7 +26,7 @@ files:
     mime: application/octet-stream
     original_filename: Perry_97c35e1044.Schools for Sale
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cb013b2714fb29cb0140b2.Schools for Sale
+    url: /files/original/14fb29cb013b2714fb29cb0140b2.Schools for Sale
 geo:
 id: 33283
 item_type: Document

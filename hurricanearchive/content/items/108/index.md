@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a7108a56114fb2a7108aa00.jpg
+  - fullsize: /files/fullsize/14fb2a7108a56114fb2a7108aa00.jpg
     id: 82
     mime: image/jpeg
     original_filename: military_57c147ce32.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a7108a56114fb2a7108aa00.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a7108a56114fb2a7108aa00.jpg
+    thumb: /files/thumbnails/14fb2a7108a56114fb2a7108aa00.jpg
+    url: /files/original/14fb2a7108a56114fb2a7108aa00.jpg
 geo:
   address: ''
   lat: 29.916852233070202

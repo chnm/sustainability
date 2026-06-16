@@ -22,7 +22,7 @@ files:
     mime: application/msword
     original_filename: Bob Englehart Political Cartoon_64e100f3c6.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d27f26914fb2a1d27f651.doc
+    url: /files/original/14fb2a1d27f26914fb2a1d27f651.doc
 geo:
 id: 13634
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: 141 our hidey hole.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1ff363b714fb2a1ff3679b.jpg
+  - fullsize: /files/fullsize/14fb2a1ff363b714fb2a1ff3679b.jpg
     id: 11161
     mime: image/jpeg
     original_filename: 141 our hidey hole.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1ff363b714fb2a1ff3679b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1ff363b714fb2a1ff3679b.jpg
+    thumb: /files/thumbnails/14fb2a1ff363b714fb2a1ff3679b.jpg
+    url: /files/original/14fb2a1ff363b714fb2a1ff3679b.jpg
 geo:
 id: 13151
 item_type: Still Image

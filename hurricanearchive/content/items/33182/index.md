@@ -17,12 +17,12 @@ dublin_core:
       text: Grounded Dock
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbcba6f014fb29cbcbaad5.jpg
+  - fullsize: /files/fullsize/14fb29cbcba6f014fb29cbcbaad5.jpg
     id: 24032
     mime: image/jpg
     original_filename: 1439837542_7a6e520c71.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbcba6f014fb29cbcbaad5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbcba6f014fb29cbcbaad5.jpg
+    thumb: /files/thumbnails/14fb29cbcba6f014fb29cbcbaad5.jpg
+    url: /files/original/14fb29cbcba6f014fb29cbcbaad5.jpg
 geo:
   address: ''
   lat: 29.95916

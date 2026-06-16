@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c39a810514fb29c39a90d9.jpg
+  - fullsize: /files/fullsize/14fb29c39a810514fb29c39a90d9.jpg
     id: 24921
     mime: image/jpeg
     original_filename: Wingate1_bc23800556.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c39a810514fb29c39a90d9.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c39a810514fb29c39a90d9.jpg
+    thumb: /files/thumbnails/14fb29c39a810514fb29c39a90d9.jpg
+    url: /files/original/14fb29c39a810514fb29c39a90d9.jpg
 geo:
   address: ''
   lat: 30.01853

@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 367-J2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f9f391cc14fb29f9f395b1.jpg
+  - fullsize: /files/fullsize/14fb29f9f391cc14fb29f9f395b1.jpg
     id: 18987
     mime: image/jpeg
     original_filename: Picture 367-J2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f9f391cc14fb29f9f395b1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f9f391cc14fb29f9f395b1.jpg
+    thumb: /files/thumbnails/14fb29f9f391cc14fb29f9f395b1.jpg
+    url: /files/original/14fb29f9f391cc14fb29f9f395b1.jpg
 geo:
 id: 22036
 item_type: Still Image

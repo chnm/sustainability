@@ -15,12 +15,12 @@ dublin_core:
       text: waterfall2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a201210b614fb2a201215c3.jpg
+  - fullsize: /files/fullsize/14fb2a201210b614fb2a201215c3.jpg
     id: 11153
     mime: image/jpeg
     original_filename: waterfall2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a201210b614fb2a201215c3.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a201210b614fb2a201215c3.jpg
+    thumb: /files/thumbnails/14fb2a201210b614fb2a201215c3.jpg
+    url: /files/original/14fb2a201210b614fb2a201215c3.jpg
 geo:
 id: 13143
 item_type: Still Image

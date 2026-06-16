@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: zackmcGee.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23a2751114fb2a23a278d0.html
+    url: /files/original/14fb2a23a2751114fb2a23a278d0.html
 geo:
 id: 11760
 item_type: Oral History

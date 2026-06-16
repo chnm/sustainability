@@ -26,7 +26,7 @@ files:
     mime: video/mp4
     original_filename: NWT-Canal Breach and Credits.mp4
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbae61b114fb29dbae6687.mp4
+    url: /files/original/14fb29dbae61b114fb29dbae6687.mp4
 geo:
 id: 26013
 item_type: Moving Image

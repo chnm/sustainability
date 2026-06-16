@@ -15,12 +15,12 @@ dublin_core:
       text: HQ 45th IN BDE.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b8ccac514fb2a1b8cd247.jpg
+  - fullsize: /files/fullsize/14fb2a1b8ccac514fb2a1b8cd247.jpg
     id: 11782
     mime: image/jpeg
     original_filename: HQ 45th IN BDE.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b8ccac514fb2a1b8cd247.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b8ccac514fb2a1b8cd247.jpg
+    thumb: /files/thumbnails/14fb2a1b8ccac514fb2a1b8cd247.jpg
+    url: /files/original/14fb2a1b8ccac514fb2a1b8cd247.jpg
 geo:
   address: ''
   lat: 0.0

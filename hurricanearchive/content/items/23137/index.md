@@ -15,12 +15,12 @@ dublin_core:
       text: 186ENCO1AlabamaNG.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f16a36a814fb29f16a3a1f.jpg
+  - fullsize: /files/fullsize/14fb29f16a36a814fb29f16a3a1f.jpg
     id: 20081
     mime: image/jpeg
     original_filename: 186ENCO1AlabamaNG.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f16a36a814fb29f16a3a1f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f16a36a814fb29f16a3a1f.jpg
+    thumb: /files/thumbnails/14fb29f16a36a814fb29f16a3a1f.jpg
+    url: /files/original/14fb29f16a36a814fb29f16a3a1f.jpg
 geo:
 id: 23137
 item_type: Still Image

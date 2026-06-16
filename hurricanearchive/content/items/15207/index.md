@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1655408514fb2a165544ad.jpg
+  - fullsize: /files/fullsize/14fb2a1655408514fb2a165544ad.jpg
     id: 12433
     mime: image/jpeg
     original_filename: 2_25df925fc4.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1655408514fb2a165544ad.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1655408514fb2a165544ad.jpg
+    thumb: /files/thumbnails/14fb2a1655408514fb2a165544ad.jpg
+    url: /files/original/14fb2a1655408514fb2a165544ad.jpg
 geo:
   address: Friscoville Ave.
   lat: 0.0

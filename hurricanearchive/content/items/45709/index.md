@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Higgins, Tom(821).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870ddc54c14fbe870ddc930.doc
+    url: /files/original/14fbe870ddc54c14fbe870ddc930.doc
 geo:
 id: 45709
 item_type: Oral History

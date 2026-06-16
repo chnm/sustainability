@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: Shrum,HurricaneStoriesfromWithin_7f95acfe2d.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbca1a9614fb29dbca1e77.pdf
+    url: /files/original/14fb29dbca1a9614fb29dbca1e77.pdf
 geo:
 id: 25925
 item_type: Document

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Trigg, Brenda.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87210d31214fbe87210dbb2.doc
+    url: /files/original/14fbe87210d31214fbe87210dbb2.doc
 geo:
 id: 45872
 item_type: Oral History

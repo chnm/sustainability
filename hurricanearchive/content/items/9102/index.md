@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 18 2005 What's Katrina's lasting effect on SE Texas.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a358c43f414fb2a358c47dc.txt
+    url: /files/original/14fb2a358c43f414fb2a358c47dc.txt
 geo:
   address: ''
   lat: 0.0

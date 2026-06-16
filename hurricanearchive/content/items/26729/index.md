@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: blownmind_9ecaf2efc3.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d824e16514fb29d824e506.pdf
+    url: /files/original/14fb29d824e16514fb29d824e506.pdf
 geo:
 id: 26729
 item_type: Document

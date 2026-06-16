@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c4d0c04c14fb29c4d0c433.jpg
+  - fullsize: /files/fullsize/14fb29c4d0c04c14fb29c4d0c433.jpg
     id: 24840
     mime: image/jpg
     original_filename: liv pl2_eb227da803.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c4d0c04c14fb29c4d0c433.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c4d0c04c14fb29c4d0c433.jpg
+    thumb: /files/thumbnails/14fb29c4d0c04c14fb29c4d0c433.jpg
+    url: /files/original/14fb29c4d0c04c14fb29c4d0c433.jpg
 geo:
   address: 340 e. livingston pl
   lat: 0.0

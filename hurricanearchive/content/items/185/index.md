@@ -25,7 +25,7 @@ files:
     mime: application/msword
     original_filename: Living_in_New_Orleans_2446a2469d.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a709f1aaf14fb2a709f1e7d.doc
+    url: /files/original/14fb2a709f1aaf14fb2a709f1e7d.doc
 geo:
   address: ''
   lat: 29.943769

@@ -15,12 +15,12 @@ dublin_core:
       text: Texaco Inc - Looking South.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb0e3cb514fb29fb0e409b.jpg
+  - fullsize: /files/fullsize/14fb29fb0e3cb514fb29fb0e409b.jpg
     id: 18857
     mime: image/jpeg
     original_filename: Texaco Inc - Looking South.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb0e3cb514fb29fb0e409b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb0e3cb514fb29fb0e409b.jpg
+    thumb: /files/thumbnails/14fb29fb0e3cb514fb29fb0e409b.jpg
+    url: /files/original/14fb29fb0e3cb514fb29fb0e409b.jpg
 geo:
 id: 21906
 item_type: Still Image

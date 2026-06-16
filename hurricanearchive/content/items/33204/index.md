@@ -14,12 +14,12 @@ dublin_core:
       text: IMG_7498.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb95526014fb29cb9559a6.jpg
+  - fullsize: /files/fullsize/14fb29cb95526014fb29cb9559a6.jpg
     id: 24054
     mime: image/jpg
     original_filename: 1282509078_e3226fc4a5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb95526014fb29cb9559a6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb95526014fb29cb9559a6.jpg
+    thumb: /files/thumbnails/14fb29cb95526014fb29cb9559a6.jpg
+    url: /files/original/14fb29cb95526014fb29cb9559a6.jpg
 geo:
 id: 33204
 item_type: Still Image

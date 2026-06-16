@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f55046b14fb2a6f55086b.jpg
+  - fullsize: /files/fullsize/14fb2a6f55046b14fb2a6f55086b.jpg
     id: 466
     mime: image/png
     original_filename: Dummy_with_dog_c099f55cab.png
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f55046b14fb2a6f55086b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f55046b14fb2a6f55086b.jpg
+    thumb: /files/thumbnails/14fb2a6f55046b14fb2a6f55086b.jpg
+    url: /files/original/14fb2a6f55046b14fb2a6f55086b.jpg
 geo:
   address: ''
   lat: 30.342352

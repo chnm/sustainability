@@ -24,12 +24,12 @@ dublin_core:
       text: Cleaning Up a Diesel Oil Spill at Texas Point Wildlife Refuge
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66c80d2c14fb2a66c81121.jpg
+  - fullsize: /files/fullsize/14fb2a66c80d2c14fb2a66c81121.jpg
     id: 1876
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_RITA_05CA1_cd64087dd7.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66c80d2c14fb2a66c81121.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66c80d2c14fb2a66c81121.jpg
+    thumb: /files/thumbnails/14fb2a66c80d2c14fb2a66c81121.jpg
+    url: /files/original/14fb2a66c80d2c14fb2a66c81121.jpg
 geo:
 id: 2384
 item_type: Still Image

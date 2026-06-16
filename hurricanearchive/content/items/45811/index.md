@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Planer, James.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87178945214fbe871789a63.doc
+    url: /files/original/14fbe87178945214fbe871789a63.doc
 geo:
 id: 45811
 item_type: Oral History

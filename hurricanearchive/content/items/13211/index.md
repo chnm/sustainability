@@ -15,12 +15,12 @@ dublin_core:
       text: 205 building.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f4c2e5f14fb2a1f4c3242.jpg
+  - fullsize: /files/fullsize/14fb2a1f4c2e5f14fb2a1f4c3242.jpg
     id: 11221
     mime: image/jpeg
     original_filename: 205 building.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f4c2e5f14fb2a1f4c3242.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f4c2e5f14fb2a1f4c3242.jpg
+    thumb: /files/thumbnails/14fb2a1f4c2e5f14fb2a1f4c3242.jpg
+    url: /files/original/14fb2a1f4c2e5f14fb2a1f4c3242.jpg
 geo:
 id: 13211
 item_type: Still Image

@@ -21,12 +21,12 @@ dublin_core:
       text: I Survived Katrina
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6023c8f414fb2a6023eb5e.jpg
+  - fullsize: /files/fullsize/14fb2a6023c8f414fb2a6023eb5e.jpg
     id: 2280
     mime: image/jpeg
     original_filename: I Survived Katrina
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6023c8f414fb2a6023eb5e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6023c8f414fb2a6023eb5e.jpg
+    thumb: /files/thumbnails/14fb2a6023c8f414fb2a6023eb5e.jpg
+    url: /files/original/14fb2a6023c8f414fb2a6023eb5e.jpg
 geo:
 id: 2798
 item_type: Still Image

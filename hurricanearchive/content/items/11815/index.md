@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Nana's house pics.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a233a59bd14fb2a233a5da2.doc
+    url: /files/original/14fb2a233a59bd14fb2a233a5da2.doc
 geo:
 id: 11815
 item_type: Document

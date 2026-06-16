@@ -25,7 +25,7 @@ files:
     mime: application/msword
     original_filename: photoessay3_39dca820c6.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a7021be7914fb2a7021c257.doc
+    url: /files/original/14fb2a7021be7914fb2a7021c257.doc
 geo:
   address: ''
   lat: 30.446993

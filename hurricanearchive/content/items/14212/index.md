@@ -15,12 +15,12 @@ dublin_core:
       text: gober.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1a92d66914fb2a1a92da49.jpg
+  - fullsize: /files/fullsize/14fb2a1a92d66914fb2a1a92da49.jpg
     id: 11856
     mime: image/jpeg
     original_filename: gober.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1a92d66914fb2a1a92da49.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1a92d66914fb2a1a92da49.jpg
+    thumb: /files/thumbnails/14fb2a1a92d66914fb2a1a92da49.jpg
+    url: /files/original/14fb2a1a92d66914fb2a1a92da49.jpg
 geo:
   address: ''
   lat: 0.0

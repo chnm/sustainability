@@ -17,12 +17,12 @@ dublin_core:
       text: Clipper Estates Subdivision
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca1eb43a14fb29ca1eb849.jpg
+  - fullsize: /files/fullsize/14fb29ca1eb43a14fb29ca1eb849.jpg
     id: 24251
     mime: image/jpg
     original_filename: 2379872961_9032af8d36.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca1eb43a14fb29ca1eb849.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca1eb43a14fb29ca1eb849.jpg
+    thumb: /files/thumbnails/14fb29ca1eb43a14fb29ca1eb849.jpg
+    url: /files/original/14fb29ca1eb43a14fb29ca1eb849.jpg
 geo:
   address: ''
   lat: 30.22894

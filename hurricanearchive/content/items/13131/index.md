@@ -15,12 +15,12 @@ dublin_core:
       text: loss of copper roof.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2034912414fb2a20349455.jpg
+  - fullsize: /files/fullsize/14fb2a2034912414fb2a20349455.jpg
     id: 11141
     mime: image/jpeg
     original_filename: loss of copper roof.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2034912414fb2a20349455.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2034912414fb2a20349455.jpg
+    thumb: /files/thumbnails/14fb2a2034912414fb2a20349455.jpg
+    url: /files/original/14fb2a2034912414fb2a20349455.jpg
 geo:
 id: 13131
 item_type: Still Image

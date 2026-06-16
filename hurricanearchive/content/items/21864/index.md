@@ -20,7 +20,7 @@ files:
     mime: ''
     original_filename: Flood water level.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29fb56dab514fb29fb56dde8.ppt
+    url: /files/original/14fb29fb56dab514fb29fb56dde8.ppt
 geo:
 id: 21864
 item_type: Document

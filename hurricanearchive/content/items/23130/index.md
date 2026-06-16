@@ -15,12 +15,12 @@ dublin_core:
       text: 09110007delaware.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f172945814fb29f172983d.jpg
+  - fullsize: /files/fullsize/14fb29f172945814fb29f172983d.jpg
     id: 20074
     mime: image/jpeg
     original_filename: 09110007delaware.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f172945814fb29f172983d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f172945814fb29f172983d.jpg
+    thumb: /files/thumbnails/14fb29f172945814fb29f172983d.jpg
+    url: /files/original/14fb29f172945814fb29f172983d.jpg
 geo:
 id: 23130
 item_type: Still Image

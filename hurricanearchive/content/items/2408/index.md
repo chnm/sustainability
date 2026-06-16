@@ -24,12 +24,12 @@ dublin_core:
       text: Area Near USCG Station Gulfport
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66a920c414fb2a66a95038.jpg
+  - fullsize: /files/fullsize/14fb2a66a920c414fb2a66a95038.jpg
     id: 1900
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05C0S_354029c215.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66a920c414fb2a66a95038.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66a920c414fb2a66a95038.jpg
+    thumb: /files/thumbnails/14fb2a66a920c414fb2a66a95038.jpg
+    url: /files/original/14fb2a66a920c414fb2a66a95038.jpg
 geo:
 id: 2408
 item_type: Still Image

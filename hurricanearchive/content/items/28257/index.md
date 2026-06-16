@@ -21,12 +21,12 @@ dublin_core:
       text: JoePhoto
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d28b064f14fb29d28b09ed.jpg
+  - fullsize: /files/fullsize/14fb29d28b064f14fb29d28b09ed.jpg
     id: 23410
     mime: image/jpg
     original_filename: 385028120_ffcce3cb5e.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d28b064f14fb29d28b09ed.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d28b064f14fb29d28b09ed.jpg
+    thumb: /files/thumbnails/14fb29d28b064f14fb29d28b09ed.jpg
+    url: /files/original/14fb29d28b064f14fb29d28b09ed.jpg
 geo:
 id: 28257
 item_type: Still Image

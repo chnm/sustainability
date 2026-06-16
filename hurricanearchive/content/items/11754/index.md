@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: shleenaladner.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23a886b514fb2a23a89230.html
+    url: /files/original/14fb2a23a886b514fb2a23a89230.html
 geo:
 id: 11754
 item_type: Oral History

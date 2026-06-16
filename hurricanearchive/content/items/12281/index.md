@@ -25,7 +25,7 @@ files:
     mime: application/pdf
     original_filename: CapdauBook_21bfa4d8fc.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2233c17b14fb2a2233c52f.pdf
+    url: /files/original/14fb2a2233c17b14fb2a2233c52f.pdf
 geo:
   address: ''
   lat: 29.99808

@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_1c4da5eb28.Girls are smarter than boys by knit.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cac5dfa714fb29cac5e38c.doc
+    url: /files/original/14fb29cac5dfa714fb29cac5e38c.doc
 geo:
 id: 33318
 item_type: Document

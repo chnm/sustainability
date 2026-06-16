@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0051westend.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a15077dc614fb2a150781a7.jpg
+  - fullsize: /files/fullsize/14fb2a15077dc614fb2a150781a7.jpg
     id: 15779
     mime: image/jpeg
     original_filename: DSC 0051westend.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a15077dc614fb2a150781a7.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a15077dc614fb2a150781a7.jpg
+    thumb: /files/thumbnails/14fb2a15077dc614fb2a150781a7.jpg
+    url: /files/original/14fb2a15077dc614fb2a150781a7.jpg
 geo:
 id: 18826
 item_type: Still Image

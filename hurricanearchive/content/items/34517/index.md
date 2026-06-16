@@ -21,12 +21,12 @@ dublin_core:
       text: Marsh Grass Filled the Streets at North Shore Beach
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c998cc1914fb29c998d00a.jpg
+  - fullsize: /files/fullsize/14fb29c998cc1914fb29c998d00a.jpg
     id: 24351
     mime: image/jpg
     original_filename: 2292013378_4ff126abb3.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c998cc1914fb29c998d00a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c998cc1914fb29c998d00a.jpg
+    thumb: /files/thumbnails/14fb29c998cc1914fb29c998d00a.jpg
+    url: /files/original/14fb29c998cc1914fb29c998d00a.jpg
 geo:
   address: ''
   lat: 30.22539

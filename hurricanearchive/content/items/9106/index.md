@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 20 2005 Families settle in, get help.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a358a501314fb2a358a53f9.txt
+    url: /files/original/14fb2a358a501314fb2a358a53f9.txt
 geo:
   address: ''
   lat: 0.0

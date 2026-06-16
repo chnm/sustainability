@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c1d95bdf14fb29c1d95fc3.jpg
+  - fullsize: /files/fullsize/14fb29c1d95bdf14fb29c1d95fc3.jpg
     id: 25122
     mime: image/jpeg
     original_filename: sixflagszombie_431aa69196.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c1d95bdf14fb29c1d95fc3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c1d95bdf14fb29c1d95fc3.jpg
+    thumb: /files/thumbnails/14fb29c1d95bdf14fb29c1d95fc3.jpg
+    url: /files/original/14fb29c1d95bdf14fb29c1d95fc3.jpg
 geo:
   address: 4128 West Loyola Drive
   lat: 30.03877

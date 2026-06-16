@@ -21,12 +21,12 @@ dublin_core:
       text: Down stairs of Leggio\'s home
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c99e5d8e14fb29c99e616c.jpg
+  - fullsize: /files/fullsize/14fb29c99e5d8e14fb29c99e616c.jpg
     id: 24344
     mime: image/jpg
     original_filename: 2291271219_46d0f56fae.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c99e5d8e14fb29c99e616c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c99e5d8e14fb29c99e616c.jpg
+    thumb: /files/thumbnails/14fb29c99e5d8e14fb29c99e616c.jpg
+    url: /files/original/14fb29c99e5d8e14fb29c99e616c.jpg
 geo:
   address: ''
   lat: 30.22539

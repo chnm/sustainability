@@ -15,12 +15,12 @@ dublin_core:
       text: 8196926-R1-042-19A.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cedc41f214fb29cedc497a.jpg
+  - fullsize: /files/fullsize/14fb29cedc41f214fb29cedc497a.jpg
     id: 23696
     mime: image/jpeg
     original_filename: 8196926-R1-042-19A.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cedc41f214fb29cedc497a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cedc41f214fb29cedc497a.jpg
+    thumb: /files/thumbnails/14fb29cedc41f214fb29cedc497a.jpg
+    url: /files/original/14fb29cedc41f214fb29cedc497a.jpg
 geo:
 id: 29126
 item_type: Still Image

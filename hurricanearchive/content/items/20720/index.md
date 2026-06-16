@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0064-9-25-2.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0495efc514fb2a04979874.jpg
+  - fullsize: /files/fullsize/14fb2a0495efc514fb2a04979874.jpg
     id: 17673
     mime: image/jpeg
     original_filename: DSC 0064-9-25-2.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0495efc514fb2a04979874.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0495efc514fb2a04979874.jpg
+    thumb: /files/thumbnails/14fb2a0495efc514fb2a04979874.jpg
+    url: /files/original/14fb2a0495efc514fb2a04979874.jpg
 geo:
 id: 20720
 item_type: Still Image

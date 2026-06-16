@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Kendyl Stokes HK1956K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d628638a14fb29d628676a.mp3
+    url: /files/original/14fb29d628638a14fb29d628676a.mp3
 geo:
 id: 26928
 item_type: Oral History

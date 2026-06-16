@@ -17,25 +17,25 @@ files:
     mime: audio/mpeg
     original_filename: Benvenutti, Laurie 8-16-07 Tape 1 Side 1.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ea94c1014fbe86ea94fe8.mp3
+    url: /files/original/14fbe86ea94c1014fbe86ea94fe8.mp3
   - fullsize:
     id: 45960
     mime: audio/mpeg
     original_filename: Benvenutti, Laurie 8-16-07 Tape 1 Side 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86eac39db14fbe86eac3dc5.mp3
+    url: /files/original/14fbe86eac39db14fbe86eac3dc5.mp3
   - fullsize:
     id: 45961
     mime: audio/mpeg
     original_filename: Benvenutti, Laurie 8-16-07 Tape 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86eae398a14fbe86eae4270.mp3
+    url: /files/original/14fbe86eae398a14fbe86eae4270.mp3
   - fullsize:
     id: 45962
     mime: application/msword
     original_filename: Benvenutti, Laurie.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ec007c814fbe86ec00bad.doc
+    url: /files/original/14fbe86ec007c814fbe86ec00bad.doc
 geo:
 id: 45538
 item_type: Oral History

@@ -14,12 +14,12 @@ dublin_core:
       text: parking lot
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d24394cb14fb29d24398b1.jpg
+  - fullsize: /files/fullsize/14fb29d24394cb14fb29d24398b1.jpg
     id: 23426
     mime: image/jpg
     original_filename: 176014431_6795cfe74f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d24394cb14fb29d24398b1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d24394cb14fb29d24398b1.jpg
+    thumb: /files/thumbnails/14fb29d24394cb14fb29d24398b1.jpg
+    url: /files/original/14fb29d24394cb14fb29d24398b1.jpg
 geo:
 id: 28574
 item_type: Still Image

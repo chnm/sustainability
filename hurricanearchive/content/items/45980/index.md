@@ -14,12 +14,12 @@ dublin_core:
       text: St. Paul's School, New Orleans
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/3b03d545e6342eef6f3a5c5add88d4b4.jpg
+  - fullsize: /files/fullsize/3b03d545e6342eef6f3a5c5add88d4b4.jpg
     id: 46571
     mime: image/jpeg
     original_filename: Katrina_20051001_257.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/3b03d545e6342eef6f3a5c5add88d4b4.jpg
-    url: https://hurricanearchive.org/files/original/3b03d545e6342eef6f3a5c5add88d4b4.JPG
+    thumb: /files/thumbnails/3b03d545e6342eef6f3a5c5add88d4b4.jpg
+    url: /files/original/3b03d545e6342eef6f3a5c5add88d4b4.JPG
 geo:
   address: 6249 Canal Blvd., New Orleans, LA 70124
   lat: 30.0043826

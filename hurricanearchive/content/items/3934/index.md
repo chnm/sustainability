@@ -18,12 +18,12 @@ dublin_core:
       text: 100_0231.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a58d5c29714fb2a58d5c672.jpg
+  - fullsize: /files/fullsize/14fb2a58d5c29714fb2a58d5c672.jpg
     id: 3345
     mime: image/jpeg
     original_filename: Official Visit
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a58d5c29714fb2a58d5c672.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a58d5c29714fb2a58d5c672.jpg
+    thumb: /files/thumbnails/14fb2a58d5c29714fb2a58d5c672.jpg
+    url: /files/original/14fb2a58d5c29714fb2a58d5c672.jpg
 geo:
 id: 3934
 item_type: Still Image

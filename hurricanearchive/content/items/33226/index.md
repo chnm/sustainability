@@ -17,12 +17,12 @@ dublin_core:
       text: Search & Rescue - Zoom Out
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb6efcaf14fb29cb6f0093.jpg
+  - fullsize: /files/fullsize/14fb29cb6efcaf14fb29cb6f0093.jpg
     id: 24076
     mime: image/jpg
     original_filename: 1261288262_3b07bef0b0.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb6efcaf14fb29cb6f0093.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb6efcaf14fb29cb6f0093.jpg
+    thumb: /files/thumbnails/14fb29cb6efcaf14fb29cb6f0093.jpg
+    url: /files/original/14fb29cb6efcaf14fb29cb6f0093.jpg
 geo:
 id: 33226
 item_type: Still Image

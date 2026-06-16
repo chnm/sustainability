@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a16e67af514fb2a16e67ed6.jpg
+  - fullsize: /files/fullsize/14fb2a16e67af514fb2a16e67ed6.jpg
     id: 12314
     mime: image/pjpeg
     original_filename: Easter60s_769e3e0713.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a16e67af514fb2a16e67ed6.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a16e67af514fb2a16e67ed6.jpg
+    thumb: /files/thumbnails/14fb2a16e67af514fb2a16e67ed6.jpg
+    url: /files/original/14fb2a16e67af514fb2a16e67ed6.jpg
 geo:
   address: ''
   lat: 37.77123

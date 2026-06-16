@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dd40438214fb29dd4047be.jpg
+  - fullsize: /files/fullsize/14fb29dd40438214fb29dd4047be.jpg
     id: 22437
     mime: image/jpeg
     original_filename: LeoSchaeffer2C_db0bd8b6d0.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dd40438214fb29dd4047be.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dd40438214fb29dd4047be.jpg
+    thumb: /files/thumbnails/14fb29dd40438214fb29dd4047be.jpg
+    url: /files/original/14fb29dd40438214fb29dd4047be.jpg
 geo:
 id: 25543
 item_type: Still Image

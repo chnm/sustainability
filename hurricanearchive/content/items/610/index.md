@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f618a2c14fb2a6f618dfe.jpg
+  - fullsize: /files/fullsize/14fb2a6f618a2c14fb2a6f618dfe.jpg
     id: 452
     mime: image/jpeg
     original_filename: HollywoodTheaterParkdaleRita2_f0fcd88b4f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f618a2c14fb2a6f618dfe.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f618a2c14fb2a6f618dfe.jpg
+    thumb: /files/thumbnails/14fb2a6f618a2c14fb2a6f618dfe.jpg
+    url: /files/original/14fb2a6f618a2c14fb2a6f618dfe.jpg
 geo:
   address: ''
   lat: 30.148461

@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a7034065314fb2a7034083d.jpg
+  - fullsize: /files/fullsize/14fb2a7034065314fb2a7034083d.jpg
     id: 236
     mime: image/jpeg
     original_filename: BatteredHope_d56a05fde8.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a7034065314fb2a7034083d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a7034065314fb2a7034083d.jpg
+    thumb: /files/thumbnails/14fb2a7034065314fb2a7034083d.jpg
+    url: /files/original/14fb2a7034065314fb2a7034083d.jpg
 geo:
   address: ''
   lat: 30.533876572997602

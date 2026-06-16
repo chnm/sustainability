@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Bass, Alison.(797).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87054ea7114fbe87054edcb.doc
+    url: /files/original/14fbe87054ea7114fbe87054edcb.doc
 geo:
 id: 45628
 item_type: Oral History

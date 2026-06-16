@@ -21,12 +21,12 @@ dublin_core:
       text: Anna & Nick Leggio\'s home/North Shore Beach
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c987daf914fb29c987dedd.jpg
+  - fullsize: /files/fullsize/14fb29c987daf914fb29c987dedd.jpg
     id: 24363
     mime: image/jpg
     original_filename: 2291198213_8885aea651.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c987daf914fb29c987dedd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c987daf914fb29c987dedd.jpg
+    thumb: /files/thumbnails/14fb29c987daf914fb29c987dedd.jpg
+    url: /files/original/14fb29c987daf914fb29c987dedd.jpg
 geo:
   address: ''
   lat: 30.22561

@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 1931superdome.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e09b928914fb29e09b996a.jpg
+  - fullsize: /files/fullsize/14fb29e09b928914fb29e09b996a.jpg
     id: 22175
     mime: image/jpeg
     original_filename: DSC 1931superdome.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e09b928914fb29e09b996a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e09b928914fb29e09b996a.jpg
+    thumb: /files/thumbnails/14fb29e09b928914fb29e09b996a.jpg
+    url: /files/original/14fb29e09b928914fb29e09b996a.jpg
 geo:
 id: 25232
 item_type: Still Image

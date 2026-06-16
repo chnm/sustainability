@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Nakeida Fanyetta Jackson.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23f2cb4014fb2a23f2cdb0.htm
+    url: /files/original/14fb2a23f2cb4014fb2a23f2cdb0.htm
 geo:
 id: 11685
 item_type: Oral History

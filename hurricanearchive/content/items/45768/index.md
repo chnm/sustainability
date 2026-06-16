@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Mayo, Stephanie(817).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87142248814fbe87142286d.doc
+    url: /files/original/14fbe87142248814fbe87142286d.doc
 geo:
 id: 45768
 item_type: Oral History

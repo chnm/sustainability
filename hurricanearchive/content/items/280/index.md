@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a705715a314fb2a70571988.jpg
+  - fullsize: /files/fullsize/14fb2a705715a314fb2a70571988.jpg
     id: 207
     mime: image/jpeg
     original_filename: boat_18842a89c1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a705715a314fb2a70571988.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a705715a314fb2a70571988.jpg
+    thumb: /files/thumbnails/14fb2a705715a314fb2a70571988.jpg
+    url: /files/original/14fb2a705715a314fb2a70571988.jpg
 geo:
   address: ''
   lat: 30.022138031277596

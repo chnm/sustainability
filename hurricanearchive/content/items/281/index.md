@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a7054898414fb2a70548d61.jpg
+  - fullsize: /files/fullsize/14fb2a7054898414fb2a70548d61.jpg
     id: 208
     mime: image/jpeg
     original_filename: marina_71049afe68.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a7054898414fb2a70548d61.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a7054898414fb2a70548d61.jpg
+    thumb: /files/thumbnails/14fb2a7054898414fb2a70548d61.jpg
+    url: /files/original/14fb2a7054898414fb2a70548d61.jpg
 geo:
   address: ''
   lat: 30.0245903949386

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Luu, Lance.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8713712ab14fbe871371691.doc
+    url: /files/original/14fbe8713712ab14fbe871371691.doc
 geo:
 id: 45758
 item_type: Oral History

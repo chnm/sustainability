@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: not sure_092b970b63.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce5b202d14fb29ce5b4931.pdf
+    url: /files/original/14fb29ce5b202d14fb29ce5b4931.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Law Students Involved in the Matchmakers for Justice Project_c5e9701c56.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18dc667614fb2a18dc6a5a.doc
+    url: /files/original/14fb2a18dc667614fb2a18dc6a5a.doc
 geo:
 id: 14556
 item_type: Document

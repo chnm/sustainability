@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbd29df314fb29cbd2a1da.jpg
+  - fullsize: /files/fullsize/14fb29cbd29df314fb29cbd2a1da.jpg
     id: 24028
     mime: image/jpeg
     original_filename: Hurricane symbol waves 11-26-07_41d40dd6b7.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbd29df314fb29cbd2a1da.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbd29df314fb29cbd2a1da.jpg
+    thumb: /files/thumbnails/14fb29cbd29df314fb29cbd2a1da.jpg
+    url: /files/original/14fb29cbd29df314fb29cbd2a1da.jpg
 geo:
   address: ''
   lat: 30.28279

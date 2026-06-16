@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_1f4545bb32.How does it feel to be a problem.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29caddd91314fb29caddddfb.doc
+    url: /files/original/14fb29caddd91314fb29caddddfb.doc
 geo:
 id: 33302
 item_type: Document

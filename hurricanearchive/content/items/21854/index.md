@@ -15,12 +15,12 @@ dublin_core:
       text: E.P. Nunez Community College2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb5e1ced14fb29fb5e20da.jpg
+  - fullsize: /files/fullsize/14fb29fb5e1ced14fb29fb5e20da.jpg
     id: 18805
     mime: image/jpeg
     original_filename: E.P. Nunez Community College2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb5e1ced14fb29fb5e20da.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb5e1ced14fb29fb5e20da.jpg
+    thumb: /files/thumbnails/14fb29fb5e1ced14fb29fb5e20da.jpg
+    url: /files/original/14fb29fb5e1ced14fb29fb5e20da.jpg
 geo:
 id: 21854
 item_type: Still Image

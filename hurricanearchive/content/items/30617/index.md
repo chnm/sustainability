@@ -21,12 +21,12 @@ dublin_core:
       text: Stupid Tax
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ccdd82f614fb29ccdd86ef.jpg
+  - fullsize: /files/fullsize/14fb29ccdd82f614fb29ccdd86ef.jpg
     id: 23787
     mime: image/pjpeg
     original_filename: stupid tax_f862a36265.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ccdd82f614fb29ccdd86ef.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ccdd82f614fb29ccdd86ef.jpg
+    thumb: /files/thumbnails/14fb29ccdd82f614fb29ccdd86ef.jpg
+    url: /files/original/14fb29ccdd82f614fb29ccdd86ef.jpg
 geo:
   address: ''
   lat: 0.0

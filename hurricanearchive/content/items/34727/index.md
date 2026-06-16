@@ -14,12 +14,12 @@ dublin_core:
       text: Canal St Presbyterian_4
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c929293214fb29c92934ec.jpg
+  - fullsize: /files/fullsize/14fb29c929293214fb29c92934ec.jpg
     id: 24407
     mime: image/jpg
     original_filename: 2420900451_429746eeac.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c929293214fb29c92934ec.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c929293214fb29c92934ec.jpg
+    thumb: /files/thumbnails/14fb29c929293214fb29c92934ec.jpg
+    url: /files/original/14fb29c929293214fb29c92934ec.jpg
 geo:
   address: ''
   lat: 29.97632

@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: al carnival time johnson_77da78677f.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ceb8f02c14fb29ceb8fe91.pdf
+    url: /files/original/14fb29ceb8f02c14fb29ceb8fe91.pdf
 geo:
   address: 2426 Bradish Place
   lat: 29.9596

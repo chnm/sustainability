@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: George, Rick & JoAnn.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870b9ac0d14fbe870b9aff3.doc
+    url: /files/original/14fbe870b9ac0d14fbe870b9aff3.doc
 geo:
 id: 45682
 item_type: Oral History

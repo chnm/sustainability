@@ -15,12 +15,12 @@ dublin_core:
       text: UNO -  Water Damage.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb0ce8ef14fb29fb0cecd4.jpg
+  - fullsize: /files/fullsize/14fb29fb0ce8ef14fb29fb0cecd4.jpg
     id: 18859
     mime: image/jpeg
     original_filename: UNO -  Water Damage.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb0ce8ef14fb29fb0cecd4.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb0ce8ef14fb29fb0cecd4.jpg
+    thumb: /files/thumbnails/14fb29fb0ce8ef14fb29fb0cecd4.jpg
+    url: /files/original/14fb29fb0ce8ef14fb29fb0cecd4.jpg
 geo:
 id: 21908
 item_type: Still Image

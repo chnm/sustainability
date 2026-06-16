@@ -15,12 +15,12 @@ dublin_core:
       text: 20050930-A-3780B-54mobilePAO.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f155d75214fb29f155de05.jpg
+  - fullsize: /files/fullsize/14fb29f155d75214fb29f155de05.jpg
     id: 20087
     mime: image/jpeg
     original_filename: 20050930-A-3780B-54mobilePAO.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f155d75214fb29f155de05.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f155d75214fb29f155de05.jpg
+    thumb: /files/thumbnails/14fb29f155d75214fb29f155de05.jpg
+    url: /files/original/14fb29f155d75214fb29f155de05.jpg
 geo:
 id: 23143
 item_type: Still Image

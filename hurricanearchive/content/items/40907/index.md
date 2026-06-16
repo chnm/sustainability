@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c4bc7f3214fb29c4bc8a44.jpg
+  - fullsize: /files/fullsize/14fb29c4bc7f3214fb29c4bc8a44.jpg
     id: 24845
     mime: image/pjpeg
     original_filename: scan0002_3f5d72bf8b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c4bc7f3214fb29c4bc8a44.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c4bc7f3214fb29c4bc8a44.jpg
+    thumb: /files/thumbnails/14fb29c4bc7f3214fb29c4bc8a44.jpg
+    url: /files/original/14fb29c4bc7f3214fb29c4bc8a44.jpg
 geo:
   address: bud polk rd
   lat: 30.43269

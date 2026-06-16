@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 2021superdome.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29df5a02a714fb29df5a0a6b.jpg
+  - fullsize: /files/fullsize/14fb29df5a02a714fb29df5a0a6b.jpg
     id: 22236
     mime: image/jpeg
     original_filename: DSC 2021superdome.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29df5a02a714fb29df5a0a6b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29df5a02a714fb29df5a0a6b.jpg
+    thumb: /files/thumbnails/14fb29df5a02a714fb29df5a0a6b.jpg
+    url: /files/original/14fb29df5a02a714fb29df5a0a6b.jpg
 geo:
 id: 25294
 item_type: Still Image

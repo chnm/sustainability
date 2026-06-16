@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 22 2006 Airport looks to future with terminal repair.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35dc821114fb2a35dc85f0.txt
+    url: /files/original/14fb2a35dc821114fb2a35dc85f0.txt
 geo:
   address: ''
   lat: 0.0

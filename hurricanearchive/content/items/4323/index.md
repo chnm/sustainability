@@ -23,7 +23,7 @@ files:
     mime: video/mp4
     original_filename: NOLA Shop Talk.mp4
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a574679bf14fb2a57467dad.mp4
+    url: /files/original/14fb2a574679bf14fb2a57467dad.mp4
 geo:
 id: 4323
 item_type: Moving Image

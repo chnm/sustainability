@@ -15,12 +15,12 @@ dublin_core:
       text: Loyola University looking North.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb48368114fb29fb484aca.jpg
+  - fullsize: /files/fullsize/14fb29fb48368114fb29fb484aca.jpg
     id: 18830
     mime: image/jpeg
     original_filename: Loyola University looking North.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb48368114fb29fb484aca.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb48368114fb29fb484aca.jpg
+    thumb: /files/thumbnails/14fb29fb48368114fb29fb484aca.jpg
+    url: /files/original/14fb29fb48368114fb29fb484aca.jpg
 geo:
 id: 21879
 item_type: Still Image

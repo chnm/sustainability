@@ -15,12 +15,12 @@ dublin_core:
       text: 207 billboard down.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f425b4014fb2a1f425f1b.jpg
+  - fullsize: /files/fullsize/14fb2a1f425b4014fb2a1f425f1b.jpg
     id: 11223
     mime: image/jpeg
     original_filename: 207 billboard down.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f425b4014fb2a1f425f1b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f425b4014fb2a1f425f1b.jpg
+    thumb: /files/thumbnails/14fb2a1f425b4014fb2a1f425f1b.jpg
+    url: /files/original/14fb2a1f425b4014fb2a1f425f1b.jpg
 geo:
 id: 13213
 item_type: Still Image

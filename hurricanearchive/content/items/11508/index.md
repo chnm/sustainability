@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a248230f214fb2a248234e2.jpg
+  - fullsize: /files/fullsize/14fb2a248230f214fb2a248234e2.jpg
     id: 10434
     mime: image/jpeg
     original_filename: animalrescue_a6867989b5.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a248230f214fb2a248234e2.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a248230f214fb2a248234e2.jpg
+    thumb: /files/thumbnails/14fb2a248230f214fb2a248234e2.jpg
+    url: /files/original/14fb2a248230f214fb2a248234e2.jpg
 geo:
 id: 11508
 item_type: Still Image

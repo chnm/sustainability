@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Tran, Dinh.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8720db80014fbe8720dbbd6.doc
+    url: /files/original/14fbe8720db80014fbe8720dbbd6.doc
 geo:
 id: 45871
 item_type: Oral History

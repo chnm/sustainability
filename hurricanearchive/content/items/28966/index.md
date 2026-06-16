@@ -21,12 +21,12 @@ dublin_core:
       text: Art  On The Line
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d151300f14fb29d1513569.jpg
+  - fullsize: /files/fullsize/14fb29d151300f14fb29d1513569.jpg
     id: 23566
     mime: image/jpeg
     original_filename: crane clothesline_84b1ce1d60.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d151300f14fb29d1513569.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d151300f14fb29d1513569.jpg
+    thumb: /files/thumbnails/14fb29d151300f14fb29d1513569.jpg
+    url: /files/original/14fb29d151300f14fb29d1513569.jpg
 geo:
   address: 2426 Bradish Place
   lat: 0.0

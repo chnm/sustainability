@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a713a9ae114fb2a713a9ec1.jpg
+  - fullsize: /files/fullsize/14fb2a713a9ae114fb2a713a9ec1.jpg
     id: 31
     mime: image/jpeg
     original_filename: Strong_Winds_n_Flooding_1a73bff39b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a713a9ae114fb2a713a9ec1.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a713a9ae114fb2a713a9ec1.jpg
+    thumb: /files/thumbnails/14fb2a713a9ae114fb2a713a9ec1.jpg
+    url: /files/original/14fb2a713a9ae114fb2a713a9ec1.jpg
 geo:
   address: ''
   lat: 0.0

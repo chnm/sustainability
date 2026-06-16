@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c23a890114fb29c23a8da5.jpg
+  - fullsize: /files/fullsize/14fb29c23a890114fb29c23a8da5.jpg
     id: 25093
     mime: image/jpeg
     original_filename: Leonidas_2c281afcb0.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c23a890114fb29c23a8da5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c23a890114fb29c23a8da5.jpg
+    thumb: /files/thumbnails/14fb29c23a890114fb29c23a8da5.jpg
+    url: /files/original/14fb29c23a890114fb29c23a8da5.jpg
 geo:
 id: 43108
 item_type: Still Image

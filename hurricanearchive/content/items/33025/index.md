@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbf032b214fb29cbf0369f.jpg
+  - fullsize: /files/fullsize/14fb29cbf032b214fb29cbf0369f.jpg
     id: 24002
     mime: image/pjpeg
     original_filename: hurricane pics 003_2bf68c9a84.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbf032b214fb29cbf0369f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbf032b214fb29cbf0369f.jpg
+    thumb: /files/thumbnails/14fb29cbf032b214fb29cbf0369f.jpg
+    url: /files/original/14fb29cbf032b214fb29cbf0369f.jpg
 geo:
   address: 461 caillavet st
   lat: 0.0

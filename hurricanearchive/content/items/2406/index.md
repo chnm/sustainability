@@ -24,12 +24,12 @@ dublin_core:
       text: Destroyed CG Station in Gulfport
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66ac2ea014fb2a66ac360d.jpg
+  - fullsize: /files/fullsize/14fb2a66ac2ea014fb2a66ac360d.jpg
     id: 1898
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05C07_21e601032d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66ac2ea014fb2a66ac360d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66ac2ea014fb2a66ac360d.jpg
+    thumb: /files/thumbnails/14fb2a66ac2ea014fb2a66ac360d.jpg
+    url: /files/original/14fb2a66ac2ea014fb2a66ac360d.jpg
 geo:
 id: 2406
 item_type: Still Image

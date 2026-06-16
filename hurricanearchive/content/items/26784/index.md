@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7d0c11b14fb29d7d0c4fd.jpg
+  - fullsize: /files/fullsize/14fb29d7d0c11b14fb29d7d0c4fd.jpg
     id: 22979
     mime: image/jpeg
     original_filename: SD Mardi Gras 1972_538040328c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7d0c11b14fb29d7d0c4fd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7d0c11b14fb29d7d0c4fd.jpg
+    thumb: /files/thumbnails/14fb29d7d0c11b14fb29d7d0c4fd.jpg
+    url: /files/original/14fb29d7d0c11b14fb29d7d0c4fd.jpg
 geo:
   address: ''
   lat: 29.87876

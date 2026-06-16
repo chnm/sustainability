@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: kiribiloxi2.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a22f7ecea14fb2a22f7f0cf.doc
+    url: /files/original/14fb2a22f7ecea14fb2a22f7f0cf.doc
 geo:
 id: 11873
 item_type: Document

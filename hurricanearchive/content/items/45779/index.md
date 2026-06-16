@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: McKay, Mary Jo.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8714dbe6414fbe8714dc4a0.doc
+    url: /files/original/14fbe8714dbe6414fbe8714dc4a0.doc
 geo:
 id: 45779
 item_type: Oral History

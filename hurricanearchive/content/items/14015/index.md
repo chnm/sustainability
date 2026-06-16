@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: 1SG Dan Armour 01OCT05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c76b54f14fb2a1c76b932.wav
+    url: /files/original/14fb2a1c76b54f14fb2a1c76b932.wav
 geo:
   address: ''
   lat: 0.0

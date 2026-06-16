@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: McNeil, Frank.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87150243e14fbe87150282e.doc
+    url: /files/original/14fbe87150243e14fbe87150282e.doc
 geo:
 id: 45781
 item_type: Oral History

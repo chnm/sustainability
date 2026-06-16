@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d8673ff814fb29d8674d94.jpg
+  - fullsize: /files/fullsize/14fb29d8673ff814fb29d8674d94.jpg
     id: 22898
     mime: image/jpeg
     original_filename: breezeway 2_92dd36b005.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d8673ff814fb29d8674d94.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d8673ff814fb29d8674d94.jpg
+    thumb: /files/thumbnails/14fb29d8673ff814fb29d8674d94.jpg
+    url: /files/original/14fb29d8673ff814fb29d8674d94.jpg
 geo:
   address: 15235 Oneal Rd
   lat: 30.47064

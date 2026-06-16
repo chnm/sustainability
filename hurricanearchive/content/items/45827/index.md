@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Rockco, Constance M.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871b1e6e714fbe871b20ab7.doc
+    url: /files/original/14fbe871b1e6e714fbe871b20ab7.doc
 geo:
 id: 45827
 item_type: Oral History

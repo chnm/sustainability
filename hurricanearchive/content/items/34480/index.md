@@ -20,12 +20,12 @@ dublin_core:
       text: Rats Nest Road/Lakeview/Slidell
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9d02e0514fb29c9d031eb.jpg
+  - fullsize: /files/fullsize/14fb29c9d02e0514fb29c9d031eb.jpg
     id: 24314
     mime: image/jpg
     original_filename: 2326885044_f7b225b3cd.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9d02e0514fb29c9d031eb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9d02e0514fb29c9d031eb.jpg
+    thumb: /files/thumbnails/14fb29c9d02e0514fb29c9d031eb.jpg
+    url: /files/original/14fb29c9d02e0514fb29c9d031eb.jpg
 geo:
   address: ''
   lat: 30.22586

@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Bruce Ciemniecki H156K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7ca3f3b14fb29d7ca4452.mp3
+    url: /files/original/14fb29d7ca3f3b14fb29d7ca4452.mp3
 geo:
 id: 26796
 item_type: Oral History

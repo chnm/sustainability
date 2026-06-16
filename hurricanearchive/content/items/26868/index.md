@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d6f4478614fb29d6f47631.jpg
+  - fullsize: /files/fullsize/14fb29d6f4478614fb29d6f47631.jpg
     id: 23052
     mime: image/jpeg
     original_filename: fightingowlstakeabreak_f79ed1e628.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d6f4478614fb29d6f47631.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d6f4478614fb29d6f47631.jpg
+    thumb: /files/thumbnails/14fb29d6f4478614fb29d6f47631.jpg
+    url: /files/original/14fb29d6f4478614fb29d6f47631.jpg
 geo:
 id: 26868
 item_type: Still Image

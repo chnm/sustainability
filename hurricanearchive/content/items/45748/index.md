@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Lewis, Daniel.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8711f241c14fbe8711f25fe.doc
+    url: /files/original/14fbe8711f241c14fbe8711f25fe.doc
 geo:
 id: 45748
 item_type: Oral History

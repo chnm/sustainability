@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: pascagoula.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a230d5e1014fb2a230d7976.doc
+    url: /files/original/14fb2a230d5e1014fb2a230d7976.doc
 geo:
 id: 11852
 item_type: Document

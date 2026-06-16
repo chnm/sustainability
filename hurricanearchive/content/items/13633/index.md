@@ -22,7 +22,7 @@ files:
     mime: application/msword
     original_filename: Caryl Cagle, Political Cartoon_1be6174379.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d297cd714fb2a1d2980bc.doc
+    url: /files/original/14fb2a1d297cd714fb2a1d2980bc.doc
 geo:
 id: 13633
 item_type: Still Image

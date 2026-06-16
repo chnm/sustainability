@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f56dcf514fb2a6f56e0f5.jpg
+  - fullsize: /files/fullsize/14fb2a6f56dcf514fb2a6f56e0f5.jpg
     id: 463
     mime: image/jpeg
     original_filename: The_new_testament_katrina_debris_8f082a0d1f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f56dcf514fb2a6f56e0f5.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f56dcf514fb2a6f56e0f5.jpg
+    thumb: /files/thumbnails/14fb2a6f56dcf514fb2a6f56e0f5.jpg
+    url: /files/original/14fb2a6f56dcf514fb2a6f56e0f5.jpg
 geo:
   address: ''
   lat: 0.0

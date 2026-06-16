@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d87c17a614fb29d87c252e.jpg
+  - fullsize: /files/fullsize/14fb29d87c17a614fb29d87c252e.jpg
     id: 22893
     mime: image/jpeg
     original_filename: NH Old Couple_049720e783.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d87c17a614fb29d87c252e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d87c17a614fb29d87c252e.jpg
+    thumb: /files/thumbnails/14fb29d87c17a614fb29d87c252e.jpg
+    url: /files/original/14fb29d87c17a614fb29d87c252e.jpg
 geo:
   address: ''
   lat: 29.91685

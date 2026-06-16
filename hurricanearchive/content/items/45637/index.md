@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Brewton, Elizabeth Marie.bio.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8705de62c14fbe8705dea11.doc
+    url: /files/original/14fbe8705de62c14fbe8705dea11.doc
   - fullsize:
     id: 46241
     mime: application/msword
     original_filename: Brewton, Elizabeth Marie.toc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8705e8a3314fbe8705e8e1a.doc
+    url: /files/original/14fbe8705e8a3314fbe8705e8e1a.doc
 geo:
 id: 45637
 item_type: Oral History

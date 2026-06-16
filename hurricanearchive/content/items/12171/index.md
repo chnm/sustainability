@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: marynaglescript.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a223f16ee14fb2a223f1ad6.doc
+    url: /files/original/14fb2a223f16ee14fb2a223f1ad6.doc
 geo:
 id: 12171
 item_type: Document

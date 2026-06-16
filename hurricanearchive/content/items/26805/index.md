@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: John Rigdon HK4712856K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7ba487714fb29d7ba4c2d.mp3
+    url: /files/original/14fb29d7ba487714fb29d7ba4c2d.mp3
 geo:
 id: 26805
 item_type: Oral History

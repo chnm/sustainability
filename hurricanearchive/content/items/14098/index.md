@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: CPT Alan West.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1bc694c514fb2a1bc6ba1a.wav
+    url: /files/original/14fb2a1bc694c514fb2a1bc6ba1a.wav
 geo:
   address: ''
   lat: 0.0

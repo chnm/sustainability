@@ -15,12 +15,12 @@ dublin_core:
       text: 2LT Carmen Toscano.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e913db0614fb29e913deeb.jpg
+  - fullsize: /files/fullsize/14fb29e913db0614fb29e913deeb.jpg
     id: 21222
     mime: image/jpeg
     original_filename: 2LT Carmen Toscano.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e913db0614fb29e913deeb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e913db0614fb29e913deeb.jpg
+    thumb: /files/thumbnails/14fb29e913db0614fb29e913deeb.jpg
+    url: /files/original/14fb29e913db0614fb29e913deeb.jpg
 geo:
 id: 24278
 item_type: Still Image

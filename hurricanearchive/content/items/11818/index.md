@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Ocean Springs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2336fab014fb2a2336fe96.doc
+    url: /files/original/14fb2a2336fab014fb2a2336fe96.doc
 geo:
 id: 11818
 item_type: Document

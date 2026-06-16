@@ -26,7 +26,7 @@ files:
     mime: audio/mpeg
     original_filename: Barron Russell HK5256K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d647288e14fb29d64737d1.mp3
+    url: /files/original/14fb29d647288e14fb29d64737d1.mp3
 geo:
 id: 26914
 item_type: Oral History

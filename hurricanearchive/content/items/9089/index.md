@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 11 2005 Katrina is evolving as national issue.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35abed6414fb2a35abf023.txt
+    url: /files/original/14fb2a35abed6414fb2a35abf023.txt
 geo:
   address: ''
   lat: 0.0

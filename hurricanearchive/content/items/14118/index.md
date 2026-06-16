@@ -15,12 +15,12 @@ dublin_core:
       text: DSCF0033.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1bb0d16214fb2a1bb0d54d.jpg
+  - fullsize: /files/fullsize/14fb2a1bb0d16214fb2a1bb0d54d.jpg
     id: 11762
     mime: image/jpeg
     original_filename: DSCF0033.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1bb0d16214fb2a1bb0d54d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1bb0d16214fb2a1bb0d54d.jpg
+    thumb: /files/thumbnails/14fb2a1bb0d16214fb2a1bb0d54d.jpg
+    url: /files/original/14fb2a1bb0d16214fb2a1bb0d54d.jpg
 geo:
   address: ''
   lat: 0.0

@@ -15,12 +15,12 @@ dublin_core:
       text: 157 authorized only.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1fb566b914fb2a1fb5758f.jpg
+  - fullsize: /files/fullsize/14fb2a1fb566b914fb2a1fb5758f.jpg
     id: 11175
     mime: image/jpeg
     original_filename: 157 authorized only.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1fb566b914fb2a1fb5758f.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1fb566b914fb2a1fb5758f.jpg
+    thumb: /files/thumbnails/14fb2a1fb566b914fb2a1fb5758f.jpg
+    url: /files/original/14fb2a1fb566b914fb2a1fb5758f.jpg
 geo:
 id: 13165
 item_type: Still Image

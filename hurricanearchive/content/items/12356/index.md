@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Remembering Cameron Parish_ed04911049.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2233157414fb2a22331972.doc
+    url: /files/original/14fb2a2233157414fb2a22331972.doc
 geo:
   address: ''
   lat: 30.22845

@@ -18,12 +18,12 @@ dublin_core:
       text: scan0115trimmedtiff.tif
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc46d4bc14fb29cc46d89c.jpg
+  - fullsize: /files/fullsize/14fb29cc46d4bc14fb29cc46d89c.jpg
     id: 23920
     mime: image/tiff
     original_filename: scan0115trimmedtiff.tif
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc46d4bc14fb29cc46d89c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc46d4bc14fb29cc46d89c.tif
+    thumb: /files/thumbnails/14fb29cc46d4bc14fb29cc46d89c.jpg
+    url: /files/original/14fb29cc46d4bc14fb29cc46d89c.tif
 geo:
 id: 30820
 item_type: Document

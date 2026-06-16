@@ -17,12 +17,12 @@ dublin_core:
       text: Opened Side Door
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb20c8e414fb29cb20ccca.jpg
+  - fullsize: /files/fullsize/14fb29cb20c8e414fb29cb20ccca.jpg
     id: 24104
     mime: image/jpg
     original_filename: 1231252390_32b60c7888.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb20c8e414fb29cb20ccca.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb20c8e414fb29cb20ccca.jpg
+    thumb: /files/thumbnails/14fb29cb20c8e414fb29cb20ccca.jpg
+    url: /files/original/14fb29cb20c8e414fb29cb20ccca.jpg
 geo:
 id: 33254
 item_type: Still Image

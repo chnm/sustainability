@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Rayne Arnold.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23ee206814fb2a23ee244d.htm
+    url: /files/original/14fb2a23ee206814fb2a23ee244d.htm
 geo:
 id: 11689
 item_type: Oral History

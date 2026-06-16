@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: firsthand_4d40b85d49.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7e18ae414fb29d7e18ef0.pdf
+    url: /files/original/14fb29d7e18ae414fb29d7e18ef0.pdf
 geo:
 id: 26767
 item_type: Document

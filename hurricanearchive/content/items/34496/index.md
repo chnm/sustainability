@@ -21,12 +21,12 @@ dublin_core:
       text: North Shore Beach Home Totally Destroyed
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9add02414fb29c9add40a.jpg
+  - fullsize: /files/fullsize/14fb29c9add02414fb29c9add40a.jpg
     id: 24330
     mime: image/jpg
     original_filename: 2309934141_22cf331865.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9add02414fb29c9add40a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9add02414fb29c9add40a.jpg
+    thumb: /files/thumbnails/14fb29c9add02414fb29c9add40a.jpg
+    url: /files/original/14fb29c9add02414fb29c9add40a.jpg
 geo:
   address: ''
   lat: 30.22539

@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: antoniojgoz_f16cae3874.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d827176414fb29d8271b47.pdf
+    url: /files/original/14fb29d827176414fb29d8271b47.pdf
 geo:
 id: 26724
 item_type: Document

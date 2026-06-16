@@ -21,12 +21,12 @@ dublin_core:
       text: Pantry at Leggio home
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c99cfa2314fb29c99cfe09.jpg
+  - fullsize: /files/fullsize/14fb29c99cfa2314fb29c99cfe09.jpg
     id: 24346
     mime: image/jpg
     original_filename: 2291285043_db4638f04d.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c99cfa2314fb29c99cfe09.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c99cfa2314fb29c99cfe09.jpg
+    thumb: /files/thumbnails/14fb29c99cfa2314fb29c99cfe09.jpg
+    url: /files/original/14fb29c99cfa2314fb29c99cfe09.jpg
 geo:
   address: ''
   lat: 30.22539

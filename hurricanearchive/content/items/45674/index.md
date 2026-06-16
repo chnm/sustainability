@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Garcia, Eduwiges.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870b051ee14fbe870b09c31.doc
+    url: /files/original/14fbe870b051ee14fbe870b09c31.doc
 geo:
 id: 45674
 item_type: Oral History

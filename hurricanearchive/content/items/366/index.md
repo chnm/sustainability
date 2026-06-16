@@ -25,7 +25,7 @@ files:
     mime: text/html
     original_filename: Fwd_Re_Refugees_7af961f50a.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a7025f44214fb2a7025f82d.htm
+    url: /files/original/14fb2a7025f44214fb2a7025f82d.htm
 geo:
   address: ''
   lat: 0.0

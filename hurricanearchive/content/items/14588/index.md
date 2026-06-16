@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: SHN_Member email 1_13_06_dfbf1c040f.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a189553a914fb2a18955cb5.doc
+    url: /files/original/14fb2a189553a914fb2a18955cb5.doc
 geo:
 id: 14588
 item_type: Document

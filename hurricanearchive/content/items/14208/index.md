@@ -15,12 +15,12 @@ dublin_core:
       text: communication van.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1a97660f14fb2a1a976a09.jpg
+  - fullsize: /files/fullsize/14fb2a1a97660f14fb2a1a976a09.jpg
     id: 11852
     mime: image/jpeg
     original_filename: communication van.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1a97660f14fb2a1a976a09.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1a97660f14fb2a1a976a09.jpg
+    thumb: /files/thumbnails/14fb2a1a97660f14fb2a1a976a09.jpg
+    url: /files/original/14fb2a1a97660f14fb2a1a976a09.jpg
 geo:
   address: ''
   lat: 0.0

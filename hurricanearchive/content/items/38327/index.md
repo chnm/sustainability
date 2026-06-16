@@ -19,7 +19,7 @@ files:
     mime: application/vnd.openxmlformats-officedocument.presentationml.presentation
     original_filename: History of Louisiana Final_f70fbb27f1.pptx
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c515344514fb29c515382b.pptx
+    url: /files/original/14fb29c515344514fb29c515382b.pptx
 geo:
   address: 3100 Mansfield St.
   lat: 0.0

@@ -11,12 +11,12 @@ dublin_core:
       text: Louisa! I grew up in this neighborhood before it was destroyed by Hurricane Katrina. All my memories as a child was gone and so was my house. For three months my family and I experienced pain and suffering. We knew we lost everything; photos, documents, and loved ones.
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/35e06a7cc2ad41ec52c56c8234a38b71.jpg
+  - fullsize: /files/fullsize/35e06a7cc2ad41ec52c56c8234a38b71.jpg
     id: 46575
     mime: image/jpeg
     original_filename: Louisa and Higgins.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/35e06a7cc2ad41ec52c56c8234a38b71.jpg
-    url: https://hurricanearchive.org/files/original/35e06a7cc2ad41ec52c56c8234a38b71.jpg
+    thumb: /files/thumbnails/35e06a7cc2ad41ec52c56c8234a38b71.jpg
+    url: /files/original/35e06a7cc2ad41ec52c56c8234a38b71.jpg
 geo:
 id: 45991
 item_type: Still Image

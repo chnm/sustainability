@@ -21,12 +21,12 @@ dublin_core:
       text: Baby Photo of Rene and Michelle Broussard
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc36701d14fb29cc367403.jpg
+  - fullsize: /files/fullsize/14fb29cc36701d14fb29cc367403.jpg
     id: 23934
     mime: image/jpeg
     original_filename: rene&michelle_f6bb286588.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc36701d14fb29cc367403.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc36701d14fb29cc367403.jpg
+    thumb: /files/thumbnails/14fb29cc36701d14fb29cc367403.jpg
+    url: /files/original/14fb29cc36701d14fb29cc367403.jpg
 geo:
   address: 1342 Mandolin St.
   lat: 0.0

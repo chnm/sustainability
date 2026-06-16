@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: GehmanJournal2006_aa264f51a7.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce1e022014fb29ce1e0606.doc
+    url: /files/original/14fb29ce1e022014fb29ce1e0606.doc
 geo:
 id: 28907
 item_type: Document

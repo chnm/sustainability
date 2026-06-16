@@ -15,12 +15,12 @@ dublin_core:
       text: george tying on gas.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a204de5ac14fb2a204de992.jpg
+  - fullsize: /files/fullsize/14fb2a204de5ac14fb2a204de992.jpg
     id: 11130
     mime: image/jpeg
     original_filename: george tying on gas.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a204de5ac14fb2a204de992.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a204de5ac14fb2a204de992.jpg
+    thumb: /files/thumbnails/14fb2a204de5ac14fb2a204de992.jpg
+    url: /files/original/14fb2a204de5ac14fb2a204de992.jpg
 geo:
 id: 13120
 item_type: Still Image

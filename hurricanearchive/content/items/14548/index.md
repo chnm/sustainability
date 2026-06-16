@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: '[SHN]Draft Statement of Principles_0e655dbf7c.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18e2b99714fb2a18e2c625.doc
+    url: /files/original/14fb2a18e2b99714fb2a18e2c625.doc
 geo:
 id: 14548
 item_type: Document

@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: comefromlove_2151eccbe9.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7f561cf14fb29d7f565fb.pdf
+    url: /files/original/14fb29d7f561cf14fb29d7f565fb.pdf
 geo:
 id: 26751
 item_type: Document

@@ -18,12 +18,12 @@ dublin_core:
       text: 20051104_MG_8700.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a65c382d414fb2a65c396f9.jpg
+  - fullsize: /files/fullsize/14fb2a65c382d414fb2a65c396f9.jpg
     id: 2003
     mime: image/jpeg
     original_filename: 20051104_MG_8700.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a65c382d414fb2a65c396f9.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a65c382d414fb2a65c396f9.jpg
+    thumb: /files/thumbnails/14fb2a65c382d414fb2a65c396f9.jpg
+    url: /files/original/14fb2a65c382d414fb2a65c396f9.jpg
 geo:
 id: 2521
 item_type: Still Image

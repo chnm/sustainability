@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_40303024d8.Making the Grade.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cad85f1914fb29cad862fe.doc
+    url: /files/original/14fb29cad85f1914fb29cad862fe.doc
 geo:
 id: 33306
 item_type: Document

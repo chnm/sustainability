@@ -25,7 +25,7 @@ files:
     mime: application/octet-stream
     original_filename: Superintendent's Message80706_f6f546c5d0.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dd9b492e14fb29dd9b4d15.doc
+    url: /files/original/14fb29dd9b492e14fb29dd9b4d15.doc
 geo:
   address: ''
   lat: 30.48655

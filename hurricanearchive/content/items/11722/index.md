@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: chelsealee.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c4958c14fb2a23c49d4f.html
+    url: /files/original/14fb2a23c4958c14fb2a23c49d4f.html
 geo:
 id: 11722
 item_type: Oral History

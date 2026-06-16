@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6dedca1314fb2a6dedce01.jpg
+  - fullsize: /files/fullsize/14fb2a6dedca1314fb2a6dedce01.jpg
     id: 786
     mime: image/gif
     original_filename: ROADCL1_648f05a37e.gif
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6dedca1314fb2a6dedce01.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6dedca1314fb2a6dedce01.jpg
+    thumb: /files/thumbnails/14fb2a6dedca1314fb2a6dedce01.jpg
+    url: /files/original/14fb2a6dedca1314fb2a6dedce01.jpg
 geo:
   address: ''
   lat: 30.211014841607604

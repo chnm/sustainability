@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 07 2005 Katrina stirs empathy for city, residents.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35ae787514fb2a35ae7c5b.txt
+    url: /files/original/14fb2a35ae787514fb2a35ae7c5b.txt
 geo:
   address: ''
   lat: 0.0

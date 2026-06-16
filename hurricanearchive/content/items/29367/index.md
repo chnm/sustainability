@@ -25,7 +25,7 @@ files:
     mime: application/pdf
     original_filename: katrina belly_f06cc3c406.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce20040814fb29ce2008e0.pdf
+    url: /files/original/14fb29ce20040814fb29ce2008e0.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

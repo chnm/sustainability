@@ -15,12 +15,12 @@ dublin_core:
       text: LTG Blum and MG Landreneau.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b6a42e214fb2a1b6a4783.jpg
+  - fullsize: /files/fullsize/14fb2a1b6a42e214fb2a1b6a4783.jpg
     id: 11793
     mime: image/jpeg
     original_filename: LTG Blum and MG Landreneau.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b6a42e214fb2a1b6a4783.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b6a42e214fb2a1b6a4783.jpg
+    thumb: /files/thumbnails/14fb2a1b6a42e214fb2a1b6a4783.jpg
+    url: /files/original/14fb2a1b6a42e214fb2a1b6a4783.jpg
 geo:
   address: ''
   lat: 0.0

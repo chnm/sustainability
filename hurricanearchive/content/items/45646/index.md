@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Castano, Ana.trs (English).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8706b1aaa14fbe8706b22bd.doc
+    url: /files/original/14fbe8706b1aaa14fbe8706b22bd.doc
   - fullsize:
     id: 46254
     mime: application/msword
     original_filename: Castano, Ana.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8706bdda314fbe8706be74a.doc
+    url: /files/original/14fbe8706bdda314fbe8706be74a.doc
 geo:
 id: 45646
 item_type: Oral History

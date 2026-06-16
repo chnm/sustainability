@@ -17,13 +17,13 @@ files:
     mime: application/pdf
     original_filename: Calzada, Jesus.bio sheet 2.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87060ab5b14fbe87060d276.pdf
+    url: /files/original/14fbe87060ab5b14fbe87060d276.pdf
   - fullsize:
     id: 46244
     mime: application/pdf
     original_filename: Calzada, Jesus.bio sheet.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87061c0ad14fbe87061c49e.pdf
+    url: /files/original/14fbe87061c0ad14fbe87061c49e.pdf
 geo:
 id: 45639
 item_type: Oral History

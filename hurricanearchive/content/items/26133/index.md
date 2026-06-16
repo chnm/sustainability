@@ -20,7 +20,7 @@ files:
     mime: audio/mpg
     original_filename: Jeff Chauppetta Interview Evacuation Drawings_fcfbb239a9.MP3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29da4d61fa14fb29da4d78f3.MP3
+    url: /files/original/14fb29da4d61fa14fb29da4d78f3.MP3
 geo:
 id: 26133
 item_type: Document

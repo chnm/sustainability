@@ -17,19 +17,19 @@ files:
     mime: audio/mpeg
     original_filename: Broom, Reba 6-13-06 Side 1.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f00857a14fbe86f00895e.mp3
+    url: /files/original/14fbe86f00857a14fbe86f00895e.mp3
   - fullsize:
     id: 46006
     mime: audio/mpeg
     original_filename: Broom, Reba 6-13-06 Side 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f01d60d14fbe86f01d945.mp3
+    url: /files/original/14fbe86f01d60d14fbe86f01d945.mp3
   - fullsize:
     id: 46007
     mime: application/msword
     original_filename: Broom, Reba.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f0478fe14fbe86f047ce2.doc
+    url: /files/original/14fbe86f0478fe14fbe86f047ce2.doc
 geo:
 id: 45552
 item_type: Oral History

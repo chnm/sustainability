@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c4d626d714fb29c4d62aaf.jpg
+  - fullsize: /files/fullsize/14fb29c4d626d714fb29c4d62aaf.jpg
     id: 24836
     mime: image/pjpeg
     original_filename: kayla_3659ab4568.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c4d626d714fb29c4d62aaf.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c4d626d714fb29c4d62aaf.jpg
+    thumb: /files/thumbnails/14fb29c4d626d714fb29c4d62aaf.jpg
+    url: /files/original/14fb29c4d626d714fb29c4d62aaf.jpg
 geo:
   address: 225 Carnation Ave.
   lat: 0.0

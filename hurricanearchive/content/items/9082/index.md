@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 04 2005 Lean times.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35b3be2114fb2a35b3c205.txt
+    url: /files/original/14fb2a35b3be2114fb2a35b3c205.txt
 geo:
   address: ''
   lat: 0.0

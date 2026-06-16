@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Gomez, Louis.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870be7e3a14fbe870be8220.doc
+    url: /files/original/14fbe870be7e3a14fbe870be8220.doc
   - fullsize:
     id: 46303
     mime: application/msword
     original_filename: Gomez, Louis.toc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870c0320714fbe870c035ee.doc
+    url: /files/original/14fbe870c0320714fbe870c035ee.doc
 geo:
 id: 45688
 item_type: Oral History

@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Helping Hands.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a236055a114fb2a236074de.doc
+    url: /files/original/14fb2a236055a114fb2a236074de.doc
 geo:
 id: 11796
 item_type: Document

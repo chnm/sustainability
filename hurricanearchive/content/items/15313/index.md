@@ -19,18 +19,18 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a169ae92314fb2a169aed08.jpg
+  - fullsize: /files/fullsize/14fb2a169ae92314fb2a169aed08.jpg
     id: 12381
     mime: image/jpeg
     original_filename: PPeabody-_589576a288.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a169ae92314fb2a169aed08.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a169ae92314fb2a169aed08.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1699b11d14fb2a1699b7f0.jpg
+    thumb: /files/thumbnails/14fb2a169ae92314fb2a169aed08.jpg
+    url: /files/original/14fb2a169ae92314fb2a169aed08.jpg
+  - fullsize: /files/fullsize/14fb2a1699b11d14fb2a1699b7f0.jpg
     id: 12382
     mime: image/jpeg
     original_filename: PPeabody-8_f7fb6b1744.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1699b11d14fb2a1699b7f0.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1699b11d14fb2a1699b7f0.jpg
+    thumb: /files/thumbnails/14fb2a1699b11d14fb2a1699b7f0.jpg
+    url: /files/original/14fb2a1699b11d14fb2a1699b7f0.jpg
 geo:
 id: 15313
 item_type: Still Image

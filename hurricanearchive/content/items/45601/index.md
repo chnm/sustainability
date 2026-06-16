@@ -17,7 +17,7 @@ files:
     mime: audio/mpeg
     original_filename: Fortenberry, Cortney - by Gregory Bednarsh & Andrea Messaoud.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86fd1bc2214fbe86fd30ea3.mp3
+    url: /files/original/14fbe86fd1bc2214fbe86fd30ea3.mp3
 geo:
 id: 45601
 item_type: Oral History

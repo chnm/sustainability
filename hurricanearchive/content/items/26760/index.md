@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: DanSmithJr_d7ebf46e2b.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7e7240e14fb29d7e72bdd.pdf
+    url: /files/original/14fb29d7e7240e14fb29d7e72bdd.pdf
 geo:
 id: 26760
 item_type: Document

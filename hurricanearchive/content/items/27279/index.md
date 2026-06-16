@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d590ca6414fb29d590ce53.jpg
+  - fullsize: /files/fullsize/14fb29d590ca6414fb29d590ce53.jpg
     id: 23174
     mime: image/jpeg
     original_filename: pt_bar_dorm_a5ac22fc8d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d590ca6414fb29d590ce53.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d590ca6414fb29d590ce53.jpg
+    thumb: /files/thumbnails/14fb29d590ca6414fb29d590ce53.jpg
+    url: /files/original/14fb29d590ca6414fb29d590ce53.jpg
 geo:
   address: ''
   lat: 0.0

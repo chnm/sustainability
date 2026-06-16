@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: hot stunk depressing_85aaf825fa.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce5f31c914fb29ce5f3337.pdf
+    url: /files/original/14fb29ce5f31c914fb29ce5f3337.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

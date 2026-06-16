@@ -18,12 +18,12 @@ dublin_core:
       text: in the cabildo.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc5086d714fb29cc508abe.jpg
+  - fullsize: /files/fullsize/14fb29cc5086d714fb29cc508abe.jpg
     id: 23913
     mime: image/jpeg
     original_filename: in the cabildo.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc5086d714fb29cc508abe.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc5086d714fb29cc508abe.jpg
+    thumb: /files/thumbnails/14fb29cc5086d714fb29cc508abe.jpg
+    url: /files/original/14fb29cc5086d714fb29cc508abe.jpg
 geo:
 id: 30813
 item_type: Still Image

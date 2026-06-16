@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7dd4b0914fb29d7dd4ee5.jpg
+  - fullsize: /files/fullsize/14fb29d7dd4b0914fb29d7dd4ee5.jpg
     id: 22967
     mime: image/jpeg
     original_filename: WC 1900s women in family & car_34a6f7c5bb.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7dd4b0914fb29d7dd4ee5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7dd4b0914fb29d7dd4ee5.jpg
+    thumb: /files/thumbnails/14fb29d7dd4b0914fb29d7dd4ee5.jpg
+    url: /files/original/14fb29d7dd4b0914fb29d7dd4ee5.jpg
 geo:
   address: ''
   lat: 29.87876

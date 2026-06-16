@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Cori Lee HK656K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d6402fe514fb29d64033ca.mp3
+    url: /files/original/14fb29d6402fe514fb29d64033ca.mp3
 geo:
 id: 26918
 item_type: Oral History

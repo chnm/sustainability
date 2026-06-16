@@ -23,7 +23,7 @@ files:
     mime: application/x-zip-compressed
     original_filename: shn_oct28_06meeting_ac4ddd0f7d.zip
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cc8a43014fb2a1cc8a816.zip
+    url: /files/original/14fb2a1cc8a43014fb2a1cc8a816.zip
 geo:
 id: 13757
 item_type: Document

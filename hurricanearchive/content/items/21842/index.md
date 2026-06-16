@@ -15,12 +15,12 @@ dublin_core:
       text: Delacroix LA.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb654eac14fb29fb655291.jpg
+  - fullsize: /files/fullsize/14fb29fb654eac14fb29fb655291.jpg
     id: 18793
     mime: image/jpeg
     original_filename: Delacroix LA.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb654eac14fb29fb655291.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb654eac14fb29fb655291.jpg
+    thumb: /files/thumbnails/14fb29fb654eac14fb29fb655291.jpg
+    url: /files/original/14fb29fb654eac14fb29fb655291.jpg
 geo:
 id: 21842
 item_type: Still Image

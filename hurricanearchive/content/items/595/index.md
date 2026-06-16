@@ -25,7 +25,7 @@ files:
     mime: audio/mpeg
     original_filename: Jack_Strange__Back_in_New_Orleans121805_bea37832f6.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6f6c3ebb14fb2a6f6c4269.mp3
+    url: /files/original/14fb2a6f6c3ebb14fb2a6f6c4269.mp3
 geo:
   address: ''
   lat: 30.0248133340817

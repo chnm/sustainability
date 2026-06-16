@@ -15,12 +15,12 @@ dublin_core:
       text: Flood heights marked.6000 Blk West End Blvd.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a216de9a914fb2a216ded94.jpg
+  - fullsize: /files/fullsize/14fb2a216de9a914fb2a216ded94.jpg
     id: 10997
     mime: image/jpeg
     original_filename: Flood heights marked.6000 Blk West End Blvd.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a216de9a914fb2a216ded94.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a216de9a914fb2a216ded94.jpg
+    thumb: /files/thumbnails/14fb2a216de9a914fb2a216ded94.jpg
+    url: /files/original/14fb2a216de9a914fb2a216ded94.jpg
 geo:
 id: 12853
 item_type: Still Image

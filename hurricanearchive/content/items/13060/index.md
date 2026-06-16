@@ -15,12 +15,12 @@ dublin_core:
       text: before south courtyard.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20a7692714fb2a20a76c89.jpg
+  - fullsize: /files/fullsize/14fb2a20a7692714fb2a20a76c89.jpg
     id: 11070
     mime: image/jpeg
     original_filename: before south courtyard.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20a7692714fb2a20a76c89.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20a7692714fb2a20a76c89.jpg
+    thumb: /files/thumbnails/14fb2a20a7692714fb2a20a76c89.jpg
+    url: /files/original/14fb2a20a7692714fb2a20a76c89.jpg
 geo:
 id: 13060
 item_type: Still Image

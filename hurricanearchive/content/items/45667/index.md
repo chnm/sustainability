@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Flowers, Jan.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8708c1b1e14fbe8708c1ef8.doc
+    url: /files/original/14fbe8708c1b1e14fbe8708c1ef8.doc
   - fullsize:
     id: 46279
     mime: application/msword
     original_filename: Flowers, Jan.toc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8708d72db14fbe8708d76a5.doc
+    url: /files/original/14fbe8708d72db14fbe8708d76a5.doc
 geo:
 id: 45667
 item_type: Oral History

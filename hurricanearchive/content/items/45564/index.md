@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Cucullu, Patt 2-21-08.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f25f65514fbe86f25fa30.mp3
+    url: /files/original/14fbe86f25f65514fbe86f25fa30.mp3
   - fullsize:
     id: 46043
     mime: audio/mpeg
     original_filename: Cucullu, Patt.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86f269e4b14fbe86f26a222.mp3
+    url: /files/original/14fbe86f269e4b14fbe86f26a222.mp3
 geo:
 id: 45564
 item_type: Oral History

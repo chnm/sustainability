@@ -24,12 +24,12 @@ dublin_core:
       text: Sampling Sundown East\'s oil spill
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a669b540a14fb2a669b57f3.jpg
+  - fullsize: /files/fullsize/14fb2a669b540a14fb2a669b57f3.jpg
     id: 1904
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05C3D_14d7d9008c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a669b540a14fb2a669b57f3.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a669b540a14fb2a669b57f3.jpg
+    thumb: /files/thumbnails/14fb2a669b540a14fb2a669b57f3.jpg
+    url: /files/original/14fb2a669b540a14fb2a669b57f3.jpg
 geo:
 id: 2412
 item_type: Still Image

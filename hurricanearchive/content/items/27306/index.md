@@ -17,12 +17,12 @@ dublin_core:
       text: Barge
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d557108e14fb29d5571474.jpg
+  - fullsize: /files/fullsize/14fb29d557108e14fb29d5571474.jpg
     id: 23193
     mime: image/jpg
     original_filename: 336697306_0c6219f12f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d557108e14fb29d5571474.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d557108e14fb29d5571474.jpg
+    thumb: /files/thumbnails/14fb29d557108e14fb29d5571474.jpg
+    url: /files/original/14fb29d557108e14fb29d5571474.jpg
 geo:
 id: 27306
 item_type: Still Image

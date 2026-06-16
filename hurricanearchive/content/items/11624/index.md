@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Carl Schwartz.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a24722a2114fb2a24722e01.htm
+    url: /files/original/14fb2a24722a2114fb2a24722e01.htm
 geo:
 id: 11624
 item_type: Oral History

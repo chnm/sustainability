@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 25 2006 Governor, Storm strike not about if it's when.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35d6b9e614fb2a35d6bdc4.txt
+    url: /files/original/14fb2a35d6b9e614fb2a35d6bdc4.txt
 geo:
   address: ''
   lat: 0.0

@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 271-J2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fae9c9f714fb29fae9cde6.jpg
+  - fullsize: /files/fullsize/14fb29fae9c9f714fb29fae9cde6.jpg
     id: 18891
     mime: image/jpeg
     original_filename: Picture 271-J2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fae9c9f714fb29fae9cde6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fae9c9f714fb29fae9cde6.jpg
+    thumb: /files/thumbnails/14fb29fae9c9f714fb29fae9cde6.jpg
+    url: /files/original/14fb29fae9c9f714fb29fae9cde6.jpg
 geo:
 id: 21940
 item_type: Still Image

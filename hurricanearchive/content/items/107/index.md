@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a7109374614fb2a71093a7a.jpg
+  - fullsize: /files/fullsize/14fb2a7109374614fb2a71093a7a.jpg
     id: 81
     mime: image/jpeg
     original_filename: jesuitNO_6b8a073bdc.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a7109374614fb2a71093a7a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a7109374614fb2a71093a7a.jpg
+    thumb: /files/thumbnails/14fb2a7109374614fb2a71093a7a.jpg
+    url: /files/original/14fb2a7109374614fb2a71093a7a.jpg
 geo:
   address: ''
   lat: 29.993002284551103

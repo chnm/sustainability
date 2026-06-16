@@ -15,12 +15,12 @@ dublin_core:
       text: 190 cars flooded.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f6e380f14fb2a1f6e3bf8.jpg
+  - fullsize: /files/fullsize/14fb2a1f6e380f14fb2a1f6e3bf8.jpg
     id: 11207
     mime: image/jpeg
     original_filename: 190 cars flooded.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f6e380f14fb2a1f6e3bf8.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f6e380f14fb2a1f6e3bf8.jpg
+    thumb: /files/thumbnails/14fb2a1f6e380f14fb2a1f6e3bf8.jpg
+    url: /files/original/14fb2a1f6e380f14fb2a1f6e3bf8.jpg
 geo:
 id: 13197
 item_type: Still Image

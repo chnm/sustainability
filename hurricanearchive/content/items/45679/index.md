@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Gavagnie, Mary Margaret.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870b6972914fbe870b69b0e.doc
+    url: /files/original/14fbe870b6972914fbe870b69b0e.doc
 geo:
 id: 45679
 item_type: Oral History

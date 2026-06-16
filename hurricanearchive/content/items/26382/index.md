@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d909b41b14fb29d909b82f.jpg
+  - fullsize: /files/fullsize/14fb29d909b41b14fb29d909b82f.jpg
     id: 22861
     mime: image/jpeg
     original_filename: RhinaKissee-5923_10f9bb6c22.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d909b41b14fb29d909b82f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d909b41b14fb29d909b82f.jpg
+    thumb: /files/thumbnails/14fb29d909b41b14fb29d909b82f.jpg
+    url: /files/original/14fb29d909b41b14fb29d909b82f.jpg
 geo:
   address: 3709 Palmisano Blvd., Chalmette, LA
   lat: 29.95079

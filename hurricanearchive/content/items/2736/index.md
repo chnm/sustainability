@@ -15,12 +15,12 @@ dublin_core:
       text: 33.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a60602dda14fb2a606031c0.jpg
+  - fullsize: /files/fullsize/14fb2a60602dda14fb2a606031c0.jpg
     id: 2218
     mime: image/jpeg
     original_filename: 33.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a60602dda14fb2a606031c0.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a60602dda14fb2a606031c0.jpg
+    thumb: /files/thumbnails/14fb2a60602dda14fb2a606031c0.jpg
+    url: /files/original/14fb2a60602dda14fb2a606031c0.jpg
 geo:
 id: 2736
 item_type: Still Image

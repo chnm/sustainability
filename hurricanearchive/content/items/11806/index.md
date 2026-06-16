@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Long Beach City Park.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2342913614fb2a23429502.doc
+    url: /files/original/14fb2a2342913614fb2a23429502.doc
 geo:
 id: 11806
 item_type: Document

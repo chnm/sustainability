@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d992e8d214fb29d992ec6e.jpg
+  - fullsize: /files/fullsize/14fb29d992e8d214fb29d992ec6e.jpg
     id: 22812
     mime: image/jpeg
     original_filename: AB car 1950_dc5b354484.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d992e8d214fb29d992ec6e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d992e8d214fb29d992ec6e.jpg
+    thumb: /files/thumbnails/14fb29d992e8d214fb29d992ec6e.jpg
+    url: /files/original/14fb29d992e8d214fb29d992ec6e.jpg
 geo:
   address: ''
   lat: 29.91685

@@ -26,7 +26,7 @@ files:
     mime: video/mp4
     original_filename: NWT-Greta's House.mp4
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dba6589a14fb29dba65c81.mp4
+    url: /files/original/14fb29dba6589a14fb29dba65c81.mp4
 geo:
   address: 820 Jourdan Street New Orleans, Louisiana
   lat: 29.96043

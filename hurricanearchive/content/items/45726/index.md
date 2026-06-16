@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Jones, William Barry.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870f4cf5014fbe870f4d32e.doc
+    url: /files/original/14fbe870f4cf5014fbe870f4d32e.doc
 geo:
 id: 45726
 item_type: Oral History

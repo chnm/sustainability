@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Jason M. Bolstad.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a243f252b14fb2a243f2c6c.html
+    url: /files/original/14fb2a243f252b14fb2a243f2c6c.html
 geo:
 id: 11656
 item_type: Oral History

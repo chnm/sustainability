@@ -17,12 +17,12 @@ dublin_core:
       text: Door to Dixie\'s Loading Dock
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb64a69d14fb29cb64acb6.jpg
+  - fullsize: /files/fullsize/14fb29cb64a69d14fb29cb64acb6.jpg
     id: 24080
     mime: image/jpg
     original_filename: 1259921858_b3e53685c3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb64a69d14fb29cb64acb6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb64a69d14fb29cb64acb6.jpg
+    thumb: /files/thumbnails/14fb29cb64a69d14fb29cb64acb6.jpg
+    url: /files/original/14fb29cb64a69d14fb29cb64acb6.jpg
 geo:
 id: 33230
 item_type: Still Image

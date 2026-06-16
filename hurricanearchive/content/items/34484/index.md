@@ -21,12 +21,12 @@ dublin_core:
       text: Boat washed on Land on Carr Drive at North Shore Beach
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9bd54ba14fb29c9bd5bfc.jpg
+  - fullsize: /files/fullsize/14fb29c9bd54ba14fb29c9bd5bfc.jpg
     id: 24318
     mime: image/jpg
     original_filename: 2326880216_c1b904c215.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9bd54ba14fb29c9bd5bfc.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9bd54ba14fb29c9bd5bfc.jpg
+    thumb: /files/thumbnails/14fb29c9bd54ba14fb29c9bd5bfc.jpg
+    url: /files/original/14fb29c9bd54ba14fb29c9bd5bfc.jpg
 geo:
   address: ''
   lat: 30.22586

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: adamweaver.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c9696214fb2a23c96f72.html
+    url: /files/original/14fb2a23c9696214fb2a23c96f72.html
 geo:
 id: 11713
 item_type: Oral History

@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Weathersby, Jeff 6-20-06.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870181d1614fbe8701820fc.mp3
+    url: /files/original/14fbe870181d1614fbe8701820fc.mp3
   - fullsize:
     id: 46185
     mime: application/msword
     original_filename: Weathersby, Jeff.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8701e856814fbe8701e95e8.doc
+    url: /files/original/14fbe8701e856814fbe8701e95e8.doc
 geo:
 id: 45610
 item_type: Oral History

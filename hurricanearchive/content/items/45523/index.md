@@ -17,7 +17,7 @@ files:
     mime: audio/mpeg
     original_filename: Arnolie, Louise 5-30-06 Katrina.MP3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e62007b14fbe86e620462.MP3
+    url: /files/original/14fbe86e62007b14fbe86e620462.MP3
 geo:
 id: 45523
 item_type: Oral History

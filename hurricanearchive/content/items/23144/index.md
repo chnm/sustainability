@@ -15,12 +15,12 @@ dublin_core:
       text: 20051001-A-2421S-003AlabamaNG.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f1553a0214fb29f1553de6.jpg
+  - fullsize: /files/fullsize/14fb29f1553a0214fb29f1553de6.jpg
     id: 20088
     mime: image/jpeg
     original_filename: 20051001-A-2421S-003AlabamaNG.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f1553a0214fb29f1553de6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f1553a0214fb29f1553de6.jpg
+    thumb: /files/thumbnails/14fb29f1553a0214fb29f1553de6.jpg
+    url: /files/original/14fb29f1553a0214fb29f1553de6.jpg
 geo:
 id: 23144
 item_type: Still Image

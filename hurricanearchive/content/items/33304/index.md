@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_ad35ac8c65.You have to be twice as smart.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cada203414fb29cada241f.doc
+    url: /files/original/14fb29cada203414fb29cada241f.doc
 geo:
 id: 33304
 item_type: Document

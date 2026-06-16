@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 1893.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1368e10c14fb2a1368e433.jpg
+  - fullsize: /files/fullsize/14fb2a1368e10c14fb2a1368e433.jpg
     id: 16024
     mime: image/jpeg
     original_filename: DSC 1893.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1368e10c14fb2a1368e433.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1368e10c14fb2a1368e433.jpg
+    thumb: /files/thumbnails/14fb2a1368e10c14fb2a1368e433.jpg
+    url: /files/original/14fb2a1368e10c14fb2a1368e433.jpg
 geo:
 id: 19071
 item_type: Still Image

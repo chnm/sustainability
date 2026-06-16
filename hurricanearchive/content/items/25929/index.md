@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: Mukerji,StewardshipPoliticsandControl_74bbe03c73.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbc4c3da14fb29dbc4c979.pdf
+    url: /files/original/14fb29dbc4c3da14fb29dbc4c979.pdf
 geo:
 id: 25929
 item_type: Document

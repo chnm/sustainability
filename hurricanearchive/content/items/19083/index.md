@@ -15,12 +15,12 @@ dublin_core:
       text: NO BH view 1.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1340826214fb2a1340864b.jpg
+  - fullsize: /files/fullsize/14fb2a1340826214fb2a1340864b.jpg
     id: 16036
     mime: image/jpeg
     original_filename: NO BH view 1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1340826214fb2a1340864b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1340826214fb2a1340864b.jpg
+    thumb: /files/thumbnails/14fb2a1340826214fb2a1340864b.jpg
+    url: /files/original/14fb2a1340826214fb2a1340864b.jpg
 geo:
 id: 19083
 item_type: Still Image

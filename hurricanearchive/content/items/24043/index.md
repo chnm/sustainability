@@ -15,12 +15,12 @@ dublin_core:
       text: Copy of DSC 1588neworleansS&R.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29eb47514614fb29eb475827.jpg
+  - fullsize: /files/fullsize/14fb29eb47514614fb29eb475827.jpg
     id: 20987
     mime: image/jpeg
     original_filename: Copy of DSC 1588neworleansS&R.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29eb47514614fb29eb475827.jpg
-    url: https://hurricanearchive.org/files/original/14fb29eb47514614fb29eb475827.jpg
+    thumb: /files/thumbnails/14fb29eb47514614fb29eb475827.jpg
+    url: /files/original/14fb29eb47514614fb29eb475827.jpg
 geo:
 id: 24043
 item_type: Still Image

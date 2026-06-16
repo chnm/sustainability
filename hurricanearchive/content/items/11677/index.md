@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Mary S. Casalme.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a24121bf614fb2a241301ba.htm
+    url: /files/original/14fb2a24121bf614fb2a241301ba.htm
 geo:
 id: 11677
 item_type: Oral History

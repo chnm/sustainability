@@ -24,12 +24,12 @@ dublin_core:
       text: Cleaning up Sundown East oil spill
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a669725f714fb2a669729da.jpg
+  - fullsize: /files/fullsize/14fb2a669725f714fb2a669729da.jpg
     id: 1906
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05C3J_cf5cc92d96.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a669725f714fb2a669729da.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a669725f714fb2a669729da.jpg
+    thumb: /files/thumbnails/14fb2a669725f714fb2a669729da.jpg
+    url: /files/original/14fb2a669725f714fb2a669729da.jpg
 geo:
 id: 2414
 item_type: Still Image

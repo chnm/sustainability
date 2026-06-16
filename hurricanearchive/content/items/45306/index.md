@@ -22,7 +22,7 @@ files:
     mime: application/vnd.ms-powerpoint
     original_filename: Katrina_and_the_Arts_Kathleen_DesHotel_bd467392d7.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c1b8d15b14fb29c1b8d541.ppt
+    url: /files/original/14fb29c1b8d15b14fb29c1b8d541.ppt
 geo:
 id: 45306
 item_type: Document

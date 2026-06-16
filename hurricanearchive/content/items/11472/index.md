@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2483c8cc14fb2a2483cb6e.jpg
+  - fullsize: /files/fullsize/14fb2a2483c8cc14fb2a2483cb6e.jpg
     id: 10422
     mime: image/pjpeg
     original_filename: New Orleans 164_42125bfabe.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2483c8cc14fb2a2483cb6e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2483c8cc14fb2a2483cb6e.jpg
+    thumb: /files/thumbnails/14fb2a2483c8cc14fb2a2483cb6e.jpg
+    url: /files/original/14fb2a2483c8cc14fb2a2483cb6e.jpg
 geo:
   address: ''
   lat: 30.03106

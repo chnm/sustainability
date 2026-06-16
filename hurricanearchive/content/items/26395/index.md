@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d8e0034d14fb29d8e00b7a.jpg
+  - fullsize: /files/fullsize/14fb29d8e0034d14fb29d8e00b7a.jpg
     id: 22873
     mime: image/jpeg
     original_filename: EV 1 1876 Farmer_8424309ba6.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d8e0034d14fb29d8e00b7a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d8e0034d14fb29d8e00b7a.jpg
+    thumb: /files/thumbnails/14fb29d8e0034d14fb29d8e00b7a.jpg
+    url: /files/original/14fb29d8e0034d14fb29d8e00b7a.jpg
 geo:
   address: ''
   lat: 29.84064

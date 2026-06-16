@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: toilet.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a230f1f2614fb2a230f23a2.doc
+    url: /files/original/14fb2a230f1f2614fb2a230f23a2.doc
 geo:
 id: 11850
 item_type: Document

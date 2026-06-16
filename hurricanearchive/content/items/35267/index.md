@@ -12,12 +12,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c74d531d14fb29c74d5f19.jpg
+  - fullsize: /files/fullsize/14fb29c74d531d14fb29c74d5f19.jpg
     id: 24607
     mime: image/pjpeg
     original_filename: 5_029d0befd1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c74d531d14fb29c74d5f19.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c74d531d14fb29c74d5f19.jpg
+    thumb: /files/thumbnails/14fb29c74d531d14fb29c74d5f19.jpg
+    url: /files/original/14fb29c74d531d14fb29c74d5f19.jpg
 geo:
   address: Poland St, New Orleans, LA
   lat: 29.9646

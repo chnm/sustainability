@@ -15,12 +15,12 @@ dublin_core:
       text: Storm Pictures From Biloxi  Miss. 044.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a59d04a5114fb2a59d04e3e.jpg
+  - fullsize: /files/fullsize/14fb2a59d04a5114fb2a59d04e3e.jpg
     id: 3179
     mime: image/jpeg
     original_filename: Storm Pictures From Biloxi  Miss. 044.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a59d04a5114fb2a59d04e3e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a59d04a5114fb2a59d04e3e.jpg
+    thumb: /files/thumbnails/14fb2a59d04a5114fb2a59d04e3e.jpg
+    url: /files/original/14fb2a59d04a5114fb2a59d04e3e.jpg
 geo:
 id: 3764
 item_type: Still Image

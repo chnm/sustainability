@@ -14,12 +14,12 @@ dublin_core:
       text: Convent in the French Quarter
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1b8451314fb29d1b845ee.jpg
+  - fullsize: /files/fullsize/14fb29d1b8451314fb29d1b845ee.jpg
     id: 23536
     mime: image/jpg
     original_filename: 114541932_7cbc2eb8a9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1b8451314fb29d1b845ee.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1b8451314fb29d1b845ee.jpg
+    thumb: /files/thumbnails/14fb29d1b8451314fb29d1b845ee.jpg
+    url: /files/original/14fb29d1b8451314fb29d1b845ee.jpg
 geo:
 id: 28691
 item_type: Still Image

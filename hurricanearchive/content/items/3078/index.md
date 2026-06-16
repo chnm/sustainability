@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: MelissaMerideth.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e201a5514fb2a5e201e3b.wav
+    url: /files/original/14fb2a5e201a5514fb2a5e201e3b.wav
 geo:
 id: 3078
 item_type: Oral History

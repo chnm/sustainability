@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 17 2006 Social agencies paid back for Rita.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35de8d8114fb2a35de9147.txt
+    url: /files/original/14fb2a35de8d8114fb2a35de9147.txt
 geo:
   address: ''
   lat: 0.0

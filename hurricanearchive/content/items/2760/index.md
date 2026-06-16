@@ -21,12 +21,12 @@ dublin_core:
       text: Hungry People Scared People Reliant
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a604e679c14fb2a604e6b76.jpg
+  - fullsize: /files/fullsize/14fb2a604e679c14fb2a604e6b76.jpg
     id: 2242
     mime: image/jpeg
     original_filename: Hungry People Scared People Reliant
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a604e679c14fb2a604e6b76.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a604e679c14fb2a604e6b76.jpg
+    thumb: /files/thumbnails/14fb2a604e679c14fb2a604e6b76.jpg
+    url: /files/original/14fb2a604e679c14fb2a604e6b76.jpg
 geo:
 id: 2760
 item_type: Still Image

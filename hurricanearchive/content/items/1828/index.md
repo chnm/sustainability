@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6ebc1f0914fb2a6ebc22ee.jpg
+  - fullsize: /files/fullsize/14fb2a6ebc1f0914fb2a6ebc22ee.jpg
     id: 648
     mime: image/jpeg
     original_filename: 17th_st_canal_and_metairie_rd_orleans_parish_flooded_jeff_levee_high__dry_dcfd45a5e5.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6ebc1f0914fb2a6ebc22ee.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6ebc1f0914fb2a6ebc22ee.jpg
+    thumb: /files/thumbnails/14fb2a6ebc1f0914fb2a6ebc22ee.jpg
+    url: /files/original/14fb2a6ebc1f0914fb2a6ebc22ee.jpg
 geo:
   address: ''
   lat: 29.9792490244952

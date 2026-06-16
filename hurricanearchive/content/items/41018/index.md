@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c487f8c114fb29c487fcad.jpg
+  - fullsize: /files/fullsize/14fb29c487f8c114fb29c487fcad.jpg
     id: 24868
     mime: image/pjpeg
     original_filename: 12 - Wildair 2_286678eaf7.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c487f8c114fb29c487fcad.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c487f8c114fb29c487fcad.jpg
+    thumb: /files/thumbnails/14fb29c487f8c114fb29c487fcad.jpg
+    url: /files/original/14fb29c487f8c114fb29c487fcad.jpg
 geo:
   address: ''
   lat: 0.0

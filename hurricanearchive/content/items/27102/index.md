@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: gehman_interview_e281f7e5e6.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d5b81e5314fb29d5b82238.doc
+    url: /files/original/14fb29d5b81e5314fb29d5b82238.doc
 geo:
   address: 246 Manassas Street
   lat: 29.96232

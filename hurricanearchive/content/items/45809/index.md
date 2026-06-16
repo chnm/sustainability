@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Petty, Anne.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87174a2f814fbe87174a6dc.doc
+    url: /files/original/14fbe87174a2f814fbe87174a6dc.doc
 geo:
 id: 45809
 item_type: Oral History

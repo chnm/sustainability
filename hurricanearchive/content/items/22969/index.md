@@ -15,12 +15,12 @@ dublin_core:
       text: Karr over New Orleanskarrmedia.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f260df6714fb29f260e34d.jpg
+  - fullsize: /files/fullsize/14fb29f260df6714fb29f260e34d.jpg
     id: 19913
     mime: image/jpeg
     original_filename: Karr over New Orleanskarrmedia.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f260df6714fb29f260e34d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f260df6714fb29f260e34d.jpg
+    thumb: /files/thumbnails/14fb29f260df6714fb29f260e34d.jpg
+    url: /files/original/14fb29f260df6714fb29f260e34d.jpg
 geo:
 id: 22969
 item_type: Still Image

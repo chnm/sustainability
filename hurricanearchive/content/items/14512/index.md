@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Phone_Script_Lobby_Appointments_6b25e01107.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18f25b1014fb2a18f25efd.doc
+    url: /files/original/14fb2a18f25b1014fb2a18f25efd.doc
 geo:
 id: 14512
 item_type: Document

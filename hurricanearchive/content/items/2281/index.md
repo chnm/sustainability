@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6d61cc4d14fb2a6d61d032.jpg
+  - fullsize: /files/fullsize/14fb2a6d61cc4d14fb2a6d61d032.jpg
     id: 898
     mime: image/jpeg
     original_filename: Wilmas_Owls_copy_12abcfdc8f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6d61cc4d14fb2a6d61d032.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6d61cc4d14fb2a6d61d032.jpg
+    thumb: /files/thumbnails/14fb2a6d61cc4d14fb2a6d61d032.jpg
+    url: /files/original/14fb2a6d61cc4d14fb2a6d61d032.jpg
 geo:
   address: ''
   lat: 26.015754898733096

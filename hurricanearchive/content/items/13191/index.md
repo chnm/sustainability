@@ -15,12 +15,12 @@ dublin_core:
       text: 184 indunated neighbourhood.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f799bc414fb2a1f799faa.jpg
+  - fullsize: /files/fullsize/14fb2a1f799bc414fb2a1f799faa.jpg
     id: 11201
     mime: image/jpeg
     original_filename: 184 indunated neighbourhood.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f799bc414fb2a1f799faa.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f799bc414fb2a1f799faa.jpg
+    thumb: /files/thumbnails/14fb2a1f799bc414fb2a1f799faa.jpg
+    url: /files/original/14fb2a1f799bc414fb2a1f799faa.jpg
 geo:
 id: 13191
 item_type: Still Image

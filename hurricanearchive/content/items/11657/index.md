@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: JennahLlaineLadner.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a243c8d3114fb2a243c9117.html
+    url: /files/original/14fb2a243c8d3114fb2a243c9117.html
 geo:
 id: 11657
 item_type: Oral History

@@ -17,12 +17,12 @@ dublin_core:
       text: front door with flood line
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb353c3814fb29cb354595.jpg
+  - fullsize: /files/fullsize/14fb29cb353c3814fb29cb354595.jpg
     id: 24093
     mime: image/jpg
     original_filename: 1248145206_fbb9bbcdb1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb353c3814fb29cb354595.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb353c3814fb29cb354595.jpg
+    thumb: /files/thumbnails/14fb29cb353c3814fb29cb354595.jpg
+    url: /files/original/14fb29cb353c3814fb29cb354595.jpg
 geo:
 id: 33243
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc14ef6414fb29cc14f349.jpg
+  - fullsize: /files/fullsize/14fb29cc14ef6414fb29cc14f349.jpg
     id: 23957
     mime: image/jpeg
     original_filename: 051207NOLA157RWlg_bde0004651.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc14ef6414fb29cc14f349.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc14ef6414fb29cc14f349.jpg
+    thumb: /files/thumbnails/14fb29cc14ef6414fb29cc14f349.jpg
+    url: /files/original/14fb29cc14ef6414fb29cc14f349.jpg
 geo:
   address: 545 Saint Charles Ave
   lat: 29.9489

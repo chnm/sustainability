@@ -15,12 +15,12 @@ dublin_core:
       text: CPT Baillie 2 Oct 05.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1bc5ae5f14fb2a1bc5b243.jpg
+  - fullsize: /files/fullsize/14fb2a1bc5ae5f14fb2a1bc5b243.jpg
     id: 11743
     mime: image/jpeg
     original_filename: CPT Baillie 2 Oct 05.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1bc5ae5f14fb2a1bc5b243.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1bc5ae5f14fb2a1bc5b243.jpg
+    thumb: /files/thumbnails/14fb2a1bc5ae5f14fb2a1bc5b243.jpg
+    url: /files/original/14fb2a1bc5ae5f14fb2a1bc5b243.jpg
 geo:
   address: ''
   lat: 0.0

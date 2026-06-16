@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Lodriguss, Julie.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8712a1b7714fbe8712a50fc.doc
+    url: /files/original/14fbe8712a1b7714fbe8712a50fc.doc
 geo:
 id: 45752
 item_type: Oral History

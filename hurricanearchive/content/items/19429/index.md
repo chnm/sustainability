@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0110cropengineers.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1037c28514fb2a1037c6f9.jpg
+  - fullsize: /files/fullsize/14fb2a1037c28514fb2a1037c6f9.jpg
     id: 16382
     mime: image/jpeg
     original_filename: DSC 0110cropengineers.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1037c28514fb2a1037c6f9.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1037c28514fb2a1037c6f9.jpg
+    thumb: /files/thumbnails/14fb2a1037c28514fb2a1037c6f9.jpg
+    url: /files/original/14fb2a1037c28514fb2a1037c6f9.jpg
 geo:
 id: 19429
 item_type: Still Image

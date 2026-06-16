@@ -24,12 +24,12 @@ dublin_core:
       text: Over the Superdome
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a665c3e8b14fb2a665c426f.jpg
+  - fullsize: /files/fullsize/14fb2a665c3e8b14fb2a665c426f.jpg
     id: 1922
     mime: image/jpeg
     original_filename: apuscg_OVER_THE_SUPER_05CDV_4d806cca78.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a665c3e8b14fb2a665c426f.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a665c3e8b14fb2a665c426f.jpg
+    thumb: /files/thumbnails/14fb2a665c3e8b14fb2a665c426f.jpg
+    url: /files/original/14fb2a665c3e8b14fb2a665c426f.jpg
 geo:
 id: 2430
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: Frank Superdomemedia.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f261b25314fb29f261b631.jpg
+  - fullsize: /files/fullsize/14fb29f261b25314fb29f261b631.jpg
     id: 19912
     mime: image/jpeg
     original_filename: Frank Superdomemedia.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f261b25314fb29f261b631.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f261b25314fb29f261b631.jpg
+    thumb: /files/thumbnails/14fb29f261b25314fb29f261b631.jpg
+    url: /files/original/14fb29f261b25314fb29f261b631.jpg
 geo:
 id: 22968
 item_type: Still Image

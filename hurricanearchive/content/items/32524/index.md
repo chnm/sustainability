@@ -24,12 +24,12 @@ dublin_core:
       text: 'AD:  New Orleans After the Deluge, Chapter 5  \"Katrina Comes Calling\"'
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbe936dd14fb29cbe93b9d.jpg
+  - fullsize: /files/fullsize/14fb29cbe936dd14fb29cbe93b9d.jpg
     id: 24010
     mime: image/jpeg
     original_filename: adc05_0fde1ebd9a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbe936dd14fb29cbe93b9d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbe936dd14fb29cbe93b9d.jpg
+    thumb: /files/thumbnails/14fb29cbe936dd14fb29cbe93b9d.jpg
+    url: /files/original/14fb29cbe936dd14fb29cbe93b9d.jpg
 geo:
 id: 32524
 item_type: Hyperlink

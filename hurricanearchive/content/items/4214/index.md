@@ -14,12 +14,12 @@ dublin_core:
       text: Mama y Gma
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a574d208e14fb2a574d28d9.jpg
+  - fullsize: /files/fullsize/14fb2a574d208e14fb2a574d28d9.jpg
     id: 3586
     mime: image/pjpeg
     original_filename: DSC00353_a14be73c59.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a574d208e14fb2a574d28d9.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a574d208e14fb2a574d28d9.jpg
+    thumb: /files/thumbnails/14fb2a574d208e14fb2a574d28d9.jpg
+    url: /files/original/14fb2a574d208e14fb2a574d28d9.jpg
 geo:
   address: ''
   lat: 29.97455

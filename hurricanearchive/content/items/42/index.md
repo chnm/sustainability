@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a713cb1d414fb2a713cb5c2.jpg
+  - fullsize: /files/fullsize/14fb2a713cb1d414fb2a713cb5c2.jpg
     id: 28
     mime: image/jpeg
     original_filename: west_end_parkway_01b6b69273.jpeg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a713cb1d414fb2a713cb5c2.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a713cb1d414fb2a713cb5c2.jpg
+    thumb: /files/thumbnails/14fb2a713cb1d414fb2a713cb5c2.jpg
+    url: /files/original/14fb2a713cb1d414fb2a713cb5c2.jpg
 geo:
   address: ''
   lat: 0.0

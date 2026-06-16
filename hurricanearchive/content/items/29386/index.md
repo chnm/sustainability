@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: nothumane_b30dd0f874.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce35755114fb29ce35797e.pdf
+    url: /files/original/14fb29ce35755114fb29ce35797e.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

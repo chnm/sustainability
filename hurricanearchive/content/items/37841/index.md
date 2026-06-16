@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c551d12f14fb29c551d515.jpg
+  - fullsize: /files/fullsize/14fb29c551d12f14fb29c551d515.jpg
     id: 24765
     mime: image/jpeg
     original_filename: katrina_2304d2ef98.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c551d12f14fb29c551d515.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c551d12f14fb29c551d515.jpg
+    thumb: /files/thumbnails/14fb29c551d12f14fb29c551d515.jpg
+    url: /files/original/14fb29c551d12f14fb29c551d515.jpg
 geo:
   address: 4813 Virgilian St.
   lat: 0.0

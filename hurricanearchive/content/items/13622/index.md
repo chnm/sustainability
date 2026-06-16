@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: 419 Afterword 3.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d2e04b814fb2a1d2e08bd.pdf
+    url: /files/original/14fb2a1d2e04b814fb2a1d2e08bd.pdf
 geo:
 id: 13622
 item_type: Document

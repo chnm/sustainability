@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: VOLUNTEERSmobilePAO.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29f0a7967014fb29f0a79a56.doc
+    url: /files/original/14fb29f0a7967014fb29f0a79a56.doc
 geo:
 id: 23212
 item_type: Document

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: sarafranklin.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23aedf5c14fb2a23aee341.html
+    url: /files/original/14fb2a23aedf5c14fb2a23aee341.html
 geo:
 id: 11751
 item_type: Oral History

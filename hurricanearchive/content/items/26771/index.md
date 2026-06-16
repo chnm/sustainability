@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7de48d114fb29d7de4cb7.jpg
+  - fullsize: /files/fullsize/14fb29d7de48d114fb29d7de4cb7.jpg
     id: 22966
     mime: image/jpeg
     original_filename: WC 4th Great grandfather 1850s_37ecdeaa0a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7de48d114fb29d7de4cb7.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7de48d114fb29d7de4cb7.jpg
+    thumb: /files/thumbnails/14fb29d7de48d114fb29d7de4cb7.jpg
+    url: /files/original/14fb29d7de48d114fb29d7de4cb7.jpg
 geo:
   address: ''
   lat: 29.84064

@@ -15,12 +15,12 @@ dublin_core:
       text: Delgado C.C..jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb64490814fb29fb644ce9.jpg
+  - fullsize: /files/fullsize/14fb29fb64490814fb29fb644ce9.jpg
     id: 18795
     mime: image/jpeg
     original_filename: Delgado C.C..jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb64490814fb29fb644ce9.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb64490814fb29fb644ce9.jpg
+    thumb: /files/thumbnails/14fb29fb64490814fb29fb644ce9.jpg
+    url: /files/original/14fb29fb64490814fb29fb644ce9.jpg
 geo:
 id: 21844
 item_type: Still Image

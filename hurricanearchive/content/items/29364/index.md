@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: plants devour_92a3a29f6e.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce73fe7c14fb29ce740261.pdf
+    url: /files/original/14fb29ce73fe7c14fb29ce740261.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

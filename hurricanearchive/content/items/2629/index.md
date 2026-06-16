@@ -18,12 +18,12 @@ dublin_core:
       text: 20060301_MG_0502.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a63e2387f14fb2a63e23cab.jpg
+  - fullsize: /files/fullsize/14fb2a63e2387f14fb2a63e23cab.jpg
     id: 2111
     mime: image/jpeg
     original_filename: 20060301_MG_0502.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a63e2387f14fb2a63e23cab.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a63e2387f14fb2a63e23cab.jpg
+    thumb: /files/thumbnails/14fb2a63e2387f14fb2a63e23cab.jpg
+    url: /files/original/14fb2a63e2387f14fb2a63e23cab.jpg
 geo:
 id: 2629
 item_type: Still Image

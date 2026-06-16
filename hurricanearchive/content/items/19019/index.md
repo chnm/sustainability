@@ -15,12 +15,12 @@ dublin_core:
       text: S4300080bellechaseJFRB.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a13a0783114fb2a13a07c16.jpg
+  - fullsize: /files/fullsize/14fb2a13a0783114fb2a13a07c16.jpg
     id: 15972
     mime: image/jpeg
     original_filename: S4300080bellechaseJFRB.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a13a0783114fb2a13a07c16.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a13a0783114fb2a13a07c16.jpg
+    thumb: /files/thumbnails/14fb2a13a0783114fb2a13a07c16.jpg
+    url: /files/original/14fb2a13a0783114fb2a13a07c16.jpg
 geo:
 id: 19019
 item_type: Still Image

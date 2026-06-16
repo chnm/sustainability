@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Lee HK6192K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a164d66dc14fb2a164d6ac3.mp3
+    url: /files/original/14fb2a164d66dc14fb2a164d6ac3.mp3
 geo:
 id: 15402
 item_type: Oral History

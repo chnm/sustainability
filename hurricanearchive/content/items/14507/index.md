@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: LOBBYING UPDATE 7-13-06_fcb4ce6e32.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18f5124714fb2a18f51620.doc
+    url: /files/original/14fb2a18f5124714fb2a18f51620.doc
 geo:
 id: 14507
 item_type: Document

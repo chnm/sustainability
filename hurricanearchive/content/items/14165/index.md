@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: MN UH60A Flight Crew 27SEP2005.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1b3a0f8614fb2a1b3a1364.wav
+    url: /files/original/14fb2a1b3a0f8614fb2a1b3a1364.wav
 geo:
   address: ''
   lat: 0.0

@@ -21,12 +21,12 @@ dublin_core:
       text: The News Before the Storm
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66d272f914fb2a66d276de.jpg
+  - fullsize: /files/fullsize/14fb2a66d272f914fb2a66d276de.jpg
     id: 1867
     mime: image/jpeg
     original_filename: 249145_ecd1e77769.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66d272f914fb2a66d276de.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66d272f914fb2a66d276de.jpg
+    thumb: /files/thumbnails/14fb2a66d272f914fb2a66d276de.jpg
+    url: /files/original/14fb2a66d272f914fb2a66d276de.jpg
 geo:
 id: 2375
 item_type: Still Image

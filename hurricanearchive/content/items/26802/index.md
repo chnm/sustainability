@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Jarvis HK40128K56K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7c2ca2114fb29d7c2cd9a.mp3
+    url: /files/original/14fb29d7c2ca2114fb29d7c2cd9a.mp3
 geo:
 id: 26802
 item_type: Oral History

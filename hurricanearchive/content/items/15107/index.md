@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a171b598714fb2a171b5cbe.jpg
+  - fullsize: /files/fullsize/14fb2a171b598714fb2a171b5cbe.jpg
     id: 12267
     mime: image/jpeg
     original_filename: NCC Grad 5 05-2_bb2316404b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a171b598714fb2a171b5cbe.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a171b598714fb2a171b5cbe.jpg
+    thumb: /files/thumbnails/14fb2a171b598714fb2a171b5cbe.jpg
+    url: /files/original/14fb2a171b598714fb2a171b5cbe.jpg
 geo:
 id: 15107
 item_type: Still Image

@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c2773ed414fb29c27747ed.jpg
+  - fullsize: /files/fullsize/14fb29c2773ed414fb29c27747ed.jpg
     id: 25065
     mime: image/jpeg
     original_filename: Brett's House_b19bf502ce.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c2773ed414fb29c27747ed.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c2773ed414fb29c27747ed.jpg
+    thumb: /files/thumbnails/14fb29c2773ed414fb29c27747ed.jpg
+    url: /files/original/14fb29c2773ed414fb29c27747ed.jpg
 geo:
   address: 407 Felicity Street
   lat: 30.33033

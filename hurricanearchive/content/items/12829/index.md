@@ -15,12 +15,12 @@ dublin_core:
       text: 1432 St. Maurice.Narrow shotgun, 3 dogs under house.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a21ab742d14fb2a21ab8756.jpg
+  - fullsize: /files/fullsize/14fb2a21ab742d14fb2a21ab8756.jpg
     id: 10973
     mime: image/jpeg
     original_filename: 1432 St. Maurice.Narrow shotgun, 3 dogs under house.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a21ab742d14fb2a21ab8756.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a21ab742d14fb2a21ab8756.jpg
+    thumb: /files/thumbnails/14fb2a21ab742d14fb2a21ab8756.jpg
+    url: /files/original/14fb2a21ab742d14fb2a21ab8756.jpg
 geo:
 id: 12829
 item_type: Still Image

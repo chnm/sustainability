@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: brandonbosarge.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23c726d914fb2a23c72d98.html
+    url: /files/original/14fb2a23c726d914fb2a23c72d98.html
 geo:
 id: 11717
 item_type: Oral History

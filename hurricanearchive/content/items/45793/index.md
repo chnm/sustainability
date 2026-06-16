@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Myladiyil. Sebastian.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8715bb4a014fbe8715bb88d.doc
+    url: /files/original/14fbe8715bb4a014fbe8715bb88d.doc
 geo:
 id: 45793
 item_type: Oral History

@@ -15,12 +15,12 @@ dublin_core:
       text: woods hole lane katrina.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc4353a014fb29cc43565c.jpg
+  - fullsize: /files/fullsize/14fb29cc4353a014fb29cc43565c.jpg
     id: 23923
     mime: image/jpeg
     original_filename: woods hole lane katrina.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc4353a014fb29cc43565c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc4353a014fb29cc43565c.jpg
+    thumb: /files/thumbnails/14fb29cc4353a014fb29cc43565c.jpg
+    url: /files/original/14fb29cc4353a014fb29cc43565c.jpg
 geo:
 id: 30823
 item_type: Still Image

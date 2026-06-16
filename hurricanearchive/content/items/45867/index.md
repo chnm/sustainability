@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Thriffiley,Jim&Jean Ann (v.827).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87207b90f14fbe872081abb.doc
+    url: /files/original/14fbe87207b90f14fbe872081abb.doc
 geo:
 id: 45867
 item_type: Oral History

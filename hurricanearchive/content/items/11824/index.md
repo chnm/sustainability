@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Pass1-Matos.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a233001f714fb2a23300607.doc
+    url: /files/original/14fb2a233001f714fb2a23300607.doc
 geo:
 id: 11824
 item_type: Document

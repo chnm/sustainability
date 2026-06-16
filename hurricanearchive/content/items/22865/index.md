@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0158mpcheckpoints.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f2fe011c14fb29f2fe0503.jpg
+  - fullsize: /files/fullsize/14fb29f2fe011c14fb29f2fe0503.jpg
     id: 19816
     mime: image/jpeg
     original_filename: DSC 0158mpcheckpoints.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f2fe011c14fb29f2fe0503.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f2fe011c14fb29f2fe0503.jpg
+    thumb: /files/thumbnails/14fb29f2fe011c14fb29f2fe0503.jpg
+    url: /files/original/14fb29f2fe011c14fb29f2fe0503.jpg
 geo:
 id: 22865
 item_type: Still Image

@@ -18,12 +18,12 @@ dublin_core:
       text: 100_0234.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a58d40d3314fb2a58d41228.jpg
+  - fullsize: /files/fullsize/14fb2a58d40d3314fb2a58d41228.jpg
     id: 3348
     mime: image/jpeg
     original_filename: Cheney Visit
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a58d40d3314fb2a58d41228.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a58d40d3314fb2a58d41228.jpg
+    thumb: /files/thumbnails/14fb2a58d40d3314fb2a58d41228.jpg
+    url: /files/original/14fb2a58d40d3314fb2a58d41228.jpg
 geo:
 id: 3937
 item_type: Still Image

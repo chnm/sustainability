@@ -24,12 +24,12 @@ dublin_core:
       text: Helicopter checks before Hurricane Wilma Hits
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66c3bfed14fb2a66c3c4d5.jpg
+  - fullsize: /files/fullsize/14fb2a66c3bfed14fb2a66c3c4d5.jpg
     id: 1879
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_WILM_05CHG_989a962f0c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66c3bfed14fb2a66c3c4d5.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66c3bfed14fb2a66c3c4d5.jpg
+    thumb: /files/thumbnails/14fb2a66c3bfed14fb2a66c3c4d5.jpg
+    url: /files/original/14fb2a66c3bfed14fb2a66c3c4d5.jpg
 geo:
 id: 2387
 item_type: Still Image

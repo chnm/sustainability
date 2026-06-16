@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 06 01 2006 Watchdog group targeting insurers.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35c9139c14fb2a35c91432.txt
+    url: /files/original/14fb2a35c9139c14fb2a35c91432.txt
 geo:
   address: ''
   lat: 0.0

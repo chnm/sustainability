@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c483d29214fb29c483da5e.jpg
+  - fullsize: /files/fullsize/14fb29c483d29214fb29c483da5e.jpg
     id: 24869
     mime: image/pjpeg
     original_filename: 13 - Paris 1_234e2f4586.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c483d29214fb29c483da5e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c483d29214fb29c483da5e.jpg
+    thumb: /files/thumbnails/14fb29c483d29214fb29c483da5e.jpg
+    url: /files/original/14fb29c483d29214fb29c483da5e.jpg
 geo:
   address: ''
   lat: 0.0

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Stewart, Tiara.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871f9c14814fbe871f9c529.doc
+    url: /files/original/14fbe871f9c14814fbe871f9c529.doc
 geo:
 id: 45856
 item_type: Oral History

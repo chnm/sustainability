@@ -17,12 +17,12 @@ dublin_core:
       text: Lakeview Drive/Rats Nest Road
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca0e153814fb29ca0e190c.jpg
+  - fullsize: /files/fullsize/14fb29ca0e153814fb29ca0e190c.jpg
     id: 24266
     mime: image/jpg
     original_filename: 2326959658_1cef3a2ddd.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca0e153814fb29ca0e190c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca0e153814fb29ca0e190c.jpg
+    thumb: /files/thumbnails/14fb29ca0e153814fb29ca0e190c.jpg
+    url: /files/original/14fb29ca0e153814fb29ca0e190c.jpg
 geo:
   address: ''
   lat: 30.23864

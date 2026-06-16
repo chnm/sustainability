@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 04 2006 House must equalize aid for Rita victims.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a362840f614fb2a36284597.txt
+    url: /files/original/14fb2a362840f614fb2a36284597.txt
 geo:
   address: ''
   lat: 0.0

@@ -15,12 +15,12 @@ dublin_core:
       text: DSCN2200superdome.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e454e9e814fb29e454edcc.jpg
+  - fullsize: /files/fullsize/14fb29e454e9e814fb29e454edcc.jpg
     id: 21804
     mime: image/jpeg
     original_filename: DSCN2200superdome.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e454e9e814fb29e454edcc.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e454e9e814fb29e454edcc.jpg
+    thumb: /files/thumbnails/14fb29e454e9e814fb29e454edcc.jpg
+    url: /files/original/14fb29e454e9e814fb29e454edcc.jpg
 geo:
 id: 24860
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: 769(sept12)Picture3engineers.png
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a10d664de14fb2a10d668c4.jpg
+  - fullsize: /files/fullsize/14fb2a10d664de14fb2a10d668c4.jpg
     id: 16312
     mime: image/png
     original_filename: 769(sept12)Picture3engineers.png
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a10d664de14fb2a10d668c4.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a10d664de14fb2a10d668c4.jpg
+    thumb: /files/thumbnails/14fb2a10d664de14fb2a10d668c4.jpg
+    url: /files/original/14fb2a10d664de14fb2a10d668c4.jpg
 geo:
 id: 19359
 item_type: Still Image

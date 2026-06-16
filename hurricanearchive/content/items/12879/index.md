@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Andrew Goss_e3ca5fbedc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2152c78c14fb2a2152cb75.doc
+    url: /files/original/14fb2a2152c78c14fb2a2152cb75.doc
 geo:
   address: University of New Orleans
   lat: 29.95444

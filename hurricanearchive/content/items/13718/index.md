@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Projects_Committee_Notes 2_05_06_fd618e09eb.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cf09b5d14fb2a1cf0a0da.doc
+    url: /files/original/14fb2a1cf09b5d14fb2a1cf0a0da.doc
 geo:
 id: 13718
 item_type: Document

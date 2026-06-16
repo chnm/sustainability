@@ -18,12 +18,12 @@ dublin_core:
       text: FEMA Trailer Bed
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1e60adba14fb2a1e60b19d.jpg
+  - fullsize: /files/fullsize/14fb2a1e60adba14fb2a1e60b19d.jpg
     id: 11282
     mime: image/pjpeg
     original_filename: wieser_82ffe83735.interior.trailer4.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1e60adba14fb2a1e60b19d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1e60adba14fb2a1e60b19d.jpg
+    thumb: /files/thumbnails/14fb2a1e60adba14fb2a1e60b19d.jpg
+    url: /files/original/14fb2a1e60adba14fb2a1e60b19d.jpg
 geo:
 id: 13291
 item_type: Still Image

@@ -17,12 +17,12 @@ dublin_core:
       text: Stormy Weather
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb76d26714fb29cb76d64e.jpg
+  - fullsize: /files/fullsize/14fb29cb76d26714fb29cb76d64e.jpg
     id: 24072
     mime: image/jpg
     original_filename: 1266241642_c177e4085a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb76d26714fb29cb76d64e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb76d26714fb29cb76d64e.jpg
+    thumb: /files/thumbnails/14fb29cb76d26714fb29cb76d64e.jpg
+    url: /files/original/14fb29cb76d26714fb29cb76d64e.jpg
 geo:
   address: ''
   lat: 30.36332

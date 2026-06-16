@@ -21,12 +21,12 @@ dublin_core:
       text: Remains of Old Wooden Building
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ccd19ccf14fb29ccd1a0bd.jpg
+  - fullsize: /files/fullsize/14fb29ccd19ccf14fb29ccd1a0bd.jpg
     id: 23793
     mime: image/pjpeg
     original_filename: tchoup st_960c097457.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ccd19ccf14fb29ccd1a0bd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ccd19ccf14fb29ccd1a0bd.jpg
+    thumb: /files/thumbnails/14fb29ccd19ccf14fb29ccd1a0bd.jpg
+    url: /files/original/14fb29ccd19ccf14fb29ccd1a0bd.jpg
 geo:
 id: 30624
 item_type: Still Image

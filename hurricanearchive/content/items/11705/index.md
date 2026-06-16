@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Staci Shaw.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23dc8f1514fb2a23dc9302.htm
+    url: /files/original/14fb2a23dc8f1514fb2a23dc9302.htm
 geo:
 id: 11705
 item_type: Oral History

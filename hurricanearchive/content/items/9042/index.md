@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 13 2006 Viator quits 22 days after critical comments.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35e171d314fb2a35e1db4f.txt
+    url: /files/original/14fb2a35e171d314fb2a35e1db4f.txt
 geo:
   address: ''
   lat: 0.0

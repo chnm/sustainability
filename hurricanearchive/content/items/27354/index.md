@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6991.jpg  Will is Back
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d4202d7c14fb29d4203160.jpg
+  - fullsize: /files/fullsize/14fb29d4202d7c14fb29d4203160.jpg
     id: 23241
     mime: image/jpg
     original_filename: 163301508_73b1dc8f67.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d4202d7c14fb29d4203160.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d4202d7c14fb29d4203160.jpg
+    thumb: /files/thumbnails/14fb29d4202d7c14fb29d4203160.jpg
+    url: /files/original/14fb29d4202d7c14fb29d4203160.jpg
 geo:
   address: ''
   lat: 29.84064

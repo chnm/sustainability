@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Welch,Kristen Laura.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe872207c5514fbe87220aea6.doc
+    url: /files/original/14fbe872207c5514fbe87220aea6.doc
 geo:
 id: 45878
 item_type: Oral History

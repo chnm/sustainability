@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: McVey, Pam.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87150dbcd14fbe87150dfb2.doc
+    url: /files/original/14fbe87150dbcd14fbe87150dfb2.doc
 geo:
 id: 45782
 item_type: Oral History

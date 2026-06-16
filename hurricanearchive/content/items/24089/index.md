@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0009cameron2S&R.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29eaeb4ca514fb29eaeb508b.jpg
+  - fullsize: /files/fullsize/14fb29eaeb4ca514fb29eaeb508b.jpg
     id: 21033
     mime: image/jpeg
     original_filename: DSC 0009cameron2S&R.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29eaeb4ca514fb29eaeb508b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29eaeb4ca514fb29eaeb508b.jpg
+    thumb: /files/thumbnails/14fb29eaeb4ca514fb29eaeb508b.jpg
+    url: /files/original/14fb29eaeb4ca514fb29eaeb508b.jpg
 geo:
 id: 24089
 item_type: Still Image

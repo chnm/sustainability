@@ -15,12 +15,12 @@ dublin_core:
       text: DCP 7444.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc9d4fe614fb29cc9d53cc.jpg
+  - fullsize: /files/fullsize/14fb29cc9d4fe614fb29cc9d53cc.jpg
     id: 23843
     mime: image/jpeg
     original_filename: DCP 7444.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc9d4fe614fb29cc9d53cc.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc9d4fe614fb29cc9d53cc.jpg
+    thumb: /files/thumbnails/14fb29cc9d4fe614fb29cc9d53cc.jpg
+    url: /files/original/14fb29cc9d4fe614fb29cc9d53cc.jpg
 geo:
 id: 30743
 item_type: Still Image

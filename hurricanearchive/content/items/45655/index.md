@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Couk, Vaughn G.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8708001f714fbe8708005d5.doc
+    url: /files/original/14fbe8708001f714fbe8708005d5.doc
 geo:
 id: 45655
 item_type: Oral History

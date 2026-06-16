@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Peranich, Diane.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871692ba014fbe871692f88.doc
+    url: /files/original/14fbe871692ba014fbe871692f88.doc
 geo:
 id: 45805
 item_type: Oral History

@@ -25,7 +25,7 @@ files:
     mime: application/pdf
     original_filename: eliza_0aefc7333d.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce2d16db14fb29ce2d747b.pdf
+    url: /files/original/14fb29ce2d16db14fb29ce2d747b.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

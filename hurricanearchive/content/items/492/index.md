@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6fb6e23c14fb2a6fb6e622.jpg
+  - fullsize: /files/fullsize/14fb2a6fb6e23c14fb2a6fb6e622.jpg
     id: 351
     mime: image/jpeg
     original_filename: RitaSchool1_2056_copy_c911ef8c6e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6fb6e23c14fb2a6fb6e622.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6fb6e23c14fb2a6fb6e622.jpg
+    thumb: /files/thumbnails/14fb2a6fb6e23c14fb2a6fb6e622.jpg
+    url: /files/original/14fb2a6fb6e23c14fb2a6fb6e622.jpg
 geo:
   address: ''
   lat: 29.3869615216575

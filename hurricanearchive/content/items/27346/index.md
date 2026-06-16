@@ -17,12 +17,12 @@ dublin_core:
       text: hrita I45 looking south
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d4343ef414fb29d43442e2.jpg
+  - fullsize: /files/fullsize/14fb29d4343ef414fb29d43442e2.jpg
     id: 23233
     mime: image/jpg
     original_filename: 221564442_3e88c3e228.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d4343ef414fb29d43442e2.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d4343ef414fb29d43442e2.jpg
+    thumb: /files/thumbnails/14fb29d4343ef414fb29d43442e2.jpg
+    url: /files/original/14fb29d4343ef414fb29d43442e2.jpg
 geo:
   address: ''
   lat: 30.07522

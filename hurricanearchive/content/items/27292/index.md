@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d5862ebc14fb29d5863580.jpg
+  - fullsize: /files/fullsize/14fb29d5862ebc14fb29d5863580.jpg
     id: 23185
     mime: image/jpeg
     original_filename: pt_riv_pltside_9c095973f7.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d5862ebc14fb29d5863580.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d5862ebc14fb29d5863580.jpg
+    thumb: /files/thumbnails/14fb29d5862ebc14fb29d5863580.jpg
+    url: /files/original/14fb29d5862ebc14fb29d5863580.jpg
 geo:
   address: ''
   lat: 0.0

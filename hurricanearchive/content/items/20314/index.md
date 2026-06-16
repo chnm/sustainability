@@ -15,12 +15,12 @@ dublin_core:
       text: Copy of DSC 0246.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0981ab4b14fb2a0981b307.jpg
+  - fullsize: /files/fullsize/14fb2a0981ab4b14fb2a0981b307.jpg
     id: 17267
     mime: image/jpeg
     original_filename: Copy of DSC 0246.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0981ab4b14fb2a0981b307.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0981ab4b14fb2a0981b307.jpg
+    thumb: /files/thumbnails/14fb2a0981ab4b14fb2a0981b307.jpg
+    url: /files/original/14fb2a0981ab4b14fb2a0981b307.jpg
 geo:
 id: 20314
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: CSA-2005-09-13-083957.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0afd908114fb2a0afd9748.jpg
+  - fullsize: /files/fullsize/14fb2a0afd908114fb2a0afd9748.jpg
     id: 17115
     mime: image/jpeg
     original_filename: CSA-2005-09-13-083957.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0afd908114fb2a0afd9748.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0afd908114fb2a0afd9748.jpg
+    thumb: /files/thumbnails/14fb2a0afd908114fb2a0afd9748.jpg
+    url: /files/original/14fb2a0afd908114fb2a0afd9748.jpg
 geo:
 id: 20162
 item_type: Still Image

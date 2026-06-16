@@ -23,7 +23,7 @@ files:
     mime: video/quicktime
     original_filename: 2days.mov
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a574b114714fb2a574b152d.mov
+    url: /files/original/14fb2a574b114714fb2a574b152d.mov
 geo:
 id: 4318
 item_type: Moving Image

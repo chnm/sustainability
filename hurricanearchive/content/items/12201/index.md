@@ -25,7 +25,7 @@ files:
     mime: application/pdf
     original_filename: YaYaWrightBook_ac4e96ddaa.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2234848d14fb2a22348882.pdf
+    url: /files/original/14fb2a2234848d14fb2a22348882.pdf
 geo:
   address: ''
   lat: 29.92542

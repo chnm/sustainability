@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Gulfport1-Matos.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23647b7214fb2a23647fdc.doc
+    url: /files/original/14fb2a23647b7214fb2a23647fdc.doc
 geo:
 id: 11791
 item_type: Document

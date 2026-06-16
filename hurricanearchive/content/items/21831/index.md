@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: 20050925 ISR.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29fb72292f14fb29fb722d13.pdf
+    url: /files/original/14fb29fb72292f14fb29fb722d13.pdf
 geo:
 id: 21831
 item_type: Document

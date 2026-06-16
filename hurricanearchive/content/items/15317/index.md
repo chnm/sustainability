@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1692141914fb2a169217f7.jpg
+  - fullsize: /files/fullsize/14fb2a1692141914fb2a169217f7.jpg
     id: 12384
     mime: image/pjpeg
     original_filename: After Katrina_56b4c6b686.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1692141914fb2a169217f7.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1692141914fb2a169217f7.jpg
+    thumb: /files/thumbnails/14fb2a1692141914fb2a169217f7.jpg
+    url: /files/original/14fb2a1692141914fb2a169217f7.jpg
 geo:
 id: 15317
 item_type: Still Image

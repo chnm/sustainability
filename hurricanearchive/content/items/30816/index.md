@@ -18,12 +18,12 @@ dublin_core:
       text: rolland & parents.tif
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc4c141a14fb29cc4c1800.jpg
+  - fullsize: /files/fullsize/14fb29cc4c141a14fb29cc4c1800.jpg
     id: 23916
     mime: image/tiff
     original_filename: rolland & parents.tif
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc4c141a14fb29cc4c1800.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc4c141a14fb29cc4c1800.tif
+    thumb: /files/thumbnails/14fb29cc4c141a14fb29cc4c1800.jpg
+    url: /files/original/14fb29cc4c141a14fb29cc4c1800.tif
 geo:
 id: 30816
 item_type: Document

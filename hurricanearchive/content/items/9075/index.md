@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 02 2005 New school year, very new school.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35b9f39314fb2a35b9fa21.txt
+    url: /files/original/14fb2a35b9f39314fb2a35b9fa21.txt
 geo:
   address: ''
   lat: 0.0

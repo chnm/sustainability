@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: SHN Remote Research Project 5_22_06_5d815b6370.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18d26c4b14fb2a18d27031.doc
+    url: /files/original/14fb2a18d26c4b14fb2a18d27031.doc
 geo:
 id: 14570
 item_type: Document

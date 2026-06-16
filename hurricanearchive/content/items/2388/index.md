@@ -21,12 +21,12 @@ dublin_core:
       text: Coasties from St. Petersburg, Florida head to New Orleans
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66c310b814fb2a66c31904.jpg
+  - fullsize: /files/fullsize/14fb2a66c310b814fb2a66c31904.jpg
     id: 1880
     mime: image/jpeg
     original_filename: 248977_4134524cf9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66c310b814fb2a66c31904.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66c310b814fb2a66c31904.jpg
+    thumb: /files/thumbnails/14fb2a66c310b814fb2a66c31904.jpg
+    url: /files/original/14fb2a66c310b814fb2a66c31904.jpg
 geo:
 id: 2388
 item_type: Still Image

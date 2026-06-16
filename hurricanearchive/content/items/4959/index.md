@@ -15,12 +15,12 @@ dublin_core:
       text: DSCN0301.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a54c8cdcc14fb2a54c8cf98.jpg
+  - fullsize: /files/fullsize/14fb2a54c8cdcc14fb2a54c8cf98.jpg
     id: 4061
     mime: image/jpeg
     original_filename: DSCN0301.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a54c8cdcc14fb2a54c8cf98.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a54c8cdcc14fb2a54c8cf98.jpg
+    thumb: /files/thumbnails/14fb2a54c8cdcc14fb2a54c8cf98.jpg
+    url: /files/original/14fb2a54c8cdcc14fb2a54c8cf98.jpg
 geo:
 id: 4959
 item_type: Still Image

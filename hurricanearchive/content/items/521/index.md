@@ -25,7 +25,7 @@ files:
     mime: application/octet-stream
     original_filename: 9_30_05WMemphis_64b1cd9342.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6fa6914d14fb2a6fa6952a.mp3
+    url: /files/original/14fb2a6fa6914d14fb2a6fa6952a.mp3
 geo:
   address: ''
   lat: 35.210811

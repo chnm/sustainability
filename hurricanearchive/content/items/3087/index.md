@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Susan A Masino.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e17d42714fb2a5e17db4c.wav
+    url: /files/original/14fb2a5e17d42714fb2a5e17db4c.wav
 geo:
 id: 3087
 item_type: Oral History

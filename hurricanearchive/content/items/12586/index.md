@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2201ad4814fb2a2201b100.jpg
+  - fullsize: /files/fullsize/14fb2a2201ad4814fb2a2201b100.jpg
     id: 10927
     mime: image/pjpeg
     original_filename: Renata Beverly_6daf982de5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2201ad4814fb2a2201b100.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2201ad4814fb2a2201b100.jpg
+    thumb: /files/thumbnails/14fb2a2201ad4814fb2a2201b100.jpg
+    url: /files/original/14fb2a2201ad4814fb2a2201b100.jpg
 geo:
   address: 5317 Camp sTREET
   lat: 0.0

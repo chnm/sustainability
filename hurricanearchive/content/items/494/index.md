@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6fb529da14fb2a6fb52d65.jpg
+  - fullsize: /files/fullsize/14fb2a6fb529da14fb2a6fb52d65.jpg
     id: 353
     mime: image/jpeg
     original_filename: Mississippi_Etc_022_a7e1f0797b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6fb529da14fb2a6fb52d65.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6fb529da14fb2a6fb52d65.jpg
+    thumb: /files/thumbnails/14fb2a6fb529da14fb2a6fb52d65.jpg
+    url: /files/original/14fb2a6fb529da14fb2a6fb52d65.jpg
 geo:
   address: ''
   lat: 29.938343

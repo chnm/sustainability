@@ -20,12 +20,12 @@ dublin_core:
       text: Kathleen Listens
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d15074f414fb29d15078da.jpg
+  - fullsize: /files/fullsize/14fb29d15074f414fb29d15078da.jpg
     id: 23569
     mime: image/jpeg
     original_filename: kathleen listens_20364f0978.jpg.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d15074f414fb29d15078da.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d15074f414fb29d15078da.jpg
+    thumb: /files/thumbnails/14fb29d15074f414fb29d15078da.jpg
+    url: /files/original/14fb29d15074f414fb29d15078da.jpg
 geo:
   address: 2426 Bradish Place
   lat: 0.0

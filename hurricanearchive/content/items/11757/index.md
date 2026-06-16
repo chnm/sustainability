@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: stephaniecuevas.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23a611f414fb2a23a615d7.html
+    url: /files/original/14fb2a23a611f414fb2a23a615d7.html
 geo:
 id: 11757
 item_type: Oral History

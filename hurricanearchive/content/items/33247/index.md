@@ -17,12 +17,12 @@ dublin_core:
       text: K & B Food Store detail
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb31c63a14fb29cb31c9a1.jpg
+  - fullsize: /files/fullsize/14fb29cb31c63a14fb29cb31c9a1.jpg
     id: 24097
     mime: image/jpg
     original_filename: 1233804272_615ad2a6bd.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb31c63a14fb29cb31c9a1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb31c63a14fb29cb31c9a1.jpg
+    thumb: /files/thumbnails/14fb29cb31c63a14fb29cb31c9a1.jpg
+    url: /files/original/14fb29cb31c63a14fb29cb31c9a1.jpg
 geo:
   address: ''
   lat: 41.8848

@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 1980superdome.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e0247f2014fb29e0248174.jpg
+  - fullsize: /files/fullsize/14fb29e0247f2014fb29e0248174.jpg
     id: 22196
     mime: image/jpeg
     original_filename: DSC 1980superdome.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e0247f2014fb29e0248174.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e0247f2014fb29e0248174.jpg
+    thumb: /files/thumbnails/14fb29e0247f2014fb29e0248174.jpg
+    url: /files/original/14fb29e0247f2014fb29e0248174.jpg
 geo:
 id: 25254
 item_type: Still Image

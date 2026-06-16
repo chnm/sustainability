@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Back Bay Popps Ferry Gretch.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2391ec8d14fb2a2391f073.doc
+    url: /files/original/14fb2a2391ec8d14fb2a2391f073.doc
 geo:
 id: 11766
 item_type: Document

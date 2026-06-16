@@ -17,12 +17,12 @@ dublin_core:
       text: Corner Store That Ain\'t There No More
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb19d8b614fb29cb19de7a.jpg
+  - fullsize: /files/fullsize/14fb29cb19d8b614fb29cb19de7a.jpg
     id: 24105
     mime: image/jpg
     original_filename: 1231252394_9ada1b182b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb19d8b614fb29cb19de7a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb19d8b614fb29cb19de7a.jpg
+    thumb: /files/thumbnails/14fb29cb19d8b614fb29cb19de7a.jpg
+    url: /files/original/14fb29cb19d8b614fb29cb19de7a.jpg
 geo:
 id: 33255
 item_type: Still Image

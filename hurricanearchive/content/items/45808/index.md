@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Persons, Judge Jim.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8716cf05114fbe8716cf437.doc
+    url: /files/original/14fbe8716cf05114fbe8716cf437.doc
 geo:
 id: 45808
 item_type: Oral History

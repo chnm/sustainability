@@ -18,12 +18,12 @@ dublin_core:
       text: P1010068.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5a8c84d514fb2a5a8c88ba.jpg
+  - fullsize: /files/fullsize/14fb2a5a8c84d514fb2a5a8c88ba.jpg
     id: 3054
     mime: image/jpeg
     original_filename: P1010068.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5a8c84d514fb2a5a8c88ba.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5a8c84d514fb2a5a8c88ba.jpg
+    thumb: /files/thumbnails/14fb2a5a8c84d514fb2a5a8c88ba.jpg
+    url: /files/original/14fb2a5a8c84d514fb2a5a8c88ba.jpg
 geo:
 id: 3633
 item_type: Still Image

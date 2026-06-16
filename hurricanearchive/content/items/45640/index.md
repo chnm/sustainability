@@ -17,7 +17,7 @@ files:
     mime: application/pdf
     original_filename: Calzada, Jesus.trs correction.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87063667a14fbe870636a5f.pdf
+    url: /files/original/14fbe87063667a14fbe870636a5f.pdf
 geo:
 id: 45640
 item_type: Oral History

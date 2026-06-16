@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 03 2006 Lawmaker Same Rita.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a362ab1dc14fb2a362ad414.txt
+    url: /files/original/14fb2a362ab1dc14fb2a362ad414.txt
 geo:
   address: ''
   lat: 0.0

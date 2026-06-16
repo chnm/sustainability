@@ -27,30 +27,30 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d9b97e4d14fb29d9b984e7.jpg
+  - fullsize: /files/fullsize/14fb29d9b97e4d14fb29d9b984e7.jpg
     id: 22787
     mime: image/jpeg
     original_filename: battle7_5903b8c97a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d9b97e4d14fb29d9b984e7.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d9b97e4d14fb29d9b984e7.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d9b815d614fb29d9b81e43.jpg
+    thumb: /files/thumbnails/14fb29d9b97e4d14fb29d9b984e7.jpg
+    url: /files/original/14fb29d9b97e4d14fb29d9b984e7.jpg
+  - fullsize: /files/fullsize/14fb29d9b815d614fb29d9b81e43.jpg
     id: 22788
     mime: image/jpeg
     original_filename: battle8_cce52e31cf.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d9b815d614fb29d9b81e43.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d9b815d614fb29d9b81e43.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d9b2329e14fb29d9b23670.jpg
+    thumb: /files/thumbnails/14fb29d9b815d614fb29d9b81e43.jpg
+    url: /files/original/14fb29d9b815d614fb29d9b81e43.jpg
+  - fullsize: /files/fullsize/14fb29d9b2329e14fb29d9b23670.jpg
     id: 22789
     mime: image/jpeg
     original_filename: battle9_913f49fb8c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d9b2329e14fb29d9b23670.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d9b2329e14fb29d9b23670.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d9b157dd14fb29d9b15bc3.jpg
+    thumb: /files/thumbnails/14fb29d9b2329e14fb29d9b23670.jpg
+    url: /files/original/14fb29d9b2329e14fb29d9b23670.jpg
+  - fullsize: /files/fullsize/14fb29d9b157dd14fb29d9b15bc3.jpg
     id: 22790
     mime: image/jpeg
     original_filename: battle10_441555ada1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d9b157dd14fb29d9b15bc3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d9b157dd14fb29d9b15bc3.jpg
+    thumb: /files/thumbnails/14fb29d9b157dd14fb29d9b15bc3.jpg
+    url: /files/original/14fb29d9b157dd14fb29d9b15bc3.jpg
 geo:
 id: 26180
 item_type: Still Image

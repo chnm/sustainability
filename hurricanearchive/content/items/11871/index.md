@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: jasonadams.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a22fa177614fb2a22fa1b5c.htm
+    url: /files/original/14fb2a22fa177614fb2a22fa1b5c.htm
 geo:
 id: 11871
 item_type: Document

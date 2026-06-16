@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb034fca14fb29cb035710.jpg
+  - fullsize: /files/fullsize/14fb29cb034fca14fb29cb035710.jpg
     id: 24118
     mime: image/jpeg
     original_filename: Shattered _24a9984109.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb034fca14fb29cb035710.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb034fca14fb29cb035710.jpg
+    thumb: /files/thumbnails/14fb29cb034fca14fb29cb035710.jpg
+    url: /files/original/14fb29cb034fca14fb29cb035710.jpg
 geo:
   address: Lakeview
   lat: 29.57346

@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: SPC James Orton 26 Sep 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1acd726414fb2a1acd760a.wav
+    url: /files/original/14fb2a1acd726414fb2a1acd760a.wav
 geo:
   address: ''
   lat: 0.0

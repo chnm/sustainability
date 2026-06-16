@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: '[SHN] SHN,EJWs, NLG, and National Caucus on October 19th,20th_027ac0ba48.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c97e3f314fb2a1c97e7d5.doc
+    url: /files/original/14fb2a1c97e3f314fb2a1c97e7d5.doc
 geo:
 id: 13836
 item_type: Document

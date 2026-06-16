@@ -17,7 +17,7 @@ files:
     mime: audio/mpeg
     original_filename: Bailey, C. E. Red 9-05 NG.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e6a166e14fbe86e6a1a50.mp3
+    url: /files/original/14fbe86e6a166e14fbe86e6a1a50.mp3
 geo:
 id: 45526
 item_type: Oral History

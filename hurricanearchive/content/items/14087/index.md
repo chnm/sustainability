@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: CH(LTC) Reynolds 20 Sep 05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1bd78ec314fb2a1bd795a6.wav
+    url: /files/original/14fb2a1bd78ec314fb2a1bd795a6.wav
 geo:
   address: ''
   lat: 0.0

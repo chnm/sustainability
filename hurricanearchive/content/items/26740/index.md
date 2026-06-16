@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d81309e514fb29d8130dc9.jpg
+  - fullsize: /files/fullsize/14fb29d81309e514fb29d8130dc9.jpg
     id: 22937
     mime: image/jpeg
     original_filename: JB 8 1914 Birth Certificate_9419f32c26.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d81309e514fb29d8130dc9.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d81309e514fb29d8130dc9.jpg
+    thumb: /files/thumbnails/14fb29d81309e514fb29d8130dc9.jpg
+    url: /files/original/14fb29d81309e514fb29d8130dc9.jpg
 geo:
   address: ''
   lat: 29.91685

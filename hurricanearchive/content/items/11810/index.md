@@ -20,7 +20,7 @@ files:
     mime: text/rtf
     original_filename: Matos Biloxi.rtf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a233d1c9b14fb2a233d2081.rtf
+    url: /files/original/14fb2a233d1c9b14fb2a233d2081.rtf
 geo:
 id: 11810
 item_type: Document

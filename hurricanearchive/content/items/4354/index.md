@@ -22,7 +22,7 @@ files:
     mime: audio/x-wav
     original_filename: David Kinney.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a57286fc814fb2a5728771f.wav
+    url: /files/original/14fb2a57286fc814fb2a5728771f.wav
 geo:
   address: ''
   lat: 30.85774

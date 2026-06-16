@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d8e7b1e614fb29d8e7b93d.jpg
+  - fullsize: /files/fullsize/14fb29d8e7b1e614fb29d8e7b93d.jpg
     id: 22872
     mime: image/jpeg
     original_filename: CB Plaquemines 1900s_6c2ab2862b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d8e7b1e614fb29d8e7b93d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d8e7b1e614fb29d8e7b93d.jpg
+    thumb: /files/thumbnails/14fb29d8e7b1e614fb29d8e7b93d.jpg
+    url: /files/original/14fb29d8e7b1e614fb29d8e7b93d.jpg
 geo:
   address: ''
   lat: 29.84064

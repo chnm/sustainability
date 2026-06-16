@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: CPT Kenneth Baillie 2Oct05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1bc11ea614fb2a1bc1228b.wav
+    url: /files/original/14fb2a1bc11ea614fb2a1bc1228b.wav
 geo:
   address: ''
   lat: 0.0

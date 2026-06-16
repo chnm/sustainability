@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d6d3942514fb29d6d3980a.jpg
+  - fullsize: /files/fullsize/14fb29d6d3942514fb29d6d3980a.jpg
     id: 23058
     mime: image/jpeg
     original_filename: misschalmetterebekkaboudreaux_934d9978fa.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d6d3942514fb29d6d3980a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d6d3942514fb29d6d3980a.jpg
+    thumb: /files/thumbnails/14fb29d6d3942514fb29d6d3980a.jpg
+    url: /files/original/14fb29d6d3942514fb29d6d3980a.jpg
 geo:
 id: 26874
 item_type: Still Image

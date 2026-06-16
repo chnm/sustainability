@@ -20,12 +20,12 @@ dublin_core:
       text: Forked Island Bridge
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5736576614fb2a57365b4b.jpg
+  - fullsize: /files/fullsize/14fb2a5736576614fb2a57365b4b.jpg
     id: 3607
     mime: image/pjpeg
     original_filename: forkedislandbridges_604f88eda8.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5736576614fb2a57365b4b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5736576614fb2a57365b4b.jpg
+    thumb: /files/thumbnails/14fb2a5736576614fb2a57365b4b.jpg
+    url: /files/original/14fb2a5736576614fb2a57365b4b.jpg
 geo:
   address: Hwy 35 and hwy 82
   lat: 29.83707

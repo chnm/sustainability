@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: AJ Young.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a239cffeb14fb2a239f0a22.doc
+    url: /files/original/14fb2a239cffeb14fb2a239f0a22.doc
 geo:
 id: 11762
 item_type: Document

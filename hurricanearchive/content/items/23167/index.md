@@ -15,12 +15,12 @@ dublin_core:
       text: Awaiting aircraftdelaware.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f145d37b14fb29f145d756.jpg
+  - fullsize: /files/fullsize/14fb29f145d37b14fb29f145d756.jpg
     id: 20111
     mime: image/jpeg
     original_filename: Awaiting aircraftdelaware.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f145d37b14fb29f145d756.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f145d37b14fb29f145d756.jpg
+    thumb: /files/thumbnails/14fb29f145d37b14fb29f145d756.jpg
+    url: /files/original/14fb29f145d37b14fb29f145d756.jpg
 geo:
 id: 23167
 item_type: Still Image

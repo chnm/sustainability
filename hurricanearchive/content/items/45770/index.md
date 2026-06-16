@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: McCoy, Gerald T.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871436c9914fbe87143707f.doc
+    url: /files/original/14fbe871436c9914fbe87143707f.doc
 geo:
 id: 45770
 item_type: Oral History

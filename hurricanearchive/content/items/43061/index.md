@@ -17,12 +17,12 @@ dublin_core:
       text: Southern Love
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c27411b614fb29c2741e84.jpg
+  - fullsize: /files/fullsize/14fb29c27411b614fb29c2741e84.jpg
     id: 25068
     mime: image/jpeg
     original_filename: 017_2229941743.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c27411b614fb29c2741e84.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c27411b614fb29c2741e84.jpg
+    thumb: /files/thumbnails/14fb29c27411b614fb29c2741e84.jpg
+    url: /files/original/14fb29c27411b614fb29c2741e84.jpg
 geo:
   address: ''
   lat: 0.0

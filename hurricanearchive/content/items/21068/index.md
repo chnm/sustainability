@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 2182.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a00b66b4614fb2a00b66efb.jpg
+  - fullsize: /files/fullsize/14fb2a00b66b4614fb2a00b66efb.jpg
     id: 18019
     mime: image/jpeg
     original_filename: DSC 2182.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a00b66b4614fb2a00b66efb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a00b66b4614fb2a00b66efb.jpg
+    thumb: /files/thumbnails/14fb2a00b66b4614fb2a00b66efb.jpg
+    url: /files/original/14fb2a00b66b4614fb2a00b66efb.jpg
 geo:
 id: 21068
 item_type: Still Image

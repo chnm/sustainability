@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: '[SHN] Wednesday Membership Call_10_17_06_30cab11cde.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c9a1e1514fb2a1c9a2225.doc
+    url: /files/original/14fb2a1c9a1e1514fb2a1c9a2225.doc
 geo:
 id: 13834
 item_type: Document

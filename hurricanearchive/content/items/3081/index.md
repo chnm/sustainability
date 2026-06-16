@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: SFC Ron Ewart.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e1cd82814fb2a5e1cdc0f.wav
+    url: /files/original/14fb2a5e1cd82814fb2a5e1cdc0f.wav
 geo:
 id: 3081
 item_type: Oral History

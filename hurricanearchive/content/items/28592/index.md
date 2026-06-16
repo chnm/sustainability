@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_8403
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d232b74914fb29d232bb30.jpg
+  - fullsize: /files/fullsize/14fb29d232b74914fb29d232bb30.jpg
     id: 23443
     mime: image/jpg
     original_filename: 162463594_925665013c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d232b74914fb29d232bb30.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d232b74914fb29d232bb30.jpg
+    thumb: /files/thumbnails/14fb29d232b74914fb29d232bb30.jpg
+    url: /files/original/14fb29d232b74914fb29d232bb30.jpg
 geo:
 id: 28592
 item_type: Still Image

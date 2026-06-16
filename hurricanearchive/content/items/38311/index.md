@@ -19,7 +19,7 @@ files:
     mime: application/vnd.ms-powerpoint
     original_filename: Jesuit High School_3ffcac325c.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c5176a8c14fb29c5176e7a.ppt
+    url: /files/original/14fb29c5176a8c14fb29c5176e7a.ppt
 geo:
   address: 4133 Banks Street
   lat: 29.97244

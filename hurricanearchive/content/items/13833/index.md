@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: 10-11-06_SHN Membership Call Agenda_702d7e9856.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c9b834d14fb2a1c9b855f.doc
+    url: /files/original/14fb2a1c9b834d14fb2a1c9b855f.doc
 geo:
 id: 13833
 item_type: Document

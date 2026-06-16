@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Cuellar, Jose.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87082920c14fbe8708295f1.doc
+    url: /files/original/14fbe87082920c14fbe8708295f1.doc
 geo:
 id: 45659
 item_type: Oral History

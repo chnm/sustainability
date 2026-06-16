@@ -15,12 +15,12 @@ dublin_core:
       text: before building.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20f8cf7014fb2a20f8d356.jpg
+  - fullsize: /files/fullsize/14fb2a20f8cf7014fb2a20f8d356.jpg
     id: 11041
     mime: image/jpeg
     original_filename: before building.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20f8cf7014fb2a20f8d356.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20f8cf7014fb2a20f8d356.jpg
+    thumb: /files/thumbnails/14fb2a20f8cf7014fb2a20f8d356.jpg
+    url: /files/original/14fb2a20f8cf7014fb2a20f8d356.jpg
 geo:
 id: 13031
 item_type: Still Image

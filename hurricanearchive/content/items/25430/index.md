@@ -15,12 +15,12 @@ dublin_core:
       text: Under the Superdome 3superdome.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ddd5af8114fb29ddd5b365.jpg
+  - fullsize: /files/fullsize/14fb29ddd5af8114fb29ddd5b365.jpg
     id: 22369
     mime: image/jpeg
     original_filename: Under the Superdome 3superdome.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ddd5af8114fb29ddd5b365.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ddd5af8114fb29ddd5b365.jpg
+    thumb: /files/thumbnails/14fb29ddd5af8114fb29ddd5b365.jpg
+    url: /files/original/14fb29ddd5af8114fb29ddd5b365.jpg
 geo:
 id: 25430
 item_type: Still Image

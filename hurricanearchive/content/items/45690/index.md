@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Graffeo Sr., Peter.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870c6214814fbe870c6252e.doc
+    url: /files/original/14fbe870c6214814fbe870c6252e.doc
   - fullsize:
     id: 46309
     mime: application/msword
     original_filename: Graffeo Sr., Peter.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870c7175614fbe870c71b3b.doc
+    url: /files/original/14fbe870c7175614fbe870c71b3b.doc
 geo:
 id: 45690
 item_type: Oral History

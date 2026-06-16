@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: SaucierLyman.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a231e7e1014fb2a231e827b.doc
+    url: /files/original/14fb2a231e7e1014fb2a231e827b.doc
 geo:
 id: 11837
 item_type: Document

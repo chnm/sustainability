@@ -23,24 +23,24 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29db4a7e1614fb29db4a81fb.jpg
+  - fullsize: /files/fullsize/14fb29db4a7e1614fb29db4a81fb.jpg
     id: 22664
     mime: image/jpeg
     original_filename: Jeff Chauppetta_6407_c883a54b6d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29db4a7e1614fb29db4a81fb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29db4a7e1614fb29db4a81fb.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29db495d2814fb29db496102.jpg
+    thumb: /files/thumbnails/14fb29db4a7e1614fb29db4a81fb.jpg
+    url: /files/original/14fb29db4a7e1614fb29db4a81fb.jpg
+  - fullsize: /files/fullsize/14fb29db495d2814fb29db496102.jpg
     id: 22665
     mime: image/jpeg
     original_filename: Jeff Chauppetta_6408_e0ae1db11b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29db495d2814fb29db496102.jpg
-    url: https://hurricanearchive.org/files/original/14fb29db495d2814fb29db496102.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29db47de6a14fb29db47e250.jpg
+    thumb: /files/thumbnails/14fb29db495d2814fb29db496102.jpg
+    url: /files/original/14fb29db495d2814fb29db496102.jpg
+  - fullsize: /files/fullsize/14fb29db47de6a14fb29db47e250.jpg
     id: 22666
     mime: image/jpeg
     original_filename: Jeff Chauppetta_6409_44d3337a42.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29db47de6a14fb29db47e250.jpg
-    url: https://hurricanearchive.org/files/original/14fb29db47de6a14fb29db47e250.jpg
+    thumb: /files/thumbnails/14fb29db47de6a14fb29db47e250.jpg
+    url: /files/original/14fb29db47de6a14fb29db47e250.jpg
 geo:
 id: 26103
 item_type: Still Image

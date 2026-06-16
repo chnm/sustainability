@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Joan D. Haynes.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a243bba5714fb2a243bbe31.html
+    url: /files/original/14fb2a243bba5714fb2a243bbe31.html
 geo:
 id: 11659
 item_type: Oral History

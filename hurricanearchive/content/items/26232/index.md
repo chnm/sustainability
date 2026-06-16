@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d991bbf014fb29d991bfbf.jpg
+  - fullsize: /files/fullsize/14fb29d991bbf014fb29d991bfbf.jpg
     id: 22813
     mime: image/jpeg
     original_filename: AB Carnival Ball 1957_c3447c6c81.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d991bbf014fb29d991bfbf.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d991bbf014fb29d991bfbf.jpg
+    thumb: /files/thumbnails/14fb29d991bbf014fb29d991bfbf.jpg
+    url: /files/original/14fb29d991bbf014fb29d991bfbf.jpg
 geo:
 id: 26232
 item_type: Still Image

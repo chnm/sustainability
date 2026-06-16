@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: houselongbeach.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a22feb3f914fb2a22fec074.doc
+    url: /files/original/14fb2a22feb3f914fb2a22fec074.doc
 geo:
 id: 11869
 item_type: Document

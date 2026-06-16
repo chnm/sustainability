@@ -14,12 +14,12 @@ dublin_core:
       text: Entering Gulfport, MS.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d5a6ac9414fb29d5a6b24b.jpg
+  - fullsize: /files/fullsize/14fb29d5a6ac9414fb29d5a6b24b.jpg
     id: 23154
     mime: image/jpeg
     original_filename: Entering Gulfport, MS.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d5a6ac9414fb29d5a6b24b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d5a6ac9414fb29d5a6b24b.jpg
+    thumb: /files/thumbnails/14fb29d5a6ac9414fb29d5a6b24b.jpg
+    url: /files/original/14fb29d5a6ac9414fb29d5a6b24b.jpg
 geo:
 id: 27248
 item_type: Still Image

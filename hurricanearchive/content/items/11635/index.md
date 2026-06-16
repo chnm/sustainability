@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: David John Acevedo.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a246bc76c14fb2a246bcb50.html
+    url: /files/original/14fb2a246bc76c14fb2a246bcb50.html
 geo:
 id: 11635
 item_type: Oral History

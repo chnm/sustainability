@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Hansen, Pete.mss.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870d424da14fbe870d428c1.doc
+    url: /files/original/14fbe870d424da14fbe870d428c1.doc
 geo:
 id: 45703
 item_type: Oral History

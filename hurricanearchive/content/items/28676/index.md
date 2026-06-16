@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6772.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1c8e8e014fb29d1c8ecb8.jpg
+  - fullsize: /files/fullsize/14fb29d1c8e8e014fb29d1c8ecb8.jpg
     id: 23521
     mime: image/jpg
     original_filename: 157300437_38bc07251c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1c8e8e014fb29d1c8ecb8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1c8e8e014fb29d1c8ecb8.jpg
+    thumb: /files/thumbnails/14fb29d1c8e8e014fb29d1c8ecb8.jpg
+    url: /files/original/14fb29d1c8e8e014fb29d1c8ecb8.jpg
 geo:
 id: 28676
 item_type: Still Image

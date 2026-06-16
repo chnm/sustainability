@@ -15,12 +15,12 @@ dublin_core:
       text: howland.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1a8c6ce714fb2a1a8c6fc5.jpg
+  - fullsize: /files/fullsize/14fb2a1a8c6ce714fb2a1a8c6fc5.jpg
     id: 11858
     mime: image/jpeg
     original_filename: howland.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1a8c6ce714fb2a1a8c6fc5.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1a8c6ce714fb2a1a8c6fc5.jpg
+    thumb: /files/thumbnails/14fb2a1a8c6ce714fb2a1a8c6fc5.jpg
+    url: /files/original/14fb2a1a8c6ce714fb2a1a8c6fc5.jpg
 geo:
   address: ''
   lat: 0.0

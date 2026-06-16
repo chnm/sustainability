@@ -20,12 +20,12 @@ dublin_core:
       text: DSC_6990.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d41d6bef14fb29d41d7028.jpg
+  - fullsize: /files/fullsize/14fb29d41d6bef14fb29d41d7028.jpg
     id: 23242
     mime: image/jpg
     original_filename: 163224271_6356e0833b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d41d6bef14fb29d41d7028.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d41d6bef14fb29d41d7028.jpg
+    thumb: /files/thumbnails/14fb29d41d6bef14fb29d41d7028.jpg
+    url: /files/original/14fb29d41d6bef14fb29d41d7028.jpg
 geo:
   address: ''
   lat: 29.84064

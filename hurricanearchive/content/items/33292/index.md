@@ -26,7 +26,7 @@ files:
     mime: application/msword
     original_filename: Perry_fb02aab84e.An analysis.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29caf174fa14fb29caf177d6.doc
+    url: /files/original/14fb29caf174fa14fb29caf177d6.doc
 geo:
 id: 33292
 item_type: Document

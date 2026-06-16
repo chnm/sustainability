@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 04 2006 Wreck rooms.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a362080eb14fb2a362084d1.txt
+    url: /files/original/14fb2a362080eb14fb2a362084d1.txt
 geo:
   address: ''
   lat: 0.0

@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a705b14c114fb2a705b18ac.jpg
+  - fullsize: /files/fullsize/14fb2a705b14c114fb2a705b18ac.jpg
     id: 203
     mime: image/jpeg
     original_filename: dorignacs_63f3718322.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a705b14c114fb2a705b18ac.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a705b14c114fb2a705b18ac.jpg
+    thumb: /files/thumbnails/14fb2a705b14c114fb2a705b18ac.jpg
+    url: /files/original/14fb2a705b14c114fb2a705b18ac.jpg
 geo:
   address: ''
   lat: 30.0011789954666

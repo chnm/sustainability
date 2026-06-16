@@ -15,12 +15,12 @@ dublin_core:
       text: CPL. William Thompson 095cplthompson.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0e3a2c8e14fb2a0e3a3073.jpg
+  - fullsize: /files/fullsize/14fb2a0e3a2c8e14fb2a0e3a3073.jpg
     id: 16661
     mime: image/jpeg
     original_filename: CPL. William Thompson 095cplthompson.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0e3a2c8e14fb2a0e3a3073.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0e3a2c8e14fb2a0e3a3073.jpg
+    thumb: /files/thumbnails/14fb2a0e3a2c8e14fb2a0e3a3073.jpg
+    url: /files/original/14fb2a0e3a2c8e14fb2a0e3a3073.jpg
 geo:
 id: 19708
 item_type: Still Image

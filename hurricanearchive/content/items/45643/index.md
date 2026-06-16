@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Carriere, Beth.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870688e7e14fbe870689263.doc
+    url: /files/original/14fbe870688e7e14fbe870689263.doc
 geo:
 id: 45643
 item_type: Oral History

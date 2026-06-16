@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Kokobun, Crystal.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870fb08c914fbe870fb0cae.doc
+    url: /files/original/14fbe870fb08c914fbe870fb0cae.doc
 geo:
 id: 45735
 item_type: Oral History

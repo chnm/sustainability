@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0005alero.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a15663b7014fb2a15664021.jpg
+  - fullsize: /files/fullsize/14fb2a15663b7014fb2a15664021.jpg
     id: 15669
     mime: image/jpeg
     original_filename: DSC 0005alero.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a15663b7014fb2a15664021.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a15663b7014fb2a15664021.jpg
+    thumb: /files/thumbnails/14fb2a15663b7014fb2a15664021.jpg
+    url: /files/original/14fb2a15663b7014fb2a15664021.jpg
 geo:
 id: 18716
 item_type: Still Image

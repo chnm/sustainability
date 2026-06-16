@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 303-J2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29faca5c4114fb29faca6026.jpg
+  - fullsize: /files/fullsize/14fb29faca5c4114fb29faca6026.jpg
     id: 18923
     mime: image/jpeg
     original_filename: Picture 303-J2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29faca5c4114fb29faca6026.jpg
-    url: https://hurricanearchive.org/files/original/14fb29faca5c4114fb29faca6026.jpg
+    thumb: /files/thumbnails/14fb29faca5c4114fb29faca6026.jpg
+    url: /files/original/14fb29faca5c4114fb29faca6026.jpg
 geo:
 id: 21972
 item_type: Still Image

@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6ea8fb8914fb2a6ea8ffac.jpg
+  - fullsize: /files/fullsize/14fb2a6ea8fb8914fb2a6ea8ffac.jpg
     id: 669
     mime: image/jpeg
     original_filename: johnny_in_playpen_01b5e5f374.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6ea8fb8914fb2a6ea8ffac.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6ea8fb8914fb2a6ea8ffac.jpg
+    thumb: /files/thumbnails/14fb2a6ea8fb8914fb2a6ea8ffac.jpg
+    url: /files/original/14fb2a6ea8fb8914fb2a6ea8ffac.jpg
 geo:
   address: ''
   lat: 30.009063

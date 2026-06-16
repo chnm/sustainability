@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6d96361114fb2a6d9639ea.jpg
+  - fullsize: /files/fullsize/14fb2a6d96361114fb2a6d9639ea.jpg
     id: 847
     mime: image/jpeg
     original_filename: Grandmother_by_the_ruins_d605f7568b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6d96361114fb2a6d9639ea.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6d96361114fb2a6d9639ea.jpg
+    thumb: /files/thumbnails/14fb2a6d96361114fb2a6d9639ea.jpg
+    url: /files/original/14fb2a6d96361114fb2a6d9639ea.jpg
 geo:
   address: ''
   lat: 30.2947575606294

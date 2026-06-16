@@ -20,7 +20,7 @@ files:
     mime: video/x-msvideo
     original_filename: 09270017plaqueminesparishS&R.AVI
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ec2bcfa814fb29ec2bd38e.AVI
+    url: /files/original/14fb29ec2bcfa814fb29ec2bd38e.AVI
 geo:
 id: 23979
 item_type: Document

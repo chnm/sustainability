@@ -14,12 +14,12 @@ dublin_core:
       text: SHOULD I BE APPAULED?!@#
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbcc622714fb29cbcc9c8e.jpg
+  - fullsize: /files/fullsize/14fb29cbcc622714fb29cbcc9c8e.jpg
     id: 24031
     mime: image/jpg
     original_filename: 1941725466_5e442476ad.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbcc622714fb29cbcc9c8e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbcc622714fb29cbcc9c8e.jpg
+    thumb: /files/thumbnails/14fb29cbcc622714fb29cbcc9c8e.jpg
+    url: /files/original/14fb29cbcc622714fb29cbcc9c8e.jpg
 geo:
   address: ''
   lat: 29.95916

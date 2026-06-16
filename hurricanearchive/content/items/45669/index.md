@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Francia, Lilian.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8708ef17d14fbe8708ef561.doc
+    url: /files/original/14fbe8708ef17d14fbe8708ef561.doc
 geo:
 id: 45669
 item_type: Oral History

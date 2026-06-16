@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc9560a614fb29dc956552.jpg
+  - fullsize: /files/fullsize/14fb29dc9560a614fb29dc956552.jpg
     id: 22526
     mime: image/jpeg
     original_filename: KPatcheco-08atgrandfathershouse_d847f72fe1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc9560a614fb29dc956552.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc9560a614fb29dc956552.jpg
+    thumb: /files/thumbnails/14fb29dc9560a614fb29dc956552.jpg
+    url: /files/original/14fb29dc9560a614fb29dc956552.jpg
 geo:
 id: 25733
 item_type: Still Image

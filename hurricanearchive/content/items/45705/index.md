@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Hastings, Stanley.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870d61cb014fbe870d62096.doc
+    url: /files/original/14fbe870d61cb014fbe870d62096.doc
 geo:
 id: 45705
 item_type: Oral History

@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: FINALLettertoCityCouncil_a87588217f.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18d7c71414fb2a18d7caf8.doc
+    url: /files/original/14fb2a18d7c71414fb2a18d7caf8.doc
 geo:
 id: 14566
 item_type: Document

@@ -19,7 +19,7 @@ files:
     mime: text/html
     original_filename: utter destruction on Flickr - Photo Sharing!_2ac9422e0a.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d254dfb814fb29d254e39a.htm
+    url: /files/original/14fb29d254dfb814fb29d254e39a.htm
 geo:
   address: ''
   lat: 0.0

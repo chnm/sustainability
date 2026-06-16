@@ -23,7 +23,7 @@ files:
     mime: audio/x-ms-wma
     original_filename: 07 Track 7_2ee1231c75.wma
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c5c71d6e14fb29c5c7277f.wma
+    url: /files/original/14fb29c5c71d6e14fb29c5c7277f.wma
 geo:
 id: 36247
 item_type: Document

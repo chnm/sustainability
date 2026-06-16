@@ -14,19 +14,19 @@ files:
     mime: application/msword
     original_filename: Simmons, Robert.bio.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871eb15da14fbe871eb19c2.doc
+    url: /files/original/14fbe871eb15da14fbe871eb19c2.doc
   - fullsize:
     id: 46486
     mime: application/msword
     original_filename: Simmons, Robert.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871ec6d8214fbe871ec7167.doc
+    url: /files/original/14fbe871ec6d8214fbe871ec7167.doc
   - fullsize:
     id: 46487
     mime: application/msword
     original_filename: Simmons, Robert.toc.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871ed2ceb14fbe871ed3cea.doc
+    url: /files/original/14fbe871ed2ceb14fbe871ed3cea.doc
 geo:
 id: 45845
 item_type: Oral History

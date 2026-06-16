@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Distribution finalAlabamaNG.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29f141e3ee14fb29f141e7d4.doc
+    url: /files/original/14fb29f141e3ee14fb29f141e7d4.doc
 geo:
 id: 23172
 item_type: Document

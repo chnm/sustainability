@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 16 2005 Educators discuss impact of Katrina on area schools.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35a3f5ad14fb2a35a3f993.txt
+    url: /files/original/14fb2a35a3f5ad14fb2a35a3f993.txt
 geo:
   address: ''
   lat: 0.0

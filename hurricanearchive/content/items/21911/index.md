@@ -15,12 +15,12 @@ dublin_core:
       text: UNO - Lakefront Arena.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb0ac28014fb29fb0ac62c.jpg
+  - fullsize: /files/fullsize/14fb29fb0ac28014fb29fb0ac62c.jpg
     id: 18862
     mime: image/jpeg
     original_filename: UNO - Lakefront Arena.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb0ac28014fb29fb0ac62c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb0ac28014fb29fb0ac62c.jpg
+    thumb: /files/thumbnails/14fb29fb0ac28014fb29fb0ac62c.jpg
+    url: /files/original/14fb29fb0ac28014fb29fb0ac62c.jpg
 geo:
 id: 21911
 item_type: Still Image

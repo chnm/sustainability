@@ -23,24 +23,24 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29da5efad214fb29da5efeb7.jpg
+  - fullsize: /files/fullsize/14fb29da5efad214fb29da5efeb7.jpg
     id: 22726
     mime: image/jpeg
     original_filename: Dot Benge_5735_dfae5875f7.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29da5efad214fb29da5efeb7.jpg
-    url: https://hurricanearchive.org/files/original/14fb29da5efad214fb29da5efeb7.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29da5bf98314fb29da5bfd66.jpg
+    thumb: /files/thumbnails/14fb29da5efad214fb29da5efeb7.jpg
+    url: /files/original/14fb29da5efad214fb29da5efeb7.jpg
+  - fullsize: /files/fullsize/14fb29da5bf98314fb29da5bfd66.jpg
     id: 22727
     mime: image/jpeg
     original_filename: Dot Benge_5741_7e7d7474eb.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29da5bf98314fb29da5bfd66.jpg
-    url: https://hurricanearchive.org/files/original/14fb29da5bf98314fb29da5bfd66.jpg
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29da5aaee514fb29da5ab193.jpg
+    thumb: /files/thumbnails/14fb29da5bf98314fb29da5bfd66.jpg
+    url: /files/original/14fb29da5bf98314fb29da5bfd66.jpg
+  - fullsize: /files/fullsize/14fb29da5aaee514fb29da5ab193.jpg
     id: 22729
     mime: image/jpeg
     original_filename: Dot Benge_5744_7fc2d4e7ef.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29da5aaee514fb29da5ab193.jpg
-    url: https://hurricanearchive.org/files/original/14fb29da5aaee514fb29da5ab193.jpg
+    thumb: /files/thumbnails/14fb29da5aaee514fb29da5ab193.jpg
+    url: /files/original/14fb29da5aaee514fb29da5ab193.jpg
 geo:
 id: 26126
 item_type: Still Image

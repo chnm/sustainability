@@ -15,12 +15,12 @@ dublin_core:
       text: driving.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1eb9e47614fb2a1eb9e85c.jpg
+  - fullsize: /files/fullsize/14fb2a1eb9e47614fb2a1eb9e85c.jpg
     id: 11255
     mime: image/jpeg
     original_filename: driving.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1eb9e47614fb2a1eb9e85c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1eb9e47614fb2a1eb9e85c.jpg
+    thumb: /files/thumbnails/14fb2a1eb9e47614fb2a1eb9e85c.jpg
+    url: /files/original/14fb2a1eb9e47614fb2a1eb9e85c.jpg
 geo:
 id: 13245
 item_type: Still Image

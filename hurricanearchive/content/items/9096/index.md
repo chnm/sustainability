@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 16 2005 Katrina The Aftermath.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35a1791c14fb2a35a18237.txt
+    url: /files/original/14fb2a35a1791c14fb2a35a18237.txt
 geo:
   address: ''
   lat: 0.0

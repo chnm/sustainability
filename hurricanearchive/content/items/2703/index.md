@@ -21,12 +21,12 @@ dublin_core:
       text: Bird
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a60799a5614fb2a60799e3c.jpg
+  - fullsize: /files/fullsize/14fb2a60799a5614fb2a60799e3c.jpg
     id: 2185
     mime: image/jpeg
     original_filename: Bird
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a60799a5614fb2a60799e3c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a60799a5614fb2a60799e3c.jpg
+    thumb: /files/thumbnails/14fb2a60799a5614fb2a60799e3c.jpg
+    url: /files/original/14fb2a60799a5614fb2a60799e3c.jpg
 geo:
 id: 2703
 item_type: Still Image

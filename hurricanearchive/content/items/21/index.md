@@ -25,7 +25,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: NaginLosesIt_737ca6ad44.asx
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a7147afed14fb2a7147b3cc.asx
+    url: /files/original/14fb2a7147afed14fb2a7147b3cc.asx
 geo:
   address: ''
   lat: 30.031251

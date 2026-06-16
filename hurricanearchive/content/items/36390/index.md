@@ -14,12 +14,12 @@ dublin_core:
       text: DPS aftermath 3
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c592a44114fb29c592a825.jpg
+  - fullsize: /files/fullsize/14fb29c592a44114fb29c592a825.jpg
     id: 24738
     mime: image/jpeg
     original_filename: building-damage_2da133535e.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c592a44114fb29c592a825.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c592a44114fb29c592a825.jpg
+    thumb: /files/thumbnails/14fb29c592a44114fb29c592a825.jpg
+    url: /files/original/14fb29c592a44114fb29c592a825.jpg
 geo:
 id: 36390
 item_type: Still Image

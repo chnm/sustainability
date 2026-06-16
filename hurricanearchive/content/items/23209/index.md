@@ -20,7 +20,7 @@ files:
     mime: text/rtf
     original_filename: RECONSTRUCTIONmobilePAO.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29f0b17f5c14fb29f0b18333.doc
+    url: /files/original/14fb29f0b17f5c14fb29f0b18333.doc
 geo:
 id: 23209
 item_type: Document

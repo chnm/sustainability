@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Leadership Conference Call TONIGHT 12_6_2006_f64ce50c3d.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c80fbd514fb2a1c80ffc0.doc
+    url: /files/original/14fb2a1c80fbd514fb2a1c80ffc0.doc
 geo:
 id: 13846
 item_type: Document

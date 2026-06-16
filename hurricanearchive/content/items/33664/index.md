@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Quigley_a1ece036c2.Less Meeting.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cab413f014fb29cab417ce.doc
+    url: /files/original/14fb29cab413f014fb29cab417ce.doc
 geo:
 id: 33664
 item_type: Document

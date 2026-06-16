@@ -20,12 +20,12 @@ dublin_core:
       text: View of Oak Harbor Marina
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9bde6d514fb29c9bdeab3.jpg
+  - fullsize: /files/fullsize/14fb29c9bde6d514fb29c9bdeab3.jpg
     id: 24317
     mime: image/jpg
     original_filename: 2326066905_c68d14e902.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9bde6d514fb29c9bdeab3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9bde6d514fb29c9bdeab3.jpg
+    thumb: /files/thumbnails/14fb29c9bde6d514fb29c9bdeab3.jpg
+    url: /files/original/14fb29c9bde6d514fb29c9bdeab3.jpg
 geo:
   address: ''
   lat: 30.22586

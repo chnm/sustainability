@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Ladner, Mike.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871014c5f14fbe871015043.doc
+    url: /files/original/14fbe871014c5f14fbe871015043.doc
 geo:
 id: 45739
 item_type: Oral History

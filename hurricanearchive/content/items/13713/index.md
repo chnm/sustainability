@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: SHN Conference Call 1_15_06_47d42d5094.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cfc755b14fb2a1cfc7937.doc
+    url: /files/original/14fb2a1cfc755b14fb2a1cfc7937.doc
 geo:
 id: 13713
 item_type: Document

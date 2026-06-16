@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: admin call 7_5ed93cd1ce.11.06.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cc99e1914fb2a1cc9a1ff.doc
+    url: /files/original/14fb2a1cc99e1914fb2a1cc9a1ff.doc
 geo:
 id: 13735
 item_type: Document

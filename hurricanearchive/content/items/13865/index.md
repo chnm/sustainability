@@ -20,7 +20,7 @@ files:
     mime: application/vnd.ms-powerpoint
     original_filename: SHN Anniversary Power Point_6236b86c14.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c80195514fb2a1c801d38.ppt
+    url: /files/original/14fb2a1c80195514fb2a1c801d38.ppt
 geo:
 id: 13865
 item_type: Document

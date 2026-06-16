@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Remembering Sabine Pass_cba194d401.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a571eb94314fb2a571ebd28.doc
+    url: /files/original/14fb2a571eb94314fb2a571ebd28.doc
 geo:
   address: Sabine Pass, TX
   lat: 29.73333

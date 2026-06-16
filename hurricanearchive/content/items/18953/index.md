@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 1903rescuehelicopter.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a14094a4d14fb2a14094edf.jpg
+  - fullsize: /files/fullsize/14fb2a14094a4d14fb2a14094edf.jpg
     id: 15906
     mime: image/jpeg
     original_filename: DSC 1903rescuehelicopter.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a14094a4d14fb2a14094edf.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a14094a4d14fb2a14094edf.jpg
+    thumb: /files/thumbnails/14fb2a14094a4d14fb2a14094edf.jpg
+    url: /files/original/14fb2a14094a4d14fb2a14094edf.jpg
 geo:
 id: 18953
 item_type: Still Image

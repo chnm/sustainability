@@ -19,12 +19,12 @@ dublin_core:
       text: DSC_6743.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d1bf1b7014fb29d1bf1f4d.jpg
+  - fullsize: /files/fullsize/14fb29d1bf1b7014fb29d1bf1f4d.jpg
     id: 23530
     mime: image/jpg
     original_filename: 157200455_aa2664163c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d1bf1b7014fb29d1bf1f4d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d1bf1b7014fb29d1bf1f4d.jpg
+    thumb: /files/thumbnails/14fb29d1bf1b7014fb29d1bf1f4d.jpg
+    url: /files/original/14fb29d1bf1b7014fb29d1bf1f4d.jpg
 geo:
 id: 28685
 item_type: Still Image

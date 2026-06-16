@@ -18,12 +18,12 @@ dublin_core:
       text: Backyard
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a22106f7014fb2a22107355.jpg
+  - fullsize: /files/fullsize/14fb2a22106f7014fb2a22107355.jpg
     id: 10918
     mime: image/jpeg
     original_filename: back-yard_4e53147211.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a22106f7014fb2a22107355.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a22106f7014fb2a22107355.jpg
+    thumb: /files/thumbnails/14fb2a22106f7014fb2a22107355.jpg
+    url: /files/original/14fb2a22106f7014fb2a22107355.jpg
 geo:
   address: ''
   lat: 29.95657

@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 06 02 2006 SE Texas gets more funds for recovery.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35be508a14fb2a35be546d.txt
+    url: /files/original/14fb2a35be508a14fb2a35be546d.txt
 geo:
   address: ''
   lat: 0.0

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Lagasse,JoAnn.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87102ee4414fbe87102f228.doc
+    url: /files/original/14fbe87102ee4414fbe87102f228.doc
 geo:
 id: 45740
 item_type: Oral History

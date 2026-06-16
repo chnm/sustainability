@@ -24,12 +24,12 @@ dublin_core:
       text: Coast Guard Pilot in AK Prepares to Leave for Gulf Coast
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66cb5d5d14fb2a66cb6597.jpg
+  - fullsize: /files/fullsize/14fb2a66cb5d5d14fb2a66cb6597.jpg
     id: 1873
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_RITA_05C4G_c0a0b38cf1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66cb5d5d14fb2a66cb6597.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66cb5d5d14fb2a66cb6597.jpg
+    thumb: /files/thumbnails/14fb2a66cb5d5d14fb2a66cb6597.jpg
+    url: /files/original/14fb2a66cb5d5d14fb2a66cb6597.jpg
 geo:
 id: 2381
 item_type: Still Image

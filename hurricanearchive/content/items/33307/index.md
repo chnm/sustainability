@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_a6004549f9.Spotlight for high.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cad7ab7d14fb29cad7af5a.doc
+    url: /files/original/14fb29cad7ab7d14fb29cad7af5a.doc
 geo:
 id: 33307
 item_type: Document

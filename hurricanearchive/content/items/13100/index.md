@@ -15,12 +15,12 @@ dublin_core:
       text: end look down.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2064770c14fb2a20647a59.jpg
+  - fullsize: /files/fullsize/14fb2a2064770c14fb2a20647a59.jpg
     id: 11110
     mime: image/jpeg
     original_filename: end look down.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2064770c14fb2a20647a59.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2064770c14fb2a20647a59.jpg
+    thumb: /files/thumbnails/14fb2a2064770c14fb2a20647a59.jpg
+    url: /files/original/14fb2a2064770c14fb2a20647a59.jpg
 geo:
 id: 13100
 item_type: Still Image

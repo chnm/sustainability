@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0008gillslong.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0da518d014fb2a0da51cb7.jpg
+  - fullsize: /files/fullsize/14fb2a0da518d014fb2a0da51cb7.jpg
     id: 16772
     mime: image/jpeg
     original_filename: DSC 0008gillslong.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0da518d014fb2a0da51cb7.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0da518d014fb2a0da51cb7.jpg
+    thumb: /files/thumbnails/14fb2a0da518d014fb2a0da51cb7.jpg
+    url: /files/original/14fb2a0da518d014fb2a0da51cb7.jpg
 geo:
 id: 19819
 item_type: Still Image

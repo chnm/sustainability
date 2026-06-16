@@ -15,12 +15,12 @@ dublin_core:
       text: Iowa HS Damages.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b88172f14fb2a1b881b11.jpg
+  - fullsize: /files/fullsize/14fb2a1b88172f14fb2a1b881b11.jpg
     id: 11783
     mime: image/jpeg
     original_filename: Iowa HS Damages.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b88172f14fb2a1b881b11.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b88172f14fb2a1b881b11.jpg
+    thumb: /files/thumbnails/14fb2a1b88172f14fb2a1b881b11.jpg
+    url: /files/original/14fb2a1b88172f14fb2a1b881b11.jpg
 geo:
   address: ''
   lat: 0.0

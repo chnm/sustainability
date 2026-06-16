@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Bales, Phyllis.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e397b1614fb2a5e399a7c.wav
+    url: /files/original/14fb2a5e397b1614fb2a5e399a7c.wav
 geo:
 id: 3066
 item_type: Oral History

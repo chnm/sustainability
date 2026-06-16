@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: McDonald, John D.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8714afdd014fbe8714b01b4.doc
+    url: /files/original/14fbe8714afdd014fbe8714b01b4.doc
 geo:
 id: 45776
 item_type: Oral History

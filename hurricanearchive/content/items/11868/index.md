@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: heatherchivas.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23005ae014fb2a23006709.htm
+    url: /files/original/14fb2a23005ae014fb2a23006709.htm
 geo:
 id: 11868
 item_type: Document

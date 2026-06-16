@@ -17,13 +17,13 @@ files:
     mime: application/msword
     original_filename: Patterson, Brenda.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe871640ff814fbe871641bf8.doc
+    url: /files/original/14fbe871640ff814fbe871641bf8.doc
   - fullsize:
     id: 46435
     mime: application/msword
     original_filename: Patterson, Brenda.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8716553a214fbe871655752.doc
+    url: /files/original/14fbe8716553a214fbe871655752.doc
 geo:
 id: 45802
 item_type: Oral History

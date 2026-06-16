@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0139abbevilleS&R.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ef2d83e114fb29ef2d87bd.jpg
+  - fullsize: /files/fullsize/14fb29ef2d83e114fb29ef2d87bd.jpg
     id: 20447
     mime: image/jpeg
     original_filename: DSC 0139abbevilleS&R.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ef2d83e114fb29ef2d87bd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ef2d83e114fb29ef2d87bd.jpg
+    thumb: /files/thumbnails/14fb29ef2d83e114fb29ef2d87bd.jpg
+    url: /files/original/14fb29ef2d83e114fb29ef2d87bd.jpg
 geo:
 id: 23503
 item_type: Still Image

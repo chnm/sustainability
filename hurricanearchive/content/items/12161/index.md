@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Mary Naglebio.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2246219014fb2a22462576.doc
+    url: /files/original/14fb2a2246219014fb2a22462576.doc
 geo:
 id: 12161
 item_type: Document

@@ -15,12 +15,12 @@ dublin_core:
       text: 138 wind and rain2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1ffae90814fb2a1ffaeced.jpg
+  - fullsize: /files/fullsize/14fb2a1ffae90814fb2a1ffaeced.jpg
     id: 11158
     mime: image/jpeg
     original_filename: 138 wind and rain2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1ffae90814fb2a1ffaeced.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1ffae90814fb2a1ffaeced.jpg
+    thumb: /files/thumbnails/14fb2a1ffae90814fb2a1ffaeced.jpg
+    url: /files/original/14fb2a1ffae90814fb2a1ffaeced.jpg
 geo:
 id: 13148
 item_type: Still Image

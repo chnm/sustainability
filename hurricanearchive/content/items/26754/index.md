@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: communityradio_7801bf17f3.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7f093f514fb29d7f0979c.pdf
+    url: /files/original/14fb29d7f093f514fb29d7f0979c.pdf
 geo:
 id: 26754
 item_type: Document

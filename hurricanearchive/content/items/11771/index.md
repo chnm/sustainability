@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Biloxi Beach pic Gretch.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a238540d414fb2a238544bd.doc
+    url: /files/original/14fb2a238540d414fb2a238544bd.doc
 geo:
 id: 11771
 item_type: Document

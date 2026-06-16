@@ -15,12 +15,12 @@ dublin_core:
       text: Copy of 11 sun no 2 .jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0a72682a14fb2a0a727160.jpg
+  - fullsize: /files/fullsize/14fb2a0a72682a14fb2a0a727160.jpg
     id: 17202
     mime: image/jpeg
     original_filename: Copy of 11 sun no 2 .jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0a72682a14fb2a0a727160.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0a72682a14fb2a0a727160.jpg
+    thumb: /files/thumbnails/14fb2a0a72682a14fb2a0a727160.jpg
+    url: /files/original/14fb2a0a72682a14fb2a0a727160.jpg
 geo:
 id: 20249
 item_type: Still Image

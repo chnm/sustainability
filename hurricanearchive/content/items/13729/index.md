@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Comm_CallAgenda_06_05_06_e7a8506bd6.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cd18f2d14fb2a1cd1930d.doc
+    url: /files/original/14fb2a1cd18f2d14fb2a1cd1930d.doc
 geo:
 id: 13729
 item_type: Document

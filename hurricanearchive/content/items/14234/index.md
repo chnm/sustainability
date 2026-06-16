@@ -19,7 +19,7 @@ files:
     mime: application/msword
     original_filename: BusinessintheFrenchQuarterafterKatrina_b48b2350f9.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1a6e856214fb2a1a6e8932.doc
+    url: /files/original/14fb2a1a6e856214fb2a1a6e8932.doc
 geo:
   address: 1247 Esplanade Avenue
   lat: 0.0

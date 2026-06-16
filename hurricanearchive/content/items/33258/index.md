@@ -17,12 +17,12 @@ dublin_core:
       text: Safari Super Detail
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb10dd7f14fb29cb10e14c.jpg
+  - fullsize: /files/fullsize/14fb29cb10dd7f14fb29cb10e14c.jpg
     id: 24108
     mime: image/jpg
     original_filename: 1226148328_e44ea90a28.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb10dd7f14fb29cb10e14c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb10dd7f14fb29cb10e14c.jpg
+    thumb: /files/thumbnails/14fb29cb10dd7f14fb29cb10e14c.jpg
+    url: /files/original/14fb29cb10dd7f14fb29cb10e14c.jpg
 geo:
 id: 33258
 item_type: Still Image

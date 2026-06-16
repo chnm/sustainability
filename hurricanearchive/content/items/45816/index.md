@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Ray, Linda.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8719aa83014fbe8719aac14.doc
+    url: /files/original/14fbe8719aa83014fbe8719aac14.doc
 geo:
 id: 45816
 item_type: Oral History

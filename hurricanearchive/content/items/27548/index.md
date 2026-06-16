@@ -18,12 +18,12 @@ dublin_core:
       text: Mount Carmel Academy
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d37d488914fb29d37d5c21.jpg
+  - fullsize: /files/fullsize/14fb29d37d488914fb29d37d5c21.jpg
     id: 23288
     mime: image/jpeg
     original_filename: _MG_7129_5fb18805d3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d37d488914fb29d37d5c21.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d37d488914fb29d37d5c21.jpg
+    thumb: /files/thumbnails/14fb29d37d488914fb29d37d5c21.jpg
+    url: /files/original/14fb29d37d488914fb29d37d5c21.jpg
 geo:
   address: ''
   lat: 29.87876

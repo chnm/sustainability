@@ -19,7 +19,7 @@ files:
     mime: application/vnd.ms-powerpoint
     original_filename: The History of Professional Basketball in New Orleans_a1d97681ac.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c4fb352714fb29c4fb390b.ppt
+    url: /files/original/14fb29c4fb352714fb29c4fb390b.ppt
 geo:
   address: 3757 Lang St
   lat: 29.91537

@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d855ee8214fb29d855f269.jpg
+  - fullsize: /files/fullsize/14fb29d855ee8214fb29d855f269.jpg
     id: 22902
     mime: image/pjpeg
     original_filename: Empty Gate_7a3e8f6208.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d855ee8214fb29d855f269.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d855ee8214fb29d855f269.jpg
+    thumb: /files/thumbnails/14fb29d855ee8214fb29d855f269.jpg
+    url: /files/original/14fb29d855ee8214fb29d855f269.jpg
 geo:
   address: Ninth Ward
   lat: 0.0

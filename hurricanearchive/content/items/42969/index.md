@@ -22,7 +22,7 @@ files:
     mime: application/msword
     original_filename: August 29_e987e36ce3.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c279aaca14fb29c279aeb0.doc
+    url: /files/original/14fb29c279aaca14fb29c279aeb0.doc
 geo:
   address: ''
   lat: 0.0

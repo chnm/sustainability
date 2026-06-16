@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c2a7f60a14fb29c2a7f9fd.jpg
+  - fullsize: /files/fullsize/14fb29c2a7f60a14fb29c2a7f9fd.jpg
     id: 25013
     mime: image/pjpeg
     original_filename: ConveyorTransport_b0f3ee9d8a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c2a7f60a14fb29c2a7f9fd.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c2a7f60a14fb29c2a7f9fd.jpg
+    thumb: /files/thumbnails/14fb29c2a7f60a14fb29c2a7f9fd.jpg
+    url: /files/original/14fb29c2a7f60a14fb29c2a7f9fd.jpg
 geo:
 id: 42236
 item_type: Still Image

@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a165868fa14fb2a165870cb.jpg
+  - fullsize: /files/fullsize/14fb2a165868fa14fb2a165870cb.jpg
     id: 12430
     mime: image/pjpeg
     original_filename: Post Katrina 04262006 002_5715adcd77.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a165868fa14fb2a165870cb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a165868fa14fb2a165870cb.jpg
+    thumb: /files/thumbnails/14fb2a165868fa14fb2a165870cb.jpg
+    url: /files/original/14fb2a165868fa14fb2a165870cb.jpg
 geo:
   address: Meadowdale and Lake Villa
   lat: 30.00854

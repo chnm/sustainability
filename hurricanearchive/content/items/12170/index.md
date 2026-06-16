@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: katrinahitsthestage.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2240e60d14fb2a2240e9f0.txt
+    url: /files/original/14fb2a2240e60d14fb2a2240e9f0.txt
 geo:
 id: 12170
 item_type: Document

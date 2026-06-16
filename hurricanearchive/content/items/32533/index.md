@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: Freeman Amendment_4f89fd9a6f.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cbf0daa614fb29cbf0de84.pdf
+    url: /files/original/14fb29cbf0daa614fb29cbf0de84.pdf
 geo:
   address: convention center blvd
   lat: 0.0

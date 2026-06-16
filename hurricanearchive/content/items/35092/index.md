@@ -22,7 +22,7 @@ files:
     mime: application/octet-stream
     original_filename: Casamento's Research_e95d2c8219
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c76eeaf614fb29c76eeed7
+    url: /files/original/14fb29c76eeaf614fb29c76eeed7
 geo:
   address: ''
   lat: 30.03106

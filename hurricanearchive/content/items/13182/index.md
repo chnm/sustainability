@@ -15,12 +15,12 @@ dublin_core:
       text: 174 trees down.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f8aeec714fb2a1f8af2ad.jpg
+  - fullsize: /files/fullsize/14fb2a1f8aeec714fb2a1f8af2ad.jpg
     id: 11192
     mime: image/jpeg
     original_filename: 174 trees down.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f8aeec714fb2a1f8af2ad.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f8aeec714fb2a1f8af2ad.jpg
+    thumb: /files/thumbnails/14fb2a1f8aeec714fb2a1f8af2ad.jpg
+    url: /files/original/14fb2a1f8aeec714fb2a1f8af2ad.jpg
 geo:
 id: 13182
 item_type: Still Image

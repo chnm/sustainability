@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6920.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d225254c14fb29d2252936.jpg
+  - fullsize: /files/fullsize/14fb29d225254c14fb29d2252936.jpg
     id: 23459
     mime: image/jpg
     original_filename: 162117816_0e9326b6e9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d225254c14fb29d2252936.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d225254c14fb29d2252936.jpg
+    thumb: /files/thumbnails/14fb29d225254c14fb29d2252936.jpg
+    url: /files/original/14fb29d225254c14fb29d2252936.jpg
 geo:
 id: 28608
 item_type: Still Image

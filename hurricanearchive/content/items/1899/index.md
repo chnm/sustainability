@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6e622e5f14fb2a6e623244.jpg
+  - fullsize: /files/fullsize/14fb2a6e622e5f14fb2a6e623244.jpg
     id: 705
     mime: image/jpeg
     original_filename: 051023__Hurricane_Wilma_015_a21befbe00.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6e622e5f14fb2a6e623244.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6e622e5f14fb2a6e623244.jpg
+    thumb: /files/thumbnails/14fb2a6e622e5f14fb2a6e623244.jpg
+    url: /files/original/14fb2a6e622e5f14fb2a6e623244.jpg
 geo:
   address: ''
   lat: 25.463811966833703

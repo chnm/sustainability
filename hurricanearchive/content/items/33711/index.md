@@ -19,7 +19,7 @@ files:
     mime: audio/mpeg
     original_filename: Rainwater (Nagin Mix) by Strange_560d2d04da.021106.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29caa95c2a14fb29caa9600f.mp3
+    url: /files/original/14fb29caa95c2a14fb29caa9600f.mp3
 geo:
   address: ''
   lat: 0.0

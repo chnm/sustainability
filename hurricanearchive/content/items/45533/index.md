@@ -17,7 +17,7 @@ files:
     mime: audio/mpeg
     original_filename: Beard, Gwendolyn 2-22-07.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86e8dcdda14fbe86e8dd1bc.mp3
+    url: /files/original/14fbe86e8dcdda14fbe86e8dd1bc.mp3
 geo:
 id: 45533
 item_type: Oral History

@@ -22,7 +22,7 @@ files:
     mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
     original_filename: Victoria Slind-Flor_3f29c87813.Largeunderpants.docx
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c1cdba9d14fb29c1cdbe29.docx
+    url: /files/original/14fb29c1cdba9d14fb29c1cdbe29.docx
 geo:
 id: 45237
 item_type: Document

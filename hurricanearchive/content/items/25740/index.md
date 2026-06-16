@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc817a1114fb29dc817efb.jpg
+  - fullsize: /files/fullsize/14fb29dc817a1114fb29dc817efb.jpg
     id: 22533
     mime: image/jpeg
     original_filename: KPatcheco-17KPlate70's_221b6388ce.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc817a1114fb29dc817efb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc817a1114fb29dc817efb.jpg
+    thumb: /files/thumbnails/14fb29dc817a1114fb29dc817efb.jpg
+    url: /files/original/14fb29dc817a1114fb29dc817efb.jpg
 geo:
 id: 25740
 item_type: Still Image

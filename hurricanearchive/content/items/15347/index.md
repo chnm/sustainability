@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1664b6d714fb2a1664bad1.jpg
+  - fullsize: /files/fullsize/14fb2a1664b6d714fb2a1664bad1.jpg
     id: 12418
     mime: image/jpeg
     original_filename: IMcCormick-11_1e198e49e1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1664b6d714fb2a1664bad1.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1664b6d714fb2a1664bad1.jpg
+    thumb: /files/thumbnails/14fb2a1664b6d714fb2a1664bad1.jpg
+    url: /files/original/14fb2a1664b6d714fb2a1664bad1.jpg
 geo:
 id: 15347
 item_type: Still Image

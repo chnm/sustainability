@@ -15,12 +15,12 @@ dublin_core:
       text: 198 on the way to beaumont.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1f59821314fb2a1f5985f6.jpg
+  - fullsize: /files/fullsize/14fb2a1f59821314fb2a1f5985f6.jpg
     id: 11214
     mime: image/jpeg
     original_filename: 198 on the way to beaumont.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1f59821314fb2a1f5985f6.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1f59821314fb2a1f5985f6.jpg
+    thumb: /files/thumbnails/14fb2a1f59821314fb2a1f5985f6.jpg
+    url: /files/original/14fb2a1f59821314fb2a1f5985f6.jpg
 geo:
 id: 13204
 item_type: Still Image

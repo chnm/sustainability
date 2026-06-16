@@ -18,12 +18,12 @@ dublin_core:
       text: Xavier University Archives
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29db86c07914fb29db86c45f.jpg
+  - fullsize: /files/fullsize/14fb29db86c07914fb29db86c45f.jpg
     id: 22627
     mime: image/jpeg
     original_filename: _MG_6962_ecd9e7a84c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29db86c07914fb29db86c45f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29db86c07914fb29db86c45f.jpg
+    thumb: /files/thumbnails/14fb29db86c07914fb29db86c45f.jpg
+    url: /files/original/14fb29db86c07914fb29db86c45f.jpg
 geo:
   address: ''
   lat: 29.80252

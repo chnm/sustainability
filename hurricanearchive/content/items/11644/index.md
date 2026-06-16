@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Hamilton Guirard.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2465769a14fb2a24657a80.htm
+    url: /files/original/14fb2a2465769a14fb2a24657a80.htm
 geo:
 id: 11644
 item_type: Oral History

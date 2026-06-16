@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Keeslerdolphin.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23593ece14fb2a235942b4.doc
+    url: /files/original/14fb2a23593ece14fb2a235942b4.doc
 geo:
 id: 11802
 item_type: Document

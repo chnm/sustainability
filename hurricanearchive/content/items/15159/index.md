@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a16cf2f2414fb2a16cf3340.jpg
+  - fullsize: /files/fullsize/14fb2a16cf2f2414fb2a16cf3340.jpg
     id: 12317
     mime: image/jpeg
     original_filename: FWills-1_c24c3aabb1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a16cf2f2414fb2a16cf3340.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a16cf2f2414fb2a16cf3340.jpg
+    thumb: /files/thumbnails/14fb2a16cf2f2414fb2a16cf3340.jpg
+    url: /files/original/14fb2a16cf2f2414fb2a16cf3340.jpg
 geo:
 id: 15159
 item_type: Still Image

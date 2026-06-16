@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Michael A. Vitch.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a240907cc14fb2a240918c3.htm
+    url: /files/original/14fb2a240907cc14fb2a240918c3.htm
 geo:
 id: 11680
 item_type: Oral History

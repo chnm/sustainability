@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a713052b914fb2a713056a4.jpg
+  - fullsize: /files/fullsize/14fb2a713052b914fb2a713056a4.jpg
     id: 40
     mime: image/jpeg
     original_filename: i10superdome_e3aea38322.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a713052b914fb2a713056a4.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a713052b914fb2a713056a4.jpg
+    thumb: /files/thumbnails/14fb2a713052b914fb2a713056a4.jpg
+    url: /files/original/14fb2a713052b914fb2a713056a4.jpg
 geo:
   address: ''
   lat: 29.958304

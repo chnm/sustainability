@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 17 2006 Hurricane threat could start early.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35df25b714fb2a35df2996.txt
+    url: /files/original/14fb2a35df25b714fb2a35df2996.txt
 geo:
   address: ''
   lat: 0.0

@@ -20,7 +20,7 @@ files:
     mime: text/rtf
     original_filename: Amanda Whitely.rtf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2396f16814fb2a2396fa61.rtf
+    url: /files/original/14fb2a2396f16814fb2a2396fa61.rtf
 geo:
 id: 11764
 item_type: Document

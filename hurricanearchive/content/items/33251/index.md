@@ -17,12 +17,12 @@ dublin_core:
       text: Lucky Super Market & Dunbar\'s
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb27220814fb29cb27f182.jpg
+  - fullsize: /files/fullsize/14fb29cb27220814fb29cb27f182.jpg
     id: 24101
     mime: image/jpg
     original_filename: 1231398956_a7e71f5593.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb27220814fb29cb27f182.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb27220814fb29cb27f182.jpg
+    thumb: /files/thumbnails/14fb29cb27220814fb29cb27f182.jpg
+    url: /files/original/14fb29cb27220814fb29cb27f182.jpg
 geo:
   address: ''
   lat: 41.8848

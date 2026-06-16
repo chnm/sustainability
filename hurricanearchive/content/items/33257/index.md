@@ -17,12 +17,12 @@ dublin_core:
       text: Safari Super Flood Lines
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb12545114fb29cb125837.jpg
+  - fullsize: /files/fullsize/14fb29cb12545114fb29cb125837.jpg
     id: 24107
     mime: image/jpg
     original_filename: 1226148270_a6a7e721cf.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb12545114fb29cb125837.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb12545114fb29cb125837.jpg
+    thumb: /files/thumbnails/14fb29cb12545114fb29cb125837.jpg
+    url: /files/original/14fb29cb12545114fb29cb125837.jpg
 geo:
 id: 33257
 item_type: Still Image

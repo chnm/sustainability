@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c480cd5114fb29c480d52a.jpg
+  - fullsize: /files/fullsize/14fb29c480cd5114fb29c480d52a.jpg
     id: 24873
     mime: image/pjpeg
     original_filename: 15 - Wickfield 1_457f125a4d.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c480cd5114fb29c480d52a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c480cd5114fb29c480d52a.jpg
+    thumb: /files/thumbnails/14fb29c480cd5114fb29c480d52a.jpg
+    url: /files/original/14fb29c480cd5114fb29c480d52a.jpg
 geo:
   address: ''
   lat: 30.06731

@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f5385ab14fb2a6f5389fc.jpg
+  - fullsize: /files/fullsize/14fb2a6f5385ab14fb2a6f5389fc.jpg
     id: 468
     mime: image/png
     original_filename: Living_Right_4c58c8cb51.png
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f5385ab14fb2a6f5389fc.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f5385ab14fb2a6f5389fc.jpg
+    thumb: /files/thumbnails/14fb2a6f5385ab14fb2a6f5389fc.jpg
+    url: /files/original/14fb2a6f5385ab14fb2a6f5389fc.jpg
 geo:
   address: ''
   lat: 30.342352

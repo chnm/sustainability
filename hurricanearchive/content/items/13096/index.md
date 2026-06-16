@@ -15,12 +15,12 @@ dublin_core:
       text: during street night south.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a206a561514fb2a206a59fa.jpg
+  - fullsize: /files/fullsize/14fb2a206a561514fb2a206a59fa.jpg
     id: 11106
     mime: image/jpeg
     original_filename: during street night south.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a206a561514fb2a206a59fa.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a206a561514fb2a206a59fa.jpg
+    thumb: /files/thumbnails/14fb2a206a561514fb2a206a59fa.jpg
+    url: /files/original/14fb2a206a561514fb2a206a59fa.jpg
 geo:
 id: 13096
 item_type: Still Image

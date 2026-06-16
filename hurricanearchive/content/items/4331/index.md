@@ -22,7 +22,7 @@ files:
     mime: application/octet-stream
     original_filename: Movie_0001.wmv
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a573885dd14fb2a573889c3.wmv
+    url: /files/original/14fb2a573885dd14fb2a573889c3.wmv
 geo:
 id: 4331
 item_type: Document

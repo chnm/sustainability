@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1737e15014fb2a1737e420.jpg
+  - fullsize: /files/fullsize/14fb2a1737e15014fb2a1737e420.jpg
     id: 12249
     mime: image/pjpeg
     original_filename: Post Katrina 121005 009_cd74cb1c01.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1737e15014fb2a1737e420.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1737e15014fb2a1737e420.jpg
+    thumb: /files/thumbnails/14fb2a1737e15014fb2a1737e420.jpg
+    url: /files/original/14fb2a1737e15014fb2a1737e420.jpg
 geo:
   address: ''
   lat: 30.00467

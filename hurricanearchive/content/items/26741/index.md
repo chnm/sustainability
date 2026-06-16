@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: canyouhelp_35527f4c8e.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d81119f314fb29d8111dd9.pdf
+    url: /files/original/14fb29d81119f314fb29d8111dd9.pdf
 geo:
 id: 26741
 item_type: Document

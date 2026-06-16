@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: robertsmarketplace_1ec82abd95.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce2203a014fb29ce220786.pdf
+    url: /files/original/14fb29ce2203a014fb29ce220786.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

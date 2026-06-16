@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 06 03 2006 Katrina's jobless soon to lose disaster benefits.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35bd27b214fb2a35bd2b98.txt
+    url: /files/original/14fb2a35bd27b214fb2a35bd2b98.txt
 geo:
   address: ''
   lat: 0.0

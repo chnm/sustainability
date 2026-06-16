@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: MSJ legal research memo -- remaining issues_9acbeaa35b.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18d5780614fb2a18d57a1c.doc
+    url: /files/original/14fb2a18d5780614fb2a18d57a1c.doc
 geo:
 id: 14568
 item_type: Document

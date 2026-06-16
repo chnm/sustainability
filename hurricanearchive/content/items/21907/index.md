@@ -15,12 +15,12 @@ dublin_core:
       text: Tulane University.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb0d719f14fb29fb0d7585.jpg
+  - fullsize: /files/fullsize/14fb29fb0d719f14fb29fb0d7585.jpg
     id: 18858
     mime: image/jpeg
     original_filename: Tulane University.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb0d719f14fb29fb0d7585.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb0d719f14fb29fb0d7585.jpg
+    thumb: /files/thumbnails/14fb29fb0d719f14fb29fb0d7585.jpg
+    url: /files/original/14fb29fb0d719f14fb29fb0d7585.jpg
 geo:
 id: 21907
 item_type: Still Image

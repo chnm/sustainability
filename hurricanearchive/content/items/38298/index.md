@@ -19,7 +19,7 @@ files:
     mime: application/vnd.openxmlformats-officedocument.presentationml.presentation
     original_filename: MGI Presents_0d801aeca2.pptx
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c521823d14fb29c5218623.pptx
+    url: /files/original/14fb29c521823d14fb29c5218623.pptx
 geo:
   address: ''
   lat: 0.0

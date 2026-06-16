@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d6e3315614fb29d6e3353f.jpg
+  - fullsize: /files/fullsize/14fb29d6e3315614fb29d6e3353f.jpg
     id: 23053
     mime: image/jpeg
     original_filename: 1991homecomingcourt_13e84134b5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d6e3315614fb29d6e3353f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d6e3315614fb29d6e3353f.jpg
+    thumb: /files/thumbnails/14fb29d6e3315614fb29d6e3353f.jpg
+    url: /files/original/14fb29d6e3315614fb29d6e3353f.jpg
 geo:
 id: 26869
 item_type: Still Image

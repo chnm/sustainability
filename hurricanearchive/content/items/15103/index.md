@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a171e893214fb2a171e8d0a.jpg
+  - fullsize: /files/fullsize/14fb2a171e893214fb2a171e8d0a.jpg
     id: 12263
     mime: image/jpeg
     original_filename: Halloween04-3_74e7dfb6ef.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a171e893214fb2a171e8d0a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a171e893214fb2a171e8d0a.jpg
+    thumb: /files/thumbnails/14fb2a171e893214fb2a171e8d0a.jpg
+    url: /files/original/14fb2a171e893214fb2a171e8d0a.jpg
 geo:
 id: 15103
 item_type: Still Image

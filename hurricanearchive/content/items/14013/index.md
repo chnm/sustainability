@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: 1LT Campbell 27SEP2005.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c7891bc14fb2a1c7895a0.wav
+    url: /files/original/14fb2a1c7891bc14fb2a1c7895a0.wav
 geo:
   address: ''
   lat: 0.0

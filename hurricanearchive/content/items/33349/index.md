@@ -23,7 +23,7 @@ files:
     mime: video/quicktime
     original_filename: Rolland Golden.mov
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cac09c6314fb29cac0a048.mov
+    url: /files/original/14fb29cac09c6314fb29cac0a048.mov
 geo:
 id: 33349
 item_type: Document

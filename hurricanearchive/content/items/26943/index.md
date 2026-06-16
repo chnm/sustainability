@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Wm Dennius HK856K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d5f4e62514fb29d5f4ed83.mp3
+    url: /files/original/14fb29d5f4e62514fb29d5f4ed83.mp3
 geo:
 id: 26943
 item_type: Oral History

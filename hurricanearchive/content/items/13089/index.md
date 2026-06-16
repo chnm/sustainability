@@ -15,12 +15,12 @@ dublin_core:
       text: debris northeast.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a207ec99414fb2a207ecd7a.jpg
+  - fullsize: /files/fullsize/14fb2a207ec99414fb2a207ecd7a.jpg
     id: 11099
     mime: image/jpeg
     original_filename: debris northeast.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a207ec99414fb2a207ecd7a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a207ec99414fb2a207ecd7a.jpg
+    thumb: /files/thumbnails/14fb2a207ec99414fb2a207ecd7a.jpg
+    url: /files/original/14fb2a207ec99414fb2a207ecd7a.jpg
 geo:
 id: 13089
 item_type: Still Image

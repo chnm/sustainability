@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c2a9e20f14fb29c2a9e5f5.jpg
+  - fullsize: /files/fullsize/14fb29c2a9e20f14fb29c2a9e5f5.jpg
     id: 25009
     mime: image/jpeg
     original_filename: IMG_1066_cd7d9a072c.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c2a9e20f14fb29c2a9e5f5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c2a9e20f14fb29c2a9e5f5.jpg
+    thumb: /files/thumbnails/14fb29c2a9e20f14fb29c2a9e5f5.jpg
+    url: /files/original/14fb29c2a9e20f14fb29c2a9e5f5.jpg
 geo:
 id: 42232
 item_type: Still Image

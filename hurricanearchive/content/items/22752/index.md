@@ -15,12 +15,12 @@ dublin_core:
       text: Parking Lot at Jack Brks 3Jacksonbarracks.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f43666ae14fb29f4366a9d.jpg
+  - fullsize: /files/fullsize/14fb29f43666ae14fb29f4366a9d.jpg
     id: 19703
     mime: image/jpeg
     original_filename: Parking Lot at Jack Brks 3Jacksonbarracks.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f43666ae14fb29f4366a9d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f43666ae14fb29f4366a9d.jpg
+    thumb: /files/thumbnails/14fb29f43666ae14fb29f4366a9d.jpg
+    url: /files/original/14fb29f43666ae14fb29f4366a9d.jpg
 geo:
 id: 22752
 item_type: Still Image

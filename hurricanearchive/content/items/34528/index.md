@@ -21,12 +21,12 @@ dublin_core:
       text: Side view of Anna & Nick Leggio\'s home
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c989c32314fb29c989c709.jpg
+  - fullsize: /files/fullsize/14fb29c989c32314fb29c989c709.jpg
     id: 24362
     mime: image/jpg
     original_filename: 2291202087_f97eee8e8f.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c989c32314fb29c989c709.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c989c32314fb29c989c709.jpg
+    thumb: /files/thumbnails/14fb29c989c32314fb29c989c709.jpg
+    url: /files/original/14fb29c989c32314fb29c989c709.jpg
 geo:
   address: ''
   lat: 30.22539

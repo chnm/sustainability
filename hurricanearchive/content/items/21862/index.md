@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: FEMA Disaster declared LA Parishes of Hu. Rita.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29fb58e93414fb29fb58ed1a.pdf
+    url: /files/original/14fb29fb58e93414fb29fb58ed1a.pdf
 geo:
 id: 21862
 item_type: Document

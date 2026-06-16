@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: solamonrockette.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23a6eca514fb2a23a6f08b.html
+    url: /files/original/14fb2a23a6eca514fb2a23a6f08b.html
 geo:
 id: 11756
 item_type: Oral History

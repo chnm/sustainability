@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 21 2006 Tournament star.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35dd510814fb2a35dd54ee.txt
+    url: /files/original/14fb2a35dd510814fb2a35dd54ee.txt
 geo:
   address: ''
   lat: 0.0

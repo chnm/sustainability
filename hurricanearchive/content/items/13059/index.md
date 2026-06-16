@@ -15,12 +15,12 @@ dublin_core:
       text: before looking south.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20b4342414fb2a20b5bce1.jpg
+  - fullsize: /files/fullsize/14fb2a20b4342414fb2a20b5bce1.jpg
     id: 11069
     mime: image/jpeg
     original_filename: before looking south.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20b4342414fb2a20b5bce1.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20b4342414fb2a20b5bce1.jpg
+    thumb: /files/thumbnails/14fb2a20b4342414fb2a20b5bce1.jpg
+    url: /files/original/14fb2a20b4342414fb2a20b5bce1.jpg
 geo:
 id: 13059
 item_type: Still Image

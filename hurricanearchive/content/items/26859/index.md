@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d720aff414fb29d720decc.jpg
+  - fullsize: /files/fullsize/14fb29d720aff414fb29d720decc.jpg
     id: 23043
     mime: image/jpeg
     original_filename: KJ Mardi Gras_60ae68a3b3. 2 PCT.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d720aff414fb29d720decc.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d720aff414fb29d720decc.jpg
+    thumb: /files/thumbnails/14fb29d720aff414fb29d720decc.jpg
+    url: /files/original/14fb29d720aff414fb29d720decc.jpg
 geo:
   address: ''
   lat: 29.91685

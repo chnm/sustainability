@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d7a210e314fb29d7a23fde.jpg
+  - fullsize: /files/fullsize/14fb29d7a210e314fb29d7a23fde.jpg
     id: 23002
     mime: image/jpeg
     original_filename: SF crewboat 1_ec5e859e7a.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d7a210e314fb29d7a23fde.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d7a210e314fb29d7a23fde.jpg
+    thumb: /files/thumbnails/14fb29d7a210e314fb29d7a23fde.jpg
+    url: /files/original/14fb29d7a210e314fb29d7a23fde.jpg
 geo:
   address: ''
   lat: 29.87876

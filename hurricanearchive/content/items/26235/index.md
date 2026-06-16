@@ -18,12 +18,12 @@ dublin_core:
       text: Ron Chapman Archive, Nunez Community College
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d98830d014fb29d98867a8.jpg
+  - fullsize: /files/fullsize/14fb29d98830d014fb29d98867a8.jpg
     id: 22816
     mime: image/jpeg
     original_filename: AB Esso Station 1950_53640e6a2c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d98830d014fb29d98867a8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d98830d014fb29d98867a8.jpg
+    thumb: /files/thumbnails/14fb29d98830d014fb29d98867a8.jpg
+    url: /files/original/14fb29d98830d014fb29d98867a8.jpg
 geo:
   address: ''
   lat: 29.91685

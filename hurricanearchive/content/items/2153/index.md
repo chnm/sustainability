@@ -25,7 +25,7 @@ files:
     mime: text/plain; charset=unknown
     original_filename: Hurricane_Journal_6de625a7e0.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6d96fd3114fb2a6d970115.txt
+    url: /files/original/14fb2a6d96fd3114fb2a6d970115.txt
 geo:
   address: ''
   lat: 30.15549

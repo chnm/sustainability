@@ -20,12 +20,12 @@ dublin_core:
       text: Boat out of Water
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a572268b814fb2a57226c9c.jpg
+  - fullsize: /files/fullsize/14fb2a572268b814fb2a57226c9c.jpg
     id: 3618
     mime: image/pjpeg
     original_filename: boatonroad_43ba650fcf.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a572268b814fb2a57226c9c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a572268b814fb2a57226c9c.jpg
+    thumb: /files/thumbnails/14fb2a572268b814fb2a57226c9c.jpg
+    url: /files/original/14fb2a572268b814fb2a57226c9c.jpg
 geo:
   address: ''
   lat: 29.82173

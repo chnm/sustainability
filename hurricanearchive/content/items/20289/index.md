@@ -15,12 +15,12 @@ dublin_core:
       text: Copy of DSC 0137.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a09f3bcdf14fb2a09f3bf02.jpg
+  - fullsize: /files/fullsize/14fb2a09f3bcdf14fb2a09f3bf02.jpg
     id: 17242
     mime: image/jpeg
     original_filename: Copy of DSC 0137.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a09f3bcdf14fb2a09f3bf02.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a09f3bcdf14fb2a09f3bf02.jpg
+    thumb: /files/thumbnails/14fb2a09f3bcdf14fb2a09f3bf02.jpg
+    url: /files/original/14fb2a09f3bcdf14fb2a09f3bf02.jpg
 geo:
 id: 20289
 item_type: Still Image

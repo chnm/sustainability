@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Perry_4c4066e635.A sin is a sin.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cace011e14fb29cace0505.doc
+    url: /files/original/14fb29cace011e14fb29cace0505.doc
 geo:
 id: 33312
 item_type: Document

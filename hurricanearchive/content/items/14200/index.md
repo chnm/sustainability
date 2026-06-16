@@ -15,12 +15,12 @@ dublin_core:
       text: WO1 Sutton.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1aa1b07e14fb2a1aa1b48c.jpg
+  - fullsize: /files/fullsize/14fb2a1aa1b07e14fb2a1aa1b48c.jpg
     id: 11844
     mime: image/jpeg
     original_filename: WO1 Sutton.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1aa1b07e14fb2a1aa1b48c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1aa1b07e14fb2a1aa1b48c.jpg
+    thumb: /files/thumbnails/14fb2a1aa1b07e14fb2a1aa1b48c.jpg
+    url: /files/original/14fb2a1aa1b07e14fb2a1aa1b48c.jpg
 geo:
   address: ''
   lat: 0.0

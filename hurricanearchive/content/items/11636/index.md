@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Donnie A. Lott.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a246ad54b14fb2a246ad92f.htm
+    url: /files/original/14fb2a246ad54b14fb2a246ad92f.htm
 geo:
 id: 11636
 item_type: Oral History

@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: 11 06 2005 D4.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2d9a943e14fb2a2d9a982b.pdf
+    url: /files/original/14fb2a2d9a943e14fb2a2d9a982b.pdf
 geo:
   address: ''
   lat: 0.0

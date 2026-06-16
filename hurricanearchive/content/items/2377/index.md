@@ -24,12 +24,12 @@ dublin_core:
       text: Dolphin Returns to Gulf Waters
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66d0aa0e14fb2a66d0adeb.jpg
+  - fullsize: /files/fullsize/14fb2a66d0aa0e14fb2a66d0adeb.jpg
     id: 1869
     mime: image/jpeg
     original_filename: apuscg_DOLPHIN_RESCUE_05C91_b16526fbfd.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66d0aa0e14fb2a66d0adeb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66d0aa0e14fb2a66d0adeb.jpg
+    thumb: /files/thumbnails/14fb2a66d0aa0e14fb2a66d0adeb.jpg
+    url: /files/original/14fb2a66d0aa0e14fb2a66d0adeb.jpg
 geo:
 id: 2377
 item_type: Document

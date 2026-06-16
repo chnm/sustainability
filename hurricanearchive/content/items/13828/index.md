@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: 09_27_06_Agenda[1]_3e8a80446e.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c9e0de614fb2a1c9e2085.doc
+    url: /files/original/14fb2a1c9e0de614fb2a1c9e2085.doc
 geo:
 id: 13828
 item_type: Document

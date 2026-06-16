@@ -15,12 +15,12 @@ dublin_core:
       text: ES NOLA Uptown.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5daf400a14fb2a5db001ab.jpg
+  - fullsize: /files/fullsize/14fb2a5daf400a14fb2a5db001ab.jpg
     id: 2627
     mime: image/jpeg
     original_filename: ES NOLA Uptown.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5daf400a14fb2a5db001ab.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5daf400a14fb2a5db001ab.jpg
+    thumb: /files/thumbnails/14fb2a5daf400a14fb2a5db001ab.jpg
+    url: /files/original/14fb2a5daf400a14fb2a5db001ab.jpg
 geo:
 id: 3155
 item_type: Still Image

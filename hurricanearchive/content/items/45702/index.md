@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Hamilton, Sara.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870d3790214fbe870d37ceb.doc
+    url: /files/original/14fbe870d3790214fbe870d37ceb.doc
 geo:
 id: 45702
 item_type: Oral History

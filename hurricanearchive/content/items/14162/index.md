@@ -15,12 +15,12 @@ dublin_core:
       text: MG Mason 4 Oct 05.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1b3e946914fb2a1b3e984d.jpg
+  - fullsize: /files/fullsize/14fb2a1b3e946914fb2a1b3e984d.jpg
     id: 11806
     mime: image/jpeg
     original_filename: MG Mason 4 Oct 05.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1b3e946914fb2a1b3e984d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1b3e946914fb2a1b3e984d.jpg
+    thumb: /files/thumbnails/14fb2a1b3e946914fb2a1b3e984d.jpg
+    url: /files/original/14fb2a1b3e946914fb2a1b3e984d.jpg
 geo:
   address: ''
   lat: 0.0

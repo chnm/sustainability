@@ -25,7 +25,7 @@ files:
     mime: application/msword
     original_filename: katrinaproject2005_6b5c5d2573.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a702e09ed14fb2a702e0dd3.doc
+    url: /files/original/14fb2a702e09ed14fb2a702e0dd3.doc
 geo:
   address: ''
   lat: 29.945998

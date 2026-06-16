@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c4c1bb5b14fb29c4c1bf3b.jpg
+  - fullsize: /files/fullsize/14fb29c4c1bb5b14fb29c4c1bf3b.jpg
     id: 24843
     mime: image/pjpeg
     original_filename: scan0001_07a81b8131.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c4c1bb5b14fb29c4c1bf3b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c4c1bb5b14fb29c4c1bf3b.jpg
+    thumb: /files/thumbnails/14fb29c4c1bb5b14fb29c4c1bf3b.jpg
+    url: /files/original/14fb29c4c1bb5b14fb29c4c1bf3b.jpg
 geo:
   address: 2629 Buccaneer Dr. Marrero
   lat: 0.0

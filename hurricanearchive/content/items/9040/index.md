@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 12 2006 Time for a post-Rita splash.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35e30be814fb2a35e30fd7.txt
+    url: /files/original/14fb2a35e30be814fb2a35e30fd7.txt
 geo:
   address: ''
   lat: 0.0

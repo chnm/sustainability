@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: CPT John Plunkett 8OCT05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1bc237d614fb2a1bc23bbc.wav
+    url: /files/original/14fb2a1bc237d614fb2a1bc23bbc.wav
 geo:
   address: ''
   lat: 0.0

@@ -15,12 +15,12 @@ dublin_core:
       text: before upper garage.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20a3afc414fb2a20a3b39b.jpg
+  - fullsize: /files/fullsize/14fb2a20a3afc414fb2a20a3b39b.jpg
     id: 11071
     mime: image/jpeg
     original_filename: before upper garage.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20a3afc414fb2a20a3b39b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20a3afc414fb2a20a3b39b.jpg
+    thumb: /files/thumbnails/14fb2a20a3afc414fb2a20a3b39b.jpg
+    url: /files/original/14fb2a20a3afc414fb2a20a3b39b.jpg
 geo:
 id: 13061
 item_type: Still Image

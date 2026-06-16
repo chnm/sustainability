@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a17d81f5214fb2a17d82338.jpg
+  - fullsize: /files/fullsize/14fb2a17d81f5214fb2a17d82338.jpg
     id: 12188
     mime: image/jpeg
     original_filename: GoodShepherd_ErykahMorris_03_2dc88079f4.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a17d81f5214fb2a17d82338.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a17d81f5214fb2a17d82338.jpg
+    thumb: /files/thumbnails/14fb2a17d81f5214fb2a17d82338.jpg
+    url: /files/original/14fb2a17d81f5214fb2a17d82338.jpg
 geo:
 id: 14767
 item_type: Still Image

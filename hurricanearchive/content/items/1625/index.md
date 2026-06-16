@@ -21,12 +21,12 @@ dublin_core:
       text: 2005-28277.jpg (Object)
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a675cb30414fb2a675cb6db.jpg
+  - fullsize: /files/fullsize/14fb2a675cb30414fb2a675cb6db.jpg
     id: 1805
     mime: image/jpeg
     original_filename: 2005-28277.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a675cb30414fb2a675cb6db.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a675cb30414fb2a675cb6db.jpg
+    thumb: /files/thumbnails/14fb2a675cb30414fb2a675cb6db.jpg
+    url: /files/original/14fb2a675cb30414fb2a675cb6db.jpg
 geo:
   address: ''
   lat: 0.0

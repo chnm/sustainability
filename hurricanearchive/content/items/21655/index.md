@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0440crop.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fcc77b5014fb29fcc77f35.jpg
+  - fullsize: /files/fullsize/14fb29fcc77b5014fb29fcc77f35.jpg
     id: 18606
     mime: image/jpeg
     original_filename: DSC 0440crop.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fcc77b5014fb29fcc77f35.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fcc77b5014fb29fcc77f35.jpg
+    thumb: /files/thumbnails/14fb29fcc77b5014fb29fcc77f35.jpg
+    url: /files/original/14fb29fcc77b5014fb29fcc77f35.jpg
 geo:
 id: 21655
 item_type: Still Image

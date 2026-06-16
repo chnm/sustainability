@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: SHN_Discription_f22ffdfef7.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1896647614fb2a18966b7c.doc
+    url: /files/original/14fb2a1896647614fb2a18966b7c.doc
 geo:
 id: 14587
 item_type: Document

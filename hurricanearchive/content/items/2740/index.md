@@ -21,12 +21,12 @@ dublin_core:
       text: '&ldquo;dream House&rdquo;'
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a605bc2ee14fb2a605bc6d6.jpg
+  - fullsize: /files/fullsize/14fb2a605bc2ee14fb2a605bc6d6.jpg
     id: 2222
     mime: image/jpeg
     original_filename: '&ldquo;dream House&rdquo;'
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a605bc2ee14fb2a605bc6d6.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a605bc2ee14fb2a605bc6d6.jpg
+    thumb: /files/thumbnails/14fb2a605bc2ee14fb2a605bc6d6.jpg
+    url: /files/original/14fb2a605bc2ee14fb2a605bc6d6.jpg
 geo:
 id: 2740
 item_type: Still Image

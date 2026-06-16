@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Horn, Ruth J.(819).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870e77bbf14fbe870e7870a.doc
+    url: /files/original/14fbe870e77bbf14fbe870e7870a.doc
 geo:
 id: 45714
 item_type: Oral History

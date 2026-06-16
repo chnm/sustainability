@@ -20,7 +20,7 @@ files:
     mime: application/x-zip-compressed
     original_filename: springbreaktrip_materials_d9816ecc2f.zip
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1cc7a65714fb2a1cc7aa3a.zip
+    url: /files/original/14fb2a1cc7a65714fb2a1cc7aa3a.zip
 geo:
 id: 13764
 item_type: Document

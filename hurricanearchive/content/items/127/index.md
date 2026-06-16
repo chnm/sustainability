@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a70ed246314fb2a70ed2848.jpg
+  - fullsize: /files/fullsize/14fb2a70ed246314fb2a70ed2848.jpg
     id: 100
     mime: image/jpeg
     original_filename: kat13_wideweb__430x355_03853c34ba.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a70ed246314fb2a70ed2848.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a70ed246314fb2a70ed2848.jpg
+    thumb: /files/thumbnails/14fb2a70ed246314fb2a70ed2848.jpg
+    url: /files/original/14fb2a70ed246314fb2a70ed2848.jpg
 geo:
   address: ''
   lat: 0.0

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a182e5b7c14fb2a182ef568.jpg
+  - fullsize: /files/fullsize/14fb2a182e5b7c14fb2a182ef568.jpg
     id: 12148
     mime: image/jpeg
     original_filename: GoodShepherd_AshleyHendersen_02_1a1f831431.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a182e5b7c14fb2a182ef568.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a182e5b7c14fb2a182ef568.jpg
+    thumb: /files/thumbnails/14fb2a182e5b7c14fb2a182ef568.jpg
+    url: /files/original/14fb2a182e5b7c14fb2a182ef568.jpg
 geo:
 id: 14687
 item_type: Still Image

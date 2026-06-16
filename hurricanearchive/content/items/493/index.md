@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6fb5e07e14fb2a6fb5e464.jpg
+  - fullsize: /files/fullsize/14fb2a6fb5e07e14fb2a6fb5e464.jpg
     id: 352
     mime: image/jpeg
     original_filename: RitaCoke_2024_a6787880f3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6fb5e07e14fb2a6fb5e464.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6fb5e07e14fb2a6fb5e464.jpg
+    thumb: /files/thumbnails/14fb2a6fb5e07e14fb2a6fb5e464.jpg
+    url: /files/original/14fb2a6fb5e07e14fb2a6fb5e464.jpg
 geo:
   address: ''
   lat: 29.269628815226596

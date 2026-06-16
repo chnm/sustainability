@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: edgewatervillage.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2307d08614fb2a2307d46c.doc
+    url: /files/original/14fb2a2307d08614fb2a2307d46c.doc
 geo:
 id: 11859
 item_type: Document

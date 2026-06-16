@@ -15,12 +15,12 @@ dublin_core:
       text: 142 distant lights.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1ff16bf014fb2a1ff16fd2.jpg
+  - fullsize: /files/fullsize/14fb2a1ff16bf014fb2a1ff16fd2.jpg
     id: 11162
     mime: image/jpeg
     original_filename: 142 distant lights.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1ff16bf014fb2a1ff16fd2.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1ff16bf014fb2a1ff16fd2.jpg
+    thumb: /files/thumbnails/14fb2a1ff16bf014fb2a1ff16fd2.jpg
+    url: /files/original/14fb2a1ff16bf014fb2a1ff16fd2.jpg
 geo:
 id: 13152
 item_type: Still Image

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: McLaurin, Mary Elizabeth.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8714e745614fbe8714e783b.doc
+    url: /files/original/14fbe8714e745614fbe8714e783b.doc
 geo:
 id: 45780
 item_type: Oral History

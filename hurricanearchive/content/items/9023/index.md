@@ -20,7 +20,7 @@ files:
     mime: text/x-c++; charset=us-ascii
     original_filename: 05 01 2006 Students record Rita memories.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a362c77ad14fb2a362c7ac9.txt
+    url: /files/original/14fb2a362c77ad14fb2a362c7ac9.txt
 geo:
   address: ''
   lat: 0.0

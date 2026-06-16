@@ -25,7 +25,7 @@ files:
     mime: application/msword
     original_filename: Hurricane_Katrina_dead0e9b80.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6e75b34614fb2a6e75b72c.doc
+    url: /files/original/14fb2a6e75b34614fb2a6e75b72c.doc
 geo:
   address: ''
   lat: 29.5997300943804

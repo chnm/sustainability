@@ -24,12 +24,12 @@ dublin_core:
       text: 'AD: New Orleans After the Deluge, Chapter 7, \"The Bowl Effect, Part I\"'
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbe7a19814fb29cbe7a586.jpg
+  - fullsize: /files/fullsize/14fb29cbe7a19814fb29cbe7a586.jpg
     id: 24012
     mime: image/jpeg
     original_filename: adc07_a5acf8ee03.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbe7a19814fb29cbe7a586.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbe7a19814fb29cbe7a586.jpg
+    thumb: /files/thumbnails/14fb29cbe7a19814fb29cbe7a586.jpg
+    url: /files/original/14fb29cbe7a19814fb29cbe7a586.jpg
 geo:
 id: 32671
 item_type: Hyperlink

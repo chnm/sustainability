@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Jason Brock HK4612856K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7c1377d14fb29d7c13b61.mp3
+    url: /files/original/14fb29d7c1377d14fb29d7c13b61.mp3
 geo:
 id: 26803
 item_type: Oral History

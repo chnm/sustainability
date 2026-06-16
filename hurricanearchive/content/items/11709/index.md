@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Tarhan Derrell Weston.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23d391d814fb2a23d3ab27.htm
+    url: /files/original/14fb2a23d391d814fb2a23d3ab27.htm
 geo:
 id: 11709
 item_type: Oral History

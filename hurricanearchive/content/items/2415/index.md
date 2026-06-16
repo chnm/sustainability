@@ -24,12 +24,12 @@ dublin_core:
       text: Evaluating the Sundown Oil Spill
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66906faf14fb2a66907395.jpg
+  - fullsize: /files/fullsize/14fb2a66906faf14fb2a66907395.jpg
     id: 1907
     mime: image/jpeg
     original_filename: apuscg_HURRICANE_KATR_05C3M_125f154ee6.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66906faf14fb2a66907395.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66906faf14fb2a66907395.jpg
+    thumb: /files/thumbnails/14fb2a66906faf14fb2a66907395.jpg
+    url: /files/original/14fb2a66906faf14fb2a66907395.jpg
 geo:
 id: 2415
 item_type: Still Image

@@ -17,12 +17,12 @@ dublin_core:
       text: Carr Drive North Shore Beach
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca0cbd7a14fb29ca0cc15d.jpg
+  - fullsize: /files/fullsize/14fb29ca0cbd7a14fb29ca0cc15d.jpg
     id: 24268
     mime: image/jpg
     original_filename: 2326960682_29beb8bd0a.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca0cbd7a14fb29ca0cc15d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca0cbd7a14fb29ca0cc15d.jpg
+    thumb: /files/thumbnails/14fb29ca0cbd7a14fb29ca0cc15d.jpg
+    url: /files/original/14fb29ca0cbd7a14fb29ca0cc15d.jpg
 geo:
   address: ''
   lat: 30.22652

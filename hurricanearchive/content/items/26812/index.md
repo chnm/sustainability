@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Thomas HK49128K 00156K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7a4e39614fb29d7a4f023.mp3
+    url: /files/original/14fb29d7a4e39614fb29d7a4f023.mp3
 geo:
 id: 26812
 item_type: Oral History

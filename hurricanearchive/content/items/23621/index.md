@@ -15,12 +15,12 @@ dublin_core:
       text: Katrina3786neworleansS&R.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ee6d02d514fb29ee6d06bb.jpg
+  - fullsize: /files/fullsize/14fb29ee6d02d514fb29ee6d06bb.jpg
     id: 20565
     mime: image/jpeg
     original_filename: Katrina3786neworleansS&R.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ee6d02d514fb29ee6d06bb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ee6d02d514fb29ee6d06bb.jpg
+    thumb: /files/thumbnails/14fb29ee6d02d514fb29ee6d06bb.jpg
+    url: /files/original/14fb29ee6d02d514fb29ee6d06bb.jpg
 geo:
 id: 23621
 item_type: Still Image

@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c27c2bd714fb29c27c33d7.jpg
+  - fullsize: /files/fullsize/14fb29c27c2bd714fb29c27c33d7.jpg
     id: 25061
     mime: image/pjpeg
     original_filename: 053_1b9a9a6ac5.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c27c2bd714fb29c27c33d7.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c27c2bd714fb29c27c33d7.jpg
+    thumb: /files/thumbnails/14fb29c27c2bd714fb29c27c33d7.jpg
+    url: /files/original/14fb29c27c2bd714fb29c27c33d7.jpg
 geo:
   address: 4173 Toulouse St
   lat: 29.9794

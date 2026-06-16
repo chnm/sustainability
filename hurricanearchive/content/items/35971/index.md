@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c5e517e314fb29c5e51bcb.jpg
+  - fullsize: /files/fullsize/14fb29c5e517e314fb29c5e51bcb.jpg
     id: 24707
     mime: image/jpeg
     original_filename: FRIDGE 15_186edd705d.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c5e517e314fb29c5e51bcb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c5e517e314fb29c5e51bcb.jpg
+    thumb: /files/thumbnails/14fb29c5e517e314fb29c5e51bcb.jpg
+    url: /files/original/14fb29c5e517e314fb29c5e51bcb.jpg
 geo:
   address: ''
   lat: 29.72622

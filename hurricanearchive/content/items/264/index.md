@@ -25,7 +25,7 @@ files:
     mime: application/pdf
     original_filename: a_helping_hand_8884be8cdc.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a7060278d14fb2a70602b7a.pdf
+    url: /files/original/14fb2a7060278d14fb2a70602b7a.pdf
 geo:
   address: ''
   lat: 30.376281460780895

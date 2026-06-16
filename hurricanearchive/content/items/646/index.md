@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f457fb614fb2a6f45870c.jpg
+  - fullsize: /files/fullsize/14fb2a6f457fb614fb2a6f45870c.jpg
     id: 484
     mime: image/jpeg
     original_filename: FFMSanctuaryKatrina_0030ab971b.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f457fb614fb2a6f45870c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f457fb614fb2a6f45870c.jpg
+    thumb: /files/thumbnails/14fb2a6f457fb614fb2a6f45870c.jpg
+    url: /files/original/14fb2a6f457fb614fb2a6f45870c.jpg
 geo:
   address: ''
   lat: 29.9427007071823

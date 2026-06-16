@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 102engineers.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0f54fbdf14fb2a0f54ffc4.jpg
+  - fullsize: /files/fullsize/14fb2a0f54fbdf14fb2a0f54ffc4.jpg
     id: 16495
     mime: image/jpeg
     original_filename: Picture 102engineers.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0f54fbdf14fb2a0f54ffc4.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0f54fbdf14fb2a0f54ffc4.jpg
+    thumb: /files/thumbnails/14fb2a0f54fbdf14fb2a0f54ffc4.jpg
+    url: /files/original/14fb2a0f54fbdf14fb2a0f54ffc4.jpg
 geo:
 id: 19542
 item_type: Still Image

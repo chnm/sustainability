@@ -14,12 +14,12 @@ dublin_core:
       text: no place like home
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d24c4b7b14fb29d24c503c.jpg
+  - fullsize: /files/fullsize/14fb29d24c4b7b14fb29d24c503c.jpg
     id: 23422
     mime: image/jpg
     original_filename: 176014148_51858e14a1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d24c4b7b14fb29d24c503c.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d24c4b7b14fb29d24c503c.jpg
+    thumb: /files/thumbnails/14fb29d24c4b7b14fb29d24c503c.jpg
+    url: /files/original/14fb29d24c4b7b14fb29d24c503c.jpg
 geo:
 id: 28570
 item_type: Still Image

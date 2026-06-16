@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f6d4c8214fb2a6f6d500e.jpg
+  - fullsize: /files/fullsize/14fb2a6f6d4c8214fb2a6f6d500e.jpg
     id: 439
     mime: image/jpeg
     original_filename: Hurricane_Katrina_004_86d7273171.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f6d4c8214fb2a6f6d500e.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f6d4c8214fb2a6f6d500e.jpg
+    thumb: /files/thumbnails/14fb2a6f6d4c8214fb2a6f6d500e.jpg
+    url: /files/original/14fb2a6f6d4c8214fb2a6f6d500e.jpg
 geo:
   address: ''
   lat: 30.330212685432702

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: SHN Activities_f194173104.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1897268314fb2a18972a19.doc
+    url: /files/original/14fb2a1897268314fb2a18972a19.doc
 geo:
 id: 14586
 item_type: Document

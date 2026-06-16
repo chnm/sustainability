@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0005 crop.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0872767614fb2a08727a59.jpg
+  - fullsize: /files/fullsize/14fb2a0872767614fb2a08727a59.jpg
     id: 17308
     mime: image/jpeg
     original_filename: DSC 0005 crop.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0872767614fb2a08727a59.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0872767614fb2a08727a59.jpg
+    thumb: /files/thumbnails/14fb2a0872767614fb2a08727a59.jpg
+    url: /files/original/14fb2a0872767614fb2a08727a59.jpg
 geo:
 id: 20355
 item_type: Still Image

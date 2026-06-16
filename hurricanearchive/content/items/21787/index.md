@@ -15,12 +15,12 @@ dublin_core:
       text: katrina 057.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fbbe175d14fb29fbbe1b49.jpg
+  - fullsize: /files/fullsize/14fb29fbbe175d14fb29fbbe1b49.jpg
     id: 18738
     mime: image/jpeg
     original_filename: katrina 057.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fbbe175d14fb29fbbe1b49.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fbbe175d14fb29fbbe1b49.jpg
+    thumb: /files/thumbnails/14fb29fbbe175d14fb29fbbe1b49.jpg
+    url: /files/original/14fb29fbbe175d14fb29fbbe1b49.jpg
 geo:
 id: 21787
 item_type: Still Image

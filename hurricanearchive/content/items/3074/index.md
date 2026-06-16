@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Marceleen Wilson.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e24d11814fb2a5e24d4fe.wav
+    url: /files/original/14fb2a5e24d11814fb2a5e24d4fe.wav
 geo:
 id: 3074
 item_type: Oral History

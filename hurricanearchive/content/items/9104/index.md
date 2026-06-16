@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 19 2005 Visitors told to flee Florida Keys as tropical storm Rita nears.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a358b51d314fb2a358b55bf.txt
+    url: /files/original/14fb2a358b51d314fb2a358b55bf.txt
 geo:
   address: ''
   lat: 0.0

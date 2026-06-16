@@ -15,12 +15,12 @@ dublin_core:
       text: Katrina bateau on St. Charles.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a216a771614fb2a216a7afd.jpg
+  - fullsize: /files/fullsize/14fb2a216a771614fb2a216a7afd.jpg
     id: 11000
     mime: image/jpeg
     original_filename: Katrina bateau on St. Charles.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a216a771614fb2a216a7afd.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a216a771614fb2a216a7afd.jpg
+    thumb: /files/thumbnails/14fb2a216a771614fb2a216a7afd.jpg
+    url: /files/original/14fb2a216a771614fb2a216a7afd.jpg
 geo:
 id: 12856
 item_type: Still Image

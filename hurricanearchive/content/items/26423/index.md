@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d874499b14fb29d8748c47.jpg
+  - fullsize: /files/fullsize/14fb29d874499b14fb29d8748c47.jpg
     id: 22897
     mime: image/pjpeg
     original_filename: Slidell, LA_8711d025fb.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d874499b14fb29d8748c47.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d874499b14fb29d8748c47.jpg
+    thumb: /files/thumbnails/14fb29d874499b14fb29d8748c47.jpg
+    url: /files/original/14fb29d874499b14fb29d8748c47.jpg
 geo:
   address: Moonraker Rd
   lat: 0.0

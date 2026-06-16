@@ -19,13 +19,13 @@ files:
     mime: application/msword
     original_filename: Herrington, Marnie.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870d94cf114fbe870d950d5.doc
+    url: /files/original/14fbe870d94cf114fbe870d950d5.doc
   - fullsize:
     id: 46330
     mime: application/msword
     original_filename: Herrington, Marnie.toc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870db5c3214fbe870db6015.doc
+    url: /files/original/14fbe870db5c3214fbe870db6015.doc
 geo:
 id: 45707
 item_type: Oral History

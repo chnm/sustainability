@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d6632ec914fb29d66332ae.jpg
+  - fullsize: /files/fullsize/14fb29d6632ec914fb29d66332ae.jpg
     id: 23079
     mime: image/jpeg
     original_filename: owlsbaseballteam98_38aa0838d8.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d6632ec914fb29d66332ae.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d6632ec914fb29d66332ae.jpg
+    thumb: /files/thumbnails/14fb29d6632ec914fb29d66332ae.jpg
+    url: /files/original/14fb29d6632ec914fb29d66332ae.jpg
 geo:
 id: 26895
 item_type: Still Image

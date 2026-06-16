@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Howard, Jackie.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870e9d4f614fbe870e9d8dd.doc
+    url: /files/original/14fbe870e9d4f614fbe870e9d8dd.doc
 geo:
 id: 45715
 item_type: Oral History

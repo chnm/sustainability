@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6d6a34b314fb2a6d6a3894.jpg
+  - fullsize: /files/fullsize/14fb2a6d6a34b314fb2a6d6a3894.jpg
     id: 888
     mime: image/jpeg
     original_filename: truck_1_040e3238dc.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6d6a34b314fb2a6d6a3894.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6d6a34b314fb2a6d6a3894.jpg
+    thumb: /files/thumbnails/14fb2a6d6a34b314fb2a6d6a3894.jpg
+    url: /files/original/14fb2a6d6a34b314fb2a6d6a3894.jpg
 geo:
   address: ''
   lat: 31.652811

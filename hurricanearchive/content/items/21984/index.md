@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 315-J2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fa990f0614fb29fa9912eb.jpg
+  - fullsize: /files/fullsize/14fb29fa990f0614fb29fa9912eb.jpg
     id: 18935
     mime: image/jpeg
     original_filename: Picture 315-J2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fa990f0614fb29fa9912eb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fa990f0614fb29fa9912eb.jpg
+    thumb: /files/thumbnails/14fb29fa990f0614fb29fa9912eb.jpg
+    url: /files/original/14fb29fa990f0614fb29fa9912eb.jpg
 geo:
 id: 21984
 item_type: Still Image

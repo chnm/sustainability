@@ -17,12 +17,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c34e698114fb29c34e711f.jpg
+  - fullsize: /files/fullsize/14fb29c34e698114fb29c34e711f.jpg
     id: 24935
     mime: image/jpeg
     original_filename: katrina-eyewall-view-08-29-2005b_b006d28bdb.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c34e698114fb29c34e711f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c34e698114fb29c34e711f.jpg
+    thumb: /files/thumbnails/14fb29c34e698114fb29c34e711f.jpg
+    url: /files/original/14fb29c34e698114fb29c34e711f.jpg
 geo:
 id: 42097
 item_type: Still Image

@@ -15,12 +15,12 @@ dublin_core:
       text: during courtyard3.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a207ce55314fb2a207ce93a.jpg
+  - fullsize: /files/fullsize/14fb2a207ce55314fb2a207ce93a.jpg
     id: 11100
     mime: image/jpeg
     original_filename: during courtyard3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a207ce55314fb2a207ce93a.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a207ce55314fb2a207ce93a.jpg
+    thumb: /files/thumbnails/14fb2a207ce55314fb2a207ce93a.jpg
+    url: /files/original/14fb2a207ce55314fb2a207ce93a.jpg
 geo:
 id: 13090
 item_type: Still Image

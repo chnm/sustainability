@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6e7be4b914fb2a6e7be9ba.jpg
+  - fullsize: /files/fullsize/14fb2a6e7be4b914fb2a6e7be9ba.jpg
     id: 684
     mime: image/jpeg
     original_filename: StMaurice1_e2ad767cd9.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6e7be4b914fb2a6e7be9ba.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6e7be4b914fb2a6e7be9ba.jpg
+    thumb: /files/thumbnails/14fb2a6e7be4b914fb2a6e7be9ba.jpg
+    url: /files/original/14fb2a6e7be4b914fb2a6e7be9ba.jpg
 geo:
   address: ''
   lat: 0.0

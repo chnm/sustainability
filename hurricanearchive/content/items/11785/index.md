@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Cowan Lorraine Rd. Gretch.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a236b35b914fb2a236b51a2.doc
+    url: /files/original/14fb2a236b35b914fb2a236b51a2.doc
 geo:
 id: 11785
 item_type: Document

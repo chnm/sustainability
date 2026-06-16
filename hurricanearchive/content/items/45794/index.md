@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Nail, James (Ronnie) (816).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8715c646c14fbe8715c6889.doc
+    url: /files/original/14fbe8715c646c14fbe8715c6889.doc
 geo:
 id: 45794
 item_type: Oral History

@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Lobert, Ken (826).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87127809c14fbe871278480.doc
+    url: /files/original/14fbe87127809c14fbe871278480.doc
 geo:
 id: 45751
 item_type: Oral History

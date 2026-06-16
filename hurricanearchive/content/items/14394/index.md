@@ -15,12 +15,12 @@ dublin_core:
       text: slide11.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a194d752614fb2a194d790f.jpg
+  - fullsize: /files/fullsize/14fb2a194d752614fb2a194d790f.jpg
     id: 12018
     mime: image/jpeg
     original_filename: slide11.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a194d752614fb2a194d790f.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a194d752614fb2a194d790f.jpg
+    thumb: /files/thumbnails/14fb2a194d752614fb2a194d790f.jpg
+    url: /files/original/14fb2a194d752614fb2a194d790f.jpg
 geo:
 id: 14394
 item_type: Still Image

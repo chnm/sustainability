@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 12 2006 Regionalism key to hurricane plan.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35e48eca14fb2a35e49726.txt
+    url: /files/original/14fb2a35e48eca14fb2a35e49726.txt
 geo:
   address: ''
   lat: 0.0

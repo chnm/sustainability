@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: Lobbying Subcommittee Minutes - June 7, 2006_39f28a905f.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18e97fab14fb2a18e98389.doc
+    url: /files/original/14fb2a18e97fab14fb2a18e98389.doc
 geo:
 id: 14522
 item_type: Document

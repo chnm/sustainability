@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Kyle Lohman.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a241e9fcd14fb2a241ea28c.htm
+    url: /files/original/14fb2a241e9fcd14fb2a241ea28c.htm
 geo:
 id: 11672
 item_type: Oral History

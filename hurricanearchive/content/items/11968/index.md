@@ -15,12 +15,12 @@ dublin_core:
       text: Katrina Pictures 015.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a228531ee14fb2a228543b8.jpg
+  - fullsize: /files/fullsize/14fb2a228531ee14fb2a228543b8.jpg
     id: 10798
     mime: image/jpeg
     original_filename: Katrina Pictures 015.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a228531ee14fb2a228543b8.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a228531ee14fb2a228543b8.jpg
+    thumb: /files/thumbnails/14fb2a228531ee14fb2a228543b8.jpg
+    url: /files/original/14fb2a228531ee14fb2a228543b8.jpg
 geo:
 id: 11968
 item_type: Still Image

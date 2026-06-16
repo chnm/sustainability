@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6e6a05ad14fb2a6e6a11ba.jpg
+  - fullsize: /files/fullsize/14fb2a6e6a05ad14fb2a6e6a11ba.jpg
     id: 700
     mime: image/jpeg
     original_filename: refridge_3af4367544.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6e6a05ad14fb2a6e6a11ba.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6e6a05ad14fb2a6e6a11ba.jpg
+    thumb: /files/thumbnails/14fb2a6e6a05ad14fb2a6e6a11ba.jpg
+    url: /files/original/14fb2a6e6a05ad14fb2a6e6a11ba.jpg
 geo:
   address: ''
   lat: 31.245138

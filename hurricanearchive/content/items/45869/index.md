@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Toney, Amanda.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8720b183714fbe8720b1c15.doc
+    url: /files/original/14fbe8720b183714fbe8720b1c15.doc
 geo:
 id: 45869
 item_type: Oral History

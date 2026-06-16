@@ -23,7 +23,7 @@ files:
     mime: application/octet-stream
     original_filename: Gehman_e731c7a9f0.2006.katrina.epilogue.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d5b8aae214fb29d5b8aec9.doc
+    url: /files/original/14fb29d5b8aae214fb29d5b8aec9.doc
 geo:
   address: 425 Manassas
   lat: 0.0

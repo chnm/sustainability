@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: TheDrive_July06_Release.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a573cf65414fb2a573cfa38.doc
+    url: /files/original/14fb2a573cf65414fb2a573cfa38.doc
 geo:
 id: 4327
 item_type: Document

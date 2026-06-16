@@ -23,7 +23,7 @@ files:
     mime: video/mp4
     original_filename: A Will To Rebuild.mp4
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a574a6d4614fb2a574a7125.mp4
+    url: /files/original/14fb2a574a6d4614fb2a574a7125.mp4
 geo:
 id: 4319
 item_type: Document

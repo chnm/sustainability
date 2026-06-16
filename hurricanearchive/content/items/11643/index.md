@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Gwendolyn Oates.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a246664df14fb2a246668bc.htm
+    url: /files/original/14fb2a246664df14fb2a246668bc.htm
 geo:
 id: 11643
 item_type: Oral History

@@ -21,12 +21,12 @@ dublin_core:
       text: Pontchartrain Drive in Slidell
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9d2318214fb29c9d236dc.jpg
+  - fullsize: /files/fullsize/14fb29c9d2318214fb29c9d236dc.jpg
     id: 24312
     mime: image/jpg
     original_filename: 2326883888_cb837ce333.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9d2318214fb29c9d236dc.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9d2318214fb29c9d236dc.jpg
+    thumb: /files/thumbnails/14fb29c9d2318214fb29c9d236dc.jpg
+    url: /files/original/14fb29c9d2318214fb29c9d236dc.jpg
 geo:
   address: ''
   lat: 30.22586

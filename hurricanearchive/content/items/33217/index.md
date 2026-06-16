@@ -11,12 +11,12 @@ dublin_core:
       text: Attribution-NonCommercial-ShareAlike License (http://creativecommons.org/licenses/by-nc-sa/2.0/)
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb81c0e414fb29cb81d03b.jpg
+  - fullsize: /files/fullsize/14fb29cb81c0e414fb29cb81d03b.jpg
     id: 24067
     mime: image/jpg
     original_filename: 1267587754_153fa170fb.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb81c0e414fb29cb81d03b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb81c0e414fb29cb81d03b.jpg
+    thumb: /files/thumbnails/14fb29cb81c0e414fb29cb81d03b.jpg
+    url: /files/original/14fb29cb81c0e414fb29cb81d03b.jpg
 geo:
 id: 33217
 item_type: Still Image

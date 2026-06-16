@@ -17,7 +17,7 @@ files:
     mime: application/pdf
     original_filename: Join_LSGA!_7f6faebe6d.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18ed9e1414fb2a18eda1fa.pdf
+    url: /files/original/14fb2a18ed9e1414fb2a18eda1fa.pdf
 geo:
 id: 14518
 item_type: Document

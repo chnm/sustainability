@@ -21,12 +21,12 @@ dublin_core:
       text: Night Falls on St. Ferdinand Street
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ccda106914fb29ccda144f.jpg
+  - fullsize: /files/fullsize/14fb29ccda106914fb29ccda144f.jpg
     id: 23789
     mime: image/pjpeg
     original_filename: night st_2100452965. ferd.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ccda106914fb29ccda144f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ccda106914fb29ccda144f.jpg
+    thumb: /files/thumbnails/14fb29ccda106914fb29ccda144f.jpg
+    url: /files/original/14fb29ccda106914fb29ccda144f.jpg
 geo:
   address: St. Ferdinand Street
   lat: 0.0

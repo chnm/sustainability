@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Long Beach 2.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2343ebbf14fb2a2343f11c.doc
+    url: /files/original/14fb2a2343ebbf14fb2a2343f11c.doc
 geo:
 id: 11805
 item_type: Document

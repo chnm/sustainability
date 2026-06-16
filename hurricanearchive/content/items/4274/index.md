@@ -14,12 +14,12 @@ dublin_core:
       text: MirabeauII Apartments
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a574bb94214fb2a574bbd1d.jpg
+  - fullsize: /files/fullsize/14fb2a574bb94214fb2a574bbd1d.jpg
     id: 3588
     mime: image/pjpeg
     original_filename: PICT0018_c327e296d1.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a574bb94214fb2a574bbd1d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a574bb94214fb2a574bbd1d.jpg
+    thumb: /files/thumbnails/14fb2a574bb94214fb2a574bbd1d.jpg
+    url: /files/original/14fb2a574bb94214fb2a574bbd1d.jpg
 geo:
   address: ''
   lat: 30.00564

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: samanthalumpkin.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23b0412414fb2a23b04511.html
+    url: /files/original/14fb2a23b0412414fb2a23b04511.html
 geo:
 id: 11750
 item_type: Oral History

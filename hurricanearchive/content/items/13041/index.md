@@ -15,12 +15,12 @@ dublin_core:
       text: before looking cel tower.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a20e2ea3114fb2a20e2f0a3.jpg
+  - fullsize: /files/fullsize/14fb2a20e2ea3114fb2a20e2f0a3.jpg
     id: 11051
     mime: image/jpeg
     original_filename: before looking cel tower.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a20e2ea3114fb2a20e2f0a3.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a20e2ea3114fb2a20e2f0a3.jpg
+    thumb: /files/thumbnails/14fb2a20e2ea3114fb2a20e2f0a3.jpg
+    url: /files/original/14fb2a20e2ea3114fb2a20e2f0a3.jpg
 geo:
 id: 13041
 item_type: Still Image

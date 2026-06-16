@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29caa34f0e14fb29caa351ad.jpg
+  - fullsize: /files/fullsize/14fb29caa34f0e14fb29caa351ad.jpg
     id: 24182
     mime: image/pjpeg
     original_filename: grandparent_c068d1dc6d.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29caa34f0e14fb29caa351ad.jpg
-    url: https://hurricanearchive.org/files/original/14fb29caa34f0e14fb29caa351ad.jpg
+    thumb: /files/thumbnails/14fb29caa34f0e14fb29caa351ad.jpg
+    url: /files/original/14fb29caa34f0e14fb29caa351ad.jpg
 geo:
   address: ''
   lat: 30.31547

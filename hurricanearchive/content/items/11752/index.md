@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: sesiliegarcia.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23ad9f1d14fb2a23ada302.html
+    url: /files/original/14fb2a23ad9f1d14fb2a23ada302.html
 geo:
 id: 11752
 item_type: Oral History

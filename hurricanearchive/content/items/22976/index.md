@@ -15,12 +15,12 @@ dublin_core:
       text: Talbert 01media.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f258908d14fb29f2589473.jpg
+  - fullsize: /files/fullsize/14fb29f258908d14fb29f2589473.jpg
     id: 19920
     mime: image/jpeg
     original_filename: Talbert 01media.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f258908d14fb29f2589473.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f258908d14fb29f2589473.jpg
+    thumb: /files/thumbnails/14fb29f258908d14fb29f2589473.jpg
+    url: /files/original/14fb29f258908d14fb29f2589473.jpg
 geo:
 id: 22976
 item_type: Still Image

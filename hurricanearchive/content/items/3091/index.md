@@ -15,12 +15,12 @@ dublin_core:
       text: ES Carville, LA (10).JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5e14399914fb2a5e143d8c.jpg
+  - fullsize: /files/fullsize/14fb2a5e14399914fb2a5e143d8c.jpg
     id: 2563
     mime: image/jpeg
     original_filename: ES Carville, LA (10).JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5e14399914fb2a5e143d8c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5e14399914fb2a5e143d8c.jpg
+    thumb: /files/thumbnails/14fb2a5e14399914fb2a5e143d8c.jpg
+    url: /files/original/14fb2a5e14399914fb2a5e143d8c.jpg
 geo:
 id: 3091
 item_type: Still Image

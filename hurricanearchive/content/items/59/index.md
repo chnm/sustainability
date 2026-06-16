@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a713198cf14fb2a7131a633.jpg
+  - fullsize: /files/fullsize/14fb2a713198cf14fb2a7131a633.jpg
     id: 38
     mime: image/jpeg
     original_filename: circlefoodstore_9af3e1a404.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a713198cf14fb2a7131a633.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a713198cf14fb2a7131a633.jpg
+    thumb: /files/thumbnails/14fb2a713198cf14fb2a7131a633.jpg
+    url: /files/original/14fb2a713198cf14fb2a7131a633.jpg
 geo:
   address: ''
   lat: 29.958304

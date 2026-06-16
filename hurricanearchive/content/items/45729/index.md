@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Karliner, Dianna.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870f6cb0214fbe870f6cef1.doc
+    url: /files/original/14fbe870f6cb0214fbe870f6cef1.doc
 geo:
 id: 45729
 item_type: Oral History

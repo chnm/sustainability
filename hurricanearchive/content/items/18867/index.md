@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0084MSriver.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a14d0a73a14fb2a14d0ab1c.jpg
+  - fullsize: /files/fullsize/14fb2a14d0a73a14fb2a14d0ab1c.jpg
     id: 15820
     mime: image/jpeg
     original_filename: DSC 0084MSriver.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a14d0a73a14fb2a14d0ab1c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a14d0a73a14fb2a14d0ab1c.jpg
+    thumb: /files/thumbnails/14fb2a14d0a73a14fb2a14d0ab1c.jpg
+    url: /files/original/14fb2a14d0a73a14fb2a14d0ab1c.jpg
 geo:
 id: 18867
 item_type: Still Image

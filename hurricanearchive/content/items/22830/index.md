@@ -15,12 +15,12 @@ dublin_core:
       text: 789z3809cajundome.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f326808414fb29f326845a.jpg
+  - fullsize: /files/fullsize/14fb29f326808414fb29f326845a.jpg
     id: 19781
     mime: image/jpeg
     original_filename: 789z3809cajundome.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f326808414fb29f326845a.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f326808414fb29f326845a.jpg
+    thumb: /files/thumbnails/14fb29f326808414fb29f326845a.jpg
+    url: /files/original/14fb29f326808414fb29f326845a.jpg
 geo:
 id: 22830
 item_type: Still Image

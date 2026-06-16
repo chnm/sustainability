@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: wade.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a230e679914fb2a230e6bb1.doc
+    url: /files/original/14fb2a230e679914fb2a230e6bb1.doc
 geo:
 id: 11851
 item_type: Document

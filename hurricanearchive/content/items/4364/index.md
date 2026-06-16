@@ -21,12 +21,12 @@ dublin_core:
       text: Katrina
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5723148b14fb2a57231879.jpg
+  - fullsize: /files/fullsize/14fb2a5723148b14fb2a57231879.jpg
     id: 3617
     mime: image/pjpeg
     original_filename: my old bedroom (1)_0dd992d07c
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5723148b14fb2a57231879.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5723148b14fb2a57231879
+    thumb: /files/thumbnails/14fb2a5723148b14fb2a57231879.jpg
+    url: /files/original/14fb2a5723148b14fb2a57231879
 geo:
   address: 3557 Inwood Avenue
   lat: 29.99966

@@ -15,12 +15,12 @@ dublin_core:
       text: P1010019delaware.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f0dcfe1514fb29f0dd01fa.jpg
+  - fullsize: /files/fullsize/14fb29f0dcfe1514fb29f0dd01fa.jpg
     id: 20143
     mime: image/jpeg
     original_filename: P1010019delaware.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f0dcfe1514fb29f0dd01fa.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f0dcfe1514fb29f0dd01fa.jpg
+    thumb: /files/thumbnails/14fb29f0dcfe1514fb29f0dd01fa.jpg
+    url: /files/original/14fb29f0dcfe1514fb29f0dd01fa.jpg
 geo:
 id: 23199
 item_type: Still Image

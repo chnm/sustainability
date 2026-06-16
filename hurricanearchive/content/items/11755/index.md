@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: smith.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23a761c914fb2a23a765ae.html
+    url: /files/original/14fb2a23a761c914fb2a23a765ae.html
 geo:
 id: 11755
 item_type: Oral History

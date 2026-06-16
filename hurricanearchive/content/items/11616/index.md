@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: AlbertFairconnetue.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a24754ab114fb2a24754e96.htm
+    url: /files/original/14fb2a24754ab114fb2a24754e96.htm
 geo:
 id: 11616
 item_type: Oral History

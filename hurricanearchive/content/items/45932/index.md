@@ -29,12 +29,12 @@ dublin_core:
       text: Shell Beach
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/457cb5c16f8ad9bd8d176e4295517fb4.jpg
+  - fullsize: /files/fullsize/457cb5c16f8ad9bd8d176e4295517fb4.jpg
     id: 46546
     mime: image/jpeg
     original_filename: DSC_0021.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/457cb5c16f8ad9bd8d176e4295517fb4.jpg
-    url: https://hurricanearchive.org/files/original/457cb5c16f8ad9bd8d176e4295517fb4.JPG
+    thumb: /files/thumbnails/457cb5c16f8ad9bd8d176e4295517fb4.jpg
+    url: /files/original/457cb5c16f8ad9bd8d176e4295517fb4.JPG
 geo:
   address: 1301 Yscloskey Hwy  St Bernard, LA 70085
   lat: 29.8546767

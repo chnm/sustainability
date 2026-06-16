@@ -15,12 +15,12 @@ dublin_core:
       text: Katrina Pictures 007.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a228b040c14fb2a228b07eb.jpg
+  - fullsize: /files/fullsize/14fb2a228b040c14fb2a228b07eb.jpg
     id: 10790
     mime: image/jpeg
     original_filename: Katrina Pictures 007.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a228b040c14fb2a228b07eb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a228b040c14fb2a228b07eb.jpg
+    thumb: /files/thumbnails/14fb2a228b040c14fb2a228b07eb.jpg
+    url: /files/original/14fb2a228b040c14fb2a228b07eb.jpg
 geo:
 id: 11960
 item_type: Still Image

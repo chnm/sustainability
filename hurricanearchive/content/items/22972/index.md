@@ -15,12 +15,12 @@ dublin_core:
       text: Pat Simon and Matt Clough of WAFBmedia.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f25e02d414fb29f25e06ba.jpg
+  - fullsize: /files/fullsize/14fb29f25e02d414fb29f25e06ba.jpg
     id: 19916
     mime: image/jpeg
     original_filename: Pat Simon and Matt Clough of WAFBmedia.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f25e02d414fb29f25e06ba.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f25e02d414fb29f25e06ba.jpg
+    thumb: /files/thumbnails/14fb29f25e02d414fb29f25e06ba.jpg
+    url: /files/original/14fb29f25e02d414fb29f25e06ba.jpg
 geo:
 id: 22972
 item_type: Still Image

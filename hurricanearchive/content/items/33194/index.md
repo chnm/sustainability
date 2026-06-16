@@ -17,12 +17,12 @@ dublin_core:
       text: Ultimate Display of Power
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cbac6a4614fb29cbac6c7d.jpg
+  - fullsize: /files/fullsize/14fb29cbac6a4614fb29cbac6c7d.jpg
     id: 24044
     mime: image/jpg
     original_filename: 1438010575_baa3534a85.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cbac6a4614fb29cbac6c7d.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cbac6a4614fb29cbac6c7d.jpg
+    thumb: /files/thumbnails/14fb29cbac6a4614fb29cbac6c7d.jpg
+    url: /files/original/14fb29cbac6a4614fb29cbac6c7d.jpg
 geo:
 id: 33194
 item_type: Still Image

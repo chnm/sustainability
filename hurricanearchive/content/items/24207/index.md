@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 0031jeffersonparishS&R.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e9bb916f14fb29e9bb9555.jpg
+  - fullsize: /files/fullsize/14fb29e9bb916f14fb29e9bb9555.jpg
     id: 21151
     mime: image/jpeg
     original_filename: DSC 0031jeffersonparishS&R.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e9bb916f14fb29e9bb9555.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e9bb916f14fb29e9bb9555.jpg
+    thumb: /files/thumbnails/14fb29e9bb916f14fb29e9bb9555.jpg
+    url: /files/original/14fb29e9bb916f14fb29e9bb9555.jpg
 geo:
 id: 24207
 item_type: Still Image

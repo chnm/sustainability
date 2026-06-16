@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: David Shinn HK5312856K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7c7361e14fb29d7c73a03.mp3
+    url: /files/original/14fb29d7c7361e14fb29d7c73a03.mp3
 geo:
 id: 26799
 item_type: Oral History

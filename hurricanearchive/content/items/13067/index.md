@@ -15,12 +15,12 @@ dublin_core:
       text: begin north look2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2096b5ea14fb2a2096b9ce.jpg
+  - fullsize: /files/fullsize/14fb2a2096b5ea14fb2a2096b9ce.jpg
     id: 11077
     mime: image/jpeg
     original_filename: begin north look2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2096b5ea14fb2a2096b9ce.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2096b5ea14fb2a2096b9ce.jpg
+    thumb: /files/thumbnails/14fb2a2096b5ea14fb2a2096b9ce.jpg
+    url: /files/original/14fb2a2096b5ea14fb2a2096b9ce.jpg
 geo:
 id: 13067
 item_type: Still Image

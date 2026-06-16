@@ -18,12 +18,12 @@ dublin_core:
       text: Broad Street Overpass
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2209f15614fb2a2209f53c.jpg
+  - fullsize: /files/fullsize/14fb2a2209f15614fb2a2209f53c.jpg
     id: 10923
     mime: image/jpeg
     original_filename: bag-lady_c2b4b58491.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2209f15614fb2a2209f53c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2209f15614fb2a2209f53c.jpg
+    thumb: /files/thumbnails/14fb2a2209f15614fb2a2209f53c.jpg
+    url: /files/original/14fb2a2209f15614fb2a2209f53c.jpg
 geo:
 id: 12541
 item_type: Still Image

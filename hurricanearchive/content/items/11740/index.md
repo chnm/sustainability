@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: krystletisdale.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23b8776814fb2a23b87a35.html
+    url: /files/original/14fb2a23b8776814fb2a23b87a35.html
 geo:
 id: 11740
 item_type: Oral History

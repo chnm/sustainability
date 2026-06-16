@@ -15,12 +15,12 @@ dublin_core:
       text: matejowsky.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1a81b65214fb2a1a81ba36.jpg
+  - fullsize: /files/fullsize/14fb2a1a81b65214fb2a1a81ba36.jpg
     id: 11863
     mime: image/jpeg
     original_filename: matejowsky.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1a81b65214fb2a1a81ba36.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1a81b65214fb2a1a81ba36.jpg
+    thumb: /files/thumbnails/14fb2a1a81b65214fb2a1a81ba36.jpg
+    url: /files/original/14fb2a1a81b65214fb2a1a81ba36.jpg
 geo:
   address: ''
   lat: 0.0

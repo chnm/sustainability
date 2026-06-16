@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: '[SHN] Membership_Liaison Call tonight11-15-06_5a605ad35e.doc'
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c8bd11814fb2a1c8be568.doc
+    url: /files/original/14fb2a1c8bd11814fb2a1c8be568.doc
 geo:
 id: 13843
 item_type: Document

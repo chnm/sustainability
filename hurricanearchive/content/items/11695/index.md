@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Salvatora Leah Tabory.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23e9812214fb2a23e9850f.htm
+    url: /files/original/14fb2a23e9812214fb2a23e9850f.htm
 geo:
 id: 11695
 item_type: Oral History

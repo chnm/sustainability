@@ -20,7 +20,7 @@ files:
     mime: application/pdf
     original_filename: 01 31 2006 B8.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a4d48446514fb2a4d484f8a.pdf
+    url: /files/original/14fb2a4d48446514fb2a4d484f8a.pdf
 geo:
 id: 6262
 item_type: Document

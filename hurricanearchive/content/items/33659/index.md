@@ -23,7 +23,7 @@ files:
     mime: application/msword
     original_filename: Eighteen Months After Katrina_0357f836be.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29cab5d8ea14fb29cab5dccf.doc
+    url: /files/original/14fb29cab5d8ea14fb29cab5dccf.doc
 geo:
 id: 33659
 item_type: Document

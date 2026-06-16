@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Projects Committee Notes Feb22_80f2524bc5.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1ce3281d14fb2a1ce32c08.doc
+    url: /files/original/14fb2a1ce3281d14fb2a1ce32c08.doc
 geo:
 id: 13725
 item_type: Document

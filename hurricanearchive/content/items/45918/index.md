@@ -14,12 +14,12 @@ dublin_core:
       text: Permanent Katrina X
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/399f15e19879e30bebbb148de1a4a461.jpg
+  - fullsize: /files/fullsize/399f15e19879e30bebbb148de1a4a461.jpg
     id: 46540
     mime: image/jpeg
     original_filename: tina visit 007.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/399f15e19879e30bebbb148de1a4a461.jpg
-    url: https://hurricanearchive.org/files/original/399f15e19879e30bebbb148de1a4a461.jpg
+    thumb: /files/thumbnails/399f15e19879e30bebbb148de1a4a461.jpg
+    url: /files/original/399f15e19879e30bebbb148de1a4a461.jpg
 geo:
   address: ''
   lat: 29.961094176695

@@ -26,7 +26,7 @@ files:
     mime: application/pdf
     original_filename: cypress doors_d8d3470a4f.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29ce636e4814fb29ce636ee2.pdf
+    url: /files/original/14fb29ce636e4814fb29ce636ee2.pdf
 geo:
   address: 2426 Bradish Place
   lat: 0.0

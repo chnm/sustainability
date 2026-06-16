@@ -22,7 +22,7 @@ files:
     mime: application/vnd.ms-powerpoint
     original_filename: Operating Streetcars in_8f4954f615.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c771852014fb29c7718906.ppt
+    url: /files/original/14fb29c771852014fb29c7718906.ppt
 geo:
   address: 7730 marquis st
   lat: 0.0

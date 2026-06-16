@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 24 2006 Rate requests from Allstate merit scrutiny.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35d978e014fb2a35d97cc5.txt
+    url: /files/original/14fb2a35d978e014fb2a35d97cc5.txt
 geo:
   address: ''
   lat: 0.0

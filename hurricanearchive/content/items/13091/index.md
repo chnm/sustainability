@@ -15,12 +15,12 @@ dublin_core:
       text: during late night.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a207afc8614fb2a207b012c.jpg
+  - fullsize: /files/fullsize/14fb2a207afc8614fb2a207b012c.jpg
     id: 11101
     mime: image/jpeg
     original_filename: during late night.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a207afc8614fb2a207b012c.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a207afc8614fb2a207b012c.jpg
+    thumb: /files/thumbnails/14fb2a207afc8614fb2a207b012c.jpg
+    url: /files/original/14fb2a207afc8614fb2a207b012c.jpg
 geo:
 id: 13091
 item_type: Still Image

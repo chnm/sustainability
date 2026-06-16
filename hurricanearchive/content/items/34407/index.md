@@ -20,12 +20,12 @@ dublin_core:
       text: What was Left of Tom & Liz Havrilla\'s Home
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca3028e014fb29ca302cc5.jpg
+  - fullsize: /files/fullsize/14fb29ca3028e014fb29ca302cc5.jpg
     id: 24241
     mime: image/jpg
     original_filename: 2380072077_6cae9b1da8.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca3028e014fb29ca302cc5.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca3028e014fb29ca302cc5.jpg
+    thumb: /files/thumbnails/14fb29ca3028e014fb29ca302cc5.jpg
+    url: /files/original/14fb29ca3028e014fb29ca302cc5.jpg
 geo:
   address: ''
   lat: 30.22437

@@ -17,12 +17,12 @@ dublin_core:
       text: Mr. Bill in New Orleans
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a220373c114fb2a22038678.jpg
+  - fullsize: /files/fullsize/14fb2a220373c114fb2a22038678.jpg
     id: 10926
     mime: image/jpeg
     original_filename: cover_story-4_75191ab65c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a220373c114fb2a22038678.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a220373c114fb2a22038678.jpg
+    thumb: /files/thumbnails/14fb2a220373c114fb2a22038678.jpg
+    url: /files/original/14fb2a220373c114fb2a22038678.jpg
 geo:
   address: ''
   lat: 0.0

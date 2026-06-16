@@ -17,13 +17,13 @@ files:
     mime: audio/mpeg
     original_filename: Williams, Rachael B. 8-29-06 Katrina.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8703eca3a14fbe8703ece1f.mp3
+    url: /files/original/14fbe8703eca3a14fbe8703ece1f.mp3
   - fullsize:
     id: 46206
     mime: application/msword
     original_filename: Williams, Rachael B.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870402fea14fbe8704033d2.doc
+    url: /files/original/14fbe870402fea14fbe8704033d2.doc
 geo:
 id: 45618
 item_type: Oral History

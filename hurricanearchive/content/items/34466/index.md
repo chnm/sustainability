@@ -17,12 +17,12 @@ dublin_core:
       text: katrina slidell (16)
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9e2f3ed14fb29c9e2f7d1.jpg
+  - fullsize: /files/fullsize/14fb29c9e2f3ed14fb29c9e2f7d1.jpg
     id: 24300
     mime: image/jpg
     original_filename: 2326067573_b2cf582a1b.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9e2f3ed14fb29c9e2f7d1.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9e2f3ed14fb29c9e2f7d1.jpg
+    thumb: /files/thumbnails/14fb29c9e2f3ed14fb29c9e2f7d1.jpg
+    url: /files/original/14fb29c9e2f3ed14fb29c9e2f7d1.jpg
 geo:
   address: ''
   lat: 30.20935

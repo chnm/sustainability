@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 29 2006 Theodore Johns Library to reopen.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a35cc6fac14fb2a35cc805e.txt
+    url: /files/original/14fb2a35cc6fac14fb2a35cc805e.txt
 geo:
   address: ''
   lat: 0.0

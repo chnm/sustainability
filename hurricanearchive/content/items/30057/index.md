@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cd5c3bcf14fb29cd5c4280.jpg
+  - fullsize: /files/fullsize/14fb29cd5c3bcf14fb29cd5c4280.jpg
     id: 23774
     mime: image/jpeg
     original_filename: IMG_0209_cf5e0369d4.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cd5c3bcf14fb29cd5c4280.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cd5c3bcf14fb29cd5c4280.jpg
+    thumb: /files/thumbnails/14fb29cd5c3bcf14fb29cd5c4280.jpg
+    url: /files/original/14fb29cd5c3bcf14fb29cd5c4280.jpg
 geo:
 id: 30057
 item_type: Still Image

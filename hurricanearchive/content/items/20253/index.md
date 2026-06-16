@@ -15,12 +15,12 @@ dublin_core:
       text: Copy of 5.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0a6d355b14fb2a0a6d3955.jpg
+  - fullsize: /files/fullsize/14fb2a0a6d355b14fb2a0a6d3955.jpg
     id: 17206
     mime: image/jpeg
     original_filename: Copy of 5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0a6d355b14fb2a0a6d3955.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0a6d355b14fb2a0a6d3955.jpg
+    thumb: /files/thumbnails/14fb2a0a6d355b14fb2a0a6d3955.jpg
+    url: /files/original/14fb2a0a6d355b14fb2a0a6d3955.jpg
 geo:
 id: 20253
 item_type: Still Image

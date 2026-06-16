@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Grimm, Steve.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870cedb4114fbe870cedf2b.doc
+    url: /files/original/14fbe870cedb4114fbe870cedf2b.doc
 geo:
 id: 45699
 item_type: Oral History

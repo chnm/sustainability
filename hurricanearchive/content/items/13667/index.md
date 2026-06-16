@@ -22,7 +22,7 @@ files:
     mime: application/msword
     original_filename: mardigras2006_3cf780a410.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1d26cd8614fb2a1d26d171.doc
+    url: /files/original/14fb2a1d26cd8614fb2a1d26d171.doc
 geo:
   address: ''
   lat: 29.92886

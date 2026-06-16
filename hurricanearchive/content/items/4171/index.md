@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a57503f8514fb2a57504372.jpg
+  - fullsize: /files/fullsize/14fb2a57503f8514fb2a57504372.jpg
     id: 3581
     mime: image/jpeg
     original_filename: house_with_garbage_still_4eee97dec4.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a57503f8514fb2a57504372.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a57503f8514fb2a57504372.jpg
+    thumb: /files/thumbnails/14fb2a57503f8514fb2a57504372.jpg
+    url: /files/original/14fb2a57503f8514fb2a57504372.jpg
 geo:
 id: 4171
 item_type: Still Image

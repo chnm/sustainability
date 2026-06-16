@@ -15,12 +15,12 @@ dublin_core:
       text: giant c end.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a204c287c14fb2a204c2c60.jpg
+  - fullsize: /files/fullsize/14fb2a204c287c14fb2a204c2c60.jpg
     id: 11131
     mime: image/jpeg
     original_filename: giant c end.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a204c287c14fb2a204c2c60.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a204c287c14fb2a204c2c60.jpg
+    thumb: /files/thumbnails/14fb2a204c287c14fb2a204c2c60.jpg
+    url: /files/original/14fb2a204c287c14fb2a204c2c60.jpg
 geo:
 id: 13121
 item_type: Still Image

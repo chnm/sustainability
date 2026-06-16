@@ -17,12 +17,12 @@ dublin_core:
       text: DSC_6983.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d23e957d14fb29d23e9af8.jpg
+  - fullsize: /files/fullsize/14fb29d23e957d14fb29d23e9af8.jpg
     id: 23430
     mime: image/jpg
     original_filename: 163080677_4487fe9360.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d23e957d14fb29d23e9af8.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d23e957d14fb29d23e9af8.jpg
+    thumb: /files/thumbnails/14fb29d23e957d14fb29d23e9af8.jpg
+    url: /files/original/14fb29d23e957d14fb29d23e9af8.jpg
 geo:
 id: 28579
 item_type: Still Image

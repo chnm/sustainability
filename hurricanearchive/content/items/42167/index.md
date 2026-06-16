@@ -14,12 +14,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c30e633214fb29c30e7161.jpg
+  - fullsize: /files/fullsize/14fb29c30e633214fb29c30e7161.jpg
     id: 24965
     mime: image/jpeg
     original_filename: peterinhaiti_842aca88e3.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c30e633214fb29c30e7161.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c30e633214fb29c30e7161.jpg
+    thumb: /files/thumbnails/14fb29c30e633214fb29c30e7161.jpg
+    url: /files/original/14fb29c30e633214fb29c30e7161.jpg
 geo:
   address: ''
   lat: 0.0

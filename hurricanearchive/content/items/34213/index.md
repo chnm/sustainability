@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca6b7b7c14fb29ca6b7f3f.jpg
+  - fullsize: /files/fullsize/14fb29ca6b7b7c14fb29ca6b7f3f.jpg
     id: 24199
     mime: image/pjpeg
     original_filename: 1952_e1f022b354.8.20plt18.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca6b7b7c14fb29ca6b7f3f.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca6b7b7c14fb29ca6b7f3f.jpg
+    thumb: /files/thumbnails/14fb29ca6b7b7c14fb29ca6b7f3f.jpg
+    url: /files/original/14fb29ca6b7b7c14fb29ca6b7f3f.jpg
 geo:
   address: St Roch Avenue
   lat: 29.97657

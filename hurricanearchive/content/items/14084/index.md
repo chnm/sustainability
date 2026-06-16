@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: BG Deering 21Sep05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1bdbfe5714fb2a1bdc023b.wav
+    url: /files/original/14fb2a1bdbfe5714fb2a1bdc023b.wav
 geo:
   address: ''
   lat: 0.0

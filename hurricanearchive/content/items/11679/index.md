@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Micah Sanders.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a240d824514fb2a240d8614.htm
+    url: /files/original/14fb2a240d824514fb2a240d8614.htm
 geo:
 id: 11679
 item_type: Oral History

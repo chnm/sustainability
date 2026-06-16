@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 05 08 2006 Summer events are here, but room is not.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a360c629014fb2a360cbb88.txt
+    url: /files/original/14fb2a360c629014fb2a360cbb88.txt
 geo:
   address: ''
   lat: 0.0

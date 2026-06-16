@@ -14,12 +14,12 @@ dublin_core:
       text: IMG_7494.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb8619ef14fb29cb861dd4.jpg
+  - fullsize: /files/fullsize/14fb29cb8619ef14fb29cb861dd4.jpg
     id: 24064
     mime: image/jpg
     original_filename: 1281643855_9bb2377870.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb8619ef14fb29cb861dd4.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb8619ef14fb29cb861dd4.jpg
+    thumb: /files/thumbnails/14fb29cb8619ef14fb29cb861dd4.jpg
+    url: /files/original/14fb29cb8619ef14fb29cb861dd4.jpg
 geo:
 id: 33214
 item_type: Still Image

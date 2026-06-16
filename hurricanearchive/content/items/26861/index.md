@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d717b58514fb29d717cb77.jpg
+  - fullsize: /files/fullsize/14fb29d717b58514fb29d717cb77.jpg
     id: 23045
     mime: image/jpeg
     original_filename: mrs_8ecfa787a3.bettypolkmoody.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d717b58514fb29d717cb77.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d717b58514fb29d717cb77.jpg
+    thumb: /files/thumbnails/14fb29d717b58514fb29d717cb77.jpg
+    url: /files/original/14fb29d717b58514fb29d717cb77.jpg
 geo:
 id: 26861
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Hollis S, Williams.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a2463f40614fb2a2463f7e0.htm
+    url: /files/original/14fb2a2463f40614fb2a2463f7e0.htm
 geo:
 id: 11646
 item_type: Oral History

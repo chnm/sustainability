@@ -15,12 +15,12 @@ dublin_core:
       text: Picture 007engineers.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a0ff3127c14fb2a0ff3168d.jpg
+  - fullsize: /files/fullsize/14fb2a0ff3127c14fb2a0ff3168d.jpg
     id: 16400
     mime: image/jpeg
     original_filename: Picture 007engineers.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a0ff3127c14fb2a0ff3168d.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a0ff3127c14fb2a0ff3168d.jpg
+    thumb: /files/thumbnails/14fb2a0ff3127c14fb2a0ff3168d.jpg
+    url: /files/original/14fb2a0ff3127c14fb2a0ff3168d.jpg
 geo:
 id: 19447
 item_type: Still Image

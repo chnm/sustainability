@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: Jack Patton.htm
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a245ef4a314fb2a245ef888.htm
+    url: /files/original/14fb2a245ef4a314fb2a245ef888.htm
 geo:
 id: 11649
 item_type: Oral History

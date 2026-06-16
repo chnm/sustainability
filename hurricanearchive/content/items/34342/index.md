@@ -21,12 +21,12 @@ dublin_core:
       text: 1068  Clipper, Iinterior Door Destroyed
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ca47729714fb29ca47767b.jpg
+  - fullsize: /files/fullsize/14fb29ca47729714fb29ca47767b.jpg
     id: 24226
     mime: image/jpg
     original_filename: 2380908388_1ecdafbbe0.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ca47729714fb29ca47767b.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ca47729714fb29ca47767b.jpg
+    thumb: /files/thumbnails/14fb29ca47729714fb29ca47767b.jpg
+    url: /files/original/14fb29ca47729714fb29ca47767b.jpg
 geo:
   address: ''
   lat: 30.22894

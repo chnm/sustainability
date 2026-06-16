@@ -17,7 +17,7 @@ files:
     mime: application/octet-stream
     original_filename: M4J mtg notes 07_12_06[1]_cebab64a98.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a18dd412514fb2a18dd45ab.doc
+    url: /files/original/14fb2a18dd412514fb2a18dd45ab.doc
 geo:
 id: 14555
 item_type: Document

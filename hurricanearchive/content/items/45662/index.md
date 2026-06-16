@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Díaz, Rafael.trs (Spanish).doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87085743414fbe870857823.doc
+    url: /files/original/14fbe87085743414fbe870857823.doc
 geo:
 id: 45662
 item_type: Oral History

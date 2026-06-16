@@ -25,7 +25,7 @@ files:
     mime: application/octet-stream
     original_filename: 9_3105MichaelGuilliotFrom_Kenner_7edbb30caa.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a6fa4fb1f14fb2a6fa4ff0b.mp3
+    url: /files/original/14fb2a6fa4fb1f14fb2a6fa4ff0b.mp3
 geo:
   address: ''
   lat: 35.210811

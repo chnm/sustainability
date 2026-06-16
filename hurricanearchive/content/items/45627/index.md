@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Baldwin, Rita.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe87053386214fbe870533c42.doc
+    url: /files/original/14fbe87053386214fbe870533c42.doc
 geo:
 id: 45627
 item_type: Oral History

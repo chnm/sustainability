@@ -23,7 +23,7 @@ files:
     mime: audio/mpeg
     original_filename: Jim Schroeder HK41156K.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d7bb9c0b14fb29d7bb9ff0.mp3
+    url: /files/original/14fb29d7bb9c0b14fb29d7bb9ff0.mp3
 geo:
 id: 26804
 item_type: Oral History

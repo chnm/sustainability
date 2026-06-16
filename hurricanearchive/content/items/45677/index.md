@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Gautier-Dugger, Aimee.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870b460d114fbe870b464b7.doc
+    url: /files/original/14fbe870b460d114fbe870b464b7.doc
 geo:
 id: 45677
 item_type: Oral History

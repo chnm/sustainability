@@ -15,12 +15,12 @@ dublin_core:
       text: 162 gas station.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a1fa8d0c714fb2a1fa8d8d5.jpg
+  - fullsize: /files/fullsize/14fb2a1fa8d0c714fb2a1fa8d8d5.jpg
     id: 11180
     mime: image/jpeg
     original_filename: 162 gas station.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a1fa8d0c714fb2a1fa8d8d5.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a1fa8d0c714fb2a1fa8d8d5.jpg
+    thumb: /files/thumbnails/14fb2a1fa8d0c714fb2a1fa8d8d5.jpg
+    url: /files/original/14fb2a1fa8d0c714fb2a1fa8d8d5.jpg
 geo:
 id: 13170
 item_type: Still Image

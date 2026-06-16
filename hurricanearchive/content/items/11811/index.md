@@ -20,7 +20,7 @@ files:
     mime: text/rtf
     original_filename: Matos Kiln OS Waveland.rtf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a233ca77a14fb2a233cab55.rtf
+    url: /files/original/14fb2a233ca77a14fb2a233cab55.rtf
 geo:
 id: 11811
 item_type: Document

@@ -18,12 +18,12 @@ dublin_core:
       text: Kitchen
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2212347714fb2a22123865.jpg
+  - fullsize: /files/fullsize/14fb2a2212347714fb2a22123865.jpg
     id: 10916
     mime: image/jpeg
     original_filename: kitchen_6b80d3c08c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2212347714fb2a22123865.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2212347714fb2a22123865.jpg
+    thumb: /files/thumbnails/14fb2a2212347714fb2a22123865.jpg
+    url: /files/original/14fb2a2212347714fb2a22123865.jpg
 geo:
   address: ''
   lat: 29.95657

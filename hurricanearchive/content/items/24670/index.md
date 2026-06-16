@@ -15,12 +15,12 @@ dublin_core:
       text: 101MSD-DSC00121 DSC00121cameronpresvisit.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29e5bc79d514fb29e5bc7dbb.jpg
+  - fullsize: /files/fullsize/14fb29e5bc79d514fb29e5bc7dbb.jpg
     id: 21614
     mime: image/jpeg
     original_filename: 101MSD-DSC00121 DSC00121cameronpresvisit.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29e5bc79d514fb29e5bc7dbb.jpg
-    url: https://hurricanearchive.org/files/original/14fb29e5bc79d514fb29e5bc7dbb.jpg
+    thumb: /files/thumbnails/14fb29e5bc79d514fb29e5bc7dbb.jpg
+    url: /files/original/14fb29e5bc79d514fb29e5bc7dbb.jpg
 geo:
 id: 24670
 item_type: Still Image

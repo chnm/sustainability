@@ -18,12 +18,12 @@ dublin_core:
       text: 20050901_MG_7957.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a66578fde14fb2a66579382.jpg
+  - fullsize: /files/fullsize/14fb2a66578fde14fb2a66579382.jpg
     id: 1937
     mime: image/jpeg
     original_filename: 20050901_MG_7957.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a66578fde14fb2a66579382.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a66578fde14fb2a66579382.jpg
+    thumb: /files/thumbnails/14fb2a66578fde14fb2a66579382.jpg
+    url: /files/original/14fb2a66578fde14fb2a66579382.jpg
 geo:
 id: 2455
 item_type: Still Image

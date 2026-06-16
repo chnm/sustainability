@@ -15,12 +15,12 @@ dublin_core:
       text: DSC 1590hyattneworleansS&R.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29ee96517a14fb29ee965562.jpg
+  - fullsize: /files/fullsize/14fb29ee96517a14fb29ee965562.jpg
     id: 20534
     mime: image/jpeg
     original_filename: DSC 1590hyattneworleansS&R.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29ee96517a14fb29ee965562.jpg
-    url: https://hurricanearchive.org/files/original/14fb29ee96517a14fb29ee965562.jpg
+    thumb: /files/thumbnails/14fb29ee96517a14fb29ee965562.jpg
+    url: /files/original/14fb29ee96517a14fb29ee965562.jpg
 geo:
 id: 23590
 item_type: Still Image

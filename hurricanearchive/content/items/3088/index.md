@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Timothy R Cochran.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e16eb9914fb2a5e16ecdb.wav
+    url: /files/original/14fb2a5e16eb9914fb2a5e16ecdb.wav
 geo:
 id: 3088
 item_type: Oral History

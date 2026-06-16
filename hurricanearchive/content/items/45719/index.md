@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: James, Kathryn Anne.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870f014a014fbe870f0187e.doc
+    url: /files/original/14fbe870f014a014fbe870f0187e.doc
 geo:
 id: 45719
 item_type: Oral History

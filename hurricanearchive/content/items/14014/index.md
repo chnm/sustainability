@@ -20,7 +20,7 @@ files:
     mime: audio/x-wav
     original_filename: 1LT Timothy Cleighton 8OCT05.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c77de1714fb2a1c77e1fb.wav
+    url: /files/original/14fb2a1c77de1714fb2a1c77e1fb.wav
 geo:
   address: ''
   lat: 0.0

@@ -14,12 +14,12 @@ dublin_core:
       text: 9th Ward 2.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d5ac845f14fb29d5ac8bff.jpg
+  - fullsize: /files/fullsize/14fb29d5ac845f14fb29d5ac8bff.jpg
     id: 23149
     mime: image/jpeg
     original_filename: 9th Ward 2.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d5ac845f14fb29d5ac8bff.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d5ac845f14fb29d5ac8bff.jpg
+    thumb: /files/thumbnails/14fb29d5ac845f14fb29d5ac8bff.jpg
+    url: /files/original/14fb29d5ac845f14fb29d5ac8bff.jpg
 geo:
 id: 27243
 item_type: Still Image

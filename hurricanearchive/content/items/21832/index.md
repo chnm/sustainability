@@ -15,12 +15,12 @@ dublin_core:
       text: 30sep05cnnmapleveebreaks.gif
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29fb6f21c314fb29fb6f297e.jpg
+  - fullsize: /files/fullsize/14fb29fb6f21c314fb29fb6f297e.jpg
     id: 18783
     mime: image/gif
     original_filename: 30sep05cnnmapleveebreaks.gif
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29fb6f21c314fb29fb6f297e.jpg
-    url: https://hurricanearchive.org/files/original/14fb29fb6f21c314fb29fb6f297e.jpg
+    thumb: /files/thumbnails/14fb29fb6f21c314fb29fb6f297e.jpg
+    url: /files/original/14fb29fb6f21c314fb29fb6f297e.jpg
 geo:
 id: 21832
 item_type: Still Image

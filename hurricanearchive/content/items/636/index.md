@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f4e99fb14fb2a6f4e9dd1.jpg
+  - fullsize: /files/fullsize/14fb2a6f4e99fb14fb2a6f4e9dd1.jpg
     id: 474
     mime: image/png
     original_filename: TVE_newscrew_covering_Katrina_9a1de1cef6.png
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f4e99fb14fb2a6f4e9dd1.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f4e99fb14fb2a6f4e9dd1.jpg
+    thumb: /files/thumbnails/14fb2a6f4e99fb14fb2a6f4e9dd1.jpg
+    url: /files/original/14fb2a6f4e99fb14fb2a6f4e9dd1.jpg
 geo:
   address: ''
   lat: 30.342352

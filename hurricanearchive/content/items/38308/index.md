@@ -19,7 +19,7 @@ files:
     mime: application/vnd.ms-powerpoint
     original_filename: carlos marcello_28eb93ebfb.ppt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c51927c114fb29c5192ba6.ppt
+    url: /files/original/14fb29c51927c114fb29c5192ba6.ppt
 geo:
   address: ''
   lat: 0.0

@@ -21,19 +21,19 @@ files:
     mime: application/msword
     original_filename: shn-exitmemo_laila_3a13a21b68.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbe4737814fb29dbe47755.doc
+    url: /files/original/14fb29dbe4737814fb29dbe47755.doc
   - fullsize:
     id: 22589
     mime: application/msword
     original_filename: Student Hurricane Network Winter Break Evaluation FINAL_8a46655536.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbd5fc3114fb29dbd602e0.doc
+    url: /files/original/14fb29dbd5fc3114fb29dbd602e0.doc
   - fullsize:
     id: 22590
     mime: application/msword
     original_filename: Winter Break Evaluations Report Draft_a576e45fc3.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbd4ab3e14fb29dbd4af22.doc
+    url: /files/original/14fb29dbd4ab3e14fb29dbd4af22.doc
 geo:
 id: 14602
 item_type: Document

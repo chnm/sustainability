@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Student Trips Conference Call_10_25_2006_911f143f2f.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a1c96809014fb2a1c968474.doc
+    url: /files/original/14fb2a1c96809014fb2a1c968474.doc
 geo:
 id: 13838
 item_type: Document

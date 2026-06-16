@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: jamipitts.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23be697114fb2a23be6d56.html
+    url: /files/original/14fb2a23be697114fb2a23be6d56.html
 geo:
 id: 11730
 item_type: Oral History

@@ -17,31 +17,31 @@ files:
     mime: audio/mpeg
     original_filename: Broadus, Jessica 10-27-05 Side 1.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ef4a89514fbe86ef4ac7b.mp3
+    url: /files/original/14fbe86ef4a89514fbe86ef4ac7b.mp3
   - fullsize:
     id: 45998
     mime: audio/mpeg
     original_filename: Broadus, Jessica 10-27-05 Side 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ef8462d14fbe86ef84a13.mp3
+    url: /files/original/14fbe86ef8462d14fbe86ef84a13.mp3
   - fullsize:
     id: 45999
     mime: audio/mpeg
     original_filename: Broadus, Jessica.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ef8fdbc14fbe86ef901a2.mp3
+    url: /files/original/14fbe86ef8fdbc14fbe86ef901a2.mp3
   - fullsize:
     id: 46000
     mime: application/msword
     original_filename: Broadus, Jessica.ms.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86ef9a99414fbe86ef9ad79.doc
+    url: /files/original/14fbe86ef9a99414fbe86ef9ad79.doc
   - fullsize:
     id: 46001
     mime: application/msword
     original_filename: Broadus, Jessica.toc.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86efa68f414fbe86efa6cda.doc
+    url: /files/original/14fbe86efa68f414fbe86efa6cda.doc
 geo:
 id: 45550
 item_type: Oral History

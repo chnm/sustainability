@@ -20,7 +20,7 @@ files:
     mime: text/plain; charset=us-ascii
     original_filename: 09 20 2005 Rita has eye set on Texas Gulf Coast.txt
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a3589d70114fb2a3589dae7.txt
+    url: /files/original/14fb2a3589d70114fb2a3589dae7.txt
 geo:
   address: ''
   lat: 0.0

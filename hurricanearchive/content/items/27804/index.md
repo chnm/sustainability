@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: JTF-K Photo Chron_Huber_05_69b2eb99a9.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29d2b588f514fb29d2b58ccf.pdf
+    url: /files/original/14fb29d2b588f514fb29d2b58ccf.pdf
 geo:
 id: 27804
 item_type: Document

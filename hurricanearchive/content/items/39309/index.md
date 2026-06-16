@@ -22,7 +22,7 @@ files:
     mime: application/octet-stream
     original_filename: Krewe of Endymion_bd4db1bad5.docx
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c510cf9114fb29c510d378.docx
+    url: /files/original/14fb29c510cf9114fb29c510d378.docx
 geo:
 id: 39309
 item_type: Document

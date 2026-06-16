@@ -14,12 +14,12 @@ dublin_core:
       text: IMG_7493.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cb96670e14fb29cb966af3.jpg
+  - fullsize: /files/fullsize/14fb29cb96670e14fb29cb966af3.jpg
     id: 24053
     mime: image/jpg
     original_filename: 1281642249_416f55d20c.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cb96670e14fb29cb966af3.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cb96670e14fb29cb966af3.jpg
+    thumb: /files/thumbnails/14fb29cb96670e14fb29cb966af3.jpg
+    url: /files/original/14fb29cb96670e14fb29cb966af3.jpg
 geo:
 id: 33203
 item_type: Still Image

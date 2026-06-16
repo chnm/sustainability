@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a6f5dd5a514fb2a6f5dd98b.jpg
+  - fullsize: /files/fullsize/14fb2a6f5dd5a514fb2a6f5dd98b.jpg
     id: 453
     mime: image/jpeg
     original_filename: ShireAptOct16_2_2_156b2d55b5.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a6f5dd5a514fb2a6f5dd98b.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a6f5dd5a514fb2a6f5dd98b.jpg
+    thumb: /files/thumbnails/14fb2a6f5dd5a514fb2a6f5dd98b.jpg
+    url: /files/original/14fb2a6f5dd5a514fb2a6f5dd98b.jpg
 geo:
   address: ''
   lat: 30.148461

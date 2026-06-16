@@ -23,7 +23,7 @@ files:
     mime: video/mp4
     original_filename: KrewDuWho.mp4
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a574963ab14fb2a57496791.mp4
+    url: /files/original/14fb2a574963ab14fb2a57496791.mp4
 geo:
 id: 4320
 item_type: Moving Image

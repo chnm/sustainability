@@ -19,7 +19,7 @@ files:
     mime: application/pdf
     original_filename: medicalcare_c93f9ef829.poor.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a248048c714fb2a24804cee.pdf
+    url: /files/original/14fb2a248048c714fb2a24804cee.pdf
 geo:
 id: 11510
 item_type: Document

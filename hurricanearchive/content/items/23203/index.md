@@ -15,12 +15,12 @@ dublin_core:
       text: P1010023delaware.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29f0ce52c914fb29f0ce56ac.jpg
+  - fullsize: /files/fullsize/14fb29f0ce52c914fb29f0ce56ac.jpg
     id: 20147
     mime: image/jpeg
     original_filename: P1010023delaware.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29f0ce52c914fb29f0ce56ac.jpg
-    url: https://hurricanearchive.org/files/original/14fb29f0ce52c914fb29f0ce56ac.jpg
+    thumb: /files/thumbnails/14fb29f0ce52c914fb29f0ce56ac.jpg
+    url: /files/original/14fb29f0ce52c914fb29f0ce56ac.jpg
 geo:
 id: 23203
 item_type: Still Image

@@ -20,7 +20,7 @@ files:
     mime: application/msword
     original_filename: Mathis.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a233eed5e14fb2a233ef17a.doc
+    url: /files/original/14fb2a233eed5e14fb2a233ef17a.doc
 geo:
 id: 11808
 item_type: Document

@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a18194cbc14fb2a181950a3.jpg
+  - fullsize: /files/fullsize/14fb2a18194cbc14fb2a181950a3.jpg
     id: 12158
     mime: image/jpeg
     original_filename: GoodShepherd_CarlRobinson_02_42f8160b9d.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a18194cbc14fb2a181950a3.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a18194cbc14fb2a181950a3.jpg
+    thumb: /files/thumbnails/14fb2a18194cbc14fb2a181950a3.jpg
+    url: /files/original/14fb2a18194cbc14fb2a181950a3.jpg
 geo:
 id: 14698
 item_type: Still Image

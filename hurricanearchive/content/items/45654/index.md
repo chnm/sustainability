@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Copy of Zitzmann, Richard and Barbara (part 1).dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8707ea02a14fbe8707ea40c.doc
+    url: /files/original/14fbe8707ea02a14fbe8707ea40c.doc
 geo:
 id: 45654
 item_type: Oral History

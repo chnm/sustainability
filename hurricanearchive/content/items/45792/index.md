@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Morse, Reilly.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe8715b08c614fbe8715b0cac.doc
+    url: /files/original/14fbe8715b08c614fbe8715b0cac.doc
 geo:
 id: 45792
 item_type: Oral History

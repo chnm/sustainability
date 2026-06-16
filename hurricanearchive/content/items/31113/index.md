@@ -21,12 +21,12 @@ dublin_core:
       text: Telephone Pole Sign Honoring Helen Hill
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29cc3e051114fb29cc3e08f6.jpg
+  - fullsize: /files/fullsize/14fb29cc3e051114fb29cc3e08f6.jpg
     id: 23929
     mime: image/jpeg
     original_filename: Hurricane Hearts027_5959bc58bd.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29cc3e051114fb29cc3e08f6.jpg
-    url: https://hurricanearchive.org/files/original/14fb29cc3e051114fb29cc3e08f6.jpg
+    thumb: /files/thumbnails/14fb29cc3e051114fb29cc3e08f6.jpg
+    url: /files/original/14fb29cc3e051114fb29cc3e08f6.jpg
 geo:
   address: 2444 N. Rampart St
   lat: 0.0

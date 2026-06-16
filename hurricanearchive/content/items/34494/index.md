@@ -21,12 +21,12 @@ dublin_core:
       text: Dan\'s Favorite Photo of Jackson Square
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29c9b28d1f14fb29c9b29105.jpg
+  - fullsize: /files/fullsize/14fb29c9b28d1f14fb29c9b29105.jpg
     id: 24328
     mime: image/jpg
     original_filename: 2310193619_59ae134427.
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29c9b28d1f14fb29c9b29105.jpg
-    url: https://hurricanearchive.org/files/original/14fb29c9b28d1f14fb29c9b29105.jpg
+    thumb: /files/thumbnails/14fb29c9b28d1f14fb29c9b29105.jpg
+    url: /files/original/14fb29c9b28d1f14fb29c9b29105.jpg
 geo:
 id: 34494
 item_type: Still Image

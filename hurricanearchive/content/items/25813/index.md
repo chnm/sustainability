@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29dc0cd25114fb29dc0cd9c9.jpg
+  - fullsize: /files/fullsize/14fb29dc0cd25114fb29dc0cd9c9.jpg
     id: 22573
     mime: image/jpeg
     original_filename: DotBenge-paella_c77bc0fe12.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29dc0cd25114fb29dc0cd9c9.jpg
-    url: https://hurricanearchive.org/files/original/14fb29dc0cd25114fb29dc0cd9c9.jpg
+    thumb: /files/thumbnails/14fb29dc0cd25114fb29dc0cd9c9.jpg
+    url: /files/original/14fb29dc0cd25114fb29dc0cd9c9.jpg
 geo:
 id: 25813
 item_type: Still Image

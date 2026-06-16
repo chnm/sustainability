@@ -20,7 +20,7 @@ files:
     mime: text/html
     original_filename: kentphillips.html
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a23bb44e814fb2a23bb48cc.html
+    url: /files/original/14fb2a23bb44e814fb2a23bb48cc.html
 geo:
 id: 11736
 item_type: Oral History

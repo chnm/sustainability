@@ -15,12 +15,12 @@ dublin_core:
       text: Yacht club 10-29-2.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a2157341c14fb2a21573843.jpg
+  - fullsize: /files/fullsize/14fb2a2157341c14fb2a21573843.jpg
     id: 11013
     mime: image/jpeg
     original_filename: Yacht club 10-29-2.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a2157341c14fb2a21573843.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a2157341c14fb2a21573843.jpg
+    thumb: /files/thumbnails/14fb2a2157341c14fb2a21573843.jpg
+    url: /files/original/14fb2a2157341c14fb2a21573843.jpg
 geo:
 id: 12869
 item_type: Still Image

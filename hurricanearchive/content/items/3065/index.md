@@ -23,7 +23,7 @@ files:
     mime: audio/x-wav
     original_filename: Bales, David.wav
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a5e41dd7f14fb2a5e41ec84.wav
+    url: /files/original/14fb2a5e41dd7f14fb2a5e41ec84.wav
 geo:
 id: 3065
 item_type: Oral History

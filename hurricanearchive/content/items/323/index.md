@@ -20,12 +20,12 @@ dublin_core:
       text: Online Image Contribution, Hurricane Digital Memory Bank
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a703b615414fb2a703b6539.jpg
+  - fullsize: /files/fullsize/14fb2a703b615414fb2a703b6539.jpg
     id: 228
     mime: image/jpeg
     original_filename: 032_dance_stop_12e9642641.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a703b615414fb2a703b6539.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a703b615414fb2a703b6539.jpg
+    thumb: /files/thumbnails/14fb2a703b615414fb2a703b6539.jpg
+    url: /files/original/14fb2a703b615414fb2a703b6539.jpg
 geo:
   address: ''
   lat: 30.651656

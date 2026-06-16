@@ -17,19 +17,19 @@ files:
     mime: audio/mpeg
     original_filename: Farish, Christine 8-14-07 Side 1.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86faba50d14fbe86faba8f3.mp3
+    url: /files/original/14fbe86faba50d14fbe86faba8f3.mp3
   - fullsize:
     id: 46133
     mime: audio/mpeg
     original_filename: Farish, Christine 8-14-07 Side 2.mp3
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86fac58bd14fbe86fac5c92.mp3
+    url: /files/original/14fbe86fac58bd14fbe86fac5c92.mp3
   - fullsize:
     id: 46134
     mime: application/msword
     original_filename: Farish, Christine.dft.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe86fad336114fbe86fad3747.doc
+    url: /files/original/14fbe86fad336114fbe86fad3747.doc
 geo:
 id: 45594
 item_type: Oral History

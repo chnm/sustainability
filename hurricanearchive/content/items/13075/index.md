@@ -15,12 +15,12 @@ dublin_core:
       text: collapsed1.jpg
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a208e538614fb2a208e63fb.jpg
+  - fullsize: /files/fullsize/14fb2a208e538614fb2a208e63fb.jpg
     id: 11085
     mime: image/jpeg
     original_filename: collapsed1.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a208e538614fb2a208e63fb.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a208e538614fb2a208e63fb.jpg
+    thumb: /files/thumbnails/14fb2a208e538614fb2a208e63fb.jpg
+    url: /files/original/14fb2a208e538614fb2a208e63fb.jpg
 geo:
 id: 13075
 item_type: Still Image

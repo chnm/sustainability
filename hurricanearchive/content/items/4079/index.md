@@ -18,12 +18,12 @@ dublin_core:
       text: IMG_0046.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5804d00014fb2a5804e5fa.jpg
+  - fullsize: /files/fullsize/14fb2a5804d00014fb2a5804e5fa.jpg
     id: 3490
     mime: image/jpeg
     original_filename: Waiting For The President
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5804d00014fb2a5804e5fa.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5804d00014fb2a5804e5fa.jpg
+    thumb: /files/thumbnails/14fb2a5804d00014fb2a5804e5fa.jpg
+    url: /files/original/14fb2a5804d00014fb2a5804e5fa.jpg
 geo:
 id: 4079
 item_type: Still Image

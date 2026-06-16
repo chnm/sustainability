@@ -23,7 +23,7 @@ files:
     mime: application/pdf
     original_filename: Hilgartner, OverflowandContainment_555be04f0e.pdf
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29dbbd6f2d14fb29dbbdcb59.pdf
+    url: /files/original/14fb29dbbd6f2d14fb29dbbdcb59.pdf
 geo:
 id: 25932
 item_type: Document

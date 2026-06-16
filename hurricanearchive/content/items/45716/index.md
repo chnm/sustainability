@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: Hudson, Carol M.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870eae27114fbe870eae660.doc
+    url: /files/original/14fbe870eae27114fbe870eae660.doc
 geo:
 id: 45716
 item_type: Oral History

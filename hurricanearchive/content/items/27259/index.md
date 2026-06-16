@@ -14,12 +14,12 @@ dublin_core:
       text: Lakeview 7.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb29d599ed7f14fb29d599f1aa.jpg
+  - fullsize: /files/fullsize/14fb29d599ed7f14fb29d599f1aa.jpg
     id: 23165
     mime: image/jpeg
     original_filename: Lakeview 7.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb29d599ed7f14fb29d599f1aa.jpg
-    url: https://hurricanearchive.org/files/original/14fb29d599ed7f14fb29d599f1aa.jpg
+    thumb: /files/thumbnails/14fb29d599ed7f14fb29d599f1aa.jpg
+    url: /files/original/14fb29d599ed7f14fb29d599f1aa.jpg
 geo:
 id: 27259
 item_type: Still Image

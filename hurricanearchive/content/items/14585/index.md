@@ -17,7 +17,7 @@ files:
     mime: application/msword
     original_filename: sample logos_b0cd951998.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb2a189ac4bf14fb2a189ac9d2.doc
+    url: /files/original/14fb2a189ac4bf14fb2a189ac9d2.doc
 geo:
 id: 14585
 item_type: Document

@@ -15,12 +15,12 @@ dublin_core:
       text: MVC-011S.JPG
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a5ff52de514fb2a5ff531ca.jpg
+  - fullsize: /files/fullsize/14fb2a5ff52de514fb2a5ff531ca.jpg
     id: 2302
     mime: image/jpeg
     original_filename: MVC-011S.JPG
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a5ff52de514fb2a5ff531ca.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a5ff52de514fb2a5ff531ca.jpg
+    thumb: /files/thumbnails/14fb2a5ff52de514fb2a5ff531ca.jpg
+    url: /files/original/14fb2a5ff52de514fb2a5ff531ca.jpg
 geo:
 id: 2820
 item_type: Still Image

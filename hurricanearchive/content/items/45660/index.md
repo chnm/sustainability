@@ -17,7 +17,7 @@ files:
     mime: text/rtf
     original_filename: Cuevas, Ellis.trs.doc
     thumb:
-    url: https://hurricanearchive.org/files/original/14fbe870833de514fbe8708341ce.doc
+    url: /files/original/14fbe870833de514fbe8708341ce.doc
 geo:
 id: 45660
 item_type: Oral History

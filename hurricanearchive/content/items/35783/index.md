@@ -22,7 +22,7 @@ files:
     mime: application/octet-stream
     original_filename: 9thward_d7ac15fe33.dairy.RiemerFamily.pps
     thumb:
-    url: https://hurricanearchive.org/files/original/14fb29c5e8b19814fb29c5e8b57e.pps
+    url: /files/original/14fb29c5e8b19814fb29c5e8b57e.pps
 geo:
   address: Jourdan Avenue
   lat: 44.76137

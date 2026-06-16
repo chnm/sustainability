@@ -15,12 +15,12 @@ dublin_core:
       text: eng
 featured: false
 files:
-  - fullsize: https://hurricanearchive.org/files/fullsize/14fb2a172b09b114fb2a172b0d95.jpg
+  - fullsize: /files/fullsize/14fb2a172b09b114fb2a172b0d95.jpg
     id: 12259
     mime: image/jpeg
     original_filename: BetsyPlay04 (5)-4_c0cf99058f.jpg
-    thumb: https://hurricanearchive.org/files/thumbnails/14fb2a172b09b114fb2a172b0d95.jpg
-    url: https://hurricanearchive.org/files/original/14fb2a172b09b114fb2a172b0d95.jpg
+    thumb: /files/thumbnails/14fb2a172b09b114fb2a172b0d95.jpg
+    url: /files/original/14fb2a172b09b114fb2a172b0d95.jpg
 geo:
 id: 15099
 item_type: Still Image

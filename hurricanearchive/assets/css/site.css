@@ -17,19 +17,35 @@
 
 /* Archived-copy notice banner. Structure adapted from eec.dev.chnm.gmu.edu;
    recolored to the hurricane palette: navy link blue (#369) with a sage-green
-   (#c6d6c2) nav-accent border and off-white (#f7f7f7) panel text. */
+   (#c6d6c2) nav-accent border and off-white (#f7f7f7) panel text.
+   The bar is full-bleed across the viewport (breaking out of the 1066px body
+   column); its content stays aligned to that column via the __inner wrapper. */
+/* The 100vw full-bleed banner can poke ~1 scrollbar-width past the content box
+   on platforms with classic (non-overlay) scrollbars. Clip it at the root.
+   overflow-x: clip (not hidden) does not form a scroll container, so the
+   banner's position: sticky keeps working. */
+html { overflow-x: clip; }
 .hdmb-archive-banner {
-	font: 12px Verdana, Arial, Helvetica, sans-serif;
-	display: flex;
-	align-items: center;
+	box-sizing: border-box;
+	width: 100vw;
+	margin-left: calc(50% - 50vw);
+	margin-right: calc(50% - 50vw);
 	background-color: #336699;
 	color: #f7f7f7;
-	padding: 8px 12px;
 	border-bottom: 3px solid #c6d6c2;
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
 	line-height: 1.5;
 	position: sticky;
 	top: 0;
 	z-index: 9999;
+}
+.hdmb-archive-banner__inner {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	max-width: 1066px;
+	margin: 0 auto;
+	padding: 8px 12px;
 }
 .hdmb-archive-banner__logo {
 	display: inline-block;

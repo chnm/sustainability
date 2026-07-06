@@ -43,6 +43,27 @@ Omeka or on the original site. The correct `images:` list must be *derived* from
 reel structure + `page_start`. This is a local computation — no API, VPN, or DB
 dump required.
 
+### `media_map.json` accuracy (verified)
+
+The whole approach depends on `media_map.json` listing each reel's files in
+correct **page order** with complete **coverage**. `media_map.json` is built by
+[`build_media_map.py`](../../../scripts/build_media_map.py), which groups the
+global media catalog by `item_id`, preserving catalog order. Verified against
+live Omeka:
+
+- **Order** matches each reel's canonical `o:media` order (which is ascending
+  media id). Confirmed exactly on reel 12415 (3 files) and reel 24470 (534
+  files; positions 0 / 267 / 533 aligned, media ids contiguous 138281–138814).
+- **Coverage** matches the reel's actual attached media count in 50/50 sampled
+  reels spread across the id range.
+- A reel's declared `bibo:numPages` can **overstate** the files that actually
+  exist (e.g. reel 16966 declares 11 pages but has only 7 media files — Omeka is
+  missing 4 scans). `media_map` correctly lists the 7 that exist.
+
+**Implication:** always slice against the actual `media_map` file list and clamp
+to `len(reel_files)`. Never derive an index from a declared page count that could
+exceed the available files.
+
 ## Goal
 
 1. Rebuild the `images:` list (and derive `num_pages`) for the ~23,000 affected
@@ -126,7 +147,10 @@ Edge cases:
 - Reel `omeka_image_id` absent from `media_map.json` → skip, count as
   "no media on reel".
 - `page_start` missing on a document → treat as `1`.
-- Slice that would exceed the reel is clamped to the reel end.
+- Slice indices are always computed against the actual `media_map` file list and
+  clamped to `len(reel_files)`. A reel's declared `bibo:numPages` may overstate
+  the files that exist, so we never index past the real list (see
+  "`media_map.json` accuracy" above).
 - Idempotent: re-running produces no further changes.
 
 ### Part 2 — Re-transcription of grown documents

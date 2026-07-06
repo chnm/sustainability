@@ -26,3 +26,24 @@ def classify_reel(num_docs, reel_size, threshold=SMALL_REEL_THRESHOLD):
     if reel_size <= threshold:
         return "small"
     return "large"
+
+
+def resolve_images(bucket, page_start, all_page_starts, reel_files):
+    """Return the list of image filenames for one document."""
+    n = len(reel_files)
+    if n == 0:
+        return []
+    if bucket in ("single", "small"):
+        return list(reel_files)
+    # large: slice from page_start to the next distinct page_start on the reel
+    distinct = sorted(set(all_page_starts))
+    if page_start in distinct:
+        i = distinct.index(page_start)
+        nxt = distinct[i + 1] if i + 1 < len(distinct) else n + 1
+    else:
+        nxt = n + 1
+    start = min(max(page_start - 1, 0), n - 1)
+    end = min(nxt - 1, n)
+    if end <= start:
+        end = start + 1
+    return list(reel_files[start:end])

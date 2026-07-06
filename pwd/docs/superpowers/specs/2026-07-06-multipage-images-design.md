@@ -88,25 +88,47 @@ every document on it and the reel's file list from `media_map.json`. Classify th
 reel, then assign each affected document its images. **Skip any document that
 already has `num_pages`** (authoritative from the prior fix).
 
-Three buckets (measured counts over the current content tree):
+The rule keys off **reel size**, with a small-reel threshold
+`SMALL_REEL_THRESHOLD = 5`. Measured counts over the current content tree (docs
+missing `num_pages`):
 
 | Bucket | Definition | Count | Rule | Loses pages? |
 |---|---|---|---|---|
 | **Single-doc reel** | Reel referenced by exactly one document | 10,286 | Attach the whole reel | No |
-| **Dense multi-doc reel** | `page_start`s span the reel (`max(page_start) > 0.5 × reel_size`) | 12,760 | Slice `page_start → next distinct page_start`; last group → end of reel | No |
-| **Pile-up reel** | Multiple docs, `page_start`s clustered (do not span the reel; e.g. NOE06: 7 docs mostly `page_start=1` on 3 images) | 311 | Attach the whole reel | No |
+| **Small multi-doc reel** | Multiple docs, reel has `≤ SMALL_REEL_THRESHOLD` images | 459 | Attach the whole reel | No |
+| **Large reel** | Multiple docs, reel has `> SMALL_REEL_THRESHOLD` images | 12,612 | Slice `page_start → next distinct page_start`; last group → end of reel | No |
+| **No media** | Reel absent from `media_map.json` | 345 | Skip (nothing to attach) | — |
+
+Example doc **36398** sits on a 3-image reel shared by 7 documents → "small
+multi-doc reel" → whole reel (3 images), matching the original site.
+
+### Why a reel-size threshold, not a "spans the reel" heuristic
+
+An earlier heuristic ("dense" = `max(page_start) > 0.5 × reel_size`) mis-handled
+small shared reels: NOE06 (3 images, docs at `page_start` 1 and 2) satisfied
+`max(2) > 1.5`, so it would have been sliced — giving doc 36398 only 1 image
+instead of the expected 3. Reel size is the robust signal: a reel with more
+documents than pages, or only a handful of pages, cannot be meaningfully
+partitioned by `page_start`, so we show the whole (small) reel.
+
+The exact threshold barely matters: total image-pages to transcribe stay in the
+~49k–53k range for any `SMALL_REEL_THRESHOLD` from 3 to 15, because small reels
+contribute little either way and large reels are always sliced. `5` is the
+default; it is a CLI flag so the dry-run report can be re-checked against other
+values.
 
 ### Why this satisfies "never lose pages"
 
-Slicing a dense reel by neighbor `page_start`s is a **partition**: each document
+Slicing a large reel by neighbor `page_start`s is a **partition**: each document
 gets `[page_start, next_document_page_start)`, the last document runs to the end
-of the reel, and every reel page is assigned to at least one document. No page is
-dropped. Documents sharing a `page_start` (duplicates within a dense reel) each
-receive the same slice — acceptable, and still lossless.
+of the reel, and every reel page is assigned to the earliest-starting document
+that covers it. No page is dropped from a document that should have it. Documents
+sharing a `page_start` each receive the same slice — acceptable, and still
+lossless.
 
 Whole-reel assignment is reserved for reels where slicing is meaningless (one
-document owns the reel, or `page_start`s pile up and cannot partition it). These
-reels are small in practice, so whole-reel adds at most a few pages.
+document owns the reel, or the reel is small). These reels are small by
+definition, so whole-reel adds at most `SMALL_REEL_THRESHOLD` pages per doc.
 
 ### Why not literal whole-reel everywhere
 
@@ -115,10 +137,12 @@ Measured blast radius for AI transcription (image-pages to transcribe):
 | Strategy | Image-pages |
 |---|---|
 | Literal whole-reel for every non-single-doc reel | 5,023,980 |
-| Size-aware slicing (this design) | 78,123 |
+| Size-aware slicing (this design, `SMALL_REEL_THRESHOLD=5`) | ~50,075 |
 
 Literal whole-reel would attach a 534-page reel to each of its 946 documents.
-Size-aware slicing is ~64× smaller and assigns each document its actual pages.
+Size-aware slicing is ~100× smaller and assigns each document its actual pages.
+(Re-transcription only touches the subset of these whose image list actually
+grew — see Part 2.)
 
 ## Components
 

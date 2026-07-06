@@ -70,10 +70,32 @@ duplicate files. The following cleanup was applied when copying the mirror here:
   per-item map-marker data (embedded JS on `items/show/*.html`) still contains
   absolute `plastercast.gmu.edu` URLs; these are left untouched because they are
   escaped JS strings, not page links.
-- **A few exhibit sub-pages were never captured** (the section pages of the
-  "a short tour…" exhibit and the "history of plaster cast collecting" exhibit).
-  Links to them retain their original absolute URLs, pointing at where the
-  content originally lived.
+- **The "history of plaster cast collecting" exhibit is not included.** It was
+  never public (unpublished in Omeka) and was never captured; the one link to it
+  (in `part-ii-auction-chi.html`) now points at the catalogue item it referenced
+  (`items/show/60.html`).
+
+## Reconstructed exhibit sub-pages (2026-07)
+
+The two public exhibits have interactive section pages
+(`exhibits/show/<exhibit>/<page>.html`) that the original `wget` never captured.
+They were **reconstructed from the Omeka database** rather than re-fetched,
+because the site's later redeployment returns HTTP 500 (truncated HTML) on every
+exhibit sub-page — ExhibitBuilder fatals while rendering the item-image block.
+
+Nine pages were rebuilt (8 for *A Short Tour…*, 1 for *The Last Casts*):
+
+- Page text, captions, layout, and item/file attachments came from the Omeka
+  DB dump (`plstcst_exhibit_pages` / `_page_entries`), matching ExhibitBuilder's
+  layout templates (`text-image-left`, `image-list-left`, `gallery-full-left`).
+- The correctly-rendered page scaffolding (head, nav, exhibit page-list) was
+  kept from the live pages; only the content block below it was rebuilt.
+- Primary images use the `fullsize` derivative (added under `files/fullsize/`,
+  re-fetched from the live site's static files); gallery thumbnails reuse the
+  `files/square_thumbnails/` already in the archive; the three ExhibitBuilder
+  layout CSS files were added under `plugins/ExhibitBuilder/.../exhibit_layouts/`.
+- All links/assets were flattened to the same relative, `?`-in-filename
+  convention as the rest of the archive.
 
 ## Local preview
 

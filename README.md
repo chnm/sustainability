@@ -13,6 +13,7 @@ These are various sustainability projects, included here to help keep track of w
 | Maritime Asia                 | 2023    | `maritime/`         | Flattened Drupal site for Maritime Asia.                    |
 | Objects of History            | 2025    | `objectsofhistory/` | Flattened site for the Objects of History project.          |
 | Pilbara Strike                | 2023    | `pilbara/`          | Flattened Drupal site for the Pilbara Strike.               |
+| Plaster Cast Collection       | 2026    | `plastercast/`      | Flattened Omeka site for the GMU Plaster Cast Collection.   |
 | Scripts                       | ongoing | `scripts/`          | Scripts and other tools for aiding in flattening and fixes. |
 
 ## Project Team

@@ -151,6 +151,17 @@ filename strings (e.g. `alt="34final.jpg"`). Descriptive alt text is a **deferre
 follow-up** to be done separately (curatorial pass), so 1.1.1 is not yet fully
 met even though axe (which only checks that `alt` is present) reports clean.
 
+## Image viewer, replaced (2026-07)
+
+Item pages had an "Image Viewer" that called the **Zoom.it** deep-zoom service —
+shut down by Microsoft in 2016 (and an `http://` call blocked as mixed content),
+so it was dead. Replaced with a **self-contained accessible lightbox**
+(`assets/lightbox.js`, no dependencies): click an image to open a modal viewer
+with a zoom toggle, pan (scrollbars or arrow keys — no dragging required),
+prev/next, and Esc/click-out to close. It's a WCAG 2.2 AA modal dialog (focus
+moved in and trapped, returned on close; keyboard-operable) and passes axe with
+0 violations while open.
+
 ## Local preview
 
 ```sh

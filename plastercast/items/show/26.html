@@ -170,32 +170,10 @@
                 height: 300px;
             }</style><div id="item-map-26" class="map panel"></div><script type="text/javascript">
 (function(){var P="../../";var icon=L.icon({iconUrl:P+"assets/leaflet/images/marker-icon.png",iconRetinaUrl:P+"assets/leaflet/images/marker-icon-2x.png",shadowUrl:P+"assets/leaflet/images/marker-shadow.png",iconSize:[25,41],iconAnchor:[12,41],popupAnchor:[1,-34],shadowSize:[41,41]});var d={"id":26,"lat":38.830907434676,"lng":-77.308044433594,"zoom":18,"thumb":"b969016209f0dddda770c1e9b110a2a0.jpg","title":"Cast no.25"};function pop(d){var u=P+"items/show/"+d.id+".html";return '<div class="geolocation_balloon"><p class="geolocation_marker_title"><a href="'+u+'">'+d.title+'</a></p><a href="'+u+'"><img src="'+P+"files/thumbnails/"+d.thumb+'" alt="'+d.title+'"></a></div>';}var map=L.map("item-map-26").setView([d.lat,d.lng],d.zoom||17);L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:"&copy; OpenStreetMap contributors"}).addTo(map);L.marker([d.lat,d.lng],{icon:icon}).addTo(map).bindPopup(pop(d));})();
-</script></div><script type="text/javascript">
-jQuery(document).ready(function () {
-    var zoomit = jQuery('#zoomit_viewer');
-    jQuery('.zoomit_images').click(function(event) {
-        event.preventDefault();
-        zoomit.empty();
-        zoomit.append(
-        '<h2>Viewing: ' + jQuery(this).text() + '</h2>'
-      + '<iframe id="zoomit_iframe" ' 
-      + 'src="about:blank" ' 
-      + 'style="border:none;"' 
-      + 'width="500" ' 
-      + 'height="600"></iframe>'
-        );
-        jQuery.get('http://api.zoom.it/v1/content?url=' + encodeURIComponent(this.href), function(data) {
-            var iframe = jQuery('#zoomit_iframe')[0].contentWindow.document;
-            iframe.open();
-            iframe.write(data.content.embedHtml);
-            iframe.close();
-        }, 'jsonp');
-    });
-});
-</script>
+</script></div><script src="../../assets/lightbox.js" defer></script>
 <div id="zoomit">
     <h2>Image Viewer</h2>
-    <p>Click below to view an image using the <a href="http://zoom.it/">Zoom.it</a> viewer.</p>
+    <p>Click an image below to open the viewer — zoom and pan the full-resolution image.</p>
     <ul>
                 <li><a href="../../files/original/b969016209f0dddda770c1e9b110a2a0.jpg" class="zoomit_images">25final.jpg</a></li>
                 <li><a href="../../files/original/49aa5e1633ef2a6728c75aa425149c15.jpg" class="zoomit_images">25blackandwhite.jpg</a></li>

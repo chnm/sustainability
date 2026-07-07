@@ -12,6 +12,17 @@ Usage:
 """
 
 import re
+import os
+import json
+import argparse
+from collections import Counter
+from pathlib import Path
+
+HUGO_DIR = Path(__file__).resolve().parent.parent
+CONTENT_DIR = HUGO_DIR / "content" / "document"
+MEDIA_MAP_PATH = HUGO_DIR / "data" / "media_map.json"
+MANIFEST_PATH = HUGO_DIR / "multipage_fix_manifest.json"
+GROWN_IDS_PATH = HUGO_DIR / "multipage_grown_ids.txt"
 
 SMALL_REEL_THRESHOLD = 5
 
@@ -124,3 +135,117 @@ def build_patched_text(text, new_images):
 
     new_text = "---" + new_fm + "---" + body
     return new_text, new_text != text
+
+
+def plan_changes(records, media_map, threshold):
+    """Compute the set of changes without touching disk.
+
+    records: {omeka_id: {"record": <parse dict>, "text": <str>}}
+    Returns (changes, grown_ids, stats).
+    """
+    # Group page_starts by reel across ALL documents (including already-fixed
+    # ones), so slice boundaries and doc counts are correct.
+    reel_starts = {}
+    for info in records.values():
+        rec = info["record"]
+        if rec and rec["image_id"]:
+            reel_starts.setdefault(rec["image_id"], []).append(rec["page_start"])
+
+    changes = []
+    grown = []
+    stats = Counter()
+    for omeka_id, info in records.items():
+        rec = info["record"]
+        if not rec or not rec["image_id"]:
+            continue
+        if rec["has_num_pages"]:
+            stats["skip_has_num_pages"] += 1
+            continue
+        reel = media_map.get(rec["image_id"])
+        if not reel:
+            stats["skip_no_media"] += 1
+            continue
+        starts = reel_starts[rec["image_id"]]
+        bucket = classify_reel(len(starts), len(reel), threshold)
+        images = resolve_images(bucket, rec["page_start"], starts, reel)
+        new_text, _ = build_patched_text(info["text"], images)
+        old_count, new_count = rec["image_count"], len(images)
+        stats[bucket] += 1
+        changes.append({
+            "omeka_id": omeka_id,
+            "bucket": bucket,
+            "old_count": old_count,
+            "new_count": new_count,
+            "new_text": new_text,
+        })
+        if new_count > old_count:
+            grown.append(omeka_id)
+    return changes, grown, stats
+
+
+def collect_records(content_dir):
+    """Read every document .md into {omeka_id: {'record':..., 'text':..., 'path':...}}."""
+    records = {}
+    for fname in os.listdir(content_dir):
+        if not fname.endswith(".md") or fname == "_index.md":
+            continue
+        path = os.path.join(content_dir, fname)
+        with open(path) as f:
+            text = f.read()
+        rec = parse_document(text)
+        if not rec or not rec["omeka_id"]:
+            continue
+        records[rec["omeka_id"]] = {"record": rec, "text": text, "path": path}
+    return records
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Fix multi-page document images")
+    ap.add_argument("--dry-run", action="store_true", help="Plan only; write no .md files")
+    ap.add_argument("--small-reel-threshold", type=int, default=SMALL_REEL_THRESHOLD,
+                    help=f"Reels with <= N images get the whole reel (default {SMALL_REEL_THRESHOLD})")
+    args = ap.parse_args()
+
+    with open(MEDIA_MAP_PATH) as f:
+        media_map = json.load(f)
+
+    print(f"Scanning {CONTENT_DIR}...")
+    records = collect_records(CONTENT_DIR)
+    print(f"Documents scanned: {len(records)}")
+
+    changes, grown, stats = plan_changes(records, media_map, args.small_reel_threshold)
+
+    would_patch = sum(
+        1 for c in changes if c["new_text"] != records[c["omeka_id"]]["text"]
+    )
+    patched = 0
+    for change in changes:
+        info = records[change["omeka_id"]]
+        if change["new_text"] != info["text"] and not args.dry_run:
+            with open(info["path"], "w") as f:
+                f.write(change["new_text"])
+            patched += 1
+
+    manifest = [{k: c[k] for k in ("omeka_id", "bucket", "old_count", "new_count")}
+                for c in changes]
+    with open(MANIFEST_PATH, "w") as f:
+        json.dump(manifest, f, indent=2)
+    with open(GROWN_IDS_PATH, "w") as f:
+        f.write("\n".join(sorted(grown, key=int)) + ("\n" if grown else ""))
+
+    print(f"\n{'=' * 50}")
+    print(f"Done{'  (DRY RUN — no files written)' if args.dry_run else ''}")
+    print(f"  single (whole reel):   {stats.get('single', 0)}")
+    print(f"  small  (whole reel):   {stats.get('small', 0)}")
+    print(f"  large  (sliced):       {stats.get('large', 0)}")
+    print(f"  skipped (has num_pages): {stats.get('skip_has_num_pages', 0)}")
+    print(f"  skipped (no media):      {stats.get('skip_no_media', 0)}")
+    print(f"  documents that grew:   {len(grown)}")
+    print(f"  files {'to patch (dry run)' if args.dry_run else 'patched'}: "
+          f"{would_patch if args.dry_run else patched}")
+    print(f"  manifest:   {MANIFEST_PATH}")
+    print(f"  grown ids:  {GROWN_IDS_PATH}")
+
+
+if __name__ == "__main__":
+    main()

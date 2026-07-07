@@ -176,3 +176,58 @@ def test_build_patched_text_empty_new_images_preserves_empty_list_form():
     # must not regress to a bare 'images:' (YAML null) followed by the next key
     assert "images:\nomeka_id" not in new_text
     assert "num_pages: '0'" in new_text
+
+
+def _rec(text):
+    return {"record": fix.parse_document(text), "text": text}
+
+
+def test_plan_changes_buckets_and_grown():
+    # reel 12415: small (3 imgs, 2 docs) -> both whole reel
+    # reel 24470: large (needs >5 imgs) -> slice
+    media_map = {
+        "12415": ["a.jpg", "b.jpg", "c.jpg"],
+        "24470": [f"{i}.jpg" for i in range(10)],
+    }
+    small_doc = DOC_BLOCK  # image_id 12415, page_start 1, 1 image currently
+    small_doc2 = DOC_BLOCK.replace("omeka_id: 36398", "omeka_id: 36399")
+    large_doc = """---
+omeka_image_id: 24470
+images:
+- 0.jpg
+omeka_id: 67949
+page_start: '1'
+---
+
+Body.
+"""
+    large_doc2 = large_doc.replace("omeka_id: 67949", "omeka_id: 67950").replace(
+        "page_start: '1'", "page_start: '4'"
+    )
+    records = {
+        "36398": _rec(small_doc),
+        "36399": _rec(small_doc2),
+        "67949": _rec(large_doc),
+        "67950": _rec(large_doc2),
+    }
+    changes, grown, stats = fix.plan_changes(records, media_map, threshold=5)
+    by_id = {c["omeka_id"]: c for c in changes}
+    assert by_id["36398"]["bucket"] == "small"
+    assert by_id["36398"]["new_count"] == 3
+    assert by_id["67949"]["bucket"] == "large"
+    assert by_id["67949"]["new_count"] == 3      # pages 1..3 (next start 4)
+    assert set(grown) == {"36398", "36399", "67949", "67950"}
+    assert stats["small"] == 2 and stats["large"] == 2
+
+
+def test_plan_changes_skips_num_pages_and_missing_reel():
+    media_map = {"12415": ["a.jpg", "b.jpg"]}
+    records = {
+        "50000": _rec(DOC_HAS_NP),          # already has num_pages -> skip
+        "40000": _rec(DOC_EMPTY),           # reel 999 not in map -> skip
+    }
+    changes, grown, stats = fix.plan_changes(records, media_map, threshold=5)
+    assert changes == []
+    assert grown == []
+    assert stats["skip_has_num_pages"] == 1
+    assert stats["skip_no_media"] == 1

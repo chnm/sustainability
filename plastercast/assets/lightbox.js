@@ -26,7 +26,7 @@
     ".lb-btn:hover{background:#333}" +
     ".lb-stage{flex:1 1 auto;overflow:auto;display:flex;align-items:center;justify-content:center;padding:6px}" +
     ".lb-stage:focus{outline:2px dashed #ffe000;outline-offset:-4px}" +
-    ".lb-img{max-width:100%;max-height:100%;user-select:none;-webkit-user-drag:none}" +
+    ".lb-img{max-width:100%;max-height:100%;flex:none;user-select:none;-webkit-user-drag:none}" +
     ".lb-stage.lb-zoomed{align-items:start;justify-content:start;cursor:grab}" +
     ".lb-stage.lb-zoomed .lb-img{max-width:none;max-height:none}" +
     ".lb-stage.lb-panning{cursor:grabbing}" +
@@ -61,21 +61,45 @@
       idx = 0, trigger = null, zoomed = false,
       drag = false, sx = 0, sy = 0;
 
+  // The source images are low-resolution, so "actual size" alone doesn't
+  // magnify. Fit view shows the image scaled to the stage; zoom enlarges it
+  // to 3x that (bigger than the viewport -> the stage scrolls -> pannable).
+  function sizeImg() {
+    var nw = img.naturalWidth, nh = img.naturalHeight;
+    if (!nw) { img.style.width = ""; img.style.height = ""; return; }
+    var sw = (stage.clientWidth || 800) - 12, sh = (stage.clientHeight || 600) - 12;
+    var fit = Math.min(sw / nw, sh / nh);
+    var base = Math.min(fit, 2.5);   // fill the stage, but cap upscaling of tiny images
+    var scale = zoomed ? base * 2 : base;
+    // override the theme's responsive `img{max-width:100%}` so a zoomed image
+    // can exceed the stage and be panned
+    img.style.setProperty("max-width", "none", "important");
+    img.style.setProperty("max-height", "none", "important");
+    img.style.width = Math.round(nw * scale) + "px";
+    img.style.height = "auto";
+  }
   function setZoom(on) {
     zoomed = on;
     stage.classList.toggle("lb-zoomed", on);
     zoomBtn.setAttribute("aria-pressed", on ? "true" : "false");
     zoomBtn.textContent = on ? "Zoom out" : "Zoom in";
+    sizeImg();
     stage.scrollTop = 0; stage.scrollLeft = 0;
   }
   function show(i) {
     idx = (i + links.length) % links.length;
     var a = links[idx], label = (a.textContent || "Image").trim();
-    setZoom(false);
+    zoomed = false;
+    stage.classList.remove("lb-zoomed");
+    zoomBtn.setAttribute("aria-pressed", "false");
+    zoomBtn.textContent = "Zoom in";
+    img.style.width = ""; img.style.height = "";
+    img.onload = sizeImg;
     img.src = a.href;
     img.alt = label;
     cap.textContent = label;
   }
+  window.addEventListener("resize", sizeImg);
   function open(i) {
     trigger = document.activeElement;
     show(i);

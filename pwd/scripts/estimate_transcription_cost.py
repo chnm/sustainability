@@ -71,6 +71,88 @@ def parse_document_frontmatter(filepath):
     return omeka_id, image_id
 
 
+def parse_images_list(filepath):
+    """Return (omeka_id, [image_filenames]) from a document's frontmatter."""
+    with open(filepath) as f:
+        content = f.read()
+    if not content.startswith("---"):
+        return None, []
+    fm = content[3:content.index("---", 3)]
+    omeka_id = None
+    images = []
+    in_images = False
+    for line in fm.split("\n"):
+        if line.startswith("omeka_id:"):
+            omeka_id = line.split(":", 1)[1].strip()
+            in_images = False
+        elif line.startswith("images:"):
+            in_images = True
+            if line.split(":", 1)[1].strip() == "[]":
+                in_images = False
+        elif in_images and line.startswith("- "):
+            images.append(line[2:].strip())
+        elif in_images and line.strip() and not line.startswith("- "):
+            in_images = False
+    return omeka_id, images
+
+
+def estimate_for_ids(ids_file, samples):
+    """Estimate cost of re-transcribing exactly the documents listed in ids_file.
+
+    One request per document, using each document's full images: list. Mirrors
+    the whole-run token assumptions (system 500 + user 30 per request,
+    ~500 output tokens per page).
+    """
+    with open(ids_file) as f:
+        ids = [line.strip() for line in f if line.strip()]
+
+    all_images = []
+    docs = 0
+    for omeka_id in ids:
+        path = CONTENT_DIR / f"{omeka_id}.md"
+        if not path.exists():
+            continue
+        _, images = parse_images_list(str(path))
+        if images:
+            docs += 1
+            all_images.extend(images)
+
+    total_images = len(all_images)
+    print(f"Documents to re-transcribe: {docs:,}")
+    print(f"Total image-pages:          {total_images:,}")
+    if total_images == 0:
+        print("Nothing to estimate.")
+        return
+
+    print(f"\nSampling {min(samples, total_images)} images for size...")
+    sample = all_images if total_images <= samples else random.sample(all_images, samples)
+    for filename in sample:
+        size = get_image_size_bytes(filename)
+        if size:
+            print(f"  {filename[:16]}... {size / 1024:.0f} KB")
+
+    system_tokens, user_prompt_tokens = 500, 30
+    tokens_per_image = estimate_image_tokens()
+    output_tokens_per_page = 500
+
+    total_input_tokens = docs * (system_tokens + user_prompt_tokens) + total_images * tokens_per_image
+    total_output_tokens = total_images * output_tokens_per_page
+
+    print(f"\n  Input tokens:  ~{total_input_tokens:,.0f}")
+    print(f"  Output tokens: ~{total_output_tokens:,.0f}\n")
+    print(f"  {'Model':<20} {'Input':>10} {'Output':>10} {'Total':>10}")
+    print(f"  {'-' * 50}")
+    for model_name, prices in MODELS.items():
+        input_cost = (total_input_tokens / 1_000_000) * prices["input_per_m"]
+        output_cost = (total_output_tokens / 1_000_000) * prices["output_per_m"]
+        print(f"  {model_name:<20} ${input_cost:>8,.2f} ${output_cost:>8,.2f} ${input_cost + output_cost:>8,.2f}")
+    print(f"\n  With Batch API (50% discount):")
+    for model_name, prices in MODELS.items():
+        input_cost = (total_input_tokens / 1_000_000) * prices["input_per_m"] * 0.5
+        output_cost = (total_output_tokens / 1_000_000) * prices["output_per_m"] * 0.5
+        print(f"  {model_name:<20} ${input_cost:>8,.2f} ${output_cost:>8,.2f} ${input_cost + output_cost:>8,.2f}")
+
+
 def get_image_size_bytes(filename):
     """Fetch just the Content-Length header for an image without downloading."""
     url = f"{MEDIA_BASE_URL}/files/original/{filename}"
@@ -101,7 +183,15 @@ def main():
         "--samples", type=int, default=10,
         help="Number of documents to sample for size estimation (default: 10)"
     )
+    parser.add_argument(
+        "--ids-file", default=None,
+        help="Estimate only the omeka_ids listed in this file (one per line), per-document"
+    )
     args = parser.parse_args()
+
+    if args.ids_file:
+        estimate_for_ids(args.ids_file, args.samples)
+        return
 
     media_map = load_media_map()
 

@@ -127,6 +127,37 @@ def load_manifest():
     return entries
 
 
+def load_ids_file(path):
+    """Load a set of omeka_ids from a file (one per line, blanks ignored)."""
+    text = Path(path).read_text()
+    return {line.strip() for line in text.splitlines() if line.strip()}
+
+
+def select_todo(manifest, done, max_pages, ids_filter=None):
+    """Select the (omeka_id, [images]) documents to transcribe.
+
+    manifest: list of (omeka_id, [images]).
+
+    When ids_filter is a set: select exactly those ids present in the manifest,
+    forcing re-transcription (ignore `done`), still respecting max_pages. Ids in
+    ids_filter but not in the manifest are simply absent from the result.
+
+    When ids_filter is None: skip ids already in `done`, respect max_pages.
+
+    Manifest order is preserved.
+    """
+    todo = []
+    for oid, imgs in manifest:
+        if len(imgs) > max_pages:
+            continue
+        if ids_filter is not None:
+            if oid in ids_filter:
+                todo.append((oid, imgs))
+        elif oid not in done:
+            todo.append((oid, imgs))
+    return todo
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Transcribe War Department documents via claude -p"
@@ -147,25 +178,47 @@ def main():
         "--max-pages", type=int, default=50,
         help="Max pages per document (default: 50)",
     )
+    parser.add_argument(
+        "--ids-file", default=None,
+        help="Re-transcribe only these omeka_ids (one per line), forcing "
+             "re-transcription even if already done.",
+    )
     args = parser.parse_args()
 
     manifest = load_manifest()
-    done = set() if args.no_resume else load_cache()
-    transcriptions = {} if args.no_resume else load_output()
 
-    # Filter to documents not yet done, and within max-pages size
-    todo = [
-        (oid, imgs) for oid, imgs in manifest
-        if oid not in done and len(imgs) <= args.max_pages
-    ]
+    ids_filter = load_ids_file(args.ids_file) if args.ids_file else None
+
+    # In ids-file (forced) mode, always preserve existing transcriptions so
+    # untargeted entries survive and only the targeted ids get overwritten.
+    if ids_filter is not None:
+        done = load_cache()
+        transcriptions = load_output()
+    else:
+        done = set() if args.no_resume else load_cache()
+        transcriptions = {} if args.no_resume else load_output()
+
+    todo = select_todo(manifest, done, args.max_pages, ids_filter=ids_filter)
     if args.limit:
         todo = todo[:args.limit]
 
-    skipped_done = len([oid for oid, _ in manifest if oid in done])
-    skipped_big = len([oid for oid, imgs in manifest if oid not in done and len(imgs) > args.max_pages])
+    skipped_big = len([oid for oid, imgs in manifest if len(imgs) > args.max_pages])
     print(f"Manifest: {len(manifest)} documents")
-    print(f"Already done: {skipped_done}")
-    print(f"Skipped (>{args.max_pages} pages): {skipped_big}")
+    if ids_filter is not None:
+        manifest_ids = {oid for oid, _ in manifest}
+        found = ids_filter & manifest_ids
+        missing = ids_filter - manifest_ids
+        print(f"Mode: targeted re-transcription via --ids-file ({args.ids_file})")
+        print(f"IDs requested: {len(ids_filter)}")
+        print(f"IDs found in manifest: {len(found)}")
+        if missing:
+            print(f"IDs listed but NOT in manifest: {len(missing)}")
+        print(f"Skipped (>{args.max_pages} pages): "
+              f"{len(found) - len(todo) if args.limit is None else 'n/a (limited)'}")
+    else:
+        skipped_done = len([oid for oid, _ in manifest if oid in done])
+        print(f"Already done: {skipped_done}")
+        print(f"Skipped (>{args.max_pages} pages): {skipped_big}")
     print(f"To transcribe: {len(todo)}")
     print(f"Model: {args.model}")
     print()

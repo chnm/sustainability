@@ -63,3 +63,84 @@ def test_slice_clamps_and_never_empty():
 
 def test_empty_reel_returns_empty():
     assert fix.resolve_images("single", 1, [1], []) == []
+
+
+DOC_BLOCK = """---
+authors:
+- Benjamin Lincoln
+omeka_image_id: 12415
+images:
+- a.jpg
+omeka_id: 36398
+page_start: '1'
+title: Clothing
+---
+
+Body text here.
+"""
+
+DOC_EMPTY = """---
+omeka_image_id: 999
+images: []
+omeka_id: 40000
+page_start: '2'
+---
+
+Body.
+"""
+
+DOC_HAS_NP = """---
+omeka_image_id: 12415
+images:
+- a.jpg
+- b.jpg
+num_pages: '2'
+omeka_id: 50000
+page_start: '1'
+---
+
+Body.
+"""
+
+
+def test_parse_document_block_form():
+    rec = fix.parse_document(DOC_BLOCK)
+    assert rec["omeka_id"] == "36398"
+    assert rec["image_id"] == "12415"
+    assert rec["page_start"] == 1
+    assert rec["has_num_pages"] is False
+    assert rec["image_count"] == 1
+
+
+def test_parse_document_empty_images_and_num_pages():
+    rec = fix.parse_document(DOC_EMPTY)
+    assert rec["image_count"] == 0
+    assert rec["page_start"] == 2
+    rec2 = fix.parse_document(DOC_HAS_NP)
+    assert rec2["has_num_pages"] is True
+    assert rec2["image_count"] == 2
+
+
+def test_build_patched_text_block_form():
+    new_text, changed = fix.build_patched_text(DOC_BLOCK, ["a.jpg", "b.jpg", "c.jpg"])
+    assert changed is True
+    assert "images:\n- a.jpg\n- b.jpg\n- c.jpg\n" in new_text
+    assert "num_pages: '3'" in new_text
+    # untouched keys survive
+    assert "title: Clothing" in new_text
+    assert "Body text here." in new_text
+
+
+def test_build_patched_text_empty_list_form():
+    new_text, changed = fix.build_patched_text(DOC_EMPTY, ["x.jpg", "y.jpg"])
+    assert changed is True
+    assert "images:\n- x.jpg\n- y.jpg\n" in new_text
+    assert "images: []" not in new_text
+    assert "num_pages: '2'" in new_text
+
+
+def test_build_patched_text_is_idempotent_after_num_pages():
+    once, _ = fix.build_patched_text(DOC_BLOCK, ["a.jpg", "b.jpg"])
+    # once num_pages exists, parse marks it done; patching again does not duplicate it
+    twice, _ = fix.build_patched_text(once, ["a.jpg", "b.jpg"])
+    assert twice.count("num_pages:") == 1

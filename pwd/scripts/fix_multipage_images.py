@@ -11,6 +11,8 @@ Usage:
     uv run python3 scripts/fix_multipage_images.py
 """
 
+import re
+
 SMALL_REEL_THRESHOLD = 5
 
 
@@ -47,3 +49,62 @@ def resolve_images(bucket, page_start, all_page_starts, reel_files):
     if end <= start:
         end = start + 1
     return list(reel_files[start:end])
+
+
+def _images_block(frontmatter):
+    """Return the raw 'images:' block text (the images: line plus any - items)."""
+    m = re.search(r"^images:[^\n]*\n(?:- [^\n]*\n)*", frontmatter, re.M)
+    return m.group(0) if m else ""
+
+
+def parse_document(text):
+    """Parse a document file's text into a record dict, or None if no frontmatter."""
+    if not text.startswith("---"):
+        return None
+    end = text.index("---", 3)
+    fm = text[3:end]
+
+    def field(name):
+        m = re.search(rf"^{name}:\s*[\"']?([^\"'\n]+)", fm, re.M)
+        return m.group(1).strip() if m else None
+
+    page_start_raw = field("page_start")
+    block = _images_block(fm)
+    return {
+        "omeka_id": field("omeka_id"),
+        "image_id": field("omeka_image_id"),
+        "page_start": int(page_start_raw) if page_start_raw and page_start_raw.isdigit() else 1,
+        "has_num_pages": re.search(r"^num_pages:", fm, re.M) is not None,
+        "image_count": len(re.findall(r"^- \S+", block, re.M)),
+    }
+
+
+def build_patched_text(text, new_images):
+    """Rewrite the images: block and insert num_pages if absent.
+
+    Returns (new_text, changed).
+    """
+    if not text.startswith("---"):
+        return text, False
+    end = text.index("---", 3)
+    fm = text[3:end]
+    body = text[end + 3:]
+
+    new_block = "images:\n" + "".join(f"- {fn}\n" for fn in new_images)
+    new_fm, n = re.subn(
+        r"^images:[^\n]*\n(?:- [^\n]*\n)*", new_block, fm, count=1, flags=re.M
+    )
+    if n == 0:
+        new_fm = fm  # no images key; leave untouched (not expected for our docs)
+
+    if not re.search(r"^num_pages:", new_fm, re.M):
+        new_fm = re.sub(
+            r"^(page_start:[^\n]*)$",
+            lambda m: m.group(1) + f"\nnum_pages: '{len(new_images)}'",
+            new_fm,
+            count=1,
+            flags=re.M,
+        )
+
+    new_text = "---" + new_fm + "---" + body
+    return new_text, new_text != text

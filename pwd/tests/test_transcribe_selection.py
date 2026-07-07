@@ -4,6 +4,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 import estimate_transcription_cost as est
+import transcribe
 
 DOC = """---
 omeka_image_id: 12415
@@ -32,3 +33,25 @@ def test_parse_images_list_empty(tmp_path):
     omeka_id, images = est.parse_images_list(str(p))
     assert omeka_id == "1"
     assert images == []
+
+
+def test_select_documents_resume_skips_done():
+    docs = [("1", ["a.jpg"]), ("2", ["b.jpg"]), ("3", [])]
+    result = transcribe.select_documents(docs, {"1": "done"}, resume=True)
+    # "1" already transcribed -> skipped; "3" has no images -> skipped
+    assert result == [("2", ["b.jpg"])]
+
+
+def test_select_documents_ids_filter_forces_retranscription():
+    docs = [("1", ["a.jpg"]), ("2", ["b.jpg", "c.jpg"]), ("3", ["d.jpg"])]
+    # 1 and 2 already transcribed, but ids_filter forces them anyway
+    result = transcribe.select_documents(
+        docs, {"1": "old", "2": "old"}, resume=True, ids_filter={"1", "2"}
+    )
+    assert result == [("1", ["a.jpg"]), ("2", ["b.jpg", "c.jpg"])]
+
+
+def test_select_documents_ids_filter_ignores_unlisted():
+    docs = [("1", ["a.jpg"]), ("2", ["b.jpg"])]
+    result = transcribe.select_documents(docs, {}, ids_filter={"2"})
+    assert result == [("2", ["b.jpg"])]

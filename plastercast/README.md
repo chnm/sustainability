@@ -62,9 +62,6 @@ duplicate files. The following cleanup was applied when copying the mirror here:
 
 ### Known limitations (inherent to a static capture)
 
-- **Search is non-functional.** The header search box and `items/search.html`
-  form post to the original Omeka server; they render but do nothing. (A
-  client-side MiniSearch index could be added later per the repo's `DEVNOTES.md`.)
 - **The "history of plaster cast collecting" exhibit is not included.** It was
   never public (unpublished in Omeka) and was never captured; the one link to it
   (in `part-ii-auction-chi.html`) now points at the catalogue item it referenced
@@ -106,6 +103,28 @@ mirror. It was replaced with a self-contained **Leaflet + OpenStreetMap** map:
 - The browse maps (`geolocation/map/browse.html`, `items/map.html`) plot all 51
   casts; each `items/show/<n>.html` shows its single location. Popups link to the
   item page. The dead Google-Maps/KML scripts were removed site-wide.
+
+## Search, rebuilt with Pagefind (2026-07)
+
+The original header search posted to the Omeka server (`/search`) and is dead in
+a static mirror. It was replaced with **[Pagefind](https://pagefind.app/)**, a
+fully client-side static search:
+
+- The header search box on every page now submits (`?query=`) to `search.html`,
+  which hosts the Pagefind UI and runs the query.
+- Only real content is indexed: item, collection, exhibit, and narrative pages
+  carry `data-pagefind-body` on their `#content`; browse/list/map/utility pages
+  are excluded. Results match the old Omeka search closely (e.g. "parthenon" →
+  4 results).
+- The prebuilt index lives in **`pagefind/`** and is committed, because the
+  deploy pipeline only copies files (no build step).
+
+**Rebuild the index whenever page content changes:**
+
+```sh
+cd plastercast
+npx pagefind@1.5.2 --site .   # regenerates pagefind/
+```
 
 ## Local preview
 

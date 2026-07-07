@@ -60,24 +60,7 @@
                 <a href="../../../index.html" ><img src="../../../files/theme_uploads/092bdd821ba76b4acb1931ca6aec9398.jpg" alt="George Mason University Plaster Cast Collection" /></a>
             </div>
             <div id="search-container">
-                <form id="search-form" name="search-form" action="https://plastercast.gmu.edu/search" method="get">    <input type="text" name="query" id="query" value="" title="Search">        <div id="advanced-form">
-        <fieldset id="query-types">
-            <legend>Search using this query type:</legend>
-            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
-<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
-<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
-                <fieldset id="record-types">
-            <legend>Search only these record types:</legend>
-                        <input type="checkbox" name="record_types[]" id="record_types-Item" value="Item" checked="checked"> <label for="record_types-Item">Item</label><br>
-                        <input type="checkbox" name="record_types[]" id="record_types-File" value="File" checked="checked"> <label for="record_types-File">File</label><br>
-                        <input type="checkbox" name="record_types[]" id="record_types-Collection" value="Collection" checked="checked"> <label for="record_types-Collection">Collection</label><br>
-                        <input type="checkbox" name="record_types[]" id="record_types-SimplePagesPage" value="SimplePagesPage" checked="checked"> <label for="record_types-SimplePagesPage">Simple Page</label><br>
-                        <input type="checkbox" name="record_types[]" id="record_types-Exhibit" value="Exhibit" checked="checked"> <label for="record_types-Exhibit">Exhibit</label><br>
-                        <input type="checkbox" name="record_types[]" id="record_types-ExhibitPage" value="ExhibitPage" checked="checked"> <label for="record_types-ExhibitPage">Exhibit Page</label><br>
-                    </fieldset>
-                <p><a href="../../../items/search.html">Advanced Search (Items only)</a></p>
-    </div>
-        <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+                <form id="search-form" name="search-form" action="../../../search.html" method="get"><input type="text" name="query" id="query" value="" title="Search"><button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
             </div>
                     </header>
 
@@ -152,9 +135,9 @@
     </li>
 </ul>        </nav>
 
-        <div id="content">
+        <div id="content" data-pagefind-body>
 
-<nav id="exhibit-pages">
+<nav id="exhibit-pages" data-pagefind-ignore>
     <ul class="exhibit-page-nav navigation" id="secondary-nav">
 <li><a class="exhibit-title" href="../a-short-tour-of-a-few-of-the-p.html">A Short Tour of a Few of the Plaster Casts at GMU</a></li>
 <li>
@@ -172,9 +155,9 @@
 </ul>
 </nav>
 
-<h1><span class="exhibit-page">Relief of a Dancer</h1>
+<h1><span class="exhibit-page">Relief of a Dancer</span></h1>
 
-<nav id="exhibit-child-pages">
+<nav id="exhibit-child-pages" data-pagefind-ignore>
     <ul class="exhibit-child-nav navigation">
 </ul>
 </nav>

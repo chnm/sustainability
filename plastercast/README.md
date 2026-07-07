@@ -126,6 +126,31 @@ cd plastercast
 npx pagefind@1.5.2 --site .   # regenerates pagefind/
 ```
 
+## Accessibility (WCAG 2.2 AA, 2026-07)
+
+The archive was remediated toward **WCAG 2.2 AA**, following the repo's `1989`
+accessibility pattern. Verified with **axe-core 4.10** (rulesets
+`wcag2a/2aa/21a/21aa/22aa`) → **0 violations** across every page type (narrative,
+item, collection, exhibit, browse/listing, map, search), plus a keyboard pass.
+
+- **Contrast (1.4.3)**: darkened nav links (`#6d6d6d`→`#3a3a3a` on the `#bdbdbd`
+  bar) and reworked buttons (`#f4f4f4` on `#4b4b4b`) and the submenu background.
+- **Use of color (1.4.1)**: in-text links are underlined.
+- **Focus visible (2.4.7)**: 3px `#ffe000` focus ring on all interactive
+  elements.
+- **Keyboard (2.1.1)**: nav dropdowns open on `:focus-within`, not just hover.
+- **Bypass/landmarks (2.4.1, 1.3.1)**: a "Skip to main content" link and
+  `<main id="content">` on every page; `<nav aria-label="Main">`.
+- **Names/labels (4.1.2)**: `aria-label` on the search and pagination inputs.
+- **Headings (1.3.1)** and **unique titles (2.4.2)** normalized.
+- All of the above live in an appended `/* WCAG 2.2 AA */` block in
+  `themes/seasons/css/style.css` plus site-wide HTML edits.
+
+**Outstanding — alt text (1.1.1):** image `alt`s are still the original
+filename strings (e.g. `alt="34final.jpg"`). Descriptive alt text is a **deferred
+follow-up** to be done separately (curatorial pass), so 1.1.1 is not yet fully
+met even though axe (which only checks that `alt` is present) reports clean.
+
 ## Local preview
 
 ```sh

@@ -2426,3 +2426,32 @@
     font-style: italic;
   }
 }
+
+
+/* ============================================================
+   WCAG 2.2 AA accessibility overrides (appended 2026-07)
+   ============================================================ */
+
+/* SC 2.4.1 Bypass Blocks -- skip link (visually hidden until focused) */
+.skip-link { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+.skip-link:focus { position: fixed; left: 8px; top: 8px; width: auto; height: auto; padding: 10px 16px; background: #000; color: #ffe000; border: 2px solid #ffe000; z-index: 10000; font-weight: bold; text-decoration: none; }
+
+/* SC 1.4.3 Contrast (Minimum) -- night theme */
+.night nav.top a:link, .night nav.top a:visited { color: #3a3a3a; }                 /* 6.5:1 on #bdbdbd */
+.night nav.top a:hover, .night nav.top a:active, .night nav.top li:hover a { color: #1a1a1a; }
+.night nav.top ul li ul { background-color: #333333; }                              /* darken submenu so #ffe000 links pass (9:1) */
+.night button, .night input[type="submit"], .night input[type="button"], .night .button, .night #submit_search { background-color: #4b4b4b; color: #f4f4f4; }
+.night #search-results th { background-color: #4b4b4b; color: #eaeaea; }
+
+/* SC 1.4.1 Use of Color -- underline in-text links (exclude logo/thumbnail/map/search-result wrappers) */
+#content a, footer a { text-decoration: underline; }
+#site-title a, #item-images a, #primary .exhibit-item a, #content .pagefind-ui__result-link, .leaflet-container a { text-decoration: none; }
+
+/* SC 2.4.7 Focus Visible -- strong ring on every interactive element */
+a:focus, button:focus, input:focus, select:focus, textarea:focus, summary:focus, [tabindex]:focus, .leaflet-control a:focus {
+  outline: 3px solid #ffe000 !important;
+  outline-offset: 2px;
+}
+
+/* SC 2.1.1 / 4.1.2 Keyboard -- reveal nav submenus on keyboard focus, not just hover */
+nav.top ul li:focus-within > ul { display: block; }

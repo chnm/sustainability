@@ -18,16 +18,16 @@ import argparse
 from collections import Counter
 from pathlib import Path
 
-HUGO_DIR = Path(__file__).resolve().parent.parent
-CONTENT_DIR = HUGO_DIR / "content" / "document"
-MEDIA_MAP_PATH = HUGO_DIR / "data" / "media_map.json"
-MANIFEST_PATH = HUGO_DIR / "multipage_fix_manifest.json"
-GROWN_IDS_PATH = HUGO_DIR / "multipage_grown_ids.txt"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+CONTENT_DIR = PROJECT_ROOT / "content" / "document"
+MEDIA_MAP_PATH = PROJECT_ROOT / "data" / "media_map.json"
+MANIFEST_PATH = PROJECT_ROOT / "multipage_fix_manifest.json"
+GROWN_IDS_PATH = PROJECT_ROOT / "multipage_grown_ids.txt"
 
 SMALL_REEL_THRESHOLD = 5
 
 
-def classify_reel(num_docs, reel_size, threshold=SMALL_REEL_THRESHOLD):
+def classify_reel(num_docs: int, reel_size: int, threshold: int = SMALL_REEL_THRESHOLD) -> str:
     """Return 'single', 'small', or 'large' for a reel.
 
     - single: reel referenced by exactly one document -> whole reel
@@ -41,7 +41,7 @@ def classify_reel(num_docs, reel_size, threshold=SMALL_REEL_THRESHOLD):
     return "large"
 
 
-def resolve_images(bucket, page_start, all_page_starts, reel_files):
+def resolve_images(bucket: str, page_start: int, all_page_starts: list, reel_files: list) -> list:
     """Return the list of image filenames for one document."""
     n = len(reel_files)
     if n == 0:

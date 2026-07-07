@@ -344,11 +344,12 @@ def batch_transcribe(model="claude-sonnet-4-6", limit=None,
     )
 
     doc_files = sorted(glob.glob(str(CONTENT_DIR / "*.md")))
-    parsed_docs = (parse_document_frontmatter(p) for p in doc_files)
+    parsed_docs = [parse_document_frontmatter(p) for p in doc_files]
     docs_to_process = select_documents(
         parsed_docs, transcriptions, resume=resume, ids_filter=ids_filter
     )
-    skipped = 0
+    eligible = sum(1 for oid, imgs in parsed_docs if oid and imgs)
+    skipped = eligible - len(docs_to_process)
 
     if limit:
         docs_to_process = docs_to_process[:limit]

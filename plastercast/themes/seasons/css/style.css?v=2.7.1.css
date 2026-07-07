@@ -2461,9 +2461,9 @@ nav.top ul li:focus-within > ul { display: block; }
 .archive-banner {
   box-sizing: border-box;
   width: 100%;
-  background-color: #336699;
+  background-color: #006633; /* GMU Mason Green */
   color: #f7f7f7;
-  border-bottom: 3px solid #c6d6c2;
+  border-bottom: 3px solid #ffcc33; /* GMU gold */
   font: 12px/1.5 Verdana, Arial, Helvetica, sans-serif;
   position: sticky;
   top: 0;

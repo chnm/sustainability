@@ -35,6 +35,14 @@ def test_parse_images_list_empty(tmp_path):
     assert images == []
 
 
+def test_parse_images_list_inline_nonempty(tmp_path):
+    p = tmp_path / "y.md"
+    p.write_text("---\nomeka_id: 2\nimages: [a.jpg, b.jpg]\n---\n\nBody.\n")
+    omeka_id, images = est.parse_images_list(str(p))
+    assert omeka_id == "2"
+    assert images == ["a.jpg", "b.jpg"]
+
+
 def test_select_documents_resume_skips_done():
     docs = [("1", ["a.jpg"]), ("2", ["b.jpg"]), ("3", [])]
     result = transcribe.select_documents(docs, {"1": "done"}, resume=True)

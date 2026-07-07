@@ -87,7 +87,16 @@ def parse_images_list(filepath):
             in_images = False
         elif line.startswith("images:"):
             in_images = True
-            if line.split(":", 1)[1].strip() == "[]":
+            val = line.split(":", 1)[1].strip()
+            if val == "[]":
+                in_images = False
+            elif val.startswith("[") and val.endswith("]"):
+                # Inline non-empty list: `images: [a.jpg, b.jpg]`
+                inner = val[1:-1].strip()
+                if inner:
+                    images.extend(
+                        item.strip() for item in inner.split(",") if item.strip()
+                    )
                 in_images = False
         elif in_images and line.startswith("- "):
             images.append(line[2:].strip())

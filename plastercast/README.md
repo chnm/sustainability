@@ -65,11 +65,6 @@ duplicate files. The following cleanup was applied when copying the mirror here:
 - **Search is non-functional.** The header search box and `items/search.html`
   form post to the original Omeka server; they render but do nothing. (A
   client-side MiniSearch index could be added later per the repo's `DEVNOTES.md`.)
-- **The interactive geolocation map is inert.** `items/map.html` and
-  `geolocation/map/browse.html` depend on the live map/tile service. The
-  per-item map-marker data (embedded JS on `items/show/*.html`) still contains
-  absolute `plastercast.gmu.edu` URLs; these are left untouched because they are
-  escaped JS strings, not page links.
 - **The "history of plaster cast collecting" exhibit is not included.** It was
   never public (unpublished in Omeka) and was never captured; the one link to it
   (in `part-ii-auction-chi.html`) now points at the catalogue item it referenced
@@ -96,6 +91,21 @@ Nine pages were rebuilt (8 for *A Short Tour…*, 1 for *The Last Casts*):
   layout CSS files were added under `plugins/ExhibitBuilder/.../exhibit_layouts/`.
 - All links/assets were flattened to the same relative, `?`-in-filename
   convention as the rest of the archive.
+
+## Geolocation map, rebuilt with Leaflet (2026-07)
+
+The original map used the Google Maps API (keyless `maps.google.com`, now dead)
+plus a dynamic `/geolocation/map.kml` endpoint — neither works in a static
+mirror. It was replaced with a self-contained **Leaflet + OpenStreetMap** map:
+
+- Leaflet 1.9.4 is vendored under `assets/leaflet/` (CSS, JS, marker icons); map
+  tiles load from OpenStreetMap (the only part that needs internet).
+- The 51 cast locations (lat/lng, title, thumbnail) were extracted from each
+  item page's own `OmekaMapSingle` data; the `files/thumbnails/` derivative used
+  in the popups was re-fetched from the live site (51 images).
+- The browse maps (`geolocation/map/browse.html`, `items/map.html`) plot all 51
+  casts; each `items/show/<n>.html` shows its single location. Popups link to the
+  item page. The dead Google-Maps/KML scripts were removed site-wide.
 
 ## Local preview
 

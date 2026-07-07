@@ -90,21 +90,37 @@ def build_patched_text(text, new_images):
     fm = text[3:end]
     body = text[end + 3:]
 
-    new_block = "images:\n" + "".join(f"- {fn}\n" for fn in new_images)
+    if new_images:
+        new_block = "images:\n" + "".join(f"- {fn}\n" for fn in new_images)
+    else:
+        new_block = "images: []\n"
     new_fm, n = re.subn(
         r"^images:[^\n]*\n(?:- [^\n]*\n)*", new_block, fm, count=1, flags=re.M
     )
     if n == 0:
         new_fm = fm  # no images key; leave untouched (not expected for our docs)
 
+    # Insert-only: we only ever add num_pages when it is absent. This tool only
+    # processes documents that lack num_pages, so we never need to correct an
+    # existing value here.
     if not re.search(r"^num_pages:", new_fm, re.M):
-        new_fm = re.sub(
+        num_pages_line = f"num_pages: '{len(new_images)}'"
+        new_fm, inserted = re.subn(
             r"^(page_start:[^\n]*)$",
-            lambda m: m.group(1) + f"\nnum_pages: '{len(new_images)}'",
+            lambda m: m.group(1) + f"\n{num_pages_line}",
             new_fm,
             count=1,
             flags=re.M,
         )
+        if not inserted:
+            # No page_start line to anchor to; insert right after the
+            # rewritten images: block instead.
+            new_fm, inserted = re.subn(
+                re.escape(new_block),
+                new_block + num_pages_line + "\n",
+                new_fm,
+                count=1,
+            )
 
     new_text = "---" + new_fm + "---" + body
     return new_text, new_text != text

@@ -144,3 +144,35 @@ def test_build_patched_text_is_idempotent_after_num_pages():
     # once num_pages exists, parse marks it done; patching again does not duplicate it
     twice, _ = fix.build_patched_text(once, ["a.jpg", "b.jpg"])
     assert twice.count("num_pages:") == 1
+
+
+DOC_NO_PAGE_START = """---
+authors:
+- Benjamin Lincoln
+omeka_image_id: 12415
+images:
+- a.jpg
+omeka_id: 36398
+title: Clothing
+---
+
+Body text here.
+"""
+
+
+def test_build_patched_text_inserts_num_pages_without_page_start():
+    new_text, changed = fix.build_patched_text(DOC_NO_PAGE_START, ["a.jpg", "b.jpg"])
+    assert changed is True
+    assert "num_pages: '2'" in new_text
+    # idempotent: running again on the result must not duplicate num_pages
+    twice, _ = fix.build_patched_text(new_text, ["a.jpg", "b.jpg"])
+    assert twice.count("num_pages:") == 1
+
+
+def test_build_patched_text_empty_new_images_preserves_empty_list_form():
+    new_text, changed = fix.build_patched_text(DOC_EMPTY, [])
+    assert changed is True
+    assert "images: []\n" in new_text
+    # must not regress to a bare 'images:' (YAML null) followed by the next key
+    assert "images:\nomeka_id" not in new_text
+    assert "num_pages: '0'" in new_text

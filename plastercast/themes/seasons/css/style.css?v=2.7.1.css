@@ -2455,3 +2455,35 @@ a:focus, button:focus, input:focus, select:focus, textarea:focus, summary:focus,
 
 /* SC 2.1.1 / 4.1.2 Keyboard -- reveal nav submenus on keyboard focus, not just hover */
 nav.top ul li:focus-within > ul { display: block; }
+
+
+/* ---------- RRCHNM archive banner (static-archive notice) ---------- */
+.archive-banner {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #336699;
+  color: #f7f7f7;
+  border-bottom: 3px solid #c6d6c2;
+  font: 12px/1.5 Verdana, Arial, Helvetica, sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+.archive-banner__inner {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+}
+.archive-banner__logo {
+  display: inline-block;
+  flex-shrink: 0;
+  width: 31px;
+  height: 30px;
+  margin-right: 15px;
+  background: url("../../../assets/rrchnm_logo.png") center center / contain no-repeat #f7f7f7;
+  border-radius: 3px;
+}
+.archive-banner__text { margin: 0; }
+.archive-banner a { color: #f7f7f7; text-decoration: underline; }
+.archive-banner a:hover { color: #ffffff; }

@@ -16,9 +16,23 @@
 <link href="../../themes/seasons/css/style.css%3Fv=2.7.1.css" media="all" rel="stylesheet" type="text/css" ><style type="text/css" media="all">
 <!--
 
-            #map_browse {
-                height: 436px;
+            /* Full-width map: this page has no side panel, so override the
+               shared 70/30 split and let the map fill the content column. */
+            #map_block {
+                width: 100% !important;
+                float: none !important;
+                overflow: visible !important;   /* don't clip pop-ups at the frame edge */
             }
+            #content #primary,
+            #content #primary > div { overflow: visible !important; }
+            #map_browse {
+                width: 100% !important;
+                height: 520px;
+                padding: 0 !important;          /* cancel the theme's 16px inset */
+            }
+            /* Keep the item pop-ups in the foreground, above every map layer. */
+            .leaflet-popup-pane { z-index: 1200; }
+            .leaflet-popup { z-index: 1200; }
             .balloon {width:400px !important; font-size:1.2em;}
             .balloon .title {font-weight:bold;margin-bottom:1.5em;}
             .balloon .title, .balloon .description {float:left; width: 220px;margin-bottom:1.5em;}

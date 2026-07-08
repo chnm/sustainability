@@ -153,6 +153,41 @@ def test_is_rate_limit_false_for_empty_strings():
     assert transcribe.is_rate_limit("", "", 0) is False
 
 
+def test_is_rate_limit_false_for_successful_transcription_mentioning_429():
+    # Regression: a successful transcription of an 18th-century document can
+    # legitimately contain text like "...forwarded 429 stand of arms..." or
+    # "the limit reached the fort by dusk". A clean success (returncode 0,
+    # is_error False) must never be treated as a rate limit, no matter what
+    # the transcribed text says.
+    payload = json.dumps({
+        "is_error": False,
+        "result": "...forwarded 429 stand of arms before the limit reached the fort...",
+    })
+    assert transcribe.is_rate_limit(payload, "", 0, is_error=False) is False
+
+
+def test_is_rate_limit_true_for_failed_call_with_rate_limit_message():
+    assert transcribe.is_rate_limit(
+        "", "Error: usage limit reached for this account", 1, is_error=False
+    ) is True
+
+
+def test_is_rate_limit_true_for_is_error_true_payload_with_zero_returncode():
+    # Some failures surface as a zero exit code but is_error true in the
+    # parsed JSON payload; a rate-limit indicator there must still count.
+    payload = json.dumps({
+        "is_error": True,
+        "result": "Usage limit reached, please try again later.",
+    })
+    assert transcribe.is_rate_limit(payload, "", 0, is_error=True) is True
+
+
+def test_is_rate_limit_false_for_failed_call_with_generic_error():
+    assert transcribe.is_rate_limit(
+        "", "Error: could not read image file, no such file", 1, is_error=False
+    ) is False
+
+
 # ---------------------------------------------------------------------------
 # accumulate_usage
 # ---------------------------------------------------------------------------

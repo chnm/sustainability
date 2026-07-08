@@ -191,10 +191,16 @@ def tokens_exceeded(totals, max_tokens):
     return totals["total_tokens"] > max_tokens
 
 
+def call_timeout(num_pages, base=180, per_page=90, cap=1800):
+    """Seconds to allow one `claude -p` call, scaled by page count (clamped to cap)."""
+    return min(cap, base + per_page * max(1, num_pages))
+
+
 def transcribe_images(image_paths, model="claude-sonnet-4-6"):
     """Run `claude -p` with the prompt and image files.
 
-    Returns {text, usage, cost_usd, is_error, rate_limited}.
+    Returns {text, usage, cost_usd, is_error, rate_limited}. A timeout or
+    subprocess failure is treated as a per-document error (skip), never a crash.
     """
     prompt = PROMPT_FILE.read_text() + "\n\nPlease read and transcribe the following image files:\n"
     for path in image_paths:
@@ -207,7 +213,23 @@ def transcribe_images(image_paths, model="claude-sonnet-4-6"):
         "--output-format", "json",
     ]
 
-    result = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+    zero_usage = {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+    }
+    timeout_s = call_timeout(len(image_paths))
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout_s)
+    except subprocess.TimeoutExpired:
+        print(f"    claude timed out after {timeout_s}s — skipping this document")
+        return {"text": None, "usage": zero_usage, "cost_usd": 0.0,
+                "is_error": True, "rate_limited": False}
+    except Exception as e:
+        print(f"    claude call failed: {e} — skipping this document")
+        return {"text": None, "usage": zero_usage, "cost_usd": 0.0,
+                "is_error": True, "rate_limited": False}
 
     if result.returncode != 0:
         print(f"    claude error (exit {result.returncode}): {result.stderr[:200]}")

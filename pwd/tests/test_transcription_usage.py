@@ -263,3 +263,21 @@ def test_tokens_exceeded_above_threshold_is_true():
 def test_tokens_exceeded_equal_threshold_is_false():
     totals = {"total_tokens": 200}
     assert transcribe.tokens_exceeded(totals, 200) is False
+
+
+# ---------------------------------------------------------------------------
+# call_timeout
+# ---------------------------------------------------------------------------
+
+def test_call_timeout_scales_with_pages():
+    assert transcribe.call_timeout(1) < transcribe.call_timeout(7)
+    # a 7-page doc (the one that crashed at the old flat 300s) now gets far longer
+    assert transcribe.call_timeout(7) == 180 + 90 * 7
+    assert transcribe.call_timeout(7) > 300
+
+
+def test_call_timeout_floor_and_cap():
+    # zero/negative page counts still get at least the one-page allowance
+    assert transcribe.call_timeout(0) == transcribe.call_timeout(1)
+    # very large docs are clamped to the cap
+    assert transcribe.call_timeout(10_000) == 1800

@@ -145,12 +145,18 @@ def parse_claude_json(stdout):
     }
 
 
-def is_rate_limit(stdout, stderr, returncode):
+def is_rate_limit(stdout, stderr, returncode, is_error=False):
     """Best-effort, conservative detection of a subscription rate/usage-limit error.
 
     Only returns True on clear indicators, so ordinary per-doc failures are not
     mistaken for rate limits. This is the single authoritative rate-limit check.
+
+    A successful call (returncode 0 and is_error False) is never a rate limit,
+    so a clean transcription's text is never scanned for these indicators.
     """
+    # A successful call is never a rate limit — never scan a good transcription's text.
+    if returncode == 0 and not is_error:
+        return False
     haystack = f"{stdout or ''}\n{stderr or ''}".lower()
     return any(indicator in haystack for indicator in RATE_LIMIT_INDICATORS)
 
@@ -206,8 +212,10 @@ def transcribe_images(image_paths, model="claude-sonnet-4-6"):
     if result.returncode != 0:
         print(f"    claude error (exit {result.returncode}): {result.stderr[:200]}")
 
-    rate_limited = is_rate_limit(result.stdout, result.stderr, result.returncode)
     parsed = parse_claude_json(result.stdout)
+    rate_limited = is_rate_limit(
+        result.stdout, result.stderr, result.returncode, is_error=parsed["is_error"]
+    )
 
     return {
         "text": parsed["text"],

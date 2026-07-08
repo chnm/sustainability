@@ -33,8 +33,8 @@ Outputs:
 
 ## Testable units (pure functions)
 
-- `parse_claude_json(stdout: str) -> dict` — returns `{text, is_error, rate_limited, usage, cost_usd}`. Handles: success payload; error payload; rate-limit payload; unparseable/empty stdout (→ `is_error=True`, `text=None`, zero usage).
-- `is_rate_limit(stdout: str, stderr: str, returncode: int) -> bool` — best-effort, case-insensitive detection of rate/usage-limit indicators (e.g. "rate limit", "usage limit", "429", "resets at", "limit reached"). Conservative: only true on clear indicators, so ordinary per-doc errors are NOT treated as rate limits.
+- `parse_claude_json(stdout: str) -> dict` — returns `{text, is_error, usage, cost_usd}`. Handles: success payload; error payload; unparseable/empty stdout (→ `is_error=True`, `text=None`, zero usage, `cost_usd=0.0`). Rate-limit detection is delegated to `is_rate_limit` (below), not computed here.
+- `is_rate_limit(stdout: str, stderr: str, returncode: int) -> bool` — best-effort, case-insensitive detection of rate/usage-limit indicators (e.g. "rate limit", "usage limit", "429", "resets at", "limit reached"). Conservative: only true on clear indicators, so ordinary per-doc errors are NOT treated as rate limits. This is the single authoritative rate-limit check.
 - `accumulate_usage(totals: dict, usage: dict) -> dict` — add one call's usage into running totals (per-category + `total_tokens`).
 - `tokens_exceeded(totals: dict, max_tokens: int | None) -> bool` — `False` when `max_tokens` is `None`; else `total_tokens > max_tokens`.
 

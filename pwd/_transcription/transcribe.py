@@ -40,8 +40,20 @@ MANIFEST = SCRIPT_DIR / "images.tsv"
 PROMPT_FILE = SCRIPT_DIR / "prompt.txt"
 CACHE_FILE = SCRIPT_DIR / ".transcribe_progress"
 OUTPUT_FILE = SCRIPT_DIR / "transcriptions.json"
+USAGE_LOG = SCRIPT_DIR / "usage_log.jsonl"
 
 MEDIA_BASE_URL = "https://obj.rrchnm.org/wardepartmentpapers.org/files/original"
+
+RATE_LIMIT_INDICATORS = (
+    "rate limit",
+    "rate_limit",
+    "usage limit",
+    "usage_limit",
+    "429",
+    "resets at",
+    "limit reached",
+    "usage limit reached",
+)
 
 
 def load_cache():
@@ -87,8 +99,97 @@ def download_image(filename, dest_dir):
         return None
 
 
+def _zero_usage():
+    return {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+    }
+
+
+def parse_claude_json(stdout):
+    """Parse `claude -p --output-format json` stdout into a structured result.
+
+    Returns {text, is_error, usage, cost_usd}. On unparseable/empty stdout,
+    returns is_error=True, text=None, zero usage, cost_usd=0.0.
+    """
+    if not stdout or not stdout.strip():
+        return {
+            "text": None,
+            "is_error": True,
+            "usage": _zero_usage(),
+            "cost_usd": 0.0,
+        }
+
+    try:
+        payload = json.loads(stdout)
+    except (json.JSONDecodeError, ValueError):
+        return {
+            "text": None,
+            "is_error": True,
+            "usage": _zero_usage(),
+            "cost_usd": 0.0,
+        }
+
+    raw_usage = payload.get("usage") or {}
+    usage = _zero_usage()
+    for key in usage:
+        usage[key] = raw_usage.get(key, 0)
+
+    return {
+        "text": payload.get("result"),
+        "is_error": bool(payload.get("is_error", False)),
+        "usage": usage,
+        "cost_usd": float(payload.get("total_cost_usd", 0.0) or 0.0),
+    }
+
+
+def is_rate_limit(stdout, stderr, returncode):
+    """Best-effort, conservative detection of a subscription rate/usage-limit error.
+
+    Only returns True on clear indicators, so ordinary per-doc failures are not
+    mistaken for rate limits. This is the single authoritative rate-limit check.
+    """
+    haystack = f"{stdout or ''}\n{stderr or ''}".lower()
+    return any(indicator in haystack for indicator in RATE_LIMIT_INDICATORS)
+
+
+def accumulate_usage(totals, usage):
+    """Add one call's usage into running totals. Returns an updated dict."""
+    updated = {
+        "input_tokens": totals.get("input_tokens", 0) + usage.get("input_tokens", 0),
+        "output_tokens": totals.get("output_tokens", 0) + usage.get("output_tokens", 0),
+        "cache_creation_input_tokens": (
+            totals.get("cache_creation_input_tokens", 0)
+            + usage.get("cache_creation_input_tokens", 0)
+        ),
+        "cache_read_input_tokens": (
+            totals.get("cache_read_input_tokens", 0)
+            + usage.get("cache_read_input_tokens", 0)
+        ),
+    }
+    updated["total_tokens"] = (
+        updated["input_tokens"]
+        + updated["output_tokens"]
+        + updated["cache_creation_input_tokens"]
+        + updated["cache_read_input_tokens"]
+    )
+    return updated
+
+
+def tokens_exceeded(totals, max_tokens):
+    """True if cumulative counted tokens exceed max_tokens. False when max_tokens is None."""
+    if max_tokens is None:
+        return False
+    return totals["total_tokens"] > max_tokens
+
+
 def transcribe_images(image_paths, model="claude-sonnet-4-6"):
-    """Run `claude -p` with the prompt and image files. Returns transcription text."""
+    """Run `claude -p` with the prompt and image files.
+
+    Returns {text, usage, cost_usd, is_error, rate_limited}.
+    """
     prompt = PROMPT_FILE.read_text() + "\n\nPlease read and transcribe the following image files:\n"
     for path in image_paths:
         prompt += f"- {path}\n"
@@ -97,15 +198,24 @@ def transcribe_images(image_paths, model="claude-sonnet-4-6"):
         "claude", "-p", prompt,
         "--model", model,
         "--allowedTools", "Read",
+        "--output-format", "json",
     ]
 
     result = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
 
     if result.returncode != 0:
         print(f"    claude error (exit {result.returncode}): {result.stderr[:200]}")
-        return None
 
-    return result.stdout.strip()
+    rate_limited = is_rate_limit(result.stdout, result.stderr, result.returncode)
+    parsed = parse_claude_json(result.stdout)
+
+    return {
+        "text": parsed["text"],
+        "usage": parsed["usage"],
+        "cost_usd": parsed["cost_usd"],
+        "is_error": parsed["is_error"],
+        "rate_limited": rate_limited,
+    }
 
 
 def load_manifest():
@@ -183,6 +293,10 @@ def main():
         help="Re-transcribe only these omeka_ids (one per line), forcing "
              "re-transcription even if already done.",
     )
+    parser.add_argument(
+        "--max-tokens", type=int, default=None,
+        help="Stop the run once cumulative tokens exceed N (counts input+output+cache).",
+    )
     args = parser.parse_args()
 
     manifest = load_manifest()
@@ -223,6 +337,15 @@ def main():
     print(f"Model: {args.model}")
     print()
 
+    totals = {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "total_tokens": 0,
+    }
+    cost_total = 0.0
+
     for i, (omeka_id, image_files) in enumerate(todo):
         image_files = image_files[:args.max_pages]
         print(f"[{i + 1}/{len(todo)}] Document {omeka_id} ({len(image_files)} page(s))")
@@ -243,18 +366,53 @@ def main():
             # Transcribe
             print(f"    Transcribing with claude -p...")
             start = time.time()
-            text = transcribe_images(local_paths, model=args.model)
+            outcome = transcribe_images(local_paths, model=args.model)
             elapsed = time.time() - start
 
-            if text:
-                transcriptions[omeka_id] = text
-                save_output(transcriptions)
-                append_cache(omeka_id)
-                print(f"    Done ({len(text)} chars, {elapsed:.1f}s)")
-            else:
+            text = outcome["text"]
+
+            if outcome["rate_limited"]:
+                print("    Hit subscription rate limit; stopping. "
+                      "Run is resumable — restart when your window resets.")
+                break
+
+            if not text or outcome["is_error"]:
                 print(f"    No transcription returned")
+                continue
+
+            transcriptions[omeka_id] = text
+            save_output(transcriptions)
+            append_cache(omeka_id)
+            print(f"    Done ({len(text)} chars, {elapsed:.1f}s)")
+
+            totals = accumulate_usage(totals, outcome["usage"])
+            cost_total += outcome["cost_usd"]
+            with open(USAGE_LOG, "a") as f:
+                f.write(json.dumps({
+                    "omeka_id": omeka_id,
+                    "input_tokens": outcome["usage"]["input_tokens"],
+                    "output_tokens": outcome["usage"]["output_tokens"],
+                    "cache_creation_input_tokens": outcome["usage"]["cache_creation_input_tokens"],
+                    "cache_read_input_tokens": outcome["usage"]["cache_read_input_tokens"],
+                    "total_tokens": (
+                        outcome["usage"]["input_tokens"]
+                        + outcome["usage"]["output_tokens"]
+                        + outcome["usage"]["cache_creation_input_tokens"]
+                        + outcome["usage"]["cache_read_input_tokens"]
+                    ),
+                    "cost_usd": outcome["cost_usd"],
+                    "cumulative_total_tokens": totals["total_tokens"],
+                    "cumulative_cost_usd": cost_total,
+                }) + "\n")
+            print(f"    Usage: {totals['total_tokens']} cumulative tokens, "
+                  f"${cost_total:.4f} notional cost, {i + 1} doc(s) done")
 
             # tempdir cleanup is automatic — images are deleted here
+
+            if tokens_exceeded(totals, args.max_tokens):
+                print(f"    Cumulative tokens ({totals['total_tokens']}) exceeded "
+                      f"--max-tokens ({args.max_tokens}); stopping. Run is resumable.")
+                break
 
     print(f"\nFinished. {len(transcriptions)} transcriptions in {OUTPUT_FILE}")
 

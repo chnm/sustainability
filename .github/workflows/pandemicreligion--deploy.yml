@@ -1,0 +1,95 @@
+name: "Deploy Static Websites -- pandemicreligion"
+
+on:
+  workflow_dispatch:
+    inputs:
+      site:
+        description: "Force-deploy one site, or 'all'"
+        type: choice
+        default: all
+        options:
+          - all
+          - americanjewishlife.org
+          - collectingthesetimes.org
+          - hazon.collectingthesetimes.org
+          - kahal.collectingthesetimes.org
+          - onetable.collectingthesetimes.org
+          - pandemicreligion.org
+          - preachinggoesviral.org
+  push:
+    branches: ["**"]
+    paths:
+      - 'pandemicreligion/**'
+      - '!.github/**'
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # need history for git diff
+      - id: set
+        env:
+          DISPATCH_SITE: ${{ github.event.inputs.site }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          set -euo pipefail
+          sites=(americanjewishlife.org collectingthesetimes.org \
+                 hazon.collectingthesetimes.org kahal.collectingthesetimes.org \
+                 onetable.collectingthesetimes.org pandemicreligion.org \
+                 preachinggoesviral.org)
+          # prod FQDN == the live domain (the site key itself); dev FQDN below.
+          declare -A dev=(
+            [americanjewishlife.org]=americanjewishlife.dev.chnm.gmu.edu
+            [collectingthesetimes.org]=collectingthesetimes.dev.chnm.gmu.edu
+            [hazon.collectingthesetimes.org]=hazon.dev.chnm.gmu.edu
+            [kahal.collectingthesetimes.org]=kahal.dev.chnm.gmu.edu
+            [onetable.collectingthesetimes.org]=onetable.dev.chnm.gmu.edu
+            [pandemicreligion.org]=pandemicreligion.dev.chnm.gmu.edu
+            [preachinggoesviral.org]=preachinggoesviral.dev.chnm.gmu.edu )
+
+          # choose the candidate set
+          if [ -n "${DISPATCH_SITE:-}" ] && [ "${DISPATCH_SITE}" != "all" ]; then
+            candidates=("${DISPATCH_SITE}")
+          elif [ "${DISPATCH_SITE:-}" = "all" ]; then
+            candidates=("${sites[@]}")
+          else
+            base="${BEFORE:-}"
+            if [ -z "$base" ] || ! git cat-file -e "${base}^{commit}" 2>/dev/null; then
+              base="HEAD^"
+            fi
+            mapfile -t files < <(git diff --name-only "$base" HEAD || git ls-files)
+            candidates=()
+            for s in "${sites[@]}"; do
+              printf '%s\n' "${files[@]}" | grep -q "^pandemicreligion/$s/" && candidates+=("$s")
+            done
+          fi
+
+          # emit JSON array of include objects; skip sites with no committed dir
+          # (keeps dispatch 'all' safe while only the pilot sites exist)
+          json='[]'
+          for s in "${candidates[@]}"; do
+            [ -d "pandemicreligion/$s" ] || { echo "skip $s (no dir)"; continue; }
+            json=$(jq -c --arg s "$s" --arg dev "${dev[$s]}" \
+              '. += [{site:$s, context_root:("pandemicreligion/"+$s), devl:$dev, prod:$s}]' <<<"$json")
+          done
+          echo "matrix=$json" >> "$GITHUB_OUTPUT"
+          echo "matrix=$json"
+
+  deploy:
+    needs: detect
+    if: ${{ needs.detect.outputs.matrix != '[]' }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJSON(needs.detect.outputs.matrix) }}
+    uses: chnm/.github/.github/workflows/static--deploy.yml@main
+    secrets: inherit
+    with:
+      context_root: ${{ matrix.context_root }}
+      website-devl-fqdn: ${{ matrix.devl }}
+      website-prod-fqdn: ${{ matrix.prod }}
+      runner_labels: '["self-hosted","IncusOS"]'

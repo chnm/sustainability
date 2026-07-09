@@ -18,7 +18,7 @@ its sub-collections, plus three standalone domains):
 | `hazon.collectingthesetimes.org/` | hazon | 7 | ✅ pilot |
 | `kahal.collectingthesetimes.org/` | kahal | 18 | ✅ pilot |
 | `onetable.collectingthesetimes.org/` | onetable | 17 | ✅ pilot |
-| `collectingthesetimes.org/` | collecting-these-times | 189 | ⬜ scale |
+| `collectingthesetimes.org/` | collecting-these-times | 1,000 | ✅ converted |
 | `americanjewishlife.org/` | american-jewish-life | 685 | ⬜ scale |
 | `preachinggoesviral.org/` | preaching-goes-viral | ~6,400 | ⬜ scale |
 | `pandemicreligion.org/` | (hub: contributions + AJL + PGV) | ~7,500 | ⬜ scale |

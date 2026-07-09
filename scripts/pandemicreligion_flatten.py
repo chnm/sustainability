@@ -84,19 +84,28 @@ _JUNK_SUBSTRINGS = (
 _JUNK_RE = re.compile(r"^item\?(https?|\?)", re.IGNORECASE)
 
 
-def is_junk(name: str) -> bool:
-    """True if an html basename is a prunable query-permutation file."""
+def is_junk(name: str, keep_pagination: bool = False) -> bool:
+    """True if an html basename is a prunable query-permutation file.
+
+    With keep_pagination, the default-sorted browse pagination files
+    (item?...&sort_by=created&sort_order=desc&page=N.html) are kept, so a
+    multi-page site's paginated browse (and its working next/prev links) survive
+    -- used for the larger sites where the browse spans >1 page.
+    """
     if "?" not in name:
         return False                       # real page (item/N.html, page/x.html)
+    if keep_pagination and re.search(
+            r"&sort_by=created&sort_order=desc&page=\d+\.html$", name):
+        return False
     if _JUNK_RE.match(name):
         return True
     return any(s in name for s in _JUNK_SUBSTRINGS)
 
 
-def prune_junk(out: Path) -> list[str]:
+def prune_junk(out: Path, keep_pagination: bool = False) -> list[str]:
     pruned = []
     for p in sorted(out.rglob("*.html")):
-        if is_junk(p.name):
+        if is_junk(p.name, keep_pagination):
             pruned.append(str(p.relative_to(out)))
             p.unlink()
     return pruned
@@ -371,6 +380,20 @@ def fix_link_names(text: str, titles: dict) -> str:
                   repl, text)
 
 
+def fix_images(text: str) -> str:
+    """Give alt-less images an alt (WCAG 1.1.1 image-alt / 4.1.2 link-name).
+
+    Some themes put an alt-less logo <img> inside a link (e.g. the RRCHNM
+    footer logo `<a class="logo" href="rrchnm.org"><img></a>`), which fails both
+    image-alt and the link's link-name. Name that logo; give every other
+    alt-less image a decorative empty alt.
+    """
+    text = re.sub(
+        r'(<a class="logo"[^>]*><img)((?:(?!alt=)[^>])*)>',
+        r'\1\2 alt="Roy Rosenzweig Center for History and New Media">', text)
+    return re.sub(r'(<img)((?:(?!alt=)[^>])*)>', r'\1\2 alt="">', text)
+
+
 # ---------------------------------------------------------------------------
 # 4. Pagefind body tagging
 # ---------------------------------------------------------------------------
@@ -522,7 +545,9 @@ def copy_assets(out: Path, domain: str) -> None:
         print(f"[{domain}] added Leaflet marker images (maps)")
 
 
-def flatten(src: Path, domain: str, out: Path, slug: str | None) -> None:
+def flatten(src: Path, domain: str, out: Path, slug: str | None,
+            keep_browse_controls: bool = False,
+            banner_color: str | None = None, banner_accent: str | None = None) -> None:
     print(f"[{domain}] copy {src} -> {out}")
     copy_tree(src, out)
     copy_assets(out, domain)
@@ -533,11 +558,13 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None) -> None:
     # site name + palette for the archive banner (constant across the site)
     home_raw = (out / "index.html").read_text(encoding="utf-8", errors="replace")
     name = site_name(home_raw)
-    primary, accent = theme_colors(home_raw)
+    auto_primary, auto_accent = theme_colors(home_raw)
+    primary = banner_color or auto_primary      # CLI override for themes whose
+    accent = banner_accent or auto_accent       # palette isn't in the inline <style>
     print(f"[{domain}] banner: '{name}' primary={primary} accent={accent}")
     titles = build_item_titles(out, slug)   # for accessible image-link names
 
-    pruned = prune_junk(out)
+    pruned = prune_junk(out, keep_pagination=keep_browse_controls)
     print(f"[{domain}] pruned {len(pruned)} junk permutation file(s)"
           + (":" if pruned else ""))
     for p in pruned:
@@ -564,9 +591,11 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None) -> None:
         text = neutralize_forms(text, domain)
         text = replace_dead_forms(text)
         text = replace_footer(text, _depth_prefix(rel))
-        text = remove_browse_controls(text)
+        if not keep_browse_controls:
+            text = remove_browse_controls(text)
         text = fix_definition_lists(text)
         text = fix_link_names(text, titles)
+        text = fix_images(text)
         text = add_archive_banner(text, name, primary, accent, _depth_prefix(rel))
         # Capture the home BEFORE tagging -- search.html is derived from it and
         # must stay untagged (never self-index).
@@ -601,10 +630,20 @@ def main() -> None:
     ap.add_argument("domain", help="live domain (== capture dir name)")
     ap.add_argument("out", type=Path, help="output static-site dir")
     ap.add_argument("--slug", help="Omeka S site slug (auto-detected from s/ if omitted)")
+    ap.add_argument("--keep-browse-controls", action="store_true",
+                    help="Keep the browse pagination/sort controls and the "
+                         "default-sorted paginated browse pages (for sites whose "
+                         "browse spans more than one page, e.g. collectingthesetimes).")
+    ap.add_argument("--banner-color",
+                    help="Archive-banner background (e.g. '#2436a1'); overrides "
+                         "auto-detection for themes whose palette isn't inline.")
+    ap.add_argument("--banner-accent", help="Archive-banner bottom-border color.")
     args = ap.parse_args()
     if not args.src.is_dir():
         sys.exit(f"error: src {args.src} is not a directory")
-    flatten(args.src, args.domain, args.out, args.slug)
+    flatten(args.src, args.domain, args.out, args.slug,
+            keep_browse_controls=args.keep_browse_controls,
+            banner_color=args.banner_color, banner_accent=args.banner_accent)
 
 
 if __name__ == "__main__":

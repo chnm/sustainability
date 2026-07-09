@@ -207,6 +207,64 @@ def remove_browse_controls(text: str) -> str:
     return _remove_div_blocks(text, "browse-controls")
 
 
+def theme_colors(text: str) -> tuple[str, str]:
+    """(primary, accent) hex colors from the page's inline theme <style>.
+
+    Each Omeka S site customizes its palette inline: `a:link {color: #rrggbb}`
+    is the brand color, `a:hover {background-color: #rrggbb}` a lighter accent.
+    Used to tint the archive banner per site. Falls back to a neutral pair.
+    """
+    blob = " ".join(re.findall(r"<style>(.*?)</style>", text, re.DOTALL))
+    prim = re.search(r"a:link\s*\{[^}]*?color:\s*(#[0-9a-fA-F]{3,6})", blob, re.DOTALL)
+    acc = re.search(r"a:hover[^{]*\{[^}]*?background-color:\s*(#[0-9a-fA-F]{3,6})",
+                    blob, re.DOTALL)
+    return (prim.group(1) if prim else "#333333",
+            acc.group(1) if acc else "#cccccc")
+
+
+def site_name(text: str) -> str:
+    """The human site name -- first segment of the page <title>."""
+    m = re.search(r"<title>(.*?)</title>", text, re.DOTALL)
+    return m.group(1).split("·")[0].strip() if m else ""
+
+
+def add_archive_banner(text: str, name: str, primary: str, accent: str,
+                       prefix: str) -> str:
+    """Inject the RRCHNM 'archived copy' banner at the top of every page.
+
+    Modeled on the shared RRCHNM archive banner (e.g. hurricane.dev.chnm.gmu.edu)
+    but tinted with the site's own brand/accent colors. Placed inside
+    .off-canvas-content (Foundation) as a static top bar -- not sticky, to avoid
+    fighting the theme's sticky nav.
+    """
+    style = (
+        "<style>"
+        f".pr-abanner{{background:{primary};color:#fefefe;"
+        f"border-bottom:3px solid {accent};font-size:.8rem;line-height:1.4}}"
+        ".pr-abanner__in{max-width:75rem;margin:0 auto;display:flex;"
+        "align-items:center;gap:.6rem;padding:.4rem 1rem}"
+        ".pr-abanner__logo{flex:0 0 auto;width:30px;height:29px;"
+        f'background:url("{prefix}assets/rrchnm_logo.png") center/contain no-repeat}}'
+        ".pr-abanner__t{margin:0;color:#fefefe}"
+        ".pr-abanner .pr-abanner__t a{color:#fefefe;text-decoration:underline}"
+        ".pr-abanner .pr-abanner__t a:hover{color:#fefefe;background:transparent}"
+        "</style>")
+    banner = (
+        '<div class="pr-abanner" role="note"><div class="pr-abanner__in">'
+        '<a class="pr-abanner__logo" href="https://rrchnm.org" target="_blank" '
+        'rel="noopener" aria-label="Roy Rosenzweig Center for History and New Media"></a>'
+        f'<p class="pr-abanner__t">This is an archived copy of <em>{html.escape(name)}</em>, '
+        'provided by the <a href="https://rrchnm.org" target="_blank" rel="noopener">'
+        'Roy Rosenzweig Center for History and New Media</a>.</p></div></div>')
+    text = text.replace("</head>", style + "</head>", 1)
+    occ = re.search(r'<div class="off-canvas-content[^"]*"[^>]*>', text)
+    if occ:
+        text = text[:occ.end()] + banner + text[occ.end():]
+    else:
+        text = re.sub(r"(<body\b[^>]*>)", lambda m: m.group(1) + banner, text, count=1)
+    return text
+
+
 # ---------------------------------------------------------------------------
 # 4. Pagefind body tagging
 # ---------------------------------------------------------------------------
@@ -349,6 +407,7 @@ def copy_assets(out: Path, domain: str) -> None:
     which left map markers invisible on retina displays)."""
     (out / "assets").mkdir(exist_ok=True)
     shutil.copy2(_ASSETS / "gmu-logo.png", out / "assets" / "gmu-logo.png")
+    shutil.copy2(_ASSETS / "rrchnm_logo.png", out / "assets" / "rrchnm_logo.png")
 
     leaflet_imgs = out / "modules/Mapping/asset/vendor/leaflet/images"
     if leaflet_imgs.is_dir():
@@ -364,6 +423,12 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None) -> None:
 
     slug = slug or detect_slug(out)
     print(f"[{domain}] slug = {slug}")
+
+    # site name + palette for the archive banner (constant across the site)
+    home_raw = (out / "index.html").read_text(encoding="utf-8", errors="replace")
+    name = site_name(home_raw)
+    primary, accent = theme_colors(home_raw)
+    print(f"[{domain}] banner: '{name}' primary={primary} accent={accent}")
 
     pruned = prune_junk(out)
     print(f"[{domain}] pruned {len(pruned)} junk permutation file(s)"
@@ -392,6 +457,7 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None) -> None:
         text = neutralize_forms(text, domain)
         text = replace_footer(text, _depth_prefix(rel))
         text = remove_browse_controls(text)
+        text = add_archive_banner(text, name, primary, accent, _depth_prefix(rel))
         # Capture the home BEFORE tagging -- search.html is derived from it and
         # must stay untagged (never self-index).
         if rel_posix == "index.html":

@@ -65,3 +65,37 @@ These are uncontrolled vocabulary annotations. They display on document pages bu
 - Removing aliases eliminated ~88k redirect HTML files
 - Removing `static-media` from `staticDir` avoids copying ~26k media files during build
 - Remaining build: ~44k content pages + ~4 taxonomy indexes + taxonomy term pages + paginator pages
+
+---
+
+## AI Transcription Pipeline
+
+Two implementations exist. The **preferred** one is `_transcription/transcribe.py`,
+which shells out to **`claude -p`** and bills a Claude **subscription** (no API
+token cost). `scripts/transcribe.py` is an alternate using the Anthropic SDK +
+API key. Full runbook: `_transcription/README.md`.
+
+Typical flow:
+
+1. Fix any truncated image lists: `python3 scripts/fix_multipage_images.py`
+   (local, no network; writes `multipage_grown_ids.txt`).
+2. Rebuild the manifest: `python3 _transcription/build_image_list.py --content-dir content/document`.
+3. Transcribe: `python3 _transcription/transcribe.py --ids-file multipage_grown_ids.txt --model claude-sonnet-4-6`.
+
+Operational notes:
+
+- **Resumable** — every doc is saved immediately (`.transcribe_progress` cache +
+  `transcriptions.json`). `--ids-file` *forces* its targets, so to resume a
+  targeted run without redoing work, regenerate a "remaining = targets − done"
+  list first (see the README).
+- **Usage guards** — `--max-tokens N` stops cleanly at a cumulative-token ceiling;
+  a subscription rate limit also stops cleanly. Per-doc usage is logged to
+  `_transcription/usage_log.jsonl`. There is no CLI to read remaining
+  subscription allowance — check `/usage` in a Claude Code session.
+- **Long runs** — wrap in `caffeinate -i -m -s -w <pid>` (or launch under
+  `caffeinate`) to prevent system idle-sleep while allowing the display to sleep;
+  keep the machine on AC and the lid open.
+- **Sync to site (manual, required)** — Hugo reads `data/transcriptions_ai.json`,
+  but the `claude -p` pipeline writes `_transcription/transcriptions.json`. Merge
+  the latter into the former before building, or the new transcriptions won't
+  appear on the site.

@@ -20,7 +20,7 @@ on:
     branches: ["**"]
     paths:
       - 'pandemicreligion/**'
-      - '!.github/**'
+      - '.github/workflows/pandemicreligion--deploy.yml'
 
 jobs:
   detect:
@@ -36,6 +36,8 @@ jobs:
         env:
           DISPATCH_SITE: ${{ github.event.inputs.site }}
           BEFORE: ${{ github.event.before }}
+          REF_NAME: ${{ github.ref_name }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           import json, os, subprocess
 
@@ -63,15 +65,32 @@ jobs:
               # workflow_dispatch: force every site
               candidates = list(SITES)
           else:
-              # push: deploy the sites whose files changed in this push.
-              base = os.environ.get("BEFORE", "")
-              no_base = (not base or set(base) == {"0"}                 # new branch: 000..0
-                         or git("cat-file", "-e", f"{base}^{{commit}}").returncode != 0)
-              diff = None if no_base else git("diff", "--name-only", base, "HEAD")
-              if no_base or diff.returncode != 0:
-                  # No usable diff base (new branch / force-push / shallow). This
-                  # run was already gated by the on.push `paths:` filter, so deploy
-                  # every committed site rather than silently deploying nothing.
+              # push. Pick the diff base from the target branch:
+              #   * default branch (-> prod): what THIS push changed (before..HEAD)
+              #   * feature branch (-> dev):  what the branch changes vs the default
+              #     branch (merge-base(default, HEAD)..HEAD), so every push to the
+              #     branch reliably deploys the sites it introduces -- independent
+              #     of github.event.before (which is 000..0 on a new branch).
+              before = os.environ.get("BEFORE", "")
+              ref = os.environ.get("REF_NAME", "")
+              default = os.environ.get("DEFAULT_BRANCH") or "main"
+
+              def valid(rev):
+                  return (bool(rev) and set(rev) != {"0"}
+                          and git("cat-file", "-e", f"{rev}^{{commit}}").returncode == 0)
+
+              if ref == default:
+                  base = before if valid(before) else None
+              else:
+                  git("fetch", "--no-tags", "origin", default)   # checkout only has this branch
+                  mb = git("merge-base", "FETCH_HEAD", "HEAD")
+                  base = mb.stdout.strip() if mb.returncode == 0 else None
+
+              diff = git("diff", "--name-only", base, "HEAD") if base else None
+              if diff is None or diff.returncode != 0:
+                  # No usable base (new/unrelated history). The on.push `paths:`
+                  # filter already gated this run, so deploy every committed site
+                  # rather than silently deploying nothing.
                   print("no usable diff base -> deploying all present sites")
                   candidates = list(SITES)
               else:

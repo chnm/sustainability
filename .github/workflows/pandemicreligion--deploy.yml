@@ -63,15 +63,21 @@ jobs:
               # workflow_dispatch: force every site
               candidates = list(SITES)
           else:
-              # push: deploy the sites whose files changed in this push
+              # push: deploy the sites whose files changed in this push.
               base = os.environ.get("BEFORE", "")
-              if not base or git("cat-file", "-e", f"{base}^{{commit}}").returncode != 0:
-                  base = "HEAD^"                     # first push / unknown base
-              diff = git("diff", "--name-only", base, "HEAD")
-              out = diff.stdout if diff.returncode == 0 else git("ls-files").stdout
-              changed = out.splitlines()
-              candidates = [s for s in SITES
-                            if any(f.startswith(f"pandemicreligion/{s}/") for f in changed)]
+              no_base = (not base or set(base) == {"0"}                 # new branch: 000..0
+                         or git("cat-file", "-e", f"{base}^{{commit}}").returncode != 0)
+              diff = None if no_base else git("diff", "--name-only", base, "HEAD")
+              if no_base or diff.returncode != 0:
+                  # No usable diff base (new branch / force-push / shallow). This
+                  # run was already gated by the on.push `paths:` filter, so deploy
+                  # every committed site rather than silently deploying nothing.
+                  print("no usable diff base -> deploying all present sites")
+                  candidates = list(SITES)
+              else:
+                  changed = diff.stdout.splitlines()
+                  candidates = [s for s in SITES
+                                if any(f.startswith(f"pandemicreligion/{s}/") for f in changed)]
 
           # one matrix entry per candidate that actually has a committed directory
           # (keeps dispatch 'all' safe while only the pilot sites exist)

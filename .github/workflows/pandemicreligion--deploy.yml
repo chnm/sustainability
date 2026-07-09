@@ -32,52 +32,65 @@ jobs:
         with:
           fetch-depth: 0   # need history for git diff
       - id: set
+        shell: python
         env:
           DISPATCH_SITE: ${{ github.event.inputs.site }}
           BEFORE: ${{ github.event.before }}
         run: |
-          set -euo pipefail
-          sites=(americanjewishlife.org collectingthesetimes.org \
-                 hazon.collectingthesetimes.org kahal.collectingthesetimes.org \
-                 onetable.collectingthesetimes.org pandemicreligion.org \
-                 preachinggoesviral.org)
-          # prod FQDN == the live domain (the site key itself); dev FQDN below.
-          declare -A dev=(
-            [americanjewishlife.org]=americanjewishlife.dev.chnm.gmu.edu
-            [collectingthesetimes.org]=collectingthesetimes.dev.chnm.gmu.edu
-            [hazon.collectingthesetimes.org]=hazon.dev.chnm.gmu.edu
-            [kahal.collectingthesetimes.org]=kahal.dev.chnm.gmu.edu
-            [onetable.collectingthesetimes.org]=onetable.dev.chnm.gmu.edu
-            [pandemicreligion.org]=pandemicreligion.dev.chnm.gmu.edu
-            [preachinggoesviral.org]=preachinggoesviral.dev.chnm.gmu.edu )
+          import json, os, subprocess
 
-          # choose the candidate set
-          if [ -n "${DISPATCH_SITE:-}" ] && [ "${DISPATCH_SITE}" != "all" ]; then
-            candidates=("${DISPATCH_SITE}")
-          elif [ "${DISPATCH_SITE:-}" = "all" ]; then
-            candidates=("${sites[@]}")
-          else
-            base="${BEFORE:-}"
-            if [ -z "$base" ] || ! git cat-file -e "${base}^{commit}" 2>/dev/null; then
-              base="HEAD^"
-            fi
-            mapfile -t files < <(git diff --name-only "$base" HEAD || git ls-files)
-            candidates=()
-            for s in "${sites[@]}"; do
-              printf '%s\n' "${files[@]}" | grep -q "^pandemicreligion/$s/" && candidates+=("$s")
-            done
-          fi
+          # site -> dev FQDN. Prod FQDN == the live domain (the site key itself).
+          DEV = {
+              "americanjewishlife.org":            "americanjewishlife.dev.chnm.gmu.edu",
+              "collectingthesetimes.org":          "collectingthesetimes.dev.chnm.gmu.edu",
+              "hazon.collectingthesetimes.org":    "hazon.dev.chnm.gmu.edu",
+              "kahal.collectingthesetimes.org":    "kahal.dev.chnm.gmu.edu",
+              "onetable.collectingthesetimes.org": "onetable.dev.chnm.gmu.edu",
+              "pandemicreligion.org":              "pandemicreligion.dev.chnm.gmu.edu",
+              "preachinggoesviral.org":            "preachinggoesviral.dev.chnm.gmu.edu",
+          }
+          SITES = list(DEV)
 
-          # emit JSON array of include objects; skip sites with no committed dir
+          def git(*args):
+              return subprocess.run(["git", *args], capture_output=True, text=True)
+
+          dispatch = os.environ.get("DISPATCH_SITE", "")
+
+          if dispatch and dispatch != "all":
+              # workflow_dispatch: force one site
+              candidates = [dispatch]
+          elif dispatch == "all":
+              # workflow_dispatch: force every site
+              candidates = list(SITES)
+          else:
+              # push: deploy the sites whose files changed in this push
+              base = os.environ.get("BEFORE", "")
+              if not base or git("cat-file", "-e", f"{base}^{{commit}}").returncode != 0:
+                  base = "HEAD^"                     # first push / unknown base
+              diff = git("diff", "--name-only", base, "HEAD")
+              out = diff.stdout if diff.returncode == 0 else git("ls-files").stdout
+              changed = out.splitlines()
+              candidates = [s for s in SITES
+                            if any(f.startswith(f"pandemicreligion/{s}/") for f in changed)]
+
+          # one matrix entry per candidate that actually has a committed directory
           # (keeps dispatch 'all' safe while only the pilot sites exist)
-          json='[]'
-          for s in "${candidates[@]}"; do
-            [ -d "pandemicreligion/$s" ] || { echo "skip $s (no dir)"; continue; }
-            json=$(jq -c --arg s "$s" --arg dev "${dev[$s]}" \
-              '. += [{site:$s, context_root:("pandemicreligion/"+$s), devl:$dev, prod:$s}]' <<<"$json")
-          done
-          echo "matrix=$json" >> "$GITHUB_OUTPUT"
-          echo "matrix=$json"
+          include = []
+          for s in candidates:
+              if not os.path.isdir(f"pandemicreligion/{s}"):
+                  print(f"skip {s} (no dir)")
+                  continue
+              include.append({
+                  "site":         s,
+                  "context_root": f"pandemicreligion/{s}",
+                  "devl":         DEV[s],
+                  "prod":         s,
+              })
+
+          matrix = json.dumps(include)
+          print(f"matrix={matrix}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+              fh.write(f"matrix={matrix}\n")
 
   deploy:
     needs: detect

@@ -1,3 +1,5 @@
 images.tsv
 transcriptions.json
 .transcribe_progress
+remaining_ids.txt
+usage_log.jsonl

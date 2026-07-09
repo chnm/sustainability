@@ -165,6 +165,21 @@ def neutralize_forms(text: str, domain: str) -> str:
         text)
 
 
+_DEAD_FORM_NOTE = ('<div class="archived-form-note" role="note"><p>'
+                   'The contribution form is part of the original live site and is '
+                   'not available in this archived copy.</p></div>')
+
+
+def replace_dead_forms(text: str) -> str:
+    """Replace neutralized submit forms (the Collecting contribute form) with a
+    note. The dead form's ~30 unlabeled fields, selects, and reCAPTCHA otherwise
+    fail WCAG 2.2 AA (label / select-name / aria-valid-attr); it can never submit
+    from a static mirror, so a plain explanatory note is both accessible and
+    clearer than a form that silently does nothing."""
+    return re.sub(r"<form\b[^>]*data-static-disabled[^>]*>.*?</form>",
+                  _DEAD_FORM_NOTE, text, flags=re.DOTALL)
+
+
 _FOOTER_LOGO = ('<a href="https://www.gmu.edu/" class="footer-gmu">'
                 '<img src="{prefix}assets/gmu-logo.png" '
                 'alt="George Mason University" style="height:2.5rem;width:auto"></a>')
@@ -263,6 +278,97 @@ def add_archive_banner(text: str, name: str, primary: str, accent: str,
     else:
         text = re.sub(r"(<body\b[^>]*>)", lambda m: m.group(1) + banner, text, count=1)
     return text
+
+
+# ---------------------------------------------------------------------------
+# 3b. WCAG 2.2 AA remediation
+# ---------------------------------------------------------------------------
+
+def _rename_div_block(text: str, class_token: str, new_tag: str) -> str:
+    """Rename <div ...class="...class_token...">...</div> to <new_tag>, div-balanced."""
+    open_re = re.compile(r'<div\b([^>]*class="[^"]*' + re.escape(class_token)
+                         + r'[^"]*"[^>]*)>')
+    tag_re = re.compile(r'<div\b|</div>')
+    out, pos = [], 0
+    while True:
+        m = open_re.search(text, pos)
+        if not m:
+            out.append(text[pos:])
+            break
+        out.append(text[pos:m.start()])
+        depth, end = 1, m.end()
+        for t in tag_re.finditer(text, m.end()):
+            depth += 1 if t.group() == "<div" else -1
+            if depth == 0:
+                end = t.end()
+                break
+        inner = text[m.end():end - len("</div>")]
+        out.append(f"<{new_tag}{m.group(1)}>{inner}</{new_tag}>")
+        pos = end
+    return "".join(out)
+
+
+def fix_definition_lists(text: str) -> str:
+    """Fix Omeka S's invalid item-metadata <dl> (WCAG 1.3.1 / axe definition-list).
+
+    Omeka emits `<dl><div class="property"><dt>..</dt><div class="values">
+    <dl class="value">text</dl></div></div></dl>` -- the value wrapper is a div
+    (not <dd>) and each value is a nested <dl> with no dt/dd. Rewrite the leaf
+    value <dl>s to <div>s and the .values wrapper to <dd>, giving valid
+    dl > div(dt, dd) structure.
+    """
+    # leaf value <dl>s are invalid (no dt/dd) -> plain <div> (safe anywhere).
+    # Match any trailing classes too (e.g. class="value uri"); leaving those as
+    # <dl> would also break the region scoping below.
+    text = re.sub(r'<dl class="value([^"]*)"([^>]*)>(.*?)</dl>',
+                  r'<div class="value\1"\2>\3</div>', text, flags=re.DOTALL)
+    # the .values wrapper must be a <dd> -- but ONLY inside the metadata <dl>.
+    # Scope the rename to each <dl>...</dl> region so unrelated .values blocks
+    # (e.g. the "Item Sets" list, which uses <h4> and sits outside the dl) stay
+    # <div> rather than becoming orphan <dd>s (axe dlitem).
+    def _fix_region(m: "re.Match") -> str:
+        return m.group(1) + _rename_div_block(m.group(2), "values", "dd") + m.group(3)
+    return re.sub(r"(<dl\b[^>]*>)(.*?)(</dl>)", _fix_region, text, flags=re.DOTALL)
+
+
+def build_item_titles(out: Path, slug: str) -> dict:
+    """{item_id: title} from each item page's <title> middle segment."""
+    titles = {}
+    itemdir = out / "s" / slug / "item"
+    if itemdir.is_dir():
+        for f in itemdir.glob("*.html"):
+            m = re.match(r"(\d+)\.html$", f.name)
+            if not m:
+                continue
+            tm = re.search(r"<title>(.*?)</title>",
+                           f.read_text(encoding="utf-8", errors="replace"), re.DOTALL)
+            if tm:
+                parts = [p.strip() for p in tm.group(1).split("·")]
+                if len(parts) >= 3:
+                    titles[m.group(1)] = " · ".join(parts[1:-1])
+    return titles
+
+
+def fix_link_names(text: str, titles: dict) -> str:
+    """Give image-only item links an accessible name (WCAG 2.4.4/4.1.2 link-name).
+
+    - Grid `.thumbnail` links duplicate the adjacent title link -> hide them from
+      AT and the tab order (aria-hidden + tabindex=-1).
+    - Standalone image links (e.g. the home showcase) are the only link to their
+      item -> set the <img> alt to the item's title.
+    """
+    text = text.replace('<a class="thumbnail"',
+                        '<a class="thumbnail" tabindex="-1" aria-hidden="true"')
+
+    def repl(m: "re.Match") -> str:
+        href, pre, post = m.group(1), m.group(2), m.group(3)
+        idm = re.search(r"item/(\d+)\.html", href)
+        title = titles.get(idm.group(1)) if idm else None
+        alt = html.escape(title, quote=True) if title else "Featured item"
+        return f'<a href="{href}"><img{pre} alt="{alt}"{post}></a>'
+
+    return re.sub(r'<a href="([^"]*item/\d+\.html)"><img([^>]*?)\s+alt=""([^>]*?)></a>',
+                  repl, text)
 
 
 # ---------------------------------------------------------------------------
@@ -429,6 +535,7 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None) -> None:
     name = site_name(home_raw)
     primary, accent = theme_colors(home_raw)
     print(f"[{domain}] banner: '{name}' primary={primary} accent={accent}")
+    titles = build_item_titles(out, slug)   # for accessible image-link names
 
     pruned = prune_junk(out)
     print(f"[{domain}] pruned {len(pruned)} junk permutation file(s)"
@@ -455,8 +562,11 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None) -> None:
         text = externalize_media(text, domain)
         text = rewire_search(text, domain, slug, _depth_prefix(rel))
         text = neutralize_forms(text, domain)
+        text = replace_dead_forms(text)
         text = replace_footer(text, _depth_prefix(rel))
         text = remove_browse_controls(text)
+        text = fix_definition_lists(text)
+        text = fix_link_names(text, titles)
         text = add_archive_banner(text, name, primary, accent, _depth_prefix(rel))
         # Capture the home BEFORE tagging -- search.html is derived from it and
         # must stay untagged (never self-index).

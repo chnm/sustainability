@@ -41,6 +41,10 @@ import shutil
 import sys
 from pathlib import Path
 
+# Vendored assets copied into every site (footer logo; the two Leaflet marker
+# images wget never fetched -- see copy_assets / the maps note below).
+_ASSETS = Path(__file__).resolve().parent / "assets"
+
 # ---------------------------------------------------------------------------
 # 1. copy
 # ---------------------------------------------------------------------------
@@ -159,6 +163,48 @@ def neutralize_forms(text: str, domain: str) -> str:
         rf'(<form\b[^>]*?)\s+action="https://{re.escape(domain)}/[^"]*"',
         r'\1 action="#" onsubmit="return false;" data-static-disabled',
         text)
+
+
+_FOOTER_LOGO = ('<a href="https://www.gmu.edu/" class="footer-gmu">'
+                '<img src="{prefix}assets/gmu-logo.png" '
+                'alt="George Mason University" style="height:2.5rem;width:auto"></a>')
+
+
+def replace_footer(text: str, prefix: str) -> str:
+    """Swap the shared 'Powered by Omeka S' footer line for the GMU logo."""
+    return text.replace("Powered by Omeka S", _FOOTER_LOGO.format(prefix=prefix))
+
+
+def _remove_div_blocks(text: str, class_token: str) -> str:
+    """Remove every <div ...class="...class_token..."...>...</div>, div-balanced."""
+    open_re = re.compile(r'<div\b[^>]*class="[^"]*' + re.escape(class_token)
+                         + r'[^"]*"[^>]*>')
+    tag_re = re.compile(r'<div\b|</div>')
+    out, pos = [], 0
+    while True:
+        m = open_re.search(text, pos)
+        if not m:
+            out.append(text[pos:])
+            break
+        out.append(text[pos:m.start()])
+        depth, end = 1, m.end()
+        for t in tag_re.finditer(text, m.end()):
+            depth += 1 if t.group() == "<div" else -1
+            if depth == 0:
+                end = t.end()
+                break
+        pos = end
+    return "".join(out)
+
+
+def remove_browse_controls(text: str) -> str:
+    """Drop the .browse-controls block (pagination, sort form, advanced search).
+
+    These collections are small enough that every item fits on one page, and the
+    controls only GET/POST to the dead live Omeka server. The header Pagefind
+    search stays for finding items.
+    """
+    return _remove_div_blocks(text, "browse-controls")
 
 
 # ---------------------------------------------------------------------------
@@ -296,9 +342,25 @@ def detect_slug(out: Path) -> str:
     return dirs[0]
 
 
+def copy_assets(out: Path, domain: str) -> None:
+    """Land vendored assets: the footer logo, and the two Leaflet marker images
+    wget missed (marker-icon-2x.png / marker-shadow.png are referenced only by
+    the Mapping module's JS, never by CSS, so the crawler never fetched them --
+    which left map markers invisible on retina displays)."""
+    (out / "assets").mkdir(exist_ok=True)
+    shutil.copy2(_ASSETS / "gmu-logo.png", out / "assets" / "gmu-logo.png")
+
+    leaflet_imgs = out / "modules/Mapping/asset/vendor/leaflet/images"
+    if leaflet_imgs.is_dir():
+        for img in ("marker-icon.png", "marker-icon-2x.png", "marker-shadow.png"):
+            shutil.copy2(_ASSETS / "leaflet" / img, leaflet_imgs / img)
+        print(f"[{domain}] added Leaflet marker images (maps)")
+
+
 def flatten(src: Path, domain: str, out: Path, slug: str | None) -> None:
     print(f"[{domain}] copy {src} -> {out}")
     copy_tree(src, out)
+    copy_assets(out, domain)
 
     slug = slug or detect_slug(out)
     print(f"[{domain}] slug = {slug}")
@@ -328,6 +390,8 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None) -> None:
         text = externalize_media(text, domain)
         text = rewire_search(text, domain, slug, _depth_prefix(rel))
         text = neutralize_forms(text, domain)
+        text = replace_footer(text, _depth_prefix(rel))
+        text = remove_browse_controls(text)
         # Capture the home BEFORE tagging -- search.html is derived from it and
         # must stay untagged (never self-index).
         if rel_posix == "index.html":

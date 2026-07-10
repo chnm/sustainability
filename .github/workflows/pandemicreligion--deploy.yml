@@ -65,12 +65,13 @@ jobs:
               # workflow_dispatch: force every site
               candidates = list(SITES)
           else:
-              # push. Pick the diff base from the target branch:
-              #   * default branch (-> prod): what THIS push changed (before..HEAD)
-              #   * feature branch (-> dev):  what the branch changes vs the default
-              #     branch (merge-base(default, HEAD)..HEAD), so every push to the
-              #     branch reliably deploys the sites it introduces -- independent
-              #     of github.event.before (which is 000..0 on a new branch).
+              # push. Prefer the INCREMENTAL base -- before..HEAD, i.e. exactly
+              # what this push changed -- on any branch, so a normal push deploys
+              # only the site(s) it actually touched. Fall back only when `before`
+              # is unusable (new branch: 000..0, or force-push): on a feature
+              # branch diff against the default branch's merge-base (so the
+              # branch's sites deploy on its FIRST push); on the default branch,
+              # deploy all present sites.
               before = os.environ.get("BEFORE", "")
               ref = os.environ.get("REF_NAME", "")
               default = os.environ.get("DEFAULT_BRANCH") or "main"
@@ -79,12 +80,14 @@ jobs:
                   return (bool(rev) and set(rev) != {"0"}
                           and git("cat-file", "-e", f"{rev}^{{commit}}").returncode == 0)
 
-              if ref == default:
-                  base = before if valid(before) else None
-              else:
+              if valid(before):
+                  base = before
+              elif ref != default:
                   git("fetch", "--no-tags", "origin", default)   # checkout only has this branch
                   mb = git("merge-base", "FETCH_HEAD", "HEAD")
                   base = mb.stdout.strip() if mb.returncode == 0 else None
+              else:
+                  base = None
 
               diff = git("diff", "--name-only", base, "HEAD") if base else None
               if diff is None or diff.returncode != 0:

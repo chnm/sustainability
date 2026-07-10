@@ -1,11 +1,11 @@
 # Collecting These Times
 
-**A flattened static archive of the Pandemic Religion Omeka S hub site
-`collectingthesetimes.org`.**
+**A flattened static archive of the Pandemic Religion Omeka S hub site `collectingthesetimes.org`.**
 
-The *Collecting These Times* hub aggregates contributions across the project's
-sub-collections. Flattened from a `wget --mirror` capture with
-`scripts/pandemicreligion_flatten.py --keep-browse-controls`.
+Flattened from a `wget --mirror` capture with
+`scripts/pandemicreligion_flatten.py --keep-browse-controls`. The browse spans
+multiple pages here, so the pagination controls are kept and the default-sorted
+paginated browse (item and item-set) pages are retained — next/prev works.
 
 ## Media is external
 
@@ -13,15 +13,12 @@ sub-collections. Flattened from a `wget --mirror` capture with
 `https://collectingthesetimes.org/files/...` URLs on the live host; flattening dropped
 everything under `files/`.
 
-## Search & browse
+## Search
 
-- **[Pagefind](https://pagefind.app/)** header search (committed `pagefind/`
-  index; rebuild with `npx pagefind@1.5.2 --site .`).
-- Unlike the small sub-sites, the browse here spans multiple pages (~35 for the
-  main set of 859 items), so the **pagination controls are kept** and the
-  default-sorted paginated browse pages are retained — next/prev navigation
-  works. The sort dropdown and advanced-search link are inert in a static
-  mirror.
+**[Pagefind](https://pagefind.app/)** header search (committed `pagefind/`;
+rebuild with `npx pagefind@1.5.2 --site .`). The sort dropdown and
+advanced-search link are inert in a static mirror; Pagefind is the working
+search.
 
 ## Local preview
 

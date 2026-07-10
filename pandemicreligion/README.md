@@ -20,8 +20,18 @@ its sub-collections, plus three standalone domains):
 | `onetable.collectingthesetimes.org/` | onetable | 17 | ✅ pilot |
 | `collectingthesetimes.org/` | collecting-these-times | 1,000 | ✅ converted |
 | `americanjewishlife.org/` | american-jewish-life | ~991 | ✅ converted |
-| `preachinggoesviral.org/` | preaching-goes-viral | ~12,800 | ✅ converted |
+| `preachinggoesviral.org/` | preaching-goes-viral | ~5,600 browsable / ~12,800 pages¹ | ✅ converted |
 | `pandemicreligion.org/` | contributions (hub) | 580 | ✅ converted |
+
+¹ *Preaching Goes Viral* has two legitimate counts. Its **"Browse items"** page
+lists **~5,572** items (56 pages), which is what a visitor reaches by clicking
+through the site. The archive itself contains **~12,800 distinct item pages**
+(`item/`, plus ~860 under `collecting/item/`) — the full item pool, all genuine
+PGV content and fully interlinked. The pool is larger than the browse because a
+recursive crawl follows item-to-item links into items that aren't surfaced in
+the default browse (e.g. bulk-imported multi-part submissions); those pages are
+still reachable via item links and Pagefind search. The other sites' counts are
+their browse totals.
 
 All seven are converted. `pandemicreligion.org` is a multi-site Omeka S install
 that also re-serves the `american-jewish-life` and `preaching-goes-viral` sites

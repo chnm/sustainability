@@ -95,8 +95,9 @@ def is_junk(name: str, keep_pagination: bool = False) -> bool:
     if "?" not in name:
         return False                       # real page (item/N.html, page/x.html)
     if keep_pagination and re.search(
-            r"&sort_by=created&sort_order=desc&page=\d+\.html$", name):
-        return False
+            r"[?&]sort_by=created&sort_order=desc&page=\d+\.html$", name):
+        return False   # default-sorted pagination -- item browse (&sort_by) AND
+                       # item-set browse (?sort_by, sort is the first param)
     if _JUNK_RE.match(name):
         return True
     return any(s in name for s in _JUNK_SUBSTRINGS)
@@ -389,9 +390,28 @@ def fix_images(text: str) -> str:
     alt-less image a decorative empty alt.
     """
     text = re.sub(
-        r'(<a class="logo"[^>]*><img)((?:(?!alt=)[^>])*)>',
+        r'(<a [^>]*href="[^"]*rrchnm[^"]*"[^>]*><img)((?:(?!alt=)[^>])*)>',
         r'\1\2 alt="Roy Rosenzweig Center for History and New Media">', text)
     return re.sub(r'(<img)((?:(?!alt=)[^>])*)>', r'\1\2 alt="">', text)
+
+
+def fix_selects(text: str) -> str:
+    """Give any <select> lacking an accessible name an aria-label (WCAG 4.1.2
+    select-name). Omeka S item pages carry a linked-resources property filter
+    (id=filter-property) with no <label>; the browse sort selects already have
+    aria-label."""
+    def repl(m: "re.Match") -> str:
+        tag = m.group(0)
+        if "aria-label" in tag:
+            return tag
+        sid = re.search(r'\bid="([^"]*)"', tag)
+        sid = sid.group(1) if sid else ""
+        if sid and f'for="{sid}"' in text:            # already has a <label for>
+            return tag
+        label = ("Filter linked resources by property"
+                 if sid == "filter-property" else "Filter")
+        return tag[:-1] + f' aria-label="{label}">'
+    return re.sub(r"<select\b[^>]*>", repl, text)
 
 
 # ---------------------------------------------------------------------------
@@ -596,6 +616,7 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None,
         text = fix_definition_lists(text)
         text = fix_link_names(text, titles)
         text = fix_images(text)
+        text = fix_selects(text)
         text = add_archive_banner(text, name, primary, accent, _depth_prefix(rel))
         # Capture the home BEFORE tagging -- search.html is derived from it and
         # must stay untagged (never self-index).

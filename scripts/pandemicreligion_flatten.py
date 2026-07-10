@@ -290,14 +290,81 @@ def redirect_external_slugs(text: str, external: dict) -> str:
     return text
 
 
-_FOOTER_LOGO = ('<a href="https://www.gmu.edu/" class="footer-gmu">'
-                '<img src="{prefix}assets/gmu-logo.png" '
-                'alt="George Mason University" style="height:2.5rem;width:auto"></a>')
+# The archiving institution, as a side-by-side pair of committed logos (no
+# dependency on the live host's /files for chrome). RRCHNM wordmark + GMU
+# wordmark, matched to a common height.
+def _logo_pair(prefix: str, height: str = "2.25rem") -> str:
+    return (
+        f'<a href="https://rrchnm.org/" target="_blank" rel="noopener">'
+        f'<img src="{prefix}assets/rrchnm_wordmark.png" '
+        f'alt="Roy Rosenzweig Center for History and New Media" '
+        f'style="height:{height};width:auto"></a>'
+        f'<a href="https://www.gmu.edu/" target="_blank" rel="noopener">'
+        f'<img src="{prefix}assets/gmu-logo.png" '
+        f'alt="George Mason University" style="height:{height};width:auto"></a>')
+
+
+def _footer_logos(prefix: str) -> str:
+    return ('<div class="pr-footer-logos" style="display:flex;align-items:center;'
+            'justify-content:center;flex-wrap:wrap;gap:1.75rem;margin:1.25rem 0">'
+            + _logo_pair(prefix) + '</div>')
+
+
+def _about_logos(prefix: str) -> str:
+    return ('<div class="pr-about-logos" style="display:flex;align-items:center;'
+            'flex-wrap:wrap;gap:1.5rem;margin:2rem 0 0.5rem;padding-top:1.25rem;'
+            'border-top:1px solid #ddd">'
+            '<span style="width:100%;margin-bottom:.25rem;font-size:.9rem;'
+            'color:#555">This archive is preserved by:</span>'
+            + _logo_pair(prefix) + '</div>')
+
+# existing footer logos we normalize away before inserting the pair: the GMU
+# logo this script inserted earlier, and the theme's own RRCHNM *image* logo
+# (a live-host /files asset). Text links to rrchnm.org are left alone.
+_OLD_GMU_RE = re.compile(r'<a\b[^>]*class="footer-gmu"[^>]*>.*?</a>', re.DOTALL)
+_FOOTER_RRCHNM_IMG_RE = re.compile(
+    r'<a\b[^>]*href="[^"]*rrchnm[^"]*"[^>]*>\s*'
+    r'<img\b[^>]*alt="Roy Rosenzweig[^"]*"[^>]*>\s*</a>', re.DOTALL | re.IGNORECASE)
+_FOOTER_LOGOS_RE = re.compile(r'<div class="pr-footer-logos".*?</div>', re.DOTALL)
+
+
+# containers the themes wrap their footer logos in; once we pull the logos out
+# they'd remain as empty boxes that still contribute margin (a visible gap).
+_EMPTY_FOOTER_DIV_RE = re.compile(
+    r'<div\b[^>]*class="[^"]*'
+    r'(?:logos|footer-links|collecting-these-times-footer)[^"]*"[^>]*>\s*</div>')
 
 
 def replace_footer(text: str, prefix: str) -> str:
-    """Swap the shared 'Powered by Omeka S' footer line for the GMU logo."""
-    return text.replace("Powered by Omeka S", _FOOTER_LOGO.format(prefix=prefix))
+    """Normalize the footer to show the RRCHNM + GMU logos side by side.
+
+    Removes the 'Powered by Omeka S' line, any GMU logo this script inserted
+    before, and the theme's own RRCHNM image logo (which loaded from the live
+    host); tidies the containers/period those leave behind; then drops in one
+    committed, self-contained side-by-side pair just before </footer>.
+    Idempotent."""
+    text = re.sub(r"\s*Powered by Omeka S\s*\.?", "", text)
+    text = _OLD_GMU_RE.sub("", text)
+    text = _FOOTER_RRCHNM_IMG_RE.sub("", text)
+    text = _FOOTER_LOGOS_RE.sub("", text)
+    # drop now-empty logo containers (their margins would leave a gap)
+    prev = None
+    while prev != text:
+        prev = text
+        text = _EMPTY_FOOTER_DIV_RE.sub("", text)
+    # tidy an orphaned period where an inline "…Omeka S." / logo used to sit
+    text = re.sub(r"\.\s+\.(\s*</footer>)", r".\1", text)
+    return re.sub(r'</footer>', lambda _: _footer_logos(prefix) + "</footer>",
+                  text, count=1)
+
+
+def add_about_logos(text: str, prefix: str) -> str:
+    """Place a labeled RRCHNM + GMU credit at the end of an About page's
+    content (just above the footer). Idempotent."""
+    if "pr-about-logos" in text:
+        return text
+    return re.sub(r'<footer\b', lambda m: _about_logos(prefix) + m.group(0),
+                  text, count=1)
 
 
 def _remove_div_blocks(text: str, class_token: str) -> str:
@@ -670,6 +737,7 @@ def copy_assets(out: Path, domain: str) -> None:
     (out / "assets").mkdir(exist_ok=True)
     shutil.copy2(_ASSETS / "gmu-logo.png", out / "assets" / "gmu-logo.png")
     shutil.copy2(_ASSETS / "rrchnm_logo.png", out / "assets" / "rrchnm_logo.png")
+    shutil.copy2(_ASSETS / "rrchnm_wordmark.png", out / "assets" / "rrchnm_wordmark.png")
 
     leaflet_imgs = out / "modules/Mapping/asset/vendor/leaflet/images"
     if leaflet_imgs.is_dir():
@@ -741,6 +809,8 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None,
         if external:
             text = redirect_external_slugs(text, external)
         text = replace_footer(text, _depth_prefix(rel))
+        if re.search(r"/page/about\.html$", "/" + rel_posix, re.IGNORECASE):
+            text = add_about_logos(text, _depth_prefix(rel))
         if not keep_browse_controls:
             text = remove_browse_controls(text)
         text = fix_definition_lists(text)

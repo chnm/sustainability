@@ -53,10 +53,12 @@ _ASSETS = Path(__file__).resolve().parent / "assets"
 _IGNORE = shutil.ignore_patterns(".crawl", "files", ".gitignore", ".DS_Store")
 
 
-def copy_tree(src: Path, out: Path) -> None:
+def copy_tree(src: Path, out: Path, extra_ignore=()) -> None:
     if out.exists():
         shutil.rmtree(out)
-    shutil.copytree(src, out, ignore=_IGNORE)
+    ignore = shutil.ignore_patterns(".crawl", "files", ".gitignore", ".DS_Store",
+                                    *extra_ignore)
+    shutil.copytree(src, out, ignore=ignore)
 
 
 # ---------------------------------------------------------------------------
@@ -188,6 +190,24 @@ def replace_dead_forms(text: str) -> str:
     clearer than a form that silently does nothing."""
     return re.sub(r"<form\b[^>]*data-static-disabled[^>]*>.*?</form>",
                   _DEAD_FORM_NOTE, text, flags=re.DOTALL)
+
+
+def redirect_external_slugs(text: str, external: dict) -> str:
+    """Point links into other slugs of a multi-site Omeka S install at their own
+    dedicated domains, so a hub archive doesn't duplicate sites archived
+    separately. external = {slug: domain}. Handles relative links at any depth
+    (../../<slug>/…, s/<slug>/…) and the s/<slug>.html site-home file."""
+    for slug, domain in external.items():
+        s = re.escape(slug)
+        pre = r'((?:href|src)=")(?:[^"]*?/)?'    # attr + optional path prefix
+        # the slug's site home (.../<slug>.html or .../<slug>/index.html) -> the
+        # dedicated site root (its archive home is index.html, not s/<slug>/...)
+        text = re.sub(pre + rf'{s}(?:\.html|/index\.html)([^"]*)"',
+                      rf'\1https://{domain}/\2"', text)
+        # any other slug page -> the same path on the dedicated domain
+        text = re.sub(pre + rf'{s}/([^"]*)"',
+                      rf'\1https://{domain}/s/{slug}/\2"', text)
+    return text
 
 
 _FOOTER_LOGO = ('<a href="https://www.gmu.edu/" class="footer-gmu">'
@@ -580,9 +600,16 @@ def copy_assets(out: Path, domain: str) -> None:
 
 def flatten(src: Path, domain: str, out: Path, slug: str | None,
             keep_browse_controls: bool = False,
-            banner_color: str | None = None, banner_accent: str | None = None) -> None:
+            banner_color: str | None = None, banner_accent: str | None = None,
+            external: dict | None = None) -> None:
+    external = external or {}
     print(f"[{domain}] copy {src} -> {out}")
-    copy_tree(src, out)
+    copy_tree(src, out, extra_ignore=list(external))   # drop external-slug dirs
+    for sl in external:                                # + their site-home files
+        (out / "s" / f"{sl}.html").unlink(missing_ok=True)
+    if external:
+        print(f"[{domain}] external slugs -> dedicated domains: "
+              + ", ".join(f"{k}={v}" for k, v in external.items()))
     copy_assets(out, domain)
 
     slug = slug or detect_slug(out)
@@ -628,6 +655,8 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None,
         text = rewire_search(text, domain, slug, _depth_prefix(rel))
         text = neutralize_forms(text, domain)
         text = replace_dead_forms(text)
+        if external:
+            text = redirect_external_slugs(text, external)
         text = replace_footer(text, _depth_prefix(rel))
         if not keep_browse_controls:
             text = remove_browse_controls(text)
@@ -677,12 +706,23 @@ def main() -> None:
                     help="Archive-banner background (e.g. '#2436a1'); overrides "
                          "auto-detection for themes whose palette isn't inline.")
     ap.add_argument("--banner-accent", help="Archive-banner bottom-border color.")
+    ap.add_argument("--external-slug", action="append", default=[], metavar="SLUG=DOMAIN",
+                    help="On a multi-site install, drop this slug's pages and "
+                         "point its links at DOMAIN (repeatable). E.g. "
+                         "--external-slug preaching-goes-viral=preachinggoesviral.org")
     args = ap.parse_args()
     if not args.src.is_dir():
         sys.exit(f"error: src {args.src} is not a directory")
+    external = {}
+    for spec in args.external_slug:
+        if "=" not in spec:
+            sys.exit(f"error: --external-slug expects SLUG=DOMAIN, got {spec!r}")
+        k, v = spec.split("=", 1)
+        external[k] = v
     flatten(args.src, args.domain, args.out, args.slug,
             keep_browse_controls=args.keep_browse_controls,
-            banner_color=args.banner_color, banner_accent=args.banner_accent)
+            banner_color=args.banner_color, banner_accent=args.banner_accent,
+            external=external)
 
 
 if __name__ == "__main__":

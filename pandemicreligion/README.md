@@ -13,25 +13,27 @@ See [`PLAN.md`](PLAN.md) for the full design.
 The project comprises **7 Omeka S sites** (the *Collecting These Times* hub and
 its sub-collections, plus three standalone domains):
 
-| Directory | Omeka slug | Items | Status |
+| Directory | Omeka slug | Items (browsable / archived)¹ | Status |
 |---|---|---|---|
-| `hazon.collectingthesetimes.org/` | hazon | 7 | ✅ pilot |
-| `kahal.collectingthesetimes.org/` | kahal | 18 | ✅ pilot |
-| `onetable.collectingthesetimes.org/` | onetable | 17 | ✅ pilot |
-| `collectingthesetimes.org/` | collecting-these-times | 1,000 | ✅ converted |
-| `americanjewishlife.org/` | american-jewish-life | ~991 | ✅ converted |
-| `preachinggoesviral.org/` | preaching-goes-viral | ~5,600 browsable / ~12,800 pages¹ | ✅ converted |
-| `pandemicreligion.org/` | contributions (hub) | 580 | ✅ converted |
+| `hazon.collectingthesetimes.org/` | hazon | 5 / 7 | ✅ pilot |
+| `kahal.collectingthesetimes.org/` | kahal | 17 / 18 | ✅ pilot |
+| `onetable.collectingthesetimes.org/` | onetable | 17 / 17 | ✅ pilot |
+| `collectingthesetimes.org/` | collecting-these-times | ~860 / ~1,060 | ✅ converted |
+| `americanjewishlife.org/` | american-jewish-life | ~860 / ~1,050 | ✅ converted |
+| `preachinggoesviral.org/` | preaching-goes-viral | ~5,600 / ~12,800 | ✅ converted |
+| `pandemicreligion.org/` | contributions (hub) | ~390 / ~720 | ✅ converted |
 
-¹ *Preaching Goes Viral* has two legitimate counts. Its **"Browse items"** page
-lists **~5,572** items (56 pages), which is what a visitor reaches by clicking
-through the site. The archive itself contains **~12,800 distinct item pages**
-(`item/`, plus ~860 under `collecting/item/`) — the full item pool, all genuine
-PGV content and fully interlinked. The pool is larger than the browse because a
-recursive crawl follows item-to-item links into items that aren't surfaced in
-the default browse (e.g. bulk-imported multi-part submissions); those pages are
-still reachable via item links and Pagefind search. The other sites' counts are
-their browse totals.
+¹ Two legitimate counts per site. **Browsable** = distinct items reachable
+through the site's **"Browse items"** pagination — what a visitor sees clicking
+through the live site. **Archived** = total distinct item pages committed here
+(`item/`, plus any `collecting/item/` submissions) — the full item pool. The
+archived total is larger because a recursive crawl also captures items that
+aren't surfaced in the default browse (unlisted items, Collecting-module
+submissions, and bulk-imported multi-part submissions), reached via
+item-to-item links; all are genuine content and stay reachable via those links
+and Pagefind search. *Preaching Goes Viral* has by far the widest gap — its
+browse lists ~5,572 items (56 pages) while the archive holds ~12,800 item
+pages.
 
 All seven are converted. `pandemicreligion.org` is a multi-site Omeka S install
 that also re-serves the `american-jewish-life` and `preaching-goes-viral` sites

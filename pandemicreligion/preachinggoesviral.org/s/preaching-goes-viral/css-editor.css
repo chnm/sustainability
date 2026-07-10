@@ -1,0 +1,106 @@
+body {background-color: white; font-family: Palatino, URW Palladio L, serif; font-size: 17px;}
+.team {
+  background-color: white;
+margin: 20px;
+  padding: 20px;
+}
+.navigation {background-color:#DBACB2;
+}
+
+.resource-list {background-color:white;
+margin: 20px;
+  padding: 20px; border: 1px;
+border-color: #efefef;
+}
+.blocks {background-color:#F3DADE ; margin: 20px;
+  padding: 15px;}
+
+
+/*PROJECT PAGE CSS*/
+
+.bodypage{
+	margin:0;
+	padding:0;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+
+}
+/*change the background color of your subject title*/
+.pagetitle{
+	background:#d4485a;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+}
+
+/* change the color and size of your subject title font*/
+.pagetitle h1{
+	color: white;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+/*change the color and size of the author name title*/
+.pagetitle h4{
+	color:white;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.container {
+
+	height: auto;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+	grid-gap:20px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+/*change the color of the subject boxes*/
+.container .box{
+	position: relative;
+	background: #f1868b;
+	padding:20px 40px 40px;
+	text-align:center;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+.container .box h2{
+	position: relative;
+	margin: 0;
+	padding-top: 0;
+
+}
+
+/*change the color and size of the topic titles*/
+.container .box h3{
+
+}
+/*change the width of the topic image*/
+.container .box img{
+	width: 200px;
+}
+
+/*change the background color of the subject boxes in test two*/
+.sub1 {
+position: relative;
+	background: #f1868b;
+       padding:20px;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+/*change the inner background color and the font size and color of the subject boxes in test two*/
+.sub1 p{
+background: #FFAAAA ;
+padding:20px;
+overflow: hidden;
+border-radius:20px;
+
+}

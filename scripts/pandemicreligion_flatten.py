@@ -247,10 +247,34 @@ def theme_colors(text: str) -> tuple[str, str]:
             acc.group(1) if acc else "#cccccc")
 
 
-def site_name(text: str) -> str:
-    """The human site name -- first segment of the page <title>."""
+def _title_parts(text: str) -> list:
     m = re.search(r"<title>(.*?)</title>", text, re.DOTALL)
-    return m.group(1).split("·")[0].strip() if m else ""
+    return [p.strip() for p in m.group(1).split("·")] if m else []
+
+
+def detect_site_name(home_text: str, sample_text: str) -> str:
+    """The human site name.
+
+    Themes order <title> differently -- the spoke theme is
+    "Site · Page · Pandemic Religion" (site first), the default theme is
+    "Page · Site · Pandemic Religion" (site second). The site name is the one
+    segment common to every page (other than the trailing "Pandemic Religion"),
+    so detect it by intersecting two pages' titles.
+    """
+    h, s = _title_parts(home_text), _title_parts(sample_text)
+    common = (set(h) & set(s)) - {"Pandemic Religion", ""}
+    if len(common) == 1:
+        return next(iter(common))
+    if common:                       # >1 common: prefer the site-adjacent slot
+        return max(common, key=len)
+    return h[-2] if len(h) >= 3 else (h[0] if h else "")   # fallbacks
+
+
+def page_title(text: str, site: str) -> str:
+    """The page-specific part of <title>: every segment except the site name and
+    the trailing "Pandemic Religion". Order-independent."""
+    keep = [p for p in _title_parts(text) if p and p != site and p != "Pandemic Religion"]
+    return " · ".join(keep)
 
 
 def add_archive_banner(text: str, name: str, primary: str, accent: str,
@@ -341,8 +365,8 @@ def fix_definition_lists(text: str) -> str:
     return re.sub(r"(<dl\b[^>]*>)(.*?)(</dl>)", _fix_region, text, flags=re.DOTALL)
 
 
-def build_item_titles(out: Path, slug: str) -> dict:
-    """{item_id: title} from each item page's <title> middle segment."""
+def build_item_titles(out: Path, slug: str, site: str) -> dict:
+    """{item_id: title} from each item page's <title> (page-specific segment)."""
     titles = {}
     itemdir = out / "s" / slug / "item"
     if itemdir.is_dir():
@@ -350,12 +374,9 @@ def build_item_titles(out: Path, slug: str) -> dict:
             m = re.match(r"(\d+)\.html$", f.name)
             if not m:
                 continue
-            tm = re.search(r"<title>(.*?)</title>",
-                           f.read_text(encoding="utf-8", errors="replace"), re.DOTALL)
-            if tm:
-                parts = [p.strip() for p in tm.group(1).split("·")]
-                if len(parts) >= 3:
-                    titles[m.group(1)] = " · ".join(parts[1:-1])
+            t = page_title(f.read_text(encoding="utf-8", errors="replace"), site)
+            if t:
+                titles[m.group(1)] = t
     return titles
 
 
@@ -433,21 +454,16 @@ def is_content_page(rel_posix: str) -> bool:
     return bool(_CONTENT_PAGE_RE.match(rel_posix))
 
 
-def pagefind_title(text: str, is_home: bool) -> str:
+def pagefind_title(text: str, site: str, is_home: bool) -> str:
     """Per-page result title for Pagefind.
 
-    Every page's site chrome starts with an <h1>site name</h1>, which Pagefind
-    would otherwise use as the title of *every* result. The document <title> is
-    uniform ("<Site> · <Page> · Pandemic Religion"); take its middle segment as
-    the real page title (the site name for the home page).
+    Every page's chrome has an <h1> that Pagefind would otherwise use as the
+    title of *every* result. Use the page-specific <title> segment instead (the
+    site name for the home page).
     """
-    m = re.search(r"<title>(.*?)</title>", text, re.DOTALL)
-    if not m:
-        return ""
-    parts = [p.strip() for p in m.group(1).split("·")]
-    if is_home or len(parts) < 3:
-        return parts[0] if parts else ""
-    return " · ".join(parts[1:-1])
+    if is_home:
+        return site
+    return page_title(text, site) or site
 
 
 def tag_pagefind_body(text: str, title: str) -> str:
@@ -509,15 +525,12 @@ errors.log
 """
 
 
-def make_search_html(index_text: str, domain: str, slug: str) -> str:
+def make_search_html(index_text: str, domain: str, slug: str, site: str) -> str:
     """Build root search.html from the (already-transformed) home page."""
     text = index_text
-    # title:  "<Site> · Home · Pandemic Religion" -> "<Site> · Search · ..."
     m = re.search(r"<title>(.*?)</title>", text, re.DOTALL)
     if m:
-        parts = [p.strip() for p in m.group(1).split("·")]
-        site = parts[0] if parts else slug
-        text = text[:m.start()] + f"<title>{site} · Search · Pandemic Religion</title>" + text[m.end():]
+        text = text[:m.start()] + f"<title>{site or slug} · Search · Pandemic Religion</title>" + text[m.end():]
     # head assets
     text = text.replace("</head>", _PAGEFIND_HEAD + "</head>", 1)
     # swap the #content region for the Pagefind UI. Emits the *untagged*
@@ -575,14 +588,19 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None,
     slug = slug or detect_slug(out)
     print(f"[{domain}] slug = {slug}")
 
-    # site name + palette for the archive banner (constant across the site)
+    # site name + palette for the archive banner (constant across the site).
+    # Detect the name by comparing the home with a sample item (themes order the
+    # <title> segments differently).
     home_raw = (out / "index.html").read_text(encoding="utf-8", errors="replace")
-    name = site_name(home_raw)
+    itemdir = out / "s" / slug / "item"
+    sample = next((f.read_text(encoding="utf-8", errors="replace")
+                   for f in sorted(itemdir.glob("[0-9]*.html"))[:1]), "") if itemdir.is_dir() else ""
+    name = detect_site_name(home_raw, sample)
     auto_primary, auto_accent = theme_colors(home_raw)
     primary = banner_color or auto_primary      # CLI override for themes whose
     accent = banner_accent or auto_accent       # palette isn't in the inline <style>
     print(f"[{domain}] banner: '{name}' primary={primary} accent={accent}")
-    titles = build_item_titles(out, slug)   # for accessible image-link names
+    titles = build_item_titles(out, slug, name)   # for accessible image-link names
 
     pruned = prune_junk(out, keep_pagination=keep_browse_controls)
     print(f"[{domain}] pruned {len(pruned)} junk permutation file(s)"
@@ -623,7 +641,7 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None,
         if rel_posix == "index.html":
             index_text = text
         if is_content_page(rel_posix):
-            title = pagefind_title(text, is_home=(rel_posix == "index.html"))
+            title = pagefind_title(text, name, is_home=(rel_posix == "index.html"))
             tagged = tag_pagefind_body(text, title)
             if tagged != text:
                 n_tagged += 1
@@ -636,7 +654,7 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None,
 
     if index_text is None:
         sys.exit(f"error: no index.html in {out}; cannot build search.html")
-    (out / "search.html").write_text(make_search_html(index_text, domain, slug),
+    (out / "search.html").write_text(make_search_html(index_text, domain, slug, name),
                                      encoding="utf-8")
     (out / "Dockerfile").write_text(_DOCKERFILE, encoding="utf-8")
     (out / ".gitignore").write_text(_GITIGNORE, encoding="utf-8")

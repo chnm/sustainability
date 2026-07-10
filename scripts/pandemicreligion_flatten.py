@@ -177,9 +177,13 @@ def neutralize_forms(text: str, domain: str) -> str:
         text)
 
 
-_DEAD_FORM_NOTE = ('<div class="archived-form-note" role="note"><p>'
-                   'The contribution form is part of the original live site and is '
-                   'not available in this archived copy.</p></div>')
+_DEAD_FORM_NOTE = (
+    '<div class="archived-form-note" role="note"><p>'
+    '<strong>This site is an archive and is no longer accepting contributions.</strong> '
+    'The original contribution form was part of the live site and is not included in '
+    'this archived copy. Materials contributed while the project was active remain '
+    'available to browse and search. For questions about this archive, contact '
+    '<a href="mailto:chnm@gmu.edu">chnm@gmu.edu</a>.</p></div>')
 
 
 def replace_dead_forms(text: str) -> str:
@@ -190,6 +194,82 @@ def replace_dead_forms(text: str) -> str:
     clearer than a form that silently does nothing."""
     return re.sub(r"<form\b[^>]*data-static-disabled[^>]*>.*?</form>",
                   _DEAD_FORM_NOTE, text, flags=re.DOTALL)
+
+
+# --- archive pass: contact email + contribute calls-to-action -----------------
+
+_SITE_CONTACT = "pandemicreligion@gmail.com"     # the project's own "Contact us"
+_ARCHIVE_CONTACT = "chnm@gmu.edu"                 # address; archived items' own
+
+
+def archive_contact_email(text: str) -> str:
+    """Redirect the project's own contact address to the archive maintainer.
+
+    Only the site-chrome "Contact us" address (pandemicreligion@gmail.com) is
+    rewritten. The thousands of submitter / newsletter / item-metadata addresses
+    inside archived items are historic primary-source content and are left
+    exactly as captured.
+    """
+    return (text.replace(f"mailto:{_SITE_CONTACT}", f"mailto:{_ARCHIVE_CONTACT}")
+                .replace(_SITE_CONTACT, _ARCHIVE_CONTACT))
+
+
+# distinctive href fragments of the Collecting "contribute / share" pages across
+# the seven sites. A dead static mirror can't collect anything, so links to them
+# are removed (nav items and CTA buttons) or de-linked (inline prose keeps its
+# words). The a11y skip link and page-sequence pagination are preserved.
+_CONTRIBUTE_HREFS = ("share-your-experience", "contribute-your-materials",
+                     "collectingform", "find-a-collecting-project",
+                     "page/share.html")
+_CH = "(?:" + "|".join(re.escape(h) for h in _CONTRIBUTE_HREFS) + ")"
+
+
+def _keep_contribute_link(open_tag: str, inner: str) -> bool:
+    """A link that points at a contribute page but must stay: the accessibility
+    'Skip to main content' link and Prev/Next page-sequence pagination."""
+    if 'id="skipnav"' in open_tag:
+        return True
+    return inner.strip().strip("»«›‹→⭢ \t") in ("Next", "Previous", "Prev")
+
+
+def strip_contribute_ctas(text: str) -> str:
+    """Neutralize invitations to contribute while keeping historic descriptions.
+
+    1. nav <li> whose sole content is a contribute link  -> drop the menu item
+    2. prominent CTA buttons (button/contribute class, or a → / ⭢ arrow) -> drop
+    3. any remaining contribute link (inline prose)      -> unwrap, keep words
+    """
+    li = (r'<li\b[^>]*>\s*(?P<a><a\b[^>]*href="[^"]*' + _CH
+          + r'[^"]*"[^>]*>)(?P<inner>.*?)</a>\s*</li>')
+    text = re.sub(li, lambda m: m.group(0)
+                  if _keep_contribute_link(m.group("a"), m.group("inner")) else "",
+                  text, flags=re.DOTALL)
+
+    button = (r'<a\b[^>]*(?:class="[^"]*(?:button|contribute)[^"]*"[^>]*'
+              r'href="[^"]*' + _CH + r'[^"]*"'
+              r'|href="[^"]*' + _CH + r'[^"]*"[^>]*class="[^"]*(?:button|contribute)[^"]*")'
+              r'[^>]*>.*?</a>')
+    text = re.sub(button, "", text, flags=re.DOTALL)
+    arrow = r'<a\b[^>]*href="[^"]*' + _CH + r'[^"]*"[^>]*>[^<]*[→⭢][^<]*</a>'
+    text = re.sub(arrow, "", text, flags=re.DOTALL)
+
+    inline = r'(?P<a><a\b[^>]*href="[^"]*' + _CH + r'[^"]*"[^>]*>)(?P<inner>.*?)</a>'
+    text = re.sub(inline, lambda m: m.group(0)
+                  if _keep_contribute_link(m.group("a"), m.group("inner"))
+                  else m.group("inner"),
+                  text, flags=re.DOTALL)
+    return text
+
+
+def ensure_archive_statement(text: str) -> str:
+    """Contribute pages that had no live <form> to replace (onetable's 'Share
+    Your Experience', the 'Find a Collecting Project' directory) get the same
+    archived statement, anchored just after their own page heading."""
+    if "archived-form-note" in text:
+        return text
+    return re.sub(
+        r'(<h[12][^>]*>\s*(?:Share Your Experience|Find a Collecting Project)\s*</h[12]>)',
+        lambda m: m.group(1) + _DEAD_FORM_NOTE, text, count=1, flags=re.IGNORECASE)
 
 
 def redirect_external_slugs(text: str, external: dict) -> str:
@@ -655,6 +735,9 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None,
         text = rewire_search(text, domain, slug, _depth_prefix(rel))
         text = neutralize_forms(text, domain)
         text = replace_dead_forms(text)
+        text = ensure_archive_statement(text)
+        text = archive_contact_email(text)
+        text = strip_contribute_ctas(text)
         if external:
             text = redirect_external_slugs(text, external)
         text = replace_footer(text, _depth_prefix(rel))

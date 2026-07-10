@@ -21,10 +21,13 @@ its sub-collections, plus three standalone domains):
 | `collectingthesetimes.org/` | collecting-these-times | 1,000 | ✅ converted |
 | `americanjewishlife.org/` | american-jewish-life | ~991 | ✅ converted |
 | `preachinggoesviral.org/` | preaching-goes-viral | ~12,800 | ✅ converted |
-| `pandemicreligion.org/` | (hub: contributions + AJL + PGV) | ~7,500 | ⬜ scale |
+| `pandemicreligion.org/` | contributions (hub) | 580 | ✅ converted |
 
-The three small *Collecting These Times* sub-sites (**hazon, kahal, onetable**)
-are the converted pilot; the four larger sites follow in a scale pass.
+All seven are converted. `pandemicreligion.org` is a multi-site Omeka S install
+that also re-serves the `american-jewish-life` and `preaching-goes-viral` sites
+(archived here on their own domains); its archive keeps only the hub's own
+`contributions` content and links the other two slugs to their dedicated
+archives rather than duplicating them.
 
 ## How each archive is built
 

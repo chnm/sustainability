@@ -221,7 +221,12 @@ def transcribe_images(image_paths, model="claude-sonnet-4-6"):
     }
     timeout_s = call_timeout(len(image_paths))
     try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout_s)
+        # Redirect stdin from /dev/null: newer `claude` CLI waits on stdin and
+        # fails ("no stdin data received in 3s") when it inherits a pipe/tty.
+        result = subprocess.run(
+            cmd, capture_output=True, text=True, timeout=timeout_s,
+            stdin=subprocess.DEVNULL,
+        )
     except subprocess.TimeoutExpired:
         print(f"    claude timed out after {timeout_s}s — skipping this document")
         return {"text": None, "usage": zero_usage, "cost_usd": 0.0,

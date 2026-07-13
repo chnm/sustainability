@@ -42,7 +42,8 @@ CACHE_FILE = SCRIPT_DIR / ".transcribe_progress"
 OUTPUT_FILE = SCRIPT_DIR / "transcriptions.json"
 USAGE_LOG = SCRIPT_DIR / "usage_log.jsonl"
 
-MEDIA_BASE_URL = "https://obj.rrchnm.org/wardepartmentpapers.org/files/original"
+MEDIA_BASE_ORIGINAL = "https://obj.rrchnm.org/wardepartmentpapers.org/files/original"
+MEDIA_BASE_LARGE = "https://obj.rrchnm.org/wardepartmentpapers.org/files/large"
 
 RATE_LIMIT_INDICATORS = (
     "rate limit",
@@ -83,9 +84,9 @@ def save_output(transcriptions):
         json.dump(transcriptions, f, indent=2, ensure_ascii=False)
 
 
-def download_image(filename, dest_dir):
+def download_image(filename, dest_dir, base_url=MEDIA_BASE_ORIGINAL):
     """Download an image from object storage. Returns local path."""
-    url = f"{MEDIA_BASE_URL}/{filename}"
+    url = f"{base_url}/{filename}"
     local_path = os.path.join(dest_dir, filename)
     req = Request(url, headers={"User-Agent": "PWD-Transcribe/1.0"})
     try:
@@ -97,6 +98,22 @@ def download_image(filename, dest_dir):
     except Exception as e:
         print(f"    Error downloading {filename}: {e}")
         return None
+
+
+def download_all(image_files, dest_dir, base_url):
+    """Download every image for a document. Returns the list of local paths."""
+    paths = []
+    for filename in image_files:
+        print(f"    Downloading {filename[:16]}...")
+        path = download_image(filename, dest_dir, base_url)
+        if path:
+            paths.append(path)
+    return paths
+
+
+def is_image_error(stdout):
+    """True if claude -p reported the API could not process an image (400)."""
+    return "could not process image" in (stdout or "").lower()
 
 
 def _zero_usage():
@@ -230,11 +247,11 @@ def transcribe_images(image_paths, model="claude-sonnet-4-6"):
     except subprocess.TimeoutExpired:
         print(f"    claude timed out after {timeout_s}s — skipping this document")
         return {"text": None, "usage": zero_usage, "cost_usd": 0.0,
-                "is_error": True, "rate_limited": False}
+                "is_error": True, "rate_limited": False, "image_error": False}
     except Exception as e:
         print(f"    claude call failed: {e} — skipping this document")
         return {"text": None, "usage": zero_usage, "cost_usd": 0.0,
-                "is_error": True, "rate_limited": False}
+                "is_error": True, "rate_limited": False, "image_error": False}
 
     if result.returncode != 0:
         print(f"    claude error (exit {result.returncode}): {result.stderr[:200]}")
@@ -250,6 +267,7 @@ def transcribe_images(image_paths, model="claude-sonnet-4-6"):
         "cost_usd": parsed["cost_usd"],
         "is_error": parsed["is_error"],
         "rate_limited": rate_limited,
+        "image_error": is_image_error(result.stdout),
     }
 
 
@@ -387,21 +405,29 @@ def main():
 
         # Download images to a temp directory
         with tempfile.TemporaryDirectory(prefix="pwd_transcribe_") as tmpdir:
-            local_paths = []
-            for filename in image_files:
-                print(f"    Downloading {filename[:16]}...")
-                path = download_image(filename, tmpdir)
-                if path:
-                    local_paths.append(path)
+            orig_dir = os.path.join(tmpdir, "original")
+            os.makedirs(orig_dir, exist_ok=True)
+            local_paths = download_all(image_files, orig_dir, MEDIA_BASE_ORIGINAL)
 
             if not local_paths:
                 print(f"    No images downloaded, skipping")
                 continue
 
-            # Transcribe
+            # Transcribe (original resolution)
             print(f"    Transcribing with claude -p...")
             start = time.time()
             outcome = transcribe_images(local_paths, model=args.model)
+
+            # Some original scans are rejected by the API ("Could not process
+            # image"); retry once with the smaller /files/large versions.
+            if outcome["image_error"]:
+                print("    Original images rejected; retrying with /files/large...")
+                large_dir = os.path.join(tmpdir, "large")
+                os.makedirs(large_dir, exist_ok=True)
+                large_paths = download_all(image_files, large_dir, MEDIA_BASE_LARGE)
+                if large_paths:
+                    outcome = transcribe_images(large_paths, model=args.model)
+
             elapsed = time.time() - start
 
             text = outcome["text"]

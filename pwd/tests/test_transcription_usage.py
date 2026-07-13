@@ -281,3 +281,21 @@ def test_call_timeout_floor_and_cap():
     assert transcribe.call_timeout(0) == transcribe.call_timeout(1)
     # very large docs are clamped to the cap
     assert transcribe.call_timeout(10_000) == 1800
+
+
+# ---------------------------------------------------------------------------
+# is_image_error (triggers the /files/large fallback)
+# ---------------------------------------------------------------------------
+
+def test_is_image_error_detects_could_not_process():
+    stdout = json.dumps({"is_error": True, "result":
+        'API Error: 400 {"type":"error","error":{"type":"invalid_request_error",'
+        '"message":"Could not process image"}}'})
+    assert transcribe.is_image_error(stdout) is True
+
+
+def test_is_image_error_false_on_success_and_empty():
+    ok = json.dumps({"is_error": False, "result": "A clean transcription with no errors."})
+    assert transcribe.is_image_error(ok) is False
+    assert transcribe.is_image_error("") is False
+    assert transcribe.is_image_error(None) is False

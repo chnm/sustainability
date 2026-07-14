@@ -290,6 +290,43 @@ def redirect_external_slugs(text: str, external: dict) -> str:
     return text
 
 
+# Every Omeka S multisite slug has exactly one canonical archive domain. The
+# shared install served the same slugs under several domains, and content was
+# authored with absolute links to whichever domain rendered it (occasionally
+# http://), so a page can link a sibling project under the "wrong" domain.
+_SLUG_DOMAIN = {
+    "collecting-these-times": "collectingthesetimes.org",
+    "american-jewish-life":   "americanjewishlife.org",
+    "preaching-goes-viral":   "preachinggoesviral.org",
+    "hazon":                  "hazon.collectingthesetimes.org",
+    "kahal":                  "kahal.collectingthesetimes.org",
+    "onetable":               "onetable.collectingthesetimes.org",
+    "contributions":          "pandemicreligion.org",
+}
+_MASTER_DOMAINS = ("pandemicreligion.org", "collectingthesetimes.org",
+                   "americanjewishlife.org", "preachinggoesviral.org")
+
+
+def canonicalize_slug_links(text: str) -> str:
+    """Point every absolute link to a multisite slug at that slug's own archive.
+
+    The site home (…/page/home, or a bare /s/<slug>) maps to the dedicated root
+    (each archive's home is its index.html, never /s/<slug>/page/home); deeper
+    paths map to the same path on the dedicated domain. Links already on the
+    canonical domain keep their deep path; only their home/bare-root form is
+    normalized. Slugs with no dedicated archive (e.g. cajm) are left untouched.
+    """
+    for slug, domain in _SLUG_DOMAIN.items():
+        for master in _MASTER_DOMAINS:
+            base = r"https?://" + re.escape(f"{master}/s/{slug}")
+            text = re.sub(base + r'/page/home(?:\.html)?(?=["#?])',
+                          f"https://{domain}/", text)
+            text = re.sub(base + r'(?=["#?])', f"https://{domain}/", text)
+            if master != domain:
+                text = re.sub(base + r"/", f"https://{domain}/s/{slug}/", text)
+    return text
+
+
 # The archiving institution, as a side-by-side pair of committed logos (no
 # dependency on the live host's /files for chrome). RRCHNM wordmark + GMU
 # wordmark, matched to a common height.
@@ -808,6 +845,7 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None,
         text = strip_contribute_ctas(text)
         if external:
             text = redirect_external_slugs(text, external)
+        text = canonicalize_slug_links(text)
         text = replace_footer(text, _depth_prefix(rel))
         if re.search(r"/page/about\.html$", "/" + rel_posix, re.IGNORECASE):
             text = add_about_logos(text, _depth_prefix(rel))

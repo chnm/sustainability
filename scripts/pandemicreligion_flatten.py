@@ -796,9 +796,28 @@ def tag_pagefind_body(text: str, title: str) -> str:
     `title[attr]` syntax), so nothing extra is rendered or added to the body
     content -- it just overrides the automatic (wrong) h1-based title.
     """
+    # `title` comes from the page <title>, whose entities are still encoded
+    # (&quot; &amp; &#039;). Decode once before escaping for the attribute, or the
+    # value is double-escaped and Pagefind shows a literal &quot; in results.
     meta = (f'<span data-pagefind-meta="title[data-pf-title]" '
-            f'data-pf-title="{html.escape(title, quote=True)}"></span>')
+            f'data-pf-title="{html.escape(html.unescape(title), quote=True)}"></span>')
     return text.replace(_CONTENT_OPEN, _CONTENT_OPEN_TAGGED + meta, 1)
+
+
+_PF_TITLE_DBL = re.compile(
+    r'(data-pf-title=")([^"]*)(")',
+    re.DOTALL)
+_DBL_ENT = re.compile(r'&amp;(quot|amp|apos|lt|gt|#\d+|#x[0-9a-fA-F]+);')
+
+
+def fix_pf_title_escaping(text: str) -> str:
+    """Repair data-pf-title attributes that were double-escaped by the earlier
+    tag_pagefind_body (an entity inside the value shows up as a literal &quot;
+    in Pagefind results). Un-double-escapes only entity patterns, so it is safe
+    and idempotent on already-correct values."""
+    return _PF_TITLE_DBL.sub(
+        lambda m: m.group(1) + _DBL_ENT.sub(r"&\1;", m.group(2)) + m.group(3),
+        text)
 
 
 # ---------------------------------------------------------------------------

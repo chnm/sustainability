@@ -40,6 +40,7 @@ import posixpath
 import re
 import shutil
 import sys
+import urllib.parse
 from pathlib import Path
 
 # Vendored assets copied into every site (footer logo; the two Leaflet marker
@@ -386,6 +387,52 @@ def relativize_self_links(text: str, own_domain: str, src_rel: str, out: Path) -
     text = re.sub(pre + rf'https?://{dom}/s/{s}/?(?=["#])',
                   lambda m: link(m, "index.html"), text)
     return text
+
+
+def _intended_uri(tail_raw: str, link_text: str) -> str | None:
+    """Recover the external URL an Omeka URI-value field was meant to hold.
+
+    When an author typed a bare URL (no scheme), or pasted a full URL / an
+    <iframe> embed, Omeka resolved it against the item page, leaving
+    …/item/<what-they-typed>. Reconstruct the target from that tail (or, when
+    the tail is only a label, from the visible link text)."""
+    tail = html.unescape(tail_raw).strip()
+    if re.match(r"https?://\S", tail):                    # a full URL (e.g. JSTOR)
+        return tail.split()[0]
+    m = re.search(r"href=(https?%3[Aa]%2[Ff]%2[Ff][^&\"']+)", tail)  # fb plugins embed
+    if m:
+        return urllib.parse.unquote(m.group(1))
+    m = re.search(r'src="(https?://[^"]+)"', tail)         # any other iframe embed
+    if m:
+        return m.group(1)
+    if re.match(r"[A-Za-z0-9][A-Za-z0-9.\-]*\.[A-Za-z]{2,}(?:[/?#]|$)", tail):  # bare domain
+        return "https://" + tail
+    txt = html.unescape(link_text).strip()                # label is itself a URL
+    if re.match(r"https?://\S", txt):
+        return txt.split()[0]
+    return None
+
+
+def fix_mangled_uri_links(text: str, own_domain: str) -> str:
+    """Repoint URI-value links that Omeka mangled into …/s/<slug>/item/<typed>
+    back at the external site they were meant to reach. Only class=uri-value-link
+    anchors whose href is a self-domain /item/ path are touched; the visible
+    label is kept."""
+    dom = re.escape(own_domain)
+    pat = re.compile(
+        r'<a\b([^>]*?)href="https?://' + dom + r'/s/[a-z-]+/item/([^"]*)"([^>]*)>(.*?)</a>',
+        re.DOTALL)
+
+    def repl(m):
+        pre, tail, post, txt = m.group(1), m.group(2), m.group(3), m.group(4)
+        if "uri-value-link" not in pre and "uri-value-link" not in post:
+            return m.group(0)
+        uri = _intended_uri(tail, txt)
+        if not uri:
+            return m.group(0)
+        return f'<a{pre}href="{html.escape(uri, quote=True)}"{post}>{txt}</a>'
+
+    return pat.sub(repl, text)
 
 
 # The archiving institution, as a side-by-side pair of committed logos (no
@@ -918,6 +965,7 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None,
         if external:
             text = redirect_external_slugs(text, external)
         text = canonicalize_slug_links(text)
+        text = fix_mangled_uri_links(text, domain)
         text = relativize_self_links(text, domain, rel_posix, out)
         text = replace_footer(text, _depth_prefix(rel))
         if re.search(r"/page/about\.html$", "/" + rel_posix, re.IGNORECASE):

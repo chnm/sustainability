@@ -436,6 +436,17 @@ def remove_browse_controls(text: str) -> str:
     return _remove_div_blocks(text, "browse-controls")
 
 
+def replace_advanced_search(text: str, prefix: str) -> str:
+    """Point the browse controls' dead 'Advanced search' link at the committed
+    Pagefind search page. Omeka's advanced (property-filter) search runs on the
+    live server and was never captured; Pagefind full-text search is the static
+    stand-in. Sort/pagination in the block are left as-is."""
+    return re.sub(
+        r'<a\b[^>]*class="advanced-search"[^>]*>.*?</a>',
+        f'<a class="advanced-search" href="{prefix}search.html">Search all items</a>',
+        text, flags=re.DOTALL)
+
+
 def theme_colors(text: str) -> tuple[str, str]:
     """(primary, accent) hex colors from the page's inline theme <style>.
 
@@ -851,6 +862,8 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None,
             text = add_about_logos(text, _depth_prefix(rel))
         if not keep_browse_controls:
             text = remove_browse_controls(text)
+        else:
+            text = replace_advanced_search(text, _depth_prefix(rel))
         text = fix_definition_lists(text)
         text = fix_link_names(text, titles)
         text = fix_images(text)

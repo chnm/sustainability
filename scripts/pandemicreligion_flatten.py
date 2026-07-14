@@ -36,6 +36,7 @@ Example:
 """
 import argparse
 import html
+import posixpath
 import re
 import shutil
 import sys
@@ -324,6 +325,66 @@ def canonicalize_slug_links(text: str) -> str:
             text = re.sub(base + r'(?=["#?])', f"https://{domain}/", text)
             if master != domain:
                 text = re.sub(base + r"/", f"https://{domain}/s/{slug}/", text)
+    return text
+
+
+_DOMAIN_SLUG = {d: s for s, d in _SLUG_DOMAIN.items()}
+
+
+def _bare_item_target(out: Path, slug: str) -> str | None:
+    """The archive file a bare /s/<slug>/item ('browse all') maps to: the plain
+    item.html if it was captured, else the site's single item-set browse landing
+    (with the '?' the URL needs, not the literal one in the filename)."""
+    if (out / "s" / slug / "item.html").is_file():
+        return f"s/{slug}/item.html"
+    sets = sorted((out / "s" / slug).glob("item?item_set_id=*.html")) if (out / "s" / slug).is_dir() else []
+    ids = {re.match(r"item\?item_set_id=(\d+)\.html$", p.name) for p in sets}
+    ids = {m.group(1) for m in ids if m}
+    if len(ids) == 1:
+        n = next(iter(ids))
+        return f"s/{slug}/item%3Fitem_set_id={n}.html"   # %3F: browser needs a real '?'
+    return None
+
+
+def relativize_self_links(text: str, own_domain: str, src_rel: str, out: Path) -> str:
+    """Rewrite a site's absolute links to its OWN pages as document-relative
+    paths, so the archive doesn't hard-code its domain and works on any host.
+
+    Only well-formed links whose target file actually exists are rewritten;
+    media (/files/, /iiif/) and the malformed/admin/embed URLs Omeka left in
+    item content are deliberately left absolute.
+    """
+    slug = _DOMAIN_SLUG.get(own_domain)
+    src_dir = posixpath.dirname(src_rel) or "."
+    dom = re.escape(own_domain)
+    pre = r'((?:href|src)=")'
+
+    def rel(target: str):
+        # target is a path from the site root; a browse landing keeps its %3F so
+        # the browser sends a real '?' the static server decodes to the filename
+        return posixpath.relpath(target, src_dir)
+
+    def link(m, target):
+        exists = (out / target.replace("%3F", "?")).is_file()
+        return m.group(1) + rel(target) if exists else m.group(0)
+
+    text = re.sub(pre + rf'https?://{dom}/?(?=["#])',
+                  lambda m: link(m, "index.html"), text)
+    if not slug:
+        return text
+    s = re.escape(slug)
+    text = re.sub(pre + rf'https?://{dom}/s/{s}/(item(?:-set)?)/(\d+)(?=["#])',
+                  lambda m: link(m, f"s/{slug}/{m.group(2)}/{m.group(3)}.html"), text)
+    text = re.sub(pre + rf'https?://{dom}/s/{s}/page/([A-Za-z0-9_-]+)(?=["#])',
+                  lambda m: link(m, f"s/{slug}/page/{m.group(2)}.html"), text)
+
+    def bare_item(m):
+        target = _bare_item_target(out, slug)
+        return m.group(1) + rel(target) if target else m.group(0)
+    text = re.sub(pre + rf'https?://{dom}/s/{s}/item(?=["#])', bare_item, text)
+
+    text = re.sub(pre + rf'https?://{dom}/s/{s}/?(?=["#])',
+                  lambda m: link(m, "index.html"), text)
     return text
 
 
@@ -857,6 +918,7 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None,
         if external:
             text = redirect_external_slugs(text, external)
         text = canonicalize_slug_links(text)
+        text = relativize_self_links(text, domain, rel_posix, out)
         text = replace_footer(text, _depth_prefix(rel))
         if re.search(r"/page/about\.html$", "/" + rel_posix, re.IGNORECASE):
             text = add_about_logos(text, _depth_prefix(rel))

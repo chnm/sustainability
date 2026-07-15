@@ -27,6 +27,17 @@ def test_resume_skips_done_and_respects_max_pages():
     assert result == [("2", ["b.jpg"])]
 
 
+def test_skip_excludes_ids_in_both_modes():
+    manifest = [("1", ["a.jpg"]), ("2", ["b.jpg"]), ("3", ["c.jpg"])]
+    # resume mode: skip-listed "2" excluded even though not done
+    assert transcribe.select_todo(manifest, done=set(), max_pages=50, skip={"2"}) == [
+        ("1", ["a.jpg"]), ("3", ["c.jpg"])]
+    # forced ids-file mode: skip-listed "2" excluded even though explicitly listed
+    assert transcribe.select_todo(
+        manifest, done=set(), max_pages=50, ids_filter={"1", "2", "3"}, skip={"2"}) == [
+        ("1", ["a.jpg"]), ("3", ["c.jpg"])]
+
+
 def test_ids_filter_forces_done_ids_and_excludes_unlisted():
     manifest = [
         ("1", ["a.jpg"]),

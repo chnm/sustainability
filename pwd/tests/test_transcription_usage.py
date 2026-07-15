@@ -299,3 +299,17 @@ def test_is_image_error_false_on_success_and_empty():
     assert transcribe.is_image_error(ok) is False
     assert transcribe.is_image_error("") is False
     assert transcribe.is_image_error(None) is False
+
+
+def test_is_content_blocked_detects_policy_block():
+    stdout = json.dumps({"is_error": True, "result":
+        'API Error: 400 {"type":"error","error":{"type":"invalid_request_error",'
+        '"message":"Output blocked by content filtering policy"}}'})
+    assert transcribe.is_content_blocked(stdout) is True
+
+
+def test_is_content_blocked_false_on_success_and_empty():
+    ok = json.dumps({"is_error": False, "result": "A clean transcription."})
+    assert transcribe.is_content_blocked(ok) is False
+    assert transcribe.is_content_blocked("") is False
+    assert transcribe.is_content_blocked(None) is False

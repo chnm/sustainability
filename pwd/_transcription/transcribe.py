@@ -39,6 +39,7 @@ SCRIPT_DIR = Path(__file__).parent
 MANIFEST = SCRIPT_DIR / "images.tsv"
 PROMPT_FILE = SCRIPT_DIR / "prompt.txt"
 CACHE_FILE = SCRIPT_DIR / ".transcribe_progress"
+SKIP_FILE = SCRIPT_DIR / "skip_ids.txt"  # docs that permanently fail (content-blocked, etc.)
 OUTPUT_FILE = SCRIPT_DIR / "transcriptions.json"
 USAGE_LOG = SCRIPT_DIR / "usage_log.jsonl"
 
@@ -67,6 +68,19 @@ def load_cache():
 def append_cache(omeka_id):
     """Mark a document as done in the cache."""
     with open(CACHE_FILE, "a") as f:
+        f.write(f"{omeka_id}\n")
+
+
+def load_skip():
+    """Load set of omeka_ids that permanently fail (skip on future runs)."""
+    if SKIP_FILE.exists():
+        return set(SKIP_FILE.read_text().strip().splitlines())
+    return set()
+
+
+def append_skip(omeka_id):
+    """Record a permanently-failing document so we stop re-attempting it."""
+    with open(SKIP_FILE, "a") as f:
         f.write(f"{omeka_id}\n")
 
 
@@ -114,6 +128,12 @@ def download_all(image_files, dest_dir, base_url):
 def is_image_error(stdout):
     """True if claude -p reported the API could not process an image (400)."""
     return "could not process image" in (stdout or "").lower()
+
+
+def is_content_blocked(stdout):
+    """True if the API blocked the transcription output via content filtering."""
+    low = (stdout or "").lower()
+    return "content filtering policy" in low or "output blocked" in low
 
 
 def _zero_usage():
@@ -247,11 +267,13 @@ def transcribe_images(image_paths, model="claude-sonnet-4-6"):
     except subprocess.TimeoutExpired:
         print(f"    claude timed out after {timeout_s}s — skipping this document")
         return {"text": None, "usage": zero_usage, "cost_usd": 0.0,
-                "is_error": True, "rate_limited": False, "image_error": False}
+                "is_error": True, "rate_limited": False,
+                "image_error": False, "content_blocked": False}
     except Exception as e:
         print(f"    claude call failed: {e} — skipping this document")
         return {"text": None, "usage": zero_usage, "cost_usd": 0.0,
-                "is_error": True, "rate_limited": False, "image_error": False}
+                "is_error": True, "rate_limited": False,
+                "image_error": False, "content_blocked": False}
 
     if result.returncode != 0:
         print(f"    claude error (exit {result.returncode}): {result.stderr[:200]}")
@@ -268,6 +290,7 @@ def transcribe_images(image_paths, model="claude-sonnet-4-6"):
         "is_error": parsed["is_error"],
         "rate_limited": rate_limited,
         "image_error": is_image_error(result.stdout),
+        "content_blocked": is_content_blocked(result.stdout),
     }
 
 
@@ -296,7 +319,7 @@ def load_ids_file(path):
     return {line.strip() for line in text.splitlines() if line.strip()}
 
 
-def select_todo(manifest, done, max_pages, ids_filter=None):
+def select_todo(manifest, done, max_pages, ids_filter=None, skip=None):
     """Select the (omeka_id, [images]) documents to transcribe.
 
     manifest: list of (omeka_id, [images]).
@@ -307,11 +330,17 @@ def select_todo(manifest, done, max_pages, ids_filter=None):
 
     When ids_filter is None: skip ids already in `done`, respect max_pages.
 
+    `skip` is a set of omeka_ids known to permanently fail (content-blocked,
+    etc.); they are always excluded, even in forced ids_filter mode.
+
     Manifest order is preserved.
     """
+    skip = skip or set()
     todo = []
     for oid, imgs in manifest:
         if len(imgs) > max_pages:
+            continue
+        if oid in skip:
             continue
         if ids_filter is not None:
             if oid in ids_filter:
@@ -365,7 +394,8 @@ def main():
         done = set() if args.no_resume else load_cache()
         transcriptions = {} if args.no_resume else load_output()
 
-    todo = select_todo(manifest, done, args.max_pages, ids_filter=ids_filter)
+    skip = load_skip()
+    todo = select_todo(manifest, done, args.max_pages, ids_filter=ids_filter, skip=skip)
     if args.limit:
         todo = todo[:args.limit]
 
@@ -436,6 +466,14 @@ def main():
                 print("    Hit subscription rate limit; stopping. "
                       "Run is resumable — restart when your window resets.")
                 break
+
+            # Permanent failures: content filtering, or images the API rejects
+            # even at /files/large. Record so future runs don't re-attempt them.
+            if outcome["content_blocked"] or outcome["image_error"]:
+                reason = "content-blocked" if outcome["content_blocked"] else "image-unprocessable"
+                print(f"    Permanent failure ({reason}); adding to skip-list")
+                append_skip(omeka_id)
+                continue
 
             if not text or outcome["is_error"]:
                 print(f"    No transcription returned")

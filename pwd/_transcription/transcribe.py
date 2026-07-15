@@ -379,6 +379,18 @@ def main():
         "--max-tokens", type=int, default=None,
         help="Stop the run once cumulative tokens exceed N (counts input+output+cache).",
     )
+    parser.add_argument(
+        "--rate-backoff", type=int, default=60,
+        help="Seconds to wait before retrying after a rate-limit hit (default 60).",
+    )
+    parser.add_argument(
+        "--max-rate-retries", type=int, default=3,
+        help="Rate-limit retries per doc before giving up and stopping (default 3).",
+    )
+    parser.add_argument(
+        "--delay", type=float, default=2.0,
+        help="Seconds to pause between documents to avoid burst limits (default 2).",
+    )
     args = parser.parse_args()
 
     manifest = load_manifest()
@@ -433,6 +445,10 @@ def main():
         image_files = image_files[:args.max_pages]
         print(f"[{i + 1}/{len(todo)}] Document {omeka_id} ({len(image_files)} page(s))")
 
+        # Pace between documents to avoid tripping short-term burst limits.
+        if i > 0 and args.delay:
+            time.sleep(args.delay)
+
         # Download images to a temp directory
         with tempfile.TemporaryDirectory(prefix="pwd_transcribe_") as tmpdir:
             orig_dir = os.path.join(tmpdir, "original")
@@ -443,28 +459,45 @@ def main():
                 print(f"    No images downloaded, skipping")
                 continue
 
-            # Transcribe (original resolution)
-            print(f"    Transcribing with claude -p...")
-            start = time.time()
-            outcome = transcribe_images(local_paths, model=args.model)
+            # Transcribe, with a one-time /files/large image fallback and
+            # rate-limit backoff-retry (rate limits are usually short-term
+            # throttling, so we retry the doc rather than halt the whole run).
+            large_paths = None
+            rl_retries = 0
+            while True:
+                paths = large_paths if large_paths else local_paths
+                print(f"    Transcribing with claude -p...")
+                start = time.time()
+                outcome = transcribe_images(paths, model=args.model)
 
-            # Some original scans are rejected by the API ("Could not process
-            # image"); retry once with the smaller /files/large versions.
-            if outcome["image_error"]:
-                print("    Original images rejected; retrying with /files/large...")
-                large_dir = os.path.join(tmpdir, "large")
-                os.makedirs(large_dir, exist_ok=True)
-                large_paths = download_all(image_files, large_dir, MEDIA_BASE_LARGE)
-                if large_paths:
-                    outcome = transcribe_images(large_paths, model=args.model)
+                # Original scans the API can't process → retry once with /large.
+                if outcome["image_error"] and large_paths is None:
+                    print("    Original images rejected; retrying with /files/large...")
+                    large_dir = os.path.join(tmpdir, "large")
+                    os.makedirs(large_dir, exist_ok=True)
+                    dl = download_all(image_files, large_dir, MEDIA_BASE_LARGE)
+                    if dl:
+                        large_paths = dl
+                        continue
+                    break  # nothing to fall back to
+
+                # Rate limited → back off and retry the same document.
+                if outcome["rate_limited"] and rl_retries < args.max_rate_retries:
+                    rl_retries += 1
+                    print(f"    Rate limited (retry {rl_retries}/{args.max_rate_retries}): "
+                          f"{(outcome['text'] or '')[:200]}")
+                    print(f"    Backing off {args.rate_backoff}s...")
+                    time.sleep(args.rate_backoff)
+                    continue
+
+                break
 
             elapsed = time.time() - start
-
             text = outcome["text"]
 
             if outcome["rate_limited"]:
-                print("    Hit subscription rate limit; stopping. "
-                      "Run is resumable — restart when your window resets.")
+                print(f"    Still rate limited after {args.max_rate_retries} retries; "
+                      f"stopping (resumable). Detail: {(outcome['text'] or '')[:200]}")
                 break
 
             # Permanent failures: content filtering, or images the API rejects

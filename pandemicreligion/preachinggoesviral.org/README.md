@@ -9,8 +9,13 @@ the default-sorted paginated browse (item + item-set) pages are kept.
 
 ## Media is external
 
-**No media is committed.** Item images/downloads reference absolute
-`https://preachinggoesviral.org/files/...` URLs on the live host.
+To keep the archive lean, **no media is committed**. Item images, downloads, and
+site assets are referenced root-relatively (`/files/...`); flattening dropped
+everything under `files/`. In deployment, Caddy serves `/files/...` from the
+shared Pandemic Religion object-storage bucket (the seven Omeka S sites shared a
+single `files/` store, so every site fronts the same bucket). In a bare local
+preview (`python3 -m http.server`) media requests 404; page text and chrome are
+unaffected.
 
 ## Search
 

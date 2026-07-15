@@ -7,13 +7,14 @@ turned into a committable static site under sustainability/pandemicreligion/.
 Pipeline (see pandemicreligion/PLAN.md for the design):
 
   1. copy the capture tree, dropping .crawl/, the old .gitignore, and the whole
-     files/ media dir (no media is committed -- item <img>s already point at
-     absolute https://<domain>/files/... URLs on the still-live host);
+     files/ media dir (no media is committed -- /files/ is served out of the
+     shared object-storage bucket via each site's Caddy);
   2. prune wget query-permutation junk (advanced-search / facet / sort / feed
      combinations) while keeping real content and the single-param nav browse
      pages;
-  3. over every .html/.css: externalize the few *relative* files/ references to
-     absolute live-domain URLs, strip the Matomo analytics block, rewire the
+  3. over every .html/.css: relativize every files/ reference (relative,
+     absolute own-domain, and Omeka's entity-escaped absolute form) to
+     root-relative /files/..., strip the Matomo analytics block, rewire the
      header search form to the local Pagefind search.html, and neutralize dead
      same-domain submit forms (Collecting "contribute", reCAPTCHA);
   4. tag real content pages with data-pagefind-body so Pagefind only indexes
@@ -135,19 +136,40 @@ def strip_matomo(text: str) -> str:
     return text
 
 
-def externalize_media(text: str, domain: str) -> str:
-    """Rewrite the *relative* files/ references to absolute live-domain URLs.
+PROJECT_DOMAINS = (
+    "americanjewishlife.org",
+    "collectingthesetimes.org",
+    "hazon.collectingthesetimes.org",
+    "kahal.collectingthesetimes.org",
+    "onetable.collectingthesetimes.org",
+    "pandemicreligion.org",
+    "preachinggoesviral.org",
+)
 
-    Item media is already absolute (https://<domain>/files/{square,large,...});
-    only theme/site assets under files/asset are captured as relative paths
-    (e.g. ../../../files/asset/<hash>.png). Absolute refs are left untouched
-    because these patterns only fire right after a quote.
+
+def relativize_media(text: str, domain: str) -> str:
+    """Rewrite every files/ reference to root-relative /files/....
+
+    All 7 sites share one Omeka S files/ store, now an object-storage bucket
+    that every site's Caddy serves at /files/ -- so any project-domain media
+    URL resolves same-origin on prod, dev, and local preview. Three source
+    forms: relative paths for theme/site assets
+    (../../../files/asset/<hash>.png), absolute project-domain item media
+    (https://<domain>/files/{square,large,...} -- usually the page's own
+    domain, with a handful of cross-site refs), and Omeka's entity-escaped
+    absolute form in attributes (https&#x3A;&#x2F;&#x2F;<domain>&#x2F;files&#x2F;).
+    Other hosts' /files/ URLs (external sites) are left untouched.
     """
-    base = f"https://{domain}/files/"
-    # "../"*n + files/   ->   absolute
-    text = re.sub(r'(?<=["\'])(?:\.\./)+files/', base, text)
-    # "/files/  and  "files/  (root-absolute or bare relative) -> absolute
-    text = re.sub(r'(?<=["\'])/?files/', base, text)
+    alt = "|".join(re.escape(d) for d in dict.fromkeys((domain, *PROJECT_DOMAINS)))
+    # absolute project-domain -> root-relative
+    text = re.sub(rf'https?://(?:{alt})/files/', "/files/", text)
+    # entity-escaped absolute project-domain -> escaped root-relative
+    text = re.sub(rf'https?&#x3[Aa];&#x2[Ff];&#x2[Ff];(?:{alt})&#x2[Ff];files&#x2[Ff];',
+                  "&#x2F;files&#x2F;", text)
+    # "../"*n + files/   ->   root-relative
+    text = re.sub(r'(?<=["\'])(?:\.\./)+files/', "/files/", text)
+    # "files/  (bare relative) -> root-relative ("/files/ is already right)
+    text = re.sub(r'(?<=["\'])files/', "/files/", text)
     return text
 
 
@@ -860,8 +882,8 @@ COPY . /usr/share/caddy
 """
 
 _GITIGNORE = """\
-# Minimal: media lives on the live host (never committed); .crawl/ is dropped
-# during flattening. Nothing under files/ is referenced locally.
+# Minimal: media is never committed -- /files/ is served from the shared
+# object-storage bucket via Caddy; .crawl/ is dropped during flattening.
 .DS_Store
 errors.log
 """
@@ -966,15 +988,15 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None,
         rel = p.relative_to(out)
         rel_posix = rel.as_posix()
         if p.suffix == ".css":
-            p.write_text(externalize_media(p.read_text(encoding="utf-8", errors="replace"),
-                                           domain), encoding="utf-8")
+            p.write_text(relativize_media(p.read_text(encoding="utf-8", errors="replace"),
+                                          domain), encoding="utf-8")
             n_css += 1
             continue
         if p.suffix != ".html":
             continue
         text = p.read_text(encoding="utf-8", errors="replace")
         text = strip_matomo(text)
-        text = externalize_media(text, domain)
+        text = relativize_media(text, domain)
         text = rewire_search(text, domain, slug, _depth_prefix(rel))
         text = neutralize_forms(text, domain)
         text = replace_dead_forms(text)

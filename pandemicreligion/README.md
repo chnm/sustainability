@@ -4,7 +4,8 @@ Flattened static archives of the **Pandemic Religion** project — a hub plus
 several satellite collections built on **Omeka S**. Each live site is preserved
 here as a self-contained static copy for long-term sustainability: the
 pre-rendered HTML/browse experience is committed, while the heavy item media
-stays on the live host (referenced by absolute URL, never copied into git).
+lives in a shared object-storage bucket (referenced root-relatively at
+`/files/...`, never copied into git).
 
 See [`PLAN.md`](PLAN.md) for the full design.
 
@@ -49,9 +50,9 @@ archives rather than duplicating them.
    never downloaded).
 2. **Flatten** — `../scripts/pandemicreligion_flatten.py` copies the capture
    (dropping `.crawl/` and `files/`), prunes wget query-permutation junk,
-   externalizes the few relative `files/` references to absolute live-domain
-   URLs, strips the Matomo analytics block, rewires the header search form to a
-   local Pagefind `search.html`, neutralizes dead submit forms, and tags real
+   relativizes every `files/` reference to root-relative `/files/...`, strips
+   the Matomo analytics block, rewires the header search form to a local
+   Pagefind `search.html`, neutralizes dead submit forms, and tags real
    content for indexing.
 3. **Search** — a committed **[Pagefind](https://pagefind.app/)** index
    (`pagefind/`, rebuilt with `npx pagefind@1.5.2 --site .`).
@@ -64,7 +65,8 @@ archives rather than duplicating them.
 
 ## Media note
 
-**No media is committed.** Item images/downloads already point at absolute
-`https://<domain>/files/...` URLs on the live host, so each archive depends on
-that host continuing to serve `/files/...`. If Omeka is fully retired, re-point
-those URLs at a media store (or re-fetch the referenced files).
+**No media is committed.** Item images/downloads and site assets are referenced
+root-relatively (`/files/...`). The seven sites were one multi-site Omeka S
+install with a single shared `files/` store, now moved to an object-storage
+bucket; each deployed site's Caddy serves `/files/...` from that same bucket.
+In a bare local preview media requests 404 — text and chrome are unaffected.

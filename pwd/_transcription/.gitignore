@@ -4,3 +4,4 @@ transcriptions.json
 remaining_ids.txt
 usage_log.jsonl
 skip_ids.txt
+failures.csv

@@ -87,7 +87,7 @@ Hugo reads `data/transcriptions_ai.json`. The pipeline writes `_transcription/tr
 - `_transcription/transcribe.py` — the `claude -p` pipeline (Part 2); `README.md` next to it.
 - `_transcription/build_image_list.py` — builds `images.tsv` manifest from frontmatter.
 - `multipage_grown_ids.txt` — the 10,163 re-transcription targets.
-- `_transcription/{.transcribe_progress, skip_ids.txt, usage_log.jsonl, remaining_ids.txt}` — run state (gitignored).
+- `_transcription/{.transcribe_progress, skip_ids.txt, usage_log.jsonl, remaining_ids.txt, failures.csv}` — run state (gitignored). `failures.csv` is the structured "what to come back to" log: one row per non-success (skip, timeout, empty/error, no-images, rate-stop), with a `permanent` flag and a `category`.
 - Specs: `docs/superpowers/specs/2026-07-06-multipage-images-design.md`, `2026-07-07-transcription-usage-monitor-design.md`.
 
 ## Environment notes

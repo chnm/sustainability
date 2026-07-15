@@ -25,12 +25,14 @@ Usage:
 """
 
 import argparse
+import csv
 import json
 import os
 import subprocess
 import sys
 import tempfile
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import urlopen, Request
 
@@ -42,6 +44,10 @@ CACHE_FILE = SCRIPT_DIR / ".transcribe_progress"
 SKIP_FILE = SCRIPT_DIR / "skip_ids.txt"  # docs that permanently fail (content-blocked, etc.)
 OUTPUT_FILE = SCRIPT_DIR / "transcriptions.json"
 USAGE_LOG = SCRIPT_DIR / "usage_log.jsonl"
+FAILURE_LOG = SCRIPT_DIR / "failures.csv"  # structured record of every non-success
+
+FAILURE_HEADER = ["timestamp", "omeka_id", "num_pages", "category", "permanent", "detail"]
+DETAIL_MAX = 200
 
 MEDIA_BASE_ORIGINAL = "https://obj.rrchnm.org/wardepartmentpapers.org/files/original"
 MEDIA_BASE_LARGE = "https://obj.rrchnm.org/wardepartmentpapers.org/files/large"
@@ -82,6 +88,33 @@ def append_skip(omeka_id):
     """Record a permanently-failing document so we stop re-attempting it."""
     with open(SKIP_FILE, "a") as f:
         f.write(f"{omeka_id}\n")
+
+
+def log_failure(csv_path, omeka_id, num_pages, category, permanent, detail,
+                timestamp=None):
+    """Append one row to the failure CSV, writing the header if the file is new.
+
+    Records every document that did NOT produce a transcription so we know what
+    to come back to. `permanent` marks the ids also added to skip_ids.txt
+    (never retried); transient failures log here but are still retried next run.
+
+    `detail` is newline-collapsed and truncated to DETAIL_MAX chars; csv.writer
+    handles quoting of commas/quotes. `timestamp` defaults to the current UTC
+    time in ISO-8601 (injectable for tests).
+    """
+    csv_path = Path(csv_path)
+    is_new = not csv_path.exists()
+    if timestamp is None:
+        timestamp = datetime.now(timezone.utc).isoformat()
+    detail = " ".join((detail or "").split())[:DETAIL_MAX]
+    with open(csv_path, "a", newline="") as f:
+        writer = csv.writer(f)
+        if is_new:
+            writer.writerow(FAILURE_HEADER)
+        writer.writerow([
+            timestamp, omeka_id, num_pages, category,
+            "true" if permanent else "false", detail,
+        ])
 
 
 def load_output():
@@ -268,12 +301,14 @@ def transcribe_images(image_paths, model="claude-sonnet-4-6"):
         print(f"    claude timed out after {timeout_s}s — skipping this document")
         return {"text": None, "usage": zero_usage, "cost_usd": 0.0,
                 "is_error": True, "rate_limited": False,
-                "image_error": False, "content_blocked": False}
+                "image_error": False, "content_blocked": False,
+                "timed_out": True}
     except Exception as e:
         print(f"    claude call failed: {e} — skipping this document")
         return {"text": None, "usage": zero_usage, "cost_usd": 0.0,
                 "is_error": True, "rate_limited": False,
-                "image_error": False, "content_blocked": False}
+                "image_error": False, "content_blocked": False,
+                "timed_out": False}
 
     if result.returncode != 0:
         print(f"    claude error (exit {result.returncode}): {result.stderr[:200]}")
@@ -291,6 +326,7 @@ def transcribe_images(image_paths, model="claude-sonnet-4-6"):
         "rate_limited": rate_limited,
         "image_error": is_image_error(result.stdout),
         "content_blocked": is_content_blocked(result.stdout),
+        "timed_out": False,
     }
 
 
@@ -457,6 +493,8 @@ def main():
 
             if not local_paths:
                 print(f"    No images downloaded, skipping")
+                log_failure(FAILURE_LOG, omeka_id, len(image_files),
+                            "no-images", False, "no images downloaded")
                 continue
 
             # Transcribe, with a one-time /files/large image fallback and
@@ -498,6 +536,8 @@ def main():
             if outcome["rate_limited"]:
                 print(f"    Still rate limited after {args.max_rate_retries} retries; "
                       f"stopping (resumable). Detail: {(outcome['text'] or '')[:200]}")
+                log_failure(FAILURE_LOG, omeka_id, len(image_files),
+                            "rate-limit-stop", False, outcome["text"])
                 break
 
             # Permanent failures: content filtering, or images the API rejects
@@ -506,10 +546,15 @@ def main():
                 reason = "content-blocked" if outcome["content_blocked"] else "image-unprocessable"
                 print(f"    Permanent failure ({reason}); adding to skip-list")
                 append_skip(omeka_id)
+                log_failure(FAILURE_LOG, omeka_id, len(image_files),
+                            reason, True, outcome["text"])
                 continue
 
             if not text or outcome["is_error"]:
                 print(f"    No transcription returned")
+                category = "timeout" if outcome.get("timed_out") else "empty-or-error"
+                log_failure(FAILURE_LOG, omeka_id, len(image_files),
+                            category, False, outcome["text"])
                 continue
 
             transcriptions[omeka_id] = text

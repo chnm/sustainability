@@ -21,6 +21,8 @@ subscription** rather than the pay-per-token API.
 | `transcriptions.json` | Output: `{omeka_id: transcription_text}`. **Not** what Hugo reads — see Sync below. |
 | `.transcribe_progress` | Resume cache: one completed `omeka_id` per line. |
 | `usage_log.jsonl` | Per-document token/cost record (see Usage monitoring). |
+| `skip_ids.txt` | Permanently-failing `omeka_id`s (content-blocked / image-unprocessable); excluded from future runs. |
+| `failures.csv` | Structured record of **every** non-success (`timestamp, omeka_id, num_pages, category, permanent, detail`). Categories: `content-blocked`, `image-unprocessable`, `no-images`, `timeout`, `empty-or-error`, `rate-limit-stop`. `permanent=true` rows are also in `skip_ids.txt`; `false` rows are retried next run. Append-only; the list of what to come back to. |
 
 ## Prerequisites
 

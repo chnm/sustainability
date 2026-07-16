@@ -1,0 +1,32 @@
+.spoke-gallery {
+margin-top: 20px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 10px;
+}
+
+.spoke-description {
+font-size: .8rem; 
+}
+
+@media screen and (max-width: 1024px) {
+    .spoke-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap:10px
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .spoke-gallery{
+        grid-template-columns:repeat(1, 1fr)
+    }
+}
+
+.spoke-site { font-size: 18px; }
+@media screen and (max-width: 480px) {
+    .spoke-gallery {
+        grid-template-columns:repeat(1, 1fr)
+    }
+}
+
+footer .grid-x img {width:50%}

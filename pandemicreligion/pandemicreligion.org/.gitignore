@@ -1,0 +1,4 @@
+# Minimal: media lives on the live host (never committed); .crawl/ is dropped
+# during flattening. Nothing under files/ is referenced locally.
+.DS_Store
+errors.log

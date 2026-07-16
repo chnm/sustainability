@@ -14,9 +14,10 @@ Pipeline (see pandemicreligion/PLAN.md for the design):
      pages;
   3. over every .html/.css: relativize every files/ reference (relative,
      absolute own-domain, and Omeka's entity-escaped absolute form) to
-     root-relative /files/..., strip the Matomo analytics block, rewire the
-     header search form to the local Pagefind search.html, and neutralize dead
-     same-domain submit forms (Collecting "contribute", reCAPTCHA);
+     root-relative /files/..., replace Omeka's Matomo double-tagging with a
+     single per-site block (MATOMO_SITE_IDS), rewire the header search form to
+     the local Pagefind search.html, and neutralize dead same-domain submit
+     forms (Collecting "contribute", reCAPTCHA);
   4. tag real content pages with data-pagefind-body so Pagefind only indexes
      item / item-set / page / home content;
   5. emit a root search.html (Pagefind UI, derived from the site's own chrome),
@@ -134,6 +135,51 @@ def strip_matomo(text: str) -> str:
     if n == 0:
         text = _MATOMO_SCRIPT_RE.sub("", text)
     return text
+
+
+# One Matomo property per site on the shared stats server. The live Omeka
+# pages double-tagged (a per-site block plus the project-wide 74 roll-up,
+# counting most pageviews twice); the archives carry a single block. 85 also
+# covers the three Collecting These Times subsites (their live pages tagged
+# 87 alongside AJL, but they belong with the CTT property).
+MATOMO_SITE_IDS = {
+    "americanjewishlife.org": "87",
+    "collectingthesetimes.org": "85",
+    "hazon.collectingthesetimes.org": "85",
+    "kahal.collectingthesetimes.org": "85",
+    "onetable.collectingthesetimes.org": "85",
+    "pandemicreligion.org": "74",
+    "preachinggoesviral.org": "86",
+}
+
+_MATOMO_SNIPPET = """<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '%s']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+"""
+
+
+def add_matomo(text: str, domain: str) -> str:
+    """Insert the single per-site Matomo block just before </head>.
+
+    Idempotent: pages already carrying a stats.rrchnm.org tracker are left
+    alone. Placement mirrors the live pages (last element of <head>).
+    """
+    if "stats.rrchnm.org" in text or domain not in MATOMO_SITE_IDS:
+        return text
+    snippet = _MATOMO_SNIPPET % MATOMO_SITE_IDS[domain]
+    return re.sub(r"</head>", snippet + "</head>", text, count=1)
 
 
 PROJECT_DOMAINS = (
@@ -996,6 +1042,7 @@ def flatten(src: Path, domain: str, out: Path, slug: str | None,
             continue
         text = p.read_text(encoding="utf-8", errors="replace")
         text = strip_matomo(text)
+        text = add_matomo(text, domain)
         text = relativize_media(text, domain)
         text = rewire_search(text, domain, slug, _depth_prefix(rel))
         text = neutralize_forms(text, domain)

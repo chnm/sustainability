@@ -33,7 +33,8 @@ python3 -m http.server 8000   # open http://localhost:8000/index.html
 ## Known limitations
 
 - Sort dropdown / advanced-search inert in a static mirror (Pagefind is the
-  working search). Analytics removed; item maps use committed Leaflet markers.
+  working search). Matomo re-tagged (single block, siteId `86`); item maps use
+  committed Leaflet markers.
 
 ---
 

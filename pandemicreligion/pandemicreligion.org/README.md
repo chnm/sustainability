@@ -42,8 +42,8 @@ python3 -m http.server 8000   # open http://localhost:8000/index.html
 ## Known limitations
 
 - The "Share Your Experience" contribute form is replaced with a note.
-- Sort dropdown / advanced search inert in a static mirror. Analytics removed;
-  maps use committed Leaflet markers.
+- Sort dropdown / advanced search inert in a static mirror. Matomo re-tagged
+  (single block, siteId `74`); maps use committed Leaflet markers.
 
 ---
 

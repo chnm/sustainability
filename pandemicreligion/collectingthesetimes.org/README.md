@@ -34,7 +34,9 @@ python3 -m http.server 8000   # open http://localhost:8000/index.html
 ## Known limitations
 
 - Submission/contribute forms are replaced with a note (dead in a static mirror).
-- Analytics (Matomo) removed. Item maps use the committed Leaflet marker images.
+- Analytics: a single Matomo (`stats.rrchnm.org`) block, siteId `85` (the live
+  pages double-tagged with the project roll-up). Item maps use the committed
+  Leaflet marker images.
 
 ---
 

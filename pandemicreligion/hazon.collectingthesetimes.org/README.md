@@ -53,8 +53,9 @@ with the bundled `Dockerfile` (Caddy `file_server`).
 - **Submission forms are disabled.** The Collecting "contribute / share your
   story" forms (and reCAPTCHA) POSTed to the live Omeka server; they cannot work
   statically and have been neutralized (`onsubmit="return false"`).
-- **Analytics removed.** The shared Matomo (`stats.rrchnm.org`) tracking script
-  was stripped from every page.
+- **Analytics re-tagged.** The live pages carried two Matomo
+  (`stats.rrchnm.org`) blocks (site + project roll-up, double-counting
+  pageviews); the archive carries a single block, siteId `85`.
 
 ---
 

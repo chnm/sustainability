@@ -25,8 +25,10 @@
             //clear out click style
             z = new Date();
             $(".vbut .vote").removeClass("clickVote");
+            $(".vbut .vote").attr("aria-checked", "false");
             //mark this clicked with style (fake the vote feedback since we don't want to way 100ms+ for a confirmation of save from server
             $(this).addClass("clickVote");
+            $(this).attr("aria-checked", "true");
             //get array of classes so we can use that to send to server
             var classList = $(this).attr("class").split(/\s+/);
             //turn on the navigation
@@ -149,6 +151,23 @@
             $(".button").css("background-color", "#d7d7d7");
             $(".clickVote").css("background-color", "#f5821f");
           }); //end click
+
+          //Keyboard support for the vote radios (Enter/Space to select, arrow keys to move within a question)
+          $(".vbut .vote").on("keydown", function (e) {
+            var $group = $(this).closest(".vbut").find(".vote");
+            var index = $group.index(this);
+
+            if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+              e.preventDefault();
+              $(this).trigger("click");
+            } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+              e.preventDefault();
+              $group.eq((index + 1) % $group.length).trigger("click").trigger("focus");
+            } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+              e.preventDefault();
+              $group.eq((index - 1 + $group.length) % $group.length).trigger("click").trigger("focus");
+            }
+          }); //end keydown
         } //end length
 
         //GET VOTES
@@ -185,6 +204,7 @@
                     const { question, answer } = parsedQuestion18;
                     if (question === theQuestion) {
                         $(".vbut ." + theQuestion + "." + answer).addClass("clickVote");
+                        $(".vbut ." + theQuestion + "." + answer).attr("aria-checked", "true");
                     }
                 }
 
@@ -193,6 +213,7 @@
                     const { question, answer } = parsedQuestion21;
                     if (question === theQuestion) {
                         $(".vbut ." + theQuestion + "." + answer).addClass("clickVote");
+                        $(".vbut ." + theQuestion + "." + answer).attr("aria-checked", "true");
                     }
                 }
 
@@ -201,6 +222,7 @@
                     const { question, answer } = parsedQuestion41;
                     if (question === theQuestion) {
                         $(".vbut ." + theQuestion + "." + answer).addClass("clickVote");
+                        $(".vbut ." + theQuestion + "." + answer).attr("aria-checked", "true");
                     }
                 }
 
@@ -209,6 +231,7 @@
                     const { question, answer } = parsedQuestion43;
                     if (question === theQuestion) {
                         $(".vbut ." + theQuestion + "." + answer).addClass("clickVote");
+                        $(".vbut ." + theQuestion + "." + answer).attr("aria-checked", "true");
                     }
                 }
 
@@ -217,6 +240,7 @@
                     const { question, answer } = parsedQuestion45;
                     if (question === theQuestion) {
                         $(".vbut ." + theQuestion + "." + answer).addClass("clickVote");
+                        $(".vbut ." + theQuestion + "." + answer).attr("aria-checked", "true");
                     }
                 }
 
@@ -225,6 +249,7 @@
                     const { question, answer } = parsedQuestion47;
                     if (question === theQuestion) {
                         $(".vbut ." + theQuestion + "." + answer).addClass("clickVote");
+                        $(".vbut ." + theQuestion + "." + answer).attr("aria-checked", "true");
                     }
                 }
 
@@ -233,6 +258,7 @@
                     const { question, answer } = parsedQuestionFinal;
                     if (question === theQuestion) {
                         $(".vbut ." + theQuestion + "." + answer).addClass("clickVote");
+                        $(".vbut ." + theQuestion + "." + answer).attr("aria-checked", "true");
                     }
                 }
 

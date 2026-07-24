@@ -62,12 +62,15 @@
             });
 
             //For Music Sheet Ind pages
-            if( $('.node-type-sheet-music').length) {
-                var urltogo = $('.rightblock .livedetail .replaceme').text();
-                $('.rightblock .livedetail .replaceme').html(' <audio controls> <source src="'+urltogo+'" type="audio/mpeg">Your browser does not support the audio element. </audio> <div class="dllink"><a href="'+urltogo+'">Download Audio</a></div>');
-                urltogo = $('.rightblock .studiodetail .replaceme').text();
-                $('.rightblock .studiodetail .replaceme').html(' <audio controls> <source src="'+urltogo+'" type="audio/mpeg">Your browser does not support the audio element. </audio> <div class="dllink"><a href="'+urltogo+'">Download Audio</a></div>');
-            }
+            // NOTE (static archive): the live-Drupal player-builder that used to
+            // run here has been removed. In Drupal, .replaceme held a bare MP3 URL
+            // as text and this block rebuilt the <audio> player from it. The static
+            // export pre-bakes the finished <audio> player into .replaceme, so
+            // re-running the builder read the player's own fallback text ("Your
+            // browser does not support the audio element.Download Audio") and wrote
+            // it back as the <source> src / download href — breaking playback and
+            // the download link in every browser. The pre-baked markup is correct
+            // as-is; leave it untouched.
 
             //If there's a music Play button...
             if( $('.playbutton').length) {

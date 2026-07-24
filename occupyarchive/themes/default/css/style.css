@@ -278,7 +278,8 @@ margin: 5px;}
 	#items#footer {width:936px;}
 	#footer p {float:left; clear: both; /*width: 40%; */ color:#3e3e3e; line-height:1em; margin: 10px;}
 	#footer p.copyright {font-size: 1em; line-height:1em;}
-	#footer p.omeka {float: right; font-size: 1em; line-height:1em; padding-right: 20px;}
+	#footer p.gmu-logo {float: right; margin: 10px; padding-right: 20px; line-height:1em;}
+	#footer p.gmu-logo img {display: block; width: 200px; height: 60px;}
   #footer ul {float:right; width:60%; /*margin:0 0 0 60px;*/margin:0 18px 0 0;text-align:right;}
 		#footer ul li {margin-left:12px;}
 	#footer .navigation a {color: #6f6f6f;} /* was #999 — now meets WCAG 1.4.3 AA (5.0:1) on white */
@@ -378,7 +379,7 @@ blockquote {
 	#primary-nav { margin-top: 1em; }
 	#primary-nav li, #primary-nav a { width: auto; }
 	/* Footer: stack nav and text instead of floating */
-	#footer ul, #footer p, #footer p.omeka { float: none; width: auto; text-align: left; padding-right: 0; }
+	#footer ul, #footer p, #footer p.gmu-logo { float: none; width: auto; text-align: left; padding-right: 0; }
 	/* Prevent fixed-width elements from forcing horizontal scroll */
 	.item-pagination, #secondary-nav, textarea#rights { width: auto; max-width: 100%; }
 	img { max-width: 100%; height: auto; }

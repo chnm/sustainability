@@ -1,0 +1,6 @@
+# Extensionless page slugs → their .html file (Drupal static export)
+@needs_html {
+      not path *.*      # skip assets (.jpg/.css/.js) and /sites/default/files/* — they have extensions
+      not path */       # skip directory paths (served as index.html)
+}
+redir @needs_html {path}.html 301

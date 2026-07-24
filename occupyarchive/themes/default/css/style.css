@@ -279,12 +279,12 @@ margin: 5px;}
 	#items#footer {width:936px;}
 	#footer > ul.navigation {float:none; width:auto; margin:0; text-align:right;}
 	#footer ul li {margin-left:12px;}
-	#footer #footer-text {float:none; width:auto; display:grid; grid-template-columns:1fr auto; align-items:center; column-gap:24px;}
-	#footer #footer-text p {float:none; clear:none; width:auto; color:#3e3e3e; line-height:1em; margin:3px 0;}
-	#footer p.copyright {font-size:1em; line-height:1em;}
+	#footer #footer-text {float:none; width:auto; display:grid; grid-template-columns:1fr auto; align-items:center; column-gap:20px;}
+	#footer #footer-text p {float:none; clear:none; width:auto; color:#3e3e3e; line-height:1.4; margin:2px 0;}
+	#footer p.copyright {font-size:1em;}
 	#footer #footer-text p:not(.gmu-logo) {grid-column:1;}
 	#footer p.gmu-logo {grid-column:2; grid-row:1 / span 2; margin:0;}          /* logo spans both credit rows, centered */
-	#footer p.gmu-logo img {display:block; width:200px; height:60px;}
+	#footer p.gmu-logo img {display:block; width:150px; height:45px;}          /* sized so the credit lines stay on one row */
 	#footer .navigation a {color: #6f6f6f;} /* was #999 — now meets WCAG 1.4.3 AA (5.0:1) on white */
 		#footer .navigation li.current a {color: #ab0b17;}
 		#footer .navigation a:hover {color:#ab0b17;}

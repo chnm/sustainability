@@ -275,7 +275,7 @@ margin: 5px;}
 
 /* == Footer == */
 /* flex column: nav row on top, then a credits(left) + GMU logo(right) row */
-#footer {clear:both; overflow:hidden; width:960px; margin:48px auto; color:#3e3e3e; box-sizing:border-box; padding:0 20px 0 10px; display:flex; flex-direction:column; gap:10px;}
+#footer {clear:both; overflow:hidden; width:960px; margin:48px auto; color:#3e3e3e; box-sizing:border-box; padding:0 20px 12px 10px; display:flex; flex-direction:column; gap:10px;}
 	#items#footer {width:936px;}
 	#footer > ul.navigation {float:none; width:auto; margin:0; text-align:right;}
 	#footer ul li {margin-left:12px;}
@@ -382,7 +382,7 @@ blockquote {
 	#primary-nav { margin-top: 1em; }
 	#primary-nav li, #primary-nav a { width: auto; }
 	/* Footer: stack nav and text instead of floating */
-	#footer { padding: 0 12px; }
+	#footer { padding: 0 12px 12px; }
 	#footer > ul.navigation { text-align: left; }
 	#footer #footer-text { grid-template-columns: 1fr; row-gap: 10px; }
 	#footer p.gmu-logo { grid-column: 1; grid-row: auto; }

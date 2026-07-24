@@ -33,9 +33,12 @@ q:before, q:after {
     content: none;
 }
 
-/* remember to define focus styles! */
-:focus {
-    outline: 0;
+/* Visible keyboard focus indicator (WCAG 2.4.7 Focus Visible / 2.4.11) */
+a:focus, button:focus, input:focus, select:focus, textarea:focus, [tabindex]:focus,
+a:focus-visible, button:focus-visible, input:focus-visible,
+select:focus-visible, textarea:focus-visible, [tabindex]:focus-visible {
+    outline: 3px solid #005a9c;
+    outline-offset: 2px;
 }
 
 /* remember to highlight inserts somehow! */
@@ -97,7 +100,7 @@ p, ul, ol, dl {
 }
 /* Links */
 a:link {color:#ab0b17;}
-a:visited {color:#999;}
+a:visited {color:#6f6f6f;} /* was #999 (2.85:1, failed) — now 5.0:1 for WCAG 1.4.3 AA */
 a:hover {color:#d50000;} /*changed from #777 so it "lights up"*/
 a:active {color:#d50000;}
 
@@ -278,7 +281,7 @@ margin: 5px;}
 	#footer p.omeka {float: right; font-size: 1em; line-height:1em; padding-right: 20px;}
   #footer ul {float:right; width:60%; /*margin:0 0 0 60px;*/margin:0 18px 0 0;text-align:right;}
 		#footer ul li {margin-left:12px;}
-	#footer .navigation a {color: #999;} /*added properties to account for dark gray page background*/
+	#footer .navigation a {color: #6f6f6f;} /* was #999 — now meets WCAG 1.4.3 AA (5.0:1) on white */
 		#footer .navigation li.current a {color: #ab0b17;}
 		#footer .navigation a:hover {color:#ab0b17;}
 		
@@ -297,6 +300,15 @@ margin: 5px;}
 
 #exhibit-page-navigation {clear:both;float:right;}
 #exhibit-page-navigation .next-page {margin-left:2em;}
+
+/* == Accessibility helpers (WCAG 2.2 AA) == */
+/* Skip link (2.4.1 Bypass Blocks): off-screen until focused */
+.skip-link {position:absolute; left:-9999px; top:0; z-index:1000; padding:8px 16px; background:#ab0b17; text-decoration:none; font-family:'Arvo', Georgia, serif;}
+.skip-link, .skip-link:link, .skip-link:visited, .skip-link:hover, .skip-link:focus {color:#fff;}
+.skip-link:focus {left:0;}
+/* Target size minimum (2.5.8): give form controls a usable hit area */
+button, input, select, textarea {min-height:24px;}
+#search-wrap button, #search-wrap input[type="search"] {min-height:28px; padding:2px 8px;}
 }/*end @media screen*/
 /* Print Styles */
 @media print {
@@ -347,3 +359,34 @@ blockquote {
 	font-style:italic;
 }
 }/*end @media print*/
+
+/* == Responsive layer (WCAG 1.4.10 Reflow / 1.4.4 Resize Text) ==
+   Only applies at <=980px; the desktop design above is unchanged.
+   Collapses the fixed-width, float-based layout into a single column
+   so content reflows to 320px without horizontal scrolling. */
+@media screen and (max-width: 980px) {
+	body { min-width: 0; }
+	#wrap, #footer, #items#footer { width: auto; max-width: 960px; box-sizing: border-box; }
+	#content { padding-left: 12px; padding-right: 12px; box-sizing: border-box; }
+	/* Stack the columns */
+	#primary-nav, #primary, #secondary,
+	.two-col #primary, .two-col #secondary,
+	.two-col-primary #primary, .two-col-primary #secondary,
+	.two-col-secondary #primary, .two-col-secondary #secondary {
+		float: none; width: auto; margin-left: 0; margin-right: 0;
+	}
+	#primary-nav { margin-top: 1em; }
+	#primary-nav li, #primary-nav a { width: auto; }
+	/* Footer: stack nav and text instead of floating */
+	#footer ul, #footer p, #footer p.omeka { float: none; width: auto; text-align: left; padding-right: 0; }
+	/* Prevent fixed-width elements from forcing horizontal scroll */
+	.item-pagination, #secondary-nav, textarea#rights { width: auto; max-width: 100%; }
+	img { max-width: 100%; height: auto; }
+	/* Advanced-search form: unstack the floated label/field pairs */
+	#advanced-search-page .field label, #advanced-search-page .field .label,
+	#advanced-search-page .field input, #advanced-search-page .field select,
+	#advanced-search-page .field button, #advanced-search-page #submit_search_advanced {
+		float: none; width: auto; max-width: 100%;
+	}
+}
+

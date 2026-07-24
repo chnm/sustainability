@@ -4,3 +4,6 @@ Dockerfile
 # See README.md "Archive storage" for how to provide it at build/run time.
 archive/
 
+# Node deps for the accessibility audit harness (tools/a11ycheck)
+tools/a11ycheck/node_modules/
+

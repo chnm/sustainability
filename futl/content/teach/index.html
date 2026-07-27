@@ -169,7 +169,7 @@
     top: 0;
     right: 17%;
     z-index: 99;
-    background-color: #3395a5;
+    background-color: #007A8F;
     box-shadow: 1px 1px 3px #004e5c;
     padding: 0.1em 1.5em 0.1em;
     border-bottom-left-radius: 10px;
@@ -191,6 +191,13 @@
     text-decoration: none;
   }
   .l-header .l-branding .searchwrap a:hover { text-decoration: underline; }
+
+  /* a11y-pass: focus-visible + pill contrast */
+  .l-header .rightside { background-color: #007A8F !important; }
+  a:focus-visible, button:focus-visible, [tabindex]:focus-visible,
+  .boxwrap:focus-visible, .searchlink:focus-visible, .teachlink:focus-visible {
+    outline: 3px solid #ffbf47; outline-offset: 2px;
+  }
 </style><script id="futl-archive-behaviors">
 document.addEventListener("click", function (e) {
   var box = e.target.closest && e.target.closest(".boxwrap");
@@ -255,7 +262,7 @@ document.addEventListener("click", function (e) {
 <div class="modwrap eventsocw">
 <div class="modpic eventsocw">
 <div class="colorstrip"></div>
-<img class="imgbox" src="../../sites/all/themes/arlington/images/eventstocw.jpg"/>
+<img alt="" class="imgbox" src="../../sites/all/themes/arlington/images/eventstocw.jpg"/>
 </div>
 <div class="modinfo">
 <h3>In the Service of the Country</h3>
@@ -269,7 +276,7 @@ document.addEventListener("click", function (e) {
 <div class="modwrap causecw">
 <div class="modpic causecw">
 <div class="colorstrip"></div>
-<img class="imgbox" src="../../sites/all/themes/arlington/images/begofcw.png"/>
+<img alt="" class="imgbox" src="../../sites/all/themes/arlington/images/begofcw.png"/>
 </div>
 <div class="modinfo">
 <h3>Fighting Side by Side</h3>
@@ -283,7 +290,7 @@ document.addEventListener("click", function (e) {
 <div class="modwrap lincoln">
 <div class="modpic lincoln">
 <div class="colorstrip"></div>
-<img class="imgbox" src="../../sites/all/themes/arlington/images/lincoln.jpg"/>
+<img alt="" class="imgbox" src="../../sites/all/themes/arlington/images/lincoln.jpg"/>
 </div>
 <div class="modinfo">
 <h3>A Sad and Terrible Disaster</h3>
@@ -297,7 +304,7 @@ document.addEventListener("click", function (e) {
 <div class="modwrap timeline">
 <div class="modpic timeline">
 <div class="colorstrip"></div>
-<img class="imgbox" src="../../sites/all/themes/arlington/images/timelinecw.jpg"/>
+<img alt="" class="imgbox" src="../../sites/all/themes/arlington/images/timelinecw.jpg"/>
 </div>
 <div class="modinfo">
 <h3>In the Spirit of Fraternity</h3>
@@ -311,7 +318,7 @@ document.addEventListener("click", function (e) {
 <div class="modwrap cwreconst">
 <div class="modpic cwreconst">
 <div class="colorstrip"></div>
-<img class="imgbox" src="../../sites/all/themes/arlington/images/civreconst.jpg"/>
+<img alt="" class="imgbox" src="../../sites/all/themes/arlington/images/civreconst.jpg"/>
 </div>
 <div class="modinfo">
 <h3>Before Rosie the Riveter</h3>
@@ -333,7 +340,7 @@ document.addEventListener("click", function (e) {
 <div class="infowrap">
 <h3 class="specialline"><span>In the Classroom</span></h3>
 <div class="textwrap">
-<div class="holdleft"><img src="../../sites/all/themes/arlington/images/teachclass.png"/></div>
+<div class="holdleft"><img alt="" src="../../sites/all/themes/arlington/images/teachclass.png"/></div>
 <div class="textholder">
 <ul>
 <li>Modules can be completed in 20-45 minutes depending on the student.</li>
@@ -391,7 +398,7 @@ document.addEventListener("click", function (e) {
 <div class="panel-pane pane-custom pane-4">
 <div class="footwrap">
 <div class="footcpr">© Copyright 2018</div>
-<div class="footlogo"><img class="X" src="../../sites/all/themes/arlington/images/FooterLogo.png"/></div>
+<div class="footlogo"><img alt="" class="X" src="../../sites/all/themes/arlington/images/FooterLogo.png"/></div>
 <div class="footlink"><a href="../about-us">About Us</a></div>
 </div> </div>
 </div>

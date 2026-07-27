@@ -165,7 +165,7 @@
     top: 0;
     right: 17%;
     z-index: 99;
-    background-color: #3395a5;
+    background-color: #007A8F;
     box-shadow: 1px 1px 3px #004e5c;
     padding: 0.1em 1.5em 0.1em;
     border-bottom-left-radius: 10px;
@@ -187,25 +187,100 @@
     text-decoration: none;
   }
   .l-header .l-branding .searchwrap a:hover { text-decoration: underline; }
+
+  /* a11y-pass: focus-visible + pill contrast */
+  .l-header .rightside { background-color: #007A8F !important; }
+  a:focus-visible, button:focus-visible, [tabindex]:focus-visible,
+  .boxwrap:focus-visible, .searchlink:focus-visible, .teachlink:focus-visible {
+    outline: 3px solid #ffbf47; outline-offset: 2px;
+  }
 </style><script id="futl-archive-behaviors">
-document.addEventListener("click", function (e) {
-  var box = e.target.closest && e.target.closest(".boxwrap");
-  if (box) {
-    var sib = box.parentElement && box.parentElement.querySelector(".popupme");
-    if (sib) { sib.style.display = "block"; e.preventDefault(); }
-    return;
+(function () {
+  function popupFor(box) {
+    return box.parentElement && box.parentElement.querySelector(".popupme");
   }
-  var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
-  // Only close on the dimmed backdrop; let clicks inside the inner card pass
-  // through (so the "Preview Module" link still navigates).
-  if (!inner) {
-    var popup = e.target.closest && e.target.closest(".popupme");
-    if (popup) popup.style.display = "none";
+  function focusablesIn(el) {
+    return Array.prototype.slice.call(
+      el.querySelectorAll('a[href],button,[tabindex]:not([tabindex="-1"])')
+    );
   }
-});
+  var lastTrigger = null;
+  function openBox(box) {
+    var popup = popupFor(box);
+    if (!popup) return;
+    popup.style.display = "block";
+    box.setAttribute("aria-expanded", "true");
+    lastTrigger = box;
+    var f = focusablesIn(popup);
+    (f[0] || popup).focus();
+  }
+  function closePopup(popup) {
+    if (!popup || popup.style.display === "none") return;
+    popup.style.display = "none";
+    var box = popup.parentElement && popup.parentElement.querySelector(".boxwrap");
+    if (box) box.setAttribute("aria-expanded", "false");
+    if (lastTrigger) { lastTrigger.focus(); lastTrigger = null; }
+  }
+  // Progressive enhancement: make each card a keyboard-operable button and
+  // each preview a labelled dialog. Done in JS so the static markup is untouched.
+  document.addEventListener("DOMContentLoaded", function () {
+    Array.prototype.forEach.call(document.querySelectorAll(".boxwrap"), function (box) {
+      var titleEl = box.querySelector(".imgtit");
+      var title = titleEl ? titleEl.textContent.trim() : "module";
+      box.setAttribute("role", "button");
+      box.setAttribute("tabindex", "0");
+      box.setAttribute("aria-expanded", "false");
+      box.setAttribute("aria-label", "Preview module: " + title);
+      var popup = popupFor(box);
+      if (popup) {
+        popup.setAttribute("role", "dialog");
+        popup.setAttribute("aria-modal", "true");
+        popup.setAttribute("tabindex", "-1");
+        var top = popup.querySelector(".toptit");
+        if (top) popup.setAttribute("aria-label", top.textContent.trim());
+      }
+    });
+  });
+  document.addEventListener("click", function (e) {
+    var box = e.target.closest && e.target.closest(".boxwrap");
+    if (box) { openBox(box); e.preventDefault(); return; }
+    var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
+    // Only close on the dimmed backdrop; let clicks inside the inner card pass
+    // through (so the "Preview Module" link still navigates).
+    if (!inner) {
+      var popup = e.target.closest && e.target.closest(".popupme");
+      if (popup) closePopup(popup);
+    }
+  });
+  document.addEventListener("keydown", function (e) {
+    // Activate a focused card with Enter or Space.
+    var box = e.target.closest && e.target.closest(".boxwrap");
+    if (box && (e.key === "Enter" || e.key === " " || e.key === "Spacebar")) {
+      openBox(box); e.preventDefault(); return;
+    }
+    var openPopup = null;
+    var popups = document.querySelectorAll(".popupme");
+    for (var i = 0; i < popups.length; i++) {
+      if (popups[i].style.display === "block") { openPopup = popups[i]; break; }
+    }
+    if (!openPopup) return;
+    if (e.key === "Escape" || e.key === "Esc") { closePopup(openPopup); e.preventDefault(); return; }
+    // Minimal focus trap so a modal preview keeps focus inside.
+    if (e.key === "Tab") {
+      var f = focusablesIn(openPopup);
+      if (!f.length) { e.preventDefault(); openPopup.focus(); return; }
+      var first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && (e.target === first || e.target === openPopup)) {
+        e.preventDefault(); last.focus();
+      } else if (!e.shiftKey && e.target === last) {
+        e.preventDefault(); first.focus();
+      }
+    }
+  });
+})();
 </script></head>
 <body class="html front not-logged-in page-node page-node- page-node-1 node-type-page">
-<a class="element-invisible element-focusable" href="index.html#main-content">Skip to main content</a>
+<a class="element-invisible element-focusable" href="#main-content">Skip to main content</a>
 <div class="l-page has-no-sidebars">
 <header class="l-header" role="banner">
 <div class="l-branding">
@@ -227,6 +302,7 @@ document.addEventListener("click", function (e) {
 <div class="l-main">
 <div class="l-content" data-pagefind-body="" role="main">
 <a id="main-content"></a>
+<h1 class="element-invisible">For Us the Living — Learning from the stories of Alexandria National Cemetery</h1>
 <div class="panel-pane pane-custom pane-2">
 <div class="homecont">
 <div class="topbox">
@@ -236,7 +312,7 @@ document.addEventListener("click", function (e) {
                 <span>The Gettysburg Address</span>
 </div>
 </div>
-<img class="backdrop" src="sites/all/themes/arlington/images/frontheader.jpg"/>
+<img alt="" class="backdrop" src="sites/all/themes/arlington/images/frontheader.jpg"/>
 </div>
 <div class="bottbox">
 <div class="eventstocw bigwrapper">
@@ -244,7 +320,7 @@ document.addEventListener("click", function (e) {
 <div class="innerwarp">
 <div class="toptit">In Service to the Country</div>
 <div class="info">
-<div class="imghold"><img class="imgbox" src="sites/all/themes/arlington/images/eventstocw.jpg"/></div>
+<div class="imghold"><img alt="" class="imgbox" src="sites/all/themes/arlington/images/eventstocw.jpg"/></div>
 <div class="details">
 <p>Students will discover the historical and geographical context that  caused the City of Alexandria, Virginia to become home to one of the first national cemeteries.</p>
 <p><strong>NCSS Themes:</strong><br/>People, Places, and Environments; Civic Ideals and Practices</p>
@@ -257,7 +333,7 @@ document.addEventListener("click", function (e) {
 </div>
 <div class="boxwrap">
 <div class="colorstrip"></div>
-<img class="imgbox" src="sites/all/themes/arlington/images/eventstocw.jpg"/>
+<img alt="" class="imgbox" src="sites/all/themes/arlington/images/eventstocw.jpg"/>
 <div class="imgtit">In Service to the Country</div>
 </div>
 </div>
@@ -266,7 +342,7 @@ document.addEventListener("click", function (e) {
 <div class="innerwarp">
 <div class="toptit">Fighting Side by Side</div>
 <div class="info">
-<div class="imghold"> <img class="imgbox" src="sites/all/themes/arlington/images/begofcw.png"/></div>
+<div class="imghold"> <img alt="" class="imgbox" src="sites/all/themes/arlington/images/begofcw.png"/></div>
 <div class="details">
 <p>Students will learn the story of one of the United States’ first civil rights actions, an 1864 United States Colored Troops’ petition to be buried in Alexandria National Cemetery.</p>
 <p><strong>NCSS Themes:</strong><br/>Culture; Power, Authority, and Governance; Civic Ideals and Practices</p>
@@ -279,7 +355,7 @@ document.addEventListener("click", function (e) {
 </div>
 <div class="boxwrap">
 <div class="colorstrip"></div>
-<img class="imgbox" src="sites/all/themes/arlington/images/begofcw.png"/>
+<img alt="" class="imgbox" src="sites/all/themes/arlington/images/begofcw.png"/>
 <div class="imgtit">Fighting Side by Side</div>
 </div>
 </div>
@@ -288,7 +364,7 @@ document.addEventListener("click", function (e) {
 <div class="innerwarp">
 <div class="toptit">A Sad and Terrible Disaster</div>
 <div class="info">
-<div class="imghold"><img class="imgbox" src="sites/all/themes/arlington/images/lincoln.jpg"/></div>
+<div class="imghold"><img alt="" class="imgbox" src="sites/all/themes/arlington/images/lincoln.jpg"/></div>
 <div class="details">
 <p>Students will uncover the fate of four men linked to the manhunt for John Wilkes Booth, President Lincoln’s assassin.</p>
 <p><strong>NCSS Themes:</strong><br/>Civic Ideals and Practices</p>
@@ -301,7 +377,7 @@ document.addEventListener("click", function (e) {
 </div>
 <div class="boxwrap">
 <div class="colorstrip"></div>
-<img class="imgbox" src="sites/all/themes/arlington/images/lincoln.jpg"/>
+<img alt="" class="imgbox" src="sites/all/themes/arlington/images/lincoln.jpg"/>
 <div class="imgtit">A Sad and Terrible Disaster</div>
 </div>
 </div>
@@ -310,7 +386,7 @@ document.addEventListener("click", function (e) {
 <div class="innerwarp">
 <div class="toptit">In the Spirit of Fraternity</div>
 <div class="info">
-<div class="imghold"><img class="imgbox" src="sites/all/themes/arlington/images/timelinecw.jpg"/></div>
+<div class="imghold"><img alt="" class="imgbox" src="sites/all/themes/arlington/images/timelinecw.jpg"/></div>
 <div class="details">
 <p>Students will explore the history behind the removal of Confederate war dead from Alexandria National Cemetery.</p>
 <p><strong>NCSS Themes:</strong><br/>Culture; Civic Ideals and Practices</p>
@@ -323,7 +399,7 @@ document.addEventListener("click", function (e) {
 </div>
 <div class="boxwrap">
 <div class="colorstrip"></div>
-<img class="imgbox" src="sites/all/themes/arlington/images/timelinecw.jpg"/>
+<img alt="" class="imgbox" src="sites/all/themes/arlington/images/timelinecw.jpg"/>
 <div class="imgtit">In the Spirit of Fraternity</div>
 </div>
 </div>
@@ -332,7 +408,7 @@ document.addEventListener("click", function (e) {
 <div class="innerwarp">
 <div class="toptit">Before Rosie the Riveter</div>
 <div class="info">
-<div class="imghold"><img class="imgbox" src="sites/all/themes/arlington/images/eventstocw.jpg"/></div>
+<div class="imghold"><img alt="" class="imgbox" src="sites/all/themes/arlington/images/eventstocw.jpg"/></div>
 <div class="details">
 <p>Students will compare and contrast the memorialization of women and recognition of their military service from the Civil War to the present day.</p>
 <p><strong>NCSS Themes:</strong><br/>Culture; Power, Authority, and Governance; Civic Ideals and Practices</p>
@@ -345,7 +421,7 @@ document.addEventListener("click", function (e) {
 </div>
 <div class="boxwrap">
 <div class="colorstrip"></div>
-<img class="imgbox" src="sites/all/themes/arlington/images/civreconst.jpg"/>
+<img alt="" class="imgbox" src="sites/all/themes/arlington/images/civreconst.jpg"/>
 <div class="imgtit">Before Rosie the Riveter</div>
 </div>
 </div>
@@ -358,7 +434,7 @@ document.addEventListener("click", function (e) {
 <div class="panel-pane pane-custom pane-3">
 <div class="footwrap">
 <div class="footcpr">© Copyright 2018</div>
-<div class="footlogo"><img class="X" src="sites/all/themes/arlington/images/FooterLogo.png"/></div>
+<div class="footlogo"><img alt="" class="X" src="sites/all/themes/arlington/images/FooterLogo.png"/></div>
 <div class="footlink"><a href="content/about-us">About Us</a></div>
 </div> </div>
 </div>

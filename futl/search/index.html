@@ -24,7 +24,7 @@
     /* Header pills — matching the rest of the site */
     .l-header .l-branding .searchwrap {
       position: absolute; top: 0; right: 17%; z-index: 99;
-      background-color: #3395a5; box-shadow: 1px 1px 3px #004e5c;
+      background-color: #007A8F; box-shadow: 1px 1px 3px #004e5c;
       padding: 0.1em 1.5em; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
     }
     .l-header .l-branding .searchwrap a {
@@ -225,7 +225,7 @@
     top: 0;
     right: 17%;
     z-index: 99;
-    background-color: #3395a5;
+    background-color: #007A8F;
     box-shadow: 1px 1px 3px #004e5c;
     padding: 0.1em 1.5em 0.1em;
     border-bottom-left-radius: 10px;
@@ -247,6 +247,13 @@
     text-decoration: none;
   }
   .l-header .l-branding .searchwrap a:hover { text-decoration: underline; }
+
+  /* a11y-pass: focus-visible + pill contrast */
+  .l-header .rightside { background-color: #007A8F !important; }
+  a:focus-visible, button:focus-visible, [tabindex]:focus-visible,
+  .boxwrap:focus-visible, .searchlink:focus-visible, .teachlink:focus-visible {
+    outline: 3px solid #ffbf47; outline-offset: 2px;
+  }
 </style><script id="futl-archive-behaviors">
 document.addEventListener("click", function (e) {
   var box = e.target.closest && e.target.closest(".boxwrap");

@@ -192,7 +192,7 @@
     top: 0;
     right: 17%;
     z-index: 99;
-    background-color: #3395a5;
+    background-color: #007A8F;
     box-shadow: 1px 1px 3px #004e5c;
     padding: 0.1em 1.5em 0.1em;
     border-bottom-left-radius: 10px;
@@ -214,6 +214,13 @@
     text-decoration: none;
   }
   .l-header .l-branding .searchwrap a:hover { text-decoration: underline; }
+
+  /* a11y-pass: focus-visible + pill contrast */
+  .l-header .rightside { background-color: #007A8F !important; }
+  a:focus-visible, button:focus-visible, [tabindex]:focus-visible,
+  .boxwrap:focus-visible, .searchlink:focus-visible, .teachlink:focus-visible {
+    outline: 3px solid #ffbf47; outline-offset: 2px;
+  }
 </style><script id="futl-archive-behaviors">
 document.addEventListener("click", function (e) {
   var box = e.target.closest && e.target.closest(".boxwrap");
@@ -273,27 +280,27 @@ document.addEventListener("click", function (e) {
 <div class="instbox first">
 <div class="instwrap">
 <div class="redcir">
-<img src="../../sites/all/themes/arlington/images/hands.png"/>
+<img alt="" src="../../sites/all/themes/arlington/images/hands.png"/>
 </div>
 <div class="sniplet"><p>Read through the report, "Report: School Segregation Is Back, 60 Years After 'Brown'" from PBS (below in Resources) on the state of school integration today.<br/>
 In a one-page memo, outline a...</p></div>
-<div class="instclick">More <img src="../../sites/all/themes/arlington/images/Button_arrow-right.png"/></div>
+<div class="instclick">More <img alt="" src="../../sites/all/themes/arlington/images/Button_arrow-right.png"/></div>
 <div class="wholetxt"><p>Read through the report, "Report: School Segregation Is Back, 60 Years After 'Brown'" from PBS (below in Resources) on the state of school integration today.<br/>
 In a one-page memo, outline a federal law that would you think would be the best way to increase school integration in the United States. </p>
 </div>
-<div class="instclick2">Less <img src="../../sites/all/themes/arlington/images/Button_arrow-left.png"/></div>
+<div class="instclick2">Less <img alt="" src="../../sites/all/themes/arlington/images/Button_arrow-left.png"/></div>
 </div>
 </div>
 <div class="instbox sec">
 <div class="instwrap">
 <div class="redcir">
-<img src="../../sites/all/themes/arlington/images/book.png"/>
+<img alt="" src="../../sites/all/themes/arlington/images/book.png"/>
 </div>
 <div class="sniplet"><p>Use the table "K‐12 Civil Rights Statistics by School as of October 27, 2015" (below in Resources) on student distribution by race of in Arlington Public Schools  to consider issues of school...</p></div>
-<div class="instclick">More <img src="../../sites/all/themes/arlington/images/Button_arrow-right.png"/></div>
+<div class="instclick">More <img alt="" src="../../sites/all/themes/arlington/images/Button_arrow-right.png"/></div>
 <div class="wholetxt"><p>Use the table "K‐12 Civil Rights Statistics by School as of October 27, 2015" (below in Resources) on student distribution by race of in Arlington Public Schools  to consider issues of school integration in Arlington. What would you recommend to the Arlington school board? Create a 5-minute presentation outlining the steps you would take.</p>
 </div>
-<div class="instclick2">Less <img src="../../sites/all/themes/arlington/images/Button_arrow-left.png"/></div>
+<div class="instclick2">Less <img alt="" src="../../sites/all/themes/arlington/images/Button_arrow-left.png"/></div>
 </div>
 </div>
 </div>
@@ -340,7 +347,7 @@ In a one-page memo, outline a federal law that would you think would be the best
 <div class="panel-pane pane-custom pane-4">
 <div class="footwrap">
 <div class="footcpr">© Copyright 2018</div>
-<div class="footlogo"><img class="X" src="../../sites/all/themes/arlington/images/FooterLogo.png"/></div>
+<div class="footlogo"><img alt="" class="X" src="../../sites/all/themes/arlington/images/FooterLogo.png"/></div>
 <div class="footlink"><a href="../about-us">About Us</a></div>
 </div> </div>
 </div>

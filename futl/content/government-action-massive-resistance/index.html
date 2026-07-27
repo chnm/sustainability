@@ -192,7 +192,7 @@
     top: 0;
     right: 17%;
     z-index: 99;
-    background-color: #3395a5;
+    background-color: #007A8F;
     box-shadow: 1px 1px 3px #004e5c;
     padding: 0.1em 1.5em 0.1em;
     border-bottom-left-radius: 10px;
@@ -214,6 +214,13 @@
     text-decoration: none;
   }
   .l-header .l-branding .searchwrap a:hover { text-decoration: underline; }
+
+  /* a11y-pass: focus-visible + pill contrast */
+  .l-header .rightside { background-color: #007A8F !important; }
+  a:focus-visible, button:focus-visible, [tabindex]:focus-visible,
+  .boxwrap:focus-visible, .searchlink:focus-visible, .teachlink:focus-visible {
+    outline: 3px solid #ffbf47; outline-offset: 2px;
+  }
 </style><script id="futl-archive-behaviors">
 document.addEventListener("click", function (e) {
   var box = e.target.closest && e.target.closest(".boxwrap");
@@ -273,25 +280,25 @@ document.addEventListener("click", function (e) {
 <div class="instbox first">
 <div class="instwrap">
 <div class="redcir">
-<img src="../../sites/all/themes/arlington/images/hands.png"/>
+<img alt="" src="../../sites/all/themes/arlington/images/hands.png"/>
 </div>
 <div class="sniplet"><p>You have been hired to be the social media manager for the Smithsonian Museum of African American History and Culture. Your first task: explain massive resistance in 5 tweets (140 or fewer...</p></div>
-<div class="instclick">More <img src="../../sites/all/themes/arlington/images/Button_arrow-right.png"/></div>
+<div class="instclick">More <img alt="" src="../../sites/all/themes/arlington/images/Button_arrow-right.png"/></div>
 <div class="wholetxt"><p>You have been hired to be the social media manager for the Smithsonian Museum of African American History and Culture. Your first task: explain massive resistance in 5 tweets (140 or fewer characters each). What would be the most important part to emphasize? What details would you include? What would you leave out?</p>
 </div>
-<div class="instclick2">Less <img src="../../sites/all/themes/arlington/images/Button_arrow-left.png"/></div>
+<div class="instclick2">Less <img alt="" src="../../sites/all/themes/arlington/images/Button_arrow-left.png"/></div>
 </div>
 </div>
 <div class="instbox sec">
 <div class="instwrap">
 <div class="redcir">
-<img src="../../sites/all/themes/arlington/images/book.png"/>
+<img alt="" src="../../sites/all/themes/arlington/images/book.png"/>
 </div>
 <div class="sniplet"><p>Write to the President. In 1957 President Eisenhower sent the 101st Airborne to Little Rock, Arkansas to enforce court-ordered desegregation. Imagine you’re living in Arlington at the time, and...</p></div>
-<div class="instclick">More <img src="../../sites/all/themes/arlington/images/Button_arrow-right.png"/></div>
+<div class="instclick">More <img alt="" src="../../sites/all/themes/arlington/images/Button_arrow-right.png"/></div>
 <div class="wholetxt"><p>Write to the President. In 1957 President Eisenhower sent the 101st Airborne to Little Rock, Arkansas to enforce court-ordered desegregation. Imagine you’re living in Arlington at the time, and write a letter to President Eisenhower telling him what you think should be done with desegregation in Arlington. Be to sure to show that you understand the division between federal, state, and local powers.</p>
 </div>
-<div class="instclick2">Less <img src="../../sites/all/themes/arlington/images/Button_arrow-left.png"/></div>
+<div class="instclick2">Less <img alt="" src="../../sites/all/themes/arlington/images/Button_arrow-left.png"/></div>
 </div>
 </div>
 </div>
@@ -338,7 +345,7 @@ document.addEventListener("click", function (e) {
 <div class="panel-pane pane-custom pane-4">
 <div class="footwrap">
 <div class="footcpr">© Copyright 2018</div>
-<div class="footlogo"><img class="X" src="../../sites/all/themes/arlington/images/FooterLogo.png"/></div>
+<div class="footlogo"><img alt="" class="X" src="../../sites/all/themes/arlington/images/FooterLogo.png"/></div>
 <div class="footlink"><a href="../about-us">About Us</a></div>
 </div> </div>
 </div>

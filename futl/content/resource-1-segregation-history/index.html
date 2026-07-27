@@ -207,6 +207,15 @@
   .boxwrap:focus-visible, .searchlink:focus-visible, .teachlink:focus-visible {
     outline: 3px solid #ffbf47; outline-offset: 2px;
   }
+
+  /* a11y-pass: footer partner logos */
+  footer .footwrap .footlogo { text-align: center; white-space: normal; }
+  footer .footwrap .footlogo img { height: 46px; width: auto; vertical-align: middle; }
+  footer .footwrap .footlogo img.gmu { margin-left: 18px; }
+  @media (min-width: 569px) {
+    footer .footwrap .footcpr, footer .footwrap .footlink { width: 24%; }
+    footer .footwrap .footlogo { width: 48%; }
+  }
 </style><script id="futl-archive-behaviors">
 document.addEventListener("click", function (e) {
   var box = e.target.closest && e.target.closest(".boxwrap");
@@ -297,7 +306,7 @@ document.addEventListener("click", function (e) {
 <div class="panel-pane pane-custom pane-4">
 <div class="footwrap">
 <div class="footcpr">© Copyright 2018</div>
-<div class="footlogo"><img alt="" class="X" src="../../sites/all/themes/arlington/images/FooterLogo.png"/></div>
+<div class="footlogo"><img alt="" class="X" src="../../sites/all/themes/arlington/images/FooterLogo.png"/><img alt="George Mason University logo" class="gmu" src="/sites/all/themes/arlington/images/GMULogo.png"/></div>
 <div class="footlink"><a href="../about-us">About Us</a></div>
 </div> </div>
 </div>

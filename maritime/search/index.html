@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en" version="XHTML+RDFa 1.0" dir="ltr"
     prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
 
 <head profile="http://www.w3.org/1999/xhtml/vocab">
@@ -102,7 +102,9 @@
         }
 
         .result-url {
-            color: #43829f;
+            /* Accessibility fix: #43829f only hit 4.26:1 against white, below the 4.5:1
+               minimum for normal text (WCAG 1.4.3). This darkened shade hits 4.82:1. */
+            color: #3c7994;
             margin-bottom: 5px;
         }
 
@@ -153,7 +155,7 @@
 <body class="html not-front not-logged-in page-node page-node- page-node-2 node-type-page section-content"
     class="html not-front not-logged-in page-node page-node- page-node-2 node-type-page section-content">
     <div id="skip-link">
-        <a href="about.html#main-content" class="element-invisible element-focusable">Skip to main content</a>
+        <a href="index.html#main-content" class="element-invisible element-focusable">Skip to main content</a>
     </div>
     <div class="l-page has-no-sidebars">
         <header class="l-header" role="banner">
@@ -172,16 +174,16 @@
                         <li class="leaf"><a href="../content/timeline.html">Timeline</a></li>
                         <li class="leaf"><a href="../content/key-actors.html">Key Actors</a></li>
                         <li class="leaf"><a href="../content/archive.html" title="">Archive</a></li>
-                        <li class="last leaf active-trail"><a href="index.html" title="" class="active-trail active">Search</a></li>
+                        <li class="last leaf active-trail"><a href="index.html" title="" class="active-trail active" aria-current="page">Search</a></li>
                     </ul>
                 </div>
                 <div class="panel-pane pane-custom pane-2 headerwrap">
                     <div class="headerinner">
-                        <div class="toback"><img class="backme" src="../sites/all/themes/amboyna/images/header.png">
+                        <div class="toback"><img class="backme" src="../sites/all/themes/amboyna/images/header.png" alt="">
                         </div>
                         <div class="totop">
                             <a href="../index.html"><img class="logo"
-                                    src="../sites/all/themes/amboyna/images/logo.png"></a>
+                                    src="../sites/all/themes/amboyna/images/logo.png" alt="Maritime Asia"></a>
                         </div>
                     </div>
                 </div>
@@ -197,6 +199,7 @@
                 <div class="panel-pane pane-page-content">
                     <div class="entry-content">
                         <div id="search-box">
+                            <label for="search-input" class="sr-only">Search for content</label>
                             <input type="text" id="search-input" placeholder="Search for content...">
                         </div>
                         <div class="loading-text">Searching...</div>
@@ -213,11 +216,13 @@
                 <div class="panel-pane pane-custom pane-1">
                     <div class="footwrap">
                         <span class="cpright">© Adam Clulow & Xing Hang 2019</span>
-                        <div class="linkwrap">
+                        <nav class="linkwrap" aria-label="Footer">
                             <span class="linkers"><a href="../content/about.html">About</a></span>
                             <span class="divider">|</span>
                             <span class="linkers"><a href="../content/further-resources.html">Further Resources</a></span>
-                        </div>
+                            <span class="divider">|</span>
+                            <span class="linkers"><a href="https://rrchnm.org/accessibility/">Accessibility</a></span>
+                        </nav>
                     </div>
                 </div>
             </div>

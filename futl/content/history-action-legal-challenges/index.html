@@ -154,6 +154,25 @@
   .node-type-rethink .hidden { display: block !important; }
   .accordion .atitle:before { content: none !important; }
 
+  /* Transcription accordions are the one collapsible we keep interactive:
+     collapsed by default, click the "Read the Transcription" header to expand.
+     The archive-behaviors script toggles `.selected`; these rules restore the
+     theme's show/hide + arrow indicator (both neutralised by the force-expand
+     and arrow-kill rules above). */
+  .views-field-field-transcription .accordion .acont { display: none !important; }
+  .views-field-field-transcription .accordion .acont.selected { display: block !important; }
+  .views-field-field-transcription .accordion .atitle { cursor: pointer; }
+  .views-field-field-transcription .accordion .atitle:before { content: "\025b2" !important; }
+  .views-field-field-transcription .accordion .atitle.selected:before { content: "\025bc" !important; }
+
+  /* Resource thumbnails used the Drupal `resource_circles` image style
+     (a 150x150 crop) generated on demand. The static archive can't build those
+     derivatives, so the HTML points at the original files instead; crop them to
+     the 150x150 box the theme sizes them to, rather than squashing non-square
+     scans. */
+  .srccircle img,
+  .views-field-field-source .field-content img { object-fit: cover; }
+
   /* Resource pages: live theme uses JS to add `.myself` to the active citation
      paragraph; without that JS the citation text is hidden. Always show it. */
   .pane-resource-image .views-field-field-citation- .field-content p {
@@ -264,21 +283,56 @@
     footer .footwrap .footlogo { width: 48%; }
   }
 </style><script id="futl-archive-behaviors">
-document.addEventListener("click", function (e) {
-  var box = e.target.closest && e.target.closest(".boxwrap");
-  if (box) {
-    var sib = box.parentElement && box.parentElement.querySelector(".popupme");
-    if (sib) { sib.style.display = "block"; e.preventDefault(); }
-    return;
+(function () {
+  // "Read the Transcription" accordions: collapsed by default; the header
+  // toggles the body open/closed. Restores the live theme's `.selected` toggle
+  // (the theme JS that drove it isn't shipped in the static archive) and adds
+  // keyboard + ARIA so the <div> headers are WCAG 2.2 AA keyboard-operable.
+  var TSEL = ".views-field-field-transcription .accordion > .atitle";
+  function toggle(atitle) {
+    var open = atitle.classList.toggle("selected");
+    var body = atitle.nextElementSibling;
+    if (body && body.classList.contains("acont")) body.classList.toggle("selected");
+    atitle.setAttribute("aria-expanded", open ? "true" : "false");
   }
-  var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
-  // Only close on the dimmed backdrop; let clicks inside the inner card pass
-  // through (so the "Preview Module" link still navigates).
-  if (!inner) {
-    var popup = e.target.closest && e.target.closest(".popupme");
-    if (popup) popup.style.display = "none";
-  }
-});
+  document.addEventListener("DOMContentLoaded", function () {
+    var heads = document.querySelectorAll(TSEL);
+    Array.prototype.forEach.call(heads, function (atitle, i) {
+      atitle.setAttribute("role", "button");
+      atitle.setAttribute("tabindex", "0");
+      atitle.setAttribute("aria-expanded", "false");
+      var body = atitle.nextElementSibling;
+      if (body && body.classList.contains("acont")) {
+        if (!body.id) body.id = "transcription-body-" + i;
+        atitle.setAttribute("aria-controls", body.id);
+      }
+    });
+  });
+  document.addEventListener("click", function (e) {
+    var atitle = e.target.closest && e.target.closest(TSEL);
+    if (atitle) { toggle(atitle); return; }
+    var box = e.target.closest && e.target.closest(".boxwrap");
+    if (box) {
+      var sib = box.parentElement && box.parentElement.querySelector(".popupme");
+      if (sib) { sib.style.display = "block"; e.preventDefault(); }
+      return;
+    }
+    var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
+    // Only close on the dimmed backdrop; let clicks inside the inner card pass
+    // through (so the "Preview Module" link still navigates).
+    if (!inner) {
+      var popup = e.target.closest && e.target.closest(".popupme");
+      if (popup) popup.style.display = "none";
+    }
+  });
+  document.addEventListener("keydown", function (e) {
+    var atitle = e.target.closest && e.target.closest(TSEL);
+    if (atitle && (e.key === "Enter" || e.key === " " || e.key === "Spacebar")) {
+      e.preventDefault();
+      toggle(atitle);
+    }
+  });
+})();
 </script></head>
 <body class="html not-front not-logged-in page-node page-node- page-node-134 node-type-in-action section-content">
 <a class="element-invisible element-focusable" href="../history-action-legal-challenges#main-content">Skip to main content</a>
@@ -358,7 +412,7 @@ document.addEventListener("click", function (e) {
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first">
 <div class="views-field views-field-nothing"> <span class="field-content"><div class="eachresource">
-<div class="srccircle"><img alt='Photo of the Virginia Civil Rights Memorial. Several statues of African Americans looking up with the quote "It seemed like reaching for the moon" written behind them.' height="150" src="/sites/default/files/styles/resource_circles/public/M3R1.jpg" typeof="foaf:Image" width="150"/></div>
+<div class="srccircle"><img alt='Photo of the Virginia Civil Rights Memorial. Several statues of African Americans looking up with the quote "It seemed like reaching for the moon" written behind them.' height="150" src="/sites/default/files/M3R1.jpg" typeof="foaf:Image" width="150"/></div>
 <div class="lightboxme hideme">
 <div class="exitleft">X</div>
 <div class="srcvidpic"><div class="view view-resource-multi-sources view-id-resource_multi_sources view-display-id-default view-dom-id-0e85e67d2775dfe4b26e3ebae86c27ff">
@@ -374,7 +428,7 @@ document.addEventListener("click", function (e) {
 </div></span> </div> </div>
 <div class="views-row views-row-2 views-row-even">
 <div class="views-field views-field-nothing"> <span class="field-content"><div class="eachresource">
-<div class="srccircle"><img alt='NAACP flyer titled "The Shame of America". Urges Congress to support anti-lynching legislation.' height="150" src="/sites/default/files/styles/resource_circles/public/M3R2.jpg" typeof="foaf:Image" width="150"/></div>
+<div class="srccircle"><img alt='NAACP flyer titled "The Shame of America". Urges Congress to support anti-lynching legislation.' height="150" src="/sites/default/files/M3R2.jpg" typeof="foaf:Image" width="150"/></div>
 <div class="lightboxme hideme">
 <div class="exitleft">X</div>
 <div class="srcvidpic"><div class="view view-resource-multi-sources view-id-resource_multi_sources view-display-id-default view-dom-id-ffab21d9f77998d9fb93c744e64bbdb3">
@@ -390,7 +444,7 @@ document.addEventListener("click", function (e) {
 </div></span> </div> </div>
 <div class="views-row views-row-3 views-row-odd">
 <div class="views-field views-field-nothing"> <span class="field-content"><div class="eachresource">
-<div class="srccircle"><img alt="Text of interview with Oliver Hill on how the NAACP starting challenging segregation in the courts." height="150" src="/sites/default/files/styles/resource_circles/public/Screen%20Shot%202016-10-13%20at%202.08.59%20PM.png" typeof="foaf:Image" width="150"/></div>
+<div class="srccircle"><img alt="Text of interview with Oliver Hill on how the NAACP starting challenging segregation in the courts." height="150" src="/sites/default/files/Screen%20Shot%202016-10-13%20at%202.08.59%20PM.png" typeof="foaf:Image" width="150"/></div>
 <div class="lightboxme hideme">
 <div class="exitleft">X</div>
 <div class="srcvidpic"><div class="view view-resource-multi-sources view-id-resource_multi_sources view-display-id-default view-dom-id-e2c49b42fb4fc091a3a79182b5723f2b">
@@ -406,7 +460,7 @@ document.addEventListener("click", function (e) {
 </div></span> </div> </div>
 <div class="views-row views-row-4 views-row-even">
 <div class="views-field views-field-nothing"> <span class="field-content"><div class="eachresource">
-<div class="srccircle"><img alt="Historian Wendi Manuel-Scott explains why children were often at the center of the Civil Rights Movement." height="150" src="/sites/default/files/styles/resource_circles/public/WMS%20screenshot.png" typeof="foaf:Image" width="150"/></div>
+<div class="srccircle"><img alt="Historian Wendi Manuel-Scott explains why children were often at the center of the Civil Rights Movement." height="150" src="/sites/default/files/WMS%20screenshot.png" typeof="foaf:Image" width="150"/></div>
 <div class="lightboxme hideme">
 <div class="exitleft">X</div>
 <div class="srcvidpic"><video class="video-js vjs-default-skin" controls="controls" data-setup="{}" height="360" id="videojs-130-field-video-video" poster="/sites/default/files/wendi4.jpg" preload="auto" width="640">
@@ -421,7 +475,7 @@ document.addEventListener("click", function (e) {
 </div></span> </div> </div>
 <div class="views-row views-row-5 views-row-odd">
 <div class="views-field views-field-nothing"> <span class="field-content"><div class="eachresource">
-<div class="srccircle"><img alt="placeholdertext" height="150" src="/sites/default/files/styles/resource_circles/public/Screen%20Shot%202016-11-21%20at%202.15.55%20PM.png" typeof="foaf:Image" width="150"/></div>
+<div class="srccircle"><img alt="placeholdertext" height="150" src="/sites/default/files/Screen%20Shot%202016-11-21%20at%202.15.55%20PM.png" typeof="foaf:Image" width="150"/></div>
 <div class="lightboxme hideme">
 <div class="exitleft">X</div>
 <div class="srcvidpic"><video class="video-js vjs-default-skin" controls="controls" data-setup="{}" height="360" id="videojs-131-field-video-video" preload="auto" width="640">
@@ -435,7 +489,7 @@ document.addEventListener("click", function (e) {
 </div></span> </div> </div>
 <div class="views-row views-row-6 views-row-even views-row-last">
 <div class="views-field views-field-nothing"> <span class="field-content"><div class="eachresource">
-<div class="srccircle"><img alt="placeholdertext" height="150" src="/sites/default/files/styles/resource_circles/public/M3R6.png" typeof="foaf:Image" width="150"/></div>
+<div class="srccircle"><img alt="placeholdertext" height="150" src="/sites/default/files/M3R6.png" typeof="foaf:Image" width="150"/></div>
 <div class="lightboxme hideme">
 <div class="exitleft">X</div>
 <div class="srcvidpic"><video class="video-js vjs-default-skin" controls="controls" data-setup="{}" height="360" id="videojs-132-field-video-video" preload="auto" width="640">

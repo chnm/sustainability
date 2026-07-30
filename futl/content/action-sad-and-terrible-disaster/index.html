@@ -152,6 +152,25 @@
   .node-type-rethink .hidden { display: block !important; }
   .accordion .atitle:before { content: none !important; }
 
+  /* Transcription accordions are the one collapsible we keep interactive:
+     collapsed by default, click the "Read the Transcription" header to expand.
+     The archive-behaviors script toggles `.selected`; these rules restore the
+     theme's show/hide + arrow indicator (both neutralised by the force-expand
+     and arrow-kill rules above). */
+  .views-field-field-transcription .accordion .acont { display: none !important; }
+  .views-field-field-transcription .accordion .acont.selected { display: block !important; }
+  .views-field-field-transcription .accordion .atitle { cursor: pointer; }
+  .views-field-field-transcription .accordion .atitle:before { content: "\025b2" !important; }
+  .views-field-field-transcription .accordion .atitle.selected:before { content: "\025bc" !important; }
+
+  /* Resource thumbnails used the Drupal `resource_circles` image style
+     (a 150x150 crop) generated on demand. The static archive can't build those
+     derivatives, so the HTML points at the original files instead; crop them to
+     the 150x150 box the theme sizes them to, rather than squashing non-square
+     scans. */
+  .srccircle img,
+  .views-field-field-source .field-content img { object-fit: cover; }
+
   /* Resource pages: live theme uses JS to add `.myself` to the active citation
      paragraph; without that JS the citation text is hidden. Always show it. */
   .pane-resource-image .views-field-field-citation- .field-content p {
@@ -262,21 +281,56 @@
     footer .footwrap .footlogo { width: 48%; }
   }
 </style><script id="futl-archive-behaviors">
-document.addEventListener("click", function (e) {
-  var box = e.target.closest && e.target.closest(".boxwrap");
-  if (box) {
-    var sib = box.parentElement && box.parentElement.querySelector(".popupme");
-    if (sib) { sib.style.display = "block"; e.preventDefault(); }
-    return;
+(function () {
+  // "Read the Transcription" accordions: collapsed by default; the header
+  // toggles the body open/closed. Restores the live theme's `.selected` toggle
+  // (the theme JS that drove it isn't shipped in the static archive) and adds
+  // keyboard + ARIA so the <div> headers are WCAG 2.2 AA keyboard-operable.
+  var TSEL = ".views-field-field-transcription .accordion > .atitle";
+  function toggle(atitle) {
+    var open = atitle.classList.toggle("selected");
+    var body = atitle.nextElementSibling;
+    if (body && body.classList.contains("acont")) body.classList.toggle("selected");
+    atitle.setAttribute("aria-expanded", open ? "true" : "false");
   }
-  var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
-  // Only close on the dimmed backdrop; let clicks inside the inner card pass
-  // through (so the "Preview Module" link still navigates).
-  if (!inner) {
-    var popup = e.target.closest && e.target.closest(".popupme");
-    if (popup) popup.style.display = "none";
-  }
-});
+  document.addEventListener("DOMContentLoaded", function () {
+    var heads = document.querySelectorAll(TSEL);
+    Array.prototype.forEach.call(heads, function (atitle, i) {
+      atitle.setAttribute("role", "button");
+      atitle.setAttribute("tabindex", "0");
+      atitle.setAttribute("aria-expanded", "false");
+      var body = atitle.nextElementSibling;
+      if (body && body.classList.contains("acont")) {
+        if (!body.id) body.id = "transcription-body-" + i;
+        atitle.setAttribute("aria-controls", body.id);
+      }
+    });
+  });
+  document.addEventListener("click", function (e) {
+    var atitle = e.target.closest && e.target.closest(TSEL);
+    if (atitle) { toggle(atitle); return; }
+    var box = e.target.closest && e.target.closest(".boxwrap");
+    if (box) {
+      var sib = box.parentElement && box.parentElement.querySelector(".popupme");
+      if (sib) { sib.style.display = "block"; e.preventDefault(); }
+      return;
+    }
+    var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
+    // Only close on the dimmed backdrop; let clicks inside the inner card pass
+    // through (so the "Preview Module" link still navigates).
+    if (!inner) {
+      var popup = e.target.closest && e.target.closest(".popupme");
+      if (popup) popup.style.display = "none";
+    }
+  });
+  document.addEventListener("keydown", function (e) {
+    var atitle = e.target.closest && e.target.closest(TSEL);
+    if (atitle && (e.key === "Enter" || e.key === " " || e.key === "Spacebar")) {
+      e.preventDefault();
+      toggle(atitle);
+    }
+  });
+})();
 </script></head>
 <body class="html not-front not-logged-in page-node page-node- page-node-683 node-type-in-action section-content">
 <a class="element-invisible element-focusable" href="../action-sad-and-terrible-disaster#main-content">Skip to main content</a>
@@ -365,7 +419,7 @@ document.addEventListener("click", function (e) {
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first">
 <div class="views-field views-field-nothing"> <span class="field-content"><div class="eachresource">
-<div class="srccircle"><img alt="Chesapeake And Ohio Railway Company Map showing Alexandria and City Point Virginia " height="150" src="/sites/default/files/styles/resource_circles/public/Chesapeake1902map_0.png" typeof="foaf:Image" width="150"/><img alt="Image of newspaper article, &lt;i&gt;Evening Star&lt;/i&gt;, February 1, 1865" height="150" src="/sites/default/files/styles/resource_circles/public/Res%201%20news1.jpg" typeof="foaf:Image" width="150"/><img alt="Image of newspaper article, &lt;i&gt;Evening Star&lt;/i&gt;, February 20, 1865" height="150" src="/sites/default/files/styles/resource_circles/public/Res%201%20news2.jpg" typeof="foaf:Image" width="150"/></div>
+<div class="srccircle"><img alt="Chesapeake And Ohio Railway Company Map showing Alexandria and City Point Virginia " height="150" src="/sites/default/files/Chesapeake1902map_0.png" typeof="foaf:Image" width="150"/><img alt="Image of newspaper article, &lt;i&gt;Evening Star&lt;/i&gt;, February 1, 1865" height="150" src="/sites/default/files/Res%201%20news1.jpg" typeof="foaf:Image" width="150"/><img alt="Image of newspaper article, &lt;i&gt;Evening Star&lt;/i&gt;, February 20, 1865" height="150" src="/sites/default/files/Res%201%20news2.jpg" typeof="foaf:Image" width="150"/></div>
 <div class="lightboxme hideme">
 <div class="exitleft">X</div>
 <div class="srcvidpic"><div class="view view-resource-multi-sources view-id-resource_multi_sources view-display-id-default view-dom-id-91a5837c685d3a4a7dcd1d250a78a224">
@@ -385,7 +439,7 @@ document.addEventListener("click", function (e) {
 </div></span> </div> </div>
 <div class="views-row views-row-2 views-row-even">
 <div class="views-field views-field-nothing"> <span class="field-content"><div class="eachresource">
-<div class="srccircle"><img alt="" height="150" src="/sites/default/files/styles/resource_circles/public/booth-video_0.png" typeof="foaf:Image" width="150"/></div>
+<div class="srccircle"><img alt="" height="150" src="/sites/default/files/booth-video_0.png" typeof="foaf:Image" width="150"/></div>
 <div class="lightboxme hideme">
 <div class="exitleft">X</div>
 <div class="srcvidpic"><video class="video-js vjs-default-skin" controls="controls" data-setup="{}" height="360" id="videojs-664-field-video-video" poster="/sites/default/files/booth-video-wide.png" preload="auto" width="640">
@@ -398,7 +452,7 @@ document.addEventListener("click", function (e) {
 </div></span> </div> </div>
 <div class="views-row views-row-3 views-row-odd">
 <div class="views-field views-field-nothing"> <span class="field-content"><div class="eachresource">
-<div class="srccircle"><img alt="Image of newspaper article, &lt;i&gt;Alexandria Gazette&lt;/i&gt;, April 26, 1865" height="150" src="/sites/default/files/styles/resource_circles/public/Res%203%20pt1_0.jpg" typeof="foaf:Image" width="150"/><img alt="Image of newspaper article, &lt;i&gt;The New York Herald&lt;/i&gt;, April 27, 1865" height="150" src="/sites/default/files/styles/resource_circles/public/Res%203%20pt2_1.jpg" typeof="foaf:Image" width="150"/></div>
+<div class="srccircle"><img alt="Image of newspaper article, &lt;i&gt;Alexandria Gazette&lt;/i&gt;, April 26, 1865" height="150" src="/sites/default/files/Res%203%20pt1_0.jpg" typeof="foaf:Image" width="150"/><img alt="Image of newspaper article, &lt;i&gt;The New York Herald&lt;/i&gt;, April 27, 1865" height="150" src="/sites/default/files/Res%203%20pt2_1.jpg" typeof="foaf:Image" width="150"/></div>
 <div class="lightboxme hideme">
 <div class="exitleft">X</div>
 <div class="srcvidpic"><div class="view view-resource-multi-sources view-id-resource_multi_sources view-display-id-default view-dom-id-84a7d026e08526efe03f6ce66094b9fc">
@@ -416,7 +470,7 @@ document.addEventListener("click", function (e) {
 </div></span> </div> </div>
 <div class="views-row views-row-4 views-row-even">
 <div class="views-field views-field-nothing"> <span class="field-content"><div class="eachresource">
-<div class="srccircle"><img alt="Photograph of United States Fire Department in Alexandria, Virginia with steam fire engines out front, July 1863" height="150" src="/sites/default/files/styles/resource_circles/public/Res%204%20pt1.jpg" typeof="foaf:Image" width="150"/><img alt="Image of newspaper article, &lt;i&gt;Virginia State Journal&lt;/i&gt;, May 11, 1865" height="150" src="/sites/default/files/styles/resource_circles/public/Res%204%20pt2.jpg" typeof="foaf:Image" width="150"/><img alt="Image of newspaper article, &lt;i&gt;Virginia State Journal&lt;/i&gt;, May 11, 1865" height="150" src="/sites/default/files/styles/resource_circles/public/Res%204%20pt3.jpg" typeof="foaf:Image" width="150"/></div>
+<div class="srccircle"><img alt="Photograph of United States Fire Department in Alexandria, Virginia with steam fire engines out front, July 1863" height="150" src="/sites/default/files/Res%204%20pt1.jpg" typeof="foaf:Image" width="150"/><img alt="Image of newspaper article, &lt;i&gt;Virginia State Journal&lt;/i&gt;, May 11, 1865" height="150" src="/sites/default/files/Res%204%20pt2.jpg" typeof="foaf:Image" width="150"/><img alt="Image of newspaper article, &lt;i&gt;Virginia State Journal&lt;/i&gt;, May 11, 1865" height="150" src="/sites/default/files/Res%204%20pt3.jpg" typeof="foaf:Image" width="150"/></div>
 <div class="lightboxme hideme">
 <div class="exitleft">X</div>
 <div class="srcvidpic"><div class="view view-resource-multi-sources view-id-resource_multi_sources view-display-id-default view-dom-id-a07800c33867c902b3203679c54c73b4">
@@ -436,7 +490,7 @@ document.addEventListener("click", function (e) {
 </div></span> </div> </div>
 <div class="views-row views-row-5 views-row-odd views-row-last">
 <div class="views-field views-field-nothing"> <span class="field-content"><div class="eachresource">
-<div class="srccircle"><img alt="Image of newspaper article, &lt;i&gt;Alexandria Gazette&lt;/i&gt;, November 11, 1865" height="150" src="/sites/default/files/styles/resource_circles/public/Res%205%20pt1.jpg" typeof="foaf:Image" width="150"/><img alt="Photograph of Booth Pursuers Monument at Alexandria National Cemetery" height="150" src="/sites/default/files/styles/resource_circles/public/Booth_Pursuers3.jpg.JPG" typeof="foaf:Image" width="150"/></div>
+<div class="srccircle"><img alt="Image of newspaper article, &lt;i&gt;Alexandria Gazette&lt;/i&gt;, November 11, 1865" height="150" src="/sites/default/files/Res%205%20pt1.jpg" typeof="foaf:Image" width="150"/><img alt="Photograph of Booth Pursuers Monument at Alexandria National Cemetery" height="150" src="/sites/default/files/Booth_Pursuers3.jpg.JPG" typeof="foaf:Image" width="150"/></div>
 <div class="lightboxme hideme">
 <div class="exitleft">X</div>
 <div class="srcvidpic"><div class="view view-resource-multi-sources view-id-resource_multi_sources view-display-id-default view-dom-id-abc51ed93f4eb637ce2bd0feaf6ad5d5">

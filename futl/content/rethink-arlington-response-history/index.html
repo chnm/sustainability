@@ -150,6 +150,25 @@
   .node-type-rethink .hidden { display: block !important; }
   .accordion .atitle:before { content: none !important; }
 
+  /* Transcription accordions are the one collapsible we keep interactive:
+     collapsed by default, click the "Read the Transcription" header to expand.
+     The archive-behaviors script toggles `.selected`; these rules restore the
+     theme's show/hide + arrow indicator (both neutralised by the force-expand
+     and arrow-kill rules above). */
+  .views-field-field-transcription .accordion .acont { display: none !important; }
+  .views-field-field-transcription .accordion .acont.selected { display: block !important; }
+  .views-field-field-transcription .accordion .atitle { cursor: pointer; }
+  .views-field-field-transcription .accordion .atitle:before { content: "\025b2" !important; }
+  .views-field-field-transcription .accordion .atitle.selected:before { content: "\025bc" !important; }
+
+  /* Resource thumbnails used the Drupal `resource_circles` image style
+     (a 150x150 crop) generated on demand. The static archive can't build those
+     derivatives, so the HTML points at the original files instead; crop them to
+     the 150x150 box the theme sizes them to, rather than squashing non-square
+     scans. */
+  .srccircle img,
+  .views-field-field-source .field-content img { object-fit: cover; }
+
   /* Resource pages: live theme uses JS to add `.myself` to the active citation
      paragraph; without that JS the citation text is hidden. Always show it. */
   .pane-resource-image .views-field-field-citation- .field-content p {
@@ -260,21 +279,56 @@
     footer .footwrap .footlogo { width: 48%; }
   }
 </style><script id="futl-archive-behaviors">
-document.addEventListener("click", function (e) {
-  var box = e.target.closest && e.target.closest(".boxwrap");
-  if (box) {
-    var sib = box.parentElement && box.parentElement.querySelector(".popupme");
-    if (sib) { sib.style.display = "block"; e.preventDefault(); }
-    return;
+(function () {
+  // "Read the Transcription" accordions: collapsed by default; the header
+  // toggles the body open/closed. Restores the live theme's `.selected` toggle
+  // (the theme JS that drove it isn't shipped in the static archive) and adds
+  // keyboard + ARIA so the <div> headers are WCAG 2.2 AA keyboard-operable.
+  var TSEL = ".views-field-field-transcription .accordion > .atitle";
+  function toggle(atitle) {
+    var open = atitle.classList.toggle("selected");
+    var body = atitle.nextElementSibling;
+    if (body && body.classList.contains("acont")) body.classList.toggle("selected");
+    atitle.setAttribute("aria-expanded", open ? "true" : "false");
   }
-  var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
-  // Only close on the dimmed backdrop; let clicks inside the inner card pass
-  // through (so the "Preview Module" link still navigates).
-  if (!inner) {
-    var popup = e.target.closest && e.target.closest(".popupme");
-    if (popup) popup.style.display = "none";
-  }
-});
+  document.addEventListener("DOMContentLoaded", function () {
+    var heads = document.querySelectorAll(TSEL);
+    Array.prototype.forEach.call(heads, function (atitle, i) {
+      atitle.setAttribute("role", "button");
+      atitle.setAttribute("tabindex", "0");
+      atitle.setAttribute("aria-expanded", "false");
+      var body = atitle.nextElementSibling;
+      if (body && body.classList.contains("acont")) {
+        if (!body.id) body.id = "transcription-body-" + i;
+        atitle.setAttribute("aria-controls", body.id);
+      }
+    });
+  });
+  document.addEventListener("click", function (e) {
+    var atitle = e.target.closest && e.target.closest(TSEL);
+    if (atitle) { toggle(atitle); return; }
+    var box = e.target.closest && e.target.closest(".boxwrap");
+    if (box) {
+      var sib = box.parentElement && box.parentElement.querySelector(".popupme");
+      if (sib) { sib.style.display = "block"; e.preventDefault(); }
+      return;
+    }
+    var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
+    // Only close on the dimmed backdrop; let clicks inside the inner card pass
+    // through (so the "Preview Module" link still navigates).
+    if (!inner) {
+      var popup = e.target.closest && e.target.closest(".popupme");
+      if (popup) popup.style.display = "none";
+    }
+  });
+  document.addEventListener("keydown", function (e) {
+    var atitle = e.target.closest && e.target.closest(TSEL);
+    if (atitle && (e.key === "Enter" || e.key === " " || e.key === "Spacebar")) {
+      e.preventDefault();
+      toggle(atitle);
+    }
+  });
+})();
 </script></head>
 <body class="html not-front not-logged-in page-node page-node- page-node-173 node-type-rethink section-content">
 <a class="element-invisible element-focusable" href="../rethink-arlington-response-history#main-content">Skip to main content</a>
@@ -332,7 +386,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-arlington-response-history-resource-1-wrap view-id-arlington_response_history_resource_1_wrap view-display-id-default view-dom-id-ad56eb88ecc8bacc87bceda771cb067b">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="A photo of Ronald Deskins, Michael Jones, Lance Newman, and Gloria Thompson walking to school on their first day at Stratford Junior High" height="150" src="/sites/default/files/styles/resource_circles/public/M6R1_3.jpg" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="A photo of Ronald Deskins, Michael Jones, Lance Newman, and Gloria Thompson walking to school on their first day at Stratford Junior High" height="150" src="/sites/default/files/M6R1_3.jpg" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-arlington-response-history-resource-1-view view-id-arlington_response_history_resource_1_view view-display-id-panel_pane_1 view-dom-id-6f7f68d7e8b9b5ce857f09fa17d6f70c">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
@@ -344,7 +398,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-arlington-response-history-resource-2-wrap view-id-arlington_response_history_resource_2_wrap view-display-id-default view-dom-id-461e25ea644762de82571ab211a6d14f">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="" height="150" src="/sites/default/files/styles/resource_circles/public/Screen%20Shot%202017-01-04%20at%208.52.45%20AM.png" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="" height="150" src="/sites/default/files/Screen%20Shot%202017-01-04%20at%208.52.45%20AM.png" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-arlington-response-history-resource-2-view view-id-arlington_response_history_resource_2_view view-display-id-panel_pane_1 view-dom-id-318d1f77ef3e13b64eaf70f535f01742">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
@@ -356,7 +410,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-arlington-response-history-resource-3-wrap view-id-arlington_response_history_resource_3_wrap view-display-id-default view-dom-id-57bbcc1d9f0d7dad08001faed62e90b5">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Team photo of Stratford football. All players are white." height="150" src="/sites/default/files/styles/resource_circles/public/1960_StratfordFootball.JPG" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Team photo of Stratford football. All players are white." height="150" src="/sites/default/files/1960_StratfordFootball.JPG" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-arlington-response-history-resource-3-view view-id-arlington_response_history_resource_3_view view-display-id-panel_pane_1 view-dom-id-37569b9fcdb4d0987b62f42baa892449">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
@@ -368,7 +422,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-arlington-response-history-resource-4-wrap view-id-arlington_response_history_resource_4_wrap view-display-id-default view-dom-id-c28aab5c48fcb5567594d8b9f3b308a7">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt='"No Trespassing" sign outside closed Prince Edward County school. ' height="150" src="/sites/default/files/styles/resource_circles/public/Robert_R_Moton_High_School_Prince_Edward_County_Va_no_trespassing_sign_19621963.jpg" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt='"No Trespassing" sign outside closed Prince Edward County school. ' height="150" src="/sites/default/files/Robert_R_Moton_High_School_Prince_Edward_County_Va_no_trespassing_sign_19621963.jpg" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-arlington-response-history-resource-4-view view-id-arlington_response_history_resource_4_view view-display-id-panel_pane_1 view-dom-id-3ec18d58710a03f7092613811abde59d">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
@@ -380,7 +434,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-arlington-response-history-resource-5-wrap view-id-arlington_response_history_resource_5_wrap view-display-id-default view-dom-id-d3419e1733f8e9d462999f04a0739fc9">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Table showing percentage of black students in white majority schools. Rises 1954 to 1988 but then falls every year since." height="150" src="/sites/default/files/styles/resource_circles/public/Table_on_integration.png" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Table showing percentage of black students in white majority schools. Rises 1954 to 1988 but then falls every year since." height="150" src="/sites/default/files/Table_on_integration.png" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-arlington-response-history-resource-5-view view-id-arlington_response_history_resource_5_view view-display-id-panel_pane_1 view-dom-id-273749bcbf4c7065db53f1e6036e4d6e">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
@@ -392,7 +446,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-arlington-response-history-resource-6-wrap view-id-arlington_response_history_resource_6_wrap view-display-id-default view-dom-id-8e1ec8a80c64c589de0ddfbb2b57f9ec">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Video of historian Wendi Manuel-Scott discussing the legacy of Brown v Board." height="150" src="/sites/default/files/styles/resource_circles/public/WMS%20screenshot_0.png" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Video of historian Wendi Manuel-Scott discussing the legacy of Brown v Board." height="150" src="/sites/default/files/WMS%20screenshot_0.png" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-arlington-response-history-resource-6-view view-id-arlington_response_history_resource_6_view view-display-id-panel_pane_1 view-dom-id-b5d1f2d5e1624ed0605339ae253138dd">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">

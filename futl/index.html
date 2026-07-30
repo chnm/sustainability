@@ -94,6 +94,25 @@
   .node-type-rethink .hidden { display: block !important; }
   .accordion .atitle:before { content: none !important; }
 
+  /* Transcription accordions are the one collapsible we keep interactive:
+     collapsed by default, click the "Read the Transcription" header to expand.
+     The archive-behaviors script toggles `.selected`; these rules restore the
+     theme's show/hide + arrow indicator (both neutralised by the force-expand
+     and arrow-kill rules above). */
+  .views-field-field-transcription .accordion .acont { display: none !important; }
+  .views-field-field-transcription .accordion .acont.selected { display: block !important; }
+  .views-field-field-transcription .accordion .atitle { cursor: pointer; }
+  .views-field-field-transcription .accordion .atitle:before { content: "\025b2" !important; }
+  .views-field-field-transcription .accordion .atitle.selected:before { content: "\025bc" !important; }
+
+  /* Resource thumbnails used the Drupal `resource_circles` image style
+     (a 150x150 crop) generated on demand. The static archive can't build those
+     derivatives, so the HTML points at the original files instead; crop them to
+     the 150x150 box the theme sizes them to, rather than squashing non-square
+     scans. */
+  .srccircle img,
+  .views-field-field-source .field-content img { object-fit: cover; }
+
   /* Resource pages: live theme uses JS to add `.myself` to the active citation
      paragraph; without that JS the citation text is hidden. Always show it. */
   .pane-resource-image .views-field-field-citation- .field-content p {

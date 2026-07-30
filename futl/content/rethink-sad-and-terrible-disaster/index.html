@@ -137,6 +137,25 @@
   .node-type-rethink .hidden { display: block !important; }
   .accordion .atitle:before { content: none !important; }
 
+  /* Transcription accordions are the one collapsible we keep interactive:
+     collapsed by default, click the "Read the Transcription" header to expand.
+     The archive-behaviors script toggles `.selected`; these rules restore the
+     theme's show/hide + arrow indicator (both neutralised by the force-expand
+     and arrow-kill rules above). */
+  .views-field-field-transcription .accordion .acont { display: none !important; }
+  .views-field-field-transcription .accordion .acont.selected { display: block !important; }
+  .views-field-field-transcription .accordion .atitle { cursor: pointer; }
+  .views-field-field-transcription .accordion .atitle:before { content: "\025b2" !important; }
+  .views-field-field-transcription .accordion .atitle.selected:before { content: "\025bc" !important; }
+
+  /* Resource thumbnails used the Drupal `resource_circles` image style
+     (a 150x150 crop) generated on demand. The static archive can't build those
+     derivatives, so the HTML points at the original files instead; crop them to
+     the 150x150 box the theme sizes them to, rather than squashing non-square
+     scans. */
+  .srccircle img,
+  .views-field-field-source .field-content img { object-fit: cover; }
+
   /* Resource pages: live theme uses JS to add `.myself` to the active citation
      paragraph; without that JS the citation text is hidden. Always show it. */
   .pane-resource-image .views-field-field-citation- .field-content p {
@@ -247,21 +266,56 @@
     footer .footwrap .footlogo { width: 48%; }
   }
 </style><script id="futl-archive-behaviors">
-document.addEventListener("click", function (e) {
-  var box = e.target.closest && e.target.closest(".boxwrap");
-  if (box) {
-    var sib = box.parentElement && box.parentElement.querySelector(".popupme");
-    if (sib) { sib.style.display = "block"; e.preventDefault(); }
-    return;
+(function () {
+  // "Read the Transcription" accordions: collapsed by default; the header
+  // toggles the body open/closed. Restores the live theme's `.selected` toggle
+  // (the theme JS that drove it isn't shipped in the static archive) and adds
+  // keyboard + ARIA so the <div> headers are WCAG 2.2 AA keyboard-operable.
+  var TSEL = ".views-field-field-transcription .accordion > .atitle";
+  function toggle(atitle) {
+    var open = atitle.classList.toggle("selected");
+    var body = atitle.nextElementSibling;
+    if (body && body.classList.contains("acont")) body.classList.toggle("selected");
+    atitle.setAttribute("aria-expanded", open ? "true" : "false");
   }
-  var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
-  // Only close on the dimmed backdrop; let clicks inside the inner card pass
-  // through (so the "Preview Module" link still navigates).
-  if (!inner) {
-    var popup = e.target.closest && e.target.closest(".popupme");
-    if (popup) popup.style.display = "none";
-  }
-});
+  document.addEventListener("DOMContentLoaded", function () {
+    var heads = document.querySelectorAll(TSEL);
+    Array.prototype.forEach.call(heads, function (atitle, i) {
+      atitle.setAttribute("role", "button");
+      atitle.setAttribute("tabindex", "0");
+      atitle.setAttribute("aria-expanded", "false");
+      var body = atitle.nextElementSibling;
+      if (body && body.classList.contains("acont")) {
+        if (!body.id) body.id = "transcription-body-" + i;
+        atitle.setAttribute("aria-controls", body.id);
+      }
+    });
+  });
+  document.addEventListener("click", function (e) {
+    var atitle = e.target.closest && e.target.closest(TSEL);
+    if (atitle) { toggle(atitle); return; }
+    var box = e.target.closest && e.target.closest(".boxwrap");
+    if (box) {
+      var sib = box.parentElement && box.parentElement.querySelector(".popupme");
+      if (sib) { sib.style.display = "block"; e.preventDefault(); }
+      return;
+    }
+    var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
+    // Only close on the dimmed backdrop; let clicks inside the inner card pass
+    // through (so the "Preview Module" link still navigates).
+    if (!inner) {
+      var popup = e.target.closest && e.target.closest(".popupme");
+      if (popup) popup.style.display = "none";
+    }
+  });
+  document.addEventListener("keydown", function (e) {
+    var atitle = e.target.closest && e.target.closest(TSEL);
+    if (atitle && (e.key === "Enter" || e.key === " " || e.key === "Spacebar")) {
+      e.preventDefault();
+      toggle(atitle);
+    }
+  });
+})();
 </script></head>
 <body class="html not-front not-logged-in page-node page-node- page-node-673 node-type-rethink section-content">
 <a class="element-invisible element-focusable" href="../rethink-sad-and-terrible-disaster#main-content">Skip to main content</a>
@@ -323,7 +377,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-a-sad-and-terrible-disaster-resource-1-wrap view-id-a_sad_and_terrible_disaster_resource_1_wrap view-display-id-default view-dom-id-a3694d1fb854aa258784888267ac0c6e">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Chesapeake And Ohio Railway Company Map showing Alexandria and City Point Virginia " height="150" src="/sites/default/files/styles/resource_circles/public/Chesapeake1902map_0.png" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Chesapeake And Ohio Railway Company Map showing Alexandria and City Point Virginia " height="150" src="/sites/default/files/Chesapeake1902map_0.png" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-a-sad-and-terrible-disaster-resource-1-view view-id-a_sad_and_terrible_disaster_resource_1_view view-display-id-panel_pane_1 view-dom-id-28a639a4ccd7b1fe7dc13209a382ed0c">
 </div></span> </div> </div>
 </div>
@@ -331,7 +385,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-a-sad-and-terrible-disaster-resource-2-wrap view-id-a_sad_and_terrible_disaster_resource_2_wrap view-display-id-default view-dom-id-e82b27481c273cddb3c2d0af41ddab47">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="" height="150" src="/sites/default/files/styles/resource_circles/public/booth-video_0.png" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="" height="150" src="/sites/default/files/booth-video_0.png" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-a-sad-and-terrible-disaster-resource-2-view view-id-a_sad_and_terrible_disaster_resource_2_view view-display-id-panel_pane_1 view-dom-id-1090eb8e598b995528df9dbe8936e799">
 </div></span> </div> </div>
 </div>
@@ -339,7 +393,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-a-sad-and-terrible-disaster-resource-3-wrap view-id-a_sad_and_terrible_disaster_resource_3_wrap view-display-id-default view-dom-id-49fc85d477e546475429d7b8f16744b4">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Image of newspaper article, &lt;i&gt;Alexandria Gazette&lt;/i&gt;, April 26, 1865" height="150" src="/sites/default/files/styles/resource_circles/public/Res%203%20pt1_0.jpg" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Image of newspaper article, &lt;i&gt;Alexandria Gazette&lt;/i&gt;, April 26, 1865" height="150" src="/sites/default/files/Res%203%20pt1_0.jpg" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-a-sad-and-terrible-disaster-resource-3-view view-id-a_sad_and_terrible_disaster_resource_3_view view-display-id-panel_pane_1 view-dom-id-ea4a8cac730a7c95e2bd0a1e9b378250">
 </div></span> </div> </div>
 </div>
@@ -347,7 +401,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-a-sad-and-terrible-disaster-resource-4-wrap view-id-a_sad_and_terrible_disaster_resource_4_wrap view-display-id-default view-dom-id-6cc3fcf82898b195cda6b519313826f0">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Photograph of United States Fire Department in Alexandria, Virginia with steam fire engines out front, July 1863" height="150" src="/sites/default/files/styles/resource_circles/public/Res%204%20pt1.jpg" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Photograph of United States Fire Department in Alexandria, Virginia with steam fire engines out front, July 1863" height="150" src="/sites/default/files/Res%204%20pt1.jpg" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-a-sad-and-terrible-disaster-resource-4-view view-id-a_sad_and_terrible_disaster_resource_4_view view-display-id-panel_pane_1 view-dom-id-6429d60d0219f9df4b475f001ca97213">
 </div></span> </div> </div>
 </div>
@@ -355,7 +409,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-a-sad-and-terrible-disaster-resource-5-wrap view-id-a_sad_and_terrible_disaster_resource_5_wrap view-display-id-default view-dom-id-2da5fc757f6040dbbf843d96d803a78e">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Image of newspaper article, &lt;i&gt;Alexandria Gazette&lt;/i&gt;, November 11, 1865" height="150" src="/sites/default/files/styles/resource_circles/public/Res%205%20pt1.jpg" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Image of newspaper article, &lt;i&gt;Alexandria Gazette&lt;/i&gt;, November 11, 1865" height="150" src="/sites/default/files/Res%205%20pt1.jpg" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-a-sad-and-terrible-disaster-resource-5-view view-id-a_sad_and_terrible_disaster_resource_5_view view-display-id-panel_pane_1 view-dom-id-40879bbb8a9370822591a6d701a28678">
 </div></span> </div> </div>
 </div>

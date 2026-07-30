@@ -148,6 +148,25 @@
   .node-type-rethink .hidden { display: block !important; }
   .accordion .atitle:before { content: none !important; }
 
+  /* Transcription accordions are the one collapsible we keep interactive:
+     collapsed by default, click the "Read the Transcription" header to expand.
+     The archive-behaviors script toggles `.selected`; these rules restore the
+     theme's show/hide + arrow indicator (both neutralised by the force-expand
+     and arrow-kill rules above). */
+  .views-field-field-transcription .accordion .acont { display: none !important; }
+  .views-field-field-transcription .accordion .acont.selected { display: block !important; }
+  .views-field-field-transcription .accordion .atitle { cursor: pointer; }
+  .views-field-field-transcription .accordion .atitle:before { content: "\025b2" !important; }
+  .views-field-field-transcription .accordion .atitle.selected:before { content: "\025bc" !important; }
+
+  /* Resource thumbnails used the Drupal `resource_circles` image style
+     (a 150x150 crop) generated on demand. The static archive can't build those
+     derivatives, so the HTML points at the original files instead; crop them to
+     the 150x150 box the theme sizes them to, rather than squashing non-square
+     scans. */
+  .srccircle img,
+  .views-field-field-source .field-content img { object-fit: cover; }
+
   /* Resource pages: live theme uses JS to add `.myself` to the active citation
      paragraph; without that JS the citation text is hidden. Always show it. */
   .pane-resource-image .views-field-field-citation- .field-content p {
@@ -258,21 +277,56 @@
     footer .footwrap .footlogo { width: 48%; }
   }
 </style><script id="futl-archive-behaviors">
-document.addEventListener("click", function (e) {
-  var box = e.target.closest && e.target.closest(".boxwrap");
-  if (box) {
-    var sib = box.parentElement && box.parentElement.querySelector(".popupme");
-    if (sib) { sib.style.display = "block"; e.preventDefault(); }
-    return;
+(function () {
+  // "Read the Transcription" accordions: collapsed by default; the header
+  // toggles the body open/closed. Restores the live theme's `.selected` toggle
+  // (the theme JS that drove it isn't shipped in the static archive) and adds
+  // keyboard + ARIA so the <div> headers are WCAG 2.2 AA keyboard-operable.
+  var TSEL = ".views-field-field-transcription .accordion > .atitle";
+  function toggle(atitle) {
+    var open = atitle.classList.toggle("selected");
+    var body = atitle.nextElementSibling;
+    if (body && body.classList.contains("acont")) body.classList.toggle("selected");
+    atitle.setAttribute("aria-expanded", open ? "true" : "false");
   }
-  var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
-  // Only close on the dimmed backdrop; let clicks inside the inner card pass
-  // through (so the "Preview Module" link still navigates).
-  if (!inner) {
-    var popup = e.target.closest && e.target.closest(".popupme");
-    if (popup) popup.style.display = "none";
-  }
-});
+  document.addEventListener("DOMContentLoaded", function () {
+    var heads = document.querySelectorAll(TSEL);
+    Array.prototype.forEach.call(heads, function (atitle, i) {
+      atitle.setAttribute("role", "button");
+      atitle.setAttribute("tabindex", "0");
+      atitle.setAttribute("aria-expanded", "false");
+      var body = atitle.nextElementSibling;
+      if (body && body.classList.contains("acont")) {
+        if (!body.id) body.id = "transcription-body-" + i;
+        atitle.setAttribute("aria-controls", body.id);
+      }
+    });
+  });
+  document.addEventListener("click", function (e) {
+    var atitle = e.target.closest && e.target.closest(TSEL);
+    if (atitle) { toggle(atitle); return; }
+    var box = e.target.closest && e.target.closest(".boxwrap");
+    if (box) {
+      var sib = box.parentElement && box.parentElement.querySelector(".popupme");
+      if (sib) { sib.style.display = "block"; e.preventDefault(); }
+      return;
+    }
+    var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
+    // Only close on the dimmed backdrop; let clicks inside the inner card pass
+    // through (so the "Preview Module" link still navigates).
+    if (!inner) {
+      var popup = e.target.closest && e.target.closest(".popupme");
+      if (popup) popup.style.display = "none";
+    }
+  });
+  document.addEventListener("keydown", function (e) {
+    var atitle = e.target.closest && e.target.closest(TSEL);
+    if (atitle && (e.key === "Enter" || e.key === " " || e.key === "Spacebar")) {
+      e.preventDefault();
+      toggle(atitle);
+    }
+  });
+})();
 </script></head>
 <body class="html not-front not-logged-in page-node page-node- page-node-113 node-type-rethink section-content">
 <a class="element-invisible element-focusable" href="../rethink-segregation-history#main-content">Skip to main content</a>
@@ -325,7 +379,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-segregation-history-resource-1-wrap view-id-segregation_history_resource_1_wrap view-display-id-default view-dom-id-d856671012f63110b40cfcd6fa9a9906">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Close up of Arlington map." height="150" src="/sites/default/files/styles/resource_circles/public/M1_Resource1.png" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Close up of Arlington map." height="150" src="/sites/default/files/M1_Resource1.png" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-segregation-history-resource-1-view view-id-segregation_history_resource_1_view view-display-id-panel_pane_1 view-dom-id-e71817e0cdd7106ad4a9e5bf6f2c4955">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
@@ -337,7 +391,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-segregation-history-resource-2-wrap view-id-segregation_history_resource_2_wrap view-display-id-default view-dom-id-e3e1355db33590779dc4465a803bfdeb">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Cover of 1867 Harper's Weekly title &quot;First Vote&quot;. It depicts a line of black men waiting to cast their votes." height="150" src="/sites/default/files/styles/resource_circles/public/M1R2%20.jpg" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Cover of 1867 Harper's Weekly title &quot;First Vote&quot;. It depicts a line of black men waiting to cast their votes." height="150" src="/sites/default/files/M1R2%20.jpg" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-segregation-history-resource-2-view view-id-segregation_history_resource_2_view view-display-id-panel_pane_1 view-dom-id-19bbf3d3d0f6f82e025d6b15cb95c09e">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
@@ -349,7 +403,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-segregation-history-resource-3-wrap view-id-segregation_history_resource_3_wrap view-display-id-default view-dom-id-f4609593144ad9b8d38bcb95b99d2b61">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Historian Jennifer Ritterhouse describes the rules black Americans had to follow when interacting with whites under Jim Crow." height="150" src="/sites/default/files/styles/resource_circles/public/Screen%20Shot%202016-10-19%20at%2012.42.48%20PM.png" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Historian Jennifer Ritterhouse describes the rules black Americans had to follow when interacting with whites under Jim Crow." height="150" src="/sites/default/files/Screen%20Shot%202016-10-19%20at%2012.42.48%20PM.png" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-segregation-history-resource-3-view view-id-segregation_history_resource_3_view view-display-id-panel_pane_1 view-dom-id-fb92266f27dc07cad24cd3d390a99091">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
@@ -361,7 +415,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-segregation-history-resource-4-wrap view-id-segregation_history_resource_4_wrap view-display-id-default view-dom-id-2aecadd50964b8c3927ba660650f64c1">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="A map of the United States showing locations of lynchings from 1900 to 1931. Clustered in the deep South but also present in almost every state." height="150" src="/sites/default/files/styles/resource_circles/public/M1R4.jpg" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="A map of the United States showing locations of lynchings from 1900 to 1931. Clustered in the deep South but also present in almost every state." height="150" src="/sites/default/files/M1R4.jpg" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-segregation-history-resource-4-view view-id-segregation_history_resource_4_view view-display-id-panel_pane_1 view-dom-id-317be0d3fbfd992f3106295aaa60a10a">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
@@ -373,7 +427,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-segregation-history-resource-5-wrap view-id-segregation_history_resource_5_wrap view-display-id-default view-dom-id-ad82625f81832f419436510332df843b">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="School song for Hoffman-Boston, Arlington's African American High school. Includes line &quot;Your greatness is made by the things we do.&quot;" height="150" src="/sites/default/files/styles/resource_circles/public/Song53%20copy.jpg" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="School song for Hoffman-Boston, Arlington's African American High school. Includes line &quot;Your greatness is made by the things we do.&quot;" height="150" src="/sites/default/files/Song53%20copy.jpg" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-segregation-history-resource-5-view view-id-segregation_history_resource_5_view view-display-id-panel_pane_1 view-dom-id-8449ad34163c09c93ce7248c0dd28754">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
@@ -385,7 +439,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-segregation-history-resource-6-wrap view-id-segregation_history_resource_6_wrap view-display-id-default view-dom-id-7e2deb436ee5557d3db1711cabc46d46">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="" height="150" src="/sites/default/files/styles/resource_circles/public/M1R6.png" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="" height="150" src="/sites/default/files/M1R6.png" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-segregation-history-resource-6-view view-id-segregation_history_resource_6_view view-display-id-panel_pane_1 view-dom-id-4198ad115d4b03409e02b6fab3cbde95">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">

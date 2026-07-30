@@ -148,6 +148,25 @@
   .node-type-rethink .hidden { display: block !important; }
   .accordion .atitle:before { content: none !important; }
 
+  /* Transcription accordions are the one collapsible we keep interactive:
+     collapsed by default, click the "Read the Transcription" header to expand.
+     The archive-behaviors script toggles `.selected`; these rules restore the
+     theme's show/hide + arrow indicator (both neutralised by the force-expand
+     and arrow-kill rules above). */
+  .views-field-field-transcription .accordion .acont { display: none !important; }
+  .views-field-field-transcription .accordion .acont.selected { display: block !important; }
+  .views-field-field-transcription .accordion .atitle { cursor: pointer; }
+  .views-field-field-transcription .accordion .atitle:before { content: "\025b2" !important; }
+  .views-field-field-transcription .accordion .atitle.selected:before { content: "\025bc" !important; }
+
+  /* Resource thumbnails used the Drupal `resource_circles` image style
+     (a 150x150 crop) generated on demand. The static archive can't build those
+     derivatives, so the HTML points at the original files instead; crop them to
+     the 150x150 box the theme sizes them to, rather than squashing non-square
+     scans. */
+  .srccircle img,
+  .views-field-field-source .field-content img { object-fit: cover; }
+
   /* Resource pages: live theme uses JS to add `.myself` to the active citation
      paragraph; without that JS the citation text is hidden. Always show it. */
   .pane-resource-image .views-field-field-citation- .field-content p {
@@ -258,21 +277,56 @@
     footer .footwrap .footlogo { width: 48%; }
   }
 </style><script id="futl-archive-behaviors">
-document.addEventListener("click", function (e) {
-  var box = e.target.closest && e.target.closest(".boxwrap");
-  if (box) {
-    var sib = box.parentElement && box.parentElement.querySelector(".popupme");
-    if (sib) { sib.style.display = "block"; e.preventDefault(); }
-    return;
+(function () {
+  // "Read the Transcription" accordions: collapsed by default; the header
+  // toggles the body open/closed. Restores the live theme's `.selected` toggle
+  // (the theme JS that drove it isn't shipped in the static archive) and adds
+  // keyboard + ARIA so the <div> headers are WCAG 2.2 AA keyboard-operable.
+  var TSEL = ".views-field-field-transcription .accordion > .atitle";
+  function toggle(atitle) {
+    var open = atitle.classList.toggle("selected");
+    var body = atitle.nextElementSibling;
+    if (body && body.classList.contains("acont")) body.classList.toggle("selected");
+    atitle.setAttribute("aria-expanded", open ? "true" : "false");
   }
-  var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
-  // Only close on the dimmed backdrop; let clicks inside the inner card pass
-  // through (so the "Preview Module" link still navigates).
-  if (!inner) {
-    var popup = e.target.closest && e.target.closest(".popupme");
-    if (popup) popup.style.display = "none";
-  }
-});
+  document.addEventListener("DOMContentLoaded", function () {
+    var heads = document.querySelectorAll(TSEL);
+    Array.prototype.forEach.call(heads, function (atitle, i) {
+      atitle.setAttribute("role", "button");
+      atitle.setAttribute("tabindex", "0");
+      atitle.setAttribute("aria-expanded", "false");
+      var body = atitle.nextElementSibling;
+      if (body && body.classList.contains("acont")) {
+        if (!body.id) body.id = "transcription-body-" + i;
+        atitle.setAttribute("aria-controls", body.id);
+      }
+    });
+  });
+  document.addEventListener("click", function (e) {
+    var atitle = e.target.closest && e.target.closest(TSEL);
+    if (atitle) { toggle(atitle); return; }
+    var box = e.target.closest && e.target.closest(".boxwrap");
+    if (box) {
+      var sib = box.parentElement && box.parentElement.querySelector(".popupme");
+      if (sib) { sib.style.display = "block"; e.preventDefault(); }
+      return;
+    }
+    var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
+    // Only close on the dimmed backdrop; let clicks inside the inner card pass
+    // through (so the "Preview Module" link still navigates).
+    if (!inner) {
+      var popup = e.target.closest && e.target.closest(".popupme");
+      if (popup) popup.style.display = "none";
+    }
+  });
+  document.addEventListener("keydown", function (e) {
+    var atitle = e.target.closest && e.target.closest(TSEL);
+    if (atitle && (e.key === "Enter" || e.key === " " || e.key === "Spacebar")) {
+      e.preventDefault();
+      toggle(atitle);
+    }
+  });
+})();
 </script></head>
 <body class="html not-front not-logged-in page-node page-node- page-node-635 node-type-in-action section-content">
 <a class="element-invisible element-focusable" href="../inaction-rosie-riveter-put-it-work#main-content">Skip to main content</a>
@@ -363,7 +417,7 @@ document.addEventListener("click", function (e) {
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first">
 <div class="views-field views-field-nothing"> <span class="field-content"><div class="eachresource">
-<div class="srccircle"><img alt="Error of interment letter" height="150" src="/sites/default/files/styles/resource_circles/public/Resource%201.jpg" typeof="foaf:Image" width="150"/></div>
+<div class="srccircle"><img alt="Error of interment letter" height="150" src="/sites/default/files/Resource%201.jpg" typeof="foaf:Image" width="150"/></div>
 <div class="lightboxme hideme">
 <div class="exitleft">X</div>
 <div class="srcvidpic"><div class="view view-resource-multi-sources view-id-resource_multi_sources view-display-id-default view-dom-id-5066699fe522a1f820d2527e578a6706">
@@ -379,7 +433,7 @@ document.addEventListener("click", function (e) {
 </div></span> </div> </div>
 <div class="views-row views-row-2 views-row-even">
 <div class="views-field views-field-nothing"> <span class="field-content"><div class="eachresource">
-<div class="srccircle"><img alt="Congressional Act" height="150" src="/sites/default/files/styles/resource_circles/public/Final%20Resource%202_0.jpg" typeof="foaf:Image" width="150"/></div>
+<div class="srccircle"><img alt="Congressional Act" height="150" src="/sites/default/files/Final%20Resource%202_0.jpg" typeof="foaf:Image" width="150"/></div>
 <div class="lightboxme hideme">
 <div class="exitleft">X</div>
 <div class="srcvidpic"><div class="view view-resource-multi-sources view-id-resource_multi_sources view-display-id-default view-dom-id-a9d31e2652d18160941aca0fded84fee">
@@ -395,7 +449,7 @@ document.addEventListener("click", function (e) {
 </div></span> </div> </div>
 <div class="views-row views-row-3 views-row-odd">
 <div class="views-field views-field-nothing"> <span class="field-content"><div class="eachresource">
-<div class="srccircle"><img alt="Group Photo" height="150" src="/sites/default/files/styles/resource_circles/public/Resource%203_0.jpg" typeof="foaf:Image" width="150"/></div>
+<div class="srccircle"><img alt="Group Photo" height="150" src="/sites/default/files/Resource%203_0.jpg" typeof="foaf:Image" width="150"/></div>
 <div class="lightboxme hideme">
 <div class="exitleft">X</div>
 <div class="srcvidpic"><div class="view view-resource-multi-sources view-id-resource_multi_sources view-display-id-default view-dom-id-dff811661f4b17417aeb5a49f098166a">
@@ -411,7 +465,7 @@ document.addEventListener("click", function (e) {
 </div></span> </div> </div>
 <div class="views-row views-row-4 views-row-even views-row-last">
 <div class="views-field views-field-nothing"> <span class="field-content"><div class="eachresource">
-<div class="srccircle"><img alt="" height="150" src="/sites/default/files/styles/resource_circles/public/MemorializingWomen_0.jpg" typeof="foaf:Image" width="150"/></div>
+<div class="srccircle"><img alt="" height="150" src="/sites/default/files/MemorializingWomen.jpg" typeof="foaf:Image" width="150"/></div>
 <div class="lightboxme hideme">
 <div class="exitleft">X</div>
 <div class="srcvidpic"><video class="video-js vjs-default-skin" controls="controls" data-setup="{}" height="360" id="videojs-632-field-video-video" poster="/sites/default/files/MemorializingWomen.jpg" preload="auto" width="640">

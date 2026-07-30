@@ -136,6 +136,25 @@
   .node-type-rethink .hidden { display: block !important; }
   .accordion .atitle:before { content: none !important; }
 
+  /* Transcription accordions are the one collapsible we keep interactive:
+     collapsed by default, click the "Read the Transcription" header to expand.
+     The archive-behaviors script toggles `.selected`; these rules restore the
+     theme's show/hide + arrow indicator (both neutralised by the force-expand
+     and arrow-kill rules above). */
+  .views-field-field-transcription .accordion .acont { display: none !important; }
+  .views-field-field-transcription .accordion .acont.selected { display: block !important; }
+  .views-field-field-transcription .accordion .atitle { cursor: pointer; }
+  .views-field-field-transcription .accordion .atitle:before { content: "\025b2" !important; }
+  .views-field-field-transcription .accordion .atitle.selected:before { content: "\025bc" !important; }
+
+  /* Resource thumbnails used the Drupal `resource_circles` image style
+     (a 150x150 crop) generated on demand. The static archive can't build those
+     derivatives, so the HTML points at the original files instead; crop them to
+     the 150x150 box the theme sizes them to, rather than squashing non-square
+     scans. */
+  .srccircle img,
+  .views-field-field-source .field-content img { object-fit: cover; }
+
   /* Resource pages: live theme uses JS to add `.myself` to the active citation
      paragraph; without that JS the citation text is hidden. Always show it. */
   .pane-resource-image .views-field-field-citation- .field-content p {
@@ -246,21 +265,56 @@
     footer .footwrap .footlogo { width: 48%; }
   }
 </style><script id="futl-archive-behaviors">
-document.addEventListener("click", function (e) {
-  var box = e.target.closest && e.target.closest(".boxwrap");
-  if (box) {
-    var sib = box.parentElement && box.parentElement.querySelector(".popupme");
-    if (sib) { sib.style.display = "block"; e.preventDefault(); }
-    return;
+(function () {
+  // "Read the Transcription" accordions: collapsed by default; the header
+  // toggles the body open/closed. Restores the live theme's `.selected` toggle
+  // (the theme JS that drove it isn't shipped in the static archive) and adds
+  // keyboard + ARIA so the <div> headers are WCAG 2.2 AA keyboard-operable.
+  var TSEL = ".views-field-field-transcription .accordion > .atitle";
+  function toggle(atitle) {
+    var open = atitle.classList.toggle("selected");
+    var body = atitle.nextElementSibling;
+    if (body && body.classList.contains("acont")) body.classList.toggle("selected");
+    atitle.setAttribute("aria-expanded", open ? "true" : "false");
   }
-  var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
-  // Only close on the dimmed backdrop; let clicks inside the inner card pass
-  // through (so the "Preview Module" link still navigates).
-  if (!inner) {
-    var popup = e.target.closest && e.target.closest(".popupme");
-    if (popup) popup.style.display = "none";
-  }
-});
+  document.addEventListener("DOMContentLoaded", function () {
+    var heads = document.querySelectorAll(TSEL);
+    Array.prototype.forEach.call(heads, function (atitle, i) {
+      atitle.setAttribute("role", "button");
+      atitle.setAttribute("tabindex", "0");
+      atitle.setAttribute("aria-expanded", "false");
+      var body = atitle.nextElementSibling;
+      if (body && body.classList.contains("acont")) {
+        if (!body.id) body.id = "transcription-body-" + i;
+        atitle.setAttribute("aria-controls", body.id);
+      }
+    });
+  });
+  document.addEventListener("click", function (e) {
+    var atitle = e.target.closest && e.target.closest(TSEL);
+    if (atitle) { toggle(atitle); return; }
+    var box = e.target.closest && e.target.closest(".boxwrap");
+    if (box) {
+      var sib = box.parentElement && box.parentElement.querySelector(".popupme");
+      if (sib) { sib.style.display = "block"; e.preventDefault(); }
+      return;
+    }
+    var inner = e.target.closest && e.target.closest(".popupme .innerwarp");
+    // Only close on the dimmed backdrop; let clicks inside the inner card pass
+    // through (so the "Preview Module" link still navigates).
+    if (!inner) {
+      var popup = e.target.closest && e.target.closest(".popupme");
+      if (popup) popup.style.display = "none";
+    }
+  });
+  document.addEventListener("keydown", function (e) {
+    var atitle = e.target.closest && e.target.closest(TSEL);
+    if (atitle && (e.key === "Enter" || e.key === " " || e.key === "Spacebar")) {
+      e.preventDefault();
+      toggle(atitle);
+    }
+  });
+})();
 </script></head>
 <body class="html not-front not-logged-in page-node page-node- page-node-153 node-type-rethink section-content">
 <a class="element-invisible element-focusable" href="../rethink-massive-resistance-history#main-content">Skip to main content</a>
@@ -313,7 +367,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-massive-resistance-history-resource-1-wrap view-id-massive_resistance_history_resource_1_wrap view-display-id-default view-dom-id-acdce982aeae47ff59dd8c8d32731b9a">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt='An editorial cartoon titled "Now What?" depicts boat stuck on rock. The boat is called the South and has a building labeled public schools in it. The rock is labeled "Supreme Court Desegregation Decision"' height="150" src="/sites/default/files/styles/resource_circles/public/M5R1_1.jpg" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt='An editorial cartoon titled "Now What?" depicts boat stuck on rock. The boat is called the South and has a building labeled public schools in it. The rock is labeled "Supreme Court Desegregation Decision"' height="150" src="/sites/default/files/M5R1_1.jpg" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-massive-resistance-history-resource-1-view view-id-massive_resistance_history_resource_1_view view-display-id-panel_pane_1 view-dom-id-52258f80ef19d8669a8d13af466d624a">
 </div></span> </div> </div>
 </div>
@@ -321,7 +375,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-massive-resistance-history-resource-2-wrap view-id-massive_resistance_history_resource_2_wrap view-display-id-default view-dom-id-29e8d32c13b383d0575ef91e1cdc814a">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Example of historical thinking: J. Douglas Smith discusses editorial cartoons and how they reflect the perspective of moderate Virginia whites in the 1950s." height="150" src="/sites/default/files/styles/resource_circles/public/Screen%20Shot%202016-11-14%20at%209.13.10%20AM.png" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Example of historical thinking: J. Douglas Smith discusses editorial cartoons and how they reflect the perspective of moderate Virginia whites in the 1950s." height="150" src="/sites/default/files/Screen%20Shot%202016-11-14%20at%209.13.10%20AM.png" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-massive-resistance-history-resource-2-view view-id-massive_resistance_history_resource_2_view view-display-id-panel_pane_1 view-dom-id-2af532d0e20cfb5af2b653b28a6b682b">
 </div></span> </div> </div>
 </div>
@@ -329,7 +383,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-massive-resistance-history-resource-3-wrap view-id-massive_resistance_history_resource_3_wrap view-display-id-default view-dom-id-bea4c721a2fd7e724d0d414ea7e9824b">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Photograph of Harry F. Bryd giving a speech." height="150" src="/sites/default/files/styles/resource_circles/public/M5R3.jpg" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Photograph of Harry F. Bryd giving a speech." height="150" src="/sites/default/files/M5R3.jpg" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-massive-resistance-history-resource-3-view view-id-massive_resistance_history_resource_3_view view-display-id-panel_pane_1 view-dom-id-d5c9a58ef03e83cab4c9085a864e5951">
 </div></span> </div> </div>
 </div>
@@ -337,7 +391,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-massive-resistance-history-resource-4-wrap view-id-massive_resistance_history_resource_4_wrap view-display-id-default view-dom-id-5d625f6a4379e8f1846e1ff43c623449">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Telegram from the mayor of Little Rock to President Eisenhower asking that federal troops be deployed to prevent mob violence." height="150" src="/sites/default/files/styles/resource_circles/public/Screen%20Shot%202016-11-14%20at%2010.50.41%20AM.png" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Telegram from the mayor of Little Rock to President Eisenhower asking that federal troops be deployed to prevent mob violence." height="150" src="/sites/default/files/Screen%20Shot%202016-11-14%20at%2010.50.41%20AM.png" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-massive-resistance-history-resource-4-view view-id-massive_resistance_history_resource_4_view view-display-id-panel_pane_1 view-dom-id-b0bae6164fa130bd59aa9627bba39625">
 </div></span> </div> </div>
 </div>
@@ -345,7 +399,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-massive-resistance-history-resource-5-wrap view-id-massive_resistance_history_resource_5_wrap view-display-id-default view-dom-id-32479e165cd81e92ff1bfd33f9fee106">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="School board members describe their campaign to keep Arlington schools open during massive resistance." height="150" src="/sites/default/files/styles/resource_circles/public/Screen%20Shot%202016-11-14%20at%2011.56.20%20AM.png" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="School board members describe their campaign to keep Arlington schools open during massive resistance." height="150" src="/sites/default/files/Screen%20Shot%202016-11-14%20at%2011.56.20%20AM.png" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-massive-resistance-history-resource-5-view view-id-massive_resistance_history_resource_5_view view-display-id-panel_pane_1 view-dom-id-c5d9a29328a59e214666184214656320">
 </div></span> </div> </div>
 </div>
@@ -353,7 +407,7 @@ document.addEventListener("click", function (e) {
 <div class="erow"><div class="view view-massive-resistance-history-resource-6-wrap view-id-massive_resistance_history_resource_6_wrap view-display-id-default view-dom-id-7abc4a31c4a3af9efc4eb26f7e76b1d0">
 <div class="view-content">
 <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Arlington residents describe violent threats received during school desegregation crisis." height="150" src="/sites/default/files/styles/resource_circles/public/Screen%20Shot%202016-11-14%20at%2012.15.33%20PM.png" typeof="foaf:Image" width="150"/></div> </div>
+<div class="views-field views-field-field-source"> <div class="field-content"><img alt="Arlington residents describe violent threats received during school desegregation crisis." height="150" src="/sites/default/files/Screen%20Shot%202016-11-14%20at%2012.15.33%20PM.png" typeof="foaf:Image" width="150"/></div> </div>
 <div class="views-field views-field-view"> <span class="field-content"><div class="view view-massive-resistance-history-resource-6-view view-id-massive_resistance_history_resource_6_view view-display-id-panel_pane_1 view-dom-id-8246a032a27453d2025db6f29ad71151">
 </div></span> </div> </div>
 </div>

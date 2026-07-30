@@ -111,7 +111,11 @@
      the 150x150 box the theme sizes them to, rather than squashing non-square
      scans. */
   .srccircle img,
-  .views-field-field-source .field-content img { object-fit: cover; }
+  .views-field-field-source .field-content img {
+    width: 150px !important;
+    height: 150px !important;
+    object-fit: cover;
+  }
 
   /* Resource pages: live theme uses JS to add `.myself` to the active citation
      paragraph; without that JS the citation text is hidden. Always show it. */

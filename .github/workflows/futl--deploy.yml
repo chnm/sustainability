@@ -16,5 +16,5 @@ jobs:
     with:
       context_root: "futl"
       website-devl-fqdn: "futl.dev.chnm.gmu.edu"
-      website-prod-fqdn: "futl.dev.chnm.gmu.edu"
+      website-prod-fqdn: "forustheliving.org"
       runner_labels: '["self-hosted","IncusOS"]'

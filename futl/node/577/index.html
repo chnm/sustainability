@@ -134,7 +134,11 @@
      the 150x150 box the theme sizes them to, rather than squashing non-square
      scans. */
   .srccircle img,
-  .views-field-field-source .field-content img { object-fit: cover; }
+  .views-field-field-source .field-content img {
+    width: 150px !important;
+    height: 150px !important;
+    object-fit: cover;
+  }
 
   /* Resource pages: live theme uses JS to add `.myself` to the active citation
      paragraph; without that JS the citation text is hidden. Always show it. */
@@ -272,6 +276,23 @@
     });
   });
   document.addEventListener("click", function (e) {
+    // Source lightbox (in-action pages): click a thumbnail to open its full
+    // image + citation overlay; click the X (.exitleft) to close. Restores
+    // arlington.behaviors.js:243-259, which the archive does not ship.
+    var exit = e.target.closest && e.target.closest(".eachresource .exitleft");
+    if (exit) {
+      var lbx = exit.closest(".lightboxme");
+      if (lbx) lbx.classList.add("hideme");
+      return;
+    }
+    var thumb = e.target.closest && e.target.closest(".eachresource .srccircle");
+    if (thumb) {
+      var boxes = document.querySelectorAll(".eachresource .lightboxme");
+      for (var i = 0; i < boxes.length; i++) boxes[i].classList.add("hideme");
+      var lb = thumb.parentElement && thumb.parentElement.querySelector(".lightboxme");
+      if (lb) lb.classList.remove("hideme");
+      return;
+    }
     var atitle = e.target.closest && e.target.closest(TSEL);
     if (atitle) { toggle(atitle); return; }
     var box = e.target.closest && e.target.closest(".boxwrap");

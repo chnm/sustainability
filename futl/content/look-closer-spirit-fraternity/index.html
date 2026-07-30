@@ -132,6 +132,18 @@
     object-fit: cover;
   }
 
+  /* Archive notice banner: on phones the logo + notice text cram into a tight
+     flex row (logo stuck top-left, small type in two cramped lines). Center the
+     logo against the wrapped text and give the type room to breathe. */
+  @media (max-width: 640px) {
+    .notice {
+      align-items: center !important;
+      padding: 10px 14px !important;
+      line-height: 1.45 !important;
+    }
+    .notice img { height: 26px !important; margin-right: 12px !important; }
+  }
+
   /* Resource pages: live theme uses JS to add `.myself` to the active citation
      paragraph; without that JS the citation text is hidden. Always show it. */
   .pane-resource-image .views-field-field-citation- .field-content p {

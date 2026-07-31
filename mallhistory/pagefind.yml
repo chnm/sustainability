@@ -1,0 +1,11 @@
+# Pagefind static-search configuration for the mallhistory.org archive.
+#
+# The static site is served from the repository root, so `site` is ".".
+# Pagefind only indexes pages that carry a `data-pagefind-body` attribute
+# (added to `<div role="main">` on the 678 canonical Omeka content pages),
+# which keeps the shared header/nav/footer and the wget artifacts
+# (feeds, pagination duplicates, WordPress "Guide" pages) out of the index.
+#
+# Rebuild the index after content changes:
+#     npx -y pagefind@1.5.2
+site: "."

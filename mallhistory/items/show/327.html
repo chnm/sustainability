@@ -109,7 +109,7 @@
         <h1 id="site-title"><a href="../../index.html" alt="Logo for Histories of the National Mall" title="Logo for Histories of the National Mall"><img src="../../files/theme_uploads/e7ba5426e00e4fe9af499a6ce0731a4f.png" alt="Histories of the National Mall" /></a>
 </h1>
 
-        <form id="search-form" name="search-form" action="https://mallhistory.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search">            <input type="hidden" name="query_type" value="keyword" id="query_type">                <input type="hidden" name="record_types[]" value="Item" id="record_types">                <input type="hidden" name="record_types[]" value="File" id="record_types">                <input type="hidden" name="record_types[]" value="Exhibit" id="record_types">                <input type="hidden" name="record_types[]" value="ExhibitPage" id="record_types">                <input type="hidden" name="record_types[]" value="SimplePagesPage" id="record_types">                <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+        <form id="search-form" name="search-form" action="/search.html" method="get" role="search"><input type="text" name="query" id="query" value="" title="Search" placeholder="Search"><button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
 
         <nav id="navigation" data-role="none">
                         <ul class="navigation">
@@ -128,7 +128,7 @@
 </ul>        </nav>
     </header>
 
-<div role="main">
+<div role="main" data-pagefind-body>
 
 <h1>Removal of the Seat of Government</h1>
 

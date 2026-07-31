@@ -5,7 +5,7 @@ jQuery(document).ready(function ($) {
     $('#map').css('height', windowheight - 54);
 
 
-    var MAP_URL_TEMPLATE = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var MAP_URL_TEMPLATE = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var MAP_CENTER = [38.8891, -77.02949];
     var MAP_ZOOM = 15;
     var MAP_MIN_ZOOM = 14;
@@ -19,7 +19,53 @@ jQuery(document).ready(function ($) {
     var markers;
     var jqXhr;
     var locationMarker;
-    
+
+    // --- Static-archive data (replaces the dead Omeka mall-map endpoints) ---
+    // markers.json  = full GeoJSON FeatureCollection (id + coordinates)
+    // filters.json  = precomputed id sets per filter value (captured from the
+    //                 live server so filtering matches it exactly)
+    // items.json    = per-item popup data (title/date/description/url/images)
+    var STATIC = { markers: null, filters: null, items: null, historic: null };
+
+    // Client-side replacement for POST mall-map/index/filter. Intersects the
+    // precomputed id sets (AND across dimensions, OR within place/event types),
+    // then returns the matching GeoJSON subset.
+    function staticFilter(postData) {
+        var ids = null; // null => no constraint yet ("all")
+        function intersect(set, list) {
+            if (set === null) { return list.slice(); }
+            var l = {};
+            for (var i = 0; i < list.length; i++) { l[list[i]] = true; }
+            return set.filter(function (id) { return l[id]; });
+        }
+        function union(dim, keys) {
+            var seen = {}, out = [];
+            for (var i = 0; i < keys.length; i++) {
+                var arr = STATIC.filters[dim][keys[i]] || [];
+                for (var j = 0; j < arr.length; j++) {
+                    if (!seen[arr[j]]) { seen[arr[j]] = true; out.push(arr[j]); }
+                }
+            }
+            return out;
+        }
+        if (postData.mapCoverage) { ids = intersect(ids, STATIC.filters.mapCoverage[postData.mapCoverage] || []); }
+        if (postData.itemType)    { ids = intersect(ids, STATIC.filters.itemType[postData.itemType] || []); }
+        if (postData.placeTypes && postData.placeTypes.length) { ids = intersect(ids, union('placeType', postData.placeTypes)); }
+        if (postData.eventTypes && postData.eventTypes.length) { ids = intersect(ids, union('eventType', postData.eventTypes)); }
+        var feats = STATIC.markers.features;
+        if (ids !== null) {
+            var keep = {};
+            for (var k = 0; k < ids.length; k++) { keep[ids[k]] = true; }
+            feats = feats.filter(function (f) { return keep[f.properties.id]; });
+        }
+        return { type: 'FeatureCollection', features: feats };
+    }
+
+    // Client-side replacement for POST mall-map/index/get-item.
+    function staticGetItem(id) {
+        return STATIC.items[id] || { title: '', date: [], description: '', thumbnail: '', fullsize: '', url: '#' };
+    }
+
     // Set the base map layer.
     map = L.map('map', {
         center: MAP_CENTER, 
@@ -46,11 +92,24 @@ jQuery(document).ready(function ($) {
         map.locate({watch: true});
     });
     
-    // Retain previous form state, if needed.
-    retainFormState();
-    
-    // Add all markers by default, or retain previous marker state.
-    doFilters();
+    // Load the captured static map data, then render markers / retain state.
+    $.when(
+        $.getJSON('/map/data/markers.json'),
+        $.getJSON('/map/data/filters.json'),
+        $.getJSON('/map/data/items.json'),
+        $.getJSON('/map/data/historic.json')
+    ).done(function (m, f, i, h) {
+        STATIC.markers = m[0];
+        STATIC.filters = f[0];
+        STATIC.items = i[0];
+        STATIC.historic = h[0];
+        // Retain previous form state, if needed.
+        retainFormState();
+        // Add all markers by default, or retain previous marker state.
+        doFilters();
+    }).fail(function () {
+        $('#marker-count').text('Unable to load map data.');
+    });
     
     // Handle location found.
     map.on('locationfound', function (e) {
@@ -299,16 +358,16 @@ jQuery(document).ready(function ($) {
             });
         }
         
-        // Make the POST request, handle the GeoJSON response, and add markers.
-        jqXhr = $.post('mall-map/index/filter', postData, function (response) {
+        // Filter locally against the captured static data, then add markers.
+        (function (response) {
             var item = (1 == response.features.length) ? 'item' : 'items';
             $('#marker-count').text(response.features.length + " " + item);
             var geoJsonLayer = L.geoJson(response, {
                 onEachFeature: function (feature, layer) {
                     layer.on('click', function (e) {
-                        // Request the item data and populate and open the marker popup.
+                        // Load the item data (static) and populate/open the marker popup.
                         var marker = this;
-                        $.post('mall-map/index/get-item', {id: feature.properties.id}, function (response) {
+                        (function (response) {
                             var popupContent = '<h3>' + response.title + '</h3>';
                             if (response.thumbnail) {
                                 popupContent += '<a href="#" class="open-info-panel">' + response.thumbnail + '</a><br/>';
@@ -336,7 +395,7 @@ jQuery(document).ready(function ($) {
                             content.append('<p>' + response.description + '</p>');
                             content.append(response.fullsize);
                             content.append('<p><a href="' + response.url + '" class="button">view more info</a></p>');
-                        });
+                        })(staticGetItem(feature.properties.id));
                     });
                 }
             });
@@ -347,7 +406,7 @@ jQuery(document).ready(function ($) {
             });
             markers.addLayer(geoJsonLayer);
             map.addLayer(markers);
-        });
+        })(staticFilter(postData));
     }
     
     /*
@@ -355,19 +414,26 @@ jQuery(document).ready(function ($) {
      */
     function addHistoricMapLayer()
     {
-        // Get the historic map data
-        var getData = {'text': $('#map-coverage').val()};
-        $.get('mall-map/index/historic-map-data', getData, function (response) {
-            historicMapLayer = L.tileLayer(
-                response.url, 
-                {tms: true, opacity: 1.00}
-            );
-            map.addLayer(historicMapLayer);
-            $('#toggle-map-button').show();
-            
-            // Set the map title as the map attribution prefix.
-            map.attributionControl.setPrefix(response.title);
-        });
+        // Historic-map tiles were crawled into the object bucket and are served
+        // (via the web server's not-found -> bucket redirect) at the same
+        // /plugins/MallMap/maps/<year>/{z}/{x}/{y}.jpg paths. Coverage is the
+        // Mall core (LOCATE_BOUNDS); tiles outside it 404 and simply show no
+        // overlay there.
+        var data = STATIC.historic ? STATIC.historic[$('#map-coverage').val()] : null;
+        if (!data) {
+            // e.g. the "2000-present" era has no historic overlay.
+            $('#toggle-map-button').hide();
+            return;
+        }
+        historicMapLayer = L.tileLayer(
+            data.url,
+            {tms: true, opacity: 1.00, maxNativeZoom: 18}
+        );
+        map.addLayer(historicMapLayer);
+        $('#toggle-map-button').show();
+
+        // Set the map title as the map attribution prefix.
+        map.attributionControl.setPrefix(data.title);
     }
     
     /*

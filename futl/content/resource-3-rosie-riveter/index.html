@@ -166,6 +166,13 @@
     }
   }
 
+  /* Modal overlays (module popups, source lightboxes) are z-index:999 but sit
+     inside .l-main, which the theme makes a stacking context (position:relative;
+     z-index:0) -- trapping them below the header's z-index:99 search/teach links,
+     which then punched through the open popup. Drop the z-index so .l-main no
+     longer forms a context and the overlays reach the top as intended. */
+  .l-main { z-index: auto !important; }
+
   /* Resource pages: live theme uses JS to add `.myself` to the active citation
      paragraph; without that JS the citation text is hidden. Always show it. */
   .pane-resource-image .views-field-field-citation- .field-content p {

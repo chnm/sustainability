@@ -66,3 +66,81 @@ In-tree HTML scan (2026-05-28). `--convert-links` only rewrites refs to files wg
 |   739 | `search`                     |
 
 Locally surviving under `files/`: `theme_uploads/`. All Omeka media-derivative dirs (`files/{original,square_thumbnails,fullsize,thumbnails}/`) were excluded at crawl time.
+
+## Static search (Pagefind)
+
+The original site's search box posted to `https://mallhistory.org/search` (the
+live Omeka backend). In the static archive that endpoint is dead, so search was
+re-implemented client-side with [Pagefind](https://pagefind.app) — a static
+search index served as plain files, no server required.
+
+**What changed**
+
+- `search.html` — the results page. It hosts the Pagefind UI and reads the
+  query from `?query=` (the same field name the old form used), so
+  `/search.html?query=lincoln` is shareable and works on load.
+- `pagefind/` — the prebuilt index (committed, so the site stays a pure static
+  deploy with no build step).
+- `pagefind.yml` — index configuration.
+- The site search form on every page (739 pages) now points at `/search.html`
+  instead of the dead Omeka endpoint.
+
+**Index scope.** Only the 678 canonical Omeka content pages are indexed. Each
+carries a `data-pagefind-body` attribute on its `<div role="main">`, so Pagefind
+indexes just the real content — the shared header/nav/footer and the wget
+artifacts (Atom/RSS feeds, `?page=`/`?tags=` pagination duplicates, the
+WordPress "Guide" pages, saved font/JS blobs) are left out.
+
+**Deployment note.** Result links and the form `action` are root-absolute
+(`/items/show/…`, `/search.html`), so the archive must be served at a domain
+root (as it is at `mallhistory.dev.chnm.gmu.edu`).
+
+**Rebuild the index** after changing page content:
+
+```sh
+npx -y pagefind@1.5.2      # reads pagefind.yml, rewrites ./pagefind/
+```
+
+## Interactive map (captured data)
+
+The `/map` page is a dynamic Omeka plugin ("MallMap") that renders 346 markers
+by POSTing to live server endpoints — `mall-map/index/filter` (marker GeoJSON),
+`mall-map/index/get-item` (popup content), and `mall-map/index/historic-map-data`
+(era overlays). A wget crawl can't capture POST responses, so the static map
+came up empty.
+
+The data was captured from the live server into static JSON, and
+`plugins/MallMap/views/public/javascripts/mall-map.js` was rewired to load it
+and filter client-side (no server):
+
+- `map/data/markers.json` — full GeoJSON FeatureCollection (id + coordinates).
+- `map/data/filters.json` — precomputed id sets per filter value (map era, item
+  type, place type, event type). The map filters by intersecting these sets,
+  which was verified to match the live server's combined-filter output exactly.
+- `map/data/items.json` — per-item popup data (title, dates, description, link).
+- `map/data/historic.json` — per-era historic-map overlay metadata (`url`, `title`).
+
+Loaded via root-absolute `/map/data/*.json`, so both `map.html` and
+`map/index.html` work.
+
+### Historic-map overlays (object bucket)
+
+The map-era overlays are TMS tile pyramids at
+`/plugins/MallMap/maps/<year>/{z}/{x}/{y}.jpg`. These are far too large to commit
+(the full-viewport pyramids are ~5 GB), so the **Mall-core** tiles (the app's
+`LOCATE_BOUNDS`, which contains 97% of markers), zoom 14–18 for all 8 dated
+maps (~9k tiles / ~80 MB), were crawled from the live server and uploaded to the
+`mallhistory.org` object bucket (Garage, `10.112.113.223:3900`, region
+`rrchnm`). The web server serves them via its not-found → bucket redirect at the
+same `/plugins/MallMap/maps/...` paths, so nothing map-tile-related lives in the
+repo. Panning outside the Mall core shows no overlay (those tiles 404); the
+"2000-present" era has no historic map.
+
+**Known gap:** marker thumbnails point at `mallhistory.org/files/...` (excluded
+from the crawl) and will break when the origin goes down, like other archived
+image references.
+
+To refresh: re-capture the three `mall-map/index/*` endpoints (markers/filters/
+items/historic) while the live server is up, and re-run the tile crawl+upload to
+the bucket.
+

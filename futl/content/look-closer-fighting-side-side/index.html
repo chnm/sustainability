@@ -377,13 +377,13 @@
   // Each magnifying glass becomes a toggle button that reveals its matching
   // clue (one at a time), mirroring the live theme's arlington.behaviors.js,
   // but keyboard-operable with role / name / state exposed for assistive tech.
-  function initLookCloser() {
-    var holder = document.querySelector('.node-type-look-closer .imgholder');
-    if (!holder) return;
-    var glasses = holder.querySelectorAll('.srcimg .magicimgwraper .glass');
-    var clues = holder.querySelectorAll('.clues .cluewrap');
-    if (!glasses.length || glasses.length !== clues.length) return;
-
+  //
+  // Several 2018 source images are gone (they 404 on the origin site too), so
+  // this degrades gracefully: a clue image that fails to load collapses to
+  // text, and if the source map itself is missing the page stays in the
+  // archive's force-expanded view (all clue text shown) rather than piling
+  // floating glasses onto a broken image.
+  function setup(holder, glasses, clues) {
     holder.classList.add('lc-interactive');
 
     // Normalise any stale pre-selected state from the source markup so every
@@ -398,7 +398,7 @@
       var q = clue.querySelector('.question');
       if (q && q.textContent.trim()) {
         var t = q.textContent.trim();
-        return t.length > 60 ? t.slice(0, 57) + '\u2026' : t;
+        return t.length > 60 ? t.slice(0, 57) + '…' : t;
       }
       return 'clue ' + (i + 1);
     }
@@ -444,6 +444,34 @@
     // force-expanded -> collapsed mass-hide isn't announced).
     var cluesWrap = holder.querySelector('.clues');
     if (cluesWrap) cluesWrap.setAttribute('aria-live', 'polite');
+  }
+
+  function initLookCloser() {
+    var holder = document.querySelector('.node-type-look-closer .imgholder');
+    if (!holder) return;
+    var glasses = holder.querySelectorAll('.srcimg .magicimgwraper .glass');
+    var clues = holder.querySelectorAll('.clues .cluewrap');
+    if (!glasses.length || glasses.length !== clues.length) return;
+
+    // A clue image that 404s collapses to text: hide the broken <img>'s box.
+    Array.prototype.forEach.call(holder.querySelectorAll('.clues .pic img'), function (img) {
+      function hide() { if (img.parentElement) img.parentElement.style.display = 'none'; }
+      if (img.complete && img.naturalWidth === 0) hide();
+      else img.addEventListener('error', hide);
+    });
+
+    // The glasses only make sense over a visible source map. Enter interactive
+    // mode only once we know the back image actually loaded; if it is missing
+    // or broken, leave the archive's force-expanded view (clue text shown,
+    // glasses hidden) instead of stacking glasses on a collapsed broken image.
+    var back = holder.querySelector('.backimg img.back');
+    if (!back) return;
+    if (back.complete) {
+      if (back.naturalWidth > 0) setup(holder, glasses, clues);
+    } else {
+      back.addEventListener('load', function () { setup(holder, glasses, clues); });
+      // on 'error': do nothing -> page stays in the readable force-expanded view
+    }
   }
 
   if (document.readyState === 'loading') {

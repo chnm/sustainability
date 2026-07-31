@@ -339,6 +339,119 @@
     }
   });
 })();
+</script><style id="futl-lookcloser-style">
+/* ============================================================================
+   Look Closer -- restored interactive magnifying-glass behaviour.
+   Progressive enhancement: without JS the shared archive-override rules force
+   every clue open and hide the glasses, so all content stays readable. When JS
+   runs (futl-lookcloser-behaviors) it adds `.lc-interactive` to .imgholder,
+   which flips those rules back to the original one-clue-at-a-time reveal driven
+   by keyboard-operable, ARIA-labelled glass buttons.
+   ============================================================================ */
+.node-type-look-closer .imgholder.lc-interactive .magicimgwraper .glass { display: block !important; }
+.node-type-look-closer .imgholder.lc-interactive .clues .cluewrap { display: none !important; }
+.node-type-look-closer .imgholder.lc-interactive .clues .cluewrap.selected {
+  display: block !important;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+/* Glass markers: keep the theme's grey / teal(selected) / navy(visited) colour
+   states, but make the fill a touch translucent so the map reads through, and
+   add an opaque ring + drop shadow so the control edge stays distinguishable on
+   any part of the image (WCAG 1.4.11 non-text contrast). */
+.node-type-look-closer .imgholder.lc-interactive .magicimgwraper .glass {
+  background-color: rgba(166, 166, 166, 0.82);
+  border: 2px solid rgba(255, 255, 255, 0.95);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+.node-type-look-closer .imgholder.lc-interactive .magicimgwraper .glass.visited { background-color: rgba(0, 27, 57, 0.85); }
+.node-type-look-closer .imgholder.lc-interactive .magicimgwraper .glass.selected { background-color: rgba(0, 122, 143, 0.92); }
+/* The magnifying-glass icon itself, a bit transparent as requested. */
+.node-type-look-closer .imgholder.lc-interactive .magicimgwraper .glass .circle { opacity: 0.7; }
+/* High-contrast keyboard focus ring on the round markers (WCAG 2.4.7). */
+.node-type-look-closer .imgholder.lc-interactive .magicimgwraper .glass:focus-visible { outline: 3px solid #ffbf47; outline-offset: 2px; }
+</style><script id="futl-lookcloser-behaviors">
+(function () {
+  // Look Closer interactivity -- see the futl-lookcloser-style block above.
+  // Each magnifying glass becomes a toggle button that reveals its matching
+  // clue (one at a time), mirroring the live theme's arlington.behaviors.js,
+  // but keyboard-operable with role / name / state exposed for assistive tech.
+  function initLookCloser() {
+    var holder = document.querySelector('.node-type-look-closer .imgholder');
+    if (!holder) return;
+    var glasses = holder.querySelectorAll('.srcimg .magicimgwraper .glass');
+    var clues = holder.querySelectorAll('.clues .cluewrap');
+    if (!glasses.length || glasses.length !== clues.length) return;
+
+    holder.classList.add('lc-interactive');
+
+    // Normalise any stale pre-selected state from the source markup so every
+    // page starts clean: no glass highlighted, no clue shown, all buttons
+    // collapsed (aria-expanded is set to 'false' during setup below).
+    Array.prototype.forEach.call(glasses, function (g) { g.classList.remove('selected', 'visited'); });
+    Array.prototype.forEach.call(clues, function (c) { c.classList.remove('selected'); });
+
+    function labelFor(clue, i) {
+      var strong = clue.querySelector('.question strong');
+      if (strong && strong.textContent.trim()) return strong.textContent.trim();
+      var q = clue.querySelector('.question');
+      if (q && q.textContent.trim()) {
+        var t = q.textContent.trim();
+        return t.length > 60 ? t.slice(0, 57) + '\u2026' : t;
+      }
+      return 'clue ' + (i + 1);
+    }
+
+    var pairs = [];
+    Array.prototype.forEach.call(glasses, function (glass, i) {
+      var clue = clues[i];
+      if (!clue.id) clue.id = 'lc-clue-' + i;
+      var name = labelFor(clue, i);
+      glass.setAttribute('role', 'button');
+      glass.setAttribute('tabindex', '0');
+      glass.setAttribute('aria-controls', clue.id);
+      glass.setAttribute('aria-expanded', 'false');
+      glass.setAttribute('aria-label', 'Show detail: ' + name);
+      clue.setAttribute('role', 'group');
+      clue.setAttribute('aria-label', name);
+      var img = glass.querySelector('img.circle');
+      if (img) img.setAttribute('alt', ''); // decorative; the button carries the name
+      pairs.push({ glass: glass, clue: clue });
+    });
+
+    function select(idx) {
+      pairs.forEach(function (p, i) {
+        var on = i === idx;
+        if (!on && p.glass.classList.contains('selected')) p.glass.classList.add('visited');
+        p.glass.classList.toggle('selected', on);
+        p.glass.setAttribute('aria-expanded', on ? 'true' : 'false');
+        p.clue.classList.toggle('selected', on);
+      });
+    }
+
+    pairs.forEach(function (p, i) {
+      p.glass.addEventListener('click', function () { select(i); });
+      p.glass.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
+          e.preventDefault();
+          select(i);
+        }
+      });
+    });
+
+    // Announce the revealed clue (set after the initial collapse so the
+    // force-expanded -> collapsed mass-hide isn't announced).
+    var cluesWrap = holder.querySelector('.clues');
+    if (cluesWrap) cluesWrap.setAttribute('aria-live', 'polite');
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initLookCloser);
+  } else {
+    initLookCloser();
+  }
+})();
 </script></head>
 <body class="html not-front not-logged-in page-node page-node- page-node-675 node-type-look-closer section-content">
 <a class="element-invisible element-focusable" href="../look-closer-service-country-2#main-content">Skip to main content</a>

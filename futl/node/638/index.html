@@ -152,6 +152,17 @@
     .notice img { height: 26px !important; margin-right: 18px !important; }
   }
 
+  /* Homepage module cards: on phones they stretch edge-to-edge (width:100%, no
+     side margin), touching the screen sides and clipping their drop-shadow.
+     Inset them so they read as cards with breathing room. */
+  @media (max-width: 568px) {
+    .front .homecont .bottbox .bigwrapper {
+      width: auto !important;
+      margin-left: 16px !important;
+      margin-right: 16px !important;
+    }
+  }
+
   /* Resource pages: live theme uses JS to add `.myself` to the active citation
      paragraph; without that JS the citation text is hidden. Always show it. */
   .pane-resource-image .views-field-field-citation- .field-content p {

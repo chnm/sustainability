@@ -66,3 +66,38 @@ In-tree HTML scan (2026-05-28). `--convert-links` only rewrites refs to files wg
 |   739 | `search`                     |
 
 Locally surviving under `files/`: `theme_uploads/`. All Omeka media-derivative dirs (`files/{original,square_thumbnails,fullsize,thumbnails}/`) were excluded at crawl time.
+
+## Static search (Pagefind)
+
+The original site's search box posted to `https://mallhistory.org/search` (the
+live Omeka backend). In the static archive that endpoint is dead, so search was
+re-implemented client-side with [Pagefind](https://pagefind.app) — a static
+search index served as plain files, no server required.
+
+**What changed**
+
+- `search.html` — the results page. It hosts the Pagefind UI and reads the
+  query from `?query=` (the same field name the old form used), so
+  `/search.html?query=lincoln` is shareable and works on load.
+- `pagefind/` — the prebuilt index (committed, so the site stays a pure static
+  deploy with no build step).
+- `pagefind.yml` — index configuration.
+- The site search form on every page (739 pages) now points at `/search.html`
+  instead of the dead Omeka endpoint.
+
+**Index scope.** Only the 678 canonical Omeka content pages are indexed. Each
+carries a `data-pagefind-body` attribute on its `<div role="main">`, so Pagefind
+indexes just the real content — the shared header/nav/footer and the wget
+artifacts (Atom/RSS feeds, `?page=`/`?tags=` pagination duplicates, the
+WordPress "Guide" pages, saved font/JS blobs) are left out.
+
+**Deployment note.** Result links and the form `action` are root-absolute
+(`/items/show/…`, `/search.html`), so the archive must be served at a domain
+root (as it is at `mallhistory.dev.chnm.gmu.edu`).
+
+**Rebuild the index** after changing page content:
+
+```sh
+npx -y pagefind@1.5.2      # reads pagefind.yml, rewrites ./pagefind/
+```
+

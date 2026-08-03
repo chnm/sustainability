@@ -106,7 +106,7 @@ div[role="main"] {
 
 .button {
     color: #fff;
-    background-color: #2b89d9;
+    background-color: #1b6cae;
     padding: 12px;
     font-size: 16px;
     line-height: 100%;
@@ -157,7 +157,7 @@ a#locate-button {
     z-index: 1000;
     text-decoration: none;
     color: #fff;
-    background-color: #2B89D9;
+    background-color: #1b6cae;
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,.15);
     -moz-box-shadow: 0 0 20px rgba(0,0,0,.15);
     box-shadow: 0 0 20px rgba(0,0,0,.15);
@@ -240,7 +240,7 @@ a#locate-button {
 }
 
 #filters div label {
-    background-color: rgba(219, 108, 54, 0.15);
+    background-color: rgba(181, 72, 15, 0.15);
     border-radius: 3px;
     cursor: pointer;
     vertical-align: middle;
@@ -251,13 +251,13 @@ a#locate-button {
 }
 
 #filters div label.on {
-    background-color: rgba(33, 201, 0, 0.15);
+    background-color: rgba(23, 122, 18, 0.15);
     color: #36A036;;
 }
 
 #filters div label:before {
     content: "";
-    background-color: #DB6C36;
+    background-color: #b5480f;
     color: #FFF;
     height: 40px;
     display: block;
@@ -272,7 +272,7 @@ a#locate-button {
 
 #filters div label.on:before {
     content: "\e006";
-    background-color: rgba(33, 201, 0, 1);
+    background-color: rgba(23, 122, 18, 1);
 }
 
 #filters div input[type=checkbox] {
@@ -329,7 +329,7 @@ a#locate-button {
     width: 20px !important;
     height: 20px !important;
     color: #FFF !important;
-    background: #DB6C36 !important;
+    background: #b5480f !important;
     border-radius: 20px;
     border: 1px solid #F89361;
     font-weight: normal !important;

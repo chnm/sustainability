@@ -15,6 +15,6 @@ jobs:
     secrets: inherit
     with:
       context_root: "imagingthefrenchrevolution"
-      website-devl-fqdn: "imaging.dev.chnm.gmu.edu"
-      website-prod-fqdn: "imaging.dev.chnm.gmu.edu"
+      website-devl-fqdn: "imagingthefrenchrevolution.rrchnm.org"
+      website-prod-fqdn: "imagingthefrenchrevolution.rrchnm.org"
       runner_labels: '["self-hosted","IncusOS"]'

@@ -93,5 +93,7 @@ sidelinks {
 }
 .skip-link:focus { left: 0; }
 /* 2.5.8 Target Size (Minimum): give image and list nav links a >=24px hit area */
-a:has(> img) { display: inline-block; min-width: 24px; min-height: 24px; }
+a:has(> img), a[href$=".pdf"] { display: inline-block; min-width: 24px; min-height: 24px; }
 .sidelinks a, a.sidelinks, .bottomtext a, a.bottomtext { display: inline-block; min-height: 24px; }
+/* 1.4.1 Use of Color: distinguish in-text links from prose by underline, not color alone */
+.textbody a, .group a, .footnotetext a, .blockquote a { text-decoration: underline; }

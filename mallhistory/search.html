@@ -38,7 +38,10 @@
             border: 0;
         }
         #search {
-            --pagefind-ui-primary: #21c900;
+            /* Accessible on-brand green (5.48:1 on white) for result-title
+               links; the site's #21c900 is a button-background colour and
+               fails WCAG 1.4.3 as link text. */
+            --pagefind-ui-primary: #177a12;
             --pagefind-ui-scale: 0.9;
             max-width: 48em;
         }

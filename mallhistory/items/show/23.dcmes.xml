@@ -1,0 +1,16 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/23">
+<dc:title>Lincoln Memorial Reflecting Pool</dc:title>
+<dc:description>Stretching approximately a third of a mile from end to end, the reflecting pool lies between the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt; and the &lt;a href=&quot;http://mallhistory.org/items/show/33&quot;&gt;Lincoln Memorial&lt;/a&gt;. Built in 1920 on marshland, the pool gradually sank, leaking into the &lt;a href=&quot;http://mallhistory.org/items/show/498&quot;&gt;surrounding land&lt;/a&gt;. In 2012, &lt;a href=&quot;http://mallhistory.org/items/show/451&quot;&gt;the pool was reconstructed&lt;/a&gt;. It now holds nearly seven million gallons of water and utilizes a sustainable circulation system pulling water from the nearby &lt;a href=&quot;http://mallhistory.org/items/show/430&quot;&gt;Tidal Basin&lt;/a&gt;.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Henry+Bacon&quot;&gt;Henry Bacon&lt;/a&gt;</dc:creator>
+<dc:source>Mario Roberto Duran Ortiz, via Flickr. &lt;a href=&quot;http://en.wikipedia.org/wiki/File:Rehabilitation_works_Reflecting_Pool_12_2011_DC_000102.JPG&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1923 (Completed)
+</dc:date>
+<dc:date>2012 (Reconstructed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

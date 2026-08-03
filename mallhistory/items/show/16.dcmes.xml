@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/16">
+<dc:title>George Mason Memorial</dc:title>
+<dc:description>George Mason (1725-1792), author of Virginia&#039;s Declaration of Rights, was a delegate to the Constitutional Convention. He refused to sign the Constitution because of the absence of a Bill of Rights and a disagreement over the issue of standing armies. The memorial was funded through an effort by the Board of Regents of Gunston Hall, Mason&#039;s home in Fairfax, Virginia, which now operates as a museum. The site of the memorial was home to a garden called the Pansy Garden in the 1920s. The memorial was approved in 1990, but groundbreaking did not take place until 2000.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Faye+B.+Harwell&quot;&gt;Faye B. Harwell&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Wendy+M.+Ross&quot;&gt;Wendy M. Ross&lt;/a&gt;</dc:creator>
+<dc:source>National Park Service. &lt;a href=&quot;http://www.nps.gov/gemm/index.htm&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>4/09/2002 (Dedicated)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

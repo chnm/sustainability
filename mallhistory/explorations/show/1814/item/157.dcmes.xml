@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/157">
+<dc:title>Burning of Public Buildings, War of 1812</dc:title>
+<dc:description>After defeating American troops at the Battle of Bladensburg in 1814, British troops under the command of Rear Admiral George Cockburn and Major General Robert Ross entered Washington, intent on destroying government property. First Lady Dolley Madison fled the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt; at the last moment but managed to save important documents and, &lt;a href=&quot;http://mallhistory.org/items/show/112&quot;&gt;with the help of slaves and servants, a portrait of George Washington&lt;/a&gt;. The British set fire to the White House, &lt;a href=&quot;http://mallhistory.org/items/show/320&quot;&gt;the Capitol&lt;/a&gt;, the Navy Yard, and other public buildings. The destruction of the federal city was devastating to the American people, and &lt;a href=&quot;http://mallhistory.org/items/show/327&quot;&gt;Congress debated relocating the capital city&lt;/a&gt;.</dc:description>
+<dc:source>National Archives at College Park. &lt;a href=&quot;http://research.archives.gov/description/531090&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>08/24-25/1814</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

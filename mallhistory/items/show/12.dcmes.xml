@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/12">
+<dc:title>Peace Monument</dc:title>
+<dc:description>The Peace Monument, also known as the Naval Monument and the Civil War Sailors Monument, honors naval deaths at sea during the American Civil War. Admiral David Dixon Porter conceived the idea of the monument and sketched an initial design in the mid-1860s, originally intending for it to be placed in Annapolis, Maryland at the US Naval Academy. Porter commissioned Franklin Simmons to create the monument and worked with him on the final design. The monument was not formally dedicated after its completion in 1878.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Franklin+Simmons&quot;&gt;Franklin Simmons&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/npc2007018813/&quot;&gt;View Original.&lt;/a&gt;</dc:source>
+<dc:date>1877 (Erected)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/151">
+<dc:title>W. Richard West Jr.</dc:title>
+<dc:description>Richard West was the founding Director of the &lt;a href=&quot;http://mallhistory.org/items/show/49&quot;&gt;National Museum of the American Indian&lt;/a&gt;, serving from the museum&#039;s opening in 2004 until 2007. West is a citizen of the Cheyenne and Arapaho Tribes of Oklahoma and a Peace Chief of the Southern Cheyenne. He has devoted much of his professional and personal life to American Indian cultural, educational, legal, and governmental issues. West supported a broad scope for the museum, representing the wide cultural and ethnic diversities of Native Americans, both through historical collections and exhibits and through living history presentations.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=W.+Richard+West+Jr.&quot;&gt;W. Richard West Jr.&lt;/a&gt;</dc:creator>
+<dc:source>Wikimedia Commons. &lt;a href=&quot;http://commons.wikimedia.org/wiki/File:WRichardWestJr.jpg&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

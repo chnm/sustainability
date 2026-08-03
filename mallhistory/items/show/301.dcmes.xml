@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/301">
+<dc:title>Thomas Jefferson</dc:title>
+<dc:description>&lt;p class=&quot;p1&quot;&gt;Thomas Jefferson worked with President &lt;a href=&quot;http://mallhistory.org/items/show/152&quot;&gt;George Washington&lt;/a&gt; to advocate that the nation&#039;s capitol be situated on the banks of the &lt;a href=&quot;http://mallhistory.org/items/show/424&quot;&gt;Potomac&lt;/a&gt;. His sketch of a layout for the federal city is the oldest known plan of Washington, DC, and he shared his ideas with many of the early planners and architects of the city, including&lt;a href=&quot;http://mallhistory.org/items/show/80&quot;&gt; L&#039;Enfant&lt;/a&gt;, &lt;a href=&quot;http://mallhistory.org/items/show/108&quot;&gt;Hoban&lt;/a&gt;, and &lt;a href=&quot;http://mallhistory.org/items/show/80&quot;&gt;Latrobe&lt;/a&gt;. He was the first president to serve entirely in Washington, DC, and he used the &lt;a href=&quot;http://mallhistory.org/items/show/20&quot;&gt;Ellipse&lt;/a&gt; and &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt; grounds for some of his scientific and agricultural experiments during his time in office.&lt;/p&gt;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Thomas+Jefferson&quot;&gt;Thomas Jefferson&lt;/a&gt;</dc:creator>
+<dc:source>Image from the Independence National Historical Park Collection, via National Portrait Gallery. </dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

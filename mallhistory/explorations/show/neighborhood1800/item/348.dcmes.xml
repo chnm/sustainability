@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/348">
+<dc:title>Detail, National Capital</dc:title>
+<dc:description>This detail of Adolph Sachse&#039;s stylized bird&#039;s-eye view of Washington highlights the section of the National Mall west of the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;US Capitol&lt;/a&gt; on present-day 6th Street. The National Mall was still parkland, a series of gardens, &lt;a href=&quot;http://mallhistory.org/items/show/372&quot;&gt;experimental plots&lt;/a&gt;, and &lt;a href=&quot;http://mallhistory.org/items/show/261&quot;&gt;natural landscapes&lt;/a&gt;. Ten years earlier, the &lt;a href=&quot;http://mallhistory.org/items/show/166&quot;&gt;Baltimore and Potomac Railway lines&lt;/a&gt; visible in this illustration were constructed through its center. Passengers boarded at the station where the &lt;a href=&quot;http://mallhistory.org/items/show/427&quot;&gt;National Gallery of Art&lt;/a&gt; stands today, and &lt;a href=&quot;http://mallhistory.org/items/show/346&quot;&gt;freight cars loaded from sheds&lt;/a&gt; among the trees of the Mall.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Adolph+Sachse&quot;&gt;Adolph Sachse&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Geography and Map Division. &lt;a href=&quot;http://www.loc.gov/item/75693178&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:publisher>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=45&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Balti%5Bmore%5D+A.+Sachse+%26+Co.&quot;&gt;Balti[more] A. Sachse &amp; Co.&lt;/a&gt;</dc:publisher>
+<dc:date>1884</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

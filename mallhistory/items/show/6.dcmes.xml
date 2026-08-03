@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/6">
+<dc:title>Mary Ann Hall&#039;s Brothel</dc:title>
+<dc:description>&lt;a href=&quot;http://mallhistory.org/items/show/121&quot;&gt;Mary Ann Hall&lt;/a&gt;’s brothel was the largest and most luxurious of more than 100 known bordellos in Washington during the 1800s. Hall’s three-story establishment stood where the &lt;a href=&quot;http://mallhistory.org/items/show/49&quot;&gt;National Museum of the American Indian (NMAI)&lt;/a&gt; is today. According to Union Army records, she employed 18 women. Archaeological excavations indicate that Hall imported French wine and champagne for her clients. She ran her establishment until 1883, dying in 1886 with a net worth of $87,000. Although Washington police frequently harassed and arrested prostitutes, the profession remained legal in DC until 1914.</dc:description>
+<dc:source>Smithsonian Institution, Architectural History &amp;amp; Historic Preservation Division. &lt;a href=&quot;http://www.si.edu/oahp/madam/mall2.jpg&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1840 (Built)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

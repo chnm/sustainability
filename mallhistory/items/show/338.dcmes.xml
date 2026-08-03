@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/338">
+<dc:title>Dr. Samuel Gross Statue</dc:title>
+<dc:description>This statue of Dr. Samuel D. Gross was unveiled in May 1897 outside the &lt;a href=&quot;http://mallhistory.org/items/show/37&quot;&gt;National Army Medical Museum and Library&lt;/a&gt; on the National Mall. Gross, who died in 1884, was a celebrated surgeon and professor at Jefferson Medical College in Philadelphia. He was immortalized in an 1875 painting by Thomas Eakin titled&lt;em&gt; The Gross Clinic&lt;/em&gt;. The statue was commissioned by Congress and the Physicians and Surgeons of America and created by Alexander Stirling Calder. In 1970, when the Medical Museum and Library moved off the Mall, the statue was relocated to the campus of Jefferson Medical College.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Alexander+Stirling+Calder&quot;&gt;Alexander Stirling Calder&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/npc2007000102/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>5/5/1897 (dedicated)</dc:date>
+<dc:date>1970 (removed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

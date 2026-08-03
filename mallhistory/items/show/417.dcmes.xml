@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/417">
+<dc:title>Second Division Memorial</dc:title>
+<dc:description>Located within &lt;a href=&quot;http://mallhistory.org/items/show/20&quot;&gt;President&#039;s Park&lt;/a&gt; on the National Mall, the Second Division Memorial is dedicated to those members of the Second Infantry Division of the US army who have died while in service. Originally dedicated in 1936 by President Franklin Roosevelt, the memorial honored service in World War I. The flaming sword at the memorial&#039;s center represents the defense of Paris from German forces during that conflict. In 1962, two wings were added to the memorial to represent service in World War II and the Korean War.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=James+Earle+Fraser&quot;&gt;James Earle Fraser&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/resource/thc.5a44627/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>07/18/1936 (Dedicated) </dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

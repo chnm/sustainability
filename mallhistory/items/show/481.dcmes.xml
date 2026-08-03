@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/481">
+<dc:title>Japanese Lantern</dc:title>
+<dc:description>The lantern was given to the people of the United States by the Governor of Tokyo in 1954 to mark the 100th anniversary of Commodore Matthew Perry&#039;s arrival in Japan and the opening of trade between the two countries. It was installed amid the &lt;a href=&quot;http://mallhistory.org/items/show/24&quot;&gt;first cherry trees&lt;/a&gt; planted along the &lt;a href=&quot;http://mallhistory.org/items/show/430&quot;&gt;Tidal Basin&lt;/a&gt;. The lantern is lighted during the annual &lt;a href=&quot;http://mallhistory.org/items/show/480&quot;&gt;Cherry Blossom Festival&lt;/a&gt;. It is one of two lanterns created in 1651 to mark the death of a warlord named Tokugama Iemitsu. Both lanterns were formerly located at a temple in Tokyo&#039;s Ueno Park, where the twin remains today.</dc:description>
+<dc:source>Library of Congress, Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2011633824/&quot;&gt;View Original&lt;/a&gt;.</dc:source>
+<dc:date>03/30/1954 (dedicated)</dc:date>
+<dc:date>1651 (sculpted)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

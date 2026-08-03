@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/256">
+<dc:title>West front of Capitol, vii, peristyle complete</dc:title>
+<dc:description>This 1860s photograph shows the Capitol dome under construction, with the Botanical Gardens and canal in foreground. In the 1860s, the Capitol dome was not yet complete. The city&#039;s canal system connected the Anacostia River to the Potomac by flowing west from the Anacostia along the Mall, emptying into the Potomac. The mucky, watery landscape added to the impression that the Mall was built on a swamp.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2009631499/&quot;&gt;View original.&lt;/a&gt;</dc:source>
+<dc:date>1860</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

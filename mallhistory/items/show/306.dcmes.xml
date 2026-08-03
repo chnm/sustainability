@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/306">
+<dc:title>Old Brick Capitol</dc:title>
+<dc:description>First known as the Old Brick Capitol, this building served as a a temporary meeting place for Congress after &lt;a href=&quot;http://mallhistory.org/items/show/157&quot;&gt;the burning of the US Capitol during the War of 1812&lt;/a&gt;. At the outbreak of the &lt;a href=&quot;http://mallhistory.org/items/show/351&quot;&gt;Civil War&lt;/a&gt;, the building became a prison. Confederate soldiers and spies, insubordinate Union officers, and several conspirators in the assassination of President Lincoln were imprisoned here. In 1929, the building was demolished, and the current U.S. Supreme Court building was constructed on the site.</dc:description>
+<dc:source>District of Columbia Public Library. &lt;a href=&quot;http://www.flickr.com/photos/dcplcommons/4226571178/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1814 (built)</dc:date>
+<dc:date>1929 (demolished)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

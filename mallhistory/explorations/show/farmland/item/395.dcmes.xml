@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/395">
+<dc:title>Diary, John Quincy Adams, 1827</dc:title>
+<dc:description>President Adams&#039; diary entries from June 1827 detail his regular visits to the White House garden. In this entry he describes the variety of plants in the garden, from fruit trees to common weeds. The President relied on his gardener, John Ousley, to identify many of the plants. Apparently, Adams encountered the living form of tarragon, an herb, for the first time on June 5.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=John+Quincy+Adams&quot;&gt;John Quincy Adams&lt;/a&gt;</dc:creator>
+<dc:source>The Diaries of John Quincy Adams: A Digital Collection. Massachusetts Historical Society, 2005. &lt;a href=&quot;http://www.masshist.org/jqadiaries/php/doc?id=jqad37_214&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>6/5/1827</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

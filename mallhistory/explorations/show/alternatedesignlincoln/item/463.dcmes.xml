@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/463">
+<dc:title>Lincoln Memorial Commission Report</dc:title>
+<dc:description>In 1911 Congress appropriated funds and established a subcommittee within the Commission of Fine Arts to write a proposal for a memorial to President Abraham Lincoln. The committee undertook a national &lt;a href=&quot;http://mallhistory.org/explorations/show/alternatedesignlincoln&quot;&gt;design competition&lt;/a&gt; for monument proposals. Their report, seen here, selected a &lt;a href=&quot;http://mallhistory.org/items/show/462&quot;&gt;design by architect Henry Bacon&lt;/a&gt; to create the &lt;a href=&quot;http://mallhistory.org/items/show/33&quot;&gt;Lincoln Memorial &lt;/a&gt;towards the end of the Mall in Potomac Park.</dc:description>
+<dc:source>Open Library, &lt;a href=&quot;https://openlibrary.org/books/OL14308634M/Lincoln_memorial_commission_report.&quot;&gt;View Original&lt;/a&gt;.</dc:source>
+<dc:date>02/09/1911 </dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

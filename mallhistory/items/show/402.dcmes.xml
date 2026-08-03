@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/402">
+<dc:title>The Seat of Government of the United States</dc:title>
+<dc:description>Freeman Hunt wrote a series of articles for his Merchants&#039; Magazine in the spring of 1848 describing the history and current state of the capital city, which was mostly undeveloped at the time. In the second installment of the series he wrote about the Mall. Although it looked like a &lt;a href=&quot;http://mallhistory.org/items/show/284&quot;&gt;cow pasture&lt;/a&gt;, Freeman felt that it would be relatively easy and inexpensive to make a space which would rival the avenues and parks of Europe.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Freeman+Hunt&quot;&gt;Freeman Hunt&lt;/a&gt;</dc:creator>
+<dc:source>&lt;em&gt;The Merchants&#039; Magazine and Commercial Review&lt;/em&gt;, volume 18. &lt;a href=&quot;http://books.google.com/books?id=4QcdAAAAIAAJ&amp;amp;lpg=PA17&amp;amp;ots=EpUCcYMXyI&amp;amp;dq=merchants&#039;%20magazine%20vol%20xviii&amp;amp;pg=PA149#v=onepage&amp;amp;q&amp;amp;f=false&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1848</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

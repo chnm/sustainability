@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/479">
+<dc:title>Discovery of America</dc:title>
+<dc:description>In 1837, the President and Congress commissioned Italian-born artist Luigi Persico to create a sculpture depicting Christopher Columbus to be one of a pair of artworks flanking the staircase on the eastern entrance to the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt;. When it was installed in 1844, some politicians and art critics applauded it as a representation of Manifest Destiny. In 1958, &lt;em&gt;Discovery of America&lt;/em&gt; and its companion piece &lt;a href=&quot;http://mallhistory.org/items/show/18&quot;&gt;&lt;em&gt;The Rescue&lt;/em&gt;&lt;/a&gt; were removed in preparation for renovations to the east facade of the Capitol. By that point, both American Indian advocacy groups and members of Congress were highly critical of the sculpture. It was not reinstalled when the renovation was completed.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Luigi+Persico&quot;&gt;Luigi Persico&lt;/a&gt;</dc:creator>
+<dc:source>Wikimedia Commons. &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Discovery-statue.JPG&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1844 (installed)</dc:date>
+<dc:date>1958 (removed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

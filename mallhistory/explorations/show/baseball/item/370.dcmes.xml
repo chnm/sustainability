@@ -1,0 +1,11 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/370">
+<dc:title>Baseball ribbons</dc:title>
+<dc:description>Some baseball clubs in the 1860s exchanged ribbons printed with their team names just before a game. Some players collected the ribbons on their uniforms, displaying all the teams they had faced. These ribbons are from the Washington Nationals and the Philadelphia Athletics. The &lt;a href=&quot;http://mallhistory.org/items/show/319&quot;&gt;Nationals&#039; home field was the Ellipse&lt;/a&gt;, just south of the White House. &lt;a href=&quot;http://mallhistory.org/items/show/359&quot;&gt;In 1865, the Nationals faced the Athletics in a tournament&lt;/a&gt; which drew hundreds of spectators, including President Andrew Johnson. These ribbons may not be from that game, but they are from the collection of an early fan of Washington baseball.</dc:description>
+<dc:source>Courtesy of the Historical Society of Washington, DC.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

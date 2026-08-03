@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/328">
+<dc:title>Executive Order 8802</dc:title>
+<dc:description>On June 25, 1941, President Franklin Roosevelt signed Executive Order 8802 which prohibited racial and other discrimination in the defense industry. The Executive Order was a partial response by the White House to a &lt;a href=&quot;http://mallhistory.org/items/show/329&quot;&gt;planned march by African American activists on the National Mall to protest discrimination in the defense industry&lt;/a&gt;. Defense jobs were a major source of employment even though the United States was not yet at war.</dc:description>
+<dc:source>National Archives at Washington, DC. &lt;a href=&quot;http://research.archives.gov/description/300005&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date> 6/25/1941</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

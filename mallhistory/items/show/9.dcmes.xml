@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/9">
+<dc:title>John Ericsson National Memorial</dc:title>
+<dc:description>&lt;p&gt;John Ericsson (1803-1889), a Swedish-born engineer, made inventions and improvements critical to the Union&#039;s naval success in the United States Civil War. In particular, his design of the USS&lt;em&gt; Monitor&lt;/em&gt;, the first Union ironclad ship, represented an important advance in naval armor and became a critical factor in the Civil War. Approved by Congress in 1916 and supported by funding from Americans of Scandinavian descent, the memorial was dedicated in the spring of 1926 by President Calvin Coolidge and Crown Prince Gustaf Adolf of Sweden. The sculpture includes a likeness of Ericsson and symbolic representations of adventure, labor, and vision.&lt;/p&gt;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=James+Earle+Fraser+&quot;&gt;James Earle Fraser &lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2001699658/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>05/29/1926 (dedicated)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

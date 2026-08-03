@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/486">
+<dc:title>Olmec Head </dc:title>
+<dc:description>In 1978, the National Museum of Natural History hosted &quot;Treasures of Mexico: From the Mexican National Museum&quot; that featured this large stone Olmec head. The Olmecs lived in south-central Mexico from approximately 1400 BC to 400 BC and are considered Mexico&#039;s earliest prominent civilization. The head weighed 5 tons and required a special steel-frame platform to display it safely inside the museum. In this photograph, riggers are unloading the head at the Mall entrance of the Museum.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Olmec+Civilization&quot;&gt;Olmec Civilization&lt;/a&gt;</dc:creator>
+<dc:source>Smithsonian Institution Archives. &lt;a href=&quot;http://siris-sihistory.si.edu/ipac20/ipac.jsp?&amp;amp;profile=all&amp;amp;source=~!sichronology&amp;amp;uri=full=3100001~!8749~!0#focus&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1978 (delivered to Smithsonian)</dc:date>
+<dc:rights>No restrictions. </dc:rights>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

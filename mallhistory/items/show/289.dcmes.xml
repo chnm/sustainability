@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/289">
+<dc:title>Scientists and Farmers at the Department of Agriculture </dc:title>
+<dc:description>When President Lincoln created the Department of Agriculture in 1862, the agency consisted of only four scientists and agriculturists. By 1867, their numbers grew to 70 employees, indicating the rapid growth of the scope and influence of what is now the nation&#039;s sixth largest federal agency. Housed in the basement of the US Patent Office until 1868, Agricultural Department employees also tended &lt;a href=&quot;http://mallhistory.org/items/show/372&quot;&gt;experimental crops in gardens and fields on the National Mall&lt;/a&gt;, extending between today&#039;s Independence and Constitution Avenues. In this image, the first Commissioner of Agriculture, &lt;a href=&quot;http://mallhistory.org/items/show/290&quot;&gt;Isaac Newton&lt;/a&gt;, is seated in the center.</dc:description>
+<dc:source>United States Department of Agriculture. &lt;a href=&quot;http://www.ars.usda.gov/is/graphics/photos/sep13/d3010-1.htm&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1867</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

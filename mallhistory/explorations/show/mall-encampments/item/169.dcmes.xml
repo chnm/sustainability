@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/169">
+<dc:title>Bonus March</dc:title>
+<dc:description>In May 1932, 17,000 World War I veterans and their families arrived in Washington, led by &lt;a href=&quot;http://mallhistory.org/items/show/120&quot;&gt;Walter W. Waters&lt;/a&gt;. Propelled by hard economic times of the Depression, they called themselves the Bonus Expeditionary Forces. They traveled to Washington to ask Congress to authorize immediate payment of bonuses for their war service, not scheduled to be paid until 1945. Some of the veterans camped on the grounds of the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt; while the families built shanties on the Anacostia flats. On July 28, President Hoover &lt;a href=&quot;http://mallhistory.org/items/show/106&quot;&gt;ordered police to evict marchers&lt;/a&gt;. The confrontation between veterans and police resulted in &lt;a href=&quot;http://mallhistory.org/items/show/434&quot;&gt;the death of two veterans&lt;/a&gt;. The &lt;a href=&quot;http://mallhistory.org/items/show/115&quot;&gt;US Army took ove&lt;/a&gt;r and drove the Bonus Marchers from Washington.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/thc1995002066/PP/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>05/1932-07/28/1932</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

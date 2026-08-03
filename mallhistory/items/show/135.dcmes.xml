@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/135">
+<dc:title>Thomas Law</dc:title>
+<dc:description>Thomas Law was a wealthy Englishman who invested financially and ideologically in the development of the new city of Washington. In 1804 he wrote a pamphlet, published anonymously, proposing a canal from the &lt;a href=&quot;http://mallhistory.org/items/show/424&quot;&gt;Anacostia River to the Potomac&lt;/a&gt; following &lt;a href=&quot;http://mallhistory.org/items/show/40&quot;&gt;Goose Creek&lt;/a&gt;, which he thought would encourage trade in the city. He was one of the incorporators of the &lt;a href=&quot;http://mallhistory.org/items/show/41&quot;&gt;Washington Canal&lt;/a&gt; Company.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Thomas+Law&quot;&gt;Thomas Law&lt;/a&gt;</dc:creator>
+<dc:source>Papers of George Washington. &lt;a href=&quot;http://gwpapers.virginia.edu/documents/george-washington-to-thomas-law/&quot;&gt;View original image&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/388">
+<dc:title>People&#039;s Garden</dc:title>
+<dc:description>Secretary of Agriculture, Tom Vilsack, established the People&#039;s Garden on the site of a former parking lot outside the Department of Agriculture in 2009. The garden is maintained by volunteers from the Department. All of the produce grown in the garden is donated to local food pantries and soup kitchens. This garden served as the start of a People&#039;s Garden program; there are now People&#039;s Gardens in all 50 states.</dc:description>
+<dc:source>US Department of Agriculture Flickr Account. &lt;a href=&quot;http://www.flickr.com/photos/usdagov/4687825849/in/set-72157624121226305&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>2009 (dedicated)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

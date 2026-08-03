@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/287">
+<dc:title>Capture of escaped slaves on the &lt;em&gt;Pearl&lt;/em&gt;</dc:title>
+<dc:description>In 1848, 77 enslaved African Americans, including the &lt;a href=&quot;http://mallhistory.org/items/show/283&quot;&gt;Edmonson sisters&lt;/a&gt;, attempted to escape their bondage in Washington, DC, by fleeing north to freedom via the ship the&lt;em&gt; Pearl&lt;/em&gt;. Unfortunately, unfavorable winds slowed their escape, the ship was captured, and the escapees were brought back to Washington. This newspaper article&lt;em&gt; &lt;/em&gt;details the attempted escape, capture, and a minor riot which broke out on the land that would become the National Mall as the&lt;em&gt; Pearl&#039;&lt;/em&gt;s passengers were transported to jail.</dc:description>
+<dc:source>&lt;em&gt;The Examiner&lt;/em&gt; (Louisville, Kentucky).</dc:source>
+<dc:date>4/29/1848</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

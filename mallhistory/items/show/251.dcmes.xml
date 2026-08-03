@@ -1,0 +1,16 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/251">
+<dc:title>George Town and Federal City, or City of Washington</dc:title>
+<dc:description>By 1800, the new capital city had begun to develop near the Potomac in the view down the river from the port of Georgetown. Rolling hills, prolific vegetation, and the powerful Potomac river promised a beautiful Capitol city and vibrant commercial trade.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=T.+Cartwright+%28London%29+Cartographer+after+George+Beck%2C+%28Landscape+painter%29%0D%0A%0D%0A&quot;&gt;T. Cartwright (London) Cartographer after George Beck, (Landscape painter)
+
+&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division.&lt;a href=&quot;http://www.loc.gov/pictures/item/2002695146/&quot;&gt; View original.&lt;/a&gt;</dc:source>
+<dc:publisher>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=45&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Atkins+%26+Nightingale%2C+London+%26+Philadelphia&quot;&gt;Atkins &amp; Nightingale, London &amp; Philadelphia&lt;/a&gt;</dc:publisher>
+<dc:date>1801</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/406">
+<dc:title>Columbian Institute</dc:title>
+<dc:description>The &lt;a href=&quot;http://mallhistory.org/items/show/385&quot;&gt;Columbian Institute&lt;/a&gt; was a Washington organization dedicated to the promotion of the arts and sciences for the benefit of the nation. In 1820, two years after their official charter was approved by Congress, the Institute was granted five acres of land on the Mall to create a botanic garden, just west of the Capitol grounds. The plans to follow the garden with a museum and library, described in this article, were never realized. The botanic garden was abandoned by the late 1830s as the organization slowly dissolved.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Columbian+Institute&quot;&gt;Columbian Institute&lt;/a&gt;</dc:creator>
+<dc:source>The Medical Heritage Library via the Internet Archive. &lt;a href=&quot;https://archive.org/details/2548036R.nlm.nih.gov&quot;&gt;View original document&lt;/a&gt;.</dc:source>
+<dc:date>06/28/1816</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

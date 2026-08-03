@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/220">
+<dc:title>Moratorium to End the War in Vietnam</dc:title>
+<dc:description>The &lt;a href=&quot;http://mallhistory.org/items/show/235&quot;&gt;Moratorium to End the War in Vietnam&lt;/a&gt; began as nationwide anti-war protests which took place during October 1969. A month later, on November 15, roughly half a million people gathered in Washington for anti-war activities. Protesters spoke out in all parts of the city, including on the National Mall. Folk singer and activist Pete Seeger led a large group in singing protest songs near the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt;. The March Against Death took protesters past the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt;, where they spoke aloud the names of American soldiers who had been killed in Vietnam, often naming a relative.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division.</dc:source>
+<dc:date>11/15/1969</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

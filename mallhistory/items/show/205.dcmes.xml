@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/205">
+<dc:title>Andrew Jackson Downing creates a landscape plan for the Mall </dc:title>
+<dc:description>In 1850 President Millard Fillmore asked &lt;a href=&quot;http://mallhistory.org/items/show/84&quot;&gt;Andrew Jackson Downing&lt;/a&gt;, the nation&#039;s preeminent landscape gardener and advocate of a rural American style, to design the landscaping for the largely undeveloped National Mall and &lt;a href=&quot;http://mallhistory.org/items/show/178&quot;&gt;Smithsonian grounds&lt;/a&gt;. &lt;a href=&quot;http://mallhistory.org/items/show/356&quot;&gt;Downing’s plan&lt;/a&gt; departed from the classic design originally planned for the Mall. A champion of public parks, Downing created a plan which connected four different, but compatible, garden spaces extending from the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt; to the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt; and using flora and fauna indigenous to the US, created a &lt;a href=&quot;http://mallhistory.org/items/show/261&quot;&gt;public museum of living trees and shrubs&lt;/a&gt;. Congress failed to allocate funds, however, and Downing’s plan never materialized.</dc:description>
+<dc:source>Smithsonian Institution Archive. &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_9232&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1850</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

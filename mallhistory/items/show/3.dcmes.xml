@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/3">
+<dc:title>The National Sylvan Theater</dc:title>
+<dc:description>The National Sylvan Theater, located on the grounds of the Washington Monument, was the first federally funded theater in the United States. The modest stage hosts 10,000 spectators who come to the Mall to enjoy more than 100 events hosted here each year. These cultural gatherings include &lt;a href=&quot;http://mallhistory.org/items/show/181&quot;&gt;plays&lt;/a&gt;, &lt;a href=&quot;http://mallhistory.org/items/show/392&quot;&gt;classical music&lt;/a&gt;, and &lt;a href=&quot;http://mallhistory.org/items/show/536&quot;&gt;ceremonies&lt;/a&gt;. One of the most popular events occurs each August, when the &lt;a href=&quot;http://mallhistory.org/items/show/144&quot;&gt;Presidential Salute Battery of the 3rd US Infantry &lt;/a&gt;performs Tchaikovsky&#039;s &quot;1812 Overture.&quot;</dc:description>
+<dc:source>US Army. &lt;a href=&quot;http://www.army.mil/article/63727/1812&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>04/04/1917 (Dedicated)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

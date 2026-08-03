@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/191">
+<dc:title>Dewey Canyon III – Vietnam Veterans protest the War</dc:title>
+<dc:description>&lt;p&gt;For a week in April 1971, Vietnam veterans camped on the Mall near the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt; to protest the Vietnam War. The veterans set up camp in defiance of recent court rulings declaring it illegal to sleep on the Mall. The protest was organized by Vietnam Veterans Against the War and named after Operation Dewey Canyon I and II, military invasions of Laos in 1969 and 1971. Veterans attended hearings by the Senate Foreign Relations Committee and protested at Arlington National Cemetery, the Supreme Court, and the Pentagon. On the last day of the protest, Veterans threw their medals, discharge papers, and other war mementos onto the steps of the Capitol.&lt;/p&gt;</dc:description>
+<dc:source>Dewey Canyon III, Vietnam Veterans Against the War. &lt;a href=&quot;http://www.vvaw.org/gallery/DCIII.php?which=3&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>04/19/1971-04/23/1971</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

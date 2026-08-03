@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/246">
+<dc:title>Spearheads and Chips</dc:title>
+<dc:description>During the 1890s, archaeologists, geologists, and paleontologist affiliated with the Smithsonian began extensive excavations in stone quarries dotting the land in the District of Columbia. &quot;The spot now the political center of the nation was, in prehistoric times, a chief resort of the native peoples of the region,&quot; reads the report of the Bureau of American Ethnology. Their findings spanned historic eras and included remnants of implements and projectile points created by the &lt;a href=&quot;http://mallhistory.org/items/show/123&quot;&gt;Nacochtanks&lt;/a&gt;, early Native Americans who established a trading center near the National Mall on the &lt;a href=&quot;http://mallhistory.org/items/show/424&quot;&gt;Anacostia River&lt;/a&gt;. These early instruments are carved from quartz, quartzite, and rhyolite.</dc:description>
+<dc:source>&lt;em&gt;Fifteenth Annual Report of the Bureau of Ethnology to the Secretary of the Smithsonian 1893-1894&lt;/em&gt; (1897). &lt;a href=&quot;http://books.google.com/books/about/FIFTEENTH_ANNUAL_REPORT_OF_THE_BUREAU_OF.html?id=GXaKu1YwhvwC&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1897</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

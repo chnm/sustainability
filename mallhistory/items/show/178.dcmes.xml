@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/178">
+<dc:title>Plan of Smithsonian Grounds</dc:title>
+<dc:description>This plan of the Smithsonian grounds between 7th and 12th Streets identifies where the new US National Museum Building, now the &lt;a href=&quot;http://mallhistory.org/items/show/55&quot;&gt;National Museum of Natural History&lt;/a&gt;, was to be built. It also shows the Smithsonian Institution Building (and behind it the &lt;a href=&quot;http://mallhistory.org/items/show/465&quot;&gt;Astrophysical Observatory&lt;/a&gt;, the&lt;a href=&quot;http://mallhistory.org/items/show/482&quot;&gt; Annex&lt;/a&gt;, the Laboratory of Natural History shed), the &lt;a href=&quot;http://mallhistory.org/items/show/19&quot;&gt;Henry statue&lt;/a&gt;, the &lt;a href=&quot;http://mallhistory.org/items/show/56&quot;&gt;Arts and Industries Building&lt;/a&gt; (then known as the National Museum), the &lt;a href=&quot;http://mallhistory.org/items/show/37&quot;&gt;Army Medical Museum building&lt;/a&gt;, and the markets on &lt;a href=&quot;http://mallhistory.org/items/show/311&quot;&gt;B Street&lt;/a&gt; (now known as Constitution Avenue). The landscaping shows winding paths, as conceived by designer &lt;a href=&quot;http://mallhistory.org/items/show/356&quot;&gt;Andrew Jackson Downing in his 1851 plan&lt;/a&gt;.</dc:description>
+<dc:source>Smithsonian Institution Archive. &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_9232?back=%2Fsearch%2Fsia_search_collections%2Fmarket%3Fpage%3D1&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1851</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

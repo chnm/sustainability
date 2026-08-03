@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/233">
+<dc:title>Department of Living Animals, Smithsonian Institution</dc:title>
+<dc:description>A bear, an eagle, badgers, and &lt;a href=&quot;http://mallhistory.org/items/show/260&quot;&gt;buffaloes&lt;/a&gt; comprised the original exhibition of the Department of Living Animals on the south side of the &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;Smithsonian Institution Building&lt;/a&gt;. Opened to the public in 1887, the Department&#039;s live exhibits gave &lt;a href=&quot;http://mallhistory.org/items/show/482&quot;&gt;Smithsonian taxidermists&lt;/a&gt; an opportunity to observe the habits and positions of various animals and to use this knowledge in mounting collections and exhibitions. Under the direction of &lt;a href=&quot;http://mallhistory.org/items/show/234&quot;&gt;William Hornaday&lt;/a&gt;, the Department of Living Animals was the forerunner of the National Zoological Park, established by an Act of Congress in 1889 for &quot;the advancement of science, the instruction and recreation of the people.&quot;</dc:description>
+<dc:source>Smithsonian Institution Archives. &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_9561&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1887</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/436">
+<dc:title>Admiral Nimitz Parade</dc:title>
+<dc:description>In October 1945, World War II Fleet Admiral Chester W. Nimitz was honored with a parade in Washington, DC, before being presented with a Gold Star by President Truman for his service as the Commander in Chief of the US Pacific Fleet and Pacific Ocean areas from 1944 to 1945. Nimitz had represented the United States at the formal surrender of Japan in September 1945. Thousands of sailors, Marines, and women from &lt;a href=&quot;http://mallhistory.org/items/show/229&quot;&gt;WAVES&lt;/a&gt; units marched in his honor. A large replica of the USS Missouri, site of the Japanese surrender, served as the parade&#039;s grandstand at the base of the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt;.</dc:description>
+<dc:source>Harry S. Truman Library. &lt;a href=&quot;http://research.archives.gov/description/199211&quot;&gt;View Original&lt;/a&gt;.</dc:source>
+<dc:date>10/05/1945</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

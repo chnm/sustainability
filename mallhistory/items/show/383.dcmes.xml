@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/383">
+<dc:title>Proposed National Botanic Garden</dc:title>
+<dc:description>In the late 1920s, Congress and Washington city planners debated moving the &lt;a href=&quot;http://mallhistory.org/items/show/29&quot;&gt;Botanic Garden&lt;/a&gt; from the Mall to a larger location elsewhere in the District. This map shows a proposed plan for the Botanic Garden on a much larger site than is possible on the National Mall. While the Garden ultimately remained on the Mall, the area on this map is now the home of the National Arboretum.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=National+Fine+Arts+Commission&quot;&gt;National Fine Arts Commission&lt;/a&gt;</dc:creator>
+<dc:source>District of Columbia Public Library. &lt;a href=&quot;http://www.flickr.com/photos/dcplcommons/3359941355&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1929</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

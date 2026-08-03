@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/542">
+<dc:title>Dedication of the Lincoln Memorial</dc:title>
+<dc:description>Over 35,000 people attended the dedication ceremony for the &lt;a href=&quot;http://mallhistory.org/items/show/33&quot;&gt;Lincoln Memorial&lt;/a&gt; in 1922, ten years after &lt;a href=&quot;http://mallhistory.org/items/show/493&quot;&gt;construction&lt;/a&gt; began. At the ceremony, President Warren G. Harding, former president and Chief Justice of the Supreme Court Howard Taft, and Robert Moton, Principal of Tuskegee Institute spoke about Lincoln’s legacy and how the memorial might help heal sectional tensions in the US. Harding’s address was broadcast on the radio using an experimental radiophone developed by the US Navy. Attendees included Union and Confederate Civil War veterans and President Lincoln&#039;s son, Robert Todd Lincoln. Though the event emphasized reconciliation and unity, audience members watched from segregated seating.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Department+of+Defense.&quot;&gt;Department of Defense.&lt;/a&gt;</dc:creator>
+<dc:source>National Archives at College Park. &lt;a href=&quot;https://www.youtube.com/watch?v=DVUbzOk8mCc&quot;&gt;View original.&lt;/a&gt;</dc:source>
+<dc:date>5/30/1922</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

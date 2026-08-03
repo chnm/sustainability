@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/35">
+<dc:title>&quot;I Have a Dream&quot; Inscription</dc:title>
+<dc:description>Eighteen steps from the top landing of the &lt;a href=&quot;http://mallhistory.org/items/show/33&quot;&gt;Lincoln Memorial&lt;/a&gt;, an inscription marks the spot where &lt;a href=&quot;http://mallhistory.org/items/show/90&quot;&gt;Dr. Martin Luther King Jr&lt;/a&gt;. stood to give his &quot;I Have a Dream&quot; speech in 1963. The marker was placed in 2003 to mark the 40th anniversary of that speech. Coretta Scott King, Dr. King&#039;s widow, attended and spoke at the dedication.</dc:description>
+<dc:source>Internal archive, National Park Service.</dc:source>
+<dc:date>08/22/2003 (Dedicated)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

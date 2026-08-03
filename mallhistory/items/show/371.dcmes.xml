@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/371">
+<dc:title>Washington Monument Softball Field Map</dc:title>
+<dc:description>Washington, DC, is home to a number of softball leagues, most of which make use of the fields on the Mall. All of the fields are managed by the National Park Service and some are first come, first served. The six fields on the&lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt; Washington Monument&lt;/a&gt; grounds, shown on this map, are assigned to individual softball teams by a yearly lottery.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=National+Park+Service&quot;&gt;National Park Service&lt;/a&gt;</dc:creator>
+<dc:source>National Park Service. &lt;a href=&quot;http://www.nps.gov/mall/planyourvisit/permits.htm&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>2013</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

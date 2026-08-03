@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/456">
+<dc:title>Henry family at east door of Castle</dc:title>
+<dc:description>&lt;a href=&quot;http://mallhistory.org/items/show/349&quot;&gt;Joseph Henry&lt;/a&gt;, the first secretary of the Smithsonian, and his family lived in the &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;Smithsonian Institution Building&lt;/a&gt;, also called the Castle, from &lt;span&gt;1855 to 1878. This photograph, taken in 1862, shows Mr. Henry along with the whole family: Harriet Alexander Henry, his wife, and daughters Caroline, Mary, and Helen. The fourth woman may be a relative or family friend. &lt;/span&gt;</dc:description>
+<dc:source>Smithsonian Institution Archives. &lt;a href=&quot;http://siris-sihistory.si.edu/ipac20/ipac.jsp?&amp;amp;profile=all&amp;amp;source=~!sichronology&amp;amp;uri=full=3100001~!5596~!0#focus&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1862</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

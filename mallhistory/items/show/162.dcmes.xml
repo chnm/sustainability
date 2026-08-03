@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/162">
+<dc:title>Act of Congress establishes the Smithsonian Institution</dc:title>
+<dc:description>&lt;a href=&quot;http://mallhistory.org/items/show/68&quot;&gt;James Smithson,&lt;/a&gt; an English scientist, specified&lt;a href=&quot;http://mallhistory.org/items/show/510&quot;&gt; in his will&lt;/a&gt; that if his nephew, Henry J. Hungerford, died without heirs, his estate should be given to the United States to found an institution &quot;for the increase and diffusion of knowledge.&quot; Smithson died in 1829 and his nephew died in 1835, without heirs, leaving $508,318 to the people of the United States. In August 1846, President James K. Polk signed an act creating the &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;Smithsonian Institution&lt;/a&gt;, to be established in Washington, DC, either in a &lt;a href=&quot;http://mallhistory.org/items/show/194&quot;&gt;building of its own &lt;/a&gt;or in a wing of the Patent Building.</dc:description>
+<dc:source>Smithsonian Libraries. &lt;a href=&quot;http://www.sil.si.edu/Exhibitions/Smithson-to-Smithsonian/compromise_06.html&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>08/10/1846</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

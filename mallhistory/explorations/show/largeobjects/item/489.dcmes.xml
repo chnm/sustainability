@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/489">
+<dc:title>Spitfire Airplane Arrives at the Air and Space Museum</dc:title>
+<dc:description>Before the &lt;a href=&quot;http://mallhistory.org/items/show/269&quot;&gt;National Air and Space Museum&lt;/a&gt; opened in July 1975, objects like this WWII-era &quot;Spitfire&quot; airplane arrived. To get the plane inside the museum, its wings were temporarily removed and it was led through the museum&#039;s west end windows. These windows were designed to open in such a way that &lt;a href=&quot;http://mallhistory.org/items/show/484&quot;&gt;large objects, such as aircraft and missiles&lt;/a&gt;, could easily move in and out of the museum.</dc:description>
+<dc:source>Smithsonian Institution Archives. &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_10377?back=%2Fsearch%2Fsia_search_collections%2Fair%2520and%2520space%2520windows&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>07/11/1975</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

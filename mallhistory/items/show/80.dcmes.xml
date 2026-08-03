@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/80">
+<dc:title>Benjamin Henry Latrobe</dc:title>
+<dc:subject> </dc:subject>
+<dc:description>Benjamin H. Latrobe was an architect hired by &lt;a href=&quot;http://mallhistory.org/items/show/301&quot;&gt;President Thomas Jefferson&lt;/a&gt; to serve as the Surveyor of Public Buildings in 1803. He spent nearly 14 years in Washington supervising the &lt;a href=&quot;http://mallhistory.org/items/show/266&quot;&gt;construction&lt;/a&gt; and &lt;a href=&quot;http://mallhistory.org/items/show/454&quot;&gt;design&lt;/a&gt; of public buildings. His largest project was constructing the Capitol&#039;s south wing. After the War of 1812, Latrobe oversaw the rebuilding and redesign of the Capitol, which the &lt;a href=&quot;http://mallhistory.org/items/show/157&quot;&gt;British army destroyed in 1814&lt;/a&gt;. Hence, Latrobe is known as the second Architect of the Capitol.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Benjamin+Henry+Latrobe&quot;&gt;Benjamin Henry Latrobe&lt;/a&gt;</dc:creator>
+<dc:source>White House Art Collection. &lt;a href=&quot;http://www.whitehouseresearch.org/assetbank-whha/action/viewAsset?id=74&amp;amp;index=0&amp;amp;total=300&amp;amp;view=viewSearchItem&quot;&gt;View original image&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

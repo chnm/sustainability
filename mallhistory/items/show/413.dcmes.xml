@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/413">
+<dc:title>United States Holocaust Memorial Museum</dc:title>
+<dc:description>The United States Holocaust Memorial Museum serves as a memorial to the thousands of people murdered during the Holocaust, and to teach about the need to prevent genocide worldwide. Suggested by the President’s Commission on the Holocaust in 1979, the act to create the museum was unanimously approved by Congress in 1980. Some citizens objected by questioning why a museum remembering the European Holocaust had a place on the National Mall. During construction, workers buried two cans containing pledges of remembrance by Holocaust survivors in the ground under the Hall of Remembrance. In addition to the permanent exhibition tracing the history of the Holocaust, the museum has special exhibits focusing on specific experiences and modern genocides.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=James+Ingo+Freed&quot;&gt;James Ingo Freed&lt;/a&gt;</dc:creator>
+<dc:source>US Holocaust Memorial Museum Archive. &lt;a href=&quot;http://www.ushmm.org/wlc/en/media_ph.php?MediaId=3822&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1993 (opened)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1980-1999&quot;&gt;1980-1999&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

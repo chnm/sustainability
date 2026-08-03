@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/77">
+<dc:title>Benjamin Banneker</dc:title>
+<dc:description>Banneker was a free African American surveyor, mathematician, and almanac author from Maryland. In 1791, he assisted &lt;a href=&quot;http://mallhistory.org/items/show/105&quot;&gt;Andrew Ellicott &lt;/a&gt;with a survey of the boundaries of the District of Columbia. Among his duties on the survey, &lt;a href=&quot;http://mallhistory.org/items/show/514&quot;&gt;Banneker&lt;/a&gt; operated the astronomical equipment which helped the surveyors determine their exact location.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Benjamin+Banneker&quot;&gt;Benjamin Banneker&lt;/a&gt;</dc:creator>
+<dc:source>Maryland Historical Society. &lt;a href=&quot;http://www.mdhs.org/digitalimage/cover-benjamin-bannakers-sic-pennsylvania-delaware-maryland-and-virginia-almanac-year-1&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

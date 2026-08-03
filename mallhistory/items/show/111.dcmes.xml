@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/111">
+<dc:title>James A. Garfield</dc:title>
+<dc:description>&lt;p class=&quot;p1&quot;&gt;President James Garfield was &lt;a href=&quot;http://mallhistory.org/items/show/347&quot;&gt;shot twice in the back&lt;/a&gt; by an assassin, &lt;a href=&quot;http://mallhistory.org/items/show/410&quot;&gt;Charles Guiteau&lt;/a&gt;, only five months after taking the oath of office. The attack took place at the &lt;a href=&quot;http://mallhistory.org/items/show/42&quot;&gt;Baltimore and Potomac Railroad Station&lt;/a&gt; on Sixth Street. Garfield survived the attack but was extremely ill for two months. He finally died in September, 1881.&lt;/p&gt;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=James+A.+Garfield&quot;&gt;James A. Garfield&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/collection/brhc/item/brh2003000342/PP/&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

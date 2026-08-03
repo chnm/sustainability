@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/247">
+<dc:title>Sketch of Washington in Embryo
+</dc:title>
+<dc:description>Three-quarters of a century of a century after the founding of the city of Washington, Dr. Joseph Toner, an amateur historian of the District of Columbia, decided to find out who had &lt;a href=&quot;http://mallhistory.org/items/show/94&quot;&gt;owned the land of the nation&#039;s capital before the city was established&lt;/a&gt;. He created a map which showed the boundary lines of property holdings, labeled with the name of the landholder. This portion of Toner&#039;s map shows the boundaries on the land that became the National Mall, with plots owned by &lt;a href=&quot;http://mallhistory.org/items/show/285&quot;&gt;David Burns&lt;/a&gt;, &lt;a href=&quot;http://mallhistory.org/items/show/464&quot;&gt;Daniel Carroll&lt;/a&gt;, &lt;a href=&quot;http://mallhistory.org/items/show/252&quot;&gt;Notley Young&lt;/a&gt;, and Ben Oden. The map was drawn in 1874 but depicts the area circa 1792.</dc:description>
+<dc:source>Library of Congress Geography and Map Division. &lt;a href=&quot;http://hdl.loc.gov/loc.gmd/g3851g.ct003599&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1874 (drawn)</dc:date>
+<dc:date>1792 (depicts)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

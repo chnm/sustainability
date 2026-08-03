@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/117">
+<dc:title>Horatio Greenough</dc:title>
+<dc:description>&lt;p class=&quot;p1&quot;&gt;Horatio Greenough is best known in Washington, DC, for his controversial sculptures titled &quot;&lt;a href=&quot;http://mallhistory.org/items/show/17&quot;&gt;George Washington&lt;/a&gt;&quot; and &quot;&lt;a href=&quot;http://mallhistory.org/items/show/18&quot;&gt;The Rescue&lt;/a&gt;,&quot; which stood for a time inside the US Capitol building. Both were commissioned from Greenough by Congress, making him one of the first American sculptors to receive a major commission from the federal government. He created both sculptures at his studio in Florence, Italy. &lt;/p&gt;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Horatio+Greenough&quot;&gt;Horatio Greenough&lt;/a&gt;</dc:creator>
+<dc:source>The Athenaeum, from the collection of the National Portrait Gallery. &lt;a href=&quot;http://www.the-athenaeum.org/art/full.php?ID=20338&quot;&gt;View original image&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

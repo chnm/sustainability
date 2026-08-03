@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/444">
+<dc:title>Original Department of Agriculture Building</dc:title>
+<dc:description>The original building which housed the &lt;a href=&quot;http://mallhistory.org/items/show/289&quot;&gt;Department of Agriculture&lt;/a&gt; was designed in 1867 by &lt;a href=&quot;http://mallhistory.org/items/show/70&quot;&gt;Adolf Cluss&lt;/a&gt;, the same architect who designed the Smithsonian Arts and Industry Building. For decades, this building housed offices, research laboratories, and even a small museum. &lt;a href=&quot;http://mallhistory.org/items/show/466&quot;&gt;The building was razed in 1930 to fulfill the McMillan Commission&#039;s plan for the National Mall&lt;/a&gt;.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Adolf+Cluss&quot;&gt;Adolf Cluss&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=J.+W.+von+Kammerhueber&quot;&gt;J. W. von Kammerhueber&lt;/a&gt;</dc:creator>
+<dc:source>National Archives at College Park. &lt;a href=&quot;http://research.archives.gov/description/512817&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1868 (construction completed)</dc:date>
+<dc:date>1930 (demolished)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

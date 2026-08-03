@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/339">
+<dc:title>Daguerre Memorial</dc:title>
+<dc:description>This memorial commemorates photography pioneer, Louis Daguerre, inventor of the daguerreotype. The Photographer&#039;s Association of America presented the memorial to the people of the United States in a ceremony at the &lt;a href=&quot;http://mallhistory.org/items/show/56&quot;&gt;Smithsonian Arts and Industries Building&lt;/a&gt; on April 15, 1890, where it was installed in an alcove. In 1897, it was moved outside to the Smithsonian Grounds so visitors could see the whole piece. The statue was removed from the Mall in 1969 to make way for the &lt;a href=&quot;http://mallhistory.org/items/show/50&quot;&gt;Hirshhorn Museum&lt;/a&gt;. Today, it stands on the grounds of the National Portrait Gallery.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=J.+Scott+Hartley&quot;&gt;J. Scott Hartley&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division.&lt;a href=&quot;http://www.loc.gov/pictures/item/npc2007000100/&quot;&gt; View original&lt;/a&gt;.</dc:source>
+<dc:date>1890 (dedicated)</dc:date>
+<dc:date>1897 (moved outdoors)</dc:date>
+<dc:date>1969 (removed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

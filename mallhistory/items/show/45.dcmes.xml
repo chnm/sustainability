@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/45">
+<dc:title>Williams&#039; Private Jail (Slave Pen)</dc:title>
+<dc:description>A private home owned by William H. Williams, the Yellow House was &lt;a href=&quot;http://mallhistory.org/items/show/46&quot;&gt;one of two&lt;/a&gt; notorious &lt;a href=&quot;http://mallhistory.org/items/show/267&quot;&gt;slave holding pens in Washington, DC&lt;/a&gt;. The two-story home housed slaves temporarily in the basement; traders removed them to the yard on auction day for the convenience of buyers. A 12 foot high wall (originally wood, then brick) encircled the structure, guarded by ferocious dogs. Pens like this one operated until 1850, when the &lt;a href=&quot;http://mallhistory.org/items/show/475&quot;&gt;slave trade&lt;/a&gt; was &lt;a href=&quot;http://mallhistory.org/items/show/230&quot;&gt;abolished in Washington, DC&lt;/a&gt;. Williams sometimes held other prisoners here, as well, on a contract basis.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division.&lt;a href=&quot;http://www.loc.gov/pictures/item/2008661294/&quot;&gt; View original&lt;/a&gt;.</dc:source>
+<dc:date>1850 (Prohibited)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

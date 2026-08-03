@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/528">
+<dc:title>Smithsonian Garden Shed</dc:title>
+<dc:description>This shed stood south-east of the first &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;Smithsonian building&lt;/a&gt;, now called the Castle. Smithsonian staff stored gardening and grounds keeping equipment used on &lt;a href=&quot;http://mallhistory.org/items/show/529&quot;&gt;the institution&#039;s grounds&lt;/a&gt;. This shed was removed in the 1870s when construction of the &lt;a href=&quot;http://mallhistory.org/items/show/56&quot;&gt;Arts and Industries Building&lt;/a&gt; began. Smithsonian staff require much larger facilities today, as they continue to landscape and maintain the grounds near all of the Institution&#039;s buildings on the Mall.</dc:description>
+<dc:source>Smithsonian Institution Archives. &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_10284&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1860</dc:date>
+<dc:type>Ghost Sites</dc:type>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

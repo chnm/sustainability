@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/123">
+<dc:title>Nacotchtanks</dc:title>
+<dc:description>The Nacotchtanks are a Native American Algonquian tribe who once lived on land which is now near the National Mall. &lt;a href=&quot;http://mallhistory.org/items/show/236&quot;&gt;Captain John Smith noted that the village had 80 fighting men in 1608&lt;/a&gt;. The Nacotchtanks likely spoke the Piscataway variation of the Nanticoke language. Prominent fur traders, the Nacotchtank village was a &lt;a href=&quot;http://mallhistory.org/items/show/246&quot;&gt;trading center&lt;/a&gt; for other Indian tribes on the East Coast and for European fur hunters. Disease from European settlers took a heavy toll on the tribe. Eventually, they moved to Anacostine Island, today called Theodore Roosevelt Island, in the late 1680s. Over time the tribe merged with other local native groups.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Nacotchtanks&quot;&gt;Nacotchtanks&lt;/a&gt;</dc:creator>
+<dc:source>John Smith&#039;s Map of Virginia, 1624. &lt;span&gt;Library of Congress Geography and Map Division&lt;/span&gt;. &lt;a href=&quot;http://www.loc.gov/item/99446115&quot;&gt;View original image&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/58">
+<dc:title>World War II Temporary Buildings</dc:title>
+<dc:description>These buildings were erected by the federal government during World War II to create offices for the many workers who came for new, war-related jobs. The buildings were never meant to be permanent, and were referred to by locals as &quot;tempos.&quot; Temporary housing was constructed in front of the &lt;a href=&quot;http://mallhistory.org/items/show/427&quot;&gt;National Gallery of Art&lt;/a&gt; and on the grounds of the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt;. There was a group of office buildings where the&lt;a href=&quot;http://mallhistory.org/items/show/48&quot;&gt; National Museum of American History&lt;/a&gt; is today, as well as by the&lt;a href=&quot;http://mallhistory.org/items/show/23&quot;&gt; Reflecting Pool&lt;/a&gt;. &lt;a href=&quot;http://mallhistory.org/items/show/271&quot;&gt;Some of these buildings remained until the 1970s&lt;/a&gt;.</dc:description>
+<dc:source>U.S. Naval Historical Center. &lt;a href=&quot;http://www.history.navy.mil/photos/pl-usa/pl-dc/nav-fac/mn-mun-c.htm&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1941 (built)</dc:date>
+<dc:date>1971 (last removed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

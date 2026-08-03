@@ -1,0 +1,11 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/530">
+<dc:title>Mall Weddings</dc:title>
+<dc:description>Since 1976, the National Park Service has allowed weddings and other special events to be held in 3 areas: the &lt;a href=&quot;http://mallhistory.org/items/show/34&quot;&gt;DC War Memorial&lt;/a&gt;, the &lt;a href=&quot;http://mallhistory.org/items/show/16&quot;&gt;George Mason Memorial&lt;/a&gt;, and the west lawn of the &lt;a href=&quot;http://mallhistory.org/items/show/31&quot;&gt;Jefferson Memorial&lt;/a&gt;. Anyone reserving one of these spaces must pay an administrative fee and abide by National Park Service rules meant to protect the property. During the government shutdown in October 2013, the Mall, like all national parks, was closed for public events forcing at least one couple to relocate their wedding. In 2014, 148 permits were given to couples who wed near the majestic monuments.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/dc1019.photos.207141p/&quot;&gt;View Original.&lt;/a&gt;</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

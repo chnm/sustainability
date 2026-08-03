@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/188">
+<dc:title>Wi-Fi Comes to the National Mall</dc:title>
+<dc:description>&lt;p&gt;In 2010 the DC government announced that public wireless internet was available on the National Mall. Visitors and residents can get online by logging into “DC Wifi” using wifi-enabled devices. The &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;Smithsonian Castle&lt;/a&gt; Information Center, &lt;a href=&quot;http://mallhistory.org/items/show/427&quot;&gt;National Gallery of Art&lt;/a&gt;, &lt;a href=&quot;http://mallhistory.org/items/show/55&quot;&gt;Museum of National History&lt;/a&gt;, &lt;a href=&quot;http://mallhistory.org/items/show/48&quot;&gt;Museum of American History&lt;/a&gt;, &lt;a href=&quot;http://mallhistory.org/items/show/43&quot;&gt;US Department of Agriculture&lt;/a&gt;, &lt;a href=&quot;http://mallhistory.org/items/show/269&quot;&gt;National Air and Space Museum&lt;/a&gt;, and the &lt;a href=&quot;http://mallhistory.org/items/show/49&quot;&gt;Museum of the American Indian&lt;/a&gt; serve as hotspots for the network. Outdoor wifi is accessible from the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt; (14&lt;sup&gt;th&lt;/sup&gt; Street) and the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt; (3&lt;sup&gt;rd&lt;/sup&gt; Street) and between &lt;a href=&quot;http://mallhistory.org/items/show/311&quot;&gt;Constitution&lt;/a&gt; and &lt;a href=&quot;http://mallhistory.org/items/show/312&quot;&gt;Independence Avenue&lt;/a&gt;s. &lt;/p&gt;
+ A map of hotspots in the District can be found &lt;a href=&quot;http://dcatlas.dcgis.dc.gov/agencyapps/wifi.aspx&quot;&gt;here&lt;/a&gt;.</dc:description>
+<dc:source>ABC 7 News Blog, &lt;a href=&quot;http://www.tbd.com/blogs/tbd-neighborhoods/2010/09/national-mall-wireless-internet-officially-up-and-running-1437.html&quot;&gt;View Original&lt;/a&gt;.</dc:source>
+<dc:date>09/08/2010</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

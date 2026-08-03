@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/86">
+<dc:title>Jacob S. Coxey</dc:title>
+<dc:description>Jacob Coxey led the &lt;a href=&quot;http://mallhistory.org/items/show/161&quot;&gt;first march on Washington&lt;/a&gt; in the spring of 1894. Starting in Massillon, Ohio, Coxey marched to the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt; to bring attention to the plight of unemployed Americans. Coxey proposed that the federal government subsidize a labor program for the unemployed. At the time, a law prohibited gatherings on the Capitol Grounds, but Coxey believed in his cause and tried to give a speech. He was arrested and then jailed for 20 days. Coxey returned in 1914 and successfully spoke on the Capitol steps pleading for a jobs program for the unemployed.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Jacob+S.+Coxey&quot;&gt;Jacob S. Coxey&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/ggb2005015542/&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

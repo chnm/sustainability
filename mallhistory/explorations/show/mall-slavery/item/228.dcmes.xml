@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/228">
+<dc:title>An Act for the release of certain persons held to service or labor in the District of Columbia</dc:title>
+<dc:description>The District of Columbia Emancipation Act was signed into law by President Abraham Lincoln on April 16, 1862. Introduced during the thirty-seventh Congress in 1861, the Act granted the immediate emancipation of slaves in the District of Columbia, compensation to loyal Unionist slaveholders of up to $300 for each slave, and voluntary emigration of former slaves to colonies outside of the United States. The April 16 act stipulated that emancipation and compensation applied only to slaves working and slaveholders residing in the District of Columbia as of that date.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Thirty-seventh+Congress+of+the+United+States+of+America.&quot;&gt;Thirty-seventh Congress of the United States of America.&lt;/a&gt;</dc:creator>
+<dc:source>National Archives at Washington, DC. &lt;a href=&quot;http://research.archives.gov/description/299814&quot;&gt;View original.&lt;/a&gt;</dc:source>
+<dc:date>4/16/1862</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

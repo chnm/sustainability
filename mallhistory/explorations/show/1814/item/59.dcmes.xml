@@ -1,0 +1,20 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/59">
+<dc:title>United States Capitol</dc:title>
+<dc:description>In 1793, President George Washington laid the cornerstone for the Capitol, a building which saw more than 200 years of construction, redesigning, expansion, and renovation. By 1800, the building offered enough space for Congress, the Supreme Court, the Library of Congress, and the courts of the District of Columbia to operate inside. &lt;a href=&quot;http://mallhistory.org/items/show/157&quot;&gt;After British troops burned the Capitol in 1814&lt;/a&gt;, &lt;a href=&quot;http://mallhistory.org/items/show/306&quot;&gt;Congress moved out for five years&lt;/a&gt;. New architects added sections, rooms, terraces, the rotunda, a dome, and exterior landscaping. The Capitol borrows features from both ancient Roman and Greek structures. The Capitol Visitors&#039; Center is the newest addition, built entirely underground, and is nearly 3/4 the size of the entire Capitol building.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=William+Thornton&quot;&gt;William Thornton&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Benjamin+Henry+Latrobe+%28Architect%29&quot;&gt;Benjamin Henry Latrobe (Architect)&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Charles+Bulfinch+%28Architect%29&quot;&gt;Charles Bulfinch (Architect)&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Thomas+U.+Walter+%28Architect+of+addition%29&quot;&gt;Thomas U. Walter (Architect of addition)&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=August+Schoenborn+%28Architect+of+addition%29&quot;&gt;August Schoenborn (Architect of addition)&lt;/a&gt;</dc:creator>
+<dc:date>1793 (Construction began)</dc:date>
+<dc:date>1814 (Damaged by fire)</dc:date>
+<dc:date>1850 (Enlarged)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

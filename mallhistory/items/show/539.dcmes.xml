@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/539">
+<dc:title>Autogiro Flies over DC</dc:title>
+<dc:description>In December 1928, Harold F. Pitcairn piloted an autogiro from Philadelphia to Washington, DC to introduce this new aircraft to Americans. It was reportedly the first extended autogiro flight in the US. Pitcairn was an airplane manufacturer. Paramount Pictures captured the flight over the Mall in this newsreel. It was part of Pitcairn&#039;s marketing efforts to sell autogiros as personal aircraft to the public and policymakers. </dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Paramount+News&quot;&gt;Paramount News&lt;/a&gt;</dc:creator>
+<dc:source>Department of the Air Force via National Archives. &lt;a href=&quot;http://research.archives.gov/description/65082&quot;&gt;View original.&lt;/a&gt;</dc:source>
+<dc:date>12/19/1928</dc:date>
+<dc:format>Moving Images</dc:format>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

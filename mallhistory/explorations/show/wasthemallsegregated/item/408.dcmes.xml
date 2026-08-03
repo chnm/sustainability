@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/408">
+<dc:title>Harold L. Ickes</dc:title>
+<dc:description>Harold L. Ickes was the longest serving Secretary of the Interior to date, holding the post for 13 years from 1933 until 1946. He supported civil rights for African Americans, desegregating the Department of the Interior, including the National Parks, during his time in office. He helped facilitate &lt;a href=&quot;http://mallhistory.org/items/show/76&quot;&gt;Marian Anderson’s&lt;/a&gt; 1939 &lt;a href=&quot;http://mallhistory.org/items/show/101&quot;&gt;concert at the Lincoln Memorial&lt;/a&gt; on Easter Sunday, arranged after the Daughters of the American Revolution refused to allow the African American opera singer to perform in their segregated concert hall.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Harold+L.+Ickes&quot;&gt;Harold L. Ickes&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2007684151/resource/&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

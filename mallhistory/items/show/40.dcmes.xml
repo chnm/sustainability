@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/40">
+<dc:title>Tiber Creek</dc:title>
+<dc:description>Tiber Creek had been known as Goose Creek before 1790 when the city of Washington, DC was laid out and designated the nation&#039;s capital. The creek extended from the base of Capitol Hill to its mouth &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;near the present day Washington Monument&lt;/a&gt;. In 1815, it was incorporated into the &lt;a href=&quot;http://mallhistory.org/items/show/41&quot;&gt;Washington City Canal&lt;/a&gt;. Essentially an &lt;a href=&quot;http://mallhistory.org/items/show/298&quot;&gt;open sewer&lt;/a&gt;, the creek was &lt;a href=&quot;http://mallhistory.org/items/show/201&quot;&gt;enclosed in a tunnel&lt;/a&gt; and diverted underground in 1871.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2004662005/&quot;&gt;View Original&lt;/a&gt;.</dc:source>
+<dc:date>1815 (Incorporated into a canal)</dc:date>
+<dc:date>1871 (Diverted)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

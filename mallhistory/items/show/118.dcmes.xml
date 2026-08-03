@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/118">
+<dc:title>Margaret Bayard Smith</dc:title>
+<dc:description>Margaret Bayard Smith was a writer and a vital figure in the early social life of Washington, DC. Her letters and diaries provide some of the best descriptions of early Washington. &lt;a href=&quot;http://mallhistory.org/items/show/363&quot;&gt;In 1837 she recorded what the Mall looked like when she and her husband moved to Capitol Hill in 1800&lt;/a&gt;: &quot;Between the foot of the hill and the broad Potomac extended a wide plain, through which the Tiber wound its way. The romantic beauty of this little stream was not then deformed by wharves or other works of art.&quot;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Margaret+Bayard+Smith&quot;&gt;Margaret Bayard Smith&lt;/a&gt;</dc:creator>
+<dc:source>Hunt, Gailliard, ed.&lt;a&gt; &lt;em&gt;The First Forty Years of Washington Society.&lt;/em&gt;&lt;/a&gt; New York: Scribner, 1906. Quotation from page 10. &lt;a href=&quot;https://archive.org/details/firstfortyyearso00smituoft&quot;&gt;View original document&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

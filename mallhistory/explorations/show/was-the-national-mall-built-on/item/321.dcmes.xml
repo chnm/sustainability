@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/321">
+<dc:title>Potomac Flats</dc:title>
+<dc:description>The mud flats and marshland to the west of the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt; (on the left side of this image) were called the Potomac Flats for most of the 1800s. In 1870, the Army Corps of Engineers began &lt;a href=&quot;http://mallhistory.org/items/show/326&quot;&gt;dredging the Potomac&lt;/a&gt; to remove silt and to deepen the ship channel to improve access to Washington by water. Dredged material was dumped onto the tidal flats along the Washington waterfront. The work continued until August 30, 1911, when contractors had moved over 12 million cubic yards of material from the &lt;a href=&quot;http://mallhistory.org/items/show/424&quot;&gt;river&lt;/a&gt; to create East and West Potomac Parks and the &lt;a href=&quot;http://mallhistory.org/items/show/430&quot;&gt;Tidal Basin&lt;/a&gt;.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Army+Corps+of+Engineers&quot;&gt;Army Corps of Engineers&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/resource/cph.3c27632/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1882 (reclaimed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

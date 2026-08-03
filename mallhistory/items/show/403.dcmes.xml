@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/403">
+<dc:title>Navy Department, World War I</dc:title>
+<dc:description>For more than five decades, the &lt;a href=&quot;http://mallhistory.org/items/show/57&quot;&gt;Main Navy and Munitions Buildings &lt;/a&gt;dominated the scenery along &lt;a href=&quot;http://mallhistory.org/items/show/311&quot;&gt;Constitution Avenue&lt;/a&gt; for a third of a mile west of the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt;. Erected in 1918 as &quot;temporary&quot; office buildings to support the vastly expanded World War I military, more than 14,000 military and civilian personnel worked there. Clacking typewriters, ringing as workers returned the carriage to start new lines of text, and jangling telephones echoed in the community work space.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=US+Department+of+the+Navy&quot;&gt;US Department of the Navy&lt;/a&gt;</dc:creator>
+<dc:source>Naval Historical Center, Washington, DC . &lt;a href=&quot;https://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/NH-52000/NH-52901.html&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1918</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

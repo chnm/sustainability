@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/292">
+<dc:title>Agricultural Depot</dc:title>
+<dc:description>By 1870, after two years on the National Mall, &lt;a href=&quot;http://mallhistory.org/items/show/291&quot;&gt;the Department of Agriculture combined the functions of an office building, a research center, library, and museum&lt;/a&gt;. In this stereoscopic view of the mall, visitors chat in from of large iron and glass greenhouses which held live plant specimens from around the world. A gate on present-day &lt;a href=&quot;http://mallhistory.org/items/show/311&quot;&gt;Constitution Avenue&lt;/a&gt; led into the formal gardens of the Department filled with heart-shaped, terraced flower beds bordered by two summer houses. The design of these gardens to some extent tamed the untended space of the Mall, an expanse considered an eyesore in the nation&#039;s capital.</dc:description>
+<dc:source>New York Public Library Digital Collections. &lt;a href=&quot;http://digitalcollections.nypl.org/items/510d47e0-4733-a3d9-e040-e00a18064a99&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1870</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

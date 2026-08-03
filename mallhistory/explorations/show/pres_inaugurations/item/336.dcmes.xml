@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/336">
+<dc:title>Calvin Coolidge&#039;s Inaugural Address </dc:title>
+<dc:description>&lt;p class=&quot;p1&quot;&gt;President Calvin Coolidge&#039;s inauguration was the first to be broadcast live over the radio. The microphones are visible in this photograph as a row of circles at the level of the President&#039;s head. Approximately 23 million Americans listened to the inauguration radio program, which included a description of the Capitol grounds and a history of presidential inaugurations in addition to the ceremony.&lt;/p&gt;</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/npc2007013072/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>03/04/1925</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

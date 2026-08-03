@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/342">
+<dc:title>Lindbergh receives Distinguished Flying Cross</dc:title>
+<dc:description>On June 11, 1927, &lt;a href=&quot;http://mallhistory.org/items/show/336&quot;&gt;President Calvin Coolidge&lt;/a&gt; awarded American aviator Charles Lindbergh the Distinguished Flying Cross in a ceremony held on the north side of the Washington Monument Grounds. Lindbergh, who was 25 years old, had completed the first successful transatlantic solo flight from New York City to Paris, France. 200,000 people attended the ceremony on the Mall, and more watched the parade of Lindbergh and his plane from the Navy Yard to the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt;. His plane, the &lt;em&gt;Spirit of St. Louis&lt;/em&gt;, is now on display at the &lt;a href=&quot;http://mallhistory.org/items/show/269&quot;&gt;National Air and Space Museum&lt;/a&gt; on the Mall.</dc:description>
+<dc:source>District of Columbia Public Library. &lt;a href=&quot;http://www.flickr.com/photos/dcplcommons/4225800783&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>6/11/1927</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

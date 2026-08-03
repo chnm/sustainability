@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/90">
+<dc:title>Martin Luther King Jr.</dc:title>
+<dc:description>Dr. Martin Luther King Jr. was a minister and African American civil rights leader. On August 18, 1963, he delivered his famous &quot;I Have a Dream&quot; speech on the steps of the Lincoln Memorial during the &lt;a href=&quot;http://mallhistory.org/items/show/190&quot;&gt;March on Washington for Jobs and Freedom&lt;/a&gt;. A plaque on the steps of the Memorial marks this event. In 2012, the &lt;a href=&quot;http://mallhistory.org/items/show/156&quot;&gt;Martin Luther King, Jr. Memorial&lt;/a&gt; was dedicated on the National Mall to commemorate King&#039;s work and his vision for equality and national unity.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Martin+Luther+King+Jr.&quot;&gt;Martin Luther King Jr.&lt;/a&gt;</dc:creator>
+<dc:source>National Archives at College Park - Still Pictures. &lt;a href=&quot;http://research.archives.gov/description/542068&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

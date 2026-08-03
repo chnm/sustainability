@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/341">
+<dc:title>Washington Canal Groundbreaking</dc:title>
+<dc:description>On May 2, 1810, Washington officials and citizens flocked to the groundbreaking for the &lt;a href=&quot;http://mallhistory.org/items/show/41&quot;&gt;Washington Canal&lt;/a&gt;, which would connect the &lt;a href=&quot;http://mallhistory.org/items/show/424&quot;&gt;Potomac River to the Eastern Branch, also called the Anacostia River&lt;/a&gt;. Although the canal had been part of the original 1791 plan for the city, &lt;a href=&quot;http://mallhistory.org/items/show/253&quot;&gt;it had never been built&lt;/a&gt;. In 1809, Congress chartered a new company specifically to complete the Canal. The &lt;em&gt;National Intelligencer&lt;/em&gt;, one of the first newspapers in Washington, reported on the festivities for the groundbreaking of the canal, which people hoped would promote business in the city.</dc:description>
+<dc:source>&lt;em&gt;National Intelligencer&lt;/em&gt; (Washington, DC).</dc:source>
+<dc:date>5/4/1810</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/300">
+<dc:title>Charlotte Dupuy</dc:title>
+<dc:description>Charlotte Dupuy was an enslaved African American woman owned by Congressman and Secretary of State Henry Clay. Clay, with Dupuy and her family, lived in Lafayette Square, just north of the White House. In 1829, Dupuy sued Clay for her freedom and the freedom of her children. The circuit court decided against Dupuy, and she was forcibly removed to Clay&#039;s Kentucky estate.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Charlotte+Dupuy&quot;&gt;Charlotte Dupuy&lt;/a&gt;</dc:creator>
+<dc:source>National Archives, digitized by White House Historical Association. &lt;a href=&quot;http://www.whitehousehistory.org/presentations/the-half-had-not-been-told-me/charlotte-dupuy.html&quot;&gt;View original document&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

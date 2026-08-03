@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/373">
+<dc:title>Marian Anderson&#039;s Performance</dc:title>
+<dc:description>&lt;p class=&quot;p1&quot;&gt;On Easter Sunday, 1939, celebrated African American opera singer &lt;a href=&quot;http://mallhistory.org/items/show/76&quot;&gt;Marian Anderson&lt;/a&gt; gave a &lt;a href=&quot;http://mallhistory.org/items/show/101&quot;&gt;free concert&lt;/a&gt; on the steps of the &lt;a href=&quot;http://mallhistory.org/items/show/33&quot;&gt;Lincoln Memorial&lt;/a&gt;. She had been denied the opportunity to sing at the Daughters of the American Revolution concert hall because of her race. The first song she performed at the concert was &quot;America (My Country &#039;Tis of Thee),&quot; but she changed the words from &quot;of thee I sing&quot; to &quot;to thee we sing,&quot; making it an inclusive expression of patriotism.&lt;/p&gt;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Marian+Anderson&quot;&gt;Marian Anderson&lt;/a&gt;</dc:creator>
+<dc:source>National Archives at College Park. &lt;a href=&quot;http://research.archives.gov/description/1729137&quot;&gt;Listen to original&lt;/a&gt;.</dc:source>
+<dc:date>04/09/1939</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

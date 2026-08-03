@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/430">
+<dc:title>Tidal Basin</dc:title>
+<dc:description>The Tidal Basin serves several purposes on the National Mall. Primarily, it is a reservoir for the &lt;a href=&quot;http://mallhistory.org/items/show/424&quot;&gt;Potomac River&lt;/a&gt; and Washington Channel. In the past, it has also served as a recreational area for &lt;a href=&quot;http://mallhistory.org/items/show/164&quot;&gt;swimming&lt;/a&gt;, ice skating, or &lt;a href=&quot;http://mallhistory.org/items/show/494&quot;&gt;boating&lt;/a&gt;. Built by &lt;a href=&quot;http://mallhistory.org/items/show/137&quot;&gt;Alexander and Repass&lt;/a&gt;, the Tidal Basin is lined with &lt;a href=&quot;http://mallhistory.org/items/show/24&quot;&gt;Japanese Cherry Trees&lt;/a&gt;, making it the center of the &lt;a href=&quot;http://mallhistory.org/items/show/480&quot;&gt;Cherry Blossom Festival&lt;/a&gt;, and it borders several monuments, including the &lt;a href=&quot;http://mallhistory.org/items/show/31&quot;&gt;Jefferson&lt;/a&gt;, &lt;a href=&quot;http://mallhistory.org/items/show/156&quot;&gt;Martin Luther King Jr.&lt;/a&gt;, &lt;a href=&quot;http://mallhistory.org/items/show/27&quot;&gt;FDR&lt;/a&gt;, and &lt;a href=&quot;http://mallhistory.org/items/show/16&quot;&gt;George Mason&lt;/a&gt; memorials. All of these factors make the Basin one of the central natural and recreational features of the National Mall.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Alexander+and+Repass&quot;&gt;Alexander and Repass&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/hec2008005337/&quot;&gt;View original.&lt;/a&gt;</dc:source>
+<dc:date>1949</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

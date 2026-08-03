@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/485">
+<dc:title>Philip Reed</dc:title>
+<dc:description>Philip Reed was an enslaved man who worked in the foundry operated by his owner, &lt;a href=&quot;http://mallhistory.org/items/show/459&quot;&gt;Clark Mills&lt;/a&gt;. The foundry cast the statues of &lt;a href=&quot;http://mallhistory.org/items/show/412&quot;&gt;Andrew Jackson&lt;/a&gt; in Lafayette Square and the statue of &quot;&lt;a href=&quot;http://mallhistory.org/items/show/534&quot;&gt;Freedom&lt;/a&gt;&quot; which tops the Capitol dome. The plaster cast for &quot;Freedom&quot; was designed in Italy by artist Thomas Crawford, and shipped to the Capitol. When time came to move the plaster model to the Mills foundry to finish the sculpture, Reed cleverly devised a way to safely separate the five pieces for transportation. As an eslaved person, Reed could receive pay directly for work he did on Sundays. Records show he worked 33 Sundays in 1860-61 on &quot;Freedom.&quot;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Philip+Reed&quot;&gt;Philip Reed&lt;/a&gt;</dc:creator>
+<dc:source>Architect of the Capitol. &lt;a href=&quot;http://www.aoc.gov/philip-reid-and-statue-freedom&quot;&gt;View original document&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

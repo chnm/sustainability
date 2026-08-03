@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/522">
+<dc:title>Gwenfritz</dc:title>
+<dc:description>Sculptor Alexander Calder designed &quot;Gwenfritz&quot; in 1965 after Washington philanthropist Gwendolyn Cafritz commissioned him to create a piece for the new Museum of History and Technology. Calder built the 40-foot tall metal stabile in France and shipped it to Washington in 6 crates. Smithsonian staff installed the work in 1969 on a reflecting pool facing 14th Street. In 1984, the Museum moved the sculpture and filled in the pool. In 2013, the Smithsonian began conserving &quot;Gwenfritz,&quot; and in October 2014 returned it to the original location. During the restoration, staff repainted the sculpture and replaced all 1,200 bolts connecting its panels.
+</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Alexander+Calder&quot;&gt;Alexander Calder&lt;/a&gt;</dc:creator>
+<dc:source>Institutional History Division, Smithsonian Institution Archives. &lt;a href=&quot;http://siris-sihistory.si.edu/ipac20/ipac.jsp?session=14F605S0U9301.1295&amp;amp;profile=sicall&amp;amp;source=~!sichronology&amp;amp;view=subscriptionsummary&amp;amp;uri=full=3100001~!9319~!1&amp;amp;ri=3&amp;amp;aspect=power&amp;amp;menu=search&amp;amp;ipp=20&amp;amp;spp=20&amp;amp;staffonly=&amp;amp;term=calder&amp;amp;index=.GW&amp;amp;uindex=&amp;amp;aspect=power&amp;amp;menu=search&amp;amp;ri=3&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>6/2/1969 (dedicated)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

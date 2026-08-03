@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/5">
+<dc:title> Zero Milestone</dc:title>
+<dc:description>The current zero milestone dates from the spring of 1923, replacing a temporary marker placed on this site in &lt;a href=&quot;http://mallhistory.org/items/show/20&quot;&gt;President&#039;s Park&lt;/a&gt; in 1919. Originally intended as a central point from which to measure highway distances throughout the United States, the zero milestone marked the beginning of the age of the automobile and the national system of paved roadways. Today, roads and other distances in Washington, DC, as well as in surrounding suburbs, are measured from the zero milestone.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Horace+W.+Peaslee&quot;&gt;Horace W. Peaslee&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/npc2008013642/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>06/04/1923 (Dedicated)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

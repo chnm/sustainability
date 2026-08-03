@@ -1,0 +1,11 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/471">
+<dc:title>Rally to Restore Sanity and/or Fear </dc:title>
+<dc:description>On October 30, 2010, Jon Stewart and Stephen Colbert led a rally on the National Mall. The event was a combination of Stewart’s “Rally to Restore Sanity” and Colbert’s “March to Keep Fear Alive”. The event drew 215,000 people and was thought to be a satire or spoof of events such as Glen Beck’s “Restoring Honor” rally. The satirical nature of the rally was a symbol of the normalization of protest on the Mall.</dc:description>
+<dc:date>10/30/2010</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

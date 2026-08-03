@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/451">
+<dc:title>Reflecting Pool reconstructed </dc:title>
+<dc:description>Restoration of the &lt;a href=&quot;http://mallhistory.org/items/show/23&quot;&gt;Lincoln Memorial Reflecting Pool&lt;/a&gt; began in November 2010. The two-year, $30.7 million renovation project almost completely rebuilt the structure. The 1923 original pool was built on an unstable foundation that sank and cracked. The overhauled pool is shallower, reinforced with over 2,000 pilings driven to the underlying bedrock, and a gray tint was added to increase the pool’s reflectivity. The water supply system was replaced, and instead of stagnant water, the supply is now circulated from the nearby &lt;a href=&quot;http://mallhistory.org/items/show/430&quot;&gt;Tidal Basin&lt;/a&gt;. Gravel sidewalks bordering the pool were also replaced with pavement to prevent erosion.</dc:description>
+<dc:source>Justin Brown on Flickr.com. &lt;a href=&quot;http://www.flickr.com/photos/justininsd/6239416270&quot;&gt;View original.&lt;/a&gt;</dc:source>
+<dc:date>2010-2012</dc:date>
+<dc:type>Event</dc:type>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

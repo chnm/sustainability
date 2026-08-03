@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/464">
+<dc:title>George Washington to Daniel Carroll of Duddington</dc:title>
+<dc:description>In 1791, Daniel Carroll of Duddington, a District resident, was in the middle of an argument with &lt;a href=&quot;http://mallhistory.org/items/show/82&quot;&gt;Pierre Charles L&#039;Enfant&lt;/a&gt;, city planner for the new capital. Carroll had built a house where L&#039;Enfant wanted a road, but Carroll was reluctant to have it torn down. Washington wrote to convince Carroll to move the house, at federal expense. What Washington did not know was that L&#039;Enfant had already torn down Carroll&#039;s house a few days before.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=George+Washington&quot;&gt;George Washington&lt;/a&gt;</dc:creator>
+<dc:source>George Washington Papers, American Memory, Library of Congress. &lt;a href=&quot;http://memory.loc.gov/cgi-bin/ampage?collId=mgw4&amp;amp;fileName=gwpage101.db&amp;amp;recNum=327&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>11/28/1791</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

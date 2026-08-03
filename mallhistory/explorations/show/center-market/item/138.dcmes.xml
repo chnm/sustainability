@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/138">
+<dc:title>Center Market Passes Into History</dc:title>
+<dc:description>&lt;a href=&quot;http://mallhistory.org/items/show/32&quot;&gt;Center Market &lt;/a&gt;was established in the early 1800s and for most of that century served as a central point of commerce, transportation, and entertainment for the city. Toward the end of the century, city officials, private entrepreneurs, and the federal government argued over jurisdiction of the market and whether to relocate it. Many complained that the market was an unsanitary eyesore as marble federal buildings grew up around it. In the early 1930s, the city decided to close and demolish the market to make way for the National Archives. This nostalgic article from the Washington Post describes the market&#039;s history.</dc:description>
+<dc:source>&lt;em&gt;The Washington Post&lt;/em&gt;</dc:source>
+<dc:date>1/4/1931</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

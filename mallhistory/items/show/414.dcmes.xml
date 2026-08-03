@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/414">
+<dc:title>Monument to the Founding of the Grange</dc:title>
+<dc:description>This small plaque along the walking path on the Mall at Fourth Street and Madison is the only private monument on the Mall, dedicated on September 9, 1951. It commemorates the founding of the National Grange of the Order of Patrons of Husbandry, a national agriculture association. The Grange, whose purpose is to help give farm families a political voice, was founded December 4, 1867. The plaque names the seven original founders of the association: Oliver Hudson Kelley, William Saunders, Aaron B. Grosh, John R. Thompson, Francis M. McDowell, William M. Ireland, and John Trimble.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=The+National+Grange+of+the+Order+of+Patrons+of+Husbandry&quot;&gt;The National Grange of the Order of Patrons of Husbandry&lt;/a&gt;</dc:creator>
+<dc:date>09/09/1951 (dedicated)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

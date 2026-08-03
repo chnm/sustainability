@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/24">
+<dc:title>Original Cherry Trees</dc:title>
+<dc:description>In 1912, the United States received a shipment of 3,020 cherry trees as a gift from the government of Japan. These were a replacement for a gift of trees in 1909 which had to be destroyed because they were infected with root disease. The trees were a token of friendship between the two nations. The first two trees were planted ceremonially by First Lady Taft and Viscountess Chinda, wife of the Japanese Ambassador. In 1935, the city held its first &lt;a href=&quot;http://mallhistory.org/items/show/480&quot;&gt;Cherry Blossom Festival&lt;/a&gt;. Several trees were vandalized in 1941 in retaliation for the Japanese bombing of Pearl Harbor.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/collection/npco/item/npc2008001061/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1912 (Received)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

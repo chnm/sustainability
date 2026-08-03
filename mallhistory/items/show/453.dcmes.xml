@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/453">
+<dc:title>Flood of 1889</dc:title>
+<dc:description>On June 2, 1889, heavy rains caused massive flooding in Johnstown, Pennsylvania, and overwhelmed the South Fork Dam. The storm also hit the Washington, DC, area. As a result, &lt;a href=&quot;http://mallhistory.org/items/show/259&quot;&gt;the Potomac River flooded and areas around Pennsylvania Avenue were under several feet of water&lt;/a&gt;. The flooding was made worse by sewers that became clogged with dirt from unpaved roads and began overflowing, causing the water to rise. The only access between the east and west of the city was by boat.</dc:description>
+<dc:source>Johnson, Willis Fletcher. &lt;a href=&quot;http://books.google.com/books?id=60wOAAAAIAAJ&amp;amp;printsec=frontcover&amp;amp;dq=History+of+the+Johnstown+Flood&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ei=LMt3UpiqDpSusASy8oGwBA&amp;amp;ved=0CDwQ6AEwAg#v=onepage&amp;amp;q=History%20of%20the%20Johnstown%20Flood&amp;amp;f=true&quot;&gt;&lt;em&gt;History of the Johnstown Flood: With Full Accounts Also of the Destruction of the Susquehanna and Juniata Rivers, and the Bald Eagle Creek.&lt;/em&gt;&lt;/a&gt; J. W. Keeler &amp;amp; co., 1889, 379.</dc:source>
+<dc:date>06/02/1889</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

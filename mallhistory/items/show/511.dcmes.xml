@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/511">
+<dc:title>American Veterans Disabled for Life Memorial</dc:title>
+<dc:description>The first national memorial to specifically honor members of the American armed forces who were permanently disabled during their service opened in 2014. The memorial was proposed to Congress in 1998 by a group led by philanthropist Lois Pope; Jesse Brown, then Secretary of Veterans Affairs; and Art Wilson, National Adjutant of the nonprofit Disabled American Veterans. The memorial was authorized by Congress and signed into law by President Clinton in 2000. The land on which it is built was transferred from the city to the National Park Service for the memorial. It was dedicated on October 4, 2014.</dc:description>
+<dc:source>Tim Evanson via &lt;a href=&quot;https://www.flickr.com/photos/23165290@N00/15268351937/&quot;&gt;Flickr&lt;/a&gt;</dc:source>
+<dc:date>10/5/2014 (dedicated)</dc:date>
+<dc:date>10/24/2000 (authorized)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

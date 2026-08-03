@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/349">
+<dc:title>Joseph Henry</dc:title>
+<dc:description>Henry was a noted scientist in the United States when he was selected to serve as the first Secretary, or chief executive officer, of the new &lt;a href=&quot;http://mallhistory.org/items/show/194&quot;&gt;Smithsonian Institution&lt;/a&gt; in 1846. He served for 30 years, developing the new museum as a center for research, publications, and international exchange. During his tenure, the Smithsonian provided important support for scientists by coordinating and funding research, publishing original studies, and facilitating communication among scientists in the United States and abroad. He lived &lt;a href=&quot;http://mallhistory.org/items/show/456&quot;&gt;with his family&lt;/a&gt; in the &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;Smithsonian Castle&lt;/a&gt; until his death in 1878.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Joseph+Henry&quot;&gt;Joseph Henry&lt;/a&gt;</dc:creator>
+<dc:source>Smithsonian Institution Archives. &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_9168&quot;&gt;View original image.&lt;/a&gt;</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

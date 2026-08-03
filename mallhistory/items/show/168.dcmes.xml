@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/168">
+<dc:title>Pierre L&#039;Enfant plans the Federal City</dc:title>
+<dc:description>In 1791, President &lt;a href=&quot;http://mallhistory.org/items/show/152&quot;&gt;George Washington&lt;/a&gt; hired &lt;a href=&quot;http://mallhistory.org/items/show/82&quot;&gt;Pierre Charles L&#039;Enfant&lt;/a&gt; to create a plan for the &lt;a&gt;layout of the federal city&lt;/a&gt;. L&#039;Enfant focused on the area between &lt;a href=&quot;http://mallhistory.org/items/show/40&quot;&gt;Tiber Creek&lt;/a&gt;, today Constitution Avenue and the Eastern Branch, also called the &lt;a href=&quot;http://mallhistory.org/items/show/424&quot;&gt;Anacostia River&lt;/a&gt;. L&#039;Enfant &lt;a href=&quot;http://mallhistory.org/items/show/393&quot;&gt;surveyed the area&lt;/a&gt; in the spring of 1791 and created a plan for the city by the end of the year. This plan established the placement of the Capitol and President&#039;s House, now called the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt;, and recommended the creation of the public promenade from the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt; to the Potomac, the area we now call the National Mall.</dc:description>
+<dc:source>Library of Congress Geography and Map Division. &lt;a href=&quot;http://memory.loc.gov/cgi-bin/query/h?ammem/gmd:@field(NUMBER+@band(g3850+ct000509))&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1791</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

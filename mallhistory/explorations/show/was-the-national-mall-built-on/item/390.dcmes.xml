@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/390">
+<dc:title>Diary, John Quincy Adams, 1825</dc:title>
+<dc:description>Sixth president, John Quincy Adams, often swam in &lt;a href=&quot;http://mallhistory.org/items/show/40&quot;&gt;Tiber Creek&lt;/a&gt; near the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt;. In 1825, he commandeered an abandoned boat and rowed it down the creek, planning to swim back. A sudden storm arose, sweeping the leaking boat into the Potomac where it began to sink. Adams scrambled overboard, but the weight of his clothes dragged him underwater. A White House steward, Antoine Guista, who was with Adams, jumped overboard and rescued the president. Washington buzzed for days about the President&#039;s close call.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=John+Quincy+Adams&quot;&gt;John Quincy Adams&lt;/a&gt;</dc:creator>
+<dc:source>The Diaries of John Quincy Adams Diary 49, snippet at White House Historical Society. &lt;a href=&quot;http://www.whitehousehistory.org/presentations/waddell-artist-visits-white-house-past/president-adams-essay.html&quot;&gt;View original snippet&lt;/a&gt;.</dc:source>
+<dc:date>6/13/1825</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

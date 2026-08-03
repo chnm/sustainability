@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/126">
+<dc:title>Bayard Rustin </dc:title>
+<dc:description>Rustin was a crucial force driving civil rights activism, especially in organizing protests on the National Mall. The first March on Washington movement emerged in &lt;a href=&quot;http://mallhistory.org/explorations/show/cancelled-march&quot;&gt;1941&lt;/a&gt; when African American activists, including Rustin, successfully pressured President Franklin D. Roosevelt to end racial discrimination in federal hiring. By threatening to march in Washington during World War II, Rustin and his colleagues changed federal policy without needing to march. In 1963, Rustin was a pivotal organizer for the &lt;a href=&quot;http://mallhistory.org/items/show/190&quot;&gt;March on Washington for Jobs and Freedom&lt;/a&gt;. Rustin remained behind the scenes during the event on the Mall, but he was recognized as co-organizer with &lt;a href=&quot;http://mallhistory.org/items/show/97&quot;&gt;A. Philip Randolph&lt;/a&gt; on the cover of &lt;em&gt;LIFE&lt;/em&gt; Magazine.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Bayard+Rustin&quot;&gt;Bayard Rustin&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/collection/cph/item/2003688133/&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

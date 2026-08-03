@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/271">
+<dc:title>Last &#039;Tempos&#039; Fall in Style: Wrecker&#039;s Ball Set to Music</dc:title>
+<dc:description>Although most of the office buildings constructed on the Mall to house &lt;a href=&quot;http://mallhistory.org/items/show/403&quot;&gt;war department offices during World War I&lt;/a&gt; and&lt;a href=&quot;http://mallhistory.org/items/show/58&quot;&gt; II &lt;/a&gt;had been removed by the 1960s, &lt;a href=&quot;http://mallhistory.org/items/show/57&quot;&gt;a row of buildings from 1918&lt;/a&gt; still stood in the space between &lt;a href=&quot;http://mallhistory.org/items/show/311&quot;&gt;Constitution Avenue&lt;/a&gt; and the &lt;a href=&quot;http://mallhistory.org/items/show/23&quot;&gt;Reflecting Pool&lt;/a&gt;. In 1969 President Nixon ordered these buildings demolished, to be replaced with parkland more in keeping with the rest of the Mall. On July 15, 1970, Naval officers and government officials held a demolition ceremony, watching as the wrecking ball took its first swing at the walls. By December, the buildings were gone.</dc:description>
+<dc:source>&lt;em&gt;The Washington Post&lt;/em&gt;</dc:source>
+<dc:date>07/16/1970</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

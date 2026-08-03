@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/75">
+<dc:title>John Kerry</dc:title>
+<dc:description>In 1971, Secretary of the State, Senator, and US Navy veteran John Kerry &lt;a href=&quot;http://mallhistory.org/items/show/191&quot;&gt;protested against the Vietnam War&lt;/a&gt; in front of the US Capitol when he returned from his tour of duty. As a member of the group Vietnam Veterans Against the War, he accused the US military of committing war crimes in Vietnam and testified before Congress in April 1971. After testifying, Kerry and hundreds of other activists called for an end to the conflict in Vietnam by throwing military ribbons, medals, and pieces of their uniforms on the steps of the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;US Capitol&lt;/a&gt;.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=John+Kerry&quot;&gt;John Kerry&lt;/a&gt;</dc:creator>
+<dc:source>Photograph via Wikimedia Commons. &lt;a href=&quot;https://en.wikipedia.org/wiki/File:Kerry_Fulbright_Commission.jpg&quot;&gt;View original image&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

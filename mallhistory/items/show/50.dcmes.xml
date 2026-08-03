@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/50">
+<dc:title>Hirshhorn Museum and Sculpture Garden</dc:title>
+<dc:description>Established in 1966 as part of the Smithsonian Institution, the Hirshhorn collects and exhibits modern and contemporary art building on founder Joseph Hirshhorn&#039;s collection of 6,000 art works. Hirshhorn was a Latvian immigrant to the United States. His collection contained pieces by Pablo Picasso, Henri Matisse, and Edward Hopper and sculptures by August Rodin and Alexander Calder. The Museum opened in 1974, designed by architect Gordon Bunshaft as a large piece of modern sculpture. The elevated hollowed-center cylinder building distinguishes it from other museums on the Mall. Curved exterior concrete walls open to visitors through a large window offering a full view of the Mall and the Sculpture Garden below.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Gordon+Bunshaft&quot;&gt;Gordon Bunshaft&lt;/a&gt;</dc:creator>
+<dc:source>Smithsonian Institution Archives. &lt;a href=&quot;http://siarchives.si.edu/oldsite/history/exhibits/historic/85_4824.gif&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1974 (Opened)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

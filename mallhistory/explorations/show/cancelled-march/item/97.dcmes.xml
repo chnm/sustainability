@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/97">
+<dc:title>A. Philip Randolph</dc:title>
+<dc:description>Civil rights leader and labor organizer A. Philip Randolph built coalitions of African Americans who pressured presidents, Congress, and local governments to end racial discrimination. In 1941, he organized a proposed &lt;a href=&quot;http://mallhistory.org/items/show/329&quot;&gt;march on Washington&lt;/a&gt; by African Americans to demand an end to racial discrimination in defense industries and the US military, and to ban lynching. Randolph cancelled the march after President Franklin Roosevelt signed &lt;a href=&quot;http://mallhistory.org/items/show/328&quot;&gt;Executive Order 8802&lt;/a&gt; establishing the first Fair Employment Practices Committee, effectively banning racial discrimination in defense-related industries in 1941. Randolph continued fighting for equality and marched with other civil rights leaders in Washington in 1963.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=A.+Philip+Randolph&quot;&gt;A. Philip Randolph&lt;/a&gt;</dc:creator>
+<dc:source>National Archives at College Park - Still Pictures. &lt;a href=&quot;http://research.archives.gov/description/542064&quot;&gt;View original photograph.&lt;/a&gt;</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

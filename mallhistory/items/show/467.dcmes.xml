@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/467">
+<dc:title>America&#039;s Millennium Gala</dc:title>
+<dc:description>America’s Millennium Gala was the culminating event of a larger three-day project celebrating the millennium. The event was produced by Quincy Jones and George Stevens Jr., hosted by Will Smith, and premiered a film by Steven Spielberg. Festivities began at 9pm on December 31st, 1999 and continued until 1am. Leading up to midnight, the western half of the Mall, between the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt; and the &lt;a href=&quot;http://mallhistory.org/items/show/33&quot;&gt;Lincoln Memorial&lt;/a&gt;, featured a number of appearances and performances by popular musicians, as well as literary and scientific figures. The evening concluded with an extensive fireworks and lights display over the Washington Monument.</dc:description>
+<dc:source>William J. Clinton Presidential Library. &lt;a href=&quot;http://www.youtube.com/watch?v=NUTx2HQKIFw&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>12/31/1999</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1980-1999&quot;&gt;1980-1999&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/38">
+<dc:title>Main Building of the Bureau of Engraving and Printing</dc:title>
+<dc:description>The Bureau of Printing and Engraving is one of two sites in the United States where currency is produced (the other is in Fort Worth, Texas). The Bureau has been printing money here since 1880. Prior to that, currency was printed by private companies under the direction of the Secretary of the Treasury&#039;s office. In 1894 the Bureau began printing postage stamps, which it continued until 2005. In 1938, an annex located across 14th Street was completed. The Bureau prints approximately 8 billion notes per year.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=James+G.+Hill+&quot;&gt;James G. Hill &lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/det1994006042/PP/&quot;&gt;View Original.&lt;/a&gt;</dc:source>
+<dc:date>1880</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

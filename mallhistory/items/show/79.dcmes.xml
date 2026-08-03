@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/79">
+<dc:title>Alice Paul</dc:title>
+<dc:description>Activist and leader of the National Woman&#039;s Party, Alice Paul organized the &lt;a href=&quot;http://mallhistory.org/items/show/155&quot;&gt;Woman Suffrage Parade&lt;/a&gt; on Pennsylvania Avenue the day before Woodrow Wilson&#039;s inauguration in March, 1913. Four years later, Paul led a demonstration in front of the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt;, again demanding women’s right to vote. Protesters were arrested for obstructing traffic and jailed. While in prison, Paul began a hunger strike drawing more attention to her cause. Responding to political pressure, President Woodrow Wilson called on Congress and the states to amend the Constitution and allow women the right to vote. The 19th amendment was ratified in 1920.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Alice+Paul&quot;&gt;Alice Paul&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/97500088/&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

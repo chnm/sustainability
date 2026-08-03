@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/500">
+<dc:title>Black Panther Rally</dc:title>
+<dc:description>In June 1970, the Black Panther Party held a rally on the steps of the &lt;a href=&quot;http://mallhistory.org/items/show/33&quot;&gt;Lincoln Memorial&lt;/a&gt; promoting the proposed &quot;Revolutionary People&#039;s Constitutional Convention,&quot; to be held that September in Philadelphia. The goal of the Convention was to rewrite the US Constitution to ensure equal rights for oppressed groups, including African Americans, women, and young people. The organizers of the rally chose June 19, or Juneteenth, for its significance as the day in 1865 when enslaved peoples living in Texas were finally freed. Roughly 1,000 people attended the Mall rally.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Thomas+J.+O%27Halloran+%28photographer+%29&quot;&gt;Thomas J. O&#039;Halloran (photographer )&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Warren+K.+Leffler+%28photographer%29&quot;&gt;Warren K. Leffler (photographer)&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress, Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2003688170/&quot;&gt;View Original&lt;/a&gt;.</dc:source>
+<dc:date>06/19/1970</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

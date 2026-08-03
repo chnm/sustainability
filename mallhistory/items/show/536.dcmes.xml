@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/536">
+<dc:title>Funeral at Sylvan Theater</dc:title>
+<dc:description>In May 1921, two local American Legion posts held a funeral at the &lt;a href=&quot;http://mallhistory.org/items/show/3&quot;&gt;Sylvan Theater&lt;/a&gt; to honor men from the &lt;a href=&quot;http://mallhistory.org/items/show/34&quot;&gt;District of Columbia who died overseas during World War I&lt;/a&gt;. The remains of Hiram F. Cash and Vincent B. Costello were present at the funeral. Although World War I ended in 1918, the remains of soldiers killed in Europe were not returned to the US for another 3 years. Private Costello was one of the first men from the District to die in the war, and Lieutenant Cash was a Washington native who died on the Western European front. The American Legion posts in Washington, DC were named in their honor.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/hec2013001731/&quot;&gt;View original.&lt;/a&gt;</dc:source>
+<dc:date>5/26/1921</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

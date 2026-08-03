@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/472">
+<dc:title>John McShain</dc:title>
+<dc:description>John McShain was a building contractor in charge of the construction of many federal buildings in Washington during the 1900s. On the Mall, he was responsible for building the &lt;a href=&quot;http://mallhistory.org/items/show/31&quot;&gt;Jefferson Memorial&lt;/a&gt; and was trusted with &lt;a href=&quot;http://mallhistory.org/items/show/437&quot;&gt;remodeling&lt;/a&gt; the White House during Harry Truman&#039;s presidency. During his heyday as a builder, a common saying was that L&#039;Enfant may have designed Washington, DC, but McShain was the man who built it. McShain&#039;s great volume of work led one radio broadcaster to quip in 1949 that signs in the city should be changed to &quot;Welcome to Washington - John McShain, Builder.&quot;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=John+McShain&quot;&gt;John McShain&lt;/a&gt;</dc:creator>
+<dc:source>Hagley Museum and Library. &lt;a href=&quot;http://cdm16038.contentdm.oclc.org/cdm/singleitem/collection/p268001coll4/id/10530/rec/2&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

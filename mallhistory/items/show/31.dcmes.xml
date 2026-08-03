@@ -1,0 +1,16 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/31">
+<dc:title>Jefferson Memorial</dc:title>
+<dc:description>The Jefferson Memorial features a classically-inspired dome surrounded by columns. The centerpiece of the memorial is a 19 foot bronze statue of Jefferson. The statue was the second one of Jefferson placed in the Memorial, replacing a work made of plaster because material shortages during World War II made metal unavailable. Inscriptions on the interior walls of the memorial include passages from the Declaration of Independence, &lt;em&gt;Notes on the State of Virginia&lt;/em&gt;, and &lt;em&gt;A Summary View of the Rights of British America.&lt;br /&gt;&lt;/em&gt;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=John+Russell+Pope&quot;&gt;John Russell Pope&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Rudolph+Evans&quot;&gt;Rudolph Evans&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Adolph+A.+Weinman&quot;&gt;Adolph A. Weinman&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/resource/thc.5a35964/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>04/19/1943 (Dedicated)</dc:date>
+<dc:date>1947 (Statue added)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/269">
+<dc:title>National Air and Space Museum</dc:title>
+<dc:description>The National Air and Space Museum holds the world&#039;s largest collection of historic aircraft and spacecraft. A second location in Chantilly, Virginia, opened in 2003 to display even more items from its collection, including the Space Shuttle &lt;em&gt;Discovery&lt;/em&gt;. Some of the museum&#039;s popular artifacts include the original Wright brothers&#039; 1903 flyer, Charles Lindbergh&#039;s &quot;Spirit of St. Louis,&quot; the Apollo 11 command module, and a moon rock that visitors can touch.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Gyo+Obata&quot;&gt;Gyo Obata&lt;/a&gt;</dc:creator>
+<dc:source>Smithsonian Institution Archive. &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_8716&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1976 (opened)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

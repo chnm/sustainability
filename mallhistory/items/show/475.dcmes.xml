@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/475">
+<dc:title>United States Slave Trade</dc:title>
+<dc:description>While not an exact image of the Mall, this abolitionist print shows the &lt;a href=&quot;http://mallhistory.org/items/show/267&quot;&gt;role of the federal city in the interstate slave trade&lt;/a&gt; in the early 1800s. Slaves worked, lived, were &lt;a href=&quot;http://mallhistory.org/items/show/46&quot;&gt;held captive, and sold&lt;/a&gt; within sight of the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol building&lt;/a&gt;. In this print, the dome of the Capitol is visible above the head of a woman who, with her children, is being forced onto a slave ship, possibly sold to the deep south where working conditions were often very harsh, even deadly.</dc:description>
+<dc:source>Library of Congress, Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2008661746/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1830</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

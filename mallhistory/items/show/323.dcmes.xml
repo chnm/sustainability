@@ -1,0 +1,16 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/323">
+<dc:title>Tripoli Monument</dc:title>
+<dc:description>The Tripoli Monument was commissioned by members of the US Navy&#039;s Mediterranean fleet in memory of 6 officers who died during the Barbary Wars of the early 1800s. Built in Italy in 1806, the monument came to the US on board the USS &lt;em&gt;Constitution and &lt;/em&gt;was placed in the Washington Navy Yard. The monument was damanged during the burning of the Navy Yard in 1814. In 1831, it was restored and moved to the center of the Capitol reflecting pool in 1831, where is remained until 1860 when it was relocated to Annapolis, Maryland.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=David+Porter&quot;&gt;David Porter&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Micali+of+Leghorn&quot;&gt;Micali of Leghorn&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2003662984/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1806 (constructed)</dc:date>
+<dc:date>1860 (moved)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

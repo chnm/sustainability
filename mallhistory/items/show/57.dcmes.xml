@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/57">
+<dc:title>Main Navy and Munitions Buildings</dc:title>
+<dc:description>The &lt;a href=&quot;http://mallhistory.org/items/show/403&quot;&gt;Main Navy and Munitions temporary war buildings&lt;/a&gt; were built quickly in 1918 during World War I under the direction of Secretary of the Navy, Franklin D. Roosevelt, to provide emergency offices for wartime workers. Nearly 14,000 U.S. Navy personnel worked in these buildings, including the Secretary of the Navy and the Bureau of Navigation. FDR would later say he wanted the structures to be &quot;of such superlative ugliness&quot; that they would be torn down quickly. Despite their appearance and presence on parkland of the Mall, the offices proved useful for more than 50 years. &lt;a href=&quot;http://mallhistory.org/items/show/271&quot;&gt;President Nixon ordered them demolished in 1970.&lt;/a&gt; Today, the &lt;a href=&quot;http://mallhistory.org/items/show/63&quot;&gt;Vietnam Veterans&#039; Memorial&lt;/a&gt; and &lt;a href=&quot;http://mallhistory.org/items/show/15&quot;&gt;Constitution Gardens&lt;/a&gt; occupy the same space that belonged to the Main Navy and Munitions buildings.</dc:description>
+<dc:date>1918 (Constructed)</dc:date>
+<dc:date>1970 (Demolished)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/309">
+<dc:title>Braddock&#039;s Rock </dc:title>
+<dc:description>Originally, Braddock&#039;s Rock was a sizable outcropping of Piedmont stone jutting into the &lt;a href=&quot;http://mallhistory.org/items/show/424&quot;&gt;Potomac&lt;/a&gt;. Called the &quot;Key of all Keys,&quot; this rock became a starting point for surveyors drawing property lines for early settlers. In 1755, General Edward Braddock landed at the rocky promontory and began his march to Fort Duquesne with the young &lt;a href=&quot;http://mallhistory.org/items/show/152&quot;&gt;George Washington&lt;/a&gt; among his soldiers. Later used as a quarry for the stone used in the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt;, &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt;, and C&amp;amp;O Canal, it was blasted away in 1832. Today, the remaining portions are 16 feet underground, enclosed by a well located among the approaches to the Theodore Roosevelt Bridge.</dc:description>
+<dc:source>&lt;em&gt;The Washington Times&lt;/em&gt;, February 19, 1906. &lt;a href=&quot;http://chroniclingamerica.loc.gov/lccn/sn84026749/1906-02-19/ed-1/seq-12/&quot;&gt;View original.&lt;/a&gt;</dc:source>
+<dc:date>1755 (re-named)</dc:date>
+<dc:date>1832 (destroyed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/381">
+<dc:title>Capitol Fourth Concert</dc:title>
+<dc:description>&lt;p class=&quot;p1&quot;&gt;Since 1979, the National Symphony Orchestra (NSO) has performed on the &lt;a href=&quot;http://mallhistory.org/items/show/380&quot;&gt;west front of the Capitol&lt;/a&gt; on the fourth of July. The concert is aired by PBS stations as &quot;A Capitol Fourth&quot; and features musicians and vocalists as well as the NSO and the &lt;a href=&quot;http://mallhistory.org/items/show/144&quot;&gt;Marine Band&lt;/a&gt;. This photograph shows the highlight of the concert, when fireworks are set off from near the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt; while the bands play on.&lt;/p&gt;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Architect+of+the+Capitol&quot;&gt;Architect of the Capitol&lt;/a&gt;</dc:creator>
+<dc:source>Architect of the Capitol. &lt;a href=&quot;http://www.flickr.com/photos/uscapitol/6473636341/in/photolist-aS45xF-bEUJHn/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>7/4/2011</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

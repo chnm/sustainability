@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/112">
+<dc:title>Paul Jennings</dc:title>
+<dc:description>Paul Jennings was an enslaved man owned by James Madison who lived in the White House during the Madison presidency. He was 15 years old in 1814 when the &lt;a href=&quot;http://mallhistory.org/items/show/157&quot;&gt;British invaded Washington, DC&lt;/a&gt;, and burned down the presidential residence. Almost fifty years later, Jennings wrote a memoir recalling that day and asserting that a gardener and the cook saved the portrait of George Washington, not Mrs. Madison. Jennings gained his freedom in 1847 and became a prominent member of the free black community in Washington, DC. In 1848, he helped to organize an ultimately unsuccessful &lt;a href=&quot;http://mallhistory.org/items/show/287&quot;&gt;slave escape&lt;/a&gt; in Washington; the path the slaves took toward freedom ran across the Mall.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Paul+Jennings&quot;&gt;Paul Jennings&lt;/a&gt;</dc:creator>
+<dc:source>Courtesy of Sylvia Jennings Alexander</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

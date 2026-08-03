@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/53">
+<dc:title>National Museum of African Art</dc:title>
+<dc:description>In 1979, the National Museum of African Art became part of the Smithsonian Institution and opened on the Mall in 1987. Warren M. Robbins founded the Museum in the Frederick Douglass House in Washington, DC and collected over 8,000 pieces of African sculpture, costume, instruments, and jewelry. These collections were moved to the Mall, and the NMAfA became the first museum in the United States to include in its mission a sustained focus on modern and contemporary African art. The building is designed in a post-modern architectural style with most of its exhibition space  residing underground. </dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Jean+Paul+Carlihan&quot;&gt;Jean Paul Carlihan&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Warren+Robbins+&quot;&gt;Warren Robbins &lt;/a&gt;</dc:creator>
+<dc:source>Flickr User Cliff via Wikimedia Commons. &lt;a href=&quot;http://commons.wikimedia.org/wiki/File:National_Museum_of_African_Art_(2922760167).jpg&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1964 (Museum founded)</dc:date>
+<dc:date>1987 (Building opened)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

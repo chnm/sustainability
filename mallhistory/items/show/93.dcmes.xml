@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/93">
+<dc:title>Carl Browne</dc:title>
+<dc:description>Carl Browne helped &lt;a href=&quot;http://mallhistory.org/items/show/86&quot;&gt;Jacob S. Coxey&lt;/a&gt; lead the &lt;a href=&quot;http://mallhistory.org/items/show/161&quot;&gt;first march on Washington&lt;/a&gt;. In the spring of 1894, Coxey and Browne set out from Massillon, Ohio, and marched to Washington, DC, with a few hundred unemployed people. Together they advocated for a public jobs project for the unemployed. Once they arrived, Coxey decided to speak on the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt; grounds, even though it was illegal. Both Coxey and Browne were arrested and imprisoned. Although Coxey was the public leader of the march, Browne was active in promoting the protest to the national press.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Carl+Browne&quot;&gt;Carl Browne&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/collection/hec/item/hec2008002178/&quot;&gt;View original image&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

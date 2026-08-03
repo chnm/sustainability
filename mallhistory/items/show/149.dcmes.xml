@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/149">
+<dc:title>James L. Farmer Jr.</dc:title>
+<dc:description>James Farmer was one of the leaders of the &lt;a href=&quot;http://mallhistory.org/items/show/190&quot;&gt;1963 March on Washington for Jobs and Freedom&lt;/a&gt;. As one of the founders of the Congress on Racial Equality (CORE), an interracial civil rights organization, and its National Director in the early 1960s, Farmer was a major figure in organizing civil rights protests. While he participated in the planning for the March on Washington, Farmer was unable to attend the event because he had been arrested at a protest in Louisiana. But, imprisonment did not prevent him from being heard in Washington: his speech was read by fellow CORE member Floyd McKissick. In the speech, Farmer declared that the fight for racial equality would not end &quot;until the dogs stop biting us in the South and the rats stop biting us in the North.&quot;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=James+L.+Farmer+Jr.&quot;&gt;James L. Farmer Jr.&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/collection/cph/item/2003688125/&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

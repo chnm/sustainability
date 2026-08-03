@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/368">
+<dc:title>Winning Baseball Team on the Mall</dc:title>
+<dc:description>This team made up of workers from various garages in the city had just won a baseball game against the Employee&#039;s recreation association team when their photo was taken. They were one of many teams who &lt;a href=&quot;http://mallhistory.org/explorations/show/baseball&quot;&gt;played baseball on the National Mall&lt;/a&gt; during World War II. The sport and location were so popular that at least one game was played every day, and off-duty servicemen as well as friends and family came to watch the games.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Marjory+Collins&quot;&gt;Marjory Collins&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/fsa2000057024/PP/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1942</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

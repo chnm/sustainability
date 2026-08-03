@@ -81,6 +81,11 @@
   a {
     text-decoration: none;
   }
+  /* WCAG 1.4.1: links in body text must be distinguishable without colour,
+     so underline links within main content (excluding button-styled links). */
+  [role="main"] a:not(.button) {
+    text-decoration: underline;
+  }
   a:link {
     color: #CC4D28;
   }

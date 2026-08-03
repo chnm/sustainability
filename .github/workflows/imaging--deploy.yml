@@ -1,0 +1,20 @@
+name: "Deploy Static Website -- imagingthefrenchrevolution"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "**"
+    paths:
+      - 'imagingthefrenchrevolution/**'
+      - "!.github/**"
+
+jobs:
+  deploy:
+    uses: chnm/.github/.github/workflows/static--deploy.yml@main
+    secrets: inherit
+    with:
+      context_root: "imagingthefrenchrevolution"
+      website-devl-fqdn: "imaging.dev.chnm.gmu.edu"
+      website-prod-fqdn: "imaging.dev.chnm.gmu.edu"
+      runner_labels: '["self-hosted","IncusOS"]'

@@ -1,0 +1,80 @@
+.textbody {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 25px;
+	font-weight: normal;
+	color: #000066;
+}
+a:link {
+	color: #990000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #000033;
+
+}
+a:active {
+	text-decoration: none;
+	color: #000033;
+
+}
+a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+sidelinks {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.sidelinks {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.bottomtext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+}
+.footnotetext {
+	font-size:10pt;
+	font-family:"Times New Roman";
+	color: #000066;
+	line-height: normal;
+	font-weight: normal;
+
+
+}
+.footnoteref {
+	vertical-align:super;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #3366FF;
+
+}
+.title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000033;
+}
+.subhead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #990000;
+}
+.group {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #000066;
+}

@@ -22,8 +22,11 @@
             margin: 0.75em 0 0.25em;
         }
         /* The header search box drives the results, so hide Pagefind's own
-           input to avoid a confusing second search field. */
-        #search .pagefind-ui__form {
+           input/clear button to avoid a confusing second search field. Hide
+           ONLY the input row, not .pagefind-ui__form — Pagefind nests the
+           results inside the form, so hiding the form collapses the results. */
+        #search .pagefind-ui__search-input,
+        #search .pagefind-ui__search-clear {
             position: absolute;
             width: 1px;
             height: 1px;

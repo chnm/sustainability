@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/398">
+<dc:title>Solomon Brown</dc:title>
+<dc:description>Solomon Brown was likely the first African American employee at the Smithsonian Institution. He began work there in 1852 as a maintenance worker, building exhibit cabinets, cleaning, and moving specimens. He advanced to serve as clerk to Secretary &lt;a href=&quot;http://mallhistory.org/items/show/150&quot;&gt;Spencer Baird&lt;/a&gt;, who relied on him to serve as his eyes and ears in the Smithsonian. During the Civil War, Brown kept Baird informed about possible Confederate attacks and the status of work in the Museum. He worked closely with Baird as a naturalist and became an illustrator, lecturer, and philosopher.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Solomon+Brown&quot;&gt;Solomon Brown&lt;/a&gt;</dc:creator>
+<dc:source>Smithsonian Institution Archives. &lt;a href=&quot;http://www.siarchives.si.edu/collections/siris_sic_5597?back=%2Fsearch%2Fsia_search_collections%2FSolomon%2520Brown&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/484">
+<dc:title>Rocket Row</dc:title>
+<dc:description>Visitors to the Mall during the 1950s-1970s may have encountered large rockets that lined the west side of the &lt;a href=&quot;http://mallhistory.org/items/show/56&quot;&gt;Smithsonian Arts and Industries building&lt;/a&gt;. Called &quot;Rocket Row,&quot; this outdoor exhibit accommodated large objects before the &lt;a href=&quot;http://mallhistory.org/items/show/269&quot;&gt;National Air and Space Museum&lt;/a&gt; opened. This photo from the 1960s shows, from left to right, a Jupiter C, Vanguard, Polaris, and Atlas missile. The Jupiter C and the Vanguard were moved to the National Air and Space Museum, where they are still on view today.</dc:description>
+<dc:source>Smithsonian Institution Archives  &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_9545&quot;&gt;View Original&lt;/a&gt;.</dc:source>
+<dc:date>1960s</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

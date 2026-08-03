@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/446">
+<dc:title>View down Pennsylvania Avenue</dc:title>
+<dc:description>This view down Pennsylvania Avenue NW from the corner of 6th Street shows part of Washington near the Mall around 1860. On the corner in the foreground, where the Newseum is today, stood the National Hotel, one of the most prominent hotels in the city. It also housed a telegraph office, advertising &quot;&lt;a href=&quot;http://mallhistory.org/items/show/176&quot;&gt;Morse&#039;s Great Northern &amp;amp; Southern United Lines&lt;/a&gt;&quot; with direct communication to to New York and New Orleans. Businesses line the north (left) side of the street, and to the south was one block of commercial and residential buildings which stood where the &lt;a href=&quot;http://mallhistory.org/items/show/427&quot;&gt;National Gallery of Art&lt;/a&gt; is today.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=A.+Meyer&quot;&gt;A. Meyer&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2004662333/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1860</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

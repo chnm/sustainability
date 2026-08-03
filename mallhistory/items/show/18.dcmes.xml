@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/18">
+<dc:title>The Rescue</dc:title>
+<dc:description>&lt;p&gt;A large sculpture depicting a frontier father defending his family from an attacking American Indian, &quot;The Rescue&quot; has been a source of controversy since its installation in 1850. Sculptor &lt;a href=&quot;http://mallhistory.org/items/show/117&quot;&gt;Horatio Greenough&lt;/a&gt; stated that he was trying to show the dangers of &quot;peopling our continent,&quot; but objections have ranged from the criticism of the attitude of the dog to various objections to its portrayal of American Indians. The US House of Representatives voted on, but did not pass, a provision to destroy the sculpture in 1939. After advocacy by American Indians and members of Congress, the statue was removed in 1958.&lt;/p&gt;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Horatio+Greenough&quot;&gt;Horatio Greenough&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/collection/npco/item/npc2007016058/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1850 (Finished)</dc:date>
+<dc:date>1958 (Removed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

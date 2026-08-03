@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/512">
+<dc:title>Faithful Slave Mammies of the South Memorial</dc:title>
+<dc:description>In 1922, Congress received a proposal from the Washington, DC, chapter of the United Daughters of the Confederacy to create the &quot;Faithful Slave Mammies of the South&quot; memorial recognizing the supposed loyalty of enslaved women to their owners during the Civil War. African American newspapers, including the &lt;em&gt;Chicago Defender&lt;/em&gt; condemned the proposal as an insult at a time when Congress was unwilling to pass laws protecting African Americans from lynching. The Senate approved the proposal in 1923, but pressure from citizens and the press prevented passage of the bill in the House, and the memorial was never built.</dc:description>
+<dc:source>National Archives and Records Administration. &lt;a href=&quot;http://blogs.archives.gov/blackhistoryblog/2013/04/04/celebrating-the-faithful-mammies-of-the-south/&quot;&gt;View source.&lt;/a&gt;</dc:source>
+<dc:date>1922 (proposed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

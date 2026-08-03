@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/216">
+<dc:title>First Televised July Fourth Celebration on the National Mall</dc:title>
+<dc:description>On July 4, 1947, Washington, DC&#039;s Independence Day celebration was televised for the first time. The Mall was the backdrop for the national event attended by nearly 225,000 people. Spectators on the Mall, and many watching on television, enjoyed musical performances by &lt;a href=&quot;http://mallhistory.org/items/show/144&quot;&gt;military bands&lt;/a&gt;, speeches by elected officials and World War II veterans, and a fireworks display.</dc:description>
+<dc:source>&lt;em&gt;Washington Post&lt;/em&gt;.</dc:source>
+<dc:date>07/04/1947</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

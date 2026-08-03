@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/346">
+<dc:title>Baltimore and Potomac Railroad Train Sheds</dc:title>
+<dc:description>The &lt;a href=&quot;http://mallhistory.org/items/show/42&quot;&gt;Baltimore and Potomac Railroad&lt;/a&gt;, a subsidiary of the Pennsylvania Railroad, &lt;a href=&quot;http://mallhistory.org/items/show/166&quot;&gt;crossed the National Mall&lt;/a&gt; between 1870 and 1907. Sheds for waiting trains and empty freight cars extended into the parklands of the National Mall. As the population grew and railroad traffic increased, the Pennsylvania Railroad battled to extend its buildings and tracks onto the Mall and into the neighborhood. Many believed the railroad was in the best interests of business and commercial growth of the city. Others felt the railroad in the Mall contradicted &lt;a href=&quot;http://mallhistory.org/items/show/168&quot;&gt;President George Washington&#039;s original purpose&lt;/a&gt; to create a Mall as a central parkland and cultural center.</dc:description>
+<dc:source>Library of Congress.</dc:source>
+<dc:date>1887</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

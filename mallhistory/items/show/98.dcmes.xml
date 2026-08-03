@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/98">
+<dc:title>Ralph Abernathy</dc:title>
+<dc:description>Abernathy was a civil rights activist and close advisor to &lt;a href=&quot;http://mallhistory.org/items/show/90&quot;&gt;Dr. Martin Luther King Jr&lt;/a&gt;. Abernathy helped to organize the &lt;a href=&quot;http://mallhistory.org/items/show/190&quot;&gt;1963 March on Washington for Jobs and Freedom&lt;/a&gt;. After King&#039;s assassination, Abernathy led the 1968 Poor People&#039;s Campaign in Washington, DC that fought for economic justice for the poorest Americans. Protesters occupied the Mall for 6 weeks in small huts near the Washington Monument, known as &lt;a href=&quot;http://mallhistory.org/items/show/207&quot;&gt;Resurrection City&lt;/a&gt;, until late June when the group was removed by police.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Ralph+Abernathy&quot;&gt;Ralph Abernathy&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2003688121/&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

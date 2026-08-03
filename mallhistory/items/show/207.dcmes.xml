@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/207">
+<dc:title>Resurrection City</dc:title>
+<dc:description>Resurrection City, organized by &lt;a href=&quot;http://mallhistory.org/items/show/98&quot;&gt;Ralph Abernathy&lt;/a&gt;, was part of the 1968 Poor People&#039;s Campaign, a demonstration for full employment and living wages. During May 1968 thousands of &lt;a href=&quot;http://mallhistory.org/items/show/241&quot;&gt;demonstrators&lt;/a&gt; representing communities across the country lived in a shantytown of plywood and canvas homes south of the &lt;a href=&quot;http://mallhistory.org/items/show/23&quot;&gt;Reflecting Pool&lt;/a&gt;. Intense rainfall flooded the encampment and internal dissension plagued the city. Resurrection City&#039;s Park Permit expired on June 23. The next day, police moved through the area, tearing down the buildings and arresting nearly 300 people. Sometimes remembered as a failure, Resurrection City nonetheless brought together many disparate groups to work toward common goals.</dc:description>
+<dc:source>Walter P. Reuther Library, Wayne State University. &lt;a href=&quot;https://www.reuther.wayne.edu/node/7713&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>05/21/1968-06/24/1968</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

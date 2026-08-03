@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/523">
+<dc:title>Infinity</dc:title>
+<dc:description>Louisiana-born sculptor, Jose de Rivera designed and built the abstract sculpture &quot;Infinity&quot; that currently welcomes visitors to the &lt;a href=&quot;http://mallhistory.org/items/show/48&quot;&gt;Smithsonian National Museum of American History&lt;/a&gt;. The sculpture slowly rotates on its base, completing 1 revolution every 6 minutes. In 1965, the federal Art-in-Architecture program commissioned this statue by reserving half of 1 % of the estimated total construction costs of the new National Museum of History and Technology. Museum architect, Walker Cain, recommended Rivera&#039;s proposal for a new art work to accompany the new museum. After two years of design and construction, the sculpture was dedicated in the spring of 1967.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Jose+de+Rivera&quot;&gt;Jose de Rivera&lt;/a&gt;</dc:creator>
+<dc:source>Institutional History Division, Smithsonian Institution Archives. &lt;a href=&quot;http://siris-sihistory.si.edu/ipac20/ipac.jsp?&amp;amp;profile=all&amp;amp;source=~!sichronology&amp;amp;uri=full=3100001~!9357~!0#focus&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>3/28/1967 (dedicated)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

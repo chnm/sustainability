@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/284">
+<dc:title>Early Washington, DC</dc:title>
+<dc:description>This landscape painting of Washington, DC, looks out from the area that is Union Station today onto the early &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;US Capitol building&lt;/a&gt;. &lt;a href=&quot;http://mallhistory.org/items/show/152&quot;&gt;George Washington&lt;/a&gt; built two row houses to the right of the Capitol. Although this is a highly romanticized view of the city, when artist William McLeod painted this landscape in 1844, &lt;a href=&quot;http://mallhistory.org/items/show/402&quot;&gt;cows still roamed the Mall and much of the land around the Capitol remained undeveloped&lt;/a&gt;.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=William+McLeod&quot;&gt;William McLeod&lt;/a&gt;</dc:creator>
+<dc:source>Department of State Diplomatic Reception Rooms. &lt;a href=&quot;https://diplomaticrooms.state.gov/Pages/item.aspx?item=49&amp;amp;RootFolder=/Collection%20Items&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1844</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

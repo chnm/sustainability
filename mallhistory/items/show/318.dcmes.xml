@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/318">
+<dc:title>Jefferson Pier</dc:title>
+<dc:description>This historical survey stone was established in 1793 to mark the prime meridian of the United States. It was also intended to mark the intersection of direct lines from the middle of the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt; and the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt;, but it is in fact a little off center. The first marker, a wooden stake, was replaced by a stone in 1804. In the 1870s, the Army Corps of Engineers accidentally removed that marker, and the present stone was placed in 1889. The prime meridian was relocated in 1850.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Colonel+O.H.+Ernst&quot;&gt;Colonel O.H. Ernst&lt;/a&gt;</dc:creator>
+<dc:source>National Oceanic and Atmospheric Administration/Department of Commerce. &lt;a href=&quot;http://www.photolib.noaa.gov/htmls/geod0508.htm&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1793 (established)</dc:date>
+<dc:date>1889 (restored)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/67">
+<dc:title>Eisenhower Executive Office Building</dc:title>
+<dc:description>Located next to the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt;, the Eisenhower Executive Office Building currently houses offices for executive staffs of the President, Vice President, First Lady, and Second Lady. Designed in the French Second Empire architectural style, this massive granite building originally housed the &lt;a href=&quot;http://mallhistory.org/items/show/476&quot;&gt;State Department, War Department, and the Department of the Navy&lt;/a&gt;. The building took 17 years to complete. It was the largest office building in the US when it opened with 553 rooms. Each office door contained a brass knob with the insignia of the State, War, or Navy department. The building has been renovated and is a National Historic Landmark.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Alfred+B.+Mullett&quot;&gt;Alfred B. Mullett&lt;/a&gt;</dc:creator>
+<dc:date>1888 (building opened)</dc:date>
+<dc:date>1871  (construction began)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

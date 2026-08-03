@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/307">
+<dc:title>Armory Square Hospital</dc:title>
+<dc:description>Built in 1862 as a model hospital to treat &lt;a href=&quot;http://mallhistory.org/items/show/354&quot;&gt;wounded Union soldiers&lt;/a&gt;, the Armory Square Hospital had twelve pavilions, overflow tents, and 1,000 hospital beds. It included officers&#039; quarters as well as a chapel. President Lincoln frequently visited the patients here, shaking hands, and offering words of comfort. He suggested building flower beds between the wards using plants from government gardens. After the war, the hospital closed. The armory building was used for storage and then as the home of the &lt;a href=&quot;http://mallhistory.org/items/show/316&quot;&gt;Fish Commission&lt;/a&gt;. It was demolished in 1964. The &lt;a href=&quot;http://mallhistory.org/items/show/269&quot;&gt;National Air and Space Museum&lt;/a&gt; stands on the former hospital site.</dc:description>
+<dc:source>U.S. National Library of Medicine. &lt;a href=&quot;http://www.nlm.nih.gov/hmd/medtour/armory.html&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1862 (built)</dc:date>
+<dc:date>1964 (demolished)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

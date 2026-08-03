@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/171">
+<dc:title>Children in the Reflecting Pool</dc:title>
+<dc:description>The Reflecting Pool was never intended to be a swimming pool. In the late 1920s, however, people cooled off in its waters because there were not many other options. &lt;a href=&quot;http://mallhistory.org/items/show/185&quot;&gt;The beaches at the Tidal Basin closed in 1925 due to concerns about water quality and increasing conflict over segregation&lt;/a&gt;. Washington, DC, had only a handful of city pools, which were always crowded and cost money to access. City residents used public bodies of water like the &lt;a href=&quot;http://mallhistory.org/items/show/23&quot;&gt;Reflecting Pool&lt;/a&gt;, the fountains near the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt;, and other fountains throughout the city, as public pools, despite laws and regulations to the contrary.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/92522677/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>07/07/1926</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

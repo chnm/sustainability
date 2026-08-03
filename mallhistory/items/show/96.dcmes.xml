@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/96">
+<dc:title>Nicholas King</dc:title>
+<dc:description>Nicholas King worked as a surveyor for the&lt;a href=&quot;http://mallhistory.org/items/show/308&quot;&gt; Board of Commissioners of Washington&lt;/a&gt; from 1796 to 1797. Named the Surveyor for the City of Washington in June 1803, he served in that position until his death in May 1812. In 1804, King helped to measure and record the first meridian in the US in Washington. At &lt;a href=&quot;http://mallhistory.org/items/show/301&quot;&gt;President Thomas Jefferson&lt;/a&gt;&#039;s request, he placed a marker along this imaginary line of longitude on the Mall, in a spot west and north of where the Washington Monument stands today.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Nicholas+King&quot;&gt;Nicholas King&lt;/a&gt;</dc:creator>
+<dc:source>The Thomas Jefferson Papers, Library of Congress. &lt;a href=&quot;http://hdl.loc.gov/loc.mss/mtj.mtjbib026163%20&quot;&gt;View original document.&lt;/a&gt;&lt;a href=&quot;http://hdl.loc.gov/loc.mss/mtj.mtjbib026163%20&quot;&gt;&lt;br /&gt;&lt;/a&gt;</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

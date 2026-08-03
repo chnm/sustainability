@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/487">
+<dc:title>Statue of George Washington moving across the Mall</dc:title>
+<dc:description>&lt;a href=&quot;http://mallhistory.org/items/show/117&quot;&gt;Horatio Greenough&lt;/a&gt;&#039;s 1841 &lt;a href=&quot;http://mallhistory.org/items/show/17&quot;&gt;sculpture of George Washington&lt;/a&gt; has lived in 4 different locations on the Mall. Originally built for the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;US Capitol Rotunda&lt;/a&gt;, Congress did not like the statue and moved it outside to the east lawn 1 year later. Still unhappy with the statue, Congress transferred it to the &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;Smithsonian for display at the &quot;Castle&quot;&lt;/a&gt; in 1908. It remained there until 1962, when Smithsonian staff moved the statue by crane across the Mall to the new &lt;a href=&quot;http://mallhistory.org/items/show/48&quot;&gt;National Museum of History and Technology&lt;/a&gt;. Staff had to remove a glass window and several bricks in the Castle to move the statue out of the building, because it was too large to fit through the doors.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Horatio+Greenough&quot;&gt;Horatio Greenough&lt;/a&gt;</dc:creator>
+<dc:source>Smithsonian Institution Archives. &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_9335&quot;&gt;View original.&lt;/a&gt;</dc:source>
+<dc:date>9/6/1962</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

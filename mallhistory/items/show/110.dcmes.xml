@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/110">
+<dc:title>Diane Carlson Evans</dc:title>
+<dc:description>Diane Carlson Evans is a Vietnam veteran who was the driving force behind the creation of the &lt;a href=&quot;http://mallhistory.org/items/show/65&quot;&gt;Vietnam Women&#039;s Memorial&lt;/a&gt;. Motivated to include the voices of approximately 265,000 military women of the Vietnam era whose experiences were overlooked or forgotten, Evans founded the Vietnam Women&#039;s Memorial Project in 1984 to push to include women in memorials of the war. Evans advocated before Congress and to the public for seven years before authorization was granted to create the Vietnam Women&#039;s Memorial. The sculpture was dedicated on November 11, 1993 as part of the Vietnam Veterans Memorial.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Diane+Carlson+Evans&quot;&gt;Diane Carlson Evans&lt;/a&gt;</dc:creator>
+<dc:source>Vietnam Women&#039;s Memorial Foundation. &lt;a href=&quot;http://www.vietnamwomensmemorial.org/vwmf.php&quot;&gt;View original photograph.&lt;/a&gt;</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1980-1999&quot;&gt;1980-1999&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

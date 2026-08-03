@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/433">
+<dc:title>Native Landscape at the National Museum of the American Indian</dc:title>
+<dc:description>The grounds surrounding the &lt;a href=&quot;http://mallhistory.org/items/show/49&quot;&gt;National Museum of the American Indian&lt;/a&gt; are an extension of the exhibit space within. Representing what local Chesapeake Bay landscapes would have been like before European contact, the space pays tribute to indigenous social and spiritual land use patterns. The landscape includes features such as a hardwood forest, wetlands, meadows, Grandfather Rocks, and traditional croplands. More than 33,000 plants of approximately 150 species can be found throughout the landscape. There are also performances for visitors at the outdoor amphitheater and fire pit.</dc:description>
+<dc:source>Smithsonian Institution. &lt;a href=&quot;http://www.gardens.si.edu/our-gardens/native-landscape.html&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>2004</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

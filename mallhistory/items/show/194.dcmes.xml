@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/194">
+<dc:title>Work Begins on the Smithsonian &quot;Castle&quot;</dc:title>
+<dc:description>&lt;a href=&quot;http://mallhistory.org/items/show/74&quot;&gt;James Renwick, Jr &lt;/a&gt;began work on the &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;original Smithsonian Institution building&lt;/a&gt; in 1847. Renwick&#039;s design was inspired by western European structures originally built in the 1100s, making this Gothic Revival building look like a castle. When construction began, &lt;a href=&quot;http://mallhistory.org/items/show/355&quot;&gt;the Mall was quiet&lt;/a&gt; and the Smithsonian building was isolated from the city Washington. When it opened in 1855, the Castle housed the first museum on the Mall.</dc:description>
+<dc:source>&lt;p&gt;Smithsonian Institution Archives. &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_10696&quot;&gt;View original&lt;/a&gt;.&lt;/p&gt;</dc:source>
+<dc:date>1847</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

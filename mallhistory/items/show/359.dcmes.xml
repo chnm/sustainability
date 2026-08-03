@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/359">
+<dc:title>Baseball Tournament on the Ellipse</dc:title>
+<dc:description>In August 1865 the Washington Nationals Baseball Club invited the Philadelphia Athletics and the Brooklyn Atlantics to come and play in what was billed as a &lt;a href=&quot;http://mallhistory.org/items/show/360&quot;&gt;tournament&lt;/a&gt;. The Nationals constructed stands for spectators on their &lt;a href=&quot;http://mallhistory.org/items/show/319&quot;&gt;home turf&lt;/a&gt; just south of the White House, the area we now call the &lt;a href=&quot;http://mallhistory.org/items/show/315&quot;&gt;Ellipse&lt;/a&gt;. Over 10,000 people came to watch the games, even with an admission fee of $1. The Nationals faced the Athletics on August 28 and the Atlantics on the 29th, losing both games. The two out of town teams did not play each other.</dc:description>
+<dc:source>&lt;em&gt;Daily National Republican&lt;/em&gt;, August 29, 1865, Second Edition. &lt;a href=&quot;http://chroniclingamerica.loc.gov/lccn/sn86053570/1865-08-29/ed-1/seq-3/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>08/29/1865</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

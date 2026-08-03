@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/387">
+<dc:title>New Conservatory is Rising Steadily</dc:title>
+<dc:description>The original &lt;a href=&quot;http://mallhistory.org/items/show/29&quot;&gt;botanic gardens&lt;/a&gt; in Washington were built in line with the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol building&lt;/a&gt;, where the &lt;a href=&quot;http://mallhistory.org/items/show/25&quot;&gt;Capitol Reflecting Pool&lt;/a&gt; is today. The new design proposed for the Mall in the early 1900s called for an open green space from the Capitol to the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt;, sparking a debate over the &lt;a href=&quot;http://mallhistory.org/items/show/383&quot;&gt;relocation of the Botanic Gardens&lt;/a&gt;. The final decision was to shift the institution to Independence Ave, then Canal Street. The new buildings described in this article were state-of-the art for the time, fit for the National Botanic Gardens.</dc:description>
+<dc:source>&lt;em&gt;The Washington Post&lt;/em&gt;.</dc:source>
+<dc:date>1/26/1932</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

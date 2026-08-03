@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/239">
+<dc:title>Miniature Cyclone Strikes South Washington</dc:title>
+<dc:description>In September 1888 a tornado, called a cyclone by the press, touched down on Maryland Avenue SW. It damaged the roofs of the &lt;a href=&quot;http://mallhistory.org/items/show/55&quot;&gt;National Museum&lt;/a&gt; and the &lt;a href=&quot;http://mallhistory.org/items/show/316&quot;&gt;Fish Commission&lt;/a&gt; buildings. Just north of the Fish Commission buildings, a group of houses and businesses were damaged. The &lt;a href=&quot;http://mallhistory.org/items/show/29&quot;&gt;Botanic Garden&lt;/a&gt;, then located in line with the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt;, also sustained damage to its greenhouses and some of the plants. A group of sea turtles at the Fish Commission attempted to escape onto the Mall when their gate broke down, but the watchman in charge managed to return them to their pen.</dc:description>
+<dc:source>&lt;em&gt;The Washington Post&lt;/em&gt;.</dc:source>
+<dc:date>09/17/1888</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

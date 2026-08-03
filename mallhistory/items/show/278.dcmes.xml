@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/278">
+<dc:title>The Rabbis&#039; March</dc:title>
+<dc:description>On October 6, 1943, a group of 400 rabbis walked from Union Station to the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;US Capitol&lt;/a&gt;, &lt;a href=&quot;http://mallhistory.org/items/show/33&quot;&gt;Lincoln Memorial&lt;/a&gt;, and &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt; in an effort to raise awareness that millions of European Jews were being killed or imprisoned by the Nazi regime. Led by &lt;a href=&quot;http://mallhistory.org/items/show/119&quot;&gt;Hillel Kook&lt;/a&gt;, the rabbis marched to the White House to urge &lt;a href=&quot;http://mallhistory.org/items/show/27&quot;&gt;President Franklin D. Roosevelt&lt;/a&gt; in person to resuce Jewish victims of the Holocaust. Roosevelt would not meet with them, but Vice President Henry Wallace accepted a petition from the rabbis calling for immediate US action. Many moderate Jewish leaders opposed the march, but &lt;a href=&quot;http://mallhistory.org/items/show/238&quot;&gt;the rabbis march on the Mall&lt;/a&gt; caught the attention of the American press, bystanders, and the Roosevelt administration.</dc:description>
+<dc:source>&lt;em&gt;Jewish Telegraphic Agency&lt;/em&gt; (JTA) . &lt;a href=&quot;http://www.jta.org/1943/09/29/archive/rabbis-will-march-to-washington-to-urge-immediate-rescue-of-jews-in-europe&quot;&gt;View transcript.&lt;/a&gt;</dc:source>
+<dc:date>10/06/1943</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/28">
+<dc:title>First Air Mail Flight Marker</dc:title>
+<dc:description>Commemorating the &lt;a href=&quot;http://mallhistory.org/items/show/221&quot;&gt;first air mail flight&lt;/a&gt; connecting Washington, Philadelphia, and New York, the Aero Club of Washington placed this plaque in 1958 to mark the 40th anniversary of that flight. Following 52 experimental flights by the Post Office Department in 1911 and 1912, the first extended test of airmail service occurred in May 1918, when the US Army and the Post Office Department together set up an experimental line between New York and Washington, DC using army pilots.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Aero+Club+of+Washington&quot;&gt;Aero Club of Washington&lt;/a&gt;</dc:creator>
+<dc:source>National Park Service. &lt;a href=&quot;http://www.hscl.cr.nps.gov/insidenps/report.asp?STATE=DC&amp;amp;PARK=NAMA&amp;amp;SORT=&amp;amp;RECORDNO=147&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>05/18/1958 (Erected)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

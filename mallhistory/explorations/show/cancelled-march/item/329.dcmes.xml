@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/329">
+<dc:title>March of Mourning Set for Nation&#039;s Capitol</dc:title>
+<dc:description>Plans for a March on Washington, organized by civil rights activist and labor leader &lt;a href=&quot;http://mallhistory.org/items/show/97&quot;&gt;A. Philip Randolph&lt;/a&gt;, gained momentum in 1941. African Americans were frustrated by racial discrimination in the defense industry, one of largest industries at the time. African American leaders envisioned tens of thousands of marchers parading through the city and ending at the &lt;a href=&quot;http://mallhistory.org/items/show/33&quot;&gt;Lincoln Memorial&lt;/a&gt;. That Randolph choose the Lincoln Memorial as a rallying point was not surprising: the site had served as focal point for civil rights since segregated audiences participated in the &lt;a href=&quot;http://mallhistory.org/items/show/542&quot;&gt;memorial dedication&lt;/a&gt; in 1922.</dc:description>
+<dc:source>&lt;em&gt;The Chicago Defender&lt;/em&gt; (National edition).</dc:source>
+<dc:date>5/17/1941</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

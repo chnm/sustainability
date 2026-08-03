@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/378">
+<dc:title>The national capital, Washington, DC</dc:title>
+<dc:description>This detail of the bird&#039;s eye view of the city, &quot;The national capital, Washington, D.C. Sketched from nature by Adolph Sachse, 1883-1884&quot; shows the National Mall before the Army Corps of Engineers began to dredge the &lt;a href=&quot;http://mallhistory.org/items/show/424&quot;&gt;Potomac River&lt;/a&gt; to fill in the tidal wetlands. The project was intended to enlarge the shipping channel and to help prevent flooding and sewage accumulation. The &lt;a href=&quot;http://mallhistory.org/items/show/326&quot;&gt;Reclamation of Potomac Flats&lt;/a&gt; began in 1882 and continued to 1890. Landfill extended the length and width of the Mall, forming East Potomac Park and extending the Mall beyond the site of the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt;. When the project ended, Washington, DC, had 638 acres of new land.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Adolph+Sachse&quot;&gt;Adolph Sachse&lt;/a&gt;</dc:creator>
+<dc:rights>&lt;span&gt;Library of Congress Geography and Map Division&lt;/span&gt;. &lt;a href=&quot;http://www.loc.gov/item/75693178&quot;&gt;View original&lt;/a&gt;.</dc:rights>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

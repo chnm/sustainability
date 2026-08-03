@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/208">
+<dc:title>Cherry Tree Protest at Jefferson Memorial site</dc:title>
+<dc:description>In November 1938 a group of white women led by Eleanor Patterson, owner of the &lt;em&gt;Washington Times-Herald&lt;/em&gt;, protested the removal of &lt;a href=&quot;http://mallhistory.org/items/show/24&quot;&gt;cherry trees&lt;/a&gt; from the &lt;a href=&quot;http://mallhistory.org/items/show/430&quot;&gt;Tidal Basin&lt;/a&gt; to make way for the &lt;a href=&quot;http://mallhistory.org/items/show/31&quot;&gt;Jefferson Memorial&lt;/a&gt;. On November 18, the women chained themselves to trees at the Memorial worksite and stole workmen&#039;s shovels. Their tactics delayed cherry tree removal until officials convinced the women that after the removal of cherry trees to make way for the Memorial, more would be planted elsewhere along the Tidal Basin.</dc:description>
+<dc:source>&quot;Roosevelt Curbs Tree &#039;Rebellion,&#039;&quot; &lt;em&gt;New York Times&lt;/em&gt;, November 19, 1938.</dc:source>
+<dc:date>11/17/1938-11/19/1938</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

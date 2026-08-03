@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/468">
+<dc:title>First Annual Smithsonian Kite Festival </dc:title>
+<dc:description>The First Annual Smithsonian Kite Carnival (later referred to as the Kite Festival) took place on the National Mall on March 25, 1967. Individuals could compete in contests with homemade kites as well as ready-made ones. The festival also included kite-making workshops led by &lt;a href=&quot;http://mallhistory.org/items/show/269&quot;&gt;National Air and Space Museum&lt;/a&gt; curator Paul E. Garber, a lecture series, and a special display of kites made by Garber and his wife. The event was sponsored by the Smithsonian Institution for the first 44 years and became a part of the &lt;a href=&quot;http://mallhistory.org/items/show/480&quot;&gt;National Cherry Blossom Festival &lt;/a&gt;in 2010.</dc:description>
+<dc:source>National Archives at College Park. &lt;a href=&quot;http://research.archives.gov/description/2051050&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>3/25/1967</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/129">
+<dc:title>First Division Monument</dc:title>
+<dc:description>The First Division Monument, funded by the Society of the First Division, was first created to remember First Division soldiers who died while serving in World War I. The Monument, designed by Cass Gilbert and &lt;a href=&quot;http://mallhistory.org/items/show/501&quot;&gt;Daniel Chester French&lt;/a&gt;, was dedicated in 1924. Since then, additions to the monument have been built to commemorate service in World War II, Vietnam War, and Desert Storm. Cass Gilbert Jr., son of the original sculptor, designed the World War II addition.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Cass+Gilbert&quot;&gt;Cass Gilbert&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Cass+Gilbert+Jr&quot;&gt;Cass Gilbert Jr&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Daniel+Chester+French&quot;&gt;Daniel Chester French&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/collection/thc/item/thc1995013277/pp/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1924</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

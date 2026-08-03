@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/215">
+<dc:title>Queen Elizabeth visits the Smithsonian &quot;Castle&quot;</dc:title>
+<dc:description>In July of 1976 Queen Elizabeth II came to the US to commemorate the Bicentennial of the American Revolution. One of her stops while in Washington, DC, was the &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;Smithsonian Institution Building&lt;/a&gt;, or the “Castle,” and the National Mall. The night before, her Majesty had been an honored guest at a state dinner in the Rose Garden within &lt;a href=&quot;http://mallhistory.org/items/show/20&quot;&gt;President’s Park&lt;/a&gt;, hosted by President Gerald Ford. At the Castle, she was greeted by the Smithsonian&#039;s Vice President, Nelson Rockefeller, and Secretary &lt;a href=&quot;http://mallhistory.org/items/show/134&quot;&gt;S. Dillon Ripley.&lt;/a&gt;</dc:description>
+<dc:source>Smithsonian Institution Archives. &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_8561?back=%2Fcollections%2Fsearch%3Fquery%3D1976%2520queen%2520elizabeth%26page%3D1%26perpage%3D10%26sort%3Drelevancy%26view%3Dlist&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>07/08/1976</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

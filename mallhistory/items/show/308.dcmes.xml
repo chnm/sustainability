@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/308">
+<dc:title>Commissioners for the District of Columbia</dc:title>
+<dc:description>In 1791, &lt;a href=&quot;http://mallhistory.org/items/show/152&quot;&gt;President Washington&lt;/a&gt; appointed Thomas Johnson, Daniel Carroll, and David Stuart commissioners to supervise the planning, design, and construction of the new capital city and surrounding federal district. They oversaw the survey and land acquisition of the district, and were responsible for approving a modified version of &lt;a href=&quot;http://mallhistory.org/items/show/82&quot;&gt;Pierre Charles L&#039;Enfant&#039;s&lt;/a&gt; city plan.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Commissioners+for+the+District+of+Columbia&quot;&gt;Commissioners for the District of Columbia&lt;/a&gt;</dc:creator>
+<dc:source>George Washington Papers, Library of Congress. &lt;a href=&quot;http://memory.loc.gov/cgi-bin/ampage?collId=mgw4&amp;amp;fileName=gwpage105.db&amp;amp;recNum=1139&amp;amp;tempFile=./temp/~ammem_s5rR&amp;amp;filecode=mgw&amp;amp;next_filecode=mgw&amp;amp;prev_filecode=mgw&amp;amp;itemnum=20&amp;amp;ndocs=100&quot;&gt;View original document&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

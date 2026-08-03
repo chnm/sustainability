@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/144">
+<dc:title>United States Marine Band</dc:title>
+<dc:description>The United States Marine Band was established by an Act of Congress in 1798 and has been &lt;a href=&quot;http://mallhistory.org/items/show/202&quot;&gt;based in Washington, DC, since 1800&lt;/a&gt;. They are known as &quot;The President&#039;s Own,&quot; and played at the first Inauguration in Washington (1801), the first Inaugural Ball (1809), and countless other White House functions. In 1883, led by their director, &lt;a href=&quot;http://mallhistory.org/items/show/142&quot;&gt;John Philip Sousa&lt;/a&gt;, the band played in front of the Smithsonian Castle for the dedication of the &lt;a href=&quot;http://mallhistory.org/items/show/19&quot;&gt;statue&lt;/a&gt; of&lt;a href=&quot;http://mallhistory.org/items/show/349&quot;&gt; Joseph Henry&lt;/a&gt;.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=United+States+Marine+Band&quot;&gt;United States Marine Band&lt;/a&gt;</dc:creator>
+<dc:source>United States Marine Band. &lt;a href=&quot;http://www.marineband.usmc.mil/imgs/sub/library_archives/1940easter.jpg&quot;&gt;View original image.&lt;/a&gt;</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

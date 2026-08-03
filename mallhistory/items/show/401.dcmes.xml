@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/401">
+<dc:title>Women Workers Leaving the Treasury Department</dc:title>
+<dc:description>During the Civil War, the &lt;a href=&quot;http://mallhistory.org/items/show/337&quot;&gt;Department of the Treasury&lt;/a&gt; hired women workers to fill clerical positions vacated by men who had left to fight with the Union Army. Until that time, clerking was strictly a male occupation. Believing women were particularly well-suited for repetitive, routine tasks, the Secretary of the Treasury assigned them to hand-cut paper money, usually printed in amounts of four bills per sheet. A Union officer observed that it was difficult to live on their salary of $600 a year because room and board cost about $50 per month.</dc:description>
+<dc:source>&lt;em&gt;Harpers Weekly&lt;/em&gt;, February 18, 1865.</dc:source>
+<dc:date>1865</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

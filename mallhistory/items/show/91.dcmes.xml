@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/91">
+<dc:title>Diana Hopkins</dc:title>
+<dc:description>Diana lived with her father and stepmother at the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt; from 1940-1943, when her father, Harry Hopkins, served as a close adviser to President &lt;a href=&quot;http://mallhistory.org/items/show/27&quot;&gt;Franklin D. Roosevelt&lt;/a&gt;. Diana participated in the &lt;a href=&quot;http://mallhistory.org/items/show/219&quot;&gt;Easter Egg Roll&lt;/a&gt; each year that she lived in the White House. In 1943, Diana, at the age of 11, was given permission to plant a &lt;a href=&quot;http://mallhistory.org/items/show/391&quot;&gt;Victory Garden &lt;/a&gt;on the South Lawn of the White House grounds. Victory Gardens were small vegetable gardens grown by families to supplement the food rations they received during World War II.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Diana+Hopkins&quot;&gt;Diana Hopkins&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2003690075/&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

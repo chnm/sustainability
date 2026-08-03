@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/146">
+<dc:title>Augustus Saint-Gaudens</dc:title>
+<dc:description>&lt;p class=&quot;p1&quot;&gt;A prominent sculptor of memorials and monuments since the 1880s, Saint-Gaudens was a member of the &lt;a href=&quot;http://mallhistory.org/items/show/179&quot;&gt;Senate Park Commission&lt;/a&gt;. Formed in 1901, this commission was charged with &lt;a href=&quot;http://mallhistory.org/items/show/206&quot;&gt;developing the National Mall&lt;/a&gt; and other areas of Washington, DC. Saint-Gaudens not only created sculptures but designed the landscape around them to enhance their beauty. He brought his experience and ideas to the National Mall, incorporating landscape designs to frame the statues, monuments, and memorials of the Mall.&lt;/p&gt;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Augustus+Saint-Gaudens&quot;&gt;Augustus Saint-Gaudens&lt;/a&gt;</dc:creator>
+<dc:source>Photograph Archives, Smithsonian American Art Museum. &lt;a href=&quot;http://siris-juleyphoto.si.edu/ipac20/ipac.jsp?&amp;amp;profile=all&amp;amp;source=~!sijuleyphotos&amp;amp;uri=full=3100001~!21708~!0#focus&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

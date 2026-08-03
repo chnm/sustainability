@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/469">
+<dc:title>National Powwows</dc:title>
+<dc:description>The National Powwows began in September 2002. They were organized by the &lt;a href=&quot;http://mallhistory.org/items/show/49&quot;&gt;Smithsonian’s National Museum of the American Indian&lt;/a&gt; in anticipation of the opening of the museum. The events were attended by thousands from the US and Canada to celebrate American Indian culture through dancing, music, food, clothing, and events. Hundreds of tribes participated in a dance competition at the powwow, where members of the tribe wore traditional clothing. Subsequent powwows were held in 2005 and 2007.</dc:description>
+<dc:source>Cowtools via Flickr. &lt;a href=&quot;http://www.flickr.com/photos/65189390@N00/1107156681/in/photolist-2FQt7i-3173sa-33LXRz-3yPjCK-3KXgPa-4fBTQc-4fBTQP&quot; target=&quot;_blank&quot;&gt;View original&lt;/a&gt;</dc:source>
+<dc:date>09/15/2002</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

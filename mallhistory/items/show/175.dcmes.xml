@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/175">
+<dc:title>Ku Klux Klan Rally </dc:title>
+<dc:description>&lt;p&gt;In 1925 the &lt;a href=&quot;http://mallhistory.org/items/show/232&quot;&gt;Ku Klux Klan (KKK) marched down Pennsylvania Avenue &lt;/a&gt;in Washington, DC. The organized event brought 25,000 members in full regalia to the city. Demonstrating at the height of their power, the KKK was a national fraternal organization founded on the premise of white supremacy. The KKK attacked the social and political rights of African Americans, immigrants, Catholics, and Jews. First founded in 1865, the power of the Klan peaked during the 1920s when urbanization, industrialization, and immigration frightened many Americans.&lt;/p&gt;</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/collection/npco/item/npc2008009001/&quot;&gt;View Original&lt;/a&gt;.</dc:source>
+<dc:date>08/08/1925</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

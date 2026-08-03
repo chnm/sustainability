@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/382">
+<dc:title>Transit of Venus March</dc:title>
+<dc:description>&lt;a href=&quot;http://mallhistory.org/items/show/142&quot;&gt;John Philip Sousa&lt;/a&gt; wrote this march in 1883 for the unveiling of the &lt;a href=&quot;http://mallhistory.org/items/show/19&quot;&gt;statue of Joseph Henry&lt;/a&gt;, first Secretary of the Smithsonian Institution, on April 19, 1883. At that event, the piece was played by the &lt;a href=&quot;http://mallhistory.org/items/show/144&quot;&gt;Marine Band&lt;/a&gt;, directed by Sousa. The sheet music was lost for over 100 years, until a copy was found in the Library of Congress. This recording features the Virginia Grand Military Band.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=John+Philip+Sousa&quot;&gt;John Philip Sousa&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress. &lt;a href=&quot;http://lcweb2.loc.gov/diglib/ihas/loc.natlib.ihas.200002625/default.html&quot;&gt;Listen to full recording&lt;/a&gt;. &lt;a href=&quot;http://www.loc.gov/item/ihas.100010997&quot;&gt;View sheet music&lt;/a&gt;.</dc:source>
+<dc:date>1883</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

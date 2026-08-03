@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/156">
+<dc:title>Martin Luther King Jr. Memorial</dc:title>
+<dc:description>The Martin Luther King Jr. Memorial was dedicated on the 48th anniversary of the &lt;a href=&quot;http://mallhistory.org/items/show/190&quot;&gt;March on Washington for Jobs and Freedom&lt;/a&gt;, where King delivered his &quot;I Have a Dream&quot; speech. King&#039;s college fraternity, Alpha Phi Alpha originally proposed a memorial to the civil rights leader on the Mall in 1984; a dozen years later in 1996, Congress approved a joint resolution authorizing the project.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Master+Lei+Yixin&quot;&gt;Master Lei Yixin&lt;/a&gt;</dc:creator>
+<dc:source>National Park Service</dc:source>
+<dc:date>08/28/2011 (Dedicated)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

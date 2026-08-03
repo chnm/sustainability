@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/116">
+<dc:title>Charles F. McKim</dc:title>
+<dc:description>In 1901, Charles McKim was appointed by Senator &lt;a href=&quot;http://mallhistory.org/items/show/88&quot;&gt;James McMillan&lt;/a&gt; to the &lt;a href=&quot;http://mallhistory.org/items/show/179&quot;&gt;Senate Park Commission&lt;/a&gt;, which was meant to suggest &lt;a href=&quot;http://mallhistory.org/items/show/350&quot;&gt;improvements&lt;/a&gt; to the National Mall. McKim was a dominant voice in the Commission, recommending a return to the 1791 design proposed by &lt;a href=&quot;http://mallhistory.org/items/show/82&quot;&gt;Pierre Charles L&#039;Enfant&lt;/a&gt; and extending the boundaries of the Mall to include the site designated for the &lt;a href=&quot;http://mallhistory.org/items/show/33&quot;&gt;Lincoln Memorial&lt;/a&gt;. Because of his work on the McMillan Commission, McKim was chosen by President Theodore Roosevelt in 1902 to remodel the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt;.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Charles+F.+McKim&quot;&gt;Charles F. McKim&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2001704023/&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

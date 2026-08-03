@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/400">
+<dc:title>A View of the Mall in St James&#039;s Park</dc:title>
+<dc:description>The Mall in London, which runs along the side of Saint James Park, was originally a playing field for King Charles II of England and his courtiers. They played pall-mall, a game similar to croquet. By the mid-1700s, it had become a tree-lined avenue where fashionable Londoners went to walk and socialize. This Mall, and others like it, helped inspire the design and name of the National Mall.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Thomas+Bowles+III+%28engraver%29&quot;&gt;Thomas Bowles III (engraver)&lt;/a&gt;</dc:creator>
+<dc:source>The British Museum. &lt;a href=&quot;http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3305894&amp;amp;partId=1&quot;&gt;View original&lt;/a&gt;</dc:source>
+<dc:date>1753</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

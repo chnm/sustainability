@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/375">
+<dc:title>Presidential Inauguration</dc:title>
+<dc:description>James Monroe was the first president to take the oath of office outdoors after the government moved to Washington. Previous inaugurations were held indoors, which limited the number of people who could attend. The inauguration was originally going to be held indoors, but members of the Senate and the House of Representatives could not agree on details such as what chairs to use. As this newspaper article mentions, a temporary portico was erected for the ceremony. Because the ceremony was outdoors, many more people were able to attend the inauguration than in previous years.</dc:description>
+<dc:source>&lt;em&gt;Washington City Weekly Gazette&lt;/em&gt;</dc:source>
+<dc:date>03/08/1817</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

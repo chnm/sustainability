@@ -218,8 +218,8 @@ NAV-IMG-CONTRAST) plus a real 2.4.11 finding. New rows below.
   interactive neighbour ≥ 44px center-to-center). Pass.
 - ✅ **3.3.7 Redundant Entry / 3.3.8 Accessible Authentication** (2.2 AA)
   — N/A: no functional multi-step forms; auth is stripped.
-- **Minor (non-blocking):** homepage `<title>` renders as
-  `| Eagle Eye Citizen` (empty leading segment — front page has no title
-  prefix). 2.4.2 is technically met (site name present) but it should read
-  e.g. `Eagle Eye Citizen — Home`. Interior pages are fine
-  (`About | Eagle Eye Citizen`, etc.).
+- ✅ **Homepage `<title>`** — fixed 2026-08-04. Was `| Eagle Eye Citizen`
+  (empty leading segment — the front page has no title prefix); stripped
+  the leading `| ` so it now reads `Eagle Eye Citizen`. Interior pages were
+  already fine (`About | Eagle Eye Citizen`, etc.). Only `index.html` was
+  affected.

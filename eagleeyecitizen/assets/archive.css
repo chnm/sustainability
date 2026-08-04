@@ -75,3 +75,67 @@ body .teach-link--well .ribbon {
   margin: 0 0.5rem 1rem;
   text-decoration: none;
 }
+
+/* ─────────────────────────────────────────────────────────────────────
+   WCAG 1.4.3 Contrast (Minimum) — white theme text set directly over
+   header photos with no scrim. Audited 2026-08-04 (canvas pixel sampling):
+   the photos have bright regions where the white text fell to ~1.05:1
+   (interior nav over CapitalwLightRays.png) and ~2.5:1 (hero .tagline over
+   home-header-background.png). Back the text with a translucent dark scrim
+   so it clears AA no matter which pixels sit behind it.
+   ───────────────────────────────────────────────────────────────────── */
+
+/* Interior header top-nav links (Solve / Create / Teach …). rgba(0,0,0,.6)
+   composites to ≈5.7:1 even over a pure-white ray — need 3:1 (large text). */
+.cap-banner .hr_2 nav a {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2px 8px;
+  border-radius: 3px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* Homepage / hero tagline. 17px bold is NOT "large text" → needs 4.5:1;
+   the scrim gives ≈5.7:1 worst case. inline-block so the chip hugs the
+   text rather than banding the whole hero column. */
+.front-header .b-1 .tagline {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0.35em 0.6em;
+  border-radius: 4px;
+}
+
+/* ─────────────────────────────────────────────────────────────────────
+   Archive banner — temporarily disabled 2026-08-04 (per request).
+   Reversible: delete the rule below to bring the baked-in banner back
+   (the markup is still in every page). With the banner gone there is no
+   sticky header, so WCAG 2.4.11 (Focus Not Obscured) is satisfied with no
+   scroll offset. When you RE-ENABLE the banner, also add:
+       html { scroll-padding-top: 56px; }
+   so keyboard focus / in-page anchor targets aren't hidden behind the
+   48px sticky banner.
+   ───────────────────────────────────────────────────────────────────── */
+.ee-archive-banner {
+  display: none !important;
+}
+
+/* Footer partner logo — GMU Department of History & Art History, placed
+   next to the RRCHNM mark and linking to historyarthistory.gmu.edu. Uses a
+   CSS background-image (like .logo-chnm and the banner logo) so the path
+   resolves against THIS stylesheet regardless of page depth. Height-matched
+   to .logo-chnm (~41px); source art is 900×251 (3.59:1). `footer` prefix
+   bumps specificity so .logo-chnm flips from block to inline-block and the
+   two marks sit side by side. */
+footer .logo-chnm,
+footer .logo-histarthist {
+  display: inline-block;
+  vertical-align: middle;
+}
+footer .logo-histarthist {
+  width: 148px;
+  height: 41px;
+  margin-left: 20px;
+  background-image: url(histarthist-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+}

@@ -92,11 +92,19 @@ The footer carries the **RRCHNM** mark (`.logo-chnm`) and, since
 2026-08-04, the **GMU Department of History & Art History** mark
 (`.logo-histarthist`, links to `https://historyarthistory.gmu.edu/`)
 sitting immediately to its right. Both are CSS `background-image` logos
-styled in `assets/archive.css` (so the path resolves against the
-stylesheet, not the per-page depth) — `assets/histarthist-logo.png` is
-the horizontal full-colour GMU lockup (900×251, shown height-matched to
-RRCHNM at ~41px). The anchor is empty with an `aria-label` for its name,
-mirroring the `.logo-chnm` pattern.
+(empty anchors with an `aria-label` for the name) — `assets/histarthist-logo.png`
+is the horizontal full-colour GMU lockup (900×251). Paths resolve against
+`assets/archive.css`, not per-page depth.
+
+The two anchors are wrapped in `<div class="footer-logos">` and laid out
+as a **nowrap flex row** (styled in `archive.css`): on desktop they show
+full size (RRCHNM ~220×41, GMU ~230×64) side by side; on narrow viewports
+they **shrink together and stay on one line instead of stacking**
+(`aspect-ratio` + `background-size:contain` keep them proportional, and
+`min-width:0` on the footer grid cells lets the row scale below its
+content width). Earlier revisions used fixed-size `inline-block` logos,
+which stacked on narrow/zoomed viewports once the GMU mark was enlarged —
+hence the flex-row rewrite.
 
 ## Pitfalls hit before
 

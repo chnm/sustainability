@@ -118,24 +118,39 @@ body .teach-link--well .ribbon {
   display: none !important;
 }
 
-/* Footer partner logo — GMU Department of History & Art History, placed
-   next to the RRCHNM mark and linking to historyarthistory.gmu.edu. Uses a
-   CSS background-image (like .logo-chnm and the banner logo) so the path
-   resolves against THIS stylesheet regardless of page depth. Height-matched
-   to .logo-chnm (~41px); source art is 900×251 (3.59:1). `footer` prefix
-   bumps specificity so .logo-chnm flips from block to inline-block and the
-   two marks sit side by side. */
-footer .logo-chnm,
-footer .logo-histarthist {
-  display: inline-block;
-  vertical-align: middle;
+/* Footer partner logos — RRCHNM + GMU Department of History & Art History,
+   linking to historyarthistory.gmu.edu. Both are wrapped in
+   `<div class="footer-logos">` and laid out as a nowrap flex row so they
+   stay side by side and SHRINK to fit instead of stacking on narrow
+   viewports. `aspect-ratio` + `background-size:contain` keep each mark
+   proportional as the row scales; `min-width:0` on the footer grid cells
+   lets the row shrink below its natural content width. Background-image
+   (like the banner logo) so the path resolves against THIS stylesheet
+   regardless of page depth. Source art: rrchnm 541×100, GMU 900×251. */
+footer .container > div { min-width: 0; }
+footer .footer-logos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  width: 100%;
 }
-footer .logo-histarthist {
-  width: 230px;
-  height: 64px;
-  margin-left: 24px;
-  background-image: url(histarthist-logo.png);
-  background-size: contain;
+footer .footer-logos .logo-chnm,
+footer .footer-logos .logo-histarthist {
+  display: block;
+  height: auto;
+  min-width: 0;
+  flex: 0 1 auto;
   background-repeat: no-repeat;
   background-position: left center;
+  background-size: contain;
+}
+footer .footer-logos .logo-chnm {
+  width: 220px;
+  aspect-ratio: 541 / 100;
+}
+footer .footer-logos .logo-histarthist {
+  width: 230px;
+  aspect-ratio: 900 / 251;
+  background-image: url(histarthist-logo.png);
 }

@@ -77,7 +77,9 @@ fetch fails and the hardcoded fallback tiles are kept.
 - **`about.html` and its footer "About" link** — removed 2026-08-04 (per
   request). The footer `<li><a href="…about.html">About</a></li>` was
   swept out of all 1502 pages; the page file was deleted. No other links
-  pointed at it.
+  pointed at it. That footer slot (after the CC-BY-NC-SA item) now holds an
+  **Accessibility** link → `https://rrchnm.org/accessibility/` (RRCHNM's
+  Accessibility Statement); absolute URL, so it's depth-independent.
 - **`create-challenges.html` and every "Create" link** — removed 2026-08-04
   (creation is no longer supported). Deleted the page; blanked the homepage
   `.home-nav` middle ticket to `<div class="btn btn-center"></div>` (the

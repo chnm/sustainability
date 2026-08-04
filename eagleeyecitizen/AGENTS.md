@@ -78,6 +78,13 @@ fetch fails and the hardcoded fallback tiles are kept.
   request). The footer `<li><a href="…about.html">About</a></li>` was
   swept out of all 1502 pages; the page file was deleted. No other links
   pointed at it.
+- **`create-challenges.html` and every "Create" link** — removed 2026-08-04
+  (creation is no longer supported). Deleted the page; blanked the homepage
+  `.home-nav` middle ticket to `<div class="btn btn-center"></div>` (the
+  `.home-nav` grid keeps Solve/Teach in place) and the interior header nav
+  to `<li class="middle-nav"></li>` on 561 pages — leaving the middle slot
+  blank rather than collapsing it. No `create-challenges.html` references
+  remain.
 
 ## Footer partner logos
 

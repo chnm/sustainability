@@ -137,7 +137,7 @@ Lightbox = {
           <div id="imageData"></div>\
         </div>\
       </div>';
-    var loading = '<div id="loading"><a href="#" id="loadingLink"></a></div>';
+    var loading = '<div id="loading"><a href="#" id="loadingLink" title="' + Drupal.t('Cancel') + '"></a></div>';
     var modal = '<div id="modalContainer" style="display: none;"></div>';
     var frame = '<div id="frameContainer" style="display: none;"></div>';
     var imageContainer = '<div id="imageContainer" style="display: none;"></div>';
@@ -151,8 +151,8 @@ Lightbox = {
     var caption = '<span id="caption"></span>';
     var numberDisplay = '<span id="numberDisplay"></span>';
     var close = '<a id="bottomNavClose" title="' + Drupal.t('Close') + '" href="#"></a>';
-    var zoom = '<a id="bottomNavZoom" href="#"></a>';
-    var zoomOut = '<a id="bottomNavZoomOut" href="#"></a>';
+    var zoom = '<a id="bottomNavZoom" href="#" title="' + Drupal.t('Zoom in') + '"></a>';
+    var zoomOut = '<a id="bottomNavZoomOut" href="#" title="' + Drupal.t('Zoom out') + '"></a>';
     var pause = '<a id="lightshowPause" title="' + Drupal.t('Pause Slideshow') + '" href="#" style="display: none;"></a>';
     var play = '<a id="lightshowPlay" title="' + Drupal.t('Play Slideshow') + '" href="#" style="display: none;"></a>';
 

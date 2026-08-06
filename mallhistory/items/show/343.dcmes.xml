@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/343">
+<dc:title>Flood of 1936</dc:title>
+<dc:description>One of the highest floods to hit Washington, DC, occurred on March 20, 1936. Flood waters crested at the Key Bridge at 18.5 feet. Around the Mall, much of East and West Potomac Parks were underwater, and some cherry trees were killed. Advance warning allowed the Capital Park Service to construct a temporary dike of stone and sandbags from 17th Street near the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt; along the north side of the &lt;a href=&quot;http://mallhistory.org/items/show/23&quot;&gt;Reflecting Pool&lt;/a&gt; to the &lt;a href=&quot;http://mallhistory.org/items/show/33&quot;&gt;Lincoln Memorial&lt;/a&gt;. Later the same year, Congress passed the Flood Control Act of 1936, which included provisions for building &lt;a href=&quot;http://mallhistory.org/items/show/394&quot;&gt;permanent levees &lt;/a&gt;to protect the National Mall.</dc:description>
+<dc:source>National Archives at College Park. &lt;a href=&quot;http://newdeal.feri.org/library/ae74.htm&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>3/20/1936</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

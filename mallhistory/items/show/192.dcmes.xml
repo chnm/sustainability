@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/192">
+<dc:title>National Drill and Encampment</dc:title>
+<dc:description>In May 1887, militia groups from nineteen states and the District of Columbia participated in a drill competition on the National Mall. They set up their tents on the grounds of the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt; and participated in marching, drilling, and shooting competitions on the &lt;a href=&quot;http://mallhistory.org/items/show/315&quot;&gt;Ellipse&lt;/a&gt;. Militia drill competitions were popular in the 1880s, but this was the first time black companies competed against white. Two white companies from Mississippi and Tennessee refused to march in a parade when they were placed behind a black company. Hospital tents near the encampment were provided by the Red Cross and overseen by Clara Barton.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2004674693/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>05/23/1887-05/30/1887</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

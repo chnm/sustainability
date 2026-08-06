@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/152">
+<dc:title>George Washington</dc:title>
+<dc:description>Authorized by The Residence Act of 1790 to select a site along the Potomac to be the home of the new national government, &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;President George Washington&lt;/a&gt; was heavily involved in the planning and development of the new federal city. He chose the area which is now Washington, DC, as the site, insisting that its southern boundary include the city of Alexandria, which was a part of the District of Columbia until 1846. In 1791, he appointed &lt;a href=&quot;http://mallhistory.org/items/show/82&quot;&gt;Pierre L&#039;Enfant&lt;/a&gt; to create a plan for laying out the streets and major buildings. Although L&#039;Enfant technically answered to the &lt;a href=&quot;http://mallhistory.org/items/show/308&quot;&gt;Commissioners&lt;/a&gt; for the Territory, he sent all of his reports to President Washington.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=George+Washington&quot;&gt;George Washington&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2003677109/&quot;&gt;View original image&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/356">
+<dc:title>Downing&#039;s Plan for the Mall</dc:title>
+<dc:description>&lt;a href=&quot;http://mallhistory.org/items/show/84&quot;&gt;Andrew J. Downing&lt;/a&gt; presented this proposal for a &lt;a href=&quot;http://mallhistory.org/items/show/205&quot;&gt;landscape design of the National Mall&lt;/a&gt; to President Millard Fillmore in February 1851. He incorporated the Capitol&#039;s western front (left) and &lt;a href=&quot;http://mallhistory.org/items/show/20&quot;&gt;White House grounds (right)&lt;/a&gt;, fulfilling Pierre L&#039;Enfant&#039;s desire for the two buildings to be connected by a park-like space. Downing divided the Mall into six spaces, connected by winding paths. As he wrote in a letter to the President a month after presenting his plan, he wanted the Mall to &quot;form a public museum of living trees and shrubs.&quot; Downing&#039;s plan was never fully implemented, in part due to his &lt;a href=&quot;http://mallhistory.org/items/show/11&quot;&gt;early death in 1852&lt;/a&gt; at the age of 36.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Andrew+Jackson+Downing&quot;&gt;Andrew Jackson Downing&lt;/a&gt;</dc:creator>
+<dc:source>National Archives at College Park. &lt;a href=&quot;http://research.archives.gov/description/6087997&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1851</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

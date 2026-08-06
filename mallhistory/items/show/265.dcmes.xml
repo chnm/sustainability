@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/265">
+<dc:title>2011 Earthquake in the Washington Monument</dc:title>
+<dc:description>On the afternoon of August 23, 2011, a &lt;a href=&quot;http://mallhistory.org/items/show/189&quot;&gt;5.8 magnitude earthquake&lt;/a&gt; occurred in Mineral, Virginia which was felt as far away as New York state. In Washington, DC the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt; swayed from the force of the earthquake. Visitors were evacuated by Park Rangers, as this video shows. Afterwards, several crack were discovered in the structure of the monument, and the elevator system was damaged. Four days after the earthquake, a hurricane passed through the city, adding water damage through the cracks to the damage from the earthquake. As a result, the Monument was closed until May 2014.</dc:description>
+<dc:source>National Park Service. &lt;a href=&quot;http://www.nps.gov/wamo/photosmultimedia/videos.htm&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>8/23/2011</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

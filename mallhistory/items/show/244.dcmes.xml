@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/244">
+<dc:title>Solomon Northup</dc:title>
+<dc:description>Solomon Northrup, a free African American from New York, arrived in Washington in 1841 in the company of two white men who had promised him a job as a fiddler. After a day touring the Capitol and White House Grounds, the men drugged him and handed him over to a &lt;a href=&quot;http://mallhistory.org/items/show/267&quot;&gt;slave trader&lt;/a&gt;. He was imprisoned in&lt;a href=&quot;http://mallhistory.org/items/show/45&quot;&gt; Williams&#039; Slave Pen&lt;/a&gt; near the Mall, and then sold into &lt;a href=&quot;http://mallhistory.org/items/show/475&quot;&gt;slavery&lt;/a&gt; for $1,000. He labored for twelve years on a cotton plantation until northern abolitionists, hearing of his plight, obtained his freedom through a series of legal battles in 1853.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Solomon+Northup&quot;&gt;Solomon Northup&lt;/a&gt;</dc:creator>
+<dc:source>&lt;em&gt;Twelve Years a Slave: Narrative of Solomon Northup&lt;/em&gt; (London, 1853). &lt;a title=&quot;Northup memoirs, e-book&quot; href=&quot;http://docsouth.unc.edu/fpn/northup/northup.html&quot;&gt;View original document.&lt;/a&gt;</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

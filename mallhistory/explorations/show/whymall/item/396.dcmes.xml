@@ -1,0 +1,11 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/396">
+<dc:title>Pall mall ball and mallets</dc:title>
+<dc:description>These mallets and ball were used to play a game called pall mall, which involved hitting the ball down a green playing field and through an iron hoop. The game was popular in England in the late 1600s and continued to be played into the early 1800s. This set is probably from the mid to late 1700s. The playing fields for the game were called Malls; the term came to be used for all long, open grassy areas where people walked or played.</dc:description>
+<dc:source>The British Museum, Online Collection. &lt;a href=&quot;http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=28914&amp;amp;partId=1&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

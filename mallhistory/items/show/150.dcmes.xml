@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/150">
+<dc:title>Spencer Baird</dc:title>
+<dc:description>Spencer Baird served as the first curator of the Smithsonian Institution and became the second Secretary of the Smithsonian. He worked at the Institution from 1850 until his death in 1887. Baird expanded and strengthened the Smithsonian&#039;s collections, and helped the young museum grow into a prominent research and educational organization. Baird devoted his career to caring for the museum&#039;s scientific collections and objects associated with the country&#039;s founding fathers. When Congress appropriated funds to create a &lt;a href=&quot;http://mallhistory.org/items/show/56&quot;&gt;second museum on the Mall &lt;/a&gt;next to the original &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;Smithsonian Castle&lt;/a&gt;, Baird became its director. In 1878, he was appointed as Secretary of the Smithsonian.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Spencer+Baird&quot;&gt;Spencer Baird&lt;/a&gt;</dc:creator>
+<dc:source>Smithsonian Institution Archive. &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_9587&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

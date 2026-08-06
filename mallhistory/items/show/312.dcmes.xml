@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/312">
+<dc:title>South B Street</dc:title>
+<dc:description>The street now known as Independence Avenue was originally called South B Street, following the district&#039;s street-naming conventions. In 1934, Congress voted to rename the street Independence Avenue, three years after it had renamed North B Street as Constitution Avenue.</dc:description>
+<dc:source>David Rumsey Map Collection. &lt;a href=&quot;http://www.davidrumsey.com/luna/servlet/s/x08h49&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1934 (renamed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

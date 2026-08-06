@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/391">
+<dc:title>Diana Hopkins, 11, Has Her Garden on White House Lawn</dc:title>
+<dc:description>Diana Hopkins lived in the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt; in the early 1940s with her father Harry, who was a special assistant to President Franklin D. Roosevelt. This article reports on the victory garden she was allowed to have on the White House grounds during World War II. Victory Gardens were small personal gardens planted during the war to help reduce civilian demand for food.</dc:description>
+<dc:source>&lt;em&gt;The Washington Post&lt;/em&gt;.</dc:source>
+<dc:date>5/11/1943</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/498">
+<dc:title>Turning the Ground Near the Lincoln Memorial</dc:title>
+<dc:description>&lt;p&gt;In the 1920s, the land on the western end of the Mall was transformed from a field into the planned landscape surrounding the newly-built &lt;a href=&quot;http://mallhistory.org/items/show/33&quot;&gt;Lincoln Memorial&lt;/a&gt;, designed by architect James Greenleaf. In this photo, a two-person team tills the land near the Memorial with a horse-drawn tractor to prepare the grounds for planting.&lt;/p&gt;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Theodor+Horydczak+%28photographer%29&quot;&gt;Theodor Horydczak (photographer)&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress, Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/thc1995009388/pp/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1920</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

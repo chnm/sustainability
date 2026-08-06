@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/418">
+<dc:title>Jose Artigas Statue</dc:title>
+<dc:description>General Jose Gervasio Artigas was a military and political leader in Uruguay in the 1800s. Influenced by the Enlightenment ideas which also sparked the American Revolution, Artigas&#039; revolutionary movement was part of the Spanish American wars for independence. This statue is a cast of one which stands in Uruguay. It was commissioned as a goodwill gesture between that nation and the United States in the early 1940s, but was not delivered until 1947. Two years later, Congress authorized funds for the creation of a base for the statue and the work of installing it at its present site.  </dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Juan+Manuel+Banes&quot;&gt;Juan Manuel Banes&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/resource/thc.5a36968/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>06/19/1950 (dedicated)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

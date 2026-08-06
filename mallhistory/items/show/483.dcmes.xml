@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/483">
+<dc:title>Tennis Courts in the South Yard</dc:title>
+<dc:description>From 1915 to 1935, there was a tennis court behind the &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;Smithsonian Institution Castle&lt;/a&gt;, next to the &lt;a href=&quot;http://mallhistory.org/items/show/465&quot;&gt;Smithsonian Astrophysical Observatory&lt;/a&gt; in the South Yard. The court was created for the Smithsonian&#039;s tennis team, which played in intramural as well as inter-departmental matches against teams from other federal agencies. This image shows Loyal B. Aldrich (Smithsonian Astrophysical Observatory employee), and Astrophysicist Charles Greeley Abbot (Fifth Secretary of the Smithsonian) playing tennis.</dc:description>
+<dc:source>Smithsonian Institution Archives. &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_9156&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1915 (constructed)</dc:date>
+<dc:date>1935 (converted into a parking lot)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

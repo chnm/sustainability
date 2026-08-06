@@ -1,0 +1,94 @@
+.preview-block .resource-meta {
+max-height:300px;
+overflow:hidden;
+}
+
+/* 
+My apologies for inflicting this CSS on you, Ken or Kim.
+Just trying to modify a few things quickly.
+*/
+
+.site-page-pagination {
+  display: none;
+}
+
+.page #content .blocks > h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 24px;
+    line-height: 48px;
+    font-weight: normal;
+}
+
+.preview .item .description {
+max-height: 120px;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.preview-block, 
+footer {
+border-top: 1px solid #dedede;
+}
+
+.call-to-action {
+padding: 0 1rem 0 1rem;
+border: 2px solid #c72e2e;
+background-color: rgba(199, 46, 46, 0.05);
+}
+
+.call-to-action p {
+padding: 0;
+}
+
+.site-title {
+text-transform: none;
+font-size: 44px;
+letter-spacing: 0;
+line-height: 1.1;
+}
+
+.inputs input[type="text"],
+.inputs input[type="url"],
+.inputs input[type="email"],
+.inputs textarea {
+width: 75%;
+}
+
+.inputs textarea {
+height: 200px;
+}
+
+footer {padding-top:1rem}
+
+@media screen and (max-width: 640px) {
+
+.item-showcase .item h3 {
+display: none;
+}
+
+header nav .navigation {
+    display:inherit;
+}
+
+nav .navigation {
+display: block !important;
+}
+
+.inputs input[type="text"],
+.inputs input[type="url"],
+.inputs input[type="email"],
+.inputs textarea {
+width: 100%;
+}
+
+}
+.footer-links{
+width:50%;
+float:left
+}
+.logos img {width:50%; }
+
+a {
+color: rgb(66, 121, 188);
+}

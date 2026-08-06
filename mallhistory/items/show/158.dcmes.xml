@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/158">
+<dc:title>First Execution in Washington: James McGirk</dc:title>
+<dc:description>&lt;a href=&quot;http://mallhistory.org/items/show/409&quot;&gt;James McGirk&lt;/a&gt;, also spelled McGurk, was hanged on October 28, 1802, near the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt; in the same area today occupied by the statues of Presidents &lt;a href=&quot;http://mallhistory.org/items/show/13&quot;&gt;Garfield&lt;/a&gt; and &lt;a href=&quot;http://mallhistory.org/items/show/21&quot;&gt;Grant&lt;/a&gt;. He was the first person executed in the District of Columbia. In April 1802, McGirk was convicted of having beaten his wife to death shortly after she delivered stillborn twins; newspapers speculated that his repeated physical abuse may have contributed to the infants&#039; death. Appeals to President Jefferson by McGirk and his lawyer for a stay of execution were unsuccessful.</dc:description>
+<dc:source>&lt;em&gt;Washington Federalist&lt;/em&gt;</dc:source>
+<dc:date>10/28/1802</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/363">
+<dc:title>The Mall in 1800</dc:title>
+<dc:description>In this passage, &lt;a href=&quot;http://mallhistory.org/items/show/118&quot;&gt;Margaret Bayard Smit&lt;/a&gt;h describes the Mall as it was when she first arrived in Washington in 1800, a plain covered in trees, shrubs, and flowers. By the time she wrote this passage in 1837, the banks of the &lt;a href=&quot;http://mallhistory.org/items/show/40&quot;&gt;Tiber&lt;/a&gt; had been transformed into the &lt;a href=&quot;http://mallhistory.org/items/show/41&quot;&gt;Washington Canal&lt;/a&gt;, and the groves had been harvested for timber for the new city.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Margaret+Bayard+Smith&quot;&gt;Margaret Bayard Smith&lt;/a&gt;</dc:creator>
+<dc:source>&lt;div class=&quot;csl-bib-body&quot;&gt;
+&lt;div class=&quot;csl-entry&quot;&gt;Smith, Margaret Bayard. &lt;a&gt;&lt;em&gt;The First Forty Years of Washington Society&lt;/em&gt;&lt;/a&gt;. Edited by Gaillard Hunt and J. Henley Smith. New York: C. Scribner’s Sons, 1906.&lt;/div&gt;
+&lt;/div&gt;</dc:source>
+<dc:date>1837</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

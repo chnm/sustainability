@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/51">
+<dc:title>Freer Gallery of Art</dc:title>
+<dc:description>Founded in 1906, the Freer became the first Smithsonian museum dedicated to Asian art. Charles Freer donated his collection of nearly 10,000 works of Chinese, Japanese, Egyptian, Near Eastern, and Indian objects and American art for this new museum. Freer also funded the construction of the building that opened in 1923, and he would only allow art from his collections to be displayed within its galleries. Since merging with the Arthur M. Sackler Gallery, the museum is now known as the Freer-Sackler.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Charles+A.+Platt&quot;&gt;Charles A. Platt&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Charles+Lang+Freer&quot;&gt;Charles Lang Freer&lt;/a&gt;</dc:creator>
+<dc:source>&lt;a class=&quot;normalBlackFont1&quot;&gt;Institutional History Division, Smithsonian Archives&lt;/a&gt;. &lt;a href=&quot;http://siris-sihistory.si.edu/ipac20/ipac.jsp?&amp;amp;profile=all&amp;amp;source=~!sichronology&amp;amp;uri=full=3100001~!12715~!0#focus&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1923 (Opened)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

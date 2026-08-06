@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/525">
+<dc:title>First National Menorah Lighting</dc:title>
+<dc:description>On the first night of Hanukkah in 1979, President Jimmy Carter walked from the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt; to &lt;a href=&quot;http://mallhistory.org/items/show/20&quot;&gt;Lafayette Park&lt;/a&gt; to light the first public Menorah near the Mall. Sponsored by the American Friends of Chabad-Lubavitch, Abraham Shemtov and Levi Shemtov built the Menorah for several years. It was first called the National Menorah by President Ronald Reagan in 1982. The Menorah remained in Lafayette Square until 1987 when it moved to its current location on the &lt;a href=&quot;http://mallhistory.org/items/show/315&quot;&gt;Ellipse&lt;/a&gt;. The National Menorah is always lit by the President or a member of the President’s administration.</dc:description>
+<dc:source>Jimmy Carter Library.&lt;a href=&quot;http://research.archives.gov/description/6783241&quot;&gt; View original&lt;/a&gt;.</dc:source>
+<dc:date>12/17/1979</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/482">
+<dc:title>Smithsonian South Shed</dc:title>
+<dc:description>The South Shed, also called the Annex, was used to prepare specimen for exhibition. Built in 1898 and demolished in 1975 to make way for the Victorian Garden, the South Shed at various times housed the Smithsonian&#039;s &lt;a href=&quot;http://mallhistory.org/items/show/233&quot;&gt;model and taxidermy &lt;/a&gt;shop, the bug house, and astrophysicist Samuel P. Landley&#039;s Aerodrome shop.</dc:description>
+<dc:source>Smithsonian Institution Archives, &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_7005&quot;&gt;View Original&lt;/a&gt;.</dc:source>
+<dc:date>1898 (built)</dc:date>
+<dc:date>1975 (demolished)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

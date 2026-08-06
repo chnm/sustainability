@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/295">
+<dc:title>Government workers lunch outside the Department of Agriculture</dc:title>
+<dc:description>For thousands of federal employees, the National Mall is a workplace as well as a public space. &lt;a href=&quot;http://mallhistory.org/items/show/43&quot;&gt;The Department of Agriculture&lt;/a&gt;, where these women and men worked in 1942, is the only building bordering the Mall exclusively designated as an office, but there are also offices in many of the museum buildings around the Mall. Workers in these buildings have always enjoyed the space of the Mall as a place to eat lunch, relax, and play.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Marjory+Collins&quot;&gt;Marjory Collins&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/fsa2000057222/PP/&quot;&gt;View original.&lt;/a&gt;</dc:source>
+<dc:date>1942</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

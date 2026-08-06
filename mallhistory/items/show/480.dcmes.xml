@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/480">
+<dc:title>Early Cherry Blossom Festival</dc:title>
+<dc:description>As soon as the &lt;a href=&quot;http://mallhistory.org/items/show/24&quot;&gt;Japanese cherry trees&lt;/a&gt; were planted, Washingtonians and tourists enjoyed the blossoms every spring. Although there were cherry blossom fetes in the 1920s, they were mostly held in Hains Point. The first Cherry Blossom Festival, which was intended to be the start of an annual tradition, took place in the spring of 1934. &lt;a href=&quot;http://mallhistory.org/items/show/330&quot;&gt;First Lady Eleanor Roosevelt&lt;/a&gt; and a delegation from the Japanese embassy led the sunrise ceremony that opened the event. The Festival included a parade, a ball, fireworks, and a performance of the Mikado, an English operetta set in Japan, at the &lt;a href=&quot;http://mallhistory.org/items/show/3&quot;&gt;Sylvan Theatre&lt;/a&gt;.</dc:description>
+<dc:source>&quot;Full Program is Announced,&quot; &lt;em&gt;The Washington Post&lt;/em&gt;, April 4, 1934.</dc:source>
+<dc:date>4/19/1934</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

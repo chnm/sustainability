@@ -54,19 +54,55 @@
             //Add Tabs
             $( ".tabs" ).tabs();
 
+            //Accessibility helper: trap Tab within a dialog and close it on Escape.
+            function makeDialogAccessible($dialog, closeFn) {
+                $dialog.on('keydown.a11ydialog', function(e) {
+                    if (e.key === 'Escape' || e.keyCode === 27) {
+                        e.preventDefault();
+                        closeFn();
+                        return;
+                    }
+                    if (e.key === 'Tab' || e.keyCode === 9) {
+                        var $focusable = $dialog.find('button, [href], iframe, input, select, textarea, [tabindex]:not([tabindex="-1"])').filter(':visible');
+                        if (!$focusable.length) { return; }
+                        var first = $focusable.get(0);
+                        var last = $focusable.get($focusable.length - 1);
+                        if (e.shiftKey && document.activeElement === first) {
+                            e.preventDefault();
+                            last.focus();
+                        } else if (!e.shiftKey && document.activeElement === last) {
+                            e.preventDefault();
+                            first.focus();
+                        }
+                    }
+                });
+            }
+
             //For homepage
             if( $('.front').length) {
+                var $videoDialog = $('.videofunsies');
+                var $videoTrigger = $('.homevid .button');
+
+                function closeVideoDialog() {
+                    //Stop playback by reloading the iframe rather than the src
+                    var $iframe = $videoDialog.find('.vidpopup iframe');
+                    $iframe.attr('src', $iframe.attr('src'));
+                    $videoDialog.hide();
+                    $videoDialog.off('keydown.a11ydialog');
+                    $videoTrigger.trigger('focus');
+                }
+
+                makeDialogAccessible($videoDialog, closeVideoDialog);
+
                 //Pull up the pop up
-                $( ".homevid .button" ).click(function() {
-                    $('.videofunsies').show();
+                $videoTrigger.click(function() {
+                    $videoDialog.show();
+                    $videoDialog.find('.exitbutt').trigger('focus');
                 });
 
                 //Exit out of the pop up
-                $( ".exitbutt, .overlay" ).click(function() {
-                    var holdme =  $('.vidpopup').html();
-                    $('.videofunsies').hide();
-                    $('.vidpopup').html(holdme);
-                    //  console.log(holdme);
+                $( ".videofunsies .exitbutt, .videofunsies .overlay" ).click(function() {
+                    closeVideoDialog();
                 });
             }
 
@@ -89,14 +125,68 @@
 
                 $('.pop.ytvid').hide();
 
+                var $sourceDialog = $('.popupwrap');
+                var $lastSourceTrigger = null;
+
+                function closeSourceDialog() {
+                    $('.popupfun').hide();
+                    $('.pop .srcholder').hide();
+                    $('.archivelink').remove();
+
+                    //if we're ytvid, we need to get fancy
+                    var $holdhtml =  $('.pop.ytvid').html();
+                    $('.pop.ytvid').hide();
+                    $('.pop.ytvid').html($holdhtml);
+
+                    $sourceDialog.off('keydown.a11ydialog');
+                    if ($lastSourceTrigger) {
+                        $lastSourceTrigger.trigger('focus');
+                        $lastSourceTrigger = null;
+                    }
+                }
+
+                makeDialogAccessible($sourceDialog, closeSourceDialog);
+
                 //On yt button click, open popup
                 $( ".ytvid.button" ).click(function() {
+                    $lastSourceTrigger = $(this);
                     $('.popupfun').show();
                     $('.pop.ytvid').show();
+                    $sourceDialog.find('.exitbutt').trigger('focus');
+                });
+
+                //Make each source card keyboard-operable (mouse clicks already bubble up to
+                //the .accontent article handler below, from whichever element is clicked).
+                //A card's excerpt text can occasionally contain a real link (e.g. "View the
+                //Zheng Organization Graphic" on the Zheng Description card) - putting
+                //role="button" around that would nest an interactive link inside another
+                //interactive control, which is invalid. So: if the excerpt has a link, only
+                //the thumbnail image (which never contains a link) becomes the keyboard
+                //trigger; otherwise the whole excerpt area does.
+                $( ".accontent article" ).each(function() {
+                    var $article = $(this);
+                    var $content = $article.find('.node__content');
+                    var hasNestedLink = $content.find('a[href]').length > 0;
+                    var $trigger = hasNestedLink ? $content.find('.field--name-field-source-thumbnail') : $content;
+                    var title = $article.find('.node__title').text().trim();
+
+                    $trigger.addClass('card-trigger').attr({
+                        'tabindex': '0',
+                        'role': 'button',
+                        'aria-label': 'Preview source: ' + title
+                    }).on('keydown', function(e) {
+                        if (e.key === 'Enter' || e.key === ' ' || e.keyCode === 13 || e.keyCode === 32) {
+                            e.preventDefault();
+                            $(this).trigger('click');
+                        }
+                    });
                 });
 
                 //Clicking on a source
-                $( ".accontent article" ).click(function() {
+                $( ".accontent article" ).click(function(e) {
+                    $lastSourceTrigger = $(e.target).closest('.card-trigger');
+                    if (!$lastSourceTrigger.length) { $lastSourceTrigger = $(this); }
+
                     var $indexofsrc = $(this).index() + 1;
                     var $indexofsection = $(this).parent().parent().index()/2 + 0.5;
 
@@ -107,19 +197,13 @@
                     //Make me a "View in Archive" Link
                     var $htmlhold = $(this).find('.node__links a').attr("href");
                     $('.pop.sec'+$indexofsection).before('<a target="_blank" class="archivelink" href="'+$htmlhold+'">View in Archive</a>');
+
+                    $sourceDialog.find('.exitbutt').trigger('focus');
                 });
 
                 //Exit out of the pop up
-                $( ".exitbutt, .overlay" ).click(function() {
-                    $('.popupfun').hide();
-                    $('.pop .srcholder').hide();
-                    $('.archivelink').remove();
-
-                    //if we're ytvid, we need to get fancy
-                    var $holdhtml =  $('.pop.ytvid').html();
-                    $('.pop.ytvid').hide();
-                    $('.pop.ytvid').html($holdhtml);
-
+                $( ".popupfun .exitbutt, .popupfun .overlay" ).click(function() {
+                    closeSourceDialog();
                 });
 
             }
@@ -127,8 +211,8 @@
             //For Key Actors Landing Page
             if( $('.page-node-6').length) {
                 //Format to be turned into accordion
-                $('.view-people-landing .view-content h3').each(function() {
-                    $(this).nextUntil('h3').wrapAll('<div class="accotent"></div>');
+                $('.view-people-landing .view-content h2').each(function() {
+                    $(this).nextUntil('h2').wrapAll('<div class="accotent"></div>');
                 });
 
                 //Make into accordion
@@ -210,10 +294,10 @@
                             var $temptit = $(this).find('p').html();
                             //Replace the title
 
-                            var $templink = $(this).parent().parent().find('h2.node__title a').attr("href");
+                            var $templink = $(this).parent().parent().find('.node__title a').attr("href");
                             //console.log( $templink);
 
-                            $(this).parent().parent().find('h2.node__title').html('<a href="'+$templink+'">'+$temptit+'</a>');
+                            $(this).parent().parent().find('.node__title').html('<a href="'+$templink+'">'+$temptit+'</a>');
 
                         });
                     }
@@ -230,20 +314,11 @@
                 });
             }
 
-            //Archive Landing page
-            if( $('.page-node-7').length) {
-                $( ".view-src-archive .srcwrap" ).each(function() {
-                    var $htmlhold = $(this).find('a').attr("href");
-                    // console.log($htmlhold);
-                    $(this).wrap('<a href="'+$htmlhold+'"></a>');
-                });
-            }
-
             //Timeline
             if( $('.node-type-timeline').length) {
                 $( ".srcimg article" ).each(function() {
                     var $htmlhold = $(this).find('.node__links a').attr("href");
-                    $(this).find('.field--name-field-source-thumbnail img').wrap('<a href="'+$htmlhold+'"></a>');
+                    $(this).find('.field--name-field-source-thumbnail img').wrap('<a href="'+$htmlhold+'" aria-hidden="true" tabindex="-1"></a>');
                 });
             }
 

@@ -1,0 +1,264 @@
+# PLAN — Static rebuild of resoundingthearchives.org
+
+> **Status: Phases A, B, C, and D complete.** The static archive is committed
+> at the repo root and deployed via caddy on docker-host port 8081, alongside
+> the live Drupal restore (Phase A) on port 8080. Phase D's Playwright
+> comparison passes 20/20 across all reachable URLs. Subsequent post-launch
+> tweaks are listed under "Post-launch tweaks" below. AGENTS.md is the
+> rapid-orientation document; this file is the deeper "why" reference.
+
+## Context
+
+The original site is a Drupal 7 install of "ReSounding the Archives" (RRCHNM/GMU + UVA + VT — WWI sheet music recordings by student performers). It is being decommissioned and we want a self-contained archival copy that opens from any static web server with no PHP, no database, and no dependency on the live `resoundingthearchives.org` host or third-party services.
+
+Two source trees already exist:
+
+- `/workspace/resoundingthearchives.org/wget/` — wget mirror of all rendered HTML, CSS, JS, theme assets, and most images. **Missing**: 51 MP3s and 17 PDFs (wget didn't follow them), and possibly other assets that were behind JS.
+- `/workspace/resoundingthearchives.org/backups/var/{www/html/web,lib/mysql}/` — full `/var/www/html/web` PHP tree (Drupal 7.99) and a binary InnoDB MySQL data directory containing the `resoundthearch` database. Schema markers (`engine_cost`, `gtid_executed`, MyISAM system tables) point at **MySQL 5.7**.
+
+### Why we are not just rewriting the wget mirror
+
+A first pass at this would copy `wget/` → `site/`, fix relative paths, inline `<audio>` tags, and copy in the missing media. That works mechanically — but the original Drupal site was heavily JS-driven (jQuery audio replacement, Panels behaviors, possibly client-side filtering on the Browse page, Drupal AJAX). The wget mirror captures the **pre-JS DOM** for each URL it crawled. Anything the original site rendered or revealed via JS is invisible to wget. Guessing what those interactions did from the static HTML and then "restoring" them by hand is a recipe for silently losing features.
+
+The right approach is to **stand the original Drupal site back up** in Docker on the remote `docker-host`, drive a real browser against it with Playwright, and **observe** what the live site actually does. Then export to static using the live site as ground truth, and verify the static export matches the live site by replaying the same Playwright traces.
+
+## Infrastructure
+
+### Remote Docker host
+
+Containers run on the remote `docker-host` over SSH. **All `docker` and `docker compose` commands in this plan run from the local workspace shell with `DOCKER_HOST=ssh://docker-host` set; the daemon executes on the remote host.** Do not run containers locally — local CLI is aarch64, remote is x86_64, and most images we need are x86_64-only.
+
+**SSH config** (`~/.ssh/config`):
+
+```
+Host docker-host
+    HostName 10.112.113.211
+    User moby
+    IdentityFile ~/.ssh/id_ed25519_claude
+```
+
+**One-time setup before any docker command:**
+
+```bash
+# Accept the host key so the docker SSH dialer doesn't fail with "Host key verification failed"
+ssh -o StrictHostKeyChecking=accept-new docker-host true
+
+# Activate the SSH-based Docker context
+export DOCKER_HOST=ssh://docker-host
+
+# Install aarch64 buildx CLI plugin locally (the remote's x86_64 buildx won't run here)
+mkdir -p ~/.docker/cli-plugins
+curl -sSL -o ~/.docker/cli-plugins/docker-buildx \
+  https://github.com/docker/buildx/releases/download/v0.21.1/buildx-v0.21.1.linux-arm64
+chmod +x ~/.docker/cli-plugins/docker-buildx
+```
+
+**Networking quirks:**
+
+- `docker-host` is not in local DNS. To curl deployed HTTP endpoints, use the IP: `http://10.112.113.211:<port>/`.
+- Volume mounts in `docker run`/`compose` paths refer to paths on the **remote** filesystem (the daemon's view), not local paths. Sync data to `docker-host:/srv/<project>/` first via `rsync`, then mount that remote path.
+
+**Inspection limitation:** Some images on docker-host (e.g. `stagex/*` distroless bases) have no shell — `docker exec <ctr> sh` fails. Use `docker cp <ctr>:/path /tmp/out` to inspect the filesystem instead.
+
+### Playwright
+
+A Playwright-enabled Chromium runs in a sidecar container on docker-host (image `mcr.microsoft.com/playwright:v1.44.0-jammy` or similar) with `--remote-debugging-port=9222` exposed on the host. Local Python scripts use `playwright.chromium.connect_over_cdp("ws://10.112.113.211:9222")` to drive it. This lets us observe JS behavior, capture network traffic, and assert against rendered DOM without installing a headed browser locally.
+
+### Why explore live with Playwright instead of trusting the wget mirror
+
+`wget --mirror` captures the **pre-JS DOM** for each URL it crawls. For a Drupal 7 site with jQuery-driven audio replacement, AJAX, possible client-side filtering on the Browse page, and Panels behaviors, anything rendered or replaced by JS is **invisible to wget**. Inferring those interactions by reading the JS source is fragile and silently loses features. The right move on any dynamic site is: restore the live site, drive it with a real browser, observe what actually happens, and let the manifest from that observation decide the export strategy. The wget mirror is still useful as a fallback baseline (Phase C.1) — but only after Phase B confirms it captures everything visible.
+
+## Output layout
+
+The Drupal-restore tooling (Phase A) lives **with the Drupal source tree**, outside this repo, because it is single-use scaffolding for reading the original site — not part of the publishable archive. The static-export tooling and its output live in this repo.
+
+```
+/workspace/resoundingthearchives.org/   # Drupal source tree (NOT in this repo)
+├── wget/                                # pre-existing wget mirror
+├── backups/                             # pre-existing var/{lib/mysql,www/html/web} snapshot
+├── compose/
+│   ├── drupal.yml                       # docker-compose for the live Drupal restore (MySQL 5.7 + PHP-Apache)
+│   ├── web.Dockerfile                   # php:7.4-apache + gd/mysqli/pdo_mysql/zip/opcache
+│   └── settings.local.php               # cache-off, base_url override, dropped into rsynced tree
+└── scripts/
+    └── restore_db.sh                    # rsync backups -> docker-host, bring up the stack, smoke-test
+
+/workspace/sustainability/resounding/   # the static site IS the repo
+├── PLAN.md                              # this file (committed)
+├── README.md                            # how to rebuild and serve (committed)
+├── .gitignore                           # excludes the gitignored paths below (committed)
+├── index.html, browse.html, about.html  # (committed)
+├── <17 song slug pages>.html            # (committed)
+├── node/<N>.html                        # 19 alias pages, /node/N → song page (committed)
+├── sites/all/                           # Drupal theme assets (CSS/JS/images) (committed)
+├── pagefind/                            # GITIGNORED — client-side search index (~860 KB)
+├── sites/default/files/                 # PARTIAL — see .gitignore for what's tracked
+│   ├── css/css_*.css                    # COMMITTED — Drupal-aggregated CSS bundles (rewritten by export.py)
+│   ├── js/js_*.js                       # COMMITTED — Drupal-aggregated JS bundles
+│   ├── fonts/*.woff2                    # COMMITTED — vendored Google Fonts (Oswald)
+│   ├── *.mp3, *.pdf                     # GITIGNORED — 51 MP3s + 17 PDFs from Drupal backup (~160 MB)
+│   ├── *.{jpg,png,jpeg}                 # GITIGNORED — song-page bio images, song images
+│   └── styles/homepage_thumbs/...       # GITIGNORED — rendered thumbnails
+├── scripts/                             # GITIGNORED — build tooling
+│   ├── explore.py                       # Playwright crawl, dumps DOM/network manifest (Phase B)
+│   ├── export.py                        # rewrite the wget mirror into the repo root (Phase C.1)
+│   └── verify.py                        # Playwright comparison of static vs live (Phase D)
+└── manifests/                           # GITIGNORED — Phase B crawl output
+    ├── live.json                        # URL list, per-page response counts, asset inventory
+    └── dom/<slug>.html                  # post-JS DOM, one file per crawled URL
+```
+
+**The committed tree is the static site, with media excluded.** Tracked: HTML, the `sites/all/` theme assets, plus the small Drupal-aggregated CSS/JS bundles and vendored Oswald woff2 files under `sites/default/files/{css,js,fonts}/` (committed because every page links to them and the GitHub Actions deploy can only ship what's in git). Gitignored: the ~160 MB of MP3/PDF/song-image media, the homepage thumbnails, and the pagefind search index — all regenerated by `scripts/export.py` from the wget mirror + Drupal backups. A fresh clone styles correctly with proper typography but is missing audio, PDFs, song images, and search until export.py runs.
+
+## Phase A — Restore the live Drupal site in Docker
+
+The MySQL data directory is a binary InnoDB snapshot, not a logical SQL dump. To read it we need the same major version of MySQL that wrote it.
+
+### A.1 — Identify the source MySQL version
+
+Indicators in `/workspace/resoundingthearchives.org/backups/var/lib/mysql/`:
+
+- `mysql/engine_cost.frm` and `mysql/gtid_executed.frm` — both introduced in MySQL **5.7**.
+- MyISAM-format system tables (`db.MYD`, `user.MYD`, etc.) — characteristic of MySQL 5.7 (8.0 dropped these).
+- `auto.cnf` server UUID present.
+- `ibdata1` is 76 MiB; `ib_logfile{0,1}` are 48 MiB each — default InnoDB layout.
+
+Conclusion: restore with **`mysql:5.7`** (Docker Hub official image). MariaDB and MySQL 8 are likely to refuse or silently corrupt this data directory; do not substitute.
+
+### A.2 — `compose/drupal.yml`
+
+Two services on a private bridge network:
+
+- **`db`** — `mysql:5.7`, volume-mounts `/workspace/resoundingthearchives.org/backups/var/lib/mysql/` read-write (we'll let it apply any needed upgrade). `MYSQL_ROOT_PASSWORD` set to a throwaway value but unused (auth comes from the existing `mysql.user` table). No port published — only reachable from `web`.
+- **`web`** — `php:7.4-apache` with `mysqli`/`pdo_mysql`/`gd` extensions (built from a small Dockerfile), volume-mounts `/workspace/resoundingthearchives.org/backups/var/www/html/web/` to `/var/www/html`. Publish port 8080 → 80.
+
+The compose file should mount the backup paths via the local-side path; since `DOCKER_HOST=ssh://docker-host`, the *daemon* sees those paths on the docker-host filesystem, so we'll need to either (a) sync the backup tree to `docker-host:/srv/resounding-restore/` first via `rsync`, or (b) build the data into a one-shot container image. Option (a) is simpler — a `scripts/restore_db.sh` runs `rsync -a /workspace/resoundingthearchives.org/backups/ docker-host:/srv/resounding-restore/` then `docker compose -f compose/drupal.yml up -d`.
+
+### A.3 — `scripts/restore_db.sh` (sequence)
+
+1. `rsync -a /workspace/resoundingthearchives.org/backups/ docker-host:/srv/resounding-restore/` (preserves permissions and timestamps; idempotent).
+2. `docker compose -f compose/drupal.yml up -d db`.
+3. Wait for healthcheck: `docker compose exec db mysqladmin -uroot ping`.
+4. **Drupal `settings.php` rewrite.** Read `backups/.../web/sites/default/settings.php`; the DB host is whatever the original was (likely `localhost` via socket). Patch the database array to point at host `db`, port 3306 — write a sed/awk one-liner inside the container or supply a `sites/default/settings.local.php` override. The original DB credentials must match what's in `mysql.user`; if not, reset via `ALTER USER ... IDENTIFIED BY ...` after MySQL is up.
+5. **Disable Drupal cache and Drupal-side trusted-host filter** via `settings.local.php` (`$conf['cache'] = 0;` and unset `$settings['trusted_host_patterns']`) so we can hit the site at `http://10.112.113.211:8080/` without a 400.
+6. `docker compose -f compose/drupal.yml up -d web`.
+7. Smoke test: `curl -sf http://10.112.113.211:8080/ | grep -q 'ReSounding the Archives'`.
+8. If MySQL 5.7 refuses to start citing redo-log incompatibility, fall back to: stop the container, delete `ib_logfile0`/`ib_logfile1` from the rsynced copy (MySQL will recreate them), restart. Keep the original log files in `backups/` untouched.
+
+### A.4 — Risks and mitigations
+
+| Risk | Mitigation |
+|------|------------|
+| MySQL 5.7 refuses the data dir (collation, schema upgrade, etc.) | Try `--skip-grant-tables` first to bypass auth, then run `mysql_upgrade`. As a last resort, run an older 5.7 patch (`5.7.36`, `5.7.43`) — Docker tags are still available. |
+| Drupal can't connect | Confirm credentials by reading `settings.php` from the backup; reset password in `mysql.user` if needed. |
+| Trusted-host / base-url checks redirect to live URL | Set `$base_url = 'http://10.112.113.211:8080';` in `settings.local.php`. |
+| File permissions inside `sites/default/files/` block writes | Drupal won't try to write at runtime if cache is off and admin isn't used. |
+| Mail / outbound network in the container | `php.ini` set `sendmail_path = /bin/true`. |
+
+## Phase B — Explore live behavior with Playwright
+
+Goal: produce a manifest of every URL, every JS-driven interaction, every network request, so we know what "complete" means before exporting.
+
+`scripts/explore.py` uses Playwright (Python, `playwright` package) over CDP to a Chromium running on docker-host. It does:
+
+1. **Crawl from `/`**, following same-origin links breadth-first. Save a list of all reachable URLs.
+2. For each page:
+   - Wait for `networkidle`, then capture the post-JS DOM (`page.content()`).
+   - Diff against the wget-captured HTML for the same URL. Any *added* DOM nodes are JS-rendered content we need to preserve in the export. Any *removed* nodes (e.g. `<div class="replaceme">` becoming `<audio>`) tell us what JS replacements happen.
+   - Capture every network request (URL, status, content-type) — this surfaces lazy-loaded assets that wget missed.
+3. **Click every visible interactive element** at least once: nav links, song "View" buttons, audio `<audio controls>` play buttons (assert audio loads), the PDF embed (assert it renders), any tab/accordion/filter on Browse, any modal triggers. Record each interaction's DOM diff.
+4. **Browse-page filtering / search** — if the Browse page has client-side filtering or sorting, exercise each control and record the resulting DOM/URL state.
+5. Output a JSON manifest at `manifests/live.json`: `{ urls: [...], js_added_selectors: {...}, network: [...], interactions: [...] }`.
+
+Run output: a definitive list of (a) URLs to capture, (b) per-page JS-rendered content, (c) all assets the live site actually loads.
+
+## Phase C — Static export
+
+Two viable approaches; pick whichever the manifest says is cheaper:
+
+### C.1 — Default: enrich the existing wget mirror
+
+If Phase B shows the JS work is limited to (i) replacing `<div class="replaceme">` with `<audio>`, (ii) Drupal admin/menu chrome we don't need, and (iii) the Google Docs PDF iframe — i.e. nothing the user actually sees beyond the documented patterns — then a small rewrite script over `wget/` is sufficient. Steps:
+
+1. Copy `wget/` → `site/`, excluding `wget.log`.
+2. Rename the four `<thumb>?itok=<token>` files in `site/sites/default/files/styles/homepage_thumbs/public/` to drop the suffix. Same for any `?1382488163` files under the omega theme.
+3. Copy from `backups/.../web/sites/default/files/`: all 17 `*.pdf`, all 51 `*.mp3`, plus any image referenced by HTML and not already in the wget tree.
+4. Rewrite every `*.html` under `site/`:
+   - Strip `https?://resoundingthearchives\.org/`. For `node/*.html`, prefix the now-relative paths with `../`.
+   - Replace the *inner content* of `<div class="replaceme">URL</div>` with `<audio controls><source src="URL" type="audio/mpeg">…</audio><div class="dllink"><a href="URL">Download Audio</a></div>`. The outer `<div class="replaceme">` wrapper is preserved (mirrors the JS behavior observed in Phase B; the JS in `js_qq4t63…js` does an in-place inner replacement).
+   - Replace the Google Docs PDF iframe (`<iframe src="//docs.google.com/viewer?…&url=PDF">`) with a same-shape iframe pointing at the local file: `<iframe id="pdf_reader" src="<local-pdf>" width="600" height="780" style="border:none;">`. This eliminates the 40+ third-party requests Phase B observed against `docs.google.com`, `apis.google.com`, `youtube.com`, `gstatic.com`. The browser's native PDF viewer renders the iframe inline. (We tried `<embed type="application/pdf">` first but the omega theme's normalize CSS includes `embed,img,object,video { height: auto }`, which collapsed the embed to ~150 px regardless of the height attribute. `iframe` isn't in that list.)
+   - Replace the `/browse` Drupal Views exposed-filter form (search + sort, server-side, can't work statically) with a Pagefind-powered client-side search widget. Pagefind is a static-site search library: the export step runs `npx pagefind --site <repo> --glob "*.html"` to crawl the rewritten top-level slug pages plus `index.html` and `about.html`, producing a self-contained `pagefind/` index (~860 KB). Browse.html loads `pagefind/pagefind-ui.js` and `pagefind/pagefind-ui.css` to expose the search box. Each page is annotated with `data-pagefind-meta="title:..."` (parsed from `<title>` minus the site-name suffix) so results show actual song titles instead of the masthead. `browse.html` itself and the `node/N.html` aliases are marked `data-pagefind-ignore` to avoid duplicating slug-page hits.
+   - Drop IE-conditional `<!--[if lte IE 8]>...<![endif]-->` blocks pointing at the live host, and the Matomo `<script>` block (`_paq`, 42 reqs to `stats.rrchnm.org` per Phase B).
+   - Strip `?itok=...` and `?1382488163` from `src=`/`href=` (handles raw `?` and `%3F`).
+   - Strip `<link rel="canonical">` and `<link rel="shortlink">`.
+5. Apply the same `?1382488163` strip to all `css_*.css` bundles.
+6. Hard-check: zero `resoundingthearchives.org` substrings remain anywhere in `site/`, and every `(href|src)="..."` resolves to an on-disk file. Exit non-zero on violation.
+
+### C.2 — Fallback: Playwright-driven snapshot export
+
+If Phase B reveals JS-rendered content beyond the documented patterns (e.g. Browse-page client filtering, lazy-loaded assets, AJAX-injected nodes), `scripts/export.py` runs Playwright against the live container and saves the **post-JS DOM** for every URL in the manifest, plus every networked asset. Implementation: for each URL, `await page.goto(url, wait_until='networkidle')`, `await page.content()`, then for each network response cached during the load, write its body to `site/<path>` using the URL path. Strip absolute hosts and rewrite the same way as C.1 step 4.
+
+**Decision (locked after Phase B): C.1.** The crawl visited 20 URLs (homepage, /browse, /about, 17 song nodes; /node/5 is the About page, /node/10 is 404) and produced `manifests/live.json` + per-URL post-JS DOM under `manifests/dom/`. Comparing those against the wget mirror confirmed the JS work is limited to: (i) inner-replacement of `<div class="replaceme">` with `<audio>` + download link, (ii) Drupal admin/menu chrome we don't need, (iii) the Google Docs PDF iframe, and (iv) Matomo + Google Docs viewer 3rd-party requests we strip. No AJAX-injected page content, no lazy-loaded same-origin assets beyond what the static HTML already references. C.2 (Playwright snapshot export) is therefore unnecessary and is kept only as a documented fallback if a future change to the live site adds new dynamic behavior.
+
+## Phase D — Verify the static export against the live site
+
+`scripts/verify.py`: Playwright opens the same URL twice — once against `http://10.112.113.211:8080/<path>` (live) and once against a local `python3 -m http.server` rooted at `site/`. Asserts:
+
+1. `page.title()` matches.
+2. The post-JS DOM tree (after stripping known dynamic attributes like `data-drupal-link-system-path` and the `<script>` and `<link>` tags whose hashes differ) is structurally identical.
+3. The list of network responses matches in path and content-type. (Status 200 on the static side, possibly 200/304 on the live side.)
+4. For each song page: live and static both have a working `<audio>` (audio metadata loads, `audio.duration > 0`) and a rendering PDF.
+5. Visual diff via `page.screenshot()` + a pixelmatch threshold (allow ≤ 0.5% diff for font rendering jitter).
+
+A green run of `verify.py` is the completion signal.
+
+## Critical files
+
+- `/workspace/resoundingthearchives.org/wget/` — pre-JS HTML mirror, baseline for Phase C.1
+- `/workspace/resoundingthearchives.org/backups/var/lib/mysql/` — InnoDB data directory restored in Phase A; rsync target on docker-host
+- `/workspace/resoundingthearchives.org/backups/var/www/html/web/` — Drupal 7 PHP tree restored in Phase A; volume-mounted into the `web` container
+- `/workspace/resoundingthearchives.org/backups/var/www/html/web/sites/default/settings.php` — patch in Phase A.3 to point Drupal at the `db` service
+- `/workspace/resoundingthearchives.org/backups/var/www/html/web/sites/default/files/` — source of MP3s and PDFs missing from the wget mirror
+- `/workspace/resounding/compose/drupal.yml` — to be created in Phase A
+- `/workspace/resounding/scripts/{restore_db.sh,explore.py,export.py,verify.py}` — to be created in Phases A–D
+
+## Verification (end-to-end)
+
+1. `bash scripts/restore_db.sh` brings up MySQL 5.7 + PHP-Apache; `curl -s http://10.112.113.211:8080/` returns the homepage HTML containing "ReSounding the Archives".
+2. `python3 scripts/explore.py` writes `manifests/live.json` covering every reachable URL and interaction; exits 0.
+3. `python3 scripts/export.py` writes the static site to `site/`; the script's hard-checks pass (no leftover absolute URLs, every referenced asset exists).
+4. `cd site && python3 -m http.server 8000` serves the static site locally.
+5. `python3 scripts/verify.py` passes against both endpoints.
+6. Manual spot-check via Playwright in headed mode: each of the 17 song pages plays both audio versions, renders the PDF inline, shows all bio images. Browse and About work.
+
+## Decisions already locked
+
+- **PDF embed:** local `<iframe id="pdf_reader" src="<local-pdf>">` (not Google Docs viewer, not `<embed>` — see Phase C.1 step 4 for why iframe specifically).
+- **`?itok=` thumbnails:** rename to drop the suffix.
+- **MySQL version:** 5.7 in Docker (not MariaDB, not 8.0).
+- **Container host:** `docker-host` (`moby@10.112.113.211`) over SSH; do not run containers locally.
+- **Browser automation:** Playwright (Python) over CDP to a Chromium on docker-host.
+
+## Post-launch tweaks (after Phase D)
+
+These were applied after the initial 20/20 verify pass, each in its own commit:
+
+- **PDF embed swapped from `<embed>` to `<iframe>`.** The omega theme's normalize CSS includes `embed,img,object,video { height:auto }`, which collapsed the PDF viewer to ~150 px tall regardless of the height attribute. `<iframe>` isn't subject to that rule and matches the original Drupal markup shape.
+- **RSS feed removed.** The wget mirror included an `rss.xml` with absolute live-host URLs; an archived static site doesn't need a feed. Removed both the file and the `<link rel="alternate" type="application/rss+xml">` from index.html.
+- **Pagefind search on /browse.** The original Drupal Views exposed-filter form was server-side and stripped during Phase C; restored as a client-side substring search using [Pagefind](https://pagefind.app). The build runs `npx pagefind --site . --glob "*.html"` to index the 17 slug pages plus `/`, `about.html`. Each card on /browse filters in place by matching pagefind result URLs against its (rewritten) slug `<a href>`. browse.html and node/N aliases are `data-pagefind-ignore`d to avoid noise.
+- **Search input styled** to match the omega/rta palette (`#516959` border, Oswald label, sage focus ring).
+- **Homepage card shuffle.** The four featured cards on `/` are Fisher-Yates-shuffled at DOMContentLoaded so the front page rotates which song the visitor lands on.
+
+## Deploy infrastructure
+
+| Endpoint | What | Stack |
+|---|---|---|
+| http://10.112.113.211:8080/ | Live Drupal restore (Phase A — ground truth for verify) | `mysql:5.7` + `php:7.4-apache`, `compose/drupal.yml` under `/workspace/resoundingthearchives.org/` |
+| http://10.112.113.211:8081/ | This static archive | `caddy:alpine` running `caddy file-server`; `scripts/deploy.sh` rsyncs the repo to `docker-host:/home/moby/srv/resounding-static/` then (re)launches the container |
+
+Both run on the same `docker-host` so a single Playwright session can compare them. `scripts/deploy.sh` is idempotent.
+
+## Resolved questions
+
+- ~~Non-public URLs in the export?~~ Phase B's crawler blacklisted `/admin`, `/user`, `/node/N/edit`, `/search` and the manifest shows zero admin pages were exposed via public links from `/`, `/browse`, or any song page. Nothing to filter out.
+- ~~Webfonts: external Google Fonts vs vendor locally?~~ Vendored locally. `scripts/export.py` step 5 downloads the `https://fonts.googleapis.com/css?family=Oswald:400,300,700` CSS plus the 5 referenced woff2 files into `sites/default/files/fonts/`, and inlines the `@font-face` rules into the Drupal-bundled CSS that originally `@import`ed Google Fonts. No third-party requests at runtime.

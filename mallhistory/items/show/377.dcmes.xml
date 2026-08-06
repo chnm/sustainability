@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/377">
+<dc:title>Inauguration of President Barack Obama</dc:title>
+<dc:description>The 2009 Presidential Inauguration was the first in which the entire length of the Mall was open to spectators. In previous years, parts of the Mall were used as staging areas for the inaugural parade. In this photo you can see that the crowds stretched all the way back to the &lt;a href=&quot;http://mallhistory.org/items/show/33&quot;&gt;Lincoln Memorial&lt;/a&gt;.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Senior+Master+Sgt.+Thomas+Meneguin%2C+U.S.+Air+Force&quot;&gt;Senior Master Sgt. Thomas Meneguin, U.S. Air Force&lt;/a&gt;</dc:creator>
+<dc:source>Department of Defense via Wikimedia Commons. &lt;a href=&quot;http://commons.wikimedia.org/wiki/File:Obama_inaugural_address.jpg&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1/20/2009</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,20 @@
+name: "Deploy Static Website -- occupyarchive"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "**"
+    paths:
+      - 'occupyarchive/**'
+      - "!.github/**"
+
+jobs:
+  deploy:
+    uses: chnm/.github/.github/workflows/static--deploy.yml@main
+    secrets: inherit
+    with:
+      context_root: "occupyarchive"
+      website-devl-fqdn: "occupyarchive.dev.chnm.gmu.edu"
+      website-prod-fqdn: "occupyarchive.org"
+      runner_labels: '["self-hosted","IncusOS"]'

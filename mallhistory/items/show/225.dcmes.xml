@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/225">
+<dc:title>Washington Gas Works</dc:title>
+<dc:description>During the 1840s, tired of the smell and dangers of candles and oil lamps, residents of Washington, DC regularly petitioned Congress to establish a gas company to light the city. In 1848, Congress agreed, first experimenting with lighting the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol dome&lt;/a&gt; using gas. The Washington Gas Light Company plant opened on the Mall in 1852 where the &lt;a href=&quot;http://mallhistory.org/items/show/49&quot;&gt;National Museum of the American Indian&lt;/a&gt; stands today; the site was a mixture of homes and businesses. Gas from this works illuminated Pennsylvania Avenue streetlamps and the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt;, as well as local homes and businesses. The gas works remained for over 50 years.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a title=&quot;Washington Gas Works&quot; href=&quot;http://www.loc.gov/pictures/search/?q=LOT%2013070&amp;amp;fi=number&amp;amp;op=PHRASE&amp;amp;va=exact&amp;amp;co!=coll&amp;amp;sg=true&amp;amp;st=gallery&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1852 (opened)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

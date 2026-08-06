@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/535">
+<dc:title>Rejected design for the Statue of Freedom</dc:title>
+<dc:description>This design of the &lt;a href=&quot;http://mallhistory.org/items/show/534&quot;&gt;Statue of Freedom&lt;/a&gt; was rejected for its reference to slavery. It was one of three designs developed by sculptor Thomas Crawford for the top of the Capitol dome. In 1856, he proposed a statue with a “Liberty Cap.” This style of cap was seen on images of &quot;Liberty&quot; during the American Revolution and was inspired by caps given to slaves in Ancient Rome at their emancipation. Jefferson Davis, Secretary of War at the time, strongly opposed the proposal. Davis, a slaveowner and later named President of the Confederate States of America, rejected any design that seemed critical of slavery.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Thomas+Crawford&quot;&gt;Thomas Crawford&lt;/a&gt;</dc:creator>
+<dc:source>Architect of the Capitol. &lt;a href=&quot;https://www.flickr.com/photos/uscapitol/8393038282/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1855</dc:date>
+<dc:type>Unbuilt</dc:type>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

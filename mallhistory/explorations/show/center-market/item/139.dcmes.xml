@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/139">
+<dc:title>Center Market, Vendor, Pennsylvania Ave. and 7th St., N.W. </dc:title>
+<dc:description>&lt;a href=&quot;http://mallhistory.org/items/show/32&quot;&gt;Center Market&lt;/a&gt; was a hub of activity for Washington&#039;s African American population during the 1800s. Both free and enslaved African Americans &lt;a href=&quot;http://mallhistory.org/items/show/140&quot;&gt;bought and sold produce&lt;/a&gt; at the market and operated stalls before and after Emancipation. This woman, photographed in 1890, ran her own stall, possible the one just behind her in the picture.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2006682419/&quot;&gt;View original.&lt;/a&gt;</dc:source>
+<dc:date>1890</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

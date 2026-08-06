@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/201">
+<dc:title>Washington Canal filled in</dc:title>
+<dc:description>By 1871, the &lt;a href=&quot;http://mallhistory.org/items/show/41&quot;&gt;Washington Canal &lt;/a&gt;was little more than an &lt;a href=&quot;http://mallhistory.org/items/show/298&quot;&gt;open sewer&lt;/a&gt;. Although many people proposed ways to make the canal functional, no solution was ever put into practice. In February 1871 Congress revoked the charters that made &lt;a href=&quot;http://mallhistory.org/items/show/251&quot;&gt;Washington and Georgetown&lt;/a&gt; independent cities and brought the entire District of Columbia under a territorial government. The Director of the Board of Public Works for this new territory, &lt;a href=&quot;http://mallhistory.org/items/show/124&quot;&gt;Alexander Shepherd&lt;/a&gt;, immediately enacted a solution to the canal problem by filling it in. The newly created road where the canal had been was first called &lt;a href=&quot;http://mallhistory.org/items/show/311&quot;&gt;B Street&lt;/a&gt;, then renamed Constitution Avenue in 1931.</dc:description>
+<dc:source>&lt;em&gt;Evening Star&lt;/em&gt; (Washington, DC), August 9, 1871, via the Library of Congress. &lt;a href=&quot;http://chroniclingamerica.loc.gov/lccn/sn83045462/1871-08-09/ed-1/seq-4/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1871</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

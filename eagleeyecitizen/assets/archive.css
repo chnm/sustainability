@@ -1,0 +1,156 @@
+/* Eagle Eye Citizen — archived static copy. */
+
+.ee-archive-banner {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  background-color: #474747;
+  color: #f9f5ef;
+  padding: 8px 10px;
+  border-bottom: 2px solid #bd7332;
+  line-height: 1.5;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  margin-bottom: 10px;
+}
+
+.ee-archive-banner__logo {
+  display: inline-block;
+  flex-shrink: 0;
+  width: 31px;
+  height: 30px;
+  margin-right: 15px;
+  background-image: url(rrchnm_logo.png);
+  background-color: #f9f5ef;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 3px;
+}
+
+.ee-archive-banner a {
+  color: #f9f5ef;
+  text-decoration: underline;
+}
+
+.ee-archived-notice {
+  display: block;
+  margin: 8px 0;
+  padding: 8px 12px;
+  background: #fff8e1;
+  color: #5a4500;
+  border: 1px solid #e0c060;
+  border-radius: 3px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/* Suppress per-form notice inside the header login block; the page-level
+   banner already announces that auth is disabled. */
+#block-userlogin .ee-archived-notice,
+.region-header .ee-archived-notice,
+header .ee-archived-notice {
+  display: none;
+}
+
+/* WCAG 1.4.3 Contrast (Minimum) — Drupal's .teach-link--well .ribbon sets
+   background #068690 with white text (4.35:1, fails AA at 17.6px bold).
+   Darken to #015960 (≈ 7.6:1, passes AAA). body prefix bumps specificity
+   above the Drupal rule so we don't have to edit the cached CSS bundle. */
+body .teach-link--well .ribbon {
+  background-color: #015960;
+}
+
+/* End-of-challenge Submit POSTed an AJAX score; in the archive it's been
+   swapped for a link back to the matching solve-challenges tab. Mirror the
+   `.action-btns button` sizing so the anchor reads as a button. */
+.action-btns a.action--complete {
+  display: inline-block;
+  width: 340px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 0.5rem 1rem;
+  text-decoration: none;
+}
+
+/* ─────────────────────────────────────────────────────────────────────
+   WCAG 1.4.3 Contrast (Minimum) — white theme text set directly over
+   header photos with no scrim. Audited 2026-08-04 (canvas pixel sampling):
+   the photos have bright regions where the white text fell to ~1.05:1
+   (interior nav over CapitalwLightRays.png) and ~2.5:1 (hero .tagline over
+   home-header-background.png). Back the text with a translucent dark scrim
+   so it clears AA no matter which pixels sit behind it.
+   ───────────────────────────────────────────────────────────────────── */
+
+/* Interior header top-nav links (Solve / Create / Teach …). rgba(0,0,0,.6)
+   composites to ≈5.7:1 even over a pure-white ray — need 3:1 (large text). */
+.cap-banner .hr_2 nav a {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2px 8px;
+  border-radius: 3px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* Homepage / hero tagline. 17px bold is NOT "large text" → needs 4.5:1;
+   the scrim gives ≈5.7:1 worst case. inline-block so the chip hugs the
+   text rather than banding the whole hero column. */
+.front-header .b-1 .tagline {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0.35em 0.6em;
+  border-radius: 4px;
+}
+
+/* ─────────────────────────────────────────────────────────────────────
+   Archive banner — temporarily disabled 2026-08-04 (per request).
+   Reversible: delete the rule below to bring the baked-in banner back
+   (the markup is still in every page). With the banner gone there is no
+   sticky header, so WCAG 2.4.11 (Focus Not Obscured) is satisfied with no
+   scroll offset. When you RE-ENABLE the banner, also add:
+       html { scroll-padding-top: 56px; }
+   so keyboard focus / in-page anchor targets aren't hidden behind the
+   48px sticky banner.
+   ───────────────────────────────────────────────────────────────────── */
+.ee-archive-banner {
+  display: none !important;
+}
+
+/* Footer partner logos — RRCHNM + GMU Department of History & Art History,
+   linking to historyarthistory.gmu.edu. Both are wrapped in
+   `<div class="footer-logos">` and laid out as a nowrap flex row so they
+   stay side by side and SHRINK to fit instead of stacking on narrow
+   viewports. `aspect-ratio` + `background-size:contain` keep each mark
+   proportional as the row scales; `min-width:0` on the footer grid cells
+   lets the row shrink below its natural content width. Background-image
+   (like the banner logo) so the path resolves against THIS stylesheet
+   regardless of page depth. Source art: rrchnm 541×100, GMU 900×251. */
+footer .container > div { min-width: 0; }
+footer .footer-logos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+footer .footer-logos .logo-chnm,
+footer .footer-logos .logo-histarthist {
+  display: block;
+  height: auto;
+  min-width: 0;
+  flex: 0 1 auto;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+footer .footer-logos .logo-chnm {
+  width: 220px;
+  aspect-ratio: 541 / 100;
+}
+footer .footer-logos .logo-histarthist {
+  width: 230px;
+  aspect-ratio: 900 / 251;
+  background-image: url(histarthist-logo.png);
+}

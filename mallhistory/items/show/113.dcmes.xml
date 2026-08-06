@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/113">
+<dc:title>Alethia Browning Tanner</dc:title>
+<dc:description>Alethia Browning Tanner was an enslaved woman who ran her own vegetable market in &lt;a href=&quot;http://mallhistory.org/items/show/20&quot;&gt;Lafayette Square&lt;/a&gt; in front of the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt; during the late 1700s and early 1800s. She was highly successful, counting President Thomas Jefferson among her customers. By 1810 she had saved enough to purchase her freedom: $1400. She continued to be successful in business, and was an important member of the early free black community of Washington, DC.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Alethia+Browning+Tanner&quot;&gt;Alethia Browning Tanner&lt;/a&gt;</dc:creator>
+<dc:source>Moorland-Spingarn Research Center.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/48">
+<dc:title>National Museum of American History (NMAH)</dc:title>
+<dc:description>Originally opened in 1964 as the Museum of History and Technology, the National Museum of American History holds more than three million culturally and historically important objects on display and in its archives, including the original Star-Spangled Banner. The museum&#039;s mission is to help people understand the present through exploring the history and culture of the past. Designed by architect Walter O. Cain of McKim, Mead and White, the Post-War Modern architectural style is meant to link the classical architecture of the Mall with modern influences.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Walter+O.+Cain&quot;&gt;Walter O. Cain&lt;/a&gt;</dc:creator>
+<dc:source>Smithsonian Institution. &lt;a href=&quot;http://www.si.edu/Exhibitions/Details/The-Star-Spangled-Banner-The-Flag-that-Inspired-the-National-Anthem-227&quot;&gt;View Original.&lt;/a&gt;</dc:source>
+<dc:date>1964 (Opened)</dc:date>
+<dc:date>1980 (Renamed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

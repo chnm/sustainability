@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/145">
+<dc:title>Roy Wilkins</dc:title>
+<dc:description>Roy Wilkins was a prominent civil rights activist who held leadership positions within the National Association for the Advancement of Colored People from 1931 until 1977. In 1941, he helped coordinate staff and financial support from the NAACP for &lt;a href=&quot;http://mallhistory.org/items/show/97&quot;&gt;A. Philip Randolph&lt;/a&gt;&#039;s &lt;a href=&quot;http://mallhistory.org/items/show/329&quot;&gt;proposed march&lt;/a&gt; on Washington to protest discrimination and segregation in the government. Although the march did not happen, it did result in an executive order banning discrimination in the national defense industry. In 1963, Wilkins was one of the leaders of the &lt;a href=&quot;http://mallhistory.org/items/show/190&quot;&gt;March on Washington for Jobs and Freedom&lt;/a&gt;, and in his speech, he emphasized the need for Congressional action on school desegregation.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Roy+Wilkins&quot;&gt;Roy Wilkins&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/collection/cph/item/2003688134/&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

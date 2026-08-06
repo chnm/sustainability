@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/361">
+<dc:title>Women&#039;s Baseball Game</dc:title>
+<dc:description>This baseball game was probably a match between women who worked for various &lt;a href=&quot;http://mallhistory.org/items/show/403&quot;&gt;government offices related to World War I&lt;/a&gt;. An organization called the War Camp Community Service organized sports activities and teams for soldiers and for government employees, including the many female employees who came to Washington during World War I. Teams were formed by women from the War Risk, Navy, and Internal Revenue Offices. In October 1919, these teams played a tournament just after the end of the World Series, extending the baseball season in Washington, DC.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Collection.&lt;a href=&quot;http://www.loc.gov/pictures/item/npc2007000412/&quot;&gt; View original.&lt;/a&gt;</dc:source>
+<dc:date>10/10/1919</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

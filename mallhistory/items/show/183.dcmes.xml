@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/183">
+<dc:title>Snow Riot</dc:title>
+<dc:description>Washington&#039;s first race riot spilled to the edges of the National Mall in 1835. On August 12, angered at rumors of a slave attack on a white woman, a mob of angry white men descended on the Epicurean Eating House owned by Mr. Beverly Snow at Sixth and Pennsylvania Avenues. A successful African American entrepreneur, Snow fled his restaurant while the mobs continued to attack the property of free blacks across the city. The upheaval became known as the Snow Riot. Afterwards, Black Codes, restrictive legislation limiting the rights of free blacks in the city, became increasingly harsh.</dc:description>
+<dc:source>&lt;em&gt;National Intelligencer &lt;/em&gt;(Washington, DC), August 27, 1835.</dc:source>
+<dc:date>8/12/1835</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

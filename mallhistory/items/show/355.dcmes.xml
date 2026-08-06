@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/355">
+<dc:title>Mills&#039; Proposed Plan of the Mall</dc:title>
+<dc:description>&lt;p class=&quot;p1&quot;&gt;In 1840, Secretary of War Joel Poinsett commissioned &lt;a href=&quot;http://mallhistory.org/items/show/114&quot;&gt;Robert Mills&lt;/a&gt; to create a plan for the recently &lt;a href=&quot;http://mallhistory.org/items/show/162&quot;&gt;proposed Smithsonian Institution&#039;s building&lt;/a&gt; and the grounds from the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt; to the future site of the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt;. Mills broke the Mall into sections, with formal botanical gardens near the Smithsonian Building, which he set on the north side of the Mall. The area near the Washington Monument was meant to evoke the wilderness, with numerous trees and curving pathways. Only a portion of the plan, the landscaping for the Smithsonian grounds, was ever developed.&lt;/p&gt;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Robert+Mills&quot;&gt;Robert Mills&lt;/a&gt;</dc:creator>
+<dc:source>National Archives at College Park. &lt;a href=&quot;http://research.archives.gov/description/6087995&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1841</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/202">
+<dc:title>US Marine Band&#039;s First Public Concert</dc:title>
+<dc:description>On August 21, 1800, the Marine Band gave its first public concert in Washington on a hill overlooking the area which became the National Mall. At the time, the band probably consisted of two oboes, two clarinets, two French horns, a bassoon, and a drum. The &lt;a href=&quot;http://mallhistory.org/items/show/144&quot;&gt;United States Marine Band&lt;/a&gt; was created by an Act of Congress in 1798 to provide music for the President. When the seat of government moved from Philadelphia to Washington in 1800, the Band followed, performing for &lt;a href=&quot;http://mallhistory.org/items/show/395&quot;&gt;President Adams&lt;/a&gt; at the unfinished &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt; on New Year&#039;s Day 1801.</dc:description>
+<dc:source>Defense Department, courtesy of U.S. Marine Band. </dc:source>
+<dc:date>08/21/1800</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/454">
+<dc:title>Latrobe&#039;s design for the Washington Monument</dc:title>
+<dc:description>In 1799 &lt;a href=&quot;http://mallhistory.org/items/show/80&quot;&gt;Architect Benjamin Henry Latrobe&lt;/a&gt; submitted this &lt;a href=&quot;http://mallhistory.org/items/show/148&quot;&gt;proposal&lt;/a&gt; for the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt;. The design was meant to be incorporated into the original design of Washington, DC, but budget problems prevented its construction. The plan included the pyramid monument you see here, a terrace, and murals with allegorical figures covering the ceiling inside the monument.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Benjamin+Henry+Latrobe&quot;&gt;Benjamin Henry Latrobe&lt;/a&gt;</dc:creator>
+<dc:source>The Library of Congress, &lt;a href=&quot;http://www.loc.gov/pictures/item/95860797/&quot;&gt;View Original&lt;/a&gt;.</dc:source>
+<dc:date>1799</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

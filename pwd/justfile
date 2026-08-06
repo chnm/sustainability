@@ -43,3 +43,11 @@ serve-search:
 # Remove generated files
 clean:
     rm -rf public/
+
+# Run the Python test suite
+test:
+    uv run pytest -q
+
+# Rebuild multi-page image lists (use --dry-run first)
+fix-images *ARGS:
+    uv run python3 scripts/fix_multipage_images.py {{ARGS}}

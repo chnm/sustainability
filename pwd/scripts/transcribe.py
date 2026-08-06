@@ -311,29 +311,45 @@ def test_document(omeka_id, model="claude-sonnet-4-6"):
     return ai_text
 
 
-def batch_transcribe(model="claude-sonnet-4-6", limit=None,
-                     resume=False, max_pages=50):
-    """Transcribe all documents with images."""
-    client = anthropic.Anthropic()
+def select_documents(parsed_docs, transcriptions, resume=False, ids_filter=None):
+    """Choose which documents to transcribe.
 
-    # Load existing transcriptions if resuming
-    transcriptions = load_existing_transcriptions() if resume else {}
-    skipped = 0
-
-    # Collect all documents with images
-    doc_files = sorted(glob.glob(str(CONTENT_DIR / "*.md")))
-    docs_to_process = []
-
-    for doc_path in doc_files:
-        omeka_id, image_files = parse_document_frontmatter(doc_path)
+    parsed_docs: iterable of (omeka_id, image_files).
+    ids_filter: when a set, select exactly those ids (forced re-transcription),
+                bypassing the resume-skip; when None, apply resume-skip.
+    """
+    selected = []
+    for omeka_id, image_files in parsed_docs:
         if not omeka_id or not image_files:
             continue
-
-        if resume and omeka_id in transcriptions:
-            skipped += 1
+        if ids_filter is not None:
+            if omeka_id in ids_filter:
+                selected.append((omeka_id, image_files))
             continue
+        if resume and omeka_id in transcriptions:
+            continue
+        selected.append((omeka_id, image_files))
+    return selected
 
-        docs_to_process.append((omeka_id, image_files))
+
+def batch_transcribe(model="claude-sonnet-4-6", limit=None,
+                     resume=False, max_pages=50, ids_filter=None):
+    """Transcribe all documents with images (or only ids_filter, forced)."""
+    client = anthropic.Anthropic()
+
+    # Preserve existing transcriptions when resuming or when re-transcribing a
+    # targeted subset (so untargeted entries are not lost).
+    transcriptions = (
+        load_existing_transcriptions() if (resume or ids_filter is not None) else {}
+    )
+
+    doc_files = sorted(glob.glob(str(CONTENT_DIR / "*.md")))
+    parsed_docs = [parse_document_frontmatter(p) for p in doc_files]
+    docs_to_process = select_documents(
+        parsed_docs, transcriptions, resume=resume, ids_filter=ids_filter
+    )
+    eligible = sum(1 for oid, imgs in parsed_docs if oid and imgs)
+    skipped = eligible - len(docs_to_process)
 
     if limit:
         docs_to_process = docs_to_process[:limit]
@@ -413,17 +429,26 @@ def main():
         "--max-pages", type=int, default=50,
         help="Maximum pages per document (default: 50)"
     )
+    parser.add_argument(
+        "--ids-file", default=None,
+        help="Re-transcribe only the omeka_ids in this file (one per line), overwriting them"
+    )
 
     args = parser.parse_args()
 
     if args.test:
         test_document(args.test, model=args.model)
     elif args.batch:
+        ids_filter = None
+        if args.ids_file:
+            with open(args.ids_file) as f:
+                ids_filter = {line.strip() for line in f if line.strip()}
         batch_transcribe(
             model=args.model,
             limit=args.limit,
             resume=args.resume,
             max_pages=args.max_pages,
+            ids_filter=ids_filter,
         )
     else:
         parser.print_help()

@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/384">
+<dc:title>The National Botanic Garden - Its Commencement</dc:title>
+<dc:description>This article from the Baltimore Sun discusses the establishment of the &lt;a href=&quot;http://mallhistory.org/items/show/29&quot;&gt;National Botanic Garden&lt;/a&gt; in Washington. The main source of the collection for the garden were botanic specimens gathered during the United States Exploring Expedition, which explored the coasts of North and South America from 1838 to 1842. These plants had been stored near the Patent Office but needed a new home. Congress chose to build the new botanic garden on the Mall where a private group had maintained a garden thirty years before: the &lt;a href=&quot;http://mallhistory.org/items/show/406&quot;&gt;Columbian Institution&lt;/a&gt;&#039;s botanic garden stood on the same site from 1820 to 1830.</dc:description>
+<dc:source>&lt;em&gt;The Sun&lt;/em&gt; (Baltimore).</dc:source>
+<dc:date>7/2/1850</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

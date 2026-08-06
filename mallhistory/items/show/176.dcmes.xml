@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/176">
+<dc:title>Samuel Morse sends first telegraph message from the US Capitol</dc:title>
+<dc:description>On May 24, 1844 after receiving $30,000 in appropriations from Congress, inventor Samuel Morse sent the first official telegraph message from Washington, DC to Baltimore, Maryland. In a series of dots and dashes, later known as Morse code, Morse transmitted the message &quot;What Hath God Wrought&quot; from the Supreme Court Chamber, then located inside the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt;. Before the telegraph, information transmission was limited to the speed of horse travel, but could now be transmitted wide distances almost instantly. The telegraph office existed inside the Capitol until 2007.</dc:description>
+<dc:source>Office of the Clerk, U.S. House of Representatives. &lt;a href=&quot;http://artandhistory.house.gov/house_history/technology/telegraph.aspx&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>05/24/1844</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

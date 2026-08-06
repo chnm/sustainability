@@ -1,0 +1,11 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/195">
+<dc:title>Tidal Basin Beach Closes</dc:title>
+<dc:description>The public bathing beach at the Tidal Basin closed in 1925 &lt;a href=&quot;http://mallhistory.org/items/show/211&quot;&gt;after less than a decade in operation&lt;/a&gt;. This swimming area was segregated, &lt;a href=&quot;http://mallhistory.org/items/show/164&quot;&gt;open only to whites&lt;/a&gt;. Congress controlled the Washington DC budget and received increasing pressure from the African American community to create a beach for African Americans on the Tidal Basin, equivalent to the white beach. &lt;a href=&quot;http://mallhistory.org/items/show/174&quot;&gt;Although Congress approved funding for a second beach, debate within Congress halted progress on its creation&lt;/a&gt;. As the conflict intensified, &lt;a href=&quot;http://mallhistory.org/items/show/185&quot;&gt;funding for both beaches was canceled&lt;/a&gt; and Congress ordered the demolition of the white beach.</dc:description>
+<dc:date>1925</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

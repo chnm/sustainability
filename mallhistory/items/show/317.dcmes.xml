@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/317">
+<dc:title>Washington Canal Groundbreaking Ceremony</dc:title>
+<dc:description>In May of 1810 President James Madison broke ground for the &lt;a href=&quot;http://mallhistory.org/items/show/41&quot;&gt;Washington Canal&lt;/a&gt; amidst &lt;a href=&quot;http://mallhistory.org/items/show/341&quot;&gt;city officials and citizens crowded&lt;/a&gt; at New Jersey Avenue SE. The Canal was part of the &lt;a href=&quot;http://mallhistory.org/items/show/168&quot;&gt;original city plan&lt;/a&gt; from 1791, but work stalled until 1809 when Congress chartered a new company to &lt;a href=&quot;http://mallhistory.org/items/show/266&quot;&gt;complete the canal&lt;/a&gt;. President Madison, the president of the company, and the city mayor each dug a small hole with a shovel at the groundbreaking. As a horse and plow began digging the canal in earnest, onlookers celebrated with enthusiasm and enjoyed free refreshments under a large tent.</dc:description>
+<dc:source>&lt;em&gt;National Intelligencer&lt;/em&gt; (Washington, DC)</dc:source>
+<dc:date>5/2/1810</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

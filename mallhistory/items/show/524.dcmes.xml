@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/524">
+<dc:title>First National Christmas Tree and Lighting Ceremony</dc:title>
+<dc:description>On December 24, 1923, President Calvin Coolidge lit the first National Christmas Tree on the grounds of the &lt;a href=&quot;http://mallhistory.org/items/show/315&quot;&gt;Ellipse&lt;/a&gt;. Community volunteers and civic leaders, worked together with local schools and the Society of Electrical Development to organize the celebration. The tree came from President Coolidge&#039;s home state of Vermont and was covered with 2,500 electric lights. After the tree lighting, thousands of Washingtonians and visitors sang Christmas carols accompanied by a &lt;a href=&quot;http://mallhistory.org/items/show/144&quot;&gt;US Marine Band quartet&lt;/a&gt; at the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt;. African American residents held their own ceremony at the tree starting just after midnight on Christmas morning.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division&lt;a href=&quot;http://www.loc.gov/pictures/item/98518085/&quot;&gt; View original&lt;/a&gt;.</dc:source>
+<dc:date>12/24/1923</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/68">
+<dc:title>James Smithson</dc:title>
+<dc:description>British scientist James Smithson provided the funding necessary to create the Smithsonian Institution. Born in France and educated at Oxford University in England, Smithson was a wealthy chemist and mineralogist. He never married or had any children. &lt;a href=&quot;http://mallhistory.org/items/show/510&quot;&gt;In his will&lt;/a&gt;, he wrote that if his nephew, who was his only heir, died without heirs, then his entire estate should go to the United States to develop in Washington &quot;under the name of the Smithsonian Institution, an establishment for the increase and diffusion of knowledge.&quot; Smithson&#039;s nephew died in 1835, and the &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;Smithsonian Institution&lt;/a&gt; was &lt;a href=&quot;http://mallhistory.org/items/show/162&quot;&gt;founded in 1846&lt;/a&gt;.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=James+Smithson&quot;&gt;James Smithson&lt;/a&gt;</dc:creator>
+<dc:source>Smithsonian Institution Archives. &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_8245?back=%2Fsearch%2Fsia_search_collections%2FHeliotype%2520Printing%2520Co&quot;&gt;View original image&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

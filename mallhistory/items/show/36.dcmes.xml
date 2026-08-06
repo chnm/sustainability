@@ -1,0 +1,16 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/36">
+<dc:title>Washington Monument</dc:title>
+<dc:description>&lt;span&gt;&lt;span&gt;The Washington Monument is the only actual monument on the National Mall because Washington was alive when it &lt;/span&gt;&lt;a href=&quot;http://mallhistory.org/items/show/280&quot;&gt;&lt;span&gt;began to be planned&lt;/span&gt;&lt;/a&gt;&lt;span&gt;. All others on the Mall are memorials, created after the person being remembered has died. &lt;/span&gt;&lt;a href=&quot;http://mallhistory.org/items/show/196&quot;&gt;&lt;span&gt;Begun in 1848,&lt;/span&gt;&lt;/a&gt;&lt;span&gt; construction of the monument was &lt;/span&gt;&lt;a href=&quot;http://mallhistory.org/items/show/148&quot;&gt;&lt;span&gt;interrupted in 1854&lt;/span&gt;&lt;/a&gt;&lt;span&gt;. Political and social events deferred construction &lt;/span&gt;&lt;a href=&quot;http://mallhistory.org/items/show/281&quot;&gt;&lt;span&gt;until 1877&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, and the monument was finally &lt;/span&gt;&lt;a href=&quot;http://mallhistory.org/items/show/282&quot;&gt;&lt;span&gt;completed in 1884&lt;/span&gt;&lt;/a&gt;&lt;span&gt;. The &lt;/span&gt;&lt;a href=&quot;http://mallhistory.org/explorations/show/washington-monument-colors&quot;&gt;&lt;span&gt;line approximately a third of the way up the monument &lt;/span&gt;&lt;/a&gt;&lt;span&gt;shows where construction was halted. &lt;/span&gt;&lt;a href=&quot;http://mallhistory.org/items/show/265&quot;&gt;&lt;span&gt;A 2011 earthquake damaged the monument.&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, closing it for repairs. The National Park Service reopened the monument in 2014, but issues with the elevator and electrical system forced another closure in August 2016. The landmark is expected to reopen in spring 2019.&lt;/span&gt;&lt;/span&gt;</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Robert+Mills&quot;&gt;Robert Mills&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2005691173/resource/&quot;&gt;View Original.&lt;/a&gt;</dc:source>
+<dc:date>1848 (Construction Began)</dc:date>
+<dc:date>1884 (Completed)</dc:date>
+<dc:date>2011 (Damaged)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

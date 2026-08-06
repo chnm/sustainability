@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/254">
+<dc:title>View of Washington drawn from nature and on stone</dc:title>
+<dc:description>This bird&#039;s-eye view of Washington, DC faces west with the US Capitol in the foreground. Canals and other waterways intersecting the National Mall are visible to the left of tree-lined Pennsylvania Avenue, then the capital&#039;s ceremonial thoroughfare, and between the Capitol and the Washington Monument. They provided transportation for commerce and brought needed food and retail supplies to the District, connecting the Eastern Branch, the Potomac, and the Chesapeake &amp;amp; Ohio Canal. Note that the Mall extended only as far as the Washington Monument until the early 1900s.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=E.+Sachse+%26+Co.&quot;&gt;E. Sachse &amp; Co.&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division, &lt;a href=&quot;http://www.loc.gov/pictures/item/98515951/&quot;&gt;View original.&lt;/a&gt;</dc:source>
+<dc:publisher>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=45&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Baltimore%2C+MD%3A+E.+Sachse++%26+Co%2C+&quot;&gt;Baltimore, MD: E. Sachse  &amp; Co, &lt;/a&gt;</dc:publisher>
+<dc:date>1852</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/432">
+<dc:title>Floral Library</dc:title>
+<dc:description>Also known as the Tulip Library, the Floral Library was established in 1969 as part of &lt;a href=&quot;http://mallhistory.org/items/show/438&quot;&gt;Lady Bird Johnson&#039;s Capital Beautification Project&lt;/a&gt;. The &#039;library&#039; has 93 flower beds maintained by the National Park Service. These beds feature either tulips or annuals depending on the planting season. The flowers require up to 10,000 bulbs to be planted by hand each year.</dc:description>
+<dc:source>National Park Service. &lt;a href=&quot;http://www.washingtongardener.com/index_files/TulipLibrary2007.pdf&quot;&gt;View original.&lt;/a&gt;</dc:source>
+<dc:date>1969</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

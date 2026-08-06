@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/344">
+<dc:title>Baltimore &amp; Ohio Train Depot, 1835</dc:title>
+<dc:description>The brick Baltimore and Ohio Railway Depot stood at the intersection of Pennsylvania Avenue and Second Street on lots formerly occupied by a cabinet maker and a boarding house. Fitted with offices, living rooms, and a waiting room, an agent and a staff of fewer than half a dozen men managed passenger, baggage and freight. A few thousand people flocked to the station to greet the first trains arriving in 1835, welcomed at the District line by the mayor and the &lt;a href=&quot;http://mallhistory.org/items/show/144&quot;&gt;Marine Band&lt;/a&gt;. The first passengers were escorted to nearby taverns and hotels for entertainment. Most then, returned to Baltimore, where their journey originated.</dc:description>
+<dc:source>&lt;em&gt;Records of the Columbia Historical Society&lt;/em&gt;, 27 (1925): 179.</dc:source>
+<dc:date>1925</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

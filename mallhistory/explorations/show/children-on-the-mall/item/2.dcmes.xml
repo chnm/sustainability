@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/2">
+<dc:title>Uncle Beazley</dc:title>
+<dc:description>Generations of children climbed on Uncle Beazley, a fiberglass triceratops, who lived on the National Mall in front of the &lt;a href=&quot;http://mallhistory.org/items/show/55&quot;&gt;Museum of Natural History&lt;/a&gt;. For a slow-moving dinosaur, Uncle Beazley is widely traveled. Before coming to the Mall in the 1970s, his home was the Smithsonian&#039;s Anacostia Neighborhood Museum. In 1994, Uncle Beazley moved from the Mall to his current residence, the National Zoo. Beazley was constructed in 1967 for &quot;The Enormous Egg&quot; TV special that aired the next year. The Sinclair Company subsequently donated Beazley to the Smithsonian.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Louis+Paul+Jonas&quot;&gt;Louis Paul Jonas&lt;/a&gt;</dc:creator>
+<dc:source>Smithsonian Institution Archive, &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_9158&quot;&gt;View Original&lt;/a&gt;.</dc:source>
+<dc:date>1967 (Constructed)</dc:date>
+<dc:date>1994 (Removed from the Mall)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1980-1999&quot;&gt;1980-1999&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

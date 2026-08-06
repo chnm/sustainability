@@ -1,0 +1,18 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/476">
+<dc:title>Federal Government Building</dc:title>
+<dc:description>One of the first office buildings in Washington, this building initially housed the Departments of State, War, and the Navy, as well as the Patent Office, the General and City Post Offices, and the offices of the Superintendent and Surveyor of the City. By 1814, only the Departments of State, War, and the Navy remained, but they were temporarily relocated when &lt;a href=&quot;http://mallhistory.org/items/show/157&quot;&gt;the building was damaged by British forces during the War of 1812&lt;/a&gt;. In 1816, all three departments returned to a renovated office building, although the Department of State moved in 1819. The Department of the Navy continued to occupy the building until it was demolished in 1884.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Leonard+Harbaugh&quot;&gt;Leonard Harbaugh&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=James+Hoban&quot;&gt;James Hoban&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress, Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/collection/stereo/item/2005680798/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1801 (constructed)</dc:date>
+<dc:date>1814 (burned)</dc:date>
+<dc:date>1816 (rebuilt)</dc:date>
+<dc:date>1884 (demolished)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

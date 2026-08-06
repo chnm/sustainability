@@ -51,9 +51,19 @@ h4 {
 a {
   text-decoration: none; }
 
+/* Accessibility: visible keyboard focus indicator (WCAG 2.4.11) */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #b95a08;
+  outline-offset: 2px; }
+
 /* line 48, ../sass/base/_typography.scss */
 .button {
-  background-color: #f5821f;
+  background-color: #b95a08;
   color: #fff;
   border: medium none;
   border-radius: 0.3em;
@@ -215,12 +225,12 @@ iframe {
     padding-top: 2em; }
     /* line 133, ../sass/base/amboyna.scss */
     .l-region--footer .footinfo p {
-      color: #959595;
+      color: #6a6a6a;
       padding: 0;
       margin: 0; }
       /* line 137, ../sass/base/amboyna.scss */
       .l-region--footer .footinfo p a {
-        color: #5a6a83;
+        color: #445062;
         text-decoration: underline; }
     /* line 142, ../sass/base/amboyna.scss */
     .l-region--footer .footinfo .right {
@@ -267,10 +277,10 @@ iframe {
   padding-top: 0.5em; }
   /* line 186, ../sass/base/amboyna.scss */
   .breadcrumb a {
-    color: #5a6a83; }
+    color: #445062; }
   /* line 189, ../sass/base/amboyna.scss */
   .breadcrumb a.current {
-    color: #959595; }
+    color: #6a6a6a; }
 
 /* line 198, ../sass/base/amboyna.scss */
 .front .l-header {
@@ -390,10 +400,12 @@ iframe {
     margin: 0 auto;
     padding-bottom: 1em; }
   /* line 321, ../sass/base/amboyna.scss */
-  .page-node-38 .view-your-verdict .vtitle h4 {
+  .page-node-38 .view-your-verdict .vtitle .banner-heading {
+    display: block;
     float: none;
     font-size: 2.3em;
     font-weight: 500;
+    line-height: 1;
     margin: 0 auto;
     max-width: 1100px;
     padding-top: 3em;
@@ -420,7 +432,7 @@ iframe {
         margin-right: 0.2em; } }
     /* line 348, ../sass/base/amboyna.scss */
     .page-node-38 .view-your-verdict .vcontent .view-verdict-list .vbutt {
-      background-color: #f5821f;
+      background-color: #b95a08;
       color: #fff;
       display: block;
       font-size: 1.5em;
@@ -505,7 +517,7 @@ iframe {
           padding: 0; } }
   /* line 431, ../sass/base/amboyna.scss */
   .node-type-verdict-page .pane-node-book-nav a {
-    background-color: #f5821f;
+    background-color: #b95a08;
     color: #fff;
     display: inline-block;
     font-size: 1.3em;
@@ -658,7 +670,7 @@ iframe {
     height: 100%; }
 /* line 574, ../sass/base/amboyna.scss */
 .node-type-verdict-page .view-verdict-display .vtwosides .vsrc .vquote {
-  color: #7a7a7a;
+  color: #737373;
   display: inline-block;
   font-family: "PT Serif",serif;
   font-size: 0.9em;
@@ -731,7 +743,7 @@ iframe {
     /* line 642, ../sass/base/amboyna.scss */
     .node-type-verdict-page .view-verdict-display .vjudgement .vbut .button {
       text-transform: capitalize;
-      background: #f5821f none repeat scroll 0 0;
+      background: #b95a08 none repeat scroll 0 0;
       border-radius: 90%;
       color: white;
       display: inline-block;
@@ -747,7 +759,11 @@ iframe {
       vertical-align: text-top; }
     /* line 659, ../sass/base/amboyna.scss */
     .node-type-verdict-page .view-verdict-display .vjudgement .vbut .clickVote {
-      background-color: #f5821f; }
+      background-color: #b95a08; }
+    /* Accessibility: non-color indicator for selected vote (WCAG 1.4.1 Use of Color) */
+    .node-type-verdict-page .view-verdict-display .vjudgement .vbut .vote.clickVote {
+      border: 0.35em solid #12294e;
+      box-sizing: border-box; }
 
 /* line 668, ../sass/base/amboyna.scss */
 .page-node-65 h1 {
@@ -806,12 +822,18 @@ iframe {
         margin-left: 0.2em;
         margin-right: 0.2em; } }
     /* line 718, ../sass/base/amboyna.scss */
-    .page-node-65 .vvote .vbut h4 {
+    .page-node-65 .vvote .vbut h2 {
       font-size: 1.2em;
-      text-transform: uppercase; }
+      font-weight: 400;
+      text-transform: uppercase;
+      line-height: 1;
+      margin: 0.5em 0;
+      padding: 0;
+      border-top: none;
+      letter-spacing: normal; }
       @media (min-width: 1px) and (max-width: 568px) {
         /* line 718, ../sass/base/amboyna.scss */
-        .page-node-65 .vvote .vbut h4 {
+        .page-node-65 .vvote .vbut h2 {
           font-size: 1em;
           font-weight: 500;
           text-align: center; } }
@@ -851,6 +873,10 @@ iframe {
     /* line 759, ../sass/base/amboyna.scss */
     .page-node-65 .vvote .vbut .clickVote .circle {
       background-color: #f5821f; }
+    /* Accessibility: non-color indicator for selected vote (WCAG 1.4.1 Use of Color) */
+    .page-node-65 .vvote .vbut .clickVote .circle {
+      border: 0.25em solid #12294e;
+      box-sizing: border-box; }
   /* line 764, ../sass/base/amboyna.scss */
   .page-node-65 .vvote .final {
     background-color: #fff;
@@ -862,12 +888,12 @@ iframe {
         margin: 0 auto;
         text-align: center !important; } }
     /* line 772, ../sass/base/amboyna.scss */
-    .page-node-65 .vvote .final h4 {
+    .page-node-65 .vvote .final h2 {
       font-size: 1.5em; }
     /* line 775, ../sass/base/amboyna.scss */
     .page-node-65 .vvote .final .button {
       text-transform: capitalize;
-      background: #f5821f none repeat scroll 0 0;
+      background: #b95a08 none repeat scroll 0 0;
       border-radius: 90%;
       color: white;
       display: inline-block;
@@ -890,7 +916,7 @@ iframe {
           height: 10px; } }
     /* line 798, ../sass/base/amboyna.scss */
     .page-node-65 .vvote .final .clickVote {
-      background-color: #f5821f; }
+      background-color: #b95a08; }
       @media print {
         /* line 798, ../sass/base/amboyna.scss */
         .page-node-65 .vvote .final .clickVote {
@@ -974,23 +1000,25 @@ iframe {
     right: 0;
     margin: 0 auto; }
   /* line 884, ../sass/base/amboyna.scss */
-  .page-node-39 .etitle h4 {
+  .page-node-39 .etitle .banner-heading {
+    display: block;
     float: none;
     font-size: 2.3em;
     font-weight: 500;
+    line-height: 1;
     margin: 0 auto;
     max-width: 1100px;
     color: #12294e;
     padding-left: 0.1em; }
     @media (min-width: 1px) and (max-width: 568px) {
       /* line 884, ../sass/base/amboyna.scss */
-      .page-node-39 .etitle h4 {
+      .page-node-39 .etitle .banner-heading {
         margin-left: 0.8em;
         margin-right: 0.8em;
         font-size: 2em; } }
     @media (min-width: 569px) and (max-width: 1024px) {
       /* line 884, ../sass/base/amboyna.scss */
-      .page-node-39 .etitle h4 {
+      .page-node-39 .etitle .banner-heading {
         margin-left: 1em;
         margin-right: 1em; } }
 /* line 904, ../sass/base/amboyna.scss */
@@ -1068,7 +1096,7 @@ iframe {
         margin-left: 0.2em;
         margin-right: 0.2em; } }
     /* line 970, ../sass/base/amboyna.scss */
-    .page-node-39 .edoctopic .etblock .etinfo h5 {
+    .page-node-39 .edoctopic .etblock .etinfo h3 {
       font-size: 1em;
       line-height: 0;
       margin: 0.5em 0 1.6em;
@@ -1091,10 +1119,12 @@ iframe {
     right: 0;
     margin: 0 auto; }
   /* line 997, ../sass/base/amboyna.scss */
-  .node-type-exhibit-page .etitle h4 {
+  .node-type-exhibit-page .etitle .banner-heading {
+    display: block;
     float: none;
     font-size: 2.3em;
     font-weight: 500;
+    line-height: 1;
     margin: 0 auto;
     max-width: 1100px;
     color: #12294e;
@@ -1102,13 +1132,13 @@ iframe {
     padding-left: 0.5em; }
     @media (min-width: 1px) and (max-width: 568px) {
       /* line 997, ../sass/base/amboyna.scss */
-      .node-type-exhibit-page .etitle h4 {
+      .node-type-exhibit-page .etitle .banner-heading {
         margin-left: 0.8em;
         margin-right: 0.8em;
         font-size: 2em; } }
     @media (min-width: 569px) and (max-width: 1024px) {
       /* line 997, ../sass/base/amboyna.scss */
-      .node-type-exhibit-page .etitle h4 {
+      .node-type-exhibit-page .etitle .banner-heading {
         margin-left: 1em;
         margin-right: 1em; } }
 /* line 1017, ../sass/base/amboyna.scss */
@@ -1190,7 +1220,7 @@ iframe {
         margin-left: 0.2em;
         margin-right: 0.2em; } }
     /* line 1086, ../sass/base/amboyna.scss */
-    .node-type-exhibit-page .edoctopic .etblock .etinfo h5 {
+    .node-type-exhibit-page .edoctopic .etblock .etinfo h3 {
       font-size: 1em;
       line-height: 0;
       margin: 0.5em 0 1.6em;
@@ -1222,10 +1252,12 @@ iframe {
     right: 0;
     margin: 0 auto; }
   /* line 1124, ../sass/base/amboyna.scss */
-  .node-type-topic-page .ttitle h4 {
+  .node-type-topic-page .ttitle .banner-heading {
+    display: block;
     float: none;
     font-size: 2.3em;
     font-weight: 500;
+    line-height: 1;
     margin: 0 auto;
     max-width: 1100px;
     color: #12294e;
@@ -1233,13 +1265,13 @@ iframe {
     padding-left: 0.5em; }
     @media (min-width: 1px) and (max-width: 568px) {
       /* line 1124, ../sass/base/amboyna.scss */
-      .node-type-topic-page .ttitle h4 {
+      .node-type-topic-page .ttitle .banner-heading {
         margin-left: 0.8em;
         margin-right: 0.8em;
         font-size: 2em; } }
     @media (min-width: 569px) and (max-width: 1024px) {
       /* line 1124, ../sass/base/amboyna.scss */
-      .node-type-topic-page .ttitle h4 {
+      .node-type-topic-page .ttitle .banner-heading {
         margin-left: 1em;
         margin-right: 1em; } }
 /* line 1144, ../sass/base/amboyna.scss */
@@ -1261,37 +1293,41 @@ iframe {
   background-color: #5a6a83;
   color: #fff; }
   /* line 1160, ../sass/base/amboyna.scss */
-  .node-type-topic-page .srctit h3 {
+  .node-type-topic-page .srctit h2 {
     font-size: 1.7em;
     font-weight: 300;
     margin: 0 auto;
     max-width: 1400px;
-    padding: 0.2em 0.3em; }
+    padding: 0.2em 0.3em;
+    text-transform: none;
+    border-top: none;
+    line-height: 1.3;
+    letter-spacing: normal; }
     @media (min-width: 1px) and (max-width: 568px) {
       /* line 1160, ../sass/base/amboyna.scss */
-      .node-type-topic-page .srctit h3 {
+      .node-type-topic-page .srctit h2 {
         margin-left: 0.8em;
         margin-right: 0.8em; } }
     @media (min-width: 569px) and (max-width: 1024px) {
       /* line 1160, ../sass/base/amboyna.scss */
-      .node-type-topic-page .srctit h3 {
+      .node-type-topic-page .srctit h2 {
         margin-left: 1em;
         margin-right: 1em; } }
     /* line 1174, ../sass/base/amboyna.scss */
-    .node-type-topic-page .srctit h3 strong {
+    .node-type-topic-page .srctit h2 strong {
       text-transform: uppercase; }
 /* line 1180, ../sass/base/amboyna.scss */
 .node-type-topic-page .tsource .views-row {
   margin-bottom: 1em;
   padding-bottom: 2em; }
   /* line 1183, ../sass/base/amboyna.scss */
-  .node-type-topic-page .tsource .views-row h2 {
+  .node-type-topic-page .tsource .views-row h3 {
     font-weight: 300; }
 /* line 1187, ../sass/base/amboyna.scss */
 .node-type-topic-page .tsource .views-row-odd {
   background-color: #eceef1; }
   /* line 1189, ../sass/base/amboyna.scss */
-  .node-type-topic-page .tsource .views-row-odd h2 span {
+  .node-type-topic-page .tsource .views-row-odd h3 span {
     background-color: #eceef1; }
 /* line 1194, ../sass/base/amboyna.scss */
 .node-type-topic-page .tsource .srcblock .srcana {
@@ -1302,9 +1338,22 @@ iframe {
   padding-left: 1em;
   padding-right: 1em; }
   /* line 1201, ../sass/base/amboyna.scss */
-  .node-type-topic-page .tsource .srcblock .srcana h2 {
+  .node-type-topic-page .tsource .srcblock .srcana h3 {
     font-size: 1.6em;
-    margin: 1.5em 0 1em; }
+    margin: 1.5em 0 1em;
+    text-transform: uppercase;
+    border-top: 0.1em solid #8f8f8f;
+    line-height: 0;
+    letter-spacing: 2px;
+    padding: 0; }
+    @media (min-width: 1px) and (max-width: 568px) {
+      /* line 1201, ../sass/base/amboyna.scss */
+      .node-type-topic-page .tsource .srcblock .srcana h3 {
+        border-top: none;
+        line-height: 1.5; } }
+  .node-type-topic-page .tsource .srcblock .srcana h3 span {
+    padding-right: 0.5em;
+    background: #fff; }
 /* line 1207, ../sass/base/amboyna.scss */
 .node-type-topic-page .tsource .srcblock .view-toipc-source-image .views-row, .node-type-topic-page .tsource .srcblock .view-toipc-source-image-wo-translation .views-row {
   margin: 0;
@@ -1369,7 +1418,7 @@ iframe {
         margin-left: 0.5em;
         width: 56%; } }
     /* line 1264, ../sass/base/amboyna.scss */
-    .node-type-topic-page .tsource .srcblock .srcfile .srctranslate h5 {
+    .node-type-topic-page .tsource .srcblock .srcfile .srctranslate h3 {
       font-size: 1.5em;
       font-weight: 600;
       letter-spacing: 2px;
@@ -1379,11 +1428,11 @@ iframe {
       text-transform: uppercase; }
       @media (min-width: 1px) and (max-width: 568px) {
         /* line 1264, ../sass/base/amboyna.scss */
-        .node-type-topic-page .tsource .srcblock .srcfile .srctranslate h5 {
+        .node-type-topic-page .tsource .srcblock .srcfile .srctranslate h3 {
           font-size: 1.1em; } }
       @media (min-width: 569px) and (max-width: 1024px) {
         /* line 1264, ../sass/base/amboyna.scss */
-        .node-type-topic-page .tsource .srcblock .srcfile .srctranslate h5 {
+        .node-type-topic-page .tsource .srcblock .srcfile .srctranslate h3 {
           font-size: 1.3em; } }
   /* line 1280, ../sass/base/amboyna.scss */
   .node-type-topic-page .tsource .srcblock .srcfile .srcimg {
@@ -1472,7 +1521,7 @@ iframe {
     overflow: hidden; }
     /* line 1373, ../sass/base/amboyna.scss */
     .page-node-66 .pane-archive-landing-page .view-filters .form-type-select select {
-      background-color: #f5821f;
+      background-color: #b95a08;
       border: medium none;
       box-shadow: none;
       color: #fff;
@@ -1481,7 +1530,7 @@ iframe {
       width: 14em; }
   /* line 1383, ../sass/base/amboyna.scss */
   .page-node-66 .pane-archive-landing-page .view-filters #edit-submit-archive-landing-page {
-    background-color: #f5821f;
+    background-color: #b95a08;
     color: #fff;
     border: medium none;
     border-radius: 0.3em;
@@ -1590,7 +1639,7 @@ iframe {
   .node-type-source .srctabs label {
     background-color: #cfcfcf;
     border-radius: 10px 10px 0 0;
-    color: #606060;
+    color: #555555;
     display: inline-block;
     font-size: 1.2em;
     letter-spacing: 1px;
@@ -1645,12 +1694,12 @@ iframe {
           display: block !important; } }
   /* line 1545, ../sass/base/amboyna.scss */
   .node-type-source .srctabs [id^="tab"]:checked + label {
-    background-color: #f5821f;
+    background-color: #b95a08;
     color: #fff;
     z-index: 2; }
     /* line 1549, ../sass/base/amboyna.scss */
     .node-type-source .srctabs [id^="tab"]:checked + label:before {
-      background: #f5821f;
+      background: #b95a08;
       margin-bottom: -1px; }
   /* line 1554, ../sass/base/amboyna.scss */
   .node-type-source .srctabs #tab1:checked ~ #srcc-1,
@@ -1694,7 +1743,7 @@ iframe {
     display: none; } }
 /* line 1606, ../sass/base/amboyna.scss */
 .page-node-68 a, .page-node-125 a {
-  color: #5a6a83;
+  color: #445062;
   text-decoration: underline; }
 /* line 1610, ../sass/base/amboyna.scss */
 .page-node-68 .l-content, .page-node-125 .l-content {
@@ -1736,7 +1785,7 @@ iframe {
         width: 20%; } }
     /* line 1642, ../sass/base/amboyna.scss */
     .page-node-68 #amtop #amnav a, .page-node-125 #amtop #amnav a {
-      background-color: #f5821f;
+      background-color: #b95a08;
       color: #fff;
       border-bottom: 1px solid #ccc;
       display: block;
@@ -1782,9 +1831,15 @@ iframe {
             padding: 0; } }
         /* line 1682, ../sass/base/amboyna.scss */
         .page-node-68 #amtop #amcon .tonc .title h2, .page-node-125 #amtop #amcon .tonc .title h2 {
-          display: inline-block;
-          margin: 0;
-          padding: 0; }
+          display: block;
+          margin: 1em 0;
+          padding: 0;
+          font-size: 1.17em;
+          font-weight: bold;
+          text-transform: none;
+          border-top: none;
+          line-height: 1.3;
+          letter-spacing: normal; }
         /* line 1687, ../sass/base/amboyna.scss */
         .page-node-68 #amtop #amcon .tonc .title .right, .page-node-125 #amtop #amcon .tonc .title .right {
           display: none;
@@ -1797,7 +1852,7 @@ iframe {
               clear: both; } }
           /* line 1695, ../sass/base/amboyna.scss */
           .page-node-68 #amtop #amcon .tonc .title .right a, .page-node-125 #amtop #amcon .tonc .title .right a {
-            color: #5a6a83;
+            color: #445062;
             font-size: 0.9em;
             line-height: 2.2;
             text-decoration: underline; }
@@ -1914,7 +1969,7 @@ iframe {
       text-align: center; } }
   /* line 1813, ../sass/base/amboyna.scss */
   .page-node-74 .form-actions .webform-submit {
-    background-color: #f5821f;
+    background-color: #b95a08;
     color: #fff;
     padding: 0.5em 1em;
     border: none;
@@ -1963,11 +2018,11 @@ iframe {
       font-weight: 500; }
     /* line 1861, ../sass/base/amboyna.scss */
     .page-node-73 .pane-timeline-book .view-timeline-book .timeline-text a {
-      color: #7f7d7d;
+      color: #6a6a6a;
       text-decoration: underline; }
     /* line 1866, ../sass/base/amboyna.scss */
     .page-node-73 .pane-timeline-book .view-timeline-book .active-trail {
-      color: #f5821f; }
+      color: #b95a08; }
       /* line 1868, ../sass/base/amboyna.scss */
       .page-node-73 .pane-timeline-book .view-timeline-book .active-trail .tdate {
         color: #000; }
@@ -2006,7 +2061,7 @@ iframe {
       list-style: outside none none; }
   /* line 1908, ../sass/base/amboyna.scss */
   .page-node-73 #ajaxtarget .startblock .startinfo a, .page-node-73 #ajaxtarget .startblock .infoblock a, .page-node-73 #ajaxtarget .timeblock .startinfo a, .page-node-73 #ajaxtarget .timeblock .infoblock a {
-    color: #7f7d7d;
+    color: #6a6a6a;
     text-decoration: underline; }
   /* line 1913, ../sass/base/amboyna.scss */
   .page-node-73 #ajaxtarget .startblock .infoblock, .page-node-73 #ajaxtarget .timeblock .infoblock {
@@ -2039,7 +2094,36 @@ iframe {
         width: 100%; } }
     /* line 1938, ../sass/base/amboyna.scss */
     .page-node-73 #ajaxtarget .startblock .imgblock a, .page-node-73 #ajaxtarget .timeblock .imgblock a {
-      color: #7f7d7d;
+      color: #6a6a6a;
       text-decoration: underline; }
+
+/* Accessibility fixes: WCAG 2.5.8 Target Size Minimum (24x24px)
+   Added to enlarge tap/click targets that were previously sized only
+   by their text content (padding lived on a parent element, not on
+   the link itself, so it did not count toward the hit area). */
+.l-header .menu li a {
+  display: inline-block;
+  padding: 0.6em 0.3em;
+}
+
+.page-node-73 .pane-timeline-book .view-timeline-book .timeline-text a {
+  display: inline-block;
+  padding: 0.4em 0.2em;
+  min-height: 24px;
+}
+
+.pager__item {
+  padding: 0; }
+.pager__item a {
+  display: inline-block;
+  min-width: 24px;
+  min-height: 24px;
+  padding: 0.5em;
+  text-align: center;
+  box-sizing: border-box;
+}
+.pager__item--current {
+  padding: 0.5em;
+}
 
 /*# sourceMappingURL=amboyna.styles.css.map */

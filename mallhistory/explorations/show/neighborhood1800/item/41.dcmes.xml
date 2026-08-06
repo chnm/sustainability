@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/41">
+<dc:title>Washington City Canal</dc:title>
+<dc:description>The Washington City Canal ran for approximately two miles of canal through Washington from the present day Navy Yard, across the Capitol grounds, and down present day Constitution Avenue. Completed in 1815, the Canal incorporated &lt;a href=&quot;http://mallhistory.org/items/show/40&quot;&gt;Tiber Creek &lt;/a&gt;&lt;a href=&quot;http://mallhistory.org/items/show/473&quot;&gt;near today&#039;s Washington Monument&lt;/a&gt;. In 1833, the Canal was &lt;a href=&quot;http://mallhistory.org/items/show/266&quot;&gt;connected&lt;/a&gt; to the C&amp;amp;O Canal through an extension known as the Washington Branch. Early city planners envisioned the Canal as part of a commercial transport system, linking the nation&#039;s capital with the interior of the country. Traffic on the canal declined by the 1850s while political and financial upheavals &lt;a href=&quot;http://mallhistory.org/items/show/298&quot;&gt;left the canal poorly maintained&lt;/a&gt;. The &lt;a href=&quot;http://mallhistory.org/items/show/201&quot;&gt;canal was filled in&lt;/a&gt; in the 1870s.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2002709520/&quot;&gt;View Original&lt;/a&gt;.</dc:source>
+<dc:date>1815 (Opened)</dc:date>
+<dc:date>1833 (Connected to C&amp;O Canal)</dc:date>
+<dc:date>1871 (Covered and diverted)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/253">
+<dc:title>Washington City Canal Lottery Ticket</dc:title>
+<dc:description>This ticket is one from a collection of 20 lottery tickets of the &lt;a href=&quot;http://mallhistory.org/items/show/41&quot;&gt;Washington City Canal&lt;/a&gt; lottery &quot;for cutting the canal, through the City of Washington to the Eastern Branch harbour.&quot; Eight tickets are signed by Notley Young, four by Daniel Carroll, both of whom were &lt;a href=&quot;http://mallhistory.org/items/show/94&quot;&gt;original proprietors&lt;/a&gt; of land sold to create the District of Columbia and sections of the National Mall.</dc:description>
+<dc:source>Library of Congress, Rare Book and Special Collections Division. &lt;a href=&quot;http://memory.loc.gov/cgi-bin/query/r?ammem/AMALL:@field%28NUMBER+@band%28rbpe+1900030a%29%29&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1798</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

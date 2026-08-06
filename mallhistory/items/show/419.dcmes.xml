@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/419">
+<dc:title>Organization of American States Building</dc:title>
+<dc:description>The Organization of American States (OAS) Building was completed in 1910. Its style is meant to be a fusion of some of the major architectural elements from its participating members, with Spanish, Native American, French, Portuguese, and English influences. The OAS was founded in 1889. Proposed by the US and first meeting in Washington, DC, the Organization was established as “an order of peace and justice, to promote their solidarity, to strengthen their collaboration, and to defend their sovereignty, their territorial integrity, and their independence.&quot; (Article I, Charter of OAS). Today, the OAS has 35 member nations from across North and South America.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Paul+Cret+and+Albert+Kelsey&quot;&gt;Paul Cret and Albert Kelsey&lt;/a&gt;</dc:creator>
+<dc:source>University of Pennsylvania Collections, Paul Philippe Cret Collection. &lt;a href=&quot;http://www.design.upenn.edu/archives/majorcollections/cret/ppc-panam.html&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1910</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

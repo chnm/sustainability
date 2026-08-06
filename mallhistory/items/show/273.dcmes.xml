@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/273">
+<dc:title>Edith Lee-Payne at the 1963 March on Washington</dc:title>
+<dc:description>The 1963 March on Washington for Jobs and Freedom attracted demonstrators of all ages. Edith Lee-Payne attended the March, which was held on her twelfth birthday, with her mother who thought it important to teach her about the Civil Rights struggle. Though she was not aware of it until well into adulthood, Edith&#039;s photo became one of the iconic images of the Civil Rights Movement, used in publications around the world.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Rowland+Scherman+%28photographer%29&quot;&gt;Rowland Scherman (photographer)&lt;/a&gt;</dc:creator>
+<dc:source>National Archives at College Park. &lt;a href=&quot;http://research.archives.gov/description/542030&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>08/28/1963</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

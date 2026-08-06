@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/70">
+<dc:title>Adolf Cluss</dc:title>
+<dc:description>In the late 1800s, Adolf Cluss designed four buildings on the National Mall, only one of which still stands today. In 1870, he designed the &lt;a href=&quot;http://mallhistory.org/items/show/32&quot;&gt;Center Market&lt;/a&gt;. He also designed conservatories for the &lt;a href=&quot;http://mallhistory.org/items/show/444&quot;&gt;Department of Agriculture&lt;/a&gt; and the &lt;a href=&quot;http://mallhistory.org/items/show/37&quot;&gt;Army Medical Museum &lt;/a&gt;that stood on the south side of the Mall near what is now &lt;a href=&quot;http://mallhistory.org/items/show/312&quot;&gt;Independence Avenu&lt;/a&gt;e. The surviving Cluss building on the Mall is the &lt;a href=&quot;http://mallhistory.org/items/show/56&quot;&gt;Arts and Industries Building&lt;/a&gt;, next to the &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;Smithsonian Castle&lt;/a&gt;, which Cluss designed with partner Paul Schulze to be a National Museum and house the Smithsonian collections after the Institution outgrew the space in the Castle.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Adolf+Cluss&quot;&gt;Adolf Cluss&lt;/a&gt;</dc:creator>
+<dc:source>Smithsonian Institution Archives. &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_10294&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

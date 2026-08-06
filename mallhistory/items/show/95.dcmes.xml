@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/95">
+<dc:title>John Lewis</dc:title>
+<dc:description>John Lewis was a civil rights activist who helped plan the &lt;a href=&quot;http://mallhistory.org/items/show/190&quot;&gt;March on Washington for Jobs and Freedom&lt;/a&gt; in 1963. At age 23, Lewis was the youngest speaker at the March. His strongly-worded speech criticized lawmakers and the President for not doing enough within their powers to stop racial discrimination and the attacks on non-violent protesters across the American south. Other speakers and organizers objected to parts of Lewis’s speech, and he reluctantly cut the most confrontational phrases. Even with these changes, Lewis’s speech was still a rousing call to action.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=John+Lewis&quot;&gt;John Lewis&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2003688130/&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

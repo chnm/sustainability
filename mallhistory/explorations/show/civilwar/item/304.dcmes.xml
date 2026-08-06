@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/304">
+<dc:title>Basement of Capitol in Use As a Military Bakery</dc:title>
+<dc:description>The National Mall and nearby neighborhoods supported the lives of &lt;a href=&quot;http://mallhistory.org/items/show/303&quot;&gt;Union troops stationed in the city&lt;/a&gt; during the Civil War. This woodcut shows the bakery which was located in the basement of the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;US Capitol&lt;/a&gt;, and was capable of producing 58,000 loaves of bread a month for consumption by the &lt;a href=&quot;http://mallhistory.org/items/show/351&quot;&gt;Union Army&lt;/a&gt;.</dc:description>
+<dc:source>&lt;em&gt;Frank Leslie&#039;s Illustrated History of the Civil War&lt;/em&gt;. &lt;a href=&quot;https://openlibrary.org/books/OL7115791M/Frank_Leslie%27s_illustrated_history_of_the_Civil_War.&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1895</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

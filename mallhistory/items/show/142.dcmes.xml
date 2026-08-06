@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/142">
+<dc:title>John Philip Sousa</dc:title>
+<dc:description>John Philip Sousa was an American composer and conductor, best known for his military marches, which school, professional, and military bands still play today. He served as Director of the &lt;a href=&quot;http://mallhistory.org/items/show/144&quot;&gt;United States Marine Band&lt;/a&gt;, based in Washington, DC, from 1880-1892. In 1883, Sousa directed the band in front of the Smithsonian Castle for the dedication of the &lt;a href=&quot;http://mallhistory.org/items/show/19&quot;&gt;statue&lt;/a&gt; of &lt;a href=&quot;http://mallhistory.org/items/show/349&quot;&gt;Joseph Henry&lt;/a&gt;. Sousa wrote the military march &quot;The Transit of Venus March,&quot; for the occasion at the request of the Smithsonian Institution. The music played while dignitaries walked to a special receiving stand in front of the &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;Castle&lt;/a&gt;.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=John+Philip+Sousa&quot;&gt;John Philip Sousa&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/collection/cph/item/2005676156/&quot;&gt;View original image&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

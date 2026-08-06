@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/82">
+<dc:title>Pierre Charles L&#039;Enfant</dc:title>
+<dc:description>L&#039;Enfant was an architect and civil engineer chosen by &lt;a href=&quot;http://mallhistory.org/items/show/152&quot;&gt;President George Washington&lt;/a&gt; in 1791 to survey and design the new federal city of Washington. L&#039;Enfant designed streets in a grid pattern, and he placed major government buildings and parks in the plan. He also designed a &quot;grand avenue&quot; stretching west from the Capitol to the Potomac River, which we now call the National Mall. Disagreements with the &lt;a href=&quot;http://mallhistory.org/items/show/308&quot;&gt;city&#039;s commissioners&lt;/a&gt; led to &lt;a href=&quot;http://mallhistory.org/items/show/299&quot;&gt;L&#039;Enfant&#039;s dismissal&lt;/a&gt; in February 1792. Never fully implemented, his vision for the city continues to influence planners and designers today.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pierre+Charles+L%27Enfant&quot;&gt;Pierre Charles L&#039;Enfant&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2002722830/&quot;&gt;View original image.&lt;/a&gt;</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

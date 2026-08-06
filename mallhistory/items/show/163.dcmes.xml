@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/163">
+<dc:title>Nixon Inaugural Ball in the Museum of History and Technology</dc:title>
+<dc:description>The Smithsonian Museum of History and Technology (now the &lt;a href=&quot;http://mallhistory.org/items/show/48&quot;&gt;National Museum of American History&lt;/a&gt;) hosted one of the five Inaugural Balls for Richard Nixon&#039;s second Presidential Inauguration in January 1973. During the party, a rooster escaped from an exhibit on early American farm life and started bothering some of the guests. Secretary of the Smithsonian &lt;a href=&quot;http://mallhistory.org/items/show/134&quot;&gt;S. Dillon Ripley&lt;/a&gt; rescued the rooster and returned it to its exhibition, but not before a newspaper photographer caught the wayward bird on camera.</dc:description>
+<dc:source>Smithsonian Institution Archive. &lt;a href=&quot;http://siris-sihistory.si.edu/ipac20/ipac.jsp?&amp;amp;profile=all&amp;amp;source=~!sichronology&amp;amp;uri=full=3100001~!11959~!0#focus&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>01/20/1973</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

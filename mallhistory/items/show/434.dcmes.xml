@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/434">
+<dc:title>Eric Carlson</dc:title>
+<dc:description>World War I US Army veteran Eric Carlson joined the &lt;a href=&quot;http://mallhistory.org/items/show/169&quot;&gt;1932 Bonus March&lt;/a&gt; to seek early payment of pension money promised veterans by the government. He was shot during a confrontation between marchers and &lt;a href=&quot;http://mallhistory.org/items/show/106&quot;&gt;DC police&lt;/a&gt;, who were trying to evict the marchers from their campsites. Another marcher, &lt;a href=&quot;http://mallhistory.org/items/show/407&quot;&gt;William Hushka&lt;/a&gt; was also shot and died instantly; Carlson died from his wounds  within a week of being shot, on the same day that Hushka was buried with military honors at Arlington National Cemetery. Carlson was also buried at Arlington.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Eric+Carlson&quot;&gt;Eric Carlson&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/96500547/&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

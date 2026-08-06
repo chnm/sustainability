@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/372">
+<dc:title>Department of Agriculture Fields</dc:title>
+<dc:description>In 1863, the Commissioner of Public Buildings offered the &lt;a href=&quot;http://mallhistory.org/items/show/289&quot;&gt;Department of Agriculture&lt;/a&gt; the land between 12th and 14th streets and &lt;a href=&quot;http://mallhistory.org/items/show/311&quot;&gt;North&lt;/a&gt; and &lt;a href=&quot;http://mallhistory.org/items/show/312&quot;&gt;South B Streets&lt;/a&gt; (today&#039;s Constitution and Independence Avenues) for use as an experimental garden for agricultural purposes. The land assigned to the Department was part of the &lt;a href=&quot;http://mallhistory.org/items/show/237&quot;&gt;Washington Monument cattle yards&lt;/a&gt; created to supply food to Union troops during the Civil War. After the Civil War in 1865, the &lt;a href=&quot;http://mallhistory.org/items/show/324&quot;&gt;Department grew test crops on the undeveloped spaces of the mall for over a decade&lt;/a&gt;.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Titian+Ramsey+Peale&quot;&gt;Titian Ramsey Peale&lt;/a&gt;</dc:creator>
+<dc:source>William Henry Seward Papers, University of Rochester Library, via Smithsonian Institution. &lt;a href=&quot;http://civilwar.si.edu/l_smithsonian_castle3.html&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1863</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

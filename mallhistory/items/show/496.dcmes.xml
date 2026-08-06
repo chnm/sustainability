@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/496">
+<dc:title>Mall Turf</dc:title>
+<dc:description>&lt;p&gt;&lt;span&gt;&lt;span&gt;Foot traffic from 25 million annual visitors is hard on the Mall’s natural resources. In 2017, the National Park Service completed a restoration project that re-engineered a total of 18 acres of turf between 3rd and 14th Streets to ensure preservation and access. The project included the installation of accessible granite curbs and compaction resistant soil. A new irrigation system was developed by installing drains and large underground cisterns to collect storm water which will be used to water the grass. A Turf Manager was hired to maintain the project, the first position of its kind in the National Park Service.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</dc:description>
+<dc:source>National Park Service, National Mall and Memorial Parks. &lt;a href=&quot;http://www.nps.gov/nama/naturescience/mall-turf.htm&quot;&gt;View Original&lt;/a&gt;.</dc:source>
+<dc:date>2012</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

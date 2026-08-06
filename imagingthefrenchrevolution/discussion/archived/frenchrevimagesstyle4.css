@@ -1,0 +1,99 @@
+.textbody {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 25px;
+	font-weight: normal;
+	color: #000066;
+}
+a:link {
+	color: #990000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #000033;
+
+}
+a:active {
+	text-decoration: none;
+	color: #000033;
+
+}
+a:visited {
+	color: #595959;
+	text-decoration: none;
+}
+sidelinks {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.sidelinks {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.bottomtext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+}
+.footnotetext {
+	font-size:10pt;
+	font-family:"Times New Roman";
+	color: #000066;
+	line-height: normal;
+
+}
+.footnoteref {
+	vertical-align:super;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000033;
+}
+.subhead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #990000;
+}
+.group {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #000066;
+}
+
+/* --- Accessibility (WCAG 2.2 AA) --- */
+/* 2.4.1 Bypass Blocks: skip-to-content link, revealed on keyboard focus */
+.skip-link {
+	position: absolute;
+	left: -9999px;
+	top: 0;
+	z-index: 1000;
+	background: #ffffff;
+	color: #000033;
+	border: 2px solid #000033;
+	padding: 8px 16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.skip-link:focus { left: 0; }
+/* 2.5.8 Target Size (Minimum): give image and list nav links a >=24px hit area */
+a:has(> img), a[href$=".pdf"] { display: inline-block; min-width: 24px; min-height: 24px; }
+.sidelinks a, a.sidelinks, .bottomtext a, a.bottomtext { display: inline-block; min-height: 24px; }
+/* 1.4.1 Use of Color: distinguish in-text links from prose by underline, not color alone */
+.textbody a, .group a, .footnotetext a, .blockquote a { text-decoration: underline; }

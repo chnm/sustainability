@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/259">
+<dc:title>Map showing the territory flooded in June 1889</dc:title>
+<dc:description>The same storm system which contributed to the Johnstown Flood in June 1889 also caused &lt;a href=&quot;http://mallhistory.org/items/show/453&quot;&gt;flooding in Washington, DC&lt;/a&gt;. This map detail shows the extent to which the flooding affected the National Mall. The dark blue lines show the edges of the flooding; everything with blue hatching was underwater. Most of the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument &lt;/a&gt;grounds, half of the &lt;a href=&quot;http://mallhistory.org/items/show/315&quot;&gt;White House Ellipse&lt;/a&gt;, and an area near the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol &lt;/a&gt;were all under water. The path of the flooding follows the creek bed of &lt;a href=&quot;http://mallhistory.org/items/show/40&quot;&gt;Tiber Creek&lt;/a&gt;, which was filled in during the 1870s.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Board+of+Sanitary+Engineers&quot;&gt;Board of Sanitary Engineers&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Geography and Map Division.</dc:source>
+<dc:date>1894</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

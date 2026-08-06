@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/241">
+<dc:title>Residents of Resurrection City</dc:title>
+<dc:description>In this photo, residents of &lt;a href=&quot;http://mallhistory.org/items/show/207&quot;&gt;Resurrection City&lt;/a&gt; wash mud from their feet. In the late spring and early summer of 1968, 2800 demonstrators camped on the Mall on 15 acres of open space south of the Reflecting Pool, including the area which is now the &lt;a href=&quot;http://mallhistory.org/items/show/62&quot;&gt;Korean War Memorial&lt;/a&gt;. This demonstration was part of the 1968 Poor People&#039;s Campaign envisioned by &lt;a href=&quot;http://mallhistory.org/items/show/90&quot;&gt;Martin Luther King Jr&lt;/a&gt;. and organized by &lt;a href=&quot;http://mallhistory.org/items/show/98&quot;&gt;Ralph Abernathy&lt;/a&gt; to protest for meaningful jobs and living wages. That spring was particularly rainy causing serious issues with mud, flooding, and sanitation for the demonstrators on the Mall.</dc:description>
+<dc:source>Internal Archive, National Park Service.</dc:source>
+<dc:date>1968</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

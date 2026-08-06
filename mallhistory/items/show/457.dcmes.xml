@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/457">
+<dc:title>Annex Building of the Bureau of Engraving and Printing</dc:title>
+<dc:description>The original Bureau of Engraving and Printing was opened on July 1, 1880, but by the 1930s, the facility had become too small for all of the Bureau&#039;s responsibilities, which included printing money, stamps, and government security documents. In 1938, a new facility was opened across the street from the original building. Beneath the building are two tunnels, one walkway connecting to the main building and one set of railroad tracks connecting to a freight-receiving building. The tracks are no longer in use.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Louis+M.+Simon&quot;&gt;Louis M. Simon&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/hec2009012111/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>05/17/1938 (completed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/187">
+<dc:title>First Watergate Barge Concert</dc:title>
+<dc:description>At sunset on July 14, 1935, Dr. Hans Kindler conducted the &lt;a href=&quot;http://mallhistory.org/items/show/380&quot;&gt;National Symphony Orchestra&lt;/a&gt; in the first performance at the Watergate steps near the &lt;a href=&quot;http://mallhistory.org/items/show/33&quot;&gt;Lincoln Memorial&lt;/a&gt;. The orchestra played from a specially contracted barge anchored in the &lt;a href=&quot;http://mallhistory.org/items/show/424&quot;&gt;Potomac&lt;/a&gt; near the steps. Tickets ranged from 25 cents to a dollar, although people listened for free from nearby boats and the Arlington Bridge. &lt;a href=&quot;http://mallhistory.org/items/show/379&quot;&gt;The first concert&lt;/a&gt; included pieces by Wagner and Johann Strauss and the Tchaikovsky&#039;s 1812 Overture. President Franklin Roosevelt dropped in to listen shortly before intermission. Watergate concerts continued until the 1960s.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/hec2009013682/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>07/14/1935</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/320">
+<dc:title>US Capitol in 1814</dc:title>
+<dc:description>British troops invaded Washington during the War of 1812. On August 24, 1814, British soldiers marched into the city and &lt;a href=&quot;http://mallhistory.org/items/show/157&quot;&gt;set fire to federal buildings&lt;/a&gt;, including the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;U.S. Capitol&lt;/a&gt;. At the time, the Capitol only consisted of two wings; the connecting Rotunda was not yet built. Fireproof building materials protected the exterior structure, but the interior was severely damaged. The wing for the House of Representatives was worst hit. The fire there was so intense that glass lamps melted. This engraving was made in the fall of 1814, when &lt;a href=&quot;http://mallhistory.org/items/show/327&quot;&gt;Congress debated whether to rebuild the Capitol or move back to Philadelphia&lt;/a&gt;.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=William+Strickland+%28engraver%29&quot;&gt;William Strickland (engraver)&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=George+Munger+%28artist%29&quot;&gt;George Munger (artist)&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2006692267/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1814</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

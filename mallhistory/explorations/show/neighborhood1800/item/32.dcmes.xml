@@ -1,0 +1,16 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/32">
+<dc:title>Center Market</dc:title>
+<dc:description>Once the largest commercial market in Washington, Center Market &lt;a href=&quot;http://mallhistory.org/items/show/165&quot;&gt;opened in 1801&lt;/a&gt;. The original buildings were replaced in 1872 by a building designed by &lt;a href=&quot;http://mallhistory.org/items/show/70&quot;&gt;Adolph Cluss&lt;/a&gt;. The market was close to the &lt;a href=&quot;http://mallhistory.org/items/show/41&quot;&gt;Washington City Canal&lt;/a&gt;, &lt;a href=&quot;http://mallhistory.org/items/show/42&quot;&gt;railroads&lt;/a&gt;, and &lt;a href=&quot;http://mallhistory.org/items/show/193&quot;&gt;streetcar lines&lt;/a&gt;. It was &lt;a href=&quot;http://mallhistory.org/items/show/138&quot;&gt;demolished in 1931&lt;/a&gt; and is the current site of the National Archives. &lt;a href=&quot;http://mallhistory.org/items/show/139&quot;&gt;Vendors sold all manner of goods inside&lt;/a&gt;: produce, meat and fish, and staples. Because of its access to transportation, Center Market was able to sell goods that had been grown or produced far away; fast, dependable railroads and streetcars made it possible to offer fresh foods before they spoiled.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Adolf+Cluss&quot;&gt;Adolf Cluss&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2005684081/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1801 (Established)</dc:date>
+<dc:date>1872 (Reconstructed)</dc:date>
+<dc:date>1931 (Destroyed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

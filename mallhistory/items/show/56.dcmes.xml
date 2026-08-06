@@ -1,0 +1,16 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/56">
+<dc:title>Smithsonian Arts and Industries Building</dc:title>
+<dc:description>The Arts and Industries Building opened in 1881 as the “US National Museum.” &lt;a href=&quot;http://mallhistory.org/items/show/150&quot;&gt;Spencer Baird&lt;/a&gt;, the second Secretary of the Smithsonian, developed exhibits for the museum that included objects from the Centennial Exposition of 1876 and samples of the Smithsonian’s collections of natural history and science, history, and art. Designed in a late Victorian style, the building is symmetrical and composed in the shape of a Greek cross with a central rotunda. The colorful exterior features bricks in geometric designs and has an iron truss roof. In 1910, this museum was renamed the Arts and Industries Building, and &lt;a href=&quot;http://mallhistory.org/items/show/178&quot;&gt;the National Museum moved&lt;/a&gt; to what is now known as the &lt;a href=&quot;http://mallhistory.org/items/show/55&quot;&gt;National Museum of Natural History&lt;/a&gt;.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Adolf+Cluss&quot;&gt;Adolf Cluss&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Paul+Schultze&quot;&gt;Paul Schultze&lt;/a&gt;</dc:creator>
+<dc:source>Smithsonian Institution Archives. &lt;a href=&quot;http://siris-sihistory.si.edu/ipac20/ipac.jsp?&amp;amp;profile=all&amp;amp;source=~!sichronology&amp;amp;uri=full=3100001~!12708~!0#focus&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1881 (Opened)</dc:date>
+<dc:date>1910 (Renamed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

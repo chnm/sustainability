@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/261">
+<dc:title>Deer on the Mall</dc:title>
+<dc:description>This photograph was taken around 1890, when the Mall was landscaped according to a &lt;a href=&quot;http://mallhistory.org/items/show/356&quot;&gt;design by Andrew Jackson Downing&lt;/a&gt;. Rather than the wide open lawn edged with trees we see today, this section of the Mall was covered in small evergreens with a winding path. This deer may have been wild, enjoying a forested spot in the city, or part of the &lt;a href=&quot;http://mallhistory.org/items/show/233&quot;&gt;Smithsonian&#039;s Department of Living Animals&lt;/a&gt;.</dc:description>
+<dc:source>Smithsonian Institution Archives.&lt;a href=&quot;http://siris-sihistory.si.edu/ipac20/ipac.jsp?&amp;amp;profile=all&amp;amp;source=~!sichronology&amp;amp;uri=full=3100001~!10760~!0#focus&quot;&gt; View original&lt;/a&gt;.</dc:source>
+<dc:date>1890</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

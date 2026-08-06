@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/281">
+<dc:title>Construction of the Washington Monument resumes</dc:title>
+<dc:description>In 1876 after sitting uncompleted for almost twenty years Congress passed a joint resolution taking charge of the &lt;a href=&quot;http://mallhistory.org/items/show/196&quot;&gt;completion of the monument&lt;/a&gt;. Taking control of the land and monument back from the &lt;a href=&quot;http://mallhistory.org/items/show/148&quot;&gt;Washington National Monument Society&lt;/a&gt; who had run out of funds shortly after construction began in 1854. In this image &lt;a href=&quot;http://mallhistory.org/items/show/502&quot;&gt;workers&lt;/a&gt; can be see fortifying the base of the monument. Now controlled by the federal government, the design of the monument became the &lt;a href=&quot;http://mallhistory.org/items/show/455&quot;&gt;more simple Egyptian style obelisk&lt;/a&gt; which appears today.</dc:description>
+<dc:source>Internal Archive, National Park Service.</dc:source>
+<dc:date>1870s</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

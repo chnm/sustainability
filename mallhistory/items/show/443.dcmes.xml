@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/443">
+<dc:title>One Million Bones</dc:title>
+<dc:description>The Art of Revolution, a group who uses symbolic events to spark political action and social change, staged the &quot;One Million Bones&quot; exhibit on the National Mall June 8-10, 2013. This event laid out one million handcrafted &quot;bones&quot; on the central green space of the Mall. These bones were created by students, educators, artists, and volunteers from across the country. The event was a call to action against genocide in such places as Sudan, South Sudan, the Democratic Republic of Congo, Burma, Somalia, and Syria.</dc:description>
+<dc:source>Craig Roland. &lt;a href=&quot;http://www.flickr.com/photos/croland/9038571148/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>06/08/2013</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

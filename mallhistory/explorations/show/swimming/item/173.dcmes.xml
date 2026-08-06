@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/173">
+<dc:title>City swimming pool and Washington Monument in distance</dc:title>
+<dc:description>These swimming pools were built between 1907 and 1910 on the site of the &lt;a href=&quot;http://mallhistory.org/items/show/313&quot;&gt;US Fish Commission hatching ponds&lt;/a&gt;. In addition to the pools there was a building with showers and changing rooms. The pools were removed in 1936.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Orren+R.+Louden&quot;&gt;Orren R. Louden&lt;/a&gt;</dc:creator>
+<dc:source>The Historical Society of Washington, DC. &lt;a href=&quot;http://historydc.pastperfect-online.com/32595cgi/mweb.exe?request=image&amp;amp;hex=3666PHACLU.JPG&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1930</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

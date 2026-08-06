@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/437">
+<dc:title>White House construction</dc:title>
+<dc:description>When President Truman moved in in 1945, the White House was showing its age. &lt;a href=&quot;http://mallhistory.org/items/show/157&quot;&gt;Burned by British troops in 1814&lt;/a&gt;, renovated in 1902 and 1927, and expanded several times, the piecemeal and constantly incomplete renovations to the White House had left the building structurally unsound. Beginning in 1949, Truman and his family moved into the Blair House across the street so that the White House could be entirely gutted. New foundations, wiring, plumbing, duct work, and other utilities were added. Designers had intended to reuse historic wall paneling but it was not practical, so reproductions were used instead.</dc:description>
+<dc:source>The Truman Library. &lt;a href=&quot;http://www.trumanlibrary.org/abierowe/Gallery/Whitehouse/Dismantling/pages/71290.htm&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>10/1949 (started)</dc:date>
+<dc:date>03/1952 (completed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

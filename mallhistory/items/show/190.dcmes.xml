@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/190">
+<dc:title>1963 March on Washington for Jobs and Freedom</dc:title>
+<dc:description>Roughly 250,000 people joined &lt;a href=&quot;http://mallhistory.org/items/show/273&quot;&gt;The March on Washington for Jobs and Freedom&lt;/a&gt;, one of the largest civil rights demonstrations in US history. Marching for social and economic equality, the crowd stretched from the Washington Monument to the Lincoln Memorial. &lt;a href=&quot;http://mallhistory.org/items/show/90&quot;&gt;Dr. Martin Luther King, Jr&lt;/a&gt;. delivered his &lt;a href=&quot;http://mallhistory.org/items/show/35&quot;&gt;&quot;I Have A Dream Speech&quot;&lt;/a&gt; on its steps. The march influenced Congress to pass the Civil Rights Act (1964) and the Voting Rights Act (1965).</dc:description>
+<dc:source>National Archives at College Park. &lt;a href=&quot;http://research.archives.gov/description/542045&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>08/28/1963</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

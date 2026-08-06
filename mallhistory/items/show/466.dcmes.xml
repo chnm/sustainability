@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/466">
+<dc:title>Old and New Agriculture Buildings</dc:title>
+<dc:description>The &lt;a href=&quot;http://mallhistory.org/items/show/291&quot;&gt;Department of Agriculture&#039;s first building&lt;/a&gt; on the Mall was completed in 1868, but by the 1890s, the Department was outgrowing its building. In 1901, as part of the &lt;a href=&quot;http://mallhistory.org/items/show/350&quot;&gt;McMillan Plan&lt;/a&gt; to redesign the National Mall, Congress approved a new office building for the Department, to be built directly behind the first, with the intention that the newer building would replace the original. This photo from the late 1920s shows the old (on the left) and the new (on the right) buildings, with the &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;Smithsonian Castle&lt;/a&gt; visible between the two. The old building was demolished in 1930.</dc:description>
+<dc:source>DC Public Library. &lt;a href=&quot;http://www.flickr.com/photos/dcplcommons/3360758266/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1868 (old building completed)</dc:date>
+<dc:date>1930 (old building demolished, new building completed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

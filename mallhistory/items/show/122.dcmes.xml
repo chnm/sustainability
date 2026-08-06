@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/122">
+<dc:title>Thaddeus S.C. Lowe</dc:title>
+<dc:description>On June 11, 1861, Thaddeus S.C. Lowe &lt;a href=&quot;http://mallhistory.org/items/show/199&quot;&gt;flew a gas balloon&lt;/a&gt;, the Enterprise, over the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt;. Lowe wanted to demonstrate the potential of using balloons for reconnaissance missions. Lowe placed his gas generators on the Mall near the Smithsonian Institution and in proximity to the &lt;a href=&quot;http://mallhistory.org/items/show/225&quot;&gt;Washington Gas Works&lt;/a&gt;, launching the balloon from the present site of the &lt;a href=&quot;http://mallhistory.org/items/show/269&quot;&gt;National Air and Space Museum&lt;/a&gt;. Once aloft, he telegraphed President Abraham Lincoln, reporting a view of 50 miles. Awarded the position of Chief Aeronaut for the Army, Lowe&#039;s flight contributed to the birth of the Aeronautical Corps of the Union Army.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Thaddeus+S.C.+Lowe&quot;&gt;Thaddeus S.C. Lowe&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/collection/brhc/item/brh2003002157/PP/&quot;&gt;View original photograph&lt;/a&gt;.</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

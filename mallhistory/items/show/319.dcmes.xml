@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/319">
+<dc:title>The White Lot</dc:title>
+<dc:description>In 1860, the &lt;a href=&quot;http://mallhistory.org/items/show/370&quot;&gt;first baseball clubs&lt;/a&gt; in Washington, DC, the Nationals and the Potomacs, played a game on the&lt;a href=&quot;http://mallhistory.org/items/show/315&quot;&gt; field south of the White House&lt;/a&gt;, then known as the White Lot. The field was originally open to baseball enthusiasts of all races, but became segregated in 1874. In 1904, President Theodore Roosevelt formalized the park, laying out four diamonds for public play. The baseball fields remained open until the 1990s.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/resource/fsa.8e07378/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>June 2, 1860 (first game)</dc:date>
+<dc:date>1990s (closed)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

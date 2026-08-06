@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/345">
+<dc:title>Inauguration of President William Henry Harrison</dc:title>
+<dc:description>In February 1841 President-elect William Henry Harrison arrived during a snowstorm at the &lt;a href=&quot;http://mallhistory.org/items/show/344&quot;&gt;Baltimore and Ohio railway station&lt;/a&gt; near the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;US Capitol&lt;/a&gt;. The first president to arrive at an inaugural by train, his inauguration also marked the first time an official committee of citizens planned the events. At 8,445 words, Harrison delivered the longest inaugural address on record, but served the shortest time of any American president. His inaugural took place on the east side of the Capitol building in overcast, windy weather. Three weeks later, he became ill and died after only 32 days in office.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/00650916/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>3/4/1841</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

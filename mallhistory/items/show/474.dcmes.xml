@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/474">
+<dc:title>Essay on the City of Washington</dc:title>
+<dc:description>This newspaper article was published in New York City in the mid 1790s, describing official plans for the developing federal city. Although an Act of Congress in 1790 had declared that Washington would be the national capital as of 1800, it was at the time mostly farmland and a few groups of buildings. &lt;a href=&quot;http://mallhistory.org/items/show/251&quot;&gt;The author describes the Mall as a magnificent setting, and the park to be developed there as elegant as any in Europe&lt;/a&gt;.</dc:description>
+<dc:source>&lt;em&gt;Herald&lt;/em&gt;, February 4, 1795.(New York, NY).</dc:source>
+<dc:date>02/04/1795</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pre-1800s&quot;&gt;Pre-1800s&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

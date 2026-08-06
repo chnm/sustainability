@@ -1,0 +1,20 @@
+name: "Deploy Static Website -- braceroarchive"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "**"
+    paths:
+      - 'braceroarchive/**'
+      - "!.github/**"
+
+jobs:
+  deploy:
+    uses: chnm/.github/.github/workflows/static--deploy.yml@main
+    secrets: inherit
+    with:
+      context_root: "braceroarchive"
+      website-devl-fqdn: "bracero.dev.chnm.gmu.edu"
+      website-prod-fqdn: "bracero.dev.chnm.gmu.edu"
+      runner_labels: '["self-hosted","IncusOS"]'

@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/20">
+<dc:title>President&#039;s Park</dc:title>
+<dc:description>President&#039;s Park is made up of the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt;, &lt;a href=&quot;http://mallhistory.org/items/show/315&quot;&gt;the Ellipse&lt;/a&gt;, and Lafayette Square, and has existed for more than 200 years. Originally, President&#039;s Park was only the grounds immediately surrounding the White House, but over time it grew to include Lafayette Square and the Ellipse. The Ellipse has been the site of the &lt;a href=&quot;http://mallhistory.org/items/show/524&quot;&gt;National Christmas Tree&lt;/a&gt; since 1923.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Pierre+L%27Enfant&quot;&gt;Pierre L&#039;Enfant&lt;/a&gt;</dc:creator>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Andrew+Jackson+Downing&quot;&gt;Andrew Jackson Downing&lt;/a&gt;</dc:creator>
+<dc:source>Internal Archive, National Park Service</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

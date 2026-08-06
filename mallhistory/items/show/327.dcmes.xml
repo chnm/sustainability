@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/327">
+<dc:title>Removal of the Seat of Government</dc:title>
+<dc:description>In August 1814, &lt;a href=&quot;http://mallhistory.org/items/show/320&quot;&gt;British troops invaded Washington&lt;/a&gt; and &lt;a href=&quot;http://mallhistory.org/items/show/157&quot;&gt;set fire to many federal buildings&lt;/a&gt;. Congress reconvened on September 19, meeting in cramped rooms at Blodgett&#039;s Hotel because &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;the Capitol &lt;/a&gt;had been heavily damaged. The House of Representatives soon began to debate whether the entire federal government should leave Washington, even temporarily. This document is the first of many pages from the Congressional record detailing the arguments for and against moving the national capital. After almost a month of debate, the House voted on the measure to relocate, defeating it by only 83 yea to 76 nay votes.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=United+States+House+of+Representatives&quot;&gt;United States House of Representatives&lt;/a&gt;</dc:creator>
+<dc:source>&lt;em&gt;Annals of Congress&lt;/em&gt;, 13th Cong., 3rd sess., 311. &lt;a href=&quot;http://memory.loc.gov/cgi-bin/ampage?collId=llac&amp;amp;fileName=028/llac028.db&amp;amp;recNum=153&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>10/26/1814</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

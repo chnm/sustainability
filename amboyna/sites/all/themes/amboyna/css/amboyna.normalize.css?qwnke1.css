@@ -50,8 +50,8 @@ a {
   background: transparent; }
 
 /* line 15, ../../../../../../../../usr/local/share/gems/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
-a:active,
-a:hover {
+a:active:not(:focus-visible),
+a:hover:not(:focus-visible) {
   outline: 0; }
 
 /*! normalize.css v3.0.0 | Typography | MIT License | git.io/normalize */

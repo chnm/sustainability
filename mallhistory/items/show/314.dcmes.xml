@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/314">
+<dc:title>Dwight D. Eisenhower Memorial</dc:title>
+<dc:description>The Eisenhower Memorial is a proposed monument to the 34th President of the United States, Dwight D. Eisenhower. The proposed monument site is located on the south side of &lt;a href=&quot;http://mallhistory.org/items/show/312&quot;&gt;Independence Avenue&lt;/a&gt;, directly across from the &lt;a href=&quot;http://mallhistory.org/items/show/269&quot;&gt;National Air and Space Museum&lt;/a&gt;. Like most memorials on the National Mall, architect Frank Gehry&#039;s proposed design selected in 2010 has generated controversy on Capitol Hill, within Eisenhower&#039;s family, and among public art organizations. In October 2014, the monument gained preliminary approval from the National Capital Planning Commission after design revisions.</dc:description>
+<dc:source>Eisenhower Memorial Commission. &lt;a href=&quot;http://www.eisenhowermemorial.org/#memorial/design?p=0&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>10/25/1999 (commissioned)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

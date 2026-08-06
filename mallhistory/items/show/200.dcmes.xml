@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/200">
+<dc:title>Presidents&#039; Day snowstorm of 1979</dc:title>
+<dc:description>On Presidents&#039; Day 1979 a 22-inch blizzard shut down Washington, DC. Forecasters had predicted that the storm would bypass the city, so residents and city planners were taken by surprise. For the first time in fifty years, the Smithsonian museums were closed for two days in a row. Farmers in town to protest agricultural policy as part of a movement called &lt;a href=&quot;http://mallhistory.org/items/show/242&quot;&gt;&quot;Tractorcade&quot;&lt;/a&gt; used their tractors to help clear streets and get emergency personnel to hospitals.</dc:description>
+<dc:source>Smithsonian Institution Archive. &lt;a href=&quot;http://siarchives.si.edu/blog/sneak-peek-02012012&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>02/19/1979</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1950-1979&quot;&gt;1950-1979&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

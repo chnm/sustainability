@@ -100,8 +100,8 @@ pwd/
 │   │   └── news/
 │   │       └── _index.md          # News index
 │   ├── data/
-│   │   ├── media_map.json         # image_id → [filenames] lookup
-│   │   └── transcriptions_ai.json # AI transcriptions keyed by omeka_id (future)
+│   │   ├── media_map.json         # image_id (reel) → [filenames] lookup
+│   │   └── transcriptions_ai.json # AI transcriptions keyed by omeka_id (Hugo reads this)
 │   ├── layouts/
 │   │   ├── _default/
 │   │   │   ├── baseof.html        # Base template (head, nav, footer partials)
@@ -139,13 +139,26 @@ pwd/
 │   ├── static-media/
 │   │   └── files/
 │   │       └── media_catalog.json # Full media catalog from API
-│   └── scripts/
-│       ├── fetch_pages.py         # Fetch editorial pages from API
-│       ├── fetch_items.py         # Fetch items (Document/Collection/Repository)
-│       ├── fetch_media.py         # Fetch media catalog/files from API
-│       ├── build_media_map.py     # Generate data/media_map.json
-│       ├── html_to_markdown.py    # Convert editorial HTML to markdown
-│       └── requirements.txt       # Python dependencies
+│   ├── scripts/
+│   │   ├── fetch_pages.py         # Fetch editorial pages from API
+│   │   ├── fetch_items.py         # Fetch items (Document/Collection/Repository); sets num_pages
+│   │   ├── fetch_media.py         # Fetch media catalog/files from API
+│   │   ├── build_media_map.py     # Generate data/media_map.json
+│   │   ├── fetch_num_pages.py     # Backfill bibo:numPages, expand images: lists (API)
+│   │   ├── fix_multipage_images.py# Rebuild images:/num_pages locally from reel structure
+│   │   ├── transcribe.py          # AI transcription via Anthropic SDK + API key (alt path)
+│   │   ├── estimate_transcription_cost.py # Cost estimate (supports --ids-file)
+│   │   ├── build_transcription_dashboard.py # Build data/transcription_dashboard.json
+│   │   ├── build_search_index.py  # Build client-side search index
+│   │   ├── html_to_markdown.py    # Convert editorial HTML to markdown
+│   │   └── requirements.txt       # Python dependencies
+│   ├── _transcription/            # Preferred AI transcription pipeline (claude -p) — see README.md
+│   │   ├── build_image_list.py    # Build images.tsv from frontmatter images: lists
+│   │   ├── transcribe.py          # Run claude -p per doc; usage tracking + --ids-file/--max-tokens
+│   │   ├── prompt.txt             # Transcription system prompt
+│   │   └── transcriptions.json    # Output (manually synced → data/transcriptions_ai.json)
+│   ├── multipage_fix_manifest.json# fix_multipage_images.py change manifest
+│   └── multipage_grown_ids.txt    # Docs whose images: list grew (drives re-transcription)
 ├── wardepartmentpapers.org/       # wget'd copy of original site (reference)
 │   ├── files/                     # ~26k media files (large/, original/, square/)
 │   ├── s/home/                    # Original HTML pages
@@ -199,9 +212,34 @@ Each content type has its own layout directory:
 
 Cross-references use Hugo taxonomies (authors, recipients, etc.) with links to `/authors/{slug}/`, `/recipients/{slug}/`, etc. Collections link to content pages at `/collection/{id}/`.
 
+### Document Images (microfilm reel model)
+
+Documents do not own their images directly. Each document has `omeka_image_id`
+pointing to an Omeka **Image resource** (a microfilm reel); `data/media_map.json`
+maps that reel id to its ordered list of image files. A document's `images:`
+frontmatter list is a **slice** of the reel, `reel_files[page_start-1 :
+page_start-1+num_pages]`. Reels are shared by many documents (dozens to
+hundreds), each starting at a different `page_start`.
+
+Omeka often lacks a per-document `bibo:numPages`, so early migration truncated
+multi-page documents to a single image. `scripts/fix_multipage_images.py`
+repairs this **locally** (no API): single-doc and small reels (≤5 images) get the
+whole reel; large shared reels are sliced `page_start`→next document's
+`page_start`. See `docs/superpowers/specs/2026-07-06-multipage-images-design.md`.
+
+### AI Transcriptions
+
+Two pipelines exist; the **preferred** one is `_transcription/transcribe.py`
+(`claude -p`, billed to a Claude **subscription**). `scripts/transcribe.py` is an
+alternate using the Anthropic **SDK + API key**. Both read a document's `images:`
+list. The `claude -p` pipeline writes `_transcription/transcriptions.json`, which
+must be **manually synced** into `data/transcriptions_ai.json` (the file Hugo
+reads, keyed by `omeka_id`). Full runbook: `_transcription/README.md`.
+
 ### Omeka S API Reference
 
-Base URL: `https://www.wardepartmentpapers.org/api/`
+Base URL: `https://omeka.wardepartmentpapers.org/api/` (VPN-only). The old
+`https://www.wardepartmentpapers.org/api/` host is no longer live — it 302→404s.
 
 Key endpoints used:
 - `GET /items?per_page=100&page={n}&sort_by=id&sort_order=asc` — paginated items
@@ -233,6 +271,23 @@ To generate the media map (required for image display):
 python3 scripts/fetch_media.py --catalog-only   # ~15min, writes media_catalog.json
 python3 scripts/build_media_map.py               # instant, writes data/media_map.json
 ```
+
+### Fixing multi-page images & AI transcription
+
+```bash
+# Repair truncated images: lists locally (dry-run first). Idempotent.
+python3 scripts/fix_multipage_images.py --dry-run
+python3 scripts/fix_multipage_images.py          # writes multipage_grown_ids.txt
+
+# Re-transcribe docs whose image list grew, via the claude -p pipeline:
+python3 _transcription/build_image_list.py --content-dir content/document
+python3 _transcription/transcribe.py --ids-file multipage_grown_ids.txt --model claude-sonnet-4-6
+```
+
+`fix_multipage_images.py` needs no network. The transcription step bills a Claude
+subscription and is resumable — see `_transcription/README.md` for `--ids-file`
+resume semantics, `--max-tokens` guards, usage logging, and the manual sync of
+`_transcription/transcriptions.json` → `data/transcriptions_ai.json`.
 
 ### Building the Site
 

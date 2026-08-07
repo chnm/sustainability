@@ -1,0 +1,1966 @@
+/* No files to import found in abstractions/**\/* */
+/* line 1, ../sass/base/_media.scss */
+img, media {
+  max-width: 100%; }
+
+/**
+ * $FONT-FACE
+ */
+@font-face {
+  font-family: "CenStd";
+  src: url('../fonts/CenturyStd-Book.otf?1526926383') format('opentype'); }
+@font-face {
+  font-family: "CenStdB";
+  src: url('../fonts/CenturyStd-Bold.otf?1526926383') format('opentype'); }
+@font-face {
+  font-family: "CenStdI";
+  src: url('../fonts/CenturyStd-BookItalic.otf?1526926383') format('opentype'); }
+@font-face {
+  font-family: "CenStdBI";
+  src: url('../fonts/CenturyStd-BoldItalic.otf?1526926383') format('opentype'); }
+@font-face {
+  font-family: "NewBasket";
+  src: url('../fonts/NewBaskervilleStd-Roman.otf?1526926383') format('opentype'); }
+@font-face {
+  font-family: "NewBasketB";
+  src: url('../fonts/NewBaskervilleStd-Bold.otf?1526926383') format('opentype'); }
+@font-face {
+  font-family: "NewBasketI";
+  src: url('../fonts/NewBaskervilleStd-Italic.otf?1526926383') format('opentype'); }
+@font-face {
+  font-family: "NewBasketBI";
+  src: url('../fonts/NewBaskervilleStd-BoldIt.otf?1526926383') format('opentype'); }
+@font-face {
+  font-family: "TGothic";
+  src: url('../fonts/TradeGothicLTStd.otf?1526926383') format('opentype'); }
+@font-face {
+  font-family: "TGothicB";
+  src: url('../fonts/TradeGothicLTStd-Bold.otf?1526926383') format('opentype'); }
+@font-face {
+  font-family: "TGothicO";
+  src: url('../fonts/TradeGothicLTStd-Obl.otf?1526926383') format('opentype'); }
+@font-face {
+  font-family: "TGothicBO";
+  src: url('../fonts/TradeGothicLTStd-BoldObl.otf?1526926383') format('opentype'); }
+@font-face {
+  font-family: "TexasHero";
+  src: url('../fonts/Texhero.ttf?1526926383') format('truetype'); }
+/* line 22, ../sass/base/_typography.scss */
+html > body {
+  font-family: Helvetica, Arial, serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400; }
+
+/* line 34, ../sass/base/_typography.scss */
+iframe {
+  width: 100%; }
+
+/* line 37, ../sass/base/_typography.scss */
+.sitelogo {
+  font-family: "TexasHero";
+  font-size: 5em;
+  color: #fff; }
+
+/* line 48, ../sass/base/_typography.scss */
+.minititle {
+  text-transform: uppercase;
+  font-family: TGothic;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  margin-left: 3em; }
+
+/* line 63, ../sass/base/_typography.scss */
+h1 {
+  color: #fff;
+  font-size: 2.5em;
+  line-height: 1;
+  position: relative;
+  font-family: "CenStd"; }
+
+/* line 73, ../sass/base/_typography.scss */
+h2 {
+  font-size: 2.5em;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0.5em; }
+
+/* line 79, ../sass/base/_typography.scss */
+h3 {
+  font-family: "TGothicB";
+  font-size: 2em;
+  letter-spacing: 2px;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em; }
+
+/* line 87, ../sass/base/_typography.scss */
+h4 {
+  font-family: "TGothicB";
+  font-size: 2em;
+  margin: 0.3em 0;
+  line-height: 1;
+  font-weight: 400; }
+
+/* line 94, ../sass/base/_typography.scss */
+h5 {
+  font-family: "TGothicO";
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0 0 1.5em; }
+
+/* line 100, ../sass/base/_typography.scss */
+ul {
+  list-style-position: inside; }
+
+/* line 103, ../sass/base/_typography.scss */
+li {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 3px; }
+
+/* line 108, ../sass/base/_typography.scss */
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 400; }
+
+/* line 113, ../sass/base/_typography.scss */
+blockquote {
+  padding-left: 12px;
+  border-width: 0 0 0 1px;
+  line-height: 1.5; }
+
+/* =LINK STYLING
+--------------------------------------------------------------------------------*/
+/* line 122, ../sass/base/_typography.scss */
+a {
+  text-decoration: none;
+  color: #007A8F; }
+
+/* =Table
+-------------------------------------------------------------------------------*/
+/* line 130, ../sass/base/_typography.scss */
+table {
+  width: 100%;
+  text-align: center; }
+  /* line 133, ../sass/base/_typography.scss */
+  table th {
+    background-color: inherit; }
+  /* line 137, ../sass/base/_typography.scss */
+  table thead th {
+    font-size: 1.2em;
+    text-align: center; }
+  /* line 143, ../sass/base/_typography.scss */
+  table tbody tr.even, table tbody tr.odd {
+    background-color: #fff; }
+    /* line 145, ../sass/base/_typography.scss */
+    table tbody tr.even td, table tbody tr.odd td {
+      padding: 1em; }
+
+/* =Forms
+-------------------------------------------------------------------------------*/
+/* line 154, ../sass/base/_typography.scss */
+.form-submit, .button {
+  background-color: #007A8F;
+  border: medium none;
+  border-radius: 0.4em;
+  color: #fff;
+  font-family: "TGothicB";
+  padding: 0.5em 1.5em 0.3em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  box-shadow: 2px 3px 7px -2px #8c8c8c; }
+
+/* line 165, ../sass/base/_typography.scss */
+.contbutton {
+  background-color: #007A8F;
+  border: medium none;
+  border-radius: 0.3em;
+  color: #fff;
+  font-family: "TGothic";
+  font-style: normal;
+  margin-left: 0.3em;
+  padding: 0.4em 0.5em 0.2em;
+  text-transform: uppercase;
+  white-space: nowrap; }
+
+/* line 177, ../sass/base/_typography.scss */
+.startbutton {
+  background-color: #007A8F;
+  border: medium none;
+  border-radius: 0.3em;
+  color: #fff;
+  font-family: "TGothic";
+  font-style: normal;
+  margin-left: 0.3em;
+  padding: 0.4em 0.5em 0.2em;
+  text-transform: uppercase;
+  white-space: nowrap; }
+
+/* line 189, ../sass/base/_typography.scss */
+.endflag {
+  color: #007A8F;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase; }
+
+/* line 195, ../sass/base/_typography.scss */
+.formwrap {
+  margin: 0;
+  background-color: #e3e0db;
+  border-radius: 10px;
+  padding: 1em 0.5em; }
+  /* line 201, ../sass/base/_typography.scss */
+  .formwrap .headerwrap h2 {
+    font-size: 1.5em;
+    font-family: "CenStdB"; }
+  /* line 207, ../sass/base/_typography.scss */
+  .formwrap .allforms .wrapofform {
+    display: inline-block; }
+    /* line 209, ../sass/base/_typography.scss */
+    .formwrap .allforms .wrapofform label {
+      display: block;
+      font-weight: 600;
+      margin-right: 1em;
+      text-align: center; }
+  /* line 216, ../sass/base/_typography.scss */
+  .formwrap .allforms .formaction {
+    position: relative;
+    display: inline-block;
+    margin: 0.5em 0; }
+    /* line 220, ../sass/base/_typography.scss */
+    .formwrap .allforms .formaction:after {
+      content: '< >';
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+      right: 5px;
+      top: 38px;
+      padding: 0 0 2px;
+      position: absolute;
+      pointer-events: none; }
+    /* line 232, ../sass/base/_typography.scss */
+    .formwrap .allforms .formaction select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      border: medium none;
+      border-radius: 0;
+      font-style: italic;
+      padding: 1em 3em 1em 1em; }
+    /* line 246, ../sass/base/_typography.scss */
+    .formwrap .allforms .formaction option {
+      font-style: normal; }
+  /* line 251, ../sass/base/_typography.scss */
+  .formwrap .label {
+    font-size: 1.2em;
+    padding: 0 0.5em;
+    font-weight: 600; }
+  /* line 257, ../sass/base/_typography.scss */
+  .formwrap .wrapper {
+    display: inline-block;
+    position: relative; }
+    /* line 260, ../sass/base/_typography.scss */
+    .formwrap .wrapper input {
+      border: none;
+      padding: 1em; }
+  /* line 265, ../sass/base/_typography.scss */
+  .formwrap .buttonwrap {
+    text-align: right; }
+
+/* =Accordion
+-------------------------------------------------------------------------------*/
+/* line 272, ../sass/base/_typography.scss */
+.accordion {
+  margin-bottom: 1em; }
+  /* line 274, ../sass/base/_typography.scss */
+  .accordion .atitle {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    transition: 0.4s; }
+    /* line 283, ../sass/base/_typography.scss */
+    .accordion .atitle:hover {
+      background-color: #ddd; }
+    /* line 286, ../sass/base/_typography.scss */
+    .accordion .atitle:before {
+      content: "\025b2";
+      /* Unicode character for "down arrow" sign*/
+      font-size: 1.3em;
+      float: left;
+      margin-right: 5px; }
+  /* line 295, ../sass/base/_typography.scss */
+  .accordion .atitle.selected:before {
+    content: '\025bc';
+    /* Unicode character for "down arrow" sign */ }
+  /* line 299, ../sass/base/_typography.scss */
+  .accordion .acont {
+    padding: 2em 2.5em;
+    display: none;
+    background-color: #e9e7e4;
+    text-align: left; }
+  /* line 305, ../sass/base/_typography.scss */
+  .accordion .acont.selected {
+    display: block !important; }
+  /* line 308, ../sass/base/_typography.scss */
+  .accordion table {
+    width: 96%; }
+
+/* =Misc Inline elements
+-------------------------------------------------------------------------------*/
+/* line 316, ../sass/base/_typography.scss */
+abbr, acronym {
+  border: none;
+  font-style: normal; }
+
+/* line 317, ../sass/base/_typography.scss */
+img a {
+  border: none; }
+
+/* line 318, ../sass/base/_typography.scss */
+strong {
+  font-weight: bold; }
+
+/* line 319, ../sass/base/_typography.scss */
+em {
+  font-style: italic; }
+
+/* line 320, ../sass/base/_typography.scss */
+fieldset {
+  border: none; }
+
+/* line 321, ../sass/base/_typography.scss */
+.selected td {
+  background: inherit; }
+
+/* line 323, ../sass/base/_typography.scss */
+.menu {
+  float: right;
+  margin-right: 100px; }
+  /* line 326, ../sass/base/_typography.scss */
+  .menu li {
+    float: left;
+    clear: right;
+    margin-right: 20px; }
+
+/* line 332, ../sass/base/_typography.scss */
+.form-required {
+  color: #007A8F; }
+
+/* line 335, ../sass/base/_typography.scss */
+.form-textarea-wrapper textarea {
+  border: none; }
+
+/* line 340, ../sass/base/_typography.scss */
+a.lightbox-processed {
+  position: relative; }
+  /* line 342, ../sass/base/_typography.scss */
+  a.lightbox-processed:before {
+    content: "+";
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    border-bottom: 1px solid #a6a6a6;
+    background-color: #f2efea;
+    padding: 0.3em 0.7em;
+    border-radius: 50%; }
+  /* line 352, ../sass/base/_typography.scss */
+  a.lightbox-processed img {
+    width: 100%; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 21, 2015, 11:09:49 AM
+    Author     : jmccartney
+*/
+/* line 11, ../sass/base/arlington.scss */
+.messages.messages--error {
+  display: none; }
+
+/* line 15, ../sass/base/arlington.scss */
+body .l-header, body .l-main, body .l-footer {
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 0; }
+/* line 20, ../sass/base/arlington.scss */
+body .l-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em; }
+/* line 25, ../sass/base/arlington.scss */
+body .pane-page-content {
+  padding-top: 2em; }
+/* line 28, ../sass/base/arlington.scss */
+body .book-navigation__up {
+  display: none; }
+
+/* line 36, ../sass/base/arlington.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2efea; }
+
+/* line 41, ../sass/base/arlington.scss */
+.l-page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+/* line 46, ../sass/base/arlington.scss */
+.l-main {
+  padding-bottom: 2em;
+  z-index: 0;
+  flex: 1;
+  position: relative; }
+
+/* line 52, ../sass/base/arlington.scss */
+footer {
+  height: 6em;
+  width: 100%;
+  margin-bottom: 0 !important;
+  padding: 0 1em;
+  box-shadow: 0 -5px 5px -5px #888;
+  background-color: #fff; }
+  /* line 62, ../sass/base/arlington.scss */
+  footer .footwrap {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 1em; }
+    /* line 66, ../sass/base/arlington.scss */
+    footer .footwrap .footcpr, footer .footwrap .footlogo, footer .footwrap .footlink {
+      display: inline-block;
+      width: 30%;
+      vertical-align: middle;
+      color: #8c8c8c;
+      text-transform: uppercase;
+      font-size: 0.9em; }
+    /* line 79, ../sass/base/arlington.scss */
+    footer .footwrap .footlink {
+      text-align: right; }
+      /* line 84, ../sass/base/arlington.scss */
+      footer .footwrap .footlink a {
+        color: #8c8c8c; }
+
+/* line 93, ../sass/base/arlington.scss */
+.l-header .l-branding {
+  background-color: #007A8F;
+  margin: 0;
+  width: 100%; }
+  /* line 97, ../sass/base/arlington.scss */
+  .l-header .l-branding .l-region.l-region--branding {
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative; }
+  /* line 102, ../sass/base/arlington.scss */
+  .l-header .l-branding .headerred {
+    width: 70%;
+    display: inline-block; }
+    /* line 115, ../sass/base/arlington.scss */
+    .l-header .l-branding .headerred .redtop {
+      margin-top: 2.5em;
+      padding-left: 2em; }
+  /* line 124, ../sass/base/arlington.scss */
+  .l-header .l-branding .teachwrap {
+    position: absolute;
+    top: 0;
+    right: 17%;
+    z-index: 99;
+    background-color: #3395a5;
+    box-shadow: 1px 1px 3px #004e5c;
+    padding: 0.1em 1.5em 0.1em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; }
+    /* line 142, ../sass/base/arlington.scss */
+    .l-header .l-branding .teachwrap a {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 0.8em; }
+  /* line 148, ../sass/base/arlington.scss */
+  .l-header .l-branding .pane-system-main-menu, .l-header .l-branding .pane-menu-menu-guest-menu {
+    top: 0;
+    position: absolute;
+    right: 0;
+    z-index: 99;
+    background-color: #3395a5;
+    box-shadow: 1px 1px 3px #004e5c;
+    padding: 0.1em 1.5em 0.1em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; }
+    /* line 162, ../sass/base/arlington.scss */
+    .l-header .l-branding .pane-system-main-menu .menu, .l-header .l-branding .pane-menu-menu-guest-menu .menu {
+      margin: 0;
+      padding: 0;
+      text-align: center; }
+      /* line 180, ../sass/base/arlington.scss */
+      .l-header .l-branding .pane-system-main-menu .menu .leaf, .l-header .l-branding .pane-menu-menu-guest-menu .menu .leaf {
+        float: none;
+        display: block;
+        margin: 0;
+        padding: 0;
+        font-size: 1.2em; }
+        /* line 186, ../sass/base/arlington.scss */
+        .l-header .l-branding .pane-system-main-menu .menu .leaf a, .l-header .l-branding .pane-menu-menu-guest-menu .menu .leaf a {
+          color: #fff; }
+      /* line 190, ../sass/base/arlington.scss */
+      .l-header .l-branding .pane-system-main-menu .menu .leaf.last, .l-header .l-branding .pane-menu-menu-guest-menu .menu .leaf.last {
+        font-size: 0.8em;
+        background-color: #004e5c;
+        box-shadow: 1px 1px 2px #001b39;
+        margin: 0.2em 0 0.5em;
+        padding: 0.2em 1em 0.1em; }
+/* line 200, ../sass/base/arlington.scss */
+.l-header .l-region--navigation {
+  background-color: #654254;
+  border-top: 0.2em solid #006173;
+  bottom: 0;
+  padding: 0.4em 1em;
+  width: 100%; }
+  /* line 206, ../sass/base/arlington.scss */
+  .l-header .l-region--navigation .titbread {
+    margin: 0 auto;
+    max-width: 1200px; }
+  /* line 210, ../sass/base/arlington.scss */
+  .l-header .l-region--navigation .pane-page-title {
+    display: inline-block;
+    margin-right: 1em;
+    padding: 0.3em 0 0; }
+    /* line 214, ../sass/base/arlington.scss */
+    .l-header .l-region--navigation .pane-page-title h1 {
+      display: inline;
+      font-size: 1.3em; }
+  /* line 219, ../sass/base/arlington.scss */
+  .l-header .l-region--navigation .pane-page-breadcrumb {
+    display: inline-block;
+    float: right; }
+    /* line 222, ../sass/base/arlington.scss */
+    .l-header .l-region--navigation .pane-page-breadcrumb .breadcrumb {
+      list-style: none;
+      margin: 0 auto;
+      padding: 0;
+      max-width: 1200px; }
+      /* line 227, ../sass/base/arlington.scss */
+      .l-header .l-region--navigation .pane-page-breadcrumb .breadcrumb li {
+        display: inline; }
+        /* line 229, ../sass/base/arlington.scss */
+        .l-header .l-region--navigation .pane-page-breadcrumb .breadcrumb li a {
+          color: #fff;
+          font-size: 0.9em; }
+        /* line 233, ../sass/base/arlington.scss */
+        .l-header .l-region--navigation .pane-page-breadcrumb .breadcrumb li:after {
+          color: white;
+          content: ">";
+          padding: 0 0.3em; }
+      /* line 240, ../sass/base/arlington.scss */
+      .l-header .l-region--navigation .pane-page-breadcrumb .breadcrumb li:last-child:after {
+        content: none; }
+/* line 247, ../sass/base/arlington.scss */
+.l-header .rightside {
+  width: 15%;
+  top: 0;
+  position: absolute;
+  right: 0.5em;
+  z-index: 99;
+  background-color: #3395a5;
+  box-shadow: 1px 1px 3px #004e5c;
+  padding: 0.1em 1.5em 0.1em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
+  /* line 273, ../sass/base/arlington.scss */
+  .l-header .rightside .userinfo {
+    text-align: center; }
+    /* line 275, ../sass/base/arlington.scss */
+    .l-header .rightside .userinfo .username {
+      text-align: center;
+      font-size: 1.2em;
+      padding: 0.3em 0 0; }
+      /* line 279, ../sass/base/arlington.scss */
+      .l-header .rightside .userinfo .username a {
+        color: #fff; }
+    /* line 283, ../sass/base/arlington.scss */
+    .l-header .rightside .userinfo .logbutt .button {
+      font-size: 0.8em;
+      background-color: #004e5c;
+      margin: 0.2em 0 0.5em;
+      box-shadow: none;
+      text-transform: none; }
+  /* line 291, ../sass/base/arlington.scss */
+  .l-header .rightside .logininfo {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0.3em 0 0; }
+  /* line 298, ../sass/base/arlington.scss */
+  .l-header .rightside .user-login, .l-header .rightside .user-login--2 {
+    margin-bottom: 0.3em; }
+    /* line 300, ../sass/base/arlington.scss */
+    .l-header .rightside .user-login label, .l-header .rightside .user-login .description, .l-header .rightside .user-login--2 label, .l-header .rightside .user-login--2 .description {
+      display: none; }
+    /* line 303, ../sass/base/arlington.scss */
+    .l-header .rightside .user-login .form-item, .l-header .rightside .user-login .form-actions, .l-header .rightside .user-login--2 .form-item, .l-header .rightside .user-login--2 .form-actions {
+      margin: 0; }
+    /* line 306, ../sass/base/arlington.scss */
+    .l-header .rightside .user-login input, .l-header .rightside .user-login--2 input {
+      width: 100%;
+      background-color: #5caab7;
+      border: none;
+      border-radius: 5px;
+      color: #aed5db;
+      text-align: center;
+      padding: 0.3em 1em 0.2em;
+      margin: 0.2em 0; }
+    /* line 323, ../sass/base/arlington.scss */
+    .l-header .rightside .user-login #edit-submit, .l-header .rightside .user-login #edit-submit--2, .l-header .rightside .user-login--2 #edit-submit, .l-header .rightside .user-login--2 #edit-submit--2 {
+      background-color: #006173;
+      box-shadow: none;
+      color: #fff;
+      padding: 0.5em 0 0.1em; }
+  /* line 330, ../sass/base/arlington.scss */
+  .l-header .rightside .extralinks {
+    text-align: center; }
+    /* line 332, ../sass/base/arlington.scss */
+    .l-header .rightside .extralinks .link {
+      display: inline-block;
+      width: 46%;
+      vertical-align: middle;
+      font-size: 0.6em;
+      margin-bottom: 0.5em;
+      line-height: 1.2; }
+      /* line 342, ../sass/base/arlington.scss */
+      .l-header .rightside .extralinks .link a {
+        color: #fff; }
+    /* line 346, ../sass/base/arlington.scss */
+    .l-header .rightside .extralinks .link.forgot {
+      border-left: 1px solid #fff; }
+
+/* line 355, ../sass/base/arlington.scss */
+.front .messages.messages--error {
+  display: block; }
+/* line 357, ../sass/base/arlington.scss */
+.front .l-branding .leftside {
+  display: inline-block;
+  width: 80%;
+  vertical-align: middle;
+  margin-top: 2em;
+  padding-left: 2em; }
+/* line 371, ../sass/base/arlington.scss */
+.front .l-branding .rightside {
+  width: 15%;
+  top: 0;
+  position: absolute;
+  right: 0.5em;
+  z-index: 99;
+  background-color: #3395a5;
+  box-shadow: 1px 1px 3px #004e5c;
+  padding: 0.1em 1.5em 0.1em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
+  /* line 397, ../sass/base/arlington.scss */
+  .front .l-branding .rightside .userinfo {
+    text-align: center; }
+    /* line 399, ../sass/base/arlington.scss */
+    .front .l-branding .rightside .userinfo .username {
+      text-align: center;
+      font-size: 1.2em;
+      padding: 0.3em 0 0; }
+      /* line 403, ../sass/base/arlington.scss */
+      .front .l-branding .rightside .userinfo .username a {
+        color: #fff; }
+    /* line 407, ../sass/base/arlington.scss */
+    .front .l-branding .rightside .userinfo .logbutt .button {
+      font-size: 0.8em;
+      background-color: #004e5c;
+      margin: 0.2em 0 0.5em;
+      box-shadow: none;
+      text-transform: none; }
+  /* line 415, ../sass/base/arlington.scss */
+  .front .l-branding .rightside .logininfo {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0.3em 0 0; }
+  /* line 422, ../sass/base/arlington.scss */
+  .front .l-branding .rightside .user-login {
+    margin-bottom: 0.3em; }
+    /* line 424, ../sass/base/arlington.scss */
+    .front .l-branding .rightside .user-login label, .front .l-branding .rightside .user-login .description {
+      display: none; }
+    /* line 427, ../sass/base/arlington.scss */
+    .front .l-branding .rightside .user-login .form-item, .front .l-branding .rightside .user-login .form-actions {
+      margin: 0; }
+    /* line 430, ../sass/base/arlington.scss */
+    .front .l-branding .rightside .user-login input {
+      width: 100%;
+      background-color: #5caab7;
+      border: none;
+      border-radius: 5px;
+      color: #aed5db;
+      text-align: center;
+      padding: 0.3em 1em 0.2em;
+      margin: 0.2em 0; }
+    /* line 447, ../sass/base/arlington.scss */
+    .front .l-branding .rightside .user-login #edit-submit {
+      background-color: #006173;
+      box-shadow: none;
+      color: #fff;
+      padding: 0.5em 0 0.1em; }
+/* line 456, ../sass/base/arlington.scss */
+.front .l-content {
+  max-width: 100%;
+  padding: 0;
+  margin: 0; }
+  /* line 461, ../sass/base/arlington.scss */
+  .front .l-content .homecont .topbox {
+    position: relative; }
+    /* line 463, ../sass/base/arlington.scss */
+    .front .l-content .homecont .topbox .blackbox {
+      background-color: rgba(1, 1, 1, 0.7);
+      position: absolute;
+      width: 40%;
+      top: 10%;
+      left: 10%;
+      color: #fff;
+      padding: 2em; }
+      /* line 482, ../sass/base/arlington.scss */
+      .front .l-content .homecont .topbox .blackbox .quote {
+        font-family: "CenStdBI";
+        font-size: 1.8em;
+        line-height: 1.2; }
+      /* line 487, ../sass/base/arlington.scss */
+      .front .l-content .homecont .topbox .blackbox .source {
+        text-align: right;
+        font-size: 1.3em;
+        font-family: CenStd;
+        margin-top: 1em; }
+        /* line 499, ../sass/base/arlington.scss */
+        .front .l-content .homecont .topbox .blackbox .source span {
+          display: block;
+          text-transform: uppercase;
+          font-size: 0.6em; }
+  /* line 507, ../sass/base/arlington.scss */
+  .front .l-content .homecont .bottbox {
+    text-align: center; }
+    /* line 509, ../sass/base/arlington.scss */
+    .front .l-content .homecont .bottbox .bigwrapper {
+      display: inline-block;
+      width: 16%;
+      vertical-align: top;
+      margin: 1em 0.6em;
+      box-shadow: 1px 8px 20px 0 #a6a6a6; }
+      /* line 520, ../sass/base/arlington.scss */
+      .front .l-content .homecont .bottbox .bigwrapper .popupme {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        background-color: rgba(1, 1, 1, 0.8);
+        z-index: 999; }
+        /* line 529, ../sass/base/arlington.scss */
+        .front .l-content .homecont .bottbox .bigwrapper .popupme .innerwarp {
+          background-color: white;
+          width: 40%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          border-radius: 10px; }
+          /* line 543, ../sass/base/arlington.scss */
+          .front .l-content .homecont .bottbox .bigwrapper .popupme .innerwarp .toptit {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            color: #fff;
+            font-family: "CenStd";
+            font-size: 1.8em;
+            font-weight: 800;
+            padding: 0.5em 0 0.3em; }
+          /* line 556, ../sass/base/arlington.scss */
+          .front .l-content .homecont .bottbox .bigwrapper .popupme .innerwarp .info .imghold {
+            display: inline-block;
+            width: 35%;
+            vertical-align: middle;
+            margin-right: 0.5em; }
+          /* line 566, ../sass/base/arlington.scss */
+          .front .l-content .homecont .bottbox .bigwrapper .popupme .innerwarp .info .details {
+            display: inline-block;
+            width: 55%;
+            vertical-align: middle;
+            text-align: left; }
+          /* line 577, ../sass/base/arlington.scss */
+          .front .l-content .homecont .bottbox .bigwrapper .popupme .innerwarp .buttonwrap {
+            margin: 0.5em 0 1em; }
+            /* line 579, ../sass/base/arlington.scss */
+            .front .l-content .homecont .bottbox .bigwrapper .popupme .innerwarp .buttonwrap .button {
+              box-shadow: none;
+              font-size: 1.1em;
+              padding: 0.5em 1em 0.3em; }
+      /* line 587, ../sass/base/arlington.scss */
+      .front .l-content .homecont .bottbox .bigwrapper .boxwrap {
+        position: relative;
+        cursor: pointer; }
+      /* line 591, ../sass/base/arlington.scss */
+      .front .l-content .homecont .bottbox .bigwrapper .colorstrip {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1.5em; }
+      /* line 598, ../sass/base/arlington.scss */
+      .front .l-content .homecont .bottbox .bigwrapper .imgbox {
+        margin-top: 1.6em; }
+      /* line 604, ../sass/base/arlington.scss */
+      .front .l-content .homecont .bottbox .bigwrapper .imgtit {
+        margin: -0.6em 0;
+        padding: 1em 0.8em 0.3em;
+        background: #fff;
+        color: #58595b;
+        font-family: "TGothic";
+        line-height: 1.3;
+        font-size: 0.9em; }
+    /* line 618, ../sass/base/arlington.scss */
+    .front .l-content .homecont .bottbox .lincoln .colorstrip, .front .l-content .homecont .bottbox .lincoln .toptit {
+      background-color: #654254; }
+    /* line 623, ../sass/base/arlington.scss */
+    .front .l-content .homecont .bottbox .causecw .colorstrip, .front .l-content .homecont .bottbox .causecw .toptit {
+      background-color: #997058; }
+    /* line 628, ../sass/base/arlington.scss */
+    .front .l-content .homecont .bottbox .eventstocw .colorstrip, .front .l-content .homecont .bottbox .eventstocw .toptit {
+      background-color: #3f5078; }
+    /* line 633, ../sass/base/arlington.scss */
+    .front .l-content .homecont .bottbox .timeline .colorstrip, .front .l-content .homecont .bottbox .timeline .toptit {
+      background-color: #598068; }
+    /* line 638, ../sass/base/arlington.scss */
+    .front .l-content .homecont .bottbox .cwreconst .colorstrip, .front .l-content .homecont .bottbox .cwreconst .toptit {
+      background-color: #9e7486; }
+/* line 645, ../sass/base/arlington.scss */
+.front .footwrap:before {
+  content: none; }
+
+/* line 654, ../sass/base/arlington.scss */
+.node-type-hypothesis .book-navigation__previous {
+  display: none; }
+/* line 657, ../sass/base/arlington.scss */
+.node-type-hypothesis .pane-hypothesis {
+  display: inline-block;
+  width: 48%;
+  margin-right: 1em; }
+  /* line 671, ../sass/base/arlington.scss */
+  .node-type-hypothesis .pane-hypothesis img {
+    border-radius: 10px; }
+  /* line 675, ../sass/base/arlington.scss */
+  .node-type-hypothesis .pane-hypothesis video, .node-type-hypothesis .pane-hypothesis iframe {
+    width: 100%;
+    border-radius: 10px; }
+  /* line 680, ../sass/base/arlington.scss */
+  .node-type-hypothesis .pane-hypothesis .textsource {
+    width: 100%;
+    border-radius: 10px;
+    padding: 1em;
+    overflow-y: scroll;
+    max-height: 42em; }
+/* line 689, ../sass/base/arlington.scss */
+.node-type-hypothesis .webform {
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 1em;
+  padding: 1em;
+  vertical-align: top;
+  width: 48%; }
+  /* line 707, ../sass/base/arlington.scss */
+  .node-type-hypothesis .webform .webform-component--instructions p {
+    font-family: "TGothicBI";
+    font-size: 1.3em;
+    margin: -0.6em 0 1em;
+    line-height: 1.1; }
+  /* line 714, ../sass/base/arlington.scss */
+  .node-type-hypothesis .webform .webform-component-textarea .bue-ui {
+    display: none; }
+  /* line 717, ../sass/base/arlington.scss */
+  .node-type-hypothesis .webform .webform-component-textarea .form-textarea {
+    border-radius: 10px;
+    border: none; }
+  /* line 721, ../sass/base/arlington.scss */
+  .node-type-hypothesis .webform .webform-component-textarea label {
+    color: #007A8F;
+    font-size: 1.3em;
+    font-weight: 800; }
+  /* line 726, ../sass/base/arlington.scss */
+  .node-type-hypothesis .webform .webform-component-textarea .description {
+    font-size: 0.97em;
+    padding: 0 0 0.3em; }
+  /* line 731, ../sass/base/arlington.scss */
+  .node-type-hypothesis .webform .form-actions {
+    text-align: right; }
+/* line 735, ../sass/base/arlington.scss */
+.node-type-hypothesis .hidden {
+  display: none;
+  text-align: center; }
+
+/* line 745, ../sass/base/arlington.scss */
+.node-type-look-closer .firstthing {
+  background-color: #e3e0db;
+  border-radius: 10px;
+  padding: 1.3em;
+  text-align: center;
+  margin-bottom: 1em; }
+  /* line 751, ../sass/base/arlington.scss */
+  .node-type-look-closer .firstthing strong {
+    font-size: 1.2em; }
+  /* line 754, ../sass/base/arlington.scss */
+  .node-type-look-closer .firstthing p {
+    display: inline-block;
+    margin: 0.3em 0; }
+/* line 759, ../sass/base/arlington.scss */
+.node-type-look-closer .imgholder {
+  background-color: #e3e0db;
+  border-radius: 10px;
+  padding: 1em; }
+  /* line 763, ../sass/base/arlington.scss */
+  .node-type-look-closer .imgholder .srcimg {
+    display: inline-block;
+    width: 48%;
+    margin-right: 1em; }
+    /* line 777, ../sass/base/arlington.scss */
+    .node-type-look-closer .imgholder .srcimg .magicimgwraper {
+      position: relative; }
+      /* line 779, ../sass/base/arlington.scss */
+      .node-type-look-closer .imgholder .srcimg .magicimgwraper .glass {
+        background-color: #a6a6a6;
+        border-radius: 50%;
+        cursor: pointer;
+        height: 3.5em;
+        position: absolute;
+        width: 3.5em; }
+        /* line 786, ../sass/base/arlington.scss */
+        .node-type-look-closer .imgholder .srcimg .magicimgwraper .glass .circle {
+          padding: 0.65em; }
+      /* line 790, ../sass/base/arlington.scss */
+      .node-type-look-closer .imgholder .srcimg .magicimgwraper .visited {
+        background-color: #001b39; }
+      /* line 793, ../sass/base/arlington.scss */
+      .node-type-look-closer .imgholder .srcimg .magicimgwraper .selected {
+        background-color: #007A8F; }
+      /* line 797, ../sass/base/arlington.scss */
+      .node-type-look-closer .imgholder .srcimg .magicimgwraper .backimg img {
+        border-radius: 10px;
+        width: 100%; }
+  /* line 805, ../sass/base/arlington.scss */
+  .node-type-look-closer .imgholder .clues {
+    display: inline-block;
+    margin-left: 1em;
+    vertical-align: top;
+    width: 48%; }
+    /* line 820, ../sass/base/arlington.scss */
+    .node-type-look-closer .imgholder .clues .cluewrap {
+      display: none;
+      border-radius: 10px;
+      padding: 1em; }
+      /* line 824, ../sass/base/arlington.scss */
+      .node-type-look-closer .imgholder .clues .cluewrap .pic {
+        text-align: center; }
+      /* line 827, ../sass/base/arlington.scss */
+      .node-type-look-closer .imgholder .clues .cluewrap .question {
+        font-family: "TGothic"; }
+    /* line 831, ../sass/base/arlington.scss */
+    .node-type-look-closer .imgholder .clues .selected {
+      display: block; }
+/* line 836, ../sass/base/arlington.scss */
+.node-type-look-closer .nextpart {
+  text-align: center;
+  margin: 1em 0;
+  padding: 1em;
+  background-color: #e3e0db; }
+  /* line 841, ../sass/base/arlington.scss */
+  .node-type-look-closer .nextpart .thinkabout {
+    border-radius: 10px;
+    margin: 1em auto;
+    width: 50%; }
+    /* line 845, ../sass/base/arlington.scss */
+    .node-type-look-closer .nextpart .thinkabout strong {
+      font-size: 1.2em; }
+    /* line 848, ../sass/base/arlington.scss */
+    .node-type-look-closer .nextpart .thinkabout p {
+      margin: 0.3em 0; }
+/* line 853, ../sass/base/arlington.scss */
+.node-type-look-closer .buttonholder {
+  text-align: right;
+  margin: 1em 0; }
+  /* line 856, ../sass/base/arlington.scss */
+  .node-type-look-closer .buttonholder .disable {
+    pointer-events: none;
+    cursor: default;
+    background-color: #a6a6a6; }
+
+/* line 869, ../sass/base/arlington.scss */
+.node-type-resource .pane-page-content .pane-views.pane-resource-image {
+  display: inline-block;
+  margin-right: 1em;
+  vertical-align: top;
+  width: 48%; }
+  /* line 884, ../sass/base/arlington.scss */
+  .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-html5-video {
+    text-align: center; }
+    /* line 886, ../sass/base/arlington.scss */
+    .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-html5-video img {
+      border-radius: 10px; }
+    /* line 890, ../sass/base/arlington.scss */
+    .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-html5-video video, .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-html5-video iframe {
+      width: 100%;
+      border-radius: 10px; }
+    /* line 895, ../sass/base/arlington.scss */
+    .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-html5-video .textsource {
+      width: 100%;
+      border-radius: 10px;
+      padding: 1em;
+      overflow-y: scroll;
+      max-height: 42em;
+      text-align: left; }
+  /* line 905, ../sass/base/arlington.scss */
+  .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-citation- {
+    border-radius: 10px;
+    font-family: "NewBasket";
+    margin: 1em;
+    padding: 1em; }
+    /* line 911, ../sass/base/arlington.scss */
+    .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-citation- .views-label {
+      font-weight: 600; }
+    /* line 914, ../sass/base/arlington.scss */
+    .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-citation- .field-content {
+      display: inline; }
+      /* line 916, ../sass/base/arlington.scss */
+      .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-citation- .field-content p {
+        display: none; }
+      /* line 919, ../sass/base/arlington.scss */
+      .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-citation- .field-content p.myself {
+        display: inline; }
+    /* line 923, ../sass/base/arlington.scss */
+    .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-citation- a {
+      text-decoration: underline;
+      word-wrap: break-word; }
+  /* line 928, ../sass/base/arlington.scss */
+  .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-view {
+    margin-top: 5em; }
+  /* line 931, ../sass/base/arlington.scss */
+  .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-html5-video .lightbox-processed, .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-transcription .accordion {
+    display: none; }
+  /* line 934, ../sass/base/arlington.scss */
+  .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-html5-video .lightbox-processed.myself, .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-transcription .accordion.myself {
+    display: block; }
+  /* line 937, ../sass/base/arlington.scss */
+  .node-type-resource .pane-page-content .pane-views.pane-resource-image .hideme {
+    display: none !important; }
+  /* line 941, ../sass/base/arlington.scss */
+  .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-source-1 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    /* line 945, ../sass/base/arlington.scss */
+    .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-source-1 ul li {
+      display: inline-block;
+      width: 20%;
+      margin: 0.2em 0.3em;
+      vertical-align: top; }
+      /* line 950, ../sass/base/arlington.scss */
+      .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-source-1 ul li img {
+        border-radius: 50%;
+        cursor: pointer; }
+    /* line 955, ../sass/base/arlington.scss */
+    .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-source-1 ul li.myself img {
+      border: 0.3em solid #007A8F; }
+    /* line 958, ../sass/base/arlington.scss */
+    .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-source-1 ul li.mypast img {
+      border: 0.3em solid #001b39; }
+    /* line 961, ../sass/base/arlington.scss */
+    .node-type-resource .pane-page-content .pane-views.pane-resource-image .views-field-field-source-1 ul li.myfuture img {
+      border: 0.3em solid #a4abb1; }
+/* line 967, ../sass/base/arlington.scss */
+.node-type-resource .pane-page-content .rightme {
+  width: 48%;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 1em; }
+  /* line 982, ../sass/base/arlington.scss */
+  .node-type-resource .pane-page-content .rightme p {
+    font-family: TGothic; }
+  /* line 985, ../sass/base/arlington.scss */
+  .node-type-resource .pane-page-content .rightme .pane-resource-details {
+    background-color: #e3e0db;
+    border-radius: 10px;
+    padding: 1em; }
+  /* line 990, ../sass/base/arlington.scss */
+  .node-type-resource .pane-page-content .rightme .webform {
+    margin-top: 1em;
+    background-color: #e3e0db;
+    border-radius: 10px;
+    padding: 1em; }
+    /* line 995, ../sass/base/arlington.scss */
+    .node-type-resource .pane-page-content .rightme .webform .webform-component-textarea {
+      padding: 1em;
+      background-color: #e3e0db;
+      border-radius: 10px; }
+    /* line 1000, ../sass/base/arlington.scss */
+    .node-type-resource .pane-page-content .rightme .webform label {
+      font-size: 1.3em;
+      font-weight: 800; }
+    /* line 1004, ../sass/base/arlington.scss */
+    .node-type-resource .pane-page-content .rightme .webform .description {
+      font-size: 1em;
+      padding: 0.3em 0;
+      font-family: TGothic; }
+    /* line 1009, ../sass/base/arlington.scss */
+    .node-type-resource .pane-page-content .rightme .webform .form-actions {
+      text-align: right; }
+/* line 1014, ../sass/base/arlington.scss */
+.node-type-resource .pane-page-content .hidden {
+  display: none;
+  background-color: #e3e0db;
+  border-radius: 10px;
+  padding: 1em;
+  text-align: center;
+  width: 300px;
+  margin: 1em auto; }
+
+/* line 1030, ../sass/base/arlington.scss */
+.node-type-rethink .halfme {
+  display: inline-block;
+  margin-right: 1em;
+  vertical-align: top;
+  width: 48%; }
+/* line 1046, ../sass/base/arlington.scss */
+.node-type-rethink .grayme {
+  background-color: #e3e0db;
+  border-radius: 10px;
+  padding: 1em; }
+/* line 1051, ../sass/base/arlington.scss */
+.node-type-rethink .hypo {
+  border-bottom: 2px solid #f2efea;
+  margin-bottom: 2em;
+  padding-bottom: 1em; }
+  /* line 1055, ../sass/base/arlington.scss */
+  .node-type-rethink .hypo .views-field {
+    margin: 1em 0; }
+  /* line 1058, ../sass/base/arlington.scss */
+  .node-type-rethink .hypo .views-label {
+    font-weight: 800; }
+/* line 1063, ../sass/base/arlington.scss */
+.node-type-rethink .resrc .erow {
+  padding: 0.5em 0; }
+  /* line 1065, ../sass/base/arlington.scss */
+  .node-type-rethink .resrc .erow .views-field-field-source {
+    display: inline-block;
+    vertical-align: middle; }
+    /* line 1068, ../sass/base/arlington.scss */
+    .node-type-rethink .resrc .erow .views-field-field-source img {
+      border: 0.2em solid #654254;
+      border-radius: 50%;
+      width: 8em; }
+  /* line 1074, ../sass/base/arlington.scss */
+  .node-type-rethink .resrc .erow .views-field-view {
+    display: inline-block;
+    margin-left: 1em;
+    padding: 0 0 4em;
+    width: 67%;
+    vertical-align: top; }
+    /* line 1081, ../sass/base/arlington.scss */
+    .node-type-rethink .resrc .erow .views-field-view .views-label {
+      font-weight: 800; }
+  /* line 1086, ../sass/base/arlington.scss */
+  .node-type-rethink .resrc .erow:last-child .views-field-view {
+    border: none; }
+/* line 1092, ../sass/base/arlington.scss */
+.node-type-rethink .srcpic {
+  margin-bottom: 2em;
+  text-align: center; }
+  /* line 1095, ../sass/base/arlington.scss */
+  .node-type-rethink .srcpic img {
+    border-radius: 10px; }
+/* line 1101, ../sass/base/arlington.scss */
+.node-type-rethink #aimforme .webform-component--instructions {
+  background-color: #e3e0db;
+  padding: 1em;
+  margin-bottom: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
+  /* line 1107, ../sass/base/arlington.scss */
+  .node-type-rethink #aimforme .webform-component--instructions p {
+    font-family: "TGothicBI";
+    font-size: 1.3em;
+    margin: -0.6em 0 0.5em;
+    line-height: 1.1; }
+/* line 1114, ../sass/base/arlington.scss */
+.node-type-rethink #aimforme .webform-component-textarea {
+  background-color: #e3e0db;
+  padding: 1em;
+  margin-bottom: 0; }
+  /* line 1118, ../sass/base/arlington.scss */
+  .node-type-rethink #aimforme .webform-component-textarea .bue-ui {
+    display: none; }
+  /* line 1121, ../sass/base/arlington.scss */
+  .node-type-rethink #aimforme .webform-component-textarea .form-textarea {
+    border-radius: 10px;
+    border: none; }
+  /* line 1125, ../sass/base/arlington.scss */
+  .node-type-rethink #aimforme .webform-component-textarea label {
+    font-size: 1.3em;
+    font-weight: 800; }
+  /* line 1129, ../sass/base/arlington.scss */
+  .node-type-rethink #aimforme .webform-component-textarea .description {
+    font-size: 1em;
+    padding: 0.3em 0; }
+/* line 1134, ../sass/base/arlington.scss */
+.node-type-rethink #aimforme .webform-component--question2 {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 1em; }
+/* line 1139, ../sass/base/arlington.scss */
+.node-type-rethink #aimforme .form-actions {
+  text-align: right; }
+/* line 1143, ../sass/base/arlington.scss */
+.node-type-rethink .hidden {
+  display: none;
+  border-radius: 10px;
+  padding: 1em;
+  text-align: center;
+  width: 300px;
+  margin: 1em auto; }
+
+/* line 1159, ../sass/base/arlington.scss */
+.node-type-in-action .headerwrap h4 {
+  margin: 0; }
+/* line 1164, ../sass/base/arlington.scss */
+.node-type-in-action .tophalf .instbox {
+  display: inline-block;
+  margin: 1em 0.8em 0;
+  vertical-align: top;
+  width: 47%;
+  background-color: #e3e0db;
+  border-radius: 10px;
+  padding: 1em; }
+  /* line 1182, ../sass/base/arlington.scss */
+  .node-type-in-action .tophalf .instbox .instwrap {
+    text-align: center; }
+    /* line 1184, ../sass/base/arlington.scss */
+    .node-type-in-action .tophalf .instbox .instwrap p {
+      text-align: left; }
+    /* line 1187, ../sass/base/arlington.scss */
+    .node-type-in-action .tophalf .instbox .instwrap .sniplet {
+      text-align: left; }
+  /* line 1191, ../sass/base/arlington.scss */
+  .node-type-in-action .tophalf .instbox .redcir {
+    border-radius: 50%;
+    height: 6em;
+    margin-left: 40%;
+    margin-top: -3em;
+    text-align: center;
+    margin-bottom: 1em;
+    width: 6em; }
+    /* line 1202, ../sass/base/arlington.scss */
+    .node-type-in-action .tophalf .instbox .redcir img {
+      margin-top: 0.5em; }
+  /* line 1206, ../sass/base/arlington.scss */
+  .node-type-in-action .tophalf .instbox .instclick, .node-type-in-action .tophalf .instbox .instclick2 {
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #007A8F;
+    color: #fff;
+    padding: 0.1em 0.7em 0;
+    border-radius: 5px;
+    font-size: 0.9em;
+    cursor: pointer; }
+    /* line 1215, ../sass/base/arlington.scss */
+    .node-type-in-action .tophalf .instbox .instclick img, .node-type-in-action .tophalf .instbox .instclick2 img {
+      height: 0.7em;
+      vertical-align: middle; }
+  /* line 1220, ../sass/base/arlington.scss */
+  .node-type-in-action .tophalf .instbox .instclick2 {
+    display: none; }
+  /* line 1223, ../sass/base/arlington.scss */
+  .node-type-in-action .tophalf .instbox .wholetxt {
+    display: none; }
+/* line 1228, ../sass/base/arlington.scss */
+.node-type-in-action .midhalf {
+  margin: 1em 0;
+  text-align: center; }
+  /* line 1231, ../sass/base/arlington.scss */
+  .node-type-in-action .midhalf .titleinfo {
+    width: 12%;
+    float: left;
+    vertical-align: top;
+    text-align: left;
+    margin-right: 1em; }
+    /* line 1238, ../sass/base/arlington.scss */
+    .node-type-in-action .midhalf .titleinfo .learnmore {
+      display: inline-block;
+      margin: 0 auto;
+      background-color: #007A8F;
+      color: #fff;
+      padding: 0.1em 0.7em 0;
+      border-radius: 5px;
+      font-size: 0.9em;
+      cursor: pointer; }
+      /* line 1247, ../sass/base/arlington.scss */
+      .node-type-in-action .midhalf .titleinfo .learnmore img {
+        height: 0.7em;
+        vertical-align: middle; }
+  /* line 1253, ../sass/base/arlington.scss */
+  .node-type-in-action .midhalf .resource-list {
+    width: 82%;
+    text-align: left;
+    display: inline; }
+    /* line 1257, ../sass/base/arlington.scss */
+    .node-type-in-action .midhalf .resource-list .views-row {
+      display: inline-block;
+      vertical-align: top; }
+      /* line 1261, ../sass/base/arlington.scss */
+      .node-type-in-action .midhalf .resource-list .views-row .eachresource .srccircle {
+        cursor: pointer; }
+        /* line 1263, ../sass/base/arlington.scss */
+        .node-type-in-action .midhalf .resource-list .views-row .eachresource .srccircle img {
+          margin: 0 0.5em; }
+      /* line 1267, ../sass/base/arlington.scss */
+      .node-type-in-action .midhalf .resource-list .views-row .eachresource .lightboxme {
+        position: absolute;
+        width: 80%;
+        height: auto;
+        z-index: 999;
+        background-color: #007A8F;
+        color: #f2efea;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2em;
+        border-radius: 10px;
+        border: 1px solid #654254; }
+        /* line 1280, ../sass/base/arlington.scss */
+        .node-type-in-action .midhalf .resource-list .views-row .eachresource .lightboxme a {
+          color: #a4abb1;
+          text-decoration: underline; }
+        /* line 1284, ../sass/base/arlington.scss */
+        .node-type-in-action .midhalf .resource-list .views-row .eachresource .lightboxme .video-js {
+          width: 100% !important; }
+        /* line 1287, ../sass/base/arlington.scss */
+        .node-type-in-action .midhalf .resource-list .views-row .eachresource .lightboxme .exitleft {
+          cursor: pointer;
+          position: absolute;
+          top: -12px;
+          right: -10px;
+          color: #007A8F;
+          font-size: 2em;
+          background-color: #fff;
+          border-radius: 50%;
+          padding: 0.3em 0.3em 0.2em;
+          font-style: normal; }
+        /* line 1300, ../sass/base/arlington.scss */
+        .node-type-in-action .midhalf .resource-list .views-row .eachresource .lightboxme .view-resource-multi-sources .views-row {
+          width: 100%; }
+        /* line 1303, ../sass/base/arlington.scss */
+        .node-type-in-action .midhalf .resource-list .views-row .eachresource .lightboxme .view-resource-multi-sources ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          text-align: center; }
+          /* line 1308, ../sass/base/arlington.scss */
+          .node-type-in-action .midhalf .resource-list .views-row .eachresource .lightboxme .view-resource-multi-sources ul li {
+            width: 23%;
+            display: inline-block;
+            vertical-align: top; }
+            /* line 1312, ../sass/base/arlington.scss */
+            .node-type-in-action .midhalf .resource-list .views-row .eachresource .lightboxme .view-resource-multi-sources ul li img {
+              width: 100%; }
+      /* line 1319, ../sass/base/arlington.scss */
+      .node-type-in-action .midhalf .resource-list .views-row .eachresource .lightboxme.hideme {
+        display: none; }
+/* line 1327, ../sass/base/arlington.scss */
+.node-type-in-action .bothalf .resbox {
+  display: inline-block;
+  margin: 1em 0.8em 0;
+  vertical-align: top;
+  width: 47%;
+  background-color: #e3e0db;
+  border-radius: 10px;
+  padding: 1em; }
+  /* line 1345, ../sass/base/arlington.scss */
+  .node-type-in-action .bothalf .resbox ul {
+    margin: 0;
+    padding: 0; }
+    /* line 1348, ../sass/base/arlington.scss */
+    .node-type-in-action .bothalf .resbox ul li {
+      padding: 0.5em 0;
+      word-wrap: break-word; }
+      /* line 1351, ../sass/base/arlington.scss */
+      .node-type-in-action .bothalf .resbox ul li a {
+        text-decoration: underline;
+        color: #000; }
+/* line 1358, ../sass/base/arlington.scss */
+.node-type-in-action .bothalf .webform {
+  display: inline-block;
+  margin: 1em 0.8em 0;
+  vertical-align: top;
+  width: 47%;
+  background-color: #e3e0db;
+  border-radius: 10px;
+  padding: 1em; }
+  /* line 1376, ../sass/base/arlington.scss */
+  .node-type-in-action .bothalf .webform .bue-ui {
+    display: none; }
+  /* line 1380, ../sass/base/arlington.scss */
+  .node-type-in-action .bothalf .webform .webform-component-textarea label {
+    font-family: "TGothicB";
+    font-size: 2em;
+    margin: 0.3em 0;
+    font-weight: 400; }
+  /* line 1387, ../sass/base/arlington.scss */
+  .node-type-in-action .bothalf .webform #edit-submitted-file-remove-button {
+    float: right; }
+  /* line 1390, ../sass/base/arlington.scss */
+  .node-type-in-action .bothalf .webform .webform-submit.button-primary.form-submit {
+    float: right;
+    margin-right: 1em;
+    margin-top: -3em; }
+
+/* line 1407, ../sass/base/arlington.scss */
+.page-node-99 .l-header .l-region--navigation {
+  background-color: #006173;
+  border-top: 0.2em solid #004e5c; }
+/* line 1411, ../sass/base/arlington.scss */
+.page-node-99 .pane-teacher-class-overview, .page-node-99 .pane-student-class-overview {
+  margin: 1em 0.5em 0;
+  background-color: #e3e0db;
+  border-radius: 10px;
+  padding: 1em; }
+  /* line 1416, ../sass/base/arlington.scss */
+  .page-node-99 .pane-teacher-class-overview h2, .page-node-99 .pane-student-class-overview h2 {
+    font-size: 1.5em;
+    font-family: "CenStdB"; }
+  /* line 1420, ../sass/base/arlington.scss */
+  .page-node-99 .pane-teacher-class-overview .view-header, .page-node-99 .pane-student-class-overview .view-header {
+    margin-left: 3em; }
+  /* line 1423, ../sass/base/arlington.scss */
+  .page-node-99 .pane-teacher-class-overview .subj, .page-node-99 .pane-student-class-overview .subj {
+    padding-left: 2em;
+    width: 20%; }
+  /* line 1427, ../sass/base/arlington.scss */
+  .page-node-99 .pane-teacher-class-overview .pd, .page-node-99 .pane-student-class-overview .pd {
+    width: 20%; }
+  /* line 1430, ../sass/base/arlington.scss */
+  .page-node-99 .pane-teacher-class-overview .yr, .page-node-99 .pane-student-class-overview .yr {
+    width: 20%; }
+  /* line 1433, ../sass/base/arlington.scss */
+  .page-node-99 .pane-teacher-class-overview .seme, .page-node-99 .pane-student-class-overview .seme {
+    width: 20%; }
+  /* line 1438, ../sass/base/arlington.scss */
+  .page-node-99 .pane-teacher-class-overview .accordion .atitle .subj, .page-node-99 .pane-student-class-overview .accordion .atitle .subj {
+    width: 25%;
+    padding-left: 0; }
+  /* line 1443, ../sass/base/arlington.scss */
+  .page-node-99 .pane-teacher-class-overview .accordion .acont, .page-node-99 .pane-student-class-overview .accordion .acont {
+    padding: 2em 1.5em; }
+    /* line 1445, ../sass/base/arlington.scss */
+    .page-node-99 .pane-teacher-class-overview .accordion .acont .toolhelp, .page-node-99 .pane-student-class-overview .accordion .acont .toolhelp {
+      font-style: normal;
+      padding: 1em 0.5em; }
+      /* line 1448, ../sass/base/arlington.scss */
+      .page-node-99 .pane-teacher-class-overview .accordion .acont .toolhelp span, .page-node-99 .pane-student-class-overview .accordion .acont .toolhelp span {
+        float: right; }
+    /* line 1455, ../sass/base/arlington.scss */
+    .page-node-99 .pane-teacher-class-overview .accordion .acont h5, .page-node-99 .pane-student-class-overview .accordion .acont h5 {
+      font-style: normal;
+      font-weight: 800;
+      margin-bottom: 0.3em; }
+    /* line 1460, ../sass/base/arlington.scss */
+    .page-node-99 .pane-teacher-class-overview .accordion .acont .stuviewer, .page-node-99 .pane-student-class-overview .accordion .acont .stuviewer {
+      padding: 1.5em 2em; }
+      /* line 1463, ../sass/base/arlington.scss */
+      .page-node-99 .pane-teacher-class-overview .accordion .acont .stuviewer .view-header, .page-node-99 .pane-student-class-overview .accordion .acont .stuviewer .view-header {
+        margin-left: 0; }
+      /* line 1466, ../sass/base/arlington.scss */
+      .page-node-99 .pane-teacher-class-overview .accordion .acont .stuviewer table, .page-node-99 .pane-student-class-overview .accordion .acont .stuviewer table {
+        text-align: left; }
+        /* line 1469, ../sass/base/arlington.scss */
+        .page-node-99 .pane-teacher-class-overview .accordion .acont .stuviewer table thead th, .page-node-99 .pane-student-class-overview .accordion .acont .stuviewer table thead th {
+          color: #000;
+          font-size: 1em;
+          text-decoration: underline;
+          text-align: left;
+          font-weight: 400; }
+        /* line 1478, ../sass/base/arlington.scss */
+        .page-node-99 .pane-teacher-class-overview .accordion .acont .stuviewer table tbody tr.even, .page-node-99 .pane-teacher-class-overview .accordion .acont .stuviewer table tbody tr.odd, .page-node-99 .pane-student-class-overview .accordion .acont .stuviewer table tbody tr.even, .page-node-99 .pane-student-class-overview .accordion .acont .stuviewer table tbody tr.odd {
+          background-color: inherit;
+          border: none; }
+          /* line 1481, ../sass/base/arlington.scss */
+          .page-node-99 .pane-teacher-class-overview .accordion .acont .stuviewer table tbody tr.even td, .page-node-99 .pane-teacher-class-overview .accordion .acont .stuviewer table tbody tr.odd td, .page-node-99 .pane-student-class-overview .accordion .acont .stuviewer table tbody tr.even td, .page-node-99 .pane-student-class-overview .accordion .acont .stuviewer table tbody tr.odd td {
+            padding: 0; }
+    /* line 1488, ../sass/base/arlington.scss */
+    .page-node-99 .pane-teacher-class-overview .accordion .acont .modviewer, .page-node-99 .pane-student-class-overview .accordion .acont .modviewer {
+      padding: 1em 0.5em; }
+      /* line 1490, ../sass/base/arlington.scss */
+      .page-node-99 .pane-teacher-class-overview .accordion .acont .modviewer .view-header, .page-node-99 .pane-student-class-overview .accordion .acont .modviewer .view-header {
+        margin-left: 0; }
+      /* line 1493, ../sass/base/arlington.scss */
+      .page-node-99 .pane-teacher-class-overview .accordion .acont .modviewer .views-row, .page-node-99 .pane-student-class-overview .accordion .acont .modviewer .views-row {
+        padding: 1em 0; }
+        /* line 1495, ../sass/base/arlington.scss */
+        .page-node-99 .pane-teacher-class-overview .accordion .acont .modviewer .views-row .modpic, .page-node-99 .pane-student-class-overview .accordion .acont .modviewer .views-row .modpic {
+          display: inline-block;
+          vertical-align: middle; }
+        /* line 1499, ../sass/base/arlington.scss */
+        .page-node-99 .pane-teacher-class-overview .accordion .acont .modviewer .views-row .views-field-nothing, .page-node-99 .pane-student-class-overview .accordion .acont .modviewer .views-row .views-field-nothing {
+          display: inline-block;
+          font-size: 0.9em;
+          vertical-align: middle; }
+          /* line 1503, ../sass/base/arlington.scss */
+          .page-node-99 .pane-teacher-class-overview .accordion .acont .modviewer .views-row .views-field-nothing .title, .page-node-99 .pane-student-class-overview .accordion .acont .modviewer .views-row .views-field-nothing .title {
+            display: inline;
+            font-size: 1.4em;
+            font-weight: 300; }
+          /* line 1508, ../sass/base/arlington.scss */
+          .page-node-99 .pane-teacher-class-overview .accordion .acont .modviewer .views-row .views-field-nothing .date, .page-node-99 .pane-student-class-overview .accordion .acont .modviewer .views-row .views-field-nothing .date {
+            display: inline; }
+    /* line 1514, ../sass/base/arlington.scss */
+    .page-node-99 .pane-teacher-class-overview .accordion .acont .removewrap, .page-node-99 .pane-student-class-overview .accordion .acont .removewrap {
+      text-align: right;
+      margin-top: 1em;
+      margin-bottom: -1em; }
+/* line 1523, ../sass/base/arlington.scss */
+.page-node-99 .pane-student-class-overview .bluebox {
+  width: 100%; }
+  /* line 1525, ../sass/base/arlington.scss */
+  .page-node-99 .pane-student-class-overview .bluebox .titlebox {
+    background-color: rgba(51, 73, 97, 0.7);
+    color: #fff;
+    line-height: 1;
+    padding: 18px 18px 18px 4em; }
+  /* line 1532, ../sass/base/arlington.scss */
+  .page-node-99 .pane-student-class-overview .bluebox .content {
+    padding: 2em 2.5em;
+    background-color: #eee;
+    text-align: left; }
+    /* line 1536, ../sass/base/arlington.scss */
+    .page-node-99 .pane-student-class-overview .bluebox .content .studmod {
+      padding: 0.5em 1em; }
+      /* line 1538, ../sass/base/arlington.scss */
+      .page-node-99 .pane-student-class-overview .bluebox .content .studmod .views-row {
+        margin: 1em 0; }
+        /* line 1541, ../sass/base/arlington.scss */
+        .page-node-99 .pane-student-class-overview .bluebox .content .studmod .views-row .views-field-php .field-content a {
+          text-decoration: underline; }
+    /* line 1547, ../sass/base/arlington.scss */
+    .page-node-99 .pane-student-class-overview .bluebox .content .teacherfeedback {
+      background-color: #fff766;
+      font-style: normal;
+      padding: 0.2em 0.3em 0.1em;
+      text-transform: uppercase; }
+    /* line 1553, ../sass/base/arlington.scss */
+    .page-node-99 .pane-student-class-overview .bluebox .content .views-field-php {
+      display: inline-block;
+      font-style: normal;
+      text-transform: uppercase;
+      margin-left: 0.5em; }
+      /* line 1558, ../sass/base/arlington.scss */
+      .page-node-99 .pane-student-class-overview .bluebox .content .views-field-php a {
+        color: #007A8F; }
+    /* line 1562, ../sass/base/arlington.scss */
+    .page-node-99 .pane-student-class-overview .bluebox .content .views-field-title {
+      display: inline-block;
+      margin-left: 1em; }
+    /* line 1566, ../sass/base/arlington.scss */
+    .page-node-99 .pane-student-class-overview .bluebox .content .views-field-field-date {
+      display: inline-block; }
+      /* line 1568, ../sass/base/arlington.scss */
+      .page-node-99 .pane-student-class-overview .bluebox .content .views-field-field-date .field-content {
+        display: inline-block; }
+/* line 1575, ../sass/base/arlington.scss */
+.page-node-99 .panel-pane.pane-custom.pane-1 {
+  margin: 1em 0.5em; }
+/* line 1578, ../sass/base/arlington.scss */
+.page-node-99 .modpic {
+  display: inline-block;
+  vertical-align: middle; }
+  /* line 1581, ../sass/base/arlington.scss */
+  .page-node-99 .modpic img {
+    border-radius: 50%;
+    width: 4em; }
+/* line 1587, ../sass/base/arlington.scss */
+.page-node-99 .modulepic, .page-node-99 .pane-student-view-of-the-teacher-comments {
+  display: none; }
+
+/* line 1594, ../sass/base/arlington.scss */
+.page-node-192 .l-header .l-region--navigation {
+  background-color: #006173;
+  border-top: 0.2em solid #004e5c; }
+/* line 1598, ../sass/base/arlington.scss */
+.page-node-192 .formaction:first-child::after {
+  display: none; }
+
+/* line 1604, ../sass/base/arlington.scss */
+.page-node-194 .l-header .l-region--navigation {
+  background-color: #006173;
+  border-top: 0.2em solid #004e5c; }
+/* line 1609, ../sass/base/arlington.scss */
+.page-node-194 .formaction:after {
+  display: none; }
+/* line 1613, ../sass/base/arlington.scss */
+.page-node-194 .formwrap .wrapper {
+  margin-left: 2em; }
+/* line 1616, ../sass/base/arlington.scss */
+.page-node-194 .boxme {
+  margin: 1em 0;
+  border-radius: 10px;
+  padding: 1em; }
+  /* line 1621, ../sass/base/arlington.scss */
+  .page-node-194 .boxme h2 {
+    font-size: 1.5em;
+    font-family: "CenStdB"; }
+/* line 1627, ../sass/base/arlington.scss */
+.page-node-194 #add-another {
+  cursor: pointer; }
+
+/* line 1633, ../sass/base/arlington.scss */
+.page-node-193 .boxme {
+  margin: 1em 0;
+  background-color: #e3e0db;
+  border-radius: 10px;
+  padding: 1em 0.5em; }
+  /* line 1638, ../sass/base/arlington.scss */
+  .page-node-193 .boxme h2 {
+    font-family: CenStdB;
+    font-size: 1.8em; }
+/* line 1643, ../sass/base/arlington.scss */
+.page-node-193 .l-header .l-region--navigation {
+  background-color: #006173;
+  border-top: 0.2em solid #004e5c; }
+/* line 1647, ../sass/base/arlington.scss */
+.page-node-193 .formwrap .label {
+  padding: 0 0.5em 1em 0; }
+/* line 1650, ../sass/base/arlington.scss */
+.page-node-193 table tbody tr.even td, .page-node-193 table tbody tr.odd td {
+  font-style: italic; }
+/* line 1653, ../sass/base/arlington.scss */
+.page-node-193 .radiobuttons {
+  display: inline-block;
+  width: 78%; }
+  /* line 1666, ../sass/base/arlington.scss */
+  .page-node-193 .radiobuttons .halfme {
+    font-size: 0.9em; }
+    /* line 1668, ../sass/base/arlington.scss */
+    .page-node-193 .radiobuttons .halfme .arlington-radio-opt {
+      margin-left: 0.3em;
+      font-weight: 800; }
+    /* line 1672, ../sass/base/arlington.scss */
+    .page-node-193 .radiobuttons .halfme .arlington-radio-more {
+      float: right;
+      margin-right: 2em; }
+      /* line 1675, ../sass/base/arlington.scss */
+      .page-node-193 .radiobuttons .halfme .arlington-radio-more .button {
+        border-radius: 5px;
+        font-family: "TGothic";
+        margin-left: 0.3em;
+        padding: 0.3em 0.5em 0.01em; }
+    /* line 1682, ../sass/base/arlington.scss */
+    .page-node-193 .radiobuttons .halfme .arlington-radio-desc {
+      margin-left: 1.5em;
+      width: 80%; }
+/* line 1689, ../sass/base/arlington.scss */
+.page-node-193 .datensubmit {
+  margin-left: 1em;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%; }
+  /* line 1704, ../sass/base/arlington.scss */
+  .page-node-193 .datensubmit .buttonwrap {
+    margin-top: 1em;
+    text-align: left; }
+
+/* line 1714, ../sass/base/arlington.scss */
+.classform.formwrap .headerwrap h5 {
+  margin-left: 0.5em; }
+/* line 1720, ../sass/base/arlington.scss */
+.classform.formwrap .allforms .formaction:after {
+  top: 15px; }
+/* line 1723, ../sass/base/arlington.scss */
+.classform.formwrap .allforms .formaction select {
+  font-family: "TGothicB";
+  font-style: normal;
+  height: 3.5em; }
+/* line 1728, ../sass/base/arlington.scss */
+.classform.formwrap .allforms .formaction option {
+  border-bottom: 1px solid #a6a6a6;
+  font-family: "TGothic";
+  font-weight: 400;
+  background-color: #f2efea;
+  padding: 1em 3em; }
+
+/* line 1743, ../sass/base/arlington.scss */
+.page-module-preview .pane-node-book-nav {
+  display: none; }
+/* line 1747, ../sass/base/arlington.scss */
+.page-module-preview .modwrap .srcholder {
+  display: inline-block;
+  width: 8%;
+  vertical-align: top;
+  margin-right: 1em; }
+  /* line 1757, ../sass/base/arlington.scss */
+  .page-module-preview .modwrap .srcholder img {
+    border-radius: 50%; }
+/* line 1762, ../sass/base/arlington.scss */
+.page-module-preview .modwrap .bluebox {
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  margin-bottom: 1em; }
+  /* line 1772, ../sass/base/arlington.scss */
+  .page-module-preview .modwrap .bluebox .titlebox {
+    background-color: rgba(51, 73, 97, 0.7);
+    color: #fff;
+    font-family: "TGothicB";
+    font-size: 1.5em;
+    line-height: 1;
+    padding: 0.5em 0.5em 0.3em;
+    text-transform: uppercase; }
+    /* line 1781, ../sass/base/arlington.scss */
+    .page-module-preview .modwrap .bluebox .titlebox .button {
+      box-shadow: none;
+      float: right;
+      font-size: 0.7em;
+      padding: 0.4em 1em 0.2em;
+      margin-top: -0.2em; }
+  /* line 1792, ../sass/base/arlington.scss */
+  .page-module-preview .modwrap .bluebox .content {
+    padding: 0.7em 1em;
+    background-color: #eee;
+    text-align: left; }
+
+/* line 1805, ../sass/base/arlington.scss */
+.page-content-studentwork h2 {
+  font-family: "CenStdB";
+  font-size: 1.5em; }
+/* line 1810, ../sass/base/arlington.scss */
+.page-content-studentwork .pane-student-submission, .page-content-studentwork .pane-student-submission-for-futl-modules {
+  border-radius: 10px;
+  padding: 1em; }
+  /* line 1814, ../sass/base/arlington.scss */
+  .page-content-studentwork .pane-student-submission h6, .page-content-studentwork .pane-student-submission-for-futl-modules h6 {
+    color: #007A8F;
+    font-size: 1.1em;
+    line-height: 1;
+    margin: 1em 0;
+    padding: 0;
+    text-transform: uppercase; }
+  /* line 1822, ../sass/base/arlington.scss */
+  .page-content-studentwork .pane-student-submission .hypo, .page-content-studentwork .pane-student-submission .resources, .page-content-studentwork .pane-student-submission .rethink, .page-content-studentwork .pane-student-submission .inaction, .page-content-studentwork .pane-student-submission-for-futl-modules .hypo, .page-content-studentwork .pane-student-submission-for-futl-modules .resources, .page-content-studentwork .pane-student-submission-for-futl-modules .rethink, .page-content-studentwork .pane-student-submission-for-futl-modules .inaction {
+    padding: 1em 0; }
+  /* line 1827, ../sass/base/arlington.scss */
+  .page-content-studentwork .pane-student-submission .accordion .acont, .page-content-studentwork .pane-student-submission-for-futl-modules .accordion .acont {
+    padding: 0 2.5em 2em; }
+  /* line 1832, ../sass/base/arlington.scss */
+  .page-content-studentwork .pane-student-submission .view .view-content, .page-content-studentwork .pane-student-submission-for-futl-modules .view .view-content {
+    padding: 0; }
+    /* line 1835, ../sass/base/arlington.scss */
+    .page-content-studentwork .pane-student-submission .view .view-content .views-label, .page-content-studentwork .pane-student-submission-for-futl-modules .view .view-content .views-label {
+      font-weight: 800;
+      display: block;
+      font-size: 1.1em; }
+    /* line 1840, ../sass/base/arlington.scss */
+    .page-content-studentwork .pane-student-submission .view .view-content .views-field, .page-content-studentwork .pane-student-submission-for-futl-modules .view .view-content .views-field {
+      margin: 1em 0;
+      line-height: 1.4; }
+  /* line 1845, ../sass/base/arlington.scss */
+  .page-content-studentwork .pane-student-submission .view .view-student-name-for-submission, .page-content-studentwork .pane-student-submission-for-futl-modules .view .view-student-name-for-submission {
+    display: inline-block; }
+    /* line 1847, ../sass/base/arlington.scss */
+    .page-content-studentwork .pane-student-submission .view .view-student-name-for-submission .view-content, .page-content-studentwork .pane-student-submission-for-futl-modules .view .view-student-name-for-submission .view-content {
+      background-color: inherit; }
+    /* line 1850, ../sass/base/arlington.scss */
+    .page-content-studentwork .pane-student-submission .view .view-student-name-for-submission .field-content, .page-content-studentwork .pane-student-submission-for-futl-modules .view .view-student-name-for-submission .field-content {
+      font-style: normal; }
+  /* line 1856, ../sass/base/arlington.scss */
+  .page-content-studentwork .pane-student-submission .webform textarea, .page-content-studentwork .pane-student-submission-for-futl-modules .webform textarea {
+    border-radius: 10px; }
+  /* line 1859, ../sass/base/arlington.scss */
+  .page-content-studentwork .pane-student-submission .webform .webform-component--user-id, .page-content-studentwork .pane-student-submission-for-futl-modules .webform .webform-component--user-id {
+    display: none; }
+  /* line 1863, ../sass/base/arlington.scss */
+  .page-content-studentwork .pane-student-submission .view-student-id-for-submission, .page-content-studentwork .pane-student-submission-for-futl-modules .view-student-id-for-submission {
+    text-align: right;
+    margin-top: -1em; }
+    /* line 1866, ../sass/base/arlington.scss */
+    .page-content-studentwork .pane-student-submission .view-student-id-for-submission .view-content, .page-content-studentwork .pane-student-submission-for-futl-modules .view-student-id-for-submission .view-content {
+      padding-top: 1em; }
+/* line 1872, ../sass/base/arlington.scss */
+.page-content-studentwork .pane-node-book-nav {
+  display: none; }
+
+/* line 1881, ../sass/base/arlington.scss */
+.page-node-727 .l-header .l-region--navigation {
+  background-color: #006173;
+  border-top: 0.2em solid #004e5c; }
+/* line 1886, ../sass/base/arlington.scss */
+.page-node-727 .tophalf .teachvid {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  margin-right: 1em; }
+/* line 1892, ../sass/base/arlington.scss */
+.page-node-727 .tophalf .teachinfo {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  padding: 1em; }
+  /* line 1897, ../sass/base/arlington.scss */
+  .page-node-727 .tophalf .teachinfo p {
+    font-family: "TGothic";
+    font-size: 1.4em;
+    font-weight: 100;
+    color: #555; }
+    /* line 1902, ../sass/base/arlington.scss */
+    .page-node-727 .tophalf .teachinfo p em {
+      font-weight: 800;
+      color: #444; }
+/* line 1909, ../sass/base/arlington.scss */
+.page-node-727 .infosession {
+  margin: 3em 0; }
+  /* line 1911, ../sass/base/arlington.scss */
+  .page-node-727 .infosession h3 {
+    font-family: "CenStd"; }
+  /* line 1914, ../sass/base/arlington.scss */
+  .page-node-727 .infosession .specialline {
+    text-align: center;
+    position: relative;
+    margin: 1em 0; }
+    /* line 1918, ../sass/base/arlington.scss */
+    .page-node-727 .infosession .specialline:before {
+      border-top: 1px solid #001b39;
+      content: "";
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1; }
+    /* line 1926, ../sass/base/arlington.scss */
+    .page-node-727 .infosession .specialline span {
+      background: #f2efea;
+      padding: 0 0.5em; }
+  /* line 1931, ../sass/base/arlington.scss */
+  .page-node-727 .infosession .infowrap {
+    margin: 2em 0; }
+  /* line 1934, ../sass/base/arlington.scss */
+  .page-node-727 .infosession .infoblock {
+    text-align: center; }
+    /* line 1936, ../sass/base/arlington.scss */
+    .page-node-727 .infosession .infoblock p {
+      font-family: "TGothic";
+      font-size: 1.2em;
+      color: #555; }
+  /* line 1942, ../sass/base/arlington.scss */
+  .page-node-727 .infosession .modwrap {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 1em;
+    margin: 1em 0; }
+    /* line 1947, ../sass/base/arlington.scss */
+    .page-node-727 .infosession .modwrap .modpic {
+      display: inline-block;
+      width: 14%;
+      vertical-align: top;
+      position: relative;
+      margin-right: 1em; }
+      /* line 1953, ../sass/base/arlington.scss */
+      .page-node-727 .infosession .modwrap .modpic .colorstrip {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1.5em; }
+      /* line 1960, ../sass/base/arlington.scss */
+      .page-node-727 .infosession .modwrap .modpic .imgbox {
+        margin-top: 1.6em;
+        width: 100%; }
+    /* line 1965, ../sass/base/arlington.scss */
+    .page-node-727 .infosession .modwrap .modinfo {
+      display: inline-block;
+      width: 66%;
+      vertical-align: top; }
+      /* line 1969, ../sass/base/arlington.scss */
+      .page-node-727 .infosession .modwrap .modinfo p {
+        font-family: "TGothic";
+        color: #555; }
+    /* line 1974, ../sass/base/arlington.scss */
+    .page-node-727 .infosession .modwrap .modprebutt {
+      display: inline-block;
+      vertical-align: bottom; }
+    /* line 1979, ../sass/base/arlington.scss */
+    .page-node-727 .infosession .modwrap .modpic.lincoln .colorstrip {
+      background-color: #654254; }
+    /* line 1984, ../sass/base/arlington.scss */
+    .page-node-727 .infosession .modwrap .modpic.causecw .colorstrip {
+      background-color: #997058; }
+    /* line 1989, ../sass/base/arlington.scss */
+    .page-node-727 .infosession .modwrap .modpic.eventsocw .colorstrip {
+      background-color: #3f5078; }
+    /* line 1994, ../sass/base/arlington.scss */
+    .page-node-727 .infosession .modwrap .modpic.timeline .colorstrip {
+      background-color: #598068; }
+    /* line 1999, ../sass/base/arlington.scss */
+    .page-node-727 .infosession .modwrap .modpic.cwreconst .colorstrip {
+      background-color: #9e7486; }
+  /* line 2004, ../sass/base/arlington.scss */
+  .page-node-727 .infosession .holdleft {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle; }
+  /* line 2009, ../sass/base/arlington.scss */
+  .page-node-727 .infosession .textholder {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    color: #555;
+    font-family: "TGothic"; }
+    /* line 2016, ../sass/base/arlington.scss */
+    .page-node-727 .infosession .textholder .linkholder .loginlink {
+      display: block;
+      margin: 1em 0; }
+    /* line 2022, ../sass/base/arlington.scss */
+    .page-node-727 .infosession .textholder ul li {
+      margin: 1em 0; }
+  /* line 2027, ../sass/base/arlington.scss */
+  .page-node-727 .infosession .accordion .atitle {
+    color: #007A8F; }
+    /* line 2028, ../sass/base/arlington.scss */
+    .page-node-727 .infosession .accordion .atitle:before {
+      color: #007A8F; }
+
+/* line 2048, ../sass/base/arlington.scss */
+.page-user-register #edit-account .description {
+  display: none; }
+/* line 2053, ../sass/base/arlington.scss */
+.page-user-register #edit-field-grade-level-und .form-item {
+  display: inline-block;
+  padding: 0 1.5em 0 0; }
+/* line 2057, ../sass/base/arlington.scss */
+.page-user-register #edit-field-grade-level-und label.option {
+  padding-left: 0.1em; }
+/* line 2061, ../sass/base/arlington.scss */
+.page-user-register .captcha {
+  padding: 0; }
+  /* line 2063, ../sass/base/arlington.scss */
+  .page-user-register .captcha .fieldset-legend {
+    text-transform: capitalize;
+    font-weight: bold; }
+
+/* line 2071, ../sass/base/arlington.scss */
+#debugInfo, .views-field-sid, #edit-submitted-project {
+  display: none; }
+
+/*# sourceMappingURL=arlington.no-query.css.map */

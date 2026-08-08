@@ -136,9 +136,9 @@ jQuery(window).on('load', function () {
     var geolocation_map = new OmekaMap(
         "geolocation_map_1",
         {"latitude":38.888294,"longitude":-77.03072,"zoomLevel":14},
-        {"basemap":"CartoDB.Voyager","cluster":true});
+        {"basemap":"CartoDB.Voyager","cluster":false});
     geolocation_map.initMap();
-    var map_locations = [{"lat":38.8894426,"lng":-77.0405563,"html":"<div class=\"geolocation_balloon\"><div class=\"geolocation_balloon_title\"><a href="https://mallhistory.org/explorations/show/\&quot;\/explorations\/show\/wwii\/item\/450\&quot;" class=\"exhibit-item-link\">World War II Memorial<\/a><\/div><a href="https://mallhistory.org/explorations/show/\&quot;\/explorations\/show\/wwii\/item\/450\&quot;" class=\"exhibit-item-link\"><img alt=\"World War II Memorial\" src="https://mallhistory.org/explorations/show/\&quot;\/files\/square_thumbnails\/052fb014c10357cbc986dfe3b00ef6fe.jpg\&quot;" title=\"World War II Memorial\"><\/a><\/div>"}];
+    var map_locations = [{"lat":38.8894426,"lng":-77.0405563,"html":"<div class=\"geolocation_balloon\"><div class=\"geolocation_balloon_title\"><a href=\"\/items\/show\/450.html\" class=\"exhibit-item-link\">World War II Memorial<\/a><\/div><a href=\"\/items\/show\/450.html\" class=\"exhibit-item-link\"><img alt=\"World War II Memorial\" src=\"\/files\/square_thumbnails\/052fb014c10357cbc986dfe3b00ef6fe.jpg\" title=\"World War II Memorial\"><\/a><\/div>"}];
     for (var i = 0; i < map_locations.length; i++) {
         var locationData = map_locations[i];
         geolocation_map.addMarker(

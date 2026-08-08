@@ -136,9 +136,9 @@ jQuery(window).on('load', function () {
     var geolocation_map = new OmekaMap(
         "geolocation_map_1",
         {"latitude":38.888294,"longitude":-77.03072,"zoomLevel":14},
-        {"basemap":"CartoDB.Voyager","cluster":true});
+        {"basemap":"CartoDB.Voyager","cluster":false});
     geolocation_map.initMap();
-    var map_locations = [{"lat":38.889703940003,"lng":-77.012894153595,"html":"<div class=\"geolocation_balloon\"><div class=\"geolocation_balloon_title\"><a href="https://mallhistory.org/explorations/show/\&quot;\/explorations\/show\/grant-memorial\/item\/447\&quot;" class=\"exhibit-item-link\">Ulysses S. Grant Memorial<\/a><\/div><a href="https://mallhistory.org/explorations/show/\&quot;\/explorations\/show\/grant-memorial\/item\/447\&quot;" class=\"exhibit-item-link\"><img alt=\"Ulysses S. Grant Memorial\" src="https://mallhistory.org/explorations/show/\&quot;\/files\/square_thumbnails\/0240e36b6a3ea75a2352b578654aba55.jpg\&quot;" title=\"Ulysses S. Grant Memorial\"><\/a><\/div>"}];
+    var map_locations = [{"lat":38.889703940003,"lng":-77.012894153595,"html":"<div class=\"geolocation_balloon\"><div class=\"geolocation_balloon_title\"><a href=\"\/items\/show\/447.html\" class=\"exhibit-item-link\">Ulysses S. Grant Memorial<\/a><\/div><a href=\"\/items\/show\/447.html\" class=\"exhibit-item-link\"><img alt=\"Ulysses S. Grant Memorial\" src=\"\/files\/square_thumbnails\/0240e36b6a3ea75a2352b578654aba55.jpg\" title=\"Ulysses S. Grant Memorial\"><\/a><\/div>"}];
     for (var i = 0; i < map_locations.length; i++) {
         var locationData = map_locations[i];
         geolocation_map.addMarker(

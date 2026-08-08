@@ -144,3 +144,36 @@ To refresh: re-capture the three `mall-map/index/*` endpoints (markers/filters/
 items/historic) while the live server is up, and re-run the tile crawl+upload to
 the bucket.
 
+## Featured exploration (randomised client-side)
+
+The homepage's "Featured Exploration" block was chosen server-side by Omeka, so
+it changed over time (Wayback snapshots show different explorations in 2015,
+2021 and 2025). A static crawl freezes whichever one the crawler happened to
+get — here, "Scavenger Hunt: World War II Memorial".
+
+`themes/mall/javascripts/featured-exploration.js` restores the rotation in the
+browser: it holds all 42 explorations and picks one at random on each page load,
+rewriting the block's title, description, "Read More" link and background image.
+It is loaded by a plain (parser-blocking) `<script>` tag placed directly after
+`#featured-question` in `index.html`, so the swap lands before first paint. With
+JavaScript off, the crawled WWII block stands as-is.
+
+**Data.** Baked into the script, all captured from the archive itself:
+
+- titles, exploration URLs and cover images — from the five `explorations`
+  listing pages;
+- descriptions — from each exploration's own `div.exhibit-description`, trimmed
+  the way Omeka's `snippet()` helper trimmed them (200 characters, cut at a word
+  boundary, trailing punctuation dropped, `…` appended). Reproduces the three
+  Wayback-snapshot renderings exactly.
+
+The four scavenger hunts have no description, and `concerts`,
+`pres_inaugurations` and `sports` have no cover image — those three get a solid
+`#3d3d3d` background so the theme's white hero text stays readable.
+
+Cover images are `/files/original/...`, served (like the rest of `/files/`) by
+the web server's not-found → bucket redirect; all 34 were checked for 200s.
+
+To refresh after adding or editing explorations, re-extract the four fields and
+regenerate the `EXPLORATIONS` array in the script.
+

@@ -136,9 +136,9 @@ jQuery(window).on('load', function () {
     var geolocation_map = new OmekaMap(
         "geolocation_map_1",
         {"latitude":38.888294,"longitude":-77.03072,"zoomLevel":14},
-        {"basemap":"CartoDB.Voyager","cluster":true});
+        {"basemap":"CartoDB.Voyager","cluster":false});
     geolocation_map.initMap();
-    var map_locations = [{"lat":38.888765436788,"lng":-77.025967240334,"html":"<div class=\"geolocation_balloon\"><div class=\"geolocation_balloon_title\"><a href="https://mallhistory.org/explorations/show/\&quot;\/explorations\/show\/castle\/item\/520\&quot;" class=\"exhibit-item-link\">Smithsonian Castle, Architectural Elements<\/a><\/div><a href="https://mallhistory.org/explorations/show/\&quot;\/explorations\/show\/castle\/item\/520\&quot;" class=\"exhibit-item-link\"><img alt=\"Smithsonian Castle, Architectural Elements\" src="https://mallhistory.org/explorations/show/\&quot;\/application\/views\/scripts\/images\/fallback-video.png\&quot;" title=\"Smithsonian Castle, Architectural Elements\"><\/a><\/div>"}];
+    var map_locations = [{"lat":38.888765436788,"lng":-77.025967240334,"html":"<div class=\"geolocation_balloon\"><div class=\"geolocation_balloon_title\"><a href=\"\/items\/show\/520.html\" class=\"exhibit-item-link\">Smithsonian Castle, Architectural Elements<\/a><\/div><a href=\"\/items\/show\/520.html\" class=\"exhibit-item-link\"><img alt=\"Smithsonian Castle, Architectural Elements\" src=\"\/application\/views\/scripts\/images\/fallback-video.png\" title=\"Smithsonian Castle, Architectural Elements\"><\/a><\/div>"}];
     for (var i = 0; i < map_locations.length; i++) {
         var locationData = map_locations[i];
         geolocation_map.addMarker(

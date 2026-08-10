@@ -63,7 +63,7 @@ jQuery(document).ready(function ($) {
 
     // Client-side replacement for POST mall-map/index/get-item.
     function staticGetItem(id) {
-        return STATIC.items[id] || { title: '', date: [], description: '', thumbnail: '', fullsize: '', url: '#' };
+        return STATIC.items[id] || { title: '', date: [], description: '', thumbnail: '', fullsize: '', url: null };
     }
 
     // Set the base map layer.
@@ -394,7 +394,11 @@ jQuery(document).ready(function ($) {
                             }
                             content.append('<p>' + response.description + '</p>');
                             content.append(response.fullsize);
-                            content.append('<p><a href="' + response.url + '" class="button">view more info</a></p>');
+                            // url is null for the handful of items whose page the
+                            // crawl missed and no archive holds a copy of.
+                            if (response.url) {
+                                content.append('<p><a href="' + response.url + '" class="button">view more info</a></p>');
+                            }
                         })(staticGetItem(feature.properties.id));
                     });
                 }

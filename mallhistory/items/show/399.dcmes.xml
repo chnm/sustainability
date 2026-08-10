@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/399">
+<dc:title>Plan of the west end</dc:title>
+<dc:description>Benjamin Latrobe drew a plan for the layout of a national university on the Mall while he was Surveyor to the Capitol building. He may have been inspired to do so by President James Madison&#039;s mention of the idea of creating a national university in his December 1815 address to Congress, but the idea was first put forth by George Washington in the 1790s. Latrobe had even spoken with Washington on the subject in 1796. The plan puts the university grounds just east of 15th street, partly standing on what today is the Washington Monument Grounds.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Benjamin+Henry+Latrobe&quot;&gt;Benjamin Henry Latrobe&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress, Geography and Map Division. &lt;a href=&quot;http://www.loc.gov/item/88690937&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1816</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

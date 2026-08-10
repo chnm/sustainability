@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/141">
+<dc:title>Horse-drawn wagons in front of the Center Market, Washington, D.C.</dc:title>
+<dc:description>In 1909, visitors standing at the entrance of the United States National Museum (now the &lt;a href=&quot;http://mallhistory.org/items/show/55&quot;&gt;Museum of Natural History&lt;/a&gt;), saw horse-drawn carriages and carts, vendors, and storefronts, of &lt;a href=&quot;http://mallhistory.org/items/show/32&quot;&gt;Center Market&lt;/a&gt;. The small building in the foreground is a guard house next to the wooden gate leading to the museum.</dc:description>
+<dc:source>Smithsonian Institution Archives. &lt;a href=&quot;http://siarchives.si.edu/collections/siris_sic_8219?back=%2Fsearch%2Fsia_search_collections%2Fcenter%2520market&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1909</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1890-1919&quot;&gt;1890-1919&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

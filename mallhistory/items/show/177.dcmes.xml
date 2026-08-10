@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/177">
+<dc:title>Panoramic Views of Washington, DC</dc:title>
+<dc:description>This five-part panorama shows the National Mall and surrounding buildings, from &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;the Smithsonian &quot;Castle&quot; Institution Building&lt;/a&gt;. The left section shows &lt;a href=&quot;http://mallhistory.org/items/show/281&quot;&gt;Washington Monument under construction&lt;/a&gt; in background, with &lt;a href=&quot;http://mallhistory.org/items/show/444&quot;&gt;Agriculture Department&lt;/a&gt; at left. The left center and center sections show the &lt;a href=&quot;http://mallhistory.org/items/show/311&quot;&gt;B Street&lt;/a&gt; (now Constitution Avenue) side of the Mall with building trade structures and &lt;a href=&quot;http://mallhistory.org/items/show/32&quot;&gt;Center Market&lt;/a&gt;. The right center section shows &lt;a href=&quot;http://mallhistory.org/items/show/42&quot;&gt;Baltimore and Potomac railroad station&lt;/a&gt; and &lt;a href=&quot;http://mallhistory.org/items/show/346&quot;&gt;tracks&lt;/a&gt;. The right section includes the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;US Capitol&lt;/a&gt; in background and &lt;a href=&quot;http://mallhistory.org/items/show/312&quot;&gt;Independence Avenue&lt;/a&gt; area of Capitol Hill.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2007662487/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1879</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

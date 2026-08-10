@@ -144,3 +144,89 @@ To refresh: re-capture the three `mall-map/index/*` endpoints (markers/filters/
 items/historic) while the live server is up, and re-run the tile crawl+upload to
 the bucket.
 
+## Scavenger-hunt maps (repaired after wget mangled them)
+
+The four scavenger hunts — `castle`, `grant-memorial`, `korean-war`, `wwii` —
+are the only pages with a Geolocation exhibit map, and all four came out of the
+crawl dead. The marker data is an inline JS string containing escaped HTML:
+
+```js
+... <a href=\"\/explorations\/show\/grant-memorial\/item\/447\" ...
+```
+
+`--convert-links` treated that escaped `href` as a real link, resolved it
+against the page URL and wrote it back wrapped in *unescaped* double quotes,
+which closed the JS string early:
+
+```js
+... <a href="https://mallhistory.org/explorations/show/\&quot;\/explorations\/... \&quot;" ...
+```
+
+The result was `SyntaxError: Unexpected identifier 'https'`, so the whole
+`jQuery(window).on('load', ...)` block never ran and the map div stayed empty.
+(The same mangling is why `explorations/show/{castle,grant-memorial,korean-war,
+wwii}/item/*` are in the crawl's 404 list — wget followed the corrupted URLs.)
+
+**Fix.** The `map_locations` line in each of the four pages was restored from the
+page's own Wayback capture — everything else in the block already matched
+byte-for-byte — with the URLs pointed at the archive's own conventions:
+
+- popup link → `/items/show/<id>.html` (what `map/data/items.json` uses);
+- popup thumbnail → `/files/square_thumbnails/...` (bucket redirect).
+
+Two runtime assets the crawl never fetched (they are referenced from Leaflet's
+JS, not from HTML or CSS) were pulled from Wayback:
+`plugins/Geolocation/views/shared/javascripts/leaflet/images/marker-shadow.png`
+and `application/views/scripts/images/fallback-video.png` — the latter also
+fixes video items' thumbnails in the main map's popups.
+
+**One deliberate deviation:** each map is now built with `"cluster":false`
+instead of `"cluster":true`. With clustering on, clicking the marker opens a
+278px popup inside the theme's 180px-tall map, Leaflet auto-pans to fit it, the
+marker lands outside markercluster's visible bounds and gets removed — so the
+marker vanishes and the popup closes. That is upstream behaviour the live site
+shared, but it makes the restored map look broken. Clustering does nothing for a
+single marker, so it is off; revert by putting `true` back in the four files.
+
+**Known gaps.** The popup thumbnail loads, but the popup link 404s: items 447,
+449, 450 and 520 are among 37 `/items/show/<id>.html` pages referenced by
+`map/data/items.json` that the crawl never captured — the main map's popups have
+the same dead links. Leaflet's retina marker icon (`marker-icon-2x.png`) was
+never captured by Wayback either, so it still 404s on HiDPI screens. The popup
+is also taller than the theme's `height: 15em !important` map, so its lower half
+is clipped; raising `.exhibit-geolocation-map` towards the Geolocation plugin's
+own 450px would fix that, at the cost of changing the page design.
+
+## Featured exploration (randomised client-side)
+
+The homepage's "Featured Exploration" block was chosen server-side by Omeka, so
+it changed over time (Wayback snapshots show different explorations in 2015,
+2021 and 2025). A static crawl freezes whichever one the crawler happened to
+get — here, "Scavenger Hunt: World War II Memorial".
+
+`themes/mall/javascripts/featured-exploration.js` restores the rotation in the
+browser: it holds all 42 explorations and picks one at random on each page load,
+rewriting the block's title, description, "Read More" link and background image.
+It is loaded by a plain (parser-blocking) `<script>` tag placed directly after
+`#featured-question` in `index.html`, so the swap lands before first paint. With
+JavaScript off, the crawled WWII block stands as-is.
+
+**Data.** Baked into the script, all captured from the archive itself:
+
+- titles, exploration URLs and cover images — from the five `explorations`
+  listing pages;
+- descriptions — from each exploration's own `div.exhibit-description`, trimmed
+  the way Omeka's `snippet()` helper trimmed them (200 characters, cut at a word
+  boundary, trailing punctuation dropped, `…` appended). Reproduces the three
+  Wayback-snapshot renderings exactly.
+
+The four scavenger hunts have no description, and `concerts`,
+`pres_inaugurations` and `sports` have no cover image — those three get a solid
+`#3d3d3d` background so the theme's white hero text stays readable.
+
+Cover images are `/files/original/...`, served (like the rest of `/files/`) by
+the web server's not-found → bucket redirect; all 34 were checked for 200s.
+
+To refresh after adding or editing explorations, re-extract the four fields and
+regenerate the `EXPLORATIONS` array in the script.
+

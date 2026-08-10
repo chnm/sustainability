@@ -807,7 +807,11 @@
   }
 
   .exhibit-geolocation-map {
-    height: 15em !important;
+    /* 15em (180px) is shorter than a marker popup (~278px), so opening one
+       auto-panned the map until the marker itself scrolled out of view and
+       the popup was clipped. 37.5em matches the height the Geolocation
+       plugin's own layout.css asks for. */
+    height: 37.5em !important;
   }
 
   .questions {

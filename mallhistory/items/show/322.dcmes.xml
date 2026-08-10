@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/322">
+<dc:title>Washington Canal Floods</dc:title>
+<dc:description>On Saturday, September 16, 1843, a violent storm caused the rivers feeding into the Potomac to rise dramatically. The resulting water levels were higher than anyone could remember. When the &lt;a href=&quot;http://mallhistory.org/items/show/424&quot;&gt;Potomac River&lt;/a&gt; and &lt;a href=&quot;http://mallhistory.org/items/show/41&quot;&gt;Washington Canal &lt;/a&gt;overflowed their banks, water flooded into the cellars and storage rooms in properties along the &lt;a href=&quot;http://mallhistory.org/items/show/251&quot;&gt;waterfronts in the Federal City and Georgetown&lt;/a&gt;. It covered one of the bridges across the canal, which connected the Mall with the city, and damaged the supply of some of the local businesses. Flooding like this continued until the 1870s, when engineers brought it somewhat under control.</dc:description>
+<dc:source>“Great Flood,” &lt;em&gt;Madisonian for the Country&lt;/em&gt; (Washington, DC)</dc:source>
+<dc:date>09/18/1843</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1830-1859&quot;&gt;1830-1859&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

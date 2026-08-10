@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/288">
+<dc:title>&quot;No More of those Hideous Monuments!&quot;</dc:title>
+<dc:description>This political cartoon was printed in New York in 1885. Complaining about all of the monuments being erected to honor our nation&#039;s history in the wake of the turmoil of the Civil War, the captions proclaims &quot;No more of those hideous monuments!&quot; Monuments from the National Mall are featured prominently in the cartoon, including the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt; which appears as a smokestack. This shows the contested nature of the Mall and its many memorials, which were not universally popular in their own times.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2011661804/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:publisher>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=45&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Keppler+%26+Schwarzmann%2C+New+York&quot;&gt;Keppler &amp; Schwarzmann, New York&lt;/a&gt;</dc:publisher>
+<dc:date>08/19/1885</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

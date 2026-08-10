@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/358">
+<dc:title>Tennis courts on the Mall</dc:title>
+<dc:description>Ten public tennis courts stood on the Mall between 3rd and 4th street by 1940 and remained until 1972, when they were removed to make way for the &lt;a href=&quot;http://mallhistory.org/items/show/426&quot;&gt;National Gallery of Art&#039;s east wing&lt;/a&gt;. Although these courts were free to use, they were very popular and players had to reserve them well in advance. These courts were probably segregated when they opened, but by 1948 they were designated &quot;open&quot; to any race.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2003675490/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1944</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

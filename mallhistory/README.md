@@ -188,14 +188,61 @@ marker vanishes and the popup closes. That is upstream behaviour the live site
 shared, but it makes the restored map look broken. Clustering does nothing for a
 single marker, so it is off; revert by putting `true` back in the four files.
 
-**Known gaps.** The popup thumbnail loads, but the popup link 404s: items 447,
-449, 450 and 520 are among 37 `/items/show/<id>.html` pages referenced by
-`map/data/items.json` that the crawl never captured — the main map's popups have
-the same dead links. Leaflet's retina marker icon (`marker-icon-2x.png`) was
-never captured by Wayback either, so it still 404s on HiDPI screens. The popup
-is also taller than the theme's `height: 15em !important` map, so its lower half
-is clipped; raising `.exhibit-geolocation-map` towards the Geolocation plugin's
-own 450px would fix that, at the cost of changing the page design.
+The popup used to be clipped by the theme's `height: 15em !important` map: at
+180px it was shorter than a 278px popup, so Leaflet auto-panned to make room
+until the marker itself left the view. `.exhibit-geolocation-map` is now
+`37.5em`, the height the Geolocation plugin's own `layout.css` asks for. Probing
+the popup at 15/20/24/28/30/34/37.5em, 28em is where clipping stops and 34em is
+where the marker also stays in frame. This changes how tall the map looks on the
+four scavenger hunts — the only pages with an exhibit map.
+
+**Known gap.** Leaflet's retina marker icon (`marker-icon-2x.png`) was never
+captured by Wayback, so it still 404s on HiDPI screens.
+
+## Item pages the crawl missed
+
+37 `/items/show/<id>.html` pages were referenced by `map/data/items.json` — one
+per map marker — but never crawled: nothing linked to them except JavaScript
+wget could not follow. Every one of those markers' popups led to a 404.
+
+`tools/backfill_items.py` rebuilds a page from the Internet Archive's capture of
+it. Only `<title>` and the `div[role=main]` content region come from the
+capture; the chrome is copied from an item page the crawl did get, so rebuilt
+pages carry the archive-wide fixes (Pagefind search form, Matomo, the
+accessibility pass) instead of whatever the snapshot froze. The content region
+then goes through the same transformations `wget --convert-links` and this
+repo's later commits applied to the crawled pages, and pre-2018 captures are
+additionally brought up to the markup Omeka emitted by 2026 (image block,
+citation span, COinS field names, the geolocation call). Coordinates come from
+`map/data/markers.json` — captured from the live server in 2026 — in preference
+to the snapshot's. The `dcmes-xml` sidecar is regenerated from the same capture.
+
+**How it was checked.** Rebuilding pages the crawl *did* get, from their own
+Wayback captures, and diffing against the committed files: 7 of 7 post-2020
+captures and 7 of 11 2014–2017 captures come back byte-identical, the remaining
+4 differing only where the item was edited between snapshot and crawl. All
+rebuilt pages were then checked for resolving links, one geolocation block with
+coordinates matching `markers.json`, and well-formed XML.
+
+**Result:** 33 of the 37 restored — 32 from Wayback, plus item 272 rebuilt from
+its exhibit-scoped twin at
+`explorations/show/children-on-the-mall/item/272.html`. Rebuild any of them
+with:
+
+```sh
+python3 tools/backfill_items.py 141 171 177    # from the archive root
+```
+
+**The remaining four.** Items 294, 397, 449 and 520 have no capture in Wayback
+and no copy anywhere in the archive, so their pages cannot be restored. Rather
+than leave links that always 404, their `url` in `map/data/items.json` is now
+`null` and `mall-map.js` omits the "view more info" button when it is; the two
+that a scavenger-hunt map pointed at (449 on `korean-war`, 520 on `castle`) have
+had the link stripped from their popup, which still shows the title and
+thumbnail.
+
+The Pagefind index was rebuilt after adding the pages: 711 pages indexed, up
+from 678.
 
 ## Featured exploration (randomised client-side)
 

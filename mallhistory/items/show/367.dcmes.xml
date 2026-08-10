@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/367">
+<dc:title>Senator Pepper playing baseball with Congressional pages</dc:title>
+<dc:description>The pages for the Senate and House of Representatives in the 1920s were junior-high and high-school aged boys who ran messages for Congressmen. Both the Senate and the House pages had baseball teams which played each other, as well as local schools. In this picture, Senator George Pepper of Pennsylvania plays a little pick-up baseball with pages on the lawn of the Capitol.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2002695729/&quot;&gt;View original.&lt;/a&gt;</dc:source>
+<dc:date>03/25/1924</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

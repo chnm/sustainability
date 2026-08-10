@@ -1,0 +1,55 @@
+/* Raleway 400/600 — self-hosted replacement for the theme's Google Fonts link.
+ *
+ * Every page asked for http://fonts.googleapis.com/css?family=Raleway:400,600.
+ * Served over HTTPS the browser blocked that as mixed content, so the theme's
+ * "Raleway", sans-serif never resolved to Raleway anywhere on the site. Rather
+ * than switch the request to https and keep a live third-party dependency in an
+ * archive built to outlast its origin, the font is served from this repo — the
+ * same reasoning behind the static search index and the bucket-hosted map tiles.
+ *
+ * The .woff2 files are Google's own subsets (Raleway v37, latin and latin-ext),
+ * fetched from fonts.gstatic.com; the @font-face rules and unicode ranges are
+ * from the stylesheet fonts.googleapis.com returned for that request. Both
+ * weights come from one variable file per subset, which is how Google now
+ * serves Raleway. Licence: SIL Open Font License 1.1, see ../fonts/OFL.txt.
+ *
+ * font-display: swap is the one addition — the theme's text stays visible while
+ * the font loads instead of blanking out.
+ */
+
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/raleway-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/raleway-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/raleway-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/raleway-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

@@ -286,3 +286,37 @@ the web server's not-found → bucket redirect; all 34 were checked for 200s.
 To refresh after adding or editing explorations, re-extract the four fields and
 regenerate the `EXPLORATIONS` array in the script.
 
+
+## Fonts (self-hosted Raleway)
+
+Every page in the Omeka theme asked for
+`http://fonts.googleapis.com/css?family=Raleway:400,600`. Because the archive is
+served over HTTPS, browsers blocked that stylesheet as mixed content, so the
+theme's `font-family: "Raleway", sans-serif` silently fell back to the system
+sans-serif everywhere — measurably: the site title renders 528px wide in Raleway
+against 509px in the fallback at 40px.
+
+Switching the URL to `https` would have fixed the block but kept a live
+third-party dependency (and a request to Google on every page view) inside an
+archive built to outlast its own origin, so the font is served from the repo
+instead — the same reasoning as the static search index and the bucket-hosted
+map tiles:
+
+- `themes/mall/fonts/raleway-{latin,latin-ext}.woff2` — Google's own subsets of
+  Raleway v37, fetched from `fonts.gstatic.com`. Google now ships Raleway as a
+  variable font, so one file per subset serves both weights; verified in a
+  browser that 400 and 600 render at different widths from the single file.
+- `themes/mall/css/raleway.css` — the `@font-face` rules and unicode ranges from
+  the stylesheet Google returned for that request, pointed at the local files,
+  plus `font-display: swap` so text stays visible while the font loads.
+- `themes/mall/fonts/OFL.txt` — SIL Open Font License 1.1, which Raleway is
+  under and which permits redistribution.
+
+All 773 pages carrying the link now point at `themes/mall/css/raleway.css`, by a
+page-relative path like the theme's other stylesheets. Nothing on the site
+requests `fonts.googleapis.com` any more except the 36 WordPress "Guide" pages,
+which load their own Noto/Inconsolata set over HTTPS — a different theme, not
+blocked, left alone.
+
+Note that text metrics shift very slightly now that the intended font actually
+loads; the theme was designed for it.

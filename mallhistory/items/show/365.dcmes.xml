@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/365">
+<dc:title>View from the Washington Monument</dc:title>
+<dc:description>This photograph was taken from the top of the &lt;a href=&quot;http://mallhistory.org/items/show/36&quot;&gt;Washington Monument&lt;/a&gt; in 1942. The &lt;a href=&quot;http://mallhistory.org/items/show/52&quot;&gt;Smithsonian Castle&lt;/a&gt; and &lt;a href=&quot;http://mallhistory.org/items/show/55&quot;&gt;National Museum of Natural History&lt;/a&gt; are visible in the middle of the picture. &lt;a href=&quot;http://mallhistory.org/items/show/364&quot;&gt;In the 1930s, the trees on the Mall were removed and rows of American elms were planted&lt;/a&gt;, per the &lt;a href=&quot;http://mallhistory.org/items/show/350&quot;&gt;McMillan Plan&lt;/a&gt; for the Mall proposed in 1901. This picture clearly shows the rows of young trees stretching on either side of the open middle section of the Mall.</dc:description>
+<dc:source>Cornell University Library. &lt;a href=&quot;http://www.flickr.com/photos/cornelluniversitylibrary/3678166249/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>1942</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1920-1949&quot;&gt;1920-1949&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

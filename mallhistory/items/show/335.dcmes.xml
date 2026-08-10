@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/335">
+<dc:title>&quot;The Grand Review&quot; - Abraham Lincoln&#039;s Second Inaugural Parade</dc:title>
+<dc:description>After weeks of wet weather, thousands of spectators and participants trudged through the mud along &lt;a href=&quot;http://mallhistory.org/items/show/446&quot;&gt;Pennsylvania Avenue &lt;/a&gt;for President Abraham Lincoln&#039;s second Inauguration. This inaugural parade was the first to include African Americans as participants, not just spectators.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2010648710/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>03/04/1865</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/293">
+<dc:title>John Marshall Statue</dc:title>
+<dc:description>In 1882, Congress approved the creation of a statue to honor John Marshall, fourth Chief Justice of the Supreme Court. The statue was sculpted by artist William Wetmore Story, whose father had served on the Supreme Court with Marshall. It was unveiled on May 10, 1884 on the west plaza of the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;United States Capitol&lt;/a&gt;. In 1981, the statue was moved to the ground floor of the Supreme Court Building. There are two other casts of the memorial, one in John Marshall Park in Washington and the other at the Philadelphia Museum of Art.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=William+Wetmore+Story+%28sculptor%29&quot;&gt;William Wetmore Story (sculptor)&lt;/a&gt;</dc:creator>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/dc0253.photos.025942p/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>5/10/1884 (dedicated)</dc:date>
+<dc:date>11/1981 (moved)</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1860-1889&quot;&gt;1860-1889&lt;/a&gt;</dc:coverage>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1980-1999&quot;&gt;1980-1999&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

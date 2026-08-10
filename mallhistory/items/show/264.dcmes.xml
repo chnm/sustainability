@@ -1,0 +1,11 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/264">
+<dc:title>Paddles the Beaver</dc:title>
+<dc:description>In the late 1990s, beavers threatened the cherry trees at the Tidal Basin, gnawing on the trunks and killing at least five trees. The National Park Service had to find a way to preserve the trees without harming the beavers. They placed protective cages, tall enough to keep out a large beaver, around the bases of the cherry trees. In addition, they made these furry residents of the Tidal Basin part of the Cherry Blossom Festival. Paddles the Beaver is the official mascot of the Festival and appears on signs reminding visitors not to pick blossoms or climb the trees.</dc:description>
+<dc:source>National Park Service</dc:source>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2000-present&quot;&gt;2000-present&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

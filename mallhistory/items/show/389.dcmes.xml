@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/389">
+<dc:title>Tiber Creek: The Bathers</dc:title>
+<dc:description>Tiber Creek raced through the city from the base of Capitol Hill to the Potomac River. In the early 1800s, it was about 800 feet wide, flowing just below the hill where White House was built. Swimmers, boaters, and fishermen navigated its waters. Kingfishers, herons, muskrats, and turtles lived on its marshy banks. Before construction began on the new city of Washington, the Tiber Creek and its tree-lined banks created a natural drainage area from other bodies of water in the area. Artist James Waddell painted this reconstruction of the Tiber in 2004, using descriptions from early visitors and residents of Washington to envision how the environment looked in the early 1800s.</dc:description>
+<dc:creator>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=39&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=Peter+Waddell&quot;&gt;Peter Waddell&lt;/a&gt;</dc:creator>
+<dc:source>White House Historical Association. &lt;a href=&quot;http://www.whitehousehistory.org/whha_exhibits/waddell_white-house-past/president-adams-essay.html&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>2004</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+<dc:rights>Copyright White House Historical Association, 2004</dc:rights>
+</rdf:Description></rdf:RDF>

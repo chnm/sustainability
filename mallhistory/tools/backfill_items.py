@@ -22,7 +22,7 @@ between the snapshot and the crawl.
 Usage, from the archive root:
 
     python3 tools/backfill_items.py 141 171 177 ...      # fetch and rebuild
-    python3 tools/backfill_items.py --cache .captures 141
+    python3 tools/backfill_items.py --cache /tmp/captures 141
 
 Coordinates come from map/data/markers.json (captured from the live server in
 2026) in preference to the snapshot's, so a rebuilt map matches the main map.
@@ -33,6 +33,7 @@ import json
 import os
 import re
 import sys
+import tempfile
 import urllib.request
 
 ORIGIN = "https://mallhistory.org"
@@ -242,7 +243,9 @@ def write(path, text):
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     parser.add_argument("ids", nargs="+", help="item ids to rebuild")
-    parser.add_argument("--cache", default=".captures", help="directory for downloaded captures")
+    parser.add_argument("--cache", default=os.path.join(tempfile.gettempdir(),
+                                                        "mallhistory-captures"),
+                        help="directory for downloaded captures")
     parser.add_argument("--out", default="items/show", help="where to write the pages")
     args = parser.parse_args(argv)
 

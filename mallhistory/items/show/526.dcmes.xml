@@ -1,0 +1,11 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/526">
+<dc:title>Capitol Christmas Tree</dc:title>
+<dc:description>Congress occasionally planted Christmas trees on the &lt;a href=&quot;http://mallhistory.org/items/show/59&quot;&gt;Capitol&lt;/a&gt; grounds, but it was not until 1964 when an annual ritual began. Senator Carl Hayden of Arizona, President Pro Tempore of the US Senate, presided over the first lighting ceremony on December 18. From 1964 to 1967, a live tree on the west side of the Capitol served as the official tree until it died in 1968. The Architect of the Capitol created a formal procedure for hosting &quot;The People&#039;s Tree&quot; in a specific location between the House and Senate sides. Since 1970, the US Forest Service has provided a tree selected from different national forests and delivers it with decorations made by school children from the tree&#039;s home state.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/2011632157/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>12/18/1964</dc:date>
+</rdf:Description></rdf:RDF>

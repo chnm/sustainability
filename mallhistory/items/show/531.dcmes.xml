@@ -1,0 +1,10 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/531">
+<dc:title>White House Weddings</dc:title>
+<dc:description>Since the wedding in 1812 of First Lady Dolley Madison&#039;s sister, close friends and family members of presidents married at the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt;. A total of 17 couples tied the knot in the White House, including President Grover Cleveland. Many of these ceremonies captured interest from the national press. In 1913, descriptions of Woodrow Wilson’s daughter Jessie’s wedding cake, pictured here, noted approvingly that it was not very extravagant. In contrast, Richard Nixon’s daughter Tricia wed in 1971 on live television while the event included a 7-foot tall wedding cake.</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/ggb2005014886/&quot;&gt;View original photograph.&lt;/a&gt;</dc:source>
+</rdf:Description></rdf:RDF>

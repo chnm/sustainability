@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://mallhistory.org/items/show/334">
+<dc:title>President&#039;s Levee, or All Creation Going to the White House, Washington</dc:title>
+<dc:description>&lt;p class=&quot;p1&quot;&gt;Andrew Jackson campaigned for President as a &quot;man of the people.&quot; In keeping with this image, he opened the &lt;a href=&quot;http://mallhistory.org/items/show/66&quot;&gt;White House&lt;/a&gt; to the public following his inauguration in March 1829. The public reception unfortunately turned into a rowdy mob, breaking windows and furniture within the executive residence until the food and drink was moved outside and the people followed.&lt;/p&gt;</dc:description>
+<dc:source>Library of Congress Prints and Photographs Division. &lt;a href=&quot;http://www.loc.gov/pictures/item/96521704/&quot;&gt;View original&lt;/a&gt;.</dc:source>
+<dc:date>03/05/1829</dc:date>
+<dc:coverage>&lt;a href=&quot;/items/browse?advanced%5B0%5D%5Belement_id%5D=38&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=1800-1829&quot;&gt;1800-1829&lt;/a&gt;</dc:coverage>
+</rdf:Description></rdf:RDF>

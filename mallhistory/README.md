@@ -188,14 +188,70 @@ marker vanishes and the popup closes. That is upstream behaviour the live site
 shared, but it makes the restored map look broken. Clustering does nothing for a
 single marker, so it is off; revert by putting `true` back in the four files.
 
-**Known gaps.** The popup thumbnail loads, but the popup link 404s: items 447,
-449, 450 and 520 are among 37 `/items/show/<id>.html` pages referenced by
-`map/data/items.json` that the crawl never captured — the main map's popups have
-the same dead links. Leaflet's retina marker icon (`marker-icon-2x.png`) was
-never captured by Wayback either, so it still 404s on HiDPI screens. The popup
-is also taller than the theme's `height: 15em !important` map, so its lower half
-is clipped; raising `.exhibit-geolocation-map` towards the Geolocation plugin's
-own 450px would fix that, at the cost of changing the page design.
+The popup used to be clipped by the theme's `height: 15em !important` map: at
+180px it was shorter than a 278px popup, so Leaflet auto-panned to make room
+until the marker itself left the view. `.exhibit-geolocation-map` is now
+`37.5em`, the height the Geolocation plugin's own `layout.css` asks for. Probing
+the popup at 15/20/24/28/30/34/37.5em, 28em is where clipping stops and 34em is
+where the marker also stays in frame. This changes how tall the map looks on the
+four scavenger hunts — the only pages with an exhibit map.
+
+**Known gap.** Leaflet's retina marker icon (`marker-icon-2x.png`) was never
+captured by Wayback, so it still 404s on HiDPI screens.
+
+## Item pages the crawl missed
+
+37 `/items/show/<id>.html` pages were referenced by `map/data/items.json` — one
+per map marker — but never crawled: nothing linked to them except JavaScript
+wget could not follow. Every one of those markers' popups led to a 404.
+
+`tools/backfill_items.py` rebuilds a page from the Internet Archive's capture of
+it. Only `<title>` and the `div[role=main]` content region come from the
+capture; the chrome is copied from an item page the crawl did get, so rebuilt
+pages carry the archive-wide fixes (Pagefind search form, Matomo, the
+accessibility pass) instead of whatever the snapshot froze. The content region
+then goes through the same transformations `wget --convert-links` and this
+repo's later commits applied to the crawled pages, and pre-2018 captures are
+additionally brought up to the markup Omeka emitted by 2026 (image block,
+citation span, COinS field names, the geolocation call). Coordinates come from
+`map/data/markers.json` — captured from the live server in 2026 — in preference
+to the snapshot's. The `dcmes-xml` sidecar is regenerated from the same capture.
+
+**How it was checked.** Rebuilding pages the crawl *did* get, from their own
+Wayback captures, and diffing against the committed files: 7 of 7 post-2020
+captures and 7 of 11 2014–2017 captures come back byte-identical, the remaining
+4 differing only where the item was edited between snapshot and crawl. All
+rebuilt pages were then checked for resolving links, one geolocation block with
+coordinates matching `markers.json`, and well-formed XML.
+
+**Result:** 33 of the 37 restored — 32 from Wayback, plus item 272 rebuilt from
+its exhibit-scoped twin at
+`explorations/show/children-on-the-mall/item/272.html`. Rebuild any of them
+with:
+
+```sh
+python3 tools/backfill_items.py 141 171 177    # from the archive root
+```
+
+**The remaining four.** Items 294, 397, 449 and 520 have no capture in Wayback
+and no copy anywhere in the archive, so their pages cannot be restored. Rather
+than leave links that always 404, their `url` in `map/data/items.json` is now
+`null` and `mall-map.js` omits the "view more info" button when it is; the two
+that a scavenger-hunt map pointed at (449 on `korean-war`, 520 on `castle`) have
+had the link stripped from their popup, which still shows the title and
+thumbnail.
+
+The Pagefind index was rebuilt after adding the pages: 711 pages indexed, up
+from 678.
+
+**Media placeholders.** Omeka's stand-ins for items whose file is not an image
+live under `application/views/scripts/images/` and are referenced only from
+JavaScript and from `map/data/items.json`, so the crawl never fetched them and
+they 404ed wherever a video, audio or document item appeared. All three are now
+in the tree: `fallback-video.png` and `fallback-file.png` from Wayback, and
+`fallback-audio.png` — which Wayback never captured — from the Omeka Classic
+source, whose copy of `fallback-video.png` is byte-identical to the one the site
+served.
 
 ## Featured exploration (randomised client-side)
 
@@ -230,3 +286,37 @@ the web server's not-found → bucket redirect; all 34 were checked for 200s.
 To refresh after adding or editing explorations, re-extract the four fields and
 regenerate the `EXPLORATIONS` array in the script.
 
+
+## Fonts (self-hosted Raleway)
+
+Every page in the Omeka theme asked for
+`http://fonts.googleapis.com/css?family=Raleway:400,600`. Because the archive is
+served over HTTPS, browsers blocked that stylesheet as mixed content, so the
+theme's `font-family: "Raleway", sans-serif` silently fell back to the system
+sans-serif everywhere — measurably: the site title renders 528px wide in Raleway
+against 509px in the fallback at 40px.
+
+Switching the URL to `https` would have fixed the block but kept a live
+third-party dependency (and a request to Google on every page view) inside an
+archive built to outlast its own origin, so the font is served from the repo
+instead — the same reasoning as the static search index and the bucket-hosted
+map tiles:
+
+- `themes/mall/fonts/raleway-{latin,latin-ext}.woff2` — Google's own subsets of
+  Raleway v37, fetched from `fonts.gstatic.com`. Google now ships Raleway as a
+  variable font, so one file per subset serves both weights; verified in a
+  browser that 400 and 600 render at different widths from the single file.
+- `themes/mall/css/raleway.css` — the `@font-face` rules and unicode ranges from
+  the stylesheet Google returned for that request, pointed at the local files,
+  plus `font-display: swap` so text stays visible while the font loads.
+- `themes/mall/fonts/OFL.txt` — SIL Open Font License 1.1, which Raleway is
+  under and which permits redistribution.
+
+All 773 pages carrying the link now point at `themes/mall/css/raleway.css`, by a
+page-relative path like the theme's other stylesheets. Nothing on the site
+requests `fonts.googleapis.com` any more except the 36 WordPress "Guide" pages,
+which load their own Noto/Inconsolata set over HTTPS — a different theme, not
+blocked, left alone.
+
+Note that text metrics shift very slightly now that the intended font actually
+loads; the theme was designed for it.

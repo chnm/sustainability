@@ -16,5 +16,5 @@ jobs:
     with:
       context_root: "mallhistory"
       website-devl-fqdn: "mallhistory.dev.chnm.gmu.edu"
-      website-prod-fqdn: "mallhistory.dev.chnm.gmu.edu"
+      website-prod-fqdn: "mallhistory.org"
       runner_labels: '["self-hosted","IncusOS"]'

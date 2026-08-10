@@ -244,6 +244,15 @@ thumbnail.
 The Pagefind index was rebuilt after adding the pages: 711 pages indexed, up
 from 678.
 
+**Media placeholders.** Omeka's stand-ins for items whose file is not an image
+live under `application/views/scripts/images/` and are referenced only from
+JavaScript and from `map/data/items.json`, so the crawl never fetched them and
+they 404ed wherever a video, audio or document item appeared. All three are now
+in the tree: `fallback-video.png` and `fallback-file.png` from Wayback, and
+`fallback-audio.png` — which Wayback never captured — from the Omeka Classic
+source, whose copy of `fallback-video.png` is byte-identical to the one the site
+served.
+
 ## Featured exploration (randomised client-side)
 
 The homepage's "Featured Exploration" block was chosen server-side by Omeka, so

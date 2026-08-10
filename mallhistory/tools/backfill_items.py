@@ -105,8 +105,11 @@ def convert_url(raw, from_dir):
     if not m:
         return escape_attr(raw)                      # external, mailto:, #, relative
     path, _, query = m.group(1).partition("?")
-    if path.startswith("/files/") or path.endswith(".dcmes.xml"):
-        return escape_attr(path)                     # bucket redirect / static output format
+    if (path.startswith(("/files/", "/application/views/scripts/images/"))
+            or path.endswith(".dcmes.xml")):
+        # Media (bucket redirect), Omeka's media placeholders and the static
+        # output formats are all addressed from the site root in this archive.
+        return escape_attr(path)
     if not query:
         target = local_target(path)
         if target:

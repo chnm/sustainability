@@ -16,5 +16,5 @@ jobs:
     with:
       context_root: "thanksroy"
       website-devl-fqdn: "thanksroy.dev.chnm.gmu.edu"
-      website-prod-fqdn: "thanksroy.dev.chnm.gmu.edu"
+      website-prod-fqdn: "thanksroy.org"
       runner_labels: '["self-hosted","IncusOS"]'

@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://thanksroy.org/items/show/550">
+<dc:title>For Almost Thirty Years . . .</dc:title>
+<dc:creator>William Logan</dc:creator>
+<dc:contributor>William Logan</dc:contributor>
+<dc:type>Document</dc:type>
+<dc:identifier>152</dc:identifier>
+</rdf:Description></rdf:RDF>

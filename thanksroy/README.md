@@ -233,6 +233,32 @@ Verified in a browser across the homepage, browse, item and collection pages:
 every `/files/…` request stays on the archive host, and none reaches
 thanksroy.org.
 
+### Images hot-linked from other hosts
+
+Three images on `memorial-events.html` were never Omeka media at all — the page
+hot-linked them from other GMU hosts over plain `http://`, so they were also
+mixed content on an `https://` archive. All three were broken:
+
+| image | status |
+|---|---|
+| `coyote.gmu.edu/map/arling.gif` | host's DNS no longer resolves — **recovered** from the Internet Archive's 2006 capture (627×510 GIF) and committed as `arlington-campus-map.gif` |
+| `chnm.gmu.edu/celebration/image001-1.jpg` | that host now redirects everything to the rrchnm.org homepage, so the `<img>` was fetching HTML. Never captured by the Internet Archive — **unrecoverable** |
+| `chnm.gmu.edu/ahacelebration.jpg` | same redirect; the Internet Archive holds a 404 for it from 2016 — **unrecoverable** |
+
+The two unrecoverable ones are replaced by a `.missing-image` note recording
+what was there, rather than left rendering as broken-image icons. The first was
+wrapped in a link to the old celebration page (which now also redirects to the
+rrchnm.org homepage); the note replaces the whole anchor, since an anchor
+emptied of its only content would be a link with no accessible name.
+
+The recovered map is page content, not an Omeka derivative, so it lives in the
+repository rather than the bucket. It is 627px wide and forced horizontal
+scrolling at 375px until `#content img { max-width: 100% }` was added — **1.4.10
+Reflow**, which axe cannot detect. Verified: no page scrolls horizontally at
+320px, 375px or 1280px.
+
+No image anywhere in the archive is now hot-linked from another host.
+
 **Sequencing note.** Until the bucket redirect is serving `/files/…` on the
 deployed host, these images 404 — they previously rendered only by hot-linking
 the live origin. Check with:

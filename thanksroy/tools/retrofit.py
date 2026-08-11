@@ -431,25 +431,53 @@ def fix_memorial_events(s):
                                       '<div class="primary-content">', 1)
         bump('dup_id')
 
-    # 2.4.4/4.1.2 -- an image-only link whose <img alt=""> left it with no name.
-    old = ('<a href="http://chnm.gmu.edu/celebration/">'
-           '<img src="http://chnm.gmu.edu/celebration/image001-1.jpg" alt="" /></a>')
+    # Two images hot-linked from chnm.gmu.edu are gone for good: that host now
+    # redirects everything to the rrchnm.org homepage, so the <img> elements
+    # were fetching an HTML page and rendering broken. Neither was ever captured
+    # by the Internet Archive -- ahacelebration.jpg was already 404 there in
+    # 2016 -- so there is nothing to recover. Replace each with a note, which
+    # keeps the record that an image was there without rendering broken.
+    #
+    # The first was wrapped in a link to the old celebration page, which now
+    # redirects to the rrchnm.org homepage too; the note replaces the whole
+    # anchor, since an anchor emptied of its only content would be a link with
+    # no accessible name (4.1.2) -- the very defect this pass fixed elsewhere.
+    for old in (
+        # as crawled
+        '<a href="http://chnm.gmu.edu/celebration/">'
+        '<img src="http://chnm.gmu.edu/celebration/image001-1.jpg" alt="" /></a>',
+        # after the earlier alt-text fix
+        '<a href="http://chnm.gmu.edu/celebration/">'
+        '<img src="http://chnm.gmu.edu/celebration/image001-1.jpg" '
+        'alt="Roy Rosenzweig Celebration" /></a>',
+    ):
+        if old in s:
+            s = s.replace(old, '<p class="missing-image"><em>[Image no longer '
+                               'available: Roy Rosenzweig Celebration]</em></p>')
+            bump('missing_image_note')
+
+    old = '<img src="http://chnm.gmu.edu/ahacelebration.jpg" alt="" />'
     if old in s:
-        s = s.replace(old,
-                      '<a href="http://chnm.gmu.edu/celebration/">'
-                      '<img src="http://chnm.gmu.edu/celebration/image001-1.jpg" '
-                      'alt="Roy Rosenzweig Celebration" /></a>')
-        bump('nameless_link')
+        s = s.replace(old, '<p class="missing-image"><em>[Image no longer '
+                           'available: American Historical Association '
+                           'celebration]</em></p>')
+        bump('missing_image_note')
 
     # 1.1.1 -- a directions map carrying alt="" is informative, not decorative.
-    old = '<img src="http://coyote.gmu.edu/map/arling.gif" alt="" />'
-    if old in s:
-        s = s.replace(old,
-                      '<img src="http://coyote.gmu.edu/map/arling.gif" '
-                      'alt="Map of the George Mason University Arlington campus at '
-                      '3401 Fairfax Drive, at the intersection of Washington and '
-                      'Fairfax Boulevards. Directions in text follow." />')
-        bump('map_alt')
+    # The image itself was hot-linked from coyote.gmu.edu, a host whose DNS no
+    # longer resolves, so it rendered broken. Recovered from the Internet
+    # Archive's 2006 capture (627x510 GIF) and served from the archive itself;
+    # it is page content, not an Omeka derivative, so it does not belong under
+    # the bucket-served files/.
+    MAP_ALT = ('alt="Map of the George Mason University Arlington campus at '
+               '3401 Fairfax Drive, at the intersection of Washington and '
+               'Fairfax Boulevards. Directions in text follow."')
+    for old in ('<img src="http://coyote.gmu.edu/map/arling.gif" alt="" />',
+                '<img src="http://coyote.gmu.edu/map/arling.gif" %s />' % MAP_ALT):
+        if old in s:
+            s = s.replace(old, '<img src="arlington-campus-map.gif" width="627" '
+                               'height="510" %s />' % MAP_ALT)
+            bump('map_recovered')
     return s
 
 

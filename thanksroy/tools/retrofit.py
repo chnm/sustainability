@@ -454,20 +454,34 @@ def fix_memorial_events(s):
 
 
 def relativize(s, rel):
-    """Point absolute origin URLs at the local file when we actually have it.
+    """Rewrite absolute origin URLs to archive-relative paths.
 
-    Nearly a no-op today: the crawl excluded every files/ media directory, so
-    the tree holds only six media files. Written generically so it re-applies
-    automatically if the media is ever mirrored.
+    Two cases are rewritten:
+
+      1. Anything whose target actually exists in the tree.
+      2. Everything under files/ -- the Omeka media derivatives. Those are NOT
+         committed (the crawl excluded them, and .gitignore keeps them out);
+         they are served from the object-storage bucket through the web
+         server's not-found redirect, at these same paths. So the reference has
+         to be archive-relative for the redirect to see it; pointing at
+         thanksroy.org would keep hot-linking an origin that is being retired.
+
+    Paths are depth-correct relative ('', '../', '../../'), matching the
+    convention wget --convert-links established across the rest of the archive.
     """
     prefix = depth_prefix(rel)
 
     def sub(m):
         attr, path = m.group(1), m.group(2)
         clean = urllib.parse.unquote(path.split('?')[0].split('#')[0])
-        if not clean or not os.path.isfile(os.path.join(ROOT, clean)):
+        if not clean:
             return m.group(0)
-        bump('relativized')
+        if clean.startswith('files/'):
+            bump('relativized_media')
+        elif os.path.isfile(os.path.join(ROOT, clean)):
+            bump('relativized')
+        else:
+            return m.group(0)
         return '%s="%s%s"' % (attr, prefix, path)
 
     s = re.sub(r'\b(src|href)="https?://thanksroy\.org/([^"]*)"', sub, s)

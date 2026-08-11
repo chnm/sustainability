@@ -186,10 +186,15 @@ rather than emitting a dead link.
 ## Chrome
 
 - The **RRCHNM archive notice banner** from the `forustheliving.org` archive
-  (`futl/`) now appears on every page, with the shared `rrchnm_logo.png`. Two
-  deliberate deviations from the futl markup, both accessibility: it is an
-  `<aside aria-label="Archive notice">` rather than a `<div>` outside every
-  landmark, and `target="_blank"` is paired with `rel="noopener"`.
+  (`futl/`) now appears on every page. Three deliberate deviations from the futl
+  markup: it is an `<aside aria-label="Archive notice">` rather than a `<div>`
+  sitting outside every landmark; `target="_blank"` is paired with
+  `rel="noopener"`; and it carries RRCHNM's horizontal wordmark instead of the
+  square `rrchnm_logo.png` the other archives share. The square mark had to be
+  squeezed into a 31×30 box to fit the banner's 30px row, and the theme's
+  blanket `a { border-bottom: 1px dotted }` painted a dotted rule across the
+  bottom of it; `.notice-logo` suppresses that, while the adjacent text link to
+  the same destination keeps its underline.
 - The **"Proudly powered by Omeka" footer credit** is replaced by RRCHNM's own
   horizontal wordmark linking to rrchnm.org, following commit `83180e5d9b`,
   which did the same with a GMU logo on the sibling archives. The asset is
@@ -199,10 +204,8 @@ rather than emitting a dead link.
   `omeka.org:generator` citation metadata and any Omeka mentions inside archived
   content are untouched.
 
-  Note the banner and the footer deliberately carry *different* marks: the
-  banner keeps the square `rrchnm_logo.png` shared byte-for-byte with the other
-  sustainability archives, so the notice stays identical across all of them,
-  while the footer credit is thanksroy's own and uses the full wordmark.
+  The banner and the footer share this one asset, shown at 162×30 and 200×37
+  respectively; `rrchnm_logo.png` is gone.
 
 ## Robustness
 

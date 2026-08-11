@@ -62,8 +62,9 @@ ITEM_TYPE = {
 BANNER = '''    <aside class="notice" aria-label="Archive notice" style="font-size: 12px; \
 display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; \
 border: 1px solid #ddd; margin-bottom: 0;">
-    <a href="https://rrchnm.org" target="_blank" rel="noopener"><img \
-src="/rrchnm_logo.png" alt="RRCHNM Logo" style="height: 30px; margin-right: 15px;"/></a>
+    <a class="notice-logo" href="https://rrchnm.org" target="_blank" rel="noopener"><img \
+src="/themes/default/images/rrchnm-wordmark.png" width="162" height="30" \
+alt="RRCHNM Logo" style="height: 30px; margin-right: 15px;"/></a>
     <div>
     This is a static copy of the final website maintained by the \
 <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig \
@@ -71,6 +72,7 @@ Center for History and New Media</a>.
     </div>
 </aside>
 '''
+BANNER_RE = re.compile(r'    <aside class="notice".*?</aside>\n', re.S)
 
 FOOTER_OMEKA = '<p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>'
 # rrchnm.org's own horizontal wordmark (its /img/logo-dark.png, the dark-ink
@@ -151,11 +153,16 @@ def fix_landmarks(s, rel, pagefind_body):
         bump('skipnav')
         s = new
 
-    # Archive notice banner, straight after the skip link.
-    if 'class="notice"' not in s:
+    # Archive notice banner, straight after the skip link. Stripped and
+    # reinserted rather than guarded, so changes to the markup reach pages that
+    # already carry it. The strip pattern removes exactly what BANNER adds.
+    had_banner = bool(BANNER_RE.search(s))
+    if had_banner:
+        s = BANNER_RE.sub('', s, count=1)
+    if '<a href="#content" id="skipnav">Skip to main content</a>\n' in s:
         s = re.sub(r'(<a href="#content" id="skipnav">Skip to main content</a>\n)',
-                   r'\1' + BANNER, s, count=1)
-        bump('banner')
+                   lambda m: m.group(1) + BANNER, s, count=1)
+        bump('banner_refreshed' if had_banner else 'banner')
 
     if '<header role="banner">' in s:
         s = s.replace('<header role="banner">', '<header>')
@@ -585,8 +592,8 @@ def preflight():
               '       point at a file that does not exist.'
               % (len(missing), ', '.join(sorted(missing)[:3])), file=sys.stderr)
         return False
-    for asset in ('rrchnm_logo.png',                              # archive banner
-                  'themes/default/images/rrchnm-wordmark.png',   # footer credit
+    for asset in (
+                  'themes/default/images/rrchnm-wordmark.png',   # banner + footer
                   'themes/default/css/a11y.css', 'themes/default/css/pt-serif.css',
                   'themes/default/javascripts/featured-item.js'):
         if not os.path.isfile(os.path.join(ROOT, asset)):

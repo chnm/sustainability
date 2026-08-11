@@ -211,6 +211,22 @@ button.menu-button {
    `@media (max-width: 640px)` block futl carries.
    ========================================================================== */
 
+/* The theme underlines every link (a { border-bottom: 1px dotted }, style.css:389).
+   On the wordmark that painted a dotted rule across the bottom of the logo. The
+   adjacent text link to the same destination keeps its underline, so nothing is
+   left conveying the link by colour alone. */
+.notice-logo {
+  border-bottom: 0 !important;
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+}
+
+.notice img {
+  width: auto;
+  max-width: none;
+}
+
 @media (max-width: 640px) {
   .notice {
     align-items: center !important;
@@ -220,6 +236,7 @@ button.menu-button {
 
   .notice img {
     height: 26px !important;
+    width: auto !important;
     margin-right: 18px !important;
   }
 }

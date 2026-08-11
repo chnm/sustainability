@@ -6,15 +6,14 @@
                 <meta name="description" content="Remembering Roy Rosenzweig, 1950-2007" />
             <title>Browse Items &middot; Thanks, Roy</title>
 
-    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://thanksroy.org/items/browse?tags=WashingtonPost&amp;output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://thanksroy.org/items/browse?tags=WashingtonPost&amp;output=atom" />
-    <!-- Plugin Stuff -->
+<!-- Plugin Stuff -->
 
     
 
     <!-- Stylesheets -->
     <link href="../application/views/scripts/css/iconfonts.css%3Fv=2.8.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../themes/default/css/style.css%3Fv=2.8.css" media="all" rel="stylesheet" type="text/css" >
-<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic" media="all" rel="stylesheet" type="text/css" >
+<link href="../themes/default/css/pt-serif.css" media="all" rel="stylesheet" type="text/css" >
         <style>
         body {
             background-color: #FFFFFF;
@@ -61,6 +60,7 @@
             }
         }
     </style>
+<link href="../themes/default/css/a11y.css" media="all" rel="stylesheet" type="text/css" >
     <!-- JavaScripts -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript">
@@ -77,23 +77,28 @@
     jQuery.noConflict();    //-->
 </script>
 <script type="text/javascript" src="../themes/default/javascripts/vendor/modernizr.js%3Fv=2.8"></script>
-<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="/application/views/scripts/javascripts/vendor/selectivizr.js?v=2.8"></script><![endif]-->
 <script type="text/javascript" src="../application/views/scripts/javascripts/vendor/respond.js%3Fv=2.8"></script>
 <script type="text/javascript" src="../application/views/scripts/javascripts/vendor/jquery-accessibleMegaMenu.js%3Fv=2.8"></script>
 <script type="text/javascript" src="../application/views/scripts/javascripts/globals.js%3Fv=2.8"></script>
 <script type="text/javascript" src="../themes/default/javascripts/default.js%3Fv=2.8"></script></head>
 <body class="items browse">
-    <a href="browse%3Ftags=WashingtonPost.html#content" id="skipnav">Skip to main content</a>
+    <a href="#content" id="skipnav">Skip to main content</a>
+    <aside class="notice" aria-label="Archive notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a href="https://rrchnm.org" target="_blank" rel="noopener"><img src="/rrchnm_logo.png" alt="RRCHNM Logo" style="height: 30px; margin-right: 15px;"/></a>
+    <div>
+    This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig Center for History and New Media</a>.
+    </div>
+</aside>
     
-        <header role="banner">
+        <header>
                         <div id="site-title"><a href="../index.html" ><img src="../files/theme_uploads/61c567b663c845725429ca6c528dc5a2.jpg" alt="Thanks, Roy" /></a>
 </div>
         </header>
 
         <div id="wrap">
-            <div class="menu-button button">Menu</div>
-            <nav id="primary-nav" role="navigation">
-                <ul class="navigation">
+            <button type="button" class="menu-button button" aria-expanded="false" aria-controls="primary-nav-list">Menu</button>
+            <nav id="primary-nav" aria-label="Main">
+                <ul class="navigation" id="primary-nav-list">
     <li>
         <a href="../about.html">About Roy</a>
     </li>
@@ -110,22 +115,17 @@
         <a href="../howtohelp.html">How to Help</a>
     </li>
 </ul>                <div id="search-container" role="search">
-                                        <form id="search-form" name="search-form" action="https://thanksroy.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search">        <div id="advanced-form">
-        <fieldset id="query-types">
-            <legend>Search using this query type:</legend>
-            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
-<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
-<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
-                <p><a href="search%3Ftags=WashingtonPost.html">Advanced Search (Items only)</a></p>
+                                        <form id="search-form" name="search-form" action="/search.html" method="get">    <label for="query" class="visually-hidden">Search this site</label><input type="text" name="query" id="query" value="" placeholder="Search">        <div id="advanced-form">
+        <p><a href="/items/search.html">Advanced Search (Items only)</a></p>
     </div>
         <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
                                     </div>
             </nav>
-            <div id="content" role="main" tabindex="-1">
+            <main id="content" tabindex="-1">
                 
 <h1>Browse Items (1 total)</h1>
 
-<nav class="items-nav navigation secondary-nav">
+<nav class="items-nav navigation secondary-nav" aria-label="Items">
     <ul class="navigation">
     <li class="active">
         <a href="browse.html">Browse All</a>
@@ -162,19 +162,19 @@
 <div id="outputs">
     <span class="outputs-label">Output Formats</span>
                 <p id="output-format-list">
-        <a href="https://thanksroy.org/items/browse?tags=WashingtonPost&amp;output=atom">atom</a>, <a href="https://thanksroy.org/items/browse?tags=WashingtonPost&amp;output=dcmes-xml">dcmes-xml</a>, <a href="https://thanksroy.org/items/browse?tags=WashingtonPost&amp;output=json">json</a>, <a href="https://thanksroy.org/items/browse?tags=WashingtonPost&amp;output=omeka-xml">omeka-xml</a>, <a href="https://thanksroy.org/items/browse?tags=WashingtonPost&amp;output=rss2">rss2</a>        </p>
+        <a href="browse%3Ftags=WashingtonPost.dcmes.xml">dcmes-xml</a>        </p>
     </div>
 
 
-        </div><!-- end content -->
+        </main><!-- end content -->
 
     </div><!-- end wrap -->
 
 
-    <footer role="contentinfo">
+    <footer>
 
         <div id="footer-text">
-                                    <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+                                    <p class="rrchnm-logo"><a href="https://rrchnm.org"><img src="/themes/default/images/rrchnm_logo.png" width="62" height="60" alt="Roy Rosenzweig Center for History and New Media" /></a></p>
         </div>
 
         

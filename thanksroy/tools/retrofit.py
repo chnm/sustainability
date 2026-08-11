@@ -63,8 +63,8 @@ BANNER = '''    <aside class="notice" aria-label="Archive notice" style="font-si
 display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; \
 border: 1px solid #ddd; margin-bottom: 0;">
     <a class="notice-logo" href="https://rrchnm.org" target="_blank" rel="noopener"><img \
-src="/themes/default/images/rrchnm-wordmark.png" width="162" height="30" \
-alt="RRCHNM Logo" style="height: 30px; margin-right: 15px;"/></a>
+src="/themes/default/images/rrchnm-mark.png" width="101" height="100" \
+alt="RRCHNM Logo" style="height: 30px; width: auto; margin-right: 15px;"/></a>
     <div>
     This is a static copy of the final website maintained by the \
 <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig \

@@ -1,0 +1,64 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://thanksroy.org/items/show/603">
+<dc:title>Roy</dc:title>
+<dc:creator>Jean-Christophe Agnew</dc:creator>
+<dc:language>eng</dc:language>
+<dc:type>Document</dc:type>
+<dc:identifier>142</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://thanksroy.org/items/show/602">
+<dc:title>Welcome to Celebration of Roy&#039;s Life</dc:title>
+<dc:description>Tom Scheinfeldt&#039;s speech welcoming everyone to the Celebration of Roy&#039;s Life, December 9, 2007.</dc:description>
+<dc:creator>Tom Scheinfeldt</dc:creator>
+<dc:date>2007-12-09</dc:date>
+<dc:language>eng</dc:language>
+<dc:type>Document</dc:type>
+<dc:identifier>131</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://thanksroy.org/items/show/601">
+<dc:title>Roy Memorial Speech</dc:title>
+<dc:description>Speech given by Dr. Stephen Brier at the Celebration of Roy&#039;s life, Sunday, December 9, 2007.</dc:description>
+<dc:creator>Stephen Brier</dc:creator>
+<dc:date>2007-12-09</dc:date>
+<dc:language>eng</dc:language>
+<dc:type>Document</dc:type>
+<dc:identifier>130</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://thanksroy.org/items/show/600">
+<dc:title>Tribute to Roy: Kathi Brown&#039;s Remarks from December 9, 2007 Celebration in Arlington, Virginia</dc:title>
+<dc:creator>Kathi Brown</dc:creator>
+<dc:contributor>Kathi Brown</dc:contributor>
+<dc:rights>You must be 13 years of age or older to submit material to us. Your submission of material constitutes your permission for, and consent to, its dissemination and use in connection with Thanks, Roy in all media in perpetuity. If you have so indicated on the form, your material will be published on Thanks, Roy (with or without your name, depending on what you have indicated). Otherwise, your response will only be available to approved researchers using Thanks, Roy. The material you submit must have been created by you, wholly original, and shall not be copied from or based, in whole or in part, upon any other photographic, literary, or other material, except to the extent that such material is in the public domain. Further, submitted material must not violate any confidentiality, privacy, security or other laws.</dc:rights>
+<dc:language>eng</dc:language>
+<dc:type>Document</dc:type>
+<dc:identifier>129</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://thanksroy.org/items/show/599">
+<dc:title>About Roy</dc:title>
+<dc:description>Speech written by Deborah Kaplan, Roy&#039;s wife, for the Celebration of Roy&#039;s Life, December 9, 2007.</dc:description>
+<dc:creator>Deborah Kaplan</dc:creator>
+<dc:date>2007-12-09</dc:date>
+<dc:language>eng</dc:language>
+<dc:type>Document</dc:type>
+<dc:identifier>132</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://thanksroy.org/items/show/598">
+<dc:title>As Roy&#039;s assistant... </dc:title>
+<dc:creator>Heather Velez</dc:creator>
+<dc:contributor>Heather Velez</dc:contributor>
+<dc:rights>You must be 13 years of age or older to submit material to us. Your submission of material constitutes your permission for, and consent to, its dissemination and use in connection with Thanks, Roy in all media in perpetuity. If you have so indicated on the form, your material will be published on Thanks, Roy (with or without your name, depending on what you have indicated). Otherwise, your response will only be available to approved researchers using Thanks, Roy. The material you submit must have been created by you, wholly original, and shall not be copied from or based, in whole or in part, upon any other photographic, literary, or other material, except to the extent that such material is in the public domain. Further, submitted material must not violate any confidentiality, privacy, security or other laws.</dc:rights>
+<dc:language>eng</dc:language>
+<dc:type>Document</dc:type>
+<dc:identifier>128</dc:identifier>
+</rdf:Description>
+<rdf:Description rdf:about="https://thanksroy.org/items/show/597">
+<dc:creator>Betsy Blackmar</dc:creator>
+<dc:contributor>Betsy Blackmar</dc:contributor>
+<dc:language>eng</dc:language>
+<dc:type>Document</dc:type>
+<dc:identifier>155</dc:identifier>
+</rdf:Description></rdf:RDF>

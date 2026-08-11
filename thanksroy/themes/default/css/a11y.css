@@ -421,3 +421,24 @@ footer .rrchnm-logo img {
 #results-status {
   font-weight: bold;
 }
+
+/* ==========================================================================
+   Notes standing in for images that no longer exist anywhere -- the two
+   chnm.gmu.edu hot-links on memorial-events.html, which the Internet Archive
+   never captured either.
+   ========================================================================== */
+
+.missing-image {
+  color: #595959;                  /* 7.00:1 */
+  border-left: 3px solid #ccc;
+  padding-left: 12px;
+  margin: 12px 0 24px;
+}
+
+/* 1.4.10 Reflow -- content images must not force horizontal scrolling on a
+   narrow viewport. The recovered campus map is 627px wide and did exactly that
+   at 375px; the theme has no such rule of its own, and axe cannot detect it. */
+#content img {
+  max-width: 100%;
+  height: auto;
+}

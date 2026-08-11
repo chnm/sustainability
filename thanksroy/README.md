@@ -190,10 +190,19 @@ rather than emitting a dead link.
   deliberate deviations from the futl markup, both accessibility: it is an
   `<aside aria-label="Archive notice">` rather than a `<div>` outside every
   landmark, and `target="_blank"` is paired with `rel="noopener"`.
-- The **"Proudly powered by Omeka" footer credit** is replaced by the RRCHNM
-  logo linking to rrchnm.org, following commit `83180e5d9b`, which did the same
-  with a GMU logo on the sibling archives. The COinS `omeka.org:generator`
-  citation metadata and any Omeka mentions inside archived content are untouched.
+- The **"Proudly powered by Omeka" footer credit** is replaced by RRCHNM's own
+  horizontal wordmark linking to rrchnm.org, following commit `83180e5d9b`,
+  which did the same with a GMU logo on the sibling archives. The asset is
+  rrchnm.org's `/img/logo-dark.png` — its dark-ink variant, the one that site
+  uses on light backgrounds; `/img/logo.png` is the light-ink version for dark
+  backgrounds, and this footer is white. 541×100, shown at 200×37. The COinS
+  `omeka.org:generator` citation metadata and any Omeka mentions inside archived
+  content are untouched.
+
+  Note the banner and the footer deliberately carry *different* marks: the
+  banner keeps the square `rrchnm_logo.png` shared byte-for-byte with the other
+  sustainability archives, so the notice stays identical across all of them,
+  while the footer credit is thanksroy's own and uses the full wordmark.
 
 ## Robustness
 

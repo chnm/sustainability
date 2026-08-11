@@ -240,15 +240,16 @@ footer .rrchnm-logo a {
 }
 
 footer .rrchnm-logo img {
-  width: 62px;
-  height: 60px;
+  width: 200px;
+  height: 37px;
+  max-width: 100%;
   display: block;
 }
 
 @media screen and (max-width: 768px) {
   footer .rrchnm-logo img {
-    width: 52px;
-    height: 50px;
+    width: 160px;
+    height: 30px;
   }
 }
 
@@ -330,6 +331,9 @@ footer .rrchnm-logo img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  /* Without this the short Collection and Item Type boxes stretch to the
+     height of the capped Tag box, leaving them mostly empty. */
+  align-items: flex-start;
 }
 
 .facet-group {

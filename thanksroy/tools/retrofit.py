@@ -73,10 +73,18 @@ Center for History and New Media</a>.
 '''
 
 FOOTER_OMEKA = '<p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>'
+# rrchnm.org's own horizontal wordmark (its /img/logo-dark.png, the dark-ink
+# variant it uses on light backgrounds -- /img/logo.png is the light-ink one for
+# dark backgrounds, and this footer is white). 541x100, shown at 200x37.
 FOOTER_LOGO = ('<p class="rrchnm-logo"><a href="https://rrchnm.org">'
-               '<img src="/themes/default/images/rrchnm_logo.png" width="62" '
-               'height="60" alt="Roy Rosenzweig Center for History and New '
+               '<img src="/themes/default/images/rrchnm-wordmark.png" width="200" '
+               'height="37" alt="Roy Rosenzweig Center for History and New '
                'Media" /></a></p>')
+# Previous shape, so a re-run migrates rather than leaving the old square mark.
+FOOTER_LOGO_OLD = ('<p class="rrchnm-logo"><a href="https://rrchnm.org">'
+                   '<img src="/themes/default/images/rrchnm_logo.png" width="62" '
+                   'height="60" alt="Roy Rosenzweig Center for History and New '
+                   'Media" /></a></p>')
 
 STATS = {}
 
@@ -208,6 +216,9 @@ def fix_landmarks(s, rel, pagefind_body):
     if FOOTER_OMEKA in s:
         s = s.replace(FOOTER_OMEKA, FOOTER_LOGO)
         bump('footer_logo')
+    elif FOOTER_LOGO_OLD in s:
+        s = s.replace(FOOTER_LOGO_OLD, FOOTER_LOGO)
+        bump('footer_logo_migrated')
     return s
 
 
@@ -574,7 +585,8 @@ def preflight():
               '       point at a file that does not exist.'
               % (len(missing), ', '.join(sorted(missing)[:3])), file=sys.stderr)
         return False
-    for asset in ('rrchnm_logo.png', 'themes/default/images/rrchnm_logo.png',
+    for asset in ('rrchnm_logo.png',                              # archive banner
+                  'themes/default/images/rrchnm-wordmark.png',   # footer credit
                   'themes/default/css/a11y.css', 'themes/default/css/pt-serif.css',
                   'themes/default/javascripts/featured-item.js'):
         if not os.path.isfile(os.path.join(ROOT, asset)):

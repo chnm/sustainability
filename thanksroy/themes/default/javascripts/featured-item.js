@@ -29,7 +29,11 @@
         { id: 626, title: 'Roy in a Who Built America" T-Shirt"', thumb: 'd8b481878d60dfb9fa1d5d99125662d8.jpg' }
     ];
 
-    var FILES_BASE = 'https://thanksroy.org/files/square_thumbnails/';
+    // Archive-relative, like every other media reference: the Omeka
+    // derivatives are not committed, they are served from the object-storage
+    // bucket through the web server's not-found redirect at this same path.
+    // Pointing at thanksroy.org would hot-link an origin that is being retired.
+    var FILES_BASE = '/files/square_thumbnails/';
 
     var container = document.getElementById('featured-item');
     if (!container) {

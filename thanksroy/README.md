@@ -207,6 +207,40 @@ rather than emitting a dead link.
   The banner and the footer share this one asset, shown at 162×30 and 200×37
   respectively; `rrchnm_logo.png` is gone.
 
+## Media files
+
+**No item media is committed.** `files/{original,square_thumbnails,fullsize,thumbnails}/`
+were excluded at crawl time and are in `.gitignore`; the tree holds only the
+header photo, the Washington Post obituary scan, the theme's UI images and the
+RRCHNM wordmark. The Omeka derivatives — 86 square thumbnails (1.3 MB) and 87
+originals (161 MB) — are served from the object-storage bucket through the web
+server's not-found redirect, at the same `/files/…` paths, the arrangement
+`mallhistory/README.md` documents for its map tiles.
+
+Every media reference is therefore **archive-relative**, not absolute to the
+origin. `tools/retrofit.py` rewrites anything under `files/` to a depth-correct
+relative path (`files/…`, `../files/…`, `../../files/…`, matching the convention
+`wget --convert-links` established elsewhere in the archive) whether or not the
+file is present locally, precisely because the redirect — not the repository —
+is what serves it. 489 references were converted: 402 `src=` thumbnails and 87
+`href=` originals.
+
+`themes/default/javascripts/featured-item.js` uses root-absolute
+`/files/square_thumbnails/` for the same reason; it had the origin hardcoded,
+which HTML rewriting would never have caught.
+
+Verified in a browser across the homepage, browse, item and collection pages:
+every `/files/…` request stays on the archive host, and none reaches
+thanksroy.org.
+
+**Sequencing note.** Until the bucket redirect is serving `/files/…` on the
+deployed host, these images 404 — they previously rendered only by hot-linking
+the live origin. Check with:
+
+```sh
+curl -sIL https://thanksroy.dev.chnm.gmu.edu/files/square_thumbnails/fb80474be58c87e07a2b3e316f69c1bc.jpg
+```
+
 ## Robustness
 
 - **PT Serif is self-hosted** (`themes/default/css/pt-serif.css` + woff2 subsets
@@ -249,19 +283,10 @@ It needs `npx playwright install chromium && npx playwright install-deps chromiu
 ## Known gaps
 
 - **Alt text** — see the accessibility section above.
-- **The origin `thanksroy.org` was still live as of 2026-08-11, and that is
-  currently load-bearing.** All 402 image references are absolute URLs to it, so
-  item thumbnails render *today* by hot-linking a site that is being retired.
-  `files/{original,square_thumbnails,fullsize,thumbnails}/` were excluded at
-  crawl time and the deployed archive already 404s them, so **every image breaks
-  the moment the origin goes down**. The window to mirror the media is open and
-  will close: re-crawl those directories (and the non-standard top-level `Imgs/`,
-  812 refs, never crawled), then either commit them or push them to an object
-  bucket with a not-found redirect, as `mallhistory/README.md` documents for its
-  map tiles. `tools/retrofit.py` already relativizes any absolute origin URL
-  whose target exists in-tree, so it will pick them up on the next run.
-- ~3,700 absolute `href`/`src` references to the origin remain outside the search
-  form (2,444 under `items/`, 812 under `Imgs/`).
+- ~3,300 absolute `href`/`src` references to the origin remain outside the media
+  and the search form — chiefly `items/browse?sort_field=…` sort permutations
+  and other listing views the crawl excluded. They were already broken before
+  this work and are not media.
 - **Search recall is bounded by the data.** Only 72 of 162 items have body text
   on the page (68 `Text`, 4 `URL`); the other 90 are image-only and are indexed
   on title, item type, tags, collection and citation alone. The dcmes-xml

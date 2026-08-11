@@ -3,18 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-                <meta name="description" content="Remembering Roy Rosenzweig, 1950-2007" />
+                <meta name="description" content="Search the items in the Thanks, Roy archive" />
             <title>Search Items &middot; Thanks, Roy</title>
 
-    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://thanksroy.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://thanksroy.org/items/browse?output=atom" />
     <!-- Plugin Stuff -->
 
-    
+
 
     <!-- Stylesheets -->
     <link href="../application/views/scripts/css/iconfonts.css%3Fv=2.8.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../themes/default/css/style.css%3Fv=2.8.css" media="all" rel="stylesheet" type="text/css" >
-<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic" media="all" rel="stylesheet" type="text/css" >
+<link href="../themes/default/css/pt-serif.css" media="all" rel="stylesheet" type="text/css" >
         <style>
         body {
             background-color: #FFFFFF;
@@ -61,6 +60,7 @@
             }
         }
     </style>
+<link href="../themes/default/css/a11y.css" media="all" rel="stylesheet" type="text/css" >
     <!-- JavaScripts -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript">
@@ -77,23 +77,28 @@
     jQuery.noConflict();    //-->
 </script>
 <script type="text/javascript" src="../themes/default/javascripts/vendor/modernizr.js%3Fv=2.8"></script>
-<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="/application/views/scripts/javascripts/vendor/selectivizr.js?v=2.8"></script><![endif]-->
 <script type="text/javascript" src="../application/views/scripts/javascripts/vendor/respond.js%3Fv=2.8"></script>
 <script type="text/javascript" src="../application/views/scripts/javascripts/vendor/jquery-accessibleMegaMenu.js%3Fv=2.8"></script>
 <script type="text/javascript" src="../application/views/scripts/javascripts/globals.js%3Fv=2.8"></script>
 <script type="text/javascript" src="../themes/default/javascripts/default.js%3Fv=2.8"></script></head>
 <body class="items advanced-search">
-    <a href="search.html#content" id="skipnav">Skip to main content</a>
-    
-        <header role="banner">
+    <a href="#content" id="skipnav">Skip to main content</a>
+    <aside class="notice" aria-label="Archive notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a href="https://rrchnm.org" target="_blank" rel="noopener"><img src="/rrchnm_logo.png" alt="RRCHNM Logo" style="height: 30px; margin-right: 15px;"/></a>
+    <div>
+    This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig Center for History and New Media</a>.
+    </div>
+</aside>
+
+        <header>
                         <div id="site-title"><a href="../index.html" ><img src="../files/theme_uploads/61c567b663c845725429ca6c528dc5a2.jpg" alt="Thanks, Roy" /></a>
 </div>
         </header>
 
         <div id="wrap">
-            <div class="menu-button button">Menu</div>
-            <nav id="primary-nav" role="navigation">
-                <ul class="navigation">
+            <button type="button" class="menu-button button" aria-expanded="false" aria-controls="primary-nav-list">Menu</button>
+            <nav id="primary-nav" aria-label="Main">
+                <ul class="navigation" id="primary-nav-list">
     <li>
         <a href="../about.html">About Roy</a>
     </li>
@@ -110,22 +115,18 @@
         <a href="../howtohelp.html">How to Help</a>
     </li>
 </ul>                <div id="search-container" role="search">
-                                        <form id="search-form" name="search-form" action="https://thanksroy.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search">        <div id="advanced-form">
-        <fieldset id="query-types">
-            <legend>Search using this query type:</legend>
-            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
-<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
-<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
-                <p><a href="search.html">Advanced Search (Items only)</a></p>
+                                        <form id="search-form" name="search-form" action="/search.html" method="get">    <label for="query" class="visually-hidden">Search this site</label><input type="text" name="query" id="query" value="" placeholder="Search">        <div id="advanced-form">
+                <p><a href="/items/search.html">Advanced Search (Items only)</a></p>
     </div>
         <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
                                     </div>
             </nav>
-            <div id="content" role="main" tabindex="-1">
-                
+            <main id="content" tabindex="-1">
+
+
 <h1>Search Items</h1>
 
-<nav class="items-nav navigation secondary-nav">
+<nav class="items-nav navigation secondary-nav" aria-label="Items">
     <ul class="navigation">
     <li>
         <a href="browse.html">Browse All</a>
@@ -138,207 +139,40 @@
     </li>
 </ul></nav>
 
+<div id="search-page">
+    <noscript>
+        <p>Search requires JavaScript to be enabled in your browser. You can
+        still <a href="browse.html">browse all items</a> or
+        <a href="tags.html">browse by tag</a>.</p>
+    </noscript>
 
-<form id="advanced-search-form" action="browse.html" method="GET">
-    <div id="search-keywords" class="field">
-        <label for="keyword-search">Search for Keywords</label>        <div class="inputs">
-        <input type="text" name="search" id="keyword-search" value="" size="40">        </div>
-    </div>
-    <div id="search-narrow-by-fields" class="field">
-        <div class="label">Narrow by Specific Fields</div>
-        <div class="inputs">
-                    <div class="search-entry">
-                <select name="advanced[0][joiner]" id="" title="Search Joiner" class="advanced-search-joiner">
-    <option value="and">AND</option>
-    <option value="or">OR</option>
-</select><select name="advanced[0][element_id]" id="" title="Search Field" class="advanced-search-element">
-    <option value="">Select Below </option>
-    <option value="50">Title</option>
-    <option value="86">Alternative Title</option>
-    <option value="49">Subject</option>
-    <option value="41">Description</option>
-    <option value="87">Abstract</option>
-    <option value="39">Creator</option>
-    <option value="48">Source</option>
-    <option value="45">Publisher</option>
-    <option value="88">Table Of Contents</option>
-    <option value="40">Date</option>
-    <option value="89">Date Available</option>
-    <option value="90">Date Created</option>
-    <option value="91">Date Accepted</option>
-    <option value="92">Date Copyrighted</option>
-    <option value="93">Date Submitted</option>
-    <option value="94">Date Issued</option>
-    <option value="95">Date Modified</option>
-    <option value="96">Date Valid</option>
-    <option value="37">Contributor</option>
-    <option value="47">Rights</option>
-    <option value="97">Access Rights</option>
-    <option value="98">License</option>
-    <option value="46">Relation</option>
-    <option value="99">Conforms To</option>
-    <option value="100">Has Format</option>
-    <option value="101">Has Part</option>
-    <option value="102">Has Version</option>
-    <option value="103">Is Format Of</option>
-    <option value="104">Is Part Of</option>
-    <option value="105">Is Referenced By</option>
-    <option value="106">Is Replaced By</option>
-    <option value="107">Is Required By</option>
-    <option value="108">Is Version Of</option>
-    <option value="109">References</option>
-    <option value="110">Replaces</option>
-    <option value="111">Requires</option>
-    <option value="42">Format</option>
-    <option value="112">Extent</option>
-    <option value="113">Medium</option>
-    <option value="44">Language</option>
-    <option value="51">Type</option>
-    <option value="43">Identifier</option>
-    <option value="114">Bibliographic Citation</option>
-    <option value="38">Coverage</option>
-    <option value="115">Spatial Coverage</option>
-    <option value="116">Temporal Coverage</option>
-    <option value="117">Accrual Method</option>
-    <option value="118">Accrual Periodicity</option>
-    <option value="119">Accrual Policy</option>
-    <option value="120">Audience</option>
-    <option value="121">Audience Education Level</option>
-    <option value="122">Mediator</option>
-    <option value="123">Instructional Method</option>
-    <option value="124">Provenance</option>
-    <option value="125">Rights Holder</option>
-    <option value="17">Email Body</option>
-    <option value="2">Interviewer</option>
-    <option value="20">To</option>
-    <option value="21">CC</option>
-    <option value="22">BCC</option>
-    <option value="23">Number of Attachments</option>
-    <option value="24">Standards</option>
-    <option value="26">Materials</option>
-    <option value="27">Lesson Plan Text</option>
-    <option value="28">URL</option>
-    <option value="29">Event Type</option>
-    <option value="30">Participants</option>
-    <option value="31">Birth Date</option>
-    <option value="32">Birthplace</option>
-    <option value="19">From</option>
-    <option value="18">Subject Line</option>
-    <option value="3">Interviewee</option>
-    <option value="4">Location</option>
-    <option value="5">Transcription</option>
-    <option value="6">Local URL</option>
-    <option value="7">Original Format</option>
-    <option value="11">Duration</option>
-    <option value="12">Compression</option>
-    <option value="13">Producer</option>
-    <option value="14">Director</option>
-    <option value="15">Bit Rate/Frequency</option>
-    <option value="16">Time Summary</option>
-    <option value="1">Text</option>
-    <option value="33">Death Date</option>
-    <option value="34">Occupation</option>
-    <option value="35">Biographical Text</option>
-    <option value="36">Bibliography</option>
-    <option value="25">Objectives</option>
-    <option value="10">Physical Dimensions</option>
-</select><select name="advanced[0][type]" id="" title="Search Type" class="advanced-search-type">
-    <option value="" selected="selected">Select Below </option>
-    <option value="contains">contains</option>
-    <option value="does not contain">does not contain</option>
-    <option value="is exactly">is exactly</option>
-    <option value="is empty">is empty</option>
-    <option value="is not empty">is not empty</option>
-    <option value="starts with">starts with</option>
-    <option value="ends with">ends with</option>
-</select><input type="text" name="advanced[0][terms]" id="" value="" size="20" title="Search Terms" class="advanced-search-terms">                <button type="button" class="remove_search" disabled="disabled" style="display: none;">Remove field</button>
-            </div>
-                </div>
-        <button type="button" class="add_search">Add a Field</button>
-    </div>
+    <p id="search-intro">Type a term in the search box above, or narrow the
+    archive with the filters below. Values within a filter combine: choosing two
+    tags finds items carrying either one.</p>
 
-    <div id="search-by-range" class="field">
-        <label for="range">Search by a range of ID#s (example: 1-4, 156, 79)</label>        <div class="inputs">
-        <input type="text" name="range" id="range" value="" size="40">        </div>
-    </div>
+    <form id="facets" aria-label="Narrow these items">
+        <div id="facet-groups"></div>
+        <p><button type="button" id="facet-reset" class="button">Clear all filters</button></p>
+    </form>
 
-    <div class="field">
-        <label for="collection-search">Search By Collection</label>        <div class="inputs">
-        <select name="collection" id="collection-search">
-    <option value="">Select Below </option>
-    <option value="0">No Collection</option>
-    <option value="2">Celebration</option>
-    <option value="1">Formal Notices</option>
-</select>        </div>
-    </div>
+    <h2 id="results-heading">Results</h2>
+    <p id="results-status" role="status" aria-live="polite">Loading the search index&hellip;</p>
+    <ol id="results" class="items-list"></ol>
+    <p id="results-more-wrap" hidden><button type="button" id="results-more" class="button">Show more items</button></p>
+</div><!-- end search-page -->
 
-    <div class="field">
-        <label for="item-type-search">Search By Type</label>        <div class="inputs">
-        <select name="type" id="item-type-search">
-    <option value="">Select Below </option>
-    <option value="1">Document</option>
-    <option value="3">Moving Image</option>
-    <option value="4">Oral History</option>
-    <option value="5">Sound</option>
-    <option value="6">Still Image</option>
-    <option value="7">Website</option>
-    <option value="8">Event</option>
-    <option value="9">Email</option>
-    <option value="10">Lesson Plan</option>
-    <option value="11">Hyperlink</option>
-    <option value="12">Person</option>
-    <option value="13">Interactive Resource</option>
-</select>        </div>
-    </div>
-
-    
-    <div class="field">
-        <label for="tag-search">Search By Tags</label>        <div class="inputs">
-        <input type="text" name="tags" id="tag-search" value="" size="40">        </div>
-    </div>
-
-
-    
-    <div class="field">
-        <label for="featured">Featured/Non-Featured</label>        <div class="inputs">
-        <select name="featured" id="featured">
-    <option value="">Select Below </option>
-    <option value="1">Only Featured Items</option>
-    <option value="0">Only Non-Featured Items</option>
-</select>        </div>
-    </div>
-
-    <div class="field">
-    <div class="two columns alpha">
-        <label for="exhibit">Search by Exhibit</label>    </div>
-    <div class="five columns omega inputs">
-        <select name="exhibit" id="exhibit">
-    <option value="">Select Below </option>
-</select>    </div>
-</div>
-    <div>
-                <input type="submit" class="submit" name="submit_search" id="submit_search_advanced" value="Search for items">
-    </div>
-</form>
-
-<script type="text/javascript" src="../application/views/scripts/javascripts/items-search.js%3Fv=2.8" charset="utf-8"></script><script type="text/javascript">
-    jQuery(document).ready(function () {
-        Omeka.Search.activateSearchButtons();
-    });
-</script>
-
-        </div><!-- end content -->
+        </main><!-- end content -->
 
     </div><!-- end wrap -->
 
 
-    <footer role="contentinfo">
+    <footer>
 
         <div id="footer-text">
-                                    <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+                                    <p class="rrchnm-logo"><a href="https://rrchnm.org"><img src="/themes/default/images/rrchnm_logo.png" width="62" height="60" alt="Roy Rosenzweig Center for History and New Media" /></a></p>
         </div>
 
-        
+
     </footer><!-- end footer -->
 
     <script type="text/javascript">
@@ -349,6 +183,255 @@
         ThanksRoy.mobileMenu();
     });
     </script>
+
+<script>
+    /* Replaces Omeka's "Advanced Search (Items only)" form, whose action wget
+       rewrote to browse.html -- submitting it silently reloaded an unfiltered
+       browse list. The old page narrowed by collection, item type and tag, and
+       showed those controls immediately; this reproduces that.
+
+       Built on Pagefind's core API rather than its Default UI, because the
+       Default UI only renders its filter panel once a query has been typed,
+       which would leave this page blank on arrival -- the opposite of what an
+       advanced search form is for. The core API also supports
+       search(null, {filters}), i.e. filter-only browsing with no keyword.
+
+       The header search box supplies the keyword, as it does on /search.html. */
+    (function () {
+        'use strict';
+
+        var PAGE_SIZE = 20;
+        var FACET_ORDER = ['Collection', 'Item Type', 'Tag'];
+
+        var groupsEl = document.getElementById('facet-groups');
+        var resultsEl = document.getElementById('results');
+        var statusEl = document.getElementById('results-status');
+        var moreWrap = document.getElementById('results-more-wrap');
+        var moreBtn = document.getElementById('results-more');
+        var resetBtn = document.getElementById('facet-reset');
+        var headerInput = document.getElementById('query');
+
+        var pagefind = null;
+        var itemTypes = [];       // every Item Type value == exactly the item pages
+        var results = [];
+        var shown = 0;
+        var debounce;
+
+        function cssEscape(v) {
+            return String(v).replace(/["\\]/g, '\\$&');
+        }
+
+        function checkedState() {
+            var state = {};
+            var boxes = groupsEl.querySelectorAll('input[type="checkbox"]:checked');
+            for (var i = 0; i < boxes.length; i++) {
+                var g = boxes[i].getAttribute('data-group');
+                (state[g] = state[g] || []).push(boxes[i].value);
+            }
+            return state;
+        }
+
+        function selectedFilters() {
+            var state = checkedState();
+            // With no Item Type ticked, constrain to all of them: that is
+            // exactly the set of item records, and keeps the 7 non-item pages
+            // (the simple pages and collection pages) off an items-only search.
+            if (!state['Item Type']) { state['Item Type'] = itemTypes; }
+
+            // Wrap every group in `any`. Handing Pagefind a bare array means
+            // AND -- {'Item Type': ['Document','Still Image']} asks for items
+            // that are both, which is always empty. The old Omeka advanced
+            // search treated multiple values in a field as alternatives, and so
+            // does the on-page copy, so `any` is what matches it.
+            var out = {};
+            Object.keys(state).forEach(function (group) {
+                out[group] = { any: state[group] };
+            });
+            return out;
+        }
+
+        function renderFacets(counts) {
+            groupsEl.textContent = '';
+            FACET_ORDER.forEach(function (group) {
+                var values = counts[group] || {};
+                var names = Object.keys(values).filter(function (n) {
+                    return values[n] > 0;
+                }).sort(function (a, b) {
+                    return a.localeCompare(b, 'en', { sensitivity: 'base' });
+                });
+                if (!names.length) return;
+
+                var fs = document.createElement('fieldset');
+                fs.className = 'facet-group';
+                var lg = document.createElement('legend');
+                lg.textContent = group;
+                fs.appendChild(lg);
+
+                var list = document.createElement('div');
+                list.className = 'facet-values';
+                if (names.length > 12) {
+                    list.className += ' facet-values--scroll';
+                }
+
+                names.forEach(function (name) {
+                    var id = 'facet-' + group.replace(/\W+/g, '-') + '-' +
+                             name.replace(/\W+/g, '-');
+                    var label = document.createElement('label');
+                    label.className = 'facet-value';
+                    label.setAttribute('for', id);
+
+                    var box = document.createElement('input');
+                    box.type = 'checkbox';
+                    box.id = id;
+                    box.value = name;
+                    box.setAttribute('data-group', group);
+                    box.addEventListener('change', function () { search(); });
+
+                    label.appendChild(box);
+                    label.appendChild(document.createTextNode(
+                        ' ' + name + ' (' + values[name] + ')'));
+                    list.appendChild(label);
+                });
+
+                fs.appendChild(list);
+                groupsEl.appendChild(fs);
+            });
+        }
+
+        function restoreChecked(state) {
+            Object.keys(state).forEach(function (group) {
+                state[group].forEach(function (value) {
+                    var sel = groupsEl.querySelector('input[data-group="' +
+                        cssEscape(group) + '"][value="' + cssEscape(value) + '"]');
+                    if (sel) { sel.checked = true; }
+                });
+            });
+        }
+
+        function renderPage() {
+            var slice = results.slice(shown, shown + PAGE_SIZE);
+            Promise.all(slice.map(function (r) { return r.data(); })).then(function (rows) {
+                rows.forEach(function (d) {
+                    var li = document.createElement('li');
+                    li.className = 'item record';
+
+                    var h3 = document.createElement('h3');
+                    var a = document.createElement('a');
+                    a.href = d.url;
+                    a.textContent = (d.meta && d.meta.title) || d.url;
+                    h3.appendChild(a);
+                    li.appendChild(h3);
+
+                    if (d.excerpt) {
+                        var p = document.createElement('p');
+                        p.className = 'item-description';
+                        // Pagefind escapes the excerpt itself and adds <mark>.
+                        p.innerHTML = d.excerpt;
+                        li.appendChild(p);
+                    }
+                    resultsEl.appendChild(li);
+                });
+                shown += rows.length;
+                moreWrap.hidden = shown >= results.length;
+                if (!moreWrap.hidden) {
+                    moreBtn.textContent = 'Show more items (' +
+                        (results.length - shown) + ' remaining)';
+                }
+            });
+        }
+
+        function describe(n, q) {
+            var state = checkedState();
+            var bits = [];
+            FACET_ORDER.forEach(function (g) {
+                if (state[g]) { bits.push(g.toLowerCase() + ' ' + state[g].join(' or ')); }
+            });
+            var msg = n + (n === 1 ? ' item' : ' items');
+            if (q) { msg += ' matching \u201c' + q + '\u201d'; }
+            if (bits.length) { msg += ' in ' + bits.join(', '); }
+            return msg;
+        }
+
+        function search() {
+            if (!pagefind) { return; }
+            var q = headerInput ? headerInput.value.trim() : '';
+            pagefind.search(q || null, { filters: selectedFilters() }).then(function (r) {
+                results = r.results;
+                shown = 0;
+                resultsEl.textContent = '';
+                statusEl.textContent = describe(results.length, q);
+                moreWrap.hidden = true;
+                if (results.length) { renderPage(); }
+
+                // Refresh the counts against the current result set while
+                // keeping whatever the reader has already ticked.
+                var state = checkedState();
+                renderFacets(r.filters && Object.keys(r.filters).length
+                             ? r.filters : r.totalFilters);
+                restoreChecked(state);
+            });
+        }
+
+        moreBtn.addEventListener('click', function () { renderPage(); });
+
+        resetBtn.addEventListener('click', function () {
+            var boxes = groupsEl.querySelectorAll('input:checked');
+            for (var i = 0; i < boxes.length; i++) { boxes[i].checked = false; }
+            search();
+        });
+
+        if (headerInput) {
+            headerInput.addEventListener('input', function () {
+                clearTimeout(debounce);
+                debounce = setTimeout(function () {
+                    search();
+                    var url = new URL(window.location);
+                    if (headerInput.value) {
+                        url.searchParams.set('query', headerInput.value);
+                    } else {
+                        url.searchParams.delete('query');
+                    }
+                    window.history.replaceState(null, '', url);
+                }, 200);
+            });
+            var form = document.getElementById('search-form');
+            if (form) {
+                form.addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    search();
+                });
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', function () {
+            import('/pagefind/pagefind.js').then(function (pf) {
+                return pf.options({ baseUrl: '/' }).then(function () {
+                    return pf.init();
+                }).then(function () {
+                    pagefind = pf;
+                    // filters() called straight after init() comes back empty --
+                    // the filter metadata loads lazily. One warm-up search
+                    // populates it; the index is already in memory, so the
+                    // second lookup is cheap.
+                    return pf.search(null);
+                }).then(function () {
+                    return pf.filters();
+                });
+            }).then(function (counts) {
+                itemTypes = Object.keys(counts['Item Type'] || {});
+                renderFacets(counts);
+                var params = new URLSearchParams(window.location.search);
+                var initial = params.get('query') || params.get('q') || '';
+                if (headerInput && initial) { headerInput.value = initial; }
+                search();
+            }).catch(function (e) {
+                statusEl.textContent = 'The search index could not be loaded. You can ' +
+                    'still browse all items or browse by tag using the links above.';
+                if (window.console) { console.error(e); }
+            });
+        });
+    })();
+</script>
 
 <!-- Matomo -->
 <script>

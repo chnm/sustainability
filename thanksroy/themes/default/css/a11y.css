@@ -1,0 +1,402 @@
+/* WCAG 2.2 AA -- thanksroy.org static archive
+ *
+ * Loaded LAST in every <head>, immediately after the Omeka theme-config inline
+ * <style> block. That ordering is deliberate and load-bearing:
+ *
+ *   1. The inline block overrides themes/default/css/style.css, so anything that
+ *      needs to beat the theme palette has to come after it.
+ *   2. style.css:1420-1431 (inside `@media screen and (min-width: 768px)`) holds
+ *      a *worse* fallback palette -- a:link #888 (3.54:1), a:visited #999
+ *      (2.85:1), a:hover #777 (4.48:1) -- currently masked by the inline block.
+ *      The link colours below are restated here so that palette can never
+ *      surface, whatever happens to the inline block later.
+ *
+ * Contrast ratios in comments are against #FFFFFF unless noted.
+ */
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ==========================================================================
+   1.4.3 Contrast (Minimum)
+   ========================================================================== */
+
+a:link {
+  color: #666666;                 /* 5.74:1 */
+}
+
+a:visited {
+  color: #595959;                 /* was #8e8e8e = 3.28:1, FAILED */
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #3e3e3e;                 /* 10.70:1 */
+}
+
+/* Placeholder text is text: #888 was 3.54:1. */
+::placeholder {
+  color: #6e6e6e;                 /* 5.10:1 */
+  opacity: 1;                     /* Firefox dims placeholders by default */
+}
+
+::-webkit-input-placeholder { color: #6e6e6e; }
+input:-moz-placeholder,
+textarea:-moz-placeholder { color: #6e6e6e; }
+input.placeholder_text,
+textarea.placeholder_text { color: #6e6e6e; }
+
+/* ==========================================================================
+   2.4.7 Focus Visible / 1.4.11 Non-text Contrast
+
+   style.css:558 and :593 set `outline: 0` on every button, input, select and
+   textarea, replacing the native ring with a 7px blurred box-shadow that has no
+   solid perimeter. Restore a real indicator: a #ffe000 inner ring (the repo's
+   convention, cf. plastercast) wrapped in a #1c1c1c outer ring so the indicator
+   is perceivable on white (17.04:1) and against the yellow (12.91:1).
+
+   These selectors are (0,1,1)/(0,1,0) and this file loads last, so they beat the
+   theme's `button:focus` / `input:focus` glow.
+   ========================================================================== */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #ffe000;
+  outline-offset: 0;
+  box-shadow: 0 0 0 6px #1c1c1c;
+  position: relative;
+  z-index: 2;
+}
+
+/* #content carries tabindex="-1" purely as a skip-link target; focusing it
+   programmatically should not paint a ring around the whole page. */
+main#content:focus,
+main#content:focus-visible {
+  outline: 0;
+  box-shadow: none;
+}
+
+/* ==========================================================================
+   2.4.1 Bypass Blocks -- skip link
+
+   style.css:433 reveals #skipnav on focus but sets no background-color and no
+   `left`, so it painted transparently over whatever sat beneath it.
+   ========================================================================== */
+
+#skipnav:focus {
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  clip: auto;
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: .5em 1em;
+  background-color: #ffffff;
+  color: #000000;
+  border: 0;
+  outline: 3px solid #ffe000;
+  box-shadow: 0 0 0 6px #1c1c1c;
+}
+
+/* ==========================================================================
+   2.1.1 Keyboard -- mobile navigation
+
+   The menu opener was a <div>, so it was neither focusable nor operable; below
+   768px `#primary-nav ul.navigation` is display:none and this is the only way
+   to open it. It is a <button> now; these rules keep it looking identical to
+   the block-level div it replaced.
+   ========================================================================== */
+
+button.menu-button {
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+  font-family: 'PT Serif', serif;
+}
+
+/* ==========================================================================
+   2.5.8 Target Size (Minimum)
+
+   .pagination_next/.pagination_previous and the item prev/next links are
+   exactly 24px tall with no padding and no spacing ring. They are standalone
+   navigation links, not links inline in prose, so the inline exception does
+   not apply.
+   ========================================================================== */
+
+.pagination_next,
+.pagination_previous {
+  height: auto;
+}
+
+.pagination_next a,
+.pagination_previous a {
+  min-height: 24px;
+  min-width: 24px;
+  padding: 6px 10px;
+  box-sizing: content-box;
+}
+
+.item-pagination a {
+  display: inline-block;
+  padding: 6px 10px;
+  min-height: 24px;
+  min-width: 24px;
+  box-sizing: content-box;
+}
+
+/* The tag cloud is a list of links, not links inside a sentence, so the
+   "inline" exception to 2.5.8 does not cover it. style.css:800 makes the items
+   `display: inline` at 100%-260% font size; the smallest ones came out under
+   24px tall with no spacing ring. */
+.hTagcloud li {
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 4px;
+}
+
+.hTagcloud li a {
+  display: inline-block;
+  min-height: 24px;
+  padding: 2px 4px;
+  line-height: 20px;
+}
+
+/* The browse pagination form ("[ 1 ] of 17") had no submit button at all --
+   Enter was the only way to use it. retrofit.py adds one; size it to match. */
+.pagination .pagination-go {
+  height: 30px;
+  padding: 3px 10px;
+  vertical-align: top;
+}
+
+/* ==========================================================================
+   1.3.1 Info and Relationships -- heading levels
+
+   Item pages ran h1 -> h3 (Files) -> h3 (Citation) -> h2 (Output Formats),
+   skipping h2 and then jumping back up. The .element headings are h2 now; keep
+   the 20px/30px size they had as h3 so the pages look unchanged, and pull
+   "Output Formats" (a real h2 already) into the same size for consistency.
+   ========================================================================== */
+
+#content .element > h2 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* ==========================================================================
+   RRCHNM archive notice banner
+
+   Markup ported from the forustheliving.org archive (futl/), including its
+   inline styles. Only the small-screen refinement lives here, matching the
+   `@media (max-width: 640px)` block futl carries.
+   ========================================================================== */
+
+@media (max-width: 640px) {
+  .notice {
+    align-items: center !important;
+    padding: 10px 14px !important;
+    line-height: 1.45 !important;
+  }
+
+  .notice img {
+    height: 26px !important;
+    margin-right: 18px !important;
+  }
+}
+
+/* ==========================================================================
+   Footer -- RRCHNM logo replacing the "Proudly powered by Omeka" credit
+   (cf. commit 83180e5d9b, which did the same with a GMU logo elsewhere).
+   ========================================================================== */
+
+footer .rrchnm-logo {
+  margin: 0;
+  line-height: 0;
+}
+
+footer .rrchnm-logo a {
+  border-bottom: 0;
+  display: inline-block;
+}
+
+footer .rrchnm-logo img {
+  width: 62px;
+  height: 60px;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  footer .rrchnm-logo img {
+    width: 52px;
+    height: 50px;
+  }
+}
+
+/* ==========================================================================
+   Pagefind UI
+
+   The search pages let the header search box drive the results, so Pagefind's
+   own input row is visually hidden. Hide ONLY the input and clear button --
+   .pagefind-ui__form wraps the results, so hiding the form collapses them.
+   ========================================================================== */
+
+#search {
+  --pagefind-ui-primary: #3e3e3e;   /* 10.70:1 -- matches the theme's a:hover */
+  --pagefind-ui-text: #444444;      /* 9.74:1 */
+  --pagefind-ui-font: 'PT Serif', serif;
+  --pagefind-ui-scale: 0.9;
+  max-width: 48em;
+}
+
+#search .pagefind-ui__search-input,
+#search .pagefind-ui__search-clear {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+#search-page {
+  padding: 0 5.26316%;
+}
+
+#search-empty {
+  color: #595959;                  /* 7.00:1 */
+  margin: 1em 0 3em;
+}
+
+/* The theme-config inline <style> block sets `color: #FFFFFF !important` on
+   every `button`, which lands on Pagefind's "Load more results" button while
+   its own light background survives -- white on white, 1:1. Force both ends. */
+#search .pagefind-ui__button {
+  background-color: #3e3e3e !important;   /* 10.70:1 against the white below */
+  border-color: #3e3e3e !important;
+  color: #ffffff !important;
+}
+
+#search .pagefind-ui__button:hover,
+#search .pagefind-ui__button:focus {
+  background-color: #1c1c1c !important;
+  border-color: #1c1c1c !important;
+}
+
+/* Pagefind's own controls inherit the theme's `outline: 0`; give them the same
+   indicator as everything else. */
+#search .pagefind-ui__result-link:focus-visible,
+#search .pagefind-ui__button:focus-visible,
+#search input:focus-visible {
+  outline: 3px solid #ffe000;
+  outline-offset: 0;
+  box-shadow: 0 0 0 6px #1c1c1c;
+}
+
+/* ==========================================================================
+   items/search.html -- the faceted "Search Items" page
+
+   Replaces Omeka's advanced-search form. Built on Pagefind's core API, not its
+   Default UI, so the facets are on screen when the page loads.
+   ========================================================================== */
+
+#facets {
+  margin: 0 0 24px;
+}
+
+#facet-groups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.facet-group {
+  border: 1px solid #ccc;
+  padding: 12px 16px;
+  margin: 0;
+  min-width: 14em;
+  flex: 1 1 14em;
+  box-sizing: border-box;
+}
+
+.facet-group legend {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  padding: 0 6px;
+}
+
+.facet-values {
+  display: block;
+}
+
+/* The Tag facet carries 145 values. Cap it and let it scroll rather than
+   pushing the results a full screen down. */
+.facet-values--scroll {
+  max-height: 16em;
+  overflow-y: auto;
+}
+
+.facet-value {
+  display: block;
+  /* 2.5.8: a comfortable hit area around the checkbox and its label. */
+  padding: 5px 4px;
+  min-height: 24px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.facet-value:hover {
+  background-color: #f2f2f2;
+}
+
+.facet-value input {
+  margin-right: .5em;
+}
+
+#results {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#results .item.record {
+  border-bottom: 1px solid #ccc;
+  padding: 12px 0;
+  margin-bottom: 0;
+}
+
+#results .item.record:last-child {
+  border-bottom: 0;
+}
+
+#results mark {
+  background-color: #ffe9a8;
+  color: #000000;              /* 19.9:1 -- the default UA yellow is too pale */
+}
+
+#results-status {
+  font-weight: bold;
+}

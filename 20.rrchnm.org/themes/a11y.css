@@ -1,0 +1,892 @@
+/* WCAG 2.2 AA -- 20.rrchnm.org static archive
+ *
+ * Loaded LAST in every <head>, immediately after the theme stylesheet
+ * (themes/Berlin/css/style.css?v=3.0.1.css on 726 pages,
+ *  themes/neatscape/css/style.css?v=3.0.1.css on 31). There are no <style>
+ * blocks and no inline style="...url()" anywhere in the mirror, so the theme
+ * link is the last cascade contributor and this file wins on equal specificity.
+ *
+ * Two themes share one file, scoped by a marker class retrofit.py adds to
+ * <body>: .theme-berlin / .theme-neatscape. The obvious alternatives were both
+ * unsafe -- neatscape's html class="no-js" is rewritten by Modernizr at
+ * runtime, and div[role=main] is precisely the selector this retrofit exists
+ * to protect (see the NEATSCAPE section).
+ *
+ * SURFACES. Ratios in comments name their background explicitly, because
+ * neither theme has just one:
+ *   Berlin    #ffffff  #content                     (style.css:890)
+ *             #fafafa  #primary-nav a, search field (style.css:792, :614)
+ *             #eeeeee  #featured-*                  (style.css:1020)
+ *             #d7d7d7  <footer> -- body carries pattern2.png, a grey noise
+ *                      tile measured at luminance 215-229 (style.css:381).
+ *                      Every footer ratio below uses the DARKEST pixel.
+ *   neatscape #f9f9f9  html                         (style.css:495)
+ *             #4b4b4b  header[role=banner]          (style.css:939)
+ */
+
+/* ==========================================================================
+   Utilities
+
+   Neither theme ships a visually-hidden/sr-only class, so the skip link, the
+   search label and the table headers below have nothing to lean on.
+   ========================================================================== */
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ==========================================================================
+   COMMON -- 2.4.7 Focus Visible / 1.4.11 Non-text Contrast
+
+   Both themes ship normalize's `a:focus { outline: thin dotted }` (Berlin :78,
+   neatscape :101) immediately followed by `a:active, a:hover { outline: 0 }`
+   (Berlin :85-88, neatscape :109-112) -- so the ring vanishes the moment a
+   focused link is also hovered. neatscape adds `outline: none` on the search
+   submit (:1009-1013) and colour-only focus on links (:531-533).
+
+   The repo's ring, measured against every surface in this archive:
+     #ffe000 / #1c1c1c                        12.91:1
+     #1c1c1c on #ffffff 17.04  #fafafa 16.33  #eeeeee 14.69
+             on #d7d7d7 11.84  #f9f9f9 16.19
+   One exception worth stating: on neatscape's #4b4b4b header the outer #1c1c1c
+   ring is only 1.95:1 -- but the inner #ffe000 is 6.61:1 there, and 4.55:1 on
+   the #369 search button, so the composite indicator clears 3:1 against every
+   background in the archive.
+
+   :focus-visible, so mouse users see no change from today.
+   ========================================================================== */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #ffe000;
+  outline-offset: 0;
+  box-shadow: 0 0 0 6px #1c1c1c;
+  position: relative;
+  z-index: 2;
+}
+
+/* Undo normalize's hover-kills-focus rule in both themes. */
+a:hover:focus-visible,
+a:active:focus-visible {
+  outline: 3px solid #ffe000;
+}
+
+/* #content / [role=main] carry tabindex="-1" purely as skip-link targets;
+   focusing them programmatically must not ring the whole page. */
+main#content:focus,
+main#content:focus-visible,
+[role="main"]:focus,
+[role="main"]:focus-visible {
+  outline: 0;
+  box-shadow: none;
+}
+
+/* ==========================================================================
+   COMMON -- 2.4.1 Bypass Blocks
+
+   No page in the archive had a skip link. retrofit.py inserts one as the first
+   child of <body>, before the archive banner.
+   ========================================================================== */
+
+#skipnav {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 10000;
+}
+
+#skipnav:focus {
+  left: 0;
+  width: auto;
+  height: auto;
+  padding: .5em 1em;
+  background-color: #ffffff;      /* 17.04:1 against the #1c1c1c text below */
+  color: #1c1c1c;
+  text-decoration: underline;
+  outline: 3px solid #ffe000;
+  box-shadow: 0 0 0 6px #1c1c1c;
+}
+
+/* ==========================================================================
+   COMMON -- 1.4.10 Reflow
+
+   Berlin's #content is `overflow: hidden` (style.css:887-897, there for the
+   float clearfix) and 300px wide at <=767px (:910-914). Long unbroken tokens
+   are therefore CLIPPED, not scrolled -- the text is simply gone, which is
+   worse than a scrollbar and invisible to axe. Live case: items/browse.html
+   carries "http://sparkmedia.org/projects/soul-of-a-place-the-american-guide-
+   game/" (~420px at 12px Helvetica) inside .browse .item-meta > div
+   { width: 300px } (:1384-1388). Same shape in .element-text Project URL
+   values and .citation-url on item pages.
+   ========================================================================== */
+
+#content,
+[role="main"] {
+  overflow-wrap: break-word;
+}
+
+/* Omeka's square_thumbnails are square, so this is a no-op on real content --
+   it is a guard for any non-square derivative, which #item-images
+   (style.css:1142-1146, overflow:hidden) would otherwise clip invisibly. */
+#item-images .item-file a img,
+#content .element-text img {
+  max-width: 100%;
+}
+
+/* ==========================================================================
+   COMMON -- 2.5.8 Target Size (Minimum)
+
+   Only the genuine failures are here. Measured passes deliberately left alone:
+   .pagination a is 36px tall (style.css:870-875); .item-pagination a floats to
+   opposite edges (:1186-1195); #sort-links-list li a sits 10px apart with wide
+   boxes; .items-nav li has 1.5em/20px padding (:828-831); #exhibit-page-
+   navigation uses 33% floated columns (exhibits.css:17-34). All clear the
+   24px-circle spacing exception without help.
+   ========================================================================== */
+
+/* The header advanced-search panel stacks 3 radios + 3 checkboxes with <br>
+   at line-height 18px -- UA controls are 13x13, so the 24px circles overlap
+   vertically (18 < 24). 726 pages. */
+#advanced-form label {
+  display: inline-block;
+  min-height: 24px;
+  line-height: 24px;
+}
+
+#advanced-form input[type="radio"],
+#advanced-form input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 4px 5px 4px 0;
+  vertical-align: middle;
+}
+
+#advanced-form fieldset > label,
+#advanced-form fieldset > input[type="checkbox"] {
+  margin-bottom: 6px;
+}
+
+/* exhibits/tags.html -- the archive's only tag cloud (items/tags.html reads
+   "No tags are available"). :1227-1230 makes these display:inline with
+   margin-right:3px at 120%-140% font size; below 768px they wrap and the
+   vertical spacing is just the 18px line-height. */
+.hTagcloud li {
+  display: inline-block;
+  margin: 0 8px 6px 0;
+}
+
+.hTagcloud li a {
+  display: inline-block;
+  min-height: 24px;
+  padding: 2px 4px;
+  line-height: 20px;
+}
+
+/* footer .navigation goes full-width and wraps below 768px (:2036-2041); the
+   inline links then sit 18px apart vertically. 726 pages. */
+footer .navigation li {
+  display: inline-block;
+}
+
+footer .navigation a {
+  display: inline-block;
+  min-height: 24px;
+  line-height: 24px;
+}
+
+/* #exhibit-pages sub-page lists (:1798-1807) get no padding, so nested
+   entries are 18px apart. */
+#exhibit-pages ul li > ul li a {
+  display: inline-block;
+  min-height: 24px;
+  line-height: 24px;
+}
+
+/* The advanced-search row's remove button is exactly 18x18 (:1442-1448) with
+   only collapsed whitespace between it and the terms input. */
+.remove_search {
+  width: 24px !important;
+  height: 24px !important;
+  margin-left: 6px;
+}
+
+.remove_search:after {
+  line-height: 24px !important;
+}
+
+/* A link that is the entire content of a list item is a standalone target, not
+   a link inside a sentence, so 2.5.8's inline exception does not cover it. At
+   the theme's 18px line-height these came out 14px tall with a 21.8px spacing
+   ring. Affects the resource lists on about.html and about-this-site.html;
+   scoped to the content region so prose links are untouched. */
+#content li > a:only-child,
+[role="main"] li > a:only-child {
+  display: inline-block;
+  min-height: 24px;
+  line-height: 24px;
+}
+
+/* "View all N items" at the foot of a collection: a standalone navigation
+   link with only 18px of clearance from the record above it. */
+.view-items-link {
+  display: inline-block;
+  min-height: 24px;
+  line-height: 24px;
+  padding: 4px 0;
+}
+
+/* Free hardening on buttons that clear the exception only just, plus the
+   submit button retrofit.py adds to the pagination form. */
+.add_search,
+#submit_search_advanced,
+.pagination .pagination-go {
+  min-height: 24px;
+  padding: 3px 10px;
+  box-sizing: content-box;
+}
+
+.pagination .pagination-go {
+  vertical-align: middle;
+  margin-left: 6px;
+}
+
+/* ==========================================================================
+   COMMON -- 1.3.1 heading levels
+
+   retrofit.py promotes headings so no page skips a level. These rules keep the
+   pages looking exactly as they did.
+   ========================================================================== */
+
+/* <h4> -> <h2>: the exhibit title inside <nav id="exhibit-pages">, which made
+   every exhibit page run h1 -> h4 (56 pages). Berlin styled it at :1774-1778,
+   neatscape at :601-614. Restate both. */
+.theme-berlin #exhibit-pages h2 {
+  font-family: 'Gill Sans', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 18px;
+}
+
+.theme-neatscape #exhibit-pages h2 {
+  font-size: 1em;
+  line-height: 1.66667em;
+  font-weight: bold;
+  margin: 3.33333em 0 0;
+  color: inherit;
+}
+
+/* <h3> -> <h2> on Berlin item pages: "Files", "Citation" and "Collection" were
+   siblings of the h2 element-sets but one level deeper. They now match the
+   "Dublin Core" h2 at 24px, which is the correct relationship; nothing to
+   restate. The metadata field headings inside .element stay h3.
+ *
+ * <h3> -> <h2> on browse listings and about.html: item titles were h3 directly
+ * under the page h1 (an h1 -> h3 skip, 113 pages). Keep them at the h3 size
+ * they had so the listings look unchanged. */
+.theme-berlin .browse .item.hentry > h2,
+.theme-berlin #primary > .item.record > h2,
+.theme-berlin #collection-items .item.hentry > h2 {
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 0.75em;
+}
+
+/* index.html had no h1 at all -- it opened with <p><h2>Celebrating 20 years of
+   Digital History @CHNM</h2></p> (:142), invalid nesting and a missing level.
+   It is an <h1> now; #home #content h2 (:1011-1014) already applied
+   uppercase/letter-spacing and the h1 rule (:408-413) does the same, so the
+   only visible change would be 24px -> 30px. Pin it back. */
+.theme-berlin #home #primary > h1 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/* ==========================================================================
+   BERLIN -- 1.4.3 Contrast (Minimum)
+   ========================================================================== */
+
+/* style.css:504-506 `a:hover, a:active { color: #ff8000 }` was 2.52:1 on
+   #ffffff, 2.41:1 on #fafafa, 2.24:1 on #eeeeee -- the worst failure in the
+   archive, and it is the hover/active state of every link on 726 pages.
+   #a34a00 is the same orange darkened until it passes: 5.94 / 5.69 / 5.12 /
+   4.13:1 on the four Berlin surfaces. */
+.theme-berlin a:hover,
+.theme-berlin a:active,
+.theme-berlin a:focus {
+  color: #a34a00;
+}
+
+/* style.css:500-502 `a:link, a:visited { color: #369 }` is 6.00:1 on #ffffff
+   and passes everywhere EXCEPT the footer, which sits on pattern2.png:
+   #369 on #d7d7d7 = 4.17:1, below the 4.5:1 floor for 12px text. Darkening
+   sitewide rather than only in the footer keeps one link colour:
+   #25588a = 7.39:1 (#fff) / 7.08:1 (#fafafa) / 6.37:1 (#eee) / 5.13:1
+   (pattern2 darkest). Visually near-indistinguishable from #369. */
+.theme-berlin a:link,
+.theme-berlin a:visited {
+  color: #25588a;
+}
+
+/* The current-page indicator in both navs. style.css:795-798 and :2020-2023
+   both painted #ff8000 on #fff (2.52:1) -- and this is the ONLY thing marking
+   the current page, so it is a 1.4.1 concern as well as a contrast one. */
+.theme-berlin #primary-nav a:hover,
+.theme-berlin #primary-nav li.active a,
+.theme-berlin #mobile-nav li.current a {
+  color: #a34a00;                 /* 5.94:1 on the #fff these rules also set */
+}
+
+/* The submit button keeps its #369 fill: #fff on #369 is 6.00:1 (:628-637),
+   and #advanced-search:after likewise (:665-678). Both pass; restated only so
+   the a:link change above cannot leak into them. */
+.theme-berlin #search-container button,
+.theme-berlin #advanced-search,
+.theme-berlin #advanced-search:after {
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   BERLIN -- 1.4.11 Non-text Contrast
+
+   Form-control boundaries only. The decorative rules (#content's #ccc frame,
+   .pagination li's #e7e7e7, .browse .item's #eee, th/td) are NOT 1.4.11
+   failures -- they identify no control and carry no state -- and are left as
+   the theme drew them.
+   ========================================================================== */
+
+.theme-berlin input[type="text"],
+.theme-berlin input[type="password"],
+.theme-berlin textarea,
+.theme-berlin #search-container input[type="text"],
+.theme-berlin .page-input input[type="text"] {
+  border: 1px solid #767676;      /* was #ccc: 1.61:1 on #fff, 1.55:1 on #fafafa
+                                     (:392-395, :612-619, :877-883).
+                                     #767676 = 4.54:1 / 4.35:1 */
+}
+
+.theme-berlin #search-container button {
+  border: 1px solid #767676;
+}
+
+/* style.css:656 put a 1px #005177 rule between the search button and the
+   advanced-search button -- 1.43:1 against the #369 both are filled with, so
+   the only thing separating two adjacent controls was invisible. */
+.theme-berlin #advanced-search {
+  border-left: 1px solid #ffffff; /* 6.00:1 on #369 */
+}
+
+/* ==========================================================================
+   BERLIN -- 2.1.1 Keyboard
+
+   Two independent failures, both in themes/Berlin/javascripts/globals.js.
+
+   (1) Omeka.dropDown() prepended `<a class="menu">Menu</a>` -- an anchor with
+       no href, so neither focusable nor Enter-operable -- and then hid
+       #mobile-nav .navigation. Below 768px #primary-nav is display:none
+       (:1954-1956), so that opener is the ONLY route to the site navigation.
+       726 pages. The patched globals.js emits a real <button>; these rules
+       keep it looking like the block-level anchor it replaces, because
+       #mobile-nav a (:2006-2019) no longer matches it.
+
+   (2) #primary-nav li ul is display:none, revealed only by
+       `#primary-nav li:hover > ul` (:799-814). Above 768px the two submenu
+       destinations -- "Brief History" (about.html) and "Project Timeline"
+       (neatline-time/timelines/show/1.html) -- were mouse-only. Adding
+       :focus-within to the same rule makes them tab-reachable.
+   ========================================================================== */
+
+.theme-berlin #mobile-nav > button.menu {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  padding: 10px;
+  border: 1px solid #767676;
+  border-width: 1px 1px 0 1px;
+  background: #fafafa;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.theme-berlin #mobile-nav > button.menu:hover {
+  background: #fff;
+}
+
+/* Mirror of style.css:802-814 with :focus-within added. Restated in full
+   rather than as a bare `:focus-within` selector, because the theme rule is a
+   selector list -- adding to it from here would not inherit its declarations. */
+@media screen and (min-width: 769px) {
+  .theme-berlin #primary-nav li:focus-within > ul,
+  .theme-berlin #primary-nav li ul li:focus-within > ul {
+    position: absolute;
+    display: block;
+    top: 3em;
+    margin-top: 1px;
+    z-index: 1000;
+    box-shadow: #767676 0 3px 5px;
+  }
+
+  .theme-berlin #primary-nav li:focus-within > ul li {
+    width: 160px;
+  }
+
+  .theme-berlin #primary-nav li ul li:focus-within > ul {
+    top: 0;
+    left: 160px;
+    border-left: 0;
+    margin: 0 0 0 -1px;
+  }
+}
+
+/* #advanced-search is a <button> now (was `<a href="#">`): reset the UA button
+   chrome so style.css:651-678 renders it exactly as before. */
+.theme-berlin button#advanced-search {
+  padding: 0;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   BERLIN -- the search widget's two glyphs
+
+   style.css:639 asks for font-family "FontAwesome", but this archive ships
+   Font Awesome 5, whose family is "Font Awesome 5 Free" and whose solid face
+   needs weight 900. The name never matched, so \f002 has rendered as a
+   missing-glyph box -- on the live site too, not just here (verified against
+   https://20.rrchnm.org/). The button's real text is pushed off-screen by
+   text-indent:-9999px, so a sighted user saw only the box; screen readers were
+   always fine, which is why axe never flagged it.
+   ========================================================================== */
+
+.theme-berlin #search-container button#submit_search:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;               /* fa-solid; \f002 is the magnifier */
+}
+
+/* #advanced-search draws a plain Unicode ellipsis, not an icon (style.css:665).
+   As an <a> it never matched `#search-container button:after`; promoting it to
+   a real <button> for 2.1.1 brought it inside that selector, which swapped its
+   ellipsis for the same missing glyph. Put it back. */
+.theme-berlin #search-container button#advanced-search:after {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  content: "\2026";
+}
+
+/* ==========================================================================
+   NEATSCAPE -- 1.4.3 Contrast (Minimum)
+
+   All rgba() values below are composited over #f9f9f9 (html, :495):
+     rgba(75,75,75,.75) -> #767676   rgba(75,75,75,.5) -> #a2a2a2
+     rgba(75,75,75,.1)  -> #e8e8e8
+   ========================================================================== */
+
+/* :528-530 a:visited #4095bf = 3.18:1. Purple is the conventional visited
+   affordance and buys the most headroom. */
+.theme-neatscape a:visited {
+  color: #5b3f8c;                 /* 7.87:1 */
+}
+
+/* :531-536 a:focus / a:hover #3986ac = 3.85:1. */
+.theme-neatscape a:focus,
+.theme-neatscape a:hover {
+  color: #245d78;                 /* 6.85:1 */
+}
+
+/* a (:520-527) #337799 = 4.70:1 -- passes, left as authored. */
+
+/* :618-620 h5, :634-637 h6, :875-879 .kicker, :884-887 .byline,
+   :755-761 figcaption -- all rgba(75,75,75,.75) = #767676 = 4.31:1 at 16-18px.
+   h3 (:588-591) uses the same token but is 24px (large text, 3:1 floor) so it
+   was already passing; darkening it too is harmless and keeps one token. */
+.theme-neatscape h3,
+.theme-neatscape h5,
+.theme-neatscape h6,
+.theme-neatscape .kicker,
+.theme-neatscape .byline,
+.theme-neatscape figcaption,
+.theme-neatscape del {
+  color: #6b6b6b;                 /* 5.06:1 */
+}
+
+/* Generated "middot" separators are text. :733-737 and :1108-1112 draw them at
+   rgba(75,75,75,.5) = 2.42:1; :1087-1091 at #bbb = 1.82:1. */
+.theme-neatscape nav ul li:not(:first-child):before,
+.theme-neatscape #sort-links ul li:not(:first-child):before,
+.theme-neatscape .pagination_list li + li:before,
+.theme-neatscape hr:before {
+  color: #6b6b6b;                 /* 5.06:1 */
+}
+
+/* header[role=banner] a:link is rgba(255,255,255,.8) = #dbdbdb on #4b4b4b =
+   6.30:1, and :hover #fff = 8.72:1. Both pass; not touched. */
+
+/* ==========================================================================
+   NEATSCAPE -- 1.4.11 Non-text Contrast
+   ========================================================================== */
+
+/* :717-723 border: 1px solid rgba(75,75,75,.1) = #e8e8e8 = 1.16:1. */
+.theme-neatscape form textarea,
+.theme-neatscape form input[type="text"] {
+  border: 1px solid #767676;      /* 4.31:1 on #f9f9f9 */
+}
+
+/* :984-989 gives the header search field `border: 0` and no background, so its
+   only boundary is whatever the UA paints as `field`. Pin both ends. */
+.theme-neatscape #search-container input[type="text"] {
+  background-color: #ffffff;
+  border: 1px solid #767676;      /* 4.54:1 on the white fill */
+}
+
+/* ==========================================================================
+   NEATSCAPE -- landmarks and the site-title heading
+
+   IMPORTANT, and the main divergence from thanksroy's retrofit.py: this theme
+   styles its landmarks through ATTRIBUTE selectors, so the roles are
+   load-bearing and retrofit.py must NOT strip them in favour of native
+   elements.
+     div[role=main]           :462-466 (clearfix), :1015-1017 (padding-bottom),
+                              :567-570 (h1:first-child), :1358-1361 (gutters)
+     header[role=banner]      :934-971, ~15 rules including the #4b4b4b fill
+     footer[role=contentinfo] :1218-1230, :1334-1355
+   The elements keep role="main" / role="banner" / role="contentinfo" and only
+   gain id/tabindex/aria-label. Nothing to restate here.
+
+   1.3.1: all 31 neatscape pages carried TWO <h1> -- <h1 id="site-title"> in
+   the header plus the real page title. retrofit.py demotes the header one to
+   <p id="site-title">, which drops it out of `header[role=banner] h1`
+   (:949-952 and :1257-1262). Restate both.
+   ========================================================================== */
+
+.theme-neatscape header[role="banner"] p#site-title {
+  margin: 0;
+  text-align: center;
+  font-size: 1.77778em;
+  line-height: 1.875em;
+  font-weight: normal;
+}
+
+@media screen and (min-width: 690px) {
+  .theme-neatscape header[role="banner"] p#site-title {
+    float: left;
+    font-size: 1em;
+    line-height: 1.66667em;
+    margin: 0;
+  }
+}
+
+/* ==========================================================================
+   RRCHNM archive notice banner
+
+   STATIC, not sticky -- deliberately. Neither theme has any position:sticky or
+   position:fixed element today, so a static banner carries zero 2.4.11 (Focus
+   Not Obscured) exposure. A sticky one would have to out-stack #advanced-form's
+   z-index:1001 (style.css:684) to avoid being painted over, which makes it more
+   likely, not less, to sit on top of a focused control -- exactly the
+   BANNER-FOCUS-OBSCURED failure logged in eagleeyecitizen/AGENTS.md.
+
+   If sticky is ever wanted, ship these IN THE SAME COMMIT:
+       html { scroll-padding-top: 56px; }
+       @media (max-width: 640px) { html { scroll-padding-top: 96px; } }
+       .notice { position: sticky; top: 0; z-index: 1002; }
+
+   Markup ported from the thanksroy archive, including its inline styles; only
+   the refinements that cannot be expressed inline live here.
+   ========================================================================== */
+
+.notice a {
+  color: #25588a;                 /* 6.96:1 on the #f8f8f8 the banner sets */
+  text-decoration: underline;
+}
+
+.notice a:hover,
+.notice a:focus {
+  color: #a34a00;                 /* 5.59:1 on #f8f8f8 */
+}
+
+/* The logo link must not carry the text underline, and must not shrink. The
+   adjacent text link to the same destination keeps its underline, so nothing
+   is left conveying the link by colour alone. */
+.notice-logo {
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.notice img {
+  width: auto;
+  max-width: none;
+}
+
+@media (max-width: 640px) {
+  .notice {
+    align-items: center !important;
+    padding: 10px 14px !important;
+    line-height: 1.45 !important;
+  }
+
+  .notice img {
+    height: 26px !important;
+    width: auto !important;
+    margin-right: 12px !important;
+  }
+}
+
+/* ==========================================================================
+   Footer -- GMU Department of History and Art History logo replacing the
+   "Proudly powered by Omeka" credit (cf. commit 83180e5d9b, which did the same
+   with the GMU mark across 8,325 occupyarchive pages).
+
+   Source art is 900x251; displayed at 300x84 (same aspect), which is why the
+   <img> carries those dimensions rather than the intrinsic ones.
+   ========================================================================== */
+
+footer .histarthist-logo {
+  margin: 10px 0 0;
+  line-height: 0;
+}
+
+footer .histarthist-logo a {
+  display: inline-block;
+  border-bottom: 0;
+  text-decoration: none;
+}
+
+footer .histarthist-logo img {
+  width: 300px;
+  height: 84px;
+  max-width: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  footer .histarthist-logo img {
+    width: 220px;
+    height: 61px;
+  }
+}
+
+/* Berlin floats its footer credit right (style.css:1704-1723 region); the
+   logo is taller than the text it replaces, so let the row breathe. */
+.theme-berlin #footer-content .histarthist-logo {
+  clear: both;
+  padding-top: 6px;
+}
+
+/* ==========================================================================
+   Pagefind UI -- search.html
+
+   The header search box drives the results, so Pagefind's own input row is
+   visually hidden. Hide ONLY the input and the clear button:
+   .pagefind-ui__form wraps the results, so hiding the form collapses them.
+   ========================================================================== */
+
+#search {
+  --pagefind-ui-primary: #25588a;   /* 7.39:1 -- matches the theme link colour */
+  --pagefind-ui-text: #333333;      /* 12.63:1 */
+  --pagefind-ui-font: Helvetica, Arial, sans-serif;
+  --pagefind-ui-scale: 0.9;
+  max-width: 48em;
+}
+
+#search .pagefind-ui__search-input,
+#search .pagefind-ui__search-clear {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+#search-page {
+  padding: 0 0 24px;
+}
+
+#search-empty,
+#search-intro {
+  color: #595959;                  /* 7.00:1 */
+  margin: 1em 0 2em;
+}
+
+#search .pagefind-ui__result-link {
+  color: #25588a;
+}
+
+#search .pagefind-ui__result-link:hover {
+  color: #a34a00;
+}
+
+#search .pagefind-ui__button {
+  background-color: #25588a;       /* 7.39:1 against the #fff below */
+  border-color: #25588a;
+  color: #ffffff;
+}
+
+#search .pagefind-ui__button:hover,
+#search .pagefind-ui__button:focus {
+  background-color: #17395a;
+  border-color: #17395a;
+}
+
+/* ==========================================================================
+   items/search.html -- the faceted "Search Items" page
+
+   Replaces Omeka's advanced-search form, which was fully labelled and did
+   nothing: its action submitted a query string the static server ignores, so
+   it always returned unfiltered page 1.
+   ========================================================================== */
+
+#facets {
+  margin: 0 0 24px;
+}
+
+#facet-groups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  /* Without this the two facet boxes stretch to each other's height, leaving
+     the shorter one mostly empty. */
+  align-items: flex-start;
+}
+
+.facet-group {
+  border: 1px solid #767676;
+  padding: 12px 16px;
+  margin: 0;
+  min-width: 14em;
+  flex: 1 1 14em;
+  box-sizing: border-box;
+}
+
+.facet-group legend {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: bold;
+  padding: 0 6px;
+}
+
+.facet-value {
+  display: block;
+  /* 2.5.8: a comfortable hit area around the checkbox and its label. */
+  padding: 5px 4px;
+  min-height: 24px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.facet-value:hover {
+  background-color: #f2f2f2;
+}
+
+.facet-value input {
+  margin-right: .5em;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+#results {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#results .item.record {
+  border-bottom: 1px solid #ccc;
+  padding: 12px 0;
+  margin-bottom: 0;
+}
+
+#results .item.record:last-child {
+  border-bottom: 0;
+}
+
+#results mark {
+  background-color: #ffe9a8;
+  color: #000000;                  /* 19.9:1 -- the default UA yellow is paler */
+}
+
+#results-status {
+  font-weight: bold;
+}
+
+/* ==========================================================================
+   Notes standing in for media that no longer exists anywhere -- the nine
+   drive.google.com hot-links on exhibit pages, and the KnightLab timeline
+   whose source spreadsheet returns 410 Gone.
+   ========================================================================== */
+
+.missing-image,
+.missing-embed {
+  color: #595959;                  /* 7.00:1 */
+  border-left: 3px solid #ccc;
+  padding-left: 12px;
+  margin: 12px 0 24px;
+}
+
+/* ==========================================================================
+   Static replacement for the Neatline "Projects" timeline (58 events).
+   ========================================================================== */
+
+#static-timeline {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#static-timeline > li {
+  border-bottom: 1px solid #ccc;
+  padding: 12px 0;
+  overflow: hidden;
+}
+
+#static-timeline > li:last-child {
+  border-bottom: 0;
+}
+
+#static-timeline .timeline-date {
+  display: block;
+  color: #595959;                  /* 7.00:1 */
+  font-size: 11px;
+  line-height: 18px;
+}
+
+#static-timeline .timeline-thumb {
+  float: left;
+  margin: 0 12px 6px 0;
+}
+
+#static-timeline .timeline-thumb img {
+  display: block;
+  max-width: 96px;
+  height: auto;
+}
+
+#static-timeline h2 {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 4px;
+}

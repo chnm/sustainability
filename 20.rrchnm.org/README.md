@@ -16,7 +16,7 @@ python3 tools/retrofit.py         # the 693 crawled pages, in place
 python3 tools/make_search_pages.py # search.html, items/search.html, 63 stubs
 npx -y pagefind@1.5.2             # rewrites pagefind/ -- always LAST
 
-python3 -m http.server 8765 &     # then verify
+node tools/serve.js . 8765 &      # then verify (Range support: PMTiles needs it)
 node tools/a11ycheck/run.js       # axe-core: 30 pages, 0 A/AA violations
 node tools/a11ycheck/verify.js    # map, search, keyboard, reflow, network
 ```
@@ -34,6 +34,7 @@ absolute origin into the result thumbnails.
 | Static search | `pagefind/` (committed — the deploy only copies files), `pagefind.yml`, `search.html`, `items/search.html` |
 | Accessibility | `themes/a11y.css`, plus markup fixes in `retrofit.py` and the keyboard fixes in `themes/Berlin/javascripts/globals.js?v=3.0.1` |
 | Map data | `geolocation/map.kml` — all 55 markers, merged from the origin's two paginated pages |
+| Basemap | `basemap/*.pmtiles` + `protomaps-leaflet` — self-hosted OSM vector tiles, replacing CARTO |
 | Timeline data | `data/neatline-timeline-1.json` — 58 events, rendered statically |
 | Media | referenced as `/files/…`; the objects themselves live in the bucket |
 
@@ -55,14 +56,32 @@ The bucket and the web server's `/files/` redirect are live on
 as an accessibility regression. `files/theme_uploads/` is committed and served
 from the repo.
 
-### Known external dependency
+### Basemap
 
-The Leaflet basemap tiles come from CARTO
-(`{s}.basemaps.cartocdn.com/rastertiles/voyager/…`) — they were never served by
-20.rrchnm.org, so there was nothing to harvest. If CARTO ever changes that
-endpoint the maps go grey; the fallback is a bounded self-hosted tile cache
-(≈3,700 tiles / ≈26 MB), which would need `maxZoom` pinned in the Leaflet
-options.
+The 60 pages that draw a map (the 3 browse-map pages, 55 `items/show/`, 2
+`exhibits/show/pwd/item/`) used to fetch raster tiles from CARTO. CARTO's
+basemaps are *"available exclusively with an Enterprise license"*, so the
+archive was leaning on a service it probably was not licensed for — and on an
+endpoint that has already moved once.
+
+They are now drawn from `basemap/protomaps-basemap-z0-5.pmtiles`: a single
+14 MB file of OpenStreetMap-derived vector tiles (ODbL), read straight out of
+static storage with HTTP range requests by `protomaps-leaflet`. No API key, no
+account, no vendor. See `basemap/PROVENANCE.txt` for exactly how it was built
+and how to rebuild it.
+
+It carries zoom 0–5, which is every zoom the archive opens at — the browse map
+at z4, the per-item maps at z5 (50 of 57) and z4 (4). Above that the renderer
+over-zooms the z5 geometry, so `map.js` caps the zoom controls at 9 rather than
+letting people zoom into an empty rectangle; the three items authored at z15–17
+clamp to it. Buying more detail means a bigger file: world z0–6 is 43 MB, z0–7
+is 178 MB. A `--region` extract would put detail only around the 37 marker
+locations, but `pmtiles extract --region` crashes with `concurrent map writes`
+in go-pmtiles 1.30.3 and 1.31.2, so that is blocked upstream for now.
+
+**Local preview needs `tools/serve.js`, not `python3 -m http.server`** — the
+latter ignores `Range` and returns the whole 14 MB archive for every tile
+request, so the map silently fails to draw.
 
 ### Not fixable from markup
 

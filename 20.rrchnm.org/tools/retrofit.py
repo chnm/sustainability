@@ -241,6 +241,39 @@ def selfhost_fonts(s, prefix):
     return s
 
 
+MAP_JS = re.compile(
+    r'(<script type="text/javascript" src="([^"]*)plugins/Geolocation/views/'
+    r'shared/javascripts/map\.js%3Fv=3\.2\.2"></script>)')
+
+PROVIDERS_JS = re.compile(
+    r'<script type="text/javascript" src="[^"]*leaflet-providers\.js'
+    r'%3Fv=3\.2\.2"></script>\s*')
+
+
+def use_protomaps_basemap(s):
+    """Load the self-hosted vector renderer on the pages that build a map.
+
+    map.js now draws its basemap with protomapsL instead of CARTO (see the
+    comment there), so leaflet-providers.js -- 29 KB whose only purpose was
+    resolving CartoDB.Voyager to a tile URL -- is dead weight on all 695 pages
+    that carried it, and the renderer is only needed on the 60 that actually
+    construct a map.
+    """
+    s, n = PROVIDERS_JS.subn("", s)
+    if n:
+        bump("leaflet_providers_dropped", n)
+    if "new OmekaMap" not in s or "protomaps-leaflet.js" in s:
+        return s
+    m = MAP_JS.search(s)
+    if not m:
+        return s
+    tag = (f'\n<script type="text/javascript" src="{m.group(2)}plugins/'
+           f'Geolocation/views/shared/javascripts/protomaps-leaflet.js">'
+           f'</script>')
+    bump("protomaps_renderer")
+    return s[:m.end()] + tag + s[m.end():]
+
+
 def drop_feed_links(s):
     """The RSS/Atom <link rel="alternate"> point at the retiring origin."""
     pat = re.compile(r'<link rel="alternate" type="application/(?:rss\+xml|'
@@ -1019,6 +1052,7 @@ def process(s, rel):
     s = drop_feed_links(s)
     s = drop_ie_conditionals(s)
     s = selfhost_jquery(s, prefix)
+    s = use_protomaps_basemap(s)
     s = selfhost_fonts(s, prefix)
     s = add_a11y_css(s, prefix)
 

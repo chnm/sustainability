@@ -3,7 +3,7 @@
  * Real headless Chromium, not jsdom: jsdom cannot compute colour contrast
  * (1.4.3) or target size (2.5.8), and cannot run Pagefind's WebAssembly index.
  *
- *   cd 20.rrchnm.org && python3 -m http.server 8765 &
+ *   cd 20.rrchnm.org && node tools/serve.js . 8765 &
  *   node tools/a11ycheck/run.js [http://localhost:8765]
  *
  * Exits non-zero if any WCAG 2.0/2.1/2.2 A or AA violation is found.

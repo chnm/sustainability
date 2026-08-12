@@ -2,8 +2,12 @@
  * decide: does the map actually draw its markers, does search return sensible
  * results, can a keyboard reach the navigation, does the page box paginate.
  *
- *   cd 20.rrchnm.org && python3 -m http.server 8765 &
+ *   cd 20.rrchnm.org && node tools/serve.js . 8765 &
  *   node tools/a11ycheck/verify.js
+ *
+ * Use tools/serve.js, not `python3 -m http.server`: the basemap is a PMTiles
+ * archive read with HTTP Range requests, and http.server ignores Range and
+ * returns the whole 14 MB file, so the map silently fails to draw.
  *
  * Exits non-zero on the first failed expectation. Counts are pinned to this
  * archive's contents (55 geolocated items, 145 Person records, ...), so a
@@ -34,8 +38,24 @@ function check(name, ok, detail) {
   await p.waitForTimeout(2500);
   const markers = await p.locator('#map_browse .leaflet-marker-icon').count();
   check('map: 55 markers rendered', markers === 55, `${markers} markers`);
-  const tiles = await p.locator('#map_browse img.leaflet-tile').count();
-  check('map: basemap tiles loaded', tiles > 0, `${tiles} tiles`);
+  // The basemap is self-hosted Protomaps vector tiles rendered to <canvas>,
+  // not raster <img> tiles. Count distinct pixel values rather than elements:
+  // a canvas that loaded but painted nothing is exactly the failure mode of
+  // omitting the `flavor` option, and it is otherwise silent.
+  const painted = await p.evaluate(() => {
+    let best = 0;
+    for (const cv of document.querySelectorAll('#map_browse canvas')) {
+      const d = cv.getContext('2d').getImageData(0, 0, cv.width, cv.height).data;
+      const seen = new Set();
+      for (let i = 0; i < d.length; i += 400) {
+        seen.add(`${d[i]},${d[i + 1]},${d[i + 2]},${d[i + 3]}`);
+      }
+      best = Math.max(best, seen.size);
+    }
+    return best;
+  });
+  check('map: basemap painted (self-hosted vector tiles)', painted > 3,
+        `${painted} distinct colours`);
   const links = await p.locator('#map-links a').count();
   check('map: "Find An Item" list populated', links >= 55, `${links} links`);
   // Markers overlap at zoom 4, so a real pointer click can be intercepted by
@@ -183,7 +203,7 @@ function check(name, ok, detail) {
     await p.goto(BASE + u, { waitUntil: 'networkidle' });
   }
   const external = requests.filter((u) => !u.startsWith(BASE));
-  const banned = external.filter((u) => /googleapis|google-analytics|googletagmanager|knightlab|simile-widgets|drive\.google/.test(u));
+  const banned = external.filter((u) => /googleapis|google-analytics|googletagmanager|knightlab|simile-widgets|drive\.google|cartocdn/.test(u));
   check('network: no CDN/analytics/dead-embed requests', banned.length === 0,
         banned.slice(0, 3).join(' '));
   const matomo = requests.filter((u) => /stats\.rrchnm\.org/.test(u));

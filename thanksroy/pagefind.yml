@@ -1,0 +1,18 @@
+# Pagefind static-search configuration for the thanksroy.org archive.
+#
+# The static site is served from the repository root, so `site` is ".".
+# Pagefind only indexes pages that carry a `data-pagefind-body` attribute
+# (added by tools/retrofit.py to `<main id="content">` on the 169 canonical
+# pages: 162 item pages, 5 simple pages, 2 collection pages). That keeps the
+# shared header/nav/footer and the wget artifacts out of the index -- the 172
+# `items/browse?...` captures, the 17 `items?page=N.html` duplicates,
+# `items.html`, `items/tags.html` and the `items/search*` redirect stubs are
+# all pagination/facet views of content that is already indexed elsewhere.
+#
+# The homepage's #featured-item and #recent-items blocks carry
+# `data-pagefind-ignore`: the first is randomized at runtime, and both merely
+# repeat text that the item pages themselves own.
+#
+# Rebuild the index after content changes:
+#     npx -y pagefind@1.5.2
+site: "."

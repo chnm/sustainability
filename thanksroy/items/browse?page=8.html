@@ -6,15 +6,14 @@
                 <meta name="description" content="Remembering Roy Rosenzweig, 1950-2007" />
             <title>Browse Items &middot; Thanks, Roy</title>
 
-    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://thanksroy.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://thanksroy.org/items/browse?output=atom" />
-    <!-- Plugin Stuff -->
+<!-- Plugin Stuff -->
 
     
 
     <!-- Stylesheets -->
     <link href="../application/views/scripts/css/iconfonts.css%3Fv=2.8.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../themes/default/css/style.css%3Fv=2.8.css" media="all" rel="stylesheet" type="text/css" >
-<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic" media="all" rel="stylesheet" type="text/css" >
+<link href="../themes/default/css/pt-serif.css" media="all" rel="stylesheet" type="text/css" >
         <style>
         body {
             background-color: #FFFFFF;
@@ -61,6 +60,7 @@
             }
         }
     </style>
+<link href="../themes/default/css/a11y.css" media="all" rel="stylesheet" type="text/css" >
     <!-- JavaScripts -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript">
@@ -77,23 +77,28 @@
     jQuery.noConflict();    //-->
 </script>
 <script type="text/javascript" src="../themes/default/javascripts/vendor/modernizr.js%3Fv=2.8"></script>
-<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="/application/views/scripts/javascripts/vendor/selectivizr.js?v=2.8"></script><![endif]-->
 <script type="text/javascript" src="../application/views/scripts/javascripts/vendor/respond.js%3Fv=2.8"></script>
 <script type="text/javascript" src="../application/views/scripts/javascripts/vendor/jquery-accessibleMegaMenu.js%3Fv=2.8"></script>
 <script type="text/javascript" src="../application/views/scripts/javascripts/globals.js%3Fv=2.8"></script>
 <script type="text/javascript" src="../themes/default/javascripts/default.js%3Fv=2.8"></script></head>
 <body class="items browse">
-    <a href="browse%3Fpage=8.html#content" id="skipnav">Skip to main content</a>
+    <a href="#content" id="skipnav">Skip to main content</a>
+    <aside class="notice" aria-label="Archive notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a class="notice-logo" href="https://rrchnm.org" target="_blank" rel="noopener"><img src="/themes/default/images/rrchnm-mark.png" width="101" height="100" alt="RRCHNM Logo" style="height: 30px; width: auto; margin-right: 15px;"/></a>
+    <div>
+    This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig Center for History and New Media</a>.
+    </div>
+</aside>
     
-        <header role="banner">
+        <header>
                         <div id="site-title"><a href="../index.html" ><img src="../files/theme_uploads/61c567b663c845725429ca6c528dc5a2.jpg" alt="Thanks, Roy" /></a>
 </div>
         </header>
 
         <div id="wrap">
-            <div class="menu-button button">Menu</div>
-            <nav id="primary-nav" role="navigation">
-                <ul class="navigation">
+            <button type="button" class="menu-button button" aria-expanded="false" aria-controls="primary-nav-list">Menu</button>
+            <nav id="primary-nav" aria-label="Main">
+                <ul class="navigation" id="primary-nav-list">
     <li>
         <a href="../about.html">About Roy</a>
     </li>
@@ -110,22 +115,17 @@
         <a href="../howtohelp.html">How to Help</a>
     </li>
 </ul>                <div id="search-container" role="search">
-                                        <form id="search-form" name="search-form" action="https://thanksroy.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search">        <div id="advanced-form">
-        <fieldset id="query-types">
-            <legend>Search using this query type:</legend>
-            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
-<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
-<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
-                <p><a href="search%3Fpage=8.html">Advanced Search (Items only)</a></p>
+                                        <form id="search-form" name="search-form" action="/search.html" method="get">    <label for="query" class="visually-hidden">Search this site</label><input type="text" name="query" id="query" value="" placeholder="Search">        <div id="advanced-form">
+        <p><a href="/items/search.html">Advanced Search (Items only)</a></p>
     </div>
         <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
                                     </div>
             </nav>
-            <div id="content" role="main" tabindex="-1">
+            <main id="content" tabindex="-1">
                 
 <h1>Browse Items (162 total)</h1>
 
-<nav class="items-nav navigation secondary-nav">
+<nav class="items-nav navigation secondary-nav" aria-label="Items">
     <ul class="navigation">
     <li class="active">
         <a href="browse.html">Browse All</a>
@@ -148,7 +148,7 @@
         
         <li class="page-input">
         <form action="browse.html" method="get" accept-charset="utf-8">
-        <input type="text" name="page" title="Current Page" value="8"> of 17        </form>
+        <input type="text" name="page" aria-label="Page number" value="8"> of 17 <button type="submit" class="button pagination-go">Go</button>        </form>
         </li>
 
                 <!-- Next page link -->
@@ -168,7 +168,7 @@
     <h2><a href="show/627.html" class="permalink">Robin, Roy and our dog Mutsey</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/627.html"><img src="https://thanksroy.org/files/square_thumbnails/bac71dd72b94b1db28934dfa415dfcaa.jpg" alt="http://thanksroy.org/Imgs/robin_roy_mutsey_259d604398.jpg" title="http://thanksroy.org/Imgs/robin_roy_mutsey_259d604398.jpg"></a>    </div>
+        <a href="show/627.html"><img src="../files/square_thumbnails/bac71dd72b94b1db28934dfa415dfcaa.jpg" alt="http://thanksroy.org/Imgs/robin_roy_mutsey_259d604398.jpg" title="http://thanksroy.org/Imgs/robin_roy_mutsey_259d604398.jpg"></a>    </div>
     
         <div class="item-description">
         Take notice of the dark shirt. It was most probably RED.    </div>
@@ -184,7 +184,7 @@
     <h2><a href="show/626.html" class="permalink">Roy in a Who Built America&quot; T-Shirt&quot;</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/626.html"><img src="https://thanksroy.org/files/square_thumbnails/d8b481878d60dfb9fa1d5d99125662d8.jpg" alt="http://thanksroy.org/Imgs/roywba2_e5368f9af4.jpg" title="http://thanksroy.org/Imgs/roywba2_e5368f9af4.jpg"></a>    </div>
+        <a href="show/626.html"><img src="../files/square_thumbnails/d8b481878d60dfb9fa1d5d99125662d8.jpg" alt="http://thanksroy.org/Imgs/roywba2_e5368f9af4.jpg" title="http://thanksroy.org/Imgs/roywba2_e5368f9af4.jpg"></a>    </div>
     
         <div class="item-description">
         This was taken in November 1995, when WBA II was one of the earliest projects at CHNM, in collaboration with ASHP.    </div>
@@ -200,7 +200,7 @@
     <h2><a href="show/625.html" class="permalink">Jackson Street Office</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/625.html"><img src="https://thanksroy.org/files/square_thumbnails/4a2e6458cdaede391fd15ed237b85502.jpg" alt="http://thanksroy.org/Imgs/study_7a83961f01.jpg" title="http://thanksroy.org/Imgs/study_7a83961f01.jpg"></a>    </div>
+        <a href="show/625.html"><img src="../files/square_thumbnails/4a2e6458cdaede391fd15ed237b85502.jpg" alt="http://thanksroy.org/Imgs/study_7a83961f01.jpg" title="http://thanksroy.org/Imgs/study_7a83961f01.jpg"></a>    </div>
     
         <div class="item-description">
         In Roy&#039;s office in their house on Jackson street. The site of many collaborations for many people    </div>
@@ -216,7 +216,7 @@
     <h2><a href="show/624.html" class="permalink">Roy receiving the Lyman Award</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/624.html"><img src="https://thanksroy.org/files/square_thumbnails/b8d39d58f805182c782354308e5dee61.jpg" alt="http://thanksroy.org/Imgs/roy1_lyman_crop_81c2bcc05a.jpg" title="http://thanksroy.org/Imgs/roy1_lyman_crop_81c2bcc05a.jpg"></a>    </div>
+        <a href="show/624.html"><img src="../files/square_thumbnails/b8d39d58f805182c782354308e5dee61.jpg" alt="http://thanksroy.org/Imgs/roy1_lyman_crop_81c2bcc05a.jpg" title="http://thanksroy.org/Imgs/roy1_lyman_crop_81c2bcc05a.jpg"></a>    </div>
     
     
         <div class="tags"><p><strong>Tags:</strong>
@@ -230,7 +230,7 @@
     <h2><a href="show/623.html" class="permalink">Roy at St. John&#039;s College at Cambridge University</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/623.html"><img src="https://thanksroy.org/files/square_thumbnails/46a9d94cd51c6fdad5ecba5ed2903fd0.jpg" alt="http://thanksroy.org/Imgs/roy1_crop_f8af00ea87.jpg" title="http://thanksroy.org/Imgs/roy1_crop_f8af00ea87.jpg"></a>    </div>
+        <a href="show/623.html"><img src="../files/square_thumbnails/46a9d94cd51c6fdad5ecba5ed2903fd0.jpg" alt="http://thanksroy.org/Imgs/roy1_crop_f8af00ea87.jpg" title="http://thanksroy.org/Imgs/roy1_crop_f8af00ea87.jpg"></a>    </div>
     
         <div class="item-description">
         Roy in school clothes at Cambridge, Pre-red shirt    </div>
@@ -246,7 +246,7 @@
     <h2><a href="show/622.html" class="permalink">Roy at St. John&#039;s College at Cambridge University</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/622.html"><img src="https://thanksroy.org/files/square_thumbnails/69113a39003e4a5a6b619de2f8f02ff5.jpg" alt="http://thanksroy.org/Imgs/roy1_crop_cb2b3bbf8e.jpg" title="http://thanksroy.org/Imgs/roy1_crop_cb2b3bbf8e.jpg"></a>    </div>
+        <a href="show/622.html"><img src="../files/square_thumbnails/69113a39003e4a5a6b619de2f8f02ff5.jpg" alt="http://thanksroy.org/Imgs/roy1_crop_cb2b3bbf8e.jpg" title="http://thanksroy.org/Imgs/roy1_crop_cb2b3bbf8e.jpg"></a>    </div>
     
         <div class="item-description">
         Roy in school clothes at Cambridge, Pre-red shirt    </div>
@@ -262,7 +262,7 @@
     <h2><a href="show/621.html" class="permalink">a sign that gave Roy satisfaction</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/621.html"><img src="https://thanksroy.org/files/square_thumbnails/a127b98f999caf44d06606093cac46f8.jpg" alt="http://thanksroy.org/Imgs/central-park-people-sign_9f90a043a9.jpg" title="http://thanksroy.org/Imgs/central-park-people-sign_9f90a043a9.jpg"></a>    </div>
+        <a href="show/621.html"><img src="../files/square_thumbnails/a127b98f999caf44d06606093cac46f8.jpg" alt="http://thanksroy.org/Imgs/central-park-people-sign_9f90a043a9.jpg" title="http://thanksroy.org/Imgs/central-park-people-sign_9f90a043a9.jpg"></a>    </div>
     
         <div class="item-description">
         From a demonstration that was not given a permit to use Central Park during the Republican Convention    </div>
@@ -278,7 +278,7 @@
     <h2><a href="show/620.html" class="permalink">How Roy Changed My Life, Part 3</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/620.html"><img src="https://thanksroy.org/files/square_thumbnails/937b469d9999d17c390c35fae4976396.jpg" alt="http://thanksroy.org/Imgs/roy-simon2002_8d1e4f18be.jpg" title="http://thanksroy.org/Imgs/roy-simon2002_8d1e4f18be.jpg"></a>    </div>
+        <a href="show/620.html"><img src="../files/square_thumbnails/937b469d9999d17c390c35fae4976396.jpg" alt="http://thanksroy.org/Imgs/roy-simon2002_8d1e4f18be.jpg" title="http://thanksroy.org/Imgs/roy-simon2002_8d1e4f18be.jpg"></a>    </div>
     
         <div class="item-description">
         Beginning in 2001, when he was thirteen, my son Simon spent time each summer at Roy and Deborah&#039;s home and worked at the Center for History and New Media. Roy was a great mentor, and Simon is a better person for having Roy as a role model.    </div>
@@ -294,7 +294,7 @@
     <h2><a href="show/619.html" class="permalink">How Roy Changed My Life, Part 2</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/619.html"><img src="https://thanksroy.org/files/square_thumbnails/a35ba881e5f641b4b344db6edb5beca9.jpg" alt="http://thanksroy.org/Imgs/rhr-whiteissue_085f7b743c.jpg" title="http://thanksroy.org/Imgs/rhr-whiteissue_085f7b743c.jpg"></a>    </div>
+        <a href="show/619.html"><img src="../files/square_thumbnails/a35ba881e5f641b4b344db6edb5beca9.jpg" alt="http://thanksroy.org/Imgs/rhr-whiteissue_085f7b743c.jpg" title="http://thanksroy.org/Imgs/rhr-whiteissue_085f7b743c.jpg"></a>    </div>
     
         <div class="item-description">
         As grad students, Roy and I worked together on the Radical History Review.  He forever after helped me make my way in the discipline, introducing me to new historical approaches and steering me toward professional opportunities.    </div>
@@ -310,7 +310,7 @@
     <h2><a href="show/618.html" class="permalink">How Roy Changed My Life, Part 1</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/618.html"><img src="https://thanksroy.org/files/square_thumbnails/8ffe0d55efc5da2df45102b1d6e2cbc4.jpg" alt="http://thanksroy.org/Imgs/gjk-cslmarried_0b2fc3b6b6.jpg" title="http://thanksroy.org/Imgs/gjk-cslmarried_0b2fc3b6b6.jpg"></a>    </div>
+        <a href="show/618.html"><img src="../files/square_thumbnails/8ffe0d55efc5da2df45102b1d6e2cbc4.jpg" alt="http://thanksroy.org/Imgs/gjk-cslmarried_0b2fc3b6b6.jpg" title="http://thanksroy.org/Imgs/gjk-cslmarried_0b2fc3b6b6.jpg"></a>    </div>
     
         <div class="item-description">
         Roy introduced me to Carol Lasser in 1976. Four years later Carol and I were married at Cambridge City Hall.    </div>
@@ -323,7 +323,7 @@
     </div><!-- end class="item-meta" -->
 </div><!-- end class="item hentry" -->
 
-<nav class="pagination-nav" aria-label="Pagination">
+<nav class="pagination-nav" aria-label="Pagination (bottom)">
     <ul class="pagination">
                 <!-- Previous page link -->
         <li class="pagination_previous">
@@ -332,7 +332,7 @@
         
         <li class="page-input">
         <form action="browse.html" method="get" accept-charset="utf-8">
-        <input type="text" name="page" title="Current Page" value="8"> of 17        </form>
+        <input type="text" name="page" aria-label="Page number" value="8"> of 17 <button type="submit" class="button pagination-go">Go</button>        </form>
         </li>
 
                 <!-- Next page link -->
@@ -346,19 +346,19 @@
 <div id="outputs">
     <span class="outputs-label">Output Formats</span>
                 <p id="output-format-list">
-        <a href="https://thanksroy.org/items/browse?page=8&amp;output=atom">atom</a>, <a href="https://thanksroy.org/items/browse?page=8&amp;output=dcmes-xml">dcmes-xml</a>, <a href="https://thanksroy.org/items/browse?page=8&amp;output=json">json</a>, <a href="https://thanksroy.org/items/browse?page=8&amp;output=omeka-xml">omeka-xml</a>, <a href="https://thanksroy.org/items/browse?page=8&amp;output=rss2">rss2</a>        </p>
+        <a href="browse%3Fpage=8.dcmes.xml">dcmes-xml</a>        </p>
     </div>
 
 
-        </div><!-- end content -->
+        </main><!-- end content -->
 
     </div><!-- end wrap -->
 
 
-    <footer role="contentinfo">
+    <footer>
 
         <div id="footer-text">
-                                    <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+                                    <p class="rrchnm-logo"><a href="https://rrchnm.org"><img src="/themes/default/images/rrchnm-wordmark.png" width="200" height="37" alt="Roy Rosenzweig Center for History and New Media" /></a></p>
         </div>
 
         

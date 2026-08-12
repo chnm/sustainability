@@ -1,0 +1,11 @@
+<?xml version="1.0"?><!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN"
+"http://dublincore.org/documents/2002/07/31/dcmes-xml/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://thanksroy.org/items/show/682">
+<dc:title>Tony Rosenzweig Speaking at Roy&#039;s Celebration</dc:title>
+<dc:language>eng</dc:language>
+<dc:type>Still Image</dc:type>
+<dc:identifier>241</dc:identifier>
+</rdf:Description></rdf:RDF>

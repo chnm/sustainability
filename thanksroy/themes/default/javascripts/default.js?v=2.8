@@ -7,17 +7,28 @@ if (!ThanksRoy) {
     ThanksRoy.mobileMenu = function() {
         $('.supports.touchevents #primary-nav li ul').each(function() {
             var childMenu = $(this);
-            var subnavToggle = $('<button type="button" class="sub-nav-toggle" aria-label="Show subnavigation"></button>');
+            var subnavToggle = $('<button type="button" class="sub-nav-toggle" aria-expanded="false" aria-label="Show subnavigation"></button>');
             subnavToggle.click(function() {
-                $(this).parent('.parent').toggleClass('open');
+                var parent = $(this).parent('.parent');
+                parent.toggleClass('open');
+                var open = parent.hasClass('open');
+                $(this)
+                    .attr('aria-expanded', open ? 'true' : 'false')
+                    .attr('aria-label', open ? 'Hide subnavigation' : 'Show subnavigation');
             });
             childMenu.parent().addClass('parent');
             childMenu.addClass('sub-nav').before(subnavToggle);
         });
 
+        // The opener used to be a <div>, so it was unreachable by keyboard --
+        // and below 768px it is the only way to open #primary-nav, which is
+        // display:none there. It is a <button> now; keep aria-expanded in sync
+        // with the list it controls.
         $('.menu-button').click( function(e) {
             e.preventDefault();
-            $('#primary-nav ul.navigation').toggle();
+            var nav = $('#primary-nav ul.navigation');
+            nav.toggle();
+            $(this).attr('aria-expanded', nav.is(':visible') ? 'true' : 'false');
         });
     };
 

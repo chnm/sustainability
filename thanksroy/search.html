@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta name="description" content="Search the Thanks, Roy archive" />
+            <title>Search &middot; Thanks, Roy</title>
+
+    <!-- Plugin Stuff -->
+
+
+
+    <!-- Stylesheets -->
+    <link href="application/views/scripts/css/iconfonts.css%3Fv=2.8.css" media="all" rel="stylesheet" type="text/css" >
+<link href="themes/default/css/style.css%3Fv=2.8.css" media="all" rel="stylesheet" type="text/css" >
+<link href="themes/default/css/pt-serif.css" media="all" rel="stylesheet" type="text/css" >
+<link href="pagefind/pagefind-ui.css" media="all" rel="stylesheet" type="text/css" >
+        <style>
+        body {
+            background-color: #FFFFFF;
+            color: #444444;
+        }
+        #site-title a:link, #site-title a:visited,
+        #site-title a:active, #site-title a:hover {
+            color: #000000;
+                    }
+        a:link {
+            color: #666666;
+        }
+        a:visited {
+            color: #8e8e8e;
+        }
+        a:hover, a:active, a:focus {
+            color: #3e3e3e;
+        }
+
+        .button, button,
+        input[type="reset"],
+        input[type="submit"],
+        input[type="button"],
+        .pagination_next a,
+        .pagination_previous a {
+          background-color: #000000;
+          color: #FFFFFF !important;
+        }
+
+        #search-form input[type="text"] {
+            border-color: #000000        }
+
+        @media (max-width:768px) {
+            #primary-nav li {
+                background-color: #282828;
+            }
+
+            #primary-nav li ul li {
+                background-color: #141414;
+            }
+
+            #primary-nav li li li {
+                background-color: #000000;
+            }
+        }
+    </style>
+<link href="themes/default/css/a11y.css" media="all" rel="stylesheet" type="text/css" >
+    <!-- JavaScripts -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=2.8\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=2.8\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+    jQuery.noConflict();    //-->
+</script>
+<script type="text/javascript" src="themes/default/javascripts/vendor/modernizr.js%3Fv=2.8"></script>
+<script type="text/javascript" src="application/views/scripts/javascripts/vendor/respond.js%3Fv=2.8"></script>
+<script type="text/javascript" src="application/views/scripts/javascripts/vendor/jquery-accessibleMegaMenu.js%3Fv=2.8"></script>
+<script type="text/javascript" src="application/views/scripts/javascripts/globals.js%3Fv=2.8"></script>
+<script type="text/javascript" src="themes/default/javascripts/default.js%3Fv=2.8"></script></head>
+<body class="search">
+    <a href="#content" id="skipnav">Skip to main content</a>
+    <aside class="notice" aria-label="Archive notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a class="notice-logo" href="https://rrchnm.org" target="_blank" rel="noopener"><img src="/themes/default/images/rrchnm-mark.png" width="101" height="100" alt="RRCHNM Logo" style="height: 30px; width: auto; margin-right: 15px;"/></a>
+    <div>
+    This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig Center for History and New Media</a>.
+    </div>
+</aside>
+
+        <header>
+                        <div id="site-title"><a href="index.html" ><img src="files/theme_uploads/61c567b663c845725429ca6c528dc5a2.jpg" alt="Thanks, Roy" /></a>
+</div>
+        </header>
+
+        <div id="wrap">
+            <button type="button" class="menu-button button" aria-expanded="false" aria-controls="primary-nav-list">Menu</button>
+            <nav id="primary-nav" aria-label="Main">
+                <ul class="navigation" id="primary-nav-list">
+    <li>
+        <a href="about.html">About Roy</a>
+    </li>
+    <li>
+        <a href="items/browse.html">Browse Contributions</a>
+    </li>
+    <li>
+        <a href="formal-notices.html">Formal Notices</a>
+    </li>
+    <li>
+        <a href="memorial-events.html">Memorial Events</a>
+    </li>
+    <li>
+        <a href="howtohelp.html">How to Help</a>
+    </li>
+</ul>                <div id="search-container" role="search">
+                                        <form id="search-form" name="search-form" action="/search.html" method="get">    <label for="query" class="visually-hidden">Search this site</label><input type="text" name="query" id="query" value="" placeholder="Search">        <div id="advanced-form">
+                <p><a href="/items/search.html">Advanced Search (Items only)</a></p>
+    </div>
+        <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+                                    </div>
+            </nav>
+            <main id="content" tabindex="-1">
+                <div id="search-page">
+    <h1>Search</h1>
+
+    <noscript>
+        <p>Search requires JavaScript to be enabled in your browser. You can
+        still <a href="items/browse.html">browse all contributions</a> or
+        <a href="items/tags.html">browse by tag</a>.</p>
+    </noscript>
+
+    <p id="search-empty">Type a term in the search box above to search this site.</p>
+
+    <div id="search"></div>
+</div><!-- end search-page -->
+
+        </main><!-- end content -->
+
+    </div><!-- end wrap -->
+
+
+    <footer>
+
+        <div id="footer-text">
+                                    <p class="rrchnm-logo"><a href="https://rrchnm.org"><img src="/themes/default/images/rrchnm-wordmark.png" width="200" height="37" alt="Roy Rosenzweig Center for History and New Media" /></a></p>
+        </div>
+
+
+    </footer><!-- end footer -->
+
+    <script type="text/javascript">
+    jQuery(document).ready(function () {
+        Omeka.showAdvancedForm();
+        Omeka.skipNav();
+        Omeka.megaMenu('.no-touchevents #primary-nav');
+        ThanksRoy.mobileMenu();
+    });
+    </script>
+
+<script src="pagefind/pagefind-ui.js"></script>
+<script>
+    /* The header search box is the single search field on this page: Pagefind's
+       own input is visually hidden (see themes/default/css/a11y.css) and driven
+       from here, so there are not two boxes competing. Same approach as the
+       mallhistory archive. */
+    (function () {
+        function getParam(name) {
+            return new URLSearchParams(window.location.search).get(name);
+        }
+
+        window.addEventListener('DOMContentLoaded', function () {
+            new PagefindUI({
+                element: '#search',
+                showImages: false,
+                showSubResults: true,
+                pageSize: 10
+            });
+
+            var headerInput = document.getElementById('query');
+            var emptyMsg = document.getElementById('search-empty');
+
+            function pfInput() {
+                return document.querySelector('#search .pagefind-ui__search-input');
+            }
+
+            /* Pagefind's own input is a visually hidden conduit -- the header
+               box is the real control. Take it out of the tab order and out of
+               the accessibility tree so screen-reader and keyboard users meet
+               one search field, not an invisible second one whose only
+               accessible name is a title attribute. */
+            function hidePagefindInput() {
+                ['.pagefind-ui__search-input', '.pagefind-ui__search-clear']
+                    .forEach(function (sel) {
+                        var el = document.querySelector('#search ' + sel);
+                        if (el) {
+                            el.setAttribute('aria-hidden', 'true');
+                            el.setAttribute('tabindex', '-1');
+                        }
+                    });
+            }
+
+            function run(q) {
+                var el = pfInput();
+                if (!el) return;
+                el.value = q;
+                el.dispatchEvent(new Event('input', { bubbles: true }));
+                if (emptyMsg) emptyMsg.style.display = q ? 'none' : '';
+            }
+
+            hidePagefindInput();
+            // Pagefind re-renders its form as results arrive, so re-apply.
+            if (window.MutationObserver) {
+                new MutationObserver(hidePagefindInput)
+                    .observe(document.getElementById('search'),
+                             { childList: true, subtree: true });
+            }
+
+            var initial = getParam('query') || getParam('q') || '';
+            if (headerInput) headerInput.value = initial;
+            if (initial) run(initial);
+
+            // Progressive enhancement: search as you type, keep the URL shareable.
+            if (headerInput) {
+                var t;
+                headerInput.addEventListener('input', function () {
+                    clearTimeout(t);
+                    var v = headerInput.value;
+                    t = setTimeout(function () {
+                        run(v);
+                        var url = new URL(window.location);
+                        if (v) { url.searchParams.set('query', v); }
+                        else { url.searchParams.delete('query'); }
+                        window.history.replaceState(null, '', url);
+                    }, 200);
+                });
+
+                var form = document.getElementById('search-form');
+                if (form) {
+                    form.addEventListener('submit', function (e) {
+                        e.preventDefault();
+                        run(headerInput.value);
+                    });
+                }
+            }
+        });
+    })();
+</script>
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '83']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</body>
+</html>

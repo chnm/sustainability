@@ -6,15 +6,14 @@
                 <meta name="description" content="Remembering Roy Rosenzweig, 1950-2007" />
             <title>Browse Items &middot; Thanks, Roy</title>
 
-    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://thanksroy.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://thanksroy.org/items/browse?output=atom" />
-    <!-- Plugin Stuff -->
+<!-- Plugin Stuff -->
 
     
 
     <!-- Stylesheets -->
     <link href="application/views/scripts/css/iconfonts.css%3Fv=2.8.css" media="all" rel="stylesheet" type="text/css" >
 <link href="themes/default/css/style.css%3Fv=2.8.css" media="all" rel="stylesheet" type="text/css" >
-<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic" media="all" rel="stylesheet" type="text/css" >
+<link href="themes/default/css/pt-serif.css" media="all" rel="stylesheet" type="text/css" >
         <style>
         body {
             background-color: #FFFFFF;
@@ -61,6 +60,7 @@
             }
         }
     </style>
+<link href="themes/default/css/a11y.css" media="all" rel="stylesheet" type="text/css" >
     <!-- JavaScripts -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript">
@@ -77,23 +77,28 @@
     jQuery.noConflict();    //-->
 </script>
 <script type="text/javascript" src="themes/default/javascripts/vendor/modernizr.js%3Fv=2.8"></script>
-<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="/application/views/scripts/javascripts/vendor/selectivizr.js?v=2.8"></script><![endif]-->
 <script type="text/javascript" src="application/views/scripts/javascripts/vendor/respond.js%3Fv=2.8"></script>
 <script type="text/javascript" src="application/views/scripts/javascripts/vendor/jquery-accessibleMegaMenu.js%3Fv=2.8"></script>
 <script type="text/javascript" src="application/views/scripts/javascripts/globals.js%3Fv=2.8"></script>
 <script type="text/javascript" src="themes/default/javascripts/default.js%3Fv=2.8"></script></head>
 <body class="items browse">
-    <a href="items%3Fpage=3.html#content" id="skipnav">Skip to main content</a>
+    <a href="#content" id="skipnav">Skip to main content</a>
+    <aside class="notice" aria-label="Archive notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a class="notice-logo" href="https://rrchnm.org" target="_blank" rel="noopener"><img src="/themes/default/images/rrchnm-mark.png" width="101" height="100" alt="RRCHNM Logo" style="height: 30px; width: auto; margin-right: 15px;"/></a>
+    <div>
+    This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig Center for History and New Media</a>.
+    </div>
+</aside>
     
-        <header role="banner">
+        <header>
                         <div id="site-title"><a href="index.html" ><img src="files/theme_uploads/61c567b663c845725429ca6c528dc5a2.jpg" alt="Thanks, Roy" /></a>
 </div>
         </header>
 
         <div id="wrap">
-            <div class="menu-button button">Menu</div>
-            <nav id="primary-nav" role="navigation">
-                <ul class="navigation">
+            <button type="button" class="menu-button button" aria-expanded="false" aria-controls="primary-nav-list">Menu</button>
+            <nav id="primary-nav" aria-label="Main">
+                <ul class="navigation" id="primary-nav-list">
     <li>
         <a href="about.html">About Roy</a>
     </li>
@@ -110,22 +115,17 @@
         <a href="howtohelp.html">How to Help</a>
     </li>
 </ul>                <div id="search-container" role="search">
-                                        <form id="search-form" name="search-form" action="https://thanksroy.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search">        <div id="advanced-form">
-        <fieldset id="query-types">
-            <legend>Search using this query type:</legend>
-            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
-<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
-<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
-                <p><a href="items/search%3Fpage=3.html">Advanced Search (Items only)</a></p>
+                                        <form id="search-form" name="search-form" action="/search.html" method="get">    <label for="query" class="visually-hidden">Search this site</label><input type="text" name="query" id="query" value="" placeholder="Search">        <div id="advanced-form">
+        <p><a href="/items/search.html">Advanced Search (Items only)</a></p>
     </div>
         <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
                                     </div>
             </nav>
-            <div id="content" role="main" tabindex="-1">
+            <main id="content" tabindex="-1">
                 
 <h1>Browse Items (162 total)</h1>
 
-<nav class="items-nav navigation secondary-nav">
+<nav class="items-nav navigation secondary-nav" aria-label="Items">
     <ul class="navigation">
     <li>
         <a href="items/browse.html">Browse All</a>
@@ -148,7 +148,7 @@
         
         <li class="page-input">
         <form action="items.html" method="get" accept-charset="utf-8">
-        <input type="text" name="page" title="Current Page" value="3"> of 17        </form>
+        <input type="text" name="page" aria-label="Page number" value="3"> of 17 <button type="submit" class="button pagination-go">Go</button>        </form>
         </li>
 
                 <!-- Next page link -->
@@ -168,7 +168,7 @@
     <h2><a href="items/show/677.html" class="permalink">Tom Scheinfeldt Speaking at Roy&#039;s Celebration</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="items/show/677.html"><img src="https://thanksroy.org/files/square_thumbnails/fbc6254e98e49b1bd7580be707f8ef6a.jpg" alt="http://thanksroy.org/Imgs/roys-memorial_89a16fac23.jpg" title="http://thanksroy.org/Imgs/roys-memorial_89a16fac23.jpg"></a>    </div>
+        <a href="items/show/677.html"><img src="files/square_thumbnails/fbc6254e98e49b1bd7580be707f8ef6a.jpg" alt="http://thanksroy.org/Imgs/roys-memorial_89a16fac23.jpg" title="http://thanksroy.org/Imgs/roys-memorial_89a16fac23.jpg"></a>    </div>
     
     
     
@@ -179,7 +179,7 @@
     <h2><a href="items/show/676.html" class="permalink">Jack Censer Speaking at Roy&#039;s Celebration</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="items/show/676.html"><img src="https://thanksroy.org/files/square_thumbnails/7aad1566b2dd38711e8c82f75fd1ef7d.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(26)_9cce330254.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(26)_9cce330254.jpg"></a>    </div>
+        <a href="items/show/676.html"><img src="files/square_thumbnails/7aad1566b2dd38711e8c82f75fd1ef7d.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(26)_9cce330254.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(26)_9cce330254.jpg"></a>    </div>
     
     
     
@@ -190,7 +190,7 @@
     <h2><a href="items/show/675.html" class="permalink">Deborah Kaplan Speaking at Roy&#039;s Celebration</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="items/show/675.html"><img src="https://thanksroy.org/files/square_thumbnails/900f8d9f5152f33851d78726ddcb777a.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(2)_119b8c099a.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(2)_119b8c099a.jpg"></a>    </div>
+        <a href="items/show/675.html"><img src="files/square_thumbnails/900f8d9f5152f33851d78726ddcb777a.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(2)_119b8c099a.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(2)_119b8c099a.jpg"></a>    </div>
     
     
     
@@ -201,7 +201,7 @@
     <h2><a href="items/show/674.html" class="permalink">Roy&#039;s Celebration</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="items/show/674.html"><img src="https://thanksroy.org/files/square_thumbnails/8c7119ecb1c0f3736d85e1fceabd3803.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(73)_c123bfddf2.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(73)_c123bfddf2.jpg"></a>    </div>
+        <a href="items/show/674.html"><img src="files/square_thumbnails/8c7119ecb1c0f3736d85e1fceabd3803.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(73)_c123bfddf2.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(73)_c123bfddf2.jpg"></a>    </div>
     
     
     
@@ -212,7 +212,7 @@
     <h2><a href="items/show/673.html" class="permalink">Roy&#039;s Celebration</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="items/show/673.html"><img src="https://thanksroy.org/files/square_thumbnails/7c6047a76bb236a011668486e7a1e37d.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(69)_1fd63069c7.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(69)_1fd63069c7.jpg"></a>    </div>
+        <a href="items/show/673.html"><img src="files/square_thumbnails/7c6047a76bb236a011668486e7a1e37d.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(69)_1fd63069c7.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(69)_1fd63069c7.jpg"></a>    </div>
     
     
     
@@ -223,7 +223,7 @@
     <h2><a href="items/show/672.html" class="permalink">Betsy Blackmar Speaking at Roy&#039;s Celebration</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="items/show/672.html"><img src="https://thanksroy.org/files/square_thumbnails/3631c12e777fd4545e3a2d2e5b2ebe40.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(14)_0d0e2a304b.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(14)_0d0e2a304b.jpg"></a>    </div>
+        <a href="items/show/672.html"><img src="files/square_thumbnails/3631c12e777fd4545e3a2d2e5b2ebe40.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(14)_0d0e2a304b.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(14)_0d0e2a304b.jpg"></a>    </div>
     
     
     
@@ -234,7 +234,7 @@
     <h2><a href="items/show/671.html" class="permalink">Heather Velez Speaking at Roy&#039;s Celebration</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="items/show/671.html"><img src="https://thanksroy.org/files/square_thumbnails/502b8cc03a507e8302d794877cd4346a.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(41)_a5efd724be.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(41)_a5efd724be.jpg"></a>    </div>
+        <a href="items/show/671.html"><img src="files/square_thumbnails/502b8cc03a507e8302d794877cd4346a.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(41)_a5efd724be.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(41)_a5efd724be.jpg"></a>    </div>
     
     
     
@@ -245,7 +245,7 @@
     <h2><a href="items/show/670.html" class="permalink">Roy&#039;s Celebration</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="items/show/670.html"><img src="https://thanksroy.org/files/square_thumbnails/becc267490bc5662fd3bbf5d67b0d5d8.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(30)_2521a67200.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(30)_2521a67200.jpg"></a>    </div>
+        <a href="items/show/670.html"><img src="files/square_thumbnails/becc267490bc5662fd3bbf5d67b0d5d8.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(30)_2521a67200.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(30)_2521a67200.jpg"></a>    </div>
     
     
     
@@ -256,7 +256,7 @@
     <h2><a href="items/show/669.html" class="permalink">Roy&#039;s Celebration</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="items/show/669.html"><img src="https://thanksroy.org/files/square_thumbnails/2da700340ebdaa7d1ab001b16afd04e4.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(65)_e165a6a813.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(65)_e165a6a813.jpg"></a>    </div>
+        <a href="items/show/669.html"><img src="files/square_thumbnails/2da700340ebdaa7d1ab001b16afd04e4.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(65)_e165a6a813.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(65)_e165a6a813.jpg"></a>    </div>
     
     
     
@@ -267,7 +267,7 @@
     <h2><a href="items/show/668.html" class="permalink">Roy&#039;s Celebration</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="items/show/668.html"><img src="https://thanksroy.org/files/square_thumbnails/7bb2c50863521c81c747fdc87ac97986.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(80)_ca68a2e394.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(80)_ca68a2e394.jpg"></a>    </div>
+        <a href="items/show/668.html"><img src="files/square_thumbnails/7bb2c50863521c81c747fdc87ac97986.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(80)_ca68a2e394.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(80)_ca68a2e394.jpg"></a>    </div>
     
     
     
@@ -275,7 +275,7 @@
     </div><!-- end class="item-meta" -->
 </div><!-- end class="item hentry" -->
 
-<nav class="pagination-nav" aria-label="Pagination">
+<nav class="pagination-nav" aria-label="Pagination (bottom)">
     <ul class="pagination">
                 <!-- Previous page link -->
         <li class="pagination_previous">
@@ -284,7 +284,7 @@
         
         <li class="page-input">
         <form action="items.html" method="get" accept-charset="utf-8">
-        <input type="text" name="page" title="Current Page" value="3"> of 17        </form>
+        <input type="text" name="page" aria-label="Page number" value="3"> of 17 <button type="submit" class="button pagination-go">Go</button>        </form>
         </li>
 
                 <!-- Next page link -->
@@ -298,19 +298,19 @@
 <div id="outputs">
     <span class="outputs-label">Output Formats</span>
                 <p id="output-format-list">
-        <a href="https://thanksroy.org/items?page=3&amp;output=atom">atom</a>, <a href="https://thanksroy.org/items?page=3&amp;output=dcmes-xml">dcmes-xml</a>, <a href="https://thanksroy.org/items?page=3&amp;output=json">json</a>, <a href="https://thanksroy.org/items?page=3&amp;output=omeka-xml">omeka-xml</a>, <a href="https://thanksroy.org/items?page=3&amp;output=rss2">rss2</a>        </p>
+        <a href="items%3Fpage=3.dcmes.xml">dcmes-xml</a>        </p>
     </div>
 
 
-        </div><!-- end content -->
+        </main><!-- end content -->
 
     </div><!-- end wrap -->
 
 
-    <footer role="contentinfo">
+    <footer>
 
         <div id="footer-text">
-                                    <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+                                    <p class="rrchnm-logo"><a href="https://rrchnm.org"><img src="/themes/default/images/rrchnm-wordmark.png" width="200" height="37" alt="Roy Rosenzweig Center for History and New Media" /></a></p>
         </div>
 
         

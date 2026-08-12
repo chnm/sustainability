@@ -6,15 +6,14 @@
                 <meta name="description" content="Remembering Roy Rosenzweig, 1950-2007" />
             <title>Browse Items &middot; Thanks, Roy</title>
 
-    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://thanksroy.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://thanksroy.org/items/browse?output=atom" />
-    <!-- Plugin Stuff -->
+<!-- Plugin Stuff -->
 
     
 
     <!-- Stylesheets -->
     <link href="../application/views/scripts/css/iconfonts.css%3Fv=2.8.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../themes/default/css/style.css%3Fv=2.8.css" media="all" rel="stylesheet" type="text/css" >
-<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic" media="all" rel="stylesheet" type="text/css" >
+<link href="../themes/default/css/pt-serif.css" media="all" rel="stylesheet" type="text/css" >
         <style>
         body {
             background-color: #FFFFFF;
@@ -61,6 +60,7 @@
             }
         }
     </style>
+<link href="../themes/default/css/a11y.css" media="all" rel="stylesheet" type="text/css" >
     <!-- JavaScripts -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript">
@@ -77,23 +77,28 @@
     jQuery.noConflict();    //-->
 </script>
 <script type="text/javascript" src="../themes/default/javascripts/vendor/modernizr.js%3Fv=2.8"></script>
-<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="/application/views/scripts/javascripts/vendor/selectivizr.js?v=2.8"></script><![endif]-->
 <script type="text/javascript" src="../application/views/scripts/javascripts/vendor/respond.js%3Fv=2.8"></script>
 <script type="text/javascript" src="../application/views/scripts/javascripts/vendor/jquery-accessibleMegaMenu.js%3Fv=2.8"></script>
 <script type="text/javascript" src="../application/views/scripts/javascripts/globals.js%3Fv=2.8"></script>
 <script type="text/javascript" src="../themes/default/javascripts/default.js%3Fv=2.8"></script></head>
 <body class="items browse">
-    <a href="browse%3Fpage=7.html#content" id="skipnav">Skip to main content</a>
+    <a href="#content" id="skipnav">Skip to main content</a>
+    <aside class="notice" aria-label="Archive notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a class="notice-logo" href="https://rrchnm.org" target="_blank" rel="noopener"><img src="/themes/default/images/rrchnm-mark.png" width="101" height="100" alt="RRCHNM Logo" style="height: 30px; width: auto; margin-right: 15px;"/></a>
+    <div>
+    This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig Center for History and New Media</a>.
+    </div>
+</aside>
     
-        <header role="banner">
+        <header>
                         <div id="site-title"><a href="../index.html" ><img src="../files/theme_uploads/61c567b663c845725429ca6c528dc5a2.jpg" alt="Thanks, Roy" /></a>
 </div>
         </header>
 
         <div id="wrap">
-            <div class="menu-button button">Menu</div>
-            <nav id="primary-nav" role="navigation">
-                <ul class="navigation">
+            <button type="button" class="menu-button button" aria-expanded="false" aria-controls="primary-nav-list">Menu</button>
+            <nav id="primary-nav" aria-label="Main">
+                <ul class="navigation" id="primary-nav-list">
     <li>
         <a href="../about.html">About Roy</a>
     </li>
@@ -110,22 +115,17 @@
         <a href="../howtohelp.html">How to Help</a>
     </li>
 </ul>                <div id="search-container" role="search">
-                                        <form id="search-form" name="search-form" action="https://thanksroy.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search">        <div id="advanced-form">
-        <fieldset id="query-types">
-            <legend>Search using this query type:</legend>
-            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
-<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
-<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
-                <p><a href="search%3Fpage=7.html">Advanced Search (Items only)</a></p>
+                                        <form id="search-form" name="search-form" action="/search.html" method="get">    <label for="query" class="visually-hidden">Search this site</label><input type="text" name="query" id="query" value="" placeholder="Search">        <div id="advanced-form">
+        <p><a href="/items/search.html">Advanced Search (Items only)</a></p>
     </div>
         <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
                                     </div>
             </nav>
-            <div id="content" role="main" tabindex="-1">
+            <main id="content" tabindex="-1">
                 
 <h1>Browse Items (162 total)</h1>
 
-<nav class="items-nav navigation secondary-nav">
+<nav class="items-nav navigation secondary-nav" aria-label="Items">
     <ul class="navigation">
     <li class="active">
         <a href="browse.html">Browse All</a>
@@ -148,7 +148,7 @@
         
         <li class="page-input">
         <form action="browse.html" method="get" accept-charset="utf-8">
-        <input type="text" name="page" title="Current Page" value="7"> of 17        </form>
+        <input type="text" name="page" aria-label="Page number" value="7"> of 17 <button type="submit" class="button pagination-go">Go</button>        </form>
         </li>
 
                 <!-- Next page link -->
@@ -168,7 +168,7 @@
     <h2><a href="show/637.html" class="permalink">Roy&#039;s Celebration</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/637.html"><img src="https://thanksroy.org/files/square_thumbnails/4fa5b00d97d5f5b70b2fe37da51f34d5.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(72)_4c9f7911d2.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(72)_4c9f7911d2.jpg"></a>    </div>
+        <a href="show/637.html"><img src="../files/square_thumbnails/4fa5b00d97d5f5b70b2fe37da51f34d5.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(72)_4c9f7911d2.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(72)_4c9f7911d2.jpg"></a>    </div>
     
     
     
@@ -179,7 +179,7 @@
     <h2><a href="show/636.html" class="permalink">Roy&#039;s Celebration</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/636.html"><img src="https://thanksroy.org/files/square_thumbnails/23a667b6119252fe7dd46b1826f19bc6.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(3)_f4576f6f83.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(3)_f4576f6f83.jpg"></a>    </div>
+        <a href="show/636.html"><img src="../files/square_thumbnails/23a667b6119252fe7dd46b1826f19bc6.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(3)_f4576f6f83.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(3)_f4576f6f83.jpg"></a>    </div>
     
     
     
@@ -190,7 +190,7 @@
     <h2><a href="show/635.html" class="permalink">Roy&#039;s Celebration</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/635.html"><img src="https://thanksroy.org/files/square_thumbnails/8be812ec6dfae6214655fd2837277335.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(68)_84f1534b5d.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(68)_84f1534b5d.jpg"></a>    </div>
+        <a href="show/635.html"><img src="../files/square_thumbnails/8be812ec6dfae6214655fd2837277335.jpg" alt="http://thanksroy.org/Imgs/roys-memorial-(68)_84f1534b5d.jpg" title="http://thanksroy.org/Imgs/roys-memorial-(68)_84f1534b5d.jpg"></a>    </div>
     
     
     
@@ -201,7 +201,7 @@
     <h2><a href="show/634.html" class="permalink">Roy at Pohick</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/634.html"><img src="https://thanksroy.org/files/square_thumbnails/1d69d7500c8cd41f44b8ffda81994a56.jpg" alt="http://thanksroy.org/Imgs/roypohick2_725f3980d5.jpg" title="http://thanksroy.org/Imgs/roypohick2_725f3980d5.jpg"></a>    </div>
+        <a href="show/634.html"><img src="../files/square_thumbnails/1d69d7500c8cd41f44b8ffda81994a56.jpg" alt="http://thanksroy.org/Imgs/roypohick2_725f3980d5.jpg" title="http://thanksroy.org/Imgs/roypohick2_725f3980d5.jpg"></a>    </div>
     
         <div class="item-description">
         This is a second picture from that evening at the Pohick Module on October 3, 2001. Roy is talking to Dee Holisky. In the background are Bob Hawkes and Paula Petrik.    </div>
@@ -217,7 +217,7 @@
     <h2><a href="show/633.html" class="permalink">Roy in Pohick</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/633.html"><img src="https://thanksroy.org/files/square_thumbnails/0656ed05f4bd243f2a1b8e521c94b5f2.jpg" alt="http://thanksroy.org/Imgs/roypohick_32c8106d13.jpg" title="http://thanksroy.org/Imgs/roypohick_32c8106d13.jpg"></a>    </div>
+        <a href="show/633.html"><img src="../files/square_thumbnails/0656ed05f4bd243f2a1b8e521c94b5f2.jpg" alt="http://thanksroy.org/Imgs/roypohick_32c8106d13.jpg" title="http://thanksroy.org/Imgs/roypohick_32c8106d13.jpg"></a>    </div>
     
         <div class="item-description">
         This is a picture I took in the second incarnation of the Center for History and New Media (the Pohick Module) on October 3, 2001. Note the shirt--what a surprise!    </div>
@@ -253,7 +253,7 @@
     <h2><a href="show/630.html" class="permalink">History Department</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/630.html"><img src="https://thanksroy.org/files/square_thumbnails/8100a839a480ef7eba7a8cd8b19eb80b.jpg" alt="http://thanksroy.org/Imgs/history_department_56df3d6f3d.jpg" title="http://thanksroy.org/Imgs/history_department_56df3d6f3d.jpg"></a>    </div>
+        <a href="show/630.html"><img src="../files/square_thumbnails/8100a839a480ef7eba7a8cd8b19eb80b.jpg" alt="http://thanksroy.org/Imgs/history_department_56df3d6f3d.jpg" title="http://thanksroy.org/Imgs/history_department_56df3d6f3d.jpg"></a>    </div>
     
         <div class="item-description">
         The GMU History Department faculty, mid 1980s: front row: Roy Rosenzweig, Marion Deshmukh (chair), Jack Censer; back row (2): Josephine Pacheco, Peter Henriques, Mian Saeed, Randolph Lytton, Martin Cohen; back row (3): John D&#039;Amico, Jeffrey Stewart,…    </div>
@@ -269,7 +269,7 @@
     <h2><a href="show/629.html" class="permalink">GMU TV</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/629.html"><img src="https://thanksroy.org/files/square_thumbnails/7ac7ff0ca2d00390e25f178c803d5829.jpg" alt="http://thanksroy.org/Imgs/gmu_tv2_6515b61cb6.jpg" title="http://thanksroy.org/Imgs/gmu_tv2_6515b61cb6.jpg"></a>    </div>
+        <a href="show/629.html"><img src="../files/square_thumbnails/7ac7ff0ca2d00390e25f178c803d5829.jpg" alt="http://thanksroy.org/Imgs/gmu_tv2_6515b61cb6.jpg" title="http://thanksroy.org/Imgs/gmu_tv2_6515b61cb6.jpg"></a>    </div>
     
         <div class="item-description">
         George Mason University TV in pre-digital days-- back row (probably): Douglas Mose, Joel Foreman, George Summers, Lorraine Brown, Fred Grossberg; front row: Daniel Rainey, Michael Kelley, Roy Rosenzweig, c 1983, George Mason University Yearbook…    </div>
@@ -285,7 +285,7 @@
     <h2><a href="show/628.html" class="permalink">82 Kirkland Street, Cambridge, MA</a></h2>
     <div class="item-meta">
         <div class="item-img">
-        <a href="show/628.html"><img src="https://thanksroy.org/files/square_thumbnails/e14f72c3de2561d935ed32427657da44.jpg" alt="http://thanksroy.org/Imgs/82-kirkland-street_55b13adbfd.jpg" title="http://thanksroy.org/Imgs/82-kirkland-street_55b13adbfd.jpg"></a>    </div>
+        <a href="show/628.html"><img src="../files/square_thumbnails/e14f72c3de2561d935ed32427657da44.jpg" alt="http://thanksroy.org/Imgs/82-kirkland-street_55b13adbfd.jpg" title="http://thanksroy.org/Imgs/82-kirkland-street_55b13adbfd.jpg"></a>    </div>
     
         <div class="item-description">
         Roy lived at 82 Kirkland Street while in graduate school at Harvard.  For those of us who knew him then, it was a special place and an important destination, full of good conversation, fun and friendship.      </div>
@@ -295,7 +295,7 @@
     </div><!-- end class="item-meta" -->
 </div><!-- end class="item hentry" -->
 
-<nav class="pagination-nav" aria-label="Pagination">
+<nav class="pagination-nav" aria-label="Pagination (bottom)">
     <ul class="pagination">
                 <!-- Previous page link -->
         <li class="pagination_previous">
@@ -304,7 +304,7 @@
         
         <li class="page-input">
         <form action="browse.html" method="get" accept-charset="utf-8">
-        <input type="text" name="page" title="Current Page" value="7"> of 17        </form>
+        <input type="text" name="page" aria-label="Page number" value="7"> of 17 <button type="submit" class="button pagination-go">Go</button>        </form>
         </li>
 
                 <!-- Next page link -->
@@ -318,19 +318,19 @@
 <div id="outputs">
     <span class="outputs-label">Output Formats</span>
                 <p id="output-format-list">
-        <a href="https://thanksroy.org/items/browse?page=7&amp;output=atom">atom</a>, <a href="https://thanksroy.org/items/browse?page=7&amp;output=dcmes-xml">dcmes-xml</a>, <a href="https://thanksroy.org/items/browse?page=7&amp;output=json">json</a>, <a href="https://thanksroy.org/items/browse?page=7&amp;output=omeka-xml">omeka-xml</a>, <a href="https://thanksroy.org/items/browse?page=7&amp;output=rss2">rss2</a>        </p>
+        <a href="browse%3Fpage=7.dcmes.xml">dcmes-xml</a>        </p>
     </div>
 
 
-        </div><!-- end content -->
+        </main><!-- end content -->
 
     </div><!-- end wrap -->
 
 
-    <footer role="contentinfo">
+    <footer>
 
         <div id="footer-text">
-                                    <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+                                    <p class="rrchnm-logo"><a href="https://rrchnm.org"><img src="/themes/default/images/rrchnm-wordmark.png" width="200" height="37" alt="Roy Rosenzweig Center for History and New Media" /></a></p>
         </div>
 
         

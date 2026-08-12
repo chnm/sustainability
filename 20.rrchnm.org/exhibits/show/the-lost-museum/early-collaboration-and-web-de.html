@@ -6,27 +6,20 @@
     <title>RRCHNM20 | Imagining The Lost Museum &middot; The Lost Museum</title>
     <meta name="viewport" content="width=device-width">
 
-    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://20.rrchnm.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://20.rrchnm.org/items/browse?output=atom" />
+    
    
     <!-- Style Sheets -->
-    <link href="http://fonts.googleapis.com/css?family=Crimson+Text:400,600,400italic,600italic|Cabin:400,600,400italic" media="screen" rel="stylesheet" type="text/css" >
+    <link href="../../../themes/neatscape/css/fonts.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../../../plugins/ExhibitBuilder/views/public/css/exhibits.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../../../plugins/ExhibitBuilder/views/shared/exhibit_layouts/file-text/layout.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../../../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
 <link href="../../../plugins/Geolocation/views/shared/css/geolocation-marker.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
 <link href="../../../plugins/Html5Media/views/shared/mediaelement/mediaelementplayer.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../../../themes/neatscape/css/style.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="../../../themes/a11y.css" media="all" rel="stylesheet" type="text/css" >
     <!-- JavaScripts -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript">
-    //<!--
-    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
-</script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script type="text/javascript">
-    //<!--
-    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
-</script>
+    <script type="text/javascript" src="../../../application/views/scripts/javascripts/vendor/jquery.js"></script>
+<script type="text/javascript" src="../../../application/views/scripts/javascripts/vendor/jquery-ui.js"></script>
 <script type="text/javascript" src="../../../application/views/scripts/javascripts/vendor/jquery.ui.touch-punch.js"></script>
 <script type="text/javascript">
     //<!--
@@ -37,22 +30,43 @@
 <script type="text/javascript" src="../../../plugins/Geolocation/views/shared/javascripts/map.js%3Fv=3.2.2"></script>
 <script type="text/javascript" src="../../../plugins/Html5Media/views/shared/mediaelement/mediaelement-and-player.min.js%3Fv=3.0.1"></script>
 <script type="text/javascript" src="../../../themes/neatscape/javascripts/modernizr.min.js%3Fv=3.0.1"></script>
-<!--[if lt IE 9]><script type="text/javascript" src="/themes/neatscape/javascripts/respond.min.js?v=3.0.1"></script><![endif]-->
-<!--[if lt IE 9]><script type="text/javascript" src="/themes/neatscape/javascripts/selectivizr.min.js?v=3.0.1"></script><![endif]--></head>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '80']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
 
-<body class="exhibits show">
+<body class="theme-neatscape exhibits show">
+<a href="#content" id="skipnav">Skip to main content</a>
+    <aside class="notice" aria-label="Archive notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a class="notice-logo" href="https://rrchnm.org" target="_blank" rel="noopener"><img src="/assets/rrchnm-mark.png" width="124" height="120" alt="RRCHNM Logo" style="height: 30px; width: auto; margin-right: 15px;"/></a>
+    <div>
+    This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig Center for History and New Media</a>.
+    </div>
+</aside>
         <header role="banner">
 
         
         
-        <h1 id="site-title"><a href="../../../index.html" >RRCHNM20</a>
-</h1>
+        <p id="site-title"><a href="../../../index.html" >RRCHNM20</a>
+</p>
 
         <div id="search-container">
-            <form id="search-form" name="search-form" role="search" action="https://20.rrchnm.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search" aria-labelledby="submit_search">            <input type="hidden" name="query_type" value="keyword" id="query_type">                <input type="hidden" name="record_types[]" value="Item" id="record_types">                <input type="hidden" name="record_types[]" value="File" id="record_types">                <input type="hidden" name="record_types[]" value="Collection" id="record_types">                <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+            <form id="search-form" name="search-form" role="search" action="/search.html" method="get">    <label for="query" class="visually-hidden">Search this site</label><input type="text" name="query" id="query" value="" placeholder="Search">            <input type="hidden" name="query_type" value="keyword" id="query_type">                <input type="hidden" name="record_types[]" value="Item">                <input type="hidden" name="record_types[]" value="File">                <input type="hidden" name="record_types[]" value="Collection">                <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
         </div>
 
-        <nav id="top-nav">
+        <nav id="top-nav" aria-label="Main">
             <ul class="navigation">
     <li>
         <a href="../../../about-this-site.html">About</a>
@@ -71,7 +85,7 @@
         </ul>
     </li>
     <li>
-        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+        <a href="/items/search.html?filter=Item+Type:Person">People</a>
     </li>
     <li class="active">
         <a href="../../../exhibits.html">Histories</a>
@@ -83,7 +97,7 @@
 
     </header>
 
-    <div role="main">
+    <div role="main" id="content" tabindex="-1" data-pagefind-body><span data-pagefind-meta="title[data-pf-title]" data-pf-title="RRCHNM20 | Imagining The Lost Museum"></span><span data-pagefind-filter="Record[data-rt]" data-rt="Exhibit"></span>
 
         
 
@@ -91,26 +105,26 @@
 
 <div id="exhibit-blocks">
 <div class="exhibit-block layout-file-text"><div class="exhibit-items left fullsize captions-center">
-            <a class="download-file" href="item/503.html"><img class="full" alt="Lost Museum Screenshots" src="https://20.rrchnm.org/files/fullsize/c97cb7ba95314f3f3e1ad10c11d12468.jpg" title="Lost Museum Screenshots"></a><div class="exhibit-item-caption"><p>The Picture Gallery, the first room developed in&nbsp;<em>The Lost Museum</em>, draws from the popularity of immersive puzzle games in the late 1990s and early 2000s. Players can move around the room and interact with many of the objects inside.</p></div>    </div>
+            <a class="download-file" href="item/503.html"><img class="full" alt="Lost Museum Screenshots" src="/files/fullsize/c97cb7ba95314f3f3e1ad10c11d12468.jpg" title="Lost Museum Screenshots"></a><div class="exhibit-item-caption"><p>The Picture Gallery, the first room developed in&nbsp;<em>The Lost Museum</em>, draws from the popularity of immersive puzzle games in the late 1990s and early 2000s. Players can move around the room and interact with many of the objects inside.</p></div>    </div>
 <p><em>The Lost Museum</em>&nbsp;came out of a collaboration between the American Social History Project/Center for Media and Learning&nbsp;(<a href="https://ashp.cuny.edu/">ASHP/CML</a>) at City University of New York (CUNY) and the fledgling Center for History and New Media&nbsp;(<a href="http://rrchnm.org/">CHNM</a>) at George Mason University (GMU). Collaboration between Roy Rosenzweig, Josh Brown, and Andrea Ades V&aacute;squez, the executive producers of&nbsp;<em>The Lost Museum,&nbsp;</em>began in "pre-digital" days, particularly in documentary filmmaking. The organization of&nbsp;<a href="http://lostmuseum.cuny.edu/about.php">project roles</a>&nbsp;for&nbsp;<em>The Lost Museum</em>&nbsp;(Executive Producers, Producers, Art Directors), as well as designated pre- and post-production periods in&nbsp;<a href="funding-the-lost-museum.html">early proposals for the project</a>&nbsp;reflect the team&rsquo;s earlier roots in film. These filmmaking roots also enhanced the immersive environment of&nbsp;<em>The Lost Museum&nbsp;</em>through a series of visual and auditory cues, including a series of short Flash movies that propel the user through gameplay.</p></div><div class="exhibit-block layout-file-text"><div class="exhibit-items left fullsize captions-center">
-            <a class="download-file" href="item/502.html"><img class="full" alt="Myst Screenshot" src="https://20.rrchnm.org/files/fullsize/9b49a1fdb00c06d2be9e50c82a409531.jpg" title="Myst Screenshot"></a><div class="exhibit-item-caption"><p>A screenshot from the original version of&nbsp;<em>Myst,</em>&nbsp;the game that<em>&nbsp;</em>provided significant inspiration for the development of&nbsp;<em>The Lost Museum.</em></p></div>    </div>
-<p class="xmsonormal">The team also had previous experience building educational CD-ROMs through the successful&nbsp;<em><em><a href="../../../items/show/349.html">Who Built America?</a>&nbsp;</em></em>project, but&nbsp;<em>The Lost Museum</em>&nbsp;explored deeper narrative potentials.&nbsp;<em>The Lost Museum</em>, developed throughout the late 1990s and early 2000s, represents a moment when the emergence of new media technologies provided the platform for nonlinear historical storytelling. Drawing from the popularity of CD-ROM gaming, particularly that of the adventure puzzle game&nbsp;<a href="http://grantland.com/features/looking-back-game-myst-20th-anniversary/">Myst</a>,&nbsp;<em>The Lost Museum&nbsp;</em>was designed as an immersive environment that allowed users to travel through time and space, but also provided historical substance. As an&nbsp;<a href="funding-the-lost-museum.html">early&nbsp;grant proposal</a>&nbsp;notes,&nbsp;<em>The Lost Museum&nbsp;</em>is meant to "simulate the complexities&nbsp;and ambiguities of reconstructing the past,&nbsp;thus involving users in an active process of historical interpretation" (<a href="http://20.rrchnm.org/admin/files/show/909">23</a>).&nbsp;Not only did the destruction of Barnum&rsquo;s museum provide a built-in mystery to guide gameplay, but the contents and context of the museum served as entry-points for players to explore various aspects of American antebellum culture. The&nbsp;philosophy at the root of <em>The Lost Museum</em>,&nbsp;even in its <a href="funding-the-lost-museum.html">earliest incarnation</a> as a four-part series,&nbsp;signaled an attempt in the digital humanities field to harness &ldquo;this burgeoning medium as a vehicle for presenting serious scholarship to the general project&rdquo; (<a href="../../../files/show/909.html">7</a>).</p></div></div>
+            <a class="download-file" href="item/502.html"><img class="full" alt="Myst Screenshot" src="/files/fullsize/9b49a1fdb00c06d2be9e50c82a409531.jpg" title="Myst Screenshot"></a><div class="exhibit-item-caption"><p>A screenshot from the original version of&nbsp;<em>Myst,</em>&nbsp;the game that<em>&nbsp;</em>provided significant inspiration for the development of&nbsp;<em>The Lost Museum.</em></p></div>    </div>
+<p class="xmsonormal">The team also had previous experience building educational CD-ROMs through the successful&nbsp;<em><em><a href="../../../items/show/349.html">Who Built America?</a>&nbsp;</em></em>project, but&nbsp;<em>The Lost Museum</em>&nbsp;explored deeper narrative potentials.&nbsp;<em>The Lost Museum</em>, developed throughout the late 1990s and early 2000s, represents a moment when the emergence of new media technologies provided the platform for nonlinear historical storytelling. Drawing from the popularity of CD-ROM gaming, particularly that of the adventure puzzle game&nbsp;<a href="http://grantland.com/features/looking-back-game-myst-20th-anniversary/">Myst</a>,&nbsp;<em>The Lost Museum&nbsp;</em>was designed as an immersive environment that allowed users to travel through time and space, but also provided historical substance. As an&nbsp;<a href="funding-the-lost-museum.html">early&nbsp;grant proposal</a>&nbsp;notes,&nbsp;<em>The Lost Museum&nbsp;</em>is meant to "simulate the complexities&nbsp;and ambiguities of reconstructing the past,&nbsp;thus involving users in an active process of historical interpretation" (<a href="http://20.rrchnm.org/admin/files/show/909">23</a>).&nbsp;Not only did the destruction of Barnum&rsquo;s museum provide a built-in mystery to guide gameplay, but the contents and context of the museum served as entry-points for players to explore various aspects of American antebellum culture. The&nbsp;philosophy at the root of <em>The Lost Museum</em>,&nbsp;even in its <a href="funding-the-lost-museum.html">earliest incarnation</a> as a four-part series,&nbsp;signaled an attempt in the digital humanities field to harness &ldquo;this burgeoning medium as a vehicle for presenting serious scholarship to the general project&rdquo; (<a href="/files/show/909.html">7</a>).</p></div></div>
 
-<div id="exhibit-page-navigation">
+<nav id="exhibit-page-navigation" aria-label="Exhibit page">
             <div id="exhibit-nav-next">
     <a href="funding-the-lost-museum.html" class="next-page">Funding The Lost Museum &rarr;</a>    </div>
         <div id="exhibit-nav-up">
     <span class="current-page">Imagining The Lost Museum</span>    </div>
-</div>
+</nav>
 
-<nav id="exhibit-pages">
-    <h4><a href="../the-lost-museum.html" >The Lost Museum</a></h4>
+<nav id="exhibit-pages" aria-label="Exhibit pages">
+    <h2><a href="../the-lost-museum.html" >The Lost Museum</a></h2>
     <ul><li class="current"><a href="early-collaboration-and-web-de.html">Imagining The Lost Museum</a></li><li><a href="funding-the-lost-museum.html">Funding The Lost Museum</a></li><li><a href="building-the-lost-museum.html">Building The Lost Museum</a><ul><li><a href="building-the-lost-museum/the-content.html">The Content</a></li><li><a href="building-the-lost-museum/the-tools.html">The Tools</a></li></ul></li><li><a href="legacy-and-historical-gaming.html">Historical Gaming Today</a></li></ul></nav>
     </div>
 
     <footer role="contentinfo">
 
-        <nav role="navigation">
+        <nav role="navigation" aria-label="Footer">
             <ul class="navigation">
     <li>
         <a href="../../../about-this-site.html">About</a>
@@ -129,7 +143,7 @@
         </ul>
     </li>
     <li>
-        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+        <a href="/items/search.html?filter=Item+Type:Person">People</a>
     </li>
     <li class="active">
         <a href="../../../exhibits.html">Histories</a>
@@ -140,7 +154,7 @@
 </ul>        </nav>
 
         <div id="footer-text">
-                                    <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+                                    <p class="histarthist-logo"><a href="https://historyarthistory.gmu.edu/"><img src="/assets/histarthist-logo.png" width="300" height="84" alt="George Mason University Department of History and Art History" /></a></p>
         </div>
 
         

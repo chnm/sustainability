@@ -6,25 +6,18 @@
     <title>RRCHNM20 | Lost Museum Screenshots</title>
     <meta name="viewport" content="width=device-width">
 
-    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://20.rrchnm.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://20.rrchnm.org/items/browse?output=atom" />
+    
    
     <!-- Style Sheets -->
-    <link href="http://fonts.googleapis.com/css?family=Crimson+Text:400,600,400italic,600italic|Cabin:400,600,400italic" media="screen" rel="stylesheet" type="text/css" >
+    <link href="../../../../themes/neatscape/css/fonts.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../../../../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
 <link href="../../../../plugins/Geolocation/views/shared/css/geolocation-marker.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
 <link href="../../../../plugins/Html5Media/views/shared/mediaelement/mediaelementplayer.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../../../../themes/neatscape/css/style.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="../../../../themes/a11y.css" media="all" rel="stylesheet" type="text/css" >
     <!-- JavaScripts -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript">
-    //<!--
-    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
-</script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script type="text/javascript">
-    //<!--
-    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
-</script>
+    <script type="text/javascript" src="../../../../application/views/scripts/javascripts/vendor/jquery.js"></script>
+<script type="text/javascript" src="../../../../application/views/scripts/javascripts/vendor/jquery-ui.js"></script>
 <script type="text/javascript" src="../../../../application/views/scripts/javascripts/vendor/jquery.ui.touch-punch.js"></script>
 <script type="text/javascript">
     //<!--
@@ -35,22 +28,43 @@
 <script type="text/javascript" src="../../../../plugins/Geolocation/views/shared/javascripts/map.js%3Fv=3.2.2"></script>
 <script type="text/javascript" src="../../../../plugins/Html5Media/views/shared/mediaelement/mediaelement-and-player.min.js%3Fv=3.0.1"></script>
 <script type="text/javascript" src="../../../../themes/neatscape/javascripts/modernizr.min.js%3Fv=3.0.1"></script>
-<!--[if lt IE 9]><script type="text/javascript" src="/themes/neatscape/javascripts/respond.min.js?v=3.0.1"></script><![endif]-->
-<!--[if lt IE 9]><script type="text/javascript" src="/themes/neatscape/javascripts/selectivizr.min.js?v=3.0.1"></script><![endif]--></head>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '80']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
 
-<body class="items show">
+<body class="theme-neatscape items show">
+<a href="#content" id="skipnav">Skip to main content</a>
+    <aside class="notice" aria-label="Archive notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a class="notice-logo" href="https://rrchnm.org" target="_blank" rel="noopener"><img src="/assets/rrchnm-mark.png" width="124" height="120" alt="RRCHNM Logo" style="height: 30px; width: auto; margin-right: 15px;"/></a>
+    <div>
+    This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig Center for History and New Media</a>.
+    </div>
+</aside>
         <header role="banner">
 
         
         
-        <h1 id="site-title"><a href="../../../../index.html" >RRCHNM20</a>
-</h1>
+        <p id="site-title"><a href="../../../../index.html" >RRCHNM20</a>
+</p>
 
         <div id="search-container">
-            <form id="search-form" name="search-form" role="search" action="https://20.rrchnm.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search" aria-labelledby="submit_search">            <input type="hidden" name="query_type" value="keyword" id="query_type">                <input type="hidden" name="record_types[]" value="Item" id="record_types">                <input type="hidden" name="record_types[]" value="File" id="record_types">                <input type="hidden" name="record_types[]" value="Collection" id="record_types">                <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+            <form id="search-form" name="search-form" role="search" action="/search.html" method="get">    <label for="query" class="visually-hidden">Search this site</label><input type="text" name="query" id="query" value="" placeholder="Search">            <input type="hidden" name="query_type" value="keyword" id="query_type">                <input type="hidden" name="record_types[]" value="Item">                <input type="hidden" name="record_types[]" value="File">                <input type="hidden" name="record_types[]" value="Collection">                <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
         </div>
 
-        <nav id="top-nav">
+        <nav id="top-nav" aria-label="Main">
             <ul class="navigation">
     <li>
         <a href="../../../../about-this-site.html">About</a>
@@ -69,7 +83,7 @@
         </ul>
     </li>
     <li>
-        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+        <a href="/items/search.html?filter=Item+Type:Person">People</a>
     </li>
     <li class="active">
         <a href="../../../../exhibits.html">Histories</a>
@@ -81,7 +95,7 @@
 
     </header>
 
-    <div role="main">
+    <div role="main" id="content" tabindex="-1">
 
         
 
@@ -118,7 +132,7 @@ American Social History Project, CUNY</div>
 <!-- The following returns all of the files associated with an item. -->
 <div id="item-files" class="element">
     <h2>Files</h2>
-    <div class="element-text"><div class="item-file image-png"><a class="download-file" href="https://20.rrchnm.org/files/original/c97cb7ba95314f3f3e1ad10c11d12468.png"><img class="thumb" src="https://20.rrchnm.org/files/square_thumbnails/c97cb7ba95314f3f3e1ad10c11d12468.jpg" alt="The Picture Gallery" title="The Picture Gallery"></a></div><div class="item-file image-png"><a class="download-file" href="https://20.rrchnm.org/files/original/deda0e032e09315c79e46040ed2e586b.png"><img class="thumb" src="https://20.rrchnm.org/files/square_thumbnails/deda0e032e09315c79e46040ed2e586b.jpg" alt="Lecture Room" title="Lecture Room"></a></div><div class="item-file image-png"><a class="download-file" href="https://20.rrchnm.org/files/original/eda6140bda2e3b5d70eb6cd37c760ffe.png"><img class="thumb" src="https://20.rrchnm.org/files/square_thumbnails/eda6140bda2e3b5d70eb6cd37c760ffe.jpg" alt="The Picture Gallery, 2000-2015" title="The Picture Gallery, 2000-2015"></a></div><div class="item-file image-png"><a class="download-file" href="https://20.rrchnm.org/files/original/415e2ae2a3868a908a64b09ccf5ccb98.png"><img class="thumb" src="https://20.rrchnm.org/files/square_thumbnails/415e2ae2a3868a908a64b09ccf5ccb98.jpg" alt="The Picture Gallery, 2015 redesign" title="The Picture Gallery, 2015 redesign"></a></div><div class="item-file image-png"><a class="download-file" href="https://20.rrchnm.org/files/original/08076be007496c3ec12a63c26b098780.png"><img class="thumb" src="https://20.rrchnm.org/files/square_thumbnails/08076be007496c3ec12a63c26b098780.jpg" alt="A Flash video to guide the user through gameplay." title="A Flash video to guide the user through gameplay."></a></div><div class="item-file image-png"><a class="download-file" href="https://20.rrchnm.org/files/original/723c82d133e0a3731a3135e2968fa2bb.png"><img class="thumb" src="https://20.rrchnm.org/files/square_thumbnails/723c82d133e0a3731a3135e2968fa2bb.jpg" alt="The Waxworks Room" title="The Waxworks Room"></a></div><div class="item-file image-png"><a class="download-file" href="https://20.rrchnm.org/files/original/2c1cecdba8e4ee731c061b18004c2346.png"><img class="thumb" src="https://20.rrchnm.org/files/square_thumbnails/2c1cecdba8e4ee731c061b18004c2346.jpg" alt="The Waxworks Room, &quot;The Slave Owner Conspiracy&quot; Hotspot" title="The Waxworks Room, &quot;The Slave Owner Conspiracy&quot; Hotspot"></a></div><div class="item-file image-png"><a class="download-file" href="https://20.rrchnm.org/files/original/36592b9efec6c1b7a15d21d544ec2769.png"><img class="thumb" src="https://20.rrchnm.org/files/square_thumbnails/36592b9efec6c1b7a15d21d544ec2769.jpg" alt="&quot;The Slave Owner Conspiracy,&quot; database view" title="&quot;The Slave Owner Conspiracy,&quot; database view"></a></div><div class="item-file image-png"><a class="download-file" href="https://20.rrchnm.org/files/original/363ebc2d600893775054bdf5fa9e3e11.png"><img class="thumb" src="https://20.rrchnm.org/files/square_thumbnails/363ebc2d600893775054bdf5fa9e3e11.jpg" alt="The Lost Museum Classroom" title="The Lost Museum Classroom"></a></div></div>
+    <div class="element-text"><div class="item-file image-png"><a class="download-file" href="/files/original/c97cb7ba95314f3f3e1ad10c11d12468.png"><img class="thumb" src="/files/square_thumbnails/c97cb7ba95314f3f3e1ad10c11d12468.jpg" alt="The Picture Gallery" title="The Picture Gallery"></a></div><div class="item-file image-png"><a class="download-file" href="/files/original/deda0e032e09315c79e46040ed2e586b.png"><img class="thumb" src="/files/square_thumbnails/deda0e032e09315c79e46040ed2e586b.jpg" alt="Lecture Room" title="Lecture Room"></a></div><div class="item-file image-png"><a class="download-file" href="/files/original/eda6140bda2e3b5d70eb6cd37c760ffe.png"><img class="thumb" src="/files/square_thumbnails/eda6140bda2e3b5d70eb6cd37c760ffe.jpg" alt="The Picture Gallery, 2000-2015" title="The Picture Gallery, 2000-2015"></a></div><div class="item-file image-png"><a class="download-file" href="/files/original/415e2ae2a3868a908a64b09ccf5ccb98.png"><img class="thumb" src="/files/square_thumbnails/415e2ae2a3868a908a64b09ccf5ccb98.jpg" alt="The Picture Gallery, 2015 redesign" title="The Picture Gallery, 2015 redesign"></a></div><div class="item-file image-png"><a class="download-file" href="/files/original/08076be007496c3ec12a63c26b098780.png"><img class="thumb" src="/files/square_thumbnails/08076be007496c3ec12a63c26b098780.jpg" alt="A Flash video to guide the user through gameplay." title="A Flash video to guide the user through gameplay."></a></div><div class="item-file image-png"><a class="download-file" href="/files/original/723c82d133e0a3731a3135e2968fa2bb.png"><img class="thumb" src="/files/square_thumbnails/723c82d133e0a3731a3135e2968fa2bb.jpg" alt="The Waxworks Room" title="The Waxworks Room"></a></div><div class="item-file image-png"><a class="download-file" href="/files/original/2c1cecdba8e4ee731c061b18004c2346.png"><img class="thumb" src="/files/square_thumbnails/2c1cecdba8e4ee731c061b18004c2346.jpg" alt="The Waxworks Room, &quot;The Slave Owner Conspiracy&quot; Hotspot" title="The Waxworks Room, &quot;The Slave Owner Conspiracy&quot; Hotspot"></a></div><div class="item-file image-png"><a class="download-file" href="/files/original/36592b9efec6c1b7a15d21d544ec2769.png"><img class="thumb" src="/files/square_thumbnails/36592b9efec6c1b7a15d21d544ec2769.jpg" alt="&quot;The Slave Owner Conspiracy,&quot; database view" title="&quot;The Slave Owner Conspiracy,&quot; database view"></a></div><div class="item-file image-png"><a class="download-file" href="/files/original/363ebc2d600893775054bdf5fa9e3e11.png"><img class="thumb" src="/files/square_thumbnails/363ebc2d600893775054bdf5fa9e3e11.jpg" alt="The Lost Museum Classroom" title="The Lost Museum Classroom"></a></div></div>
 </div>
 
 <!-- If the item belongs to a collection, the following creates a link to that collection. -->
@@ -131,18 +145,6 @@ American Social History Project, CUNY</div>
     <div class="element-text">Roy Rosenzweig Center for History and New Media, GMU
 American Social History Project, CUNY, &#8220;Lost Museum Screenshots,&#8221; <em>RRCHNM20</em>, accessed May 27, 2026, <span class="citation-url">https://20.rrchnm.org/items/show/503</span>.</div>
 </div>
-
-<div id="item-output-formats" class="element">
-    <h2>Output Formats</h2>
-    <div class="element-text">            <ul id="output-format-list">
-                                <li><a href="https://20.rrchnm.org/exhibits/show/the-lost-museum/item/503?output=atom">atom</a></li>
-                                <li><a href="https://20.rrchnm.org/exhibits/show/the-lost-museum/item/503?output=dcmes-xml">dcmes-xml</a></li>
-                                <li><a href="https://20.rrchnm.org/exhibits/show/the-lost-museum/item/503?output=json">json</a></li>
-                                <li><a href="https://20.rrchnm.org/exhibits/show/the-lost-museum/item/503?output=omeka-xml">omeka-xml</a></li>
-                </ul>
-    </div>
-</div>
-
 <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Roy+Rosenzweig+Center+for+History+and+New+Media%2C+GMU%0D%0AAmerican+Social+History+Project%2C+CUNY&amp;rft.description=These+screenshots+are+taken+from+various+moments+of+The+Lost+Museum.+The+locations+of+each+image+are+as+follows%3A1-The+Picture+Gallery2-The+Lecture+Hall3-The+Lost+Museum+original+interface4-The+Lost+Museum+2015+redesign+interface5-The+Picture+Gallery%2C+with+Flash+movie+triggered6-The+Waxworks+Room7-The+Slave+Owner+Conspiracy+object+view8-The+Lost+Museum+Archive9-The+Lost+Museum+Classroom&amp;rft.publisher=Jessica+Dauterive&amp;rft.source=http%3A%2F%2Flostmuseum.cuny.edu%2F&amp;rft.title=Lost+Museum+Screenshots&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F503"></span><div id="item-relations-display-item-relations">
     <h2>Item Relations</h2>
         <p>This item has no relations.</p>
@@ -150,7 +152,7 @@ American Social History Project, CUNY, &#8220;Lost Museum Screenshots,&#8221; <e
 
 </div>
 
-<nav class="item-pagination">
+<nav class="item-pagination" aria-label="Item">
 <ul class="navigation">
         <li id="previous-item" class="previous"><a href="../../../../items/show/502.html">&larr; Previous Item</a></li>
             <li id="next-item" class="next"><a href="../../../../items/show/504.html">Next Item &rarr;</a></li>
@@ -161,7 +163,7 @@ American Social History Project, CUNY, &#8220;Lost Museum Screenshots,&#8221; <e
 
     <footer role="contentinfo">
 
-        <nav role="navigation">
+        <nav role="navigation" aria-label="Footer">
             <ul class="navigation">
     <li>
         <a href="../../../../about-this-site.html">About</a>
@@ -180,7 +182,7 @@ American Social History Project, CUNY, &#8220;Lost Museum Screenshots,&#8221; <e
         </ul>
     </li>
     <li>
-        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+        <a href="/items/search.html?filter=Item+Type:Person">People</a>
     </li>
     <li class="active">
         <a href="../../../../exhibits.html">Histories</a>
@@ -191,7 +193,7 @@ American Social History Project, CUNY, &#8220;Lost Museum Screenshots,&#8221; <e
 </ul>        </nav>
 
         <div id="footer-text">
-                                    <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+                                    <p class="histarthist-logo"><a href="https://historyarthistory.gmu.edu/"><img src="/assets/histarthist-logo.png" width="300" height="84" alt="George Mason University Department of History and Art History" /></a></p>
         </div>
 
         

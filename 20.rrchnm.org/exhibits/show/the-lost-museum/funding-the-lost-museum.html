@@ -6,27 +6,20 @@
     <title>RRCHNM20 | Funding The Lost Museum &middot; The Lost Museum</title>
     <meta name="viewport" content="width=device-width">
 
-    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://20.rrchnm.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://20.rrchnm.org/items/browse?output=atom" />
+    
    
     <!-- Style Sheets -->
-    <link href="http://fonts.googleapis.com/css?family=Crimson+Text:400,600,400italic,600italic|Cabin:400,600,400italic" media="screen" rel="stylesheet" type="text/css" >
+    <link href="../../../themes/neatscape/css/fonts.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../../../plugins/ExhibitBuilder/views/public/css/exhibits.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../../../plugins/ExhibitBuilder/views/shared/exhibit_layouts/file-text/layout.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../../../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
 <link href="../../../plugins/Geolocation/views/shared/css/geolocation-marker.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
 <link href="../../../plugins/Html5Media/views/shared/mediaelement/mediaelementplayer.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../../../themes/neatscape/css/style.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="../../../themes/a11y.css" media="all" rel="stylesheet" type="text/css" >
     <!-- JavaScripts -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript">
-    //<!--
-    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
-</script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script type="text/javascript">
-    //<!--
-    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
-</script>
+    <script type="text/javascript" src="../../../application/views/scripts/javascripts/vendor/jquery.js"></script>
+<script type="text/javascript" src="../../../application/views/scripts/javascripts/vendor/jquery-ui.js"></script>
 <script type="text/javascript" src="../../../application/views/scripts/javascripts/vendor/jquery.ui.touch-punch.js"></script>
 <script type="text/javascript">
     //<!--
@@ -37,22 +30,43 @@
 <script type="text/javascript" src="../../../plugins/Geolocation/views/shared/javascripts/map.js%3Fv=3.2.2"></script>
 <script type="text/javascript" src="../../../plugins/Html5Media/views/shared/mediaelement/mediaelement-and-player.min.js%3Fv=3.0.1"></script>
 <script type="text/javascript" src="../../../themes/neatscape/javascripts/modernizr.min.js%3Fv=3.0.1"></script>
-<!--[if lt IE 9]><script type="text/javascript" src="/themes/neatscape/javascripts/respond.min.js?v=3.0.1"></script><![endif]-->
-<!--[if lt IE 9]><script type="text/javascript" src="/themes/neatscape/javascripts/selectivizr.min.js?v=3.0.1"></script><![endif]--></head>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '80']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
 
-<body class="exhibits show">
+<body class="theme-neatscape exhibits show">
+<a href="#content" id="skipnav">Skip to main content</a>
+    <aside class="notice" aria-label="Archive notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a class="notice-logo" href="https://rrchnm.org" target="_blank" rel="noopener"><img src="/assets/rrchnm-mark.png" width="124" height="120" alt="RRCHNM Logo" style="height: 30px; width: auto; margin-right: 15px;"/></a>
+    <div>
+    This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig Center for History and New Media</a>.
+    </div>
+</aside>
         <header role="banner">
 
         
         
-        <h1 id="site-title"><a href="../../../index.html" >RRCHNM20</a>
-</h1>
+        <p id="site-title"><a href="../../../index.html" >RRCHNM20</a>
+</p>
 
         <div id="search-container">
-            <form id="search-form" name="search-form" role="search" action="https://20.rrchnm.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search" aria-labelledby="submit_search">            <input type="hidden" name="query_type" value="keyword" id="query_type">                <input type="hidden" name="record_types[]" value="Item" id="record_types">                <input type="hidden" name="record_types[]" value="File" id="record_types">                <input type="hidden" name="record_types[]" value="Collection" id="record_types">                <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+            <form id="search-form" name="search-form" role="search" action="/search.html" method="get">    <label for="query" class="visually-hidden">Search this site</label><input type="text" name="query" id="query" value="" placeholder="Search">            <input type="hidden" name="query_type" value="keyword" id="query_type">                <input type="hidden" name="record_types[]" value="Item">                <input type="hidden" name="record_types[]" value="File">                <input type="hidden" name="record_types[]" value="Collection">                <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
         </div>
 
-        <nav id="top-nav">
+        <nav id="top-nav" aria-label="Main">
             <ul class="navigation">
     <li>
         <a href="../../../about-this-site.html">About</a>
@@ -71,7 +85,7 @@
         </ul>
     </li>
     <li>
-        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+        <a href="/items/search.html?filter=Item+Type:Person">People</a>
     </li>
     <li class="active">
         <a href="../../../exhibits.html">Histories</a>
@@ -83,7 +97,7 @@
 
     </header>
 
-    <div role="main">
+    <div role="main" id="content" tabindex="-1" data-pagefind-body><span data-pagefind-meta="title[data-pf-title]" data-pf-title="RRCHNM20 | Funding The Lost Museum"></span><span data-pagefind-filter="Record[data-rt]" data-rt="Exhibit"></span>
 
         
 
@@ -91,28 +105,28 @@
 
 <div id="exhibit-blocks">
 <div class="exhibit-block layout-file-text"><div class="exhibit-items left fullsize captions-center">
-            <object data="https://20.rrchnm.org/files/original/a9721e45cf462bc6b1b20018fa0f0460.PDF" type="application/pdf" style="width: 100%; height: 500px"></object><div class="exhibit-item-caption"><p>The grant proposal for the second&nbsp;<em><a href="../../../items/show/349.html">Who Built America?</a>&nbsp;</em>CD-ROM also included a proposal for&nbsp;<em>Landsapes in Time</em>, a series of historical games that developed into&nbsp;<em>The Lost Museum</em>.</p></div>    </div>
+            <object data="/files/original/a9721e45cf462bc6b1b20018fa0f0460.PDF" type="application/pdf" title="Funding The Lost Museum (PDF)" style="width: 100%; height: 500px"><p><a class="download-file" href="/files/original/a9721e45cf462bc6b1b20018fa0f0460.PDF">Download &ldquo;Funding The Lost Museum&rdquo; (PDF)</a></p></object><div class="exhibit-item-caption"><p>The grant proposal for the second&nbsp;<em><a href="../../../items/show/349.html">Who Built America?</a>&nbsp;</em>CD-ROM also included a proposal for&nbsp;<em>Landsapes in Time</em>, a series of historical games that developed into&nbsp;<em>The Lost Museum</em>.</p></div>    </div>
 <p>Securing the funding to build&nbsp;<em>The Lost Museum</em>&nbsp;took seven years and four grant proposals. In 1995, a grant proposal for <em><a href="../../../items/show/349.html">Who Built America?</a>,</em>&nbsp;the first digital project between the <a href="https://ashp.cuny.edu/">ASHP/CML</a> and what would become the&nbsp;<a href="http://rrchnm.org/">CHNM</a>, included a project called&nbsp;<em>Landscapes in Time</em>. This proposal, pictured on the left or found&nbsp;<a href="http://20.rrchnm.org/admin/files/show/909">here</a>,&nbsp;called for the National Endowment for the Humanities (<a href="https://www.neh.gov/">NEH</a>) to assume a central role in the development of new media scholarship: &ldquo;Just as NEH funding has made a crucial difference in the humanities programming presented on public television, so too we think that the Endowment can provide critical leadership in shaping how history and other humanities disciplines are presented in new media like CD-ROM&rdquo; (<a href="http://20.rrchnm.org/admin/files/show/909">7</a>). In this proposal,&nbsp;<em>Landscapes in Time</em>&nbsp;is described as a four-part CD-ROM series that immersed users in various historical moments through interactive gameplay. <em>Landscapes</em> was not funded in this original grant proposal. However, in 1996, a second, stand-alone proposal for&nbsp;<em>Landscapes in Time&nbsp;</em>received limited research and development funding that allowed the team to begin building a prototype. However, after a series of conversations between ASHP/CML, CHNM, and NEH, it became clear that instead of building various&nbsp;landscapes, the team's time and money would be better spent developing one location dense enough to provide an immersive gaming environment as well as a significant historical narrative&mdash;P.T. Barnum&rsquo;s American Museum.</p></div><div class="exhibit-block layout-file-text"><div class="exhibit-items right fullsize captions-center">
-            <a class="download-file" href="item/503.html"><img class="full" alt="Lost Museum Screenshots" src="https://20.rrchnm.org/files/fullsize/363ebc2d600893775054bdf5fa9e3e11.jpg" title="Lost Museum Screenshots"></a><div class="exhibit-item-caption"><p>"The Lost Museum Classroom" fulfilled the requirements of the NEH's Education Division by providing resources for teachers to use&nbsp;<em>The Lost Musuem</em> in the classroom.</p></div>    </div>
+            <a class="download-file" href="item/503.html"><img class="full" alt="Lost Museum Screenshots" src="/files/fullsize/363ebc2d600893775054bdf5fa9e3e11.jpg" title="Lost Museum Screenshots"></a><div class="exhibit-item-caption"><p>"The Lost Museum Classroom" fulfilled the requirements of the NEH's Education Division by providing resources for teachers to use&nbsp;<em>The Lost Musuem</em> in the classroom.</p></div>    </div>
 <p>In 2000, Josh Brown, Roy Rosenzweig, and Andrea Ades V&aacute;squez, the executive producers of the project, presented the CD-ROM prototype of&nbsp;<em>The Lost Museum</em>&nbsp;to the NEH for production funding. In this meeting, the team sensed reluctance from NEH staff to fund a CD-ROM project. The production costs of developing and releasing a CD-ROM were high, and even higher if intending to release both Mac and PC versions of the game. In addition, the once-booming interest in CD-ROMs was beginning to wane. Brown, Rosenzweig, and V&aacute;squez&nbsp;decided that perhaps building an online game would ease NEH&rsquo;s anxieties over costs and makets and contribute a project to the budding world of gaming on the World Wide Web. The team then submitted a third grant proposal to NEH&rsquo;s Public Projects division for&nbsp;<em>The Lost Museum</em> as an immersive online game. However, it was the fourth grant proposal to NEH&rsquo;s Education Division in 2001 that finally secured the production funding required to begin building the game. The funding from the Education Division financed the virtual space of <em>The Lost Museum</em>, but also required that the team focus on the game&rsquo;s usefulness for teachers and students as well as to a wider public, inspiring a new portion of the project: &ldquo;<a href="http://lostmuseum.cuny.edu/archive/classroom/">The Lost Museum Classroom</a>.&rdquo;</p></div></div>
 
-<div id="exhibit-page-navigation">
+<nav id="exhibit-page-navigation" aria-label="Exhibit page">
         <div id="exhibit-nav-prev">
     <a href="early-collaboration-and-web-de.html" class="previous-page">&larr; Imagining The Lost Museum</a>    </div>
             <div id="exhibit-nav-next">
     <a href="building-the-lost-museum.html" class="next-page">Building The Lost Museum &rarr;</a>    </div>
         <div id="exhibit-nav-up">
     <span class="current-page">Funding The Lost Museum</span>    </div>
-</div>
+</nav>
 
-<nav id="exhibit-pages">
-    <h4><a href="../the-lost-museum.html" >The Lost Museum</a></h4>
+<nav id="exhibit-pages" aria-label="Exhibit pages">
+    <h2><a href="../the-lost-museum.html" >The Lost Museum</a></h2>
     <ul><li><a href="early-collaboration-and-web-de.html">Imagining The Lost Museum</a></li><li class="current"><a href="funding-the-lost-museum.html">Funding The Lost Museum</a></li><li><a href="building-the-lost-museum.html">Building The Lost Museum</a><ul><li><a href="building-the-lost-museum/the-content.html">The Content</a></li><li><a href="building-the-lost-museum/the-tools.html">The Tools</a></li></ul></li><li><a href="legacy-and-historical-gaming.html">Historical Gaming Today</a></li></ul></nav>
     </div>
 
     <footer role="contentinfo">
 
-        <nav role="navigation">
+        <nav role="navigation" aria-label="Footer">
             <ul class="navigation">
     <li>
         <a href="../../../about-this-site.html">About</a>
@@ -131,7 +145,7 @@
         </ul>
     </li>
     <li>
-        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+        <a href="/items/search.html?filter=Item+Type:Person">People</a>
     </li>
     <li class="active">
         <a href="../../../exhibits.html">Histories</a>
@@ -142,7 +156,7 @@
 </ul>        </nav>
 
         <div id="footer-text">
-                                    <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+                                    <p class="histarthist-logo"><a href="https://historyarthistory.gmu.edu/"><img src="/assets/histarthist-logo.png" width="300" height="84" alt="George Mason University Department of History and Art History" /></a></p>
         </div>
 
         

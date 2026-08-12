@@ -6,25 +6,18 @@
     <title>RRCHNM20 | Who Built America?</title>
     <meta name="viewport" content="width=device-width">
 
-    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://20.rrchnm.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://20.rrchnm.org/items/browse?output=atom" />
+    
    
     <!-- Style Sheets -->
-    <link href="http://fonts.googleapis.com/css?family=Crimson+Text:400,600,400italic,600italic|Cabin:400,600,400italic" media="screen" rel="stylesheet" type="text/css" >
+    <link href="../../../../themes/neatscape/css/fonts.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../../../../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
 <link href="../../../../plugins/Geolocation/views/shared/css/geolocation-marker.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
 <link href="../../../../plugins/Html5Media/views/shared/mediaelement/mediaelementplayer.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../../../../themes/neatscape/css/style.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="../../../../themes/a11y.css" media="all" rel="stylesheet" type="text/css" >
     <!-- JavaScripts -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript">
-    //<!--
-    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
-</script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script type="text/javascript">
-    //<!--
-    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
-</script>
+    <script type="text/javascript" src="../../../../application/views/scripts/javascripts/vendor/jquery.js"></script>
+<script type="text/javascript" src="../../../../application/views/scripts/javascripts/vendor/jquery-ui.js"></script>
 <script type="text/javascript" src="../../../../application/views/scripts/javascripts/vendor/jquery.ui.touch-punch.js"></script>
 <script type="text/javascript">
     //<!--
@@ -35,22 +28,43 @@
 <script type="text/javascript" src="../../../../plugins/Geolocation/views/shared/javascripts/map.js%3Fv=3.2.2"></script>
 <script type="text/javascript" src="../../../../plugins/Html5Media/views/shared/mediaelement/mediaelement-and-player.min.js%3Fv=3.0.1"></script>
 <script type="text/javascript" src="../../../../themes/neatscape/javascripts/modernizr.min.js%3Fv=3.0.1"></script>
-<!--[if lt IE 9]><script type="text/javascript" src="/themes/neatscape/javascripts/respond.min.js?v=3.0.1"></script><![endif]-->
-<!--[if lt IE 9]><script type="text/javascript" src="/themes/neatscape/javascripts/selectivizr.min.js?v=3.0.1"></script><![endif]--></head>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '80']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
 
-<body class="items show">
+<body class="theme-neatscape items show">
+<a href="#content" id="skipnav">Skip to main content</a>
+    <aside class="notice" aria-label="Archive notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a class="notice-logo" href="https://rrchnm.org" target="_blank" rel="noopener"><img src="/assets/rrchnm-mark.png" width="124" height="120" alt="RRCHNM Logo" style="height: 30px; width: auto; margin-right: 15px;"/></a>
+    <div>
+    This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig Center for History and New Media</a>.
+    </div>
+</aside>
         <header role="banner">
 
         
         
-        <h1 id="site-title"><a href="../../../../index.html" >RRCHNM20</a>
-</h1>
+        <p id="site-title"><a href="../../../../index.html" >RRCHNM20</a>
+</p>
 
         <div id="search-container">
-            <form id="search-form" name="search-form" role="search" action="https://20.rrchnm.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search" aria-labelledby="submit_search">            <input type="hidden" name="query_type" value="keyword" id="query_type">                <input type="hidden" name="record_types[]" value="Item" id="record_types">                <input type="hidden" name="record_types[]" value="File" id="record_types">                <input type="hidden" name="record_types[]" value="Collection" id="record_types">                <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+            <form id="search-form" name="search-form" role="search" action="/search.html" method="get">    <label for="query" class="visually-hidden">Search this site</label><input type="text" name="query" id="query" value="" placeholder="Search">            <input type="hidden" name="query_type" value="keyword" id="query_type">                <input type="hidden" name="record_types[]" value="Item">                <input type="hidden" name="record_types[]" value="File">                <input type="hidden" name="record_types[]" value="Collection">                <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
         </div>
 
-        <nav id="top-nav">
+        <nav id="top-nav" aria-label="Main">
             <ul class="navigation">
     <li>
         <a href="../../../../about-this-site.html">About</a>
@@ -69,7 +83,7 @@
         </ul>
     </li>
     <li>
-        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+        <a href="/items/search.html?filter=Item+Type:Person">People</a>
     </li>
     <li class="active">
         <a href="../../../../exhibits.html">Histories</a>
@@ -81,7 +95,7 @@
 
     </header>
 
-    <div role="main">
+    <div role="main" id="content" tabindex="-1">
 
         
 
@@ -125,7 +139,7 @@
 <!-- The following returns all of the files associated with an item. -->
 <div id="item-files" class="element">
     <h2>Files</h2>
-    <div class="element-text"><div class="item-file image-png"><a class="download-file" href="https://20.rrchnm.org/files/original/202da9623fdecf92945e63727f7c2e20.png"><img class="thumb" src="https://20.rrchnm.org/files/square_thumbnails/202da9623fdecf92945e63727f7c2e20.jpg" alt="Who Built America?.png" title="Who Built America?.png"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://20.rrchnm.org/files/original/fd04cefd45f868e6526e4ee9060b9dde.jpg"><img class="thumb" src="https://20.rrchnm.org/files/square_thumbnails/fd04cefd45f868e6526e4ee9060b9dde.jpg" alt="audio.jpg" title="audio.jpg"></a></div><div class="item-file image-png"><a class="download-file" href="https://20.rrchnm.org/files/original/ba47f529ab496887764669a773d514fd.png"><img class="thumb" src="https://20.rrchnm.org/files/square_thumbnails/ba47f529ab496887764669a773d514fd.jpg" alt="Screen Shot 2016-05-01 at 9.47.56 PM.png" title="Screen Shot 2016-05-01 at 9.47.56 PM.png"></a></div><div class="item-file image-jpeg"><a class="download-file" href="https://20.rrchnm.org/files/original/5f85ca9fa71b3a837e5f6cdb67ff4011.jpg"><img class="thumb" src="https://20.rrchnm.org/files/square_thumbnails/5f85ca9fa71b3a837e5f6cdb67ff4011.jpg" alt="whobuilt.jpg" title="whobuilt.jpg"></a></div></div>
+    <div class="element-text"><div class="item-file image-png"><a class="download-file" href="/files/original/202da9623fdecf92945e63727f7c2e20.png"><img class="thumb" src="/files/square_thumbnails/202da9623fdecf92945e63727f7c2e20.jpg" alt="Who Built America?.png" title="Who Built America?.png"></a></div><div class="item-file image-jpeg"><a class="download-file" href="/files/original/fd04cefd45f868e6526e4ee9060b9dde.jpg"><img class="thumb" src="/files/square_thumbnails/fd04cefd45f868e6526e4ee9060b9dde.jpg" alt="audio.jpg" title="audio.jpg"></a></div><div class="item-file image-png"><a class="download-file" href="/files/original/ba47f529ab496887764669a773d514fd.png"><img class="thumb" src="/files/square_thumbnails/ba47f529ab496887764669a773d514fd.jpg" alt="Screen Shot 2016-05-01 at 9.47.56 PM.png" title="Screen Shot 2016-05-01 at 9.47.56 PM.png"></a></div><div class="item-file image-jpeg"><a class="download-file" href="/files/original/5f85ca9fa71b3a837e5f6cdb67ff4011.jpg"><img class="thumb" src="/files/square_thumbnails/5f85ca9fa71b3a837e5f6cdb67ff4011.jpg" alt="whobuilt.jpg" title="whobuilt.jpg"></a></div></div>
 </div>
 
 <!-- If the item belongs to a collection, the following creates a link to that collection. -->
@@ -137,18 +151,6 @@
     <h2>Citation</h2>
     <div class="element-text">Alyssa Fahringer, &#8220;Who Built America?,&#8221; <em>RRCHNM20</em>, accessed May 27, 2026, <span class="citation-url">https://20.rrchnm.org/items/show/472</span>.</div>
 </div>
-
-<div id="item-output-formats" class="element">
-    <h2>Output Formats</h2>
-    <div class="element-text">            <ul id="output-format-list">
-                                <li><a href="https://20.rrchnm.org/exhibits/show/history-matters/item/472?output=atom">atom</a></li>
-                                <li><a href="https://20.rrchnm.org/exhibits/show/history-matters/item/472?output=dcmes-xml">dcmes-xml</a></li>
-                                <li><a href="https://20.rrchnm.org/exhibits/show/history-matters/item/472?output=json">json</a></li>
-                                <li><a href="https://20.rrchnm.org/exhibits/show/history-matters/item/472?output=omeka-xml">omeka-xml</a></li>
-                </ul>
-    </div>
-</div>
-
 <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fomeka.org%3Agenerator&amp;rft.creator=Alyssa+Fahringer&amp;rft.contributor=Timeline+JS&amp;rft.description=Screenshot+of+Who+Built+America+on+Timeline+JS&amp;rft.date=Captured+December+9%2C+2014&amp;rft.format=PNG&amp;rft.rights=Public+domain&amp;rft.title=Who+Built+America%3F&amp;rft.identifier=https%3A%2F%2F20.rrchnm.org%2Fitems%2Fshow%2F472"></span><div id="item-relations-display-item-relations">
     <h2>Item Relations</h2>
         <p>This item has no relations.</p>
@@ -156,7 +158,7 @@
 
 </div>
 
-<nav class="item-pagination">
+<nav class="item-pagination" aria-label="Item">
 <ul class="navigation">
         <li id="previous-item" class="previous"><a href="../../../../items/show/471.html">&larr; Previous Item</a></li>
             <li id="next-item" class="next"><a href="../../../../items/show/473.html">Next Item &rarr;</a></li>
@@ -167,7 +169,7 @@
 
     <footer role="contentinfo">
 
-        <nav role="navigation">
+        <nav role="navigation" aria-label="Footer">
             <ul class="navigation">
     <li>
         <a href="../../../../about-this-site.html">About</a>
@@ -186,7 +188,7 @@
         </ul>
     </li>
     <li>
-        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+        <a href="/items/search.html?filter=Item+Type:Person">People</a>
     </li>
     <li class="active">
         <a href="../../../../exhibits.html">Histories</a>
@@ -197,7 +199,7 @@
 </ul>        </nav>
 
         <div id="footer-text">
-                                    <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+                                    <p class="histarthist-logo"><a href="https://historyarthistory.gmu.edu/"><img src="/assets/histarthist-logo.png" width="300" height="84" alt="George Mason University Department of History and Art History" /></a></p>
         </div>
 
         

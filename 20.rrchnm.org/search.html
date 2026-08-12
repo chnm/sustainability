@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html class="" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+        <title>Search &middot; RRCHNM20</title>
+
+    
+        <!-- Stylesheets -->
+    <link href="plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="plugins/Geolocation/views/shared/css/geolocation-marker.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="plugins/Html5Media/views/shared/mediaelement/mediaelementplayer.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="application/views/scripts/css/iconfonts.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="themes/Berlin/css/style.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="themes/a11y.css" media="all" rel="stylesheet" type="text/css" >    <!-- JavaScripts -->
+                    <script type="text/javascript" src="application/views/scripts/javascripts/vendor/jquery.js"></script>
+<script type="text/javascript" src="application/views/scripts/javascripts/vendor/jquery-ui.js"></script>
+<script type="text/javascript" src="application/views/scripts/javascripts/vendor/jquery.ui.touch-punch.js"></script>
+<script type="text/javascript">
+    //<!--
+    jQuery.noConflict();    //-->
+</script>
+<script type="text/javascript" src="plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="plugins/Geolocation/views/shared/javascripts/map.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="plugins/Html5Media/views/shared/mediaelement/mediaelement-and-player.min.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="themes/Berlin/javascripts/vendor/modernizr.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="application/views/scripts/javascripts/vendor/respond.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="themes/Berlin/javascripts/globals.js%3Fv=3.0.1"></script>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '80']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+<link href="pagefind/pagefind-ui.css" media="all" rel="stylesheet" type="text/css" >
+</head>
+ <body id="home" class="theme-berlin two-col">
+<a href="#content" id="skipnav">Skip to main content</a>
+    <aside class="notice" aria-label="Archive notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a class="notice-logo" href="https://rrchnm.org" target="_blank" rel="noopener"><img src="/assets/rrchnm-mark.png" width="124" height="120" alt="RRCHNM Logo" style="height: 30px; width: auto; margin-right: 15px;"/></a>
+    <div>
+    This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig Center for History and New Media</a>.
+    </div>
+</aside>
+            <header>
+                        <div id="site-title"><a href="index.html" ><img src="/files/theme_uploads/4b4fcc995a954f13421b6ad475c4fe3d.png" alt="RRCHNM20" /></a>
+</div>
+
+            <div id="search-container">
+                                <form id="search-form" name="search-form" role="search" action="/search.html" method="get">    <label for="query" class="visually-hidden">Search this site</label><input type="text" name="query" id="query" value="" placeholder="Search">        <div id="advanced-form">
+        <p><a href="/items/search.html">Advanced Search (Items only)</a></p>
+    </div>
+        <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+                            </div>
+        </header>
+
+         <nav id="primary-nav" aria-label="Main">
+             <ul class="navigation">
+    <li>
+        <a href="about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="items/browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="/items/search.html?filter=Item+Type:Person">People</a>
+    </li>
+    <li>
+        <a href="exhibits.html">Histories</a>
+    </li>
+    <li>
+        <a href="items/browse.html">See it All</a>
+    </li>
+</ul>         </nav>
+  
+         <nav id="mobile-nav" aria-label="Main (mobile)">
+             <ul class="navigation" id="mobile-nav-list">
+    <li>
+        <a href="about-this-site.html">About</a>
+        <ul>
+            <li>
+                <a href="about.html">Brief History</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="items/browse/type/project.html">Projects</a>
+        <ul>
+            <li>
+                <a href="neatline-time/timelines/show/1.html">Project Timeline</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="/items/search.html?filter=Item+Type:Person">People</a>
+    </li>
+    <li>
+        <a href="exhibits.html">Histories</a>
+    </li>
+    <li>
+        <a href="items/browse.html">See it All</a>
+    </li>
+</ul>         </nav>
+        
+                               
+    <main id="content" tabindex="-1">
+<div id="search-page">
+    <h1>Search</h1>
+
+    <noscript>
+        <p>Search requires JavaScript to be enabled in your browser. You can
+        still <a href="items/browse.html">browse all items</a>,
+        <a href="exhibits.html">browse the exhibits</a>, or
+        <a href="items/map.html">browse the map</a>.</p>
+    </noscript>
+
+    <p id="search-empty">Type a term in the search box above to search this site.</p>
+
+    <div id="search"></div>
+</div><!-- end search-page -->
+
+</main><!-- end content -->
+
+<footer>
+
+    <div id="footer-content" class="center-div">
+                        <nav aria-label="Footer"><ul class="navigation">
+    <li>
+        <a href="about-this-site.html">About</a>
+    </li>
+    <li>
+        <a href="items/browse/type/project.html">Projects</a>
+    </li>
+    <li>
+        <a href="/items/search.html?filter=Item+Type:Person">People</a>
+    </li>
+    <li>
+        <a href="exhibits.html">Histories</a>
+    </li>
+    <li>
+        <a href="items/browse.html">See it All</a>
+    </li>
+</ul></nav>
+        <p class="histarthist-logo"><a href="https://historyarthistory.gmu.edu/"><img src="/assets/histarthist-logo.png" width="300" height="84" alt="George Mason University Department of History and Art History" /></a></p>
+
+    </div><!-- end footer-content -->
+
+     
+</footer>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        Omeka.showAdvancedForm();
+               Omeka.dropDown();
+    });
+</script>
+
+
+<script src="pagefind/pagefind-ui.js"></script>
+<script>
+    /* The header search box is the single search field on this page: Pagefind's
+       own input is visually hidden (see themes/a11y.css) and driven from here,
+       so there are not two boxes competing. Same approach as the thanksroy and
+       mallhistory archives. */
+    (function () {
+        function getParam(name) {
+            return new URLSearchParams(window.location.search).get(name);
+        }
+
+        window.addEventListener('DOMContentLoaded', function () {
+            new PagefindUI({
+                element: '#search',
+                showImages: false,
+                showSubResults: true,
+                pageSize: 10
+            });
+
+            var headerInput = document.getElementById('query');
+            var emptyMsg = document.getElementById('search-empty');
+
+            function pfInput() {
+                return document.querySelector('#search .pagefind-ui__search-input');
+            }
+
+            /* Pagefind's own input is a visually hidden conduit -- the header
+               box is the real control. Take it out of the tab order and out of
+               the accessibility tree so screen-reader and keyboard users meet
+               one search field, not an invisible second one whose only
+               accessible name is a title attribute. */
+            function hidePagefindInput() {
+                ['.pagefind-ui__search-input', '.pagefind-ui__search-clear']
+                    .forEach(function (sel) {
+                        var el = document.querySelector('#search ' + sel);
+                        if (el) {
+                            el.setAttribute('aria-hidden', 'true');
+                            el.setAttribute('tabindex', '-1');
+                        }
+                    });
+            }
+
+            function run(q) {
+                var el = pfInput();
+                if (!el) { return; }
+                el.value = q;
+                el.dispatchEvent(new Event('input', { bubbles: true }));
+                if (emptyMsg) { emptyMsg.style.display = q ? 'none' : ''; }
+            }
+
+            hidePagefindInput();
+            // Pagefind re-renders its form as results arrive, so re-apply.
+            if (window.MutationObserver) {
+                new MutationObserver(hidePagefindInput)
+                    .observe(document.getElementById('search'),
+                             { childList: true, subtree: true });
+            }
+
+            var initial = getParam('query') || getParam('q') || '';
+            if (headerInput) { headerInput.value = initial; }
+            if (initial) { run(initial); }
+
+            // Progressive enhancement: search as you type, keep the URL shareable.
+            if (headerInput) {
+                var t;
+                headerInput.addEventListener('input', function () {
+                    clearTimeout(t);
+                    var v = headerInput.value;
+                    t = setTimeout(function () {
+                        run(v);
+                        var url = new URL(window.location);
+                        if (v) { url.searchParams.set('query', v); }
+                        else { url.searchParams.delete('query'); }
+                        window.history.replaceState(null, '', url);
+                    }, 200);
+                });
+                var form = document.getElementById('search-form');
+                if (form) {
+                    form.addEventListener('submit', function (e) {
+                        e.preventDefault();
+                        run(headerInput.value);
+                    });
+                }
+            }
+        });
+    })();
+</script>
+</body>
+
+</html>

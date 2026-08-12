@@ -2,42 +2,33 @@
 <html class="" lang="en-US">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     
         <title>Search Items &middot; RRCHNM20</title>
 
-    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="https://20.rrchnm.org/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="https://20.rrchnm.org/items/browse?output=atom" />
+    
         <!-- Stylesheets -->
     <link href="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
 <link href="../plugins/Geolocation/views/shared/css/geolocation-marker.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
 <link href="../plugins/Html5Media/views/shared/mediaelement/mediaelementplayer.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
 <link href="../application/views/scripts/css/iconfonts.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
-<link href="../themes/Berlin/css/style.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >    <!-- JavaScripts -->
-                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript">
-    //<!--
-    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
-</script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script type="text/javascript">
-    //<!--
-    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=3.0.1\" charset=\"utf-8\"><\/script>")    //-->
-</script>
+<link href="../themes/Berlin/css/style.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="../themes/a11y.css" media="all" rel="stylesheet" type="text/css" >    <!-- JavaScripts -->
+                    <script type="text/javascript" src="../application/views/scripts/javascripts/vendor/jquery.js"></script>
+<script type="text/javascript" src="../application/views/scripts/javascripts/vendor/jquery-ui.js"></script>
 <script type="text/javascript" src="../application/views/scripts/javascripts/vendor/jquery.ui.touch-punch.js"></script>
 <script type="text/javascript">
     //<!--
     jQuery.noConflict();    //-->
 </script>
 <script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.js%3Fv=3.2.2"></script>
-<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/leaflet/leaflet-providers.js%3Fv=3.2.2"></script>
 <script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/map.js%3Fv=3.2.2"></script>
 <script type="text/javascript" src="../plugins/Html5Media/views/shared/mediaelement/mediaelement-and-player.min.js%3Fv=3.0.1"></script>
 <script type="text/javascript" src="../themes/Berlin/javascripts/vendor/modernizr.js%3Fv=3.0.1"></script>
-<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="/application/views/scripts/javascripts/vendor/selectivizr.js?v=3.0.1"></script><![endif]-->
 <script type="text/javascript" src="../application/views/scripts/javascripts/vendor/respond.js%3Fv=3.0.1"></script>
 <script type="text/javascript" src="../themes/Berlin/javascripts/globals.js%3Fv=3.0.1"></script>
 <!-- Matomo -->
-<script type="text/javascript">
+<script>
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(['trackPageView']);
@@ -47,37 +38,33 @@
     _paq.push(['setTrackerUrl', u+'matomo.php']);
     _paq.push(['setSiteId', '80']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
 <!-- End Matomo Code -->
-
+<link href="../pagefind/pagefind-ui.css" media="all" rel="stylesheet" type="text/css" >
 </head>
- <body class="items advanced-search">
+ <body class="theme-berlin items advanced-search">
+<a href="#content" id="skipnav">Skip to main content</a>
+    <aside class="notice" aria-label="Archive notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a class="notice-logo" href="https://rrchnm.org" target="_blank" rel="noopener"><img src="/assets/rrchnm-mark.png" width="124" height="120" alt="RRCHNM Logo" style="height: 30px; width: auto; margin-right: 15px;"/></a>
+    <div>
+    This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig Center for History and New Media</a>.
+    </div>
+</aside>
             <header>
-                        <div id="site-title"><a href="../index.html" ><img src="../files/theme_uploads/4b4fcc995a954f13421b6ad475c4fe3d.png" alt="RRCHNM20" /></a>
+                        <div id="site-title"><a href="../index.html" ><img src="/files/theme_uploads/4b4fcc995a954f13421b6ad475c4fe3d.png" alt="RRCHNM20" /></a>
 </div>
 
             <div id="search-container">
-                                <form id="search-form" name="search-form" action="https://20.rrchnm.org/search" method="get">    <input type="text" name="query" id="query" value="" title="Search" aria-labelledby="submit_search">        <div id="advanced-form">
-        <fieldset id="query-types">
-            <legend>Search using this query type:</legend>
-            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
-<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
-<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
-                <fieldset id="record-types">
-            <legend>Search only these record types:</legend>
-                        <input type="checkbox" name="record_types[]" id="record_types-Item" value="Item" checked="checked"> <label for="record_types-Item">Item</label><br>
-                        <input type="checkbox" name="record_types[]" id="record_types-File" value="File" checked="checked"> <label for="record_types-File">File</label><br>
-                        <input type="checkbox" name="record_types[]" id="record_types-Collection" value="Collection" checked="checked"> <label for="record_types-Collection">Collection</label><br>
-                    </fieldset>
-                <p><a href="search.html">Advanced Search (Items only)</a></p>
+                                <form id="search-form" name="search-form" role="search" action="/search.html" method="get">    <label for="query" class="visually-hidden">Search this site</label><input type="text" name="query" id="query" value="" placeholder="Search">        <div id="advanced-form">
+        <p><a href="/items/search.html">Advanced Search (Items only)</a></p>
     </div>
         <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
                             </div>
         </header>
 
-         <div id="primary-nav">
+         <nav id="primary-nav" aria-label="Main">
              <ul class="navigation">
     <li>
         <a href="../about-this-site.html">About</a>
@@ -96,18 +83,18 @@
         </ul>
     </li>
     <li>
-        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+        <a href="/items/search.html?filter=Item+Type:Person">People</a>
     </li>
     <li>
         <a href="../exhibits.html">Histories</a>
     </li>
-    <li>
+    <li class="active">
         <a href="browse.html">See it All</a>
     </li>
-</ul>         </div>
+</ul>         </nav>
   
-         <div id="mobile-nav">
-             <ul class="navigation">
+         <nav id="mobile-nav" aria-label="Main (mobile)">
+             <ul class="navigation" id="mobile-nav-list">
     <li>
         <a href="../about-this-site.html">About</a>
         <ul>
@@ -125,23 +112,21 @@
         </ul>
     </li>
     <li>
-        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+        <a href="/items/search.html?filter=Item+Type:Person">People</a>
     </li>
     <li>
         <a href="../exhibits.html">Histories</a>
     </li>
-    <li>
+    <li class="active">
         <a href="browse.html">See it All</a>
     </li>
-</ul>         </div>
+</ul>         </nav>
         
                                
-    <div id="content">
-
-
+    <main id="content" tabindex="-1">
 <h1>Search Items</h1>
 
-<nav class="items-nav navigation secondary-nav">
+<nav class="items-nav navigation secondary-nav" aria-label="Items">
     <ul class="navigation">
     <li>
         <a href="browse.html">Browse All</a>
@@ -157,283 +142,34 @@
     </li>
 </ul></nav>
 
+<div id="search-page">
+    <noscript>
+        <p>Search requires JavaScript to be enabled in your browser. You can
+        still <a href="browse.html">browse all items</a> or
+        <a href="map.html">browse the map</a>.</p>
+    </noscript>
 
-<form id="advanced-search-form" action="browse.html" method="GET">
-    <div id="search-keywords" class="field">
-        <label for="keyword-search">Search for Keywords</label>        <div class="inputs">
-        <input type="text" name="search" id="keyword-search" value="" size="40">        </div>
-    </div>
-    <div id="search-narrow-by-fields" class="field">
-        <div class="label">Narrow by Specific Fields</div>
-        <div class="inputs">
-                    <div class="search-entry">
-                <select name="advanced[0][joiner]" id="" title="Search Joiner" class="advanced-search-joiner">
-    <option value="and">AND</option>
-    <option value="or">OR</option>
-</select><select name="advanced[0][element_id]" id="" title="Search Field" class="advanced-search-element">
-    <option value="">Select Below </option>
-    <optgroup id="-optgroup-Dublin Core" label="Dublin Core">
-    <option value="50">Title</option>
-    <option value="49">Subject</option>
-    <option value="41">Description</option>
-    <option value="39">Creator</option>
-    <option value="48">Source</option>
-    <option value="45">Publisher</option>
-    <option value="40">Date</option>
-    <option value="37">Contributor</option>
-    <option value="47">Rights</option>
-    <option value="46">Relation</option>
-    <option value="42">Format</option>
-    <option value="44">Language</option>
-    <option value="51">Type</option>
-    <option value="43">Identifier</option>
-    <option value="38">Coverage</option>
-    </optgroup>
-    <optgroup id="-optgroup-Item Type Metadata" label="Item Type Metadata">
-    <option value="59">Deliverables</option>
-    <option value="60">Project URL</option>
-    <option value="58">Staff Members</option>
-    <option value="55">End Date</option>
-    <option value="53">Description</option>
-    <option value="54">Start Date</option>
-    <option value="81">Outreach</option>
-    <option value="61">Funder</option>
-    <option value="62">Partners</option>
-    <option value="63">Technology Used</option>
-    <option value="76">Assistant Director or Manager</option>
-    <option value="77">Director(s)</option>
-    <option value="78">Manager(s)</option>
-    <option value="79">Web Designer(s)</option>
-    <option value="80">Programmers</option>
-    <option value="82">Content Experts</option>
-    <option value="83">Affiliates</option>
-    <option value="84">Website</option>
-    <option value="85">Comments</option>
-    <option value="86">Funding Amount</option>
-    <option value="75">Director or Manager</option>
-    <option value="74">Name</option>
-    <option value="64">Audiences</option>
-    <option value="65">Awards</option>
-    <option value="66">Proposal Co-Authors</option>
-    <option value="67">Where are they now?</option>
-    <option value="68">First Name</option>
-    <option value="69">Last Name</option>
-    <option value="70">Began at CHNM</option>
-    <option value="71">Left CHNM</option>
-    <option value="72">Current Position</option>
-    <option value="73">Position(s) at CHNM</option>
-    <option value="87">Organization URL</option>
-    <option value="52">Title</option>
-    <option value="18">Subject Line</option>
-    <option value="17">Email Body</option>
-    <option value="16">Time Summary</option>
-    <option value="15">Bit Rate/Frequency</option>
-    <option value="14">Director</option>
-    <option value="13">Producer</option>
-    <option value="12">Compression</option>
-    <option value="11">Duration</option>
-    <option value="10">Physical Dimensions</option>
-    <option value="7">Original Format</option>
-    <option value="6">Local URL</option>
-    <option value="5">Transcription</option>
-    <option value="4">Location</option>
-    <option value="3">Interviewee</option>
-    <option value="2">Interviewer</option>
-    <option value="19">From</option>
-    <option value="20">To</option>
-    <option value="21">CC</option>
-    <option value="35">Biographical Text</option>
-    <option value="36">Bibliography</option>
-    <option value="34">Occupation</option>
-    <option value="33">Death Date</option>
-    <option value="32">Birthplace</option>
-    <option value="31">Birth Date</option>
-    <option value="30">Participants</option>
-    <option value="29">Event Type</option>
-    <option value="28">URL</option>
-    <option value="27">Lesson Plan Text</option>
-    <option value="26">Materials</option>
-    <option value="25">Objectives</option>
-    <option value="24">Standards</option>
-    <option value="23">Number of Attachments</option>
-    <option value="22">BCC</option>
-    <option value="1">Text</option>
-    </optgroup>
-</select><select name="advanced[0][type]" id="" title="Search Type" class="advanced-search-type">
-    <option value="" selected="selected">Select Below </option>
-    <option value="contains">contains</option>
-    <option value="does not contain">does not contain</option>
-    <option value="is exactly">is exactly</option>
-    <option value="is empty">is empty</option>
-    <option value="is not empty">is not empty</option>
-    <option value="starts with">starts with</option>
-    <option value="ends with">ends with</option>
-</select><input type="text" name="advanced[0][terms]" id="" value="" size="20" title="Search Terms" class="advanced-search-terms">                <button type="button" class="remove_search" disabled="disabled" style="display: none;">Remove field</button>
-            </div>
-                </div>
-        <button type="button" class="add_search">Add a Field</button>
-    </div>
+    <p id="search-intro">Type a term in the search box above, or narrow the
+    archive with the filters below. Values within a filter combine: choosing two
+    item types finds items that are either one.</p>
 
-    <div id="search-by-range" class="field">
-        <label for="range">Search by a range of ID#s (example: 1-4, 156, 79)</label>        <div class="inputs">
-        <input type="text" name="range" id="range" value="" size="40">        </div>
-    </div>
+    <form id="facets" aria-label="Narrow these items">
+        <div id="facet-groups"></div>
+        <p><button type="button" id="facet-reset" class="button">Clear all filters</button></p>
+    </form>
 
-    <div class="field">
-        <label for="collection-search">Search By Collection</label>        <div class="inputs">
-        <select name="collection" id="collection-search">
-    <option value="">Select Below </option>
-    <option value="0">No Collection</option>
-    <option value="1">20th Anniversary Contributions</option>
-    <option value="2">Digital Projects</option>
-</select>        </div>
-    </div>
+    <h2 id="results-heading">Results</h2>
+    <p id="results-status" role="status" aria-live="polite">Loading the search index&hellip;</p>
+    <ol id="results" class="items-list"></ol>
+    <p id="results-more-wrap" hidden><button type="button" id="results-more" class="button">Show more items</button></p>
+</div><!-- end search-page -->
 
-    <div class="field">
-        <label for="item-type-search">Search By Type</label>        <div class="inputs">
-        <select name="type" id="item-type-search">
-    <option value="">Select Below </option>
-    <option value="14">Dataset</option>
-    <option value="9">Email</option>
-    <option value="8">Event</option>
-    <option value="19">Funding Organization</option>
-    <option value="11">Hyperlink</option>
-    <option value="13">Interactive Resource</option>
-    <option value="10">Lesson Plan</option>
-    <option value="3">Moving Image</option>
-    <option value="4">Oral History</option>
-    <option value="20">Partner</option>
-    <option value="12">Person</option>
-    <option value="15">Physical Object</option>
-    <option value="18">Project</option>
-    <option value="16">Service</option>
-    <option value="17">Software</option>
-    <option value="5">Sound</option>
-    <option value="6">Still Image</option>
-    <option value="1">Text</option>
-    <option value="7">Website</option>
-</select>        </div>
-    </div>
-
-    
-    <div class="field">
-        <label for="tag-search">Search By Tags</label>        <div class="inputs">
-        <input type="text" name="tags" id="tag-search" value="" size="40">        </div>
-    </div>
-
-
-    
-    <div class="field">
-        <label for="featured">Featured/Non-Featured</label>        <div class="inputs">
-        <select name="featured" id="featured">
-    <option value="">Select Below </option>
-    <option value="1">Only Featured Items</option>
-    <option value="0">Only Non-Featured Items</option>
-</select>        </div>
-    </div>
-
-    <div class="field">
-    <div class="two columns alpha">
-        <label for="exhibit">Search by Exhibit</label>    </div>
-    <div class="five columns omega inputs">
-        <select name="exhibit" id="exhibit">
-    <option value="">Select Below </option>
-    <option value="3">CHNM Website Through the Years</option>
-    <option value="4">September 11 Digital Archive</option>
-    <option value="5">Timeline of CHNM Projects, DH Centers, Technologies, Scholarship, &amp; Blogs</option>
-    <option value="7">Papers of the War Department 1784-1800</option>
-    <option value="8">History Matters</option>
-    <option value="9">The Lost Museum</option>
-    <option value="10">The Object of History</option>
-    <option value="12">Making the History of 1989</option>
-    <option value="13">Histories of the National Mall</option>
-</select>    </div>
-</div>
-
-<div class="field">
-    <div class="two columns alpha">
-        <label for="geolocation-mapped">Geolocation Status</label>    </div>
-    <div class="five columns omega inputs">
-        <select name="geolocation-mapped" id="geolocation-mapped">
-    <option value="">Select Below</option>
-    <option value="1">Only Items with Locations</option>
-    <option value="0">Only Items without Locations</option>
-</select>    </div>
-</div>
-
-<div class="field">
-    <div class="two columns alpha">
-        <label for="geolocation-address">Geographic Address</label>    </div>
-    <div class="five columns omega inputs">
-        <input type="text" name="geolocation-address" id="geolocation-address-input" value="" size="40">        <input type="hidden" name="geolocation-latitude" value="" id="geolocation-latitude-input">        <input type="hidden" name="geolocation-longitude" value="" id="geolocation-longitude-input">    </div>
-</div>
-
-<div class="field">
-    <div class="two columns alpha">
-        <label for="geolocation-radius">Geographic Radius (miles)</label>    </div>
-    <div class="five columns omega inputs">
-        <input type="text" name="geolocation-radius" id="geolocation-radius" value="10" size="40">    </div>
-</div>
-
-<script type="text/javascript" src="../plugins/Geolocation/views/shared/javascripts/geocoder.js%3Fv=3.0.1" charset="utf-8"></script><script type="text/javascript">
-(function ($) {
-    function disableOnUnmapped(mappedInput) {
-        var disabled = false;
-        if (mappedInput.val() === '0') {
-            disabled = true;
-        }
-        $('#geolocation-address-input, #geolocation-latitude, #geolocation-longitude, #geolocation-radius').prop('disabled', disabled);
-    }
-
-    $(document).ready(function() {
-        var geocoder = new OmekaGeocoder("nominatim");
-        var pauseForm = true;
-        $('#geolocation-address-input').parents('form').submit(function(event) {
-            // Find the geolocation for the address
-            if (!pauseForm) {
-                return;
-            }
-
-            var form = this;
-            var address = $('#geolocation-address-input').val();
-            if ($.trim(address).length > 0) {
-                event.preventDefault();
-                geocoder.geocode(address).then(function (coords) {
-                    $('#geolocation-latitude-input').val(coords[0]);
-                    $('#geolocation-longitude-input').val(coords[1]);
-                    pauseForm = false;
-                    form.submit();
-                }, function () {
-                    alert('Error: "' + address + '" was not found!');
-                });
-            }
-        });
-
-        var mapped = $('#geolocation-mapped');
-        disableOnUnmapped(mapped);
-        $(mapped).change(function () {
-            disableOnUnmapped($(this));
-        });
-    });
-})(jQuery);
-</script>
-    <div>
-                <input type="submit" class="submit" name="submit_search" id="submit_search_advanced" value="Search for items">
-    </div>
-</form>
-
-<script type="text/javascript" src="../application/views/scripts/javascripts/items-search.js%3Fv=3.0.1" charset="utf-8"></script><script type="text/javascript">
-    jQuery(document).ready(function () {
-        Omeka.Search.activateSearchButtons();
-    });
-</script>
-
-</div><!-- end content -->
+</main><!-- end content -->
 
 <footer>
 
     <div id="footer-content" class="center-div">
-                        <nav><ul class="navigation">
+                        <nav aria-label="Footer"><ul class="navigation">
     <li>
         <a href="../about-this-site.html">About</a>
     </li>
@@ -441,16 +177,16 @@
         <a href="browse/type/project.html">Projects</a>
     </li>
     <li>
-        <a href="https://20.rrchnm.org/items/browse?search=&amp;advanced[0][element_id]=&amp;advanced[0][type]=&amp;advanced[0][terms]=&amp;range=&amp;collection=&amp;type=12&amp;user=&amp;tags=&amp;public=&amp;featured=&amp;exhibit=&amp;geolocation-address=&amp;geolocation-latitude=&amp;geolocation-longitude=&amp;geolocation-radius=10&amp;item_relations_clause_part=subject&amp;item_relations_property_id=&amp;submit_search=Search+for+items&amp;sort_field=Dublin+Core%2CTitle">People</a>
+        <a href="/items/search.html?filter=Item+Type:Person">People</a>
     </li>
     <li>
         <a href="../exhibits.html">Histories</a>
     </li>
-    <li>
+    <li class="active">
         <a href="browse.html">See it All</a>
     </li>
 </ul></nav>
-        <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+        <p class="histarthist-logo"><a href="https://historyarthistory.gmu.edu/"><img src="/assets/histarthist-logo.png" width="300" height="84" alt="George Mason University Department of History and Art History" /></a></p>
 
     </div><!-- end footer-content -->
 
@@ -464,6 +200,217 @@
     });
 </script>
 
+<script src="../themes/page-jump.js"></script>
+
+<script type="module">
+    /* Replaces Omeka's "Advanced Search (Items only)" form, whose action wget
+       could not preserve: it submitted a query string the static server ignores,
+       so it always returned unfiltered page 1 -- a fully labelled control that
+       silently did nothing.
+
+       Built on Pagefind's core API rather than its Default UI, because the
+       Default UI only renders its filter panel once a query has been typed,
+       which would leave this page blank on arrival -- the opposite of what an
+       advanced search form is for. The core API also supports
+       search(null, {filters}), i.e. filter-only browsing with no keyword. */
+    const PAGE = 20;
+
+    const state = {};          // { "Item Type": Set(...), Collection: Set(...) }
+    let pagefind = null, results = [], shown = 0, universe = {};
+
+    const $ = (id) => document.getElementById(id);
+
+    /* This page is the Items section's search, so it is pinned to the 422
+       item pages -- without this it would also return the home page, the two
+       About pages, the exhibits and the collections, which are not items and
+       carry none of the facets below. retrofit.py stamps the Record value on
+       every indexed page; search.html deliberately leaves it unset. */
+    const SCOPE = { Record: { any: ['Item'] } };
+    const HIDDEN = new Set(['Record']);
+
+    function selectedFilters() {
+        // Wrap every group in `any`. Handing Pagefind a bare array means AND --
+        // {'Item Type': ['Person','Project']} asks for items that are both,
+        // which is always empty. The old Omeka form ORed within a field too.
+        const out = Object.assign({}, SCOPE);
+        for (const [group, values] of Object.entries(state)) {
+            if (values.size) { out[group] = { any: [...values] }; }
+        }
+        return out;
+    }
+
+    function readUrlFilters() {
+        /* ?filter=Group:Value, repeatable. The People nav link on every page
+           points here as ?filter=Item+Type:Person. */
+        const params = new URLSearchParams(window.location.search);
+        for (const raw of params.getAll('filter')) {
+            const i = raw.indexOf(':');
+            if (i < 0) { continue; }
+            const group = raw.slice(0, i).trim();
+            const value = raw.slice(i + 1).trim();
+            if (!group || !value) { continue; }
+            (state[group] = state[group] || new Set()).add(value);
+        }
+        return params.get('query') || params.get('q') || '';
+    }
+
+    function writeUrl(query) {
+        const url = new URL(window.location);
+        url.searchParams.delete('filter');
+        for (const [group, values] of Object.entries(state)) {
+            for (const v of values) { url.searchParams.append('filter', group + ':' + v); }
+        }
+        if (query) { url.searchParams.set('query', query); }
+        else { url.searchParams.delete('query'); }
+        window.history.replaceState(null, '', url);
+    }
+
+    function renderFacets(counts) {
+        /* The value LIST comes from the full universe, never from the current
+           result set: values inside one group are OR-ed, so ticking "Person"
+           must not make "Project" vanish -- ticking it too would widen the
+           results, not narrow them. The COUNTS come from Pagefind's
+           totalFilters, which reports each value as if its own group were not
+           yet applied, i.e. how many items ticking it would add. */
+        const wrap = $('facet-groups');
+        wrap.textContent = '';
+        for (const group of Object.keys(universe).sort()) {
+            if (HIDDEN.has(group)) { continue; }
+            const values = counts[group] || {};
+            const names = Object.keys(universe[group]).sort();
+            if (!names.length) { continue; }
+            const fs = document.createElement('fieldset');
+            fs.className = 'facet-group';
+            const lg = document.createElement('legend');
+            lg.textContent = group;
+            fs.appendChild(lg);
+            for (const name of names) {
+                const id = 'facet-' + group.replace(/\W+/g, '-') + '-' +
+                           name.replace(/\W+/g, '-');
+                const label = document.createElement('label');
+                label.className = 'facet-value';
+                label.htmlFor = id;
+                const box = document.createElement('input');
+                box.type = 'checkbox';
+                box.id = id;
+                box.checked = !!(state[group] && state[group].has(name));
+                box.addEventListener('change', () => {
+                    const set = state[group] = state[group] || new Set();
+                    if (box.checked) { set.add(name); } else { set.delete(name); }
+                    if (!set.size) { delete state[group]; }
+                    search();
+                });
+                label.appendChild(box);
+                label.appendChild(document.createTextNode(
+                    ' ' + name + ' (' + (values[name] || 0) + ')'));
+                fs.appendChild(label);
+            }
+            wrap.appendChild(fs);
+        }
+    }
+
+    function renderPage() {
+        const list = $('results');
+        const slice = results.slice(shown, shown + PAGE);
+        Promise.all(slice.map((r) => r.data())).then((data) => {
+            for (const d of data) {
+                const li = document.createElement('li');
+                li.className = 'item record';
+                const h3 = document.createElement('h3');
+                const a = document.createElement('a');
+                a.href = d.url;
+                a.textContent = d.meta && d.meta.title ? d.meta.title : d.url;
+                h3.appendChild(a);
+                li.appendChild(h3);
+                if (d.excerpt) {
+                    const p = document.createElement('p');
+                    p.className = 'item-description';
+                    // Pagefind escapes the excerpt itself and adds <mark>.
+                    p.innerHTML = d.excerpt;
+                    li.appendChild(p);
+                }
+                list.appendChild(li);
+            }
+            shown += slice.length;
+            $('results-more-wrap').hidden = shown >= results.length;
+        });
+    }
+
+    async function facetCounts(q) {
+        /* One query per group, with that group's OWN selections removed, so a
+           value's count answers "how many items would ticking this show?".
+           r.filters alone cannot: with Person ticked it reports Project as 0,
+           because no item is both -- true, but misleading when values inside a
+           group are OR-ed. Pagefind's totalFilters is meant for exactly this
+           but returns all zeros for a filter-only (null) query, so it cannot be
+           relied on here. Two groups, two extra searches -- negligible over a
+           494-page index. */
+        const out = {};
+        for (const group of Object.keys(universe)) {
+            if (HIDDEN.has(group)) { continue; }
+            const f = selectedFilters();
+            delete f[group];
+            const r = await pagefind.search(q || null, { filters: f });
+            out[group] = r.filters[group] || {};
+        }
+        return out;
+    }
+
+    function search() {
+        if (!pagefind) { return; }
+        const q = $('query') ? $('query').value.trim() : '';
+        writeUrl(q);
+        $('results-status').textContent = 'Searching…';
+        pagefind.search(q || null, { filters: selectedFilters() }).then(async (r) => {
+            results = r.results;
+            shown = 0;
+            $('results').textContent = '';
+            $('results-status').textContent = results.length === 1
+                ? '1 item' : results.length + ' items';
+            renderFacets(await facetCounts(q));
+            renderPage();
+        });
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+        const initial = readUrlFilters();
+        const header = $('query');
+        if (header && initial) { header.value = initial; }
+
+        import('../pagefind/pagefind.js').then(async (pf) => {
+            await pf.options({ excerptLength: 30 });
+            await pf.init();
+            pagefind = pf;
+            // Seed the panel with every value, so the facets are on screen
+            // before anything is typed -- the Default UI only draws its filter
+            // panel after a query, which is the opposite of what an advanced
+            // search page is for.
+            universe = await pf.filters();
+            renderFacets(universe);
+            search();
+        }).catch(() => {
+            $('results-status').textContent =
+                'The search index could not be loaded.';
+        });
+
+        if (header) {
+            let t;
+            header.addEventListener('input', () => {
+                clearTimeout(t);
+                t = setTimeout(search, 200);
+            });
+        }
+        const form = $('search-form');
+        if (form) {
+            form.addEventListener('submit', (e) => { e.preventDefault(); search(); });
+        }
+        $('facet-reset').addEventListener('click', () => {
+            for (const k of Object.keys(state)) { delete state[k]; }
+            search();
+        });
+        $('results-more').addEventListener('click', renderPage);
+    });
+</script>
 </body>
 
 </html>

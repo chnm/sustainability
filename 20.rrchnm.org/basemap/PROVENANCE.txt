@@ -1,0 +1,14 @@
+protomaps-leaflet 5.1.0 (MIT)
+
+protomaps-basemap-z0-5.pmtiles
+  Extracted from the Protomaps daily planet build
+  https://build.protomaps.com/20260811.pmtiles  (z0-15, ~120 GB)
+  with:  pmtiles extract <planet> protomaps-basemap-z0-5.pmtiles --maxzoom=5
+
+  Basemap layers derived from OpenStreetMap and Natural Earth.
+  (c) OpenStreetMap contributors, Open Database License (ODbL).
+  https://www.openstreetmap.org/copyright
+
+  Zoom 0-5 covers every view the archive opens by default: the browse map
+  (z4) and the per-item maps (z5 on 50 of 57, z4 on 4). Beyond z5 the vector
+  renderer over-zooms the z5 geometry, which stays sharp but gains no detail.

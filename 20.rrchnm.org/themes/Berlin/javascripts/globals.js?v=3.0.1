@@ -1,3 +1,24 @@
+/* Omeka Berlin theme globals -- patched for WCAG 2.2 AA in the static archive.
+ *
+ * Two changes from the theme as shipped, both SC 2.1.1 Keyboard failures that
+ * between them left a keyboard user unable to reach parts of the navigation at
+ * ANY viewport width:
+ *
+ *   1. dropDown() prepended `<a class="menu">Menu</a>` -- an anchor with no
+ *      href, which is neither focusable nor Enter-operable -- and then hid
+ *      #mobile-nav .navigation. Below 768px #primary-nav is display:none
+ *      (style.css:1954), so that opener was the ONLY route to the site
+ *      navigation. It is a real <button> now, with aria-expanded/aria-controls
+ *      instead of the old trick of stashing state in the element's id.
+ *
+ *   2. showAdvancedForm() injected `<a href="#" id="advanced-search">`. That
+ *      one was focusable, but it is a disclosure with no role, no
+ *      aria-expanded, no aria-controls and no Escape handling (4.1.2, 1.4.13).
+ *      It is a <button> now, and Escape closes it and returns focus.
+ *
+ * The desktop submenu's hover-only reveal is the third failure; it is fixed in
+ * themes/a11y.css with :focus-within, which needs no JS.
+ */
 if (!Omeka) {
     var Omeka = {};
 }
@@ -5,50 +26,79 @@ if (!Omeka) {
 (function ($) {
     Omeka.showAdvancedForm = function () {
         var advancedForm = $('#advanced-form');
-        var searchTextbox = $('#search-form input[type=text]');
-        var searchSubmit = $('#search-form button');
         if (advancedForm.length > 0) {
-            advancedForm.css("display", "none");
-            $('#search-form').addClass("with-advanced").after('<a href="#" id="advanced-search" class="button">Advanced Search</a>');
+            advancedForm.attr('id', 'advanced-form').css("display", "none");
+            $('#search-form').addClass("with-advanced").after(
+                '<button type="button" id="advanced-search" class="button"' +
+                ' aria-expanded="false" aria-controls="advanced-form">' +
+                'Advanced Search</button>');
+            var opener = $('#advanced-search');
+
             advancedForm.click(function (event) {
                 event.stopPropagation();
             });
-            $("#advanced-search").click(function (event) {
+
+            function close() {
+                advancedForm.fadeOut();
+                opener.attr('aria-expanded', 'false');
+            }
+
+            opener.click(function (event) {
                 event.preventDefault();
                 event.stopPropagation();
+                var open = opener.attr('aria-expanded') === 'true';
                 advancedForm.fadeToggle();
-                $(document).click(function (event) {
-                    if (event.target.id == 'query') {
-                        return;
-                    }
-                    advancedForm.fadeOut();
-                    $(this).unbind(event);
-                });
+                opener.attr('aria-expanded', open ? 'false' : 'true');
+                if (!open) {
+                    $(document).on('click.advancedForm', function (event) {
+                        if (event.target.id === 'query') {
+                            return;
+                        }
+                        close();
+                        $(document).off('click.advancedForm');
+                    });
+                }
+            });
+
+            /* 2.1.1 / 1.4.13: dismissible without moving the pointer, and
+               focus goes back to the control that opened it. */
+            $(document).on('keydown', function (event) {
+                if (event.key === 'Escape' &&
+                    opener.attr('aria-expanded') === 'true') {
+                    close();
+                    opener.focus();
+                }
             });
         } else {
             $('#search-form input[type=submit]').addClass("blue button");
         }
-        
-        
     };
-    
-    Omeka.dropDown = function(){
+
+    Omeka.dropDown = function () {
         var dropdownMenu = $('#mobile-nav');
-        dropdownMenu.prepend('<a class="menu">Menu</a>');
-        //Hide the rest of the menu
-        $('#mobile-nav .navigation').hide();
+        if (!dropdownMenu.length) {
+            return;
+        }
+        var list = $('#mobile-nav .navigation');
+        /* retrofit.py gives the list this id so aria-controls can point at it;
+           fall back to setting it here if that ever stops being true. */
+        if (!list.attr('id')) {
+            list.attr('id', 'mobile-nav-list');
+        }
+        dropdownMenu.prepend(
+            '<button type="button" class="menu" aria-expanded="false"' +
+            ' aria-controls="' + list.attr('id') + '">Menu</button>');
+        list.hide();
 
-        //function the will toggle the menu
-        $('.menu').click(function() {
-            var x = $(this).attr('id');
-
-            if (x==1) {
-                $("#mobile-nav .navigation").slideUp();
-                $(this).attr('id', '0');
+        $('#mobile-nav > button.menu').click(function () {
+            var button = $(this);
+            var open = button.attr('aria-expanded') === 'true';
+            if (open) {
+                list.slideUp();
             } else {
-                $("#mobile-nav .navigation").slideDown();
-                $(this).attr('id','1');
+                list.slideDown();
             }
+            button.attr('aria-expanded', open ? 'false' : 'true');
         });
     };
 })(jQuery);

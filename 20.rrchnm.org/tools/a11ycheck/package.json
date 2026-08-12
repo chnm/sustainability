@@ -1,0 +1,13 @@
+{
+  "name": "20-rrchnm-a11ycheck",
+  "private": true,
+  "description": "axe-core + Playwright accessibility audit and functional verification for the 20.rrchnm.org archive",
+  "scripts": {
+    "check": "node run.js",
+    "verify": "node verify.js"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "playwright": "^1.49.0"
+  }
+}

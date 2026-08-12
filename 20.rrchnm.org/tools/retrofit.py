@@ -885,13 +885,22 @@ def fix_drive_image(s):
 
 def fix_map_pages(s, rel):
     """The browse map now has one KML with all 55 markers, so its 2-page
-    pagination is meaningless -- and page 2 would have shown 5."""
+    pagination is meaningless -- and page 2 would have shown 5.
+
+    Runs BEFORE fix_titles: removing the pagination also removes the
+    .page-input form that fix_titles reads to disambiguate repeated titles, so
+    doing it the other way round stamped "(page 1 of 2)" onto a page that no
+    longer has pages. The strip below undoes that on pages already carrying it.
+    """
     if not re.match(r"^items/map", rel.replace(os.sep, "/")):
         return s
     s, n = re.subn(r'\s*<nav class="pagination-nav" aria-label="Pagination'
                    r'(?: \(bottom\))?">.*?</nav>\s*', "\n", s, flags=re.S)
     if n:
         bump("map_pagination_removed", n)
+    s, t = re.subn(r'(<title>[^<]*?) \(page \d+ of \d+\)', r"\1", s)
+    if t:
+        bump("map_title_unpaginated", t)
     # page=1 / page=2 in the params would be sent to a static file that ignores
     # them; drop them so the request is honest about what it fetches.
     s, m = re.subn(r'"module":"geolocation","page":"\d+"',
@@ -1036,6 +1045,8 @@ def process(s, rel):
     s = fix_relations_table(s)
     s = fix_pdf_objects(s)
     s = fix_map_style(s)
+    # before fix_titles: it strips the pagination form that fix_titles reads
+    s = fix_map_pages(s, rel)
     s = fix_titles(s, rel)
 
     # dead interactive content -> static replacements
@@ -1045,7 +1056,6 @@ def process(s, rel):
 
     # media and maps
     s = relativize_media(s)
-    s = fix_map_pages(s, rel)
 
     # analytics last in <head>, so it survives the head edits above
     s = normalize_matomo(s)

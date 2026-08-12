@@ -47,9 +47,13 @@ all four). `tools/harvest.py` stages them outside the tree with a manifest:
 python3 tools/harvest.py --media-dir /path/outside/the/repo
 ```
 
-Until the object bucket is populated and the web server's `/files/` redirect is
-in place, every item image 404s on the deployed site. That is expected, not a
-regression. `files/theme_uploads/` is committed and served from the repo.
+The bucket and the web server's `/files/` redirect are live on
+20th.dev.chnm.gmu.edu: both `/files/square_thumbnails/…` and
+`/files/original/….pdf` return 200 there. They 404 under a bare
+`python3 -m http.server`, which is expected — that is why
+`tools/a11ycheck/run.js` blocks the host rather than treating a missing bucket
+as an accessibility regression. `files/theme_uploads/` is committed and served
+from the repo.
 
 ### Known external dependency
 

@@ -1,0 +1,20 @@
+# Pagefind static-search configuration for the 20.rrchnm.org archive.
+#
+# The static site is served from the repository root, so `site` is ".".
+# Pagefind only indexes pages that carry a `data-pagefind-body` attribute,
+# which tools/retrofit.py adds to `<main id="content">` on the ~499 canonical
+# content pages: the 422 item pages, 2 collections, 71 exhibit narrative pages,
+# the 3 simple pages, the project timeline and the one file page.
+#
+# Everything else is deliberately excluded -- the shared chrome, the wget
+# duplicate route trees (items.html vs items/browse.html), every paginated
+# listing, both tag pages, and the 73 exhibit-scoped `item/` pages that restate
+# an items/show page inside an exhibit frame.
+#
+# The index is COMMITTED: the deploy pipeline only copies files, there is no
+# build step. Rebuild it after any content change, and always AFTER
+# tools/retrofit.py -- Pagefind indexes the HTML as committed, so running it
+# first would bake the dead absolute origin into the result thumbnails.
+#
+#     npx -y pagefind@1.5.2
+site: "."

@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
 <html
   xmlns="https://www.w3.org/1999/xhtml"
-  xml:lang="en"
+  xml:lang="en" lang="en"
   version="XHTML+RDFa 1.0"
   dir="ltr"
   prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"
@@ -200,7 +200,7 @@
       <header class="l-header" role="banner">
         <div class="l-branding">
           <div class="l-region l-region--branding">
-            <div class="panel-pane pane-block pane-system-main-menu">
+            <nav class="panel-pane pane-block pane-system-main-menu" aria-label="Main navigation">
               <ul class="menu">
                 <li class="first collapsed">
                   <a href="strike.html">Exhibits</a>
@@ -220,7 +220,7 @@
                   <a href="../search/index.html" title="">Search</a>
                 </li>
               </ul>
-            </div>
+            </nav>
           </div>
         </div>
 
@@ -230,14 +230,14 @@
               <div class="toback">
                 <img
                   class="backme"
-                  src="../sites/all/themes/amboyna/images/header.png"
+                  src="../sites/all/themes/amboyna/images/header.png" alt=""
                 />
               </div>
               <div class="totop">
                 <a href="../index.html"
                   ><img
                     class="logo"
-                    src="../sites/all/themes/amboyna/images/logo2.png"
+                    src="../sites/all/themes/amboyna/images/logo2.png" alt="The Pilbara Aboriginal Strike — home"
                 /></a>
                 <h1>Timeline</h1>
               </div>
@@ -248,7 +248,7 @@
 
       <div class="l-main">
         <div class="l-content" role="main">
-          <a id="main-content"></a>
+          <a id="main-content" tabindex="-1"></a>
           <div class="panel-pane pane-page-content">
             <div class="panel-pane pane-views pane-timeline">
               <div

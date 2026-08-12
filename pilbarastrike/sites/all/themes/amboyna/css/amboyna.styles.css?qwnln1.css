@@ -93,9 +93,17 @@ a {
   text-decoration: none;
   color: #000; }
 
+/* Accessibility: inline links in body/prose text were the same color as
+   surrounding text with no other visual cue, so they weren't distinguishable
+   without relying on color alone (WCAG 1.4.1). Underline links wherever they
+   appear inside paragraph text; nav, footer, and teaser-title links keep
+   their own distinct treatment and are unaffected. */
+p a {
+  text-decoration: underline; }
+
 /* line 87, ../sass/base/_typography.scss */
 a.orangelink {
-  color: #DB6300;
+  color: #B45100;
   font-weight: 600;
   margin-right: 1.4em; }
   /* line 91, ../sass/base/_typography.scss */
@@ -117,6 +125,7 @@ a.orangelink {
   margin: 0;
   padding: 0.5em 0.6em;
   font-size: 1.1em;
+  font-family: inherit;
   cursor: pointer; }
   @media (min-width: 1px) and (max-width: 660px) {
     /* line 102, ../sass/base/_typography.scss */
@@ -155,7 +164,12 @@ a.orangelink {
   /* line 148, ../sass/base/_typography.scss */
   .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
     background-color: #fff;
-    border-radius: 50%; }
+    border-radius: 50%;
+    padding: 0; }
+/* Accordion section headers are marked up as h2 for a consistent, unbroken heading hierarchy (WCAG 2.2 AA). The bare h2 rule above adds styling meant for standalone page headings (uppercase text, letter-spacing, and a "span" rule that pads/backgrounds any nested span) that isn't appropriate for accordion headers or their jQuery UI icon span, so it's neutralized here. */
+.sectionwrap.accordion h2 {
+  text-transform: none;
+  letter-spacing: normal; }
 /* line 153, ../sass/base/_typography.scss */
 .ui-accordion .ui-accordion-content {
   height: 100% !important;
@@ -381,6 +395,24 @@ iframe {
       /* line 202, ../sass/base/amboyna.scss */
       .front .headerwrap .videofunsies .vidpopup iframe {
         height: 100%; }
+      /* Accessibility: keyboard-reachable close control for the video modal (WCAG 2.1.1) */
+      .front .headerwrap .videofunsies .vidpopup .exitbutt {
+        position: absolute;
+        top: -1.2em;
+        right: -1.2em;
+        z-index: 3;
+        width: 1.6em;
+        height: 1.6em;
+        line-height: 1.4em;
+        font-size: 1.5em;
+        font-weight: 300;
+        font-family: inherit;
+        color: #961c00;
+        background-color: #fff;
+        border: medium none;
+        border-radius: 50%;
+        cursor: pointer;
+        padding: 0; }
   /* line 207, ../sass/base/amboyna.scss */
   .front .headerwrap .headinner {
     position: relative;
@@ -1210,5 +1242,61 @@ iframe {
   /* line 1075, ../sass/base/amboyna.scss */
   .page-node-529 .webform-client-form-529 .captcha legend {
     font-weight: bold; }
+
+/* Accessibility: heading tags were re-leveled sitewide for a correct, sequential
+   heading hierarchy (WCAG 1.3.1 / 2.4.6). These classes preserve each element's
+   original visual style independent of its new, semantically-correct tag. */
+.vis-h5 {
+  font-size: 1.35em;
+  margin: 1em 0;
+  font-weight: 400;
+  text-transform: none;
+  border-top: none;
+  line-height: 1.3;
+  letter-spacing: normal;
+  padding: 0;
+  color: inherit;
+  font-family: inherit; }
+  @media (min-width: 1px) and (max-width: 660px) {
+    .vis-h5 {
+      text-align: center; } }
+.node-type-exhibits .popupfun .popupwrap .pop .srcholder .view-source-ind .srcwrap .vis-h5 {
+  margin: 0; }
+
+.vis-h6 {
+  margin: 0.3em 0;
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #515151;
+  text-transform: none;
+  border-top: none;
+  line-height: 1.3;
+  letter-spacing: normal;
+  padding: 0;
+  font-family: inherit; }
+
+.vis-h4 {
+  color: #961c00;
+  margin: 0.3em 0;
+  font-size: 2em;
+  font-weight: 400;
+  font-family: Garamond, Georgia, Berkeley, serif;
+  text-transform: none;
+  border-top: none;
+  line-height: 1.3;
+  letter-spacing: normal;
+  padding: 0; }
+
+.vis-h2-related {
+  border: none;
+  font-size: 1em;
+  line-height: 1.25;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-family: inherit; }
 
 /*# sourceMappingURL=amboyna.styles.css.map */

@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://earth.google.com/kml/2.0">
+    <Document>
+        <name>Omeka Items KML</name>
+                <Style id="item-info-balloon">
+            <BalloonStyle>
+                <text><![CDATA[
+                    <div class="geolocation_balloon">
+                        <div class="geolocation_balloon_title">$[namewithlink]</div>
+                        <div class="geolocation_balloon_thumbnail">$[description]</div>
+                        <p class="geolocation_balloon_description">$[Snippet]</p>
+                    </div>
+                ]]></text>
+            </BalloonStyle>
+        </Style>
+                <Placemark>
+            <name>Dan Cohen</name>
+            <namewithlink>&lt;a href=&quot;/items/show/2.html&quot; class=&quot;view-item&quot;&gt;Dan Cohen&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/2.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/7186d1a2165b4de2af26c2eabddc2031.jpg&quot; alt=&quot;download.jpeg&quot; title=&quot;download.jpeg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-71.0597732,42.3584308</coordinates>
+            </Point>
+                        <address>Boston</address>
+                    </Placemark>
+                <Placemark>
+            <name>Elena Razlogova</name>
+            <namewithlink>&lt;a href=&quot;/items/show/10.html&quot; class=&quot;view-item&quot;&gt;Elena Razlogova&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/10.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/a0380f08f796df75edcd9d9641a39238.jpg&quot; alt=&quot;razlogovae.jpg&quot; title=&quot;razlogovae.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-73.6400637,45.4585652</coordinates>
+            </Point>
+                        <address>concordia university</address>
+                    </Placemark>
+                <Placemark>
+            <name>TuVinh Vuong</name>
+            <namewithlink>&lt;a href=&quot;/items/show/14.html&quot; class=&quot;view-item&quot;&gt;TuVinh Vuong&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/14.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/5f2959c81767fe11a57101bdf9265158.jpg&quot; alt=&quot;1305be8.jpg&quot; title=&quot;1305be8.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.0364641,38.9072309</coordinates>
+            </Point>
+                        <address>washington, dc</address>
+                    </Placemark>
+                <Placemark>
+            <name>Jessica Finnefrock</name>
+            <namewithlink>&lt;a href=&quot;/items/show/15.html&quot; class=&quot;view-item&quot;&gt;Jessica Finnefrock&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/15.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/b21fe514c025ed69e3c515acbfed8606.jpg&quot; alt=&quot;jessica_finnefrock.jpg&quot; title=&quot;jessica_finnefrock.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.0364641,38.9072309</coordinates>
+            </Point>
+                        <address>washington, dc</address>
+                    </Placemark>
+                <Placemark>
+            <name>Jim Sparrow</name>
+            <namewithlink>&lt;a href=&quot;/items/show/21.html&quot; class=&quot;view-item&quot;&gt;Jim Sparrow&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/21.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/9e022226f1d90845411ab31ff1f63bf1.jpg&quot; alt=&quot;sparrow.jpg&quot; title=&quot;sparrow.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-87.6297982,41.8781136</coordinates>
+            </Point>
+                        <address>Chicago, Ill</address>
+                    </Placemark>
+                <Placemark>
+            <name>Greg Goodale</name>
+            <namewithlink>&lt;a href=&quot;/items/show/22.html&quot; class=&quot;view-item&quot;&gt;Greg Goodale&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/22.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/691b77e24e285c0a12753e3d10016af7.jpg&quot; alt=&quot;GOODALE-392x261.jpg&quot; title=&quot;GOODALE-392x261.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-71.0597732,42.3584308</coordinates>
+            </Point>
+                        <address>Boston, Ma</address>
+                    </Placemark>
+                <Placemark>
+            <name>Peter Strong</name>
+            <namewithlink>&lt;a href=&quot;/items/show/24.html&quot; class=&quot;view-item&quot;&gt;Peter Strong&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/24.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/129754ea5e7e65c6ec8a7b5ef52ef3b6.jpg&quot; alt=&quot;1c559fb.jpg&quot; title=&quot;1c559fb.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-103.2310149,44.0805434</coordinates>
+            </Point>
+                        <address>rapid city, sd</address>
+                    </Placemark>
+                <Placemark>
+            <name>Katharina Hering</name>
+            <namewithlink>&lt;a href=&quot;/items/show/26.html&quot; class=&quot;view-item&quot;&gt;Katharina Hering&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description></description>
+            <Point>
+                <coordinates>-77.0364641,38.9072309</coordinates>
+            </Point>
+                        <address>washington, dc</address>
+                    </Placemark>
+                <Placemark>
+            <name>Simon Kornblith</name>
+            <namewithlink>&lt;a href=&quot;/items/show/27.html&quot; class=&quot;view-item&quot;&gt;Simon Kornblith&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description></description>
+            <Point>
+                <coordinates>-71.1097335,42.3736158</coordinates>
+            </Point>
+                        <address>cambridge, ma</address>
+                    </Placemark>
+                <Placemark>
+            <name>Tom Scheinfeldt</name>
+            <namewithlink>&lt;a href=&quot;/items/show/29.html&quot; class=&quot;view-item&quot;&gt;Tom Scheinfeldt&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/29.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/ae80fbfc93e1c91d7fbd210ee94d53f3.jpg&quot; alt=&quot;5c61c6983cc2746aa9d02cdf9a701c78.jpeg&quot; title=&quot;5c61c6983cc2746aa9d02cdf9a701c78.jpeg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-72.2495231,41.8084314</coordinates>
+            </Point>
+                        <address>storrs, ct</address>
+                    </Placemark>
+                <Placemark>
+            <name>Kristin Lehner</name>
+            <namewithlink>&lt;a href=&quot;/items/show/31.html&quot; class=&quot;view-item&quot;&gt;Kristin Lehner&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description></description>
+            <Point>
+                <coordinates>-77.0364641,38.9072309</coordinates>
+            </Point>
+                        <address>washington, dc</address>
+                    </Placemark>
+                <Placemark>
+            <name>Miles Travis</name>
+            <namewithlink>&lt;a href=&quot;/items/show/32.html&quot; class=&quot;view-item&quot;&gt;Miles Travis&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description></description>
+            <Point>
+                <coordinates>-78.898619,35.9940329</coordinates>
+            </Point>
+                        <address>durham, north carolina</address>
+                    </Placemark>
+                <Placemark>
+            <name>Heather Velez</name>
+            <namewithlink>&lt;a href=&quot;/items/show/33.html&quot; class=&quot;view-item&quot;&gt;Heather Velez&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description></description>
+            <Point>
+                <coordinates>-73.95,40.65</coordinates>
+            </Point>
+                        <address>Brooklyn </address>
+                    </Placemark>
+                <Placemark>
+            <name>Gwen White</name>
+            <namewithlink>&lt;a href=&quot;/items/show/38.html&quot; class=&quot;view-item&quot;&gt;Gwen White&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2">add relations to Gulag and History of 1980</Snippet>
+            <description>&lt;a href=&quot;/items/show/38.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/f93bb3c5a057d72da5137798592c3abf.jpg&quot; alt=&quot;G_White.jpg&quot; title=&quot;G_White.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.0469214,38.8048355</coordinates>
+            </Point>
+                        <address>Alexandria, virginia </address>
+                    </Placemark>
+                <Placemark>
+            <name>Emily Bliss</name>
+            <namewithlink>&lt;a href=&quot;/items/show/42.html&quot; class=&quot;view-item&quot;&gt;Emily Bliss&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description></description>
+            <Point>
+                <coordinates>-77.0474734,38.9007683</coordinates>
+            </Point>
+                        <address>george washington university</address>
+                    </Placemark>
+                <Placemark>
+            <name>Joan Fragaszy Troyano</name>
+            <namewithlink>&lt;a href=&quot;/items/show/43.html&quot; class=&quot;view-item&quot;&gt;Joan Fragaszy Troyano&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/43.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/59f9dcf89f430430ef854e3f98a90577.jpg&quot; alt=&quot;jft.png&quot; title=&quot;jft.png&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.0260229,38.8887861</coordinates>
+            </Point>
+                        <address>Smithsonian Institution, Washington, DC</address>
+                    </Placemark>
+                <Placemark>
+            <name>Stephanie Hurter</name>
+            <namewithlink>&lt;a href=&quot;/items/show/46.html&quot; class=&quot;view-item&quot;&gt;Stephanie Hurter&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/46.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/20eb9d1710c6385befe5b190b07a7525.jpg&quot; alt=&quot;4KwldJzB_400x400.png&quot; title=&quot;4KwldJzB_400x400.png&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.0364641,38.9072309</coordinates>
+            </Point>
+                        <address>washington, dc</address>
+                    </Placemark>
+                <Placemark>
+            <name>Wendi Manuel-Scott</name>
+            <namewithlink>&lt;a href=&quot;/items/show/47.html&quot; class=&quot;view-item&quot;&gt;Wendi Manuel-Scott&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/47.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/e24e707eabf3e44c595925790b662ed3.jpg&quot; alt=&quot;Manuel-Scott Wendi.jpg&quot; title=&quot;Manuel-Scott Wendi.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.308037,38.8321941</coordinates>
+            </Point>
+                        <address>george mason university</address>
+                    </Placemark>
+                <Placemark>
+            <name>Amanda Shuman</name>
+            <namewithlink>&lt;a href=&quot;/items/show/49.html&quot; class=&quot;view-item&quot;&gt;Amanda Shuman&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/49.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/6a54c5a81893f0fd4d412d8dc73303bd.jpg&quot; alt=&quot;Amanda_Shuman.png&quot; title=&quot;Amanda_Shuman.png&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-122.0608718,36.9913856</coordinates>
+            </Point>
+                        <address>university of california, santa cruz</address>
+                    </Placemark>
+                <Placemark>
+            <name>Marty Andolino</name>
+            <namewithlink>&lt;a href=&quot;/items/show/51.html&quot; class=&quot;view-item&quot;&gt;Marty Andolino&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description></description>
+            <Point>
+                <coordinates>-77.1067698,38.8799697</coordinates>
+            </Point>
+                        <address>arlington,va</address>
+                    </Placemark>
+                <Placemark>
+            <name>Jeremy Boggs</name>
+            <namewithlink>&lt;a href=&quot;/items/show/52.html&quot; class=&quot;view-item&quot;&gt;Jeremy Boggs&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/52.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/e5e07b2aa187c35cb4c4aca54648efc0.jpg&quot; alt=&quot;369260f3b9f94d248242686ceb9c33f5.jpeg&quot; title=&quot;369260f3b9f94d248242686ceb9c33f5.jpeg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-78.5079772,38.0335529</coordinates>
+            </Point>
+                        <address>university of virginia</address>
+                    </Placemark>
+                <Placemark>
+            <name>Rustin Crandall</name>
+            <namewithlink>&lt;a href=&quot;/items/show/53.html&quot; class=&quot;view-item&quot;&gt;Rustin Crandall&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/53.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/8b746d30e387087576cceee0b2f9581e.jpg&quot; alt=&quot;1437c5e.jpg&quot; title=&quot;1437c5e.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-122.4194155,37.7749295</coordinates>
+            </Point>
+                        <address>san francisco, ca</address>
+                    </Placemark>
+                <Placemark>
+            <name>Alan Gevinson</name>
+            <namewithlink>&lt;a href=&quot;/items/show/54.html&quot; class=&quot;view-item&quot;&gt;Alan Gevinson&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description></description>
+            <Point>
+                <coordinates>-77.308037,38.8321941</coordinates>
+            </Point>
+                        <address>george mason university</address>
+                    </Placemark>
+                <Placemark>
+            <name>Josh Greenberg</name>
+            <namewithlink>&lt;a href=&quot;/items/show/57.html&quot; class=&quot;view-item&quot;&gt;Josh Greenberg&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/57.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/64337bb3a9c9e62f442656c4eea2abb8.jpg&quot; alt=&quot;josh_greenberg_thumbnail.jpg&quot; title=&quot;josh_greenberg_thumbnail.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-74.0059731,40.7143528</coordinates>
+            </Point>
+                        <address>new york, new york</address>
+                    </Placemark>
+                <Placemark>
+            <name>Olivia Ryan</name>
+            <namewithlink>&lt;a href=&quot;/items/show/60.html&quot; class=&quot;view-item&quot;&gt;Olivia Ryan&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description></description>
+            <Point>
+                <coordinates>-79.9958864,40.4406248</coordinates>
+            </Point>
+                        <address>pittsburgh</address>
+                    </Placemark>
+                <Placemark>
+            <name>Rikk Mulligan</name>
+            <namewithlink>&lt;a href=&quot;/items/show/61.html&quot; class=&quot;view-item&quot;&gt;Rikk Mulligan&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/61.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/79d568d99ecd5eb1520d2550c1057425.jpg&quot; alt=&quot;L__(88)_mulligan_rdax_254x169.JPG&quot; title=&quot;L__(88)_mulligan_rdax_254x169.JPG&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.4360481,37.5407246</coordinates>
+            </Point>
+                        <address>richmond, va</address>
+                    </Placemark>
+                <Placemark>
+            <name>Keith Gianfagna</name>
+            <namewithlink>&lt;a href=&quot;/items/show/62.html&quot; class=&quot;view-item&quot;&gt;Keith Gianfagna&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/62.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/4908be713bea9606ba7c5f159d5b0ed3.jpg&quot; alt=&quot;2041cee.jpg&quot; title=&quot;2041cee.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.0364641,38.9072309</coordinates>
+            </Point>
+                        <address>washington, dc</address>
+                    </Placemark>
+                <Placemark>
+            <name>Raymond Yee</name>
+            <namewithlink>&lt;a href=&quot;/items/show/70.html&quot; class=&quot;view-item&quot;&gt;Raymond Yee&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/70.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/09562d42b71f5105b71c5517b293b5a1.jpg&quot; alt=&quot;57ce9f69e4893e8acb2aba56546b69b6_bigger.jpeg&quot; title=&quot;57ce9f69e4893e8acb2aba56546b69b6_bigger.jpeg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-122.272747,37.8715926</coordinates>
+            </Point>
+                        <address>berkeley california</address>
+                    </Placemark>
+                <Placemark>
+            <name>Amanda Shoemaker</name>
+            <namewithlink>&lt;a href=&quot;/items/show/72.html&quot; class=&quot;view-item&quot;&gt;Amanda Shoemaker&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/72.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/8e0bd53ee583597e0f68d81cd7e9741c.jpg&quot; alt=&quot;amanda-shoemaker.jpg&quot; title=&quot;amanda-shoemaker.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.3063733,38.8462236</coordinates>
+            </Point>
+                        <address>fairfax virginia</address>
+                    </Placemark>
+                <Placemark>
+            <name>Andrew Graulich</name>
+            <namewithlink>&lt;a href=&quot;/items/show/78.html&quot; class=&quot;view-item&quot;&gt;Andrew Graulich &lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description></description>
+            <Point>
+                <coordinates>-84.3879824,33.7489954</coordinates>
+            </Point>
+                        <address>Atlanta, GA</address>
+                    </Placemark>
+                <Placemark>
+            <name>Misha Griffith</name>
+            <namewithlink>&lt;a href=&quot;/items/show/80.html&quot; class=&quot;view-item&quot;&gt;Misha Griffith &lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description></description>
+            <Point>
+                <coordinates>-77.0364641,38.9072309</coordinates>
+            </Point>
+                        <address>Washington, DC</address>
+                    </Placemark>
+                <Placemark>
+            <name>Jennifer Reeder</name>
+            <namewithlink>&lt;a href=&quot;/items/show/83.html&quot; class=&quot;view-item&quot;&gt;Jennifer Reeder&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/83.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/ce19ec16a1e14178c171b7003a766ee1.jpg&quot; alt=&quot;reeder.jpg&quot; title=&quot;reeder.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-111.8910474,40.7607793</coordinates>
+            </Point>
+                        <address>Salt Lake City</address>
+                    </Placemark>
+                <Placemark>
+            <name>Kristopher Kelly</name>
+            <namewithlink>&lt;a href=&quot;/items/show/92.html&quot; class=&quot;view-item&quot;&gt;Kristopher Kelly &lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/92.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/ffcf2172f30b8a5ce85c06d1d593ed37.jpg&quot; alt=&quot;2d2666a.jpg&quot; title=&quot;2d2666a.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-122.4194155,37.7749295</coordinates>
+            </Point>
+                        <address>San Francisco</address>
+                    </Placemark>
+                <Placemark>
+            <name>Andrea Odiorne</name>
+            <namewithlink>&lt;a href=&quot;/items/show/94.html&quot; class=&quot;view-item&quot;&gt;Andrea Odiorne&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/94.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/ea0c7c3a37c31b4ea83673b095b790a9.jpg&quot; alt=&quot;odiorne.jpg&quot; title=&quot;odiorne.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.6536125,39.076767</coordinates>
+            </Point>
+                        <address>loudoun, Virginia</address>
+                    </Placemark>
+                <Placemark>
+            <name>Alaina Harmon</name>
+            <namewithlink>&lt;a href=&quot;/items/show/96.html&quot; class=&quot;view-item&quot;&gt;Alaina Harmon&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/96.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/64096c82ccab9c054b50e651ce7012ee.jpg&quot; alt=&quot;alaina-harmon.jpg&quot; title=&quot;alaina-harmon.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.0364641,38.9072309</coordinates>
+            </Point>
+                        <address>Washington, D.C.</address>
+                    </Placemark>
+                <Placemark>
+            <name>Jessica Kilday</name>
+            <namewithlink>&lt;a href=&quot;/items/show/98.html&quot; class=&quot;view-item&quot;&gt;Jessica Kilday&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/98.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/626e482af877ca318a39ff10c4f2ec10.jpg&quot; alt=&quot;jessica-kilday.jpg&quot; title=&quot;jessica-kilday.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.6536125,39.076767</coordinates>
+            </Point>
+                        <address>loudoun, Virginia</address>
+                    </Placemark>
+                <Placemark>
+            <name>Daisy Martin</name>
+            <namewithlink>&lt;a href=&quot;/items/show/103.html&quot; class=&quot;view-item&quot;&gt;Daisy Martin &lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/103.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/50dbf7da5c2acce878b4ad95ab1a1d8b.jpg&quot; alt=&quot;daisy-martin.jpg&quot; title=&quot;daisy-martin.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-122.1660756,37.424106</coordinates>
+            </Point>
+                        <address>stanford, california</address>
+                    </Placemark>
+                <Placemark>
+            <name>Matt Romaniello</name>
+            <namewithlink>&lt;a href=&quot;/items/show/106.html&quot; class=&quot;view-item&quot;&gt;Matt Romaniello &lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/106.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/074dc4d011f43b5f513c94c7e42c24f0.jpg&quot; alt=&quot;romaniello_matthew.jpg&quot; title=&quot;romaniello_matthew.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-157.8033266,21.3159023</coordinates>
+            </Point>
+                        <address>monoa, hawaii</address>
+                    </Placemark>
+                <Placemark>
+            <name>Jon Olsen</name>
+            <namewithlink>&lt;a href=&quot;/items/show/107.html&quot; class=&quot;view-item&quot;&gt;Jon Olsen&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/107.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/dff87d62754ceca8cd165365ffa8b755.jpg&quot; alt=&quot;olsen.JPG&quot; title=&quot;olsen.JPG&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-72.516667,42.366667</coordinates>
+            </Point>
+                        <address>amherst, Massachusetts</address>
+                    </Placemark>
+                <Placemark>
+            <name>Kari Kraus</name>
+            <namewithlink>&lt;a href=&quot;/items/show/113.html&quot; class=&quot;view-item&quot;&gt;Kari Kraus&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/113.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/f7213f6abee1030b6b1d2a5f3d3881d6.jpg&quot; alt=&quot;kraus.jpg&quot; title=&quot;kraus.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-76.93776,38.9896967</coordinates>
+            </Point>
+                        <address>college park md</address>
+                    </Placemark>
+                <Placemark>
+            <name>Trevor Owens</name>
+            <namewithlink>&lt;a href=&quot;/items/show/120.html&quot; class=&quot;view-item&quot;&gt;Trevor Owens&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/120.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/495f9ea25bedb2bd6e02a81bebf4eab2.jpg&quot; alt=&quot;trevor_owens.jpg&quot; title=&quot;trevor_owens.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.004719,38.888684</coordinates>
+            </Point>
+                        <address>library of Congress, washington DC</address>
+                    </Placemark>
+                <Placemark>
+            <name>Lee Ann Ghajar</name>
+            <namewithlink>&lt;a href=&quot;/items/show/132.html&quot; class=&quot;view-item&quot;&gt;Lee Ann Ghajar &lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description></description>
+            <Point>
+                <coordinates>-77.0364641,38.9072309</coordinates>
+            </Point>
+                        <address>Washington, DC</address>
+                    </Placemark>
+                <Placemark>
+            <name>Connie Moon Sehat</name>
+            <namewithlink>&lt;a href=&quot;/items/show/134.html&quot; class=&quot;view-item&quot;&gt;Connie Moon Sehat&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/134.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/bf46d4643c0b7e640ec6b5d017aaa410.jpg&quot; alt=&quot;connie-moon-sehat.jpg&quot; title=&quot;connie-moon-sehat.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-84.3879824,33.7489954</coordinates>
+            </Point>
+                        <address>Atlanta, GA</address>
+                    </Placemark>
+                <Placemark>
+            <name>Michael Berkowitz</name>
+            <namewithlink>&lt;a href=&quot;/items/show/135.html&quot; class=&quot;view-item&quot;&gt;Michael Berkowitz&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/135.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/b8689dbc3db08c55d89af86b21c857fe.jpg&quot; alt=&quot;2e5572a.jpg&quot; title=&quot;2e5572a.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-71.0597732,42.3584308</coordinates>
+            </Point>
+                        <address>boston, ma</address>
+                    </Placemark>
+                <Placemark>
+            <name>Shekhar Krishnan</name>
+            <namewithlink>&lt;a href=&quot;/items/show/136.html&quot; class=&quot;view-item&quot;&gt;Shekhar Krishnan &lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/136.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/89bda6e15952aebea81d73de863c7a16.jpg&quot; alt=&quot;shekhar_museum_small.JPG&quot; title=&quot;shekhar_museum_small.JPG&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-71.0597732,42.3584308</coordinates>
+            </Point>
+                        <address>Boston, MA</address>
+                    </Placemark>
+                <Placemark>
+            <name>Jim Ashton</name>
+            <namewithlink>&lt;a href=&quot;/items/show/141.html&quot; class=&quot;view-item&quot;&gt;Jim Ashton&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/141.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/dda14b9edcc995857a39cbdf08e02338.jpg&quot; alt=&quot;Jim Ashton.JPG&quot; title=&quot;Jim Ashton.JPG&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-76.6121893,39.2903848</coordinates>
+            </Point>
+                        <address>baltimore</address>
+                    </Placemark>
+                <Placemark>
+            <name>Teresa DeFlitch</name>
+            <namewithlink>&lt;a href=&quot;/items/show/142.html&quot; class=&quot;view-item&quot;&gt;Teresa DeFlitch&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/142.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/aaa92964d9fd122718f1481a8ad12005.jpg&quot; alt=&quot;deflitch-teresa-690x460.png&quot; title=&quot;deflitch-teresa-690x460.png&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-79.9958864,40.4406248</coordinates>
+            </Point>
+                        <address>Pittsburgh, PA</address>
+                    </Placemark>
+                <Placemark>
+            <name>Fred Gibbs</name>
+            <namewithlink>&lt;a href=&quot;/items/show/143.html&quot; class=&quot;view-item&quot;&gt;Fred Gibbs&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/143.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/eecc935b4f3233d3118837ff21cdee16.jpg&quot; alt=&quot;7211f1b8e48578e6264349643b5bf902.jpeg&quot; title=&quot;7211f1b8e48578e6264349643b5bf902.jpeg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-106.609991,35.110703</coordinates>
+            </Point>
+                        <address>Alburquerque, NM</address>
+                    </Placemark>
+                <Placemark>
+            <name>Jon Lesser</name>
+            <namewithlink>&lt;a href=&quot;/items/show/145.html&quot; class=&quot;view-item&quot;&gt;Jon Lesser&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/145.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/14103f43aae896daa56eeed81562ab71.jpg&quot; alt=&quot;3046aca.jpg&quot; title=&quot;3046aca.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-122.4194155,37.7749295</coordinates>
+            </Point>
+                        <address>San Francisco</address>
+                    </Placemark>
+                <Placemark>
+            <name>Emily Perdue</name>
+            <namewithlink>&lt;a href=&quot;/items/show/147.html&quot; class=&quot;view-item&quot;&gt;Emily Perdue&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/147.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/3b64ff732f17bffb995d2ea1a33a6155.jpg&quot; alt=&quot;266cfc3.jpg&quot; title=&quot;266cfc3.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-78.4766781,38.0293059</coordinates>
+            </Point>
+                        <address>Charlottesville</address>
+                    </Placemark>
+        <Placemark>
+            <name>Rwany Sibaja</name>
+            <namewithlink>&lt;a href=&quot;/items/show/367.html&quot; class=&quot;view-item&quot;&gt;Rwany Sibaja&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/367.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/c98ae413536047b55f6f9bdc0dc45ab5.jpg&quot; alt=&quot;Photograph of Rwany Sibaja&quot; title=&quot;Photograph of Rwany Sibaja&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-76.7107494,39.2561164</coordinates>
+            </Point>
+                        <address>University of Maryland Baltimore county</address>
+                    </Placemark>
+                <Placemark>
+            <name>Ellen Weintraub</name>
+            <namewithlink>&lt;a href=&quot;/items/show/373.html&quot; class=&quot;view-item&quot;&gt;Ellen Weintraub&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2"></Snippet>
+            <description>&lt;a href=&quot;/items/show/373.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/b543ec1ec1b2234c83025f64c3bb2512.jpg&quot; alt=&quot;0ae7c9b.jpg&quot; title=&quot;0ae7c9b.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.0469214,38.8048355</coordinates>
+            </Point>
+                        <address>alexandria, VA</address>
+                    </Placemark>
+                <Placemark>
+            <name>Dan Stillman at White Elephant Exchange</name>
+            <namewithlink>&lt;a href=&quot;/items/show/380.html&quot; class=&quot;view-item&quot;&gt;Dan Stillman at White Elephant Exchange&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2">Dan Stillman with one of the prized white elephant gifts, during the holiday gathering at Roy&amp;#039;s house.</Snippet>
+            <description>&lt;a href=&quot;/items/show/380.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/03008a2a41af84e8336500efab0cd4b4.jpg&quot; alt=&quot;320140403_efc7fba853_o.jpg&quot; title=&quot;320140403_efc7fba853_o.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.098381519318,38.877571618324</coordinates>
+            </Point>
+                    </Placemark>
+                <Placemark>
+            <name>Mark Sample Enjoys Bird&#039;s Nest Energy Drink</name>
+            <namewithlink>&lt;a href=&quot;/items/show/381.html&quot; class=&quot;view-item&quot;&gt;Mark Sample Enjoys Bird&amp;#039;s Nest Energy Drink&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2">Mark Sample powered back a bird&amp;#039;s nest energy drink during one of his final visits to the Center before departing for Davidson. Although six cans…</Snippet>
+            <description>&lt;a href=&quot;/items/show/381.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/d253526e8ab54bf18f2759eb6e072b70.jpg&quot; alt=&quot;sample-nest.jpg&quot; title=&quot;sample-nest.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-77.3052496,38.8282768</coordinates>
+            </Point>
+                        <address>research 1, george mason university</address>
+                    </Placemark>
+                <Placemark>
+            <name>SE Asia Satellite Office</name>
+            <namewithlink>&lt;a href=&quot;/items/show/382.html&quot; class=&quot;view-item&quot;&gt;SE Asia Satellite Office&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2">From 2010 to 2012, the research division was headquartered in Ho Chi Minh City, Vietnam. Kris Kelly once came for a visit, making it a real thing.</Snippet>
+            <description>&lt;a href=&quot;/items/show/382.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/944d129dfaf14f0d1b95ce4621c40916.jpg&quot; alt=&quot;IMG_1279.JPG&quot; title=&quot;IMG_1279.JPG&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>106.7382912,10.80793</coordinates>
+            </Point>
+                        <address> 10.808181, 106.738234</address>
+                    </Placemark>
+            </Document>
+</kml>

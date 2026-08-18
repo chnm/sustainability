@@ -4,17 +4,42 @@
 # at the extensionless form. Proven on occupyarchive.org: 272 redirects, 190
 # hits.
 #
-# Ordering matters — Caddy runs `redir` before `handle`, so this fires ahead of
-# the object-storage matcher. Never put /files/... in this map; those are served
-# live from Garage and a redirect would shadow them.
+# Ordering matters — Caddy runs `redir` before `handle`, so these fire ahead of
+# the object-storage matcher, and among the `redir`s below file order decides.
+# The specific rules must therefore stay above the generic one at the bottom.
 @needs_html {
-    not path *.*   # already has an extension: .html (no loop), assets, Garage /files/*
-    not path */    # directories already resolve to index.html
+    not path *.*       # already has an extension: .html (no loop), assets
+    not path */        # directories already resolve to index.html
+    not path /files/*  # Garage-served; extensionless hashes must reach their handler
 }
 
+# On /files/*: the crawl excludes files/original|fullsize|thumbnails|
+# square_thumbnails (see .gitignore), so those reach Garage through the
+# not-found handler — which only runs once every `redir` has declined. This
+# site's own file URLs all carry extensions, so `not path *.*` happens to cover
+# them, but pandemicreligion.org, collectingthesetimes.org and
+# www.preachinggoesviral.org serve /files/original/<hash> with no extension at
+# all. That URL style and this rule cannot coexist: the 301 to <hash>.html wins
+# and the object never gets served. Exclude the prefix outright rather than
+# leave a landmine for whoever adds redirects to those sites next.
+
+# The export never captured /items/browse — Omeka's all-items page — so the
+# generic rule at the bottom 301s it straight into a 404. That is the single
+# biggest miss in the logs (609 requests). Places is the closest page that
+# actually exists: a real Omeka item list (139 items), and the only route to
+# it, since the nav offers only Maps / Explorations / People / Past Events.
+#
+# The trailing-slash forms are spelled out because `not path */` makes
+# @needs_html skip them entirely — they fall through to the file server, find
+# no index.html in items/browse/ or items/browse/type/, and 404 on their own.
+# Exact paths, never /items/browse/*: items/browse/type/{place,people,event}.html
+# are real files and a wildcard here would shadow all three.
+@browse_landing path /items/browse /items/browse/ /items/browse/type /items/browse/type/
+redir @browse_landing /items/browse/type/place.html 301
+
 # {path} drops the query, so every /items/browse?advanced[0][…] facet collapses
-# to /items/browse.html. Right call, but add an explicit entry if the export
-# never captured that page.
+# onto the bare path handled above — the right call, since those facets mean
+# nothing against a frozen export.
 #
 # NOT for Hugo sites — those need /foo/, not /foo.html, and this would 301 them
 # into a 404.

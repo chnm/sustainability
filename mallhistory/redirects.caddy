@@ -1,0 +1,21 @@
+# Legacy CMS URL repair. These sites are static exports of the old Omeka
+# installs, and the export appended .html to every page: /items/show/60 became
+# /items/show/60.html. Everything indexed or cited before the migration points
+# at the extensionless form. Proven on occupyarchive.org: 272 redirects, 190
+# hits.
+#
+# Ordering matters — Caddy runs `redir` before `handle`, so this fires ahead of
+# the object-storage matcher. Never put /files/... in this map; those are served
+# live from Garage and a redirect would shadow them.
+@needs_html {
+    not path *.*   # already has an extension: .html (no loop), assets, Garage /files/*
+    not path */    # directories already resolve to index.html
+}
+
+# {path} drops the query, so every /items/browse?advanced[0][…] facet collapses
+# to /items/browse.html. Right call, but add an explicit entry if the export
+# never captured that page.
+#
+# NOT for Hugo sites — those need /foo/, not /foo.html, and this would 301 them
+# into a 404.
+redir @needs_html {path}.html 301

@@ -14,7 +14,10 @@
      * 3. Prevent adjustments of font size after orientation changes in
      *    IE on Windows Phone and in iOS.
      */
-@import url('https://fonts.googleapis.com/css?family=Enriqueta:400,700|Oswald:300,400');
+/* Self-hosted: this @import used to fetch Enriqueta and Oswald -- the theme's
+   body and heading faces -- from fonts.googleapis.com on every page view, so
+   with Google unreachable the whole site fell back to Helvetica. */
+@import url('fonts.css');
 html {
   font-family: sans-serif;
   /* 1 */

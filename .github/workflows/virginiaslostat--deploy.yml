@@ -16,5 +16,5 @@ jobs:
     with:
       context_root: "virginiaslostat"
       website-devl-fqdn: "valostat.dev.chnm.gmu.edu"
-      website-prod-fqdn: "valostat.dev.chnm.gmu.edu"
+      website-prod-fqdn: "virginiaslostat.org"
       runner_labels: '["self-hosted","IncusOS"]'

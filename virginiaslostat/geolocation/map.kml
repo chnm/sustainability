@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://earth.google.com/kml/2.0">
+    <Document>
+        <name>Omeka Items KML</name>
+                <Style id="item-info-balloon">
+            <BalloonStyle>
+                <text><![CDATA[
+                    <div class="geolocation_balloon">
+                        <div class="geolocation_balloon_title">$[namewithlink]</div>
+                        <div class="geolocation_balloon_thumbnail">$[description]</div>
+                        <p class="geolocation_balloon_description">$[Snippet]</p>
+                    </div>
+                ]]></text>
+            </BalloonStyle>
+        </Style>
+                <Placemark>
+            <name>Rocky Knob Shelter (2019)</name>
+            <namewithlink>&lt;a href=&quot;/items/show/53.html&quot; class=&quot;view-item&quot;&gt;Rocky Knob Shelter (2019)&lt;/a&gt;</namewithlink>
+            <Snippet maxLines="2">Hikers along the Appalachian Trail today can count on some sort of shelter approximately every 8-10 miles along their route. Construction of this…</Snippet>
+            <description>&lt;a href=&quot;/items/show/53.html&quot; class=&quot;view-item&quot;&gt;&lt;img src=&quot;/files/thumbnails/85c6fcf497da7379b936ef7473d0a706.jpg&quot; alt=&quot;Rocky Knob Shelter 2019.jpg&quot; title=&quot;Rocky Knob Shelter 2019.jpg&quot;&gt;&lt;/a&gt;</description>
+            <Point>
+                <coordinates>-80.350778424181,36.808849939115</coordinates>
+            </Point>
+                    </Placemark>
+            </Document>
+</kml>

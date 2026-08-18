@@ -1,0 +1,49 @@
+protomaps-leaflet 5.1.0 (MIT)
+  plugins/Geolocation/views/shared/javascripts/protomaps-leaflet.js
+  https://unpkg.com/protomaps-leaflet@5.1.0/dist/protomaps-leaflet.js
+  Byte-identical to the copy 20.rrchnm.org/ vendors.
+
+protomaps-basemap.pmtiles   31.6 MB, zoom 0-11
+  Basemap layers derived from OpenStreetMap and Natural Earth.
+  (c) OpenStreetMap contributors, Open Database License (ODbL).
+  https://www.openstreetmap.org/copyright
+
+  Two extracts of the Protomaps daily planet build
+  https://build.protomaps.com/20260817.pmtiles  (z0-15, ~120 GB)
+  merged into one archive:
+
+    pmtiles extract <planet> world-z0-5.pmtiles --maxzoom=5
+    pmtiles extract <planet> corridor-z6-11.pmtiles \
+        --bbox=-82.7,35.9,-78.7,38.2 --minzoom=6 --maxzoom=11
+    pmtiles merge world-z0-5.pmtiles corridor-z6-11.pmtiles \
+        protomaps-basemap.pmtiles
+    pmtiles verify protomaps-basemap.pmtiles
+
+  go-pmtiles 1.31.2. Both maps need both halves:
+
+  - The world at z0-5 (15 MB) because the Omeka browse map opens at z4/z5 over
+    a whole-mid-Atlantic view, and the interactive map's inset MiniMap runs 5
+    zoom levels below the main map (z3 at its opening z8). A region-only
+    extract leaves those views mostly blank -- at z5 a 4-degree bbox covers
+    only two of the ~4 tiles a 1000px viewport asks for.
+
+  - The trail corridor at z6-11 (17 MB) because this site is about a 300-mile
+    route through Floyd, Carroll, Grayson and Patrick counties. Over-zoomed z5
+    geometry stays sharp but shows no roads, streams or place names at the
+    scale the argument is made at. The bbox contains the interactive map's own
+    setMaxBounds (37.69,-82.17 to 36.52,-79.16), so panning cannot leave the
+    extract; the browse map at z6+ can, and shows no basemap there.
+
+  Buying more depth costs: the corridor at z0-12 is 36 MB, z0-13 is 76 MB.
+  z11 is where the streams and secondary roads along the old route resolve.
+
+  KNOWN BUG, worked around: `pmtiles extract` with --bbox or --region crashes
+  with `fatal error: concurrent map writes` -- a data race in its HTTP range
+  reader -- roughly half the time, in both 1.30.3 and 1.31.2. Neither
+  --download-threads=1 nor GOMAXPROCS=1 prevents it. It fails loudly and
+  leaves a headerless output file, so it cannot corrupt a good archive
+  silently: just retry until `pmtiles verify` passes. The unbounded --maxzoom=5
+  extract takes a different path and is unaffected.
+
+Refreshing the basemap is optional and rarely worth it -- these are historical
+maps of a route abandoned in 1952, and OSM's coverage of it does not change.

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta class="foundation-mq">
+  
+  <title>Virginia&#039;s Lost AT | Search</title>
+
+  
+
+  <!-- Plugin Stuff -->
+
+  
+  <!-- Stylesheets -->
+<link rel="stylesheet" href="application/views/scripts/css/font-awesome.min.css">
+  <link href="plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="plugins/Geolocation/views/shared/css/geolocation-marker.css%3Fv=3.2.2.css" media="" rel="stylesheet" type="text/css" >
+<link href="themes/Appalachian-Trail-Histories-Theme-master/css/fonts.css" media="all" rel="stylesheet" type="text/css" >
+<link href="themes/Appalachian-Trail-Histories-Theme-master/css/foundation.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="themes/Appalachian-Trail-Histories-Theme-master/css/app.css%3Fv=3.0.1.css" media="all" rel="stylesheet" type="text/css" >
+<link href="themes/a11y.css" media="all" rel="stylesheet" type="text/css" >
+  <!-- JavaScripts -->
+      
+
+
+
+
+  <script type="text/javascript" src="application/views/scripts/javascripts/vendor/jquery.js"></script>
+<script type="text/javascript" src="application/views/scripts/javascripts/vendor/jquery-ui.js"></script>
+<script type="text/javascript" src="application/views/scripts/javascripts/vendor/jquery.ui.touch-punch.js"></script>
+<script type="text/javascript">
+    //<!--
+    jQuery.noConflict();    //-->
+</script>
+<script type="text/javascript" src="plugins/Geolocation/views/shared/javascripts/leaflet/leaflet.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="plugins/Geolocation/views/shared/javascripts/map.js%3Fv=3.2.2"></script>
+<script type="text/javascript" src="themes/Appalachian-Trail-Histories-Theme-master/javascripts/app.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="themes/Appalachian-Trail-Histories-Theme-master/javascripts/vendor/foundation.js%3Fv=3.0.1"></script>
+<script type="text/javascript" src="themes/Appalachian-Trail-Histories-Theme-master/javascripts/vendor/jquery.js%3Fv=3.0.1"></script>
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '12']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+<body id="search" class="search">
+<a href="#primary" id="skipnav">Skip to main content</a>
+    
+<header>
+<div class="row">
+			<div class="large-12 medium-12 columns tinted-image">
+				<p id="site-title"><a href="index.html">Virginia&#039;s Lost AT</a></p>
+			</div>
+		</div>
+		<div class="row">
+			<nav class="large-12 medium-12 columns" id="ap_trail_navigation" aria-label="Main">
+				<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="example-menu" aria-label="Menu"></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+		<div id="top-bar-border">
+		<div class="top-bar" id="example-menu">
+
+
+				<div id="responsive-menu">
+					<div class="top-bar-left">
+
+								        <!-- Left Nav Section -->
+
+
+				        <ul class="menu data-dropdown-menu vertical medium-horizontal">
+    <li>
+        <a href="index.html">Home</a>
+    </li>
+    <li>
+        <a href="exhibits/show/history.html">History</a>
+    </li>
+    <li>
+        <a href="items/browse.html">Archive</a>
+    </li>
+    <li>
+        <a href="teaching-case-studies.html">Teaching Case Studies</a>
+    </li>
+    <li>
+        <a href="interactivemap.html">Interactive Map</a>
+    </li>
+    <li>
+        <a href="about.html">About</a>
+    </li>
+    <li>
+        <a href="geolocation/map/browse.html">Map</a>
+    </li>
+</ul>
+
+
+
+
+</div>
+
+<div class="top-bar-right"></div>
+ </div>
+ </div>
+ </div>
+</nav>
+ </div>
+</header>
+	<div class="row" id="main-body">
+
+		<main class="large-12 small-12 columns" id="primary" tabindex="-1">
+    <div class="row">
+        <div class="large-12 medium-12 columns">
+            <div class="page-header"><h1>Search</h1></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <p>Searches the full text of every page in this archive: the 76
+            archive items, the five exhibits and their pages, and the site's own
+            pages. Everything runs in your browser -- no search server is
+            involved.</p>
+            <form id="search-form" class="archive-search" role="search">
+                <label for="search-query">Search this archive</label>
+                <input type="search" id="search-query" name="query"
+                       autocomplete="off" autocapitalize="off"
+                       spellcheck="false">
+                <button type="submit">Search</button>
+            </form>
+            <div id="search-app" data-search-mode="site"
+                 data-pagefind-base="/pagefind/">
+                <p class="search-status" id="search-status" role="status"
+                   aria-live="polite"></p>
+                <div id="search-results"></div>
+                <div id="search-more"></div>
+            </div>
+            <noscript>
+                <p class="missing-embed">This archive's search runs in the
+                browser, so it needs JavaScript. Without it, browse
+                <a href="items/browse.html">all 76 items</a>, the
+                <a href="items/tags.html">tag list</a>, or the
+                <a href="exhibits/show/history.html">history exhibit</a>.</p>
+            </noscript>
+        </div>
+    </div>
+</main>
+</div>
+	<footer class="row">
+			<div class="large-9 small-12 columns footer-block footer-logos">
+				<div style="text-align:right;"><a href="https://rrchnm.org"><img src="/assets/rrchnm-wordmark.png" width="266" height="50" style="float:left;" alt="Roy Rosenzweig Center for History and New Media" /></a>           <a href="https://www.virginiahumanities.org/"><img src="/assets/virginia-humanities-wordmark.png" width="420" height="50" alt="Virginia Humanities" /></a></div>
+			</div>
+			<div class="large-3 small-12 columns footer-block footer-credit">
+				<p class="histarthist-logo"><a href="https://historyarthistory.gmu.edu/"><img src="/assets/histarthist-logo.png" width="900" height="251" alt="George Mason University Department of History and Art History" /></a></p>
+			</div>
+	</footer>
+<script src="themes/search.js"></script>
+</body>
+</html>

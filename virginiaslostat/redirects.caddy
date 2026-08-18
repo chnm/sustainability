@@ -1,0 +1,70 @@
+# Legacy CMS URL repair. These sites are static exports of the old Omeka
+# installs, and the export appended .html to every page: /items/show/60 became
+# /items/show/60.html. Everything indexed or cited before the migration points
+# at the extensionless form. Proven on occupyarchive.org: 272 redirects, 190
+# hits.
+#
+# Ordering matters — Caddy runs `redir` before `handle`, so these fire ahead of
+# the object-storage matcher, and among the `redir`s below file order decides.
+# The specific rules must therefore stay above the generic one at the bottom.
+#
+# This site takes over virginiaslostat.org itself, so these rules also decide
+# whether every citation printed before the migration still resolves. Each was
+# exercised against a running Caddy 2.10.2 serving this directory.
+@needs_html {
+	not path *.*       # already has an extension: .html (no loop), assets
+	not path */        # directories already resolve to index.html
+	not path /files/*  # Garage-served; extensionless hashes must reach their handler
+}
+
+# On /files/*: the crawl excludes files/original|fullsize|thumbnails|
+# square_thumbnails (see .gitignore), so those reach Garage through the
+# not-found handler — which only runs once every `redir` has declined. This
+# site's own file URLs all carry extensions, so `not path *.*` happens to cover
+# them, but pandemicreligion.org, collectingthesetimes.org and
+# www.preachinggoesviral.org serve /files/original/<hash> with no extension at
+# all. That URL style and this rule cannot coexist: the 301 to <hash>.html wins
+# and the object never gets served. Exclude the prefix outright rather than
+# leave a landmine for whoever adds redirects to this site next.
+
+# The old Omeka search endpoint. Nothing on the site ever linked to it — the
+# theme rendered no search box at all — but it answered 200 for years, so
+# bookmarks and referrer logs exist. search.html reads the same `query=`
+# parameter Omeka used, so the search survives the hop.
+@omeka_search path /search /search/
+redir @omeka_search /search.html?{query} 302
+
+# Tag browsing. The export captured 52 of these as real files whose NAME holds
+# the query (`items/browse?tags=Fries.html`), which cannot be addressed through
+# a redirect without re-encoding the '?'. items/search.html accepts `tags=` —
+# the field name the old advanced-search form used — so the tag arrives as a
+# live facet instead, which also covers the tags whose listing ran to several
+# pages. Must stay above the generic rule, which drops the query.
+@omeka_tag_browse {
+	path /items/browse /items/browse/ /items/browse/page/*
+	query tags=*
+}
+redir @omeka_tag_browse /items/search.html?tags={http.request.uri.query.tags} 302
+
+# Two shapes the generic rule cannot serve.
+#
+# /items and /items/ — Omeka's own all-items URL. The export has no items.html,
+# so the generic rule would 301 it into a 404; items/browse.html is the page it
+# means.
+#
+# The trailing-slash forms are spelled out because `not path */` makes
+# @needs_html skip them entirely — they fall through to the file server, find no
+# index.html in items/ or items/browse/, and 404 on their own. Exact paths, not
+# /items/*: items/show/<id>.html and items/browse/page/<n>.html are real files
+# and a wildcard here would shadow every one of them.
+@browse_landing path /items /items/ /items/browse/
+redir @browse_landing /items/browse.html 301
+
+# {path} drops the query, so every /items/browse?advanced[0][…] facet collapses
+# onto the bare path — the right call, since those facets mean nothing against a
+# frozen export, and the one that does still mean something (tags=) is handled
+# above.
+#
+# NOT for Hugo sites — those need /foo/, not /foo.html, and this would 301 them
+# into a 404.
+redir @needs_html {path}.html 301

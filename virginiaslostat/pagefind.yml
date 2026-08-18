@@ -1,0 +1,36 @@
+# Pagefind static-search configuration for the virginiaslostat.org archive.
+#
+# The archive is served from the repository root, so `site` is ".".
+#
+# Pagefind indexes only pages that carry a `data-pagefind-body` attribute, which
+# sits on `<main id="primary">` on the 103 canonical content pages: the 76 item
+# pages, the 23 exhibit pages, and index/about/teaching-case-studies/
+# interactivemap. That leaves out the wget artifacts,
+# which are all pagination or facet views of content indexed elsewhere -- the 74
+# `items/browse…` captures (5 paginated pages x 1 unfiltered + 52 tag filters +
+# their paginated forms), `items/tags.html`, and `geolocation/map/browse.html`.
+# The 12 `exhibits/show/history/item/N.html` pages are exhibit-scoped
+# restatements of item pages and are left out for the same reason.
+#
+# The facet values (Record, Format, Creator, Tag) ride on data- attributes so
+# they can be normalised without touching what the page displays, and so a
+# visible filter element's text is not also indexed as body text -- the origin's
+# Format values run to 13 spellings of 9 formats, which would otherwise split
+# into near-duplicate buckets.
+#
+# The glob is Pagefind's default; every page it should skip is excluded by the
+# absence of data-pagefind-body rather than by a path rule. Worth knowing if a
+# narrower one is ever wanted: Pagefind 1.5.2 rejects `{*.html,!(x)/**/*.html}`
+# as an invalid glob, and the negation on its own misses the root-level pages.
+site: "."
+glob: "**/*.html"
+
+# Belt and braces. The chrome already sits outside <main>, so none of this is
+# reachable from data-pagefind-body -- but these selectors also catch the navs
+# INSIDE the content region (pagination, the items strip), whose "Browse All /
+# Next / Last" text would otherwise be indexed on all 103 pages.
+exclude_selectors:
+  - "#skipnav"
+  - "header"
+  - "footer"
+  - "nav"

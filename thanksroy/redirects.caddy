@@ -4,17 +4,47 @@
 # at the extensionless form. Proven on occupyarchive.org: 272 redirects, 190
 # hits.
 #
-# Ordering matters — Caddy runs `redir` before `handle`, so this fires ahead of
-# the object-storage matcher. Never put /files/... in this map; those are served
-# live from Garage and a redirect would shadow them.
+# Ordering matters — Caddy runs `redir` before `handle`, so these fire ahead of
+# the object-storage matcher, and among the `redir`s below file order decides.
+# The specific rules must therefore stay above the generic one at the bottom.
 @needs_html {
-    not path *.*   # already has an extension: .html (no loop), assets, Garage /files/*
-    not path */    # directories already resolve to index.html
+    not path *.*       # already has an extension: .html (no loop), assets
+    not path */        # directories already resolve to index.html
+    not path /files/*  # Garage-served; extensionless hashes must reach their handler
 }
 
+# On /files/*: the crawl excludes files/original|fullsize|thumbnails|
+# square_thumbnails (see .gitignore), so those reach Garage through the
+# not-found handler — which only runs once every `redir` has declined. This
+# site's own file URLs all carry extensions, so `not path *.*` happens to cover
+# them, but pandemicreligion.org, collectingthesetimes.org and
+# www.preachinggoesviral.org serve /files/original/<hash> with no extension at
+# all. That URL style and this rule cannot coexist: the 301 to <hash>.html wins
+# and the object never gets served. Exclude the prefix outright rather than
+# leave a landmine for whoever adds redirects to those sites next.
+
+# Path-style pagination — /items/browse/2 — is what the logs still ask for, and
+# the generic rule below turns it into /items/browse/2.html, which does not
+# exist (33 requests across /1 … /17). The export holds those listings as
+# items/browse?page=N.html; %3F is exactly how the exported pages link to one
+# another, and the file server decodes it back to the literal `?` in the
+# filename. Bounded to the 17 pages that were captured, so a stray higher
+# number falls through to the generic rule instead of 301ing onto a missing
+# file.
+@browse_page path_regexp browsepage ^/items/browse/([1-9]|1[0-7])/?$
+redir @browse_page /items/browse%3Fpage={re.browsepage.1}.html 301
+
+# Anything else below /items/browse/ lands on the real browse page. This also
+# covers the bare trailing slash, which `not path */` makes @needs_html skip
+# altogether — it falls through to the file server, finds no items/browse/
+# directory to serve, and 404s. A wildcard is safe here precisely because
+# nothing lives under items/browse/ in this export; do not copy this line to
+# mallhistory, where items/browse/type/*.html are real files.
+@browse_other path /items/browse/ /items/browse/*
+redir @browse_other /items/browse.html 301
+
 # {path} drops the query, so every /items/browse?advanced[0][…] facet collapses
-# to /items/browse.html. Right call, but add an explicit entry if the export
-# never captured that page.
+# to /items/browse.html, which this export did capture.
 #
 # NOT for Hugo sites — those need /foo/, not /foo.html, and this would 301 them
 # into a 404.

@@ -53,42 +53,98 @@
 
             //For homepage
             if( $('.front').length) {
-                //Pull up the pop up
-                $( ".homevid .button" ).click(function() {
-                    $('.videofunsies').show();
-                });
+                var $videoTrigger = $('.homevid .button');
+                var $videoModal = $('.videofunsies');
+                var $videoClose = $videoModal.find('.exitbutt');
 
-                //Exit out of the pop up
-                $( ".exitbutt, .overlay" ).click(function() {
-                    var holdme =  $('.vidpopup').html();
-                    $('.videofunsies').hide();
+                function openVideoModal() {
+                    $videoModal.show().attr('aria-hidden', 'false');
+                    $videoClose.trigger('focus');
+                }
+
+                function closeVideoModal() {
+                    var holdme = $('.vidpopup').html();
+                    $videoModal.hide().attr('aria-hidden', 'true');
                     $('.vidpopup').html(holdme);
                     //  console.log(holdme);
+                    $videoTrigger.trigger('focus');
+                }
+
+                //Pull up the pop up
+                $videoTrigger.click(openVideoModal);
+
+                //Exit out of the pop up
+                $( ".exitbutt, .overlay" ).click(closeVideoModal);
+
+                //Exit out of the pop up with the Escape key
+                $(document).keydown(function(e) {
+                    if (e.key === 'Escape' && $videoModal.is(':visible')) {
+                        closeVideoModal();
+                    }
                 });
             }
 
             //For Exhibits
             if( $('.node-type-exhibits').length) {
-                //Clicking on a source
-                $( ".accontent article" ).click(function() {
-                    var $indexofsrc = $(this).index() + 1;
-                    var $indexofsection = $(this).parent().parent().index()/2 + 0.5;
+                var $exhibitPopup = $('.popupfun');
+                var $lastSourceTrigger = null;
 
-                    $('.popupfun').show();
+                //Make each source card keyboard-operable
+                $( ".accontent article" ).each(function() {
+                    var titleText = $(this).find('.node__title').first().text().replace(/^\s+|\s+$/g, '');
+                    $(this).attr({
+                        'role': 'button',
+                        'tabindex': '0',
+                        'aria-label': titleText ? ('View source: ' + titleText) : 'View source details'
+                    });
+                });
+
+                function openSourcePopup($trigger) {
+                    var $indexofsrc = $trigger.index() + 1;
+                    var $indexofsection = $trigger.parent().parent().index()/2 + 0.5;
+
+                    $lastSourceTrigger = $trigger;
+
+                    $exhibitPopup.show().attr('aria-hidden', 'false');
                     $('.pop.sec'+$indexofsection+' .srcholder.src'+$indexofsrc).show();
 
-                    // console.log( $(this).find('.node__links a') );
+                    // console.log( $trigger.find('.node__links a') );
                     //Make me a "View in Archive" Link
-                    var $htmlhold = $(this).find('.node__links a').attr("href");
+                    var $htmlhold = $trigger.find('.node__links a').attr("href");
                     $('.pop.sec'+$indexofsection).before('<a target="_blank" class="archivelink" href="'+$htmlhold+'">View in Archive</a>');
 
+                    $exhibitPopup.find('.exitbutt').trigger('focus');
+                }
 
+                function closeSourcePopup() {
+                    $exhibitPopup.hide().attr('aria-hidden', 'true');
+                    $('.pop .srcholder').hide();
+                    if ($lastSourceTrigger && $lastSourceTrigger.length) {
+                        $lastSourceTrigger.trigger('focus');
+                    }
+                }
+
+                //Clicking on a source
+                $( ".accontent article" ).on('click', function() {
+                    openSourcePopup($(this));
+                });
+
+                //Activating a source with the keyboard
+                $( ".accontent article" ).on('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
+                        e.preventDefault();
+                        openSourcePopup($(this));
+                    }
                 });
 
                 //Exit out of the pop up
-                $( ".exitbutt, .overlay" ).click(function() {
-                    $('.popupfun').hide();
-                    $('.pop .srcholder').hide();
+                $( ".node-type-exhibits .exitbutt, .node-type-exhibits .overlay" ).click(closeSourcePopup);
+
+                //Exit out of the pop up with the Escape key
+                $(document).keydown(function(e) {
+                    if (e.key === 'Escape' && $exhibitPopup.is(':visible')) {
+                        closeSourcePopup();
+                    }
                 });
 
             }
@@ -113,8 +169,21 @@
                         $(this).find('.togglewrap').remove();
                     }
 
-                    //When you click on togglewrap, toggle
-                    $( ".togglewrap" ).click(function() {
+                    //Make the toggle keyboard-operable
+                    $(this).find('.togglewrap').attr({
+                        'role': 'button',
+                        'tabindex': '0'
+                    });
+
+                    //When you click (or press Enter/Space) on togglewrap, toggle
+                    function toggleTranscriptTranslation(e) {
+                        if (e.type === 'keydown') {
+                            if (e.key !== 'Enter' && e.key !== ' ' && e.key !== 'Spacebar') {
+                                return;
+                            }
+                            e.preventDefault();
+                        }
+
                         if( $('.srctranscript.selected').length) {
                             //Turn on Translation
                             $('.srctranscript.selected').removeClass('selected');
@@ -123,6 +192,7 @@
                             $('.srctransclate .togglewrap').hide(); //hide the translation button
                             $('.srctranscript .togglewrap').show(); //show the transcript button
                             $('.srctransclate').addClass("selected");
+                            $('.srctranscript .togglewrap').trigger('focus');
                         }
                         else{
                             //Turn on Transcription
@@ -132,8 +202,11 @@
                             $('.srctransclate .togglewrap').show(); //show the translation button
                             $('.srctranscript .togglewrap').hide(); //hide the transcript button
                             $('.srctranscript').addClass("selected");
+                            $('.srctransclate .togglewrap').trigger('focus');
                         }
-                    });
+                    }
+
+                    $( ".togglewrap" ).on('click keydown', toggleTranscriptTranslation);
 
                     //If there isn't any Related Links, delete the h4
                     if( !$('.srcrelated article').length) {
@@ -148,10 +221,10 @@
                             var $temptit = $(this).find('p').html();
                             //Replace the title
 
-                            var $templink = $(this).parent().parent().find('h2.node__title a').attr("href");
+                            var $templink = $(this).parent().parent().find('h3.node__title a, h6.node__title a').attr("href");
                              //console.log( $templink);
 
-                            $(this).parent().parent().find('h2.node__title').html('<a href="'+$templink+'">'+$temptit+'</a>');
+                            $(this).parent().parent().find('h3.node__title, h6.node__title').html('<a href="'+$templink+'">'+$temptit+'</a>');
 
                         });
                     }
@@ -159,7 +232,7 @@
                     //Make Related Sources Link
                     $( ".srcrelated article" ).each(function() {
                         var $htmlhold = $(this).find('.node__links a').attr("href");
-                        $(this).find('.field--name-field-source-thumbnail img').wrap('<a href="'+$htmlhold+'" target="_blank"></a>');
+                        $(this).find('.field--name-field-source-thumbnail img').wrap('<a href="'+$htmlhold+'" target="_blank" tabindex="-1" aria-hidden="true"></a>');
 
                         //Move the Header in the Related Sources to below the content
                         $(this).find('.node__content').after($(this).find('header').detach());
@@ -172,7 +245,7 @@
             if( $('.node-type-timeline').length) {
                 $( ".srcimg article" ).each(function() {
                     var $htmlhold = $(this).find('.node__links a').attr("href");
-                    $(this).find('.field--name-field-source-thumbnail img').wrap('<a href="'+$htmlhold+'"></a>');
+                    $(this).find('.field--name-field-source-thumbnail img').wrap('<a href="'+$htmlhold+'" tabindex="-1" aria-hidden="true"></a>');
                 });
             }
 

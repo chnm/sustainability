@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en" version="XHTML+RDFa 1.0" dir="ltr"
     prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
 
 <head profile="http://www.w3.org/1999/xhtml/vocab">
@@ -88,7 +88,7 @@
 
 <body class="html front not-logged-in page-node" class="html front not-logged-in page-node">
     <div id="skip-link">
-        <a href="index.html#main-content" class="element-invisible element-focusable">Skip to main content</a>
+        <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
     </div>
     <div class="l-page has-no-sidebars">
         <header class="l-header" role="banner">
@@ -98,7 +98,7 @@
 
 
                 <div class="l-region l-region--branding">
-                    <div class="panel-pane pane-block pane-system-main-menu">
+                    <nav class="panel-pane pane-block pane-system-main-menu" aria-label="Main navigation">
                         <ul class="menu">
                             <li class="first collapsed"><a href="../content/strike.html">Exhibits</a></li>
                             <li class="leaf"><a href="../content/people-and-organisations.html">People</a></li>
@@ -106,7 +106,7 @@
                             <li class="leaf"><a href="../content/archive.html" title="">Archive</a></li>
                             <li class="last leaf"><a href="index.html" title="">Search</a></li>
                         </ul>
-                    </div>
+                    </nav>
                 </div>
             </div>
 
@@ -116,11 +116,11 @@
                         <div class="panel-pane pane-custom pane-2 headerwrap">
                             <div class="headerinner">
                                 <div class="toback">
-                                    <img class="backme" src="../sites/all/themes/amboyna/images/header.png" />
+                                    <img class="backme" src="../sites/all/themes/amboyna/images/header.png" alt="" />
                                 </div>
                                 <div class="totop">
                                     <a href="../index.html"><img class="logo"
-                                            src="../sites/all/themes/amboyna/images/logo2.png" /></a>
+                                            src="../sites/all/themes/amboyna/images/logo2.png" alt="The Pilbara Aboriginal Strike — home" /></a>
                                     <h1>Search</h1>
                                 </div>
                             </div>
@@ -194,9 +194,11 @@
 
         <div class="1-page has-no-sidebars">
             <div class="1-content" role="main">
+                <a id="main-content" tabindex="-1"></a>
                 <div class="panel-pane pane-page-content">
                 <div class="entry-content">
                     <div id="search-box">
+                        <label for="search-input" class="element-invisible">Search the archive</label>
                         <input type="text" id="search-input" placeholder="Search...">
                     </div>
                     <div class="loading-text">Searching...</div>
@@ -217,6 +219,8 @@
                             <span class="linkers"><a href="../content/about.html">About</a></span>
                             <span class="divider">|</span>
                             <span class="linkers"><a href="mailto:chnm@gmu.edu">Contact</a></span>
+                            <span class="divider">|</span>
+                            <span class="linkers"><a href= "https://rrchnm.org/accessibility/">Accessibility</a></span> 
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,194 @@
+/* WCAG 2.2 AA repairs for the iowmaterialhistorieswebinar.org archive.
+ *
+ * Loaded last, after style.css and page-blocks.css. Everything here either
+ * restores a rendering that a *semantic* change would otherwise have altered,
+ * or fixes a conformance failure the theme shipped with. Nothing here is
+ * decoration.
+ *
+ * style.css wraps its whole body in `@media screen`, and every stylesheet is
+ * linked with media="screen", so this file follows the same convention.
+ */
+
+@media screen {
+
+/* --------------------------------------------------------------------------
+ * 1. Heading levels (1.3.1 Info and Relationships)
+ *
+ * Omeka's templates and the page-block editor between them produced heading
+ * sequences that skip levels -- h1 -> h3 -> h5 on the home page, h2 -> h4 on
+ * seven others, h2 -> h3 -> h4 on every item and media page. The markup is
+ * renumbered so no level is skipped; each renumbered heading carries a
+ * `heading-N` class naming the level it used to be, and these rules restate
+ * exactly what that level rendered as -- style.css's h1..h4 sizes, and the
+ * browser's default margins for the level, which are relative to the heading's
+ * own font-size and so have to move with it.
+ * ------------------------------------------------------------------------ */
+.heading-2 { font-size: 30px; line-height: 45px; margin-block: 0.83em; }
+.heading-3 { font-size: 25px; line-height: 45px; margin-block: 1em; }
+.heading-4 { font-size: 22.5px; margin-block: 1.33em; }
+.heading-5 { font-size: 0.83em; margin-block: 1.67em; }
+.heading-6 { font-size: 0.67em; margin-block: 2.33em; }
+
+/* The four style.css/page-blocks.css rules that selected those headings by tag
+ * name. Each is restated against the class, which is now what identifies them.
+ * Specificity is at or above the original, and above the block above. */
+body.resource #content > h1:first-of-type + h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: -30px 0 30px;
+}
+.property .heading-4 { margin-bottom: 0; font-size: 15px; }
+ul.resource-list .resource .heading-4 { margin-top: 0; }
+body.item-set .metadata .heading-4:first-of-type { margin-top: 0; }
+body.item-set .item-set-items .heading-3 { margin-top: 0; }
+body.item-set.item #content > h1,
+body.item-set.item #content > h2 { width: 100%; }
+
+/* --------------------------------------------------------------------------
+ * 2. The site title (1.3.1, 2.4.6)
+ *
+ * The theme made the site title the <h1> of all 72 pages, so a page's own
+ * heading started at <h2> and no page's <h1> said anything about that page.
+ * The title is a <p> on the 70 pages that have a heading of their own, and
+ * stays an <h1> on the two that do not (the home page and Contact Us, whose
+ * page-block content opens below heading level). These rules make the two
+ * render identically, restating `h1`, `header h1` and `header > h1`.
+ * ------------------------------------------------------------------------ */
+.site-title-heading {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* --------------------------------------------------------------------------
+ * 3. The mobile menu (2.1.1 Keyboard, 4.1.2 Name Role Value)
+ *
+ * Below 800px the theme collapses the navigation and draws a hamburger as
+ * `header nav:before` -- a CSS pseudo-element, with default.js listening for a
+ * click on the <nav> itself. There was nothing to focus and nothing to press,
+ * so a keyboard could not reach the navigation at all, and a screen reader was
+ * told nothing about it. A real <button> now sits in that spot; the
+ * pseudo-element is suppressed so there is only one hamburger.
+ * ------------------------------------------------------------------------ */
+header nav:before { content: none !important; display: none !important; }
+
+.menu-toggle {
+  position: absolute;
+  right: 1.69492%;
+  top: -48.75px;
+  width: 37.5px;
+  height: 37.5px;
+  line-height: 37.5px;
+  padding: 0;
+  text-align: center;
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+.menu-toggle:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0c9";
+}
+.menu-toggle[aria-expanded="true"]:before { content: "\f00d"; }
+
+/* Above 800px style.css lays the navigation out horizontally and forces the
+ * list open, so there is nothing left for the button to toggle. */
+@media screen and (min-width: 800px) {
+  .menu-toggle { display: none; }
+}
+
+/* --------------------------------------------------------------------------
+ * 4. Focus visibility (2.4.7 Focus Visible, 2.4.11 Focus Not Obscured)
+ *
+ * The theme defines no focus styling anywhere, so the indicator was whatever
+ * the browser drew over a link with `text-decoration: none` -- in several
+ * places, against a grey button of nearly the same colour. An explicit ring
+ * with an offset keeps it visible on every background the archive uses.
+ * ------------------------------------------------------------------------ */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #920b0b;
+  outline-offset: 2px;
+}
+#skipnav:focus { outline: 3px solid #920b0b; outline-offset: 2px; }
+
+/* --------------------------------------------------------------------------
+ * 5. Links in running text (1.4.1 Use of Colour)
+ *
+ * `a:link { text-decoration: none }` plus the site's #920b0b link colour gives
+ * 2.27:1 against the black body text around it -- below the 3:1 that colour
+ * alone needs in order to distinguish a link. Underlines are restored
+ * throughout the content region, then taken back off in the places where a
+ * link sits among nothing but other links, or wraps an image, and so cannot
+ * be confused with surrounding text. (Restoring them only in <p> and <li>
+ * missed the site's habit of putting prose straight into a styled <div>, and
+ * the funding credit inside a heading.)
+ * ------------------------------------------------------------------------ */
+#content a { text-decoration: underline; }
+
+#content .resource-list a,
+#content .site-page-pagination a,
+#content .advanced-search,
+#content .search-result-title a,
+#content .resource-link,
+#content .media-render a,
+#content .item-showcase .item.resource > a { text-decoration: none; }
+
+/* --------------------------------------------------------------------------
+ * 6. Target size (2.5.8) and reflow (1.4.10)
+ *
+ * The search submit button is 30x30 above 800px, which clears the 24x24
+ * minimum; the pagination controls it shared a row with were server-side and
+ * are gone. What is left is the nav at narrow widths, where `header nav ul a`
+ * is padded to 45px, and the footer logo link.
+ * ------------------------------------------------------------------------ */
+.histarthist-logo { margin: 30px 0 0; }
+.histarthist-logo img { width: 300px; max-width: 100%; height: auto; }
+.histarthist-logo a { display: inline-block; }
+
+/* Long unbroken strings -- file hashes in a couple of captions, the site title
+ * at 40px -- must not force a horizontal scrollbar at 320px. */
+#content, header, footer { overflow-wrap: break-word; }
+#content img, #content iframe, #content table { max-width: 100%; }
+#content iframe { width: 100%; }
+
+/* --------------------------------------------------------------------------
+ * 7. Small carry-overs from the archived markup
+ * ------------------------------------------------------------------------ */
+.centered { text-align: center; }   /* was the obsolete <center> element */
+
+/* --------------------------------------------------------------------------
+ * 8. The search page (new chrome; not part of the crawl)
+ * ------------------------------------------------------------------------ */
+#pagefind-form { display: flex; flex-wrap: wrap; align-items: center; gap: 7.5px; margin-bottom: 30px; }
+#pagefind-form label { width: 100%; font-weight: bold; }
+#pagefind-form input[type="search"] {
+  flex: 1 1 15em;
+  height: 45px;
+  border: 1px solid #dedede;
+  padding: 6.5px 7.5px;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 30px;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+#pagefind-form button { min-height: 45px; }
+#search-status { font-weight: bold; }
+#search-results ol { list-style: none; padding-left: 0; margin: 30px 0 0; }
+#search-results li { margin-bottom: 30px; padding-bottom: 29px; border-bottom: 1px solid #dedede; }
+#search-results .search-result-title { font-size: 22.5px; margin: 0 0 7.5px; }
+#search-results .search-result-excerpt { margin: 0; }
+#search-results mark { background-color: #ffe8a8; color: #000; }
+.search-browse { margin-top: 30px; }
+
+}

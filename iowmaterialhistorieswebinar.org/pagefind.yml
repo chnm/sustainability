@@ -1,0 +1,26 @@
+# Pagefind configuration for the iowmaterialhistorieswebinar.org archive.
+#
+# The archive is served from a domain root and this directory is copied there
+# wholesale, so `site` is ".".
+#
+# Pagefind only indexes pages carrying `data-pagefind-body`, which the chrome
+# puts on <main id="content"> for the 69 canonical content pages: the home
+# page, the nine site pages, the 30 items, the 28 media and the one item set.
+#
+# The three pages that carry `data-pagefind-ignore="all"` instead are the ones
+# that would return themselves as answers: `search.html`, and the two browse
+# listings (`s/Material-Histories/item.html` and `.../item-set.html`), whose
+# every word is a title indexed on the page it links to.
+site: "."
+glob: "**/*.html"
+
+# Belt and braces. The chrome already sits outside <main>, so none of this is
+# reachable from data-pagefind-body -- but `#content` also contains Omeka's
+# own JSON-LD block, whose serialised property labels and API URLs would
+# otherwise be indexed as body text on all 59 resource pages.
+exclude_selectors:
+  - "#skipnav"
+  - "header"
+  - "footer"
+  - "nav"
+  - "script"

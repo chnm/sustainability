@@ -9,6 +9,14 @@
 # here so the site dir stays self-contained if it ever moves.
 /.crawl/
 
+# Hand-added, outside the generated block below: Omeka S also serves theme and
+# item-set assets from /files/asset/, which the crawl's exclude list did not
+# name because nothing wget reached linked to one. The item-set thumbnail on
+# /s/Material-Histories/page/beyond-the-margins-blog is such an asset, and it
+# belongs in the object bucket with the other 110 media objects.
+/files/asset/
+**/files/asset/
+
 # exclude_dirs — wget never fetched URLs under these
 # paths. Listed here as defense-in-depth.
 /admin/

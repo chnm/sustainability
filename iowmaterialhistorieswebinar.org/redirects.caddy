@@ -1,0 +1,86 @@
+# Legacy Omeka S URL repair for the iowmaterialhistorieswebinar.org archive.
+#
+# This directory is a static export of an Omeka S install, and the export
+# appended .html to every page: /s/Material-Histories/item/4 became
+# /s/Material-Histories/item/4.html. Everything indexed, cited or bookmarked
+# before the migration points at the extensionless form -- including the
+# `@id` permalinks Omeka wrote into the JSON-LD block on all 59 resource
+# pages, which are what a citation made from this site would have recorded.
+#
+# Ordering matters. Caddy runs `redir` before `handle`, so these fire ahead of
+# the object-storage matcher, and among the `redir`s below file order decides.
+# Every specific rule must therefore stay above the generic one at the bottom.
+#
+# Sibling archives (occupyarchive, virginiaslostat, mallhistory, thanksroy)
+# carry the same shape; only the URL vocabulary differs, because this is the
+# one Omeka *S* site in the set. Omeka S namespaces every public URL under
+# /s/<site-slug>/, and there is exactly one site here: Material-Histories.
+
+@needs_html {
+	not path *.*       # already has an extension: .html (no loop), assets
+	not path */        # directories already resolve to index.html
+	not path /files/*  # object storage; hashes must reach their own handler
+	# Caddy runs every `redir` before any `respond`, so the 410 block at the
+	# bottom of this file only ever fires for paths excluded here. Without
+	# these lines /admin would 301 to /admin.html and 404.
+	not path /api /api/* /api-context /admin /admin/* /login /logout /install
+}
+
+# ---------------------------------------------------------------------------
+# The site root. The crawl produced two byte-identical copies of the home page
+# -- one at / and one at /s/Material-Histories.html -- because Omeka S serves
+# it at three URLs. The archive keeps one, at /, and these send the other two
+# there. Without this the generic rule below would 301 /s/Material-Histories
+# to a file that no longer exists.
+@site_root path /s/Material-Histories /s/Material-Histories/ /s/Material-Histories/page/home /s/Material-Histories/page/home/
+redir @site_root / 301
+
+# ---------------------------------------------------------------------------
+# Search. Omeka S ran full-text search at /s/<site>/index/search with a
+# `fulltext_search` parameter, and offered two advanced-search forms at
+# /s/<site>/item/search and /s/<site>/item-set/search. All three were database
+# queries. search.html reads the same `fulltext_search` parameter, so a link
+# of the old shape still lands on a real result set; {query} carries it over
+# verbatim, and an empty one simply opens the search page.
+@omeka_search path /s/Material-Histories/index/search /s/Material-Histories/index/search/
+redir @omeka_search /search.html?{query} 302
+
+@omeka_advanced_search path /s/Material-Histories/item/search /s/Material-Histories/item-set/search
+redir @omeka_advanced_search /search.html?{query} 302
+
+# ---------------------------------------------------------------------------
+# Browse. Omeka S paginated and sorted these server-side
+# (?sort_by=created&sort_order=desc&page=2); the archive lists all 30 items on
+# one page, so {path} deliberately drops the query rather than 301-ing to a
+# page number that no longer exists. The trailing-slash forms are spelled out
+# because `not path */` makes @needs_html skip them, and they would otherwise
+# find no index.html and 404 on their own.
+@item_browse path /s/Material-Histories/item /s/Material-Histories/item/
+redir @item_browse /s/Material-Histories/item.html 301
+
+# The trailing-slash form only. Without the slash this path is caught by the
+# generic rule, which already produces exactly the right target.
+redir /s/Material-Histories/item-set/ /s/Material-Histories/item-set.html 301
+
+# ---------------------------------------------------------------------------
+# One page the origin itself 404s on. Two links inside the archived content
+# promised a video-recording page at this slug; it was never published, and
+# the recording it meant is on the "continuing the conversation" page. The
+# in-page links are repaired to point there, and this covers anything outside
+# the archive that followed the same dead link.
+redir /s/Material-Histories/page/four-objects-video /s/Material-Histories/page/four-objects-blog.html 301
+
+# ---------------------------------------------------------------------------
+# Endpoints that no longer exist in any form. The REST API served the JSON
+# that this retrofit was built from and is the one thing a static host cannot
+# stand in for; admin and login belong to an application that is gone. 410
+# says so, rather than letting the generic rule turn them into a 404 that
+# looks like a mistake.
+@gone path /api /api/* /api-context /admin /admin/* /login /logout /install
+respond @gone 410
+
+# ---------------------------------------------------------------------------
+# The generic rule. {path} drops the query, which is correct here: every
+# query-carrying URL the origin served is a sort, a page number or a search,
+# and each is handled above.
+redir @needs_html {path}.html 301

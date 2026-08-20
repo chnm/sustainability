@@ -23,12 +23,31 @@ var Omeka = {};
     }
 
     $(document).ready(function() {
-        $('header nav').addClass('closed');
+        // Below 800px the theme collapses the navigation and draws a hamburger
+        // as `header nav:before`. Upstream listened for a click on the <nav>
+        // itself, which is not focusable and announces nothing -- so a keyboard
+        // could not open the menu, and assistive technology was never told
+        // there was one (WCAG 2.1.1, 4.1.2). The chrome now carries a real
+        // <button>; the pseudo-element is suppressed in a11y.css.
+        var nav = $('header nav');
+        var toggle = $('#menu-toggle');
 
-        $('header nav').click(function() {
-            $(this).toggleClass('open').toggleClass('closed');
+        nav.addClass('closed');
+
+        toggle.on('click', function() {
+            var open = nav.hasClass('open');
+            nav.toggleClass('open', !open).toggleClass('closed', open);
+            toggle.attr('aria-expanded', String(!open));
         });
-        
+
+        // Escape closes it and returns focus to the control that opened it.
+        nav.on('keydown', function(e) {
+            if (e.key === 'Escape' && nav.hasClass('open')) {
+                nav.removeClass('open').addClass('closed');
+                toggle.attr('aria-expanded', 'false').trigger('focus');
+            }
+        });
+
         var expandString = Omeka.jsTranslate('Expand');
         var collapseString = Omeka.jsTranslate('Collapse');
 
@@ -41,7 +60,7 @@ var Omeka = {};
           parentItem.children('a').first().wrap('<div class="parent-link"></div>');
           parentItem.find('.parent-link').append(toggleButton);
         });
-        
+
         $('header nav').on('click', '.child-toggle', function(e) {
           e.stopPropagation();
           var childToggle = $(this);
@@ -53,7 +72,7 @@ var Omeka = {};
             childToggle.attr('aria-label', expandString);
           }
         });
-        
+
         // Maintain iframe aspect ratios
         $(window).on('load resize', framerateCallback(fixIframeAspect));
         fixIframeAspect();

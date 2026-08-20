@@ -16,5 +16,5 @@ jobs:
     with:
       context_root: "iowmaterialhistorieswebinar.org"
       website-devl-fqdn: "iowmaterial.dev.chnm.gmu.edu"
-      website-prod-fqdn: "iowmaterial.dev.chnm.gmu.edu"
+      website-prod-fqdn: "iowmaterialhistorieswebinar.org"
       runner_labels: '["self-hosted","IncusOS"]'

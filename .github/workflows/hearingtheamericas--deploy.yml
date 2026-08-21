@@ -16,5 +16,5 @@ jobs:
     with:
       context_root: "hearingtheamericas"
       website-devl-fqdn: "hearamerica.dev.chnm.gmu.edu"
-      website-prod-fqdn: "hearamerica.dev.chnm.gmu.edu"
+      website-prod-fqdn: "hearingtheamericas.org"
       runner_labels: '["self-hosted","IncusOS"]'

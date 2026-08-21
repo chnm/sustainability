@@ -21,7 +21,7 @@ the origin — 3,428 absolute references across the export. The theme fetched it
 two typefaces from Google on every page view and its jQuery from Google's CDN,
 with no fallback, and `default.js` is entirely inside `(function($){…})(jQuery)`.
 The content-warning banner was injected by a script that first pulled a third
-typeface from Google. Every one of the 4,912 images carried `alt=""` or no `alt`
+typeface from Google. Every one of the images carried `alt=""` or no `alt`
 at all.
 
 It was also **badly incomplete**, which was the more urgent problem. The crawl
@@ -64,11 +64,11 @@ was built last, because it indexes the HTML as committed.
 | Static search | `pagefind/` (committed — the deploy only copies files), `pagefind.yml`, `themes/hearing_americas/asset/js/search.js`, `search.html` |
 | Accessibility | `themes/hearing_americas/asset/css/a11y.css`, plus the markup itself |
 | Artists browse | `s/the-americas/faceted-browse/1.html`, `themes/hearing_americas/asset/js/artist-facets.js` |
-| Timeline | `timeline/` — the vendored TimelineJS reads `timeline/timeline.json` |
+| Timeline | `timeline/` — `index.html` is generated from `timeline.json`; `timeline.js` + `timeline.css`, no dependencies |
 | Maps | `basemap/protomaps-basemap.pmtiles`, `modules/Mapping/asset/js/omeka-basemap.js`, `modules/Mapping/asset/vendor/protomaps-leaflet.js` |
 | Expeditions geometry | `data/ne/globe-{north,south}-america.json` |
 | Fonts | `themes/hearing_americas/asset/css/fonts.css` + `fonts/*.woff2` — Crimson Text, Montserrat; `modules/bannerMessage/asset/fonts/` — Open Sans; `themes/…/asset/font/` — League Spartan; `application/asset/fonts/` — Font Awesome 5 |
-| Vendored JS | `application/asset/js/vendor/jquery.min.js`, `vendor/soundcite/`, `vendor/timeline3/` |
+| Vendored JS | `application/asset/js/vendor/jquery.min.js`, `vendor/soundcite/` |
 | Recovered audio | `audio/` — the 23 clips the pages played from a third-party host |
 | Media | referenced as `/files/…`; the objects themselves live in the bucket |
 | URL repair | `redirects.caddy` |
@@ -141,21 +141,43 @@ The home page carried this:
 <iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1QA4375O8BUp5pUas5Yr0duph-Pg5fRYmHJ0ZcKLLuDE&…">
 ```
 
-— which made a headline feature of the site depend on KnightLab's CDN, on Google
-Sheets, and on one spreadsheet's sharing settings never changing. All three were
-still answering, so the sheet was exported and committed as
-`timeline/timeline.json`: 1 title slide and 19 events, 1877 to 1926.
-
-TimelineJS itself is vendored under `vendor/timeline3/`, with the PT Sans / PT
-Serif faces it loads from `fonts.gstatic.com` self-hosted beside it and its icon
-font trimmed from five formats to woff2 + woff. `timeline/index.html` is a
-local embed page in place of the CDN's, and the home page's iframe points at it.
-Eight slide images that the sheet hot-linked to Wikimedia Commons, the Library
-of Congress and one third-party site are mirrored in `timeline/media/`; see the
+— which made a headline feature of the site depend on KnightLab's CDN, on
+Google Sheets, and on one spreadsheet's sharing settings never changing. All
+three were still answering, so the sheet was exported and committed as
+`timeline/timeline.json`: 1 title slide and 19 events, 1877 to 1926. Eight
+slide images that the sheet hot-linked to Wikimedia Commons, the Library of
+Congress and one third-party site are mirrored in `timeline/media/`; see the
 `PROVENANCE.txt` there. The rest come from the bucket.
 
-The timeline page is the one page in the archive that does **not** carry the
-Matomo block: it is an iframe inside a page that already counts the view.
+TimelineJS itself was vendored at first, and then removed. Keeping it meant
+carrying 1.4 MB — 224 KB of library, 976 KB of PT Sans and PT Serif, an icon
+font, and media handlers for fifteen services this archive does not use, three
+of them holding KnightLab's own Flickr, Google Maps and Facebook credentials —
+to draw twenty slides. `timeline/timeline.js` and `timeline/timeline.css` are
+13 KB together and have no dependencies.
+
+`timeline/index.html` is **generated from `timeline.json`** by the same script
+that builds the rest of the archive, so the markup and the data cannot drift
+apart. Two things follow from generating it as static HTML rather than building
+it in the browser:
+
+- **Without JavaScript the timeline still reads.** Every slide is in the page,
+  one after another, as a document. TimelineJS rendered an empty box.
+- **It is searchable.** Those twenty slides were the only prose in the archive
+  Pagefind could not index; `/timeline/` is a search result now.
+
+`timeline.js` turns that stack into one-slide-at-a-time with a navigation strip
+below: two lanes, one per group, earliest first; a marker per event positioned
+by year; decade ticks; previous and next; and arrow keys, Home and End. Four
+events share 1917 and two each share 1912 and 1920, so markers are packed into
+as many rows per lane as they need — every one at its true date, none within
+28px of another, which is also what keeps them 24px apart for 2.5.8. The
+packing is redone on resize.
+
+The slides carry the backgrounds the sheet specified: seventeen a colour, three
+a photograph. White text on the four colours in use runs from 6.02:1 to
+17.39:1. The photographs get a 0.65 black scrim, which puts white text at 7:1
+even over a pure white image — a floor, not an average.
 
 ### Maps
 
@@ -252,14 +274,14 @@ own input: that would be a second search box on a page whose header already has
 one, and the sibling archives work around it by hiding Pagefind's input and
 driving it from the header, leaving an invisible control in the DOM.
 
-**Index scope.** 963 pages, 8,881 words. Only `<main data-pagefind-body>` is
+**Index scope.** 964 pages, 8,905 words. Only `<main data-pagefind-body>` is
 indexed: the header, the 40-link navigation, the content-warning banner and the
 footer are byte-identical on every page, and indexing them would make every
 page a hit for every word on the menu. The three browse listings are indexed for their own
 text, but their link lists are not — every word in them is a title indexed on
 the page it points at. `search.html` indexes nothing of its own.
 
-**Search recall is bounded by the data.** 8,881 words across 963 pages. The 46
+**Search recall is bounded by the data.** 8,905 words across 964 pages. The 46
 written pages carry most of the prose; a typical item page is a title, a
 performer, a label, a date and a one-line description.
 
@@ -302,20 +324,39 @@ would audit as empty shells.
   Verified by building the whole archive a second time with renumbering
   switched off, rendering both copies in headless Chromium at 1280px and 375px,
   and comparing every element in the content region on thirteen computed
-  properties and its bounding box. **16,086 element/viewport comparisons across
-  70 pages, zero differences.** The check found three real regressions
+  properties and its bounding box, and separately by asserting the invariants
+  themselves over all 965 pages: the site title is never a heading, `<main>`
+  opens at `h1`, no level is skipped, no heading carries a `heading-N` class
+  naming its own level, and no heading is empty.
+
+  That second check exists because the first one was, for a while, lying. The
+  variant builder symlinked the repo's directories into its output and then
+  wrote through them, so it clobbered the real archive with un-renumbered pages
+  and compared that tree against itself: 16,086 comparisons, zero differences,
+  and the renumbering silently reverted across all 961 pages in the process.
+  Nothing else caught it, because axe's `heading-order` rule is in its
+  best-practice tag set rather than the WCAG tags the sweep filtered on, so a
+  document with `h2 → h4` skips and a site-title `<h1>` on every page audits
+  clean. The builder now refuses to write outside its own directory, the sweep
+  includes `best-practice`, and the invariants are asserted directly rather
+  than inferred from a comparison. The comparison, re-run against two trees
+  that genuinely differ, reports zero differences over 3,884 element/viewport
+  comparisons. The check found three real regressions
   while it was being written: the missing `line-height` restatement, which gave
   every property label on 377 item pages a 45px line box instead of 30px; the
   `.div-banner h2` case, which had left the Artists heading unstyled; and the
   multi-line selectors that a first, line-based rewrite had missed.
-- **Images (1.1.1)**: all 4,912 of them carried `alt=""`, or no `alt` attribute
-  at all, which is not the same thing and is worse. 3,525 are described now,
-  from the `dcterms:title` of the media object the image depicts, keyed on the
-  file hash in the URL; ten Omeka assets carry authored `o:alt_text` and that is
-  used where it exists. The remaining 1,387 are marked decorative on purpose:
-  the theme's record sleeves, spinning discs and shelves, and Omeka's
-  media-type placeholders. The two logos in the footer credit are named, because
-  they say who made this and who paid for it.
+- **Images (1.1.1)**: every one of the 4,929 images carried `alt=""`, or no
+  `alt` attribute at all, which is not the same thing and is worse. 3,399 are
+  described now, from the `dcterms:title` of the media object the image
+  depicts, keyed on the file hash in the URL; ten Omeka assets carry authored
+  `o:alt_text` and that is used where it exists. The remaining 1,530 are marked
+  decorative on purpose: the theme's record sleeves, spinning discs and
+  shelves, Omeka's media-type placeholders, and the thumbnail inside every
+  `resource-link`, where the span beside it already carries the name and
+  describing both makes a screen reader say it twice. The three logos in the
+  footer credit are named, because they say who made this and who paid for
+  it.
 - **Use of colour (1.4.1)**: links are `#b13a1a` with `text-decoration: none`,
   against `#3a2e2e` body text — 2.16:1, well under the 3:1 that colour alone
   needs. Underlines are restored across the content region, the footer and both
@@ -502,18 +543,18 @@ there instead — which is what mallhistory.org does today.
 
 The archive must be served **at a domain root**: `/files/…`, the basemap, the
 vendored SoundCite loader and the Pagefind result links are all root-absolute,
-as they are on the sibling archives. It is at `hearamerica.dev.chnm.gmu.edu`
-today, for both dev and prod
-(`.github/workflows/hearingtheamericas--deploy.yml`). Flipping
-`website-prod-fqdn` to `hearingtheamericas.org` is the cutover and is
-deliberately **not** part of this work — the origin is still live and still
-serving the real site.
+as they are on the sibling archives. Dev is `hearamerica.dev.chnm.gmu.edu`;
+prod is `hearingtheamericas.org`
+(`.github/workflows/hearingtheamericas--deploy.yml`, flipped in `6671e75cd0`).
+The retrofit itself deliberately did not make that flip — the origin Omeka
+install was still live and still serving the real site while this was built,
+and the cutover is a DNS decision, not a migration one.
 
 That flip is what makes one loose end resolve: the `@id` permalinks Omeka wrote
 into the JSON-LD block on all 914 resource pages still read
 `https://hearingtheamericas.org/api/items/4`, which is what an identifier minted
-before the migration should keep saying. Nothing in the archive *fetches* from
-that host — those are text. Of the 3,428 `href`/`src`/`action` references to
+before the migration should keep saying, and what they now resolve to. Nothing
+in the archive *fetches* from that host — those are text. Of the 3,428 `href`/`src`/`action` references to
 `hearingtheamericas.org` in the pristine export, zero remain; what is left is
 12,786 plain-text mentions across 932 pages, all of them inside those JSON-LD
 blocks.

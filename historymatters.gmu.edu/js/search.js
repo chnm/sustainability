@@ -13,7 +13,7 @@ const miniSearch = new MiniSearch({
 
 async function fetchAndIndexDocuments() {
   try {
-    const response = await fetch('/js/search-documents.json');
+    const response = await fetch('js/search-documents.json');
     if (!response.ok) {
       throw new Error(`Failed to fetch search index: ${response.status}`);
     }
@@ -47,7 +47,7 @@ function displaySearchResults(results) {
     <ul class="results-list">
       ${results.map(result => `
         <li class="result-item">
-          <a href="/${result.url}" class="result-title">${result.title}</a>
+          <a href="${result.url}" class="result-title">${result.title}</a>
           ${result.section ? `<span class="result-section">${result.section}</span>` : ''}
         </li>
       `).join('')}

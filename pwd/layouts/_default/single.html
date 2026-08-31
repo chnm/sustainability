@@ -1,7 +1,8 @@
 {{ define "bodyclass" }}page {{ .Params.slug | default .File.BaseFileName }}{{ end }}
 {{ define "main" }}
 <div class="blocks" data-pagefind-body>
-    <h2>{{ .Title }}</h2>
+    <h2 data-pagefind-meta="title">{{ .Title }}</h2>
+    <span data-pagefind-filter="type" hidden>Guide</span>
     {{ if .Params.outdated }}
     <aside class="notice notice-outdated">
         <strong>Note:</strong> The following content applies to an older version of the site and is preserved here as a historical record of the previous site.

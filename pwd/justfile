@@ -40,6 +40,11 @@ serve:
 serve-search:
     cd public && python3 -m http.server 1313
 
+# Build the site + Pagefind index, then serve locally for search testing
+serve-pagefind:
+    ulimit -n 65536 && hugo --minify
+    npx pagefind --site public --serve
+
 # Remove generated files
 clean:
     rm -rf public/

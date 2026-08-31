@@ -1,7 +1,7 @@
 {{ define "bodyclass" }}item show{{ end }}
 {{ define "main" }}
 <article data-pagefind-body>
-<h2><span class="title">{{ .Title }}</span></h2>
+<h2><span class="title" data-pagefind-meta="title">{{ .Title }}</span></h2>
 {{ with .Params.resource_type }}<span data-pagefind-filter="type" hidden>{{ . }}</span>{{ end }}
 {{ with .Params.year }}<span data-pagefind-filter="year" hidden>{{ . }}</span>{{ end }}
 {{ with .Params.description }}<p data-pagefind-meta="description" hidden>{{ . }}</p>{{ end }}

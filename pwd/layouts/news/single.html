@@ -2,7 +2,8 @@
 {{ define "main" }}
 <div class="blocks">
     <nav class="news-back"><a href="/news/">&larr; All News</a></nav>
-    <article class="news-article">
+    <article class="news-article" data-pagefind-body>
+        <span data-pagefind-filter="type" hidden>News</span>
         <header class="news-article-header">
             <div class="news-card-date">
                 <span class="news-card-month">{{ .Date.Format "Jan" }}</span>
@@ -10,7 +11,7 @@
                 <span class="news-card-year">{{ .Date.Format "2006" }}</span>
             </div>
             <div class="news-article-title">
-                <h2>{{ .Title }}</h2>
+                <h2 data-pagefind-meta="title">{{ .Title }}</h2>
                 {{ with .Params.author }}<span class="news-card-author">By {{ . }}</span>{{ end }}
                 {{ with .Params.categories }}
                 <div class="news-card-categories">

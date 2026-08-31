@@ -1,0 +1,4 @@
+# History Matters: The U.S. Survey Course on the Web
+# Public educational archive — allow all crawlers.
+User-agent: *
+Disallow:

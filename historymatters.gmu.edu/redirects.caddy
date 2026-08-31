@@ -1,0 +1,42 @@
+# redirects.caddy — legacy History Matters URL handling for the STATIC mirror.
+#
+# Strategy: serve the static capture where we have it; for anything the mirror
+# does NOT contain, fall back to the still-live PHP original at
+# php.historymatters.gmu.edu, so every old inbound link keeps resolving.
+#
+# Import into the serving Caddyfile's site block:
+#     historymatters.gmu.edu {
+#         root * /path/to/historymatters.gmu.edu
+#         import redirects.caddy
+#         file_server            # default index = index.html
+#     }
+# (The site block must not already define its own handle_errors — this file
+#  provides it. Requires no PHP locally; the live legacy host handles that.)
+#
+# These legacy paths already resolve natively — each was captured as a
+# directory with an index.html — so they intentionally get no rule:
+#     /browse/<name>   /talkinghistory/<Forum>   /mse/{ads,numbers,oral}
+
+# /d/<id> — legacy document permalinks. Prefer the static capture
+# (d/<id>.html for most, d/<id>/index.html for a few); ids we never captured
+# fall through to the error handler and on to the live PHP site. Already-.html
+# links such as /d/16.html are served directly, untouched.
+@detail path /d/*
+route @detail {
+	try_files {path} {path}.html {path}/index.html
+}
+
+# /mse/<section> — these five were captured as a single mse/<section>.html
+# page rather than a directory index, so the bare URL needs a nudge.
+@mse_page path_regexp (?i)^/mse/(film|letters|maps|photos|songs)/?$
+redir @mse_page /mse/{re.mse_page.1}.html 301
+
+# Fallback: anything the static mirror can't serve — /all.html, /webrevs.php,
+# dynamic /search.php?... queries, /mse/sia, /www.taf, un-captured /d/<id>,
+# missing assets, etc. — is handed to the still-live legacy PHP site with the
+# original path and query string preserved. 302 (temporary) so filling a gap
+# in the mirror later just starts serving it locally again.
+handle_errors {
+	@notfound expression {http.error.status_code} == 404
+	redir @notfound https://php.historymatters.gmu.edu{uri}
+}

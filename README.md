@@ -32,7 +32,16 @@ Flattened, static versions of retired RRCHNM web projects, kept here so repairs,
 | Transatlantic Encounters | `transatlanticencounters/` | transatlaenc.dev.chnm.gmu.edu (dev) | Omeka | 2026 |
 | Virginia's Lost AT | `virginiaslostat/` | virginiaslostat.org | Omeka | 2026 |
 
-The 9/11 Digital Archive and TeachingHistory.org are tracked in this repo's issues but live elsewhere.
+### Sites in their own repos
+
+Larger Hugo builds that outgrew the monorepo, or never lived here, have their own repositories. Their issues may still be tracked here.
+
+| Project | Repo | Live site |
+|---|---|---|
+| Papers of the War Department | [chnm/pwd](https://github.com/chnm/pwd) | wardepartmentpapers.org |
+| Hurricane Digital Memory Bank | [chnm/hurricanearchive](https://github.com/chnm/hurricanearchive) | hurricanearchive.org |
+| 9/11 Digital Archive | [chnm/911digitalarchive](https://github.com/chnm/911digitalarchive) | 911digitalarchive.org |
+| Bracero History Archive | [chnm/braceroarchive](https://github.com/chnm/braceroarchive) | braceroarchive.org |
 
 ## Tools and guides
 

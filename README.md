@@ -16,6 +16,7 @@ These are various sustainability projects, included here to help keep track of w
 | Pilbara Strike                | 2023    | `pilbara/`          | Flattened Drupal site for the Pilbara Strike.               |
 | Plaster Cast Collection       | 2026    | `plastercast/`      | Flattened Omeka site for the GMU Plaster Cast Collection.   |
 | Scripts                       | ongoing | `scripts/`          | Scripts and other tools for aiding in flattening and fixes. |
+| Utils                         | ongoing | `utils/`            | Cross-site tools; `utils/alt-text/` generates image alt text. |
 
 ## Project Team
 

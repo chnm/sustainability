@@ -4,54 +4,54 @@ Flattened, static versions of retired RRCHNM web projects, kept here so repairs,
 
 ## Sites
 
-| Project | Directory | Live site | Source platform | Year |
-|---|---|---|---|---|
-| 1989 | `1989/` | 1989.rrchnm.org | Omeka | 2025 |
-| 20 Years of RRCHNM | `20.rrchnm.org/` | 20th.dev.chnm.gmu.edu (dev) | Omeka | 2026 |
-| Amboyna Conspiracy Trial | `amboyna/` | amboyna.org | Drupal | 2023 |
-| Children and Youth in History | `cyh/` | cyh.rrchnm.org | Omeka | 2025 |
-| Digital Campus | `digitalcampus/` | digitalcampus.tv | WordPress | 2025 |
-| DoHistory | `dohistory/` | dohistory.org | Custom | 2025 |
-| Eagle Eye Citizen | `eagleeyecitizen/` | eagleeyecitizen.org | Drupal | 2026 |
-| For Us the Living | `futl/` | forustheliving.org | Drupal | 2026 |
-| Harambee City | `harambeecity/` | harambeecity.rrchnm.org | Omeka | 2024 |
-| Hearing the Americas | `hearingtheamericas/` | hearingtheamericas.org | Omeka S | 2026 |
-| History Matters | `historymatters.gmu.edu/` | historymatters.gmu.edu | Custom | 2026 |
-| Imaging the French Revolution | `imagingthefrenchrevolution/` | imagingthefrenchrevolution.rrchnm.org | Custom | 2026 |
-| Islam Perspectives | `islamperspectives/` | islampers.dev.chnm.gmu.edu (dev) | Omeka | 2026 |
-| Mall History | `mallhistory/` | mallhistory.org | Omeka | 2026 |
-| Maritime Asia | `maritime/` | maritime-asia.org | Drupal | 2023 |
-| Material Histories of the Indian Ocean World | `iowmaterialhistorieswebinar.org/` | iowmaterialhistorieswebinar.org | Omeka S | 2026 |
-| Objects of History | `objectsofhistory/` | objectofhistory.org | Custom | 2025 |
-| Occupy Archive | `occupyarchive/` | occupyarchive.org | Omeka Classic | 2026 |
-| Pandemic Religion | `pandemicreligion/` | (pilot: 3 of 7 sites) | Omeka S | 2026 |
-| Pilbara Strike | `pilbarastrike/` | pilbarastrike.org | Drupal | 2023 |
-| Plaster Cast Collection | `plastercast/` | plastercast.gmu.edu | Omeka | 2026 |
-| Resounding the Archives | `resounding/` | resoundingthearchives.org | Drupal | 2026 |
-| Thanks, Roy | `thanksroy/` | thanksroy.org | Omeka | 2026 |
-| Transatlantic Encounters | `transatlanticencounters/` | transatlaenc.dev.chnm.gmu.edu (dev) | Omeka | 2026 |
-| Virginia's Lost AT | `virginiaslostat/` | virginiaslostat.org | Omeka | 2026 |
+| Project                                      | Directory                          | Live site                             | Source platform | Year |
+| -------------------------------------------- | ---------------------------------- | ------------------------------------- | --------------- | ---- |
+| 1989                                         | `1989/`                            | 1989.rrchnm.org                       | Omeka           | 2025 |
+| 20 Years of RRCHNM                           | `20.rrchnm.org/`                   | 20th.dev.chnm.gmu.edu (dev)           | Omeka           | 2026 |
+| Amboyna Conspiracy Trial                     | `amboyna/`                         | amboyna.org                           | Drupal          | 2023 |
+| Children and Youth in History                | `cyh/`                             | cyh.rrchnm.org                        | Omeka           | 2025 |
+| Digital Campus                               | `digitalcampus/`                   | digitalcampus.tv                      | WordPress       | 2025 |
+| DoHistory                                    | `dohistory/`                       | dohistory.org                         | Custom          | 2025 |
+| Eagle Eye Citizen                            | `eagleeyecitizen/`                 | eagleeyecitizen.org                   | Drupal          | 2026 |
+| For Us the Living                            | `futl/`                            | forustheliving.org                    | Drupal          | 2026 |
+| Harambee City                                | `harambeecity/`                    | harambeecity.rrchnm.org               | Omeka           | 2024 |
+| Hearing the Americas                         | `hearingtheamericas/`              | hearingtheamericas.org                | Omeka S         | 2026 |
+| History Matters                              | `historymatters.gmu.edu/`          | historymatters.gmu.edu                | Custom          | 2026 |
+| Imaging the French Revolution                | `imagingthefrenchrevolution/`      | imagingthefrenchrevolution.rrchnm.org | Custom          | 2026 |
+| Islam Perspectives                           | `islamperspectives/`               | islampers.dev.chnm.gmu.edu (dev)      | Omeka           | 2026 |
+| Mall History                                 | `mallhistory/`                     | mallhistory.org                       | Omeka           | 2026 |
+| Maritime Asia                                | `maritime/`                        | maritime-asia.org                     | Drupal          | 2023 |
+| Material Histories of the Indian Ocean World | `iowmaterialhistorieswebinar.org/` | iowmaterialhistorieswebinar.org       | Omeka S         | 2026 |
+| Objects of History                           | `objectsofhistory/`                | objectofhistory.org                   | Custom          | 2025 |
+| Occupy Archive                               | `occupyarchive/`                   | occupyarchive.org                     | Omeka Classic   | 2026 |
+| Pandemic Religion                            | `pandemicreligion/`                | (pilot: 3 of 7 sites)                 | Omeka S         | 2026 |
+| Pilbara Strike                               | `pilbarastrike/`                   | pilbarastrike.org                     | Drupal          | 2023 |
+| Plaster Cast Collection                      | `plastercast/`                     | plastercast.gmu.edu                   | Omeka           | 2026 |
+| Resounding the Archives                      | `resounding/`                      | resoundingthearchives.org             | Drupal          | 2026 |
+| Thanks, Roy                                  | `thanksroy/`                       | thanksroy.org                         | Omeka           | 2026 |
+| Transatlantic Encounters                     | `transatlanticencounters/`         | transatlaenc.dev.chnm.gmu.edu (dev)   | Omeka           | 2026 |
+| Virginia's Lost AT                           | `virginiaslostat/`                 | virginiaslostat.org                   | Omeka           | 2026 |
 
 ### Sites in their own repos
 
-Larger Hugo builds that outgrew the monorepo, or never lived here, have their own repositories. Their issues may still be tracked here.
+Larger Hugo builds that outgrew the monorepo, or never lived here, have their own repositories.
 
-| Project | Repo | Live site |
-|---|---|---|
-| Papers of the War Department | [chnm/pwd](https://github.com/chnm/pwd) | wardepartmentpapers.org |
-| Hurricane Digital Memory Bank | [chnm/hurricanearchive](https://github.com/chnm/hurricanearchive) | hurricanearchive.org |
-| 9/11 Digital Archive | [chnm/911digitalarchive](https://github.com/chnm/911digitalarchive) | 911digitalarchive.org |
-| Bracero History Archive | [chnm/braceroarchive](https://github.com/chnm/braceroarchive) | braceroarchive.org |
+| Project                       | Repo                                                                | Live site               |
+| ----------------------------- | ------------------------------------------------------------------- | ----------------------- |
+| Papers of the War Department  | [chnm/pwd](https://github.com/chnm/pwd)                             | wardepartmentpapers.org |
+| Hurricane Digital Memory Bank | [chnm/hurricanearchive](https://github.com/chnm/hurricanearchive)   | hurricanearchive.org    |
+| 9/11 Digital Archive          | [chnm/911digitalarchive](https://github.com/chnm/911digitalarchive) | 911digitalarchive.org   |
+| Bracero History Archive       | [chnm/braceroarchive](https://github.com/chnm/braceroarchive)       | braceroarchive.org      |
 
 ## Tools and guides
 
-| Path | What it is |
-|---|---|
-| `scripts/` | Site-specific flattening and fix scripts, plus the `crawler/` used for item pages. |
-| `utils/alt-text/` | Cross-site alt text generator. See below. |
-| `_snippets/` | Shared HTML fragments, such as the sustainability banner. |
-| `DEVNOTES.md` | How to add static search (MiniSearch) to a flattened site. |
-| `paginationNotes.md` | How to paginate static search results. |
+| Path                 | What it is                                                                         |
+| -------------------- | ---------------------------------------------------------------------------------- |
+| `scripts/`           | Site-specific flattening and fix scripts, plus the `crawler/` used for item pages. |
+| `utils/alt-text/`    | Cross-site alt text generator. See below.                                          |
+| `_snippets/`         | Shared HTML fragments, such as the sustainability banner.                          |
+| `DEVNOTES.md`        | How to add static search (MiniSearch) to a flattened site.                         |
+| `paginationNotes.md` | How to paginate static search results.                                             |
 
 ## Deploys
 

@@ -73,7 +73,7 @@ Sites whose item media lives in the object-storage bucket rather than the repo (
 python utils/alt-text/generate-alt-text.py thanksroy --base-url https://thanksroy.org --apply
 ```
 
-By default only empty, placeholder, and filename alt is flagged. Add `--strict` to also flag short or duplicated alt, which on a flattened site will include every header logo, so use it deliberately. The same image on many pages is described once and reused. Images the tool cannot locate, such as JavaScript-templated tags, are listed as SKIP for a manual pass. It needs the `claude` CLI installed and signed in. Run `python utils/alt-text/test_generate_alt_text.py` to self-check after editing it.
+By default only empty, placeholder, and filename alt is flagged. Add `--strict` to also flag short or duplicated alt, which on a flattened site will include every header logo, so use it deliberately. The same image on many pages is described once and reused. Images the tool cannot locate, such as JavaScript-templated tags, are listed as SKIP for a manual pass. The default backend needs the `claude` CLI installed and signed in. Add `--backend openai --model <name>` to use an open model instead, through Ollama locally or any OpenAI-compatible endpoint with `--api-url`. Run `python utils/alt-text/test_generate_alt_text.py` to self-check after editing it.
 
 Work site by site: run `--list`, spot-check with `--limit`, then `--apply` on its own branch and review the diff before merging.
 

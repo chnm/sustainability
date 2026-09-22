@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Find images with missing or weak alt text in a site directory and generate
-replacements with Claude.
+replacements with a vision model: Claude via the claude CLI (default), or any
+model behind an OpenAI-compatible chat endpoint (Ollama, LM Studio, vLLM,
+hosted providers).
 
 Works on any site in this monorepo: flattened HTML crawls and Hugo sources
 alike. Scans every *.html and *.md under SITE. Flags <img> tags and Markdown
@@ -16,13 +18,20 @@ Usage:
     python utils/alt-text/generate-alt-text.py plastercast --model opus
     python utils/alt-text/generate-alt-text.py thanksroy --base-url https://thanksroy.org
         # sites whose media lives in a bucket: fetch images that are not on disk
+    python utils/alt-text/generate-alt-text.py plastercast --backend openai \
+        --api-url http://localhost:11434/v1 --model qwen2.5vl:7b
+        # local open model via Ollama; OPENAI_API_KEY (or --api-key) for hosted endpoints
 
-Requires: claude CLI (Claude Code) installed and authenticated.
+Requires: claude CLI (Claude Code) installed and authenticated for the default
+backend; nothing beyond the standard library for --backend openai.
 Self-check: python utils/alt-text/test_generate_alt_text.py
 """
 
 import argparse
+import base64
 import html
+import json
+import mimetypes
 import os
 import re
 import subprocess
@@ -42,7 +51,7 @@ SKIP_DIRS = {"node_modules", ".git"}
 MIN_ALT_LEN = 40
 
 PROMPT_TEMPLATE = (
-    "Read the image at {image_path} and describe it in one or two concise "
+    "{image} Describe it in one or two concise "
     "sentences for use as alt text on a digital history and humanities website. "
     'Focus on what is visually depicted. Do not start with "This image shows" '
     'or "The image depicts". Just state what you see. '
@@ -52,7 +61,7 @@ PROMPT_TEMPLATE = (
 )
 
 EXTEND_TEMPLATE = (
-    "Read the image at {image_path}. A human already wrote this alt text for it: "
+    "{image} A human already wrote this alt text for it: "
     '"{existing}". Write ONE additional sentence adding specific visual detail '
     "not already stated (labels, place names, values, colors, layout) so a "
     "screen reader user can tell this figure apart from similar ones. "
@@ -139,10 +148,23 @@ def fetch(url: str, cache_dir: Path) -> Path | None:
     return dest
 
 
-def generate_alt_text(image_path: Path, model: str, existing: str = "") -> str:
-    """Call claude -p for fresh alt text, or one extra sentence if alt exists."""
+def build_prompt(image_phrase: str, existing: str) -> str:
     template = EXTEND_TEMPLATE if existing else PROMPT_TEMPLATE
-    prompt = template.format(image_path=image_path, existing=existing)
+    return template.format(image=image_phrase, existing=existing)
+
+
+def generate_alt_text(image_path: Path, existing: str, args) -> str:
+    """Fresh alt text, or one extra sentence if alt exists, from the chosen backend."""
+    if args.backend == "openai":
+        prompt = build_prompt("Look at the attached image.", existing)
+        text = call_openai(image_path, prompt, args.model, args.api_url, args.api_key)
+    else:
+        prompt = build_prompt(f"Read the image at {image_path}.", existing)
+        text = call_claude(prompt, args.model)
+    return clean(text)
+
+
+def call_claude(prompt: str, model: str) -> str:
     try:
         result = subprocess.run(
             ["claude", "-p", prompt, "--model", model, "--allowedTools", "Read"],
@@ -151,12 +173,40 @@ def generate_alt_text(image_path: Path, model: str, existing: str = "") -> str:
     except FileNotFoundError:
         sys.exit("ERROR: 'claude' CLI not found. Install Claude Code first.")
     except subprocess.TimeoutExpired:
-        print(f"  ERROR: claude timed out for {image_path}", file=sys.stderr)
+        print("  ERROR: claude timed out", file=sys.stderr)
         return ""
     if result.returncode != 0:
-        print(f"  ERROR: claude failed for {image_path}: {result.stderr.strip()}", file=sys.stderr)
+        print(f"  ERROR: claude failed: {result.stderr.strip()}", file=sys.stderr)
         return ""
-    return clean(result.stdout)
+    return result.stdout
+
+
+def openai_request(image_path: Path, prompt: str, model: str, api_url: str, api_key: str) -> urllib.request.Request:
+    """POST body for an OpenAI-compatible /chat/completions call with the image inline."""
+    mime = mimetypes.guess_type(image_path.name)[0] or "image/jpeg"
+    data_url = f"data:{mime};base64,{base64.b64encode(image_path.read_bytes()).decode()}"
+    body = {
+        "model": model,
+        "max_tokens": 300,
+        "messages": [{"role": "user", "content": [
+            {"type": "text", "text": prompt},
+            {"type": "image_url", "image_url": {"url": data_url}},
+        ]}],
+    }
+    headers = {"Content-Type": "application/json"}
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
+    return urllib.request.Request(f"{api_url.rstrip('/')}/chat/completions",
+                                  data=json.dumps(body).encode(), headers=headers)
+
+
+def call_openai(image_path: Path, prompt: str, model: str, api_url: str, api_key: str) -> str:
+    try:
+        with urllib.request.urlopen(openai_request(image_path, prompt, model, api_url, api_key), timeout=300) as r:
+            return json.load(r)["choices"][0]["message"]["content"]
+    except Exception as exc:  # connection refused, HTTP error, unexpected shape
+        print(f"  ERROR: {api_url} failed for {image_path.name}: {exc}", file=sys.stderr)
+        return ""
 
 
 def clean(text: str) -> str:
@@ -198,14 +248,23 @@ def main():
     parser = argparse.ArgumentParser(description="Generate alt text for images missing it.")
     parser.add_argument("site", type=Path, help="Site directory to scan, e.g. plastercast")
     parser.add_argument("--apply", action="store_true", help="Patch files in place (default: dry run)")
-    parser.add_argument("--list", action="store_true", help="Only list flagged images; no Claude calls")
+    parser.add_argument("--list", action="store_true", help="Only list flagged images; no model calls")
     parser.add_argument("--limit", type=int, default=0, help="Stop after N generated alts (0 = no limit)")
     parser.add_argument("--strict", action="store_true", help="Also flag short or duplicated alt text")
-    parser.add_argument("--model", default="claude-sonnet-5", help="Claude model (default: claude-sonnet-5)")
+    parser.add_argument("--backend", choices=["claude", "openai"], default="claude",
+                        help="claude: the claude CLI (default); openai: any OpenAI-compatible chat endpoint")
+    parser.add_argument("--model", default=None, help="Model name (default: claude-sonnet-5 for claude; required for openai)")
+    parser.add_argument("--api-url", default="http://localhost:11434/v1",
+                        help="Base URL for --backend openai (default: Ollama at http://localhost:11434/v1)")
+    parser.add_argument("--api-key", default=os.environ.get("OPENAI_API_KEY", ""),
+                        help="Bearer token for --backend openai (default: $OPENAI_API_KEY)")
     parser.add_argument("--base-url", default="", help="Fetch images not on disk from this site URL, e.g. https://thanksroy.org")
     args = parser.parse_args()
     if not args.site.is_dir():
         sys.exit(f"ERROR: {args.site} is not a directory")
+    if args.backend == "openai" and not args.model:
+        sys.exit("ERROR: --backend openai needs --model, e.g. --model qwen2.5vl:7b")
+    args.model = args.model or "claude-sonnet-5"
 
     entries = find_weak(args.site, args.strict)
     if not entries:
@@ -233,7 +292,7 @@ def main():
                 print("    (limit reached)")
                 break
             local = fetch(img, fetch_dir) if isinstance(img, str) else img
-            cache[key] = generate_alt_text(local, args.model, existing) if local else ""
+            cache[key] = generate_alt_text(local, existing, args) if local else ""
         if not cache[key]:
             skipped += 1
             continue
@@ -246,7 +305,7 @@ def main():
 
     if args.list:
         return
-    print(f"\nDone. Processed: {processed}, Skipped: {skipped}, Claude calls: {len(cache)}")
+    print(f"\nDone. Processed: {processed}, Skipped: {skipped}, Model calls: {len(cache)}")
     if not args.apply and processed:
         print("Run with --apply to write changes to files.")
 

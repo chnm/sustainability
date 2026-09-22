@@ -1,5 +1,6 @@
 """Self-check for the alt-text scanner. Run: python utils/alt-text/test_generate_alt_text.py"""
 import importlib.util
+import json
 import tempfile
 from pathlib import Path
 
@@ -53,6 +54,14 @@ with tempfile.TemporaryDirectory() as tmp:
     assert gat.resolve_image_path(site, page, "../files/missing.png", "https://x.org") == "https://x.org/files/missing.png"
     assert gat.resolve_image_path(site, page, "../../outside.png", "https://x.org") is None
     assert gat.resolve_image_path(site, page, "/files/x.png", "https://x.org") == site / "files" / "x.png"
+    req = gat.openai_request(site / "files" / "x.png", "Describe.", "llava", "http://localhost:11434/v1/", "k")
+    body = json.loads(req.data)
+    assert req.full_url == "http://localhost:11434/v1/chat/completions"
+    assert req.get_header("Authorization") == "Bearer k"
+    assert body["model"] == "llava" and body["messages"][0]["content"][0]["text"] == "Describe."
+    assert body["messages"][0]["content"][1]["image_url"]["url"].startswith("data:image/png;base64,")
+    assert gat.build_prompt("Look at the attached image.", "").startswith("Look at the attached image. Describe it")
+    assert "Map of Paris" in gat.build_prompt("Read the image at /x.png.", "Map of Paris")
     gat.patch(entries[0], "A cast.")
     assert page.read_text().startswith('<img src="../files/x.png" alt="A cast.">')
 print("ok")

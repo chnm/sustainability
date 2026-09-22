@@ -38,11 +38,13 @@ with tempfile.TemporaryDirectory() as tmp:
     page = site / "items" / "1.html"
     page.write_text('<img src="../files/x.png" alt="">\n<img src="/files/x.png" alt="x.png">\n'
                     '<img src="/files/missing.png" alt="">\n<img src="/files/x.png" alt="A fine cast.">\n'
-                    "<img src=\"'+d.thumb+'\" alt=\"'+d.title+'\">")
+                    "<img src=\"'+d.thumb+'\" alt=\"'+d.title+'\">\n"
+                    '<img src="&#x2F;files&#x2F;x.png" alt="">')   # Omeka S entity-encodes src
     (site / "node_modules").mkdir()
     (site / "node_modules" / "skip.html").write_text('<img src="x.png">')
     entries = gat.find_weak(site, strict=False)
-    assert [e["reason"] for e in entries] == ["missing", "filename", "missing"], entries
+    assert [e["reason"] for e in entries] == ["missing", "filename", "missing", "missing"], entries
+    assert entries[3]["img_ref"] == "/files/x.png"
     assert gat.resolve_image_path(site, page, "../files/x.png") == site / "files" / "x.png"
     assert gat.resolve_image_path(site, page, "/files/x.png?v=2") == site / "files" / "x.png"
     assert gat.resolve_image_path(site, page, "/files/missing.png") is None

@@ -22,6 +22,7 @@ Self-check: python utils/alt-text/test_generate_alt_text.py
 """
 
 import argparse
+import html
 import os
 import re
 import subprocess
@@ -87,13 +88,14 @@ def find_weak(site: Path, strict: bool) -> list[dict]:
         for m in MD_IMG_RE.finditer(text):
             ref = m.group(2).split('"')[0].split("'")[0].strip()
             images.append((md, text, m, m.group(1), ref, "markdown"))
-    for html in site_files(site, "*.html"):
-        text = html.read_text(encoding="utf-8", errors="replace")
+    for page in site_files(site, "*.html"):
+        text = page.read_text(encoding="utf-8", errors="replace")
         for m in HTML_IMG_RE.finditer(text):
             tag = m.group(0)
             alt = ALT_RE.search(tag)
             src = SRC_RE.search(tag)
-            images.append((html, text, m, alt.group(1) if alt else "", src.group(1) if src else "", "html"))
+            images.append((page, text, m, html.unescape(alt.group(1)) if alt else "",
+                           html.unescape(src.group(1)) if src else "", "html"))
     alts = [a.strip().lower() for *_, a, _, _ in images]
     dupes = {a for a in alts if a and alts.count(a) > 1} if strict else set()
     for file, text, m, alt, ref, kind in images:

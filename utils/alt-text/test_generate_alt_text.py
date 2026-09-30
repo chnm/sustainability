@@ -26,10 +26,12 @@ assert gat.new_alt({"reason": "filename", "alt": "x.jpg"}, "A chart.") == "A cha
 assert gat.clean('"A map of Paris"\n') == "A map of Paris."
 assert gat.clean("**Alt text:** Two graphs") == "Two graphs."
 
-assert gat.patched_tag('<img src="a.png" alt="a.png" class="c">', "html", "a.png", "A cast.") == '<img src="a.png" alt="A cast." class="c">'
-assert gat.patched_tag('<img src="a.png" />', "html", "a.png", "A cast.") == '<img src="a.png" alt="A cast."/>'
-assert gat.patched_tag('<img src="a.png">', "html", "a.png", 'Say "hi"') == '<img src="a.png" alt="Say &quot;hi&quot;">'
-assert gat.patched_tag("![](a.png)", "markdown", "a.png", "A cast.") == "![A cast.](a.png)"
+assert gat.patched_tag('<img src="a.png" alt="a.png" class="c">', "html", "A cast.") == '<img src="a.png" alt="A cast." class="c">'
+assert gat.patched_tag('<img src="a.png" />', "html", "A cast.") == '<img src="a.png" alt="A cast."/>'
+assert gat.patched_tag('<img src="a.png">', "html", 'Say "hi"') == '<img src="a.png" alt="Say &quot;hi&quot;">'
+assert gat.patched_tag("![](a.png)", "markdown", "A cast.") == "![A cast.](a.png)"
+assert gat.patched_tag('![](a.png "Cast")', "markdown", "A cast.") == '![A cast.](a.png "Cast")'   # title kept
+assert gat.patched_tag('<img data-alt="x" src="a.png">', "html", "A cast.") == '<img data-alt="x" src="a.png" alt="A cast.">'
 
 with tempfile.TemporaryDirectory() as tmp:
     site = Path(tmp)
@@ -62,6 +64,13 @@ with tempfile.TemporaryDirectory() as tmp:
     assert body["messages"][0]["content"][1]["image_url"]["url"].startswith("data:image/png;base64,")
     assert gat.build_prompt("Look at the attached image.", "").startswith("Look at the attached image. Describe it")
     assert "Map of Paris" in gat.build_prompt("Read the image at /x.png.", "Map of Paris")
+    content = gat.anthropic_content(site / "files" / "x.png", "Describe.")
+    assert content[0]["source"] == {"type": "base64", "media_type": "image/png", "data": "cG5n"}
+    assert content[1] == {"type": "text", "text": "Describe."}
+    cache = site / "cache"; cache.mkdir()
+    gat.urllib.request.urlopen = lambda url, timeout: __import__("io").BytesIO(url.encode())  # no network
+    a, b = gat.fetch("https://x.org/a/thumb.jpg", cache), gat.fetch("https://x.org/b/thumb.jpg", cache)
+    assert a != b and a.suffix == ".jpg" and a.read_bytes().endswith(b"/a/thumb.jpg")
     gat.patch(entries[0], "A cast.")
     assert page.read_text().startswith('<img src="../files/x.png" alt="A cast.">')
 print("ok")

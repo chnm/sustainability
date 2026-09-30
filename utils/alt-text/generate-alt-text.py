@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Find images with missing or weak alt text in a site directory and generate
-replacements with a vision model: Claude via the claude CLI (default), or any
-model behind an OpenAI-compatible chat endpoint (Ollama, LM Studio, vLLM,
-hosted providers).
+replacements with a vision model: Claude via the claude CLI (default), Claude
+via the Anthropic API, or any model behind an OpenAI-compatible chat endpoint
+(Ollama, LM Studio, vLLM, hosted providers).
 
 Works on any site in this monorepo: flattened HTML crawls and Hugo sources
 alike. Scans every *.html and *.md under SITE. Flags <img> tags and Markdown
@@ -21,14 +21,19 @@ Usage:
     python utils/alt-text/generate-alt-text.py plastercast --backend openai \
         --api-url http://localhost:11434/v1 --model qwen2.5vl:7b
         # local open model via Ollama; OPENAI_API_KEY (or --api-key) for hosted endpoints
+    python utils/alt-text/generate-alt-text.py plastercast --backend anthropic
+        # Claude via the API instead of the CLI; reads ANTHROPIC_API_KEY
 
 Requires: claude CLI (Claude Code) installed and authenticated for the default
-backend; nothing beyond the standard library for --backend openai.
+backend; `pip install anthropic` for --backend anthropic; nothing beyond the
+standard library for --backend openai.
 Self-check: python utils/alt-text/test_generate_alt_text.py
 """
 
 import argparse
 import base64
+import functools
+import hashlib
 import html
 import json
 import mimetypes
@@ -37,18 +42,20 @@ import re
 import subprocess
 import sys
 import tempfile
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
 MD_IMG_RE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 HTML_IMG_RE = re.compile(r"<img\b[^>]*>", re.I | re.S)
-SRC_RE = re.compile(r'\bsrc="([^"]+)"', re.I)
-ALT_RE = re.compile(r'\balt="([^"]*)"', re.I)
+SRC_RE = re.compile(r'(?<![\w-])src="([^"]+)"', re.I)
+ALT_RE = re.compile(r'(?<![\w-])alt="([^"]*)"', re.I)
 PLACEHOLDER_RE = re.compile(r"^(\s*|alt|alt[- ]text|image|todo)$", re.I)
 # alt that is really a path: a URL, a slash path, or a bare filename with an image extension
 FILENAME_RE = re.compile(r"^(https?://\S+|\S*/\S+|\S+\.(jpe?g|png|gif|svg|webp|tiff?))$", re.I)
 SKIP_DIRS = {"node_modules", ".git"}
 MIN_ALT_LEN = 40
+API_IMAGE_TYPES = {"image/jpeg", "image/png", "image/gif", "image/webp"}  # what vision APIs accept
 
 PROMPT_TEMPLATE = (
     "{image} Describe it in one or two concise "
@@ -135,8 +142,9 @@ def resolve_image_path(site: Path, src_file: Path, img_ref: str, base_url: str =
 
 
 def fetch(url: str, cache_dir: Path) -> Path | None:
-    """Download url into cache_dir (once) so claude can Read it."""
-    dest = cache_dir / url.rsplit("/", 1)[-1]
+    """Download url into cache_dir (once) so the model can read it."""
+    suffix = Path(urllib.parse.urlsplit(url).path).suffix
+    dest = cache_dir / (hashlib.sha1(url.encode()).hexdigest()[:16] + suffix)
     if dest.exists():
         return dest
     try:
@@ -155,9 +163,14 @@ def build_prompt(image_phrase: str, existing: str) -> str:
 
 def generate_alt_text(image_path: Path, existing: str, args) -> str:
     """Fresh alt text, or one extra sentence if alt exists, from the chosen backend."""
+    if args.backend != "claude" and image_mime(image_path) not in API_IMAGE_TYPES:
+        print(f"  SKIP: {image_path.suffix} is not jpeg/png/gif/webp; use --backend claude or add alt by hand")
+        return ""
     if args.backend == "openai":
         prompt = build_prompt("Look at the attached image.", existing)
         text = call_openai(image_path, prompt, args.model, args.api_url, args.api_key)
+    elif args.backend == "anthropic":
+        text = call_anthropic(image_path, build_prompt("Look at the attached image.", existing), args.model)
     else:
         prompt = build_prompt(f"Read the image at {image_path}.", existing)
         text = call_claude(prompt, args.model)
@@ -181,10 +194,53 @@ def call_claude(prompt: str, model: str) -> str:
     return result.stdout
 
 
+def image_mime(path: Path) -> str:
+    return mimetypes.guess_type(path.name)[0] or "image/jpeg"  # extensionless bucket URLs are usually jpeg
+
+
+def b64(path: Path) -> str:
+    return base64.standard_b64encode(path.read_bytes()).decode()
+
+
+def anthropic_content(image_path: Path, prompt: str) -> list[dict]:
+    """User content for a Messages API call: the image, then the prompt."""
+    return [
+        {"type": "image", "source": {"type": "base64", "media_type": image_mime(image_path), "data": b64(image_path)}},
+        {"type": "text", "text": prompt},
+    ]
+
+
+@functools.cache
+def anthropic_client():
+    try:
+        import anthropic
+    except ImportError:
+        sys.exit("ERROR: --backend anthropic needs the SDK: pip install anthropic")
+    return anthropic.Anthropic()  # ANTHROPIC_API_KEY or an `ant auth login` profile
+
+
+def call_anthropic(image_path: Path, prompt: str, model: str) -> str:
+    client = anthropic_client()  # exits with an install hint if the SDK is missing
+    import anthropic
+    try:
+        msg = client.messages.create(
+            model=model, max_tokens=16000,
+            messages=[{"role": "user", "content": anthropic_content(image_path, prompt)}],
+        )
+    except (anthropic.AuthenticationError, TypeError) as exc:  # TypeError: no credentials configured at all
+        sys.exit(f"ERROR: Anthropic API auth failed; set ANTHROPIC_API_KEY. {exc}")
+    except anthropic.APIError as exc:  # rate limit after SDK retries, oversized image, etc.
+        print(f"  ERROR: Anthropic API failed for {image_path.name}: {exc}", file=sys.stderr)
+        return ""
+    if msg.stop_reason == "refusal":
+        print(f"  ERROR: Claude declined {image_path.name}; add alt by hand", file=sys.stderr)
+        return ""
+    return "".join(b.text for b in msg.content if b.type == "text")
+
+
 def openai_request(image_path: Path, prompt: str, model: str, api_url: str, api_key: str) -> urllib.request.Request:
     """POST body for an OpenAI-compatible /chat/completions call with the image inline."""
-    mime = mimetypes.guess_type(image_path.name)[0] or "image/jpeg"
-    data_url = f"data:{mime};base64,{base64.b64encode(image_path.read_bytes()).decode()}"
+    data_url = f"data:{image_mime(image_path)};base64,{b64(image_path)}"
     body = {
         "model": model,
         "max_tokens": 300,
@@ -226,9 +282,9 @@ def new_alt(entry: dict, generated: str) -> str:
     return generated
 
 
-def patched_tag(old: str, kind: str, img_ref: str, alt: str) -> str:
+def patched_tag(old: str, kind: str, alt: str) -> str:
     if kind == "markdown":
-        return f"![{alt}]({img_ref})"
+        return MD_IMG_RE.sub(lambda m: f"![{alt}]({m.group(2)})", old, count=1)
     alt = alt.replace('"', "&quot;")
     if ALT_RE.search(old):
         return ALT_RE.sub(f'alt="{alt}"', old, count=1)
@@ -240,7 +296,7 @@ def patched_tag(old: str, kind: str, img_ref: str, alt: str) -> str:
 def patch(entry: dict, alt: str) -> None:
     """Rewrite the matched image with alt text (first occurrence only)."""
     text = entry["file"].read_text(encoding="utf-8", errors="replace")
-    new = patched_tag(entry["match"], entry["type"], entry["img_ref"], alt)
+    new = patched_tag(entry["match"], entry["type"], alt)
     entry["file"].write_text(text.replace(entry["match"], new, 1), encoding="utf-8")
 
 
@@ -251,9 +307,11 @@ def main():
     parser.add_argument("--list", action="store_true", help="Only list flagged images; no model calls")
     parser.add_argument("--limit", type=int, default=0, help="Stop after N generated alts (0 = no limit)")
     parser.add_argument("--strict", action="store_true", help="Also flag short or duplicated alt text")
-    parser.add_argument("--backend", choices=["claude", "openai"], default="claude",
-                        help="claude: the claude CLI (default); openai: any OpenAI-compatible chat endpoint")
-    parser.add_argument("--model", default=None, help="Model name (default: claude-sonnet-5 for claude; required for openai)")
+    parser.add_argument("--backend", choices=["claude", "anthropic", "openai"], default="claude",
+                        help="claude: the claude CLI (default); anthropic: the Anthropic API; "
+                             "openai: any OpenAI-compatible chat endpoint")
+    parser.add_argument("--model", default=None,
+                        help="Model name (default: claude-sonnet-5 for claude/anthropic; required for openai)")
     parser.add_argument("--api-url", default="http://localhost:11434/v1",
                         help="Base URL for --backend openai (default: Ollama at http://localhost:11434/v1)")
     parser.add_argument("--api-key", default=os.environ.get("OPENAI_API_KEY", ""),

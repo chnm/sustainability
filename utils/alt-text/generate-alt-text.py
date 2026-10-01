@@ -350,7 +350,7 @@ def new_alt(entry: dict, generated: str) -> str:
 def patched_tag(old: str, kind: str, alt: str) -> str:
     if kind == "markdown":
         return MD_IMG_RE.sub(lambda m: f"![{alt}]({m.group(2)})", old, count=1)
-    alt = alt.replace('"', "&quot;")
+    alt = html.escape(alt, quote=False).replace('"', "&quot;")  # a quoted sign like "Prayer > the virus"
     if ALT_RE.search(old):
         return ALT_RE.sub(f'alt="{alt}"', old, count=1)
     body = old[:-1].rstrip()

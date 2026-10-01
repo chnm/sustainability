@@ -76,6 +76,16 @@ with tempfile.TemporaryDirectory() as tmp:
     gat.urllib.request.urlopen = lambda url, timeout: __import__("io").BytesIO(url.encode())  # no network
     a, b = gat.fetch("https://x.org/a/thumb.jpg", cache), gat.fetch("https://x.org/b/thumb.jpg", cache)
     assert a != b and a.suffix == ".jpg" and a.read_bytes().endswith(b"/a/thumb.jpg")
+    def boom(url, timeout): raise OSError("404")
+    gat.urllib.request.urlopen = boom
+    try:
+        gat.fetch("https://x.org/gone.jpg", cache); raise AssertionError("fetch should raise")
+    except gat.ImageFailed as exc:
+        assert "gone.jpg" in str(exc) and "404" in str(exc)
+    log = site / "logs" / "runs.jsonl"
+    gat.write_log(log, status="ok", alt="A cast.")
+    gat.write_log(log, status="error", error="404")
+    assert [json.loads(line)["status"] for line in log.read_text().splitlines()] == ["ok", "error"]
     gat.patch(entries[0], "A cast.")
     assert page.read_text().startswith('<img src="../files/x.png" alt="A cast.">')
 print("ok")

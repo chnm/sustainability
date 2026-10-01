@@ -55,6 +55,9 @@ PLACEHOLDER_RE = re.compile(r"^(\s*|alt|alt[- ]text|image|todo)$", re.I)
 FILENAME_RE = re.compile(r"^(https?://\S+|\S*/\S+|\S+\.(jpe?g|png|gif|svg|webp|tiff?))$", re.I)
 SKIP_DIRS = {"node_modules", ".git"}
 MIN_ALT_LEN = 40
+# Omeka serves one upload as several derivatives under the same hash name
+# (files/large/abc.jpg, files/square/abc.jpg, files/original/abc.png)
+OMEKA_DERIVATIVE_RE = re.compile(r"/files/(?:original|fullsize|large|medium|thumbnails|square_thumbnails|square)/([^/]+?)\.\w+$")
 API_IMAGE_TYPES = {"image/jpeg", "image/png", "image/gif", "image/webp"}  # what vision APIs accept
 
 PROMPT_TEMPLATE = (
@@ -139,6 +142,11 @@ def resolve_image_path(site: Path, src_file: Path, img_ref: str, base_url: str =
         return on_disk
     site_rel = os.path.relpath(os.path.normpath(candidates[0]), site)
     return None if site_rel.startswith("..") else f"{base_url.rstrip('/')}/{site_rel}"
+
+
+def image_key(img: Path | str) -> str:
+    """Same key for every Omeka derivative of one upload, so it is described once."""
+    return OMEKA_DERIVATIVE_RE.sub(r"/files/\1", str(img))
 
 
 def fetch(url: str, cache_dir: Path) -> Path | None:
@@ -344,7 +352,7 @@ def main():
         if args.list:
             continue
         existing = e["alt"] if e["reason"] in ("short", "duplicate") else ""
-        key = (str(img), existing)
+        key = (image_key(img), existing)
         if key not in cache:
             if args.limit and len(cache) >= args.limit:
                 print("    (limit reached)")

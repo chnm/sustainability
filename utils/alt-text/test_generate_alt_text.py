@@ -20,6 +20,11 @@ assert gat.weak_reason("http://thanksroy.org/Imgs/grass_d7ea60ef9d.jpg", set()) 
 assert gat.weak_reason("/files/fullsize/abc.png", set()) == "filename"
 assert gat.weak_reason("Photo of Roy in 1999.", set()) is None   # trailing period is not an extension
 
+assert gat.image_key("https://x.org/files/large/ab12.jpg") == gat.image_key("https://x.org/files/square/ab12.jpg")
+assert gat.image_key("/s/files/original/ab12.png") == gat.image_key("/s/files/medium/ab12.jpg")
+assert gat.image_key("https://x.org/files/large/ab12.jpg") != gat.image_key("https://x.org/files/large/cd34.jpg")
+assert gat.image_key("/s/img/large/ab12.jpg") == "/s/img/large/ab12.jpg"   # not Omeka: untouched
+
 assert gat.new_alt({"reason": "short", "alt": "Map of Paris"}, "Red dots mark bridges.") == "Map of Paris. Red dots mark bridges."
 assert gat.new_alt({"reason": "filename", "alt": "x.jpg"}, "A chart.") == "A chart."
 

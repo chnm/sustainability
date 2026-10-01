@@ -25,7 +25,7 @@ Usage:
         # Claude via the API instead of the CLI; reads ANTHROPIC_API_KEY
 
 Requires: claude CLI (Claude Code) installed and authenticated for the default
-backend; `pip install anthropic` for --backend anthropic; nothing beyond the
+backend; `uv run --with anthropic` for --backend anthropic; nothing beyond the
 standard library for --backend openai.
 Self-check: python utils/alt-text/test_generate_alt_text.py
 """
@@ -215,7 +215,7 @@ def anthropic_client():
     try:
         import anthropic
     except ImportError:
-        sys.exit("ERROR: --backend anthropic needs the SDK: pip install anthropic")
+        sys.exit("ERROR: --backend anthropic needs the SDK; run with: uv run --with anthropic python ...")
     return anthropic.Anthropic()  # ANTHROPIC_API_KEY or an `ant auth login` profile
 
 

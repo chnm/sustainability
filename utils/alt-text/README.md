@@ -7,7 +7,7 @@ Cross-site alt text tool. Site-specific fix scripts live in `scripts/` or under 
 Finds images with missing or weak alt text in a site directory and writes replacements
 with a vision model. Works on flattened HTML sites and Hugo sources. The default backend
 is Claude via the `claude` CLI; `--backend anthropic` calls Claude through the API
-(`pip install anthropic`, `ANTHROPIC_API_KEY`); `--backend openai` talks to any OpenAI-compatible chat
+(`uv run --with anthropic`, `ANTHROPIC_API_KEY`); `--backend openai` talks to any OpenAI-compatible chat
 endpoint, which covers Ollama, LM Studio, vLLM, and most hosted open-model providers.
 
 ```
@@ -25,7 +25,7 @@ OPENAI_API_KEY=... python utils/alt-text/generate-alt-text.py plastercast --back
     --api-url https://api.example.com/v1 --model some-vision-model
 
 # Claude through the API instead of the CLI
-ANTHROPIC_API_KEY=... python utils/alt-text/generate-alt-text.py plastercast --backend anthropic --limit 5
+ANTHROPIC_API_KEY=... uv run --with anthropic python utils/alt-text/generate-alt-text.py plastercast --backend anthropic --limit 5
 ```
 
 Flags alt that is empty, a placeholder, or a filename/URL. The same image on many

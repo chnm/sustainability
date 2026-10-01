@@ -103,6 +103,14 @@ with tempfile.TemporaryDirectory() as tmp:
     gat.write_log(log, status="ok", alt="A cast.")
     gat.write_log(log, status="error", error="404")
     assert [json.loads(line)["status"] for line in log.read_text().splitlines()] == ["ok", "error"]
+    rec = dict(site="s", model="m", existing="")
+    gat.write_log(log, status="ok", image="https://x.org/files/square/h1.jpg", alt="Old.", **rec)
+    gat.write_log(log, status="ok", image="https://x.org/files/large/h1.jpg", alt="New.", **rec)
+    gat.write_log(log, status="ok", image="https://x.org/files/large/h2.jpg", alt="I'm not able to view the image.", **rec)
+    gat.write_log(log, status="ok", image="https://x.org/files/large/h3.jpg", alt="Other model.", **{**rec, "model": "x"})
+    with log.open("a") as f: f.write('{"cut short')
+    assert gat.previous_alts(log, "s", "m") == {(gat.image_key("https://x.org/files/medium/h1.jpg"), ""): "New."}
+    assert gat.previous_alts(site / "nope.jsonl", "s", "m") == {}
     gat.patch(entries[0], "A cast.")
     assert page.read_text().startswith('<img src="../files/x.png" alt="A cast.">')
 print("ok")

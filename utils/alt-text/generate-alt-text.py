@@ -161,6 +161,23 @@ def write_log(path: Path, **record) -> None:
         f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
 
+def previous_alts(log: Path, site: str, model: str) -> dict[tuple[str, str], str]:
+    """Descriptions earlier runs of this model made for this site, so a resumed or
+    re-run pass reuses them instead of describing (and paying for) a photo again."""
+    found = {}
+    if not log.is_file():
+        return found
+    for line in log.read_text(encoding="utf-8").splitlines():
+        try:
+            r = json.loads(line)
+        except json.JSONDecodeError:  # a line cut short by Ctrl-C
+            continue
+        if (r.get("status") == "ok" and r.get("site") == site and r.get("model") == model
+                and not NOT_A_DESCRIPTION_RE.search(r["alt"])):
+            found[(image_key(r["image"]), r["existing"])] = r["alt"]  # later lines win
+    return found
+
+
 def image_key(img: Path | str) -> str:
     """Same key for every Omeka derivative of one upload, so it is described once."""
     return OMEKA_DERIVATIVE_RE.sub(r"/files/\1", str(img))
@@ -365,6 +382,8 @@ def main():
     parser.add_argument("--api-key", default=os.environ.get("OPENAI_API_KEY", ""),
                         help="Bearer token for --backend openai (default: $OPENAI_API_KEY)")
     parser.add_argument("--base-url", default="", help="Fetch images not on disk from this site URL, e.g. https://thanksroy.org")
+    parser.add_argument("--fresh", action="store_true",
+                        help="Describe every image again instead of reusing this site's descriptions from --log")
     parser.add_argument("--log", type=Path, default=Path(__file__).parent / "logs" / "runs.jsonl",
                         help="Append one JSON line per model call and per unresolved image (default: utils/alt-text/logs/runs.jsonl)")
     args = parser.parse_args()
@@ -380,7 +399,11 @@ def main():
         return
     print(f"Found {len(entries)} image(s) with missing or weak alt text.\n")
 
-    cache: dict[tuple[str, str], str] = {}  # same image on many pages: generate once
+    # same image on many pages: generate once, and reuse what earlier runs of this model generated
+    cache = {} if args.fresh or args.list else previous_alts(args.log, str(args.site), args.model)
+    if cache:
+        print(f"Reusing {len(cache)} description(s) from {args.log}; --fresh to describe again.\n")
+    calls = 0
     fetch_dir = Path(tempfile.mkdtemp(prefix="alt-text-"))
     processed = skipped = 0
     run = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -403,9 +426,10 @@ def main():
         existing = e["alt"] if e["reason"] in ("short", "duplicate") else ""
         key = (image_key(img), existing)
         if key not in cache:
-            if args.limit and len(cache) >= args.limit:
+            if args.limit and calls >= args.limit:
                 print("    (limit reached)")
                 break
+            calls += 1
             start, error, described = time.monotonic(), "", str(img)
             try:
                 local, described = load(img, fetch_dir)
@@ -428,7 +452,7 @@ def main():
 
     if args.list:
         return
-    print(f"\nDone. Processed: {processed}, Skipped: {skipped}, Model calls: {len(cache)}")
+    print(f"\nDone. Processed: {processed}, Skipped: {skipped}, Model calls: {calls}")
     if not args.apply and processed:
         print("Run with --apply to write changes to files.")
 

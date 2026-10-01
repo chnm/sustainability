@@ -41,6 +41,11 @@ assert gat.clean("**Alt text:** Two graphs") == "Two graphs."
 assert gat.patched_tag('<img src="a.png" alt="a.png" class="c">', "html", "A cast.") == '<img src="a.png" alt="A cast." class="c">'
 assert gat.patched_tag('<img src="a.png" />', "html", "A cast.") == '<img src="a.png" alt="A cast."/>'
 assert gat.patched_tag('<img src="a.png">', "html", 'Say "hi"') == '<img src="a.png" alt="Say &quot;hi&quot;">'
+tag = gat.patched_tag('<img src="a.png" alt="">', "html", 'Sign: "Prayer > the virus" & more')
+assert tag == '<img src="a.png" alt="Sign: &quot;Prayer &gt; the virus&quot; &amp; more">'
+with tempfile.TemporaryDirectory() as tmp:   # the scanner must read back what patch writes
+    (Path(tmp) / "p.html").write_text(tag)
+    assert gat.find_weak(Path(tmp), strict=False) == []
 assert gat.patched_tag("![](a.png)", "markdown", "A cast.") == "![A cast.](a.png)"
 assert gat.patched_tag('![](a.png "Cast")', "markdown", "A cast.") == '![A cast.](a.png "Cast")'   # title kept
 assert gat.patched_tag('<img data-alt="x" src="a.png">', "html", "A cast.") == '<img data-alt="x" src="a.png" alt="A cast.">'

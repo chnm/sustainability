@@ -40,6 +40,11 @@ resolve, to `utils/alt-text/logs/runs.jsonl` (gitignored; change with `--log`). 
 run, time, site, backend, model, page, image, existing alt, generated alt, status (`ok`, `error`,
 `unresolved`), error message, whether it was applied, and seconds taken.
 
+A run reuses the descriptions earlier runs of the same model made for the same site, so stopping
+and restarting, or spot-checking with `--limit` before `--apply`, never describes a photo twice or
+gives it two different descriptions. `--fresh` ignores the log; use it after blanking alt text you
+want regenerated, or the old description comes back.
+
 ```
 jq -r 'select(.status=="error") | "\(.page)  \(.error)"' utils/alt-text/logs/runs.jsonl   # what failed
 jq -s 'map(select(.status != "unresolved")) | group_by(.model) | map({model: .[0].model, calls: length, avg_s: (map(.seconds // 0) | add / length)})' utils/alt-text/logs/runs.jsonl

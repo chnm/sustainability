@@ -42,8 +42,10 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 import urllib.parse
 import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 
 MD_IMG_RE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
@@ -144,12 +146,23 @@ def resolve_image_path(site: Path, src_file: Path, img_ref: str, base_url: str =
     return None if site_rel.startswith("..") else f"{base_url.rstrip('/')}/{site_rel}"
 
 
+class ImageFailed(Exception):
+    """One image could not be described; the run logs it and moves on."""
+
+
+def write_log(path: Path, **record) -> None:
+    """Append one JSON line to the run log."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(record, ensure_ascii=False) + "\n")
+
+
 def image_key(img: Path | str) -> str:
     """Same key for every Omeka derivative of one upload, so it is described once."""
     return OMEKA_DERIVATIVE_RE.sub(r"/files/\1", str(img))
 
 
-def fetch(url: str, cache_dir: Path) -> Path | None:
+def fetch(url: str, cache_dir: Path) -> Path:
     """Download url into cache_dir (once) so the model can read it."""
     suffix = Path(urllib.parse.urlsplit(url).path).suffix
     dest = cache_dir / (hashlib.sha1(url.encode()).hexdigest()[:16] + suffix)
@@ -159,8 +172,7 @@ def fetch(url: str, cache_dir: Path) -> Path | None:
         with urllib.request.urlopen(url, timeout=30) as r:
             dest.write_bytes(r.read())
     except Exception as exc:  # 404 from the bucket, network, etc.
-        print(f"  ERROR: fetch failed for {url}: {exc}", file=sys.stderr)
-        return None
+        raise ImageFailed(f"fetch failed for {url}: {exc}") from exc
     return dest
 
 
@@ -172,8 +184,7 @@ def build_prompt(image_phrase: str, existing: str) -> str:
 def generate_alt_text(image_path: Path, existing: str, args) -> str:
     """Fresh alt text, or one extra sentence if alt exists, from the chosen backend."""
     if args.backend != "claude" and image_mime(image_path) not in API_IMAGE_TYPES:
-        print(f"  SKIP: {image_path.suffix} is not jpeg/png/gif/webp; use --backend claude or add alt by hand")
-        return ""
+        raise ImageFailed(f"{image_path.suffix} is not jpeg/png/gif/webp; use --backend claude or add alt by hand")
     if args.backend == "openai":
         prompt = build_prompt("Look at the attached image.", existing)
         text = call_openai(image_path, prompt, args.model, args.api_url, args.api_key)
@@ -193,12 +204,10 @@ def call_claude(prompt: str, model: str) -> str:
         )
     except FileNotFoundError:
         sys.exit("ERROR: 'claude' CLI not found. Install Claude Code first.")
-    except subprocess.TimeoutExpired:
-        print("  ERROR: claude timed out", file=sys.stderr)
-        return ""
+    except subprocess.TimeoutExpired as exc:
+        raise ImageFailed("claude timed out") from exc
     if result.returncode != 0:
-        print(f"  ERROR: claude failed: {result.stderr.strip()}", file=sys.stderr)
-        return ""
+        raise ImageFailed(f"claude failed: {result.stderr.strip()}")
     return result.stdout
 
 
@@ -238,11 +247,9 @@ def call_anthropic(image_path: Path, prompt: str, model: str) -> str:
     except (anthropic.AuthenticationError, TypeError) as exc:  # TypeError: no credentials configured at all
         sys.exit(f"ERROR: Anthropic API auth failed; set ANTHROPIC_API_KEY. {exc}")
     except anthropic.APIError as exc:  # rate limit after SDK retries, oversized image, etc.
-        print(f"  ERROR: Anthropic API failed for {image_path.name}: {exc}", file=sys.stderr)
-        return ""
+        raise ImageFailed(f"Anthropic API failed: {exc}") from exc
     if msg.stop_reason == "refusal":
-        print(f"  ERROR: Claude declined {image_path.name}; add alt by hand", file=sys.stderr)
-        return ""
+        raise ImageFailed("Claude declined; add alt by hand")
     return "".join(b.text for b in msg.content if b.type == "text")
 
 
@@ -269,8 +276,7 @@ def call_openai(image_path: Path, prompt: str, model: str, api_url: str, api_key
         with urllib.request.urlopen(openai_request(image_path, prompt, model, api_url, api_key), timeout=300) as r:
             return json.load(r)["choices"][0]["message"]["content"]
     except Exception as exc:  # connection refused, HTTP error, unexpected shape
-        print(f"  ERROR: {api_url} failed for {image_path.name}: {exc}", file=sys.stderr)
-        return ""
+        raise ImageFailed(f"{api_url} failed: {exc}") from exc
 
 
 def clean(text: str) -> str:
@@ -325,6 +331,8 @@ def main():
     parser.add_argument("--api-key", default=os.environ.get("OPENAI_API_KEY", ""),
                         help="Bearer token for --backend openai (default: $OPENAI_API_KEY)")
     parser.add_argument("--base-url", default="", help="Fetch images not on disk from this site URL, e.g. https://thanksroy.org")
+    parser.add_argument("--log", type=Path, default=Path(__file__).parent / "logs" / "runs.jsonl",
+                        help="Append one JSON line per model call and per unresolved image (default: utils/alt-text/logs/runs.jsonl)")
     args = parser.parse_args()
     if not args.site.is_dir():
         sys.exit(f"ERROR: {args.site} is not a directory")
@@ -341,11 +349,18 @@ def main():
     cache: dict[tuple[str, str], str] = {}  # same image on many pages: generate once
     fetch_dir = Path(tempfile.mkdtemp(prefix="alt-text-"))
     processed = skipped = 0
+    run = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    def log(**record):
+        if not args.list:
+            write_log(args.log, run=run, time=datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                      site=str(args.site), backend=args.backend, model=args.model, **record)
+
     for e in entries:
         rel = e["file"].relative_to(args.site)
         img = resolve_image_path(args.site, e["file"], e["img_ref"], args.base_url)
         if img is None:
             print(f"  SKIP [{e['type']}]: {rel}:{e['line']} — cannot resolve {e['img_ref'] or '(dynamic src)'}; add alt by hand")
+            log(status="unresolved", page=f"{rel}:{e['line']}", image=e["img_ref"], reason=e["reason"])
             skipped += 1
             continue
         print(f"  [{e['type']}, {e['reason']}] {rel}:{e['line']} — {img if isinstance(img, str) else e['img_ref']}")
@@ -357,8 +372,16 @@ def main():
             if args.limit and len(cache) >= args.limit:
                 print("    (limit reached)")
                 break
-            local = fetch(img, fetch_dir) if isinstance(img, str) else img
-            cache[key] = generate_alt_text(local, existing, args) if local else ""
+            start, error = time.monotonic(), ""
+            try:
+                local = fetch(img, fetch_dir) if isinstance(img, str) else img
+                cache[key] = generate_alt_text(local, existing, args)
+            except ImageFailed as exc:
+                print(f"    ERROR: {exc}", file=sys.stderr)
+                cache[key], error = "", str(exc)
+            log(status="ok" if cache[key] else "error", error=error or ("" if cache[key] else "empty response"),
+                page=f"{rel}:{e['line']}", image=str(img), reason=e["reason"], existing=existing,
+                alt=cache[key], applied=args.apply, seconds=round(time.monotonic() - start, 1))
         if not cache[key]:
             skipped += 1
             continue

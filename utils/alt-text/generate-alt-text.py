@@ -60,6 +60,10 @@ MIN_ALT_LEN = 40
 # Omeka serves one upload as several derivatives under the same hash name
 # (files/large/abc.jpg, files/square/abc.jpg, files/original/abc.png)
 OMEKA_DERIVATIVE_RE = re.compile(r"/files/(?:original|fullsize|large|medium|thumbnails|square_thumbnails|square)/([^/]+?)\.\w+$")
+# the model talking to us instead of describing ("I'm not able to view the image... re-upload")
+NOT_A_DESCRIPTION_RE = re.compile(
+    r"not able to (?:view|see|access|open)|(?:can't|cannot|unable to) (?:view|see|access|open)"
+    r"|re-?upload|did ?n[o']?t come through|came through instead", re.I)
 API_IMAGE_TYPES = {"image/jpeg", "image/png", "image/gif", "image/webp"}  # what vision APIs accept
 
 PROMPT_TEMPLATE = (
@@ -162,6 +166,25 @@ def image_key(img: Path | str) -> str:
     return OMEKA_DERIVATIVE_RE.sub(r"/files/\1", str(img))
 
 
+def largest_derivative(img: Path | str) -> str:
+    """Omeka's square/medium thumbnails are too small to read a scanned page; use the large copy."""
+    big = re.sub(r"/files/(?:medium|square)/", "/files/large/", str(img))                        # Omeka S
+    return re.sub(r"/files/(?:thumbnails|square_thumbnails)/", "/files/fullsize/", big)          # Omeka Classic
+
+
+def load(img: Path | str, cache_dir: Path) -> tuple[Path, str]:
+    """Local file to describe for img, preferring its largest derivative; returns (file, what it came from)."""
+    big = largest_derivative(img)
+    if not isinstance(img, str):
+        return (Path(big), big) if Path(big).is_file() else (img, str(img))
+    if big != img:
+        try:
+            return fetch(big, cache_dir), big
+        except ImageFailed:
+            pass  # no large copy; describe what the page links
+    return fetch(img, cache_dir), img
+
+
 def fetch(url: str, cache_dir: Path) -> Path:
     """Download url into cache_dir (once) so the model can read it."""
     suffix = Path(urllib.parse.urlsplit(url).path).suffix
@@ -193,7 +216,10 @@ def generate_alt_text(image_path: Path, existing: str, args) -> str:
     else:
         prompt = build_prompt(f"Read the image at {image_path}.", existing)
         text = call_claude(prompt, args.model)
-    return clean(text)
+    text = clean(text)
+    if NOT_A_DESCRIPTION_RE.search(text):
+        raise ImageFailed(f"model did not describe the image: {text[:100]}")
+    return text
 
 
 def call_claude(prompt: str, model: str) -> str:
@@ -212,7 +238,15 @@ def call_claude(prompt: str, model: str) -> str:
 
 
 def image_mime(path: Path) -> str:
-    return mimetypes.guess_type(path.name)[0] or "image/jpeg"  # extensionless bucket URLs are usually jpeg
+    """Sniff the real type: URLs like default.png%3Fv=3.1.0 have no usable extension."""
+    with path.open("rb") as f:
+        head = f.read(12)
+    for magic, mime in ((b"\xff\xd8\xff", "image/jpeg"), (b"\x89PNG", "image/png"), (b"GIF8", "image/gif")):
+        if head.startswith(magic):
+            return mime
+    if head[:4] == b"RIFF" and head[8:12] == b"WEBP":
+        return "image/webp"
+    return mimetypes.guess_type(path.name)[0] or "image/jpeg"
 
 
 def b64(path: Path) -> str:
@@ -372,15 +406,15 @@ def main():
             if args.limit and len(cache) >= args.limit:
                 print("    (limit reached)")
                 break
-            start, error = time.monotonic(), ""
+            start, error, described = time.monotonic(), "", str(img)
             try:
-                local = fetch(img, fetch_dir) if isinstance(img, str) else img
+                local, described = load(img, fetch_dir)
                 cache[key] = generate_alt_text(local, existing, args)
             except ImageFailed as exc:
                 print(f"    ERROR: {exc}", file=sys.stderr)
                 cache[key], error = "", str(exc)
             log(status="ok" if cache[key] else "error", error=error or ("" if cache[key] else "empty response"),
-                page=f"{rel}:{e['line']}", image=str(img), reason=e["reason"], existing=existing,
+                page=f"{rel}:{e['line']}", image=described, reason=e["reason"], existing=existing,
                 alt=cache[key], applied=args.apply, seconds=round(time.monotonic() - start, 1))
         if not cache[key]:
             skipped += 1

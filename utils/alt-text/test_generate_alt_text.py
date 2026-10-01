@@ -1,5 +1,6 @@
 """Self-check for the alt-text scanner. Run: python utils/alt-text/test_generate_alt_text.py"""
 import importlib.util
+import json
 import tempfile
 from pathlib import Path
 
@@ -19,16 +20,23 @@ assert gat.weak_reason("http://thanksroy.org/Imgs/grass_d7ea60ef9d.jpg", set()) 
 assert gat.weak_reason("/files/fullsize/abc.png", set()) == "filename"
 assert gat.weak_reason("Photo of Roy in 1999.", set()) is None   # trailing period is not an extension
 
+assert gat.image_key("https://x.org/files/large/ab12.jpg") == gat.image_key("https://x.org/files/square/ab12.jpg")
+assert gat.image_key("/s/files/original/ab12.png") == gat.image_key("/s/files/medium/ab12.jpg")
+assert gat.image_key("https://x.org/files/large/ab12.jpg") != gat.image_key("https://x.org/files/large/cd34.jpg")
+assert gat.image_key("/s/img/large/ab12.jpg") == "/s/img/large/ab12.jpg"   # not Omeka: untouched
+
 assert gat.new_alt({"reason": "short", "alt": "Map of Paris"}, "Red dots mark bridges.") == "Map of Paris. Red dots mark bridges."
 assert gat.new_alt({"reason": "filename", "alt": "x.jpg"}, "A chart.") == "A chart."
 
 assert gat.clean('"A map of Paris"\n') == "A map of Paris."
 assert gat.clean("**Alt text:** Two graphs") == "Two graphs."
 
-assert gat.patched_tag('<img src="a.png" alt="a.png" class="c">', "html", "a.png", "A cast.") == '<img src="a.png" alt="A cast." class="c">'
-assert gat.patched_tag('<img src="a.png" />', "html", "a.png", "A cast.") == '<img src="a.png" alt="A cast."/>'
-assert gat.patched_tag('<img src="a.png">', "html", "a.png", 'Say "hi"') == '<img src="a.png" alt="Say &quot;hi&quot;">'
-assert gat.patched_tag("![](a.png)", "markdown", "a.png", "A cast.") == "![A cast.](a.png)"
+assert gat.patched_tag('<img src="a.png" alt="a.png" class="c">', "html", "A cast.") == '<img src="a.png" alt="A cast." class="c">'
+assert gat.patched_tag('<img src="a.png" />', "html", "A cast.") == '<img src="a.png" alt="A cast."/>'
+assert gat.patched_tag('<img src="a.png">', "html", 'Say "hi"') == '<img src="a.png" alt="Say &quot;hi&quot;">'
+assert gat.patched_tag("![](a.png)", "markdown", "A cast.") == "![A cast.](a.png)"
+assert gat.patched_tag('![](a.png "Cast")', "markdown", "A cast.") == '![A cast.](a.png "Cast")'   # title kept
+assert gat.patched_tag('<img data-alt="x" src="a.png">', "html", "A cast.") == '<img data-alt="x" src="a.png" alt="A cast.">'
 
 with tempfile.TemporaryDirectory() as tmp:
     site = Path(tmp)
@@ -38,11 +46,13 @@ with tempfile.TemporaryDirectory() as tmp:
     page = site / "items" / "1.html"
     page.write_text('<img src="../files/x.png" alt="">\n<img src="/files/x.png" alt="x.png">\n'
                     '<img src="/files/missing.png" alt="">\n<img src="/files/x.png" alt="A fine cast.">\n'
-                    "<img src=\"'+d.thumb+'\" alt=\"'+d.title+'\">")
+                    "<img src=\"'+d.thumb+'\" alt=\"'+d.title+'\">\n"
+                    '<img src="&#x2F;files&#x2F;x.png" alt="">')   # Omeka S entity-encodes src
     (site / "node_modules").mkdir()
     (site / "node_modules" / "skip.html").write_text('<img src="x.png">')
     entries = gat.find_weak(site, strict=False)
-    assert [e["reason"] for e in entries] == ["missing", "filename", "missing"], entries
+    assert [e["reason"] for e in entries] == ["missing", "filename", "missing", "missing"], entries
+    assert entries[3]["img_ref"] == "/files/x.png"
     assert gat.resolve_image_path(site, page, "../files/x.png") == site / "files" / "x.png"
     assert gat.resolve_image_path(site, page, "/files/x.png?v=2") == site / "files" / "x.png"
     assert gat.resolve_image_path(site, page, "/files/missing.png") is None
@@ -51,6 +61,21 @@ with tempfile.TemporaryDirectory() as tmp:
     assert gat.resolve_image_path(site, page, "../files/missing.png", "https://x.org") == "https://x.org/files/missing.png"
     assert gat.resolve_image_path(site, page, "../../outside.png", "https://x.org") is None
     assert gat.resolve_image_path(site, page, "/files/x.png", "https://x.org") == site / "files" / "x.png"
+    req = gat.openai_request(site / "files" / "x.png", "Describe.", "llava", "http://localhost:11434/v1/", "k")
+    body = json.loads(req.data)
+    assert req.full_url == "http://localhost:11434/v1/chat/completions"
+    assert req.get_header("Authorization") == "Bearer k"
+    assert body["model"] == "llava" and body["messages"][0]["content"][0]["text"] == "Describe."
+    assert body["messages"][0]["content"][1]["image_url"]["url"].startswith("data:image/png;base64,")
+    assert gat.build_prompt("Look at the attached image.", "").startswith("Look at the attached image. Describe it")
+    assert "Map of Paris" in gat.build_prompt("Read the image at /x.png.", "Map of Paris")
+    content = gat.anthropic_content(site / "files" / "x.png", "Describe.")
+    assert content[0]["source"] == {"type": "base64", "media_type": "image/png", "data": "cG5n"}
+    assert content[1] == {"type": "text", "text": "Describe."}
+    cache = site / "cache"; cache.mkdir()
+    gat.urllib.request.urlopen = lambda url, timeout: __import__("io").BytesIO(url.encode())  # no network
+    a, b = gat.fetch("https://x.org/a/thumb.jpg", cache), gat.fetch("https://x.org/b/thumb.jpg", cache)
+    assert a != b and a.suffix == ".jpg" and a.read_bytes().endswith(b"/a/thumb.jpg")
     gat.patch(entries[0], "A cast.")
     assert page.read_text().startswith('<img src="../files/x.png" alt="A cast.">')
 print("ok")

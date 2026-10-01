@@ -67,13 +67,14 @@ python utils/alt-text/generate-alt-text.py plastercast --limit 5    # dry-run a 
 python utils/alt-text/generate-alt-text.py plastercast --apply      # write them into the HTML
 ```
 
-Sites whose item media lives in the object-storage bucket rather than the repo (thanksroy, virginiaslostat) need `--base-url` so the images can be fetched:
+Sites whose item media lives in the object-storage bucket rather than the repo (thanksroy, virginiaslostat, and each pandemicreligion subsite) need `--base-url` so the images can be fetched. Run pandemicreligion one subsite at a time, since each is its own web root:
 
 ```
 python utils/alt-text/generate-alt-text.py thanksroy --base-url https://thanksroy.org --apply
+python utils/alt-text/generate-alt-text.py pandemicreligion/americanjewishlife.org --base-url https://americanjewishlife.org --apply
 ```
 
-By default only empty, placeholder, and filename alt is flagged. Add `--strict` to also flag short or duplicated alt, which on a flattened site will include every header logo, so use it deliberately. The same image on many pages is described once and reused. Images the tool cannot locate, such as JavaScript-templated tags, are listed as SKIP for a manual pass. It needs the `claude` CLI installed and signed in. Run `python utils/alt-text/test_generate_alt_text.py` to self-check after editing it.
+By default only empty, placeholder, and filename alt is flagged. Add `--strict` to also flag short or duplicated alt, which on a flattened site will include every header logo, so use it deliberately. The same image on many pages is described once and reused. Images the tool cannot locate, such as JavaScript-templated tags, are listed as SKIP for a manual pass. The default backend needs the `claude` CLI installed and signed in. Add `--backend anthropic` to call Claude through the API instead (run with `uv run --with anthropic python ...`, `ANTHROPIC_API_KEY`), or `--backend openai --model <name>` to use an open model instead, through Ollama locally or any OpenAI-compatible endpoint with `--api-url`. Run `python utils/alt-text/test_generate_alt_text.py` to self-check after editing it.
 
 Work site by site: run `--list`, spot-check with `--limit`, then `--apply` on its own branch and review the diff before merging.
 

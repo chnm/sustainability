@@ -25,6 +25,13 @@ assert gat.image_key("/s/files/original/ab12.png") == gat.image_key("/s/files/me
 assert gat.image_key("https://x.org/files/large/ab12.jpg") != gat.image_key("https://x.org/files/large/cd34.jpg")
 assert gat.image_key("/s/img/large/ab12.jpg") == "/s/img/large/ab12.jpg"   # not Omeka: untouched
 
+assert gat.largest_derivative("https://x.org/files/square/ab12.jpg") == "https://x.org/files/large/ab12.jpg"
+assert gat.largest_derivative("/s/files/square_thumbnails/ab12.jpg") == "/s/files/fullsize/ab12.jpg"
+assert gat.largest_derivative("/s/img/square/ab12.jpg") == "/s/img/square/ab12.jpg"
+not_desc = "I'm not able to view the image you intended to attach—it looks like text content came through instead."
+assert gat.NOT_A_DESCRIPTION_RE.search(not_desc)
+assert not gat.NOT_A_DESCRIPTION_RE.search('A sign reading "Please wear a mask, I\'m vaccinated" taped to a synagogue door.')
+
 assert gat.new_alt({"reason": "short", "alt": "Map of Paris"}, "Red dots mark bridges.") == "Map of Paris. Red dots mark bridges."
 assert gat.new_alt({"reason": "filename", "alt": "x.jpg"}, "A chart.") == "A chart."
 
@@ -34,6 +41,11 @@ assert gat.clean("**Alt text:** Two graphs") == "Two graphs."
 assert gat.patched_tag('<img src="a.png" alt="a.png" class="c">', "html", "A cast.") == '<img src="a.png" alt="A cast." class="c">'
 assert gat.patched_tag('<img src="a.png" />', "html", "A cast.") == '<img src="a.png" alt="A cast."/>'
 assert gat.patched_tag('<img src="a.png">', "html", 'Say "hi"') == '<img src="a.png" alt="Say &quot;hi&quot;">'
+tag = gat.patched_tag('<img src="a.png" alt="">', "html", 'Sign: "Prayer > the virus" & more')
+assert tag == '<img src="a.png" alt="Sign: &quot;Prayer &gt; the virus&quot; &amp; more">'
+with tempfile.TemporaryDirectory() as tmp:   # the scanner must read back what patch writes
+    (Path(tmp) / "p.html").write_text(tag)
+    assert gat.find_weak(Path(tmp), strict=False) == []
 assert gat.patched_tag("![](a.png)", "markdown", "A cast.") == "![A cast.](a.png)"
 assert gat.patched_tag('![](a.png "Cast")', "markdown", "A cast.") == '![A cast.](a.png "Cast")'   # title kept
 assert gat.patched_tag('<img data-alt="x" src="a.png">', "html", "A cast.") == '<img data-alt="x" src="a.png" alt="A cast.">'
@@ -76,6 +88,34 @@ with tempfile.TemporaryDirectory() as tmp:
     gat.urllib.request.urlopen = lambda url, timeout: __import__("io").BytesIO(url.encode())  # no network
     a, b = gat.fetch("https://x.org/a/thumb.jpg", cache), gat.fetch("https://x.org/b/thumb.jpg", cache)
     assert a != b and a.suffix == ".jpg" and a.read_bytes().endswith(b"/a/thumb.jpg")
+    sq = site / "files" / "square"; sq.mkdir(parents=True); (sq / "p.jpg").write_bytes(b"s")
+    assert gat.load(sq / "p.jpg", cache) == (sq / "p.jpg", str(sq / "p.jpg"))      # no large copy on disk
+    (site / "files" / "large").mkdir(); (site / "files" / "large" / "p.jpg").write_bytes(b"l")
+    assert gat.load(sq / "p.jpg", cache)[0] == site / "files" / "large" / "p.jpg"
+    png = cache / "default.png%3Fv=3.1.0"; png.write_bytes(b"\x89PNG\r\n\x1a\n....")
+    assert gat.image_mime(png) == "image/png"
+    def boom(url, timeout): raise OSError("404")
+    gat.urllib.request.urlopen = boom
+    try:
+        gat.fetch("https://x.org/gone.jpg", cache); raise AssertionError("fetch should raise")
+    except gat.ImageFailed as exc:
+        assert "gone.jpg" in str(exc) and "404" in str(exc)
+    seen = []
+    gat.fetch = lambda url, d: seen.append(url) or (_ for _ in ()).throw(gat.ImageFailed("404")) if "/large/" in url else Path(url)
+    assert gat.load("https://x.org/files/square/q.jpg", cache) == (Path("https://x.org/files/square/q.jpg"), "https://x.org/files/square/q.jpg")
+    assert seen == ["https://x.org/files/large/q.jpg"]                              # tried large first, fell back
+    log = site / "logs" / "runs.jsonl"
+    gat.write_log(log, status="ok", alt="A cast.")
+    gat.write_log(log, status="error", error="404")
+    assert [json.loads(line)["status"] for line in log.read_text().splitlines()] == ["ok", "error"]
+    rec = dict(site="s", model="m", existing="")
+    gat.write_log(log, status="ok", image="https://x.org/files/square/h1.jpg", alt="Old.", **rec)
+    gat.write_log(log, status="ok", image="https://x.org/files/large/h1.jpg", alt="New.", **rec)
+    gat.write_log(log, status="ok", image="https://x.org/files/large/h2.jpg", alt="I'm not able to view the image.", **rec)
+    gat.write_log(log, status="ok", image="https://x.org/files/large/h3.jpg", alt="Other model.", **{**rec, "model": "x"})
+    with log.open("a") as f: f.write('{"cut short')
+    assert gat.previous_alts(log, "s", "m") == {(gat.image_key("https://x.org/files/medium/h1.jpg"), ""): "New."}
+    assert gat.previous_alts(site / "nope.jsonl", "s", "m") == {}
     gat.patch(entries[0], "A cast.")
     assert page.read_text().startswith('<img src="../files/x.png" alt="A cast.">')
 print("ok")

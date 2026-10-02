@@ -32,3 +32,20 @@ Flags alt that is empty, a placeholder, or a filename/URL. The same image on man
 pages is described once and reused. Images it cannot find on disk are fetched from
 `--base-url` if given, otherwise listed as SKIP for a manual pass. The API backends accept only JPEG, PNG, GIF and WebP;
 SVG and TIFF are skipped there, so use the CLI backend for those. Originally written for [chnm/crdh](https://github.com/chnm/crdh/tree/main/utils).
+
+### Run log
+
+Every run except `--list` appends one JSON line per model call, plus one per image it could not
+resolve, to `utils/alt-text/logs/runs.jsonl` (gitignored; change with `--log`). Each line has the
+run, time, site, backend, model, page, image, existing alt, generated alt, status (`ok`, `error`,
+`unresolved`), error message, whether it was applied, and seconds taken.
+
+A run reuses the descriptions earlier runs of the same model made for the same site, so stopping
+and restarting, or spot-checking with `--limit` before `--apply`, never describes a photo twice or
+gives it two different descriptions. `--fresh` ignores the log; use it after blanking alt text you
+want regenerated, or the old description comes back.
+
+```
+jq -r 'select(.status=="error") | "\(.page)  \(.error)"' utils/alt-text/logs/runs.jsonl   # what failed
+jq -s 'map(select(.status != "unresolved")) | group_by(.model) | map({model: .[0].model, calls: length, avg_s: (map(.seconds // 0) | add / length)})' utils/alt-text/logs/runs.jsonl
+```

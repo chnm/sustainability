@@ -254,14 +254,14 @@ def call_claude(prompt: str, model: str) -> str:
     try:
         result = subprocess.run(
             ["claude", "-p", prompt, "--model", model, "--allowedTools", "Read"],
-            capture_output=True, text=True, timeout=120,
+            capture_output=True, text=True, timeout=120, stdin=subprocess.DEVNULL,
         )
     except FileNotFoundError:
         sys.exit("ERROR: 'claude' CLI not found. Install Claude Code first.")
     except subprocess.TimeoutExpired as exc:
         raise ImageFailed("claude timed out") from exc
     if result.returncode != 0:
-        raise ImageFailed(f"claude failed: {result.stderr.strip()}")
+        raise ImageFailed(f"claude failed: {(result.stdout + result.stderr).strip()}")  # auth errors land on stdout
     return result.stdout
 
 

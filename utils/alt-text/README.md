@@ -15,6 +15,7 @@ python utils/alt-text/generate-alt-text.py plastercast --list       # scan only,
 python utils/alt-text/generate-alt-text.py plastercast --limit 5    # dry-run a few
 python utils/alt-text/generate-alt-text.py plastercast --apply      # patch files in place
 python utils/alt-text/generate-alt-text.py plastercast --strict     # also flag short/duplicate alt
+python utils/alt-text/generate-alt-text.py historymatters.gmu.edu --keep-empty   # alt="" means decorative
 python utils/alt-text/generate-alt-text.py thanksroy --base-url https://thanksroy.org   # media lives in a bucket
 python utils/alt-text/test_generate_alt_text.py                     # self-check
 
@@ -28,7 +29,7 @@ OPENAI_API_KEY=... python utils/alt-text/generate-alt-text.py plastercast --back
 ANTHROPIC_API_KEY=... uv run --with anthropic python utils/alt-text/generate-alt-text.py plastercast --backend anthropic --limit 5
 ```
 
-Flags alt that is empty, a placeholder, or a filename/URL. The same image on many
+Flags alt that is empty, a placeholder, or a filename/URL (`--keep-empty` leaves `alt=""` alone as decorative). Pages are read and written back in their own encoding, UTF-8 or Latin-1. The same image on many
 pages is described once and reused. Images it cannot find on disk are fetched from
 `--base-url` if given, otherwise listed as SKIP for a manual pass. The API backends accept only JPEG, PNG, GIF and WebP;
 SVG and TIFF are skipped there, so use the CLI backend for those. Originally written for [chnm/crdh](https://github.com/chnm/crdh/tree/main/utils).

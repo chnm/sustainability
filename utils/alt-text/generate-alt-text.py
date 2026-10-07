@@ -5,7 +5,7 @@ via the Anthropic API, or any model behind an OpenAI-compatible chat endpoint
 (Ollama, LM Studio, vLLM, hosted providers).
 
 Works on any site in this monorepo: flattened HTML crawls and Hugo sources
-alike. Scans every *.html and *.md under SITE. Flags <img> tags and Markdown
+alike. Scans every *.html, *.htm and *.md under SITE. Flags <img> tags and Markdown
 images whose alt is empty, a placeholder, or a filename/URL. With --strict it
 also flags alt that is short or duplicated (the crdh behaviour), and appends
 one generated sentence of detail instead of replacing the human text.
@@ -50,7 +50,7 @@ from pathlib import Path
 
 MD_IMG_RE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 HTML_IMG_RE = re.compile(r"<img\b[^>]*>", re.I | re.S)
-SRC_RE = re.compile(r'(?<![\w-])src="([^"]+)"', re.I)
+SRC_RE = re.compile(r'(?<![\w-])src\s*=\s*(?:"([^"]+)"|([^\s>"\']+))', re.I)  # old crawls leave src unquoted
 ALT_RE = re.compile(r'(?<![\w-])alt="([^"]*)"', re.I)
 PLACEHOLDER_RE = re.compile(r"^(\s*|alt|alt[- ]text|image|todo)$", re.I)
 # alt that is really a path: a URL, a slash path, or a bare filename with an image extension
@@ -104,7 +104,16 @@ def site_files(site: Path, pattern: str) -> list[Path]:
     return sorted(p for p in site.rglob(pattern) if not SKIP_DIRS & set(p.parts))
 
 
-def find_weak(site: Path, strict: bool) -> list[dict]:
+def read_page(path: Path) -> tuple[str, str]:
+    """Text and encoding. Old crawls mix UTF-8 with Latin-1 pages; latin-1 round-trips any bytes."""
+    raw = path.read_bytes()
+    try:
+        return raw.decode("utf-8"), "utf-8"
+    except UnicodeDecodeError:
+        return raw.decode("latin-1"), "latin-1"
+
+
+def find_weak(site: Path, strict: bool, keep_empty: bool = False) -> list[dict]:
     """Return one entry per image whose alt needs work."""
     found = []
     images = []  # (file, text, match, alt, ref, kind)
@@ -113,14 +122,16 @@ def find_weak(site: Path, strict: bool) -> list[dict]:
         for m in MD_IMG_RE.finditer(text):
             ref = m.group(2).split('"')[0].split("'")[0].strip()
             images.append((md, text, m, m.group(1), ref, "markdown"))
-    for page in site_files(site, "*.html"):
-        text = page.read_text(encoding="utf-8", errors="replace")
+    for page in site_files(site, "*.htm*"):
+        text, _ = read_page(page)
         for m in HTML_IMG_RE.finditer(text):
             tag = m.group(0)
             alt = ALT_RE.search(tag)
+            if keep_empty and alt and not alt.group(1).strip():
+                continue  # alt="" marks the image decorative
             src = SRC_RE.search(tag)
             images.append((page, text, m, html.unescape(alt.group(1)) if alt else "",
-                           html.unescape(src.group(1)) if src else "", "html"))
+                           html.unescape(src.group(1) or src.group(2)) if src else "", "html"))
     alts = [a.strip().lower() for *_, a, _, _ in images]
     dupes = {a for a in alts if a and alts.count(a) > 1} if strict else set()
     for file, text, m, alt, ref, kind in images:
@@ -360,9 +371,9 @@ def patched_tag(old: str, kind: str, alt: str) -> str:
 
 def patch(entry: dict, alt: str) -> None:
     """Rewrite the matched image with alt text (first occurrence only)."""
-    text = entry["file"].read_text(encoding="utf-8", errors="replace")
+    text, encoding = read_page(entry["file"])
     new = patched_tag(entry["match"], entry["type"], alt)
-    entry["file"].write_text(text.replace(entry["match"], new, 1), encoding="utf-8")
+    entry["file"].write_bytes(text.replace(entry["match"], new, 1).encode(encoding, "xmlcharrefreplace"))
 
 
 def main():
@@ -372,6 +383,8 @@ def main():
     parser.add_argument("--list", action="store_true", help="Only list flagged images; no model calls")
     parser.add_argument("--limit", type=int, default=0, help="Stop after N generated alts (0 = no limit)")
     parser.add_argument("--strict", action="store_true", help="Also flag short or duplicated alt text")
+    parser.add_argument("--keep-empty", action="store_true",
+                        help='Treat alt="" as deliberately decorative instead of missing')
     parser.add_argument("--backend", choices=["claude", "anthropic", "openai"], default="claude",
                         help="claude: the claude CLI (default); anthropic: the Anthropic API; "
                              "openai: any OpenAI-compatible chat endpoint")
@@ -393,7 +406,7 @@ def main():
         sys.exit("ERROR: --backend openai needs --model, e.g. --model qwen2.5vl:7b")
     args.model = args.model or "claude-sonnet-5"
 
-    entries = find_weak(args.site, args.strict)
+    entries = find_weak(args.site, args.strict, args.keep_empty)
     if not entries:
         print("No images with missing or weak alt text found.")
         return

@@ -12,8 +12,8 @@ li * {font-size: 1em;}
 h1,h2,h3,h4,h5,h6 {font-weight:normal;}
 
 /* Links */
-a:link {color: #DB6C22;}
-a:visited {color: #DB6C22;}
+a:link {color: #a84c0e;}
+a:visited {color: #a84c0e;}
 a:hover, a:active {color: #402f27;}
 a img {border: none;}
 
@@ -40,8 +40,8 @@ input.checkbox {display:inline;}
 
 .footnote {vertical-align:super; line-height:0; font-size: 0.9em;}
 .footnote a {text-decoration:none; padding: 1px 2px;}
-.footnote a:link, .footnote a:visited {background: #fff09e; color: #c60;}
-.footnote a:hover, .footnote a:active {background: #fff; color: #c60;}
+.footnote a:link, .footnote a:visited {background: #fff09e; color: #a84c0e;}
+.footnote a:hover, .footnote a:active {background: #fff; color: #a84c0e;}
 
 /* Padding div styles */
 div.padding { width: 780px; display:block; margin:0 auto;overflow: hidden;}
@@ -61,7 +61,7 @@ div.padding { width: 780px; display:block; margin:0 auto;overflow: hidden;}
 
 /* Resources list styles - styles for the resources on various pages throughout the site. */
 #resource-list {padding-left:2em; padding-right:2em;}
-	dl.resource-list {display:block; overflow:hidden; border-bottom: 1px solid #c60; padding: 0 0 1em;}
+	dl.resource-list {display:block; overflow:hidden; border-bottom: 1px solid #a84c0e; padding: 0 0 1em;}
 		.resource-list dt {display:block; float:left; width: 220px; font-weight:bold;}
 			.resource-list dt a {text-decoration:none;}
 	
@@ -177,13 +177,13 @@ div.padding { width: 780px; display:block; margin:0 auto;overflow: hidden;}
 	#sitenav li { margin-left: 10px; display:inline-block; float:left;}
 	#sitenav a {text-decoration:none; padding: 4px 8px; color: #fff; display:block; text-align: center;}
 	#sitenav a:link, #sitenav a:visited {background: #49668A;}
-	#sitenav a:hover, #sitenav a:active {background: #6E85A1;}*/
+	#sitenav a:hover, #sitenav a:active {background: #56708f;}*/
 
 	#sitenav {display: block;float: right; text-align:right;width: 290px; text-align: right; padding: 0; overflow: hidden; margin: 20px 20px 0 0;}
 	#sitenav li { margin-left: 10px; display:inline-block; float:left;}
 	#sitenav a {text-decoration:none; color: #fff;}
 	#sitenav a:link, #sitenav a:visited {background: #49668A;}
-	#sitenav a:hover, #sitenav a:active {background: #6E85A1;}
+	#sitenav a:hover, #sitenav a:active {background: #56708f;}
 
 	
 	#home #sitenav .nav-home a,
@@ -191,20 +191,20 @@ div.padding { width: 780px; display:block; margin:0 auto;overflow: hidden;}
 	#objects #sitenav .nav-objects a,
 	#guide #sitenav .nav-guide a,
 	#teaching #sitenav .nav-teaching a,
-	#chat #sitenav .nav-chat a {background: #6E85A1;}
+	#chat #sitenav .nav-chat a {background: #56708f;}
 	
 	/* Secondary navigation */
 	#secondarynav {clear: both; margin: 0; padding: 0 20px; text-align: right; float: right; }
 	#secondarynav li {display: inline-block; float: left; margin: 0 1px 0 0; }
 	#secondarynav a {color: #fff; text-decoration:none;display:block; margin:0; padding:10px; text-align:center;cursor:pointer;}
-	#secondarynav a:link, #secondarynav a:visited {background:#DB6C22; background: #49668A;border-bottom:1px solid #37577e; color:#fff;}
-	#secondarynav a:hover, #secondarynav a:active {background: #E2874A; background: #6E85A1;border-bottom:1px solid #37577e; color:#fff;}
-	#secondarynav a.current:link, #secondarynav a.current:visited, #secondarynav a.current:hover, #secondarynav a.current:active {background: #96A6BB; color:#fff;border-bottom:1px solid #96A6BB;}	
+	#secondarynav a:link, #secondarynav a:visited {background:#a84c0e; background: #49668A;border-bottom:1px solid #37577e; color:#fff;}
+	#secondarynav a:hover, #secondarynav a:active {background: #a84c0e; background: #56708f;border-bottom:1px solid #37577e; color:#fff;}
+	#secondarynav a.current:link, #secondarynav a.current:visited, #secondarynav a.current:hover, #secondarynav a.current:active {background: #96A6BB; color:#1f2f44;border-bottom:1px solid #96A6BB;}	
 	
 	/* Teacher Materials banner */
 	#teachermaterials a {display:block;  font-size: 1em;float: right;text-align:center;width: 15em; background: #fff09e; color: #fff; margin: 60px 10px 20px; padding: 10px; font-size: 1.25em; text-decoration:none;}
-	#teachermaterials a:link, #teachermaterials a:visited {text-decoration:none; background: #DB6C22;}
-	#teachermaterials a:hover, #teachermaterials a:active {text-decoration:none; background: #96A6BB;}
+	#teachermaterials a:link, #teachermaterials a:visited {text-decoration:none; background: #a84c0e;}
+	#teachermaterials a:hover, #teachermaterials a:active {text-decoration:none; background: #56708f;}
 	
 /* == Content styles =================== */
 #content {font-size: 1.25em; background: #fff url("../i/tile-white.gif") 50% 0 repeat-y;}	
@@ -221,8 +221,8 @@ div.padding { width: 780px; display:block; margin:0 auto;overflow: hidden;}
 	.objectsnav {display:block; float:left; width: 780px; list-style: none;margin:0 0 10px;padding: 0; text-indent: 0;}
 	.objectsnav li {margin: 0; padding: 0; text-indent: 0;}
 	li.object { width: 130px; display: block;float: left;}
-	li.object a:link, li.object a:visited {width: 130px; display:block; text-decoration:none; color: #fff; text-align:center;float:left; padding-top: 140px; padding-bottom: 10px;background-color:#0a2c48; background-color: #d86b31; font-family: "Gill Sans",Verdana, sans-serif; background-repeat: no-repeat; background-position:top left; }
-	li.object a:hover, li.object a:active {background-position:top right; background-color: #d6740b; background-color: #6E85A1;color: #fff;}
+	li.object a:link, li.object a:visited {width: 130px; display:block; text-decoration:none; color: #fff; text-align:center;float:left; padding-top: 140px; padding-bottom: 10px;background-color:#0a2c48; background-color: #a84c0e; font-family: "Gill Sans",Verdana, sans-serif; background-repeat: no-repeat; background-position:top left; }
+	li.object a:hover, li.object a:active {background-position:top right; background-color: #a84c0e; background-color: #56708f;color: #fff;}
 	
 	/* Specific Objects */
 	li.object a#nav-hoe {background-image:url("../i/nav/shhoe_new.gif");}
@@ -235,7 +235,7 @@ div.padding { width: 780px; display:block; margin:0 auto;overflow: hidden;}
 	/* Turns off styling for non-active object collections 
 
 	li.object a#nav-dress:hover,
-	li.object a#nav-ballotbox:hover {background-position:top left; background-color:#d86b31; cursor:auto;}*/
+	li.object a#nav-ballotbox:hover {background-position:top left; background-color:#a84c0e; cursor:auto;}*/
 	
 	
 	/* Section styles */
@@ -260,7 +260,7 @@ div.padding { width: 780px; display:block; margin:0 auto;overflow: hidden;}
 	#content ul.sectionnav {margin:0;} /* Resets margin to 0 */
 	.sectionnav {list-style: none; font-family: "Gill Sans",Futura,Verdana, Arial, sans-serif;font-size: 1.35em; padding: 0 1em 0; overflow: hidden; background: #96A6BB;}
 	.sectionnav li {display: inline-block; float: left;}
-	.sectionnav a:link, .sectionnav a:visited {text-decoration: none; display:block; padding:10px; color: #fff;}
+	.sectionnav a:link, .sectionnav a:visited {text-decoration: none; display:block; padding:10px; color: #1f2f44;}
 	
 	.onyourown .sectionnav .nav-onyourown a,
 	.intro .sectionnav .nav-history a,
@@ -275,8 +275,8 @@ div.padding { width: 780px; display:block; margin:0 auto;overflow: hidden;}
 	
 	/* Item Lists in Explore section */
 	ul.item-list { display:block; float:left; width: 360px; margin:0; padding:0;}
-	ul.item-list li {display:block; float:left; width: 80px; height: 80px; margin: 0 5px 5px 0; color: #c06812;}
-	ul.item-list img {height: 70px; width: 70px;display: block;  border:5px solid #c60;background: #fff;}
+	ul.item-list li {display:block; float:left; width: 80px; height: 80px; margin: 0 5px 5px 0; color: #a84c0e;}
+	ul.item-list img {height: 70px; width: 70px;display: block;  border:5px solid #a84c0e;background: #fff;}
 	
 	#primary.item-show {display:block; float:right; width:560px;}
 	#item-list {display:block; float:left; width: 140px;margin-left:2em;}
@@ -290,7 +290,7 @@ div.padding { width: 780px; display:block; margin:0 auto;overflow: hidden;}
 	.essaynav {text-align:left; border-top:1px solid #ccc; margin-top:1.75em;}
 	.essaynav li {display:block; font-size:1.25em;}
 	.essaynav a {border-bottom:1px solid #ccc; display:block; padding:0.5em 0;}
-	.essaynav a:link, .essaynav a:visited {color:#777;}
+	.essaynav a:link, .essaynav a:visited {color:#666;}
 	.essaynav a:hover, .essaynav a:active {color:#333;}
 	
 	.index .essaynav .nav-intro a,
@@ -301,7 +301,7 @@ div.padding { width: 780px; display:block; margin:0 auto;overflow: hidden;}
 	.changes .essaynav .nav-changes a,
 	.conclusion .essaynav .nav-conclusion a
 	{
-		color:#c60;
+		color:#a84c0e;
 	}
 	
 	/** Guide styles **/
@@ -317,7 +317,7 @@ div.padding { width: 780px; display:block; margin:0 auto;overflow: hidden;}
 		#lessonplan-nav ul {list-style:none; margin-left:0; padding-left:0; text-align:left; border-top:1px solid #ccc; margin-top:1.75em;}
 			#lessonplan-nav ul li {display:block; font-size:1.25em;}
 			#lessonplan-nav ul a {border-bottom:1px solid #ccc; display:block; text-decoration:none;padding:0.5em 0;}
-			#lessonplan-nav ul a:link, .essaynav a:visited {color:#c60;}
+			#lessonplan-nav ul a:link, .essaynav a:visited {color:#a84c0e;}
 			#lessonplan-nav ul a:hover, .essaynav a:active {color:#333;}
 			#lessonplan-nav a.current {color: #49668A;}
 			
@@ -349,3 +349,7 @@ div.padding { width: 780px; display:block; margin:0 auto;overflow: hidden;}
 #sitenav a {padding: 4px 8px;}
 .sectionnav a, #secondarynav a, h3.item-section-title {border-radius: 6px 6px 0 0;}
 p.item-section-content {border-radius: 0 6px 6px 6px;}
+
+/* Skip link: hidden until focused */
+.skip a {position: absolute; left: -10000px; top: 0;}
+.skip a:focus {left: 0; z-index: 1000; padding: 0.5em 1em; background: #fff; color: #a84c0e; font-size: 1.4em;}

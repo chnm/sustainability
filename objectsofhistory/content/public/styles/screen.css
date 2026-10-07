@@ -361,3 +361,7 @@ p.item-section-content {border-radius: 0 6px 6px 6px;}
 #item-dialog form {margin: 0;}
 #item-dialog button {display: block; width: 100%; padding: 10px; border: 0; background: #444; color: #fff; text-align: right; font: 1.2em Verdana, sans-serif; cursor: pointer;}
 #item-dialog iframe {flex: 1; width: 100%; border: 0;}
+
+/* GMU logo, between the Smithsonian and RRCHNM logos */
+#gmu-logo {float: left; margin: 15px 0 0 12px;}
+#gmu-logo img {display: block;}

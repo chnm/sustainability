@@ -1,0 +1,26 @@
+/* Accessibility fixes layered over the archived History Matters styles (chnm/sustainability#120). */
+
+.skip-link { position: absolute; left: -9999px; top: 0; z-index: 10000; padding: 8px 12px; background: #fff; color: #3a4592; border: 2px solid #3a4592; font: 14px/1.4 sans-serif; }
+.skip-link:focus { left: 8px; top: 8px; }
+:focus-visible { outline: 2px solid #3a4592 !important; outline-offset: 2px; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* banner links must stand apart from banner text whatever the page's link colors are */
+.archive-notice a { color: #1a4d8f !important; text-decoration: underline !important; }
+
+/* 2.5.8: the quizzes' radio buttons are 13px by default */
+input[type="radio"], input[type="checkbox"] { width: 24px; height: 24px; margin: 2px 6px 2px 0; vertical-align: middle; }
+
+/* 1.4.10: the fixed-width layouts linearize on narrow screens. Data tables (with <th>) keep their grid and scroll. */
+@media (max-width: 800px) {
+  body { margin: 8px; overflow-wrap: break-word; }
+  #container, #header, #sub_header, #search_boxes, #content_area, div[id], div[class] { width: auto !important; max-width: 100%; float: none !important; position: static !important; margin-left: 0 !important; margin-right: 0 !important; }
+  table:not(:has(th)), table:not(:has(th)) > tbody, table:not(:has(th)) > * > tr, table:not(:has(th)) > * > tr > td { display: block; width: auto !important; height: auto !important; }
+  table:has(th) { display: block; overflow-x: auto; }
+  img, video, iframe, embed, object, textarea, input, select { max-width: 100%; }
+  img { height: auto; }
+  img[usemap] { max-width: none; }
+  :has(> img[usemap]), :has(> a > img[usemap]) { overflow-x: auto; }
+  pre { white-space: pre-wrap; }
+  .archive-notice { flex-wrap: wrap; }
+}

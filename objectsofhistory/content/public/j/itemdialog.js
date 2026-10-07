@@ -13,6 +13,11 @@ document.addEventListener('click', function (e) {
 		dialog.addEventListener('close', function () { dialog.querySelector('iframe').src = 'about:blank'; });
 		// A click on the backdrop lands on the dialog itself.
 		dialog.addEventListener('click', function (ev) { if (ev.target === dialog) dialog.close(); });
+		// The page behind already shows the sustainability banner.
+		dialog.querySelector('iframe').addEventListener('load', function () {
+			var notice = this.contentDocument && this.contentDocument.querySelector('.notice');
+			if (notice) notice.style.display = 'none';
+		});
 		document.body.appendChild(dialog);
 	}
 	var frame = dialog.querySelector('iframe');

@@ -7,7 +7,7 @@
 	#tour-meta a { padding:0; width:50px; height:50px;}
 	#tour-meta a:hover img {opacity: 1;}
 	#tour-meta a.current img {opacity: 10; background:#a84c0e;}
-		#tour-meta a img {padding:4px; background:#fff; width:46px; height:46px;opacity: .6;}
+		#tour-meta a img {padding:4px; background:#fff; width:46px; height:46px;opacity: .6; display:inline-block; overflow:hidden; vertical-align:middle;}
 		#tour-meta a span {display:none;}
 
 #tour-description {line-height:1.75em; padding:20px 0;font-size:0.9em; color:#555; display:block; font-style:italic;float:left; width: 180px;}

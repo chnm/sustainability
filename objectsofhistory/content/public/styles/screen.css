@@ -343,3 +343,9 @@ div.padding { width: 780px; display:block; margin:0 auto;overflow: hidden;}
 	#home #footer .nav-home a,
 	#about #footer .nav-about a,
 	#teaching #footer .nav-teachers a { font-weight:bold; color: #333; }
+
+/* == Rounded corners (replaces NiftyCorners) == */
+#sitenav a, #teachermaterials a, div.section a, #preparation {border-radius: 6px;}
+#sitenav a {padding: 4px 8px;}
+.sectionnav a, #secondarynav a, h3.item-section-title {border-radius: 6px 6px 0 0;}
+p.item-section-content {border-radius: 0 6px 6px 6px;}

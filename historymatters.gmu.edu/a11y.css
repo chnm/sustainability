@@ -5,8 +5,10 @@
 :focus-visible { outline: 2px solid #3a4592 !important; outline-offset: 2px; }
 .visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
-/* banner links must stand apart from banner text whatever the page's link colors are */
-.archive-notice a { color: #1a4d8f !important; text-decoration: underline !important; }
+/* the banner inherits each section's body styles (hm_search_style.css centers all text);
+   pin it to the home page look, with links that stand apart from the banner text */
+.archive-notice { text-align: left; color: #3a4592; }
+.archive-notice a, .archive-notice a:visited { color: #1a4d8f !important; text-decoration: underline !important; }
 
 /* 2.5.8: the quizzes' radio buttons are 13px by default */
 input[type="radio"], input[type="checkbox"] { width: 24px; height: 24px; margin: 2px 6px 2px 0; vertical-align: middle; }

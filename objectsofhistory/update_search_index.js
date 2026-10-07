@@ -32,6 +32,8 @@ const config = {
     "objects/resources/shorthandledhoe/www.studsterkel.org/",
     "teachers/resources/shorthandledhoe/www.studsterkel.org/",
     "order=1.html",
+    // The Activity was removed; its pages are only a "no longer available" notice
+    "/activity/",
   ],
 
   // Content type mapping based on directory patterns

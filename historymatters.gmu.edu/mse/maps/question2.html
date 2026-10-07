@@ -123,7 +123,7 @@ function q1(x,y){
     <td width="190" align="left" valign="top"><img src="images/mapmenubar.gif" width="190" height="411" usemap="#Map2" border="0" alt="Table of contents"></td>
     <td class="bodytext" width="20">&nbsp;</td>
     <td width="529" align="left" valign="top"> 
-      <p class="bodytext"><img src="images/individualtitles/flatround.gif" width="495" height="126"></p>
+      <p class="bodytext"><img src="images/individualtitles/flatround.gif" width="495" height="126" alt="How Do You Make a Flat Map Out of a Round World?"></p>
       <p class="bodytext">Creating a map involves fitting the round world onto 
         a flat surface. To visualize the problems inherent in this transformation, 
         consider what happens to a hollow ball when it is completely flattened. 
@@ -145,24 +145,24 @@ function q1(x,y){
         see <a href="javascript:;" onClick="MM_openBrWindow('http://www.colorado.edu/geography/gcraft/notes/mapproj/mapproj_f.html','','toolbar=yes,location=yes,status=yes,menubar=yes,scrollbars=yes,resizable=yes,width=675,height=350')">Peter 
         Dana's contributions on projections</a> in the Geographer's Craft Project. 
         </span></p>
-      <p class="bodytext"><img src="images/accurateques.gif" width="483" height="88"></p>
+      <p class="bodytext"><img src="images/accurateques.gif" width="483" height="88" alt="Which is the more accurate map of the United States? (There may be more than one correct answer!)"></p>
       <form name="theForm" method="post" action="question2.html" enctype="multipart/form-data">
         <table width="470" border="0" cellspacing="0" cellpadding="0" align="center">
           <tr> 
-            <td colspan="2"><img src="images/equalarea1.jpg" width="199" height="129"></td>
+            <td colspan="2"><img src="images/equalarea1.jpg" width="199" height="129" alt="Map A: outline map of the contiguous United States, stretched wide and flattened"></td>
             <td width="70">&nbsp;</td>
-            <td colspan="2"><img src="images/mercator1.jpg" width="199" height="129"></td>
+            <td colspan="2"><img src="images/mercator1.jpg" width="199" height="129" alt="Map B: outline map of the contiguous United States, with the northern states enlarged"></td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(0,1)">
+              <input type="radio" name="question1" value="yes" onClick="q1(0,1)" id="opt1">
             </td>
-            <td width="176" class="bodytext">Map A</td>
+            <td width="176" class="bodytext"><label for="opt1">Map A</label></td>
             <td width="70">&nbsp;</td>
             <td width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(1,2)">
+              <input type="radio" name="question1" value="yes" onClick="q1(1,2)" id="opt2">
             </td>
-            <td width="176" class="bodytext">Map B</td>
+            <td width="176" class="bodytext"><label for="opt2">Map B</label></td>
           </tr>
           <tr> 
             <td colspan="2">&nbsp;</td>
@@ -170,20 +170,20 @@ function q1(x,y){
             <td colspan="2">&nbsp;</td>
           </tr>
           <tr> 
-            <td colspan="2"><img src="images/robinson1.jpg" width="199" height="129"></td>
+            <td colspan="2"><img src="images/robinson1.jpg" width="199" height="129" alt="Map C: outline map of the contiguous United States, curved and tilted"></td>
             <td width="70">&nbsp;</td>
-            <td colspan="2"><img src="images/albers1.jpg" width="199" height="129"></td>
+            <td colspan="2"><img src="images/albers1.jpg" width="199" height="129" alt="Map D: outline map of the contiguous United States with natural-looking proportions"></td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(2,3)">
+              <input type="radio" name="question1" value="yes" onClick="q1(2,3)" id="opt3">
             </td>
-            <td width="176" class="bodytext">Map C</td>
+            <td width="176" class="bodytext"><label for="opt3">Map C</label></td>
             <td width="70">&nbsp;</td>
             <td width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(3,4)">
+              <input type="radio" name="question1" value="yes" onClick="q1(3,4)" id="opt4">
             </td>
-            <td width="176" class="bodytext">Map D</td>
+            <td width="176" class="bodytext"><label for="opt4">Map D</label></td>
           </tr>
           <tr> 
             <td colspan="5"><img src="images/space1.gif" width="20" height="20" alt=""></td>
@@ -191,7 +191,7 @@ function q1(x,y){
           <tr> 
             <td colspan="5"> 
               <div align="left">
-                <textarea name="feedback1" rows=12 cols=50&quot; wrap="VIRTUAL"></textarea>
+                <textarea aria-label="Feedback for question 1" name="feedback1" rows=12 cols=50&quot; wrap="VIRTUAL"></textarea>
               </div>
             </td>
           </tr>
@@ -215,8 +215,8 @@ function q1(x,y){
     <td colspan="3"><img src="images/mapfooter.jpg" width="734" height="86" usemap="#Map3" border="0" alt="Guide navigation"></td>
   </tr>
 </table>
-<map name="Map"> <area shape="rect" coords="531,50,741,73" href="../../index.html"> 
-  <area shape="rect" coords="558,3,739,45" href="http://crossroads.georgetown.edu/vkp/"> 
+<map name="Map"> <area shape="rect" coords="531,50,741,73" href="../../index.html" alt="History Matters home"> 
+  <area shape="rect" coords="558,3,739,45" href="http://crossroads.georgetown.edu/vkp/" alt="Visible Knowledge Project"> 
 </map>
 <map name="Map2"> 
   <area shape="rect" coords="2,376,195,405" href="map.pdf" alt="Download Entire Essay (Acrobat PDF)">
@@ -247,5 +247,6 @@ function q1(x,y){
   <area shape="rect" coords="449,69,764,122" href="../../browse/makesense/index.html" alt="Go to Making Sense of Evidence Browse Page">
 </map>
 </div>
+<script src="../../js/quiz-status.js"></script>
 </body>
 </html>

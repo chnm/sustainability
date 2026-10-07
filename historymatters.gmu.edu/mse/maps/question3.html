@@ -161,7 +161,7 @@ function q3(x,y){
     <td width="190" align="left" valign="top"><img src="images/mapmenubar.gif" width="190" height="411" usemap="#Map2" border="0" alt="Table of contents"></td>
     <td class="bodytext" width="20">&nbsp;</td>
     <td width="529" align="left" valign="top"> 
-      <p class="bodytext"><img src="images/individualtitles/scale.gif" width="499" height="97"></p>
+      <p class="bodytext"><img src="images/individualtitles/scale.gif" width="499" height="97" alt="Does Scale Make a Difference?"></p>
       <p class="bodytext">Maps represent a scale model of the world. To fit on 
         a piece of paper the world has to be greatly reduced in size. A map's 
         scale is a statement about the relationship between map distance and distance 
@@ -207,18 +207,18 @@ function q3(x,y){
         accuracy. Maps of large countries, the continents, and the world are drawn 
         at small scales. The potential for accuracy drops as the area mapped grows 
         larger and the scale grows smaller. </p>
-      <p class="bodytext"><img src="images/scale.gif" width="483" height="88"></p>
+      <p class="bodytext"><img src="images/scale.gif" width="483" height="88" alt="How do these maps of the D-Day invasion illustrate the concept of scale?"></p>
       <form name="theForm" method="post" action="question3.html">
         <p class="bodytext">MAP A: Is this a 
-          <input type="radio" name="question1" value="yes" onClick="q1(0,1)">
-          large scale map OR a 
-          <input type="radio" name="question1" value="yes" onClick="q1(1,2)">
-          <span class="bodytext">small scale map? 
-          <input type="text" name="feedback1" size="17">
+          <label><input type="radio" name="question1" value="yes" onClick="q1(0,1)">
+          large scale map</label> OR a 
+          <input type="radio" name="question1" value="yes" onClick="q1(1,2)" id="opt1">
+          <span class="bodytext"><label for="opt1">small scale map?</label> 
+          <input aria-label="Feedback for question 1" type="text" name="feedback1" size="17">
           </span></p>
         <table width="332" border="0" cellspacing="5" cellpadding="0">
           <tr> 
-            <td height="82"><a href="javascript:;"><img src="images/normandysmallthumb.jpg" width="350" height="248" border="0" onClick="MM_openBrWindow('normandysmall.html','','scrollbars=yes,resizable=yes,width=740,height=550')"></a></td>
+            <td height="82"><a href="javascript:;" onClick="MM_openBrWindow('normandysmall.html','','scrollbars=yes,resizable=yes,width=740,height=550')"><img src="images/normandysmallthumb.jpg" width="350" height="248" border="0" alt="Map A: Invasion of Normandy, June 6, 1944, showing the beach landings, drop zones, and divisions on the Normandy coast (enlarge)"></a></td>
           </tr>
           <tr>
             <td class="captiontext">
@@ -227,15 +227,15 @@ function q3(x,y){
           </tr>
         </table>
         <p class="bodytext">MAP B: Is this a 
-          <input type="radio" name="question2" value="yes" onClick="q2(0,1)">
-          large scale map OR a 
-          <input type="radio" name="question2" value="yes" onClick="q2(1,2)">
-          small scale map? 
-          <input type="text" name="feedback2" size="17">
+          <label><input type="radio" name="question2" value="yes" onClick="q2(0,1)">
+          large scale map</label> OR a 
+          <label><input type="radio" name="question2" value="yes" onClick="q2(1,2)">
+          small scale map?</label> 
+          <input aria-label="Feedback for question 2" type="text" name="feedback2" size="17">
         </p>
         <table width="343" border="0" cellspacing="5" cellpadding="0">
           <tr> 
-            <td><a href="javascript:;"><img src="images/normandylargethumb.jpg" width="350" height="195" onClick="MM_openBrWindow('normandylarge.html','','scrollbars=yes,resizable=yes,width=740,height=400')" border="0"></a></td>
+            <td><a href="javascript:;" onClick="MM_openBrWindow('normandylarge.html','','scrollbars=yes,resizable=yes,width=740,height=400')"><img src="images/normandylargethumb.jpg" width="350" height="195" border="0" alt="Map B: Invasion of Normandy, June 6, 1944, showing the routes of U.S., British/Canadian, and airborne forces from southern England across the Channel (enlarge)"></a></td>
           </tr>
           <tr>
             <td>
@@ -248,54 +248,54 @@ function q3(x,y){
         <table width="187" border="0" cellspacing="5" cellpadding="0">
           <tr> 
             <td width="24">
-              <input type="radio" name="question3" value="yes" onClick="q3(0,1)">
+              <input type="radio" name="question3" value="yes" onClick="q3(0,1)" id="opt2">
             </td>
-            <td class="bodytext" width="148">railroads</td>
+            <td class="bodytext" width="148"><label for="opt2">railroads</label></td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(1,2)">
+              <input type="radio" name="question3" value="yes" onClick="q3(1,2)" id="opt3">
             </td>
-            <td class="bodytext" width="148">cities</td>
+            <td class="bodytext" width="148"><label for="opt3">cities</label></td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(2,3)">
+              <input type="radio" name="question3" value="yes" onClick="q3(2,3)" id="opt4">
             </td>
-            <td class="bodytext" width="148">beach landings</td>
+            <td class="bodytext" width="148"><label for="opt4">beach landings</label></td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(3,4)">
+              <input type="radio" name="question3" value="yes" onClick="q3(3,4)" id="opt5">
             </td>
             <td class="bodytext" width="148"> 
-              <p>drop zone</p>
+              <p><label for="opt5">drop zone</label></p>
             </td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(4,5)">
+              <input type="radio" name="question3" value="yes" onClick="q3(4,5)" id="opt6">
             </td>
-            <td class="bodytext" width="148">elevations</td>
+            <td class="bodytext" width="148"><label for="opt6">elevations</label></td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(5,6)">
+              <input type="radio" name="question3" value="yes" onClick="q3(5,6)" id="opt7">
             </td>
-            <td class="bodytext" width="148">troop nationalities</td>
+            <td class="bodytext" width="148"><label for="opt7">troop nationalities</label></td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(6,7)">
+              <input type="radio" name="question3" value="yes" onClick="q3(6,7)" id="opt8">
             </td>
-            <td class="bodytext" width="148">British departure points</td>
+            <td class="bodytext" width="148"><label for="opt8">British departure points</label></td>
           </tr>
           <tr> 
             <td colspan="2">&nbsp; </td>
           </tr>
           <tr> 
             <td colspan="2"> 
-              <input type="text" name="feedback3">
+              <input aria-label="Feedback for question 3" type="text" name="feedback3">
             </td>
           </tr>
         </table>
@@ -318,8 +318,8 @@ function q3(x,y){
     <td colspan="3"><img src="images/mapfooter.jpg" width="734" height="86" usemap="#Map3" border="0" alt="Guide navigation"></td>
   </tr>
 </table>
-<map name="Map"> <area shape="rect" coords="531,50,741,73" href="../../index.html"> 
-  <area shape="rect" coords="558,3,739,45" href="http://crossroads.georgetown.edu/vkp/"> 
+<map name="Map"> <area shape="rect" coords="531,50,741,73" href="../../index.html" alt="History Matters home"> 
+  <area shape="rect" coords="558,3,739,45" href="http://crossroads.georgetown.edu/vkp/" alt="Visible Knowledge Project"> 
 </map>
 <map name="Map2"> 
   <area shape="rect" coords="2,376,195,405" href="map.pdf" alt="Download Entire Essay (Acrobat PDF)">
@@ -350,5 +350,6 @@ function q3(x,y){
   <area shape="rect" coords="447,69,749,122" href="../../browse/makesense/index.html" alt="Go to Making Sense of Evidence Browse Page">
 </map>
 </div>
+<script src="../../js/quiz-status.js"></script>
 </body>
 </html>

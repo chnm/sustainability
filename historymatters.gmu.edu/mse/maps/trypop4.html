@@ -159,7 +159,7 @@ function q4(x,y){
 <table width="520" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td> 
-      <p class="bodytext"><img src="images/evillageques.gif" width="483" height="108"></p>
+      <p class="bodytext"><img src="images/evillageques.gif" width="483" height="108" alt="Match the map of New York City's &quot;East Village&quot; with its producer or purpose, and consider how the producers and their intent determine what is shown and how."></p>
       <table width="520" border="0" cellspacing="5" cellpadding="0">
         <tr> 
           <td width="222" class="bodytext"> 
@@ -172,11 +172,11 @@ function q4(x,y){
         </tr>
         <tr> 
           <td width="222"> 
-            <div align="center"><a href="javascript:;"><img src="images/evmapthumb.gif" width="183" height="263" onClick="MM_openBrWindow('blackmap.html','','scrollbars=yes,resizable=yes,width=490,height=500')" border="0"></a></div>
+            <div align="center"><a href="javascript:;" onClick="MM_openBrWindow('blackmap.html','','scrollbars=yes,resizable=yes,width=490,height=500')"><img src="images/evmapthumb.gif" width="183" height="263" border="0" alt="Map A: hand-made map titled From the L Train to D.B.A., tracing a red route through East Village streets past photographs of bicycles (enlarge)"></a></div>
           </td>
           <td width="73">&nbsp;</td>
           <td width="205"> 
-            <div align="center"><a href="javascript:;"><img src="images/LESmap-scthumb.gif" width="205" height="240" onClick="MM_openBrWindow('whitemap.html','','scrollbars=yes,resizable=yes,width=550,height=500')" border="0"></a></div>
+            <div align="center"><a href="javascript:;" onClick="MM_openBrWindow('whitemap.html','','scrollbars=yes,resizable=yes,width=550,height=500')"><img src="images/LESmap-scthumb.gif" width="205" height="240" border="0" alt="Map B: hand-drawn map of East Village blocks marking surveillance cameras (enlarge)"></a></div>
           </td>
         </tr>
         <tr> 
@@ -199,11 +199,11 @@ function q4(x,y){
         </tr>
         <tr> 
           <td width="222"> 
-            <div align="center"><a href="javascript:;"><img src="images/insmapsmall.gif" width="200" height="141" border="0" onClick="MM_openBrWindow('insurancemap.html','','scrollbars=yes,resizable=yes,width=700,height=475')"></a></div>
+            <div align="center"><a href="javascript:;" onClick="MM_openBrWindow('insurancemap.html','','scrollbars=yes,resizable=yes,width=700,height=475')"><img src="images/insmapsmall.gif" width="200" height="141" border="0" alt="Map C: detailed insurance map of blocks and buildings near the Jacob Riis Houses (enlarge)"></a></div>
           </td>
           <td width="73">&nbsp;</td>
           <td width="205"> 
-            <div align="center"><a href="javascript:;"><img src="images/greenmapthumb.gif" width="185" height="157" onClick="MM_openBrWindow('greenmap.html','','width=360,height=302')" border="0"></a></div>
+            <div align="center"><a href="javascript:;" onClick="MM_openBrWindow('greenmap.html','','width=360,height=302')"><img src="images/greenmapthumb.gif" width="185" height="157" border="0" alt="Map D: colorful map of the East Village marked with numbered icons and green hearts (enlarge)"></a></div>
           </td>
         </tr>
         <tr> 
@@ -219,102 +219,102 @@ function q4(x,y){
       <form name="theForm" method="post" action="">
         <p class="bodytext">&nbsp;</p>
         <p class="bodytext">Which is the building insurance map? &nbsp; 
-          <input type="text" name="feedback1">
+          <input aria-label="Feedback for question 1" type="text" name="feedback1">
           <br>
         </p>
         <table width="520" border="0" cellspacing="0" cellpadding="0">
           <tr> 
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(0,1)">
+              <input type="radio" name="question1" value="yes" onClick="q1(0,1)" id="opt1">
             </td>
-            <td class="bodytext" width="99">Map A</td>
+            <td class="bodytext" width="99"><label for="opt1">Map A</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(1,2)">
+              <input type="radio" name="question1" value="yes" onClick="q1(1,2)" id="opt2">
             </td>
-            <td class="bodytext" width="107">Map B</td>
+            <td class="bodytext" width="107"><label for="opt2">Map B</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(2,3)">
+              <input type="radio" name="question1" value="yes" onClick="q1(2,3)" id="opt3">
             </td>
-            <td class="bodytext" width="110">Map C</td>
+            <td class="bodytext" width="110"><label for="opt3">Map C</label></td>
             <td class="bodytext" width="15"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(3,4)">
+              <input type="radio" name="question1" value="yes" onClick="q1(3,4)" id="opt4">
             </td>
-            <td class="bodytext" width="117">Map D</td>
+            <td class="bodytext" width="117"><label for="opt4">Map D</label></td>
           </tr>
         </table>
         <p class="bodytext"><br>
           Which was made by a civil liberties group opposed to &quot;Big Brother&quot;? 
-          <input type="text" name="feedback2" size="17">
+          <input aria-label="Feedback for question 2" type="text" name="feedback2" size="17">
         </p>
         <table width="520" border="0" cellspacing="0" cellpadding="0">
           <tr> 
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question2" value="yes" onClick="q2(0,1)">
+              <input type="radio" name="question2" value="yes" onClick="q2(0,1)" id="opt5">
             </td>
-            <td class="bodytext" width="99">Map A</td>
+            <td class="bodytext" width="99"><label for="opt5">Map A</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question2" value="yes" onClick="q2(1,2)">
+              <input type="radio" name="question2" value="yes" onClick="q2(1,2)" id="opt6">
             </td>
-            <td class="bodytext" width="107">Map B</td>
+            <td class="bodytext" width="107"><label for="opt6">Map B</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question2" value="yes" onClick="q2(2,3)">
+              <input type="radio" name="question2" value="yes" onClick="q2(2,3)" id="opt7">
             </td>
-            <td class="bodytext" width="110">Map C</td>
+            <td class="bodytext" width="110"><label for="opt7">Map C</label></td>
             <td class="bodytext" width="15"> 
-              <input type="radio" name="question2" value="yes" onClick="q2(3,4)">
+              <input type="radio" name="question2" value="yes" onClick="q2(3,4)" id="opt8">
             </td>
-            <td class="bodytext" width="117">Map D</td>
+            <td class="bodytext" width="117"><label for="opt8">Map D</label></td>
           </tr>
         </table>
         <p class="bodytext"><br>
           Which was made by student map makers charting their communities? 
-          <input type="text" name="feedback3" size="17">
+          <input aria-label="Feedback for question 3" type="text" name="feedback3" size="17">
           <br>
           <br>
         </p>
         <table width="520" border="0" cellspacing="0" cellpadding="0">
           <tr> 
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(0,1)">
+              <input type="radio" name="question3" value="yes" onClick="q3(0,1)" id="opt9">
             </td>
-            <td class="bodytext" width="99">Map A</td>
+            <td class="bodytext" width="99"><label for="opt9">Map A</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(1,2)">
+              <input type="radio" name="question3" value="yes" onClick="q3(1,2)" id="opt10">
             </td>
-            <td class="bodytext" width="107">Map B</td>
+            <td class="bodytext" width="107"><label for="opt10">Map B</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(2,3)">
+              <input type="radio" name="question3" value="yes" onClick="q3(2,3)" id="opt11">
             </td>
-            <td class="bodytext" width="110">Map C</td>
+            <td class="bodytext" width="110"><label for="opt11">Map C</label></td>
             <td class="bodytext" width="15"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(3,4)">
+              <input type="radio" name="question3" value="yes" onClick="q3(3,4)" id="opt12">
             </td>
-            <td class="bodytext" width="117">Map D</td>
+            <td class="bodytext" width="117"><label for="opt12">Map D</label></td>
           </tr>
         </table>
         <p class="bodytext"> <br>
           Which map shows a bicycle tour route? 
-          <input type="text" name="feedback4">
+          <input aria-label="Feedback for question 4" type="text" name="feedback4">
           <br>
         </p>
         <table width="520" border="0" cellspacing="0" cellpadding="0">
           <tr> 
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question4" value="yes" onClick="q4(0,1)">
+              <input type="radio" name="question4" value="yes" onClick="q4(0,1)" id="opt13">
             </td>
-            <td class="bodytext" width="99">Map A</td>
+            <td class="bodytext" width="99"><label for="opt13">Map A</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question4" value="yes" onClick="q4(1,2)">
+              <input type="radio" name="question4" value="yes" onClick="q4(1,2)" id="opt14">
             </td>
-            <td class="bodytext" width="107">Map B</td>
+            <td class="bodytext" width="107"><label for="opt14">Map B</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question4" value="yes" onClick="q4(2,3)">
+              <input type="radio" name="question4" value="yes" onClick="q4(2,3)" id="opt15">
             </td>
-            <td class="bodytext" width="110">Map C</td>
+            <td class="bodytext" width="110"><label for="opt15">Map C</label></td>
             <td class="bodytext" width="15"> 
-              <input type="radio" name="question4" value="yes" onClick="q4(3,4)">
+              <input type="radio" name="question4" value="yes" onClick="q4(3,4)" id="opt16">
             </td>
-            <td class="bodytext" width="117">Map D</td>
+            <td class="bodytext" width="117"><label for="opt16">Map D</label></td>
           </tr>
         </table>
       </form>
@@ -324,5 +324,5 @@ function q4(x,y){
 
       </td>
   </tr>
-</table></div></html>
+</table></div><script src="../../js/quiz-status.js"></script></html>
 </html>

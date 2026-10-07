@@ -70,7 +70,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
     <td height="634">
       <div class=Section1> 
         <div class=Section1>
-          <p><img src="images/typical.gif" width="354" height="87"><br>
+          <p><img src="images/typical.gif" width="354" height="87" alt="What is typical?"><br>
             <br>
             Let&#146;s look at an example of historical analysis that uses averages. 
             Our data set is drawn from the tax list of Russia Township, Ohio, 
@@ -87,14 +87,14 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
               was the &quot;typical&quot; property assessment in Russia Township, 
               Ohio, in 1850?<br>
               <br>
-              <input type="radio" name="question1" onClick="q1(0,1)">
-              $260<br>
-              <input type="radio" name="question1" onClick="q1(1,2)">
-              $389 <br>
-              <input type="radio" name="question1" onClick="q1(2,3)">
-              $667</p>
+              <label><input type="radio" name="question1" onClick="q1(0,1)">
+              $260</label><br>
+              <label><input type="radio" name="question1" onClick="q1(1,2)">
+              $389</label> <br>
+              <label><input type="radio" name="question1" onClick="q1(2,3)">
+              $667</label></p>
             <p> 
-              <input type="text" name="textfield">
+              <input aria-label="Feedback for question 1" type="text" name="textfield">
             </p>
           </form>
           <p>Why the 
@@ -119,7 +119,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
             <b>Graph 3: Distribution of Taxpayers by Assessment Category, Russia 
             Township, Ohio, 1850<br>
             <br>
-            </b><img src="images/graph3-Q5.jpg" width="420" height="326" border="1"></p>
+            </b><img src="images/graph3-Q5.jpg" width="420" height="326" border="1" alt="Bar graph of the number of taxpayers in each assessment category: about 235 taxpayers assessed at 1 to 500, 75 at 501 to 1000, 47 at 1001 to 1500, 15 at 1501 to 2000, 10 at 2001 to 2500, and only a handful in each higher category up to over 6000"></p>
           <p>As Graph 
             3 makes clear, there was a large range of property assessments in 
             Russia Township in 1850. And just as averages summarize the central 
@@ -135,9 +135,9 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
             A less intuitive but otherwise more useful summary statistic of dispersion 
             is <b>standard deviation</b>. Technically, standard deviation is defined 
             as &quot;the square root of the arithmetic mean of the squared deviations 
-            from the mean&quot;<a href="javascript:;" onClick="MM_openBrWindow('question5pop1.html','footnote','scrollbars=yes,resizable=yes,width=170,height=62')">*</a>, 
+            from the mean&quot;<a href="javascript:;" onClick="MM_openBrWindow('question5pop1.html','footnote','scrollbars=yes,resizable=yes,width=170,height=62')">*<span class="visually-hidden"> footnote</span></a>, 
             and it is calculated according to the following formula: </p>
-          <p><img src="images/mathformula.gif" width="421" height="133"></p>
+          <p><img src="images/mathformula.gif" width="421" height="133" alt="Formula: sigma equals the square root of the sum of (X minus mu) squared, divided by N; where sigma stands for standard deviation, X minus mu is the distance between each point in a data set and the mean of the data set, and N is the number of points in the data set. (As usual, capital sigma stands for &quot;sum of&quot; and the radical sign stands for &quot;square root.&quot;)"></p>
         </div>
         <div class=Section1> 
           <p>If this 
@@ -154,7 +154,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
             distribution because aptitude and achievement tests like the SAT are 
             designed so that test scores will be distributed according to such 
             a symmetrical pattern within a large population.</p>
-          <p><img src="images/q5curve.gif" width="478" height="313"></p>
+          <p><img src="images/q5curve.gif" width="478" height="313" alt="A bell-shaped normal distribution curve with the mean marked at its peak and vertical lines marking one and two standard deviations on either side of the mean"></p>
           <p>Statisticians 
             have established that in all normal distributions approximately 68 
             percent of the data will fall within one standard deviation on either 
@@ -195,5 +195,5 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
       <div class=Section1></div>
     </td>
   </tr>
-</table></div></html>
+</table></div><script src="../../js/quiz-status.js"></script></html>
 </html>

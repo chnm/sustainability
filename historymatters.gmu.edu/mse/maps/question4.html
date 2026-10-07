@@ -191,7 +191,7 @@ function q4(x,y){
     <td width="190" align="left" valign="top"><img src="images/mapmenubar.gif" width="190" height="411" usemap="#Map2" border="0" alt="Table of contents"></td>
     <td class="bodytext" width="20">&nbsp;</td>
     <td width="529" align="left" valign="top"> 
-      <p class="bodytext"><img src="images/individualtitles/whomade.gif" width="484" height="130"></p>
+      <p class="bodytext"><img src="images/individualtitles/whomade.gif" width="484" height="130" alt="Who Made This Map and Why?"></p>
       <p class="bodytext">Using an analogy from writing, to fully understand historical 
         prose, you need to know about the author: his/her background, motivations, 
         and when and where the author wrote. This information is essential in 
@@ -244,7 +244,7 @@ function q4(x,y){
         they want to convey and omit the things they want to obscure. This is 
         a very powerful tool in hands of an unscrupulous or novice mapmaker. When 
         examining a map, always ask: &quot;What is not shown?&quot; </p>
-      <p class="bodytext"><img src="images/evillageques.gif" width="483" height="108"></p>
+      <p class="bodytext"><img src="images/evillageques.gif" width="483" height="108" alt="Match the map of New York City's &quot;East Village&quot; with its producer or purpose, and consider how the producers and their intent determine what is shown and how."></p>
       <table width="520" border="0" cellspacing="5" cellpadding="0">
         <tr> 
           <td width="222" class="bodytext">
@@ -257,11 +257,11 @@ function q4(x,y){
         </tr>
         <tr> 
           <td width="222"> 
-            <div align="center"><a href="javascript:;"><img src="images/evmapthumb.gif" width="183" height="263" onClick="MM_openBrWindow('blackmap.html','','scrollbars=yes,resizable=yes,width=490,height=500')" border="0"></a></div>
+            <div align="center"><a href="javascript:;" onClick="MM_openBrWindow('blackmap.html','','scrollbars=yes,resizable=yes,width=490,height=500')"><img src="images/evmapthumb.gif" width="183" height="263" border="0" alt="Map A: hand-made map titled From the L Train to D.B.A., tracing a red route through East Village streets past photographs of bicycles (enlarge)"></a></div>
           </td>
           <td width="73">&nbsp;</td>
           <td width="205"> 
-            <div align="center"><a href="javascript:;"><img src="images/LESmap-scthumb.gif" width="205" height="240" onClick="MM_openBrWindow('whitemap.html','','scrollbars=yes,resizable=yes,width=550,height=500')" border="0"></a></div>
+            <div align="center"><a href="javascript:;" onClick="MM_openBrWindow('whitemap.html','','scrollbars=yes,resizable=yes,width=550,height=500')"><img src="images/LESmap-scthumb.gif" width="205" height="240" border="0" alt="Map B: hand-drawn map of East Village blocks marking surveillance cameras (enlarge)"></a></div>
           </td>
         </tr>
         <tr> 
@@ -284,11 +284,11 @@ function q4(x,y){
         </tr>
         <tr> 
           <td width="222"> 
-            <div align="center"><a href="javascript:;"><img src="images/insmapsmall.gif" width="200" height="141" border="0" onClick="MM_openBrWindow('insurancemap.html','','scrollbars=yes,resizable=yes,width=700,height=475')"></a></div>
+            <div align="center"><a href="javascript:;" onClick="MM_openBrWindow('insurancemap.html','','scrollbars=yes,resizable=yes,width=700,height=475')"><img src="images/insmapsmall.gif" width="200" height="141" border="0" alt="Map C: detailed insurance map of blocks and buildings near the Jacob Riis Houses (enlarge)"></a></div>
           </td>
           <td width="73">&nbsp;</td>
           <td width="205">
-            <div align="center"><a href="javascript:;"><img src="images/greenmapthumb.gif" width="185" height="157" onClick="MM_openBrWindow('greenmap.html','','width=360,height=302')" border="0"></a></div>
+            <div align="center"><a href="javascript:;" onClick="MM_openBrWindow('greenmap.html','','width=360,height=302')"><img src="images/greenmapthumb.gif" width="185" height="157" border="0" alt="Map D: colorful map of the East Village marked with numbered icons and green hearts (enlarge)"></a></div>
           </td>
         </tr>
         <tr> 
@@ -304,102 +304,102 @@ function q4(x,y){
       <form name="theForm" method="post" action="question4.html">
         <p class="bodytext">&nbsp;</p>
         <p class="bodytext">Which is the building insurance map? &nbsp; 
-          <input type="text" name="feedback1">
+          <input aria-label="Feedback for question 1" type="text" name="feedback1">
           <br>
         </p>
         <table width="520" border="0" cellspacing="0" cellpadding="0">
           <tr> 
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(0,1)">
+              <input type="radio" name="question1" value="yes" onClick="q1(0,1)" id="opt1">
             </td>
-            <td class="bodytext" width="99">Map A</td>
+            <td class="bodytext" width="99"><label for="opt1">Map A</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(1,2)">
+              <input type="radio" name="question1" value="yes" onClick="q1(1,2)" id="opt2">
             </td>
-            <td class="bodytext" width="107">Map B</td>
+            <td class="bodytext" width="107"><label for="opt2">Map B</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(2,3)">
+              <input type="radio" name="question1" value="yes" onClick="q1(2,3)" id="opt3">
             </td>
-            <td class="bodytext" width="110">Map C</td>
+            <td class="bodytext" width="110"><label for="opt3">Map C</label></td>
             <td class="bodytext" width="15"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(3,4)">
+              <input type="radio" name="question1" value="yes" onClick="q1(3,4)" id="opt4">
             </td>
-            <td class="bodytext" width="117">Map D</td>
+            <td class="bodytext" width="117"><label for="opt4">Map D</label></td>
           </tr>
         </table>
         <p class="bodytext"><br>
           Which was made by a civil liberties group opposed to &quot;Big Brother&quot;? 
-          <input type="text" name="feedback2" size="17">
+          <input aria-label="Feedback for question 2" type="text" name="feedback2" size="17">
         </p>
         <table width="520" border="0" cellspacing="0" cellpadding="0">
           <tr> 
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question2" value="yes" onClick="q2(0,1)">
+              <input type="radio" name="question2" value="yes" onClick="q2(0,1)" id="opt5">
             </td>
-            <td class="bodytext" width="99">Map A</td>
+            <td class="bodytext" width="99"><label for="opt5">Map A</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question2" value="yes" onClick="q2(1,2)">
+              <input type="radio" name="question2" value="yes" onClick="q2(1,2)" id="opt6">
             </td>
-            <td class="bodytext" width="107">Map B</td>
+            <td class="bodytext" width="107"><label for="opt6">Map B</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question2" value="yes" onClick="q2(2,3)">
+              <input type="radio" name="question2" value="yes" onClick="q2(2,3)" id="opt7">
             </td>
-            <td class="bodytext" width="110">Map C</td>
+            <td class="bodytext" width="110"><label for="opt7">Map C</label></td>
             <td class="bodytext" width="15"> 
-              <input type="radio" name="question2" value="yes" onClick="q2(3,4)">
+              <input type="radio" name="question2" value="yes" onClick="q2(3,4)" id="opt8">
             </td>
-            <td class="bodytext" width="117">Map D</td>
+            <td class="bodytext" width="117"><label for="opt8">Map D</label></td>
           </tr>
         </table>
         <p class="bodytext"><br>
           Which was made by student map makers charting their communities? 
-          <input type="text" name="feedback3" size="17">
+          <input aria-label="Feedback for question 3" type="text" name="feedback3" size="17">
           <br>
           <br>
         </p>
         <table width="520" border="0" cellspacing="0" cellpadding="0">
           <tr> 
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(0,1)">
+              <input type="radio" name="question3" value="yes" onClick="q3(0,1)" id="opt9">
             </td>
-            <td class="bodytext" width="99">Map A</td>
+            <td class="bodytext" width="99"><label for="opt9">Map A</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(1,2)">
+              <input type="radio" name="question3" value="yes" onClick="q3(1,2)" id="opt10">
             </td>
-            <td class="bodytext" width="107">Map B</td>
+            <td class="bodytext" width="107"><label for="opt10">Map B</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(2,3)">
+              <input type="radio" name="question3" value="yes" onClick="q3(2,3)" id="opt11">
             </td>
-            <td class="bodytext" width="110">Map C</td>
+            <td class="bodytext" width="110"><label for="opt11">Map C</label></td>
             <td class="bodytext" width="15"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(3,4)">
+              <input type="radio" name="question3" value="yes" onClick="q3(3,4)" id="opt12">
             </td>
-            <td class="bodytext" width="117">Map D</td>
+            <td class="bodytext" width="117"><label for="opt12">Map D</label></td>
           </tr>
         </table>
         <p class="bodytext"> <br>
           Which map shows a bicycle tour route? 
-          <input type="text" name="feedback4">
+          <input aria-label="Feedback for question 4" type="text" name="feedback4">
           <br>
         </p>
         <table width="520" border="0" cellspacing="0" cellpadding="0">
           <tr> 
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question4" value="yes" onClick="q4(0,1)">
+              <input type="radio" name="question4" value="yes" onClick="q4(0,1)" id="opt13">
             </td>
-            <td class="bodytext" width="99">Map A</td>
+            <td class="bodytext" width="99"><label for="opt13">Map A</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question4" value="yes" onClick="q4(1,2)">
+              <input type="radio" name="question4" value="yes" onClick="q4(1,2)" id="opt14">
             </td>
-            <td class="bodytext" width="107">Map B</td>
+            <td class="bodytext" width="107"><label for="opt14">Map B</label></td>
             <td class="bodytext" width="24"> 
-              <input type="radio" name="question4" value="yes" onClick="q4(2,3)">
+              <input type="radio" name="question4" value="yes" onClick="q4(2,3)" id="opt15">
             </td>
-            <td class="bodytext" width="110">Map C</td>
+            <td class="bodytext" width="110"><label for="opt15">Map C</label></td>
             <td class="bodytext" width="15"> 
-              <input type="radio" name="question4" value="yes" onClick="q4(3,4)">
+              <input type="radio" name="question4" value="yes" onClick="q4(3,4)" id="opt16">
             </td>
-            <td class="bodytext" width="117">Map D</td>
+            <td class="bodytext" width="117"><label for="opt16">Map D</label></td>
           </tr>
         </table>
         </form>
@@ -422,8 +422,8 @@ function q4(x,y){
     <td colspan="3"><img src="images/mapfooter.jpg" width="734" height="86" usemap="#Map3" border="0" alt="Guide navigation"></td>
   </tr>
 </table>
-<map name="Map"> <area shape="rect" coords="531,50,741,73" href="../../index.html"> 
-  <area shape="rect" coords="558,3,739,45" href="http://crossroads.georgetown.edu/vkp/"> 
+<map name="Map"> <area shape="rect" coords="531,50,741,73" href="../../index.html" alt="History Matters home"> 
+  <area shape="rect" coords="558,3,739,45" href="http://crossroads.georgetown.edu/vkp/" alt="Visible Knowledge Project"> 
 </map>
 <map name="Map2"> 
   <area shape="rect" coords="2,376,195,405" href="map.pdf" alt="Download Entire Essay (Acrobat PDF)">
@@ -454,5 +454,6 @@ function q4(x,y){
   <area shape="rect" coords="447,69,736,121" href="../../browse/makesense/index.html" alt="Go to Making Sense of Evidence Browse Page">
 </map>
 </div>
+<script src="../../js/quiz-status.js"></script>
 </body>
 </html>

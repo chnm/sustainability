@@ -156,7 +156,7 @@ function MM_swapImage() { //v3.0
     <td width="190" align="left" valign="top"><img src="images/mapmenubar.gif" width="190" height="411" usemap="#Map2" border="0" alt="Table of contents"></td>
     <td class="bodytext" width="20">&nbsp;</td>
     <td width="529" align="left" valign="top"> 
-      <p><img src="images/individualtitles/wherebegin.gif" width="486" height="85"></p>
+      <p><img src="images/individualtitles/wherebegin.gif" width="486" height="85" alt="Where Do I Begin?"></p>
       <p class="bodytext">When reading in a foreign language, you may need to 
         consult a dictionary to fully understand what has been written. When reading 
         a map, you need to understand its symbolism. The following items are a 
@@ -182,9 +182,9 @@ function MM_swapImage() { //v3.0
       <p class="bodytext"><b>Grid</b> -- The map needs to have a coordinate system, 
         in the form of parallels of latitude and meridians of longitude, so that 
         the area can be placed in its proper geographic location on the globe.</p>
-      <p class="bodytext"><img src="images/elementsques.gif" width="461" height="75"></p>
+      <p class="bodytext"><img src="images/elementsques.gif" width="461" height="75" alt="Rollover this map with your mouse to find the five elements necessary to translate a map."></p>
       <p class="bodytext">&nbsp;</p>
-      <p class="bodytext"><img src="images/question1map/question1map.gif" width="520" height="486" name="question1map" usemap="#question1mapMap" border="0"><br>
+      <p class="bodytext"><img src="images/question1map/question1map.gif" width="520" height="486" name="question1map" usemap="#question1mapMap" border="0" alt="Map: The Western United States, 1876-1912, shading the states admitted before 1876 and the new states admitted between 1889 and 1912, with a legend, a scale in miles, and lines of latitude and longitude"><br>
       </p>
       <p class="bodytext">&nbsp;</p>
       <p class="bodytext"> Which element is missing?</p>
@@ -192,30 +192,30 @@ function MM_swapImage() { //v3.0
         <table width="400" border="0" cellspacing="5" cellpadding="0">
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(0,1)">
+              <input type="radio" name="question1" value="yes" onClick="q1(0,1)" id="opt1">
             </td>
-            <td width="178" class="bodytext">Title</td>
+            <td width="178" class="bodytext"><label for="opt1">Title</label></td>
             <td width="28" class="bodytext"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(1,2)">
+              <input type="radio" name="question1" value="yes" onClick="q1(1,2)" id="opt2">
             </td>
-            <td width="145" class="bodytext">Scale</td>
+            <td width="145" class="bodytext"><label for="opt2">Scale</label></td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(2,3)">
+              <input type="radio" name="question1" value="yes" onClick="q1(2,3)" id="opt3">
             </td>
-            <td width="178" class="bodytext">Orientation</td>
+            <td width="178" class="bodytext"><label for="opt3">Orientation</label></td>
             <td width="28" class="bodytext"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(3,4)">
+              <input type="radio" name="question1" value="yes" onClick="q1(3,4)" id="opt4">
             </td>
-            <td width="145" class="bodytext">Legend</td>
+            <td width="145" class="bodytext"><label for="opt4">Legend</label></td>
           </tr>
           <tr> 
             <td width="24"> 
-            <input onClick=q1(4,5) type=radio value=yes name=question1>
+            <input onClick=q1(4,5) type=radio value=yes name=question1 id="opt5">
               
             </td>
-            <td class="bodytext" colspan="3">Grid</td>
+            <td class="bodytext" colspan="3"><label for="opt5">Grid</label></td>
           </tr>
           <tr> 
             <td width="24">&nbsp; </td>
@@ -224,7 +224,7 @@ function MM_swapImage() { //v3.0
           <tr> 
             <td width="24">&nbsp; </td>
             <td class="bodytext" colspan="3"> 
-              <input type="text" name="feedback1">
+              <input aria-label="Feedback for question 1" type="text" name="feedback1">
             </td>
           </tr>
         </table>
@@ -246,8 +246,8 @@ function MM_swapImage() { //v3.0
     <td colspan="3"><img src="images/mapfooter.jpg" width="734" height="86" usemap="#Map3" border="0" alt="Guide navigation"></td>
   </tr>
 </table>
-<map name="Map"> <area shape="rect" coords="531,50,741,73" href="../../index.html"> 
-  <area shape="rect" coords="558,3,739,45" href="http://crossroads.georgetown.edu/vkp/"> 
+<map name="Map"> <area shape="rect" coords="531,50,741,73" href="../../index.html" alt="History Matters home"> 
+  <area shape="rect" coords="558,3,739,45" href="http://crossroads.georgetown.edu/vkp/" alt="Visible Knowledge Project"> 
 </map>
 <map name="Map2"> 
   <area shape="rect" coords="2,376,195,405" href="map.pdf" alt="Download Entire Essay (Acrobat PDF)">
@@ -277,39 +277,26 @@ function MM_swapImage() { //v3.0
   <area shape="rect" coords="245,53,337,63" href="try.html" alt="Try It Yourself!">
   <area shape="rect" coords="449,69,741,122" href="../../browse/makesense/index.html" alt="Go to Making Sense of Evidence Browse Page">
 </map>
-<map name="westernusmap"> 
-  <area shape="rect" coords="33,424,152,455" href="javascript:;">
-  <area shape="rect" coords="35,376,155,417" href="javascript:;" onMouseOver="MM_showHideLayers('Layer1','','show')" onMouseOut="MM_showHideLayers('Layer1','','hide')">
-  <area shape="rect" coords="47,461,148,476" href="javascript:;">
-  <area shape="rect" coords="1,61,28,105" href="javascript:;">
-  <area shape="rect" coords="2,156,17,172" href="javascript:;">
-  <area shape="rect" coords="-2,253,16,270" href="javascript:;">
-  <area shape="rect" coords="31,296,58,311" href="javascript:;">
-  <area shape="rect" coords="-4,350,22,368" href="javascript:;">
-  <area shape="rect" coords="1,445,17,466" href="javascript:;">
-  <area shape="rect" coords="427,469,448,487" href="javascript:;">
-  <area shape="rect" coords="498,410,524,429" href="javascript:;">
-  <area shape="rect" coords="173,453,199,471" href="javascript:;">
-</map>
 <map name="question1mapMap"> 
-  <area shape="rect" coords="29,376,163,417" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/titlecommentary.gif',1)">
-  <area shape="rect" coords="26,427,162,456" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/legendcommentary.gif',1)">
-  <area shape="rect" coords="32,462,161,477" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/scalecommentary.gif',1)">
-  <area shape="poly" coords="37,1,48,4,32,65,20,61" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
-  <area shape="poly" coords="18,77,28,81,9,148,0,138" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
-  <area shape="poly" coords="47,283,59,289,41,357,28,351" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
-  <area shape="poly" coords="3,460,16,465,11,484,1,477" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
-  <area shape="poly" coords="10,435,19,441,16,448,8,444" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
-  <area shape="poly" coords="179,441,192,448,187,485,172,484" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
-  <area shape="poly" coords="421,413,443,406,450,484,425,484" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
-  <area shape="poly" coords="500,410,519,397,519,475,507,477" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
-  <area shape="poly" coords="2,59,2,72,20,72,20,65" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/latitudecommentary.gif',1)">
-  <area shape="poly" coords="30,69,30,75,39,77,40,70" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/latitudecommentary.gif',1)">
-  <area shape="poly" coords="3,153,15,158,15,168,2,166" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/latitudecommentary.gif',1)">
-  <area shape="poly" coords="1,250,1,270,40,278,41,262" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/latitudecommentary.gif',1)">
-  <area shape="poly" coords="1,348,1,365,27,370,29,359" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/latitudecommentary.gif',1)">
-  <area shape="poly" coords="36,362,35,369,51,372,52,367" href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/latitudecommentary.gif',1)">
+  <area shape="rect" coords="29,376,163,417" href="javascript:;" alt="Map title: The Western United States, 1876-1912" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/titlecommentary.gif',1)">
+  <area shape="rect" coords="26,427,162,456" href="javascript:;" alt="Legend" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/legendcommentary.gif',1)">
+  <area shape="rect" coords="32,462,161,477" href="javascript:;" alt="Scale" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/scalecommentary.gif',1)">
+  <area shape="poly" coords="37,1,48,4,32,65,20,61" href="javascript:;" alt="Line of longitude" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
+  <area shape="poly" coords="18,77,28,81,9,148,0,138" href="javascript:;" alt="Line of longitude" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
+  <area shape="poly" coords="47,283,59,289,41,357,28,351" href="javascript:;" alt="Line of longitude" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
+  <area shape="poly" coords="3,460,16,465,11,484,1,477" href="javascript:;" alt="Line of longitude" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
+  <area shape="poly" coords="10,435,19,441,16,448,8,444" href="javascript:;" alt="Line of longitude" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
+  <area shape="poly" coords="179,441,192,448,187,485,172,484" href="javascript:;" alt="Line of longitude" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
+  <area shape="poly" coords="421,413,443,406,450,484,425,484" href="javascript:;" alt="Line of longitude" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
+  <area shape="poly" coords="500,410,519,397,519,475,507,477" href="javascript:;" alt="Line of longitude" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/longitudecommentary.gif',1)">
+  <area shape="poly" coords="2,59,2,72,20,72,20,65" href="javascript:;" alt="Line of latitude" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/latitudecommentary.gif',1)">
+  <area shape="poly" coords="30,69,30,75,39,77,40,70" href="javascript:;" alt="Line of latitude" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/latitudecommentary.gif',1)">
+  <area shape="poly" coords="3,153,15,158,15,168,2,166" href="javascript:;" alt="Line of latitude" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/latitudecommentary.gif',1)">
+  <area shape="poly" coords="1,250,1,270,40,278,41,262" href="javascript:;" alt="Line of latitude" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/latitudecommentary.gif',1)">
+  <area shape="poly" coords="1,348,1,365,27,370,29,359" href="javascript:;" alt="Line of latitude" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/latitudecommentary.gif',1)">
+  <area shape="poly" coords="36,362,35,369,51,372,52,367" href="javascript:;" alt="Line of latitude" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('question1map','','images/question1map/latitudecommentary.gif',1)">
 </map>
 </div>
+<script src="../../js/quiz-status.js"></script>
 </body>
 </html>

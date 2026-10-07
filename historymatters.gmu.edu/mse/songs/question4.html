@@ -232,20 +232,20 @@ function MM_showHideLayers() { //v6.0
           Can you guess the contexts in which the song was found?</p>
         <p>Which of the following people sang &#8220;Silver Threads Among the 
           Gold&#8221;?</p>
+        <p> 
+          <label><input type="radio" name="question1" value="yes" onClick="q1(0,1);MM_showHideLayers('Layer2','','hide')">
+          Hillbilly performer &#8220;Fiddlin&#8221; John Carson, circa 1923</label> <br>
+          <label><input type="radio" name="question1" value="yes" onClick="q1(1,2);MM_showHideLayers('Layer2','','show')">
+          Labor union organizer Joe Hill, circa 1913</label> <br>
+          <label><input type="radio" name="question1" value="yes" onClick="q1(2,3);MM_showHideLayers('Layer2','','hide')">
+          Rockabilly musician Jerry Lee Lewis, circa 1957</label> <br>
+          <label><input type="radio" name="question1" value="yes" onClick="q1(3,4);MM_showHideLayers('Layer2','','hide')">
+          Famed Indian soprano Goura Jan in Calcutta, circa 1902</label> </p>
         <div id="Layer2" style="position:absolute; left:284px; top:2550px; width:384px; height:16px; z-index:2; visibility: hidden;" class="text">click 
           here to <a href="question4.html#!" onClick="MM_openBrWindow('toiler.htm','','scrollbars=yes,resizable=yes,width=300,height=400')">read 
           the lyrics</a> to &#8220;The Old Toiler&#8217;s Message&#8221;</div>
         <p> 
-          <input type="radio" name="question1" value="yes" onClick="q1(0,1);MM_showHideLayers('Layer2','','hide')">
-          Hillbilly performer &#8220;Fiddlin&#8221; John Carson, circa 1923 <br>
-          <input type="radio" name="question1" value="yes" onClick="q1(1,2);MM_showHideLayers('Layer2','','show')">
-          Labor union organizer Joe Hill, circa 1913 <br>
-          <input type="radio" name="question1" value="yes" onClick="q1(2,3);MM_showHideLayers('Layer2','','hide')">
-          Rockabilly musician Jerry Lee Lewis, circa 1957 <br>
-          <input type="radio" name="question1" value="yes" onClick="q1(3,4);MM_showHideLayers('Layer2','','hide')">
-          Famed Indian soprano Goura Jan in Calcutta, circa 1902 </p>
-        <p> 
-          <textarea name="feedback1" cols="65" rows="25" id="feedback1"></textarea>
+          <textarea aria-label="Feedback for question 1" name="feedback1" cols="65" rows="25" id="feedback1"></textarea>
         </p>
       </form>
       <p align="right"><a href="question5.html"><img src="images/forward.gif" alt="Next" width=14 
@@ -274,5 +274,6 @@ function MM_showHideLayers() { //v6.0
   <area shape="rect" coords="446,71,717,83" href="../../browse/makesense/index.html" alt="Go to MAKING SENSE OF EVIDENCE Browse Page">
 </map>
 </div>
+<script src="../../js/quiz-status.js"></script>
 </body>
 </html>

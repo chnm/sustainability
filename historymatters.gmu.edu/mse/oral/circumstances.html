@@ -126,19 +126,19 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 <body bgcolor="#FFFFFF" text="#000000">
 <table width="516" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td><img src="images/individualtitles/trytitle.gif" width="516" height="82"></td>
+    <td><img src="images/individualtitles/trytitle.gif" width="516" height="82" alt="Try It Yourself!"></td>
   </tr>
   <tr>
     <td><img src="images/space1.gif" width="20" height="20" alt=""></td>
   </tr>
   <tr>
-    <td><img src="images/line.gif" width="473" height="10"></td>
+    <td><img src="images/line.gif" width="473" height="10" alt=""></td>
   </tr>
   <tr>
     <td><img src="images/space1.gif" width="20" height="20" alt=""></td>
   </tr>
   <tr>
-    <td><img src="images/circum.gif" width="491" height="81"></td>
+    <td><img src="images/circum.gif" width="491" height="81" alt="How do you think these circumstances might affect the following interviews?"></td>
   </tr>
   <tr>
     <td><img src="images/space1.gif" width="20" height="20" alt=""></td>
@@ -149,37 +149,37 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
         <table width="100%" border="0" cellspacing="5" cellpadding="0">
           <tr> 
             <td width="171" height="176" align="left" valign="top"><img
-src="images/interview1.jpg" width="251" height="352"></td>
+src="images/interview1.jpg" width="251" height="352" alt="Interview No. 1: The interviewer didn't eat lunch. A cartoon of an interviewer dreaming of a sandwich while his stomach gurgles across the table from his subject."></td>
             <td align="left" valign="middle" height="176"> 
               <table width="100%" border="0" cellspacing="3" cellpadding="0">
                 <tr> 
                   <td class="text" width="9%" align="left" valign="top">  
-                    <input type="radio" name="question1" value="yes" onClick="q1(0,1)">
+                    <input type="radio" name="question1" value="yes" onClick="q1(0,1)" id="opt1">
                     </td>
-                  <td class="text" width="91%">The 
+                  <td class="text" width="91%"><label for="opt1">The 
                     interviewer only hears words that rhyme with pastrami and 
-                    rye.</td>
+                    rye.</label></td>
                 </tr>
                 <tr> 
                   <td class="text" align="left" valign="top">  
-                    <input type="radio" name="question1" value="yes" onClick="q1(1,2)">
+                    <input type="radio" name="question1" value="yes" onClick="q1(1,2)" id="opt2">
                     </td>
-                  <td class="text">The 
+                  <td class="text"><label for="opt2">The 
                     subject, disturbed by the rumbling of the interviewer's stomach, 
-                    loses his train of thought. </td>
+                    loses his train of thought.</label> </td>
                 </tr>
                 <tr> 
                   <td class="text" align="left" valign="top">  
-                    <input type="radio" name="question1" value="yes" onClick="q1(2,3)">
+                    <input type="radio" name="question1" value="yes" onClick="q1(2,3)" id="opt3">
                     </td>
-                  <td class="text">The 
+                  <td class="text"><label for="opt3">The 
                     famished interviewer rushes to finish the session to get to 
-                    Roy Roger's.</td>
+                    Roy Roger's.</label></td>
                 </tr>
                 <tr> 
                   <td class="text">&nbsp;</td>
                   <td class="text"> <br>
-                    <input type="text" name="feedback1" size="20" onFocus="blur()">
+                    <input aria-label="Feedback for question 1" type="text" name="feedback1" size="20" readonly>
                     </td>
                 </tr>
               </table>
@@ -192,69 +192,69 @@ src="images/interview1.jpg" width="251" height="352"></td>
               <table width="100%" border="0" cellspacing="3" cellpadding="0">
                 <tr> 
                   <td class="text" width="9%" align="left" valign="top">  
-                    <input type="radio" name="question2" value="yes" onClick="q2(0,1)">
+                    <input type="radio" name="question2" value="yes" onClick="q2(0,1)" id="opt4">
                     </td>
-                  <td class="text" width="91%">Two 
-                    subjects might overwhelm one interviewer. </td>
+                  <td class="text" width="91%"><label for="opt4">Two 
+                    subjects might overwhelm one interviewer.</label> </td>
                 </tr>
                 <tr> 
                   <td class="text" align="left" valign="top">  
-                    <input type="radio" name="question2" value="yes" onClick="q2(1,2)">
+                    <input type="radio" name="question2" value="yes" onClick="q2(1,2)" id="opt5">
                     </td>
-                  <td class="text">Sharing 
-                    a microphone creates an unconscious generational rivalry.</td>
+                  <td class="text"><label for="opt5">Sharing 
+                    a microphone creates an unconscious generational rivalry.</label></td>
                 </tr>
                 <tr> 
                   <td class="text" align="left" valign="top">  
-                    <input type="radio" name="question2" value="yes" onClick="q2(2,3)">
+                    <input type="radio" name="question2" value="yes" onClick="q2(2,3)" id="opt6">
                     </td>
-                  <td class="text">There 
+                  <td class="text"><label for="opt6">There 
                     are just certain things a daughter won't say in front of her 
-                    mother... and vice versa.</td>
+                    mother... and vice versa.</label></td>
                 </tr>
                 <tr> 
                   <td class="text">&nbsp;</td>
                   <td class="text"> <br>
-                    <input type="text" name="feedback2" size="20" onFocus="blur()">
+                    <input aria-label="Feedback for question 2" type="text" name="feedback2" size="20" readonly>
                     </td>
                 </tr>
               </table>
             </td>
             <td align="center" valign="middle" width="212"><img src="images/interview2.jpg"
-width="251" height="286"> </td>
+width="251" height="286" alt="Interview No. 2: A mother and daughter are interviewed together. A cartoon of two women side by side on a sofa facing the interviewer."> </td>
           </tr>
         </table>
         <table width="100%" border="0" cellspacing="5" cellpadding="0">
           <tr> 
-            <td width="171"><img src="images/interview3.jpg" width="251" height="274"></td>
+            <td width="171"><img src="images/interview3.jpg" width="251" height="274" alt="Interview No. 3: The interview occurs in a public place. A cartoon of an interview at a sidewalk table amid traffic and passersby."></td>
             <td align="left" valign="middle"> 
               <table width="100%" border="0" cellspacing="3" cellpadding="0">
                 <tr> 
                   <td class="text" width="9%" align="left" valign="top">  
-                    <input type="radio" name="question3" value="yes" onClick="q3(0,1)">
+                    <input type="radio" name="question3" value="yes" onClick="q3(0,1)" id="opt7">
                     </td>
-                  <td class="text" width="91%">Microwaves 
-                    emanating from nearby cellular phones erase the tape. </td>
+                  <td class="text" width="91%"><label for="opt7">Microwaves 
+                    emanating from nearby cellular phones erase the tape.</label> </td>
                 </tr>
                 <tr> 
                   <td class="text" align="left" valign="top">  
-                    <input type="radio" name="question3" value="yes" onClick="q3(1,2)">
+                    <input type="radio" name="question3" value="yes" onClick="q3(1,2)" id="opt8">
                     </td>
-                  <td class="text">Passing 
+                  <td class="text"><label for="opt8">Passing 
                     pedestrians and motorists interrupt the interview to get in 
-                    a word.</td>
+                    a word.</label></td>
                 </tr>
                 <tr> 
                   <td class="text" align="left" valign="top">  
-                    <input type="radio" name="question3" value="yes" onClick="q3(2,3)">
+                    <input type="radio" name="question3" value="yes" onClick="q3(2,3)" id="opt9">
                     </td>
-                  <td class="text">Surrounding 
-                    noise and activity divert the subject's attention.</td>
+                  <td class="text"><label for="opt9">Surrounding 
+                    noise and activity divert the subject's attention.</label></td>
                 </tr>
                 <tr> 
                   <td class="text">&nbsp;</td>
                   <td class="text"> <br>
-                    <input type="text" name="feedback3" size="20" onFocus="blur()">
+                    <input aria-label="Feedback for question 3" type="text" name="feedback3" size="20" readonly>
                     </td>
                 </tr>
               </table>
@@ -265,5 +265,5 @@ width="251" height="286"> </td>
       <p>&nbsp;</p>
     </td>
   </tr>
-</table></div></html>
+</table></div><script src="../../js/quiz-status.js"></script></html>
 </html>

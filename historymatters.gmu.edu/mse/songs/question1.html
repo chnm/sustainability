@@ -292,14 +292,14 @@ function MM_swapImage() { //v3.0
           <p>Repeat Chorus</p>
         </blockquote>
         <p>Was this song written by an<br>
-          <input type="radio" name="question1" value="yes" onClick="q1(0,1);MM_swapImage('logo','','images/Hogan.jpg',1)">
-          African-American songwriter<br>
-          <input type="radio" name="question1" value="yes" onClick="q1(1,2);MM_swapImgRestore()">
-          White songwriter</p>
+          <label><input type="radio" name="question1" value="yes" onClick="q1(0,1);MM_swapImage('logo','','images/Hogan.jpg',1)">
+          African-American songwriter</label><br>
+          <label><input type="radio" name="question1" value="yes" onClick="q1(1,2);MM_swapImgRestore()">
+          White songwriter</label></p>
         <table width="518" border="0">
           <tr> 
             <td align="left" valign="top"> 
-              <textarea name="feedback1" cols="45" rows="24" id="feedback1"></textarea>
+              <textarea aria-label="Feedback for question 1" name="feedback1" cols="45" rows="24" id="feedback1"></textarea>
             </td>
             <td width="305"><img src="images/spacer.gif" name="logo" id="logo" alt=""></td>
           </tr>
@@ -346,14 +346,14 @@ function MM_swapImage() { //v3.0
           <p>Repeat Chorus</p>
         </blockquote>
         <p>Was this song written by an<br>
-          <input type="radio" name="question2" value="yes" onClick="q2(0,1);MM_swapImgRestore()">
-          African-American songwriter<br>
-          <input type="radio" name="question2" value="yes" onClick="q2(1,2);MM_swapImage('pic2','','images/helf.jpg',1)">
-          White songwriter</p>
+          <label><input type="radio" name="question2" value="yes" onClick="q2(0,1);MM_swapImgRestore()">
+          African-American songwriter</label><br>
+          <label><input type="radio" name="question2" value="yes" onClick="q2(1,2);MM_swapImage('pic2','','images/helf.jpg',1)">
+          White songwriter</label></p>
         <table width="518" border="0">
           <tr> 
             <td align="left" valign="top"> 
-              <textarea name="feedback2" cols="45" rows="24" id="feedback2"></textarea>
+              <textarea aria-label="Feedback for question 2" name="feedback2" cols="45" rows="24" id="feedback2"></textarea>
             </td>
             <td width="305"><img src="images/spacer.gif" name="pic2" id="pic2" alt=""> 
             </td>
@@ -401,14 +401,14 @@ function MM_swapImage() { //v3.0
             king</p>
         </blockquote>
         <p>Was this song written by an<br>
-          <input type="radio" name="question3" value="yes" onClick="q3(0,1);MM_swapImage('pic3','','images/dunbar.jpg',1)">
-          African-American songwriter<br>
-          <input type="radio" name="question3" value="yes" onClick="q3(1,2);MM_swapImgRestore()">
-          White songwriter</p>
+          <label><input type="radio" name="question3" value="yes" onClick="q3(0,1);MM_swapImage('pic3','','images/dunbar.jpg',1)">
+          African-American songwriter</label><br>
+          <label><input type="radio" name="question3" value="yes" onClick="q3(1,2);MM_swapImgRestore()">
+          White songwriter</label></p>
         <table width="518" border="0">
           <tr> 
             <td align="left" valign="top"> 
-              <textarea name="feedback3" cols="45" rows="30" id="feedback3"></textarea>
+              <textarea aria-label="Feedback for question 3" name="feedback3" cols="45" rows="30" id="feedback3"></textarea>
             </td>
             <td width="305"><img src="images/spacer.gif" name="pic3" id="pic3" alt=""> 
             </td>
@@ -446,5 +446,6 @@ function MM_swapImage() { //v3.0
   <area shape="rect" coords="446,71,717,83" href="../../browse/makesense/index.html" alt="Go to MAKING SENSE OF EVIDENCE Browse Page">
 </map>
 </div>
+<script src="../../js/quiz-status.js"></script>
 </body>
 </html>

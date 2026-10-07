@@ -145,7 +145,7 @@ var theAnalysis3Array = new Array(
     <td width="20" height="1853">&nbsp;</td>
     <td width="528" align="left" valign="top" height="1853"> 
       <div class=Section1> 
-        <p><img src="images/question6.gif" width="503" height="124"><br>
+        <p><img src="images/question6.gif" width="503" height="124" alt="How Do I Organize Data Into Categories?"><br>
           <br>
           Historians 
           working with evidence that can be counted almost always confront the 
@@ -207,7 +207,7 @@ var theAnalysis3Array = new Array(
           Instead we have kept open the option of using different &quot;break 
           points&quot; when we read the organized data.<br>
           <br>
-          <img src="images/view.gif" width="384" height="82"></p>
+          <img src="images/view.gif" width="384" height="82" alt="View the data and answer the questions that follow"></p>
         <p>Now we 
           are ready to arrange our data and to look for patterns. Examine the 
           two graphs below. Both are based on the data set of manufacturing firms 
@@ -218,11 +218,11 @@ var theAnalysis3Array = new Array(
           <br>
           <b>Graph 4: Number of Manufacturing Firms by Firm Size, Cleveland, Ohio, 
           1880</b><br>
-          <img src="images/question6a.gif" width="330" height="280"> </p>
+          <img src="images/question6a.gif" width="330" height="280" alt="Bar graph, Firms by Firm Size, 1880: about 560 firms with 0 to 5 workers, 165 with 6 to 10, 140 with 11 to 25, 75 with 26 to 50, 45 with 51 to 100, and 35 with over 100"> </p>
         <p><br>
           <b>Graph 5: Number of Manufacturing Workers by Firm Size, Cleveland, 
           Ohio, 1880</b><br>
-          <img src="images/question6b.gif" width="330" height="280"> <br>
+          <img src="images/question6b.gif" width="330" height="280" alt="Bar graph, Workers by Firm Size, 1880: about 1,300 workers in firms of 0 to 5, 1,300 in firms of 6 to 10, 2,300 in firms of 11 to 25, 2,700 in firms of 26 to 50, 3,400 in firms of 51 to 100, and 9,600 in firms of over 100"> <br>
           <br>
           With the help of these graphs, you should be able to answer the questions 
           we raised at the beginning of this exercise: <br>
@@ -237,15 +237,15 @@ var theAnalysis3Array = new Array(
             </tr>
             <tr> 
               <td>
-                <input type="radio" name="question1" onClick="q1(0,1)">
-                Most firms employed over 100 workers <br>
-                <input type="radio" name="question1" onClick="q1(1,2)">
-                Most firms employed 51 to 100 workers <br>
-                <input type="radio" name="question1" onClick="q1(2,3)">
-                Most firms employed 5 or fewer workers</td>
+                <label><input type="radio" name="question1" onClick="q1(0,1)">
+                Most firms employed over 100 workers</label> <br>
+                <label><input type="radio" name="question1" onClick="q1(1,2)">
+                Most firms employed 51 to 100 workers</label> <br>
+                <label><input type="radio" name="question1" onClick="q1(2,3)">
+                Most firms employed 5 or fewer workers</label></td>
               <td> 
                 <div align="center"> 
-                  <input type="text" name="textfield">
+                  <input aria-label="Feedback for question 1" type="text" name="textfield">
                   </div>
               </td>
             </tr>
@@ -261,13 +261,13 @@ var theAnalysis3Array = new Array(
             </tr>
             <tr> 
               <td width="111"> 
-                <input type="radio" name="question2" onClick="q2(0,1)">
-                Big firms &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="transparent.gif" width="1" height="1" alt=""><br>
-                <input type="radio" name="question2" onClick="q2(1,2)">
-                Little firms &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <label><input type="radio" name="question2" onClick="q2(0,1)">
+                Big firms &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="transparent.gif" width="1" height="1" alt=""></label><br>
+                <label><input type="radio" name="question2" onClick="q2(1,2)">
+                Little firms &nbsp;&nbsp;&nbsp;&nbsp;</label></td>
               <td width="389"> 
                 <div align="center">
-                  <textarea name="textfield2" rows="4" cols="55"></textarea>
+                  <textarea aria-label="Feedback for question 2" name="textfield2" rows="4" cols="55"></textarea>
                   </div>
               </td>
             </tr>
@@ -283,13 +283,13 @@ var theAnalysis3Array = new Array(
             </tr>
             <tr> 
               <td width="111"> 
-                <input type="radio" name="question3" onClick="q3(0,1)">
-                Yes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="transparent.gif" width="1" height="1" alt=""><br>
-                <input type="radio" name="question3" onClick="q3(1,2)">
-                No &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <label><input type="radio" name="question3" onClick="q3(0,1)">
+                Yes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="transparent.gif" width="1" height="1" alt=""></label><br>
+                <label><input type="radio" name="question3" onClick="q3(1,2)">
+                No &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
               <td width="389"> 
                 <div align="center">
-                  <textarea name="textfield3" rows="4" cols="55"></textarea>
+                  <textarea aria-label="Feedback for question 3" name="textfield3" rows="4" cols="55"></textarea>
                   </div>
               </td>
             </tr>
@@ -335,8 +335,9 @@ var theAnalysis3Array = new Array(
 </table>
 <map name="Map">
   <area shape="rect" coords="530,52,750,71" href="../../index.html" alt="Go to Making Sense of Numbers Home Page">
-  <area shape="rect" coords="559,3,750,46" href="http://crossroads.georgetown.edu/vkp/">
+  <area shape="rect" coords="559,3,750,46" href="http://crossroads.georgetown.edu/vkp/" alt="Visible Knowledge Project">
 </map>
 </div>
+<script src="../../js/quiz-status.js"></script>
 </body>
 </html>

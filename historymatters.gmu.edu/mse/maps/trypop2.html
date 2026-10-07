@@ -78,28 +78,30 @@ function q1(x,y){
   })();
 </script>
 <!-- End Matomo Code -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../../a11y.css" rel="stylesheet" type="text/css">
 <body bgcolor="#FFFFFF" text="#000000" link="#0066FF" vlink="#FF0000">
 <table width="470" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td> 
-      <p class="bodytext"><img src="images/accurateques.gif" width="483" height="88"></p>
+      <p class="bodytext"><img src="images/accurateques.gif" width="483" height="88" alt="Which is the more accurate map of the United States? (There may be more than one correct answer!)"></p>
       <form name="theForm" method="post" action="" enctype="multipart/form-data">
         <table width="470" border="0" cellspacing="0" cellpadding="0">
           <tr> 
-            <td colspan="2"><img src="images/equalarea1.jpg" width="199" height="129"></td>
+            <td colspan="2"><img src="images/equalarea1.jpg" width="199" height="129" alt="Map A: outline map of the contiguous United States, stretched wide and flattened"></td>
             <td width="70">&nbsp;</td>
-            <td colspan="2"><img src="images/mercator1.jpg" width="199" height="129"></td>
+            <td colspan="2"><img src="images/mercator1.jpg" width="199" height="129" alt="Map B: outline map of the contiguous United States, with the northern states enlarged"></td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(0,1)">
+              <input type="radio" name="question1" value="yes" onClick="q1(0,1)" id="opt1">
             </td>
-            <td width="176" class="bodytext">Map A</td>
+            <td width="176" class="bodytext"><label for="opt1">Map A</label></td>
             <td width="70">&nbsp;</td>
             <td width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(1,2)">
+              <input type="radio" name="question1" value="yes" onClick="q1(1,2)" id="opt2">
             </td>
-            <td width="176" class="bodytext">Map B</td>
+            <td width="176" class="bodytext"><label for="opt2">Map B</label></td>
           </tr>
           <tr> 
             <td colspan="2">&nbsp;</td>
@@ -107,20 +109,20 @@ function q1(x,y){
             <td colspan="2">&nbsp;</td>
           </tr>
           <tr> 
-            <td colspan="2"><img src="images/robinson1.jpg" width="199" height="129"></td>
+            <td colspan="2"><img src="images/robinson1.jpg" width="199" height="129" alt="Map C: outline map of the contiguous United States, curved and tilted"></td>
             <td width="70">&nbsp;</td>
-            <td colspan="2"><img src="images/albers1.jpg" width="199" height="129"></td>
+            <td colspan="2"><img src="images/albers1.jpg" width="199" height="129" alt="Map D: outline map of the contiguous United States with natural-looking proportions"></td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(2,3)">
+              <input type="radio" name="question1" value="yes" onClick="q1(2,3)" id="opt3">
             </td>
-            <td width="176" class="bodytext">Map C</td>
+            <td width="176" class="bodytext"><label for="opt3">Map C</label></td>
             <td width="70">&nbsp;</td>
             <td width="24"> 
-              <input type="radio" name="question1" value="yes" onClick="q1(3,4)">
+              <input type="radio" name="question1" value="yes" onClick="q1(3,4)" id="opt4">
             </td>
-            <td width="176" class="bodytext">Map D</td>
+            <td width="176" class="bodytext"><label for="opt4">Map D</label></td>
           </tr>
           <tr> 
             <td colspan="5"><img src="images/space1.gif" width="20" height="20" alt=""></td>
@@ -128,7 +130,7 @@ function q1(x,y){
           <tr> 
             <td colspan="5"> 
               <div align="center">
-                <textarea name="feedback1" rows=12 cols=50&quot; wrap="VIRTUAL"></textarea>
+                <textarea aria-label="Feedback for question 1" name="feedback1" rows=12 cols=50&quot; wrap="VIRTUAL"></textarea>
               </div>
             </td>
           </tr>
@@ -137,5 +139,5 @@ function q1(x,y){
       
     </td>
   </tr>
-</table></div></html>
+</table></div><script src="../../js/quiz-status.js"></script></html>
 </html>

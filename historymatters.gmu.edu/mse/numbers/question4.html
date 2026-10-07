@@ -134,7 +134,7 @@ var theAnalysis2Array = new Array(
     <td width="13">&nbsp;</td>
     <td width="522" align="left" valign="top"> 
       <div class=Section1> 
-        <p><img src="images/question4.gif" width="489" height="124"></p>
+        <p><img src="images/question4.gif" width="489" height="124" alt="How Do I Locate Patterns? Totals and Rates"></p>
         <p>To make 
           sense of the past, historians try to identify patterns in the evidence 
           they collect. They look for connections between events or between various 
@@ -150,7 +150,7 @@ var theAnalysis2Array = new Array(
           familiar with from your grade school days, and we will start with them. 
           You may be pleased to discover how much you already know about quantitative 
           methods that will prove useful in your study of American history.</p>
-        <p><img src="images/readthis.gif" width="522" height="89"><br>
+        <p><img src="images/readthis.gif" width="522" height="89" alt="Read this data on New York City population growth to understand the difference between totals and rates"><br>
           </p>
         <p>Let us 
           begin with <b>totals</b>. Just tracking the total number of people in 
@@ -230,14 +230,14 @@ var theAnalysis2Array = new Array(
           at these totals, what do you think was the pattern of growth in the 
           population of New York City from 1790 to 1840? 
           <p> 
-            <input type="radio" name="question1" onClick="q1(0,1)">
-            Downward <br>
-            <input type="radio" name="question1" onClick="q1(1,2)">
-            Upward <br>
-            <input type="radio" name="question1" onClick="q1(2,3)">
-            Flat </p>
+            <label><input type="radio" name="question1" onClick="q1(0,1)">
+            Downward</label> <br>
+            <label><input type="radio" name="question1" onClick="q1(1,2)">
+            Upward</label> <br>
+            <label><input type="radio" name="question1" onClick="q1(2,3)">
+            Flat</label> </p>
           <p> 
-            <input type="text" name="textfield" value="">
+            <input aria-label="Feedback for question 1" type="text" name="textfield" value="">
             </p>
         </form>
         <p>This graph 
@@ -247,23 +247,23 @@ var theAnalysis2Array = new Array(
       <div class=Section1>
         <p><b>Graph 
           1: The Population of New York City, 1790-1840</b></p>
-        <p><span style='font-size:10.0pt;font-family:Verdana'><img src="images/q4graph1.gif" width="490" height="296"><br>
+        <p><span style='font-size:10.0pt;font-family:Verdana'><img src="images/q4graph1.gif" width="490" height="296" alt="Line graph of the population of New York City at each census from 1790 to 1840, plotting the figures in Table A; the line rises throughout and climbs most steeply after 1820"><br>
           </span></p>
         <form name="form2" method="post" action="question4.html">
           <p>Reading 
             this graph, in which decade do you think the most rapid growth in 
             population occurred? <br>
             <br>
-            <input type="radio" name="question2" onClick="q2(0,1)">
-            1830 and 1840 <br>
-            <input type="radio" name="question2" onClick="q2(1,2)">
-            1810 and 1820 <br>
-            <input type="radio" name="question2" onClick="q2(2,3)">
-            1800 and 1810 <br>
-            <input type="radio" name="question2" onClick="q2(3,4)">
-            1790 and 1800  </p>
+            <label><input type="radio" name="question2" onClick="q2(0,1)">
+            1830 and 1840</label> <br>
+            <label><input type="radio" name="question2" onClick="q2(1,2)">
+            1810 and 1820</label> <br>
+            <label><input type="radio" name="question2" onClick="q2(2,3)">
+            1800 and 1810</label> <br>
+            <label><input type="radio" name="question2" onClick="q2(3,4)">
+            1790 and 1800</label>  </p>
           <p> 
-            <input type="text" name="textfield2">
+            <input aria-label="Feedback for question 2" type="text" name="textfield2">
           </p>
         </form>
         <p>How can 
@@ -475,7 +475,7 @@ var theAnalysis2Array = new Array(
         </table>
         <p><b>Graph 
           2: The Rate of Population Growth by Decade, New York City, 1790-1840</b></p>
-        <p><img src="images/q4graph2.gif" width="523" height="305"></p>
+        <p><img src="images/q4graph2.gif" width="523" height="305" alt="Bar graph of percent growth over each decade: about 83 percent from 1790 to 1800, 59 percent from 1800 to 1810, 28 percent from 1810 to 1820, 59 percent from 1820 to 1830, and 59 percent from 1830 to 1840"></p>
         <p>Graph 2 
           visually illustrates the change in the rate of population growth by 
           decade. So what can we learn from Graph 2? By itself, it suggests that 
@@ -524,8 +524,9 @@ var theAnalysis2Array = new Array(
 
 <map name="Map">
   <area shape="rect" coords="530,52,750,71" href="../../index.html" alt="Go to Making Sense of Numbers Home Page">
-  <area shape="rect" coords="559,3,750,46" href="http://crossroads.georgetown.edu/vkp/">
+  <area shape="rect" coords="559,3,750,46" href="http://crossroads.georgetown.edu/vkp/" alt="Visible Knowledge Project">
 </map>
 </div>
+<script src="../../js/quiz-status.js"></script>
 </body>
 </html>

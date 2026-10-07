@@ -69,7 +69,7 @@ var theAnalysis1Array = new Array(
   <tr>
     <td>
       <p><br>
-        <b><img src="images/whatquestions.gif" width="478" height="107"></b><br>
+        <b><img src="images/whatquestions.gif" width="478" height="107" alt="What questions can you answer using this historical data?"></b><br>
         <br>
         The following three tables contain data on employees working in cigar 
         and tobacco manufacturing in Tampa, Florida, from 1908-1910. Examine the 
@@ -1280,17 +1280,17 @@ var theAnalysis1Array = new Array(
           <tr> 
             <td align="left" valign="top" height="199"> 
               <p> 
-                <input type="radio" name="question1" onClick="q1(0,1)">
+                <label><input type="radio" name="question1" onClick="q1(0,1)">
                 Women's potential for work in this field, based on previous work 
-                experience, attracted Italian immigrant families to Tampa.<br>
-                <input type="radio" name="question1" onClick="q1(1,2)">
+                experience, attracted Italian immigrant families to Tampa.</label><br>
+                <label><input type="radio" name="question1" onClick="q1(1,2)">
                 More Italian immigrant women in Tampa worked outside the home 
-                than either Cuban or Spanish women.<br>
-                <input type="radio" name="question1" onClick="q1(2,3)">
+                than either Cuban or Spanish women.</label><br>
+                <label><input type="radio" name="question1" onClick="q1(2,3)">
                 Italian immigrant women made up the largest proportion of immigrant 
-                women working in cigar and tobacco manufacturing in Tampa. </p>
+                women working in cigar and tobacco manufacturing in Tampa.</label> </p>
               <p> 
-                <textarea name="textfield" cols="80" rows="10"></textarea>
+                <textarea aria-label="Feedback for question 1" name="textfield" cols="80" rows="10"></textarea>
                 <br>
                 </p>
             </td>
@@ -1300,5 +1300,5 @@ var theAnalysis1Array = new Array(
         
       </td>
   </tr>
-</table></div></html>
+</table></div><script src="../../js/quiz-status.js"></script></html>
 </html>

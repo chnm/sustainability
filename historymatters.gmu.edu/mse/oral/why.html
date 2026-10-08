@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 <head>
 <title>Why Are They Talking?</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
@@ -105,31 +105,33 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
   })();
 </script>
 <!-- End Matomo Code -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../../a11y.css" rel="stylesheet" type="text/css">
 </head>
 
 <body bgcolor="#FFFFFF" text="#000000">
 <table width="516" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td><img src="images/individualtitles/trytitle.gif" width="516" height="82"></td>
+    <td><img src="images/individualtitles/trytitle.gif" width="516" height="82" alt="Try It Yourself!"></td>
   </tr>
   <tr>
-    <td><img src="images/space1.gif" width="20" height="20"></td>
+    <td><img src="images/space1.gif" width="20" height="20" alt=""></td>
   </tr>
   <tr>
     <td> 
-      <div align="center"><img src="images/line.gif" width="473" height="10"></div>
+      <div align="center"><img src="images/line.gif" width="473" height="10" alt=""></div>
     </td>
   </tr>
   <tr>
-    <td><img src="images/space1.gif" width="20" height="20"></td>
+    <td><img src="images/space1.gif" width="20" height="20" alt=""></td>
   </tr>
   <tr>
     <td>
-      <div align="center"><img src="images/interview.gif" width="518" height="84"></div>
+      <div align="center"><img src="images/interview.gif" width="518" height="84" alt="Two interviews with the same person: read the excerpts and take a quiz."></div>
     </td>
   </tr>
   <tr>
-    <td><img src="images/space1.gif" width="20" height="20"></td>
+    <td><img src="images/space1.gif" width="20" height="20" alt=""></td>
   </tr>
   <tr>
     <td> The following 
@@ -221,16 +223,16 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
           </tr>
           <tr> 
             <td align="left" valign="top" width="60%">  
-              <input type="radio" name="question1" value="yes" onClick="q1(0,1)">
-              <span class="text">family record <br>
-              <input type="radio" name="question1" value="yes" onClick="q1(1,2)">
-              documentary film for broad distribution <br>
-              <input type="radio" name="question1" value="yes" onClick="q1(2,3)">
-              labor studies book<br>
-              <input type="radio" name="question1" value="yes" onClick="q1(3,4)">
-              union archive</span></td>
+              <input type="radio" name="question1" value="yes" onClick="q1(0,1)" id="opt1">
+              <span class="text"><label for="opt1">family record</label> <br>
+              <label><input type="radio" name="question1" value="yes" onClick="q1(1,2)">
+              documentary film for broad distribution</label> <br>
+              <label><input type="radio" name="question1" value="yes" onClick="q1(2,3)">
+              labor studies book</label><br>
+              <label><input type="radio" name="question1" value="yes" onClick="q1(3,4)">
+              union archive</label></span></td>
             <td width="50%" align="center" valign="top"> <br>
-              <input type="text" name="feedback1" size="20" onFocus="blur()" value="">
+              <input aria-label="Feedback for question 1" type="text" name="feedback1" size="20" readonly value="">
               </td>
           </tr>
           <tr> 
@@ -245,16 +247,16 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
           </tr>
           <tr> 
             <td width="50%" align="left" valign="top">  
-              <input type="radio" name="question2" value="yes" onClick="q2(0,1)">
-              <span class="text">family record <br>
-              <input type="radio" name="question2" value="yes" onClick="q2(1,2)">
-              documentary film for broad distribution <br>
-              <input type="radio" name="question2" value="yes" onClick="q2(2,3)">
-              labor studies book<br>
-              <input type="radio" name="question2" value="yes" onClick="q2(3,4)">
-              union archive</span></td>
+              <input type="radio" name="question2" value="yes" onClick="q2(0,1)" id="opt2">
+              <span class="text"><label for="opt2">family record</label> <br>
+              <label><input type="radio" name="question2" value="yes" onClick="q2(1,2)">
+              documentary film for broad distribution</label> <br>
+              <label><input type="radio" name="question2" value="yes" onClick="q2(2,3)">
+              labor studies book</label><br>
+              <label><input type="radio" name="question2" value="yes" onClick="q2(3,4)">
+              union archive</label></span></td>
             <td width="50%" align="center" valign="top"> <br>
-              <input type="text" name="feedback2" size="20" onFocus="blur()" value="">
+              <input aria-label="Feedback for question 2" type="text" name="feedback2" size="20" readonly value="">
               </td>
           </tr>
         </table>
@@ -264,5 +266,5 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
       <p>Once you 
         have both answers right, click for an <a href="javascript:;"
 onClick="MM_openBrWindow('explain.html','','scrollbars=yes,width=350,height=280')">explanation</a>.</p>
-          </table></div></html>
+          </table></div><script src="../../js/quiz-status.js"></script></html>
 </html>

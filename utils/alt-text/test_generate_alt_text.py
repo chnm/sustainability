@@ -118,4 +118,22 @@ with tempfile.TemporaryDirectory() as tmp:
     assert gat.previous_alts(site / "nope.jsonl", "s", "m") == {}
     gat.patch(entries[0], "A cast.")
     assert page.read_text().startswith('<img src="../files/x.png" alt="A cast.">')
+with tempfile.TemporaryDirectory() as tmp:   # old crawls: .htm, Latin-1 bytes, unquoted src, decorative alt=""
+    site = Path(tmp)
+    (site / "x.gif").write_bytes(b"GIF89a")
+    old = site / "p.htm"
+    old.write_bytes('<p>caf\xe9</p><img src=x.gif border=0><img src="x.gif" alt="">'.encode("latin-1"))
+    assert [e["img_ref"] for e in gat.find_weak(site, strict=False)] == ["x.gif", "x.gif"]
+    entries = gat.find_weak(site, strict=False, keep_empty=True)
+    assert [e["img_ref"] for e in entries] == ["x.gif"]
+    gat.patch(entries[0], "Caf\xe9 \u2014 sign.")
+    assert old.read_bytes() == '<p>caf\xe9</p><img src=x.gif border=0 alt="Caf\xe9 &#8212; sign."><img src="x.gif" alt="">'.encode("latin-1")
+assert gat.NOT_A_DESCRIPTION_RE.search("The download needs your approval, please approve the curl command.")
+assert gat.NOT_A_DESCRIPTION_RE.search("This file isn't actually an image, it's a malformed archive artifact.")
+assert not gat.NOT_A_DESCRIPTION_RE.search("A man blowing cigar smoke that curls upward.")
+with tempfile.TemporaryDirectory() as tmp:
+    page = Path(tmp) / 'logo.gif".html'
+    page.write_text("\n <!DOCTYPE HTML PUBLIC><html></html>")
+    (Path(tmp) / "x.gif").write_bytes(b"GIF89a")
+    assert gat.is_html(page) and not gat.is_html(Path(tmp) / "x.gif")
 print("ok")

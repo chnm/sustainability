@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 <head>
 <title>Does Scale Make a Difference?</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
@@ -118,22 +118,24 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
   })();
 </script>
 <!-- End Matomo Code -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../../a11y.css" rel="stylesheet" type="text/css">
 <body bgcolor="#FFFFFF" text="#000000" link="#0066FF" vlink="#FF0000">
 <table width="520" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td> 
-      <p class="bodytext"><img src="images/scale.gif" width="483" height="88"></p>
+      <p class="bodytext"><img src="images/scale.gif" width="483" height="88" alt="How do these maps of the D-Day invasion illustrate the concept of scale?"></p>
       <form name="theForm" method="post" action="">
         <p class="bodytext">MAP A: Is this a 
-          <input type="radio" name="question1" value="yes" onClick="q1(0,1)">
-          large scale map OR a 
-          <input type="radio" name="question1" value="yes" onClick="q1(1,2)">
-          <span class="bodytext">small scale map? 
-          <input type="text" name="feedback1" size="17">
+          <label><input type="radio" name="question1" value="yes" onClick="q1(0,1)">
+          large scale map</label> OR a 
+          <input type="radio" name="question1" value="yes" onClick="q1(1,2)" id="opt1">
+          <span class="bodytext"><label for="opt1">small scale map?</label> 
+          <input aria-label="Feedback for question 1" type="text" name="feedback1" size="17">
           </span></p>
         <table width="332" border="0" cellspacing="5" cellpadding="0">
           <tr> 
-            <td height="82"><a href="javascript:;"><img src="images/normandysmallthumb.jpg" width="350" height="248" border="0" onClick="MM_openBrWindow('normandysmall.html','','scrollbars=yes,resizable=yes,width=740,height=550')"></a></td>
+            <td height="82"><a href="javascript:;" onClick="MM_openBrWindow('normandysmall.html','','scrollbars=yes,resizable=yes,width=740,height=550')"><img src="images/normandysmallthumb.jpg" width="350" height="248" border="0" alt="Map A: Invasion of Normandy, June 6, 1944, showing the beach landings, drop zones, and divisions on the Normandy coast (enlarge)"></a></td>
           </tr>
           <tr> 
             <td class="captiontext"> 
@@ -142,15 +144,15 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
           </tr>
         </table>
         <p class="bodytext">MAP B: Is this a 
-          <input type="radio" name="question2" value="yes" onClick="q2(0,1)">
-          large scale map OR a 
-          <input type="radio" name="question2" value="yes" onClick="q2(1,2)">
-          small scale map? 
-          <input type="text" name="feedback2" size="17">
+          <label><input type="radio" name="question2" value="yes" onClick="q2(0,1)">
+          large scale map</label> OR a 
+          <label><input type="radio" name="question2" value="yes" onClick="q2(1,2)">
+          small scale map?</label> 
+          <input aria-label="Feedback for question 2" type="text" name="feedback2" size="17">
         </p>
         <table width="343" border="0" cellspacing="5" cellpadding="0">
           <tr> 
-            <td><a href="javascript:;"><img src="images/normandylargethumb.jpg" width="350" height="195" onClick="MM_openBrWindow('normandylarge.html','','scrollbars=yes,resizable=yes,width=740,height=400')" border="0"></a></td>
+            <td><a href="javascript:;" onClick="MM_openBrWindow('normandylarge.html','','scrollbars=yes,resizable=yes,width=740,height=400')"><img src="images/normandylargethumb.jpg" width="350" height="195" border="0" alt="Map B: Invasion of Normandy, June 6, 1944, showing the routes of U.S., British/Canadian, and airborne forces from southern England across the Channel (enlarge)"></a></td>
           </tr>
           <tr> 
             <td> 
@@ -163,54 +165,54 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
         <table width="187" border="0" cellspacing="5" cellpadding="0">
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(0,1)">
+              <input type="radio" name="question3" value="yes" onClick="q3(0,1)" id="opt2">
             </td>
-            <td class="bodytext" width="148">railroads</td>
+            <td class="bodytext" width="148"><label for="opt2">railroads</label></td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(1,2)">
+              <input type="radio" name="question3" value="yes" onClick="q3(1,2)" id="opt3">
             </td>
-            <td class="bodytext" width="148">cities</td>
+            <td class="bodytext" width="148"><label for="opt3">cities</label></td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(2,3)">
+              <input type="radio" name="question3" value="yes" onClick="q3(2,3)" id="opt4">
             </td>
-            <td class="bodytext" width="148">beach landings</td>
+            <td class="bodytext" width="148"><label for="opt4">beach landings</label></td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(3,4)">
+              <input type="radio" name="question3" value="yes" onClick="q3(3,4)" id="opt5">
             </td>
             <td class="bodytext" width="148"> 
-              <p>drop zone</p>
+              <p><label for="opt5">drop zone</label></p>
             </td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(4,5)">
+              <input type="radio" name="question3" value="yes" onClick="q3(4,5)" id="opt6">
             </td>
-            <td class="bodytext" width="148">elevations</td>
+            <td class="bodytext" width="148"><label for="opt6">elevations</label></td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(5,6)">
+              <input type="radio" name="question3" value="yes" onClick="q3(5,6)" id="opt7">
             </td>
-            <td class="bodytext" width="148">troop nationalities</td>
+            <td class="bodytext" width="148"><label for="opt7">troop nationalities</label></td>
           </tr>
           <tr> 
             <td width="24"> 
-              <input type="radio" name="question3" value="yes" onClick="q3(6,7)">
+              <input type="radio" name="question3" value="yes" onClick="q3(6,7)" id="opt8">
             </td>
-            <td class="bodytext" width="148">British departure points</td>
+            <td class="bodytext" width="148"><label for="opt8">British departure points</label></td>
           </tr>
           <tr> 
             <td colspan="2">&nbsp; </td>
           </tr>
           <tr> 
             <td colspan="2"> 
-              <input type="text" name="feedback3">
+              <input aria-label="Feedback for question 3" type="text" name="feedback3">
             </td>
           </tr>
         </table>
@@ -218,5 +220,5 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
       <p>&nbsp;</p>
       </td>
   </tr>
-</table></div></html>
+</table></div><script src="../../js/quiz-status.js"></script></html>
 </html>

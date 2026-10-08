@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Talking History Listserv</title>
     <link href="../style.css" rel="stylesheet" type="text/css" media="screen"> 
@@ -18,8 +18,11 @@
   })();
 </script>
 <!-- End Matomo Code -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../../a11y.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<a class="skip-link" href="#content">Skip to main content</a>
 <div class="archive-notice" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; display: flex; align-items: center; background-color: #f8f8f8; padding: 12px 15px; border-bottom: 1px solid #ddd; line-height: 1.5; position: relative; z-index: 9999; margin-bottom: 10px;">
   <a href="https://rrchnm.org" target="_blank" rel="noopener"><img src="../../rrchnm_logo.png" alt="RRCHNM Logo" style="height: 30px; margin-right: 15px !important;"/></a>
   <div>This is an archived copy of <em>History Matters</em>, provided by the <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig Center for History and New Media</a>. To explore this content in a new interface, visit <a href="https://www.whobuiltamerica.org/" target="_blank" rel="noopener">Who Built America?</a>.</div>
@@ -47,11 +50,12 @@
     <div id="search_boxes">
   <form id="hm_search" onsubmit="window.location.href='../../search.html?q='+encodeURIComponent(this.q.value); return false;">
     <img src="../../images/search_icon.jpg" alt="search:" style="vertical-align:middle;">
-    <input name="q" type="text" size="12" maxlength="255" style="border: 1px solid #e4b1b4; width: 85px; vertical-align:middle;">
+    <input name="q" type="text" aria-label="Search this site" size="12" maxlength="255" style="border: 1px solid #e4b1b4; width: 85px; vertical-align:middle;">
     <button type="submit" style="background:none;border:none;cursor:pointer;padding:0;vertical-align:middle;"><img src="../../images/go_button.jpg" alt="go!" width="30" height="13" style="vertical-align:middle;"></button><br>
     <a href="../../search.html" style="font-size:10px; color:#3a4592;">search this site</a>
   </form>
   </div>
+<div id="content" tabindex="-1"></div>
     
     <br class="cleared"> 
 
@@ -101,8 +105,7 @@ Content-Transfer-Encoding: quoted-printable
     <title>Executive Guild Membership
  ApplicationResponse-O-Matic Form</title>
  </head>
- <body text=3D"#808080" bgcolor=3D"#FFFF99"
- link=3D"#800040" vlink=3D"#FF0000" alink=3D"#8080C0">
+ <body>
  <p>
  <font color=3D"#000000">Dear Candidate,=A0<br>
  <br>
@@ -230,8 +233,7 @@ br>
  color=3D"#000000"><font size=3D-1>Your
  Name</font></font></font></b></td>
 
- <td ALIGN=3DLEFT WIDTH=3D"300"><input type=3D"text"
- value size=3D"50" maxlength=3D"250" name=3D"Name"></td>
+ <td ALIGN=3DLEFT WIDTH=3D"300">__________</td>
  </tr>
 
  <tr>
@@ -240,9 +242,7 @@ br>
  color=3D"#000000"><font size=3D-1>Your
  Company</font></font></font></b></td>
 
- <td ALIGN=3DLEFT WIDTH=3D"300"><input type=3D"text"
- value size=3D"50" maxlength=3D"250"
- name=3D"Company"></td>
+ <td ALIGN=3DLEFT WIDTH=3D"300">__________</td>
  </tr>
 
  <tr>
@@ -251,9 +251,7 @@ br>
  color=3D"#000000"><font size=3D-
  1>Title</font></font></font></b></td>
 
- <td ALIGN=3DLEFT WIDTH=3D"300"><input type=3D"text"
- value size=3D"50" maxlength=3D"250"
- name=3D"Title"></td>
+ <td ALIGN=3DLEFT WIDTH=3D"300">__________</td>
  </tr>
 
  <tr>
@@ -262,9 +260,7 @@ br>
  color=3D"#000000"><font size=3D-
  1>Address</font></font></font></b></td>
 
- <td ALIGN=3DLEFT WIDTH=3D"300"><input type=3D"text"
- value size=3D"50" maxlength=3D"250"
- name=3D"Address"></td>
+ <td ALIGN=3DLEFT WIDTH=3D"300">__________</td>
  </tr>
 
  <tr>
@@ -273,8 +269,7 @@ br>
  color=3D"#000000"><font size=3D-
  1>City</font></font></font></b></td>
 
- <td ALIGN=3DLEFT WIDTH=3D"300"><input type=3D"text"
- value size=3D"50" maxlength=3D"250" name=3D"City"></td>
+ <td ALIGN=3DLEFT WIDTH=3D"300">__________</td>
  </tr>
 
  <tr>
@@ -283,8 +278,7 @@ br>
  color=3D"#000000"><font size=3D-1>State
  or Province</font></font></font></b></td>
 
- <td ALIGN=3DLEFT WIDTH=3D"300"><input type=3D"text"
- value size=3D"12" maxlength=3D"50" name=3D"State"></td>
+ <td ALIGN=3DLEFT WIDTH=3D"300">__________</td>
  </tr>
 
  <tr>
@@ -293,10 +287,7 @@ br>
  color=3D"#000000"><font size=3D-
  1>Country</font></font></font></b></td>
 
- <td ALIGN=3DLEFT WIDTH=3D"300"><select
- NAME=3D"Country" Size=3D"1"><option SELECTED><font
- color=3D"#000000">USA<option
- SELECTED>Canada</font></select></td>
+ <td ALIGN=3DLEFT WIDTH=3D"300">USA / Canada</td>
  </tr>
 
  <tr>
@@ -305,9 +296,7 @@ br>
  color=3D"#000000"><font size=3D-1>ZIP/Postal
  Code</font></font></font></b></td>
 
- <td ALIGN=3DLEFT VALIGN=3DCENTER WIDTH=3D"300"><input
- type=3D"text" value size=3D"12" maxlength=3D"50"
- name=3D"Zip"></td>
+ <td ALIGN=3DLEFT VALIGN=3DCENTER WIDTH=3D"300">__________</td>
  </tr>
 
  <tr>
@@ -316,9 +305,7 @@ br>
  color=3D"#000000"><font size=3D-1>Day
  Time Telephone</font></font></font></b></td>
 
- <td ALIGN=3DLEFT WIDTH=3D"300"><input type=3D"text"
- value size=3D"22" maxlength=3D"50"
- name=3D"busphone"></td>
+ <td ALIGN=3DLEFT WIDTH=3D"300">__________</td>
  </tr>
 
  <tr>
@@ -329,8 +316,7 @@ br>
  Phone</font></font></font></b></div>
  </td>
 
- <td><input type=3D"text" value size=3D"22"
- maxlength=3D"50" name=3D"homephone"><b><font
+ <td>__________<b><font
  color=3D"#000000"><font size=3D-2>(Not
  To Be Published)</font></font></b></td>
  </tr>
@@ -343,8 +329,7 @@ br>
  1>Email</font></font></font></b></div>
  </td>
 
- <td><input type=3D"text" value size=3D"50"
- maxlength=3D"100" name=3D"Email"></td>
+ <td>__________</td>
  </tr>
 
  <tr>
@@ -373,9 +358,7 @@ br>
  Business</font></font></font></b></td>
 
  <td>
- <div align=3Dright><input type=3D"text" value
- size=3D"50" maxlength=3D"200"
- name=3D"business"></div>
+ <div align=3Dright>__________</div>
  <font face=3D"arial,helvetica"><font color=3D"#000000"><font
  size=3D-1>(Financial
  Svcs, Banking, Computer Hardware, Software, Professional Svcs,
@@ -391,9 +374,7 @@ br>
  of Organization</font></font></font></b></td>
 
  <td>
- <div align=3Dright><input type=3D"text" value size=3D"50" maxlength=3D"25=
-0"
- name=3D"Orgtype"></div>
+ <div align=3Dright>__________</div>
  <font face=3D"arial,helvetica"><font color=3D"#000000"><font size=3D-1>(M=
 fg,
  Dist/Wholesaler, Retailer, Law Firm,</font></font></font>
@@ -415,9 +396,7 @@ fg,
  </td>
 
  <td>
- <div align=3Dright><input type=3D"text" value size=3D"50" maxlength=3D"25=
-0"
- name=3D"expertise"></div>
+ <div align=3Dright>__________</div>
  <font face=3D"arial,helvetica"><font color=3D"#000000"><font
  size=3D-1>(Corp=2EMgmt,
  Marketing, Civil Engineering,</font></font></font>
@@ -436,9 +415,7 @@ fg,
  Product Line</font></font></font></b></td>
 
  <td>
- <div align=3Dright><input type=3D"text" value size=3D"50" maxlength=3D"25=
-0"
- name=3D"product"></div>
+ <div align=3Dright>__________</div>
  <font face=3D"arial,helvetica"><font color=3D"#000000"><font
  size=3D-1>(Integrated
  Circuits, Commercial Aircraft, Adhesives, Cosmetics, Plastic Components,
@@ -448,7 +425,7 @@ fg,
  </table></center>
 
  <center>
- <p><input NAME=3D"submit" TYPE=3D"submit" VALUE=3D" Submit By E-Mail "><i=
+ <p>[Submit By E-Mail]<i=
 nput
  NAME=3D"reset" TYPE=3D"reset" VALUE=3D" Clear Form "></form>
  <br><b><font color=3D"#000000"><font size=3D-1>Note: Submitting this form=

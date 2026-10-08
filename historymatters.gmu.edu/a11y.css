@@ -13,16 +13,18 @@
 /* 2.5.8: the quizzes' radio buttons are 13px by default */
 input[type="radio"], input[type="checkbox"] { width: 24px; height: 24px; margin: 2px 6px 2px 0; vertical-align: middle; }
 
-/* 1.4.10: the fixed-width layouts linearize on narrow screens. Data tables (with <th>) keep their grid and scroll. */
+/* 1.4.10: the fixed-width layouts linearize on narrow screens. Data tables (header cells in their own rows) keep their grid and scroll. */
 @media (max-width: 800px) {
-  body { margin: 8px; overflow-wrap: break-word; }
-  #container, #header, #sub_header, #search_boxes, #content_area, div[id], div[class] { width: auto !important; max-width: 100%; float: none !important; position: static !important; margin-left: 0 !important; margin-right: 0 !important; }
-  table:not(:has(th)), table:not(:has(th)) > tbody, table:not(:has(th)) > * > tr, table:not(:has(th)) > * > tr > td { display: block; width: auto !important; height: auto !important; }
-  table:has(th) { display: block; overflow-x: auto; }
+  body { margin: 8px; overflow-wrap: anywhere; }
+  nobr { white-space: normal; }
+  #container, #header, #sub_header, #search_boxes, #content_area, div[id], div[class], div[style*="width"] { width: auto !important; max-width: 100%; float: none !important; position: static !important; margin-left: 0 !important; margin-right: 0 !important; }
+  table:not(:has(> * > tr > th)), table:not(:has(> * > tr > th)) > tbody, table:not(:has(> * > tr > th)) > * > tr, table:not(:has(> * > tr > th)) > * > tr > td { display: block; width: auto !important; height: auto !important; }
+  table:has(> * > tr > th) { display: block; overflow-x: auto; }
   img, video, iframe, embed, object, textarea, input, select { max-width: 100%; }
-  img { height: auto; }
+  img { height: auto; margin-left: 0 !important; margin-right: 0 !important; }
   img[usemap] { max-width: none; }
   :has(> img[usemap]), :has(> a > img[usemap]) { overflow-x: auto; }
-  pre { white-space: pre-wrap; }
+  pre { white-space: break-spaces; }
+  blockquote { margin-left: 8px; margin-right: 0; }
   .archive-notice { flex-wrap: wrap; }
 }

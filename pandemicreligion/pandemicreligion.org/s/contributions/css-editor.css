@@ -86,7 +86,7 @@ blockquote, blockquote p { color: #595959; }
 .blocks h3 { color: #333; }
 /* 2.5.8: room between stacked links */
 #content li { line-height: 1.7; }
-.attachments h3 a { display: inline-block; min-height: 24px; }
+.attachments h3 a, .property .values > a { display: inline-block; min-height: 24px; }
 /* 1.4.10: nothing wider than a 320px screen */
 select, input, textarea, img, video, iframe { max-width: 100%; }
 #content { overflow-wrap: anywhere; }

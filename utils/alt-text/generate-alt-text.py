@@ -63,7 +63,8 @@ OMEKA_DERIVATIVE_RE = re.compile(r"/files/(?:original|fullsize|large|medium|thum
 # the model talking to us instead of describing ("I'm not able to view the image... re-upload")
 NOT_A_DESCRIPTION_RE = re.compile(
     r"not able to (?:view|see|access|open)|(?:can't|cannot|unable to) (?:view|see|access|open)"
-    r"|re-?upload|did ?n[o']?t come through|came through instead", re.I)
+    r"|re-?upload|did ?n[o']?t come through|came through instead"
+    r"|approv|(?:isn't|is not|not) actually an image|no actual image", re.I)
 API_IMAGE_TYPES = {"image/jpeg", "image/png", "image/gif", "image/webp"}  # what vision APIs accept
 
 PROMPT_TEMPLATE = (
@@ -234,6 +235,8 @@ def build_prompt(image_phrase: str, existing: str) -> str:
 
 def generate_alt_text(image_path: Path, existing: str, args) -> str:
     """Fresh alt text, or one extra sentence if alt exists, from the chosen backend."""
+    if is_html(image_path):  # crawls save error pages under image names (x.gif".html)
+        raise ImageFailed(f"{image_path.name} is an HTML page, not an image; add alt by hand")
     if args.backend != "claude" and image_mime(image_path) not in API_IMAGE_TYPES:
         raise ImageFailed(f"{image_path.suffix} is not jpeg/png/gif/webp; use --backend claude or add alt by hand")
     if args.backend == "openai":
@@ -275,6 +278,12 @@ def image_mime(path: Path) -> str:
     if head[:4] == b"RIFF" and head[8:12] == b"WEBP":
         return "image/webp"
     return mimetypes.guess_type(path.name)[0] or "image/jpeg"
+
+
+def is_html(path: Path) -> bool:
+    with path.open("rb") as f:
+        head = f.read(512).lstrip().lower()
+    return head.startswith((b"<!doctype html", b"<html", b"<head", b"<body"))
 
 
 def b64(path: Path) -> str:

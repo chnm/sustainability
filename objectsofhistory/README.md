@@ -30,7 +30,7 @@ The website includes several main sections:
 - **Guide** - Instructions for doing history with objects
 - **Objects** - Detailed exploration of the six featured artifacts
 - **Forum** - Expert discussions about the objects
-- **Activity** - Interactive virtual exhibit creation
+- **Activity** - Interactive virtual exhibit creation (removed in 2026; its backend no longer exists and its pages now show a notice)
 - **Teachers** - Educational materials and resources
 - **Search** - Site-wide search functionality
 
@@ -43,6 +43,19 @@ This is a static HTML website built circa 2006 but converted to a flattened site
 - Interactive features including drag-and-drop functionality
 - Video tutorials for site usage
 - Analytics tracking (Matomo and WebTrends)
+
+## Repairs (2026)
+
+- **Media:** QuickTime `<object>`/`<embed>` players were replaced with native `<video>`/`<audio>`. Most media files live only on the server under `content/vault/`. The ones browsers can't decode (Sorenson SVQ3 and MPEG-4 Part 2) were transcoded to H.264 and committed as `content/vault/<name>-h264.mp4`. Audio-only `.mov` files were remuxed to `.m4a`.
+- **Item popups:** GreyBox was replaced with a native `<dialog>` (`content/public/j/itemdialog.js`). Links marked `data-dialog` open `objects/show/` pages in it.
+- **Accessibility:** a WCAG 2.2 AA pass covered contrast, page titles, alt text, the skip link and landmarks (see chnm/sustainability#116).
+
+### Outstanding
+
+- Video has no captions (WCAG 1.2.2).
+- The fixed 780px layout doesn't reflow at narrow widths (WCAG 1.4.10).
+- `content/vault/deskfinal_1e2b642090.mp4` on the server is a 48-byte stub; the desk Virtual Object plays a transcode of its Theora fallback instead.
+- The teacher lesson plans still refer students to the removed Activity.
 
 ## Educational Features
 

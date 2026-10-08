@@ -1,1 +1,4 @@
 a:link {  text-decoration: none}
+
+/* 1.4.1: links inside running text need an underline to stand apart from it (chnm/sustainability#120) */
+p a:link, p a:visited { text-decoration: underline }

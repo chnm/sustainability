@@ -3,7 +3,7 @@
 #forum #primary {float:left; width:350px;}
 #forum #secondary {float:right; width:350px;}
 #forum.signup #primary {width:auto;}
-#preparation { background:#fff09e; padding:5px 10px; color:#c60;}
+#preparation { background:#fff09e; padding:5px 10px; color:#a84c0e;}
 
 #forum #content h2 {margin-left:20px;}
 
@@ -49,5 +49,5 @@ p.privacy {text-align: right; clear:both;}
 #forum-archive h2 {margin-left:0 !important; padding-left:0 !important;}
 #forum-archive-table { width:740px;text-align:left;}
 th, td {padding:0.5em 0; }
-th {border-bottom:1px solid #c60; color:#c60;}
-td {border-bottom: 1px dotted #c60;}
+th {border-bottom:1px solid #a84c0e; color:#a84c0e;}
+td {border-bottom: 1px dotted #a84c0e;}

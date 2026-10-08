@@ -2,7 +2,7 @@
 
 #itempaginate, #itemcart, #itemlist, #tourmeta {display:none;}
 
-#trashcan { display:block; background:#c60; border:1px solid #c30; color:#fff;height:70px; width:720px; clear:both;padding:5px; margin:0 5px 5px 0; }
+#trashcan { display:block; background:#a84c0e; border:1px solid #c30; color:#fff;height:70px; width:720px; clear:both;padding:5px; margin:0 5px 5px 0; }
 #tour_add_submit {float:right; padding:10px; background:#37577e; color:#fff; text-decoration:none; margin-bottom:20px;margin-right:10px;}
 #drop-instructions {margin:1em 0; padding:1em; background:#fff09e;}
 #email-tour {clear:both; margin-right:20px;display:block; width:730px;}

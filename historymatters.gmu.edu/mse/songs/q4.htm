@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<html lang="en">
 <head>
 <title>What does the song mean?</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
@@ -51,6 +51,8 @@ function MM_showHideLayers() { //v6.0
 }
 //-->
 </script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../../a11y.css" rel="stylesheet" type="text/css">
 </head>
 <body> 
 
@@ -112,21 +114,22 @@ function MM_showHideLayers() { //v6.0
     the contexts in which the song was found?</p>
   <p class="text">Which of the following people sang &#8220;Silver Threads Among 
     the Gold&#8221;?</p>
+  <p> <span class="text"> 
+    <label><input type="radio" name="question1" value="yes" onClick="q1(0,1);MM_showHideLayers('Layer2','','hide')">
+    Hillbilly performer &#8220;Fiddlin&#8221; John Carson, circa 1923</label> <br>
+    <label><input type="radio" name="question1" value="yes" onClick="q1(1,2);MM_showHideLayers('Layer2','','show')">
+    Labor union organizer Joe Hill, circa 1913</label> <br>
+    <label><input type="radio" name="question1" value="yes" onClick="q1(2,3);MM_showHideLayers('Layer2','','hide')">
+    Rockabilly musician Jerry Lee Lewis, circa 1957</label> <br>
+    <label><input type="radio" name="question1" value="yes" onClick="q1(3,4);MM_showHideLayers('Layer2','','hide')">
+    Famed Indian soprano Goura Jan in Calcutta, circa 1902</label> </span></p>
   <div id="Layer2" style="position:absolute; left:23px; top:1430px; width:384px; height:16px; z-index:2; visibility: hidden;" class="text">click 
     here to <a href="#!" onClick="MM_openBrWindow('toiler.htm','','scrollbars=yes,resizable=yes,width=300,height=400')">read 
     the lyrics</a> to &#8220;The Old Toiler&#146;s Message&#8221;</div>
   <p> <span class="text"> 
-    <input type="radio" name="question1" value="yes" onClick="q1(0,1);MM_showHideLayers('Layer2','','hide')">
-    Hillbilly performer &#8220;Fiddlin&#8221; John Carson, circa 1923 <br>
-    <input type="radio" name="question1" value="yes" onClick="q1(1,2);MM_showHideLayers('Layer2','','show')">
-    Labor union organizer Joe Hill, circa 1913 <br>
-    <input type="radio" name="question1" value="yes" onClick="q1(2,3);MM_showHideLayers('Layer2','','hide')">
-    Rockabilly musician Jerry Lee Lewis, circa 1957 <br>
-    <input type="radio" name="question1" value="yes" onClick="q1(3,4);MM_showHideLayers('Layer2','','hide')">
-    Famed Indian soprano Goura Jan in Calcutta, circa 1902 </span></p>
-  <p> <span class="text"> 
-    <textarea name="feedback1" cols="65" rows="25" id="feedback1"></textarea>
+    <textarea aria-label="Feedback for question 1" name="feedback1" cols="65" rows="25" id="feedback1"></textarea>
     </span></p>
 </form>
+<script src="../../js/quiz-status.js"></script>
 </body>
 </html>

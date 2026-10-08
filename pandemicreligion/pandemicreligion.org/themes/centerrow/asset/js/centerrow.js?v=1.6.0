@@ -23,6 +23,12 @@
                 enableDrag: false,
                 currentPagerPosition:'middle',
                 onSliderLoad: function(el) {
+                    // lightSlider builds its thumbnail pager without alt text; reuse each slide's (chnm/sustainability#122)
+                    var slides = el.children(':not(.clone)');
+                    el.closest('.lSSlideOuter').find('.lSGallery li').each(function(i) {
+                        var alt = slides.eq(i).find('img').attr('alt');
+                        $(this).find('img').attr('alt', alt ? 'Show: ' + alt : 'Show item ' + (i + 1));
+                    });
                     el.lightGallery({
                         selector: '#itemfiles .media, .item-with-metadata .lightgallery .media',
                         download: false,

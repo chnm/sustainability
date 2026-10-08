@@ -92,3 +92,19 @@ float:left
 a {
 color: rgb(66, 121, 188);
 }
+
+/* Accessibility fixes (chnm/sustainability#122) */
+/* 1.4.1: links in running text need more than color */
+#content p a, #content li a, #content dd a, #content blockquote a, #content .value a, .breadcrumbs a { text-decoration: underline; }
+/* 1.4.3 */
+blockquote, blockquote p { color: #595959; }
+.blocks h3 { color: #333; }
+/* 2.5.8: room between stacked links */
+#content li { line-height: 1.7; }
+.attachments h3 a, .property .values > a { display: inline-block; min-height: 24px; }
+/* 1.4.10: nothing wider than a 320px screen */
+select, input, textarea, img, video, iframe { max-width: 100%; }
+#content { overflow-wrap: anywhere; }
+.browse-controls { flex-wrap: wrap; }
+.browse-controls > * { min-width: 0; max-width: 100%; }
+@media (max-width: 480px) { .container { grid-template-columns: 1fr; padding: 0; } }

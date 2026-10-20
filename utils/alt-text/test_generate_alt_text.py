@@ -69,6 +69,10 @@ with tempfile.TemporaryDirectory() as tmp:
     assert gat.resolve_image_path(site, page, "../files/x.png") == site / "files" / "x.png"
     assert gat.resolve_image_path(site, page, "/files/x.png?v=2") == site / "files" / "x.png"
     assert gat.resolve_image_path(site, page, "/files/missing.png") is None
+    assert gat.resolve_image_path(site, page, "http://farm7.staticflickr.com/a_m.jpg") is None   # no fetching without --base-url
+    assert gat.resolve_image_path(site, page, "http://farm7.staticflickr.com/a_m.jpg", "https://x.org") == "http://farm7.staticflickr.com/a_m.jpg"
+    assert gat.largest_derivative("https://x.org/archive/square_thumbnails/h.jpg") == "https://x.org/archive/fullsize/h.jpg"
+    assert gat.image_key("/archive/fullsize/h.jpg") == gat.image_key("/archive/square_thumbnails/h.jpg") != gat.image_key("/files/fullsize/h.jpg")
     assert gat.resolve_image_path(site, page, "'+d.thumb+'") is None
     assert gat.resolve_image_path(site, page, "/files/missing.png", "https://x.org/") == "https://x.org/files/missing.png"
     assert gat.resolve_image_path(site, page, "../files/missing.png", "https://x.org") == "https://x.org/files/missing.png"

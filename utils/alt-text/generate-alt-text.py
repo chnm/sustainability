@@ -60,7 +60,7 @@ SKIP_DIRS = {"node_modules", ".git"}
 MIN_ALT_LEN = 40
 # Omeka serves one upload as several derivatives under the same hash name
 # (files/large/abc.jpg, files/square/abc.jpg, files/original/abc.png)
-OMEKA_DERIVATIVE_RE = re.compile(r"/files/(?:original|fullsize|large|medium|thumbnails|square_thumbnails|square)/([^/]+?)\.\w+$")
+OMEKA_DERIVATIVE_RE = re.compile(r"/(files|archive)/(?:original|fullsize|large|medium|thumbnails|square_thumbnails|square)/([^/]+?)\.\w+$")  # occupyarchive uses /archive/
 # the model talking to us instead of describing ("I'm not able to view the image... re-upload")
 NOT_A_DESCRIPTION_RE = re.compile(
     r"not able to (?:view|see|access|open)|(?:can't|cannot|unable to) (?:view|see|access|open)"
@@ -152,6 +152,8 @@ def find_weak(site: Path, strict: bool, keep_empty: bool = False) -> list[dict]:
 def resolve_image_path(site: Path, src_file: Path, img_ref: str, base_url: str = "") -> Path | str | None:
     """Map a reference to a file on disk (site-root absolute, file-relative, or Hugo
     /static). If it is not on disk and base_url is set, return the URL to fetch instead."""
+    if img_ref.startswith(("http://", "https://")) and base_url:
+        return img_ref  # absolute links (the site's own or Flickr); fetch them only when fetching is on
     if not img_ref or "{{" in img_ref or "'+" in img_ref or img_ref.startswith(("http://", "https://", "data:")):
         return None
     ref = img_ref.split("?")[0].split("#")[0]
@@ -196,20 +198,20 @@ def previous_alts(log: Path, site: str, model: str) -> dict[tuple[str, str], str
 
 def image_key(img: Path | str) -> str:
     """Same key for every Omeka derivative of one upload, so it is described once."""
-    return OMEKA_DERIVATIVE_RE.sub(r"/files/\1", str(img))
+    return OMEKA_DERIVATIVE_RE.sub(r"/\1/\2", str(img))
 
 
 def largest_derivative(img: Path | str) -> str:
     """Omeka's square/medium thumbnails are too small to read a scanned page; use the large copy."""
-    big = re.sub(r"/files/(?:medium|square)/", "/files/large/", str(img))                        # Omeka S
-    return re.sub(r"/files/(?:thumbnails|square_thumbnails)/", "/files/fullsize/", big)          # Omeka Classic
+    big = re.sub(r"/(files|archive)/(?:medium|square)/", r"/\1/large/", str(img))                     # Omeka S
+    return re.sub(r"/(files|archive)/(?:thumbnails|square_thumbnails)/", r"/\1/fullsize/", big)       # Omeka Classic
 
 
 def load(img: Path | str, cache_dir: Path) -> tuple[Path, str]:
     """Local file to describe for img, preferring its largest derivative; returns (file, what it came from)."""
     big = largest_derivative(img)
     if not isinstance(img, str):  # crawls often kept original/ but not fullsize/
-        for cand in (big, big.replace("/files/fullsize/", "/files/original/")):
+        for cand in (big, re.sub(r"/(files|archive)/fullsize/", r"/\1/original/", big)):
             if Path(cand).is_file():
                 return Path(cand), cand
         return img, str(img)

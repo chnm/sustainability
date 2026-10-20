@@ -235,9 +235,9 @@ def fetch(url: str, cache_dir: Path) -> Path:
     return dest
 
 
-def build_prompt(image_phrase: str, existing: str) -> str:
+def build_prompt(image_phrase: str, existing: str, context: str = "") -> str:
     template = EXTEND_TEMPLATE if existing else PROMPT_TEMPLATE
-    return template.format(image=image_phrase, existing=existing)
+    return template.format(image=f"{image_phrase} {context}".strip(), existing=existing)
 
 
 def generate_alt_text(image_path: Path, existing: str, args) -> str:
@@ -247,12 +247,12 @@ def generate_alt_text(image_path: Path, existing: str, args) -> str:
     if args.backend != "claude" and image_mime(image_path) not in API_IMAGE_TYPES:
         raise ImageFailed(f"{image_path.suffix} is not jpeg/png/gif/webp; use --backend claude or add alt by hand")
     if args.backend == "openai":
-        prompt = build_prompt("Look at the attached image.", existing)
+        prompt = build_prompt("Look at the attached image.", existing, args.context)
         text = call_openai(image_path, prompt, args.model, args.api_url, args.api_key)
     elif args.backend == "anthropic":
-        text = call_anthropic(image_path, build_prompt("Look at the attached image.", existing), args.model)
+        text = call_anthropic(image_path, build_prompt("Look at the attached image.", existing, args.context), args.model)
     else:
-        prompt = build_prompt(f"Read the image at {image_path}.", existing)
+        prompt = build_prompt(f"Read the image at {image_path}.", existing, args.context)
         text = call_claude(prompt, args.model)
     text = clean(text)
     if NOT_A_DESCRIPTION_RE.search(text):
@@ -410,6 +410,8 @@ def main():
                         help="Base URL for --backend openai (default: Ollama at http://localhost:11434/v1)")
     parser.add_argument("--api-key", default=os.environ.get("OPENAI_API_KEY", ""),
                         help="Bearer token for --backend openai (default: $OPENAI_API_KEY)")
+    parser.add_argument("--context", default="",
+                        help='What the collection is, added to the prompt, e.g. "These are plaster casts of sculptures."')
     parser.add_argument("--base-url", default="", help="Fetch images not on disk from this site URL, e.g. https://thanksroy.org")
     parser.add_argument("--fresh", action="store_true",
                         help="Describe every image again instead of reusing this site's descriptions from --log")

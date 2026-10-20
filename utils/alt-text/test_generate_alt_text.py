@@ -82,6 +82,7 @@ with tempfile.TemporaryDirectory() as tmp:
     assert body["messages"][0]["content"][1]["image_url"]["url"].startswith("data:image/png;base64,")
     assert gat.build_prompt("Look at the attached image.", "").startswith("Look at the attached image. Describe it")
     assert "Map of Paris" in gat.build_prompt("Read the image at /x.png.", "Map of Paris")
+    assert gat.build_prompt("Look.", "", "These are plaster casts.").startswith("Look. These are plaster casts. Describe it")
     content = gat.anthropic_content(site / "files" / "x.png", "Describe.")
     assert content[0]["source"] == {"type": "base64", "media_type": "image/png", "data": "cG5n"}
     assert content[1] == {"type": "text", "text": "Describe."}

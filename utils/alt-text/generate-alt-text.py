@@ -208,8 +208,11 @@ def largest_derivative(img: Path | str) -> str:
 def load(img: Path | str, cache_dir: Path) -> tuple[Path, str]:
     """Local file to describe for img, preferring its largest derivative; returns (file, what it came from)."""
     big = largest_derivative(img)
-    if not isinstance(img, str):
-        return (Path(big), big) if Path(big).is_file() else (img, str(img))
+    if not isinstance(img, str):  # crawls often kept original/ but not fullsize/
+        for cand in (big, big.replace("/files/fullsize/", "/files/original/")):
+            if Path(cand).is_file():
+                return Path(cand), cand
+        return img, str(img)
     if big != img:
         try:
             return fetch(big, cache_dir), big

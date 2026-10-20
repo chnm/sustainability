@@ -93,6 +93,9 @@ with tempfile.TemporaryDirectory() as tmp:
     assert gat.load(sq / "p.jpg", cache) == (sq / "p.jpg", str(sq / "p.jpg"))      # no large copy on disk
     (site / "files" / "large").mkdir(); (site / "files" / "large" / "p.jpg").write_bytes(b"l")
     assert gat.load(sq / "p.jpg", cache)[0] == site / "files" / "large" / "p.jpg"
+    st = site / "files" / "square_thumbnails"; st.mkdir(); (st / "c.jpg").write_bytes(b"s")
+    (site / "files" / "original").mkdir(); (site / "files" / "original" / "c.jpg").write_bytes(b"o")
+    assert gat.load(st / "c.jpg", cache)[0] == site / "files" / "original" / "c.jpg"   # no fullsize/, use original/
     png = cache / "default.png%3Fv=3.1.0"; png.write_bytes(b"\x89PNG\r\n\x1a\n....")
     assert gat.image_mime(png) == "image/png"
     def boom(url, timeout): raise OSError("404")

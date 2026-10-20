@@ -7,6 +7,7 @@ from pathlib import Path
 spec = importlib.util.spec_from_file_location("gat", Path(__file__).with_name("generate-alt-text.py"))
 gat = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(gat)
+real_fetch = gat.fetch  # a later check stubs gat.fetch
 
 ok = "A long enough description of a map with cities and roads."
 assert gat.weak_reason(ok, set()) is None
@@ -136,4 +137,21 @@ with tempfile.TemporaryDirectory() as tmp:
     page.write_text("\n <!DOCTYPE HTML PUBLIC><html></html>")
     (Path(tmp) / "x.gif").write_bytes(b"GIF89a")
     assert gat.is_html(page) and not gat.is_html(Path(tmp) / "x.gif")
+with tempfile.TemporaryDirectory() as tmp:   # Drupal: single-quoted alt and src, "<img" inside scripts, spaces in names
+    site = Path(tmp)
+    (site / "a b.gif").write_bytes(b"GIF89a")
+    page = site / "p.html"
+    page.write_text("""<img alt='Memorial, "Reaching for the moon"' src='a b.gif'><img alt='' src='a b.gif'>"""
+                    """<script>// hide the broken <img>'s box\nvar s = '<img src="' + u + '">';</script>""")
+    entries = gat.find_weak(site, strict=False)
+    assert [(e["alt"], e["img_ref"]) for e in entries] == [("", "a b.gif")]
+    assert gat.find_weak(site, strict=False, keep_empty=True) == []
+    gat.patch(entries[0], "A sign.")
+    assert page.read_text().startswith("""<img alt='Memorial, "Reaching for the moon"' src='a b.gif'><img alt="A sign." src='a b.gif'>""")
+    urls = []
+    gat.urllib.request.urlopen = lambda url, timeout: urls.append(url) or (_ for _ in ()).throw(OSError("404"))
+    for url in ("https://x.org/files/Arlington School Map_0.jpg", "https://x.org/files/Bird's%20Eye.jpg"):
+        try: real_fetch(url, site)
+        except gat.ImageFailed: pass
+    assert urls == ["https://x.org/files/Arlington%20School%20Map_0.jpg", "https://x.org/files/Bird's%20Eye.jpg"]
 print("ok")

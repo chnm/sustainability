@@ -50,8 +50,9 @@ from pathlib import Path
 
 MD_IMG_RE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 HTML_IMG_RE = re.compile(r"<img\b[^>]*>", re.I | re.S)
-SRC_RE = re.compile(r'(?<![\w-])src\s*=\s*(?:"([^"]+)"|([^\s>"\']+))', re.I)  # old crawls leave src unquoted
-ALT_RE = re.compile(r'(?<![\w-])alt="([^"]*)"', re.I)
+SRC_RE = re.compile(r'''(?<![\w-])src\s*=\s*(?:"([^"]+)"|'([^']+)'|([^\s>"']+))''', re.I)  # old crawls leave src unquoted
+ALT_RE = re.compile(r'''(?<![\w-])alt\s*=\s*(?:"([^"]*)"|'([^']*)')''', re.I)  # Drupal writes alt='... "quoted" ...'
+SCRIPT_RE = re.compile(r"<script\b.*?</script>", re.I | re.S)
 PLACEHOLDER_RE = re.compile(r"^(\s*|alt|alt[- ]text|image|todo)$", re.I)
 # alt that is really a path: a URL, a slash path, or a bare filename with an image extension
 FILENAME_RE = re.compile(r"^(https?://\S+|\S*/\S+|\S+\.(jpe?g|png|gif|svg|webp|tiff?))$", re.I)
@@ -125,14 +126,17 @@ def find_weak(site: Path, strict: bool, keep_empty: bool = False) -> list[dict]:
             images.append((md, text, m, m.group(1), ref, "markdown"))
     for page in site_files(site, "*.htm*"):
         text, _ = read_page(page)
+        scripts = [s.span() for s in SCRIPT_RE.finditer(text)]
         for m in HTML_IMG_RE.finditer(text):
+            if any(a <= m.start() < b for a, b in scripts):
+                continue  # "<img" in a script's string or comment, not a tag
             tag = m.group(0)
             alt = ALT_RE.search(tag)
-            if keep_empty and alt and not alt.group(1).strip():
+            if keep_empty and alt and not alt.group(alt.lastindex).strip():
                 continue  # alt="" marks the image decorative
             src = SRC_RE.search(tag)
-            images.append((page, text, m, html.unescape(alt.group(1)) if alt else "",
-                           html.unescape(src.group(1) or src.group(2)) if src else "", "html"))
+            images.append((page, text, m, html.unescape(alt.group(alt.lastindex)) if alt else "",
+                           html.unescape(src.group(src.lastindex)) if src else "", "html"))
     alts = [a.strip().lower() for *_, a, _, _ in images]
     dupes = {a for a in alts if a and alts.count(a) > 1} if strict else set()
     for file, text, m, alt, ref, kind in images:
@@ -220,8 +224,8 @@ def fetch(url: str, cache_dir: Path) -> Path:
     dest = cache_dir / (hashlib.sha1(url.encode()).hexdigest()[:16] + suffix)
     if dest.exists():
         return dest
-    try:
-        with urllib.request.urlopen(url, timeout=30) as r:
+    try:  # crawled names have spaces; quote them, but leave existing %XX alone
+        with urllib.request.urlopen(urllib.parse.quote(url, safe=":/?#[]@!$&'()*+,;=%~"), timeout=30) as r:
             dest.write_bytes(r.read())
     except Exception as exc:  # 404 from the bucket, network, etc.
         raise ImageFailed(f"fetch failed for {url}: {exc}") from exc

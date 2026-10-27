@@ -50,8 +50,9 @@ from pathlib import Path
 
 MD_IMG_RE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 HTML_IMG_RE = re.compile(r"<img\b[^>]*>", re.I | re.S)
-SRC_RE = re.compile(r'(?<![\w-])src\s*=\s*(?:"([^"]+)"|([^\s>"\']+))', re.I)  # old crawls leave src unquoted
-ALT_RE = re.compile(r'(?<![\w-])alt="([^"]*)"', re.I)
+SRC_RE = re.compile(r'''(?<![\w-])src\s*=\s*(?:"([^"]+)"|'([^']+)'|([^\s>"']+))''', re.I)  # old crawls leave src unquoted
+ALT_RE = re.compile(r'''(?<![\w-])alt\s*=\s*(?:"([^"]*)"|'([^']*)')''', re.I)  # Drupal writes alt='... "quoted" ...'
+SCRIPT_RE = re.compile(r"<script\b.*?</script>", re.I | re.S)
 PLACEHOLDER_RE = re.compile(r"^(\s*|alt|alt[- ]text|image|todo)$", re.I)
 # alt that is really a path: a URL, a slash path, or a bare filename with an image extension
 FILENAME_RE = re.compile(r"^(https?://\S+|\S*/\S+|\S+\.(jpe?g|png|gif|svg|webp|tiff?))$", re.I)
@@ -59,7 +60,7 @@ SKIP_DIRS = {"node_modules", ".git"}
 MIN_ALT_LEN = 40
 # Omeka serves one upload as several derivatives under the same hash name
 # (files/large/abc.jpg, files/square/abc.jpg, files/original/abc.png)
-OMEKA_DERIVATIVE_RE = re.compile(r"/files/(?:original|fullsize|large|medium|thumbnails|square_thumbnails|square)/([^/]+?)\.\w+$")
+OMEKA_DERIVATIVE_RE = re.compile(r"/(files|archive)/(?:original|fullsize|large|medium|thumbnails|square_thumbnails|square)/([^/]+?)\.\w+$")  # occupyarchive uses /archive/
 # the model talking to us instead of describing ("I'm not able to view the image... re-upload")
 NOT_A_DESCRIPTION_RE = re.compile(
     r"not able to (?:view|see|access|open)|(?:can't|cannot|unable to) (?:view|see|access|open)"
@@ -125,14 +126,17 @@ def find_weak(site: Path, strict: bool, keep_empty: bool = False) -> list[dict]:
             images.append((md, text, m, m.group(1), ref, "markdown"))
     for page in site_files(site, "*.htm*"):
         text, _ = read_page(page)
+        scripts = [s.span() for s in SCRIPT_RE.finditer(text)]
         for m in HTML_IMG_RE.finditer(text):
+            if any(a <= m.start() < b for a, b in scripts):
+                continue  # "<img" in a script's string or comment, not a tag
             tag = m.group(0)
             alt = ALT_RE.search(tag)
-            if keep_empty and alt and not alt.group(1).strip():
+            if keep_empty and alt and not alt.group(alt.lastindex).strip():
                 continue  # alt="" marks the image decorative
             src = SRC_RE.search(tag)
-            images.append((page, text, m, html.unescape(alt.group(1)) if alt else "",
-                           html.unescape(src.group(1) or src.group(2)) if src else "", "html"))
+            images.append((page, text, m, html.unescape(alt.group(alt.lastindex)) if alt else "",
+                           html.unescape(src.group(src.lastindex)) if src else "", "html"))
     alts = [a.strip().lower() for *_, a, _, _ in images]
     dupes = {a for a in alts if a and alts.count(a) > 1} if strict else set()
     for file, text, m, alt, ref, kind in images:
@@ -148,6 +152,8 @@ def find_weak(site: Path, strict: bool, keep_empty: bool = False) -> list[dict]:
 def resolve_image_path(site: Path, src_file: Path, img_ref: str, base_url: str = "") -> Path | str | None:
     """Map a reference to a file on disk (site-root absolute, file-relative, or Hugo
     /static). If it is not on disk and base_url is set, return the URL to fetch instead."""
+    if img_ref.startswith(("http://", "https://")) and base_url:
+        return img_ref  # absolute links (the site's own or Flickr); fetch them only when fetching is on
     if not img_ref or "{{" in img_ref or "'+" in img_ref or img_ref.startswith(("http://", "https://", "data:")):
         return None
     ref = img_ref.split("?")[0].split("#")[0]
@@ -192,20 +198,23 @@ def previous_alts(log: Path, site: str, model: str) -> dict[tuple[str, str], str
 
 def image_key(img: Path | str) -> str:
     """Same key for every Omeka derivative of one upload, so it is described once."""
-    return OMEKA_DERIVATIVE_RE.sub(r"/files/\1", str(img))
+    return OMEKA_DERIVATIVE_RE.sub(r"/\1/\2", str(img))
 
 
 def largest_derivative(img: Path | str) -> str:
     """Omeka's square/medium thumbnails are too small to read a scanned page; use the large copy."""
-    big = re.sub(r"/files/(?:medium|square)/", "/files/large/", str(img))                        # Omeka S
-    return re.sub(r"/files/(?:thumbnails|square_thumbnails)/", "/files/fullsize/", big)          # Omeka Classic
+    big = re.sub(r"/(files|archive)/(?:medium|square)/", r"/\1/large/", str(img))                     # Omeka S
+    return re.sub(r"/(files|archive)/(?:thumbnails|square_thumbnails)/", r"/\1/fullsize/", big)       # Omeka Classic
 
 
 def load(img: Path | str, cache_dir: Path) -> tuple[Path, str]:
     """Local file to describe for img, preferring its largest derivative; returns (file, what it came from)."""
     big = largest_derivative(img)
-    if not isinstance(img, str):
-        return (Path(big), big) if Path(big).is_file() else (img, str(img))
+    if not isinstance(img, str):  # crawls often kept original/ but not fullsize/
+        for cand in (big, re.sub(r"/(files|archive)/fullsize/", r"/\1/original/", big)):
+            if Path(cand).is_file():
+                return Path(cand), cand
+        return img, str(img)
     if big != img:
         try:
             return fetch(big, cache_dir), big
@@ -220,17 +229,17 @@ def fetch(url: str, cache_dir: Path) -> Path:
     dest = cache_dir / (hashlib.sha1(url.encode()).hexdigest()[:16] + suffix)
     if dest.exists():
         return dest
-    try:
-        with urllib.request.urlopen(url, timeout=30) as r:
+    try:  # crawled names have spaces; quote them, but leave existing %XX alone
+        with urllib.request.urlopen(urllib.parse.quote(url, safe=":/?#[]@!$&'()*+,;=%~"), timeout=30) as r:
             dest.write_bytes(r.read())
     except Exception as exc:  # 404 from the bucket, network, etc.
         raise ImageFailed(f"fetch failed for {url}: {exc}") from exc
     return dest
 
 
-def build_prompt(image_phrase: str, existing: str) -> str:
+def build_prompt(image_phrase: str, existing: str, context: str = "") -> str:
     template = EXTEND_TEMPLATE if existing else PROMPT_TEMPLATE
-    return template.format(image=image_phrase, existing=existing)
+    return template.format(image=f"{image_phrase} {context}".strip(), existing=existing)
 
 
 def generate_alt_text(image_path: Path, existing: str, args) -> str:
@@ -240,12 +249,12 @@ def generate_alt_text(image_path: Path, existing: str, args) -> str:
     if args.backend != "claude" and image_mime(image_path) not in API_IMAGE_TYPES:
         raise ImageFailed(f"{image_path.suffix} is not jpeg/png/gif/webp; use --backend claude or add alt by hand")
     if args.backend == "openai":
-        prompt = build_prompt("Look at the attached image.", existing)
+        prompt = build_prompt("Look at the attached image.", existing, args.context)
         text = call_openai(image_path, prompt, args.model, args.api_url, args.api_key)
     elif args.backend == "anthropic":
-        text = call_anthropic(image_path, build_prompt("Look at the attached image.", existing), args.model)
+        text = call_anthropic(image_path, build_prompt("Look at the attached image.", existing, args.context), args.model)
     else:
-        prompt = build_prompt(f"Read the image at {image_path}.", existing)
+        prompt = build_prompt(f"Read the image at {image_path}.", existing, args.context)
         text = call_claude(prompt, args.model)
     text = clean(text)
     if NOT_A_DESCRIPTION_RE.search(text):
@@ -403,6 +412,8 @@ def main():
                         help="Base URL for --backend openai (default: Ollama at http://localhost:11434/v1)")
     parser.add_argument("--api-key", default=os.environ.get("OPENAI_API_KEY", ""),
                         help="Bearer token for --backend openai (default: $OPENAI_API_KEY)")
+    parser.add_argument("--context", default="",
+                        help='What the collection is, added to the prompt, e.g. "These are plaster casts of sculptures."')
     parser.add_argument("--base-url", default="", help="Fetch images not on disk from this site URL, e.g. https://thanksroy.org")
     parser.add_argument("--fresh", action="store_true",
                         help="Describe every image again instead of reusing this site's descriptions from --log")

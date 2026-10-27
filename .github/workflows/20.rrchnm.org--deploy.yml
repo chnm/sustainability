@@ -16,5 +16,5 @@ jobs:
     with:
       context_root: "20.rrchnm.org"
       website-devl-fqdn: "20th.dev.chnm.gmu.edu"
-      website-prod-fqdn: "20th.dev.chnm.gmu.edu"
+      website-prod-fqdn: "20.rrchnm.org"
       runner_labels: '["self-hosted","IncusOS"]'

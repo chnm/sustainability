@@ -140,6 +140,7 @@ with tempfile.TemporaryDirectory() as tmp:   # old crawls: .htm, Latin-1 bytes, 
 assert gat.NOT_A_DESCRIPTION_RE.search("The download needs your approval, please approve the curl command.")
 assert gat.NOT_A_DESCRIPTION_RE.search("This file isn't actually an image, it's a malformed archive artifact.")
 assert not gat.NOT_A_DESCRIPTION_RE.search("A man blowing cigar smoke that curls upward.")
+assert not gat.NOT_A_DESCRIPTION_RE.search('Smallpox vaccination certificate stamped "APPROVED" by the U.S. Public Health Service.')
 with tempfile.TemporaryDirectory() as tmp:
     page = Path(tmp) / 'logo.gif".html'
     page.write_text("\n <!DOCTYPE HTML PUBLIC><html></html>")

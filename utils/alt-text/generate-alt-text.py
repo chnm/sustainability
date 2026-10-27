@@ -65,7 +65,7 @@ OMEKA_DERIVATIVE_RE = re.compile(r"/(files|archive)/(?:original|fullsize|large|m
 NOT_A_DESCRIPTION_RE = re.compile(
     r"not able to (?:view|see|access|open)|(?:can't|cannot|unable to) (?:view|see|access|open)"
     r"|re-?upload|did ?n[o']?t come through|came through instead"
-    r"|approv|(?:isn't|is not|not) actually an image|no actual image", re.I)
+    r"|need (?:your )?approval|approve (?:the|this|reading|access)|(?:isn't|is not|not) actually an image|no actual image", re.I)
 API_IMAGE_TYPES = {"image/jpeg", "image/png", "image/gif", "image/webp"}  # what vision APIs accept
 
 PROMPT_TEMPLATE = (

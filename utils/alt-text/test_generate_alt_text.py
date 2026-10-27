@@ -162,4 +162,37 @@ with tempfile.TemporaryDirectory() as tmp:   # Drupal: single-quoted alt and src
         try: real_fetch(url, site)
         except gat.ImageFailed: pass
     assert urls == ["https://x.org/files/Arlington%20School%20Map_0.jpg", "https://x.org/files/Bird's%20Eye.jpg"]
+with tempfile.TemporaryDirectory() as tmp:   # Hugo front matter (omeka-to-hugo items): alt.<lang> per file
+    item = Path(tmp) / "content" / "items" / "2085" / "index.md"; item.parent.mkdir(parents=True)
+    item.write_text("""---
+dublin_core:
+  Description:
+    - html: false
+      text: 'Workers'' barracks, 1956'
+files:
+  - fullsize: /files/fullsize/NAD-1.jpg
+    id: 0
+    mime: image/jpeg
+    original_filename: NAD-1.jpg
+    url: /files/original/NAD-1.jpg
+  - id: 1
+    mime: audio/mpeg
+    url: /files/original/talk.mp3
+item_type: Still Image
+title: View over the Gondo Labor Camp
+---
+""")
+    before = item.read_text()
+    (en,) = gat.find_front_matter(Path(tmp), "en")
+    assert en["img_ref"] == "/files/fullsize/NAD-1.jpg" and en["match"] == "/files/original/NAD-1.jpg"
+    assert '"View over the Gondo Labor Camp" (Still Image)' in en["context"] and "Workers' barracks, 1956" in en["context"]
+    gat.patch_front_matter(en, 'Rows of "barracks"')
+    assert gat.find_front_matter(Path(tmp), "en") == []
+    (es,) = gat.find_front_matter(Path(tmp), "es")
+    assert 'The English alt text for this image is: "Rows of "barracks""' in es["context"] and "in Spanish" in es["context"]
+    gat.patch_front_matter(es, "Hileras de barracas")
+    assert gat.front_matter_files(item.read_text())[0]["alt"] == {"en": 'Rows of "barracks"', "es": "Hileras de barracas"}
+    after = item.read_text().split("\n")
+    assert after[11:14] == ["    alt:", '      en: "Rows of \\"barracks\\""', '      es: "Hileras de barracas"']
+    assert [l for l in after if not l.startswith(("    alt:", "      en:", "      es:"))] == before.split("\n")
 print("ok")

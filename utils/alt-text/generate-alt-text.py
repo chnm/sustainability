@@ -149,6 +149,106 @@ def find_weak(site: Path, strict: bool, keep_empty: bool = False) -> list[dict]:
     return found
 
 
+FM_KEY_RE = re.compile(r"^ {4}(\w+): ?(.*)$")      # a key of a files: entry
+FM_ALT_RE = re.compile(r"^ {6}(\w+): (.*)$")       # a language under that entry's alt:
+
+
+def _fm_scalar(v: str) -> str:
+    v = v.strip()
+    if v[:1] == '"':
+        try:
+            return json.loads(v)
+        except json.JSONDecodeError:  # YAML escapes JSON lacks (\x, \ ), or a scalar folded onto later lines
+            return v.strip('"').replace('\\"', '"')
+    return v[1:-1].replace("''", "'") if v[:1] == "'" and v[-1:] == "'" else v.strip("'")
+
+
+def front_matter_files(text: str) -> list[dict]:
+    """The `files:` entries of a Hugo page's YAML front matter, as written by omeka-to-hugo:
+    one `  - key: value` entry per file, `    key: value` lines, and an optional
+    `    alt:` map of `      <lang>: text`. Each entry keeps its line span for patching."""
+    lines = text.split("\n")
+    if not lines or lines[0] != "---" or "files:" not in lines:
+        return []
+    end = lines.index("---", 1) if "---" in lines[1:] else len(lines)
+    start = lines.index("files:")
+    if start > end:
+        return []
+    entries, cur = [], None
+    for i in range(start + 1, end):
+        line = lines[i]
+        if line.startswith("  - "):
+            cur = {"fields": {}, "alt": {}, "first": i, "last": i, "alt_line": None}
+            entries.append(cur)
+            line = "    " + line[4:]
+        elif not line.startswith("    ") or cur is None:
+            break
+        cur["last"] = i
+        if m := FM_ALT_RE.match(line):
+            cur["alt"][m.group(1)] = _fm_scalar(m.group(2))
+        elif m := FM_KEY_RE.match(line):
+            if m.group(1) == "alt":
+                cur["alt_line"] = i
+            else:
+                cur["fields"][m.group(1)] = _fm_scalar(m.group(2))
+    return entries
+
+
+def front_matter_value(text: str, key: str) -> str:
+    """A top-level scalar, or the first `text:` under a dublin_core element (e.g. Description)."""
+    if m := re.search(rf"^{key}: (.+)$", text, re.M):
+        return _fm_scalar(m.group(1))
+    if m := re.search(rf"^  {key}:\n    - html: \w+\n      text: (.+)$", text, re.M):
+        return _fm_scalar(m.group(1))
+    return ""
+
+
+def find_front_matter(site: Path, lang: str) -> list[dict]:
+    """One entry per image in a Hugo item's front matter that has no alt.<lang> yet."""
+    found = []
+    for md in site_files(site, "*.md"):
+        text = md.read_text(encoding="utf-8")
+        files = front_matter_files(text)
+        if not files:
+            continue
+        title, desc = front_matter_value(text, "title"), front_matter_value(text, "Description")
+        kind = front_matter_value(text, "item_type")
+        for f in files:
+            ref = f["fields"].get("fullsize") or f["fields"].get("url", "")
+            if not f["fields"].get("mime", "").startswith("image/") or lang in f["alt"] or not ref:
+                continue
+            context = f'It belongs to the archive item titled "{title}"' + (f" ({kind})" if kind else "") + "."
+            if desc:
+                context += f" The item's description: {desc[:600]}"
+            if lang != "en":
+                context += (f" Write the alt text in {LANG_NAMES.get(lang, lang)}."
+                            + (f' The English alt text for this image is: "{f["alt"]["en"]}"; describe the same things.'
+                               if "en" in f["alt"] else ""))
+            found.append({"alt": "", "file": md, "match": f["fields"].get("url", ref), "img_ref": ref,
+                          "line": f["first"] + 1, "type": "front-matter", "reason": "missing",
+                          "context": context, "lang": lang})
+    return found
+
+
+LANG_NAMES = {"es": "Spanish", "en": "English", "fr": "French"}
+
+
+def patch_front_matter(entry: dict, alt: str) -> None:
+    """Add alt.<lang> to the files: entry whose url matches, keeping the rest byte for byte."""
+    lines = entry["file"].read_text(encoding="utf-8").split("\n")
+    for f in front_matter_files("\n".join(lines)):
+        if f["fields"].get("url", f["fields"].get("fullsize")) != entry["match"]:
+            continue
+        value = f"      {entry['lang']}: {json.dumps(alt, ensure_ascii=False)}"
+        if f["alt_line"] is None:
+            lines[f["last"] + 1:f["last"] + 1] = ["    alt:", value]
+        else:
+            lines.insert(f["alt_line"] + 1 + len(f["alt"]), value)
+        entry["file"].write_text("\n".join(lines), encoding="utf-8")
+        return
+    raise ImageFailed(f"{entry['file']}: no files: entry with url {entry['match']}")
+
+
 def resolve_image_path(site: Path, src_file: Path, img_ref: str, base_url: str = "") -> Path | str | None:
     """Map a reference to a file on disk (site-root absolute, file-relative, or Hugo
     /static). If it is not on disk and base_url is set, return the URL to fetch instead."""
@@ -414,6 +514,11 @@ def main():
                         help="Bearer token for --backend openai (default: $OPENAI_API_KEY)")
     parser.add_argument("--context", default="",
                         help='What the collection is, added to the prompt, e.g. "These are plaster casts of sculptures."')
+    parser.add_argument("--front-matter", action="store_true",
+                        help="Hugo sites converted by omeka-to-hugo: describe each image in a page's front-matter "
+                             "files: list and write alt.<lang> there, with the item's title and description as context")
+    parser.add_argument("--alt-lang", default="en",
+                        help="With --front-matter: the language to write, e.g. es (passes the English alt along when present)")
     parser.add_argument("--base-url", default="", help="Fetch images not on disk from this site URL, e.g. https://thanksroy.org")
     parser.add_argument("--fresh", action="store_true",
                         help="Describe every image again instead of reusing this site's descriptions from --log")
@@ -426,14 +531,16 @@ def main():
         sys.exit("ERROR: --backend openai needs --model, e.g. --model qwen2.5vl:7b")
     args.model = args.model or "claude-sonnet-5"
 
-    entries = find_weak(args.site, args.strict, args.keep_empty)
+    entries = (find_front_matter(args.site, args.alt_lang) if args.front_matter
+               else find_weak(args.site, args.strict, args.keep_empty))
+    site_key = str(args.site) + (f"#{args.alt_lang}" if args.front_matter and args.alt_lang != "en" else "")
     if not entries:
         print("No images with missing or weak alt text found.")
         return
     print(f"Found {len(entries)} image(s) with missing or weak alt text.\n")
 
     # same image on many pages: generate once, and reuse what earlier runs of this model generated
-    cache = {} if args.fresh or args.list else previous_alts(args.log, str(args.site), args.model)
+    cache = {} if args.fresh or args.list else previous_alts(args.log, site_key, args.model)
     if cache:
         print(f"Reusing {len(cache)} description(s) from {args.log}; --fresh to describe again.\n")
     calls = 0
@@ -443,7 +550,7 @@ def main():
     def log(**record):
         if not args.list:
             write_log(args.log, run=run, time=datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                      site=str(args.site), backend=args.backend, model=args.model, **record)
+                      site=site_key, backend=args.backend, model=args.model, **record)
 
     for e in entries:
         rel = e["file"].relative_to(args.site)
@@ -466,7 +573,9 @@ def main():
             start, error, described = time.monotonic(), "", str(img)
             try:
                 local, described = load(img, fetch_dir)
-                cache[key] = generate_alt_text(local, existing, args)
+                item_args = argparse.Namespace(**{**vars(args), "context": f"{args.context} {e['context']}".strip()}) \
+                    if "context" in e else args
+                cache[key] = generate_alt_text(local, existing, item_args)
             except ImageFailed as exc:
                 print(f"    ERROR: {exc}", file=sys.stderr)
                 cache[key], error = "", str(exc)
@@ -479,7 +588,7 @@ def main():
         alt = new_alt(e, cache[key])
         print(f"    → {alt}")
         if args.apply:
-            patch(e, alt)
+            (patch_front_matter if e["type"] == "front-matter" else patch)(e, alt)
             print("    ✓ Patched")
         processed += 1
 

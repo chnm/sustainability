@@ -15,7 +15,6 @@ Flattened, static versions of retired RRCHNM web projects, kept here so repairs,
 | Eagle Eye Citizen                            | `eagleeyecitizen/`                 | eagleeyecitizen.org                   | Drupal          | 2026 |
 | For Us the Living                            | `futl/`                            | forustheliving.org                    | Drupal          | 2026 |
 | Harambee City                                | `harambeecity/`                    | harambeecity.rrchnm.org               | Omeka           | 2024 |
-| Hearing the Americas                         | `hearingtheamericas/`              | hearingtheamericas.org                | Omeka S         | 2026 |
 | History Matters                              | `historymatters.gmu.edu/`          | historymatters.gmu.edu                | Custom          | 2026 |
 | Imaging the French Revolution                | `imagingthefrenchrevolution/`      | imagingthefrenchrevolution.rrchnm.org | Custom          | 2026 |
 | Islam Perspectives                           | `islamperspectives/`               | islampers.dev.chnm.gmu.edu (dev)      | Omeka           | 2026 |
@@ -36,12 +35,13 @@ Flattened, static versions of retired RRCHNM web projects, kept here so repairs,
 
 Larger Hugo builds that outgrew the monorepo, or never lived here, have their own repositories.
 
-| Project                       | Repo                                                                | Live site               |
-| ----------------------------- | ------------------------------------------------------------------- | ----------------------- |
-| Papers of the War Department  | [chnm/pwd](https://github.com/chnm/pwd)                             | wardepartmentpapers.org |
-| Hurricane Digital Memory Bank | [chnm/hurricanearchive](https://github.com/chnm/hurricanearchive)   | hurricanearchive.org    |
-| 9/11 Digital Archive          | [chnm/911digitalarchive](https://github.com/chnm/911digitalarchive) | 911digitalarchive.org   |
-| Bracero History Archive       | [chnm/braceroarchive](https://github.com/chnm/braceroarchive)       | braceroarchive.org      |
+| Project                       | Repo                                                                  | Live site               |
+| ----------------------------- | --------------------------------------------------------------------- | ----------------------- |
+| Papers of the War Department  | [chnm/pwd](https://github.com/chnm/pwd)                               | wardepartmentpapers.org |
+| Hurricane Digital Memory Bank | [chnm/hurricanearchive](https://github.com/chnm/hurricanearchive)     | hurricanearchive.org    |
+| 9/11 Digital Archive          | [chnm/911digitalarchive](https://github.com/chnm/911digitalarchive)   | 911digitalarchive.org   |
+| Bracero History Archive       | [chnm/braceroarchive](https://github.com/chnm/braceroarchive)         | braceroarchive.org      |
+| Hearing the Americas          | [chnm/hearingtheamericas](https://github.com/chnm/hearingtheamericas) | hearingtheamericas.org¹ |
 
 ## Tools and guides
 

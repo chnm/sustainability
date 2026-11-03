@@ -41,9 +41,7 @@ Larger Hugo builds that outgrew the monorepo, or never lived here, have their ow
 | Hurricane Digital Memory Bank | [chnm/hurricanearchive](https://github.com/chnm/hurricanearchive)     | hurricanearchive.org    |
 | 9/11 Digital Archive          | [chnm/911digitalarchive](https://github.com/chnm/911digitalarchive)   | 911digitalarchive.org   |
 | Bracero History Archive       | [chnm/braceroarchive](https://github.com/chnm/braceroarchive)         | braceroarchive.org      |
-| Hearing the Americas          | [chnm/hearingtheamericas](https://github.com/chnm/hearingtheamericas) | hearingtheamericas.org¹ |
-
-¹ Not cut over yet: hearingtheamericas.org is still deployed from this repo's `hearingtheamericas/` directory (see [#138](https://github.com/chnm/sustainability/issues/138)).
+| Hearing the Americas          | [chnm/hearingtheamericas](https://github.com/chnm/hearingtheamericas) | hearingtheamericas.org  |
 
 ## Tools and guides
 

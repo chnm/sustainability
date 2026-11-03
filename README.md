@@ -43,8 +43,6 @@ Larger Hugo builds that outgrew the monorepo, or never lived here, have their ow
 | Bracero History Archive       | [chnm/braceroarchive](https://github.com/chnm/braceroarchive)         | braceroarchive.org      |
 | Hearing the Americas          | [chnm/hearingtheamericas](https://github.com/chnm/hearingtheamericas) | hearingtheamericas.org¹ |
 
-¹ Not cut over yet: hearingtheamericas.org is still deployed from this repo's `hearingtheamericas/` directory (see [#138](https://github.com/chnm/sustainability/issues/138)).
-
 ## Tools and guides
 
 | Path                 | What it is                                                                         |

@@ -2125,12 +2125,12 @@ background: url('https://i.ytimg.com/vi/8eGgmKd9bSg/maxresdefault.jpg') no-repea
   .night #content > div, .night #content #primary > div, .night #content #sidebar > div,
   .night #content #advanced-search-form > div, .night #content #exhibit-pages {
     border-color: #228b22;
-    background-color: #dedd1Fe6;
+    background-color: #dedd1f;
 /*CDS horiz bar */
   }
   .night #content #primary > div, .night #content #sidebar > div,
   .night #content .item-pagination li {
-    background-color: #dedd1fe6; /* CDS item bg color */
+    background-color: #dedd1f; /* CDS item bg color */
   }
   .night #content .pagination_previous a, .night #content .pagination_next a {
     background-color: #252525;
@@ -2169,7 +2169,7 @@ background: url('https://i.ytimg.com/vi/8eGgmKd9bSg/maxresdefault.jpg') no-repea
     border-color: #666;
   }
   .night .page #primary {
-    background-color: #dedd1fe6; /* CDS inner div bg color */
+    background-color: #dedd1f; /* CDS inner div bg color */
   }
   .night footer {
     background-color: black;
@@ -2586,4 +2586,61 @@ Display the backstretch div for image slideshow on home page at 100% height minu
     height: -webkit-calc(100% - 113px);
     height: calc(100% - 113px);
     display: block;
+}
+
+/* !---------- WCAG 2.2 AA fixes (chnm/sustainability #148) ---------- */
+@media screen {
+  /* 1.4.3 / 1.4.1: links on the yellow panels were #228b22 (3.1:1); darker and underlined.
+     Links on black (footer, backdrops below) keep #228b22 (4.8:1) and are underlined. */
+  .night a:link, .night a:visited, .night a:hover, .night a:active, .night a:focus { color: #176117; }
+  .night #content p a, .night #content li a:not(.permalink), .night #content td a, .night .element-text a,
+  .night footer a, .night #simple-pages-breadcrumbs a, .night .commenting-explanation a, .night .comment-body a { text-decoration: underline; }
+  .night footer a:link, .night footer a:visited, .night footer a:hover, .night footer a:focus,
+  .night #skipnav, .night #content > h1 a, .night #simple-pages-breadcrumbs a,
+  .night #content .items-nav a, .night #content .pagination a, .night #content div.hTagcloud ul li a,
+  .night #content .pagination_previous a, .night #content .pagination_next a { color: #228b22; }
+  .night #content .items-nav a:focus, .night #content .items-nav a:hover,
+  .night #content div.hTagcloud ul li a:focus, .night #content div.hTagcloud ul li a:hover { color: #5fd35f; }
+  .night #primary a:not(.image):not(.download-file), .night #primary h2 a, .night #primary h3 a,
+  .night .element-text a, .night .item-description a, .night #sidebar .element-text a { text-decoration: underline; }
+  .night #primary h2 a, .night #primary h3 a, .night #primary .image, .night #primary .download-file { text-decoration: none; }
+  /* editor-inlined greens inside the yellow panels */
+  .night #primary [style*="color:#228b22"], .night #primary [style*="color:#0e9c42"] { color: #176117 !important; }
+  /* browse filter chips were black on #666; the log-in form was black labels on #252525 */
+  .night #search-filters li, .night #item-filters li { background-color: #000; color: #eee; }
+  .night .login #content form { background-color: #dedd1f; border-color: #228b22; }
+  /* text that sat directly on the photographic background gets a solid black backdrop */
+  .night #content > h1, .night #simple-pages-breadcrumbs, .night #content .items-nav,
+  .night #content nav.pagination-nav ul.pagination, .night #content .exhibit-section-nav {
+    display: inline-block; background-color: #000; color: #ccc; padding: 0.25em 0.5em; text-shadow: none;
+  }
+  .night #content > h1 { text-shadow: none; }
+  .night #content .items-nav { margin-bottom: 1em; }
+  .night #content .pagination_previous a, .night #content .pagination_next a,
+  .night #content div.hTagcloud ul li, .night #content .page-input input { background-color: #000; }
+  .night #content .page-input input { color: #eee; border: 1px solid #666; }
+  /* sub-menu: #FFE000 on #666 was 4.4:1 */
+  .night nav.top .sub-nav { background-color: #444; }
+  .night nav.top .nav-item > a.open { background-color: #444; color: #FFE000; }
+  /* 2.4.7 / 2.4.11: one visible focus ring everywhere, legible on black, yellow and photos */
+  a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible,
+  [tabindex]:focus-visible { outline: 3px solid #fff; outline-offset: 2px; box-shadow: 0 0 0 6px #000; }
+  #skipnav:focus { left: 1em; background-color: #000; color: #FFE000; border-color: #FFE000; text-decoration: underline; }
+  /* 2.5.8: 24px targets for stacked and inline navigation links */
+  .item-pagination a, #sort-links a, .items-nav a, .pagination_list a, #content div.hTagcloud ul li a,
+  .view-items-link, #collection-items .permalink { display: inline-block; min-height: 24px; line-height: 24px; }
+  /* 1.4.10: fixed-width editor tables, images, embeds and map iframes reflow at 320px */
+  #content table { width: 100% !important; max-width: 100%; height: auto !important; }
+  #content td, #content th { width: auto !important; height: auto !important; }
+  #content img, #content iframe, #content video, #content audio { max-width: 100%; }
+  #content img { height: auto; }
+  #content { overflow-wrap: anywhere; }
+  nav.top select.mobile { max-width: 100%; }
+}
+@media screen and (max-width: 767px) {
+  #content table, #content tbody, #content tr, #content td { display: block; padding-left: 0 !important; padding-right: 0 !important; }
+  #content td img { margin-left: 0 !important; }
+}
+@media screen and (max-width: 479px) {
+  header div#site-title a { font-size: 125%; letter-spacing: 1px; line-height: 1.1; }
 }

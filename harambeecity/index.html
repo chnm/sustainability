@@ -109,6 +109,7 @@
 </div>
 -->
 <!-- end content -->
+<button type="button" id="slideshow-toggle" aria-pressed="false">Pause background slideshow</button>
 <div id="backstretch"></div>
 <footer role="contentinfo">
 <div id="custom-footer-text">
@@ -427,5 +428,18 @@ $.backstretch([
 //--><!
 //--><!
 //--><!
-//--><!]]></script></body>
+//--><!]]></script><script type="text/javascript">
+// a11y: the background slideshow must be pausable (WCAG 2.2.2); honour prefers-reduced-motion
+(function () {
+  var b = document.getElementById('slideshow-toggle');
+  function set(paused) {
+    $.backstretch(paused ? 'pause' : 'resume');
+    b.setAttribute('aria-pressed', paused ? 'true' : 'false');
+    b.textContent = (paused ? 'Play' : 'Pause') + ' background slideshow';
+  }
+  b.onclick = function () { set(b.getAttribute('aria-pressed') !== 'true'); };
+  if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) { set(true); }
+})();
+</script>
+</body>
 </html>

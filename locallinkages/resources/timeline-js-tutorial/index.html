@@ -1,0 +1,193 @@
+<!doctype html>
+<html class="no-js" lang="en-US" >
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet"> 
+		<title>Timeline JS Tutorial &#8211; Creating Local Linkages</title>
+<meta name='robots' content='noindex,nofollow' />
+<link rel='dns-prefetch' href='https://ajax.googleapis.com/' />
+<link rel='dns-prefetch' href='https://s.w.org/' />
+<link rel='stylesheet' id='wp-block-library-css'  href='../../wp-includes/css/dist/block-library/style.min.css%3Fver=5.3.4.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-member-block-css'  href='../../wp-content/plugins/buddypress/bp-members/css/blocks/member.min.css%3Fver=6.2.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-group-block-css'  href='../../wp-content/plugins/buddypress/bp-groups/css/blocks/group.min.css%3Fver=6.2.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bbp-default-css'  href='../../wp-content/plugins/bbpress/templates/default/css/bbpress.min.css%3Fver=2.6.5.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='../../wp-includes/css/dashicons.min.css%3Fver=5.3.4.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-nouveau-css'  href='../../wp-content/plugins/buddypress/bp-templates/bp-nouveau/css/buddypress.min.css%3Fver=6.2.0.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='contact-form-7-css'  href='../../wp-content/plugins/contact-form-7/includes/css/styles.css%3Fver=5.2.1.css' type='text/css' media='all' />
+<link rel='stylesheet' id='main-stylesheet-css'  href='../../wp-content/themes/foundation-press/dist/assets/css/app.css%3Fver=2.10.4.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='../../wp-content/plugins/buddypress/bp-core/js/widget-members.min.js%3Fver=6.2.0'></script>
+<script type='text/javascript' src='../../wp-content/plugins/buddypress/bp-core/js/jquery-query.min.js%3Fver=6.2.0'></script>
+<script type='text/javascript' src='../../wp-content/plugins/buddypress/bp-core/js/vendor/jquery-cookie.min.js%3Fver=6.2.0'></script>
+<script type='text/javascript' src='../../wp-content/plugins/buddypress/bp-core/js/vendor/jquery-scroll-to.min.js%3Fver=6.2.0'></script>
+<link rel='https://api.w.org/' href='../../wp-json/index.html' />
+<link rel="alternate" type="application/json+oembed" href="../../wp-json/oembed/1.0/embed%3Furl=https:%252F%252Flocallinkages.org%252Fresources%252Ftimeline-js-tutorial%252F" />
+<link rel="alternate" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embed%3Furl=https:%252F%252Flocallinkages.org%252Fresources%252Ftimeline-js-tutorial%252F&amp;format=xml" />
+
+	<script type="text/javascript">var ajaxurl = 'https://locallinkages.org/wp-admin/admin-ajax.php';</script>
+
+	</head>
+	<body class="bp-nouveau page-template-default page page-id-396 page-child parent-pageid-65 topbar no-js">
+
+	
+
+	<header class="site-header" role="banner">
+		<div class="site-title-bar title-bar" data-responsive-toggle="mobile-menu">
+			<div class="title-bar-left">
+				<button aria-label="Main Menu" class="menu-icon" type="button" data-toggle="mobile-menu"></button>
+				<span class="site-mobile-title title-bar-title">
+					<a href="../../index.html" rel="home">Creating Local Linkages</a>
+				</span>
+			</div>
+		</div>
+
+		<nav class="site-navigation top-bar" role="navigation">
+			<div class="top-bar-left">
+				<div class="site-desktop-title top-bar-title">
+					<a href="../../index.html" rel="home">Creating Local Linkages</a>
+				</div>
+			</div>
+			<div class="top-bar-right">
+
+    				<ul id="menu-top-menu" class="dropdown menu desktop-menu" data-dropdown-menu><li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-71"><a title="				" href="../../index.html">Home</a></li>
+<li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a title="				" href="../../about.html">About</a></li>
+<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a title="				" href="../../course/index.html">Course</a></li>
+<li id="menu-item-3282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3282"><a href="../../local-history-activity-guide/index.html">Guide</a></li>
+<li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-68"><a title="				" href="../index.html">Resources</a></li>
+</ul>    				
+    				    				<div class="user">
+	    					    				<a class="login-link" href="../../wp-login.php.html">Log in</a>
+	    				    				</div>
+    
+    				    					
+<nav class="mobile-menu vertical menu" id="mobile-menu" role="navigation">
+	<ul id="menu-top-menu-1" class="vertical menu" data-accordion-menu data-submenu-toggle="true"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-71"><a title="				" href="../../index.html">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a title="				" href="../../about.html">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a title="				" href="../../course/index.html">Course</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3282"><a href="../../local-history-activity-guide/index.html">Guide</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-68"><a title="				" href="../index.html">Resources</a></li>
+</ul></nav>
+    				
+			</div>
+		</nav>
+
+	</header>
+
+<div class="main-container">
+	<div class="main-grid">
+		<main class="main-content-full-width">
+							
+<article id="post-396" class="post-396 page type-page status-publish hentry">
+	<header>
+		<h1 class="entry-title">Timeline JS Tutorial</h1>
+	</header>
+	<div class="entry-content">
+		<p><a href="https://timeline.knightlab.com/">TimelineJS</a> is a tool for creating interactive, and embeddable, timelines. Use a google spreadsheet to organize dates and media, then upload it to the TimelineJS website. Customize your timeline and embed it on a webpage, including pages on WordPress and Omeka.</p>
+<p><b>Embedding with TimelineJS</b></p>
+<p>Note: You need to have access to Google Sheets to use this tool</p>
+<p>1. Navigate to the <a href="https://timeline.knightlab.com/">TimelineJS website</a>. The folks at KnightLab have done a great job creating <a href="https://timeline.knightlab.com/#make">a step-by-step tutorial</a> with additional links at the bottom of the page for Tips and Frequently Asked Questions. Refer to these links if you have any issues with this tutorial.</p>
+<p>2. Copy the TimelineJS template on the TimelineJS website to your Google Drive and add events to your timeline.<span style="font-weight: 400;"><br />
+<a href="../../wp-content/uploads/2019/01/TLJS_1.png"><img class="alignnone size-full wp-image-402" src="../../wp-content/uploads/2019/01/TLJS_1.png" alt="" width="1252" height="676" srcset="../../wp-content/uploads/2019/01/TLJS_1.png 1252w, ../../wp-content/uploads/2019/01/TLJS_1-300x162.png 300w, ../../wp-content/uploads/2019/01/TLJS_1-768x415.png 768w, ../../wp-content/uploads/2019/01/TLJS_1-1024x553.png 1024w, ../../wp-content/uploads/2019/01/TLJS_1-640x346.png 640w, ../../wp-content/uploads/2019/01/TLJS_1-1200x648.png 1200w" sizes="(max-width: 639px) 98vw, (max-width: 1199px) 64vw, 770px" /></a><br />
+</span></p>
+<p>3. Begin to modify the Timeline Template. (Note: You can rename the template to suit your project, it will not affect the final timeline. Do not rename or delete any columns. Simply leave the fields blank if they are not useful for you.)</p>
+<ul>
+<li>Start with Row 2 (which is marked with a light blue background). This row creates the title slide for your timeline.
+<ul>
+<li>No dates are needed, leave the A-I fields blank.</li>
+<li>Add a title and description to the “Headline” and “Text” fields.</li>
+<li>Add an image (or other media) to the title slide from your Omeka collection (or another online source) by pasting the image URL from an item in your Omeka site. Be sure to include image credit information in columns M and N.</li>
+<li>Or set a background image by pasting the image URL from an item in your Omeka collection (or another online source) by pasting the URL in the “Background” field.</li>
+</ul>
+</li>
+<li>Add items and events to your timeline by selecting the fields in each row. Begin by deleting the examples in the spreadsheet. Click the Add button at the bottom of the spreadsheet to add additional rows. Note, be sure to remove any extra (blank) rows from the bottom of the spreadsheet before you finish.
+<ul>
+<li>Add date information. Note: you do not need full date information. At least a year should be included. Events also do not have to appear in order.</li>
+<li>Add a headline- the short text that will be visible on the timeline.</li>
+<li>Add a description &#8211; brief text that will appear when the event is selected on the timeline.</li>
+<li>Add an image (or other media) for each event by pasting the image URL from items in your Omeka site. Be sure to add image credit information and captions. If you would like the source text to be linked, you can add the hyperlink using the following: &lt;a href=&#8221;your source url&#8221;&gt;text&lt;/a&gt;</li>
+<li>You may group events using the “Group” column. Enter a category or theme.</li>
+<li>You may style the slides by adding background images or solid colors using the “Background” column.</li>
+</ul>
+</li>
+</ul>
+<p>4. After you have added timeline information to your GoogleSheet (and confirmed that there are no blank rows), click on File and select Publish to the Web.. from the dropdown menu.</p>
+<ul>
+<li>Click Publish in the window that appears and select OK when asked “Are you sure?”</li>
+<li>Close the “Publish to the Web” window</li>
+<li>Close the dialog box</li>
+<li>Copy the URL in your browser’s address bar, minus the “/edit” (See the Timeline JS website for explanation. (Do not copy the link which Google provides in the “publish” dialog box)</li>
+</ul>
+<p>5. Return to the TimelineJS website. <a href="https://timeline.knightlab.com/#make">Scroll down to Step 3</a> and enter your URL in the “Google Spreadsheet URL” field. Note: there are several optional settings available below. After you have confirmed that your timeline appears correctly, you can return to these options and modify sizing, language, fonts, start slide, zoom, and other features.</p>
+<p>6.<a href="https://timeline.knightlab.com/#make"> Scroll down to Step 4.</a> Click the blue Preview button and confirm that your timeline appears correctly and without errors.</p>
+<ul>
+<li>Note: if you find spelling errors or would like to make aesthetic changes, you may repeat steps 5 and 6 to preview the updated page. Any changes made in the spreadsheet will be public and updated in the timeline whether or not you repeat these steps.</li>
+</ul>
+<p><strong>To embed the timeline in your Omeka Exhibit</strong>, copy the code from the Embed field (above the blue Preview button on the TimelineJS website).</p>
+<ol>
+<li>In another window, navigate to your Omeka site and open the Exhibit page on which you would like your Timeline to appear.</li>
+<li>Click to add a new Text block to the page.</li>
+<li style="font-weight: 400;">In the Text Block, click the Source Code button.<span style="font-weight: 400;"><br />
+<a href="../../wp-content/uploads/2019/01/TLJS_2.png"><img class="alignnone size-full wp-image-403" src="../../wp-content/uploads/2019/01/TLJS_2.png" alt="" width="552" height="308" srcset="../../wp-content/uploads/2019/01/TLJS_2.png 552w, ../../wp-content/uploads/2019/01/TLJS_2-300x167.png 300w" sizes="(max-width: 639px) 98vw, (max-width: 1199px) 64vw, 552px" /></a><br />
+</span></li>
+<li style="font-weight: 400;">In the text field that opens, paste the Embed code you copied from the TimelineJS page (in step 7). Click Ok.<span style="font-weight: 400;"><br />
+<a href="../../wp-content/uploads/2019/01/TLJS_3.png"><img class="alignnone size-full wp-image-404" src="../../wp-content/uploads/2019/01/TLJS_3.png" alt="" width="877" height="729" srcset="../../wp-content/uploads/2019/01/TLJS_3.png 877w, ../../wp-content/uploads/2019/01/TLJS_3-300x249.png 300w, ../../wp-content/uploads/2019/01/TLJS_3-768x638.png 768w, ../../wp-content/uploads/2019/01/TLJS_3-640x532.png 640w" sizes="(max-width: 639px) 98vw, (max-width: 1199px) 64vw, 770px" /></a><br />
+</span></li>
+<li>Confirm that an image of your Timeline is visible in the Text block. (Note; the features of your Timeline will not work on the Admin side of your page.) Click Save Changes. To view and use your Timeline, click View Public Page.</li>
+</ol>
+<p>Note that if you are not using Omeka.net, you may need to update the HTML permissions for your Omeka site to embed visualizations. You can do so by clicking Settings and navigating to the Security tab. In the HTML Filtering section, add iframe to the list of Allowed HTML Elements. Then in the Allowed HTML Attributes section, add  iframe.src,iframe.width,iframe.height to the list (pay attention to spacing and punctuation). Click to Save Changes.</p>
+			</div>
+	<footer>
+					</footer>
+</article>
+				
+
+					</main>
+	</div>
+</div>
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-grid">
+                        <div class="logos">
+                <img src="../../wp-content/themes/foundation-press/src/assets/images/rrchnm-logo.png" alt="RRCHNM logo">
+                <img src="../../wp-content/themes/foundation-press/src/assets/images/imls-logo.png" alt="IMLS logo">
+                <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '29']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BP_Nouveau = {"ajaxurl":"https:\/\/locallinkages.org\/wp-admin\/admin-ajax.php","confirm":"Are you sure?","show_x_comments":"Show all %d comments","unsaved_changes":"Your profile has unsaved changes. If you leave the page, the changes will be lost.","object_nav_parent":"#buddypress","objects":["activity","members","groups","blogs","xprofile","friends","messages","settings","notifications","group_members","group_requests"],"nonces":{"activity":"0b0750ebbd","members":"7ba2326ee6","groups":"2a5257fb13","blogs":"f14f355bbd","xprofile":"c4676c923a","friends":"3bbefcd3f9","messages":"be9775f544","settings":"b2ce5e51cf","notifications":"2a6be3f4b5"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/plugins/buddypress/bp-templates/bp-nouveau/js/buddypress-nouveau.min.js%3Fver=6.2.0'></script>
+<script type='text/javascript' src='../../wp-includes/js/comment-reply.min.js%3Fver=5.3.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/locallinkages.org\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/plugins/contact-form-7/includes/js/scripts.js%3Fver=5.2.1'></script>
+<script type='text/javascript' src='../../wp-content/themes/foundation-press/dist/assets/js/app.js%3Fver=2.10.4'></script>
+<script type='text/javascript' src='../../wp-includes/js/wp-embed.min.js%3Fver=5.3.4'></script>
+</body>
+</html>

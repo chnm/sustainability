@@ -5,9 +5,12 @@ BE SURE to retain the DIARY ENTRY and DIARY LINK comment tags for the
 or the date and entry will not update. 
 Run creathome.pl perl script to create home.html.
 See readme_creathome.txt. -->
-<html>
+<html lang="en">
 
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="a11y.css">
+
 
 <title>DoHistory Home</title>
 <meta name="keywords" content="history, A Midwife's Tale, Martha Ballard, American history, digital, education, early American, women's history, midwife, medicine, gener, female, eighteenth century, nineteenth century, diary, historiography, learn, educational, teach, Maine">
@@ -262,6 +265,10 @@ function MM_initTimelines() {
 
 
 <body bgcolor="#333366" text="#CCCC99" link="#CCCC66" vlink="#999966" alink="#CCCC33">
+<div class="notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a href="https://rrchnm.org" target="_blank" rel="noopener"><img src="rrchnm_logo.png" alt="RRCHNM Logo" style="height: 30px; margin-right: 15px;"/></a>
+    <div>This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig Center for History and New Media</a>.</div>
+</div>
 <table border="0" cellpadding="0" cellspacing="0" width="619">
   <tr><!-- Shim row, height 1. --> 
     <td><img src="homeImages/shim.gif" width="9" height="1" border="0" alt=""></td>
@@ -278,7 +285,7 @@ function MM_initTimelines() {
   </tr>
   <tr><!-- row 1 --> 
     <td rowspan="17"><img name="home22a_r01_c01" src="homeImages/home2-2a_r01_c01.gif" width="9" height="399" border="0" alt=""></td>
-    <td><img name="doHistoryTitle" src="homeImages/doHistoryTitle.gif" width="164" height="42" border="0" alt="DoHistory"></td>
+    <td><span role="heading" aria-level="1"><img name="doHistoryTitle" src="homeImages/doHistoryTitle.gif" width="164" height="42" border="0" alt="DoHistory"></span></td>
     <td rowspan="2" colspan="8" valign="top"><font size="2" face="Arial, Helvetica, sans-serif">A 
       site that shows you how to piece together<br>
       the past from the fragments that have<br>

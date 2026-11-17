@@ -1,1 +1,6 @@
-<? mwGetCgi('instructions_again') || !mwGetSsv('instructions_seen') ?>    instructions here do this do that    <{ mwSetSsv('instructions_seen', 1) }><::>    <a href="<<>>&instructions_again=1">[see instructions again]</a><??>
+<html lang="en"><head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../../../a11y.css">
+<title>instructions</title></head>
+<? mwGetCgi('instructions_again') || !mwGetSsv('instructions_seen') ?>    instructions here do this do that    <{ mwSetSsv('instructions_seen', 1) }><::>    <a href="<<>>&instructions_again=1">[see instructions again]</a><??>
+</html>

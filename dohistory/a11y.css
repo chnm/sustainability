@@ -1,0 +1,66 @@
+/* Accessibility fixes layered over the archived DoHistory styles (chnm/sustainability#147). */
+
+.skip-link { position: absolute; left: -9999px; top: 0; z-index: 10000; padding: 8px 12px; background: #fff; color: #333366; border: 2px solid #333366; font: 14px/1.4 Arial, Helvetica, sans-serif; }
+.skip-link:focus { left: 8px; top: 8px; }
+:focus-visible { outline: 3px solid #333366 !important; outline-offset: 1px; box-shadow: 0 0 0 6px #ffffcc; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* 1.4.3 contrast: a few colours in the original palette fall under 4.5:1 */
+font[color="#6666CC"] { color: #b8b8ff; }                                   /* file sizes on the dark diary pages */
+body[bgcolor="#FFFFFF"][text="#CCCC99"] { color: #666633; }                 /* archive pages: default text on white */
+body[bgcolor="#FFFFFF"][link="#CCCC66"] a:link { color: #666633; }
+body[bgcolor="#FFFFFF"][vlink="#999966"] a:visited, body[bgcolor="#FFFFFF"][vlink="#999933"] a:visited { color: #666633; }
+/* ...but not inside the dark bars, where the original colours were fine */
+body[bgcolor="#FFFFFF"] :is(table, tr, td):is([bgcolor="#333366"], [bgcolor="#663333"], [bgcolor="#73261D"]) { color: #cccc99; }
+body[bgcolor="#FFFFFF"] :is(table, tr, td):is([bgcolor="#333366"], [bgcolor="#663333"], [bgcolor="#73261D"]) :is(a:link, a:visited):not(td[bgcolor="#FFFFFF"] *) { color: #cccc66; }
+body[bgcolor="#FFFFFF"] td[bgcolor="#FFFFFF"] { color: #666633; }
+body[bgcolor="#FFFFFF"] td[bgcolor="#FFFFFF"] :is(a:link, a:visited) { color: #666633; }
+body[bgcolor="#333366"] a:visited, body[bgcolor="#73261D"] a:visited { color: #cccc99; }
+font[color="#666600"] { color: #333300; }                                   /* footer link on on_your_own */
+body[link="#949494"] a:link, body[link="#949494"] a:visited, body[link="949494"] a:link, body[link="949494"] a:visited { color: #5c5c5c; } /* book chapters */
+:is(table, tr, td):is([bgcolor="#663333"], [bgcolor="663333"]),
+:is(table, tr, td):is([bgcolor="#663333"], [bgcolor="663333"]) :is(a:link, a:visited, font[color="#999999"], font[color="#666666"], font[color="#660000"]):not(td[bgcolor="#FFFFFF"] *) { color: #e0e0e0; }
+tr[bgcolor="#CCCC66"] > td > table td:not([bgcolor]) font:not([color]) { color: #333366; } /* "|" separators in the home footer */
+font[color="#999900"] { color: #666600; }
+font[color="669966"], font[color="#669966"] { color: #336633; }
+body[link="#ED181E"] a:link { color: #c8101a; }
+.notice { color: #222; font-family: Arial, Helvetica, sans-serif; }
+.notice a { color: #1a4d8f !important; text-decoration: underline !important; }
+
+/* axe cannot see a <tr bgcolor> behind a cell, so the cells carry the row colour themselves */
+tr[bgcolor="#333366"] > td:not([bgcolor]) { background-color: #333366; }
+tr[bgcolor="#663333"] > td:not([bgcolor]) { background-color: #663333; }
+tr[bgcolor="#73261D"] > td:not([bgcolor]) { background-color: #73261D; }
+tr[bgcolor="#CCCC66"] > td:not([bgcolor]) { background-color: #CCCC66; }
+
+/* 2.5.8 target size: text links get a 24px-tall hit area without moving the text; sliced nav images are 13-16px tall and the footer links sit in 15px cells */
+a:not(:has(img)) { padding-top: 6px; padding-bottom: 6px; }
+/* links stacked line after line would overlap each other's hit area, so they take their own line box */
+a:not(:has(img)):is(:has(+ br), dt > a, dd > a, li > a, td > a:only-child, font > a:only-child, b > a:only-child) { display: inline-block; max-width: 100%; }
+/* the year-at-a-glance calendars: links span several lines, so space the lines instead */
+font[face="Courier New, Courier, mono"] { line-height: 26px; }
+font[face="Courier New, Courier, mono"] a { display: inline; }
+td[align="right"] > a:not(:has(img)), td[width="15%"] a:not(:has(img)) { display: inline-block; }
+/* page-number and footnote links are one or two digits wide */
+a[href^="#"]:not(.skip-link):not(:has(img)) { display: inline-block; min-width: 24px; text-align: center; }
+td[height="15"], td[height="20"] { height: auto !important; }
+td[height="15"] a, td[height="20"] a { display: inline-block; min-width: 24px; padding: 6px 3px; }
+a:has(> img[src*="nav/"]), a:has(> img[src*="MenuImages/"]) { display: inline-block; padding: 6px 2px; }
+a:has(> img[src$="prev.gif"]), a:has(> img[src$="next.gif"]), a:has(> img[src$="_pg.gif"]), a:has(> img[src$="_ch.gif"]) { display: inline-block; padding: 6px; }
+input, select, button { min-height: 24px; }
+
+/* 1.4.10 reflow: the fixed-width table layouts linearize on narrow screens.
+   Sliced-image mosaics (home, diary menu), image maps and the timeline strips keep their grid and scroll sideways. */
+@media (max-width: 800px) {
+  body { margin: 8px; overflow-wrap: break-word; }
+  table:not(:has(th)):not(:has(img[usemap])):not(:has(img[src*="shim.gif"])):not([width="5400"]):not([width="5700"]):not([width="7500"]):not([width="10000"]),
+  table:not(:has(th)):not(:has(img[usemap])):not(:has(img[src*="shim.gif"])):not([width="5400"]):not([width="5700"]):not([width="7500"]):not([width="10000"]) > tbody,
+  table:not(:has(th)):not(:has(img[usemap])):not(:has(img[src*="shim.gif"])):not([width="5400"]):not([width="5700"]):not([width="7500"]):not([width="10000"]) > * > tr,
+  table:not(:has(th)):not(:has(img[usemap])):not(:has(img[src*="shim.gif"])):not([width="5400"]):not([width="5700"]):not([width="7500"]):not([width="10000"]) > * > tr > td
+    { display: block; width: auto !important; height: auto !important; max-width: 100%; }
+  table:has(th), table:has(img[usemap]), table:has(img[src*="shim.gif"]), table[width="5400"], table[width="5700"], table[width="7500"], table[width="10000"] { display: block; overflow-x: auto; max-width: 100%; }
+  img, video, iframe, embed, object, textarea, input, select { max-width: 100%; }
+  img { height: auto; }
+  img[usemap] { max-width: none; }
+  nobr, pre { white-space: normal; }
+}

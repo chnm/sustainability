@@ -5,9 +5,12 @@ BE SURE to retain the DIARY ENTRY and DIARY LINK comment tags for the
 or the date and entry will not update. 
 Run creathome.pl perl script to create home.html.
 See readme_creathome.txt. -->
-<html>
+<html lang="en">
 
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="a11y.css">
+
 
 <title>DoHistory Home</title>
 <meta name="keywords" content="history, A Midwife's Tale, Martha Ballard, American history, digital, education, early American, women's history, midwife, medicine, gener, female, eighteenth century, nineteenth century, diary, historiography, learn, educational, teach, Maine">
@@ -262,6 +265,10 @@ function MM_initTimelines() {
 
 
 <body bgcolor="#333366" text="#CCCC99" link="#CCCC66" vlink="#999966" alink="#CCCC33">
+<div class="notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a href="https://rrchnm.org" target="_blank" rel="noopener"><img src="rrchnm_logo.png" alt="RRCHNM Logo" style="height: 30px; margin-right: 15px;"/></a>
+    <div>This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank" rel="noopener">Roy Rosenzweig Center for History and New Media</a>.</div>
+</div>
 <table border="0" cellpadding="0" cellspacing="0" width="619">
   <tr><!-- Shim row, height 1. --> 
     <td><img src="homeImages/shim.gif" width="9" height="1" border="0" alt=""></td>
@@ -278,7 +285,7 @@ function MM_initTimelines() {
   </tr>
   <tr><!-- row 1 --> 
     <td rowspan="17"><img name="home22a_r01_c01" src="homeImages/home2-2a_r01_c01.gif" width="9" height="399" border="0" alt=""></td>
-    <td><img name="doHistoryTitle" src="homeImages/doHistoryTitle.gif" width="164" height="42" border="0" alt="DoHistory"></td>
+    <td><span role="heading" aria-level="1"><img name="doHistoryTitle" src="homeImages/doHistoryTitle.gif" width="164" height="42" border="0" alt="DoHistory"></span></td>
     <td rowspan="2" colspan="8" valign="top"><font size="2" face="Arial, Helvetica, sans-serif">A 
       site that shows you how to piece together<br>
       the past from the fragments that have<br>
@@ -298,7 +305,7 @@ function MM_initTimelines() {
     <td><img src="homeImages/shim.gif" width="1" height="34" border="0" alt=""></td>
   </tr>
   <tr><!-- row 4 --> 
-    <td><A HREF="interests/index.html" onMouseover="menu_active = true; activateMenu(true); rollOver('interests_heading','on'); dm(interests_heading_stat); return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_heading','off'); dm('')"><IMG NAME="interests_heading" SRC="homeImages/interests_heading_off.gif" WIDTH="164" HEIGHT="23" BORDER="0" ALT="If you're interested in... "></A></td>
+    <td><A HREF="interests/index.html" onFocus="menu_active = true; activateMenu(true); rollOver('interests_heading','on')" onBlur="deactivateMenu(); rollOver('interests_heading','off')" onMouseover="menu_active = true; activateMenu(true); rollOver('interests_heading','on'); dm(interests_heading_stat); return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_heading','off'); dm('')"><IMG NAME="interests_heading" SRC="homeImages/interests_heading_off.gif" WIDTH="164" HEIGHT="23" BORDER="0" ALT="If you're interested in... "></A></td>
     <td rowspan="3" colspan="3"><img name="doingHistoryPics" src="homeImages/doingHistoryPics.jpg" width="202" height="91" border="0" alt=""></td>
     <td rowspan="5" colspan="2"><img name="bookPic" src="homeImages/bookPic.jpg" width="80" height="125" border="0" alt=""></td>
     <td colspan="3"><img name="home22a_r04_c08" src="homeImages/home2-2a_r04_c08.gif" width="164" height="23" border="0" alt=""></td>
@@ -307,13 +314,13 @@ function MM_initTimelines() {
   <tr><!-- row 5 --> 
     <td rowspan="6">
       <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0">
-        <TR><TD><A HREF="interests/i_martha.html" onMouseover="activateMenu(); if(menu_active) { dm(interests_martha_stat); rollOver('interests_martha','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_martha','off'); dm('')" onClick="return (menu_active)"><IMG NAME="interests_martha" SRC="homeImages/interests_martha_on.gif" WIDTH="164" HEIGHT="16" BORDER="0" ALT="Martha Ballard"></A></TD></TR>
-        <TR><TD><A HREF="interests/i_genealogy.html" onMouseover="activateMenu(); if(menu_active) { dm(interests_genealogy_stat); rollOver('interests_genealogy','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_genealogy','off'); dm('')" onClick="return (menu_active)"><IMG NAME="interests_genealogy" SRC="homeImages/interests_genealogy_on.gif" WIDTH="164" HEIGHT="18" BORDER="0" ALT="Genealogy"></A></TD></TR>
-        <TR><TD><A HREF="interests/i_primarysources.html" onMouseover="activateMenu(); if(menu_active) { dm(interests_psources_stat); rollOver('interests_psources','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_psources','off'); dm('')" onClick="return (menu_active)"><IMG NAME="interests_psources" SRC="homeImages/interests_psources_on.gif" WIDTH="164" HEIGHT="18" BORDER="0" ALT="How to use primary sources"></A></TD></TR>
-        <TR><TD><A HREF="interests/i_midwiferyherbal.html" onMouseover="activateMenu(); if(menu_active) { dm(interests_midwifery_stat); rollOver('interests_midwifery','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_midwifery','off'); dm('')" onClick="return (menu_active)"><IMG NAME="interests_midwifery" SRC="homeImages/interests_midwifery_on.gif" WIDTH="164" HEIGHT="18" BORDER="0" ALT="Midwifery &amp; herbal medicine"></A></TD></TR>
-        <TR><TD><A HREF="interests/i_teaching.html" onMouseover="activateMenu(); if(menu_active) { dm(interests_teaching_stat); rollOver('interests_teaching','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_teaching','off'); dm('')" onClick="return (menu_active)"><IMG NAME="interests_teaching" SRC="homeImages/interests_teaching_on.gif" WIDTH="164" HEIGHT="18" BORDER="0" ALT="Teaching with this Web site"></A></TD></TR>
-        <TR><TD><A HREF="interests/i_diaries.html" onMouseover="activateMenu(); if(menu_active) { dm(interests_diaries_stat); rollOver('interests_diaries','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_diaries','off'); dm('')" onClick="return (menu_active)"><IMG NAME="interests_diaries" SRC="homeImages/interests_diaries_on.gif" WIDTH="164" HEIGHT="18" BORDER="0" ALT="Diaries"></A></TD></TR>
-        <TR><TD><A HREF="interests/i_film.html" onMouseover="activateMenu(); if(menu_active) { dm(interests_film_stat); rollOver('interests_film','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_film','off'); dm('')" onClick="return (menu_active)"><IMG NAME="interests_film" SRC="homeImages/interests_film_on.gif" WIDTH="164" HEIGHT="24" BORDER="0" ALT="Films about the past"></A></TD></TR>
+        <TR><TD><A HREF="interests/i_martha.html" onFocus="menu_active = true; activateMenu()" onBlur="deactivateMenu()" onMouseover="activateMenu(); if(menu_active) { dm(interests_martha_stat); rollOver('interests_martha','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_martha','off'); dm('')"><IMG NAME="interests_martha" SRC="homeImages/interests_martha_on.gif" WIDTH="164" HEIGHT="16" BORDER="0" ALT="Martha Ballard"></A></TD></TR>
+        <TR><TD><A HREF="interests/i_genealogy.html" onFocus="menu_active = true; activateMenu()" onBlur="deactivateMenu()" onMouseover="activateMenu(); if(menu_active) { dm(interests_genealogy_stat); rollOver('interests_genealogy','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_genealogy','off'); dm('')"><IMG NAME="interests_genealogy" SRC="homeImages/interests_genealogy_on.gif" WIDTH="164" HEIGHT="18" BORDER="0" ALT="Genealogy"></A></TD></TR>
+        <TR><TD><A HREF="interests/i_primarysources.html" onFocus="menu_active = true; activateMenu()" onBlur="deactivateMenu()" onMouseover="activateMenu(); if(menu_active) { dm(interests_psources_stat); rollOver('interests_psources','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_psources','off'); dm('')"><IMG NAME="interests_psources" SRC="homeImages/interests_psources_on.gif" WIDTH="164" HEIGHT="18" BORDER="0" ALT="How to use primary sources"></A></TD></TR>
+        <TR><TD><A HREF="interests/i_midwiferyherbal.html" onFocus="menu_active = true; activateMenu()" onBlur="deactivateMenu()" onMouseover="activateMenu(); if(menu_active) { dm(interests_midwifery_stat); rollOver('interests_midwifery','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_midwifery','off'); dm('')"><IMG NAME="interests_midwifery" SRC="homeImages/interests_midwifery_on.gif" WIDTH="164" HEIGHT="18" BORDER="0" ALT="Midwifery &amp; herbal medicine"></A></TD></TR>
+        <TR><TD><A HREF="interests/i_teaching.html" onFocus="menu_active = true; activateMenu()" onBlur="deactivateMenu()" onMouseover="activateMenu(); if(menu_active) { dm(interests_teaching_stat); rollOver('interests_teaching','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_teaching','off'); dm('')"><IMG NAME="interests_teaching" SRC="homeImages/interests_teaching_on.gif" WIDTH="164" HEIGHT="18" BORDER="0" ALT="Teaching with this Web site"></A></TD></TR>
+        <TR><TD><A HREF="interests/i_diaries.html" onFocus="menu_active = true; activateMenu()" onBlur="deactivateMenu()" onMouseover="activateMenu(); if(menu_active) { dm(interests_diaries_stat); rollOver('interests_diaries','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_diaries','off'); dm('')"><IMG NAME="interests_diaries" SRC="homeImages/interests_diaries_on.gif" WIDTH="164" HEIGHT="18" BORDER="0" ALT="Diaries"></A></TD></TR>
+        <TR><TD><A HREF="interests/i_film.html" onFocus="menu_active = true; activateMenu()" onBlur="deactivateMenu()" onMouseover="activateMenu(); if(menu_active) { dm(interests_film_stat); rollOver('interests_film','on') } else { dm('') } return true" onMouseout="deactivateMenu(); if(menu_active) rollOver('interests_film','off'); dm('')"><IMG NAME="interests_film" SRC="homeImages/interests_film_on.gif" WIDTH="164" HEIGHT="24" BORDER="0" ALT="Films about the past"></A></TD></TR>
       </TABLE>
       <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
         <!--

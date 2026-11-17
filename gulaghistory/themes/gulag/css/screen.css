@@ -192,3 +192,33 @@ div.error {font-size:1.5em; line-height:1.33333em; margin:1.33333em 0;}
 	#footer .navigation {float:right; width: 372px; text-align:right;}
 	#footer .navigation li {margin-left:9px;}
 	#footer .footer-meta {float:left; width: 450px;}
+
+/* WCAG 2.2 AA fixes: scripts/gulaghistory_a11y.py */
+/* 2.4.1: skip link, visible on focus. */
+.a11y-skip { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: 8px 12px; background: #fff; color: #000; }
+.a11y-skip:focus { left: 8px; top: 8px; }
+/* 2.4.7: a focus ring that shows on the blue header and the pale panels. */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, audio:focus-visible, video:focus-visible {
+  outline: 3px solid #1d3f61; outline-offset: 2px; }
+#header a:focus-visible { outline-color: #fff; }
+/* 1.4.3: #369 links on the #B5C7DA pager and current tab were 3.5:1 (anchored on #content to beat .archive a:link). */
+#content .pagination a:link, #content .pagination a:visited, #content #secondary-nav .current a { color: #1d3f61; }
+/* 1.4.1: links in running text and exhibit breadcrumbs are underlined. */
+#content p a, #content li a, #content td a, #content h1 a { text-decoration: underline; }
+/* 2.5.8: stacked file links and tag links get 24px targets. */
+#content .item-file a, #content .tags a, #content [class*="popular"] a {
+  display: inline-block; min-height: 24px; min-width: 24px; line-height: 24px; text-align: center; }
+#content .item-file { margin-bottom: 4px; }
+/* 1.4.10: the 940px layout stacks into one column at narrow widths. */
+@media (max-width: 959px) {
+  body { min-width: 0 !important; }
+  #header #primary-nav { position: static; }
+  #wrap, #wrap div, #wrap ul, #wrap h1, #wrap h2, #wrap h3, #wrap p, #footer, #footer div, #footer ul {
+    width: auto !important; max-width: 100%; float: none !important; box-sizing: border-box; }
+  #wrap img, #wrap video, #wrap audio, #wrap object, #wrap iframe { max-width: 100%; height: auto; }
+  #header h1 a, .home #header h1 a { max-width: 100%; background-size: contain; }
+  #wrap table { display: block; overflow-x: auto; }
+}
+/* 1.4.3: links on the #C7D5E3 panels (home features, podcast blurb) were #369 at 4.0:1. */
+#blurb-about a:link, #blurb-about a:visited, .home .featured a:link, .home .featured a:visited { color: #1d3f61; }
+/* end WCAG 2.2 AA fixes */

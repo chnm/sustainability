@@ -319,3 +319,28 @@ h2.sectiontitle {margin-left: -1000em; width:0 !important;line-height:0; overflo
 
 #footer p {margin-bottom:0 ;text-align:right;}
 #footer img {margin-left: 24px; float:left;}
+
+/* WCAG 2.2 AA fixes: scripts/gulaghistory_a11y.py */
+/* 1.4.3: #606060 footer text and links on #111 were 3:1. */
+#footer, #footer p, #footer a:link, #footer a:visited { color: #a3a3a3; }
+/* 1.4.3: links were #999 on white (2.8:1), the current tab #777 (4.5:1 at 11px), section titles #8493A5 (3:1). */
+a:link, a:visited { color: #595959; }
+#footer a:link, #footer a:visited { color: #a3a3a3; }
+#reflections #reflections_nav a, #online #online_nav a, #traveling #traveling_nav a,
+#resources #teacher_nav a, #about #about_nav a, #onlinenav li.on li a, #aboutnav li.on li a { color: #595959; }
+#onlinenav li.on a, #aboutnav li.on a { color: #3d5a7a; }
+#navigation a:link, #navigation a:visited { color: #fff; }
+h2, h5 { color: #595959; }
+/* 1.4.10: the 750px layout stacks into one column at narrow widths. */
+@media (max-width: 769px) {
+  body, html { min-width: 0 !important; width: auto !important; }
+  #header h1 { height: auto; }
+  #wrap, #wrap div, #wrap ul, #wrap h1, #wrap h2, #wrap p {
+    width: auto !important; max-width: 100%; float: none !important; box-sizing: border-box; }
+  #wrap img { max-width: 100%; height: auto; }
+  #header ul#navigation li { width: auto !important; float: none; }
+  /* The museum map's hotspots sit over a fixed-size image; it scrolls instead (maps are exempt). */
+  #museummap { overflow-x: auto; }
+}
+a:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+/* end WCAG 2.2 AA fixes */

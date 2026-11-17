@@ -1,6 +1,6 @@
-<HTML>
+<html lang="en">
 <HEAD>
-<TITLE>The Sonic Memorial Project</TITLE>
+<title>History and Time | The Sonic Memorial Project</title>
 
 
 <LINK REL="stylesheet" HREF="styles.css" TYPE="text/css">	
@@ -19,7 +19,8 @@ function assetsWindow(assetURL) {
 if( assetURL.indexOf(".mp3")>-1){
 	assetWindow = window.open ('','sndWin','toolbar=no,status=yes,resizable=no,width=200,height=100');
 	assetWindow.document.open();
-	assetWindow.document.write('<HTML><HEAD><TITLE>The Sonic Memorial Project<\/TITLE><\/HEAD><BODY BGCOLOR=FFFEDC><font size="middle" color="#FF6600" face="sans-serif"><b>Audio:<\/b><br><\/font><center><EMBED SRC='+assetURL+' VOLUME=50 HEIGHT=60 WIDTH=144><\/center><\/BODY><\/HTML>');
+	assetWindow.document.write('<HTML><HEAD><TITLE>The Sonic Memorial Project<\/TITLE><\/HEAD><BODY BGCOLOR=FFFEDC>
+<a class="skip-link" href="#content">Skip to content</a><font size="middle" color="#FF6600" face="sans-serif"><b>Audio:<\/b><br><\/font><center><EMBED SRC='+assetURL+' VOLUME=50 HEIGHT=60 WIDTH=144><\/center><\/BODY><\/HTML>');
 } 
 	assetWindow.document.close();
 	assetWindow.focus();
@@ -45,10 +46,12 @@ if( assetURL.indexOf(".mp3")>-1){
 </script>
 <!-- End Matomo Code -->
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="a11y.css" type="text/css">
 </head>
 <BODY BACKGROUND="images/pop_bg.gif" BGCOLOR="#FFFEDC" TEXT="#000033" LINK="#FF6600" ALINK="#FF3300" VLINK="#FF6600" TOPMARGIN="20" LEFTMARGIN="0" MARGINHEIGHT="20" MARGINWIDTH="0">
 <div class="notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
-    <a href="https://rrchnm.org" target="_blank"><img src="https://sonicmemorial.org/images/nav/rrchnm_logo.png" alt="RRCHNM Logo" style="height: 30px; margin-right: 15px;"/></a>
+    <a href="https://rrchnm.org" target="_blank"><img src="images/nav/rrchnm_logo.png" alt="RRCHNM Logo" style="height: 30px; margin-right: 15px;"/></a>
     <div>
     This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank">Roy Rosenzweig Center for History and New Media</a>.
     </div>
@@ -62,14 +65,14 @@ if( assetURL.indexOf(".mp3")>-1){
 <!-- *** ABOUT THE SONIC MEMORIAL PROJECT *** -->
 <TABLE WIDTH="690" BORDER="0" CELLPADDING="0" CELLSPACING="0">
 <TR>
-	<TD WIDTH="50"><IMG SRC="images/spacer.gif" WIDTH="50" HEIGHT="1" BORDER="0"></TD>
+	<TD WIDTH="50"><img alt="" SRC="images/spacer.gif" WIDTH="50" HEIGHT="1" BORDER="0"></TD>
 	<TD WIDTH="640" CLASS="txt11Yellow">
 	
 		<TABLE WIDTH="640" BORDER="0" CELLPADDING="2" CELLSPACING="0">
 		<FORM NAME="nav">
 		<TR>
 		<TD ALIGN="right" CLASS="txt11Yellow">
-		<SELECT NAME="pulldown" ONCHANGE="go();" STYLE="width:250px; height:17px; background-color:FF6600; font-size:10px; font-weight:bold; color:#ffffff; font-family:arial,verdana;">
+		<SELECT NAME="pulldown" STYLE="width:250px; height:17px; background-color:FF6600; font-size:10px; font-weight:bold; color:#ffffff; font-family:arial,verdana;" aria-label="Go to another page">
 		<OPTION>Other Lesson Modules
 		<OPTION>----------
 		<!--<option value="educators_mod_history.html">History and Time-->
@@ -79,8 +82,8 @@ if( assetURL.indexOf(".mp3")>-1){
 		<OPTION VALUE="educators_mod_culture.html">Culture and Identity
 		<OPTION VALUE="educators_mod_911.html">How to Talk about 9/11
 		<option>--------------
-		<OPTION VALUE="contact_us.jsp">Share Your Experience
-		</SELECT>
+		<OPTION VALUE="contact_us.jsp.html">Share Your Experience
+		</SELECT> <button type="button" class="sm-go" onclick="var s=this.previousElementSibling, o=s.options[s.selectedIndex]; if (o.hasAttribute('value') &amp;&amp; o.value != '#') location.href = o.value;">Go</button>
 		</TD></TR>
 		</form></TABLE>	
 	
@@ -90,10 +93,10 @@ if( assetURL.indexOf(".mp3")>-1){
 <BR>
 <TABLE WIDTH="690" BORDER="0" CELLPADDING="0" CELLSPACING="0">
 <TR>
-	<TD><IMG SRC="images/spacer.gif" WIDTH="50" HEIGHT="1" BORDER="0" VSPACE="2"></TD>	
-	<TD COLSPAN="3" CLASS="txt12BlueB"><IMG SRC="images/dotline640_blue1.gif" WIDTH="640" HEIGHT="1" BORDER="0"><BR>
-	<IMG SRC="images/dotline640_blue2.gif" WIDTH="640" HEIGHT="1" BORDER="0" VSPACE="2"><BR><BR>
-	<SPAN CLASS="txt16Orange">History and Time</SPAN>
+	<TD><img alt="" SRC="images/spacer.gif" WIDTH="50" HEIGHT="1" BORDER="0" VSPACE="2"></TD>	
+	<TD COLSPAN="3" CLASS="txt12BlueB"><img alt="" SRC="images/dotline640_blue1.gif" WIDTH="640" HEIGHT="1" BORDER="0"><BR>
+	<img alt="" SRC="images/dotline640_blue2.gif" WIDTH="640" HEIGHT="1" BORDER="0" VSPACE="2"><BR><BR>
+	<h1 class="txt16Orange sm-h" id="content" tabindex="-1">History and Time</h1>
 	<BR><BR>
 	This series of lessons is designed to help students identify important events and place them along a specific continuum&#151;in this case, the time span of the World Trade Center's existence. It also creates a forum for discussing how individual memory plays a role in the creation of history. We each bring perspectives and values to events and artifacts. These perspectives help us define how and why we remember, causing the event, place, or person to take on a new identity in memoriam. The Sonic Memorial Project examines individual stories as a part of the historical record.
 	<BR><BR>
@@ -108,8 +111,8 @@ if( assetURL.indexOf(".mp3")>-1){
 		</TR></TABLE>
 		
 	<BR><BR>
-	<IMG SRC="images/dotline640_blue1.gif" WIDTH="640" HEIGHT="1" BORDER="0"><BR>
-      <IMG SRC="images/dotline640_blue2.gif" WIDTH="640" HEIGHT="1" BORDER="0" VSPACE="2"><br>
+	<img alt="" SRC="images/dotline640_blue1.gif" WIDTH="640" HEIGHT="1" BORDER="0"><BR>
+      <img alt="" SRC="images/dotline640_blue2.gif" WIDTH="640" HEIGHT="1" BORDER="0" VSPACE="2"><br>
 	</TD>		
 </TR>
 </TABLE>
@@ -119,9 +122,9 @@ if( assetURL.indexOf(".mp3")>-1){
 <!-- ******** START LESSON 1 ***** -->
 <TABLE WIDTH="690" BORDER="0" CELLPADDING="0" CELLSPACING="0">
 <TR VALIGN="top">
-	<TD WIDTH="50"><IMG SRC="images/spacer.gif" WIDTH="50" HEIGHT="1" BORDER="0"></TD>
+	<TD WIDTH="50"><img alt="" SRC="images/spacer.gif" WIDTH="50" HEIGHT="1" BORDER="0"></TD>
 	<!-- ******** LEDFT COLUMN ***** -->
-	<TD WIDTH="400" CLASS="txt12Blue"><SPAN CLASS="txt16Orange">Lesson 1: Time Capsules</SPAN>
+	<TD WIDTH="400" CLASS="txt12Blue"><h2 class="txt16Orange sm-h">Lesson 1: Time Capsules</h2>
 	<BR><BR>
 	<B>Time capsules have long been a popular way to send a message from a certain era into the future. When construction began on the WTC, work crews excavated a time capsule from the turn of the century. <I>The New York Times</I> created a <A HREF="http://www.nytimes.com/library/magazine/millennium/timecapsule/" TARGET="_blank">website for the millennium</A> to collect people's ideas for a national time capsule.
 	<BR><BR>
@@ -129,7 +132,7 @@ if( assetURL.indexOf(".mp3")>-1){
 	<BR><BR><BR>
 	
 	<SPAN CLASS="txt12BlueB">KEY QUESTIONS</SPAN><BR>
-	<IMG SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>
+	<img alt="" SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>
 	
 		<TABLE BORDER="0" CELLPADDING0 CELLSPACING="0">
 		<TR VALIGN="top"><TD CLASS="txt12BlueB">&raquo; </TD>
@@ -146,7 +149,7 @@ if( assetURL.indexOf(".mp3")>-1){
 	<BR><BR>
 	
 	<SPAN CLASS="txt12BlueB">JOURNAL WRITING</SPAN><BR>
-	<IMG SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>
+	<img alt="" SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>
 	
 		<TABLE BORDER="0" CELLPADDING0 CELLSPACING="0">
 		<TR VALIGN="top"><TD CLASS="txt12BlueB">&raquo; </TD>
@@ -157,7 +160,7 @@ if( assetURL.indexOf(".mp3")>-1){
 	<BR><BR>
 	
 	<SPAN CLASS="txt12BlueB">BRAINSTORM</SPAN><BR>
-	<IMG SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>	
+	<img alt="" SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>	
 
 		<TABLE BORDER="0" CELLPADDING0 CELLSPACING="0">
 		<TR VALIGN="top"><TD CLASS="txt12BlueB">&raquo; </TD>
@@ -168,7 +171,7 @@ if( assetURL.indexOf(".mp3")>-1){
 	<BR><BR>
  
 	<SPAN CLASS="txt12BlueB">GALLERY DISCUSSION</SPAN><BR>
-	<IMG SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>		
+	<img alt="" SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>		
 
 		<TABLE BORDER="0" CELLPADDING0 CELLSPACING="0">
 		<TR VALIGN="top"><TD CLASS="txt12BlueB">&raquo; </TD>
@@ -181,7 +184,7 @@ if( assetURL.indexOf(".mp3")>-1){
 	<BR><BR>
 
 	<SPAN CLASS="txt12BlueB">CLASS DISCUSSION</SPAN><BR>
-	<IMG SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>		
+	<img alt="" SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>		
 
 
 		<TABLE BORDER="0" CELLPADDING0 CELLSPACING="0">
@@ -194,7 +197,7 @@ if( assetURL.indexOf(".mp3")>-1){
 
 	
 	<SPAN CLASS="txt12BlueB">FOLLOW-UP ACTIVITIES:</SPAN><BR>
-	<IMG SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>		
+	<img alt="" SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>		
 	
 		<TABLE BORDER="0" CELLPADDING0 CELLSPACING="0">
 		<TR VALIGN="top"><TD CLASS="txt12BlueB">&raquo; </TD>
@@ -211,25 +214,25 @@ if( assetURL.indexOf(".mp3")>-1){
 	<BR><BR>
 	</TD>
 	<!-- ******** END LEFT COLUMN ***** -->
-	<TD WIDTH="20"><IMG SRC="images/spacer.gif" WIDTH="20" HEIGHT="1" BORDER="0"></TD>
+	<TD WIDTH="20"><img alt="" SRC="images/spacer.gif" WIDTH="20" HEIGHT="1" BORDER="0"></TD>
 	<!-- ******** RIGHT COLUMN ***** -->
 	<TD WIDTH="220" BGCOLOR="#FFEDB1">
 
 		<TABLE WIDTH="210" BORDER="0" CELLPADDING="0" CELLSPACING="0">
 		<TR><TD COLSPAN="3"><div align="right">
-              <p class="captionBlue"><A HREF="Javascript:Pop('audiohelp.html','0');"><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="5" BORDER="0"><br>
+              <p class="captionBlue"><A href="audiohelp.html"><img alt="" SRC="images/spacer.gif" WIDTH="1" HEIGHT="5" BORDER="0"><br>
 [Audio Help]</a><br>
             </div></TD></TR>
 		<TR VALIGN="top">
-		<TD WIDTH="6" COLSPAN="2"><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="1" BORDER="0"></TD>
+		<TD WIDTH="6" COLSPAN="2"><img alt="" SRC="images/spacer.gif" WIDTH="1" HEIGHT="1" BORDER="0"></TD>
 		<TD WIDTH="189" CLASS="txt11BlueB">SUGGESTED LISTENING</TD>
 		</TR>
-		<TR><TD COLSPAN="3"><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="10" BORDER="0"></TD></TR>	
+		<TR><TD COLSPAN="3"><img alt="" SRC="images/spacer.gif" WIDTH="1" HEIGHT="10" BORDER="0"></TD></TR>	
 		
 		<!-- /// ITEM 1 /// -->	
 		<TR VALIGN="top">
-		<TD WIDTH="6"><IMG SRC="images/redsquare_left.gif" WIDTH="6" HEIGHT="17" BORDER="0"></TD>
-		<TD WIDTH="25"><IMG SRC="images/edu_01.gif" WIDTH="25" HEIGHT="16" BORDER="0"></TD>
+		<TD WIDTH="6"><img alt="" SRC="images/redsquare_left.gif" WIDTH="6" HEIGHT="17" BORDER="0"></TD>
+		<TD WIDTH="25"><img alt="1" SRC="images/edu_01.gif" WIDTH="25" HEIGHT="16" BORDER="0"></TD>
 		<TD WIDTH="189" CLASS="txt11Blue">Have students listen to three to five audio clips on the website. As they listen, ask them to discuss whether this event or person is historical and worthy of being included on the timeline. 
 <br> <br> </TD>
         </TR>
@@ -301,12 +304,12 @@ if( assetURL.indexOf(".mp3")>-1){
 <!-- ******** START LESSON 2 ***** -->
 <TABLE WIDTH="690" BORDER="0" CELLPADDING="0" CELLSPACING="0">
 <TR VALIGN="top">
-	<TD WIDTH="50"><IMG SRC="images/spacer.gif" WIDTH="50" HEIGHT="1" BORDER="0"></TD>
+	<TD WIDTH="50"><img alt="" SRC="images/spacer.gif" WIDTH="50" HEIGHT="1" BORDER="0"></TD>
 	<!-- ******** LEDFT COLUMN ***** -->
-	<TD WIDTH="400" CLASS="txt12Blue"><SPAN CLASS="txt16Orange">Lesson 2: Timelines</SPAN>
+	<TD WIDTH="400" CLASS="txt12Blue"><h2 class="txt16Orange sm-h">Lesson 2: Timelines</h2>
 	<BR><BR><BR>
 	<SPAN CLASS="txt12BlueB">KEY QUESTIONS</SPAN><BR>
-	<IMG SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>
+	<img alt="" SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>
 	
 		<TABLE BORDER="0" CELLPADDING0 CELLSPACING="0">
 		<TR VALIGN="top"><TD CLASS="txt12BlueB">&raquo; </TD>
@@ -322,7 +325,7 @@ if( assetURL.indexOf(".mp3")>-1){
 	<BR><BR>
 	
 	<SPAN CLASS="txt12BlueB">JOURNAL WRITING</SPAN><BR>
-	<IMG SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>
+	<img alt="" SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>
 	
 		<TABLE BORDER="0" CELLPADDING0 CELLSPACING="0">
 		<TR VALIGN="top"><TD CLASS="txt12BlueB">&raquo; </TD>
@@ -333,7 +336,7 @@ if( assetURL.indexOf(".mp3")>-1){
 	<BR><BR>
 	
 	<SPAN CLASS="txt12BlueB">CLASS DISCUSSION</SPAN><BR>
-	<IMG SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>	
+	<img alt="" SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>	
 
 		<TABLE BORDER="0" CELLPADDING0 CELLSPACING="0">
 		<TR VALIGN="top"><TD CLASS="txt12BlueB">&raquo; </TD>
@@ -341,7 +344,7 @@ if( assetURL.indexOf(".mp3")>-1){
 		<BR><BR>
 		Ask students whether they think all the events listed constitute "history." From this discussion, generate three to four criteria that make an event historical. 
 		<BR><BR>
-		Focus the discussion on the World Trade Center. Visit the Sonic Memorial <A HREF="http://www.sonicmemorial.org/timeline.html" TARGET="_blank" timeline></A>  or the WTC timeline pages of sites such as <A HREF="http://www.infoplease.com/spot/wtc1.html" TARGET="_blank">InfoPlease.com</A>  and the <A HREF="http://www.mcny.org/wtc/wtc.htm" TARGET="_blank">Museum of the City of New York</A> to find specific events and dates in the history of the buildings.
+		Focus the discussion on the World Trade Center. Visit the Sonic Memorial   or the WTC timeline pages of sites such as <A HREF="http://www.infoplease.com/spot/wtc1.html" TARGET="_blank">InfoPlease.com</A>  and the <A HREF="http://www.mcny.org/wtc/wtc.htm" TARGET="_blank">Museum of the City of New York</A> to find specific events and dates in the history of the buildings.
 		<BR><BR>
 		Ask students to create their own World Trade Center timeline. Alternatively, if class time is limited, you can prepare one in advance to hand out. 
 		</TD></TR>
@@ -350,7 +353,7 @@ if( assetURL.indexOf(".mp3")>-1){
 	<BR><BR>
 
 	<SPAN CLASS="txt12BlueB">CLOSING THE LESSON</SPAN><BR>
-	<IMG SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>		
+	<img alt="" SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>		
 
 
 		<TABLE BORDER="0" CELLPADDING0 CELLSPACING="0">
@@ -368,7 +371,7 @@ if( assetURL.indexOf(".mp3")>-1){
 	<BR><BR>
 	
 	<SPAN CLASS="txt12BlueB">FOLLOW-UP ACTIVITIES:</SPAN><BR>
-	<IMG SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>		
+	<img alt="" SRC="images/dotline400_blue1.gif" WIDTH="400" HEIGHT="1" BORDER="0" VSPACE="2"><BR>		
 	
 		<TABLE BORDER="0" CELLPADDING0 CELLSPACING="0">
 		<TR VALIGN="top"><TD CLASS="txt12BlueB">&raquo; </TD>
@@ -384,7 +387,7 @@ if( assetURL.indexOf(".mp3")>-1){
 		
 	<BR><BR>
 	
-	<SPAN CLASS="txt16Orange">Additional Resources</SPAN><BR><BR>		
+	<h2 class="txt16Orange sm-h">Additional Resources</h2><BR><BR>		
 	
 		<TABLE BORDER="0" CELLPADDING0 CELLSPACING="0">
 		<TR VALIGN="top"><TD CLASS="txt12BlueB">&raquo; </TD>
@@ -402,25 +405,25 @@ if( assetURL.indexOf(".mp3")>-1){
 	<BR><BR>
 	</TD>
 	<!-- ******** END LEFT COLUMN ***** -->
-	<TD WIDTH="20"><IMG SRC="images/spacer.gif" WIDTH="20" HEIGHT="1" BORDER="0"></TD>
+	<TD WIDTH="20"><img alt="" SRC="images/spacer.gif" WIDTH="20" HEIGHT="1" BORDER="0"></TD>
 	<!-- ******** RIGHT COLUMN ***** -->
 	<TD WIDTH="220" BGCOLOR="#FFEDB1">
 	
 		<TABLE WIDTH="210" BORDER="0" CELLPADDING="0" CELLSPACING="0">
 		<TR><TD COLSPAN="3"><div align="right">
-              <p class="captionBlue"><A HREF="Javascript:Pop('audiohelp.html','0');"><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="5" BORDER="0"><br>
+              <p class="captionBlue"><A href="audiohelp.html"><img alt="" SRC="images/spacer.gif" WIDTH="1" HEIGHT="5" BORDER="0"><br>
 [Audio Help]</a><br>
             </div></TD></TR>
 		<TR VALIGN="top">
-		<TD WIDTH="6" COLSPAN="2"><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="1" BORDER="0"></TD>
+		<TD WIDTH="6" COLSPAN="2"><img alt="" SRC="images/spacer.gif" WIDTH="1" HEIGHT="1" BORDER="0"></TD>
 		<TD WIDTH="189" CLASS="txt11BlueB">SUGGESTED LISTENING</TD>
 		</TR>
-		<TR><TD COLSPAN="3"><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="10" BORDER="0"></TD></TR>	
+		<TR><TD COLSPAN="3"><img alt="" SRC="images/spacer.gif" WIDTH="1" HEIGHT="10" BORDER="0"></TD></TR>	
 		
 		<!-- /// ITEM 1 /// -->	
 		<TR VALIGN="top">
-		<TD WIDTH="6"><IMG SRC="images/redsquare_left.gif" WIDTH="6" HEIGHT="17" BORDER="0"></TD>
-		<TD WIDTH="25"><IMG SRC="images/edu_02.gif" WIDTH="25" HEIGHT="16" BORDER="0"></TD>
+		<TD WIDTH="6"><img alt="" SRC="images/redsquare_left.gif" WIDTH="6" HEIGHT="17" BORDER="0"></TD>
+		<TD WIDTH="25"><img alt="2" SRC="images/edu_02.gif" WIDTH="25" HEIGHT="16" BORDER="0"></TD>
 		<TD WIDTH="189" CLASS="txt11Blue">Have students listen to three to five audio clips on the website. As they listen, ask them to discuss whether this event or person is historical and worthy of being included on the timeline. 
 <br> <br> </TD>
         </TR><TR VALIGN="top"> 
@@ -438,7 +441,7 @@ if( assetURL.indexOf(".mp3")>-1){
 <!--<TR VALIGN="top"> 
           <TD>&nbsp;</TD>
           <TD><a
-href="edu_audio/history/Yama.mp3')" onMouseOver="status='Listen to Audio';return true;" onMouseOut="status='';" ><img src="images/iconsound.gif" width="18" height="14" hspace="2" border="0"></a> 
+href="edu_audio/history/Yama.mp3')" onMouseOver="status='Listen to Audio';return true;" onMouseOut="status='';" ><img alt="" src="images/iconsound.gif" width="18" height="14" hspace="2" border="0"></a> 
             </TD>
           <TD><a
 href="edu_audio/history/Yama.mp3')" onMouseOver="status='Listen to Audio';return true;" onMouseOut="status='';" CLASS="txt11Blue">Tozoli/Yama man on the moon</a><BR><BR></TD></TR>-->

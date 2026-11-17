@@ -6,7 +6,7 @@
   originals; text links to them stay, pointing at the file. Speaker icons beside a text link become decoration.
 - MP3 links that 404 on the live server lose their link and say the recording is no longer available.
 - RealAudio (.ram/.rm) streams are all dead: the links become text marked as no longer available.
-- educators_mod_ideals.html: the five edu_audio/civicideals/*.mp links get their missing "3".
+- educators_mod_ideals.html: the six truncated edu_audio/civicideals/*.mp links get their missing "3".
 - sm_detector.html (Flash detector for the Flash 6 Sonic Browser, whose page and JSP data feed are gone) becomes a
   page with a still of the browser from the press kit and a note on what was lost. The Flash detector and
   installer files go.
@@ -75,6 +75,7 @@ def player(src, label):
 
 def audio(page, doc):
     doc = re.sub(r"""(assetsWindow\('edu_audio/civicideals/child_\d+\.mp)"(?=>)""", r"""\g<1>3')" """.rstrip(), doc)
+    doc = re.sub(r'href="%s(edu_audio/civicideals/child_\d+\.mp)"' % re.escape(ORIGIN), r'href="\g<1>3"', doc)
     with_text = set()
     for m in A_RE.finditer(doc):
         src = audio_src(m.group(1))

@@ -2,7 +2,7 @@
 <%@ taglib uri="/WEB-INF/lib/mailer.tld" prefix="mailer" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
-<html>
+<html lang="en">
 <head>
 
 <%
@@ -24,7 +24,7 @@ if("Submit".equalsIgnoreCase(request.getParameter("submit"))) {
   }
 %>
 
-<title>The Sonic Memorial project</title>
+<title>Share Your Experience: | The Sonic Memorial Project</title>
 <link rel="stylesheet" href="styles.css" type="text/css">
 <STYLE TYPE="text/css">
 
@@ -58,10 +58,13 @@ document.nav.pulldown.options[document.nav.pulldown.selectedIndex].value;
 </script>
 <!-- End Matomo Code -->
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="a11y.css" type="text/css">
 </head>
 <BODY BGCOLOR="#FFFEDC" LEFTMARGIN="0" TOPMARGIN="20" MARGINWIDTH="0" MARGINHEIGHT="20" TEXT="#000033" LINK="#FF6600" ALINK="#FF3300" VLINK="#FF6600">
+<a class="skip-link" href="#content">Skip to content</a>
 <div class="notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
-    <a href="https://rrchnm.org" target="_blank"><img src="https://sonicmemorial.org/images/nav/rrchnm_logo.png" alt="RRCHNM Logo" style="height: 30px; margin-right: 15px;"/></a>
+    <a href="https://rrchnm.org" target="_blank"><img src="images/nav/rrchnm_logo.png" alt="RRCHNM Logo" style="height: 30px; margin-right: 15px;"/></a>
     <div>
     This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank">Roy Rosenzweig Center for History and New Media</a>.
     </div>
@@ -71,14 +74,14 @@ document.nav.pulldown.options[document.nav.pulldown.selectedIndex].value;
 
 <TABLE WIDTH="400" BORDER="0" CELLPADDING="0" CELLSPACING="0">
 <TR>
-	<TD WIDTH="50"><IMG SRC="images/spacer.gif" WIDTH="50" HEIGHT="1" BORDER="0"></TD>
+	<TD WIDTH="50"><img alt="" SRC="images/spacer.gif" WIDTH="50" HEIGHT="1" BORDER="0"></TD>
 	<TD WIDTH="400" CLASS="txt11Yellow">
 	
 		<TABLE WIDTH="370" BORDER="0" CELLPADDING="2" CELLSPACING="0">
 		<FORM NAME="nav">
 		<TR>
 		<TD ALIGN="right" CLASS="txt11Yellow">
-		<SELECT NAME="pulldown" ONCHANGE="go();" STYLE="width:250px; height:17px; background-color:FF6600; font-size:10px; font-weight:bold; color:#ffffff; font-family:arial,verdana;">
+		<SELECT NAME="pulldown" STYLE="width:250px; height:17px; background-color:FF6600; font-size:10px; font-weight:bold; color:#ffffff; font-family:arial,verdana;" aria-label="Go to another page">
 		<OPTION>Other Lesson Modules
 		<OPTION>----------
 		<OPTION VALUE="educators_mod_history.html">History and Time
@@ -88,23 +91,23 @@ document.nav.pulldown.options[document.nav.pulldown.selectedIndex].value;
 		<OPTION VALUE="educators_mod_culture.html">Culture and Identity
 		<OPTION VALUE="educators_mod_911.html">How to Talk about 9/11
 				<option>--------------
-		<OPTION VALUE="contact_us.jsp">Share Your Experience
-		</SELECT>
+		<OPTION VALUE="contact_us.jsp.html">Share Your Experience
+		</SELECT> <button type="button" class="sm-go" onclick="var s=this.previousElementSibling, o=s.options[s.selectedIndex]; if (o.hasAttribute('value') &amp;&amp; o.value != '#') location.href = o.value;">Go</button>
 		</TD></TR>
 		</form></TABLE>	
 	
 	</TD>
 </TR>
 </TABLE>
-<form action="contact_us.jsp.html" method="post">
+<p class="sm-lost">This form no longer sends anything; it is kept as part of the archived page.</p><form action="contact_us.jsp.html" method="post">
   <TABLE WIDTH="400" BORDER="0" CELLPADDING="0" CELLSPACING="0">
 <TR> 
-	<TD rowspan=2><IMG SRC="images/spacer.gif" WIDTH="50" HEIGHT="1" BORDER="0"></TD>
+	<TD rowspan=2><img alt="" SRC="images/spacer.gif" WIDTH="50" HEIGHT="1" BORDER="0"></TD>
 	<TD>&nbsp;</TD>
 </TR>
 <TR> 
 <td class="txt12Blue"> 
-	<span class="txt16Orange">Share Your Experience:</span>
+	<h1 class="txt16Orange sm-h" id="content" tabindex="-1">Share Your Experience:</h1>
 	<br>
         We&#146;d love to hear from you. If you have had a successful lesson that 
         you&#146;d like to share or you have taught these lessons and would like 
@@ -114,17 +117,17 @@ document.nav.pulldown.options[document.nav.pulldown.selectedIndex].value;
         <BR>
     
     <TABLE width=350 BORDER=0 CELLPADDING=0 CELLSPACING=0>
-    <tr><td width=60 class="txt12BlueB">Name:</td><td width=340><input type="text" name="name" size=30 style="width:150px; height:18px;"></td></tr>
-    <tr><td colspan=2><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="5" BORDER="0"></td></tr>
-    <tr><td class="txt12BlueB">Email:</td><td><input type="text" name="email" size=30 style="width:150px; height:18px;"></td></tr>
-    <tr><td colspan=2><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="20" BORDER="0"></td></tr>
+    <tr><td width=60 class="txt12BlueB">Name:</td><td width=340><input type="text" name="name" size=30 style="width:150px; height:18px;" aria-label="Name"></td></tr>
+    <tr><td colspan=2><img alt="" SRC="images/spacer.gif" WIDTH="1" HEIGHT="5" BORDER="0"></td></tr>
+    <tr><td class="txt12BlueB">Email:</td><td><input type="text" name="email" size=30 style="width:150px; height:18px;" aria-label="Email address"></td></tr>
+    <tr><td colspan=2><img alt="" SRC="images/spacer.gif" WIDTH="1" HEIGHT="20" BORDER="0"></td></tr>
     <tr>
             <td class="txt12BlueB" colspan=2>How have you used the Sonic Memorial 
               Project in the classroom?</td>
           </tr>
-    <tr><td colspan=2><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="5" BORDER="0"></td></tr>
-    <tr><td colspan=2><textarea cols="50" rows="20" name="comments" size=30 style="width:350px; height:100px;"></textarea></td></tr>
-    <tr><td colspan=2><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="10" BORDER="0"></td></tr>
+    <tr><td colspan=2><img alt="" SRC="images/spacer.gif" WIDTH="1" HEIGHT="5" BORDER="0"></td></tr>
+    <tr><td colspan=2><textarea cols="50" rows="20" name="comments" size=30 style="width:350px; height:100px;" aria-label="How have you used the Sonic Memorial Project in the classroom?"></textarea></td></tr>
+    <tr><td colspan=2><img alt="" SRC="images/spacer.gif" WIDTH="1" HEIGHT="10" BORDER="0"></td></tr>
     <tr><td><INPUT name="submit" type="submit" value="Submit" STYLE="background-color:#FF6600; font-size:10px; font-weight:bold; color: #ffffff; font-family: verdana, arial;"> </td>
             <td> &nbsp; &nbsp; &nbsp; 
               <INPUT name="cancel" type="reset" value="Cancel" STYLE="background-color:#FF6600; font-size:10px; font-weight:bold; color: #ffffff; font-family: verdana, arial;"></td></tr>
@@ -170,9 +173,9 @@ escramble()
 <!--End EScrambled Email Address Code-->. </span>
     <BR>
     
-    <!--<IMG SRC="images/arrow_down.gif" WIDTH="13" HEIGHT="25" BORDER="0" vspace=15><BR><BR>
+    <!--<img alt="" SRC="images/arrow_down.gif" WIDTH="13" HEIGHT="25" BORDER="0" vspace=15><BR><BR>
     
-    <A NAME="read"></a><span class="txt16Orange">Comments from Educators:</span>
+    <A NAME="read"></a><h2 class="txt16Orange sm-h">Comments from Educators:</h2>
     <BR><BR>
 
     <I>Su Johnson, New York</I><BR>
@@ -184,7 +187,7 @@ escramble()
 	<BR>-->
 	</TD>
 </TR>
-<TR><TD COLSPAN=2><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="10" BORDER="0"></TD></TR>
+<TR><TD COLSPAN=2><img alt="" SRC="images/spacer.gif" WIDTH="1" HEIGHT="10" BORDER="0"></TD></TR>
 </TABLE>
 </FORM>
 

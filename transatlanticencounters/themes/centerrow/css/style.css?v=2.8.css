@@ -1082,3 +1082,17 @@ textarea {
   #exhibit-pages {
     margin: 48px 0; }
   /* @end */ }
+
+/* WCAG 2.2 AA fixes: scripts/transatlanticencounters_a11y.py */
+/* 1.4.1 Use of Color: links in running text are underlined. */
+#content a, footer p a { text-decoration: underline; }
+/* 2.4.7 Focus Visible: a ring that holds up on the cream background and the photos. */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 3px solid #1d3557; outline-offset: 2px; }
+/* 1.4.10 Reflow: long citation URLs wrap; the maps stack at phone width. */
+.citation-url, #content .element-text { overflow-wrap: anywhere; }
+#content img { max-width: 100%; }
+@media (max-width: 600px) {
+  #map-1 iframe, #map-2 iframe { width: 100% !important; float: none; display: block; }
+}
+/* end WCAG 2.2 AA fixes */

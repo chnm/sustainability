@@ -47,7 +47,7 @@ the `.mp3` files exist on the server and were fetched with `wget -x -nH`.
 | `alt_content/index.html` | `sm_detector.html` (its no-Flash fallback) |
 | `audio/captain.mp3`, `audio/elevator.mp3`, `audio/hingson.mp3`, `audio/swoman.mp3` | image map on `stewardesses/stewardess.html` |
 | `SMSgiasante1.mp3` | `stations.html` |
-| `audio/RHOVERTHESIDEBOUNCE1.MP3` | `mohawk/mohawk.html` |
+| `audio/RHOVERTHESIDEBOUNCE1.MP3` | `mohawk/mohawk.html` (inside an HTML comment) |
 | `edu_audio/civicideals/child_{103,155,210,263,363}.mp` | `educators_mod_ideals.html` (typo; `.mp3` fetched, see pass 4) |
 | `images/nav/rrchnm_logo.png` | the RRCHNM banner already on every page |
 | `images/spacer_left.gif`, `images/leer.gif`, `images/mp3.gif`, `freshkills/untitled-1.gif`, `radiorow/images/stories_mp3.gif`, `stewardesses/images/stories_mp3.gif` | layout and icon images |

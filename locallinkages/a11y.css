@@ -1,0 +1,41 @@
+/* WCAG 2.2 AA overrides for the static copy of locallinkages.org (chnm/sustainability#152).
+   Linked after the theme's app.css by scripts/locallinkages_a11y.py. */
+
+/* .main-container and the home .benefits section paint their white band with a ::before that bleeds 9999px each
+   side, so every page scrolled sideways (1.4.10) and axe could not measure any text behind it. Both boxes are
+   already full width, so a plain background looks the same. */
+.main-container, .home > .benefits { background-color: #fff; }
+.main-container::before, .home > .benefits::before { display: none; }
+.entry-content { overflow-wrap: anywhere; }
+
+/* White nav text on #4071FF was 4.17:1 (1.4.3) */
+.top-bar, .top-bar ul { background-color: #3366ff; }
+
+/* Footer licence link was #34D2FF on #6C34FF, 3.3:1 (1.4.3) */
+.footer a { color: #fff; text-decoration: underline; }
+
+/* The theme removes the focus outline (2.4.7) */
+a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute; top: 0; left: 0; z-index: 1000;
+  padding: 8px 12px; background: #fff; color: #000; font-weight: bold;
+  clip-path: inset(50%); width: 1px; height: 1px; overflow: hidden; white-space: nowrap;
+}
+.skip-link:focus { clip-path: none; width: auto; height: auto; }
+
+/* "Estimated time to complete" lines were <h6>; keep the look */
+.ll-time { font-weight: bold; }
+
+/* Home objective cards: white on #2F8FE8 was 3.38:1; the button was #6C34FF on #34D2FF, 3.3:1 (1.4.3).
+   axe leaves both as "incomplete", so they were measured by hand. */
+.home > .benefits .semantic, .home > .benefits .responsive,
+.home > .benefits .customizable, .home > .benefits .professional { background-color: #1f74c8; }
+.home > .benefits .why-foundation .button { color: #3d1a99; }
+
+/* Quotations were #8A8A8A (3.45:1) and the home objectives intro #777 (4.47:1) on white (1.4.3) */
+blockquote, blockquote p { color: #595959; }
+.home > .benefits header h4 { color: #595959; }

@@ -1,0 +1,14 @@
+#primary {overflow:hidden; zoom:1;background:#444; padding:18px;}
+
+	#exhibit-content {width:auto; padding:18px; background:#fff;}
+	
+	.item {overflow:hidden; zoom:1;}
+	.item .item-file {float:left;}
+	.item .description {float:right; width: 380px;}
+	
+	#audio {border-top: 1px solid #ccc; padding-top:18px;}
+	
+	#transcript-nav a {text-decoration:none; display:block; float:left;background:#ccc; border-bottom:3px solid #fff;padding: 6px 8px; margin-right: 3px; color: #333; font-weight:bold; }
+	#transcript-nav a.selected {background: #eee;border-bottom:3px solid #eee;}
+	.transcript {clear:both;background:#eee; padding: 18px;}
+	

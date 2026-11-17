@@ -296,15 +296,20 @@ def previous_alts(log: Path, site: str, model: str) -> dict[tuple[str, str], str
     return found
 
 
+# Omeka 1.x served files by item-file id: files/display/N/square_thumbnail, files/download/N/fullsize.
+OMEKA1_ROUTE_RE = re.compile(r"/files/(?:display|download)/(\d+)/[a-z_]+(\.\w+)?$")
+
+
 def image_key(img: Path | str) -> str:
     """Same key for every Omeka derivative of one upload, so it is described once."""
-    return OMEKA_DERIVATIVE_RE.sub(r"/\1/\2", str(img))
+    return OMEKA1_ROUTE_RE.sub(r"/files/\1", OMEKA_DERIVATIVE_RE.sub(r"/\1/\2", str(img)))
 
 
 def largest_derivative(img: Path | str) -> str:
     """Omeka's square/medium thumbnails are too small to read a scanned page; use the large copy."""
     big = re.sub(r"/(files|archive)/(?:medium|square)/", r"/\1/large/", str(img))                     # Omeka S
-    return re.sub(r"/(files|archive)/(?:thumbnails|square_thumbnails)/", r"/\1/fullsize/", big)       # Omeka Classic
+    big = re.sub(r"/(files|archive)/(?:thumbnails|square_thumbnails)/", r"/\1/fullsize/", big)       # Omeka Classic
+    return re.sub(r"/files/display/(\d+)/[a-z_]+(\.\w+)$", r"/files/download/\1/fullsize\2", big)    # Omeka 1.x
 
 
 def load(img: Path | str, cache_dir: Path) -> tuple[Path, str]:

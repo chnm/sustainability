@@ -1,0 +1,53 @@
+#primary {overflow:hidden; zoom:1;background:#444; padding:18px;}
+
+#section-nav {overflow:hidden; margin-bottom:0; margin-top:18px;font:1.4em "Futura","Century Gothic","Helvetica Neue", Helvetica, Arial, sans-serif;float:left; width: 182px;}
+#section-nav li {margin-bottom:6px;}
+	#section-nav a {text-decoration:none; display:block; text-indent:18px; border-left:6px solid #494949;width: 162px; background:#555; color:#DDE0E3; padding:9px 0;}
+	#section-nav a:hover {color:#DDE0E3; background:#666; border-left:6px solid #494949;}
+	#section-nav li.current a {background:#fff; color:#333; width:182px; border-left:6px solid #369;}
+
+.exhibit-page-nav {overflow:hidden; zoom:1;}
+.exhibit-page-nav li {display:block; float:left; margin-right:0.5em; width: 5em; }
+	.exhibit-page-nav a {display:block; float:left; color:#456; width: 5em; padding:0.5em 0;text-align:center; text-decoration:none; background:#ddd;}
+	.exhibit-page-nav a:hover {background:#C7D5E3; color:#333;}
+	.exhibit-page-nav .current a {background:#369; color:#fff;}
+	
+.summary #movie {float:left; width: 440px;}
+
+	#exhibit-content {float:right; overflow:hidden; width: 664px; padding:18px 18px; background:#fff;}
+	.summary #exhibit-content {width:848px;}
+		.summary #exhibit-content object {float:left; margin-right:18px; margin-bottom:18px;}
+	
+	#exhibit-content blockquote {display:block; background:#fff; padding:18px 18px 1px; margin-bottom:18px;}
+	#exhibit-content blockquote p {font-style:italic; }
+	#exhibit-content blockquote cite {font-size:1.2em;display:none;}
+		#exhibit-content blockquote.poem {font-size:1.2em; line-height:1.5em;}
+	
+	
+	.exhibit-item {padding:12px 12px 1px; text-align:center;}
+		.exhibit-item p {font-weight:normal; margin-bottom:0.8em; text-align:left;}
+		.exhibit-item img {border:12px solid #eee; margin-bottom:1.8em;}
+	#exhibit-item-1 {display:block; float:right; margin-left:18px;margin-top:4em;width:100px; background:#eee; }
+		#exhibit-item-1 img {margin-bottom:1em; width:100px; height:100px; border-width:0;}
+	
+	#item-gallery {overflow:hidden; margin-right:-18px;}
+		#item-gallery img {width:150px; height:150px; border:none; margin:0;}
+	#item-gallery .exhibit-item {text-align:left; float:left; width: 150px; height:150px;padding:0; margin:0 18px 18px 0;}
+	
+#prisoner { background:#C7D5E3; padding:18px 0 1px; margin-bottom:18px;}
+.summary #prisoner {width:384px;float:right; margin-left:18px;}
+
+	#prisoner h3, #prisoner #prisoner-bio {margin-left:18px; margin-right:18px;}
+	#prisoner-bio {margin-bottom:18px;}
+	#prisoner-image {width:120px; height:120px; margin-left:18px;background:#444; float:left; margin-right:18px;}
+	
+
+#begin-button {border-top:2em solid #fff; font: 2em "Futura", "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif; text-decoration:none; color:#fff; background:#444; text-align:center; display:block; padding:18px 0;margin-top:2em;}
+	#begin-button:hover{background:#222;}
+	
+	#prisoner-list {overflow:hidden;}
+	#prisoner-list a {text-decoration:none; width:312px; border-bottom:1px dotted #ccc;display:block; padding:0.5em 0;}
+	#prisoner-list a:hover {background:#fafafa;}
+	#prisoner-list.show a {width:auto;}
+	
+	.text-full #prisoner-list a, .text-full #prisoner-list li {width: 312px;float:left; margin-right: 18px;}

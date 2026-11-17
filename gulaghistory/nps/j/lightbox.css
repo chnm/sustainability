@@ -1,0 +1,29 @@
+#lightboxImage {margin: 10px 10px 0 10px;}
+#lightbox{
+	background-color:#eee !important;
+padding:0;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	position:relative;
+	z-index: 2000 !important;
+	}
+
+#overlay a {text-decoration:none; border:none;}
+#lightboxCaption{
+font-size: 100%;
+	padding-top: 0.4em;
+	background: #eee !important;
+	margin: 0.4em 10px;
+	}
+#lightboxImage{ border: none; } 
+#overlay img{ border: none; }
+
+#overlay{ background-image: url(http://gulaghistory.rrchnm.org/j/overlay.png); z-index:1000; }
+img#closeButton {border:none; position:absolute; top:0; right:0;}
+* html #overlay{
+	background-color: #333;
+	back\ground-color: transparent;
+	background-image: url(http://gulaghistory.rrchnm.org/nps/j/blank.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/j/overlay.png", sizingMethod="scale");
+	}
+#overlay a img.glass {display:none !important;}

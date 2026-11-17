@@ -1,0 +1,224 @@
+/* == Reset == */
+@import url("reset.css");
+
+/* == Generic styles ======== */
+body {font:62.5% "Helvetica Neue", Helvetica, Arial, sans-serif; color:#444;min-width:940px; background: #fff; border-top:3px solid #fff;}
+
+h1 {font-size:3.6em; margin-bottom:1em; line-height:1em; font-family:"Futura","Century Gothic",Helvetica, Arial, sans-serif;}
+h2 {font-size:2.4em; margin-bottom:0.5em; line-height:1em;font-family:"Futura","Century Gothic",Helvetica, Arial, sans-serif; letter-spacing:2px;}
+h3 {font-size:1.8em; margin-bottom:1em; line-height:1em; font-variant:small-caps; letter-spacing:3px;}
+h4 {font-size:1.8em; margin-bottom:1em; line-height:1em;}
+
+/* Links */
+a:link {color:#369;}
+a:visited {color:#369;}
+a:hover {color:#036;}
+a:active {color:#036;}
+
+.archive a:link {color:#369;}
+.archive a:visited {color:#369;}
+.archive a:hover {color: #369;}
+.archive a:active {color: #369;}
+
+h1 a, h2 a, h3 a {text-decoration:none;}
+
+/* Misc. Elements */
+object {margin-bottom:18px;display:block;}
+p, ul,ol,dl {font-size:1.2em; line-height:1.5em; margin-bottom:1.5em;}
+	li * {font-size:1em;}
+	
+	ul.bibliography li {margin-bottom:1.5em; text-indent:-1.5em; margin-left:1.5em;}
+	dd {margin-left:1.33333em;}
+	em,i {font-style:italic;}
+	strong,b {font-weight:bold;}
+	
+.field p {margin-bottom:0.5em;}
+
+/* Forms */
+textarea {width:378px; height:312px;float:right;}
+legend {display:none;}
+fieldset {display:block; clear:both;}
+label {font-size:1.5em;}
+.field {border-bottom:1px solid #ccc; padding:0.75em 0; overflow:hidden; width:512px;}
+.field label {float:left; width: 114px;font-weight:normal;clear:left; }
+.field .textinput, .field select {float:right; width: 378px;background:#fff;}
+.field select {width: 382px;}
+.field input {margin:0;}
+input.submitinput {margin-top:1em;}
+.radioinputs {display:block; margin-bottom:0.5em; overflow:hidden;}
+.radioinputs label {display:block; float:left; width: 48%; clear:none;}
+
+input#description {width: 378px; height: 312px;}
+
+textarea#rights {float:none; display:none;line-height:1.33333em;width: 512px; border:none; font:1.5em "Times New Roman",Times, serif;height:31em; color:#444;padding:0; margin:0;}
+
+#items_search {float:right;}
+
+/* Misc classes */
+.hide {text-indent: -1000em; width: 0; height: 0; overflow: hidden;}
+
+.navigation li, .pagination li {display:inline;}
+.pagination li {display:inline-block;}
+.navigation a, .pagination a {text-decoration:none;}
+
+.pagination {border-bottom:1px solid #fff;background:#B5C7DA;}
+	.pagination ul {text-align:right; list-style:none; margin: 0; line-height:1em; padding:0.5em; }
+		.pagination li {display:inline; margin-bottom:0; padding:0.5em 1em;border-left:1px solid #fff;}
+			.pagination a {}
+	
+.item-pagination {overflow:hidden;width:512px; margin-bottom:1.5em;border-top:1px solid #ccc; padding-top:1.5em;}
+.item-pagination li.previous {display:block;float:left; width:48%;}
+.item-pagination li.next {float:right; display:block;width: 48%; text-align:right}
+
+div.error {font-size:1.5em; line-height:1.33333em; margin:1.33333em 0;}
+
+/* Microformats */
+.hTagcloud {margin-top:2em;}
+.hTagcloud ul {list-style:none; margin-left:0; padding-left:0; line-height:1.8em;}
+	.hTagcloud li {display:inline;margin-right:8px;}
+
+	.popular {font-size:100%;}
+	.v-popular {font-size:140%;}
+	.vv-popular {font-size:180%;}
+	.vvv-popular {font-size:220%;}
+	.vvvv-popular {font-size:260%;}
+	.vvvvv-popular {font-size:300%;}
+	.vvvvvv-popular {font-size:320%;}
+	.vvvvvvv-popular {font-size:340%;}
+	.vvvvvvvv-popular {font-size:360%;}
+
+	.popular a, .popular a:visited {color: #714271;}
+	.v-popular a, .v-popular a:visited {color: #714271;}
+	.vv-popular a, .vv-popular a:visited {color: #714271;}
+	.vvv-popular a, .vvv-popular a:visited {color: #636;}
+	.vvvv-popular a, .vvvv-popular a:visited {color: #636;}
+	.vvvvv-popular a, .vvvvv-popular a:visited {color: #5D2E5D;}
+	.vvvvvv-popular a, .vvvvvv-popular a:visited {color: #5D2E5D;}
+	.vvvvvvv-popular a, .vvvvvvv-popular a:visited {color: #5D2E5D;}
+	.vvvvvvvv-popular a, .vvvvvvvv-popular a:visited {color: #5D2E5D;}
+
+/* == Wrap == */
+
+/* == Header == */
+#header {background: #ddd url("../images/gulag-header-sm.jpg") 50% bottom no-repeat;padding-bottom:24px;}
+.home #header {background-image:url("../images/gulag-header.jpg"); padding-bottom:48px;}
+	#header .padding {margin:0 auto; width:918px; padding-top:24px; position:relative;}
+	.home #header .padding {padding-top:36px;}
+	#header h1 {}
+		#header h1 a {display:block; overflow:hidden; padding:67px 0 0; width: 432px; background:transparent url("../images/gulag-logo-sm.gif") top left no-repeat; height:0 !important; height /**/:67px;}
+		.home #header h1 a {display:block; overflow:hidden; padding:67px 0 0; width: 432px; background:transparent url("../images/gulag-logo.gif") top left no-repeat; height:0 !important; height /**/:67px;}
+		
+	#header #primary-nav {position:absolute; top:0; right:0; padding:0.9em 0; background:#fff;margin:0; font-family:"Futura","Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:1.5em;}
+		#primary-nav li {padding:1em 0.25em; margin:0;}
+		#primary-nav a{ padding:0.75em;}
+		
+		#primary-nav .current a, .exhibits .nav-exhibits a, .archive .nav-archive a, .about .nav-about a {color:#444;background:#fff;}
+		
+/* == Content == */
+#content {background:#fff; overflow:hidden; width:918px; margin:0 auto; padding:36px 18px 18px;}
+#secondary-nav {margin-bottom:0;padding:0.4em 0.5em; font-size:1.5em; }
+		#secondary-nav li {padding:0.5em 0; margin-right:0;}
+		#secondary-nav a {padding:0.75em 1em 0.75em; color:#666;}
+		#secondary-nav .current a {background:#B5C7DA;color:#369; font-weight:bold;}
+
+#page-nav {float:right; width:280px; overflow:hidden; zoom:1;font-size:1.6em; font-family:"Futura","Century Gothic",Helvetica, Arial, sans-serif;}
+		#page-nav li {display:block; margin:0;}
+			#page-nav li a {display:block;border-bottom:1px dotted #ccc; padding:0.5em 0;}
+		
+	#project-staff {float:right; width: 450px;}
+		#project-staff ul {list-style:square; margin-left: 1em;}
+	
+	.home .featured {padding:0; width: 450px; margin-bottom:18px;float:left;background:#C7D5E3;}	
+	
+		.home .featured h2 {margin:0;}
+		.home .featured .description {float:right; width: 299px; padding:18px 0 0 18px;}
+		.home .featured img {width:130px; height:130px;float:right;border:3px solid #fff; border-width: 0 0 0 3px;}
+			.featured h2 { padding:12px 12px 10px; border-bottom:3px solid #fff;color:#fff; background: #369; font-size:1.1em; text-transform:uppercase; font-weight:normal; font-family:Helvetica, sans-serif; }
+
+		.home #featured-exhibit {float:right;}
+		.home #featured-exhibit img { float:right;border-width: 0 0 0 3px;}
+		.home #featured-exhibit .description {float:right;}
+		
+	.exhibits .exhibit {overflow:hidden; margin-bottom:18px; border-bottom:1px solid #ccc;}
+	.exhibits .exhibit h2 {float:left; width: 280px;}
+	.exhibits .exhibit .description {float:right; width: 616px;}
+
+	.callout {color:#555; font-size:1.8em;}
+
+	.home #primary {overflow:hidden; float:left; width: 450px;}
+		#about {float:left; width: 450px;}
+		#episodes {float:left; width: 450px;}
+			#episodes-image img {width: 60px; height: 60px; float:left; margin-right:18px; padding:4px; border:1px solid #ccc;}
+		
+	.home #secondary {overflow:hidden; float:right; width: 450px;}
+		.home #featured-item {float:right;}
+		.home #featured-item h2 {}
+		
+/* Search */
+#items_search {}
+#search-header {display:none;}
+#basic-search, #search-choices {float:left;}
+#advanced-search-header {float:left;}
+
+.archive .item, .archive .hTagcloud {background:#fff;padding:18px; border-bottom:1px solid #ccc;}
+	.archive .item p {margin:1.5em 0 0;}
+	.archive .hTagcloud ul {margin:0;}
+
+	.archive #primary {float:left; width: 616px;}
+	.archive #secondary {float:right; width: 280px; margin-top:6em;}
+		.archive #featured-item {background:#fafafa; padding:18px; overflow:hidden; zoom:1;}
+			.archive #featured-item p {margin-bottom:0;}
+		.archive #featured-item img {float:left; width: 80px; height:80px; margin-right:12px;border:6px solid #fff;}
+			
+	/* Podcast */
+	
+	#podcast #primary {float:left; width: 616px;}
+	#podcast #secondary {width: 280px; float:right;}
+	
+	#podcast #blurb-about {background:#C7D5E3; clear:right; padding:18px;}
+		#podcast #blurb-about p {margin-bottom:0;}
+		
+		.podPress_content {font-size:1.2em;}
+		
+		#podcast #blog-archives ul {font-size:1.5em;border-top:3px solid #333;}
+		#podcast #blog-archives a {display:block; padding: 8px;text-decoration:none; border-bottom:1px dotted #aaa; color:#333;background:#fff;}
+			#podcast #blog-archives a:hover {background:#fafafa; color:#333;}
+	
+	/* Resources */
+	#resources {padding:18px; width: 616px;}
+			
+/* == Footer == */
+#footer {width: 918px; margin: 0 auto; clear:both;border-top:3px solid #444; margin-top:18px; padding-top:18px;overflow:hidden;}
+	#footer .navigation {float:right; width: 372px; text-align:right;}
+	#footer .navigation li {margin-left:9px;}
+	#footer .footer-meta {float:left; width: 450px;}
+
+/* WCAG 2.2 AA fixes: scripts/gulaghistory_a11y.py */
+/* 2.4.1: skip link, visible on focus. */
+.a11y-skip { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: 8px 12px; background: #fff; color: #000; }
+.a11y-skip:focus { left: 8px; top: 8px; }
+/* 2.4.7: a focus ring that shows on the blue header and the pale panels. */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, audio:focus-visible, video:focus-visible {
+  outline: 3px solid #1d3f61; outline-offset: 2px; }
+#header a:focus-visible { outline-color: #fff; }
+/* 1.4.3: #369 links on the #B5C7DA pager and current tab were 3.5:1 (anchored on #content to beat .archive a:link). */
+#content .pagination a:link, #content .pagination a:visited, #content #secondary-nav .current a { color: #1d3f61; }
+/* 1.4.1: links in running text and exhibit breadcrumbs are underlined. */
+#content p a, #content li a, #content td a, #content h1 a { text-decoration: underline; }
+/* 2.5.8: stacked file links and tag links get 24px targets. */
+#content .item-file a, #content .tags a, #content [class*="popular"] a {
+  display: inline-block; min-height: 24px; min-width: 24px; line-height: 24px; text-align: center; }
+#content .item-file { margin-bottom: 4px; }
+/* 1.4.10: the 940px layout stacks into one column at narrow widths. */
+@media (max-width: 959px) {
+  body { min-width: 0 !important; }
+  #header #primary-nav { position: static; }
+  #wrap, #wrap div, #wrap ul, #wrap h1, #wrap h2, #wrap h3, #wrap p, #footer, #footer div, #footer ul {
+    width: auto !important; max-width: 100%; float: none !important; box-sizing: border-box; }
+  #wrap img, #wrap video, #wrap audio, #wrap object, #wrap iframe { max-width: 100%; height: auto; }
+  #header h1 a, .home #header h1 a { max-width: 100%; background-size: contain; }
+  #wrap table { display: block; overflow-x: auto; }
+}
+/* 1.4.3: links on the #C7D5E3 panels (home features, podcast blurb) were #369 at 4.0:1. */
+#blurb-about a:link, #blurb-about a:visited, .home .featured a:link, .home .featured a:visited { color: #1d3f61; }
+/* end WCAG 2.2 AA fixes */

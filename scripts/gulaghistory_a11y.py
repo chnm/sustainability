@@ -186,6 +186,14 @@ def fix_broken_href(text: str) -> str:
                         'href="http://digitalgallery.nypl.org/nypldigital/id?52110">New York Public Library</a>')
 
 
+def fix_gravatar(text: str) -> str:
+    # Podcast comment avatars are generic placeholders beside the commenter's name: decorative.
+    def blank(m: re.Match) -> str:
+        tag = m.group(0)
+        return re.sub(r'\balt="[^"]*"', 'alt=""', tag) if "gravatar.com/avatar/" in tag else tag
+    return re.sub(r"<img\b[^>]*>", blank, text)
+
+
 def fix_wp_script(text: str) -> str:
     return text.replace("wp-mailto-links.js%3Fver=1.5.0.html", "wp-mailto-links.js").replace(
         "wp-mailto-links.js?ver=1.5.0.html", "wp-mailto-links.js")
@@ -197,7 +205,7 @@ def fix_css(text: str, block: str) -> str:
 
 
 PAGE_FIXES = (fix_lang, fix_viewport, fix_stylesheets, fix_header, fix_skip, fix_php_leak, fix_dead_pages,
-              fix_empty_links, fix_search, fix_plugin_audio, fix_podcast, fix_broken_href, fix_wp_script)
+              fix_empty_links, fix_search, fix_plugin_audio, fix_podcast, fix_broken_href, fix_gravatar, fix_wp_script)
 
 
 def apply() -> int:
@@ -253,6 +261,9 @@ def selfcheck() -> None:
            '<a href="p/G.mp3">Download</a>\n<script type="text/javascript"><!--\npodPressShowHidePlayer(\'1\');\n-->\n</script>')
     out = fix_podcast(pod)
     assert '<audio controls preload="none" src="p/G.mp3">' in out and "podPress(" not in out and fix_podcast(out) == out
+    assert fix_gravatar('<img alt="Grey silhouette" src=\'https://0.gravatar.com/avatar/x\' />') == \
+        '<img alt="" src=\'https://0.gravatar.com/avatar/x\' />'
+    assert fix_gravatar('<img alt="A camp" src="files/a.jpg" />') == '<img alt="A camp" src="files/a.jpg" />'
     assert fix_css(fix_css("a{}\n", SCREEN_BLOCK), SCREEN_BLOCK).count(CSS_START) == 1
 
 

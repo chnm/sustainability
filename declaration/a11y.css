@@ -20,6 +20,9 @@ a:link { color: #cc0000; }
 /* the menu frame: black and #cc0000 on #666699 */
 body[bgcolor="#666699"], body[bgcolor="#666699"] a:link, body[bgcolor="#666699"] a:visited { color: #fff; }
 
+/* 2.5.8 target size: the opening page stacks its language links one per line, 19-25px tall */
+div[align="right"] a { display: inline-block; padding: 3px 0; min-height: 24px; }
+
 /* 1.4.10 reflow: the 425px text column and the 550px header narrow with the window */
 @media (max-width: 600px) {
   body { margin: 8px; overflow-wrap: break-word; }

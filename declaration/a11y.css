@@ -1,0 +1,33 @@
+/* Accessibility fixes layered over the archived Declaration pages (chnm/sustainability#154). */
+
+.skip-link { position: absolute; left: -9999px; top: 0; z-index: 10000; padding: 8px 12px; background: #fff; color: #333366; border: 2px solid #333366; font: 14px/1.4 Arial, Helvetica, sans-serif; }
+.skip-link:focus { left: 8px; top: 8px; }
+:focus-visible { outline: 3px solid #333366 !important; outline-offset: 1px; box-shadow: 0 0 0 6px #ffffcc; }
+
+/* headings added by scripts/declaration_a11y.py keep the look of the <font> lines they wrap */
+h1.pg { font-size: inherit; font-weight: normal; margin: 0; }
+h1.pg.scan { margin: 1em 0 1em 40px; }
+h1.pg:focus { outline: none; box-shadow: none; }
+h2.S1, h2.APS1, h2.sub { font-size: inherit; margin: 1em 0; }
+h2.sub { font-weight: normal; }
+.indent { margin-left: 40px; }
+.indent .indent { margin-top: 0; margin-bottom: 0; }
+
+/* 1.4.3 contrast: the pages set link="red" (#ff0000 is 4.0:1 on white) */
+a:link { color: #cc0000; }
+.notice { color: #222; font-family: Arial, Helvetica, sans-serif; }
+.notice a { color: #1a4d8f !important; text-decoration: underline !important; }
+/* the menu frame: black and #cc0000 on #666699 */
+body[bgcolor="#666699"], body[bgcolor="#666699"] a:link, body[bgcolor="#666699"] a:visited { color: #fff; }
+
+/* 2.5.8 target size: the opening page stacks its language links one per line, 19-25px tall */
+div[align="right"] a { display: inline-block; padding: 3px 0; min-height: 24px; }
+
+/* 1.4.10 reflow: the 425px text column and the 550px header narrow with the window */
+@media (max-width: 600px) {
+  body { margin: 8px; overflow-wrap: break-word; }
+  table { width: auto !important; max-width: 100%; }
+  img { max-width: 100%; height: auto; }
+  .indent { margin-left: 16px; }
+  h1.pg.scan { margin-left: 16px; }
+}

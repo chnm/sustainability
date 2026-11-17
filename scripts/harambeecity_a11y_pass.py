@@ -11,6 +11,10 @@ Applied to every HTML file under harambeecity/ (chnm/sustainability #148). Idemp
 - six Simple Pages whose Omeka title was a run of dots ("." / "...") get the
   title their navigation entry uses, in <title>, the h1 and the breadcrumbs (2.4.2)
 - the home page slideshow can be paused and stops on prefers-reduced-motion (2.2.2)
+- on eight item pages the HTML comment hiding Omeka's dead comment form closed
+  three tags early, leaving unbalanced </div>s that pushed the sidebar out of
+  #content (its panels lost their background, 1.4.3); the comment now spans
+  the whole block as on the other item pages
 
 Usage: harambeecity_a11y_pass.py [--dry-run] [site-dir]
 """
@@ -48,6 +52,7 @@ IFRAME_RE = re.compile(r"<iframe\b[^>]*>", re.I)
 GRAVATAR_RE = re.compile(r"<img class='gravatar' src='([^']*)' />")
 FALLBACK_RE = re.compile(r'(<img\b[^>]*fallback-(audio|video)\.png"[^>]*\balt=")([^"]*)(")', re.I)
 TAG_RE = re.compile(r"<[^>]+>")
+COMMENT_BLOCK_RE = re.compile(r"(<!--\s*<span class=\"Z3988\".*?<div class='comments'>) -->(.*?</form></div>)", re.S)
 
 SLIDESHOW_HTML = """<button type="button" id="slideshow-toggle" aria-pressed="false">Pause background slideshow</button>
 """
@@ -127,7 +132,12 @@ def fix_home(text: str) -> str:
     return text.replace("</body>", SLIDESHOW_JS, 1)
 
 
+def fix_comment_block(text: str) -> str:
+    return COMMENT_BLOCK_RE.sub(r"\1\2\n -->", text)
+
+
 def process(text: str, rel: str) -> str:
+    text = fix_comment_block(text)
     text = fix_iframes(text)
     text = fix_fallbacks(text)
     text = GRAVATAR_RE.sub(r'<img class="gravatar" src="\1" alt="" />', text)
@@ -162,6 +172,9 @@ def _selfcheck() -> None:
     f = fix_fallbacks('<img src="../fallback-audio.png" alt="stuart wechsler.MP3" title="stuart wechsler.MP3">')
     assert 'alt="Audio file: stuart wechsler.MP3"' in f and fix_fallbacks(f) == f
     d = fix_dot_titles('<title>... &middot; X</title><h1>...</h1><p><a href="about.html">.</a> &gt; ...</p>', "to-display.html")
+    c = fix_comment_block("<!--     <span class=\"Z3988\" title=\"x\"></span><div id='c'><div class='comments'> -->\n<h2>Comments</h2></div></div><form id=\"comment-form\"></form></div>\n</div><!-- end primary -->")
+    assert c.count("-->") == 2 and c.index("</form></div>") < c.index("-->"), c
+    assert fix_comment_block(c) == c
     assert d == '<title>To Display &middot; X</title><h1>To Display</h1><p><a href="about.html">Harambee City in Omeka and Layar</a> &gt; To Display</p>', d
 
 

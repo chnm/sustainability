@@ -2601,6 +2601,14 @@ Display the backstretch div for image slideshow on home page at 100% height minu
   .night #content .pagination_previous a, .night #content .pagination_next a { color: #228b22; }
   .night #content .items-nav a:focus, .night #content .items-nav a:hover,
   .night #content div.hTagcloud ul li a:focus, .night #content div.hTagcloud ul li a:hover { color: #5fd35f; }
+  .night #primary a:not(.image):not(.download-file), .night #primary h2 a, .night #primary h3 a,
+  .night .element-text a, .night .item-description a, .night #sidebar .element-text a { text-decoration: underline; }
+  .night #primary h2 a, .night #primary h3 a, .night #primary .image, .night #primary .download-file { text-decoration: none; }
+  /* editor-inlined greens inside the yellow panels */
+  .night #primary [style*="color:#228b22"], .night #primary [style*="color:#0e9c42"] { color: #176117 !important; }
+  /* browse filter chips were black on #666; the log-in form was black labels on #252525 */
+  .night #search-filters li, .night #item-filters li { background-color: #000; color: #eee; }
+  .night .login #content form { background-color: #dedd1f; border-color: #228b22; }
   /* text that sat directly on the photographic background gets a solid black backdrop */
   .night #content > h1, .night #simple-pages-breadcrumbs, .night #content .items-nav,
   .night #content nav.pagination-nav ul.pagination, .night #content .exhibit-section-nav {

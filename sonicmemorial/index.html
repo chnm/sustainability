@@ -190,21 +190,22 @@ var sundayimg	="images/story/07.gif";
 
 var mydate=new Date()
 var today=mydate.getDay()
+var storyalts=["Story of the day: Three September Stories","Being an Artist at the World Trade Center","Story of the day: Walking High Steel","Story of the day: Radio Row","Story of the day: Love and Marriage atop the WTC","Story of the day: Recovery at Fresh Kills","Story of the day: 9/11 Anniversary Special"]   // Sunday first, as getDay() counts
 
 if (today==1)
-document.write('<a href="stories.html"><img src="'+mondayimg+'" WIDTH="288" HEIGHT="201" BORDER="0"></a>')
+document.write('<a href="stories.html"><img src="'+mondayimg+'" WIDTH="288" HEIGHT="201" BORDER="0" alt="'+storyalts[today]+'"></a>')
 else if (today==2)
-document.write('<a href="stories.html"><img src="'+tuesdayimg+'" WIDTH="288" HEIGHT="201" BORDER="0"></a>')
+document.write('<a href="stories.html"><img src="'+tuesdayimg+'" WIDTH="288" HEIGHT="201" BORDER="0" alt="'+storyalts[today]+'"></a>')
 else if (today==3)
-document.write('<a href="stories.html"><img src="'+wednesdayimg+'" WIDTH="288" HEIGHT="201" BORDER="0"></a>')
+document.write('<a href="stories.html"><img src="'+wednesdayimg+'" WIDTH="288" HEIGHT="201" BORDER="0" alt="'+storyalts[today]+'"></a>')
 else if (today==4)
-document.write('<a href="stories.html"><img src="'+thursdayimg+'" WIDTH="288" HEIGHT="201" BORDER="0"></a>')
+document.write('<a href="stories.html"><img src="'+thursdayimg+'" WIDTH="288" HEIGHT="201" BORDER="0" alt="'+storyalts[today]+'"></a>')
 else if (today==5)
-document.write('<a href="stories.html"><img src="'+fridayimg+'" WIDTH="288" HEIGHT="201" BORDER="0"></a>')
+document.write('<a href="stories.html"><img src="'+fridayimg+'" WIDTH="288" HEIGHT="201" BORDER="0" alt="'+storyalts[today]+'"></a>')
 else if (today==6)
-document.write('<a href="stories.html"><img src="'+saturdayimg+'" WIDTH="288" HEIGHT="201" BORDER="0"></a>')
+document.write('<a href="stories.html"><img src="'+saturdayimg+'" WIDTH="288" HEIGHT="201" BORDER="0" alt="'+storyalts[today]+'"></a>')
 else
-document.write('<a href="stories.html"><img src="'+sundayimg+'" WIDTH="288" HEIGHT="201" BORDER="0"></a>')
+document.write('<a href="stories.html"><img src="'+sundayimg+'" WIDTH="288" HEIGHT="201" BORDER="0" alt="'+storyalts[today]+'"></a>')
 
 //--></script>
   </div>

@@ -124,6 +124,16 @@ def fix_item(text: str) -> str:
                   r"\1No image available</a>", text)
 
 
+def fix_browse(text: str) -> str:
+    # On browse and collection pages each placeholder thumbnail is a link that repeats
+    # the item title link right below it. Hide the image link; the title link names it.
+    return re.sub(
+        rf'<a href="([^"]*)"><img ([^>]*?)alt="{re.escape(PLACEHOLDER)}" title="{re.escape(PLACEHOLDER)}"',
+        r'<a href="\1" tabindex="-1" aria-hidden="true"><img \2alt=""',
+        text,
+    )
+
+
 def fix_items_js(text: str) -> str:
     # 1.1.1 / 4.1.2: lightSlider's gallery pager drew one unlabelled href="#" thumbnail
     # link on every item page, and every item has a single file. Only draw the pager
@@ -154,6 +164,8 @@ def apply() -> int:
             new = fix_map_page(new, rel)
         elif rel.startswith("items/show/"):
             new = fix_item(new)
+        else:
+            new = fix_browse(new)
         if new != old:
             write(path, new)
             changed += 1
@@ -181,6 +193,9 @@ def selfcheck() -> None:
     assert "<!DOCTYPE html>" in once and "<th>A</th>" in once and fix_map_page(once, "table.html") == once
     item = f'<img src="u" alt="{PLACEHOLDER}" title="{PLACEHOLDER}"><div class="media-link-1">\n<a href="u">{PLACEHOLDER}</a>'
     assert fix_item(item) == '<img src="u" alt="No image available"><div class="media-link-1">\n<a href="u">No image available</a>'
+    b = f'<a href="../../items/show/1.html"><img src="s" alt="{PLACEHOLDER}" title="{PLACEHOLDER}">'
+    assert fix_browse(b) == '<a href="../../items/show/1.html" tabindex="-1" aria-hidden="true"><img src="s" alt="">'
+    assert fix_browse(fix_browse(b)) == fix_browse(b)
     css = fix_style("a{}\n")
     assert fix_style(css) == css and css.count(CSS_START) == 1
 

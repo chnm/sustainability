@@ -1,0 +1,321 @@
+/*----------------------------------------------------
+CSS for NPS Gulag Site.
+Created: 12 September 2005, by Jeremy Boggs
+Updated: 08 January 2008, by Jeremy Boggs
+----------------------------------------------------*/
+
+/*-------------------------------
+Layout
+--------------------------------*/
+* {margin:0; padding:0;} 
+body{margin:0 auto; width: 750px; padding: 0 0 20px 0;}
+	
+img {padding: 0px;}
+
+a img {border:none;}
+/* Wrap */
+#wrap {width: 750px; display:block; height:100%; float:left;}
+
+/* Header and navigation styles */
+#header {display:block; width: 750px;padding:0;}
+#home #header object {margin-left: 10px;}
+
+/* container and content styles */
+#container {clear:both;}
+#content1, #content2 {display:block;float:left; padding: 1em 0;}
+#content1 {width: 481px;}
+#content2 {width: 268px;}
+#content2 img {padding:0;}
+#memorials-gallery {display:block; margin-left: 30px; margin-right: 30px;}
+img#breadimg {width: 200px; height: 150px;}
+#crimes-questions {padding: 8px; margin-left: 30px; margin-right: 30px;}
+#memorials-gallery {display:block; margin-left: 30px; margin-right: 30px;}
+
+#about #content2, #online #content2 {padding-top: 2em;}
+
+#traveling #content1, #traveling #content2 {width: 375px; float:right;}
+#traveling #content3 {width: 750px; clear:both; padding-bottom: 20px;}
+#home #content1, #resources #content1 {width: 100%;}
+#home #content2, #resources #content2 {display:none;}
+
+#reflections div.section, #home div.section {display:block; float:left; width: 375px;}
+
+#traveling #content1 {width: 740px; float:none;}
+
+/* Location table styles */
+table#hostsites {margin: 10px 30px; border-left: 1px solid #ccc; border-collapse:collapse; border-top: 1px solid #ccc;}
+#hostsites td, #hostsites th { border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; margin:0; padding: 6px;}
+#hostsites thead, #hostsites tbody { border: 1px solid #ccc;}
+#hostsites th {text-align:left; font-size: 118%; font-weight:bold;}
+#hostsites th {background: #e5e5e5;}
+#hostsites tr.even {background: #f3f3f3;}
+
+/* Reusable styles */
+img.right {border:none; display:block; float:right; margin-right: 30px; margin-top: 20px;margin-left: 10px; margin-bottom: 8px;}
+div.right {padding: 8px; float:right; display:block; margin-right: 30px; margin-left: 10px; margin-top: 8px;}
+	
+.image_box {margin: 20px 30px; padding: 8px;}
+.image_box img {margin-bottom: 7px;}
+.image_box a, .small a {position:relative; display:block;}
+div.small a, div.small #caption{float:left; display:block;}
+div.small a {margin-right: 8px; margin-bottom: 8px;}
+
+div.gallery {margin-left: 30px; margin-right: 30px;}
+div.gallery img {margin-right: 1px;}
+
+.image_box:after, .gallery:after {content:"."; display:block; clear:both; visibility:hidden; height:0;}
+.image_box {display:inline-block;}
+div.thumbnail {padding: 8px; float:left; display:block; margin-left: 30px; margin-right: 10px; margin-top: 8px;}
+div.thumbnail a {position:relative; display:block; width: 100px;}
+
+div.dissidents {margin-bottom: 20px;}
+
+div.quotebox {margin: 20px 30px; padding: 10px; display:block; clear:both; }
+div.quotebox .smallmargin {margin:0.5em 0;}
+
+/* This hides the magnifying class in all but IE, cause IE isn't recognizing the class attribute of the img, added dynamically though "../j/magnify.js" */
+.gallery img.glass, .thumbnail img.glass, #memorials-gallery img.glass {display:none;}
+
+/* Museum Map styles */
+#museummap {position:relative;}
+#museummap a {position:absolute; width: 24px; height: 24px; display:block;}
+#museummap a:hover {border: 1px solid blue;}
+#museummap a span {display:none;}
+#museummap a#link-tenement  {top: 50px; left: 85px;}
+#museummap a#link-district6  {top: 176px; left: 203px;}
+#museummap a#link-terezin  {top: 45px; left: 226px;}
+#museummap a#link-perm36  {top: 40px; left: 263px;}
+#museummap a#link-maison  {top: 100px; left: 170px;}
+#museummap a#link-manchester  {top: 30px; left: 196px;}
+#museummap a#link-liberation  {top: 80px; left: 294px;}
+#museummap a#link-memoria  {top: 174px; left: 110px;}
+
+	/* Hide these from IE-mac \*/
+	* html body {height: 1%;}
+	* html div.right, * html img.right {margin-right: 15px;}
+	* html .image_box a, * html #memorials, .image_box a {height: 1%;}
+	* html .gallery, * html .gallery a, .gallery a {position:relative; height: 1%;}
+	* html .image_box {height: 1%;}
+	* html div.thumbnail {margin-left: 15px;}
+	* html div.thumbnail a {height: 1%;}
+	* html div.gallery img {margin:0;}
+	/* End hide from IE-mac */
+#home div.box {margin-left: 30px; margin-right: 30px; margin-bottom: 40px;}
+#home div.box .thumbnail {margin:8px 8px 0 0;}	
+/*-------------------------------
+Typography
+--------------------------------*/
+body {font:68.75% "Lucida Grande", Verdana, sans-serif;}
+h1{font-size: 2.18em;}
+h2{font-size: 1.64em;}
+h3{font-size: 1.3em;}
+h4, h5{font-size: 1.18em;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+h1,h2,h3,h4,h5,h6,p,ul,ol,cite {margin: 20px 30px; line-height:2em;}
+li {line-height: 1.5em; margin-left: 4%; margin-top: 1em;}
+abbr {font-style:normal; border:none;}
+h4 {font-weight:bold;}
+table caption {height:0; width:0;line-height:0;letter-spacing: -1000em;}
+cite em {font-style:normal;}
+
+
+/* Reusable styles */
+div.image_box p, div.image_box cite, div.image_box h4 {margin:0; padding:0;}
+div.image_box cite {font-size: 95%; margin-top: 16px; display:block;}
+div.image_box blockquote {margin: 8px 16px; line-height: 1.5em;}
+div.image_box blockquote span {color: #555; font-size: 300%;}
+div.caption p {margin-bottom: 1em;}
+.commentary h3 {margin: 0.25em 0;}
+em.email {font-style:normal;}
+
+/* Header and navigation */
+#header h1 {margin:0; padding:0; height: 250px;}
+h1#logo {}
+#header a {text-decoration:none;}
+#header ul#navigation {width:750px; display:block; float:left;padding:0;}
+#header ul#navigation, ul#navigation li {list-style-type:none;margin:0; }
+#header ul#navigation li {width: 150px;display:block;float:left;}
+#header ul#navigation li a {text-decoration:none; text-indent: 10px; width: 150px;display:block; float:left; padding-top: 10px; padding-bottom: 10px;}
+#home #header h1#logo,#home #header h1#logo a {background:none; text-indent: -1000em; width:0; height:0; padding:0;}
+
+/* Container and Content styles */
+h2.sectiontitle {margin:0; padding: 0; display:none;}
+h2.sectiontitle a {text-decoration:none;}
+h2.sectiontitle a, span.subsection {font-size: 0.1em;}
+
+ul#dailyschedule {list-style:none;}
+ul#dailyschedule li {margin: 4px 0 4px 8px;}
+
+ul#gorbachev-slogans {list-style:square; font-size: 118%; font-weight:bold; margin-left:8px;}
+#home h2 {clear:both; display:block; margin-top: 20px;margin-bottom: 0px;}
+#home p {margin-top:0;}
+
+#stalinquote {font-size: 125%;}
+
+#home div.box h2, #home div.box p {margin:0 !important; padding:0 !important;}
+	#home div.box h2 {margin-bottom: 16px;}
+
+/* Utensils list */
+ol#utensils {list-style:none; margin-left:0; margin-right:0;}
+ol#utensils li a {float:left; display:block;margin-top: 6px;}
+ol#utensils li p {display:block; float:right; width: 290px;}
+ol#utensils li {margin-left:0; margin-right:0; display:block; float:left; height: 1%; border-top: 1px solid #ccc;}
+
+/* Daily Schedule table styles */
+table#dailyschedule {margin: 10px 0; border-left: 1px solid #ccc; border-collapse:collapse; border-top: 1px solid #ccc;}
+#dailyschedule td, #dailyschedule th { border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; margin:0; padding: 4px;}
+#dailyschedule thead, #dailyschedule tbody { border: 1px solid #ccc;}
+#dailyschedule th {text-align:left; font-size: 118%; font-weight:bold;}
+#dailyschedule th {background: #e5e5e5;}
+#dailyschedule tr.even {background: #f3f3f3;}
+#dailyschedule td.time {width: 20%;}
+
+div.borderwrap {border: 1px dashed #ccc; padding: 8px; margin-left: 30px; margin-right: 30px; margin-bottom: 20px;}
+
+/* Pagenav (pagenav.html) */
+#pagenav { clear:both;display:block; margin-top: 40px; padding-top: 20px;list-style:none; height: 100%; font-size: 136%; margin-bottom: 20px;}
+#pagenav a {text-decoration:none;}
+#pagenav li {display:block; float:left; width: 49.9%; margin:0 0 20px 0; padding:0;}
+#pagenav #previous {text-align:left;}
+#pagenav #next {text-align:right; float:right;}
+#previous a {padding-left: 20px;}
+#next a {padding-right: 20px;}
+
+/* Online Exhibit navigation (nav.html) */
+#onlinenav {list-style:none; margin:0 30px 0 0; }
+#onlinenav li {margin:0; padding: 2px 0;}
+#onlinenav li a {text-decoration:none; padding: 8px; font-size: 138%; background: #fff; display:block; }
+#onlinenav li a:hover {background: #fafafa;}
+#onlinenav li.on { background: #fff; }
+#onlinenav li.on a {background: #fafafa; border-top: 3px double #ccc; border-bottom: 3px double #ccc; color: #8493A5; font-weight:bold;}
+#onlinenav ul li.on ul {list-style:none; margin-left:0; padding-left:0;}
+#onlinenav li.on ul li {font-size: 118%; list-style:none;margin-left:0; padding-left:0;}
+#onlinenav li.on li a {font-size: 100%; list-style:none; display:list-item; padding:2px 0;margin: 4px 0 4px 16px; border:none; color: #999; font-weight:normal; background: #fff;}
+#onlinenav li.on li a:hover {list-style:square;}
+#onlinenav li.on li a.here {list-style:square; font-weight:bold;}
+
+/* About page navigation */
+#aboutnav {list-style:none; margin:0 30px 0 0; }
+#aboutnav li {margin:4px 0; padding: 2px 0;}
+#aboutnav li a {text-decoration:none; padding: 8px; font-size: 138%; background: #fff; display:block; }
+#aboutnav li a:hover {background: #fafafa;}
+#aboutnav li.on { background: #fff; }
+#aboutnav li.on a {background: #fafafa; border-top: 3px double #ccc; border-bottom: 3px double #ccc; color: #8493A5; font-weight:bold;}
+#aboutnav ul li.on ul {list-style:none; margin-left:0; padding-left:0;}
+#aboutnav li.on ul li {font-size: 118%; list-style:none;margin-left:0; padding-left:0;}
+#aboutnav li.on li a {font-size: 100%; list-style:none; display:list-item; padding:2px 0;margin: 4px 0 4px 16px; border:none; color: #999; font-weight:normal; background: #fff;}
+#aboutnav li.on li a:hover {list-style:square;}
+#aboutnav li.on li a.here {list-style:square; font-weight:bold;}
+
+/* Reflections Responses and Form */
+form#responseform {padding: 9px; border: 1px solid #999; background: #eee; margin-right: 30px; margin-bottom: 20px; margin-top: 30px;}
+form#responseform label, form#responseform input.text {display:block; margin-bottom: 12px;}
+form#responseform input.text, form#responseform textarea {border: 1px solid #999;}
+ul#reflections, ul#reflections li {list-style:none; margin:0; padding:0;}
+p.metainfo cite {display:block; margin:0; padding:0;}
+ul#reflections li {border: 1px solid #999; margin-left: 30px; margin-right: 30px; margin-bottom: 20px;padding: 20px; background: #eee;}
+#reflections li.on {}
+.reflection p {margin-left:0; margin-right:0;}
+div.reflection {margin-left: 30px; margin-right: 30px;}
+#reflections div.pagenav {margin-left: 30px; margin-right: 30px;padding:0;}
+#hide input {margin-left: 30px;}
+#result {color: #900; background-color: #fdd; padding: 2px; text-align: center;}
+#delete a {color: #900; background-color: #fdd; border-top: 2px solid #ddd; border-left: 2px solid #ddd; border-right: 2px solid #aaa; border-bottom: 2px solid #aaa; padding: 5px; text-decoration: none;}
+#delete a:hover {background-color: #dbb;}
+
+/* Guestbook form */
+#guestbookform {margin-left: 30px; margin-right: 30px; float:left; display:block;}
+#guestbookform form {padding: 20px; margin: 20px 0; border: 1px solid #ccc; background: #eee;}
+#guestbookform form fieldset {padding: 20px 0; margin: 20px 0;}
+#guestbookform input.typetext, #guestbookform textarea, #guestbookform select {border: 1px solid #ccc;}
+#guestbookform label, #guestbookform input, #guestbookform textarea {display:block;}
+#guestbookform input.typetext {margin-bottom: 20px; padding: 4px;}
+#guestbookform p input {display:inline; margin-right: 20px;}
+#guestbookform p {margin-left:0;}
+/* footer */
+#footer a:link, #footer a:visited {text-decoration:none;}
+#footer a:hover, #footer a:active {text-decoration:none;}
+#footer ul#navigation {list-style:none;}
+#footer ul#navigation li {display:inline;}
+
+/*--------------------------------
+Colors, Backgrounds, Borders
+---------------------------------*/
+/* generic */
+body{background: #111 url("../i/background.gif") 50% 0 repeat-y; color: #606060;}
+img{border: 1px solid #aaa;}
+a:link, a:visited{color: #999;}
+a:hover, a:active {color: #666;}
+h2,h5 {color: #999; border-bottom: 1px dashed #ccc;}
+
+/* Reusable */
+.quotebox {background: #eee url("../i/quote.gif") 0 0 no-repeat;}
+.thumbnail, div.right {border: 1px solid #999; background: #eee;}
+.image_box {border: 1px solid #aaa;background: #eee;}
+.commentary {border: 1px dashed #ccc; padding: 8px; margin-left:30px; margin-right:30px;}
+
+/* Wrap */
+#wrap {background: #fff;}
+
+/* Header */
+#header h1#logo, #header h1#logo a{
+/* Kryogenix's image replacement technique, explained at: ( http://kryogenix.org/code/browser/lir/ ) */
+	padding: 190px 0 0 0; /* height of image */
+    overflow: hidden;
+    height: 0px !important;
+    height /**/:190px; /* height of image, for IE 5.5 */
+    color: #fff;
+}
+
+#header{background-color: #171717; background-repeat: no-repeat;}
+#about #header {background-image:url("../i/header-about.jpg");background-position: bottom right;}
+#traveling #header {background-image:url("../i/header-traveling.jpg");background-position: bottom right;}
+#online #header {background-image:url("../i/header-online.jpg");background-position: bottom right;}
+#reflections #header {background-image:url("../i/header-reflections.jpg");background-position: bottom right;}
+#resources #header {background-image:url("../i/header-resources.jpg");background-position: bottom right;}
+
+#header h1#logo {background: transparent url("../i/logo-small.gif") top left no-repeat;}
+
+/* Navigation */
+#navigation {background: #212121; border-top: 1px solid #212121;}
+#navigation  a:link, #navigation a:visited {background-color: #566B83;color: #fff; background-image:url("../i/tab2.gif"); background-position: 50% bottom;}
+#navigation a:hover {background-color: #324b69; color: #fff;background-image:none;}
+#navigation a:active {background-color: #324b69; color: #fff;}
+#reflections #reflections_nav a, 
+#online #online_nav a, 
+#traveling #traveling_nav a, 
+#resources #teacher_nav a, 
+#about #about_nav a {
+background-image:none;
+background-color: #fff;
+color: #777;
+}
+#header ul#navigation li#online_nav, #header ul#navigation li#traveling_nav, #header ul#navigation li#reflections_nav, #header ul#navigation li#teacher_nav,#header ul#navigation li#online_nav a, #header ul#navigation li#traveling_nav a, #header ul#navigation li#reflections_nav a, #header ul#navigation li#teacher_nav a { width: 149px;}
+#header ul#navigation li#online_nav, #header ul#navigation li#traveling_nav, #header ul#navigation li#reflections_nav, #header ul#navigation li#teacher_nav{border-right: 1px solid #212121;}
+/* Container and Contents */
+
+#crimes-questions {background:#fff; border: 1px dashed #ccc;}
+#museummap img {border:none;}
+blockquote#missionstatement {font-style:italic; display:block; float:left; width: 298px; padding-left:0;text-align:right; border-right: 1px dashed #ccc; margin-bottom: 20px; padding-bottom: 1em;}
+#missionstatement p {margin-left:0;}
+
+h2.sectiontitle {margin-left: -1000em; width:0 !important;line-height:0; overflow:hidden;}
+/* Pagenav styles */
+#pagenav {border-top: 1px dashed #ccc;}
+#next a{background-position: right 50%; background-repeat:no-repeat;}
+#previous a {background-position: left 50%; background-repeat:no-repeat;}
+#next a:link, #next a:visited {background-image: url("../i/next-grey.gif"); }
+#next a:hover, #next a:active {background-image: url("../i/next-black.gif"); color: #333; }
+#previous a:link, #previous a:visited {background-image: url("../i/previous-grey.gif"); }
+#previous a:hover, #previous a:active {background-image: url("../i/previous-black.gif"); color: #333;}
+
+/* Guestbook form */
+#guestbookform form fieldset{border:none;border-bottom: 1px solid #ccc;}
+
+/* Footer */
+#footer {background: #111; color: #606060;clear:both;}
+#footer a:link, #footer a:visited {color: #606060;}
+#footer a:hover, #footer a:active {color: #909090;}
+
+#footer p {margin-bottom:0 ;text-align:right;}
+#footer img {margin-left: 24px; float:left;}

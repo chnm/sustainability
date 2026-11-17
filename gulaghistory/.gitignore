@@ -1,0 +1,4 @@
+# Bulk media, served from object storage; see MEDIA.tsv.
+/archive/files/
+/files/download/
+/podcast/podpress_trac/

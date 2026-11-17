@@ -142,16 +142,17 @@
 			$featured.flexslider( et_slider_settings );
 		}
 		
-		$main_menu.clone().attr('id','mobile_menu').removeClass().appendTo( $et_mobile_nav_button );
-		$cloned_nav = $et_mobile_nav_button.find('> ul');
+		$main_menu.clone().attr('id','mobile_menu').removeClass().insertAfter( $et_mobile_nav_button );   // a11y: menu follows the button, not inside it
+		$cloned_nav = $('#mobile_menu');
+		$et_mobile_nav_button.attr('aria-controls', 'mobile_menu');
 		$cloned_nav.find('span.menu_slide').remove().end().find('span.main_text').removeClass();
 		
 		$et_mobile_nav_button.click( function(){
 			if ( $(this).hasClass('closed') ){
-				$(this).removeClass( 'closed' ).addClass( 'opened' );
+				$(this).removeClass( 'closed' ).addClass( 'opened' ).attr( 'aria-expanded', 'true' );
 				$cloned_nav.slideDown( 500 );
 			} else {
-				$(this).removeClass( 'opened' ).addClass( 'closed' );
+				$(this).removeClass( 'opened' ).addClass( 'closed' ).attr( 'aria-expanded', 'false' );
 				$cloned_nav.slideUp( 500 );
 			}
 			return false;
@@ -259,7 +260,7 @@
 		if ( et_container_width != $('#container').innerWidth() ){
 			et_container_width = $('#container').innerWidth();
 			et_columns_height_fix();
-			if ( ! $featured.is(':visible') ) et_slider.pause();
+			if ( ! $featured.is(':visible') && et_slider ) et_slider.pause();
 		}
 	} );
 })(jQuery)

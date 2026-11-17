@@ -1,0 +1,41 @@
+/* WCAG 2.2 AA overrides for the static copy of the American Women's Dime Novel Project (chnm/sustainability#155).
+   Linked last in every page's <head> by scripts/dimenovels_a11y.py. */
+
+/* 2.4.1 skip link */
+.skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; background: #fff; color: #000; padding: 8px 12px; font-weight: bold; }
+.skip-link:focus { left: 8px; top: 8px; }
+#main-area:focus { outline: none; }
+
+/* 2.4.7 visible focus (the theme removed outlines) */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #005087; outline-offset: 2px; box-shadow: 0 0 0 5px #fff; }
+
+/* 2.1.1 the Dime Novels sub-menu opens on hover only; open it while a link inside has focus */
+#top-menu li:focus-within > ul.sub-menu { display: block !important; visibility: visible !important; opacity: 1 !important; }
+
+/* 1.4.3 contrast: tan headings were 2.8:1 on white, grey footer text 2.8:1 on the paper texture, footer pipes white */
+h2, h2 a, .field-title { color: #8a5a2b; }
+#main_footer .widget { color: #1c1c1c; }
+
+/* 1.4.1 links in running text need more than colour */
+.post-content a, .entry p a, .entry li a { text-decoration: underline; }
+
+/* 2.5.8 targets: sidebar links stacked on <br> lines */
+#sidebar .textwidget a, #sidebar .widget li a { display: inline-block; padding: 4px 0; }
+.browse-links { margin: 0; padding: 0; list-style: none; }
+
+/* home slider: 14px dots sat on top of the caption; the arrows only appeared on mouse hover */
+.responsive-slider.flexslider .flex-control-nav { position: static; margin: 40px 0 0 !important; }
+.responsive-slider.flexslider .flex-control-nav li a { width: 24px !important; height: 24px !important; line-height: 24px; text-align: center; text-indent: 0; background: #fff !important; border: 1px solid #676761; border-radius: 50%; color: #1c1c1c; font-size: 12px; text-decoration: none; }
+.responsive-slider.flexslider .flex-control-nav li a.active { background: #005087 !important; border-color: #005087; color: #fff; }
+.responsive-slider.flexslider .flex-direction-nav li a:focus-visible { opacity: 1; }
+
+/* small-screen menu: now a <button> with the menu after it */
+#mobile_nav_wrap { position: relative; }
+button#mobile_nav { width: 100%; border: 0; font-family: inherit; cursor: pointer; }
+#mobile_nav_wrap #mobile_menu { top: 44px; }
+
+/* 1.4.10 reflow */
+@media (max-width: 479px) {
+  #sidebar, #sidebar .widget { width: auto !important; max-width: 100%; }
+  img { max-width: 100%; height: auto; }
+}

@@ -97,6 +97,16 @@ def fix(s, up):
     # cover gallery: four covers uploaded in 2015 have alt="" inside their only link; give them the book's title
     s = re.sub(r'(<a href="(books/[^"]+\.html)"><img [^>]*alt=)""', lambda m: '%s"%s"' % (m.group(1), book_title(m.group(2))), s)
 
+    # images for the alt-text pass (utils/alt-text flags only missing or filename alts): drop slug alts
+    # ("A-Dark-Marriage-Morn"), each book page's cover alt that only repeats its h1, and alt="" on two slider
+    # images and the Street & Smith page's cover, which pointed at the live site's never-crawled covers/ folder
+    s = s.replace('https://chnm.gmu.edu/dimenovels/covers/a_sinful_secret_tm.jpg', up + 'wp/wp-content/uploads/2013/04/a_sinful_secret_tm.jpg')
+    s = re.sub(r'(<img [^>]*?)\s*alt=(["\'])(?=[^"\' ]*[-_])[\w.-]+\2', r'\1', s)   # also belles_tm, miller_smaller
+    s = re.sub(r'(<img [^>]*?(?:slide1\.png|slide4\.jpg|a_sinful_secret_tm\.jpg)"[^>]*?)\s*alt=""', r'\1', s)
+    title = re.search(r'<h1 class="page_title">(.*?)</h1>', s)
+    if title and up == '../' and '<div id="slide-' not in s:
+        s = re.sub(r"(<img src=\"\.\./wp/wp-content/uploads/et_temp/[^\"]*_320x480\.jpg\") alt='%s'" % re.escape(title.group(1).strip()), r'\1', s)
+
     # e-book pages: Google Books cover links
     s = re.sub(r"(<img style='[^']*') src='http://(books\.google\.com/books/content\?[^']*'/></a> </td><td style='vertical-align:middle;'><p>)<b>(.*?)</b>",
                lambda m: ebook_alt(m) + '<b>' + m.group(3) + '</b>', s)

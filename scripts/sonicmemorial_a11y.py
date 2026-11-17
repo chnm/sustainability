@@ -253,6 +253,44 @@ def head(doc, p):
     return doc
 
 
+# 1.4.13: the home page captions (shown on hover and focus) vanished as soon as the pointer left the link, so the
+# pointer could not reach them, and nothing dismissed them. Hiding now waits a moment and is cancelled while the
+# pointer is on the caption; Escape hides them all.
+CAPTIONS_JS = '''<script>
+(function () {
+  var pending = null, timer = null;
+  function showHide(a) {    /* MM_showHideLayers reads MM_showHideLayers.arguments, so it cannot be called from here */
+    for (var i = 0; i + 2 < a.length; i += 3) { var el = document.getElementById(a[i]); if (el) el.style.visibility = a[i + 2] == 'show' ? 'visible' : 'hidden'; }
+  }
+  function flush() { clearTimeout(timer); if (pending) { var a = pending; pending = null; showHide(a); } }
+  MM_showHideLayers = function () {
+    var a = arguments, hides = false;
+    for (var i = 2; i < a.length; i += 3) if (a[i] == 'hide') hides = true;
+    if (pending && !hides && pending[0] == a[0]) { clearTimeout(timer); pending = null; }   /* back on the same caption */
+    flush();
+    if (hides) { pending = a; timer = setTimeout(flush, 600); } else showHide(a);
+  };
+  document.addEventListener('keydown', function (e) {
+    if (e.key != 'Escape') return;
+    flush();
+    var d = document.querySelectorAll('[id$="_txt"], #browser_ani');
+    for (var i = 0; i < d.length; i++) d[i].style.visibility = 'hidden';
+    var t = document.getElementById('today'); if (t) t.style.visibility = 'visible';
+  });
+})();
+</script>
+'''
+
+
+def captions(doc, p):
+    if p.name != 'index.html' or p.parent != ROOT:
+        return doc
+    doc = re.sub(r'<script>\n\(function \(\) \{\n  var (showHide = MM_showHideLayers, )?pending.*?</script>\n', '', doc, flags=re.S)   # replace an older copy
+    doc = re.sub(r'(<div id="(\w+_txt)" style="[^"]*")>',
+                 lambda m: '%s onmouseover="MM_showHideLayers(\'%s\',\'\',\'show\')" onmouseout="MM_showHideLayers(\'%s\',\'\',\'hide\')">' % (m.group(1), m.group(2), m.group(2)), doc)
+    return re.sub(r'</body>', CAPTIONS_JS + '</body>', doc, count=1, flags=re.I)
+
+
 def main():
     parents = slide_parents()
     n = 0
@@ -260,7 +298,7 @@ def main():
         if p.name == '_sheet.html':
             continue
         doc = read(p)
-        new = head(doc, p)
+        new = captions(head(doc, p), p)
         new = links(new, p, parents)
         new = img_alt(new, p)
         new = forms(new)

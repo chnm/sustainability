@@ -13,6 +13,7 @@
 - archive.jsp.html (JSP source the server sends unexecuted) keeps its header and says the archive is gone.
 - press/banners.html and add_story_sound.jsp.html, empty on the live site, say so.
 - The orphaned <map> on stewardesses/stewardess.html (no image uses it; its four MP3s 404) goes.
+- The press banner GIF, which loops forever (2.2.2), is shown as one still frame (press/banners/*_still.gif).
 
 Idempotent. Run from the repo root:  python3 scripts/sonicmemorial_media.py
 """
@@ -210,12 +211,17 @@ def main():
         new = realaudio(audio(p, doc))
         if p.name == 'stewardess.html':
             new = re.sub(r'<map name="Map">.*?</map>\s*', '', new, flags=re.S | re.I)
+        # 2.2.2: the press banner loops forever; show one frame of it (frame 6, made with ffmpeg)
+        new = re.sub(r'(press/banners/adbrowserani300px0902)\.gif', r'\1_still.gif', new, flags=re.I)
         write(p, new)
 
-    write(ROOT / 'sm_detector.html', DETECTOR.replace('\n', '\r\n'))
+    # written once, from the originals only, so later scripts' changes (the banner) stay
+    if 'MM_FlashDispatch' in read(ROOT / 'sm_detector.html'):
+        write(ROOT / 'sm_detector.html', DETECTOR.replace('\n', '\r\n'))
     for rel, (title, body) in STUBS.items():
         p = ROOT / rel
-        write(p, STUB % {'title': title, 'body': body, 'up': '../' * rel.count('/')})
+        if '<h1' not in read(p):
+            write(p, STUB % {'title': title, 'body': body, 'up': '../' * rel.count('/')})
     write(ROOT / 'archive.jsp.html', archive(read(ROOT / 'archive.jsp.html')))
 
     for rel in ('Dispatcher.js', 'Dispatcher.vbs.html', 'install_flash', 'upgrade_flash'):

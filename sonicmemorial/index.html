@@ -71,7 +71,7 @@ MM_reloadPage(true);
   <img alt="" SRC="images/cross.gif" WIDTH="7" HEIGHT="7" BORDER="0"><br>
 </div>
 
-<div id="browser_txt" style="position:absolute; left:415px; top:278px; z-index:13; visibility:hidden;"> 
+<div id="browser_txt" style="position:absolute; left:415px; top:278px; z-index:13; visibility:hidden;" onmouseover="MM_showHideLayers('browser_txt','','show')" onmouseout="MM_showHideLayers('browser_txt','','hide')"> 
   <img alt="Immerse yourself in this interactive soundscape of voices, stories, and audio traces from the World Trade Center. Requires Flash 6" SRC="images/nav/home_browser_txt.gif" WIDTH="199" HEIGHT="63" BORDER="0"> 
 </div>
 <div id="browser_ani" style="position:absolute; left:0px; top:232px; z-index:14; visibility:hidden;"> 
@@ -90,7 +90,7 @@ MM_reloadPage(true);
 <img alt="" SRC="images/cross.gif" WIDTH="7" HEIGHT="7" BORDER="0"><br>
 </div>
 
-<div id="archive_txt" style="position:absolute; left:46px; top:85px; z-index:22; visibility:hidden;"> 
+<div id="archive_txt" style="position:absolute; left:46px; top:85px; z-index:22; visibility:hidden;" onmouseover="MM_showHideLayers('archive_txt','','show')" onmouseout="MM_showHideLayers('archive_txt','','hide')"> 
   <img alt="Search the archive for personal or historic recordings and sonic traces of the World Trade Center." SRC="images/nav/home_archive_txt.gif" WIDTH="192" HEIGHT="47" BORDER="0"> 
 </div>
 -->
@@ -107,7 +107,7 @@ MM_reloadPage(true);
 <img alt="" SRC="images/cross.gif" WIDTH="7" HEIGHT="7" BORDER="0"><br>
 </div>
 
-<div id="stories_txt" style="position:absolute; left:269px; top:113px; z-index:32; visibility:hidden;"> 
+<div id="stories_txt" style="position:absolute; left:269px; top:113px; z-index:32; visibility:hidden;" onmouseover="MM_showHideLayers('stories_txt','','show')" onmouseout="MM_showHideLayers('stories_txt','','hide')"> 
   <img alt="Listen to Radio Row, Mohawk Ironworkers, and other stories produced by NPR&#x27;s Lost &amp; Found Sound and independent producers across the country." SRC="images/nav/home_stories_txt.gif" WIDTH="198" HEIGHT="78" BORDER="0"> 
 </div>
 <!-- *** END STORIES *** -->
@@ -123,7 +123,7 @@ MM_reloadPage(true);
 <img alt="" SRC="images/cross.gif" WIDTH="7" HEIGHT="7" BORDER="0"><br>
 </div>
 
-<div id="about_txt" style="position:absolute; left:91px; top:176px; z-index:42; visibility:hidden;"> 
+<div id="about_txt" style="position:absolute; left:91px; top:176px; z-index:42; visibility:hidden;" onmouseover="MM_showHideLayers('about_txt','','show')" onmouseout="MM_showHideLayers('about_txt','','hide')"> 
   <img alt="Find out about the Sonic Memorial Project, its creators, and the national collaboration." SRC="images/nav/home_about_txt.gif" WIDTH="172" HEIGHT="49" BORDER="0"> 
 </div>
 <!-- *** END ABOUT *** -->
@@ -138,7 +138,7 @@ MM_reloadPage(true);
 <img alt="" SRC="images/cross.gif" WIDTH="7" HEIGHT="7" BORDER="0"><br>
 </div>
 
-<div id="add_txt" style="position:absolute; left:543px; top:72px; z-index:52; visibility:hidden;">
+<div id="add_txt" style="position:absolute; left:543px; top:72px; z-index:52; visibility:hidden;" onmouseover="MM_showHideLayers('add_txt','','show')" onmouseout="MM_showHideLayers('add_txt','','hide')">
 <IMG SRC="images/nav/home_add_txt.gif" ALT="Contribute your stories, recordings, and audio artifacts of the World Trade Center, both personal and historic." WIDTH="179" HEIGHT="67" BORDER="0">
 </div>
 <!-- *** END ADD *** -->
@@ -154,7 +154,7 @@ MM_reloadPage(true);
 <img alt="" SRC="images/cross.gif" WIDTH="7" HEIGHT="7" BORDER="0"><br>
 </div>
 
-<div id="educators_txt" style="position:absolute; left:521px; top:176px; z-index:62; visibility:hidden;"> 
+<div id="educators_txt" style="position:absolute; left:521px; top:176px; z-index:62; visibility:hidden;" onmouseover="MM_showHideLayers('educators_txt','','show')" onmouseout="MM_showHideLayers('educators_txt','','hide')"> 
   <img alt="Introduce the Sonic Memorial Project to your students with these curriculum ideas." SRC="images/nav/home_educators_txt.gif" WIDTH="169" HEIGHT="52" BORDER="0"> 
 </div>
 <!-- *** END EDUCATORS *** -->
@@ -170,7 +170,7 @@ MM_reloadPage(true);
 <img alt="" SRC="images/cross.gif" WIDTH="7" HEIGHT="7" BORDER="0"><br>
 </div>
 
-<div id="timeline_txt" style="position:absolute; left:285px; top:358px; z-index:72; visibility:hidden;"> 
+<div id="timeline_txt" style="position:absolute; left:285px; top:358px; z-index:72; visibility:hidden;" onmouseover="MM_showHideLayers('timeline_txt','','show')" onmouseout="MM_showHideLayers('timeline_txt','','hide')"> 
   <img alt="Learn about the history of the World Trade Center and its neighborhood." SRC="images/nav/home_timeline_txt.gif" WIDTH="156" HEIGHT="50" BORDER="0"> 
 </div>
 <!-- *** END TIMELINE *** -->
@@ -293,7 +293,30 @@ document.getElementById("current-year").innerHTML = new Date().getFullYear();
 <!-- *** END RED SQUARE RIGHT*** -->
 
 </div>
-</BODY>
+<script>
+(function () {
+  var pending = null, timer = null;
+  function showHide(a) {    /* MM_showHideLayers reads MM_showHideLayers.arguments, so it cannot be called from here */
+    for (var i = 0; i + 2 < a.length; i += 3) { var el = document.getElementById(a[i]); if (el) el.style.visibility = a[i + 2] == 'show' ? 'visible' : 'hidden'; }
+  }
+  function flush() { clearTimeout(timer); if (pending) { var a = pending; pending = null; showHide(a); } }
+  MM_showHideLayers = function () {
+    var a = arguments, hides = false;
+    for (var i = 2; i < a.length; i += 3) if (a[i] == 'hide') hides = true;
+    if (pending && !hides && pending[0] == a[0]) { clearTimeout(timer); pending = null; }   /* back on the same caption */
+    flush();
+    if (hides) { pending = a; timer = setTimeout(flush, 600); } else showHide(a);
+  };
+  document.addEventListener('keydown', function (e) {
+    if (e.key != 'Escape') return;
+    flush();
+    var d = document.querySelectorAll('[id$="_txt"], #browser_ani');
+    for (var i = 0; i < d.length; i++) d[i].style.visibility = 'hidden';
+    var t = document.getElementById('today'); if (t) t.style.visibility = 'visible';
+  });
+})();
+</script>
+</body>
 
 </HTML>
 

@@ -1,0 +1,54 @@
+/* Accessibility fixes layered over the archived Sonic Memorial styles (chnm/sustainability#156). */
+
+.skip-link { position: absolute; left: -9999px; top: 0; z-index: 10000; padding: 8px 12px; background: #fff; color: #000033; border: 2px solid #000033; font: bold 14px/1.4 Arial, Helvetica, sans-serif; }
+.skip-link:focus { left: 8px; top: 8px; }
+:focus-visible { outline: 3px solid #ff9933 !important; outline-offset: 1px; box-shadow: 0 0 0 5px #000033; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* headings made from the orange title spans keep their look */
+.sm-h { display: inline; margin: 0; font-size: inherit; font-weight: inherit; }
+h1.sm-h, h2.sm-h { line-height: 20px; }
+h1:focus, h1:focus-visible { outline: none; box-shadow: none; }
+
+/* native audio players and notes about lost media */
+.sm-audio { display: block; width: 260px; max-width: 100%; height: 32px; margin: 4px 0 6px; }
+.sm-lost { font: italic 11px/14px Arial, Helvetica, sans-serif; color: #5a2a00; }
+body[bgcolor="#000033"] .sm-lost, body[bgcolor="#012666"] .sm-lost, td[bgcolor="#000033"] .sm-lost { color: #ffcc99; }
+.sm-back { font: bold 12px Arial, Helvetica, sans-serif; margin: 6px 0; }
+.sm-go { font: bold 11px Arial, Helvetica, sans-serif; margin-left: 4px; padding: 2px 8px; background: #fffedc; color: #000033; border: 1px solid #000033; cursor: pointer; }
+.sm-page { max-width: 720px; padding: 0 16px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.5; }
+.sm-page img { max-width: 100%; height: auto; }
+
+/* RRCHNM banner */
+.notice { color: #222; font-family: Arial, Helvetica, sans-serif; position: relative; z-index: 100; }
+.notice a { color: #1a4d8f !important; text-decoration: underline !important; }
+
+/* 1.4.3 contrast: the orange (#FF6600) is 2.9:1 on the cream pages; a deeper orange passes */
+.txt11Orange, .txt12Orange, .txt14Orange, .txt16Orange, .subheader, .caption,
+body[link="#FF6600"]:not([bgcolor="#000033"]) a:is(:link, :visited):not([class]),
+font[color="#FF6600"] { color: #b84800 !important; }
+/* ...but not on the dark navy pages and bars, where the original orange is 6.8:1 */
+:is(body[bgcolor="#000033"], [bgcolor="#000033"], [bgcolor="000033"], [bgcolor="#012666"], [bgcolor="012666"]) :is(.txt11Orange, .txt12Orange, .txt14Orange, .txt16Orange, .subheader, .caption, font[color="#FF6600"]):not(:is(table, td)[bgcolor="#FFFEDC"] *) { color: #ff6600 !important; }
+select { background-color: #fffedc !important; color: #000033 !important; }
+input[style*="FF6600"] { background-color: #b84800 !important; }
+
+/* 2.5.8 target size: text links get a 24px-tall hit area without moving the text */
+a:not(:has(img)):not(.skip-link) { padding-top: 6px; padding-bottom: 6px; }
+a:has(> img[src*="nav/"]) { display: inline-block; min-height: 24px; }
+input, select, button { min-height: 24px; }
+/* runs of inline links (the collaborator and supporter lists) get lines tall enough that the hit areas do not overlap */
+:is(p, td, b, span, div, font):has(> a ~ a) { line-height: 26px !important; }
+/* links stacked line after line with <br> take their own line box */
+a:not(:has(img)):has(+ br), br + a:not(:has(img)) { display: inline-block; }
+
+/* 1.4.10 reflow: the fixed-width tables and the home collage linearize on narrow screens */
+@media (max-width: 800px) {
+  body { margin: 0 !important; overflow-wrap: break-word; }
+  #sm-banner-wrap div[style*="absolute"] { position: static !important; }
+  #sm-banner-wrap div[style*="visibility:hidden"], #sm-banner-wrap div[style*="visibility: hidden"] { display: none; }
+  table, tbody, tr, td { display: block; width: auto !important; height: auto !important; max-width: 100%; }
+  img[src*="spacer"], img[src*="dotline"] { display: none; }
+  img, audio, textarea, input, select { max-width: 100%; }
+  img { height: auto; }
+  #sm-banner-wrap { padding: 0 8px; }
+}

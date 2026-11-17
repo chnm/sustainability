@@ -1,5 +1,8 @@
-<html>
+<html lang="en">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../a11y.css">
+
 <title>Martha Ballard's Diary Online</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <script language="JavaScript">
@@ -102,6 +105,8 @@ else {window.location.href="../../../cgi-bin/gotodiary?date="+datenum+"&type="+t
 
 
 <body bgcolor="#333366" text="#CCCC99" link="#CCCC66" vlink="#999966" alink="#CCCC33" onLoad="MM_preloadImages('MenuImages/lensOnAnim.gif','#948680632233');MM_preloadImages('MenuImages/decodeOn.jpg','#948682901166');MM_preloadImages('MenuImages/transcribeOnAnim.gif','#949615320150');MM_preloadImages('MenuImages/storiesOn.jpg','#949615561083');MM_preloadImages('MenuImages/searchOnAnim.gif','#949615607383');MM_preloadImages('MenuImages/browseOn.jpg','#949615645316')">
+<a class="skip-link" href="#content">Skip to content</a>
+
 <!-- #BeginLibraryItem "/Library/topNav_toplevel_onBlu.lbi" --><!--start topnav-->
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr valign="top"> 
@@ -110,11 +115,12 @@ else {window.location.href="../../../cgi-bin/gotodiary?date="+datenum+"&type="+t
   </tr>
 </table><br>
 <!--`end topnav-->
+<div id="content" tabindex="-1"></div>
 <!-- #EndLibraryItem --> 
 <table width="575" border="0" cellspacing="0" cellpadding="0">
   <tr> 
     <td colspan="2">
-      <p><img src="images/diary_Title.gif" width="308" height="31" alt="Martha Ballard's Diary Online"><br>
+      <p><span role="heading" aria-level="1"><img src="images/diary_Title.gif" width="308" height="31" alt="Martha Ballard's Diary Online"></span><br>
 	<font face="Arial, Helvetica, sans-serif" size="-1">Martha Ballard wrote 
 	in her diary nearly every day from January 1, 1785 to May 12, 1812</font> 
 	<font face="Arial, Helvetica, sans-serif" size="-1"> (27 years) <br>
@@ -200,7 +206,7 @@ else {window.location.href="../../../cgi-bin/gotodiary?date="+datenum+"&type="+t
 </table>
 <form method="post"  name="dateform">
                                 <font size="+1">Go To A Date</font> 
-                                <select name="Month">
+                                <select name="Month" aria-label="Month">
                                         <option value="01">January</option>
                                         <option value="02">February</option>
                                         <option value="03">March</option>
@@ -214,7 +220,7 @@ else {window.location.href="../../../cgi-bin/gotodiary?date="+datenum+"&type="+t
                                         <option value="11">November</option>
                                         <option value="12">December</option>
                                 </select>
-                                <select name="Day">
+                                <select name="Day" aria-label="Day">
                                         <option value="01">1</option>
                                         <option value="02">2</option>
                                         <option value="03">3</option>
@@ -247,7 +253,7 @@ else {window.location.href="../../../cgi-bin/gotodiary?date="+datenum+"&type="+t
                                         <option value="30">30</option>
                                         <option value="31">31</option>
                                 </select>
-                                <select name="Year">
+                                <select name="Year" aria-label="Year">
                                         <option value="1785">1785</option>
                                         <option value="1786">1786</option>
                                         <option value="1787">1787</option>
@@ -297,7 +303,7 @@ if (url != "") {top.location.href = url;}
 //-->
 </script>
       <form name="changer" method="post">
-	<select name="SelectMenu" onChange="changeIt()">
+	<select name="SelectMenu" aria-label="Jump to">
 	  <option>Jump to...</option>
 	  <option value="../book/100_speech.html">Read Professor Ulrich's reflections 
     on Martha's diary and her own diary</option>
@@ -309,7 +315,7 @@ if (url != "") {top.location.href = url;}
     at this site</option>
     <option value="../on_your_own/bibliographies.html#diaries">Bibliography: Using 
     Diaries and Journals</option>
-	</select>
+	</select> <input type="button" value="Go" onclick="changeIt()">
       </form>
 <p></p>
 <!-- #BeginLibraryItem "/Library/bottomNav_diary.lbi" --><!--start bottomnav--> 

@@ -6,7 +6,7 @@ if (!Seasons) {
     
     Seasons.mobileSelectNav = function () {
         // Create the dropdown base
-        $("<select class=\"mobile\" />").appendTo("nav.top");
+        $("<select class=\"mobile\" aria-label=\"Site navigation\" />").appendTo("nav.top");
         
         // Create default option "Go to..."
         $("<option />", {

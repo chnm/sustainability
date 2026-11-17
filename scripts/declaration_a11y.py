@@ -8,7 +8,8 @@ Per page: lang="en"; viewport meta + a11y.css; the dead Piwik tracker removed; t
 first large bold line becomes the <h1> and names the <title>; section headings become <h2>; <ul> used only
 to indent (no <li>) becomes <div class="indent">; footnote links match their anchors' case; images of single
 letters (Polish l/s/n, macron o) become the letters; alt on the site graphics and the scanned translations;
-a skip link to the <h1>. The frameset gets frame titles and a menu frame that can scroll when zoomed.
+a skip link to the <h1>; lang on paragraphs of the full-text translations. The frameset gets frame titles and
+a menu frame that can scroll when zoomed. The animated title graphic plays once instead of looping.
 """
 import html, os, re, sys
 from pathlib import Path
@@ -72,6 +73,11 @@ def tag_languages(doc, lang):
     # many of these <p> are never closed: a paragraph runs to </p>, the next <p> or the end of its <div>
     return re.sub(r'<p\b((?:(?!\slang=)[^>])*)>(.*?)(?=</p>|<p\b|</div>|</td>)', repl, doc, flags=re.S | re.I)
 
+
+# 2.2.2: the title graphic cycles Declaration / Erkl\u00e4rung / Dichiarazione / Deklaracja every 2.9s, forever.
+# Without its NETSCAPE2.0 loop block a GIF plays once, so it stops on "Declaration" after 2.9s.
+DEC_GIF = ROOT / 'images' / 'dec.gif'
+GIF_LOOP = b'!\xff\x0bNETSCAPE2.0\x03\x01\x00\x00\x00'
 
 FRAME_TITLES = {'one.html': 'Content', 'menu.html': 'Site menu'}
 PIWIK = re.compile(r'<!-- Piwik -->.*?<!-- End Piwik Code -->[ \t]*\r?\n?', re.S)
@@ -238,6 +244,7 @@ def check(pages):
         if re.search(r'<title>\s*JAH Roundtable\s*</title>', doc, re.I): bad.append((rel, 'title'))
         if doc.count(SKIP_LINK) != 1: bad.append((rel, 'skip link'))
         if rel in PAGE_LANG and ' lang="%s"' % PAGE_LANG[rel] not in doc: bad.append((rel, 'lang of parts'))
+    if b'NETSCAPE2.0' in DEC_GIF.read_bytes(): bad.append(('images/dec.gif', 'loops'))
     idx = (ROOT / 'index.html').read_bytes().decode(ENC)
     if idx.count(' title="') < 2 or 'scrolling="no"' in idx: bad.append(('index.html', 'frames'))
     return bad
@@ -252,6 +259,10 @@ def main():
         if new != old:
             p.write_bytes(new.encode(ENC))
             changed += 1
+    gif = DEC_GIF.read_bytes()
+    if GIF_LOOP in gif:
+        DEC_GIF.write_bytes(gif.replace(GIF_LOOP, b'', 1))
+        print('images/dec.gif now plays once')
     print('%d of %d pages changed' % (changed, len(pages)))
     again = [p for p in pages if fix_page(p) != p.read_bytes().decode(ENC)]
     bad = check(pages)

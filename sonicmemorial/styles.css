@@ -1,0 +1,32 @@
+.txt10Blue 			{  font-family: Arial, Helvetica, sans-serif; font-size: 10px !important; color: #000033; text-decoration:none;}
+
+
+.txt11Blue 			{  font-family: Arial, Helvetica, sans-serif; font-size: 11px !important; color: #000033; text-decoration:none;}
+.txt11BlueB 		{  font-family: Arial, Helvetica, sans-serif; font-size: 11px !important; font-weight: bold; line-height:14px; color: #000033; text-decoration:none;}
+
+
+.txt12Blue 			{  font-family: Arial, Helvetica, sans-serif; font-size: 12px !important; line-height:14px; color: #000033; text-decoration:none;}
+.txt12BlueB 		{  font-family: Arial, Helvetica, sans-serif; font-size: 12px !important; font-weight: bold; line-height:14px; color: #000033; text-decoration:none;}
+
+
+.txt11Orange 		{  font-family: Arial, Helvetica, sans-serif; font-size: 11px !important; font-weight: bold; line-height:14px; color: #FF6600; text-decoration:none;}
+.txt12Orange 		{  font-family: Arial, Helvetica, sans-serif; font-size: 12px !important; font-weight: bold; line-height:14px; color: #FF6600; text-decoration:none;}
+.txt11Yellow		{  font-family: Arial, Helvetica, sans-serif; font-size: 11px !important; font-weight: bold; line-height:14px; color: #FFFEDC; text-decoration:none;}
+.txt12Yellow		{  font-family: Arial, Helvetica, sans-serif; font-size: 12px !important; font-weight: bold; line-height:14px; color: #FFFEDC; text-decoration:none;}
+.txt14Blue	 		{  font-family: Arial, Helvetica, sans-serif; font-size: 14px !important; font-weight: bold; line-height:20px; color: #000033; text-decoration:none;}
+.txt14Orange 		{  font-family: Arial, Helvetica, sans-serif; font-size: 14px !important; font-weight: bold; line-height:20px; color: #FF6600; text-decoration:none;}
+.txt16Orange 		{  font-family: Arial, Helvetica, sans-serif; font-size: 16px !important; font-weight: bold; line-height:20px; color: #FF6600; text-decoration:none;}
+.txt16Blue	 		{  font-family: Arial, Helvetica, sans-serif; font-size: 16px !important; font-weight: bold; line-height:20px; color: #000033; text-decoration:none;}
+
+
+
+
+.header 			{  font-family: Arial, Helvetica, sans-serif; font-size: 16px !important; line-height:14px; color: #000033; font-weight: bold; text-decoration:none;}
+.subheader 			{  font-family: Arial, Helvetica, sans-serif; font-size: 16px !important; line-height:14px; color: #FF6600; font-weight: bold; text-decoration:none;}
+
+
+
+.caption 		{  font-family: Arial, Helvetica, sans-serif; font-size: 10px !important; color: #FF6600; text-decoration:none;}
+.captionBlue 	{  font-family: Arial, Helvetica, sans-serif; font-size: 10px !important; color: #000033; text-decoration:none;}
+
+.copyright 	{  font-family: Arial, Helvetica, sans-serif; font-size: 11px !important; color: #FFFEDC; font-weight: bold; text-decoration:none;}

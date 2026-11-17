@@ -1,0 +1,197 @@
+<!-- $Id$ -->
+<%@ taglib uri="/WEB-INF/lib/mailer.tld" prefix="mailer" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+
+<%
+if("Submit".equalsIgnoreCase(request.getParameter("submit"))) { 
+  StringBuffer msg = new StringBuffer();
+  msg.append("\nname: "+request.getParameter("name"));
+  msg.append("\nemail: "+request.getParameter("email"));
+  msg.append("\ncomments/questions:\n"+request.getParameter("comments"));
+%>
+<mailer:mail from="contact@sonicmemorial.org" subject="[SonicMemorial] Contact Us Submission">
+   <mailer:setrecipient type="to" address="suej@picture-projects.com,britta@picture-projects.com"/>
+   <mailer:message>
+<%=msg.toString()%>
+   </mailer:message>
+   <mailer:send/>
+</mailer:mail>
+<%
+  response.sendRedirect("./thank_you.html");
+  }
+%>
+
+<title>The Sonic Memorial project</title>
+<link rel="stylesheet" href="styles.css" type="text/css">
+<STYLE TYPE="text/css">
+
+body { background-image:url(images/pop_bg.gif); background-repeat:repeat-y; }
+
+</STYLE>
+<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript">
+/* <!--*/
+
+function go()
+{
+window.location=
+document.nav.pulldown.options[document.nav.pulldown.selectedIndex].value;
+}
+/* //-->*/
+</SCRIPT>
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '102']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+<BODY BGCOLOR="#FFFEDC" LEFTMARGIN="0" TOPMARGIN="20" MARGINWIDTH="0" MARGINHEIGHT="20" TEXT="#000033" LINK="#FF6600" ALINK="#FF3300" VLINK="#FF6600">
+<div class="notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a href="https://rrchnm.org" target="_blank"><img src="https://sonicmemorial.org/images/nav/rrchnm_logo.png" alt="RRCHNM Logo" style="height: 30px; margin-right: 15px;"/></a>
+    <div>
+    This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank">Roy Rosenzweig Center for History and New Media</a>.
+    </div>
+</div>
+<div id="sm-banner-wrap" style="position:relative;">
+
+
+<TABLE WIDTH="400" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+<TR>
+	<TD WIDTH="50"><IMG SRC="images/spacer.gif" WIDTH="50" HEIGHT="1" BORDER="0"></TD>
+	<TD WIDTH="400" CLASS="txt11Yellow">
+	
+		<TABLE WIDTH="370" BORDER="0" CELLPADDING="2" CELLSPACING="0">
+		<FORM NAME="nav">
+		<TR>
+		<TD ALIGN="right" CLASS="txt11Yellow">
+		<SELECT NAME="pulldown" ONCHANGE="go();" STYLE="width:250px; height:17px; background-color:FF6600; font-size:10px; font-weight:bold; color:#ffffff; font-family:arial,verdana;">
+		<OPTION>Other Lesson Modules
+		<OPTION>----------
+		<OPTION VALUE="educators_mod_history.html">History and Time
+		<OPTION VALUE="educators_mod_memorials.html">Memorials
+		<OPTION VALUE="educators_mod_places.html">The Places and Stories of Our Lives
+		<option value="educators_mod_ideals.html">Civic Ideals and Practices
+		<OPTION VALUE="educators_mod_culture.html">Culture and Identity
+		<OPTION VALUE="educators_mod_911.html">How to Talk about 9/11
+				<option>--------------
+		<OPTION VALUE="contact_us.jsp">Share Your Experience
+		</SELECT>
+		</TD></TR>
+		</form></TABLE>	
+	
+	</TD>
+</TR>
+</TABLE>
+<form action="contact_us.jsp.html" method="post">
+  <TABLE WIDTH="400" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+<TR> 
+	<TD rowspan=2><IMG SRC="images/spacer.gif" WIDTH="50" HEIGHT="1" BORDER="0"></TD>
+	<TD>&nbsp;</TD>
+</TR>
+<TR> 
+<td class="txt12Blue"> 
+	<span class="txt16Orange">Share Your Experience:</span>
+	<br>
+        We&#146;d love to hear from you. If you have had a successful lesson that 
+        you&#146;d like to share or you have taught these lessons and would like 
+        to share your experience, please post your lessons and comments here. 
+        <br>
+        <BR>
+        <BR>
+    
+    <TABLE width=350 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+    <tr><td width=60 class="txt12BlueB">Name:</td><td width=340><input type="text" name="name" size=30 style="width:150px; height:18px;"></td></tr>
+    <tr><td colspan=2><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="5" BORDER="0"></td></tr>
+    <tr><td class="txt12BlueB">Email:</td><td><input type="text" name="email" size=30 style="width:150px; height:18px;"></td></tr>
+    <tr><td colspan=2><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="20" BORDER="0"></td></tr>
+    <tr>
+            <td class="txt12BlueB" colspan=2>How have you used the Sonic Memorial 
+              Project in the classroom?</td>
+          </tr>
+    <tr><td colspan=2><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="5" BORDER="0"></td></tr>
+    <tr><td colspan=2><textarea cols="50" rows="20" name="comments" size=30 style="width:350px; height:100px;"></textarea></td></tr>
+    <tr><td colspan=2><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="10" BORDER="0"></td></tr>
+    <tr><td><INPUT name="submit" type="submit" value="Submit" STYLE="background-color:#FF6600; font-size:10px; font-weight:bold; color: #ffffff; font-family: verdana, arial;"> </td>
+            <td> &nbsp; &nbsp; &nbsp; 
+              <INPUT name="cancel" type="reset" value="Cancel" STYLE="background-color:#FF6600; font-size:10px; font-weight:bold; color: #ffffff; font-family: verdana, arial;"></td></tr>
+    </table>
+    <BR>
+    
+    <span class="captionBlue">If you have sample curriculum, student work, or other documentation to include, please email it to us at <!--EScrambled Email Address Code-->
+
+<!--For help with this code go to-->
+<!--http://innerpeace.org/escrambler.shtml-->
+
+<script>
+
+<!--
+
+function escramble(){
+ var a,b,c,d,e,f,g,h,i
+ a='<a href=\"mai'
+ b='sonicmemorial'
+ c='\">'
+ a+='lto:'
+ b+='@'
+ e='</a>'
+ f=''
+ b+='picture-projects.com'
+ g='<img src=\"'
+ h=''
+ i='\" alt="Email us." border="0">'
+
+ if (f) d=f
+ else if (h) d=g+h+i
+ else d=b
+
+ document.write(a+b+c+d+e)
+}
+
+escramble()
+
+//-->
+
+</script>
+
+<!--End EScrambled Email Address Code-->. </span>
+    <BR>
+    
+    <!--<IMG SRC="images/arrow_down.gif" WIDTH="13" HEIGHT="25" BORDER="0" vspace=15><BR><BR>
+    
+    <A NAME="read"></a><span class="txt16Orange">Comments from Educators:</span>
+    <BR><BR>
+
+    <I>Su Johnson, New York</I><BR>
+    U.S. intelligence sources said today that high-ranking al Qaeda figures could be among terrorists they believe are hiding in Iran and Iraq, CNN has learned.
+	<BR>
+    <BR><BR>
+    <I>Alison Cornyn, New York</I><BR>
+    U.S. intelligence sources said today that high-ranking al Qaeda figures could be among terrorists they believe are hiding in Iran and Iraq, CNN has learned.
+	<BR>-->
+	</TD>
+</TR>
+<TR><TD COLSPAN=2><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="10" BORDER="0"></TD></TR>
+</TABLE>
+</FORM>
+
+
+
+    
+</div>
+</body>
+</html>
+

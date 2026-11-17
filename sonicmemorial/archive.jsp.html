@@ -1,0 +1,512 @@
+<!-- $Id: archive.jsp,v 1.15 2002/09/08 18:23:56 julian Exp $ -->
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<%@page contentType="text/html" %>
+<%@ page import="java.util.Calendar" %>
+<%@ page import="com.elysium.sonic.util.Constants" %>
+<%@ page import="com.elysium.sonic.beans.*" %>
+<%@ taglib uri="/WEB-INF/lib/listlib.tld" prefix="list" %>
+<%@ taglib uri="/WEB-INF/lib/taglib.tld" prefix="sonic" %>
+<%@ taglib uri="/WEB-INF/lib/session.tld" prefix="sess" %>
+<%@ taglib uri="/WEB-INF/lib/utility.tld" prefix="jLib" %>
+<%@ taglib uri="/WEB-INF/lib/request.tld" prefix="req" %>
+
+<jsp:useBean id="c" scope="session" class="com.elysium.sonic.list.SoundUnitListCreator" />
+<% pageContext.setAttribute("list_creator", c); %>
+
+<HTML>
+<HEAD>
+<TITLE>The Sonic Memorial Project</TITLE>
+
+<style type="text/css">
+
+body { background-image:url(images/archive_bg.gif); background-repeat:repeat; }
+
+</style>	
+
+<script type="text/javascript" language="javascript" src="nav.js"></script>	
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<script type="text/javascript" language="javascript">
+/* <!-- */
+
+
+var browserWindow;
+function openBrowserWindow(){
+	var x=(screen.width-610)/2;
+	var y=(screen.height-410)/2-20;
+	browserWindow=window.open("sm_detector.html","browserWin","width=740,height=420,left="+x+",top="+y+",toolbar=no,status=no,scrollbars=no,resizeable=no,menubar=no,location=no");
+	browserWindow.opener = window;
+}
+	
+	
+function popWin(winURL,winName) {
+        window.open(winURL,winName,'height=600,width=440,toolbar=0,menubar=0,status=0,location=0,scrollbars=1,resizable=1');
+        }
+        
+function assetWin(winURL,winName) {
+        window.open(winURL,winName,'height=300,width=300,toolbar=0,menubar=0,status=0,location=0,scrollbars=1,resizable=1');
+        }
+
+/* // The Central Randomizer 1.3 (C) 1997 by Paul Houle (houle@msc.cornell.edu) */
+/* // See:  http://www.msc.cornell.edu/~houle/javascript/randomizer.html */
+
+rnd.today=new Date();
+rnd.seed=rnd.today.getTime();
+
+function rnd() {
+        rnd.seed = (rnd.seed*9301+49297) % 233280;
+        return rnd.seed/(233280.0)
+}
+
+function rand(number) {
+        return Math.ceil(rnd()*number)
+}
+
+//function assetsWindow(assetURL, assetTITLE) {
+//  assetsWindow(assetURL, assetTITLE, '')
+//}
+
+function assetsWindowById(assetURL,assetId) {
+	
+if( assetURL.indexOf(".mp3")>-1){
+	var myURL = "audioAsset.jsp?assetURL="+assetURL;
+	assetWindow = window.open (myURL,'sndWin','toolbar=no,status=yes,resizable=no,width=600,height=400');
+
+} else if(assetURL.indexOf(".jpg")>-1 || assetURL.indexOf(".jpeg")>-1){
+	var myURL = "imageAsset.jsp?asset_id="+assetId;
+	assetWindow = window.open (myURL,'imgWin','toolbar=no,status=yes,resizable=no,width=600,height=460');
+	//assetWindow = window.open ('','imgWin','toolbar=no,scrollbars=yes,resizable=yes,width=600,height=400');
+	//assetWindow.document.open();
+	//assetWindow.document.write("<HTML><HEAD><TITLE>Sonic Memorial Project<\/TITLE><\/HEAD><BODY BGCOLOR=FFFEDC><table width=100% height=100% border=0 valign=center><tr><td align=center><p><B><b><font face=arial color=000033 size=11px>"+assetTITLE+"<\/font><\/b><\/B><br><center><IMG SRC="+assetURL+"><br><\/center><BR><font face=arial color=000033 size=10px>"+assetCAPTION+"<\/font><br><\/td><\/tr><\/table><\/BODY><\/HTML>");
+	//assetWindow.document.close();
+}
+}
+
+function assetsWindow(assetURL,assetTITLE, assetCAPTION) {
+	
+if( assetURL.indexOf(".mp3")>-1){
+	var myURL = "audioAsset.jsp?assetURL="+assetURL;
+	assetWindow = window.open (myURL,'sndWin','toolbar=no,status=yes,resizable=no,width=320,height=120');
+
+} else if(assetURL.indexOf(".jpg")>-1 || assetURL.indexOf(".jpeg")>-1){
+	assetWindow = window.open ('','imgWin','toolbar=no,scrollbars=yes,resizable=yes,width=600,height=480');
+	assetWindow.document.open();
+	assetWindow.document.write("<HTML><HEAD><TITLE>The Sonic Memorial Project<\/TITLE><\/HEAD><BODY BGCOLOR=FFFEDC><table width=100% height=100% border=0 valign=center><tr><td align=center><p><B><b><font face=arial color=000033 size=+1>"+assetTITLE+"<\/font><\/b><\/B><br><center><IMG SRC="+assetURL+"><br><\/center><BR><font face=arial color=000033 size=-1>"+assetCAPTION+"<\/font><br><\/td><\/tr><\/table><\/BODY><\/HTML>");
+	assetWindow.document.close();
+}
+}
+
+/* // end central randomizer. --> */
+
+</script>
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '102']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+
+<BODY BGCOLOR="#FFFEDC" TEXT="#000033" TOPMARGIN="0" LEFTMARGIN="0" MARGINHEIGHT="0" MARGINWIDTH="0" LINK="#000033" ALINK="#000099" VLINK="#000066">
+<div class="notice" style="font-size: 12px; display: flex; align-items: center; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; margin-bottom: 0;">
+    <a href="https://rrchnm.org" target="_blank"><img src="https://sonicmemorial.org/images/nav/rrchnm_logo.png" alt="RRCHNM Logo" style="height: 30px; margin-right: 15px;"/></a>
+    <div>
+    This is a static copy of the final website maintained by the <a href="https://rrchnm.org" target="_blank">Roy Rosenzweig Center for History and New Media</a>.
+    </div>
+</div>
+<div id="sm-banner-wrap" style="position:relative;">
+
+
+
+<!-- *** 1st DOTLINE LAYER *** -->
+<DIV STYLE="position:absolute; top:0px; left:14px; z-index:10;">
+<IMG SRC="images/top_dotline1.gif" WIDTH="5" HEIGHT="50" BORDER="0"></DIV>
+<!-- *** END 1st DOTLINE LAYER *** -->
+
+
+<!-- *** 2nd DOTLINE LAYER *** -->
+<DIV STYLE="position:absolute; top:0px; left:747px; z-index:10;">
+<IMG SRC="images/top_dotline2.gif" WIDTH="5" HEIGHT="50" BORDER="0"></DIV>
+<!-- *** END 2nd DOTLINE LAYER *** -->
+
+
+<!-- *** LOGO LAYER *** -->
+<DIV STYLE="position:absolute; top:0px; left:31px; z-index:10;">
+<A HREF="index.html"><IMG SRC="images/sub_logo4.gif" WIDTH="291" HEIGHT="21" BORDER="0"></a></DIV>
+<!-- *** END LOGO LAYER *** -->
+
+
+
+
+
+
+
+<!-- ******* HEADER ******* -->
+<!-- ********************** -->
+<TABLE WIDTH="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+<TR BGCOLOR="000033"><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="10" BORDER="0"></TD></TR>
+<TR BGCOLOR="000066"><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="4" BORDER="0"></TD></TR>
+<TR BGCOLOR="012666"><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="6" BORDER="0"></TD></TR>
+<TR BGCOLOR="013F7C"><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="1" BORDER="0"></TD></TR>
+<TR BGCOLOR="012666"><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="7" BORDER="0"></TD></TR>
+<TR BGCOLOR="012666"><TD ALIGN="left">
+
+	<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 BGCOLOR="000033">
+	<TR>
+	<TD BGCOLOR="012666"><IMG SRC="images/redsquare_left.gif" WIDTH="6" HEIGHT="17" BORDER="0"></TD>
+	<TD BGCOLOR="012666"><IMG SRC="images/spacer.gif" WIDTH="14" HEIGHT="1" BORDER="0"></TD>
+	<!-- *** MAIN NAV *** -->
+	<TD><IMG SRC="images/spacer.gif" WIDTH="6" HEIGHT="1" BORDER="0"></TD>
+	<TD><a href="javascript:openBrowserWindow();" onmouseover="MM_swapImage('browser','','images/nav/sub_browser_on.gif',0)" onmouseout="MM_swapImgRestore()"><IMG SRC="images/nav/sub_browser_off.gif" ALT="Sonic Browser" name="browser" WIDTH="115" HEIGHT="17" BORDER="0"></a></TD>
+	<TD><IMG SRC="images/spacer.gif" WIDTH="21" HEIGHT="1" BORDER="0"></TD>
+	<TD><IMG SRC="images/nav/sub_archive_on.gif" ALT="ARCHIVE" name="archive" WIDTH="64" HEIGHT="17" BORDER="0"></TD>
+	<TD><IMG SRC="images/spacer.gif" WIDTH="21" HEIGHT="1" BORDER="0"></TD>
+	<TD><a href="stories.html" onmouseover="MM_swapImage('stories','','images/nav/sub_stories_on.gif',0)" onmouseout="MM_swapImgRestore()"><IMG SRC="images/nav/sub_stories_off.gif" ALT="Stories" name="stories" WIDTH="63" HEIGHT="17" BORDER="0"></a></TD>
+	<TD><IMG SRC="images/spacer.gif" WIDTH="21" HEIGHT="1" BORDER="0"></TD>
+	<TD><a href="about.html" onmouseover="MM_swapImage('about','','images/nav/sub_about_on.gif',0)" onmouseout="MM_swapImgRestore()"><IMG SRC="images/nav/sub_about_off.gif" ALT="About" name="about" WIDTH="52" HEIGHT="17" BORDER="0"></a></TD>
+	<TD><IMG SRC="images/spacer.gif" WIDTH="21" HEIGHT="1" BORDER="0"></TD>
+	<TD><a href="add.html" onmouseover="MM_swapImage('add','','images/nav/sub_add_on.gif',0)" onmouseout="MM_swapImgRestore()"><IMG SRC="images/nav/sub_add_off.gif" ALT="Add a Story" name="add" WIDTH="89" HEIGHT="17" BORDER="0"></a></TD>
+	<TD><IMG SRC="images/spacer.gif" WIDTH="21" HEIGHT="1" BORDER="0"></TD>
+	<TD><a href="educators.html" onmouseover="MM_swapImage('educators','','images/nav/sub_educators_on.gif',0)" onmouseout="MM_swapImgRestore()"><IMG SRC="images/nav/sub_educators_off.gif" ALT="For Educators" name="educators" WIDTH="110" HEIGHT="17" BORDER="0"></a></TD>	
+	<TD><IMG SRC="images/spacer.gif" WIDTH="21" HEIGHT="1" BORDER="0"></TD>
+	<TD><a href="timeline.html" onmouseover="MM_swapImage('timeline','','images/nav/sub_timeline_on.gif',0)" onmouseout="MM_swapImgRestore()"><IMG SRC="images/nav/sub_timeline_off.gif" ALT="Timeline" name="timeline" WIDTH="68" HEIGHT="17" BORDER="0"></a></TD>	
+	<TD><IMG SRC="images/spacer.gif" WIDTH="17" HEIGHT="1" BORDER="0"></TD>
+	<TD BGCOLOR="012666"><IMG SRC="images/spacer.gif" WIDTH="27" HEIGHT="1" BORDER="0"></TD>
+	<TD BGCOLOR="012666"><IMG SRC="images/redsquare.gif" WIDTH="8" HEIGHT="16" BORDER="0"></TD>
+	<!-- *** END MAIN NAV *** -->
+	
+	</TR>
+	</TABLE>	
+	
+</TD></TR>
+<TR BGCOLOR="012666"><TD align=left><IMG SRC="images/archive_header_lines1.gif" WIDTH="801" HEIGHT="12" BORDER="0"></TD></TR>
+<TR><TD align=left><IMG SRC="images/archive_header_lines2.gif" WIDTH="801" HEIGHT="23" BORDER="0"></TD></TR>
+<TR><TD align=left>
+
+	<TABLE BORDER=0 WIDTH=730 CELLPADDING=0 CELLSPACING=0>
+	<TR valign=middle>
+	<TD width=290><script language="JavaScript">/* <!-- */ document.write('<img src="images/archive_image0' + rand(3) + '.jpg" width="290" height="114">'); /* --> */</script></TD>
+	<TD width=20><IMG SRC="images/spacer.gif" WIDTH="20" HEIGHT="1" BORDER="0"></TD>
+	<TD width=420 class="txt12BlueB">Hundreds of people have contributed personal and historic audio artifacts to this archive. You also will find interviews and oral histories from the last 70 years. You can search them by theme, name, noun, or date.
+		<br>
+		<BR>Visit the <a href="javascript:openBrowserWindow();" class="txt12Orange">Sonic Browser</a>  to explore these sounds in an immersive soundscape.
+		<a href="add.html" ALT="Add a Story" class="txt12Orange">Do you have a sound or story to contribute?</a> 
+		</TD>
+	</TR>
+	</TABLE>
+
+	
+</TD></TR>
+</TABLE>
+<!-- ************************** -->
+<!-- ******* END HEADER ******* -->
+
+
+<!-- ******* SEARCH ******* -->
+<!-- ********************** -->
+<TABLE BGCOLOR="FFEDB1" BORDER=0 WIDTH=730 CELLPADDING=0 CELLSPACING=0>
+
+<TR><TD colspan=4><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="10" BORDER="0"></TD></TR>
+<TR><TD WIDTH=35><IMG SRC="images/spacer.gif" WIDTH="35" HEIGHT="1" BORDER="0"></TD>
+<TD WIDTH=260>
+
+<form method="post" name="search_form" action="https://sonicmemorial.org/&lt;%=Constants.get("REL_SERVER_ROOT")%><%=Constants.get("CONTROLLER_ACTION_WORD")%>?action=PublicQuickSearchHandler">
+	<input type="hidden" name="search_by" value="keyword">
+	<TABLE BORDER=0 CELLSPACING=2>
+	<TR><TD colspan=2 class="txt12BlueB">Search by theme:</TD></TR>
+	<TR><TD>
+	<select name="param" style="width:170px; height:17px;">
+        <option value="">select a theme</option>
+	<sonic:keywords>
+	<option <%=current_keyword.getSelectStringForWord((String)session.getAttribute("search_keyword"))%> value="<%=current_keyword.getWord() %>"><%=current_keyword.getWord() %></option>
+        </sonic:keywords>
+        <!--<option value="load_all">Load All</option>-->
+	</select></TD><TD><input type="image" src="images/button_go.gif" name="search_by_go" value="keyword" border=0>&nbsp;&nbsp;&nbsp;<span class="txt12BlueB">OR</span></TD></TR>
+	</TABLE>
+</TD>
+<TD WIDTH=350>
+</form>	
+<form method="post" name="search_form" action="https://sonicmemorial.org/&lt;%=Constants.get("REL_SERVER_ROOT")%><%=Constants.get("CONTROLLER_ACTION_WORD")%>?action=PublicQuickSearchHandler">	
+
+	<TABLE BORDER=0 CELLSPACING=2>
+	<TR><TD colspan=2 class="txt12BlueB">Search by any word, name or date:</TD></TR>
+	<input type="hidden" name="search_by" value="all">
+	<TR><TD><INPUT type="text" name="param" width=30 style="width:170px; height:17px;"></TD><TD><input type="image" src="images/button_go.gif" border=0></TD></TR>
+	</TABLE>
+
+</TD><TD valign=top><table BORDER=0 CELLSPACING=2><tr><td><div align="right">
+              <p class="captionBlue"><A HREF="Javascript:Pop('audiohelp.html','0');"> 
+                <span class="txt11Orange">[Audio Help]</span><IMG SRC="images/spacer.gif" WIDTH="10" HEIGHT="5" BORDER="0"></a><br>
+            </div></td></tr></table></TD>
+</TR>	
+<TR><TD colspan=4><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="10" BORDER="0"></TD></TR>
+</form>
+<jLib:If predicate="<%= c.size() <= 0 %>">
+<sess:existsAttribute name="search_word">
+<tr align=center><td></td><td colspan=3><span class="txt16Orange">* * * No sound files were found for "<sess:attribute name="search_word"/> " * * *</span><br><span class="txt12Blue">If you can't find what you are looking try searching for a specific word instead of a phrase.<br>If you are searching for sounds related to September 11 try searching under  "9/11".</span>
+<BR><BR></td>
+</tr>
+<sess:removeAttribute name="search_word"/>
+</sess:existsAttribute>
+</jLib:If>
+
+</TABLE>
+<!-- ************************** -->
+<!-- ******* END SEARCH ******* -->
+
+
+
+<!-- *** CONTENT *** -->
+<!-- *************** -->
+<TABLE BORDER=0 WIDTH=730 CELLPADDING=0 CELLSPACING=0>
+<TR><TD colspan=2><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="10" BORDER="0"></TD></TR>
+<TR>
+<TD WIDTH=35><IMG SRC="images/spacer.gif" WIDTH="35" HEIGHT="1" BORDER="0"></TD>
+<TD WIDTH=695><IMG SRC="images/dotline695_blue1.gif" WIDTH="695" HEIGHT="1" BORDER="0"><BR>
+<IMG SRC="images/dotline695_blue2.gif" WIDTH="695" HEIGHT="1" BORDER="0" VSPACE=2></TD>
+</TR>
+<TR><TD colspan=2><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="20" BORDER="0"></TD></TR>
+<TR valign=top align=left><TD WIDTH=20><IMG SRC="images/redsquare_left.gif" WIDTH="6" HEIGHT="17" BORDER="0"></TD>
+<TD class="txt12Blue">	
+
+
+<jLib:If predicate="<%= c.size() <= 0 %>">
+<!-- FEATURED AUDIO -->
+    <span class="txt16Orange">Recent Audio Contributions</span>
+    <BR><BR>
+    
+    <ol>
+    <sonic:sound_unit id="829">
+    <B><li></B><B><%=current_sound_unit.getTitle()%> </B><BR>
+    <%=current_sound_unit.getDescription()%>
+    <BR><BR>
+    <table border=0 cellpadding=3 cellspacing=0>
+    <sonic:children>
+    <tr>
+    <td><A HREF="javascript:assetsWindow('<%=Constants.get("MEDIA_SERVER_ROOT")%><%=current_child.getUri()%>','test')" onMouseOver="status='Listen to Audio';return true;" onMouseOut="status='';" ><IMG SRC="images/archive_im_listen.gif" WIDTH="68" HEIGHT="14" BORDER="0" TARGET="sndWindow" ></A></td>
+    <td class="txt12Blue"><%=current_child.getDurationFormatted()%></td>
+    </tr>
+    </sonic:children>
+    <sonic:link>
+    <tr valign=top>
+    <td><IMG SRC="images/archive_im_radiostory.gif" WIDTH="68" HEIGHT="14" BORDER="0"></td>
+    <td class="txt12Blue"><%=current_link.getLinkTitle()%></td>
+    </tr>
+    </sonic:link>
+    <sonic:assoc_assets_inner>
+    <jLib:If predicate="<%=current_asset.getAssetUri() != null && current_asset.getAssetUri().length() > 0 %>">
+    <tr valign=top>
+    <td><A HREF="javascript:assetsWindowById('<%=Constants.get("MEDIA_SERVER_ROOT")%><%=current_asset.getAssetUri()%>','<%=current_asset.getId()%>')" onMouseOver="status='View Image';return true;" onMouseOut="status='';" class="txt12Blue"><IMG SRC="images/archive_im_img.gif" WIDTH="68" HEIGHT="14" BORDER="0"></a></td>
+    <td class="txt12Blue">
+      <A HREF="javascript:assetsWindowById('<%=Constants.get("MEDIA_SERVER_ROOT")%><%=current_asset.getAssetUri()%>','<%=current_asset.getId()%>')" onMouseOver="status='View Image';return true;" onMouseOut="status='';" class="txt12Blue"><%=current_asset.getTitle()%></A></td>
+    </tr>    
+    </jLib:If>
+    </sonic:assoc_assets_inner>
+   	</table>
+    </sonic:sound_unit>
+    <BR><BR>
+    <sonic:sound_unit id="842">
+    <B><li></B><B><%=current_sound_unit.getTitle()%> </B><BR>
+    <%=current_sound_unit.getDescription()%>
+    <BR><BR>
+    <table border=0 cellpadding=3 cellspacing=0>
+    <sonic:children>
+    <tr>
+    <td><A HREF="javascript:assetsWindow('<%=Constants.get("MEDIA_SERVER_ROOT")%><%=current_child.getUri()%>','<%=current_sound_unit.getId()%>')" onMouseOver="status='Listen to Audio';return true;" onMouseOut="status='';"><IMG SRC="images/archive_im_listen.gif" WIDTH="68" HEIGHT="14" BORDER="0" TARGET="sndWindow"></A></td>
+    <td class="txt12Blue"><%=current_child.getDurationFormatted()%></td>
+    </tr>
+    </sonic:children>
+    <sonic:link>
+    <tr valign=top>
+    <td><IMG SRC="images/archive_im_radiostory.gif" WIDTH="68" HEIGHT="14" BORDER="0"></td>
+    <td class="txt12Blue"><A HREF="javascript:alert('<%=current_link.getLinkTitle()%>');" class="txt12Blue"><%=current_link.getLinkTitle()%></A></td>
+    </tr>
+    </sonic:link>
+    <sonic:assoc_assets_inner>
+    <jLib:If predicate="<%=current_asset.getAssetUri() != null && current_asset.getAssetUri().length() > 0 %>">
+    <tr valign=top>
+    <td><A HREF="javascript:assetsWindowById('<%=Constants.get("MEDIA_SERVER_ROOT")%><%=current_asset.getAssetUri()%>','<%=current_asset.getId()%>')" onMouseOver="status='View Image';return true;" onMouseOut="status='';" class="txt12Blue" > <IMG SRC="images/archive_im_img.gif" WIDTH="68" HEIGHT="14" BORDER="0"></a></td>
+    <td class="txt12Blue"><A HREF="javascript:assetsWindowById('<%=Constants.get("MEDIA_SERVER_ROOT")%><%=current_asset.getAssetUri()%>','<%=current_asset.getId()%>')" onMouseOver="status='View Image';return true;" onMouseOut="status='';" class="txt12Blue" > <%=current_asset.getTitle()%></A></td>
+    </tr>    
+    </jLib:If>
+    </sonic:assoc_assets_inner>
+   	</table>
+    </sonic:sound_unit>
+    <BR><BR>
+    <sonic:sound_unit id="862">
+    <B><li></B><B><%=current_sound_unit.getTitle()%> </B><BR>
+    <%=current_sound_unit.getDescription()%>
+    <BR><BR>
+    <table border=0 cellpadding=3 cellspacing=0>
+    <sonic:children>
+    <tr>
+    <td><A HREF="javascript:assetsWindow('<%=Constants.get("MEDIA_SERVER_ROOT")%><%=current_child.getUri()%>','<%=current_sound_unit.getTitle()%>')" onMouseOver="status='Listen to Audio';return true;" onMouseOut="status='';"><IMG SRC="images/archive_im_listen.gif" WIDTH="68" HEIGHT="14" BORDER="0" TARGET="sndWindow"></A></td>
+    <td class="txt12Blue"><%=current_child.getDurationFormatted()%></td>
+    </tr>
+    </sonic:children>
+    <sonic:link>
+    <tr valign=top>
+    <td><IMG SRC="images/archive_im_radiostory.gif" WIDTH="68" HEIGHT="14" BORDER="0"></td>
+    <td class="txt12Blue"><A HREF="javascript:alert('<%=current_link.getLinkTitle()%>');" class="txt12Blue"><%=current_link.getLinkTitle()%></A></td>
+    </tr>
+    </sonic:link>
+    <sonic:assoc_assets_inner>
+    <jLib:If predicate="<%=current_asset.getAssetUri() != null && current_asset.getAssetUri().length() > 0 %>">
+    <tr valign=top>
+    <td><A HREF="javascript:assetsWindow('<%=Constants.get("MEDIA_SERVER_ROOT")%><%=current_asset.getAssetUri()%>','<%=current_sound_unit.getTitle()%>')" onMouseOver="status='View Image';return true;" onMouseOut="status='';" class="txt12Blue" > <IMG SRC="images/archive_im_img.gif" WIDTH="68" HEIGHT="14" BORDER="0"></a></td>
+    <td class="txt12Blue"><A HREF="javascript:assetsWindowById('<%=Constants.get("MEDIA_SERVER_ROOT")%><%=current_asset.getAssetUri()%>','<%=current_asset.getId()%>')" onMouseOver="status='View Image';return true;" onMouseOut="status='';" class="txt12Blue" > <%=current_asset.getTitle()%></A></td>
+    </tr>    
+    </jLib:If>
+    </sonic:assoc_assets_inner>
+   	</table>
+    </sonic:sound_unit>
+    <BR><BR>
+    <sonic:sound_unit id="803">
+    <B><li></B><B><%=current_sound_unit.getTitle()%> </B><BR>
+    <%=current_sound_unit.getDescription()%>
+    <BR><BR>
+    <table border=0 cellpadding=3 cellspacing=0>
+    <sonic:children>
+    <tr>
+    <td><A HREF="javascript:assetsWindow('<%=Constants.get("MEDIA_SERVER_ROOT")%><%=current_child.getUri()%>','<%=current_sound_unit.getTitle()%>')" onMouseOver="status='Listen to Audio';return true;" onMouseOut="status='';"><IMG SRC="images/archive_im_listen.gif" WIDTH="68" HEIGHT="14" BORDER="0" TARGET="sndWindow"></A></td>
+    <td class="txt12Blue"><%=current_child.getDurationFormatted()%></td>
+    </tr>
+    </sonic:children>
+    <sonic:link>
+    <tr valign=top>
+    <td><IMG SRC="images/archive_im_radiostory.gif" WIDTH="68" HEIGHT="14" BORDER="0"></td>
+    <td class="txt12Blue"><A HREF="javascript:alert('<%=current_link.getLinkTitle()%>');" class="txt12Blue"><%=current_link.getLinkTitle()%></A></td>
+    </tr>
+    </sonic:link>
+    <sonic:assoc_assets_inner>
+    <jLib:If predicate="<%=current_asset.getAssetUri() != null && current_asset.getAssetUri().length() > 0 %>">
+    <tr valign=top>
+    <td><A HREF="javascript:assetsWindowById('<%=Constants.get("MEDIA_SERVER_ROOT")%><%=current_asset.getAssetUri()%>','<%=current_asset.getId()%>')" onMouseOver="status='View Image';return true;" onMouseOut="status='';" class="txt12Blue" > <IMG SRC="images/archive_im_img.gif" WIDTH="68" HEIGHT="14" BORDER="0"></a></td>
+    <td class="txt12Blue"><A HREF="javascript:assetsWindowById('<%=Constants.get("MEDIA_SERVER_ROOT")%><%=current_asset.getAssetUri()%>','<%=current_asset.getId()%>')" onMouseOver="status='View Image';return true;" onMouseOut="status='';" class="txt12Blue" > <%=current_asset.getTitle()%></A></td>
+    </tr>    
+    </jLib:If>
+    </sonic:assoc_assets_inner>
+   	</table>
+    </sonic:sound_unit>
+   </ol>
+
+</jLib:If>
+	<!-- END FEATURED AUDIO  -->
+	<BR>	
+
+
+<jLib:If predicate="<%=c.size() > 0%>">
+
+
+<list:init name="su" max="5" listCreator="list_creator">
+	<!-- SEARCH RESULTS -->
+    <span class="txt16Orange">Your search results for: &lt;<sess:attribute name="search_word"/>&gt;</span>
+    <BR><BR>
+[<list:prop property="start"/> - <list:prop property="end"/> of  <list:prop property="size"/> Records]    
+    <ol start=<list:prop property="start"/>>
+<list:iterate>
+ <sonic:sound_unit_iter>
+
+    <BR><BR>
+    <B><li></B><B><%= current_sound_unit.getTitle()%></B><BR>
+    <jLib:If predicate="<%= current_sound_unit.getDescription() != null%>">
+    <%= current_sound_unit.getDescription() %>
+    </jLib:If>
+    <BR><BR>
+    <table border=0 cellpadding=3 cellspacing=0>
+    <sonic:children>
+    <tr>
+    <td><A HREF="javascript:assetsWindow('<%=Constants.get("MEDIA_SERVER_ROOT")%><%= current_child.getUri()%>')" onMouseOver="status='Listen to Audio';return true;" onMouseOut="status='';" ><IMG SRC="images/archive_im_listen.gif" WIDTH="68" HEIGHT="14" BORDER="0" TARGET="sndWindow"></A></td>
+    <td class="txt12Blue"><%= current_child.getDurationFormatted() %></td>
+    </tr>
+    </sonic:children>
+    <sonic:link>
+    <tr valign=top>
+    <td><IMG SRC="images/archive_im_radiostory.gif" WIDTH="68" HEIGHT="14" BORDER="0"></td>
+    <td class="txt12Blue"><A HREF="javascript:alert('<%=current_link.getLinkTitle()%>');" class="txt12Blue" ><%=current_link.getLinkTitle()%></A></td>
+    </tr>
+    </sonic:link>
+    <sonic:assoc_assets_inner>
+    <tr valign=top>
+    <td><IMG SRC="images/archive_im_img.gif" WIDTH="68" HEIGHT="14" BORDER="0"></td>
+    <td class="txt12Blue"><A HREF="javascript:assetsWindowById('<%=Constants.get("MEDIA_SERVER_ROOT")%><%=current_asset.getAssetUri()%>','<%=current_asset.getId()%>')" onMouseOver="status='View Image';return true;" onMouseOut="status='';" class="txt12Blue" ><%=current_asset.getTitle()%></A></td>
+    </tr>    
+    </sonic:assoc_assets_inner>
+   	</table>	
+
+ </sonic:sound_unit_iter>
+</list:iterate>    
+	</ol>
+    <list:hasPrev>
+       <a href="https://sonicmemorial.org/&lt;list:prevLink/&gt;" class="nav_sort">Prev</a>
+    </list:hasPrev>
+    <list:hasNext>&nbsp;&nbsp;
+    <a href="https://sonicmemorial.org/&lt;list:nextLink/&gt;" class="nav_sort">Next</a> 
+    </list:hasNext>
+
+
+</list:init>
+</ol>
+	<!-- END SEARCH RESULT -->
+</jLib:If>
+	
+<BR><BR>	
+<span class="txt11Blue">We have partnered with The September 11 Digital 
+      Archive to preserve these audio traces and sonic artifacts for years to 
+      come. <br>
+      <br>
+      All audio contributions are the property of Lost &amp; Found Sound, Picture Projects and/or 
+      the original creators. Any reproduction without express permission is strictly 
+      prohibited. To request a sound for any use, please contact us at: <A HREF="mailto:info@sonicmemorial.org">info@sonicmemorial.org.</a></span>		
+<BR>	
+</TD>
+</TR>	
+</TABLE>
+<!-- ******************* -->
+<!-- *** END CONTENT *** -->
+
+
+
+
+
+<!-- *** FOOTER LAYER *** -->
+<BR><BR>
+<TABLE WIDTH="730" BORDER="0" CELLPADDING="0" CELLSPACING="0" BGCOLOR="#000033">
+<TR>
+<TD WIDTH="35"><IMG SRC="images/spacer.gif" WIDTH="35" HEIGHT="1" BORDER="0"></TD>
+<TD WIDTH="680" ALIGN="right"><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="5" BORDER="0"><BR>
+<SPAN CLASS="copyright">contact: <A HREF="mailto:info@sonicmemorial.org" CLASS="copyright">info@sonicmemorial.org</A></SPAN><BR>
+<IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="5" BORDER="0"></TD>
+<TD WIDTH="15"><IMG SRC="images/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></TD>
+</TR>
+</TABLE>
+
+<BR><BR>
+
+<!-- *** END FOOTER LAYER *** -->
+
+
+
+
+
+</div>
+</BODY>
+
+</HTML>
+
+

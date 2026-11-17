@@ -89,6 +89,8 @@ def slide_parents():
 def img_alt(doc, p):
     def fix(m):
         tag = m.group(0)
+        # filename alts on three Radio Row slides: drop them so utils/alt-text describes the pictures
+        tag = re.sub(r'\salt="(lgradiorow1955|radiolgad1| )"', '', tag)
         if re.search(r'\salt=', tag, re.I):
             return tag
         src = re.search(r'src="([^"]+)"', tag, re.I)

@@ -39,3 +39,7 @@ button#mobile_nav { width: 100%; border: 0; font-family: inherit; cursor: pointe
   #sidebar, #sidebar .widget { width: auto !important; max-width: 100%; }
   img { max-width: 100%; height: auto; }
 }
+
+/* RRCHNM static-copy banner (scripts/dimenovels_banner.py) */
+.notice { color: #222; font-family: Arial, Helvetica, sans-serif; }
+.notice a { color: #1a4d8f !important; text-decoration: underline !important; }

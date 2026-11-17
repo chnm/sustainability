@@ -29,6 +29,10 @@ assert gat.image_key("/s/img/large/ab12.jpg") == "/s/img/large/ab12.jpg"   # not
 assert gat.largest_derivative("https://x.org/files/square/ab12.jpg") == "https://x.org/files/large/ab12.jpg"
 assert gat.largest_derivative("/s/files/square_thumbnails/ab12.jpg") == "/s/files/fullsize/ab12.jpg"
 assert gat.largest_derivative("/s/img/square/ab12.jpg") == "/s/img/square/ab12.jpg"
+# Omeka 1.x item-file routes (gulaghistory): one key per file id, described from the download copy
+assert gat.largest_derivative("/s/files/display/187/square_thumbnail.jpg") == "/s/files/download/187/fullsize.jpg"
+assert gat.image_key("/s/files/display/187/square_thumbnail.jpg") == gat.image_key("/s/files/download/187/fullsize.jpg")
+assert gat.image_key("/s/files/display/187/fullsize.jpg") != gat.image_key("/s/files/display/188/fullsize.jpg")
 not_desc = "I'm not able to view the image you intended to attach—it looks like text content came through instead."
 assert gat.NOT_A_DESCRIPTION_RE.search(not_desc)
 assert not gat.NOT_A_DESCRIPTION_RE.search('A sign reading "Please wear a mask, I\'m vaccinated" taped to a synagogue door.')

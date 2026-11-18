@@ -17,7 +17,6 @@ Flattened, static versions of retired RRCHNM web projects, kept here so repairs,
 | Harambee City                                | `harambeecity/`                    | harambeecity.rrchnm.org               | Omeka           | 2024 |
 | History Matters                              | `historymatters.gmu.edu/`          | historymatters.gmu.edu                | Custom          | 2026 |
 | Imaging the French Revolution                | `imagingthefrenchrevolution/`      | imagingthefrenchrevolution.rrchnm.org | Custom          | 2026 |
-| Islam Perspectives                           | `islamperspectives/`               | islampers.dev.chnm.gmu.edu (dev)      | Omeka           | 2026 |
 | Mall History                                 | `mallhistory/`                     | mallhistory.org                       | Omeka           | 2026 |
 | Maritime Asia                                | `maritime/`                        | maritime-asia.org                     | Drupal          | 2023 |
 | Material Histories of the Indian Ocean World | `iowmaterialhistorieswebinar.org/` | iowmaterialhistorieswebinar.org       | Omeka S         | 2026 |
@@ -42,6 +41,7 @@ Larger Hugo builds that outgrew the monorepo, or never lived here, have their ow
 | 9/11 Digital Archive          | [chnm/911digitalarchive](https://github.com/chnm/911digitalarchive)   | 911digitalarchive.org   |
 | Bracero History Archive       | [chnm/braceroarchive](https://github.com/chnm/braceroarchive)         | braceroarchive.org      |
 | Hearing the Americas          | [chnm/hearingtheamericas](https://github.com/chnm/hearingtheamericas) | hearingtheamericas.org¹ |
+| Russian Perspectives on Islam | [chnm/islamperspectives](https://github.com/chnm/islamperspectives)   | islamperspectives.org   |
 
 ## Tools and guides
 
